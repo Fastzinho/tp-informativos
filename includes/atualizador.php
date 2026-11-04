@@ -23,29 +23,32 @@ function tpi_release_github() {
 	if ( false !== $cache ) {
 		return $cache;
 	}
-	$resp = wp_remote_get(
-		'https://api.github.com/repos/' . TPI_REPO . '/releases/latest',
-		array( 'timeout' => 10, 'headers' => array( 'Accept' => 'application/vnd.github+json', 'User-Agent' => 'tp-informativos' ) )
-	);
-	$dados = null;
+	$args  = array( 'timeout' => 10, 'headers' => array( 'Accept' => 'application/vnd.github+json', 'User-Agent' => 'tp-informativos' ) );
+	$dados = array();
+	// 1) Release com o asset tp-informativos.zip (quando houver).
+	$resp = wp_remote_get( 'https://api.github.com/repos/' . TPI_REPO . '/releases/latest', $args );
 	if ( ! is_wp_error( $resp ) && 200 === wp_remote_retrieve_response_code( $resp ) ) {
 		$j = json_decode( wp_remote_retrieve_body( $resp ), true );
 		foreach ( (array) ( $j['assets'] ?? array() ) as $a ) {
 			if ( 'tp-informativos.zip' === ( $a['name'] ?? '' ) ) {
-				$dados = array(
-					'versao'  => ltrim( (string) $j['tag_name'], 'v' ),
-					'pacote'  => $a['browser_download_url'],
-					'url'     => $j['html_url'],
-					'notas'   => (string) ( $j['body'] ?? '' ),
-					'data'    => (string) ( $j['published_at'] ?? '' ),
-				);
+				$dados = array( 'versao' => ltrim( (string) $j['tag_name'], 'v' ), 'pacote' => $a['browser_download_url'], 'url' => $j['html_url'], 'notas' => (string) ( $j['body'] ?? '' ), 'data' => (string) ( $j['published_at'] ?? '' ) );
 				break;
 			}
 		}
 	}
+	// 2) Sem release: a maior tag vX.Y.Z, baixada como o zip que o GitHub gera para a tag.
+	$resp = wp_remote_get( 'https://api.github.com/repos/' . TPI_REPO . '/tags?per_page=100', $args );
+	if ( ! is_wp_error( $resp ) && 200 === wp_remote_retrieve_response_code( $resp ) ) {
+		foreach ( (array) json_decode( wp_remote_retrieve_body( $resp ), true ) as $tag ) {
+			$v = ltrim( (string) ( $tag['name'] ?? '' ), 'v' );
+			if ( preg_match( '/^\d+\.\d+\.\d+$/', $v ) && ( empty( $dados['versao'] ) || version_compare( $v, $dados['versao'], '>' ) ) ) {
+				$dados = array( 'versao' => $v, 'pacote' => 'https://github.com/' . TPI_REPO . '/archive/refs/tags/' . rawurlencode( $tag['name'] ) . '.zip', 'url' => 'https://github.com/' . TPI_REPO . '/tree/' . rawurlencode( $tag['name'] ), 'notas' => '', 'data' => '' );
+			}
+		}
+	}
 	// 6 h com resultado; 1 h sem (repo vazio, limite da API ou rede fora).
-	set_site_transient( 'tpi_release', $dados ? $dados : array(), $dados ? 6 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
-	return $dados ? $dados : array();
+	set_site_transient( 'tpi_release', $dados, $dados ? 6 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
+	return $dados;
 }
 
 add_filter( 'pre_set_site_transient_update_plugins', function ( $t ) {
@@ -94,7 +97,7 @@ add_filter( 'plugins_api', function ( $res, $acao, $args ) {
 	);
 }, 10, 3 );
 
-/* O zip da release já vem com a pasta tp-informativos/; garante o nome da pasta mesmo assim. */
+/* O zip de tag do GitHub vem com a pasta tp-informativos-X.Y.Z/; renomeia para tp-informativos/. */
 add_filter( 'upgrader_source_selection', function ( $origem, $remoto, $upgrader, $extra = array() ) {
 	if ( empty( $extra['plugin'] ) || plugin_basename( TPI_ARQUIVO ) !== $extra['plugin'] ) {
 		return $origem;
