@@ -1,0 +1,347 @@
+/*
+ * TP Informativos 0.4: identidade do Tchau Pobreza (verde, areia, Manrope).
+ * Ideia central: página de estudo. A tese aparece grifada com marca-texto; o resto fica quieto.
+ * O tema do site é claro, por isso não há modo escuro aqui (caixas escuras sobre página clara).
+ */
+:root {
+  --tpi-verde: #2c5748;
+  --tpi-verde-escuro: #1f4135;
+  --tpi-areia: #b9955b;
+  --tpi-marca: #f2e3bf;
+  --tpi-tinta: #1e2b26;
+  --tpi-suave: #55645d;
+  --tpi-nevoa: #f1f5f2;
+  --tpi-linha: #d6dfda;
+  --tpi-raio: 12px;
+  --tpi-raio-p: 8px;
+}
+
+/* Tema: esconde "Escrito por admin em" só nas páginas de informativo (o plugin mostra a assinatura). */
+.tpi-pagina .wp-block-group:has(> .wp-block-post-author-name) { display: none; }
+.tpi-pagina .wp-block-post-title { margin-top: .5rem; letter-spacing: -.015em; line-height: 1.12; }
+.tpi-pagina .entry-content { color: var(--tpi-tinta); }
+.tpi-pagina .entry-content h2 { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.6rem); font-weight: 700; letter-spacing: -.01em; line-height: 1.25; margin: 3rem 0 .9rem; }
+.tpi-pagina .entry-content h3 { font-size: 1.25rem; font-weight: 700; margin: 2rem 0 .6rem; }
+.tpi-pagina .entry-content p, .tpi-pagina .entry-content li { line-height: 1.65; }
+.tpi-pagina .entry-content ul.wp-block-list:not([class*="tpi-"]) { padding-left: 1.2rem; }
+.tpi-pagina .entry-content ul.wp-block-list:not([class*="tpi-"]) li { margin: .45rem 0; padding-left: .2rem; }
+.tpi-pagina .entry-content ul.wp-block-list:not([class*="tpi-"]) li::marker { color: var(--tpi-areia); }
+.tpi-pagina .entry-content a { color: var(--tpi-verde); text-underline-offset: .18em; text-decoration-thickness: 1px; }
+.tpi-pagina .entry-content a:hover { color: var(--tpi-verde-escuro); text-decoration-thickness: 2px; }
+
+/* Capa: no periódico aparece inteira (16:9, sem corte); no julgado fica só para compartilhamento,
+   para a tese aparecer logo depois do título. */
+.tpi-tipo-periodico .wp-block-post-featured-image img { aspect-ratio: 16 / 9 !important; height: auto !important; object-fit: contain !important; border-radius: var(--tpi-raio); }
+.tpi-tipo-julgado .wp-block-post-featured-image, .tpi-tipo-tribunal .wp-block-post-featured-image { display: none; }
+
+/* Trilha */
+.tpi-trilha ol { list-style: none; display: flex; flex-wrap: wrap; gap: .25rem; margin: 0; padding: 0; font-size: .9rem; color: var(--tpi-suave); }
+.tpi-trilha li + li::before { content: "/"; margin-right: .3rem; color: #a9b8b0; }
+.tpi-trilha a { color: var(--tpi-verde); text-decoration: none; font-weight: 600; }
+.tpi-trilha a:hover { text-decoration: underline; }
+
+/* Assinatura e ficha */
+.tpi-assinatura { margin: 0 0 1.5rem; font-size: .95rem; color: var(--tpi-suave); }
+.tpi-assinatura p { margin: 0; line-height: 1.5; }
+.tpi-assinatura strong { color: var(--tpi-tinta); }
+.tpi-ficha { display: flex; flex-wrap: wrap; margin: 0 0 2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); overflow: hidden; background: #fff; }
+.tpi-ficha > div { flex: 1 1 9.5rem; padding: .7rem .9rem; border-right: 1px solid var(--tpi-linha); border-bottom: 1px solid var(--tpi-linha); margin: 0 -1px -1px 0; }
+.tpi-ficha dt { font-size: .8rem; color: var(--tpi-suave); margin: 0 0 .15rem; }
+.tpi-ficha dd { margin: 0; font-weight: 600; font-size: .95rem; line-height: 1.35; color: var(--tpi-tinta); }
+
+/* Destaque oficial: texto do tribunal, quieto e formal */
+.tpi-destaque { margin: 0 0 2.5rem; padding: 0 0 0 1.25rem; border-left: 3px solid var(--tpi-verde); }
+.tpi-destaque figcaption { font-size: .85rem; font-weight: 700; color: var(--tpi-verde); margin: 0 0 .4rem; }
+.tpi-destaque blockquote { margin: 0; padding: 0; border: 0; }
+.tpi-destaque blockquote p { margin: 0; font-size: inherit; line-height: 1.7; }
+
+/* A tese em citação: o único momento ousado da página (marca-texto) */
+.tpi-pagina .entry-content blockquote.tpi-tese { margin: 2rem 0 2.25rem; padding: .2rem 0 .2rem 1.4rem; border: 0; border-left: 6px solid var(--tpi-areia); background: none; }
+.tpi-pagina .entry-content blockquote.tpi-tese p { font-size: clamp(1.25rem, 1.05rem + .9vw, 1.55rem); font-weight: 600; line-height: 1.5; letter-spacing: -.01em; margin: 0; font-style: normal; }
+.tpi-tese p strong { font-weight: 800; background: linear-gradient(transparent 52%, var(--tpi-marca) 52%, var(--tpi-marca) 92%, transparent 92%); -webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 0 .12em; }
+.tpi-pagina .entry-content blockquote.tpi-tese cite { display: block; margin-top: .7rem; font-size: .88rem; font-style: normal; font-weight: 700; color: var(--tpi-suave); }
+
+/* Sumário */
+.tpi-sumario { margin: 0 0 2rem; padding: 1rem 1.2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); }
+.tpi-sumario__titulo { margin: 0 0 .4rem; font-weight: 700; font-size: .95rem; }
+.tpi-pagina .entry-content .tpi-sumario ol { margin: 0; padding-left: 1.3rem; columns: 2 16rem; column-gap: 2rem; }
+.tpi-pagina .entry-content .tpi-sumario li { margin: .2rem 0; break-inside: avoid; font-size: .95rem; line-height: 1.45; }
+.tpi-pagina .entry-content .tpi-sumario li::marker { color: var(--tpi-areia); font-weight: 700; }
+.tpi-pagina .entry-content .tpi-sumario a { text-decoration: none; }
+.tpi-pagina .entry-content .tpi-sumario a:hover { text-decoration: underline; }
+.tpi-pagina .entry-content h2[id] { scroll-margin-top: 1.5rem; }
+
+/* Bloco Detalhes (conceitos, gabaritos e flashcards) */
+.tpi-pagina .wp-block-details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; gap: .6rem; font-weight: 700; list-style: none; }
+.tpi-pagina .wp-block-details summary::-webkit-details-marker { display: none; }
+.tpi-pagina .wp-block-details summary::after { content: ""; flex: none; width: .55rem; height: .55rem; margin-left: auto; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .18s ease; }
+.tpi-pagina .wp-block-details[open] > summary::after { transform: rotate(-135deg) translateY(-2px); }
+.tpi-pagina .wp-block-details summary:focus-visible { outline: 3px solid var(--tpi-areia); outline-offset: 3px; border-radius: 4px; }
+
+.tpi-conceitos { margin: 2rem 0; padding: 1rem 1.1rem 1.1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio); }
+.tpi-pagina .entry-content .tpi-conceitos__aviso { font-size: .92rem; color: var(--tpi-suave); margin: 0 0 .6rem; }
+.tpi-conceito { background: #fff; border: 1px dashed #b8c6be; border-radius: var(--tpi-raio-p); padding: .2rem 1rem; margin: .5rem 0 0; }
+.tpi-conceito[open] { border-style: solid; padding-bottom: .6rem; }
+.tpi-conceito summary { color: var(--tpi-verde-escuro); }
+
+/* Questões */
+.tpi-questao { margin: 3rem 0 0; padding: 1.4rem 1.4rem 1.2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); }
+.tpi-pagina .entry-content .tpi-questao h2 { margin-top: 0; font-size: 1.3rem; }
+.tpi-pagina .entry-content .tpi-alternativas { list-style: none; counter-reset: alt; padding: 0; margin: 1rem 0; display: grid; gap: .5rem; }
+.tpi-pagina .entry-content .tpi-alternativas li { counter-increment: alt; display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; align-items: start; margin: 0; padding: .55rem .7rem; border-radius: var(--tpi-raio-p); background: var(--tpi-nevoa); }
+.tpi-alternativas li::before { content: counter(alt, upper-alpha); display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: #fff; border: 1px solid var(--tpi-linha); font-weight: 800; color: var(--tpi-verde); }
+.tpi-pagina .entry-content .tpi-assertiva { font-size: inherit; padding: .9rem 1rem; margin: .8rem 0 1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio-p); }
+.tpi-gabarito { border-top: 1px solid var(--tpi-linha); padding-top: .4rem; }
+.tpi-gabarito > summary { color: var(--tpi-verde); }
+.tpi-gabarito[open] > *:not(summary) { background: #fbf6ea; border-left: 3px solid var(--tpi-areia); padding: .8rem 1rem; border-radius: 0 var(--tpi-raio-p) var(--tpi-raio-p) 0; }
+
+/* Flashcards: frente e verso visíveis, prontos para levar ao Anki */
+.tpi-flashcards { display: grid; gap: .6rem; margin: 1rem 0 0; }
+.tpi-pagina .entry-content .tpi-flashcard { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); overflow: hidden; background: #fff; }
+.tpi-pagina .entry-content .tpi-flashcard p { margin: 0; padding: .85rem 1rem; line-height: 1.5; }
+.tpi-pagina .entry-content .tpi-flashcard__frente { font-weight: 700; }
+.tpi-pagina .entry-content .tpi-flashcard__verso { background: var(--tpi-nevoa); border-left: 1px dashed #b8c6be; color: var(--tpi-verde-escuro); }
+.tpi-anki { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: 1rem 0 0; }
+.tpi-pagina .entry-content .tpi-anki a.tpi-btn { background: #fff; color: var(--tpi-verde); }
+.tpi-pagina .entry-content .tpi-anki a.tpi-btn:hover { background: var(--tpi-nevoa); }
+.tpi-anki__dica { font-size: .88rem; color: var(--tpi-suave); }
+@media (max-width: 600px) {
+  .tpi-pagina .entry-content .tpi-flashcard { grid-template-columns: 1fr; }
+  .tpi-pagina .entry-content .tpi-flashcard__verso { border-left: 0; border-top: 1px dashed #b8c6be; }
+}
+
+/* Relacionados e fonte */
+.tpi-pagina .entry-content .tpi-relacionados { list-style: none; padding: 0; margin: 0; }
+.tpi-pagina .entry-content .tpi-relacionados li { padding: .75rem 0; border-bottom: 1px solid var(--tpi-linha); margin: 0; }
+.tpi-relacionados li:first-child { border-top: 1px solid var(--tpi-linha); }
+.tpi-fonte p { margin: 0; }
+
+/* Marcar como lido */
+.tpi-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .65rem 1.25rem; border-radius: 10px; border: 2px solid var(--tpi-verde); background: var(--tpi-verde); color: #fff; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; transition: background .15s; }
+.tpi-pagina .entry-content a.tpi-btn { color: #fff; text-decoration: none; }
+.tpi-btn:hover { background: var(--tpi-verde-escuro); border-color: var(--tpi-verde-escuro); }
+.tpi-btn:focus-visible, .tpi-card a:focus-visible, .tpi-pagina a:focus-visible { outline: 3px solid var(--tpi-areia); outline-offset: 3px; }
+
+/* Marcar como lido (0.4): checkbox nativo em um cartão. Não lido = caixa vazia e neutra; lido = verde cheio com check.
+   O estado nunca depende só da cor: muda também o ícone e o texto ("Não lido" / "Lido"). */
+.tpi-lido { position: relative; margin: 2.5rem 0 0; }
+.tpi-lido__campo { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.tpi-lido label { display: flex; align-items: center; gap: .85rem; min-height: 44px; padding: .85rem 1.1rem; border: 2px dashed var(--tpi-linha); border-radius: var(--tpi-raio); background: #fff; cursor: pointer; transition: border-color .15s, background .15s; }
+.tpi-lido label:hover { border-color: var(--tpi-verde); }
+.tpi-lido__icone { flex: none; width: 1.6rem; height: 1.6rem; border: 2px solid var(--tpi-suave); border-radius: 50%; background: #fff; position: relative; }
+.tpi-lido__texto { display: flex; flex-direction: column; line-height: 1.3; }
+.tpi-lido__estado { font-weight: 800; color: var(--tpi-tinta); }
+.tpi-lido__acao { font-size: .9rem; color: var(--tpi-suave); }
+.tpi-lido.is-lido label { border-style: solid; border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
+.tpi-lido.is-lido .tpi-lido__icone { background: var(--tpi-verde); border-color: var(--tpi-verde); }
+.tpi-lido.is-lido .tpi-lido__icone::after { content: ""; position: absolute; left: .5rem; top: .22rem; width: .38rem; height: .7rem; border-right: 3px solid #fff; border-bottom: 3px solid #fff; transform: rotate(45deg); }
+.tpi-lido.is-lido .tpi-lido__estado { color: var(--tpi-verde-escuro); }
+.tpi-lido__campo:focus-visible + label { outline: 3px solid var(--tpi-areia); outline-offset: 3px; }
+.tpi-lido[aria-busy="true"] label { cursor: progress; }
+.tpi-lido__erro:not(:empty) { display: block; margin-top: .4rem; font-size: .9rem; color: #9b2c2c; font-weight: 700; }
+.tpi-lido--topo { margin: 0 0 1.25rem; }
+.tpi-lido--topo label { padding: .6rem .9rem; }
+@media (min-width: 700px) { .tpi-lido--topo label { display: inline-flex; } }
+.tpi-lido-cta { margin: 2.5rem 0 0; }
+.tpi-lido-cta { padding: 1rem 1.1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio); }
+
+/* Newsletter */
+.tpi-newsletter { margin: 3rem 0 1rem; padding: 1.6rem 1.5rem; border-radius: var(--tpi-raio); background: var(--tpi-verde); color: #fff; }
+.tpi-pagina .entry-content .tpi-newsletter h2 { margin: 0 0 .5rem; color: #fff; font-size: 1.35rem; }
+.tpi-newsletter p { margin: 0 0 1rem; color: #dfe9e4; }
+.tpi-newsletter p:last-child { margin: 0; }
+.tpi-pagina .entry-content .tpi-newsletter a.tpi-btn { background: #fff; border-color: #fff; color: var(--tpi-verde-escuro); }
+.tpi-pagina .entry-content .tpi-newsletter a.tpi-btn:hover { background: var(--tpi-marca); border-color: var(--tpi-marca); }
+.tpi-newsletter .tpi-btn:focus-visible { outline-color: var(--tpi-marca); }
+
+/* Cards (lista de julgados e últimas edições) */
+.tpi-cards { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .75rem; }
+.tpi-card { position: relative; margin: 0; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); padding: 1.1rem 1.2rem; background: #fff; transition: border-color .15s; }
+.tpi-card:hover { border-color: var(--tpi-verde); }
+.tpi-card.is-lido { background: var(--tpi-nevoa); border-color: var(--tpi-verde); border-left-width: 4px; }
+.tpi-card__ramo { display: inline-block; font-size: .8rem; font-weight: 700; color: var(--tpi-verde); margin: 0 0 .35rem; }
+.tpi-card .tpi-card__titulo { font-size: 1.08rem; font-weight: 700; line-height: 1.35; margin: 0 0 .4rem; }
+.tpi-card .tpi-card__titulo a { color: var(--tpi-tinta); text-decoration: none; }
+.tpi-card .tpi-card__titulo a:hover { color: var(--tpi-verde); }
+.tpi-cards--julgados .tpi-card__titulo a::after { content: ""; position: absolute; inset: 0; border-radius: var(--tpi-raio); }
+.tpi-card__resumo { margin: 0; color: var(--tpi-suave); font-size: .95rem; line-height: 1.55; }
+.tpi-card__lido { display: inline-flex; align-items: center; gap: .4rem; margin: .6rem 0 0; padding: .2rem .65rem .2rem .3rem; border-radius: 999px; background: var(--tpi-verde); color: #fff; font-size: .85rem; font-weight: 700; }
+.tpi-card__lido::before { content: ""; width: 1.05rem; height: 1.05rem; border-radius: 50%; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%232c5748' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/80% no-repeat; }
+.tpi-progresso { margin: 0 0 .9rem; color: var(--tpi-suave); font-size: .95rem; }
+.tpi-progresso__barra { display: block; height: 8px; margin: 0 0 .45rem; border-radius: 999px; background: var(--tpi-linha); overflow: hidden; }
+.tpi-progresso__barra span { display: block; height: 100%; background: var(--tpi-verde); }
+.tpi-card--edicao h3.tpi-card__titulo { font-size: 1.3rem; }
+.tpi-card--edicao:hover { border-color: var(--tpi-linha); }
+.tpi-card__julgados { list-style: none; margin: 1rem 0 0; padding: 0; border-top: 1px solid var(--tpi-linha); }
+.tpi-card__julgados li { margin: 0; padding: .6rem 0; border-bottom: 1px solid var(--tpi-linha); line-height: 1.4; }
+.tpi-card__julgados a { color: var(--tpi-tinta); text-decoration: none; font-weight: 500; }
+.tpi-card__julgados a:hover { color: var(--tpi-verde); text-decoration: underline; }
+.tpi-card__mais { margin: .8rem 0 0; font-weight: 700; }
+.tpi-card__mais a { color: var(--tpi-verde); }
+
+/* Próximo informativo */
+.tpi-proximo { margin: 1.5rem 0 2.5rem; padding: 1.4rem 1.5rem; border-radius: var(--tpi-raio); background: var(--tpi-nevoa); border-left: 4px solid var(--tpi-areia); }
+.tpi-proximo__quando { margin: 0; font-weight: 800; color: var(--tpi-verde); font-size: .95rem; }
+h2.tpi-proximo__titulo { margin: .2rem 0 .4rem; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 1.85rem); letter-spacing: -.015em; line-height: 1.2; }
+.tpi-proximo__titulo a { color: var(--tpi-tinta); }
+.tpi-proximo__data { margin: 0; color: var(--tpi-suave); }
+
+/* Calendário: tabela acessível com cara de agenda */
+.tpi-calendario { overflow-x: auto; margin: 1rem 0 0; }
+.tpi-calendario table { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.tpi-calendario caption { text-align: left; font-size: .9rem; color: var(--tpi-suave); padding: 0 0 .5rem; }
+.tpi-calendario th { text-align: left; font-size: .8rem; font-weight: 600; color: var(--tpi-suave); padding: .4rem .6rem; border-bottom: 1px solid var(--tpi-linha); }
+.tpi-calendario td { padding: .7rem .6rem; border-bottom: 1px solid var(--tpi-linha); vertical-align: middle; }
+.tpi-calendario tr.is-comentado td { background: #fbf6ea; }
+.tpi-cal__dia { font-weight: 800; font-size: 1.15rem; color: var(--tpi-tinta); font-variant-numeric: tabular-nums; }
+.tpi-cal__mes { color: var(--tpi-suave); }
+.tpi-calendario td a { color: var(--tpi-verde); font-weight: 700; }
+.tpi-sit { display: inline-block; font-size: .8rem; font-weight: 700; padding: .2rem .55rem; border-radius: 999px; background: var(--tpi-nevoa); color: var(--tpi-suave); white-space: nowrap; }
+.tpi-sit--ok { background: var(--tpi-verde); color: #fff; }
+.tpi-sit--prev { background: #fff; border: 1px solid var(--tpi-areia); color: #7a5f2f; }
+.tpi-calendario__fonte { font-size: .85rem; color: var(--tpi-suave); margin: .6rem 0 0; }
+.tpi-calendario__fonte a { color: var(--tpi-verde); }
+
+/* Aviso de edição prevista */
+.tpi-aviso { background: #fbf6ea; border-left: 4px solid var(--tpi-areia); border-radius: 0 var(--tpi-raio-p) var(--tpi-raio-p) 0; padding: .9rem 1.1rem; margin: 0 0 1.5rem; }
+
+@media (max-width: 600px) {
+  .tpi-questao { padding: 1.1rem 1rem 1rem; }
+  .tpi-pagina .entry-content .tpi-alternativas li { grid-template-columns: 1.75rem 1fr; gap: .6rem; padding: .5rem .55rem; }
+  .tpi-alternativas li::before { width: 1.75rem; height: 1.75rem; }
+  .tpi-ficha { grid-template-columns: 1fr 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tpi-pagina *, .tpi-card, .tpi-btn { transition: none !important; }
+}
+
+/* ===== Hub /informativos/: buscador de jurisprudência comentada (0.3) ===== */
+.tpi-hub-pagina .wp-block-post-title { letter-spacing: -.02em; line-height: 1.08; }
+.tpi-hub { color: var(--tpi-tinta); }
+.tpi-hub h2 { font-size: clamp(1.3rem, 1.1rem + .8vw, 1.55rem); font-weight: 700; letter-spacing: -.01em; margin: 2.75rem 0 .9rem; }
+.tpi-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.tpi-busca { margin: 1.5rem 0 0; padding: 1.5rem; border-radius: 16px; background: var(--tpi-verde); color: #fff; }
+.tpi-hub h2.tpi-busca__titulo { margin: 0 0 .9rem; color: #fff; font-size: 1.2rem; }
+.tpi-busca__linha { display: flex; gap: .5rem; }
+.tpi-busca__linha input { flex: 1; min-width: 0; min-height: 52px; padding: .7rem 1rem; border: 2px solid transparent; border-radius: 10px; font: inherit; font-size: 1.05rem; color: var(--tpi-tinta); background: #fff; }
+.tpi-busca__linha input::placeholder { color: #7d8a84; }
+.tpi-busca__linha input:focus { outline: none; border-color: var(--tpi-areia); box-shadow: 0 0 0 3px rgba(185,149,91,.35); }
+.tpi-busca .tpi-btn { min-height: 52px; background: var(--tpi-marca); border-color: var(--tpi-marca); color: var(--tpi-verde-escuro); padding: .6rem 1.4rem; }
+.tpi-busca .tpi-btn:hover { background: #fff; border-color: #fff; }
+.tpi-busca .tpi-btn:focus-visible { outline-color: #fff; }
+.tpi-busca__filtros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; margin-top: .8rem; }
+.tpi-busca__filtros label { display: flex; flex-direction: column; gap: .3rem; font-size: .85rem; font-weight: 600; color: #dfe9e4; }
+.tpi-busca__filtros select, .tpi-busca__filtros input { min-height: 44px; padding: .45rem .7rem; border-radius: 8px; border: 1px solid rgba(255,255,255,.25); background: var(--tpi-verde-escuro); color: #fff; font: inherit; font-size: .95rem; }
+.tpi-busca__filtros select:focus, .tpi-busca__filtros input:focus { outline: 2px solid var(--tpi-areia); outline-offset: 1px; }
+.tpi-busca__filtros input::placeholder { color: #a9bdb4; }
+
+.tpi-proximos { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .75rem; margin: 1.5rem 0 0; }
+.tpi-proximos .tpi-proximo { margin: 0; }
+.tpi-proximos h2.tpi-proximo__titulo { font-size: 1.3rem; margin: .2rem 0 .4rem; }
+.tpi-proximos .tpi-proximo__data { font-size: .92rem; line-height: 1.5; }
+
+.tpi-hub .tpi-card--edicao h3.tpi-card__titulo { font-size: 1.3rem; margin: 0 0 .4rem; }
+.tpi-hub .tpi-card__titulo a { color: var(--tpi-tinta); text-decoration: none; }
+.tpi-hub .tpi-card__julgados a { font-size: 1rem; }
+.tpi-card__proc { margin: .45rem 0 0; font-size: .85rem; color: var(--tpi-suave); }
+.tpi-card__sep { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: var(--tpi-linha); margin: 0 .5rem; vertical-align: middle; }
+
+.tpi-trib { display: inline-block; font-size: .72rem; font-weight: 800; letter-spacing: .02em; padding: .12rem .45rem; border-radius: 5px; margin-right: .35rem; vertical-align: .1em; }
+.tpi-trib--stj { background: var(--tpi-verde); color: #fff; }
+.tpi-trib--stf { background: #7a5f2f; color: #fff; } /* 0.4: areia com branco dava 2,6:1; agora 6,4:1 */
+.tpi-sit--est { background: #fff; border: 1px dashed var(--tpi-areia); color: #7a5f2f; }
+
+.tpi-resultados { margin: 2rem 0 0; }
+.tpi-hub h2.tpi-resultados__titulo { margin: 0 0 .5rem; font-size: 1.15rem; color: var(--tpi-suave); font-weight: 600; }
+.tpi-vazio { padding: 1rem 1.1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio); }
+.tpi-limpar { margin: 1rem 0 0; font-weight: 700; }
+.tpi-limpar a, .tpi-paginas a { color: var(--tpi-verde); }
+.tpi-paginas ol { list-style: none; display: flex; flex-wrap: wrap; gap: .35rem; padding: 0; margin: 1rem 0 0; }
+.tpi-paginas a, .tpi-paginas span { display: grid; place-items: center; min-width: 44px; min-height: 44px; border-radius: 8px; border: 1px solid var(--tpi-linha); text-decoration: none; font-weight: 700; }
+.tpi-paginas span[aria-current] { background: var(--tpi-verde); color: #fff; border-color: var(--tpi-verde); }
+
+.tpi-ramos ul { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 0; }
+.tpi-ramos a { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: .4rem .9rem; border: 1px solid var(--tpi-linha); border-radius: 999px; color: var(--tpi-tinta); text-decoration: none; font-weight: 600; font-size: .95rem; background: #fff; }
+.tpi-ramos a:hover { border-color: var(--tpi-verde); color: var(--tpi-verde); }
+.tpi-ramos a[aria-current] { background: var(--tpi-verde); border-color: var(--tpi-verde); color: #fff; }
+.tpi-ramos__n { font-size: .8rem; font-weight: 700; color: var(--tpi-suave); background: var(--tpi-nevoa); border-radius: 999px; padding: .05rem .45rem; }
+.tpi-ramos a[aria-current] .tpi-ramos__n { background: rgba(255,255,255,.2); color: #fff; }
+.tpi-hub a:focus-visible, .tpi-hub button:focus-visible { outline: 3px solid var(--tpi-areia); outline-offset: 3px; }
+
+@media (max-width: 600px) {
+  .tpi-busca { padding: 1.1rem; border-radius: 12px; }
+  .tpi-busca__linha { flex-direction: column; }
+  .tpi-busca__filtros { grid-template-columns: 1fr 1fr; }
+  .tpi-busca__filtros label:last-child { grid-column: 1 / -1; }
+}
+.tpi-busca__filtros select, .tpi-busca__filtros input { height: 44px; box-sizing: border-box; line-height: 1.2; }
+.tpi-calendario td:first-child { white-space: nowrap; }
+
+/* 0.4 Legibilidade: o tema usa Manrope 300 no corpo; nas páginas de estudo o texto vai para 400. */
+.tpi-pagina .entry-content p, .tpi-pagina .entry-content li, .tpi-pagina .entry-content dd, .tpi-pagina .entry-content td { font-weight: 400; }
+.tpi-pagina .entry-content { color: var(--tpi-tinta); }
+
+/* 0.4 Desktop: o sumário vira coluna lateral fixa (sticky) na margem direita, sem JavaScript.
+   Abaixo de 1240px continua no fluxo, como antes. */
+@media (min-width: 1240px) {
+  .tpi-pagina .entry-content .tpi-sumario { float: right; clear: right; position: sticky; top: 2rem; width: 240px; margin: 0 calc(-240px - 2.5rem) 1rem 0; padding: 1rem 1.1rem; }
+  .tpi-pagina .entry-content .tpi-sumario ol { columns: 1; }
+  .tpi-pagina .entry-content .tpi-sumario li { font-size: .9rem; }
+}
+.tpi-pagina .entry-content h2[id] { scroll-margin-top: 1.5rem; }
+
+/* 0.4 Periódico: ramos da edição (atalhos) e grupos */
+.tpi-ramos-edicao ul { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 0 0 1.25rem; }
+.tpi-pagina .entry-content .tpi-ramos-edicao li { margin: 0; }
+.tpi-ramos-edicao a { display: inline-flex; align-items: center; gap: .45rem; min-height: 40px; padding: .3rem .85rem; border: 1px solid var(--tpi-linha); border-radius: 999px; color: var(--tpi-tinta); text-decoration: none; font-weight: 600; font-size: .9rem; background: #fff; }
+.tpi-ramos-edicao a:hover { border-color: var(--tpi-verde); color: var(--tpi-verde); }
+.tpi-pagina .entry-content h3.tpi-grupo { margin: 2rem 0 .6rem; font-size: .85rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--tpi-verde); scroll-margin-top: 1.5rem; }
+.tpi-pagina .entry-content h3.tpi-grupo + .tpi-cards { margin-top: 0; }
+
+/* 0.4 Anterior / próximo */
+.tpi-vizinhos { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin: 2.5rem 0 0; }
+.tpi-vizinhos a { display: flex; flex-direction: column; gap: .25rem; min-height: 44px; padding: .9rem 1rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); color: var(--tpi-tinta); text-decoration: none; background: #fff; }
+.tpi-pagina .entry-content .tpi-vizinhos a { text-decoration: none; }
+.tpi-vizinhos a:hover { border-color: var(--tpi-verde); }
+.tpi-vizinhos__pro { text-align: right; grid-column: 2; }
+.tpi-vizinhos__dir { font-size: .85rem; font-weight: 700; color: var(--tpi-verde); }
+.tpi-vizinhos__nome { font-weight: 600; line-height: 1.35; font-size: .95rem; }
+@media (max-width: 600px) { .tpi-vizinhos { grid-template-columns: 1fr; } .tpi-vizinhos__pro { grid-column: 1; text-align: left; } .tpi-vizinhos__vazio { display: none; } }
+
+/* 0.4 Como citar e reportar erro (EEAT: transparência e correção) */
+.tpi-citar { margin: 2.5rem 0 0; padding: 1.1rem 1.2rem; border-radius: var(--tpi-raio); background: #fbf6ea; }
+.tpi-pagina .entry-content .tpi-citar h2 { margin: 0 0 .5rem; font-size: 1.05rem; }
+.tpi-pagina .entry-content .tpi-citar__ref { font-size: .92rem; line-height: 1.6; overflow-wrap: anywhere; margin: 0 0 .6rem; }
+.tpi-pagina .entry-content .tpi-citar__erro { font-size: .92rem; margin: 0; }
+
+/* 0.4 Hub: edições por tribunal e ano */
+.tpi-edicoes { display: grid; gap: 1.25rem; }
+@media (min-width: 760px) { .tpi-edicoes { grid-template-columns: 1fr 1fr; } }
+.tpi-edicoes__col { border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); padding: 1rem 1.1rem 1.1rem; background: #fff; }
+.tpi-hub h3.tpi-edicoes__trib, h3.tpi-edicoes__trib { margin: 0 0 .5rem; font-size: 1rem; font-weight: 700; }
+h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800; letter-spacing: .06em; color: var(--tpi-suave); }
+.tpi-edicoes__lista { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.tpi-edicoes__lista li { margin: 0; }
+.tpi-edicao a { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .75rem; min-height: 48px; padding: .45rem .75rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio-p); color: var(--tpi-tinta); text-decoration: none; }
+.tpi-edicao a:hover { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
+.tpi-edicao__num { font-weight: 800; font-size: 1.2rem; font-variant-numeric: tabular-nums; min-width: 3.2ch; }
+.tpi-edicao__info { font-size: .9rem; color: var(--tpi-suave); }
+.tpi-edicao__lidos { font-size: .8rem; font-weight: 700; color: var(--tpi-suave); white-space: nowrap; }
+.tpi-edicao.is-lido a { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
+.tpi-edicao.is-lido .tpi-edicao__lidos { color: #fff; background: var(--tpi-verde); padding: .15rem .55rem; border-radius: 999px; }
+.tpi-edicao.is-previsto a { border-style: dashed; }
+
+/* 0.4 Correções: filtros não estouram no celular; hub mais largo no desktop */
+.tpi-busca__filtros label { min-width: 0; }
+.tpi-busca__filtros select, .tpi-busca__filtros input { width: 100%; min-width: 0; }
+.tpi-edicoes .tpi-vazio { margin: 0; font-size: .92rem; line-height: 1.5; color: var(--tpi-suave); }
+.tpi-hub.alignwide { max-width: min(1100px, 100%); }
+@media (min-width: 1000px) {
+  .tpi-hub.alignwide .tpi-busca, .tpi-hub.alignwide .tpi-proximos { max-width: none; }
+}
+/* Hub: título e introdução alinhados à mesma largura do hub, mas o parágrafo mantém linha legível (~70 caracteres) */
+.tpi-hub-pagina .wp-block-post-title, .tpi-hub-pagina .entry-content > :not(.tpi-hub) { max-width: min(1100px, 100%); }
+.tpi-hub-pagina .entry-content > p { padding-right: max(0px, calc(min(1100px, 100%) - 46rem)); box-sizing: border-box; }
+/* 0.4: caixas com padding não passam da coluna de texto */
+.tpi-newsletter, .tpi-citar, .tpi-destaque, .tpi-ficha, .tpi-sumario, .tpi-lido, .tpi-vizinhos { box-sizing: border-box; }
