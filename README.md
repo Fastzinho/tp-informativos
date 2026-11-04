@@ -4,8 +4,8 @@ Plugin WordPress do Tchau Pobreza: informativos do STJ e do STF comentados (trib
 
 ## Deploy
 
-Igual ao plugin do app: a Hostinger (hPanel → GIT) puxa o branch `estavel` para `public_html/wp-content/plugins/tp-informativos`, com deploy automático por webhook a cada push.
+O site se atualiza pelo próprio WordPress (`includes/atualizador.php`): ele lê o `Version:` do branch `estavel` e baixa o zip desse branch. Leva até 1 hora; "Verificar novamente" em Painel → Atualizações busca na hora.
 
 - `main` é o branch de trabalho; para publicar, aumente o `Version:` (cabeçalho e `TPI_VERSION`) e envie o `main` para o `estavel`.
-- Nunca edite arquivos direto no servidor: o próximo deploy sobrescreve.
-- `includes/atualizador.php` é o plano B (atualização pelo próprio WordPress). Ele se desliga sozinho quando a pasta do plugin tem `.git`, ou seja, quando quem instala é o Git da Hostinger.
+- O Git da Hostinger não é usado aqui: ele aceita um repositório por site, e essa vaga é do plugin do app (`Fastzinho/tchaupobreza`, branch `deploy`).
+- Nunca edite arquivos direto no servidor: a próxima atualização sobrescreve.
