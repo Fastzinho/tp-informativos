@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.5.1
+ * Version: 0.5.2
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.5.1' );
+define( 'TPI_VERSION', '0.5.2' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -226,6 +226,11 @@ add_filter( 'render_block_core/post-featured-image', function ( $html, $block, $
 	if ( ! $pid || 'informativo' !== get_post_type( $pid ) ) {
 		return $html;
 	}
+	// 0.5.2: na própria página da edição publicada a capa não aparece (repete a lista e empurra o conteúdo).
+	// Ela continua como imagem destacada (og:image, schema e listagens).
+	if ( is_singular( 'informativo' ) && $pid === get_queried_object_id() && 'periodico' === tpi_meta( $pid, 'tp_tipo' ) && 'previsto' !== tpi_meta( $pid, 'tp_status' ) ) {
+		return '';
+	}
 	return preg_replace( '/aspect-ratio:\s*[^;"]+/', 'aspect-ratio:16/9', $html );
 }, 10, 3 );
 
@@ -292,6 +297,19 @@ function tpi_nav_vizinhos( $ant, $pro, $rotulo, $tipo ) {
 	return '<nav class="tpi-vizinhos" aria-label="' . esc_attr( $rotulo ) . '">' . $item( $ant, 'ant', $d[0] ) . $item( $pro, 'pro', $d[1] ) . '</nav>';
 }
 
+function tpi_resumo_edicao( $id ) {
+	$data  = tpi_data_br( tpi_meta( $id, 'tp_data_publicacao' ) );
+	$fonte = tpi_meta( $id, 'tp_fonte_url' );
+	$itens = array();
+	if ( $data ) {
+		$itens[] = 'Divulgado em <time datetime="' . esc_attr( tpi_meta( $id, 'tp_data_publicacao' ) ) . '">' . esc_html( $data ) . '</time>';
+	}
+	if ( $fonte ) {
+		$itens[] = '<a href="' . esc_url( $fonte ) . '" rel="noopener" target="_blank">Informativo oficial do ' . esc_html( tpi_meta( $id, 'tp_tribunal' ) ) . '<span class="tpi-sr"> (abre em nova aba)</span></a>';
+	}
+	return $itens ? '<p class="tpi-resumo-edicao">' . implode( '<span aria-hidden="true"> · </span>', $itens ) . '</p>' : '';
+}
+
 function tpi_como_citar( $id ) {
 	$a     = tpi_autor();
 	$meses = array( 'jan.', 'fev.', 'mar.', 'abr.', 'maio', 'jun.', 'jul.', 'ago.', 'set.', 'out.', 'nov.', 'dez.' );
@@ -350,7 +368,15 @@ function tpi_wrap_content( $content ) {
 	}
 
 	if ( 'periodico' === $tipo ) {
-		$pos .= tpi_lista_julgados( $id );
+		$lista = tpi_lista_julgados( $id );
+		if ( $lista && 'previsto' !== tpi_meta( $id, 'tp_status' ) ) {
+			// 0.5.2: edição publicada → os julgados vêm primeiro; o texto editorial (único da página,
+			// evita página "só lista") desce para "Panorama da edição".
+			$pre    .= tpi_resumo_edicao( $id ) . $lista;
+			$content = trim( $content ) ? '<section class="tpi-panorama" aria-labelledby="tpi-panorama-titulo"><h2 id="tpi-panorama-titulo">Panorama da edição</h2>' . $content . '</section>' : '';
+		} else {
+			$pos .= $lista;
+		}
 		$pos .= tpi_botao_anki( $id, true );
 		list( $ant, $pro ) = tpi_edicoes_vizinhas( $id );
 		$pos .= tpi_nav_vizinhos( $ant, $pro, 'Outras edições do ' . tpi_meta( $id, 'tp_tribunal' ), 'edicao' );

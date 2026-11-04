@@ -345,3 +345,12 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-hub-pagina .entry-content > p { padding-right: max(0px, calc(min(1100px, 100%) - 46rem)); box-sizing: border-box; }
 /* 0.4: caixas com padding não passam da coluna de texto */
 .tpi-newsletter, .tpi-citar, .tpi-destaque, .tpi-ficha, .tpi-sumario, .tpi-lido, .tpi-vizinhos { box-sizing: border-box; }
+
+/* 0.5.2 Edição publicada: resumo em uma linha acima dos julgados; panorama abaixo */
+.tpi-pagina .entry-content .tpi-resumo-edicao { margin: 0 0 1.25rem; font-size: .95rem; color: var(--tpi-suave); }
+.tpi-pagina .entry-content .tpi-julgados > h2 { margin-top: 1.5rem; }
+.tpi-panorama { margin: 3rem 0 0; }
+@media (max-width: 600px) {
+  .tpi-ramos-edicao ul { flex-wrap: nowrap; overflow-x: auto; padding-bottom: .35rem; margin-right: -1rem; scrollbar-width: thin; }
+  .tpi-ramos-edicao a { white-space: nowrap; }
+}

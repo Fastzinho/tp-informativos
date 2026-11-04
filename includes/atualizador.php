@@ -20,6 +20,10 @@ if ( ! defined( 'TPI_REPO' ) ) {
 
 function tpi_release_github() {
 	$cache = get_site_transient( 'tpi_release' );
+	// "Verificar novamente" (Painel > Atualizações) ignora o cache.
+	if ( is_admin() && ! empty( $_GET['force-check'] ) ) {
+		$cache = false;
+	}
 	if ( false !== $cache ) {
 		return $cache;
 	}
@@ -40,8 +44,8 @@ function tpi_release_github() {
 			);
 		}
 	}
-	// 3 h com resultado; 1 h sem (branch ausente ou rede fora).
-	set_site_transient( 'tpi_release', $dados, $dados ? 3 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
+	// Cache de 1 h (raw.githubusercontent.com não tem limite de API como o api.github.com).
+	set_site_transient( 'tpi_release', $dados, HOUR_IN_SECONDS );
 	return $dados;
 }
 
