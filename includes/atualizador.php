@@ -49,8 +49,13 @@ function tpi_release_github() {
 	return $dados;
 }
 
+/* Instalado pelo Git da Hostinger (pasta com .git)? Então o deploy é feito por lá e este atualizador fica quieto. */
+function tpi_atualizador_ligado() {
+	return apply_filters( 'tpi_atualizador_ativo', ! file_exists( dirname( TPI_ARQUIVO ) . '/.git' ) );
+}
+
 add_filter( 'pre_set_site_transient_update_plugins', function ( $t ) {
-	if ( ! apply_filters( 'tpi_atualizador_ativo', true ) || empty( $t->checked ) ) {
+	if ( ! tpi_atualizador_ligado() || empty( $t->checked ) ) {
 		return $t;
 	}
 	$base = plugin_basename( TPI_ARQUIVO );
