@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.6.1
+ * Version: 0.6.2
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.6.1' );
+define( 'TPI_VERSION', '0.6.2' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -233,6 +233,36 @@ add_filter( 'render_block_core/post-featured-image', function ( $html, $block, $
 	}
 	return preg_replace( '/aspect-ratio:\s*[^;"]+/', 'aspect-ratio:16/9', $html );
 }, 10, 3 );
+
+/* 0.6.2: template próprio para os informativos (WordPress 6.7+). O "single" do tema traz "Escrito por",
+   tags, navegação de posts e o bloco "Mais posts" (que busca posts do blog e fica vazio). Aqui fica só o
+   essencial; trilha, assinatura, anterior/próximo e relacionados já vêm do plugin. Para personalizar,
+   edite "Informativo" em Aparência > Editor > Modelos (a edição do usuário tem prioridade). */
+add_action( 'init', function () {
+	if ( ! function_exists( 'register_block_template' ) ) {
+		return;
+	}
+	register_block_template(
+		'tp-informativos//single-informativo',
+		array(
+			'title'       => 'Informativo',
+			'description' => 'Páginas de tribunal, edição e julgado dos informativos comentados.',
+			'post_types'  => array( 'informativo' ),
+			'content'     => '<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60)">
+<!-- wp:post-title {"level":1} /-->
+<!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
+</div>
+<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->',
+		)
+	);
+} );
 
 /* O tema mostra "Escrito por <usuário>"; nas páginas de informativo o plugin mostra a assinatura editorial. */
 add_filter( 'body_class', function ( $c ) {
