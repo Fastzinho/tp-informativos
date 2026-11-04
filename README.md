@@ -4,4 +4,4 @@ Plugin WordPress do Tchau Pobreza: informativos do STJ e do STF comentados (trib
 
 ## Atualização
 
-O plugin se atualiza pelas releases deste repositório (`includes/atualizador.php`). Cada release `vX.Y.Z` precisa ter o asset `tp-informativos.zip` com a pasta `tp-informativos/` na raiz, e o `Version:` do cabeçalho igual à tag.
+O plugin se atualiza pelo branch `estavel` deste repositório (`includes/atualizador.php`). O site acompanha o branch `estavel`: para publicar, aumente o `Version:` em `tp-informativos.php`, faça merge no `estavel` e envie. O `main` é o branch de trabalho.

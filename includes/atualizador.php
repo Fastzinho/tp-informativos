@@ -2,9 +2,9 @@
 /**
  * Atualizações pelo GitHub (padrão do WordPress, sem rota de upload).
  *
- * O WordPress consulta a última release pública de github.com/<TPI_REPO> e, se a versão for maior
- * que a instalada, mostra "Atualizar" em Painel > Plugins (ou atualiza sozinho, se a atualização
- * automática estiver ligada para este plugin). O pacote baixado é o asset tp-informativos.zip da release.
+ * O WordPress lê o cabeçalho do plugin no branch "estavel" de github.com/<TPI_REPO> e, se a versão for
+ * maior que a instalada, mostra "Atualizar" em Painel > Plugins (ou atualiza sozinho, se a atualização
+ * automática estiver ligada para este plugin). O pacote é o zip que o GitHub gera para o branch.
  *
  * Trocar o repositório: define( 'TPI_REPO', 'dono/repo' ); no wp-config.php.
  * Desligar: add_filter( 'tpi_atualizador_ativo', '__return_false' );
@@ -23,31 +23,25 @@ function tpi_release_github() {
 	if ( false !== $cache ) {
 		return $cache;
 	}
-	$args  = array( 'timeout' => 10, 'headers' => array( 'Accept' => 'application/vnd.github+json', 'User-Agent' => 'tp-informativos' ) );
+	// Canal de publicação: o branch TPI_CANAL (padrão "estavel"). O desenvolvimento vai no main;
+	// uma versão só chega ao site quando é enviada ao branch estavel com o Version: aumentado.
+	$canal = defined( 'TPI_CANAL' ) ? TPI_CANAL : 'estavel';
 	$dados = array();
-	// 1) Release com o asset tp-informativos.zip (quando houver).
-	$resp = wp_remote_get( 'https://api.github.com/repos/' . TPI_REPO . '/releases/latest', $args );
+	$resp  = wp_remote_get( 'https://raw.githubusercontent.com/' . TPI_REPO . '/' . rawurlencode( $canal ) . '/tp-informativos.php', array( 'timeout' => 10, 'headers' => array( 'User-Agent' => 'tp-informativos' ) ) );
 	if ( ! is_wp_error( $resp ) && 200 === wp_remote_retrieve_response_code( $resp ) ) {
-		$j = json_decode( wp_remote_retrieve_body( $resp ), true );
-		foreach ( (array) ( $j['assets'] ?? array() ) as $a ) {
-			if ( 'tp-informativos.zip' === ( $a['name'] ?? '' ) ) {
-				$dados = array( 'versao' => ltrim( (string) $j['tag_name'], 'v' ), 'pacote' => $a['browser_download_url'], 'url' => $j['html_url'], 'notas' => (string) ( $j['body'] ?? '' ), 'data' => (string) ( $j['published_at'] ?? '' ) );
-				break;
-			}
+		$cab = substr( wp_remote_retrieve_body( $resp ), 0, 4096 );
+		if ( false !== strpos( $cab, 'Plugin Name: TP Informativos' ) && preg_match( '/^\s*\*\s*Version:\s*(\d+\.\d+\.\d+)/m', $cab, $m ) ) {
+			$dados = array(
+				'versao' => $m[1],
+				'pacote' => 'https://github.com/' . TPI_REPO . '/archive/refs/heads/' . rawurlencode( $canal ) . '.zip',
+				'url'    => 'https://github.com/' . TPI_REPO . '/commits/' . rawurlencode( $canal ),
+				'notas'  => 'Histórico de mudanças: https://github.com/' . TPI_REPO . '/commits/' . $canal,
+				'data'   => '',
+			);
 		}
 	}
-	// 2) Sem release: a maior tag vX.Y.Z, baixada como o zip que o GitHub gera para a tag.
-	$resp = wp_remote_get( 'https://api.github.com/repos/' . TPI_REPO . '/tags?per_page=100', $args );
-	if ( ! is_wp_error( $resp ) && 200 === wp_remote_retrieve_response_code( $resp ) ) {
-		foreach ( (array) json_decode( wp_remote_retrieve_body( $resp ), true ) as $tag ) {
-			$v = ltrim( (string) ( $tag['name'] ?? '' ), 'v' );
-			if ( preg_match( '/^\d+\.\d+\.\d+$/', $v ) && ( empty( $dados['versao'] ) || version_compare( $v, $dados['versao'], '>' ) ) ) {
-				$dados = array( 'versao' => $v, 'pacote' => 'https://github.com/' . TPI_REPO . '/archive/refs/tags/' . rawurlencode( $tag['name'] ) . '.zip', 'url' => 'https://github.com/' . TPI_REPO . '/tree/' . rawurlencode( $tag['name'] ), 'notas' => '', 'data' => '' );
-			}
-		}
-	}
-	// 6 h com resultado; 1 h sem (repo vazio, limite da API ou rede fora).
-	set_site_transient( 'tpi_release', $dados, $dados ? 6 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
+	// 3 h com resultado; 1 h sem (branch ausente ou rede fora).
+	set_site_transient( 'tpi_release', $dados, $dados ? 3 * HOUR_IN_SECONDS : HOUR_IN_SECONDS );
 	return $dados;
 }
 
@@ -97,7 +91,7 @@ add_filter( 'plugins_api', function ( $res, $acao, $args ) {
 	);
 }, 10, 3 );
 
-/* O zip de tag do GitHub vem com a pasta tp-informativos-X.Y.Z/; renomeia para tp-informativos/. */
+/* O zip do branch vem com a pasta tp-informativos-estavel/; renomeia para tp-informativos/. */
 add_filter( 'upgrader_source_selection', function ( $origem, $remoto, $upgrader, $extra = array() ) {
 	if ( empty( $extra['plugin'] ) || plugin_basename( TPI_ARQUIVO ) !== $extra['plugin'] ) {
 		return $origem;
