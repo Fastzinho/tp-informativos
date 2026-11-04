@@ -1,36 +1,137 @@
-/* TP Informativos: marcar como lido (somente usuário logado). Sem dependências.
-   Pode haver mais de um controle por página (topo e fim): todos ficam sincronizados. */
+/* TP Informativos 0.6: "marcar como lido" com a conta do app (Supabase), sem dependências.
+ *
+ * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
+ * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
+ *   (user_id = auth.uid()) garante que cada pessoa só lê e grava os próprios registros.
+ * - O HTML vem igual para todos (pode ficar em cache); o estado é aplicado aqui.
+ */
 (function () {
-  if (!window.TPI) return;
-  function pinta(id, lido) {
-    document.querySelectorAll('.tpi-lido[data-tpi-id="' + id + '"]').forEach(function (box) {
-      box.classList.toggle('is-lido', lido);
-      box.querySelector('.tpi-lido__campo').checked = lido;
-      box.querySelector('.tpi-lido__estado').textContent = lido ? 'Lido' : 'Não lido';
-      box.querySelector('.tpi-lido__acao').textContent = lido ? 'Clique para desmarcar' : 'Marcar este julgado como lido';
-      box.querySelector('.tpi-lido__erro').textContent = '';
+  var C = window.TPI;
+  if (!C || !C.url || !C.key) return;
+  var CHAVE = 'tchau-supabase-' + new URL(C.url).hostname; // mesma storageKey do app
+  var KIND = 'informativo';
+
+  function lerSessao() {
+    try {
+      var s = JSON.parse(localStorage.getItem(CHAVE) || 'null');
+      if (s && s.currentSession) s = s.currentSession; // formato antigo do supabase-js
+      return s && s.access_token && s.user && s.user.id ? s : null;
+    } catch (e) { return null; }
+  }
+
+  function renovar(s) {
+    return fetch(C.url + '/auth/v1/token?grant_type=refresh_token', {
+      method: 'POST',
+      headers: { apikey: C.key, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: s.refresh_token })
+    }).then(function (r) { if (!r.ok) throw new Error('sessao'); return r.json(); })
+      .then(function (n) {
+        if (!n.expires_at && n.expires_in) n.expires_at = Math.floor(Date.now() / 1000) + n.expires_in;
+        try { localStorage.setItem(CHAVE, JSON.stringify(n)); } catch (e) {}
+        return n;
+      });
+  }
+
+  var sessaoP = null;
+  function sessao() {
+    if (sessaoP) return sessaoP;
+    var s = lerSessao();
+    if (!s) return (sessaoP = Promise.resolve(null));
+    var vence = (s.expires_at || 0) * 1000;
+    sessaoP = vence - Date.now() > 60000 ? Promise.resolve(s) : renovar(s).catch(function () { return null; });
+    return sessaoP;
+  }
+
+  function api(s, caminho, opcoes) {
+    opcoes = opcoes || {};
+    opcoes.headers = Object.assign({ apikey: C.key, Authorization: 'Bearer ' + s.access_token, 'Content-Type': 'application/json' }, opcoes.headers || {});
+    return fetch(C.url + '/rest/v1/' + caminho, opcoes).then(function (r) {
+      if (!r.ok) return r.text().then(function (t) { throw new Error(t || r.status); });
+      return r.status === 204 ? null : r.text().then(function (t) { return t ? JSON.parse(t) : null; });
     });
   }
+
+  var lidos = {};
+
+  function pintaControle(box, lido) {
+    box.classList.toggle('is-lido', lido);
+    box.querySelector('.tpi-lido__campo').checked = lido;
+    box.querySelector('.tpi-lido__estado').textContent = lido ? 'Lido' : 'Não lido';
+    box.querySelector('.tpi-lido__acao').textContent = lido ? 'Clique para desmarcar' : 'Marcar este julgado como lido';
+  }
+
+  function pintaTudo() {
+    document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) {
+      box.hidden = false;
+      pintaControle(box, !!lidos[box.getAttribute('data-tpi-id')]);
+    });
+    document.querySelectorAll('li.tpi-card[data-tpi-id]').forEach(function (li) {
+      var lido = !!lidos[li.getAttribute('data-tpi-id')];
+      li.classList.toggle('is-lido', lido);
+      var selo = li.querySelector('.tpi-card__lido');
+      if (lido && !selo) { selo = document.createElement('p'); selo.className = 'tpi-card__lido'; selo.textContent = 'Lido'; li.appendChild(selo); }
+      if (!lido && selo) selo.remove();
+    });
+    document.querySelectorAll('[data-tpi-progresso]').forEach(function (p) {
+      var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
+      var n = ids.filter(function (i) { return lidos[i]; }).length;
+      p.querySelector('.tpi-progresso__barra span').style.width = (ids.length ? Math.round(100 * n / ids.length) : 0) + '%';
+      p.querySelector('.tpi-progresso__texto').innerHTML = 'Você leu <strong>' + n + ' de ' + ids.length + '</strong> julgados desta edição.';
+      p.hidden = false;
+    });
+    document.querySelectorAll('.tpi-edicao[data-tpi-ids]').forEach(function (li) {
+      var ids = li.getAttribute('data-tpi-ids').split(',').filter(Boolean);
+      var n = ids.filter(function (i) { return lidos[i]; }).length;
+      var todos = ids.length && n === ids.length;
+      li.classList.toggle('is-lido', !!todos);
+      var el = li.querySelector('.tpi-edicao__lidos');
+      if (el) { el.textContent = todos ? 'Lido' : n + ' de ' + ids.length + ' lidos'; el.hidden = false; }
+    });
+  }
+
+  function semConta() {
+    document.querySelectorAll('.tpi-lido-cta').forEach(function (p) { p.hidden = false; });
+  }
+
+  sessao().then(function (s) {
+    if (!s) return semConta();
+    return api(s, 'tp_records?select=id&kind=eq.' + KIND + '&limit=5000').then(function (linhas) {
+      (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = true; });
+      pintaTudo();
+    }).catch(function () { pintaTudo(); });
+  });
+
   document.addEventListener('change', function (e) {
     var campo = e.target.closest('.tpi-lido__campo');
     if (!campo) return;
     var box = campo.closest('.tpi-lido');
     var id = box.getAttribute('data-tpi-id');
     var novo = campo.checked;
-    pinta(id, novo); /* resposta imediata; desfaz se o servidor falhar */
+    var erro = box.querySelector('.tpi-lido__erro');
+    erro.textContent = '';
+    lidos[id] = novo; pintaTudo(); /* resposta imediata; desfaz se falhar */
     box.setAttribute('aria-busy', 'true');
-    fetch(TPI.rest + id, {
-      method: 'POST',
-      credentials: 'same-origin',
-      headers: { 'Content-Type': 'application/json', 'X-WP-Nonce': TPI.nonce },
-      body: JSON.stringify({ lido: novo })
-    })
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) { pinta(id, !!d.lido); })
-      .catch(function () {
-        pinta(id, !novo);
-        box.querySelector('.tpi-lido__erro').textContent = 'Não foi possível salvar. Tente de novo.';
-      })
-      .finally(function () { box.removeAttribute('aria-busy'); });
+    sessao().then(function (s) {
+      if (!s) throw new Error('sessao');
+      var rid = encodeURIComponent(KIND + ':' + id);
+      if (!novo) return api(s, 'tp_records?kind=eq.' + KIND + '&id=eq.' + rid, { method: 'DELETE' });
+      return api(s, 'tp_records?on_conflict=user_id,id', {
+        method: 'POST',
+        headers: { Prefer: 'resolution=merge-duplicates,return=minimal' },
+        body: JSON.stringify({
+          user_id: s.user.id, id: KIND + ':' + id, kind: KIND,
+          data: {
+            postId: Number(id), read: true, readAt: new Date().toISOString(),
+            title: box.getAttribute('data-tpi-titulo') || '', url: box.getAttribute('data-tpi-url') || '',
+            court: box.getAttribute('data-tpi-trib') || '', issue: Number(box.getAttribute('data-tpi-num')) || null
+          }
+        })
+      });
+    }).catch(function (err) {
+      lidos[id] = !novo; pintaTudo();
+      erro.textContent = String(err && err.message) === 'sessao'
+        ? 'Sua sessão expirou. Entre de novo no app e volte aqui.'
+        : 'Não foi possível salvar. Tente de novo.';
+    }).finally(function () { box.removeAttribute('aria-busy'); });
   });
 })();

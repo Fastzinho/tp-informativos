@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.5.2
+ * Version: 0.6.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.5.2' );
+define( 'TPI_VERSION', '0.6.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -429,12 +429,9 @@ function tpi_lista_julgados( $periodico_id ) {
 	if ( ! $filhos ) {
 		return '';
 	}
-	$lidos = tpi_lidos_usuario();
 	$html  = '<section class="tpi-julgados" aria-labelledby="tpi-julgados-titulo"><h2 id="tpi-julgados-titulo">Os ' . count( $filhos ) . ' julgados desta edição</h2>';
-	if ( is_user_logged_in() ) {
-		$n_lidos = count( array_intersect( wp_list_pluck( $filhos, 'ID' ), $lidos ) );
-		$html   .= '<p class="tpi-progresso"><span class="tpi-progresso__barra" aria-hidden="true"><span style="width:' . esc_attr( round( 100 * $n_lidos / max( 1, count( $filhos ) ) ) ) . '%"></span></span>Você leu <strong>' . esc_html( $n_lidos ) . ' de ' . esc_html( count( $filhos ) ) . '</strong> julgados desta edição.</p>';
-	}
+	// 0.6: o progresso vem da conta do app (Supabase) e é preenchido no navegador; a página pode ficar em cache.
+	$html .= '<p class="tpi-progresso" data-tpi-progresso="' . esc_attr( implode( ',', wp_list_pluck( $filhos, 'ID' ) ) ) . '" hidden><span class="tpi-progresso__barra" aria-hidden="true"><span></span></span><span class="tpi-progresso__texto"></span></p>';
 	// 0.4: agrupado por ramo (índice escaneável, como nos buscadores de jurisprudência), na ordem do informativo.
 	$grupos = array();
 	foreach ( $filhos as $f ) {
@@ -452,8 +449,7 @@ function tpi_lista_julgados( $periodico_id ) {
 	foreach ( $grupos as $ramo => $lista ) {
 		$html .= '<h3 class="tpi-grupo" id="ramo-' . esc_attr( sanitize_title( $ramo ) ) . '">' . esc_html( $ramo ) . '</h3><ol class="tpi-cards tpi-cards--julgados">';
 		foreach ( $lista as $f ) {
-			$lido  = in_array( $f->ID, $lidos, true );
-			$html .= '<li class="tpi-card' . ( $lido ? ' is-lido' : '' ) . '" data-tpi-id="' . esc_attr( $f->ID ) . '">';
+			$html .= '<li class="tpi-card" data-tpi-id="' . esc_attr( $f->ID ) . '">';
 			$proc  = tpi_meta( $f->ID, 'tp_processo' );
 			if ( $proc ) {
 				$html .= '<p class="tpi-card__ramo">' . esc_html( $proc . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) ) . '</p>';
@@ -463,7 +459,7 @@ function tpi_lista_julgados( $periodico_id ) {
 			if ( $resumo ) {
 				$html .= '<p class="tpi-card__resumo">' . esc_html( wp_trim_words( $resumo, 40 ) ) . '</p>';
 			}
-			$html .= $lido ? '<p class="tpi-card__lido">Lido</p></li>' : '</li>';
+			$html .= '</li>';
 		}
 		$html .= '</ol>';
 	}
@@ -476,60 +472,42 @@ function tpi_newsletter_cta() {
 }
 
 /* ---------------------------------------------------------------------------
- * 3. Marcar como lido (usuário logado)
+ * 3. Marcar como lido: conta do app (Supabase), a mesma de ?tp_app=1  (0.6)
+ *    Grava em public.tp_records (kind 'informativo', id 'informativo:<post_id>'), protegido pela RLS
+ *    tp_records_own. O HTML sai igual para todos (cache do LiteSpeed ok); o estado é aplicado em tpi.js.
  * ------------------------------------------------------------------------- */
 function tpi_lidos_usuario() {
-	if ( ! is_user_logged_in() ) {
-		return array();
-	}
-	$lidos = get_user_meta( get_current_user_id(), 'tp_lidos', true );
-	return is_array( $lidos ) ? array_map( 'intval', $lidos ) : array();
+	return array(); // compatibilidade: o estado não é mais conhecido no servidor
+}
+
+function tpi_supabase() {
+	return apply_filters(
+		'tpi_supabase',
+		array(
+			'url'    => 'https://jzzfbusaarewckpjifpf.supabase.co',
+			'key'    => 'sb_publishable_Dxoblx3dXzg9WGxmLHF7iQ_GuBTq-ej', // chave pública (a mesma que o app publica na página)
+			'appUrl' => home_url( '/?tp_app=1' ),
+		)
+	);
 }
 
 function tpi_botao_lido( $id, $compacto = false ) {
 	$classe = 'tpi-lido' . ( $compacto ? ' tpi-lido--topo' : '' );
-	if ( ! is_user_logged_in() ) {
-		if ( $compacto ) {
-			return '';
-		}
-		$login = wp_login_url( get_permalink( $id ) );
-		return '<p class="tpi-lido-cta"><a href="' . esc_url( $login ) . '">Entre na sua conta</a> para marcar este julgado como lido e acompanhar seu progresso.</p>';
-	}
-	$lido  = in_array( $id, tpi_lidos_usuario(), true );
-	$campo = 'tpi-lido-' . $id . ( $compacto ? '-topo' : '' );
+	$campo  = 'tpi-lido-' . $id . ( $compacto ? '-topo' : '' );
+	$dados  = ' data-tpi-id="' . esc_attr( $id ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $id ) ) . '" data-tpi-url="' . esc_url( get_permalink( $id ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $id, 'tp_numero' ) ) . '"';
 	// Checkbox nativo: o estado (marcado/desmarcado) é anunciado pelo leitor de tela sem depender do texto.
-	return '<div class="' . esc_attr( $classe ) . ( $lido ? ' is-lido' : '' ) . '" data-tpi-id="' . esc_attr( $id ) . '">'
-		. '<input type="checkbox" class="tpi-lido__campo" id="' . esc_attr( $campo ) . '"' . checked( $lido, true, false ) . '>'
+	$html = '<div class="' . esc_attr( $classe ) . '"' . $dados . ' hidden>'
+		. '<input type="checkbox" class="tpi-lido__campo" id="' . esc_attr( $campo ) . '">'
 		. '<label for="' . esc_attr( $campo ) . '"><span class="tpi-lido__icone" aria-hidden="true"></span>'
-		. '<span class="tpi-lido__texto"><strong class="tpi-lido__estado">' . ( $lido ? 'Lido' : 'Não lido' ) . '</strong>'
-		. '<span class="tpi-lido__acao">' . ( $lido ? 'Clique para desmarcar' : 'Marcar este julgado como lido' ) . '</span></span></label>'
+		. '<span class="tpi-lido__texto"><strong class="tpi-lido__estado">Não lido</strong>'
+		. '<span class="tpi-lido__acao">Marcar este julgado como lido</span></span></label>'
 		. '<span class="tpi-lido__erro" role="status"></span></div>';
+	if ( ! $compacto ) {
+		$cfg   = tpi_supabase();
+		$html .= '<p class="tpi-lido-cta" hidden><a href="' . esc_url( $cfg['appUrl'] ) . '">Entre na sua conta do Tchau Pobreza</a> para marcar este julgado como lido e acompanhar seu progresso junto com o resto dos seus estudos.</p>';
+	}
+	return $html;
 }
-
-add_action( 'rest_api_init', function () {
-	register_rest_route(
-		'tp/v1',
-		'/lido/(?P<id>\d+)',
-		array(
-			'methods'             => 'POST',
-			'permission_callback' => 'is_user_logged_in',
-			'args'                => array( 'lido' => array( 'type' => 'boolean', 'required' => true ) ),
-			'callback'            => function ( WP_REST_Request $r ) {
-				$id = (int) $r['id'];
-				if ( 'informativo' !== get_post_type( $id ) ) {
-					return new WP_Error( 'tpi_invalido', 'Conteúdo inválido.', array( 'status' => 404 ) );
-				}
-				$lidos = tpi_lidos_usuario();
-				$lidos = array_values( array_diff( $lidos, array( $id ) ) );
-				if ( $r['lido'] ) {
-					$lidos[] = $id;
-				}
-				update_user_meta( get_current_user_id(), 'tp_lidos', $lidos );
-				return array( 'id' => $id, 'lido' => (bool) $r['lido'], 'total' => count( $lidos ) );
-			},
-		)
-	);
-} );
 
 /* ---------------------------------------------------------------------------
  * 4. Calendário: [tp_calendario tribunal="STJ" limite="12"]
@@ -613,7 +591,6 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
    0.4: colunas STJ | STF, cada edição com data, nº de julgados e progresso de leitura (logado). */
 add_shortcode( 'tp_edicoes', function ( $atts ) {
 	$a     = shortcode_atts( array( 'anos' => 2 ), $atts );
-	$lidos = tpi_lidos_usuario();
 	$html  = '<div class="tpi-edicoes">';
 	foreach ( array( 'STJ', 'STF' ) as $trib ) {
 		$q = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'numberposts' => 200, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $trib ) ) ) );
@@ -634,12 +611,10 @@ add_shortcode( 'tp_edicoes', function ( $atts ) {
 			foreach ( $lista as list( $p, $prev, $data ) ) {
 				$filhos = get_posts( array( 'post_type' => 'informativo', 'post_parent' => $p->ID, 'numberposts' => 100, 'fields' => 'ids' ) );
 				$n      = count( $filhos );
-				$nl     = count( array_intersect( $filhos, $lidos ) );
-				$todos  = $n && $nl === $n;
 				$info   = $prev ? 'Previsto · ' . tpi_data_br( $data ) : tpi_data_br( $data ) . ' · ' . sprintf( _n( '%d julgado', '%d julgados', $n ), $n );
-				$html  .= '<li class="tpi-edicao' . ( $todos ? ' is-lido' : '' ) . ( $prev ? ' is-previsto' : '' ) . '"><a href="' . esc_url( get_permalink( $p ) ) . '"><span class="tpi-edicao__num">' . esc_html( tpi_meta( $p->ID, 'tp_numero' ) ) . '</span><span class="tpi-edicao__info">' . esc_html( $info ) . '</span>';
-				if ( is_user_logged_in() && $n ) {
-					$html .= '<span class="tpi-edicao__lidos">' . ( $todos ? 'Lido' : esc_html( $nl . ' de ' . $n . ' lidos' ) ) . '</span>';
+				$html  .= '<li class="tpi-edicao' . ( $prev ? ' is-previsto' : '' ) . '"' . ( $n ? ' data-tpi-ids="' . esc_attr( implode( ',', $filhos ) ) . '"' : '' ) . '><a href="' . esc_url( get_permalink( $p ) ) . '"><span class="tpi-edicao__num">' . esc_html( tpi_meta( $p->ID, 'tp_numero' ) ) . '</span><span class="tpi-edicao__info">' . esc_html( $info ) . '</span>';
+				if ( $n ) {
+					$html .= '<span class="tpi-edicao__lidos" hidden></span>';
 				}
 				$html .= '<span class="tpi-sr"> (Informativo ' . esc_html( tpi_meta( $p->ID, 'tp_numero' ) ) . ' do ' . $trib . ')</span></a></li>';
 			}
@@ -775,10 +750,9 @@ add_action( 'wp_enqueue_scripts', function () {
 		return;
 	}
 	wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );
-	if ( is_user_logged_in() && is_singular( 'informativo' ) ) {
-		wp_enqueue_script( 'tp-informativos', TPI_URL . 'assets/tpi.js', array(), TPI_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
-		wp_localize_script( 'tp-informativos', 'TPI', array( 'rest' => esc_url_raw( rest_url( 'tp/v1/lido/' ) ), 'nonce' => wp_create_nonce( 'wp_rest' ) ) );
-	}
+	$cfg = tpi_supabase();
+	wp_enqueue_script( 'tp-informativos', TPI_URL . 'assets/tpi.js', array(), TPI_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
+	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'] ) );
 } );
 
 
@@ -914,8 +888,7 @@ function tpi_card_julgado( $f ) {
 	$ramos = get_the_terms( $f, 'ramo_direito' );
 	$ramo  = ( $ramos && ! is_wp_error( $ramos ) ) ? $ramos[0]->name : '';
 	$trib  = tpi_meta( $f->ID, 'tp_tribunal' );
-	$lido  = in_array( $f->ID, tpi_lidos_usuario(), true );
-	$html  = '<li class="tpi-card tpi-resultado' . ( $lido ? ' is-lido' : '' ) . '"><p class="tpi-card__ramo"><span class="tpi-trib tpi-trib--' . esc_attr( strtolower( $trib ) ) . '">' . esc_html( $trib ) . '</span> Informativo ' . esc_html( tpi_meta( $f->ID, 'tp_numero' ) ) . ( $ramo ? '<span class="tpi-card__sep" aria-hidden="true"></span>' . esc_html( $ramo ) : '' ) . '</p>';
+	$html  = '<li class="tpi-card tpi-resultado" data-tpi-id="' . esc_attr( $f->ID ) . '"><p class="tpi-card__ramo"><span class="tpi-trib tpi-trib--' . esc_attr( strtolower( $trib ) ) . '">' . esc_html( $trib ) . '</span> Informativo ' . esc_html( tpi_meta( $f->ID, 'tp_numero' ) ) . ( $ramo ? '<span class="tpi-card__sep" aria-hidden="true"></span>' . esc_html( $ramo ) : '' ) . '</p>';
 	$html .= '<h3 class="tpi-card__titulo"><a href="' . esc_url( get_permalink( $f ) ) . '">' . esc_html( get_the_title( $f ) ) . '</a></h3>';
 	if ( $f->post_excerpt ) {
 		$html .= '<p class="tpi-card__resumo">' . esc_html( wp_trim_words( $f->post_excerpt, 38 ) ) . '</p>';
@@ -923,9 +896,6 @@ function tpi_card_julgado( $f ) {
 	$proc = tpi_meta( $f->ID, 'tp_processo' );
 	if ( $proc ) {
 		$html .= '<p class="tpi-card__proc">' . esc_html( $proc . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ', ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) ) . '</p>';
-	}
-	if ( $lido ) {
-		$html .= '<p class="tpi-card__lido">Lido</p>';
 	}
 	return $html . '</li>';
 }
