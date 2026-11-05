@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.6.2
+ * Version: 0.7.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.6.2' );
+define( 'TPI_VERSION', '0.7.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -25,6 +25,9 @@ define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
  *   /informativos/stj/                   -> tp_tipo = tribunal (hub do tribunal + próximo informativo)
  *   /informativos/stj/informativo-908/               -> tp_tipo = periodico
  *   /informativos/stj/informativo-908/<slug-tese>/   -> tp_tipo = julgado
+ *   /informativos/stj/jurisprudencia-em-teses/                  -> tp_tipo = teses_hub (0.7)
+ *   /informativos/stj/jurisprudencia-em-teses/edicao-123-tema/  -> tp_tipo = teses (uma página por edição)
+ *   /informativos/stf/teses-de-repercussao-geral/<assunto>/     -> teses_hub + teses, mesmo modelo (0.7)
  */
 
 /* ---------------------------------------------------------------------------
@@ -67,7 +70,7 @@ function tpi_register() {
 	);
 
 	$meta = array(
-		'tp_tipo'            => 'string',  // tribunal | periodico | julgado
+		'tp_tipo'            => 'string',  // tribunal | periodico | julgado | teses_hub | teses
 		'tp_tribunal'        => 'string',  // STJ | STF
 		'tp_numero'          => 'integer', // número do informativo
 		'tp_status'          => 'string',  // previsto | publicado
@@ -82,6 +85,13 @@ function tpi_register() {
 		'tp_fonte_url'       => 'string',  // link oficial (PDF/página do informativo)
 		'tp_revisado_em'     => 'string',  // AAAA-MM-DD
 		'tp_flashcards'      => 'string',  // JSON [{frente, verso}] para exportar ao Anki
+		// 0.7: cobertura retroativa
+		'tp_situacao'        => 'string',  // vigente | superada | revista | em_discussao (vazio = não conferida)
+		'tp_situacao_motivo' => 'string',  // 1 frase; aceita **negrito** e [texto](url)
+		'tp_situacao_em'     => 'string',  // AAAA-MM-DD da conferência
+		'tp_jt_edicao'       => 'integer', // julgado: edição do Jurisprudência em Teses em que a tese aparece
+		'tp_ramo_jt'         => 'string',  // teses: ramo como o STJ classifica (agrupa o hub)
+		'tp_atualizada_em'   => 'string',  // teses: data da última atualização oficial da edição
 	);
 	foreach ( $meta as $key => $type ) {
 		register_post_meta(
@@ -194,6 +204,20 @@ function tpi_data_extenso( $ymd ) {
 	return $ts ? wp_date( 'j \d\e F \d\e Y', $ts ) : '';
 }
 
+/* Rótulo curto de uma página (trilha de navegação). */
+function tpi_rotulo_curto( $pid ) {
+	switch ( tpi_meta( $pid, 'tp_tipo' ) ) {
+		case 'tribunal':
+			return tpi_meta( $pid, 'tp_tribunal' );
+		case 'periodico':
+			return 'Informativo ' . tpi_meta( $pid, 'tp_numero' );
+		case 'teses':
+			return tpi_meta( $pid, 'tp_numero' ) ? 'Edição ' . tpi_meta( $pid, 'tp_numero' ) : get_the_title( $pid );
+		default:
+			return get_the_title( $pid );
+	}
+}
+
 /* Página de informativo correspondente a um número, se existir. */
 function tpi_periodico_por_numero( $tribunal, $numero ) {
 	$q = get_posts( array( 'post_type' => 'informativo', 'numberposts' => 1, 'post_status' => 'publish', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $tribunal ), array( 'key' => 'tp_numero', 'value' => (int) $numero ) ) ) );
@@ -212,7 +236,7 @@ add_filter( 'render_block_core/post-title', function ( $html, $block ) {
 	$id    = get_queried_object_id();
 	$itens = array( '<a href="' . esc_url( home_url( '/informativos/' ) ) . '">Informativos</a>' );
 	foreach ( array_reverse( get_post_ancestors( $id ) ) as $anc ) {
-		$rotulo  = 'tribunal' === tpi_meta( $anc, 'tp_tipo' ) ? tpi_meta( $anc, 'tp_tribunal' ) : ( 'periodico' === tpi_meta( $anc, 'tp_tipo' ) ? 'Informativo ' . tpi_meta( $anc, 'tp_numero' ) : get_the_title( $anc ) );
+		$rotulo  = tpi_rotulo_curto( $anc );
 		$itens[] = '<a href="' . esc_url( get_permalink( $anc ) ) . '">' . esc_html( $rotulo ) . '</a>';
 	}
 	$nav = '<nav class="tpi-trilha" aria-label="Trilha de navegação"><ol><li>' . implode( '</li><li>', $itens ) . '</li></ol></nav>';
@@ -301,6 +325,12 @@ function tpi_irmaos( $id ) {
 }
 
 function tpi_edicoes_vizinhas( $id ) {
+	if ( 'teses' === tpi_meta( $id, 'tp_tipo' ) ) {
+		// Edições de Teses: vizinhas pela ordem de número dentro do mesmo hub.
+		$irmaos = array_reverse( wp_list_pluck( tpi_edicoes_teses( wp_get_post_parent_id( $id ) ), 'ID' ) );
+		$i      = array_search( $id, $irmaos, true );
+		return false === $i ? array( 0, 0 ) : array( $irmaos[ $i - 1 ] ?? 0, $irmaos[ $i + 1 ] ?? 0 );
+	}
 	$trib = tpi_meta( $id, 'tp_tribunal' );
 	$num  = (int) tpi_meta( $id, 'tp_numero' );
 	$base = array( 'post_type' => 'informativo', 'numberposts' => 1, 'post_status' => 'publish', 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num' );
@@ -320,7 +350,7 @@ function tpi_nav_vizinhos( $ant, $pro, $rotulo, $tipo ) {
 		if ( ! $pid ) {
 			return '<span class="tpi-vizinhos__vazio" aria-hidden="true"></span>';
 		}
-		$nome = 'edicao' === $tipo ? 'Informativo ' . tpi_meta( $pid, 'tp_numero' ) . ' do ' . tpi_meta( $pid, 'tp_tribunal' ) : get_the_title( $pid );
+		$nome = ( 'edicao' === $tipo && 'periodico' === tpi_meta( $pid, 'tp_tipo' ) ) ? 'Informativo ' . tpi_meta( $pid, 'tp_numero' ) . ' do ' . tpi_meta( $pid, 'tp_tribunal' ) : get_the_title( $pid );
 		return '<a class="tpi-vizinhos__' . $classe . '" href="' . esc_url( get_permalink( $pid ) ) . '"' . ( 'ant' === $classe ? ' rel="prev"' : ' rel="next"' ) . '><span class="tpi-vizinhos__dir">' . $dir . '</span><span class="tpi-vizinhos__nome">' . esc_html( $nome ) . '</span></a>';
 	};
 	$d = 'edicao' === $tipo ? array( '← Edição anterior', 'Próxima edição →' ) : array( '← Julgado anterior', 'Próximo julgado →' );
@@ -376,8 +406,11 @@ function tpi_wrap_content( $content ) {
 		);
 	}
 
-	if ( in_array( $tipo, array( 'periodico', 'julgado' ), true ) ) {
+	if ( in_array( $tipo, array( 'periodico', 'julgado', 'teses' ), true ) ) {
 		$pre .= tpi_assinatura( $id );
+	}
+	if ( in_array( $tipo, array( 'julgado', 'teses' ), true ) ) {
+		$pre .= tpi_aviso_situacao( $id );
 	}
 
 	if ( 'julgado' === $tipo ) {
@@ -387,6 +420,7 @@ function tpi_wrap_content( $content ) {
 		if ( $destaque ) {
 			$pre .= '<figure class="tpi-destaque"><figcaption>Destaque oficial do ' . esc_html( tpi_meta( $id, 'tp_tribunal' ) ) . '</figcaption><blockquote><p>' . wp_kses_post( $destaque ) . '</p></blockquote></figure>';
 		}
+		$pos .= tpi_selo_teses( $id );
 		$pos .= tpi_fonte_julgado( $id );
 		$pos .= tpi_botao_lido( $id );
 		$irmaos = tpi_irmaos( $id );
@@ -412,11 +446,142 @@ function tpi_wrap_content( $content ) {
 		$pos .= tpi_nav_vizinhos( $ant, $pro, 'Outras edições do ' . tpi_meta( $id, 'tp_tribunal' ), 'edicao' );
 	}
 
-	if ( in_array( $tipo, array( 'periodico', 'julgado' ), true ) ) {
+	if ( 'teses' === $tipo ) {
+		$pre .= tpi_resumo_teses( $id );
+		$pos .= tpi_botao_anki( $id );
+		list( $ant, $pro ) = tpi_edicoes_vizinhas( $id );
+		$pai  = wp_get_post_parent_id( $id );
+		$pos .= tpi_nav_vizinhos( $ant, $pro, $pai ? 'Outras edições de ' . get_the_title( $pai ) : 'Outras edições', 'edicao' );
+		$pos .= tpi_como_citar( $id );
+	}
+
+	if ( 'teses_hub' === $tipo ) {
+		$pos .= tpi_lista_teses( $id );
+	}
+
+	if ( in_array( $tipo, array( 'periodico', 'julgado', 'teses', 'teses_hub' ), true ) ) {
 		$pos .= tpi_newsletter_cta();
 	}
 
 	return $pre . $content . $pos;
+}
+
+/* ---------------------------------------------------------------------------
+ * 2c. Cobertura retroativa (0.7): situação da tese, Jurisprudência em Teses
+ * ------------------------------------------------------------------------- */
+function tpi_situacoes() {
+	return array(
+		'superada'     => array( 'Tese superada', 'Esta tese não reflete mais o entendimento atual.' ),
+		'revista'      => array( 'Tese revista em parte', 'Parte desta tese mudou depois do julgamento.' ),
+		'em_discussao' => array( 'Tema em discussão', 'O assunto está pendente de definição no tribunal.' ),
+	);
+}
+
+/* Marcação inline mínima do pipeline: **negrito** e [texto](url). */
+function tpi_inline( $txt ) {
+	$txt = esc_html( (string) $txt );
+	$txt = preg_replace( '/\*\*(.+?)\*\*/', '<strong>$1</strong>', $txt );
+	return preg_replace_callback(
+		'/\[([^\]]+)\]\((https?:[^)\s]+)\)/',
+		function ( $m ) {
+			return '<a href="' . esc_url( html_entity_decode( $m[2] ) ) . '">' . $m[1] . '</a>';
+		},
+		$txt
+	);
+}
+
+function tpi_aviso_situacao( $id ) {
+	$sit  = tpi_meta( $id, 'tp_situacao' );
+	$mapa = tpi_situacoes();
+	if ( ! isset( $mapa[ $sit ] ) ) {
+		return '';
+	}
+	$motivo = tpi_meta( $id, 'tp_situacao_motivo' );
+	$em     = tpi_meta( $id, 'tp_situacao_em' );
+	$html   = '<div class="tpi-aviso tpi-situacao tpi-situacao--' . esc_attr( $sit ) . '" role="note"><strong>' . esc_html( $mapa[ $sit ][0] ) . '.</strong> ' . ( $motivo ? tpi_inline( $motivo ) : esc_html( $mapa[ $sit ][1] ) );
+	if ( $em ) {
+		$html .= ' <span class="tpi-situacao__data">(conferido em <time datetime="' . esc_attr( $em ) . '">' . esc_html( tpi_data_br( $em ) ) . '</time>)</span>';
+	}
+	return $html . '</div>';
+}
+
+/* Edição de Teses (publicada) com um número, dentro do hub do tribunal. */
+function tpi_teses_por_numero( $tribunal, $numero ) {
+	$q = get_posts( array( 'post_type' => 'informativo', 'numberposts' => 1, 'post_status' => 'publish', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'teses' ), array( 'key' => 'tp_tribunal', 'value' => $tribunal ), array( 'key' => 'tp_numero', 'value' => (int) $numero ) ) ) );
+	return $q ? $q[0] : null;
+}
+
+/* Selo no julgado: "Esta tese está na Edição N do Jurisprudência em Teses" (link só se a edição já tem página). */
+function tpi_selo_teses( $id ) {
+	$n = (int) tpi_meta( $id, 'tp_jt_edicao' );
+	if ( ! $n ) {
+		return '';
+	}
+	$ed    = tpi_teses_por_numero( 'STJ', $n );
+	$rot   = 'Edição ' . $n . ' do Jurisprudência em Teses do STJ';
+	$alvo  = $ed ? '<a href="' . esc_url( get_permalink( $ed ) ) . '">' . esc_html( $rot ) . '</a>' : esc_html( $rot );
+	return '<p class="tpi-selo-teses">Esta tese também está na ' . $alvo . '.</p>';
+}
+
+function tpi_resumo_teses( $id ) {
+	$itens = array();
+	$at    = tpi_meta( $id, 'tp_atualizada_em' );
+	$fonte = tpi_meta( $id, 'tp_fonte_url' );
+	if ( $at ) {
+		$itens[] = 'Edição oficial atualizada em <time datetime="' . esc_attr( $at ) . '">' . esc_html( tpi_data_br( $at ) ) . '</time>';
+	}
+	if ( tpi_meta( $id, 'tp_situacao_em' ) ) {
+		$itens[] = 'Situação das teses conferida em ' . esc_html( tpi_data_br( tpi_meta( $id, 'tp_situacao_em' ) ) );
+	}
+	if ( $fonte ) {
+		$itens[] = '<a href="' . esc_url( $fonte ) . '" rel="noopener" target="_blank">Edição oficial no ' . esc_html( tpi_meta( $id, 'tp_tribunal' ) ) . '<span class="tpi-sr"> (abre em nova aba)</span></a>';
+	}
+	return $itens ? '<p class="tpi-resumo-edicao">' . implode( '<span aria-hidden="true"> · </span>', $itens ) . '</p>' : '';
+}
+
+/* Edições de um hub de Teses, da maior para a menor (sem número, como os grupos de repercussão geral, vão por título). */
+function tpi_edicoes_teses( $hub_id ) {
+	if ( ! $hub_id ) {
+		return array();
+	}
+	$eds = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'post_parent' => $hub_id, 'numberposts' => 500, 'orderby' => 'title', 'order' => 'ASC' ) );
+	usort(
+		$eds,
+		function ( $x, $y ) {
+			return (int) tpi_meta( $y->ID, 'tp_numero' ) <=> (int) tpi_meta( $x->ID, 'tp_numero' );
+		}
+	);
+	return $eds;
+}
+
+/* Hub de Teses: edições agrupadas por ramo, da mais nova para a mais antiga. */
+function tpi_lista_teses( $hub_id ) {
+	$eds = tpi_edicoes_teses( $hub_id );
+	if ( ! $eds ) {
+		return '<p class="tpi-vazio">As primeiras edições comentadas entram aqui em breve.</p>';
+	}
+	$grupos = array();
+	foreach ( $eds as $e ) {
+		$ramo = tpi_meta( $e->ID, 'tp_ramo_jt' );
+		if ( ! $ramo ) {
+			$t    = get_the_terms( $e, 'ramo_direito' );
+			$ramo = ( $t && ! is_wp_error( $t ) ) ? $t[0]->name : 'Outros temas';
+		}
+		$grupos[ $ramo ][] = $e;
+	}
+	ksort( $grupos );
+	$html = '<section class="tpi-julgados tpi-teses-lista" aria-labelledby="tpi-teses-titulo"><h2 id="tpi-teses-titulo">Edições comentadas</h2>';
+	foreach ( $grupos as $ramo => $lista ) {
+		$html .= '<h3>' . esc_html( $ramo ) . '</h3><ul>';
+		foreach ( $lista as $e ) {
+			$sit   = tpi_meta( $e->ID, 'tp_situacao' );
+			$mapa  = tpi_situacoes();
+			$extra = isset( $mapa[ $sit ] ) ? ' <span class="tpi-situacao-chip">' . esc_html( $mapa[ $sit ][0] ) . '</span>' : '';
+			$html .= '<li><a href="' . esc_url( get_permalink( $e ) ) . '">' . esc_html( get_the_title( $e ) ) . '</a>' . $extra . '</li>';
+		}
+		$html .= '</ul>';
+	}
+	return $html . '</section>';
 }
 
 function tpi_ficha_julgado( $id ) {
