@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.4
+ * Version: 0.7.5
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.4' );
+define( 'TPI_VERSION', '0.7.5' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -260,14 +260,8 @@ function tpi_periodico_por_numero( $tribunal, $numero ) {
 /* 0.7.2: páginas de informativo no sitemap do Rank Math (pedido do Jonatan em 05/11/2026).
    Força "Incluir no sitemap" para o tipo informativo na leitura da opção, sem regravar as demais
    configurações do Rank Math. Inclui as pré-páginas (previstas), que não recebem link interno. */
-add_filter( 'option_rank-math-options-sitemap', function ( $o ) {
-	if ( ! is_array( $o ) ) {
-		$o = array();
-	}
-	$o['pt_informativo_sitemap'] = 'on';
-	return $o;
-} );
-/* 0.7.4: o Rank Math lê as opções antes deste plugin carregar, então o filtro acima não basta.
+/* 0.7.4/0.7.5: o Rank Math lê as opções antes deste plugin carregar, então um filtro de leitura não basta
+   (e, na 0.7.4, ele fazia esta checagem achar que a chave já estava gravada; removido na 0.7.5).
    Grava a chave uma vez (mesclando com o que já existe, sem tocar nas demais) e limpa o cache do sitemap. */
 add_action( 'init', function () {
 	$o = get_option( 'rank-math-options-sitemap' );
