@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.9
+ * Version: 0.7.10
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.9' );
+define( 'TPI_VERSION', '0.7.10' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -717,7 +717,7 @@ function tpi_lista_julgados( $periodico_id ) {
 	foreach ( $grupos as $ramo => $lista ) {
 		$html .= '<h3 class="tpi-grupo" id="ramo-' . esc_attr( sanitize_title( $ramo ) ) . '">' . esc_html( $ramo ) . '</h3><ol class="tpi-cards tpi-cards--julgados">';
 		foreach ( $lista as $f ) {
-			$html .= '<li class="tpi-card" data-tpi-id="' . esc_attr( $f->ID ) . '">';
+			$html .= '<li class="tpi-card" data-tpi-id="' . esc_attr( $f->ID ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $f ) ) . '" data-tpi-url="' . esc_url( get_permalink( $f ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $f->ID, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $f->ID, 'tp_numero' ) ) . '">';
 			$proc  = tpi_meta( $f->ID, 'tp_processo' );
 			if ( $proc ) {
 				$html .= '<p class="tpi-card__ramo">' . esc_html( $proc . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) ) . '</p>';
@@ -881,13 +881,13 @@ function tpi_botao_lido( $id, $compacto = false ) {
 	$classe = 'tpi-lido' . ( $compacto ? ' tpi-lido--topo' : '' );
 	$campo  = 'tpi-lido-' . $id . ( $compacto ? '-topo' : '' );
 	$dados  = ' data-tpi-id="' . esc_attr( $id ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $id ) ) . '" data-tpi-url="' . esc_url( get_permalink( $id ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $id, 'tp_numero' ) ) . '"';
-	// Checkbox nativo: o estado (marcado/desmarcado) é anunciado pelo leitor de tela sem depender do texto.
+	// Botão nativo com texto de ação explícito ("Marcar como lido" / "Desmarcar"); o estado fica numa linha de status
+	// separada (role=status), anunciada pelo leitor de tela quando muda. Cor, ícone e texto mostram o estado (WCAG 1.4.1).
 	$html = '<div class="' . esc_attr( $classe ) . '"' . $dados . ' hidden>'
-		. '<input type="checkbox" class="tpi-lido__campo" id="' . esc_attr( $campo ) . '">'
-		. '<label for="' . esc_attr( $campo ) . '"><span class="tpi-lido__icone" aria-hidden="true"></span>'
-		. '<span class="tpi-lido__texto"><strong class="tpi-lido__estado">Não lido</strong>'
-		. '<span class="tpi-lido__acao">Marcar este julgado como lido</span></span></label>'
-		. '<span class="tpi-lido__erro" role="status"></span></div>';
+		. ( $compacto ? '' : '<p class="tpi-lido__pergunta">Terminou a leitura?</p>' )
+		. '<p class="tpi-lido__estado" role="status"></p>'
+		. '<button type="button" class="tpi-lido__botao"><span class="tpi-lido__icone" aria-hidden="true"></span><span class="tpi-lido__acao">Marcar como lido</span></button>'
+		. '<p class="tpi-lido__erro" role="status"></p></div>';
 	if ( ! $compacto ) {
 		$cfg   = tpi_supabase();
 		$html .= '<p class="tpi-lido-cta" hidden><a href="' . esc_url( $cfg['appUrl'] ) . '">Entre na sua conta do Tchau Pobreza</a> para marcar este julgado como lido e acompanhar seu progresso junto com o resto dos seus estudos.</p>';

@@ -1,4 +1,4 @@
-/* TP Informativos 0.6: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.7.10: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -55,9 +55,12 @@
 
   function pintaControle(box, lido) {
     box.classList.toggle('is-lido', lido);
-    box.querySelector('.tpi-lido__campo').checked = lido;
-    box.querySelector('.tpi-lido__estado').textContent = lido ? 'Lido' : 'Não lido';
-    box.querySelector('.tpi-lido__acao').textContent = lido ? 'Clique para desmarcar' : 'Marcar este julgado como lido';
+    var topo = box.classList.contains('tpi-lido--topo');
+    var estado = box.querySelector('.tpi-lido__estado');
+    var novoEstado = lido ? (topo ? 'Lido' : 'Você já leu este julgado.') : '';
+    if (estado.textContent !== novoEstado) estado.textContent = novoEstado;
+    box.querySelector('.tpi-lido__acao').textContent = lido ? (topo ? 'Desmarcar' : 'Desmarcar como lido') : 'Marcar como lido';
+    box.querySelector('.tpi-lido__botao').setAttribute('aria-label', lido ? 'Desmarcar este julgado como lido' : 'Marcar este julgado como lido');
   }
 
   function pintaTudo() {
@@ -65,12 +68,18 @@
       box.hidden = false;
       pintaControle(box, !!lidos[box.getAttribute('data-tpi-id')]);
     });
-    document.querySelectorAll('li.tpi-card[data-tpi-id]').forEach(function (li) {
+    document.querySelectorAll('.tpi-cards--julgados li.tpi-card[data-tpi-id]').forEach(function (li) {
       var lido = !!lidos[li.getAttribute('data-tpi-id')];
       li.classList.toggle('is-lido', lido);
-      var selo = li.querySelector('.tpi-card__lido');
-      if (lido && !selo) { selo = document.createElement('p'); selo.className = 'tpi-card__lido'; selo.textContent = 'Lido'; li.appendChild(selo); }
-      if (!lido && selo) selo.remove();
+      var b = li.querySelector('.tpi-card__marcar');
+      if (!b) { /* só para quem tem conta; fica em posição absoluta, então não empurra o layout (sem CLS) */
+        b = document.createElement('button'); b.type = 'button'; b.className = 'tpi-lido__botao tpi-card__marcar';
+        b.innerHTML = '<span class="tpi-lido__icone" aria-hidden="true"></span><span class="tpi-lido__acao"></span>';
+        li.appendChild(b);
+      }
+      var titulo = li.getAttribute('data-tpi-titulo') || 'este julgado';
+      b.querySelector('.tpi-lido__acao').textContent = lido ? 'Lido' : 'Marcar como lido';
+      b.setAttribute('aria-label', (lido ? 'Lido. Desmarcar: ' : 'Marcar como lido: ') + titulo);
     });
     document.querySelectorAll('[data-tpi-progresso]').forEach(function (p) {
       var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
@@ -101,13 +110,14 @@
     }).catch(function () { pintaTudo(); });
   });
 
-  document.addEventListener('change', function (e) {
-    var campo = e.target.closest('.tpi-lido__campo');
-    if (!campo) return;
-    var box = campo.closest('.tpi-lido');
+  document.addEventListener('click', function (e) {
+    var botao = e.target.closest('.tpi-lido__botao');
+    if (!botao) return;
+    var box = botao.closest('[data-tpi-id]');
+    if (box.getAttribute('aria-busy') === 'true') return;
     var id = box.getAttribute('data-tpi-id');
-    var novo = campo.checked;
-    var erro = box.querySelector('.tpi-lido__erro');
+    var novo = !lidos[id];
+    var erro = box.querySelector('.tpi-lido__erro') || { textContent: '' };
     erro.textContent = '';
     lidos[id] = novo; pintaTudo(); /* resposta imediata; desfaz se falhar */
     box.setAttribute('aria-busy', 'true');
@@ -129,6 +139,7 @@
       });
     }).catch(function (err) {
       lidos[id] = !novo; pintaTudo();
+      if (!box.querySelector('.tpi-lido__erro')) { alert(String(err && err.message) === 'sessao' ? 'Sua sessão expirou. Entre de novo no app e volte aqui.' : 'Não foi possível salvar. Tente de novo.'); return; }
       erro.textContent = String(err && err.message) === 'sessao'
         ? 'Sua sessão expirou. Entre de novo no app e volte aqui.'
         : 'Não foi possível salvar. Tente de novo.';
