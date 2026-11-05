@@ -46,9 +46,16 @@
     opcoes = opcoes || {};
     opcoes.headers = Object.assign({ apikey: C.key, Authorization: 'Bearer ' + s.access_token, 'Content-Type': 'application/json' }, opcoes.headers || {});
     return fetch(C.url + '/rest/v1/' + caminho, opcoes).then(function (r) {
+      if (r.status === 401) throw new Error('jwt');
       if (!r.ok) return r.text().then(function (t) { throw new Error(t || r.status); });
       return r.status === 204 ? null : r.text().then(function (t) { return t ? JSON.parse(t) : null; });
     });
+  }
+
+  /* Mostra o código do erro do banco (ex.: 23514), para o suporte saber a causa sem abrir o console. */
+  function detalhe(err) {
+    try { var o = JSON.parse(err.message); return o && (o.code || o.message) ? ' (erro ' + (o.code || '') + (o.message ? ': ' + o.message : '') + ')' : ''; }
+    catch (e) { return /^\d{3}$/.test(String(err && err.message)) ? ' (erro ' + err.message + ')' : ''; }
   }
 
   var lidos = {};
@@ -104,7 +111,12 @@
 
   sessao().then(function (s) {
     if (!s) return semConta();
-    return api(s, 'tp_records?select=id&kind=eq.' + KIND + '&limit=5000').then(function (linhas) {
+    var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.' + KIND + '&limit=5000'); };
+    return ler(s).catch(function (err) {
+      if (String(err && err.message) !== 'jwt') throw err;
+      sessaoP = renovar(s).catch(function () { return null; });
+      return sessaoP.then(function (n) { if (!n) throw err; return ler(n); });
+    }).then(function (linhas) {
       (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = true; });
       pintaTudo();
     }).catch(function () { pintaTudo(); });
@@ -121,7 +133,7 @@
     erro.textContent = '';
     lidos[id] = novo; pintaTudo(); /* resposta imediata; desfaz se falhar */
     box.setAttribute('aria-busy', 'true');
-    sessao().then(function (s) {
+    function gravar(s) {
       if (!s) throw new Error('sessao');
       var rid = encodeURIComponent(KIND + ':' + id);
       if (!novo) return api(s, 'tp_records?kind=eq.' + KIND + '&id=eq.' + rid, { method: 'DELETE' });
@@ -137,12 +149,22 @@
           }
         })
       });
+    }
+    sessao().then(function (s) {
+      /* Token vencido (401): renova uma vez com o refresh_token e tenta de novo. */
+      return Promise.resolve(gravar(s)).catch(function (err) {
+        if (String(err && err.message) !== 'jwt' || !s) throw err;
+        sessaoP = renovar(s).catch(function () { return null; });
+        return sessaoP.then(gravar);
+      });
     }).catch(function (err) {
+      if (window.console) console.error('[tp-informativos] falha ao salvar o lido:', err && err.message);
+      if (String(err && err.message) === 'jwt') err = new Error('sessao');
       lidos[id] = !novo; pintaTudo();
       if (!box.querySelector('.tpi-lido__erro')) { alert(String(err && err.message) === 'sessao' ? 'Sua sessão expirou. Entre de novo no app e volte aqui.' : 'Não foi possível salvar. Tente de novo.'); return; }
       erro.textContent = String(err && err.message) === 'sessao'
         ? 'Sua sessão expirou. Entre de novo no app e volte aqui.'
-        : 'Não foi possível salvar. Tente de novo.';
+        : 'Não foi possível salvar. Tente de novo.' + detalhe(err);
     }).finally(function () { box.removeAttribute('aria-busy'); });
   });
 })();
