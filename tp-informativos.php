@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.3
+ * Version: 0.7.4
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.3' );
+define( 'TPI_VERSION', '0.7.4' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -267,6 +267,19 @@ add_filter( 'option_rank-math-options-sitemap', function ( $o ) {
 	$o['pt_informativo_sitemap'] = 'on';
 	return $o;
 } );
+/* 0.7.4: o Rank Math lê as opções antes deste plugin carregar, então o filtro acima não basta.
+   Grava a chave uma vez (mesclando com o que já existe, sem tocar nas demais) e limpa o cache do sitemap. */
+add_action( 'init', function () {
+	$o = get_option( 'rank-math-options-sitemap' );
+	if ( ! is_array( $o ) || ( $o['pt_informativo_sitemap'] ?? '' ) === 'on' ) {
+		return;
+	}
+	$o['pt_informativo_sitemap'] = 'on';
+	update_option( 'rank-math-options-sitemap', $o );
+	if ( class_exists( '\\RankMath\\Sitemap\\Cache' ) && method_exists( '\\RankMath\\Sitemap\\Cache', 'invalidate_storage' ) ) {
+		\RankMath\Sitemap\Cache::invalidate_storage();
+	}
+}, 99 );
 add_filter( 'rank_math/sitemap/exclude_post_type', function ( $excluir, $tipo ) {
 	return 'informativo' === $tipo ? false : $excluir;
 }, 10, 2 );
