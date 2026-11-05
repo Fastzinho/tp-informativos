@@ -161,7 +161,7 @@
           }
           if (d && d.status === 'success') {
             f.querySelector('.tpi-nl-campos').hidden = true;
-            aviso.textContent = 'Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.';
+            aviso.textContent = 'Quase lá! Enviamos um e-mail de confirmação de newsletter@tchaupobreza.com.br. Clique no botão dele para ativar a inscrição. Ele chega em poucos segundos; se não aparecer, olhe as abas Promoções e Spam.';
           } else {
             botao.disabled = false;
             aviso.textContent = (d && d.mensagem) || 'Não deu certo. Confira o e-mail digitado e tente de novo.';

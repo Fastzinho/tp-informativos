@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.8
+ * Version: 0.7.9
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.8' );
+define( 'TPI_VERSION', '0.7.9' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -767,7 +767,7 @@ function tpi_kit_form_html( $origem ) {
 		. '<div class="tpi-nl-campos"><input id="' . $uid . '" type="email" name="email_address" required autocomplete="email" inputmode="email" placeholder="voce@exemplo.com">'
 		. '<button type="submit" class="tpi-btn">Quero receber</button></div>'
 		. ( 'reach' === $prov ? '<div class="tpi-nl-isca" aria-hidden="true"><label>Não preencha<input type="text" name="site" tabindex="-1" autocomplete="off"></label></div><input type="hidden" name="origem" value="' . esc_attr( $origem ) . '">' : '' )
-		. '<p class="tpi-nl-aviso">Você vai receber um e-mail para confirmar. Dá para sair a qualquer momento. Veja a <a href="' . esc_url( home_url( '/privacidade/' ) ) . '">política de privacidade</a>.</p>'
+		. '<p class="tpi-nl-aviso">Você vai receber um e-mail para confirmar a inscrição. Dá para sair a qualquer momento. Veja a <a href="' . esc_url( home_url( '/privacidade/' ) ) . '">política de privacidade</a>.</p>'
 		. '</form>';
 }
 
@@ -839,7 +839,7 @@ add_shortcode( 'tp_newsletter', function () {
 	$form = tpi_kit_form_html( 'pagina' );
 	$q    = isset( $_GET['inscricao'] ) ? sanitize_key( wp_unslash( $_GET['inscricao'] ) ) : '';
 	if ( 'ok' === $q ) {
-		$form = '<p class="tpi-nl-status" role="status">Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.</p>';
+		$form = '<p class="tpi-nl-status" role="status">Quase lá! Enviamos um e-mail de confirmação de newsletter@tchaupobreza.com.br. Clique no botão dele para ativar a inscrição. Ele chega em poucos segundos; se não aparecer, olhe as abas Promoções e Spam.</p>';
 	} elseif ( 'erro' === $q ) {
 		$form = '<p class="tpi-nl-status" role="status">Não deu certo. Confira o e-mail e tente de novo.</p>' . $form;
 	}
