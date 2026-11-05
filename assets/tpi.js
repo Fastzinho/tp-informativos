@@ -155,6 +155,10 @@
       fetch(f.action, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
         .then(function (r) { return r.json(); })
         .then(function (d) {
+          if (d && d.status === 'quarantined' && d.url) {
+            window.location.href = d.url; // checagem anti-robô do Kit; depois dela a inscrição segue
+            return;
+          }
           if (d && d.status === 'success') {
             f.querySelector('.tpi-nl-campos').hidden = true;
             aviso.textContent = 'Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.';
