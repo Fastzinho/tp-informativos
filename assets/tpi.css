@@ -368,3 +368,16 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-situacao-chip { display: inline-block; vertical-align: middle; margin-left: .4rem; padding: .1rem .55rem; border: 1px solid #a33a2a; border-radius: 999px; background: #fdf0ee; color: #8a2c1f; font-size: .78rem; font-weight: 700; line-height: 1.5; }
 .tpi-selo-teses { margin: 2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--tpi-linha); color: var(--tpi-suave); font-size: .95rem; }
 .tpi-selo-teses a { color: var(--tpi-verde); font-weight: 600; }
+
+/* Texto justificado (preferência editorial), só no texto corrido e só em telas largas.
+   No celular a coluna é estreita e o justificado abre "rios" de espaço (WCAG 1.4.8); lá fica alinhado à esquerda.
+   hyphens:auto usa o lang="pt-BR" da página para hifenizar e reduzir os buracos entre palavras. */
+@media (min-width: 768px) {
+	.tpi-pagina .entry-content > p,
+	.tpi-pagina .tpi-panorama > p {
+		text-align: justify;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+		hyphenate-limit-chars: 6 3 3;
+	}
+}
