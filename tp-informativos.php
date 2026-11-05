@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.2
+ * Version: 0.7.3
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.2' );
+define( 'TPI_VERSION', '0.7.3' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -171,7 +171,40 @@ function tpi_calendario_padrao() {
 }
 function tpi_calendario_oficial() {
 	$c = get_option( 'tpi_calendario_oficial' );
-	return ( is_array( $c ) && $c ) ? $c : tpi_calendario_padrao();
+	return tpi_reestimar_datas( ( is_array( $c ) && $c ) ? $c : tpi_calendario_padrao() );
+}
+
+/* 0.7.3: datas estimadas (STF) se ajustam ao que já existe no site. A âncora é a edição de maior número
+   com página (publicada ou prevista) e data; as estimadas anteriores somem, a dela assume a data da página, e as seguintes ficam a cada 7 dias
+   a partir dela. Assim um informativo que saiu fora do dia (ex.: 1235 na quarta, 04/11) não aparece mais
+   como "próximo", e o calendário não salta semanas. Datas oficiais nunca são alteradas. */
+function tpi_reestimar_datas( $itens ) {
+	static $ancoras = null;
+	if ( null === $ancoras ) {
+		$ancoras = array();
+		$q = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'numberposts' => 50, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ) ) ) );
+		foreach ( $q as $p ) {
+			$t    = tpi_meta( $p->ID, 'tp_tribunal' );
+			$n    = (int) tpi_meta( $p->ID, 'tp_numero' );
+			$prev = 'previsto' === tpi_meta( $p->ID, 'tp_status' );
+			$d    = $prev ? tpi_meta( $p->ID, 'tp_data_prevista' ) : tpi_meta( $p->ID, 'tp_data_publicacao' );
+			if ( $t && $n && $d && ( empty( $ancoras[ $t ] ) || $n > $ancoras[ $t ]['numero'] ) ) {
+				$ancoras[ $t ] = array( 'numero' => $n, 'data' => $d );
+			}
+		}
+	}
+	$out = array();
+	foreach ( $itens as $c ) {
+		$a = $ancoras[ $c['tribunal'] ] ?? null;
+		if ( $a && ! empty( $c['estimada'] ) ) {
+			if ( (int) $c['numero'] < $a['numero'] ) {
+				continue;
+			}
+			$c['data'] = gmdate( 'Y-m-d', strtotime( $a['data'] . ' 12:00:00 UTC +' . ( 7 * ( (int) $c['numero'] - $a['numero'] ) ) . ' days' ) );
+		}
+		$out[] = $c;
+	}
+	return $out;
 }
 add_action( 'init', function () {
 	register_setting(
@@ -797,6 +830,10 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
 	$prox = null;
 	foreach ( tpi_calendario_oficial() as $c ) {
 		if ( strtoupper( $a['tribunal'] ) === $c['tribunal'] && $c['data'] > $hoje && ( ! $prox || $c['data'] < $prox['data'] ) ) {
+			$ja = tpi_periodico_por_numero( $c['tribunal'], $c['numero'] );
+			if ( $ja && 'previsto' !== tpi_meta( $ja->ID, 'tp_status' ) ) {
+				continue; // já divulgado (saiu antes da data do calendário)
+			}
 			$prox = $c;
 		}
 	}
