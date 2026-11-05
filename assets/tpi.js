@@ -164,7 +164,7 @@
             aviso.textContent = 'Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.';
           } else {
             botao.disabled = false;
-            aviso.textContent = 'Não deu certo. Confira o e-mail digitado e tente de novo.';
+            aviso.textContent = (d && d.mensagem) || 'Não deu certo. Confira o e-mail digitado e tente de novo.';
           }
         })
         .catch(function () { f.submit(); });

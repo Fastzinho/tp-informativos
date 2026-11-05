@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.7
+ * Version: 0.7.8
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.7' );
+define( 'TPI_VERSION', '0.7.8' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -734,24 +734,93 @@ function tpi_lista_julgados( $periodico_id ) {
 	return $html . '</section>';
 }
 
-/* 0.7.6: newsletter no Kit (decisão do Jonatan em 05/11/2026, no lugar do Hostinger Reach).
-   Opção tpi_kit_form_id: id numérico do formulário do Kit. Com ela, o fim dos julgados e das edições mostra
-   um formulário HTML puro (sem script do Kit, não pesa na página) que posta direto no Kit, com double opt-in.
-   Sem ela, o botão leva à página /newsletter/ e só aparece se essa página estiver publicada (nada de link para 404).
-   O shortcode [tp_newsletter] põe o mesmo formulário na página /newsletter/. */
+/* Newsletter. 0.7.6 trouxe o Kit; 0.7.8 volta ao Hostinger Reach (decisão do Jonatan em 05/11/2026: plano Grow,
+   sem a marca do provedor nos e-mails). Opção tpi_newsletter_provedor: "kit" (padrão, para a troca não derrubar o formulário) ou "reach";
+   o Reach só entra quando também tpi_reach_pronto = 1 (site conectado e lista conferida).
+   - reach: o formulário posta na rota própria tp-informativos/v1/newsletter, que repassa ao plugin Hostinger Reach
+     pelo gancho oficial hostinger_reach_submit. Não usa o nonce do WP (a página fica no cache do LiteSpeed e o nonce
+     venceria); a proteção é um campo isca e um limite de 5 tentativas por IP por hora.
+   - kit: posta direto no Kit (opção tpi_kit_form_id).
+   O formulário só aparece com o provedor pronto; sem ele, o botão leva à /newsletter/ se ela existir, ou some. */
+function tpi_newsletter_provedor() {
+	$p = get_option( 'tpi_newsletter_provedor', 'kit' );
+	if ( 'kit' === $p ) {
+		return preg_replace( '/\D/', '', (string) get_option( 'tpi_kit_form_id', '' ) ) ? 'kit' : '';
+	}
+	return has_action( 'hostinger_reach_submit' ) && get_option( 'tpi_reach_pronto', '' ) ? 'reach' : '';
+}
+
 function tpi_kit_form_html( $origem ) {
-	$form = preg_replace( '/\D/', '', (string) get_option( 'tpi_kit_form_id', '' ) );
-	if ( '' === $form ) {
+	$prov = tpi_newsletter_provedor();
+	if ( '' === $prov ) {
 		return '';
 	}
-	$acao = apply_filters( 'tpi_kit_form_action', 'https://app.kit.com/forms/' . $form . '/subscriptions', $form );
-	$uid  = 'tpi-nl-email-' . wp_unique_id();
-	return '<form class="tpi-nl-form" action="' . esc_url( $acao ) . '" method="post" data-origem="' . esc_attr( $origem ) . '">'
+	if ( 'kit' === $prov ) {
+		$form = preg_replace( '/\D/', '', (string) get_option( 'tpi_kit_form_id', '' ) );
+		$acao = apply_filters( 'tpi_kit_form_action', 'https://app.kit.com/forms/' . $form . '/subscriptions', $form );
+	} else {
+		$acao = rest_url( 'tp-informativos/v1/newsletter' );
+	}
+	$uid = 'tpi-nl-email-' . wp_unique_id();
+	return '<form class="tpi-nl-form" action="' . esc_url( $acao ) . '" method="post" data-provedor="' . esc_attr( $prov ) . '" data-origem="' . esc_attr( $origem ) . '">'
 		. '<label for="' . $uid . '" class="tpi-nl-rotulo">Seu e-mail</label>'
 		. '<div class="tpi-nl-campos"><input id="' . $uid . '" type="email" name="email_address" required autocomplete="email" inputmode="email" placeholder="voce@exemplo.com">'
 		. '<button type="submit" class="tpi-btn">Quero receber</button></div>'
+		. ( 'reach' === $prov ? '<div class="tpi-nl-isca" aria-hidden="true"><label>Não preencha<input type="text" name="site" tabindex="-1" autocomplete="off"></label></div><input type="hidden" name="origem" value="' . esc_attr( $origem ) . '">' : '' )
 		. '<p class="tpi-nl-aviso">Você vai receber um e-mail para confirmar. Dá para sair a qualquer momento. Veja a <a href="' . esc_url( home_url( '/privacidade/' ) ) . '">política de privacidade</a>.</p>'
 		. '</form>';
+}
+
+add_action( 'rest_api_init', function () {
+	register_rest_route( 'tp-informativos/v1', '/newsletter', array(
+		'methods'             => 'POST',
+		'permission_callback' => '__return_true',
+		'callback'            => 'tpi_newsletter_inscrever',
+	) );
+} );
+
+function tpi_newsletter_inscrever( WP_REST_Request $req ) {
+	$json  = false !== strpos( (string) $req->get_header( 'accept' ), 'application/json' );
+	$volta = function ( $ok, $msg, $status = 200 ) use ( $json ) {
+		if ( $json ) {
+			return new WP_REST_Response( array( 'status' => $ok ? 'success' : 'failed', 'mensagem' => $msg ), $status );
+		}
+		$r = new WP_REST_Response( null, 303 );
+		$r->header( 'Location', add_query_arg( 'inscricao', $ok ? 'ok' : 'erro', home_url( '/newsletter/' ) ) );
+		return $r;
+	};
+	if ( '' !== (string) $req->get_param( 'site' ) ) {
+		return $volta( true, 'ok' ); // robô: finge sucesso
+	}
+	$email = sanitize_email( (string) $req->get_param( 'email_address' ) );
+	if ( ! is_email( $email ) ) {
+		return $volta( false, 'E-mail inválido.', 400 );
+	}
+	if ( ! has_action( 'hostinger_reach_submit' ) ) {
+		return $volta( false, 'Inscrições indisponíveis no momento.', 503 );
+	}
+	$ip    = isset( $_SERVER['REMOTE_ADDR'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) ) : '';
+	$chave = 'tpi_nl_' . md5( $ip );
+	$n     = (int) get_transient( $chave );
+	if ( $n >= 5 ) {
+		return $volta( false, 'Muitas tentativas. Tente de novo mais tarde.', 429 );
+	}
+	set_transient( $chave, $n + 1, HOUR_IN_SECONDS );
+
+	$falhou = false;
+	$pega   = function () use ( &$falhou ) { $falhou = true; };
+	add_action( 'hostinger_reach_contact_failed', $pega );
+	do_action( 'hostinger_reach_submit', array(
+		'group'    => apply_filters( 'tpi_reach_grupo', 'Newsletter informativos' ),
+		'tags'     => '',
+		'email'    => $email,
+		'name'     => '',
+		'surname'  => '',
+		'phone'    => '',
+		'metadata' => array( 'plugin' => 'tp-informativos', 'origem' => sanitize_key( (string) $req->get_param( 'origem' ) ) ),
+	) );
+	remove_action( 'hostinger_reach_contact_failed', $pega );
+	return $falhou ? $volta( false, 'Não deu certo. Tente de novo em instantes.', 502 ) : $volta( true, 'ok' );
 }
 
 function tpi_newsletter_cta() {
@@ -768,9 +837,21 @@ function tpi_newsletter_cta() {
 }
 add_shortcode( 'tp_newsletter', function () {
 	$form = tpi_kit_form_html( 'pagina' );
+	$q    = isset( $_GET['inscricao'] ) ? sanitize_key( wp_unslash( $_GET['inscricao'] ) ) : '';
+	if ( 'ok' === $q ) {
+		$form = '<p class="tpi-nl-status" role="status">Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.</p>';
+	} elseif ( 'erro' === $q ) {
+		$form = '<p class="tpi-nl-status" role="status">Não deu certo. Confira o e-mail e tente de novo.</p>' . $form;
+	}
 	return $form ? '<section class="tpi-newsletter tpi-newsletter-pagina">' . $form . '</section>' : '';
 } );
 add_action( 'init', function () {
+	register_setting( 'general', 'tpi_newsletter_provedor', array( 'type' => 'string', 'default' => 'kit', 'show_in_rest' => true, 'sanitize_callback' => function ( $v ) {
+		return 'kit' === $v ? 'kit' : 'reach';
+	} ) );
+	register_setting( 'general', 'tpi_reach_pronto', array( 'type' => 'string', 'default' => '', 'show_in_rest' => true, 'sanitize_callback' => function ( $v ) {
+		return $v ? '1' : '';
+	} ) );
 	register_setting( 'general', 'tpi_kit_form_id', array( 'type' => 'string', 'default' => '', 'show_in_rest' => true, 'sanitize_callback' => function ( $v ) {
 		return preg_replace( '/\D/', '', (string) $v );
 	} ) );
