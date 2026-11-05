@@ -135,3 +135,35 @@
     }).finally(function () { box.removeAttribute('aria-busy'); });
   });
 })();
+
+/* 0.7.6: formulário da newsletter (Kit) envia sem sair da página. Sem JS, o POST normal leva à página de sucesso do Kit. */
+(function () {
+  document.querySelectorAll('form.tpi-nl-form').forEach(function (f) {
+    f.addEventListener('submit', function (ev) {
+      if (!window.fetch || !window.FormData) return;
+      ev.preventDefault();
+      var botao = f.querySelector('button');
+      var aviso = f.querySelector('.tpi-nl-status');
+      if (!aviso) {
+        aviso = document.createElement('p');
+        aviso.className = 'tpi-nl-status';
+        aviso.setAttribute('role', 'status');
+        f.appendChild(aviso);
+      }
+      botao.disabled = true;
+      aviso.textContent = 'Enviando...';
+      fetch(f.action, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d && d.status === 'success') {
+            f.querySelector('.tpi-nl-campos').hidden = true;
+            aviso.textContent = 'Pronto! Agora confira seu e-mail e clique no link para confirmar a inscrição.';
+          } else {
+            botao.disabled = false;
+            aviso.textContent = 'Não deu certo. Confira o e-mail digitado e tente de novo.';
+          }
+        })
+        .catch(function () { f.submit(); });
+    });
+  });
+})();

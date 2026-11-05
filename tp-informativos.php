@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.5
+ * Version: 0.7.6
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.5' );
+define( 'TPI_VERSION', '0.7.6' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -734,10 +734,47 @@ function tpi_lista_julgados( $periodico_id ) {
 	return $html . '</section>';
 }
 
-function tpi_newsletter_cta() {
-	$url = apply_filters( 'tpi_newsletter_url', home_url( '/newsletter/' ) );
-	return '<section class="tpi-newsletter" aria-labelledby="tpi-nl-titulo"><h2 id="tpi-nl-titulo">Receba o próximo informativo comentado</h2><p>Um e-mail por semana, às quartas, com os informativos do STJ e do STF comentados: a tese, como ela cai em prova e flashcards prontos para revisar.</p><p><a class="tpi-btn" href="' . esc_url( $url ) . '">Quero receber</a></p></section>';
+/* 0.7.6: newsletter no Kit (decisão do Jonatan em 05/11/2026, no lugar do Hostinger Reach).
+   Opção tpi_kit_form_id: id numérico do formulário do Kit. Com ela, o fim dos julgados e das edições mostra
+   um formulário HTML puro (sem script do Kit, não pesa na página) que posta direto no Kit, com double opt-in.
+   Sem ela, o botão leva à página /newsletter/ e só aparece se essa página estiver publicada (nada de link para 404).
+   O shortcode [tp_newsletter] põe o mesmo formulário na página /newsletter/. */
+function tpi_kit_form_html( $origem ) {
+	$form = preg_replace( '/\D/', '', (string) get_option( 'tpi_kit_form_id', '' ) );
+	if ( '' === $form ) {
+		return '';
+	}
+	$acao = apply_filters( 'tpi_kit_form_action', 'https://app.kit.com/forms/' . $form . '/subscriptions', $form );
+	$uid  = 'tpi-nl-email-' . wp_unique_id();
+	return '<form class="tpi-nl-form" action="' . esc_url( $acao ) . '" method="post" data-origem="' . esc_attr( $origem ) . '">'
+		. '<label for="' . $uid . '" class="tpi-nl-rotulo">Seu e-mail</label>'
+		. '<div class="tpi-nl-campos"><input id="' . $uid . '" type="email" name="email_address" required autocomplete="email" inputmode="email" placeholder="voce@exemplo.com">'
+		. '<button type="submit" class="tpi-btn">Quero receber</button></div>'
+		. '<p class="tpi-nl-aviso">Você vai receber um e-mail para confirmar. Dá para sair a qualquer momento. Veja a <a href="' . esc_url( home_url( '/privacidade/' ) ) . '">política de privacidade</a>.</p>'
+		. '</form>';
 }
+
+function tpi_newsletter_cta() {
+	$form = tpi_kit_form_html( 'julgado' );
+	if ( '' === $form ) {
+		$pag = get_page_by_path( 'newsletter' );
+		if ( ! $pag || 'publish' !== $pag->post_status ) {
+			return '';
+		}
+		$url  = apply_filters( 'tpi_newsletter_url', get_permalink( $pag ) );
+		$form = '<p><a class="tpi-btn" href="' . esc_url( $url ) . '">Quero receber</a></p>';
+	}
+	return '<section class="tpi-newsletter" aria-labelledby="tpi-nl-titulo"><h2 id="tpi-nl-titulo">Receba o próximo informativo comentado</h2><p>Um e-mail por semana, às quartas, com os informativos do STJ e do STF comentados: a tese, como ela cai em prova e flashcards prontos para revisar.</p>' . $form . '</section>';
+}
+add_shortcode( 'tp_newsletter', function () {
+	$form = tpi_kit_form_html( 'pagina' );
+	return $form ? '<section class="tpi-newsletter tpi-newsletter-pagina">' . $form . '</section>' : '';
+} );
+add_action( 'init', function () {
+	register_setting( 'general', 'tpi_kit_form_id', array( 'type' => 'string', 'default' => '', 'show_in_rest' => true, 'sanitize_callback' => function ( $v ) {
+		return preg_replace( '/\D/', '', (string) $v );
+	} ) );
+} );
 
 /* ---------------------------------------------------------------------------
  * 3. Marcar como lido: conta do app (Supabase), a mesma de ?tp_app=1  (0.6)
@@ -1020,7 +1057,7 @@ function tpi_schema() {
  * ------------------------------------------------------------------------- */
 add_action( 'wp_enqueue_scripts', function () {
 	$conteudo = is_singular() ? (string) get_post_field( 'post_content', get_queried_object_id() ) : '';
-	if ( ! is_singular( 'informativo' ) && ! has_shortcode( $conteudo, 'tp_calendario' ) && ! has_shortcode( $conteudo, 'tp_ultimos' ) && ! has_shortcode( $conteudo, 'tp_proximo' ) && ! has_shortcode( $conteudo, 'tp_buscador' ) && ! has_shortcode( $conteudo, 'tp_edicoes' ) ) {
+	if ( ! is_singular( 'informativo' ) && ! has_shortcode( $conteudo, 'tp_calendario' ) && ! has_shortcode( $conteudo, 'tp_ultimos' ) && ! has_shortcode( $conteudo, 'tp_proximo' ) && ! has_shortcode( $conteudo, 'tp_buscador' ) && ! has_shortcode( $conteudo, 'tp_edicoes' ) && ! has_shortcode( $conteudo, 'tp_newsletter' ) ) {
 		return;
 	}
 	wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );

@@ -381,3 +381,16 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 		hyphenate-limit-chars: 6 3 3;
 	}
 }
+
+/* 0.7.6: formulário da newsletter (Kit) */
+.tpi-nl-form { margin: 0; }
+.tpi-nl-rotulo { display: block; margin: 0 0 .35rem; font-weight: 600; color: #fff; }
+.tpi-nl-campos { display: flex; flex-wrap: wrap; gap: .6rem; }
+.tpi-nl-campos input[type="email"] { flex: 1 1 15rem; min-width: 0; min-height: 44px; padding: .6rem .9rem; border: 1px solid #fff; border-radius: 10px; font: inherit; color: #1a1a1a; background: #fff; box-sizing: border-box; }
+.tpi-nl-campos input[type="email"]:focus-visible { outline: 3px solid var(--tpi-marca); outline-offset: 2px; }
+.tpi-newsletter .tpi-nl-campos .tpi-btn { min-height: 44px; background: #fff; border-color: #fff; color: var(--tpi-verde-escuro); cursor: pointer; }
+.tpi-newsletter .tpi-nl-campos .tpi-btn:hover { background: var(--tpi-marca); border-color: var(--tpi-marca); }
+.tpi-newsletter p.tpi-nl-aviso { margin: .7rem 0 0; font-size: .85rem; color: #dfe9e4; }
+.tpi-newsletter .tpi-nl-aviso a { color: #fff; }
+.tpi-newsletter-pagina { margin-top: 1.5rem; }
+.tpi-newsletter p.tpi-nl-status { margin: .7rem 0 0; font-weight: 600; color: #fff; }
