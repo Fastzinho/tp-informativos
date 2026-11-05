@@ -224,6 +224,24 @@ function tpi_periodico_por_numero( $tribunal, $numero ) {
 	return $q ? $q[0] : null;
 }
 
+/* 0.6.3: links internos para a pré-página de um informativo ainda não divulgado (tp_status "previsto").
+   Opção tpi_links_previstos: "nenhum" (padrão, decisão do Jonatan em 05/11/2026: a pré-página é indexável,
+   mas ninguém linka para ela até a divulgação), "calendario" (só a tabela do calendário) ou "todos".
+   Uma edição já publicada é sempre linkada. */
+function tpi_linkavel( $post, $onde ) {
+	$id = is_object( $post ) ? $post->ID : (int) $post;
+	if ( ! $id || 'previsto' !== tpi_meta( $id, 'tp_status' ) ) {
+		return (bool) $id;
+	}
+	$modo = get_option( 'tpi_links_previstos', 'nenhum' );
+	return 'todos' === $modo || ( 'calendario' === $modo && 'calendario' === $onde );
+}
+add_action( 'init', function () {
+	register_setting( 'general', 'tpi_links_previstos', array( 'type' => 'string', 'default' => 'nenhum', 'show_in_rest' => array( 'schema' => array( 'type' => 'string', 'enum' => array( 'nenhum', 'calendario', 'todos' ) ) ), 'sanitize_callback' => function ( $v ) {
+		return in_array( $v, array( 'nenhum', 'calendario', 'todos' ), true ) ? $v : 'nenhum';
+	} ) );
+} );
+
 /* ---------------------------------------------------------------------------
  * 1b. Trilha de navegação acima do título (somente nas páginas de informativo)
  * ------------------------------------------------------------------------- */
@@ -339,7 +357,8 @@ function tpi_edicoes_vizinhas( $id ) {
 	};
 	$ant = get_posts( $base + array( 'order' => 'DESC', 'meta_query' => $mq( '<' ) ) );
 	$pro = get_posts( $base + array( 'order' => 'ASC', 'meta_query' => $mq( '>' ) ) );
-	return array( $ant ? $ant[0]->ID : 0, $pro ? $pro[0]->ID : 0 );
+	$pro = ( $pro && tpi_linkavel( $pro[0], 'vizinhos' ) ) ? $pro[0]->ID : 0;
+	return array( $ant ? $ant[0]->ID : 0, $pro );
 }
 
 function tpi_nav_vizinhos( $ant, $pro, $rotulo, $tipo ) {
@@ -742,7 +761,7 @@ add_shortcode( 'tp_calendario', function ( $atts ) {
 		$data   = '<time datetime="' . esc_attr( $i['data'] ) . '"><span class="tpi-cal__dia">' . esc_html( wp_date( 'd', $ts ) ) . '</span> <span class="tpi-cal__mes">' . esc_html( wp_date( 'M', $ts ) ) . '</span></time>';
 		$com    = $i['post'] && empty( $i['previsto'] );
 		$nome   = esc_html( (string) $i['numero'] );
-		$edicao = $i['post'] ? '<a href="' . esc_url( get_permalink( $i['post'] ) ) . '">Informativo ' . $nome . '</a>' : 'Informativo ' . $nome;
+		$edicao = ( $i['post'] && tpi_linkavel( $i['post'], 'calendario' ) ) ? '<a href="' . esc_url( get_permalink( $i['post'] ) ) . '">Informativo ' . $nome . '</a>' : 'Informativo ' . $nome;
 		if ( $com ) {
 			$sit = '<span class="tpi-sit tpi-sit--ok">Comentado</span>';
 		} elseif ( $i['data'] < $hoje ) {
@@ -775,7 +794,7 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
 	$nome = 'Informativo ' . $prox['numero'] . ' do ' . $prox['tribunal'];
 	$hid  = 'tpi-proximo-' . strtolower( $prox['tribunal'] );
 	$html = '<section class="tpi-proximo" aria-labelledby="' . $hid . '"><p class="tpi-proximo__quando">' . ( 1 === $dias ? 'Amanhã' : 'Em ' . $dias . ' dias' ) . '</p>';
-	$html .= '<h2 id="' . $hid . '" class="tpi-proximo__titulo">' . ( $post ? '<a href="' . esc_url( get_permalink( $post ) ) . '">' . esc_html( $nome ) . '</a>' : esc_html( $nome ) ) . '</h2>';
+	$html .= '<h2 id="' . $hid . '" class="tpi-proximo__titulo">' . ( ( $post && tpi_linkavel( $post, 'proximo' ) ) ? '<a href="' . esc_url( get_permalink( $post ) ) . '">' . esc_html( $nome ) . '</a>' : esc_html( $nome ) ) . '</h2>';
 	$html .= '<p class="tpi-proximo__data">' . ( empty( $prox['estimada'] )
 		? 'Divulgação prevista para ' . esc_html( tpi_data_extenso( $prox['data'] ) ) . ', segundo o calendário oficial do tribunal.'
 		: 'Data estimada: ' . esc_html( tpi_data_extenso( $prox['data'] ) ) . '. O tribunal ainda não publicou o calendário desta edição.' ) . ' Os julgados entram comentados aqui no dia da divulgação.</p></section>';
@@ -789,6 +808,7 @@ add_shortcode( 'tp_edicoes', function ( $atts ) {
 	$html  = '<div class="tpi-edicoes">';
 	foreach ( array( 'STJ', 'STF' ) as $trib ) {
 		$q = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'numberposts' => 200, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $trib ) ) ) );
+		$q     = array_values( array_filter( $q, function ( $p ) { return tpi_linkavel( $p, 'edicoes' ); } ) );
 		$hid   = 'tpi-ed-' . strtolower( $trib );
 		$html .= '<section class="tpi-edicoes__col" aria-labelledby="' . $hid . '"><h3 id="' . $hid . '" class="tpi-edicoes__trib"><span class="tpi-trib tpi-trib--' . strtolower( $trib ) . '">' . $trib . '</span> ' . ( 'STJ' === $trib ? 'Superior Tribunal de Justiça' : 'Supremo Tribunal Federal' ) . '</h3>';
 		if ( ! $q ) {
@@ -827,7 +847,8 @@ add_shortcode( 'tp_ultimos', function ( $atts ) {
 	if ( $a['tribunal'] ) {
 		$meta[] = array( 'key' => 'tp_tribunal', 'value' => strtoupper( $a['tribunal'] ) );
 	}
-	$q = get_posts( array( 'post_type' => 'informativo', 'numberposts' => (int) $a['limite'], 'meta_query' => $meta, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC' ) );
+	$q = get_posts( array( 'post_type' => 'informativo', 'numberposts' => (int) $a['limite'] + 2, 'meta_query' => $meta, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC' ) );
+	$q = array_slice( array_values( array_filter( $q, function ( $p ) { return tpi_linkavel( $p, 'ultimos' ); } ) ), 0, (int) $a['limite'] );
 	if ( ! $q ) {
 		return '';
 	}
