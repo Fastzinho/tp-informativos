@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.1
+ * Version: 0.7.2
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.1' );
+define( 'TPI_VERSION', '0.7.2' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -223,6 +223,20 @@ function tpi_periodico_por_numero( $tribunal, $numero ) {
 	$q = get_posts( array( 'post_type' => 'informativo', 'numberposts' => 1, 'post_status' => 'publish', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $tribunal ), array( 'key' => 'tp_numero', 'value' => (int) $numero ) ) ) );
 	return $q ? $q[0] : null;
 }
+
+/* 0.7.2: páginas de informativo no sitemap do Rank Math (pedido do Jonatan em 05/11/2026).
+   Força "Incluir no sitemap" para o tipo informativo na leitura da opção, sem regravar as demais
+   configurações do Rank Math. Inclui as pré-páginas (previstas), que não recebem link interno. */
+add_filter( 'option_rank-math-options-sitemap', function ( $o ) {
+	if ( ! is_array( $o ) ) {
+		$o = array();
+	}
+	$o['pt_informativo_sitemap'] = 'on';
+	return $o;
+} );
+add_filter( 'rank_math/sitemap/exclude_post_type', function ( $excluir, $tipo ) {
+	return 'informativo' === $tipo ? false : $excluir;
+}, 10, 2 );
 
 /* 0.6.3: links internos para a pré-página de um informativo ainda não divulgado (tp_status "previsto").
    Opção tpi_links_previstos: "nenhum" (padrão, decisão do Jonatan em 05/11/2026: a pré-página é indexável,
