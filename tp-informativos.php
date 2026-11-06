@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.11
+ * Version: 0.7.12
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.11' );
+define( 'TPI_VERSION', '0.7.12' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
@@ -887,11 +887,8 @@ function tpi_botao_lido( $id, $compacto = false ) {
 		. ( $compacto ? '' : '<p class="tpi-lido__pergunta">Terminou a leitura?</p>' )
 		. '<p class="tpi-lido__estado" role="status"></p>'
 		. '<button type="button" class="tpi-lido__botao"><span class="tpi-lido__icone" aria-hidden="true"></span><span class="tpi-lido__acao">Marcar como lido</span></button>'
-		. '<p class="tpi-lido__erro" role="status"></p></div>';
-	if ( ! $compacto ) {
-		$cfg   = tpi_supabase();
-		$html .= '<p class="tpi-lido-cta" hidden><a href="' . esc_url( $cfg['appUrl'] ) . '">Entre na sua conta do Tchau Pobreza</a> para marcar este julgado como lido e acompanhar seu progresso junto com o resto dos seus estudos.</p>';
-	}
+		. '<p class="tpi-lido__erro" role="status"></p>'
+		. '<p class="tpi-lido__convite" hidden>Para salvar, <a href="' . esc_url( tpi_supabase()['appUrl'] ) . '">entre na sua conta do Tchau Pobreza</a>. Os julgados que você marcar ficam guardados junto com o resto dos seus estudos, em qualquer dispositivo.</p></div>';
 	return $html;
 }
 

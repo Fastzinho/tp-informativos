@@ -105,8 +105,12 @@
     });
   }
 
+  /* Sem conta: o botão aparece igual para todos (o visitante descobre que dá para salvar);
+     ao clicar, em vez de gravar, abre o convite para entrar no app. */
+  var semSessao = false;
   function semConta() {
-    document.querySelectorAll('.tpi-lido-cta').forEach(function (p) { p.hidden = false; });
+    semSessao = true;
+    document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) { box.hidden = false; pintaControle(box, false); });
   }
 
   sessao().then(function (s) {
@@ -127,6 +131,11 @@
     if (!botao) return;
     var box = botao.closest('[data-tpi-id]');
     if (box.getAttribute('aria-busy') === 'true') return;
+    if (semSessao) {
+      var convite = box.querySelector('.tpi-lido__convite');
+      if (convite) { convite.hidden = false; var a = convite.querySelector('a'); if (a) a.focus(); }
+      return;
+    }
     var id = box.getAttribute('data-tpi-id');
     var novo = !lidos[id];
     var erro = box.querySelector('.tpi-lido__erro') || { textContent: '' };

@@ -162,8 +162,6 @@
 	.tpi-card__marcar { padding: .35rem .85rem .35rem .6rem; font-size: .85rem; }
 }
 .tpi-card.is-lido .tpi-card__marcar { border-color: var(--tpi-verde); }
-.tpi-lido-cta { margin: 2.5rem 0 0; }
-.tpi-lido-cta { padding: 1rem 1.1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio); }
 
 /* Newsletter */
 .tpi-newsletter { margin: 3rem 0 1rem; padding: 1.6rem 1.5rem; border-radius: var(--tpi-raio); background: var(--tpi-verde); color: #fff; }
@@ -418,3 +416,8 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-card__marcar:hover { border-color: var(--tpi-verde); color: var(--tpi-verde-escuro); background: #fff; }
 .tpi-card.is-lido .tpi-card__marcar { background: var(--tpi-verde); border-color: var(--tpi-verde); color: #fff; font-weight: 700; }
 .tpi-card.is-lido .tpi-card__marcar .tpi-lido__icone { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%232c5748' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+/* Convite para entrar (visitante sem conta clicou em "Marcar como lido"). */
+.tpi-lido__convite { flex-basis: 100%; margin: 0; padding: .75rem .9rem; border-radius: var(--tpi-raio-p); background: #fbf6ea; border-left: 4px solid var(--tpi-areia); font-size: .95rem; line-height: 1.5; }
+.tpi-lido__convite[hidden] { display: none; }
+.tpi-lido__convite a { color: var(--tpi-verde-escuro); font-weight: 700; }
+@media (max-width: 599px) { .tpi-lido:not(.tpi-lido--topo) .tpi-lido__botao { margin-left: 0; } }
