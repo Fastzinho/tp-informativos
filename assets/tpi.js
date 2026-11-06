@@ -203,6 +203,7 @@
           }
           if (d && d.status === 'success') {
             f.querySelector('.tpi-nl-campos').hidden = true;
+            document.dispatchEvent(new CustomEvent('tpi:newsletter-inscrito', { detail: { origem: f.getAttribute('data-origem') || '' } })); // 0.7.13: conversão (includes/medicao.php)
             aviso.textContent = 'Quase lá! Enviamos um e-mail de confirmação de newsletter@tchaupobreza.com.br. Clique no botão dele para ativar a inscrição. Ele chega em poucos segundos; se não aparecer, olhe as abas Promoções e Spam.';
           } else {
             botao.disabled = false;
