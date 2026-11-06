@@ -8,6 +8,8 @@
  *   pode editar o site (não suja as conversões com os testes da equipe).
  * - Conversão: "lead_created" quando a inscrição na newsletter dá certo (envio pelo formulário ou
  *   chegada em /newsletter/?inscricao=ok). Também envia "page_viewed" em cada página, com consentimento.
+ * - Google Analytics (Site Kit): Consent Mode v2. analytics_storage segue a mesma escolha; os sinais de anúncio do Google
+ *   ficam sempre negados (não anunciamos no Google). Sem aceite, o GA manda só pings sem cookie.
  * - O HTML sai igual para todos (cache do LiteSpeed ok); a escolha fica no localStorage (tpi_cookies).
  * - Reabrir o aviso: qualquer link para #preferencias-cookies (ex.: na política de privacidade ou no rodapé).
  *
@@ -47,7 +49,10 @@ add_action( 'wp_head', function () {
 	?>
 <script id="tpi-oaiq">
 !function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
-(function(){var c=null;try{c=localStorage.getItem("tpi_cookies")}catch(e){}oaiq("consent",c==="sim");oaiq("init",{pixelId:<?php echo wp_json_encode( $id ); ?>});if(c==="sim")oaiq("measure","page_viewed",{type:"contents"});})();
+(function(){var c=null;try{c=localStorage.getItem("tpi_cookies")}catch(e){}
+window.dataLayer=window.dataLayer||[];window.gtag=window.gtag||function(){dataLayer.push(arguments)};
+gtag("consent","default",{analytics_storage:c==="sim"?"granted":"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",wait_for_update:500});
+oaiq("consent",c==="sim");oaiq("init",{pixelId:<?php echo wp_json_encode( $id ); ?>});if(c==="sim")oaiq("measure","page_viewed",{type:"contents"});})();
 </script>
 	<?php
 }, 1 );
@@ -60,7 +65,7 @@ add_action( 'wp_footer', function () {
 	$politica = esc_url( home_url( '/privacidade/#cookies' ) );
 	?>
 <div id="tpi-cookies" class="tpi-cookies" role="region" aria-label="Aviso de cookies" hidden>
-	<p class="tpi-cookies__texto">Usamos cookies de medição para saber se os nossos anúncios funcionam. Eles só são ativados se você aceitar. <a href="<?php echo $politica; ?>">Saiba mais</a>.</p>
+	<p class="tpi-cookies__texto">Usamos cookies de medição para contar as visitas e saber se os nossos anúncios funcionam. Eles só são ativados se você aceitar. <a href="<?php echo $politica; ?>">Saiba mais</a>.</p>
 	<div class="tpi-cookies__acoes">
 		<button type="button" class="tpi-cookies__btn tpi-cookies__btn--sim" data-tpi-cookies="sim">Aceitar</button>
 		<button type="button" class="tpi-cookies__btn" data-tpi-cookies="nao">Recusar</button>
@@ -87,6 +92,7 @@ add_action( 'wp_footer', function () {
 		var v=b.getAttribute("data-tpi-cookies"),antes=ler();
 		try{localStorage.setItem("tpi_cookies",v)}catch(err){}
 		oaiq("consent",v==="sim");
+		if(window.gtag)gtag("consent","update",{analytics_storage:v==="sim"?"granted":"denied"});
 		if(v==="sim"&&antes!=="sim")oaiq("measure","page_viewed",{type:"contents"});
 		aviso.hidden=true;
 	});
