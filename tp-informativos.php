@@ -890,12 +890,17 @@ function tpi_botao_lido( $id, $compacto = false ) {
 	$classe = 'tpi-lido' . ( $compacto ? ' tpi-lido--topo' : '' );
 	$campo  = 'tpi-lido-' . $id . ( $compacto ? '-topo' : '' );
 	$dados  = ' data-tpi-id="' . esc_attr( $id ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $id ) ) . '" data-tpi-url="' . esc_url( get_permalink( $id ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $id, 'tp_numero' ) ) . '"';
-	// Botão nativo com texto de ação explícito ("Marcar como lido" / "Desmarcar"); o estado fica numa linha de status
-	// separada (role=status), anunciada pelo leitor de tela quando muda. Cor, ícone e texto mostram o estado (WCAG 1.4.1).
+	// 0.7.16: mesmo marcador do app (✓ cinza / ✓✓ verde, ícones check e check-check do Lucide), aqui com texto curto ao
+	// lado ("Marcar como lido" / "Lido"), porque é a página onde chega o visitante do Google. Um botão só, de alternância:
+	// nome acessível fixo + aria-pressed; a linha role=status (visualmente oculta) anuncia a mudança no leitor de tela.
+	$svg  = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
 	$html = '<div class="' . esc_attr( $classe ) . '"' . $dados . ' hidden>'
 		. ( $compacto ? '' : '<p class="tpi-lido__pergunta">Terminou a leitura?</p>' )
-		. '<p class="tpi-lido__estado" role="status"></p>'
-		. '<button type="button" class="tpi-lido__botao"><span class="tpi-lido__icone" aria-hidden="true"></span><span class="tpi-lido__acao">Marcar como lido</span></button>'
+		. '<p class="tpi-lido__estado tpi-sr" role="status"></p>'
+		. '<button type="button" class="tpi-lido__botao" aria-pressed="false" aria-label="Marcar como lido" title="Marcar como lido">'
+		. $svg . 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>'
+		. $svg . 'class="i-dois" stroke-width="2.4"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></svg>'
+		. '<span class="tpi-lido__acao" aria-hidden="true">Marcar como lido</span></button>'
 		. '<p class="tpi-lido__erro" role="status"></p>'
 		. '<p class="tpi-lido__convite" hidden>Para salvar, <a href="' . esc_url( tpi_supabase()['appUrl'] ) . '">entre na sua conta do Tchau Pobreza</a>. Os julgados que você marcar ficam guardados junto com o resto dos seus estudos, em qualquer dispositivo.</p></div>';
 	return $html;

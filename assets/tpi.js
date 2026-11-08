@@ -67,12 +67,14 @@
 
   function pintaControle(box, lido) {
     box.classList.toggle('is-lido', lido);
-    var topo = box.classList.contains('tpi-lido--topo');
     var estado = box.querySelector('.tpi-lido__estado');
-    var novoEstado = lido ? (topo ? 'Lido' : 'Você já leu este julgado.') : '';
+    var novoEstado = lido ? 'Julgado marcado como lido.' : '';
     if (estado.textContent !== novoEstado) estado.textContent = novoEstado;
-    box.querySelector('.tpi-lido__acao').textContent = lido ? (topo ? 'Desmarcar' : 'Desmarcar como lido') : 'Marcar como lido';
-    box.querySelector('.tpi-lido__botao').setAttribute('aria-label', lido ? 'Desmarcar este julgado como lido' : 'Marcar este julgado como lido');
+    var botao = box.querySelector('.tpi-lido__botao');
+    botao.setAttribute('aria-pressed', String(lido));
+    botao.title = semSessao ? 'Marcar como lido: entre na sua conta para salvar o que já leu'
+      : (lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido');
+    box.querySelector('.tpi-lido__acao').textContent = lido ? 'Lido' : 'Marcar como lido';
   }
 
   /* Cards da edição: botão ✓ / ✓✓ igual ao do app. Para o visitante sem conta aparece o ✓ cinza
