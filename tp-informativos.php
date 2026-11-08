@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.19
+ * Version: 0.7.20
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.19' );
+define( 'TPI_VERSION', '0.7.20' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -129,6 +129,17 @@ function tpi_data_br( $ymd ) {
 	return $ts ? wp_date( 'd/m/Y', $ts ) : esc_html( $ymd );
 }
 
+/*
+ * Página sobre o autor, usada no link da assinatura e no author.url / reviewedBy.url do schema.
+ * O arquivo /author/ fica fora do índice (mostra o texto inteiro de todos os posts), então o link
+ * vai para a página Sobre, que tem a bio. Sem página Sobre publicada, volta ao arquivo do autor.
+ */
+function tpi_autor_url( $user_id = 1 ) {
+	$sobre = get_page_by_path( 'sobre' );
+	$url   = ( $sobre && 'publish' === $sobre->post_status ) ? get_permalink( $sobre ) : get_author_posts_url( (int) $user_id );
+	return apply_filters( 'tpi_autor_url', $url, (int) $user_id );
+}
+
 /* Autor exibido e usado no schema (independe do nome do usuário do WP). */
 function tpi_autor() {
 	return apply_filters(
@@ -136,7 +147,7 @@ function tpi_autor() {
 		array(
 			'nome'        => 'Jonatan Ramos',
 			'credenciais' => 'especialista em Direito Penal, aprovado no ENAM e na EMERJ',
-			'url'         => get_author_posts_url( (int) get_post_field( 'post_author', get_queried_object_id() ) ? (int) get_post_field( 'post_author', get_queried_object_id() ) : 1 ),
+			'url'         => tpi_autor_url( (int) get_post_field( 'post_author', get_queried_object_id() ) ? (int) get_post_field( 'post_author', get_queried_object_id() ) : 1 ),
 		)
 	);
 }
@@ -455,7 +466,8 @@ function tpi_como_citar( $id ) {
 	$sobre  = mb_strtoupper( array_pop( $partes ) );
 	$ref    = $sobre . ', ' . implode( ' ', $partes ) . '. ' . get_the_title( $id ) . '. <em>Tchau Pobreza</em>, ' . $fmt( get_post_time( 'U', true, $id ) ) . '. Disponível em: ' . esc_html( get_permalink( $id ) ) . '. Acesso em: ' . $fmt( time() ) . '.';
 	$email  = apply_filters( 'tpi_email_erros', 'contato@tchaupobreza.com.br' );
-	$assunto = rawurlencode( 'Erro no comentário: ' . get_the_title( $id ) );
+	// Título cru: get_the_title() aplica wptexturize e o assunto do e-mail saía com &#8220; no lugar das aspas.
+	$assunto = rawurlencode( 'Erro no comentário: ' . html_entity_decode( wp_strip_all_tags( get_post_field( 'post_title', $id ) ), ENT_QUOTES, 'UTF-8' ) );
 	$corpo   = rawurlencode( "Página: " . get_permalink( $id ) . "\n\nO que está errado:\n" );
 	return '<section class="tpi-citar" aria-labelledby="tpi-citar-titulo"><h2 id="tpi-citar-titulo">Como citar este comentário</h2><p class="tpi-citar__ref">' . $ref . '</p>'
 		. '<p class="tpi-citar__erro">Encontrou um erro? <a href="mailto:' . esc_attr( $email ) . '?subject=' . $assunto . '&amp;body=' . $corpo . '">Avise por e-mail</a> e a correção entra com a data de revisão atualizada.</p></section>';
@@ -1085,7 +1097,7 @@ function tpi_schema() {
 		array(
 			'@type'    => 'Person',
 			'name'     => get_the_author_meta( 'display_name', $post->post_author ),
-			'url'      => get_author_posts_url( $post->post_author ),
+			'url'      => tpi_autor_url( $post->post_author ),
 		)
 	);
 	$graph  = array();
