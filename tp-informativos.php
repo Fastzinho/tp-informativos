@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.7.15
+ * Version: 0.7.17
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.7.15' );
+define( 'TPI_VERSION', '0.7.17' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -867,6 +867,11 @@ function tpi_lidos_usuario() {
 	return array(); // compatibilidade: o estado não é mais conhecido no servidor
 }
 
+function tpi_app_opcao( $chave ) {
+	$o = get_option( 'tp_config', array() );
+	return is_array( $o ) && isset( $o[ $chave ] ) ? $o[ $chave ] : '';
+}
+
 function tpi_supabase() {
 	return apply_filters(
 		'tpi_supabase',
@@ -874,6 +879,9 @@ function tpi_supabase() {
 			'url'    => 'https://jzzfbusaarewckpjifpf.supabase.co',
 			'key'    => 'sb_publishable_Dxoblx3dXzg9WGxmLHF7iQ_GuBTq-ej', // chave pública (a mesma que o app publica na página)
 			'appUrl' => home_url( '/?tp_app=1' ),
+			// Login no modal do informativo (0.7.17): mesmas opções do plugin do app (Configurações → Tchau Pobreza).
+			'google' => tpi_app_opcao( 'google' ) ? (string) tpi_app_opcao( 'google_client_id' ) : '',
+			'signup' => (bool) tpi_app_opcao( 'signup' ),
 		)
 	);
 }
@@ -1142,7 +1150,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );
 	$cfg = tpi_supabase();
 	wp_enqueue_script( 'tp-informativos', TPI_URL . 'assets/tpi.js', array(), TPI_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
-	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'] ) );
+	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'], 'google' => $cfg['google'] ?? '', 'signup' => ! empty( $cfg['signup'] ) ) );
 } );
 
 
