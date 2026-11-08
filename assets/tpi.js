@@ -1,4 +1,4 @@
-/* TP Informativos 0.7.15: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.7.16: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -129,8 +129,32 @@
     }).then(function (linhas) {
       (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = true; });
       pintaTudo();
+      concluiPendente();
     }).catch(function () { pintaTudo(); });
   });
+
+  /* 0.7.16: o visitante clicou em "Marcar como lido", entrou no app e voltou (o app lê ?voltar=):
+     completa a marcação que ele pediu, uma vez só, se ainda estiver valendo (30 min). */
+  var PENDENTE = 'tpi-marcar-pendente';
+  function guardaPendente(id) {
+    try { localStorage.setItem(PENDENTE, JSON.stringify({ id: id, at: Date.now() })); } catch (e) {}
+  }
+  function concluiPendente() {
+    var p = null;
+    try { p = JSON.parse(localStorage.getItem(PENDENTE) || 'null'); localStorage.removeItem(PENDENTE); } catch (e) { return; }
+    if (!p || !p.id || Date.now() - p.at > 30 * 60 * 1000 || lidos[p.id]) return;
+    var box = document.querySelector('[data-tpi-id="' + String(p.id).replace(/[^0-9]/g, '') + '"]');
+    var botao = box && box.querySelector('.tpi-lido__botao, .tpi-card__lido');
+    if (botao) botao.click();
+  }
+  /* Link do convite com o endereço desta página, para o app trazer a pessoa de volta depois do login. */
+  function linkDeVolta(a) {
+    try {
+      var u = new URL(a.getAttribute('href'), location.href);
+      u.searchParams.set('voltar', location.pathname + location.search);
+      a.href = u.href;
+    } catch (e) {}
+  }
 
   document.addEventListener('click', function (e) {
     var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
@@ -139,7 +163,10 @@
     if (box.getAttribute('aria-busy') === 'true') return;
     if (semSessao) {
       var convite = box.querySelector('.tpi-lido__convite');
-      if (convite) { convite.hidden = false; var a = convite.querySelector('a'); if (a) a.focus(); }
+      if (convite) {
+        guardaPendente(box.getAttribute('data-tpi-id'));
+        convite.hidden = false; var a = convite.querySelector('a'); if (a) { linkDeVolta(a); a.focus(); }
+      }
       return;
     }
     var id = box.getAttribute('data-tpi-id');
