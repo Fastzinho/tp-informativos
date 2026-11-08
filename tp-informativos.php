@@ -18,6 +18,7 @@ define( 'TPI_VERSION', '0.7.20' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
+require_once __DIR__ . '/includes/ramos.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
 
 /*
@@ -686,6 +687,11 @@ function tpi_ficha_julgado( $id ) {
 			$html .= '<div><dt>' . esc_html( $rotulo ) . '</dt><dd>' . $dd . '</dd></div>';
 		}
 	}
+	$rp = tpi_ramo_principal( get_post( $id ) );
+	if ( $rp ) { // 0.7.19: link interno para a página do ramo (hub temático).
+		$tps   = tpi_topicos_de( get_post( $id ), $rp->term_id );
+		$html .= '<div><dt>Ramo do Direito</dt><dd><a href="' . esc_url( get_term_link( $rp ) ) . '">' . esc_html( $rp->name ) . '</a>' . ( $tps ? ' · ' . esc_html( implode( ', ', wp_list_pluck( $tps, 'name' ) ) ) : '' ) . '</dd></div>';
+	}
 	return $html . '</dl>';
 }
 
@@ -716,8 +722,8 @@ function tpi_lista_julgados( $periodico_id ) {
 	// 0.4: agrupado por ramo (índice escaneável, como nos buscadores de jurisprudência), na ordem do informativo.
 	$grupos = array();
 	foreach ( $filhos as $f ) {
-		$ramos = get_the_terms( $f, 'ramo_direito' );
-		$ramo  = ( $ramos && ! is_wp_error( $ramos ) ) ? $ramos[0]->name : 'Outros temas';
+		$rp    = tpi_ramo_principal( $f );
+		$ramo  = $rp ? $rp->name : 'Outros temas';
 		$grupos[ $ramo ][] = $f;
 	}
 	if ( count( $grupos ) > 1 ) {
@@ -1161,7 +1167,7 @@ function tpi_schema() {
  * ------------------------------------------------------------------------- */
 add_action( 'wp_enqueue_scripts', function () {
 	$conteudo = is_singular() ? (string) get_post_field( 'post_content', get_queried_object_id() ) : '';
-	if ( ! is_singular( 'informativo' ) && ! has_shortcode( $conteudo, 'tp_calendario' ) && ! has_shortcode( $conteudo, 'tp_ultimos' ) && ! has_shortcode( $conteudo, 'tp_proximo' ) && ! has_shortcode( $conteudo, 'tp_buscador' ) && ! has_shortcode( $conteudo, 'tp_edicoes' ) && ! has_shortcode( $conteudo, 'tp_newsletter' ) ) {
+	if ( ! is_singular( 'informativo' ) && ! is_tax( 'ramo_direito' ) && ! has_shortcode( $conteudo, 'tp_calendario' ) && ! has_shortcode( $conteudo, 'tp_ultimos' ) && ! has_shortcode( $conteudo, 'tp_proximo' ) && ! has_shortcode( $conteudo, 'tp_buscador' ) && ! has_shortcode( $conteudo, 'tp_edicoes' ) && ! has_shortcode( $conteudo, 'tp_newsletter' ) ) {
 		return;
 	}
 	wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );
@@ -1300,8 +1306,11 @@ function tpi_busca_ids( $b ) {
 }
 
 function tpi_card_julgado( $f ) {
-	$ramos = get_the_terms( $f, 'ramo_direito' );
-	$ramo  = ( $ramos && ! is_wp_error( $ramos ) ) ? $ramos[0]->name : '';
+	$rp    = tpi_ramo_principal( $f );
+	$ramo  = $rp ? $rp->name : '';
+	if ( $rp && is_tax( 'ramo_direito' ) ) { // na página do ramo, o ramo é óbvio: mostra o tópico.
+		$ramo = implode( ', ', wp_list_pluck( tpi_topicos_de( $f, $rp->term_id ), 'name' ) );
+	}
 	$trib  = tpi_meta( $f->ID, 'tp_tribunal' );
 	$html  = '<li class="tpi-card tpi-resultado" data-tpi-id="' . esc_attr( $f->ID ) . '"><p class="tpi-card__ramo"><span class="tpi-trib tpi-trib--' . esc_attr( strtolower( $trib ) ) . '">' . esc_html( $trib ) . '</span> Informativo ' . esc_html( tpi_meta( $f->ID, 'tp_numero' ) ) . ( $ramo ? '<span class="tpi-card__sep" aria-hidden="true"></span>' . esc_html( $ramo ) : '' ) . '</p>';
 	$html .= '<h3 class="tpi-card__titulo"><a href="' . esc_url( get_permalink( $f ) ) . '">' . esc_html( get_the_title( $f ) ) . '</a></h3>';
@@ -1318,8 +1327,7 @@ function tpi_card_julgado( $f ) {
 add_shortcode( 'tp_buscador', function () {
 	$b     = tpi_busca_params();
 	$acao  = get_permalink();
-	$ramos = get_terms( array( 'taxonomy' => 'ramo_direito', 'hide_empty' => true ) );
-	$ramos = is_wp_error( $ramos ) ? array() : $ramos;
+	$ramos = tpi_ramos_principais();
 
 	$opt_ramo = '<option value="">Todos os ramos</option>';
 	foreach ( $ramos as $r ) {
@@ -1373,7 +1381,7 @@ add_shortcode( 'tp_buscador', function () {
 		$html .= '<section class="tpi-ramos" aria-labelledby="tpi-ramos-titulo"><h2 id="tpi-ramos-titulo">Navegue por ramo do Direito</h2><ul>';
 		foreach ( $ramos as $r ) {
 			$ativo = $b['ramo'] === $r->slug;
-			$html .= '<li><a href="' . esc_url( add_query_arg( 'ramo', $r->slug, $acao ) ) . '"' . ( $ativo ? ' aria-current="true"' : '' ) . '>' . esc_html( $r->name ) . ' <span class="tpi-ramos__n">' . (int) $r->count . '</span></a></li>';
+			$html .= '<li><a href="' . esc_url( get_term_link( $r ) ) . '"' . ( $ativo ? ' aria-current="true"' : '' ) . '>' . esc_html( $r->name ) . ' <span class="tpi-ramos__n">' . (int) $r->tpi_total . '</span></a></li>';
 		}
 		$html .= '</ul></section>';
 	}
