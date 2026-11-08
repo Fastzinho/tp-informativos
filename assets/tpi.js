@@ -1,4 +1,4 @@
-/* TP Informativos 0.7.16: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.7.17: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -119,8 +119,7 @@
     document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) { box.hidden = false; pintaControle(box, false); });
   }
 
-  sessao().then(function (s) {
-    if (!s) return semConta();
+  function carregar(s) {
     var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.' + KIND + '&limit=5000'); };
     return ler(s).catch(function (err) {
       if (String(err && err.message) !== 'jwt') throw err;
@@ -131,7 +130,8 @@
       pintaTudo();
       concluiPendente();
     }).catch(function () { pintaTudo(); });
-  });
+  }
+  sessao().then(function (s) { return s ? carregar(s) : semConta(); });
 
   /* 0.7.16: o visitante clicou em "Marcar como lido", entrou no app e voltou (o app lê ?voltar=):
      completa a marcação que ele pediu, uma vez só, se ainda estiver valendo (30 min). */
@@ -156,17 +156,161 @@
     } catch (e) {}
   }
 
+  /* 0.7.17: login no próprio informativo (modal), sem mandar a pessoa para o app.
+     Mesma conta e mesma sessão do app: a resposta do Supabase Auth é gravada na mesma chave do
+     localStorage que o supabase-js do app usa. Nada disto (nem o script do Google) carrega antes
+     de a pessoa abrir o modal. */
+  var dlg = null, voltaFoco = null, emailEnviado = '';
+  function auth(caminho, corpo) {
+    return fetch(C.url + '/auth/v1/' + caminho, {
+      method: 'POST', headers: { apikey: C.key, 'Content-Type': 'application/json' }, body: JSON.stringify(corpo)
+    }).then(function (r) {
+      return r.text().then(function (t) {
+        var d = null; try { d = t ? JSON.parse(t) : null; } catch (e) {}
+        if (!r.ok) { var err = new Error(msgErro(r.status, d)); err.status = r.status; throw err; }
+        return d;
+      });
+    });
+  }
+  function msgErro(status, d) {
+    var m = String((d && (d.msg || d.error_description || d.message || d.error_code)) || '').toLowerCase();
+    if (status === 429 || /rate|security purposes/.test(m)) return 'Muitas tentativas seguidas. Espere um minuto e tente de novo.';
+    if (/expired|invalid|otp/.test(m) && /token|otp|code/.test(m)) return 'Código inválido ou vencido. Confira o e-mail ou peça outro.';
+    if (/signup|signups/.test(m)) return 'Não encontramos uma conta com este e-mail.';
+    if (/email/.test(m) && /invalid|valid/.test(m)) return 'Confira o e-mail digitado.';
+    return 'Não foi possível entrar agora. Tente de novo.';
+  }
+  function entrou(s) {
+    if (!s || !s.access_token || !s.user) throw new Error('Não foi possível entrar agora. Tente de novo.');
+    if (!s.expires_at && s.expires_in) s.expires_at = Math.floor(Date.now() / 1000) + s.expires_in;
+    try { localStorage.setItem(CHAVE, JSON.stringify(s)); } catch (e) {}
+    try { localStorage.removeItem('tp-voltar'); } catch (e) {}
+    medeCadastro(s.user);
+    sessaoP = Promise.resolve(s); semSessao = false;
+    fechaLogin();
+    var t = document.createElement('p');
+    t.className = 'tpi-login-ok'; t.setAttribute('role', 'status');
+    t.textContent = 'Pronto, você entrou. Seu progresso fica salvo na sua conta.';
+    document.body.appendChild(t); setTimeout(function () { t.remove(); }, 5000);
+    carregar(s);
+  }
+  /* Mesma conversão do app (registration_completed, uma vez por conta, só com consentimento):
+     a marca no localStorage é a mesma, então o app não conta de novo. */
+  function medeCadastro(u) {
+    try {
+      if (!u || !u.id || u.is_anonymous) return;
+      var marca = 'tp_oaiq_cadastro:' + u.id;
+      if (localStorage.getItem(marca)) return;
+      var ids = (u.identities || []).filter(function (i) { return i.provider && i.provider !== 'anonymous'; })
+        .map(function (i) { return Date.parse(i.created_at || ''); }).filter(function (n) { return !isNaN(n); });
+      var criada = ids.length ? Math.min.apply(null, ids) : Date.parse(u.created_at || '');
+      var d = Date.now() - criada;
+      if (isNaN(criada) || d < -300000 || d > 3600000) return;
+      if (localStorage.getItem('tpi_cookies') === 'sim' && typeof window.oaiq === 'function') {
+        window.oaiq('measure', 'registration_completed', { type: 'customer_action' });
+        localStorage.setItem(marca, 'enviado');
+      } else localStorage.setItem(marca, 'pendente');
+    } catch (e) {}
+  }
+  function aviso(txt, info) { var a = dlg.querySelector('.tpi-login__aviso'); a.textContent = txt || ''; a.classList.toggle('is-info', !!info); }
+  function ocupado(form, sim) {
+    var b = form.querySelector('button[type=submit]');
+    b.disabled = sim; if (sim) { b.setAttribute('data-txt', b.textContent); b.textContent = 'Aguarde…'; } else if (b.getAttribute('data-txt')) b.textContent = b.getAttribute('data-txt');
+  }
+  function passo(qual) {
+    dlg.querySelector('.tpi-login__email').hidden = qual !== 'email';
+    dlg.querySelector('.tpi-login__codigo').hidden = qual !== 'codigo';
+    var g = dlg.querySelector('.tpi-login__google'); if (g) g.hidden = qual !== 'email';
+    aviso('');
+    var campo = dlg.querySelector(qual === 'email' ? 'input[type=email]' : 'input[name=codigo]');
+    if (campo) setTimeout(function () { campo.focus(); }, 0);
+  }
+  var gsi = null;
+  function botaoGoogle(alvo) {
+    if (!C.google || !window.crypto || !crypto.subtle) { var ou = alvo.nextElementSibling; if (ou) ou.remove(); alvo.remove(); return; }
+    gsi = gsi || new Promise(function (ok, falha) {
+      if (window.google && google.accounts && google.accounts.id) return ok();
+      var sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true;
+      sc.onload = ok; sc.onerror = function () { gsi = null; falha(); }; document.head.appendChild(sc);
+    });
+    var bruto = btoa(String.fromCharCode.apply(null, crypto.getRandomValues(new Uint8Array(32))));
+    Promise.all([gsi, crypto.subtle.digest('SHA-256', new TextEncoder().encode(bruto))]).then(function (r) {
+      var hash = Array.prototype.map.call(new Uint8Array(r[1]), function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+      var g = window.google.accounts.id;
+      g.initialize({ client_id: C.google, nonce: hash, ux_mode: 'popup', use_fedcm_for_button: true, callback: function (resp) {
+        aviso('Entrando…', true);
+        auth('token?grant_type=id_token', { provider: 'google', id_token: resp.credential, nonce: bruto }).then(entrou).catch(function (e) { aviso(e.message); });
+      } });
+      g.renderButton(alvo, { type: 'standard', theme: 'outline', size: 'large', text: 'continue_with', shape: 'rectangular', logo_alignment: 'center', locale: 'pt-BR', width: Math.min(360, alvo.clientWidth || 300) });
+    }).catch(function () { alvo.innerHTML = '<p class="tpi-login__nota">O botão do Google não carregou. Use o e-mail abaixo.</p>'; });
+  }
+  function montaLogin() {
+    dlg = document.createElement('dialog');
+    dlg.className = 'tpi-login';
+    dlg.setAttribute('aria-labelledby', 'tpi-login-titulo');
+    dlg.innerHTML = '<button type="button" class="tpi-login__fechar" aria-label="Fechar">×</button>'
+      + '<h2 id="tpi-login-titulo">Salve seu progresso. É grátis.</h2>'
+      + '<p class="tpi-login__sub">Entre para marcar este julgado como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.</p>'
+      + (C.google ? '<div class="tpi-login__google"></div><p class="tpi-login__ou"><span>ou</span></p>' : '')
+      + '<form class="tpi-login__email"><label>Seu e-mail<input type="email" name="email" autocomplete="email" required></label>'
+      + '<button type="submit" class="tpi-login__principal">Receber código por e-mail</button>'
+      + '<p class="tpi-login__nota">Sem senha.' + (C.signup ? ' Se for sua primeira vez, sua conta é criada na hora.' : '') + '</p></form>'
+      + '<form class="tpi-login__codigo" hidden><p class="tpi-login__nota tpi-login__enviado"></p>'
+      + '<label>Código<input name="codigo" inputmode="numeric" autocomplete="one-time-code" maxlength="10" required></label>'
+      + '<button type="submit" class="tpi-login__principal">Entrar</button>'
+      + '<button type="button" class="tpi-login__link tpi-login__outro">Usar outro e-mail</button></form>'
+      + '<p class="tpi-login__aviso" role="status"></p>'
+      + '<p class="tpi-login__nota tpi-login__rodape">Mesma conta do app Tchau Pobreza. <a href="' + (C.privacidade || '/privacidade/') + '" target="_blank" rel="noopener">Privacidade</a></p>';
+    document.body.appendChild(dlg);
+    dlg.querySelector('.tpi-login__fechar').addEventListener('click', fechaLogin);
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) fechaLogin(); }); /* clique fora */
+    dlg.addEventListener('close', function () {
+      /* Desistiu antes de pedir o código: não deixa o julgado pendente para uma volta futura. */
+      if (semSessao && !emailEnviado) { try { localStorage.removeItem(PENDENTE); } catch (x) {} }
+      if (voltaFoco) voltaFoco.focus();
+    });
+    dlg.querySelector('.tpi-login__outro').addEventListener('click', function () { passo('email'); });
+    dlg.querySelector('.tpi-login__email').addEventListener('submit', function (e) {
+      e.preventDefault(); var f = e.currentTarget, email = f.email.value.trim();
+      ocupado(f, true); aviso('');
+      /* Se a pessoa usar o link do e-mail em vez do código, o app abre e devolve para cá. */
+      try { localStorage.setItem('tp-voltar', JSON.stringify({ url: location.origin + location.pathname + location.search, at: Date.now() })); } catch (x) {}
+      var dest = C.appUrl ? '?redirect_to=' + encodeURIComponent(C.appUrl) : '';
+      auth('otp' + dest, { email: email, create_user: !!C.signup }).then(function () {
+        emailEnviado = email;
+        dlg.querySelector('.tpi-login__enviado').innerHTML = 'Enviamos um código para <strong></strong>. Digite aqui, ou clique no link do e-mail: você volta para este julgado.';
+        dlg.querySelector('.tpi-login__enviado strong').textContent = email;
+        passo('codigo');
+      }).catch(function (x) { aviso(x.message); }).finally(function () { ocupado(f, false); });
+    });
+    dlg.querySelector('.tpi-login__codigo').addEventListener('submit', function (e) {
+      e.preventDefault(); var f = e.currentTarget, token = f.codigo.value.replace(/\D/g, '');
+      ocupado(f, true); aviso('');
+      auth('verify', { type: 'email', email: emailEnviado, token: token }).then(entrou)
+        .catch(function (x) { aviso(x.message); }).finally(function () { ocupado(f, false); });
+    });
+    var g = dlg.querySelector('.tpi-login__google'); if (g) botaoGoogle(g);
+  }
+  function abreLogin(origem) {
+    if (typeof HTMLDialogElement !== 'function' || !window.fetch) return false;
+    if (!dlg) montaLogin();
+    voltaFoco = origem;
+    if (!dlg.open) { dlg.showModal(); passo(dlg.querySelector('.tpi-login__codigo').hidden ? 'email' : 'codigo'); }
+    return true;
+  }
+  function fechaLogin() { if (dlg && dlg.open) dlg.close(); }
+
   document.addEventListener('click', function (e) {
     var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
     if (!botao) return;
     var box = botao.closest('[data-tpi-id]');
     if (box.getAttribute('aria-busy') === 'true') return;
     if (semSessao) {
+      guardaPendente(box.getAttribute('data-tpi-id'));
+      if (abreLogin(botao)) return;
+      /* Sem <dialog> (navegador antigo): convite com link para o app, que traz de volta. */
       var convite = box.querySelector('.tpi-lido__convite');
-      if (convite) {
-        guardaPendente(box.getAttribute('data-tpi-id'));
-        convite.hidden = false; var a = convite.querySelector('a'); if (a) { linkDeVolta(a); a.focus(); }
-      }
+      if (convite) { convite.hidden = false; var a = convite.querySelector('a'); if (a) { linkDeVolta(a); a.focus(); } }
       return;
     }
     var id = box.getAttribute('data-tpi-id');
