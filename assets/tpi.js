@@ -1,4 +1,4 @@
-/* TP Informativos 0.7.10: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.7.15: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -59,6 +59,10 @@
   }
 
   var lidos = {};
+  /* Ícones check e check-check do Lucide, os mesmos do app (Lei seca e Jurisprudência). */
+  var SVG = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
+  var ICONE_UM = SVG + 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>';
+  var ICONE_DOIS = SVG + 'class="i-dois" stroke-width="2.4"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></svg>';
 
   function pintaControle(box, lido) {
     box.classList.toggle('is-lido', lido);
@@ -78,15 +82,17 @@
     document.querySelectorAll('.tpi-cards--julgados li.tpi-card[data-tpi-id]').forEach(function (li) {
       var lido = !!lidos[li.getAttribute('data-tpi-id')];
       li.classList.toggle('is-lido', lido);
-      var b = li.querySelector('.tpi-card__marcar');
+      var b = li.querySelector('.tpi-card__lido');
       if (!b) { /* só para quem tem conta; fica em posição absoluta, então não empurra o layout (sem CLS) */
-        b = document.createElement('button'); b.type = 'button'; b.className = 'tpi-lido__botao tpi-card__marcar';
-        b.innerHTML = '<span class="tpi-lido__icone" aria-hidden="true"></span><span class="tpi-lido__acao"></span>';
+        var titulo = li.getAttribute('data-tpi-titulo') || (li.querySelector('.tpi-card__titulo') || {}).textContent || 'este julgado';
+        b = document.createElement('button'); b.type = 'button'; b.className = 'tpi-card__lido';
+        /* Nome acessível fixo; o estado vai em aria-pressed (botão de alternância, igual ao app). */
+        b.setAttribute('aria-label', 'Lido: ' + String(titulo).trim());
+        b.innerHTML = ICONE_UM + ICONE_DOIS;
         li.appendChild(b);
       }
-      var titulo = li.getAttribute('data-tpi-titulo') || 'este julgado';
-      b.querySelector('.tpi-lido__acao').textContent = lido ? 'Lido' : 'Marcar como lido';
-      b.setAttribute('aria-label', (lido ? 'Lido. Desmarcar: ' : 'Marcar como lido: ') + titulo);
+      b.setAttribute('aria-pressed', String(lido));
+      b.title = lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido';
     });
     document.querySelectorAll('[data-tpi-progresso]').forEach(function (p) {
       var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
@@ -127,7 +133,7 @@
   });
 
   document.addEventListener('click', function (e) {
-    var botao = e.target.closest('.tpi-lido__botao');
+    var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
     if (!botao) return;
     var box = botao.closest('[data-tpi-id]');
     if (box.getAttribute('aria-busy') === 'true') return;

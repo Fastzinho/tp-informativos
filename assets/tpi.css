@@ -135,13 +135,13 @@
 .tpi-lido__botao:hover { background: var(--tpi-verde-escuro); border-color: var(--tpi-verde-escuro); }
 .tpi-lido__botao:focus-visible { outline: 3px solid var(--tpi-areia); outline-offset: 3px; }
 .tpi-lido__icone { flex: none; width: 1.1rem; height: 1.1rem; border: 2px solid currentColor; border-radius: 50%; position: relative; box-sizing: border-box; }
-.tpi-lido__estado::before, .tpi-lido.is-lido .tpi-lido__icone, .tpi-card.is-lido .tpi-lido__icone { content: ""; width: 1.25rem; height: 1.25rem; flex: none; border-radius: 50%; border: 0; background: var(--tpi-verde) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/85% no-repeat; }
+.tpi-lido__estado::before, .tpi-lido.is-lido .tpi-lido__icone { content: ""; width: 1.25rem; height: 1.25rem; flex: none; border-radius: 50%; border: 0; background: var(--tpi-verde) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/85% no-repeat; }
 .tpi-lido.is-lido { background: var(--tpi-nevoa); border-color: var(--tpi-verde); }
 .tpi-lido.is-lido .tpi-lido__pergunta { display: none; }
-.tpi-lido.is-lido .tpi-lido__botao, .tpi-card.is-lido .tpi-card__marcar { background: #fff; color: var(--tpi-verde-escuro); }
+.tpi-lido.is-lido .tpi-lido__botao { background: #fff; color: var(--tpi-verde-escuro); }
 .tpi-lido.is-lido .tpi-lido__botao:hover { background: var(--tpi-nevoa); }
 .tpi-lido.is-lido .tpi-lido__botao .tpi-lido__icone { display: none; }
-.tpi-lido[aria-busy="true"] .tpi-lido__botao, .tpi-card[aria-busy="true"] .tpi-card__marcar { cursor: progress; opacity: .75; }
+.tpi-lido[aria-busy="true"] .tpi-lido__botao { cursor: progress; opacity: .75; }
 .tpi-lido__erro { flex-basis: 100%; margin: 0; }
 .tpi-lido__erro:empty { display: none; }
 .tpi-lido__erro:not(:empty) { font-size: .9rem; color: #9b2c2c; font-weight: 700; }
@@ -153,15 +153,24 @@
 .tpi-lido--topo.is-lido .tpi-lido__botao { border-color: transparent; background: none; padding-inline: .4rem; text-decoration: underline; font-weight: 600; color: var(--tpi-suave); }
 .tpi-lido--topo .tpi-lido__estado { padding: .3rem .8rem .3rem .35rem; border-radius: 999px; background: var(--tpi-verde); color: #fff; font-size: .9rem; }
 .tpi-lido--topo .tpi-lido__estado::before { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%232c5748' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
-/* Cards da edição: botão no canto superior direito, acima do link do card; espaço reservado sempre (sem CLS). */
-.tpi-cards--julgados .tpi-card::before { content: ""; float: right; width: 9.6rem; height: 2.4rem; margin: -.4rem -.5rem 0 .5rem; }
-.tpi-card__marcar { position: absolute; z-index: 2; top: .55rem; right: .55rem; margin: 0; min-height: 40px; padding: .35rem .75rem .35rem .55rem; gap: .4rem; background: #fff; color: var(--tpi-verde-escuro); font-size: .8rem; }
-.tpi-card__marcar:hover { background: var(--tpi-nevoa); }
-@media (min-width: 700px) {
-	.tpi-cards--julgados .tpi-card::before { width: 10.5rem; }
-	.tpi-card__marcar { padding: .35rem .85rem .35rem .6rem; font-size: .85rem; }
+/* Cards da edição (0.7.15): marcador igual ao da Lei seca e da Jurisprudência do app.
+   Não lido = ✓ cinza em botão pequeno com moldura clara; lido = ✓✓ verde em fundo verde-claro.
+   Sem texto: só aparece para quem tem conta (já conhece o ícone do app). Espaço reservado sempre (sem CLS). */
+.tpi-cards--julgados .tpi-card::before { content: ""; float: right; width: 2.4rem; height: 2.2rem; margin: -.4rem -.5rem 0 .5rem; }
+.tpi-card__lido { position: absolute; z-index: 2; top: .55rem; right: .55rem; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; min-height: 30px; min-width: 34px; margin: 0; padding: 5px 8px; border: 1px solid #e0e6dc; border-radius: 8px; background: #fff; color: #8a978f; font: inherit; line-height: 1; cursor: pointer; transition: background .15s, color .15s; }
+.tpi-card__lido:hover { background: #eff5f0; color: #2c5748; }
+.tpi-card__lido:focus-visible { outline: 3px solid #a9bca4; outline-offset: 2px; }
+.tpi-card__lido svg { display: block; width: 17px; height: 17px; }
+.tpi-card__lido .i-dois { display: none; }
+.tpi-card__lido[aria-pressed="true"] { border-color: #c5d8cb; background: #eff5f0; color: #2c5748; }
+.tpi-card__lido[aria-pressed="true"] .i-um { display: none; }
+.tpi-card__lido[aria-pressed="true"] .i-dois { display: block; }
+.tpi-card[aria-busy="true"] .tpi-card__lido { cursor: progress; opacity: .75; }
+@media (pointer: coarse), (hover: none) {
+	.tpi-card__lido { min-height: 44px; min-width: 44px; top: .35rem; right: .35rem; }
+	.tpi-cards--julgados .tpi-card::before { width: 2.6rem; height: 2.4rem; }
 }
-.tpi-card.is-lido .tpi-card__marcar { border-color: var(--tpi-verde); }
+@media (prefers-reduced-motion: reduce) { .tpi-card__lido { transition: none; } }
 
 /* Newsletter */
 .tpi-newsletter { margin: 3rem 0 1rem; padding: 1.6rem 1.5rem; border-radius: var(--tpi-raio); background: var(--tpi-verde); color: #fff; }
@@ -176,7 +185,8 @@
 .tpi-cards { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .75rem; }
 .tpi-card { position: relative; margin: 0; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); padding: 1.1rem 1.2rem; background: #fff; transition: border-color .15s; }
 .tpi-card:hover { border-color: var(--tpi-verde); }
-.tpi-card.is-lido { background: var(--tpi-nevoa); border-color: var(--tpi-verde); border-left-width: 4px; }
+/* Card lido: faixa verde de 3 px à esquerda + fundo que esmaece até branco (o box-shadow preserva a borda do card). */
+.tpi-card.is-lido { box-shadow: inset 3px 0 0 #2c5748; background: linear-gradient(90deg, #eff5f0, #fff 60%); }
 .tpi-card__ramo { display: inline-block; font-size: .8rem; font-weight: 700; color: var(--tpi-verde); margin: 0 0 .35rem; }
 .tpi-card .tpi-card__titulo { font-size: 1.08rem; font-weight: 700; line-height: 1.35; margin: 0 0 .4rem; }
 .tpi-card .tpi-card__titulo a { color: var(--tpi-tinta); text-decoration: none; }
@@ -411,11 +421,6 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-newsletter-pagina { margin-top: 1.5rem; }
 .tpi-newsletter p.tpi-nl-status { margin: .7rem 0 0; font-weight: 600; color: #fff; }
 .tpi-nl-isca { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-/* No card, o botão "não lido" é discreto (não compete com o título); o "lido" é cheio, para ser visto de relance. */
-.tpi-card__marcar { border-width: 1px; border-color: var(--tpi-linha); color: var(--tpi-suave); font-weight: 600; }
-.tpi-card__marcar:hover { border-color: var(--tpi-verde); color: var(--tpi-verde-escuro); background: #fff; }
-.tpi-card.is-lido .tpi-card__marcar { background: var(--tpi-verde); border-color: var(--tpi-verde); color: #fff; font-weight: 700; }
-.tpi-card.is-lido .tpi-card__marcar .tpi-lido__icone { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%232c5748' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
 /* Convite para entrar (visitante sem conta clicou em "Marcar como lido"). */
 .tpi-lido__convite { flex-basis: 100%; margin: 0; padding: .75rem .9rem; border-radius: var(--tpi-raio-p); background: #fbf6ea; border-left: 4px solid var(--tpi-areia); font-size: .95rem; line-height: 1.5; }
 .tpi-lido__convite[hidden] { display: none; }
