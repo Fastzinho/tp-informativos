@@ -454,3 +454,6 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-login-ok { position: fixed; left: 50%; bottom: 1.2rem; z-index: 99999; transform: translateX(-50%); max-width: calc(100vw - 32px); margin: 0; padding: .75rem 1.1rem; border-radius: var(--tpi-raio-p); background: var(--tpi-verde-escuro); color: #fff; font-weight: 600; box-shadow: 0 8px 24px rgba(20, 35, 29, .25); }
 @media (prefers-reduced-motion: no-preference) { .tpi-login[open] { animation: tpi-login-in .16s ease-out; } @keyframes tpi-login-in { from { opacity: 0; transform: translateY(8px); } } }
 .tpi-login__aviso.is-info { color: var(--tpi-suave); font-weight: 400; }
+
+/* 0.7.16: convite no card (visitante sem conta clicou no ✓). */
+.tpi-card .tpi-card__convite { margin: .75rem 0 0; font-size: .9rem; }
