@@ -115,7 +115,13 @@
       var todos = ids.length && n === ids.length;
       li.classList.toggle('is-lido', !!todos);
       var el = li.querySelector('.tpi-edicao__lidos');
-      if (el) { el.textContent = todos ? 'Lido' : n + ' de ' + ids.length + ' lidos'; el.hidden = false; }
+      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde; parcial = "3/10" + ✓ cinza; nenhum = ✓ cinza. */
+      if (el) {
+        el.innerHTML = (todos ? ICONE_DOIS : ICONE_UM)
+          + (todos || !n ? '' : '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>')
+          + '<span class="tpi-sr">' + (todos ? ' Lido' : ' ' + n + ' de ' + ids.length + ' julgados lidos') + '</span>';
+        el.hidden = false;
+      }
     });
   }
 

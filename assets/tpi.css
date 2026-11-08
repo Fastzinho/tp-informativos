@@ -353,9 +353,14 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-edicao a:hover { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
 .tpi-edicao__num { font-weight: 800; font-size: 1.2rem; font-variant-numeric: tabular-nums; min-width: 3.2ch; }
 .tpi-edicao__info { font-size: .9rem; color: var(--tpi-suave); }
-.tpi-edicao__lidos { font-size: .8rem; font-weight: 700; color: var(--tpi-suave); white-space: nowrap; }
-.tpi-edicao.is-lido a { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
-.tpi-edicao.is-lido .tpi-edicao__lidos { color: #fff; background: var(--tpi-verde); padding: .15rem .55rem; border-radius: 999px; }
+/* 0.7.16: mesmo marcador do app. Todos lidos = ✓✓ verde em fundo verde-claro; senão ✓ cinza (com "3/10" se parcial). */
+.tpi-edicao__lidos { display: inline-flex; align-items: center; gap: .3rem; min-height: 30px; min-width: 34px; box-sizing: border-box; justify-content: center; padding: 5px 8px; border: 1px solid #e0e6dc; border-radius: 8px; background: #fff; color: #8a978f; font-size: .8rem; font-weight: 700; white-space: nowrap; }
+.tpi-edicao__lidos[hidden] { display: none; }
+.tpi-edicao__lidos svg { display: block; width: 17px; height: 17px; flex: none; }
+.tpi-edicao__conta { color: var(--tpi-suave); font-variant-numeric: tabular-nums; }
+.tpi-edicao.is-lido .tpi-edicao__lidos { border-color: #c5d8cb; background: #eff5f0; color: #2c5748; }
+.tpi-edicao.is-lido a { box-shadow: inset 3px 0 0 #2c5748; background: linear-gradient(90deg, #eff5f0, #fff 60%); }
+.tpi-edicao.is-lido a:hover { background: var(--tpi-nevoa); }
 .tpi-edicao.is-previsto a { border-style: dashed; }
 
 /* 0.4 Correções: filtros não estouram no celular; hub mais largo no desktop */
