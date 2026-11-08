@@ -1,0 +1,68 @@
+# Deploy automático: todo push no main (merge de PR) envia o plugin para o servidor da Hostinger por SSH
+# e limpa o cache do LiteSpeed. Também roda à mão em Actions > Deploy > Run workflow.
+#
+# Segredos (Settings > Secrets and variables > Actions):
+#   HOSTINGER_HOST      IP do SSH (hPanel > Avançado > Acesso SSH)
+#   HOSTINGER_PORT      porta do SSH (na Hostinger, em geral 65002)
+#   HOSTINGER_USER      usuário do SSH (ex.: u123456789)
+#   HOSTINGER_PASSWORD  senha do SSH  — ou HOSTINGER_SSH_KEY (chave privada), se preferir chave
+#   HOSTINGER_WP_PATH   opcional; padrão domains/tchaupobreza.com.br/public_html
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-producao
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HOST: ${{ secrets.HOSTINGER_HOST }}
+      PORT: ${{ secrets.HOSTINGER_PORT }}
+      USUARIO: ${{ secrets.HOSTINGER_USER }}
+      SSHPASS: ${{ secrets.HOSTINGER_PASSWORD }}
+      CHAVE: ${{ secrets.HOSTINGER_SSH_KEY }}
+      WP_PATH: ${{ secrets.HOSTINGER_WP_PATH }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Conferir segredos
+        id: cfg
+        run: |
+          if [ -z "$HOST" ] || [ -z "$USUARIO" ] || { [ -z "$SSHPASS" ] && [ -z "$CHAVE" ]; }; then
+            echo "::warning::Deploy pulado: faltam os segredos HOSTINGER_HOST, HOSTINGER_USER e HOSTINGER_PASSWORD (ou HOSTINGER_SSH_KEY)."
+            echo "ok=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preparar SSH
+        if: steps.cfg.outputs.ok == '1'
+        run: |
+          sudo apt-get install -y -qq sshpass rsync >/dev/null
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          if [ -n "$CHAVE" ]; then printf '%s\n' "$CHAVE" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy; fi
+          ssh-keyscan -p "${PORT:-65002}" "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Enviar o plugin
+        if: steps.cfg.outputs.ok == '1'
+        run: |
+          WP="${WP_PATH:-domains/tchaupobreza.com.br/public_html}"
+          DEST="$WP/wp-content/plugins/tp-informativos"
+          if [ -n "$CHAVE" ]; then SSHCMD="ssh -p ${PORT:-65002} -i $HOME/.ssh/id_deploy"; PRE=""; else SSHCMD="ssh -p ${PORT:-65002}"; PRE="sshpass -e"; fi
+          # Trava de segurança: só sincroniza (com --delete) se o destino for mesmo a pasta do plugin.
+          $PRE $SSHCMD "$USUARIO@$HOST" "test -f '$WP/wp-config.php' && mkdir -p '$DEST'" || { echo "::error::Não achei o WordPress em $WP (ajuste HOSTINGER_WP_PATH)."; exit 1; }
+          date -u +%FT%TZ > .deploy-actions
+          $PRE rsync -az --delete --exclude '.git/' --exclude '.github/' --exclude '.claude/' -e "$SSHCMD" ./ "$USUARIO@$HOST:$DEST/"
+          echo "WP=$WP" >> "$GITHUB_ENV"; echo "SSHCMD=$SSHCMD" >> "$GITHUB_ENV"; echo "PRE=$PRE" >> "$GITHUB_ENV"
+
+      - name: Limpar cache e conferir versão
+        if: steps.cfg.outputs.ok == '1'
+        run: |
+          $PRE $SSHCMD "$USUARIO@$HOST" "cd '$WP' && if command -v wp >/dev/null; then wp litespeed-purge all --quiet || true; echo \"Versão no site: \$(wp plugin get tp-informativos --field=version)\"; else echo 'wp-cli ausente: limpe o cache do LiteSpeed no painel'; fi"
