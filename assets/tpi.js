@@ -412,3 +412,26 @@
     });
   });
 })();
+
+/* 0.7.19: filtro por tópico na página do ramo. Sem JavaScript, os chips são âncoras para cada grupo. */
+(function () {
+  var nav = document.querySelector('.tpi-topicos');
+  if (!nav) return;
+  var status = document.getElementById('tpi-topicos-status');
+  nav.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-tpi-topico]');
+    if (!a) return;
+    e.preventDefault();
+    var alvo = a.getAttribute('data-tpi-topico');
+    nav.querySelectorAll('a[data-tpi-topico]').forEach(function (x) {
+      if (x === a) x.setAttribute('aria-current', 'true'); else x.removeAttribute('aria-current');
+    });
+    var n = 0;
+    document.querySelectorAll('.tpi-topico[data-tpi-topico]').forEach(function (s) {
+      var ver = !alvo || s.getAttribute('data-tpi-topico') === alvo;
+      s.hidden = !ver;
+      if (ver) n += s.querySelectorAll('li.tpi-card').length;
+    });
+    if (status) status.textContent = alvo ? 'Mostrando ' + n + (n === 1 ? ' julgado' : ' julgados') + ' de ' + a.firstChild.textContent.trim() + '.' : 'Mostrando todos os julgados.';
+  });
+})();
