@@ -49,9 +49,11 @@ function tpi_release_github() {
 	return $dados;
 }
 
-/* Instalado pelo Git da Hostinger (pasta com .git)? Então o deploy é feito por lá e este atualizador fica quieto. */
+/* Instalado pelo Git (pasta com .git) ou pelo deploy do GitHub Actions (arquivo .deploy-actions, desde a 0.7.21)?
+   Então o deploy é feito por lá e este atualizador fica quieto. */
 function tpi_atualizador_ligado() {
-	return apply_filters( 'tpi_atualizador_ativo', ! file_exists( dirname( TPI_ARQUIVO ) . '/.git' ) );
+	$pasta = dirname( TPI_ARQUIVO );
+	return apply_filters( 'tpi_atualizador_ativo', ! file_exists( $pasta . '/.git' ) && ! file_exists( $pasta . '/.deploy-actions' ) );
 }
 
 add_filter( 'pre_set_site_transient_update_plugins', function ( $t ) {

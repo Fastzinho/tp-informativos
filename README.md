@@ -4,7 +4,9 @@ Plugin WordPress do Tchau Pobreza: informativos do STJ e do STF comentados (trib
 
 ## Deploy
 
-O site se atualiza pelo próprio WordPress (`includes/atualizador.php`): ele lê o `Version:` do branch `estavel` e baixa o zip desse branch. Leva até 1 hora; "Verificar novamente" em Painel → Atualizações busca na hora.
+**Deploy (desde a 0.7.21):** todo merge no `main` dispara `.github/workflows/deploy.yml`, que envia o plugin ao servidor da Hostinger por SSH (rsync), limpa o cache do LiteSpeed e mostra a versão instalada. Segredos em Settings → Secrets and variables → Actions (`HOSTINGER_HOST`, `HOSTINGER_PORT`, `HOSTINGER_USER`, `HOSTINGER_PASSWORD` ou `HOSTINGER_SSH_KEY`, e opcional `HOSTINGER_WP_PATH`). Sem os segredos, o deploy é pulado com aviso. O arquivo `.deploy-actions` gravado no servidor desliga o atualizador antigo.
+
+Antes da 0.7.21, o site se atualizava pelo próprio WordPress (`includes/atualizador.php`), lendo o `Version:` do branch `estavel`. Esse caminho continua no código como reserva.
 
 - `main` é o branch de trabalho; para publicar, aumente o `Version:` (cabeçalho e `TPI_VERSION`) e envie o `main` para o `estavel`.
 - O Git da Hostinger não é usado aqui: ele aceita um repositório por site, e essa vaga é do plugin do app (`Fastzinho/tchaupobreza`, branch `deploy`).
