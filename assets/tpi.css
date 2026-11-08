@@ -129,30 +129,29 @@
 .tpi-lido { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin: 2.5rem 0 0; padding: 1rem 1.2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); background: #fff; }
 .tpi-lido[hidden] { display: none; }
 .tpi-lido__pergunta { margin: 0; font-weight: 700; color: var(--tpi-tinta); }
-.tpi-lido__estado { margin: 0; font-weight: 700; color: var(--tpi-verde-escuro); display: inline-flex; align-items: center; gap: .5rem; }
-.tpi-lido__estado:empty { display: none; }
-.tpi-lido__botao { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; margin-left: auto; padding: .55rem 1.1rem; border: 2px solid var(--tpi-verde); border-radius: 999px; background: var(--tpi-verde); color: #fff; font: inherit; font-size: .95rem; font-weight: 700; line-height: 1.2; cursor: pointer; transition: background .15s, color .15s; }
-.tpi-lido__botao:hover { background: var(--tpi-verde-escuro); border-color: var(--tpi-verde-escuro); }
-.tpi-lido__botao:focus-visible { outline: 3px solid var(--tpi-areia); outline-offset: 3px; }
-.tpi-lido__icone { flex: none; width: 1.1rem; height: 1.1rem; border: 2px solid currentColor; border-radius: 50%; position: relative; box-sizing: border-box; }
-.tpi-lido__estado::before, .tpi-lido.is-lido .tpi-lido__icone { content: ""; width: 1.25rem; height: 1.25rem; flex: none; border-radius: 50%; border: 0; background: var(--tpi-verde) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/85% no-repeat; }
-.tpi-lido.is-lido { background: var(--tpi-nevoa); border-color: var(--tpi-verde); }
+/* 0.7.16: botão igual ao marcador do app, com texto curto. Não lido = ✓ cinza; lido = ✓✓ verde em fundo verde-claro. */
+.tpi-lido__botao { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; margin-left: auto; padding: .45rem .9rem .45rem .75rem; border: 1px solid #e0e6dc; border-radius: 8px; background: #fff; color: #8a978f; font: inherit; font-size: .92rem; font-weight: 600; line-height: 1.2; cursor: pointer; transition: background .15s, color .15s; }
+.tpi-lido__botao svg { display: block; width: 17px; height: 17px; flex: none; }
+.tpi-lido__botao .i-dois { display: none; }
+.tpi-lido__acao { color: var(--tpi-suave); }
+.tpi-lido__botao:hover { background: #eff5f0; color: #2c5748; }
+.tpi-lido__botao:hover .tpi-lido__acao { color: #2c5748; }
+.tpi-lido__botao:focus-visible { outline: 3px solid #a9bca4; outline-offset: 2px; }
+.tpi-lido__botao[aria-pressed="true"] { border-color: #c5d8cb; background: #eff5f0; color: #2c5748; }
+.tpi-lido__botao[aria-pressed="true"] .tpi-lido__acao { color: #2c5748; font-weight: 700; }
+.tpi-lido__botao[aria-pressed="true"] .i-um { display: none; }
+.tpi-lido__botao[aria-pressed="true"] .i-dois { display: block; }
+@media (prefers-reduced-motion: reduce) { .tpi-lido__botao { transition: none; } }
+.tpi-lido.is-lido:not(.tpi-lido--topo) { box-shadow: inset 3px 0 0 #2c5748; background: linear-gradient(90deg, #eff5f0, #fff 60%); }
 .tpi-lido.is-lido .tpi-lido__pergunta { display: none; }
-.tpi-lido.is-lido .tpi-lido__botao { background: #fff; color: var(--tpi-verde-escuro); }
-.tpi-lido.is-lido .tpi-lido__botao:hover { background: var(--tpi-nevoa); }
-.tpi-lido.is-lido .tpi-lido__botao .tpi-lido__icone { display: none; }
+.tpi-lido.is-lido .tpi-lido__botao { margin-left: 0; }
 .tpi-lido[aria-busy="true"] .tpi-lido__botao { cursor: progress; opacity: .75; }
 .tpi-lido__erro { flex-basis: 100%; margin: 0; }
 .tpi-lido__erro:empty { display: none; }
 .tpi-lido__erro:not(:empty) { font-size: .9rem; color: #9b2c2c; font-weight: 700; }
-/* Topo do julgado: só o botão, discreto (outline). Lido: selo "✓ Lido" + "Desmarcar" em texto. */
+/* Topo do julgado: só o botão. */
 .tpi-lido--topo { margin: 0 0 1.25rem; padding: 0; border: 0; background: none; }
-.tpi-lido--topo.is-lido { background: none; }
-.tpi-lido--topo .tpi-lido__botao { margin-left: 0; min-height: 40px; padding: .4rem .95rem; background: #fff; color: var(--tpi-verde-escuro); font-size: .9rem; }
-.tpi-lido--topo .tpi-lido__botao:hover { background: var(--tpi-nevoa); }
-.tpi-lido--topo.is-lido .tpi-lido__botao { border-color: transparent; background: none; padding-inline: .4rem; text-decoration: underline; font-weight: 600; color: var(--tpi-suave); }
-.tpi-lido--topo .tpi-lido__estado { padding: .3rem .8rem .3rem .35rem; border-radius: 999px; background: var(--tpi-verde); color: #fff; font-size: .9rem; }
-.tpi-lido--topo .tpi-lido__estado::before { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%232c5748' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.tpi-lido--topo .tpi-lido__botao { margin-left: 0; }
 /* Cards da edição (0.7.15): marcador igual ao da Lei seca e da Jurisprudência do app.
    Não lido = ✓ cinza em botão pequeno com moldura clara; lido = ✓✓ verde em fundo verde-claro.
    Sem texto: só aparece para quem tem conta (já conhece o ícone do app). Espaço reservado sempre (sem CLS). */
@@ -353,9 +352,14 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-edicao a:hover { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
 .tpi-edicao__num { font-weight: 800; font-size: 1.2rem; font-variant-numeric: tabular-nums; min-width: 3.2ch; }
 .tpi-edicao__info { font-size: .9rem; color: var(--tpi-suave); }
-.tpi-edicao__lidos { font-size: .8rem; font-weight: 700; color: var(--tpi-suave); white-space: nowrap; }
-.tpi-edicao.is-lido a { border-color: var(--tpi-verde); background: var(--tpi-nevoa); }
-.tpi-edicao.is-lido .tpi-edicao__lidos { color: #fff; background: var(--tpi-verde); padding: .15rem .55rem; border-radius: 999px; }
+/* 0.7.16: mesmo marcador do app. Todos lidos = ✓✓ verde em fundo verde-claro; senão ✓ cinza (com "3/10" se parcial). */
+.tpi-edicao__lidos { display: inline-flex; align-items: center; gap: .3rem; min-height: 30px; min-width: 34px; box-sizing: border-box; justify-content: center; padding: 5px 8px; border: 1px solid #e0e6dc; border-radius: 8px; background: #fff; color: #8a978f; font-size: .8rem; font-weight: 700; white-space: nowrap; }
+.tpi-edicao__lidos[hidden] { display: none; }
+.tpi-edicao__lidos svg { display: block; width: 17px; height: 17px; flex: none; }
+.tpi-edicao__conta { color: var(--tpi-suave); font-variant-numeric: tabular-nums; }
+.tpi-edicao.is-lido .tpi-edicao__lidos { border-color: #c5d8cb; background: #eff5f0; color: #2c5748; }
+.tpi-edicao.is-lido a { box-shadow: inset 3px 0 0 #2c5748; background: linear-gradient(90deg, #eff5f0, #fff 60%); }
+.tpi-edicao.is-lido a:hover { background: var(--tpi-nevoa); }
 .tpi-edicao.is-previsto a { border-style: dashed; }
 
 /* 0.4 Correções: filtros não estouram no celular; hub mais largo no desktop */
@@ -454,3 +458,6 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-login-ok { position: fixed; left: 50%; bottom: 1.2rem; z-index: 99999; transform: translateX(-50%); max-width: calc(100vw - 32px); margin: 0; padding: .75rem 1.1rem; border-radius: var(--tpi-raio-p); background: var(--tpi-verde-escuro); color: #fff; font-weight: 600; box-shadow: 0 8px 24px rgba(20, 35, 29, .25); }
 @media (prefers-reduced-motion: no-preference) { .tpi-login[open] { animation: tpi-login-in .16s ease-out; } @keyframes tpi-login-in { from { opacity: 0; transform: translateY(8px); } } }
 .tpi-login__aviso.is-info { color: var(--tpi-suave); font-weight: 400; }
+
+/* 0.7.16: convite no card (visitante sem conta clicou no ✓). */
+.tpi-card .tpi-card__convite { margin: .75rem 0 0; font-size: .9rem; }

@@ -1,4 +1,4 @@
-/* TP Informativos 0.7.17: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.7.18: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -59,6 +59,7 @@
   }
 
   var lidos = {};
+  var semSessao = false;
   /* Ícones check e check-check do Lucide, os mesmos do app (Lei seca e Jurisprudência). */
   var SVG = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
   var ICONE_UM = SVG + 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>';
@@ -66,24 +67,24 @@
 
   function pintaControle(box, lido) {
     box.classList.toggle('is-lido', lido);
-    var topo = box.classList.contains('tpi-lido--topo');
     var estado = box.querySelector('.tpi-lido__estado');
-    var novoEstado = lido ? (topo ? 'Lido' : 'Você já leu este julgado.') : '';
+    var novoEstado = lido ? 'Julgado marcado como lido.' : '';
     if (estado.textContent !== novoEstado) estado.textContent = novoEstado;
-    box.querySelector('.tpi-lido__acao').textContent = lido ? (topo ? 'Desmarcar' : 'Desmarcar como lido') : 'Marcar como lido';
-    box.querySelector('.tpi-lido__botao').setAttribute('aria-label', lido ? 'Desmarcar este julgado como lido' : 'Marcar este julgado como lido');
+    var botao = box.querySelector('.tpi-lido__botao');
+    botao.setAttribute('aria-pressed', String(lido));
+    botao.title = semSessao ? 'Marcar como lido: entre na sua conta para salvar o que já leu'
+      : (lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido');
+    box.querySelector('.tpi-lido__acao').textContent = lido ? 'Lido' : 'Marcar como lido';
   }
 
-  function pintaTudo() {
-    document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) {
-      box.hidden = false;
-      pintaControle(box, !!lidos[box.getAttribute('data-tpi-id')]);
-    });
+  /* Cards da edição: botão ✓ / ✓✓ igual ao do app. Para o visitante sem conta aparece o ✓ cinza
+     com a dica de que dá para salvar; o clique abre o convite para entrar, sem gravar nada. */
+  function pintaCards() {
     document.querySelectorAll('.tpi-cards--julgados li.tpi-card[data-tpi-id]').forEach(function (li) {
-      var lido = !!lidos[li.getAttribute('data-tpi-id')];
+      var lido = !semSessao && !!lidos[li.getAttribute('data-tpi-id')];
       li.classList.toggle('is-lido', lido);
       var b = li.querySelector('.tpi-card__lido');
-      if (!b) { /* só para quem tem conta; fica em posição absoluta, então não empurra o layout (sem CLS) */
+      if (!b) { /* fica em posição absoluta, num espaço reservado pelo CSS: não empurra o layout (sem CLS) */
         var titulo = li.getAttribute('data-tpi-titulo') || (li.querySelector('.tpi-card__titulo') || {}).textContent || 'este julgado';
         b = document.createElement('button'); b.type = 'button'; b.className = 'tpi-card__lido';
         /* Nome acessível fixo; o estado vai em aria-pressed (botão de alternância, igual ao app). */
@@ -92,8 +93,17 @@
         li.appendChild(b);
       }
       b.setAttribute('aria-pressed', String(lido));
-      b.title = lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido';
+      b.title = semSessao ? 'Marcar como lido: entre na sua conta para salvar o que já leu'
+        : (lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido');
     });
+  }
+
+  function pintaTudo() {
+    document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) {
+      box.hidden = false;
+      pintaControle(box, !!lidos[box.getAttribute('data-tpi-id')]);
+    });
+    pintaCards();
     document.querySelectorAll('[data-tpi-progresso]').forEach(function (p) {
       var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
       var n = ids.filter(function (i) { return lidos[i]; }).length;
@@ -107,16 +117,22 @@
       var todos = ids.length && n === ids.length;
       li.classList.toggle('is-lido', !!todos);
       var el = li.querySelector('.tpi-edicao__lidos');
-      if (el) { el.textContent = todos ? 'Lido' : n + ' de ' + ids.length + ' lidos'; el.hidden = false; }
+      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde; parcial = "3/10" + ✓ cinza; nenhum = ✓ cinza. */
+      if (el) {
+        el.innerHTML = (todos ? ICONE_DOIS : ICONE_UM)
+          + (todos || !n ? '' : '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>')
+          + '<span class="tpi-sr">' + (todos ? ' Lido' : ' ' + n + ' de ' + ids.length + ' julgados lidos') + '</span>';
+        el.hidden = false;
+      }
     });
   }
 
   /* Sem conta: o botão aparece igual para todos (o visitante descobre que dá para salvar);
      ao clicar, em vez de gravar, abre o convite para entrar no app. */
-  var semSessao = false;
   function semConta() {
     semSessao = true;
     document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) { box.hidden = false; pintaControle(box, false); });
+    pintaCards();
   }
 
   function carregar(s) {
@@ -310,6 +326,11 @@
       if (abreLogin(botao)) return;
       /* Sem <dialog> (navegador antigo): convite com link para o app, que traz de volta. */
       var convite = box.querySelector('.tpi-lido__convite');
+      if (!convite && box.classList.contains('tpi-card')) { /* card: cria o convite na hora, no fim do card */
+        convite = document.createElement('p'); convite.className = 'tpi-lido__convite tpi-card__convite';
+        convite.innerHTML = 'Para salvar o que já leu, <a href="' + C.appUrl + '">entre na sua conta do Tchau Pobreza</a>. Fica guardado junto com o resto dos seus estudos, em qualquer dispositivo.';
+        box.appendChild(convite);
+      }
       if (convite) { convite.hidden = false; var a = convite.querySelector('a'); if (a) { linkDeVolta(a); a.focus(); } }
       return;
     }
