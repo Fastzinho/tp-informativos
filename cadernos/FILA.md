@@ -52,15 +52,6 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 |---|---|---|
 | `registro-de-imoveis` | 2 | STJ 908: Matrícula, cadeia dominial e continuidade registral; STJ 908: Fé pública registral e presunção relativa |
 
-## Direito Penal (`direito-penal`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `estelionato` | 1 | STJ 907: Furto mediante fraude x estelionato |
-| `estupro-de-vulneravel` | 1 | STJ 907: Quem é vulnerável no art. 217-A |
-| `furto` | 1 | STJ 907: Furto mediante fraude x estelionato |
-| `importunacao-sexual` | 1 | STJ 908: O crime do art. 215-A do CP |
-
 ## Direito Processual Civil (`direito-processual-civil`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
