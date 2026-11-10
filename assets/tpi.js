@@ -489,7 +489,11 @@
     var todos = [];
     caixas.forEach(function (b) { todos = todos.concat(idsDe(b)); });
     var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.flashcard&id=in.(' + todos.map(encodeURIComponent).join(',') + ')'); };
-    return ler(s).then(function (linhas) {
+    return ler(s).catch(function (err) { /* token vencido numa aba antiga: renova uma vez */
+      if (String(err && err.message) !== 'jwt') throw err;
+      sessaoP = renovar(s).catch(function () { return null; });
+      return sessaoP.then(function (n) { if (!n) throw err; return ler(n); });
+    }).then(function (linhas) {
       var tem = {}; (linhas || []).forEach(function (l) { tem[l.id] = true; });
       caixas.forEach(function (b) { pintaApp(b, idsDe(b).filter(function (i) { return tem[i]; }).length); });
       concluiApp();
@@ -556,6 +560,20 @@
     var b = e.target.closest('.tpi-app__botao');
     if (b) importa(b.closest('.tpi-app'));
   });
+  /* 0.11.1: a aba do julgado aberta antes de importar a edição em outra aba (ou restaurada pelo Voltar) mostrava
+     "Adicionar" com cards que já estavam no app. Clicar não duplicava (mesmo id, ON CONFLICT DO NOTHING), mas confundia.
+     Reconfere quando outra aba avisa (tchau-records-changed, gravado aqui e no app), na volta pelo histórico e ao
+     voltar para a aba (no máximo 1 vez por minuto, para não gastar egress à toa). */
+  var ultimaConferida = Date.now();
+  function reconfere(forca) {
+    if (semSessao || !document.querySelector('.tpi-app[data-tpi-ids]')) return;
+    if (!forca && Date.now() - ultimaConferida < 60000) return;
+    ultimaConferida = Date.now();
+    sessao().then(function (s) { if (s) checaApp(s); });
+  }
+  window.addEventListener('storage', function (e) { if (e.key && e.key.indexOf('tchau-records-changed:') === 0) reconfere(true); });
+  window.addEventListener('pageshow', function (e) { if (e.persisted) reconfere(true); });
+  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reconfere(false); });
 
   document.addEventListener('click', function (e) {
     var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
