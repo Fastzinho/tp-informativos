@@ -16,7 +16,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `ordem` | posição no hub `/cadernos/` |
 | `ramo` | opcional: slug do ramo nos informativos, para o link "julgados comentados de…" |
 | `revisado_em`, `revisado_rotulo` | data AAAA-MM-DD da conferência e o texto ("Lei e jurisprudência conferidas") |
-| `autor` | opcional `{nome, credenciais, url}`; sem ele, usa o autor dos informativos |
+| `autor` | opcional `{nome, credenciais, url}`. Sem ele, a assinatura é "Equipe Tchau Pobreza, com curadoria de <autor dos informativos>" |
 | `fontes` | opcional (HTML curto); sem ele, disciplinas com lei/juris mostram as fontes oficiais |
 | `temas` | lista na ordem do sumário |
 
@@ -28,6 +28,8 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `grupo` | cabeçalho do sumário (ex.: "Crimes contra a Administração Pública") |
 | `base` | ex.: "Art. 312 do CP" |
 | `palavras` | termos extras para a busca do sumário |
+| `conceitos` | termos que ligam o tema aos "Conceitos de base" dos informativos: se o título do conceito contiver o título do tema ou um destes termos (palavra inteira, sem acento), o informativo ganha o link "Aprofundar no Caderno de…" com prévia. Só tema escrito |
+| `revisado_em` | AAAA-MM-DD em que o curador leu o tema de fato. Só então aparece "Revisado por" no card e no schema |
 | `incidencia` | `{nivel: alta\|media, base: "cobrado em 30 de 48 concursos Cebraspe/FGV com Direito Processual Penal, 2020–2026", bancas: {"Cebraspe": 22, "FGV": 8}}`. Vem da base de incidência (recorte "Todas", sem segmentar por cargo; LEIA-ME da base), só com N ≥ 12 concursos e depois de conferir os exemplos do nó. **Só Alta e Média**: "baixa" é ignorado no código, e "0 de N" nunca entra. Sem `base` não aparece. Contagens do QConcursos não entram |
 | `resumo` | "Em 30 segundos" (HTML curto). **Tema sem resumo conta como não escrito** |
 | `esquema` | `{rotulo, html}`: tabela em HTML, nunca imagem |

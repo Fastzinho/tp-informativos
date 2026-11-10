@@ -155,6 +155,10 @@
     }).catch(function () { pintaTudo(); });
   }
   sessao().then(function (s) { return s ? carregar(s) : semConta(); });
+  /* 0.8.1: conteúdo inserido depois (prévia do caderno) pede para repintar os marcadores de lido. */
+  document.addEventListener('tpi:repintar', function () {
+    sessao().then(function (s) { if (s && !semSessao) pintaTudo(); else semConta(); });
+  });
 
   /* 0.7.16: o visitante clicou em "Marcar como lido", entrou no app e voltou (o app lê ?voltar=):
      completa a marcação que ele pediu, uma vez só, se ainda estiver valendo (30 min). */
@@ -486,5 +490,50 @@
     });
     box.insertBefore(opcoes, det);
     box.insertBefore(veredito, det);
+  });
+})();
+
+/* 0.8.1: prévia do caderno a partir do conceito do informativo. O link é real (href para o tema do caderno);
+   aqui o clique simples abre a prévia num <dialog>. Ctrl/Cmd/botão do meio seguem o link normalmente. */
+(function () {
+  var C = window.TPI || {};
+  var base = (C.rest || '/wp-json/') + 'tp/v1/caderno-previa/';
+  var dlg = null, cache = {};
+  function monta() {
+    dlg = document.createElement('dialog');
+    dlg.className = 'tpc-gaveta';
+    dlg.setAttribute('aria-labelledby', 'tpc-gaveta-titulo');
+    dlg.innerHTML = '<div class="tpc-gaveta__alca" aria-hidden="true"></div>'
+      + '<header class="tpc-gaveta__topo"><p><span>Prévia do caderno</span><strong id="tpc-gaveta-titulo"></strong></p>'
+      + '<button type="button" class="tpc-gaveta__fechar" aria-label="Fechar prévia">×</button></header>'
+      + '<div class="tpc-gaveta__corpo" tabindex="-1"></div>'
+      + '<footer class="tpc-gaveta__pe"><a class="tpc-gaveta__ver" href="#">Ver o tema completo no caderno</a><a class="tpc-gaveta__praticar" href="#">Praticar este tema no app</a></footer>';
+    document.body.appendChild(dlg);
+    dlg.querySelector('.tpc-gaveta__fechar').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', function () { document.documentElement.classList.remove('tpc-sem-rolagem'); });
+  }
+  function mostra(d, a) {
+    dlg.querySelector('#tpc-gaveta-titulo').textContent = d.caderno || '';
+    var corpo = dlg.querySelector('.tpc-gaveta__corpo');
+    corpo.innerHTML = d.html; corpo.scrollTop = 0;
+    dlg.querySelector('.tpc-gaveta__ver').href = d.url || a.href;
+    dlg.querySelector('.tpc-gaveta__praticar').href = d.praticar || '/estudar/';
+    document.dispatchEvent(new CustomEvent('tpi:repintar'));
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-tpc-previa]');
+    if (!a || e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    if (typeof HTMLDialogElement !== 'function' || !window.fetch) return; /* navegador antigo: segue o link */
+    e.preventDefault();
+    if (!dlg) monta();
+    var id = a.getAttribute('data-tpc-previa');
+    dlg.querySelector('.tpc-gaveta__corpo').innerHTML = '<p class="tpc-gaveta__carregando">Carregando…</p>';
+    dlg.querySelector('.tpc-gaveta__ver').href = a.href;
+    if (!dlg.open) { dlg.showModal(); document.documentElement.classList.add('tpc-sem-rolagem'); }
+    if (typeof window.gtag === 'function') window.gtag('event', 'caderno_previa', { tema_id: id, origem: location.pathname });
+    (cache[id] ? Promise.resolve(cache[id]) : fetch(base + id).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }))
+      .then(function (d) { cache[id] = d; mostra(d, a); })
+      .catch(function () { dlg.close(); location.href = a.href; }); /* falhou: vai para o caderno */
   });
 })();

@@ -118,6 +118,7 @@ add_action( 'init', function () {
 		update_option( 'tpc_sync_assinatura', $sig, true );
 	}
 	tpc_garante_hub();
+	delete_transient( 'tpc_indice_v1' );
 	delete_transient( 'tpc_sync_trava' );
 }, 30 );
 
@@ -343,6 +344,10 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	}
 	$h .= '<' . $hn . ' id="tpc-t-' . esc_attr( $slug ) . '" class="tpc-tema__titulo">' . esc_html( $p->post_title ) . ' <a class="tpc-ancora" href="#' . esc_attr( $slug ) . '" aria-label="Link para este tema">#</a></' . $hn . '>';
 	$h .= tpc_incidencia( $t['incidencia'] ?? null );
+	if ( ! empty( $t['revisado_em'] ) ) {
+		$cur = tpc_autor( tpc_dados( $disc->ID ) );
+		$h  .= '<p class="tpc-revisado">Revisado por ' . esc_html( $cur['nome'] ) . ' em <time datetime="' . esc_attr( $t['revisado_em'] ) . '">' . esc_html( tpi_data_br( $t['revisado_em'] ) ) . '</time></p>';
+	}
 	$h .= tpc_botao_lido( $p, $disc->post_title );
 	$h .= '</header>';
 
@@ -448,11 +453,16 @@ function tpc_autor( $d ) {
 	return $a;
 }
 
+/* 0.8.1 (EEAT honesto, Jonatan 10/11): o caderno é da equipe, com curadoria do autor do site. "Revisado por" só
+   aparece no tema que o curador leu de fato ("revisado_em" no tema). Com "autor" no JSON, vale o autor dado. */
 function tpc_assinatura( $disc_id, $d ) {
 	$a    = tpc_autor( $d );
 	$nome = $a['url'] ? '<a href="' . esc_url( $a['url'] ) . '">' . esc_html( $a['nome'] ) . '</a>' : esc_html( $a['nome'] );
 	$rev  = $d['revisado_em'] ?? '';
-	$h    = '<div class="tpi-assinatura"><p class="tpi-assinatura__autor">Por <strong>' . $nome . '</strong>' . ( $a['credenciais'] ? ', ' . esc_html( $a['credenciais'] ) : '' ) . '.</p><p class="tpi-assinatura__datas">Atualizado em <time datetime="' . esc_attr( get_the_modified_date( 'c', $disc_id ) ) . '">' . esc_html( get_the_modified_date( 'd/m/Y', $disc_id ) ) . '</time>';
+	$quem = ! empty( $d['autor']['nome'] )
+		? 'Por <strong>' . $nome . '</strong>' . ( $a['credenciais'] ? ', ' . esc_html( $a['credenciais'] ) : '' )
+		: 'Por <strong>Equipe Tchau Pobreza</strong>, com curadoria de <strong>' . $nome . '</strong>' . ( $a['credenciais'] ? ', ' . esc_html( $a['credenciais'] ) : '' );
+	$h    = '<div class="tpi-assinatura"><p class="tpi-assinatura__autor">' . $quem . '.</p><p class="tpi-assinatura__datas">Atualizado em <time datetime="' . esc_attr( get_the_modified_date( 'c', $disc_id ) ) . '">' . esc_html( get_the_modified_date( 'd/m/Y', $disc_id ) ) . '</time>';
 	if ( $rev ) {
 		$h .= '. ' . esc_html( $d['revisado_rotulo'] ?? 'Conteúdo conferido' ) . ' em <time datetime="' . esc_attr( $rev ) . '">' . esc_html( tpi_data_br( $rev ) ) . '</time>';
 	}
@@ -614,11 +624,14 @@ add_action( 'wp_head', function () {
 	$id    = get_queried_object_id();
 	$d     = tpc_dados( $id );
 	$a     = tpc_autor( tpc_eh_disciplina( $id ) ? $d : tpc_dados( wp_get_post_parent_id( $id ) ) );
-	$autor = array( '@type' => 'Person', 'name' => $a['nome'], 'url' => $a['url'] );
+	$pessoa = array( '@type' => 'Person', 'name' => $a['nome'], 'url' => $a['url'] );
+	$org    = array( '@type' => 'Organization', 'name' => 'Equipe Tchau Pobreza', 'url' => home_url( '/' ) );
+	$dd     = tpc_eh_disciplina( $id ) ? $d : tpc_dados( wp_get_post_parent_id( $id ) );
+	$autor  = ! empty( $dd['autor']['nome'] ) ? $pessoa : $org;
 	$url   = get_permalink( $id );
 	$page  = array( '@type' => 'WebPage', '@id' => $url, 'url' => $url, 'name' => wp_strip_all_tags( get_the_title( $id ) ), 'inLanguage' => 'pt-BR' );
-	if ( ! empty( $d['revisado_em'] ) ) {
-		$page['reviewedBy']   = $autor;
+	if ( ! tpc_eh_disciplina( $id ) && ! empty( $d['revisado_em'] ) ) { // revisão humana só no tema lido de fato
+		$page['reviewedBy']   = $pessoa;
 		$page['lastReviewed'] = $d['revisado_em'];
 	}
 	$art = array(
@@ -629,6 +642,7 @@ add_action( 'wp_head', function () {
 		'datePublished'       => get_post_time( 'c', true, $id ),
 		'dateModified'        => get_post_modified_time( 'c', true, $id ),
 		'author'              => $autor,
+		'editor'              => $pessoa,
 		'publisher'           => array( '@type' => 'Organization', 'name' => get_bloginfo( 'name' ), 'url' => home_url( '/' ) ),
 		'mainEntityOfPage'    => $url,
 		'isPartOf'            => array( '@id' => $url ),
@@ -680,5 +694,145 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'tp-cadernos', TPI_URL . 'assets/tpc.css', array( 'tp-informativos' ), TPI_VERSION );
 	$cfg = tpi_supabase();
 	wp_enqueue_script( 'tp-informativos', TPI_URL . 'assets/tpi.js', array(), TPI_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
-	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'], 'google' => $cfg['google'] ?? '', 'signup' => ! empty( $cfg['signup'] ) ) );
+	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'], 'google' => $cfg['google'] ?? '', 'signup' => ! empty( $cfg['signup'] ), 'rest' => esc_url_raw( rest_url() ) ) );
 }, 11 );
+
+/* ---------------------------------------------------------------------------
+ * 9. Link dos informativos para os cadernos (0.8.1, decisão do Jonatan em 10/11/2026)
+ *    No fim de cada "Conceito de base" do julgado (core/details com a classe tpi-conceito), quando o título do
+ *    conceito cita um tema escrito do caderno, entra um link real <a href> para a âncora do tema. Com JavaScript,
+ *    o clique abre uma prévia na própria página (gaveta no computador, folha de baixo no celular); o href continua
+ *    sendo o do caderno. O conceito fica no julgado: nada sai da página nem é copiado do caderno.
+ *    Casamento: título do tema ou um dos "conceitos" do JSON, palavra inteira, sem acento; vence o termo mais longo.
+ *    Ninguém precisa marcar nada nos informativos: quando um tema entra no caderno, os links aparecem sozinhos.
+ * ------------------------------------------------------------------------- */
+function tpc_norm( $s ) {
+	$s = remove_accents( mb_strtolower( wp_strip_all_tags( html_entity_decode( (string) $s, ENT_QUOTES, 'UTF-8' ) ) ) );
+	return ' ' . trim( preg_replace( '/[^a-z0-9]+/', ' ', $s ) ) . ' ';
+}
+function tpc_indice() {
+	$idx = get_transient( 'tpc_indice_v1' );
+	if ( is_array( $idx ) ) {
+		return $idx;
+	}
+	$idx = array();
+	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_status' => 'publish', 'numberposts' => -1, 'post_parent__not_in' => array( 0 ), 'orderby' => 'menu_order', 'order' => 'ASC' ) ) as $p ) {
+		$t = tpc_dados( $p->ID );
+		if ( ! tpc_escrito( $t ) || 'publish' !== get_post_status( $p->post_parent ) ) {
+			continue;
+		}
+		$chaves = array();
+		foreach ( array_merge( array( $p->post_title ), (array) ( $t['conceitos'] ?? array() ) ) as $c ) {
+			$n = trim( tpc_norm( $c ) );
+			if ( strlen( $n ) >= 4 ) {
+				$chaves[] = $n;
+			}
+		}
+		$tem = array();
+		if ( ! empty( $t['esquema']['html'] ) ) {
+			$tem[] = 'esquema';
+		}
+		if ( ! empty( $t['lei'] ) ) {
+			$tem[] = 'lei seca';
+		}
+		if ( ! empty( $t['juris'] ) ) {
+			$tem[] = 'jurisprudência';
+		}
+		if ( ! empty( $t['pegadinha'] ) ) {
+			$tem[] = 'pegadinha';
+		}
+		$ult = array_pop( $tem );
+		$idx[] = array(
+			'id'     => $p->ID,
+			'chaves' => $chaves,
+			'url'    => tpc_link_tema( $p ),
+			'disc'   => get_the_title( $p->post_parent ),
+			'grupo'  => (string) ( $t['grupo'] ?? '' ),
+			'tem'    => $tem ? implode( ', ', $tem ) . ' e ' . $ult : (string) $ult,
+		);
+	}
+	set_transient( 'tpc_indice_v1', $idx, DAY_IN_SECONDS );
+	return $idx;
+}
+function tpc_tema_para( $texto ) {
+	$alvo   = tpc_norm( $texto );
+	$melhor = null;
+	$tam    = 0;
+	foreach ( tpc_indice() as $t ) {
+		foreach ( $t['chaves'] as $c ) {
+			if ( strlen( $c ) > $tam && false !== strpos( $alvo, ' ' . $c . ' ' ) ) {
+				$melhor = $t;
+				$tam    = strlen( $c );
+			}
+		}
+	}
+	return $melhor;
+}
+function tpc_link_conceito( $t ) {
+	$meta = implode( ' · ', array_filter( array( $t['grupo'], $t['tem'] ) ) );
+	return '<p class="tpc-ir"><a class="tpc-ir__link" href="' . esc_url( $t['url'] ) . '" data-tpc-previa="' . esc_attr( $t['id'] ) . '">'
+		. '<span class="tpc-ir__icone" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span>'
+		. '<span>Aprofundar no ' . esc_html( $t['disc'] ) . ' <span aria-hidden="true">→</span></span></a>'
+		. ( $meta ? '<span class="tpc-ir__meta">' . esc_html( $meta ) . '</span>' : '' ) . '</p>';
+}
+add_filter( 'render_block_core/details', function ( $html, $block ) {
+	if ( ! is_singular( 'informativo' ) || false === strpos( (string) ( $block['attrs']['className'] ?? '' ), 'tpi-conceito' ) ) {
+		return $html;
+	}
+	if ( ! preg_match( '#<summary[^>]*>(.*?)</summary>#s', $html, $m ) ) {
+		return $html;
+	}
+	$t = tpc_tema_para( $m[1] );
+	if ( ! $t ) {
+		return $html;
+	}
+	wp_enqueue_style( 'tp-cadernos', TPI_URL . 'assets/tpc.css', array(), TPI_VERSION );
+	$pos = strrpos( $html, '</details>' );
+	return false === $pos ? $html : substr( $html, 0, $pos ) . tpc_link_conceito( $t ) . substr( $html, $pos );
+}, 10, 2 );
+
+/* Prévia: só os blocos de leitura rápida; o resto fica no caderno. */
+function tpc_previa_html( $p ) {
+	$t   = tpc_dados( $p->ID );
+	$pai = get_post( $p->post_parent );
+	$h   = '<div class="tpc tpc-previa">';
+	if ( ! empty( $t['base'] ) || ! empty( $t['grupo'] ) ) {
+		$h .= '<p class="tpc-kicker">' . esc_html( implode( ' · ', array_filter( array( $t['grupo'] ?? '', $t['base'] ?? '' ) ) ) ) . '</p>';
+	}
+	$h .= '<h2 class="tpc-tema__titulo" id="tpc-previa-titulo">' . esc_html( $p->post_title ) . '</h2>';
+	$h .= tpc_incidencia( $t['incidencia'] ?? null );
+	$h .= tpc_botao_lido( $p, $pai->post_title );
+	$h .= '<div class="tpc-30s"><p class="tpc-rotulo">Em 30 segundos</p>' . tpc_html( wpautop( $t['resumo'] ?? '' ) ) . '</div>';
+	if ( ! empty( $t['esquema']['html'] ) ) {
+		$h .= '<div class="tpc-rolagem">' . tpc_html( $t['esquema']['html'] ) . '</div>';
+	}
+	if ( ! empty( $t['lei'][0]['texto'] ) ) {
+		$h .= '<blockquote class="tpc-lei">';
+		foreach ( array_filter( array_map( 'trim', preg_split( "/\n\s*\n/", (string) $t['lei'][0]['texto'] ) ) ) as $para ) {
+			$h .= '<p>' . esc_html( $para ) . '</p>';
+		}
+		$h .= '</blockquote>';
+	}
+	return $h . '</div>';
+}
+add_action( 'rest_api_init', function () {
+	register_rest_route( 'tp/v1', '/caderno-previa/(?P<id>\d+)', array(
+		'methods'             => 'GET',
+		'permission_callback' => '__return_true', // só conteúdo publicado e público
+		'callback'            => function ( WP_REST_Request $req ) {
+			$p = get_post( (int) $req['id'] );
+			if ( ! $p || 'caderno' !== $p->post_type || 'publish' !== $p->post_status || ! $p->post_parent || ! tpc_escrito( tpc_dados( $p->ID ) ) ) {
+				return new WP_Error( 'tpc_invalido', 'Tema não encontrado.', array( 'status' => 404 ) );
+			}
+			$t   = tpc_dados( $p->ID );
+			$res = rest_ensure_response( array(
+				'html'     => tpc_previa_html( $p ),
+				'url'      => tpc_link_tema( $p ),
+				'caderno'  => get_the_title( $p->post_parent ),
+				'praticar' => ! empty( $t['praticar'] ) ? $t['praticar'] : home_url( '/estudar/' ),
+			) );
+			$res->header( 'Cache-Control', 'public, max-age=600' );
+			return $res;
+		},
+	) );
+} );
