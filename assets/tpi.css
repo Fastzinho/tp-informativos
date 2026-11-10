@@ -101,6 +101,18 @@
 .tpi-pagina .entry-content .tpi-flashcard p { margin: 0; padding: .85rem 1rem; line-height: 1.5; }
 .tpi-pagina .entry-content .tpi-flashcard__frente { font-weight: 700; }
 .tpi-pagina .entry-content .tpi-flashcard__verso { background: var(--tpi-nevoa); border-left: 1px dashed #b8c6be; color: var(--tpi-verde-escuro); }
+/* 0.9.0: levar os flashcards direto para o app (botão principal; o .txt do Anki fica como opção secundária). */
+.tpi-app { margin: 1.25rem 0 0; }
+.tpi-app[hidden] { display: none; }
+.tpi-pagina .entry-content .tpi-app p { margin: .4rem 0 0; }
+.tpi-app__dica { font-size: .88rem; color: var(--tpi-suave); }
+.tpi-app__estado:empty { display: none; }
+.tpi-app__estado { font-weight: 600; color: var(--tpi-verde-escuro); }
+.tpi-app__botao:disabled { cursor: default; }
+.tpi-app[aria-busy="true"] .tpi-app__botao { opacity: .75; }
+.tpi-app.is-feito .tpi-app__botao, .tpi-app.is-feito .tpi-app__botao:hover { background: var(--tpi-nevoa); border-color: var(--tpi-linha); color: var(--tpi-verde-escuro); }
+.tpi-app.is-feito .tpi-app__botao::before { content: "✓✓"; margin-right: .5rem; color: var(--tpi-verde); letter-spacing: -.2em; }
+.tpi-app.is-feito .tpi-app__dica { display: none; }
 .tpi-anki { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: 1rem 0 0; }
 .tpi-pagina .entry-content .tpi-anki a.tpi-btn { background: #fff; color: var(--tpi-verde); }
 .tpi-pagina .entry-content .tpi-anki a.tpi-btn:hover { background: var(--tpi-nevoa); }
