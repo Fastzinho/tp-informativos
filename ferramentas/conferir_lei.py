@@ -17,6 +17,8 @@ Regras:
   não contam. Não pode trocar palavra, pena ou número.
 - A ordem dos parágrafos tem de ser a do acervo.
 
+Também confere se `tax` e `dispositivos` de cada tema existem no app.
+
 Sai com código 1 se houver divergência, para poder entrar num gancho de pré-commit.
 """
 import argparse
@@ -126,6 +128,28 @@ def _semelhanca(a, b):
     return len(wa & wb) / (len(wa | wb) or 1)
 
 
+def confere_ligacoes(acervo, arquivos):
+    """tax e dispositivos (0.10.2) têm de existir no app: nós da taxonomia e unidades do acervo."""
+    nos_arq = os.path.join(acervo, '..', '..', 'taxonomy-src', 'nodes.json')
+    if not os.path.exists(nos_arq):
+        return ['taxonomy-src/nodes.json não achado ao lado do acervo; tax não conferido.']
+    nos = json.load(open(nos_arq, encoding='utf-8'))
+    nos = nos if isinstance(nos, list) else nos.get('nodes', nos)
+    ids = {x['id'] if isinstance(x, dict) else x for x in (nos if isinstance(nos, list) else nos.keys())}
+    unidades = set()
+    for f in glob.glob(os.path.join(acervo, '*.json')):
+        unidades |= {u.get('id') for u in json.load(open(f, encoding='utf-8')).get('units', [])}
+    erros = []
+    for arq in arquivos:
+        for t in json.load(open(arq, encoding='utf-8')).get('temas', []):
+            onde = '%s#%s' % (os.path.basename(arq), t.get('slug'))
+            if t.get('resumo') and not (t.get('tax') and t.get('dispositivos')):
+                erros.append('%s: tema escrito sem tax ou dispositivos.' % onde)
+            erros += ['%s: nó "%s" não existe na taxonomia do app.' % (onde, x) for x in t.get('tax') or [] if x not in ids]
+            erros += ['%s: dispositivo "%s" não existe no acervo.' % (onde, x) for x in t.get('dispositivos') or [] if x not in unidades]
+    return erros
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--acervo', required=True, help='pasta codigo-fonte/public/legal do app')
@@ -138,6 +162,7 @@ def main():
         ok, erros = confere(a.acervo, arq)
         total += ok
         todos += erros
+    todos += confere_ligacoes(a.acervo, arquivos)
     for e in todos:
         print('ERRO ' + e)
     print('%d artigo(s) conferido(s), %d divergência(s).' % (total, len(todos)))
