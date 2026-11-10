@@ -83,6 +83,8 @@
 .tpi-conceito { background: #fff; border: 1px dashed #b8c6be; border-radius: var(--tpi-raio-p); padding: .2rem 1rem; margin: .5rem 0 0; }
 .tpi-conceito[open] { border-style: solid; padding-bottom: .6rem; }
 .tpi-conceito summary { color: var(--tpi-verde-escuro); }
+.tpi-pagina .entry-content .tpi-conceito__caderno { margin: .7rem 0 .2rem; font-size: .95rem; }
+.tpi-conceito__caderno a { color: var(--tpi-verde-escuro); font-weight: 600; text-underline-offset: .18em; }
 
 /* Questões */
 .tpi-questao { margin: 3rem 0 0; padding: 1.4rem 1.4rem 1.2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); }
