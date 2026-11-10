@@ -28,6 +28,8 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `grupo` | cabeçalho do sumário (ex.: "Crimes contra a Administração Pública") |
 | `base` | ex.: "Art. 312 do CP" |
 | `palavras` | termos extras para a busca do sumário |
+| `tax` | ids dos nós da taxonomia do app (`codigo-fonte/taxonomy-src/nodes.json` no repositório do app) que este tema explica. É o que liga o tema ao Estudo inteligente, ao "Meu plano" e, no futuro, à compilação do caderno por edital. Use o nó mais específico que existir; vários temas podem apontar para o mesmo nó (peculato e concussão → `penal.crimes-contra-administracao-publica`). Como o slug, depois de publicado não se renomeia: o app guarda a ligação |
+| `dispositivos` | ids de dispositivo do acervo de leis do app (`n2848-1940-art-312`, `n2848-1940-art-217-a`, sempre minúsculo; `nCF-1988-art-144`), o mesmo formato do campo `unit` das questões. Liga o tema à questão que cita aquele artigo e ao artigo na Lei seca, com mais precisão do que o nó |
 | `conceitos` | termos que ligam o tema aos "Conceitos de base" dos informativos: se o título do conceito contiver o título do tema ou um destes termos (palavra inteira, sem acento), o informativo ganha o link "Aprofundar no Caderno de…" com prévia. Só tema escrito |
 | `revisado_em` | AAAA-MM-DD em que o curador leu o tema de fato. Só então aparece "Revisado por" no card e no schema |
 | `incidencia` | `{nivel: alta\|media, base: "cobrado em 30 de 48 concursos Cebraspe/FGV com Direito Processual Penal, 2020–2026", bancas: {"Cebraspe": 22, "FGV": 8}}`. Vem da base de incidência (recorte "Todas", sem segmentar por cargo; LEIA-ME da base), só com N ≥ 12 concursos e depois de conferir os exemplos do nó. **Só Alta e Média**: "baixa" é ignorado no código, e "0 de N" nunca entra. Sem `base` não aparece. Contagens do QConcursos não entram |
@@ -69,3 +71,7 @@ por isso o script não roda no CI daqui: rode antes de abrir o PR.
 
 Atenção às leis de 2025–2026 (ex.: Leis 15.280/2025, 15.353/2026 e 15.397/2026 mudaram penas do CP). O texto do
 acervo vence a memória de quem escreve: escreva resumo, esquema e pegadinha a partir dele.
+
+## Ligação com o app (0.10.3)
+
+`tax` e `dispositivos` ainda não mudam nada na página: são a base para o app abrir o tema certo ("Ler o resumo" num tópico novo do Estudo inteligente, "Rever teoria" depois de um erro), num painel com `?tp_embed=1`, que fica fora do índice. Todo tema novo já deve sair com os dois campos preenchidos; confira os ids no repositório do app antes do merge.
