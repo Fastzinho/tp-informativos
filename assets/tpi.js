@@ -222,7 +222,7 @@
       var criada = ids.length ? Math.min.apply(null, ids) : Date.parse(u.created_at || '');
       var d = Date.now() - criada;
       if (isNaN(criada) || d < -300000 || d > 3600000) return;
-      if (localStorage.getItem('tpi_cookies') === 'sim' && typeof window.oaiq === 'function') {
+      if ((window.tpiCookies ? window.tpiCookies.ok : localStorage.getItem('tpi_cookies') === 'sim') && typeof window.oaiq === 'function') { // 0.7.22: segue a regra do site (sem aviso = mede até a pessoa recusar)
         window.oaiq('measure', 'registration_completed', { type: 'customer_action' });
         localStorage.setItem(marca, 'enviado');
       } else localStorage.setItem(marca, 'pendente');
