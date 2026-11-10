@@ -68,7 +68,7 @@
   function pintaControle(box, lido) {
     box.classList.toggle('is-lido', lido);
     var estado = box.querySelector('.tpi-lido__estado');
-    var novoEstado = lido ? 'Julgado marcado como lido.' : '';
+    var novoEstado = lido ? (box.getAttribute('data-tpi-tipo') === 'caderno' ? 'Tema marcado como lido.' : 'Julgado marcado como lido.') : '';
     if (estado.textContent !== novoEstado) estado.textContent = novoEstado;
     var botao = box.querySelector('.tpi-lido__botao');
     botao.setAttribute('aria-pressed', String(lido));
@@ -108,8 +108,15 @@
       var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
       var n = ids.filter(function (i) { return lidos[i]; }).length;
       p.querySelector('.tpi-progresso__barra span').style.width = (ids.length ? Math.round(100 * n / ids.length) : 0) + '%';
-      p.querySelector('.tpi-progresso__texto').innerHTML = 'Você leu <strong>' + n + ' de ' + ids.length + '</strong> julgados desta edição.';
+      p.querySelector('.tpi-progresso__texto').innerHTML = 'Você leu <strong>' + n + ' de ' + ids.length + '</strong> ' + (p.getAttribute('data-tpi-nome') || 'julgados desta edição') + '.';
       p.hidden = false;
+    });
+    /* 0.8.0: sumário dos cadernos. ✓✓ verde ao lado do tema lido (o item é link para a âncora, não botão). */
+    document.querySelectorAll('a[data-tpc-lido]').forEach(function (a) {
+      var lido = !!lidos[a.getAttribute('data-tpc-lido')];
+      a.classList.toggle('is-lido', lido);
+      var el = a.querySelector('.tpc-sumario__lido');
+      if (el) { el.innerHTML = lido ? ICONE_DOIS + '<span class="tpi-sr"> Lido</span>' : ''; el.hidden = !lido; }
     });
     document.querySelectorAll('.tpi-edicao[data-tpi-ids]').forEach(function (li) {
       var ids = li.getAttribute('data-tpi-ids').split(',').filter(Boolean);
@@ -266,7 +273,7 @@
     dlg.setAttribute('aria-labelledby', 'tpi-login-titulo');
     dlg.innerHTML = '<button type="button" class="tpi-login__fechar" aria-label="Fechar">×</button>'
       + '<h2 id="tpi-login-titulo">Salve seu progresso. É grátis.</h2>'
-      + '<p class="tpi-login__sub">Entre para marcar este julgado como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.</p>'
+      + '<p class="tpi-login__sub">Entre para marcar ' + (document.querySelector('.tpc') ? 'este tema' : 'este julgado') + ' como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.</p>'
       + (C.google ? '<div class="tpi-login__google"></div><p class="tpi-login__ou"><span>ou</span></p>' : '')
       + '<form class="tpi-login__email"><label>Seu e-mail<input type="email" name="email" autocomplete="email" required></label>'
       + '<button type="submit" class="tpi-login__principal">Receber código por e-mail</button>'
@@ -352,7 +359,8 @@
           data: {
             postId: Number(id), read: true, readAt: new Date().toISOString(),
             title: box.getAttribute('data-tpi-titulo') || '', url: box.getAttribute('data-tpi-url') || '',
-            court: box.getAttribute('data-tpi-trib') || '', issue: Number(box.getAttribute('data-tpi-num')) || null
+            court: box.getAttribute('data-tpi-trib') || '', issue: Number(box.getAttribute('data-tpi-num')) || null,
+            tipo: box.getAttribute('data-tpi-tipo') || 'julgado'
           }
         })
       });
@@ -433,5 +441,50 @@
       if (ver) n += s.querySelectorAll('li.tpi-card').length;
     });
     if (status) status.textContent = alvo ? 'Mostrando ' + n + (n === 1 ? ' julgado' : ' julgados') + ' de ' + a.firstChild.textContent.trim() + '.' : 'Mostrando todos os julgados.';
+  });
+})();
+
+/* 0.8.0: cadernos. Busca no sumário e pegadinha Certo/Errado. Sem JavaScript, o sumário são âncoras e o
+   gabarito abre em <details>. */
+(function () {
+  var busca = document.getElementById('tpc-busca');
+  if (busca) {
+    var vazio = document.querySelector('.tpc-sumario__vazio');
+    var norm = function (s) { return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); };
+    busca.addEventListener('input', function () {
+      var q = norm(busca.value.trim()), n = 0;
+      document.querySelectorAll('.tpc-sumario__lista li').forEach(function (li) {
+        var a = li.querySelector('a[data-tpc-busca]');
+        if (!a) { li.hidden = !!q; return; } /* rótulo de grupo some durante a busca */
+        var ok = !q || norm(a.getAttribute('data-tpc-busca')).indexOf(q) > -1;
+        li.hidden = !ok; if (ok) n++;
+      });
+      if (vazio) vazio.hidden = n > 0;
+    });
+  }
+  document.querySelectorAll('.tpc-ce[data-gab]').forEach(function (box) {
+    var det = box.querySelector('details');
+    if (!det) return;
+    var gab = box.getAttribute('data-gab');
+    var opcoes = document.createElement('div');
+    opcoes.className = 'tpc-ce__opcoes';
+    opcoes.setAttribute('role', 'group');
+    opcoes.setAttribute('aria-label', 'Sua resposta');
+    var veredito = document.createElement('p');
+    veredito.className = 'tpc-ce__veredito'; veredito.setAttribute('role', 'status');
+    [['C', 'Certo'], ['E', 'Errado']].forEach(function (o) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'tpc-ce__opcao'; b.textContent = o[1];
+      b.addEventListener('click', function () {
+        var ok = o[0] === gab;
+        opcoes.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+        veredito.textContent = ok ? 'Você acertou.' : 'Não foi dessa vez.';
+        veredito.className = 'tpc-ce__veredito ' + (ok ? 'is-ok' : 'is-erro');
+        det.open = true;
+      });
+      opcoes.appendChild(b);
+    });
+    box.insertBefore(opcoes, det);
+    box.insertBefore(veredito, det);
   });
 })();
