@@ -20,6 +20,7 @@ require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
 require_once __DIR__ . '/includes/ramos.php';
 require_once __DIR__ . '/includes/cadernos.php';
+require_once __DIR__ . '/includes/app-questoes.php';
 define( 'TPI_URL', plugin_dir_url( __FILE__ ) );
 
 /*
