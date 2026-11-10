@@ -55,3 +55,5 @@ O card de conceito de um julgado pode apontar para um tema: no JSON do julgado, 
 no fim do card. O plugin troca isso por um `<a href>` real ("Aprofundar no Caderno de Direito Penal: Peculato →")
 **só quando o tema está publicado e escrito**; antes disso não aparece nada. Por isso, **nunca renomeie o slug de
 um tema** que já tenha sido referenciado: os julgados antigos guardam a referência `disciplina#tema`.
+
+Temas que os informativos já pedem e ainda não estão escritos: `cadernos/FILA.md`. Ao escrever um deles, use o slug de lá e apague a linha.
