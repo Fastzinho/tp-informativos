@@ -312,8 +312,10 @@ function tpc_incidencia( $inc ) {
 	if ( ! is_array( $inc ) || empty( $inc['nivel'] ) || empty( $inc['base'] ) ) {
 		return ''; // sem amostra declarada não há selo
 	}
+	// Só Alta e Média: a base de incidência classifica parte dos itens, então pouca ocorrência não prova
+	// que o tema cai pouco (regra da base em /incidencia, 10/11/2026). "Baixa" e "0 de N" nunca aparecem.
 	$niveis = tpc_niveis();
-	$nivel  = isset( $niveis[ $inc['nivel'] ] ) ? $inc['nivel'] : '';
+	$nivel  = in_array( $inc['nivel'], array( 'alta', 'media' ), true ) ? $inc['nivel'] : '';
 	if ( ! $nivel ) {
 		return '';
 	}

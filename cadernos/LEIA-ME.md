@@ -28,7 +28,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `grupo` | cabeçalho do sumário (ex.: "Crimes contra a Administração Pública") |
 | `base` | ex.: "Art. 312 do CP" |
 | `palavras` | termos extras para a busca do sumário |
-| `incidencia` | `{nivel: alta\|media\|baixa, base: "cobrado em 9 de 16 provas analisadas (2018–2026)", bancas: {"Cebraspe": 7}}`. **Sem `base` não aparece**: nunca publicar selo sem amostra. Contagens do QConcursos não entram |
+| `incidencia` | `{nivel: alta\|media, base: "cobrado em 30 de 48 concursos Cebraspe/FGV com Direito Processual Penal, 2020–2026", bancas: {"Cebraspe": 22, "FGV": 8}}`. Vem da base de incidência (recorte "Todas", sem segmentar por cargo; LEIA-ME da base), só com N ≥ 12 concursos e depois de conferir os exemplos do nó. **Só Alta e Média**: "baixa" é ignorado no código, e "0 de N" nunca entra. Sem `base` não aparece. Contagens do QConcursos não entram |
 | `resumo` | "Em 30 segundos" (HTML curto). **Tema sem resumo conta como não escrito** |
 | `esquema` | `{rotulo, html}`: tabela em HTML, nunca imagem |
 | `lei` | `[{texto, fonte, url}]`: texto literal do acervo oficial; parágrafos separados por linha em branco |
