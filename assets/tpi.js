@@ -1,4 +1,4 @@
-/* TP Informativos 0.9.0: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.10.0: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -156,7 +156,127 @@
       return checaApp(s);
     }).catch(function () { pintaTudo(); mostraApp(); });
   }
-  sessao().then(function (s) { return s ? carregar(s) : semConta(); });
+  sessao().then(function (s) { pintaConta(s); return s ? carregar(s) : semConta(); });
+
+  /* 0.10.0: a pessoa vê se entrou. Três estados, decididos aqui (o HTML é o mesmo para todos, fica em cache
+     e é o que o Google vê): sem conta, visitante (sessão anônima do app: salva só neste aparelho) e com conta.
+     - Topo: o cabeçalho é do tema (editor do site), achado pelo botão "Estudar" (a.tp-nav-cta). Se ele sumir,
+       só o aviso perto das ações continua.
+     - Aviso perto das ações (lido / flashcards / sumário do caderno), um por página. */
+  var estadoConta = 'fora';
+  function nomeDe(u) {
+    var m = (u && u.user_metadata) || {};
+    var n = String(m.full_name || m.name || m.given_name || '').trim().split(/\s+/)[0];
+    return n || String((u && u.email) || '').split('@')[0] || 'você';
+  }
+  function mascara(email) {
+    var p = String(email || '').split('@');
+    return p.length === 2 ? p[0].slice(0, 2) + '•••@' + p[1] : '';
+  }
+  function linkAppDeVolta() { var a = document.createElement('a'); a.href = C.appUrl; linkDeVolta(a); return a.href; }
+  function pintaConta(s) {
+    estadoConta = !s ? 'fora' : (s.user && s.user.is_anonymous ? 'visitante' : 'conta');
+    document.documentElement.setAttribute('data-tpi-conta', estadoConta);
+    try { pintaTopo(s); } catch (e) {}
+    try { pintaStatus(s); } catch (e) {}
+  }
+  function pintaTopo(s) {
+    document.querySelectorAll('a.tp-nav-cta').forEach(function (cta) {
+      var pai = cta.parentNode;
+      pai.querySelectorAll('.tpi-nav-entrar, .tpi-nav-conta').forEach(function (x) { x.remove(); });
+      if (!cta.getAttribute('data-tpi-txt')) cta.setAttribute('data-tpi-txt', cta.innerHTML);
+      cta.innerHTML = cta.getAttribute('data-tpi-txt');
+      if (estadoConta === 'fora') {
+        var e = document.createElement('a');
+        e.className = 'tpi-nav-entrar'; e.href = linkAppDeVolta(); e.textContent = 'Entrar';
+        e.addEventListener('click', function (ev) { if (abreLogin(e, { geral: true })) ev.preventDefault(); });
+        /* mesmo tamanho de letra e altura do "Estudar" do tema, seja qual for o estilo do cabeçalho */
+        var cs = getComputedStyle(cta);
+        e.style.fontSize = cs.fontSize; e.style.fontFamily = cs.fontFamily; e.style.minHeight = cta.offsetHeight + 'px';
+        pai.insertBefore(e, cta);
+        return;
+      }
+      /* Com sessão: "Continuar estudando" (no celular fica "Estudar") e o botão da conta ao lado. */
+      var t = Array.prototype.filter.call(cta.childNodes, function (n) { return n.nodeType === 3 && n.textContent.trim(); })[0];
+      if (t) {
+        var longo = document.createElement('span'); longo.className = 'tpi-cta-longo'; longo.textContent = 'Continuar estudando';
+        var curto = document.createElement('span'); curto.className = 'tpi-cta-curto'; curto.textContent = t.textContent.trim();
+        cta.insertBefore(longo, t); cta.insertBefore(curto, t); cta.removeChild(t);
+      }
+      var mc = menuConta(s), bt = mc.querySelector('.tpi-nav-conta__botao');
+      bt.style.fontFamily = getComputedStyle(cta).fontFamily;
+      pai.insertBefore(mc, cta);
+    });
+  }
+  function menuConta(s) {
+    var u = s.user, visitante = estadoConta === 'visitante';
+    var box = document.createElement('div'); box.className = 'tpi-nav-conta';
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'tpi-nav-conta__botao' + (visitante ? ' is-visitante' : '');
+    b.setAttribute('aria-expanded', 'false'); b.setAttribute('aria-haspopup', 'true');
+    if (visitante) {
+      b.innerHTML = '<span class="tpi-nav-conta__ponto" aria-hidden="true"></span><span class="tpi-nav-conta__rotulo">Visitante</span>';
+      b.setAttribute('aria-label', 'Modo visitante: ver opções');
+    } else {
+      b.textContent = nomeDe(u).charAt(0).toUpperCase();
+      b.setAttribute('aria-label', 'Sua conta: ' + nomeDe(u));
+    }
+    var m = document.createElement('div'); m.className = 'tpi-nav-conta__menu'; m.hidden = true;
+    var topo = document.createElement('p'); topo.className = 'tpi-nav-conta__quem';
+    var forte = document.createElement('strong');
+    forte.textContent = visitante ? 'Modo visitante' : nomeDe(u);
+    topo.appendChild(forte);
+    topo.appendChild(document.createTextNode(visitante ? 'Seu progresso fica só neste aparelho.' : mascara(u.email)));
+    m.appendChild(topo);
+    var item = function (txt, href) { var a = document.createElement('a'); a.textContent = txt; a.href = href; m.appendChild(a); return a; };
+    if (visitante) item('Criar conta grátis', linkAppDeVolta()).className = 'is-destaque';
+    item('Abrir meu estudo', C.appUrl);
+    item('Meus flashcards', linkApp());
+    if (!visitante) {
+      var sair = document.createElement('button'); sair.type = 'button'; sair.textContent = 'Sair';
+      sair.addEventListener('click', function () { sairDaConta(s); });
+      m.appendChild(sair);
+    }
+    var fecha = function () { m.hidden = true; b.setAttribute('aria-expanded', 'false'); };
+    b.addEventListener('click', function () {
+      var abrir = m.hidden; m.hidden = !abrir; b.setAttribute('aria-expanded', String(abrir));
+      if (abrir) { var p = m.querySelector('a, button'); if (p) p.focus(); }
+    });
+    document.addEventListener('click', function (e) { if (!box.contains(e.target)) fecha(); });
+    box.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !m.hidden) { fecha(); b.focus(); } });
+    box.appendChild(b); box.appendChild(m);
+    return box;
+  }
+  /* Sair aqui sai também do app: os dois guardam a sessão na mesma chave deste domínio. */
+  function sairDaConta(s) {
+    var fim = function () { try { localStorage.removeItem(CHAVE); } catch (e) {} location.reload(); };
+    fetch(C.url + '/auth/v1/logout?scope=local', { method: 'POST', headers: { apikey: C.key, Authorization: 'Bearer ' + s.access_token } })
+      .then(fim, fim);
+  }
+  function pintaStatus(s) {
+    var velho = document.querySelector('.tpi-conta-status'); if (velho) velho.remove();
+    var alvo = document.querySelector('.tpi-app[data-tpi-ids]') || document.querySelector('[data-tpi-progresso]')
+      || document.querySelector('.tpc-sumario') || document.querySelector('.tpi-lido[data-tpi-id]:not(.tpi-lido--topo)');
+    if (!alvo) return;
+    var p = document.createElement('p'); p.className = 'tpi-conta-status is-' + estadoConta;
+    var txt = document.createElement('span');
+    var ponto = '<span class="tpi-conta-status__ponto" aria-hidden="true"></span>';
+    var comCards = !!document.querySelector('.tpi-app[data-tpi-ids]');
+    if (estadoConta === 'conta') {
+      txt.appendChild(document.createTextNode('Conectado como '));
+      var n = document.createElement('strong'); n.textContent = nomeDe(s.user); txt.appendChild(n);
+      txt.appendChild(document.createTextNode(comCards ? '. O que você ler e os flashcards vão para a sua conta.' : '. O que você ler fica salvo na sua conta.'));
+      p.innerHTML = ponto; p.appendChild(txt);
+    } else {
+      txt.textContent = estadoConta === 'visitante' ? 'Modo visitante: seu progresso fica só neste aparelho.'
+        : (comCards ? 'Você não entrou. O que você ler e os flashcards não ficam salvos.' : 'Você não entrou. O que você ler não fica salvo.');
+      p.innerHTML = ponto; p.appendChild(txt);
+      var a = document.createElement('a'); a.href = linkAppDeVolta();
+      a.textContent = estadoConta === 'visitante' ? 'Criar conta grátis' : 'Entrar';
+      if (estadoConta === 'fora') a.addEventListener('click', function (ev) { if (abreLogin(a, { geral: true })) ev.preventDefault(); });
+      p.appendChild(a);
+    }
+    alvo.parentNode.insertBefore(p, alvo);
+  }
 
   /* 0.7.16: o visitante clicou em "Marcar como lido", entrou no app e voltou (o app lê ?voltar=):
      completa a marcação que ele pediu, uma vez só, se ainda estiver valendo (30 min). */
@@ -213,6 +333,7 @@
     medeCadastro(s.user);
     sessaoP = Promise.resolve(s); semSessao = false;
     fechaLogin();
+    pintaConta(s);
     var t = document.createElement('p');
     t.className = 'tpi-login-ok'; t.setAttribute('role', 'status');
     t.textContent = 'Pronto, você entrou. Seu progresso fica salvo na sua conta.';
@@ -323,7 +444,9 @@
     /* 0.9.0: o texto do convite segue o que a pessoa clicou (marcar lido ou levar os flashcards). */
     var n = motivo && motivo.cards;
     dlg.querySelector('#tpi-login-titulo').textContent = n ? 'Guarde ' + (n === 1 ? 'este flashcard' : 'estes ' + n + ' flashcards') + '. É grátis.' : 'Salve seu progresso. É grátis.';
-    dlg.querySelector('.tpi-login__sub').textContent = n
+    dlg.querySelector('.tpi-login__sub').textContent = motivo && motivo.geral
+      ? 'Entre para guardar o que você ler e levar os flashcards ao app, com revisão no dia certo. Você continua nesta página.'
+      : n
       ? 'Entre e eles vão direto para os seus Flashcards no app, com revisão espaçada: cada um volta no dia certo para você não esquecer. Você continua nesta página.'
       : 'Entre para marcar ' + (document.querySelector('.tpc') ? 'este tema' : 'este julgado') + ' como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.';
     if (!dlg.open) { dlg.showModal(); passo(dlg.querySelector('.tpi-login__codigo').hidden ? 'email' : 'codigo'); }
