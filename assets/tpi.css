@@ -505,3 +505,34 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-pagina .entry-content .tpi-app-cta p:last-child { margin: 0; }
 .tpi-pagina .entry-content p.tpi-app-cta__titulo { font-size: 1.12rem; font-weight: 700; line-height: 1.3; color: var(--tpi-tinta); }
 .tpi-pagina .entry-content p.tpi-app-cta__micro { font-size: .88rem; color: var(--tpi-suave); }
+
+/* 0.10.0: estado da conta. Topo (cabeçalho do tema, ao lado do a.tp-nav-cta) e aviso perto das ações. */
+.tpi-nav-entrar { box-sizing: border-box; display: inline-flex; align-items: center; padding: 0 .9rem; border: 1.5px solid var(--tpi-verde); border-radius: 10px; color: var(--tpi-verde) !important; font-weight: 700; text-decoration: none !important; white-space: nowrap; line-height: 1.2; }
+.tpi-nav-entrar:hover { background: var(--tpi-nevoa); }
+.tpi-cta-curto { display: none; }
+@media (max-width: 600px) { .tpi-cta-longo { display: none; } .tpi-cta-curto { display: inline; } .tpi-nav-entrar { padding: 0 .35rem; border-color: transparent; } }
+/* No celular o cabeçalho do tema não encolhe: o "Entrar" fica no aviso perto das ações. */
+/* Celular estreito: o cabeçalho do tema não encolhe, então a inicial fica menor e cola no "Estudar".
+   Abaixo de 340px ela some; o aviso perto das ações continua mostrando o estado. */
+@media (max-width: 400px) { [data-tpi-conta="conta"] .tp-nav-cta, [data-tpi-conta="visitante"] .tp-nav-cta { margin-left: 0 !important; padding-left: 10px !important; padding-right: 10px !important; } .tpi-nav-conta__botao, .tpi-nav-conta__botao.is-visitante { min-width: 1.65rem !important; width: 1.65rem !important; padding: 0 !important; height: 1.65rem !important; font-size: .78rem !important; margin-right: .2rem; } }
+@media (max-width: 340px) { .tpi-nav-conta { display: none !important; } }
+@media (max-width: 480px) { .tpi-nav-entrar { display: none; } .tpi-nav-conta__botao { min-width: 2rem; height: 2rem; font-size: .85rem; } .tpi-nav-conta__botao.is-visitante { width: 2rem; } }
+.tpi-nav-conta { position: relative; display: inline-flex; }
+.tpi-nav-conta__botao { display: inline-grid; place-items: center; min-width: 2.25rem; height: 2.25rem; padding: 0; border: 0; border-radius: 999px; background: var(--tpi-marca); color: var(--tpi-tinta); font: inherit; font-weight: 800; font-size: .95rem; cursor: pointer; }
+.tpi-nav-conta__botao:focus-visible, .tpi-nav-entrar:focus-visible { outline: 2px solid var(--tpi-verde); outline-offset: 2px; }
+.tpi-nav-conta__botao.is-visitante { display: inline-flex; gap: .4rem; padding: 0 .8rem; background: #fbf3e2; color: #8a5e14; font-size: .85rem; font-weight: 700; }
+.tpi-nav-conta__ponto, .tpi-conta-status__ponto { width: .5rem; height: .5rem; border-radius: 50%; background: currentColor; flex: none; }
+@media (max-width: 900px) { .tpi-nav-conta__rotulo { display: none; } .tpi-nav-conta__botao.is-visitante { padding: 0; width: 2.25rem; justify-content: center; } }
+.tpi-nav-conta__menu { position: absolute; top: calc(100% + .5rem); right: 0; z-index: 9999; width: min(16rem, calc(100vw - 32px)); display: grid; gap: 2px; padding: .5rem; background: #fff; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); box-shadow: 0 10px 30px rgba(20, 35, 29, .16); font-size: .92rem; text-align: left; }
+.tpi-nav-conta__menu[hidden] { display: none; }
+.tpi-nav-conta__quem { margin: 0 0 .25rem; padding: .5rem .6rem .6rem; border-bottom: 1px solid var(--tpi-linha); color: var(--tpi-suave); font-size: .85rem; line-height: 1.35; }
+.tpi-nav-conta__quem strong { display: block; color: var(--tpi-tinta); font-size: .95rem; }
+.tpi-nav-conta__menu a, .tpi-nav-conta__menu button { display: block; width: 100%; padding: .5rem .6rem; border: 0; border-radius: var(--tpi-raio-p); background: none; color: var(--tpi-tinta) !important; font: inherit; font-weight: 600; text-align: left; text-decoration: none !important; cursor: pointer; }
+.tpi-nav-conta__menu a:hover, .tpi-nav-conta__menu button:hover, .tpi-nav-conta__menu a:focus-visible, .tpi-nav-conta__menu button:focus-visible { background: var(--tpi-nevoa); outline: none; }
+.tpi-nav-conta__menu a.is-destaque { color: var(--tpi-verde) !important; }
+.tpi-conta-status { box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .75rem; margin-block: 1.25rem .75rem; padding: .65rem .85rem; border-radius: var(--tpi-raio-p); background: var(--tpi-nevoa); color: var(--tpi-tinta); font-size: .92rem; line-height: 1.4; }
+.tpi-conta-status.is-conta .tpi-conta-status__ponto { color: #2f7a4f; }
+.tpi-conta-status.is-fora, .tpi-conta-status.is-visitante { background: #fbf3e2; }
+.tpi-conta-status.is-fora .tpi-conta-status__ponto, .tpi-conta-status.is-visitante .tpi-conta-status__ponto { color: #b07a1c; }
+.tpi-conta-status > span:not(.tpi-conta-status__ponto) { flex: 1 1 14rem; min-width: 0; }
+.tpi-pagina .entry-content .tpi-conta-status a, .tpi-conta-status a { font-weight: 700; color: var(--tpi-verde); }
