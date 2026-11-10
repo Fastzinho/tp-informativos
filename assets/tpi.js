@@ -241,9 +241,10 @@
       m.appendChild(sair);
     }
     var fecha = function () { m.hidden = true; b.setAttribute('aria-expanded', 'false'); };
-    b.addEventListener('click', function () {
+    b.addEventListener('click', function (ev) {
       var abrir = m.hidden; m.hidden = !abrir; b.setAttribute('aria-expanded', String(abrir));
-      if (abrir) { var p = m.querySelector('a, button'); if (p) p.focus(); }
+      /* Foco no 1º item só pelo teclado (detail 0); com mouse ou dedo, nada fica com contorno. */
+      if (abrir && !ev.detail) { var p = m.querySelector('a, button'); if (p) p.focus(); }
     });
     document.addEventListener('click', function (e) { if (!box.contains(e.target)) fecha(); });
     box.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !m.hidden) { fecha(); b.focus(); } });
