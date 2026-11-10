@@ -39,7 +39,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `macetes` | `[{sigla, texto}]` |
 | `juris` | `[{quem, texto, url?, link?}]`: `url` de preferência para o julgado em /informativos/ (rótulo "Ver julgado comentado"); link de tribunal ganha "Ver no site do tribunal" |
 | `pegadinha` | `{afirmacao, gabarito: "C"\|"E", explicacao}` |
-| `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível (doutrina, divergências) |
+| `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível. **Só exceções e pegadinhas que já caíram em prova** (conferir nas provas oficiais da base de incidência e da auditoria de lacunas), cada uma amarrada a artigo de lei ou a julgado. Nada de "parte da doutrina" sem fonte nem tema que nunca foi cobrado. Rótulo padrão: "exceções que caem em prova" |
 | `praticar` | link do botão; padrão `/estudar/` |
 | `relacionados` | slugs de temas da mesma disciplina; sem eles, os vizinhos do sumário |
 | `pagina_propria` | `true` dá URL própria ao tema (`/cadernos/<disciplina>/<tema>/`); sem isso, o endereço redireciona para a âncora |
