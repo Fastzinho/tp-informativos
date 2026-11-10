@@ -1,0 +1,115 @@
+{
+ "slug": "direito-penal",
+ "titulo": "Caderno de Direito Penal",
+ "disciplina": "Direito Penal",
+ "ordem": 1,
+ "descricao": "Direito Penal organizado por tema: resumo em 30 segundos, esquemas, lei seca, macetes, jurisprudência e pegadinhas de banca. Gratuito e atualizado.",
+ "ramo": "direito-penal",
+ "revisado_em": "2026-11-10",
+ "revisado_rotulo": "Lei e jurisprudência conferidas",
+ "temas": [
+  {
+   "slug": "peculato",
+   "titulo": "Peculato",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Art. 312 do CP",
+   "palavras": [
+    "apropriacao",
+    "desvio",
+    "peculato-furto",
+    "peculato culposo",
+    "reparacao do dano"
+   ],
+   "resumo": "O funcionário público se apropria de bem que tem a posse em razão do cargo, ou o desvia (peculato-apropriação e peculato-desvio). Se não tem a posse e subtrai valendo-se do cargo, é peculato-furto. No peculato culposo, reparar o dano antes da sentença irrecorrível extingue a punibilidade; depois dela, reduz a pena pela metade.",
+   "esquema": {
+    "rotulo": "modalidades",
+    "html": "<table><thead><tr><th>Modalidade</th><th>Base</th><th>Tem a posse?</th><th>Conduta</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Apropriação</strong></td><td>caput, 1ª parte</td><td>Sim</td><td>Apropriar-se (inverte a posse)</td><td>Reclusão, 2 a 12 anos, e multa</td></tr><tr><td><strong>Desvio</strong></td><td>caput, 2ª parte</td><td>Sim</td><td>Dar destinação diversa, em proveito próprio ou alheio</td><td>Reclusão, 2 a 12 anos, e multa</td></tr><tr><td><strong>Furto (impróprio)</strong></td><td>§ 1º</td><td>Não</td><td>Subtrair ou concorrer para a subtração, valendo-se da facilidade do cargo</td><td>Reclusão, 2 a 12 anos, e multa</td></tr><tr><td><strong>Culposo</strong></td><td>§§ 2º e 3º</td><td>—</td><td>Concorrer culposamente para o crime de outrem</td><td>Detenção, 3 meses a 1 ano</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 312. Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio:\n\nPena - reclusão, de dois a doze anos, e multa.\n\n§ 1º Aplica-se a mesma pena, se o funcionário público, embora não tendo a posse do dinheiro, valor ou bem, o subtrai, ou concorre para que seja subtraído, em proveito próprio ou alheio, valendo-se de facilidade que lhe proporciona a qualidade de funcionário.\n\n§ 2º Se o funcionário concorre culposamente para o crime de outrem:\n\nPena - detenção, de três meses a um ano.\n\n§ 3º No caso do parágrafo anterior, a reparação do dano, se precede a sentença irrecorrível, extingue a punibilidade; se lhe é posterior, reduz de metade a pena imposta.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "A · D · F · C",
+     "texto": "Apropriação, Desvio, Furto, Culposo: as quatro modalidades."
+    },
+    {
+     "sigla": "ANTES / DEPOIS",
+     "texto": "Só no culposo: reparou antes da sentença irrecorrível, extingue a punibilidade; depois, reduz a pena pela metade."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 599",
+     "texto": "O princípio da insignificância é inaplicável aos crimes contra a administração pública."
+    },
+    {
+     "quem": "Entendimento majoritário",
+     "texto": "O peculato de uso (usar e devolver bem infungível) é atípico no Código Penal. Para prefeitos, o Decreto-Lei 201/1967 tipifica a conduta."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No peculato culposo, a reparação do dano extingue a punibilidade mesmo que ocorra após o trânsito em julgado da sentença.",
+    "gabarito": "E",
+    "explicacao": "Depois da sentença irrecorrível, a reparação só reduz a pena pela metade (art. 312, § 3º, do CP)."
+   },
+   "aprofundamento": "<p><strong>Natureza da posse.</strong> A doutrina majoritária lê “posse” em sentido amplo, abrangendo a detenção e a posse indireta (disponibilidade jurídica do bem).</p><p><strong>Bem particular.</strong> O tipo alcança bem particular, desde que esteja sob a posse do funcionário em razão do cargo (peculato-malversação).</p><p><strong>Concurso de pessoas.</strong> A condição de funcionário público é elementar do tipo e se comunica ao particular que sabe dela (art. 30 do CP).</p>",
+   "relacionados": [
+    "concussao"
+   ]
+  },
+  {
+   "slug": "concussao",
+   "titulo": "Concussão",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Art. 316 do CP",
+   "palavras": [
+    "exigir",
+    "vantagem indevida",
+    "excesso de exacao",
+    "corrupcao passiva"
+   ],
+   "resumo": "O funcionário <strong>exige</strong> vantagem indevida em razão da função, ainda que fora dela ou antes de assumi-la. É crime formal: consuma-se com a exigência, e o recebimento é mero exaurimento. A pena passou a ser de 2 a 12 anos com o Pacote Anticrime (Lei 13.964/2019).",
+   "esquema": {
+    "rotulo": "concussão x corrupção passiva",
+    "html": "<table><thead><tr><th></th><th>Concussão (art. 316)</th><th>Corrupção passiva (art. 317)</th></tr></thead><tbody><tr><td><strong>Verbo</strong></td><td>Exigir</td><td>Solicitar, receber ou aceitar promessa</td></tr><tr><td><strong>Postura</strong></td><td>Imposição, com temor da autoridade</td><td>Pedido ou acordo, sem imposição</td></tr><tr><td><strong>Particular</strong></td><td>É vítima; não responde</td><td>Pode responder por corrupção ativa (art. 333)</td></tr><tr><td><strong>Consumação</strong></td><td>Com a exigência</td><td>Com a solicitação, o recebimento ou a aceitação</td></tr><tr><td><strong>Pena</strong></td><td>Reclusão, 2 a 12 anos, e multa</td><td>Reclusão, 2 a 12 anos, e multa</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 316. Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida:\n\nPena - reclusão, de 2 (dois) a 12 (doze) anos, e multa.",
+     "fonte": "Decreto-Lei 2.848/1940, pena com redação da Lei 13.964/2019",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "EXIGIR = CONCUSSÃO",
+     "texto": "Na concussão o funcionário constrange: ele exige."
+    },
+    {
+     "sigla": "S · R · A",
+     "texto": "Solicitar, Receber, Aceitar promessa: corrupção passiva."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · entendimento consolidado",
+     "texto": "A concussão é crime formal, que se consuma com a exigência; a obtenção da vantagem é exaurimento."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A concussão só se consuma quando o funcionário público efetivamente recebe a vantagem indevida exigida.",
+    "gabarito": "E",
+    "explicacao": "É crime formal: basta a exigência. O recebimento é exaurimento."
+   },
+   "aprofundamento": "<p><strong>Flagrante.</strong> Como a consumação ocorre na exigência, a prisão no momento da entrega do dinheiro é discutida: parte da doutrina vê flagrante válido; outra parte aponta que o crime já se consumara antes.</p><p><strong>Excesso de exação (§ 1º).</strong> Exigir tributo ou contribuição social que sabe ou deveria saber indevido, ou cobrar o devido por meio vexatório ou gravoso: tipo próprio, com pena de 3 a 8 anos.</p>",
+   "relacionados": [
+    "peculato"
+   ]
+  }
+ ]
+}
