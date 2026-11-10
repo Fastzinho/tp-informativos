@@ -118,7 +118,7 @@ add_action( 'init', function () {
 		update_option( 'tpc_sync_assinatura', $sig, true );
 	}
 	tpc_garante_hub();
-	delete_transient( 'tpc_indice_v1' );
+	delete_transient( 'tpc_indice_v2' );
 	delete_transient( 'tpc_sync_trava' );
 }, 30 );
 
@@ -221,6 +221,9 @@ add_action( 'template_redirect', function () {
 	if ( tpc_eh_disciplina( $id ) ) {
 		return;
 	}
+	if ( tpc_eh_embed() ) { // leitura no app: o tema sozinho, sem redirecionar para a âncora
+		return;
+	}
 	$d   = tpc_dados( $id );
 	$pai = wp_get_post_parent_id( $id );
 	if ( empty( $d['pagina_propria'] ) && $pai ) {
@@ -277,6 +280,9 @@ add_shortcode( 'tp_caderno', function ( $a ) {
  * 4. Robots e sitemap
  * ------------------------------------------------------------------------- */
 function tpc_atual_nao_indexavel() {
+	if ( tpc_eh_embed() ) {
+		return true;
+	}
 	if ( is_singular( 'caderno' ) ) {
 		return ! tpc_indexavel( get_queried_object_id() );
 	}
@@ -755,7 +761,7 @@ function tpc_norm( $s ) {
 	return ' ' . trim( preg_replace( '/[^a-z0-9]+/', ' ', $s ) ) . ' ';
 }
 function tpc_indice() {
-	$idx = get_transient( 'tpc_indice_v1' );
+	$idx = get_transient( 'tpc_indice_v2' );
 	if ( is_array( $idx ) ) {
 		return $idx;
 	}
@@ -794,9 +800,13 @@ function tpc_indice() {
 			'disc'   => get_the_title( $p->post_parent ),
 			'grupo'  => (string) ( $t['grupo'] ?? '' ),
 			'tem'    => $tem ? implode( ', ', $tem ) . ' e ' . $ult : (string) $ult,
+			// 0.11.0: ligação com o app (tópico da taxonomia e dispositivo do acervo) e endereço do próprio tema, que abre embutido.
+			'tax'    => array_values( array_filter( array_map( 'strval', (array) ( $t['tax'] ?? array() ) ) ) ),
+			'dis'    => array_values( array_filter( array_map( 'strval', (array) ( $t['dispositivos'] ?? array() ) ) ) ),
+			'post'   => get_permalink( $p ),
 		);
 	}
-	set_transient( 'tpc_indice_v1', $idx, DAY_IN_SECONDS );
+	set_transient( 'tpc_indice_v2', $idx, DAY_IN_SECONDS );
 	return $idx;
 }
 function tpc_tema_para( $texto ) {
@@ -881,6 +891,86 @@ add_action( 'rest_api_init', function () {
 				'praticar' => ! empty( $t['praticar'] ) ? $t['praticar'] : home_url( '/estudar/' ),
 			) );
 			$res->header( 'Cache-Control', 'public, max-age=600' );
+			return $res;
+		},
+	) );
+} );
+
+/* ---------------------------------------------------------------------------
+ * 10. Leitura no app (0.11.0, decisão do Jonatan em 10/11/2026: "contextual em fases")
+ *     O Estudo inteligente mostra "Ler o resumo" num tópico novo e "Rever teoria" depois de um erro, abrindo o tema
+ *     num painel do app (o mesmo do julgado comentado). Duas peças, nenhuma no Supabase:
+ *     - GET tp/v1/cadernos-indice: temas escritos com os campos tax e dispositivos do JSON, leve e com cache;
+ *     - ?tp_embed=1 no endereço do tema: só o card, sem cabeçalho e rodapé do site, fora do índice (noindex + X-Robots-Tag),
+ *       com o canonical na âncora do caderno. O conteúdo continua num lugar só (o JSON), sem cópia no app.
+ * ------------------------------------------------------------------------- */
+function tpc_eh_embed() {
+	if ( ! isset( $_GET['tp_embed'] ) || '1' !== $_GET['tp_embed'] || ! is_singular( 'caderno' ) ) {
+		return false;
+	}
+	return ! tpc_eh_disciplina( get_queried_object_id() );
+}
+add_action( 'template_redirect', function () {
+	if ( tpc_eh_embed() && ! headers_sent() ) {
+		header( 'X-Robots-Tag: noindex, follow', true );
+	}
+}, 5 );
+add_filter( 'rank_math/frontend/canonical', function ( $c ) {
+	return tpc_eh_embed() ? tpc_link_tema( get_post( get_queried_object_id() ) ) : $c;
+} );
+add_filter( 'body_class', function ( $c ) {
+	if ( tpc_eh_embed() ) {
+		$c[] = 'tp-embed';
+	}
+	return $c;
+} );
+add_action( 'wp', function () {
+	if ( ! tpc_eh_embed() ) {
+		return;
+	}
+	add_filter( 'show_admin_bar', '__return_false' );
+	remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+	remove_action( 'wp_print_styles', 'print_emoji_styles' );
+	remove_action( 'wp_enqueue_scripts', 'wp_enqueue_emoji_styles' );
+} );
+add_action( 'wp_enqueue_scripts', function () {
+	if ( tpc_eh_embed() ) {
+		wp_dequeue_script( 'hostinger-reach-embed' );
+	}
+}, 999 );
+add_action( 'wp_head', function () {
+	if ( ! tpc_eh_embed() ) {
+		return;
+	}
+	// Links do tema (julgados, lei, caderno completo) abrem fora do painel. O botão "Praticar" some: o aluno já está no app.
+	echo '<base target="_blank">' . "\n";
+	echo '<style id="tpc-embed">body.tp-embed header.wp-block-template-part,body.tp-embed footer.wp-block-template-part,body.tp-embed .tpi-trilha,body.tp-embed .tpc-cta,body.tp-embed .tpc-ancora,body.tp-embed .wp-block-post-title,#wpadminbar{display:none!important}html{margin-top:0!important}body.tp-embed main{margin-top:0!important;padding-top:16px!important}</style>' . "\n";
+}, 1 );
+
+add_action( 'rest_api_init', function () {
+	register_rest_route( 'tp/v1', '/cadernos-indice', array(
+		'methods'             => 'GET',
+		'permission_callback' => '__return_true', // só temas publicados e escritos
+		'callback'            => function () {
+			$items = array();
+			foreach ( tpc_indice() as $i ) {
+				if ( empty( $i['tax'] ) && empty( $i['dis'] ) ) {
+					continue;
+				}
+				$items[] = array(
+					'u' => $i['post'],  // abre embutido (?tp_embed=1)
+					'a' => $i['url'],   // "Abrir no site": âncora no caderno
+					't' => $i['titulo'],
+					'c' => $i['disc'],
+					'g' => $i['grupo'],
+					'x' => $i['tax'],
+					'd' => $i['dis'],
+				);
+			}
+			$res = rest_ensure_response( array( 'v' => 1, 'items' => $items ) );
+			// O transient (limpo a cada sincronização) deixa a resposta barata; navegador e CDN seguram por 1 h.
+			$res->header( 'Cache-Control', 'public, max-age=3600' );
+			$res->header( 'X-LiteSpeed-Cache-Control', 'no-cache' );
 			return $res;
 		},
 	) );

@@ -58,9 +58,14 @@ no fim do card. O plugin troca isso por um `<a href>` real ("Aprofundar no Cader
 **só quando o tema está publicado e escrito**; antes disso não aparece nada. Por isso, **nunca renomeie o slug de
 um tema** que já tenha sido referenciado: os julgados antigos guardam a referência `disciplina#tema`.
 
-## Ligação com o app (0.10.2)
+## Ligação com o app (0.11.0)
 
-`tax` e `dispositivos` ainda não mudam nada na página: são a base para o app abrir o tema certo ("Ler o resumo" num tópico novo do Estudo inteligente, "Rever teoria" depois de um erro), num painel com `?tp_embed=1`, que fica fora do índice. Todo tema novo já deve sair com os dois campos preenchidos; confira os ids no repositório do app antes do merge.
+`tax` e `dispositivos` alimentam `GET /wp-json/tp/v1/cadernos-indice` (só temas escritos, cache de 1 h). O app usa esse
+índice para mostrar "Ler o resumo" no tópico do cronograma e "Rever teoria" depois de responder uma questão, e abre o
+tema num painel com `?tp_embed=1` no endereço do próprio tema (`/cadernos/<disciplina>/<tema>/?tp_embed=1`): só o card,
+sem cabeçalho, rodapé nem o botão Praticar, `noindex` e canonical na âncora do caderno. O conteúdo continua só no JSON.
+Todo tema novo já deve sair com os dois campos preenchidos (o `ferramentas/conferir_lei.py` confere os ids).
+
 
 ## Conferir a lei seca antes de publicar
 
