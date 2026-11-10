@@ -75,3 +75,5 @@ por isso o script não roda no CI daqui: rode antes de abrir o PR.
 
 Atenção às leis de 2025–2026 (ex.: Leis 15.280/2025, 15.353/2026 e 15.397/2026 mudaram penas do CP). O texto do
 acervo vence a memória de quem escreve: escreva resumo, esquema e pegadinha a partir dele.
+
+Temas que os informativos já pedem e ainda não estão escritos: `cadernos/FILA.md`. Ao escrever um deles, use o slug de lá e apague a linha.
