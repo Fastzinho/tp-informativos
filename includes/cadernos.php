@@ -233,6 +233,46 @@ function tpc_link_tema( $p ) {
 	return ! empty( $d['pagina_propria'] ) ? get_permalink( $p ) : get_permalink( $p->post_parent ) . '#' . $p->post_name;
 }
 
+/*
+ * 0.8.1: [tp_caderno tema="direito-penal#peculato"] no card de conceito do julgado (o render.py põe o shortcode
+ * quando o conceito tem "caderno" no JSON). Vira um <a href> real para o tema, renderizado no servidor, e só
+ * quando o tema está publicado e escrito (tem "Em 30 segundos"); antes disso não imprime nada, para não mandar o
+ * leitor a uma âncora inexistente. Aceita vários temas separados por vírgula. Assim o link aparece sozinho nos
+ * julgados antigos quando o tema entra no caderno (o deploy limpa o cache do LiteSpeed).
+ */
+function tpc_tema_por_ref( $ref ) {
+	$partes = array_map( 'sanitize_title', explode( '#', trim( $ref ), 2 ) );
+	if ( 2 !== count( $partes ) || '' === $partes[0] || '' === $partes[1] ) {
+		return null;
+	}
+	$disc = tpc_post_por( $partes[0], 0 );
+	if ( ! $disc || 'publish' !== $disc->post_status ) {
+		return null;
+	}
+	$tema = tpc_post_por( $partes[1], $disc->ID );
+	return ( $tema && 'publish' === $tema->post_status && tpc_escrito( tpc_dados( $tema->ID ) ) ) ? $tema : null;
+}
+add_shortcode( 'tp_caderno', function ( $a ) {
+	$a     = shortcode_atts( array( 'tema' => '' ), $a, 'tp_caderno' );
+	$links = array();
+	foreach ( array_filter( array_map( 'trim', explode( ',', (string) $a['tema'] ) ) ) as $ref ) {
+		$t = tpc_tema_por_ref( $ref );
+		if ( ! $t ) {
+			continue;
+		}
+		// 0.9.1: mesmo link do casamento automático (seção 9), com prévia na página; o href continua real.
+		foreach ( tpc_indice() as $i ) {
+			if ( (int) $i['id'] === (int) $t->ID ) {
+				$links[] = tpc_link_conceito( $i, true );
+			}
+		}
+	}
+	if ( $links ) {
+		wp_enqueue_style( 'tp-cadernos', TPI_URL . 'assets/tpc.css', array(), TPI_VERSION );
+	}
+	return implode( '', $links );
+} );
+
 /* ---------------------------------------------------------------------------
  * 4. Robots e sitemap
  * ------------------------------------------------------------------------- */
@@ -453,7 +493,7 @@ function tpc_autor( $d ) {
 	return $a;
 }
 
-/* 0.8.1 (EEAT honesto, Jonatan 10/11): o caderno é da equipe, com curadoria do autor do site. "Revisado por" só
+/* 0.9.1 (EEAT honesto, Jonatan 10/11): o caderno é da equipe, com curadoria do autor do site. "Revisado por" só
    aparece no tema que o curador leu de fato ("revisado_em" no tema). Com "autor" no JSON, vale o autor dado. */
 function tpc_assinatura( $disc_id, $d ) {
 	$a    = tpc_autor( $d );
@@ -698,13 +738,14 @@ add_action( 'wp_enqueue_scripts', function () {
 }, 11 );
 
 /* ---------------------------------------------------------------------------
- * 9. Link dos informativos para os cadernos (0.8.1, decisão do Jonatan em 10/11/2026)
+ * 9. Link dos informativos para os cadernos (0.9.1, decisão do Jonatan em 10/11/2026)
  *    No fim de cada "Conceito de base" do julgado (core/details com a classe tpi-conceito), quando o título do
  *    conceito cita um tema escrito do caderno, entra um link real <a href> para a âncora do tema. Com JavaScript,
  *    o clique abre uma prévia na própria página (gaveta no computador, folha de baixo no celular); o href continua
  *    sendo o do caderno. O conceito fica no julgado: nada sai da página nem é copiado do caderno.
- *    Casamento: título do tema ou um dos "conceitos" do JSON, palavra inteira, sem acento; vence o termo mais longo.
- *    Ninguém precisa marcar nada nos informativos: quando um tema entra no caderno, os links aparecem sozinhos.
+ *    Marcação explícita ([tp_caderno tema="disc#tema"], seção 3) vence. Sem ela, casamento automático: título do tema
+ *    ou um dos "conceitos" do JSON no título do conceito, palavra inteira, sem acento; vence o termo mais longo.
+ *    Assim os julgados antigos, sem marcação, também ganham o link quando o tema entra no caderno.
  * ------------------------------------------------------------------------- */
 function tpc_norm( $s ) {
 	$s = remove_accents( mb_strtolower( wp_strip_all_tags( html_entity_decode( (string) $s, ENT_QUOTES, 'UTF-8' ) ) ) );
@@ -744,6 +785,7 @@ function tpc_indice() {
 		$ult = array_pop( $tem );
 		$idx[] = array(
 			'id'     => $p->ID,
+			'titulo' => $p->post_title,
 			'chaves' => $chaves,
 			'url'    => tpc_link_tema( $p ),
 			'disc'   => get_the_title( $p->post_parent ),
@@ -768,15 +810,19 @@ function tpc_tema_para( $texto ) {
 	}
 	return $melhor;
 }
-function tpc_link_conceito( $t ) {
+function tpc_link_conceito( $t, $com_tema = false ) {
 	$meta = implode( ' · ', array_filter( array( $t['grupo'], $t['tem'] ) ) );
-	return '<p class="tpc-ir"><a class="tpc-ir__link" href="' . esc_url( $t['url'] ) . '" data-tpc-previa="' . esc_attr( $t['id'] ) . '">'
+	return '<p class="tpi-conceito__caderno tpc-ir"><a class="tpc-ir__link" href="' . esc_url( $t['url'] ) . '" data-tpc-previa="' . esc_attr( $t['id'] ) . '">'
 		. '<span class="tpc-ir__icone" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span>'
-		. '<span>Aprofundar no ' . esc_html( $t['disc'] ) . ' <span aria-hidden="true">→</span></span></a>'
+		. '<span>Aprofundar no ' . esc_html( $t['disc'] . ( $com_tema ? ': ' . $t['titulo'] : '' ) ) . ' <span aria-hidden="true">→</span></span></a>'
 		. ( $meta ? '<span class="tpc-ir__meta">' . esc_html( $meta ) . '</span>' : '' ) . '</p>';
 }
 add_filter( 'render_block_core/details', function ( $html, $block ) {
 	if ( ! is_singular( 'informativo' ) || false === strpos( (string) ( $block['attrs']['className'] ?? '' ), 'tpi-conceito' ) ) {
+		return $html;
+	}
+	// Conceito já marcado com [tp_caderno] pelo projeto dos informativos: a marcação explícita vence.
+	if ( false !== strpos( $html, 'tpi-conceito__caderno' ) || false !== strpos( $html, '[tp_caderno' ) ) {
 		return $html;
 	}
 	if ( ! preg_match( '#<summary[^>]*>(.*?)</summary>#s', $html, $m ) ) {

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.8.1
+ * Version: 0.9.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.8.1' );
+define( 'TPI_VERSION', '0.9.1' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1188,13 +1188,94 @@ function tpi_cards_de( $id ) {
 	$c = json_decode( (string) tpi_meta( $id, 'tp_flashcards' ), true );
 	return is_array( $c ) ? $c : array();
 }
+/* 0.9.0: cartões prontos para gravar direto nos Flashcards do app (mesmo texto do .txt do Anki).
+   - id fixo por julgado + frente (formato card:<uuid> que o app exige): importar de novo não duplica
+     e nunca zera o progresso (o JS grava com ON CONFLICT DO NOTHING).
+   - Baralho "<Ramo>::Informativos": o Estudo inteligente puxa card sem tema pela disciplina do 1º nível do
+     baralho. A edição fica na etiqueta (stf_inf1236), igual ao .txt. Sem ramo, vai para "Informativos". */
+function tpi_posts_de_cards( $id ) {
+	return 'periodico' === tpi_meta( $id, 'tp_tipo' )
+		? get_posts( array( 'post_type' => 'informativo', 'post_parent' => $id, 'post_status' => 'publish', 'numberposts' => 100, 'orderby' => 'menu_order date', 'order' => 'ASC' ) )
+		: array( get_post( $id ) );
+}
+function tpi_limpa_card( $s ) {
+	$s = preg_replace( '/\*\*?(.+?)\*\*?/u', '$1', (string) $s );
+	return trim( preg_replace( '/[\t\r\n]+/', ' ', $s ) );
+}
+function tpi_uuid_card( $post_id, $frente ) {
+	$h = sha1( 'tpi-card:' . $post_id . ':' . $frente );
+	$h = substr( $h, 0, 12 ) . '5' . substr( $h, 13, 3 ) . dechex( 8 | ( hexdec( $h[16] ) & 3 ) ) . substr( $h, 17, 15 );
+	return substr( $h, 0, 8 ) . '-' . substr( $h, 8, 4 ) . '-' . substr( $h, 12, 4 ) . '-' . substr( $h, 16, 4 ) . '-' . substr( $h, 20, 12 );
+}
+function tpi_cards_app( $id ) {
+	$trib = tpi_meta( $id, 'tp_tribunal' );
+	$num  = tpi_meta( $id, 'tp_numero' );
+	$tag  = strtolower( $trib ) . '_inf' . $num;
+	$out  = array();
+	foreach ( tpi_posts_de_cards( $id ) as $p ) {
+		if ( ! $p ) {
+			continue;
+		}
+		$ramo = function_exists( 'tpi_ramo_principal' ) ? tpi_ramo_principal( $p ) : null;
+		$deck = ( $ramo && ! is_wp_error( $ramo ) ? $ramo->name . '::' : '' ) . 'Informativos';
+		foreach ( tpi_cards_de( $p->ID ) as $c ) {
+			$frente = tpi_limpa_card( $c['frente'] ?? '' );
+			$verso  = tpi_limpa_card( $c['verso'] ?? '' );
+			if ( '' === $frente || '' === $verso ) {
+				continue;
+			}
+			$out[] = array(
+				'id'     => 'card:' . tpi_uuid_card( $p->ID, $frente ),
+				'front'  => $frente,
+				'back'   => $verso . ' (' . $trib . ', Inf. ' . $num . ')',
+				'deck'   => $deck,
+				'tags'   => array( $tag ),
+				'source' => array( 'kind' => 'informativo', 'guid' => 'tpi:' . $p->ID, 'title' => get_the_title( $p ), 'label' => $trib . ', Inf. ' . $num, 'url' => get_permalink( $p ) ),
+			);
+		}
+	}
+	return $out;
+}
+function tpi_botao_app( $id, $edicao = false ) {
+	$cards = tpi_cards_app( $id );
+	$n     = count( $cards );
+	if ( ! $n ) {
+		return '';
+	}
+	$ids = implode( ',', wp_list_pluck( $cards, 'id' ) );
+	$txt = 'Adicionar ' . ( 1 === $n ? 'este flashcard' : 'estes ' . $n . ' flashcards' ) . ' ao app';
+	return '<div class="tpi-app" data-tpi-cards="' . esc_url( rest_url( 'tp/v1/flashcards/' . $id ) ) . '" data-tpi-ids="' . esc_attr( $ids ) . '" data-tpi-n="' . $n . '" hidden>'
+		. '<button type="button" class="tpi-btn tpi-app__botao">' . esc_html( $txt ) . '</button>'
+		. '<p class="tpi-app__dica">Grátis. Eles entram nos seus Flashcards do Tchau Pobreza e voltam na hora certa, sozinhos' . ( $edicao ? ', separados por disciplina' : '' ) . '.</p>'
+		. '<p class="tpi-app__estado" role="status"></p></div>';
+}
 function tpi_botao_anki( $id, $edicao = false ) {
 	$url = rest_url( 'tp/v1/anki/' . $id );
 	$txt = $edicao ? 'Baixar os flashcards da edição para o Anki' : 'Baixar estes flashcards para o Anki';
-	return '<p class="tpi-anki"><a class="tpi-btn tpi-btn--anki" href="' . esc_url( $url ) . '" download rel="nofollow">' . esc_html( $txt ) . '</a><span class="tpi-anki__dica">Arquivo .txt. No Anki, use Arquivo e depois Importar.</span></p>';
+	return tpi_botao_app( $id, $edicao ) . '<p class="tpi-anki"><a class="tpi-btn tpi-btn--anki" href="' . esc_url( $url ) . '" download rel="nofollow">' . esc_html( $txt ) . '</a><span class="tpi-anki__dica">Arquivo .txt. No Anki, use Arquivo e depois Importar.</span></p>';
 }
 add_shortcode( 'tp_anki', function () {
 	return is_singular( 'informativo' ) ? tpi_botao_anki( get_queried_object_id() ) : '';
+} );
+add_action( 'rest_api_init', function () {
+	register_rest_route(
+		'tp/v1',
+		'/flashcards/(?P<id>\d+)',
+		array(
+			'methods'             => 'GET',
+			'permission_callback' => '__return_true',
+			'callback'            => function ( WP_REST_Request $r ) {
+				$id = (int) $r['id'];
+				if ( 'informativo' !== get_post_type( $id ) || 'publish' !== get_post_status( $id ) ) {
+					return new WP_Error( 'tpi_invalido', 'Conteúdo não encontrado.', array( 'status' => 404 ) );
+				}
+				$res = new WP_REST_Response( array( 'cards' => tpi_cards_app( $id ) ) );
+				$res->header( 'Cache-Control', 'public, max-age=600' );
+				$res->header( 'X-Robots-Tag', 'noindex' );
+				return $res;
+			},
+		)
+	);
 } );
 add_action( 'rest_api_init', function () {
 	register_rest_route(

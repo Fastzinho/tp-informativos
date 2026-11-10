@@ -145,10 +145,10 @@
 .tpc-juris li > span:not(.tpc-juris__quem), .tpc-ce__gabarito summary, .tpc-ce__veredito { font-size: .98rem; line-height: 1.55; }
 .tpc .tpc-tema__topo > *, .tpc .tpc-tema > * { margin-block: 0; }
 
-/* 0.8.1: assinatura de revisão no tema */
+/* 0.9.1: assinatura de revisão no tema */
 .tpc-revisado { margin: 0; font-size: .8rem; color: var(--tpi-verde); font-weight: 700; }
 
-/* 0.8.1: link do conceito do informativo para o caderno */
+/* 0.9.1: link do conceito do informativo para o caderno */
 .tpc-ir { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .75rem; margin: .9rem 0 0 !important; padding-top: .8rem; border-top: 1px dashed var(--tpi-linha); }
 .tpi-pagina .entry-content a.tpc-ir__link, a.tpc-ir__link { display: inline-flex; align-items: center; gap: .5rem; font-weight: 800; color: var(--tpi-verde); text-decoration: none; }
 a.tpc-ir__link:hover { text-decoration: underline; }
@@ -173,7 +173,7 @@ dialog.tpc-gaveta::backdrop { background: rgba(20,32,28,.35); }
 .tpc-previa .tpc-tema__titulo { font-size: 1.45rem; }
 .tpc-previa .tpc-rolagem table { min-width: 0; }
 .tpc-gaveta__pe { display: grid; gap: .5rem; padding: .85rem 1rem; padding-bottom: calc(.85rem + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--tpi-linha); }
-.tpc-gaveta__pe a { display: block; text-align: center; padding: .75rem; border-radius: 9px; font-weight: 800; text-decoration: none; }
+.tpc-gaveta__pe a { display: block; text-align: center; padding: .75rem; border-radius: 9px; font-size: .95rem; font-weight: 800; line-height: 1.3; text-decoration: none; }
 .tpc-gaveta__ver { background: var(--tpi-verde); color: #fff !important; }
 .tpc-gaveta__praticar { border: 1px solid var(--tpi-linha); color: var(--tpi-verde-escuro) !important; font-weight: 700 !important; }
 @media (max-width: 640px) {
