@@ -59,7 +59,7 @@ jobs:
           # Trava de segurança: só sincroniza (com --delete) se o destino for mesmo a pasta do plugin.
           $PRE $SSHCMD "$USUARIO@$HOST" "test -f '$WP/wp-config.php' && mkdir -p '$DEST'" || { echo "::error::Não achei o WordPress em $WP (ajuste HOSTINGER_WP_PATH)."; exit 1; }
           date -u +%FT%TZ > .deploy-actions
-          $PRE rsync -az --delete --exclude '.git/' --exclude '.github/' --exclude '.claude/' -e "$SSHCMD" ./ "$USUARIO@$HOST:$DEST/"
+          $PRE rsync -az --delete --exclude '.git/' --exclude '.github/' --exclude '.claude/' --exclude 'ferramentas/' -e "$SSHCMD" ./ "$USUARIO@$HOST:$DEST/"
           echo "WP=$WP" >> "$GITHUB_ENV"; echo "SSHCMD=$SSHCMD" >> "$GITHUB_ENV"; echo "PRE=$PRE" >> "$GITHUB_ENV"
 
       - name: Limpar cache e conferir versão

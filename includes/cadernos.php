@@ -431,7 +431,10 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		foreach ( $t['juris'] as $j ) {
 			$h .= '<li><span class="tpc-juris__quem">' . esc_html( $j['quem'] ?? '' ) . '</span><span>' . tpc_html( $j['texto'] ?? '' ) . '</span>';
 			if ( ! empty( $j['url'] ) ) {
-				$h .= '<a href="' . esc_url( $j['url'] ) . '">' . esc_html( $j['link'] ?? 'Ver julgado comentado' ) . '</a>';
+				/* 0.10.2: só o post do site é "julgado comentado"; link de tribunal diz que é a fonte oficial. */
+				$interno = 0 === strpos( $j['url'], '/' ) || false !== strpos( $j['url'], wp_parse_url( home_url(), PHP_URL_HOST ) );
+				$rotulo  = $j['link'] ?? ( $interno ? 'Ver julgado comentado' : 'Ver no site do tribunal' );
+				$h      .= '<a href="' . esc_url( $j['url'] ) . '"' . ( $interno ? '' : ' rel="noopener"' ) . '>' . esc_html( $rotulo ) . '</a>';
 			}
 			$h .= '</li>';
 		}
