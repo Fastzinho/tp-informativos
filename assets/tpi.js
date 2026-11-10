@@ -1,4 +1,4 @@
-/* TP Informativos 0.7.18: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.9.0: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -138,6 +138,7 @@
      ao clicar, em vez de gravar, abre o convite para entrar no app. */
   function semConta() {
     semSessao = true;
+    mostraApp();
     document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) { box.hidden = false; pintaControle(box, false); });
     pintaCards();
   }
@@ -152,7 +153,8 @@
       (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = true; });
       pintaTudo();
       concluiPendente();
-    }).catch(function () { pintaTudo(); });
+      return checaApp(s);
+    }).catch(function () { pintaTudo(); mostraApp(); });
   }
   sessao().then(function (s) { return s ? carregar(s) : semConta(); });
 
@@ -272,8 +274,8 @@
     dlg.className = 'tpi-login';
     dlg.setAttribute('aria-labelledby', 'tpi-login-titulo');
     dlg.innerHTML = '<button type="button" class="tpi-login__fechar" aria-label="Fechar">×</button>'
-      + '<h2 id="tpi-login-titulo">Salve seu progresso. É grátis.</h2>'
-      + '<p class="tpi-login__sub">Entre para marcar ' + (document.querySelector('.tpc') ? 'este tema' : 'este julgado') + ' como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.</p>'
+      + '<h2 id="tpi-login-titulo"></h2>'
+      + '<p class="tpi-login__sub"></p>'
       + (C.google ? '<div class="tpi-login__google"></div><p class="tpi-login__ou"><span>ou</span></p>' : '')
       + '<form class="tpi-login__email"><label>Seu e-mail<input type="email" name="email" autocomplete="email" required></label>'
       + '<button type="submit" class="tpi-login__principal">Receber código por e-mail</button>'
@@ -289,7 +291,7 @@
     dlg.addEventListener('click', function (e) { if (e.target === dlg) fechaLogin(); }); /* clique fora */
     dlg.addEventListener('close', function () {
       /* Desistiu antes de pedir o código: não deixa o julgado pendente para uma volta futura. */
-      if (semSessao && !emailEnviado) { try { localStorage.removeItem(PENDENTE); } catch (x) {} }
+      if (semSessao && !emailEnviado) { try { localStorage.removeItem(PENDENTE); localStorage.removeItem(APP_PENDENTE); } catch (x) {} }
       if (voltaFoco) voltaFoco.focus();
     });
     dlg.querySelector('.tpi-login__outro').addEventListener('click', function () { passo('email'); });
@@ -314,14 +316,118 @@
     });
     var g = dlg.querySelector('.tpi-login__google'); if (g) botaoGoogle(g);
   }
-  function abreLogin(origem) {
+  function abreLogin(origem, motivo) {
     if (typeof HTMLDialogElement !== 'function' || !window.fetch) return false;
     if (!dlg) montaLogin();
     voltaFoco = origem;
+    /* 0.9.0: o texto do convite segue o que a pessoa clicou (marcar lido ou levar os flashcards). */
+    var n = motivo && motivo.cards;
+    dlg.querySelector('#tpi-login-titulo').textContent = n ? 'Guarde ' + (n === 1 ? 'este flashcard' : 'estes ' + n + ' flashcards') + '. É grátis.' : 'Salve seu progresso. É grátis.';
+    dlg.querySelector('.tpi-login__sub').textContent = n
+      ? 'Entre e eles vão direto para os seus Flashcards no app, com revisão espaçada: cada um volta no dia certo para você não esquecer. Você continua nesta página.'
+      : 'Entre para marcar ' + (document.querySelector('.tpc') ? 'este tema' : 'este julgado') + ' como lido. Você continua nesta página, e ele fica guardado com o resto dos seus estudos, em qualquer aparelho.';
     if (!dlg.open) { dlg.showModal(); passo(dlg.querySelector('.tpi-login__codigo').hidden ? 'email' : 'codigo'); }
     return true;
   }
   function fechaLogin() { if (dlg && dlg.open) dlg.close(); }
+
+  /* 0.9.0: "Adicionar ao app". Grava os flashcards do julgado (ou da edição) direto em tp_records, kind
+     "flashcard", no formato que o app lê (src/platform/api.ts, cardData). O id de cada card vem pronto do PHP
+     (fixo por julgado + frente): ON CONFLICT DO NOTHING faz a segunda importação só completar o que falta,
+     sem duplicar nem zerar o progresso de quem já revisou. Só os ids ficam no HTML; o texto vem do REST no clique. */
+  var APP_PENDENTE = 'tpi-importar-pendente';
+  var linkApp = function () { try { var u = new URL(C.appUrl, location.href); u.searchParams.set('aba', 'flashcards'); return u.href; } catch (e) { return C.appUrl; } };
+  function mostraApp() { document.querySelectorAll('.tpi-app[data-tpi-ids]').forEach(function (b) { b.hidden = false; }); }
+  function idsDe(box) { return (box.getAttribute('data-tpi-ids') || '').split(',').filter(Boolean); }
+  function pintaApp(box, tem, novos) {
+    var n = idsDe(box).length, botao = box.querySelector('.tpi-app__botao'), estado = box.querySelector('.tpi-app__estado');
+    box.hidden = false;
+    var todos = tem >= n;
+    box.classList.toggle('is-feito', todos);
+    botao.textContent = todos ? (n === 1 ? 'Este flashcard já está no app' : 'Estes ' + n + ' flashcards já estão no app')
+      : (tem ? 'Adicionar os ' + (n - tem) + ' que faltam ao app' : (n === 1 ? 'Adicionar este flashcard ao app' : 'Adicionar estes ' + n + ' flashcards ao app'));
+    botao.disabled = todos;
+    if (novos === undefined && !tem) { estado.textContent = ''; return; }
+    var txt = novos === undefined ? (todos ? '' : tem + ' de ' + n + ' já estão nos seus Flashcards. ')
+      : novos ? (novos === 1 ? '1 flashcard adicionado' : novos + ' flashcards adicionados') + ' aos seus Flashcards. '
+      : 'Você já tinha estes flashcards. ';
+    estado.innerHTML = '';
+    estado.appendChild(document.createTextNode(txt));
+    var a = document.createElement('a'); a.href = linkApp(); a.textContent = 'Revisar no app'; estado.appendChild(a);
+  }
+  function checaApp(s) {
+    var caixas = document.querySelectorAll('.tpi-app[data-tpi-ids]');
+    if (!caixas.length) return;
+    var todos = [];
+    caixas.forEach(function (b) { todos = todos.concat(idsDe(b)); });
+    var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.flashcard&id=in.(' + todos.map(encodeURIComponent).join(',') + ')'); };
+    return ler(s).then(function (linhas) {
+      var tem = {}; (linhas || []).forEach(function (l) { tem[l.id] = true; });
+      caixas.forEach(function (b) { pintaApp(b, idsDe(b).filter(function (i) { return tem[i]; }).length); });
+      concluiApp();
+    }).catch(function () { mostraApp(); });
+  }
+  function concluiApp() {
+    var p = null;
+    try { p = JSON.parse(localStorage.getItem(APP_PENDENTE) || 'null'); localStorage.removeItem(APP_PENDENTE); } catch (e) { return; }
+    if (!p || !p.url || Date.now() - p.at > 30 * 60 * 1000) return;
+    var box = null;
+    document.querySelectorAll('.tpi-app[data-tpi-cards]').forEach(function (b) { if (b.getAttribute('data-tpi-cards') === p.url) box = b; });
+    var botao = box && box.querySelector('.tpi-app__botao');
+    if (botao && !botao.disabled) botao.click();
+  }
+  function srsNovo() { /* createEmptyCard do ts-fsrs, como o newSrs() do app */
+    return { due: new Date().toISOString(), stability: 0, difficulty: 0, elapsed_days: 0, scheduled_days: 0, learning_steps: 0, reps: 0, lapses: 0, state: 0 };
+  }
+  function importa(box) {
+    var botao = box.querySelector('.tpi-app__botao'), estado = box.querySelector('.tpi-app__estado');
+    if (box.getAttribute('aria-busy') === 'true') return;
+    if (semSessao) {
+      try { localStorage.setItem(APP_PENDENTE, JSON.stringify({ url: box.getAttribute('data-tpi-cards'), at: Date.now() })); } catch (e) {}
+      if (abreLogin(botao, { cards: idsDe(box).length })) return;
+      estado.innerHTML = 'Para guardar, <a href="' + C.appUrl + '">entre na sua conta do Tchau Pobreza</a>. É grátis.';
+      linkDeVolta(estado.querySelector('a'));
+      return;
+    }
+    box.setAttribute('aria-busy', 'true'); botao.disabled = true;
+    var antes = botao.textContent; botao.textContent = 'Adicionando…'; estado.textContent = '';
+    var cards = fetch(box.getAttribute('data-tpi-cards'), { credentials: 'omit' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+    function gravar(s, lista) {
+      if (!s) throw new Error('sessao');
+      var linhas = lista.map(function (c) {
+        return { user_id: s.user.id, id: c.id, kind: 'flashcard', data: {
+          type: 'basic', front: c.front, back: c.back, deck: c.deck, topic: '', tags: c.tags || [], source: c.source || { kind: 'free' },
+          suspended: false, srs: srsNovo(), log: []
+        } };
+      });
+      return api(s, 'tp_records?on_conflict=user_id,id&select=id', {
+        method: 'POST', headers: { Prefer: 'resolution=ignore-duplicates,return=representation' }, body: JSON.stringify(linhas)
+      });
+    }
+    Promise.all([sessao(), cards]).then(function (r) {
+      var s = r[0], lista = (r[1] && r[1].cards) || [];
+      if (!lista.length) throw new Error('vazio');
+      return Promise.resolve().then(function () { return gravar(s, lista); }).catch(function (err) {
+        if (String(err && err.message) !== 'jwt' || !s) throw err;
+        sessaoP = renovar(s).catch(function () { return null; });
+        return sessaoP.then(function (n) { s = n; return gravar(n, lista); });
+      }).then(function (novas) {
+        try { localStorage.setItem('tchau-records-changed:' + s.user.id, String(Date.now())); } catch (e) {} /* aba do app aberta recarrega */
+        box.removeAttribute('aria-busy');
+        pintaApp(box, idsDe(box).length, (novas || []).length);
+        document.dispatchEvent(new CustomEvent('tpi:flashcards-importados', { detail: { n: (novas || []).length } }));
+      });
+    }).catch(function (err) {
+      if (window.console) console.error('[tp-informativos] falha ao importar os flashcards:', err && err.message);
+      box.removeAttribute('aria-busy'); botao.disabled = false; botao.textContent = antes;
+      estado.textContent = /^(jwt|sessao)$/.test(String(err && err.message)) ? 'Sua sessão expirou. Entre de novo no app e volte aqui.'
+        : 'Não foi possível adicionar agora. Tente de novo.' + detalhe(err);
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('.tpi-app__botao');
+    if (b) importa(b.closest('.tpi-app'));
+  });
 
   document.addEventListener('click', function (e) {
     var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
