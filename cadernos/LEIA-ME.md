@@ -45,3 +45,11 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 A disciplina fica `noindex,follow` e fora do sitemap até ter `tpc_min_index` temas escritos (padrão 8;
 filtro `tpc_min_index`). O hub `/cadernos/` é criado uma vez, com `[tp_cadernos]`, e fica `noindex`
 enquanto nenhuma disciplina for indexável.
+
+## Link a partir dos informativos (0.8.1)
+
+O card de conceito de um julgado pode apontar para um tema: no JSON do julgado, o conceito ganha
+`"caderno": "direito-penal#peculato"` (ou uma lista) e o `render.py` põe `[tp_caderno tema="direito-penal#peculato"]`
+no fim do card. O plugin troca isso por um `<a href>` real ("Aprofundar no Caderno de Direito Penal: Peculato →")
+**só quando o tema está publicado e escrito**; antes disso não aparece nada. Por isso, **nunca renomeie o slug de
+um tema** que já tenha sido referenciado: os julgados antigos guardam a referência `disciplina#tema`.

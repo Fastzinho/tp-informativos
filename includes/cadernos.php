@@ -232,6 +232,39 @@ function tpc_link_tema( $p ) {
 	return ! empty( $d['pagina_propria'] ) ? get_permalink( $p ) : get_permalink( $p->post_parent ) . '#' . $p->post_name;
 }
 
+/*
+ * 0.8.1: [tp_caderno tema="direito-penal#peculato"] no card de conceito do julgado (o render.py põe o shortcode
+ * quando o conceito tem "caderno" no JSON). Vira um <a href> real para o tema, renderizado no servidor, e só
+ * quando o tema está publicado e escrito (tem "Em 30 segundos"); antes disso não imprime nada, para não mandar o
+ * leitor a uma âncora inexistente. Aceita vários temas separados por vírgula. Assim o link aparece sozinho nos
+ * julgados antigos quando o tema entra no caderno (o deploy limpa o cache do LiteSpeed).
+ */
+function tpc_tema_por_ref( $ref ) {
+	$partes = array_map( 'sanitize_title', explode( '#', trim( $ref ), 2 ) );
+	if ( 2 !== count( $partes ) || '' === $partes[0] || '' === $partes[1] ) {
+		return null;
+	}
+	$disc = tpc_post_por( $partes[0], 0 );
+	if ( ! $disc || 'publish' !== $disc->post_status ) {
+		return null;
+	}
+	$tema = tpc_post_por( $partes[1], $disc->ID );
+	return ( $tema && 'publish' === $tema->post_status && tpc_escrito( tpc_dados( $tema->ID ) ) ) ? $tema : null;
+}
+add_shortcode( 'tp_caderno', function ( $a ) {
+	$a     = shortcode_atts( array( 'tema' => '' ), $a, 'tp_caderno' );
+	$links = array();
+	foreach ( array_filter( array_map( 'trim', explode( ',', (string) $a['tema'] ) ) ) as $ref ) {
+		$t = tpc_tema_por_ref( $ref );
+		if ( ! $t ) {
+			continue;
+		}
+		$caderno = get_the_title( $t->post_parent );
+		$links[] = '<a href="' . esc_url( tpc_link_tema( $t ) ) . '">' . esc_html( 'Aprofundar no ' . $caderno . ': ' . get_the_title( $t ) ) . ' <span aria-hidden="true">→</span></a>';
+	}
+	return $links ? '<p class="tpi-conceito__caderno">' . implode( '<br>', $links ) . '</p>' : '';
+} );
+
 /* ---------------------------------------------------------------------------
  * 4. Robots e sitemap
  * ------------------------------------------------------------------------- */
