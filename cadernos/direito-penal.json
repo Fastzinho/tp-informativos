@@ -174,6 +174,158 @@
    ]
   },
   {
+   "slug": "relacao-de-causalidade-e-omissao",
+   "titulo": "Relação de causalidade e omissão",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Art. 13 do CP",
+   "tax": [
+    "penal.conduta-resultado-relacao-causalidade-teorias",
+    "penal.imputacao-objetiva",
+    "penal.teoria-acao"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-13"
+   ],
+   "conceitos": [
+    "nexo causal",
+    "relação de causalidade",
+    "omissão imprópria",
+    "imputação objetiva",
+    "concausas"
+   ],
+   "palavras": [
+    "nexo causal",
+    "conditio sine qua non",
+    "equivalencia dos antecedentes",
+    "causa superveniente",
+    "relativamente independente",
+    "absolutamente independente",
+    "concausa",
+    "garantidor",
+    "omissao impropria",
+    "comissivo por omissao",
+    "imputacao objetiva",
+    "risco proibido"
+   ],
+   "resumo": "O CP adota a <strong>equivalência dos antecedentes</strong>: é causa toda ação ou omissão sem a qual o resultado não teria ocorrido (eliminação hipotética). O freio vem no § 1º: a causa superveniente <strong>relativamente independente</strong> que, por si só, produz o resultado rompe a imputação, e o agente responde só pelo que já fez (aqui o CP adota a causalidade adequada). Na omissão, o agente só responde pelo resultado se <strong>devia e podia</strong> agir. O dever de agir é do garantidor: quem tem o dever legal de cuidado, quem assumiu a responsabilidade de impedir o resultado e quem criou o risco com o comportamento anterior.",
+   "esquema": {
+    "rotulo": "concausas",
+    "html": "<table><thead><tr><th>Concausa</th><th>Efeito</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Absolutamente independente (preexistente, concomitante ou superveniente)</strong></td><td>Rompe o nexo: o agente responde só pela tentativa ou pelos atos praticados</td><td>A vítima já tinha tomado veneno antes do tiro e morre do veneno</td></tr><tr><td><strong>Relativamente independente preexistente ou concomitante</strong></td><td>Não rompe: o agente responde pelo resultado, se conhecia ou podia prever a condição</td><td>Hemofilia conhecida agravada pela facada</td></tr><tr><td><strong>Relativamente independente superveniente que, por si só, produz o resultado</strong></td><td>Rompe a imputação (§ 1º): responde pelos atos anteriores</td><td>A vítima socorrida morre no incêndio do hospital</td></tr><tr><td><strong>Relativamente independente superveniente que não produz o resultado por si só</strong></td><td>Não rompe: desdobramento natural da conduta</td><td>Infecção da ferida ou complicação da cirurgia</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 13. O resultado, de que depende a existência do crime, somente é imputável a quem lhe deu causa. Considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido.\n\nSuperveniência de causa independente\n\n§ 1º A superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou.\n\nRelevância da omissão\n\n§ 2º A omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. O dever de agir incumbe a quem:\n\na) tenha por lei obrigação de cuidado, proteção ou vigilância;\n\nb) de outra forma, assumiu a responsabilidade de impedir o resultado;\n\nc) com seu comportamento anterior, criou o risco da ocorrência do resultado.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "LAI",
+     "texto": "Quem é garantidor: Lei (dever de cuidado, proteção ou vigilância), Assunção (assumiu a responsabilidade) e Ingerência (criou o risco antes)."
+    },
+    {
+     "sigla": "DEVIA E PODIA",
+     "texto": "Sem os dois juntos não há omissão relevante. Garantidor impossibilitado de agir não responde pelo resultado."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Informativo 492",
+     "texto": "Agressão a vítima que cai, bate a cabeça e morre pela ruptura de um aneurisma congênito desconhecido de todos: sem nexo entre a lesão e a morte, nem a título de culpa, o agente responde só por lesão corporal, e não por lesão seguida de morte."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Quem assumiu a responsabilidade de socorrer a amiga durante uma travessia a nado responde pela morte dela por omissão imprópria, mesmo que a correnteza o tenha impedido de agir.",
+    "gabarito": "E",
+    "explicacao": "Ele é garantidor (art. 13, § 2º, b), mas a omissão só é relevante se o omitente devia e podia agir. Impossibilitado, não responde pela morte (FGV, Delegado PC-RN 2021)."
+   },
+   "aprofundamento": "<p><strong>Incêndio no hospital rompe o nexo.</strong> A vítima baleada que sobrevive à cirurgia e morre no incêndio do hospital morreu de uma causa superveniente relativamente independente que, por si só, produziu o resultado. O atirador responde por homicídio tentado, e não consumado (FGV, Delegado PC-PR 2026).</p><p><strong>Aneurisma desconhecido não vira lesão seguida de morte.</strong> Se a morte veio da ruptura de um aneurisma congênito que ninguém conhecia, e o laudo não liga a agressão ao óbito, o agressor responde só por lesão corporal simples (STJ, Informativo 492; Cebraspe, Delegado PC-PE 2024).</p><p><strong>Risco permitido afasta a imputação.</strong> O policial que imobiliza tecnicamente, sem lesão, alguém cuja cardiopatia grave era imprevisível não responde pela morte por infarto. Para a imputação objetiva, ele não criou nem aumentou um risco proibido (FGV, Delegado PC-PR 2026). A teoria exige criação ou incremento de risco juridicamente proibido, além do nexo físico, e vale também para crimes culposos (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Garantidor que não podia agir não responde.</strong> A nadadora que prometeu socorrer a amiga é garantidora, mas, vencida pela correnteza, não tinha como salvá-la. Sem o \"podia agir\", não há omissão relevante (FGV, Delegado PC-RN 2021).</p><p><strong>No omissivo próprio a norma manda.</strong> Nos crimes omissivos próprios, como a omissão de socorro, o tipo descreve um não fazer e a norma é mandamental, e não proibitiva (Cebraspe, Delegado PC-CE 2025).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "dolo-culpa-e-preterdolo",
+    "tentativa-desistencia-e-arrependimento"
+   ]
+  },
+  {
+   "slug": "dolo-culpa-e-preterdolo",
+   "titulo": "Dolo, culpa e crime preterdoloso",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 18 e 19 do CP",
+   "tax": [
+    "penal.fato-tipico-elementos",
+    "penal.agravacao-resultado"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-18",
+    "n2848-1940-art-19"
+   ],
+   "conceitos": [
+    "dolo",
+    "dolo eventual",
+    "culpa consciente",
+    "crime culposo",
+    "crime preterdoloso"
+   ],
+   "palavras": [
+    "dolo direto",
+    "dolo eventual",
+    "culpa consciente",
+    "culpa inconsciente",
+    "imprudencia",
+    "negligencia",
+    "impericia",
+    "preterdolo",
+    "qualificado pelo resultado",
+    "excepcionalidade do crime culposo",
+    "racha"
+   ],
+   "resumo": "O crime é <strong>doloso</strong> quando o agente quis o resultado (dolo direto, teoria da vontade) ou assumiu o risco de produzi-lo (dolo eventual, teoria do assentimento). É <strong>culposo</strong> quando ele causou o resultado por imprudência, negligência ou imperícia. A regra é o dolo: só há crime culposo quando a lei prevê expressamente. No crime qualificado pelo resultado, o resultado mais grave só pesa se o agente o causou ao menos culposamente (art. 19). Quando há dolo na conduta e culpa no resultado, o crime é <strong>preterdoloso</strong>, como a lesão corporal seguida de morte.",
+   "esquema": {
+    "rotulo": "dolo eventual × culpa consciente",
+    "html": "<table><thead><tr><th>Figura</th><th>Prevê o resultado?</th><th>Atitude diante dele</th></tr></thead><tbody><tr><td><strong>Dolo direto</strong></td><td>Sim</td><td>Quer o resultado</td></tr><tr><td><strong>Dolo eventual</strong></td><td>Sim</td><td>Assume o risco: \"se acontecer, tanto faz\"</td></tr><tr><td><strong>Culpa consciente</strong></td><td>Sim</td><td>Acredita sinceramente que vai evitá-lo</td></tr><tr><td><strong>Culpa inconsciente</strong></td><td>Não, embora fosse previsível</td><td>Age sem o cuidado devido</td></tr><tr><td><strong>Preterdolo</strong></td><td>Quer o resultado menor</td><td>O mais grave vem por culpa (art. 19)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 18. Diz-se o crime:\n\nCrime doloso\n\nI - doloso, quando o agente quis o resultado ou assumiu o risco de produzi-lo;\n\nCrime culposo\n\nII - culposo, quando o agente deu causa ao resultado por imprudência, negligência ou imperícia.\n\nParágrafo único. Salvo os casos expressos em lei, ninguém pode ser punido por fato previsto como crime, senão quando o pratica dolosamente.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 19. Pelo resultado que agrava especialmente a pena, só responde o agente que o houver causado ao menos culposamente.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "NIM",
+     "texto": "As modalidades de culpa: Negligência (deixar de fazer), Imprudência (fazer demais) e iMperícia (falta de técnica na profissão)."
+    },
+    {
+     "sigla": "TANTO FAZ × NÃO VAI DAR",
+     "texto": "Dolo eventual: \"tanto faz se acontecer\". Culpa consciente: \"não vai acontecer, eu dou conta\"."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Informativo 492",
+     "texto": "No crime preterdoloso, o resultado mais grave precisa decorrer da conduta e ser atribuível ao agente ao menos por culpa (arts. 13 e 18 do CP). Sem isso, ele responde só pelo crime-base."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Pelo resultado que agrava especialmente a pena responde o agente que o houver causado, independentemente de dolo ou culpa.",
+    "gabarito": "E",
+    "explicacao": "O art. 19 exige que o agente tenha causado o resultado mais grave ao menos culposamente. Não há responsabilidade penal objetiva (Cebraspe, Delegado PC-PB 2022)."
+   },
+   "aprofundamento": "<p><strong>Racha com morte pode ser dolo eventual.</strong> Na disputa não autorizada em avenida movimentada, a 130 a 150 km/h, com ziguezagues e sem marca de frenagem, a banca tratou a morte do pedestre como homicídio doloso por dolo eventual, da competência do Júri, e não como homicídio culposo de trânsito (FGV, Delegado PC-PR 2026).</p><p><strong>Soco em grávida evidente pode virar aborto preterdoloso.</strong> Quem dá um soco forte numa gestante de oito meses, com gravidez visível, e ela perde o bebê na queda responde por lesão corporal qualificada pelo aborto (art. 129, § 2º, V): dolo na lesão e culpa no aborto (FGV, Delegado PC-RN 2021).</p><p><strong>Sem culpa no resultado, não há qualificadora.</strong> O resultado mais grave só agrava se for causado ao menos por culpa (art. 19; Cebraspe, Delegado PC-PB 2022). Por isso a morte por aneurisma desconhecido, sem nexo com a agressão, deixa o agressor só com a lesão simples (Cebraspe, Delegado PC-PE 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "relacao-de-causalidade-e-omissao",
+    "erro-de-tipo-e-erro-de-proibicao"
+   ]
+  },
+  {
    "slug": "tentativa-desistencia-e-arrependimento",
    "titulo": "Tentativa, desistência e arrependimento",
    "grupo": "Parte Geral: teoria do crime",
@@ -262,6 +414,183 @@
    "aprofundamento_rotulo": "exceções que caem em prova",
    "relacionados": [
     "furto",
+    "concurso-de-pessoas"
+   ]
+  },
+  {
+   "slug": "excludentes-de-ilicitude",
+   "titulo": "Excludentes de ilicitude",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 23 a 25 do CP",
+   "tax": [
+    "penal.ilicitude",
+    "penal.causas-exclusao-ilicitude",
+    "penal.excesso-punivel"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-23",
+    "n2848-1940-art-24",
+    "n2848-1940-art-25"
+   ],
+   "conceitos": [
+    "legítima defesa",
+    "estado de necessidade",
+    "estrito cumprimento de dever legal",
+    "exercício regular de direito",
+    "excesso punível"
+   ],
+   "palavras": [
+    "legitima defesa",
+    "estado de necessidade",
+    "estrito cumprimento do dever legal",
+    "exercicio regular de direito",
+    "excesso doloso",
+    "excesso culposo",
+    "injusta agressao",
+    "perigo atual",
+    "refem",
+    "anencefalo",
+    "causas de justificacao"
+   ],
+   "resumo": "Não há crime quando o fato é praticado em <strong>estado de necessidade</strong>, em <strong>legítima defesa</strong>, em <strong>estrito cumprimento de dever legal</strong> ou no <strong>exercício regular de direito</strong>. O fato continua típico, mas deixa de ser ilícito. No estado de necessidade, o agente sacrifica um bem para salvar outro de perigo atual que não provocou por vontade própria. Na legítima defesa, ele repele injusta agressão, atual ou iminente, usando moderadamente os meios necessários. Em qualquer delas, o excesso doloso ou culposo é punido.",
+   "esquema": {
+    "rotulo": "estado de necessidade × legítima defesa",
+    "html": "<table><thead><tr><th>Ponto</th><th>Estado de necessidade</th><th>Legítima defesa</th></tr></thead><tbody><tr><td><strong>Origem</strong></td><td>Perigo atual (fato da natureza, animal ou pessoa)</td><td>Agressão humana injusta</td></tr><tr><td><strong>Tempo</strong></td><td>Só perigo atual</td><td>Agressão atual ou iminente</td></tr><tr><td><strong>Quem provocou</strong></td><td>Não pode alegar quem provocou o perigo por vontade</td><td>Agressão anterior do defensor não impede, se a nova agressão é injusta</td></tr><tr><td><strong>Contra quem</strong></td><td>Pode atingir terceiro inocente</td><td>Só contra o agressor</td></tr><tr><td><strong>Dever de enfrentar</strong></td><td>Não alega quem tem o dever legal de enfrentar o perigo</td><td>Não se aplica</td></tr><tr><td><strong>Bem sacrificado mais valioso</strong></td><td>Pena reduzida de um a dois terços (§ 2º)</td><td>Basta a moderação nos meios necessários</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 23. Não há crime quando o agente pratica o fato:\n\nI - em estado de necessidade;\n\nII - em legítima defesa;\n\nIII - em estrito cumprimento de dever legal ou no exercício regular de direito.\n\nExcesso punível\n\nParágrafo único. O agente, em qualquer das hipóteses deste artigo, responderá pelo excesso doloso ou culposo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 24. Considera-se em estado de necessidade quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se.\n\n§ 1º Não pode alegar estado de necessidade quem tinha o dever legal de enfrentar o perigo.\n\n§ 2º Embora seja razoável exigir-se o sacrifício do direito ameaçado, a pena poderá ser reduzida de um a dois terços.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 25. Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.\n\nParágrafo único. Observados os requisitos previstos no caput deste artigo, considera-se também em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "LEEE",
+     "texto": "Legítima defesa, Estado de necessidade, Estrito cumprimento do dever legal e Exercício regular de direito."
+    },
+    {
+     "sigla": "NECESSIDADE É ATUAL, DEFESA É ATUAL OU IMINENTE",
+     "texto": "Só a legítima defesa aceita agressão iminente. No estado de necessidade, o texto fala apenas em perigo atual."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADPF 54 (2012)",
+     "texto": "A interrupção da gravidez de feto anencéfalo não é aborto: a conduta é atípica. O fundamento não é o estado de necessidade."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Quem agrediu outra pessoa num dia e, no dia seguinte, mata o antigo ofendido que partiu contra ele com arma de fogo não pode alegar legítima defesa, porque provocou a situação.",
+    "gabarito": "E",
+    "explicacao": "A agressão anterior já tinha terminado. A investida armada do dia seguinte é nova agressão injusta e atual, e repeli-la é legítima defesa, que exclui a ilicitude (FGV, Delegado PC-RN 2021)."
+   },
+   "aprofundamento": "<p><strong>Briga de ontem não tira a legítima defesa de hoje.</strong> Quem deu um soco no dia anterior e, no dia seguinte, reage com tiro à vítima que veio armada contra ele age em legítima defesa. Ela afasta a ilicitude, e não a culpabilidade (FGV, Delegado PC-RN 2021).</p><p><strong>Anencefalia não é estado de necessidade.</strong> O STF, na ADPF 54, tratou a interrupção da gravidez de anencéfalo como fato atípico. Dizer que a gestante age em estado de necessidade está errado (Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Legítima defesa de refém tem regra própria.</strong> O parágrafo único do art. 25, incluído pela Lei 13.964/2019, considera em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém, desde que observados os requisitos do caput.</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "culpabilidade-imputabilidade-e-coacao",
+    "erro-de-tipo-e-erro-de-proibicao"
+   ]
+  },
+  {
+   "slug": "culpabilidade-imputabilidade-e-coacao",
+   "titulo": "Culpabilidade: imputabilidade, coação e obediência",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 22 e 26 a 28 do CP",
+   "tax": [
+    "penal.culpabilidade",
+    "penal.causas-exclusao-culpabilidade",
+    "penal.imputabilidade",
+    "penal.coacao-irresistivel-obediencia-hierarquica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-22",
+    "n2848-1940-art-26",
+    "n2848-1940-art-27",
+    "n2848-1940-art-28"
+   ],
+   "conceitos": [
+    "culpabilidade",
+    "imputabilidade",
+    "coação moral irresistível",
+    "obediência hierárquica",
+    "embriaguez"
+   ],
+   "palavras": [
+    "inimputavel",
+    "semi-imputavel",
+    "criterio biopsicologico",
+    "menoridade penal",
+    "embriaguez",
+    "actio libera in causa",
+    "caso fortuito",
+    "emocao",
+    "paixao",
+    "coacao moral irresistivel",
+    "coacao fisica",
+    "obediencia hierarquica",
+    "inexigibilidade de conduta diversa",
+    "medida de seguranca",
+    "absolvicao impropria"
+   ],
+   "resumo": "A culpabilidade tem três elementos: <strong>imputabilidade</strong>, potencial consciência da ilicitude e <strong>exigibilidade de conduta diversa</strong>. É inimputável quem, por doença mental ou desenvolvimento mental incompleto ou retardado, era inteiramente incapaz de entender o caráter ilícito do fato ou de se determinar por ele (critério biopsicológico). Se era só parcialmente capaz, a pena é reduzida. O menor de 18 anos é inimputável por critério biológico. Emoção, paixão e embriaguez voluntária ou culposa não excluem a imputabilidade. Só a embriaguez completa por caso fortuito ou força maior isenta de pena. Coação moral irresistível e obediência a ordem não manifestamente ilegal de superior hierárquico tornam a conduta inexigível: responde só o autor da coação ou da ordem (art. 22).",
+   "esquema": {
+    "rotulo": "embriaguez e coação",
+    "html": "<table><thead><tr><th>Situação</th><th>Consequência</th></tr></thead><tbody><tr><td><strong>Embriaguez voluntária ou culposa</strong></td><td>Não exclui a imputabilidade (<em>actio libera in causa</em>)</td></tr><tr><td><strong>Embriaguez preordenada</strong></td><td>Agravante (art. 61, II, l)</td></tr><tr><td><strong>Embriaguez completa por caso fortuito ou força maior</strong></td><td>Isenta de pena (art. 28, § 1º)</td></tr><tr><td><strong>Embriaguez incompleta por caso fortuito ou força maior</strong></td><td>Pena reduzida de um a dois terços (art. 28, § 2º)</td></tr><tr><td><strong>Coação física irresistível</strong></td><td>Não há conduta: o fato é atípico para o coagido</td></tr><tr><td><strong>Coação moral irresistível</strong></td><td>Exclui a culpabilidade; responde o coator</td></tr><tr><td><strong>Coação moral resistível</strong></td><td>Crime para ambos, com atenuante ao coagido (art. 65, III, c)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 22. Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 26. É isento de pena o agente que, por doença mental ou desenvolvimento mental incompleto ou retardado, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.\n\nRedução de pena\n\nParágrafo único. A pena pode ser reduzida de um a dois terços, se o agente, em virtude de perturbação de saúde mental ou por desenvolvimento mental incompleto ou retardado não era inteiramente capaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 27. Os menores de dezoito anos são penalmente inimputáveis, ficando sujeitos às normas estabelecidas na legislação especial.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 28. Não excluem a imputabilidade penal:\n\nI - a emoção ou a paixão;\n\nEmbriaguez\n\nII - a embriaguez, voluntária ou culposa, pelo álcool ou substância de efeitos análogos.\n\n§ 1º É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou da omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.\n\n§ 2º A pena pode ser reduzida de um a dois terços, se o agente, por embriaguez, proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "IPE",
+     "texto": "Elementos da culpabilidade: Imputabilidade, Potencial consciência da ilicitude e Exigibilidade de conduta diversa."
+    },
+    {
+     "sigla": "FÍSICA TIRA A CONDUTA, MORAL TIRA A CULPA",
+     "texto": "Coação física irresistível exclui a conduta (fato atípico). Coação moral irresistível exclui a culpabilidade."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "A funcionária de empresa de segurança privada que, por medo de ser demitida, leva uma arma de fogo a pedido do chefe, sabendo que comete crime, tem a culpabilidade afastada pela obediência hierárquica.",
+    "gabarito": "E",
+    "explicacao": "A obediência hierárquica exige relação de direito público e ordem não manifestamente ilegal. Entre particulares e diante de ordem claramente criminosa, os dois respondem em concurso de pessoas (FGV, Delegado PC-RN 2021)."
+   },
+   "aprofundamento": "<p><strong>Obediência hierárquica é só no serviço público.</strong> Ordem de chefe em empresa privada não gera a excludente do art. 22, e o temor de demissão sem ameaça não é coação. Quem leva a arma sabendo do crime responde junto com quem mandou (FGV, Delegado PC-RN 2021).</p><p><strong>Ameaça à família é coação moral irresistível.</strong> O vigilante que abre a sala do museu sob ameaça de morte à esposa não é punível: falta exigibilidade de conduta diversa, e responde só o coator (Cebraspe, Delegado PC-DF 2026). Vale o mesmo para o gerente que entrega a senha sob armas, com a família no carro (Cebraspe, Delegado PF 2018).</p><p><strong>Inimputável é absolvido, mas pode receber medida de segurança.</strong> A absolvição do inimputável por doença mental é imprópria: o juiz pode impor medida de segurança diante da periculosidade (Cebraspe, Delegado PF 2018).</p><p><strong>Emoção não isenta, mas atenua.</strong> A emoção não exclui a imputabilidade (art. 28, I). Ainda assim, agir sob influência de violenta emoção provocada por ato injusto da vítima é atenuante (art. 65, III, c). Ser dependente químico também não isenta por si só: conta o estado do agente no momento do fato (FGV, Delegado PC-AM 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "excludentes-de-ilicitude",
+    "erro-de-tipo-e-erro-de-proibicao",
     "concurso-de-pessoas"
    ]
   },
@@ -825,7 +1154,7 @@
     "gabarito": "C",
     "explicacao": "É a tese do Tema 1.060 do STJ, cobrada em Delegado PF 2021 e PC-PE 2024."
    },
-   "aprofundamento": "<p><strong>Fuga da abordagem é desobediência, e soma com o crime anterior.</strong> O motorista que acabou de roubar e foge da ordem de parada responde por roubo em concurso com desobediência, e não por resistência, que exige violência ou ameaça (Tema 1.060 do STJ; FGV, Delegado PC-PE 2024).</p><p><strong>Medida protetiva tem crime próprio.</strong> Descumprir medida protetiva da Lei Maria da Penha é o art. 24-A da Lei 11.340/2006 (reclusão, 2 a 5 anos, e multa), e não desobediência. Desde a Lei 15.383/2026, a pena aumenta de um terço até a metade se o descumprimento violar área de exclusão monitorada ou envolver remoção ou violação da tornozeleira.</p><p><strong>Ordem com sanção própria.</strong> Quando a lei já prevê consequência específica para o descumprimento e não ressalva a cumulação com o crime, o STJ não reconhece desobediência. É o caso da cautelar diversa da prisão, cujo descumprimento leva à substituição, à cumulação ou à preventiva (art. 282, § 4º, do CPP).</p><p><strong>Desacato continua crime.</strong> O STF, na ADPF 496, declarou o art. 331 compatível com a Constituição e com a Convenção Americana. Afirmar que o desacato foi descriminalizado está errado.</p>",
+   "aprofundamento": "<p><strong>Fuga da abordagem é desobediência, e soma com o crime anterior.</strong> O motorista que acabou de roubar e foge da ordem de parada responde por roubo em concurso com desobediência, e não por resistência, que exige violência ou ameaça (Tema 1.060 do STJ; Cebraspe, Delegado PC-PE 2024).</p><p><strong>Medida protetiva tem crime próprio.</strong> Descumprir medida protetiva da Lei Maria da Penha é o art. 24-A da Lei 11.340/2006 (reclusão, 2 a 5 anos, e multa), e não desobediência. Desde a Lei 15.383/2026, a pena aumenta de um terço até a metade se o descumprimento violar área de exclusão monitorada ou envolver remoção ou violação da tornozeleira.</p><p><strong>Ordem com sanção própria.</strong> Quando a lei já prevê consequência específica para o descumprimento e não ressalva a cumulação com o crime, o STJ não reconhece desobediência. É o caso da cautelar diversa da prisão, cujo descumprimento leva à substituição, à cumulação ou à preventiva (art. 282, § 4º, do CPP).</p><p><strong>Desacato continua crime.</strong> O STF, na ADPF 496, declarou o art. 331 compatível com a Constituição e com a Convenção Americana. Afirmar que o desacato foi descriminalizado está errado.</p>",
    "aprofundamento_rotulo": "exceções que caem em prova",
    "relacionados": [
     "corrupcao-ativa",
@@ -977,7 +1306,7 @@
     "gabarito": "E",
     "explicacao": "Delegado não está na lista do art. 357. A conduta é tráfico de influência (art. 332)."
    },
-   "aprofundamento": "<p><strong>Delegado é tráfico de influência.</strong> O inquérito policial não está no rol do art. 357, que só fala de juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha. Pretexto de influir em delegado é o art. 332 (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Insinuar é causa de aumento, não outro crime.</strong> Se o agente alega ou insinua que a vantagem também vai para o funcionário, continua sendo tráfico de influência, com a pena aumentada da metade (parágrafo único). A banca oferece \"tráfico na modalidade comum\" e \"corrupção passiva\" como distratores (FGV, Delegado PC-PE 2024).</p>",
+   "aprofundamento": "<p><strong>Delegado é tráfico de influência.</strong> O inquérito policial não está no rol do art. 357, que só fala de juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha. Pretexto de influir em delegado é o art. 332 (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Insinuar é causa de aumento, não outro crime.</strong> Se o agente alega ou insinua que a vantagem também vai para o funcionário, continua sendo tráfico de influência, com a pena aumentada da metade (parágrafo único). A banca oferece \"tráfico na modalidade comum\" e \"corrupção passiva\" como distratores (Cebraspe, Delegado PC-PE 2024).</p>",
    "aprofundamento_rotulo": "exceções que caem em prova",
    "relacionados": [
     "corrupcao-passiva",
