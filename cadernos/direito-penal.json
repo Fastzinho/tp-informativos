@@ -5,7 +5,7 @@
  "ordem": 1,
  "descricao": "Direito Penal organizado por tema: resumo em 30 segundos, esquemas, lei seca, macetes, jurisprudência e pegadinhas de banca. Gratuito e atualizado.",
  "ramo": "direito-penal",
- "revisado_em": "2026-11-10",
+ "revisado_em": "2026-11-11",
  "revisado_rotulo": "Lei e jurisprudência conferidas",
  "temas": [
   {
@@ -196,6 +196,7 @@
    },
    "aprofundamento": "<p><strong>Médico do SUS é funcionário público.</strong> Quem trabalha em entidade contratada ou conveniada para atividade típica da Administração equipara-se a funcionário público (art. 327, § 1º). O médico particular que cobra para atender pelo SUS comete crime funcional.</p><p><strong>O ato de ofício não precisa acontecer.</strong> A corrupção passiva se consuma com a solicitação, o recebimento ou a aceitação da promessa. Se o funcionário chega a retardar, omitir ou praticar o ato com infração de dever, isso só aumenta a pena em um terço (§ 1º).</p><p><strong>Particular que vende influência não é corrupto.</strong> Quem não é funcionário e pede vantagem a pretexto de influir em ato de funcionário comete tráfico de influência (art. 332); se alega ou insinua que a vantagem também vai para o funcionário, a pena aumenta da metade. Se a influência prometida for sobre juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha, é exploração de prestígio (art. 357). Delegado não está nessa lista.</p>",
    "relacionados": [
+    "corrupcao-ativa",
     "concussao",
     "prevaricacao",
     "peculato"
@@ -262,6 +263,440 @@
     "concussao"
    ],
    "aprofundamento_rotulo": "exceções que caem em prova"
+  },
+  {
+   "slug": "corrupcao-ativa",
+   "titulo": "Corrupção ativa",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Art. 333 do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-333"
+   ],
+   "conceitos": [
+    "corrupção ativa"
+   ],
+   "palavras": [
+    "oferecer",
+    "prometer",
+    "vantagem indevida",
+    "ato de oficio",
+    "particular"
+   ],
+   "resumo": "O particular <strong>oferece ou promete</strong> vantagem indevida a funcionário público para que ele pratique, omita ou retarde ato de ofício. É crime formal e unilateral: consuma-se com a oferta ou a promessa, mesmo que o funcionário recuse. A pena é de 2 a 12 anos, e aumenta de um terço se o funcionário, em razão da vantagem, de fato retarda, omite ou pratica o ato com infração de dever.",
+   "esquema": {
+    "rotulo": "quem pede, quem oferece",
+    "html": "<table><thead><tr><th>Situação</th><th>Particular</th><th>Funcionário</th></tr></thead><tbody><tr><td><strong>Particular oferece e o funcionário aceita</strong></td><td>Corrupção ativa (art. 333)</td><td>Corrupção passiva (art. 317)</td></tr><tr><td><strong>Particular oferece e o funcionário recusa</strong></td><td>Corrupção ativa consumada</td><td>Nenhum crime</td></tr><tr><td><strong>Funcionário solicita e o particular paga</strong></td><td>Fato atípico (não ofereceu nem prometeu)</td><td>Corrupção passiva</td></tr><tr><td><strong>Funcionário exige e o particular paga</strong></td><td>Vítima</td><td>Concussão (art. 316)</td></tr><tr><td><strong>Particular oferece a testemunha ou perito</strong></td><td>Art. 343, e não art. 333</td><td>(testemunha ou perito: art. 342)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 333. Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício:\n\nPena - reclusão, de 2 (dois) a 12 (doze) anos, e multa.\n\nParágrafo único. A pena é aumentada de um terço, se, em razão da vantagem ou promessa, o funcionário retarda ou omite ato de ofício, ou o pratica infringindo dever funcional.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "OFERECE · PROMETE",
+     "texto": "Só dois verbos. Quem apenas paga o que o funcionário pediu não comete corrupção ativa."
+    },
+    {
+     "sigla": "ANTES DO ATO",
+     "texto": "A oferta é \"para determiná-lo\": tem de vir antes do ato. Presente dado depois do ato já praticado, sem promessa anterior, não é corrupção ativa."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · entendimento consolidado",
+     "texto": "A corrupção ativa é crime formal, que se consuma com a oferta ou a promessa de vantagem indevida, independentemente de aceitação pelo funcionário ou da prática do ato."
+    },
+    {
+     "quem": "STJ · Súmula 599",
+     "texto": "O princípio da insignificância é inaplicável aos crimes contra a administração pública."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A corrupção ativa não pode existir na ausência de corrupção passiva, pois tais condutas são tipicamente bilaterais.",
+    "gabarito": "E",
+    "explicacao": "Os crimes são autônomos. O particular que oferece comete corrupção ativa mesmo que o funcionário recuse (Cebraspe, Delegado PC-MA 2018)."
+   },
+   "aprofundamento": "<p><strong>Recusa não salva quem ofereceu.</strong> O crime é unilateral e formal: a oferta basta. Afirmar que a corrupção ativa depende da passiva, ou que só se consuma com a entrega da vantagem, é erro clássico de banca (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Pagar o que foi pedido não é corrupção ativa.</strong> Se o funcionário solicita e o particular apenas entrega, o particular não ofereceu nem prometeu: a conduta dele é atípica, e o funcionário responde por corrupção passiva. Se o funcionário exigiu, o particular é vítima de concussão.</p><p><strong>Testemunha e perito têm tipo próprio.</strong> Oferecer dinheiro a testemunha, perito, contador, tradutor ou intérprete para mentir ou calar é o art. 343 do CP (3 a 4 anos), e não a corrupção ativa do art. 333 (Cebraspe, Delegado PC-RJ 2022).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "corrupcao-passiva",
+    "concussao",
+    "trafico-de-influencia"
+   ]
+  },
+  {
+   "slug": "resistencia-desobediencia-desacato",
+   "titulo": "Resistência, desobediência e desacato",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Arts. 329 a 331 do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-329",
+    "n2848-1940-art-330",
+    "n2848-1940-art-331"
+   ],
+   "conceitos": [
+    "resistência",
+    "desobediência",
+    "desacato",
+    "ordem de parada"
+   ],
+   "palavras": [
+    "ordem legal",
+    "funcionario publico",
+    "violencia ou ameaca",
+    "fuga",
+    "tema 1060",
+    "adpf 496"
+   ],
+   "resumo": "Três crimes de particular contra a autoridade. <strong>Resistência</strong>: opor-se a ato legal com violência ou ameaça ao funcionário. <strong>Desobediência</strong>: descumprir ordem legal de funcionário, sem violência. <strong>Desacato</strong>: ofender o funcionário no exercício da função ou em razão dela. Nos três, o ato ou a ordem precisa ser legal, e a fuga a pé ou de carro diante da ordem de parada é desobediência (Tema 1.060 do STJ).",
+   "esquema": {
+    "rotulo": "como a banca separa",
+    "html": "<table><thead><tr><th></th><th>Resistência (329)</th><th>Desobediência (330)</th><th>Desacato (331)</th></tr></thead><tbody><tr><td><strong>Conduta</strong></td><td>Opor-se com violência ou ameaça</td><td>Não cumprir a ordem</td><td>Ofender, humilhar</td></tr><tr><td><strong>Ato ou ordem</strong></td><td>Legal</td><td>Legal</td><td>No exercício da função ou em razão dela</td></tr><tr><td><strong>Pena</strong></td><td>Detenção, 2 meses a 2 anos; reclusão, 1 a 3 anos se o ato não se executa</td><td>Detenção, 15 dias a 6 meses, e multa</td><td>Detenção, 6 meses a 2 anos, ou multa</td></tr><tr><td><strong>Violência</strong></td><td>Pena da violência se soma (§ 2º)</td><td>Sem violência</td><td>Sem exigência de violência</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 329. Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio:\n\nPena - detenção, de dois meses a dois anos.\n\n§ 1º Se o ato, em razão da resistência, não se executa:\n\nPena - reclusão, de um a três anos.\n\n§ 2º As penas deste artigo são aplicáveis sem prejuízo das correspondentes à violência.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 330. Desobedecer a ordem legal de funcionário público:\n\nPena - detenção, de quinze dias a seis meses, e multa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 331. Desacatar funcionário público no exercício da função ou em razão dela:\n\nPena - detenção, de seis meses a dois anos, ou multa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "BATE · NÃO OBEDECE · XINGA",
+     "texto": "Resistência bate ou ameaça; desobediência não obedece; desacato xinga."
+    },
+    {
+     "sigla": "ATO ILEGAL = SEM CRIME",
+     "texto": "Opor-se a ato ilegal ou descumprir ordem ilegal não é resistência nem desobediência."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Tema 1.060 (repetitivo)",
+     "texto": "A desobediência à ordem legal de parada, emanada por agentes públicos em contexto de policiamento ostensivo, para a prevenção e repressão de crimes, constitui conduta penalmente típica, prevista no art. 330 do Código Penal.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1060&cod_tema_final=1060"
+    },
+    {
+     "quem": "STF · ADPF 496 (2020)",
+     "texto": "O crime de desacato (art. 331 do CP) foi recepcionado pela Constituição e é compatível com a Convenção Americana de Direitos Humanos."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A fuga do réu após a ordem de parada dos policiais para abordagem configura crime de desobediência.",
+    "gabarito": "C",
+    "explicacao": "É a tese do Tema 1.060 do STJ, cobrada em Delegado PF 2021 e PC-PE 2024."
+   },
+   "aprofundamento": "<p><strong>Fuga da abordagem é desobediência, e soma com o crime anterior.</strong> O motorista que acabou de roubar e foge da ordem de parada responde por roubo em concurso com desobediência, e não por resistência, que exige violência ou ameaça (Tema 1.060 do STJ; FGV, Delegado PC-PE 2024).</p><p><strong>Medida protetiva tem crime próprio.</strong> Descumprir medida protetiva da Lei Maria da Penha é o art. 24-A da Lei 11.340/2006 (reclusão, 2 a 5 anos, e multa), e não desobediência. Desde a Lei 15.383/2026, a pena aumenta de um terço até a metade se o descumprimento violar área de exclusão monitorada ou envolver remoção ou violação da tornozeleira.</p><p><strong>Ordem com sanção própria.</strong> Quando a lei já prevê consequência específica para o descumprimento e não ressalva a cumulação com o crime, o STJ não reconhece desobediência. É o caso da cautelar diversa da prisão, cujo descumprimento leva à substituição, à cumulação ou à preventiva (art. 282, § 4º, do CPP).</p><p><strong>Desacato continua crime.</strong> O STF, na ADPF 496, declarou o art. 331 compatível com a Constituição e com a Convenção Americana. Afirmar que o desacato foi descriminalizado está errado.</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "corrupcao-ativa",
+    "prevaricacao"
+   ]
+  },
+  {
+   "slug": "contrabando-e-descaminho",
+   "titulo": "Contrabando e descaminho",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Arts. 334 e 334-A do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-334",
+    "n2848-1940-art-334-a",
+    "n2848-1940-art-318"
+   ],
+   "conceitos": [
+    "descaminho",
+    "contrabando"
+   ],
+   "palavras": [
+    "mercadoria proibida",
+    "iludir tributo",
+    "cigarro",
+    "insignificancia",
+    "justica federal",
+    "sumula 151"
+   ],
+   "resumo": "<strong>Descaminho</strong> (art. 334) é iludir o tributo devido pela entrada, saída ou consumo de mercadoria permitida: 1 a 4 anos. <strong>Contrabando</strong> (art. 334-A) é importar ou exportar mercadoria proibida: 2 a 5 anos. Nos dois, a pena dobra em transporte aéreo, marítimo ou fluvial. O descaminho é crime formal, não depende da constituição definitiva do crédito e admite insignificância até R$ 20 mil; o contrabando, em regra, não admite.",
+   "esquema": {
+    "rotulo": "descaminho x contrabando",
+    "html": "<table><thead><tr><th></th><th>Descaminho (334)</th><th>Contrabando (334-A)</th></tr></thead><tbody><tr><td><strong>Mercadoria</strong></td><td>Permitida, com tributo iludido</td><td>Proibida</td></tr><tr><td><strong>Pena</strong></td><td>Reclusão, 1 a 4 anos</td><td>Reclusão, 2 a 5 anos</td></tr><tr><td><strong>Transporte aéreo, marítimo ou fluvial</strong></td><td>Pena em dobro</td><td>Pena em dobro</td></tr><tr><td><strong>Insignificância</strong></td><td>Sim, até R$ 20 mil de tributo (Tema 157), salvo reiteração (Tema 1.218)</td><td>Em regra não; cigarros até 1.000 maços, sem reiteração (Tema 1.143)</td></tr><tr><td><strong>Pagamento do tributo</strong></td><td>Não extingue a punibilidade</td><td>Não se aplica</td></tr><tr><td><strong>Competência</strong></td><td>Justiça Federal do lugar da apreensão (Súmula 151)</td><td>Justiça Federal do lugar da apreensão (Súmula 151)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 334. Iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, pela saída ou pelo consumo de mercadoria:\n\nPena - reclusão, de 1 (um) a 4 (quatro) anos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 334-A. Importar ou exportar mercadoria proibida:\n\nPena - reclusão, de 2 (dois) a 5 (cinco) anos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "DESCAMINHO = DINHEIRO",
+     "texto": "No descaminho a mercadoria é lícita e o problema é o tributo. No contrabando o problema é a própria mercadoria."
+    },
+    {
+     "sigla": "FUNCIONÁRIO QUE FACILITA",
+     "texto": "O servidor que facilita com infração de dever responde pelo art. 318 (3 a 8 anos), e não como partícipe do 334 ou do 334-A."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Tema 157 (repetitivo, revisado)",
+     "texto": "Incide o princípio da insignificância aos crimes tributários federais e de descaminho quando o débito tributário não ultrapassar R$ 20.000,00, conforme o art. 20 da Lei 10.522/2002 e as Portarias 75 e 130 do Ministério da Fazenda.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=157&cod_tema_final=157"
+    },
+    {
+     "quem": "STJ · Tema 1.218 (repetitivo)",
+     "texto": "A reiteração da conduta delitiva obsta a aplicação do princípio da insignificância ao descaminho, independentemente do valor do tributo, ressalvado o caso concreto em que a medida seja socialmente recomendável.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1218&cod_tema_final=1218"
+    },
+    {
+     "quem": "STJ · Tema 1.143 (repetitivo)",
+     "texto": "O princípio da insignificância é aplicável ao contrabando de cigarros quando a quantidade apreendida não ultrapassar 1.000 maços, excetuada a hipótese de reiteração da conduta.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1143&cod_tema_final=1143"
+    },
+    {
+     "quem": "STJ · Súmula 151",
+     "texto": "A competência para o processo e julgamento por crime de contrabando ou descaminho define-se pela prevenção do Juízo Federal do lugar da apreensão dos bens."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O pagamento do tributo devido extingue a punibilidade do crime de descaminho.",
+    "gabarito": "E",
+    "explicacao": "O descaminho protege também a política de comércio exterior, e não só a arrecadação. O STJ não aplica a ele a extinção pelo pagamento dos crimes tributários (Cebraspe, Delegado PF 2021)."
+   },
+   "aprofundamento": "<p><strong>Descaminho é formal.</strong> Consuma-se com a liberação da mercadoria sem o pagamento, sem depender da constituição definitiva do crédito: a Súmula Vinculante 24 não se aplica. Por isso o pagamento ou o parcelamento posterior não extingue a punibilidade (FGV, Delegado PC-AM 2021; Cebraspe, Delegado PF 2021).</p><p><strong>Insignificância só no descaminho.</strong> Ela é a exceção à Súmula 599 do STJ: vale no descaminho até R$ 20 mil de tributo (Tema 157), mas a reiteração afasta (Tema 1.218). No contrabando, em regra, não cabe, salvo cigarros comuns até 1.000 maços sem reiteração (Tema 1.143); o limite não vale para cigarro eletrônico (STJ, 2025). A FGV cobrou exatamente essa diferença (Delegado PC-AM 2021).</p><p><strong>Facilitar já consuma.</strong> O art. 318 é crime formal do funcionário: consuma-se com a facilitação, ainda que o contrabando ou o descaminho não se consume (Cebraspe, Delegado PF 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "peculato",
+    "corrupcao-passiva"
+   ]
+  },
+  {
+   "slug": "trafico-de-influencia",
+   "titulo": "Tráfico de influência",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Art. 332 do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-332",
+    "n2848-1940-art-357"
+   ],
+   "conceitos": [
+    "tráfico de influência",
+    "exploração de prestígio"
+   ],
+   "palavras": [
+    "a pretexto de influir",
+    "vender fumaca",
+    "exploracao de prestigio",
+    "insinua"
+   ],
+   "resumo": "O agente solicita, exige, cobra ou obtém vantagem <strong>a pretexto de influir</strong> em ato de funcionário público. Pode ser praticado por qualquer pessoa, e a influência não precisa existir. A pena é de 2 a 5 anos e aumenta da metade se o agente alega ou insinua que a vantagem também vai para o funcionário. Se o pretexto é influir em juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha, o crime é a exploração de prestígio (art. 357).",
+   "esquema": {
+    "rotulo": "tráfico de influência x exploração de prestígio",
+    "html": "<table><thead><tr><th></th><th>Tráfico de influência (332)</th><th>Exploração de prestígio (357)</th></tr></thead><tbody><tr><td><strong>Sobre quem diz influir</strong></td><td>Qualquer funcionário público (inclui delegado)</td><td>Juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha</td></tr><tr><td><strong>Verbos</strong></td><td>Solicitar, exigir, cobrar ou obter</td><td>Solicitar ou receber</td></tr><tr><td><strong>Pena</strong></td><td>Reclusão, 2 a 5 anos, e multa</td><td>Reclusão, 1 a 5 anos, e multa</td></tr><tr><td><strong>Se insinua que a vantagem vai ao funcionário</strong></td><td>Aumenta da metade</td><td>Aumenta de um terço</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 332. Solicitar, exigir, cobrar ou obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função.\n\nPena - Reclusão, de dois a cinco anos, e multa.\n\nParágrafo único. A pena é aumentada da metade, se o agente alega ou insinua que a vantagem é também destinada ao funcionário.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 357. Solicitar ou receber dinheiro ou qualquer outra utilidade, a pretexto de influir em juiz, jurado, órgão do ministério público, funcionário de justiça, perito, tradutor, intérprete ou testemunha:\n\nPena - reclusão, de um a cinco anos, e multa.\n\nParágrafo único. As penas aumentam-se de um terço, se o agente alega ou insinua que o dinheiro ou utilidade também se destina a qualquer das pessoas referidas neste artigo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "VENDE FUMAÇA",
+     "texto": "O agente vende uma influência que pode nem ter. Por isso o crime não depende de o funcionário saber de nada."
+    },
+    {
+     "sigla": "JUSTIÇA = 357",
+     "texto": "Se a influência prometida é sobre alguém do processo judicial, é exploração de prestígio. Delegado não está na lista."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "Cebraspe · Delegado PC-PB 2022",
+     "texto": "O particular que solicita vantagem de suspeito a pretexto de influir no delegado responsável pelo inquérito, para que não o indicie, pratica tráfico de influência, e não exploração de prestígio."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O particular que solicita vantagem econômica de suspeito sob o pretexto de influir no delegado responsável pelo inquérito, para que não o indicie, pratica exploração de prestígio.",
+    "gabarito": "E",
+    "explicacao": "Delegado não está na lista do art. 357. A conduta é tráfico de influência (art. 332)."
+   },
+   "aprofundamento": "<p><strong>Delegado é tráfico de influência.</strong> O inquérito policial não está no rol do art. 357, que só fala de juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha. Pretexto de influir em delegado é o art. 332 (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Insinuar é causa de aumento, não outro crime.</strong> Se o agente alega ou insinua que a vantagem também vai para o funcionário, continua sendo tráfico de influência, com a pena aumentada da metade (parágrafo único). A banca oferece \"tráfico na modalidade comum\" e \"corrupção passiva\" como distratores (FGV, Delegado PC-PE 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "corrupcao-passiva",
+    "corrupcao-ativa"
+   ]
+  },
+  {
+   "slug": "denunciacao-caluniosa",
+   "titulo": "Denunciação caluniosa",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Art. 339 do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-339",
+    "n2848-1940-art-340"
+   ],
+   "conceitos": [
+    "denunciação caluniosa",
+    "comunicação falsa de crime"
+   ],
+   "palavras": [
+    "dar causa a instauracao",
+    "sabe inocente",
+    "calunia",
+    "comunicacao falsa",
+    "lei 14.110"
+   ],
+   "resumo": "O agente <strong>dá causa à instauração</strong> de inquérito, procedimento investigatório criminal, processo judicial, processo administrativo disciplinar, inquérito civil ou ação de improbidade contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente. A lista foi ampliada pela Lei 14.110/2020. A pena é de 2 a 8 anos, aumenta de um sexto com anonimato ou nome suposto e cai pela metade se a imputação é de contravenção.",
+   "esquema": {
+    "rotulo": "imputar, comunicar, acusar-se",
+    "html": "<table><thead><tr><th>Crime</th><th>O que faz</th><th>Diferença-chave</th></tr></thead><tbody><tr><td><strong>Calúnia (138)</strong></td><td>Imputa falsamente fato definido como crime</td><td>Só ofende a honra; não provoca investigação</td></tr><tr><td><strong>Denunciação caluniosa (339)</strong></td><td>Dá causa a investigação ou processo contra pessoa determinada que sabe inocente</td><td>Pessoa certa + procedimento instaurado</td></tr><tr><td><strong>Comunicação falsa (340)</strong></td><td>Comunica crime ou contravenção que sabe não ter ocorrido</td><td>Não aponta autor</td></tr><tr><td><strong>Autoacusação falsa (341)</strong></td><td>Acusa a si mesmo de crime inexistente ou praticado por outro</td><td>O alvo é o próprio agente</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 339. Dar causa à instauração de inquérito policial, de procedimento investigatório criminal, de processo judicial, de processo administrativo disciplinar, de inquérito civil ou de ação de improbidade administrativa contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente:\n\nPena - reclusão, de dois a oito anos, e multa.\n\n§ 1º A pena é aumentada de sexta parte, se o agente se serve de anonimato ou de nome suposto.\n\n§ 2º A pena é diminuída de metade, se a imputação é de prática de contravenção.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 340. Provocar a ação de autoridade, comunicando-lhe a ocorrência de crime ou de contravenção que sabe não se ter verificado:\n\nPena - detenção, de um a seis meses, ou multa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "NOME + PROCEDIMENTO",
+     "texto": "Tem nome de alguém e investigação aberta? Denunciação caluniosa. Sem nome, é comunicação falsa. Sem investigação, é calúnia."
+    },
+    {
+     "sigla": "SABE INOCENTE",
+     "texto": "Exige dolo direto: dúvida sobre a culpa da pessoa não basta."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "Lei 14.110/2020",
+     "texto": "Ampliou o art. 339 para incluir procedimento investigatório criminal, processo administrativo disciplinar, inquérito civil e ação de improbidade, e a imputação de infração ético-disciplinar ou ato ímprobo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O tesoureiro que, sabendo que o próprio filho furtou dinheiro da associação, registra ocorrência atribuindo o furto ao faxineiro, dando causa à instauração de inquérito, comete apenas comunicação falsa de crime.",
+    "gabarito": "E",
+    "explicacao": "Ele apontou pessoa determinada que sabia inocente e deu causa ao inquérito: é denunciação caluniosa (Cebraspe, Delegado PC-PB 2022). Comunicação falsa é quando o crime nem ocorreu e ninguém é apontado."
+   },
+   "aprofundamento": "<p><strong>Apontar um inocente muda o crime.</strong> Se o crime aconteceu, mas o agente atribui a autoria a quem sabe inocente e isso gera inquérito, é denunciação caluniosa, e não calúnia nem comunicação falsa (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Lista ampliada em 2020.</strong> Desde a Lei 14.110/2020, também configura o crime dar causa a PAD, inquérito civil, ação de improbidade ou procedimento investigatório do MP, imputando infração ético-disciplinar ou ato ímprobo. Questões antigas que limitam o tipo ao inquérito e ao processo judicial estão desatualizadas.</p><p><strong>Contravenção reduz a pena.</strong> Se a imputação falsa é de contravenção, a pena é diminuída de metade (§ 2º). O anonimato ou o nome suposto aumenta de um sexto (§ 1º).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "favorecimento-pessoal-e-real"
+   ]
+  },
+  {
+   "slug": "favorecimento-pessoal-e-real",
+   "titulo": "Favorecimento pessoal e real",
+   "grupo": "Crimes contra a Administração Pública",
+   "base": "Arts. 348 e 349 do CP",
+   "tax": [
+    "penal.crimes-contra-administracao-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-348",
+    "n2848-1940-art-349"
+   ],
+   "conceitos": [
+    "favorecimento pessoal",
+    "favorecimento real"
+   ],
+   "palavras": [
+    "auxiliar a subtrair-se",
+    "proveito do crime",
+    "irmao",
+    "isento de pena",
+    "receptacao"
+   ],
+   "resumo": "No <strong>favorecimento pessoal</strong> (art. 348), o agente ajuda o autor de crime a fugir da ação da autoridade; a pena depende de o crime anterior ter reclusão. No <strong>favorecimento real</strong> (art. 349), ajuda a tornar seguro o proveito do crime. Nos dois, o auxílio vem depois do crime e sem ajuste prévio: se combinado antes, é coautoria ou participação. Ascendente, descendente, cônjuge ou irmão ficam isentos de pena só no favorecimento pessoal.",
+   "esquema": {
+    "rotulo": "pessoal x real",
+    "html": "<table><thead><tr><th></th><th>Favorecimento pessoal (348)</th><th>Favorecimento real (349)</th></tr></thead><tbody><tr><td><strong>Ajuda a quem</strong></td><td>O criminoso a se esconder da autoridade</td><td>O criminoso a garantir o proveito do crime</td></tr><tr><td><strong>Pena</strong></td><td>Detenção, 1 a 6 meses, e multa (15 dias a 3 meses se o crime não tem reclusão)</td><td>Detenção, 1 a 6 meses, e multa</td></tr><tr><td><strong>Parente próximo</strong></td><td>Isento de pena (§ 2º)</td><td>Sem isenção</td></tr><tr><td><strong>Ajuste antes do crime</strong></td><td>Vira participação no crime</td><td>Vira participação no crime</td></tr><tr><td><strong>Proveito para si ou terceiro</strong></td><td>—</td><td>É receptação (art. 180), não favorecimento</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 348. Auxiliar a subtrair-se à ação de autoridade pública autor de crime a que é cominada pena de reclusão:\n\nPena - detenção, de um a seis meses, e multa.\n\n§ 1º Se ao crime não é cominada pena de reclusão:\n\nPena - detenção, de quinze dias a três meses, e multa.\n\n§ 2º Se quem presta o auxílio é ascendente, descendente, cônjuge ou irmão do criminoso, fica isento de pena.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 349. Prestar a criminoso, fora dos casos de co-autoria ou de receptação, auxílio destinado a tornar seguro o proveito do crime:\n\nPena - detenção, de um a seis meses, e multa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "PESSOAL = PESSOA · REAL = RES",
+     "texto": "No pessoal protege-se a pessoa do criminoso; no real, a coisa (res) obtida com o crime."
+    },
+    {
+     "sigla": "A · D · C · I",
+     "texto": "Ascendente, Descendente, Cônjuge, Irmão: isentos no favorecimento pessoal."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "FGV · Delegado PC-MG 2024",
+     "texto": "O irmão que, sem ajuste prévio, ajuda o autor de homicídio a se esconder dos policiais pratica favorecimento pessoal, mas fica isento de pena (art. 348, § 2º)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O irmão que, sem ajuste prévio, ajuda o autor de homicídio a se esconder da polícia pratica favorecimento real, mas fica isento de pena por ser parente.",
+    "gabarito": "E",
+    "explicacao": "Ajudar a pessoa a fugir é favorecimento pessoal, e só nele há a isenção do § 2º (FGV, Delegado PC-MG 2024)."
+   },
+   "aprofundamento": "<p><strong>Isenção só no pessoal.</strong> O § 2º do art. 348 isenta ascendente, descendente, cônjuge ou irmão que esconde o criminoso. O art. 349 não tem regra igual: o irmão que guarda o dinheiro do roubo responde por favorecimento real. A FGV usou essa troca como distrator (Delegado PC-MG 2024).</p><p><strong>Ajuste prévio vira participação.</strong> Quem promete antes do crime esconder o autor ou guardar o produto concorre para o próprio crime (art. 29). Os favorecimentos pressupõem auxílio posterior e sem combinação, e o art. 349 diz isso expressamente: \"fora dos casos de co-autoria ou de receptação\".</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "denunciacao-caluniosa"
+   ]
   },
   {
    "slug": "furto",
