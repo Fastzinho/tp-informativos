@@ -51,8 +51,9 @@
 .tpc-tema__topo { display: grid; gap: .5rem; }
 .tpc-kicker { margin: 0; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--tpi-suave); }
 .tpc-pagina .tpc .tpc-tema__titulo, .tpc .tpc-tema__titulo { margin: 0; font-size: clamp(1.4rem, 1.15rem + 1vw, 1.75rem); font-weight: 800; line-height: 1.2; letter-spacing: -.01em; text-wrap: balance; }
-.tpc-ancora { margin-left: .3rem; color: var(--tpi-linha) !important; text-decoration: none !important; font-weight: 600; }
-.tpc-tema__titulo:hover .tpc-ancora, .tpc-ancora:focus-visible { color: var(--tpi-suave) !important; }
+.tpc-ancora { margin-left: .3rem; color: var(--tpi-suave) !important; text-decoration: none !important; font-weight: 600; opacity: 0; transition: opacity .15s; }
+.tpc-tema__titulo:hover .tpc-ancora, .tpc-ancora:focus-visible { opacity: 1; }
+@media (hover: none) { .tpc-ancora:not(:focus-visible) { display: none; } }
 .tpc .tpc-lido { margin: .1rem 0 0; }
 .tpc-tema:has(.tpc-lido.is-lido) { box-shadow: inset 3px 0 0 var(--tpi-verde); background: linear-gradient(90deg, #eff5f0, #fff 30%); }
 
