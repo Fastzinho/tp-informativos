@@ -35,7 +35,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `incidencia` | `{nivel: alta\|media, base: "cobrado em 30 de 48 concursos Cebraspe/FGV com Direito Processual Penal, 2020–2026", bancas: {"Cebraspe": 22, "FGV": 8}}`. Vem da base de incidência (recorte "Todas", sem segmentar por cargo; LEIA-ME da base), só com N ≥ 12 concursos e depois de conferir os exemplos do nó. **Só Alta e Média**: "baixa" é ignorado no código, e "0 de N" nunca entra. Sem `base` não aparece. Contagens do QConcursos não entram |
 | `resumo` | "Em 30 segundos" (HTML curto). **Tema sem resumo conta como não escrito** |
 | `esquema` | `{rotulo, html}`: tabela em HTML, nunca imagem |
-| `lei` | `[{texto, fonte, url, norma?}]`: texto literal do acervo oficial; parágrafos separados por linha em branco. `norma` = id do acervo (ex.: `n2848-1940`); sem ele, sai do número em `fonte`. Conferido por `ferramentas/conferir_lei.py` |
+| `lei` | `[{texto, fonte, url, norma?}]`: artigo inteiro, literal do acervo oficial (gere com `--completar`); parágrafos separados por linha em branco. `norma` = id do acervo (ex.: `n2848-1940`); sem ele, sai do número em `fonte`. Conferido por `ferramentas/conferir_lei.py` |
 | `macetes` | `[{sigla, texto}]` |
 | `juris` | `[{quem, texto, url?, link?}]`: `url` de preferência para o julgado em /informativos/ (rótulo "Ver julgado comentado"); link de tribunal ganha "Ver no site do tribunal" |
 | `pegadinha` | `{afirmacao, gabarito: "C"\|"E", explicacao}` |
@@ -74,7 +74,13 @@ python3 ferramentas/conferir_lei.py --acervo ../tchaupobreza/codigo-fonte/public
 ```
 
 Compara cada parágrafo de `lei` com o artigo do acervo que o app usa na Lei seca (o mesmo texto da Câmara).
-Pode omitir incisos e parágrafos; não pode trocar palavra, pena ou número. Notas de redação ("(Incluído pela...)")
+Não pode trocar palavra, pena ou número, e o artigo vai **inteiro**, na ordem do acervo, com epígrafes e os
+parágrafos acrescidos depois (`§ 4º-A`, `§ 12`). Omitir só com uma linha `(...)` no ponto do corte, que aparece para
+o aluno; corte calado reprova. Para não copiar à mão, gere o texto completo do acervo:
+
+```
+python3 ferramentas/conferir_lei.py --completar --acervo ../tchaupobreza/codigo-fonte/public/legal
+``` Notas de redação ("(Incluído pela...)")
 e epígrafes não contam. Sai com código 1 se houver divergência. O acervo está no repositório do app (privado),
 por isso o script não roda no CI daqui: rode antes de abrir o PR.
 
