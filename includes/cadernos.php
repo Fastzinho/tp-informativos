@@ -343,10 +343,10 @@ function tpc_html( $s ) {
 }
 
 /* Mesmo marcador do informativo (tpi.js cuida do estado e do login). */
-function tpc_botao_lido( $p, $disc_titulo ) {
+function tpc_botao_lido( $p, $disc_titulo, $fim = false ) {
 	$svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
-	return '<div class="tpi-lido tpi-lido--topo tpc-lido" data-tpi-id="' . esc_attr( $p->ID ) . '" data-tpi-tipo="caderno" data-tpi-titulo="' . esc_attr( $disc_titulo . ': ' . $p->post_title ) . '" data-tpi-url="' . esc_url( tpc_link_tema( $p ) ) . '" hidden>'
-		. '<p class="tpi-lido__estado tpi-sr" role="status"></p>'
+	return '<div class="tpi-lido tpi-lido--topo tpc-lido' . ( $fim ? ' tpc-lido--fim' : '' ) . '" data-tpi-id="' . esc_attr( $p->ID ) . '" data-tpi-tipo="caderno" data-tpi-titulo="' . esc_attr( $disc_titulo . ': ' . $p->post_title ) . '" data-tpi-url="' . esc_url( tpc_link_tema( $p ) ) . '" hidden>'
+		. '<p class="tpi-lido__estado tpi-sr"' . ( $fim ? ' aria-hidden="true"' : ' role="status"' ) . '></p>' // 0.11.4: o do fim espelha o do topo; só um anuncia
 		. '<button type="button" class="tpi-lido__botao" aria-pressed="false" aria-label="Marcar ' . esc_attr( $p->post_title ) . ' como lido" title="Marcar como lido">'
 		. $svg . 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>'
 		. $svg . 'class="i-dois" stroke-width="2.4"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></svg>'
@@ -457,6 +457,10 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 
 	if ( ! empty( $t['aprofundamento'] ) ) {
 		$h .= '<details class="tpc-fundo"><summary><span>Aprofundamento</span> <span class="tpc-fundo__sub">' . esc_html( $t['aprofundamento_rotulo'] ?? 'doutrina e divergências' ) . '</span></summary><div class="tpc-fundo__corpo">' . tpc_html( $t['aprofundamento'] ) . '</div></details>';
+	}
+
+	if ( $escr ) { // 0.11.4: o mesmo botão no fim do tema, onde a leitura termina; os dois andam juntos (mesmo data-tpi-id)
+		$h .= tpc_botao_lido( $p, $disc->post_title, true );
 	}
 
 	$praticar = ! empty( $t['praticar'] ) ? $t['praticar'] : home_url( '/estudar/' );
@@ -596,9 +600,24 @@ add_filter( 'the_content', function ( $content ) {
 	return tpc_eh_disciplina( $id ) ? tpc_pagina_disciplina( $id ) : tpc_pagina_tema( $id );
 }, 20 );
 
-/* Hub: [tp_cadernos] lista as disciplinas com o número de temas e o progresso de leitura. */
+/* 0.11.4: caderno indexável ligado a um ramo dos informativos (campo "ramo" do JSON), para o link de volta. */
+function tpc_caderno_do_ramo( $ramo ) {
+	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1 ) ) as $p ) {
+		$d = tpc_dados( $p->ID );
+		if ( ( $d['ramo'] ?? '' ) === $ramo && tpc_indexavel( $p->ID ) ) {
+			return $p;
+		}
+	}
+	return null;
+}
+
+/* Hub: [tp_cadernos] lista as disciplinas com o número de temas e o progresso de leitura.
+   0.11.4: só as indexáveis (com tpc_min_index() temas escritos). As outras seguem no ar para quem chega
+   pelo link do informativo, mas não entram na vitrine enquanto estão rasas. */
 add_shortcode( 'tp_cadernos', function () {
-	$discs = get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1, 'orderby' => 'menu_order title', 'order' => 'ASC' ) );
+	$discs = array_values( array_filter( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1, 'orderby' => 'menu_order title', 'order' => 'ASC' ) ), function ( $p ) {
+		return tpc_indexavel( $p->ID );
+	} ) );
 	if ( ! $discs ) {
 		return '<p class="tpi-vazio">Os primeiros cadernos entram aqui em breve.</p>';
 	}
