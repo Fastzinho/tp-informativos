@@ -1361,6 +1361,132 @@
    ]
   },
   {
+   "slug": "acao-penal",
+   "titulo": "Ação penal: pública, condicionada e privada",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 100 a 106 do CP",
+   "tax": [
+    "penal.acao-penal",
+    "penal.extincao-punibilidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-100",
+    "n2848-1940-art-101",
+    "n2848-1940-art-102",
+    "n2848-1940-art-103",
+    "n2848-1940-art-104",
+    "n2848-1940-art-105",
+    "n2848-1940-art-106"
+   ],
+   "conceitos": [
+    "ação pública incondicionada e condicionada",
+    "ação privada exclusiva e subsidiária",
+    "decadência",
+    "renúncia",
+    "perdão",
+    "perempção",
+    "indivisibilidade"
+   ],
+   "palavras": [
+    "acao penal publica",
+    "representacao",
+    "requisicao do ministro da justica",
+    "queixa",
+    "acao privada subsidiaria",
+    "decadencia",
+    "seis meses",
+    "doze meses violencia domestica",
+    "renuncia",
+    "renuncia tacita",
+    "perdao do ofendido",
+    "perdao aceito",
+    "perempcao",
+    "indivisibilidade",
+    "retratacao da representacao",
+    "sumula 714",
+    "sumula 542",
+    "inercia do ministerio publico"
+   ],
+   "resumo": "A regra é a ação <strong>pública incondicionada</strong>. A ação é condicionada (à representação do ofendido ou à requisição do Ministro da Justiça) ou privada só quando a lei diz. A representação pode ser retirada até o oferecimento da denúncia (art. 102). Queixa e representação <strong>decaem em 6 meses</strong>, contados do dia em que o ofendido soube quem é o autor (art. 103). Na violência doméstica e familiar contra a mulher, o prazo é de 12 meses. Na ação privada, a vítima pode abrir mão antes do processo (<strong>renúncia</strong>, ato unilateral) ou depois de iniciado (<strong>perdão</strong>, que só vale se o querelado aceitar). A renúncia ou o perdão dado a um dos autores aproveita a todos, pela indivisibilidade. Se o MP fica inerte no prazo legal, cabe ação privada subsidiária da pública (art. 100, § 3º).",
+   "esquema": {
+    "rotulo": "o que extingue a punibilidade em cada ação",
+    "html": "<table><thead><tr><th>Instituto</th><th>Momento</th><th>Em que ação extingue a punibilidade</th></tr></thead><tbody><tr><td><strong>Decadência</strong></td><td>Antes da ação (6 meses)</td><td>Privada exclusiva e pública condicionada (na subsidiária, o MP ainda pode agir)</td></tr><tr><td><strong>Renúncia</strong></td><td>Antes da queixa, unilateral</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perdão</strong></td><td>Depois da queixa e antes do trânsito em julgado, precisa ser aceito</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perempção</strong></td><td>Desídia do querelado no processo</td><td>Só a privada exclusiva; na subsidiária, o MP retoma a ação</td></tr><tr><td><strong>Retratação da representação</strong></td><td>Até o oferecimento da denúncia</td><td>Impede a ação na pública condicionada</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 100. A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido.\n\n§ 1º A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça.\n\n§ 2º A ação de iniciativa privada é promovida mediante queixa do ofendido ou de quem tenha qualidade para representá-lo.\n\n§ 3º A ação de iniciativa privada pode intentar-se nos crimes de ação pública, se o Ministério Público não oferece denúncia no prazo legal.\n\n§ 4º No caso de morte do ofendido ou de ter sido declarado ausente por decisão judicial, o direito de oferecer queixa ou de prosseguir na ação passa ao cônjuge, ascendente, descendente ou irmão.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 101. Quando a lei considera como elemento ou circunstâncias do tipo legal fatos que, por si mesmos, constituem crimes, cabe ação pública em relação àquele, desde que, em relação a qualquer destes, se deva proceder por iniciativa do Ministério Público.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 102. A representação será irretratável depois de oferecida a denúncia.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 103. Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de seis meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.\n\nParágrafo único. Nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, a ofendida decai do direito de queixa ou de representação se não o exerce no prazo de 12 (doze) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 104. O direito de queixa não pode ser exercido quando renunciado expressa ou tacitamente.\n\nParágrafo único. Importa renúncia tácita ao direito de queixa a prática de ato incompatível com a vontade de exercê-lo; não a implica, todavia, o fato de receber o ofendido a indenização do dano causado pelo crime.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 105. O perdão do ofendido, nos crimes em que somente se procede mediante queixa, obsta ao prosseguimento da ação.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 106. O perdão, no processo ou fora dele, expresso ou tácito:\n\nI - se concedido a qualquer dos querelados, a todos aproveita;\n\nII - se concedido por um dos ofendidos, não prejudica o direito dos outros;\n\nIII - se o querelado o recusa, não produz efeito.\n\n§ 1º Perdão tácito é o que resulta da prática de ato incompatível com a vontade de prosseguir na ação.\n\n§ 2º Não é admissível o perdão depois que passa em julgado a sentença condenatória.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "RENÚNCIA É ANTES E SOZINHA, PERDÃO É DEPOIS E ACEITO",
+     "texto": "A renúncia não depende do autor do crime. O perdão recusado não produz efeito (art. 106, III)."
+    },
+    {
+     "sigla": "UM PERDOADO, TODOS PERDOADOS",
+     "texto": "Renúncia ou perdão a um dos autores aproveita a todos (indivisibilidade da ação privada)."
+    },
+    {
+     "sigla": "6 MESES DA AUTORIA",
+     "texto": "A decadência conta de quando a vítima soube quem é o autor, e não da data do fato. Na violência doméstica contra a mulher, são 12 meses."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 714",
+     "texto": "É concorrente a legitimidade do ofendido, mediante queixa, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções."
+    },
+    {
+     "quem": "STJ · Súmula 542",
+     "texto": "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A vítima de crime de ação privada que oferece queixa só contra um dos coautores, omitindo de propósito o outro, renuncia tacitamente em relação a este, e a renúncia se estende ao querelado, extinguindo a punibilidade de ambos.",
+    "gabarito": "C",
+    "explicacao": "A omissão voluntária de um coautor é renúncia tácita, e pela indivisibilidade (art. 49 do CPP) ela aproveita a todos (FGV, Delegado PC-PR 2026)."
+   },
+   "aprofundamento": "<p><strong>O que extingue a punibilidade e onde.</strong> Perdão aceito e perempção extinguem a punibilidade na ação privada propriamente dita. Renúncia, perempção e perdão não existem na ação pública condicionada, e a decadência não atinge a pública incondicionada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Perempção só na privada exclusiva.</strong> Na ação privada subsidiária, a desídia do querelante não extingue a punibilidade, e o MP retoma a ação. Está errado estender a perempção à subsidiária (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Honra do servidor: legitimidade concorrente.</strong> No crime contra a honra de funcionário público em razão das funções, o ofendido pode oferecer queixa ou representar ao MP (Súmula 714 do STF; Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Diligência do MP não é inércia.</strong> A ação privada subsidiária só cabe se o MP fica inerte. Se o MP está fazendo diligências ou pede o arquivamento, não há inércia, ainda que fora do prazo (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Lesão doméstica não depende da vítima.</strong> A lesão corporal leve contra a mulher em violência doméstica é de ação pública incondicionada (Súmula 542 do STJ). A reconciliação e o desinteresse da vítima não impedem o inquérito nem a ação (FGV, Delegado PC-PR 2026).</p><p><strong>Representação vale também para o inquérito.</strong> Na ação pública condicionada, a representação é necessária para a ação e também para instaurar o inquérito (art. 5º, § 4º, do CPP). A afirmação contrária foi julgada errada (Cebraspe, Delegado PC-AL 2023).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "extincao-da-punibilidade",
+    "crimes-contra-a-honra",
+    "ameaca-perseguicao-e-violencia-psicologica"
+   ]
+  },
+  {
    "slug": "extincao-da-punibilidade",
    "titulo": "Extinção da punibilidade",
    "grupo": "Parte Geral: punibilidade",
