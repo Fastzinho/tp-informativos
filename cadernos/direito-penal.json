@@ -9,6 +9,98 @@
  "revisado_rotulo": "Lei e jurisprudência conferidas",
  "temas": [
   {
+   "slug": "principios-e-insignificancia",
+   "titulo": "Princípios penais e insignificância",
+   "grupo": "Parte Geral: fundamentos",
+   "base": "Art. 1º do CP e art. 5º, XXXIX, da CF",
+   "tax": [
+    "penal.principios-garantias-penais-fundamentais",
+    "penal.analogia",
+    "penal.causas-exclusao-tipicidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-1"
+   ],
+   "conceitos": [
+    "legalidade e reserva legal",
+    "analogia in malam partem",
+    "intervenção mínima e fragmentariedade",
+    "princípio da insignificância",
+    "tipicidade material"
+   ],
+   "palavras": [
+    "principio da legalidade",
+    "reserva legal",
+    "anterioridade",
+    "lei em sentido formal",
+    "analogia in malam partem",
+    "interpretacao extensiva",
+    "intervencao minima",
+    "fragmentariedade",
+    "subsidiariedade",
+    "lesividade",
+    "insignificancia",
+    "bagatela",
+    "vetores do stf",
+    "tipicidade material",
+    "reincidencia e insignificancia",
+    "sumula 589",
+    "sumula 599",
+    "descaminho",
+    "tema 1205",
+    "furto qualificado"
+   ],
+   "resumo": "Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal (art. 1º do CP). Isso exige <strong>lei em sentido formal</strong>, editada pelo Congresso, e proíbe a <strong>analogia contra o réu</strong>. O Direito Penal só deve agir quando os outros ramos não bastam (<strong>intervenção mínima</strong>) e só contra as lesões mais graves (<strong>fragmentariedade</strong>). Desses postulados vem o <strong>princípio da insignificância</strong>, que exclui a tipicidade material. O STF exige quatro vetores juntos: mínima ofensividade da conduta, nenhuma periculosidade social da ação, reduzidíssimo grau de reprovabilidade do comportamento e inexpressividade da lesão jurídica. Não há aplicação automática pelo valor do bem. A reincidência e a qualificadora do furto pesam na análise, mas não a impedem sozinhas.",
+   "esquema": {
+    "rotulo": "onde a insignificância cabe e onde não cabe",
+    "html": "<table><thead><tr><th>Situação</th><th>Cabe?</th><th>Base</th></tr></thead><tbody><tr><td><strong>Descaminho e crimes tributários federais até R$ 20 mil</strong></td><td>Sim</td><td>STF e STJ (Tema 157 do STJ)</td></tr><tr><td><strong>Crimes contra a Administração Pública</strong></td><td>Não</td><td>Súmula 599 do STJ</td></tr><tr><td><strong>Crimes e contravenções contra a mulher na violência doméstica</strong></td><td>Não</td><td>Súmula 589 do STJ</td></tr><tr><td><strong>Crimes contra a fé pública e contrabando</strong></td><td>Não</td><td>Jurisprudência do STF e do STJ</td></tr><tr><td><strong>Tráfico de drogas</strong></td><td>Não</td><td>Jurisprudência do STF e do STJ</td></tr><tr><td><strong>Pouca munição sem arma de fogo</strong></td><td>Pode caber, conforme o caso</td><td>Jurisprudência do STJ</td></tr><tr><td><strong>Furto qualificado ou de agente reincidente</strong></td><td>Não é vedado em tese, depende do caso</td><td>Jurisprudência do STJ</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 1º Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "MARI",
+     "texto": "Os vetores do STF: Mínima ofensividade, Ausência de periculosidade social, Reduzidíssima reprovabilidade e Inexpressividade da lesão."
+    },
+    {
+     "sigla": "ANALOGIA SÓ A FAVOR",
+     "texto": "Analogia em prejuízo do réu viola a legalidade. A favor do réu (in bonam partem), é admitida."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 98.152",
+     "texto": "O princípio da insignificância deve ser analisado em conexão com os postulados da fragmentariedade e da intervenção mínima, observando-se a mínima ofensividade da conduta, a nenhuma periculosidade social da ação, o reduzidíssimo grau de reprovabilidade do comportamento e a inexpressividade da lesão jurídica."
+    },
+    {
+     "quem": "STJ · Súmula 599",
+     "texto": "O princípio da insignificância é inaplicável aos crimes contra a administração pública."
+    },
+    {
+     "quem": "STJ · Súmula 589",
+     "texto": "É inaplicável o princípio da insignificância nos crimes ou contravenções penais praticados contra a mulher no âmbito das relações domésticas."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O princípio da insignificância tem aplicação automática pelo valor dos bens subtraídos, sendo irrelevante a reincidência do agente.",
+    "gabarito": "E",
+    "explicacao": "A insignificância exige os quatro vetores do STF ao mesmo tempo, e a reincidência é critério importante a ser sopesado (FGV, Delegado PC-PR 2026)."
+   },
+   "aprofundamento": "<p><strong>Os vetores e os postulados.</strong> Para o STF, a insignificância se analisa em conexão com a fragmentariedade e a intervenção mínima (Cebraspe, Delegado PC-PE 2024). Entre os vetores está o reduzidíssimo grau de reprovabilidade, e não \"desvalor relevante\" nem \"mínima periculosidade\" (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Valor não basta, e furto qualificado não veda sozinho.</strong> Furto de R$ 1.200 em equipamentos não é insignificante (Cebraspe, Delegado PC-MA 2018). Está errado dizer que o furto qualificado impede, por si só, a insignificância (Cebraspe, Delegado PF 2021). A restituição imediata e integral do bem também não basta para aplicá-la (Tema 1.205 do STJ; Cebraspe, Delegado PC-PE 2024).</p><p><strong>Onde não cabe.</strong> Não cabe nos crimes contra a Administração Pública, mesmo com réu primário e prejuízo pequeno (Súmula 599 do STJ; Cebraspe, Delegado PC-MA 2018 e Delegado PJC-MT 2017). Não cabe na violência doméstica contra a mulher (Súmula 589 do STJ; Cebraspe, Delegado PC-CE 2025). Nem no tráfico de drogas (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Onde cabe.</strong> É admitida no descaminho, e não no contrabando nem no uso de documento falso (FGV, Delegado PC-AM 2021). O limite de R$ 20 mil vem de portarias da Fazenda e influencia a aplicação nos crimes tributários federais (Cebraspe, Delegado PC-MA 2018). Também pode caber na apreensão de pouca munição sem arma, embora o crime seja de perigo abstrato (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Quem reconhece a insignificância.</strong> O delegado que conclui pela insignificância não arquiva o inquérito, porque isso é vedado à autoridade policial: ele relata e remete os autos ao juiz ou ao MP (FGV, Delegado PC-PR 2026).</p><p><strong>Legalidade exige lei formal e veda analogia contra o réu.</strong> Crime só pode ser criado por lei em sentido formal (Cebraspe, Delegado PC-SE 2018). Interferir no cronômetro por ondas eletromagnéticas não se enquadra, por analogia, no crime de invasão de sistema informático (FGV, Delegado PC-PR 2026).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "lei-penal-no-tempo",
+    "furto",
+    "contrabando-e-descaminho",
+    "peculato"
+   ]
+  },
+  {
    "slug": "lei-penal-no-tempo",
    "titulo": "Lei penal no tempo",
    "grupo": "Parte Geral: aplicação da lei penal",
@@ -758,6 +850,735 @@
    ]
   },
   {
+   "slug": "aplicacao-da-pena",
+   "titulo": "Aplicação da pena e reincidência",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 49, 59, 63 a 65 e 68 do CP",
+   "tax": [
+    "penal.aplicacao-pena",
+    "penal.cominacao-penas",
+    "penal.pena-multa"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-49",
+    "n2848-1940-art-59",
+    "n2848-1940-art-63",
+    "n2848-1940-art-64",
+    "n2848-1940-art-65",
+    "n2848-1940-art-68"
+   ],
+   "conceitos": [
+    "dosimetria trifásica",
+    "circunstâncias judiciais",
+    "atenuantes e agravantes",
+    "reincidência",
+    "período depurador",
+    "dias-multa"
+   ],
+   "palavras": [
+    "dosimetria",
+    "sistema trifasico",
+    "pena-base",
+    "circunstancias judiciais",
+    "art 59",
+    "atenuante",
+    "agravante",
+    "causa de aumento",
+    "causa de diminuicao",
+    "sumula 231",
+    "reincidencia",
+    "periodo depurador",
+    "maus antecedentes",
+    "menoridade relativa",
+    "menor de 21",
+    "dias-multa",
+    "sumula 241"
+   ],
+   "resumo": "O CP adota o <strong>sistema trifásico</strong> (art. 68). Na primeira fase, o juiz fixa a pena-base dentro dos limites da lei, pelas oito circunstâncias judiciais do art. 59. Na segunda, aplica as atenuantes e agravantes, que <strong>não</strong> podem levar a pena abaixo do mínimo nem acima do máximo legal (Súmula 231 do STJ). Na terceira, aplica as causas de diminuição e de aumento, as únicas que podem ultrapassar esses limites. Há <strong>reincidência</strong> quando o novo crime é cometido depois do trânsito em julgado de condenação anterior, no país ou no estrangeiro (art. 63). Ela deixa de valer se passarem mais de cinco anos entre o cumprimento ou a extinção da pena e o novo crime (art. 64, I), mas a condenação antiga ainda pode pesar como maus antecedentes. A multa é calculada em dias-multa, de 10 a 360 (art. 49).",
+   "esquema": {
+    "rotulo": "as três fases do art. 68",
+    "html": "<table><thead><tr><th>Fase</th><th>O que entra</th><th>Pode sair dos limites da pena?</th></tr></thead><tbody><tr><td><strong>1ª: pena-base</strong></td><td>Circunstâncias judiciais do art. 59 (culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências e comportamento da vítima)</td><td>Não</td></tr><tr><td><strong>2ª: pena intermediária</strong></td><td>Atenuantes (arts. 65 e 66) e agravantes (arts. 61 e 62), como reincidência, confissão e menoridade relativa</td><td>Não (Súmula 231 do STJ)</td></tr><tr><td><strong>3ª: pena definitiva</strong></td><td>Causas de diminuição e de aumento (frações), da Parte Geral e da Parte Especial</td><td>Sim</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 49. A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de dez e, no máximo, de trezentos e sessenta dias-multa.\n\n§ 1º O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a cinco vezes esse salário.\n\n§ 2º O valor da multa será atualizado, quando da execução, pelos índices de correção monetária.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 59. O juiz, atendendo à culpabilidade, aos antecedentes, à conduta social, à personalidade do agente, aos motivos, às circunstâncias e conseqüências do crime, bem como ao comportamento da vítima, estabelecerá, conforme seja necessário e suficiente para reprovação e prevenção do crime:\n\nI - as penas aplicáveis dentre as cominadas;\n\nII - a quantidade de pena aplicável, dentro dos limites previstos;\n\nIII - o regime inicial de cumprimento da pena privativa de liberdade;\n\nIV - a substituição da pena privativa da liberdade aplicada, por outra espécie de pena, se cabível.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 63. Verifica-se a reincidência quando o agente comete novo crime, depois de transitar em julgado a sentença que, no País ou no estrangeiro, o tenha condenado por crime anterior.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 64. Para efeito de reincidência:\n\nI - não prevalece a condenação anterior, se entre a data do cumprimento ou extinção da pena e a infração posterior tiver decorrido período de tempo superior a cinco anos, computado o período de prova da suspensão ou do livramento condicional, se não ocorrer revogação;\n\nII - não se consideram os crimes militares próprios e políticos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 65. São circunstâncias que sempre atenuam a pena:\n\nI - ser o agente menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentença, salvo se o crime envolver violência sexual contra a mulher;\n\nII - o desconhecimento da lei;\n\nIII - ter o agente:\n\na) cometido o crime por motivo de relevante valor social ou moral;\n\nb) procurado, por sua espontânea vontade e com eficiência, logo após o crime, evitar-lhe ou minorar-lhe as conseqüências, ou ter, antes do julgamento, reparado o dano;\n\nc) cometido o crime sob coação a que podia resistir, ou em cumprimento de ordem de autoridade superior, ou sob a influência de violenta emoção, provocada por ato injusto da vítima;\n\nd) confessado espontaneamente, perante a autoridade, a autoria do crime;\n\n(...)",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 68. A pena-base será fixada atendendo-se ao critério do art. 59 deste Código; em seguida serão consideradas as circunstâncias atenuantes e agravantes; por último, as causas de diminuição e de aumento.\n\nParágrafo único. No concurso de causas de aumento ou de diminuição previstas na parte especial, pode o juiz limitar-se a um só aumento ou a uma só diminuição, prevalecendo, todavia, a causa que mais aumente ou diminua.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "BASE, MEIO, FIM",
+     "texto": "Art. 59 na base, atenuantes e agravantes no meio, frações no fim. Só o fim fura o mínimo e o máximo."
+    },
+    {
+     "sigla": "CINCO ANOS DEPOIS DO FIM",
+     "texto": "O período depurador de cinco anos conta do cumprimento ou da extinção da pena, e não do trânsito em julgado. Passado o prazo, some a reincidência, mas não os maus antecedentes."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 231",
+     "texto": "A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal."
+    },
+    {
+     "quem": "STJ · Súmula 241",
+     "texto": "A reincidência penal não pode ser considerada como circunstância agravante e, simultaneamente, como circunstância judicial."
+    },
+    {
+     "quem": "STJ · Súmula 444",
+     "texto": "É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Réu primário que confessa o crime e agiu sob coação resistível pode ter a pena reduzida abaixo do mínimo legal se as atenuantes preponderarem sobre as agravantes.",
+    "gabarito": "E",
+    "explicacao": "Confissão e coação resistível são atenuantes da segunda fase, que não levam a pena abaixo do mínimo legal (Súmula 231 do STJ). Só uma causa de diminuição, na terceira fase, faria isso (Cebraspe, Delegado PF 2018)."
+   },
+   "aprofundamento": "<p><strong>Atenuante não fura o mínimo.</strong> Coação resistível e confissão espontânea, ainda que preponderantes, não reduzem a pena abaixo do mínimo legal (Súmula 231 do STJ). A afirmação contrária foi julgada errada (Cebraspe, Delegado PF 2018).</p><p><strong>Menoridade relativa é segunda fase.</strong> Ter menos de 21 anos na data do fato é atenuante genérica do art. 65, I, aplicada na segunda fase, e não causa de diminuição da terceira. A afirmação de que ela reduz a pena na terceira fase foi julgada falsa (FGV, Delegado PC-MG 2024). Desde a Lei 15.160/2025, ela não se aplica se o crime envolver violência sexual contra a mulher.</p><p><strong>Prescrição da pena não apaga a reincidência.</strong> A prescrição da pretensão executória extingue só a pena, e os efeitos secundários continuam. Se o novo crime vem antes de cinco anos da extinção, o agente é reincidente. A mesma condenação não pode servir, ao mesmo tempo, de reincidência e de maus antecedentes (FGV, Delegado PC-RN 2021).</p><p><strong>Multa tem números fixos.</strong> A pena de multa vai de 10 a 360 dias-multa, e cada dia-multa vale de um trigésimo a cinco vezes o maior salário mínimo (art. 49). A afirmação com esses limites foi julgada verdadeira (FGV, Delegado PC-MG 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "regimes-e-substituicao-da-pena",
+    "prescricao-penal",
+    "culpabilidade-imputabilidade-e-coacao",
+    "concurso-de-crimes"
+   ]
+  },
+  {
+   "slug": "regimes-e-substituicao-da-pena",
+   "titulo": "Regimes de cumprimento e penas restritivas de direitos",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 33 e 44 do CP",
+   "tax": [
+    "penal.penas-privativas-liberdade-regime-cumprimento",
+    "penal.penas-restritivas-direitos",
+    "penal.especies-pena"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-33",
+    "n2848-1940-art-44"
+   ],
+   "conceitos": [
+    "regime inicial",
+    "reclusão e detenção",
+    "progressão de regime",
+    "substituição da pena",
+    "conversão da pena restritiva"
+   ],
+   "palavras": [
+    "regime fechado",
+    "regime semiaberto",
+    "regime aberto",
+    "reclusao",
+    "detencao",
+    "regime inicial",
+    "gravidade abstrata",
+    "sumula 718",
+    "sumula 719",
+    "sumula 440",
+    "sumula 269",
+    "penas restritivas de direitos",
+    "substituicao",
+    "violencia ou grave ameaca",
+    "simulacro",
+    "reincidente em crime doloso",
+    "conversao"
+   ],
+   "resumo": "A reclusão admite os três regimes, e a detenção começa no semiaberto ou no aberto (art. 33). O regime inicial depende da pena e da reincidência: mais de 8 anos começa no fechado. Para não reincidente, de 4 a 8 anos pode começar no semiaberto, e até 4 anos, no aberto. As circunstâncias do art. 59 também pesam (§ 3º). A <strong>gravidade abstrata</strong> do crime não basta para impor regime mais severo do que o permitido pela pena (Súmulas 718 e 719 do STF e 440 do STJ). A pena privativa de liberdade é <strong>substituída</strong> por restritivas de direitos quando não passa de 4 anos e o crime não teve violência ou grave ameaça à pessoa, ou, em qualquer pena, se o crime é culposo. O réu não pode ser reincidente em crime doloso, salvo exceção do § 3º, e as circunstâncias devem indicar que a substituição basta (art. 44).",
+   "esquema": {
+    "rotulo": "regime inicial pela pena",
+    "html": "<table><thead><tr><th>Pena aplicada</th><th>Não reincidente</th><th>Reincidente</th></tr></thead><tbody><tr><td><strong>Mais de 8 anos</strong></td><td>Fechado</td><td>Fechado</td></tr><tr><td><strong>Mais de 4 até 8 anos</strong></td><td>Semiaberto (pode)</td><td>Fechado</td></tr><tr><td><strong>Até 4 anos</strong></td><td>Aberto (pode)</td><td>Semiaberto, se o art. 59 for favorável (Súmula 269 do STJ)</td></tr><tr><td><strong>Detenção</strong></td><td>Começa no semiaberto ou no aberto</td><td>Fechado só por transferência (regressão)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 33. A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção em regime semi-aberto ou aberto, salvo necessidade de transferência a regime fechado.\n\n§ 1º Considera-se:\n\na) regime fechado a execução da pena em estabelecimento de segurança máxima ou média;\n\nb) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar;\n\nc) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado.\n\n§ 2º As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:\n\na) o condenado a pena superior a oito anos deverá começar a cumpri-la em regime fechado;\n\nb) o condenado não reincidente, cuja pena seja superior a quatro anos e não exceda a oito, poderá, desde o princípio, cumpri-la em regime semi-aberto;\n\nc) o condenado não reincidente, cuja pena seja igual ou inferior a quatro anos, poderá, desde o início, cumpri-la em regime aberto.\n\n§ 3º A determinação do regime inicial de cumprimento da pena far-se-á com observância dos critérios previstos no art. 59 deste Código.\n\n§ 4º O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:\n\nI - aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;\n\nII - o réu não for reincidente em crime doloso;\n\nIII - a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicarem que essa substituição seja suficiente.\n\n§ 1º (VETADO na Lei nº 9.714, de 25/11/1998)\n\n§ 2º Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos.\n\n§ 3º Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime.\n\n§ 4º A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão.\n\n§ 5º Sobrevindo condenação a pena privativa de liberdade, por outro crime, o juiz da execução penal decidirá sobre a conversão, podendo deixar de aplicá-la se for possível ao condenado cumprir a pena substitutiva anterior.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "8 E 4",
+     "texto": "Acima de 8, fechado. De 4 a 8, semiaberto. Até 4, aberto. Reincidente sobe um degrau."
+    },
+    {
+     "sigla": "SUBSTITUIÇÃO: 4, SEM VIOLÊNCIA, SEM REINCIDÊNCIA DOLOSA",
+     "texto": "Os três requisitos do art. 44. No crime culposo, a pena pode ser qualquer uma."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 718",
+     "texto": "A opinião do julgador sobre a gravidade em abstrato do crime não constitui motivação idônea para a imposição de regime mais severo do que o permitido segundo a pena aplicada."
+    },
+    {
+     "quem": "STF · Súmula 719",
+     "texto": "A imposição do regime de cumprimento mais severo do que a pena aplicada permitir exige motivação idônea."
+    },
+    {
+     "quem": "STJ · Súmula 440",
+     "texto": "Fixada a pena-base no mínimo legal, é vedado o estabelecimento de regime prisional mais gravoso do que o cabível em razão da sanção imposta, com base apenas na gravidade abstrata do delito."
+    },
+    {
+     "quem": "STJ · Súmula 269",
+     "texto": "É admissível a adoção do regime prisional semi-aberto aos reincidentes condenados a pena igual ou inferior a quatro anos se favoráveis as circunstâncias judiciais."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Réu primário condenado por roubo tentado com arma de fogo a pena inferior a 8 anos deve iniciar o cumprimento em regime fechado, em razão da gravidade abstrata do crime.",
+    "gabarito": "E",
+    "explicacao": "A gravidade em abstrato não é fundamento idôneo para regime mais severo do que o permitido pela pena (Súmulas 718 e 719 do STF e 440 do STJ). A afirmativa foi julgada falsa (FGV, Delegado PC-MG 2024)."
+   },
+   "aprofundamento": "<p><strong>Gravidade abstrata não fecha o regime.</strong> Uso de arma de fogo no roubo, sem outra fundamentação concreta, não autoriza regime fechado para quem recebeu pena que permite regime mais brando (FGV, Delegado PC-MG 2024).</p><p><strong>Simulacro também é grave ameaça.</strong> Para o STJ, o roubo praticado com simulacro de arma de fogo, ainda que tentado, foi cometido com grave ameaça e por isso não admite substituição por restritivas de direitos. Furto qualificado, homicídio culposo, peculato e corrupção ativa admitem, preenchidos os requisitos (Cebraspe, Delegado PC-PE 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "sursis-e-livramento-condicional",
+    "roubo-e-latrocinio"
+   ]
+  },
+  {
+   "slug": "concurso-de-crimes",
+   "titulo": "Concurso de crimes e crime continuado",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 69 a 72 do CP",
+   "tax": [
+    "penal.aplicacao-pena"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-69",
+    "n2848-1940-art-70",
+    "n2848-1940-art-71",
+    "n2848-1940-art-72"
+   ],
+   "conceitos": [
+    "concurso material",
+    "concurso formal próprio e impróprio",
+    "desígnios autônomos",
+    "crime continuado",
+    "exasperação e cúmulo material"
+   ],
+   "palavras": [
+    "concurso material",
+    "concurso formal",
+    "concurso formal improprio",
+    "formal imperfeito",
+    "designios autonomos",
+    "crime continuado",
+    "continuidade delitiva",
+    "exasperacao",
+    "cumulo material",
+    "sumula 659",
+    "sumula 497",
+    "sumula 711",
+    "multa no concurso",
+    "roubo varias vitimas",
+    "continuidade especifica"
+   ],
+   "resumo": "No <strong>concurso material</strong> (art. 69), o agente pratica dois ou mais crimes com mais de uma conduta, e as penas se somam. No <strong>concurso formal</strong> (art. 70), uma só conduta produz dois ou mais crimes: aplica-se a pena mais grave, aumentada de 1/6 até a metade (exasperação). Se a conduta for dolosa e os crimes resultarem de <strong>desígnios autônomos</strong>, o concurso formal é impróprio e as penas se somam. A exasperação nunca pode resultar em pena maior do que a soma. No <strong>crime continuado</strong> (art. 71), há várias condutas e crimes da mesma espécie, ligados por tempo, lugar e modo de execução. Aplica-se a pena de um só crime, aumentada de 1/6 a 2/3, e o aumento depende do número de crimes (Súmula 659 do STJ). Contra vítimas diferentes, com violência ou grave ameaça, o aumento pode chegar ao triplo. Em qualquer concurso, as multas se aplicam distinta e integralmente (art. 72).",
+   "esquema": {
+    "rotulo": "qual concurso e qual sistema",
+    "html": "<table><thead><tr><th>Espécie</th><th>Condutas</th><th>Sistema de pena</th></tr></thead><tbody><tr><td><strong>Concurso material (art. 69)</strong></td><td>Duas ou mais</td><td>Cúmulo material (soma)</td></tr><tr><td><strong>Formal próprio (art. 70, 1ª parte)</strong></td><td>Uma só</td><td>Exasperação: 1/6 até 1/2</td></tr><tr><td><strong>Formal impróprio (art. 70, 2ª parte)</strong></td><td>Uma só, dolosa, com desígnios autônomos</td><td>Cúmulo material (soma)</td></tr><tr><td><strong>Crime continuado (art. 71)</strong></td><td>Duas ou mais, da mesma espécie, em continuação</td><td>Exasperação: 1/6 a 2/3, conforme o número de crimes</td></tr><tr><td><strong>Continuado específico (art. 71, parágrafo único)</strong></td><td>Dolosos, com violência ou grave ameaça, contra vítimas diferentes</td><td>Exasperação até o triplo</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 69. Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela.\n\n§ 1º Na hipótese deste artigo, quando ao agente tiver sido aplicada pena privativa de liberdade, não suspensa, por um dos crimes, para os demais será incabível a substituição de que trata o art. 44 deste Código.\n\n§ 2º Quando forem aplicadas penas restritivas de direitos, o condenado cumprirá simultaneamente as que forem compatíveis entre si e sucessivamente as demais.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 70. Quando o agente, mediante uma só ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplica-se-lhe a mais grave das penas cabíveis ou, se iguais, somente uma delas, mas aumentada, em qualquer caso, de um sexto até metade. As penas aplicam-se, entretanto, cumulativamente, se a ação ou omissão é dolosa e os crimes concorrentes resultam de desígnios autônomos, consoante o disposto no artigo anterior.\n\nParágrafo único. Não poderá a pena exceder a que seria cabível pela regra do art. 69 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 71. Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, devem os subseqüentes ser havidos como continuação do primeiro, aplica-se-lhe a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, aumentada, em qualquer caso, de um sexto a dois terços.\n\nParágrafo único. Nos crimes dolosos, contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa, poderá o juiz, considerando a culpabilidade, os antecedentes, a conduta social e a personalidade do agente, bem como os motivos e as circunstâncias, aumentar a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, até o triplo, observadas as regras do parágrafo único do art. 70 e do art. 75 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 72. No concurso de crimes, as penas de multa são aplicadas distinta e integralmente.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "2, 3, 4, 5, 6, 7",
+     "texto": "Crime continuado (Súmula 659 do STJ): 2 crimes, 1/6; 3, 1/5; 4, 1/4; 5, 1/3; 6, 1/2; 7 ou mais, 2/3."
+    },
+    {
+     "sigla": "IMPRÓPRIO SOMA",
+     "texto": "Formal impróprio não exaspera, soma. Quem exaspera é o formal próprio e o crime continuado."
+    },
+    {
+     "sigla": "MULTA À PARTE",
+     "texto": "No concurso de crimes, as multas são aplicadas distinta e integralmente (art. 72)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 659",
+     "texto": "A fração de aumento em razão da prática de crime continuado deve ser fixada de acordo com o número de delitos cometidos, aplicando-se 1/6 pela prática de duas infrações, 1/5 para três, 1/4 para quatro, 1/3 para cinco, 1/2 para seis e 2/3 para sete ou mais infrações."
+    },
+    {
+     "quem": "STF · Súmula 497",
+     "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação."
+    },
+    {
+     "quem": "STF · Súmula 711",
+     "texto": "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Configurado o concurso formal impróprio ou o crime continuado, adota-se o sistema da exasperação da pena.",
+    "gabarito": "E",
+    "explicacao": "O crime continuado usa a exasperação, mas o concurso formal impróprio, por haver desígnios autônomos, usa o cúmulo material: as penas se somam (art. 70, parte final) (Cebraspe, Delegado PC-AL 2023)."
+   },
+   "aprofundamento": "<p><strong>Desígnios autônomos somam as penas.</strong> Roubo contra várias vítimas num único evento, com desígnios autônomos comprovados, é concurso formal impróprio (Cebraspe, Delegado PC-PB 2022). Quem envenena a ventilação de duas salas para matar dois colegas também responde em concurso formal impróprio (Cebraspe, Delegado PF 2018).</p><p><strong>Uma ação contra várias vítimas não é concurso material.</strong> Assaltar vários passageiros do ônibus num mesmo contexto, com uma só ação, não configura concurso material (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Fração do crime continuado.</strong> Três furtos em continuidade levam aumento de um quinto, porque a fração segue o número de crimes (Súmula 659 do STJ; FGV, Delegado PC-MG 2024).</p><p><strong>O que a continuidade aceita e o que não aceita.</strong> Ela pode ser reconhecida entre crimes em comarcas limítrofes ou próximas. Não cabe entre roubo e latrocínio, que não são da mesma espécie. A prescrição é contada sem o acréscimo da continuação (Súmula 497 do STF), e a lei mais grave vale se entrou em vigor antes de cessar a continuidade (Súmula 711 do STF) (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Estupro com vários atos na mesma vítima é crime único.</strong> Desde a Lei 12.015/2009, a conjunção carnal e outros atos libidinosos contra a mesma vítima, no mesmo contexto, formam crime único, e não concurso material nem continuidade (FGV, Delegado PC-AM 2021; Cebraspe, Delegado PC-MA 2018 e Delegado PJC-MT 2017).</p><p><strong>Multa fica fora da exasperação.</strong> No concurso formal, as multas de cada crime são aplicadas distinta e integralmente (art. 72). A afirmação foi julgada certa (Cebraspe, Delegado PC-DF 2026).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "roubo-e-latrocinio",
+    "estupro-de-vulneravel"
+   ]
+  },
+  {
+   "slug": "sursis-e-livramento-condicional",
+   "titulo": "Sursis e livramento condicional",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 77, 81, 83 e 86 do CP",
+   "tax": [
+    "penal.suspensao-condicional-pena",
+    "penal.livramento-condicional"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-77",
+    "n2848-1940-art-81",
+    "n2848-1940-art-83",
+    "n2848-1940-art-86"
+   ],
+   "conceitos": [
+    "suspensão condicional da pena",
+    "sursis etário e humanitário",
+    "livramento condicional",
+    "revogação obrigatória e facultativa",
+    "período de prova"
+   ],
+   "palavras": [
+    "sursis",
+    "suspensao condicional da pena",
+    "sursis etario",
+    "maior de setenta anos",
+    "condenacao anterior a multa",
+    "livramento condicional",
+    "um terco",
+    "metade",
+    "dois tercos",
+    "reincidente especifico",
+    "crime hediondo",
+    "falta grave",
+    "sumula 441",
+    "sumula 534",
+    "sumula 617",
+    "agravo em execucao",
+    "reparacao do dano",
+    "revogacao"
+   ],
+   "resumo": "O <strong>sursis</strong> suspende a execução de pena de até 2 anos por um período de prova de 2 a 4 anos. O condenado não pode ser reincidente em crime doloso, as circunstâncias devem autorizar, e o benefício só cabe se não couber a substituição do art. 44 (art. 77). No sursis etário (maior de 70 anos) ou humanitário (saúde), a pena pode ir até 4 anos, com prova de 4 a 6. O <strong>livramento condicional</strong> exige pena de 2 anos ou mais e cumprimento de mais de 1/3 (primário com bons antecedentes) ou de mais de 1/2 (reincidente em crime doloso). Nos hediondos e equiparados, são mais de 2/3, sem direito ao reincidente específico. Também exige bom comportamento, ausência de falta grave nos últimos 12 meses e reparação do dano, salvo efetiva impossibilidade (art. 83).",
+   "esquema": {
+    "rotulo": "sursis × livramento",
+    "html": "<table><thead><tr><th>Ponto</th><th>Sursis (art. 77)</th><th>Livramento (art. 83)</th></tr></thead><tbody><tr><td><strong>Pena</strong></td><td>Até 2 anos (até 4 no etário e no humanitário)</td><td>2 anos ou mais</td></tr><tr><td><strong>Quando</strong></td><td>Antes de começar a cumprir</td><td>Depois de cumprir parte da pena</td></tr><tr><td><strong>Fração</strong></td><td>Nenhuma</td><td>Mais de 1/3, mais de 1/2 ou mais de 2/3</td></tr><tr><td><strong>Reincidente em crime doloso</strong></td><td>Não tem direito</td><td>Tem, com mais da metade</td></tr><tr><td><strong>Revogação obrigatória</strong></td><td>Condenação irrecorrível por crime doloso (art. 81, I)</td><td>Condenação irrecorrível a pena privativa de liberdade (art. 86)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 77. A execução da pena privativa de liberdade, não superior a dois anos, poderá ser suspensa, por dois a quatro anos, desde que:\n\nI - o condenado não seja reincidente em crime doloso;\n\nII - a culpabilidade, os antecedentes, a conduta social e personalidade do agente, bem como os motivos e as circunstâncias autorizem a concessão do benefício;\n\nIII - não seja indicada ou cabível a substituição prevista no art. 44 deste Código.\n\n§ 1º A condenação anterior a pena de multa não impede a concessão do benefício.\n\n§ 2º A execução da pena privativa de liberdade, não superior a quatro anos, poderá ser suspensa, por quatro a seis anos, desde que o condenado seja maior de setenta anos de idade, ou razões de saúde justifiquem a suspensão.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 81. A suspensão será revogada se, no curso do prazo, o beneficiário:\n\nI - é condenado, em sentença irrecorrível, por crime doloso;\n\nII - frustra, embora solvente, a execução de pena de multa ou não efetua, sem motivo justificado, a reparação do dano;\n\nIII - descumpre a condição do § 1º do art. 78 deste Código.\n\nRevogação facultativa\n\n§ 1º A suspensão poderá ser revogada se o condenado descumpre qualquer outra condição imposta ou é irrecorrivelmente condenado, por crime culposo ou por contravenção, a pena privativa de liberdade ou restritiva de direitos.\n\n(...)",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 83. O juiz poderá conceder livramento condicional ao condenado a pena privativa de liberdade igual ou superior a dois anos, desde que:\n\nI - cumprida mais de um terço da pena se o condenado não for reincidente em crime doloso e tiver bons antecedentes;\n\nII - cumprida mais da metade se o condenado for reincidente em crime doloso;\n\nIII - comprovado:\n\na) bom comportamento durante a execução da pena;\n\nb) não cometimento de falta grave nos últimos 12 (doze) meses;\n\nc) bom desempenho no trabalho que lhe foi atribuído; e\n\nd) aptidão para prover a própria subsistência mediante trabalho honesto;\n\nIV - tenha reparado, salvo efetiva impossibilidade de fazê-lo, o dano causado pela infração;\n\nV - cumpridos mais de dois terços da pena, nos casos de condenação por crime hediondo, prática de tortura, tráfico ilícito de entorpecentes e drogas afins, tráfico de pessoas e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\n\nParágrafo único. Para o condenado por crime doloso, cometido com violência ou grave ameaça à pessoa, a concessão do livramento ficará também subordinada à constatação de condições pessoais que façam presumir que o liberado não voltará a delinqüir.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 86. Revoga-se o livramento, se o liberado vem a ser condenado a pena privativa de liberdade, em sentença irrecorrível:\n\nI - por crime cometido durante a vigência do benefício;\n\nII - por crime anterior, observado o disposto no art. 84 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "1/3, 1/2, 2/3",
+     "texto": "Livramento: primário de bons antecedentes cumpre mais de um terço, reincidente doloso mais da metade, hediondo mais de dois terços, e o reincidente específico em hediondo não tem."
+    },
+    {
+     "sigla": "MULTA NÃO TRAVA SURSIS",
+     "texto": "Condenação anterior só a multa não impede a suspensão (art. 77, § 1º)."
+    },
+    {
+     "sigla": "FALTA GRAVE: PROGRESSÃO SIM, LIVRAMENTO NÃO",
+     "texto": "A falta grave reinicia a contagem para progressão (Súmula 534 do STJ), mas não para livramento (Súmula 441 do STJ)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 441",
+     "texto": "A falta grave não interrompe o prazo para obtenção de livramento condicional."
+    },
+    {
+     "quem": "STJ · Súmula 534",
+     "texto": "A prática de falta grave interrompe a contagem do prazo para a progressão de regime de cumprimento de pena, o qual se reinicia a partir do cometimento dessa infração."
+    },
+    {
+     "quem": "STJ · Súmula 617",
+     "texto": "A ausência de suspensão ou revogação do livramento condicional antes do término do período de prova enseja a extinção da punibilidade pelo integral cumprimento da pena."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O condenado que comete falta grave tem interrompidas as contagens dos prazos tanto para a progressão de regime quanto para o livramento condicional, que reiniciam a partir da falta.",
+    "gabarito": "E",
+    "explicacao": "A falta grave interrompe só o prazo da progressão (Súmula 534 do STJ). O prazo do livramento condicional não é interrompido (Súmula 441 do STJ) (Cebraspe, Delegado PF 2018)."
+   },
+   "aprofundamento": "<p><strong>Sursis: o que trava e o que não trava.</strong> Só a reincidência em crime <em>doloso</em> impede o sursis, e a condenação anterior a multa não impede. O sursis de até 4 anos é para o maior de 70 anos, e não para qualquer idoso (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Livramento: as frações e os requisitos certos.</strong> São mais de 1/3 (e não 1/6) para o primário e mais de 2/3 (e não 2/5) para o hediondo. A falta grave que impede é a dos últimos 12 meses, e não dos últimos 2 anos. A reparação do dano é exigida, salvo efetiva impossibilidade (Cebraspe, Delegado PC-ES 2022).</p><p><strong>Hediondo: reincidente específico fica de fora.</strong> Está errado dizer que cabe livramento com mais de 2/3 independentemente de reincidência específica em crime hediondo (Cebraspe, Delegado PC-PB 2022). Pela LEP, o condenado por hediondo com resultado morte também não tem livramento, embora possa progredir de regime (FGV, Delegado PC-RN 2021).</p><p><strong>Período de prova que passa em branco extingue a pena.</strong> Se o juiz não suspende nem revoga o livramento antes do fim do período de prova, a pena é extinta pelo cumprimento, ainda que o crime tenha sido cometido durante o benefício (Súmula 617 do STJ; Cebraspe, Delegado PC-MA 2018 e Delegado PC-CE 2025).</p><p><strong>Recurso certo.</strong> Contra a decisão do juiz da execução que nega o livramento cabe agravo em execução (art. 197 da LEP), e não apelação (Cebraspe, Delegado PF 2018).</p><p><strong>Falta grave e os prazos.</strong> A falta grave reinicia o prazo para progressão de regime, mas não o do livramento condicional (Súmulas 534 e 441 do STJ; Cebraspe, Delegado PF 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "regimes-e-substituicao-da-pena",
+    "extincao-da-punibilidade"
+   ]
+  },
+  {
+   "slug": "efeitos-da-condenacao-e-reabilitacao",
+   "titulo": "Efeitos da condenação e reabilitação",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 91 a 94 do CP",
+   "tax": [
+    "penal.efeitos-condenacao-reabilitacao"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-91",
+    "n2848-1940-art-92",
+    "n2848-1940-art-93",
+    "n2848-1940-art-94"
+   ],
+   "conceitos": [
+    "efeitos genéricos e específicos",
+    "confisco",
+    "perda do cargo",
+    "reabilitação"
+   ],
+   "palavras": [
+    "efeitos da condenacao",
+    "efeito automatico",
+    "perda do cargo",
+    "perda da funcao publica",
+    "confisco",
+    "perda em favor da uniao",
+    "transacao penal",
+    "tortura perda do cargo",
+    "abuso de autoridade",
+    "reabilitacao",
+    "dois anos",
+    "sigilo dos registros",
+    "suspensao dos direitos politicos"
+   ],
+   "resumo": "Toda condenação tem <strong>efeitos genéricos e automáticos</strong> (art. 91): torna certa a obrigação de indenizar e causa a perda, em favor da União, dos instrumentos ilícitos e do produto ou proveito do crime. Os <strong>efeitos específicos</strong> do art. 92 (perda do cargo, incapacidade para o poder familiar, inabilitação para dirigir) <strong>não são automáticos</strong>: o juiz precisa declará-los com motivação na sentença. A perda do cargo exige pena de 1 ano ou mais em crime com abuso de poder ou violação de dever para com a Administração, ou pena superior a 4 anos nos demais casos. A exceção do § 2º torna automáticos esses efeitos na condenação por crime contra a mulher por razões da condição do sexo feminino e por certos crimes do ECA. A <strong>reabilitação</strong> pode ser pedida 2 anos depois de extinta ou cumprida a pena e assegura o sigilo dos registros (arts. 93 e 94).",
+   "esquema": {
+    "rotulo": "automático ou não",
+    "html": "<table><thead><tr><th>Efeito</th><th>Automático?</th><th>Base</th></tr></thead><tbody><tr><td><strong>Indenizar e perder instrumentos e produto do crime</strong></td><td>Sim</td><td>Art. 91 do CP</td></tr><tr><td><strong>Perda do cargo, poder familiar, habilitação</strong></td><td>Não, precisa ser motivado na sentença</td><td>Art. 92, § 1º, do CP</td></tr><tr><td><strong>Perda do cargo no crime contra a mulher por razões de gênero</strong></td><td>Sim</td><td>Art. 92, § 2º, do CP</td></tr><tr><td><strong>Perda do cargo na tortura</strong></td><td>Sim, com interdição pelo dobro da pena</td><td>Art. 1º, § 5º, da Lei 9.455/1997</td></tr><tr><td><strong>Perda do cargo no abuso de autoridade</strong></td><td>Não, e exige reincidência no abuso</td><td>Art. 4º, parágrafo único, da Lei 13.869/2019</td></tr><tr><td><strong>Perda do cargo no racismo</strong></td><td>Não, precisa ser motivado</td><td>Arts. 16 e 18 da Lei 7.716/1989</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 91. São efeitos da condenação:\n\nI - tornar certa a obrigação de indenizar o dano causado pelo crime;\n\nII - a perda em favor da União, ressalvado o direito do lesado ou de terceiro de boa-fé:\n\na) dos instrumentos do crime, desde que consistam em coisas cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito;\n\nb) do produto do crime ou de qualquer bem ou valor que constitua proveito auferido pelo agente com a prática do fato criminoso.\n\n§ 1º Poderá ser decretada a perda de bens ou valores equivalentes ao produto ou proveito do crime quando estes não forem encontrados ou quando se localizarem no exterior.\n\n§ 2º Na hipótese do § 1º, as medidas assecuratórias previstas na legislação processual poderão abranger bens ou valores equivalentes do investigado ou acusado para posterior decretação de perda.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 92. São também efeitos da condenação:\n\nI - a perda de cargo, função pública ou mandato eletivo:\n\na) quando aplicada pena privativa de liberdade por tempo igual ou superior a um ano, nos crimes praticados com abuso de poder ou violação de dever para com a Administração Pública;\n\nb) quando for aplicada pena privativa de liberdade por tempo superior a quatro anos nos demais casos.\n\nII - a incapacidade para o exercício do poder familiar, da tutela ou da curatela nos crimes dolosos sujeitos à pena de reclusão cometidos contra outrem igualmente titular do mesmo poder familiar, contra filho, filha ou outro descendente, tutelado ou curatelado, bem como nos crimes cometidos contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código;\n\nIII - a inabilitação para dirigir veículo, quando utilizado como meio para a prática de crime doloso.\n\nIV - a suspensão, pelo prazo de 180 (cento e oitenta) dias, da eficácia da inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) do estabelecimento que, no exercício de atividade comercial ou industrial, for constituída ou utilizada com o fim de permitir, facilitar ou ocultar a prática dos crimes definidos no caput e no § 1º do art. 180 deste Código.\n\n§ 1º Os efeitos de que trata este artigo não são automáticos, devendo ser motivadamente declarados na sentença pelo juiz, mas independem de pedido expresso da acusação, observado o disposto no inciso III do § 2º deste artigo.\n\n§ 2º Ao condenado por crime praticado contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, e ao condenado por crime previsto no caput e nos §§ 1º e 2º do art. 240, no caput e no parágrafo único do art. 241, no caput e nos §§ 1º e 3º do art. 241-A, no caput do art. 241-B, no caput e nos §§ 1º e 2º do art. 241-D e no caput e no § 1º do art. 244-A da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), serão:\n\nI - aplicados os efeitos previstos nos incisos I e II do caput deste artigo;\n\nII - vedadas a sua nomeação, designação ou diplomação em qualquer cargo, função pública ou mandato eletivo entre o trânsito em julgado da condenação até o efetivo cumprimento da pena;\n\nIII - automáticos os efeitos dos incisos I e II do caput e do inciso II do § 2º deste artigo.\n\n§ 3º Em caso de reincidência da conduta prevista no inciso IV do caput deste artigo, a empresa será considerada inidônea e terá sua inscrição no CNPJ considerada inapta, com os efeitos previstos na Lei nº 9.430, de 27 de dezembro de 1996.\n\n§ 4º Na hipótese da reincidência descrita no § 3º deste artigo, o administrador, direta ou indiretamente responsável pela infração cometida, será interditado para o exercício do comércio pelo período de 5 (cinco) anos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 93. A reabilitação alcança quaisquer penas aplicadas em sentença definitiva, assegurando ao condenado o sigilo dos registros sobre seu processo e condenação.\n\nParágrafo único. A reabilitação poderá, também, atingir os efeitos da condenação, previstos no art. 92 deste Código, vedada reintegração na situação anterior, nos casos dos incisos I e II do mesmo artigo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 94. A reabilitação poderá ser requerida, decorridos dois anos do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução, computando-se o período de prova da suspensão e o do livramento condicional, se não sobrevier revogação, desde que o condenado:\n\nI - tenha tido domicílio no País no prazo acima referido;\n\nII - tenha dado, durante esse tempo, demonstração efetiva e constante de bom comportamento público e privado;\n\nIII - tenha ressarcido o dano causado pelo crime ou demonstre a absoluta impossibilidade de o fazer, até o dia do pedido, ou exiba documento que comprove a renúncia da vítima ou novação da dívida.\n\nParágrafo único. Negada a reabilitação, poderá ser requerida, a qualquer tempo, desde que o pedido seja instruído com novos elementos comprobatórios dos requisitos necessários.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "TORTURA PERDE NA HORA",
+     "texto": "Na tortura, a perda do cargo é automática. No CP, no abuso de autoridade e no racismo, precisa ser declarada."
+    },
+    {
+     "sigla": "1 ANO × 4 ANOS",
+     "texto": "Perda do cargo: pena de 1 ano ou mais com abuso de poder ou violação de dever funcional, ou mais de 4 anos em qualquer crime."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "A perda do cargo público não é efeito automático da sentença que condena o servidor público pela prática do crime de tortura.",
+    "gabarito": "E",
+    "explicacao": "Na Lei 9.455/1997, a condenação acarreta a perda do cargo, função ou emprego público e a interdição pelo dobro da pena, de forma automática (Cebraspe, Delegado PC-PB 2022 e Delegado PC-DF 2026)."
+   },
+   "aprofundamento": "<p><strong>Tortura é a exceção automática.</strong> A perda do cargo é efeito automático da condenação por tortura, ao contrário da regra do art. 92 do CP (Cebraspe, Delegado PC-PB 2022 e Delegado PC-DF 2026). Por isso, nem a omissão da sentença nem uma pena de 3 anos impedem a perda do cargo do policial condenado por tortura (FGV, Delegado PC-PR 2026).</p><p><strong>Abuso de autoridade e racismo dependem da sentença.</strong> No abuso de autoridade, a perda do cargo exige reincidência em crime de abuso e não é automática (Cebraspe, Delegado PC-PE 2024). Na Lei do Racismo, também não é automática (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Sem condenação, sem confisco.</strong> A transação penal não é condenação. Por isso, a sentença que extingue a punibilidade após cumprida a transação não pode decretar a perda de bem em favor da União (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Direitos políticos ficam suspensos.</strong> Qualquer condenação criminal transitada em julgado suspende os direitos políticos enquanto durarem seus efeitos, seja a pena privativa de liberdade ou restritiva de direitos. Não há cassação (Cebraspe, Delegado PC-PB 2022).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "peculato"
+   ]
+  },
+  {
+   "slug": "medidas-de-seguranca",
+   "titulo": "Medidas de segurança",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 96 a 98 do CP",
+   "tax": [
+    "penal.medidas-seguranca",
+    "penal.imputabilidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-96",
+    "n2848-1940-art-97",
+    "n2848-1940-art-98"
+   ],
+   "conceitos": [
+    "absolvição imprópria",
+    "internação",
+    "tratamento ambulatorial",
+    "periculosidade",
+    "semi-imputável"
+   ],
+   "palavras": [
+    "medida de seguranca",
+    "absolvicao impropria",
+    "inimputavel",
+    "semi-imputavel",
+    "internacao",
+    "hospital de custodia",
+    "tratamento ambulatorial",
+    "pericia medica anual",
+    "cessacao da periculosidade",
+    "sumula 527",
+    "prazo maximo",
+    "desinternacao condicional"
+   ],
+   "resumo": "O inimputável por doença mental (art. 26) é absolvido, mas recebe <strong>medida de segurança</strong>: é a absolvição imprópria. As espécies são internação em hospital de custódia e tratamento ambulatorial (art. 96). Pela letra do art. 97, o crime punido com reclusão leva à internação, e o punido com detenção pode levar ao tratamento ambulatorial. A medida dura enquanto não cessar a periculosidade, com prazo mínimo de 1 a 3 anos. A perícia é feita ao fim do prazo mínimo e repetida <strong>de ano em ano</strong>. A desinternação é sempre condicional por um ano. Para o semi-imputável, a pena pode ser substituída por medida de segurança (art. 98). O tempo máximo não pode passar da pena máxima cominada ao crime (Súmula 527 do STJ). Extinta a punibilidade, não se impõe a medida nem subsiste a que foi imposta (art. 96, parágrafo único).",
+   "esquema": {
+    "rotulo": "os prazos da medida de segurança",
+    "html": "<table><thead><tr><th>Ponto</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Prazo mínimo</strong></td><td>1 a 3 anos (art. 97, § 1º)</td></tr><tr><td><strong>Duração</strong></td><td>Enquanto durar a periculosidade, limitada à pena máxima cominada (Súmula 527 do STJ)</td></tr><tr><td><strong>Perícia</strong></td><td>Ao fim do prazo mínimo e depois de ano em ano, ou quando o juiz determinar</td></tr><tr><td><strong>Desinternação</strong></td><td>Sempre condicional: volta se, em 1 ano, o agente pratica fato que indique periculosidade</td></tr><tr><td><strong>Semi-imputável</strong></td><td>Recebe pena reduzida, que pode ser substituída por medida de segurança (art. 98)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 96. As medidas de segurança são:\n\nI - internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado;\n\nII - sujeição a tratamento ambulatorial.\n\nParágrafo único. Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 97. Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial.\n\nPrazo\n\n§ 1º A internação, ou tratamento ambulatorial, será por tempo indeterminado, perdurando enquanto não for averiguada, mediante perícia médica, a cessação de periculosidade. O prazo mínimo deverá ser de um a três anos.\n\nPerícia médica\n\n§ 2º A perícia médica realizar-se-á ao termo do prazo mínimo fixado e deverá ser repetida de ano em ano, ou a qualquer tempo, se o determinar o juiz da execução.\n\nDesinternação ou liberação condicional\n\n§ 3º A desinternação, ou a liberação, será sempre condicional devendo ser restabelecida a situação anterior se o agente, antes do decurso de um ano, pratica fato indicativo de persistência de sua periculosidade.\n\n§ 4º Em qualquer fase do tratamento ambulatorial, poderá o juiz determinar a internação do agente, se essa providência for necessária para fins curativos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 98. Na hipótese do parágrafo único do art. 26 deste Código e necessitando o condenado de especial tratamento curativo, a pena privativa de liberdade pode ser substituída pela internação, ou tratamento ambulatorial, pelo prazo mínimo de um a três anos, nos termos do artigo anterior e respectivos §§ 1º a 4º.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "1 A 3, DE ANO EM ANO",
+     "texto": "Prazo mínimo de 1 a 3 anos, perícia anual e desinternação condicional por 1 ano."
+    },
+    {
+     "sigla": "TETO É A PENA MÁXIMA",
+     "texto": "A medida de segurança não pode durar mais do que a pena máxima cominada ao crime (Súmula 527 do STJ)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 527",
+     "texto": "O tempo de duração da medida de segurança não deve ultrapassar o limite máximo da pena abstratamente cominada ao delito praticado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o STJ, a escolha entre a internação em hospital de custódia e o tratamento ambulatorial deve ser vinculada à gravidade do delito praticado.",
+    "gabarito": "E",
+    "explicacao": "Para o STJ, a escolha segue a periculosidade do agente, e não a gravidade do crime. Por isso cabe tratamento ambulatorial mesmo em crime punido com reclusão (Cebraspe, Delegado PF 2021)."
+   },
+   "aprofundamento": "<p><strong>Periculosidade, não gravidade.</strong> O STJ não vincula a espécie de medida de segurança à gravidade do delito, mas à periculosidade do agente (Cebraspe, Delegado PF 2021).</p><p><strong>Absolvido, mas com medida.</strong> O inimputável absolvido por latrocínio pode receber medida de segurança, mesmo absolvido (Cebraspe, Delegado PF 2018).</p><p><strong>Perícia é anual, não semestral.</strong> A perícia é repetida de ano em ano, e não semestralmente. Prazo mínimo de 1 a 3 anos e desinternação condicional por 1 ano são afirmações corretas (FGV, Delegado PC-MG 2024).</p><p><strong>Não é por prazo ilimitado.</strong> Está errado dizer que a medida dura enquanto a perícia anual não indicar a cessação da periculosidade, sem limite: o teto é a pena máxima cominada (Súmula 527 do STJ; Cebraspe, Delegado PC-MA 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "culpabilidade-imputabilidade-e-coacao",
+    "extincao-da-punibilidade"
+   ]
+  },
+  {
+   "slug": "acao-penal",
+   "titulo": "Ação penal: pública, condicionada e privada",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 100 a 106 do CP",
+   "tax": [
+    "penal.acao-penal",
+    "penal.extincao-punibilidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-100",
+    "n2848-1940-art-101",
+    "n2848-1940-art-102",
+    "n2848-1940-art-103",
+    "n2848-1940-art-104",
+    "n2848-1940-art-105",
+    "n2848-1940-art-106"
+   ],
+   "conceitos": [
+    "ação pública incondicionada e condicionada",
+    "ação privada exclusiva e subsidiária",
+    "decadência",
+    "renúncia",
+    "perdão",
+    "perempção",
+    "indivisibilidade"
+   ],
+   "palavras": [
+    "acao penal publica",
+    "representacao",
+    "requisicao do ministro da justica",
+    "queixa",
+    "acao privada subsidiaria",
+    "decadencia",
+    "seis meses",
+    "doze meses violencia domestica",
+    "renuncia",
+    "renuncia tacita",
+    "perdao do ofendido",
+    "perdao aceito",
+    "perempcao",
+    "indivisibilidade",
+    "retratacao da representacao",
+    "sumula 714",
+    "sumula 542",
+    "inercia do ministerio publico"
+   ],
+   "resumo": "A regra é a ação <strong>pública incondicionada</strong>. A ação é condicionada (à representação do ofendido ou à requisição do Ministro da Justiça) ou privada só quando a lei diz. A representação pode ser retirada até o oferecimento da denúncia (art. 102). Queixa e representação <strong>decaem em 6 meses</strong>, contados do dia em que o ofendido soube quem é o autor (art. 103). Na violência doméstica e familiar contra a mulher, o prazo é de 12 meses. Na ação privada, a vítima pode abrir mão antes do processo (<strong>renúncia</strong>, ato unilateral) ou depois de iniciado (<strong>perdão</strong>, que só vale se o querelado aceitar). A renúncia ou o perdão dado a um dos autores aproveita a todos, pela indivisibilidade. Se o MP fica inerte no prazo legal, cabe ação privada subsidiária da pública (art. 100, § 3º).",
+   "esquema": {
+    "rotulo": "o que extingue a punibilidade em cada ação",
+    "html": "<table><thead><tr><th>Instituto</th><th>Momento</th><th>Em que ação extingue a punibilidade</th></tr></thead><tbody><tr><td><strong>Decadência</strong></td><td>Antes da ação (6 meses)</td><td>Privada exclusiva e pública condicionada (na subsidiária, o MP ainda pode agir)</td></tr><tr><td><strong>Renúncia</strong></td><td>Antes da queixa, unilateral</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perdão</strong></td><td>Depois da queixa e antes do trânsito em julgado, precisa ser aceito</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perempção</strong></td><td>Desídia do querelado no processo</td><td>Só a privada exclusiva; na subsidiária, o MP retoma a ação</td></tr><tr><td><strong>Retratação da representação</strong></td><td>Até o oferecimento da denúncia</td><td>Impede a ação na pública condicionada</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 100. A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido.\n\n§ 1º A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça.\n\n§ 2º A ação de iniciativa privada é promovida mediante queixa do ofendido ou de quem tenha qualidade para representá-lo.\n\n§ 3º A ação de iniciativa privada pode intentar-se nos crimes de ação pública, se o Ministério Público não oferece denúncia no prazo legal.\n\n§ 4º No caso de morte do ofendido ou de ter sido declarado ausente por decisão judicial, o direito de oferecer queixa ou de prosseguir na ação passa ao cônjuge, ascendente, descendente ou irmão.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 101. Quando a lei considera como elemento ou circunstâncias do tipo legal fatos que, por si mesmos, constituem crimes, cabe ação pública em relação àquele, desde que, em relação a qualquer destes, se deva proceder por iniciativa do Ministério Público.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 102. A representação será irretratável depois de oferecida a denúncia.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 103. Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de seis meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.\n\nParágrafo único. Nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, a ofendida decai do direito de queixa ou de representação se não o exerce no prazo de 12 (doze) meses, contado do dia em que veio a saber quem é o autor do crime, ou, no caso do § 3º do art. 100 deste Código, do dia em que se esgota o prazo para oferecimento da denúncia.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 104. O direito de queixa não pode ser exercido quando renunciado expressa ou tacitamente.\n\nParágrafo único. Importa renúncia tácita ao direito de queixa a prática de ato incompatível com a vontade de exercê-lo; não a implica, todavia, o fato de receber o ofendido a indenização do dano causado pelo crime.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 105. O perdão do ofendido, nos crimes em que somente se procede mediante queixa, obsta ao prosseguimento da ação.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 106. O perdão, no processo ou fora dele, expresso ou tácito:\n\nI - se concedido a qualquer dos querelados, a todos aproveita;\n\nII - se concedido por um dos ofendidos, não prejudica o direito dos outros;\n\nIII - se o querelado o recusa, não produz efeito.\n\n§ 1º Perdão tácito é o que resulta da prática de ato incompatível com a vontade de prosseguir na ação.\n\n§ 2º Não é admissível o perdão depois que passa em julgado a sentença condenatória.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "RENÚNCIA É ANTES E SOZINHA, PERDÃO É DEPOIS E ACEITO",
+     "texto": "A renúncia não depende do autor do crime. O perdão recusado não produz efeito (art. 106, III)."
+    },
+    {
+     "sigla": "UM PERDOADO, TODOS PERDOADOS",
+     "texto": "Renúncia ou perdão a um dos autores aproveita a todos (indivisibilidade da ação privada)."
+    },
+    {
+     "sigla": "6 MESES DA AUTORIA",
+     "texto": "A decadência conta de quando a vítima soube quem é o autor, e não da data do fato. Na violência doméstica contra a mulher, são 12 meses."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 714",
+     "texto": "É concorrente a legitimidade do ofendido, mediante queixa, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções."
+    },
+    {
+     "quem": "STJ · Súmula 542",
+     "texto": "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A vítima de crime de ação privada que oferece queixa só contra um dos coautores, omitindo de propósito o outro, renuncia tacitamente em relação a este, e a renúncia se estende ao querelado, extinguindo a punibilidade de ambos.",
+    "gabarito": "C",
+    "explicacao": "A omissão voluntária de um coautor é renúncia tácita, e pela indivisibilidade (art. 49 do CPP) ela aproveita a todos (FGV, Delegado PC-PR 2026)."
+   },
+   "aprofundamento": "<p><strong>O que extingue a punibilidade e onde.</strong> Perdão aceito e perempção extinguem a punibilidade na ação privada propriamente dita. Renúncia, perempção e perdão não existem na ação pública condicionada, e a decadência não atinge a pública incondicionada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Perempção só na privada exclusiva.</strong> Na ação privada subsidiária, a desídia do querelante não extingue a punibilidade, e o MP retoma a ação. Está errado estender a perempção à subsidiária (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Honra do servidor: legitimidade concorrente.</strong> No crime contra a honra de funcionário público em razão das funções, o ofendido pode oferecer queixa ou representar ao MP (Súmula 714 do STF; Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Diligência do MP não é inércia.</strong> A ação privada subsidiária só cabe se o MP fica inerte. Se o MP está fazendo diligências ou pede o arquivamento, não há inércia, ainda que fora do prazo (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Lesão doméstica não depende da vítima.</strong> A lesão corporal leve contra a mulher em violência doméstica é de ação pública incondicionada (Súmula 542 do STJ). A reconciliação e o desinteresse da vítima não impedem o inquérito nem a ação (FGV, Delegado PC-PR 2026).</p><p><strong>Representação vale também para o inquérito.</strong> Na ação pública condicionada, a representação é necessária para a ação e também para instaurar o inquérito (art. 5º, § 4º, do CPP). A afirmação contrária foi julgada errada (Cebraspe, Delegado PC-AL 2023).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "extincao-da-punibilidade",
+    "crimes-contra-a-honra",
+    "ameaca-perseguicao-e-violencia-psicologica"
+   ]
+  },
+  {
    "slug": "extincao-da-punibilidade",
    "titulo": "Extinção da punibilidade",
    "grupo": "Parte Geral: punibilidade",
@@ -1259,6 +2080,204 @@
     "feminicidio",
     "dolo-culpa-e-preterdolo",
     "homicidio"
+   ]
+  },
+  {
+   "slug": "crimes-contra-a-honra",
+   "titulo": "Calúnia, difamação e injúria",
+   "grupo": "Crimes contra a pessoa",
+   "base": "Arts. 138 a 145 do CP",
+   "tax": [
+    "penal.crimes-contra-pessoa"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-138",
+    "n2848-1940-art-139",
+    "n2848-1940-art-140",
+    "n2848-1940-art-141",
+    "n2848-1940-art-142",
+    "n2848-1940-art-143",
+    "n2848-1940-art-145"
+   ],
+   "conceitos": [
+    "honra objetiva e subjetiva",
+    "exceção da verdade",
+    "injúria real",
+    "retratação",
+    "ação penal nos crimes contra a honra"
+   ],
+   "palavras": [
+    "calunia",
+    "difamacao",
+    "injuria",
+    "honra objetiva",
+    "honra subjetiva",
+    "excecao da verdade",
+    "calunia contra os mortos",
+    "injuria real",
+    "injuria racial",
+    "injuria qualificada",
+    "retratacao",
+    "queixa",
+    "representacao",
+    "redes sociais",
+    "pena em triplo",
+    "imunidade judiciaria",
+    "denunciacao caluniosa"
+   ],
+   "resumo": "A <strong>calúnia</strong> imputa falsamente a alguém um fato definido como crime. A <strong>difamação</strong> imputa um fato ofensivo à reputação, verdadeiro ou não. Ambas atingem a honra objetiva (o que os outros pensam) e se consumam quando terceiro toma conhecimento. A <strong>injúria</strong> não imputa fato: atribui qualidade negativa e atinge a honra subjetiva (a dignidade e o decoro), e se consuma quando a própria vítima toma conhecimento. A exceção da verdade cabe, em regra, na calúnia; na difamação, só contra funcionário público por ofensa ligada às funções; na injúria, nunca. Só a calúnia é punível contra os mortos. A retratação antes da sentença isenta de pena na calúnia e na difamação, não na injúria. Em regra, a ação é privada (art. 145). A injúria por religião, idade ou deficiência (art. 140, § 3º) depende de representação. A injúria racial saiu do CP e virou crime da Lei 7.716/1989 (art. 2º-A), de ação pública incondicionada.",
+   "esquema": {
+    "rotulo": "os três crimes lado a lado",
+    "html": "<table><thead><tr><th>Ponto</th><th>Calúnia</th><th>Difamação</th><th>Injúria</th></tr></thead><tbody><tr><td><strong>O que se faz</strong></td><td>Imputa fato criminoso falso</td><td>Imputa fato ofensivo</td><td>Atribui qualidade negativa</td></tr><tr><td><strong>Honra atingida</strong></td><td>Objetiva</td><td>Objetiva</td><td>Subjetiva</td></tr><tr><td><strong>Consumação</strong></td><td>Terceiro sabe</td><td>Terceiro sabe</td><td>Vítima sabe</td></tr><tr><td><strong>Exceção da verdade</strong></td><td>Sim, salvo § 3º</td><td>Só funcionário público, nas funções</td><td>Não</td></tr><tr><td><strong>Contra os mortos</strong></td><td>Sim</td><td>Não</td><td>Não</td></tr><tr><td><strong>Retratação (art. 143)</strong></td><td>Isenta de pena</td><td>Isenta de pena</td><td>Não</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 138. Caluniar alguém, imputando-lhe falsamente fato definido como crime:\n\nPena - detenção, de seis meses a dois anos, e multa.\n\n§ 1º Na mesma pena incorre quem, sabendo falsa a imputação, a propala ou divulga.\n\n§ 2º É punível a calúnia contra os mortos.\n\nExceção da verdade\n\n§ 3º Admite-se a prova da verdade, salvo:\n\nI - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível;\n\nII - se o fato é imputado a qualquer das pessoas indicadas no nº I do art. 141;\n\nIII - se do crime imputado, embora de ação pública, o ofendido foi absolvido por sentença irrecorrível.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 139. Difamar alguém, imputando-lhe fato ofensivo à sua reputação:\n\nPena - detenção, de três meses a um ano, e multa.\n\nExceção da verdade\n\nParágrafo único. A exceção da verdade somente se admite se o ofendido é funcionário público e a ofensa é relativa ao exercício de suas funções.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 140. Injuriar alguém, ofendendo-lhe a dignidade ou o decoro:\n\nPena - detenção, de um a seis meses, ou multa.\n\n§ 1º O juiz pode deixar de aplicar a pena:\n\nI - quando o ofendido, de forma reprovável, provocou diretamente a injúria;\n\nII - no caso de retorsão imediata, que consista em outra injúria.\n\n§ 2º Se a injúria consiste em violência ou vias de fato, que, por sua natureza ou pelo meio empregado, se considerem aviltantes:\n\nPena - detenção, de três meses a um ano, e multa, além da pena correspondente à violência.\n\n§ 3º Se a injúria consiste na utilização de elementos referentes a religião ou à condição de pessoa idosa ou com deficiência:\n\nPena: reclusão, de 1 (um) a 3 (três) anos, e multa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 141. As penas cominadas neste capítulo aumentam-se de um terço, se qualquer dos crimes é cometido:\n\nI - contra o Presidente da República, ou contra chefe de governo estrangeiro;\n\nII - contra funcionário público, em razão de suas funções, ou contra os Presidentes do Senado Federal, da Câmara dos Deputados ou do Supremo Tribunal Federal;\n\nIII - na presença de várias pessoas, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria;\n\nIV - contra criança, adolescente, pessoa maior de 60 (sessenta) anos ou pessoa com deficiência, exceto na hipótese prevista no § 3º do art. 140 deste Código.\n\n§ 1º Se o crime é cometido mediante paga ou promessa de recompensa, aplica-se a pena em dobro. (Parágrafo único transformado em § 1º pela Lei nº 13.964, de 24/12/2019)\n\n§ 2º Se o crime é cometido ou divulgado em quaisquer modalidades das redes sociais da rede mundial de computadores, aplica-se em triplo a pena. (Parágrafo vetado pelo Presidente da República na Lei nº 13.964, de 24/12/2019, mantido pelo Congresso Nacional e publicado no DOU de 30/4/2021)\n\n§ 3º Se o crime é cometido contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, aplica-se a pena em dobro.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 142. Não constituem injúria ou difamação punível:\n\nI - a ofensa irrogada em juízo, na discussão da causa, pela parte ou por seu procurador;\n\nII - a opinião desfavorável da crítica literária, artística ou científica, salvo quando inequívoca a intenção de injuriar ou difamar;\n\nIII - o conceito desfavorável emitido por funcionário público, em apreciação ou informação que preste no cumprimento de dever do ofício.\n\nParágrafo único. Nos casos dos ns. I e III, responde pela injúria ou pela difamação quem lhe dá publicidade.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 143. O querelado que, antes da sentença, se retrata cabalmente da calúnia ou da difamação, fica isento de pena.\n\nParágrafo único. Nos casos em que o querelado tenha praticado a calúnia ou a difamação utilizando-se de meios de comunicação, a retratação dar-se-á, se assim desejar o ofendido, pelos mesmos meios em que se praticou a ofensa.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 145. Nos crimes previstos neste capítulo somente se procede mediante queixa, salvo, quando no caso do art. 140, § 2º, da violência resulta lesão corporal.\n\nParágrafo único. Procede-se mediante requisição do Ministro da Justiça, no caso do inciso I do caput do art. 141 deste Código, e mediante representação do ofendido, no caso do inciso II do mesmo artigo, bem como no caso do § 3º do art. 140 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "CALÚNIA = CRIME, DIFAMAÇÃO = FATO, INJÚRIA = XINGAMENTO",
+     "texto": "Imputou crime falso: calúnia. Imputou fato desonroso: difamação. Xingou ou atribuiu qualidade: injúria."
+    },
+    {
+     "sigla": "RETRATAÇÃO: CD, NÃO I",
+     "texto": "A retratação antes da sentença vale para Calúnia e Difamação, não para Injúria, e dispensa a aceitação do ofendido."
+    },
+    {
+     "sigla": "MORTO SÓ É CALUNIADO",
+     "texto": "Só a calúnia contra os mortos é punível (art. 138, § 2º)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 154.248 (Plenário, 2021)",
+     "texto": "A injúria racial é espécie do gênero racismo e, por isso, é imprescritível."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A retratação da calúnia feita antes da sentença acarreta a extinção da punibilidade do agente, independentemente de aceitação do ofendido.",
+    "gabarito": "C",
+    "explicacao": "O querelado que se retrata cabalmente da calúnia ou da difamação antes da sentença fica isento de pena (art. 143), e a lei não exige que o ofendido aceite (Cebraspe, Delegado PC-AL 2023)."
+   },
+   "aprofundamento": "<p><strong>Injúria racial é imprescritível.</strong> Para o STF, a injúria racial é espécie de racismo e não prescreve. Está errado dizer que não é imprescritível (Cebraspe, Delegado PC-AL 2023).</p><p><strong>A ação penal da injúria racial mudou.</strong> Na regra antiga, a injúria racial do art. 140, § 3º, dependia de representação, e foi essa a resposta cobrada (FGV, Delegado PC-RN 2021). Desde a Lei 14.532/2023, ela está no art. 2º-A da Lei 7.716/1989 e é de ação pública incondicionada. O § 3º do CP ficou só com religião, idade e deficiência, que dependem de representação.</p><p><strong>Zombar do morto não é calúnia.</strong> Fotografar o cadáver no velório e divulgar piadas sobre a aparência do falecido não é calúnia contra os mortos, que exige imputação falsa de crime. É vilipêndio a cadáver (art. 212) (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Soco é lesão, não injúria real.</strong> A injúria real exige violência ou vias de fato aviltantes, usadas para humilhar. O soco que causa lesão corporal é lesão (Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Calúnia × denunciação caluniosa.</strong> Quem atribui o furto a um inocente e, com isso, dá causa à instauração de inquérito responde por denunciação caluniosa (art. 339), e não por calúnia (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Prazo e procuração na ação privada.</strong> A decadência de 6 meses conta do dia em que a vítima soube quem é o autor. A queixa por procurador exige poderes especiais (art. 44 do CPP) (FGV, Delegado PC-RN 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "denunciacao-caluniosa",
+    "ameaca-perseguicao-e-violencia-psicologica"
+   ]
+  },
+  {
+   "slug": "ameaca-perseguicao-e-violencia-psicologica",
+   "titulo": "Ameaça, perseguição e violência psicológica",
+   "grupo": "Crimes contra a pessoa",
+   "base": "Arts. 147, 147-A e 147-B do CP",
+   "tax": [
+    "penal.crimes-contra-pessoa"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-147",
+    "n2848-1940-art-147-a",
+    "n2848-1940-art-147-b"
+   ],
+   "conceitos": [
+    "ameaça",
+    "perseguição (stalking)",
+    "violência psicológica contra a mulher",
+    "ação penal condicionada e incondicionada"
+   ],
+   "palavras": [
+    "ameaca",
+    "mal injusto e grave",
+    "perseguicao",
+    "stalking",
+    "reiteradamente",
+    "violencia psicologica",
+    "dano emocional",
+    "inteligencia artificial",
+    "representacao",
+    "ameaca contra a mulher",
+    "lei 14994",
+    "maria da penha",
+    "retratacao da representacao",
+    "art 16"
+   ],
+   "resumo": "<strong>Ameaça</strong> é prometer a alguém, por palavra, escrito, gesto ou outro meio simbólico, mal injusto e grave (1 a 6 meses, ou multa). Em regra, depende de representação. Contra a mulher por razões da condição do sexo feminino, a pena é dobrada e a ação passa a ser pública incondicionada (art. 147, §§ 1º e 2º, Lei 14.994/2024). <strong>Perseguição</strong> é perseguir alguém <strong>reiteradamente</strong>, ameaçando sua integridade, restringindo sua locomoção ou invadindo sua privacidade (6 meses a 2 anos). A pena aumenta de metade contra criança, adolescente, idoso ou mulher por razões de gênero, ou com duas ou mais pessoas ou arma, e a ação sempre depende de representação. <strong>Violência psicológica</strong> é causar dano emocional à mulher para degradá-la ou controlá-la. É subsidiária, e a pena aumenta de metade com uso de inteligência artificial que altere imagem ou som da vítima.",
+   "esquema": {
+    "rotulo": "pena e ação penal",
+    "html": "<table><thead><tr><th>Crime</th><th>Pena</th><th>Ação penal</th></tr></thead><tbody><tr><td><strong>Ameaça (art. 147)</strong></td><td>1 a 6 meses, ou multa</td><td>Representação</td></tr><tr><td><strong>Ameaça contra a mulher por razões de gênero</strong></td><td>Em dobro</td><td>Pública incondicionada</td></tr><tr><td><strong>Perseguição (art. 147-A)</strong></td><td>6 meses a 2 anos, e multa</td><td>Representação</td></tr><tr><td><strong>Violência psicológica contra a mulher (art. 147-B)</strong></td><td>6 meses a 2 anos, e multa, se não for crime mais grave</td><td>Pública incondicionada</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 147. Ameaçar alguém, por palavra, escrito ou gesto, ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave:\n\nPena - detenção, de um a seis meses, ou multa.\n\n§ 1º Se o crime é cometido contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, aplica-se a pena em dobro.\n\n§ 2º Somente se procede mediante representação, exceto na hipótese prevista no § 1º deste artigo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 147-A. Perseguir alguém, reiteradamente e por qualquer meio, ameaçando-lhe a integridade física ou psicológica, restringindo-lhe a capacidade de locomoção ou, de qualquer forma, invadindo ou perturbando sua esfera de liberdade ou privacidade.\n\nPena - reclusão, de 6 (seis) meses a 2 (dois) anos, e multa.\n\n§ 1º A pena é aumentada de metade se o crime é cometido:\n\nI - contra criança, adolescente ou idoso;\n\nII - contra mulher por razões da condição de sexo feminino, nos termos do § 2º-A do art. 121 deste Código;\n\nIII - mediante concurso de 2 (duas) ou mais pessoas ou com o emprego de arma.\n\n§ 2º As penas deste artigo são aplicáveis sem prejuízo das correspondentes à violência.\n\n§ 3º Somente se procede mediante representação.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 147-B. Causar dano emocional à mulher que a prejudique e perturbe seu pleno desenvolvimento ou que vise a degradar ou a controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, chantagem, ridicularização, limitação do direito de ir e vir ou qualquer outro meio que cause prejuízo à sua saúde psicológica e autodeterminação:\n\nPena - reclusão, de 6 (seis) meses a 2 (dois) anos, e multa, se a conduta não constitui crime mais grave.\n\nParágrafo único. A pena é aumentada de metade se o crime é cometido mediante uso de inteligência artificial ou de qualquer outro recurso tecnológico que altere imagem ou som da vítima.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "UMA VEZ É AMEAÇA, VÁRIAS É PERSEGUIÇÃO",
+     "texto": "A perseguição exige reiteração. Um ato isolado pode ser ameaça."
+    },
+    {
+     "sigla": "AMEAÇA À MULHER NÃO ESPERA REPRESENTAÇÃO",
+     "texto": "Por razões de gênero, a ameaça tem pena em dobro e ação incondicionada (art. 147, § 2º)."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "Perseguição contumaz, vigilância constante e insultos à ex-namorada, para controlar suas ações e causar-lhe dano emocional, configuram violência moral, nos termos da Lei Maria da Penha.",
+    "gabarito": "E",
+    "explicacao": "Conduta que causa dano emocional e busca controlar as ações da mulher é violência psicológica (art. 7º, II, da Lei 11.340/2006). A violência moral é a calúnia, a difamação ou a injúria (Cebraspe, Delegado PC-DF 2026)."
+   },
+   "aprofundamento": "<p><strong>Psicológica × moral.</strong> Controle, vigilância e dano emocional são violência psicológica. Calúnia, difamação e injúria são violência moral, e não psicológica (Cebraspe, Delegado PC-DF 2026 e Delegado PC-PE 2024).</p><p><strong>Retratação na Maria da Penha e a mudança de 2024.</strong> Nos crimes de ação condicionada da Lei Maria da Penha, a vítima só se retrata da representação perante o juiz, em audiência especial, antes do recebimento da denúncia (art. 16). Era essa a resposta para a ameaça do companheiro (FGV, Delegado PC-RN 2021). Desde a Lei 14.994/2024, a ameaça contra a mulher por razões da condição do sexo feminino é de ação pública incondicionada, e não cabe mais retratação.</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "crimes-contra-a-honra",
+    "lesao-corporal",
+    "feminicidio"
    ]
   },
   {
