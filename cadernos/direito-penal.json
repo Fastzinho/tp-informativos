@@ -9,6 +9,98 @@
  "revisado_rotulo": "Lei e jurisprudência conferidas",
  "temas": [
   {
+   "slug": "principios-e-insignificancia",
+   "titulo": "Princípios penais e insignificância",
+   "grupo": "Parte Geral: fundamentos",
+   "base": "Art. 1º do CP e art. 5º, XXXIX, da CF",
+   "tax": [
+    "penal.principios-garantias-penais-fundamentais",
+    "penal.analogia",
+    "penal.causas-exclusao-tipicidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-1"
+   ],
+   "conceitos": [
+    "legalidade e reserva legal",
+    "analogia in malam partem",
+    "intervenção mínima e fragmentariedade",
+    "princípio da insignificância",
+    "tipicidade material"
+   ],
+   "palavras": [
+    "principio da legalidade",
+    "reserva legal",
+    "anterioridade",
+    "lei em sentido formal",
+    "analogia in malam partem",
+    "interpretacao extensiva",
+    "intervencao minima",
+    "fragmentariedade",
+    "subsidiariedade",
+    "lesividade",
+    "insignificancia",
+    "bagatela",
+    "vetores do stf",
+    "tipicidade material",
+    "reincidencia e insignificancia",
+    "sumula 589",
+    "sumula 599",
+    "descaminho",
+    "tema 1205",
+    "furto qualificado"
+   ],
+   "resumo": "Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal (art. 1º do CP). Isso exige <strong>lei em sentido formal</strong>, editada pelo Congresso, e proíbe a <strong>analogia contra o réu</strong>. O Direito Penal só deve agir quando os outros ramos não bastam (<strong>intervenção mínima</strong>) e só contra as lesões mais graves (<strong>fragmentariedade</strong>). Desses postulados vem o <strong>princípio da insignificância</strong>, que exclui a tipicidade material. O STF exige quatro vetores juntos: mínima ofensividade da conduta, nenhuma periculosidade social da ação, reduzidíssimo grau de reprovabilidade do comportamento e inexpressividade da lesão jurídica. Não há aplicação automática pelo valor do bem. A reincidência e a qualificadora do furto pesam na análise, mas não a impedem sozinhas.",
+   "esquema": {
+    "rotulo": "onde a insignificância cabe e onde não cabe",
+    "html": "<table><thead><tr><th>Situação</th><th>Cabe?</th><th>Base</th></tr></thead><tbody><tr><td><strong>Descaminho e crimes tributários federais até R$ 20 mil</strong></td><td>Sim</td><td>STF e STJ (Tema 157 do STJ)</td></tr><tr><td><strong>Crimes contra a Administração Pública</strong></td><td>Não</td><td>Súmula 599 do STJ</td></tr><tr><td><strong>Crimes e contravenções contra a mulher na violência doméstica</strong></td><td>Não</td><td>Súmula 589 do STJ</td></tr><tr><td><strong>Crimes contra a fé pública e contrabando</strong></td><td>Não</td><td>Jurisprudência do STF e do STJ</td></tr><tr><td><strong>Tráfico de drogas</strong></td><td>Não</td><td>Jurisprudência do STF e do STJ</td></tr><tr><td><strong>Pouca munição sem arma de fogo</strong></td><td>Pode caber, conforme o caso</td><td>Jurisprudência do STJ</td></tr><tr><td><strong>Furto qualificado ou de agente reincidente</strong></td><td>Não é vedado em tese, depende do caso</td><td>Jurisprudência do STJ</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 1º Não há crime sem lei anterior que o defina. Não há pena sem prévia cominação legal.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "MARI",
+     "texto": "Os vetores do STF: Mínima ofensividade, Ausência de periculosidade social, Reduzidíssima reprovabilidade e Inexpressividade da lesão."
+    },
+    {
+     "sigla": "ANALOGIA SÓ A FAVOR",
+     "texto": "Analogia em prejuízo do réu viola a legalidade. A favor do réu (in bonam partem), é admitida."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 98.152",
+     "texto": "O princípio da insignificância deve ser analisado em conexão com os postulados da fragmentariedade e da intervenção mínima, observando-se a mínima ofensividade da conduta, a nenhuma periculosidade social da ação, o reduzidíssimo grau de reprovabilidade do comportamento e a inexpressividade da lesão jurídica."
+    },
+    {
+     "quem": "STJ · Súmula 599",
+     "texto": "O princípio da insignificância é inaplicável aos crimes contra a administração pública."
+    },
+    {
+     "quem": "STJ · Súmula 589",
+     "texto": "É inaplicável o princípio da insignificância nos crimes ou contravenções penais praticados contra a mulher no âmbito das relações domésticas."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O princípio da insignificância tem aplicação automática pelo valor dos bens subtraídos, sendo irrelevante a reincidência do agente.",
+    "gabarito": "E",
+    "explicacao": "A insignificância exige os quatro vetores do STF ao mesmo tempo, e a reincidência é critério importante a ser sopesado (FGV, Delegado PC-PR 2026)."
+   },
+   "aprofundamento": "<p><strong>Os vetores e os postulados.</strong> Para o STF, a insignificância se analisa em conexão com a fragmentariedade e a intervenção mínima (Cebraspe, Delegado PC-PE 2024). Entre os vetores está o reduzidíssimo grau de reprovabilidade, e não \"desvalor relevante\" nem \"mínima periculosidade\" (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Valor não basta, e furto qualificado não veda sozinho.</strong> Furto de R$ 1.200 em equipamentos não é insignificante (Cebraspe, Delegado PC-MA 2018). Está errado dizer que o furto qualificado impede, por si só, a insignificância (Cebraspe, Delegado PF 2021). A restituição imediata e integral do bem também não basta para aplicá-la (Tema 1.205 do STJ; Cebraspe, Delegado PC-PE 2024).</p><p><strong>Onde não cabe.</strong> Não cabe nos crimes contra a Administração Pública, mesmo com réu primário e prejuízo pequeno (Súmula 599 do STJ; Cebraspe, Delegado PC-MA 2018 e Delegado PJC-MT 2017). Não cabe na violência doméstica contra a mulher (Súmula 589 do STJ; Cebraspe, Delegado PC-CE 2025). Nem no tráfico de drogas (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Onde cabe.</strong> É admitida no descaminho, e não no contrabando nem no uso de documento falso (FGV, Delegado PC-AM 2021). O limite de R$ 20 mil vem de portarias da Fazenda e influencia a aplicação nos crimes tributários federais (Cebraspe, Delegado PC-MA 2018). Também pode caber na apreensão de pouca munição sem arma, embora o crime seja de perigo abstrato (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Quem reconhece a insignificância.</strong> O delegado que conclui pela insignificância não arquiva o inquérito, porque isso é vedado à autoridade policial: ele relata e remete os autos ao juiz ou ao MP (FGV, Delegado PC-PR 2026).</p><p><strong>Legalidade exige lei formal e veda analogia contra o réu.</strong> Crime só pode ser criado por lei em sentido formal (Cebraspe, Delegado PC-SE 2018). Interferir no cronômetro por ondas eletromagnéticas não se enquadra, por analogia, no crime de invasão de sistema informático (FGV, Delegado PC-PR 2026).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "lei-penal-no-tempo",
+    "furto",
+    "contrabando-e-descaminho",
+    "peculato"
+   ]
+  },
+  {
    "slug": "lei-penal-no-tempo",
    "titulo": "Lei penal no tempo",
    "grupo": "Parte Geral: aplicação da lei penal",
