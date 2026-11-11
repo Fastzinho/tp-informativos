@@ -1262,6 +1262,233 @@
    ]
   },
   {
+   "slug": "moeda-falsa",
+   "titulo": "Moeda falsa",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Art. 289 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-289"
+   ],
+   "conceitos": [
+    "moeda falsa",
+    "circulação de moeda falsa",
+    "falsificação grosseira"
+   ],
+   "palavras": [
+    "moeda falsa",
+    "papel-moeda",
+    "cedula falsa",
+    "introduzir em circulacao",
+    "recebida de boa-fe",
+    "falsificacao grosseira",
+    "sumula 73",
+    "justica federal",
+    "arrependimento posterior",
+    "insignificancia"
+   ],
+   "resumo": "Falsificar moeda metálica ou papel-moeda de curso legal, no país ou no estrangeiro, é crime com pena de 3 a 12 anos. Na mesma pena incorre quem importa, exporta, adquire, vende, troca, guarda ou introduz moeda falsa na circulação (§ 1º). Quem recebe de boa-fé e, depois de saber da falsidade, a devolve à circulação responde pela forma privilegiada do § 2º (6 meses a 2 anos). O crime exige falsificação capaz de enganar: a <strong>falsificação grosseira</strong> não ofende a fé pública e pode configurar estelionato, da Justiça Estadual (Súmula 73 do STJ). Fora isso, moeda falsa é crime federal.",
+   "esquema": {
+    "rotulo": "qual crime e qual justiça",
+    "html": "<table><thead><tr><th>Situação</th><th>Crime</th><th>Justiça</th></tr></thead><tbody><tr><td><strong>Falsificação apta a enganar</strong></td><td>Moeda falsa (art. 289)</td><td>Federal</td></tr><tr><td><strong>Guardar ou passar adiante sabendo da falsidade</strong></td><td>Art. 289, § 1º (mesma pena)</td><td>Federal</td></tr><tr><td><strong>Recebeu de boa-fé e repassou depois de saber</strong></td><td>Art. 289, § 2º (privilegiada)</td><td>Federal</td></tr><tr><td><strong>Falsificação grosseira usada para enganar alguém</strong></td><td>Estelionato</td><td>Estadual (Súmula 73 do STJ)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 289. Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro:\n\nPena - reclusão, de três a doze anos, e multa.\n\n§ 1º Nas mesmas penas incorre quem, por conta própria ou alheia, importa ou exporta, adquire, vende, troca, cede, empresta, guarda ou introduz na circulação moeda falsa.\n\n§ 2º Quem, tendo recebido de boa fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis meses a dois anos, e multa.\n\n§ 3º É punido com reclusão, de três a quinze anos, e multa, o funcionário público ou diretor, gerente, ou fiscal de banco de emissão que fabrica, emite ou autoriza a fabricação ou emissão:\n\nI - de moeda com título ou peso inferior ao determinado em lei;\n\nII - de papel-moeda em quantidade superior à autorizada.\n\n§ 4º Nas mesmas penas incorre quem desvia e faz circular moeda, cuja circulação não estava ainda autorizada.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "GROSSEIRA VIRA ESTELIONATO",
+     "texto": "Se a nota não engana ninguém, não há moeda falsa. Se enganou uma pessoa específica, é estelionato, na Justiça Estadual."
+    },
+    {
+     "sigla": "BOA-FÉ NA ENTRADA, MÁ-FÉ NA SAÍDA",
+     "texto": "Recebeu sem saber e repassou depois de saber: forma privilegiada do § 2º."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 73",
+     "texto": "A utilização de papel moeda grosseiramente falsificado configura, em tese, o crime de estelionato, da competência da Justiça Estadual."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O crime de moeda falsa é compatível com o arrependimento posterior, desde que o agente repare o dano antes do recebimento da denúncia.",
+    "gabarito": "E",
+    "explicacao": "O bem protegido é a fé pública, um dano que não se repara devolvendo valores. Por isso o arrependimento posterior não se aplica à moeda falsa (Cebraspe, Delegado PF 2021)."
+   },
+   "aprofundamento": "<p><strong>Sem arrependimento posterior.</strong> Como a vítima é a fé pública, não há dano patrimonial a reparar, e o art. 16 não se aplica à moeda falsa (Cebraspe, Delegado PF 2021).</p><p><strong>Fé pública não admite insignificância.</strong> Nos crimes contra a fé pública, como o uso de documento falso, a jurisprudência não aplica o princípio da insignificância. Ele é admitido, por exemplo, no descaminho (FGV, Delegado PC-AM 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "falsificacao-de-documentos",
+    "estelionato"
+   ]
+  },
+  {
+   "slug": "falsificacao-de-documentos",
+   "titulo": "Falsificação de documentos e uso de documento falso",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Arts. 297 a 299 e 304 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-297",
+    "n2848-1940-art-298",
+    "n2848-1940-art-299",
+    "n2848-1940-art-304"
+   ],
+   "conceitos": [
+    "falsidade material",
+    "falsidade ideológica",
+    "documento público por equiparação",
+    "uso de documento falso"
+   ],
+   "palavras": [
+    "falsificacao de documento publico",
+    "documento particular",
+    "falsidade ideologica",
+    "falsidade material",
+    "testamento particular",
+    "livros mercantis",
+    "titulo ao portador",
+    "cartao de credito",
+    "uso de documento falso",
+    "sumula 17",
+    "sumula 546",
+    "declaracao de pobreza"
+   ],
+   "resumo": "Na <strong>falsidade material</strong> (arts. 297 e 298), o agente falsifica ou altera a forma do documento: cria um falso ou adultera um verdadeiro. Na <strong>falsidade ideológica</strong> (art. 299), o documento é formalmente verdadeiro, mas o conteúdo é falso: o agente omite declaração que devia constar ou insere declaração falsa, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante. Algumas peças particulares são tratadas como públicas: documento de entidade paraestatal, título ao portador ou transmissível por endosso, ações de sociedade comercial, livros mercantis e testamento particular. O cartão de crédito ou débito equipara-se a documento particular. Quem usa o papel falso responde pelo art. 304, com a pena da falsificação.",
+   "esquema": {
+    "rotulo": "material × ideológica",
+    "html": "<table><thead><tr><th>Ponto</th><th>Falsidade material</th><th>Falsidade ideológica</th></tr></thead><tbody><tr><td><strong>O que é falso</strong></td><td>A forma (documento forjado ou adulterado)</td><td>O conteúdo (documento verdadeiro, ideia falsa)</td></tr><tr><td><strong>Perícia</strong></td><td>Em regra, a perícia identifica</td><td>A perícia grafotécnica não revela</td></tr><tr><td><strong>Pena (público)</strong></td><td>2 a 6 anos (art. 297)</td><td>1 a 5 anos (art. 299)</td></tr><tr><td><strong>Pena (particular)</strong></td><td>1 a 5 anos (art. 298)</td><td>1 a 3 anos (art. 299)</td></tr><tr><td><strong>Funcionário que se prevalece do cargo</strong></td><td>Aumento de um sexto</td><td>Aumento de um sexto</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 297. Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro:\n\nPena - reclusão, de dois a seis anos, e multa.\n\n§ 1º Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, aumenta-se a pena de sexta parte.\n\n§ 2º Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular.\n\n§ 3º Nas mesmas penas incorre quem insere ou faz inserir:\n\nI - na folha de pagamento ou em documento de informações que seja destinado a fazer prova perante a previdência social, pessoa que não possua a qualidade de segurado obrigatório;\n\nII - na Carteira de Trabalho e Previdência Social do empregado ou em documento que deva produzir efeito perante a previdência social, declaração falsa ou diversa da que deveria ter sido escrita;\n\nIII - em documento contábil ou em qualquer outro documento relacionado com as obrigações da empresa perante a previdência social, declaração falsa ou diversa da que deveria ter constado.\n\n§ 4º Nas mesmas penas incorre quem omite, nos documentos mencionados no § 3º, nome do segurado e seus dados pessoais, a remuneração, a vigência do contrato de trabalho ou de prestação de serviços.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 298. Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro:\n\nPena - reclusão, de um a cinco anos, e multa.\n\nFalsificação de cartão\n\nParágrafo único. Para fins do disposto no caput, equipara-se a documento particular o cartão de crédito ou débito.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 299. Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante:\n\nPena - reclusão, de um a cinco anos, e multa, se o documento é público, e reclusão, de um a três anos, e multa, se o documento é particular.\n\nParágrafo único. Se o agente é funcionário público, e comete o crime prevalecendo-se do cargo, ou se a falsificação ou alteração é de assentamento de registo civil, aumenta-se a pena de sexta parte.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 304. Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os artigos 297 a 302:\n\nPena - a cominada à falsificação ou à alteração.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "PARTICULAR QUE VIRA PÚBLICO",
+     "texto": "Art. 297, § 2º: documento de paraestatal, título ao portador ou por endosso, ações de sociedade comercial, livros mercantis e testamento particular."
+    },
+    {
+     "sigla": "CARTÃO É PARTICULAR",
+     "texto": "Cartão de crédito ou débito equipara-se a documento particular (art. 298, parágrafo único), não a público."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 17",
+     "texto": "Quando o falso se exaure no estelionato, sem mais potencialidade lesiva, é por este absorvido."
+    },
+    {
+     "quem": "STJ · Súmula 546",
+     "texto": "A competência para processar e julgar o crime de uso de documento falso é firmada em razão da entidade ou órgão ao qual foi apresentado o documento público, não importando a qualificação do órgão expedidor."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Configura falsificação de documento público a alteração material de testamento particular, de livros mercantis e de títulos ao portador ou transmissíveis por endosso.",
+    "gabarito": "C",
+    "explicacao": "Todos estão no rol do art. 297, § 2º, que os equipara a documento público para efeitos penais (Cebraspe, Delegado PC-DF 2026)."
+   },
+   "aprofundamento": "<p><strong>Testamento particular é documento público; cartão é particular.</strong> Quem falsifica em parte um testamento particular responde por falsificação de documento público. Quem falsifica um cartão de crédito responde por falsificação de documento particular. Já o funcionário que insere declaração falsa prevalecendo-se do cargo responde por falsidade ideológica com aumento, e não na forma simples (FGV, Delegado PC-MG 2024).</p><p><strong>Falsidade ideológica não se renova com os efeitos.</strong> É crime instantâneo de efeitos permanentes. O prazo prescricional não recomeça a cada vez que o documento produz efeitos (Cebraspe, Delegado PF 2021).</p><p><strong>Licenciamento ambiental tem crime próprio.</strong> O funcionário que faz afirmação falsa em procedimento de autorização ou licenciamento ambiental responde pelo crime especial da Lei 9.605/1998 (art. 66), e não pelo art. 299 do CP (Cebraspe, Delegado PF 2021).</p><p><strong>Declarar-se pobre falsamente em juízo é atípico.</strong> A declaração de hipossuficiência para obter gratuidade de justiça tem presunção relativa e se sujeita a verificação pelo juiz. Para o STJ, a falsidade dela não configura falsidade ideológica nem uso de documento falso (Cebraspe, Delegado PC-RJ 2022).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "falsa-identidade",
+    "estelionato",
+    "moeda-falsa"
+   ]
+  },
+  {
+   "slug": "falsa-identidade",
+   "titulo": "Falsa identidade",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Art. 307 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-307"
+   ],
+   "conceitos": [
+    "falsa identidade",
+    "autodefesa",
+    "uso de documento falso"
+   ],
+   "palavras": [
+    "falsa identidade",
+    "atribuir-se",
+    "autodefesa",
+    "sumula 522",
+    "nemo tenetur",
+    "documento falso",
+    "foragido",
+    "subsidiariedade expressa"
+   ],
+   "resumo": "Atribuir-se ou atribuir a terceiro falsa identidade, para obter vantagem ou causar dano a outrem, é crime de menor potencial ofensivo (3 meses a 1 ano, ou multa). É expressamente <strong>subsidiário</strong>: só incide se o fato não constitui crime mais grave. A conduta é verbal, sem papel falso. Quem apresenta documento de identidade falso comete <strong>uso de documento falso</strong> (art. 304), crime mais grave. Para o STJ, a falsa identidade perante a autoridade policial é típica, ainda que alegada a autodefesa (Súmula 522).",
+   "esquema": {
+    "rotulo": "falsa identidade × uso de documento falso",
+    "html": "<table><thead><tr><th>Conduta</th><th>Crime</th></tr></thead><tbody><tr><td><strong>Diz um nome falso ao policial para esconder antecedentes</strong></td><td>Falsa identidade (art. 307), típica mesmo em autodefesa</td></tr><tr><td><strong>Apresenta carteira de identidade falsificada</strong></td><td>Uso de documento falso (art. 304)</td></tr><tr><td><strong>Usa a identidade falsa como meio de um crime mais grave</strong></td><td>Só o crime mais grave (subsidiariedade expressa)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 307. Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem:\n\nPena - detenção, de três meses a um ano, ou multa, se o fato não constitui elementos de crime mais grave.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "FALOU × MOSTROU",
+     "texto": "Falou um nome falso: falsa identidade. Mostrou documento falso: uso de documento falso."
+    },
+    {
+     "sigla": "AUTODEFESA NÃO SALVA",
+     "texto": "O direito de não produzir prova contra si não autoriza mentir sobre quem você é (Súmula 522 do STJ)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 522",
+     "texto": "A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O foragido do sistema carcerário que apresenta carteira de identidade falsa à autoridade policial para evitar a prisão pratica o crime de falsa identidade.",
+    "gabarito": "E",
+    "explicacao": "Apresentar documento falsificado é uso de documento falso (art. 304). A falsa identidade do art. 307 é a atribuição de identidade sem uso de documento falso, e é subsidiária (Cebraspe, Delegado PF 2021)."
+   },
+   "aprofundamento": "<p><strong>Autodefesa não torna a mentira atípica.</strong> Atribuir-se falsa identidade perante a autoridade policial é crime mesmo em evidente autodefesa (Súmula 522 do STJ). Está errado dizer que é atípica (Cebraspe, Delegado PC-AL 2023), e certo dizer que é fato típico (FGV, Delegado PC-RN 2021).</p><p><strong>Documento falso muda o crime.</strong> O foragido que mostra carteira de identidade falsificada responde por uso de documento falso, e não por falsa identidade (Cebraspe, Delegado PF 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "falsificacao-de-documentos"
+   ]
+  },
+  {
    "slug": "peculato",
    "titulo": "Peculato",
    "grupo": "Crimes contra a Administração Pública",
