@@ -12,10 +12,12 @@ Regras:
   ou, na falta dele, o número em "fonte" ("Decreto-Lei 2.848/1940" vira n2848-1940;
   "Constituição" vira nCF-1988).
 - O texto é dividido por artigo ("Art. 312."). Cada parágrafo do caderno tem de existir, igual,
-  no artigo do acervo (só espaços são normalizados). Pode omitir incisos e parágrafos (trecho),
-  e uma linha "(...)" marca a omissão. Notas de redação no fim do parágrafo ("(Incluído pela...)")
+  no artigo do acervo (só espaços são normalizados). Notas de redação no fim do parágrafo ("(Incluído pela...)")
   não contam. Não pode trocar palavra, pena ou número.
-- A ordem dos parágrafos tem de ser a do acervo.
+- O artigo vai INTEIRO, na ordem do acervo, com epígrafes e parágrafos acrescidos depois ("§ 4º-A", "§ 12").
+  Omitir só com uma linha "(...)" no lugar exato do corte, que aparece para o aluno. Corte calado é erro
+  (2026-11-11: o art. 155 do caderno parava no § 4º, IV, e faltavam o inciso V e os §§ 4º-A a 12).
+  Para gerar o texto completo: --completar reescreve cada bloco "lei" com o artigo inteiro do acervo.
 
 Também confere se `tax` e `dispositivos` de cada tema existem no app.
 
@@ -105,9 +107,10 @@ def confere(acervo, arquivo):
                     erros.append('%s: %s não existe em %s.' % (onde, rotulo, nid))
                     continue
                 oficiais = [sem_nota(norm(x)) for x in re.split(r'\n\s*\n', u['text']) if norm(x)]
-                pos = -1
+                pos, corte = -1, False
                 for p in pars:
                     if p in ('(...)', '[...]', '...'):
+                        corte = True
                         continue
                     try:
                         achou = oficiais.index(p, pos + 1)
@@ -118,9 +121,57 @@ def confere(acervo, arquivo):
                             parecido = max(oficiais, key=lambda o: _semelhanca(o, p))
                             erros.append('%s: %s diverge do acervo.\n    caderno: %s\n    acervo:  %s' % (onde, rotulo, p[:300], parecido[:300]))
                         continue
+                    if achou > pos + 1 and not corte:
+                        erros.append('%s: %s omite sem "(...)": %s' % (onde, rotulo, _rotulos(oficiais[pos + 1:achou])))
                     pos = achou
+                    corte = False
+                if pos < len(oficiais) - 1 and not corte:
+                    erros.append('%s: %s omite sem "(...)" o fim do artigo: %s' % (onde, rotulo, _rotulos(oficiais[pos + 1:])))
                 ok += 1
     return ok, erros
+
+
+def _rotulos(pars):
+    """Resumo do que ficou de fora: os rótulos ("§ 4º-A", "V") ou o começo do parágrafo."""
+    out = []
+    for p in pars:
+        m = re.match(r'(§\s*\d+[º°o]?(?:-[A-Z])?|Parágrafo único|[IVXLC]+\s*-|[a-z]\)|Pena)', p)
+        out.append(m.group(1) if m else '"%s"' % p[:40])
+    return ', '.join(out)
+
+
+def completar(acervo, arquivo):
+    """Reescreve cada bloco "lei" com os artigos inteiros do acervo, sem notas de redação."""
+    s = open(arquivo, encoding='utf-8').read()
+    disc = json.loads(s)
+    so_rotulo = re.compile(r'^(§\s*\d+[º°o]?(?:-[A-Z])?\.?|Parágrafo único\.?|[IVXLC]+\s*-|[a-z]\))$')
+    mudou = 0
+    for tema in disc.get('temas', []):
+        for item in tema.get('lei') or []:
+            unidades = carrega(acervo, norma_de(item)) or {}
+            out = []
+            for rotulo, _ in artigos(item.get('texto', '')):
+                u = unidades.get(rotulo)
+                if not u:
+                    continue
+                for x in re.split(r'\n\s*\n', u['text']):
+                    if not norm(x):
+                        continue
+                    p = sem_nota(norm(x))
+                    if so_rotulo.match(p):  # revogado: sem a nota sobraria só o rótulo
+                        p = p + ' (Revogado)' if re.search(r'revogad', x, re.I) else norm(x)
+                    out.append(p)
+            novo = '\n\n'.join(out)
+            if out and novo != item.get('texto'):
+                antigo = json.dumps(item['texto'], ensure_ascii=False)
+                if s.count(antigo) == 1:  # troca só a string: preserva a formatação do arquivo
+                    s = s.replace(antigo, json.dumps(novo, ensure_ascii=False))
+                    item['texto'] = novo
+                    mudou += 1
+                    print('completado: %s#%s' % (os.path.basename(arquivo), tema.get('slug')))
+    if mudou:
+        open(arquivo, 'w', encoding='utf-8').write(s)
+    return mudou
 
 
 def _semelhanca(a, b):
@@ -153,10 +204,14 @@ def confere_ligacoes(acervo, arquivos):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--acervo', required=True, help='pasta codigo-fonte/public/legal do app')
+    ap.add_argument('--completar', action='store_true', help='reescreve os blocos "lei" com os artigos inteiros do acervo')
     ap.add_argument('arquivos', nargs='*')
     a = ap.parse_args()
     raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     arquivos = a.arquivos or sorted(glob.glob(os.path.join(raiz, 'cadernos', '*.json')))
+    if a.completar:
+        for arq in arquivos:
+            completar(a.acervo, arq)
     total, todos = 0, []
     for arq in arquivos:
         ok, erros = confere(a.acervo, arq)
