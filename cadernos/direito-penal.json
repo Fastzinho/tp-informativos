@@ -9,6 +9,426 @@
  "revisado_rotulo": "Lei e jurisprudência conferidas",
  "temas": [
   {
+   "slug": "lei-penal-no-tempo",
+   "titulo": "Lei penal no tempo",
+   "grupo": "Parte Geral: aplicação da lei penal",
+   "base": "Arts. 2º a 4º do CP",
+   "tax": [
+    "penal.aplicacao-lei-penal-tempo-espaco",
+    "penal.irretroatividade-lei-penal",
+    "penal.lei-penal-excepcional-especial-temporaria"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-2",
+    "n2848-1940-art-3",
+    "n2848-1940-art-4"
+   ],
+   "conceitos": [
+    "abolitio criminis",
+    "novatio legis",
+    "lei penal no tempo",
+    "retroatividade da lei penal"
+   ],
+   "palavras": [
+    "abolitio criminis",
+    "novatio legis in mellius",
+    "novatio legis in pejus",
+    "ultratividade",
+    "extra-atividade",
+    "lei temporaria",
+    "lei excepcional",
+    "sumula 711",
+    "combinacao de leis",
+    "teoria da atividade"
+   ],
+   "resumo": "Vale a lei do tempo do crime, que é o momento da ação ou omissão (teoria da atividade, art. 4º). A lei mais grave nunca retroage. A mais benéfica sempre volta, até depois do trânsito em julgado: a <strong>abolitio criminis</strong> apaga a execução e os efeitos penais, e a lei que de qualquer modo favorece se aplica aos fatos anteriores. A lei mais benéfica também é ultra-ativa. Ao conjunto chama-se <strong>extra-atividade</strong>. A exceção é a lei excepcional ou temporária, que continua valendo para os fatos da sua vigência mesmo depois de acabar (art. 3º).",
+   "esquema": {
+    "rotulo": "qual lei aplicar",
+    "html": "<table><thead><tr><th>Situação</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Lei nova deixa de considerar crime</strong></td><td><em>Abolitio criminis</em>: cessa a execução e os efeitos penais (os civis ficam)</td></tr><tr><td><strong>Tipo revogado, mas a conduta passa para outro tipo</strong></td><td>Não há <em>abolitio</em>: continuidade normativo-típica</td></tr><tr><td><strong>Lei nova mais benéfica</strong></td><td>Retroage, mesmo após o trânsito em julgado (juízo da execução, Súmula 611 do STF)</td></tr><tr><td><strong>Lei nova mais grave</strong></td><td>Não retroage; a anterior é ultra-ativa</td></tr><tr><td><strong>Três leis: a do meio é a melhor</strong></td><td>Aplica-se a intermediária (retroage e é ultra-ativa)</td></tr><tr><td><strong>Crime permanente ou continuado</strong></td><td>Lei mais grave vigente antes de cessar a permanência ou a continuidade (Súmula 711 do STF)</td></tr><tr><td><strong>Lei excepcional ou temporária</strong></td><td>Ultra-ativa: rege os fatos da sua vigência</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 2º Ninguém pode ser punido por fato que lei posterior deixa de considerar crime, cessando em virtude dela a execução e os efeitos penais da sentença condenatória.\n\nParágrafo único. A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 3º A lei excepcional ou temporária, embora decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, aplica-se ao fato praticado durante sua vigência.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 4º Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "LUTA",
+     "texto": "Lugar: Ubiquidade. Tempo: Atividade."
+    },
+    {
+     "sigla": "BENÉFICA VAI E VOLTA",
+     "texto": "A lei mais benéfica retroage e é ultra-ativa (extra-atividade). A mais grave não se mexe para trás."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 711",
+     "texto": "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência."
+    },
+    {
+     "quem": "STF · Súmula 611",
+     "texto": "Transitada em julgado a sentença condenatória, compete ao juízo das execuções a aplicação de lei mais benigna."
+    },
+    {
+     "quem": "STJ · Súmula 501",
+     "texto": "É cabível a aplicação retroativa da Lei 11.343/2006, desde que o resultado da incidência das suas disposições, na íntegra, seja mais favorável ao réu do que o da Lei 6.368/1976, sendo vedada a combinação de leis."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se um tipo penal é formalmente revogado, mas a conduta passa a ser descrita em outro tipo, ocorre abolitio criminis e o agente não responde pelo fato anterior.",
+    "gabarito": "E",
+    "explicacao": "É continuidade normativo-típica: a conduta continua crime, só mudou de endereço. O agente responde (Cebraspe, Delegado PF 2018)."
+   },
+   "aprofundamento": "<p><strong>Revogar o artigo não é descriminalizar.</strong> Se a conduta migra para outro tipo penal, não há <em>abolitio criminis</em>, e sim continuidade normativo-típica. O agente segue respondendo, pela lei que lhe for mais favorável (Cebraspe, Delegado PF 2018).</p><p><strong>Crime permanente pega a lei nova, mesmo mais grave.</strong> Quem mantém droga em depósito desde antes da lei mais severa e é preso depois que ela entra em vigor responde pela lei nova: a permanência ainda não tinha cessado (Súmula 711 do STF; FGV, Delegado PC-PR 2026).</p><p><strong>A lei do meio pode vencer.</strong> Se a pena foi reduzida por uma segunda lei e depois restabelecida por uma terceira, aplica-se a intermediária, que é a mais benéfica: ela retroage para alcançar o fato e é ultra-ativa diante da lei posterior mais grave (FGV, Delegado PC-PR 2026).</p><p><strong>Extra-atividade é da lei benéfica.</strong> O termo junta retroatividade e ultratividade, e só vale para a lei mais benéfica. A lei mais severa não tem nenhuma das duas (Cebraspe, Delegado PC-MA 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "lugar-do-crime-e-extraterritorialidade"
+   ]
+  },
+  {
+   "slug": "lugar-do-crime-e-extraterritorialidade",
+   "titulo": "Lugar do crime e extraterritorialidade",
+   "grupo": "Parte Geral: aplicação da lei penal",
+   "base": "Arts. 5º a 7º do CP",
+   "tax": [
+    "penal.territorialidade-extraterritorialidade-lei-penal",
+    "penal.tempo-lugar-crime",
+    "penal.aplicacao-lei-penal-tempo-espaco"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-5",
+    "n2848-1940-art-6",
+    "n2848-1940-art-7"
+   ],
+   "conceitos": [
+    "extraterritorialidade",
+    "territorialidade",
+    "lugar do crime",
+    "ubiquidade"
+   ],
+   "palavras": [
+    "ubiquidade",
+    "territorio nacional",
+    "embarcacao",
+    "aeronave",
+    "crime no exterior",
+    "incondicionada",
+    "condicionada",
+    "hipercondicionada"
+   ],
+   "resumo": "Em regra, a lei brasileira vale para o crime cometido no território nacional, que inclui navios e aeronaves públicos onde estiverem e os privados em alto-mar ou no espaço aéreo correspondente (art. 5º). O lugar do crime é tanto o da ação quanto o do resultado (<strong>ubiquidade</strong>, art. 6º). Fora do país, a lei brasileira alcança os crimes do art. 7º, I, sem condição nenhuma, e os do art. 7º, II e § 3º, só se reunidas as condições do § 2º.",
+   "esquema": {
+    "rotulo": "extraterritorialidade",
+    "html": "<table><thead><tr><th>Espécie</th><th>Crimes</th><th>Condições</th></tr></thead><tbody><tr><td><strong>Incondicionada (I)</strong></td><td>Contra a vida ou a liberdade do Presidente; contra o patrimônio ou a fé pública de entes e entidades públicas brasileiras; contra a Administração Pública por quem está a seu serviço; genocídio por brasileiro ou domiciliado no Brasil</td><td>Nenhuma: punido mesmo se absolvido ou condenado lá fora (§ 1º)</td></tr><tr><td><strong>Condicionada (II)</strong></td><td>Tratado ou convenção; praticados por brasileiro; em aeronave ou embarcação brasileira privada não julgados no estrangeiro</td><td>Todas as do § 2º: entrar no Brasil, dupla tipicidade, crime extraditável, não absolvido nem cumprida a pena lá, punibilidade não extinta</td></tr><tr><td><strong>Hipercondicionada (§ 3º)</strong></td><td>Estrangeiro contra brasileiro fora do Brasil</td><td>As do § 2º, mais: extradição não pedida ou negada e requisição do Ministro da Justiça</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 5º Aplica-se a lei brasileira, sem prejuízo de convenções, tratados e regras de direito internacional, ao crime cometido no território nacional.\n\n§ 1º Para os efeitos penais, consideram-se como extensão do território nacional as embarcações e aeronaves brasileiras, de natureza pública ou a serviço do governo brasileiro, onde quer que se encontrem, bem como as aeronaves e as embarcações brasileiras, mercantes ou de propriedade privada, que se achem, respectivamente, no espaço aéreo correspondente ou em alto-mar.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 6º Considera-se praticado o crime no lugar em que ocorreu a ação ou omissão, no todo ou em parte, bem como onde se produziu ou deveria produzir-se o resultado.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 7º Ficam sujeitos à lei brasileira, embora cometidos no estrangeiro:\n\nI - os crimes:\n\na) contra a vida ou a liberdade do Presidente da República;\n\nb) contra o patrimônio ou a fé pública da União, do Distrito Federal, de Estado, de Território, de Município, de empresa pública, sociedade de economia mista, autarquia ou fundação instituída pelo Poder Público;\n\nc) contra a administração pública, por quem está a seu serviço;\n\nd) de genocídio, quando o agente for brasileiro ou domiciliado no Brasil;\n\nII - os crimes:\n\na) que, por tratado ou convenção, o Brasil se obrigou a reprimir;\n\nb) praticados por brasileiro;\n\nc) praticados em aeronaves ou embarcações brasileiras, mercantes ou de propriedade privada, quando em território estrangeiro e aí não sejam julgados.\n\n§ 1º Nos casos do inciso I, o agente é punido segundo a lei brasileira, ainda que absolvido ou condenado no estrangeiro.\n\n§ 2º Nos casos do inciso II, a aplicação da lei brasileira depende do concurso das seguintes condições:\n\na) entrar o agente no território nacional;\n\nb) ser o fato punível também no país em que foi praticado;\n\nc) estar o crime incluído entre aqueles pelos quais a lei brasileira autoriza a extradição;\n\nd) não ter sido o agente absolvido no estrangeiro ou não ter aí cumprido a pena;\n\ne) não ter sido o agente perdoado no estrangeiro ou, por outro motivo, não estar extinta a punibilidade, segundo a lei mais favorável.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "LUTA",
+     "texto": "Lugar: Ubiquidade. Tempo: Atividade."
+    },
+    {
+     "sigla": "INCISO I = INCONDICIONADA",
+     "texto": "Os crimes do inciso I alcançam o agente sem condição nenhuma, ainda que já julgado no estrangeiro."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "Nos crimes tentados, considera-se lugar do crime aquele onde o agente pretendia que ocorresse a consumação.",
+    "gabarito": "C",
+    "explicacao": "O art. 6º fala do lugar onde se produziu \"ou deveria produzir-se\" o resultado. A tentativa também atrai a ubiquidade (Cebraspe, Delegado PC-MA 2018)."
+   },
+   "aprofundamento": "<p><strong>Tentativa também é ubiquidade.</strong> O lugar do crime inclui onde o resultado \"deveria produzir-se\". Por isso, no crime tentado, conta o lugar planejado para a consumação (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Autarquia estrangeira não é a do inciso I.</strong> A extraterritorialidade incondicionada do art. 7º, I, b, protege o patrimônio de entes e entidades públicas brasileiras. Estelionato de brasileiro contra autarquia de outro país cai no inciso II, b (crime praticado por brasileiro), e exige todas as condições do § 2º, como entrar no território nacional e o fato ser punível também lá (FGV, Delegado PC-PR 2026).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "lei-penal-no-tempo"
+   ]
+  },
+  {
+   "slug": "tentativa-desistencia-e-arrependimento",
+   "titulo": "Tentativa, desistência e arrependimento",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 14 a 17 do CP",
+   "tax": [
+    "penal.consumacao-tentativa",
+    "penal.desistencia-voluntaria-arrependimento-eficaz-arrependimento",
+    "penal.crime-impossivel"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-14",
+    "n2848-1940-art-15",
+    "n2848-1940-art-16",
+    "n2848-1940-art-17"
+   ],
+   "conceitos": [
+    "tentativa",
+    "desistência voluntária",
+    "arrependimento eficaz",
+    "arrependimento posterior",
+    "crime impossível"
+   ],
+   "palavras": [
+    "iter criminis",
+    "ponte de ouro",
+    "ponte de prata",
+    "crime impossivel",
+    "flagrante preparado",
+    "reparacao do dano",
+    "sumula 145",
+    "sumula 567"
+   ],
+   "resumo": "Na <strong>tentativa</strong>, a execução começa e o crime não se consuma por circunstâncias alheias à vontade do agente; a pena cai de um a dois terços. Na <strong>desistência voluntária</strong> e no <strong>arrependimento eficaz</strong>, é o próprio agente quem para ou impede o resultado: ele não responde pela tentativa, só pelos atos já praticados. O <strong>arrependimento posterior</strong> vem depois da consumação: reparar o dano ou restituir a coisa, por ato voluntário, até o recebimento da denúncia, em crime sem violência ou grave ameaça, reduz a pena de um a dois terços. No <strong>crime impossível</strong>, nem a tentativa é punida.",
+   "esquema": {
+    "rotulo": "quem interrompe e o que acontece",
+    "html": "<table><thead><tr><th>Instituto</th><th>Momento</th><th>Efeito</th></tr></thead><tbody><tr><td><strong>Tentativa (14, II)</strong></td><td>Na execução; fator alheio impede</td><td>Pena do consumado reduzida de 1/3 a 2/3</td></tr><tr><td><strong>Desistência voluntária (15)</strong></td><td>Na execução; o agente para</td><td>Responde só pelos atos já praticados</td></tr><tr><td><strong>Arrependimento eficaz (15)</strong></td><td>Execução acabou; o agente impede o resultado</td><td>Responde só pelos atos já praticados</td></tr><tr><td><strong>Arrependimento posterior (16)</strong></td><td>Crime consumado, sem violência ou grave ameaça; repara até o recebimento da denúncia</td><td>Pena reduzida de 1/3 a 2/3</td></tr><tr><td><strong>Crime impossível (17)</strong></td><td>Meio absolutamente ineficaz ou objeto absolutamente impróprio</td><td>Fato atípico; não se pune nem a tentativa</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 14. Diz-se o crime:\n\n(...)\n\nI - consumado, quando nele se reúnem todos os elementos de sua definição legal;\n\n(...)\n\nII - tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente.\n\n(...)\n\nParágrafo único. Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída de um a dois terços.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 15. O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 16. Nos crimes cometidos sem violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 17. Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "POSSO, MAS NÃO QUERO",
+     "texto": "Desistência voluntária: o agente podia prosseguir e não quis. Tentativa: queria prosseguir e não pôde (fórmula de Frank)."
+    },
+    {
+     "sigla": "RECEBIMENTO, NÃO OFERECIMENTO",
+     "texto": "O arrependimento posterior vale até o recebimento da denúncia ou da queixa."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 145",
+     "texto": "Não há crime, quando a preparação do flagrante pela polícia torna impossível a sua consumação."
+    },
+    {
+     "quem": "STJ · Súmula 567",
+     "texto": "Sistema de vigilância realizado por monitoramento eletrônico ou por existência de segurança no interior de estabelecimento comercial, por si só, não torna impossível a configuração do crime de furto."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O arrependimento posterior exige a reparação voluntária do dano até o oferecimento da denúncia.",
+    "gabarito": "E",
+    "explicacao": "O marco é o recebimento da denúncia ou da queixa, e não o oferecimento (art. 16; Cebraspe, Delegado PC-PB 2022)."
+   },
+   "aprofundamento": "<p><strong>Desistir não deixa tentativa.</strong> Na desistência voluntária e no arrependimento eficaz, o agente não responde por crime tentado, mas só pelos atos já praticados (Cebraspe, Delegado PC-AL 2023). E não há redução de um a dois terços: essa fração é da tentativa e do arrependimento posterior (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Devolver o furtado é arrependimento posterior.</strong> A restituição voluntária e integral do bem antes do recebimento da denúncia não torna o fato insignificante nem vira arrependimento eficaz, porque o furto já se consumou. É causa de diminuição do art. 16 (FGV, Delegado PC-RN 2021; Cebraspe, Delegado PC-PE 2024).</p><p><strong>Com violência ou grave ameaça, não cabe.</strong> Devolver o bem roubado com arma, mesmo antes da denúncia, não gera a redução do art. 16 (Cebraspe, Delegado PC-DF 2026).</p><p><strong>A reparação de um aproveita aos outros.</strong> O arrependimento posterior é circunstância objetiva: reparado o dano por um dos corréus, a redução se estende aos demais (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Câmera não torna o furto impossível.</strong> Vigilância eletrônica ou seguranças, por si sós, não configuram crime impossível por ineficácia absoluta do meio (Súmula 567 do STJ; Cebraspe, Delegado PF 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "furto",
+    "concurso-de-pessoas"
+   ]
+  },
+  {
+   "slug": "erro-de-tipo-e-erro-de-proibicao",
+   "titulo": "Erro de tipo e erro de proibição",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 20, 21, 73 e 74 do CP",
+   "tax": [
+    "penal.erro-tipo-erro-determinado-terceiro",
+    "penal.erro-proibicao",
+    "penal.descriminantes-putativas"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-20",
+    "n2848-1940-art-21",
+    "n2848-1940-art-73",
+    "n2848-1940-art-74"
+   ],
+   "conceitos": [
+    "erro de tipo",
+    "erro de proibição",
+    "descriminantes putativas",
+    "aberratio ictus",
+    "erro sobre a pessoa"
+   ],
+   "palavras": [
+    "erro sobre a pessoa",
+    "aberratio ictus",
+    "aberratio criminis",
+    "erro na execucao",
+    "resultado diverso do pretendido",
+    "legitima defesa putativa",
+    "delito putativo",
+    "erro determinado por terceiro"
+   ],
+   "resumo": "No <strong>erro de tipo</strong>, o agente se engana sobre um elemento do crime: o erro exclui o dolo e só permite punir por culpa, se houver forma culposa (art. 20). No <strong>erro de proibição</strong>, ele sabe o que faz, mas acha que é permitido: se inevitável, isenta de pena; se evitável, reduz de um sexto a um terço (art. 21). Erros acidentais não livram o agente: no erro sobre a pessoa e no erro na execução, ele responde como se tivesse atingido quem queria.",
+   "esquema": {
+    "rotulo": "qual erro é qual",
+    "html": "<table><thead><tr><th>Erro</th><th>Exemplo</th><th>Consequência</th></tr></thead><tbody><tr><td><strong>De tipo essencial (20)</strong></td><td>Leva a mala alheia achando que é a sua</td><td>Exclui o dolo; culpa só se prevista</td></tr><tr><td><strong>Descriminante putativa (20, § 1º)</strong></td><td>Atira em quem supõe estar sacando arma</td><td>Isento se o erro é justificado; culpa se evitável</td></tr><tr><td><strong>Determinado por terceiro (20, § 2º)</strong></td><td>A faz B levar objeto alheio como se fosse de A</td><td>Responde quem provocou o erro</td></tr><tr><td><strong>Sobre a pessoa (20, § 3º)</strong></td><td>Confunde a vítima com o alvo</td><td>Valem as qualidades do alvo pretendido</td></tr><tr><td><strong>Na execução (73)</strong></td><td>Erra o tiro e atinge terceiro</td><td>Responde como se atingisse o alvo; se atinge os dois, concurso formal</td></tr><tr><td><strong>Resultado diverso (74)</strong></td><td>Joga pedra na vitrine e fere alguém</td><td>Culpa pelo resultado não querido, se prevista</td></tr><tr><td><strong>De proibição (21)</strong></td><td>Acha que a conduta é permitida</td><td>Inevitável: isenta; evitável: reduz de 1/6 a 1/3</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 20. O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.\n\n(...)\n\n§ 1º É isento de pena quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima. Não há isenção de pena quando o erro deriva de culpa e o fato é punível como crime culposo.\n\n(...)\n\n§ 2º Responde pelo crime o terceiro que determina o erro.\n\n(...)\n\n§ 3º O erro quanto à pessoa contra a qual o crime é praticado não isenta de pena. Não se consideram, neste caso, as condições ou qualidades da vítima, senão as da pessoa contra quem o agente queria praticar o crime.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 21. O desconhecimento da lei é inescusável. O erro sobre a ilicitude do fato, se inevitável, isenta de pena; se evitável, poderá diminuí-la de um sexto a um terço.\n\nParágrafo único. Considera-se evitável o erro se o agente atua ou se omite sem a consciência da ilicitude do fato, quando lhe era possível, nas circunstâncias, ter ou atingir essa consciência.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 73. Quando, por acidente ou erro no uso dos meios de execução, o agente, ao invés de atingir a pessoa que pretendia ofender, atinge pessoa diversa, responde como se tivesse praticado o crime contra aquela, atendendo-se ao disposto no § 3º do art. 20 deste Código. No caso de ser também atingida a pessoa que o agente pretendia ofender, aplica-se a regra do art. 70 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "TIPO = O QUÊ · PROIBIÇÃO = PODE?",
+     "texto": "Erro de tipo: o agente não sabe o que faz. Erro de proibição: sabe o que faz, mas acha que pode."
+    },
+    {
+     "sigla": "VALE O ALVO",
+     "texto": "No erro sobre a pessoa e no erro na execução, valem as qualidades da vítima que o agente queria atingir."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "No erro sobre a pessoa, consideram-se as características da vítima real, e não as da pessoa que seria o alvo da ação.",
+    "gabarito": "E",
+    "explicacao": "É o contrário: valem as condições ou qualidades da pessoa contra quem o agente queria praticar o crime (art. 20, § 3º; Cebraspe, Delegado PC-ES 2022)."
+   },
+   "aprofundamento": "<p><strong>Errar o tiro não vira culpa.</strong> Quem atira no desafeto e, por erro na execução, mata a pedestre ao lado responde por homicídio doloso consumado, como se tivesse atingido o alvo. Não é \"resultado diverso do pretendido\", que é o art. 74 (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Vítima virtual, não real.</strong> No erro sobre a pessoa, contam as qualidades de quem o agente queria atingir (art. 20, § 3º). Trocar \"virtual\" por \"real\" é a pegadinha mais comum (Cebraspe, Delegado PC-ES 2022).</p><p><strong>Quem engana responde.</strong> Quem diz ao amigo que a TV do imóvel alugado é sua e pede ajuda para levá-la responde pelo furto. O amigo, enganado, não responde: é erro determinado por terceiro (art. 20, § 2º; FGV, Delegado PC-RN 2021).</p><p><strong>Erro de proibição x delito putativo.</strong> No erro de proibição, o agente acha lícito o que é proibido. No delito putativo por erro de proibição é o inverso: acha proibido o que é indiferente penal, e não há crime (Cebraspe, Delegado PC-AL 2023).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "concurso-de-pessoas"
+   ]
+  },
+  {
+   "slug": "concurso-de-pessoas",
+   "titulo": "Concurso de pessoas",
+   "grupo": "Parte Geral: teoria do crime",
+   "base": "Arts. 29 a 31 do CP",
+   "tax": [
+    "penal.concurso-agentes",
+    "penal.autoria-participacao",
+    "penal.elementares-circunstancias"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-29",
+    "n2848-1940-art-30",
+    "n2848-1940-art-31"
+   ],
+   "conceitos": [
+    "concurso de pessoas",
+    "concurso de agentes",
+    "coautoria",
+    "participação",
+    "domínio do fato",
+    "autoria mediata"
+   ],
+   "palavras": [
+    "coautor",
+    "participe",
+    "liame subjetivo",
+    "monista",
+    "participacao de menor importancia",
+    "cooperacao dolosamente distinta",
+    "comunicabilidade",
+    "elementares",
+    "instigacao",
+    "induzimento"
+   ],
+   "resumo": "Quem de qualquer modo concorre para o crime responde por ele, na medida de sua culpabilidade (teoria monista, art. 29). Exige pluralidade de condutas, relevância causal, liame subjetivo e o mesmo crime; o liame dispensa ajuste prévio. A participação de menor importância reduz a pena de um sexto a um terço, e quem quis crime menos grave responde por ele (cooperação dolosamente distinta). Circunstâncias pessoais não se comunicam, salvo quando elementares do crime (art. 30). Ajustar, instigar ou auxiliar não é punível se o crime não chega a ser tentado (art. 31).",
+   "esquema": {
+    "rotulo": "o que se comunica (art. 30)",
+    "html": "<table><thead><tr><th>Dado</th><th>Comunica ao comparsa?</th></tr></thead><tbody><tr><td><strong>Elementar pessoal (ex.: ser funcionário público no peculato)</strong></td><td>Sim, se o comparsa sabe</td></tr><tr><td><strong>Circunstância objetiva (ex.: arrependimento posterior, emprego de arma)</strong></td><td>Sim, se entrou na esfera de conhecimento</td></tr><tr><td><strong>Circunstância pessoal (ex.: reincidência, motivo, relação doméstica)</strong></td><td>Não</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 29. Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade.\n\n§ 1º Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço.\n\n§ 2º Se algum dos concorrentes quis participar de crime menos grave, ser-lhe-á aplicada a pena deste; essa pena será aumentada até metade, na hipótese de ter sido previsível o resultado mais grave.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 30. Não se comunicam as circunstâncias e as condições de caráter pessoal, salvo quando elementares do crime.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 31. O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "P · R · L · I",
+     "texto": "Requisitos: Pluralidade de condutas, Relevância causal, Liame subjetivo, Identidade de crime."
+    },
+    {
+     "sigla": "MENOR IMPORTÂNCIA = PARTÍCIPE",
+     "texto": "A redução do § 1º é para a participação; coautor não é \"de menor importância\"."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF e STJ · entendimento consolidado",
+     "texto": "A teoria do domínio do fato serve para distinguir autor de partícipe, mas não autoriza, por si só, a imputação de crime sem a descrição da conduta do acusado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para que fique caracterizado o concurso de pessoas, é necessário que exista o prévio ajuste entre os agentes delitivos para a prática do delito.",
+    "gabarito": "E",
+    "explicacao": "Basta o liame subjetivo, a adesão consciente de um à conduta do outro, que pode surgir durante a execução e até ser unilateral (Cebraspe, Delegado PC-SE 2018)."
+   },
+   "aprofundamento": "<p><strong>Sem ajuste prévio, ainda há concurso.</strong> O vínculo exigido é o liame subjetivo, e não um acordo anterior. Afirmar que o concurso exige prévio ajuste está errado (Cebraspe, Delegado PC-SE 2018).</p><p><strong>Instigar já é participar.</strong> A amiga que instiga quem já tinha a ideia de matar responde como partícipe, se o crime for ao menos tentado (art. 31; Cebraspe, Delegado PF 2018).</p><p><strong>Elementar pessoal passa adiante.</strong> Ser funcionário público é elementar do peculato e se comunica ao particular que participa sabendo disso (Cebraspe, Delegado PC-MA 2018). Já a agravante da violência doméstica é de caráter pessoal e não se estende automaticamente aos comparsas (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Domínio do fato não dispensa a conduta.</strong> A teoria do domínio do fato não permite, isoladamente, acusar alguém por crime complexo, como sonegação fiscal, sem descrever o que ele fez (Cebraspe, Delegado PF 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "erro-de-tipo-e-erro-de-proibicao",
+    "tentativa-desistencia-e-arrependimento",
+    "peculato"
+   ]
+  },
+  {
    "slug": "peculato",
    "titulo": "Peculato",
    "grupo": "Crimes contra a Administração Pública",
