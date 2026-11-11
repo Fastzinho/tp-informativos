@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.11.4
+ * Version: 0.12.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.11.4' );
+define( 'TPI_VERSION', '0.12.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1178,6 +1178,18 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'], 'google' => $cfg['google'] ?? '', 'signup' => ! empty( $cfg['signup'] ), 'rest' => esc_url_raw( rest_url() ) ) );
 } );
 
+
+/* 0.12.0: lei em janela. Cada "art. 298, III, do CTB" do julgado, da edição ou do caderno vira um botão que abre o
+   artigo do acervo da Lei seca, só para leitura. O script e as leis são do plugin do app (tchau-pobreza/app/embed/leis.js
+   e app/legal/*.json, estáticos, sem Supabase), com o mesmo parser de citações do app. O HTML não muda (cache e SEO
+   intactos); o script é adiado e só baixa a lei no clique. Sem o plugin do app, nada acontece. */
+add_action( 'wp_enqueue_scripts', function () {
+	if ( ! is_singular( array( 'informativo', 'caderno' ) ) || ! defined( 'TP_VERSION' ) || ! file_exists( WP_PLUGIN_DIR . '/tchau-pobreza/app/embed/leis.js' ) ) {
+		return;
+	}
+	wp_enqueue_script( 'tp-leis', plugins_url( 'tchau-pobreza/app/embed/leis.js' ), array(), TP_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
+	wp_add_inline_script( 'tp-leis', 'window.TP_LEIS=' . wp_json_encode( array( 'app' => home_url( '/?tp_app=1' ), 'scope' => '.entry-content' ) ) . ';', 'before' );
+}, 20 );
 
 /* ---------------------------------------------------------------------------
  * 7. Flashcards para o Anki
