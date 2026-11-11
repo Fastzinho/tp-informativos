@@ -758,6 +758,218 @@
    ]
   },
   {
+   "slug": "extincao-da-punibilidade",
+   "titulo": "Extinção da punibilidade",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 107 e 119 do CP",
+   "tax": [
+    "penal.extincao-punibilidade",
+    "penal.conceito-causas-gerais-especificas-momentos"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-107",
+    "n2848-1940-art-119"
+   ],
+   "conceitos": [
+    "extinção da punibilidade",
+    "anistia",
+    "graça",
+    "indulto",
+    "perdão judicial",
+    "perempção"
+   ],
+   "palavras": [
+    "morte do agente",
+    "anistia",
+    "graca",
+    "indulto",
+    "abolitio criminis",
+    "decadencia",
+    "perempcao",
+    "renuncia",
+    "perdao do ofendido",
+    "retratacao",
+    "perdao judicial",
+    "certidao de obito falsa",
+    "hediondo",
+    "tortura"
+   ],
+   "resumo": "O crime existe, mas o Estado perde o direito de punir. O art. 107 lista as causas gerais: morte do agente; anistia, graça ou indulto; <em>abolitio criminis</em>; prescrição, decadência ou perempção; renúncia ou perdão aceito nos crimes de ação privada; retratação, quando a lei admite; e perdão judicial, nos casos previstos em lei. A lista não é exaustiva: há causas na Parte Especial, como a reparação do dano no peculato culposo antes da sentença irrecorrível. No concurso de crimes, a extinção atinge a pena de cada um isoladamente (art. 119).",
+   "esquema": {
+    "rotulo": "cada causa no seu lugar",
+    "html": "<table><thead><tr><th>Causa</th><th>Onde vale</th><th>Detalhe que cai</th></tr></thead><tbody><tr><td><strong>Renúncia</strong></td><td>Ação privada (antes da queixa)</td><td>Ato unilateral; a um dos autores se estende a todos</td></tr><tr><td><strong>Perdão do ofendido</strong></td><td>Ação privada propriamente dita (depois da queixa)</td><td>Bilateral: só extingue se aceito</td></tr><tr><td><strong>Perempção</strong></td><td>Ação privada propriamente dita</td><td>Desídia do querelante no curso do processo; não cabe na subsidiária da pública</td></tr><tr><td><strong>Decadência</strong></td><td>Ação privada e pública condicionada</td><td>Perda do prazo de queixa ou representação</td></tr><tr><td><strong>Retratação</strong></td><td>Só quando a lei admite (ex.: calúnia e difamação)</td><td>Na calúnia, antes da sentença, independe de aceitação</td></tr><tr><td><strong>Anistia</strong></td><td>Lei do Congresso, apaga o fato</td><td>Atinge todos os efeitos penais</td></tr><tr><td><strong>Graça e indulto</strong></td><td>Ato do Presidente</td><td>Apagam só a pena; vedados a hediondos, tortura, tráfico e terrorismo</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 107. Extingue-se a punibilidade:\n\nI - pela morte do agente;\n\nII - pela anistia, graça ou indulto;\n\nIII - pela retroatividade de lei que não mais considera o fato como criminoso;\n\nIV - pela prescrição, decadência ou perempção;\n\nV - pela renúncia do direito de queixa ou pelo perdão aceito, nos crimes de ação privada;\n\nVI - pela retratação do agente, nos casos em que a lei a admite;\n\n(...)\n\nIX - pelo perdão judicial, nos casos previstos em lei.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 119. No caso de concurso de crimes, a extinção da punibilidade incidirá sobre a pena de cada um, isoladamente.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "ANISTIA APAGA O FATO",
+     "texto": "A anistia vem por lei e apaga o fato. Graça (individual) e indulto (coletivo) vêm do Presidente e apagam só a pena."
+    },
+    {
+     "sigla": "PERDÃO PRECISA DE SIM",
+     "texto": "Perdão do ofendido só extingue se aceito. Renúncia e retratação da calúnia não dependem do outro lado."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 18",
+     "texto": "A sentença concessiva do perdão judicial é declaratória da extinção da punibilidade, não subsistindo qualquer efeito condenatório."
+    },
+    {
+     "quem": "STJ · Tema 931 (repetitivo, revisado)",
+     "texto": "O inadimplemento da pena de multa, depois de cumprida a pena privativa de liberdade ou restritiva de direitos, não impede a extinção da punibilidade diante da alegada hipossuficiência do condenado, salvo decisão concreta e motivada do juiz indicando que ele pode pagar."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A retratação do querelado na calúnia, feita antes da sentença, só extingue a punibilidade se o ofendido a aceitar.",
+    "gabarito": "E",
+    "explicacao": "A retratação cabal da calúnia ou da difamação antes da sentença isenta de pena e não depende de aceitação do ofendido (art. 143; Cebraspe, Delegado PC-AL 2023)."
+   },
+   "aprofundamento": "<p><strong>Perdão e perempção são da ação privada propriamente dita.</strong> Entre as combinações cobradas, só \"perdão aceito e perempção na ação privada propriamente dita\" está certa. Não há renúncia nem perempção na pública condicionada, nem retratação na pública incondicionada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Certidão de óbito falsa não protege o réu.</strong> A decisão que extinguiu a punibilidade com base em certidão de óbito falsa pode ser revista, sem ofensa à proibição de revisão <em>pro societate</em>: a afirmação de que esse reexame não é admitido está errada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Multa não paga por pobreza não segura a extinção.</strong> É errado dizer que só há extinção da punibilidade com a multa paga, mesmo que o condenado prove hipossuficiência (STJ, Tema 931; Cebraspe, Delegado PC-ES 2022).</p><p><strong>Reatar o namoro não extingue a lesão na violência doméstica.</strong> A lesão corporal contra a mulher no âmbito doméstico é de ação pública incondicionada (Súmula 542 do STJ). Por isso a reconciliação do casal não extingue a punibilidade (Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Na tortura, a vedação alcança o indulto.</strong> A Lei 9.455/1997 fala em graça e anistia, mas o STF entende a graça em sentido amplo, abrangendo o indulto. É errado dizer que a tortura permite indulto (FGV, Delegado PC-RN 2021).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "prescricao-penal",
+    "lei-penal-no-tempo",
+    "peculato"
+   ]
+  },
+  {
+   "slug": "prescricao-penal",
+   "titulo": "Prescrição penal",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 109 a 117 do CP",
+   "tax": [
+    "penal.prescricao-conceito-teorias-prazos-calculo",
+    "penal.extincao-punibilidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-109",
+    "n2848-1940-art-110",
+    "n2848-1940-art-111",
+    "n2848-1940-art-114",
+    "n2848-1940-art-115",
+    "n2848-1940-art-116",
+    "n2848-1940-art-117"
+   ],
+   "conceitos": [
+    "prescrição",
+    "prescrição retroativa",
+    "prescrição da pretensão executória",
+    "interrupção da prescrição",
+    "suspensão da prescrição"
+   ],
+   "palavras": [
+    "prescricao da pretensao punitiva",
+    "prescricao executoria",
+    "retroativa",
+    "superveniente",
+    "intercorrente",
+    "pena em abstrato",
+    "pena em concreto",
+    "marcos interruptivos",
+    "acordao confirmatorio",
+    "menor de 21",
+    "maior de 70",
+    "reincidente",
+    "continuidade delitiva",
+    "sumula 497",
+    "sumula 191",
+    "medida de seguranca"
+   ],
+   "resumo": "Antes do trânsito em julgado, a prescrição da pretensão punitiva regula-se pelo <strong>máximo da pena em abstrato</strong> (tabela do art. 109). Depois da sentença com trânsito para a acusação, conta a <strong>pena aplicada</strong>, que serve para a prescrição retroativa e a superveniente; a retroativa não pode ter termo inicial anterior à denúncia ou queixa. Depois do trânsito definitivo, a pretensão executória também usa a pena aplicada, com prazo aumentado de um terço se o condenado é reincidente. Os prazos caem pela metade para quem tinha menos de 21 anos na data do fato ou mais de 70 na data da sentença, salvo crime com violência sexual contra a mulher (Lei 15.160/2025). O art. 117 lista os marcos que interrompem e zeram a contagem, e o art. 116 os que só a suspendem.",
+   "esquema": {
+    "rotulo": "tabela do art. 109",
+    "html": "<table><thead><tr><th>Pena máxima</th><th>Prescreve em</th></tr></thead><tbody><tr><td><strong>Mais de 12 anos</strong></td><td>20 anos</td></tr><tr><td><strong>Mais de 8 até 12</strong></td><td>16 anos</td></tr><tr><td><strong>Mais de 4 até 8</strong></td><td>12 anos</td></tr><tr><td><strong>Mais de 2 até 4</strong></td><td>8 anos</td></tr><tr><td><strong>De 1 até 2</strong></td><td>4 anos</td></tr><tr><td><strong>Menos de 1 ano</strong></td><td>3 anos</td></tr><tr><td><strong>Multa única</strong></td><td>2 anos (art. 114, I)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 109. A prescrição, antes de transitar em julgado a sentença final, salvo o disposto no § 1º do art. 110 deste Código, regula-se pelo máximo da pena privativa de liberdade cominada ao crime, verificando-se:\n\nI - em vinte anos, se o máximo da pena é superior a doze;\n\nII - em dezesseis anos, se o máximo da pena é superior a oito anos e não excede a doze;\n\nIII - em doze anos, se o máximo da pena é superior a quatro anos e não excede a oito;\n\nIV - em oito anos, se o máximo da pena é superior a dois anos e não excede a quatro;\n\nV - em quatro anos, se o máximo da pena é igual a um ano ou, sendo superior, não excede a dois;\n\nVI - em 3 (três) anos, se o máximo da pena é inferior a 1 (um) ano.\n\nPrescrição das penas restritivas de direito\n\nParágrafo único. Aplicam-se às penas restritivas de direito os mesmos prazos previstos para as privativas de liberdade.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 110. A prescrição depois de transitar em julgado a sentença condenatória regula-se pela pena aplicada e verifica-se nos prazos fixados no artigo anterior, os quais se aumentam de um terço, se o condenado é reincidente.\n\n§ 1º A prescrição, depois da sentença condenatória com trânsito em julgado para a acusação ou depois de improvido seu recurso, regula-se pela pena aplicada, não podendo, em nenhuma hipótese, ter por termo inicial data anterior à da denúncia ou queixa.\n\n(...)",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 111. A prescrição, antes de transitar em julgado a sentença final, começa a correr:\n\nI - do dia em que o crime se consumou;\n\nII - no caso de tentativa, do dia em que cessou a atividade criminosa;\n\nIII - nos crimes permanentes, do dia em que cessou a permanência;\n\nIV - nos de bigamia e nos de falsificação ou alteração de assentamento do registro civil, da data em que o fato se tornou conhecido;\n\nV - nos crimes contra a dignidade sexual ou que envolvam violência contra a criança e o adolescente, previstos neste Código ou em legislação especial, da data em que a vítima completar 18 (dezoito) anos, salvo se a esse tempo já houver sido proposta a ação penal.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 114. A prescrição da pena de multa ocorrerá:\n\nI - em dois anos, quando a multa for a única cominada ou aplicada;\n\nII - no mesmo prazo estabelecido para prescrição da pena privativa de liberdade, quando a multa for alternativa ou cumulativamente cominada ou cumulativamente aplicada.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 115. São reduzidos de metade os prazos de prescrição quando o criminoso era, ao tempo do crime, menor de 21 (vinte e um) anos ou, na data da sentença, maior de 70 (setenta) anos, salvo se o crime envolver violência sexual contra a mulher.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 116. Antes de passar em julgado a sentença final, a prescrição não corre:\n\nI - enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime;\n\nII - enquanto o agente cumpre pena no exterior;\n\nIII - na pendência de embargos de declaração ou de recursos aos Tribunais Superiores, quando inadmissíveis; e\n\nIV - enquanto não cumprido ou não rescindido o acordo de não persecução penal.\n\nParágrafo único. Depois de passada em julgado a sentença condenatória, a prescrição não corre durante o tempo em que o condenado está preso por outro motivo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 117. O curso da prescrição interrompe-se:\n\nI - pelo recebimento da denúncia ou da queixa;\n\nII - pela pronúncia;\n\nIII - pela decisão confirmatória da pronúncia;\n\nIV - pela publicação da sentença ou acórdão condenatórios recorríveis;\n\nV - pelo início ou continuação do cumprimento da pena;\n\nVI - pela reincidência.\n\n§ 1º Excetuados os casos dos incisos V e VI deste artigo, a interrupção da prescrição produz efeitos relativamente a todos os autores do crime. Nos crimes conexos, que sejam objeto do mesmo processo, estende-se aos demais a interrupção relativa a qualquer deles.\n\n§ 2º Interrompida a prescrição, salvo a hipótese do inciso V deste artigo, todo o prazo começa a correr, novamente, do dia da interrupção.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "20-16-12-8-4-3",
+     "texto": "A escada do art. 109, de cima para baixo. As faixas de pena são 12, 8, 4, 2 e 1."
+    },
+    {
+     "sigla": "REPPCR",
+     "texto": "Marcos interruptivos do art. 117: Recebimento da denúncia, pronúncia, confirmação da Pronúncia, Publicação da sentença ou acórdão condenatório, Cumprimento da pena e Reincidência."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 176.473 (2020)",
+     "texto": "O acórdão condenatório sempre interrompe a prescrição, inclusive quando confirma a sentença ou reduz ou aumenta a pena."
+    },
+    {
+     "quem": "STF · Súmula 497",
+     "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação."
+    },
+    {
+     "quem": "STJ · Súmula 191",
+     "texto": "A pronúncia é causa interruptiva da prescrição, ainda que o Tribunal do Júri venha a desclassificar o crime."
+    },
+    {
+     "quem": "STJ · Súmula 220",
+     "texto": "A reincidência não influi no prazo da prescrição da pretensão punitiva."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O acórdão que apenas confirma a sentença condenatória não interrompe a prescrição.",
+    "gabarito": "E",
+    "explicacao": "Para o STF (HC 176.473), o acórdão condenatório interrompe a prescrição mesmo quando só confirma a condenação (Cebraspe, Delegado PF 2021; FGV, Delegado PC-AM 2021)."
+   },
+   "aprofundamento": "<p><strong>Desclassificar no Júri não apaga a interrupção da pronúncia.</strong> A pronúncia continua interrompendo a prescrição mesmo que os jurados desclassifiquem o crime depois (Súmula 191 do STJ). E o acórdão condenatório interrompe a punitiva, e não a executória (FGV, Delegado PC-RN 2021).</p><p><strong>Retroativa não volta para antes da denúncia.</strong> Em fato posterior à Lei 12.234/2010, a prescrição pela pena aplicada não pode ter termo inicial anterior à denúncia ou queixa (art. 110, § 1º). No furto de 2011, com recebimento da denúncia quatro anos depois e pena final de um ano, não houve prescrição em nenhum intervalo (Cebraspe, Delegado PC-PB 2022).</p><p><strong>A idade conta em momentos diferentes.</strong> O menor de 21 anos é visto na data do fato e o maior de 70, na data da sentença. Quem completa 70 entre a sentença e o trânsito em julgado não tem a redução, e não há redução para o maior de 60. Quem tem 20 anos na sentença tinha menos de 21 no fato, então tem o prazo pela metade (Cebraspe, Delegado PC-PE 2024).</p><p><strong>Concurso de crimes e continuidade ficam fora da conta.</strong> A prescrição considera cada crime isoladamente (art. 119), sem o acréscimo do concurso (Cebraspe, Delegado PC-PE 2024) nem o da continuidade delitiva (Súmula 497 do STF; Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Medida de segurança e pessoa jurídica também prescrevem.</strong> A pretensão executória alcança a medida de segurança, que é espécie de sanção penal (Cebraspe, Delegado PC-PE 2024). A pessoa jurídica condenada por crime ambiental segue os prazos do art. 109 do CP, aplicado subsidiariamente pela Lei 9.605/1998 (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Recurso inadmissível nos tribunais superiores suspende.</strong> Desde a Lei 13.964/2019, a prescrição não corre na pendência de embargos de declaração ou de recursos aos tribunais superiores quando inadmissíveis (art. 116, III; Cebraspe, Delegado PC-ES 2022). Também não corre enquanto se discute em outro processo questão de que dependa a existência do crime (art. 116, I; Cebraspe, Delegado PC-CE 2025).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "extincao-da-punibilidade",
+    "lei-penal-no-tempo"
+   ]
+  },
+  {
    "slug": "peculato",
    "titulo": "Peculato",
    "grupo": "Crimes contra a Administração Pública",
