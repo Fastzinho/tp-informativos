@@ -243,6 +243,11 @@ function tpi_render_ramo() {
 	$intro = trim( (string) $t->description );
 	$html .= '<div class="tpi-ramo__intro">' . ( $intro ? wpautop( wp_kses_post( $intro ) ) : '<p>Julgados de ' . esc_html( $t->name ) . ' publicados nos informativos do STJ e do STF, com comentário, ficha do processo e o que pode cair em prova. Os mais recentes aparecem primeiro.</p>' ) . '</div>';
 	$html .= '<p class="tpi-ramo__total">' . sprintf( _n( '%d julgado comentado', '%d julgados comentados', $total ), $total ) . '</p>';
+	$cad = function_exists( 'tpc_caderno_do_ramo' ) ? tpc_caderno_do_ramo( $t->slug ) : null;
+	if ( $cad ) { // 0.11.4: a teoria do ramo, no caderno sistematizado
+		$n     = count( tpc_temas( $cad->ID ) );
+		$html .= '<p class="tpi-ramo__caderno">Quer a teoria organizada por tema? Veja o <a href="' . esc_url( get_permalink( $cad ) ) . '">' . esc_html( $cad->post_title ) . '</a>: ' . esc_html( sprintf( _n( '%d tema', '%d temas', $n ), $n ) ) . ' com resumo, esquema, lei seca e pegadinhas de banca.</p>';
+	}
 
 	if ( $grupos ) {
 		$html .= '<nav class="tpi-topicos" aria-label="Filtrar por tópico"><p class="tpi-topicos__rotulo" id="tpi-topicos-rotulo">Filtrar por tópico</p><ul aria-labelledby="tpi-topicos-rotulo">';

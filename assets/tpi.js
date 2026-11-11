@@ -98,12 +98,71 @@
     });
   }
 
+  /* 0.11.4: filtro do caderno pela leitura (Todos / Não lidos / Lidos), no mesmo desenho do app (Jurisprudência
+     e Lei seca). Só para quem tem conta e já leu algum tema; é só visual: o HTML segue com todos os temas. */
+  var CH_FILTRO = 'tpc-filtro-leitura';
+  var filtro = 'all';
+  try { filtro = localStorage.getItem(CH_FILTRO) || 'all'; } catch (e) {}
+  function pintaFiltro() {
+    var prog = document.querySelector('.tpc-cabeca [data-tpi-progresso], .tpc [data-tpi-progresso]');
+    var cards = document.querySelectorAll('.tpc-temas > .tpc-tema');
+    if (!prog || !cards.length) return;
+    var ids = prog.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
+    var n = ids.filter(function (i) { return lidos[i]; }).length;
+    var ativo = !semSessao && n > 0;
+    var caixa = document.querySelector('.tpc-filtro');
+    if (!caixa && ativo) {
+      caixa = document.createElement('div'); caixa.className = 'tpc-filtro'; caixa.setAttribute('role', 'radiogroup'); caixa.setAttribute('aria-label', 'Filtrar pela leitura');
+      [['all', 'Todos', ''], ['unread', 'Não lidos', ICONE_UM], ['read', 'Lidos', ICONE_DOIS]].forEach(function (o) {
+        var b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'radio'); b.setAttribute('data-f', o[0]);
+        b.className = 'tpc-filtro__botao' + (o[2] ? '' : ' tpc-filtro__todos');
+        b.innerHTML = o[2] || '<span>' + o[1] + '</span>';
+        b.setAttribute('data-rotulo', o[1]);
+        b.addEventListener('click', function () {
+          filtro = filtro === o[0] ? 'all' : o[0]; /* tocar de novo no ativo volta para Todos, como no app */
+          try { localStorage.setItem(CH_FILTRO, filtro); } catch (e) {}
+          pintaFiltro();
+        });
+        caixa.appendChild(b);
+      });
+      prog.insertAdjacentElement('afterend', caixa);
+    }
+    if (caixa) caixa.hidden = !ativo;
+    var f = ativo ? filtro : 'all';
+    var conta = { all: ids.length, unread: ids.length - n, read: n };
+    if (caixa) caixa.querySelectorAll('button').forEach(function (b) {
+      var k = b.getAttribute('data-f'), on = f === k, q = conta[k];
+      b.classList.toggle('on', on); b.classList.toggle('zero', !q && k !== 'all');
+      b.setAttribute('aria-checked', String(on));
+      b.setAttribute('aria-label', b.getAttribute('data-rotulo') + ' (' + q + ')');
+      b.title = b.getAttribute('data-rotulo') + ' · ' + q + (q === 1 ? ' tema' : ' temas') + (on && k !== 'all' ? '. Toque de novo para ver todos' : '');
+    });
+    cards.forEach(function (art) {
+      var box = art.querySelector('.tpc-lido[data-tpi-id]');
+      var lido = !!(box && lidos[box.getAttribute('data-tpi-id')]);
+      var some = (f === 'read' && !lido) || (f === 'unread' && lido);
+      art.hidden = some;
+      var a = document.querySelector('.tpc-sumario a[href="#' + art.id + '"]');
+      if (a && a.parentNode) a.parentNode.classList.toggle('tpc-filtrado', some);
+    });
+  }
+  /* Link para um tema escondido pelo filtro (sumário, informativo, Google): volta para Todos. */
+  function mostraAlvo() {
+    var alvo = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (alvo && alvo.hidden && alvo.classList.contains('tpc-tema')) {
+      filtro = 'all'; try { localStorage.setItem(CH_FILTRO, filtro); } catch (e) {}
+      pintaFiltro(); alvo.scrollIntoView();
+    }
+  }
+  window.addEventListener('hashchange', mostraAlvo);
+
   function pintaTudo() {
     document.querySelectorAll('.tpi-lido[data-tpi-id]').forEach(function (box) {
       box.hidden = false;
       pintaControle(box, !!lidos[box.getAttribute('data-tpi-id')]);
     });
     pintaCards();
+    pintaFiltro(); mostraAlvo();
     document.querySelectorAll('[data-tpi-progresso]').forEach(function (p) {
       var ids = p.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
       var n = ids.filter(function (i) { return lidos[i]; }).length;

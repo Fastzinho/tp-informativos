@@ -489,6 +489,7 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-ramo__intro { max-width: 46rem; color: var(--tpi-tinta); }
 .tpi-ramo__intro p { margin: 0 0 .6rem; font-weight: 400; }
 .tpi-ramo__total { margin: .4rem 0 1.4rem; font-weight: 700; color: var(--tpi-verde); }
+.tpi-ramo__caderno { margin: -.6rem 0 1.4rem; padding: .7rem .9rem; border-radius: 8px; background: #eff5f0; }
 .tpi-topicos { margin: 0 0 1.6rem; }
 .tpi-topicos__rotulo { margin: 0 0 .5rem; font-size: .85rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--tpi-suave); }
 .tpi-topicos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }

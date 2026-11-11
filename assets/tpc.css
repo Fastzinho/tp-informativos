@@ -55,6 +55,7 @@
 .tpc-tema__titulo:hover .tpc-ancora, .tpc-ancora:focus-visible { opacity: 1; }
 @media (hover: none) { .tpc-ancora:not(:focus-visible) { display: none; } }
 .tpc .tpc-lido { margin: .1rem 0 0; }
+.tpc .tpc-lido--fim { margin: 1.25rem 0 0; }
 .tpc-tema:has(.tpc-lido.is-lido) { box-shadow: inset 3px 0 0 var(--tpi-verde); background: linear-gradient(90deg, #eff5f0, #fff 30%); }
 
 .tpc-freq { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .75rem; margin: 0; font-size: .85rem; color: var(--tpi-suave); }
@@ -186,3 +187,13 @@ dialog.tpc-gaveta::backdrop { background: rgba(20,32,28,.35); }
   dialog.tpc-gaveta[open] { animation: tpc-entra .2s ease-out; }
   @keyframes tpc-entra { from { transform: translateX(24px); opacity: .6; } to { transform: none; opacity: 1; } }
 }
+
+/* 0.11.4: filtro pela leitura, mesmo desenho do app (law-filter-icons). */
+.tpc-filtro { display: flex; align-items: center; gap: 2px; margin: -.3rem 0 1rem; }
+.tpc-filtro[hidden] { display: none; }
+.tpc-filtro__botao { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 36px; padding: 5px; border: 0; border-radius: 7px; background: transparent; color: var(--tpi-suave); cursor: pointer; font: inherit; }
+.tpc-filtro__botao:hover, .tpc-filtro__botao.on { background: #edf3ed; color: var(--tpi-verde); }
+.tpc-filtro__botao.zero:not(.on) { opacity: .4; }
+.tpc-filtro__todos { font-size: .82rem; font-weight: 600; padding: 5px 10px; }
+.tpc-filtro__botao .i-um, .tpc-filtro__botao .i-dois { display: block; }
+.tpc-sumario__lista li.tpc-filtrado { display: none; }
