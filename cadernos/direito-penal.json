@@ -758,6 +758,332 @@
    ]
   },
   {
+   "slug": "aplicacao-da-pena",
+   "titulo": "Aplicação da pena e reincidência",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 49, 59, 63 a 65 e 68 do CP",
+   "tax": [
+    "penal.aplicacao-pena",
+    "penal.cominacao-penas",
+    "penal.pena-multa"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-49",
+    "n2848-1940-art-59",
+    "n2848-1940-art-63",
+    "n2848-1940-art-64",
+    "n2848-1940-art-65",
+    "n2848-1940-art-68"
+   ],
+   "conceitos": [
+    "dosimetria trifásica",
+    "circunstâncias judiciais",
+    "atenuantes e agravantes",
+    "reincidência",
+    "período depurador",
+    "dias-multa"
+   ],
+   "palavras": [
+    "dosimetria",
+    "sistema trifasico",
+    "pena-base",
+    "circunstancias judiciais",
+    "art 59",
+    "atenuante",
+    "agravante",
+    "causa de aumento",
+    "causa de diminuicao",
+    "sumula 231",
+    "reincidencia",
+    "periodo depurador",
+    "maus antecedentes",
+    "menoridade relativa",
+    "menor de 21",
+    "dias-multa",
+    "sumula 241"
+   ],
+   "resumo": "O CP adota o <strong>sistema trifásico</strong> (art. 68). Na primeira fase, o juiz fixa a pena-base dentro dos limites da lei, pelas oito circunstâncias judiciais do art. 59. Na segunda, aplica as atenuantes e agravantes, que <strong>não</strong> podem levar a pena abaixo do mínimo nem acima do máximo legal (Súmula 231 do STJ). Na terceira, aplica as causas de diminuição e de aumento, as únicas que podem ultrapassar esses limites. Há <strong>reincidência</strong> quando o novo crime é cometido depois do trânsito em julgado de condenação anterior, no país ou no estrangeiro (art. 63). Ela deixa de valer se passarem mais de cinco anos entre o cumprimento ou a extinção da pena e o novo crime (art. 64, I), mas a condenação antiga ainda pode pesar como maus antecedentes. A multa é calculada em dias-multa, de 10 a 360 (art. 49).",
+   "esquema": {
+    "rotulo": "as três fases do art. 68",
+    "html": "<table><thead><tr><th>Fase</th><th>O que entra</th><th>Pode sair dos limites da pena?</th></tr></thead><tbody><tr><td><strong>1ª: pena-base</strong></td><td>Circunstâncias judiciais do art. 59 (culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências e comportamento da vítima)</td><td>Não</td></tr><tr><td><strong>2ª: pena intermediária</strong></td><td>Atenuantes (arts. 65 e 66) e agravantes (arts. 61 e 62), como reincidência, confissão e menoridade relativa</td><td>Não (Súmula 231 do STJ)</td></tr><tr><td><strong>3ª: pena definitiva</strong></td><td>Causas de diminuição e de aumento (frações), da Parte Geral e da Parte Especial</td><td>Sim</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 49. A pena de multa consiste no pagamento ao fundo penitenciário da quantia fixada na sentença e calculada em dias-multa. Será, no mínimo, de dez e, no máximo, de trezentos e sessenta dias-multa.\n\n§ 1º O valor do dia-multa será fixado pelo juiz não podendo ser inferior a um trigésimo do maior salário mínimo mensal vigente ao tempo do fato, nem superior a cinco vezes esse salário.\n\n§ 2º O valor da multa será atualizado, quando da execução, pelos índices de correção monetária.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 59. O juiz, atendendo à culpabilidade, aos antecedentes, à conduta social, à personalidade do agente, aos motivos, às circunstâncias e conseqüências do crime, bem como ao comportamento da vítima, estabelecerá, conforme seja necessário e suficiente para reprovação e prevenção do crime:\n\nI - as penas aplicáveis dentre as cominadas;\n\nII - a quantidade de pena aplicável, dentro dos limites previstos;\n\nIII - o regime inicial de cumprimento da pena privativa de liberdade;\n\nIV - a substituição da pena privativa da liberdade aplicada, por outra espécie de pena, se cabível.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 63. Verifica-se a reincidência quando o agente comete novo crime, depois de transitar em julgado a sentença que, no País ou no estrangeiro, o tenha condenado por crime anterior.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 64. Para efeito de reincidência:\n\nI - não prevalece a condenação anterior, se entre a data do cumprimento ou extinção da pena e a infração posterior tiver decorrido período de tempo superior a cinco anos, computado o período de prova da suspensão ou do livramento condicional, se não ocorrer revogação;\n\nII - não se consideram os crimes militares próprios e políticos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 65. São circunstâncias que sempre atenuam a pena:\n\nI - ser o agente menor de 21 (vinte e um) anos, na data do fato, ou maior de 70 (setenta) anos, na data da sentença, salvo se o crime envolver violência sexual contra a mulher;\n\nII - o desconhecimento da lei;\n\nIII - ter o agente:\n\na) cometido o crime por motivo de relevante valor social ou moral;\n\nb) procurado, por sua espontânea vontade e com eficiência, logo após o crime, evitar-lhe ou minorar-lhe as conseqüências, ou ter, antes do julgamento, reparado o dano;\n\nc) cometido o crime sob coação a que podia resistir, ou em cumprimento de ordem de autoridade superior, ou sob a influência de violenta emoção, provocada por ato injusto da vítima;\n\nd) confessado espontaneamente, perante a autoridade, a autoria do crime;\n\n(...)",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 68. A pena-base será fixada atendendo-se ao critério do art. 59 deste Código; em seguida serão consideradas as circunstâncias atenuantes e agravantes; por último, as causas de diminuição e de aumento.\n\nParágrafo único. No concurso de causas de aumento ou de diminuição previstas na parte especial, pode o juiz limitar-se a um só aumento ou a uma só diminuição, prevalecendo, todavia, a causa que mais aumente ou diminua.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "BASE, MEIO, FIM",
+     "texto": "Art. 59 na base, atenuantes e agravantes no meio, frações no fim. Só o fim fura o mínimo e o máximo."
+    },
+    {
+     "sigla": "CINCO ANOS DEPOIS DO FIM",
+     "texto": "O período depurador de cinco anos conta do cumprimento ou da extinção da pena, e não do trânsito em julgado. Passado o prazo, some a reincidência, mas não os maus antecedentes."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 231",
+     "texto": "A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal."
+    },
+    {
+     "quem": "STJ · Súmula 241",
+     "texto": "A reincidência penal não pode ser considerada como circunstância agravante e, simultaneamente, como circunstância judicial."
+    },
+    {
+     "quem": "STJ · Súmula 444",
+     "texto": "É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Réu primário que confessa o crime e agiu sob coação resistível pode ter a pena reduzida abaixo do mínimo legal se as atenuantes preponderarem sobre as agravantes.",
+    "gabarito": "E",
+    "explicacao": "Confissão e coação resistível são atenuantes da segunda fase, que não levam a pena abaixo do mínimo legal (Súmula 231 do STJ). Só uma causa de diminuição, na terceira fase, faria isso (Cebraspe, Delegado PF 2018)."
+   },
+   "aprofundamento": "<p><strong>Atenuante não fura o mínimo.</strong> Coação resistível e confissão espontânea, ainda que preponderantes, não reduzem a pena abaixo do mínimo legal (Súmula 231 do STJ). A afirmação contrária foi julgada errada (Cebraspe, Delegado PF 2018).</p><p><strong>Menoridade relativa é segunda fase.</strong> Ter menos de 21 anos na data do fato é atenuante genérica do art. 65, I, aplicada na segunda fase, e não causa de diminuição da terceira. A afirmação de que ela reduz a pena na terceira fase foi julgada falsa (FGV, Delegado PC-MG 2024). Desde a Lei 15.160/2025, ela não se aplica se o crime envolver violência sexual contra a mulher.</p><p><strong>Prescrição da pena não apaga a reincidência.</strong> A prescrição da pretensão executória extingue só a pena, e os efeitos secundários continuam. Se o novo crime vem antes de cinco anos da extinção, o agente é reincidente. A mesma condenação não pode servir, ao mesmo tempo, de reincidência e de maus antecedentes (FGV, Delegado PC-RN 2021).</p><p><strong>Multa tem números fixos.</strong> A pena de multa vai de 10 a 360 dias-multa, e cada dia-multa vale de um trigésimo a cinco vezes o maior salário mínimo (art. 49). A afirmação com esses limites foi julgada verdadeira (FGV, Delegado PC-MG 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "regimes-e-substituicao-da-pena",
+    "prescricao-penal",
+    "culpabilidade-imputabilidade-e-coacao"
+   ]
+  },
+  {
+   "slug": "regimes-e-substituicao-da-pena",
+   "titulo": "Regimes de cumprimento e penas restritivas de direitos",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 33 e 44 do CP",
+   "tax": [
+    "penal.penas-privativas-liberdade-regime-cumprimento",
+    "penal.penas-restritivas-direitos",
+    "penal.especies-pena"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-33",
+    "n2848-1940-art-44"
+   ],
+   "conceitos": [
+    "regime inicial",
+    "reclusão e detenção",
+    "progressão de regime",
+    "substituição da pena",
+    "conversão da pena restritiva"
+   ],
+   "palavras": [
+    "regime fechado",
+    "regime semiaberto",
+    "regime aberto",
+    "reclusao",
+    "detencao",
+    "regime inicial",
+    "gravidade abstrata",
+    "sumula 718",
+    "sumula 719",
+    "sumula 440",
+    "sumula 269",
+    "penas restritivas de direitos",
+    "substituicao",
+    "violencia ou grave ameaca",
+    "simulacro",
+    "reincidente em crime doloso",
+    "conversao"
+   ],
+   "resumo": "A reclusão admite os três regimes, e a detenção começa no semiaberto ou no aberto (art. 33). O regime inicial depende da pena e da reincidência: mais de 8 anos começa no fechado. Para não reincidente, de 4 a 8 anos pode começar no semiaberto, e até 4 anos, no aberto. As circunstâncias do art. 59 também pesam (§ 3º). A <strong>gravidade abstrata</strong> do crime não basta para impor regime mais severo do que o permitido pela pena (Súmulas 718 e 719 do STF e 440 do STJ). A pena privativa de liberdade é <strong>substituída</strong> por restritivas de direitos quando não passa de 4 anos e o crime não teve violência ou grave ameaça à pessoa, ou, em qualquer pena, se o crime é culposo. O réu não pode ser reincidente em crime doloso, salvo exceção do § 3º, e as circunstâncias devem indicar que a substituição basta (art. 44).",
+   "esquema": {
+    "rotulo": "regime inicial pela pena",
+    "html": "<table><thead><tr><th>Pena aplicada</th><th>Não reincidente</th><th>Reincidente</th></tr></thead><tbody><tr><td><strong>Mais de 8 anos</strong></td><td>Fechado</td><td>Fechado</td></tr><tr><td><strong>Mais de 4 até 8 anos</strong></td><td>Semiaberto (pode)</td><td>Fechado</td></tr><tr><td><strong>Até 4 anos</strong></td><td>Aberto (pode)</td><td>Semiaberto, se o art. 59 for favorável (Súmula 269 do STJ)</td></tr><tr><td><strong>Detenção</strong></td><td>Começa no semiaberto ou no aberto</td><td>Fechado só por transferência (regressão)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 33. A pena de reclusão deve ser cumprida em regime fechado, semi-aberto ou aberto. A de detenção em regime semi-aberto ou aberto, salvo necessidade de transferência a regime fechado.\n\n§ 1º Considera-se:\n\na) regime fechado a execução da pena em estabelecimento de segurança máxima ou média;\n\nb) regime semi-aberto a execução da pena em colônia agrícola, industrial ou estabelecimento similar;\n\nc) regime aberto a execução da pena em casa de albergado ou estabelecimento adequado.\n\n§ 2º As penas privativas de liberdade deverão ser executadas em forma progressiva, segundo o mérito do condenado, observados os seguintes critérios e ressalvadas as hipóteses de transferência a regime mais rigoroso:\n\na) o condenado a pena superior a oito anos deverá começar a cumpri-la em regime fechado;\n\nb) o condenado não reincidente, cuja pena seja superior a quatro anos e não exceda a oito, poderá, desde o princípio, cumpri-la em regime semi-aberto;\n\nc) o condenado não reincidente, cuja pena seja igual ou inferior a quatro anos, poderá, desde o início, cumpri-la em regime aberto.\n\n§ 3º A determinação do regime inicial de cumprimento da pena far-se-á com observância dos critérios previstos no art. 59 deste Código.\n\n§ 4º O condenado por crime contra a administração pública terá a progressão de regime do cumprimento da pena condicionada à reparação do dano que causou, ou à devolução do produto do ilícito praticado, com os acréscimos legais.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 44. As penas restritivas de direitos são autônomas e substituem as privativas de liberdade, quando:\n\nI - aplicada pena privativa de liberdade não superior a quatro anos e o crime não for cometido com violência ou grave ameaça à pessoa ou, qualquer que seja a pena aplicada, se o crime for culposo;\n\nII - o réu não for reincidente em crime doloso;\n\nIII - a culpabilidade, os antecedentes, a conduta social e a personalidade do condenado, bem como os motivos e as circunstâncias indicarem que essa substituição seja suficiente.\n\n§ 1º (VETADO na Lei nº 9.714, de 25/11/1998)\n\n§ 2º Na condenação igual ou inferior a um ano, a substituição pode ser feita por multa ou por uma pena restritiva de direitos; se superior a um ano, a pena privativa de liberdade pode ser substituída por uma pena restritiva de direitos e multa ou por duas restritivas de direitos.\n\n§ 3º Se o condenado for reincidente, o juiz poderá aplicar a substituição, desde que, em face de condenação anterior, a medida seja socialmente recomendável e a reincidência não se tenha operado em virtude da prática do mesmo crime.\n\n§ 4º A pena restritiva de direitos converte-se em privativa de liberdade quando ocorrer o descumprimento injustificado da restrição imposta. No cálculo da pena privativa de liberdade a executar será deduzido o tempo cumprido da pena restritiva de direitos, respeitado o saldo mínimo de trinta dias de detenção ou reclusão.\n\n§ 5º Sobrevindo condenação a pena privativa de liberdade, por outro crime, o juiz da execução penal decidirá sobre a conversão, podendo deixar de aplicá-la se for possível ao condenado cumprir a pena substitutiva anterior.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "8 E 4",
+     "texto": "Acima de 8, fechado. De 4 a 8, semiaberto. Até 4, aberto. Reincidente sobe um degrau."
+    },
+    {
+     "sigla": "SUBSTITUIÇÃO: 4, SEM VIOLÊNCIA, SEM REINCIDÊNCIA DOLOSA",
+     "texto": "Os três requisitos do art. 44. No crime culposo, a pena pode ser qualquer uma."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 718",
+     "texto": "A opinião do julgador sobre a gravidade em abstrato do crime não constitui motivação idônea para a imposição de regime mais severo do que o permitido segundo a pena aplicada."
+    },
+    {
+     "quem": "STF · Súmula 719",
+     "texto": "A imposição do regime de cumprimento mais severo do que a pena aplicada permitir exige motivação idônea."
+    },
+    {
+     "quem": "STJ · Súmula 440",
+     "texto": "Fixada a pena-base no mínimo legal, é vedado o estabelecimento de regime prisional mais gravoso do que o cabível em razão da sanção imposta, com base apenas na gravidade abstrata do delito."
+    },
+    {
+     "quem": "STJ · Súmula 269",
+     "texto": "É admissível a adoção do regime prisional semi-aberto aos reincidentes condenados a pena igual ou inferior a quatro anos se favoráveis as circunstâncias judiciais."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Réu primário condenado por roubo tentado com arma de fogo a pena inferior a 8 anos deve iniciar o cumprimento em regime fechado, em razão da gravidade abstrata do crime.",
+    "gabarito": "E",
+    "explicacao": "A gravidade em abstrato não é fundamento idôneo para regime mais severo do que o permitido pela pena (Súmulas 718 e 719 do STF e 440 do STJ). A afirmativa foi julgada falsa (FGV, Delegado PC-MG 2024)."
+   },
+   "aprofundamento": "<p><strong>Gravidade abstrata não fecha o regime.</strong> Uso de arma de fogo no roubo, sem outra fundamentação concreta, não autoriza regime fechado para quem recebeu pena que permite regime mais brando (FGV, Delegado PC-MG 2024).</p><p><strong>Simulacro também é grave ameaça.</strong> Para o STJ, o roubo praticado com simulacro de arma de fogo, ainda que tentado, foi cometido com grave ameaça e por isso não admite substituição por restritivas de direitos. Furto qualificado, homicídio culposo, peculato e corrupção ativa admitem, preenchidos os requisitos (Cebraspe, Delegado PC-PE 2024).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "sursis-e-livramento-condicional",
+    "roubo-e-latrocinio"
+   ]
+  },
+  {
+   "slug": "sursis-e-livramento-condicional",
+   "titulo": "Sursis e livramento condicional",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 77, 81, 83 e 86 do CP",
+   "tax": [
+    "penal.suspensao-condicional-pena",
+    "penal.livramento-condicional"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-77",
+    "n2848-1940-art-81",
+    "n2848-1940-art-83",
+    "n2848-1940-art-86"
+   ],
+   "conceitos": [
+    "suspensão condicional da pena",
+    "sursis etário e humanitário",
+    "livramento condicional",
+    "revogação obrigatória e facultativa",
+    "período de prova"
+   ],
+   "palavras": [
+    "sursis",
+    "suspensao condicional da pena",
+    "sursis etario",
+    "maior de setenta anos",
+    "condenacao anterior a multa",
+    "livramento condicional",
+    "um terco",
+    "metade",
+    "dois tercos",
+    "reincidente especifico",
+    "crime hediondo",
+    "falta grave",
+    "sumula 441",
+    "sumula 534",
+    "sumula 617",
+    "agravo em execucao",
+    "reparacao do dano",
+    "revogacao"
+   ],
+   "resumo": "O <strong>sursis</strong> suspende a execução de pena de até 2 anos por um período de prova de 2 a 4 anos. O condenado não pode ser reincidente em crime doloso, as circunstâncias devem autorizar, e o benefício só cabe se não couber a substituição do art. 44 (art. 77). No sursis etário (maior de 70 anos) ou humanitário (saúde), a pena pode ir até 4 anos, com prova de 4 a 6. O <strong>livramento condicional</strong> exige pena de 2 anos ou mais e cumprimento de mais de 1/3 (primário com bons antecedentes) ou de mais de 1/2 (reincidente em crime doloso). Nos hediondos e equiparados, são mais de 2/3, sem direito ao reincidente específico. Também exige bom comportamento, ausência de falta grave nos últimos 12 meses e reparação do dano, salvo efetiva impossibilidade (art. 83).",
+   "esquema": {
+    "rotulo": "sursis × livramento",
+    "html": "<table><thead><tr><th>Ponto</th><th>Sursis (art. 77)</th><th>Livramento (art. 83)</th></tr></thead><tbody><tr><td><strong>Pena</strong></td><td>Até 2 anos (até 4 no etário e no humanitário)</td><td>2 anos ou mais</td></tr><tr><td><strong>Quando</strong></td><td>Antes de começar a cumprir</td><td>Depois de cumprir parte da pena</td></tr><tr><td><strong>Fração</strong></td><td>Nenhuma</td><td>Mais de 1/3, mais de 1/2 ou mais de 2/3</td></tr><tr><td><strong>Reincidente em crime doloso</strong></td><td>Não tem direito</td><td>Tem, com mais da metade</td></tr><tr><td><strong>Revogação obrigatória</strong></td><td>Condenação irrecorrível por crime doloso (art. 81, I)</td><td>Condenação irrecorrível a pena privativa de liberdade (art. 86)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 77. A execução da pena privativa de liberdade, não superior a dois anos, poderá ser suspensa, por dois a quatro anos, desde que:\n\nI - o condenado não seja reincidente em crime doloso;\n\nII - a culpabilidade, os antecedentes, a conduta social e personalidade do agente, bem como os motivos e as circunstâncias autorizem a concessão do benefício;\n\nIII - não seja indicada ou cabível a substituição prevista no art. 44 deste Código.\n\n§ 1º A condenação anterior a pena de multa não impede a concessão do benefício.\n\n§ 2º A execução da pena privativa de liberdade, não superior a quatro anos, poderá ser suspensa, por quatro a seis anos, desde que o condenado seja maior de setenta anos de idade, ou razões de saúde justifiquem a suspensão.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 81. A suspensão será revogada se, no curso do prazo, o beneficiário:\n\nI - é condenado, em sentença irrecorrível, por crime doloso;\n\nII - frustra, embora solvente, a execução de pena de multa ou não efetua, sem motivo justificado, a reparação do dano;\n\nIII - descumpre a condição do § 1º do art. 78 deste Código.\n\nRevogação facultativa\n\n§ 1º A suspensão poderá ser revogada se o condenado descumpre qualquer outra condição imposta ou é irrecorrivelmente condenado, por crime culposo ou por contravenção, a pena privativa de liberdade ou restritiva de direitos.\n\n(...)",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 83. O juiz poderá conceder livramento condicional ao condenado a pena privativa de liberdade igual ou superior a dois anos, desde que:\n\nI - cumprida mais de um terço da pena se o condenado não for reincidente em crime doloso e tiver bons antecedentes;\n\nII - cumprida mais da metade se o condenado for reincidente em crime doloso;\n\nIII - comprovado:\n\na) bom comportamento durante a execução da pena;\n\nb) não cometimento de falta grave nos últimos 12 (doze) meses;\n\nc) bom desempenho no trabalho que lhe foi atribuído; e\n\nd) aptidão para prover a própria subsistência mediante trabalho honesto;\n\nIV - tenha reparado, salvo efetiva impossibilidade de fazê-lo, o dano causado pela infração;\n\nV - cumpridos mais de dois terços da pena, nos casos de condenação por crime hediondo, prática de tortura, tráfico ilícito de entorpecentes e drogas afins, tráfico de pessoas e terrorismo, se o apenado não for reincidente específico em crimes dessa natureza.\n\nParágrafo único. Para o condenado por crime doloso, cometido com violência ou grave ameaça à pessoa, a concessão do livramento ficará também subordinada à constatação de condições pessoais que façam presumir que o liberado não voltará a delinqüir.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 86. Revoga-se o livramento, se o liberado vem a ser condenado a pena privativa de liberdade, em sentença irrecorrível:\n\nI - por crime cometido durante a vigência do benefício;\n\nII - por crime anterior, observado o disposto no art. 84 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "1/3, 1/2, 2/3",
+     "texto": "Livramento: primário de bons antecedentes cumpre mais de um terço, reincidente doloso mais da metade, hediondo mais de dois terços, e o reincidente específico em hediondo não tem."
+    },
+    {
+     "sigla": "MULTA NÃO TRAVA SURSIS",
+     "texto": "Condenação anterior só a multa não impede a suspensão (art. 77, § 1º)."
+    },
+    {
+     "sigla": "FALTA GRAVE: PROGRESSÃO SIM, LIVRAMENTO NÃO",
+     "texto": "A falta grave reinicia a contagem para progressão (Súmula 534 do STJ), mas não para livramento (Súmula 441 do STJ)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 441",
+     "texto": "A falta grave não interrompe o prazo para obtenção de livramento condicional."
+    },
+    {
+     "quem": "STJ · Súmula 534",
+     "texto": "A prática de falta grave interrompe a contagem do prazo para a progressão de regime de cumprimento de pena, o qual se reinicia a partir do cometimento dessa infração."
+    },
+    {
+     "quem": "STJ · Súmula 617",
+     "texto": "A ausência de suspensão ou revogação do livramento condicional antes do término do período de prova enseja a extinção da punibilidade pelo integral cumprimento da pena."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O condenado que comete falta grave tem interrompidas as contagens dos prazos tanto para a progressão de regime quanto para o livramento condicional, que reiniciam a partir da falta.",
+    "gabarito": "E",
+    "explicacao": "A falta grave interrompe só o prazo da progressão (Súmula 534 do STJ). O prazo do livramento condicional não é interrompido (Súmula 441 do STJ) (Cebraspe, Delegado PF 2018)."
+   },
+   "aprofundamento": "<p><strong>Sursis: o que trava e o que não trava.</strong> Só a reincidência em crime <em>doloso</em> impede o sursis, e a condenação anterior a multa não impede. O sursis de até 4 anos é para o maior de 70 anos, e não para qualquer idoso (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Livramento: as frações e os requisitos certos.</strong> São mais de 1/3 (e não 1/6) para o primário e mais de 2/3 (e não 2/5) para o hediondo. A falta grave que impede é a dos últimos 12 meses, e não dos últimos 2 anos. A reparação do dano é exigida, salvo efetiva impossibilidade (Cebraspe, Delegado PC-ES 2022).</p><p><strong>Hediondo: reincidente específico fica de fora.</strong> Está errado dizer que cabe livramento com mais de 2/3 independentemente de reincidência específica em crime hediondo (Cebraspe, Delegado PC-PB 2022). Pela LEP, o condenado por hediondo com resultado morte também não tem livramento, embora possa progredir de regime (FGV, Delegado PC-RN 2021).</p><p><strong>Período de prova que passa em branco extingue a pena.</strong> Se o juiz não suspende nem revoga o livramento antes do fim do período de prova, a pena é extinta pelo cumprimento, ainda que o crime tenha sido cometido durante o benefício (Súmula 617 do STJ; Cebraspe, Delegado PC-MA 2018 e Delegado PC-CE 2025).</p><p><strong>Recurso certo.</strong> Contra a decisão do juiz da execução que nega o livramento cabe agravo em execução (art. 197 da LEP), e não apelação (Cebraspe, Delegado PF 2018).</p><p><strong>Falta grave e os prazos.</strong> A falta grave reinicia o prazo para progressão de regime, mas não o do livramento condicional (Súmulas 534 e 441 do STJ; Cebraspe, Delegado PF 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "regimes-e-substituicao-da-pena",
+    "extincao-da-punibilidade"
+   ]
+  },
+  {
    "slug": "extincao-da-punibilidade",
    "titulo": "Extinção da punibilidade",
    "grupo": "Parte Geral: punibilidade",
