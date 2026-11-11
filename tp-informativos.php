@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.12.0
+ * Version: 0.12.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.12.0' );
+define( 'TPI_VERSION', '0.12.1' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';

@@ -338,6 +338,21 @@ add_filter( 'rank_math/sitemap/entry', function ( $url, $tipo, $obj ) {
 function tpc_niveis() {
 	return array( 'alta' => 'Alta incidência', 'media' => 'Média incidência', 'baixa' => 'Baixa incidência' );
 }
+/*
+ * 0.12.1: parágrafo da lei seca. O artigo vai inteiro (ferramentas/conferir_lei.py reprova corte calado), então a
+ * epígrafe ("Furto qualificado") ganha estilo de rubrica e o corte explícito "(...)" fica visível como corte.
+ */
+function tpc_lei_p( $para ) {
+	if ( in_array( $para, array( '(...)', '[...]', '...' ), true ) ) {
+		return '<p class="tpc-lei__corte" title="Trecho omitido; o artigo inteiro está na Lei seca do app">(...)</p>';
+	}
+	$disp = preg_match( '/^(Art\.|§|Pena\b|Par[áa]grafo|[IVXLC]+\s*[-–]|[a-z]\)|\()/u', $para );
+	if ( ! $disp && mb_strlen( $para ) <= 160 && ! preg_match( '/[.;:,]$/u', $para ) ) {
+		return '<p class="tpc-lei__epigrafe">' . esc_html( $para ) . '</p>';
+	}
+	return '<p>' . esc_html( $para ) . '</p>';
+}
+
 function tpc_html( $s ) {
 	return wp_kses_post( (string) $s );
 }
@@ -413,7 +428,7 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 			$paras = array_filter( array_map( 'trim', preg_split( "/\n\s*\n/", (string) ( $l['texto'] ?? '' ) ) ) );
 			$h    .= '<blockquote class="tpc-lei">';
 			foreach ( $paras as $para ) {
-				$h .= '<p>' . esc_html( $para ) . '</p>';
+				$h .= tpc_lei_p( $para );
 			}
 			$h .= '</blockquote><p class="tpc-fonte">' . esc_html( $l['fonte'] ?? '' );
 			if ( ! empty( $l['url'] ) ) {
@@ -887,7 +902,7 @@ function tpc_previa_html( $p ) {
 	if ( ! empty( $t['lei'][0]['texto'] ) ) {
 		$h .= '<blockquote class="tpc-lei">';
 		foreach ( array_filter( array_map( 'trim', preg_split( "/\n\s*\n/", (string) $t['lei'][0]['texto'] ) ) ) as $para ) {
-			$h .= '<p>' . esc_html( $para ) . '</p>';
+			$h .= tpc_lei_p( $para );
 		}
 		$h .= '</blockquote>';
 	}

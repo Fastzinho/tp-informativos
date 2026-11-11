@@ -84,6 +84,9 @@
 .tpc-lei { margin: 0; padding: .2rem 0 .2rem 1.1rem; border-left: 3px solid var(--tpi-areia); font-family: var(--tpc-lei); font-size: 1.05rem; line-height: 1.65; }
 .tpc-lei p { margin: 0 0 .5rem; }
 .tpc-lei p:last-child { margin-bottom: 0; }
+.tpc-lei .tpc-lei__epigrafe { margin: .9rem 0 .35rem; font-family: inherit; font-size: .85rem; font-weight: 600; font-style: italic; letter-spacing: .01em; opacity: .8; }
+.tpc-lei .tpc-lei__epigrafe:first-child { margin-top: 0; }
+.tpc-lei .tpc-lei__corte { opacity: .6; }
 .tpc-fonte { margin: .5rem 0 1rem; font-size: .85rem; color: var(--tpi-suave); }
 .tpc-fonte:last-child { margin-bottom: 0; }
 
