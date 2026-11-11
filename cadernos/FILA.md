@@ -93,19 +93,6 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | `prazos-e-intimacoes` | 1 | STJ 909: Intimação pessoal com vista dos autos |
 | `reconhecimento-de-pessoas` | 1 | STJ 909: O procedimento do art. 226 do CPP |
 
-## Direito Tributário (`direito-tributario`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `icms` | 2 | STF 1235: Seletividade e essencialidade no ICMS; STF 1235: Alíquota modal |
-| `imunidades-tributarias` | 1 | STF 1235: Imunidade não é isenção |
-| `iptu` | 1 | STJ 908: Quem pode ser contribuinte do IPTU |
-| `itbi` | 1 | STF 1235: ITBI e integralização de capital |
-| `pis-e-cofins` | 1 | STF 1236: PIS, COFINS e ISS em poucas palavras |
-| `regra-matriz-de-incidencia` | 1 | STF 1234: Regra-matriz de incidência |
-| `responsabilidade-tributaria` | 1 | STF 1234: Sub-rogação do adquirente |
-| `reparticao-de-receitas` | 1 | STJ 909: Repartição do ICMS e Valor Adicionado Fiscal |
-
 ## Execução Penal (`execucao-penal`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
