@@ -683,6 +683,9 @@
         sessaoP = renovar(s).catch(function () { return null; });
         return sessaoP.then(gravar);
       });
+    }).then(function () {
+      /* 0.12.6: dentro do painel do app (?tp_embed=1), avisa o app para o check do passo "Resumo do caderno" mudar na hora. */
+      if (window.parent !== window) try { window.parent.postMessage({ tp: 'lido', id: KIND + ':' + id, lido: novo }, location.origin); } catch (e) {}
     }).catch(function (err) {
       if (window.console) console.error('[tp-informativos] falha ao salvar o lido:', err && err.message);
       if (String(err && err.message) === 'jwt') err = new Error('sessao');

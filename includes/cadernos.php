@@ -992,6 +992,7 @@ add_action( 'rest_api_init', function () {
 					continue;
 				}
 				$items[] = array(
+					'i' => (int) $i['id'], // 0.12.6: o lido do aluno é o registro "informativo:<i>" (o mesmo do botão Marcar como lido)
 					'u' => $i['post'],  // abre embutido (?tp_embed=1)
 					'a' => $i['url'],   // "Abrir no site": âncora no caderno
 					't' => $i['titulo'],
