@@ -873,7 +873,8 @@
    "relacionados": [
     "regimes-e-substituicao-da-pena",
     "prescricao-penal",
-    "culpabilidade-imputabilidade-e-coacao"
+    "culpabilidade-imputabilidade-e-coacao",
+    "concurso-de-crimes"
    ]
   },
   {
@@ -972,6 +973,112 @@
     "aplicacao-da-pena",
     "sursis-e-livramento-condicional",
     "roubo-e-latrocinio"
+   ]
+  },
+  {
+   "slug": "concurso-de-crimes",
+   "titulo": "Concurso de crimes e crime continuado",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 69 a 72 do CP",
+   "tax": [
+    "penal.aplicacao-pena"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-69",
+    "n2848-1940-art-70",
+    "n2848-1940-art-71",
+    "n2848-1940-art-72"
+   ],
+   "conceitos": [
+    "concurso material",
+    "concurso formal próprio e impróprio",
+    "desígnios autônomos",
+    "crime continuado",
+    "exasperação e cúmulo material"
+   ],
+   "palavras": [
+    "concurso material",
+    "concurso formal",
+    "concurso formal improprio",
+    "formal imperfeito",
+    "designios autonomos",
+    "crime continuado",
+    "continuidade delitiva",
+    "exasperacao",
+    "cumulo material",
+    "sumula 659",
+    "sumula 497",
+    "sumula 711",
+    "multa no concurso",
+    "roubo varias vitimas",
+    "continuidade especifica"
+   ],
+   "resumo": "No <strong>concurso material</strong> (art. 69), o agente pratica dois ou mais crimes com mais de uma conduta, e as penas se somam. No <strong>concurso formal</strong> (art. 70), uma só conduta produz dois ou mais crimes: aplica-se a pena mais grave, aumentada de 1/6 até a metade (exasperação). Se a conduta for dolosa e os crimes resultarem de <strong>desígnios autônomos</strong>, o concurso formal é impróprio e as penas se somam. A exasperação nunca pode resultar em pena maior do que a soma. No <strong>crime continuado</strong> (art. 71), há várias condutas e crimes da mesma espécie, ligados por tempo, lugar e modo de execução. Aplica-se a pena de um só crime, aumentada de 1/6 a 2/3, e o aumento depende do número de crimes (Súmula 659 do STJ). Contra vítimas diferentes, com violência ou grave ameaça, o aumento pode chegar ao triplo. Em qualquer concurso, as multas se aplicam distinta e integralmente (art. 72).",
+   "esquema": {
+    "rotulo": "qual concurso e qual sistema",
+    "html": "<table><thead><tr><th>Espécie</th><th>Condutas</th><th>Sistema de pena</th></tr></thead><tbody><tr><td><strong>Concurso material (art. 69)</strong></td><td>Duas ou mais</td><td>Cúmulo material (soma)</td></tr><tr><td><strong>Formal próprio (art. 70, 1ª parte)</strong></td><td>Uma só</td><td>Exasperação: 1/6 até 1/2</td></tr><tr><td><strong>Formal impróprio (art. 70, 2ª parte)</strong></td><td>Uma só, dolosa, com desígnios autônomos</td><td>Cúmulo material (soma)</td></tr><tr><td><strong>Crime continuado (art. 71)</strong></td><td>Duas ou mais, da mesma espécie, em continuação</td><td>Exasperação: 1/6 a 2/3, conforme o número de crimes</td></tr><tr><td><strong>Continuado específico (art. 71, parágrafo único)</strong></td><td>Dolosos, com violência ou grave ameaça, contra vítimas diferentes</td><td>Exasperação até o triplo</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 69. Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. No caso de aplicação cumulativa de penas de reclusão e de detenção, executa-se primeiro aquela.\n\n§ 1º Na hipótese deste artigo, quando ao agente tiver sido aplicada pena privativa de liberdade, não suspensa, por um dos crimes, para os demais será incabível a substituição de que trata o art. 44 deste Código.\n\n§ 2º Quando forem aplicadas penas restritivas de direitos, o condenado cumprirá simultaneamente as que forem compatíveis entre si e sucessivamente as demais.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 70. Quando o agente, mediante uma só ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplica-se-lhe a mais grave das penas cabíveis ou, se iguais, somente uma delas, mas aumentada, em qualquer caso, de um sexto até metade. As penas aplicam-se, entretanto, cumulativamente, se a ação ou omissão é dolosa e os crimes concorrentes resultam de desígnios autônomos, consoante o disposto no artigo anterior.\n\nParágrafo único. Não poderá a pena exceder a que seria cabível pela regra do art. 69 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 71. Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, devem os subseqüentes ser havidos como continuação do primeiro, aplica-se-lhe a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, aumentada, em qualquer caso, de um sexto a dois terços.\n\nParágrafo único. Nos crimes dolosos, contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa, poderá o juiz, considerando a culpabilidade, os antecedentes, a conduta social e a personalidade do agente, bem como os motivos e as circunstâncias, aumentar a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, até o triplo, observadas as regras do parágrafo único do art. 70 e do art. 75 deste Código.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 72. No concurso de crimes, as penas de multa são aplicadas distinta e integralmente.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "2, 3, 4, 5, 6, 7",
+     "texto": "Crime continuado (Súmula 659 do STJ): 2 crimes, 1/6; 3, 1/5; 4, 1/4; 5, 1/3; 6, 1/2; 7 ou mais, 2/3."
+    },
+    {
+     "sigla": "IMPRÓPRIO SOMA",
+     "texto": "Formal impróprio não exaspera, soma. Quem exaspera é o formal próprio e o crime continuado."
+    },
+    {
+     "sigla": "MULTA À PARTE",
+     "texto": "No concurso de crimes, as multas são aplicadas distinta e integralmente (art. 72)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 659",
+     "texto": "A fração de aumento em razão da prática de crime continuado deve ser fixada de acordo com o número de delitos cometidos, aplicando-se 1/6 pela prática de duas infrações, 1/5 para três, 1/4 para quatro, 1/3 para cinco, 1/2 para seis e 2/3 para sete ou mais infrações."
+    },
+    {
+     "quem": "STF · Súmula 497",
+     "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação."
+    },
+    {
+     "quem": "STF · Súmula 711",
+     "texto": "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Configurado o concurso formal impróprio ou o crime continuado, adota-se o sistema da exasperação da pena.",
+    "gabarito": "E",
+    "explicacao": "O crime continuado usa a exasperação, mas o concurso formal impróprio, por haver desígnios autônomos, usa o cúmulo material: as penas se somam (art. 70, parte final) (Cebraspe, Delegado PC-AL 2023)."
+   },
+   "aprofundamento": "<p><strong>Desígnios autônomos somam as penas.</strong> Roubo contra várias vítimas num único evento, com desígnios autônomos comprovados, é concurso formal impróprio (Cebraspe, Delegado PC-PB 2022). Quem envenena a ventilação de duas salas para matar dois colegas também responde em concurso formal impróprio (Cebraspe, Delegado PF 2018).</p><p><strong>Uma ação contra várias vítimas não é concurso material.</strong> Assaltar vários passageiros do ônibus num mesmo contexto, com uma só ação, não configura concurso material (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Fração do crime continuado.</strong> Três furtos em continuidade levam aumento de um quinto, porque a fração segue o número de crimes (Súmula 659 do STJ; FGV, Delegado PC-MG 2024).</p><p><strong>O que a continuidade aceita e o que não aceita.</strong> Ela pode ser reconhecida entre crimes em comarcas limítrofes ou próximas. Não cabe entre roubo e latrocínio, que não são da mesma espécie. A prescrição é contada sem o acréscimo da continuação (Súmula 497 do STF), e a lei mais grave vale se entrou em vigor antes de cessar a continuidade (Súmula 711 do STF) (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Estupro com vários atos na mesma vítima é crime único.</strong> Desde a Lei 12.015/2009, a conjunção carnal e outros atos libidinosos contra a mesma vítima, no mesmo contexto, formam crime único, e não concurso material nem continuidade (FGV, Delegado PC-AM 2021; Cebraspe, Delegado PC-MA 2018 e Delegado PJC-MT 2017).</p><p><strong>Multa fica fora da exasperação.</strong> No concurso formal, as multas de cada crime são aplicadas distinta e integralmente (art. 72). A afirmação foi julgada certa (Cebraspe, Delegado PC-DF 2026).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "roubo-e-latrocinio",
+    "estupro-de-vulneravel"
    ]
   },
   {
@@ -1080,6 +1187,176 @@
    "aprofundamento_rotulo": "exceções que caem em prova",
    "relacionados": [
     "regimes-e-substituicao-da-pena",
+    "extincao-da-punibilidade"
+   ]
+  },
+  {
+   "slug": "efeitos-da-condenacao-e-reabilitacao",
+   "titulo": "Efeitos da condenação e reabilitação",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 91 a 94 do CP",
+   "tax": [
+    "penal.efeitos-condenacao-reabilitacao"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-91",
+    "n2848-1940-art-92",
+    "n2848-1940-art-93",
+    "n2848-1940-art-94"
+   ],
+   "conceitos": [
+    "efeitos genéricos e específicos",
+    "confisco",
+    "perda do cargo",
+    "reabilitação"
+   ],
+   "palavras": [
+    "efeitos da condenacao",
+    "efeito automatico",
+    "perda do cargo",
+    "perda da funcao publica",
+    "confisco",
+    "perda em favor da uniao",
+    "transacao penal",
+    "tortura perda do cargo",
+    "abuso de autoridade",
+    "reabilitacao",
+    "dois anos",
+    "sigilo dos registros",
+    "suspensao dos direitos politicos"
+   ],
+   "resumo": "Toda condenação tem <strong>efeitos genéricos e automáticos</strong> (art. 91): torna certa a obrigação de indenizar e causa a perda, em favor da União, dos instrumentos ilícitos e do produto ou proveito do crime. Os <strong>efeitos específicos</strong> do art. 92 (perda do cargo, incapacidade para o poder familiar, inabilitação para dirigir) <strong>não são automáticos</strong>: o juiz precisa declará-los com motivação na sentença. A perda do cargo exige pena de 1 ano ou mais em crime com abuso de poder ou violação de dever para com a Administração, ou pena superior a 4 anos nos demais casos. A exceção do § 2º torna automáticos esses efeitos na condenação por crime contra a mulher por razões da condição do sexo feminino e por certos crimes do ECA. A <strong>reabilitação</strong> pode ser pedida 2 anos depois de extinta ou cumprida a pena e assegura o sigilo dos registros (arts. 93 e 94).",
+   "esquema": {
+    "rotulo": "automático ou não",
+    "html": "<table><thead><tr><th>Efeito</th><th>Automático?</th><th>Base</th></tr></thead><tbody><tr><td><strong>Indenizar e perder instrumentos e produto do crime</strong></td><td>Sim</td><td>Art. 91 do CP</td></tr><tr><td><strong>Perda do cargo, poder familiar, habilitação</strong></td><td>Não, precisa ser motivado na sentença</td><td>Art. 92, § 1º, do CP</td></tr><tr><td><strong>Perda do cargo no crime contra a mulher por razões de gênero</strong></td><td>Sim</td><td>Art. 92, § 2º, do CP</td></tr><tr><td><strong>Perda do cargo na tortura</strong></td><td>Sim, com interdição pelo dobro da pena</td><td>Art. 1º, § 5º, da Lei 9.455/1997</td></tr><tr><td><strong>Perda do cargo no abuso de autoridade</strong></td><td>Não, e exige reincidência no abuso</td><td>Art. 4º, parágrafo único, da Lei 13.869/2019</td></tr><tr><td><strong>Perda do cargo no racismo</strong></td><td>Não, precisa ser motivado</td><td>Arts. 16 e 18 da Lei 7.716/1989</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 91. São efeitos da condenação:\n\nI - tornar certa a obrigação de indenizar o dano causado pelo crime;\n\nII - a perda em favor da União, ressalvado o direito do lesado ou de terceiro de boa-fé:\n\na) dos instrumentos do crime, desde que consistam em coisas cujo fabrico, alienação, uso, porte ou detenção constitua fato ilícito;\n\nb) do produto do crime ou de qualquer bem ou valor que constitua proveito auferido pelo agente com a prática do fato criminoso.\n\n§ 1º Poderá ser decretada a perda de bens ou valores equivalentes ao produto ou proveito do crime quando estes não forem encontrados ou quando se localizarem no exterior.\n\n§ 2º Na hipótese do § 1º, as medidas assecuratórias previstas na legislação processual poderão abranger bens ou valores equivalentes do investigado ou acusado para posterior decretação de perda.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 92. São também efeitos da condenação:\n\nI - a perda de cargo, função pública ou mandato eletivo:\n\na) quando aplicada pena privativa de liberdade por tempo igual ou superior a um ano, nos crimes praticados com abuso de poder ou violação de dever para com a Administração Pública;\n\nb) quando for aplicada pena privativa de liberdade por tempo superior a quatro anos nos demais casos.\n\nII - a incapacidade para o exercício do poder familiar, da tutela ou da curatela nos crimes dolosos sujeitos à pena de reclusão cometidos contra outrem igualmente titular do mesmo poder familiar, contra filho, filha ou outro descendente, tutelado ou curatelado, bem como nos crimes cometidos contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código;\n\nIII - a inabilitação para dirigir veículo, quando utilizado como meio para a prática de crime doloso.\n\nIV - a suspensão, pelo prazo de 180 (cento e oitenta) dias, da eficácia da inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) do estabelecimento que, no exercício de atividade comercial ou industrial, for constituída ou utilizada com o fim de permitir, facilitar ou ocultar a prática dos crimes definidos no caput e no § 1º do art. 180 deste Código.\n\n§ 1º Os efeitos de que trata este artigo não são automáticos, devendo ser motivadamente declarados na sentença pelo juiz, mas independem de pedido expresso da acusação, observado o disposto no inciso III do § 2º deste artigo.\n\n§ 2º Ao condenado por crime praticado contra a mulher por razões da condição do sexo feminino, nos termos do § 1º do art. 121-A deste Código, e ao condenado por crime previsto no caput e nos §§ 1º e 2º do art. 240, no caput e no parágrafo único do art. 241, no caput e nos §§ 1º e 3º do art. 241-A, no caput do art. 241-B, no caput e nos §§ 1º e 2º do art. 241-D e no caput e no § 1º do art. 244-A da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), serão:\n\nI - aplicados os efeitos previstos nos incisos I e II do caput deste artigo;\n\nII - vedadas a sua nomeação, designação ou diplomação em qualquer cargo, função pública ou mandato eletivo entre o trânsito em julgado da condenação até o efetivo cumprimento da pena;\n\nIII - automáticos os efeitos dos incisos I e II do caput e do inciso II do § 2º deste artigo.\n\n§ 3º Em caso de reincidência da conduta prevista no inciso IV do caput deste artigo, a empresa será considerada inidônea e terá sua inscrição no CNPJ considerada inapta, com os efeitos previstos na Lei nº 9.430, de 27 de dezembro de 1996.\n\n§ 4º Na hipótese da reincidência descrita no § 3º deste artigo, o administrador, direta ou indiretamente responsável pela infração cometida, será interditado para o exercício do comércio pelo período de 5 (cinco) anos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 93. A reabilitação alcança quaisquer penas aplicadas em sentença definitiva, assegurando ao condenado o sigilo dos registros sobre seu processo e condenação.\n\nParágrafo único. A reabilitação poderá, também, atingir os efeitos da condenação, previstos no art. 92 deste Código, vedada reintegração na situação anterior, nos casos dos incisos I e II do mesmo artigo.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 94. A reabilitação poderá ser requerida, decorridos dois anos do dia em que for extinta, de qualquer modo, a pena ou terminar sua execução, computando-se o período de prova da suspensão e o do livramento condicional, se não sobrevier revogação, desde que o condenado:\n\nI - tenha tido domicílio no País no prazo acima referido;\n\nII - tenha dado, durante esse tempo, demonstração efetiva e constante de bom comportamento público e privado;\n\nIII - tenha ressarcido o dano causado pelo crime ou demonstre a absoluta impossibilidade de o fazer, até o dia do pedido, ou exiba documento que comprove a renúncia da vítima ou novação da dívida.\n\nParágrafo único. Negada a reabilitação, poderá ser requerida, a qualquer tempo, desde que o pedido seja instruído com novos elementos comprobatórios dos requisitos necessários.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "TORTURA PERDE NA HORA",
+     "texto": "Na tortura, a perda do cargo é automática. No CP, no abuso de autoridade e no racismo, precisa ser declarada."
+    },
+    {
+     "sigla": "1 ANO × 4 ANOS",
+     "texto": "Perda do cargo: pena de 1 ano ou mais com abuso de poder ou violação de dever funcional, ou mais de 4 anos em qualquer crime."
+    }
+   ],
+   "juris": [],
+   "pegadinha": {
+    "afirmacao": "A perda do cargo público não é efeito automático da sentença que condena o servidor público pela prática do crime de tortura.",
+    "gabarito": "E",
+    "explicacao": "Na Lei 9.455/1997, a condenação acarreta a perda do cargo, função ou emprego público e a interdição pelo dobro da pena, de forma automática (Cebraspe, Delegado PC-PB 2022 e Delegado PC-DF 2026)."
+   },
+   "aprofundamento": "<p><strong>Tortura é a exceção automática.</strong> A perda do cargo é efeito automático da condenação por tortura, ao contrário da regra do art. 92 do CP (Cebraspe, Delegado PC-PB 2022 e Delegado PC-DF 2026). Por isso, nem a omissão da sentença nem uma pena de 3 anos impedem a perda do cargo do policial condenado por tortura (FGV, Delegado PC-PR 2026).</p><p><strong>Abuso de autoridade e racismo dependem da sentença.</strong> No abuso de autoridade, a perda do cargo exige reincidência em crime de abuso e não é automática (Cebraspe, Delegado PC-PE 2024). Na Lei do Racismo, também não é automática (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Sem condenação, sem confisco.</strong> A transação penal não é condenação. Por isso, a sentença que extingue a punibilidade após cumprida a transação não pode decretar a perda de bem em favor da União (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Direitos políticos ficam suspensos.</strong> Qualquer condenação criminal transitada em julgado suspende os direitos políticos enquanto durarem seus efeitos, seja a pena privativa de liberdade ou restritiva de direitos. Não há cassação (Cebraspe, Delegado PC-PB 2022).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "aplicacao-da-pena",
+    "peculato"
+   ]
+  },
+  {
+   "slug": "medidas-de-seguranca",
+   "titulo": "Medidas de segurança",
+   "grupo": "Parte Geral: penas",
+   "base": "Arts. 96 a 98 do CP",
+   "tax": [
+    "penal.medidas-seguranca",
+    "penal.imputabilidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-96",
+    "n2848-1940-art-97",
+    "n2848-1940-art-98"
+   ],
+   "conceitos": [
+    "absolvição imprópria",
+    "internação",
+    "tratamento ambulatorial",
+    "periculosidade",
+    "semi-imputável"
+   ],
+   "palavras": [
+    "medida de seguranca",
+    "absolvicao impropria",
+    "inimputavel",
+    "semi-imputavel",
+    "internacao",
+    "hospital de custodia",
+    "tratamento ambulatorial",
+    "pericia medica anual",
+    "cessacao da periculosidade",
+    "sumula 527",
+    "prazo maximo",
+    "desinternacao condicional"
+   ],
+   "resumo": "O inimputável por doença mental (art. 26) é absolvido, mas recebe <strong>medida de segurança</strong>: é a absolvição imprópria. As espécies são internação em hospital de custódia e tratamento ambulatorial (art. 96). Pela letra do art. 97, o crime punido com reclusão leva à internação, e o punido com detenção pode levar ao tratamento ambulatorial. A medida dura enquanto não cessar a periculosidade, com prazo mínimo de 1 a 3 anos. A perícia é feita ao fim do prazo mínimo e repetida <strong>de ano em ano</strong>. A desinternação é sempre condicional por um ano. Para o semi-imputável, a pena pode ser substituída por medida de segurança (art. 98). O tempo máximo não pode passar da pena máxima cominada ao crime (Súmula 527 do STJ). Extinta a punibilidade, não se impõe a medida nem subsiste a que foi imposta (art. 96, parágrafo único).",
+   "esquema": {
+    "rotulo": "os prazos da medida de segurança",
+    "html": "<table><thead><tr><th>Ponto</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Prazo mínimo</strong></td><td>1 a 3 anos (art. 97, § 1º)</td></tr><tr><td><strong>Duração</strong></td><td>Enquanto durar a periculosidade, limitada à pena máxima cominada (Súmula 527 do STJ)</td></tr><tr><td><strong>Perícia</strong></td><td>Ao fim do prazo mínimo e depois de ano em ano, ou quando o juiz determinar</td></tr><tr><td><strong>Desinternação</strong></td><td>Sempre condicional: volta se, em 1 ano, o agente pratica fato que indique periculosidade</td></tr><tr><td><strong>Semi-imputável</strong></td><td>Recebe pena reduzida, que pode ser substituída por medida de segurança (art. 98)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 96. As medidas de segurança são:\n\nI - internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado;\n\nII - sujeição a tratamento ambulatorial.\n\nParágrafo único. Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 97. Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial.\n\nPrazo\n\n§ 1º A internação, ou tratamento ambulatorial, será por tempo indeterminado, perdurando enquanto não for averiguada, mediante perícia médica, a cessação de periculosidade. O prazo mínimo deverá ser de um a três anos.\n\nPerícia médica\n\n§ 2º A perícia médica realizar-se-á ao termo do prazo mínimo fixado e deverá ser repetida de ano em ano, ou a qualquer tempo, se o determinar o juiz da execução.\n\nDesinternação ou liberação condicional\n\n§ 3º A desinternação, ou a liberação, será sempre condicional devendo ser restabelecida a situação anterior se o agente, antes do decurso de um ano, pratica fato indicativo de persistência de sua periculosidade.\n\n§ 4º Em qualquer fase do tratamento ambulatorial, poderá o juiz determinar a internação do agente, se essa providência for necessária para fins curativos.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    },
+    {
+     "texto": "Art. 98. Na hipótese do parágrafo único do art. 26 deste Código e necessitando o condenado de especial tratamento curativo, a pena privativa de liberdade pode ser substituída pela internação, ou tratamento ambulatorial, pelo prazo mínimo de um a três anos, nos termos do artigo anterior e respectivos §§ 1º a 4º.",
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "1 A 3, DE ANO EM ANO",
+     "texto": "Prazo mínimo de 1 a 3 anos, perícia anual e desinternação condicional por 1 ano."
+    },
+    {
+     "sigla": "TETO É A PENA MÁXIMA",
+     "texto": "A medida de segurança não pode durar mais do que a pena máxima cominada ao crime (Súmula 527 do STJ)."
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 527",
+     "texto": "O tempo de duração da medida de segurança não deve ultrapassar o limite máximo da pena abstratamente cominada ao delito praticado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o STJ, a escolha entre a internação em hospital de custódia e o tratamento ambulatorial deve ser vinculada à gravidade do delito praticado.",
+    "gabarito": "E",
+    "explicacao": "Para o STJ, a escolha segue a periculosidade do agente, e não a gravidade do crime. Por isso cabe tratamento ambulatorial mesmo em crime punido com reclusão (Cebraspe, Delegado PF 2021)."
+   },
+   "aprofundamento": "<p><strong>Periculosidade, não gravidade.</strong> O STJ não vincula a espécie de medida de segurança à gravidade do delito, mas à periculosidade do agente (Cebraspe, Delegado PF 2021).</p><p><strong>Absolvido, mas com medida.</strong> O inimputável absolvido por latrocínio pode receber medida de segurança, mesmo absolvido (Cebraspe, Delegado PF 2018).</p><p><strong>Perícia é anual, não semestral.</strong> A perícia é repetida de ano em ano, e não semestralmente. Prazo mínimo de 1 a 3 anos e desinternação condicional por 1 ano são afirmações corretas (FGV, Delegado PC-MG 2024).</p><p><strong>Não é por prazo ilimitado.</strong> Está errado dizer que a medida dura enquanto a perícia anual não indicar a cessação da periculosidade, sem limite: o teto é a pena máxima cominada (Súmula 527 do STJ; Cebraspe, Delegado PC-MA 2018).</p>",
+   "aprofundamento_rotulo": "exceções que caem em prova",
+   "relacionados": [
+    "culpabilidade-imputabilidade-e-coacao",
     "extincao-da-punibilidade"
    ]
   },
