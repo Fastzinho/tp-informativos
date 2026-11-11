@@ -93,6 +93,13 @@
 .tpi-pagina .entry-content .tpi-alternativas li { counter-increment: alt; display: grid; grid-template-columns: 2rem 1fr; gap: .75rem; align-items: start; margin: 0; padding: .55rem .7rem; border-radius: var(--tpi-raio-p); background: var(--tpi-nevoa); }
 .tpi-alternativas li::before { content: counter(alt, upper-alpha); display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: #fff; border: 1px solid var(--tpi-linha); font-weight: 800; color: var(--tpi-verde); }
 .tpi-pagina .entry-content .tpi-assertiva { font-size: inherit; padding: .9rem 1rem; margin: .8rem 0 1rem; background: var(--tpi-nevoa); border-radius: var(--tpi-raio-p); }
+/* Texto da lei no "Para lembrar" (0.11.2) */
+.tpi-pagina .tpi-como-cai .tpi-lei { margin: .45rem 0 0; }
+.tpi-pagina .tpi-como-cai .tpi-lei + .tpi-lei { margin-top: 0; }
+.tpi-pagina .tpi-como-cai .tpi-lei > summary { min-height: 40px; font-size: .9rem; font-weight: 600; color: var(--tpi-verde); line-height: 1.35; }
+.tpi-pagina .entry-content .tpi-lei__texto { margin: .2rem 0 .3rem; padding: .7rem .9rem; border: 0; border-left: 3px solid var(--tpi-areia); border-radius: 0 var(--tpi-raio-p) var(--tpi-raio-p) 0; background: #fbf6ea; font-size: .93rem; font-style: normal; }
+.tpi-pagina .entry-content .tpi-lei__texto p { margin: .3rem 0; font-size: inherit; line-height: 1.6; }
+.tpi-pagina .tpi-lei__fonte { margin: 0 0 .5rem; font-size: .8rem; color: var(--tpi-suave); }
 .tpi-gabarito { border-top: 1px solid var(--tpi-linha); padding-top: .4rem; }
 .tpi-gabarito > summary { color: var(--tpi-verde); }
 .tpi-gabarito[open] > *:not(summary) { background: #fbf6ea; border-left: 3px solid var(--tpi-areia); padding: .8rem 1rem; border-radius: 0 var(--tpi-raio-p) var(--tpi-raio-p) 0; }
