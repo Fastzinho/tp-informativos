@@ -99,7 +99,7 @@
   }
 
   /* 0.11.4: filtro do caderno pela leitura (Todos / Não lidos / Lidos), no mesmo desenho do app (Jurisprudência
-     e Lei seca). Só para quem tem conta e já leu algum tema; é só visual: o HTML segue com todos os temas. */
+     e Lei seca). Só para quem tem conta; é só visual: o HTML segue com todos os temas. */
   var CH_FILTRO = 'tpc-filtro-leitura';
   var filtro = 'all';
   try { filtro = localStorage.getItem(CH_FILTRO) || 'all'; } catch (e) {}
@@ -109,7 +109,7 @@
     if (!prog || !cards.length) return;
     var ids = prog.getAttribute('data-tpi-progresso').split(',').filter(Boolean);
     var n = ids.filter(function (i) { return lidos[i]; }).length;
-    var ativo = !semSessao && n > 0;
+    var ativo = !semSessao; /* 0.12.4: aparece para quem tem conta mesmo antes de ler algo, como no app */
     var caixa = document.querySelector('.tpc-filtro');
     if (!caixa && ativo) {
       caixa = document.createElement('div'); caixa.className = 'tpc-filtro'; caixa.setAttribute('role', 'radiogroup'); caixa.setAttribute('aria-label', 'Filtrar pela leitura');
@@ -128,8 +128,8 @@
       prog.insertAdjacentElement('afterend', caixa);
     }
     if (caixa) caixa.hidden = !ativo;
-    var f = ativo ? filtro : 'all';
     var conta = { all: ids.length, unread: ids.length - n, read: n };
+    var f = ativo && conta[filtro] ? filtro : 'all'; /* filtro vazio (ex.: Lidos sem nada lido) mostra todos */
     if (caixa) caixa.querySelectorAll('button').forEach(function (b) {
       var k = b.getAttribute('data-f'), on = f === k, q = conta[k];
       b.classList.toggle('on', on); b.classList.toggle('zero', !q && k !== 'all');
