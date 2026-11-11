@@ -7,7 +7,7 @@ O link do julgado para o tema acende sozinho quando o tema for escrito **com exa
 - **Cadernos:** ao escrever um tema desta lista, use o slug indicado e apague a linha. A ordem dentro de cada disciplina é pelo número de conceitos que pedem o tema; a prioridade real continua sendo a base de incidência.
 - Slug publicado nunca muda (os julgados guardam a referência).
 
-Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, STF 1234–1236).
+Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, STF 1234–1236).
 
 ## Direito Administrativo (`direito-administrativo`)
 
@@ -18,6 +18,7 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 | `poder-regulamentar` | 1 | STF 1235: O decreto do art. 84, VI, a, da Constituição |
 | `regime-juridico-unico` | 1 | STF 1234: Regime jurídico único (RJU) |
 | `remuneracao-de-servidores` | 1 | STF 1236: O que é o regime de subsídio |
+| `processo-administrativo-disciplinar` | 1 | STJ 909: Independência das instâncias |
 
 ## Direito Civil (`direito-civil`)
 
@@ -40,6 +41,12 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 | `processo-legislativo` | 1 | STF 1234: Iniciativa reservada e emenda parlamentar |
 | `recepcao` | 1 | STF 1235: Recepção e não recepção |
 
+## Direito Empresarial (`direito-empresarial`)
+
+| Tema (slug) | Conceitos que pedem | Onde |
+|---|---|---|
+| `recuperacao-judicial` | 1 | STJ 909: Adiantamento de contrato de câmbio (ACC) |
+
 ## Direito do Consumidor (`direito-do-consumidor`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
@@ -52,6 +59,14 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 |---|---|---|
 | `registro-de-imoveis` | 2 | STJ 908: Matrícula, cadeia dominial e continuidade registral; STJ 908: Fé pública registral e presunção relativa |
 
+## Direito Penal (`direito-penal`)
+
+| Tema (slug) | Conceitos que pedem | Onde |
+|---|---|---|
+| `aplicacao-da-pena` | 1 | STJ 909: Atenuante da confissão espontânea |
+| `crimes-de-transito` | 1 | STJ 909: O crime do art. 306 do CTB |
+| `trafico-de-drogas` | 1 | STJ 909: Majorante do art. 40, IV, da Lei de Drogas |
+
 ## Direito Processual Civil (`direito-processual-civil`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
@@ -63,8 +78,9 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 | `litigancia-de-ma-fe` | 1 | STJ 908: Ato atentatório à dignidade da Justiça x litigância de má-fé |
 | `ministerio-publico` | 1 | STJ 908: MP como parte e MP como fiscal da ordem jurídica |
 | `nulidades` | 1 | STJ 908: Pas de nullité sans grief |
-| `precedentes` | 1 | STF 1235: Ratio decidendi e obiter dictum |
+| `precedentes` | 2 | STF 1235: Ratio decidendi e obiter dictum; STJ 909: Superação prospectiva (prospective overruling) |
 | `producao-antecipada-de-provas` | 1 | STJ 907: Produção antecipada de provas |
+| `tutela-coletiva` | 1 | STJ 909: Difusos, coletivos e individuais homogêneos |
 
 ## Direito Processual Penal (`direito-processual-penal`)
 
@@ -74,6 +90,8 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 | `competencia-justica-federal` | 1 | STJ 907: Contravenção penal e Justiça Federal |
 | `habeas-corpus` | 1 | STJ 908: Trancamento da ação penal por habeas corpus |
 | `juizados-especiais-criminais` | 1 | STF 1235: Infração de menor potencial ofensivo e termo circunstanciado |
+| `prazos-e-intimacoes` | 1 | STJ 909: Intimação pessoal com vista dos autos |
+| `reconhecimento-de-pessoas` | 1 | STJ 909: O procedimento do art. 226 do CPP |
 
 ## Direito Tributário (`direito-tributario`)
 
@@ -86,3 +104,10 @@ Situação em 10/11/2026: 64 conceitos marcados em 33 julgados (STJ 907–908, S
 | `pis-e-cofins` | 1 | STF 1236: PIS, COFINS e ISS em poucas palavras |
 | `regra-matriz-de-incidencia` | 1 | STF 1234: Regra-matriz de incidência |
 | `responsabilidade-tributaria` | 1 | STF 1234: Sub-rogação do adquirente |
+| `reparticao-de-receitas` | 1 | STJ 909: Repartição do ICMS e Valor Adicionado Fiscal |
+
+## Execução Penal (`execucao-penal`)
+
+| Tema (slug) | Conceitos que pedem | Onde |
+|---|---|---|
+| `remicao` | 1 | STJ 909: Remição da pena |
