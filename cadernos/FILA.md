@@ -68,13 +68,3 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | `precedentes` | 2 | STF 1235: Ratio decidendi e obiter dictum; STJ 909: Superação prospectiva (prospective overruling) |
 | `producao-antecipada-de-provas` | 1 | STJ 907: Produção antecipada de provas |
 | `tutela-coletiva` | 1 | STJ 909: Difusos, coletivos e individuais homogêneos |
-
-## Direito Processual Penal (`direito-processual-penal`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `busca-domiciliar` | 1 | STJ 907: A inviolabilidade do domicílio e o Tema 280 do STF |
-| `competencia-justica-federal` | 1 | STJ 907: Contravenção penal e Justiça Federal |
-| `habeas-corpus` | 1 | STJ 908: Trancamento da ação penal por habeas corpus |
-| `prazos-e-intimacoes` | 1 | STJ 909: Intimação pessoal com vista dos autos |
-| `reconhecimento-de-pessoas` | 1 | STJ 909: O procedimento do art. 226 do CPP |
