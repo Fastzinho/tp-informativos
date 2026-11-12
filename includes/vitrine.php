@@ -263,7 +263,10 @@ add_action( 'init', function () {
 	foreach ( $partes as $p ) {
 		$c = $p->post_content;
 		if ( false === strpos( $c, $ancora ) || false !== strpos( $c, 'href="/como-estudar/"' ) ) { continue; }
-		wp_update_post( array( 'ID' => $p->ID, 'post_content' => str_replace( $ancora, $ancora . $novo, $c ) ) );
+		// Direto no banco: wp_update_post sem usuário logado passaria pelo kses e tiraria o <style> do cabeçalho.
+		global $wpdb;
+		$wpdb->update( $wpdb->posts, array( 'post_content' => str_replace( $ancora, $ancora . $novo, $c ) ), array( 'ID' => $p->ID ) );
+		clean_post_cache( $p->ID );
 		$feito = true;
 	}
 	update_option( 'tpv_menu_v1', $feito ? 'inserido' : 'nao-achou', false );
