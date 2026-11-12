@@ -231,6 +231,30 @@ add_action( 'template_redirect', function () {
 		exit;
 	}
 } );
+/*
+ * 0.15.4: "Praticar este tema" abre no app a prática só daquele tema (antes abria o app genérico).
+ * O app acha os itens pelo índice tp/v1/cadernos-indice (campos tax e dispositivos) com o id do post.
+ * visitante=1: quem não tem conta entra direto como visitante, sem a tela de login no meio.
+ * utm_*: a origem do aluno (tp_records settings "origem") passa a mostrar quem chegou pelos cadernos.
+ * "praticar" no JSON do tema ainda manda, para um destino escolhido à mão.
+ */
+function tpc_link_praticar( $p, $t ) {
+	if ( ! empty( $t['praticar'] ) ) {
+		return $t['praticar'];
+	}
+	$caderno = $p->post_parent ? get_post_field( 'post_name', $p->post_parent ) : '';
+	return add_query_arg(
+		array(
+			'tema'         => (int) $p->ID,
+			'visitante'    => 1,
+			'utm_source'   => 'caderno',
+			'utm_medium'   => 'praticar',
+			'utm_campaign' => $caderno ? $caderno : 'cadernos',
+			'utm_content'  => $p->post_name,
+		),
+		home_url( '/estudar/' )
+	);
+}
 function tpc_link_tema( $p ) {
 	$d = tpc_dados( $p->ID );
 	return ! empty( $d['pagina_propria'] ) ? get_permalink( $p ) : get_permalink( $p->post_parent ) . '#' . $p->post_name;
@@ -481,8 +505,8 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		$h .= tpc_botao_lido( $p, $disc->post_title, true );
 	}
 
-	$praticar = ! empty( $t['praticar'] ) ? $t['praticar'] : home_url( '/estudar/' );
-	$h       .= '<p class="tpc-cta"><span><strong>Pratique ' . esc_html( mb_strtolower( $p->post_title ) ) . ' agora.</strong> Itens Certo/Errado no estilo da banca, com revisão espaçada. Grátis.</span><a class="tpc-cta__botao" href="' . esc_url( $praticar ) . '">Praticar este tema</a></p>';
+	$praticar = tpc_link_praticar( $p, $t );
+	$h       .= '<p class="tpc-cta"><span><strong>Pratique ' . esc_html( mb_strtolower( $p->post_title ) ) . ' agora.</strong> Itens Certo/Errado no estilo da banca, com revisão espaçada. Grátis.</span><a class="tpc-cta__botao" data-tpc-praticar="' . esc_attr( $p->ID ) . '" href="' . esc_url( $praticar ) . '">Praticar este tema</a></p>';
 
 	// Relacionados: os do JSON (slugs da mesma disciplina) ou, sem eles, os vizinhos de sumário.
 	$rel  = array();
@@ -967,7 +991,7 @@ add_action( 'rest_api_init', function () {
 				'html'     => tpc_previa_html( $p ),
 				'url'      => tpc_link_tema( $p ),
 				'caderno'  => get_the_title( $p->post_parent ),
-				'praticar' => ! empty( $t['praticar'] ) ? $t['praticar'] : home_url( '/estudar/' ),
+				'praticar' => tpc_link_praticar( $p, $t ),
 			) );
 			$res->header( 'Cache-Control', 'public, max-age=600' );
 			return $res;
