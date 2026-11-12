@@ -114,3 +114,33 @@
 
 /* 0.14.2: Continue lendo dentro da coluna do texto */
 .tpv-guia .tpv-grade--3 { grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+
+/* 0.15.0: capa do guia */
+.tpv-guia main#wp--skip-link--target { margin-top: 0 !important; }
+.tpv-guia main > .wp-block-group:first-child { padding-top: clamp(1rem, 3vw, 2rem) !important; }
+.tpv-guia .tpv-capa + .wp-block-group, .tpv-guia .wp-block-post-featured-image { display: none !important; }
+.tpv-guia .tpv-capa { position: relative; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.5rem; max-width: 920px !important; margin: 0 auto 2rem !important; padding: clamp(1.4rem, 4vw, 2.6rem); border-radius: 22px; background: var(--tpv-verde); color: #fff; overflow: hidden; }
+.tpv-capa::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 92% 8%, rgba(242,227,191,.20), rgba(242,227,191,0) 42%), radial-gradient(circle at 0% 100%, rgba(0,0,0,.18), rgba(0,0,0,0) 50%); pointer-events: none; }
+.tpv-capa--lei-seca-e-jurisprudencia { background: #2b4d58 !important; }
+.tpv-capa--memoria-e-organizacao { background: var(--tpv-verde-escuro) !important; }
+.tpv-capa__texto { position: relative; min-width: 0; }
+.tpv-capa__trilha { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 .9rem; font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: rgba(242,227,191,.7); }
+.tpv-capa__trilha a { color: var(--tpv-marca) !important; text-decoration: none !important; }
+.tpv-capa__trilha a:hover { text-decoration: underline !important; }
+.tpv-guia h1.tpv-capa__titulo { margin: 0 !important; max-width: none; font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.7rem) !important; font-weight: 700; line-height: 1.12; letter-spacing: -.02em; color: #fff !important; text-wrap: balance; }
+.tpv-capa__lede { margin: 1rem 0 0; max-width: 40rem; font-size: clamp(1rem, .95rem + .3vw, 1.12rem); line-height: 1.55; color: rgba(255,255,255,.86); }
+.tpv-capa__meta { display: flex; align-items: center; gap: .75rem; margin-top: 1.4rem; padding-top: 1.1rem; border-top: 1px solid rgba(255,255,255,.16); font-size: .88rem; line-height: 1.35; }
+.tpv-capa__avatar { display: inline-grid; place-items: center; flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--tpv-marca); color: var(--tpv-verde-escuro); font-weight: 800; font-size: .9rem; }
+.tpv-capa__autor { display: block; color: #fff !important; font-weight: 800; text-decoration: none !important; }
+.tpv-capa__autor:hover { text-decoration: underline !important; }
+.tpv-capa__dados { color: rgba(255,255,255,.72); }
+.tpv-capa__arte { position: relative; width: clamp(130px, 18vw, 190px); height: auto; fill: none; stroke: rgba(242,227,191,.75); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.tpv-capa__arte .c, .tpv-capa__arte .b { fill: rgba(242,227,191,.9); }
+.tpv-capa__arte .b { fill: rgba(242,227,191,.14); }
+.tpv-capa__arte .f { stroke: rgba(242,227,191,.45); stroke-width: 3; }
+.tpv-capa__arte .c2 { stroke: var(--tpv-areia); stroke-width: 6; }
+.tpv-guia .tpv-capa ~ .wp-block-post-content > .tpv-sumario:first-child, .tpv-guia .wp-block-post-content > .tpv-sumario { margin-top: 0; }
+@media (max-width: 700px) {
+  .tpv-guia .tpv-capa { grid-template-columns: 1fr; border-radius: 16px; margin-left: -4px !important; margin-right: -4px !important; }
+  .tpv-capa__arte { position: absolute; right: -18px; top: -10px; width: 120px; opacity: .22; }
+}
