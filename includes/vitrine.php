@@ -348,3 +348,8 @@ add_action( 'init', function () {
 	update_option( 'tpv_capas_sig', $assin, false );
 	delete_transient( 'tpv_capas_lock' );
 }, 70 );
+
+/* 0.15.1: no guia a capa já faz o papel da imagem destacada; não imprimir a figura do tema (evita baixar 1200px escondidos). */
+add_filter( 'render_block_core/post-featured-image', function ( $html ) {
+	return ( tpv_eh_guia() && get_the_ID() === get_queried_object_id() ) ? '' : $html;
+} );
