@@ -10,7 +10,7 @@
  * - Post que não existe é criado e publicado.
  * - Post que já existe só é atualizado pelo arquivo se ninguém o editou no painel depois da última
  *   sincronização. Edição feita no WordPress vence; o arquivo deixa de mandar naquele post.
- * - Uma vez só, se o permalink for /%postname%/, passa a /como-estudar/%postname%/. Os tipos
+ * - Uma vez só, o permalink dos posts passa a /como-estudar/%postname%/ (se não estiver no modo simples, ?p=). Os tipos
  *   informativo e caderno (e a taxonomia ramo) têm with_front => false, então não mudam de endereço.
  */
 
@@ -80,7 +80,8 @@ function tpce_permalink() {
 	}
 	global $wp_rewrite;
 	$atual = (string) get_option( 'permalink_structure' );
-	if ( '/%postname%/' === $atual ) {
+	// Sem posts de blog antes desta seção, trocar a estrutura só mexe nos posts (e nos arquivos de categoria/autor).
+	if ( '' !== $atual && TPCE_BASE !== $atual ) {
 		$wp_rewrite->set_permalink_structure( TPCE_BASE );
 		flush_rewrite_rules( false );
 	}
