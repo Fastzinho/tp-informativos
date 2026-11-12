@@ -161,7 +161,7 @@ function tpv_eh_guia() {
 add_filter( 'the_content', function ( $html ) {
 	// Só dentro do bloco core/post-content da página (o Rank Math e outros também passam pelo the_content).
 	global $tpv_no_corpo;
-	if ( empty( $tpv_no_corpo ) || ! tpv_eh_guia() || get_the_ID() !== get_queried_object_id() || false !== strpos( $html, 'tpv-guia-meta' ) ) {
+	if ( empty( $tpv_no_corpo ) || ! tpv_eh_guia() || get_the_ID() !== get_queried_object_id() || false !== strpos( $html, '<!--tpv-guia-->' ) ) {
 		return $html;
 	}
 	$p     = get_post( get_queried_object_id() );
@@ -193,10 +193,6 @@ add_filter( 'the_content', function ( $html ) {
 	$html = preg_replace( '#<h2 id="fontes">Fontes</h2>\s*<ul>#', '<h2 id="fontes" class="tpv-fontes__titulo">Fontes</h2><ul class="tpv-fontes">', $html );
 
 	$c     = tpv_cat( $p );
-	$meta  = '<div class="tpv-guia-meta">'
-		. ( $c ? '<a class="tpv-card__selo" href="' . esc_url( get_category_link( $c ) ) . '">' . esc_html( $c->name ) . '</a>' : '' )
-		. '<span>' . esc_html( tpv_minutos( $p ) . ' min de leitura' ) . '</span>'
-		. '<span>Atualizado em ' . esc_html( get_the_modified_date( 'd/m/Y', $p ) ) . '</span></div>';
 	$sum   = count( $toc ) >= 3 ? '<details class="tpv-sumario" open><summary>Neste guia</summary><ol>' . implode( '', $toc ) . '</ol></details>' : '';
 
 	// Autor e continue lendo.
@@ -224,7 +220,7 @@ add_filter( 'the_content', function ( $html ) {
 	}
 	$fim = $autor . ( $cont ? '<h2 class="tpv-secao">Continue lendo</h2><ul class="tpv-grade tpv-grade--3 alignwide">' . $cont . '</ul>' : '' );
 
-	return $meta . $sum . $html . $fim;
+	return '<!--tpv-guia-->' . $sum . $html . $fim;
 }, 30 );
 
 add_filter( 'pre_render_block', function ( $pre, $block ) {
@@ -237,6 +233,45 @@ add_filter( 'render_block_core/post-content', function ( $html ) {
 	$GLOBALS['tpv_no_corpo'] = false;
 	return $html;
 } );
+
+/* 0.15.0: capa do guia. O título do tema vira um painel com trilha, título, resumo e autor. */
+function tpv_capa_arte( $slug ) {
+	$a = array(
+		'provas-e-bancas'           => '<rect x="38" y="14" width="124" height="132" rx="10"/><path d="M58 40h40M58 66h40M58 92h40M58 118h40"/><circle cx="118" cy="40" r="8"/><circle cx="144" cy="40" r="8" class="c"/><circle cx="118" cy="66" r="8" class="c"/><circle cx="144" cy="66" r="8"/><circle cx="118" cy="92" r="8" class="c"/><circle cx="144" cy="92" r="8"/><circle cx="118" cy="118" r="8"/><circle cx="144" cy="118" r="8" class="c"/>',
+		'lei-seca-e-jurisprudencia' => '<path d="M100 30c-18-10-44-12-66-6v108c22-6 48-4 66 6 18-10 44-12 66-6V24c-22-6-48-4-66 6z"/><path d="M100 30v108"/><path d="M48 50h36M48 66h36M48 82h28M116 50h36M116 66h36M116 82h28" class="f"/><path d="M116 100h36" class="c2"/>',
+		'memoria-e-organizacao'     => '<rect x="26" y="52" width="92" height="64" rx="8" transform="rotate(-8 72 84)"/><rect x="46" y="44" width="92" height="64" rx="8" transform="rotate(4 92 76)"/><rect x="66" y="38" width="92" height="64" rx="8" class="b"/><path d="M80 86l14 8 22-26" class="c2"/><path d="M30 146c30-4 60-22 80-46s40-36 64-40" class="f"/>',
+	);
+	$d = $a[ $slug ] ?? $a['memoria-e-organizacao'];
+	return '<svg class="tpv-capa__arte" viewBox="0 0 200 160" aria-hidden="true" focusable="false">' . $d . '</svg>';
+}
+
+add_filter( 'render_block_core/post-title', function ( $html, $block ) {
+	static $feito = false;
+	if ( $feito || ! tpv_eh_guia() || ! empty( $block['attrs']['isLink'] ) || get_the_ID() !== get_queried_object_id() ) {
+		return $html;
+	}
+	$feito = true;
+	$p     = get_post( get_queried_object_id() );
+	$c     = tpv_cat( $p );
+	$lede  = (string) get_post_meta( $p->ID, 'rank_math_description', true );
+	$lede  = '' !== $lede ? $lede : $p->post_excerpt;
+	$nome  = get_the_author_meta( 'display_name', $p->post_author );
+	$ini   = '';
+	foreach ( array_slice( preg_split( '/\s+/', trim( $nome ) ), 0, 2 ) as $w ) {
+		$ini .= mb_substr( $w, 0, 1 );
+	}
+	$hub   = home_url( '/como-estudar/' );
+	return '<header class="tpv-capa tpv-capa--' . esc_attr( $c ? $c->slug : 'geral' ) . '">'
+		. '<div class="tpv-capa__texto">'
+		. '<nav class="tpv-capa__trilha" aria-label="Você está em"><a href="' . esc_url( $hub ) . '">Como estudar</a>'
+		. ( $c ? '<span aria-hidden="true">/</span><a href="' . esc_url( get_category_link( $c ) ) . '">' . esc_html( $c->name ) . '</a>' : '' ) . '</nav>'
+		. '<h1 class="wp-block-post-title tpv-capa__titulo">' . esc_html( get_the_title( $p ) ) . '</h1>'
+		. ( '' !== $lede ? '<p class="tpv-capa__lede">' . esc_html( $lede ) . '</p>' : '' )
+		. '<div class="tpv-capa__meta"><span class="tpv-capa__avatar" aria-hidden="true">' . esc_html( mb_strtoupper( $ini ) ) . '</span>'
+		. '<span><a class="tpv-capa__autor" href="' . esc_url( home_url( '/sobre/' ) ) . '">' . esc_html( $nome ) . '</a>'
+		. '<span class="tpv-capa__dados">' . esc_html( tpv_minutos( $p ) . ' min de leitura' ) . ' · Atualizado em <time datetime="' . esc_attr( get_the_modified_date( 'Y-m-d', $p ) ) . '">' . esc_html( get_the_modified_date( 'd/m/Y', $p ) ) . '</time></span></span></div>'
+		. '</div>' . tpv_capa_arte( $c ? $c->slug : '' ) . '</header>';
+}, 10, 2 );
 
 add_filter( 'body_class', function ( $c ) {
 	if ( tpv_eh_guia() ) {
@@ -271,3 +306,45 @@ add_action( 'init', function () {
 	}
 	update_option( 'tpv_menu_v1', $feito ? 'inserido' : 'nao-achou', false );
 }, 60 );
+
+/* 0.15.0: imagem destacada dos guias (como-estudar/capas/<slug>.png, gerada por ferramentas/capas-como-estudar.js).
+   Vira og:image no Rank Math e imagem do Article. Troca a imagem quando o arquivo muda (hash em tpv_capa_hash). */
+add_action( 'init', function () {
+	$dir = plugin_dir_path( TPI_ARQUIVO ) . 'como-estudar/capas/';
+	$arq = glob( $dir . '*.png' );
+	if ( ! $arq ) {
+		return;
+	}
+	$assin = md5( implode( '|', array_map( 'md5_file', $arq ) ) );
+	if ( get_option( 'tpv_capas_sig' ) === $assin || get_transient( 'tpv_capas_lock' ) ) {
+		return;
+	}
+	set_transient( 'tpv_capas_lock', 1, 120 );
+	require_once ABSPATH . 'wp-admin/includes/image.php';
+	foreach ( $arq as $f ) {
+		$slug = basename( $f, '.png' );
+		$p    = get_page_by_path( $slug, OBJECT, 'post' );
+		$hash = md5_file( $f );
+		if ( ! $p || get_post_meta( $p->ID, 'tpv_capa_hash', true ) === $hash ) {
+			continue;
+		}
+		$up = wp_upload_bits( 'capa-' . $slug . '.png', null, file_get_contents( $f ) );
+		if ( ! empty( $up['error'] ) ) {
+			continue;
+		}
+		$id = wp_insert_attachment( array( 'post_mime_type' => 'image/png', 'post_title' => get_the_title( $p ), 'post_status' => 'inherit' ), $up['file'], $p->ID );
+		if ( is_wp_error( $id ) || ! $id ) {
+			continue;
+		}
+		wp_update_attachment_metadata( $id, wp_generate_attachment_metadata( $id, $up['file'] ) );
+		update_post_meta( $id, '_wp_attachment_image_alt', 'Capa do guia: ' . get_the_title( $p ) );
+		$velho = (int) get_post_thumbnail_id( $p->ID );
+		set_post_thumbnail( $p->ID, $id );
+		update_post_meta( $p->ID, 'tpv_capa_hash', $hash );
+		if ( $velho && $velho !== $id && get_post_meta( $velho, '_wp_attachment_image_alt', true ) && 0 === strpos( (string) get_post_meta( $velho, '_wp_attachment_image_alt', true ), 'Capa do guia:' ) ) {
+			wp_delete_attachment( $velho, true );
+		}
+	}
+	update_option( 'tpv_capas_sig', $assin, false );
+	delete_transient( 'tpv_capas_lock' );
+}, 70 );
