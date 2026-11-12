@@ -118,7 +118,7 @@
 /* 0.15.0: capa do guia */
 .tpv-guia main#wp--skip-link--target { margin-top: 0 !important; }
 .tpv-guia main > .wp-block-group:first-child { padding-top: clamp(1rem, 3vw, 2rem) !important; }
-.tpv-guia .tpv-capa + .wp-block-group, .tpv-guia .wp-block-post-featured-image { display: none !important; }
+.tpv-guia .tpv-capa ~ .wp-block-group:has(.wp-block-post-author-name), .tpv-guia .tpv-capa ~ .wp-block-post-featured-image { display: none !important; }
 .tpv-guia .tpv-capa { position: relative; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1.5rem; max-width: 920px !important; margin: 0 auto 2rem !important; padding: clamp(1.4rem, 4vw, 2.6rem); border-radius: 22px; background: var(--tpv-verde); color: #fff; overflow: hidden; }
 .tpv-capa::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 92% 8%, rgba(242,227,191,.20), rgba(242,227,191,0) 42%), radial-gradient(circle at 0% 100%, rgba(0,0,0,.18), rgba(0,0,0,0) 50%); pointer-events: none; }
 .tpv-capa--lei-seca-e-jurisprudencia { background: #2b4d58 !important; }
