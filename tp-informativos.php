@@ -856,7 +856,22 @@ function tpi_newsletter_cta() {
 		$url  = apply_filters( 'tpi_newsletter_url', get_permalink( $pag ) );
 		$form = '<p><a class="tpi-btn" href="' . esc_url( $url ) . '">Quero receber</a></p>';
 	}
-	return '<section class="tpi-newsletter" aria-labelledby="tpi-nl-titulo"><h2 id="tpi-nl-titulo">Receba o próximo informativo comentado</h2><p>Um e-mail por semana, às quartas, com os informativos do STJ e do STF comentados: a tese, como ela cai em prova e flashcards prontos para revisar.</p>' . $form . '</section>';
+	return '<section class="tpi-newsletter" aria-labelledby="tpi-nl-titulo"><h2 id="tpi-nl-titulo">Receba o próximo informativo comentado</h2><p>Um e-mail por semana, às quartas, com os informativos do STJ e do STF comentados: a tese, como ela cai em prova e flashcards prontos para revisar.</p>' . $form . tpi_instagram_convite() . '</section>';
+}
+
+/**
+ * Convite secundário para o Instagram (0.15.6, plano de 30 dias de 12/11/2026): uma linha discreta
+ * abaixo do formulário da newsletter, sem competir com ele. URL e texto filtráveis; filtro devolvendo
+ * '' desliga.
+ */
+function tpi_instagram_convite() {
+	$url = apply_filters( 'tpi_instagram_url', 'https://www.instagram.com/tchaupobreza.oficial/' );
+	if ( ! $url ) {
+		return '';
+	}
+	$url  = add_query_arg( array( 'utm_source' => 'site', 'utm_medium' => 'julgado', 'utm_campaign' => 'convite-instagram' ), $url );
+	$txt  = apply_filters( 'tpi_instagram_convite_texto', 'Prefere revisar em 15 segundos? Certo ou errado e pegadinhas de prova em vídeo curto no' );
+	return '<p class="tpi-ig-convite">' . esc_html( $txt ) . ' <a href="' . esc_url( $url ) . '" target="_blank" rel="me noopener">Instagram @tchaupobreza.oficial</a>.</p>';
 }
 add_shortcode( 'tp_newsletter', function () {
 	$form = tpi_kit_form_html( 'pagina' );
