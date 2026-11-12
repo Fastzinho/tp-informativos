@@ -88,3 +88,4 @@ Atenção às leis de 2025–2026 (ex.: Leis 15.280/2025, 15.353/2026 e 15.397/2
 acervo vence a memória de quem escreve: escreva resumo, esquema e pegadinha a partir dele.
 
 Temas que os informativos já pedem e ainda não estão escritos: `cadernos/FILA.md`. Ao escrever um deles, use o slug de lá e apague a linha.
+Se o tema couber melhor em outro caderno (ex.: `direito-penal#trafico-de-drogas` escrito na Legislação Penal Especial), basta manter o slug: o link do julgado acha o tema publicado com esse slug em qualquer caderno, desde que o slug seja único entre os cadernos.

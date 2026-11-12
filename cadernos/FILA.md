@@ -64,8 +64,6 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | Tema (slug) | Conceitos que pedem | Onde |
 |---|---|---|
 | `aplicacao-da-pena` | 1 | STJ 909: Atenuante da confissão espontânea |
-| `crimes-de-transito` | 1 | STJ 909: O crime do art. 306 do CTB |
-| `trafico-de-drogas` | 1 | STJ 909: Majorante do art. 40, IV, da Lei de Drogas |
 
 ## Direito Processual Civil (`direito-processual-civil`)
 
@@ -89,12 +87,5 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | `busca-domiciliar` | 1 | STJ 907: A inviolabilidade do domicílio e o Tema 280 do STF |
 | `competencia-justica-federal` | 1 | STJ 907: Contravenção penal e Justiça Federal |
 | `habeas-corpus` | 1 | STJ 908: Trancamento da ação penal por habeas corpus |
-| `juizados-especiais-criminais` | 1 | STF 1235: Infração de menor potencial ofensivo e termo circunstanciado |
 | `prazos-e-intimacoes` | 1 | STJ 909: Intimação pessoal com vista dos autos |
 | `reconhecimento-de-pessoas` | 1 | STJ 909: O procedimento do art. 226 do CPP |
-
-## Execução Penal (`execucao-penal`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `remicao` | 1 | STJ 909: Remição da pena |
