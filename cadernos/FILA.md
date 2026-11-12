@@ -21,15 +21,6 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | `marco-civil-da-internet` | 1 | STJ 907: O art. 19 do Marco Civil da Internet |
 | `sonegados` | 1 | STJ 908: Colação e sonegados |
 
-## Direito Constitucional (`direito-constitucional`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `controle-de-constitucionalidade` | 5 | STF 1234: Inconstitucionalidade por arrastamento; STF 1235: Inconstitucionalidade parcial sem redução de texto; STF 1236: Modulação de efeitos; STF 1236: Inconstitucionalidade sem redução de texto; STF 1236: Converter a cautelar em mérito |
-| `principio-da-simetria` | 1 | STF 1235: Princípio da simetria |
-| `processo-legislativo` | 1 | STF 1234: Iniciativa reservada e emenda parlamentar |
-| `recepcao` | 1 | STF 1235: Recepção e não recepção |
-
 ## Direito Empresarial (`direito-empresarial`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
