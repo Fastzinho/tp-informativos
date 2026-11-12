@@ -113,9 +113,9 @@
 .tpc-ce__gabarito p { margin: .5rem 0 0; padding: .6rem .8rem; border-radius: 8px; background: var(--tpi-nevoa); font-size: .95rem; }
 
 .tpc-fundo { border: 1px solid var(--tpi-linha); border-radius: 12px; background: #fafbf9; }
-.tpc-fundo summary { display: flex; align-items: center; gap: .5rem; padding: .9rem 1.1rem; cursor: pointer; list-style: none; font-weight: 800; }
+.tpc-fundo summary { position: relative; display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem .5rem; padding: .9rem 2.6rem .9rem 1.1rem; cursor: pointer; list-style: none; font-weight: 800; }
 .tpc-fundo summary::-webkit-details-marker { display: none; }
-.tpc-fundo summary::after { content: "+"; margin-left: auto; font-size: 1.3rem; line-height: 1; color: var(--tpi-verde); }
+.tpc-fundo summary::after { content: "+"; position: absolute; right: 1.1rem; top: 50%; transform: translateY(-50%); font-size: 1.3rem; line-height: 1; color: var(--tpi-verde); }
 .tpc-fundo[open] summary::after { content: "–"; }
 .tpc-fundo summary:focus-visible { outline: 3px solid #a9bca4; outline-offset: 2px; border-radius: 12px; }
 .tpc-fundo__sub { font-size: .82rem; font-weight: 600; color: var(--tpi-suave); }
