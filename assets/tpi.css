@@ -179,6 +179,8 @@
 .tpi-pagina .entry-content .tpi-newsletter a.tpi-btn { background: #fff; border-color: #fff; color: var(--tpi-verde-escuro); }
 .tpi-pagina .entry-content .tpi-newsletter a.tpi-btn:hover { background: var(--tpi-marca); border-color: var(--tpi-marca); }
 .tpi-newsletter .tpi-btn:focus-visible { outline-color: var(--tpi-marca); }
+.tpi-newsletter p.tpi-ig-convite { margin: 1rem 0 0; font-size: .92rem; color: #dfe9e4; }
+.tpi-pagina .entry-content .tpi-newsletter .tpi-ig-convite a { color: #fff; text-decoration: underline; text-underline-offset: .15em; }
 
 /* Cards (lista de julgados e últimas edições) */
 .tpi-cards { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .75rem; }
