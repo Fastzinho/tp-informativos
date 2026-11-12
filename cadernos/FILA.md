@@ -9,17 +9,6 @@ O link do julgado para o tema acende sozinho quando o tema for escrito **com exa
 
 Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, STF 1234–1236).
 
-## Direito Administrativo (`direito-administrativo`)
-
-| Tema (slug) | Conceitos que pedem | Onde |
-|---|---|---|
-| `provimento-de-cargos` | 2 | STF 1234: Transposição e Súmula Vinculante 43; STF 1235: Provimento derivado e Súmula Vinculante 43 |
-| `improbidade-administrativa` | 1 | STJ 908: Art. 17-D da LIA e as ADIs 7156 e 7236 |
-| `poder-regulamentar` | 1 | STF 1235: O decreto do art. 84, VI, a, da Constituição |
-| `regime-juridico-unico` | 1 | STF 1234: Regime jurídico único (RJU) |
-| `remuneracao-de-servidores` | 1 | STF 1236: O que é o regime de subsídio |
-| `processo-administrativo-disciplinar` | 1 | STJ 909: Independência das instâncias |
-
 ## Direito Civil (`direito-civil`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
