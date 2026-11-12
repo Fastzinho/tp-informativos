@@ -639,14 +639,53 @@ add_shortcode( 'tp_cadernos', function () {
 	if ( ! $discs ) {
 		return '<p class="tpi-vazio">Os primeiros cadernos entram aqui em breve.</p>';
 	}
-	$h = '<ul class="tpc-hub">';
+	// 0.14.0: vitrine com busca de temas, cards com descrição e prévia dos temas, ponte para os guias e para o app.
+	$cards = '';
+	$busca = array();
+	$total = 0;
 	foreach ( $discs as $p ) {
-		$d   = tpc_dados( $p->ID );
-		$ids = wp_list_pluck( tpc_temas( $p->ID ), 'ID' );
-		$h  .= '<li class="tpc-hub__item tpi-edicao"' . ( $ids ? ' data-tpi-ids="' . esc_attr( implode( ',', $ids ) ) . '"' : '' ) . '><a href="' . esc_url( get_permalink( $p ) ) . '"><span class="tpc-hub__nome">' . esc_html( $d['disciplina'] ?? $p->post_title ) . '</span><span class="tpc-hub__info">' . esc_html( sprintf( _n( '%d tema', '%d temas', count( $ids ) ), count( $ids ) ) ) . '</span>'
-			. ( $ids ? '<span class="tpi-edicao__lidos" hidden></span>' : '' ) . '</a></li>';
+		$d      = tpc_dados( $p->ID );
+		$temas  = tpc_temas( $p->ID );
+		$ids    = wp_list_pluck( $temas, 'ID' );
+		$nome   = $d['disciplina'] ?? $p->post_title;
+		$amostra = array();
+		foreach ( $temas as $t ) {
+			$td = tpc_dados( $t->ID );
+			if ( ! tpc_escrito( $td ) ) {
+				continue;
+			}
+			$total++;
+			$busca[] = array( 't' => $t->post_title, 'd' => $nome, 'u' => tpc_link_tema( $t ), 'g' => (string) ( $td['grupo'] ?? '' ), 'p' => (string) ( $td['palavras'] ?? '' ) );
+			if ( count( $amostra ) < 4 ) {
+				$amostra[] = $t->post_title;
+			}
+		}
+		$desc   = wp_strip_all_tags( (string) ( $d['descricao'] ?? '' ) );
+		$cards .= '<li class="tpv-card tpi-edicao"' . ( $ids ? ' data-tpi-ids="' . esc_attr( implode( ',', $ids ) ) . '"' : '' ) . '>'
+			. '<a class="tpv-card__link" href="' . esc_url( get_permalink( $p ) ) . '">'
+			. '<span class="tpv-card__topo"><span class="tpv-card__selo">' . esc_html( sprintf( _n( '%d tema', '%d temas', count( $ids ) ), count( $ids ) ) ) . '</span>'
+			. ( $ids ? '<span class="tpi-edicao__lidos" hidden></span>' : '' ) . '</span>'
+			. '<span class="tpv-card__titulo">' . esc_html( $nome ) . '</span>'
+			. ( $desc ? '<span class="tpv-card__texto">' . esc_html( wp_trim_words( $desc, 28 ) ) . '</span>' : '' )
+			. ( $amostra ? '<span class="tpv-chips">' . implode( '', array_map( function ( $x ) {
+				return '<span class="tpv-chip">' . esc_html( $x ) . '</span>';
+			}, $amostra ) ) . '</span>' : '' )
+			. '<span class="tpv-card__acao">Abrir caderno <span aria-hidden="true">→</span></span>'
+			. '</a></li>';
 	}
-	return $h . '</ul>';
+	$h  = '<div class="tpv alignwide">';
+	$h .= '<section class="tpv-hero" aria-label="Buscar nos cadernos">'
+		. '<p class="tpv-hero__olho">' . esc_html( sprintf( '%d disciplinas · %d temas escritos', count( $discs ), $total ) ) . '</p>'
+		. '<label class="tpv-hero__titulo" for="tpv-busca">Que tema você quer revisar?</label>'
+		. '<div class="tpv-busca"><input id="tpv-busca" type="search" autocomplete="off" placeholder="Ex.: peculato, lesão corporal, ICMS" data-tpv-busca>'
+		. '<ul class="tpv-busca__lista" data-tpv-resultados hidden></ul></div>'
+		. '<p class="tpv-hero__nota">Cada tema traz resumo em 30 segundos, esquema, lei seca, jurisprudência, macete e uma pegadinha de prova.</p>'
+		. '<script type="application/json" data-tpv-indice>' . wp_json_encode( $busca, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG ) . '</script>'
+		. '</section>';
+	$h .= '<h2 class="tpv-secao">Disciplinas</h2><ul class="tpv-grade">' . $cards . '</ul>';
+	$h .= tpv_ponte_guias( array( 'como-estudar-lei-seca', 'como-estudar-jurisprudencia', 'como-estudar-por-questoes' ), 'Como usar os cadernos no seu estudo' );
+	$h .= tpv_cta( 'Transforme o caderno em plano de estudo', 'Escolha o seu concurso e o Tchau Pobreza monta o cronograma pelo edital, com prática em Certo ou Errado e revisões agendadas. Grátis.', 'Começar pelo meu edital' );
+	return $h . '</div>';
 } );
 
 /* ---------------------------------------------------------------------------
@@ -778,6 +817,9 @@ add_action( 'wp_enqueue_scripts', function () {
 	}
 	wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );
 	wp_enqueue_style( 'tp-cadernos', TPI_URL . 'assets/tpc.css', array( 'tp-informativos' ), TPI_VERSION );
+	if ( has_shortcode( $conteudo, 'tp_cadernos' ) ) {
+		tpv_assets();
+	}
 	$cfg = tpi_supabase();
 	wp_enqueue_script( 'tp-informativos', TPI_URL . 'assets/tpi.js', array(), TPI_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
 	wp_localize_script( 'tp-informativos', 'TPI', array( 'url' => untrailingslashit( $cfg['url'] ), 'key' => $cfg['key'], 'appUrl' => $cfg['appUrl'], 'google' => $cfg['google'] ?? '', 'signup' => ! empty( $cfg['signup'] ), 'rest' => esc_url_raw( rest_url() ) ) );
