@@ -36,7 +36,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `resumo` | "Em 30 segundos" (HTML curto). **Tema sem resumo conta como não escrito** |
 | `esquema` | `{rotulo, html}`: tabela em HTML, nunca imagem |
 | `lei` | `[{texto, fonte, url, norma?}]`: artigo inteiro, literal do acervo oficial (gere com `--completar`); parágrafos separados por linha em branco. `norma` = id do acervo (ex.: `n2848-1940`); sem ele, sai do número em `fonte`. Conferido por `ferramentas/conferir_lei.py` |
-| `macetes` | `[{sigla, texto}]` |
+| `macetes` | `[{sigla, texto}]`. A `sigla` é um título curto em frase (ex.: "DEBILIDADE × PERDA"). Sigla de letras só se for consagrada em aula e em questão (MARI, LUTA, LEEE, IPE, CADI, MODERECOPA, AIEV); nunca invente uma |
 | `juris` | `[{quem, texto, url?, link?}]`: `url` de preferência para o julgado em /informativos/ (rótulo "Ver julgado comentado"); link de tribunal ganha "Ver no site do tribunal" |
 | `pegadinha` | `{afirmacao, gabarito: "C"\|"E", explicacao}` |
 | `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível. **Só exceções e pegadinhas que já caíram em prova** (conferir nas provas oficiais da base de incidência e da auditoria de lacunas), cada uma amarrada a artigo de lei ou a julgado. Nada de "parte da doutrina" sem fonte nem tema que nunca foi cobrado. Rótulo padrão: "exceções que caem em prova" |
