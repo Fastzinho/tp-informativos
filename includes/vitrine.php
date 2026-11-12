@@ -159,8 +159,9 @@ function tpv_eh_guia() {
 }
 
 add_filter( 'the_content', function ( $html ) {
-	// Só no corpo da página (depois do <head>, onde o Rank Math também passa pelo the_content).
-	if ( ! tpv_eh_guia() || get_the_ID() !== get_queried_object_id() || ! did_action( 'wp_head' ) || doing_action( 'wp_head' ) || false !== strpos( $html, 'tpv-guia-meta' ) ) {
+	// Só dentro do bloco core/post-content da página (o Rank Math e outros também passam pelo the_content).
+	global $tpv_no_corpo;
+	if ( empty( $tpv_no_corpo ) || ! tpv_eh_guia() || get_the_ID() !== get_queried_object_id() || false !== strpos( $html, 'tpv-guia-meta' ) ) {
 		return $html;
 	}
 	$p     = get_post( get_queried_object_id() );
@@ -225,6 +226,17 @@ add_filter( 'the_content', function ( $html ) {
 
 	return $meta . $sum . $html . $fim;
 }, 30 );
+
+add_filter( 'pre_render_block', function ( $pre, $block ) {
+	if ( 'core/post-content' === ( $block['blockName'] ?? '' ) ) {
+		$GLOBALS['tpv_no_corpo'] = true;
+	}
+	return $pre;
+}, 10, 2 );
+add_filter( 'render_block_core/post-content', function ( $html ) {
+	$GLOBALS['tpv_no_corpo'] = false;
+	return $html;
+} );
 
 add_filter( 'body_class', function ( $c ) {
 	if ( tpv_eh_guia() ) {
