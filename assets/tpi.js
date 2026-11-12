@@ -829,6 +829,7 @@
     corpo.innerHTML = d.html; corpo.scrollTop = 0;
     dlg.querySelector('.tpc-gaveta__ver').href = d.url || a.href;
     dlg.querySelector('.tpc-gaveta__praticar').href = d.praticar || '/estudar/';
+    dlg.querySelector('.tpc-gaveta__praticar').setAttribute('data-tpc-praticar', a.getAttribute('data-tpc-previa') || '');
     document.dispatchEvent(new CustomEvent('tpi:repintar'));
   }
   document.addEventListener('click', function (e) {
@@ -845,5 +846,15 @@
     (cache[id] ? Promise.resolve(cache[id]) : fetch(base + id).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }))
       .then(function (d) { cache[id] = d; mostra(d, a); })
       .catch(function () { dlg.close(); location.href = a.href; }); /* falhou: vai para o caderno */
+  });
+})();
+
+/* 0.15.4: clique em "Praticar este tema" (no fim do tema e na gaveta da prévia) vai para o GA.
+   Junto com utm_source=caderno na origem do aluno, mede cliques do caderno → prática no app. */
+(function () {
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-tpc-praticar]');
+    if (!a || typeof window.gtag !== 'function') return;
+    window.gtag('event', 'caderno_praticar', { tema_id: a.getAttribute('data-tpc-praticar'), origem: location.pathname, gaveta: a.classList.contains('tpc-gaveta__praticar') ? 1 : 0 });
   });
 })();
