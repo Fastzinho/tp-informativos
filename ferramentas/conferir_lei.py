@@ -65,7 +65,7 @@ def artigos(texto):
     """Quebra o texto do caderno em {rótulo: [parágrafos]} pelo início 'Art. N'."""
     blocos, atual = [], None
     for p in [sem_nota(norm(x)) for x in re.split(r'\n\s*\n', texto) if norm(x)]:
-        m = re.match(r'Art\.\s*(\d+[º°o]?(?:-[A-Z])?)\s*\.?', p)
+        m = re.match(r'Art\.\s*(\d+(?:\.\d{3})*[º°o]?(?:-[A-Z])?)\s*\.?', p)
         if m:
             atual = ['Art. %s.' % m.group(1).replace('°', 'º'), []]
             blocos.append(atual)
