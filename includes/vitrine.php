@@ -251,3 +251,20 @@ add_action( 'wp_enqueue_scripts', function () {
 		tpv_assets();
 	}
 }, 12 );
+
+/* 0.14.3: item "Como estudar" no menu do cabeçalho (parte de modelo "header" salva no editor do site).
+   Roda uma vez; no celular fica oculto (tp-nav-hide) para não estourar a largura, mas o link segue no HTML. */
+add_action( 'init', function () {
+	if ( get_option( 'tpv_menu_v1' ) ) { return; }
+	$partes = get_posts( array( 'post_type' => 'wp_template_part', 'post_status' => 'any', 'numberposts' => 20, 'suppress_filters' => true ) );
+	$ancora = '<a href="/cadernos/" class="tp-nav-link">Cadernos</a>';
+	$novo   = '<a href="/como-estudar/" class="tp-nav-link tp-nav-hide" style="white-space:nowrap">Como estudar</a>';
+	$feito  = false;
+	foreach ( $partes as $p ) {
+		$c = $p->post_content;
+		if ( false === strpos( $c, $ancora ) || false !== strpos( $c, 'href="/como-estudar/"' ) ) { continue; }
+		wp_update_post( array( 'ID' => $p->ID, 'post_content' => str_replace( $ancora, $ancora . $novo, $c ) ) );
+		$feito = true;
+	}
+	update_option( 'tpv_menu_v1', $feito ? 'inserido' : 'nao-achou', false );
+}, 60 );
