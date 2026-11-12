@@ -215,3 +215,16 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'tp-como-estudar' );
 	wp_add_inline_style( 'tp-como-estudar', '.tp-cta{display:inline-block;padding:.8em 1.4em;border-radius:8px;background:#2c5748;color:#fff!important;font-weight:700;text-decoration:none}.tp-cta:hover,.tp-cta:focus-visible{background:#1f3f34}.wp-block-post-content table,.entry-content table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}.wp-block-post-content th,.wp-block-post-content td,.entry-content th,.entry-content td{border:1px solid #c5d8cb;padding:.45em .6em;text-align:left;vertical-align:top}.wp-block-post-content thead th,.entry-content thead th{background:#eff5f0}.wp-block-post-content blockquote,.entry-content blockquote{border-left:4px solid #2c5748;margin-left:0;padding-left:1em}' );
 } );
+
+/*
+ * 0.13.1: a troca do permalink acontece no meio do init, quando as categorias já tinham registrado as regras
+ * com o prefixo antigo. Por isso /como-estudar/category/<slug>/ dava 404. Uma nova gravação das regras, numa
+ * requisição em que tudo já nasce com o prefixo novo, resolve. Roda uma vez.
+ */
+add_action( 'init', function () {
+	if ( '/como-estudar/%postname%/' !== get_option( 'permalink_structure' ) || '1' === get_option( 'tpce_regras_v' ) ) {
+		return;
+	}
+	flush_rewrite_rules( false );
+	update_option( 'tpce_regras_v', '1', false );
+}, 99 );
