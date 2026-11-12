@@ -249,10 +249,13 @@ function tpc_tema_por_ref( $ref ) {
 		return null;
 	}
 	$disc = tpc_post_por( $partes[0], 0 );
-	if ( ! $disc || 'publish' !== $disc->post_status ) {
-		return null;
+	$tema = ( $disc && 'publish' === $disc->post_status ) ? tpc_post_por( $partes[1], $disc->ID ) : null;
+	if ( ! $tema ) {
+		// 0.12.21: o julgado pode ter marcado o tema no caderno do ramo (direito-penal#trafico-de-drogas) e o tema
+		// morar em outro caderno (Legislação Penal Especial). Vale o tema publicado com esse slug, se só houver um.
+		$achados = get_posts( array( 'post_type' => 'caderno', 'post_status' => 'publish', 'name' => $partes[1], 'post_parent__not_in' => array( 0 ), 'numberposts' => 2 ) );
+		$tema    = 1 === count( $achados ) ? $achados[0] : null;
 	}
-	$tema = tpc_post_por( $partes[1], $disc->ID );
 	return ( $tema && 'publish' === $tema->post_status && tpc_escrito( tpc_dados( $tema->ID ) ) ) ? $tema : null;
 }
 add_shortcode( 'tp_caderno', function ( $a ) {
