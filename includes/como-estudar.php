@@ -228,3 +228,24 @@ add_action( 'init', function () {
 	flush_rewrite_rules( false );
 	update_option( 'tpce_regras_v', '1', false );
 }, 99 );
+
+/*
+ * 0.13.2: o modelo de arquivo do tema mostra o texto inteiro de cada post. Na página da categoria isso repetia
+ * os 4 guias completos (conteúdo duplicado e página enorme). No arquivo, cada post vira resumo + link.
+ */
+add_filter( 'the_content', function ( $html ) {
+	if ( is_admin() || is_singular() || ! ( is_category() || is_tag() || is_home() ) || 'post' !== get_post_type() ) {
+		return $html;
+	}
+	$p = get_post();
+	return '<p>' . esc_html( $p->post_excerpt ? $p->post_excerpt : wp_trim_words( wp_strip_all_tags( $p->post_content ), 40 ) ) . '</p>'
+		. '<p><a class="tp-ler" href="' . esc_url( get_permalink( $p ) ) . '">Ler o guia<span class="screen-reader-text">: ' . esc_html( get_the_title( $p ) ) . '</span> →</a></p>';
+}, 20 );
+add_filter( 'get_the_archive_title_prefix', function ( $prefix ) {
+	return is_category() ? '' : $prefix;
+} );
+add_action( 'wp_enqueue_scripts', function () {
+	if ( is_category() ) {
+		wp_add_inline_style( 'tp-como-estudar', '.wp-block-term-description p{margin:0 0 1em}.tp-ler{font-weight:700;color:#2c5748}' );
+	}
+}, 20 );
