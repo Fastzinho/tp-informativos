@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.16.0
+ * Version: 0.16.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.16.0' );
+define( 'TPI_VERSION', '0.16.1' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -98,7 +98,7 @@ function tpi_register() {
 		'tp_jt_edicao'       => 'integer', // julgado: edição do Jurisprudência em Teses em que a tese aparece
 		'tp_ramo_jt'         => 'string',  // teses: ramo como o STJ classifica (agrupa o hub)
 		'tp_atualizada_em'   => 'string',  // teses: data da última atualização oficial da edição
-		// 0.16.0: correção de conteúdo depois de publicado (sinaliza "Atualizado" para quem já tinha lido).
+		// 0.16.1: correção de conteúdo depois de publicado (sinaliza "Atualizado" para quem já tinha lido).
 		// Só o que muda a resposta do aluno (erro de conteúdo, lei nova); revisão de texto não entra.
 		'tp_mudanca_em'      => 'string',  // AAAA-MM-DD
 		'tp_mudanca_nota'    => 'string',  // 1 frase: o que mudou
@@ -572,7 +572,7 @@ function tpi_situacoes() {
 	);
 }
 
-/* 0.16.0: última mudança relevante do julgado, para o selo "Atualizado" de quem já leu (tpi.js compara com o readAt).
+/* 0.16.1: última mudança relevante do julgado, para o selo "Atualizado" de quem já leu (tpi.js compara com o readAt).
    Conta a situação que mudou o entendimento (superada, revista, em discussão) e a correção registrada em tp_mudanca_*.
    A data de modificação do post NÃO serve: qualquer ajuste de texto a muda. */
 function tpi_mudanca( $id ) {
