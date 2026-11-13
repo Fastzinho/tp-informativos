@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.15.22
+ * Version: 0.16.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.15.22' );
+define( 'TPI_VERSION', '0.16.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -98,6 +98,10 @@ function tpi_register() {
 		'tp_jt_edicao'       => 'integer', // julgado: edição do Jurisprudência em Teses em que a tese aparece
 		'tp_ramo_jt'         => 'string',  // teses: ramo como o STJ classifica (agrupa o hub)
 		'tp_atualizada_em'   => 'string',  // teses: data da última atualização oficial da edição
+		// 0.16.0: correção de conteúdo depois de publicado (sinaliza "Atualizado" para quem já tinha lido).
+		// Só o que muda a resposta do aluno (erro de conteúdo, lei nova); revisão de texto não entra.
+		'tp_mudanca_em'      => 'string',  // AAAA-MM-DD
+		'tp_mudanca_nota'    => 'string',  // 1 frase: o que mudou
 	);
 	foreach ( $meta as $key => $type ) {
 		register_post_meta(
@@ -568,6 +572,41 @@ function tpi_situacoes() {
 	);
 }
 
+/* 0.16.0: última mudança relevante do julgado, para o selo "Atualizado" de quem já leu (tpi.js compara com o readAt).
+   Conta a situação que mudou o entendimento (superada, revista, em discussão) e a correção registrada em tp_mudanca_*.
+   A data de modificação do post NÃO serve: qualquer ajuste de texto a muda. */
+function tpi_mudanca( $id ) {
+	$m    = array( 'em' => '', 'nota' => '' );
+	$sit  = tpi_meta( $id, 'tp_situacao' );
+	$mapa = tpi_situacoes();
+	$em   = (string) tpi_meta( $id, 'tp_situacao_em' );
+	if ( isset( $mapa[ $sit ] ) && preg_match( '/^\d{4}-\d{2}-\d{2}$/', $em ) ) {
+		$motivo = tpi_texto_simples( tpi_meta( $id, 'tp_situacao_motivo' ) );
+		$m      = array( 'em' => $em, 'nota' => $mapa[ $sit ][0] . ': ' . ( $motivo ? $motivo : $mapa[ $sit ][1] ) );
+	}
+	$em = (string) tpi_meta( $id, 'tp_mudanca_em' );
+	$nt = tpi_texto_simples( tpi_meta( $id, 'tp_mudanca_nota' ) );
+	if ( $nt && preg_match( '/^\d{4}-\d{2}-\d{2}$/', $em ) && $em > $m['em'] ) {
+		$m = array( 'em' => $em, 'nota' => 'Correção: ' . $nt );
+	}
+	return $m;
+}
+
+/* Atributos data-* da mudança (vazio quando não há). */
+function tpi_attr_mudanca( $m ) {
+	if ( empty( $m['em'] ) ) {
+		return '';
+	}
+	return ' data-tpi-mudou="' . esc_attr( $m['em'] ) . '" data-tpi-mudou-nota="' . esc_attr( $m['nota'] ) . '"';
+}
+
+/* Tira a marcação inline (**negrito**, [texto](url)) para usar em atributo e no selo. */
+function tpi_texto_simples( $txt ) {
+	$txt = preg_replace( '/\*\*(.+?)\*\*/', '$1', (string) $txt );
+	$txt = preg_replace( '/\[([^\]]+)\]\((https?:[^)\s]+)\)/', '$1', $txt );
+	return trim( wp_strip_all_tags( $txt ) );
+}
+
 /* Marcação inline mínima do pipeline: **negrito** e [texto](url). */
 function tpi_inline( $txt ) {
 	$txt = esc_html( (string) $txt );
@@ -740,7 +779,7 @@ function tpi_lista_julgados( $periodico_id ) {
 	foreach ( $grupos as $ramo => $lista ) {
 		$html .= '<h3 class="tpi-grupo" id="ramo-' . esc_attr( sanitize_title( $ramo ) ) . '">' . esc_html( $ramo ) . '</h3><ol class="tpi-cards tpi-cards--julgados">';
 		foreach ( $lista as $f ) {
-			$html .= '<li class="tpi-card" data-tpi-id="' . esc_attr( $f->ID ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $f ) ) . '" data-tpi-url="' . esc_url( get_permalink( $f ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $f->ID, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $f->ID, 'tp_numero' ) ) . '">';
+			$html .= '<li class="tpi-card" data-tpi-id="' . esc_attr( $f->ID ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $f ) ) . '" data-tpi-url="' . esc_url( get_permalink( $f ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $f->ID, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $f->ID, 'tp_numero' ) ) . '"' . tpi_attr_mudanca( tpi_mudanca( $f->ID ) ) . '>';
 			$proc  = tpi_meta( $f->ID, 'tp_processo' );
 			if ( $proc ) {
 				$html .= '<p class="tpi-card__ramo">' . esc_html( $proc . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) ) . '</p>';
@@ -911,7 +950,7 @@ function tpi_supabase() {
 function tpi_botao_lido( $id, $compacto = false ) {
 	$classe = 'tpi-lido' . ( $compacto ? ' tpi-lido--topo' : '' );
 	$campo  = 'tpi-lido-' . $id . ( $compacto ? '-topo' : '' );
-	$dados  = ' data-tpi-id="' . esc_attr( $id ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $id ) ) . '" data-tpi-url="' . esc_url( get_permalink( $id ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $id, 'tp_numero' ) ) . '"';
+	$dados  = ' data-tpi-id="' . esc_attr( $id ) . '" data-tpi-titulo="' . esc_attr( get_the_title( $id ) ) . '" data-tpi-url="' . esc_url( get_permalink( $id ) ) . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '" data-tpi-num="' . esc_attr( tpi_meta( $id, 'tp_numero' ) ) . '"' . tpi_attr_mudanca( tpi_mudanca( $id ) );
 	// 0.7.16: mesmo marcador do app (✓ cinza / ✓✓ verde, ícones check e check-check do Lucide), aqui com texto curto ao
 	// lado ("Marcar como lido" / "Lido"), porque é a página onde chega o visitante do Google. Um botão só, de alternância:
 	// nome acessível fixo + aria-pressed; a linha role=status (visualmente oculta) anuncia a mudança no leitor de tela.

@@ -39,6 +39,7 @@
 .tpc-sumario__lido { display: inline-flex; color: var(--tpi-verde); }
 .tpc-sumario__lido svg { width: 16px; height: 16px; }
 .tpc-sumario__lido[hidden] { display: none; }
+.tpc-sumario a.is-atualizado .tpc-sumario__lido { color: #9a6a12; } /* 0.16.0: leu antes da última mudança */
 .tpc-sumario__vazio { margin: 0; font-size: .9rem; color: var(--tpi-suave); }
 .tpc-ponto { flex: none; width: 8px; height: 8px; border-radius: 50%; }
 .tpc-ponto--alta { background: var(--tpc-alta); }

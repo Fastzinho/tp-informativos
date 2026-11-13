@@ -192,6 +192,19 @@
 }
 @media (prefers-reduced-motion: reduce) { .tpi-card__lido { transition: none; } }
 
+/* 0.16.0: "Atualizado" (leu antes da última mudança relevante). Âmbar, não vermelho: é aviso, não erro. */
+.tpi-lido__mudou { flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .9rem; margin: .1rem 0 0; padding: .7rem .9rem; border-radius: 10px; background: #fbf1dc; border-left: 4px solid #c48a1e; color: #4a3a17; font-size: .93rem; line-height: 1.5; }
+.tpi-lido__mudou[hidden] { display: none; }
+.tpi-lido__mudou p { flex: 1 1 18rem; margin: 0; }
+.tpi-mudou__selo { display: inline-flex; align-items: center; gap: .3rem; padding: .05rem .5rem; border-radius: 999px; background: #fff; border: 1px solid #e2c48a; color: #7a5410; font-size: .82rem; font-weight: 800; letter-spacing: .01em; vertical-align: 1px; }
+.tpi-mudou__selo svg { flex: none; }
+.tpi-mudou__data { color: #6b5626; }
+.tpi-mudou__nota { font-weight: 600; }
+.tpi-lido__entendi { min-height: 44px; padding: .4rem 1rem; border: 1px solid #c48a1e; border-radius: 8px; background: #fff; color: #7a5410; font: inherit; font-size: .9rem; font-weight: 700; cursor: pointer; }
+.tpi-lido__entendi:hover { background: #fff8ea; }
+.tpi-lido__entendi:focus-visible { outline: 3px solid #e2c48a; outline-offset: 2px; }
+.tpi-card.is-atualizado .tpi-card__lido[aria-pressed="true"] { border-color: #e2c48a; background: #fbf1dc; color: #7a5410; }
+
 /* Newsletter */
 .tpi-newsletter { margin: 3rem 0 1rem; padding: 1.6rem 1.5rem; border-radius: var(--tpi-raio); background: var(--tpi-verde); color: #fff; }
 .tpi-pagina .entry-content .tpi-newsletter h2 { margin: 0 0 .5rem; color: #fff; font-size: 1.35rem; }

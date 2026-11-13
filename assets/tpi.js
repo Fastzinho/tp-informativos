@@ -1,4 +1,4 @@
-/* TP Informativos 0.10.0: "marcar como lido" com a conta do app (Supabase), sem dependências.
+/* TP Informativos 0.16.0: "marcar como lido" com a conta do app (Supabase), sem dependências.
  *
  * - Lê a sessão que o app (?tp_app=1) guarda no localStorage deste domínio.
  * - Grava em public.tp_records: kind "informativo", id "informativo:<post_id>". A RLS do banco
@@ -58,8 +58,25 @@
     catch (e) { return /^\d{3}$/.test(String(err && err.message)) ? ' (erro ' + err.message + ')' : ''; }
   }
 
-  var lidos = {};
+  var lidos = {}; /* id do post -> quando foi lido (ISO; '1' se o registro não tiver data) */
   var semSessao = false;
+
+  /* 0.16.0: selo "Atualizado". O servidor põe data-tpi-mudou (AAAA-MM-DD da última mudança relevante, registrada à mão)
+     e data-tpi-mudou-nota (o que mudou). Acende só para quem leu ANTES dessa data; no mesmo dia, vale a leitura. */
+  function diaLocal(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return '';
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
+  function atualizado(el, id) {
+    var em = el && el.getAttribute('data-tpi-mudou');
+    var r = lidos[id];
+    if (!em || semSessao || typeof r !== 'string' || r.length < 10) return false;
+    var dia = diaLocal(r);
+    return !!dia && em > dia;
+  }
+  function dataBR(ymd) { var p = String(ymd).split('-'); return p.length === 3 ? p[2] + '/' + p[1] + '/' + p[0] : ymd; }
+  var ICONE_ATUAL = '<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="i-atual"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>';
   /* Ícones check e check-check do Lucide, os mesmos do app (Lei seca e Jurisprudência). */
   var SVG = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
   var ICONE_UM = SVG + 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>';
@@ -75,6 +92,21 @@
     botao.title = semSessao ? 'Marcar como lido: entre na sua conta para salvar o que já leu'
       : (lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido');
     box.querySelector('.tpi-lido__acao').textContent = lido ? 'Lido' : 'Marcar como lido';
+    /* 0.16.0: leu antes da última mudança relevante. O ✓✓ continua (segue lido); a faixa diz o que mudou e o
+       "Entendi" renova a leitura. No caderno, só a caixa do topo mostra a faixa (a do fim fica igual sem texto). */
+    var at = lido && atualizado(box, box.getAttribute('data-tpi-id'));
+    box.classList.toggle('is-atualizado', at);
+    var faixa = box.querySelector('.tpi-lido__mudou');
+    if (at && box.classList.contains('tpi-lido--topo') && !box.classList.contains('tpc-lido--fim')) {
+      if (!faixa) {
+        faixa = document.createElement('div'); faixa.className = 'tpi-lido__mudou'; faixa.setAttribute('role', 'note');
+        box.insertBefore(faixa, box.querySelector('.tpi-lido__erro'));
+      }
+      faixa.innerHTML = '<p><span class="tpi-mudou__selo">' + ICONE_ATUAL + 'Atualizado</span> <span class="tpi-mudou__data">em ' + dataBR(box.getAttribute('data-tpi-mudou')) + ', depois da sua leitura.</span> <span class="tpi-mudou__nota"></span></p>'
+        + '<button type="button" class="tpi-lido__entendi">Entendi</button>';
+      faixa.querySelector('.tpi-mudou__nota').textContent = box.getAttribute('data-tpi-mudou-nota') || '';
+      faixa.hidden = false;
+    } else if (faixa) faixa.hidden = true;
   }
 
   /* Cards da edição: botão ✓ / ✓✓ igual ao do app. Para o visitante sem conta aparece o ✓ cinza
@@ -82,7 +114,9 @@
   function pintaCards() {
     document.querySelectorAll('.tpi-cards--julgados li.tpi-card[data-tpi-id]').forEach(function (li) {
       var lido = !semSessao && !!lidos[li.getAttribute('data-tpi-id')];
+      var at = lido && atualizado(li, li.getAttribute('data-tpi-id'));
       li.classList.toggle('is-lido', lido);
+      li.classList.toggle('is-atualizado', at);
       var b = li.querySelector('.tpi-card__lido');
       if (!b) { /* fica em posição absoluta, num espaço reservado pelo CSS: não empurra o layout (sem CLS) */
         var titulo = li.getAttribute('data-tpi-titulo') || (li.querySelector('.tpi-card__titulo') || {}).textContent || 'este julgado';
@@ -94,7 +128,11 @@
       }
       b.setAttribute('aria-pressed', String(lido));
       b.title = semSessao ? 'Marcar como lido: entre na sua conta para salvar o que já leu'
+        : at ? 'Atualizado em ' + dataBR(li.getAttribute('data-tpi-mudou')) + ', depois da sua leitura. ' + (li.getAttribute('data-tpi-mudou-nota') || '') + ' Clique para marcar como lido de novo'
         : (lido ? 'Lido. Clique para desmarcar' : 'Marcar como lido');
+      var sr = b.querySelector('.tpi-sr');
+      if (at && !sr) { sr = document.createElement('span'); sr.className = 'tpi-sr'; b.appendChild(sr); }
+      if (sr) sr.textContent = at ? ' (atualizado depois da sua leitura)' : '';
     });
   }
 
@@ -173,9 +211,15 @@
     /* 0.8.0: sumário dos cadernos. ✓✓ verde ao lado do tema lido (o item é link para a âncora, não botão). */
     document.querySelectorAll('a[data-tpc-lido]').forEach(function (a) {
       var lido = !!lidos[a.getAttribute('data-tpc-lido')];
+      var at = lido && atualizado(a, a.getAttribute('data-tpc-lido'));
       a.classList.toggle('is-lido', lido);
+      a.classList.toggle('is-atualizado', at);
       var el = a.querySelector('.tpc-sumario__lido');
-      if (el) { el.innerHTML = lido ? ICONE_DOIS + '<span class="tpi-sr"> Lido</span>' : ''; el.hidden = !lido; }
+      if (el) {
+        el.innerHTML = at ? ICONE_ATUAL + '<span class="tpi-sr"> Atualizado depois da sua leitura</span>' : lido ? ICONE_DOIS + '<span class="tpi-sr"> Lido</span>' : '';
+        el.title = at ? 'Atualizado em ' + dataBR(a.getAttribute('data-tpi-mudou')) + ': ' + (a.getAttribute('data-tpi-mudou-nota') || '') : '';
+        el.hidden = !lido;
+      }
     });
     document.querySelectorAll('.tpi-edicao[data-tpi-ids]').forEach(function (li) {
       var ids = li.getAttribute('data-tpi-ids').split(',').filter(Boolean);
@@ -203,13 +247,14 @@
   }
 
   function carregar(s) {
-    var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.' + KIND + '&limit=5000'); };
+    /* 0.16.0: traz também quando foi lido (data.readAt; sem ele, a criação do registro), para o selo "Atualizado". */
+    var ler = function (s) { return api(s, 'tp_records?select=id,r:data->>readAt,c:created_at&kind=eq.' + KIND + '&limit=5000'); };
     return ler(s).catch(function (err) {
       if (String(err && err.message) !== 'jwt') throw err;
       sessaoP = renovar(s).catch(function () { return null; });
       return sessaoP.then(function (n) { if (!n) throw err; return ler(n); });
     }).then(function (linhas) {
-      (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = true; });
+      (linhas || []).forEach(function (l) { lidos[l.id.replace(KIND + ':', '')] = String(l.r || l.c || '1'); });
       pintaTudo();
       concluiPendente();
       return checaApp(s);
@@ -635,7 +680,8 @@
   document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') reconfere(false); });
 
   document.addEventListener('click', function (e) {
-    var botao = e.target.closest('.tpi-lido__botao, .tpi-card__lido');
+    var entendi = e.target.closest('.tpi-lido__entendi');
+    var botao = entendi || e.target.closest('.tpi-lido__botao, .tpi-card__lido');
     if (!botao) return;
     var box = botao.closest('[data-tpi-id]');
     if (box.getAttribute('aria-busy') === 'true') return;
@@ -653,10 +699,15 @@
       return;
     }
     var id = box.getAttribute('data-tpi-id');
-    var novo = !lidos[id];
+    var antes = lidos[id];
+    /* 0.16.0: "Entendi" (ou o ✓✓ âmbar do card) renova a leitura em vez de desmarcar. */
+    var renova = !!antes && (!!entendi || (box.classList.contains('tpi-card') && atualizado(box, id)));
+    var novo = renova || !antes;
     var erro = box.querySelector('.tpi-lido__erro') || { textContent: '' };
     erro.textContent = '';
-    lidos[id] = novo; pintaTudo(); /* resposta imediata; desfaz se falhar */
+    var agora = new Date().toISOString();
+    lidos[id] = novo ? agora : false; pintaTudo(); /* resposta imediata; desfaz se falhar */
+    if (renova) { var b0 = box.querySelector('.tpi-lido__botao, .tpi-card__lido'); if (b0) b0.focus(); }
     box.setAttribute('aria-busy', 'true');
     function gravar(s) {
       if (!s) throw new Error('sessao');
@@ -668,7 +719,7 @@
         body: JSON.stringify({
           user_id: s.user.id, id: KIND + ':' + id, kind: KIND,
           data: {
-            postId: Number(id), read: true, readAt: new Date().toISOString(),
+            postId: Number(id), read: true, readAt: agora,
             title: box.getAttribute('data-tpi-titulo') || '', url: box.getAttribute('data-tpi-url') || '',
             court: box.getAttribute('data-tpi-trib') || '', issue: Number(box.getAttribute('data-tpi-num')) || null,
             tipo: box.getAttribute('data-tpi-tipo') || 'julgado'
@@ -685,11 +736,11 @@
       });
     }).then(function () {
       /* 0.12.6: dentro do painel do app (?tp_embed=1), avisa o app para o check do passo "Resumo do caderno" mudar na hora. */
-      if (window.parent !== window) try { window.parent.postMessage({ tp: 'lido', id: KIND + ':' + id, lido: novo }, location.origin); } catch (e) {}
+      if (window.parent !== window) try { window.parent.postMessage({ tp: 'lido', id: KIND + ':' + id, lido: novo, em: novo ? agora : '' }, location.origin); } catch (e) {}
     }).catch(function (err) {
       if (window.console) console.error('[tp-informativos] falha ao salvar o lido:', err && err.message);
       if (String(err && err.message) === 'jwt') err = new Error('sessao');
-      lidos[id] = !novo; pintaTudo();
+      lidos[id] = antes; pintaTudo();
       if (!box.querySelector('.tpi-lido__erro')) { alert(String(err && err.message) === 'sessao' ? 'Sua sessão expirou. Entre de novo no app e volte aqui.' : 'Não foi possível salvar. Tente de novo.'); return; }
       erro.textContent = String(err && err.message) === 'sessao'
         ? 'Sua sessão expirou. Entre de novo no app e volte aqui.'
