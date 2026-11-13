@@ -18,7 +18,6 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 | `condominio-edilicio` | 1 | STJ 908: Partes comuns e direito de uso |
 | `contrato-de-seguro` | 1 | STJ 907: Risco predeterminado e limites da garantia |
 | `dano-moral` | 1 | STJ 908: O que é dano moral coletivo |
-| `marco-civil-da-internet` | 1 | STJ 907: O art. 19 do Marco Civil da Internet |
 | `sonegados` | 1 | STJ 908: Colação e sonegados |
 
 ## Direito Empresarial (`direito-empresarial`)
