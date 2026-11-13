@@ -227,10 +227,11 @@
       var todos = ids.length && n === ids.length;
       li.classList.toggle('is-lido', !!todos);
       var el = li.querySelector('.tpi-edicao__lidos');
-      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde; parcial = "3/10" + ✓ cinza; nenhum = ✓ cinza. */
+      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde + "10/10"; parcial = ✓ cinza + "3/10"; nenhum = ✓ cinza.
+         0.16.3: a contagem aparece também com tudo lido, para STF e STJ ficarem iguais no hub. */
       if (el) {
         el.innerHTML = (todos ? ICONE_DOIS : ICONE_UM)
-          + (todos || !n ? '' : '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>')
+          + (!n ? '' : '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>')
           + '<span class="tpi-sr">' + (todos ? ' Lido' : ' ' + n + ' de ' + ids.length + ' julgados lidos') + '</span>';
         el.hidden = false;
       }
