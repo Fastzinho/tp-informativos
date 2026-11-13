@@ -384,10 +384,30 @@ function tpc_html( $s ) {
 	return wp_kses_post( (string) $s );
 }
 
+/* 0.16.0: última mudança relevante do tema ("mudancas" no JSON), para o selo "Atualizado" de quem já tinha lido.
+   Só entram lei nova ou alterada, correção de erro e jurisprudência que muda a conclusão (regras no LEIA-ME).
+   A data do post não serve: reordenar o caderno ou trocar uma vírgula também a muda. */
+function tpc_tipos_mudanca() {
+	return array( 'lei' => 'Lei alterada', 'correcao' => 'Correção', 'juris' => 'Jurisprudência nova' );
+}
+function tpc_mudanca( $t ) {
+	$m     = array( 'em' => '', 'nota' => '' );
+	$tipos = tpc_tipos_mudanca();
+	foreach ( (array) ( $t['mudancas'] ?? array() ) as $x ) {
+		$em = (string) ( $x['em'] ?? '' );
+		$nt = trim( wp_strip_all_tags( (string) ( $x['nota'] ?? '' ) ) );
+		$tp = (string) ( $x['tipo'] ?? '' );
+		if ( $nt && isset( $tipos[ $tp ] ) && preg_match( '/^\d{4}-\d{2}-\d{2}$/', $em ) && $em > $m['em'] ) {
+			$m = array( 'em' => $em, 'nota' => $tipos[ $tp ] . ': ' . $nt );
+		}
+	}
+	return $m;
+}
+
 /* Mesmo marcador do informativo (tpi.js cuida do estado e do login). */
 function tpc_botao_lido( $p, $disc_titulo, $fim = false ) {
 	$svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
-	return '<div class="tpi-lido tpi-lido--topo tpc-lido' . ( $fim ? ' tpc-lido--fim' : '' ) . '" data-tpi-id="' . esc_attr( $p->ID ) . '" data-tpi-tipo="caderno" data-tpi-titulo="' . esc_attr( $disc_titulo . ': ' . $p->post_title ) . '" data-tpi-url="' . esc_url( tpc_link_tema( $p ) ) . '" hidden>'
+	return '<div class="tpi-lido tpi-lido--topo tpc-lido' . ( $fim ? ' tpc-lido--fim' : '' ) . '" data-tpi-id="' . esc_attr( $p->ID ) . '" data-tpi-tipo="caderno" data-tpi-titulo="' . esc_attr( $disc_titulo . ': ' . $p->post_title ) . '" data-tpi-url="' . esc_url( tpc_link_tema( $p ) ) . '"' . tpi_attr_mudanca( tpc_mudanca( tpc_dados( $p->ID ) ) ) . ' hidden>'
 		. '<p class="tpi-lido__estado tpi-sr"' . ( $fim ? ' aria-hidden="true"' : ' role="status"' ) . '></p>' // 0.11.4: o do fim espelha o do topo; só um anuncia
 		. '<button type="button" class="tpi-lido__botao" aria-pressed="false" aria-label="Marcar ' . esc_attr( $p->post_title ) . ' como lido" title="Marcar como lido">'
 		. $svg . 'class="i-um" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>'
@@ -592,7 +612,7 @@ function tpc_pagina_disciplina( $id ) {
 		$grupo = $g;
 		$nv    = $t['incidencia']['nivel'] ?? '';
 		$busca = remove_accents( mb_strtolower( $p->post_title . ' ' . ( $t['base'] ?? '' ) . ' ' . implode( ' ', (array) ( $t['palavras'] ?? array() ) ) ) );
-		$h    .= '<li><a href="#' . esc_attr( $p->post_name ) . '" data-tpc-busca="' . esc_attr( $busca ) . '" data-tpc-lido="' . esc_attr( $p->ID ) . '"' . ( tpc_escrito( $t ) ? '' : ' class="is-rascunho"' ) . '>'
+		$h    .= '<li><a href="#' . esc_attr( $p->post_name ) . '" data-tpc-busca="' . esc_attr( $busca ) . '" data-tpc-lido="' . esc_attr( $p->ID ) . '"' . tpi_attr_mudanca( tpc_mudanca( $t ) ) . ( tpc_escrito( $t ) ? '' : ' class="is-rascunho"' ) . '>'
 			. '<span class="tpc-sumario__nome">' . esc_html( $p->post_title ) . '</span>'
 			. ( isset( tpc_niveis()[ $nv ] ) ? '<i class="tpc-ponto tpc-ponto--' . esc_attr( $nv ) . '" title="' . esc_attr( tpc_niveis()[ $nv ] ) . '"></i><span class="tpi-sr"> (' . esc_html( tpc_niveis()[ $nv ] ) . ')</span>' : '' )
 			. '<span class="tpc-sumario__lido" hidden></span></a></li>';
@@ -907,6 +927,7 @@ function tpc_indice() {
 			'tax'    => array_values( array_filter( array_map( 'strval', (array) ( $t['tax'] ?? array() ) ) ) ),
 			'dis'    => array_values( array_filter( array_map( 'strval', (array) ( $t['dispositivos'] ?? array() ) ) ) ),
 			'post'   => get_permalink( $p ),
+			'mud'    => tpc_mudanca( $t ), // 0.16.0
 		);
 	}
 	set_transient( 'tpc_indice_v2', $idx, DAY_IN_SECONDS );
@@ -1070,6 +1091,11 @@ add_action( 'rest_api_init', function () {
 					'x' => $i['tax'],
 					'd' => $i['dis'],
 				);
+				// 0.16.0: última mudança relevante (AAAA-MM-DD e frase); o app compara com o readAt do lido que já baixou.
+				if ( ! empty( $i['mud']['em'] ) ) {
+					$items[ count( $items ) - 1 ]['m'] = $i['mud']['em'];
+					$items[ count( $items ) - 1 ]['n'] = $i['mud']['nota'];
+				}
 			}
 			$res = rest_ensure_response( array( 'v' => 1, 'items' => $items ) );
 			// O transient (limpo a cada sincronização) deixa a resposta barata; navegador e CDN seguram por 1 h.

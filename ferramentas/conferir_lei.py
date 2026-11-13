@@ -19,12 +19,17 @@ Regras:
   (2026-11-11: o art. 155 do caderno parava no § 4º, IV, e faltavam o inciso V e os §§ 4º-A a 12).
   Para gerar o texto completo: --completar reescreve cada bloco "lei" com o artigo inteiro do acervo.
 
-Também confere se `tax` e `dispositivos` de cada tema existem no app.
+Também confere se `tax` e `dispositivos` de cada tema existem no app, e o formato de `mudancas` (0.16.0).
+Com --desde <ref do git> (ex.: origin/main), avisa quando a lei, o gabarito da pegadinha ou a
+jurisprudência de um tema publicado mudou sem uma entrada nova em `mudancas` (só aviso: pode ser
+reformatação; decida se o aluno que já leu precisa saber).
 
 Sai com código 1 se houver divergência, para poder entrar num gancho de pré-commit.
 """
 import argparse
+import datetime
 import glob
+import subprocess
 import json
 import os
 import re
@@ -201,10 +206,67 @@ def confere_ligacoes(acervo, arquivos):
     return erros
 
 
+TIPOS_MUDANCA = ('lei', 'correcao', 'juris')
+
+
+def confere_mudancas(arquivos):
+    """0.16.0: `mudancas` acende o selo "Atualizado" para quem leu antes. Formato estrito para não errar em silêncio."""
+    hoje = datetime.date.today().isoformat()
+    erros = []
+    for arq in arquivos:
+        for t in json.load(open(arq, encoding='utf-8')).get('temas', []):
+            onde = '%s#%s' % (os.path.basename(arq), t.get('slug'))
+            m = t.get('mudancas')
+            if m is None:
+                continue
+            if not isinstance(m, list):
+                erros.append('%s: mudancas tem de ser uma lista.' % onde)
+                continue
+            for x in m:
+                em, tipo, nota = str(x.get('em', '')), x.get('tipo'), str(x.get('nota', '')).strip()
+                if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', em) or em > hoje:
+                    erros.append('%s: mudança com data inválida ou futura (%s).' % (onde, em))
+                if tipo not in TIPOS_MUDANCA:
+                    erros.append('%s: tipo de mudança "%s" (use %s).' % (onde, tipo, ', '.join(TIPOS_MUDANCA)))
+                if not nota or len(nota) > 180:
+                    erros.append('%s: nota da mudança vazia ou com mais de 180 caracteres.' % onde)
+    return erros
+
+
+def _essencial(t):
+    """O que, se mudar, pode mudar a resposta do aluno: texto da lei, gabarito da pegadinha, jurisprudência."""
+    return (
+        [norm(sem_nota(i.get('texto', ''))) for i in t.get('lei') or []],
+        (t.get('pegadinha') or {}).get('gabarito'),
+        [norm(j.get('texto', '')) for j in t.get('juris') or []],
+    )
+
+
+def avisa_sem_registro(arquivos, ref):
+    avisos = []
+    for arq in arquivos:
+        rel = os.path.relpath(arq, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        try:
+            antes = json.loads(subprocess.run(['git', 'show', '%s:%s' % (ref, rel)], capture_output=True, check=True, text=True).stdout)
+        except (subprocess.CalledProcessError, ValueError):
+            continue  # caderno novo
+        velhos = {t.get('slug'): t for t in antes.get('temas', [])}
+        for t in json.load(open(arq, encoding='utf-8')).get('temas', []):
+            v = velhos.get(t.get('slug'))
+            if not v or not v.get('resumo') or _essencial(v) == _essencial(t):
+                continue
+            if len(t.get('mudancas') or []) > len(v.get('mudancas') or []):
+                continue
+            avisos.append('%s#%s: lei, gabarito ou jurisprudência mudou sem entrada nova em "mudancas". '
+                          'Se muda a resposta de quem já leu, registre (LEIA-ME, campo mudancas).' % (os.path.basename(arq), t.get('slug')))
+    return avisos
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--acervo', required=True, help='pasta codigo-fonte/public/legal do app')
     ap.add_argument('--completar', action='store_true', help='reescreve os blocos "lei" com os artigos inteiros do acervo')
+    ap.add_argument('--desde', help='ref do git (ex.: origin/main) para avisar mudança essencial sem registro em mudancas')
     ap.add_argument('arquivos', nargs='*')
     a = ap.parse_args()
     raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -218,8 +280,12 @@ def main():
         total += ok
         todos += erros
     todos += confere_ligacoes(a.acervo, arquivos)
+    todos += confere_mudancas(arquivos)
     for e in todos:
         print('ERRO ' + e)
+    if a.desde:
+        for w in avisa_sem_registro(arquivos, a.desde):
+            print('AVISO ' + w)
     print('%d artigo(s) conferido(s), %d divergência(s).' % (total, len(todos)))
     sys.exit(1 if todos else 0)
 
