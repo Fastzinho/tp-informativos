@@ -479,6 +479,121 @@
       ]
     },
     {
+      "slug": "marco-civil-da-internet",
+      "titulo": "Marco Civil da Internet e LGPD: provedores e proteção de dados",
+      "grupo": "Parte geral",
+      "base": "Art. 19 da Lei 12.965/2014; arts. 4º, 5º, 7º, 11, 12 e 42 da Lei 13.709/2018; art. 5º, LXXIX, da CF",
+      "tax": [
+        "civil.dados-internet"
+      ],
+      "dispositivos": [
+        "n12965-2014-art-19",
+        "n13709-2018-art-4",
+        "n13709-2018-art-5",
+        "n13709-2018-art-7",
+        "n13709-2018-art-11",
+        "n13709-2018-art-12",
+        "n13709-2018-art-42",
+        "nCF-1988-art-5",
+        "nCF-1988-art-22"
+      ],
+      "conceitos": [
+        "Marco Civil da Internet",
+        "art. 19 do Marco Civil",
+        "LGPD",
+        "dados pessoais sensíveis",
+        "dados manifestamente públicos",
+        "proteção de dados pessoais"
+      ],
+      "palavras": [
+        "lei 12965",
+        "marco civil",
+        "art 19",
+        "provedor de aplicacao",
+        "ordem judicial",
+        "notificacao",
+        "lgpd",
+        "lei 13709",
+        "dado pessoal",
+        "dado sensivel",
+        "cpf",
+        "anonimizado",
+        "consentimento",
+        "manifestamente publicos",
+        "seguranca publica",
+        "investigacao criminal",
+        "jornalistico",
+        "inversao do onus",
+        "controlador",
+        "operador",
+        "anpd",
+        "art 5 lxxix",
+        "competencia privativa da uniao"
+      ],
+      "resumo": "O <strong>art. 19 do Marco Civil</strong> diz que o provedor de aplicações só responde por conteúdo de terceiros se, após ordem judicial específica, não o tornar indisponível. Em 2025, o STF declarou a regra parcialmente inconstitucional (Temas 987 e 533): a ordem judicial continua exigida para crimes contra a honra, mas em outros conteúdos ilícitos o provedor pode responder após notificação, e tem dever de cuidado diante de conteúdos graves. A <strong>LGPD</strong> rege o tratamento de dados de pessoa natural. Dado sensível é o de origem racial, religião, opinião política, saúde, vida sexual, genética ou biometria; <strong>CPF e data de nascimento não são sensíveis</strong>. Dado anonimizado, em regra, não é dado pessoal. O consentimento é só uma das bases legais (art. 7º), e é <strong>dispensado para dados tornados manifestamente públicos pelo titular</strong>, mantidos seus direitos e os princípios (§ 4º). A LGPD <strong>não se aplica</strong> a fins exclusivamente jornalísticos, de segurança pública ou de investigação e repressão penal (art. 4º). Proteção de dados é direito fundamental expresso (art. 5º, LXXIX) e legislar sobre ela é competência privativa da União (art. 22, XXX).",
+      "esquema": {
+        "rotulo": "pontos da LGPD que mais caem",
+        "html": "<table><thead><tr><th>Ponto</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Dado sensível</strong></td><td>Raça, religião, opinião política, sindicato, saúde, vida sexual, genética, biometria (CPF não é)</td></tr><tr><td><strong>Dado anonimizado</strong></td><td>Em regra não é dado pessoal (art. 12)</td></tr><tr><td><strong>Consentimento</strong></td><td>Uma das dez bases do art. 7º; dispensado para dado manifestamente público</td></tr><tr><td><strong>Sensível sem consentimento</strong></td><td>Cabe nas hipóteses do art. 11, II (obrigação legal, políticas públicas, exercício de direitos etc.)</td></tr><tr><td><strong>Fora da LGPD</strong></td><td>Fins particulares, jornalísticos, artísticos, segurança pública, investigação penal (art. 4º)</td></tr><tr><td><strong>Ônus da prova</strong></td><td>O juiz pode inverter; não é automático (art. 42, § 2º)</td></tr></tbody></table>"
+      },
+      "lei": [
+        {
+          "texto": "Art. 19. Com o intuito de assegurar a liberdade de expressão e impedir a censura, o provedor de aplicações de internet somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, após ordem judicial específica, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente, ressalvadas as disposições legais em contrário.\n\n(...)",
+          "fonte": "Lei 12.965/2014 (Marco Civil da Internet), texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-12965-23-abril-2014-778630-normaatualizada-pl.html",
+          "norma": "n12965-2014"
+        },
+        {
+          "texto": "Art. 4º Esta Lei não se aplica ao tratamento de dados pessoais:\n\n(...)\n\nIII - realizado para fins exclusivos de:\n\na) segurança pública;\n\nb) defesa nacional;\n\nc) segurança do Estado; ou\n\nd) atividades de investigação e repressão de infrações penais; ou\n\n(...)\n\n§ 1º O tratamento de dados pessoais previsto no inciso III será regido por legislação específica, que deverá prever medidas proporcionais e estritamente necessárias ao atendimento do interesse público, observados o devido processo legal, os princípios gerais de proteção e os direitos do titular previstos nesta Lei.\n\n(...)",
+          "fonte": "Lei 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+          "norma": "n13709-2018"
+        },
+        {
+          "texto": "Art. 7º O tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\n(...)\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n(...)",
+          "fonte": "Lei 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+          "norma": "n13709-2018"
+        },
+        {
+          "texto": "Art. 12. Os dados anonimizados não serão considerados dados pessoais para os fins desta Lei, salvo quando o processo de anonimização ao qual foram submetidos for revertido, utilizando exclusivamente meios próprios, ou quando, com esforços razoáveis, puder ser revertido.\n\n(...)",
+          "fonte": "Lei 13.709/2018 (Lei Geral de Proteção de Dados Pessoais), texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+          "norma": "n13709-2018"
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "CPF NÃO É SENSÍVEL",
+          "texto": "Sensível é o dado que pode gerar discriminação: raça, religião, política, saúde, vida sexual, genética, biometria. CPF, endereço e data de nascimento são dados pessoais comuns."
+        },
+        {
+          "sigla": "PÚBLICO NÃO É TERRA DE NINGUÉM",
+          "texto": "Dado tornado manifestamente público dispensa consentimento, mas continua sob a LGPD: valem os direitos do titular e os princípios."
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · Temas 987 e 533 (2025)",
+          "texto": "O art. 19 do Marco Civil da Internet é parcialmente inconstitucional. Para crimes contra a honra segue exigida a ordem judicial; para os demais conteúdos ilícitos, o provedor pode responder após notificação, e responde por falha sistêmica diante de conteúdos graves."
+        },
+        {
+          "quem": "STJ · AREsp 2.130.619 (2023)",
+          "texto": "O vazamento de dados pessoais comuns, não sensíveis, não gera dano moral presumido; o titular deve demonstrar o dano."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "A LGPD considera o número do CPF da pessoa natural um dado pessoal sensível.",
+        "gabarito": "E",
+        "explicacao": "O rol do art. 5º, II, abrange origem racial ou étnica, convicção religiosa, opinião política, filiação sindical, saúde, vida sexual, dado genético ou biométrico. O CPF é dado pessoal comum (Cebraspe, CNMP 2023)."
+      },
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "aprofundamento": "<p><strong>Dados manifestamente públicos.</strong> Quem coleta e cataloga dados que a própria titular tornou manifestamente públicos nas redes não precisa do consentimento dela, mas deve resguardar os direitos da titular e observar os princípios da LGPD (art. 7º, § 4º). Errado dizer que esses dados ficam fora da lei, que só o armazenamento seria permitido ou que qualquer tratamento exigiria consentimento prévio (FGV, Delegado PC-PR 2026)</p><p><strong>Investigação penal fica fora.</strong> A LGPD não se aplica ao tratamento para fins exclusivos de segurança pública e de investigação e repressão de infrações penais (art. 4º, III), que será regido por lei específica (Cebraspe, TRF6 2024). Por isso estava errado dizer que a LGPD se aplica a fins exclusivamente jornalísticos e de repressão penal (Cebraspe, Câmara dos Deputados 2025)</p><p><strong>Sensível sem consentimento.</strong> Errado dizer que o dado sensível só pode ser tratado com consentimento específico do titular: o art. 11, II, lista hipóteses sem consentimento, como obrigação legal, políticas públicas e exercício regular de direitos (Cebraspe, Administrativo PF 2025)</p><p><strong>Inversão do ônus não é automática.</strong> Na ação de reparação contra controlador ou operador, o juiz pode inverter o ônus da prova quando a alegação for verossímil ou houver hipossuficiência (art. 42, § 2º). Errado falar em inversão automática (Cebraspe, TJ-PA 2025)</p><p><strong>Dado anonimizado.</strong> Em regra, o dado anonimizado não é dado pessoal; passa a ser se a anonimização puder ser revertida com esforço razoável (art. 12). Errado dizer o contrário (Cebraspe, TRF6 2024)</p><p><strong>Direito fundamental e competência.</strong> A proteção de dados pessoais é direito fundamental expresso (art. 5º, LXXIX, da CF, desde a EC 115/2022), e legislar sobre ela é competência privativa da União (art. 22, XXX). Errado falar em competência concorrente com estados e DF (Cebraspe, CNMP 2023)</p>",
+      "relacionados": [
+        "direitos-da-personalidade",
+        "personalidade-e-capacidade-civil"
+      ]
+    },
+    {
       "slug": "pessoa-juridica-e-desconsideracao",
       "titulo": "Pessoa jurídica e desconsideração da personalidade",
       "grupo": "Parte geral",
