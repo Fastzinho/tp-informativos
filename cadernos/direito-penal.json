@@ -4613,7 +4613,7 @@
    "resumo": "<strong>Estupro</strong> (art. 213) é constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir outro ato libidinoso (6 a 10 anos). Desde a Lei 12.015/2009, o antigo atentado violento ao pudor está dentro do art. 213, e homem ou mulher podem ser autor ou vítima. A pena sobe para 8 a 12 anos se resulta lesão grave ou se a vítima tem entre 14 e 18 anos, e para 12 a 30 anos se resulta morte. Se a vítima é enganada, sem violência, o crime é <strong>violação sexual mediante fraude</strong> (art. 215). O <strong>assédio sexual</strong> (art. 216-A) exige que o agente se valha de superioridade hierárquica ou ascendência ligada a emprego, cargo ou função. A ação penal é pública incondicionada (art. 225), e o estupro é hediondo e inafiançável.",
    "esquema": {
     "rotulo": "qual crime sexual",
-    "html": "<table><thead><tr><th>Meio</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Violência ou grave ameaça</strong></td><td>Estupro (art. 213)</td><td>6 a 10 anos</td></tr><tr><td><strong>Fraude ou meio que dificulta a vontade da vítima</strong></td><td>Violação sexual mediante fraude (art. 215)</td><td>2 a 6 anos</td></tr><tr><td><strong>Ato libidinoso sem anuência, sem violência</strong></td><td>Importunação sexual (art. 215-A)</td><td>1 a 5 anos</td></tr><tr><td><strong>Constranger valendo-se de superioridade ou ascendência</strong></td><td>Assédio sexual (art. 216-A)</td><td>1 a 2 anos</td></tr><tr><td><strong>Qualquer ato libidinoso com menor de 14 anos</strong></td><td>Estupro de vulnerável (art. 217-A)</td><td>8 a 15 anos</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Meio</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Violência ou grave ameaça</strong></td><td>Estupro (art. 213)</td><td>6 a 10 anos</td></tr><tr><td><strong>Fraude ou meio que dificulta a vontade da vítima</strong></td><td>Violação sexual mediante fraude (art. 215)</td><td>2 a 6 anos</td></tr><tr><td><strong>Ato libidinoso sem anuência, sem violência</strong></td><td>Importunação sexual (art. 215-A)</td><td>1 a 5 anos</td></tr><tr><td><strong>Constranger valendo-se de superioridade ou ascendência</strong></td><td>Assédio sexual (art. 216-A)</td><td>1 a 2 anos</td></tr><tr><td><strong>Qualquer ato libidinoso com menor de 14 anos</strong></td><td>Estupro de vulnerável (art. 217-A)</td><td>10 a 18 anos</td></tr></tbody></table>"
    },
    "lei": [
     {
@@ -4664,6 +4664,13 @@
     "estupro-de-vulneravel",
     "importunacao-sexual",
     "concurso-de-crimes"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-14",
+     "tipo": "correcao",
+     "nota": "O esquema dava 8 a 15 anos ao estupro de vulnerável; a pena é de 10 a 18 anos desde a Lei 15.280/2025."
+    }
    ]
   },
   {

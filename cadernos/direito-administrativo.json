@@ -3068,7 +3068,7 @@
     "locacao abaixo do mercado",
     "servidores em obra particular"
    ],
-   "resumo": "Depois da Lei 14.230/2021, só há improbidade com <strong>dolo</strong>: a vontade livre e consciente de alcançar o resultado ilícito, e não a mera voluntariedade (art. 1º, §§ 1º a 3º). A modalidade culposa acabou. Os tipos são três: <strong>enriquecimento ilícito</strong> (art. 9º), <strong>lesão ao erário</strong> (art. 10) e <strong>violação de princípios</strong> (art. 11), cujo rol agora é <strong>taxativo</strong> e exige lesividade relevante. Responde também o <strong>terceiro</strong> que induz ou concorre (art. 3º), e o herdeiro responde só até o limite da herança (art. 8º). As sanções do art. 12 se graduam pelo tipo e só se executam após o <strong>trânsito em julgado</strong>. A ação prescreve em <strong>8 anos</strong> do fato, e, interrompida, o prazo recomeça pela metade. O Ministério Público pode celebrar <strong>acordo de não persecução civil</strong> (art. 17-B), e o STF reconheceu essa legitimidade também ao ente lesado.",
+   "resumo": "Depois da Lei 14.230/2021, só há improbidade com <strong>dolo</strong>: a vontade livre e consciente de alcançar o resultado ilícito, e não a mera voluntariedade (art. 1º, §§ 1º a 3º). A modalidade culposa acabou. Os tipos são três: <strong>enriquecimento ilícito</strong> (art. 9º), <strong>lesão ao erário</strong> (art. 10) e <strong>violação de princípios</strong> (art. 11), cujo rol agora é <strong>taxativo</strong> e exige lesividade relevante. Responde também o <strong>terceiro</strong> que induz ou concorre (art. 3º), e o herdeiro responde só até o limite da herança (art. 8º). As sanções do art. 12 se graduam pelo tipo e só se executam após o <strong>trânsito em julgado</strong>. A ação prescreve em <strong>8 anos</strong> do fato. Interrompida a prescrição, o prazo volta a correr <strong>por inteiro</strong>: o STF derrubou a regra que o reduzia pela metade e fixou o limite máximo de <strong>20 anos</strong> (ADIs 7.156 e 7.236, 2026). O Ministério Público pode celebrar <strong>acordo de não persecução civil</strong> (art. 17-B), e o STF reconheceu essa legitimidade também ao ente lesado.",
    "esquema": {
     "rotulo": "sanções do art. 12",
     "html": "<table><thead><tr><th>Tipo</th><th>Suspensão dos direitos políticos</th><th>Multa civil</th><th>Proibição de contratar</th></tr></thead><tbody><tr><td><strong>Enriquecimento ilícito (art. 9º)</strong></td><td>Até 14 anos</td><td>Igual ao acréscimo patrimonial</td><td>Até 14 anos</td></tr><tr><td><strong>Lesão ao erário (art. 10)</strong></td><td>Até 12 anos</td><td>Igual ao dano</td><td>Até 12 anos</td></tr><tr><td><strong>Violação de princípios (art. 11)</strong></td><td>Não há</td><td>Até 24 vezes a remuneração</td><td>Até 4 anos</td></tr></tbody></table>"
@@ -3121,8 +3121,8 @@
      "texto": "Proibição de contratar: até 14 anos no enriquecimento ilícito, até 12 na lesão ao erário, até 4 na violação de princípios."
     },
     {
-     "sigla": "OITO ANOS, DEPOIS QUATRO",
-     "texto": "A ação prescreve em 8 anos do fato. A cada interrupção, o prazo recomeça pela metade."
+     "sigla": "OITO, DE NOVO OITO, ATÉ VINTE",
+     "texto": "A ação prescreve em 8 anos do fato. Interrompida, recomeça por mais 8 (o STF derrubou o \"pela metade\" do art. 23, § 5º), com teto de 20 anos."
     }
    ],
    "juris": [
@@ -3133,6 +3133,11 @@
     {
      "quem": "STF · Tema 897 (RE 852.475)",
      "texto": "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato doloso tipificado na Lei de Improbidade Administrativa."
+    },
+    {
+     "quem": "STF · ADIs 7.156 e 7.236 (1º/7/2026)",
+     "texto": "É inconstitucional a expressão do art. 23, § 5º, que reduzia pela metade o prazo prescricional depois da interrupção. As hipóteses de interrupção do § 4º são constitucionais, e a pretensão sancionatória tem prazo máximo de 20 anos.",
+     "link": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/"
     }
    ],
    "pegadinha": {
@@ -3147,6 +3152,13 @@
     "principios-da-administracao",
     "responsabilidade-civil-do-estado",
     "processo-administrativo-disciplinar"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-14",
+     "tipo": "juris",
+     "nota": "STF (ADIs 7.156 e 7.236, jul/2026): interrompida, a prescrição da improbidade recomeça por inteiro, não pela metade, com teto de 20 anos."
+    }
    ]
   },
   {

@@ -435,7 +435,7 @@
       "slug": "licenciamento-ambiental",
       "titulo": "Licenciamento ambiental",
       "grupo": "Política e instrumentos",
-      "base": "Lei 6.938/1981, art. 10; LC 140/2011, arts. 2º, 13 e 14; Resolução CONAMA 237/1997",
+      "base": "Lei 6.938/1981, art. 10; LC 140/2011, arts. 2º, 13 e 14; Lei 15.190/2025, arts. 5º a 7º; Resolução CONAMA 237/1997",
       "tax": [
         "ambiental.licenciamento-ambiental",
         "ambiental.conama-237-1997",
@@ -480,12 +480,20 @@
         "licenca ato administrativo",
         "cemiterio licenciamento",
         "dispensa de licenciamento",
-        "atividade sem licenca"
+        "atividade sem licenca",
+        "lei 15190",
+        "lei geral do licenciamento",
+        "3 a 6 anos",
+        "5 a 10 anos",
+        "lau",
+        "lac",
+        "loc",
+        "lae"
       ],
-      "resumo": "Licenciamento é o procedimento administrativo destinado a licenciar atividades utilizadoras de recursos ambientais, efetiva ou potencialmente poluidoras ou capazes de causar degradação (LC 140, art. 2º, I; Lei 6.938, art. 10). A Resolução CONAMA 237/1997 divide o processo em três licenças: a <strong>prévia (LP)</strong>, na fase de planejamento, aprova localização e concepção e atesta a viabilidade; a <strong>de instalação (LI)</strong> autoriza a implantação conforme os planos aprovados; a <strong>de operação (LO)</strong> autoriza o funcionamento após verificar o cumprimento das anteriores. A mesma resolução fixa a validade: LP até 5 anos, LI até 6 anos e LO de 4 a 10 anos. A LC 140 traz regras que caem muito: o órgão comunica as exigências de complementação <strong>de uma única vez</strong>, salvo fato novo, e elas suspendem o prazo (art. 14, §§ 1º e 2º); o decurso do prazo <strong>não gera licença tácita</strong> nem autoriza a atividade, mas instaura a competência supletiva (art. 14, § 3º); a renovação deve ser pedida com <strong>120 dias</strong> de antecedência do vencimento, e então a licença fica automaticamente prorrogada até a manifestação do órgão (art. 14, § 4º). A licença ambiental não gera direito adquirido absoluto: pode ser suspensa ou cancelada se houver violação de condicionantes ou riscos supervenientes.",
+      "resumo": "Licenciamento é o procedimento administrativo destinado a licenciar atividades utilizadoras de recursos ambientais, efetiva ou potencialmente poluidoras ou capazes de causar degradação (LC 140, art. 2º, I; Lei 6.938, art. 10). A Lei Geral do Licenciamento Ambiental (Lei 15.190/2025) prevê sete tipos de licença (art. 5º). As três clássicas, que vêm da Resolução CONAMA 237/1997, são a <strong>prévia (LP)</strong>, na fase de planejamento, aprova localização e concepção e atesta a viabilidade; a <strong>de instalação (LI)</strong> autoriza a implantação conforme os planos aprovados; a <strong>de operação (LO)</strong> autoriza o funcionamento após verificar o cumprimento das anteriores. As outras são a licença ambiental única (LAU), a por adesão e compromisso (LAC), a de operação corretiva (LOC) e a especial (LAE). A validade agora está na lei (art. 6º): <strong>LP e LI de 3 a 6 anos</strong>; <strong>LO, LAU, LOC, LAE e LAC de 5 a 10 anos</strong>, vedada licença por prazo indeterminado. Os prazos antigos da CONAMA 237 (LP até 5, LI até 6, LO de 4 a 10 anos) só valem para resolver questões anteriores à lei. A LC 140 traz regras que caem muito: o órgão comunica as exigências de complementação <strong>de uma única vez</strong>, salvo fato novo, e elas suspendem o prazo (art. 14, §§ 1º e 2º); o decurso do prazo <strong>não gera licença tácita</strong> nem autoriza a atividade, mas instaura a competência supletiva (art. 14, § 3º); a renovação deve ser pedida com <strong>120 dias</strong> de antecedência do vencimento, e então a licença fica automaticamente prorrogada até a manifestação do órgão (art. 14, § 4º; regra repetida no art. 7º da Lei 15.190). A licença ambiental não gera direito adquirido absoluto: pode ser suspensa ou cancelada se houver violação de condicionantes ou riscos supervenientes.",
       "esquema": {
-        "rotulo": "as três licenças (CONAMA 237/1997)",
-        "html": "<table><thead><tr><th>Licença</th><th>Fase</th><th>Validade máxima</th></tr></thead><tbody><tr><td><strong>Prévia (LP)</strong></td><td>Planejamento: localização, concepção e viabilidade</td><td>Até 5 anos</td></tr><tr><td><strong>Instalação (LI)</strong></td><td>Implantação conforme planos e programas aprovados</td><td>Até 6 anos</td></tr><tr><td><strong>Operação (LO)</strong></td><td>Funcionamento, após conferir as condicionantes</td><td>Mínimo 4 e máximo 10 anos</td></tr></tbody></table>"
+        "rotulo": "as três licenças clássicas e a validade (Lei 15.190/2025, art. 6º)",
+        "html": "<table><thead><tr><th>Licença</th><th>Fase</th><th>Validade</th></tr></thead><tbody><tr><td><strong>Prévia (LP)</strong></td><td>Planejamento: localização, concepção e viabilidade</td><td>3 a 6 anos</td></tr><tr><td><strong>Instalação (LI)</strong></td><td>Implantação conforme planos e programas aprovados</td><td>3 a 6 anos</td></tr><tr><td><strong>Operação (LO)</strong></td><td>Funcionamento, após conferir as condicionantes</td><td>5 a 10 anos</td></tr><tr><td><strong>LAU, LOC, LAE e LAC</strong></td><td>Licença única, corretiva, especial e por adesão e compromisso</td><td>5 a 10 anos</td></tr></tbody></table>"
       },
       "lei": [
         {
@@ -504,7 +512,7 @@
       "macetes": [
         {
           "sigla": "PLANEJA, INSTALA, OPERA",
-          "texto": "A ordem das licenças é a ordem da obra: LP, LI e LO. Os prazos sobem com ela: 5, 6 e de 4 a 10 anos."
+          "texto": "A ordem das licenças é a ordem da obra: LP, LI e LO. Na validade, LP e LI ficam entre 3 e 6 anos e a LO entre 5 e 10 (Lei 15.190/2025, art. 6º)."
         },
         {
           "sigla": "SILÊNCIO NÃO LICENCIA",
@@ -536,13 +544,20 @@
         "competencias-em-materia-ambiental",
         "estudo-de-impacto-ambiental-e-audiencia-publica",
         "principios-do-direito-ambiental"
+      ],
+      "mudancas": [
+        {
+          "em": "2026-11-14",
+          "tipo": "lei",
+          "nota": "Validade das licenças agora vem da Lei 15.190/2025 (art. 6º): LP e LI de 3 a 6 anos; LO e demais de 5 a 10 anos."
+        }
       ]
     },
     {
       "slug": "estudo-de-impacto-ambiental-e-audiencia-publica",
       "titulo": "Estudo de impacto ambiental e audiência pública",
       "grupo": "Política e instrumentos",
-      "base": "CF, art. 225, § 1º, IV; Lei 6.938/1981, art. 9º, III; Resoluções CONAMA 1/1986, 9/1987 e 237/1997",
+      "base": "CF, art. 225, § 1º, IV; Lei 6.938/1981, art. 9º, III; Lei 15.190/2025, arts. 39 e 40; Resoluções CONAMA 1/1986, 9/1987 e 237/1997",
       "tax": [
         "ambiental.eia-constitucional",
         "ambiental.eia-funcao-natureza",
@@ -583,9 +598,12 @@
         "eia nao vincula",
         "eia publicidade",
         "eia sigilo industrial",
-        "avaliacao de impacto ambiental"
+        "avaliacao de impacto ambiental",
+        "lei 15190",
+        "audiencia obrigatoria",
+        "45 dias"
       ],
-      "resumo": "O <strong>estudo prévio de impacto ambiental</strong> é exigido pela CF para instalação de obra ou atividade potencialmente causadora de <strong>significativa degradação</strong>, e a ele se dá <strong>publicidade</strong> (art. 225, § 1º, IV). É espécie do instrumento \"avaliação de impactos ambientais\" da PNMA (Lei 6.938, art. 9º, III). O EIA é estudo técnico detalhado; o <strong>RIMA</strong> é o relatório que traduz suas conclusões em linguagem acessível ao público. Pela Resolução CONAMA 1/1986, <strong>impacto ambiental</strong> é qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente causada por atividade humana que afete a saúde, a segurança, a biota ou a qualidade dos recursos ambientais; o EIA deve examinar alternativas tecnológicas e de localização, inclusive a de não executar o projeto, e é elaborado por <strong>equipe técnica habilitada</strong>, com custos pagos pelo <strong>empreendedor</strong>, e não pelo órgão ambiental. A <strong>audiência pública</strong> (Resolução CONAMA 9/1987) expõe o RIMA e colhe críticas; o órgão a promove quando julgar necessário ou a pedido de entidade civil, do Ministério Público ou de <strong>50 ou mais cidadãos</strong>, e, se pedida, a licença concedida sem ela não tem validade. As conclusões do EIA não vinculam o órgão, mas a decisão contrária precisa de motivação.",
+      "resumo": "O <strong>estudo prévio de impacto ambiental</strong> é exigido pela CF para instalação de obra ou atividade potencialmente causadora de <strong>significativa degradação</strong>, e a ele se dá <strong>publicidade</strong> (art. 225, § 1º, IV). É espécie do instrumento \"avaliação de impactos ambientais\" da PNMA (Lei 6.938, art. 9º, III). O EIA é estudo técnico detalhado; o <strong>RIMA</strong> é o relatório que traduz suas conclusões em linguagem acessível ao público. Pela Resolução CONAMA 1/1986, <strong>impacto ambiental</strong> é qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente causada por atividade humana que afete a saúde, a segurança, a biota ou a qualidade dos recursos ambientais; o EIA deve examinar alternativas tecnológicas e de localização, inclusive a de não executar o projeto, e é elaborado por <strong>equipe técnica habilitada</strong>, com custos pagos pelo <strong>empreendedor</strong>, e não pelo órgão ambiental. A <strong>audiência pública</strong> expõe o RIMA e colhe críticas. Desde a Lei 15.190/2025 (art. 40), ela é <strong>obrigatória</strong> no licenciamento sujeito a EIA: ao menos uma, antes da decisão sobre a LP, com o EIA e o RIMA à disposição do público <strong>45 dias antes</strong>; fazer mais de uma exige decisão motivada. Provas anteriores à lei cobram a Resolução CONAMA 9/1987, pela qual o órgão a promovia quando julgasse necessário ou a pedido de entidade civil, do Ministério Público ou de 50 ou mais cidadãos, e a licença concedida sem a audiência pedida não tinha validade. As conclusões do EIA não vinculam o órgão, mas a decisão contrária precisa de motivação.",
       "esquema": {
         "rotulo": "EIA x RIMA",
         "html": "<table><thead><tr><th></th><th>EIA</th><th>RIMA</th></tr></thead><tbody><tr><td><strong>Natureza</strong></td><td>Estudo técnico completo</td><td>Relatório-síntese</td></tr><tr><td><strong>Linguagem</strong></td><td>Técnica</td><td>Acessível ao público</td></tr><tr><td><strong>Quem faz</strong></td><td>Equipe técnica habilitada, paga pelo empreendedor</td><td>A mesma equipe</td></tr><tr><td><strong>Publicidade</strong></td><td>Pública, respeitado o sigilo industrial</td><td>Acessível a qualquer interessado</td></tr></tbody></table>"
@@ -604,8 +622,8 @@
           "texto": "Três palavras da CF: o EIA é para significativa degradação, vem antes da obra e é público."
         },
         {
-          "sigla": "50 PEDEM AUDIÊNCIA",
-          "texto": "Podem pedir audiência pública entidade civil, Ministério Público ou 50 cidadãos. Se pediram e não houve, a licença é inválida."
+          "sigla": "COM EIA, AUDIÊNCIA",
+          "texto": "Com EIA, ao menos uma audiência pública antes da LP, com EIA e RIMA públicos 45 dias antes (Lei 15.190/2025, art. 40). Os 50 cidadãos da Resolução CONAMA 9/1987 são de provas antigas."
         }
       ],
       "juris": [
@@ -625,6 +643,13 @@
         "licenciamento-ambiental",
         "meio-ambiente-na-constituicao",
         "unidades-de-conservacao"
+      ],
+      "mudancas": [
+        {
+          "em": "2026-11-14",
+          "tipo": "lei",
+          "nota": "Com a Lei 15.190/2025 (art. 40), a audiência pública passou a ser obrigatória no licenciamento com EIA, antes da LP."
+        }
       ]
     },
     {
