@@ -855,7 +855,7 @@
         "incompetencia relativa",
         "incompetencia absoluta"
       ],
-      "resumo": "A competência se fixa, em regra, pelo <strong>lugar da consumação</strong>; na tentativa, pelo do último ato de execução (art. 70). No crime continuado ou permanente em várias comarcas, firma-se pela <strong>prevenção</strong>. Se o lugar é desconhecido, vale o domicílio do réu; na ação exclusivamente privada, o querelante pode escolher esse foro. No <strong>estelionato</strong> por depósito, cheque sem fundos ou transferência, a competência é do domicílio da vítima (art. 70, § 4º). Pela natureza, o <strong>júri</strong> julga os crimes dolosos contra a vida. O <strong>foro por prerrogativa de função</strong> vem da Constituição. Para o STF, ele alcança crimes praticados no cargo e em razão dele, e se mantém mesmo após a saída do cargo, nos termos da decisão de 2025. Foro criado só pela constituição estadual não prevalece sobre o júri (SV 45).",
+      "resumo": "A competência se fixa, em regra, pelo <strong>lugar da consumação</strong>; na tentativa, pelo do último ato de execução (art. 70). No crime continuado ou permanente em várias comarcas, firma-se pela <strong>prevenção</strong>. Se o lugar é desconhecido, vale o domicílio do réu; na ação exclusivamente privada, o querelante pode escolher esse foro. No <strong>estelionato</strong> por depósito, cheque sem fundos ou transferência, a competência é do domicílio da vítima (art. 70, § 4º). Pela natureza, o <strong>júri</strong> julga os crimes dolosos contra a vida, salvo, desde a Lei 15.358/2026, os homicídios de integrantes de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada conexos aos crimes daquela lei, que vão às Varas Criminais Colegiadas (art. 78, I). O <strong>foro por prerrogativa de função</strong> vem da Constituição. Para o STF, ele alcança crimes praticados no cargo e em razão dele, e se mantém mesmo após a saída do cargo, nos termos da decisão de 2025. Foro criado só pela constituição estadual não prevalece sobre o júri (SV 45).",
       "esquema": {
         "rotulo": "ordem de raciocínio",
         "html": "<table><thead><tr><th>Pergunta</th><th>Critério</th></tr></thead><tbody><tr><td><strong>Há foro por prerrogativa?</strong></td><td>Constituição; crime no cargo e em razão dele</td></tr><tr><td><strong>Qual Justiça?</strong></td><td>Especial (militar, eleitoral) ou comum (federal ou estadual)</td></tr><tr><td><strong>Qual comarca?</strong></td><td>Lugar da consumação; subsidiariamente, domicílio do réu</td></tr><tr><td><strong>Qual vara?</strong></td><td>Natureza da infração (júri, juizado), distribuição, prevenção</td></tr></tbody></table>"
@@ -929,6 +929,13 @@
         "competencia-justica-federal",
         "conexao-e-continencia",
         "tribunal-do-juri"
+      ],
+      "mudancas": [
+        {
+          "em": "2026-11-14",
+          "tipo": "lei",
+          "nota": "Incluída a exceção da Lei 15.358/2026 à competência do júri (homicídio de membro de facção ultraviolenta ou milícia vai à vara colegiada)."
+        }
       ]
     },
     {
@@ -2994,7 +3001,7 @@
       "slug": "tribunal-do-juri",
       "titulo": "Tribunal do júri: pronúncia, plenário, quesitos e soberania",
       "grupo": "Atos processuais, procedimentos e sentença",
-      "base": "Arts. 406 a 497 do CPP e art. 5º, XXXVIII, da Constituição",
+      "base": "Arts. 78, I, e 406 a 497 do CPP; Lei 15.358/2026, art. 2º e art. 5º, XXXVIII, da Constituição",
       "tax": [
         "processo-penal.processo-criminal-crimes-comuns",
         "processo-penal.formas-procedimento"
@@ -3058,7 +3065,7 @@
         "tema 1087",
         "clemencia"
       ],
-      "resumo": "O júri julga os crimes <strong>dolosos contra a vida</strong>, com plenitude de defesa, sigilo das votações e <strong>soberania dos veredictos</strong>. O rito é bifásico. Na primeira fase, em até 90 dias, o juiz decide entre <strong>pronunciar</strong> (materialidade e indícios suficientes de autoria; cabe recurso em sentido estrito), <strong>impronunciar</strong> (sem esses elementos; cabe apelação e nova denúncia com prova nova), <strong>absolver sumariamente</strong> (cabe apelação) ou <strong>desclassificar</strong> para crime de outro juízo. A pronúncia deve ser comedida, sem excesso de linguagem. Na segunda fase, sorteiam-se 25 jurados, e 7 formam o <strong>Conselho de Sentença</strong>; cada parte pode recusar 3 sem motivar. Nos debates, não se pode citar a pronúncia, as algemas ou o silêncio do réu como argumento de autoridade, sob pena de nulidade. Os quesitos seguem a ordem materialidade, autoria, <strong>\"o jurado absolve o acusado?\"</strong>, causas de diminuição e qualificadoras; a decisão se forma com mais de 3 votos. Para o STF, a condenação pelo júri pode ser executada de imediato (Tema 1.068), e a absolvição pelo quesito genérico pode ser apelada se manifestamente contrária à prova, respeitada a clemência compatível com os autos (Tema 1.087).",
+      "resumo": "O júri julga os crimes <strong>dolosos contra a vida</strong>, com plenitude de defesa, sigilo das votações e <strong>soberania dos veredictos</strong>. Exceção desde 2026: o homicídio, consumado ou tentado, de integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, conexo aos crimes do art. 2º da Lei 15.358/2026, vai às <strong>Varas Criminais Colegiadas</strong> da Lei 12.694/2012, e não ao júri (CPP, art. 78, I). A regra é questionada no STF. O rito é bifásico. Na primeira fase, em até 90 dias, o juiz decide entre <strong>pronunciar</strong> (materialidade e indícios suficientes de autoria; cabe recurso em sentido estrito), <strong>impronunciar</strong> (sem esses elementos; cabe apelação e nova denúncia com prova nova), <strong>absolver sumariamente</strong> (cabe apelação) ou <strong>desclassificar</strong> para crime de outro juízo. A pronúncia deve ser comedida, sem excesso de linguagem. Na segunda fase, sorteiam-se 25 jurados, e 7 formam o <strong>Conselho de Sentença</strong>; cada parte pode recusar 3 sem motivar. Nos debates, não se pode citar a pronúncia, as algemas ou o silêncio do réu como argumento de autoridade, sob pena de nulidade. Os quesitos seguem a ordem materialidade, autoria, <strong>\"o jurado absolve o acusado?\"</strong>, causas de diminuição e qualificadoras; a decisão se forma com mais de 3 votos. Para o STF, a condenação pelo júri pode ser executada de imediato (Tema 1.068), e a absolvição pelo quesito genérico pode ser apelada se manifestamente contrária à prova, respeitada a clemência compatível com os autos (Tema 1.087).",
       "esquema": {
         "rotulo": "decisões da primeira fase",
         "html": "<table><thead><tr><th>Decisão</th><th>Quando</th><th>Recurso</th></tr></thead><tbody><tr><td><strong>Pronúncia</strong></td><td>Materialidade e indícios suficientes de autoria</td><td>Recurso em sentido estrito</td></tr><tr><td><strong>Impronúncia</strong></td><td>Falta materialidade ou indícios</td><td>Apelação</td></tr><tr><td><strong>Absolvição sumária</strong></td><td>Inexistência do fato, não autoria, atipicidade, excludente</td><td>Apelação</td></tr><tr><td><strong>Desclassificação</strong></td><td>Crime não doloso contra a vida</td><td>Recurso em sentido estrito</td></tr></tbody></table>"
@@ -3141,6 +3148,13 @@
         "conexao-e-continencia",
         "recursos-no-processo-penal",
         "procedimento-comum"
+      ],
+      "mudancas": [
+        {
+          "em": "2026-11-14",
+          "tipo": "lei",
+          "nota": "Incluída a exceção da Lei 15.358/2026: homicídio de membro de facção ultraviolenta ou milícia, conexo aos crimes da lei, vai à vara colegiada, não ao júri."
+        }
       ]
     },
     {
