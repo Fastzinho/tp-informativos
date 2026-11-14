@@ -402,6 +402,17 @@
     "rotulo": "Vucetich: os quatro tipos fundamentais",
     "html": "<table><thead><tr><th>Tipo</th><th>Deltas</th><th>Polegar</th><th>Demais dedos</th></tr></thead><tbody><tr><td><strong>Arco</strong></td><td>Nenhum</td><td>A</td><td>1</td></tr><tr><td><strong>Presilha interna</strong></td><td>Um, à direita do observador</td><td>I</td><td>2</td></tr><tr><td><strong>Presilha externa</strong></td><td>Um, à esquerda do observador</td><td>E</td><td>3</td></tr><tr><td><strong>Verticilo</strong></td><td>Dois, um de cada lado</td><td>V</td><td>4</td></tr></tbody></table><p>Dedo ausente (amputação) leva 0 e impressão impossível de classificar (cicatriz) leva X. A mão direita forma a série (numerador) e a esquerda, a seção (denominador).</p>"
    },
+   "figura": {
+    "rotulo": "sistema de Vucetich",
+    "src": "figuras/sistema-vucetich.svg",
+    "largura": 1800,
+    "altura": 1340,
+    "src_celular": "figuras/sistema-vucetich-celular.svg",
+    "largura_celular": 560,
+    "altura_celular": 3381,
+    "alt": "Infográfico do sistema datiloscópico de Vucetich. Mão direita com o polegar em verticilo (V) e os dedos indicador, médio, anular e mínimo com 3, 1, 4 e 3, formando a série V-3143, o numerador. Mão esquerda com o polegar em presilha interna (I) e os demais dedos com 2, 4, 1 e 2, formando a seção I-2412, o denominador. Ao lado, os quatro tipos fundamentais: arco, sem delta, A no polegar e 1 nos outros dedos; presilha interna, um delta à direita do observador, I ou 2; presilha externa, um delta à esquerda do observador, E ou 3; verticilo, dois deltas, V ou 4. Casos especiais: 0 para dedo amputado e X para cicatriz ou impressão ilegível.",
+    "legenda": "Como se monta a fórmula decadactilar: polegar com letra, demais dedos com número, mão direita sobre a esquerda. A fórmula V-3143 / I-2412 é só um exemplo; os tipos e os deltas estão na tabela acima."
+   },
    "lei": [
     {
      "texto": "Art. 166. Havendo dúvida sobre a identidade do cadáver exumado, proceder-se-á ao reconhecimento pelo Instituto de Identificação e Estatística ou repartição congênere ou pela inquirição de testemunhas, lavrando-se auto de reconhecimento e de identidade, no qual se descreverá o cadáver, com todos os sinais e indicações.\n\nParágrafo único. Em qualquer caso, serão arrecadados e autenticados todos os objetos encontrados, que possam ser úteis para a identificação do cadáver.",
