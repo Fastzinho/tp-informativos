@@ -82,6 +82,14 @@
 .tpc-rolagem th { background: var(--tpi-nevoa); font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; color: var(--tpi-verde-escuro); }
 .tpc-rolagem tr:last-child td { border-bottom: 0; }
 
+/* 0.16.5: ilustração do tema. No celular entra a versão vertical (até 560px de largura, centralizada). */
+.tpc-figura { display: grid; gap: .5rem; margin: 0; }
+.tpc-figura__link { display: block; overflow: hidden; border: 1px solid var(--tpi-linha); border-radius: 10px; background: #f7f5f0; }
+.tpc-figura__link:focus-visible { outline: 3px solid #a9bca4; outline-offset: 2px; }
+.tpc-figura img { display: block; width: 100%; height: auto; }
+.tpc-figura figcaption { font-size: .88rem; line-height: 1.5; color: var(--tpi-suave); }
+@media (max-width: 1023px) { .tpc-figura--dupla .tpc-figura__link { width: 100%; max-width: 560px; margin-inline: auto; } }
+
 .tpc-lei { margin: 0; padding: .2rem 0 .2rem 1.1rem; border-left: 3px solid var(--tpi-areia); font-family: var(--tpc-lei); font-size: 1.05rem; line-height: 1.65; }
 .tpc-lei p { margin: 0 0 .5rem; }
 .tpc-lei p:last-child { margin-bottom: 0; }

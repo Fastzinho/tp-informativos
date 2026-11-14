@@ -10,7 +10,7 @@
  * na primeira requisição depois do deploy (sem senha de aplicação, sem editar no painel; uma edição no painel é
  * sobrescrita na próxima mudança do JSON). Formato documentado em cadernos/LEIA-ME.md.
  *
- * Card do tema: incidência em prova (só com amostra declarada), Em 30 segundos, esquema, lei seca, macete,
+ * Card do tema: incidência em prova (só com amostra declarada), Em 30 segundos, esquema, ilustração, lei seca, macete,
  * jurisprudência, pegadinha C/E, aprofundamento recolhível, praticar no app e relacionados.
  * Marcar como lido: o mesmo do informativo (tpi.js), em tp_records kind "informativo", id "informativo:<post_id>",
  * com data.tipo = "caderno". O app não lê esse kind, então não há mistura com os julgados.
@@ -404,6 +404,40 @@ function tpc_mudanca( $t ) {
 	return $m;
 }
 
+/* 0.16.5: ilustração do tema ("figura" no JSON), depois do esquema. Só onde o desenho ensina algo que a tabela não
+   mostra (estrutura, posição, fluxo); o esquema em HTML continua sendo o texto equivalente para o Google e o leitor
+   de tela. Arquivos em assets/figuras/: a versão larga no computador e, quando houver, a vertical no celular
+   (<picture> pela largura da tela), com largura e altura declaradas para não deslocar a página. */
+function tpc_figura_src( $arq ) {
+	$arq = (string) $arq;
+	return preg_match( '#^figuras/[a-z0-9-]+\.(svg|webp|png|jpg)$#', $arq ) ? TPI_URL . 'assets/' . $arq . '?v=' . TPI_VERSION : '';
+}
+function tpc_figura( $f, $hb = 'h3' ) {
+	if ( ! is_array( $f ) || empty( $f['alt'] ) ) {
+		return ''; // sem texto alternativo não publica
+	}
+	$src = tpc_figura_src( $f['src'] ?? '' );
+	if ( ! $src ) {
+		return '';
+	}
+	$w   = (int) ( $f['largura'] ?? 0 );
+	$a   = (int) ( $f['altura'] ?? 0 );
+	$dim = $w && $a ? ' width="' . $w . '" height="' . $a . '"' : '';
+	$cel = tpc_figura_src( $f['src_celular'] ?? '' );
+	$h   = '<section class="tpc-bloco"><' . $hb . '>Ilustração' . ( ! empty( $f['rotulo'] ) ? ' <span class="tpc-tag">' . esc_html( $f['rotulo'] ) . '</span>' : '' ) . '</' . $hb . '>';
+	$h  .= '<figure class="tpc-figura' . ( $cel ? ' tpc-figura--dupla' : '' ) . '"><a class="tpc-figura__link" href="' . esc_url( $src ) . '" target="_blank" rel="noopener" title="Abrir a ilustração em tamanho grande"><picture>';
+	if ( $cel ) {
+		$wc  = (int) ( $f['largura_celular'] ?? 0 );
+		$ac  = (int) ( $f['altura_celular'] ?? 0 );
+		$h  .= '<source media="(max-width: 1023px)" srcset="' . esc_url( $cel ) . '"' . ( $wc && $ac ? ' width="' . $wc . '" height="' . $ac . '"' : '' ) . '>';
+	}
+	$h .= '<img src="' . esc_url( $src ) . '"' . $dim . ' alt="' . esc_attr( $f['alt'] ) . '" loading="lazy" decoding="async"></picture></a>';
+	if ( ! empty( $f['legenda'] ) ) {
+		$h .= '<figcaption>' . tpc_html( $f['legenda'] ) . ' <a href="' . esc_url( $src ) . '" target="_blank" rel="noopener">Ampliar</a></figcaption>';
+	}
+	return $h . '</figure></section>';
+}
+
 /* Mesmo marcador do informativo (tpi.js cuida do estado e do login). */
 function tpc_botao_lido( $p, $disc_titulo, $fim = false ) {
 	$svg = '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" ';
@@ -468,6 +502,8 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	if ( ! empty( $t['esquema']['html'] ) ) {
 		$h .= '<section class="tpc-bloco"><' . $hb . '>Esquema' . ( ! empty( $t['esquema']['rotulo'] ) ? ' <span class="tpc-tag">' . esc_html( $t['esquema']['rotulo'] ) . '</span>' : '' ) . '</' . $hb . '><div class="tpc-rolagem">' . tpc_html( $t['esquema']['html'] ) . '</div></section>';
 	}
+
+	$h .= tpc_figura( $t['figura'] ?? null, $hb );
 
 	if ( ! empty( $t['lei'] ) && is_array( $t['lei'] ) ) {
 		$h .= '<section class="tpc-bloco"><' . $hb . '>Lei seca <span class="tpc-tag">texto oficial</span></' . $hb . '>';
