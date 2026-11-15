@@ -227,11 +227,12 @@
       var todos = ids.length && n === ids.length;
       li.classList.toggle('is-lido', !!todos);
       var el = li.querySelector('.tpi-edicao__lidos');
-      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde + "10/10"; parcial = ✓ cinza + "3/10"; nenhum = ✓ cinza.
+      /* Indicador (não é botão: a linha toda é link). Todos lidos = ✓✓ verde + "10/10"; parcial = ✓ cinza + "3/10"; nenhum = ✓ cinza + "0/10".
+         0.16.9: o "0/N" também aparece; só o ✓ cinza era lido como "já li" (caso do STJ 907).
          0.16.3: a contagem aparece também com tudo lido, para STF e STJ ficarem iguais no hub. */
       if (el) {
         el.innerHTML = (todos ? ICONE_DOIS : ICONE_UM)
-          + (!n ? '' : '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>')
+          + '<span class="tpi-edicao__conta" aria-hidden="true">' + n + '/' + ids.length + '</span>'
           + '<span class="tpi-sr">' + (todos ? ' Lido' : ' ' + n + ' de ' + ids.length + ' julgados lidos') + '</span>';
         el.hidden = false;
       }
