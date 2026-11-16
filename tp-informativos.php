@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.16.10
+ * Version: 0.16.11
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.16.10' );
+define( 'TPI_VERSION', '0.16.11' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1255,6 +1255,14 @@ function tpi_limpa_card( $s ) {
 	$s = preg_replace( '/\*\*?(.+?)\*\*?/u', '$1', (string) $s );
 	return trim( preg_replace( '/[\t\r\n]+/', ' ', $s ) );
 }
+/* 0.16.11: o verso ganha "(STJ, Inf. 909)" para o card dizer de onde veio no Anki/app, mas só se o texto ainda
+   não citar o informativo (vários já terminam com "(STJ, AgRg no HC ..., Inf. 909)" e a fonte saía em dobro). */
+function tpi_verso_com_fonte( $verso, $trib, $num ) {
+	if ( '' !== (string) $num && preg_match( '/\bInf(?:ormativo|\.)?\s*' . preg_quote( (string) $num, '/' ) . '\b/iu', $verso ) ) {
+		return $verso;
+	}
+	return $verso . ' (' . $trib . ', Inf. ' . $num . ')';
+}
 function tpi_uuid_card( $post_id, $frente ) {
 	$h = sha1( 'tpi-card:' . $post_id . ':' . $frente );
 	$h = substr( $h, 0, 12 ) . '5' . substr( $h, 13, 3 ) . dechex( 8 | ( hexdec( $h[16] ) & 3 ) ) . substr( $h, 17, 15 );
@@ -1280,7 +1288,7 @@ function tpi_cards_app( $id ) {
 			$out[] = array(
 				'id'     => 'card:' . tpi_uuid_card( $p->ID, $frente ),
 				'front'  => $frente,
-				'back'   => $verso . ' (' . $trib . ', Inf. ' . $num . ')',
+				'back'   => tpi_verso_com_fonte( $verso, $trib, $num ),
 				'deck'   => $deck,
 				'tags'   => array( $tag ),
 				'source' => array( 'kind' => 'informativo', 'guid' => 'tpi:' . $p->ID, 'title' => get_the_title( $p ), 'label' => $trib . ', Inf. ' . $num, 'url' => get_permalink( $p ) ),
@@ -1368,7 +1376,7 @@ add_action( 'rest_api_init', function () {
 						if ( null !== $so && ! isset( $so[ $i ] ) ) {
 							continue;
 						}
-						$verso    = $limpa( $c['verso'] ?? '' ) . ' (' . $trib . ', Inf. ' . $num . ')';
+						$verso    = tpi_verso_com_fonte( $limpa( $c['verso'] ?? '' ), $trib, $num );
 						$linhas[] = $limpa( $c['frente'] ?? '' ) . "\t" . $verso . "\t" . $tag;
 					}
 				}
