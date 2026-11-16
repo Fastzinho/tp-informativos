@@ -126,9 +126,20 @@
 .tpi-pagina .entry-content .tpi-anki a.tpi-btn { background: #fff; color: var(--tpi-verde); }
 .tpi-pagina .entry-content .tpi-anki a.tpi-btn:hover { background: var(--tpi-nevoa); }
 .tpi-anki__dica { font-size: .88rem; color: var(--tpi-suave); }
+/* 0.16.10: escolha card a card (caixinha no canto; o card desmarcado esmaece). Área de toque de 44 px. */
+.tpi-pagina .entry-content .tpi-flashcards__dica { margin: .4rem 0 0; font-size: .88rem; color: var(--tpi-suave); }
+.tpi-pagina .entry-content .tpi-flashcard.tem-sel { position: relative; }
+.tpi-pagina .entry-content .tpi-flashcard.tem-sel > p:last-child { padding-right: 2.9rem; }
+.tpi-flashcard__sel { position: absolute; top: 0; right: 0; width: 2.75rem; height: 2.75rem; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 1; }
+.tpi-flashcard__sel input { width: 1.15rem; height: 1.15rem; margin: 0; cursor: pointer; accent-color: var(--tpi-verde); }
+.tpi-pagina .entry-content .tpi-flashcard.is-fora > p { opacity: .45; }
+.tpi-pagina .entry-content .tpi-flashcard.is-fora { border-style: dashed; }
+.tpi-pagina .entry-content .tpi-anki a.tpi-btn[aria-disabled="true"] { opacity: .55; cursor: not-allowed; }
 @media (max-width: 600px) {
   .tpi-pagina .entry-content .tpi-flashcard { grid-template-columns: 1fr; }
   .tpi-pagina .entry-content .tpi-flashcard__verso { border-left: 0; border-top: 1px dashed #b8c6be; }
+  .tpi-pagina .entry-content .tpi-flashcard.tem-sel > p:last-child { padding-right: 1rem; }
+  .tpi-pagina .entry-content .tpi-flashcard.tem-sel > p:nth-child(2) { padding-right: 2.9rem; }
 }
 
 /* Relacionados e fonte */
