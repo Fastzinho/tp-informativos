@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.16.9
+ * Version: 0.16.10
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.16.9' );
+define( 'TPI_VERSION', '0.16.10' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1302,10 +1302,15 @@ function tpi_botao_app( $id, $edicao = false ) {
 		. '<p class="tpi-app__dica">Grátis. Eles entram nos seus Flashcards do Tchau Pobreza e voltam na hora certa, sozinhos' . ( $edicao ? ', separados por disciplina' : '' ) . '.</p>'
 		. '<p class="tpi-app__estado" role="status"></p></div>';
 }
+/* 0.16.10: no julgado, data-tpi-sel liga a escolha card a card (o JS põe uma caixinha em cada .tpi-flashcard,
+   todas marcadas). O link continua baixando tudo sem JavaScript; com escolha, ganha ?c=<índices> e a mesma
+   seleção vale para o "Adicionar ao app". data-tpi-sel = nº de cards; se não bater com os da página, o JS desiste. */
 function tpi_botao_anki( $id, $edicao = false ) {
 	$url = rest_url( 'tp/v1/anki/' . $id );
 	$txt = $edicao ? 'Baixar os flashcards da edição para o Anki' : 'Baixar estes flashcards para o Anki';
-	return tpi_botao_app( $id, $edicao ) . '<p class="tpi-anki"><a class="tpi-btn tpi-btn--anki" href="' . esc_url( $url ) . '" download rel="nofollow">' . esc_html( $txt ) . '</a><span class="tpi-anki__dica">Arquivo .txt. No Anki, use Arquivo e depois Importar.</span></p>';
+	$n   = $edicao ? 0 : count( tpi_cards_de( $id ) );
+	$sel = $n > 1 ? ' data-tpi-sel="' . $n . '"' : '';
+	return tpi_botao_app( $id, $edicao ) . '<p class="tpi-anki"><a class="tpi-btn tpi-btn--anki" href="' . esc_url( $url ) . '" download rel="nofollow"' . $sel . '>' . esc_html( $txt ) . '</a><span class="tpi-anki__dica">Arquivo .txt. No Anki, use Arquivo e depois Importar.</span></p>';
 }
 add_shortcode( 'tp_anki', function () {
 	return is_singular( 'informativo' ) ? tpi_botao_anki( get_queried_object_id() ) : '';
@@ -1352,9 +1357,17 @@ add_action( 'rest_api_init', function () {
 					return trim( preg_replace( '/[\t\r\n]+/', ' ', $s ) );
 				};
 				$linhas = array( '#separator:tab', '#html:false', '#deck:Tchau Pobreza::Informativos ' . $trib . '::' . $trib . ' ' . $num, '#tags column:3' );
+				// 0.16.10: ?c=0,2,3 leva só os cards escolhidos (índices em tp_flashcards; vale para o julgado).
+				$so = null;
+				if ( 'periodico' !== tpi_meta( $id, 'tp_tipo' ) && preg_match( '/^\d+(,\d+)*$/', (string) $r['c'] ) ) {
+					$so = array_flip( array_map( 'intval', explode( ',', $r['c'] ) ) );
+				}
 				foreach ( $posts as $p ) {
 					$tag = strtolower( $trib ) . '_inf' . $num;
-					foreach ( tpi_cards_de( $p->ID ) as $c ) {
+					foreach ( tpi_cards_de( $p->ID ) as $i => $c ) {
+						if ( null !== $so && ! isset( $so[ $i ] ) ) {
+							continue;
+						}
 						$verso    = $limpa( $c['verso'] ?? '' ) . ' (' . $trib . ', Inf. ' . $num . ')';
 						$linhas[] = $limpa( $c['frente'] ?? '' ) . "\t" . $verso . "\t" . $tag;
 					}

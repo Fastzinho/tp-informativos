@@ -571,15 +571,66 @@
      sem duplicar nem zerar o progresso de quem já revisou. Só os ids ficam no HTML; o texto vem do REST no clique. */
   var APP_PENDENTE = 'tpi-importar-pendente';
   var linkApp = function () { try { var u = new URL(C.appUrl, location.href); u.searchParams.set('aba', 'flashcards'); return u.href; } catch (e) { return C.appUrl; } };
-  function mostraApp() { document.querySelectorAll('.tpi-app[data-tpi-ids]').forEach(function (b) { b.hidden = false; }); }
-  function idsDe(box) { return (box.getAttribute('data-tpi-ids') || '').split(',').filter(Boolean); }
+  function mostraApp() { document.querySelectorAll('.tpi-app[data-tpi-ids]').forEach(function (b) { b.hidden = false; if (grupoDe(b)) pintaApp(b, 0); }); }
+  function todosIdsDe(box) { return (box.getAttribute('data-tpi-ids') || '').split(',').filter(Boolean); }
+  /* idsDe = os escolhidos (todos, se a página não tem escolha card a card). */
+  function idsDe(box) {
+    var ids = todosIdsDe(box), g = grupoDe(box);
+    return g ? ids.filter(function (id, i) { return g.caixas[i].checked; }) : ids;
+  }
+  var noApp = {}; /* ids que a última conferência achou no app */
+
+  /* 0.16.10: escolher quais flashcards levar. No julgado, cada .tpi-flashcard ganha uma caixinha no canto (todas
+     marcadas). O link do Anki passa a baixar só os marcados (?c=índices, um arquivo, uma importação) e o
+     "Adicionar ao app" grava só eles. Sem JavaScript, nada muda: o link baixa todos. */
+  var GRUPOS = [];
+  function grupoDe(box) { for (var i = 0; i < GRUPOS.length; i++) if (GRUPOS[i].box === box) return GRUPOS[i]; return null; }
+  function pintaGrupo(g) {
+    var sel = [], n = g.caixas.length;
+    g.caixas.forEach(function (c, i) { if (c.checked) sel.push(i); c.closest('.tpi-flashcard').classList.toggle('is-fora', !c.checked); });
+    var k = sel.length, a = g.link;
+    a.textContent = !k ? 'Nenhum flashcard selecionado' : k === n ? g.texto
+      : k === 1 ? 'Baixar o flashcard selecionado para o Anki' : 'Baixar os ' + k + ' selecionados para o Anki';
+    a.href = g.base + (k && k < n ? (g.base.indexOf('?') < 0 ? '?' : '&') + 'c=' + sel.join(',') : '');
+    if (k) a.removeAttribute('aria-disabled'); else a.setAttribute('aria-disabled', 'true');
+    if (g.box && !g.box.hidden) pintaApp(g.box, idsDe(g.box).filter(function (id) { return noApp[id]; }).length);
+  }
+  document.querySelectorAll('a.tpi-btn--anki[data-tpi-sel]').forEach(function (link) {
+    var n = parseInt(link.getAttribute('data-tpi-sel'), 10), lista = null;
+    document.querySelectorAll('.tpi-flashcards').forEach(function (l) { if (l.compareDocumentPosition(link) & Node.DOCUMENT_POSITION_FOLLOWING) lista = l; });
+    var cards = lista ? lista.querySelectorAll('.tpi-flashcard') : [];
+    if (!n || cards.length !== n) return; /* conteúdo e meta fora de sincronia: melhor não oferecer a escolha */
+    var box = link.closest('.tpi-anki') && link.closest('.tpi-anki').previousElementSibling;
+    if (!box || !box.matches('.tpi-app[data-tpi-ids]') || todosIdsDe(box).length !== n) box = null;
+    var g = { link: link, base: link.getAttribute('href'), texto: link.textContent, box: box, caixas: [] };
+    Array.prototype.forEach.call(cards, function (card, i) {
+      var rot = document.createElement('label'), c = document.createElement('input');
+      rot.className = 'tpi-flashcard__sel';
+      c.type = 'checkbox'; c.checked = true;
+      c.setAttribute('aria-label', 'Levar o flashcard ' + (i + 1) + (box ? ' para o app ou o Anki' : ' para o Anki'));
+      rot.appendChild(c); card.classList.add('tem-sel'); card.insertBefore(rot, card.firstChild);
+      c.addEventListener('change', function () { pintaGrupo(g); });
+      g.caixas.push(c);
+    });
+    var dica = document.createElement('p');
+    dica.className = 'tpi-flashcards__dica';
+    dica.textContent = 'Desmarque os que não quiser levar' + (box ? ' para o app ou o Anki.' : ' para o Anki.');
+    lista.parentNode.insertBefore(dica, lista);
+    link.addEventListener('click', function (e) { if (link.getAttribute('aria-disabled') === 'true') e.preventDefault(); });
+    GRUPOS.push(g);
+  });
+
   function pintaApp(box, tem, novos) {
     var n = idsDe(box).length, botao = box.querySelector('.tpi-app__botao'), estado = box.querySelector('.tpi-app__estado');
+    var parcial = grupoDe(box) && n < todosIdsDe(box).length;
     box.hidden = false;
+    if (!n) { box.classList.remove('is-feito'); botao.textContent = 'Nenhum flashcard selecionado'; botao.disabled = true; estado.textContent = ''; return; }
     var todos = tem >= n;
     box.classList.toggle('is-feito', todos);
-    botao.textContent = todos ? (n === 1 ? 'Este flashcard já está no app' : 'Estes ' + n + ' flashcards já estão no app')
-      : (tem ? 'Adicionar os ' + (n - tem) + ' que faltam ao app' : (n === 1 ? 'Adicionar este flashcard ao app' : 'Adicionar estes ' + n + ' flashcards ao app'));
+    botao.textContent = todos ? (n === 1 ? (parcial ? 'O selecionado já está no app' : 'Este flashcard já está no app') : (parcial ? 'Os ' + n + ' selecionados já estão no app' : 'Estes ' + n + ' flashcards já estão no app'))
+      : (tem ? 'Adicionar os ' + (n - tem) + ' que faltam ao app'
+        : parcial ? (n === 1 ? 'Adicionar o selecionado ao app' : 'Adicionar os ' + n + ' selecionados ao app')
+        : (n === 1 ? 'Adicionar este flashcard ao app' : 'Adicionar estes ' + n + ' flashcards ao app'));
     botao.disabled = todos;
     if (novos === undefined && !tem) { estado.textContent = ''; return; }
     var txt = novos === undefined ? (todos ? '' : tem + ' de ' + n + ' já estão nos seus Flashcards. ')
@@ -593,14 +644,14 @@
     var caixas = document.querySelectorAll('.tpi-app[data-tpi-ids]');
     if (!caixas.length) return;
     var todos = [];
-    caixas.forEach(function (b) { todos = todos.concat(idsDe(b)); });
+    caixas.forEach(function (b) { todos = todos.concat(todosIdsDe(b)); });
     var ler = function (s) { return api(s, 'tp_records?select=id&kind=eq.flashcard&id=in.(' + todos.map(encodeURIComponent).join(',') + ')'); };
     return ler(s).catch(function (err) { /* token vencido numa aba antiga: renova uma vez */
       if (String(err && err.message) !== 'jwt') throw err;
       sessaoP = renovar(s).catch(function () { return null; });
       return sessaoP.then(function (n) { if (!n) throw err; return ler(n); });
     }).then(function (linhas) {
-      var tem = {}; (linhas || []).forEach(function (l) { tem[l.id] = true; });
+      var tem = noApp = {}; (linhas || []).forEach(function (l) { tem[l.id] = true; });
       caixas.forEach(function (b) { pintaApp(b, idsDe(b).filter(function (i) { return tem[i]; }).length); });
       concluiApp();
     }).catch(function () { mostraApp(); });
@@ -611,6 +662,8 @@
     if (!p || !p.url || Date.now() - p.at > 30 * 60 * 1000) return;
     var box = null;
     document.querySelectorAll('.tpi-app[data-tpi-cards]').forEach(function (b) { if (b.getAttribute('data-tpi-cards') === p.url) box = b; });
+    var g = box && grupoDe(box); /* volta a escolha feita antes do login, se a página recarregou */
+    if (g && p.sel) { var ids = todosIdsDe(box); g.caixas.forEach(function (c, i) { c.checked = p.sel.indexOf(ids[i]) >= 0; }); pintaGrupo(g); }
     var botao = box && box.querySelector('.tpi-app__botao');
     if (botao && !botao.disabled) botao.click();
   }
@@ -621,7 +674,7 @@
     var botao = box.querySelector('.tpi-app__botao'), estado = box.querySelector('.tpi-app__estado');
     if (box.getAttribute('aria-busy') === 'true') return;
     if (semSessao) {
-      try { localStorage.setItem(APP_PENDENTE, JSON.stringify({ url: box.getAttribute('data-tpi-cards'), at: Date.now() })); } catch (e) {}
+      try { localStorage.setItem(APP_PENDENTE, JSON.stringify({ url: box.getAttribute('data-tpi-cards'), sel: grupoDe(box) ? idsDe(box) : null, at: Date.now() })); } catch (e) {}
       if (abreLogin(botao, { cards: idsDe(box).length })) return;
       estado.innerHTML = 'Para guardar, <a href="' + C.appUrl + '">entre na sua conta do Tchau Pobreza</a>. É grátis.';
       linkDeVolta(estado.querySelector('a'));
@@ -643,7 +696,9 @@
       });
     }
     Promise.all([sessao(), cards]).then(function (r) {
-      var s = r[0], lista = (r[1] && r[1].cards) || [];
+      var s = r[0], lista = (r[1] && r[1].cards) || [], quero = {};
+      idsDe(box).forEach(function (id) { quero[id] = true; });
+      lista = lista.filter(function (c) { return quero[c.id]; }); /* só os escolhidos */
       if (!lista.length) throw new Error('vazio');
       return Promise.resolve().then(function () { return gravar(s, lista); }).catch(function (err) {
         if (String(err && err.message) !== 'jwt' || !s) throw err;
@@ -652,6 +707,7 @@
       }).then(function (novas) {
         try { localStorage.setItem('tchau-records-changed:' + s.user.id, String(Date.now())); } catch (e) {} /* aba do app aberta recarrega */
         box.removeAttribute('aria-busy');
+        lista.forEach(function (c) { noApp[c.id] = true; });
         pintaApp(box, idsDe(box).length, (novas || []).length);
         document.dispatchEvent(new CustomEvent('tpi:flashcards-importados', { detail: { n: (novas || []).length } }));
       });
