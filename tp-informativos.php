@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.16.11
+ * Version: 0.16.12
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.16.11' );
+define( 'TPI_VERSION', '0.16.12' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1314,6 +1314,10 @@ function tpi_botao_app( $id, $edicao = false ) {
    todas marcadas). O link continua baixando tudo sem JavaScript; com escolha, ganha ?c=<índices> e a mesma
    seleção vale para o "Adicionar ao app". data-tpi-sel = nº de cards; se não bater com os da página, o JS desiste. */
 function tpi_botao_anki( $id, $edicao = false ) {
+	// 0.16.12: sem flashcards (ex.: pré-página de edição prevista), sem botão; antes baixava um .txt vazio.
+	if ( ! tpi_cards_app( $id ) ) {
+		return '';
+	}
 	$url = rest_url( 'tp/v1/anki/' . $id );
 	$txt = $edicao ? 'Baixar os flashcards da edição para o Anki' : 'Baixar estes flashcards para o Anki';
 	$n   = $edicao ? 0 : count( tpi_cards_de( $id ) );
