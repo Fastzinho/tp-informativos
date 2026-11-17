@@ -199,8 +199,11 @@ def confere_ligacoes(acervo, arquivos):
     for arq in arquivos:
         for t in json.load(open(arq, encoding='utf-8')).get('temas', []):
             onde = '%s#%s' % (os.path.basename(arq), t.get('slug'))
-            if t.get('resumo') and not (t.get('tax') and t.get('dispositivos')):
-                erros.append('%s: tema escrito sem tax ou dispositivos.' % onde)
+            # 0.16.15: disciplina sem lei seca (Português) dispensa dispositivos; tema com bloco "lei" continua exigindo.
+            if t.get('resumo') and not t.get('tax'):
+                erros.append('%s: tema escrito sem tax.' % onde)
+            if t.get('lei') and not t.get('dispositivos'):
+                erros.append('%s: tema com lei seca sem dispositivos.' % onde)
             erros += ['%s: nó "%s" não existe na taxonomia do app.' % (onde, x) for x in t.get('tax') or [] if x not in ids]
             erros += ['%s: dispositivo "%s" não existe no acervo.' % (onde, x) for x in t.get('dispositivos') or [] if x not in unidades]
     return erros
