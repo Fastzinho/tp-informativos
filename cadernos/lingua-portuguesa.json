@@ -3,7 +3,7 @@
   "titulo": "Caderno de Língua Portuguesa",
   "disciplina": "Língua Portuguesa",
   "ordem": 19,
-  "descricao": "Língua Portuguesa organizada por tema e pelo que a Cebraspe mais cobra: reescrita de frases, coesão, pontuação, concordância, regência e crase, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais. Gratuito.",
+  "descricao": "Língua Portuguesa organizada por tema e pelo que a Cebraspe mais cobra: reescrita de frases, coesão, significação e classes de palavras, pontuação, concordância, regência e crase, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais. Gratuito.",
   "revisado_em": "2026-11-17",
   "revisado_rotulo": "Itens de prova checados com a justificativa e o gabarito oficial da Cebraspe",
   "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da gramática normativa e das provas de Língua Portuguesa da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo; os da PC-DF 2024, do TC-DF 2023 e da SERES-PE 2021 também com a justificativa oficial de cada item. A escolha dos temas segue o que mais apareceu em 57 provas recentes da Cebraspe e da FGV.</p>",
@@ -126,6 +126,67 @@
         "reescrita-de-frases-e-substituicao-de-trechos",
         "concordancia-verbal-e-nominal",
         "pontuacao-e-emprego-da-virgula"
+      ]
+    },
+    {
+      "slug": "significacao-das-palavras",
+      "titulo": "Significação das palavras: sinônimos, sentido no contexto e conectivos equivalentes",
+      "grupo": "Texto e reescrita",
+      "base": "Itens de vocabulário e sentido da Cebraspe",
+      "tax": [
+        "portugues.significacao-palavras"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "significação das palavras",
+        "sinonímia",
+        "polissemia",
+        "paronímia",
+        "sentido contextual"
+      ],
+      "palavras": [
+        "sinonimo",
+        "antonimo",
+        "polissemia",
+        "paronimo",
+        "homonimo",
+        "sentido no contexto",
+        "vocabulario",
+        "conectivo",
+        "conjuncao equivalente",
+        "acepcao"
+      ],
+      "resumo": "Nos itens de significação, a banca pergunta se uma palavra tem <strong>o mesmo sentido</strong> de outra <strong>no texto</strong>, ou em que sentido ela foi empregada. Três cuidados resolvem a maioria dos itens. (1) Muitas palavras são <strong>polissêmicas</strong>, e vale a acepção daquele trecho: “certas” pode querer dizer “corretas” ou “garantidas”. (2) <strong>Sinônimo perfeito é raro</strong>: a troca precisa manter o sentido e caber na frase, com a mesma regência. (3) Nos <strong>conectivos</strong>, não basta a mesma família de sentido: “entretanto” e “conquanto” expressam oposição, mas o primeiro é coordenativo e o segundo é concessivo, pede subjuntivo e outra estrutura. Desconfie também de itens que deduzem sinonímia da estrutura: “ou” entre duas palavras indica alternativa, e não que elas sejam sinônimas.",
+      "esquema": {
+        "rotulo": "relações de sentido que caem",
+        "html": "<table><thead><tr><th>Relação</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Sinonímia</strong></td><td>Sentidos equivalentes no contexto</td><td>“âmago” e “cerne”; “achado” e “descoberta”; “inestimáveis” e “incalculáveis”</td></tr><tr><td><strong>Antonímia</strong></td><td>Sentidos opostos</td><td>“escasso” e “abundante”; “permitir” e “proibir”</td></tr><tr><td><strong>Polissemia</strong></td><td>Uma palavra com vários sentidos</td><td>“certas” em “a sobriedade e a honestidade certas” quer dizer garantidas, e não corretas</td></tr><tr><td><strong>Hiperonímia e hiponímia</strong></td><td>Palavra geral e palavra específica</td><td>“veículo” e “carro”; “crime” e “furto”</td></tr><tr><td><strong>Paronímia</strong></td><td>Formas parecidas com sentidos diferentes</td><td>“eminente” e “iminente”; “descrição” e “discrição”; “ratificar” e “retificar”</td></tr><tr><td><strong>Homonímia</strong></td><td>Mesma forma ou mesmo som, sentidos diferentes</td><td>“cessão”, “sessão” e “seção”; “concerto” e “conserto”</td></tr><tr><td><strong>Denotação e conotação</strong></td><td>Sentido literal e sentido figurado</td><td>“coração” como órgão e “coração da cidade” como centro</td></tr><tr><td><strong>Conectivos</strong></td><td>Mesma relação lógica e mesma estrutura</td><td>“porquanto” é causal e não equivale a “logo”, que é conclusivo</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "SINÔNIMO NAQUELA FRASE",
+          "texto": "Leia a frase com a palavra nova. Se o sentido muda ou a frase fica estranha, o item é errado, ainda que o dicionário aproxime as duas palavras."
+        },
+        {
+          "sigla": "CONECTIVO: RELAÇÃO E ESTRUTURA",
+          "texto": "“Porquanto” é causal, e “logo” é conclusivo. “Entretanto” coordena; “conquanto” subordina e pede subjuntivo."
+        },
+        {
+          "sigla": "PARÔNIMOS QUE CAEM",
+          "texto": "Cessão é o ato de ceder, sessão é reunião e seção é divisão; eminente é ilustre, e iminente é o que está prestes a ocorrer; descrição é o ato de descrever, e discrição é reserva."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "No trecho “e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas”, a substituição de “certas” por “corretas” manteria a coerência das ideias do texto, visto que tais palavras têm o mesmo significado.",
+        "gabarito": "E",
+        "explicacao": "No trecho, “certas” significa garantidas, asseguradas: com os dois pecados extintos, a sobriedade e a honestidade ficavam garantidas. “Corretas” dá outro sentido à frase. As palavras só são sinônimas em outra acepção (Cebraspe, STJ 2024)."
+      },
+      "aprofundamento": "<p><strong>Sinônimos aceitos no contexto.</strong> A Cebraspe aceitou trocar “âmago” por “cerne” (TCE-RJ 2021), ler “achado” como descoberta em “O principal achado da pesquisa” (MPCE 2025), trocar “ardiloso” por “doloso” em “seu ardiloso truque” (PGE-RJ 2022) e entender que “irrupção”, em “protegidos da irrupção da violência na sua vida”, indica que a violência atingia as pessoas de forma súbita (PRF 2021).</p><p><strong>Sentido que não é o do item.</strong> Em “alguma forma mnemônica”, a palavra diz respeito à memória, e não a algo prolongado, como afirmava o item errado (Cebraspe, MP-GO 2024).</p><p><strong>“Ou” não cria sinônimos.</strong> Em “o emprego padrão é cada vez mais suplementado ou substituído por trabalho temporário”, o “ou” apresenta duas possibilidades diferentes; é errado dizer que ele indica que as palavras são sinônimas (Cebraspe, Banco Central 2024).</p><p><strong>Polissemia que muda a leitura.</strong> Como “homem” pode significar ser humano ou pessoa do sexo masculino, a Cebraspe aceitou que os direitos do “homem”, na Declaração dos Direitos do Homem e do Cidadão, pudessem ser lidos como restritos a um grupo de pessoas (STJ 2024).</p><p><strong>Conectivos que não se trocam.</strong> Foram dadas como erradas as trocas de “entretanto” por “conquanto” (INSS 2022), de “porquanto” por “logo” (CNMP 2023), de “Por outro lado” por “Inversamente” (INSS 2022) e de “Embora” por “Apesar de” sem ajuste da oração (PC-SE 2021). “Conquanto” é concessivo e pede subjuntivo; “porquanto” é causal, e “logo”, conclusivo; “inversamente” indica inversão, e não outro aspecto do assunto; “apesar de” pede infinitivo ou substantivo, enquanto “embora” introduz oração com verbo no subjuntivo.</p><p><strong>Verbo trocado, concordância revista.</strong> Em “há outros fatores que interferem na saúde mental”, trocar “há” por “existem” é correto: “haver”, no sentido de existir, é impessoal e fica no singular, mas “existir” concorda com o sujeito, “outros fatores” (Cebraspe, MPCE 2025).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "reescrita-de-frases-e-substituicao-de-trechos",
+        "coesao-e-referenciacao",
+        "classes-de-palavras"
       ]
     },
     {
@@ -364,6 +425,70 @@
         "regencia-verbal-e-nominal",
         "concordancia-verbal-e-nominal",
         "reescrita-de-frases-e-substituicao-de-trechos"
+      ]
+    },
+    {
+      "slug": "classes-de-palavras",
+      "titulo": "Classes de palavras: a mesma palavra em classes diferentes",
+      "grupo": "Norma gramatical",
+      "base": "Itens de morfologia da Cebraspe com justificativa oficial",
+      "tax": [
+        "portugues.classes-palavras"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "classes de palavras",
+        "classe gramatical",
+        "substantivação",
+        "pronome relativo",
+        "conjunção integrante"
+      ],
+      "palavras": [
+        "classe gramatical",
+        "morfologia",
+        "substantivo",
+        "adjetivo",
+        "adverbio",
+        "pronome",
+        "conjuncao",
+        "que",
+        "como",
+        "cujo",
+        "substantivacao",
+        "conjuncao integrante",
+        "pronome relativo"
+      ],
+      "resumo": "A Cebraspe raramente pede a definição de uma classe. Ela pergunta <strong>que classe a palavra tem naquele trecho</strong>, e a resposta depende do uso, e não da palavra isolada. Os casos que mais caem: o <strong>artigo substantiva</strong> qualquer palavra (“o presente”, “o agora” e “o amanhã” são substantivos); o <strong>“que”</strong> pode ser pronome relativo (retoma um termo e aceita a troca por “o qual”) ou conjunção integrante (introduz oração substantiva e não retoma nada); o <strong>“como”</strong> pode ser conjunção aditiva (“não apenas... como também”), comparativa, conformativa ou introduzir exemplo; o <strong>advérbio</strong> modifica verbo, adjetivo ou outro advérbio e pode exprimir tempo, modo ou intensidade; o <strong>adjetivo</strong> não faz papel de advérbio, embora algumas palavras, como “baixo”, possam ser as duas coisas; <strong>“cujo”</strong> é pronome relativo que concorda com o ser possuído e não vem seguido de artigo.",
+      "esquema": {
+        "rotulo": "palavras que mudam de classe",
+        "html": "<table><thead><tr><th>Palavra</th><th>Classe</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>que</strong></td><td>Pronome relativo, que aceita “o qual”</td><td>“um aprendizado automático que culminou com escolhas equivocadas”</td></tr><tr><td><strong>que</strong></td><td>Conjunção integrante, que introduz oração substantiva</td><td>“falhas que permitem que hackers interfiram no sistema”</td></tr><tr><td><strong>qual, quais</strong></td><td>Pronome interrogativo, na interrogativa indireta</td><td>“diferenciar quais danos decorreram de erro”</td></tr><tr><td><strong>como</strong></td><td>Conjunção aditiva, em correlação</td><td>“Não apenas se vivencia (...), como também se observa”</td></tr><tr><td><strong>como</strong></td><td>Introduz exemplo ou comparação</td><td>“como naquelas em que não foram realizadas atualizações”</td></tr><tr><td><strong>mas</strong></td><td>Conjunção adversativa</td><td>“podem beneficiar todos os países, mas também suscitam questões éticas”</td></tr><tr><td><strong>certo, certa</strong></td><td>Pronome indefinido antes do substantivo; adjetivo depois dele</td><td>“de certa forma”; “a honestidade certa”</td></tr><tr><td><strong>artigo mais palavra</strong></td><td>Substantivo</td><td>“o presente”, “o agora”, “o amanhã”</td></tr><tr><td><strong>palavras em -mente</strong></td><td>Advérbio, que também modifica adjetivo</td><td>“marcadamente rápida”</td></tr><tr><td><strong>baixo</strong></td><td>Adjetivo ou advérbio</td><td>“Nós rimos mais baixo” (advérbio)</td></tr><tr><td><strong>cujo</strong></td><td>Pronome relativo que concorda com o ser possuído</td><td>“de cujas próprias contradições”</td></tr><tr><td><strong>bem-estar</strong></td><td>Substantivo composto, com hífen</td><td>“o bem-estar dos trabalhadores”</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "ARTIGO NA FRENTE, SUBSTANTIVO",
+          "texto": "Qualquer palavra precedida de artigo vira substantivo: o presente, o agora, o porquê, o sim."
+        },
+        {
+          "sigla": "QUE TROCA POR O QUAL",
+          "texto": "Se aceita “o qual” (com ajuste de gênero e número), é pronome relativo. Se não retoma nada e a oração pode ser trocada por “isso”, é conjunção integrante."
+        },
+        {
+          "sigla": "CUJO NÃO TEM ARTIGO",
+          "texto": "“Cujo” concorda com o ser possuído e nunca vem seguido de artigo: “cuja importância”, e não “cuja a importância”."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em “dificuldade de diferenciar quais danos decorreram de erro”, o vocábulo “quais” classifica-se como conjunção integrante, pois introduz uma oração que funciona como complemento do verbo “diferenciar”.",
+        "gabarito": "E",
+        "explicacao": "A oração é mesmo complemento de “diferenciar”, mas “quais” é pronome interrogativo, numa interrogativa indireta: ele acompanha “danos” e varia em número (qual dano, quais danos). Conjunção integrante é “que” ou “se”, palavras invariáveis que não acompanham substantivo (Cebraspe, Promotor MPSC 2023)."
+      },
+      "aprofundamento": "<p><strong>O artigo substantiva.</strong> Em “o presente não tem valor”, “é preciso viver o agora” e “não devemos nos preocupar com o amanhã”, as três palavras são substantivos, o que o artigo “o” confirma. Advérbio de tempo, no mesmo texto, era “sempre”, e “Ora” funcionava como conjunção (Cebraspe, SERES-PE 2021).</p><p><strong>Dois “que”, duas classes.</strong> Em “um aprendizado automático que culminou com escolhas equivocadas”, o “que” é pronome relativo e retoma “aprendizado”; em “falhas que permitem que hackers interfiram no sistema”, o segundo “que” é conjunção integrante. É errado dizer que pertencem à mesma classe (Cebraspe, Promotor MPSC 2023).</p><p><strong>Dois “como”, duas classes.</strong> O “como” de “Não apenas se vivencia (...), como também se observa” forma correlação aditiva, e o de “como naquelas em que não foram realizadas atualizações” introduz exemplo. A Cebraspe aceitou que a classificação é diferente nos dois casos (Promotor MPSC 2023).</p><p><strong>“Certa” antes do substantivo.</strong> Em “pensar de certa forma” e “valorizar em certa medida”, “certa” é pronome indefinido variável (Cebraspe, Promotor MPSC 2023). Depois do substantivo, como em “a honestidade certa”, a palavra é adjetivo.</p><p><strong>Advérbio que modifica adjetivo.</strong> Em “A adoção marcadamente rápida desses princípios”, o advérbio “marcadamente” modifica o adjetivo “rápida” (Cebraspe, PGE-RJ 2022). Já “presentemente”, em “circunstâncias presentemente vividas”, exprime tempo, e não modo, ao contrário do que dizia o item errado (Promotor MPSC 2023).</p><p><strong>“Cujas” não é contração.</strong> Em “de cujas próprias contradições brotarão as novas conquistas”, “cujas” é o pronome relativo “cujo” flexionado no feminino plural para concordar com “contradições”, e não a contração de “cujo” com o artigo “as” (Cebraspe, Promotor MPSC 2023).</p><p><strong>“Mas também” sem correlação.</strong> Em “podem beneficiar todos os países, mas também suscitam questões éticas fundamentais”, o “mas” é adversativo: opõe os benefícios às questões éticas. É errado dizer que ele tem sentido aditivo ali (Cebraspe, Banco Central 2024).</p><p><strong>Substantivo composto mantém o hífen.</strong> “Bem-estar” é substantivo, mas isso não autoriza grafá-lo sem hífen; a forma “bem estar” é incorreta (Cebraspe, INSS 2022).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "coesao-e-referenciacao",
+        "significacao-das-palavras",
+        "concordancia-verbal-e-nominal"
       ]
     }
   ]
