@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.16.16
+ * Version: 0.17.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.16.16' );
+define( 'TPI_VERSION', '0.17.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -393,17 +393,35 @@ add_filter( 'body_class', function ( $c ) {
 	return $c;
 } );
 
-function tpi_assinatura( $id ) {
-	$a     = tpi_autor();
-	$nome  = $a['url'] ? '<a href="' . esc_url( $a['url'] ) . '">' . esc_html( $a['nome'] ) . '</a>' : esc_html( $a['nome'] );
-	$data  = get_the_date( 'd/m/Y', $id );
-	$rev   = tpi_meta( $id, 'tp_revisado_em' );
-	$html  = '<div class="tpi-assinatura"><p class="tpi-assinatura__autor">Comentado por <strong>' . $nome . '</strong>, ' . esc_html( $a['credenciais'] ) . '.</p>';
-	$html .= '<p class="tpi-assinatura__datas">Publicado em <time datetime="' . esc_attr( get_the_date( 'c', $id ) ) . '">' . esc_html( $data ) . '</time>';
-	if ( $rev ) {
-		$html .= '. Revisado em <time datetime="' . esc_attr( $rev ) . '">' . esc_html( tpi_data_br( $rev ) ) . '</time>';
+/*
+ * 0.17.0 (Jonatan 17/11/2026): assinatura padrão em todo o site, numa linha só: iniciais em círculo,
+ * "Por <nome>" e as datas separadas por " · ". A mesma de informativos, cadernos e páginas de concurso.
+ * As credenciais saem da linha (continuam no schema e na página /sobre/, que o nome abre).
+ * $datas: lista de array( rótulo, data ISO ), ex.: array( array( 'publicado em', '2026-11-17' ) ).
+ */
+function tpi_iniciais( $nome ) {
+	$p = preg_split( '/\s+/', trim( (string) $nome ) );
+	$i = mb_substr( $p[0] ?? '', 0, 1 ) . ( count( $p ) > 1 ? mb_substr( end( $p ), 0, 1 ) : '' );
+	return mb_strtoupper( $i );
+}
+function tpi_byline( $datas, $a = null ) {
+	$a    = $a ? $a : tpi_autor();
+	$nome = $a['url'] ? '<a href="' . esc_url( $a['url'] ) . '">' . esc_html( $a['nome'] ) . '</a>' : esc_html( $a['nome'] );
+	$h    = '<div class="tpi-assinatura tpi-byline"><span class="tpi-byline__av" aria-hidden="true">' . esc_html( tpi_iniciais( $a['nome'] ) ) . '</span><p>Por <strong>' . $nome . '</strong>';
+	foreach ( $datas as $d ) {
+		if ( empty( $d[1] ) ) {
+			continue;
+		}
+		$h .= ' · ' . esc_html( $d[0] ) . ' <time datetime="' . esc_attr( $d[1] ) . '">' . esc_html( tpi_data_br( substr( $d[1], 0, 10 ) ) ) . '</time>';
 	}
-	return $html . '.</p></div>';
+	return $h . '</p></div>';
+}
+
+function tpi_assinatura( $id ) {
+	return tpi_byline( array(
+		array( 'publicado em', get_the_date( 'Y-m-d', $id ) ),
+		array( 'revisado em', (string) tpi_meta( $id, 'tp_revisado_em' ) ),
+	) );
 }
 
 /* ---------------------------------------------------------------------------

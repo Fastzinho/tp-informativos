@@ -44,6 +44,12 @@
 .tpi-assinatura { margin: 0 0 1.5rem; font-size: .95rem; color: var(--tpi-suave); }
 .tpi-assinatura p { margin: 0; line-height: 1.5; }
 .tpi-assinatura strong { color: var(--tpi-tinta); }
+/* 0.17.0: assinatura padrão (iniciais + "Por <nome> · datas") */
+.tpi-byline { display: flex; align-items: center; gap: .6rem; font-size: .9rem; }
+.tpi-byline p { min-width: 0; }
+.tpi-byline a { color: inherit; text-decoration: none; }
+.tpi-byline a:hover { text-decoration: underline; }
+.tpi-byline__av { flex: none; width: 32px; height: 32px; border-radius: 50%; background: var(--tpi-marca); color: var(--tpi-verde-escuro); display: grid; place-items: center; font-weight: 800; font-size: .8rem; letter-spacing: .02em; }
 .tpi-ficha { display: flex; flex-wrap: wrap; margin: 0 0 2rem; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); overflow: hidden; background: #fff; }
 .tpi-ficha > div { flex: 1 1 9.5rem; padding: .7rem .9rem; border-right: 1px solid var(--tpi-linha); border-bottom: 1px solid var(--tpi-linha); margin: 0 -1px -1px 0; }
 .tpi-ficha dt { font-size: .8rem; color: var(--tpi-suave); margin: 0 0 .15rem; }

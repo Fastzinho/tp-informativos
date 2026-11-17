@@ -604,20 +604,13 @@ function tpc_autor( $d ) {
 	return $a;
 }
 
-/* 0.9.1 (EEAT honesto, Jonatan 10/11): o caderno é da equipe, com curadoria do autor do site. "Revisado por" só
-   aparece no tema que o curador leu de fato ("revisado_em" no tema). Com "autor" no JSON, vale o autor dado. */
+/* 0.17.0 (Jonatan 17/11/2026): mesma assinatura dos informativos ("Por Jonatan Ramos · atualizado em ...").
+   Com "autor" no JSON, vale o autor dado. "revisado_em" entra como mais uma data. */
 function tpc_assinatura( $disc_id, $d ) {
-	$a    = tpc_autor( $d );
-	$nome = $a['url'] ? '<a href="' . esc_url( $a['url'] ) . '">' . esc_html( $a['nome'] ) . '</a>' : esc_html( $a['nome'] );
-	$rev  = $d['revisado_em'] ?? '';
-	$quem = ! empty( $d['autor']['nome'] )
-		? 'Por <strong>' . $nome . '</strong>' . ( $a['credenciais'] ? ', ' . esc_html( $a['credenciais'] ) : '' )
-		: 'Por <strong>Equipe Tchau Pobreza</strong>, com curadoria de <strong>' . $nome . '</strong>' . ( $a['credenciais'] ? ', ' . esc_html( $a['credenciais'] ) : '' );
-	$h    = '<div class="tpi-assinatura"><p class="tpi-assinatura__autor">' . $quem . '.</p><p class="tpi-assinatura__datas">Atualizado em <time datetime="' . esc_attr( get_the_modified_date( 'c', $disc_id ) ) . '">' . esc_html( get_the_modified_date( 'd/m/Y', $disc_id ) ) . '</time>';
-	if ( $rev ) {
-		$h .= '. ' . esc_html( $d['revisado_rotulo'] ?? 'Conteúdo conferido' ) . ' em <time datetime="' . esc_attr( $rev ) . '">' . esc_html( tpi_data_br( $rev ) ) . '</time>';
-	}
-	return $h . '.</p></div>';
+	return tpi_byline( array(
+		array( 'atualizado em', get_the_modified_date( 'Y-m-d', $disc_id ) ),
+		array( mb_strtolower( $d['revisado_rotulo'] ?? 'conferido' ) . ' em', (string) ( $d['revisado_em'] ?? '' ) ),
+	), tpc_autor( $d ) );
 }
 
 function tpc_pagina_disciplina( $id ) {
@@ -830,9 +823,7 @@ add_action( 'wp_head', function () {
 	$d     = tpc_dados( $id );
 	$a     = tpc_autor( tpc_eh_disciplina( $id ) ? $d : tpc_dados( wp_get_post_parent_id( $id ) ) );
 	$pessoa = array( '@type' => 'Person', 'name' => $a['nome'], 'url' => $a['url'] );
-	$org    = array( '@type' => 'Organization', 'name' => 'Equipe Tchau Pobreza', 'url' => home_url( '/' ) );
-	$dd     = tpc_eh_disciplina( $id ) ? $d : tpc_dados( wp_get_post_parent_id( $id ) );
-	$autor  = ! empty( $dd['autor']['nome'] ) ? $pessoa : $org;
+	$autor  = $pessoa; // 0.17.0: a assinatura visível é da pessoa
 	$url   = get_permalink( $id );
 	$page  = array( '@type' => 'WebPage', '@id' => $url, 'url' => $url, 'name' => wp_strip_all_tags( get_the_title( $id ) ), 'inLanguage' => 'pt-BR' );
 	if ( ! tpc_eh_disciplina( $id ) && ! empty( $d['revisado_em'] ) ) { // revisão humana só no tema lido de fato
