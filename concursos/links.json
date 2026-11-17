@@ -1,0 +1,185 @@
+{
+ "_": "Tópico do edital → tema do caderno. Expressão regular (PCRE, sem delimitadores, com /u) sobre o título do tópico; vale a primeira que casar. O link só aparece se o tema estiver publicado e escrito.",
+ "regras": [
+  {
+   "padrao": "princípios fundamentais",
+   "tema": "direito-constitucional#principios-fundamentais"
+  },
+  {
+   "padrao": "^Direitos e garantias fundamentais",
+   "tema": "direito-constitucional#teoria-dos-direitos-fundamentais"
+  },
+  {
+   "padrao": "remédios constitucionais|habeas corpus",
+   "tema": "direito-constitucional#habeas-corpus-e-habeas-data"
+  },
+  {
+   "padrao": "mandado de segurança",
+   "tema": "direito-constitucional#mandado-de-seguranca-injuncao-e-acao-popular"
+  },
+  {
+   "padrao": "nacionalidade",
+   "tema": "direito-constitucional#nacionalidade"
+  },
+  {
+   "padrao": "direitos políticos",
+   "tema": "direito-constitucional#direitos-politicos-e-partidos"
+  },
+  {
+   "padrao": "direitos sociais",
+   "tema": "direito-constitucional#direitos-sociais"
+  },
+  {
+   "padrao": "Organização do Estado|organização político-administrativa",
+   "tema": "direito-constitucional#organizacao-do-estado"
+  },
+  {
+   "padrao": "repartição de competências",
+   "tema": "direito-constitucional#reparticao-de-competencias"
+  },
+  {
+   "padrao": "intervenção",
+   "tema": "direito-constitucional#intervencao-federal-e-estadual"
+  },
+  {
+   "padrao": "Organização dos Poderes|Poder Legislativo",
+   "tema": "direito-constitucional#poder-legislativo-e-imunidades"
+  },
+  {
+   "padrao": "processo legislativo",
+   "tema": "direito-constitucional#processo-legislativo"
+  },
+  {
+   "padrao": "Poder Judiciário",
+   "tema": "direito-constitucional#poder-judiciario"
+  },
+  {
+   "padrao": "Funções essenciais",
+   "tema": "direito-constitucional#funcoes-essenciais-a-justica"
+  },
+  {
+   "padrao": "controle de constitucionalidade",
+   "tema": "direito-constitucional#controle-de-constitucionalidade"
+  },
+  {
+   "padrao": "Defesa do Estado|estado de sítio",
+   "tema": "direito-constitucional#estado-de-defesa-e-estado-de-sitio"
+  },
+  {
+   "padrao": "segurança pública",
+   "tema": "direito-constitucional#seguranca-publica"
+  },
+  {
+   "padrao": "poder constituinte",
+   "tema": "direito-constitucional#poder-constituinte"
+  },
+  {
+   "padrao": "Teoria geral dos Direitos Humanos|gerações de direitos",
+   "tema": "direitos-humanos#teoria-geral-dos-direitos-humanos"
+  },
+  {
+   "padrao": "Declaração Universal",
+   "tema": "direitos-humanos#declaracao-universal-dos-direitos-humanos"
+  },
+  {
+   "padrao": "tratados internacionais de Direitos Humanos",
+   "tema": "direitos-humanos#tratados-de-direitos-humanos-na-constituicao"
+  },
+  {
+   "padrao": "Convenção Americana|San José",
+   "tema": "direitos-humanos#sistema-interamericano"
+  },
+  {
+   "padrao": "Abuso de Autoridade|13\\.869",
+   "tema": "legislacao-penal-especial#abuso-de-autoridade"
+  },
+  {
+   "padrao": "Tortura|9\\.455",
+   "tema": "legislacao-penal-especial#tortura"
+  },
+  {
+   "padrao": "Maria da Penha|11\\.340",
+   "tema": "legislacao-penal-especial#lei-maria-penha"
+  },
+  {
+   "padrao": "Preconceito|7\\.716",
+   "tema": "legislacao-penal-especial#racismo-e-injuria-racial"
+  },
+  {
+   "padrao": "Crimes Ambientais|9\\.605",
+   "tema": "legislacao-penal-especial#crimes-ambientais"
+  },
+  {
+   "padrao": "Hediondos|8\\.072",
+   "tema": "legislacao-penal-especial#crimes-hediondos"
+  },
+  {
+   "padrao": "Drogas|11\\.343",
+   "tema": "legislacao-penal-especial#trafico-de-drogas"
+  },
+  {
+   "padrao": "Pessoa Idosa|10\\.741",
+   "tema": "legislacao-penal-especial#crimes-contra-a-pessoa-idosa"
+  },
+  {
+   "padrao": "Criança e do Adolescente|8\\.069",
+   "tema": "direito-da-crianca-e-do-adolescente#protecao-integral-e-prioridade-absoluta"
+  },
+  {
+   "padrao": "Organizaç(ão|ões) Criminosas?|12\\.850",
+   "tema": "legislacao-penal-especial#organizacoes-criminosas"
+  },
+  {
+   "padrao": "[Ll]avagem",
+   "tema": "legislacao-penal-especial#lavagem-de-dinheiro"
+  },
+  {
+   "padrao": "[Ii]nterceptação",
+   "tema": "legislacao-penal-especial#interceptacao-telefonica"
+  },
+  {
+   "padrao": "9\\.099|Juizados Especiais Criminais",
+   "tema": "legislacao-penal-especial#juizados-especiais-criminais"
+  },
+  {
+   "padrao": "10\\.826|Desarmamento",
+   "tema": "legislacao-penal-especial#posse-e-porte-de-arma-de-fogo"
+  },
+  {
+   "padrao": "Terrorismo|13\\.260",
+   "tema": "legislacao-penal-especial#terrorismo"
+  },
+  {
+   "padrao": "[Cc]rase",
+   "tema": "lingua-portuguesa#crase-e-acento-grave"
+  },
+  {
+   "padrao": "[Pp]ontuação",
+   "tema": "lingua-portuguesa#pontuacao-e-emprego-da-virgula"
+  },
+  {
+   "padrao": "[Cc]oncordância",
+   "tema": "lingua-portuguesa#concordancia-verbal-e-nominal"
+  },
+  {
+   "padrao": "[Rr]egência",
+   "tema": "lingua-portuguesa#regencia-verbal-e-nominal"
+  },
+  {
+   "padrao": "[Cc]oesão",
+   "tema": "lingua-portuguesa#coesao-e-referenciacao"
+  },
+  {
+   "padrao": "[Ss]ignificação das palavras",
+   "tema": "lingua-portuguesa#significacao-das-palavras"
+  },
+  {
+   "padrao": "[Cc]lasses de palavras",
+   "tema": "lingua-portuguesa#classes-de-palavras"
+  },
+  {
+   "padrao": "[Rr]eescrit",
+   "tema": "lingua-portuguesa#reescrita-de-frases-e-substituicao-de-trechos"
+  }
+ ]
+}
