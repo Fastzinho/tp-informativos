@@ -81,7 +81,7 @@
 .tpcon-k { font-weight: 800; color: var(--tpi-areia); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; }
 .tpcon-banca { max-width: 48rem; }
 .tpcon .tpcon-banca h3 { font-size: 1.1rem; font-weight: 800; margin: .5rem 0 .4rem; }
-.tpcon-banca p { margin: 0 0 .7rem; }
+.tpcon .tpcon-banca p { margin: 0 0 .7rem; font-size: 1rem; line-height: 1.6; }
 
 /* Edital verticalizado */
 .tpcon-corpo { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-bottom: 2rem; }
