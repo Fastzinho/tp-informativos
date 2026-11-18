@@ -1982,11 +1982,19 @@
    "tax": [
     "tributario.tributos-uniao-estados-distrito-federal",
     "tributario.seletividade",
-    "tributario.substituicao-tributaria"
+    "tributario.substituicao-tributaria",
+    "tributario.icms",
+    "tributario.icms-convenios"
    ],
    "dispositivos": [
     "nCF-1988-art-155",
-    "nCF-1988-art-150"
+    "nCF-1988-art-150",
+    "n87-1996-art-2",
+    "n87-1996-art-12",
+    "n87-1996-art-19",
+    "n87-1996-art-20",
+    "n24-1975-art-1",
+    "n24-1975-art-2"
    ],
    "conceitos": [
     "ICMS",
@@ -2069,6 +2077,89 @@
     "reparticao-de-receitas",
     "imunidades-tributarias",
     "responsabilidade-tributaria"
+   ]
+  },
+  {
+   "slug": "iss",
+   "titulo": "ISS (LC 116/2003)",
+   "grupo": "Impostos em espécie e repartição",
+   "base": "Art. 156, III, e § 3º, da CF; LC 116/2003",
+   "tax": [
+    "tributario.iss"
+   ],
+   "dispositivos": [
+    "nCF-1988-art-156",
+    "n116-2003-art-1",
+    "n116-2003-art-2",
+    "n116-2003-art-3",
+    "n116-2003-art-5",
+    "n116-2003-art-6",
+    "n116-2003-art-7",
+    "n116-2003-art-8",
+    "n116-2003-art-8-a"
+   ],
+   "conceitos": [
+    "ISS",
+    "Imposto sobre Serviços",
+    "ISSQN"
+   ],
+   "palavras": [
+    "iss",
+    "issqn",
+    "lista de servicos",
+    "aliquota minima",
+    "2%",
+    "5%",
+    "local do servico",
+    "tomador",
+    "retencao",
+    "exportacao de servicos",
+    "lc 116"
+   ],
+   "resumo": "O ISS é municipal (e do DF) e tem como fato gerador a prestação dos serviços da <strong>lista anexa</strong> à LC 116/2003, ainda que não sejam a atividade preponderante do prestador; incide também sobre o serviço vindo do exterior, e o nome dado ao serviço não importa (art. 1º). Não incide sobre exportação de serviços, mas <strong>não é exportação</strong> o serviço feito no Brasil cujo resultado aqui se verifique, mesmo pago por quem mora fora (art. 2º). Em regra, é devido no <strong>local do estabelecimento prestador</strong>; as exceções (obras, demolição, limpeza, eventos e outras) levam o imposto ao local da execução (art. 3º). O contribuinte é o <strong>prestador</strong>, e a lei municipal pode atribuir responsabilidade a terceiro, como o tomador (arts. 5º e 6º). A base é o <strong>preço do serviço</strong>, com alíquota <strong>mínima de 2%</strong> e <strong>máxima de 5%</strong> (arts. 7º, 8º e 8º-A). Pela reforma, o ISS cai entre 2029 e 2032 e é extinto em 2033, substituído pelo IBS.",
+   "esquema": {
+    "rotulo": "regra × exceção do local (art. 3º)",
+    "html": "<table><thead><tr><th>Serviço</th><th>ISS devido no local</th></tr></thead><tbody><tr><td>Regra geral</td><td>Do estabelecimento prestador (ou do domicílio, na falta dele)</td></tr><tr><td>Serviço vindo do exterior</td><td>Do tomador ou intermediário</td></tr><tr><td>Construção civil e obras (7.02, 7.19)</td><td>Da execução da obra</td></tr><tr><td>Demolição (7.04)</td><td>Da demolição</td></tr><tr><td>Varrição, coleta e tratamento de lixo (7.09)</td><td>Da execução</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 1º O Imposto Sobre Serviços de Qualquer Natureza, de competência dos Municípios e do Distrito Federal, tem como fato gerador a prestação de serviços constantes da lista anexa, ainda que esses não se constituam como atividade preponderante do prestador.\n\n§ 1º O imposto incide também sobre o serviço proveniente do exterior do País ou cuja prestação se tenha iniciado no exterior do País.\n\n§ 2º Ressalvadas as exceções expressas na lista anexa, os serviços nela mencionados não ficam sujeitos ao Imposto Sobre Operações Relativas à Circulação de Mercadorias e Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação - ICMS, ainda que sua prestação envolva fornecimento de mercadorias.\n\n§ 3º O imposto de que trata esta Lei Complementar incide ainda sobre os serviços prestados mediante a utilização de bens e serviços públicos explorados economicamente mediante autorização, permissão ou concessão, com o pagamento de tarifa, preço ou pedágio pelo usuário final do serviço.\n\n§ 4º A incidência do imposto não depende da denominação dada ao serviço prestado.",
+     "fonte": "Lei Complementar nº 116/2003 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2003/leicomplementar-116-31-julho-2003-492028-normaatualizada-pl.html",
+     "norma": "n116-2003"
+    },
+    {
+     "texto": "Art. 2º O imposto não incide sobre:\n\nI - as exportações de serviços para o exterior do País;\n\nII - a prestação de serviços em relação de emprego, dos trabalhadores avulsos, dos diretores e membros de conselho consultivo ou de conselho fiscal de sociedades e fundações, bem como dos sócios-gerentes e dos gerentes-delegados;\n\nIII - o valor intermediado no mercado de títulos e valores mobiliários, o valor dos depósitos bancários, o principal, juros e acréscimos moratórios relativos a operações de crédito realizadas por instituições financeiras.\n\nParágrafo único. Não se enquadram no disposto no inciso I os serviços desenvolvidos no Brasil, cujo resultado aqui se verifique, ainda que o pagamento seja feito por residente no exterior.",
+     "fonte": "Lei Complementar nº 116/2003 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2003/leicomplementar-116-31-julho-2003-492028-normaatualizada-pl.html",
+     "norma": "n116-2003"
+    },
+    {
+     "texto": "Art. 8º-A. A alíquota mínima do Imposto sobre Serviços de Qualquer Natureza é de 2% (dois por cento).\n\n§ 1º O imposto não será objeto de concessão de isenções, incentivos ou benefícios tributários ou financeiros, inclusive de redução de base de cálculo ou de crédito presumido ou outorgado, ou sob qualquer outra forma que resulte, direta ou indiretamente, em carga tributária menor que a decorrente da aplicação da alíquota mínima estabelecida no caput, exceto para os serviços a que se referem os subitens 7.02, 7.05 e 16.01 da lista anexa a esta Lei Complementar.\n\n§ 2º É nula a lei ou o ato do Município ou do Distrito Federal que não respeite as disposições relativas à alíquota mínima previstas neste artigo no caso de serviço prestado a tomador ou intermediário localizado em Município diverso daquele onde está localizado o prestador do serviço.\n\n§ 3º A nulidade a que se refere o § 2º deste artigo gera, para o prestador do serviço, perante o Município ou o Distrito Federal que não respeitar as disposições deste artigo, o direito à restituição do valor efetivamente pago do Imposto sobre Serviços de Qualquer Natureza calculado sob a égide da lei nula. (Artigo acrescido pela Lei Complementar nº 157, de 29/12/2016, somente produzindo efeitos após o decurso do prazo referido no art. 6º da referida Lei Complementar)",
+     "fonte": "Lei Complementar nº 116/2003 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2003/leicomplementar-116-31-julho-2003-492028-normaatualizada-pl.html",
+     "norma": "n116-2003"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "2 A 5",
+     "texto": "Alíquota mínima de 2% e máxima de 5%. Benefício que leve a carga abaixo de 2% é nulo quando o tomador está em outro Município (art. 8º-A, § 2º)."
+    },
+    {
+     "sigla": "RESULTADO AQUI, ISS AQUI",
+     "texto": "Serviço feito no Brasil com resultado no Brasil não é exportação, mesmo com pagamento vindo de fora (art. 2º, parágrafo único)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O responsável tributário pelo ISS só responde pelo imposto se tiver efetivamente feito a retenção na fonte.",
+    "gabarito": "E",
+    "explicacao": "O responsável recolhe o imposto integral, a multa e os acréscimos independentemente de ter feito a retenção (art. 6º, § 1º, da LC 116/2003)."
+   },
+   "relacionados": [
+    "icms",
+    "iptu",
+    "itbi"
    ]
   },
   {
