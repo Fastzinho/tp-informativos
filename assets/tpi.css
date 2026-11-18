@@ -318,6 +318,12 @@ h2.tpi-proximo__titulo { margin: .2rem 0 .4rem; font-size: clamp(1.4rem, 1.1rem 
 .tpi-proximos .tpi-proximo { margin: 0; }
 .tpi-proximos h2.tpi-proximo__titulo { font-size: 1.3rem; margin: .2rem 0 .4rem; }
 .tpi-proximos .tpi-proximo__data { font-size: .92rem; line-height: 1.5; }
+.tpi-proximas { margin: 2rem 0 0; }
+.tpi-proximas > h2 { font-size: 1.25rem; margin: 0 0 .6rem; }
+ul.tpi-proximos { list-style: none; padding: 0; margin: 0; }
+.tpi-proximo--compacto { padding: .8rem 1rem; border-left-width: 3px; }
+.tpi-proximo--compacto h3.tpi-proximo__titulo { font-size: 1.05rem; margin: 0 0 .15rem; line-height: 1.3; }
+.tpi-proximo--compacto .tpi-proximo__data { font-size: .9rem; }
 
 .tpi-hub .tpi-card--edicao h3.tpi-card__titulo { font-size: 1.3rem; margin: 0 0 .4rem; }
 .tpi-hub .tpi-card__titulo a { color: var(--tpi-tinta); text-decoration: none; }
