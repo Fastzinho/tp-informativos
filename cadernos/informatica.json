@@ -1,0 +1,528 @@
+{
+  "slug": "informatica",
+  "titulo": "Caderno de Informática",
+  "disciplina": "Informática",
+  "ordem": 21,
+  "descricao": "Informática organizada por tema e pelo que a Cebraspe mais cobra: Windows e Linux, Internet e navegadores, nuvem, malware, segurança da informação, Word e Excel, inteligência artificial e banco de dados, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais.",
+  "revisado_em": "2026-11-18",
+  "revisado_rotulo": "Itens de prova checados com o gabarito definitivo da Cebraspe",
+  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da documentação dos programas e das provas de Informática da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo. Programas mudam de versão: quando a prova citou Windows 10, o texto indica o que vale também no Windows 11. A escolha dos temas segue o que mais apareceu em 48 provas recentes da Cebraspe e da FGV.</p>",
+  "temas": [
+    {
+      "slug": "sistemas-operacionais-e-arquivos",
+      "titulo": "Windows, Linux e gerenciamento de arquivos e pastas",
+      "grupo": "Uso do computador",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.sistemas-operacionais",
+        "info.arquivos-pastas"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "Windows",
+        "Linux",
+        "Explorador de Arquivos",
+        "arquivos e pastas"
+      ],
+      "palavras": [
+        "windows 10",
+        "windows 11",
+        "linux",
+        "explorador de arquivos",
+        "atalhos",
+        "visao de tarefas",
+        "area de trabalho virtual",
+        "nome de arquivo",
+        "extensao",
+        "zip",
+        "terminal",
+        "cd",
+        "root",
+        "propriedades",
+        "desfragmentar"
+      ],
+      "resumo": "A Cebraspe cobra o uso do dia a dia no <strong>Windows</strong> (10 e 11) e o básico do <strong>Linux</strong>. No Windows, o <strong>Explorador de Arquivos</strong> cria, copia, move, renomeia, exclui e <strong>compacta em .zip</strong> sem programa extra; Ctrl + Shift + N cria nova pasta. Nomes de arquivo e de pasta <strong>não aceitam</strong> os caracteres \\ / : * ? \" &lt; &gt; |. Excluir uma pasta exclui tudo o que ela contém: para apagar só alguns arquivos, selecione os arquivos, e não a pasta. Em <strong>Propriedades</strong> (botão direito), a aba Geral mostra o tipo e o tamanho, e a aba Detalhes mostra metadados como datas de criação, modificação e acesso. A <strong>Visão de Tarefas</strong> (Windows + Tab) mostra as janelas abertas e permite criar <strong>novas áreas de trabalho</strong> (também com Windows + Ctrl + D); Alt + Tab só alterna entre janelas. No <strong>Linux</strong>, o terminal mostra # para o usuário root (administrador) e $ para os demais; “cd ..” sobe um nível, “cd /” vai para a raiz, “cd ~” ou só “cd” vai para a pasta pessoal, e “cd .” fica onde está.",
+      "esquema": {
+        "rotulo": "comandos e atalhos que mais caem",
+        "html": "<table><thead><tr><th>Ação</th><th>Como fazer</th><th>Pegadinha comum</th></tr></thead><tbody><tr><td><strong>Visão de Tarefas</strong></td><td>Windows + Tab</td><td>Alt + Tab só alterna janelas, não cria área de trabalho</td></tr><tr><td><strong>Nova área de trabalho</strong></td><td>Windows + Ctrl + D ou “Nova área de trabalho” na Visão de Tarefas</td><td>não confundir com nova janela</td></tr><tr><td><strong>Nova pasta no Explorador</strong></td><td>Ctrl + Shift + N</td><td>o nome não pode ter \\ / : * ? \" &lt; &gt; |</td></tr><tr><td><strong>Compactar em .zip</strong></td><td>botão direito → Compactar para arquivo ZIP (Enviar para → Pasta compactada no Windows 10)</td><td>o próprio Windows faz, sem programa extra</td></tr><tr><td><strong>Excluir</strong></td><td>Del manda para a Lixeira; Shift + Del exclui direto</td><td>selecionar a pasta e teclar Del apaga a pasta inteira</td></tr><tr><td><strong>Propriedades</strong></td><td>botão direito → Propriedades</td><td>Detalhes mostra datas de criação, modificação e acesso</td></tr><tr><td><strong>Linux: usuário</strong></td><td># para root, $ para usuário comum</td><td></td></tr><tr><td><strong>Linux: cd</strong></td><td>cd .. sobe; cd / vai à raiz; cd ~ vai à pasta pessoal; cd . fica onde está</td><td>“cd .” não leva à raiz</td></tr><tr><td><strong>Desfragmentar e Otimizar Unidades</strong></td><td>reorganiza os dados do disco</td><td>não configura memória virtual nem aumenta a RAM</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "PONTO É AQUI, DOIS PONTOS É ACIMA",
+          "texto": "No Linux, “.” é o diretório atual e “..” é o diretório pai. A raiz é “/”."
+        },
+        {
+          "sigla": "SELECIONOU A PASTA, APAGOU TUDO",
+          "texto": "Del age sobre o que está selecionado. Para manter a pasta, selecione só os arquivos de dentro dela."
+        },
+        {
+          "sigla": "WINDOWS + TAB PARA ÁREAS DE TRABALHO",
+          "texto": "Alt + Tab alterna janelas abertas; Windows + Tab abre a Visão de Tarefas, onde se criam novas áreas de trabalho."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "É possível criar novas áreas de trabalho no Windows 10 por meio do acionamento das teclas ALT + TAB e, no ambiente disponibilizado, clicando na opção Nova área de trabalho.",
+        "gabarito": "E",
+        "explicacao": "Alt + Tab só alterna entre as janelas abertas. A opção Nova área de trabalho fica na Visão de Tarefas, aberta com Windows + Tab; o atalho direto é Windows + Ctrl + D (Cebraspe, CNMP 2023)."
+      },
+      "aprofundamento": "<p><strong>Dois-pontos não entram no nome.</strong> Está errado dizer que o Windows 10 permite criar a pasta “CNMP:Serviços”: os dois-pontos estão entre os caracteres proibidos em nomes. O atalho Ctrl + Shift + N, citado no mesmo item, está certo para criar a pasta (Cebraspe, CNMP 2023).</p><p><strong>Selecionar a pasta e teclar Del apaga a pasta.</strong> Para excluir dois arquivos e manter as três pastas de um diretório, não basta selecionar o diretório e teclar Del, porque isso apaga o diretório inteiro. É preciso selecionar os dois arquivos (Ctrl + clique) e então teclar Del (Cebraspe, PF 2025).</p><p><strong>Desfragmentar não mexe na memória virtual.</strong> A ferramenta Desfragmentar e Otimizar Unidades do Windows 11 reorganiza os dados no disco. Está errado dizer que ela configura a memória virtual ou aumenta a RAM disponível; a memória virtual se ajusta nas configurações avançadas do sistema, em Desempenho (Cebraspe, PF 2025).</p><p><strong>“cd .” não sai do lugar.</strong> No Linux, quem está em /bkp/pgerj/ e digita “cd .” continua no mesmo diretório; para ir à raiz, o comando é “cd /”. Na mesma prova, foi certo dizer que o terminal usa # para o root e $ para os demais usuários (Cebraspe, PGE-RJ 2022).</p><p><strong>Metadados nas Propriedades.</strong> Nas propriedades do arquivo, o Windows 10 mostra, além da data de modificação, a data de criação e a do último acesso (Cebraspe, PC-SE 2021). E o próprio Explorador de Arquivos compacta e descompacta arquivos .zip (Cebraspe, CNMP 2023).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "editores-de-texto-planilhas-e-apresentacoes",
+        "seguranca-da-informacao"
+      ]
+    },
+    {
+      "slug": "internet-navegadores-e-correio-eletronico",
+      "titulo": "Internet, intranet, navegadores e correio eletrônico",
+      "grupo": "Internet",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.internet-intranet",
+        "info.navegadores-pesquisa",
+        "info.correio-eletronico"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "internet",
+        "intranet",
+        "navegador",
+        "correio eletrônico"
+      ],
+      "palavras": [
+        "internet",
+        "intranet",
+        "extranet",
+        "navegador",
+        "chrome",
+        "edge",
+        "firefox",
+        "historico",
+        "favoritos",
+        "navegacao anonima",
+        "senhas salvas",
+        "smartscreen",
+        "outlook",
+        "anexo",
+        "bloquear remetente",
+        "deep web"
+      ],
+      "resumo": "<strong>Internet</strong> é a rede mundial e pública; <strong>intranet</strong> é uma rede <strong>privada</strong> de uma organização que usa as mesmas tecnologias da Internet (navegador, HTTP, e-mail), com acesso restrito; <strong>extranet</strong> é a parte da intranet aberta a parceiros de fora. A intranet não é uma parte “escondida” da Internet: conteúdo não indexado pelos buscadores é a <strong>deep web</strong>. Nos <strong>navegadores</strong> (Chrome, Edge, Firefox), fora da janela anônima, o histórico fica gravado no computador; na janela anônima, o navegador não guarda histórico, cookies nem formulários depois de fechada, mas o site, o provedor e a rede da empresa ainda veem o acesso. <strong>Favoritos</strong> guardam o endereço da página, e não o conteúdo para leitura offline. O navegador pode salvar senhas de qualquer site e sincronizá-las com a conta do usuário. No Edge, o <strong>Microsoft Defender SmartScreen</strong> alerta sobre sites de phishing e downloads maliciosos, e o recurso “Ler em voz alta” lê o texto da página. No <strong>correio eletrônico</strong>, bloquear um remetente manda as mensagens dele para o lixo eletrônico, mas não impede que ele continue enviando.",
+      "esquema": {
+        "rotulo": "conceitos que a banca troca",
+        "html": "<table><thead><tr><th>Termo</th><th>O que é</th><th>O que não é</th></tr></thead><tbody><tr><td><strong>Intranet</strong></td><td>rede privada da organização com tecnologia da Internet</td><td>um “núcleo” da Internet com conteúdo não indexado</td></tr><tr><td><strong>Extranet</strong></td><td>parte da intranet aberta a parceiros externos</td><td>a Internet pública</td></tr><tr><td><strong>Deep web</strong></td><td>conteúdo não indexado por buscadores</td><td>sinônimo de intranet</td></tr><tr><td><strong>Navegação anônima</strong></td><td>não guarda histórico, cookies e formulários no computador</td><td>esconder o acesso do site, do provedor ou da empresa</td></tr><tr><td><strong>Histórico</strong></td><td>lista das páginas visitadas, gravada no computador</td><td>guardado só no servidor do site</td></tr><tr><td><strong>Favoritos</strong></td><td>atalho para o endereço da página</td><td>cópia da página para ler offline</td></tr><tr><td><strong>Senhas salvas</strong></td><td>o navegador guarda e preenche em qualquer site</td><td>recurso exclusivo de intranet ou HTTPS</td></tr><tr><td><strong>Bloquear remetente</strong></td><td>mensagens dele vão para o lixo eletrônico</td><td>impedir o remetente de enviar</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "INTRANET É PRIVADA, NÃO ESCONDIDA",
+          "texto": "A diferença é quem pode acessar, e não se o conteúdo aparece no Google."
+        },
+        {
+          "sigla": "FAVORITO GUARDA O ENDEREÇO",
+          "texto": "Para ler sem Internet, é preciso salvar a página ou usar uma lista de leitura com download, e não só marcá-la como favorita."
+        },
+        {
+          "sigla": "ANÔNIMO SÓ PARA O SEU COMPUTADOR",
+          "texto": "A janela anônima não deixa rastro no aparelho, mas não esconde a navegação da rede, do provedor nem do site."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Na rede mundial de computadores, a Internet, há um núcleo chamado intranet, em que os conteúdos armazenados não são indexados e, por isso, é difícil encontrá-los ou auditá-los.",
+        "gabarito": "E",
+        "explicacao": "A intranet é uma rede privada de uma organização, que usa as tecnologias da Internet com acesso restrito; não é um núcleo da Internet. O conteúdo não indexado pelos buscadores é chamado de deep web (Cebraspe, MP-GO 2024)."
+      },
+      "aprofundamento": "<p><strong>Histórico fica no computador; favorito não guarda a página.</strong> Fora do modo anônimo, o Chrome armazena no computador os endereços dos sites visitados, e o item estava certo. Na mesma prova, estava errado dizer que os favoritos gravam as páginas para acesso offline: eles guardam só o endereço (Cebraspe, CNMP 2023).</p><p><strong>Salvar senhas não depende de intranet.</strong> O Firefox e o Chrome salvam e sincronizam senhas de qualquer site. Está errado dizer que isso só funciona em sites de intranet com HTTPS (Cebraspe, PRF 2021).</p><p><strong>A verificação de senhas do Chrome não revela a senha.</strong> Está errado dizer que o Chrome descriptografa a credencial e a envia ao Google para comparar com a lista de senhas vazadas. A verificação é feita com a credencial criptografada, sem que o Google conheça a senha (Cebraspe, PF 2025).</p><p><strong>SmartScreen e leitura em voz alta no Edge.</strong> O Microsoft Defender SmartScreen alerta, no Edge, sobre páginas suspeitas e consulta uma lista dinâmica de sites de phishing e de software malicioso (Cebraspe, PF 2025). O Edge também tem recurso que lê em voz alta o texto da página (Cebraspe, PGE-RJ 2022).</p><p><strong>Bloquear o remetente não o impede de enviar.</strong> No Outlook do Office 365, bloquear o remetente faz as mensagens dele irem para o lixo eletrônico. Está errado dizer que o remetente externo fica impedido de enviar novas mensagens (Cebraspe, PC-SE 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "computacao-em-nuvem",
+        "malware-e-golpes-digitais",
+        "seguranca-da-informacao"
+      ]
+    },
+    {
+      "slug": "computacao-em-nuvem",
+      "titulo": "Computação em nuvem: IaaS, PaaS, SaaS e elasticidade",
+      "grupo": "Internet",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.nuvem",
+        "info.colaboracao"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "computação em nuvem",
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "elasticidade"
+      ],
+      "palavras": [
+        "nuvem",
+        "cloud",
+        "iaas",
+        "paas",
+        "saas",
+        "elasticidade",
+        "escalabilidade",
+        "nuvem publica",
+        "nuvem privada",
+        "nuvem hibrida",
+        "google drive",
+        "onedrive",
+        "dropbox",
+        "armazenamento",
+        "backup online"
+      ],
+      "resumo": "<strong>Computação em nuvem</strong> é o uso de servidores, armazenamento, programas e bancos de dados pela Internet, sob demanda, pagando pelo que se usa. Os três modelos de serviço: <strong>IaaS</strong> (infraestrutura: o cliente recebe máquinas virtuais, rede e armazenamento e controla o sistema operacional e os programas, mas <strong>não</strong> a infraestrutura física por baixo), <strong>PaaS</strong> (plataforma: o cliente <strong>desenvolve e publica aplicações</strong> sem cuidar de servidor) e <strong>SaaS</strong> (software pronto usado pelo navegador, como webmail e editores on-line). Os modelos de implantação são nuvem pública, privada, comunitária e híbrida; uma nuvem pode guardar arquivos pessoais e também hospedar a intranet de uma empresa. A <strong>elasticidade</strong> é aumentar e diminuir recursos automaticamente conforme a demanda; a <strong>escalabilidade</strong> é a capacidade de crescer para atender mais carga. Serviços como Google Drive, OneDrive e Dropbox armazenam e sincronizam arquivos e servem de backup on-line; o espaço gratuito do Google Drive é de 15 GB, divididos com o Gmail e o Google Fotos.",
+      "esquema": {
+        "rotulo": "modelos de serviço",
+        "html": "<table><thead><tr><th>Modelo</th><th>O cliente recebe</th><th>O cliente controla</th></tr></thead><tbody><tr><td><strong>IaaS</strong></td><td>máquinas virtuais, rede, armazenamento</td><td>sistema operacional, programas e dados; não a infraestrutura física</td></tr><tr><td><strong>PaaS</strong></td><td>ambiente para desenvolver e publicar aplicações</td><td>as aplicações e seus dados</td></tr><tr><td><strong>SaaS</strong></td><td>programa pronto, usado pelo navegador ou aplicativo</td><td>só as próprias configurações e dados</td></tr><tr><td><strong>Elasticidade</strong></td><td>recursos que crescem e diminuem com a demanda</td><td>paga pelo que usa</td></tr><tr><td><strong>Armazenamento em nuvem</strong></td><td>Google Drive (15 GB grátis), OneDrive, Dropbox</td><td>sincronização e backup on-line</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "INFRA, PLATAFORMA, PROGRAMA",
+          "texto": "IaaS entrega a máquina, PaaS entrega o ambiente para criar aplicações e SaaS entrega o programa pronto. Quanto mais perto do SaaS, menos o cliente administra."
+        },
+        {
+          "sigla": "ELÁSTICO ESTICA E ENCOLHE",
+          "texto": "Elasticidade é ajustar os recursos para cima e para baixo, automaticamente, conforme a demanda."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Identifica-se Software como Serviço (SaaS) quando um provedor de serviços oferece acesso a um ambiente baseado em cloud, no qual os usuários podem construir e disponibilizar aplicativos.",
+        "gabarito": "E",
+        "explicacao": "Ambiente para construir e publicar aplicativos é Plataforma como Serviço (PaaS). No SaaS, o usuário recebe um programa pronto para usar (Cebraspe, PRF 2021)."
+      },
+      "aprofundamento": "<p><strong>No IaaS, a infraestrutura física é do provedor.</strong> Está errado dizer que, no IaaS, o consumidor controla a infraestrutura de nuvem subjacente. Ele gerencia sistemas operacionais, armazenamento e aplicações implantadas, mas não a infraestrutura física por baixo (Cebraspe, TCE-RJ 2021).</p><p><strong>Elasticidade é a marca da nuvem.</strong> Foi certo dizer que a empresa usa os recursos conforme a demanda, aumentando ou diminuindo a capacidade dinamicamente (Cebraspe, PGE-RJ 2022), e que o usuário aumenta e diminui a escala e paga só pelo que usa (Cebraspe, CNMP 2023).</p><p><strong>Escalabilidade e elasticidade não são sinônimos.</strong> Foi considerado errado definir escalabilidade como a adaptação automática à carga, com alocação e liberação dinâmica de recursos: essa é a definição de elasticidade. Escalabilidade é a capacidade de o sistema crescer para atender mais carga (Cebraspe, MP-CE 2025).</p><p><strong>Uma nuvem serve a pessoas e a organizações.</strong> A nuvem pode tanto armazenar arquivos pessoais quanto hospedar a intranet de uma organização (Cebraspe, PC-SE 2021).</p><p><strong>Os números do armazenamento gratuito.</strong> Está errado dizer que o Google Drive oferece 150 GB gratuitos: o espaço gratuito é de 15 GB, divididos com o Gmail e o Google Fotos (Cebraspe, PGE-RJ 2022). E Dropbox e Google Drive não são “repositórios públicos” que usam ARP e ICMP: são serviços de armazenamento com acesso controlado, que trafegam por HTTPS (Cebraspe, MP-GO 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "internet-navegadores-e-correio-eletronico",
+        "seguranca-da-informacao"
+      ]
+    },
+    {
+      "slug": "malware-e-golpes-digitais",
+      "titulo": "Malware e golpes digitais",
+      "grupo": "Segurança",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.malware"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "malware",
+        "vírus",
+        "ransomware",
+        "phishing",
+        "cavalo de troia"
+      ],
+      "palavras": [
+        "malware",
+        "virus",
+        "worm",
+        "cavalo de troia",
+        "trojan",
+        "ransomware",
+        "spyware",
+        "keylogger",
+        "adware",
+        "rootkit",
+        "botnet",
+        "backdoor",
+        "phishing",
+        "spear phishing",
+        "engenharia social",
+        "pua"
+      ],
+      "resumo": "<strong>Malware</strong> é todo programa malicioso. Os tipos se diferenciam pelo que fazem. <strong>Vírus</strong> se anexa a um arquivo ou programa e depende de ser executado para se espalhar. <strong>Worm</strong> se propaga sozinho pela rede, explorando falhas. <strong>Cavalo de troia</strong> (trojan) se disfarça de programa útil e, por trás, abre caminho para outras ações, como dar acesso remoto ao atacante. <strong>Ransomware</strong> criptografa os dados e cobra resgate para liberá-los. <strong>Spyware</strong> espiona (o keylogger registra o que se digita). <strong>Adware</strong> exibe propaganda. <strong>Rootkit</strong> esconde a presença do invasor e de outros malwares no sistema. <strong>Backdoor</strong> deixa uma porta de volta para o atacante. <strong>Botnet</strong> é uma rede de computadores infectados (bots) controlados a distância, usada em ataques e envio de spam. Do lado dos golpes, <strong>phishing</strong> é a mensagem falsa que imita uma instituição para roubar dados; <strong>spear phishing</strong> é o phishing dirigido a uma pessoa ou empresa específica. Programas potencialmente indesejados (PUA) não são vírus, mas o Microsoft Defender pode bloqueá-los.",
+      "esquema": {
+        "rotulo": "o que cada praga faz",
+        "html": "<table><thead><tr><th>Tipo</th><th>O que faz</th><th>Confusão comum</th></tr></thead><tbody><tr><td><strong>Vírus</strong></td><td>infecta arquivos e precisa ser executado</td><td>nem todo malware é vírus</td></tr><tr><td><strong>Worm</strong></td><td>se espalha sozinho pela rede</td><td>não precisa de arquivo hospedeiro</td></tr><tr><td><strong>Cavalo de troia</strong></td><td>parece útil e esconde ação maliciosa; pode dar acesso remoto</td><td>não é definido por criptografar dados</td></tr><tr><td><strong>Ransomware</strong></td><td>criptografa os dados e pede resgate</td><td>é o “sequestro” de dados</td></tr><tr><td><strong>Spyware / keylogger</strong></td><td>espiona e captura o que se digita</td><td></td></tr><tr><td><strong>Adware</strong></td><td>mostra propaganda</td><td>botnet não é programa de propaganda</td></tr><tr><td><strong>Rootkit</strong></td><td>esconde o invasor e outros malwares</td><td>não é “apagar dados de pendrive”</td></tr><tr><td><strong>Botnet</strong></td><td>rede de máquinas infectadas controladas a distância</td><td></td></tr><tr><td><strong>Phishing</strong></td><td>mensagem falsa para roubar dados</td><td>spear phishing é dirigido a um alvo específico</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "CLASSIFIQUE PELO EFEITO",
+          "texto": "Criptografou e pediu resgate: ransomware. Espalhou sozinho: worm. Disfarçou de útil: cavalo de troia. Escondeu o invasor: rootkit."
+        },
+        {
+          "sigla": "BOT É ROBÔ CONTROLADO",
+          "texto": "Botnet é rede de computadores zumbis comandados a distância, e não programa de anúncios (isso é adware)."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O botnet é um vírus projetado especificamente para mostrar, no computador do usuário, propagandas oriundas das redes sociais.",
+        "gabarito": "E",
+        "explicacao": "Botnet é uma rede de computadores infectados controlados a distância pelo atacante, usada para ataques e envio de spam. O programa que mostra propaganda é o adware (Cebraspe, PGE-RJ 2022)."
+      },
+      "aprofundamento": "<p><strong>Rootkit esconde, não “apaga pendrive”.</strong> Está errado dizer que o rootkit é um vírus inofensivo cuja característica é apagar dados de pendrives e HDs externos. O rootkit serve para esconder a presença do invasor e de outros programas maliciosos no sistema (Cebraspe, PGE-RJ 2022).</p><p><strong>Criptografar dados e pedir resgate é ransomware.</strong> Diante de um e-mail que dizia “bloqueei o acesso aos seus sistemas por meio de criptografia de todas as suas informações”, estava errado identificar o ataque como trojan definido por tornar os dados inacessíveis. Quem sequestra os dados por criptografia é o ransomware (Cebraspe, PC-SE 2021).</p><p><strong>Trojan pode, sim, ser controlado a distância.</strong> Está errado dizer que os trojans não permitem controle remoto pela pessoa que os instalou. Muitos cavalos de troia abrem justamente esse acesso, instalando backdoors (Cebraspe, TCE-RJ 2021).</p><p><strong>PUA não é vírus, mas é bloqueado.</strong> Aplicativos potencialmente indesejados não são tecnicamente vírus, e o Microsoft Defender Antivirus os detecta e bloqueia o download, a execução e a instalação (Cebraspe, PF 2025).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "seguranca-da-informacao",
+        "internet-navegadores-e-correio-eletronico"
+      ]
+    },
+    {
+      "slug": "seguranca-da-informacao",
+      "titulo": "Segurança da informação: firewall, antivírus, backup, autenticação e criptografia",
+      "grupo": "Segurança",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.seguranca-conceitos",
+        "info.ferramentas-seguranca",
+        "info.backup",
+        "info.autenticacao",
+        "info.criptografia"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "segurança da informação",
+        "firewall",
+        "antivírus",
+        "backup",
+        "autenticação",
+        "criptografia"
+      ],
+      "palavras": [
+        "firewall",
+        "antivirus",
+        "backup",
+        "incremental",
+        "diferencial",
+        "completo",
+        "imagem do sistema",
+        "autenticacao",
+        "dois fatores",
+        "mfa",
+        "senha",
+        "forca bruta",
+        "dicionario",
+        "criptografia",
+        "tls",
+        "ssl",
+        "https",
+        "esteganografia",
+        "hash",
+        "certificado digital"
+      ],
+      "resumo": "Os pilares da segurança são <strong>confidencialidade</strong> (só quem pode lê), <strong>integridade</strong> (a informação não é alterada indevidamente) e <strong>disponibilidade</strong> (está acessível quando preciso), além de autenticidade e não repúdio. Cada ferramenta tem um papel: o <strong>firewall</strong> filtra o tráfego de rede pelas regras de entrada e saída; o <strong>antivírus</strong> examina arquivos e programas para achar malware. Nenhum dos dois protege contra tudo. No <strong>backup</strong>, o completo copia tudo; o <strong>incremental</strong> copia o que mudou desde o último backup de qualquer tipo (é o mais rápido e o mais trabalhoso de restaurar); o <strong>diferencial</strong> copia o que mudou desde o último completo. A <strong>imagem do sistema</strong> do Windows copia o estado do sistema para recuperação. Na <strong>autenticação</strong>, os fatores são algo que você sabe (senha), tem (token, celular) e é (biometria); <strong>autenticação de dois fatores</strong> combina dois tipos diferentes, criando mais de uma camada. Ataque de <strong>dicionário</strong> testa palavras comuns e funciona contra senhas fracas. Na <strong>criptografia</strong>, o TLS (sucessor do SSL) protege os dados em trânsito entre o navegador e o site (HTTPS), e não os arquivos guardados no computador. <strong>Esteganografia</strong> esconde a existência da mensagem dentro de outro arquivo; não é a mesma coisa que criptografia.",
+      "esquema": {
+        "rotulo": "ferramenta certa para cada risco",
+        "html": "<table><thead><tr><th>Ferramenta</th><th>Protege contra</th><th>Não faz</th></tr></thead><tbody><tr><td><strong>Firewall</strong></td><td>acessos de rede não autorizados</td><td>não analisa arquivos à procura de vírus nem garante proteção total</td></tr><tr><td><strong>Antivírus</strong></td><td>malware em arquivos e programas</td><td>não filtra o tráfego de rede como o firewall</td></tr><tr><td><strong>Backup completo</strong></td><td>perda de dados: copia tudo</td><td></td></tr><tr><td><strong>Backup incremental</strong></td><td>copia o que mudou desde o último backup</td><td>mais rápido de fazer, mais lento de restaurar</td></tr><tr><td><strong>Backup diferencial</strong></td><td>copia o que mudou desde o último completo</td><td></td></tr><tr><td><strong>Dois fatores (MFA)</strong></td><td>roubo de senha: exige dois tipos de fator</td><td>não é uma camada só</td></tr><tr><td><strong>TLS / HTTPS</strong></td><td>interceptação dos dados em trânsito</td><td>não protege os arquivos guardados no aparelho</td></tr><tr><td><strong>Esteganografia</strong></td><td>esconde a existência da mensagem</td><td>não torna o texto ininteligível, como a criptografia</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "INCREMENTAL DESDE O ÚLTIMO, DIFERENCIAL DESDE O COMPLETO",
+          "texto": "O incremental olha para o último backup de qualquer tipo; o diferencial sempre volta ao último completo."
+        },
+        {
+          "sigla": "FIREWALL É PORTEIRO, ANTIVÍRUS É REVISTA",
+          "texto": "O firewall decide o que entra e sai pela rede; o antivírus examina o que já está nos arquivos e programas."
+        },
+        {
+          "sigla": "NENHUMA FERRAMENTA GARANTE TUDO",
+          "texto": "Item que diz que firewall, antivírus ou criptografia “garante proteção contra todos os ataques” costuma estar errado."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O firewall é mais eficaz que um antivírus para a proteção contra cavalos de troia e ransomware, pois cada pacote de dados que trafega na rede é analisado pelo firewall, de modo a proteger o computador contra softwares maliciosos.",
+        "gabarito": "E",
+        "explicacao": "O firewall filtra conexões de rede por regras, mas não examina arquivos e programas para identificar malware. Contra cavalo de troia e ransomware, a ferramenta própria é o antivírus, somada a backup e atualizações (Cebraspe, PF 2025)."
+      },
+      "aprofundamento": "<p><strong>Incremental é mais rápido que diferencial.</strong> No backup incremental, só os dados modificados desde o último backup são copiados, e por isso ele é mais rápido que o diferencial, que copia tudo o que mudou desde o último backup completo. O item estava certo (Cebraspe, PF 2025).</p><p><strong>Firewall não garante proteção total.</strong> Está errado dizer que um firewall, mesmo simples, protege contra todas as modalidades de ataque. Ele filtra o tráfego de rede e precisa ser combinado com antivírus, atualizações e boas práticas (Cebraspe, PGE-RJ 2022).</p><p><strong>Dois fatores são duas camadas.</strong> Está errado dizer que a autenticação de dois fatores usa uma só camada de segurança. Ao combinar algo que se sabe (senha) com algo que se tem (token), ela cria camadas independentes (Cebraspe, MP-CE 2025).</p><p><strong>Ataque de dicionário mira senhas fracas.</strong> Está errado dizer que o ataque de dicionário é empregado contra chaves longas e complexas. Ele testa palavras e combinações comuns e funciona contra senhas fracas (Cebraspe, MP-CE 2025).</p><p><strong>TLS protege o caminho, não o disco.</strong> Está errado dizer que o SSL opera na camada de rede e impede o invasor de acessar os arquivos do usuário. O SSL/TLS fica entre a camada de transporte e a de aplicação e protege os dados em trânsito, não os arquivos guardados no aparelho (Cebraspe, PC-SE 2021).</p><p><strong>Esteganografia não é criptografia.</strong> Está errado dizer que a esteganografia torna os dados ininteligíveis com o algoritmo AES. Ela esconde a mensagem dentro de outro conteúdo, como uma imagem; quem torna o texto ininteligível é a criptografia (Cebraspe, TCE-RJ 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "malware-e-golpes-digitais",
+        "computacao-em-nuvem"
+      ]
+    },
+    {
+      "slug": "editores-de-texto-planilhas-e-apresentacoes",
+      "titulo": "Word, Excel, PowerPoint e LibreOffice",
+      "grupo": "Uso do computador",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.editor-texto",
+        "info.planilhas",
+        "info.apresentacoes"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "editor de texto",
+        "planilha eletrônica",
+        "apresentações",
+        "LibreOffice"
+      ],
+      "palavras": [
+        "word",
+        "excel",
+        "powerpoint",
+        "writer",
+        "calc",
+        "impress",
+        "pincel de formatacao",
+        "estilos",
+        "cont.valores",
+        "cont.num",
+        "contar.vazio",
+        "formulas",
+        "referencia absoluta",
+        "pdf",
+        "compartilhar"
+      ],
+      "resumo": "No <strong>Word</strong> e no <strong>Writer</strong>, a formatação pode ser feita por <strong>estilos</strong> (conjuntos de formatação com nome, que alimentam o sumário) ou de forma <strong>manual</strong>; a formatação manual <strong>prevalece</strong> sobre o estilo no trecho em que foi aplicada. O <strong>Pincel de Formatação</strong> copia a formatação de um trecho e aplica em outro (atalhos Ctrl + Shift + C e Ctrl + Shift + V). A opção <strong>Compartilhar</strong> do Word convida pessoas ou gera link para o documento na nuvem (OneDrive), e não publica em rede social. No <strong>Excel</strong> e no <strong>Calc</strong>, toda fórmula começa com “=”; o “$” fixa linha ou coluna na cópia (referência absoluta, como $A$1). As funções de contagem se confundem: <strong>CONT.NÚM</strong> conta células com números; <strong>CONT.VALORES</strong> conta as células <strong>não vazias</strong>; <strong>CONTAR.VAZIO</strong> conta as vazias; <strong>CONT.SE</strong> conta as que atendem a um critério. Word, Excel e PowerPoint salvam o arquivo em PDF pela opção Salvar como ou Exportar.",
+      "esquema": {
+        "rotulo": "funções e recursos que mais caem",
+        "html": "<table><thead><tr><th>Recurso</th><th>O que faz</th><th>Pegadinha</th></tr></thead><tbody><tr><td><strong>CONT.VALORES</strong></td><td>conta as células não vazias do intervalo</td><td>não conta o total de células</td></tr><tr><td><strong>CONT.NÚM</strong></td><td>conta só as células com números</td><td></td></tr><tr><td><strong>CONTAR.VAZIO</strong></td><td>conta as células vazias</td><td></td></tr><tr><td><strong>CONT.SE</strong></td><td>conta as células que atendem a um critério</td><td></td></tr><tr><td><strong>$ na referência</strong></td><td>fixa a linha ou a coluna ao copiar a fórmula</td><td>$A1 fixa a coluna; A$1 fixa a linha</td></tr><tr><td><strong>Pincel de Formatação</strong></td><td>copia e aplica formatação (Ctrl + Shift + C / V)</td><td>não copia o texto</td></tr><tr><td><strong>Estilos</strong></td><td>formatação com nome, usada no sumário</td><td>a formatação manual prevalece sobre o estilo</td></tr><tr><td><strong>Compartilhar (Word)</strong></td><td>convida pessoas ou gera link na nuvem</td><td>não publica em rede social</td></tr><tr><td><strong>Salvar em PDF</strong></td><td>Salvar como ou Exportar em Word, Excel e PowerPoint</td><td></td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "VALORES É NÃO VAZIO",
+          "texto": "CONT.VALORES conta tudo o que não está vazio, seja número ou texto. Só número é CONT.NÚM."
+        },
+        {
+          "sigla": "MANUAL VENCE O ESTILO",
+          "texto": "O que se formata à mão no trecho prevalece sobre o estilo aplicado ao parágrafo."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "A função CONT.VALORES() do MS Excel é utilizada para calcular a quantidade total de células em um intervalo selecionado da planilha em edição.",
+        "gabarito": "E",
+        "explicacao": "CONT.VALORES conta apenas as células não vazias do intervalo, com qualquer tipo de conteúdo. Células vazias ficam de fora; para elas existe CONTAR.VAZIO (Cebraspe, CNMP 2023)."
+      },
+      "aprofundamento": "<p><strong>Pincel de Formatação com teclado.</strong> No Word, o Pincel de Formatação, também acionado por Ctrl + Shift + C, copia a formatação de um trecho para aplicá-la em outro. O item estava certo (Cebraspe, CNMP 2023).</p><p><strong>Compartilhar não é publicar em rede social.</strong> Está errado dizer que a opção Compartilhar do Word envia uma cópia do documento para uma rede social à escolha do usuário. Ela convida pessoas ou gera um link para o arquivo salvo na nuvem. No mesmo concurso, foi certo que o PowerPoint salva a apresentação em .pdf (Cebraspe, CNMP 2023).</p><p><strong>A formatação manual prevalece.</strong> Está errado dizer que, no LibreOffice Writer, a formatação manual não substitui o estilo aplicado. No trecho em que é feita, a formatação manual se sobrepõe ao estilo (Cebraspe, PGE-RJ 2022).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "sistemas-operacionais-e-arquivos"
+      ]
+    },
+    {
+      "slug": "inteligencia-artificial-e-big-data",
+      "titulo": "Inteligência artificial, aprendizado de máquina e big data",
+      "grupo": "Dados e IA",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.ia-aprendizado-maquina",
+        "info.big-data"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "inteligência artificial",
+        "aprendizado de máquina",
+        "IA generativa",
+        "big data"
+      ],
+      "palavras": [
+        "inteligencia artificial",
+        "aprendizado de maquina",
+        "machine learning",
+        "supervisionado",
+        "nao supervisionado",
+        "redes neurais",
+        "ia generativa",
+        "llm",
+        "rag",
+        "processamento de linguagem natural",
+        "big data",
+        "volume",
+        "velocidade",
+        "variedade",
+        "dados nao estruturados",
+        "iot"
+      ],
+      "resumo": "<strong>Inteligência artificial</strong> é a área que faz sistemas executarem tarefas que exigiriam inteligência humana. O <strong>aprendizado de máquina</strong> é a parte da IA em que o sistema aprende padrões a partir de dados: no <strong>supervisionado</strong>, os dados de treino vêm com a resposta (classificação e regressão); no <strong>não supervisionado</strong>, o sistema acha grupos e padrões sozinho (agrupamento, regras de associação). As <strong>redes neurais</strong> são modelos inspirados em neurônios: as feedforward passam a informação em uma só direção; as convolucionais servem a dados em grade, como imagens; as recorrentes e os transformadores tratam sequências, como texto. A <strong>IA generativa</strong> cria conteúdo novo, e os <strong>LLMs</strong> (grandes modelos de linguagem) geram texto prevendo a próxima palavra. O <strong>RAG</strong> liga o modelo a uma base externa de documentos, buscada a cada pergunta, porque o LLM sozinho não acessa informação externa. <strong>Big data</strong> se define pelos Vs: volume, velocidade e variedade, além de veracidade e valor. Texto livre, vídeo e imagem são <strong>dados não estruturados</strong>, mesmo quando guardados em um campo de banco relacional.",
+      "esquema": {
+        "rotulo": "conceitos que a banca troca",
+        "html": "<table><thead><tr><th>Termo</th><th>O que é</th><th>Confusão comum</th></tr></thead><tbody><tr><td><strong>Aprendizado supervisionado</strong></td><td>aprende com exemplos rotulados (classificação, regressão)</td><td></td></tr><tr><td><strong>Não supervisionado</strong></td><td>acha grupos e padrões sem rótulo (agrupamento, associação)</td><td></td></tr><tr><td><strong>Rede feedforward</strong></td><td>informação em uma só direção, sem ciclos</td><td></td></tr><tr><td><strong>Rede convolucional</strong></td><td>dados em grade, como imagens; extrai características com filtros</td><td>não é a rede própria para texto e áudio sequenciais</td></tr><tr><td><strong>LLM</strong></td><td>modelo de linguagem treinado em grande volume de texto</td><td>gera texto token a token, em sequência</td></tr><tr><td><strong>RAG</strong></td><td>busca documentos externos e os entrega ao modelo junto com a pergunta</td><td>o LLM sozinho não acessa fontes externas</td></tr><tr><td><strong>Big data</strong></td><td>volume, velocidade, variedade (e veracidade, valor)</td><td></td></tr><tr><td><strong>Dados não estruturados</strong></td><td>texto livre, vídeo, imagem, áudio</td><td>continuam não estruturados dentro de um campo de tabela</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "RÓTULO = SUPERVISIONADO",
+          "texto": "Se o treino traz a resposta certa de cada exemplo, o aprendizado é supervisionado. Sem rótulo, é não supervisionado."
+        },
+        {
+          "sigla": "RAG É BUSCA MAIS GERAÇÃO",
+          "texto": "O modelo responde com base nos documentos que um sistema de busca encontrou. Sem essa integração, o LLM só conhece o que aprendeu no treino."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O RAG (retrieval-augmented generation) reduz a necessidade de contextualizar prompts, pois o LLM, sozinho, consegue acessar, dinamicamente, informações externas sem qualquer integração prévia com sistemas de recuperação.",
+        "gabarito": "E",
+        "explicacao": "O RAG existe justamente porque o LLM sozinho não acessa informação externa. Ele depende de um sistema de recuperação que busca documentos e os entrega ao modelo junto com a pergunta (Cebraspe, TRF 6ª Região 2024)."
+      },
+      "aprofundamento": "<p><strong>Convolucional é para imagem.</strong> Está errado dizer que as redes neurais convolucionais foram projetadas para dados sequenciais, como texto e áudio, e que preveem a saída sem extrair características intermediárias. Elas foram pensadas para dados em grade, como imagens, e extraem características com filtros. Na mesma prova, foi certo dizer que as redes feedforward processam os dados em uma só direção, sem ciclos (Cebraspe, TRF 6ª Região 2024).</p><p><strong>Preparar texto para o modelo.</strong> No processamento de linguagem natural, a remoção de pontuação, a normalização, a tokenização e a eliminação de stop words transformam o texto bruto em formato mais estruturado (Cebraspe, TRF 6ª Região 2024).</p><p><strong>IoT alimenta o big data.</strong> A Internet das coisas aumenta a quantidade e a complexidade dos dados, com novas fontes de informação, e influencia características do big data como volume, velocidade e variedade (Cebraspe, PRF 2021).</p><p><strong>Vídeo em tabela continua não estruturado.</strong> Está errado dizer que textos longos, vídeos e imagens viram dados estruturados quando armazenados em um campo de banco relacional. O conteúdo continua não estruturado (Cebraspe, TCE-RJ 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "banco-de-dados-e-sql"
+      ]
+    },
+    {
+      "slug": "banco-de-dados-e-sql",
+      "titulo": "Banco de dados relacional e SQL",
+      "grupo": "Dados e IA",
+      "base": "Itens de Informática da Cebraspe com gabarito definitivo",
+      "tax": [
+        "info.banco-dados",
+        "info.sql",
+        "info.dados-estruturados"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "banco de dados",
+        "SQL",
+        "modelo relacional",
+        "normalização"
+      ],
+      "palavras": [
+        "banco de dados",
+        "sgbd",
+        "tabela",
+        "chave primaria",
+        "chave estrangeira",
+        "sql",
+        "select",
+        "where",
+        "group by",
+        "having",
+        "join",
+        "left join",
+        "normalizacao",
+        "modelo conceitual",
+        "modelo logico",
+        "modelo fisico"
+      ],
+      "resumo": "No <strong>banco de dados relacional</strong>, os dados ficam em <strong>tabelas</strong> (relações) com linhas e colunas. A <strong>chave primária</strong> identifica cada linha; a <strong>chave estrangeira</strong> liga uma tabela a outra. O <strong>SGBD</strong> é o programa que gerencia o banco (PostgreSQL, MySQL, SQL Server, Oracle) e controla quem pode fazer o quê: ter uma conta não dá acesso a todas as funções. O projeto passa por três modelos: <strong>conceitual</strong> (entidades e relacionamentos), <strong>lógico</strong> (tabelas e chaves, para o tipo de SGBD) e <strong>físico</strong> (como os dados são gravados, índices, tipos). <strong>Normalização</strong> é organizar as tabelas para evitar redundância e anomalias, e não colocar valores numa escala de 0 a 1. No <strong>SQL</strong>, SELECT escolhe as colunas, FROM as tabelas, WHERE filtra <strong>linhas</strong>, GROUP BY agrupa e <strong>HAVING filtra grupos</strong>; funções de agregação, como AVG e COUNT, não entram no WHERE. O <strong>INNER JOIN</strong> traz só as linhas com correspondência nas duas tabelas; o <strong>LEFT JOIN</strong> traz todas as linhas da tabela da esquerda, mesmo sem correspondência.",
+      "esquema": {
+        "rotulo": "SQL e modelagem que mais caem",
+        "html": "<table><thead><tr><th>Item</th><th>O que faz</th><th>Pegadinha</th></tr></thead><tbody><tr><td><strong>WHERE</strong></td><td>filtra linhas antes do agrupamento</td><td>não aceita AVG, SUM, COUNT</td></tr><tr><td><strong>GROUP BY + HAVING</strong></td><td>agrupa e filtra os grupos</td><td>condição sobre média vai no HAVING</td></tr><tr><td><strong>INNER JOIN</strong></td><td>só linhas com correspondência nas duas tabelas</td><td></td></tr><tr><td><strong>LEFT JOIN</strong></td><td>todas as linhas da esquerda, com ou sem correspondência</td><td>processo sem parte aparece com campos nulos</td></tr><tr><td><strong>Chave primária</strong></td><td>identifica cada linha</td><td>não se repete nem fica vazia</td></tr><tr><td><strong>Chave estrangeira</strong></td><td>aponta para a chave de outra tabela</td><td></td></tr><tr><td><strong>Modelo lógico</strong></td><td>transforma o conceitual em tabelas para o SGBD</td><td>não é o projeto físico</td></tr><tr><td><strong>Normalização</strong></td><td>reduz redundância e anomalias</td><td>não é colocar dados na escala de 0 a 1</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "WHERE LINHA, HAVING GRUPO",
+          "texto": "Filtro sobre cada linha vai no WHERE; filtro sobre resultado de AVG, SUM ou COUNT vai no HAVING, depois do GROUP BY."
+        },
+        {
+          "sigla": "LEFT JOIN NÃO PERDE NINGUÉM DA ESQUERDA",
+          "texto": "Todas as linhas da primeira tabela aparecem; onde não há correspondência, os campos da outra vêm vazios (nulos)."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O comando SQL a seguir tem a sintaxe correta para obter o código dos cursos e o valor médio do salário dos professores, mostrando apenas os cursos cuja média salarial é inferior a 5.000 reais: Select c.cod_curso, avg (salario) from contrato c, professor p where c.cpf_professor = p.cpf_professor and avg (salario) &lt; 5000;",
+        "gabarito": "E",
+        "explicacao": "Função de agregação não pode ficar no WHERE. O correto é agrupar e filtrar o grupo: “... where c.cpf_professor = p.cpf_professor group by c.cod_curso having avg(salario) &lt; 5000;” (Cebraspe, TCE-RJ 2021)."
+      },
+      "aprofundamento": "<p><strong>LEFT JOIN mantém os processos sem partes.</strong> A consulta “FROM Processos p LEFT JOIN Partes pa ... LEFT JOIN Pessoas ps ...” lista todos os processos, inclusive os que ainda não têm partes, com o nome e o papel das pessoas onde houver. O item estava certo (Cebraspe, MP-CE 2025).</p><p><strong>Normalização não é escala de 0 a 1.</strong> Está errado dizer que a normalização de dados em um banco organiza os valores numa escala, como entre 0 e 1. Isso é a normalização usada em estatística e aprendizado de máquina; no banco relacional, normalizar é organizar as tabelas para evitar redundância (Cebraspe, MPO 2024).</p><p><strong>Do conceitual para o lógico não é projeto físico.</strong> Está errado dizer que o projeto físico mapeia o modelo conceitual para um modelo lógico processável pelo SGBD. Esse mapeamento é o projeto lógico; o físico define como os dados serão gravados (Cebraspe, TCE-RJ 2021).</p><p><strong>Conta não é acesso total.</strong> O fato de um usuário ter uma conta não o habilita a toda a funcionalidade do SGBD, porque os privilégios são concedidos separadamente (Cebraspe, TCE-RJ 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "inteligencia-artificial-e-big-data"
+      ]
+    }
+  ]
+}
