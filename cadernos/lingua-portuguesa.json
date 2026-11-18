@@ -3,7 +3,7 @@
   "titulo": "Caderno de Língua Portuguesa",
   "disciplina": "Língua Portuguesa",
   "ordem": 19,
-  "descricao": "Língua Portuguesa organizada por tema e pelo que a Cebraspe mais cobra: reescrita de frases, coesão, significação e classes de palavras, pontuação, concordância, regência e crase, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais. Gratuito.",
+  "descricao": "Língua Portuguesa organizada por tema e pelo que a Cebraspe mais cobra: reescrita de frases, coesão, significação e classes de palavras, sintaxe, coordenação e subordinação, tempos verbais, pontuação, concordância, regência, crase e redação oficial, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais. Gratuito.",
   "revisado_em": "2026-11-17",
   "revisado_rotulo": "Itens de prova checados com a justificativa e o gabarito oficial da Cebraspe",
   "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da gramática normativa e das provas de Língua Portuguesa da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo; os da PC-DF 2024, do TC-DF 2023 e da SERES-PE 2021 também com a justificativa oficial de cada item. A escolha dos temas segue o que mais apareceu em 57 provas recentes da Cebraspe e da FGV.</p>",
@@ -489,6 +489,269 @@
         "coesao-e-referenciacao",
         "significacao-das-palavras",
         "concordancia-verbal-e-nominal"
+      ]
+    },
+    {
+      "slug": "sintaxe-da-oracao-termos",
+      "titulo": "Sintaxe da oração: sujeito, complementos, predicativo e aposto",
+      "grupo": "Norma gramatical",
+      "base": "Itens de análise sintática da Cebraspe",
+      "tax": [
+        "portugues.sintaxe-oracao"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "sintaxe da oração",
+        "termos da oração",
+        "sujeito",
+        "objeto direto",
+        "predicativo",
+        "aposto"
+      ],
+      "palavras": [
+        "sintaxe",
+        "sujeito",
+        "sujeito posposto",
+        "objeto direto",
+        "objeto indireto",
+        "complemento nominal",
+        "predicativo do sujeito",
+        "predicativo do objeto",
+        "adjunto adverbial",
+        "aposto",
+        "vocativo",
+        "se apassivador",
+        "indice de indeterminacao"
+      ],
+      "resumo": "A Cebraspe cobra a <strong>função</strong> de um termo naquele trecho: sujeito, complemento, predicativo, adjunto ou aposto. O passo mais importante é achar o <strong>sujeito</strong>: pergunte ao verbo “quem” ou “o que” e lembre que ele pode vir <strong>depois do verbo</strong> (“Chegou o novo cartão”), ser uma <strong>oração</strong> (“bastaria ficarmos quietos”) ou estar <strong>oculto</strong>. Os complementos completam verbos (objeto direto, sem preposição obrigatória; objeto indireto, com preposição) ou nomes (complemento nominal). O <strong>predicativo</strong> atribui característica ao sujeito ou ao objeto (“declara o MP como instituição permanente”). O <strong>aposto</strong> explica ou especifica um termo (“a expressão ‘Ministério Público’”). Com verbo transitivo direto, o <strong>“se”</strong> é pronome apassivador e há sujeito; com verbo intransitivo, transitivo indireto ou de ligação, é índice de indeterminação do sujeito.",
+      "esquema": {
+        "rotulo": "termos da oração e como reconhecer",
+        "html": "<table><thead><tr><th>Termo</th><th>O que faz</th><th>Exemplo de prova</th></tr></thead><tbody><tr><td><strong>Sujeito posposto</strong></td><td>Vem depois do verbo e continua sendo sujeito</td><td>“Chegou o novo cartão do Banrisul”; “Vigorava, portanto, a compreensão de que...”</td></tr><tr><td><strong>Sujeito oracional</strong></td><td>Uma oração faz o papel de sujeito</td><td>“bastaria ficarmos quietos”; “Temia-se (...) que as inestimáveis riquezas naturais do Brasil despertassem a cobiça internacional”</td></tr><tr><td><strong>Objeto direto</strong></td><td>Completa verbo sem preposição obrigatória</td><td>“o erro nos acompanhará”; “Ela nos força (...) a tomar partido”</td></tr><tr><td><strong>Objeto indireto</strong></td><td>Completa verbo com preposição</td><td>Obedeceu às normas; Assistiu ao debate.</td></tr><tr><td><strong>Complemento nominal</strong></td><td>Completa substantivo, adjetivo ou advérbio, com preposição</td><td>“dificuldade em abrir mão das nossas crenças”</td></tr><tr><td><strong>Predicativo do sujeito</strong></td><td>Característica do sujeito, ligada pelo verbo</td><td>“Inúmeros são os benefícios”: “Inúmeros” é predicativo</td></tr><tr><td><strong>Predicativo do objeto</strong></td><td>Característica do objeto</td><td>“A CF declara o MP como instituição permanente”</td></tr><tr><td><strong>Adjunto adverbial</strong></td><td>Circunstância (tempo, modo, intensidade)</td><td>“estão se transformando drasticamente”</td></tr><tr><td><strong>Aposto</strong></td><td>Explica ou especifica outro termo</td><td>“a expressão ‘Ministério Público’”</td></tr><tr><td><strong>“Se” apassivador</strong></td><td>Com verbo transitivo direto; há sujeito</td><td>“tratava-se a instituição”; “sempre se escuta”</td></tr><tr><td><strong>“Se” índice de indeterminação</strong></td><td>Com verbo sem objeto direto; sujeito indeterminado</td><td>Precisa-se de servidores. Vive-se bem aqui.</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "PERGUNTE AO VERBO",
+          "texto": "“Quem” ou “o que” pratica a ação ou sofre o estado é o sujeito, esteja ele antes ou depois do verbo. A posição não decide a função."
+        },
+        {
+          "sigla": "SE APASSIVADOR OU ÍNDICE DE INDETERMINAÇÃO",
+          "texto": "Verbo transitivo direto mais “se”: passiva sintética, com sujeito. Verbo sem objeto direto mais “se”: sujeito indeterminado."
+        },
+        {
+          "sigla": "ORAÇÃO NO LUGAR DO TERMO",
+          "texto": "Uma oração pode ser sujeito, objeto ou complemento nominal. Troque-a por “isso” e veja que função “isso” teria."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "No período “No Império, tratava-se a instituição no Código de Processo Criminal”, o sujeito de “tratava-se” é indeterminado pelo emprego do pronome “se”.",
+        "gabarito": "E",
+        "explicacao": "“Tratar”, ali, é transitivo direto (tratar algo), e o “se” é pronome apassivador: a oração está na voz passiva sintética, e o sujeito é “a instituição” (a instituição era tratada no Código). O mesmo vale para “nomeando-se desembargadores”, cujo sujeito é “desembargadores” (Cebraspe, Promotor MPSC 2023)."
+      },
+      "aprofundamento": "<p><strong>Sujeito depois do verbo.</strong> Em “Vigorava, portanto, a compreensão de que assumir compromissos (...) implicaria o decréscimo da soberania nacional”, o trecho “a compreensão (...)” é sujeito, e não complemento de “Vigorava” (Cebraspe, PC-DF 2024). Também é sujeito “o novo cartão do Banrisul”, em “Chegou o novo cartão” (Banrisul 2022), e “castigo”, em “À expiação que tripudia sobre o corpo deve suceder um castigo” (PF 2025).</p><p><strong>Oração que é sujeito.</strong> Em “bastaria ficarmos quietos esperando que a história se fizesse”, a oração “ficarmos quietos” é o sujeito de “bastaria”, e não o seu complemento (Cebraspe, Promotor MPSC 2023). Em “Temia-se, nesse sentido, que as inestimáveis riquezas (...) despertassem a cobiça internacional”, a oração com “que” é sujeito de “Temia-se” (PC-DF 2024).</p><p><strong>“Nos” é objeto direto.</strong> Em “o erro nos acompanhará para sempre”, “nos” é complemento de “acompanhará” (Cebraspe, TCE-RJ 2021). Em “Ela nos força, a cada momento, a tomar partido”, “nos” é objeto direto (força alguém a algo), e não objeto indireto (Promotor MPSC 2023).</p><p><strong>Sujeito do gerúndio.</strong> Em “os algoritmos passam a decidir autonomamente, superando a programação original”, quem supera a programação são os algoritmos, e não os robôs citados antes (Cebraspe, Promotor MPSC 2023).</p><p><strong>Predicativo do objeto e aposto.</strong> Em “A CF declara o MP como instituição permanente e essencial à função jurídica”, o trecho com “como” é predicativo do objeto “o MP”; e “a expressão ‘Ministério Público’” contém aposto (Cebraspe, Promotor MPSC 2023).</p><p><strong>“Se” com verbo pronominal não indetermina.</strong> Em “Nem se lembram dessa outra prestação que se paga a toda hora”, o primeiro “se” faz parte do verbo pronominal “lembrar-se”, e o segundo é apassivador (“que é paga”). É errado dizer que os dois indeterminam o sujeito (Cebraspe, INSS 2022).</p><p><strong>Mesma função, termos diferentes.</strong> “Drasticamente”, em “estão se transformando drasticamente”, e “mais”, em outro trecho do texto, exercem a mesma função de adjunto adverbial (Cebraspe, Banco Central 2024). E as orações “de aceitar as verdades mais simples” e “em abrir mão das nossas crenças” têm a mesma função de complemento de um nome (CNJ 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "concordancia-verbal-e-nominal",
+        "coordenacao-e-subordinacao",
+        "regencia-verbal-e-nominal"
+      ]
+    },
+    {
+      "slug": "coordenacao-e-subordinacao",
+      "titulo": "Coordenação e subordinação: orações e o sentido das conjunções",
+      "grupo": "Norma gramatical",
+      "base": "Itens de período composto da Cebraspe",
+      "tax": [
+        "portugues.coordenacao",
+        "portugues.subordinacao"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "período composto",
+        "coordenação",
+        "subordinação",
+        "oração adjetiva",
+        "oração adverbial",
+        "conjunções"
+      ],
+      "palavras": [
+        "oracao coordenada",
+        "oracao subordinada",
+        "conjuncao",
+        "adversativa",
+        "explicativa",
+        "causal",
+        "concessiva",
+        "consecutiva",
+        "oracao adjetiva restritiva",
+        "oracao adjetiva explicativa",
+        "oracao reduzida",
+        "gerundio"
+      ],
+      "resumo": "No período composto, as orações se ligam por <strong>coordenação</strong> (independentes: aditivas, adversativas, alternativas, conclusivas, explicativas) ou por <strong>subordinação</strong> (uma depende da outra: substantivas, adjetivas e adverbiais). A Cebraspe pergunta sobretudo <strong>que relação de sentido</strong> a conjunção ou a oração estabelece: causa, consequência, concessão, condição, explicação, conclusão. Três armadilhas se repetem: (1) trocar uma conjunção por outra de <strong>relação diferente</strong> (“uma vez que”, causal, por “de modo que”, consecutivo); (2) confundir <strong>adjetiva explicativa</strong> (com vírgulas, vale para todo o grupo) com <strong>restritiva</strong> (sem vírgulas, recorta o grupo); (3) ler o sentido de uma <strong>oração reduzida</strong> de gerúndio ou infinitivo sem testar com a conjunção (“Não sendo um servo” é “como não sou servo”, causa, e não concessão).",
+      "esquema": {
+        "rotulo": "conjunções e relações que mais caem",
+        "html": "<table><thead><tr><th>Relação</th><th>Conjunções típicas</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Adversativa (coordenada)</strong></td><td>mas, porém, contudo, todavia, entretanto, no entanto</td><td>Estudou muito, mas não passou.</td></tr><tr><td><strong>Conclusiva (coordenada)</strong></td><td>logo, portanto, por isso, pois (depois do verbo)</td><td>Estudou muito; passou, pois, no concurso.</td></tr><tr><td><strong>Explicativa (coordenada)</strong></td><td>pois (antes do verbo), porque, que</td><td>“pois as leis trabalhistas ainda se baseiam em um antigo sistema”</td></tr><tr><td><strong>Causal (subordinada)</strong></td><td>porque, como (no início), uma vez que, visto que, porquanto</td><td>“uma vez que o processo decisório decorreu de um aprendizado automático”</td></tr><tr><td><strong>Consecutiva (subordinada)</strong></td><td>tão... que, tal... que, de modo que, de forma que</td><td>“são de tal monta, que qualquer fórmula (...) seria inaceitável”</td></tr><tr><td><strong>Concessiva (subordinada)</strong></td><td>embora, conquanto, ainda que, mesmo que, apesar de que</td><td>Embora o prazo fosse curto, a equipe entregou.</td></tr><tr><td><strong>Condicional (subordinada)</strong></td><td>se, caso, desde que, contanto que</td><td>Se o prazo for mantido, haverá atraso.</td></tr><tr><td><strong>Substantiva</strong></td><td>que, se (integrantes)</td><td>“Temia-se (...) que as inestimáveis riquezas (...) despertassem a cobiça”</td></tr><tr><td><strong>Adjetiva explicativa</strong></td><td>que, o qual, cujo, entre vírgulas</td><td>“plataformas digitais, que conectam ofertantes e demandantes de trabalho”</td></tr><tr><td><strong>Adjetiva restritiva</strong></td><td>que, o qual, cujo, sem vírgulas</td><td>Os servidores que faltaram foram notificados.</td></tr><tr><td><strong>Reduzida</strong></td><td>gerúndio, infinitivo ou particípio</td><td>“Não sendo um servo” = como não sou servo (causa)</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "DESENVOLVA A REDUZIDA",
+          "texto": "Troque o gerúndio ou o infinitivo por uma conjunção e o verbo flexionado: “Não sendo um servo” vira “Como não sou servo”. A conjunção que encaixa dá o sentido."
+        },
+        {
+          "sigla": "CAUSA NÃO É CONSEQUÊNCIA",
+          "texto": "“Uma vez que”, “visto que”, “porquanto”: causa. “De modo que”, “de forma que”, “tanto que”: consequência. Trocar uma pela outra muda o sentido."
+        },
+        {
+          "sigla": "VÍRGULA NA ADJETIVA",
+          "texto": "Com vírgula, a oração com “que” explica e vale para todos; sem vírgula, restringe."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em “Mas vejamos o que acontece se eu tento fazer uso da minha liberdade legal. Não sendo um servo, eu resolvo parar de trabalhar”, a oração “Não sendo um servo” expressa circunstância de concessão.",
+        "gabarito": "E",
+        "explicacao": "A oração reduzida de gerúndio expressa causa: “como não sou um servo, eu resolvo parar de trabalhar”. Não há ideia de concessão (“embora não seja um servo”), e o mesmo vale para “Não sendo ligado à terra” (Cebraspe, PF 2025)."
+      },
+      "aprofundamento": "<p><strong>Adjetiva com vírgula é explicativa.</strong> Em “à mediação de plataformas digitais, que conectam ofertantes e demandantes de trabalho”, a oração adjetiva vem depois de vírgula e é explicativa: ela não restringe o sentido de “plataformas digitais”, como dizia o item errado (Cebraspe, Banco Central 2024).</p><p><strong>“Pois” explicativo.</strong> A oração introduzida por “pois”, em “pois as leis trabalhistas ainda se baseiam em um antigo sistema”, explica o que se afirma na oração anterior (Cebraspe, Banco Central 2024).</p><p><strong>“Uma vez que” é causa.</strong> Em “torna difícil indicar quem seria o responsável pelo dano, uma vez que o processo decisório decorreu de um aprendizado automático”, “uma vez que” introduz a causa, e não a consequência (Cebraspe, Promotor MPSC 2023). Trocar “uma vez que” por “de modo que” muda a relação de sentido, de causa para consequência (CNJ 2024).</p><p><strong>Interrogativa não é adjetiva.</strong> Em “Mas a rosa, se a não apanha o jardineiro, que será ela no dia seguinte”, o “que” é interrogativo e introduz uma pergunta. É errado dizer que “que será ela no dia seguinte” é oração adjetiva explicativa (Cebraspe, INSS 2022).</p><p><strong>“Mas” que atenua.</strong> Em “Conclusões falsas são tiradas todo o tempo, mas elas constituem tentativas”, a oração com “mas” atenua a força argumentativa da primeira (Cebraspe, TCE-RJ 2021). A adversativa nem sempre nega: muitas vezes ela ressalva.</p><p><strong>Reduzida de infinitivo desenvolvida.</strong> Trocar “ao agir de forma autônoma” por “quando agiu de forma autônoma” mantém a correção e o paralelismo temporal do período (Cebraspe, Promotor MPSC 2023).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "pontuacao-e-emprego-da-virgula",
+        "sintaxe-da-oracao-termos",
+        "significacao-das-palavras"
+      ]
+    },
+    {
+      "slug": "tempos-e-modos-verbais",
+      "titulo": "Tempos e modos verbais: o que cada forma expressa",
+      "grupo": "Norma gramatical",
+      "base": "Itens de emprego de tempos e modos da Cebraspe",
+      "tax": [
+        "portugues.tempos-modos-verbais"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "tempos verbais",
+        "modos verbais",
+        "presente histórico",
+        "futuro do pretérito",
+        "modo subjuntivo",
+        "locução verbal"
+      ],
+      "palavras": [
+        "tempo verbal",
+        "modo verbal",
+        "indicativo",
+        "subjuntivo",
+        "imperativo",
+        "preterito perfeito",
+        "preterito imperfeito",
+        "futuro do preterito",
+        "presente historico",
+        "locucao verbal",
+        "infinitivo",
+        "haver de",
+        "voz passiva"
+      ],
+      "resumo": "A Cebraspe cobra <strong>o valor</strong> de cada forma verbal no texto, mais do que a conjugação. O <strong>indicativo</strong> apresenta o fato como certo; o <strong>subjuntivo</strong>, como hipótese, desejo ou eventualidade (“de quem se fosse padrinho”); o <strong>imperativo</strong>, como ordem ou pedido. No passado, o <strong>pretérito perfeito</strong> apresenta o fato como concluído (“foi”), e o <strong>imperfeito</strong>, como contínuo ou habitual (“era”). O <strong>presente histórico</strong> narra fato passado no presente para aproximá-lo do leitor (“só surge em 1609”). O <strong>futuro do pretérito</strong> exprime hipótese, incerteza ou polidez (“seria”, “poderiam”). Na <strong>locução verbal</strong>, só o auxiliar se flexiona: “os sistemas passam a decidir”, e não “passam a decidirem”. “Haver de” mais infinitivo exprime futuro ou obrigação (“hão de esperar”).",
+      "esquema": {
+        "rotulo": "o que cada tempo e modo expressa",
+        "html": "<table><thead><tr><th>Forma</th><th>Valor</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Presente do indicativo</strong></td><td>Fato atual, verdade geral ou hábito</td><td>O setor atende das 8h às 17h.</td></tr><tr><td><strong>Presente histórico</strong></td><td>Fato passado narrado no presente</td><td>“a figura do promotor de justiça só surge em 1609”</td></tr><tr><td><strong>Pretérito perfeito</strong></td><td>Fato concluído</td><td>“foi vista, durante certo tempo”</td></tr><tr><td><strong>Pretérito imperfeito</strong></td><td>Fato contínuo, habitual ou durativo no passado</td><td>“era vista”; “Vigorava, portanto, a compreensão”</td></tr><tr><td><strong>Pretérito mais-que-perfeito</strong></td><td>Fato anterior a outro fato passado</td><td>Quando chegou, a sessão já começara (tinha começado).</td></tr><tr><td><strong>Futuro do presente</strong></td><td>Fato posterior ao momento da fala</td><td>“o erro nos acompanhará para sempre”</td></tr><tr><td><strong>Futuro do pretérito</strong></td><td>Hipótese, incerteza, polidez ou futuro em relação ao passado</td><td>“seria simplesmente inaceitável”; “poderiam ter dificuldades”</td></tr><tr><td><strong>Subjuntivo</strong></td><td>Hipótese, desejo, dúvida ou eventualidade</td><td>“qualquer fórmula que impusesse”; “de quem se fosse padrinho”</td></tr><tr><td><strong>Imperativo</strong></td><td>Ordem, pedido ou conselho</td><td>Encaminhe o relatório até sexta.</td></tr><tr><td><strong>Locução verbal</strong></td><td>Só o auxiliar se flexiona</td><td>“acabaram por se impor”; “passam a decidir”</td></tr><tr><td><strong>“Haver de” mais infinitivo</strong></td><td>Futuro ou obrigação</td><td>“os que hão de esperar nas filas”</td></tr><tr><td><strong>Verbo “poder”</strong></td><td>Possibilidade, e não dúvida de quem escreve</td><td>“um deles pode ser dinheiro”</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "AUXILIAR FLEXIONA, PRINCIPAL NÃO",
+          "texto": "Na locução, o infinitivo ou o gerúndio fica invariável: “acabaram por se impor”, “passam a decidir”."
+        },
+        {
+          "sigla": "SUBJUNTIVO É HIPÓTESE",
+          "texto": "O subjuntivo não indica, sozinho, condição: em “qualquer fórmula que impusesse uma sistemática”, ele exprime hipótese. Condição é dada pela conjunção (se, caso)."
+        },
+        {
+          "sigla": "HÃO NÃO É HAVERÃO",
+          "texto": "“Hão” é presente do indicativo de “haver”. A ideia de futuro vem da locução “haver de” mais infinitivo."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "No trecho “os que hão de esperar nas filas”, o termo “hão” corresponde a uma forma abreviada de “haverão” e, como tal, diz respeito ao tempo futuro.",
+        "gabarito": "E",
+        "explicacao": "“Hão” é a terceira pessoa do plural do presente do indicativo de “haver”, e não abreviação de “haverão”. A noção de futuro vem da locução “haver de” mais infinitivo (“hão de esperar” = vão esperar, terão de esperar) (Cebraspe, INSS 2022)."
+      },
+      "aprofundamento": "<p><strong>Perfeito por imperfeito.</strong> Trocar “foi vista, durante certo tempo,” por “era vista” mantém a correção e a coerência, porque a percepção durou certo tempo e depois foi superada (Cebraspe, PC-DF 2024).</p><p><strong>Subjuntivo de hipótese.</strong> Em “qualquer fórmula que, sob o pretexto ecológico, impusesse uma sistemática de consulta”, o subjuntivo “impusesse” expressa hipótese, e não condição (Cebraspe, PC-DF 2024). Em “a mãe de um filho de quem se fosse padrinho”, “fosse” descreve uma eventualidade no passado (PGE-RJ 2022).</p><p><strong>Presente histórico.</strong> Em “No Brasil, a figura do promotor de justiça só surge em 1609, quando é regulamentado o Tribunal de Relação na Bahia”, o presente narra fato passado; em seu lugar, caberia o pretérito perfeito (Cebraspe, Promotor MPSC 2023).</p><p><strong>Infinitivo da locução não se flexiona.</strong> É errado flexionar o infinitivo em “os sistemas de IA passam a decidir” (“passam a decidirem”) (Cebraspe, Promotor MPSC 2023) e em “o autocontrole e a moderação das emoções que acabaram por se impor” (“por se imporem”) (PRF 2021).</p><p><strong>“Poder” não é dúvida.</strong> Em “há outros fatores que interferem na saúde mental (...) e um deles pode ser dinheiro”, a locução “pode ser” indica possibilidade; é errado dizer que ela mostra que os pesquisadores duvidam do efeito do dinheiro (Cebraspe, MPCE 2025).</p><p><strong>Verbo que não é pronominal.</strong> Acrescentar “se” a “difere” (“difere-se” ou “se difere”) prejudica a correção, porque “diferir”, no sentido de ser diferente, não é pronominal (Cebraspe, TCE-RJ 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "concordancia-verbal-e-nominal",
+        "reescrita-de-frases-e-substituicao-de-trechos",
+        "coordenacao-e-subordinacao"
+      ]
+    },
+    {
+      "slug": "redacao-oficial",
+      "titulo": "Redação oficial: atributos, padrão ofício, pronomes de tratamento e e-mail",
+      "grupo": "Redação oficial",
+      "base": "Manual de Redação da Presidência da República, 3ª edição (2018)",
+      "tax": [
+        "portugues.redacao-oficial",
+        "portugues.expedientes-oficiais",
+        "portugues.linguagem-documento"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "redação oficial",
+        "Manual de Redação da Presidência da República",
+        "padrão ofício",
+        "pronomes de tratamento",
+        "comunicação oficial"
+      ],
+      "palavras": [
+        "redacao oficial",
+        "manual de redacao",
+        "mrpr",
+        "oficio",
+        "memorando",
+        "aviso",
+        "vossa excelencia",
+        "vocativo",
+        "fecho",
+        "respeitosamente",
+        "atenciosamente",
+        "email oficial",
+        "impessoalidade",
+        "clareza",
+        "concisao"
+      ],
+      "resumo": "A banca cobra a redação oficial pelo <strong>Manual de Redação da Presidência da República</strong> (3ª edição, 2018). Os <strong>atributos</strong> do texto oficial são clareza, precisão, objetividade, concisão, coesão e coerência, impessoalidade, formalidade e padronização e uso da norma-padrão. Cada um tem um sentido próprio: <strong>impessoalidade</strong> é a ausência de impressões pessoais de quem escreve e o tratamento igual a todos, e não clareza. A 3ª edição <strong>unificou</strong> aviso, ofício e memorando no <strong>padrão ofício</strong>. Nos <strong>pronomes de tratamento</strong>, “Vossa Excelência” vai para altas autoridades e “Vossa Senhoria” para as demais; o vocativo “Excelentíssimo Senhor” fica para os chefes de Poder. O <strong>fecho</strong> é “Respeitosamente,” para autoridade superior e “Atenciosamente,” para mesma hierarquia ou inferior. O <strong>e-mail</strong> é comunicação oficial, com linguagem formal, e só tem valor documental com certificação digital.",
+      "esquema": {
+        "rotulo": "o que o Manual exige",
+        "html": "<table><thead><tr><th>Ponto</th><th>Regra do Manual</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Atributos</strong></td><td>Clareza, precisão, objetividade, concisão, coesão e coerência, impessoalidade, formalidade e padronização, norma-padrão</td><td>“Informatividade” não está na lista</td></tr><tr><td><strong>Padrão ofício</strong></td><td>Aviso, ofício e memorando passaram a ser só “ofício”</td><td>Ofício nº 25/2026/SG/MJ</td></tr><tr><td><strong>Vossa Excelência</strong></td><td>Altas autoridades dos três Poderes</td><td>Ministros de Estado, parlamentares, juízes</td></tr><tr><td><strong>Vossa Senhoria</strong></td><td>Demais autoridades e particulares</td><td>Diretores, chefes de seção, cidadãos</td></tr><tr><td><strong>Vocativo</strong></td><td>“Excelentíssimo Senhor” só para chefes de Poder; demais, “Senhor” mais cargo; sempre seguido de vírgula</td><td>Excelentíssimo Senhor Presidente da República, / Senhor Ministro,</td></tr><tr><td><strong>Endereçamento</strong></td><td>“A Sua Excelência o Senhor” ou “Ao Senhor”</td><td>A Sua Excelência o Senhor Fulano de Tal</td></tr><tr><td><strong>Fecho</strong></td><td>“Respeitosamente,” para superior; “Atenciosamente,” para igual ou inferior</td><td>Atenciosamente,</td></tr><tr><td><strong>Signatário</strong></td><td>Nome e cargo, com o cargo flexionado em gênero</td><td>Fulana de Tal / Diretora de Gestão</td></tr><tr><td><strong>Assunto</strong></td><td>Resumo do teor do documento</td><td>“Assunto: Realização de concurso público.”</td></tr><tr><td><strong>E-mail</strong></td><td>Linguagem formal, sem emojis; valor documental só com certificação digital</td><td>Fecho “Atenciosamente,”, e não “Abraços,”</td></tr><tr><td><strong>Formas abolidas</strong></td><td>“Digníssimo” e “Ilustríssimo” não se usam</td><td>Senhor Diretor, (e não Ilustríssimo Senhor Diretor)</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "CHEFE DE PODER É EXCELENTÍSSIMO",
+          "texto": "O vocativo “Excelentíssimo Senhor” é só para os chefes de Poder (Presidente da República, Presidente do Congresso Nacional e Presidente do STF). As demais autoridades recebem “Senhor” mais o cargo."
+        },
+        {
+          "sigla": "SUPERIOR RESPEITOSAMENTE, IGUAL OU INFERIOR ATENCIOSAMENTE",
+          "texto": "Os dois fechos do padrão ofício, sempre seguidos de vírgula."
+        },
+        {
+          "sigla": "IMPESSOALIDADE NÃO É CLAREZA",
+          "texto": "Impessoalidade é tirar do texto as impressões de quem escreve. Ser claro e direto são outros atributos (clareza e objetividade)."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em ofício dirigido pelo ministro presidente do STJ ao ministro presidente do STF, deve-se empregar, no endereçamento, “A Sua Excelência o Senhor” e, como vocativo, “Senhor Ministro”, por tratar-se de autoridades de mesma hierarquia.",
+        "gabarito": "E",
+        "explicacao": "O destinatário é chefe de Poder (o Presidente do STF chefia o Judiciário), e para os chefes de Poder o vocativo é “Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,”. O endereçamento “A Sua Excelência o Senhor” está certo (Cebraspe, STJ 2024)."
+      },
+      "aprofundamento": "<p><strong>Atributo que não existe.</strong> É errado incluir “informatividade” entre as características da redação oficial (Cebraspe, PRF 2021). Também foi dado como errado dizer que a impessoalidade é o atributo que torna a comunicação clara e objetiva: impessoalidade é a ausência de impressões pessoais (MP-GO 2024).</p><p><strong>Precisão.</strong> A precisão inclui articular a linguagem comum ou técnica para a perfeita compreensão da ideia do texto (Cebraspe, STJ 2024).</p><p><strong>Cargo no feminino e vocativo com vírgula.</strong> Na identificação de signatária, o cargo se flexiona em gênero; é errado dizer que a flexão se dispensa. E o vocativo deve sempre ser seguido de vírgula (Cebraspe, PRF 2021).</p><p><strong>E-mail oficial.</strong> O e-mail institucional só tem valor documental, e só pode ser aceito como documento original, com certificação digital; é errado dizer que ele vale por si só (Cebraspe, PRF 2021). Nele, a linguagem é formal e não se usam emojis (MP-GO 2024). Num e-mail de um coordenador à equipe, o campo “Assunto” estava adequado, mas o fecho “Abraços,” e a assinatura não seguiam o Manual (PF 2025).</p><p><strong>Assunto.</strong> O assunto resume o que será tratado, no formato “Assunto: Realização de concurso público.” (Cebraspe, PRF 2021).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "concordancia-verbal-e-nominal",
+        "pontuacao-e-emprego-da-virgula",
+        "significacao-das-palavras"
       ]
     }
   ]
