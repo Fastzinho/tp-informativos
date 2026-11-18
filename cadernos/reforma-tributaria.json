@@ -1,0 +1,785 @@
+{
+ "slug": "reforma-tributaria",
+ "titulo": "Caderno de Reforma Tributária",
+ "disciplina": "Reforma Tributária",
+ "ordem": 20,
+ "descricao": "A reforma tributária do consumo organizada por tema: IBS, CBS, Imposto Seletivo, split payment, cashback e transição, com o texto da EC 132/2023 e da LC 214/2025, esquemas e pegadinhas de banca.",
+ "ramo": "direito-tributario",
+ "revisado_em": "2026-11-18",
+ "revisado_rotulo": "Texto da CF e da LC 214/2025 conferido",
+ "temas": [
+  {
+   "slug": "visao-geral-da-reforma-tributaria",
+   "titulo": "Visão geral da reforma tributária do consumo",
+   "grupo": "Visão geral",
+   "base": "EC 132/2023; arts. 149-B, 153, VIII, 156-A e 195, V, da CF; arts. 1º e 2º da LC 214/2025",
+   "tax": [
+    "tributario.reforma-tributaria"
+   ],
+   "dispositivos": [
+    "nCF-1988-art-156-a",
+    "nCF-1988-art-149-b",
+    "nCF-1988-art-153",
+    "n214-2025-art-1",
+    "n214-2025-art-2"
+   ],
+   "conceitos": [
+    "reforma tributária",
+    "EC 132/2023",
+    "IVA dual",
+    "IBS",
+    "CBS",
+    "Imposto Seletivo"
+   ],
+   "palavras": [
+    "iva dual",
+    "ec 132",
+    "lc 214",
+    "lc 227",
+    "neutralidade",
+    "tributacao do consumo",
+    "destino"
+   ],
+   "resumo": "A EC 132/2023 trocou cinco tributos sobre o consumo por um <strong>IVA dual</strong>: a <strong>CBS</strong>, federal (art. 195, V, da CF), substitui PIS e Cofins; o <strong>IBS</strong>, de competência compartilhada entre Estados, DF e Municípios (art. 156-A), substitui ICMS e ISS. Os dois seguem as mesmas regras de fato gerador, base, imunidades, regimes e créditos (art. 149-B). Ao lado deles veio o <strong>Imposto Seletivo</strong>, federal e extrafiscal, sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII). A LC 214/2025, já alterada pela LC 227/2026, instituiu os três e diz que IBS e CBS são informados pelo princípio da <strong>neutralidade</strong> (art. 2º).",
+   "esquema": {
+    "rotulo": "quem substitui quem",
+    "html": "<table><thead><tr><th>Novo tributo</th><th>Competência</th><th>Substitui</th><th>Base na CF</th></tr></thead><tbody><tr><td><strong>CBS</strong></td><td>União</td><td>PIS e Cofins</td><td>Art. 195, V</td></tr><tr><td><strong>IBS</strong></td><td>Compartilhada: Estados, DF e Municípios</td><td>ICMS e ISS</td><td>Art. 156-A</td></tr><tr><td><strong>Imposto Seletivo</strong></td><td>União</td><td>Não substitui tributo. O IPI continua existindo</td><td>Art. 153, VIII</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 149-B. Os tributos previstos nos arts. 156-A e 195, V, observarão as mesmas regras em relação a:\n\nI - fatos geradores, bases de cálculo, hipóteses de não incidência e sujeitos passivos;\n\nII - imunidades;\n\nIII - regimes específicos, diferenciados ou favorecidos de tributação;\n\nIV - regras de não cumulatividade e de creditamento.\n\nParágrafo único. Os tributos de que trata o caput observarão as imunidades previstas no art. 150, VI, não se aplicando a ambos os tributos o disposto no art. 195, § 7º. (Artigo acrescido pela Emenda Constitucional nº 132, de 2023)",
+     "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+     "norma": "nCF-1988"
+    },
+    {
+     "texto": "Art. 1º Ficam instituídos:\n\nI - o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, Municípios e Distrito Federal, de que trata o art. 156-A da Constituição Federal; e\n\nII - a Contribuição Social sobre Bens e Serviços (CBS), de competência da União, de que trata o inciso V do caput do art. 195 da Constituição Federal.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 2º O IBS e a CBS são informados pelo princípio da neutralidade, segundo o qual esses tributos devem evitar distorcer as decisões de consumo e de organização da atividade econômica, observadas as exceções previstas na Constituição Federal e nesta Lei Complementar.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "CBS = UNIÃO; IBS = TODOS OS OUTROS",
+     "texto": "O \"C\" de contribuição lembra a União (contribuições sociais são federais). O IBS é o imposto dos entes subnacionais, com uma lei só para o país inteiro."
+    },
+    {
+     "sigla": "MESMAS REGRAS",
+     "texto": "Fato gerador, base, imunidades, regimes e créditos de IBS e CBS são iguais por força do art. 149-B. O que muda é quem fixa a alíquota e quem arrecada."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A reforma tributária do consumo extinguiu o IPI e o substituiu pelo Imposto Seletivo.",
+    "gabarito": "E",
+    "explicacao": "O IPI não foi extinto. O Imposto Seletivo é um tributo novo, extrafiscal, sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII, da CF). PIS e Cofins dão lugar à CBS, e ICMS e ISS ao IBS."
+   },
+   "relacionados": [
+    "incidencia-do-ibs-e-da-cbs",
+    "transicao-da-reforma-tributaria",
+    "imposto-seletivo"
+   ]
+  },
+  {
+   "slug": "incidencia-do-ibs-e-da-cbs",
+   "titulo": "Incidência do IBS e da CBS: fato gerador, não incidência, imunidades e local da operação",
+   "grupo": "IBS e CBS",
+   "base": "Arts. 4º a 11 da LC 214/2025; art. 156-A, § 1º, da CF",
+   "tax": [
+    "tributario.reforma-ibs-cbs-incidencia"
+   ],
+   "dispositivos": [
+    "n214-2025-art-4",
+    "n214-2025-art-6",
+    "n214-2025-art-9",
+    "n214-2025-art-10",
+    "n214-2025-art-11"
+   ],
+   "conceitos": [
+    "fato gerador do IBS",
+    "operação onerosa",
+    "local da operação",
+    "imunidade do IBS"
+   ],
+   "palavras": [
+    "operacao onerosa",
+    "nao incidencia",
+    "imunidade",
+    "destino",
+    "local da operacao",
+    "fornecimento",
+    "locacao",
+    "exportacao"
+   ],
+   "resumo": "IBS e CBS incidem sobre <strong>operações onerosas com bens ou serviços</strong>, conceito amplo que inclui locação, cessão, mútuo oneroso e arrendamento (art. 4º, § 2º). As operações não onerosas só são tributadas quando a lei manda (§ 1º), e lucro, forma jurídica e título da posse são irrelevantes (§ 3º). Não incidem, entre outros, sobre serviço de empregado, transferência entre estabelecimentos do mesmo contribuinte e dividendos (art. 6º). O fato gerador ocorre no <strong>fornecimento</strong> (art. 10), e o local da operação define o <strong>destino</strong>, que fica com a arrecadação (art. 11). As imunidades repetem as clássicas (entes públicos, templos, livros, partidos e entidades sem fins lucrativos) e somam outras (art. 9º).",
+   "esquema": {
+    "rotulo": "onde a operação acontece (art. 11)",
+    "html": "<table><thead><tr><th>Operação</th><th>Local</th></tr></thead><tbody><tr><td>Bem móvel material</td><td>Entrega ou disponibilização ao destinatário</td></tr><tr><td>Bem imóvel e serviço sobre imóvel</td><td>Onde o imóvel está</td></tr><tr><td>Serviço prestado fisicamente sobre pessoa física</td><td>Onde o serviço é prestado</td></tr><tr><td>Transporte de passageiros</td><td>Início do transporte</td></tr><tr><td>Transporte de carga</td><td>Entrega do bem ao destinatário</td></tr><tr><td>Exploração de via (pedágio)</td><td>Cada ente, pela extensão da via</td></tr><tr><td>Telefonia fixa por cabo</td><td>Instalação do terminal</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 4º O IBS e a CBS incidem sobre operações onerosas com bens ou com serviços.\n\n§ 1º As operações não onerosas com bens ou com serviços serão tributadas nas hipóteses expressamente previstas nesta Lei Complementar.\n\n§ 2º Para fins do disposto neste artigo, considera-se operação onerosa com bens ou com serviços qualquer fornecimento com contraprestação, incluindo o decorrente de:\n\nI - compra e venda, troca ou permuta, dação em pagamento e demais espécies de alienação;\n\nII - locação;\n\nIII - licenciamento, concessão, cessão;\n\nIV - mútuo oneroso;\n\nV - doação com contraprestação em benefício do doador;\n\nVI - instituição onerosa de direitos reais;\n\nVII - arrendamento, inclusive mercantil; e\n\nVIII - prestação de serviços.\n\n§ 3º São irrelevantes para a caracterização das operações de que trata este artigo:\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 10. Considera-se ocorrido o fato gerador do IBS e da CBS no momento do fornecimento nas operações com bens ou com serviços, ainda que de execução continuada ou fracionada.\n\n§ 1º Para fins do disposto no caput deste artigo, considera-se ocorrido o fornecimento no momento:\n\nI - do início do transporte, na prestação de serviço de transporte iniciado no País;\n\nII - do término do transporte, na prestação de serviço de transporte de carga quando iniciado no exterior;\n\nIII - do término do fornecimento, no caso dos demais serviços;\n\nIV - em que o bem for encontrado desacobertado de documentação fiscal idônea; e\n\nV - da aquisição do bem nas hipóteses de:\n\na) licitação promovida pelo poder público de bem apreendido ou abandonado; ou\n\nb) leilão judicial.\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "ONEROSA EM REGRA",
+     "texto": "Contraprestação basta. Gratuito só é tributado se a LC 214 disser (art. 4º, § 1º), e o lucro nunca importa (§ 3º, III)."
+    },
+    {
+     "sigla": "PASSAGEIRO SAI; CARGA CHEGA",
+     "texto": "No transporte de passageiros vale o início; no de carga, o lugar da entrega (art. 11, VI e VII)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Como não há transferência de propriedade, a locação de bens fica fora do campo de incidência do IBS e da CBS.",
+    "gabarito": "E",
+    "explicacao": "A locação está no rol de operações onerosas (art. 4º, § 2º, II, da LC 214/2025). Por isso o IBS alcança a locação de imóveis, que o ISS não alcançava."
+   },
+   "relacionados": [
+    "contribuintes-do-ibs-e-da-cbs",
+    "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "contribuintes-do-ibs-e-da-cbs",
+   "titulo": "Contribuintes do IBS e da CBS, plataformas digitais e Simples Nacional",
+   "grupo": "IBS e CBS",
+   "base": "Arts. 21 a 26 e 41 da LC 214/2025",
+   "tax": [
+    "tributario.reforma-contribuintes"
+   ],
+   "dispositivos": [
+    "n214-2025-art-21",
+    "n214-2025-art-22",
+    "n214-2025-art-26",
+    "n214-2025-art-41"
+   ],
+   "conceitos": [
+    "contribuinte do IBS",
+    "plataforma digital",
+    "nanoempreendedor"
+   ],
+   "palavras": [
+    "contribuinte",
+    "plataforma digital",
+    "marketplace",
+    "responsavel",
+    "nanoempreendedor",
+    "condominio",
+    "simples nacional",
+    "mei",
+    "regime regular"
+   ],
+   "resumo": "É contribuinte quem fornece bens ou serviços no desenvolvimento de atividade econômica, de modo habitual ou de forma profissional, ainda que a profissão não seja regulamentada; também o importador e o adquirente em leilão judicial ou em licitação de bem apreendido (art. 21). As <strong>plataformas digitais</strong>, mesmo no exterior, respondem pelo tributo das operações feitas por elas, em substituição ao fornecedor estrangeiro ou solidariamente com o fornecedor nacional que não emite nota (art. 22). <strong>Não são contribuintes</strong> o condomínio edilício, a SCP, o <strong>nanoempreendedor</strong>, o produtor rural e o transportador autônomo de carga nas condições da lei, entre outros (art. 26), e alguns podem optar pelo regime regular. Quem está no <strong>Simples</strong> segue o Simples, mas pode optar por recolher IBS e CBS pelo regime regular (art. 41, § 3º).",
+   "esquema": {
+    "rotulo": "quem paga",
+    "html": "<table><thead><tr><th>Situação</th><th>Regra</th></tr></thead><tbody><tr><td>Fornecedor habitual ou profissional</td><td>Contribuinte (art. 21, I)</td></tr><tr><td>Arrematante em leilão judicial</td><td>Contribuinte, mesmo sem habitualidade (art. 21, II)</td></tr><tr><td>Plataforma digital com fornecedor no exterior</td><td>Responsável, em substituição ao fornecedor (art. 22, I)</td></tr><tr><td>Condomínio edilício, SCP, nanoempreendedor</td><td>Não contribuinte; condomínio e SCP podem optar (art. 26, § 1º)</td></tr><tr><td>Optante do Simples</td><td>Recolhe no Simples ou opta pelo regime regular (art. 41)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 21. É contribuinte do IBS e da CBS:\n\nI - o fornecedor que realizar operações:\n\na) no desenvolvimento de atividade econômica;\n\nb) de modo habitual ou em volume que caracterize atividade econômica; ou\n\nc) de forma profissional, ainda que a profissão não seja regulamentada;\n\nII - o adquirente, ainda que não enquadrado no inciso I deste caput, na aquisição de bem:\n\na) apreendido ou abandonado, em licitação promovida pelo poder público; ou\n\nb) em leilão judicial;\n\nIII - o importador;\n\nIV - aquele previsto expressamente em outras hipóteses nesta Lei Complementar.\n\n§ 1º O contribuinte de que trata o caput deste artigo é obrigado a se inscrever nos cadastros relativos ao IBS e à CBS.\n\n§ 2º O fornecedor residente ou domiciliado no exterior fica obrigado a se cadastrar como contribuinte caso realize operações no País ou como responsável tributário no caso de importações, observada a definição do local da operação prevista no art. 11 e o disposto no art. 23 desta Lei Complementar.\n\n§ 3º O regulamento também poderá exigir inscrição nos cadastros relativos ao IBS e à CBS dos responsáveis pelo cumprimento de obrigações principais ou acessórias previstas nesta Lei Complementar.\n\n§ 4º Na importação de bens materiais, o disposto no § 2º deste artigo somente se aplica às remessas internacionais sujeitas a regime de tributação simplificada nos termos do art. 95.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 26. Não são contribuintes do IBS e da CBS, ressalvado o disposto no inciso II do § 1º do art. 156-A da Constituição Federal:\n\nI - condomínio edilício;\n\nII - consórcio de que trata o art. 278 da Lei nº 6.404, de 15 de dezembro de 1976;\n\nIII - sociedade em conta de participação;\n\nIV - nanoempreendedor, assim entendido a pessoa física que tenha auferido receita bruta inferior a 50% (cinquenta por cento) do limite estabelecido para adesão ao regime do MEI previsto no § 1º do art. 18-A observado ainda o disposto nos §§ 4º e 4º- B do referido artigo da Lei Complementar nº 123, de 14 de dezembro de 2006, e não tenha aderido a esse regime; e\n\nV - fundos de investimento, observado o disposto nos §§ 5º-A a 8º-A deste artigo; (Inciso vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado no DOU de 2/7/2025, com redação dada pela Lei Complementar nº 227, de 13/1/2026)\n\nVI - produtor rural de que trata o art. 164 desta Lei Complementar;\n\nVII - transportador autônomo de carga de que trata o art. 169 desta Lei Complementar;\n\nVIII - entidade ou unidade de natureza econômico-contábil, sem fins lucrativos que presta serviços de planos de assistência à saúde sob a modalidade de autogestão;\n\nIX - entidades de previdência complementar fechada, constituídas de acordo com a Lei Complementar nº 109, de 29 de maio de 2001; e\n\nX - fundos patrimoniais instituídos nos termos da Lei nº 13.800, de 4 de janeiro de 2019. (Inciso vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado no DOU de 2/7/2025)\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "PLATAFORMA NO EXTERIOR TAMBÉM",
+     "texto": "Domicílio no exterior não livra a plataforma: ela se inscreve no regime regular e responde (arts. 22 e 23)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O nanoempreendedor, pessoa física com receita bruta inferior a 50% do limite do MEI que não aderiu a esse regime, é contribuinte do IBS e da CBS.",
+    "gabarito": "E",
+    "explicacao": "Ele está no rol de quem não é contribuinte (art. 26, IV, da LC 214/2025)."
+   },
+   "relacionados": [
+    "incidencia-do-ibs-e-da-cbs",
+    "nao-cumulatividade-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs",
+   "titulo": "Base de cálculo e alíquotas do IBS e da CBS",
+   "grupo": "IBS e CBS",
+   "base": "Arts. 12, 14, 15 e 18 da LC 214/2025; art. 156-A, § 1º, V a VII, IX e XII, da CF",
+   "tax": [
+    "tributario.reforma-base-aliquotas"
+   ],
+   "dispositivos": [
+    "n214-2025-art-12",
+    "n214-2025-art-14",
+    "n214-2025-art-15",
+    "n214-2025-art-18"
+   ],
+   "conceitos": [
+    "alíquota de referência",
+    "base de cálculo do IBS",
+    "cálculo por fora"
+   ],
+   "palavras": [
+    "aliquota de referencia",
+    "resolucao do senado",
+    "por fora",
+    "descontos incondicionais",
+    "destino",
+    "aliquota padrao"
+   ],
+   "resumo": "A base é o <strong>valor da operação</strong>, com juros, multas, descontos condicionais e tributos sobre a operação (art. 12, § 1º). Ficam fora o próprio IBS e a CBS (cálculo <strong>por fora</strong>), o IPI, os <strong>descontos incondicionais</strong> e, até 2032, ICMS, ISS, PIS e Cofins (§ 2º). Cada ente fixa a própria alíquota por lei específica: a União a da CBS, cada Estado e cada Município a sua parte do IBS (art. 14). Sem lei do ente, vale a <strong>alíquota de referência</strong>, fixada por <strong>resolução do Senado</strong> (arts. 14, § 3º, e 18). A alíquota do IBS na operação é a soma da do Estado com a do Município <strong>de destino</strong> (art. 15).",
+   "esquema": {
+    "rotulo": "entra ou não entra na base (art. 12)",
+    "html": "<table><thead><tr><th>Integra a base</th><th>Não integra</th></tr></thead><tbody><tr><td>Juros, multas e encargos</td><td>O próprio IBS e a CBS</td></tr><tr><td>Descontos sob condição</td><td>Descontos incondicionais</td></tr><tr><td>Frete cobrado pelo fornecedor</td><td>IPI</td></tr><tr><td>Tributos e tarifas sobre a operação</td><td>ICMS, ISS, PIS e Cofins de 2026 a 2032</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 14. As alíquotas da CBS e do IBS serão fixadas por lei específica do respectivo ente federativo, nos seguintes termos:\n\nI - a União fixará a alíquota da CBS;\n\nII - cada Estado fixará sua alíquota do IBS;\n\nIII - cada Município fixará sua alíquota do IBS; e\n\nIV - o Distrito Federal exercerá as competências estadual e municipal na fixação de suas alíquotas.\n\n§ 1º Para fins do disposto no inciso III do caput deste artigo, o Estado de Pernambuco exercerá a competência municipal relativamente às operações realizadas no Distrito Estadual de Fernando de Noronha, conforme o art. 15 do Ato das Disposições Constitucionais Transitórias (ADCT).\n\n§ 2º Ao fixar sua alíquota, cada ente federativo poderá:\n\nI - vinculá-la à alíquota de referência da respectiva esfera federativa, de que trata o art. 18 desta Lei Complementar, por meio de acréscimo ou decréscimo de pontos percentuais; ou\n\nII - defini-la sem vinculação à alíquota de referência da respectiva esfera federativa.\n\n§ 3º Na ausência de lei específica que estabeleça a alíquota do ente federativo, será aplicada a alíquota de referência da respectiva esfera federativa.\n\n§ 4º As referências nesta Lei Complementar às alíquotas-padrão devem ser entendidas como remissões às alíquotas fixadas por cada ente federativo nos termos deste artigo.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 15. A alíquota do IBS incidente sobre cada operação corresponderá:\n\nI - à soma:\n\na) da alíquota do Estado de destino da operação; e\n\nb) da alíquota do Município de destino da operação; ou\n\nII - à alíquota do Distrito Federal, quando este for o destino da operação.\n\nParágrafo único. Para fins do disposto neste artigo, o destino da operação é o local da ocorrência da operação, definido nos termos do art. 11 desta Lei Complementar.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 18. As alíquotas de referência serão fixadas por resolução do Senado Federal:\n\nI - para a CBS, de 2027 a 2035, nos termos dos arts. 353 a 359, 366, 368 e 369 desta Lei Complementar;\n\nII - para o IBS, de 2029 a 2035, nos termos dos arts. 361 a 366 e 369 desta Lei Complementar;\n\nIII - para o IBS e a CBS, após 2035, as vigentes no ano anterior.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "SEM LEI, REFERÊNCIA",
+     "texto": "Ente que não legislou não fica sem tributo: aplica-se a alíquota de referência da sua esfera (art. 14, § 3º)."
+    },
+    {
+     "sigla": "CONDICIONAL ENTRA",
+     "texto": "Desconto que depende de evento futuro entra na base; o incondicional sai (art. 12, § 1º, III, e § 2º, III)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "As alíquotas de referência do IBS e da CBS são fixadas por lei complementar.",
+    "gabarito": "E",
+    "explicacao": "São fixadas por resolução do Senado Federal (art. 18 da LC 214/2025; art. 156-A, § 1º, XII, da CF)."
+   },
+   "relacionados": [
+    "incidencia-do-ibs-e-da-cbs",
+    "transicao-da-reforma-tributaria"
+   ]
+  },
+  {
+   "slug": "nao-cumulatividade-do-ibs-e-da-cbs",
+   "titulo": "Não cumulatividade, créditos e apuração do IBS e da CBS",
+   "grupo": "IBS e CBS",
+   "base": "Arts. 42, 43, 47 e 49 da LC 214/2025; art. 156-A, § 1º, VIII, da CF",
+   "tax": [
+    "tributario.reforma-nao-cumulatividade"
+   ],
+   "dispositivos": [
+    "n214-2025-art-42",
+    "n214-2025-art-43",
+    "n214-2025-art-47",
+    "n214-2025-art-49"
+   ],
+   "conceitos": [
+    "não cumulatividade plena",
+    "crédito financeiro",
+    "uso ou consumo pessoal"
+   ],
+   "palavras": [
+    "credito",
+    "nao cumulatividade plena",
+    "credito financeiro",
+    "uso e consumo pessoal",
+    "apuracao",
+    "ressarcimento",
+    "credito presumido"
+   ],
+   "resumo": "A não cumulatividade é <strong>plena</strong>: o contribuinte do regime regular credita tudo o que comprou, com a única exceção expressa das aquisições de <strong>uso ou consumo pessoal</strong> (art. 47; CF, art. 156-A, § 1º, VIII). Mas o crédito depende de o débito da etapa anterior ter sido <strong>extinto</strong> (pago, compensado ou recolhido no split payment) e de <strong>documento fiscal eletrônico idôneo</strong>. IBS e CBS são apurados separadamente e <strong>não se compensam entre si</strong> (§ 1º, I). Compra de optante do Simples também gera crédito (§ 3º). Operação imune, isenta, com alíquota zero, diferimento ou suspensão não gera crédito ao adquirente, salvo crédito presumido previsto em lei (art. 49). A apuração é <strong>mensal</strong> e consolida todos os estabelecimentos (arts. 42 e 43).",
+   "esquema": {
+    "rotulo": "ICMS antigo × IBS",
+    "html": "<table><thead><tr><th></th><th>ICMS (LC 87/1996)</th><th>IBS e CBS (LC 214/2025)</th></tr></thead><tbody><tr><td><strong>Crédito</strong></td><td>Físico, com restrições (uso e consumo só a partir de 2033)</td><td>Financeiro, amplo; só sai o uso ou consumo pessoal</td></tr><tr><td><strong>Condição</strong></td><td>Documento idôneo e escrituração</td><td>Documento eletrônico idôneo e débito anterior extinto</td></tr><tr><td><strong>Apuração</strong></td><td>Por estabelecimento</td><td>Centralizada, mensal</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 47. O contribuinte sujeito ao regime regular poderá apropriar créditos do IBS e da CBS quando ocorrer a extinção por qualquer das modalidades previstas no art. 27 dos débitos relativos às operações em que seja adquirente, excetuadas exclusivamente aquelas consideradas de uso ou consumo pessoal, nos termos do art. 57 desta Lei Complementar, e as demais hipóteses previstas nesta Lei Complementar.\n\n§ 1º A apropriação dos créditos de que trata o caput deste artigo:\n\nI - será realizada de forma segregada para o IBS e para a CBS, vedadas, em qualquer hipótese, a compensação de créditos de IBS com valores devidos de CBS e a compensação de créditos de CBS com valores devidos de IBS; e\n\nII - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.\n\n§ 2º Os valores dos créditos do IBS e da CBS apropriados corresponderão:\n\nI - aos valores dos débitos, respectivamente, do IBS e da CBS que tenham sido destacados no documento fiscal de aquisição e extintos por qualquer das modalidades previstas no art. 27; ou\n\nII - aos valores de crédito presumido, nas hipóteses previstas nesta Lei Complementar.\n\n§ 3º O disposto neste artigo aplica-se, inclusive, nas aquisições de bem ou serviço fornecido por optante pelo Simples Nacional.\n\n§ 4º Nas operações em que o contribuinte seja adquirente de combustíveis tributados no regime específico de que trata o Capítulo I do Título V deste Livro, fica dispensada a comprovação de extinção dos débitos do IBS e da CBS para apropriação dos créditos.\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 49. As operações imunes, isentas ou sujeitas a alíquota zero, a diferimento ou a suspensão não permitirão a apropriação de créditos pelos adquirentes dos bens e serviços.\n\nParágrafo único. O disposto no caput deste artigo não impede a apropriação dos créditos presumidos previstos expressamente nesta Lei Complementar.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "PAGOU, CREDITA",
+     "texto": "No IBS e na CBS, o crédito nasce da extinção do débito do fornecedor, não só da nota (art. 47, caput e § 2º, I)."
+    },
+    {
+     "sigla": "IBS NÃO PAGA CBS",
+     "texto": "Crédito de um não abate débito do outro, em qualquer hipótese (art. 47, § 1º, I)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na aquisição isenta de IBS e CBS, o adquirente sujeito ao regime regular pode apropriar crédito pela alíquota de referência.",
+    "gabarito": "E",
+    "explicacao": "Operações isentas, imunes ou com alíquota zero não permitem crédito ao adquirente, salvo crédito presumido expresso (art. 49 da LC 214/2025)."
+   },
+   "relacionados": [
+    "split-payment",
+    "contribuintes-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "split-payment",
+   "titulo": "Extinção dos débitos e split payment",
+   "grupo": "IBS e CBS",
+   "base": "Arts. 27 e 31 a 33 da LC 214/2025",
+   "tax": [
+    "tributario.reforma-split-payment"
+   ],
+   "dispositivos": [
+    "n214-2025-art-27",
+    "n214-2025-art-31",
+    "n214-2025-art-32",
+    "n214-2025-art-33"
+   ],
+   "conceitos": [
+    "split payment",
+    "pagamento dividido",
+    "liquidação financeira"
+   ],
+   "palavras": [
+    "split payment",
+    "pagamento dividido",
+    "recolhimento na liquidacao",
+    "pix",
+    "cartao",
+    "procedimento simplificado",
+    "extincao"
+   ],
+   "resumo": "Os débitos de IBS e CBS se extinguem por compensação com créditos, pagamento, <strong>split payment</strong>, recolhimento pelo adquirente ou pagamento pelo responsável (art. 27). No split payment, quem segrega e recolhe o tributo ao Comitê Gestor e à Receita Federal são os <strong>prestadores de serviços de pagamento</strong> e as operadoras de sistemas de pagamento, no momento da liquidação financeira (art. 31). No <strong>procedimento padrão</strong>, o originador da transação informa a operação e os valores dos tributos (art. 32). No <strong>simplificado</strong>, que é opcional, retém-se um percentual preestabelecido do valor, que não guarda relação com o débito real e vale obrigatoriamente para os dois tributos (art. 33).",
+   "esquema": {
+    "rotulo": "padrão × simplificado",
+    "html": "<table><thead><tr><th></th><th>Padrão (art. 32)</th><th>Simplificado (art. 33)</th></tr></thead><tbody><tr><td><strong>Valor retido</strong></td><td>O IBS e a CBS da operação</td><td>Percentual preestabelecido do valor</td></tr><tr><td><strong>Quem fixa o percentual</strong></td><td>—</td><td>Comitê Gestor (IBS) e Receita Federal (CBS)</td></tr><tr><td><strong>Adesão</strong></td><td>Regra</td><td>Opcional; para os dois tributos juntos</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 27. Os débitos do IBS e da CBS decorrentes da incidência sobre operações com bens ou com serviços serão extintos mediante as seguintes modalidades:\n\nI - compensação com créditos, respectivamente, de IBS e de CBS apropriados pelo contribuinte, nos termos dos arts. 47 a 56 e das demais disposições desta Lei Complementar;\n\nII - pagamento pelo contribuinte;\n\nIII - recolhimento na liquidação financeira da operação (split payment), nos termos dos arts. 31 a 35 desta Lei Complementar;\n\nIV - recolhimento pelo adquirente, nos termos do art. 36 desta Lei Complementar; ou\n\nV - pagamento por aquele a quem esta Lei Complementar atribuir responsabilidade.\n\nParágrafo único. A extinção de débitos de que trata o caput deste artigo:\n\nI - nas hipóteses dos incisos I e II do caput deste artigo, será imputada aos valores dos débitos não extintos do IBS e da CBS incidentes sobre as operações ocorridas no período de apuração na ordem cronológica do documento fiscal, segundo critérios estabelecidos no regulamento;\n\nII - nas hipóteses dos incisos III e IV do caput deste artigo, será vinculada à respectiva operação; e\n\nIII - na hipótese do inciso V do caput deste artigo, será vinculada à operação específica a que se refere ou, caso não se refira a uma operação específica, será imputada na forma do inciso I deste parágrafo.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "QUEM DIVIDE É O BANCO",
+     "texto": "No split payment, a segregação é feita por quem liquida o pagamento, não pelo fornecedor (art. 31)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No procedimento simplificado do split payment, o contribuinte pode aplicá-lo só ao IBS e manter a CBS no procedimento padrão.",
+    "gabarito": "E",
+    "explicacao": "É vedado aplicar o procedimento simplificado para apenas um dos tributos (art. 33, § 2º, I, da LC 214/2025)."
+   },
+   "relacionados": [
+    "nao-cumulatividade-do-ibs-e-da-cbs",
+    "comite-gestor-do-ibs"
+   ]
+  },
+  {
+   "slug": "regimes-diferenciados-do-ibs-e-da-cbs",
+   "titulo": "Regimes diferenciados: reduções de 30% e 60% e alíquota zero",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Arts. 126 a 128 e 143 da LC 214/2025; art. 9º da EC 132/2023",
+   "tax": [
+    "tributario.reforma-regimes-diferenciados",
+    "tributario.reforma-regimes-especificos"
+   ],
+   "dispositivos": [
+    "n214-2025-art-126",
+    "n214-2025-art-127",
+    "n214-2025-art-128",
+    "n214-2025-art-143",
+    "n214-2025-art-181"
+   ],
+   "conceitos": [
+    "regimes diferenciados",
+    "alíquota reduzida",
+    "regimes específicos"
+   ],
+   "palavras": [
+    "reducao de 60",
+    "reducao de 30",
+    "aliquota zero",
+    "educacao",
+    "saude",
+    "medicamentos",
+    "profissionais liberais",
+    "regime especifico",
+    "servicos financeiros",
+    "combustiveis"
+   ],
+   "resumo": "Os <strong>regimes diferenciados</strong> valem de modo uniforme no país inteiro e são compensados por ajuste nas alíquotas de referência (art. 126). Há três faixas: <strong>redução de 30%</strong> para serviços de profissionais intelectuais fiscalizados por conselho, como administradores, advogados e contadores (art. 127); <strong>redução de 60%</strong> para educação, saúde, dispositivos médicos, medicamentos, alimentos, higiene pessoal e insumos agropecuários, entre outros (art. 128); e <strong>alíquota zero</strong> para itens como produtos hortícolas, frutas e ovos, absorventes, certos medicamentos e automóveis de PcD, TEA e taxistas (art. 143). Os <strong>regimes específicos</strong> são outra coisa: mudam a própria forma de cobrança em setores como combustíveis, serviços financeiros e bens imóveis (art. 181 e seguintes).",
+   "esquema": {
+    "rotulo": "as três faixas",
+    "html": "<table><thead><tr><th>Faixa</th><th>Exemplos</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>−30%</strong></td><td>Profissionais intelectuais com conselho profissional</td><td>127</td></tr><tr><td><strong>−60%</strong></td><td>Educação, saúde, medicamentos, alimentos, higiene, insumos agropecuários</td><td>128</td></tr><tr><td><strong>Zero</strong></td><td>Cesta básica nacional, hortícolas, frutas e ovos, saúde menstrual, carro de PcD, TEA e taxista</td><td>125 e 143</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 126. Ficam instituídos regimes diferenciados do IBS e da CBS, de maneira uniforme em todo o território nacional, conforme estabelecido neste Título, com a aplicação de alíquotas reduzidas ou com a concessão de créditos presumidos, assegurados os respectivos ajustes nas alíquotas de referência do IBS e da CBS, com vistas a reequilibrar a arrecadação.\n\n§ 1º Atendidos os requisitos próprios, os regimes diferenciados de que trata este Capítulo aplicam-se, no que couber, à importação dos bens e serviços nele previstos.\n\n§ 2º A alteração das operações com bens ou com serviços beneficiadas pelos regimes diferenciados de que trata este Capítulo, mediante acréscimo, exclusão ou substituição, somente entrará em vigor após o cumprimento do disposto nos §§ 9º e 11 do art. 156-A da Constituição Federal.\n\n§ 3º O disposto no § 2º deste artigo não se aplica às hipóteses de que tratam o § 2º do art. 131, o § 2º do art. 132, o art. 134, o § 10 do art. 138, o § 2º do art. 144, o § 2º do art. 145 e o § 3º do art. 146 desta Lei Complementar desde que seus efeitos, considerados conjuntamente a cada período de revisão, não resultem em elevação superior a 0,02 (dois centésimos) ponto percentual da alíquota de referência da CBS, da alíquota de referência estadual do IBS ou da alíquota de referência municipal do IBS.\n\n§ 4º As reduções de alíquotas de que trata este Título serão aplicadas sobre as alíquotas-padrão do IBS e da CBS de cada ente federativo, fixadas na forma do art. 14 desta Lei Complementar.\n\n§ 5º A apropriação dos créditos presumidos previstos neste Título fica condicionada:\n\nI - à emissão de documento fiscal eletrônico relativo à operação pelo adquirente, com identificação do respectivo fornecedor; e\n\nII - ao efetivo pagamento ao fornecedor.\n\n§ 6º O disposto no § 1º deste artigo não se aplica às remessas internacionais sujeitas ao Regime de Tributação Simplificada (RTS), exceto na hipótese de produtos acabados pertencentes a classes de medicamentos importados por pessoa física para uso próprio ou individual. (Parágrafo acrescido pela Lei Complementar nº 227, de 13/1/2026)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 128. Desde que observadas as definições e demais disposições deste Capítulo, ficam reduzidas em 60% (sessenta por cento) as alíquotas do IBS e da CBS incidentes sobre operações com:\n\nI - serviços de educação;\n\nII - serviços de saúde;\n\nIII - dispositivos médicos;\n\nIV - dispositivos de acessibilidade próprios para pessoas com deficiência;\n\nV - medicamentos;\n\nVI - alimentos destinados ao consumo humano;\n\nVII - produtos de higiene pessoal e limpeza majoritariamente consumidos por famílias de baixa renda;\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 143. Desde que observadas as definições e demais disposições deste Capítulo, ficam reduzidas a zero as alíquotas do IBS e da CBS incidentes sobre operações com os seguintes bens e serviços:\n\nI - dispositivos médicos;\n\nII - dispositivos de acessibilidade próprios para pessoas com deficiência;\n\nIII - medicamentos;\n\nIV - produtos de cuidados básicos à saúde menstrual;\n\nV - produtos hortícolas, frutas e ovos;\n\nVI - automóveis de passageiros adquiridos por pessoas com deficiência ou com transtorno do espectro autista;\n\nVII - automóveis de passageiros adquiridos por motoristas profissionais que destinem o automóvel à utilização na categoria de aluguel (táxi); e\n\nVIII - serviços prestados por Instituição Científica, Tecnológica e de Inovação (ICT) sem fins lucrativos.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "30 PROFISSIONAL, 60 ESSENCIAL",
+     "texto": "Profissão regulamentada com conselho leva 30%; bens e serviços essenciais (educação, saúde, comida) levam 60%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os automóveis de passageiros comprados por taxistas para uso na categoria de aluguel têm redução de 60% nas alíquotas do IBS e da CBS.",
+    "gabarito": "E",
+    "explicacao": "Têm alíquota zero (art. 143, VII, da LC 214/2025), assim como os comprados por pessoas com deficiência ou com TEA (inciso VI)."
+   },
+   "relacionados": [
+    "cesta-basica-e-cashback",
+    "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "cesta-basica-e-cashback",
+   "titulo": "Cesta Básica Nacional e devolução personalizada (cashback)",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Arts. 112 a 125 da LC 214/2025; art. 156-A, § 13, da CF",
+   "tax": [
+    "tributario.reforma-cashback-cesta"
+   ],
+   "dispositivos": [
+    "n214-2025-art-112",
+    "n214-2025-art-113",
+    "n214-2025-art-118",
+    "n214-2025-art-125"
+   ],
+   "conceitos": [
+    "cashback tributário",
+    "devolução personalizada",
+    "Cesta Básica Nacional"
+   ],
+   "palavras": [
+    "cashback",
+    "devolucao personalizada",
+    "cadunico",
+    "baixa renda",
+    "cesta basica",
+    "aliquota zero",
+    "botijao",
+    "energia eletrica"
+   ],
+   "resumo": "Os produtos da <strong>Cesta Básica Nacional de Alimentos</strong> listados no Anexo I têm IBS e CBS com <strong>alíquota zero</strong> (art. 125). Além disso, famílias de baixa renda inscritas no <strong>CadÚnico</strong> recebem de volta parte do tributo que pagaram: a CBS é devolvida pela União e o IBS pelos Estados, DF e Municípios (arts. 112 e 113). Na regra geral, a devolução é de <strong>20%</strong> da CBS e do IBS. No botijão de gás de até 13 kg, na energia elétrica, na água, no esgoto, no gás canalizado e nas telecomunicações, é de <strong>100% da CBS e 20% do IBS</strong> (art. 118). Cada ente pode subir o seu percentual por lei específica, nunca baixar, e a devolução não pode passar do tributo efetivamente suportado (arts. 118, § 1º, e 120).",
+   "esquema": {
+    "rotulo": "percentuais do cashback (art. 118)",
+    "html": "<table><thead><tr><th>Consumo</th><th>CBS</th><th>IBS</th></tr></thead><tbody><tr><td>Gás de botijão até 13 kg, energia, água, esgoto, gás canalizado, telecomunicações</td><td>100%</td><td>20%</td></tr><tr><td>Demais casos</td><td>20%</td><td>20%</td></tr><tr><td>Lei do ente</td><td colspan=\"2\">Pode fixar percentual maior (exceto os 100% da CBS)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 112. Serão devolvidos, nos termos e limites previstos neste Capítulo, para pessoas físicas que forem integrantes de famílias de baixa renda:\n\nI - a CBS, pela União; e\n\nII - o IBS, pelos Estados, pelo Distrito Federal e pelos Municípios.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 118. O percentual a ser aplicado nos termos do art. 117 desta Lei Complementar será de:\n\nI - 100% (cem por cento) para a CBS e 20% (vinte por cento) para o IBS na aquisição de botijão de até 13 kg (treze quilogramas) de gás liquefeito de petróleo, nas operações de fornecimento domiciliar de energia elétrica, abastecimento de água, esgotamento sanitário e gás canalizado e nas operações de fornecimento de telecomunicações; e\n\nII - 20% (vinte por cento) para a CBS e para o IBS, nos demais casos.\n\n§ 1º A União, os Estados, o Distrito Federal e os Municípios poderão, por lei específica, fixar percentuais de devolução da sua parcela da CBS ou do IBS superiores aos previstos nos incisos I e II do caput, os quais poderão ser diferenciados:\n\nI - em função da renda familiar dos destinatários, observado o disposto no art. 113 desta Lei Complementar;\n\nII - entre os casos previstos nos incisos I e II do caput.\n\n§ 2º Na ausência da fixação de percentuais próprios, as devoluções previstas neste Capítulo serão calculadas mediante aplicação dos percentuais de que tratam os incisos I e II do caput.\n\n§ 3º O disposto no § 1º deste artigo não se aplica ao percentual de devolução da CBS de que trata o inciso I do caput.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 125. Ficam reduzidas a zero as alíquotas do IBS e da CBS incidentes sobre as vendas de produtos destinados à alimentação humana relacionados no Anexo I desta Lei Complementar, com a especificação das respectivas classificações da NCM/SH, que compõem a Cesta Básica Nacional de Alimentos, criada nos termos do art. 8º da Emenda Constitucional nº 132, de 20 de dezembro de 2023.\n\nParágrafo único. Aplica-se o disposto nos §§ 1º e 2º do art. 126 desta Lei Complementar às reduções de alíquotas de que trata o caput deste artigo.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "CONTA DE CASA = 100% DA CBS",
+     "texto": "Serviços essenciais da casa (luz, água, esgoto, gás) e o botijão devolvem toda a CBS; o resto devolve 20%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os produtos da Cesta Básica Nacional de Alimentos têm redução de 60% nas alíquotas do IBS e da CBS.",
+    "gabarito": "E",
+    "explicacao": "Têm alíquota zero (art. 125 da LC 214/2025). A redução de 60% vale para outros alimentos destinados ao consumo humano (art. 128, VI)."
+   },
+   "relacionados": [
+    "regimes-diferenciados-do-ibs-e-da-cbs",
+    "visao-geral-da-reforma-tributaria"
+   ]
+  },
+  {
+   "slug": "imposto-seletivo",
+   "titulo": "Imposto Seletivo",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Art. 153, VIII e § 6º, da CF; arts. 409 a 424 da LC 214/2025",
+   "tax": [
+    "tributario.reforma-imposto-seletivo"
+   ],
+   "dispositivos": [
+    "nCF-1988-art-153",
+    "n214-2025-art-409",
+    "n214-2025-art-410",
+    "n214-2025-art-411",
+    "n214-2025-art-412",
+    "n214-2025-art-413",
+    "n214-2025-art-424"
+   ],
+   "conceitos": [
+    "Imposto Seletivo",
+    "imposto do pecado"
+   ],
+   "palavras": [
+    "imposto seletivo",
+    "imposto do pecado",
+    "extrafiscal",
+    "cigarro",
+    "bebida alcoolica",
+    "bebida acucarada",
+    "mineracao",
+    "fantasy sport",
+    "apostas",
+    "veiculos"
+   ],
+   "resumo": "O <strong>Imposto Seletivo</strong> é federal e extrafiscal: incide sobre a produção, extração, comercialização ou importação de bens e serviços <strong>prejudiciais à saúde ou ao meio ambiente</strong>: veículos, embarcações e aeronaves, fumígenos, bebidas alcoólicas e açucaradas, bens minerais, concursos de prognósticos e fantasy sport (art. 409). Incide <strong>uma única vez</strong>, sem crédito (art. 410), não incide sobre exportações, energia elétrica e telecomunicações (CF, art. 153, § 6º, I; LC, art. 413) e é administrado pela <strong>Receita Federal</strong> (art. 411). As alíquotas vêm de lei ordinária (CF, art. 153, § 6º, VI). Diferentemente do IBS e da CBS, ele <strong>integra</strong> a base desses tributos (§ 6º, IV).",
+   "esquema": {
+    "rotulo": "IS × IBS/CBS",
+    "html": "<table><thead><tr><th></th><th>Imposto Seletivo</th><th>IBS e CBS</th></tr></thead><tbody><tr><td><strong>Finalidade</strong></td><td>Extrafiscal</td><td>Arrecadatória, neutra</td></tr><tr><td><strong>Incidência</strong></td><td>Uma vez só, sem crédito</td><td>Em todas as etapas, com crédito</td></tr><tr><td><strong>Alíquota</strong></td><td>Lei ordinária</td><td>Lei de cada ente; referência do Senado</td></tr><tr><td><strong>Administração</strong></td><td>Receita Federal</td><td>Comitê Gestor (IBS) e Receita Federal (CBS)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 409. Fica instituído o Imposto Seletivo, de que trata o inciso VIII do art. 153 da Constituição Federal, incidente sobre a produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente.\n\n§ 1º Para fins de incidência do Imposto Seletivo, consideram-se prejudiciais à saúde ou ao meio ambiente os bens classificados nos códigos da NCM/SH e o carvão mineral, e os serviços listados no Anexo XVII, referentes a:\n\nI - veículos;\n\nII - embarcações e aeronaves;\n\nIII - produtos fumígenos;\n\nIV - bebidas alcoólicas;\n\nV - bebidas açucaradas;\n\nVI - bens minerais;\n\nVII - concursos de prognósticos e fantasy sport.\n\n§ 2º Os bens a que se referem os incisos III e IV do § 1º estão sujeitos ao Imposto Seletivo quando acondicionados em embalagem primária, assim entendida aquela em contato direto com o produto e destinada ao consumidor final.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 410. O Imposto Seletivo incidirá uma única vez sobre o bem ou serviço, sendo vedado qualquer tipo de aproveitamento de crédito do imposto com operações anteriores ou geração de créditos para operações posteriores.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 411. Compete à RFB a administração e a fiscalização do Imposto Seletivo.\n\nParágrafo único. O contencioso administrativo no âmbito do Imposto Seletivo atenderá ao disposto no Decreto nº 70.235, de 6 de março de 1972.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 413. O Imposto Seletivo não incide sobre:\n\nI - (VETADO);\n\nII - as operações com energia elétrica e com telecomunicações; e\n\nIII - os bens e serviços cujas alíquotas sejam reduzidas nos termos do § 1º do art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "SELETIVO = UMA VEZ",
+     "texto": "Monofásico e sem crédito: o IS não tem não cumulatividade (art. 410)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O Imposto Seletivo é administrado pelo Comitê Gestor do IBS, já que incide sobre bens e serviços também tributados pelo IBS.",
+    "gabarito": "E",
+    "explicacao": "É tributo federal administrado pela Receita Federal do Brasil (art. 411 da LC 214/2025), com contencioso pelo Decreto 70.235/1972."
+   },
+   "relacionados": [
+    "visao-geral-da-reforma-tributaria",
+    "regimes-diferenciados-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "comite-gestor-do-ibs",
+   "titulo": "Comitê Gestor do IBS (CGIBS)",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Art. 156-B da CF; arts. 480 a 484 da LC 214/2025",
+   "tax": [
+    "tributario.reforma-comite-gestor"
+   ],
+   "dispositivos": [
+    "nCF-1988-art-156-b",
+    "n214-2025-art-480",
+    "n214-2025-art-481"
+   ],
+   "conceitos": [
+    "Comitê Gestor do IBS",
+    "CGIBS",
+    "Conselho Superior"
+   ],
+   "palavras": [
+    "comite gestor",
+    "cgibs",
+    "conselho superior",
+    "distribuicao",
+    "arrecadacao do ibs",
+    "lc 227"
+   ],
+   "resumo": "O <strong>Comitê Gestor do IBS</strong> é entidade pública sob regime especial, com sede no DF e independência técnica, administrativa, orçamentária e financeira (art. 480 da LC 214/2025; CF, art. 156-B). Ele arrecada o IBS, faz as compensações e distribui o produto aos entes de destino. A instância máxima é o <strong>Conselho Superior</strong>, com <strong>27 membros dos Estados e do DF</strong> e <strong>27 dos Municípios e do DF</strong>; destes, 14 são eleitos com voto igual para cada Município e 13 com voto ponderado pela população (art. 481).",
+   "esquema": {
+    "rotulo": "Conselho Superior (art. 481)",
+    "html": "<table><thead><tr><th>Bancada</th><th>Membros</th><th>Como são escolhidos</th></tr></thead><tbody><tr><td>Estados e DF</td><td>27</td><td>Indicados pelo chefe do Executivo de cada um</td></tr><tr><td>Municípios e DF</td><td>14</td><td>Eleitos com voto de igual valor por Município</td></tr><tr><td>Municípios e DF</td><td>13</td><td>Eleitos com voto ponderado pela população</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 480. Fica instituído, até 31 de dezembro de 2025, o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS), entidade pública com caráter técnico e operacional sob regime especial, com sede e foro no Distrito Federal, dotado de independência técnica, administrativa, orçamentária e financeira.\n\n§ 1º O CGIBS, nos termos da Constituição Federal e desta Lei Complementar, terá sua atuação caracterizada pela ausência de vinculação, tutela ou subordinação hierárquica a qualquer órgão da administração pública.\n\n§ 2º O regulamento único do IBS definirá o prazo máximo para a realização das atividades de cobrança administrativa, desde que não superior a 12 (doze) meses, contado da constituição definitiva do crédito tributário, após o qual a administração tributária encaminhará o expediente à respectiva procuradoria, para as providências de cobrança judicial ou extrajudicial cabíveis, nos termos definidos no referido regulamento.\n\n§ 3º O CGIBS, a Secretaria Especial da Receita Federal do Brasil e a Procuradoria-Geral da Fazenda Nacional poderão implementar soluções integradas para a futura administração e a cobrança do IBS e da CBS.\n\n§ 4º As normas comuns ao IBS e à CBS constantes do regulamento único do IBS serão aprovadas por ato conjunto do CGIBS e do Poder Executivo federal.\n\n§ 5º O regulamento único do IBS preverá regras uniformes de conformidade tributária, de orientação, de autorregularização e de tratamento diferenciado a contribuintes que atendam a programas de conformidade do IBS estabelecidos pelos entes federativos.\n\n§ 6º As licitações e as contratações realizadas pelo CGIBS serão regidas pelas normas gerais de licitação e contratação aplicáveis às administrações públicas diretas, autárquicas e fundacionais da União, dos Estados, do Distrito Federal e dos Municípios.\n\n§ 7º O CGIBS observará o princípio da publicidade, mediante veiculação de seus atos normativos, preferencialmente por meio eletrônico, disponibilizado na internet.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 481. O Conselho Superior do CGIBS, instância máxima de deliberação do CGIBS, tem a seguinte composição:\n\nI - 27 (vinte e sete) membros e respectivos suplentes, representantes de cada Estado e do Distrito Federal; e\n\nII - 27 (vinte e sete) membros e respectivos suplentes, representantes do conjunto dos Municípios e do Distrito Federal.\n\n§ 1º Os membros e os respectivos suplentes de que trata:\n\nI - o inciso I do caput deste artigo serão indicados pelo Chefe do Poder Executivo de cada Estado e do Distrito Federal; e\n\nII - o inciso II do caput deste artigo serão indicados pelos Chefes dos Poderes Executivos dos Municípios e do Distrito Federal, da seguinte forma:\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "27 + 14 + 13",
+     "texto": "27 cadeiras dos Estados; as 27 dos Municípios se dividem em 14 por voto igual e 13 por população."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Todos os representantes dos Municípios no Conselho Superior do CGIBS são eleitos com votos ponderados pela população.",
+    "gabarito": "E",
+    "explicacao": "São 14 eleitos com voto de igual valor e 13 com voto ponderado pela população (art. 481, § 1º, II, da LC 214/2025)."
+   },
+   "relacionados": [
+    "split-payment",
+    "transicao-da-reforma-tributaria"
+   ]
+  },
+  {
+   "slug": "transicao-da-reforma-tributaria",
+   "titulo": "Transição da reforma tributária (2026 a 2033)",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Arts. 342 a 348 da LC 214/2025; arts. 125 e seguintes do ADCT",
+   "tax": [
+    "tributario.reforma-transicao"
+   ],
+   "dispositivos": [
+    "n214-2025-art-342",
+    "n214-2025-art-343",
+    "n214-2025-art-344",
+    "n214-2025-art-346",
+    "n214-2025-art-347",
+    "n214-2025-art-348"
+   ],
+   "conceitos": [
+    "transição da reforma tributária",
+    "ano de teste"
+   ],
+   "palavras": [
+    "transicao",
+    "2026",
+    "2027",
+    "2033",
+    "ano teste",
+    "0,9%",
+    "0,1%",
+    "extincao do icms",
+    "extincao do iss",
+    "pis cofins"
+   ],
+   "resumo": "<strong>2026 é o ano de teste</strong>: CBS a 0,9% e IBS a 0,1% (estadual), valores compensados com PIS e Cofins do mesmo período ou, na falta deles, com outro tributo federal ou ressarcidos em até 60 dias (arts. 343, 346 e 348). Em 2026, a arrecadação do IBS não segue as repartições constitucionais: financia o Comitê Gestor e o fundo de compensação de benefícios do ICMS (art. 343, parágrafo único). Em <strong>2027 e 2028</strong>, a CBS passa a ser cobrada de verdade (PIS e Cofins acabam) e o IBS fica em 0,05% estadual e 0,05% municipal (arts. 344 e 347). <strong>De 2029 a 2032</strong>, ICMS e ISS caem gradualmente, junto com os benefícios fiscais deles, enquanto o IBS sobe (art. 342). Em <strong>2033</strong>, o sistema novo vale por inteiro.",
+   "esquema": {
+    "rotulo": "linha do tempo",
+    "html": "<table><thead><tr><th>Ano</th><th>CBS</th><th>IBS</th><th>Tributos antigos</th></tr></thead><tbody><tr><td><strong>2026</strong></td><td>0,9% (teste, compensável)</td><td>0,1% estadual (teste)</td><td>Todos continuam</td></tr><tr><td><strong>2027–2028</strong></td><td>Cobrança plena</td><td>0,05% + 0,05%</td><td>PIS e Cofins extintos; ICMS e ISS seguem</td></tr><tr><td><strong>2029–2032</strong></td><td>Plena</td><td>Sobe aos poucos</td><td>ICMS e ISS caem aos poucos</td></tr><tr><td><strong>2033</strong></td><td>Plena</td><td>Pleno</td><td>ICMS e ISS extintos</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "texto": "Art. 343. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026, o IBS será cobrado mediante aplicação da alíquota estadual de 0,1% (um décimo por cento).\n\nParágrafo único. Durante o período indicado no caput deste artigo a arrecadação do IBS não observará as vinculações, repartições e destinações previstas na Constituição Federal, devendo ser aplicada, integral e sucessivamente, para:\n\nI - o financiamento do Comitê Gestor do IBS, nos termos do art. 156-B, § 2º, III, da Constituição Federal; e\n\nII - compor o Fundo de Compensação de Benefícios Fiscais ou Financeiro- Fiscais do ICMS.",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 344. Em relação aos fatos geradores ocorridos de 1º de janeiro de 2027 a 31 de dezembro de 2028, o IBS será cobrado à alíquota estadual de 0,05% (cinco centésimos por cento) e à alíquota municipal de 0,05% (cinco centésimos por cento).\n\nParágrafo único. As alíquotas previstas no caput:\n\nI - serão aplicadas com a respectiva redução no caso das operações sujeitas a alíquota reduzida, no âmbito de regimes diferenciados de tributação;\n\nII - serão aplicadas em relação aos regimes específicos de que trata esta Lei Complementar, observadas as respectivas bases de cálculo, exceto em relação aos combustíveis sujeitos ao regime específico de que tratam os arts. 172 a 180 desta Lei Complementar; e\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 346. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026, a CBS será cobrada mediante aplicação da alíquota de 0,9% (nove décimos por cento).",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    },
+    {
+     "texto": "Art. 348. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026:\n\nI - o montante recolhido do IBS e da CBS será compensado com o valor devido, no mesmo período de apuração, das contribuições previstas no art. 195, inciso I, alínea \"b\", e inciso IV, e da contribuição para o PIS a que se refere o art. 239, ambos da Constituição Federal;\n\nII - caso o contribuinte não possua débitos suficientes para efetuar a compensação de que trata o inciso I, o valor recolhido poderá ser:\n\na) compensado com qualquer outro tributo federal, nos termos da legislação; ou\n\nb) ressarcido em até 60 (sessenta) dias, mediante requerimento;\n\nIII - as alíquotas do IBS e da CBS previstas nos arts. 343 e 346 desta Lei Complementar:\n\n(...)",
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
+     "norma": "n214-2025"
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "9 E 1",
+     "texto": "Em 2026: CBS 0,9% e IBS 0,1%. Somados, 1%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A redução gradual das alíquotas do ICMS e do ISS na transição para o IBS ocorre entre 2027 e 2030.",
+    "gabarito": "E",
+    "explicacao": "A redução de ICMS e ISS, e dos benefícios fiscais ligados a eles, ocorre entre 2029 e 2032 (art. 342, I e II, da LC 214/2025)."
+   },
+   "relacionados": [
+    "visao-geral-da-reforma-tributaria",
+    "comite-gestor-do-ibs"
+   ]
+  }
+ ]
+}
