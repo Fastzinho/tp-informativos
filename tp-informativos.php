@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.18.1
+ * Version: 0.18.2
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.18.1' );
+define( 'TPI_VERSION', '0.18.2' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1041,7 +1041,8 @@ add_shortcode( 'tp_calendario', function ( $atts ) {
 
 /* Próximo informativo: [tp_proximo tribunal="STJ"] */
 add_shortcode( 'tp_proximo', function ( $atts ) {
-	$a    = shortcode_atts( array( 'tribunal' => 'STJ' ), $atts );
+	$a    = shortcode_atts( array( 'tribunal' => 'STJ', 'compacto' => '' ), $atts );
+	$comp = ! empty( $a['compacto'] ); // 0.18.2: versão enxuta do hub (h3, texto curto), abaixo das edições
 	$hoje = wp_date( 'Y-m-d' );
 	$prox = null;
 	foreach ( tpi_calendario_oficial() as $c ) {
@@ -1060,8 +1061,13 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
 	$post = tpi_periodico_por_numero( $prox['tribunal'], $prox['numero'] );
 	$nome = 'Informativo ' . $prox['numero'] . ' do ' . $prox['tribunal'];
 	$hid  = 'tpi-proximo-' . strtolower( $prox['tribunal'] );
-	$html = '<section class="tpi-proximo" aria-labelledby="' . $hid . '"><p class="tpi-proximo__quando">' . ( 1 === $dias ? 'Amanhã' : 'Em ' . $dias . ' dias' ) . '</p>';
-	$html .= '<h2 id="' . $hid . '" class="tpi-proximo__titulo">' . ( ( $post && tpi_linkavel( $post, 'proximo' ) ) ? '<a href="' . esc_url( get_permalink( $post ) ) . '">' . esc_html( $nome ) . '</a>' : esc_html( $nome ) ) . '</h2>';
+	$quando = 1 === $dias ? 'Amanhã' : 'Em ' . $dias . ' dias';
+	$titulo = ( $post && tpi_linkavel( $post, 'proximo' ) ) ? '<a href="' . esc_url( get_permalink( $post ) ) . '">' . esc_html( $nome ) . '</a>' : esc_html( $nome );
+	if ( $comp ) {
+		return '<li class="tpi-proximo tpi-proximo--compacto"><h3 class="tpi-proximo__titulo">' . $titulo . '</h3><p class="tpi-proximo__data">' . esc_html( $quando ) . ' · ' . ( empty( $prox['estimada'] ) ? 'prevista para ' : 'data estimada: ' ) . esc_html( tpi_data_extenso( $prox['data'] ) ) . '</p></li>';
+	}
+	$html = '<section class="tpi-proximo" aria-labelledby="' . $hid . '"><p class="tpi-proximo__quando">' . $quando . '</p>';
+	$html .= '<h2 id="' . $hid . '" class="tpi-proximo__titulo">' . $titulo . '</h2>';
 	$html .= '<p class="tpi-proximo__data">' . ( empty( $prox['estimada'] )
 		? 'Divulgação prevista para ' . esc_html( tpi_data_extenso( $prox['data'] ) ) . ', segundo o calendário oficial do tribunal.'
 		: 'Data estimada: ' . esc_html( tpi_data_extenso( $prox['data'] ) ) . '. O tribunal ainda não publicou o calendário desta edição.' ) . ' Os julgados entram comentados aqui no dia da divulgação.</p></section>';
@@ -1554,8 +1560,12 @@ add_shortcode( 'tp_buscador', function () {
 
 	// Vitrine (também aparece abaixo dos resultados, mais enxuta)
 	if ( ! tpi_busca_ativa() ) {
-		$html .= '<div class="tpi-proximos">' . do_shortcode( '[tp_proximo tribunal="STJ"]' ) . do_shortcode( '[tp_proximo tribunal="STF"]' ) . '</div>';
+		// 0.18.2: o conteúdo já publicado vem primeiro; as próximas edições ficam logo abaixo, compactas e com link (pré-páginas indexáveis).
 		$html .= '<section class="tpi-vitrine" aria-labelledby="tpi-ed-titulo"><h2 id="tpi-ed-titulo">Informativos comentados por edição</h2>' . do_shortcode( '[tp_edicoes]' ) . '</section>';
+		$prox  = do_shortcode( '[tp_proximo tribunal="STJ" compacto="1"]' ) . do_shortcode( '[tp_proximo tribunal="STF" compacto="1"]' );
+		if ( $prox ) {
+			$html .= '<section class="tpi-proximas" aria-labelledby="tpi-prox-titulo"><h2 id="tpi-prox-titulo">Próximas edições</h2><ul class="tpi-proximos">' . $prox . '</ul></section>';
+		}
 	}
 	if ( $ramos ) {
 		$html .= '<section class="tpi-ramos" aria-labelledby="tpi-ramos-titulo"><h2 id="tpi-ramos-titulo">Navegue por ramo do Direito</h2><ul>';
