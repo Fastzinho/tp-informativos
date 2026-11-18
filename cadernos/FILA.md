@@ -44,6 +44,12 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 |---|---|---|
 | `aplicacao-da-pena` | 1 | STJ 909: Atenuante da confissão espontânea |
 
+## Direito Previdenciário (`direito-previdenciario`)
+
+| Tema (slug) | Conceitos que pedem | Onde |
+|---|---|---|
+| `qualidade-de-segurado` | 1 | STJ 910: Qualidade de segurado e período de graça |
+
 ## Direito Processual Civil (`direito-processual-civil`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
