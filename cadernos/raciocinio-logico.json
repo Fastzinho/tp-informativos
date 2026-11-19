@@ -1,0 +1,480 @@
+{
+  "slug": "raciocinio-logico",
+  "titulo": "Caderno de Raciocínio Lógico",
+  "disciplina": "Raciocínio Lógico",
+  "ordem": 20,
+  "descricao": "Raciocínio Lógico organizado por tema e pelo que a Cebraspe mais cobra: proposições e conectivos, tabelas-verdade, equivalências e negações, argumentação, conjuntos, análise combinatória, probabilidade, porcentagem e juros, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais.",
+  "revisado_em": "2026-11-18",
+  "revisado_rotulo": "Itens de prova checados com o gabarito definitivo e, quando havia, com a justificativa oficial da Cebraspe",
+  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da lógica proposicional e da matemática do ensino médio e das provas de Raciocínio Lógico da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo, e as contas foram refeitas uma a uma; os do TC-DF 2023 também com a justificativa oficial de cada item. A escolha dos temas segue o que mais apareceu em 51 provas recentes da Cebraspe e da FGV.</p>",
+  "temas": [
+    {
+      "slug": "proposicoes-e-conectivos",
+      "titulo": "Proposições e conectivos lógicos",
+      "grupo": "Lógica proposicional",
+      "base": "Itens de lógica da Cebraspe com gabarito definitivo",
+      "tax": [
+        "rlm.estruturas-logicas",
+        "rlm.proposicoes-conectivos"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "proposição",
+        "conectivos lógicos",
+        "condicional",
+        "conjunção",
+        "disjunção"
+      ],
+      "palavras": [
+        "proposicao",
+        "sentenca aberta",
+        "conectivo",
+        "conjuncao",
+        "disjuncao",
+        "condicional",
+        "bicondicional",
+        "negacao",
+        "valor logico",
+        "se entao",
+        "ou exclusivo"
+      ],
+      "resumo": "<strong>Proposição</strong> é a frase declarativa que pode ser julgada <strong>verdadeira ou falsa</strong>, nunca as duas coisas. Não são proposições as perguntas, as ordens, as exclamações, as <strong>sentenças abertas</strong> (“x + 3 = 7”, “ele foi aprovado”) e os paradoxos (“esta frase é falsa”). A proposição é <strong>simples</strong> quando afirma uma só coisa e <strong>composta</strong> quando junta proposições simples por <strong>conectivos</strong>: negação (~), conjunção (∧, “e”, “mas”, “nem”), disjunção inclusiva (∨, “ou”), disjunção exclusiva (“ou... ou...”), condicional (→, “se... então”) e bicondicional (↔, “se e somente se”). O valor da composta depende só do valor das partes: a <strong>conjunção</strong> só é verdadeira com as duas partes verdadeiras; a <strong>disjunção</strong> só é falsa com as duas falsas; a <strong>condicional</strong> só é falsa quando o antecedente é verdadeiro e o consequente é falso; a <strong>bicondicional</strong> é verdadeira quando as partes têm o mesmo valor. Na prova, o primeiro passo é traduzir a frase: achar as proposições simples e o conectivo que as liga.",
+      "esquema": {
+        "rotulo": "conectivos e quando cada um é falso",
+        "html": "<table><thead><tr><th>Conectivo</th><th>Como aparece na frase</th><th>Só é falso quando</th><th>Só é verdadeiro quando</th></tr></thead><tbody><tr><td><strong>Negação ~P</strong></td><td>“não”, “não é verdade que”</td><td>P é verdadeira</td><td>P é falsa</td></tr><tr><td><strong>Conjunção P ∧ Q</strong></td><td>“e”, “mas”, “nem”, “também”</td><td>pelo menos uma parte é falsa</td><td>as duas partes são verdadeiras</td></tr><tr><td><strong>Disjunção inclusiva P ∨ Q</strong></td><td>“ou”</td><td>as duas partes são falsas</td><td>pelo menos uma parte é verdadeira</td></tr><tr><td><strong>Disjunção exclusiva</strong></td><td>“ou... ou...”, “ou P ou Q, mas não ambos”</td><td>as partes têm o mesmo valor</td><td>as partes têm valores diferentes</td></tr><tr><td><strong>Condicional P → Q</strong></td><td>“se P, então Q”, “quando P, Q”, “P, logo Q”, “P, por isso Q”, “Q, se P”</td><td>P é verdadeira e Q é falsa</td><td>em todos os outros casos</td></tr><tr><td><strong>Bicondicional P ↔ Q</strong></td><td>“P se e somente se Q”</td><td>as partes têm valores diferentes</td><td>as partes têm o mesmo valor</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "SÓ V → F É FALSO",
+          "texto": "A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso. Antecedente falso deixa a condicional verdadeira, seja qual for o consequente."
+        },
+        {
+          "sigla": "SEM VERBO JULGÁVEL, NÃO É PROPOSIÇÃO",
+          "texto": "Pergunta, ordem, exclamação e frase com “ele”, “x” ou “alguém” sem referente não podem ser julgadas verdadeiras ou falsas."
+        },
+        {
+          "sigla": "CONDICIONAL PRECISA DE DUAS PROPOSIÇÕES",
+          "texto": "Para virar P → Q, a frase tem de afirmar duas coisas ligadas por relação de condição ou de consequência (“se”, “logo”, “por isso”). Uma frase que afirma um só fato é proposição simples."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "A sentença “A missão dos tribunais de contas é garantir que os recursos públicos sejam aplicados em favor de suprir as necessidades mais prementes dos contribuintes, por isso a atuação dos auditores públicos na análise dos processos que envolvem gastos públicos é muito importante” pode ser corretamente expressa pela proposição lógica P ⇒ Q.",
+        "gabarito": "C",
+        "explicacao": "A sentença tem duas proposições simples, e “por isso” liga a primeira (a missão dos tribunais de contas) à segunda (a importância dos auditores) como causa e consequência. É uma condicional, P ⇒ Q, e não uma conjunção (Cebraspe, TC-DF 2023, com justificativa oficial)."
+      },
+      "aprofundamento": "<p><strong>Uma frase com “consequência” não vira condicional sozinha.</strong> A sentença “As mudanças nas correntes marítimas são consequências das fases da Lua.” não pode ser representada corretamente por P → Q: ela afirma um único fato e é uma proposição simples. A condicional só aparece quando há duas proposições ligadas, como no “por isso” do TC-DF (Cebraspe, TRT 10ª Região 2024).</p><p><strong>A conjunção verdadeira garante cada uma das partes.</strong> Se “Maria é uma tenista brasileira” é verdadeira, então “Maria é uma tenista” também é verdadeira, porque a frase afirma ao mesmo tempo que ela é tenista e que é brasileira (Cebraspe, TRF 6ª Região 2024).</p><p><strong>O “ou” do antecedente basta com uma parte verdadeira.</strong> Na proposição “Se em 2024 a Lei 1 for revogada ou a Lei 2 for aprovada, então Felipe se aposentará em 2025”, a revogação da Lei 1 sozinha já torna o antecedente verdadeiro. Por isso está errado dizer que, revogada a Lei 1 e não aprovada a Lei 2, Felipe não se aposentará: com P válida, ele se aposentará (Cebraspe, CNJ 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "tabelas-verdade-tautologia-e-contradicao",
+        "condicional-equivalencias-e-negacoes",
+        "argumentacao-logica"
+      ]
+    },
+    {
+      "slug": "tabelas-verdade-tautologia-e-contradicao",
+      "titulo": "Tabelas-verdade, tautologia e contradição",
+      "grupo": "Lógica proposicional",
+      "base": "Itens de lógica da Cebraspe com gabarito definitivo e justificativa",
+      "tax": [
+        "rlm.tabelas-verdade"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "tabela-verdade",
+        "tautologia",
+        "contradição",
+        "contingência"
+      ],
+      "palavras": [
+        "tabela verdade",
+        "linhas",
+        "tautologia",
+        "contradicao",
+        "contingencia",
+        "valor logico",
+        "ultima coluna",
+        "proposicao composta"
+      ],
+      "resumo": "A <strong>tabela-verdade</strong> lista todos os valores possíveis das proposições simples e o valor da proposição composta em cada caso. O número de linhas é <strong>2<sup>n</sup></strong>, em que <strong>n é o número de proposições simples diferentes</strong>: a mesma letra repetida conta uma vez só. Com 3 proposições, 8 linhas; com 4, 16 linhas. Para montar a última coluna, resolva por partes, de dentro para fora: primeiro as negações, depois os parênteses, por último o conectivo principal. A Cebraspe costuma dar as primeiras colunas em uma ordem própria e pedir a sequência de V e F da última coluna, de cima para baixo: confira a ordem das letras no cabeçalho antes de calcular. Quando a última coluna é toda V, a proposição é <strong>tautologia</strong>; toda F, <strong>contradição</strong>; com V e F, <strong>contingência</strong>.",
+      "esquema": {
+        "rotulo": "o que a banca pede sobre tabela-verdade",
+        "html": "<table><thead><tr><th>Pedido</th><th>Como resolver</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Número de linhas</strong></td><td>2 elevado ao número de proposições simples diferentes</td><td>P, Q, R e S → 2<sup>4</sup> = 16 linhas</td></tr><tr><td><strong>Última coluna</strong></td><td>Resolva linha a linha, de dentro para fora, respeitando a ordem dada no cabeçalho</td><td>(P ∧ R) ⇒ (~Q) só é F quando P e R são V e Q é V</td></tr><tr><td><strong>Tautologia</strong></td><td>Última coluna toda V; ou mostrar que nenhuma linha dá F</td><td>P ∨ ~P; (A ⇒ (B ⇒ C)) ⇔ ((A ∧ B) ⇒ C)</td></tr><tr><td><strong>Contradição</strong></td><td>Última coluna toda F</td><td>P ∧ ~P</td></tr><tr><td><strong>Contingência</strong></td><td>Última coluna com V e F</td><td>P ⇒ Q</td></tr><tr><td><strong>Atalho para a condicional</strong></td><td>Procure só as linhas em que o antecedente é V e o consequente é F</td><td>se nenhuma linha tem esse par, a condicional é tautologia</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "LETRA REPETIDA CONTA UMA VEZ",
+          "texto": "O número de linhas depende das proposições simples diferentes: em (P ∧ Q) → (P ∨ R) há três letras, logo 8 linhas."
+        },
+        {
+          "sigla": "CAÇAR A LINHA FALSA",
+          "texto": "Para testar se uma condicional é tautologia, tente torná-la falsa (antecedente V e consequente F). Se não conseguir, é tautologia."
+        },
+        {
+          "sigla": "LEIA O CABEÇALHO",
+          "texto": "A ordem das colunas pode não ser P, Q, R. Calcule com a ordem que a questão deu."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Considere-se que as primeiras três colunas da tabela-verdade referente à proposição lógica (P∧R) ⇒ (~Q) sejam, nesta ordem, P, R e Q, com as linhas VVV, VVF, VFV, VFF, FVV, FVF, FFV e FFF. Nessa situação, a sequência de valores da última coluna, de cima para baixo, será F V V V F V V V.",
+        "gabarito": "E",
+        "explicacao": "A condicional só é falsa quando P ∧ R é V e ~Q é F, o que acontece apenas na primeira linha (P, R e Q verdadeiras). Na quinta linha P é F, então o antecedente é F e a condicional é V. A sequência correta é F V V V V V V V (Cebraspe, TC-DF 2023, com justificativa oficial)."
+      },
+      "aprofundamento": "<p><strong>Quatro proposições simples, 16 linhas.</strong> Na proposição “Se o condenado não for reincidente em crime doloso, tiver bons antecedentes e tiver cumprido mais de um terço da pena, pedirá o livramento condicional”, há quatro proposições simples. A tabela-verdade tem 2<sup>4</sup> = 16 linhas, e o item que dizia “mais de 15 linhas” estava certo (Cebraspe, PF 2025).</p><p><strong>A ordem P, Q, R muda o resultado.</strong> Para ((~Q) ∧ P) ∨ (R ∧ P), com as colunas P, Q e R na ordem VVV, VVF, VFV, VFF, FVV, FVF, FFV, FFF, a última coluna é V F V V F F F F. Com P falsa, as duas conjunções são falsas, por isso as quatro últimas linhas dão F (Cebraspe, TRT 10ª Região 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "proposicoes-e-conectivos",
+        "condicional-equivalencias-e-negacoes"
+      ]
+    },
+    {
+      "slug": "condicional-equivalencias-e-negacoes",
+      "titulo": "Condicional, equivalências lógicas e negações",
+      "grupo": "Lógica proposicional",
+      "base": "Itens de lógica da Cebraspe com gabarito definitivo e justificativa",
+      "tax": [
+        "rlm.equivalencias",
+        "rlm.negacao-de-morgan"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "equivalência lógica",
+        "negação",
+        "leis de De Morgan",
+        "contrapositiva"
+      ],
+      "palavras": [
+        "equivalencia",
+        "contrapositiva",
+        "reciproca",
+        "negacao",
+        "de morgan",
+        "condicional",
+        "antecedente",
+        "consequente",
+        "quantificador",
+        "todo",
+        "algum",
+        "nenhum"
+      ],
+      "resumo": "Duas proposições são <strong>equivalentes</strong> quando têm a mesma tabela-verdade. As equivalências da condicional que mais caem são: <strong>P → Q ≡ ~Q → ~P</strong> (contrapositiva) e <strong>P → Q ≡ ~P ∨ Q</strong>. A <strong>recíproca</strong> (Q → P) e a <strong>inversa</strong> (~P → ~Q) <strong>não</strong> são equivalentes à condicional. Nas negações, valem as <strong>leis de De Morgan</strong>: a negação de “P e Q” é “não P <strong>ou</strong> não Q”, e a negação de “P ou Q” é “não P <strong>e</strong> não Q”. A negação da condicional não é outra condicional: <strong>~(P → Q) ≡ P ∧ ~Q</strong>. A negação da bicondicional é a disjunção exclusiva. Com quantificadores, a negação de “todo A é B” é “algum A não é B”, e a de “nenhum A é B” é “algum A é B”. Atenção ao conteúdo: a negação de “mais de um terço” é “<strong>no máximo</strong> um terço”, e não “menos de um terço”.",
+      "esquema": {
+        "rotulo": "equivalências e negações cobradas",
+        "html": "<table><thead><tr><th>Proposição</th><th>Equivalente a</th><th>Negação</th></tr></thead><tbody><tr><td><strong>P ∧ Q</strong></td><td>Q ∧ P</td><td>~P ∨ ~Q</td></tr><tr><td><strong>P ∨ Q</strong></td><td>~P → Q</td><td>~P ∧ ~Q</td></tr><tr><td><strong>P → Q</strong></td><td>~Q → ~P; ~P ∨ Q</td><td>P ∧ ~Q</td></tr><tr><td><strong>P ↔ Q</strong></td><td>(P → Q) ∧ (Q → P)</td><td>disjunção exclusiva: ou P ou Q</td></tr><tr><td><strong>A → (B → C)</strong></td><td>(A ∧ B) → C</td><td>A ∧ B ∧ ~C</td></tr><tr><td><strong>Todo A é B</strong></td><td>Nenhum A é não B</td><td>Algum A não é B</td></tr><tr><td><strong>Nenhum A é B</strong></td><td>Todo A é não B</td><td>Algum A é B</td></tr><tr><td><strong>“mais de x”</strong></td><td></td><td>“no máximo x” (x ou menos)</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "CONTRAPOSITIVA: INVERTE E NEGA",
+          "texto": "De P → Q se chega a ~Q → ~P trocando a ordem e negando as duas partes. Só trocar a ordem (recíproca) ou só negar (inversa) não dá equivalência."
+        },
+        {
+          "sigla": "DE MORGAN TROCA O CONECTIVO",
+          "texto": "Ao negar, “e” vira “ou” e “ou” vira “e”, com cada parte negada."
+        },
+        {
+          "sigla": "NEGAR A CONDICIONAL: MANTÉM A PRIMEIRA E NEGA A SEGUNDA",
+          "texto": "~(P → Q) é “P e não Q”. O resultado é uma conjunção, nunca outra condicional."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Na proposição P: “Se o condenado não for reincidente em crime doloso, tiver bons antecedentes e tiver cumprido mais de um terço da pena, pedirá o livramento condicional”, a negação do precedente de P é equivalente a: “o condenado é reincidente em crime doloso, tem maus antecedentes e cumpriu menos de um terço da pena”.",
+        "gabarito": "E",
+        "explicacao": "O precedente é uma conjunção de três partes, e a negação da conjunção é a disjunção das negações (De Morgan): “é reincidente em crime doloso <strong>ou</strong> não tem bons antecedentes <strong>ou</strong> não cumpriu mais de um terço da pena”. Além disso, a negação de “mais de um terço” é “no máximo um terço”, e não “menos de um terço” (Cebraspe, PF 2025)."
+      },
+      "aprofundamento": "<p><strong>Condicional falsa: antecedente verdadeiro e consequente falso.</strong> Se a proposição P acima for falsa, o condenado cumpre os três requisitos e não pede o livramento. Por isso estava certo o item “Se P for falsa, então o condenado não pedirá o livramento condicional” (Cebraspe, PF 2025).</p><p><strong>Exportação: A ⇒ (B ⇒ C) equivale a (A ∧ B) ⇒ C.</strong> A proposição (A⇒(B⇒C)) ⇔ ((A∧B)⇒C) é uma tautologia. Pela equivalência P → Q ≡ ~P ∨ Q, os dois lados viram ~A ∨ ~B ∨ C (Cebraspe, TC-DF 2023, com justificativa oficial).</p><p><strong>A recíproca não é equivalente.</strong> Com P: “Se em 2024 a Lei 1 for revogada ou a Lei 2 for aprovada, então Felipe se aposentará em 2025”, está errado concluir que, se Felipe se aposentar, a Lei 1 foi revogada ou a Lei 2 foi aprovada: isso é a recíproca de P, e ele pode se aposentar por outro motivo. Equivalente a P é a contrapositiva: se Felipe não se aposentar em 2025, a Lei 1 não foi revogada e a Lei 2 não foi aprovada em 2024 (Cebraspe, CNJ 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "proposicoes-e-conectivos",
+        "tabelas-verdade-tautologia-e-contradicao",
+        "argumentacao-logica"
+      ]
+    },
+    {
+      "slug": "argumentacao-logica",
+      "titulo": "Argumentação: validade e falácias",
+      "grupo": "Lógica proposicional",
+      "base": "Itens de argumentação da Cebraspe com gabarito definitivo",
+      "tax": [
+        "rlm.argumentacao"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "argumento válido",
+        "falácia",
+        "premissa",
+        "conclusão"
+      ],
+      "palavras": [
+        "argumento",
+        "validade",
+        "valido",
+        "invalido",
+        "premissa",
+        "conclusao",
+        "falacia",
+        "modus ponens",
+        "modus tollens",
+        "afirmacao do consequente",
+        "negacao do antecedente",
+        "falsa dicotomia",
+        "apelo a maioria"
+      ],
+      "resumo": "Um <strong>argumento</strong> é um conjunto de <strong>premissas</strong> que sustenta uma <strong>conclusão</strong>. Ele é <strong>válido</strong> quando, sendo as premissas verdadeiras, a conclusão <strong>não pode</strong> ser falsa. Validade é questão de <strong>forma</strong>, e não de verdade: um argumento válido pode ter premissa falsa, e um argumento inválido pode ter conclusão verdadeira. Formas válidas: <strong>modus ponens</strong> (P → Q; P; logo Q), <strong>modus tollens</strong> (P → Q; ~Q; logo ~P), <strong>silogismo hipotético</strong> (P → Q; Q → R; logo P → R) e <strong>silogismo disjuntivo</strong> (P ∨ Q; ~P; logo Q). Formas inválidas que a banca adora: <strong>afirmar o consequente</strong> (P → Q; Q; logo P) e <strong>negar o antecedente</strong> (P → Q; ~P; logo ~Q). Premissa com “a maioria” ou “alguns” não garante conclusão sobre um caso concreto. Nos itens de argumentação informal, a Cebraspe cobra as <strong>falácias</strong>: apelo à maioria, falsa dicotomia, ataque à pessoa, apelo à autoridade, generalização apressada.",
+      "esquema": {
+        "rotulo": "formas de argumento e falácias",
+        "html": "<table><thead><tr><th>Forma</th><th>Estrutura</th><th>Válido?</th></tr></thead><tbody><tr><td><strong>Modus ponens</strong></td><td>P → Q; P; logo Q</td><td>Sim</td></tr><tr><td><strong>Modus tollens</strong></td><td>P → Q; ~Q; logo ~P</td><td>Sim</td></tr><tr><td><strong>Silogismo hipotético</strong></td><td>P → Q; Q → R; logo P → R</td><td>Sim</td></tr><tr><td><strong>Silogismo disjuntivo</strong></td><td>P ∨ Q; ~P; logo Q</td><td>Sim</td></tr><tr><td><strong>Afirmação do consequente</strong></td><td>P → Q; Q; logo P (“quando chove, alaga; alagou; logo choveu”)</td><td>Não</td></tr><tr><td><strong>Negação do antecedente</strong></td><td>P → Q; ~P; logo ~Q</td><td>Não</td></tr><tr><td><strong>Premissa com “a maioria”</strong></td><td>A maioria dos A é B; x é A; logo x é B</td><td>Não</td></tr><tr><td><strong>Apelo à maioria</strong></td><td>“Se muitas pessoas dizem, deve ser verdade”</td><td>Falácia</td></tr><tr><td><strong>Falsa dicotomia</strong></td><td>Apresenta só duas saídas quando há outras (“é a única solução viável”)</td><td>Falácia</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "VALIDADE É FORMA, NÃO VERDADE",
+          "texto": "Para julgar a validade, suponha as premissas verdadeiras e veja se a conclusão pode ser falsa. Se puder, o argumento é inválido, mesmo que a conclusão seja verdadeira no mundo real."
+        },
+        {
+          "sigla": "CONSEQUENTE NÃO VOLTA",
+          "texto": "Da condicional P → Q, saber que Q aconteceu não diz nada sobre P. O caminho de volta só vale negando: ~Q leva a ~P."
+        },
+        {
+          "sigla": "MAIORIA NÃO É TODOS",
+          "texto": "Premissa com “a maioria”, “quase todos” ou “alguns” não garante a conclusão sobre uma pessoa determinada."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O argumento a seguir é um exemplo de argumento válido, uma vez que a verdade da conclusão está embutida na verdade das premissas. “Quando chove na minha rua, ela fica alagada. Minha rua está alagada. Logo, choveu na minha rua.”",
+        "gabarito": "E",
+        "explicacao": "É a forma P → Q; Q; logo P, a afirmação do consequente, que é inválida: a rua pode ter alagado por outro motivo, como um cano estourado. Válido seria concluir pela negação: “A rua não está alagada. Logo, não choveu” (modus tollens) (Cebraspe, TRF 6ª Região 2024)."
+      },
+      "aprofundamento": "<p><strong>“A maioria” não garante o caso de Ivete.</strong> É inválido o argumento “A maioria dos funcionários que trabalha bem nesta empresa deve receber uma bonificação. Ivete trabalhou bem nesta empresa. Logo, Ivete deve receber uma bonificação”. A premissa admite funcionários que trabalham bem e não recebem, e Ivete pode estar entre eles (Cebraspe, TRF 6ª Região 2024).</p><p><strong>A mesma falácia em versão de lei.</strong> Com “Se em 2024 a Lei 1 for revogada ou a Lei 2 for aprovada, então Felipe se aposentará em 2025”, concluir pelo caminho de volta que a aposentadoria de Felipe prova a revogação ou a aprovação é afirmar o consequente, e o item estava errado (Cebraspe, CNJ 2024).</p><p><strong>Apelo à maioria é falacioso.</strong> Dizer que C é incompetente porque “muitas pessoas dizem isso” é falacioso: o número de pessoas que afirmam algo não prova que seja verdade (Cebraspe, TRF 6ª Região 2024).</p><p><strong>“A única solução viável” costuma ser falsa dicotomia.</strong> O argumento “A automação é o futuro e, portanto, a única solução viável” é falacioso porque reduz as opções a uma só, sem considerar alternativas como a automação parcial com revisão humana. E está errado chamar esse argumento de válido só porque defende a modernização: um bom objetivo não torna a forma do argumento válida (Cebraspe, TRF 6ª Região 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "proposicoes-e-conectivos",
+        "condicional-equivalencias-e-negacoes"
+      ]
+    },
+    {
+      "slug": "conjuntos-e-diagramas",
+      "titulo": "Conjuntos e diagramas de Venn",
+      "grupo": "Matemática",
+      "base": "Itens de conjuntos da Cebraspe com gabarito definitivo",
+      "tax": [
+        "rlm.conjuntos",
+        "rlm.diagramas-logicos"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "conjuntos",
+        "diagrama de Venn",
+        "união",
+        "interseção"
+      ],
+      "palavras": [
+        "conjuntos",
+        "diagrama de venn",
+        "uniao",
+        "intersecao",
+        "complementar",
+        "apenas",
+        "somente",
+        "nenhum",
+        "pelo menos um",
+        "exatamente dois"
+      ],
+      "resumo": "Problemas de conjuntos se resolvem com o <strong>diagrama de Venn</strong>, preenchido <strong>de dentro para fora</strong>: primeiro a interseção de todos, depois as interseções de dois a dois (descontando a central), depois o “apenas” de cada conjunto e, por fim, quem está <strong>fora de todos</strong>. Fórmulas: n(A ∪ B) = n(A) + n(B) − n(A ∩ B); com três conjuntos, n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ C) + n(A ∩ B ∩ C). A Cebraspe joga com as palavras: “gostam de A e de B” inclui quem também gosta de C; “<strong>apenas</strong> A e B” exclui; “<strong>exatamente duas</strong>” soma só as faixas de dois; “não visitou B” inclui quem visitou só A e quem não visitou nenhum. E confira o universo: “todos fizeram pelo menos uma pós-graduação” não quer dizer que todos fizeram uma das duas pós-graduações citadas.",
+      "esquema": {
+        "rotulo": "ordem de preenchimento e leitura do enunciado",
+        "html": "<table><thead><tr><th>Expressão do enunciado</th><th>Região do diagrama</th><th>Cuidado</th></tr></thead><tbody><tr><td><strong>“A e B”</strong></td><td>toda a interseção de A com B</td><td>inclui quem também está em C</td></tr><tr><td><strong>“apenas A e B”</strong></td><td>interseção de A com B, sem C</td><td>desconte a interseção dos três</td></tr><tr><td><strong>“apenas A” ou “somente A”</strong></td><td>parte de A fora dos outros</td><td>n(A) menos tudo o que A divide com os outros</td></tr><tr><td><strong>“exatamente duas”</strong></td><td>soma das faixas de dois, sem a central</td><td>não confunda com “pelo menos duas”</td></tr><tr><td><strong>“não visitou B”</strong></td><td>apenas A mais quem está fora de todos</td><td>é o complementar de B</td></tr><tr><td><strong>“nenhum”</strong></td><td>região de fora</td><td>total menos a união</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "DE DENTRO PARA FORA",
+          "texto": "Comece pela interseção de todos e vá descontando. Começar pelo total de cada conjunto conta a mesma pessoa mais de uma vez."
+        },
+        {
+          "sigla": "UNIVERSO NÃO É UNIÃO",
+          "texto": "O total de pessoas pesquisadas pode ser maior que a união dos conjuntos citados. Quem sobra está fora de todos."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em uma pesquisa com 200 candidatos, todos tinham cursado pelo menos uma pós-graduação; 50 tinham cursado pós-graduação em inteligência artificial, 143 não tinham cursado pós-graduação em segurança de dados e 20 tinham cursado as duas. Entre esses candidatos, mais de 90 não fizeram pós-graduação em segurança de dados nem em inteligência artificial.",
+        "gabarito": "C",
+        "explicacao": "Segurança de dados: 200 − 143 = 57. União das duas áreas: 50 + 57 − 20 = 87. Fora das duas: 200 − 87 = 113, mais de 90. “Pelo menos uma pós-graduação” fala de qualquer área, e não só das duas citadas (Cebraspe, TRT 10ª Região 2024)."
+      },
+      "aprofundamento": "<p><strong>“Somente” e “não visitou” são regiões diferentes.</strong> Com 556 turistas na Orla do Guaíba, 190 que não foram ao Parque Farroupilha, 420 nos dois lugares e 154 em apenas um: só a Orla = 556 − 420 = 136; só o Parque = 154 − 136 = 18; nenhum dos dois = 190 − 136 = 54; total = 420 + 136 + 18 + 54 = 628. Foram certos os itens “só a Orla, menos de 140” e “total, mais de 600”; foram errados “só o Parque, mais de 34” (são 18) e “nenhum, menos de 50” (são 54) (Cebraspe, Banrisul 2022).</p><p><strong>“Exatamente duas” não inclui a interseção dos três.</strong> Com 180 profissionais, áreas de 95, 125 e 65, interseções de dois a dois de 60, 40 e 40 e 20 nas três, os que atuam em exatamente duas são (60 − 20) + (40 − 20) + (40 − 20) = 80, cerca de 44%. Estava errado dizer que eram mais de 65% (Cebraspe, MP-CE 2025).</p><p><strong>Na mesma pesquisa, quem atua em uma só área.</strong> A união é 95 + 125 + 65 − 60 − 40 − 40 + 20 = 165; tirando 80 de exatamente duas e 20 das três, sobram 65 em uma só área. A razão 65/180 = 13/36 = 0,3611... não tem representação decimal exata, e o item estava certo (Cebraspe, MP-CE 2025).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "probabilidade",
+        "analise-combinatoria"
+      ]
+    },
+    {
+      "slug": "analise-combinatoria",
+      "titulo": "Análise combinatória: princípio fundamental, arranjo e combinação",
+      "grupo": "Matemática",
+      "base": "Itens de contagem da Cebraspe com gabarito definitivo e justificativa",
+      "tax": [
+        "rlm.contagem"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "análise combinatória",
+        "combinação",
+        "arranjo",
+        "permutação"
+      ],
+      "palavras": [
+        "contagem",
+        "principio fundamental",
+        "permutacao",
+        "arranjo",
+        "combinacao",
+        "fatorial",
+        "comissao",
+        "ordem importa",
+        "apertos de mao",
+        "restricao"
+      ],
+      "resumo": "O <strong>princípio fundamental da contagem</strong> diz que, se uma escolha tem m opções e a seguinte tem n, as duas juntas têm m × n. Dele saem as fórmulas. <strong>Permutação</strong> (ordenar todos): n!. <strong>Arranjo</strong> (escolher p de n quando a <strong>ordem importa</strong>: cargos diferentes, senhas, pódio): n!/(n − p)!. <strong>Combinação</strong> (escolher p de n quando a <strong>ordem não importa</strong>: comissão com igual atribuição, grupo, aperto de mão): C(n, p) = n!/[p!(n − p)!]. O teste é trocar a ordem dos escolhidos: se o resultado muda, é arranjo; se não muda, é combinação. Com <strong>restrição</strong> (fulano na primeira posição, mulheres numa fileira), resolva primeiro a parte restrita e depois multiplique pelas maneiras de arrumar o resto.",
+      "esquema": {
+        "rotulo": "qual fórmula usar",
+        "html": "<table><thead><tr><th>Situação</th><th>Fórmula</th><th>Exemplo de prova</th></tr></thead><tbody><tr><td><strong>Ordenar todos os elementos</strong></td><td>n!</td><td>4 homens em 4 cadeiras: 4! = 24</td></tr><tr><td><strong>Escolher e a ordem importa</strong></td><td>A(n, p) = n!/(n − p)!</td><td>presidente e vice entre 10: 10 × 9 = 90</td></tr><tr><td><strong>Escolher e a ordem não importa</strong></td><td>C(n, p) = n!/[p!(n − p)!]</td><td>comissão de 4 entre 20: C(20, 4) = 4.845</td></tr><tr><td><strong>Pares entre n pessoas</strong></td><td>C(n, 2) = n(n − 1)/2</td><td>apertos de mão entre 16: 120</td></tr><tr><td><strong>Com restrição</strong></td><td>resolva a parte restrita primeiro e multiplique</td><td>primeira semana fixa com 8 opções e o resto livre: 8 × 19!</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "TROCOU A ORDEM, MUDOU?",
+          "texto": "Se trocar a ordem dos escolhidos gera outra situação, é arranjo. Se continua a mesma coisa, como numa comissão de iguais, é combinação."
+        },
+        {
+          "sigla": "RESTRIÇÃO PRIMEIRO",
+          "texto": "Comece pela posição ou pelo grupo que tem regra e depois distribua os demais livremente."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Entre os 20 profissionais que gostam de atuar nas três áreas mencionadas, serão escolhidos quatro para formar uma comissão de fiscalização, todos com igual atribuição. Nesse caso, haverá mais de cinco mil maneiras de formar a comissão.",
+        "gabarito": "E",
+        "explicacao": "Com igual atribuição, a ordem não importa: C(20, 4) = (20 × 19 × 18 × 17)/(4 × 3 × 2 × 1) = 4.845, menos de cinco mil. Quem usa arranjo (20 × 19 × 18 × 17 = 116.280) conta a mesma comissão 24 vezes (Cebraspe, MP-CE 2025)."
+      },
+      "aprofundamento": "<p><strong>Apertos de mão de quem é novo.</strong> Com 10 servidores antigos e 6 novos, se cada novo apertou a mão de todos os colegas, os apertos são os pares que têm pelo menos um novo: C(16, 2) − C(10, 2) = 120 − 45 = 75, menos de 100. O item estava certo (Cebraspe, CNJ 2024).</p><p><strong>Duas fileiras de quatro cadeiras.</strong> Com quatro homens e quatro mulheres, todos os homens na fileira 1 e todas as mulheres na fileira 2 dão 4! × 4! = 576 maneiras, e estava errado dizer que eram mais de 600. Exatamente três mulheres na fileira 2 dão C(4, 3) × C(4, 1) × 4! × 4! = 9.216 maneiras, e estava errado dizer que eram menos de 400 (Cebraspe, TRT 10ª Região 2024).</p><p><strong>Fixar a primeira posição.</strong> Para distribuir 20 processos em 20 semanas com um dos 8 processos de saúde na primeira, há 8 escolhas para a primeira semana e 19! para as outras: 8 × 19!. Estava errado dizer que o total era inferior a 8 × 7! × 5!, um número muito menor (Cebraspe, TC-DF 2023, com justificativa oficial).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "probabilidade",
+        "conjuntos-e-diagramas"
+      ]
+    },
+    {
+      "slug": "probabilidade",
+      "titulo": "Probabilidade",
+      "grupo": "Matemática",
+      "base": "Itens de probabilidade da Cebraspe com gabarito definitivo e justificativa",
+      "tax": [
+        "rlm.probabilidade"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "probabilidade",
+        "evento complementar",
+        "probabilidade condicional",
+        "eventos independentes"
+      ],
+      "palavras": [
+        "probabilidade",
+        "ao acaso",
+        "aleatoriamente",
+        "pelo menos um",
+        "complementar",
+        "condicional",
+        "independentes",
+        "mutuamente exclusivos",
+        "uniao de eventos",
+        "amostra aleatoria"
+      ],
+      "resumo": "A probabilidade de um evento é <strong>casos favoráveis / casos possíveis</strong>, quando todos os casos são igualmente prováveis. Quatro ferramentas resolvem quase tudo. <strong>Complementar</strong>: P(pelo menos um) = 1 − P(nenhum). <strong>União</strong>: P(A ou B) = P(A) + P(B) − P(A e B). <strong>Condicional</strong>: P(A | B) = P(A e B)/P(B), que é a probabilidade de A sabendo que B ocorreu. <strong>Independência</strong>: A e B são independentes quando P(A e B) = P(A) × P(B). Não confunda independentes com <strong>mutuamente exclusivos</strong> (que não ocorrem juntos): dois eventos de probabilidade positiva que não podem ocorrer juntos <strong>não</strong> são independentes, porque saber que um ocorreu muda a chance do outro para zero. Em amostra aleatória simples de n elementos tirada de uma população de N, cada elemento tem probabilidade n/N de ser escolhido.",
+      "esquema": {
+        "rotulo": "qual ferramenta usar",
+        "html": "<table><thead><tr><th>O enunciado diz</th><th>Ferramenta</th><th>Exemplo de prova</th></tr></thead><tbody><tr><td><strong>“pelo menos um”</strong></td><td>1 − P(nenhum)</td><td>pelo menos um antigo entre 2 de 16 (10 antigos): 1 − 15/120 = 7/8</td></tr><tr><td><strong>“A ou B”</strong></td><td>P(A) + P(B) − P(A e B), ou 1 − P(nem A nem B)</td><td>reincidente ou maus antecedentes: 1 − 170/300</td></tr><tr><td><strong>“sabendo que”, “dado que”</strong></td><td>P(A e B)/P(B)</td><td>reduza o universo ao evento conhecido</td></tr><tr><td><strong>“independentes”</strong></td><td>P(A e B) = P(A) × P(B)</td><td>eventos excludentes com probabilidade positiva não são independentes</td></tr><tr><td><strong>Amostra de n em N</strong></td><td>n/N para cada elemento</td><td>100 servidores entre 1.000: 1/10</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "PELO MENOS UM: VÁ PELO CONTRÁRIO",
+          "texto": "Calcule a chance de nenhum e subtraia de 1. É mais rápido e evita contar o mesmo caso duas vezes."
+        },
+        {
+          "sigla": "EXCLUDENTES NÃO SÃO INDEPENDENTES",
+          "texto": "Se um evento impede o outro, saber que ele ocorreu muda a chance do outro. Isso é dependência."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Um órgão tem 10 servidores antigos e contratou 6 novos. Se 2 dos 16 servidores forem selecionados aleatoriamente, a probabilidade de pelo menos um deles ser servidor antigo é igual a 3/8.",
+        "gabarito": "E",
+        "explicacao": "Pelo complementar: P(nenhum antigo) = C(6, 2)/C(16, 2) = 15/120 = 1/8. Logo, P(pelo menos um antigo) = 1 − 1/8 = 7/8, e não 3/8 (Cebraspe, CNJ 2024)."
+      },
+      "aprofundamento": "<p><strong>Probabilidade a partir do diagrama.</strong> Dos 180 profissionais pesquisados, 20 gostam de atuar nas três áreas. A probabilidade de um deles, escolhido ao acaso, estar nas três é 20/180 ≈ 11,1%, superior a 10%, e o item estava certo (Cebraspe, MP-CE 2025).</p><p><strong>“Ou” pelo complementar.</strong> Entre 300 condenados, 170 não são reincidentes em crime doloso e têm bons antecedentes. A probabilidade de um deles ser reincidente ou não ter bons antecedentes é 1 − 170/300 = 130/300 ≈ 43,3%. Estava errado dizer que era inferior a 40% (Cebraspe, PF 2025).</p><p><strong>Excludentes não são independentes.</strong> Com P(A₁ ∩ A₂) = 0 e P(A₁) × P(A₂) = 0,048, os eventos não são independentes, porque a probabilidade da interseção é diferente do produto. O item que os chamava de independentes estava errado (Cebraspe, TC-DF 2023, com justificativa oficial).</p><p><strong>Cada elemento da amostra tem chance n/N.</strong> Em amostra aleatória simples de 100 servidores tirada de 1.000, a probabilidade de seleção de cada servidor é 100/1.000 = 1/10. Estava errado dizer que era 1/1.000 (Cebraspe, STJ 2024).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "analise-combinatoria",
+        "conjuntos-e-diagramas"
+      ]
+    },
+    {
+      "slug": "porcentagem-e-juros",
+      "titulo": "Porcentagem, juros e taxas equivalentes",
+      "grupo": "Matemática",
+      "base": "Itens de matemática financeira da Cebraspe com gabarito definitivo e justificativa",
+      "tax": [
+        "rlm.porcentagem",
+        "rlm.juros"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "porcentagem",
+        "juros simples",
+        "juros compostos",
+        "taxas equivalentes",
+        "desconto"
+      ],
+      "palavras": [
+        "porcentagem",
+        "aumentos sucessivos",
+        "descontos sucessivos",
+        "fator",
+        "juros simples",
+        "juros compostos",
+        "montante",
+        "taxa equivalente",
+        "taxa nominal",
+        "taxa efetiva",
+        "desconto comercial"
+      ],
+      "resumo": "Em porcentagem, trabalhe com <strong>fatores</strong>: aumento de 20% é multiplicar por 1,2; desconto de 10% é multiplicar por 0,9. Variações <strong>sucessivas</strong> se multiplicam, e não se somam: dois descontos de 10% e um aumento de 20% dão 0,9 × 0,9 × 1,2 = 0,972, isto é, desconto final de 2,8%. Por isso um aumento seguido de desconto de mesmo percentual não devolve o preço original. Nos juros, <strong>simples</strong>: M = C(1 + i·n), o juro incide sempre sobre o capital inicial; <strong>compostos</strong>: M = C(1 + i)<sup>n</sup>, o juro incide sobre o montante anterior. Taxas <strong>equivalentes</strong> em juros compostos levam o mesmo capital ao mesmo montante no mesmo prazo: (1 + i₁)<sup>n₁</sup> = (1 + i₂)<sup>n₂</sup>. A taxa <strong>nominal</strong> com capitalização mensal é dividida pelo número de meses e depois composta: 16,2% ao ano com capitalização mensal é 1,35% ao mês, e a efetiva anual é (1,0135)<sup>12</sup> − 1. No <strong>desconto comercial</strong> (por fora), d = N·i·n, sobre o valor de face.",
+      "esquema": {
+        "rotulo": "fórmulas que mais caem",
+        "html": "<table><thead><tr><th>Situação</th><th>Fórmula</th><th>Exemplo de prova</th></tr></thead><tbody><tr><td><strong>Variações sucessivas</strong></td><td>multiplique os fatores</td><td>0,9 × 0,9 × 1,2 = 0,972 → desconto de 2,8%</td></tr><tr><td><strong>Juros simples</strong></td><td>M = C(1 + i·n)</td><td>juro igual em todos os períodos</td></tr><tr><td><strong>Juros compostos</strong></td><td>M = C(1 + i)<sup>n</sup></td><td>juro sobre juro</td></tr><tr><td><strong>Taxas equivalentes</strong></td><td>(1 + i₁)<sup>n₁</sup> = (1 + i₂)<sup>n₂</sup></td><td>44% ao quadriênio ≡ 20% ao biênio, pois 1,2<sup>2</sup> = 1,44</td></tr><tr><td><strong>Nominal para efetiva</strong></td><td>divida pelo número de períodos e componha</td><td>16,2% a.a. capitalizada mensalmente → (1,0135)<sup>12</sup> − 1 ≈ 17,46% a.a.</td></tr><tr><td><strong>Desconto comercial</strong></td><td>d = N·i·n</td><td>R$ 50.000 resgatados por R$ 44.750 em 3 meses → i = 3,5% a.m.</td></tr><tr><td><strong>Valor presente de parcelas</strong></td><td>some cada parcela dividida por (1 + i)<sup>n</sup></td><td>300.000/1,2 + 360.000/1,44 = 500.000 → taxa de 20% a.a.</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "PORCENTAGEM SUCESSIVA MULTIPLICA",
+          "texto": "Transforme cada variação em fator e multiplique. Somar os percentuais dá a resposta errada."
+        },
+        {
+          "sigla": "EQUIVALENTE É POTÊNCIA",
+          "texto": "Em juros compostos, a taxa de um período maior é o fator do período menor elevado ao número de períodos, e não a taxa multiplicada."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Caso o preço de um produto tenha sofrido dois descontos sucessivos de 10% e, em seguida, um aumento de 20%, então, ao final, o preço desse produto terá tido um desconto inferior a 3%.",
+        "gabarito": "C",
+        "explicacao": "O preço final é 0,9 × 0,9 × 1,2 = 0,972 do original: desconto de 2,8%, inferior a 3%. Quem soma os percentuais (−10 − 10 + 20 = 0) conclui que o preço voltou ao original, o que está errado (Cebraspe, TC-DF 2023, com justificativa oficial)."
+      },
+      "aprofundamento": "<p><strong>Taxa equivalente é potência, não multiplicação.</strong> A taxa de 44% ao quadriênio é equivalente à de 20% ao biênio em juros compostos, porque 1,2<sup>2</sup> = 1,44. Pelo raciocínio de juros simples, 44% ao quadriênio daria 22% ao biênio (Cebraspe, TC-DF 2023, com justificativa oficial).</p><p><strong>Taxa nominal mensal vem antes da potência.</strong> Para 16,2% ao ano com capitalização mensal, a taxa mensal é 16,2%/12 = 1,35%, e a efetiva anual é [(1,0135)<sup>12</sup> − 1] × 100 ≈ 17,46%. Estava errado o item que escrevia (1,35)<sup>12</sup>, que corresponderia a 35% ao mês (Cebraspe, TC-DF 2023, com justificativa oficial).</p><p><strong>Desconto por fora.</strong> Um título de R$ 50.000 resgatado 3 meses antes por R$ 44.750 teve desconto de R$ 5.250. Pela fórmula d = N·i·n, 5.250 = 50.000 × i × 3, e i = 3,5% ao mês, superior a 3%: o item estava certo (Cebraspe, TC-DF 2023, com justificativa oficial).</p><p><strong>Teste a taxa no valor presente.</strong> Um empréstimo de R$ 500.000 pago em duas parcelas anuais de R$ 300.000 e R$ 360.000 tem taxa de 20% ao ano, porque 300.000/1,2 + 360.000/1,44 = 250.000 + 250.000 = 500.000 (Cebraspe, TC-DF 2023, com justificativa oficial).</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "probabilidade"
+      ]
+    }
+  ]
+}
