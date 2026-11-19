@@ -91,3 +91,17 @@ acervo vence a memória de quem escreve: escreva resumo, esquema e pegadinha a p
 
 Temas que os informativos já pedem e ainda não estão escritos: `cadernos/FILA.md`. Ao escrever um deles, use o slug de lá e apague a linha.
 Se o tema couber melhor em outro caderno (ex.: `direito-penal#trafico-de-drogas` escrito na Legislação Penal Especial), basta manter o slug: o link do julgado acha o tema publicado com esse slug em qualquer caderno, desde que o slug seja único entre os cadernos.
+
+## Questões do app que citam o material de apoio (2026-11-19)
+
+O "Rever teoria" das questões com "Do material de apoio" só abre um tema que **traz o conceito citado** (caso Q-9117:
+a questão citava pharming e o tema de segurança não falava disso). O app mede isso com uma cópia do texto dos temas,
+`codigo-fonte/questions-src/cadernos/indice.json`. Depois de mudar um caderno, no repositório do app:
+
+```
+node scripts/questions/cadernos-sync.mjs ../../tp-informativos/cadernos
+node scripts/questions/build.mjs
+```
+
+Tirar de um tema um ponto que questões citam faz o link delas sumir no próximo build (não quebra nada). Os pontos que
+as questões cobravam e o caderno não trazia entraram no aprofundamento, em "Mais pontos que as questões cobram".
