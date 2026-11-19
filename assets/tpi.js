@@ -338,7 +338,7 @@
     topo.appendChild(document.createTextNode(visitante ? 'Seu progresso fica só neste aparelho.' : mascara(u.email)));
     m.appendChild(topo);
     var item = function (txt, href) { var a = document.createElement('a'); a.textContent = txt; a.href = href; m.appendChild(a); return a; };
-    if (visitante) item('Criar conta grátis', linkAppDeVolta()).className = 'is-destaque';
+    if (visitante) item('Criar conta', linkAppDeVolta()).className = 'is-destaque';
     item('Abrir meu estudo', C.appUrl);
     item('Meus flashcards', linkApp());
     if (!visitante) {
@@ -382,7 +382,7 @@
         : (comCards ? 'Você não entrou. O que você ler e os flashcards não ficam salvos.' : 'Você não entrou. O que você ler não fica salvo.');
       p.innerHTML = ponto; p.appendChild(txt);
       var a = document.createElement('a'); a.href = linkAppDeVolta();
-      a.textContent = estadoConta === 'visitante' ? 'Criar conta grátis' : 'Entrar';
+      a.textContent = estadoConta === 'visitante' ? 'Criar conta' : 'Entrar';
       if (estadoConta === 'fora') a.addEventListener('click', function (ev) { if (abreLogin(a, { geral: true })) ev.preventDefault(); });
       p.appendChild(a);
     }
@@ -554,7 +554,7 @@
     voltaFoco = origem;
     /* 0.9.0: o texto do convite segue o que a pessoa clicou (marcar lido ou levar os flashcards). */
     var n = motivo && motivo.cards;
-    dlg.querySelector('#tpi-login-titulo').textContent = n ? 'Guarde ' + (n === 1 ? 'este flashcard' : 'estes ' + n + ' flashcards') + '. É grátis.' : 'Salve seu progresso. É grátis.';
+    dlg.querySelector('#tpi-login-titulo').textContent = n ? 'Guarde ' + (n === 1 ? 'este flashcard' : 'estes ' + n + ' flashcards') + '.' : 'Salve seu progresso.';
     dlg.querySelector('.tpi-login__sub').textContent = motivo && motivo.geral
       ? 'Entre para guardar o que você ler e levar os flashcards ao app, com revisão no dia certo. Você continua nesta página.'
       : n
@@ -676,7 +676,7 @@
     if (semSessao) {
       try { localStorage.setItem(APP_PENDENTE, JSON.stringify({ url: box.getAttribute('data-tpi-cards'), sel: grupoDe(box) ? idsDe(box) : null, at: Date.now() })); } catch (e) {}
       if (abreLogin(botao, { cards: idsDe(box).length })) return;
-      estado.innerHTML = 'Para guardar, <a href="' + C.appUrl + '">entre na sua conta do Tchau Pobreza</a>. É grátis.';
+      estado.innerHTML = 'Para guardar, <a href="' + C.appUrl + '">entre na sua conta do Tchau Pobreza</a>.';
       linkDeVolta(estado.querySelector('a'));
       return;
     }

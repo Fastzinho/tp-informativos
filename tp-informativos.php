@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.18.7
+ * Version: 0.18.8
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.18.7' );
+define( 'TPI_VERSION', '0.18.8' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1376,7 +1376,7 @@ function tpi_botao_app( $id, $edicao = false ) {
 	$txt = 'Adicionar ' . ( 1 === $n ? 'este flashcard' : 'estes ' . $n . ' flashcards' ) . ' ao app';
 	return '<div class="tpi-app" data-tpi-cards="' . esc_url( rest_url( 'tp/v1/flashcards/' . $id ) ) . '" data-tpi-ids="' . esc_attr( $ids ) . '" data-tpi-n="' . $n . '" hidden>'
 		. '<button type="button" class="tpi-btn tpi-app__botao">' . esc_html( $txt ) . '</button>'
-		. '<p class="tpi-app__dica">Grátis. Eles entram nos seus Flashcards do Tchau Pobreza e voltam na hora certa, sozinhos' . ( $edicao ? ', separados por disciplina' : '' ) . '.</p>'
+		. '<p class="tpi-app__dica">Eles entram nos seus Flashcards do Tchau Pobreza e voltam na hora certa, sozinhos' . ( $edicao ? ', separados por disciplina' : '' ) . '.</p>'
 		. '<p class="tpi-app__estado" role="status"></p></div>';
 }
 /* 0.16.10: no julgado, data-tpi-sel liga a escolha card a card (o JS põe uma caixinha em cada .tpi-flashcard,

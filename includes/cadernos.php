@@ -203,7 +203,7 @@ function tpc_garante_hub() {
 			'post_status'  => 'publish',
 			'post_title'   => 'Cadernos sistematizados',
 			'post_name'    => 'cadernos',
-			'post_content' => "<!-- wp:paragraph -->\n<p>Resumos organizados por disciplina e por tema, com esquemas, lei seca, jurisprudência, macetes e pegadinhas de banca. Gratuitos e atualizados.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[tp_cadernos]\n<!-- /wp:shortcode -->",
+			'post_content' => "<!-- wp:paragraph -->\n<p>Resumos organizados por disciplina e por tema, com esquemas, lei seca, jurisprudência, macetes e pegadinhas de banca, sempre atualizados.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[tp_cadernos]\n<!-- /wp:shortcode -->",
 			'post_author'  => 1,
 		) );
 	}
@@ -558,7 +558,7 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	}
 
 	$praticar = tpc_link_praticar( $p, $t );
-	$h       .= '<p class="tpc-cta"><span><strong>Pratique ' . esc_html( mb_strtolower( $p->post_title ) ) . ' agora.</strong> Itens Certo/Errado no estilo da banca, com revisão espaçada. Grátis.</span><a class="tpc-cta__botao" data-tpc-praticar="' . esc_attr( $p->ID ) . '" href="' . esc_url( $praticar ) . '">Praticar este tema</a></p>';
+	$h       .= '<p class="tpc-cta"><span><strong>Pratique ' . esc_html( mb_strtolower( $p->post_title ) ) . ' agora.</strong> Questões no estilo da banca, com revisão espaçada.</span><a class="tpc-cta__botao" data-tpc-praticar="' . esc_attr( $p->ID ) . '" href="' . esc_url( $praticar ) . '">Praticar este tema</a></p>';
 
 	// Relacionados: os do JSON (slugs da mesma disciplina) ou, sem eles, os vizinhos de sumário.
 	$rel  = array();
@@ -753,7 +753,7 @@ add_shortcode( 'tp_cadernos', function () {
 		. '</section>';
 	$h .= '<h2 class="tpv-secao">Disciplinas</h2><ul class="tpv-grade">' . $cards . '</ul>';
 	$h .= tpv_ponte_guias( array( 'como-estudar-lei-seca', 'como-estudar-jurisprudencia', 'como-estudar-por-questoes' ), 'Como usar os cadernos no seu estudo' );
-	$h .= tpv_cta( 'Transforme o caderno em plano de estudo', 'Escolha o seu concurso e o Tchau Pobreza monta o cronograma pelo edital, com prática em Certo ou Errado e revisões agendadas. Grátis.', 'Começar pelo meu edital' );
+	$h .= tpv_cta( 'Transforme o caderno em plano de estudo', 'Escolha o seu concurso e o Tchau Pobreza monta o cronograma pelo edital, com questões e revisões agendadas.', 'Começar pelo meu edital' );
 	return $h . '</div>';
 } );
 
