@@ -582,3 +582,7 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpi-conta-status.is-fora .tpi-conta-status__ponto, .tpi-conta-status.is-visitante .tpi-conta-status__ponto { color: #b07a1c; }
 .tpi-conta-status > span:not(.tpi-conta-status__ponto) { flex: 1 1 14rem; min-width: 0; }
 .tpi-pagina .entry-content .tpi-conta-status a, .tpi-conta-status a { font-weight: 700; color: var(--tpi-verde); }
+
+/* 0.19.2: ponte dos informativos para os guias de como estudar */
+.tpi-ponte-guias { margin: 2rem 0 0; padding: .9rem 1.1rem; border: 1px solid var(--tpi-linha, #d6dfda); border-radius: 12px; font-size: .95rem; line-height: 1.55; }
+.tpi-ponte-guias p { margin: 0; }

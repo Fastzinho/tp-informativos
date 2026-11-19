@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.19.1
+ * Version: 0.19.2
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.19.1' );
+define( 'TPI_VERSION', '0.19.2' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -623,10 +623,28 @@ function tpi_wrap_content( $content ) {
 	}
 
 	if ( in_array( $tipo, array( 'periodico', 'julgado', 'teses', 'teses_hub' ), true ) ) {
+		$pos .= tpi_ponte_como_estudar();
 		$pos .= tpi_newsletter_cta();
 	}
 
 	return $pre . $content . $pos;
+}
+
+/**
+ * 0.19.2: os informativos são as páginas que o Google mais relê; daqui sai o caminho até os guias de método
+ * (/como-estudar/), que estavam "detectados, mas não indexados" no Search Console.
+ */
+function tpi_ponte_como_estudar() {
+	$g = array(
+		'/como-estudar/como-estudar-jurisprudencia/' => 'como estudar jurisprudência e informativos',
+		'/como-estudar/como-estudar-lei-seca/'       => 'como estudar lei seca',
+		'/como-estudar/'                             => 'o método completo, do zero à prova',
+	);
+	$l = array();
+	foreach ( $g as $url => $txt ) {
+		$l[] = '<a href="' . esc_url( home_url( $url ) ) . '">' . esc_html( $txt ) . '</a>';
+	}
+	return '<aside class="tpi-ponte-guias" aria-label="Guias de como estudar"><p><strong>Para a prova:</strong> veja ' . $l[0] . ', ' . $l[1] . ' e ' . $l[2] . '.</p></aside>';
 }
 
 /* ---------------------------------------------------------------------------
