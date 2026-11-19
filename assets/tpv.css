@@ -51,10 +51,10 @@
 .tpv .tpv-card__link, .tpv-grade .tpv-card__link { display: flex; flex-direction: column; align-items: stretch; text-align: left; gap: .55rem; height: 100%; padding: 1.15rem 1.2rem 1.1rem; border: 1px solid var(--tpv-linha); border-radius: 14px; background: #fff; color: var(--tpv-tinta); text-decoration: none; box-shadow: 0 1px 0 rgba(30,43,38,.04); transition: border-color .15s, box-shadow .15s, transform .15s; }
 .tpv-card__link:hover, .tpv-card__link:focus-visible { border-color: var(--tpv-verde); box-shadow: 0 8px 24px rgba(30,60,48,.10); transform: translateY(-1px); outline: none; }
 .tpv-card__topo { display: flex; align-items: center; justify-content: flex-start; gap: .5rem; flex-wrap: nowrap; min-height: 26px; }
-.tpv-card__selo { white-space: nowrap; }
-.tpv-card__num { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--tpv-verde); color: #fff; font-weight: 800; font-size: .85rem; }
-.tpv-card__selo { display: inline-flex; align-items: center; padding: .15rem .6rem; border-radius: 999px; background: var(--tpv-nevoa); color: var(--tpv-verde); font-size: .78rem; font-weight: 800; letter-spacing: .02em; text-decoration: none; }
-.tpv-card__tempo { margin-left: auto; white-space: nowrap; font-size: .8rem; color: var(--tpv-suave); }
+.tpv-card__selo { white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.tpv-card__num { flex: none; display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--tpv-verde); color: #fff; font-weight: 800; font-size: .85rem; }
+.tpv-card__selo { display: block; padding: .15rem .6rem; border-radius: 999px; background: var(--tpv-nevoa); color: var(--tpv-verde); font-size: .78rem; font-weight: 800; letter-spacing: .02em; text-decoration: none; }
+.tpv-card__tempo { flex: none; margin-left: auto; white-space: nowrap; font-size: .8rem; color: var(--tpv-suave); }
 .tpv-card__titulo { font-size: 1.12rem; font-weight: 800; line-height: 1.3; }
 .tpv-card__texto { font-size: .94rem; line-height: 1.5; color: var(--tpv-suave); }
 .tpv-card__acao { margin-top: auto; padding-top: .35rem; font-weight: 800; font-size: .92rem; color: var(--tpv-verde); }
