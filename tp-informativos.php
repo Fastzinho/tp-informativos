@@ -161,6 +161,55 @@ function tpi_autor() {
 	);
 }
 
+/*
+ * Entidades do schema (marca e autor), com o mesmo @id que o Rank Math usa no resto do site.
+ * Assim, Google e buscadores de IA ligam todo julgado à mesma Organização e à mesma Pessoa,
+ * em vez de enxergar uma organização e um autor soltos em cada página.
+ */
+function tpi_schema_org_id() {
+	return home_url( '/#organization' );
+}
+
+function tpi_rm_titulo( $chave ) {
+	$op = get_option( 'rank-math-options-titles', array() );
+	return is_array( $op ) && isset( $op[ $chave ] ) ? $op[ $chave ] : '';
+}
+
+function tpi_schema_org() {
+	$org = array(
+		'@type' => 'Organization',
+		'@id'   => tpi_schema_org_id(),
+		'name'  => tpi_rm_titulo( 'knowledgegraph_name' ) ? tpi_rm_titulo( 'knowledgegraph_name' ) : get_bloginfo( 'name' ),
+		'url'   => home_url( '/' ),
+	);
+	$logo = tpi_rm_titulo( 'knowledgegraph_logo' );
+	if ( ! $logo && get_option( 'site_icon' ) ) {
+		$logo = wp_get_attachment_image_url( (int) get_option( 'site_icon' ), 'full' );
+	}
+	if ( $logo ) {
+		$org['logo'] = array( '@type' => 'ImageObject', '@id' => home_url( '/#logo' ), 'url' => $logo );
+	}
+	$perfis = array_values( array_filter( array_map( 'trim', preg_split( '/\s+/', (string) tpi_rm_titulo( 'social_additional_profiles' ) ) ) ) );
+	if ( $perfis ) {
+		$org['sameAs'] = $perfis;
+	}
+	return apply_filters( 'tpi_schema_org', $org );
+}
+
+function tpi_schema_autor( $user_id = 1 ) {
+	$a      = tpi_autor();
+	$pessoa = array(
+		'@type'       => 'Person',
+		'@id'         => get_author_posts_url( $user_id ? (int) $user_id : 1 ),
+		'name'        => $a['nome'],
+		'url'         => tpi_autor_url( $user_id ? (int) $user_id : 1 ),
+		'description' => ucfirst( $a['credenciais'] ),
+		'knowsAbout'  => array( 'Direito Penal', 'Direito Processual Penal', 'Execução Penal', 'Tribunal do Júri', 'Jurisprudência do STJ e do STF' ),
+		'worksFor'    => array( '@id' => tpi_schema_org_id() ),
+	);
+	return apply_filters( 'tpi_autor_schema', $pessoa );
+}
+
 /* A página de autor também lista os informativos e julgados comentados (o tema só lista posts). */
 add_action( 'pre_get_posts', function ( $q ) {
 	if ( ! is_admin() && $q->is_main_query() && $q->is_author() ) {
@@ -1160,14 +1209,7 @@ function tpi_schema() {
 	}
 	$id     = get_queried_object_id();
 	$post   = get_post( $id );
-	$autor  = apply_filters(
-		'tpi_autor_schema',
-		array(
-			'@type'    => 'Person',
-			'name'     => get_the_author_meta( 'display_name', $post->post_author ),
-			'url'      => tpi_autor_url( $post->post_author ),
-		)
-	);
+	$autor  = tpi_schema_autor( (int) $post->post_author );
 	$graph  = array();
 	$tipo   = tpi_meta( $id, 'tp_tipo' );
 
@@ -1177,8 +1219,8 @@ function tpi_schema() {
 		'headline'         => wp_strip_all_tags( get_the_title( $id ) ),
 		'datePublished'    => get_post_time( 'c', true, $id ),
 		'dateModified'     => get_post_modified_time( 'c', true, $id ),
-		'author'           => $autor,
-		'publisher'        => array( '@type' => 'Organization', 'name' => get_bloginfo( 'name' ), 'url' => home_url( '/' ) ),
+		'author'           => array( '@id' => $autor['@id'] ),
+		'publisher'        => array( '@id' => tpi_schema_org_id() ),
 		'mainEntityOfPage' => get_permalink( $id ),
 		'inLanguage'       => 'pt-BR',
 		'isAccessibleForFree' => true,
@@ -1197,12 +1239,14 @@ function tpi_schema() {
 		'name'  => wp_strip_all_tags( get_the_title( $id ) ),
 	);
 	if ( tpi_meta( $id, 'tp_revisado_em' ) ) {
-		$webpage['reviewedBy']   = $autor;
+		$webpage['reviewedBy']   = array( '@id' => $autor['@id'] );
 		$webpage['lastReviewed'] = tpi_meta( $id, 'tp_revisado_em' );
 	}
 	$article['isPartOf'] = array( '@id' => get_permalink( $id ) );
 	$graph[]             = $webpage;
 	$graph[]             = $article;
+	$graph[]             = tpi_schema_org();
+	$graph[]             = $autor;
 
 	// Breadcrumb: Informativos > ancestrais > atual
 	$itens   = array( array( 'name' => 'Informativos', 'url' => home_url( '/informativos/' ) ) );
