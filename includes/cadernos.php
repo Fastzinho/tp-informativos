@@ -235,22 +235,18 @@ add_action( 'template_redirect', function () {
  * 0.15.4: "Praticar este tema" abre no app a prática só daquele tema (antes abria o app genérico).
  * O app acha os itens pelo índice tp/v1/cadernos-indice (campos tax e dispositivos) com o id do post.
  * visitante=1: quem não tem conta entra direto como visitante, sem a tela de login no meio.
- * utm_*: a origem do aluno (tp_records settings "origem") passa a mostrar quem chegou pelos cadernos.
+ * 0.18.6: sem utm_* (link interno com UTM abre sessão nova no GA e apaga a origem real). O clique é medido pelo
+ * evento caderno_praticar (tpi.js) e a origem do aluno passa a ser gravada na própria página do caderno.
  * "praticar" no JSON do tema ainda manda, para um destino escolhido à mão.
  */
 function tpc_link_praticar( $p, $t ) {
 	if ( ! empty( $t['praticar'] ) ) {
 		return $t['praticar'];
 	}
-	$caderno = $p->post_parent ? get_post_field( 'post_name', $p->post_parent ) : '';
 	return add_query_arg(
 		array(
-			'tema'         => (int) $p->ID,
-			'visitante'    => 1,
-			'utm_source'   => 'caderno',
-			'utm_medium'   => 'praticar',
-			'utm_campaign' => $caderno ? $caderno : 'cadernos',
-			'utm_content'  => $p->post_name,
+			'tema'      => (int) $p->ID,
+			'visitante' => 1,
 		),
 		home_url( '/estudar/' )
 	);

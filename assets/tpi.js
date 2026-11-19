@@ -959,7 +959,7 @@
 })();
 
 /* 0.15.4: clique em "Praticar este tema" (no fim do tema e na gaveta da prévia) vai para o GA.
-   Junto com utm_source=caderno na origem do aluno, mede cliques do caderno → prática no app. */
+   Mede cliques do caderno → prática no app (0.18.6: o link não leva mais UTM). */
 (function () {
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[data-tpc-praticar]');

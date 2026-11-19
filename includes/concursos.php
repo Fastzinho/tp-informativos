@@ -281,14 +281,13 @@ add_filter( 'rank_math/sitemap/entry', function ( $url, $tipo, $obj ) {
 /* ---------------------------------------------------------------------------
  * 5. Montagem da página
  * ------------------------------------------------------------------------- */
+/* 0.18.6: sem utm_* (link interno com UTM abre sessão nova no GA e apaga a origem real, como Google).
+ * O botão clicado vai no evento concurso_cta (tpcon.js); a origem do aluno é gravada na própria página do concurso. */
 function tpcon_link_app( $c, $onde ) {
 	return add_query_arg(
 		array(
-			'plano'        => $c['plano'],
-			'visitante'    => 1,
-			'utm_source'   => 'concurso',
-			'utm_medium'   => $onde,
-			'utm_campaign' => $c['slug'],
+			'plano'     => $c['plano'],
+			'visitante' => 1,
 		),
 		home_url( '/estudar/' )
 	);

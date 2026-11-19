@@ -116,6 +116,6 @@
   // Cliques nas chamadas para o app
   raiz.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('[data-tpcon-cta]');
-    if (a) evento('concurso_cta', { posicao: a.getAttribute('data-tpcon-cta') });
+    if (a) evento('concurso_cta', { posicao: a.getAttribute('data-tpcon-cta'), origem: location.pathname });
   });
 })();
