@@ -636,8 +636,8 @@ add_action( 'wp_head', function () {
 	}
 	$id     = get_queried_object_id();
 	$c      = tpcon_dados( $id );
-	$a      = tpi_autor();
-	$pessoa = array( '@type' => 'Person', 'name' => $a['nome'], 'url' => $a['url'] );
+	$autor  = tpi_schema_autor( (int) get_post_field( 'post_author', $id ) );
+	$pessoa = array( '@id' => $autor['@id'] );
 	$url    = get_permalink( $id );
 	$titulo = wp_strip_all_tags( get_the_title( $id ) );
 	$page   = array( '@type' => 'WebPage', '@id' => $url, 'url' => $url, 'name' => $titulo, 'inLanguage' => 'pt-BR' );
@@ -653,7 +653,7 @@ add_action( 'wp_head', function () {
 		'datePublished'       => get_post_time( 'c', true, $id ),
 		'dateModified'        => get_post_modified_time( 'c', true, $id ),
 		'author'              => $pessoa,
-		'publisher'           => array( '@type' => 'Organization', 'name' => get_bloginfo( 'name' ), 'url' => home_url( '/' ) ),
+		'publisher'           => array( '@id' => tpi_schema_org_id() ),
 		'mainEntityOfPage'    => $url,
 		'isPartOf'            => array( '@id' => $url ),
 		'inLanguage'          => 'pt-BR',
@@ -666,7 +666,7 @@ add_action( 'wp_head', function () {
 			array( '@type' => 'ListItem', 'position' => 2, 'name' => $titulo, 'item' => $url ),
 		),
 	);
-	echo '<script type="application/ld+json">' . wp_json_encode( array( '@context' => 'https://schema.org', '@graph' => array( $page, $art, $bc ) ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
+	echo '<script type="application/ld+json">' . wp_json_encode( array( '@context' => 'https://schema.org', '@graph' => array( $page, $art, $bc, tpi_schema_org(), $autor ) ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
 }, 30 );
 
 add_filter( 'rank_math/frontend/description', function ( $desc ) {
