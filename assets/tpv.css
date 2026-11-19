@@ -144,3 +144,21 @@
   .tpv-guia .tpv-capa { grid-template-columns: 1fr; border-radius: 16px; margin-left: -4px !important; margin-right: -4px !important; }
   .tpv-capa__arte { position: absolute; right: -18px; top: -10px; width: 120px; opacity: .22; }
 }
+
+/* 0.19.0: método em 6 passos e dúvidas na página /como-estudar/ */
+.tpv-pilar { margin-top: 1.75rem; }
+.tpv-pilar .tpv-resposta { margin: 1rem 0 0; }
+.tpv-passos { list-style: none; counter-reset: tpv-passo; margin: 1rem 0 0; padding: 0; display: grid; gap: .9rem; }
+.tpv-passo { counter-increment: tpv-passo; position: relative; padding: 1.1rem 1.25rem 1.1rem 4rem; border: 1px solid var(--tpv-linha); border-radius: 14px; background: #fff; }
+.tpv-passo::before { content: counter(tpv-passo); position: absolute; left: 1.1rem; top: 1.05rem; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--tpv-verde); color: #fff; font-weight: 800; display: grid; place-items: center; }
+.tpv .tpv-passo h3 { margin: .2rem 0 .5rem; font-size: 1.15rem; font-weight: 800; line-height: 1.3; color: var(--tpv-tinta); }
+.tpv-pilar .tpv-resposta strong { font-weight: 800; }
+.tpv-passo p { margin: 0 0 .6rem; line-height: 1.6; }
+.tpv-passo__guia { margin: 0 !important; font-weight: 700; }
+.tpv-passo__guia a, .tpv-duvidas a { color: var(--tpv-verde); text-decoration: none; }
+.tpv-passo__guia a:hover, .tpv-duvidas a:hover { text-decoration: underline; }
+.tpv-duvidas { display: grid; gap: .6rem; }
+.tpv-duvidas details { border: 1px solid var(--tpv-linha); border-radius: 12px; padding: .85rem 1.1rem; background: #fff; }
+.tpv-duvidas summary { cursor: pointer; font-weight: 800; }
+.tpv-duvidas details p { margin: .6rem 0 0; line-height: 1.6; }
+@media (max-width: 600px) { .tpv-passo { padding: 3.6rem 1rem 1rem; } .tpv-passo::before { top: 1rem; left: 1rem; } }
