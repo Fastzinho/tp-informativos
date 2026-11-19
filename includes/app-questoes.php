@@ -70,7 +70,8 @@ add_filter( 'the_content', function ( $content ) {
 }, 19 );
 
 add_action( 'wp_footer', function () {
-	if ( is_admin() || is_feed() || ! ( is_singular( 'informativo' ) || is_post_type_archive( 'informativo' ) || is_tax( 'ramo_direito' ) ) ) {
+	/* 0.18.6: também concursos e cadernos, que levam ao app sem UTM; sem isso a origem real (ex.: Google) se perdia no clique. */
+	if ( is_admin() || is_feed() || ! ( is_singular( array( 'informativo', 'concurso', 'caderno' ) ) || is_post_type_archive( array( 'informativo', 'concurso', 'caderno' ) ) || is_tax( 'ramo_direito' ) ) ) {
 		return;
 	}
 	?>
