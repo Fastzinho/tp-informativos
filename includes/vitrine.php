@@ -103,17 +103,9 @@ add_shortcode( 'tp_como_estudar', function () {
 	}
 	$h .= '</nav></section>';
 
-	$comece = '';
-	$n      = 0;
-	foreach ( array( 'edital-verticalizado', 'ciclo-de-estudos', 'como-estudar-por-questoes', 'revisao-espacada' ) as $s ) {
-		$p = tpv_guia( $s );
-		if ( $p ) {
-			$comece .= tpv_card_guia( $p, ++$n );
-		}
-	}
-	if ( $comece ) {
-		$h .= '<h2 class="tpv-secao">Começando do zero? Siga esta ordem</h2><ul class="tpv-grade tpv-grade--4">' . $comece . '</ul>';
-	}
+	// 0.19.0: o método em 6 passos (como-estudar/_pilar.html) ocupa o lugar de "Começando do zero? Siga esta ordem".
+	list( $metodo, $duvidas ) = tpv_pilar();
+	$h .= $metodo;
 	foreach ( $cats as $c ) {
 		$itens = '';
 		foreach ( $guias as $p ) {
@@ -128,13 +120,57 @@ add_shortcode( 'tp_como_estudar', function () {
 		}
 		$h .= '<ul class="tpv-grade">' . $itens . '</ul>';
 	}
+	$h .= $duvidas;
 	$h .= '<h2 class="tpv-secao">Quer estudar a matéria?</h2><ul class="tpv-grade tpv-grade--2">'
 		. '<li class="tpv-card tpv-card--destaque"><a class="tpv-card__link" href="' . esc_url( home_url( '/cadernos/' ) ) . '"><span class="tpv-card__titulo">Cadernos sistematizados</span><span class="tpv-card__texto">Resumo, esquema, lei seca, jurisprudência e pegadinha de cada tema, por disciplina.</span><span class="tpv-card__acao">Ver cadernos <span aria-hidden="true">→</span></span></a></li>'
 		. '<li class="tpv-card tpv-card--destaque"><a class="tpv-card__link" href="' . esc_url( home_url( '/informativos/' ) ) . '"><span class="tpv-card__titulo">Informativos comentados</span><span class="tpv-card__texto">Os julgados do STJ e do STF que importam para concurso, explicados e com questões.</span><span class="tpv-card__acao">Ver informativos <span aria-hidden="true">→</span></span></a></li>'
 		. '</ul>';
-	$h .= tpv_cta( 'Prefere que o plano saia pronto?', 'O Tchau Pobreza é uma plataforma de estudos para concursos grátis: escolha o seu edital e receba ciclo, revisões e prática em Certo ou Errado.', 'Começar grátis' );
+	$h .= tpv_cta( 'Prefere que o plano saia pronto?', 'O Tchau Pobreza faz esses 6 passos por você: escolha o seu edital e receba os tópicos, o ciclo pelo peso das matérias, as questões de cada tópico e as revisões na data certa.', 'Começar pelo meu edital' );
 	return $h . '</div>';
 } );
+
+/**
+ * 0.19.0: topo da página /como-estudar/ como página principal de "como estudar para concurso".
+ * Devolve array( método, dúvidas ): o método vai logo abaixo do hero e as dúvidas depois dos guias por categoria.
+ */
+function tpv_pilar() {
+	$f = dirname( __DIR__ ) . '/como-estudar/_pilar.html';
+	if ( ! file_exists( $f ) ) {
+		return array( '', '' );
+	}
+	$html = (string) file_get_contents( $f );
+	$html = trim( preg_replace( '/^\s*<!--.*?-->/s', '', $html ) );
+	$corte = strpos( $html, '<h2 class="tpv-secao" id="duvidas">' );
+	$metodo  = false === $corte ? $html : substr( $html, 0, $corte );
+	$duvidas = false === $corte ? '' : substr( $html, $corte );
+	$assina  = function_exists( 'tpi_byline' ) ? tpi_byline( array( array( 'atualizado em', '2026-11-19' ) ) ) : '';
+	return array( '<div class="tpv-pilar">' . $assina . $metodo . '</div>', $duvidas );
+}
+
+/* 0.19.0: título, intro e SEO da página /como-estudar/ mirando "como estudar para concurso" (uma vez; depois vale o painel). */
+add_action( 'init', function () {
+	if ( get_option( 'tpv_hub_v3' ) ) {
+		return;
+	}
+	$p = get_page_by_path( 'como-estudar' );
+	if ( ! $p ) {
+		return;
+	}
+	$dados = array( 'ID' => $p->ID );
+	if ( 'Como estudar para concursos' === $p->post_title ) {
+		$dados['post_title'] = 'Como estudar para concurso: o método do zero à prova';
+	}
+	if ( false !== strpos( $p->post_content, 'Guias diretos sobre o jeito de estudar' ) ) {
+		$dados['post_content'] = "<!-- wp:paragraph -->\n<p>Como estudar para concurso quando você está começando do zero: o método em 6 passos, do edital à revisão, e os guias que aprofundam cada um, com dados de provas oficiais. Escrito por quem está estudando para concurso e constrói o Tchau Pobreza.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[tp_como_estudar]\n<!-- /wp:shortcode -->";
+	}
+	if ( count( $dados ) > 1 ) {
+		wp_update_post( $dados );
+	}
+	update_post_meta( $p->ID, 'rank_math_title', 'Como estudar para concurso do zero: o método em 6 passos' );
+	update_post_meta( $p->ID, 'rank_math_description', 'Como estudar para concurso do zero em 6 passos: edital em tópicos, horas pelo peso, teoria com a lei, questões, revisão espaçada e jurisprudência.' );
+	update_post_meta( $p->ID, 'rank_math_focus_keyword', 'como estudar para concurso,como estudar para concurso do zero,como começar a estudar para concurso' );
+	update_option( 'tpv_hub_v3', 1, false );
+}, 51 );
 
 /* A página /como-estudar/ nasceu com a lista em HTML (0.13.0). Se ninguém a editou, troca pela vitrine. */
 add_action( 'init', function () {
@@ -284,6 +320,9 @@ add_action( 'wp_enqueue_scripts', function () {
 	$conteudo = is_singular() ? (string) get_post_field( 'post_content', get_queried_object_id() ) : '';
 	if ( tpv_eh_guia() || is_category() || has_shortcode( $conteudo, 'tp_como_estudar' ) ) {
 		tpv_assets();
+	}
+	if ( has_shortcode( $conteudo, 'tp_como_estudar' ) ) { // 0.19.0: assinatura (tpi-byline) no topo do método
+		wp_enqueue_style( 'tp-informativos', TPI_URL . 'assets/tpi.css', array(), TPI_VERSION );
 	}
 }, 12 );
 
