@@ -49,7 +49,7 @@ function tpi_app_questoes_cta( $id ) {
 		. '<p class="tpi-app-cta__titulo" id="' . $t . '">Quer treinar mais este julgado?</p>'
 		. '<p>No app do Tchau Pobreza você resolve as questões deste tema, estas e as que preparamos lá dentro, com a correção na hora e o seu desempenho guardado.</p>'
 		. '<p><a class="tpi-btn" href="' . esc_url( tpi_app_questoes_url( $id ) ) . '" rel="nofollow" data-tpi-app-cta="' . (int) $id . '" data-tpi-trib="' . esc_attr( tpi_meta( $id, 'tp_tribunal' ) ) . '">Resolver as questões no app</a></p>'
-		. '<p class="tpi-app-cta__micro">Grátis. Dá para começar sem cadastro e criar a conta depois, sem perder o que fez.</p>'
+		. '<p class="tpi-app-cta__micro">Dá para começar sem cadastro e criar a conta depois, sem perder o que fez.</p>'
 		. '</aside>';
 }
 
