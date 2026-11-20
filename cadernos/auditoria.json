@@ -1,0 +1,828 @@
+{
+ "slug": "auditoria",
+ "titulo": "Caderno de Auditoria",
+ "disciplina": "Auditoria",
+ "ordem": 25,
+ "descricao": "Auditoria para concursos fiscais pelas normas brasileiras de auditoria (NBC TA): planejamento, risco, materialidade, evidência, amostragem, papéis de trabalho, relatório e auditoria fiscal.",
+ "revisado_em": "2026-11-20",
+ "revisado_rotulo": "Normas brasileiras de auditoria conferidas",
+ "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
+ "temas": [
+  {
+   "slug": "sped-sistema-publico-de-escrituracao-digital",
+   "titulo": "SPED: Sistema Público de Escrituração Digital",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Decreto nº 6.022/2007; Convênio ICMS 143/2006; Ajuste SINIEF 2/2009",
+   "tax": [
+    "auditoria.sped"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "SPED",
+    "escrituração digital",
+    "ECD",
+    "ECF",
+    "EFD"
+   ],
+   "palavras": [
+    "sped",
+    "decreto 6022",
+    "ecd",
+    "ecf",
+    "efd icms ipi",
+    "efd contribuicoes",
+    "efd reinf",
+    "esocial",
+    "pva",
+    "assinatura digital",
+    "icp-brasil",
+    "e-financeira",
+    "documento fiscal eletronico"
+   ],
+   "resumo": "O <strong>SPED</strong> foi instituído pelo <strong>Decreto nº 6.022/2007</strong> como instrumento que unifica a recepção, a validação, o armazenamento e a autenticação de livros e documentos da escrituração contábil e fiscal das empresas, por um fluxo único e computadorizado de informações. O fisco deixa de receber papel e passa a receber arquivos digitais padronizados, assinados com certificado digital ICP-Brasil, que dão validade jurídica ao conteúdo. O SPED reúne dois tipos de peça. Os <strong>documentos fiscais eletrônicos</strong> (NF-e, NFC-e, CT-e, CT-e OS, MDF-e) registram cada operação no momento em que ela ocorre. As <strong>escriturações digitais</strong> organizam esses fatos por período: a <strong>ECD</strong> substitui os livros contábeis (Diário e Razão); a <strong>ECF</strong> trata do IRPJ e da CSLL e substituiu a DIPJ; a <strong>EFD ICMS/IPI</strong> substitui os livros fiscais do ICMS e do IPI; a <strong>EFD-Contribuições</strong> trata do PIS/Pasep, da Cofins e da contribuição previdenciária sobre a receita; a <strong>EFD-Reinf</strong> e o <strong>eSocial</strong> tratam de retenções e de informações trabalhistas e previdenciárias. Os arquivos de escrituração passam pelo Programa Validador e Assinador (PVA), que confere a estrutura e as regras de validação antes da assinatura e da transmissão. A EFD ICMS/IPI tem base no Convênio ICMS 143/2006 e no Ajuste SINIEF 2/2009, porque interessa ao mesmo tempo à Receita Federal (IPI) e aos estados (ICMS). Para o auditor fiscal, o ganho do SPED é o cruzamento: o mesmo fato aparece no documento eletrônico autorizado e na escrituração, e as duas fontes podem ser comparadas em massa.",
+   "esquema": {
+    "rotulo": "peças do SPED que mais caem",
+    "html": "<table><thead><tr><th>Peça</th><th>O que registra</th><th>Interessado principal</th></tr></thead><tbody><tr><td><strong>NF-e (55) e NFC-e (65)</strong></td><td>cada operação com mercadorias</td><td>estados (ICMS) e Receita Federal (IPI)</td></tr><tr><td><strong>CT-e (57), CT-e OS (67) e MDF-e (58)</strong></td><td>prestações de transporte e o trânsito da carga</td><td>estados (ICMS)</td></tr><tr><td><strong>ECD</strong></td><td>escrituração contábil: Diário, Razão e balancetes</td><td>Receita Federal e registro empresarial</td></tr><tr><td><strong>ECF</strong></td><td>apuração do IRPJ e da CSLL (substituiu a DIPJ)</td><td>Receita Federal</td></tr><tr><td><strong>EFD ICMS/IPI</strong></td><td>livros fiscais: entradas, saídas, inventário, apuração, CIAP, produção e estoque</td><td>estados e Receita Federal</td></tr><tr><td><strong>EFD-Contribuições</strong></td><td>PIS/Pasep, Cofins e contribuição previdenciária sobre a receita</td><td>Receita Federal</td></tr><tr><td><strong>EFD-Reinf e eSocial</strong></td><td>retenções e informações trabalhistas e previdenciárias</td><td>Receita Federal e órgãos do trabalho</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "DOCUMENTO REGISTRA, ESCRITURAÇÃO ORGANIZA",
+     "texto": "NF-e, CT-e e MDF-e nascem a cada operação. ECD, ECF e EFD juntam os fatos de um período. Quem confunde os dois erra item sobre o que substitui o quê."
+    },
+    {
+     "sigla": "EFD ICMS/IPI TEM DOIS DONOS",
+     "texto": "Ela atende estados e Receita Federal ao mesmo tempo; por isso a base é convênio e ajuste do Confaz, e não só ato da Receita."
+    },
+    {
+     "sigla": "O PVA VALIDA ANTES DE TRANSMITIR",
+     "texto": "O arquivo de escrituração é conferido pelo Programa Validador e Assinador, assinado com certificado ICP-Brasil e só então transmitido."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A ECF substituiu os livros Diário e Razão, que passaram a ser entregues em formato digital ao SPED.",
+    "gabarito": "E",
+    "explicacao": "Quem substitui os livros contábeis (Diário e Razão) é a ECD. A ECF trata da apuração do IRPJ e da CSLL e substituiu a DIPJ."
+   },
+   "aprofundamento": "<p><strong>Assinatura digital dá validade jurídica.</strong> O arquivo digital da escrituração e o documento fiscal eletrônico valem juridicamente porque são assinados com certificado digital emitido no padrão ICP-Brasil, que garante autoria e integridade. Um arquivo alterado depois da assinatura deixa de ser íntegro.</p><p><strong>Validação não é homologação do conteúdo.</strong> O PVA confere estrutura, campos obrigatórios e regras de consistência do leiaute. O recibo de entrega não significa que o fisco concordou com os valores: a auditoria pode examinar e lançar a diferença dentro do prazo decadencial.</p><p><strong>Autenticação da ECD.</strong> Desde o Decreto nº 8.683/2016, a autenticação dos livros da ECD decorre do próprio recibo de transmissão ao SPED, sem passar pela Junta Comercial.</p><p><strong>Retificação substitui o arquivo inteiro.</strong> Na escrituração digital, o arquivo retificador traz todas as informações do período e substitui integralmente o arquivo original; não se envia só o registro corrigido.</p><p><strong>Mais pontos que as questões cobram.</strong> A EFD ICMS/IPI é entregue por estabelecimento, ao passo que a EFD-Contribuições é centralizada no estabelecimento matriz. O SPED não cria tributo: muda a forma de cumprir obrigações acessórias que já existiam.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "nfe-e-nfce-leiaute-e-autorizacao",
+    "nfe-e-nfce-leiaute-e-autorizacao"
+   ]
+  },
+  {
+   "slug": "nfe-e-nfce-leiaute-e-autorizacao",
+   "titulo": "NF-e e NFC-e: modelo, chave de acesso e autorização de uso",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Ajuste SINIEF 7/2005 e Manual de Orientação ao Contribuinte (MOC) da NF-e e NFC-e",
+   "tax": [
+    "auditoria.nfe-nfce"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "NF-e",
+    "NFC-e",
+    "DANFE",
+    "chave de acesso",
+    "autorização de uso"
+   ],
+   "palavras": [
+    "nota fiscal eletronica",
+    "modelo 55",
+    "modelo 65",
+    "danfe",
+    "qr code",
+    "csc",
+    "chave de acesso 44 digitos",
+    "rejeicao",
+    "denegacao",
+    "autorizacao de uso",
+    "homologacao",
+    "producao",
+    "finnfe",
+    "nf-e complementar",
+    "nf-e de devolucao",
+    "moc 7.0"
+   ],
+   "resumo": "A <strong>NF-e (modelo 55)</strong> é documento de existência apenas digital, emitido e armazenado eletronicamente para documentar operações e prestações, cuja validade jurídica vem da <strong>assinatura digital do emitente</strong> e da <strong>autorização de uso</strong> concedida pela administração tributária antes da saída da mercadoria. A <strong>NFC-e (modelo 65)</strong> segue o mesmo modelo técnico, mas serve às vendas a <strong>consumidor final</strong> no varejo, em operação interna, presencial ou com entrega em domicílio; ela substitui o cupom fiscal e a nota de venda a consumidor. O fluxo é: o emitente gera o arquivo XML no leiaute do MOC, assina com certificado ICP-Brasil e transmite à SEFAZ autorizadora. A resposta tem três desfechos. Na <strong>rejeição</strong>, o arquivo tem falha de leiaute ou de regra de validação; nada fica registrado e o emitente corrige e transmite de novo, com o mesmo número. Na <strong>denegação</strong>, há irregularidade fiscal do emitente (ou do destinatário, conforme a UF); o arquivo fica guardado como denegado e aquele número não pode ser reaproveitado. Na <strong>autorização</strong>, a NF-e passa a existir e não pode mais ser alterada; mudanças só por eventos (cancelamento, carta de correção) ou por outra nota (complementar, de ajuste, de devolução). A <strong>chave de acesso</strong> tem 44 dígitos: código da UF, ano e mês da emissão, CNPJ do emitente, modelo, série, número, forma de emissão, código numérico e dígito verificador. O <strong>DANFE</strong> é só a representação gráfica da NF-e: acompanha a mercadoria e permite a consulta pela chave, mas não é o documento fiscal. No DANFE da NFC-e, o QR Code é gerado com o Código de Segurança do Contribuinte (CSC) e leva à consulta da nota.",
+   "esquema": {
+    "rotulo": "NF-e e NFC-e lado a lado",
+    "html": "<table><thead><tr><th>Ponto</th><th>NF-e (55)</th><th>NFC-e (65)</th></tr></thead><tbody><tr><td><strong>Uso</strong></td><td>qualquer operação: entre empresas, interestadual, exportação, devolução</td><td>venda a consumidor final no varejo, operação interna</td></tr><tr><td><strong>Destino da operação</strong></td><td>interna, interestadual ou exterior</td><td>só interna</td></tr><tr><td><strong>Representação gráfica</strong></td><td>DANFE</td><td>DANFE NFC-e com QR Code gerado com o CSC</td></tr><tr><td><strong>Identificação do destinatário</strong></td><td>obrigatória</td><td>só nas hipóteses da legislação (por exemplo, entrega em domicílio ou valor acima do limite da UF)</td></tr><tr><td><strong>Contingência típica</strong></td><td>SVC, EPEC, FS-DA</td><td>emissão off-line</td></tr></tbody></table><table><thead><tr><th>Resposta da SEFAZ</th><th>O que acontece com o número</th></tr></thead><tbody><tr><td><strong>Rejeição</strong></td><td>não fica registrado: corrige e reenvia com o mesmo número</td></tr><tr><td><strong>Denegação</strong></td><td>fica registrado como denegado e não pode ser reutilizado</td></tr><tr><td><strong>Autorização</strong></td><td>NF-e válida e inalterável; só eventos ou nova nota</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "REJEITADA VOLTA, DENEGADA FICA",
+     "texto": "Na rejeição o número continua livre e o arquivo pode ser corrigido. Na denegação o arquivo fica guardado como denegado e o número não volta."
+    },
+    {
+     "sigla": "DANFE NÃO É A NOTA",
+     "texto": "O documento fiscal é o XML assinado e autorizado. O DANFE só representa a NF-e e ajuda a consultá-la pela chave de acesso."
+    },
+    {
+     "sigla": "NFC-E NÃO SAI DO ESTADO",
+     "texto": "A NFC-e é para o varejo com consumidor final em operação interna. Venda interestadual pede NF-e."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A NF-e denegada pode ser corrigida pelo emitente e transmitida novamente com a mesma numeração, depois de sanada a irregularidade cadastral.",
+    "gabarito": "E",
+    "explicacao": "Quem pode ser corrigida e reenviada com o mesmo número é a NF-e rejeitada. Na denegação, o arquivo fica guardado como denegado e não é possível pedir nova autorização com a mesma numeração."
+   },
+   "aprofundamento": "<p><strong>Finalidade da emissão.</strong> O campo de finalidade da NF-e distingue a nota normal, a complementar, a de ajuste e a de devolução. A NF-e complementar acrescenta valor ou imposto a uma nota já autorizada; ela não serve para reduzir valor.</p><p><strong>Ambiente de homologação não vale como documento.</strong> A NF-e emitida em ambiente de homologação serve a testes e não tem valor fiscal; só a nota autorizada em ambiente de produção documenta a operação.</p><p><strong>Autorização antes da saída.</strong> A mercadoria só pode circular depois de concedida a autorização de uso. O DANFE impresso de uma nota ainda não autorizada não acoberta o trânsito, salvo nas modalidades de contingência previstas.</p><p><strong>Dever do destinatário.</strong> O destinatário deve verificar a validade e a autenticidade da NF-e e a existência da autorização de uso, consultando pela chave de acesso, e guardar o arquivo XML pelo prazo da legislação.</p><p><strong>Mais pontos que as questões cobram.</strong> A chave de acesso tem 44 dígitos e traz o CNPJ do emitente, mas não traz o CNPJ do destinatário nem o valor da nota. Uma NF-e comporta até 990 itens. O MOC é o manual técnico que fixa leiaute, regras de validação e web services; a obrigação de emitir vem do Ajuste SINIEF 7/2005 e da legislação de cada UF.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "sped-sistema-publico-de-escrituracao-digital",
+    "nfe-eventos-cancelamento-correcao-contingencia"
+   ]
+  },
+  {
+   "slug": "nfe-eventos-cancelamento-correcao-contingencia",
+   "titulo": "NF-e: cancelamento, carta de correção, inutilização, manifestação e contingência",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Ajuste SINIEF 7/2005; Convênio SINIEF s/nº de 1970, art. 7º, § 1º-A; MOC da NF-e",
+   "tax": [
+    "auditoria.nfe-eventos"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "carta de correção eletrônica",
+    "cancelamento de NF-e",
+    "inutilização de numeração",
+    "manifestação do destinatário",
+    "contingência"
+   ],
+   "palavras": [
+    "cc-e",
+    "carta de correcao",
+    "cancelamento",
+    "inutilizacao",
+    "manifestacao do destinatario",
+    "ciencia da emissao",
+    "confirmacao da operacao",
+    "desconhecimento da operacao",
+    "operacao nao realizada",
+    "epec",
+    "svc",
+    "fs-da",
+    "contingencia off-line",
+    "evento"
+   ],
+   "resumo": "Depois de autorizada, a NF-e não muda: tudo o que acontece com ela entra por <strong>eventos</strong> vinculados à chave de acesso. O <strong>cancelamento</strong> é pedido pelo emitente no prazo máximo fixado na norma nacional (regra geral de 24 horas da autorização) e só cabe se <strong>não tiver havido a circulação da mercadoria</strong> nem a prestação do serviço; fora do prazo, depende de pedido à SEFAZ, quando a UF admitir. A <strong>Carta de Correção Eletrônica (CC-e)</strong> corrige erro da nota, desde que o erro não se refira às variáveis que determinam o valor do imposto (base de cálculo, alíquota, diferença de preço, quantidade, valor da operação ou da prestação), a dados cadastrais que mudem o remetente ou o destinatário, nem à data de emissão ou de saída. Cada NF-e admite até 20 CC-e, e a mais recente substitui as anteriores, por isso deve trazer todas as correções consolidadas. A <strong>inutilização</strong> é o pedido para os números que foram pulados e nunca chegaram a ser autorizados; deve ser feita até o 10º dia do mês seguinte ao da falha na sequência. A <strong>manifestação do destinatário</strong> tem quatro eventos: ciência da emissão (o destinatário sabe que a nota existe, mas ainda não se manifestou sobre a operação), confirmação da operação, desconhecimento da operação (não reconhece a nota) e operação não realizada (reconhece a nota, mas a operação não se concretizou). Na <strong>contingência</strong>, a NF-e pode ser autorizada pela SEFAZ Virtual de Contingência (SVC), registrada antes por um resumo no evento EPEC, ou impressa em formulário de segurança (FS-DA); na NFC-e, existe a emissão off-line. Nas modalidades em que a nota não foi autorizada no momento da emissão, o arquivo deve ser transmitido assim que cessar o problema.",
+   "esquema": {
+    "rotulo": "qual instrumento usar",
+    "html": "<table><thead><tr><th>Situação</th><th>Instrumento</th><th>Limite</th></tr></thead><tbody><tr><td>Nota autorizada, mercadoria não saiu</td><td><strong>Cancelamento</strong> (evento)</td><td>prazo máximo da norma nacional e sem circulação</td></tr><tr><td>Erro em descrição, endereço, transportador, CFOP sem efeito no imposto</td><td><strong>CC-e</strong></td><td>não corrige base, alíquota, quantidade, valor, remetente, destinatário nem datas</td></tr><tr><td>Imposto ou valor destacado a menor</td><td><strong>NF-e complementar</strong></td><td>só acrescenta</td></tr><tr><td>Número pulado, nunca autorizado</td><td><strong>Inutilização</strong></td><td>até o 10º dia do mês seguinte</td></tr><tr><td>Destinatário não reconhece a nota</td><td><strong>Desconhecimento da operação</strong></td><td>evento do destinatário</td></tr><tr><td>Nota reconhecida, operação desfeita</td><td><strong>Operação não realizada</strong></td><td>evento do destinatário</td></tr><tr><td>SEFAZ autorizadora fora do ar</td><td><strong>SVC, EPEC ou FS-DA</strong> (NFC-e: off-line)</td><td>transmitir assim que normalizar</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "MEXEU NO IMPOSTO, NÃO É CARTA",
+     "texto": "Base de cálculo, alíquota, preço, quantidade e valor ficam fora da CC-e. Também ficam fora a troca de remetente ou destinatário e as datas de emissão e de saída."
+    },
+    {
+     "sigla": "A ÚLTIMA CARTA VALE POR TODAS",
+     "texto": "A CC-e mais recente substitui as anteriores. Quem corrige o segundo erro tem de repetir a correção do primeiro."
+    },
+    {
+     "sigla": "INUTILIZA O QUE NUNCA EXISTIU",
+     "texto": "Inutilização é para número pulado. Nota autorizada se cancela; nota denegada já está registrada e não se inutiliza."
+    },
+    {
+     "sigla": "CIÊNCIA NÃO É CONFIRMAÇÃO",
+     "texto": "A ciência da emissão só diz que o destinatário sabe da nota. A posição sobre a operação vem com a confirmação, o desconhecimento ou a operação não realizada."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A Carta de Correção Eletrônica pode ser usada para corrigir a quantidade de mercadoria informada na NF-e, desde que o valor total da operação permaneça o mesmo.",
+    "gabarito": "E",
+    "explicacao": "A quantidade está entre as variáveis que determinam o valor do imposto, ao lado da base de cálculo, da alíquota, da diferença de preço e do valor da operação. Nenhuma delas pode ser corrigida por CC-e, mesmo que o total não mude."
+   },
+   "aprofundamento": "<p><strong>Cancelamento depois da circulação é irregular.</strong> Se o MDF-e, o CT-e ou o registro de passagem em posto fiscal mostram que a mercadoria circulou, o cancelamento não poderia ter sido feito, e o fisco trata a operação como realizada.</p><p><strong>Desconhecimento e operação não realizada são coisas diferentes.</strong> No desconhecimento, o destinatário diz que não participou da operação (por exemplo, uso indevido do seu CNPJ). Na operação não realizada, ele reconhece a nota, mas a mercadoria não foi entregue ou foi recusada.</p><p><strong>EPEC não é autorização da NF-e.</strong> No EPEC, o emitente registra antes um resumo da nota no Ambiente Nacional e imprime o DANFE em papel comum; a NF-e completa ainda precisa ser transmitida e autorizada depois. Na SVC, ao contrário, a nota já sai autorizada pela SEFAZ virtual.</p><p><strong>Formulário de segurança.</strong> Na contingência FS-DA, o DANFE é impresso em formulário de segurança para documento auxiliar, em duas vias, e a nota é transmitida quando a comunicação voltar.</p><p><strong>Mais pontos que as questões cobram.</strong> Inutilização e cancelamento produzem efeitos diferentes na EFD: nota cancelada e número inutilizado aparecem com códigos de situação próprios, sem valores. A CC-e pode corrigir o CFOP quando a troca não altera o cálculo do imposto, mas não serve para transformar uma operação em outra com tributação diferente.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "nfe-e-nfce-leiaute-e-autorizacao",
+    "efd-icms-ipi-guia-pratico"
+   ]
+  },
+  {
+   "slug": "efd-icms-ipi-guia-pratico",
+   "titulo": "EFD ICMS/IPI: obrigados, blocos, registros e retificação",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Convênio ICMS 143/2006; Ajuste SINIEF 2/2009; Guia Prático da EFD ICMS/IPI; LC 123/2006, art. 26, § 4º-A",
+   "tax": [
+    "auditoria.efd-icms-ipi"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "EFD ICMS/IPI",
+    "SPED Fiscal",
+    "Guia Prático da EFD",
+    "bloco K",
+    "registro C100"
+   ],
+   "palavras": [
+    "sped fiscal",
+    "guia pratico",
+    "bloco 0",
+    "bloco c",
+    "bloco d",
+    "bloco e",
+    "bloco g",
+    "bloco h",
+    "bloco k",
+    "bloco 1",
+    "bloco 9",
+    "c100",
+    "c170",
+    "c190",
+    "e110",
+    "e111",
+    "h010",
+    "0200",
+    "0150",
+    "ciap",
+    "inventario",
+    "perfil a",
+    "perfil b",
+    "retificacao",
+    "cod_sit"
+   ],
+   "resumo": "A <strong>EFD ICMS/IPI</strong> é o arquivo digital mensal em que o contribuinte do ICMS ou do IPI escritura os livros fiscais: Registro de Entradas, Registro de Saídas, Registro de Inventário, Registro de Apuração do ICMS, Registro de Apuração do IPI, o controle de crédito do ativo permanente (CIAP) e o Livro de Registro de Controle da Produção e do Estoque. Tem base no Convênio ICMS 143/2006 e no Ajuste SINIEF 2/2009, e as regras de preenchimento estão no <strong>Guia Prático</strong>. É entregue <strong>por estabelecimento</strong>, validada e assinada no PVA e transmitida ao SPED. A UF define o <strong>perfil</strong> de apresentação: o perfil A é o mais detalhado e o perfil B admite totalizações por período. O arquivo é dividido em <strong>blocos</strong>: 0 (abertura, identificação e cadastros: participantes no 0150, unidades no 0190, itens no 0200), B (ISS, só para o Distrito Federal), C (documentos de mercadorias, como NF-e e NFC-e: C100 por documento, C170 por item, C190 por combinação de CST, CFOP e alíquota), D (documentos de serviços de transporte e comunicação, como o CT-e no D100), E (apuração: E110 do ICMS próprio, E111 com os ajustes, E200 da substituição tributária, E300 do diferencial de alíquotas e do fundo de pobreza, E500 do IPI), G (CIAP), H (inventário físico), K (produção e estoque), 1 (outras informações) e 9 (controle e encerramento). Cada documento leva o <strong>código de situação</strong>: regular, extemporâneo, cancelado, denegado, numeração inutilizada, complementar e regime especial. O inventário de 31 de dezembro é informado no bloco H da EFD de <strong>fevereiro</strong>. Quem o apresenta antes, na EFD de dezembro ou de janeiro, tem de repetir a informação no arquivo de fevereiro. Da ME e da EPP optantes pelo Simples Nacional, a EFD só pode ser exigida se houver, cumulativamente, autorização específica do Comitê Gestor e programa disponibilizado sem custo pela administração tributária (LC 123/2006, art. 26, § 4º-A).",
+   "esquema": {
+    "rotulo": "blocos da EFD ICMS/IPI",
+    "html": "<table><thead><tr><th>Bloco</th><th>Conteúdo</th><th>Registros que mais caem</th></tr></thead><tbody><tr><td><strong>0</strong></td><td>abertura, identificação e tabelas de cadastro</td><td>0000 abertura; 0150 participantes; 0190 unidades; 0200 itens; 0220 fatores de conversão</td></tr><tr><td><strong>B</strong></td><td>ISS</td><td>só Distrito Federal</td></tr><tr><td><strong>C</strong></td><td>documentos fiscais de mercadorias (ICMS/IPI)</td><td>C100 documento; C170 itens; C190 analítico por CST, CFOP e alíquota</td></tr><tr><td><strong>D</strong></td><td>documentos de serviços (ICMS)</td><td>D100 CT-e e demais conhecimentos</td></tr><tr><td><strong>E</strong></td><td>apuração do ICMS e do IPI</td><td>E110 ICMS próprio; E111 ajustes; E200 ST; E300 DIFAL e FCP; E500 IPI</td></tr><tr><td><strong>G</strong></td><td>CIAP</td><td>crédito do ativo em 1/48 por mês</td></tr><tr><td><strong>H</strong></td><td>inventário físico</td><td>H005 e H010; inventário de 31/12 na EFD de fevereiro</td></tr><tr><td><strong>K</strong></td><td>controle da produção e do estoque</td><td>K200 estoque escriturado; K230 produção</td></tr><tr><td><strong>1</strong></td><td>outras informações</td><td>1010 indica quais registros do bloco são obrigatórios</td></tr><tr><td><strong>9</strong></td><td>controle e encerramento</td><td>9900 totais por registro; 9999 encerramento</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "UM ARQUIVO POR ESTABELECIMENTO",
+     "texto": "A EFD ICMS/IPI é entregue por estabelecimento. Centralização na matriz é da EFD-Contribuições."
+    },
+    {
+     "sigla": "INVENTÁRIO DE DEZEMBRO, ENTREGUE EM FEVEREIRO",
+     "texto": "O estoque de 31/12 vai para o bloco H da EFD do segundo mês seguinte, ou seja, a de fevereiro."
+    },
+    {
+     "sigla": "C É MERCADORIA, D É SERVIÇO",
+     "texto": "NF-e e NFC-e ficam no bloco C. CT-e e documentos de comunicação ficam no bloco D. A apuração fica no E."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A EFD ICMS/IPI é apresentada de forma centralizada pelo estabelecimento matriz, que consolida as operações de todas as filiais localizadas na mesma unidade federada.",
+    "gabarito": "E",
+    "explicacao": "A EFD ICMS/IPI é entregue por estabelecimento, porque o ICMS é apurado estabelecimento a estabelecimento. A apresentação centralizada na matriz é característica da EFD-Contribuições."
+   },
+   "aprofundamento": "<p><strong>Retificação.</strong> Pelo Ajuste SINIEF 2/2009, o contribuinte pode retificar a EFD sem autorização até o último dia do terceiro mês seguinte ao encerramento do mês da apuração; depois disso, só com autorização da administração tributária da UF. Em regra, a retificação não produz efeitos sobre período que já esteja sob ação fiscal: a partir daí, a espontaneidade acabou.</p><p><strong>Arquivo retificador é completo.</strong> Retificar é enviar novo arquivo do mesmo período com todas as informações, que substitui integralmente o anterior.</p><p><strong>Entrada com CFOP do destinatário.</strong> Na escrituração da entrada, o contribuinte informa o CFOP da sua própria operação (por exemplo, 1.102 ou 2.102 na compra para revenda), e não o CFOP de saída que veio na nota do fornecedor.</p><p><strong>Código de ajuste.</strong> Os ajustes da apuração no E111 usam códigos da tabela 5.1.1 publicada por cada UF. Ajuste com código genérico, sem amparo na legislação, é ponto clássico de auditoria.</p><p><strong>Mais pontos que as questões cobram.</strong> O registro C190 consolida os valores do documento por CST, CFOP e alíquota, e é a partir dele que se conferem os totais do E110. O bloco 9 traz a quantidade de linhas de cada registro, para controle da integridade do arquivo. Documento cancelado entra no C100 apenas com os campos de identificação, sem valores.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "nfe-eventos-cancelamento-correcao-contingencia",
+    "cte-e-cte-os"
+   ]
+  },
+  {
+   "slug": "cte-e-cte-os",
+   "titulo": "CT-e e CT-e OS: participantes, tipos de serviço e eventos",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Ajuste SINIEF 9/2007 e Manual de Orientação ao Contribuinte do CT-e e CT-e OS (versão 4.0)",
+   "tax": [
+    "auditoria.cte"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "CT-e",
+    "CT-e OS",
+    "DACTE",
+    "tomador do serviço",
+    "redespacho",
+    "subcontratação"
+   ],
+   "palavras": [
+    "conhecimento de transporte eletronico",
+    "modelo 57",
+    "modelo 67",
+    "dacte",
+    "tomador",
+    "remetente",
+    "expedidor",
+    "recebedor",
+    "destinatario",
+    "subcontratacao",
+    "redespacho",
+    "redespacho intermediario",
+    "multimodal",
+    "cte complementar",
+    "cte de substituicao",
+    "prestacao de servico em desacordo",
+    "gtv-e",
+    "bp-e",
+    "moc 4.0"
+   ],
+   "resumo": "O <strong>CT-e (modelo 57)</strong> é o documento eletrônico que acoberta a <strong>prestação de serviço de transporte de cargas</strong> intermunicipal ou interestadual, em qualquer modal (rodoviário, aéreo, aquaviário, ferroviário, dutoviário e multimodal). Ele substituiu os antigos conhecimentos em papel de cada modal e a nota fiscal de serviço de transporte usada para cargas. O <strong>CT-e OS (modelo 67)</strong> cobre os <strong>outros serviços</strong> de transporte: transporte de pessoas por fretamento ou em situação não regular, transporte de valores e excesso de bagagem. O transporte regular de passageiros usa o BP-e (modelo 63), e o transporte de valores é acompanhado também da GTV-e (modelo 64). Como a NF-e, o CT-e é assinado com certificado ICP-Brasil, depende de autorização de uso e tem como representação gráfica o <strong>DACTE</strong>. O CT-e identifica cinco papéis. O <strong>remetente</strong> é quem envia a carga e o <strong>destinatário</strong> é quem a recebe ao final. O <strong>expedidor</strong> entrega a carga ao transportador quando não é o próprio remetente, e o <strong>recebedor</strong> a recebe do transportador quando não é o destinatário. O <strong>tomador</strong> é quem contrata e paga o frete, e pode ser o remetente, o expedidor, o recebedor, o destinatário ou um terceiro. O <strong>tipo de serviço</strong> distingue o serviço normal, a <strong>subcontratação</strong> (o transportador contratado repassa a outro a execução de todo o serviço, e o subcontratado emite CT-e tendo o subcontratante como tomador), o <strong>redespacho</strong> (um transportador contrata outro para fazer parte do trajeto), o redespacho intermediário e o serviço vinculado a multimodal. O <strong>tipo de CT-e</strong> separa o normal, o <strong>complementar de valores</strong> e o de <strong>substituição</strong>. O CT-e informa as chaves das NF-e da carga transportada.",
+   "esquema": {
+    "rotulo": "papéis e tipos no CT-e",
+    "html": "<table><thead><tr><th>Papel</th><th>Quem é</th></tr></thead><tbody><tr><td><strong>Remetente</strong></td><td>quem envia a carga (em regra, o emitente da NF-e)</td></tr><tr><td><strong>Expedidor</strong></td><td>quem entrega a carga ao transportador, quando não é o remetente</td></tr><tr><td><strong>Recebedor</strong></td><td>quem recebe a carga do transportador, quando não é o destinatário</td></tr><tr><td><strong>Destinatário</strong></td><td>quem recebe a carga ao final</td></tr><tr><td><strong>Tomador</strong></td><td>quem contrata e paga o serviço (um dos quatro acima ou outro)</td></tr></tbody></table><table><thead><tr><th>Tipo de serviço</th><th>Situação</th></tr></thead><tbody><tr><td><strong>Subcontratação</strong></td><td>o contratado repassa a execução de todo o serviço a outro transportador</td></tr><tr><td><strong>Redespacho</strong></td><td>um transportador contrata outro para parte do trajeto</td></tr><tr><td><strong>Redespacho intermediário</strong></td><td>trecho do meio, entre dois transportadores</td></tr><tr><td><strong>Vinculado a multimodal</strong></td><td>serviço de um modal dentro de transporte multimodal</td></tr></tbody></table><table><thead><tr><th>Documento</th><th>Serviço</th></tr></thead><tbody><tr><td><strong>CT-e (57)</strong></td><td>transporte de cargas</td></tr><tr><td><strong>CT-e OS (67)</strong></td><td>pessoas (fretamento, não regular), valores, excesso de bagagem</td></tr><tr><td><strong>BP-e (63)</strong></td><td>transporte regular de passageiros</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "TOMADOR É QUEM PAGA",
+     "texto": "Remetente e destinatário dizem por onde a carga anda. O tomador é quem contrata e paga o frete, e é ele quem pode tomar o crédito quando a lei permite."
+    },
+    {
+     "sigla": "SUBCONTRATA O TODO, REDESPACHA A PARTE",
+     "texto": "Na subcontratação, outro transportador faz todo o serviço contratado. No redespacho, outro transportador faz só um trecho."
+    },
+    {
+     "sigla": "OS É DE OUTROS SERVIÇOS",
+     "texto": "O CT-e OS cobre pessoas em fretamento, valores e excesso de bagagem. Carga é CT-e; passageiro regular é BP-e."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O CT-e OS é o documento fiscal eletrônico próprio do transporte regular de passageiros, com venda individual de bilhetes ao usuário.",
+    "gabarito": "E",
+    "explicacao": "O transporte regular de passageiros usa o Bilhete de Passagem Eletrônico (BP-e, modelo 63). O CT-e OS (modelo 67) cobre transporte de pessoas por fretamento ou não regular, transporte de valores e excesso de bagagem."
+   },
+   "aprofundamento": "<p><strong>Correção de valor.</strong> Valor de frete cobrado a menor se corrige com CT-e complementar de valores. A carta de correção do CT-e segue a mesma lógica da NF-e: não corrige variáveis que determinam o valor do imposto.</p><p><strong>Prestação em desacordo.</strong> O tomador que não reconhece a prestação descrita no CT-e registra o evento de prestação do serviço em desacordo com o informado. É o evento do contratante, não do transportador.</p><p><strong>CT-e e auditoria de entradas.</strong> O CT-e emitido para levar mercadoria a um contribuinte lista as chaves das NF-e transportadas. Se o destinatário não escriturou essas NF-e, o CT-e é documento de terceiro que serve de indício da entrada omitida, a ser reforçado por outras provas da entrega.</p><p><strong>Mais pontos que as questões cobram.</strong> O DACTE é a representação gráfica do CT-e e acompanha a carga. O CT-e de substituição troca um CT-e emitido com erro em hipóteses previstas no MOC, enquanto o complementar só acrescenta valores. A escrituração do CT-e pelo tomador contribuinte do ICMS fica no registro D100 da EFD.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "efd-icms-ipi-guia-pratico",
+    "mdfe-manifesto-eletronico"
+   ]
+  },
+  {
+   "slug": "mdfe-manifesto-eletronico",
+   "titulo": "MDF-e: emitentes, eventos e encerramento",
+   "grupo": "Escrituração e documentos fiscais eletrônicos",
+   "base": "Ajuste SINIEF 21/2010 e Manual de Orientação ao Contribuinte do MDF-e (versão 3.0b)",
+   "tax": [
+    "auditoria.mdfe"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "MDF-e",
+    "DAMDFE",
+    "manifesto eletrônico",
+    "encerramento do MDF-e"
+   ],
+   "palavras": [
+    "manifesto eletronico de documentos fiscais",
+    "modelo 58",
+    "damdfe",
+    "encerramento",
+    "cancelamento",
+    "inclusao de condutor",
+    "inclusao de dfe",
+    "pagamento da operacao de transporte",
+    "carga propria",
+    "tipo de emitente",
+    "uf de carregamento",
+    "uf de descarregamento",
+    "registro de passagem",
+    "moc 3.0"
+   ],
+   "resumo": "O <strong>MDF-e (modelo 58)</strong>, instituído pelo Ajuste SINIEF 21/2010, é o documento eletrônico que <strong>vincula os documentos fiscais transportados</strong> (NF-e e CT-e) à unidade de carga ou ao veículo, identificando a viagem: a UF de carregamento, o percurso e a UF de descarregamento, além do veículo e do condutor. Ele não substitui a NF-e nem o CT-e; agrupa-os para que o fisco saiba o que está em trânsito. Sua representação gráfica é o <strong>DAMDFE</strong>, que acompanha o veículo. O MOC define três <strong>tipos de emitente</strong>: o prestador de serviço de transporte, que relaciona os CT-e da carga; o <strong>transportador de carga própria</strong>, contribuinte que leva as próprias mercadorias em veículo próprio, arrendado ou com transportador autônomo contratado, e relaciona as NF-e; e o prestador que emitirá CT-e globalizado. Os principais <strong>eventos</strong> são o cancelamento, o <strong>encerramento</strong>, a inclusão de condutor, a inclusão de DF-e e o pagamento da operação de transporte. O <strong>cancelamento</strong> só cabe antes de iniciada a viagem, dentro do prazo da legislação. Terminado o percurso, o emitente deve registrar o <strong>encerramento</strong>; enquanto um MDF-e continuar aberto, o sistema rejeita outro MDF-e para o mesmo veículo e a mesma UF de descarregamento. A inclusão de condutor troca ou acrescenta o motorista durante a viagem, e a inclusão de DF-e acrescenta documentos carregados ao longo do percurso. Os registros de passagem do MDF-e em postos fiscais e em pontos de leitura formam uma trilha do trânsito que o auditor usa para provar a circulação.",
+   "esquema": {
+    "rotulo": "eventos do MDF-e",
+    "html": "<table><thead><tr><th>Evento</th><th>Quem faz</th><th>Quando</th></tr></thead><tbody><tr><td><strong>Cancelamento</strong></td><td>emitente</td><td>antes de iniciada a viagem, no prazo da legislação</td></tr><tr><td><strong>Encerramento</strong></td><td>emitente</td><td>ao fim do percurso; MDF-e aberto impede outro para o mesmo veículo e UF de descarregamento</td></tr><tr><td><strong>Inclusão de condutor</strong></td><td>emitente</td><td>troca ou acréscimo de motorista durante a viagem</td></tr><tr><td><strong>Inclusão de DF-e</strong></td><td>emitente</td><td>documentos carregados ao longo do percurso</td></tr><tr><td><strong>Pagamento da operação de transporte</strong></td><td>emitente</td><td>informação do pagamento do frete</td></tr><tr><td><strong>Registro de passagem</strong></td><td>fisco</td><td>passagem por posto fiscal ou ponto de leitura</td></tr></tbody></table><table><thead><tr><th>Tipo de emitente</th><th>Documentos relacionados</th></tr></thead><tbody><tr><td><strong>Prestador de serviço de transporte</strong></td><td>CT-e</td></tr><tr><td><strong>Transportador de carga própria</strong></td><td>NF-e</td></tr><tr><td><strong>Prestador que emitirá CT-e globalizado</strong></td><td>NF-e, com CT-e globalizado emitido depois</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "O MANIFESTO AGRUPA, NÃO SUBSTITUI",
+     "texto": "O MDF-e junta NF-e e CT-e da mesma viagem. A operação continua acobertada pela NF-e e a prestação, pelo CT-e."
+    },
+    {
+     "sigla": "CHEGOU, ENCERRA",
+     "texto": "O fim da viagem exige o evento de encerramento. Sem ele, o mesmo veículo não consegue novo MDF-e para a mesma UF de descarregamento."
+    },
+    {
+     "sigla": "CARGA PRÓPRIA LISTA NF-E",
+     "texto": "Quem leva a própria mercadoria emite MDF-e relacionando as NF-e. O transportador contratado relaciona os CT-e."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Iniciada a viagem, o emitente pode cancelar o MDF-e e emitir outro, desde que o faça dentro de 24 horas da autorização.",
+    "gabarito": "E",
+    "explicacao": "O cancelamento do MDF-e só cabe antes de iniciada a viagem. Começado o trânsito, o caminho é o encerramento ao fim do percurso, e os eventos de inclusão de condutor ou de DF-e ajustam o manifesto durante a viagem."
+   },
+   "aprofundamento": "<p><strong>Prova de circulação.</strong> O MDF-e autorizado e os registros de passagem mostram que a carga esteve em trânsito em determinada data e local. Isso derruba o cancelamento de NF-e feito depois da circulação e o evento de operação não realizada sem fundamento.</p><p><strong>Encerramento no destino.</strong> O encerramento informa a UF e o município onde a viagem terminou. Um MDF-e encerrado em local diferente da UF de descarregamento declarada é indício de desvio de carga, a ser apurado.</p><p><strong>Mais pontos que as questões cobram.</strong> O MDF-e cobre todos os modais (rodoviário, aéreo, aquaviário e ferroviário). O emitente de carga própria que contrata transportador autônomo continua sendo o emitente do MDF-e. O DAMDFE traz código de barras ou QR Code para consulta do manifesto.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "cte-e-cte-os",
+    "cfop-codigo-fiscal-de-operacoes"
+   ]
+  },
+  {
+   "slug": "cfop-codigo-fiscal-de-operacoes",
+   "titulo": "CFOP: estrutura, grupos e coerência com a operação",
+   "grupo": "Tabelas nacionais",
+   "base": "Convênio SINIEF s/nº de 1970, Anexo do CFOP",
+   "tax": [
+    "auditoria.cfop"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "CFOP",
+    "código fiscal de operações e prestações"
+   ],
+   "palavras": [
+    "cfop",
+    "primeiro digito",
+    "1102",
+    "2102",
+    "5102",
+    "5101",
+    "5405",
+    "5403",
+    "6108",
+    "2556",
+    "1556",
+    "1551",
+    "5910",
+    "5915",
+    "5949",
+    "devolucao",
+    "transferencia",
+    "difal",
+    "ativo imobilizado",
+    "uso e consumo"
+   ],
+   "resumo": "O <strong>CFOP</strong> é o código de quatro dígitos que identifica a natureza da operação ou da prestação no documento fiscal e na escrituração. O <strong>primeiro dígito</strong> diz o sentido e a origem ou o destino: <strong>1</strong> entrada do mesmo estado, <strong>2</strong> entrada de outro estado, <strong>3</strong> entrada do exterior, <strong>5</strong> saída para o mesmo estado, <strong>6</strong> saída para outro estado e <strong>7</strong> saída para o exterior. Os demais dígitos dizem o tipo de operação, em grupos: x.100 compras ou vendas; x.150 transferências entre estabelecimentos da mesma empresa; x.200 devoluções e anulações; x.250 energia elétrica; x.300 comunicação; x.350 transporte; x.400 mercadorias sujeitas à substituição tributária; x.500 formação de lote e exportação indireta; x.550 bens do ativo imobilizado e materiais de uso ou consumo; x.600 créditos e ressarcimentos de ICMS; x.650 combustíveis e lubrificantes; x.900 outras. Exemplos centrais: <strong>5.101</strong> venda de produção do estabelecimento; <strong>5.102</strong> venda de mercadoria adquirida de terceiros; <strong>5.405</strong> venda de mercadoria recebida com imposto já retido, na condição de contribuinte substituído; <strong>5.403</strong> venda de mercadoria de terceiros sujeita a ST, na condição de contribuinte substituto; <strong>6.108</strong> venda interestadual de mercadoria de terceiros a não contribuinte; <strong>5.910</strong> remessa em bonificação, doação ou brinde; <strong>5.915</strong> remessa para conserto; <strong>1.102</strong> compra para comercialização; <strong>1.551</strong> compra de bem para o ativo imobilizado; <strong>1.556</strong> compra de material para uso ou consumo; <strong>2.556</strong> a mesma compra vinda de outro estado. O CFOP não decide sozinho a tributação, mas precisa ser coerente com o CST, com o destino e com o crédito tomado. Na entrada, o destinatário usa o CFOP da sua própria operação: a venda 5.102 do fornecedor vira 1.102 para quem compra para revender e 1.556 para quem compra para consumo.",
+   "esquema": {
+    "rotulo": "primeiro dígito e grupos",
+    "html": "<table><thead><tr><th>Primeiro dígito</th><th>Sentido</th><th>Origem ou destino</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>entrada</td><td>mesmo estado</td></tr><tr><td><strong>2</strong></td><td>entrada</td><td>outro estado</td></tr><tr><td><strong>3</strong></td><td>entrada</td><td>exterior</td></tr><tr><td><strong>5</strong></td><td>saída</td><td>mesmo estado</td></tr><tr><td><strong>6</strong></td><td>saída</td><td>outro estado</td></tr><tr><td><strong>7</strong></td><td>saída</td><td>exterior</td></tr></tbody></table><table><thead><tr><th>CFOP</th><th>Operação</th><th>O que conferir</th></tr></thead><tbody><tr><td><strong>5.101 / 5.102</strong></td><td>venda de produção / de mercadoria de terceiros</td><td>débito do ICMS normal</td></tr><tr><td><strong>5.403</strong></td><td>venda sujeita a ST como substituto</td><td>retenção do ICMS-ST</td></tr><tr><td><strong>5.405</strong></td><td>venda como substituído</td><td>CST 60 ou CSOSN 500, sem novo débito</td></tr><tr><td><strong>6.108</strong></td><td>venda interestadual a não contribuinte</td><td>diferencial de alíquotas a cargo do remetente</td></tr><tr><td><strong>1.556 / 2.556</strong></td><td>compra para uso ou consumo</td><td>sem crédito até 2033; DIFAL na compra interestadual</td></tr><tr><td><strong>1.551</strong></td><td>compra para o ativo imobilizado</td><td>crédito em 1/48 via CIAP</td></tr><tr><td><strong>5.910 / 5.915</strong></td><td>bonificação ou brinde / remessa para conserto</td><td>bonificação não é remessa sem valor; conserto tem retorno</td></tr><tr><td><strong>5.949</strong></td><td>outra saída não especificada</td><td>uso excessivo é sinal de alerta</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "1, 2, 3 ENTRAM; 5, 6, 7 SAEM",
+     "texto": "O primeiro dígito diz o sentido e o lugar: mesmo estado, outro estado e exterior, nessa ordem."
+    },
+    {
+     "sigla": "NA ENTRADA, O CFOP É DE QUEM RECEBE",
+     "texto": "O comprador não copia o CFOP do fornecedor. Ele escritura a entrada com o código da sua finalidade: revenda, industrialização, ativo ou consumo."
+    },
+    {
+     "sigla": "403 RETÉM, 405 JÁ VEIO RETIDO",
+     "texto": "O 5.403 é do substituto, que retém o ICMS-ST. O 5.405 é do substituído, que revende mercadoria com o imposto já recolhido antes."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O CFOP 6.102 identifica a venda de mercadoria adquirida de terceiros destinada a contribuinte localizado no mesmo estado do emitente.",
+    "gabarito": "E",
+    "explicacao": "O primeiro dígito 6 indica saída para outro estado. A venda de mercadoria de terceiros dentro do estado é 5.102; para o exterior, 7.102."
+   },
+   "aprofundamento": "<p><strong>Venda a não contribuinte de outro estado.</strong> Os CFOP 6.107 e 6.108 marcam a venda interestadual a não contribuinte. Desde a EC 87/2015, nessa operação o remetente recolhe ao estado de destino o diferencial entre a alíquota interna do destino e a interestadual.</p><p><strong>Uso e consumo vindo de fora.</strong> A entrada com CFOP 2.556 em estabelecimento contribuinte gera o diferencial de alíquotas a cargo do destinatário, que é apurado em registro próprio da EFD.</p><p><strong>CFOP e crédito.</strong> A entrada escriturada com 1.556 ou 2.556 e com crédito de ICMS é inconsistência típica, porque a LC 87/1996 só admite crédito de material de uso ou consumo a partir de 2033.</p><p><strong>Mais pontos que as questões cobram.</strong> O 5.401 é a venda de produção própria sujeita a ST na condição de substituto, típica do fabricante. Devolução de venda entra com 1.201 ou 1.202 (ou 2.201 e 2.202) e deve referenciar a NF-e original. Transferência entre estabelecimentos da mesma empresa usa o grupo x.150, e não o de venda. O CFOP 5.929 registra a nota emitida para operação já registrada em cupom fiscal ou NFC-e, o que exige cuidado para não haver débito em dobro.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "mdfe-manifesto-eletronico",
+    "cst-csosn-e-cbenef"
+   ]
+  },
+  {
+   "slug": "cst-csosn-e-cbenef",
+   "titulo": "CST, CSOSN e cBenef: como o documento diz a tributação",
+   "grupo": "Tabelas nacionais",
+   "base": "Convênio SINIEF s/nº de 1970, Anexo (Código de Situação Tributária); Ajuste SINIEF que trata do CSOSN; Notas Técnicas da NF-e sobre o cBenef; LC 123/2006, art. 23",
+   "tax": [
+    "auditoria.cst-csosn-cbenef"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "CST",
+    "CSOSN",
+    "cBenef",
+    "código de situação tributária",
+    "código de benefício fiscal"
+   ],
+   "palavras": [
+    "cst icms",
+    "tabela a origem",
+    "tabela b tributacao",
+    "cst 00",
+    "cst 10",
+    "cst 20",
+    "cst 40",
+    "cst 41",
+    "cst 51",
+    "cst 60",
+    "cst 90",
+    "csosn 101",
+    "csosn 102",
+    "csosn 500",
+    "csosn 900",
+    "crt",
+    "cbenef",
+    "beneficio fiscal",
+    "origem 1",
+    "origem 8",
+    "aliquota 4%",
+    "cst ipi"
+   ],
+   "resumo": "O <strong>CST do ICMS</strong> tem três dígitos. O primeiro vem da <strong>Tabela A (origem)</strong>: 0 nacional; 1 estrangeira por importação direta; 2 estrangeira adquirida no mercado interno; 3 nacional com conteúdo de importação acima de 40% e até 70%; 4 nacional produzida conforme processo produtivo básico; 5 nacional com conteúdo de importação de até 40%; 6 e 7 estrangeira sem similar nacional, constante de lista da Camex (importação direta e mercado interno); 8 nacional com conteúdo de importação acima de 70%. Os dois últimos vêm da <strong>Tabela B (tributação)</strong>: 00 tributada integralmente; 10 tributada e com cobrança do ICMS por substituição tributária; 20 com redução da base de cálculo; 30 isenta ou não tributada e com cobrança por ST; 40 isenta; 41 não tributada; 50 suspensão; 51 diferimento; 60 ICMS cobrado anteriormente por ST; 70 redução de base e ST; 90 outras. Quem é optante do <strong>Simples Nacional</strong> (código de regime tributário 1) usa o <strong>CSOSN</strong> no lugar da Tabela B, mantendo a origem: 101 tributada com permissão de crédito; 102 sem permissão de crédito; 103 isenção para faixa de receita bruta; 201, 202 e 203 os mesmos casos com cobrança do ICMS por ST; 300 imune; 400 não tributada pelo Simples; 500 ICMS cobrado anteriormente por ST ou por antecipação; 900 outros. Só o CSOSN 101 (e o 201) traz o percentual e o valor do crédito que o adquirente não optante pode aproveitar. O <strong>cBenef</strong> é o código de benefício fiscal informado no item da NF-e nas UFs que o adotam: cada UF publica a sua tabela, com códigos iniciados pela sigla da UF e vinculados aos CST que indicam benefício (isenção, redução de base, diferimento, suspensão). Informar CST de benefício sem o cBenef exigido, ou cBenef incompatível com o CST, leva à rejeição na UF que faz essa validação.",
+   "esquema": {
+    "rotulo": "CST do regime normal e CSOSN do Simples",
+    "html": "<table><thead><tr><th>Situação</th><th>CST (Tabela B)</th><th>CSOSN</th></tr></thead><tbody><tr><td>Tributada, com crédito para o adquirente</td><td><strong>00</strong></td><td><strong>101</strong> (com crédito informado)</td></tr><tr><td>Tributada, sem crédito do Simples para o adquirente</td><td>não se aplica</td><td><strong>102</strong></td></tr><tr><td>Tributada com retenção de ST pelo emitente</td><td><strong>10</strong></td><td><strong>201</strong> ou <strong>202</strong></td></tr><tr><td>Isenta</td><td><strong>40</strong></td><td><strong>103</strong> (isenção para a faixa de receita bruta)</td></tr><tr><td>Imune ou não tributada</td><td><strong>41</strong></td><td><strong>300</strong> (imune) ou <strong>400</strong> (não tributada)</td></tr><tr><td>Imposto já retido antes por ST (revenda do substituído)</td><td><strong>60</strong></td><td><strong>500</strong></td></tr><tr><td>Redução de base de cálculo</td><td><strong>20</strong></td><td><strong>900</strong></td></tr><tr><td>Diferimento / suspensão</td><td><strong>51</strong> / <strong>50</strong></td><td><strong>900</strong></td></tr><tr><td>Outras</td><td><strong>90</strong></td><td><strong>900</strong></td></tr></tbody></table><table><thead><tr><th>Origem (Tabela A)</th><th>Alíquota interestadual de 4% (Resolução do Senado 13/2012)</th></tr></thead><tbody><tr><td><strong>1, 2, 3 e 8</strong></td><td>sim: importado ou com conteúdo de importação acima de 40%</td></tr><tr><td><strong>0, 4 e 5</strong></td><td>não: nacional, processo produtivo básico ou conteúdo de importação de até 40%</td></tr><tr><td><strong>6 e 7</strong></td><td>não: sem similar nacional na lista da Camex</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "PRIMEIRO DÍGITO É ORIGEM",
+     "texto": "No CST 000, 160 ou 260, o primeiro número diz de onde veio a mercadoria e os dois últimos dizem como ela é tributada."
+    },
+    {
+     "sigla": "SIMPLES TROCA A TABELA B, NÃO A ORIGEM",
+     "texto": "O optante continua informando a origem, mas usa o CSOSN de três dígitos no lugar dos dois dígitos da tributação."
+    },
+    {
+     "sigla": "60 E 500 JÁ PAGARAM ANTES",
+     "texto": "CST 60 e CSOSN 500 marcam a revenda de mercadoria com ICMS retido anteriormente por substituição tributária. Na saída não há novo débito."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O CSOSN 102 permite ao adquirente não optante pelo Simples Nacional aproveitar o crédito de ICMS correspondente ao percentual informado no documento.",
+    "gabarito": "E",
+    "explicacao": "O crédito para o adquirente só existe no CSOSN 101 (ou 201, com ST), em que o emitente informa o percentual e o valor do crédito. O CSOSN 102 indica tributação pelo Simples sem permissão de crédito."
+   },
+   "aprofundamento": "<p><strong>Crédito do Simples tem limite.</strong> Pela LC 123/2006, art. 23, o adquirente não optante tem crédito do ICMS nas compras de optante para comercialização ou industrialização, limitado ao imposto efetivamente devido pelo optante. A alíquota do crédito deve vir informada no documento; sem essa informação, não há crédito.</p><p><strong>Isenta não é não tributada.</strong> O CST 40 marca isenção (há incidência, mas a lei dispensa o pagamento). O CST 41 marca operação não tributada, que abrange não incidência e imunidade, como a saída de livros, imunes pela Constituição. Trocar 40 por 41 importa na auditoria, porque só a isenção costuma vir acompanhada de cBenef e de regras de estorno.</p><p><strong>Diferimento e suspensão.</strong> No diferimento (CST 51), o pagamento passa para uma etapa posterior da cadeia. Na suspensão (CST 50), o imposto fica suspenso enquanto se espera um evento futuro, como o retorno da mercadoria remetida para conserto ou industrialização.</p><p><strong>CST do IPI.</strong> Na tabela do IPI, os códigos de 00 a 49 são de entrada (00 com recuperação de crédito) e os de 50 a 99 são de saída (50 tributada).</p><p><strong>Mais pontos que as questões cobram.</strong> A origem 3 abrange conteúdo de importação acima de 40% e até 70%; acima de 70% é a origem 8; até 40% é a origem 5. O cBenef não cria benefício: ele só identifica, no documento, a norma estadual que concede o benefício aplicado ao item.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "cfop-codigo-fiscal-de-operacoes",
+    "cruzamento-dfe-e-efd"
+   ]
+  },
+  {
+   "slug": "cruzamento-dfe-e-efd",
+   "titulo": "Cruzamento e consistência entre documentos fiscais eletrônicos e EFD ICMS/IPI",
+   "grupo": "Auditoria fiscal eletrônica",
+   "base": "Ajuste SINIEF 2/2009; Guia Prático da EFD ICMS/IPI; Ajuste SINIEF 7/2005; Convênio ICMS 134/2016",
+   "tax": [
+    "auditoria.cruzamentos-dfe-efd"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "cruzamento de dados",
+    "malha fiscal",
+    "auditoria eletrônica",
+    "consistência da EFD"
+   ],
+   "palavras": [
+    "cruzamento",
+    "xml",
+    "nf-e de entrada",
+    "nf-e de saida",
+    "c100",
+    "c190",
+    "e110",
+    "d100",
+    "chave de acesso",
+    "cod_sit",
+    "nota cancelada",
+    "nota denegada",
+    "malha",
+    "cartao de credito",
+    "convenio 134",
+    "registro de passagem",
+    "autorregularizacao",
+    "denuncia espontanea"
+   ],
+   "resumo": "O cruzamento compara o que foi <strong>autorizado</strong> nos documentos fiscais eletrônicos com o que foi <strong>escriturado</strong> na EFD ICMS/IPI. A fonte de verdade sobre a existência e o conteúdo de cada documento é o XML autorizado (com seus eventos), guardado pela SEFAZ; a EFD é a declaração do contribuinte sobre esses documentos e sobre a apuração. O auditor trabalha em três frentes. Na <strong>frente externa</strong>, cruza documento com escrituração: NF-e de saída autorizada e não escriturada, ou escriturada com valor menor, indica débito omitido; NF-e emitida contra o contribuinte e não escriturada como entrada indica entrada omitida; chave escriturada que não existe, que pertence a outro contribuinte ou que está cancelada ou denegada indica crédito sem documento idôneo; nota escriturada como cancelada sem evento de cancelamento homologado é débito omitido. Na <strong>frente interna</strong>, confere a coerência do próprio arquivo: a soma dos C190 deve fechar com o C100; os débitos e créditos do E110 devem corresponder à soma dos registros analíticos e dos ajustes do E111; o estoque final do inventário (H010) deve ser coerente com o estoque inicial, as entradas e as saídas. Na <strong>frente de terceiros</strong>, usa o CT-e que lista as NF-e transportadas, o MDF-e e os registros de passagem (que provam a circulação) e as informações das administradoras de cartão e meios de pagamento, previstas no Convênio ICMS 134/2016, para comparar o que o contribuinte recebeu com o que declarou de vendas. O cruzamento gera <strong>indício</strong>, e não lançamento automático: a divergência é analisada, pode ser explicada pelo contribuinte e, confirmada, sustenta o lançamento de ofício com base nos documentos.",
+   "esquema": {
+    "rotulo": "divergências típicas e o que elas indicam",
+    "html": "<table><thead><tr><th>Divergência</th><th>Fonte que prova</th><th>Indício</th></tr></thead><tbody><tr><td>NF-e de saída autorizada fora do C100</td><td>XML autorizado do emitente</td><td>omissão de débito</td></tr><tr><td>NF-e de saída escriturada como cancelada sem evento de cancelamento</td><td>situação da NF-e na SEFAZ</td><td>omissão de débito</td></tr><tr><td>NF-e destinada ao contribuinte e não escriturada</td><td>XML autorizado do fornecedor, CT-e, MDF-e</td><td>entrada omitida e possível omissão de receitas</td></tr><tr><td>Chave inexistente, cancelada ou denegada usada como crédito</td><td>consulta da chave</td><td>crédito indevido</td></tr><tr><td>Crédito no C190 maior que o ICMS destacado no XML</td><td>XML autorizado</td><td>crédito indevido</td></tr><tr><td>Soma dos C190 diferente do total do E110</td><td>o próprio arquivo</td><td>erro de apuração</td></tr><tr><td>Vendas por cartão maiores que as saídas declaradas</td><td>informações das administradoras</td><td>omissão de saídas</td></tr><tr><td>Estoque escriturado incompatível com entradas e saídas</td><td>H010, C170 e XML</td><td>omissão de entradas ou de saídas</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "O XML AUTORIZADO MANDA",
+     "texto": "Se a EFD diz uma coisa e o XML autorizado diz outra, vale o documento autorizado e seus eventos. A EFD é a declaração do contribuinte sobre ele."
+    },
+    {
+     "sigla": "NOTA DO FORNECEDOR É PROVA DE ENTRADA",
+     "texto": "A NF-e emitida contra o contribuinte e não escriturada é o ponto de partida do cruzamento de entradas. CT-e e MDF-e reforçam a prova de que a mercadoria chegou."
+    },
+    {
+     "sigla": "CRUZAMENTO DÁ INDÍCIO, NÃO AUTO PRONTO",
+     "texto": "A divergência é analisada e confrontada com o contribuinte. Só depois de confirmada sustenta o lançamento."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na auditoria eletrônica, a escrituração na EFD prevalece sobre o conteúdo do XML autorizado, porque a EFD é assinada digitalmente pelo contribuinte e tem validade jurídica própria.",
+    "gabarito": "E",
+    "explicacao": "Os dois arquivos são assinados, mas o documento fiscal autorizado é o registro da operação, e a EFD é a declaração do contribuinte sobre esses documentos. Havendo divergência, o auditor parte do documento autorizado e de seus eventos."
+   },
+   "aprofundamento": "<p><strong>Situação do documento.</strong> O código de situação do C100 tem de bater com a situação real na SEFAZ: nota autorizada não pode ser escriturada como cancelada, e nota cancelada ou denegada não pode gerar crédito nem débito.</p><p><strong>Desconhecimento da operação ajuda o contribuinte honesto.</strong> Quem recebe NF-e que não reconhece deve registrar o evento de desconhecimento. Sem esse evento, a nota emitida contra o seu CNPJ e não escriturada entra na lista de entradas omitidas.</p><p><strong>Unidade de medida.</strong> No cruzamento por item, a unidade do XML do fornecedor (por exemplo, caixa) pode diferir da unidade de controle do estoque (por exemplo, unidade). O registro 0220 traz o fator de conversão; sem ele, o levantamento de estoque erra a quantidade.</p><p><strong>Espontaneidade.</strong> O contribuinte que corrige a EFD e paga o imposto antes do início de procedimento fiscal age com espontaneidade (CTN, art. 138). Depois da ciência do início da fiscalização sobre o período, a correção não afasta a infração.</p><p><strong>Mais pontos que as questões cobram.</strong> O CT-e escriturado pelo tomador no D100 deve corresponder a CT-e autorizado em que ele figure como tomador. O crédito do ICMS não pode superar o imposto destacado no documento autorizado, ainda que a EFD registre valor maior.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "cst-csosn-e-cbenef",
+    "omissao-de-receitas-e-levantamentos"
+   ]
+  },
+  {
+   "slug": "omissao-de-receitas-e-levantamentos",
+   "titulo": "Omissão de receitas: presunções e levantamento quantitativo de estoques",
+   "grupo": "Auditoria fiscal eletrônica",
+   "base": "Legislação estadual do ICMS (presunções legais); Lei nº 9.430/1996, arts. 40 e 42 (referência federal); doutrina de auditoria fiscal",
+   "tax": [
+    "auditoria.omissao-receitas"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "omissão de receitas",
+    "omissão de saídas",
+    "levantamento quantitativo de estoques",
+    "presunção legal",
+    "saldo credor de caixa",
+    "passivo fictício"
+   ],
+   "palavras": [
+    "omissao de saidas",
+    "omissao de entradas",
+    "levantamento quantitativo",
+    "estoque inicial",
+    "estoque final",
+    "saldo credor de caixa",
+    "caixa negativo",
+    "suprimento de caixa",
+    "passivo ficticio",
+    "passivo oculto",
+    "deposito bancario",
+    "presuncao relativa",
+    "inversao do onus da prova",
+    "cartao de credito"
+   ],
+   "resumo": "<strong>Omissão de receitas</strong> é a receita auferida que não foi oferecida à tributação. No ICMS ela aparece como <strong>omissão de saídas</strong>: mercadorias que saíram sem documento ou sem escrituração. Como o contribuinte não registra o que omite, a lei permite chegar a ela de forma indireta, por <strong>presunções legais relativas</strong>: provado o fato indiciário, presume-se a omissão, e cabe ao contribuinte provar o contrário (inversão do ônus da prova). As presunções clássicas, previstas nas leis do ICMS e, no âmbito federal, na legislação do imposto de renda, são: <strong>saldo credor de caixa</strong> (o caixa não pode ficar negativo; se ficou, houve pagamento com recurso não registrado); <strong>suprimento de caixa</strong> sem comprovação da origem e da efetiva entrega dos recursos; <strong>passivo fictício</strong> (obrigação já paga ou inexistente mantida no passivo); <strong>entradas ou pagamentos não registrados</strong> (quem compra sem registrar paga com receita escondida); <strong>depósitos bancários</strong> de origem não comprovada; e receitas de vendas por cartão maiores que as declaradas. O <strong>levantamento quantitativo de estoques</strong> é feito por item, num período fechado, com a equação: estoque inicial + entradas − estoque final = saídas reais. Se as saídas reais superam as saídas com documento, há <strong>omissão de saídas</strong>. Se as saídas com documento superam o que o estoque permitia (estoque inicial + entradas − estoque final), a mercadoria vendida entrou sem nota: há <strong>omissão de entradas</strong>, e a entrada não registrada faz presumir saídas anteriores omitidas. Exemplo: estoque inicial 100, entradas 500, estoque final 150; saídas reais de 450; se as notas de saída somam 380, a omissão de saídas é de 70 unidades.",
+   "esquema": {
+    "rotulo": "presunções e levantamento de estoques",
+    "html": "<table><thead><tr><th>Fato provado pelo fisco</th><th>O que se presume</th><th>Lógica</th></tr></thead><tbody><tr><td><strong>Saldo credor de caixa</strong></td><td>omissão de receitas</td><td>pagou mais do que tinha registrado</td></tr><tr><td><strong>Suprimento de caixa não comprovado</strong></td><td>omissão de receitas</td><td>dinheiro de origem não demonstrada</td></tr><tr><td><strong>Passivo fictício</strong></td><td>omissão de receitas</td><td>obrigação paga com recurso fora da escrita e mantida no passivo</td></tr><tr><td><strong>Entradas ou pagamentos não registrados</strong></td><td>omissão de receitas</td><td>compra paga com receita escondida</td></tr><tr><td><strong>Depósitos bancários sem origem comprovada</strong></td><td>omissão de receitas</td><td>ingresso financeiro sem lastro declarado</td></tr></tbody></table><table><thead><tr><th>Levantamento de estoque</th><th>Resultado</th></tr></thead><tbody><tr><td>EI + E − EF maior que as saídas com nota</td><td><strong>omissão de saídas</strong> pela diferença</td></tr><tr><td>Saídas com nota maiores que EI + E − EF</td><td><strong>omissão de entradas</strong> pela diferença</td></tr><tr><td>Exemplo: EI 100, E 500, EF 150, saídas com nota 380</td><td>saídas reais 450; omissão de saídas de 70</td></tr><tr><td>Exemplo: EI 50, E 200, EF 40, saídas com nota 260</td><td>saídas possíveis 210; omissão de entradas de 50</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "CAIXA NEGATIVO NÃO EXISTE",
+     "texto": "Ninguém paga com dinheiro que não tem. O saldo credor de caixa revela recurso que entrou fora da escrita."
+    },
+    {
+     "sigla": "SOBROU SAÍDA, FALTOU NOTA DE ENTRADA",
+     "texto": "Se a empresa vendeu com nota mais do que o estoque permitia, a mercadoria entrou sem documento: é omissão de entradas."
+    },
+    {
+     "sigla": "PRESUNÇÃO RELATIVA ADMITE PROVA",
+     "texto": "O fisco prova o fato indiciário e a lei presume a omissão. O contribuinte pode afastá-la provando a origem do recurso ou o erro do levantamento."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No levantamento quantitativo de estoques, quando as saídas acobertadas por documento fiscal superam a soma do estoque inicial com as entradas, deduzido o estoque final, conclui-se pela omissão de saídas.",
+    "gabarito": "E",
+    "explicacao": "Nesse caso a empresa vendeu com nota mais do que poderia ter em estoque: a conclusão é de omissão de entradas, isto é, mercadoria que entrou sem documento. A omissão de saídas ocorre quando as saídas reais (EI + E − EF) superam as saídas com documento."
+   },
+   "aprofundamento": "<p><strong>Presunção é relativa.</strong> As presunções de omissão de receitas admitem prova em contrário. A prova cabe ao contribuinte, que pode demonstrar, por exemplo, a origem de um suprimento com documentação hábil e coincidente em data e valor.</p><p><strong>Referência federal.</strong> Na Lei nº 9.430/1996, a falta de escrituração de pagamentos e a manutenção no passivo de obrigações cuja exigibilidade não seja comprovada caracterizam omissão de receita (art. 40), e os depósitos bancários cuja origem o titular, intimado, não comprove também se presumem receita omitida (art. 42).</p><p><strong>Cuidados do levantamento.</strong> O levantamento é feito por item (código do 0200), com conversão de unidades (0220), no mesmo período para estoques e movimentações, e considera devoluções, perdas registradas, transferências e remessas. Erro em qualquer desses pontos gera diferença falsa e anula o resultado.</p><p><strong>Cartão.</strong> As administradoras de cartão e demais intermediadores de pagamento informam às SEFAZ as operações dos estabelecimentos (Convênio ICMS 134/2016). Vendas por cartão maiores que as saídas declaradas são indício de saídas sem documento.</p><p><strong>Mais pontos que as questões cobram.</strong> Passivo fictício é obrigação já paga (ou inexistente) mantida no balanço; não se confunde com passivo oculto, que é obrigação existente não registrada, como a compra a prazo não contabilizada. Os dois indicam pagamentos feitos com recursos à margem da escrita.</p><p><strong>Presunções na lei de Alagoas.</strong> A Lei nº 5.900/1996 (art. 2º, § 9º) presume ocorridas operações internas tributadas sem pagamento do imposto, ressalvada ao sujeito passivo a prova da improcedência da presunção, em situações como a omissão de registro de entrada onerosa de mercadorias, o suprimento de caixa sem comprovação de origem, o passivo fictício, os valores informados por administradoras de cartão sem a emissão de documento fiscal e a diferença de estoque verificada em levantamento físico ou documental.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "cruzamento-dfe-e-efd",
+    "creditos-indevidos-de-icms"
+   ]
+  },
+  {
+   "slug": "creditos-indevidos-de-icms",
+   "titulo": "Créditos indevidos e inconsistências na apuração do ICMS",
+   "grupo": "Auditoria fiscal eletrônica",
+   "base": "LC 87/1996, arts. 20, 21, 23 e 33; LC 123/2006, art. 23; Resolução do Senado nº 13/2012",
+   "tax": [
+    "auditoria.creditos-indevidos"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "crédito indevido",
+    "glosa de crédito",
+    "estorno de crédito",
+    "CIAP",
+    "documento inidôneo"
+   ],
+   "palavras": [
+    "credito indevido",
+    "glosa",
+    "estorno",
+    "uso e consumo",
+    "ativo permanente",
+    "1/48",
+    "ciap",
+    "documento inidoneo",
+    "cinco anos",
+    "credito extemporaneo",
+    "energia eletrica",
+    "comunicacao",
+    "substituicao tributaria",
+    "cst 60",
+    "aliquota interestadual",
+    "4%",
+    "e111",
+    "ajuste"
+   ],
+   "resumo": "O ICMS é não cumulativo: o contribuinte compensa o imposto devido nas saídas com o cobrado nas entradas (LC 87/1996, art. 20). A auditoria de créditos verifica se cada crédito tem <strong>documento idôneo</strong>, <strong>valor correto</strong> e <strong>direito material</strong>. O direito ao crédito está condicionado à idoneidade da documentação e à escrituração nos prazos da legislação, e se extingue em <strong>cinco anos</strong> contados da emissão do documento (art. 23). Não dão crédito as entradas isentas ou não tributadas e as mercadorias alheias à atividade do estabelecimento (art. 20, § 1º). O crédito é vedado quando a saída posterior for isenta ou não tributada, salvo para o exterior (art. 20, § 3º), e deve ser <strong>estornado</strong> quando a mercadoria tiver saída isenta imprevisível na entrada, for usada em fim alheio ou perecer, se deteriorar ou extraviar (art. 21). O crédito de bem do <strong>ativo permanente</strong> é apropriado à razão de <strong>1/48 por mês</strong>, proporcional às saídas tributadas sobre as saídas totais, e controlado no CIAP (art. 20, § 5º). Material de <strong>uso ou consumo</strong> só dará crédito a partir de 1º de janeiro de 2033, e a energia elétrica e os serviços de comunicação só dão crédito nas hipóteses do art. 33. As inconsistências típicas na EFD são: crédito de NF-e cancelada, denegada ou inexistente; crédito maior que o ICMS destacado; crédito de entrada com CST 60 (imposto já retido por ST); crédito integral de ativo de uma vez; crédito de uso e consumo (CFOP 1.556 ou 2.556 com crédito); crédito de compra de optante do Simples sem o CSOSN 101 e o percentual informado; ajuste no E111 sem amparo legal; e alíquota interestadual errada, como 12% em mercadoria importada sujeita a 4%.",
+   "esquema": {
+    "rotulo": "crédito: o que conferir",
+    "html": "<table><thead><tr><th>Situação</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Documento inidôneo, cancelado ou inexistente</strong></td><td>sem crédito</td><td>LC 87, art. 23</td></tr><tr><td><strong>Prazo para usar o crédito</strong></td><td>cinco anos da emissão do documento</td><td>LC 87, art. 23, parágrafo único</td></tr><tr><td><strong>Entrada isenta ou não tributada; bem alheio à atividade</strong></td><td>sem crédito</td><td>LC 87, art. 20, § 1º</td></tr><tr><td><strong>Saída posterior isenta (prevista)</strong></td><td>crédito vedado, salvo exportação</td><td>LC 87, art. 20, § 3º</td></tr><tr><td><strong>Saída isenta imprevisível, perda, uso alheio</strong></td><td>estorno do crédito</td><td>LC 87, art. 21</td></tr><tr><td><strong>Ativo permanente</strong></td><td>1/48 por mês, proporcional às saídas tributadas</td><td>LC 87, art. 20, § 5º</td></tr><tr><td><strong>Uso e consumo</strong></td><td>crédito só a partir de 1º/1/2033</td><td>LC 87, art. 33, I</td></tr><tr><td><strong>Compra de optante do Simples</strong></td><td>crédito só com alíquota informada no documento, limitado ao ICMS devido pelo optante</td><td>LC 123, art. 23</td></tr><tr><td><strong>Entrada com ICMS retido por ST (CST 60)</strong></td><td>sem crédito do ICMS próprio na revenda</td><td>regime de ST</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "ATIVO SE CREDITA EM 48 PARCELAS",
+     "texto": "Uma parcela por mês, começando no mês da entrada, e cada parcela multiplicada pela proporção das saídas tributadas."
+    },
+    {
+     "sigla": "CINCO ANOS DA EMISSÃO",
+     "texto": "O prazo para usar o crédito conta da data de emissão do documento, e não da entrada ou da escrituração."
+    },
+    {
+     "sigla": "USO E CONSUMO SÓ EM 2033",
+     "texto": "Material de uso ou consumo não dá crédito antes de 1º de janeiro de 2033. Entrada com CFOP 1.556 e crédito é glosa certa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O crédito de ICMS relativo à entrada de bem destinado ao ativo permanente é apropriado integralmente no mês da entrada, desde que o bem seja utilizado na atividade do estabelecimento.",
+    "gabarito": "E",
+    "explicacao": "O crédito do ativo permanente é apropriado à razão de 1/48 por mês, a primeira fração no mês da entrada, e cada parcela é proporcional às saídas tributadas sobre o total das saídas (LC 87/1996, art. 20, § 5º)."
+   },
+   "aprofundamento": "<p><strong>Exportação preserva o crédito.</strong> Não se estornam os créditos de mercadorias e serviços destinados a operações para o exterior (LC 87/1996, art. 21, § 2º), e as saídas para o exterior se equiparam às tributadas no cálculo da fração do ativo.</p><p><strong>Venda do ativo antes de quatro anos.</strong> Alienado o bem antes de decorridos quatro anos da aquisição, não se admite, a partir da alienação, o crédito das frações restantes (LC 87/1996, art. 20, § 5º, V).</p><p><strong>Alíquota de 4%.</strong> Pela Resolução do Senado nº 13/2012, a alíquota interestadual é de 4% para bens importados e para os produzidos no país com conteúdo de importação superior a 40%. O destinatário que se credita de 12% nessa operação aproveita crédito a maior.</p><p><strong>Crédito do Simples.</strong> O adquirente só se credita do ICMS de compra feita de optante pelo Simples Nacional se o documento informar a alíquota do crédito, e o crédito fica limitado ao ICMS efetivamente devido pelo optante (LC 123/2006, art. 23, §§ 1º e 2º).</p><p><strong>Mais pontos que as questões cobram.</strong> Veículos de transporte pessoal presumem-se alheios à atividade do estabelecimento, salvo prova em contrário (LC 87/1996, art. 20, § 2º). Energia elétrica dá crédito quando consumida no processo de industrialização ou quando objeto de saída de energia, entre outras hipóteses do art. 33, II.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "omissao-de-receitas-e-levantamentos",
+    "fundamentos-de-auditoria-evidencia-e-risco"
+   ]
+  },
+  {
+   "slug": "fundamentos-de-auditoria-evidencia-e-risco",
+   "titulo": "Fundamentos de auditoria aplicados ao fisco: evidência, procedimentos e risco",
+   "grupo": "Auditoria fiscal eletrônica",
+   "base": "NBC TA 200, NBC TA 320, NBC TA 330, NBC TA 500 e NBC TA 530",
+   "tax": [
+    "auditoria.fundamentos-evidencia"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "evidência de auditoria",
+    "risco de auditoria",
+    "procedimentos de auditoria",
+    "amostragem",
+    "ceticismo profissional",
+    "materialidade"
+   ],
+   "palavras": [
+    "nbc ta 200",
+    "nbc ta 500",
+    "nbc ta 530",
+    "nbc ta 320",
+    "nbc ta 330",
+    "evidencia suficiente",
+    "evidencia apropriada",
+    "inspecao",
+    "observacao",
+    "confirmacao externa",
+    "circularizacao",
+    "recalculo",
+    "reexecucao",
+    "procedimento analitico",
+    "indagacao",
+    "risco inerente",
+    "risco de controle",
+    "risco de deteccao",
+    "teste de controle",
+    "teste substantivo",
+    "amostragem estatistica"
+   ],
+   "resumo": "A auditoria fiscal usa a técnica de auditoria com um fim próprio: verificar o cumprimento das obrigações tributárias e, havendo infração, sustentar o lançamento. As normas de auditoria independente (NBC TA) não regem o lançamento, mas dão o vocabulário que a banca cobra. Pela <strong>NBC TA 500</strong>, a <strong>evidência</strong> deve ser <strong>suficiente</strong> (medida da quantidade) e <strong>apropriada</strong> (medida da qualidade: relevância e confiabilidade). A confiabilidade aumenta quando a evidência vem de <strong>fonte independente externa</strong> à entidade, quando é obtida <strong>diretamente pelo auditor</strong>, quando existe em forma documental e quando é original, e não cópia. Os <strong>procedimentos</strong> são: <strong>inspeção</strong> (exame de registros, documentos ou ativos), <strong>observação</strong> (acompanhar um processo executado por outros, como a contagem do estoque), <strong>confirmação externa</strong> (resposta escrita e direta de terceiro, a circularização), <strong>recálculo</strong> (conferir a exatidão matemática), <strong>reexecução</strong> (executar de novo um controle da entidade), <strong>procedimentos analíticos</strong> (comparar relações esperadas entre dados) e <strong>indagação</strong> (buscar informação com pessoas). A indagação sozinha não basta como evidência. Pela <strong>NBC TA 200</strong>, o <strong>risco de auditoria</strong> é função do risco de distorção relevante, formado pelo risco inerente e pelo risco de controle (riscos da entidade), e do risco de detecção (risco do auditor). Quanto maior o risco de distorção relevante avaliado, menor o risco de detecção aceitável e mais extensos os testes substantivos. Os <strong>testes de controle</strong> avaliam se os controles funcionam; os <strong>procedimentos substantivos</strong> (testes de detalhes e analíticos) buscam a distorção nos valores. O auditor atua com <strong>ceticismo profissional</strong>, atento a evidências contraditórias.",
+   "esquema": {
+    "rotulo": "procedimentos de auditoria e exemplo fiscal",
+    "html": "<table><thead><tr><th>Procedimento</th><th>O que é</th><th>Exemplo na auditoria do ICMS</th></tr></thead><tbody><tr><td><strong>Inspeção</strong></td><td>exame de registros, documentos ou ativos</td><td>conferir XML e escrituração das entradas</td></tr><tr><td><strong>Observação</strong></td><td>acompanhar processo executado por outros</td><td>acompanhar a contagem física do estoque</td></tr><tr><td><strong>Confirmação externa</strong></td><td>resposta direta e escrita de terceiro</td><td>pedir a fornecedor ou banco que confirme operações</td></tr><tr><td><strong>Recálculo</strong></td><td>conferir a exatidão matemática</td><td>refazer a apuração do E110 ou a fração do CIAP</td></tr><tr><td><strong>Reexecução</strong></td><td>executar de novo um controle da entidade</td><td>refazer a conciliação de estoque feita pela empresa</td></tr><tr><td><strong>Procedimento analítico</strong></td><td>comparar relações esperadas entre dados</td><td>margem de lucro ou relação compras e vendas fora do padrão do setor</td></tr><tr><td><strong>Indagação</strong></td><td>obter informação com pessoas</td><td>perguntar ao contador sobre ajustes do E111 (não basta sozinha)</td></tr></tbody></table><table><thead><tr><th>Componente do risco</th><th>De quem é</th></tr></thead><tbody><tr><td><strong>Risco inerente</strong></td><td>entidade: suscetibilidade a distorção antes dos controles</td></tr><tr><td><strong>Risco de controle</strong></td><td>entidade: o controle não prevenir ou detectar a distorção</td></tr><tr><td><strong>Risco de detecção</strong></td><td>auditor: os procedimentos não detectarem a distorção</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "SUFICIENTE É QUANTIDADE, APROPRIADA É QUALIDADE",
+     "texto": "Mais itens tornam a evidência suficiente. Relevância e confiabilidade a tornam apropriada."
+    },
+    {
+     "sigla": "DE FORA E DIRETO É MAIS CONFIÁVEL",
+     "texto": "Evidência de terceiro independente, obtida diretamente pelo auditor, documental e original vale mais do que a gerada internamente, indireta, oral ou em cópia."
+    },
+    {
+     "sigla": "RISCO ALTO NA EMPRESA, DETECÇÃO BAIXA NO AUDITOR",
+     "texto": "Se o risco de distorção relevante sobe, o risco de detecção aceitável cai, e o auditor amplia os testes substantivos."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na observação, o auditor examina registros e documentos da entidade, em papel ou em meio eletrônico, para verificar a ocorrência das operações.",
+    "gabarito": "E",
+    "explicacao": "Examinar registros e documentos é inspeção. Observação é acompanhar um processo ou procedimento executado por outras pessoas, como a contagem do estoque feita pelos empregados da empresa."
+   },
+   "aprofundamento": "<p><strong>Indagação não é confirmação externa.</strong> A indagação busca informação, escrita ou verbal, com pessoas de dentro ou de fora da entidade; a confirmação externa é a resposta escrita enviada diretamente ao auditor por terceiro, como o banco que confirma saldos.</p><p><strong>Confirmação externa é a circularização.</strong> A evidência obtida como resposta escrita direta de terceiro ao auditor é, em regra, mais confiável do que a produzida pela própria entidade, porque vem de fonte independente e não passa pelas mãos do auditado.</p><p><strong>Risco de detecção é o único que o auditor controla.</strong> O risco inerente e o de controle existem independentemente da auditoria; o auditor só os avalia. O risco de detecção ele reduz com a natureza, a época e a extensão dos procedimentos.</p><p><strong>Amostragem.</strong> Pela NBC TA 530, a amostragem estatística usa seleção aleatória dos itens e a teoria das probabilidades para avaliar o resultado; a não estatística não tem esses dois traços. O risco de amostragem é o de a conclusão sobre a amostra ser diferente da que se teria examinando toda a população. Na auditoria eletrônica, o fisco muitas vezes examina a população inteira, porque tem todos os XML.</p><p><strong>Materialidade.</strong> Pela NBC TA 320, a materialidade é fixada com julgamento profissional e orienta a extensão dos testes; distorções acima dela influenciam a decisão do usuário. No lançamento tributário, porém, não há valor mínimo de materialidade: o imposto devido é exigido por inteiro.</p><p><strong>Mais pontos que as questões cobram.</strong> Procedimento analítico pode ser usado na avaliação de riscos, como procedimento substantivo e na revisão final. Teste de controle não substitui procedimento substantivo para riscos significativos.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "creditos-indevidos-de-icms",
+    "sped-sistema-publico-de-escrituracao-digital"
+   ]
+  }
+ ]
+}
