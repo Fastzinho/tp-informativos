@@ -88,6 +88,20 @@ function tpc_indexavel( $id ) {
 	$d = tpc_dados( $id ); // tema com página própria
 	return ! empty( $d['pagina_propria'] ) && tpc_escrito( $d ) && tpc_indexavel( wp_get_post_parent_id( $id ) );
 }
+/* 0.21.3: decisão da poda trimestral (playbook seção 11). "indexar": false no JSON da disciplina (ou do tema com
+   página própria) tira a página do Google (noindex,follow e fora do sitemap) sem tirar nada do ar: a página, o hub,
+   o "Rever teoria"/"Ler o resumo" do app e os links dos informativos continuam iguais. */
+function tpc_vai_ao_google( $id ) {
+	if ( ! tpc_indexavel( $id ) ) {
+		return false;
+	}
+	$d = tpc_dados( $id );
+	if ( isset( $d['indexar'] ) && false === $d['indexar'] ) {
+		return false;
+	}
+	$pai = tpc_eh_disciplina( $id ) ? 0 : wp_get_post_parent_id( $id );
+	return $pai ? tpc_vai_ao_google( $pai ) : true;
+}
 
 /* ---------------------------------------------------------------------------
  * 2. Sincronização: cadernos/*.json → posts
@@ -307,7 +321,7 @@ function tpc_atual_nao_indexavel() {
 		return true;
 	}
 	if ( is_singular( 'caderno' ) ) {
-		return ! tpc_indexavel( get_queried_object_id() );
+		return ! tpc_vai_ao_google( get_queried_object_id() );
 	}
 	if ( is_page( 'cadernos' ) ) { // hub sem nenhuma disciplina indexável
 		foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1, 'fields' => 'ids' ) ) as $id ) {
@@ -349,7 +363,7 @@ add_filter( 'rank_math/sitemap/exclude_post_type', function ( $excluir, $tipo ) 
 	return 'caderno' === $tipo ? false : $excluir;
 }, 10, 2 );
 add_filter( 'rank_math/sitemap/entry', function ( $url, $tipo, $obj ) {
-	if ( 'post' === $tipo && is_object( $obj ) && isset( $obj->post_type ) && 'caderno' === $obj->post_type && ! tpc_indexavel( $obj->ID ) ) {
+	if ( 'post' === $tipo && is_object( $obj ) && isset( $obj->post_type ) && 'caderno' === $obj->post_type && ! tpc_vai_ao_google( $obj->ID ) ) {
 		return false;
 	}
 	return $url;

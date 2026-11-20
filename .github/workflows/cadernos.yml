@@ -1,0 +1,18 @@
+# Checagem de sobreposição entre temas dos cadernos (canibalização). Só nos PRs que mexem em cadernos/*.json;
+# sem instalar nada (Python do runner), ~15 s por PR. Ver ferramentas/sobreposicao.py e playbook seção 11.
+name: Cadernos
+
+on:
+  pull_request:
+    paths:
+      - 'cadernos/*.json'
+      - 'ferramentas/sobreposicao.py'
+      - 'ferramentas/poda/sobreposicao-conhecida.json'
+
+jobs:
+  sobreposicao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 ferramentas/sobreposicao.py --ci
