@@ -641,3 +641,11 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
  .tpr-rodape{display:block;font-size:8.5pt;color:#555;margin-top:1rem}
 }
 .tpi-edicoes__dica{margin:0 0 1rem;font-size:.92rem;color:var(--tpi-suave)}
+
+/* 0.21.1: Resumo | Comentado no painel do app (julgado com resumo, ?tp_embed=1) */
+.tpr-alterna--julgado{margin:1rem 0}
+.tpr-resumo--julgado .tpr-bloco{border:0;padding:0;margin:0 0 1.5rem;background:none}
+.tpr-resumo--julgado .tpr-titulo{display:none}
+.tpr-ir{font:inherit;font-weight:700;color:var(--tpi-verde);background:none;border:0;padding:.4rem 0;min-height:44px;cursor:pointer;text-align:left}
+.tpr-ir::after{content:" ↓"}
+.tpr-ir:focus-visible{outline:3px solid var(--tpi-areia);outline-offset:2px}

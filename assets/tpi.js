@@ -972,6 +972,7 @@
 (function () {
   var abas = document.querySelectorAll('.tpr-alterna [role=tab]');
   if (!abas.length) return;
+  var lista = document.querySelector('.tpr-alterna');
   function abre(q, marca) {
     abas.forEach(function (b) {
       var s = b.id === 'tpr-tab-' + q;
@@ -981,7 +982,10 @@
       if (p) p.hidden = !s;
     });
     if (marca && history.replaceState) history.replaceState(null, '', q === 'resumo' ? '#resumo' : location.pathname + location.search);
-    if (marca && typeof window.gtag === 'function') window.gtag('event', 'edicao_formato', { formato: q, origem: location.pathname });
+    if (marca && typeof window.gtag === 'function') window.gtag('event', lista.getAttribute('data-tpr-evento') || 'edicao_formato', { formato: q, origem: location.pathname });
+    // 0.21.1: trocou de aba lá embaixo (ex.: "Ler o comentário completo"): volta ao começo do texto, logo abaixo das abas.
+    var painel = document.getElementById('tpr-tab-' + q) && document.getElementById(document.getElementById('tpr-tab-' + q).getAttribute('aria-controls'));
+    if (marca && painel && painel.getBoundingClientRect().top < 0) window.scrollTo(0, window.scrollY + painel.getBoundingClientRect().top - lista.offsetHeight - 12);
   }
   abas.forEach(function (b) {
     b.addEventListener('click', function () { abre(b.id.replace('tpr-tab-', ''), true); });
@@ -1002,6 +1006,8 @@
   peloHash();
   window.addEventListener('hashchange', peloHash);
   document.addEventListener('click', function (e) {
+    var ir = e.target.closest && e.target.closest('[data-tpr-ir]');
+    if (ir) { abre(ir.getAttribute('data-tpr-ir'), true); document.getElementById('tpr-tab-' + ir.getAttribute('data-tpr-ir')).focus({ preventScroll: true }); return; }
     var b = e.target.closest && e.target.closest('[data-tpr-imprimir]');
     if (!b) return;
     if (typeof window.gtag === 'function') window.gtag('event', 'edicao_imprimir', { origem: location.pathname });
