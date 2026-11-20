@@ -967,3 +967,44 @@
     window.gtag('event', 'caderno_praticar', { tema_id: a.getAttribute('data-tpc-praticar'), origem: location.pathname, gaveta: a.classList.contains('tpc-gaveta__praticar') ? 1 : 0 });
   });
 })();
+
+/* 0.21.0: Comentado | Resumo na página da edição. Mesma URL; #resumo (ou #resumo-N) abre o resumo. */
+(function () {
+  var abas = document.querySelectorAll('.tpr-alterna [role=tab]');
+  if (!abas.length) return;
+  function abre(q, marca) {
+    abas.forEach(function (b) {
+      var s = b.id === 'tpr-tab-' + q;
+      b.setAttribute('aria-selected', s ? 'true' : 'false');
+      b.tabIndex = s ? 0 : -1;
+      var p = document.getElementById(b.getAttribute('aria-controls'));
+      if (p) p.hidden = !s;
+    });
+    if (marca && history.replaceState) history.replaceState(null, '', q === 'resumo' ? '#resumo' : location.pathname + location.search);
+    if (marca && typeof window.gtag === 'function') window.gtag('event', 'edicao_formato', { formato: q, origem: location.pathname });
+  }
+  abas.forEach(function (b) {
+    b.addEventListener('click', function () { abre(b.id.replace('tpr-tab-', ''), true); });
+    b.addEventListener('keydown', function (e) {
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+      var o = b.id === 'tpr-tab-cards' ? 'resumo' : 'cards';
+      abre(o, true); document.getElementById('tpr-tab-' + o).focus();
+    });
+  });
+  function peloHash() {
+    if (/^#resumo/.test(location.hash)) {
+      abre('resumo', false);
+      var alvo = document.getElementById(location.hash.slice(1));
+      if (!alvo) alvo = document.querySelector('.tpr-alterna');
+      if (alvo) alvo.scrollIntoView();
+    }
+  }
+  peloHash();
+  window.addEventListener('hashchange', peloHash);
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-tpr-imprimir]');
+    if (!b) return;
+    if (typeof window.gtag === 'function') window.gtag('event', 'edicao_imprimir', { origem: location.pathname });
+    window.print();
+  });
+})();

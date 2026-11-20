@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.20.0
+ * Version: 0.21.0
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.20.0' );
+define( 'TPI_VERSION', '0.21.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -103,6 +103,9 @@ function tpi_register() {
 		// Só o que muda a resposta do aluno (erro de conteúdo, lei nova); revisão de texto não entra.
 		'tp_mudanca_em'      => 'string',  // AAAA-MM-DD
 		'tp_mudanca_nota'    => 'string',  // 1 frase: o que mudou
+		// 0.21.0: resumo da edição e marcadores (pedido do Jonatan em 20/11/2026).
+		'tp_resumo'          => 'string',  // JSON {rotulo, tese, caso, pontos[], prova[]}; marcação inline do pipeline
+		'tp_marcadores'      => 'string',  // JSON {importante: "motivo", virada: "o que mudou, com a fonte"}; vazio = sem marcador
 	);
 	foreach ( $meta as $key => $type ) {
 		register_post_meta(
@@ -578,6 +581,7 @@ function tpi_wrap_content( $content ) {
 
 	if ( 'julgado' === $tipo ) {
 		$pre     .= tpi_botao_lido( $id, true );
+		$pre     .= tpi_chips( $id, true );
 		$pre     .= tpi_ficha_julgado( $id );
 		$destaque = tpi_meta( $id, 'tp_destaque' );
 		if ( $destaque ) {
@@ -870,6 +874,7 @@ function tpi_lista_julgados( $periodico_id ) {
 			if ( $proc ) {
 				$html .= '<p class="tpi-card__ramo">' . esc_html( $proc . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) ) . '</p>';
 			}
+			$html .= tpi_chips( $f->ID );
 			$html .= '<h4 class="tpi-card__titulo"><a href="' . esc_url( get_permalink( $f ) ) . '">' . esc_html( get_the_title( $f ) ) . '</a></h4>';
 			$resumo = $f->post_excerpt ? $f->post_excerpt : tpi_meta( $f->ID, 'tp_destaque' );
 			if ( $resumo ) {
@@ -879,6 +884,153 @@ function tpi_lista_julgados( $periodico_id ) {
 		}
 		$html .= '</ol>';
 	}
+	$html .= '</section>';
+	$resumo = tpi_resumo_blocos( $periodico_id, $filhos );
+	if ( ! $resumo ) {
+		return $html;
+	}
+	// 0.21.0: a mesma URL serve as duas leituras (sem página nova concorrendo no Google). #resumo abre direto no resumo.
+	$alterna = '<div class="tpr-alterna" role="tablist" aria-label="Formato da edição">'
+		. '<button type="button" role="tab" id="tpr-tab-cards" aria-controls="tpr-cards" aria-selected="true">Comentado</button>'
+		. '<button type="button" role="tab" id="tpr-tab-resumo" aria-controls="tpr-resumo" aria-selected="false" tabindex="-1">Resumo</button></div>';
+	$html    = str_replace( '<section class="tpi-julgados" aria-labelledby', '<section class="tpi-julgados" id="tpr-cards" role="tabpanel" aria-labelledby', $html );
+	return $alterna . $html . $resumo;
+}
+
+/* ---------------------------------------------------------------------------
+ * 0.21.0: marcadores e resumo da edição
+ * ------------------------------------------------------------------------- */
+function tpi_icone( $k ) {
+	$d = array(
+		'importante' => 'M12 2l3 6.6 7 .7-5.3 4.8 1.6 7L12 17.4 5.7 21l1.6-7L2 9.3l7-.7z',
+		'vinculante' => 'M12 2 2 7v2h20V7zM4 11v7h3v-7zm6.5 0v7h3v-7zM17 11v7h3v-7zM2 20v2h20v-2z',
+		'virada'     => 'M17.6 6.4A8 8 0 1 0 20 12h-2.5a5.5 5.5 0 1 1-1.6-3.9L13 11h7V4z',
+	);
+	return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="' . $d[ $k ] . '"/></svg>';
+}
+
+/* Precedente qualificado, lido do campo processo (objetivo, sem trabalho manual).
+   STF + "Tema" = repercussão geral; STJ + "Tema de Relevância" = relevância; STJ + "Tema" = repetitivo. */
+function tpi_vinculante( $id ) {
+	$proc = (string) tpi_meta( $id, 'tp_processo' );
+	if ( ! preg_match( '/\bTemas?\b|\bRG\b|repercuss|repetitiv/iu', $proc ) ) {
+		return '';
+	}
+	if ( 'STF' === tpi_meta( $id, 'tp_tribunal' ) ) {
+		return 'Repercussão geral';
+	}
+	return preg_match( '/relev[âa]ncia/iu', $proc ) ? 'Tema de relevância' : 'Recurso repetitivo';
+}
+
+function tpi_marcadores( $id ) {
+	$m = json_decode( (string) tpi_meta( $id, 'tp_marcadores' ), true );
+	$m = is_array( $m ) ? $m : array();
+	$out = array();
+	if ( ! empty( $m['importante'] ) ) {
+		$out['importante'] = array( 'Julgado importante', tpi_texto_simples( $m['importante'] ) );
+	}
+	$v = tpi_vinculante( $id );
+	if ( $v ) {
+		$out['vinculante'] = array( $v, 'Tema de relevância' === $v ? 'Questão julgada pelo STJ no rito da relevância da questão federal.' : 'Tese fixada em precedente qualificado, que juízes e tribunais devem observar.' );
+	}
+	if ( ! empty( $m['virada'] ) ) {
+		$out['virada'] = array( 'Mudança de entendimento', tpi_texto_simples( $m['virada'] ) );
+	}
+	return $out;
+}
+
+/* Selos do julgado. Na página do julgado ($detalhe) o motivo aparece por extenso; na lista, só no title. */
+function tpi_chips( $id, $detalhe = false ) {
+	$m = tpi_marcadores( $id );
+	if ( ! $m ) {
+		return '';
+	}
+	$html = '<ul class="tpr-chips" aria-label="Marcadores do julgado">';
+	foreach ( $m as $k => $v ) {
+		$html .= '<li class="tpr-chip tpr-chip--' . $k . '" title="' . esc_attr( $v[1] ) . '">' . tpi_icone( $k ) . esc_html( $v[0] ) . '</li>';
+	}
+	$html .= '</ul>';
+	if ( $detalhe ) {
+		$notas = '';
+		foreach ( array( 'importante' => 'Por que é importante', 'virada' => 'O que mudou' ) as $k => $rot ) {
+			if ( isset( $m[ $k ] ) && $m[ $k ][1] ) {
+				$cru    = json_decode( (string) tpi_meta( $id, 'tp_marcadores' ), true );
+				$notas .= '<p><strong>' . esc_html( $rot ) . ':</strong> ' . tpi_inline( $cru[ $k ] ) . '</p>';
+			}
+		}
+		$html = '<div class="tpr-chips-julgado">' . $html . $notas . '</div>';
+	}
+	return $html;
+}
+
+function tpi_legenda_marcadores() {
+	return '<p class="tpr-legenda"><span class="tpr-chip tpr-chip--importante">' . tpi_icone( 'importante' ) . 'Julgado importante</span> '
+		. '<span class="tpr-chip tpr-chip--vinculante">' . tpi_icone( 'vinculante' ) . 'Repetitivo, repercussão geral ou relevância</span> '
+		. '<span class="tpr-chip tpr-chip--virada">' . tpi_icone( 'virada' ) . 'Mudança de entendimento</span></p>';
+}
+
+function tpi_resumo_de( $id ) {
+	$r = json_decode( (string) tpi_meta( $id, 'tp_resumo' ), true );
+	return is_array( $r ) && ! empty( $r['tese'] ) ? $r : null;
+}
+
+/* Resumo da edição: um bloco por julgado, todo em HTML do servidor (o Google lê o texto das abas).
+   Só aparece quando pelo menos um julgado tem tp_resumo; julgado sem resumo vira bloco curto com o excerto. */
+function tpi_resumo_blocos( $periodico_id, $filhos ) {
+	$tem = false;
+	foreach ( $filhos as $f ) {
+		if ( tpi_resumo_de( $f->ID ) ) {
+			$tem = true;
+			break;
+		}
+	}
+	if ( ! $tem ) {
+		return '';
+	}
+	$trib  = tpi_meta( $periodico_id, 'tp_tribunal' );
+	$num   = tpi_meta( $periodico_id, 'tp_numero' );
+	$quem  = 'STF' === $trib ? 'o STF' : 'o STJ';
+	$data  = tpi_data_br( tpi_meta( $periodico_id, 'tp_data_publicacao' ) );
+	$autor = tpi_autor();
+	$html  = '<section class="tpr-resumo" id="tpr-resumo" role="tabpanel" aria-labelledby="tpr-tab-resumo" hidden>';
+	$html .= '<h2 class="tpr-cab">Resumo do Informativo ' . esc_html( $num . ' do ' . $trib ) . '</h2>';
+	$html .= '<p class="tpr-sub">' . esc_html( trim( ( $data ? 'Divulgado em ' . $data . ' · ' : '' ) . count( $filhos ) . ' julgados · Tchau Pobreza, por ' . ( $autor['nome'] ?? 'Jonatan Ramos' ) ) ) . '</p>';
+	$html .= '<div class="tpr-topo"><p class="tpr-intro">A edição inteira em uma tela: a tese, o caso, o porquê e o que cai em prova. O comentário completo, com questões e flashcards, está no link do fim de cada bloco.</p>'
+		. '<button type="button" class="tpr-imprimir" data-tpr-imprimir>Imprimir ou salvar em PDF</button></div>';
+	$html .= tpi_legenda_marcadores();
+	$nav   = '';
+	$blocos = '';
+	foreach ( $filhos as $i => $f ) {
+		$r    = tpi_resumo_de( $f->ID );
+		$rid  = 'resumo-' . ( $i + 1 );
+		$tit  = get_the_title( $f );
+		$nav .= '<li><a href="#' . $rid . '">' . esc_html( ! empty( $r['rotulo'] ) ? $r['rotulo'] : $tit ) . '</a></li>';
+		$rp   = tpi_ramo_principal( $f );
+		$meta = trim( tpi_meta( $f->ID, 'tp_processo' ) . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) );
+		$b    = '<article class="tpr-bloco" id="' . $rid . '"><p class="tpr-meta">' . ( $rp ? '<span class="tpr-ramo">' . esc_html( $rp->name ) . '</span> ' : '' ) . esc_html( $meta ) . '</p>';
+		$b   .= tpi_chips( $f->ID ) . '<h3 class="tpr-titulo">' . esc_html( $tit ) . '</h3>';
+		if ( $r ) {
+			$b .= '<div class="tpr-tese"><p class="tpr-rot">Tese</p><p>' . tpi_inline( $r['tese'] ) . '</p></div>';
+			if ( ! empty( $r['caso'] ) ) {
+				$b .= '<p class="tpr-rot">O caso</p><p>' . tpi_inline( $r['caso'] ) . '</p>';
+			}
+			foreach ( array( 'pontos' => 'Por que ' . $quem . ' decidiu assim', 'prova' => 'Como cai em prova' ) as $k => $rot ) {
+				if ( ! empty( $r[ $k ] ) && is_array( $r[ $k ] ) ) {
+					$b .= '<p class="tpr-rot">' . esc_html( $rot ) . '</p><ul>';
+					foreach ( $r[ $k ] as $item ) {
+						$b .= '<li>' . tpi_inline( $item ) . '</li>';
+					}
+					$b .= '</ul>';
+				}
+			}
+		} elseif ( $f->post_excerpt ) {
+			$b .= '<p>' . esc_html( $f->post_excerpt ) . '</p>';
+		}
+		$b      .= '<p class="tpr-mais"><a href="' . esc_url( get_permalink( $f ) ) . '">Ler o comentário completo, com questões e flashcards</a></p></article>';
+		$blocos .= $b;
+	}
+	$html .= '<nav class="tpr-indice" aria-label="Julgados do resumo"><ol>' . $nav . '</ol></nav>' . $blocos;
+	$html .= '<p class="tpr-rodape">Resumo do Informativo ' . esc_html( $num . ' do ' . $trib ) . ' · ' . esc_html( preg_replace( '#^https?://#', '', get_permalink( $periodico_id ) ) ) . '</p>';
 	return $html . '</section>';
 }
 
@@ -1145,7 +1297,7 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
    0.4: colunas STJ | STF, cada edição com data, nº de julgados e progresso de leitura (logado). */
 add_shortcode( 'tp_edicoes', function ( $atts ) {
 	$a     = shortcode_atts( array( 'anos' => 2 ), $atts );
-	$html  = '<div class="tpi-edicoes">';
+	$html  = '<p class="tpi-edicoes__dica">Cada edição tem duas leituras: <strong>Comentado</strong>, com o estudo completo de cada julgado, e <strong>Resumo</strong>, para revisar rápido ou imprimir.</p><div class="tpi-edicoes">';
 	foreach ( array( 'STJ', 'STF' ) as $trib ) {
 		$q = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'numberposts' => 200, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $trib ) ) ) );
 		$q     = array_values( array_filter( $q, function ( $p ) { return tpi_linkavel( $p, 'edicoes' ); } ) );
