@@ -1,0 +1,1488 @@
+{
+ "slug": "contabilidade-publica",
+ "titulo": "Caderno de Contabilidade Pública",
+ "disciplina": "Contabilidade Pública",
+ "ordem": 23,
+ "descricao": "Contabilidade aplicada ao setor público pelas NBC TSP, pelo MCASP e pela Lei 4.320/1964: patrimônio público, variações patrimoniais, receita e despesa, plano de contas, demonstrações e custos, com resumo, quadros e pegadinhas.",
+ "revisado_em": "2026-11-20",
+ "revisado_rotulo": "NBC TSP, MCASP e Lei 4.320/1964 conferidos",
+ "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
+ "temas": [
+  {
+   "slug": "casp-conceito-objeto-campo-de-aplicacao",
+   "titulo": "Contabilidade aplicada ao setor público: conceito, objeto e campo de aplicação",
+   "grupo": "Fundamentos e patrimônio público",
+   "base": "NBC TSP Estrutura Conceitual; MCASP; Lei 4.320/1964, arts. 83, 85 e 89",
+   "tax": [
+    "contabilidade-publica.conceito-objeto-campo"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "contabilidade aplicada ao setor público",
+    "campo de aplicação",
+    "patrimônio público"
+   ],
+   "palavras": [
+    "casp",
+    "objeto",
+    "objetivo",
+    "entidades do setor público",
+    "estatal dependente",
+    "estatal independente",
+    "usuários",
+    "accountability",
+    "nbc tsp estrutura conceitual"
+   ],
+   "resumo": "A <strong>Contabilidade Aplicada ao Setor Público</strong> é o ramo da ciência contábil que aplica, no processo gerador de informações, os princípios e as normas contábeis voltados ao controle do patrimônio das entidades do setor público. O <strong>objeto</strong> da contabilidade aplicada ao setor público é o patrimônio público, e não o orçamento: o orçamento é controlado pela contabilidade, mas o que ela mede e evidencia é o patrimônio e suas variações. O <strong>objetivo</strong> é fornecer aos usuários informações úteis sobre a natureza orçamentária, econômica, financeira e física do patrimônio, para a prestação de contas e responsabilização (accountability) e para a tomada de decisão. Os usuários primários da informação contábil do setor público são os usuários dos serviços e seus representantes e os provedores de recursos e seus representantes, como os cidadãos e o Poder Legislativo. O <strong>campo de aplicação</strong> obrigatório alcança as entidades do setor público: governos federal, estaduais, distrital e municipais e seus poderes, inclusive tribunais de contas, defensorias e Ministério Público, órgãos, secretarias, autarquias, fundações instituídas e mantidas pelo poder público, fundos, consórcios públicos e as empresas estatais dependentes. As empresas estatais independentes ficam fora do alcance obrigatório das normas do setor público e seguem a legislação societária (Lei 6.404/1976). A Lei 4.320/1964 manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89).",
+   "esquema": {
+    "rotulo": "quem está no campo de aplicação obrigatório",
+    "html": "<table><thead><tr><th>Entidade</th><th>Aplica as normas do setor público?</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Administração direta</strong> (União, estados, DF, municípios e seus poderes)</td><td>Sim</td><td>inclui tribunais de contas, defensorias e Ministério Público</td></tr><tr><td><strong>Autarquias e fundações públicas</strong></td><td>Sim</td><td>fundações instituídas e mantidas pelo poder público</td></tr><tr><td><strong>Fundos e consórcios públicos</strong></td><td>Sim</td><td>fundo não tem personalidade jurídica, mas tem contabilidade própria</td></tr><tr><td><strong>Empresa estatal dependente</strong></td><td>Sim</td><td>recebe do ente recursos para pessoal, custeio ou capital (fora aumento de participação acionária)</td></tr><tr><td><strong>Empresa estatal independente</strong></td><td>Não, de forma obrigatória</td><td>segue a Lei 6.404/1976; entra nas contas do ente pela participação</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "OBJETO É PATRIMÔNIO, NÃO ORÇAMENTO",
+     "texto": "A contabilidade controla o orçamento, mas o objeto dela é o patrimônio público e suas variações."
+    },
+    {
+     "sigla": "DEPENDENTE ENTRA, INDEPENDENTE FICA FORA",
+     "texto": "A estatal que depende do Tesouro para pagar pessoal ou custeio segue as normas do setor público; a independente segue a Lei 6.404/1976."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "As normas de contabilidade aplicadas ao setor público alcançam obrigatoriamente todas as empresas estatais, dependentes ou não do ente controlador.",
+    "gabarito": "E",
+    "explicacao": "Só a empresa estatal dependente está no campo de aplicação obrigatório. A estatal independente, que se mantém com recursos próprios, segue a legislação societária (Lei 6.404/1976)."
+   },
+   "aprofundamento": "<p><strong>Objeto e objetivo não se confundem.</strong> O objeto é o patrimônio público. O objetivo é gerar informação útil para a prestação de contas e responsabilização e para a tomada de decisão. Uma assertiva que diga que o objeto é o orçamento, ou que o objetivo é apenas cumprir a lei orçamentária, troca os conceitos.</p><p><strong>Usuários primários.</strong> A Estrutura Conceitual escolhe como usuários primários os usuários dos serviços e os provedores de recursos, com seus representantes. Gestores e órgãos de controle também usam a informação, mas não são o foco escolhido pela norma.</p><p><strong>Lei 4.320/1964.</strong> A contabilidade evidenciará perante a Fazenda Pública a situação de todos os que arrecadem receitas, efetuem despesas, administrem ou guardem bens públicos (art. 83). Os serviços de contabilidade devem permitir o acompanhamento da execução orçamentária, o conhecimento da composição patrimonial, a determinação dos custos dos serviços industriais, o levantamento dos balanços gerais e a análise dos resultados econômicos e financeiros (art. 85).</p><p><strong>Estatal dependente.</strong> O conceito vem da Lei de Responsabilidade Fiscal: é a empresa controlada que recebe do ente recursos financeiros para despesas com pessoal, custeio em geral ou de capital, excluídos os provenientes de aumento de participação acionária. Por isso entra no orçamento e nas demonstrações do ente.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "ativo-e-passivo-no-setor-publico",
+    "saldo-patrimonial-e-superavit-financeiro"
+   ]
+  },
+  {
+   "slug": "ativo-e-passivo-no-setor-publico",
+   "titulo": "Ativo e passivo: definição, circulante e não circulante, financeiro e permanente",
+   "grupo": "Fundamentos e patrimônio público",
+   "base": "NBC TSP Estrutura Conceitual; MCASP; Lei 4.320/1964, arts. 92, 98 e 105",
+   "tax": [
+    "contabilidade-publica.ativo",
+    "contabilidade-publica.passivo"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "ativo",
+    "passivo",
+    "ativo financeiro",
+    "ativo permanente",
+    "passivo financeiro",
+    "passivo permanente"
+   ],
+   "palavras": [
+    "recurso controlado",
+    "obrigação presente",
+    "evento passado",
+    "circulante",
+    "não circulante",
+    "doze meses",
+    "atributo f",
+    "atributo p",
+    "dívida fundada",
+    "dívida flutuante",
+    "restos a pagar",
+    "obrigação não formalizada"
+   ],
+   "resumo": "Pela NBC TSP Estrutura Conceitual, <strong>ativo</strong> é um recurso controlado no presente pela entidade como resultado de evento passado. Recurso é um item com potencial de serviços ou com capacidade de gerar benefícios econômicos. O que define o ativo é o controle do recurso, e não a propriedade jurídica. <strong>Passivo</strong> é uma obrigação presente, derivada de evento passado, cuja extinção deva resultar na saída de recursos da entidade. A obrigação presente pode ser legalmente vinculada ou não formalizada, quando a entidade não tem alternativa realista senão cumpri-la. No balanço patrimonial, o ativo é circulante quando está disponível para realização imediata ou tem expectativa de realização até doze meses após a data das demonstrações contábeis; o passivo é circulante quando é exigível até doze meses após essa data. O restante é não circulante. A Lei 4.320/1964 traz outra divisão, que o balanço também evidencia: o Ativo Financeiro compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o Ativo Permanente compreende os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa. O Passivo Financeiro reúne as dívidas cujo pagamento independe de autorização orçamentária, como os restos a pagar; o Passivo Permanente reúne as dívidas que dependem de autorização legislativa para amortização ou resgate, como a dívida fundada. No plano de contas, essa divisão aparece no atributo F ou P de cada conta.",
+   "esquema": {
+    "rotulo": "as duas classificações do patrimônio",
+    "html": "<table><thead><tr><th>Critério</th><th>Ativo</th><th>Passivo</th><th>Exemplo típico</th></tr></thead><tbody><tr><td><strong>Circulante</strong> (prazo)</td><td>realização imediata ou até 12 meses após a data das demonstrações</td><td>exigível até 12 meses após a data das demonstrações</td><td>caixa; fornecedores a pagar no ano</td></tr><tr><td><strong>Não circulante</strong> (prazo)</td><td>realizável a longo prazo, investimentos, imobilizado, intangível</td><td>exigível depois de 12 meses</td><td>empréstimo de longo prazo</td></tr><tr><td><strong>Financeiro</strong> (Lei 4.320, art. 105)</td><td>realizável sem autorização orçamentária e numerário</td><td>pagamento independe de autorização orçamentária</td><td>disponibilidades; restos a pagar; depósitos de terceiros</td></tr><tr><td><strong>Permanente</strong> (Lei 4.320, art. 105)</td><td>mobilização ou alienação depende de autorização legislativa</td><td>amortização ou resgate depende de autorização legislativa</td><td>imóveis, dívida ativa; dívida fundada</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "CONTROLE, NÃO PROPRIEDADE",
+     "texto": "No setor público, o ativo nasce do controle do recurso, que permite à entidade usá-lo e regular o uso por terceiros; o título jurídico não é o que decide."
+    },
+    {
+     "sigla": "EMPENHOU, VIROU F",
+     "texto": "Obrigação reconhecida por competência e ainda sem empenho fica com atributo P; quando é empenhada, passa a F, porque o pagamento já não depende de autorização orçamentária."
+    },
+    {
+     "sigla": "DOZE MESES APÓS AS DEMONSTRAÇÕES",
+     "texto": "O corte do circulante é de doze meses contados da data das demonstrações contábeis, e não o fim do exercício seguinte."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os restos a pagar processados integram o passivo permanente, porque o seu pagamento depende de nova autorização legislativa no exercício seguinte.",
+    "gabarito": "E",
+    "explicacao": "Os restos a pagar já foram empenhados no exercício de origem. O pagamento independe de nova autorização orçamentária, por isso integram o passivo financeiro (dívida flutuante, art. 92 da Lei 4.320/1964)."
+   },
+   "aprofundamento": "<p><strong>Dívida fundada e dívida flutuante.</strong> A dívida fundada compreende os compromissos de exigibilidade superior a doze meses, contraídos para atender a desequilíbrio orçamentário ou a financiamento de obras e serviços públicos (art. 98). A dívida flutuante compreende os restos a pagar (excluídos os serviços da dívida), os serviços da dívida a pagar, os depósitos e os débitos de tesouraria (art. 92). A flutuante é passivo financeiro; a fundada é passivo permanente.</p><p><strong>Dívida ativa é ativo permanente.</strong> O recebimento da dívida ativa gera receita orçamentária, por isso o crédito não é realizável independentemente do orçamento e recebe atributo P. Já as disponibilidades (caixa e bancos) são ativo financeiro.</p><p><strong>Passivo sem empenho.</strong> Quando a entidade reconhece uma obrigação por competência antes do empenho (por exemplo, a folha de dezembro apropriada e não empenhada), o passivo nasce com atributo P. Com o empenho, a conta passa a F. Essa troca importa porque o superávit financeiro só considera o passivo financeiro.</p><p><strong>Obrigação não formalizada.</strong> Uma obrigação presente não precisa nascer de contrato ou lei: basta que a entidade, por prática ou política divulgada, tenha criado expectativa válida em terceiros e não tenha alternativa realista senão cumpri-la.</p><p><strong>Circulante no setor público.</strong> O critério do MCASP é de doze meses após a data das demonstrações contábeis; não se usa o ciclo operacional nem o fim do exercício seguinte.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "saldo-patrimonial-e-superavit-financeiro",
+    "casp-conceito-objeto-campo-de-aplicacao"
+   ]
+  },
+  {
+   "slug": "saldo-patrimonial-e-superavit-financeiro",
+   "titulo": "Saldo patrimonial, patrimônio líquido e superávit financeiro",
+   "grupo": "Fundamentos e patrimônio público",
+   "base": "Lei 4.320/1964, arts. 43 e 105; NBC TSP Estrutura Conceitual; MCASP",
+   "tax": [
+    "contabilidade-publica.saldo-patrimonial"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "saldo patrimonial",
+    "patrimônio líquido",
+    "superávit financeiro",
+    "passivo a descoberto"
+   ],
+   "palavras": [
+    "situação líquida",
+    "ativo real líquido",
+    "passivo real a descoberto",
+    "resultados acumulados",
+    "ajustes de avaliação patrimonial",
+    "créditos adicionais",
+    "fonte de recursos"
+   ],
+   "resumo": "O <strong>saldo patrimonial</strong> é a diferença entre o ativo e o passivo da entidade, e corresponde ao patrimônio líquido, que a Estrutura Conceitual define como a diferença entre os ativos e os passivos após a inclusão de outros recursos e a dedução de outras obrigações. A Lei 4.320/1964 manda o Balanço Patrimonial demonstrar o saldo patrimonial ao lado do ativo e passivo financeiros e permanentes e das contas de compensação (art. 105). Quando o ativo supera o passivo, há ativo real líquido (situação líquida positiva); quando o passivo supera o ativo, há passivo real a descoberto (situação líquida negativa). O saldo patrimonial é um estoque, medido numa data; o resultado patrimonial do exercício é um fluxo, que altera esse estoque. No patrimônio líquido aparecem, entre outros grupos, o patrimônio social ou capital social, as reservas, os ajustes de avaliação patrimonial e os resultados acumulados, onde se acumula o superávit ou o déficit patrimonial. Outro saldo, que a banca gosta de confundir com o patrimonial, é o <strong>superávit financeiro</strong>: a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, § 2º). O superávit financeiro apurado no balanço patrimonial do exercício anterior é fonte para abrir créditos suplementares e especiais. Exemplo: ativo financeiro 500 e passivo financeiro 300 dão superávit financeiro de 200; se o ativo permanente é 1.200 e o passivo permanente 900, o saldo patrimonial é (500 + 1.200) − (300 + 900) = 500.",
+   "esquema": {
+    "rotulo": "três saldos que a banca troca",
+    "html": "<table><thead><tr><th>Saldo</th><th>Como se calcula</th><th>Natureza</th><th>Para que serve</th></tr></thead><tbody><tr><td><strong>Saldo patrimonial</strong></td><td>ativo total − passivo total</td><td>estoque numa data</td><td>mostra a situação líquida (ativo real líquido ou passivo a descoberto)</td></tr><tr><td><strong>Superávit financeiro</strong></td><td>ativo financeiro − passivo financeiro, conjugando créditos adicionais transferidos e operações de crédito vinculadas</td><td>estoque numa data</td><td>fonte para créditos suplementares e especiais no exercício seguinte</td></tr><tr><td><strong>Resultado patrimonial</strong></td><td>VPA − VPD do exercício</td><td>fluxo do período</td><td>superávit ou déficit que vai para resultados acumulados</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "SALDO É FOTO, RESULTADO É FILME",
+     "texto": "O saldo patrimonial é medido numa data; o resultado patrimonial é o que aconteceu no exercício e muda o saldo."
+    },
+    {
+     "sigla": "SUPERÁVIT FINANCEIRO SÓ OLHA O F",
+     "texto": "Para o superávit financeiro, só entram ativo e passivo com atributo F. Imóveis, dívida ativa e dívida fundada ficam fora da conta."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O superávit financeiro, fonte para a abertura de créditos adicionais, corresponde à diferença positiva entre o ativo total e o passivo total apurados no balanço patrimonial do exercício anterior.",
+    "gabarito": "E",
+    "explicacao": "A diferença entre ativo total e passivo total é o saldo patrimonial. O superávit financeiro é a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, § 2º, da Lei 4.320/1964)."
+   },
+   "aprofundamento": "<p><strong>Passivo real a descoberto.</strong> Um ente com passivo maior que o ativo tem situação líquida negativa. Isso é comum em entes com grande passivo atuarial reconhecido. A expressão correta para o saldo negativo é passivo real a descoberto; ativo real líquido é o saldo positivo.</p><p><strong>Superávit financeiro e saldo patrimonial podem ter sinais opostos.</strong> Um ente pode ter superávit financeiro (sobra de caixa sobre restos a pagar) e, ao mesmo tempo, passivo a descoberto, porque o saldo patrimonial inclui a dívida fundada e o passivo atuarial, que ficam fora do superávit financeiro.</p><p><strong>Conta de compensação não entra no saldo.</strong> As contas de compensação registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (art. 105, § 5º). Elas são controle e não alteram o saldo patrimonial.</p><p><strong>Onde vai o resultado.</strong> O superávit ou déficit patrimonial apurado na Demonstração das Variações Patrimoniais é transferido para resultados acumulados, no patrimônio líquido. Ajustes de exercícios anteriores também são lançados em resultados acumulados, e não como variação do exercício.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "ativo-e-passivo-no-setor-publico",
+    "realizacao-e-resultado-patrimonial"
+   ]
+  },
+  {
+   "slug": "variacoes-patrimoniais-qualitativas-e-quantitativas",
+   "titulo": "Variações patrimoniais qualitativas e quantitativas; receita e despesa sob o enfoque patrimonial",
+   "grupo": "Variações patrimoniais",
+   "base": "Lei 4.320/1964, arts. 35, 100 e 104; NBC TSP Estrutura Conceitual; MCASP",
+   "tax": [
+    "contabilidade-publica.variacoes-qualitativas",
+    "contabilidade-publica.receita-despesa-enfoque-patrimonial"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "variações patrimoniais",
+    "variação patrimonial aumentativa",
+    "variação patrimonial diminutiva",
+    "receita efetiva",
+    "despesa efetiva"
+   ],
+   "palavras": [
+    "vpa",
+    "vpd",
+    "fato permutativo",
+    "fato modificativo",
+    "fato misto",
+    "receita não efetiva",
+    "despesa não efetiva",
+    "superveniência",
+    "insubsistência",
+    "enfoque orçamentário",
+    "enfoque patrimonial"
+   ],
+   "resumo": "Variação patrimonial é qualquer alteração no patrimônio. As <strong>variações qualitativas</strong> (fatos permutativos) mudam a composição dos elementos patrimoniais sem alterar o patrimônio líquido: a compra de um bem à vista, a obtenção de um empréstimo, o pagamento de uma dívida já registrada. As <strong>variações quantitativas</strong> (fatos modificativos) alteram o patrimônio líquido e se dividem em variação patrimonial aumentativa (VPA), que o aumenta, e variação patrimonial diminutiva (VPD), que o diminui. Sob o enfoque patrimonial, a receita é a VPA e a despesa é a VPD. A VPA corresponde a aumentos de benefícios econômicos ou potencial de serviços no período, por entrada de recursos, aumento de ativos ou redução de passivos, que resultem em aumento do patrimônio líquido e não sejam aportes dos proprietários. A VPD corresponde a reduções por saída de recursos, consumo de ativos ou surgimento de passivos, que resultem em diminuição do patrimônio líquido e não sejam distribuições aos proprietários. Sob o enfoque orçamentário, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas (art. 35 da Lei 4.320/1964). Os dois enfoques se cruzam: a <strong>receita orçamentária efetiva</strong> aumenta o patrimônio líquido no momento do seu reconhecimento (a receita tributária, por exemplo), enquanto a <strong>receita orçamentária não efetiva</strong> é fato permutativo, como a operação de crédito e a alienação de bens. A <strong>despesa orçamentária efetiva</strong> diminui o patrimônio líquido (pessoal, juros, material de consumo usado), enquanto a <strong>despesa orçamentária não efetiva</strong> é permutativa, como a aquisição de imóvel e a amortização da dívida. Há também VPA e VPD independentes da execução orçamentária, como a doação recebida de um bem e a depreciação.",
+   "esquema": {
+    "rotulo": "o mesmo fato nos dois enfoques",
+    "html": "<table><thead><tr><th>Fato</th><th>Enfoque orçamentário</th><th>Enfoque patrimonial</th></tr></thead><tbody><tr><td>Operação de crédito recebida</td><td>receita orçamentária não efetiva (de capital)</td><td>permutativo: entra caixa e surge passivo</td></tr><tr><td>Alienação de bem pelo valor contábil</td><td>receita orçamentária não efetiva</td><td>permutativo: sai o bem e entra caixa</td></tr><tr><td>Tributo reconhecido no fato gerador</td><td>receita orçamentária efetiva quando arrecadada</td><td>VPA no reconhecimento do crédito</td></tr><tr><td>Folha de pessoal do próprio exercício</td><td>despesa orçamentária efetiva</td><td>VPD</td></tr><tr><td>Aquisição de imóvel</td><td>despesa orçamentária não efetiva (investimento)</td><td>permutativo: sai caixa e entra o bem</td></tr><tr><td>Amortização do principal da dívida</td><td>despesa orçamentária não efetiva</td><td>permutativo: sai caixa e baixa o passivo</td></tr><tr><td>Doação recebida de bem; depreciação</td><td>sem execução orçamentária</td><td>VPA; VPD (independentes da execução orçamentária)</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "EFETIVA MEXE NO PATRIMÔNIO LÍQUIDO",
+     "texto": "Receita ou despesa orçamentária efetiva altera o patrimônio líquido; a não efetiva só troca um elemento por outro."
+    },
+    {
+     "sigla": "DECIDA PELO EFEITO, NÃO PELO RÓTULO",
+     "texto": "Surgir ativo ou sumir passivo aumenta o patrimônio líquido; sumir ativo ou surgir passivo o diminui. A nomenclatura de superveniências e insubsistências varia entre autores."
+    },
+    {
+     "sigla": "DE CAPITAL COSTUMA SER NÃO EFETIVA",
+     "texto": "Operação de crédito, alienação de bens e amortização de empréstimo concedido são receitas de capital permutativas; transferência de capital recebida é a exceção, pois aumenta o patrimônio líquido."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A aquisição de um imóvel à vista, com recursos do orçamento, constitui despesa orçamentária efetiva, porque reduz a disponibilidade financeira do ente.",
+    "gabarito": "E",
+    "explicacao": "A saída de caixa é compensada pela entrada do imóvel no ativo: o fato é permutativo e o patrimônio líquido não muda. Por isso a aquisição é despesa orçamentária não efetiva. Efetiva é a despesa que diminui o patrimônio líquido, como a folha de pessoal."
+   },
+   "aprofundamento": "<p><strong>Superveniências e insubsistências (art. 100 da Lei 4.320/1964).</strong> As alterações da situação líquida patrimonial abrangem os resultados da execução orçamentária, as variações independentes dessa execução e as superveniências e insubsistências ativas e passivas. Superveniência é o surgimento de um elemento patrimonial e insubsistência é o seu desaparecimento. O surgimento de um ativo e a baixa de um passivo sem saída de recursos, como o cancelamento de uma dívida, aumentam o patrimônio líquido e são fatos modificativos aumentativos; o surgimento de um passivo e a baixa de um ativo, como o furto de um bem, o diminuem. Os autores divergem sobre qual desses fatos leva o adjetivo ativa ou passiva, por isso decida a questão pelo efeito no patrimônio líquido, e não pelo rótulo.</p><p><strong>Receita tributária reconhecida antes da arrecadação.</strong> Quando o crédito tributário é registrado no fato gerador, a VPA acontece nesse momento. A arrecadação posterior é receita orçamentária, mas, no patrimônio, apenas troca o crédito a receber por caixa.</p><p><strong>Transferência de capital recebida.</strong> É receita de capital e, mesmo assim, aumenta o patrimônio líquido de quem recebe, porque não gera obrigação de devolver. Não basta ser de capital para ser não efetiva.</p><p><strong>Fato misto.</strong> O pagamento de uma dívida com juros é permutativo quanto ao principal e modificativo quanto aos juros, que são VPD.</p><p><strong>Restos a pagar não processados liquidados no exercício seguinte.</strong> A despesa orçamentária pertence ao exercício do empenho (art. 35), mas a VPD é reconhecida quando ocorre o fato gerador, pela competência.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "realizacao-e-resultado-patrimonial",
+    "saldo-patrimonial-e-superavit-financeiro"
+   ]
+  },
+  {
+   "slug": "realizacao-e-resultado-patrimonial",
+   "titulo": "Realização da variação patrimonial e resultado patrimonial",
+   "grupo": "Variações patrimoniais",
+   "base": "Lei 4.320/1964, art. 104; LRF, art. 50, II; NBC TSP Estrutura Conceitual; MCASP",
+   "tax": [
+    "contabilidade-publica.realizacao-variacao-patrimonial",
+    "contabilidade-publica.resultado-patrimonial"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "regime de competência",
+    "realização da variação patrimonial",
+    "resultado patrimonial",
+    "superávit patrimonial",
+    "déficit patrimonial"
+   ],
+   "palavras": [
+    "competência",
+    "fato gerador",
+    "reconhecimento",
+    "demonstração das variações patrimoniais",
+    "dvp",
+    "resultado orçamentário",
+    "resultado financeiro",
+    "resultados acumulados",
+    "doações e subvenções"
+   ],
+   "resumo": "A <strong>realização</strong> da variação patrimonial segue o <strong>regime de competência</strong>: a VPA e a VPD são reconhecidas no período em que ocorre o fato gerador, independentemente de recebimento ou pagamento. Na contabilidade patrimonial, a VPA é reconhecida quando há aumento de benefícios econômicos ou potencial de serviços que possa ser mensurado com confiabilidade, e a VPD quando há redução que possa ser mensurada com confiabilidade. Os critérios clássicos de realização ajudam: a VPA se realiza nas transações com terceiros, quando estes pagam ou assumem compromisso firme de pagar; na extinção, parcial ou total, de um passivo sem o desaparecimento de um ativo de valor igual ou maior; na geração natural de novos ativos independentemente da intervenção de terceiros; e no recebimento efetivo de doações e subvenções. A VPD se considera incorrida quando deixa de existir o ativo, por transferência de sua propriedade a terceiro; pela diminuição ou extinção do valor econômico de um ativo; e pelo surgimento de um passivo sem o correspondente ativo. O <strong>resultado patrimonial</strong> do exercício é a diferença entre o total das VPA e o total das VPD, apurado na Demonstração das Variações Patrimoniais, que evidencia as alterações do patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial (art. 104 da Lei 4.320/1964). VPA maior que VPD dá superávit patrimonial; o contrário, déficit. O resultado é transferido para resultados acumulados, no patrimônio líquido. Resultado patrimonial não se confunde com resultado orçamentário, que compara receita arrecadada e despesa empenhada. Exemplo: VPA de 900 (tributária 700, transferências recebidas 150, doação de bem 50) e VPD de 800 dão superávit patrimonial de 100.",
+   "esquema": {
+    "rotulo": "resultado patrimonial × resultado orçamentário",
+    "html": "<table><thead><tr><th>Fato</th><th>Resultado orçamentário</th><th>Resultado patrimonial</th></tr></thead><tbody><tr><td>Operação de crédito de 100</td><td>aumenta (receita de 100)</td><td>não muda (permutativo)</td></tr><tr><td>Compra de imóvel de 100</td><td>diminui (despesa de 100)</td><td>não muda (permutativo)</td></tr><tr><td>Depreciação de 30</td><td>não muda (sem execução orçamentária)</td><td>diminui (VPD de 30)</td></tr><tr><td>Doação recebida de bem de 50</td><td>não muda</td><td>aumenta (VPA de 50)</td></tr><tr><td>Folha de pessoal de 80, empenhada e liquidada</td><td>diminui (despesa de 80)</td><td>diminui (VPD de 80)</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "COMPETÊNCIA OLHA O FATO GERADOR",
+     "texto": "A VPA e a VPD entram no período em que o fato acontece, e não quando o dinheiro entra ou sai."
+    },
+    {
+     "sigla": "PERMUTATIVO NÃO TOCA O RESULTADO PATRIMONIAL",
+     "texto": "Empréstimo obtido, compra de bem e amortização de dívida mexem no orçamento, mas não no resultado patrimonial."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O ingresso de recursos de operação de crédito aumenta o resultado patrimonial do exercício, pois é receita orçamentária arrecadada.",
+    "gabarito": "E",
+    "explicacao": "A operação de crédito é receita orçamentária (aumenta o resultado orçamentário), mas, no patrimônio, entra caixa e surge um passivo de igual valor. É fato permutativo, sem VPA, e não altera o resultado patrimonial."
+   },
+   "aprofundamento": "<p><strong>Doações e subvenções.</strong> Pelo critério clássico, a VPA de doações e subvenções se realiza no recebimento efetivo. Se a doação vem com condição que obriga a devolução em caso de descumprimento, a norma de receita sem contraprestação manda reconhecer um passivo até que a condição seja cumprida.</p><p><strong>Geração natural de ativos.</strong> O nascimento de animais de um rebanho público é VPA sem intervenção de terceiros e sem execução orçamentária.</p><p><strong>Extinção de passivo.</strong> O perdão de uma dívida do ente pelo credor é VPA, porque o passivo desaparece sem saída de ativo. Já o pagamento da dívida não é VPA: o passivo some junto com o caixa.</p><p><strong>Competência na LRF.</strong> A despesa e a assunção de compromisso serão registradas segundo o regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II, da LRF).</p><p><strong>DVP e alienação de ativos.</strong> A Demonstração das Variações Patrimoniais dará destaque à origem e ao destino dos recursos provenientes da alienação de ativos (art. 50, VI, da LRF). O ganho ou a perda na alienação, e não o valor recebido, é que entra como VPA ou VPD.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "variacoes-patrimoniais-qualitativas-e-quantitativas",
+    "saldo-patrimonial-e-superavit-financeiro"
+   ]
+  },
+  {
+   "slug": "ativo-imobilizado-setor-publico",
+   "titulo": "Ativo imobilizado: reconhecimento, mensuração inicial e mensuração subsequente",
+   "grupo": "Mensuração de ativos",
+   "base": "NBC TSP 07; MCASP; Lei 4.320/1964, arts. 94 a 96 e 106",
+   "tax": [
+    "contabilidade-publica.ativo-imobilizado"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "ativo imobilizado",
+    "custo de aquisição",
+    "valor justo",
+    "bens de infraestrutura"
+   ],
+   "palavras": [
+    "nbc tsp 07",
+    "reconhecimento",
+    "mensuração inicial",
+    "custo",
+    "transação sem contraprestação",
+    "doação",
+    "modelo do custo",
+    "modelo da reavaliação",
+    "gastos subsequentes",
+    "manutenção",
+    "baixa",
+    "propriedade para investimento",
+    "patrimônio cultural",
+    "inventário"
+   ],
+   "resumo": "<strong>Ativo imobilizado</strong> é o item tangível mantido para uso na produção ou no fornecimento de bens ou serviços, ou para fins administrativos, e que se espera utilizar por mais de um período. Inclui bens móveis, imóveis e bens de infraestrutura, como estradas e redes de saneamento. O item é reconhecido quando for provável que benefícios econômicos futuros ou potencial de serviços associados a ele fluam para a entidade e quando seu custo ou valor justo puder ser mensurado com confiabilidade. Na <strong>mensuração inicial</strong>, o item é registrado pelo custo, que inclui o preço de compra, os tributos de importação e os não recuperáveis, deduzidos descontos e abatimentos, os custos diretamente atribuíveis para colocar o ativo no local e na condição de funcionar e a estimativa inicial dos custos de desmontagem, remoção e restauração do local. Quando o ativo é adquirido por transação sem contraprestação, como uma doação, o custo é o seu valor justo na data da aquisição. A Lei 4.320/1964 manda avaliar os bens móveis e imóveis pelo valor de aquisição ou pelo custo de produção ou de construção (art. 106, II). Depois do reconhecimento, a entidade escolhe, para cada classe de bens, o <strong>modelo do custo</strong> (custo menos depreciação acumulada e perdas por redução ao valor recuperável) ou o <strong>modelo da reavaliação</strong> (valor justo na data da reavaliação menos depreciação e perdas posteriores). Gastos de manutenção diária são VPD do período; gastos que aumentam a vida útil, a capacidade ou a qualidade do serviço são incorporados ao ativo. Na baixa, a diferença entre o valor líquido da alienação e o valor contábil vai ao resultado, como VPA ou VPD.",
+   "esquema": {
+    "rotulo": "o que vai para o custo do imobilizado",
+    "html": "<table><thead><tr><th>Gasto</th><th>Tratamento</th></tr></thead><tbody><tr><td>Preço de compra, frete, instalação, montagem e testes</td><td>compõem o custo</td></tr><tr><td>Tributos não recuperáveis e de importação</td><td>compõem o custo; tributo recuperável não entra</td></tr><tr><td>Estimativa de desmontagem, remoção e restauração do local</td><td>compõe o custo, com provisão em contrapartida</td></tr><tr><td>Treinamento de pessoal, publicidade, custos administrativos gerais</td><td>VPD, não entram no custo</td></tr><tr><td>Bem recebido em doação</td><td>valor justo na data da aquisição</td></tr><tr><td>Manutenção e reparos de rotina</td><td>VPD do período</td></tr><tr><td>Reforma que aumenta vida útil ou capacidade</td><td>incorporada ao valor do ativo</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "DOAÇÃO ENTRA PELO VALOR JUSTO",
+     "texto": "Bem recebido sem contraprestação não tem custo de compra: mede-se pelo valor justo na data da aquisição, em contrapartida de VPA."
+    },
+    {
+     "sigla": "ROTINA É VPD, MELHORIA É ATIVO",
+     "texto": "Conserto do dia a dia vai ao resultado; reforma que prolonga a vida útil ou aumenta a capacidade se incorpora ao bem."
+    },
+    {
+     "sigla": "MODELO ESCOLHIDO POR CLASSE",
+     "texto": "Custo ou reavaliação valem para a classe inteira de bens, e não para um bem isolado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O imóvel recebido em doação por um município deve ser registrado no ativo imobilizado por valor simbólico, já que não houve desembolso para a sua aquisição.",
+    "gabarito": "E",
+    "explicacao": "Na transação sem contraprestação, o ativo é mensurado pelo valor justo na data da aquisição, em contrapartida de VPA. A falta de desembolso não autoriza valor simbólico."
+   },
+   "aprofundamento": "<p><strong>Controle, e não título.</strong> Bens de uso comum do povo construídos com recursos públicos, como estradas e pontes, são bens de infraestrutura e entram no imobilizado quando atendem aos critérios de reconhecimento.</p><p><strong>Patrimônio cultural.</strong> A NBC TSP 07 não obriga a entidade a reconhecer ativos do patrimônio cultural, pela dificuldade de mensurá-los; se forem reconhecidos, aplicam-se as exigências de divulgação da norma. Um prédio histórico usado como sede administrativa é tratado como qualquer imobilizado.</p><p><strong>Propriedade para investimento.</strong> Imóvel mantido para renda de aluguel ou valorização, e não para uso nos serviços, segue a norma própria de propriedade para investimento, e não a de imobilizado.</p><p><strong>Registros da Lei 4.320/1964.</strong> Haverá registros analíticos de todos os bens de caráter permanente, com os agentes responsáveis pela guarda (art. 94); a contabilidade mantém registros sintéticos dos bens móveis e imóveis (art. 95); e o levantamento geral dos bens se baseia no inventário analítico de cada unidade e na escrituração sintética (art. 96).</p><p><strong>Material permanente.</strong> Para classificar a despesa, considera-se material permanente o de duração superior a dois anos (art. 15, § 2º, da Lei 4.320/1964). Esse é um critério orçamentário; o reconhecimento no imobilizado segue a norma contábil.</p><p><strong>Almoxarifado.</strong> Os bens de almoxarifado são avaliados pelo preço médio ponderado das compras (art. 106, III, da Lei 4.320/1964). São estoques, e não imobilizado.</p><p><strong>Obras em andamento.</strong> O custo acumulado fica no imobilizado em andamento e não é depreciado até o bem estar disponível para uso.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "depreciacao-amortizacao-e-exaustao",
+    "reavaliacao-e-reducao-ao-valor-recuperavel",
+    "ativo-intangivel-setor-publico"
+   ]
+  },
+  {
+   "slug": "ativo-intangivel-setor-publico",
+   "titulo": "Ativo intangível: identificação, pesquisa e desenvolvimento, vida útil",
+   "grupo": "Mensuração de ativos",
+   "base": "NBC TSP 08; MCASP",
+   "tax": [
+    "contabilidade-publica.ativo-intangivel"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "ativo intangível",
+    "identificável",
+    "pesquisa e desenvolvimento",
+    "vida útil indefinida"
+   ],
+   "palavras": [
+    "nbc tsp 08",
+    "separável",
+    "direitos contratuais",
+    "software",
+    "licença",
+    "marca gerada internamente",
+    "fase de pesquisa",
+    "fase de desenvolvimento",
+    "amortização",
+    "vida útil definida",
+    "teste anual",
+    "mercado ativo"
+   ],
+   "resumo": "<strong>Ativo intangível</strong> é o ativo não monetário, sem substância física, identificável. É <strong>identificável</strong> quando é separável, isto é, pode ser vendido, transferido, licenciado ou trocado, ou quando resulta de compromissos obrigatórios, como contratos ou outros direitos legais, ainda que não seja separável. Além disso, a entidade precisa controlá-lo e esperar dele benefícios econômicos futuros ou potencial de serviços. São exemplos softwares, licenças, patentes, direitos autorais e direitos de uso. O reconhecimento exige que esses benefícios sejam prováveis e que o custo ou valor justo possa ser mensurado com confiabilidade; a mensuração inicial é pelo custo, ou pelo valor justo na data da aquisição quando obtido sem contraprestação. No intangível gerado internamente, a norma separa duas fases: os gastos da <strong>fase de pesquisa</strong> são sempre reconhecidos como VPD; os da <strong>fase de desenvolvimento</strong> podem ser ativados se a entidade demonstrar, entre outros requisitos, a viabilidade técnica de concluir o ativo, a intenção e a capacidade de usá-lo ou vendê-lo, como ele gerará benefícios ou potencial de serviços, a disponibilidade de recursos para concluí-lo e a mensuração confiável dos gastos. Marcas, títulos de publicações, listas de usuários e itens semelhantes gerados internamente não são reconhecidos como intangível. Quanto à vida útil, o intangível de <strong>vida útil definida</strong> é amortizado; o de <strong>vida útil indefinida</strong> não é amortizado, mas é testado quanto à redução ao valor recuperável anualmente e sempre que houver indício de perda, e a vida útil indefinida é revisada a cada período. O modelo da reavaliação só cabe ao intangível quando o valor justo puder ser obtido em mercado ativo.",
+   "esquema": {
+    "rotulo": "imobilizado ou intangível, ativo ou VPD",
+    "html": "<table><thead><tr><th>Situação</th><th>Tratamento</th></tr></thead><tbody><tr><td>Software sem o qual o equipamento não funciona (sistema operacional embarcado)</td><td>integra o imobilizado</td></tr><tr><td>Software adquirido separadamente (sistema de arrecadação)</td><td>intangível</td></tr><tr><td>Gastos da fase de pesquisa</td><td>sempre VPD</td></tr><tr><td>Gastos da fase de desenvolvimento que atendem aos requisitos</td><td>intangível</td></tr><tr><td>Marca, lista de usuários, títulos gerados internamente</td><td>não se reconhecem como ativo</td></tr><tr><td>Vida útil definida</td><td>amortização sistemática</td></tr><tr><td>Vida útil indefinida</td><td>sem amortização; teste anual de recuperabilidade</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "PESQUISA NUNCA VIRA ATIVO",
+     "texto": "Na pesquisa ainda não se sabe se haverá ativo; por isso o gasto vai sempre ao resultado. Só o desenvolvimento, com os requisitos, pode ser ativado."
+    },
+    {
+     "sigla": "INDEFINIDA NÃO É INFINITA",
+     "texto": "Vida útil indefinida significa que não há limite previsível hoje. O ativo não é amortizado, mas é testado todo ano."
+    },
+    {
+     "sigla": "SEPARÁVEL OU CONTRATUAL",
+     "texto": "Basta um dos dois para ser identificável: poder ser separado da entidade ou nascer de contrato ou direito legal."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O ativo intangível de vida útil indefinida deve ser amortizado pelo prazo máximo de dez anos, à falta de estimativa confiável da vida útil.",
+    "gabarito": "E",
+    "explicacao": "Intangível de vida útil indefinida não é amortizado. Ele é testado quanto à redução ao valor recuperável anualmente e sempre que houver indício de perda, e a vida útil é revista a cada período."
+   },
+   "aprofundamento": "<p><strong>Quando não dá para separar as fases.</strong> Se a entidade não consegue distinguir a fase de pesquisa da fase de desenvolvimento de um projeto interno, trata todo o gasto como se fosse da fase de pesquisa, isto é, como VPD.</p><p><strong>Gasto já lançado como VPD não volta.</strong> O gasto com um item intangível reconhecido inicialmente como VPD não é reconhecido depois como parte do custo do ativo.</p><p><strong>Ágio e marcas internas.</strong> O ágio derivado da expectativa de rentabilidade futura gerado internamente não é reconhecido como ativo, assim como marcas e listas de usuários geradas internamente, porque seus gastos não se distinguem do custo de desenvolver as atividades como um todo.</p><p><strong>Revisão da vida útil indefinida.</strong> Se a revisão concluir que a vida útil passou a ser definida, a mudança é tratada como mudança de estimativa, de forma prospectiva, e o ativo passa a ser amortizado.</p><p><strong>Reavaliação.</strong> Como raramente há mercado ativo para softwares, patentes e licenças específicas, a regra prática é o modelo do custo. A reavaliação do intangível exige mercado ativo.</p><p><strong>Amortização.</strong> O valor amortizável do intangível de vida útil definida é apropriado de forma sistemática ao longo da vida útil, a partir de quando o ativo está disponível para uso; o valor residual é presumido zero, salvo compromisso de terceiro de comprá-lo ou mercado ativo.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "depreciacao-amortizacao-e-exaustao",
+    "ativo-imobilizado-setor-publico",
+    "reavaliacao-e-reducao-ao-valor-recuperavel"
+   ]
+  },
+  {
+   "slug": "reavaliacao-e-reducao-ao-valor-recuperavel",
+   "titulo": "Reavaliação e redução ao valor recuperável (impairment)",
+   "grupo": "Mensuração de ativos",
+   "base": "NBC TSP 07, 09 e 10; MCASP; Lei 4.320/1964, art. 106, § 3º",
+   "tax": [
+    "contabilidade-publica.reavaliacao-valor-recuperavel"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "reavaliação",
+    "redução ao valor recuperável",
+    "impairment",
+    "valor recuperável",
+    "valor em uso"
+   ],
+   "palavras": [
+    "valor justo",
+    "reserva de reavaliação",
+    "ativo gerador de caixa",
+    "ativo não gerador de caixa",
+    "valor recuperável de serviço",
+    "custo de reposição depreciado",
+    "reversão",
+    "nbc tsp 09",
+    "nbc tsp 10",
+    "indício de perda"
+   ],
+   "resumo": "A <strong>reavaliação</strong> ajusta o valor contábil do ativo ao seu valor justo e é uma política de mensuração subsequente: a entidade que adota o modelo da reavaliação deve reavaliar toda a classe a que o bem pertence, com regularidade suficiente para que o valor contábil não difira materialmente do valor justo na data das demonstrações. A Lei 4.320/1964 já admitia: poderão ser feitas reavaliações dos bens móveis e imóveis (art. 106, § 3º). O aumento do valor contábil vai para a <strong>reserva de reavaliação</strong>, no patrimônio líquido, salvo quando reverte uma redução da mesma classe reconhecida antes no resultado, caso em que é VPA até esse limite. A diminuição é VPD, salvo na parte que puder ser debitada da reserva de reavaliação existente para a mesma classe. A <strong>redução ao valor recuperável</strong> (impairment) é outra coisa: é a perda reconhecida quando o valor contábil supera o valor recuperável. Em cada data de demonstrações, a entidade avalia se há indício de perda; havendo, estima o valor recuperável. Para o <strong>ativo gerador de caixa</strong> (mantido para gerar retorno comercial), o valor recuperável é o maior entre o valor justo menos os custos de alienação e o valor em uso, que é o valor presente dos fluxos de caixa futuros. Para o <strong>ativo não gerador de caixa</strong>, o valor recuperável de serviço é o maior entre o valor justo menos os custos de alienação e o valor em uso, medido pelo potencial de serviços remanescente, por exemplo pelo custo de reposição depreciado. A perda é VPD, ou reduz a reserva de reavaliação se o ativo for reavaliado, e pode ser revertida depois, até o valor contábil que existiria sem a perda. Exemplo: valor contábil 500.000, valor justo menos custos de alienação 420.000 e valor em uso 450.000. O valor recuperável é 450.000 (o maior) e a perda é de 50.000.",
+   "esquema": {
+    "rotulo": "reavaliação × redução ao valor recuperável",
+    "html": "<table><thead><tr><th>Aspecto</th><th>Reavaliação</th><th>Redução ao valor recuperável</th></tr></thead><tbody><tr><td>Natureza</td><td>política de mensuração (modelo da reavaliação)</td><td>teste obrigatório quando há indício de perda</td></tr><tr><td>Direção</td><td>aumenta ou diminui</td><td>só reduz (a reversão volta, no máximo, ao valor sem perda)</td></tr><tr><td>Base</td><td>valor justo</td><td>valor recuperável: maior entre valor justo menos custos de alienação e valor em uso</td></tr><tr><td>Alcance</td><td>toda a classe do bem</td><td>ativo individual ou unidade geradora de caixa</td></tr><tr><td>Aumento</td><td>reserva de reavaliação (VPA se reverte redução anterior no resultado)</td><td>reversão de perda: VPA</td></tr><tr><td>Redução</td><td>VPD, salvo saldo de reserva da mesma classe</td><td>VPD, salvo saldo de reserva do ativo reavaliado</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "RECUPERÁVEL É O MAIOR DOS DOIS",
+     "texto": "Compare valor justo menos custos de alienação com valor em uso e fique com o maior. Só há perda se o valor contábil passar dele."
+    },
+    {
+     "sigla": "REAVALIOU UM, REAVALIA A CLASSE",
+     "texto": "Não se reavalia um bem isolado: a classe inteira passa ao modelo da reavaliação."
+    },
+    {
+     "sigla": "AUMENTO VAI AO PATRIMÔNIO LÍQUIDO",
+     "texto": "A valorização na reavaliação não é VPA: vai para a reserva de reavaliação, salvo quando desfaz uma redução já levada ao resultado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O valor recuperável de um ativo gerador de caixa corresponde ao menor valor entre o seu valor justo menos os custos de alienação e o seu valor em uso.",
+    "gabarito": "E",
+    "explicacao": "O valor recuperável é o maior dos dois. A lógica é que a entidade escolhe a melhor forma de recuperar o ativo: vendê-lo ou continuar a usá-lo."
+   },
+   "aprofundamento": "<p><strong>Gerador ou não gerador de caixa.</strong> O que decide é o objetivo de manter o ativo. Um hospital público que atende a população sem cobrança é ativo não gerador de caixa, ainda que cobre algumas taxas; um imóvel alugado a preço de mercado por uma autarquia para obter retorno é gerador de caixa.</p><p><strong>Valor em uso do não gerador de caixa.</strong> Como esse ativo não gera fluxo de caixa, o valor em uso é medido pelo valor presente do potencial de serviços remanescente, por abordagens como o custo de reposição depreciado, o custo de restauração e as unidades de serviço.</p><p><strong>Indícios.</strong> São exemplos de indício de perda a paralisação da construção, o dano físico, a queda da demanda pelo serviço e a decisão de deixar de usar o bem. A entidade avalia os indícios em cada data de demonstrações; o teste anual sem indício só é exigido para o intangível de vida útil indefinida e o ainda não disponível para uso.</p><p><strong>Depreciação depois do ajuste.</strong> Após a reavaliação ou o reconhecimento da perda, a depreciação dos períodos seguintes é recalculada sobre o novo valor contábil, pela vida útil remanescente.</p><p><strong>Frequência da reavaliação.</strong> Itens com variações significativas no valor justo podem exigir reavaliação anual; para itens com variações pouco relevantes, a NBC TSP 07 admite reavaliação a cada três ou cinco anos.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "ativo-imobilizado-setor-publico",
+    "depreciacao-amortizacao-e-exaustao",
+    "ativo-intangivel-setor-publico"
+   ]
+  },
+  {
+   "slug": "depreciacao-amortizacao-e-exaustao",
+   "titulo": "Depreciação, amortização e exaustão no setor público",
+   "grupo": "Mensuração de ativos",
+   "base": "NBC TSP 07 e 08; MCASP",
+   "tax": [
+    "contabilidade-publica.depreciacao-amortizacao-exaustao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "depreciação",
+    "amortização",
+    "exaustão",
+    "vida útil",
+    "valor residual"
+   ],
+   "palavras": [
+    "valor depreciável",
+    "método linear",
+    "cotas constantes",
+    "soma dos dígitos",
+    "unidades produzidas",
+    "terrenos",
+    "bens de natureza cultural",
+    "revisão da vida útil",
+    "mudança de estimativa",
+    "componentes",
+    "recursos naturais"
+   ],
+   "resumo": "<strong>Depreciação</strong> é a redução do valor dos bens tangíveis pelo desgaste ou perda de utilidade por uso, ação da natureza ou obsolescência. <strong>Amortização</strong> é a redução do valor aplicado na aquisição de direitos de propriedade e quaisquer outros, inclusive ativos intangíveis, com existência ou exercício de duração limitada. <strong>Exaustão</strong> é a redução do valor decorrente da exploração dos recursos minerais, florestais e outros recursos naturais esgotáveis. As três são VPD independentes da execução orçamentária: reduzem o resultado patrimonial, mas não geram despesa orçamentária. O valor depreciável é o custo do ativo (ou o valor que o substitui) menos o valor residual, e deve ser apropriado de forma sistemática ao longo da vida útil. A depreciação começa quando o bem está disponível para uso, no local e na condição de funcionamento pretendidos, e não cessa só porque o bem ficou ocioso. A vida útil e o valor residual são revisados pelo menos no final de cada exercício, e a alteração é tratada como mudança de estimativa contábil, de forma prospectiva. Os métodos usuais são o <strong>linear</strong> (cotas constantes), o da <strong>soma dos dígitos</strong> (cotas decrescentes) e o das <strong>unidades produzidas</strong>. Exemplo: custo de 170.000, valor residual de 20.000 e vida útil de 5 anos. Pelo linear, a cota anual é (170.000 − 20.000) ÷ 5 = 30.000. Pela soma dos dígitos, a soma é 1 + 2 + 3 + 4 + 5 = 15; no 1º ano a cota é 5/15 de 150.000 = 50.000 e no 2º ano, 4/15 de 150.000 = 40.000. Terrenos não são depreciados, porque têm vida útil ilimitada, salvo pedreiras e terrenos usados como aterro.",
+   "esquema": {
+    "rotulo": "qual redução se aplica a cada ativo",
+    "html": "<table><thead><tr><th>Redução</th><th>Aplica-se a</th><th>Exemplos</th></tr></thead><tbody><tr><td><strong>Depreciação</strong></td><td>bens tangíveis com vida útil limitada</td><td>veículos, computadores, edifícios, estradas</td></tr><tr><td><strong>Amortização</strong></td><td>intangíveis de vida útil definida e direitos de duração limitada</td><td>licença de software por 4 anos; benfeitoria em imóvel de terceiro</td></tr><tr><td><strong>Exaustão</strong></td><td>recursos naturais esgotáveis</td><td>jazida mineral, floresta destinada a corte</td></tr><tr><td><strong>Nenhuma</strong></td><td>terrenos; bens de natureza cultural; intangível de vida útil indefinida; bens ainda não disponíveis para uso</td><td>lote urbano; obra de arte; obra em andamento</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "TANGÍVEL DEPRECIA, DIREITO AMORTIZA, NATUREZA EXAURE",
+     "texto": "Desgaste de bem físico é depreciação; prazo de direito ou intangível é amortização; esgotamento de recurso natural é exaustão."
+    },
+    {
+     "sigla": "BASE É CUSTO MENOS RESIDUAL",
+     "texto": "Sempre tire o valor residual antes de dividir pela vida útil ou aplicar a fração da soma dos dígitos."
+    },
+    {
+     "sigla": "OCIOSO TAMBÉM DEPRECIA",
+     "texto": "A depreciação só para quando o ativo é baixado ou está totalmente depreciado; ficar parado não suspende, salvo no método das unidades produzidas."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A depreciação de bens móveis de uma secretaria estadual deve ser empenhada como despesa orçamentária corrente, pois reduz o patrimônio do ente.",
+    "gabarito": "E",
+    "explicacao": "A depreciação é VPD independente da execução orçamentária. Reduz o patrimônio líquido, mas não há saída de recursos nem empenho: a despesa orçamentária ocorreu na aquisição do bem."
+   },
+   "aprofundamento": "<p><strong>Bens que não se depreciam (MCASP).</strong> Não estão sujeitos à depreciação os bens móveis de natureza cultural, como obras de arte, antiguidades, documentos e bens de interesse histórico integrados em coleções; os bens de uso comum de vida útil indeterminada; os animais destinados à exposição e à preservação; e os terrenos rurais e urbanos.</p><p><strong>Edifício e terreno.</strong> Mesmo comprados juntos, terreno e edifício são ativos separados: o edifício deprecia e o terreno não. Um aumento no valor do terreno não altera a vida útil do edifício.</p><p><strong>Componentes.</strong> Cada componente de um item com custo significativo em relação ao total é depreciado separadamente, como as turbinas de uma aeronave.</p><p><strong>Exaustão de floresta.</strong> Quando o recurso natural é explorado, a cota de exaustão segue a proporção do recurso extraído no período em relação à possança total estimada. Exemplo: jazida de custo 900.000 com 300.000 toneladas estimadas; extraídas 60.000 toneladas no ano, a cota é 60.000 ÷ 300.000 = 20% de 900.000 = 180.000.</p><p><strong>Mudança de estimativa.</strong> Se, depois de dois anos de depreciação linear, a vida útil é revista, o valor contábil restante (menos o novo valor residual) é distribuído pela vida útil remanescente; os anos anteriores não são refeitos.</p><p><strong>Bem usado.</strong> A vida útil de um bem adquirido usado é estimada a partir do seu estado na data da aquisição, e não pela tabela de um bem novo.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "ativo-imobilizado-setor-publico",
+    "ativo-intangivel-setor-publico",
+    "reavaliacao-e-reducao-ao-valor-recuperavel"
+   ]
+  },
+  {
+   "slug": "provisoes-e-passivos-contingentes",
+   "titulo": "Provisões, passivos contingentes e ativos contingentes",
+   "grupo": "Mensuração de passivos",
+   "base": "NBC TSP 03; MCASP; LRF, art. 4º, § 3º",
+   "tax": [
+    "contabilidade-publica.provisoes",
+    "contabilidade-publica.passivos-contingentes"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "provisão",
+    "passivo contingente",
+    "ativo contingente",
+    "anexo de riscos fiscais"
+   ],
+   "palavras": [
+    "nbc tsp 03",
+    "obrigação presente",
+    "evento passado",
+    "provável",
+    "possível",
+    "remota",
+    "melhor estimativa",
+    "valor presente",
+    "contrato oneroso",
+    "perdas operacionais futuras",
+    "notas explicativas",
+    "contas de controle",
+    "riscos fiscais",
+    "provisão matemática"
+   ],
+   "resumo": "<strong>Provisão</strong> é um passivo de prazo ou de valor incerto. Ela é reconhecida quando, cumulativamente, (a) a entidade tem uma obrigação presente, formalizada ou não formalizada, como resultado de evento passado; (b) é provável que seja necessária uma saída de recursos que incorporem benefícios econômicos ou potencial de serviços para extinguir a obrigação; e (c) pode ser feita estimativa confiável do valor. Provável significa mais provável que sim do que não. O valor reconhecido é a melhor estimativa do desembolso exigido para extinguir a obrigação na data das demonstrações, trazido a valor presente quando o efeito do tempo for relevante. A provisão é revista em cada data de demonstrações e só pode ser usada para os desembolsos para os quais foi constituída. No setor público, são exemplos as provisões para riscos trabalhistas, fiscais e cíveis, as de repartição de créditos tributários e as provisões matemáticas previdenciárias. O <strong>passivo contingente</strong> é (a) uma obrigação possível, cuja existência será confirmada apenas por eventos futuros incertos fora do controle da entidade, ou (b) uma obrigação presente que não se reconhece porque a saída de recursos não é provável ou porque o valor não pode ser mensurado com confiabilidade. O passivo contingente não é reconhecido no balanço: é divulgado em notas explicativas, salvo se for remota a possibilidade de saída de recursos, e controlado em contas de controle. O <strong>ativo contingente</strong> também não é reconhecido; é divulgado quando a entrada de recursos for provável. A LRF manda a lei de diretrizes orçamentárias conter o Anexo de Riscos Fiscais, onde serão avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas (art. 4º, § 3º).",
+   "esquema": {
+    "rotulo": "probabilidade de saída de recursos e tratamento",
+    "html": "<table><thead><tr><th>Situação</th><th>Saída de recursos</th><th>Tratamento</th></tr></thead><tbody><tr><td>Obrigação presente, estimativa confiável</td><td>provável</td><td><strong>provisão</strong> reconhecida (VPD) e divulgada</td></tr><tr><td>Obrigação presente sem estimativa confiável (caso raro)</td><td>provável</td><td>passivo contingente: só divulgação</td></tr><tr><td>Obrigação possível ou presente</td><td>possível (não provável)</td><td><strong>passivo contingente</strong>: notas explicativas e contas de controle</td></tr><tr><td>Obrigação possível ou presente</td><td>remota</td><td>nada a reconhecer nem divulgar</td></tr><tr><td>Direito possível</td><td>entrada provável</td><td><strong>ativo contingente</strong>: só divulgação</td></tr><tr><td>Direito</td><td>entrada praticamente certa</td><td>deixa de ser contingente: reconhece-se o ativo</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "PROVÁVEL RECONHECE, POSSÍVEL DIVULGA, REMOTA IGNORA",
+     "texto": "A escada da saída de recursos decide: provável e mensurável vira provisão; possível vira nota explicativa; remota não aparece."
+    },
+    {
+     "sigla": "PERDA FUTURA NÃO É PROVISÃO",
+     "texto": "Sem evento passado não há obrigação presente. Perdas operacionais futuras não geram provisão; contrato oneroso gera."
+    },
+    {
+     "sigla": "ATIVO CONTINGENTE NUNCA NO BALANÇO",
+     "texto": "O ativo contingente só aparece em nota, e só quando a entrada é provável. Se a entrada ficar praticamente certa, já não é contingente."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O passivo contingente cuja saída de recursos seja considerada possível deve ser reconhecido no balanço patrimonial pelo valor da melhor estimativa, em contrapartida de VPD.",
+    "gabarito": "E",
+    "explicacao": "Passivo contingente não se reconhece no balanço. Quando a saída é possível, ele é divulgado em notas explicativas e registrado em contas de controle. Só a saída provável, com estimativa confiável, leva a reconhecer provisão."
+   },
+   "aprofundamento": "<p><strong>Provisão × outros passivos.</strong> A provisão difere de fornecedores e de obrigações apropriadas por competência porque há incerteza sobre o prazo ou o valor do desembolso. Nas contas a pagar, prazo e valor são conhecidos.</p><p><strong>Provisão × ajuste para perdas.</strong> O ajuste para perdas de créditos e a depreciação acumulada reduzem o valor de ativos; não são provisões, que são passivos.</p><p><strong>Contrato oneroso.</strong> Se a entidade tem um contrato em que os custos inevitáveis de cumprir a obrigação superam os benefícios esperados, a obrigação presente desse contrato é reconhecida como provisão.</p><p><strong>Reestruturação.</strong> Só há obrigação não formalizada de reestruturar quando a entidade tem um plano formal detalhado e criou nos afetados a expectativa válida de que o executará, começando a implantá-lo ou anunciando suas principais características.</p><p><strong>Reembolso.</strong> Se parte do desembolso será reembolsada por terceiro (uma seguradora, por exemplo), o reembolso só é reconhecido quando for praticamente certo, como ativo separado, e o valor não pode superar o da provisão.</p><p><strong>Reavaliação contínua.</strong> Um passivo contingente deve ser reavaliado periodicamente: se a saída de recursos passar a ser provável, reconhece-se a provisão no período em que a mudança de probabilidade ocorrer.</p><p><strong>Anexo de Riscos Fiscais.</strong> A LRF manda a LDO avaliar os passivos contingentes e outros riscos capazes de afetar as contas públicas, informando as providências a serem tomadas caso se concretizem. São exemplos as demandas judiciais contra o ente e as garantias concedidas.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "ativo-e-passivo-no-setor-publico",
+    "tributos-e-contribuicoes-na-contabilidade-publica"
+   ]
+  },
+  {
+   "slug": "tributos-e-contribuicoes-na-contabilidade-publica",
+   "titulo": "Tratamento contábil aplicável aos impostos e contribuições",
+   "grupo": "Mensuração de passivos",
+   "base": "MCASP; NBC TSP 01; Lei 4.320/1964, art. 39; CF, arts. 157 e 158",
+   "tax": [
+    "contabilidade-publica.impostos-contribuicoes"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "crédito tributário a receber",
+    "receita tributária",
+    "retenção na fonte",
+    "contribuição patronal",
+    "ajuste para perdas"
+   ],
+   "palavras": [
+    "fato gerador",
+    "lançamento",
+    "regime de competência",
+    "vpa tributária",
+    "dívida ativa",
+    "repartição de receitas",
+    "irrf",
+    "imposto de renda retido",
+    "consignações",
+    "inss retido",
+    "pasep",
+    "tributo recuperável",
+    "receita sem contraprestação"
+   ],
+   "resumo": "O ente público aparece nas relações tributárias de duas formas, e a contabilidade trata cada uma de um jeito. Como <strong>sujeito ativo</strong>, o ente reconhece a receita tributária pelo regime de competência: no fato gerador, quando o crédito puder ser mensurado com confiabilidade, registra-se o crédito tributário a receber no ativo em contrapartida de VPA tributária. A arrecadação posterior é a receita orçamentária, pois os créditos da Fazenda Pública serão escriturados como receita do exercício em que forem arrecadados (art. 39 da Lei 4.320/1964), e no patrimônio apenas troca o crédito por caixa. O crédito vencido e não pago é inscrito em dívida ativa depois de apurada a sua liquidez e certeza, e a entidade constitui ajuste para perdas sobre a parte de recebimento improvável. A parcela do tributo que pertence a outro ente pela repartição constitucional é tratada como dedução da receita de quem arrecada e como transferência a receber de quem recebe. Como <strong>contribuinte ou responsável</strong>, o ente registra os tributos que incidem sobre ele, como a contribuição patronal previdenciária e a contribuição para o PASEP, como VPD por competência e passivo até o pagamento. As retenções na fonte feitas sobre pagamentos a servidores e fornecedores, como a contribuição previdenciária retida e o ISS retido, não são VPD do ente: o valor retido é passivo (consignação) até o repasse ao credor. Exceção relevante: o imposto de renda retido na fonte sobre rendimentos pagos pelo próprio estado ou município pertence a esse ente (arts. 157, I, e 158, I, da Constituição) e, por isso, é receita orçamentária dele, e não valor a repassar à União. Por fim, tributos recuperáveis pagos na compra de bens não integram o custo do ativo; os não recuperáveis integram.",
+   "esquema": {
+    "rotulo": "o ente como credor e como devedor de tributos",
+    "html": "<table><thead><tr><th>Situação</th><th>Registro patrimonial</th><th>Registro orçamentário</th></tr></thead><tbody><tr><td>Fato gerador de tributo do próprio ente</td><td>D crédito tributário a receber / C VPA</td><td>nenhum até a arrecadação</td></tr><tr><td>Arrecadação desse tributo</td><td>D caixa / C crédito tributário a receber</td><td>receita orçamentária realizada</td></tr><tr><td>Crédito de recebimento improvável</td><td>D VPD / C ajuste para perdas (redutora do ativo)</td><td>nenhum</td></tr><tr><td>Contribuição patronal e PASEP do ente</td><td>D VPD / C obrigação a pagar</td><td>despesa orçamentária</td></tr><tr><td>INSS ou ISS retido de fornecedor</td><td>passivo (consignação) até o repasse</td><td>ingresso e dispêndio extraorçamentários</td></tr><tr><td>IRRF sobre a folha estadual ou municipal</td><td>o valor retido é VPA tributária do próprio ente</td><td>receita orçamentária do próprio ente</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "VPA NO FATO GERADOR, RECEITA NA ARRECADAÇÃO",
+     "texto": "No tributo do próprio ente, o patrimônio reconhece a VPA no fato gerador; o orçamento só registra a receita quando o dinheiro entra."
+    },
+    {
+     "sigla": "RETIDO DE TERCEIRO É PASSIVO",
+     "texto": "O que o ente desconta para repassar a outro credor não é despesa dele: fica no passivo até o repasse."
+    },
+    {
+     "sigla": "IR DA PRÓPRIA FOLHA FICA EM CASA",
+     "texto": "O imposto de renda retido por estados e municípios sobre o que eles pagam pertence a eles e é receita deles."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O imposto de renda retido na fonte por um estado sobre a remuneração de seus servidores deve ser registrado como consignação a repassar à União, por se tratar de tributo federal.",
+    "gabarito": "E",
+    "explicacao": "Pelo art. 157, I, da Constituição, pertence aos estados o produto da arrecadação do imposto de renda incidente na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. O valor retido é receita orçamentária do próprio estado, e não consignação a repassar."
+   },
+   "aprofundamento": "<p><strong>Receita sem contraprestação.</strong> Os tributos são o exemplo central de receita de transação sem contraprestação: o ente recebe recursos sem dar diretamente valor aproximadamente igual em troca. O ativo é reconhecido quando o ente obtém o controle do recurso, e no tributo isso ocorre com o fato gerador, quando o valor é mensurável com confiabilidade.</p><p><strong>Tributos lançados por homologação.</strong> No ICMS, o contribuinte apura e paga antes de qualquer exame do fisco; quando o fisco não dispõe de informação confiável sobre o fato gerador antes da declaração ou do pagamento, a VPA pode acabar reconhecida só nesse momento, o que não afasta a competência como critério. Nos tributos lançados de ofício, como o IPVA e o IPTU, o crédito é conhecido e reconhecido no lançamento.</p><p><strong>Dívida ativa.</strong> Os créditos exigíveis pelo transcurso do prazo para pagamento serão inscritos como Dívida Ativa, em registro próprio, após apurada a sua liquidez e certeza (art. 39, § 1º, da Lei 4.320/1964). A inscrição é fato permutativo: transfere o crédito de uma conta de ativo para outra, sem nova VPA.</p><p><strong>Renúncia e deduções.</strong> Restituições, incentivos fiscais concedidos na arrecadação e a parcela de outros entes são registrados como dedução da receita orçamentária, e não como despesa.</p><p><strong>Tributo recuperável.</strong> Quando a entidade pode compensar o tributo pago na compra (por exemplo, em serviço industrial sujeito à não cumulatividade), o valor vai a um ativo de tributo a recuperar e não ao custo do bem.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "realizacao-e-resultado-patrimonial",
+    "provisoes-e-passivos-contingentes"
+   ]
+  },
+  {
+   "slug": "sistema-de-custos-aspectos-legais",
+   "titulo": "Sistema de custos no setor público: aspectos legais",
+   "grupo": "Sistema de custos",
+   "base": "Lei 4.320/1964, arts. 85 e 99; Decreto-Lei 200/1967, art. 79; LRF, arts. 4º, I, e, e 50, § 3º; Lei 10.180/2001, art. 15, V; NBC TSP 34",
+   "tax": [
+    "contabilidade-publica.custos-aspectos-legais"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "sistema de custos",
+    "custos no setor público",
+    "NBC TSP 34",
+    "objeto de custo"
+   ],
+   "palavras": [
+    "lei 4.320",
+    "serviços industriais",
+    "decreto-lei 200",
+    "lrf",
+    "lei de diretrizes orçamentárias",
+    "controle de custos",
+    "lei 10.180",
+    "sistema de contabilidade federal",
+    "nbc t 16.11",
+    "custeio direto",
+    "custeio por absorção",
+    "abc",
+    "custeio pleno"
+   ],
+   "resumo": "A <strong>Lei 4.320/1964</strong> manda organizar os serviços de contabilidade de forma a permitir a determinação dos custos dos serviços industriais (art. 85) e determina que os serviços públicos industriais, ainda que não organizados como empresa pública ou autárquica, mantenham contabilidade especial para determinação dos custos, ingressos e resultados (art. 99). O <strong>Decreto-Lei 200/1967</strong> ampliou a exigência: a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão (art. 79). A <strong>Lei de Responsabilidade Fiscal</strong> tornou o tema geral para todos os entes: a lei de diretrizes orçamentárias disporá sobre normas relativas ao controle de custos e à avaliação dos resultados dos programas financiados com recursos dos orçamentos (art. 4º, I, e), e a Administração Pública manterá sistema de custos que permita a avaliação e o acompanhamento da gestão orçamentária, financeira e patrimonial (art. 50, § 3º). Na União, a <strong>Lei 10.180/2001</strong> inclui entre as finalidades do Sistema de Contabilidade Federal evidenciar os custos dos programas e das unidades da Administração Pública Federal (art. 15, V). No plano normativo contábil, a <strong>NBC TSP 34</strong> (Custos no Setor Público) aplica-se às entidades do setor público a partir de 1º de janeiro de 2024. Ela define custo como o consumo ou a utilização de recursos para a geração de bens ou serviços, e objeto de custo como a unidade para a qual se deseja identificar, mensurar e avaliar os custos. Cada entidade deve identificar, acumular e relatar os custos de seus objetos em base regular. A escolha do método de custeio cabe à administração da entidade e, uma vez adotado, o método deve ser usado de forma consistente; para entidades em estágio inicial, a norma recomenda o custeio direto.",
+   "esquema": {
+    "rotulo": "linha do tempo da base legal dos custos",
+    "html": "<table><thead><tr><th>Norma</th><th>O que exige</th><th>Alcance</th></tr></thead><tbody><tr><td><strong>Lei 4.320/1964</strong>, arts. 85 e 99</td><td>custos dos serviços industriais; contabilidade especial dos serviços públicos industriais</td><td>só serviços industriais</td></tr><tr><td><strong>Decreto-Lei 200/1967</strong>, art. 79</td><td>apurar os custos dos serviços para evidenciar os resultados da gestão</td><td>Administração federal</td></tr><tr><td><strong>LRF</strong>, art. 4º, I, e</td><td>LDO dispõe sobre controle de custos e avaliação de resultados dos programas</td><td>todos os entes</td></tr><tr><td><strong>LRF</strong>, art. 50, § 3º</td><td>Administração manterá sistema de custos</td><td>todos os entes</td></tr><tr><td><strong>Lei 10.180/2001</strong>, art. 15, V</td><td>Sistema de Contabilidade Federal evidencia custos dos programas e unidades</td><td>União</td></tr><tr><td><strong>NBC TSP 34</strong></td><td>diretrizes do sistema de custos; vigência a partir de 1º/1/2024; revogou a NBC T 16.11</td><td>entidades do setor público</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "1964 SÓ PENSOU NA INDÚSTRIA",
+     "texto": "A Lei 4.320/1964 fala em custos dos serviços industriais. A exigência geral de sistema de custos veio com a LRF."
+    },
+    {
+     "sigla": "LDO TRAZ AS NORMAS DE CUSTOS",
+     "texto": "Pela LRF, é a lei de diretrizes orçamentárias que dispõe sobre o controle de custos e a avaliação dos resultados dos programas, e não a lei orçamentária anual."
+    },
+    {
+     "sigla": "COMEÇOU, COMECE PELO DIRETO",
+     "texto": "A NBC TSP 34 deixa o método à escolha da administração, recomenda o custeio direto no estágio inicial e exige consistência depois de adotado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A obrigação de a Administração Pública manter sistema de custos que permita a avaliação e o acompanhamento da gestão orçamentária, financeira e patrimonial foi instituída pela Lei 4.320/1964.",
+    "gabarito": "E",
+    "explicacao": "A Lei 4.320/1964 trata dos custos dos serviços industriais (arts. 85 e 99). A exigência de a Administração manter sistema de custos para avaliar e acompanhar a gestão orçamentária, financeira e patrimonial está no art. 50, § 3º, da LRF."
+   },
+   "aprofundamento": "<p><strong>Quem escolhe o método.</strong> A NBC TSP 34 afirma que a administração da entidade ou de suas unidades está na melhor posição para selecionar o método de custeio. A norma não impõe um método único.</p><p><strong>Consistência.</strong> Uma vez adotado, o método de custeio deve ser usado de forma consistente, para permitir a comparação ao longo do tempo.</p><p><strong>Métodos.</strong> Para entidades em estágio inicial, a recomendação é o custeio direto. Quando os custos indiretos forem relevantes, recomenda-se o custeio por absorção, parcial ou integral (custeio pleno). O custeio baseado em atividades é sugerido como técnica para rastrear custos indiretos, sem ser obrigatório.</p><p><strong>Sistema de custos é mais que software.</strong> Para a NBC TSP 34, o sistema de custos combina o modelo de gestão de custos, o sistema de informação de custos e a definição de papéis e responsabilidades na organização, para gerar informação de custos como instrumento de governança pública.</p><p><strong>Contabilidade especial dos serviços industriais.</strong> O art. 99 da Lei 4.320/1964 vale mesmo para o serviço industrial que não foi organizado como empresa pública ou autarquia, e a contabilidade especial convive com a escrituração patrimonial e financeira comum.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "casp-conceito-objeto-campo-de-aplicacao"
+   ]
+  },
+  {
+   "slug": "custos-no-setor-publico-ambiente-e-caracteristicas",
+   "titulo": "Sistema de custos: ambiente e características da informação de custos",
+   "grupo": "Sistema de custos",
+   "base": "NBC TSP 34 (Custos no Setor Público), aplicável desde 1º/1/2024",
+   "tax": [
+    "contabilidade-publica.custos-ambiente-informacao",
+    "contabilidade-publica.custos-caracteristicas-informacao"
+   ],
+   "conceitos": [
+    "informação de custos",
+    "sistema de custos",
+    "custos no setor público"
+   ],
+   "palavras": [
+    "nbc tsp 34",
+    "nbc t 16.11",
+    "competência",
+    "governança pública",
+    "granularidade",
+    "adaptabilidade",
+    "relevância",
+    "tempestividade",
+    "centro de responsabilidade"
+   ],
+   "resumo": "A <strong>NBC TSP 34</strong> (Custos no Setor Público) se aplica às entidades do setor público a partir de 1º de janeiro de 2024 e revogou a antiga NBC T 16.11. Ela trata o sistema de custos como instrumento de governança pública, com foco no uso gerencial da informação e com apoio da alta administração. O <strong>ambiente</strong> em que a informação de custos nasce é singular: o governo atua com universalidade e obrigação de fornecimento, muitas vezes sem contraprestação direta, e seus serviços são financiados pelo orçamento, não pelo preço. Por isso o sistema procura evidenciar quanto de recurso foi consumido para cumprir uma finalidade, associando o valor a uma variável física, como o custo por aluno, por cidadão atendido ou por tonelada de lixo recolhido. O custo do período segue o regime de competência, independentemente da execução orçamentária: o que determina o custo é o momento do consumo do recurso, e não o empenho ou o pagamento. Recursos consumidos sem desembolso, como bens recebidos em doação e servidores ou prédios cedidos, também são atribuídos aos objetos de custo. As perdas, como indenizações e efeitos de catástrofes, não são custo. Quanto às <strong>características</strong>, a NBC TSP 34 adota as características qualitativas da Estrutura Conceitual: relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às restrições de materialidade, custo-benefício e equilíbrio entre as características.",
+   "esquema": {
+    "rotulo": "o que entra e o que não entra no custo do período",
+    "html": "<table><thead><tr><th>Situação</th><th>Tratamento no sistema de custos</th><th>Por quê</th></tr></thead><tbody><tr><td>Despesa empenhada e liquidada no mês com material consumido no mês</td><td>É custo do mês</td><td>houve consumo do recurso no período</td></tr><tr><td>Material comprado para estoque e ainda não consumido</td><td>Não é custo ainda; vira custo quando for consumido</td><td>o custo segue o consumo, não a compra</td></tr><tr><td>13º salário pago em dezembro</td><td>Apropriado mês a mês ao custo</td><td>competência, independentemente da execução orçamentária</td></tr><tr><td>Depreciação de equipamentos</td><td>É custo, embora não gere despesa orçamentária</td><td>fato não orçamentário que consome o potencial de serviço</td></tr><tr><td>Servidor cedido ou bem recebido em doação</td><td>Deve ser atribuído ao objeto de custo</td><td>recurso consumido mesmo sem desembolso</td></tr><tr><td>Indenização, catástrofe ou perda anormal</td><td>Não é custo; é perda</td><td>consumo anormal que não gera bem ou serviço</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "CUSTO SEGUE O CONSUMO",
+     "texto": "Empenho e pagamento são momentos orçamentários e financeiros. O custo nasce quando o recurso é consumido, por competência."
+    },
+    {
+     "sigla": "SEM DESEMBOLSO TAMBÉM É CUSTO",
+     "texto": "Doação recebida, servidor cedido e prédio cedido consomem recursos e entram no custo do objeto, mesmo sem saída de caixa."
+    },
+    {
+     "sigla": "PERDA NÃO É CUSTO",
+     "texto": "Indenização e catástrofe não ajudam a produzir o serviço público: ficam fora do custo do objeto."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No setor público, o custo de um serviço em determinado mês corresponde ao valor das despesas orçamentárias empenhadas no mês para esse serviço.",
+    "gabarito": "E",
+    "explicacao": "O custo do período é apurado pelo regime de competência, independentemente da execução orçamentária. A despesa empenhada precisa de ajustes: entra a depreciação e o consumo de estoque, o 13º é apropriado mês a mês, e sai a compra de material que ainda não foi consumido."
+   },
+   "aprofundamento": "<p><strong>Responsabilidades.</strong> A geração da informação de custos cabe ao profissional da contabilidade, mas a integridade dos dados de origem é responsabilidade dos gestores das transações. A alta administração apoia a geração das informações, define os centros de responsabilidade e cobra dos gestores a qualidade dos dados.</p><p><strong>Integração.</strong> O sistema de custos capta dados de outros sistemas e a norma recomenda integrar as bases de folha de pagamento e de gestão patrimonial, porque pessoal e uso de bens costumam ser os maiores custos do serviço público.</p><p><strong>Materialidade aplicada.</strong> Por custo-benefício, a norma admite que bens de baixo valor sejam apropriados ao custo de imediato, em vez de depreciados ao longo da vida útil.</p><p><strong>Características da norma revogada.</strong> A antiga NBC T 16.11 listava como atributos da informação de custos a relevância, a utilidade, a oportunidade, o valor social, a fidedignidade, a especificidade, a comparabilidade, a adaptabilidade e a granularidade. Granularidade é a capacidade de produzir informação em diferentes níveis de detalhe sem perder a comparabilidade. Adaptabilidade é permitir o detalhamento conforme as necessidades de cada unidade e usuário. Especificidade é a informação elaborada conforme a finalidade pretendida pelo usuário. Na NBC TSP 34, em vigor, a lista passa a ser a das características qualitativas da Estrutura Conceitual.</p><p><strong>Comparabilidade.</strong> A informação de custos deve ser registrada de forma consistente ao longo do tempo; mudança de critério ou de método deve ser divulgada em nota explicativa, para que o usuário saiba que as séries não são diretamente comparáveis.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "terminologia-de-custos-no-setor-publico",
+    "regime-contabil-orcamentario-e-patrimonial"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "terminologia-de-custos-no-setor-publico",
+   "titulo": "Terminologia de custos: gasto, custo, perda, objetos e métodos de custeio",
+   "grupo": "Sistema de custos",
+   "base": "NBC TSP 34, item de definições",
+   "tax": [
+    "contabilidade-publica.custos-terminologia"
+   ],
+   "conceitos": [
+    "terminologia de custos",
+    "método de custeio",
+    "objeto de custo"
+   ],
+   "palavras": [
+    "gasto",
+    "desembolso",
+    "investimento",
+    "perda",
+    "custo direto",
+    "custo indireto",
+    "custo fixo",
+    "custo variável",
+    "custeio por absorção",
+    "custeio pleno",
+    "custeio variável",
+    "custeio direto",
+    "abc",
+    "direcionador de custo",
+    "sistema de acumulação"
+   ],
+   "resumo": "<strong>Gasto</strong> é o dispêndio de um ativo ou a criação de um passivo, relacionado ou não à obtenção de bem ou serviço. <strong>Desembolso</strong> é o pagamento decorrente do gasto. <strong>Investimento</strong> é o gasto reconhecido no ativo pelos benefícios futuros esperados. <strong>Custo</strong> é o consumo ou a utilização de recursos para gerar bens ou serviços. <strong>Perda</strong> é o consumo anormal e imprevisível de recursos, que não contribui para gerar bens e serviços. Custo direto é o que se identifica e se apropria diretamente ao objeto de custo; custo indireto não se identifica diretamente e é alocado por direcionadores ou, em última instância, por bases de rateio. Custo fixo não varia proporcionalmente ao volume de atividades dentro de um intervalo relevante; custo variável varia proporcionalmente ao volume. Custo controlável é aquele cujo consumo o gestor consegue influenciar. Custos finalísticos correspondem às atividades ligadas à missão institucional; custos de suporte dão apoio a essas atividades. O <strong>objeto de custo</strong> é a unidade cujo custo se quer identificar, mensurar e avaliar: é final quando é bem ou serviço entregue à sociedade e intermediário quando não é entrega à sociedade, mas é útil para a gestão. O <strong>sistema de acumulação</strong> pode ser por ordem, com especificação predeterminada e duração limitada, próprio de obras e projetos, ou contínuo, para demandas de caráter continuado. Os principais <strong>métodos de custeio</strong> são o direto, o variável e o custeio por absorção, parcial ou integral; o custeio por absorção integral também é chamado de custeio pleno.",
+   "esquema": {
+    "rotulo": "métodos de custeio lado a lado",
+    "html": "<table><thead><tr><th>Método</th><th>O que atribui ao objeto de custo</th><th>Uso indicado</th></tr></thead><tbody><tr><td><strong>Direto</strong></td><td>os custos que se identificam diretamente com o objeto, sem rateio</td><td>estágios iniciais de implantação do sistema</td></tr><tr><td><strong>Variável</strong></td><td>apenas os custos variáveis; os fixos vão para o resultado do período</td><td>análise de decisões de curto prazo</td></tr><tr><td><strong>Absorção</strong> (parcial ou integral)</td><td>custos diretos e indiretos, estes por direcionadores ou rateio</td><td>quando a atribuição dos custos indiretos for relevante</td></tr><tr><td><strong>Pleno</strong> (absorção integral)</td><td>todos os custos e despesas, inclusive os de suporte e administração</td><td>comparar objetos de custo finais entre entidades</td></tr><tr><td><strong>ABC</strong></td><td>custos rastreados pelas atividades, com direcionadores</td><td>técnica de rastreamento incentivada, não obrigatória</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "GASTO É GÊNERO",
+     "texto": "Todo custo, investimento, despesa ou perda começa como gasto. O desembolso é só o pagamento, que pode vir antes, junto ou depois do gasto."
+    },
+    {
+     "sigla": "PERDA É ANORMAL E INVOLUNTÁRIA",
+     "texto": "Consumo normal de material é custo. Material destruído em enchente é perda e não vai para o objeto de custo."
+    },
+    {
+     "sigla": "FIXO DENTRO DO INTERVALO",
+     "texto": "Custo fixo não muda com o volume só dentro do intervalo relevante; fora dele, a estrutura de custos muda."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No setor público, a NBC TSP 34 impõe o custeio baseado em atividades como método único para todas as entidades.",
+    "gabarito": "E",
+    "explicacao": "A norma não impõe método único: a administração escolhe o que melhor se ajusta ao seu contexto. Recomenda o custeio direto nos estágios iniciais, o custeio por absorção quando a atribuição dos custos indiretos for relevante e a absorção integral para comparar objetos finais entre entidades. O custeio baseado em atividades é incentivado como técnica de rastreamento, sem ser obrigatório."
+   },
+   "aprofundamento": "<p><strong>Gasto, custo e despesa na prática.</strong> A compra de material para estoque é gasto e investimento (vai para o ativo); quando o material é consumido na prestação do serviço, vira custo. A compra de um veículo é investimento; a depreciação do veículo usado na fiscalização é custo da fiscalização.</p><p><strong>Direcionador e rateio.</strong> Direcionador de custo é o indicador que expressa uma relação de causa e efeito entre o consumo do recurso e o objeto (número de servidores, área ocupada, horas trabalhadas). O rateio por base arbitrária é a última opção, quando não há direcionador que explique o consumo.</p><p><strong>Centro de responsabilidade.</strong> É a unidade do modelo de gerenciamento que conduz atividades e cujo gestor presta contas à alta administração pelos recursos consumidos. É ele que dá sentido à classificação em custo controlável e não controlável.</p><p><strong>Custo de oportunidade.</strong> É o valor da melhor alternativa abandonada pela escolha feita, conceito que a antiga NBC T 16.11 usava para medir a receita econômica do serviço público (quantidade de serviços multiplicada pelo custo de referência).</p><p><strong>Custeio variável.</strong> Os custos fixos não são distribuídos aos objetos; vão inteiros para o resultado do período. Uma assertiva que diga que o custeio variável distribui os custos fixos por rateio descreve o custeio por absorção.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "custos-no-setor-publico-ambiente-e-caracteristicas"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "plano-de-contas-aplicado-ao-setor-publico-pcasp",
+   "titulo": "Plano de Contas Aplicado ao Setor Público (PCASP)",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "MCASP, Parte IV (PCASP); LRF, art. 50, § 2º, e art. 51",
+   "tax": [
+    "contabilidade-publica.pcasp"
+   ],
+   "conceitos": [
+    "plano de contas aplicado ao setor público",
+    "pcasp"
+   ],
+   "palavras": [
+    "classes",
+    "natureza da informação",
+    "patrimonial",
+    "orçamentária",
+    "controle",
+    "níveis",
+    "subtítulo",
+    "quinto nível",
+    "atributo f",
+    "atributo p",
+    "matriz de saldos contábeis",
+    "msc"
+   ],
+   "resumo": "O <strong>PCASP</strong> é a estrutura padronizada de contas contábeis, mantida pela Secretaria do Tesouro Nacional como órgão central de contabilidade da União, de uso obrigatório por todos os entes da Federação. Ele padroniza os registros para permitir a consolidação nacional das contas públicas, a geração de estatísticas fiscais e a elaboração das demonstrações contábeis e dos demonstrativos fiscais. As contas se organizam em <strong>oito classes</strong>, separadas pela natureza da informação: de natureza <strong>patrimonial</strong>, a classe 1 (Ativo), a 2 (Passivo e Patrimônio Líquido), a 3 (Variações Patrimoniais Diminutivas) e a 4 (Variações Patrimoniais Aumentativas); de natureza <strong>orçamentária</strong>, a classe 5 (Controles da Aprovação do Planejamento e Orçamento) e a 6 (Controles da Execução do Planejamento e Orçamento); de natureza de <strong>controle</strong>, a classe 7 (Controles Devedores) e a 8 (Controles Credores). Os lançamentos seguem o método das partidas dobradas dentro de cada natureza: um débito numa conta patrimonial tem a contrapartida em outra conta patrimonial, e o mesmo vale para as contas orçamentárias e de controle. A conta tem até sete níveis de desdobramento: classe, grupo, subgrupo, título, subtítulo, item e subitem, no formato X.X.X.X.X.XX.XX. O 5º nível, o subtítulo, identifica as transações que serão excluídas na consolidação. As classes 1, 3, 5 e 7 têm, em regra, saldo devedor, e as classes 2, 4, 6 e 8, saldo credor. A classe 5 registra a previsão da receita e a fixação da despesa; a classe 6, a realização da receita e as etapas da despesa (empenho, liquidação e pagamento).",
+   "esquema": {
+    "rotulo": "as oito classes do PCASP",
+    "html": "<table><thead><tr><th>Natureza</th><th>Classe devedora</th><th>Classe credora</th><th>O que registra</th></tr></thead><tbody><tr><td><strong>Patrimonial</strong></td><td>1 Ativo</td><td>2 Passivo e Patrimônio Líquido</td><td>bens, direitos, obrigações e saldo patrimonial</td></tr><tr><td><strong>Patrimonial</strong> (resultado)</td><td>3 Variações Patrimoniais Diminutivas</td><td>4 Variações Patrimoniais Aumentativas</td><td>fatos que diminuem ou aumentam o patrimônio líquido</td></tr><tr><td><strong>Orçamentária</strong></td><td>5 Controles da Aprovação do Planejamento e Orçamento</td><td>6 Controles da Execução do Planejamento e Orçamento</td><td>previsão e fixação (5); realização da receita, empenho, liquidação e pagamento (6)</td></tr><tr><td><strong>Controle</strong></td><td>7 Controles Devedores</td><td>8 Controles Credores</td><td>atos potenciais, garantias, convênios, disponibilidade por destinação de recursos</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "1 A 4 PATRIMÔNIO, 5 E 6 ORÇAMENTO, 7 E 8 CONTROLE",
+     "texto": "Duas classes de patrimônio, duas de resultado, duas de orçamento e duas de controle; ímpares devedoras, pares credoras."
+    },
+    {
+     "sigla": "PARTIDA DOBRADA NÃO CRUZA NATUREZA",
+     "texto": "Débito patrimonial tem crédito patrimonial; débito orçamentário tem crédito orçamentário. Um fato pode gerar lançamentos em várias naturezas, mas cada lançamento fecha na sua."
+    },
+    {
+     "sigla": "QUINTO NÍVEL É CONSOLIDAÇÃO",
+     "texto": "O subtítulo indica se o saldo fica ou sai nos demonstrativos consolidados."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No PCASP, o empenho da despesa é registrado em contas da classe 5, de controle da aprovação do planejamento e orçamento.",
+    "gabarito": "E",
+    "explicacao": "A classe 5 registra a aprovação: previsão da receita, fixação da despesa e o planejamento. O empenho, a liquidação e o pagamento são registrados na classe 6, Controles da Execução do Planejamento e Orçamento, junto com a realização da receita."
+   },
+   "aprofundamento": "<p><strong>Quinto nível.</strong> O subtítulo usa o código 1 para saldos que não serão excluídos na consolidação (transações com quem está fora do orçamento fiscal e da seguridade social do ente), 2 para as transações intra OFSS (entre órgãos e entidades do mesmo ente, excluídas na consolidação do ente) e 3, 4 e 5 para as transações inter OFSS com a União, com estado e com município, excluídas na consolidação nacional.</p><p><strong>Atributos da conta.</strong> Cada conta tem atributos, como a natureza do saldo (devedora, credora ou mista) e o indicador do superávit financeiro: F para ativo e passivo financeiros, P para ativo e passivo permanentes. É esse atributo que permite montar o quadro dos ativos e passivos financeiros e permanentes do Balanço Patrimonial.</p><p><strong>Um fato, várias naturezas.</strong> A arrecadação de um tributo à vista gera lançamento patrimonial (débito em caixa, crédito em VPA, se não houve reconhecimento anterior), orçamentário (receita realizada na classe 6 contra receita a realizar na classe 5) e de controle (disponibilidade por destinação de recursos nas classes 7 e 8).</p><p><strong>Detalhamento pelos entes.</strong> Os entes podem detalhar o plano abaixo do nível padronizado para atender às suas necessidades, desde que preservem a estrutura básica, sem o que a consolidação ficaria impossível.</p><p><strong>Base legal.</strong> A edição de normas gerais para consolidação das contas públicas cabe ao órgão central de contabilidade da União enquanto não implantado o conselho de gestão fiscal (LRF, art. 50, § 2º).</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "consolidacao-das-demonstracoes-contabeis",
+    "balanco-orcamentario"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "balanco-orcamentario",
+   "titulo": "Balanço Orçamentário",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "Lei 4.320/1964, arts. 35 e 102; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.balanco-orcamentario"
+   ],
+   "conceitos": [
+    "balanço orçamentário"
+   ],
+   "palavras": [
+    "previsão inicial",
+    "previsão atualizada",
+    "receitas realizadas",
+    "dotação inicial",
+    "dotação atualizada",
+    "despesas empenhadas",
+    "despesas liquidadas",
+    "despesas pagas",
+    "saldo da dotação",
+    "restos a pagar não processados",
+    "resultado orçamentário",
+    "refinanciamento"
+   ],
+   "resumo": "O <strong>Balanço Orçamentário</strong> demonstra as receitas e despesas previstas em confronto com as realizadas (Lei 4.320/1964, art. 102). No MCASP ele tem um <strong>quadro principal</strong> e dois quadros anexos: o da execução dos restos a pagar não processados e o da execução dos restos a pagar processados. No quadro principal, a receita aparece em quatro colunas: previsão inicial, previsão atualizada, receitas realizadas e saldo (realizadas menos previsão atualizada). A despesa aparece em seis: dotação inicial, dotação atualizada, despesas empenhadas, despesas liquidadas, despesas pagas e saldo da dotação (dotação atualizada menos despesas empenhadas). A previsão atualizada incorpora reestimativas da receita, e a dotação atualizada incorpora os créditos adicionais abertos no exercício. Pelo art. 35 da Lei 4.320/1964, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas: por isso o <strong>resultado orçamentário</strong> é a diferença entre as receitas realizadas e as despesas empenhadas. Quando há déficit, ele é mostrado do lado da receita, para equilibrar os totais; quando há superávit, ele aparece do lado da despesa. As operações de crédito de refinanciamento e a amortização da dívida refinanciada são detalhadas em linhas próprias. O superávit financeiro de exercícios anteriores usado para abrir créditos adicionais e os créditos reabertos não são receita do exercício: aparecem na linha de saldos de exercícios anteriores apenas para explicar por que a dotação atualizada pode superar a receita prevista.",
+   "esquema": {
+    "rotulo": "colunas do quadro principal",
+    "html": "<table><thead><tr><th>Lado</th><th>Colunas</th><th>Saldo</th></tr></thead><tbody><tr><td><strong>Receita</strong></td><td>previsão inicial; previsão atualizada; receitas realizadas</td><td>receitas realizadas menos previsão atualizada (negativo indica frustração de arrecadação)</td></tr><tr><td><strong>Despesa</strong></td><td>dotação inicial; dotação atualizada; despesas empenhadas; despesas liquidadas; despesas pagas</td><td>dotação atualizada menos despesas empenhadas (crédito disponível não utilizado)</td></tr><tr><td><strong>Resultado</strong></td><td>receitas realizadas menos despesas empenhadas</td><td>déficit mostrado do lado da receita; superávit mostrado do lado da despesa</td></tr><tr><td><strong>Quadros anexos</strong></td><td>execução dos restos a pagar não processados; execução dos restos a pagar processados</td><td>inscritos, liquidados (só nos não processados), pagos, cancelados e saldo</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "RECEITA ARRECADADA, DESPESA EMPENHADA",
+     "texto": "O resultado orçamentário do exercício confronta o que foi arrecadado com o que foi empenhado, não com o que foi pago."
+    },
+    {
+     "sigla": "SALDO DA DOTAÇÃO USA O EMPENHO",
+     "texto": "Saldo da dotação é dotação atualizada menos despesa empenhada. Liquidação e pagamento não entram nessa conta."
+    },
+    {
+     "sigla": "DÉFICIT DO LADO DA RECEITA",
+     "texto": "O número que falta para equilibrar vai para o lado mais fraco: déficit completa a receita; superávit completa a despesa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No Balanço Orçamentário, o saldo da dotação corresponde à diferença entre a dotação atualizada e as despesas pagas no exercício.",
+    "gabarito": "E",
+    "explicacao": "O saldo da dotação é a dotação atualizada menos as despesas empenhadas. É o empenho que consome o crédito orçamentário; a despesa empenhada e não paga vira restos a pagar, mas já não está disponível como dotação."
+   },
+   "aprofundamento": "<p><strong>Despesas empenhadas, liquidadas e pagas.</strong> A diferença entre as empenhadas e as liquidadas corresponde, ao fim do exercício, aos restos a pagar não processados inscritos; a diferença entre as liquidadas e as pagas corresponde aos restos a pagar processados inscritos.</p><p><strong>Exemplo de resultado.</strong> Com previsão atualizada de 1.000, receitas realizadas de 950 e despesas empenhadas de 980, o resultado orçamentário é déficit de 30 (950 menos 980). O saldo da receita é de 50 negativos (950 menos 1.000), o que indica frustração de arrecadação, não déficit.</p><p><strong>Saldos de exercícios anteriores.</strong> O superávit financeiro apurado no balanço patrimonial do exercício anterior é fonte para créditos adicionais (Lei 4.320/1964, art. 43, § 1º, I), mas não é receita orçamentária do exercício corrente. Por isso a dotação atualizada pode legitimamente superar a previsão atualizada sem indicar desequilíbrio.</p><p><strong>Quadros de restos a pagar.</strong> O quadro dos não processados mostra os valores inscritos em exercícios anteriores e em 31 de dezembro do exercício anterior, os liquidados, os pagos, os cancelados e o saldo. O dos processados não tem coluna de liquidação, porque a despesa já estava liquidada quando foi inscrita.</p><p><strong>Quadro e lei.</strong> A Lei 4.320/1964 exige o Balanço Orçamentário entre os resultados gerais do exercício (art. 101), ao lado do Balanço Financeiro, do Balanço Patrimonial e da Demonstração das Variações Patrimoniais.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "balanco-financeiro",
+    "regime-contabil-orcamentario-e-patrimonial"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "balanco-financeiro",
+   "titulo": "Balanço Financeiro",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "Lei 4.320/1964, art. 103; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.balanco-financeiro"
+   ],
+   "conceitos": [
+    "balanço financeiro"
+   ],
+   "palavras": [
+    "ingressos",
+    "dispêndios",
+    "transferências financeiras recebidas",
+    "transferências financeiras concedidas",
+    "recebimentos extraorçamentários",
+    "pagamentos extraorçamentários",
+    "inscrição de restos a pagar",
+    "saldo do exercício anterior",
+    "saldo para o exercício seguinte",
+    "resultado financeiro"
+   ],
+   "resumo": "O <strong>Balanço Financeiro</strong> demonstra a receita e a despesa orçamentárias, os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie vindos do exercício anterior e os que se transferem para o seguinte (Lei 4.320/1964, art. 103). No MCASP ele é um quadro único de <strong>ingressos</strong> e <strong>dispêndios</strong>. Os ingressos são a receita orçamentária, as transferências financeiras recebidas, os recebimentos extraorçamentários e o saldo do exercício anterior. Os dispêndios são a despesa orçamentária, as transferências financeiras concedidas, os pagamentos extraorçamentários e o saldo para o exercício seguinte. A receita e a despesa orçamentárias aparecem detalhadas por destinação de recursos, separando os ordinários dos vinculados. Como a despesa orçamentária entra pelo valor empenhado, e parte dela não foi paga, o parágrafo único do art. 103 manda computar os restos a pagar do exercício na receita extraorçamentária para compensar sua inclusão na despesa orçamentária. Por isso a inscrição de restos a pagar aparece como recebimento extraorçamentário, e o pagamento de restos a pagar de exercícios anteriores aparece como pagamento extraorçamentário. As transferências financeiras recebidas e concedidas registram os repasses entre órgãos e entidades do mesmo ente, como as cotas e repasses aos Poderes. O <strong>resultado financeiro</strong> do exercício é o saldo para o exercício seguinte menos o saldo do exercício anterior; ele mede a variação das disponibilidades e não se confunde com o superávit financeiro do Balanço Patrimonial.",
+   "esquema": {
+    "rotulo": "ingressos e dispêndios",
+    "html": "<table><thead><tr><th>Ingressos</th><th>Dispêndios</th></tr></thead><tbody><tr><td>Receita orçamentária (ordinária e vinculada)</td><td>Despesa orçamentária (ordinária e vinculada), pelo valor empenhado</td></tr><tr><td>Transferências financeiras recebidas</td><td>Transferências financeiras concedidas</td></tr><tr><td>Recebimentos extraorçamentários: inscrição de restos a pagar processados e não processados, depósitos restituíveis e valores vinculados, outros</td><td>Pagamentos extraorçamentários: pagamento de restos a pagar processados e não processados, devolução de depósitos restituíveis, outros</td></tr><tr><td>Saldo do exercício anterior (caixa e equivalentes de caixa e depósitos restituíveis)</td><td>Saldo para o exercício seguinte</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "INSCRIÇÃO DE RESTOS ENTRA COMO INGRESSO",
+     "texto": "A despesa empenhada e não paga entrou nos dispêndios; a inscrição em restos a pagar volta como recebimento extraorçamentário para anular o efeito no caixa."
+    },
+    {
+     "sigla": "RESULTADO FINANCEIRO É VARIAÇÃO DE CAIXA",
+     "texto": "Saldo final menos saldo inicial. Não confunda com superávit financeiro, que é ativo financeiro menos passivo financeiro no Balanço Patrimonial."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No Balanço Financeiro, a inscrição de restos a pagar no encerramento do exercício é registrada entre os pagamentos extraorçamentários.",
+    "gabarito": "E",
+    "explicacao": "A inscrição de restos a pagar é recebimento extraorçamentário: os restos a pagar do exercício são computados na receita extraorçamentária para compensar sua inclusão na despesa orçamentária (Lei 4.320/1964, art. 103, parágrafo único). O pagamento extraorçamentário é o pagamento, em exercício posterior, de restos a pagar já inscritos."
+   },
+   "aprofundamento": "<p><strong>Exemplo de fechamento.</strong> Saldo do exercício anterior de 100, receita orçamentária de 500, despesa orçamentária empenhada de 520, inscrição de restos a pagar de 40 e pagamento de restos a pagar de exercícios anteriores de 30. O saldo para o exercício seguinte é 100 + 500 + 40 - 520 - 30 = 90. O resultado financeiro é de 10 negativos (90 menos 100).</p><p><strong>Totais iguais.</strong> O Balanço Financeiro é o único em que o total dos ingressos é sempre igual ao total dos dispêndios, porque o saldo para o exercício seguinte é a conta de fechamento.</p><p><strong>Transferências financeiras.</strong> São movimentações de recursos entre unidades do mesmo ente, relacionadas ou não à execução do orçamento; não são receita nem despesa orçamentária. Na consolidação do ente, as transferências recebidas e concedidas se anulam.</p><p><strong>Depósitos restituíveis.</strong> Cauções e retenções em folha de valores devidos a terceiros entram como recebimentos extraorçamentários e saem como pagamentos extraorçamentários quando devolvidos ou repassados.</p><p><strong>Resultado financeiro e superávit financeiro.</strong> O resultado financeiro do Balanço Financeiro mostra quanto o caixa variou no ano. O superávit financeiro do Balanço Patrimonial (ativo financeiro menos passivo financeiro) mostra a folga para abertura de créditos adicionais. Um caixa que cresceu pode conviver com déficit financeiro, se os restos a pagar cresceram mais.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "balanco-orcamentario",
+    "demonstracao-dos-fluxos-de-caixa"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "demonstracao-das-variacoes-patrimoniais",
+   "titulo": "Demonstração das Variações Patrimoniais (DVP)",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "Lei 4.320/1964, arts. 100 e 104; LRF, art. 50, VI; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.dvp"
+   ],
+   "conceitos": [
+    "demonstração das variações patrimoniais"
+   ],
+   "palavras": [
+    "dvp",
+    "variações patrimoniais aumentativas",
+    "variações patrimoniais diminutivas",
+    "vpa",
+    "vpd",
+    "resultado patrimonial",
+    "superávit patrimonial",
+    "déficit patrimonial",
+    "alienação de ativos"
+   ],
+   "resumo": "A <strong>Demonstração das Variações Patrimoniais</strong> evidencia as alterações verificadas no patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial do exercício (Lei 4.320/1964, art. 104). Ela confronta as <strong>variações patrimoniais aumentativas</strong> (VPA, classe 4 do PCASP) com as <strong>variações patrimoniais diminutivas</strong> (VPD, classe 3), e a diferença é o <strong>resultado patrimonial</strong>: superávit quando as VPA superam as VPD, déficit no caso contrário. A DVP é a demonstração do resultado do setor público e é elaborada pelo regime de competência, por isso registra fatos que não passam pelo orçamento, como a depreciação, as provisões, a reavaliação e a doação de bens. Do mesmo modo, deixa de fora fatos orçamentários que não alteram o patrimônio líquido, como a compra de um equipamento (troca de caixa por imobilizado), a operação de crédito (entra caixa e nasce dívida) e a amortização da dívida. As VPA se agrupam em impostos, taxas e contribuições de melhoria; contribuições; exploração e venda de bens, serviços e direitos; variações patrimoniais aumentativas financeiras; transferências e delegações recebidas; valorização e ganhos com ativos e desincorporação de passivos; e outras. As VPD se agrupam em pessoal e encargos; benefícios previdenciários e assistenciais; uso de bens, serviços e consumo de capital fixo; variações patrimoniais diminutivas financeiras; transferências e delegações concedidas; desvalorização e perda de ativos e incorporação de passivos; tributárias; custo das mercadorias e produtos vendidos e dos serviços prestados; e outras. A LRF manda a DVP dar destaque à origem e ao destino dos recursos provenientes da alienação de ativos (art. 50, VI).",
+   "esquema": {
+    "rotulo": "o fato entra ou não na DVP?",
+    "html": "<table><thead><tr><th>Fato</th><th>Efeito no patrimônio líquido</th><th>Na DVP?</th></tr></thead><tbody><tr><td>Lançamento de imposto (fato gerador ocorrido)</td><td>aumenta</td><td>sim, como VPA</td></tr><tr><td>Folha de pagamento do mês (competência)</td><td>diminui</td><td>sim, como VPD de pessoal e encargos</td></tr><tr><td>Depreciação de bens</td><td>diminui, sem passar pelo orçamento</td><td>sim, como VPD de uso de bens, serviços e consumo de capital fixo</td></tr><tr><td>Compra de equipamento à vista</td><td>não altera (troca caixa por imobilizado)</td><td>não</td></tr><tr><td>Recebimento de operação de crédito</td><td>não altera (entra caixa, nasce dívida)</td><td>não</td></tr><tr><td>Amortização da dívida</td><td>não altera (sai caixa, some dívida)</td><td>não</td></tr><tr><td>Doação recebida de bem</td><td>aumenta, sem passar pelo orçamento</td><td>sim, como VPA de transferências e delegações recebidas</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "VPA MENOS VPD",
+     "texto": "Resultado patrimonial é a classe 4 menos a classe 3. Receita e despesa orçamentárias não são a régua da DVP."
+    },
+    {
+     "sigla": "PERMUTATIVO FICA FORA",
+     "texto": "Fato que só troca um elemento patrimonial por outro, como comprar bem ou tomar empréstimo, não aparece na DVP."
+    },
+    {
+     "sigla": "COM OU SEM ORÇAMENTO",
+     "texto": "A DVP mostra variações resultantes ou independentes da execução orçamentária: depreciação e doação entram mesmo sem empenho."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A Demonstração das Variações Patrimoniais evidencia apenas as alterações do patrimônio decorrentes da execução orçamentária do exercício.",
+    "gabarito": "E",
+    "explicacao": "A DVP evidencia as alterações verificadas no patrimônio, resultantes ou independentes da execução orçamentária (Lei 4.320/1964, art. 104). Depreciação, provisões, reavaliação e doações recebidas alteram o patrimônio líquido sem passar pelo orçamento e entram na DVP."
+   },
+   "aprofundamento": "<p><strong>Exemplo de resultado.</strong> No exercício houve VPA de tributos de 800 e de transferências recebidas de 200, VPD de pessoal de 600, de depreciação de 50 e de juros da dívida de 100, além da compra de veículos de 120 e da amortização de dívida de 90. O resultado patrimonial é 1.000 - 750 = superávit de 250; a compra de veículos e a amortização não entram na conta.</p><p><strong>Superveniências e insubsistências.</strong> As alterações da situação líquida patrimonial abrangem os resultados da execução orçamentária, as variações independentes dessa execução e as superveniências e insubsistências ativas e passivas (Lei 4.320/1964, art. 100). Superveniência ativa é o surgimento de um ativo (bem doado); insubsistência passiva é o desaparecimento de um passivo (dívida perdoada): ambas aumentam o patrimônio líquido.</p><p><strong>Resultado patrimonial e resultado orçamentário.</strong> Um ente pode ter superávit orçamentário e déficit patrimonial no mesmo ano, por exemplo quando registra grande provisão previdenciária ou forte depreciação, que não passam pelo orçamento.</p><p><strong>Onde vai o resultado.</strong> O resultado patrimonial do período é transferido para o patrimônio líquido, na conta de resultados acumulados, e aparece também na Demonstração das Mutações do Patrimônio Líquido.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "balanco-patrimonial-dcasp",
+    "demonstracao-das-mutacoes-do-pl-e-notas-explicativas"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "balanco-patrimonial-dcasp",
+   "titulo": "Balanço Patrimonial nas DCASP",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "Lei 4.320/1964, art. 105; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.balanco-patrimonial"
+   ],
+   "conceitos": [
+    "balanço patrimonial"
+   ],
+   "palavras": [
+    "ativo circulante",
+    "ativo não circulante",
+    "passivo circulante",
+    "passivo não circulante",
+    "patrimônio líquido",
+    "ativo financeiro",
+    "ativo permanente",
+    "passivo financeiro",
+    "passivo permanente",
+    "contas de compensação",
+    "superávit financeiro",
+    "quadro por destinação de recursos"
+   ],
+   "resumo": "O <strong>Balanço Patrimonial</strong> evidencia, qualitativa e quantitativamente, a situação patrimonial da entidade por meio de contas representativas do patrimônio público e dos atos potenciais registrados em contas de controle. No MCASP ele tem quatro quadros. O <strong>quadro principal</strong> segue o critério de liquidez e exigibilidade: ativo circulante e não circulante, passivo circulante e não circulante e patrimônio líquido. O ativo circulante reúne os ativos realizáveis em até doze meses da data das demonstrações, o caixa e os mantidos para negociação; o ativo não circulante divide-se em realizável a longo prazo, investimentos, imobilizado e intangível. O patrimônio líquido abrange patrimônio social e capital social, adiantamento para futuro aumento de capital, reservas, ajustes de avaliação patrimonial, resultados acumulados e ações ou cotas em tesouraria, como redutor. O <strong>quadro dos ativos e passivos financeiros e permanentes</strong> atende à Lei 4.320/1964 (art. 105): o ativo financeiro compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o ativo permanente, os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa; o passivo financeiro, os compromissos cujo pagamento independa de autorização orçamentária; o passivo permanente, as dívidas que dependam de autorização legislativa para amortização ou resgate. O <strong>quadro das contas de compensação</strong> mostra os atos potenciais ativos e passivos, registrados nas classes 7 e 8 do PCASP, como garantias, convênios e contratos a executar. O <strong>quadro do superávit ou déficit financeiro</strong> apura, por destinação de recursos, a diferença entre ativo financeiro e passivo financeiro, que serve de fonte para créditos adicionais no exercício seguinte.",
+   "esquema": {
+    "rotulo": "os quatro quadros do Balanço Patrimonial",
+    "html": "<table><thead><tr><th>Quadro</th><th>Critério</th><th>Para que serve</th></tr></thead><tbody><tr><td><strong>Principal</strong></td><td>circulante e não circulante; patrimônio líquido</td><td>situação patrimonial pela liquidez e exigibilidade, alinhada às normas internacionais</td></tr><tr><td><strong>Ativos e passivos financeiros e permanentes</strong></td><td>dependência ou não de autorização orçamentária ou legislativa (Lei 4.320/1964, art. 105)</td><td>apurar o saldo patrimonial no conceito da lei e o superávit financeiro</td></tr><tr><td><strong>Contas de compensação</strong></td><td>atos potenciais ativos e passivos (classes 7 e 8)</td><td>mostrar o que pode vir a afetar o patrimônio: garantias, convênios, contratos</td></tr><tr><td><strong>Superávit ou déficit financeiro</strong></td><td>por destinação de recursos (fonte)</td><td>indicar quanto pode ser usado para créditos adicionais no exercício seguinte</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "FINANCEIRO INDEPENDE DE AUTORIZAÇÃO",
+     "texto": "Ativo e passivo financeiros se realizam ou se pagam sem nova autorização orçamentária; permanentes dependem de autorização legislativa."
+    },
+    {
+     "sigla": "QUATRO QUADROS",
+     "texto": "Principal, financeiro e permanente, compensação e superávit por fonte. Só o principal usa circulante e não circulante."
+    },
+    {
+     "sigla": "SUPERÁVIT FINANCEIRO SAI DO BALANÇO PATRIMONIAL",
+     "texto": "A fonte de créditos adicionais é o superávit apurado no balanço patrimonial do exercício anterior, não o resultado do Balanço Financeiro."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No quadro principal do Balanço Patrimonial elaborado conforme o MCASP, o ativo é dividido em ativo financeiro e ativo permanente.",
+    "gabarito": "E",
+    "explicacao": "O quadro principal usa o critério de liquidez: ativo circulante e ativo não circulante. A divisão em ativo financeiro e ativo permanente, da Lei 4.320/1964, aparece em quadro próprio, o dos ativos e passivos financeiros e permanentes."
+   },
+   "aprofundamento": "<p><strong>Restos a pagar não processados.</strong> No quadro principal, o empenho não liquidado não é passivo, porque ainda não há obrigação presente. Mas ele integra o passivo financeiro na apuração do superávit financeiro, porque o pagamento não depende de nova autorização orçamentária.</p><p><strong>Exemplo de superávit financeiro.</strong> Ativo financeiro de 900 (caixa e aplicações), passivo financeiro de 650 (restos a pagar processados e não processados e depósitos de terceiros). O superávit financeiro é de 250, que pode ser fonte de créditos adicionais no exercício seguinte, desde que não comprometido (Lei 4.320/1964, art. 43, § 1º, I, e § 2º).</p><p><strong>Contas de compensação.</strong> Registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (Lei 4.320/1964, art. 105, § 5º). Uma garantia concedida pelo ente é exemplo típico: não é passivo hoje, mas pode vir a ser.</p><p><strong>Imobilizado é permanente.</strong> Bens imóveis e móveis do imobilizado estão no ativo permanente, porque sua alienação depende de autorização legislativa, e no ativo não circulante do quadro principal.</p><p><strong>Sem ativo diferido.</strong> O ativo não circulante do MCASP tem quatro grupos: realizável a longo prazo, investimentos, imobilizado e intangível. O antigo ativo diferido não integra essa estrutura.</p><p><strong>Saldo patrimonial.</strong> No quadro da Lei 4.320/1964, o saldo patrimonial é a diferença entre o ativo real (financeiro mais permanente) e o passivo real; no quadro principal, a mesma grandeza é o patrimônio líquido.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "demonstracao-das-variacoes-patrimoniais",
+    "balanco-financeiro"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "demonstracao-dos-fluxos-de-caixa",
+   "titulo": "Demonstração dos Fluxos de Caixa (DFC)",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "NBC TSP 12; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.dfc"
+   ],
+   "conceitos": [
+    "demonstração dos fluxos de caixa"
+   ],
+   "palavras": [
+    "dfc",
+    "método direto",
+    "atividades operacionais",
+    "atividades de investimento",
+    "atividades de financiamento",
+    "caixa e equivalentes de caixa",
+    "geração líquida de caixa",
+    "receitas derivadas",
+    "receitas originárias"
+   ],
+   "resumo": "A <strong>Demonstração dos Fluxos de Caixa</strong> mostra as entradas e saídas de caixa e equivalentes de caixa do período, classificadas em três fluxos: das <strong>atividades operacionais</strong>, das <strong>atividades de investimento</strong> e das <strong>atividades de financiamento</strong>. A soma dos três é a geração líquida de caixa e equivalentes de caixa, que corresponde à diferença entre o caixa final e o caixa inicial. O MCASP adota o <strong>método direto</strong>, que evidencia as principais classes de recebimentos e pagamentos brutos. Os ingressos operacionais são as receitas derivadas e originárias, as transferências correntes recebidas e outros ingressos operacionais; os desembolsos operacionais são pessoal e demais despesas, juros e encargos da dívida, transferências concedidas e outros desembolsos. Os ingressos de investimento são a alienação de bens e a amortização de empréstimos e financiamentos concedidos; os desembolsos de investimento são a aquisição de ativo não circulante e a concessão de empréstimos e financiamentos. Os ingressos de financiamento são as operações de crédito, a integralização do capital social de empresas dependentes e as transferências de capital recebidas; os desembolsos de financiamento são a amortização e o refinanciamento da dívida. Além do quadro principal, a DFC traz quadros de receitas derivadas e originárias, de transferências recebidas e concedidas, de desembolsos de pessoal e demais despesas por função e de juros e encargos da dívida. A DFC não está entre os balanços da Lei 4.320/1964: é exigida pelas normas contábeis aplicadas ao setor público e pelo MCASP.",
+   "esquema": {
+    "rotulo": "onde cada fluxo entra",
+    "html": "<table><thead><tr><th>Fluxo</th><th>Ingressos</th><th>Desembolsos</th></tr></thead><tbody><tr><td><strong>Operacional</strong></td><td>receitas derivadas (tributos) e originárias; transferências correntes recebidas; outros</td><td>pessoal e demais despesas; juros e encargos da dívida; transferências concedidas; outros</td></tr><tr><td><strong>Investimento</strong></td><td>alienação de bens; amortização de empréstimos e financiamentos concedidos</td><td>aquisição de ativo não circulante; concessão de empréstimos e financiamentos</td></tr><tr><td><strong>Financiamento</strong></td><td>operações de crédito; integralização de capital de empresas dependentes; transferências de capital recebidas</td><td>amortização e refinanciamento da dívida</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "JUROS NO OPERACIONAL, PRINCIPAL NO FINANCIAMENTO",
+     "texto": "No modelo do MCASP, juros e encargos da dívida pagos são desembolso operacional; a amortização do principal é desembolso de financiamento."
+    },
+    {
+     "sigla": "EMPRÉSTIMO CONCEDIDO É INVESTIMENTO",
+     "texto": "Quando o ente empresta, sai caixa de investimento; quando recebe de volta o principal, entra caixa de investimento."
+    },
+    {
+     "sigla": "MÉTODO DIRETO",
+     "texto": "A DFC pública mostra recebimentos e pagamentos brutos, não parte do resultado patrimonial para chegar ao caixa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na DFC elaborada segundo o MCASP, o recebimento de uma operação de crédito contratada pelo ente é classificado no fluxo de caixa das atividades de investimento.",
+    "gabarito": "E",
+    "explicacao": "A operação de crédito obtida pelo ente é ingresso das atividades de financiamento. No fluxo de investimento ficam a alienação de bens, a aquisição de ativo não circulante e a concessão e o recebimento de empréstimos concedidos pelo próprio ente."
+   },
+   "aprofundamento": "<p><strong>Exemplo numérico.</strong> Caixa inicial de 200. Tributos arrecadados de 900, pagamento de pessoal de 600, juros pagos de 50, compra de equipamentos de 150, venda de imóvel de 80, operação de crédito recebida de 100 e amortização de dívida de 120. Fluxo operacional: 900 - 600 - 50 = 250. Fluxo de investimento: 80 - 150 = -70. Fluxo de financiamento: 100 - 120 = -20. Geração líquida: 250 - 70 - 20 = 160. Caixa final: 360.</p><p><strong>Caixa e equivalentes de caixa.</strong> Equivalentes de caixa são aplicações de curto prazo, de alta liquidez, prontamente conversíveis em valor conhecido de caixa e sujeitas a risco insignificante de mudança de valor.</p><p><strong>Fluxo que não é caixa.</strong> Depreciação, provisões e doações de bens não aparecem na DFC, porque não movimentam caixa. Uma aquisição de bem financiada diretamente pelo fornecedor também não é fluxo de caixa no momento da aquisição.</p><p><strong>Utilidade.</strong> A DFC permite avaliar a capacidade da entidade de gerar caixa com suas operações e a dependência de operações de crédito para financiar investimentos, informação que nem o Balanço Financeiro (que mistura orçamento e caixa) nem a DVP (competência) mostram com clareza.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "balanco-financeiro",
+    "demonstracao-das-mutacoes-do-pl-e-notas-explicativas"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "demonstracao-das-mutacoes-do-pl-e-notas-explicativas",
+   "titulo": "Demonstração das Mutações do Patrimônio Líquido e notas explicativas",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "NBC TSP 11; MCASP, Parte V",
+   "tax": [
+    "contabilidade-publica.dmpl",
+    "contabilidade-publica.notas-explicativas"
+   ],
+   "conceitos": [
+    "demonstração das mutações do patrimônio líquido",
+    "notas explicativas"
+   ],
+   "palavras": [
+    "dmpl",
+    "ajustes de exercícios anteriores",
+    "resultados acumulados",
+    "transações de capital com os sócios",
+    "estatais dependentes",
+    "políticas contábeis",
+    "declaração de conformidade",
+    "nbc tsp 11"
+   ],
+   "resumo": "A <strong>Demonstração das Mutações do Patrimônio Líquido</strong> mostra a evolução de cada componente do patrimônio líquido no período: patrimônio social ou capital social, adiantamento para futuro aumento de capital, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, demais reservas, resultados acumulados e ações ou cotas em tesouraria. Ela evidencia o resultado patrimonial do período, os ajustes de exercícios anteriores, as transações de capital com os sócios e a constituição ou reversão de reservas. Segundo o MCASP, a DMPL é obrigatória para as empresas estatais dependentes e para os entes que as incorporarem no processo de consolidação das contas; para os demais, é facultativa. Os <strong>ajustes de exercícios anteriores</strong> decorrem de mudança de critério contábil ou de retificação de erro imputável a exercício anterior e são registrados diretamente no patrimônio líquido, em resultados acumulados, sem passar pela DVP do exercício. As <strong>notas explicativas</strong> são parte integrante das demonstrações contábeis. Elas apresentam a base de elaboração e as políticas contábeis usadas, divulgam informação exigida pelas normas que não esteja apresentada em outra parte e trazem informação adicional relevante para a compreensão das demonstrações. A ordem habitual é: declaração de conformidade com as normas de contabilidade aplicadas ao setor público, resumo das políticas contábeis significativas, informações de suporte aos itens apresentados, na ordem em que cada demonstração e cada item aparecem, e outras divulgações, como passivos contingentes, compromissos contratuais não reconhecidos e informações não financeiras.",
+   "esquema": {
+    "rotulo": "DMPL e notas em um quadro",
+    "html": "<table><thead><tr><th>Ponto</th><th>DMPL</th><th>Notas explicativas</th></tr></thead><tbody><tr><td>Natureza</td><td>demonstração contábil própria</td><td>parte integrante das demonstrações</td></tr><tr><td>Obrigatoriedade</td><td>estatais dependentes e entes que as consolidam; facultativa para os demais</td><td>acompanham as demonstrações de todas as entidades</td></tr><tr><td>Conteúdo central</td><td>movimento de cada conta do patrimônio líquido: resultado, ajustes de exercícios anteriores, transações com sócios, reservas</td><td>conformidade, políticas contábeis, suporte aos itens, outras divulgações</td></tr><tr><td>Ponto de prova</td><td>ajuste de exercício anterior vai direto ao patrimônio líquido</td><td>informação que não foi reconhecida, como passivo contingente, vai em nota</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "AJUSTE ANTIGO NÃO PASSA PELA DVP",
+     "texto": "Erro de exercício anterior e mudança de critério são corrigidos em resultados acumulados, não no resultado do ano."
+    },
+    {
+     "sigla": "DMPL É DE QUEM TEM ESTATAL DEPENDENTE",
+     "texto": "Obrigatória para a estatal dependente e para o ente que a consolida; facultativa para os demais órgãos e entidades."
+    },
+    {
+     "sigla": "NOTA É PARTE DA DEMONSTRAÇÃO",
+     "texto": "Nota explicativa não é anexo opcional: integra as demonstrações e completa o que não cabe nos quadros."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A retificação de erro relativo a exercício anterior deve ser reconhecida como variação patrimonial no resultado do exercício corrente, evidenciada na DVP.",
+    "gabarito": "E",
+    "explicacao": "O ajuste de exercícios anteriores, por retificação de erro ou mudança de critério contábil, é registrado diretamente no patrimônio líquido, em resultados acumulados, e aparece na DMPL, não na DVP do exercício."
+   },
+   "aprofundamento": "<p><strong>Mudança de critério e mudança de estimativa.</strong> A mudança de política contábil e a retificação de erro de exercício anterior são aplicadas retrospectivamente, com ajuste no patrimônio líquido. A mudança de estimativa, como a revisão da vida útil de um bem, é aplicada prospectivamente, afetando o resultado do exercício corrente e dos seguintes.</p><p><strong>Transações de capital com os sócios.</strong> Aparecem sobretudo nas estatais dependentes: integralização de capital, adiantamento para futuro aumento de capital e distribuição de lucros e dividendos.</p><p><strong>Notas e informação não reconhecida.</strong> Divulgar em nota não corrige um reconhecimento errado. Um passivo que atende aos critérios de reconhecimento deve estar no balanço; a nota explica, mas não substitui o registro.</p><p><strong>Referência cruzada.</strong> Cada item das demonstrações deve remeter à nota correspondente, para que o usuário encontre a informação de suporte.</p><p><strong>Rol das DCASP.</strong> Pelo MCASP, as demonstrações contábeis aplicadas ao setor público são o Balanço Orçamentário, o Balanço Financeiro, o Balanço Patrimonial, a DVP, a DFC e a DMPL, acompanhadas das notas explicativas.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "demonstracao-das-variacoes-patrimoniais",
+    "balanco-patrimonial-dcasp"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "consolidacao-das-demonstracoes-contabeis",
+   "titulo": "Consolidação das demonstrações contábeis",
+   "grupo": "PCASP e demonstrações contábeis",
+   "base": "LRF, arts. 50, III e § 1º, e 51; MCASP, Partes IV e V",
+   "tax": [
+    "contabilidade-publica.consolidacao-dcasp"
+   ],
+   "conceitos": [
+    "consolidação das demonstrações contábeis",
+    "consolidação das contas públicas"
+   ],
+   "palavras": [
+    "transações recíprocas",
+    "intra ofss",
+    "inter ofss",
+    "quinto nível",
+    "balanço do setor público nacional",
+    "bspn",
+    "operações intragovernamentais",
+    "30 de junho",
+    "30 de abril",
+    "estatal dependente"
+   ],
+   "resumo": "<strong>Consolidar</strong> é somar ou agregar os saldos das demonstrações de órgãos e entidades e excluir as transações recíprocas entre eles, para apresentar o conjunto como se fosse uma única entidade. Pela LRF, as demonstrações contábeis compreendem, isolada e conjuntamente, as transações e operações de cada órgão, fundo ou entidade da administração direta, autárquica e fundacional, inclusive empresa estatal dependente (art. 50, III), e, no caso das demonstrações conjuntas, excluem-se as operações intragovernamentais (art. 50, § 1º). A empresa estatal independente fica fora dessa consolidação; entra nas contas do ente apenas pela participação societária. No PCASP, o 5º nível da conta, o subtítulo, identifica a contraparte: o código 1 marca saldos que não serão excluídos; o código 2 marca as transações <strong>intra OFSS</strong>, entre órgãos e entidades do orçamento fiscal e da seguridade social do mesmo ente, excluídas na consolidação do ente; os códigos 3, 4 e 5 marcam as transações <strong>inter OFSS</strong> com a União, com estado e com município, excluídas na consolidação nacional. A consolidação nacional é o Balanço do Setor Público Nacional: o Poder Executivo da União promove, até 30 de junho, a consolidação, nacional e por esfera de governo, das contas dos entes relativas ao exercício anterior, e a sua divulgação, inclusive por meio eletrônico de acesso público (LRF, art. 51). Estados e municípios encaminham suas contas ao Poder Executivo da União até 30 de abril (art. 51, § 1º, na redação da LC 178/2021). O descumprimento desses prazos impede, até a regularização, que o Poder ou órgão receba transferências voluntárias e contrate operações de crédito, exceto as destinadas ao pagamento da dívida mobiliária (art. 51, § 2º).",
+   "esquema": {
+    "rotulo": "o que se elimina em cada consolidação",
+    "html": "<table><thead><tr><th>Nível de consolidação</th><th>Quem entra</th><th>O que se elimina</th></tr></thead><tbody><tr><td><strong>Do ente</strong> (ex.: Estado de Alagoas)</td><td>administração direta, autarquias, fundações, fundos e estatais dependentes</td><td>transações intra OFSS (5º nível = 2): duodécimos, transferências financeiras, créditos e débitos entre órgãos do mesmo ente</td></tr><tr><td><strong>Nacional</strong> (Balanço do Setor Público Nacional)</td><td>todos os entes da Federação</td><td>também as transações inter OFSS (5º nível = 3, 4 ou 5): transferências constitucionais e voluntárias entre entes, empréstimos entre entes</td></tr><tr><td><strong>Fora da consolidação</strong></td><td>estatal independente</td><td>não se soma; aparece como investimento do ente controlador</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "INTRA É DENTRO DO ENTE, INTER É ENTRE ENTES",
+     "texto": "Intra OFSS some na consolidação do próprio ente; inter OFSS some só na consolidação nacional."
+    },
+    {
+     "sigla": "30 DE ABRIL E 30 DE JUNHO",
+     "texto": "Estados e municípios mandam as contas até 30 de abril; a União consolida e divulga até 30 de junho."
+    },
+    {
+     "sigla": "DEPENDENTE SOMA, INDEPENDENTE NÃO",
+     "texto": "A estatal dependente entra nas demonstrações conjuntas; a independente fica de fora."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Pela LRF, os municípios devem encaminhar suas contas ao Poder Executivo da União até 31 de maio, para a consolidação nacional.",
+    "gabarito": "E",
+    "explicacao": "Desde a LC 178/2021, estados e municípios encaminham suas contas ao Poder Executivo da União até 30 de abril (LRF, art. 51, § 1º). A União promove a consolidação, nacional e por esfera de governo, até 30 de junho."
+   },
+   "aprofundamento": "<p><strong>Exemplo de eliminação.</strong> O Tesouro estadual repassa 100 ao Tribunal de Justiça como duodécimo. O Poder Executivo registra transferência financeira concedida e VPD de transferência intra OFSS; o Tribunal registra transferência financeira recebida e VPA intra OFSS. Na consolidação do ente, os dois lados se anulam e o resultado patrimonial consolidado não muda.</p><p><strong>Transação inter OFSS.</strong> A cota do ICMS transferida pelo estado aos municípios é inter OFSS (5º nível = 5 no registro do estado). Ela permanece no balanço consolidado do estado, mas é eliminada no Balanço do Setor Público Nacional.</p><p><strong>Por que o 5º nível existe.</strong> Sem identificar a contraparte já no registro, a eliminação das transações recíprocas exigiria conciliações manuais entre milhares de entidades. O subtítulo do PCASP permite que a exclusão seja automática.</p><p><strong>Normas gerais.</strong> Cabe ao órgão central de contabilidade da União, enquanto não implantado o conselho de gestão fiscal, editar normas gerais para consolidação das contas públicas (LRF, art. 50, § 2º).</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "plano-de-contas-aplicado-ao-setor-publico-pcasp",
+    "balanco-financeiro"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "transacoes-no-setor-publico",
+   "titulo": "Transações no setor público",
+   "grupo": "Normas e regime contábil",
+   "base": "NBC T 16.4 (Resolução CFC 1.131/2008); NBC TSP 01 e NBC TSP 02",
+   "tax": [
+    "contabilidade-publica.transacoes-setor-publico"
+   ],
+   "conceitos": [
+    "transações no setor público",
+    "transação sem contraprestação",
+    "transação com contraprestação"
+   ],
+   "palavras": [
+    "econômico-financeira",
+    "administrativa",
+    "nbc t 16.4",
+    "nbc tsp 01",
+    "nbc tsp 02",
+    "condição",
+    "restrição",
+    "estipulação",
+    "tributos",
+    "transferências",
+    "doações",
+    "variação qualitativa",
+    "variação quantitativa"
+   ],
+   "resumo": "Na formulação tradicional da NBC T 16.4 (Resolução CFC 1.131/2008), <strong>transações no setor público</strong> são os atos e os fatos que promovem alterações qualitativas ou quantitativas, efetivas ou potenciais, no patrimônio das entidades do setor público. Quanto à natureza, a transação é <strong>econômico-financeira</strong> quando se origina de fatos que afetam o patrimônio público, em decorrência ou não da execução do orçamento, podendo provocar alterações qualitativas ou quantitativas, efetivas ou potenciais; é <strong>administrativa</strong> quando não afeta o patrimônio público e decorre de atos administrativos voltados ao cumprimento das metas programadas e à manutenção da entidade. As variações patrimoniais quantitativas aumentam ou diminuem o patrimônio líquido; as qualitativas alteram a composição dos elementos patrimoniais sem afetar o patrimônio líquido. As NBC TSP organizam as transações pelo critério da <strong>contraprestação</strong>. Na transação <strong>com contraprestação</strong> (NBC TSP 02), a entidade recebe ativos ou serviços, ou extingue passivos, e entrega diretamente à outra parte valor aproximadamente igual em troca, como na venda de bens ou na prestação de serviço cobrada por tarifa. Na transação <strong>sem contraprestação</strong> (NBC TSP 01), a entidade recebe valor sem dar diretamente em troca valor aproximadamente igual, ou dá valor sem receber em troca valor aproximadamente igual: tributos, transferências, doações e multas são os exemplos típicos. No setor público predominam as transações sem contraprestação, porque o governo financia serviços universais com tributos, e não com preços.",
+   "esquema": {
+    "rotulo": "as duas classificações lado a lado",
+    "html": "<table><thead><tr><th>Critério</th><th>Espécie</th><th>Exemplo</th></tr></thead><tbody><tr><td rowspan=\"2\"><strong>Natureza</strong> (NBC T 16.4)</td><td>econômico-financeira: afeta o patrimônio, com ou sem execução orçamentária</td><td>arrecadação de tributo; compra de veículo; depreciação</td></tr><tr><td>administrativa: não afeta o patrimônio</td><td>atos de gestão voltados às metas, como a assinatura de um contrato ainda não executado, controlada em contas próprias</td></tr><tr><td rowspan=\"2\"><strong>Contraprestação</strong> (NBC TSP 01 e 02)</td><td>com contraprestação: troca de valores aproximadamente iguais</td><td>venda de bens; tarifa de serviço; aluguel de imóvel público</td></tr><tr><td>sem contraprestação: valor recebido ou dado sem troca equivalente</td><td>impostos; transferências constitucionais; doações; multas</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "ECONÔMICO-FINANCEIRA MEXE NO PATRIMÔNIO",
+     "texto": "Se o fato afeta o patrimônio, com ou sem orçamento, a transação é econômico-financeira; se não afeta, é administrativa."
+    },
+    {
+     "sigla": "TRIBUTO NÃO TEM CONTRAPRESTAÇÃO",
+     "texto": "O contribuinte paga imposto sem receber em troca valor aproximadamente igual: é a receita sem contraprestação por excelência."
+    },
+    {
+     "sigla": "CONDIÇÃO GERA PASSIVO, RESTRIÇÃO NÃO",
+     "texto": "Recurso que precisa ser devolvido se a finalidade não for cumprida gera passivo; restrição sem obrigação de devolver não gera."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo a classificação quanto à natureza, as transações econômico-financeiras são apenas as que decorrem da execução do orçamento.",
+    "gabarito": "E",
+    "explicacao": "A transação econômico-financeira é a originada de fatos que afetam o patrimônio público, em decorrência ou não da execução do orçamento. Depreciação e doação de bens afetam o patrimônio sem passar pelo orçamento e são transações econômico-financeiras."
+   },
+   "aprofundamento": "<p><strong>Reconhecimento da receita sem contraprestação.</strong> Pela NBC TSP 01, a entrada de recursos reconhecida como ativo numa transação sem contraprestação é reconhecida como receita, exceto na medida em que um passivo também for reconhecido em relação à mesma entrada.</p><p><strong>Condição e restrição.</strong> As estipulações sobre o uso de um recurso transferido podem ser condições ou restrições. Na condição, o recurso deve ser usado de forma especificada ou devolvido ao transferidor; por isso, ao receber, a entidade reconhece um passivo, que vira receita à medida que a condição é cumprida. Na restrição, o uso é limitado, mas não há obrigação de devolver; a entidade reconhece a receita ao reconhecer o ativo.</p><p><strong>Tributo e fato gerador.</strong> O ativo e a receita de tributo são reconhecidos quando ocorre o fato gerador e o ativo atende aos critérios de reconhecimento, sem esperar a arrecadação.</p><p><strong>Transação com contraprestação.</strong> Na NBC TSP 02, a receita da venda de bens e da prestação de serviços é reconhecida conforme a transferência dos riscos e benefícios e o estágio de execução do serviço, nos moldes da contabilidade empresarial.</p><p><strong>Ponto de prova.</strong> Uma tarifa ou preço público cobrado por serviço efetivamente prestado, em valor aproximadamente igual ao do serviço, é exemplo de transação com contraprestação; um imposto, que não se vincula a nenhuma entrega específica ao contribuinte, é o exemplo típico de transação sem contraprestação.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "regime-contabil-orcamentario-e-patrimonial",
+    "nbc-tsp-e-mcasp"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "nbc-tsp-e-mcasp",
+   "titulo": "NBC TSP e MCASP (11ª edição)",
+   "grupo": "Normas e regime contábil",
+   "base": "NBC TSP Estrutura Conceitual e demais NBC TSP (CFC); MCASP, 11ª edição (Portaria STN/MF 2.016/2024 e Portaria Conjunta STN/SOF 26/2024)",
+   "tax": [
+    "contabilidade-publica.nbc-tsp",
+    "contabilidade-publica.mcasp"
+   ],
+   "conceitos": [
+    "normas brasileiras de contabilidade aplicadas ao setor público",
+    "manual de contabilidade aplicada ao setor público",
+    "nbc tsp",
+    "mcasp"
+   ],
+   "palavras": [
+    "ipsas",
+    "ipsasb",
+    "estrutura conceitual",
+    "cfc",
+    "stn",
+    "procedimentos contábeis orçamentários",
+    "procedimentos contábeis patrimoniais",
+    "procedimentos contábeis específicos",
+    "convergência",
+    "características qualitativas",
+    "11ª edição",
+    "exercício de 2025"
+   ],
+   "resumo": "As <strong>NBC TSP</strong> são as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público editadas pelo Conselho Federal de Contabilidade, no processo de convergência às normas internacionais de contabilidade para o setor público (IPSAS), emitidas pelo IPSASB da IFAC. A <strong>NBC TSP Estrutura Conceitual</strong> trata do objetivo da informação contábil, dos usuários, das características qualitativas, da entidade que reporta, dos elementos das demonstrações, do reconhecimento, da mensuração e da apresentação; ela não se sobrepõe às normas específicas. As características qualitativas são relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às restrições de materialidade, custo-benefício e equilíbrio entre as características. Entre as normas específicas estão, por exemplo, a NBC TSP 01 (receita sem contraprestação), 02 (receita com contraprestação), 03 (provisões, passivos e ativos contingentes), 07 (ativo imobilizado), 08 (ativo intangível), 11 (apresentação das demonstrações contábeis), 12 (fluxos de caixa), 17 (demonstrações consolidadas) e 34 (custos). O <strong>MCASP</strong> é o manual editado pela Secretaria do Tesouro Nacional, como órgão central de contabilidade da União, de observância obrigatória por todos os entes. Ele concretiza as normas contábeis em procedimentos, contas e modelos de demonstração. A <strong>11ª edição</strong> vale a partir do exercício de 2025 e organiza o conteúdo normativo em cinco partes: Parte I (Procedimentos Contábeis Orçamentários), Parte II (Procedimentos Contábeis Patrimoniais), Parte III (Procedimentos Contábeis Específicos), Parte IV (PCASP) e Parte V (DCASP). A Parte I foi aprovada por portaria conjunta da STN com a Secretaria de Orçamento Federal, porque trata de matéria orçamentária.",
+   "esquema": {
+    "rotulo": "quem faz o quê",
+    "html": "<table><thead><tr><th>Ponto</th><th>NBC TSP</th><th>MCASP</th></tr></thead><tbody><tr><td>Quem edita</td><td>Conselho Federal de Contabilidade</td><td>Secretaria do Tesouro Nacional (Parte I em conjunto com a SOF)</td></tr><tr><td>Natureza</td><td>norma profissional de contabilidade, convergente com as IPSAS</td><td>manual de procedimentos de observância obrigatória pelos entes</td></tr><tr><td>Conteúdo</td><td>conceitos, reconhecimento, mensuração e evidenciação</td><td>procedimentos orçamentários, patrimoniais e específicos, PCASP e DCASP</td></tr><tr><td>Vigência de referência</td><td>cada norma tem sua data; a NBC TSP 34, por exemplo, aplica-se desde 1º/1/2024</td><td>11ª edição, a partir do exercício de 2025</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "CFC FAZ A NORMA, STN FAZ O MANUAL",
+     "texto": "NBC TSP é do Conselho Federal de Contabilidade; o MCASP é da Secretaria do Tesouro Nacional, como órgão central de contabilidade da União."
+    },
+    {
+     "sigla": "CINCO PARTES NO MANUAL",
+     "texto": "Partes I a V: orçamentário, patrimonial, específico, plano de contas e demonstrações."
+    },
+    {
+     "sigla": "SEM HIERARQUIA ENTRE CARACTERÍSTICAS",
+     "texto": "A estrutura do setor público lista as características qualitativas sem dividir em fundamentais e de melhoria, como faz a estrutura do setor privado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A 11ª edição do MCASP foi aprovada integralmente por portaria conjunta da Secretaria do Tesouro Nacional e da Secretaria de Orçamento Federal.",
+    "gabarito": "E",
+    "explicacao": "Só a Parte I (Procedimentos Contábeis Orçamentários) foi aprovada por portaria conjunta STN/SOF (nº 26/2024). As demais partes foram aprovadas por portaria da STN (nº 2.016/2024)."
+   },
+   "aprofundamento": "<p><strong>Características sem hierarquia.</strong> Diferente da estrutura conceitual do setor privado, que separa características fundamentais (relevância e representação fidedigna) das de melhoria, a NBC TSP Estrutura Conceitual apresenta as seis características qualitativas sem essa divisão formal, e acrescenta as restrições de materialidade, custo-benefício e equilíbrio entre as características.</p><p><strong>Papel da Estrutura Conceitual.</strong> Ela orienta a elaboração das normas específicas e o tratamento de situações que elas não preveem, mas não prevalece sobre a norma específica no assunto que esta regula.</p><p><strong>Usuários e accountability.</strong> A informação contábil do setor público serve à prestação de contas e responsabilização (accountability) e à tomada de decisão. Os usuários primários são os usuários dos serviços e os provedores de recursos, e seus representantes.</p><p><strong>Elementos.</strong> A Estrutura Conceitual define ativo, passivo, receita, despesa, contribuição dos proprietários e distribuição aos proprietários. Ativo é recurso controlado no presente pela entidade como resultado de evento passado; passivo é obrigação presente, derivada de evento passado, cuja extinção deva resultar em saída de recursos.</p><p><strong>Bases de mensuração.</strong> Para ativos: custo histórico, valor de mercado, custo de reposição, preço líquido de venda e valor em uso. Para passivos: custo histórico, custo de cumprimento, valor de mercado, custo de liberação e preço presumido.</p><p><strong>Implantação gradual.</strong> Os procedimentos contábeis patrimoniais têm prazos escalonados definidos pela STN no Plano de Implantação dos Procedimentos Contábeis Patrimoniais, porque reconhecer todo o patrimônio (infraestrutura, provisões, dívida ativa) exige levantamentos que não se fazem de uma vez.</p><p><strong>Parte I e regime orçamentário.</strong> A Parte I trata da receita e da despesa orçamentárias, de suas classificações e etapas e dos restos a pagar; a Parte II trata do reconhecimento patrimonial por competência. Essa divisão espelha a convivência entre o regime orçamentário e o regime contábil.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "transacoes-no-setor-publico",
+    "regime-contabil-orcamentario-e-patrimonial"
+   ],
+   "dispositivos": [],
+   "lei": []
+  },
+  {
+   "slug": "regime-contabil-orcamentario-e-patrimonial",
+   "titulo": "Regime contábil: regime orçamentário e regime de competência",
+   "grupo": "Normas e regime contábil",
+   "base": "Lei 4.320/1964, arts. 35, 36, 37, 85, 89 e 100; LRF, art. 50, II; MCASP, Parte I",
+   "tax": [
+    "contabilidade-publica.regime-contabil"
+   ],
+   "conceitos": [
+    "regime contábil",
+    "regime de competência",
+    "regime orçamentário",
+    "regime misto"
+   ],
+   "palavras": [
+    "art. 35",
+    "receitas arrecadadas",
+    "despesas empenhadas",
+    "regime misto",
+    "competência",
+    "fato gerador",
+    "restos a pagar",
+    "despesas de exercícios anteriores",
+    "lrf art. 50",
+    "caixa complementar"
+   ],
+   "resumo": "O art. 35 da Lei 4.320/1964 diz que pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Por muito tempo isso foi lido como um <strong>regime contábil misto</strong>: caixa para a receita e competência para a despesa. O MCASP faz uma distinção mais precisa: o art. 35 trata do <strong>regime orçamentário</strong>, isto é, de como receitas e despesas são atribuídas ao orçamento de cada exercício. O <strong>regime contábil</strong>, que governa o reconhecimento patrimonial, é o de <strong>competência</strong>, tanto para a receita quanto para a despesa. Essa leitura se apoia na própria Lei 4.320/1964, que manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89) e trata das variações independentes da execução orçamentária (art. 100), e na LRF, pela qual a despesa e a assunção de compromisso são registradas segundo o regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II). Na prática, o mesmo fato tem dois momentos de registro. A receita orçamentária é reconhecida na arrecadação; a variação patrimonial aumentativa, no fato gerador, que pode ser anterior, como no imposto lançado. A despesa orçamentária é reconhecida no empenho; a variação patrimonial diminutiva, quando o recurso é consumido ou a obrigação nasce, o que costuma coincidir com a liquidação, mas pode vir antes, como na provisão de férias e 13º salário, ou depois, como no material comprado para estoque. As despesas empenhadas e não pagas até 31 de dezembro viram <strong>restos a pagar</strong>, processados ou não processados (art. 36).",
+   "esquema": {
+    "rotulo": "dois regimes, dois momentos",
+    "html": "<table><thead><tr><th>Item</th><th>Regime orçamentário (Lei 4.320/1964, art. 35)</th><th>Regime contábil patrimonial (competência)</th></tr></thead><tbody><tr><td>Receita</td><td>pertence ao exercício em que foi arrecadada</td><td>VPA reconhecida no fato gerador, ainda que a arrecadação venha depois</td></tr><tr><td>Despesa</td><td>pertence ao exercício em que foi legalmente empenhada</td><td>VPD reconhecida quando o recurso é consumido ou a obrigação nasce</td></tr><tr><td>Exemplo: IPVA lançado em janeiro e pago em março</td><td>receita orçamentária em março</td><td>VPA em janeiro, com crédito a receber</td></tr><tr><td>Exemplo: material comprado em junho e consumido em agosto</td><td>despesa orçamentária no empenho de junho</td><td>VPD em agosto, no consumo; até lá, é estoque</td></tr><tr><td>Exemplo: 13º salário</td><td>despesa orçamentária no empenho</td><td>VPD apropriada mês a mês, com provisão</td></tr></tbody></table>"
+   },
+   "macetes": [
+    {
+     "sigla": "ART. 35 É ORÇAMENTO, NÃO CONTABILIDADE",
+     "texto": "Receita arrecadada e despesa empenhada definem o exercício orçamentário. O patrimônio segue a competência para tudo."
+    },
+    {
+     "sigla": "DOIS MOMENTOS PARA O MESMO FATO",
+     "texto": "Pergunte sempre: quando entra no orçamento? Quando altera o patrimônio? As respostas podem cair em meses ou anos diferentes."
+    },
+    {
+     "sigla": "CAIXA É COMPLEMENTAR NA LRF",
+     "texto": "A LRF manda registrar a despesa por competência e apurar, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o MCASP, a contabilidade aplicada ao setor público adota o regime de caixa para o reconhecimento patrimonial das receitas, por força do art. 35 da Lei 4.320/1964.",
+    "gabarito": "E",
+    "explicacao": "O art. 35 disciplina o regime orçamentário: a receita orçamentária pertence ao exercício em que foi arrecadada. O reconhecimento patrimonial da receita (VPA) segue o regime de competência e ocorre no fato gerador, ainda que a arrecadação venha depois."
+   },
+   "aprofundamento": "<p><strong>Restos a pagar.</strong> Consideram-se restos a pagar as despesas empenhadas mas não pagas até 31 de dezembro, distinguindo-se as processadas (já liquidadas) das não processadas (Lei 4.320/1964, art. 36). Os empenhos de créditos com vigência plurianual não liquidados só são computados como restos a pagar no último ano de vigência do crédito (art. 36, parágrafo único).</p><p><strong>Despesas de exercícios anteriores.</strong> As despesas de exercícios encerrados para as quais o orçamento consignava crédito próprio com saldo suficiente, que não se tenham processado na época própria, os restos a pagar com prescrição interrompida e os compromissos reconhecidos após o encerramento do exercício podem ser pagos à conta de dotação específica do orçamento corrente (Lei 4.320/1964, art. 37). No regime orçamentário, a despesa é do exercício em que for empenhada; no patrimonial, a VPD pode já ter sido reconhecida no exercício em que o fato ocorreu.</p><p><strong>Por que não é caixa puro.</strong> A receita arrecadada pertence ao exercício da arrecadação, mas a dívida ativa e os créditos tributários lançados são reconhecidos como ativo e VPA antes do recebimento, o que só é possível em regime de competência.</p><p><strong>Competência e custos.</strong> O mesmo raciocínio explica por que o custo do período não é a despesa empenhada: o custo segue o consumo, por competência.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "balanco-orcamentario",
+    "transacoes-no-setor-publico"
+   ],
+   "dispositivos": [],
+   "lei": []
+  }
+ ]
+}

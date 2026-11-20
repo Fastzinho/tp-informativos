@@ -1,0 +1,995 @@
+{
+ "slug": "contabilidade-geral",
+ "titulo": "Caderno de Contabilidade Geral",
+ "disciplina": "Contabilidade Geral",
+ "ordem": 22,
+ "descricao": "Contabilidade Geral para concursos fiscais: patrimônio, escrituração, operações com mercadorias, estoques, ativo imobilizado, demonstrações contábeis pela Lei 6.404/1976 e pelos CPCs, com resumo, quadros, macetes e pegadinhas.",
+ "revisado_em": "2026-11-20",
+ "revisado_rotulo": "Lei 6.404/1976 e pronunciamentos do CPC conferidos",
+ "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
+ "temas": [
+  {
+   "slug": "conceitos-objetivos-contabilidade",
+   "titulo": "Conceito, objeto, objetivos e finalidades da contabilidade",
+   "grupo": "Fundamentos",
+   "base": "NBC TG Estrutura Conceitual (CPC 00 R2) e doutrina clássica",
+   "tax": [
+    "contabilidade.conceitos-objetivos"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "contabilidade",
+    "objeto da contabilidade",
+    "usuários da informação contábil",
+    "características qualitativas"
+   ],
+   "palavras": [
+    "ciencia social",
+    "patrimonio",
+    "azienda",
+    "entidade",
+    "usuarios internos",
+    "usuarios externos",
+    "relevancia",
+    "representacao fidedigna",
+    "comparabilidade",
+    "tempestividade",
+    "continuidade",
+    "funcao administrativa",
+    "funcao economica",
+    "tecnicas contabeis"
+   ],
+   "resumo": "A contabilidade é a <strong>ciência social</strong> que estuda, registra, controla e interpreta os fenômenos que afetam o <strong>patrimônio</strong> das entidades. O <strong>objeto</strong> da contabilidade é o patrimônio; o <strong>campo de aplicação</strong> são as entidades (aziendas), com ou sem fins lucrativos, inclusive as públicas. O <strong>objetivo</strong> é fornecer informação útil à tomada de decisão. Pela Estrutura Conceitual (CPC 00 R2), o objetivo do relatório financeiro para fins gerais é dar informações úteis aos investidores, credores por empréstimo e outros credores, existentes e potenciais, que decidem sobre fornecer recursos à entidade; esses são os <strong>usuários primários</strong>. A administração, o fisco e os empregados também usam a informação, mas o relatório para fins gerais não é feito principalmente para eles. A doutrina aponta duas <strong>funções</strong>: a <strong>administrativa</strong>, de controle do patrimônio, e a <strong>econômica</strong>, de apuração do resultado (lucro ou prejuízo). As <strong>técnicas contábeis</strong> são a escrituração, a elaboração das demonstrações, a auditoria e a análise das demonstrações. Para ser útil, a informação precisa das <strong>características qualitativas fundamentais</strong>, relevância e representação fidedigna, e é aprimorada pelas <strong>características de melhoria</strong>: comparabilidade, verificabilidade, tempestividade e compreensibilidade. A materialidade é um aspecto da relevância específico de cada entidade. O custo é uma restrição de toda informação. A <strong>continuidade</strong> é a premissa subjacente: presume-se que a entidade continuará operando no futuro previsível.",
+   "esquema": {
+    "rotulo": "características qualitativas da informação contábil",
+    "html": "<table><thead><tr><th>Grupo</th><th>Característica</th><th>O que exige</th></tr></thead><tbody><tr><td><strong>Fundamental</strong></td><td>Relevância</td><td>capacidade de fazer diferença na decisão, por valor preditivo, confirmatório ou ambos; inclui a materialidade</td></tr><tr><td><strong>Fundamental</strong></td><td>Representação fidedigna</td><td>retrato completo, neutro e livre de erro da essência do fenômeno</td></tr><tr><td>Melhoria</td><td>Comparabilidade</td><td>permitir comparar entidades e períodos</td></tr><tr><td>Melhoria</td><td>Verificabilidade</td><td>observadores independentes chegariam a consenso</td></tr><tr><td>Melhoria</td><td>Tempestividade</td><td>informação disponível a tempo de influenciar a decisão</td></tr><tr><td>Melhoria</td><td>Compreensibilidade</td><td>classificação e apresentação claras e concisas</td></tr><tr><td>Restrição</td><td>Custo</td><td>o benefício da informação deve justificar o custo de produzi-la</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Objeto é patrimônio, objetivo é informar",
+     "texto": "O objeto (o que se estuda) é o patrimônio. O objetivo (para que serve) é fornecer informação útil à decisão."
+    },
+    {
+     "sigla": "Duas fundamentais, quatro de melhoria",
+     "texto": "Fundamentais: relevância e representação fidedigna. De melhoria: comparabilidade, verificabilidade, tempestividade e compreensibilidade."
+    },
+    {
+     "sigla": "Materialidade mora dentro da relevância",
+     "texto": "A materialidade não é característica autônoma: é um aspecto da relevância, avaliado entidade por entidade."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo a Estrutura Conceitual, a comparabilidade é uma característica qualitativa fundamental da informação contábil, ao lado da relevância.",
+    "gabarito": "E",
+    "explicacao": "A comparabilidade é característica de melhoria. As fundamentais são a relevância e a representação fidedigna; comparabilidade, verificabilidade, tempestividade e compreensibilidade melhoram a informação que já é relevante e fidedigna."
+   },
+   "aprofundamento": "<p><strong>Usuários primários.</strong> O relatório financeiro para fins gerais se dirige aos investidores, credores por empréstimo e outros credores, existentes e potenciais. A administração da entidade se interessa pela informação, mas não precisa depender do relatório para fins gerais, porque obtém internamente o que precisa. Os reguladores e o público também não são usuários primários.</p><p><strong>Representação fidedigna tem três atributos.</strong> A descrição deve ser completa, neutra e livre de erro. Livre de erro não significa exata em todos os aspectos: uma estimativa pode ser fidedigna se o processo e suas limitações forem descritos. A neutralidade é apoiada pelo exercício da prudência, que é a cautela ao fazer julgamentos sob incerteza, sem superavaliar ativos e receitas nem subavaliar passivos e despesas.</p><p><strong>Essência sobre a forma.</strong> A representação fidedigna exige retratar a essência econômica do fenômeno, e não apenas sua forma jurídica. Por isso um bem obtido por arrendamento pode figurar no ativo do arrendatário.</p><p><strong>Continuidade.</strong> As demonstrações são elaboradas presumindo que a entidade continuará em operação no futuro previsível. Se houver intenção ou necessidade de liquidação, a base de elaboração muda e isso deve ser divulgado.</p><p><strong>Contabilidade não é só de empresa.</strong> O campo de aplicação abrange entidades sem fins lucrativos e o setor público. A pessoa física também pode ter seu patrimônio contabilizado, embora não seja obrigada.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "patrimonio-equacao-fundamental",
+    "normas-brasileiras-de-contabilidade"
+   ]
+  },
+  {
+   "slug": "patrimonio-equacao-fundamental",
+   "titulo": "Patrimônio, equação fundamental e situação líquida",
+   "grupo": "Fundamentos",
+   "base": "Doutrina contábil e NBC TG Estrutura Conceitual",
+   "tax": [
+    "contabilidade.patrimonio"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "patrimônio",
+    "equação fundamental do patrimônio",
+    "situação líquida",
+    "patrimônio líquido"
+   ],
+   "palavras": [
+    "bens",
+    "direitos",
+    "obrigacoes",
+    "ativo",
+    "passivo",
+    "patrimonio liquido",
+    "situacao liquida positiva",
+    "passivo a descoberto",
+    "capital proprio",
+    "capital de terceiros",
+    "origens",
+    "aplicacoes",
+    "grafico em T"
+   ],
+   "resumo": "<strong>Patrimônio</strong> é o conjunto de bens, direitos e obrigações de uma entidade, avaliados em moeda. Os <strong>bens</strong> podem ser tangíveis (caixa, mercadorias, veículos) ou intangíveis (marcas, softwares); os <strong>direitos</strong> são valores a receber (clientes, duplicatas a receber, adiantamentos a fornecedores); as <strong>obrigações</strong> são valores a pagar a terceiros (fornecedores, salários, tributos, empréstimos). O <strong>ativo</strong> reúne bens e direitos; o <strong>passivo exigível</strong> reúne as obrigações; a diferença é o <strong>patrimônio líquido</strong> (situação líquida). Daí a <strong>equação fundamental do patrimônio</strong>: Ativo = Passivo + Patrimônio Líquido, ou PL = A − P. A <strong>situação líquida</strong> pode ser: <strong>positiva</strong> (A maior que P, PL positivo, a mais comum); <strong>nula</strong> (A igual a P, PL zero); <strong>negativa</strong> (A menor que P, PL negativo, chamada passivo a descoberto). Há ainda o caso de inexistência de passivo (A = PL), típico da constituição da empresa com capital em dinheiro. Na <strong>representação gráfica</strong> em forma de T, o ativo fica à esquerda e o passivo e o PL à direita. O lado direito mostra as <strong>origens</strong> dos recursos (capital de terceiros, no passivo, e capital próprio, no PL); o lado esquerdo mostra as <strong>aplicações</strong> (ativo). Por isso o total das origens é sempre igual ao total das aplicações. O <strong>capital à disposição</strong> da entidade é o ativo total, igual à soma do capital próprio com o de terceiros.",
+   "esquema": {
+    "rotulo": "as situações líquidas possíveis",
+    "html": "<table><thead><tr><th>Situação</th><th>Relação</th><th>Patrimônio líquido</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Sem dívidas</strong></td><td>A = PL (P = 0)</td><td>igual ao ativo</td><td>empresa recém-constituída, capital integralizado em dinheiro</td></tr><tr><td><strong>Positiva</strong> (superavitária)</td><td>A &gt; P</td><td>positivo</td><td>ativo 500, passivo 300, PL 200</td></tr><tr><td><strong>Nula</strong></td><td>A = P</td><td>zero</td><td>ativo 300, passivo 300</td></tr><tr><td><strong>Negativa</strong> (passivo a descoberto)</td><td>A &lt; P</td><td>negativo</td><td>ativo 200, passivo 300, PL de menos 100</td></tr><tr><td><strong>Ativo nulo</strong></td><td>A = 0 e P &gt; 0</td><td>negativo e igual ao passivo</td><td>entidade que perdeu todos os bens e ainda deve</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Esquerda aplica, direita origina",
+     "texto": "No gráfico em T, o ativo (à esquerda) mostra onde os recursos foram aplicados; passivo e PL (à direita) mostram de onde vieram."
+    },
+    {
+     "sigla": "Passivo a descoberto é PL negativo",
+     "texto": "Passivo a descoberto é a situação em que as obrigações superam o ativo. Não é sinônimo de passivo circulante maior que ativo circulante."
+    },
+    {
+     "sigla": "Direito é ativo, obrigação é passivo",
+     "texto": "Adiantamento a fornecedor é direito (ativo). Adiantamento de cliente é obrigação (passivo), porque a entidade ainda deve entregar o bem ou o serviço."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Uma entidade com ativo de R$ 200 mil e passivo exigível de R$ 260 mil apresenta situação líquida nula, pois o patrimônio líquido não pode ser negativo.",
+    "gabarito": "E",
+    "explicacao": "O PL pode ser negativo. Com ativo de 200 mil e passivo de 260 mil, PL = 200 − 260 = −60 mil: situação líquida negativa, ou passivo a descoberto. Situação nula exige ativo igual ao passivo."
+   },
+   "aprofundamento": "<p><strong>Definições da Estrutura Conceitual.</strong> Ativo é um recurso econômico presente controlado pela entidade como resultado de eventos passados; recurso econômico é um direito que tem o potencial de produzir benefícios econômicos. Passivo é uma obrigação presente da entidade de transferir um recurso econômico como resultado de eventos passados. Patrimônio líquido é a participação residual nos ativos após a dedução de todos os passivos.</p><p><strong>Controle, e não propriedade.</strong> O critério para o ativo é o controle do recurso. Um bem arrendado pode estar no ativo do arrendatário (direito de uso); um bem próprio cedido em garantia continua no ativo do dono.</p><p><strong>Capital próprio e capital de terceiros.</strong> O capital próprio é o PL; o capital de terceiros é o passivo exigível. O capital total à disposição (ativo) é a soma dos dois. Não confunda com capital social, que é apenas uma das contas do PL.</p><p><strong>Conta a conta.</strong> Despesas antecipadas (seguro pago para o ano seguinte) são ativo, porque dão direito a um serviço futuro. Receitas recebidas antecipadamente são passivo, porque geram a obrigação de entregar algo depois.</p><p><strong>Conta de cálculo rápido.</strong> Caixa 30, clientes 50, estoques 70, veículos 100, fornecedores 80, empréstimos 60: ativo 250, passivo 140, PL 110.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "conceitos-objetivos-contabilidade",
+    "atos-e-fatos-administrativos",
+    "balanco-patrimonial"
+   ]
+  },
+  {
+   "slug": "atos-e-fatos-administrativos",
+   "titulo": "Atos e fatos administrativos: permutativos, modificativos e mistos",
+   "grupo": "Fundamentos",
+   "base": "Doutrina contábil",
+   "tax": [
+    "contabilidade.atos-fatos-administrativos"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "atos administrativos",
+    "fatos administrativos",
+    "fato permutativo",
+    "fato modificativo",
+    "fato misto"
+   ],
+   "palavras": [
+    "fato contabil",
+    "fato qualitativo",
+    "fato quantitativo",
+    "aumentativo",
+    "diminutivo",
+    "fato composto",
+    "aval",
+    "fianca",
+    "contrato",
+    "admissao de empregado",
+    "depreciacao",
+    "juros"
+   ],
+   "resumo": "<strong>Ato administrativo</strong> é o acontecimento da gestão que <strong>não altera o patrimônio</strong> de imediato e por isso não é contabilizado nas contas patrimoniais: assinatura de contrato, admissão de empregado, pedido de compra, emissão de orçamento. Os atos que podem vir a afetar o patrimônio, como aval, fiança e bens de terceiros em poder da entidade, podem ser registrados em <strong>contas de compensação</strong>. <strong>Fato administrativo</strong> (fato contábil) é o acontecimento que <strong>altera o patrimônio</strong> e deve ser escriturado. Os fatos se classificam pelo efeito no patrimônio líquido. <strong>Permutativos</strong> (qualitativos) trocam elementos do patrimônio sem alterar o PL: compra de mercadoria à vista ou a prazo, pagamento de fornecedor, recebimento de cliente, obtenção de empréstimo, pagamento antecipado de seguro. <strong>Modificativos</strong> (quantitativos) alteram o PL: são <strong>aumentativos</strong> quando envolvem receita (prestação de serviço recebida em dinheiro) e <strong>diminutivos</strong> quando envolvem despesa (pagamento do salário do mês, depreciação, perda estimada com clientes). <strong>Mistos</strong> (compostos) combinam uma permuta e uma modificação no mesmo evento: pagamento de duplicata com juros (misto diminutivo), recebimento de duplicata com juros (misto aumentativo), recebimento de cliente com desconto concedido (misto diminutivo), venda de bem do imobilizado com lucro (misto aumentativo). O teste é simples: veja se o evento altera o patrimônio; se altera, veja se mexe no PL; se mexe, veja se houve também troca entre elementos patrimoniais.",
+   "esquema": {
+    "rotulo": "classificação dos fatos pelo efeito no PL",
+    "html": "<table><thead><tr><th>Tipo</th><th>Efeito no PL</th><th>Exemplos</th></tr></thead><tbody><tr><td><strong>Ato administrativo</strong></td><td>nenhum efeito patrimonial imediato</td><td>contrato assinado, admissão de empregado, aval prestado (pode ir a compensação)</td></tr><tr><td><strong>Permutativo</strong></td><td>não altera</td><td>compra de mercadoria a prazo; pagamento de fornecedor sem juros; empréstimo obtido</td></tr><tr><td><strong>Modificativo aumentativo</strong></td><td>aumenta</td><td>receita de serviço recebida; juros recebidos</td></tr><tr><td><strong>Modificativo diminutivo</strong></td><td>diminui</td><td>salário do mês pago; depreciação; conta de energia do mês</td></tr><tr><td><strong>Misto aumentativo</strong></td><td>aumenta, com permuta</td><td>recebimento de duplicata com juros; venda de imobilizado com ganho</td></tr><tr><td><strong>Misto diminutivo</strong></td><td>diminui, com permuta</td><td>pagamento de duplicata com juros; recebimento de cliente com desconto concedido</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Mexeu no PL, é modificativo",
+     "texto": "Permutativo troca elementos e deixa o PL igual. Se o PL mudou, o fato é modificativo ou misto."
+    },
+    {
+     "sigla": "Juros junto com a duplicata viram misto",
+     "texto": "Pagar a duplicata é permuta; os juros pagos junto são despesa. As duas coisas no mesmo evento formam o fato misto."
+    },
+    {
+     "sigla": "Pagar despesa já reconhecida é permuta",
+     "texto": "Pagar salários que já estavam em Salários a Pagar só reduz caixa e passivo: o PL caiu antes, quando a despesa foi reconhecida."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O pagamento, em janeiro, dos salários de dezembro, já registrados como despesa no mês anterior, constitui fato modificativo diminutivo.",
+    "gabarito": "E",
+    "explicacao": "Se a despesa já foi reconhecida em dezembro (D Despesa com salários, C Salários a pagar), o pagamento em janeiro só reduz o caixa e o passivo: é fato permutativo. Modificativo diminutivo foi o reconhecimento da despesa em dezembro."
+   },
+   "aprofundamento": "<p><strong>Adiantamento recebido de cliente é permutativo.</strong> O caixa aumenta e surge um passivo (adiantamento de clientes); o PL não muda. A receita só é reconhecida quando o bem ou serviço é entregue, e então o fato é modificativo aumentativo (D Adiantamento de clientes, C Receita).</p><p><strong>Despesa antecipada.</strong> Pagar à vista o seguro dos próximos doze meses é permutativo (D Seguros a apropriar, C Caixa). A apropriação mensal da parcela vencida é modificativa diminutiva.</p><p><strong>Compra de mercadoria e venda de mercadoria.</strong> A compra é permutativa. A venda com lucro, registrada pelo inventário permanente, envolve dois lançamentos (receita e baixa do estoque contra CMV), e o efeito líquido no PL é o lucro bruto; a doutrina costuma tratá-la como fato misto aumentativo.</p><p><strong>Venda de imobilizado pelo valor contábil.</strong> Sem ganho nem perda, o fato é permutativo: sai o bem, entra o caixa no mesmo valor.</p><p><strong>Desconto obtido no pagamento.</strong> Pagar fornecedor de 10.000 com desconto de 500 reduz o passivo em 10.000, o caixa em 9.500 e gera receita financeira de 500: fato misto aumentativo.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "patrimonio-equacao-fundamental",
+    "contas-debito-credito-saldos",
+    "regime-de-competencia-e-caixa"
+   ]
+  },
+  {
+   "slug": "contas-debito-credito-saldos",
+   "titulo": "Contas: natureza, débito, crédito e saldos",
+   "grupo": "Mecanismo contábil",
+   "base": "Doutrina contábil (teoria patrimonialista e partidas dobradas)",
+   "tax": [
+    "contabilidade.contas-debito-credito"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "conta contábil",
+    "débito e crédito",
+    "saldo devedor",
+    "saldo credor",
+    "contas retificadoras",
+    "teorias das contas"
+   ],
+   "palavras": [
+    "razonete",
+    "natureza devedora",
+    "natureza credora",
+    "contas patrimoniais",
+    "contas de resultado",
+    "teoria patrimonialista",
+    "teoria personalista",
+    "teoria materialista",
+    "conta retificadora",
+    "depreciacao acumulada",
+    "acoes em tesouraria",
+    "saldo nulo"
+   ],
+   "resumo": "<strong>Conta</strong> é o nome técnico que identifica um elemento patrimonial (bem, direito, obrigação, PL) ou de resultado (receita, despesa) e registra suas variações. No Brasil prevalece a <strong>teoria patrimonialista</strong>, que divide as contas em <strong>patrimoniais</strong> (ativo, passivo e PL) e <strong>de resultado</strong> (receitas e despesas). O registro segue o <strong>método das partidas dobradas</strong>: a todo débito corresponde crédito de igual valor, e a soma dos débitos é igual à soma dos créditos. No razonete (gráfico em T), o débito fica à esquerda e o crédito à direita. As contas de <strong>ativo</strong> e de <strong>despesa</strong> têm natureza <strong>devedora</strong>: aumentam a débito e diminuem a crédito. As de <strong>passivo</strong>, <strong>PL</strong> e <strong>receita</strong> têm natureza <strong>credora</strong>: aumentam a crédito e diminuem a débito. As <strong>retificadoras</strong> têm natureza oposta à do grupo que corrigem: depreciação acumulada e perdas estimadas com créditos de liquidação duvidosa são credoras e reduzem o ativo; ações em tesouraria, capital a integralizar e prejuízos acumulados são devedoras e reduzem o PL; encargos financeiros a transcorrer é devedora e reduz o passivo. O <strong>saldo</strong> é a diferença entre débitos e créditos: <strong>devedor</strong> se os débitos superam os créditos, <strong>credor</strong> no caso inverso, <strong>nulo</strong> (conta saldada) se forem iguais. Débito e crédito são convenções de posição, não sinônimos de ganho ou perda: debitar o caixa significa aumentá-lo.",
+   "esquema": {
+    "rotulo": "como cada grupo de contas funciona",
+    "html": "<table><thead><tr><th>Grupo</th><th>Natureza do saldo</th><th>Aumenta por</th><th>Diminui por</th></tr></thead><tbody><tr><td><strong>Ativo</strong></td><td>devedora</td><td>débito</td><td>crédito</td></tr><tr><td><strong>Passivo</strong></td><td>credora</td><td>crédito</td><td>débito</td></tr><tr><td><strong>Patrimônio líquido</strong></td><td>credora</td><td>crédito</td><td>débito</td></tr><tr><td><strong>Receita</strong></td><td>credora</td><td>crédito</td><td>débito (estorno, encerramento)</td></tr><tr><td><strong>Despesa</strong></td><td>devedora</td><td>débito</td><td>crédito (estorno, encerramento)</td></tr><tr><td>Retificadora de ativo (depreciação acumulada, perdas estimadas)</td><td>credora</td><td>crédito</td><td>débito</td></tr><tr><td>Retificadora de PL (ações em tesouraria, capital a integralizar, prejuízos acumulados)</td><td>devedora</td><td>débito</td><td>crédito</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Ativo e despesa moram no débito",
+     "texto": "Ativo e despesa aumentam a débito; passivo, PL e receita aumentam a crédito."
+    },
+    {
+     "sigla": "Retificadora tem sinal trocado",
+     "texto": "A retificadora tem a natureza oposta à do grupo em que aparece: no ativo é credora, no PL e no passivo é devedora."
+    },
+    {
+     "sigla": "Débito não é dívida",
+     "texto": "Débito é o lado esquerdo do razonete. Debitar Caixa aumenta o caixa; debitar Fornecedores reduz a dívida."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A conta Depreciação Acumulada, por ser redutora do ativo imobilizado, tem natureza devedora, como as demais contas do ativo.",
+    "gabarito": "E",
+    "explicacao": "Depreciação Acumulada é retificadora do ativo e, por isso, tem natureza credora: aumenta a crédito (D Despesa de depreciação, C Depreciação acumulada) e reduz o valor contábil do bem."
+   },
+   "aprofundamento": "<p><strong>Teorias das contas.</strong> A <strong>personalista</strong> vê as contas como pessoas: agentes consignatários (bens), agentes correspondentes (direitos e obrigações) e proprietário (PL, receitas e despesas). A <strong>materialista</strong> divide as contas em integrais (bens, direitos e obrigações) e diferenciais (PL, receitas e despesas). A <strong>patrimonialista</strong>, adotada no Brasil, divide em patrimoniais e de resultado, e considera receitas e despesas como variações do PL.</p><p><strong>Contas de resultado se encerram.</strong> Ao fim do exercício, receitas e despesas são zeradas contra a conta de apuração do resultado, cujo saldo vai para o PL. Por isso receitas e despesas não aparecem no balanço patrimonial.</p><p><strong>Conta com saldo invertido.</strong> Uma conta de ativo pode ficar momentaneamente com saldo credor (por exemplo, Bancos com cheques emitidos acima do saldo); nesse caso o valor é obrigação e vai para o passivo.</p><p><strong>Exemplo de razonete.</strong> Caixa com débitos de 8.000 e 2.000 e créditos de 3.000 e 1.500 termina com saldo devedor de 5.500 (10.000 − 4.500).</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "plano-de-contas",
+    "escrituracao-lancamentos-e-livros",
+    "balancete-de-verificacao"
+   ]
+  },
+  {
+   "slug": "plano-de-contas",
+   "titulo": "Plano de contas: elenco, função e funcionamento",
+   "grupo": "Mecanismo contábil",
+   "base": "Doutrina contábil",
+   "tax": [
+    "contabilidade.plano-de-contas"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "plano de contas",
+    "elenco de contas",
+    "função das contas",
+    "funcionamento das contas"
+   ],
+   "palavras": [
+    "elenco",
+    "manual de contas",
+    "codificacao",
+    "conta sintetica",
+    "conta analitica",
+    "grau",
+    "contas de compensacao",
+    "natureza do saldo",
+    "flexibilidade",
+    "padronizacao"
+   ],
+   "resumo": "<strong>Plano de contas</strong> é o conjunto estruturado e codificado das contas que a entidade usa para registrar seus fatos, acompanhado das regras de uso de cada uma. Ele padroniza a escrituração ao longo do tempo e entre unidades, e é desenhado a partir das demonstrações que a entidade precisa produzir. A doutrina divide o plano em três partes: o <strong>elenco de contas</strong>, que é a relação ordenada e codificada das contas; o <strong>manual de contas</strong>, que descreve a <strong>função</strong> e o <strong>funcionamento</strong> de cada conta; e os <strong>modelos de demonstrações</strong>. A <strong>função</strong> diz o que a conta registra (por exemplo, Fornecedores registra as obrigações com compras a prazo de bens e serviços ligados à operação). O <strong>funcionamento</strong> diz quando a conta é debitada e quando é creditada (Fornecedores é creditada na compra a prazo e debitada no pagamento ou na devolução). A <strong>natureza do saldo</strong> informa se o saldo esperado é devedor ou credor. As contas se organizam em níveis (graus) por <strong>código hierárquico</strong>: as <strong>sintéticas</strong> agregam outras e não recebem lançamento direto; as <strong>analíticas</strong>, do último nível, recebem os lançamentos. Exemplo: 1 Ativo; 1.1 Ativo Circulante; 1.1.1 Disponibilidades; 1.1.1.01 Caixa. A ordem do elenco segue a do balanço (ativo por liquidez decrescente; passivo por exigibilidade). Um bom plano é <strong>flexível</strong>, aceitando contas novas sem desmontar a codificação.",
+   "esquema": {
+    "rotulo": "as partes do plano de contas",
+    "html": "<table><thead><tr><th>Parte</th><th>Responde a</th><th>Exemplo com a conta Fornecedores</th></tr></thead><tbody><tr><td><strong>Elenco</strong></td><td>quais contas existem e com que código</td><td>2.1.1.01 Fornecedores, no passivo circulante</td></tr><tr><td><strong>Função</strong></td><td>o que a conta registra</td><td>obrigações por compras a prazo de mercadorias e serviços</td></tr><tr><td><strong>Funcionamento</strong></td><td>quando debitar e quando creditar</td><td>credita na compra a prazo; debita no pagamento ou na devolução</td></tr><tr><td><strong>Natureza do saldo</strong></td><td>qual saldo se espera</td><td>credor</td></tr><tr><td><strong>Conta sintética</strong></td><td>agrupa, sem lançamento direto</td><td>2.1 Passivo Circulante</td></tr><tr><td><strong>Conta analítica</strong></td><td>recebe os lançamentos</td><td>2.1.1.01 Fornecedores</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Função diz o quê, funcionamento diz quando",
+     "texto": "Função é o conteúdo da conta; funcionamento é a regra de débito e de crédito."
+    },
+    {
+     "sigla": "Lançamento só na folha da árvore",
+     "texto": "Só as contas analíticas, do último grau, recebem lançamento. As sintéticas somam as de baixo."
+    },
+    {
+     "sigla": "O plano nasce das demonstrações",
+     "texto": "O plano é desenhado para produzir o balanço e a DRE: a ordem do elenco acompanha a ordem das demonstrações."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No plano de contas, a função de uma conta corresponde à indicação de quando ela deve ser debitada e de quando deve ser creditada.",
+    "gabarito": "E",
+    "explicacao": "Isso é o funcionamento da conta. A função descreve o que a conta registra, isto é, seu conteúdo. O manual de contas traz as duas coisas, além da natureza do saldo."
+   },
+   "aprofundamento": "<p><strong>Contas de compensação.</strong> Formam um sistema à parte, usado para registrar atos relevantes que podem vir a afetar o patrimônio, como avais e fianças prestados, bens de terceiros em poder da entidade e contratos assinados. Não integram o ativo nem o passivo e funcionam em pares de saldos iguais.</p><p><strong>Plano e escrituração digital.</strong> Na escrituração contábil digital (SPED), a empresa informa o próprio plano de contas e liga cada conta analítica a um plano referencial. O plano da entidade continua sendo o dela; o referencial serve para padronizar a leitura pelo fisco.</p><p><strong>Retificadoras no elenco.</strong> As retificadoras ficam logo abaixo da conta que corrigem: Depreciação Acumulada abaixo do imobilizado, Perdas Estimadas com Créditos de Liquidação Duvidosa abaixo de Clientes, Ações em Tesouraria dentro do PL.</p><p><strong>Plano não é estático.</strong> A entidade inclui contas novas quando surgem operações novas. Por isso a codificação deixa espaços livres nos níveis.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "contas-debito-credito-saldos",
+    "escrituracao-lancamentos-e-livros"
+   ]
+  },
+  {
+   "slug": "escrituracao-lancamentos-e-livros",
+   "titulo": "Escrituração: lançamentos, fórmulas, livros e métodos",
+   "grupo": "Escrituração",
+   "base": "Arts. 1.179 a 1.186 do Código Civil, art. 177 da Lei 6.404/1976 e NBC ITG 2000",
+   "tax": [
+    "contabilidade.escrituracao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "escrituração contábil",
+    "lançamento contábil",
+    "fórmulas de lançamento",
+    "livro Diário",
+    "livro Razão",
+    "partidas dobradas"
+   ],
+   "palavras": [
+    "primeira formula",
+    "segunda formula",
+    "terceira formula",
+    "quarta formula",
+    "historico",
+    "diario",
+    "razao",
+    "formalidades intrinsecas",
+    "formalidades extrinsecas",
+    "fichas",
+    "balancetes diarios e balancos",
+    "estorno",
+    "lancamento de transferencia",
+    "lancamento complementar",
+    "escrituracao digital",
+    "metodo unigrafico"
+   ],
+   "resumo": "<strong>Escrituração</strong> é a técnica de registrar, em livros ou meio eletrônico, os fatos que alteram o patrimônio, em ordem cronológica e com base em documentos. O registro é o <strong>lançamento</strong>, cujos <strong>elementos essenciais</strong> são: local e data, conta debitada, conta creditada, histórico e valor; a NBC ITG 2000 pede ainda informação que identifique de forma unívoca os registros que formam um mesmo lançamento. Há quatro <strong>fórmulas de lançamento</strong>: <strong>1ª fórmula</strong>, uma conta debitada e uma creditada; <strong>2ª fórmula</strong>, uma conta debitada e duas ou mais creditadas; <strong>3ª fórmula</strong>, duas ou mais debitadas e uma creditada; <strong>4ª fórmula</strong>, duas ou mais debitadas e duas ou mais creditadas. O método universal é o das <strong>partidas dobradas</strong>, divulgado por Luca Pacioli em 1494: não há débito sem crédito de igual valor. Os <strong>processos</strong> de escrituração são o manual, o mecanizado e o eletrônico. O <strong>Diário</strong> é o livro indispensável pelo Código Civil (art. 1.180): registra dia a dia, em ordem cronológica, todas as operações, e pode ser substituído por fichas na escrituração mecanizada ou eletrônica. O <strong>Razão</strong> registra o movimento por conta (ordem sistemática) e é obrigatório para quem apura o lucro real, pela legislação do imposto de renda. A escrituração deve ser feita em <strong>idioma e moeda corrente nacionais</strong>, em ordem cronológica, <strong>sem intervalos em branco, entrelinhas, borrões, rasuras, emendas ou transportes para as margens</strong> (art. 1.183 do CC). Erros se corrigem por <strong>estorno</strong>, <strong>lançamento de transferência</strong> ou <strong>lançamento complementar</strong>, nunca por rasura.",
+   "esquema": {
+    "rotulo": "as quatro fórmulas de lançamento",
+    "html": "<table><thead><tr><th>Fórmula</th><th>Débitos</th><th>Créditos</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>1ª</strong></td><td>1 conta</td><td>1 conta</td><td>compra de mercadoria à vista: D Mercadorias, C Caixa</td></tr><tr><td><strong>2ª</strong></td><td>1 conta</td><td>2 ou mais</td><td>compra de mercadoria parte à vista, parte a prazo: D Mercadorias, C Caixa e C Fornecedores</td></tr><tr><td><strong>3ª</strong></td><td>2 ou mais</td><td>1 conta</td><td>pagamento de duplicata com juros: D Fornecedores e D Juros passivos, C Caixa</td></tr><tr><td><strong>4ª</strong></td><td>2 ou mais</td><td>2 ou mais</td><td>venda de imobilizado com ganho, recebida parte à vista e parte a prazo, com baixa da depreciação acumulada</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "A fórmula conta as contas, não os valores",
+     "texto": "Para achar a fórmula, conte quantas contas foram debitadas e quantas creditadas. Um débito e vários créditos é a 2ª; vários débitos e um crédito é a 3ª."
+    },
+    {
+     "sigla": "Diário é cronológico, Razão é por conta",
+     "texto": "O Diário segue a ordem do tempo; o Razão agrupa os lançamentos por conta e mostra o saldo de cada uma."
+    },
+    {
+     "sigla": "Erro se corrige com lançamento, não com borracha",
+     "texto": "Estorno, transferência e complemento corrigem o erro. Rasura, emenda e entrelinha são vedadas pelo art. 1.183 do CC."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O lançamento que registra uma compra de mercadorias paga parte em dinheiro e parte com aceite de duplicata, com débito em Mercadorias e créditos em Caixa e em Fornecedores, é de terceira fórmula.",
+    "gabarito": "E",
+    "explicacao": "Uma conta debitada (Mercadorias) e duas creditadas (Caixa e Fornecedores) formam o lançamento de segunda fórmula. A terceira fórmula tem duas ou mais contas debitadas e uma só creditada."
+   },
+   "aprofundamento": "<p><strong>Correção de erros pela NBC ITG 2000.</strong> O <strong>estorno</strong> é o lançamento inverso ao feito erradamente, anulando-o totalmente. A <strong>transferência</strong> promove a regularização de conta indevidamente debitada ou creditada, transpondo o valor para a conta correta. A <strong>complementação</strong> aumenta ou reduz o valor anteriormente registrado.</p><p><strong>Diário por fichas.</strong> Quem adota fichas de lançamento pode substituir o Diário pelo livro Balancetes Diários e Balanços (art. 1.185 do CC), que registra a posição diária de cada conta e, no fim do exercício, o balanço patrimonial e o de resultado econômico.</p><p><strong>Escrituração resumida.</strong> O Diário admite totais que não excedam o período de trinta dias para contas de operações numerosas ou feitas fora da sede, desde que existam livros auxiliares autenticados com o registro individualizado (art. 1.184, § 1º, do CC).</p><p><strong>Formalidades extrínsecas e intrínsecas.</strong> Extrínsecas são as de forma do livro: termos de abertura e encerramento e autenticação no Registro Público de Empresas Mercantis antes do uso (art. 1.181 do CC). Intrínsecas são as do conteúdo: idioma e moeda nacionais, ordem cronológica e ausência de rasuras e espaços em branco. O parágrafo único do art. 1.183 admite código de números ou abreviaturas, desde que constem de livro próprio regularmente autenticado.</p><p><strong>Livros auxiliares.</strong> Caixa e Contas-Correntes detalham contas específicas e não são obrigatórios pela lei comercial. O Livro de Inventário é exigido pela legislação fiscal.</p><p><strong>Pequeno empresário.</strong> O art. 1.179, § 2º, do CC dispensa o pequeno empresário do sistema de contabilidade e do balanço anual exigidos no caput.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "contas-debito-credito-saldos",
+    "regime-de-competencia-e-caixa",
+    "balancete-de-verificacao"
+   ]
+  },
+  {
+   "slug": "regime-de-competencia-e-caixa",
+   "titulo": "Regime de competência e regime de caixa",
+   "grupo": "Escrituração",
+   "base": "Arts. 177 e 187, § 1º, da Lei 6.404/1976 e NBC TG Estrutura Conceitual",
+   "tax": [
+    "contabilidade.regimes-competencia-caixa"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "regime de competência",
+    "regime de caixa",
+    "despesas antecipadas",
+    "receitas antecipadas"
+   ],
+   "palavras": [
+    "competencia",
+    "caixa",
+    "fato gerador",
+    "confrontacao",
+    "despesa a pagar",
+    "receita a receber",
+    "seguros a apropriar",
+    "aluguel antecipado",
+    "apropriacao",
+    "diferimento"
+   ],
+   "resumo": "Pelo <strong>regime de competência</strong>, receitas e despesas são reconhecidas no período em que ocorrem os fatos que as geram, <strong>independentemente de recebimento ou pagamento</strong>. A Lei 6.404/1976 manda registrar as mutações patrimoniais segundo esse regime (art. 177) e, na apuração do resultado, computar as receitas e rendimentos ganhos no período, independentemente da sua realização em moeda, e os custos, despesas, encargos e perdas, pagos ou incorridos, correspondentes a essas receitas (art. 187, § 1º). Daí a ideia de <strong>confrontação</strong>: a despesa é reconhecida junto com a receita que ajudou a gerar. Pelo <strong>regime de caixa</strong>, a receita só é reconhecida quando recebida e a despesa quando paga. A contabilidade societária usa a competência; o caixa aparece em situações específicas, como a opção de algumas empresas pelo lucro presumido com tributação pelo recebimento, e no controle financeiro. A competência gera quatro tipos de ajuste: <strong>despesa a pagar</strong> (incorrida e não paga, passivo); <strong>receita a receber</strong> (ganha e não recebida, ativo); <strong>despesa antecipada</strong> (paga e ainda não incorrida, ativo); <strong>receita antecipada</strong> (recebida e ainda não ganha, passivo). Exemplo: seguro anual de 12.000 pago em 1º de outubro. Na competência, a despesa do ano é de 3.000 (outubro a dezembro) e sobram 9.000 no ativo; no caixa, a despesa seria de 12.000 em outubro.",
+   "esquema": {
+    "rotulo": "competência × caixa, nos quatro casos",
+    "html": "<table><thead><tr><th>Situação</th><th>Competência</th><th>Caixa</th><th>Conta que surge</th></tr></thead><tbody><tr><td><strong>Aluguel de dezembro pago em janeiro</strong></td><td>despesa em dezembro</td><td>despesa em janeiro</td><td>Aluguéis a pagar (passivo)</td></tr><tr><td><strong>Serviço prestado em dezembro, recebido em janeiro</strong></td><td>receita em dezembro</td><td>receita em janeiro</td><td>Clientes (ativo)</td></tr><tr><td><strong>Seguro do ano seguinte pago em dezembro</strong></td><td>despesa no ano seguinte, mês a mês</td><td>despesa em dezembro</td><td>Seguros a apropriar (ativo)</td></tr><tr><td><strong>Aluguel do ano seguinte recebido em dezembro</strong></td><td>receita no ano seguinte, mês a mês</td><td>receita em dezembro</td><td>Aluguéis recebidos antecipadamente (passivo)</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Competência olha o fato, caixa olha o dinheiro",
+     "texto": "Na competência, pergunte quando a receita foi ganha ou a despesa incorrida. No caixa, pergunte quando o dinheiro entrou ou saiu."
+    },
+    {
+     "sigla": "Pago antes vira ativo, recebido antes vira passivo",
+     "texto": "Despesa paga antecipadamente é ativo; receita recebida antecipadamente é passivo, até o período a que se referem."
+    },
+    {
+     "sigla": "No fim, os lucros se igualam",
+     "texto": "Somando todos os períodos, o lucro pela competência e pelo caixa é o mesmo. O que muda é em qual período ele aparece."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Pelo regime de competência, o aluguel do mês de dezembro, pago apenas em 10 de janeiro do ano seguinte, deve ser reconhecido como despesa em janeiro, data do desembolso.",
+    "gabarito": "E",
+    "explicacao": "Na competência, a despesa pertence ao mês em que foi incorrida: dezembro. Em dezembro se registra D Despesa de aluguel e C Aluguéis a pagar; em janeiro o pagamento só baixa o passivo. Reconhecer em janeiro seria regime de caixa."
+   },
+   "aprofundamento": "<p><strong>Ganho, não recebido.</strong> A Lei 6.404 fala em receitas ganhas no período, independentemente da realização em moeda: venda a prazo é receita no momento da venda, e não no recebimento das parcelas.</p><p><strong>Conta para resolver.</strong> Empresa recebeu em 1º de novembro 6.000 de aluguel adiantado por seis meses. Em 31 de dezembro, pela competência, a receita do ano é de 2.000 (novembro e dezembro, 1.000 por mês) e restam 4.000 no passivo como aluguéis recebidos antecipadamente.</p><p><strong>Lucro por caixa e por competência.</strong> Em um mês com vendas de 50.000 (30.000 recebidas), despesas incorridas de 35.000 (20.000 pagas) e recebimento de 5.000 de vendas do mês anterior: lucro pela competência = 50.000 − 35.000 = 15.000; resultado pelo caixa = 30.000 + 5.000 − 20.000 = 15.000. A coincidência é acaso; em geral os valores diferem.</p><p><strong>Estrutura Conceitual e CPC 26.</strong> A contabilização pelo regime de competência retrata os efeitos de transações e eventos nos períodos em que ocorrem, mesmo que os recebimentos e pagamentos ocorram em períodos diferentes. Pelo CPC 26, a entidade elabora suas demonstrações pelo regime de competência, exceto a demonstração dos fluxos de caixa.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "escrituracao-lancamentos-e-livros",
+    "tributos-folha-e-alugueis",
+    "demonstracao-do-resultado-do-exercicio"
+   ]
+  },
+  {
+   "slug": "juros-descontos-e-variacao-cambial",
+   "titulo": "Juros, descontos, desconto de duplicatas e variação monetária e cambial",
+   "grupo": "Operações contábeis",
+   "base": "Arts. 183 e 184 da Lei 6.404/1976, CPC 02 e doutrina",
+   "tax": [
+    "contabilidade.juros-descontos-variacao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "juros ativos e passivos",
+    "desconto comercial",
+    "desconto financeiro",
+    "duplicatas descontadas",
+    "variação cambial",
+    "variação monetária"
+   ],
+   "palavras": [
+    "juros passivos",
+    "juros ativos",
+    "descontos incondicionais",
+    "descontos condicionais",
+    "descontos obtidos",
+    "descontos concedidos",
+    "encargos financeiros a transcorrer",
+    "duplicatas descontadas",
+    "variacao cambial passiva",
+    "variacao cambial ativa",
+    "taxa de cambio da data do balanco",
+    "emprestimo prefixado"
+   ],
+   "resumo": "<strong>Juros</strong> são remuneração do capital e seguem a competência, apropriados pelo tempo decorrido. <strong>Juros passivos</strong> (incorridos) são despesa financeira; <strong>juros ativos</strong> (ganhos) são receita financeira. <strong>Descontos comerciais</strong> ou <strong>incondicionais</strong> constam da nota fiscal e não dependem de evento futuro: na compra, reduzem o custo de aquisição; na venda, são dedução da receita bruta. <strong>Descontos financeiros</strong> ou <strong>condicionais</strong> dependem de pagamento antecipado: o <strong>obtido</strong> é receita financeira e o <strong>concedido</strong> é despesa financeira. No <strong>desconto de duplicatas</strong>, a empresa entrega títulos ao banco e recebe o valor antes do vencimento, pagando encargos; como continua responsável se o cliente não pagar, a operação é um empréstimo: D Bancos, D Encargos financeiros a transcorrer (retificadora do passivo) e C Duplicatas descontadas (passivo). Os encargos são apropriados como despesa financeira ao longo do prazo. Em <strong>empréstimos prefixados</strong>, os juros embutidos também ficam em conta retificadora do passivo e viram despesa mês a mês. <strong>Variação monetária</strong> é a atualização de direitos e obrigações por índice; <strong>variação cambial</strong> é a atualização de itens em moeda estrangeira. As obrigações em moeda estrangeira com cláusula de paridade cambial são convertidas pela taxa de câmbio em vigor na data do balanço (art. 184, II, da Lei 6.404). Se a moeda estrangeira se valoriza, a dívida cresce: <strong>variação cambial passiva</strong> (despesa). Um direito a receber em moeda estrangeira gera, no mesmo cenário, <strong>variação cambial ativa</strong> (receita).",
+   "esquema": {
+    "rotulo": "descontos e variações: onde cada um vai",
+    "html": "<table><thead><tr><th>Item</th><th>Para quem compra ou deve</th><th>Para quem vende ou tem a receber</th></tr></thead><tbody><tr><td><strong>Desconto incondicional (comercial)</strong></td><td>reduz o custo de aquisição</td><td>dedução da receita bruta</td></tr><tr><td><strong>Desconto condicional (financeiro)</strong></td><td>desconto obtido: receita financeira</td><td>desconto concedido: despesa financeira</td></tr><tr><td><strong>Juros</strong></td><td>juros passivos: despesa financeira</td><td>juros ativos: receita financeira</td></tr><tr><td><strong>Moeda estrangeira se valoriza</strong></td><td>variação cambial passiva (despesa)</td><td>variação cambial ativa (receita)</td></tr><tr><td><strong>Moeda estrangeira se desvaloriza</strong></td><td>variação cambial ativa (receita)</td><td>variação cambial passiva (despesa)</td></tr><tr><td><strong>Desconto de duplicatas</strong></td><td colspan=\"2\">empréstimo: Duplicatas descontadas no passivo; encargos a transcorrer como retificadora do passivo, apropriados pelo prazo</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Incondicional mexe no preço, condicional mexe no financeiro",
+     "texto": "Desconto que já vem na nota altera o preço (custo ou receita). Desconto por pagar antes é resultado financeiro."
+    },
+    {
+     "sigla": "Dólar sobe, dívida em dólar dá despesa",
+     "texto": "Quem deve em moeda estrangeira perde quando ela se valoriza: variação cambial passiva. Quem tem a receber ganha."
+    },
+    {
+     "sigla": "Duplicata descontada é dívida",
+     "texto": "O banco antecipou o dinheiro e a empresa responde se o cliente não pagar: a obrigação vai para o passivo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O desconto obtido de fornecedor em razão do pagamento antecipado de duplicata deve ser registrado como redução do custo de aquisição das mercadorias compradas.",
+    "gabarito": "E",
+    "explicacao": "Desconto por pagamento antecipado é condicional (financeiro): o desconto obtido é receita financeira. Só os descontos incondicionais, destacados na nota e independentes de evento futuro, reduzem o custo de aquisição."
+   },
+   "aprofundamento": "<p><strong>Conta de variação cambial.</strong> Dívida de US$ 10.000 registrada à taxa de R$ 5,00 (R$ 50.000). Na data do balanço, a taxa é R$ 5,40: a dívida passa a R$ 54.000 e a empresa reconhece variação cambial passiva de R$ 4.000 (D Variação cambial passiva, C Empréstimos em moeda estrangeira). Se a taxa caísse a R$ 4,80, haveria variação cambial ativa de R$ 2.000.</p><p><strong>Conta de desconto de duplicatas.</strong> Duplicatas de 20.000 descontadas com encargos de 600 por dois meses: D Bancos 19.400, D Encargos financeiros a transcorrer 600, C Duplicatas descontadas 20.000. A cada mês, D Despesa financeira 300, C Encargos financeiros a transcorrer 300. Quando o cliente paga ao banco, D Duplicatas descontadas, C Duplicatas a receber.</p><p><strong>Juros pela competência.</strong> Empréstimo obtido em 1º de dezembro com juros de 1% ao mês sobre 100.000, pagáveis no vencimento em março: em dezembro já há despesa financeira de 1.000 e juros a pagar de 1.000 no passivo.</p><p><strong>Ajuste a valor presente.</strong> A Lei 6.404 manda ajustar a valor presente os ativos e passivos de longo prazo, e os demais quando houver efeito relevante (arts. 183, VIII, e 184, III). A diferença entre o valor nominal e o presente é apropriada como receita ou despesa financeira ao longo do prazo.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "tributos-folha-e-alugueis",
+    "compras-vendas-e-estoques",
+    "demonstracao-do-resultado-do-exercicio"
+   ]
+  },
+  {
+   "slug": "tributos-folha-e-alugueis",
+   "titulo": "Tributos, folha de pagamento e aluguéis",
+   "grupo": "Operações contábeis",
+   "base": "Doutrina, CPC 06 (R2) e CPC 25",
+   "tax": [
+    "contabilidade.tributos-folha-alugueis"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "tributos recuperáveis",
+    "ICMS a recuperar",
+    "folha de pagamento",
+    "encargos sociais",
+    "aluguéis"
+   ],
+   "palavras": [
+    "icms a recuperar",
+    "icms a recolher",
+    "tributos sobre vendas",
+    "tributos nao recuperaveis",
+    "inss retido",
+    "inss patronal",
+    "fgts",
+    "irrf",
+    "salarios a pagar",
+    "ferias",
+    "decimo terceiro",
+    "aluguel a pagar",
+    "arrendamento",
+    "direito de uso",
+    "iptu",
+    "irpj",
+    "csll"
+   ],
+   "resumo": "<strong>Tributos na compra.</strong> O tributo <strong>recuperável</strong> (que gera crédito para abater do devido nas vendas, como o ICMS para o comerciante contribuinte) <strong>não integra o custo</strong> da mercadoria: vai para ICMS a recuperar, no ativo. O tributo não recuperável integra o custo. Compra de 10.000 com ICMS de 18% destacado: D Mercadorias 8.200, D ICMS a recuperar 1.800, C Fornecedores 10.000. <strong>Tributos na venda.</strong> O ICMS sobre vendas é dedução da receita bruta: D ICMS sobre vendas, C ICMS a recolher. No fim do período, confronta-se o débito com o crédito e recolhe-se a diferença. <strong>Tributos sobre o lucro</strong> (IRPJ e CSLL) aparecem depois do resultado antes dos tributos. Tributos que não dependem de venda nem de lucro, como IPTU e IPVA, são despesas operacionais. <strong>Folha de pagamento.</strong> O salário bruto é despesa. O INSS e o imposto de renda retidos do empregado não são despesa da empresa: são descontados do salário e viram passivo (INSS a recolher, IRRF a recolher). O INSS patronal e o FGTS são <strong>encargos da empresa</strong>: despesa e passivo. O FGTS é depositado pelo empregador e não é descontado do salário. <strong>Férias e 13º salário</strong> são reconhecidos mês a mês pela competência. <strong>Aluguéis</strong> são despesa ou receita do mês a que se referem; pagos antes, são despesa antecipada (ativo); recebidos antes, são passivo. Pelo CPC 06 (R2), o arrendatário reconhece, em regra, um ativo de direito de uso e um passivo de arrendamento, com isenção opcional para arrendamentos de curto prazo e de ativos de baixo valor.",
+   "esquema": {
+    "rotulo": "folha de pagamento: o que é despesa e o que é retenção",
+    "html": "<table><thead><tr><th>Item</th><th>Despesa da empresa?</th><th>Passivo gerado</th></tr></thead><tbody><tr><td><strong>Salário bruto</strong></td><td>sim</td><td>Salários a pagar (pelo líquido)</td></tr><tr><td><strong>INSS do empregado (retido)</strong></td><td>não, é desconto do salário</td><td>INSS a recolher</td></tr><tr><td><strong>IRRF do empregado (retido)</strong></td><td>não, é desconto do salário</td><td>IRRF a recolher</td></tr><tr><td><strong>INSS patronal</strong></td><td>sim (encargo social)</td><td>INSS a recolher</td></tr><tr><td><strong>FGTS (8% sobre a remuneração)</strong></td><td>sim (encargo social)</td><td>FGTS a recolher</td></tr><tr><td><strong>Férias e 13º, mês a mês</strong></td><td>sim, por competência</td><td>Férias a pagar e 13º a pagar, com encargos</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Retido do empregado não é despesa",
+     "texto": "O que se desconta do salário (INSS do empregado, IRRF) é obrigação da empresa repassar, mas a despesa já está no salário bruto."
+    },
+    {
+     "sigla": "FGTS sai do bolso da empresa",
+     "texto": "O FGTS é encargo do empregador, somado à folha; não é descontado do empregado."
+    },
+    {
+     "sigla": "Tributo recuperável fica fora do estoque",
+     "texto": "Se o tributo da compra vira crédito, ele vai para o ativo como tributo a recuperar, e o estoque entra pelo líquido."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na contabilização da folha, a contribuição previdenciária descontada do salário dos empregados é registrada como despesa de encargos sociais da empresa.",
+    "gabarito": "E",
+    "explicacao": "O INSS descontado do empregado é retenção: reduz o valor a pagar ao empregado e vira INSS a recolher no passivo. A despesa da empresa é o salário bruto mais os encargos patronais, como a contribuição previdenciária patronal e o FGTS."
+   },
+   "aprofundamento": "<p><strong>Conta de folha.</strong> Salário bruto 10.000; INSS retido 900; IRRF retido 500; INSS patronal de 20% e FGTS de 8% sobre o bruto. Salários a pagar = 10.000 − 900 − 500 = 8.600. Despesa total da empresa = 10.000 + 2.000 + 800 = 12.800. Passivo total gerado = 8.600 + 900 + 500 + 2.000 + 800 = 12.800. As alíquotas são de exemplo; na prova, use as que o enunciado der.</p><p><strong>Férias e 13º não são provisão em sentido estrito.</strong> O CPC 25 distingue provisões, que têm incerteza de prazo ou valor, dos passivos derivados de apropriações por competência, como férias e 13º a pagar, cuja incerteza é bem menor. Por costume se diz provisão de férias, mas a classificação técnica é de obrigação apropriada pela competência.</p><p><strong>Conta de ICMS.</strong> Comprou por 10.000 com ICMS de 1.800 recuperável; vendeu por 15.000 com ICMS de 18% (2.700). ICMS a recolher no período = 2.700 − 1.800 = 900. O custo da mercadoria é 8.200.</p><p><strong>Tributo não recuperável integra o custo.</strong> Para a empresa que não se credita do ICMS, o imposto destacado na nota faz parte do custo do estoque.</p><p><strong>Aluguel recebido antecipadamente.</strong> É passivo (receita diferida), reconhecido como receita mês a mês, à medida que o imóvel é cedido.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "juros-descontos-e-variacao-cambial",
+    "compras-vendas-e-estoques",
+    "regime-de-competencia-e-caixa"
+   ]
+  },
+  {
+   "slug": "compras-vendas-e-estoques",
+   "titulo": "Compras, vendas, estoques e custo das mercadorias vendidas",
+   "grupo": "Operações contábeis",
+   "base": "Art. 183, II, da Lei 6.404/1976, CPC 16 (R1) e CPC 47",
+   "tax": [
+    "contabilidade.compras-vendas-estoques"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "custo de aquisição",
+    "custo das mercadorias vendidas",
+    "inventário periódico",
+    "inventário permanente",
+    "PEPS",
+    "média ponderada"
+   ],
+   "palavras": [
+    "cmv",
+    "estoque inicial",
+    "estoque final",
+    "compras liquidas",
+    "frete sobre compras",
+    "frete sobre vendas",
+    "devolucao de compras",
+    "devolucao de vendas",
+    "abatimentos",
+    "peps",
+    "ueps",
+    "media ponderada movel",
+    "valor realizavel liquido",
+    "receita liquida",
+    "lucro bruto"
+   ],
+   "resumo": "O <strong>custo de aquisição</strong> do estoque inclui o preço de compra, os tributos não recuperáveis, o frete e o seguro pagos pelo comprador e outros gastos para trazer o bem à condição de venda. Dele se deduzem os <strong>tributos recuperáveis</strong>, os <strong>descontos incondicionais</strong>, os <strong>abatimentos</strong> e as <strong>devoluções de compras</strong>. O <strong>frete sobre vendas</strong>, ao contrário, é despesa de vendas. O <strong>custo das mercadorias vendidas</strong> pode ser apurado por <strong>inventário periódico</strong>, com contagem física no fim do período: <strong>CMV = Estoque inicial + Compras líquidas − Estoque final</strong>. No <strong>inventário permanente</strong>, cada entrada e saída é registrada na ficha de controle, e o CMV é lançado a cada venda (D CMV, C Mercadorias). Os critérios de valoração das saídas são o <strong>PEPS</strong> (primeiro que entra, primeiro que sai) e a <strong>média ponderada</strong> (móvel, recalculada a cada entrada, ou fixa, do período). O <strong>UEPS</strong> não é aceito pelo CPC 16 nem pela legislação do imposto de renda. Com preços subindo, o PEPS dá CMV menor, estoque final maior e lucro maior que a média. Na venda, a <strong>receita bruta</strong> menos devoluções de vendas, abatimentos, descontos incondicionais e tributos sobre vendas dá a <strong>receita líquida</strong>; menos o CMV, o <strong>lucro bruto</strong> (resultado com mercadorias). Os estoques são mensurados pelo <strong>menor valor entre o custo e o valor realizável líquido</strong>, que é o preço de venda estimado menos os custos para concluir e vender.",
+   "esquema": {
+    "rotulo": "o que entra e o que sai do custo do estoque",
+    "html": "<table><thead><tr><th>Gasto</th><th>Tratamento</th></tr></thead><tbody><tr><td><strong>Preço de compra</strong></td><td>integra o custo</td></tr><tr><td><strong>Frete e seguro sobre compras pagos pelo comprador</strong></td><td>integram o custo</td></tr><tr><td><strong>Tributo não recuperável</strong></td><td>integra o custo</td></tr><tr><td><strong>Tributo recuperável (ICMS do contribuinte)</strong></td><td>fora do custo: tributo a recuperar, no ativo</td></tr><tr><td><strong>Desconto incondicional e abatimento obtidos</strong></td><td>reduzem o custo</td></tr><tr><td><strong>Devolução de compras</strong></td><td>reduz as compras</td></tr><tr><td><strong>Desconto financeiro obtido</strong></td><td>receita financeira, não mexe no custo</td></tr><tr><td><strong>Frete sobre vendas</strong></td><td>despesa com vendas</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "CMV é o que havia mais o que entrou menos o que sobrou",
+     "texto": "CMV = EI + Compras líquidas − EF. Se o estoque final aumenta, o CMV diminui e o lucro sobe."
+    },
+    {
+     "sigla": "Frete na compra é custo, na venda é despesa",
+     "texto": "O frete para trazer a mercadoria entra no estoque; o frete para entregar ao cliente vai para despesas de vendas."
+    },
+    {
+     "sigla": "Preço subindo, PEPS lucra mais",
+     "texto": "Em inflação, o PEPS joga para o CMV os custos antigos, mais baratos, e deixa no estoque os custos novos, mais caros."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Em período de preços crescentes, a avaliação dos estoques pelo PEPS resulta em custo das mercadorias vendidas maior e lucro bruto menor que os obtidos pela média ponderada móvel.",
+    "gabarito": "E",
+    "explicacao": "É o contrário. Com preços em alta, o PEPS baixa primeiro as unidades mais antigas e baratas: CMV menor, estoque final maior e lucro bruto maior que pela média ponderada."
+   },
+   "aprofundamento": "<p><strong>Conta de CMV.</strong> Estoque inicial 5.000; compras brutas 22.000; devolução de compras 1.000; frete sobre compras 1.000; ICMS recuperável nas compras 3.000; estoque final 6.000. Compras líquidas = 22.000 − 1.000 + 1.000 − 3.000 = 19.000. CMV = 5.000 + 19.000 − 6.000 = 18.000.</p><p><strong>Conta de PEPS e média.</strong> Estoque inicial de 10 unidades a 10; compra de 10 unidades a 14; venda de 15 unidades. PEPS: CMV = 10 × 10 + 5 × 14 = 170; estoque final = 5 × 14 = 70. Média ponderada móvel: custo médio = (100 + 140) ÷ 20 = 12; CMV = 15 × 12 = 180; estoque final = 60.</p><p><strong>Valor realizável líquido.</strong> Se o custo de um lote é 1.000 e ele só pode ser vendido por 900 com despesa de venda de 50, o valor realizável líquido é 850. O estoque é reduzido a 850, com perda de 150 no resultado. A Lei 6.404 diz o mesmo com outras palavras: custo de aquisição deduzido de provisão para ajustá-lo ao valor de mercado, quando este for inferior (art. 183, II).</p><p><strong>Devolução e abatimento.</strong> Devolução é retorno físico da mercadoria; abatimento é redução do preço por defeito ou atraso, sem retorno. Na venda, os dois são deduções da receita bruta.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "tributos-folha-e-alugueis",
+    "demonstracao-do-resultado-do-exercicio",
+    "juros-descontos-e-variacao-cambial"
+   ]
+  },
+  {
+   "slug": "provisoes-depreciacao-e-baixa-de-bens",
+   "titulo": "Provisões, perdas estimadas, depreciação e baixa de bens",
+   "grupo": "Operações contábeis",
+   "base": "Art. 183, § 2º, da Lei 6.404/1976, CPC 25, CPC 27 e CPC 01",
+   "tax": [
+    "contabilidade.provisoes",
+    "contabilidade.depreciacao-baixa"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "provisão",
+    "passivo contingente",
+    "depreciação",
+    "amortização",
+    "exaustão",
+    "baixa de imobilizado"
+   ],
+   "palavras": [
+    "provisao",
+    "passivo contingente",
+    "ativo contingente",
+    "provavel",
+    "possivel",
+    "remota",
+    "perdas estimadas com creditos de liquidacao duvidosa",
+    "pecld",
+    "depreciacao acumulada",
+    "valor residual",
+    "vida util",
+    "linear",
+    "soma dos digitos",
+    "unidades produzidas",
+    "valor contabil",
+    "ganho ou perda na alienacao",
+    "impairment",
+    "valor recuperavel",
+    "terrenos"
+   ],
+   "resumo": "Pelo <strong>CPC 25</strong>, <strong>provisão</strong> é um passivo de prazo ou valor incertos. É reconhecida quando há obrigação presente, legal ou não formalizada, resultante de evento passado; quando é <strong>provável</strong> a saída de recursos para liquidá-la; e quando o valor pode ser estimado com confiabilidade. Se a saída é apenas <strong>possível</strong>, há <strong>passivo contingente</strong>: não se reconhece, só se divulga em nota; se é <strong>remota</strong>, nem se divulga. O <strong>ativo contingente</strong> não é reconhecido; é divulgado quando a entrada é provável e reconhecido como ativo quando ela é praticamente certa. As antigas provisões que reduzem ativos hoje se chamam <strong>perdas estimadas</strong>, como as perdas estimadas com créditos de liquidação duvidosa, retificadora de Clientes. A <strong>depreciação</strong> registra a perda de valor de bens físicos por desgaste, uso, ação da natureza ou obsolescência; a <strong>amortização</strong>, a de direitos de duração limitada e do intangível; a <strong>exaustão</strong>, a de recursos minerais ou florestais explorados (art. 183, § 2º, da Lei 6.404). Pelo <strong>CPC 27</strong>, o valor depreciável é o custo menos o <strong>valor residual</strong>, distribuído pela <strong>vida útil</strong>; a depreciação começa quando o bem está disponível para uso. <strong>Terrenos não se depreciam</strong>. Métodos: linear, soma dos dígitos e unidades produzidas. Na <strong>baixa por venda</strong>, o ganho ou perda é o valor de venda menos o <strong>valor contábil</strong> (custo menos depreciação acumulada e perdas por redução ao valor recuperável), e vai para outras receitas ou outras despesas.",
+   "esquema": {
+    "rotulo": "provável, possível e remota",
+    "html": "<table><thead><tr><th>Probabilidade de saída de recursos</th><th>Passivo (obrigação)</th><th>Ativo (entrada de recursos)</th></tr></thead><tbody><tr><td><strong>Praticamente certa</strong></td><td>reconhece passivo</td><td>reconhece ativo (deixa de ser contingente)</td></tr><tr><td><strong>Provável</strong></td><td>reconhece provisão, se o valor for estimável</td><td>não reconhece; divulga em nota</td></tr><tr><td><strong>Possível</strong></td><td>não reconhece; divulga passivo contingente</td><td>não reconhece nem divulga</td></tr><tr><td><strong>Remota</strong></td><td>não reconhece nem divulga</td><td>não reconhece nem divulga</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Provável provisiona, possível divulga, remota ignora",
+     "texto": "É a escada do passivo no CPC 25. Para o ativo contingente, a escada é mais exigente: provável só divulga."
+    },
+    {
+     "sigla": "Depreciação parte do custo menos o residual",
+     "texto": "Valor depreciável = custo − valor residual. Divida pela vida útil no método linear."
+    },
+    {
+     "sigla": "Ganho na venda é preço menos valor contábil",
+     "texto": "Compare o preço de venda com o custo líquido da depreciação acumulada, não com o custo original."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o CPC 25, o passivo contingente cuja saída de recursos seja considerada possível deve ser reconhecido no balanço como provisão, desde que seu valor possa ser estimado com confiabilidade.",
+    "gabarito": "E",
+    "explicacao": "Provisão exige saída de recursos provável. Se a saída é apenas possível, o passivo contingente não é reconhecido: é só divulgado em nota explicativa. Se for remota, nem a divulgação é exigida."
+   },
+   "aprofundamento": "<p><strong>Conta de depreciação linear.</strong> Máquina de 100.000, valor residual de 10.000 e vida útil de 5 anos: depreciação anual = (100.000 − 10.000) ÷ 5 = 18.000. Ao fim do 2º ano, depreciação acumulada de 36.000 e valor contábil de 64.000.</p><p><strong>Conta de soma dos dígitos.</strong> Mesma máquina, vida útil de 5 anos: soma dos dígitos = 1 + 2 + 3 + 4 + 5 = 15. Pelo método decrescente, a depreciação do 1º ano é 5/15 de 90.000 = 30.000; a do 2º ano, 4/15 de 90.000 = 24.000.</p><p><strong>Conta de baixa.</strong> Veículo com custo de 50.000 e depreciação acumulada de 30.000, vendido à vista por 25.000. Valor contábil = 20.000; ganho = 25.000 − 20.000 = 5.000, em outras receitas. Lançamento: D Caixa 25.000, D Depreciação acumulada 30.000, C Veículos 50.000, C Ganho na alienação de imobilizado 5.000 (4ª fórmula).</p><p><strong>Bem parado continua depreciando.</strong> Pelo CPC 27, a depreciação não cessa quando o ativo fica ocioso ou é retirado do uso, a menos que esteja totalmente depreciado; no método das unidades produzidas, porém, a despesa pode ser zero enquanto não houver produção.</p><p><strong>Redução ao valor recuperável.</strong> Pelo CPC 01, o valor recuperável é o maior entre o valor justo líquido de despesas de venda e o valor em uso. Se o valor contábil supera o recuperável, reconhece-se perda. A Lei 6.404 manda fazer essa análise periodicamente no imobilizado e no intangível (art. 183, § 3º).</p><p><strong>Perdas estimadas com clientes.</strong> O lançamento é D Despesa com perdas estimadas, C Perdas estimadas com créditos de liquidação duvidosa (retificadora de Clientes). Quando o crédito se mostra incobrável, D Perdas estimadas, C Clientes, sem novo efeito no resultado.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "atos-e-fatos-administrativos",
+    "balanco-patrimonial",
+    "demonstracao-do-resultado-do-exercicio"
+   ]
+  },
+  {
+   "slug": "balancete-de-verificacao",
+   "titulo": "Balancete de verificação: conceito, modelos e elaboração",
+   "grupo": "Demonstrações",
+   "base": "Doutrina contábil e método das partidas dobradas",
+   "tax": [
+    "contabilidade.balancete"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "balancete de verificação",
+    "erros que o balancete detecta",
+    "modelos de balancete"
+   ],
+   "palavras": [
+    "balancete",
+    "saldos devedores",
+    "saldos credores",
+    "duas colunas",
+    "quatro colunas",
+    "seis colunas",
+    "movimento",
+    "erro de inversao",
+    "omissao",
+    "duplicidade",
+    "troca de contas",
+    "levantamento",
+    "antes do encerramento",
+    "apuracao do resultado"
+   ],
+   "resumo": "O <strong>balancete de verificação</strong> é a relação das contas do Razão, com seus saldos (e, em alguns modelos, seus movimentos) numa data. Sua função principal é <strong>verificar se o método das partidas dobradas foi respeitado</strong>: o total dos saldos devedores deve ser igual ao total dos saldos credores. Também serve de base para elaborar as demonstrações e para acompanhar a gestão ao longo do exercício (balancetes mensais). Não é demonstração obrigatória pela Lei 6.404 e não substitui o balanço. A <strong>técnica de elaboração</strong> é: apurar o saldo de cada conta no Razão, listar as contas na ordem do plano, lançar cada saldo na coluna devedora ou credora conforme sua natureza e somar as colunas. Os <strong>modelos</strong> variam pelo número de colunas de valores: o de <strong>duas colunas</strong> traz só os saldos devedores e credores; o de <strong>quatro colunas</strong> traz o movimento a débito e a crédito do período e os saldos; o de <strong>seis colunas</strong> acrescenta o saldo anterior, devedor e credor. O balancete fecha mesmo com certos erros, porque eles não quebram a igualdade entre débitos e créditos: <strong>omissão</strong> de lançamento, lançamento em <strong>duplicidade</strong>, <strong>troca de uma conta por outra</strong> no mesmo lado, <strong>inversão</strong> das contas debitada e creditada e valor errado registrado igualmente nos dois lados. Ele acusa o erro quando o débito e o crédito de um lançamento têm valores diferentes, quando falta uma das partidas, quando um saldo é transcrito com valor errado ou na coluna errada e quando há erro de soma.",
+   "esquema": {
+    "rotulo": "erros que o balancete detecta e erros que não detecta",
+    "html": "<table><thead><tr><th>Erro</th><th>O balancete acusa?</th><th>Por quê</th></tr></thead><tbody><tr><td><strong>Lançamento omitido</strong></td><td>não</td><td>faltam débito e crédito de igual valor</td></tr><tr><td><strong>Lançamento em duplicidade</strong></td><td>não</td><td>sobram débito e crédito iguais</td></tr><tr><td><strong>Inversão de débito e crédito</strong></td><td>não</td><td>os totais continuam iguais</td></tr><tr><td><strong>Conta errada no mesmo lado</strong></td><td>não</td><td>muda a conta, não o total</td></tr><tr><td><strong>Mesmo valor errado nos dois lados</strong></td><td>não</td><td>a diferença se compensa</td></tr><tr><td><strong>Débito e crédito com valores diferentes</strong></td><td>sim</td><td>quebra a igualdade</td></tr><tr><td><strong>Só uma das partidas lançada</strong></td><td>sim</td><td>quebra a igualdade</td></tr><tr><td><strong>Saldo transcrito errado ou na coluna errada</strong></td><td>sim</td><td>muda só um dos totais</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Fechou não quer dizer certo",
+     "texto": "O balancete só testa a igualdade entre débitos e créditos. Erros que mexem nos dois lados por igual passam despercebidos."
+    },
+    {
+     "sigla": "Devedor junta ativo e despesa",
+     "texto": "Antes do encerramento, a coluna devedora reúne ativo e despesas (e retificadoras de passivo e PL); a credora reúne passivo, PL e receitas (e retificadoras de ativo)."
+    },
+    {
+     "sigla": "Duas, quatro ou seis colunas",
+     "texto": "Duas: só saldos. Quatro: movimento e saldos. Seis: saldo anterior, movimento e saldo atual."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O balancete de verificação permite identificar o lançamento em que a conta debitada e a conta creditada foram invertidas, uma vez que esse erro afeta a igualdade entre débitos e créditos.",
+    "gabarito": "E",
+    "explicacao": "A inversão de contas registra débito e crédito de igual valor, apenas nas contas trocadas. A soma dos devedores continua igual à dos credores, e o balancete fecha. Ele só acusa erros que quebram essa igualdade."
+   },
+   "aprofundamento": "<p><strong>A igualdade antes do encerramento.</strong> Num balancete levantado antes da apuração do resultado, ativo + despesas = passivo + PL + receitas (com as retificadoras somadas na coluna de sua natureza). Depois do encerramento, receitas e despesas estão zeradas e sobra ativo = passivo + PL.</p><p><strong>Conta de balancete.</strong> Antes do encerramento: ativo 80.000; despesas 30.000; passivo 40.000; receitas 45.000. O PL que aparece no balancete é 80.000 + 30.000 − 40.000 − 45.000 = 25.000. O lucro do período é 45.000 − 30.000 = 15.000, e o PL final é 40.000, que confere com ativo menos passivo (80.000 − 40.000).</p><p><strong>Retificadoras mudam de coluna.</strong> Depreciação acumulada, embora ligada ao ativo, vai à coluna credora; ações em tesouraria e prejuízos acumulados, embora no PL, vão à coluna devedora.</p><p><strong>Balancete não é demonstração contábil.</strong> O art. 176 da Lei 6.404 não o inclui entre as demonstrações financeiras. O livro Balancetes Diários e Balanços do Código Civil é outra coisa: substitui o Diário para quem usa fichas.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "contas-debito-credito-saldos",
+    "escrituracao-lancamentos-e-livros",
+    "balanco-patrimonial"
+   ]
+  },
+  {
+   "slug": "balanco-patrimonial",
+   "titulo": "Balanço patrimonial: objetivo, grupos e classificação das contas",
+   "grupo": "Demonstrações",
+   "base": "Arts. 176 a 184 da Lei 6.404/1976 e CPC 26 (R1)",
+   "tax": [
+    "contabilidade.balanco-patrimonial"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "balanço patrimonial",
+    "ativo circulante",
+    "ativo não circulante",
+    "passivo circulante",
+    "patrimônio líquido"
+   ],
+   "palavras": [
+    "ativo circulante",
+    "realizavel a longo prazo",
+    "investimentos",
+    "imobilizado",
+    "intangivel",
+    "passivo circulante",
+    "passivo nao circulante",
+    "capital social",
+    "reservas de capital",
+    "ajustes de avaliacao patrimonial",
+    "reservas de lucros",
+    "acoes em tesouraria",
+    "prejuizos acumulados",
+    "grau de liquidez",
+    "ciclo operacional",
+    "exercicio seguinte",
+    "ativo diferido"
+   ],
+   "resumo": "O <strong>balanço patrimonial</strong> é a demonstração que mostra, numa data, a posição patrimonial e financeira da entidade: ativo, passivo e patrimônio líquido. É a primeira demonstração da lista do art. 176 da Lei 6.404/1976, que exige ainda a DLPA, a DRE, a DFC e, para companhia aberta, a DVA. Pelo art. 178, as contas são classificadas segundo os elementos do patrimônio que registrem e agrupadas para facilitar a análise. No <strong>ativo</strong>, dispostas em <strong>ordem decrescente de grau de liquidez</strong>: <strong>ativo circulante</strong> (disponibilidades, direitos realizáveis no exercício seguinte e despesas do exercício seguinte) e <strong>ativo não circulante</strong>, composto por <strong>realizável a longo prazo</strong>, <strong>investimentos</strong>, <strong>imobilizado</strong> e <strong>intangível</strong>. No <strong>passivo</strong>: <strong>passivo circulante</strong> (obrigações que vencem no exercício seguinte), <strong>passivo não circulante</strong> (vencimento posterior) e <strong>patrimônio líquido</strong>, dividido em capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados. <strong>Investimentos</strong> são participações permanentes em outras sociedades e direitos não destinados à manutenção da atividade (como imóvel para renda). <strong>Imobilizado</strong> são bens corpóreos usados na atividade; <strong>intangível</strong>, bens incorpóreos com essa finalidade, inclusive o fundo de comércio adquirido. O antigo <strong>ativo diferido</strong> foi extinto em 2008. Se o <strong>ciclo operacional</strong> for maior que o exercício social, a classificação entre circulante e longo prazo se faz pelo prazo do ciclo.",
+   "esquema": {
+    "rotulo": "a estrutura do balanço pela Lei 6.404",
+    "html": "<table><thead><tr><th>Lado</th><th>Grupo</th><th>O que entra</th></tr></thead><tbody><tr><td rowspan=\"5\"><strong>Ativo</strong> (liquidez decrescente)</td><td>Circulante</td><td>caixa, bancos, aplicações de liquidez, clientes, estoques, despesas antecipadas do exercício seguinte</td></tr><tr><td>Realizável a longo prazo</td><td>direitos realizáveis após o exercício seguinte; créditos não usuais com coligadas, controladas, diretores e acionistas</td></tr><tr><td>Investimentos</td><td>participações permanentes; imóveis para renda; obras de arte</td></tr><tr><td>Imobilizado</td><td>bens corpóreos de uso: máquinas, veículos, terrenos, edifícios de uso</td></tr><tr><td>Intangível</td><td>marcas, softwares, licenças, fundo de comércio adquirido</td></tr><tr><td rowspan=\"3\"><strong>Passivo e PL</strong></td><td>Passivo circulante</td><td>obrigações que vencem no exercício seguinte</td></tr><tr><td>Passivo não circulante</td><td>obrigações com vencimento após o exercício seguinte</td></tr><tr><td>Patrimônio líquido</td><td>capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria (redutora), prejuízos acumulados (redutora)</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Ativo do mais líquido ao menos líquido",
+     "texto": "O ativo vem em ordem decrescente de liquidez: primeiro o circulante, depois realizável a longo prazo, investimentos, imobilizado e intangível."
+    },
+    {
+     "sigla": "Empréstimo a diretor vai para o longo prazo",
+     "texto": "Crédito não usual com coligadas, controladas, diretores ou acionistas fica no realizável a longo prazo, mesmo que vença em poucos meses."
+    },
+    {
+     "sigla": "Imóvel de renda é investimento, imóvel de uso é imobilizado",
+     "texto": "O destino do bem decide o grupo: alugado a terceiros, investimentos; usado na atividade, imobilizado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Pela Lei 6.404/1976, o adiantamento concedido a diretor da companhia, fora dos negócios usuais, com vencimento em três meses, classifica-se no ativo circulante.",
+    "gabarito": "E",
+    "explicacao": "O art. 179, II, manda classificar no realizável a longo prazo os direitos derivados de vendas, adiantamentos ou empréstimos a coligadas, controladas, diretores, acionistas ou participantes no lucro que não constituírem negócios usuais da companhia, qualquer que seja o prazo."
+   },
+   "aprofundamento": "<p><strong>Despesas do exercício seguinte.</strong> O art. 179, I, inclui no ativo circulante as aplicações de recursos em despesas do exercício seguinte, como seguros pagos antecipadamente.</p><p><strong>Ações em tesouraria.</strong> São destacadas no balanço como dedução da conta do PL que registrar a origem dos recursos usados na compra (art. 182, § 5º). Não são ativo.</p><p><strong>Reservas de capital.</strong> Registram, entre outras, a contribuição do subscritor que ultrapassar o valor nominal das ações (ágio na emissão) e o produto da alienação de partes beneficiárias e bônus de subscrição (art. 182, § 1º). Doações e subvenções para investimento deixaram de ser reservas de capital em 2007.</p><p><strong>Ajustes de avaliação patrimonial.</strong> Recebem as contrapartidas de aumentos ou diminuições de valor de ativos e passivos avaliados a valor justo, enquanto não computadas no resultado (art. 182, § 3º).</p><p><strong>Saldos não compensáveis.</strong> Os saldos devedores e credores que a companhia não tiver direito de compensar são classificados separadamente (art. 178, § 3º).</p><p><strong>Lei e CPC 26.</strong> O CPC 26 usa o critério de realização em até doze meses após a data do balanço ou dentro do ciclo operacional; a Lei fala em exercício social seguinte. Para exercício de doze meses, o resultado prático é o mesmo.</p><p><strong>O vencimento decide, não o destino do dinheiro.</strong> As obrigações, inclusive financiamentos para aquisição de direitos do ativo não circulante, vão ao passivo circulante quando vencem no exercício seguinte e ao não circulante quando vencem depois (art. 180).</p><p><strong>Comparativo.</strong> As demonstrações de cada exercício são publicadas com os valores correspondentes do exercício anterior (art. 176, § 1º).</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "patrimonio-equacao-fundamental",
+    "demonstracao-do-resultado-do-exercicio",
+    "provisoes-depreciacao-e-baixa-de-bens"
+   ]
+  },
+  {
+   "slug": "demonstracao-do-resultado-do-exercicio",
+   "titulo": "Demonstração do resultado do exercício: objetivo e estrutura",
+   "grupo": "Demonstrações",
+   "base": "Arts. 187, 189 e 190 da Lei 6.404/1976 e CPC 26 (R1)",
+   "tax": [
+    "contabilidade.dre"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "demonstração do resultado do exercício",
+    "receita líquida",
+    "lucro bruto",
+    "lucro operacional",
+    "participações no lucro"
+   ],
+   "palavras": [
+    "dre",
+    "receita bruta",
+    "deducoes da receita",
+    "receita liquida",
+    "custo das mercadorias vendidas",
+    "lucro bruto",
+    "despesas com vendas",
+    "despesas administrativas",
+    "despesas financeiras liquidas",
+    "outras receitas",
+    "outras despesas",
+    "lair",
+    "imposto de renda",
+    "contribuicao social",
+    "participacoes",
+    "debentures",
+    "empregados",
+    "administradores",
+    "partes beneficiarias",
+    "lucro por acao"
+   ],
+   "resumo": "A <strong>demonstração do resultado do exercício</strong> (DRE) mostra, de forma dedutiva, como se formou o lucro ou o prejuízo do período, confrontando receitas e despesas pelo regime de competência. É uma demonstração de período, enquanto o balanço é de uma data. Pelo art. 187 da Lei 6.404/1976, a DRE discrimina, em sequência: a <strong>receita bruta</strong> das vendas e serviços, as <strong>deduções</strong> das vendas, os abatimentos e os impostos; a <strong>receita líquida</strong>, o <strong>custo das mercadorias e serviços vendidos</strong> e o <strong>lucro bruto</strong>; as <strong>despesas com vendas</strong>, as <strong>despesas financeiras, deduzidas das receitas</strong>, as despesas gerais e administrativas e outras despesas operacionais; o <strong>lucro ou prejuízo operacional</strong>, as outras receitas e as outras despesas; o <strong>resultado antes do imposto de renda</strong> e a provisão para o imposto; as <strong>participações</strong> de debêntures, empregados, administradores e partes beneficiárias e de fundos de assistência ou previdência de empregados, que não se caracterizem como despesa; e o <strong>lucro ou prejuízo líquido</strong> e seu montante por ação. As <strong>outras receitas e despesas</strong> abrigam, por exemplo, o ganho ou a perda na venda de bens do imobilizado. Repare que, na Lei, as despesas financeiras líquidas entram <strong>antes</strong> do lucro operacional. As participações são calculadas <strong>sucessivamente</strong>, na ordem do art. 190 (debêntures, empregados, administradores, partes beneficiárias), cada uma sobre o lucro que resta depois da anterior.",
+   "esquema": {
+    "rotulo": "a DRE linha a linha, com um exemplo",
+    "html": "<table><thead><tr><th>Linha</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Receita bruta de vendas</strong></td><td>100.000</td></tr><tr><td>(−) Devoluções, abatimentos e descontos incondicionais</td><td>(5.000)</td></tr><tr><td>(−) Tributos sobre vendas</td><td>(15.000)</td></tr><tr><td><strong>= Receita líquida</strong></td><td>80.000</td></tr><tr><td>(−) Custo das mercadorias vendidas</td><td>(45.000)</td></tr><tr><td><strong>= Lucro bruto</strong></td><td>35.000</td></tr><tr><td>(−) Despesas com vendas, administrativas e financeiras líquidas</td><td>(20.000)</td></tr><tr><td><strong>= Lucro operacional</strong></td><td>15.000</td></tr><tr><td>(+) Outras receitas (ganho na venda de imobilizado)</td><td>1.000</td></tr><tr><td><strong>= Resultado antes dos tributos sobre o lucro</strong></td><td>16.000</td></tr><tr><td>(−) Imposto de renda e contribuição social</td><td>(4.000)</td></tr><tr><td>(−) Participação de empregados (10% de 12.000)</td><td>(1.200)</td></tr><tr><td><strong>= Lucro líquido do exercício</strong></td><td>10.800</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "Bruta, líquida, bruto, operacional, líquido",
+     "texto": "A ordem é receita bruta, receita líquida, lucro bruto, lucro operacional, resultado antes dos tributos, lucro líquido."
+    },
+    {
+     "sigla": "Na Lei, financeira é operacional",
+     "texto": "Pela Lei 6.404, as despesas financeiras líquidas ficam antes do lucro operacional. Outras receitas e despesas vêm depois dele."
+    },
+    {
+     "sigla": "Participações vêm depois do imposto",
+     "texto": "Primeiro se deduz a provisão para o imposto de renda; depois, as participações, uma após a outra."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Conforme a Lei 6.404/1976, as despesas financeiras líquidas são apresentadas na DRE após o lucro operacional, junto com as outras receitas e as outras despesas.",
+    "gabarito": "E",
+    "explicacao": "O art. 187, III, põe as despesas financeiras, deduzidas das receitas, entre as despesas operacionais, antes do lucro operacional. Depois do lucro operacional vêm as outras receitas e as outras despesas (inciso IV)."
+   },
+   "aprofundamento": "<p><strong>Conta de participações sucessivas.</strong> Lucro depois do imposto de 100.000; participação de empregados de 10% e de administradores de 10%. Empregados: 10% de 100.000 = 10.000. Administradores: 10% de 90.000 = 9.000. Lucro líquido = 81.000. Cada participação incide sobre o que restou da anterior (art. 190). Se houver prejuízos acumulados, eles são deduzidos antes de qualquer participação (art. 189).</p><p><strong>Competência na DRE.</strong> Na determinação do resultado, computam-se as receitas e os rendimentos ganhos no período, independentemente da realização em moeda, e os custos, despesas, encargos e perdas, pagos ou incorridos, correspondentes a essas receitas (art. 187, § 1º).</p><p><strong>CPC 26 e a DRE.</strong> O CPC 26 pede, no mínimo, linhas como receitas, custos de financiamento, tributos sobre o lucro e resultado líquido, e permite classificar as despesas por natureza ou por função. Pelo método da função, o custo dos produtos vendidos aparece separado das despesas de vendas e administrativas. O CPC 26 veda apresentar itens como extraordinários. A vedação vale tanto para a demonstração quanto para as notas explicativas; itens relevantes podem ser divulgados separadamente, sem esse rótulo.</p><p><strong>DRE e DRA.</strong> O resultado abrangente (DRA) parte do lucro líquido e soma os outros resultados abrangentes, como ajustes de avaliação patrimonial do período. Não se confunde com a DRE.</p><p><strong>Lucro por ação.</strong> O lucro ou prejuízo líquido é apresentado também pelo seu montante por ação do capital social (art. 187, VII).</p><p><strong>Lei e prática do CPC.</strong> A ordem acima (outras receitas e outras despesas depois do lucro operacional) é a da Lei 6.404. Como o CPC 26 não define lucro operacional, muitas companhias apresentam as outras receitas e despesas dentro do resultado operacional, antes do resultado financeiro. Na prova, veja se o item pede a Lei ou a prática do CPC.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "compras-vendas-e-estoques",
+    "regime-de-competencia-e-caixa",
+    "balanco-patrimonial"
+   ]
+  },
+  {
+   "slug": "normas-brasileiras-de-contabilidade",
+   "titulo": "Normas Brasileiras de Contabilidade: estrutura, CFC e CPC",
+   "grupo": "Normas",
+   "base": "Decreto-Lei 9.295/1946 (art. 6º, f), Resolução CFC 1.055/2005 e estrutura das NBC",
+   "tax": [
+    "contabilidade.normas-brasileiras"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "Normas Brasileiras de Contabilidade",
+    "NBC",
+    "Comitê de Pronunciamentos Contábeis",
+    "CFC",
+    "convergência às normas internacionais"
+   ],
+   "palavras": [
+    "nbc",
+    "cfc",
+    "cpc",
+    "nbc tg",
+    "nbc tsp",
+    "nbc ta",
+    "nbc pa",
+    "nbc pg",
+    "nbc pp",
+    "nbc tp",
+    "itg",
+    "ctg",
+    "ifrs",
+    "convergencia",
+    "cvm",
+    "estrutura conceitual",
+    "pme",
+    "nbc tg 1000",
+    "codigo de etica",
+    "resolucao cfc 750"
+   ],
+   "resumo": "As <strong>Normas Brasileiras de Contabilidade</strong> (NBC) são editadas pelo <strong>Conselho Federal de Contabilidade</strong>, que tem competência para editar NBC de natureza técnica e profissional (art. 6º, f, do Decreto-Lei 9.295/1946, com a redação da Lei 12.249/2010). As NBC se dividem em <strong>profissionais</strong> (NBC P), que regulam o exercício da profissão, e <strong>técnicas</strong> (NBC T), que tratam dos conceitos, procedimentos de registro e apresentação. Entre as profissionais estão a NBC PG (geral, que inclui o código de ética), a NBC PA (auditor independente), a NBC PI (auditor interno) e a NBC PP (perito). Entre as técnicas estão a <strong>NBC TG</strong> (geral, convergida às normas internacionais), a <strong>NBC TSP</strong> (setor público), a NBC TA (auditoria independente), a NBC TI (auditoria interna) e a NBC TP (perícia). Há ainda as <strong>interpretações técnicas</strong> (ITG) e os <strong>comunicados técnicos</strong> (CTG). O <strong>Comitê de Pronunciamentos Contábeis</strong> (CPC), criado pela Resolução CFC 1.055/2005, estuda e emite pronunciamentos técnicos convergentes às normas internacionais (IFRS). O CPC não tem poder normativo próprio: seus pronunciamentos passam a obrigar quando aprovados pelos reguladores, como a <strong>CVM</strong> para as companhias abertas e o próprio <strong>CFC</strong>, que os transforma em NBC TG. Assim, o CPC 00 corresponde à NBC TG Estrutura Conceitual, e o pronunciamento para pequenas e médias empresas corresponde à NBC TG 1000. A antiga Resolução CFC 750/1993, que listava os princípios de contabilidade, foi revogada pela NBC TSP Estrutura Conceitual, de 2016, com efeito a partir de 2017; a referência conceitual hoje é a Estrutura Conceitual.",
+   "esquema": {
+    "rotulo": "quem é quem nas normas contábeis",
+    "html": "<table><thead><tr><th>Órgão ou norma</th><th>Papel</th></tr></thead><tbody><tr><td><strong>CFC</strong></td><td>edita as NBC técnicas e profissionais e fiscaliza a profissão com os conselhos regionais</td></tr><tr><td><strong>CPC</strong></td><td>emite pronunciamentos técnicos convergentes às IFRS; não obriga por si só</td></tr><tr><td><strong>CVM</strong></td><td>aprova pronunciamentos para as companhias abertas (art. 177, § 3º e § 5º, da Lei 6.404)</td></tr><tr><td><strong>NBC TG</strong></td><td>normas técnicas gerais do setor privado, espelho dos CPC; NBC TG 1000 para pequenas e médias empresas</td></tr><tr><td><strong>NBC TSP</strong></td><td>normas do setor público, convergidas às normas internacionais do setor público</td></tr><tr><td><strong>NBC TA, TI, TP</strong></td><td>auditoria independente, auditoria interna e perícia</td></tr><tr><td><strong>NBC PG, PA, PI, PP</strong></td><td>regras profissionais: geral, auditor independente, auditor interno, perito</td></tr><tr><td><strong>ITG e CTG</strong></td><td>interpretações técnicas e comunicados técnicos</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "P de profissão, T de técnica",
+     "texto": "NBC P trata de quem exerce a profissão (ética, auditor, perito). NBC T trata de como contabilizar, auditar e periciar."
+    },
+    {
+     "sigla": "CPC estuda, regulador obriga",
+     "texto": "O pronunciamento do CPC só se torna obrigatório quando um órgão regulador o aprova, como a CVM ou o CFC."
+    },
+    {
+     "sigla": "TG é geral, TSP é setor público",
+     "texto": "NBC TG vale para as entidades em geral; NBC TSP, para o setor público."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os pronunciamentos técnicos do Comitê de Pronunciamentos Contábeis têm força normativa própria e obrigam todas as entidades a partir de sua divulgação, independentemente de aprovação por órgão regulador.",
+    "gabarito": "E",
+    "explicacao": "O CPC estuda e emite pronunciamentos, mas não tem poder normativo próprio. Eles obrigam quando aprovados pelos reguladores: o CFC os converte em NBC TG para os profissionais da contabilidade, e a CVM os aprova para as companhias abertas."
+   },
+   "aprofundamento": "<p><strong>Lei 6.404 e normas internacionais.</strong> As normas da CVM para as companhias abertas devem ser elaboradas em consonância com os padrões internacionais de contabilidade adotados nos principais mercados de valores mobiliários (art. 177, § 5º). As companhias fechadas podem optar por seguir as normas da CVM (art. 177, § 6º).</p><p><strong>Livros fiscais à parte.</strong> A companhia observa exclusivamente em livros ou registros auxiliares as disposições da lei tributária que conduzam a métodos ou critérios contábeis diferentes, sem modificar a escrituração mercantil (art. 177, § 2º). Esse é o fundamento da separação entre contabilidade societária e apuração fiscal.</p><p><strong>Auditoria obrigatória.</strong> As demonstrações das companhias abertas são obrigatoriamente auditadas por auditores independentes registrados na CVM (art. 177, § 3º).</p><p><strong>Assinatura.</strong> As demonstrações são assinadas pelos administradores e por contabilistas legalmente habilitados (art. 177, § 4º).</p><p><strong>Estrutura Conceitual não é norma de item específico.</strong> Ela orienta a elaboração de normas e o julgamento na falta de norma específica, mas não prevalece sobre um pronunciamento que trate do assunto.</p><p><strong>Entidades do CPC.</strong> O comitê reúne representantes de entidades do mercado e da profissão, entre elas o CFC, o Ibracon, a Abrasca, a Apimec, a B3 e a Fipecafi.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "conceitos-objetivos-contabilidade",
+    "balanco-patrimonial"
+   ]
+  }
+ ]
+}

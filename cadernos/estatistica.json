@@ -1,0 +1,539 @@
+{
+ "slug": "estatistica",
+ "titulo": "Caderno de Estatística",
+ "disciplina": "Estatística",
+ "ordem": 28,
+ "descricao": "Estatística e Probabilidade para concursos fiscais: estatística descritiva, probabilidade, distribuições, amostragem, inferência e regressão, com contas resolvidas e pegadinhas.",
+ "revisado_em": "2026-11-20",
+ "revisado_rotulo": "Contas conferidas duas vezes",
+ "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
+ "temas": [
+  {
+   "slug": "conceitos-basicos-e-distribuicao-de-frequencias",
+   "titulo": "Conceitos básicos e distribuição de frequências",
+   "grupo": "Estatística descritiva",
+   "base": "Estatística descritiva: população, amostra, variáveis e distribuição de frequências",
+   "tax": [
+    "estatistica.conceitos-basicos",
+    "estatistica.distribuicao-frequencias"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "estatística descritiva",
+    "população e amostra",
+    "variável qualitativa",
+    "variável quantitativa",
+    "distribuição de frequências"
+   ],
+   "palavras": [
+    "parametro",
+    "estatistica",
+    "censo",
+    "nominal",
+    "ordinal",
+    "intervalar",
+    "razao",
+    "discreta",
+    "continua",
+    "frequencia relativa",
+    "frequencia acumulada",
+    "classe",
+    "ponto medio",
+    "sturges",
+    "amplitude"
+   ],
+   "resumo": "A <strong>estatística descritiva</strong> organiza, resume e apresenta dados por tabelas, gráficos e medidas; a <strong>inferencial</strong> generaliza da amostra para a população e mede a incerteza dessa generalização. <strong>População</strong> é o conjunto de todos os elementos que têm a característica de interesse; <strong>amostra</strong> é um subconjunto dela; o <strong>censo</strong> examina todos os elementos. Medida calculada na população é <strong>parâmetro</strong> (média μ, variância σ², proporção p); medida calculada na amostra é <strong>estatística</strong> (média x̄, variância s², proporção p̂). Variável <strong>qualitativa nominal</strong> não tem ordem (unidade da federação, atividade econômica); <strong>qualitativa ordinal</strong> tem ordem natural (faixa de risco baixo, médio e alto; escolaridade). Variável <strong>quantitativa discreta</strong> resulta de contagem (número de notas fiscais emitidas); <strong>quantitativa contínua</strong> resulta de medição e admite qualquer valor num intervalo (peso de uma carga, tempo de atendimento). Na <strong>distribuição de frequências</strong>, a frequência absoluta fi conta as ocorrências, a relativa é fi/n e a soma das frequências relativas é 1. A frequência acumulada soma as frequências até a classe. Em dados agrupados em classes, a amplitude da classe é a diferença entre o limite superior e o inferior, e o ponto médio é a média desses dois limites. A amplitude total é o maior valor menos o menor valor.",
+   "esquema": {
+    "rotulo": "classificação das variáveis e níveis de mensuração",
+    "html": "<table><thead><tr><th>Tipo</th><th>Característica</th><th>Exemplo</th><th>Operação que faz sentido</th></tr></thead><tbody><tr><td><strong>Qualitativa nominal</strong></td><td>categorias sem ordem</td><td>UF, regime de tributação</td><td>contar; só a moda</td></tr><tr><td><strong>Qualitativa ordinal</strong></td><td>categorias com ordem</td><td>faixa de risco baixo, médio, alto</td><td>ordenar; moda e mediana</td></tr><tr><td><strong>Quantitativa discreta</strong></td><td>contagem, valores isolados</td><td>número de autuações no mês</td><td>todas as medidas</td></tr><tr><td><strong>Quantitativa contínua</strong></td><td>medição, qualquer valor no intervalo</td><td>peso da carga, tempo de fila</td><td>todas as medidas</td></tr><tr><td><strong>Escala intervalar</strong></td><td>zero arbitrário</td><td>temperatura em graus Celsius</td><td>diferenças, mas não razões</td></tr><tr><td><strong>Escala de razão</strong></td><td>zero absoluto</td><td>faturamento, peso</td><td>diferenças e razões</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "PARÂMETRO É DA POPULAÇÃO",
+     "texto": "Parâmetro e população começam com P. A estatística sai da amostra e serve para estimar o parâmetro."
+    },
+    {
+     "sigla": "CONTOU É DISCRETA, MEDIU É CONTÍNUA",
+     "texto": "Número de empregados é discreto, mesmo que seja grande. Tempo, peso e distância são contínuos."
+    },
+    {
+     "sigla": "NÚMERO NÃO GARANTE VARIÁVEL QUANTITATIVA",
+     "texto": "CEP, CNAE e número de inscrição são rótulos: a variável é qualitativa nominal, embora seja escrita com algarismos."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A média das receitas declaradas por uma amostra de 200 contribuintes é um parâmetro, pois resume numericamente a característica de interesse.",
+    "gabarito": "E",
+    "explicacao": "Medida calculada na amostra é estatística, não parâmetro. Parâmetro é a medida da população inteira, em geral desconhecida, que a estatística da amostra serve para estimar."
+   },
+   "aprofundamento": "<p><strong>Ordinal não vira quantitativa por ter números.</strong> Uma nota de satisfação de 1 a 5 é ordinal: a diferença entre 1 e 2 não precisa ser igual à diferença entre 4 e 5. A mediana e a moda são adequadas; a média dessas notas é usada na prática, mas não decorre da natureza da escala.</p><p><strong>Intervalar contra razão.</strong> Na escala intervalar o zero é arbitrário, por isso 20 °C não é o dobro de 10 °C. Na escala de razão o zero indica ausência da grandeza, e dizer que um faturamento de R$ 2 milhões é o dobro de um de R$ 1 milhão faz sentido.</p><p><strong>Convenção das classes.</strong> Na notação li ⊢ Li, o limite inferior pertence à classe e o superior não. O número de classes pode ser sugerido pela regra de Sturges, k ≈ 1 + 3,3 · log n, ou por k ≈ √n; são regras práticas, não obrigatórias.</p><p><strong>O agrupamento perde informação.</strong> Depois de agrupar, os valores individuais somem. A média calculada pelos pontos médios supõe que cada valor está no ponto médio da sua classe e, por isso, costuma diferir um pouco da média dos dados brutos.</p><p><strong>Frequência relativa acumulada.</strong> A última frequência acumulada é igual a n, e a última frequência relativa acumulada é igual a 1 (ou 100%). Exemplo: classes com 10, 25, 40 e 25 observações têm n = 100; a frequência acumulada até a terceira classe é 75, e a relativa acumulada é 0,75.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "graficos-diagramas-e-tabelas",
+    "medidas-de-posicao"
+   ]
+  },
+  {
+   "slug": "graficos-diagramas-e-tabelas",
+   "titulo": "Gráficos, diagramas e tabelas",
+   "grupo": "Análise exploratória de dados",
+   "base": "Análise exploratória: histograma, ogiva, ramo e folhas, boxplot e apresentação tabular",
+   "tax": [
+    "estatistica.graficos-diagramas",
+    "rlm.graficos-tabelas"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "histograma",
+    "boxplot",
+    "diagrama de caixa",
+    "ogiva",
+    "ramo e folhas",
+    "gráfico de setores"
+   ],
+   "palavras": [
+    "histograma",
+    "poligono de frequencias",
+    "ogiva de galton",
+    "boxplot",
+    "box plot",
+    "outlier",
+    "valor atipico",
+    "cerca",
+    "pareto",
+    "setores",
+    "pizza",
+    "dispersao",
+    "ramo e folhas",
+    "tabela ibge"
+   ],
+   "resumo": "Para variáveis <strong>qualitativas</strong>, usam-se gráficos de <strong>barras ou colunas</strong> e de <strong>setores</strong>; no gráfico de setores, cada fatia tem ângulo igual à frequência relativa vezes 360°, e o gráfico só faz sentido para partes de um todo. O <strong>diagrama de Pareto</strong> ordena as categorias da maior para a menor frequência e acrescenta a curva acumulada. Para variáveis <strong>quantitativas agrupadas</strong>, o <strong>histograma</strong> tem retângulos justapostos cuja área é proporcional à frequência da classe; com classes de amplitudes diferentes, a altura do retângulo deve ser a densidade de frequência, isto é, a frequência dividida pela amplitude da classe. O <strong>polígono de frequências</strong> liga os pontos médios do topo dos retângulos. A <strong>ogiva</strong> é o gráfico das frequências acumuladas, com os pontos nos limites superiores das classes, e permite ler a mediana e os quartis. O <strong>ramo e folhas</strong> organiza os dados como um histograma deitado e preserva os valores originais. O <strong>boxplot</strong> mostra o resumo dos cinco números: mínimo, primeiro quartil, mediana, terceiro quartil e máximo. A caixa vai de Q1 a Q3 e contém os 50% centrais dos dados; seu comprimento é a amplitude interquartílica. Pela regra usual, é valor atípico o que fica abaixo de Q1 − 1,5 · (Q3 − Q1) ou acima de Q3 + 1,5 · (Q3 − Q1). O <strong>diagrama de dispersão</strong> cruza duas variáveis quantitativas e sugere o sinal e a força da associação entre elas.",
+   "esquema": {
+    "rotulo": "qual gráfico para qual dado",
+    "html": "<table><thead><tr><th>Gráfico</th><th>Dado</th><th>O que mostra</th><th>Pegadinha comum</th></tr></thead><tbody><tr><td><strong>Barras ou colunas</strong></td><td>qualitativo ou discreto</td><td>frequência por categoria</td><td>barras separadas; no histograma os retângulos são justapostos</td></tr><tr><td><strong>Setores</strong></td><td>qualitativo, partes de um todo</td><td>proporção de cada categoria</td><td>ângulo = frequência relativa × 360°</td></tr><tr><td><strong>Histograma</strong></td><td>quantitativo agrupado em classes</td><td>forma da distribuição</td><td>com classes desiguais, a altura é a densidade, e a área é a frequência</td></tr><tr><td><strong>Ogiva</strong></td><td>frequências acumuladas</td><td>mediana, quartis e percentis</td><td>pontos nos limites superiores, não nos pontos médios</td></tr><tr><td><strong>Ramo e folhas</strong></td><td>quantitativo, poucos dados</td><td>forma e valores originais</td><td>não perde os valores individuais</td></tr><tr><td><strong>Boxplot</strong></td><td>quantitativo</td><td>mediana, quartis, assimetria e valores atípicos</td><td>a caixa tem 50% dos dados, não a média</td></tr><tr><td><strong>Dispersão</strong></td><td>duas variáveis quantitativas</td><td>associação entre elas</td><td>associação não prova causa</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "HISTOGRAMA CONTA PELA ÁREA",
+     "texto": "A frequência da classe está na área do retângulo. Só quando as classes têm a mesma amplitude a altura também é proporcional à frequência."
+    },
+    {
+     "sigla": "OGIVA ACUMULA NO LIMITE SUPERIOR",
+     "texto": "O ponto da ogiva fica no fim da classe, porque só ali todos os valores da classe já foram somados."
+    },
+    {
+     "sigla": "CAIXA É METADE DOS DADOS",
+     "texto": "De Q1 a Q3 estão os 50% centrais. A linha dentro da caixa é a mediana, não a média."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No boxplot, a linha traçada dentro da caixa indica a média aritmética dos dados, e o comprimento da caixa corresponde ao desvio padrão.",
+    "gabarito": "E",
+    "explicacao": "A linha dentro da caixa é a mediana, e o comprimento da caixa é a amplitude interquartílica, Q3 − Q1. O boxplot é construído só com separatrizes e com os extremos, sem média nem desvio padrão."
+   },
+   "aprofundamento": "<p><strong>Bigodes e cercas.</strong> As cercas ficam em Q1 − 1,5 · IIQ e Q3 + 1,5 · IIQ, em que IIQ = Q3 − Q1. Os bigodes vão até o valor observado mais extremo que ainda está dentro das cercas; o que passa das cercas é marcado como ponto isolado. Exemplo: Q1 = 20 e Q3 = 40 dão IIQ = 20 e cercas em −10 e 70; um valor 75 é atípico.</p><p><strong>Assimetria no boxplot.</strong> Mediana mais perto de Q1 e bigode superior mais longo indicam assimetria à direita, ou positiva. Mediana no meio da caixa e bigodes de tamanhos parecidos sugerem simetria.</p><p><strong>Histograma com classes desiguais.</strong> Se uma classe tem amplitude 20 e frequência 40, e outra tem amplitude 10 e frequência 30, a primeira tem densidade 2 e a segunda densidade 3. A segunda fica mais alta no histograma, embora tenha menos observações.</p><p><strong>Polígono de frequências.</strong> O polígono se fecha no eixo horizontal nos pontos médios de uma classe anterior e de uma posterior com frequência zero; assim, a área sob o polígono é igual à área do histograma.</p><p><strong>Tabela nas normas do IBGE.</strong> A tabela tem título, cabeçalho, corpo e fonte, e não é fechada por traços verticais nas laterais. Entre os sinais convencionais, o traço indica dado numérico igual a zero que não resulta de arredondamento, e as reticências indicam dado numérico não disponível.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "conceitos-basicos-e-distribuicao-de-frequencias",
+    "medidas-de-posicao",
+    "assimetria-e-curtose"
+   ]
+  },
+  {
+   "slug": "medidas-de-posicao",
+   "titulo": "Medidas de posição: médias, mediana, moda e separatrizes",
+   "grupo": "Análise exploratória de dados",
+   "base": "Medidas de tendência central e separatrizes",
+   "tax": [
+    "estatistica.medidas-posicao",
+    "rlm.estatistica-basica"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "média aritmética",
+    "mediana",
+    "moda",
+    "quartil",
+    "percentil",
+    "média geométrica",
+    "média harmônica"
+   ],
+   "palavras": [
+    "media",
+    "media ponderada",
+    "mediana",
+    "moda",
+    "czuber",
+    "king",
+    "quartil",
+    "decil",
+    "percentil",
+    "separatriz",
+    "media geometrica",
+    "media harmonica",
+    "tendencia central",
+    "valor atipico"
+   ],
+   "resumo": "A <strong>média aritmética</strong> é a soma dos valores dividida pelo número de valores. A soma dos desvios em relação à média é sempre zero, e a soma dos quadrados dos desvios é mínima quando calculada em torno da média. Somar uma constante a todos os valores soma a mesma constante à média; multiplicar todos os valores por uma constante multiplica a média por essa constante. A média é sensível a valores extremos. A <strong>mediana</strong> é o valor que divide os dados ordenados ao meio: com n ímpar, é o termo de posição (n + 1)/2; com n par, é a média dos dois termos centrais, de posições n/2 e n/2 + 1. A mediana é resistente a valores extremos e minimiza a soma dos desvios absolutos. A <strong>moda</strong> é o valor de maior frequência; um conjunto pode ser amodal, unimodal, bimodal ou multimodal, e a moda é a única medida de posição aplicável a variável qualitativa nominal. Exemplo: para 2, 3, 3, 5, 7 e 10, a média é 30/6 = 5, a mediana é (3 + 5)/2 = 4 e a moda é 3. As <strong>separatrizes</strong> dividem os dados ordenados em partes iguais: os quartis em quatro, os decis em dez e os percentis em cem. Valem as igualdades Q2 = D5 = P50 = mediana, Q1 = P25 e Q3 = P75. Para valores positivos, a <strong>média harmônica</strong> é menor ou igual à <strong>geométrica</strong>, que é menor ou igual à aritmética; as três só são iguais quando todos os valores são iguais.",
+   "esquema": {
+    "rotulo": "média, mediana e moda lado a lado",
+    "html": "<table><thead><tr><th>Medida</th><th>Como obter</th><th>Valor extremo</th><th>Dado agrupado</th></tr></thead><tbody><tr><td><strong>Média aritmética</strong></td><td>soma dividida por n</td><td>sensível</td><td>usa os pontos médios das classes ponderados pelas frequências</td></tr><tr><td><strong>Mediana</strong></td><td>termo central dos dados ordenados</td><td>resistente</td><td>Md = li + [(n/2 − Fant)/fi] · h</td></tr><tr><td><strong>Moda</strong></td><td>valor mais frequente</td><td>resistente</td><td>Czuber: Mo = li + [d1/(d1 + d2)] · h</td></tr><tr><td><strong>Média geométrica</strong></td><td>raiz n-ésima do produto</td><td>menos sensível que a aritmética</td><td>adequada a taxas de crescimento</td></tr><tr><td><strong>Média harmônica</strong></td><td>n dividido pela soma dos inversos</td><td>puxada pelos valores pequenos</td><td>adequada a velocidades e preços com gasto fixo</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "SOMA DOS DESVIOS DÁ ZERO",
+     "texto": "Em torno da média, desvios positivos e negativos se anulam. Por isso a dispersão usa desvios ao quadrado ou em módulo."
+    },
+    {
+     "sigla": "POSIÇÃO NÃO É VALOR",
+     "texto": "Com n = 10, a mediana não é o 5º valor: é a média do 5º e do 6º termos ordenados."
+    },
+    {
+     "sigla": "HARMÔNICA, GEOMÉTRICA, ARITMÉTICA",
+     "texto": "Para valores positivos, a ordem crescente é sempre esta: média harmônica ≤ média geométrica ≤ média aritmética."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se um conjunto de dados tiver um valor extremo muito maior que os demais, a mediana será mais afetada por ele que a média aritmética.",
+    "gabarito": "E",
+    "explicacao": "Ocorre o contrário: a média aritmética usa o valor de cada observação e é puxada pelo extremo, enquanto a mediana depende só da posição central e é resistente a valores atípicos."
+   },
+   "aprofundamento": "<p><strong>Moda de Czuber.</strong> Na classe modal, d1 é a frequência da classe modal menos a da anterior, e d2 é a frequência da classe modal menos a da posterior. Exemplo: classe modal 20 ⊢ 30 com frequência 30, anterior com 20 e posterior com 10. Então d1 = 10, d2 = 20 e Mo = 20 + (10/30) · 10 ≈ 23,33. A moda bruta seria o ponto médio, 25.</p><p><strong>Moda de King.</strong> Usa só as frequências vizinhas: Mo = li + [fpost/(fant + fpost)] · h. No mesmo exemplo, Mo = 20 + (10/30) · 10 ≈ 23,33, valor que coincide aqui por acaso.</p><p><strong>Mediana em dados agrupados.</strong> Exemplo: n = 100, a classe mediana é 40 ⊢ 50, com frequência 25, e a frequência acumulada anterior é 40. Então Md = 40 + [(50 − 40)/25] · 10 = 44.</p><p><strong>Relação empírica de Pearson.</strong> Em distribuições unimodais moderadamente assimétricas, vale aproximadamente Mo ≈ 3 · Md − 2 · x̄. É uma aproximação, não uma identidade.</p><p><strong>Média ponderada e média das médias.</strong> A média geral de dois grupos é a média das médias ponderada pelos tamanhos. Grupo A com 30 pessoas e média 8 e grupo B com 10 pessoas e média 4 dão média geral (240 + 40)/40 = 7, e não 6.</p><p><strong>Média geométrica de taxas.</strong> Crescimentos de 21% e de 0% em dois anos equivalem a fatores 1,21 e 1; a taxa média anual é √1,21 − 1 = 10%, e não a média aritmética 10,5%.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "medidas-de-dispersao",
+    "assimetria-e-curtose"
+   ]
+  },
+  {
+   "slug": "medidas-de-dispersao",
+   "titulo": "Medidas de dispersão: variância, desvio padrão e coeficiente de variação",
+   "grupo": "Análise exploratória de dados",
+   "base": "Medidas de dispersão absoluta e relativa",
+   "tax": [
+    "estatistica.medidas-dispersao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "variância",
+    "desvio padrão",
+    "coeficiente de variação",
+    "amplitude interquartílica",
+    "dispersão"
+   ],
+   "palavras": [
+    "amplitude total",
+    "desvio medio",
+    "variancia amostral",
+    "n-1",
+    "desvio padrao",
+    "coeficiente de variacao",
+    "cv",
+    "intervalo interquartil",
+    "escore z",
+    "padronizacao",
+    "chebyshev"
+   ],
+   "resumo": "A <strong>amplitude total</strong> é o maior valor menos o menor e depende só dos extremos. O <strong>desvio médio absoluto</strong> é a média dos módulos dos desvios em relação à média. A <strong>variância populacional</strong> é a média dos quadrados dos desvios em relação à média, com divisor N; a <strong>variância amostral</strong> usa divisor n − 1, o que a torna um estimador não viesado da variância populacional. O <strong>desvio padrão</strong> é a raiz quadrada da variância e tem a mesma unidade dos dados, enquanto a variância tem a unidade ao quadrado. Uma forma prática é calcular a variância populacional como a média dos quadrados menos o quadrado da média. Exemplo: para 2, 4, 6 e 8, a média é 5, os quadrados dos desvios somam 9 + 1 + 1 + 9 = 20, a variância populacional é 20/4 = 5 e a variância amostral é 20/3 ≈ 6,67. Somar uma constante a todos os valores não altera a variância nem o desvio padrão. Multiplicar todos os valores por k multiplica a variância por k² e o desvio padrão por |k|. O <strong>coeficiente de variação</strong> é o desvio padrão dividido pela média; é adimensional e compara a dispersão relativa de conjuntos com médias ou unidades diferentes. A <strong>amplitude interquartílica</strong> é Q3 − Q1 e, como a mediana, é resistente a valores extremos. O escore padronizado z = (x − x̄)/s gera um conjunto com média 0 e desvio padrão 1.",
+   "esquema": {
+    "rotulo": "efeito das transformações nas medidas",
+    "html": "<table><thead><tr><th>Transformação dos dados</th><th>Média</th><th>Variância</th><th>Desvio padrão</th><th>Coeficiente de variação</th></tr></thead><tbody><tr><td><strong>Somar c</strong></td><td>soma c</td><td>não muda</td><td>não muda</td><td>muda, porque a média muda</td></tr><tr><td><strong>Multiplicar por k</strong></td><td>multiplica por k</td><td>multiplica por k²</td><td>multiplica por |k|</td><td>não muda (k positivo)</td></tr><tr><td><strong>y = a + b · x</strong></td><td>a + b · média de x</td><td>b² · variância de x</td><td>|b| · desvio de x</td><td>depende de a</td></tr><tr><td><strong>Padronizar em z</strong></td><td>0</td><td>1</td><td>1</td><td>não definido (média zero)</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "SOMAR DESLOCA, MULTIPLICAR ESTICA",
+     "texto": "Somar uma constante só desloca os dados e não mexe na dispersão. Multiplicar estica: o desvio padrão vai junto com k, a variância com k²."
+    },
+    {
+     "sigla": "AMOSTRA DIVIDE POR n − 1",
+     "texto": "Na variância amostral, um grau de liberdade se perde porque os desvios são medidos em torno da média da própria amostra."
+    },
+    {
+     "sigla": "CV COMPARA GRUPOS DIFERENTES",
+     "texto": "Para comparar a dispersão de salários em reais com a de idades em anos, ou de grupos com médias muito diferentes, use o coeficiente de variação."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se todos os valores de um conjunto forem multiplicados por 3, o desvio padrão do novo conjunto será 9 vezes o desvio padrão original.",
+    "gabarito": "E",
+    "explicacao": "Multiplicar os dados por 3 multiplica a variância por 9 e o desvio padrão por 3. O fator ao quadrado vale para a variância, porque ela é medida na unidade ao quadrado."
+   },
+   "aprofundamento": "<p><strong>Variância nunca é negativa.</strong> Ela é zero só quando todos os valores são iguais. Uma questão que apresenta variância negativa traz um erro de cálculo.</p><p><strong>Média dos quadrados menos quadrado da média.</strong> Exemplo: valores 1, 2, 3, 4 e 5. A média dos quadrados é 55/5 = 11 e o quadrado da média é 9; a variância populacional é 2 e a amostral é 10/4 = 2,5.</p><p><strong>Coeficiente de variação na prática.</strong> Grupo A com média 50 e desvio padrão 10 tem CV de 20%; grupo B com média 200 e desvio padrão 30 tem CV de 15%. O grupo B tem maior desvio padrão, mas menor dispersão relativa. Algumas obras didáticas chamam de baixa dispersão o CV de até 15% e de alta o acima de 30%; é convenção, não regra matemática.</p><p><strong>Desigualdade de Chebyshev.</strong> Para qualquer distribuição, pelo menos 1 − 1/k² dos valores estão a menos de k desvios padrão da média, com k maior que 1. Com k = 2, ao menos 75%; com k = 3, ao menos cerca de 88,9%. Os percentuais de 95% e 99,7% valem só para a distribuição normal.</p><p><strong>Desvio quartílico.</strong> É a metade da amplitude interquartílica, (Q3 − Q1)/2. Como os quartis, não é afetado por valores atípicos, ao contrário da amplitude total e do desvio padrão.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "medidas-de-posicao",
+    "assimetria-e-curtose",
+    "tecnicas-de-amostragem"
+   ]
+  },
+  {
+   "slug": "assimetria-e-curtose",
+   "titulo": "Assimetria e curtose",
+   "grupo": "Análise exploratória de dados",
+   "base": "Medidas de forma: coeficientes de Pearson, de Bowley e de curtose",
+   "tax": [
+    "estatistica.assimetria-curtose"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "assimetria",
+    "curtose",
+    "coeficiente de Pearson",
+    "leptocúrtica",
+    "platicúrtica",
+    "mesocúrtica"
+   ],
+   "palavras": [
+    "assimetria positiva",
+    "assimetria negativa",
+    "cauda",
+    "pearson",
+    "bowley",
+    "momento",
+    "curtose",
+    "leptocurtica",
+    "platicurtica",
+    "mesocurtica",
+    "0,263",
+    "excesso de curtose"
+   ],
+   "resumo": "A <strong>assimetria</strong> mede o afastamento da distribuição em relação à simetria. Numa distribuição simétrica e unimodal, média, mediana e moda coincidem. Na <strong>assimetria positiva</strong>, ou à direita, a cauda mais longa fica do lado dos valores altos, e vale moda menor que mediana, que é menor que a média. Na <strong>assimetria negativa</strong>, ou à esquerda, a cauda longa fica do lado dos valores baixos, e vale média menor que mediana, que é menor que a moda. O <strong>primeiro coeficiente de Pearson</strong> é (x̄ − Mo)/s; o <strong>segundo coeficiente de Pearson</strong> é 3 · (x̄ − Md)/s. O <strong>coeficiente quartílico de Bowley</strong> é (Q3 + Q1 − 2 · Md)/(Q3 − Q1) e fica entre −1 e 1. Em todos eles, sinal positivo indica assimetria à direita e sinal negativo, à esquerda. Exemplo: média 50, mediana 45 e desvio padrão 10 dão segundo coeficiente de Pearson igual a 3 · 5/10 = 1,5, assimetria positiva. A <strong>curtose</strong> mede o grau de achatamento da distribuição em comparação com a normal. A distribuição <strong>mesocúrtica</strong> tem a curtose da normal; a <strong>leptocúrtica</strong> é mais alta e concentrada no centro, com caudas mais pesadas; a <strong>platicúrtica</strong> é mais achatada. O <strong>coeficiente percentílico de curtose</strong> é K = (Q3 − Q1)/[2 · (P90 − P10)], e vale cerca de 0,263 na normal: K menor que 0,263 indica distribuição leptocúrtica e K maior que 0,263 indica platicúrtica. Pelo coeficiente de momento, a4 = m4/s⁴, a normal tem curtose 3: acima de 3 é leptocúrtica, abaixo de 3 é platicúrtica.",
+   "esquema": {
+    "rotulo": "como ler os coeficientes de forma",
+    "html": "<table><thead><tr><th>Medida</th><th>Fórmula</th><th>Referência</th><th>Leitura</th></tr></thead><tbody><tr><td><strong>1º de Pearson</strong></td><td>(x̄ − Mo)/s</td><td>0 na simetria</td><td>positivo: à direita; negativo: à esquerda</td></tr><tr><td><strong>2º de Pearson</strong></td><td>3 · (x̄ − Md)/s</td><td>0 na simetria</td><td>positivo: à direita; negativo: à esquerda</td></tr><tr><td><strong>Bowley</strong></td><td>(Q3 + Q1 − 2 · Md)/(Q3 − Q1)</td><td>0 na simetria; entre −1 e 1</td><td>usa só os quartis</td></tr><tr><td><strong>Curtose percentílica</strong></td><td>(Q3 − Q1)/[2 · (P90 − P10)]</td><td>0,263 na normal</td><td>menor: leptocúrtica; maior: platicúrtica</td></tr><tr><td><strong>Curtose de momento</strong></td><td>m4/s⁴</td><td>3 na normal</td><td>maior: leptocúrtica; menor: platicúrtica</td></tr><tr><td><strong>Excesso de curtose</strong></td><td>m4/s⁴ − 3</td><td>0 na normal</td><td>positivo: leptocúrtica; negativo: platicúrtica</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "A MÉDIA CORRE PARA A CAUDA",
+     "texto": "A média é puxada pelos valores extremos; por isso, na assimetria à direita ela fica à direita da mediana, e na assimetria à esquerda fica à esquerda."
+    },
+    {
+     "sigla": "NO PERCENTÍLICO, O SINAL INVERTE",
+     "texto": "Na curtose percentílica, valor menor que 0,263 é leptocúrtica. Na curtose de momento, valor maior que 3 é leptocúrtica."
+    },
+    {
+     "sigla": "MODA FICA NO PICO",
+     "texto": "A moda está no ponto mais alto da curva, longe da cauda. Mediana fica entre a moda e a média."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Em uma distribuição com assimetria positiva, a média é menor que a mediana, que, por sua vez, é menor que a moda.",
+    "gabarito": "E",
+    "explicacao": "Essa ordem é a da assimetria negativa. Na assimetria positiva, a cauda longa está nos valores altos e puxa a média para a direita: moda menor que mediana, que é menor que a média."
+   },
+   "aprofundamento": "<p><strong>Curtose percentílica com números.</strong> Q1 = 30, Q3 = 50, P10 = 20 e P90 = 70 dão K = 20/(2 · 50) = 0,2. Como 0,2 é menor que 0,263, a distribuição é leptocúrtica: os 50% centrais estão concentrados num intervalo estreito em comparação com os 80% centrais.</p><p><strong>Bowley com números.</strong> Q1 = 10, Md = 14 e Q3 = 22 dão (22 + 10 − 28)/(22 − 10) = 4/12 ≈ 0,33, assimetria positiva: a distância entre a mediana e Q3 é maior que a distância entre Q1 e a mediana.</p><p><strong>Classificação usual da intensidade.</strong> Em obras didáticas, o coeficiente de Pearson em módulo abaixo de 0,15 indica distribuição praticamente simétrica, entre 0,15 e 1 indica assimetria moderada, e acima de 1 assimetria forte. São faixas de convenção, cobradas apenas quando o enunciado as fornece ou as pressupõe.</p><p><strong>Coeficiente de momento de assimetria.</strong> a3 = m3/s³, em que m3 é a média dos cubos dos desvios em relação à média. Os cubos preservam o sinal: desvios grandes positivos dão a3 positivo. Em distribuição simétrica, a3 = 0, mas a3 = 0 sozinho não garante simetria.</p><p><strong>Curtose não mede dispersão.</strong> Duas distribuições com o mesmo desvio padrão podem ter curtoses diferentes. A curtose descreve a forma, isto é, a concentração no centro e o peso das caudas.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "medidas-de-posicao",
+    "medidas-de-dispersao",
+    "graficos-diagramas-e-tabelas"
+   ]
+  },
+  {
+   "slug": "probabilidade-definicoes-e-axiomas",
+   "titulo": "Probabilidade: definições básicas e axiomas",
+   "grupo": "Probabilidade",
+   "base": "Espaço amostral, eventos, definições clássica e frequentista e axiomas de Kolmogorov",
+   "tax": [
+    "estatistica.axiomas-probabilidade",
+    "estatistica.probabilidade"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "experimento aleatório",
+    "espaço amostral",
+    "evento",
+    "axiomas de Kolmogorov",
+    "eventos mutuamente exclusivos",
+    "probabilidade da união"
+   ],
+   "palavras": [
+    "espaco amostral",
+    "evento",
+    "evento complementar",
+    "mutuamente exclusivos",
+    "disjuntos",
+    "exaustivos",
+    "particao",
+    "laplace",
+    "equiprovavel",
+    "frequentista",
+    "kolmogorov",
+    "axioma",
+    "uniao",
+    "intersecao",
+    "inclusao e exclusao"
+   ],
+   "resumo": "<strong>Experimento aleatório</strong> é o que pode ser repetido nas mesmas condições, tem resultados possíveis conhecidos e resultado individual imprevisível. O conjunto de todos os resultados possíveis é o <strong>espaço amostral</strong> Ω, e todo subconjunto de Ω é um <strong>evento</strong>. Ω é o evento certo e o conjunto vazio é o evento impossível. Eventos <strong>mutuamente exclusivos</strong> não têm resultado em comum: a interseção deles é vazia. Eventos são <strong>exaustivos</strong> quando a união deles é Ω; eventos mutuamente exclusivos e exaustivos formam uma partição de Ω. A <strong>definição clássica</strong>, de Laplace, faz P(A) = n(A)/n(Ω) e exige espaço amostral finito com resultados equiprováveis. A <strong>definição frequentista</strong> toma a probabilidade como o limite da frequência relativa em muitas repetições. A <strong>definição axiomática</strong>, de Kolmogorov, exige três axiomas: P(A) ≥ 0 para todo evento; P(Ω) = 1; e, para eventos mutuamente exclusivos, a probabilidade da união é a soma das probabilidades. Dos axiomas decorrem: P(∅) = 0; P(Aᶜ) = 1 − P(A); se A está contido em B, então P(A) ≤ P(B); e 0 ≤ P(A) ≤ 1. Para quaisquer eventos, vale P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Exemplo: P(A) = 0,5, P(B) = 0,4 e P(A ∪ B) = 0,7 dão P(A ∩ B) = 0,2. Para três eventos, P(A ∪ B ∪ C) = P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C) − P(B ∩ C) + P(A ∩ B ∩ C).",
+   "esquema": {
+    "rotulo": "definições e propriedades",
+    "html": "<table><thead><tr><th>Item</th><th>Enunciado</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Clássica (Laplace)</strong></td><td>P(A) = casos favoráveis / casos possíveis</td><td>só com espaço finito e equiprovável</td></tr><tr><td><strong>Frequentista</strong></td><td>limite da frequência relativa</td><td>exige repetição do experimento</td></tr><tr><td><strong>Axioma 1</strong></td><td>P(A) ≥ 0</td><td>não negatividade</td></tr><tr><td><strong>Axioma 2</strong></td><td>P(Ω) = 1</td><td>normalização</td></tr><tr><td><strong>Axioma 3</strong></td><td>A ∩ B = ∅ implica P(A ∪ B) = P(A) + P(B)</td><td>aditividade, estendida a sequências enumeráveis</td></tr><tr><td><strong>Complementar</strong></td><td>P(Aᶜ) = 1 − P(A)</td><td>decorre dos axiomas 2 e 3</td></tr><tr><td><strong>União</strong></td><td>P(A ∪ B) = P(A) + P(B) − P(A ∩ B)</td><td>vale para quaisquer eventos</td></tr><tr><td><strong>Diferença</strong></td><td>P(A − B) = P(A) − P(A ∩ B)</td><td>só A ocorre, B não</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "EXCLUSIVOS SOMAM, OS OUTROS DESCONTAM",
+     "texto": "A soma direta das probabilidades só vale para eventos mutuamente exclusivos. Nos demais, desconte a interseção uma vez."
+    },
+    {
+     "sigla": "PELO MENOS UM É O COMPLEMENTAR DE NENHUM",
+     "texto": "Quando a pergunta é pelo menos um, calcule 1 menos a probabilidade de nenhum."
+    },
+    {
+     "sigla": "SOMA MAIOR QUE 1 OBRIGA INTERSEÇÃO",
+     "texto": "Se P(A) + P(B) passa de 1, A e B não podem ser mutuamente exclusivos, e P(A ∩ B) é pelo menos o excesso."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se P(A) = 0,6 e P(B) = 0,7, é possível que A e B sejam eventos mutuamente exclusivos.",
+    "gabarito": "E",
+    "explicacao": "Se fossem mutuamente exclusivos, P(A ∪ B) seria 0,6 + 0,7 = 1,3, acima de 1, o que viola os axiomas. Logo há interseção, e P(A ∩ B) ≥ 0,6 + 0,7 − 1 = 0,3."
+   },
+   "aprofundamento": "<p><strong>Probabilidade zero não significa evento impossível.</strong> O evento impossível tem probabilidade zero, mas a recíproca falha em espaços contínuos: a probabilidade de uma variável contínua assumir exatamente um valor é zero, e esse valor pode ocorrer.</p><p><strong>Limites da interseção.</strong> Sempre vale P(A ∩ B) ≤ menor entre P(A) e P(B) e P(A ∩ B) ≥ P(A) + P(B) − 1. Com P(A) = 0,6 e P(B) = 0,7, a interseção fica entre 0,3 e 0,6.</p><p><strong>Desigualdade de Boole.</strong> Para quaisquer eventos, P(A ∪ B) ≤ P(A) + P(B), com igualdade quando a interseção tem probabilidade zero.</p><p><strong>Equiprobabilidade não é automática.</strong> No lançamento de dois dados, a soma 7 tem probabilidade 6/36 = 1/6, e a soma 2 tem 1/36. As somas de 2 a 12 não são equiprováveis, embora os 36 pares ordenados sejam.</p><p><strong>Exemplo com três eventos.</strong> P(A) = P(B) = P(C) = 0,3, interseções duas a duas iguais a 0,1 e P(A ∩ B ∩ C) = 0,05 dão P(A ∪ B ∪ C) = 0,9 − 0,3 + 0,05 = 0,65.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "probabilidade-condicional-e-independencia"
+   ]
+  },
+  {
+   "slug": "probabilidade-condicional-e-independencia",
+   "titulo": "Probabilidade condicional, independência e teorema de Bayes",
+   "grupo": "Probabilidade",
+   "base": "Probabilidade condicional, regra do produto, probabilidade total, Bayes e independência",
+   "tax": [
+    "estatistica.probabilidade-condicional",
+    "estatistica.independencia-eventos",
+    "estatistica.teorema-bayes"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "probabilidade condicional",
+    "eventos independentes",
+    "teorema de Bayes",
+    "probabilidade total",
+    "regra do produto"
+   ],
+   "palavras": [
+    "condicional",
+    "dado que",
+    "regra do produto",
+    "probabilidade total",
+    "bayes",
+    "a priori",
+    "a posteriori",
+    "independencia",
+    "independentes",
+    "mutuamente exclusivos",
+    "sem reposicao",
+    "com reposicao",
+    "independencia mutua",
+    "aos pares"
+   ],
+   "resumo": "A <strong>probabilidade condicional</strong> de A dado B é P(A | B) = P(A ∩ B)/P(B), definida quando P(B) é maior que zero. Ela recalcula a chance de A no espaço amostral reduzido ao evento B e também obedece aos axiomas. Daí sai a <strong>regra do produto</strong>: P(A ∩ B) = P(B) · P(A | B) = P(A) · P(B | A). Em geral, P(A | B) é diferente de P(B | A). Exemplo: urna com 3 bolas brancas e 2 pretas; a probabilidade de retirar duas brancas sem reposição é 3/5 · 2/4 = 0,3, e com reposição é 3/5 · 3/5 = 0,36. Se B1, ..., Bn formam uma partição de Ω, a <strong>probabilidade total</strong> dá P(A) = Σ P(Bi) · P(A | Bi), e o <strong>teorema de Bayes</strong> dá P(Bj | A) = P(Bj) · P(A | Bj)/P(A). P(Bj) é a probabilidade a priori, e P(Bj | A) é a probabilidade a posteriori, atualizada pela informação de que A ocorreu. Dois eventos são <strong>independentes</strong> quando P(A ∩ B) = P(A) · P(B); com P(B) maior que zero, isso equivale a P(A | B) = P(A). Se A e B são independentes, também são independentes A e o complementar de B, o complementar de A e B, e os dois complementares. Eventos mutuamente exclusivos com probabilidades positivas nunca são independentes, porque P(A ∩ B) = 0 enquanto P(A) · P(B) é positivo. Para eventos independentes, P(A ∪ B) = P(A) + P(B) − P(A) · P(B); com P(A) = 0,3 e P(B) = 0,5, a união vale 0,8 − 0,15 = 0,65.",
+   "esquema": {
+    "rotulo": "independentes contra mutuamente exclusivos",
+    "html": "<table><thead><tr><th>Aspecto</th><th>Independentes</th><th>Mutuamente exclusivos</th></tr></thead><tbody><tr><td><strong>Definição</strong></td><td>P(A ∩ B) = P(A) · P(B)</td><td>A ∩ B = ∅, logo P(A ∩ B) = 0</td></tr><tr><td><strong>Ideia</strong></td><td>saber que B ocorreu não muda a chance de A</td><td>se B ocorreu, A não pode ter ocorrido</td></tr><tr><td><strong>Condicional</strong></td><td>P(A | B) = P(A)</td><td>P(A | B) = 0</td></tr><tr><td><strong>União</strong></td><td>P(A) + P(B) − P(A) · P(B)</td><td>P(A) + P(B)</td></tr><tr><td><strong>Complementares</strong></td><td>continuam independentes</td><td>não se conclui nada em geral</td></tr><tr><td><strong>Convivência</strong></td><td colspan=\"2\">com P(A) e P(B) positivas, as duas propriedades não ocorrem juntas</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "DADO QUE É O NOVO ESPAÇO AMOSTRAL",
+     "texto": "O evento depois do dado que vai para o denominador: ele passa a ser o universo do cálculo."
+    },
+    {
+     "sigla": "EXCLUSIVO É O OPOSTO DE INDEPENDENTE",
+     "texto": "Se um exclui o outro, saber de um dá informação total sobre o outro. Com probabilidades positivas, são sempre dependentes."
+    },
+    {
+     "sigla": "BAYES É A FATIA SOBRE O TODO",
+     "texto": "Monte a árvore, some os ramos que levam ao evento observado e divida o ramo pedido por essa soma."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Dois eventos mutuamente exclusivos, ambos com probabilidade positiva, são necessariamente independentes, pois a ocorrência de um não interfere na probabilidade de ocorrência do outro.",
+    "gabarito": "E",
+    "explicacao": "Eventos mutuamente exclusivos com probabilidades positivas são dependentes: se um ocorre, a probabilidade do outro cai a zero. A independência exige P(A ∩ B) = P(A) · P(B), e aqui P(A ∩ B) = 0."
+   },
+   "aprofundamento": "<p><strong>Bayes com números.</strong> Suponha que 10% das empresas de um setor sonegam. Um filtro de malha aponta 80% das empresas que sonegam e 5% das regulares. A probabilidade de uma empresa ser apontada é 0,1 · 0,8 + 0,9 · 0,05 = 0,125, e a probabilidade de sonegar dado que foi apontada é 0,08/0,125 = 0,64. Repare que 0,64 é bem diferente de 0,8, que é a probabilidade de ser apontada dado que sonega.</p><p><strong>Independência aos pares não garante independência mútua.</strong> Três eventos são mutuamente independentes quando são independentes dois a dois e, além disso, P(A ∩ B ∩ C) = P(A) · P(B) · P(C). Exemplo: duas moedas honestas, A = cara na primeira, B = cara na segunda e C = as duas faces iguais. Cada par é independente, mas P(A ∩ B ∩ C) = 1/4, e não 1/8.</p><p><strong>Eventos de probabilidade 0 ou 1.</strong> Um evento com probabilidade 0 ou 1 é independente de qualquer outro evento, inclusive de si mesmo.</p><p><strong>Pelo menos um em tentativas independentes.</strong> Com n tentativas independentes de probabilidade p, a chance de pelo menos um sucesso é 1 − (1 − p)ⁿ. Com p = 0,1 e n = 2, dá 1 − 0,81 = 0,19.</p><p><strong>Regra do produto para três eventos.</strong> P(A ∩ B ∩ C) = P(A) · P(B | A) · P(C | A ∩ B). Na retirada sem reposição de três bolas brancas de uma urna com 3 brancas e 2 pretas, a probabilidade é 3/5 · 2/4 · 1/3 = 0,1.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "probabilidade-definicoes-e-axiomas",
+    "tecnicas-de-amostragem"
+   ]
+  },
+  {
+   "slug": "tecnicas-de-amostragem",
+   "titulo": "Técnicas de amostragem: simples, sistemática, estratificada e por conglomerados",
+   "grupo": "Amostragem",
+   "base": "Planos de amostragem probabilística",
+   "tax": [
+    "estatistica.amostragem-probabilistica",
+    "estatistica.amostragem-estratificada-conglomerados"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "amostragem aleatória simples",
+    "amostragem sistemática",
+    "amostragem estratificada",
+    "amostragem por conglomerados",
+    "amostragem probabilística"
+   ],
+   "palavras": [
+    "amostragem aleatoria simples",
+    "aas",
+    "com reposicao",
+    "sem reposicao",
+    "sistematica",
+    "intervalo de selecao",
+    "periodicidade",
+    "estratos",
+    "partilha proporcional",
+    "neyman",
+    "alocacao otima",
+    "conglomerados",
+    "estagios",
+    "cadastro",
+    "erro amostral",
+    "nao probabilistica",
+    "cotas",
+    "conveniencia"
+   ],
+   "resumo": "Na <strong>amostragem probabilística</strong>, todo elemento da população tem probabilidade conhecida e não nula de ser selecionado, o que permite medir o erro amostral e fazer inferência. Na não probabilística, como a por conveniência, a intencional e a por cotas, isso não é possível em bases probabilísticas. Na <strong>amostragem aleatória simples</strong>, toda amostra possível de tamanho n tem a mesma probabilidade de ser escolhida; sem reposição, cada elemento tem probabilidade n/N de entrar na amostra. Ela exige um cadastro completo da população. Na <strong>amostragem sistemática</strong>, com a lista ordenada, calcula-se o intervalo k = N/n, sorteia-se um ponto de partida entre 1 e k e tomam-se os elementos de k em k. Exemplo: N = 1.200 e n = 60 dão k = 20; com partida 7, a amostra tem 7, 27, 47 e assim por diante. Se a lista tiver periodicidade que coincida com k, a amostra fica viesada. Na <strong>amostragem estratificada</strong>, a população é dividida em estratos mutuamente exclusivos, homogêneos internamente e heterogêneos entre si, e sorteia-se uma amostra aleatória dentro de cada estrato. Na partilha proporcional, cada estrato recebe n · Nh/N elementos. Na <strong>amostragem por conglomerados</strong>, a população é dividida em grupos, sorteiam-se alguns grupos e pesquisam-se todos os elementos deles (um estágio) ou uma subamostra de cada um (dois ou mais estágios). O ideal é que cada conglomerado seja heterogêneo internamente e parecido com os demais. Na estratificada, todos os estratos entram na amostra; nos conglomerados, só os grupos sorteados entram. A estratificação costuma aumentar a precisão, e os conglomerados costumam reduzir o custo.",
+   "esquema": {
+    "rotulo": "os quatro planos lado a lado",
+    "html": "<table><thead><tr><th>Plano</th><th>Como seleciona</th><th>Grupos internamente</th><th>Vantagem</th><th>Risco ou limite</th></tr></thead><tbody><tr><td><strong>Aleatória simples</strong></td><td>sorteio direto dos elementos</td><td>não há grupos</td><td>base teórica de todos os outros planos</td><td>exige cadastro completo</td></tr><tr><td><strong>Sistemática</strong></td><td>partida sorteada e salto k = N/n</td><td>não há grupos</td><td>simples de executar em listas</td><td>periodicidade da lista coincidente com k</td></tr><tr><td><strong>Estratificada</strong></td><td>amostra aleatória em cada estrato</td><td>homogêneos dentro, heterogêneos entre si</td><td>mais precisão; garante todos os estratos</td><td>exige saber o estrato de cada elemento</td></tr><tr><td><strong>Conglomerados</strong></td><td>sorteio de grupos inteiros</td><td>heterogêneos dentro, parecidos entre si</td><td>menor custo; cadastro só dos grupos</td><td>em geral, menos precisão para o mesmo n</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "ESTRATO TODOS, CONGLOMERADO ALGUNS",
+     "texto": "Na estratificada, sorteiam-se elementos de todos os estratos. Nos conglomerados, sorteiam-se alguns grupos e o resto fica de fora."
+    },
+    {
+     "sigla": "ESTRATO É HOMOGÊNEO, CONGLOMERADO É MINIATURA",
+     "texto": "O estrato reúne parecidos; o conglomerado ideal é uma miniatura da população, com diversidade dentro dele."
+    },
+    {
+     "sigla": "SISTEMÁTICA SORTEIA SÓ A PARTIDA",
+     "texto": "Depois do primeiro elemento sorteado, os demais são determinados pelo intervalo k."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na amostragem por conglomerados, a população é dividida em grupos internamente homogêneos e heterogêneos entre si, e selecionam-se elementos de todos os grupos.",
+    "gabarito": "E",
+    "explicacao": "A afirmação descreve a amostragem estratificada. Na amostragem por conglomerados, os grupos ideais são heterogêneos por dentro e parecidos entre si, e só alguns grupos sorteados entram na amostra."
+   },
+   "aprofundamento": "<p><strong>Partilha proporcional com números.</strong> Uma população de 10.000 empresas tem 6.000 microempresas, 3.000 de pequeno porte e 1.000 de grande porte. Com n = 500 e partilha proporcional, a amostra tem 300, 150 e 50 empresas, porque cada estrato recebe 5% dos seus elementos.</p><p><strong>Alocação ótima de Neyman.</strong> O tamanho da amostra em cada estrato é proporcional a Nh · σh, o tamanho do estrato vezes o seu desvio padrão. Estratos mais variáveis recebem mais elementos que na partilha proporcional. Quando o custo por entrevista varia, a alocação passa a ser proporcional a Nh · σh/√ch. A partilha uniforme dá o mesmo tamanho a todos os estratos.</p><p><strong>Sistemática com números.</strong> Com N = 1.200, n = 60, k = 20 e partida 7, o 60º elemento da amostra é 7 + 59 · 20 = 1.187. Se a lista estiver em ordem aleatória, a amostragem sistemática se comporta aproximadamente como a aleatória simples.</p><p><strong>Com reposição e sem reposição.</strong> Na aleatória simples com reposição, um elemento pode aparecer mais de uma vez, e as observações são independentes; a variância da média amostral é σ²/n. Sem reposição, essa variância é multiplicada pelo fator de correção para população finita, (N − n)/(N − 1), que fica próximo de 1 quando a fração amostral n/N é pequena.</p><p><strong>Erro padrão e tamanho da amostra.</strong> O erro padrão da média é σ/√n. Para reduzir o erro padrão à metade, é preciso quadruplicar o tamanho da amostra, e não dobrá-lo.</p><p><strong>Cotas não é estratificada.</strong> Na amostragem por cotas, o pesquisador fixa quantos elementos de cada categoria vai observar, mas escolhe quem entra, sem sorteio; por isso ela é não probabilística. Na estratificada, a escolha dentro de cada estrato é feita por sorteio. Na amostragem por conveniência, entram os elementos mais acessíveis, sem cota nem sorteio.</p><p><strong>Erro amostral e erro não amostral.</strong> O erro amostral decorre de observar só parte da população e diminui com o aumento da amostra. Não resposta, cadastro desatualizado e erro de medição são erros não amostrais e não diminuem só com uma amostra maior.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "conceitos-basicos-e-distribuicao-de-frequencias",
+    "medidas-de-dispersao"
+   ]
+  }
+ ]
+}
