@@ -18,6 +18,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `revisado_em`, `revisado_rotulo` | data AAAA-MM-DD da conferência e o texto ("Lei e jurisprudência conferidas") |
 | `autor` | opcional `{nome, credenciais, url}`. Sem ele, a assinatura é "Equipe Tchau Pobreza, com curadoria de <autor dos informativos>" |
 | `fontes` | opcional (HTML curto); sem ele, disciplinas com lei/juris mostram as fontes oficiais |
+| `indexar` | opcional. `false` tira a página do Google (`noindex,follow`, fora do sitemap) **sem tirar nada do ar**: a página, o hub, o app e os links seguem iguais. Só por decisão da poda trimestral (seção abaixo), nunca na criação |
 | `temas` | lista na ordem do sumário |
 
 ## Tema
@@ -51,6 +52,20 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 A disciplina fica `noindex,follow` e fora do sitemap até ter `tpc_min_index` temas escritos (padrão 8;
 filtro `tpc_min_index`). O hub `/cadernos/` é criado uma vez, com `[tp_cadernos]`, e fica `noindex`
 enquanto nenhuma disciplina for indexável.
+
+## Poda trimestral e sobreposição (0.21.3)
+
+Os cadernos alimentam as questões e o Estudo inteligente, então **nenhum tema é apagado** por causa do Google. A poda
+decide só a indexação. Regra completa no playbook de conteúdo, seção 11.
+
+- **Ao criar ou mudar caderno:** o CI do PR roda `python3 ferramentas/sobreposicao.py --ci`. Erro com slug de tema
+  repetido em dois cadernos (quebra a ref `disciplina#tema` de outro caderno); aviso com tema que parece tratar do
+  mesmo assunto de outro (título parecido ou muitas `palavras`/`conceitos` em comum). Resolver: enxugar o novo e
+  remeter ao existente, ou, se são ângulos diferentes de propósito, registrar com `--aceitar`.
+- **A cada trimestre (20 de fev/mai/ago/nov):** exportar Desempenho > Páginas (3 meses) do Search Console e rodar
+  `python3 ferramentas/poda_cadernos.py --gsc export.zip --registrar`. Página com 0 impressões: 1ª vez, melhorar;
+  2ª vez seguida, sugerir `"indexar": false` para o Jonatan decidir. Página com menos de 90 dias no ar fica de fora.
+  Os dados da poda ficam em `ferramentas/poda/` (fora do deploy).
 
 ## Link a partir dos informativos (0.8.1)
 
