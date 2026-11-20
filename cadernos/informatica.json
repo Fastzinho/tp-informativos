@@ -3,11 +3,78 @@
   "titulo": "Caderno de Informática",
   "disciplina": "Informática",
   "ordem": 21,
-  "descricao": "Informática organizada por tema e pelo que a Cebraspe mais cobra: Windows e Linux, Internet e navegadores, nuvem, malware, segurança da informação, Word e Excel, inteligência artificial e banco de dados, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais.",
-  "revisado_em": "2026-11-18",
+  "descricao": "Informática organizada por tema e pelo que as bancas mais cobram: hardware e software, Windows e Linux, Internet e navegadores, nuvem, redes e protocolos, Wi-Fi e VPN, malware, segurança da informação, Word e Excel, inteligência artificial, banco de dados e BI, com resumo, esquemas, macetes e pegadinhas.",
+  "revisado_em": "2026-11-20",
   "revisado_rotulo": "Itens de prova checados com o gabarito definitivo da Cebraspe",
   "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da documentação dos programas e das provas de Informática da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo. Programas mudam de versão: quando a prova citou Windows 10, o texto indica o que vale também no Windows 11. A escolha dos temas segue o que mais apareceu em 48 provas recentes da Cebraspe e da FGV.</p>",
   "temas": [
+    {
+      "slug": "hardware-e-software",
+      "titulo": "Hardware e software: CPU, memórias, armazenamento e tipos de software",
+      "grupo": "Uso do computador",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.hardware-software"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "hardware",
+        "software",
+        "memória RAM",
+        "memória cache",
+        "software livre"
+      ],
+      "palavras": [
+        "cpu",
+        "processador",
+        "ula",
+        "unidade de controle",
+        "ram",
+        "rom",
+        "cache",
+        "ssd",
+        "hd",
+        "disco rigido",
+        "placa-mae",
+        "periferico",
+        "bit",
+        "byte",
+        "usb",
+        "driver",
+        "firmware",
+        "software livre",
+        "freeware",
+        "shareware",
+        "software proprietario"
+      ],
+      "resumo": "<strong>Hardware</strong> é a parte física do computador; <strong>software</strong> são os programas e dados que o fazem funcionar. Na <strong>CPU</strong>, a <strong>ULA</strong> faz as contas e as comparações lógicas, e a <strong>unidade de controle</strong> busca, decodifica e coordena as instruções. A <strong>RAM</strong> é volátil (perde tudo ao desligar) e guarda o que está em uso; a <strong>ROM</strong> é não volátil e guarda o firmware de partida; a <strong>cache</strong> é pequena e muito rápida, entre o processador e a RAM. O armazenamento secundário (HD, SSD, pendrive) é permanente: o <strong>HD</strong> grava magneticamente em discos giratórios, o <strong>SSD</strong> usa memória flash, sem partes móveis, e é mais rápido. Periférico de <strong>entrada</strong> envia dados ao computador (teclado, mouse, microfone); de <strong>saída</strong> mostra o resultado (monitor, impressora). <strong>Software livre</strong> é questão de liberdade, não de preço: pode ser vendido, e um programa gratuito (freeware) pode não ser livre; <strong>shareware</strong> é a versão de avaliação que depois exige licença paga.",
+      "esquema": {
+        "rotulo": "peças e programas",
+        "html": "<table><thead><tr><th>Item</th><th>O que é</th><th>Não confunda</th></tr></thead><tbody><tr><td><strong>ULA</strong></td><td>operações aritméticas e comparações lógicas</td><td>quem busca e decodifica instruções é a unidade de controle</td></tr><tr><td><strong>RAM</strong></td><td>memória de trabalho, leitura e escrita</td><td>volátil: perde o conteúdo sem energia</td></tr><tr><td><strong>ROM</strong></td><td>guarda o firmware de inicialização</td><td>não volátil</td></tr><tr><td><strong>Cache</strong></td><td>pequena e muito rápida, entre CPU e RAM</td><td>não é armazenamento permanente</td></tr><tr><td><strong>SSD × HD</strong></td><td>SSD: memória flash, sem partes móveis</td><td>HD: discos giratórios, gravação magnética</td></tr><tr><td><strong>Driver</strong></td><td>faz o sistema reconhecer e controlar um dispositivo</td><td>firmware fica gravado no próprio hardware</td></tr><tr><td><strong>Livre × gratuito</strong></td><td>livre: executar, estudar, modificar, redistribuir</td><td>freeware é só sem custo; shareware é avaliação</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "RAM APAGA, ROM GUARDA",
+          "texto": "Desligou o computador, a RAM perde tudo; a ROM e o armazenamento secundário mantêm o conteúdo."
+        },
+        {
+          "sigla": "LIVRE NÃO É GRÁTIS",
+          "texto": "Software livre fala de liberdade (código-fonte, modificar, redistribuir), não de preço. Pode ser vendido; freeware pode ser fechado."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O teclado e o microfone são exemplos de periféricos de saída, pois enviam informações do usuário para o computador.",
+        "gabarito": "E",
+        "explicacao": "Quem envia dados ao computador é periférico de entrada (teclado, mouse, scanner, microfone). Saída é o que apresenta o resultado, como monitor, impressora e caixas de som."
+      },
+      "aprofundamento": "<p><strong>Hierarquia de memória.</strong> Dos registradores e da cache até a RAM e o armazenamento secundário, a velocidade e o custo por byte caem e a capacidade cresce. Por isso a cache é pequena e cara, e o disco é grande e lento.</p><p><strong>Funções da CPU invertidas.</strong> Item comum troca os papéis: a ULA calcula e compara; a unidade de controle busca, decodifica e coordena. Os registradores são a memória interna do processador.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Hardware e software</em></p><ul><li>Hardware é o conjunto dos componentes físicos do computador, e software é o conjunto dos programas, instruções e dados que fazem o hardware funcionar.</li><li>A CPU (unidade central de processamento) executa as instruções dos programas e é formada principalmente pela unidade de controle, pela unidade lógica e aritmética (ULA) e pelos registradores.</li><li>A unidade lógica e aritmética (ULA) realiza as operações aritméticas e as comparações lógicas, enquanto a unidade de controle busca e decodifica as instruções e coordena a execução.</li><li>A memória RAM é uma memória volátil, de leitura e escrita, que armazena temporariamente os programas e os dados em uso; seu conteúdo é perdido quando o computador é desligado.</li><li>A memória ROM é não volátil e armazena o firmware que dá partida ao computador; seu conteúdo é mantido mesmo sem energia.</li><li>A memória cache é uma memória pequena e muito rápida, situada entre o processador e a memória RAM, que guarda os dados e instruções usados com mais frequência para reduzir o tempo de acesso.</li><li>Na hierarquia de memória, dos registradores e da cache até a memória principal e o armazenamento secundário, a velocidade e o custo por byte diminuem, enquanto a capacidade aumenta.</li><li>O armazenamento secundário, como discos rígidos, SSDs, pendrives e cartões de memória, é não volátil e guarda os dados de forma permanente, mesmo com o computador desligado.</li><li>O disco rígido (HD) grava os dados magneticamente em discos giratórios e tem partes móveis; o SSD usa memória flash, não tem partes móveis e oferece acesso muito mais rápido.</li><li>A placa-mãe é a placa de circuito principal, que interliga o processador, a memória e os demais componentes e periféricos do computador.</li><li>Periféricos de entrada enviam dados ao computador, como teclado, mouse, scanner e microfone; periféricos de saída apresentam os resultados, como monitor, impressora e caixas de som.</li><li>Há periféricos de entrada e saída, como a tela sensível ao toque e a impressora multifuncional com scanner.</li><li>O bit é a menor unidade de informação, que assume o valor 0 ou 1, e o byte é formado por 8 bits; os múltiplos crescem na ordem quilobyte (KB), megabyte (MB), gigabyte (GB) e terabyte (TB).</li><li>A porta USB é um barramento serial padronizado que permite conectar e desconectar dispositivos com o computador ligado (hot swap) e reconhecê-los automaticamente (plug and play).</li><li>O software básico, ou de sistema, compreende o sistema operacional, os drivers e o firmware; o software aplicativo atende a tarefas do usuário, como editores de texto, planilhas e navegadores; os utilitários executam tarefas de manutenção e apoio, como antivírus e compactadores de arquivos.</li><li>Driver é o software que permite ao sistema operacional reconhecer e controlar um dispositivo de hardware específico, como uma impressora ou uma placa de vídeo.</li><li>Firmware é o software gravado em memória não volátil de um dispositivo de hardware, que controla seu funcionamento básico, como o programa de inicialização da placa-mãe.</li><li>Software livre é aquele que garante ao usuário as liberdades de executar o programa para qualquer finalidade, estudar seu funcionamento e adaptá-lo, redistribuir cópias e distribuir versões modificadas; o acesso ao código-fonte é pré-requisito para estudar e modificar o programa.</li><li>Software livre não significa software gratuito: um programa livre pode ser vendido, e um programa gratuito pode não ser livre.</li><li>Freeware é o software distribuído gratuitamente, sem que isso implique acesso ao código-fonte ou permissão para modificá-lo.</li><li>Shareware é o software distribuído para avaliação, com limitação de tempo ou de funcionalidades, cujo uso pleno depende de licença paga.</li><li>Software proprietário é aquele cujo uso, cópia, modificação ou redistribuição é restringido pelo titular, que normalmente não disponibiliza o código-fonte.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "sistemas-operacionais-e-arquivos",
+        "redes-de-computadores-topologias-e-modelo-osi"
+      ]
+    },
     {
       "slug": "sistemas-operacionais-e-arquivos",
       "titulo": "Windows, Linux e gerenciamento de arquivos e pastas",
@@ -201,6 +268,221 @@
       "relacionados": [
         "internet-navegadores-e-correio-eletronico",
         "seguranca-da-informacao"
+      ]
+    },
+    {
+      "slug": "redes-de-computadores-topologias-e-modelo-osi",
+      "titulo": "Redes de computadores: tipos, topologias, equipamentos e modelos OSI e TCP/IP",
+      "grupo": "Redes",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.redes-conceitos",
+        "info.modelo-osi-tcpip"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "redes de computadores",
+        "topologia",
+        "modelo OSI",
+        "modelo TCP/IP",
+        "switch",
+        "roteador"
+      ],
+      "palavras": [
+        "rede",
+        "lan",
+        "man",
+        "wan",
+        "pan",
+        "topologia",
+        "estrela",
+        "barramento",
+        "anel",
+        "malha",
+        "hub",
+        "switch",
+        "roteador",
+        "modem",
+        "p2p",
+        "cliente-servidor",
+        "half-duplex",
+        "full-duplex",
+        "fibra optica",
+        "par trancado",
+        "osi",
+        "tcp/ip",
+        "camadas",
+        "encapsulamento"
+      ],
+      "resumo": "Pela abrangência, a <strong>LAN</strong> fica num prédio ou campus, a <strong>MAN</strong> cobre uma cidade e a <strong>WAN</strong> liga cidades e países (a internet é a maior WAN). Na topologia em <strong>estrela</strong>, cada máquina tem seu cabo até o nó central: cabo rompido isola só aquela estação, mas a queda do switch derruba toda a rede. O <strong>hub</strong> repete o sinal para todas as portas; o <strong>switch</strong> entrega o quadro só à porta do MAC de destino (camada de enlace); o <strong>roteador</strong> liga redes diferentes e escolhe o caminho pelo IP (camada de rede). <strong>Half-duplex</strong> é nos dois sentidos, um de cada vez (rádio); <strong>full-duplex</strong>, ao mesmo tempo (telefone). A <strong>fibra óptica</strong> transmite luz, é imune a interferência eletromagnética e vai mais longe que o par trançado. O <strong>OSI</strong> tem 7 camadas (física, enlace, rede, transporte, sessão, apresentação, aplicação); o <strong>TCP/IP</strong> tem 4 (acesso à rede, internet, transporte, aplicação). HTTP, SMTP, FTP e DNS são de <strong>aplicação</strong>; TCP e UDP, de <strong>transporte</strong>.",
+      "esquema": {
+        "rotulo": "camadas e equipamentos",
+        "html": "<table><thead><tr><th>Camada OSI</th><th>Faz</th><th>Exemplos</th><th>TCP/IP</th></tr></thead><tbody><tr><td>7 Aplicação</td><td>serviço ao usuário</td><td>HTTP, SMTP, FTP, DNS</td><td>Aplicação</td></tr><tr><td>6 Apresentação</td><td>codificação, compressão, criptografia</td><td></td><td>Aplicação</td></tr><tr><td>5 Sessão</td><td>abre, mantém e encerra sessões</td><td></td><td>Aplicação</td></tr><tr><td>4 Transporte</td><td>fim a fim entre processos (portas)</td><td>TCP, UDP</td><td>Transporte</td></tr><tr><td>3 Rede</td><td>encaminha pacotes pelo IP</td><td>roteador, IP</td><td>Internet</td></tr><tr><td>2 Enlace</td><td>quadros e endereço MAC</td><td>switch, placa de rede</td><td>Acesso à rede</td></tr><tr><td>1 Física</td><td>bits no meio</td><td>cabos, conectores, hub</td><td>Acesso à rede</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "HUB GRITA, SWITCH ENTREGA",
+          "texto": "O hub repete para todas as portas; o switch aprende os MACs e entrega só ao destinatário; o roteador decide pelo IP entre redes diferentes."
+        },
+        {
+          "sigla": "ESTRELA: O CENTRO MANDA",
+          "texto": "Na estrela, cabo rompido isola uma estação; nó central fora do ar paralisa todas."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "No modelo OSI, o roteador é o equipamento típico da camada de enlace, pois toma suas decisões de encaminhamento com base no endereço MAC de destino.",
+        "gabarito": "E",
+        "explicacao": "O roteador é da camada de rede e decide pelo endereço IP. O equipamento típico da camada de enlace, que usa o endereço MAC, é o switch."
+      },
+      "aprofundamento": "<p><strong>P2P não tem servidor central.</strong> Rede em que um servidor guarda os recursos e os demais só pedem é cliente-servidor. No peer-to-peer, cada máquina é cliente e servidor ao mesmo tempo.</p><p><strong>Encapsulamento.</strong> Na origem, cada camada acrescenta seu cabeçalho ao que recebeu de cima; no destino, os cabeçalhos saem na ordem inversa. As unidades mudam de nome: bits, quadros, pacotes, segmentos (TCP) ou datagramas (UDP) e mensagens.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Conceitos, tipos e topologias</em></p><ul><li>Uma rede de computadores é um conjunto de dispositivos interligados que trocam dados e compartilham recursos, como impressoras, arquivos e acesso à internet.</li><li>A classificação por abrangência geográfica distingue a LAN, rede local restrita a um prédio ou campus, a MAN, rede metropolitana que cobre uma cidade, e a WAN, rede de longa distância que interliga cidades, estados ou países.</li><li>A PAN (rede de área pessoal) interliga dispositivos a poucos metros do usuário, como um fone Bluetooth e um celular.</li><li>A internet é a maior WAN existente: uma rede de redes que usa a pilha de protocolos TCP/IP.</li><li>Na topologia em barramento, todos os dispositivos compartilham um único cabo central, e uma falha nesse cabo interrompe a comunicação de toda a rede.</li><li>Na topologia em anel, cada dispositivo se conecta a dois vizinhos e os dados circulam em um sentido; a interrupção do anel pode derrubar a rede, salvo se houver anel duplo.</li><li>Na topologia em estrela, todos os dispositivos se ligam a um nó central (switch ou hub); a falha de um cabo isola apenas o dispositivo correspondente, mas a falha do nó central paralisa toda a rede.</li><li>Na topologia em malha (mesh), cada nó se liga a vários outros, o que oferece caminhos redundantes e alta tolerância a falhas, ao custo de mais cabeamento e portas.</li><li>O hub repete o sinal recebido para todas as portas, sem distinguir o destinatário, o que gera colisões e expõe o tráfego a todas as estações.</li><li>O switch encaminha o quadro apenas para a porta associada ao endereço MAC de destino, com base em uma tabela que ele mesmo aprende; o switch opera na camada de enlace.</li><li>O roteador interliga redes diferentes e escolhe o caminho dos pacotes com base no endereço IP de destino; o roteador opera na camada de rede.</li><li>O modem converte os sinais digitais do computador em sinais adequados ao meio de acesso (linha telefônica, cabo, fibra) e vice-versa.</li><li>O ponto de acesso (access point) conecta dispositivos sem fio à rede cabeada.</li><li>No modelo cliente-servidor, um servidor central oferece serviços e recursos que os clientes solicitam; no modelo peer-to-peer (P2P), cada máquina atua ao mesmo tempo como cliente e servidor, sem servidor central.</li><li>Largura de banda é a taxa máxima de transmissão, medida em bits por segundo (bps, Mbps, Gbps); latência é o tempo que um pacote leva da origem ao destino.</li><li>Na comunicação simplex, os dados fluem em um único sentido; na half-duplex, fluem nos dois sentidos, mas um de cada vez, como no rádio comunicador; na full-duplex, fluem nos dois sentidos ao mesmo tempo, como no telefone.</li><li>Meios de transmissão: o par trançado (cabo UTP, conector RJ-45) é o mais comum nas redes locais; o cabo coaxial é usado em TV a cabo; a fibra óptica transmite pulsos de luz, é imune a interferência eletromagnética e alcança distâncias e taxas maiores.</li><li>Unicast é a transmissão para um único destinatário; broadcast, para todos os dispositivos da rede; multicast, para um grupo de destinatários interessados.</li></ul><p><em>Modelos OSI e TCP/IP</em></p><ul><li>O modelo OSI, da ISO, é um modelo de referência com sete camadas, de baixo para cima: física, enlace, rede, transporte, sessão, apresentação e aplicação.</li><li>A camada física trata da transmissão de bits pelo meio: cabos, conectores, sinais elétricos, ópticos ou de rádio.</li><li>A camada de enlace organiza os bits em quadros (frames), controla o acesso ao meio e usa endereços físicos (MAC); switches e placas de rede atuam nela.</li><li>A camada de rede encaminha pacotes entre redes diferentes com base em endereços lógicos (IP); o roteador é o equipamento típico da camada de rede.</li><li>A camada de transporte oferece comunicação fim a fim entre processos, identificados por portas, e pode garantir entrega confiável (TCP) ou não (UDP).</li><li>A camada de sessão estabelece, gerencia e encerra sessões de comunicação entre aplicações.</li><li>A camada de apresentação cuida da representação dos dados: codificação de caracteres, compressão e criptografia.</li><li>A camada de aplicação é a mais próxima do usuário e abriga protocolos como HTTP, SMTP, FTP e DNS.</li><li>O modelo TCP/IP tem quatro camadas: acesso à rede (ou enlace), internet, transporte e aplicação.</li><li>As camadas de sessão, apresentação e aplicação do OSI correspondem à única camada de aplicação do TCP/IP; as camadas física e de enlace do OSI correspondem à camada de acesso à rede.</li><li>A camada internet do TCP/IP corresponde à camada de rede do OSI e é onde atua o protocolo IP.</li><li>No encapsulamento, ao descer pelas camadas na origem, cada camada acrescenta seu cabeçalho aos dados recebidos da camada superior; no destino, o desencapsulamento remove os cabeçalhos no sentido inverso.</li><li>As unidades de dados têm nomes próprios por camada: bits na física, quadros no enlace, pacotes na rede, segmentos (TCP) ou datagramas (UDP) no transporte e mensagens na aplicação.</li><li>O modelo OSI é conceitual e didático, enquanto o TCP/IP é o modelo efetivamente implementado na internet.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "protocolos-tcp-udp-dns-dhcp-e-enderecamento-ip",
+        "redes-sem-fio-vpn-e-acesso-remoto"
+      ]
+    },
+    {
+      "slug": "protocolos-tcp-udp-dns-dhcp-e-enderecamento-ip",
+      "titulo": "Protocolos e endereçamento: TCP, UDP, DNS, DHCP, portas, IPv4 e IPv6",
+      "grupo": "Redes",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.protocolos",
+        "info.enderecamento-ip"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "protocolo TCP",
+        "protocolo UDP",
+        "DNS",
+        "DHCP",
+        "endereço IP",
+        "IPv6"
+      ],
+      "palavras": [
+        "tcp",
+        "udp",
+        "dns",
+        "dhcp",
+        "handshake",
+        "porta",
+        "porta 80",
+        "porta 443",
+        "registro mx",
+        "ipv4",
+        "ipv6",
+        "mascara de sub-rede",
+        "cidr",
+        "gateway",
+        "nat",
+        "endereco privado",
+        "loopback",
+        "apipa",
+        "arp",
+        "icmp",
+        "ping"
+      ],
+      "resumo": "O <strong>TCP</strong> é orientado à conexão (handshake de três vias: SYN, SYN-ACK, ACK) e garante entrega, ordem e retransmissão; o <strong>UDP</strong> não garante nada disso, mas é mais leve e serve a voz, vídeo e jogos em tempo real. O <strong>DNS</strong> traduz nomes (www.exemplo.gov.br) em endereços IP: se ele cair, o acesso pelo nome para, mas o acesso direto pelo IP continua. O <strong>DHCP</strong> entrega automaticamente IP, máscara, gateway e servidores DNS, por um prazo (lease) que o cliente precisa renovar. Portas vão de 0 a 65535; as de 0 a 1023 são as bem conhecidas (HTTP 80, HTTPS 443, SSH 22, SMTP 25, DNS 53). No DNS, o registro <strong>A</strong> aponta para IPv4, o <strong>AAAA</strong> para IPv6 e o <strong>MX</strong> para o servidor de e-mail. O <strong>IPv4</strong> tem 32 bits (quatro octetos de 0 a 255); o <strong>IPv6</strong>, 128 bits em hexadecimal, com \"::\" para uma sequência de zeros. Uma rede /24 tem 254 hosts úteis.",
+      "esquema": {
+        "rotulo": "quem faz o quê",
+        "html": "<table><thead><tr><th>Protocolo</th><th>Faz</th><th>Não faz</th></tr></thead><tbody><tr><td><strong>TCP</strong></td><td>conexão, entrega confiável e ordenada (web, e-mail, FTP)</td><td></td></tr><tr><td><strong>UDP</strong></td><td>envio rápido, sem conexão (VoIP, streaming, DNS, DHCP)</td><td>não garante entrega, ordem nem retransmissão</td></tr><tr><td><strong>DNS</strong></td><td>nome de domínio → endereço IP</td><td>não atribui IP às máquinas</td></tr><tr><td><strong>DHCP</strong></td><td>IP, máscara, gateway e DNS automáticos, por prazo</td><td>não traduz nomes</td></tr><tr><td><strong>ARP</strong></td><td>IP → endereço MAC na rede local</td><td></td></tr><tr><td><strong>ICMP</strong></td><td>mensagens de controle e erro (ping, traceroute)</td><td></td></tr><tr><td><strong>NAT</strong></td><td>vários IPs privados saem por um IP público</td><td></td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "DNS DÁ NOME, DHCP DÁ ENDEREÇO",
+          "texto": "DNS traduz nome em IP; DHCP distribui o IP (e máscara, gateway e DNS) para cada máquina."
+        },
+        {
+          "sigla": "HOSTS = 2 ELEVADO A N, MENOS 2",
+          "texto": "Tire o endereço da rede e o de broadcast: /24 dá 254, /25 dá 126, /26 dá 62 e /30 dá 2."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Se o servidor DNS utilizado por uma estação ficar indisponível, o usuário não conseguirá acessar nenhum site, nem mesmo digitando diretamente o endereço IP do servidor na barra de endereços do navegador.",
+        "gabarito": "E",
+        "explicacao": "Sem DNS, o que falha é a tradução do nome. Digitando o endereço IP, a consulta ao DNS não é necessária e o acesso continua possível."
+      },
+      "aprofundamento": "<p><strong>Faixas privadas.</strong> 10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16 não são roteáveis na internet e saem por NAT. 127.0.0.1 (e ::1 no IPv6) é a própria máquina; 169.254.x.x (APIPA) aparece quando o DHCP não respondeu.</p><p><strong>Mesma rede ou não.</strong> Com máscara /24, 192.168.1.10 e 192.168.1.200 estão na mesma rede; 192.168.1.10 e 192.168.2.10, não. O primeiro endereço identifica a rede e o último é o broadcast: nenhum dos dois vai para um host.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Protocolos: TCP, UDP, DNS e DHCP</em></p><ul><li>O TCP é orientado à conexão: antes de transmitir dados, estabelece a conexão pelo handshake de três vias (SYN, SYN-ACK, ACK).</li><li>O TCP garante entrega confiável e ordenada: numera os segmentos, exige confirmação (ACK) e retransmite o que se perde; também faz controle de fluxo e de congestionamento.</li><li>O UDP não é orientado à conexão e não garante entrega, ordem nem retransmissão; em troca, tem cabeçalho menor e menor latência.</li><li>O UDP é adequado a aplicações em tempo real que toleram perdas, como voz sobre IP, videoconferência, streaming e jogos on-line; também é usado pelo DNS e pelo DHCP.</li><li>O TCP é usado por aplicações que exigem integridade dos dados, como navegação web (HTTP e HTTPS), correio eletrônico (SMTP, POP3 e IMAP) e transferência de arquivos (FTP).</li><li>As portas identificam a aplicação dentro do host; o número de porta vai de 0 a 65535, e as portas de 0 a 1023 são as portas bem conhecidas, reservadas a serviços padrão.</li><li>Portas padrão clássicas: HTTP 80, HTTPS 443, FTP 21, SSH 22, Telnet 23, SMTP 25, DNS 53, POP3 110 e IMAP 143.</li><li>Um socket é identificado pela combinação de endereço IP e número de porta.</li><li>O DNS traduz nomes de domínio legíveis, como www.exemplo.gov.br, em endereços IP, e também faz o caminho inverso (resolução reversa); é um sistema hierárquico e distribuído.</li><li>A resolução DNS começa no cache local e segue para o servidor DNS recursivo do provedor, que consulta, se necessário, os servidores raiz, os servidores do domínio de topo (.br, .com) e o servidor autoritativo do domínio.</li><li>O DNS usa normalmente UDP na porta 53; o TCP é usado para respostas grandes e transferências de zona.</li><li>Registros DNS: A associa um nome a um endereço IPv4; AAAA associa um nome a um endereço IPv6; MX indica o servidor de e-mail do domínio; CNAME cria um apelido para outro nome; PTR serve à resolução reversa; NS indica o servidor de nomes.</li><li>Uma falha do servidor DNS impede o acesso a sites pelo nome, mas não impede o acesso direto pelo endereço IP, porque a tradução de nomes deixa de ser necessária.</li><li>O DHCP atribui automaticamente aos dispositivos da rede um endereço IP, a máscara de sub-rede, o gateway padrão e os endereços dos servidores DNS.</li><li>O endereço fornecido pelo DHCP é concedido por um prazo (lease); ao fim dele, o cliente deve renová-lo.</li><li>O processo DHCP tem quatro etapas: Discover (o cliente procura um servidor por broadcast), Offer (o servidor oferece um endereço), Request (o cliente aceita) e Acknowledge (o servidor confirma).</li><li>O DHCP evita a configuração manual e os conflitos de endereços repetidos; sem servidor DHCP, o administrador precisa configurar cada host manualmente, com IP estático.</li><li>O ICMP transporta mensagens de controle e de erro, como as do comando ping (echo request e echo reply) e do traceroute.</li><li>O ARP traduz um endereço IP em endereço MAC dentro da rede local.</li><li>O NAT permite que vários dispositivos com endereços privados compartilhem um único endereço IP público para acessar a internet.</li></ul><p><em>Endereçamento IPv4 e IPv6</em></p><ul><li>Um endereço IPv4 tem 32 bits, escritos em quatro octetos decimais separados por pontos, cada um de 0 a 255, como 192.168.10.25.</li><li>O IPv4 permite cerca de 4,3 bilhões de endereços (2 elevado a 32), quantidade que se esgotou com a expansão da internet; o IPv6 surgiu para resolver essa escassez.</li><li>Um endereço IPv6 tem 128 bits, escritos em oito grupos de quatro dígitos hexadecimais separados por dois-pontos, como 2001:0db8:0000:0000:0000:0000:0000:0001.</li><li>Na abreviação do IPv6, os zeros à esquerda de cada grupo podem ser omitidos, e uma única sequência de grupos todos zero pode ser substituída por \"::\"; assim, 2001:0db8:0000:0000:0000:0000:0000:0001 pode ser escrito 2001:db8::1.</li><li>Um endereço IP tem duas partes: o identificador de rede e o identificador de host; a máscara de sub-rede indica quantos bits pertencem à rede.</li><li>A máscara 255.255.255.0, ou /24, reserva 24 bits para a rede e 8 bits para os hosts; a notação CIDR \"/n\" indica o número de bits de rede.</li><li>Em uma sub-rede, o primeiro endereço (bits de host todos 0) identifica a rede e o último (bits de host todos 1) é o endereço de broadcast; nenhum dos dois pode ser atribuído a um host.</li><li>O número de hosts utilizáveis em uma sub-rede é 2 elevado ao número de bits de host, menos 2; um /24 oferece 254 hosts, um /25 oferece 126, um /26 oferece 62 e um /30 oferece 2.</li><li>Dois hosts estão na mesma sub-rede quando a aplicação da máscara aos seus endereços produz o mesmo identificador de rede; 192.168.1.10/24 e 192.168.1.200/24 estão na mesma rede, mas 192.168.1.10/24 e 192.168.2.10/24 pertencem a redes diferentes.</li><li>Classes históricas: classe A (primeiro octeto de 1 a 126, máscara padrão /8), classe B (128 a 191, /16) e classe C (192 a 223, /24); a classe D (224 a 239) é reservada a multicast e a classe E (240 a 255) é experimental.</li><li>Os endereços privados, não roteáveis na internet, são 10.0.0.0/8, 172.16.0.0/12 (de 172.16.0.0 a 172.31.255.255) e 192.168.0.0/16.</li><li>Endereços privados são usados em redes internas e saem para a internet por meio do NAT, que os traduz para um endereço público.</li><li>O endereço 127.0.0.1 (loopback, localhost) refere-se à própria máquina; em IPv6, o loopback é ::1.</li><li>O endereço APIPA, na faixa 169.254.0.0/16, é autoatribuído pelo host quando ele não consegue obter endereço de um servidor DHCP.</li><li>O gateway padrão é o endereço do roteador ao qual o host envia os pacotes destinados a outras redes.</li><li>O IPv6 dispensa o NAT em regra, tem autoconfiguração de endereços, não usa broadcast (usa multicast) e tem cabeçalho simplificado; IPv4 e IPv6 podem coexistir no mesmo dispositivo (pilha dupla).</li><li>O endereço MAC tem 48 bits, é escrito em hexadecimal, vem gravado na placa de rede e é usado na camada de enlace; ao contrário do IP, não muda quando o dispositivo troca de rede.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "redes-de-computadores-topologias-e-modelo-osi",
+        "internet-navegadores-e-correio-eletronico"
+      ]
+    },
+    {
+      "slug": "redes-sem-fio-vpn-e-acesso-remoto",
+      "titulo": "Redes sem fio, VPN, TLS e acesso remoto",
+      "grupo": "Redes",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.redes-sem-fio",
+        "info.vpn-tls",
+        "info.acesso-remoto"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "rede sem fio",
+        "Wi-Fi",
+        "VPN",
+        "TLS",
+        "acesso remoto",
+        "SSH"
+      ],
+      "palavras": [
+        "wi-fi",
+        "wifi",
+        "wireless",
+        "802.11",
+        "ssid",
+        "wep",
+        "wpa",
+        "wpa2",
+        "wpa3",
+        "radius",
+        "2,4 ghz",
+        "5 ghz",
+        "vpn",
+        "tunel",
+        "ipsec",
+        "ssl",
+        "tls",
+        "https",
+        "cadeado",
+        "rdp",
+        "vnc",
+        "ssh",
+        "telnet",
+        "sftp",
+        "area de trabalho remota"
+      ],
+      "resumo": "O <strong>Wi-Fi</strong> segue a família IEEE 802.11. Na segurança, o <strong>WEP</strong> é o mais antigo e quebrável em minutos; o <strong>WPA2</strong> (AES) virou o padrão e o <strong>WPA3</strong> é o sucessor. Ocultar o SSID ou filtrar por MAC só dificulta: o nome vaza nos quadros e o MAC se clona. A faixa de <strong>2,4 GHz</strong> alcança mais e sofre mais interferência; a de <strong>5 GHz</strong> é mais rápida e alcança menos. A <strong>VPN</strong> cria um túnel cifrado sobre a internet: o servidor em casa usa os sistemas do órgão como se estivesse na rede local. Ela protege os dados no caminho, mas não barra vírus. O <strong>TLS</strong> sucedeu o SSL e sustenta o HTTPS: usa criptografia assimétrica só no início (certificado do servidor e troca de chave) e simétrica nos dados. O cadeado prova que a conexão é cifrada, não que o site é honesto. No acesso remoto, o <strong>SSH</strong> é seguro e cifra até a senha; o <strong>Telnet</strong> manda tudo em texto claro. O <strong>RDP</strong> é a área de trabalho remota da Microsoft, e o <strong>VNC</strong> funciona entre sistemas diferentes.",
+      "esquema": {
+        "rotulo": "o que protege e o que não protege",
+        "html": "<table><thead><tr><th>Recurso</th><th>Protege</th><th>Não protege</th></tr></thead><tbody><tr><td><strong>WPA2/WPA3</strong></td><td>o tráfego da rede sem fio</td><td></td></tr><tr><td><strong>Ocultar SSID / filtro MAC</strong></td><td>só dificulta a descoberta e o acesso</td><td>não substitui a criptografia</td></tr><tr><td><strong>VPN</strong></td><td>confidencialidade e integridade no trajeto pela internet</td><td>não impede vírus nem protege os dados fora do túnel</td></tr><tr><td><strong>TLS (HTTPS)</strong></td><td>conexão cifrada com o servidor certificado</td><td>não atesta que o site é legítimo</td></tr><tr><td><strong>SSH</strong></td><td>acesso remoto e arquivos (SFTP, SCP) cifrados</td><td></td></tr><tr><td><strong>Telnet</strong></td><td></td><td>manda usuário e senha em texto claro</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "WEP, WPA, WPA2, WPA3",
+          "texto": "A ordem histórica é também a ordem de segurança: o mais antigo (WEP) é o mais fraco."
+        },
+        {
+          "sigla": "CADEADO É CANAL, NÃO É CARÁTER",
+          "texto": "HTTPS mostra que a conversa com aquele domínio está cifrada. Site de phishing também pode ter cadeado."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Ao utilizar uma VPN para acessar a rede do órgão, o servidor fica protegido contra a infecção de seu computador por vírus e demais códigos maliciosos, pois todo o tráfego passa por um túnel criptografado.",
+        "gabarito": "E",
+        "explicacao": "A VPN protege a confidencialidade e a integridade dos dados em trânsito. Ela não analisa arquivos: um anexo infectado atravessa o túnel normalmente."
+      },
+      "aprofundamento": "<p><strong>Wi-Fi aberto e HTTPS.</strong> Numa rede sem senha, o tráfego Wi-Fi vai sem cifra, mas a página acessada por HTTPS continua protegida, porque o TLS é fim a fim entre navegador e servidor. Fica exposto o que trafega sem TLS.</p><p><strong>Quem mostra certificado no TLS.</strong> É o servidor, obrigatoriamente; o certificado do cliente é opcional, e na navegação comum o usuário não tem nenhum.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>VPN e SSL/TLS</em></p><ul><li>VPN (rede privada virtual) é uma rede que usa uma infraestrutura pública, como a internet, para interligar pontos de forma segura, por meio de um túnel cifrado entre as extremidades.</li><li>A VPN garante confidencialidade e integridade dos dados em trânsito pela rede pública, mas não torna o computador do usuário imune a vírus nem protege os dados depois que saem do túnel.</li><li>Com a VPN, um servidor que trabalha em casa acessa os sistemas internos do órgão como se estivesse conectado à rede local, sem precisar de um link físico dedicado.</li><li>O tunelamento consiste em encapsular os pacotes da rede privada dentro de pacotes da rede pública, protegendo-os com criptografia; IPsec é o conjunto de protocolos mais usado para VPN na camada de rede.</li><li>Uma VPN pode ser de acesso remoto (cliente a rede) ou site a site (interliga duas redes de unidades diferentes por meio de dois gateways).</li><li>A VPN é mais barata que uma linha privada dedicada, pois aproveita a conexão de internet já existente.</li><li>SSL (Secure Sockets Layer) foi o protocolo original de segurança para a web; foi substituído pelo TLS (Transport Layer Security), seu sucessor, embora o nome SSL ainda seja usado popularmente.</li><li>O TLS fornece confidencialidade, integridade e autenticação do servidor na comunicação entre o navegador e o servidor web; a autenticação do cliente por certificado é opcional.</li><li>HTTPS é o HTTP transportado sobre TLS; o cadeado exibido pelo navegador indica que a conexão está cifrada e que o certificado do servidor foi validado, mas não garante que o conteúdo do site seja confiável ou legítimo.</li><li>No início da conexão TLS (handshake), o servidor apresenta seu certificado digital, o cliente verifica a cadeia de confiança e ambos negociam uma chave de sessão simétrica para cifrar os dados.</li><li>O TLS usa criptografia assimétrica apenas no estabelecimento da sessão e na troca de chaves; os dados propriamente ditos são cifrados com criptografia simétrica, que é mais rápida.</li><li>O navegador exibe alerta quando o certificado do servidor está expirado, foi emitido por autoridade não confiável ou não corresponde ao nome do site; prosseguir mesmo assim expõe o usuário a interceptação.</li><li>O TLS também protege outros protocolos, como SMTP, POP3, IMAP e FTP, resultando em versões seguras desses protocolos.</li><li>Um site de phishing também pode ter certificado válido e exibir o cadeado; o HTTPS prova que a comunicação com aquele domínio está cifrada, não que o domínio pertença à instituição legítima.</li></ul><p><em>Redes sem fio e sua segurança</em></p><ul><li>Redes sem fio (wireless) transmitem dados por ondas de rádio, sem cabos; a família de padrões IEEE 802.11, conhecida como Wi-Fi, define as redes locais sem fio (WLAN).</li><li>O ponto de acesso (access point) é o equipamento que conecta os dispositivos sem fio à rede cabeada e divulga o nome da rede (SSID).</li><li>O SSID é o nome que identifica a rede sem fio; ocultar o SSID dificulta, mas não impede, que a rede seja descoberta, e não substitui a criptografia.</li><li>Como o sinal de rádio se propaga além das paredes do prédio, qualquer pessoa ao alcance pode capturar o tráfego, por isso a criptografia é indispensável nas redes sem fio.</li><li>O WEP foi o primeiro protocolo de segurança do Wi-Fi e possui falhas graves que permitem descobrir a chave em minutos; seu uso é considerado inseguro e deve ser abandonado.</li><li>O WPA substituiu o WEP como solução provisória; o WPA2, baseado em AES, tornou-se o padrão de segurança por muitos anos, e o WPA3 é seu sucessor, com proteções adicionais.</li><li>No modo pessoal (WPA2-PSK), todos os dispositivos usam a mesma senha compartilhada; no modo corporativo (WPA2-Enterprise), cada usuário se autentica com credenciais próprias em um servidor de autenticação (RADIUS).</li><li>Uma rede Wi-Fi aberta, sem senha, transmite o tráfego sem cifrar, de modo que qualquer pessoa ao alcance pode capturar os dados; mesmo em redes assim, conexões HTTPS continuam protegidas pelo TLS.</li><li>Em redes Wi-Fi públicas, recomenda-se usar VPN e evitar transações sensíveis, pois o ponto de acesso pode ser falso (evil twin) e interceptar o tráfego.</li><li>A filtragem por endereço MAC permite autorizar apenas dispositivos cadastrados, mas o endereço MAC pode ser clonado facilmente, por isso a medida é apenas complementar.</li><li>Alterar a senha padrão do roteador e manter seu firmware atualizado são medidas básicas de segurança da rede doméstica.</li><li>O Bluetooth é uma tecnologia sem fio de curto alcance destinada à conexão de dispositivos pessoais, como fones e teclados, formando redes pessoais (PAN).</li><li>O Wi-Fi opera principalmente nas faixas de frequência de 2,4 GHz e 5 GHz; a faixa de 2,4 GHz tem maior alcance, mas sofre mais interferência, e a de 5 GHz oferece maior velocidade com menor alcance.</li><li>O WPS (Wi-Fi Protected Setup) facilita a conexão de dispositivos por botão ou PIN, mas o método por PIN tem vulnerabilidade conhecida e recomenda-se desativá-lo.</li><li>Nas redes sem fio o meio é compartilhado: os dispositivos disputam o mesmo canal, e quanto mais dispositivos conectados ao ponto de acesso, menor a velocidade disponível para cada um.</li></ul><p><em>Acesso remoto</em></p><ul><li>Acesso remoto é a utilização de um computador ou de uma rede a partir de outro local, por meio de uma conexão de rede, como a internet.</li><li>Na área de trabalho remota, o usuário vê a tela do computador remoto e o controla com o próprio teclado e mouse, como se estivesse diante dele; os programas são executados no computador remoto, e apenas as imagens da tela e os comandos trafegam pela rede.</li><li>O RDP (Remote Desktop Protocol) é o protocolo de área de trabalho remota desenvolvido pela Microsoft e usa, por padrão, a porta 3389.</li><li>O VNC é um sistema de compartilhamento remoto da área de trabalho gráfica que funciona entre diferentes sistemas operacionais.</li><li>O SSH é um protocolo de acesso remoto seguro, usado sobretudo para executar comandos em outro computador por linha de comando, com toda a comunicação criptografada, inclusive a senha; usa, por padrão, a porta 22.</li><li>O Telnet é um protocolo antigo de acesso remoto por linha de comando que transmite os dados, inclusive usuário e senha, em texto claro, sem criptografia, e por isso foi substituído pelo SSH.</li><li>O SFTP e o SCP são formas de transferir arquivos com segurança aproveitando a conexão criptografada do SSH.</li><li>A VPN cria um túnel criptografado sobre uma rede pública, permitindo que o usuário remoto acesse os recursos da rede interna da organização como se estivesse conectado a ela.</li><li>Serviços de acesso remoto expostos diretamente à internet são alvos frequentes de ataques de força bruta; por isso, devem ser protegidos com senhas fortes, autenticação multifator e, de preferência, acesso apenas por VPN.</li><li>No suporte técnico remoto, o técnico acessa o computador do usuário com a autorização deste; golpistas se passam por suporte técnico para convencer a vítima a instalar programas de acesso remoto e assumir o controle da máquina.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "seguranca-da-informacao",
+        "protocolos-tcp-udp-dns-dhcp-e-enderecamento-ip"
       ]
     },
     {
@@ -463,6 +745,68 @@
       ]
     },
     {
+      "slug": "dado-informacao-sistemas-de-informacao-e-metadados",
+      "titulo": "Dado, informação, sistemas de informação e metadados",
+      "grupo": "Dados e IA",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.sistemas-informacao",
+        "info.metadados"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "dado",
+        "informação",
+        "conhecimento",
+        "sistema de informação",
+        "ERP",
+        "metadados"
+      ],
+      "palavras": [
+        "dado",
+        "informacao",
+        "conhecimento",
+        "sabedoria",
+        "dikw",
+        "sistema de informacao",
+        "spt",
+        "sig",
+        "sad",
+        "erp",
+        "metadados",
+        "dublin core",
+        "dicionario de dados",
+        "exif"
+      ],
+      "resumo": "<strong>Dado</strong> é o registro bruto, sem contexto (o número 37); <strong>informação</strong> é o dado processado e contextualizado (37 atendimentos hoje); <strong>conhecimento</strong> é a informação somada à experiência de quem decide. Subindo de dado para sabedoria, o volume diminui e o valor para a decisão aumenta. Um <strong>sistema de informação</strong> não é só software: envolve hardware, software, dados, redes, pessoas e procedimentos. O <strong>SPT</strong> registra as operações do dia a dia (nível operacional); o <strong>SIG</strong> faz relatórios periódicos a partir deles (nível tático); o <strong>SAD</strong> apoia decisões semiestruturadas com modelos e simulações; o <strong>ERP</strong> integra as áreas numa base de dados única. <strong>Metadados</strong> são dados sobre dados: o texto do relatório é o dado; autor, data e formato são metadados. Numa foto, data, câmera e GPS ficam gravados no arquivo.",
+      "esquema": {
+        "rotulo": "sistemas por nível",
+        "html": "<table><thead><tr><th>Sistema</th><th>Nível</th><th>Faz</th></tr></thead><tbody><tr><td><strong>SPT</strong></td><td>operacional</td><td>registra transações rotineiras, uma a uma</td></tr><tr><td><strong>SIG</strong></td><td>tático</td><td>relatórios resumidos e periódicos a partir do SPT</td></tr><tr><td><strong>SAD</strong></td><td>tático e estratégico</td><td>modelos e simulações para decisões semiestruturadas</td></tr><tr><td><strong>Apoio executivo</strong></td><td>estratégico</td><td>visão consolidada de indicadores</td></tr><tr><td><strong>ERP</strong></td><td>toda a organização</td><td>integra as áreas numa base de dados única</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "DADO SOLTO, INFORMAÇÃO COM CONTEXTO",
+          "texto": "Sem dizer o que o número significa, é dado; com contexto e significado, vira informação."
+        },
+        {
+          "sigla": "METADADO DESCREVE, NÃO É O CONTEÚDO",
+          "texto": "Autor, data, formato e localização descrevem o arquivo; o texto ou a imagem em si é o dado."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Um sistema integrado de gestão (ERP) caracteriza-se por manter bases de dados separadas e independentes para cada área da organização.",
+        "gabarito": "E",
+        "explicacao": "A marca do ERP é o contrário: integrar os processos das áreas numa base de dados única e compartilhada, sem redundância nem retrabalho."
+      },
+      "aprofundamento": "<p><strong>Tipos de metadados.</strong> Descritivos (título, autor, palavras-chave) servem à busca; estruturais mostram como as partes se organizam; administrativos apoiam a gestão (data, formato, permissões, direitos). O dicionário de dados é um repositório de metadados da base.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Dado, informação e conhecimento</em></p><ul><li>Dado é o registro bruto de um fato ou ocorrência, sem interpretação nem contexto: um número isolado, um nome, uma data.</li><li>Informação é o dado processado, organizado e contextualizado, de modo a ter significado para quem o recebe.</li><li>Conhecimento é a informação assimilada pela pessoa e combinada com sua experiência, o que lhe permite interpretar situações, decidir e agir.</li><li>Na hierarquia dado, informação, conhecimento e sabedoria, o volume de elementos diminui e o valor para a decisão aumenta à medida que se sobe da base ao topo.</li><li>O mesmo dado pode gerar informações diferentes conforme o contexto em que é interpretado.</li><li>A informação de qualidade é precisa, completa, atual, relevante e entregue em tempo oportuno para a decisão.</li></ul><p><em>Sistemas de informação</em></p><ul><li>Sistema de informação é um conjunto de componentes inter-relacionados que coleta, processa, armazena e distribui informação para apoiar a tomada de decisão, a coordenação e o controle em uma organização.</li><li>Um sistema de informação não se limita ao software: envolve hardware, software, dados, redes, pessoas e procedimentos.</li><li>As funções básicas de um sistema de informação são entrada, processamento, saída e realimentação (feedback), que permite corrigir e ajustar o processo.</li><li>Os sistemas de processamento de transações (SPT) registram as operações rotineiras do dia a dia, como atendimentos, vendas e pagamentos, no nível operacional da organização.</li><li>Os sistemas de informação gerencial (SIG) produzem relatórios resumidos e periódicos, a partir dos dados dos sistemas transacionais, para apoiar gerentes de nível tático.</li><li>Os sistemas de apoio à decisão (SAD) apoiam decisões semiestruturadas e não rotineiras por meio de modelos, simulações e análise de cenários.</li><li>Os sistemas de apoio executivo atendem ao nível estratégico, com visão consolidada de indicadores internos e externos.</li><li>Um sistema integrado de gestão (ERP) integra os processos das diversas áreas da organização em uma base de dados única e compartilhada, evitando redundância e retrabalho.</li></ul><p><em>Metadados</em></p><ul><li>Metadados são dados sobre dados: informações que descrevem, explicam, localizam ou facilitam a recuperação, o uso e a gestão de um recurso informacional.</li><li>O metadado não é o conteúdo em si: o texto de um relatório é o dado; autor, data de criação, formato e número de páginas são metadados.</li><li>Em uma fotografia digital, data e hora da captura, modelo da câmera, resolução e coordenadas de GPS são metadados gravados no arquivo, e as coordenadas podem revelar a localização de quem a produziu.</li><li>A remoção dos metadados de fotos e documentos antes da divulgação é prática de privacidade e segurança da informação.</li><li>Metadados descritivos identificam e descrevem o recurso, como título, autor, assunto e palavras-chave, e servem à busca e à localização.</li><li>Metadados estruturais indicam como as partes de um recurso se organizam, como a ordem dos capítulos de um livro digital ou a relação entre as páginas de um documento.</li><li>Metadados administrativos apoiam a gestão do recurso, como data de criação, formato, permissões de acesso, direitos autorais e informações de preservação.</li><li>Metadados podem ser gerados automaticamente por sistemas e dispositivos, como a câmera que grava data e local da foto, ou atribuídos manualmente, como etiquetas e descrições inseridas pelo usuário.</li><li>O dicionário de dados é um repositório de metadados que descreve as tabelas, os campos, os tipos de dados e o significado de cada elemento de uma base de dados.</li><li>Em um banco de dados relacional, as definições de tabelas, colunas, tipos e chaves guardadas no catálogo do sistema constituem metadados.</li><li>Padrões de metadados, como o Dublin Core, definem conjuntos de elementos descritivos que favorecem a busca e a interoperabilidade entre sistemas.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "banco-de-dados-e-sql",
+        "mineracao-de-dados-bi-data-warehouse-e-etl"
+      ]
+    },
+    {
       "slug": "banco-de-dados-e-sql",
       "titulo": "Banco de dados relacional e SQL",
       "grupo": "Dados e IA",
@@ -522,6 +866,152 @@
       "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
       "relacionados": [
         "inteligencia-artificial-e-big-data"
+      ]
+    },
+    {
+      "slug": "mineracao-de-dados-bi-data-warehouse-e-etl",
+      "titulo": "Mineração de dados, BI, data warehouse, data lake e ETL",
+      "grupo": "Dados e IA",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.mineracao-dados",
+        "info.bi-datawarehouse",
+        "info.etl"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "mineração de dados",
+        "business intelligence",
+        "data warehouse",
+        "data lake",
+        "ETL"
+      ],
+      "palavras": [
+        "mineracao de dados",
+        "data mining",
+        "kdd",
+        "classificacao",
+        "clustering",
+        "agrupamento",
+        "associacao",
+        "suporte",
+        "confianca",
+        "outlier",
+        "regressao",
+        "bi",
+        "business intelligence",
+        "data warehouse",
+        "data mart",
+        "data lake",
+        "olap",
+        "oltp",
+        "drill down",
+        "roll up",
+        "slice",
+        "dice",
+        "esquema estrela",
+        "etl",
+        "elt",
+        "staging"
+      ],
+      "resumo": "<strong>Mineração de dados</strong> descobre padrões que ninguém conhecia; consulta só recupera o que já se sabe descrever. Ela é uma etapa do <strong>KDD</strong>, que vai da seleção à interpretação. <strong>Classificação</strong> põe registros em categorias já definidas (aprende com exemplos rotulados); <strong>agrupamento</strong> forma grupos que não existiam antes, sem rótulos; <strong>associação</strong> acha regras \"quem compra X compra Y\"; <strong>regressão</strong> estima um número. O <strong>data warehouse</strong> guarda dados orientados por assunto, integrados, históricos e não voláteis, para análise (<strong>OLAP</strong>), separado dos sistemas do dia a dia (<strong>OLTP</strong>). O <strong>data lake</strong> guarda dados brutos de qualquer formato e aplica o esquema só na leitura. O <strong>ETL</strong> extrai, transforma (limpa, padroniza, tira duplicatas) e carrega; no <strong>ELT</strong>, carrega bruto e transforma dentro do destino, como nos data lakes em nuvem.",
+      "esquema": {
+        "rotulo": "onde cada coisa entra",
+        "html": "<table><thead><tr><th>Termo</th><th>É</th><th>Não confunda</th></tr></thead><tbody><tr><td><strong>Classificação</strong></td><td>categoria predefinida, com exemplos rotulados (preditiva)</td><td>agrupamento cria os grupos sem rótulo (descritiva)</td></tr><tr><td><strong>Associação</strong></td><td>itens que aparecem juntos (suporte e confiança)</td><td>correlação não prova causa</td></tr><tr><td><strong>Data warehouse</strong></td><td>dados tratados, históricos, não voláteis; esquema na gravação</td><td>não roda as operações do dia a dia</td></tr><tr><td><strong>Data lake</strong></td><td>dados brutos de qualquer formato; esquema na leitura</td><td>sem governança vira data swamp</td></tr><tr><td><strong>Data mart</strong></td><td>fatia do warehouse para um setor</td><td></td></tr><tr><td><strong>ETL × ELT</strong></td><td>ETL transforma antes de carregar</td><td>ELT carrega bruto e transforma no destino</td></tr><tr><td><strong>Drill down × roll up</strong></td><td>detalhar (ano → mês)</td><td>roll up agrega (mês → ano)</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "CLASSIFICAR TEM RÓTULO, AGRUPAR NÃO",
+          "texto": "Se as categorias já existem e o modelo aprende com exemplos, é classificação. Se os grupos surgem dos dados, é clustering."
+        },
+        {
+          "sigla": "PADRONIZAR É TRANSFORMAR",
+          "texto": "Unificar datas, moedas e códigos e tirar duplicatas é a etapa de transformação do ETL, não a extração."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Os dados de um data warehouse são voláteis: são atualizados e excluídos continuamente pelas operações do dia a dia, para refletir apenas a situação atual da organização.",
+        "gabarito": "E",
+        "explicacao": "O data warehouse é não volátil e histórico: depois de carregados, os dados não são alterados pelas operações diárias, só acrescidos em novas cargas. Quem reflete o dia a dia são os sistemas transacionais (OLTP)."
+      },
+      "aprofundamento": "<p><strong>Esquema estrela.</strong> A tabela fato guarda as medidas (quantidade, valor) e se liga direto às dimensões (tempo, local, produto). No floco de neve, as dimensões são normalizadas em mais tabelas.</p><p><strong>Carga completa × incremental.</strong> A completa substitui todo o conteúdo do destino; a incremental grava só o que é novo ou mudou desde a última execução.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Mineração de dados</em></p><ul><li>Mineração de dados é o processo de descobrir padrões, relações e conhecimento úteis em grandes volumes de dados, por meio de técnicas de estatística, aprendizado de máquina e banco de dados.</li><li>A mineração de dados não se confunde com consulta: a consulta recupera dados que o usuário já sabe descrever, enquanto a mineração descobre padrões que não eram conhecidos previamente.</li><li>A descoberta de conhecimento em bases de dados (KDD) é o processo completo, que inclui seleção, pré-processamento, transformação, mineração e interpretação dos resultados; a mineração de dados é apenas uma das etapas desse processo.</li><li>O pré-processamento dos dados, com limpeza de valores ausentes, remoção de duplicatas e tratamento de inconsistências, costuma consumir a maior parte do esforço de um projeto de mineração, porque a qualidade dos padrões depende da qualidade dos dados de entrada.</li><li>A classificação é a tarefa de mineração que atribui cada registro a uma categoria predefinida, com base em um modelo construído a partir de exemplos já rotulados.</li><li>O agrupamento, ou clustering, reúne registros semelhantes em grupos que não foram definidos previamente, sem uso de rótulos, e por isso é uma tarefa descritiva.</li><li>A associação descobre regras do tipo \"quem compra X também compra Y\", medindo a frequência com que itens aparecem juntos nas transações.</li><li>Na regra de associação, o suporte mede a frequência com que o conjunto de itens aparece no total de transações, e a confiança mede a proporção das transações com o antecedente que também contêm o consequente.</li><li>A detecção de anomalias, ou outliers, identifica registros que se desviam significativamente do padrão geral dos dados, sendo usada, por exemplo, para apontar transações financeiras suspeitas de fraude.</li><li>A regressão é a tarefa de mineração que estima um valor numérico contínuo, como o preço de um imóvel ou o consumo de energia, a partir de outras variáveis.</li><li>As tarefas de mineração dividem-se em preditivas, que usam dados conhecidos para prever valores ou classes de novos registros, e descritivas, que resumem e caracterizam os dados existentes.</li><li>A árvore de decisão é um modelo de classificação em que cada nó interno testa um atributo e cada folha representa uma classe, produzindo regras legíveis para o ser humano.</li><li>A mineração de dados pode encontrar correlações entre variáveis, mas correlação não implica causalidade; a interpretação dos padrões exige análise humana.</li><li>A mineração de textos aplica técnicas de mineração a documentos não estruturados, como e-mails, processos e notícias, extraindo termos, tópicos e sentimentos.</li></ul><p><em>BI, data warehouse e data lake</em></p><ul><li>Business intelligence (BI) é o conjunto de processos, tecnologias e ferramentas que transformam dados brutos em informações para apoiar a tomada de decisão gerencial.</li><li>O BI é voltado ao apoio à decisão e à análise, e não à execução das operações diárias, que é papel dos sistemas transacionais.</li><li>Um data warehouse é um repositório central de dados integrados, orientados por assunto, históricos e não voláteis, construído para análise e apoio à decisão.</li><li>Os dados do data warehouse são orientados por assunto, como cliente, produto ou atendimento, e não pelos processos operacionais que os geraram.</li><li>Os dados do data warehouse são integrados: dados provenientes de sistemas distintos são padronizados em formato, unidades e codificação antes de serem armazenados.</li><li>Os dados do data warehouse são variáveis no tempo: o repositório guarda o histórico, de modo que se pode analisar a evolução de um indicador ao longo dos anos.</li><li>Os dados do data warehouse são não voláteis: uma vez carregados, não são alterados nem excluídos pelas operações do dia a dia, apenas acrescidos em novas cargas.</li><li>Sistemas OLTP (processamento de transações on-line) registram as operações do dia a dia, com muitas transações curtas de inserção e atualização; sistemas OLAP (processamento analítico on-line) fazem consultas complexas sobre grandes volumes históricos para análise.</li><li>O data warehouse é um ambiente OLAP, separado dos bancos operacionais, justamente para que as consultas analíticas pesadas não prejudiquem o desempenho dos sistemas transacionais.</li><li>Um data mart é um subconjunto do data warehouse voltado a um departamento ou assunto específico, como vendas ou recursos humanos.</li><li>No modelo dimensional, a tabela fato guarda as medidas numéricas do negócio, como quantidade e valor, e as tabelas dimensão guardam os contextos de análise, como tempo, local e produto.</li><li>No esquema estrela, uma tabela fato central liga-se diretamente a várias tabelas dimensão desnormalizadas; no esquema floco de neve, as dimensões são normalizadas em tabelas adicionais.</li><li>Nas análises OLAP, drill down significa detalhar os dados para um nível mais baixo de granularidade, como passar de ano para mês, e roll up significa agregá-los para um nível mais alto.</li><li>Nas análises OLAP, slice seleciona um único valor de uma dimensão, e dice seleciona um subconjunto de valores de duas ou mais dimensões, formando um subcubo.</li><li>Dashboards e relatórios são as camadas de apresentação do BI, exibindo indicadores de desempenho de forma visual para gestores.</li><li>Um data lake é um repositório que armazena grandes volumes de dados brutos, em formato nativo, estruturados ou não, sem exigir a definição de um esquema antes da carga.</li><li>No data lake, o esquema é aplicado no momento da leitura (schema-on-read); no data warehouse, o esquema é definido antes da gravação (schema-on-write).</li><li>O data warehouse armazena dados já tratados e estruturados para consultas analíticas; o data lake armazena dados brutos de qualquer formato, inclusive para uso futuro ainda não definido.</li><li>Um data lake sem governança, catálogo e controle de qualidade tende a se tornar um data swamp, repositório em que os dados não podem ser encontrados nem confiados.</li></ul><p><em>ETL e ELT</em></p><ul><li>ETL é a sigla de extração, transformação e carga (extract, transform, load): processo que retira dados das fontes, trata-os e os grava no repositório de destino, como um data warehouse.</li><li>Na etapa de extração, os dados são lidos das fontes de origem, que podem ser bancos de dados transacionais, planilhas, arquivos de texto, sistemas legados ou serviços externos.</li><li>Na etapa de transformação, os dados são limpos, padronizados, convertidos e integrados: corrigem-se formatos de data, unificam-se códigos, removem-se duplicatas e calculam-se agregações.</li><li>Na etapa de carga, os dados já tratados são gravados no destino, em carga completa, que substitui todo o conteúdo, ou em carga incremental, que insere apenas os registros novos ou alterados desde a última execução.</li><li>No ETL tradicional, a transformação ocorre em uma área intermediária, chamada staging area, antes de os dados chegarem ao destino.</li><li>No ELT, a ordem das etapas finais se inverte: os dados brutos são extraídos e carregados diretamente no destino, e a transformação é feita depois, usando o poder de processamento do próprio repositório.</li><li>O ELT é a abordagem típica dos data lakes e dos repositórios em nuvem, porque permite guardar os dados brutos primeiro e decidir as transformações depois.</li><li>No ETL, os dados chegam ao destino já transformados; no ELT, os dados chegam brutos e a transformação acontece dentro do repositório de destino.</li><li>A padronização de unidades e formatos, como converter todas as datas para um único padrão e todos os valores para a mesma moeda, é um exemplo de transformação, e não de extração.</li><li>A qualidade dos dados é tratada principalmente na transformação, que aplica regras de validação e rejeita ou corrige registros inconsistentes.</li><li>Os processos de ETL costumam ser executados de forma agendada e automática, em lotes, em horários de menor uso dos sistemas de origem, mas também podem operar em tempo quase real.</li><li>O ETL é o processo que alimenta o data warehouse, enquanto o BI é a camada que consome os dados já carregados para produzir análises e relatórios.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "inteligencia-artificial-e-big-data",
+        "banco-de-dados-e-sql"
+      ]
+    },
+    {
+      "slug": "modelagem-de-dados-python-e-apis",
+      "titulo": "Modelagem entidade-relacionamento, noções de Python e APIs",
+      "grupo": "Dados e IA",
+      "base": "Material próprio do Tchau Pobreza, conferido com a documentação técnica",
+      "tax": [
+        "info.modelagem-dados",
+        "info.python",
+        "info.api"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "modelagem de dados",
+        "entidade-relacionamento",
+        "Python",
+        "API",
+        "REST"
+      ],
+      "palavras": [
+        "mer",
+        "der",
+        "entidade",
+        "atributo",
+        "relacionamento",
+        "cardinalidade",
+        "entidade fraca",
+        "muitos-para-muitos",
+        "python",
+        "indentacao",
+        "lista",
+        "tupla",
+        "dicionario",
+        "range",
+        "input",
+        "api",
+        "rest",
+        "endpoint",
+        "json",
+        "get",
+        "post",
+        "http 404",
+        "stateless",
+        "token"
+      ],
+      "resumo": "No <strong>DER</strong>, entidade é retângulo, atributo é elipse e relacionamento é losango; o atributo identificador vem sublinhado e a entidade fraca usa retângulo duplo. <strong>Cardinalidade</strong> diz quantas instâncias se ligam: um servidor em vários cursos e um curso com vários servidores é muitos-para-muitos, que vira tabela própria no modelo relacional. O modelo conceitual não define tipos nem índices. Em <strong>Python</strong>, os blocos são marcados pela indentação, a tipagem é dinâmica, <code>8 / 2</code> dá <code>4.0</code>, <code>7 // 2</code> dá 3 e <code>7 % 2</code> dá 1. Índices começam em zero; lista é mutável e tupla, imutável; <code>range(a, b)</code> não inclui b; <code>input()</code> devolve sempre texto. <strong>API</strong> é o contrato que deixa um programa pedir dados a outro sem ver o código interno. No <strong>REST</strong>, o recurso tem URL e os métodos HTTP dizem a ação (GET consulta, POST cria, PUT atualiza, DELETE exclui); cada requisição é independente (stateless) e o formato mais comum é o <strong>JSON</strong>.",
+      "esquema": {
+        "rotulo": "símbolos, operadores e métodos",
+        "html": "<table><thead><tr><th>Item</th><th>Significa</th></tr></thead><tbody><tr><td>Retângulo / elipse / losango</td><td>entidade / atributo / relacionamento</td></tr><tr><td>Retângulo duplo</td><td>entidade fraca (depende da forte para se identificar)</td></tr><tr><td><code>/</code>, <code>//</code>, <code>%</code>, <code>**</code></td><td>divisão real, divisão inteira, resto, potência</td></tr><tr><td><code>=</code> × <code>==</code></td><td>atribuição × comparação</td></tr><tr><td>GET / POST / PUT / DELETE</td><td>consultar / criar / atualizar / excluir</td></tr><tr><td>Status 2xx / 4xx / 5xx</td><td>sucesso / erro do cliente (404 não encontrado) / erro do servidor</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "TUPLA TRANCA, LISTA MUDA",
+          "texto": "t[0] = 9 numa tupla dá erro; numa lista, troca o valor."
+        },
+        {
+          "sigla": "GET SÓ OLHA",
+          "texto": "Em API REST, GET recupera dados e não deve alterar nada no servidor; criar e mudar é com POST, PUT, PATCH ou DELETE."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em Python, a expressão 8 / 2 resulta no número inteiro 4, pois a divisão entre inteiros com resultado exato produz um inteiro.",
+        "gabarito": "E",
+        "explicacao": "O operador / sempre devolve ponto flutuante: 8 / 2 dá 4.0. Para a divisão inteira usa-se //."
+      },
+      "aprofundamento": "<p><strong>Atributos especiais.</strong> Composto se divide em partes (endereço em rua, número, cidade); multivalorado tem vários valores (telefones); derivado é calculado (idade pela data de nascimento).</p><p><strong>API não expõe o sistema inteiro.</strong> Ela mostra só o que o fornecedor decidiu oferecer, sem o código-fonte e sem acesso direto ao banco de dados de quem a oferece.</p><p><strong>Mais pontos que as questões cobram</strong></p><p><em>Modelagem entidade-relacionamento</em></p><ul><li>A modelagem conceitual descreve os dados do domínio de forma independente do SGBD e da tecnologia, por meio do modelo entidade-relacionamento (MER), representado graficamente no diagrama entidade-relacionamento (DER).</li><li>Entidade é um objeto do mundo real, concreto ou abstrato, sobre o qual se deseja guardar informação; cada ocorrência concreta é uma instância da entidade.</li><li>No DER, a entidade é representada por um retângulo, o atributo por uma elipse e o relacionamento por um losango.</li><li>Atributo é uma propriedade da entidade; o atributo identificador distingue cada instância das demais e é representado sublinhado.</li><li>Atributo composto é o que se divide em partes menores, como endereço em logradouro, número e cidade.</li><li>Atributo multivalorado é o que pode ter mais de um valor para a mesma instância, como os telefones de um servidor.</li><li>Atributo derivado é o que se calcula a partir de outros, como a idade a partir da data de nascimento.</li><li>Relacionamento é a associação entre entidades; pode ser binário, quando envolve duas entidades, ou ternário, quando envolve três.</li><li>Autorrelacionamento é o relacionamento de uma entidade com ela mesma, como um servidor que supervisiona outros servidores, e exige a indicação dos papéis.</li><li>Um relacionamento pode ter atributos próprios, como a data em que determinado servidor foi lotado em determinado departamento.</li><li>Cardinalidade indica quantas instâncias de uma entidade podem se associar a cada instância da outra: um-para-um, um-para-muitos ou muitos-para-muitos.</li><li>Se um servidor pode participar de vários cursos e um curso pode ter vários servidores, o relacionamento é muitos-para-muitos.</li><li>A cardinalidade mínima indica se a participação é opcional (zero) ou obrigatória (um).</li><li>Entidade fraca é a que não possui identificador próprio e depende da entidade forte para ser identificada, como o dependente em relação ao servidor; é representada por retângulo duplo.</li><li>Generalização e especialização permitem que entidades especializadas, como servidor e terceirizado, herdem os atributos da entidade genérica pessoa.</li><li>O modelo conceitual não define tipos de dados, índices nem detalhes de armazenamento; essas decisões pertencem aos modelos lógico e físico.</li><li>Na passagem para o modelo relacional, cada entidade vira uma tabela, o relacionamento um-para-muitos vira uma chave estrangeira e o relacionamento muitos-para-muitos vira uma tabela própria.</li></ul><p><em>Noções de Python</em></p><ul><li>Python é uma linguagem interpretada, de alto nível e tipagem dinâmica: a variável não precisa ter o tipo declarado e recebe o tipo do valor atribuído.</li><li>Em Python, os blocos de código são delimitados pela indentação, e não por chaves ou por palavras como begin e end.</li><li>O operador / sempre produz um número de ponto flutuante, mesmo entre inteiros com divisão exata: 8 / 2 resulta em 4.0.</li><li>O operador // produz a divisão inteira e o operador % produz o resto: 7 // 2 resulta em 3 e 7 % 2 resulta em 1.</li><li>O operador ** calcula a potência: 2 ** 3 resulta em 8.</li><li>A indexação de listas e strings começa em zero: em lista = [10, 20, 30], lista[0] é 10 e lista[1] é 20.</li><li>A lista é mutável e a tupla é imutável: tentar atribuir valor a uma posição de tupla, como t[0] = 9, provoca erro de execução.</li><li>O dicionário armazena pares chave-valor, acessados pela chave e não pela posição.</li><li>A função range(n) gera os inteiros de 0 a n-1, e range(a, b) gera de a a b-1, sem incluir b.</li><li>O comando for percorre uma sequência; o comando while repete enquanto a condição for verdadeira.</li><li>A função input() sempre retorna uma string, de modo que somar o valor digitado a um inteiro sem conversão com int() provoca erro de tipo.</li><li>A função def define uma função e return devolve o resultado; a mesma função pode receber argumentos de tipos diferentes.</li><li>O operador * entre uma string e um inteiro repete a string: 'ab' * 2 resulta em 'abab'.</li><li>O sinal = atribui valor a uma variável; a comparação de igualdade usa ==.</li><li>Comentários começam com # e são ignorados pelo interpretador.</li><li>A função len() devolve a quantidade de elementos de uma lista, tupla, dicionário ou string.</li></ul><p><em>APIs</em></p><ul><li>API (interface de programação de aplicações) é um conjunto de regras e definições que permite que um programa solicite serviços ou dados a outro programa sem conhecer os detalhes internos de sua implementação.</li><li>A API expõe apenas o que o fornecedor decidiu disponibilizar, ocultando o código-fonte e a estrutura interna do sistema que a oferece.</li><li>Uma API web é acessada pela rede, em geral pelo protocolo HTTP, e permite que sistemas distintos, escritos em linguagens diferentes, troquem dados de forma padronizada.</li><li>No modelo cliente-servidor das APIs web, o cliente envia uma requisição a um endereço, chamado endpoint, e o servidor devolve uma resposta com os dados ou com o resultado da operação.</li><li>REST é um estilo de arquitetura para APIs web em que os recursos são identificados por URLs e manipulados pelos métodos HTTP, como GET para consultar, POST para criar, PUT para atualizar e DELETE para excluir.</li><li>Em uma API REST, o método GET apenas recupera dados e não deve alterar o estado do servidor; operações que criam ou modificam dados usam POST, PUT, PATCH ou DELETE.</li><li>As APIs REST são, por princípio, sem estado (stateless): cada requisição carrega todas as informações necessárias ao seu processamento, e o servidor não guarda a sessão do cliente entre requisições.</li><li>JSON é o formato mais comum para troca de dados em APIs web atuais: um texto leve, legível por pessoas e máquinas, que organiza a informação em pares de chave e valor e em listas.</li><li>XML também é usado para troca de dados entre sistemas, com marcação por tags, e é o formato dos serviços web baseados em SOAP.</li><li>Os códigos de status HTTP informam o resultado da requisição: a família 200 indica sucesso, a família 400 indica erro do cliente, como 404 para recurso não encontrado, e a família 500 indica erro no servidor.</li><li>APIs costumam exigir autenticação, por exemplo com chave de API ou token, para identificar quem faz a requisição e controlar o que cada cliente pode acessar.</li><li>Uma API pública pode impor limite de requisições por período (rate limiting), para proteger o servidor contra sobrecarga e uso abusivo.</li><li>Em integrações entre órgãos públicos, as APIs permitem que um sistema consulte dados de outro automaticamente, sem troca manual de planilhas e sem acesso direto ao banco de dados alheio.</li><li>A documentação da API descreve os endpoints, os parâmetros aceitos, os formatos de resposta e os códigos de erro, e é indispensável para que outros desenvolvedores a utilizem.</li><li>Versionar a API, por exemplo mantendo uma versão antiga disponível enquanto a nova é adotada, evita que mudanças quebrem os sistemas clientes já integrados.</li></ul>",
+      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "relacionados": [
+        "banco-de-dados-e-sql",
+        "mineracao-de-dados-bi-data-warehouse-e-etl"
       ]
     }
   ]
