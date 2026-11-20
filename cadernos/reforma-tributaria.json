@@ -117,7 +117,14 @@
     "local da operacao",
     "fornecimento",
     "locacao",
-    "exportacao"
+    "exportacao",
+    "conselheiros",
+    "administradores",
+    "conselho fiscal",
+    "compras governamentais",
+    "pagamento antecipado",
+    "execucao continuada",
+    "antecipacao"
    ],
    "resumo": "IBS e CBS incidem sobre <strong>operações onerosas com bens ou serviços</strong>, conceito amplo que inclui locação, cessão, mútuo oneroso e arrendamento (art. 4º, § 2º). As operações não onerosas só são tributadas quando a lei manda (§ 1º), e lucro, forma jurídica e título da posse são irrelevantes (§ 3º). Não incidem, entre outros, sobre serviço de empregado, transferência entre estabelecimentos do mesmo contribuinte e dividendos (art. 6º). O fato gerador ocorre no <strong>fornecimento</strong> (art. 10), e o local da operação define o <strong>destino</strong>, que fica com a arrecadação (art. 11). As imunidades repetem as clássicas (entes públicos, templos, livros, partidos e entidades sem fins lucrativos) e somam outras (art. 9º).",
    "esquema": {
@@ -156,7 +163,9 @@
    "relacionados": [
     "contribuintes-do-ibs-e-da-cbs",
     "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
-   ]
+   ],
+   "aprofundamento": "<p><strong>Administradores e conselheiros fora do campo.</strong> Além do serviço do empregado, não incidem IBS e CBS sobre os serviços que a pessoa física presta como administradora ou como membro de conselho de administração, de conselho fiscal ou de comitê de assessoramento do conselho de administração previsto em lei (art. 6º, I, b, da LC 214/2025). A falta de vínculo de emprego não muda a conclusão: o que afasta a incidência é a atuação no órgão societário. Já a consultoria prestada por pessoa jurídica ao mesmo contribuinte é operação onerosa comum.</p><p><strong>Compras governamentais: fato gerador no pagamento.</strong> Nas aquisições da administração pública direta, das autarquias e das fundações públicas sujeitas ao art. 473, considera-se ocorrido o fato gerador no momento do pagamento, e não no fornecimento nem no empenho (art. 10, § 2º). É a mesma sistemática em que a arrecadação dessas compras vai integralmente ao ente contratante (art. 473).</p><p><strong>Execução continuada ou fracionada.</strong> Nesses contratos, o fato gerador ocorre na primeira entre duas ocorrências: o momento em que se torna exigível a parte da contraprestação correspondente a cada pagamento ou o pagamento da obrigação (art. 10, § 3º, com a redação da LC 227/2026). Não se espera o término do contrato.</p><p><strong>Pagamento antecipado: duas alíquotas em dois momentos.</strong> Se houver pagamento, total ou parcial, antes do fornecimento, cobra-se uma antecipação em cada parcela paga: a base é o valor da parcela, e a alíquota é a vigente na data da emissão do documento fiscal eletrônico correspondente ao pagamento ou na data do pagamento, o que ocorrer primeiro; a antecipação entra como débito na apuração (art. 10, § 4º, I). Na data do fornecimento, calcula-se o valor definitivo sobre o valor total da operação, incluídas as parcelas antecipadas, com as alíquotas vigentes na data do fornecimento. Se a antecipação foi menor, a diferença é débito; se foi maior, aplicam-se as regras do pagamento indevido ou a maior (§ 4º, II). Se o fornecimento não acontecer, inclusive por distrato, seguem-se as regras do cancelamento (§ 5º). Para a prova: a antecipação usa a alíquota do primeiro evento entre documento e pagamento; o valor definitivo usa a alíquota do fornecimento.</p>",
+   "aprofundamento_rotulo": "Aprofundamento"
   },
   {
    "slug": "contribuintes-do-ibs-e-da-cbs",
@@ -248,7 +257,11 @@
     "por fora",
     "descontos incondicionais",
     "destino",
-    "aliquota padrao"
+    "aliquota padrao",
+    "transporte internacional",
+    "ida e volta",
+    "passageiros",
+    "metade do valor"
    ],
    "resumo": "A base é o <strong>valor da operação</strong>, com juros, multas, descontos condicionais e tributos sobre a operação (art. 12, § 1º). Ficam fora o próprio IBS e a CBS (cálculo <strong>por fora</strong>), o IPI, os <strong>descontos incondicionais</strong> e, até 2032, ICMS, ISS, PIS e Cofins (§ 2º). Cada ente fixa a própria alíquota por lei específica: a União a da CBS, cada Estado e cada Município a sua parte do IBS (art. 14). Sem lei do ente, vale a <strong>alíquota de referência</strong>, fixada por <strong>resolução do Senado</strong> (arts. 14, § 3º, e 18). A alíquota do IBS na operação é a soma da do Estado com a do Município <strong>de destino</strong> (art. 15).",
    "esquema": {
@@ -293,7 +306,9 @@
    "relacionados": [
     "incidencia-do-ibs-e-da-cbs",
     "transicao-da-reforma-tributaria"
-   ]
+   ],
+   "aprofundamento": "<p><strong>Transporte internacional de passageiros com ida e volta.</strong> Quando os trechos de ida e volta do transporte internacional de passageiros são vendidos em conjunto, a base de cálculo do IBS e da CBS é a metade do valor cobrado (art. 12, § 8º, da LC 214/2025). O trecho de volta começa no exterior, e no transporte de passageiros o local da operação é o de início do transporte (art. 11, VI); por isso a lei manda tributar só metade do bilhete conjunto, e não o valor integral nem o valor do trecho mais caro.</p>",
+   "aprofundamento_rotulo": "Aprofundamento"
   },
   {
    "slug": "nao-cumulatividade-do-ibs-e-da-cbs",
@@ -321,7 +336,16 @@
     "uso e consumo pessoal",
     "apuracao",
     "ressarcimento",
-    "credito presumido"
+    "credito presumido",
+    "estorno de credito",
+    "perecimento",
+    "roubo",
+    "furto",
+    "extravio",
+    "anulacao de creditos",
+    "isencao",
+    "aliquota zero",
+    "aliquota reduzida"
    ],
    "resumo": "A não cumulatividade é <strong>plena</strong>: o contribuinte do regime regular credita tudo o que comprou, com a única exceção expressa das aquisições de <strong>uso ou consumo pessoal</strong> (art. 47; CF, art. 156-A, § 1º, VIII). Mas o crédito depende de o débito da etapa anterior ter sido <strong>extinto</strong> (pago, compensado ou recolhido no split payment) e de <strong>documento fiscal eletrônico idôneo</strong>. IBS e CBS são apurados separadamente e <strong>não se compensam entre si</strong> (§ 1º, I). Compra de optante do Simples também gera crédito (§ 3º). Operação imune, isenta, com alíquota zero, diferimento ou suspensão não gera crédito ao adquirente, salvo crédito presumido previsto em lei (art. 49). A apuração é <strong>mensal</strong> e consolida todos os estabelecimentos (arts. 42 e 43).",
    "esquema": {
@@ -360,7 +384,9 @@
    "relacionados": [
     "split-payment",
     "contribuintes-do-ibs-e-da-cbs"
-   ]
+   ],
+   "aprofundamento": "<p><strong>Estorno por perda do bem.</strong> O adquirente deve estornar o crédito apropriado se o bem adquirido perecer, se deteriorar ou for objeto de roubo, furto ou extravio (art. 47, § 6º, da LC 214/2025). O bem não chegará a uma operação tributada, e o crédito perde a razão de ser; não importa que a perda seja alheia à vontade do contribuinte. No roubo ou furto de bem do ativo imobilizado, o estorno é proporcional ao prazo de vida útil e às taxas de depreciação definidos em regulamento (§ 7º), porque parte do bem já foi usada na atividade tributada.</p><p><strong>Isenção e imunidade anulam; alíquota zero mantém.</strong> Do lado do fornecedor, a imunidade e a isenção acarretam a anulação dos créditos relativos às operações anteriores, de forma proporcional ao valor das operações imunes e isentas sobre o valor de todas as operações do fornecedor (art. 51, caput e § 1º). Ficam fora dessa anulação as exportações e as operações imunes com livros, jornais, periódicos e o papel destinado à impressão e com radiodifusão sonora e de sons e imagens de recepção livre (art. 51, § 2º, que remete ao art. 9º, IV e VI). Na alíquota zero, ao contrário, os créditos relativos às operações anteriores são mantidos (art. 52). E a venda com alíquota reduzida não obriga a estornar créditos, salvo previsão expressa (art. 47, § 10).</p><p><strong>Dois lados da mesma operação.</strong> Separe o adquirente do fornecedor. Para o adquirente, a compra imune, isenta, com alíquota zero, diferimento ou suspensão não dá crédito, salvo crédito presumido expresso (art. 49). Para o fornecedor que vende nessas condições, a isenção e a imunidade anulam os créditos das compras na proporção dessas vendas, e a alíquota zero os preserva (arts. 51 e 52).</p>",
+   "aprofundamento_rotulo": "Aprofundamento"
   },
   {
    "slug": "split-payment",
@@ -388,7 +414,12 @@
     "pix",
     "cartao",
     "procedimento simplificado",
-    "extincao"
+    "extincao",
+    "split payment simplificado",
+    "percentual preestabelecido",
+    "setor economico",
+    "vinculacao a operacao",
+    "ordem cronologica"
    ],
    "resumo": "Os débitos de IBS e CBS se extinguem por compensação com créditos, pagamento, <strong>split payment</strong>, recolhimento pelo adquirente ou pagamento pelo responsável (art. 27). No split payment, quem segrega e recolhe o tributo ao Comitê Gestor e à Receita Federal são os <strong>prestadores de serviços de pagamento</strong> e as operadoras de sistemas de pagamento, no momento da liquidação financeira (art. 31). No <strong>procedimento padrão</strong>, o originador da transação informa a operação e os valores dos tributos (art. 32). No <strong>simplificado</strong>, que é opcional, retém-se um percentual preestabelecido do valor, que não guarda relação com o débito real e vale obrigatoriamente para os dois tributos (art. 33).",
    "esquema": {
@@ -414,7 +445,7 @@
     "gabarito": "E",
     "explicacao": "É vedado aplicar o procedimento simplificado para apenas um dos tributos (art. 33, § 2º, I, da LC 214/2025)."
    },
-   "aprofundamento": "<p><strong>O banco divide, mas não responde.</strong> Os prestadores de serviços de pagamento e as operadoras de sistemas de pagamento respondem por segregar e recolher, mas não são responsáveis tributários pelo IBS e pela CBS das operações cujos pagamentos liquidam (art. 34, V, da LC 214/2025). O sujeito passivo continua responsável pelo eventual saldo a recolher (art. 34, IV).</p><p><strong>Quanto se segrega no padrão.</strong> Antes de disponibilizar os recursos ao fornecedor, o prestador consulta o sistema do Comitê Gestor e da Receita Federal e segrega a diferença positiva entre os débitos de IBS e CBS destacados no documento fiscal eletrônico e as parcelas desses débitos já extintas por qualquer modalidade do art. 27, como a compensação com créditos (art. 32, § 3º). Sem consulta possível, segrega-se o débito informado, e o excesso é devolvido ao fornecedor em até 3 dias úteis (art. 32, § 4º).</p><p><strong>Parcelamento e recebíveis.</strong> No pagamento parcelado pelo fornecedor, a segregação é proporcional, na liquidação de todas as parcelas; a antecipação de recebíveis não altera essa obrigação (art. 34, II e III).</p><p><strong>Simplificado sem crédito.</strong> O valor recolhido no procedimento simplificado não dá crédito ao adquirente contribuinte do regime regular e extingue débitos do fornecedor só na ordem do art. 33, § 3º (art. 33, § 7º).</p>",
+   "aprofundamento": "<p><strong>O banco divide, mas não responde.</strong> Os prestadores de serviços de pagamento e as operadoras de sistemas de pagamento respondem por segregar e recolher, mas não são responsáveis tributários pelo IBS e pela CBS das operações cujos pagamentos liquidam (art. 34, V, da LC 214/2025). O sujeito passivo continua responsável pelo eventual saldo a recolher (art. 34, IV).</p><p><strong>Quanto se segrega no padrão.</strong> Antes de disponibilizar os recursos ao fornecedor, o prestador consulta o sistema do Comitê Gestor e da Receita Federal e segrega a diferença positiva entre os débitos de IBS e CBS destacados no documento fiscal eletrônico e as parcelas desses débitos já extintas por qualquer modalidade do art. 27, como a compensação com créditos (art. 32, § 3º). Sem consulta possível, segrega-se o débito informado, e o excesso é devolvido ao fornecedor em até 3 dias úteis (art. 32, § 4º).</p><p><strong>Parcelamento e recebíveis.</strong> No pagamento parcelado pelo fornecedor, a segregação é proporcional, na liquidação de todas as parcelas; a antecipação de recebíveis não altera essa obrigação (art. 34, II e III).</p><p><strong>Simplificado sem crédito.</strong> O valor recolhido no procedimento simplificado não dá crédito ao adquirente contribuinte do regime regular e extingue débitos do fornecedor só na ordem do art. 33, § 3º (art. 33, § 7º).</p><p><strong>Simplificado: como se fixa o percentual.</strong> O percentual do procedimento simplificado é fixado pelo Comitê Gestor, para o IBS, e pela Receita Federal, para a CBS, e pode ser diferenciado por setor econômico ou por contribuinte, a partir de metodologia uniforme divulgada previamente, que considera, entre outros dados, a alíquota média das operações e o histórico de utilização de créditos (art. 33, § 2º, I e II, da LC 214/2025). Como não guarda relação com o débito efetivo da operação (§ 2º, III), o valor retido é acertado na apuração.</p><p><strong>Opção que decorre da conduta.</strong> Desde a LC 227/2026, originar a transação de pagamento sem identificar os valores do IBS e da CBS implica opção pelo procedimento simplificado (art. 33, § 2º-A). Enquanto o procedimento padrão não funcionar em nível adequado nos principais meios de pagamento, ato conjunto do Comitê Gestor e da Receita Federal pode determinar o simplificado nas vendas a quem não é contribuinte do regime regular (§ 6º).</p><p><strong>Para onde vai o valor retido.</strong> O valor recolhido no simplificado paga, na ordem cronológica do documento fiscal, primeiro os débitos não extintos das operações do período com adquirentes que não são contribuintes do regime regular e, no fim do período, os demais débitos não extintos (§ 3º); a sobra é transferida ao fornecedor em até 3 dias úteis contados da conclusão da apuração (§ 4º). No split payment, a regra geral é outra: a extinção fica vinculada à respectiva operação, como no recolhimento pelo adquirente, enquanto na compensação e no pagamento pelo contribuinte ela é imputada aos débitos do período na ordem cronológica do documento fiscal (art. 27, parágrafo único, I e II). O simplificado é a exceção, porque o valor retido não corresponde ao débito daquela operação (art. 33, § 7º, I).</p>",
    "aprofundamento_rotulo": "pontos finos que a banca explora",
    "relacionados": [
     "nao-cumulatividade-do-ibs-e-da-cbs",
@@ -452,7 +483,13 @@
     "profissionais liberais",
     "regime especifico",
     "servicos financeiros",
-    "combustiveis"
+    "combustiveis",
+    "comunicacao institucional",
+    "atividades desportivas",
+    "socio-torcedor",
+    "automovel pcd",
+    "taxista",
+    "sociedade de profissionais"
    ],
    "resumo": "Os <strong>regimes diferenciados</strong> valem de modo uniforme no país inteiro e são compensados por ajuste nas alíquotas de referência (art. 126). Há três faixas: <strong>redução de 30%</strong> para serviços de profissionais intelectuais fiscalizados por conselho, como administradores, advogados e contadores (art. 127); <strong>redução de 60%</strong> para educação, saúde, dispositivos médicos, medicamentos, alimentos, higiene pessoal e insumos agropecuários, entre outros (art. 128); e <strong>alíquota zero</strong> para itens como produtos hortícolas, frutas e ovos, absorventes, certos medicamentos e automóveis de PcD, TEA e taxistas (art. 143). Os <strong>regimes específicos</strong> são outra coisa: mudam a própria forma de cobrança em setores como combustíveis, serviços financeiros e bens imóveis (art. 181 e seguintes).",
    "esquema": {
@@ -493,7 +530,9 @@
    "relacionados": [
     "cesta-basica-e-cashback",
     "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
-   ]
+   ],
+   "aprofundamento": "<p><strong>Comunicação institucional só para o poder público.</strong> A redução de 60% da comunicação institucional (art. 128, XI, da LC 214/2025) alcança apenas os serviços fornecidos à administração pública direta, às autarquias e às fundações públicas: planejamento, criação e manutenção de páginas eletrônicas e gestão de redes sociais do órgão, relações com a imprensa e relações públicas (art. 140). O mesmo fornecedor paga a alíquota-padrão sobre os serviços prestados a outros adquirentes, como empresas privadas (art. 140, parágrafo único).</p><p><strong>Atividades desportivas.</strong> Também têm redução de 60% o serviço de educação desportiva e a gestão e exploração do desporto por associações e clubes filiados ao órgão estadual ou federal de coordenação dos desportos, inclusive a venda de ingressos, os programas de sócio-torcedor e a cessão e a transferência de direitos desportivos de atletas (arts. 128, XII, e 141).</p><p><strong>Automóvel com alíquota zero: requisitos.</strong> A alíquota zero alcança automóvel de passageiros de fabricação nacional, com no mínimo 4 portas, comprado por taxista ou por pessoa com deficiência física, visual ou auditiva, com deficiência mental severa ou profunda ou com transtorno do espectro autista de nível moderado ou grave (art. 149). Não é qualquer grau: deficiência mental leve ou moderada e autismo de nível leve ficam fora. Para a pessoa com deficiência ou com autismo, o preço de venda ao consumidor não pode superar R$ 200 mil, e o benefício se limita a R$ 100 mil do valor da operação (§ 2º, II, com a redação da LC 227/2026). Para o taxista, o carro deve ser elétrico ou ter motor de até 2.000 cm³ movido a combustível renovável, sistema reversível de combustão ou híbrido (§ 2º, I).</p><p><strong>Profissionais intelectuais em sociedade.</strong> A redução de 30% do art. 127 vale para a pessoa física, quando o serviço está ligado à sua habilitação, e para a pessoa jurídica que cumpra todos os requisitos: sócios habilitados e fiscalizados por conselho na área do objeto social, nenhuma pessoa jurídica como sócia, a sociedade não pode ser sócia de outra, nenhuma atividade diversa das habilitações dos sócios e serviços da atividade-fim prestados diretamente pelos sócios, admitidos auxiliares (art. 127, § 1º). A natureza jurídica da sociedade, a união de profissões diferentes do rol e a forma de distribuir lucros não impedem a redução (§ 2º).</p>",
+   "aprofundamento_rotulo": "Aprofundamento"
   },
   {
    "slug": "cesta-basica-e-cashback",
@@ -669,7 +708,12 @@
     "conselho superior",
     "distribuicao",
     "arrecadacao do ibs",
-    "lc 227"
+    "lc 227",
+    "stj",
+    "superior tribunal de justica",
+    "conflito federativo",
+    "105 i j",
+    "competencia originaria"
    ],
    "resumo": "O <strong>Comitê Gestor do IBS</strong> é entidade pública sob regime especial, com sede no DF e independência técnica, administrativa, orçamentária e financeira (art. 480 da LC 214/2025; CF, art. 156-B). Ele arrecada o IBS, faz as compensações e distribui o produto aos entes de destino. A instância máxima é o <strong>Conselho Superior</strong>, com <strong>27 membros dos Estados e do DF</strong> e <strong>27 dos Municípios e do DF</strong>; destes, 14 são eleitos com voto igual para cada Município e 13 com voto ponderado pela população (art. 481).",
    "esquema": {
@@ -701,7 +745,7 @@
     "gabarito": "E",
     "explicacao": "São 14 eleitos com voto de igual valor e 13 com voto ponderado pela população (art. 481, § 1º, II, da LC 214/2025)."
    },
-   "aprofundamento": "<p><strong>Três competências, só pelo Comitê.</strong> Estados, DF e Municípios exercem de forma integrada, exclusivamente por meio do Comitê Gestor, as competências de editar o regulamento único e uniformizar a interpretação da legislação do IBS; arrecadar, efetuar as compensações e distribuir o produto da arrecadação; e decidir o contencioso administrativo (art. 156-B, I a III, da CF).</p><p><strong>Coordenar não é executar.</strong> O Comitê Gestor não fiscaliza nem lança. Fiscalização, lançamento, cobrança e representação administrativa e judicial do IBS cabem às administrações tributárias e às procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências, que podem definir delegação ou compartilhamento; ao Comitê cabe coordenar essas atividades para integrar os entes (art. 156-B, § 2º, V). As competências exclusivas dessas carreiras são exercidas, no Comitê e na sua representação, por servidores delas (§ 2º, VI). O auto de infração de IBS continua sendo lavrado por auditor fiscal estadual, distrital ou municipal.</p><p><strong>Controle externo, financiamento e presidência.</strong> O controle externo do Comitê é exercido pelos Estados, pelo DF e pelos Municípios, e não pelo TCU (art. 156-B, § 2º, IV). O Comitê é financiado por percentual da arrecadação do IBS destinada a cada ente (§ 2º, III); a presidência alterna entre o conjunto dos Estados e do DF e o dos Municípios e do DF (§ 2º, II); e o Presidente deve ter notórios conhecimentos de administração tributária (§ 5º).</p><p><strong>Quórum das deliberações.</strong> A deliberação só é aprovada se obtiver, cumulativamente, a maioria absoluta dos representantes dos Estados e do DF, representantes estaduais e distritais que correspondam a mais de 50% da população do País e a maioria absoluta dos representantes dos Municípios e do DF (art. 156-B, § 4º). Do lado municipal não há critério populacional na votação; a população só pesa na eleição de 13 dos 27 representantes municipais (§ 3º).</p><p><strong>Integração com a União.</strong> O Comitê, a Receita Federal e a PGFN compartilham informações fiscais sobre IBS e CBS e atuam para harmonizar normas, interpretações, obrigações acessórias e procedimentos (§ 6º).</p>",
+   "aprofundamento": "<p><strong>Três competências, só pelo Comitê.</strong> Estados, DF e Municípios exercem de forma integrada, exclusivamente por meio do Comitê Gestor, as competências de editar o regulamento único e uniformizar a interpretação da legislação do IBS; arrecadar, efetuar as compensações e distribuir o produto da arrecadação; e decidir o contencioso administrativo (art. 156-B, I a III, da CF).</p><p><strong>Coordenar não é executar.</strong> O Comitê Gestor não fiscaliza nem lança. Fiscalização, lançamento, cobrança e representação administrativa e judicial do IBS cabem às administrações tributárias e às procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências, que podem definir delegação ou compartilhamento; ao Comitê cabe coordenar essas atividades para integrar os entes (art. 156-B, § 2º, V). As competências exclusivas dessas carreiras são exercidas, no Comitê e na sua representação, por servidores delas (§ 2º, VI). O auto de infração de IBS continua sendo lavrado por auditor fiscal estadual, distrital ou municipal.</p><p><strong>Controle externo, financiamento e presidência.</strong> O controle externo do Comitê é exercido pelos Estados, pelo DF e pelos Municípios, e não pelo TCU (art. 156-B, § 2º, IV). O Comitê é financiado por percentual da arrecadação do IBS destinada a cada ente (§ 2º, III); a presidência alterna entre o conjunto dos Estados e do DF e o dos Municípios e do DF (§ 2º, II); e o Presidente deve ter notórios conhecimentos de administração tributária (§ 5º).</p><p><strong>Quórum das deliberações.</strong> A deliberação só é aprovada se obtiver, cumulativamente, a maioria absoluta dos representantes dos Estados e do DF, representantes estaduais e distritais que correspondam a mais de 50% da população do País e a maioria absoluta dos representantes dos Municípios e do DF (art. 156-B, § 4º). Do lado municipal não há critério populacional na votação; a população só pesa na eleição de 13 dos 27 representantes municipais (§ 3º).</p><p><strong>Integração com a União.</strong> O Comitê, a Receita Federal e a PGFN compartilham informações fiscais sobre IBS e CBS e atuam para harmonizar normas, interpretações, obrigações acessórias e procedimentos (§ 6º).</p><p><strong>Conflitos federativos do IBS e da CBS vão ao STJ.</strong> A EC 132/2023 incluiu a alínea j no art. 105, I, da Constituição: compete ao Superior Tribunal de Justiça processar e julgar, originariamente, os conflitos entre entes federativos, ou entre eles e o Comitê Gestor do IBS, relacionados ao IBS (art. 156-A) e à CBS (art. 195, V). O critério junta os sujeitos e a matéria: de um lado, entes federativos entre si ou um ente contra o Comitê; do outro, uma disputa sobre IBS ou CBS. Presentes os dois, a competência é originária do STJ.</p><p><strong>As três trocas que a banca faz.</strong> Primeira: o STF. O art. 102, I, f, dá ao Supremo as causas e os conflitos entre a União e os Estados ou o DF, ou entre uns e outros, mas a alínea j do art. 105, I, é regra específica para os tributos da reforma, e o conflito entre dois Estados sobre IBS vai ao STJ, não ao STF. Segunda: a Justiça Federal. A presença da União no conflito sobre CBS e IBS, ou a sede do Comitê no DF, não desloca a causa para a primeira instância federal. Terceira: o Comitê de Harmonização das Administrações Tributárias. Ele uniformiza a interpretação das normas comuns e previne litígios na via administrativa, mas não julga conflito entre entes federativos.</p>",
    "aprofundamento_rotulo": "pontos finos que a banca explora",
    "relacionados": [
     "split-payment",
@@ -1546,6 +1590,164 @@
     "regulamento-do-ibs",
     "apuracao-assistida-do-ibs-e-da-cbs",
     "contribuintes-do-ibs-e-da-cbs"
+   ]
+  },
+  {
+   "slug": "regimes-especificos-do-ibs-e-da-cbs",
+   "titulo": "Regimes específicos: serviços financeiros, saúde, apostas, imóveis, bares, hotelaria, transporte, turismo e cooperativas",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Arts. 181 a 291 da LC 214/2025, com a redação da LC 227/2026",
+   "tax": [
+    "tributario.reforma-regimes-especificos.setoriais"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "regimes específicos",
+    "serviços financeiros",
+    "liquidação antecipada de recebíveis",
+    "planos de assistência à saúde",
+    "concursos de prognósticos",
+    "redutor de ajuste",
+    "redutor social",
+    "bares e restaurantes",
+    "hotelaria",
+    "transporte coletivo",
+    "agências de turismo",
+    "cooperativas"
+   ],
+   "palavras": [
+    "regime especifico",
+    "servicos financeiros",
+    "recebiveis",
+    "curva di",
+    "despesas financeiras",
+    "planos de saude",
+    "concursos de prognosticos",
+    "apostas",
+    "apostador",
+    "bens imoveis",
+    "redutor de ajuste",
+    "redutor social",
+    "locacao",
+    "bares e restaurantes",
+    "gorjeta",
+    "hotelaria",
+    "parques",
+    "transporte coletivo",
+    "agencia de turismo",
+    "cooperativas"
+   ],
+   "resumo": "Os <strong>regimes específicos</strong> não se limitam a reduzir alíquota: mudam a base de cálculo, a alíquota ou a regra de crédito de setores em que o débito e crédito comum funciona mal. Nos <strong>serviços financeiros</strong>, as alíquotas são nacionalmente uniformes e a base é a receita das operações com deduções legais, como as despesas de captação (arts. 185, 189 e 192). Nos <strong>planos de assistência à saúde</strong>, a alíquota é a de referência reduzida em 60%, e o adquirente, em regra, não credita (arts. 237 e 238). Nos <strong>concursos de prognósticos</strong>, a base é a arrecadação menos os prêmios pagos e as destinações legais, e o apostador não tem crédito (arts. 245 e 247). Nos <strong>bens imóveis</strong>, há redução de 50% (70% na locação) e dois redutores da base: o de ajuste e o social (arts. 257 a 261). <strong>Bares e restaurantes</strong> e <strong>hotelaria e parques</strong> têm redução de 40%; o fornecedor credita, mas o adquirente não (arts. 275, 276 e 281 a 283). No <strong>transporte coletivo</strong> intermunicipal e interestadual, a redução é de 40% e o adquirente credita; no ferroviário e hidroviário urbano, a redução é de 100% e o crédito é vedado nas duas pontas (arts. 284 a 286). As <strong>agências de turismo</strong> tributam o valor cobrado menos os repasses aos fornecedores, e as <strong>cooperativas</strong> podem optar por alíquota zero nas operações com associados (arts. 289 e 271).",
+   "esquema": {
+    "rotulo": "base, alíquota e crédito em cada regime",
+    "html": "<table><thead><tr><th>Regime</th><th>Base de cálculo</th><th>Alíquota</th><th>Crédito de quem compra</th></tr></thead><tbody><tr><td><strong>Serviços financeiros</strong></td><td>Receita das operações com deduções legais</td><td>Nacionalmente uniforme</td><td>Só nas hipóteses expressas, como a da empresa que toma empréstimo</td></tr><tr><td><strong>Recebíveis de cartão</strong></td><td>Desconto menos a curva de juros futuros da taxa DI</td><td>A dos arranjos de pagamento</td><td>Parcela do desconto acima da curva DI</td></tr><tr><td><strong>Planos de saúde</strong></td><td>Prêmios recebidos menos indenizações pagas e outras deduções</td><td>Referência reduzida em 60%</td><td>Vedado, salvo plano de empregados por acordo ou convenção coletiva</td></tr><tr><td><strong>Concursos de prognósticos</strong></td><td>Arrecadação menos prêmios e destinações legais</td><td>Soma das alíquotas de referência</td><td>Vedado ao apostador</td></tr><tr><td><strong>Bens imóveis</strong></td><td>Valor da operação menos redutores de ajuste e social</td><td>Redução de 50%; locação, 70%</td><td>Regras gerais</td></tr><tr><td><strong>Bares e restaurantes</strong></td><td>Valor da operação, sem gorjeta de até 15% repassada</td><td>Redução de 40%</td><td>Vedado</td></tr><tr><td><strong>Hotelaria e parques</strong></td><td>Valor da operação</td><td>Redução de 40%</td><td>Vedado; o fornecedor credita</td></tr><tr><td><strong>Transporte intermunicipal e interestadual</strong></td><td>Valor da operação</td><td>Redução de 40%</td><td>Permitido</td></tr><tr><td><strong>Trem e barco urbanos e metropolitanos</strong></td><td>Valor da operação</td><td>Redução de 100%</td><td>Vedado ao adquirente e ao fornecedor</td></tr><tr><td><strong>Agências de turismo</strong></td><td>Valor cobrado menos repasses aos fornecedores</td><td>A da hotelaria</td><td>Permitido sobre a intermediação</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "A curva DI fica fora da base",
+     "texto": "Na antecipação de recebíveis, tributa-se só o desconto acima da curva de juros futuros da taxa DI, e é essa mesma parcela que o lojista do regime regular credita (art. 219, §§ 1º e 5º)."
+    },
+    {
+     "sigla": "Restaurante, hotel e aposta não dão crédito",
+     "texto": "Quem compra refeição, hospedagem, ingresso de parque ou aposta não credita, ainda que seja empresa do regime regular (arts. 247, 276 e 283)."
+    },
+    {
+     "sigla": "Imóvel 50% menos; aluguel 70% menos",
+     "texto": "Operações com imóveis têm redução de 50%; locação, cessão onerosa e arrendamento, de 70% (art. 261)."
+    },
+    {
+     "sigla": "Ônibus intermunicipal credita; trem urbano não",
+     "texto": "No transporte intermunicipal e interestadual, o adquirente credita; no ferroviário e hidroviário urbano, com redução de 100%, ninguém credita (arts. 284 a 286)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na liquidação antecipada de recebíveis de cartão, a base de cálculo do IBS e da CBS é o desconto integral cobrado do lojista.",
+    "gabarito": "E",
+    "explicacao": "A base é o desconto com a dedução do valor correspondente à curva de juros futuros da taxa DI pelo prazo da antecipação, admitida ainda a dedução de perdas (art. 219, §§ 1º e 2º, da LC 214/2025)."
+   },
+   "aprofundamento": "<p><strong>Serviços financeiros: base, alíquota e crédito do tomador.</strong> A base é a receita das operações com as deduções do próprio regime. Nas operações de crédito, de câmbio e com títulos e valores mobiliários, deduzem-se, entre outras, as despesas financeiras com a captação de recursos e as perdas no recebimento de créditos, e o principal não entra na receita (arts. 185 e 192). As alíquotas são nacionalmente uniformes e, somadas, vão de 10,85% em 2027 e 2028 a 12,50% em 2033 (arts. 189 e 233). A regra é a vedação de crédito a quem toma serviço financeiro, salvo nas hipóteses expressas (art. 199). A principal delas: a empresa do regime regular que não está no regime financeiro e toma empréstimo pode creditar-se pela mesma alíquota da operação, aplicada sobre as despesas financeiras efetivamente pagas, pelo regime de caixa, depois de deduzir de cada parcela o principal e o valor correspondente à Selic sobre o principal (art. 194).</p><p><strong>Recebíveis e curva DI.</strong> Na liquidação antecipada de recebíveis de arranjos de pagamento, como a antecipação das vendas no cartão, a base do IBS e da CBS é o desconto aplicado com a dedução do valor correspondente à curva de juros futuros da taxa DI pelo prazo da antecipação, e podem ser deduzidas as perdas no recebimento e na cessão dos créditos (art. 219, §§ 1º e 2º). O lojista do regime regular que antecipa seus recebíveis credita-se sobre a parcela do desconto que superar essa curva, pelo regime de caixa (art. 219, § 5º). A mesma lógica vale para quem toma cessão de recebíveis, desconto, securitização ou factoring: credita a parcela do deságio superior à curva DI (art. 196). Repare: a base não é o desconto inteiro, nem o valor antecipado.</p><p><strong>Importação de serviços financeiros.</strong> O serviço financeiro importado paga a mesma alíquota do contratado no País (art. 231). Há duas hipóteses de alíquota zero. Se o importador é contribuinte do regime regular com direito a crédito na compra do mesmo serviço no País, aplica-se alíquota zero na importação e não se apropria crédito (§ 1º, II): o efeito final seria o mesmo, e a lei evita o débito e o crédito simultâneos. Se o importador é quem realiza operações de crédito, câmbio, títulos, securitização ou factoring (incisos I a V do art. 182), a alíquota zero vem com a manutenção do direito de deduzir essa despesa da própria base (§ 1º, IV), salvo, entre partes relacionadas, na parcela que exceder os preços de mercado (§ 3º).</p><p><strong>Planos de saúde e apostas.</strong> Os planos de assistência à saúde, e também os funerários, têm base formada pelos prêmios e contraprestações recebidos menos as indenizações pagas pelos eventos e outras deduções, e alíquotas de referência reduzidas em 60% (arts. 235 a 237). O crédito do adquirente é vedado, com uma exceção: a empresa do regime regular que contrata plano para empregados e dependentes em decorrência de acordo ou convenção coletiva de trabalho credita a parcela proporcional a esses beneficiários, excluído o que foi repassado aos empregados (arts. 57, § 3º, IV, f, e 238). Nos concursos de prognósticos, que abrangem loterias, apostas de quota fixa, turfe e fantasy sport, a base é a receita própria da operadora: o arrecadado menos os prêmios pagos e as destinações obrigatórias por lei. Os prêmios não sofrem incidência, a alíquota é a soma das alíquotas de referência, uniforme no País, e o apostador não credita (arts. 244 a 247).</p><p><strong>Imóveis: quem é contribuinte e os dois redutores.</strong> O regime vale para quem apura no regime regular. A pessoa física entra nele quando, no ano anterior, a locação, cessão ou arrendamento superar R$ 240 mil de receita e envolver mais de 3 imóveis distintos, requisitos cumulativos; quando alienar mais de 3 imóveis distintos; ou quando alienar mais de 1 imóvel construído por ela nos 5 anos anteriores (art. 251, § 1º). Se, no próprio ano, a receita de locação exceder em 20% o limite, ela já é contribuinte nesse ano (§ 2º, II). O <strong>redutor de ajuste</strong> fica vinculado a cada imóvel do contribuinte do regime regular a partir de 2027, corresponde em regra ao valor de aquisição atualizado e reduz exclusivamente a base da alienação (arts. 257 e 258). O <strong>redutor social</strong> é outra coisa: R$ 100 mil por imóvel residencial novo e R$ 30 mil por lote residencial, deduzidos na alienação depois do redutor de ajuste e usados uma única vez por imóvel; na locação residencial, R$ 600 por mês por imóvel (arts. 259 e 260). As alíquotas caem 50% nas operações com imóveis e 70% na locação, cessão onerosa e arrendamento (art. 261). A locação residencial de até 90 dias feita por contribuinte do regime regular segue as regras da hotelaria (art. 253). Não incidem IBS e CBS na permuta, salvo sobre a torna, nem na constituição de garantia real (art. 252, § 2º).</p><p><strong>Bares e restaurantes.</strong> O regime alcança a alimentação fornecida por bares, restaurantes e lanchonetes e as bebidas não alcoólicas preparadas no local. Ficam fora as bebidas alcoólicas, ainda que preparadas ali, os produtos comprados prontos de terceiros e a alimentação fornecida a pessoa jurídica sob contrato (art. 273). A gorjeta sai da base se for repassada integralmente ao empregado e não passar de 15% do valor total do fornecimento; também saem os valores que a plataforma de entrega não repassa ao restaurante (art. 274). A alíquota é reduzida em 40%, e o cliente não credita, ainda que seja empresa do regime regular (arts. 275 e 276).</p><p><strong>Hotelaria, parques e turismo.</strong> Hotelaria é o alojamento temporário com os serviços incluídos na hospedagem, em unidade de uso exclusivo do hóspede em estabelecimento próprio ou em imóvel residencial mobiliado (art. 278). Hotelaria, parques de diversão e parques temáticos têm alíquota reduzida em 40%; o fornecedor credita normalmente nas suas compras, mas o adquirente da hospedagem ou do ingresso não credita (arts. 281 a 283). A alimentação servida pelo hotel segue o regime de bares e restaurantes (art. 280, parágrafo único). A agência de turismo tributa o valor cobrado do cliente menos o que repassou aos fornecedores intermediados, com a alíquota da hotelaria; o adquirente pode creditar o IBS e a CBS da intermediação, e a agência não credita os valores que deduziu da base (arts. 289 a 291).</p><p><strong>Transporte coletivo: o crédito muda conforme o modal.</strong> No rodoviário, ferroviário e hidroviário intermunicipal e interestadual, a alíquota cai 40%, o fornecedor credita e o adquirente também pode creditar (arts. 284, § 2º, e 286). No aéreo regional, de passageiros ou de carga, a redução também é de 40% (art. 287). No ferroviário e hidroviário urbano, semiurbano e metropolitano, a redução é de 100%, e o crédito é vedado tanto ao fornecedor nas suas compras quanto ao adquirente (art. 285). Não generalize: a vedação de crédito do adquirente existe na hotelaria e nos parques, mas não no transporte intermunicipal.</p><p><strong>Cooperativas.</strong> A cooperativa pode optar, no ano anterior ao início dos efeitos ou no início das atividades, por regime em que ficam reduzidas a zero as alíquotas na operação do associado com a cooperativa e na da cooperativa com associado do regime regular, inclusive nos serviços financeiros prestados a associados (art. 271). A adesão é opcional, não automática.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "regimes-diferenciados-do-ibs-e-da-cbs",
+    "nao-cumulatividade-do-ibs-e-da-cbs",
+    "sinter-e-cadastro-imobiliario-brasileiro"
+   ]
+  },
+  {
+   "slug": "harmonizacao-fiscalizacao-e-lancamento-do-ibs-e-da-cbs",
+   "titulo": "Administração do IBS e da CBS: harmonização, fiscalização e lançamento de ofício",
+   "grupo": "Regimes, Imposto Seletivo e transição",
+   "base": "Arts. 59, 61 e 317 a 333 da LC 214/2025, com a redação da LC 227/2026",
+   "tax": [
+    "tributario.reforma-comite-gestor.fiscalizacao-harmonizacao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "Comitê de Harmonização das Administrações Tributárias",
+    "Fórum de Harmonização Jurídica das Procuradorias",
+    "delegação recíproca da fiscalização",
+    "espontaneidade",
+    "auto de infração",
+    "penalidade isolada",
+    "Domicílio Tributário Eletrônico",
+    "cidadania fiscal"
+   ],
+   "palavras": [
+    "comite de harmonizacao",
+    "forum de harmonizacao",
+    "harmonizacao",
+    "procuradorias",
+    "pgfn",
+    "espontaneidade",
+    "cruzamento de dados",
+    "monitoramento",
+    "delegacao reciproca",
+    "pequeno valor",
+    "auto de infracao",
+    "penalidade isolada",
+    "dte",
+    "domicilio tributario eletronico",
+    "cidadania fiscal",
+    "cadastro",
+    "fiscalizacao",
+    "lancamento de oficio"
+   ],
+   "resumo": "Cada tributo tem o seu regulamento: o do IBS é editado pelo Comitê Gestor e o da CBS pelo Poder Executivo da União, e as normas comuns são aprovadas por ato conjunto (art. 317). Para que as duas metades do IVA dual não se afastem, a LC 214/2025 criou duas instâncias paritárias de <strong>harmonização</strong>. O <strong>Comitê de Harmonização das Administrações Tributárias</strong>, com 4 representantes da Receita Federal e 4 do Comitê Gestor, uniformiza a interpretação das matérias comuns, previne litígios e delibera sobre obrigações acessórias, e suas resoluções vinculam as administrações tributárias. O <strong>Fórum de Harmonização Jurídica das Procuradorias</strong>, com 4 procuradores da Fazenda Nacional e 4 indicados pelo Comitê Gestor, é consultivo do Comitê e analisa controvérsias jurídicas, e suas resoluções vinculam as procuradorias (arts. 319 a 323). Na ponta, a <strong>fiscalização e o lançamento</strong> da CBS cabem à Receita Federal, e os do IBS, aos fiscos dos Estados, do DF e dos Municípios (art. 324). Os fiscos compartilham num mesmo ambiente o início e o resultado das fiscalizações, podem usar as provas do lançamento feito por outro ente, com contraditório, e podem delegar entre si a fiscalização dos processos de pequeno valor (arts. 325 e 326). O procedimento fiscal exclui a espontaneidade, mas o cruzamento de dados e o monitoramento não (arts. 328 e 329). O lançamento se faz por auto de infração eletrônico, um para cada tributo ou penalidade, e as intimações correm pelo Domicílio Tributário Eletrônico (arts. 330 a 332).",
+   "esquema": {
+    "rotulo": "Comitê de Harmonização × Fórum das Procuradorias (arts. 319 a 323)",
+    "html": "<table><thead><tr><th></th><th>Comitê de Harmonização das Administrações Tributárias</th><th>Fórum de Harmonização Jurídica das Procuradorias</th></tr></thead><tbody><tr><td><strong>Composição</strong></td><td>4 da Receita Federal e 4 do Comitê Gestor (2 dos Estados ou DF e 2 dos Municípios ou DF)</td><td>4 da PGFN, indicados pela União, e 4 procuradores indicados pelo Comitê Gestor (2 estaduais ou distritais e 2 municipais ou distritais)</td></tr><tr><td><strong>Presidência</strong></td><td>Alternada entre Receita Federal e Comitê Gestor</td><td>Alternada entre PGFN e procuradores indicados pelo Comitê Gestor</td></tr><tr><td><strong>Competência</strong></td><td>Uniformizar regulamentação e interpretação das matérias comuns, prevenir litígios, deliberar sobre obrigações acessórias e procedimentos comuns</td><td>Órgão consultivo do Comitê; analisar controvérsias jurídicas suscitadas</td></tr><tr><td><strong>Quem a resolução vincula</strong></td><td>Administrações tributárias da União, dos Estados, do DF e dos Municípios</td><td>PGFN e procuradorias dos Estados, do DF e dos Municípios</td></tr><tr><td><strong>Quem provoca</strong></td><td>Presidente do Comitê Gestor, Ministro da Fazenda e entidades representativas de categorias econômicas</td><td>Presidente do Comitê Gestor e Ministro da Fazenda</td></tr><tr><td><strong>Regras comuns</strong></td><td colspan=\"2\">Presença mínima de 3/4 dos representantes, decisão por unanimidade dos presentes, regimento interno por resolução, efeito a partir da publicação no Diário Oficial da União</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "O Comitê previne, o Fórum aconselha",
+     "texto": "Prevenir litígios e uniformizar a interpretação é do Comitê de Harmonização; o Fórum das Procuradorias é consultivo e analisa controvérsias jurídicas (arts. 321 e 322)."
+    },
+    {
+     "sigla": "Três quartos presentes, todos de acordo",
+     "texto": "Os dois colegiados se reúnem com 3/4 dos representantes e decidem por unanimidade dos presentes (art. 320)."
+    },
+    {
+     "sigla": "Cruzar dados não tira a espontaneidade",
+     "texto": "Cruzamento de dados e monitoramento, mesmo com diligência ao estabelecimento, não excluem a espontaneidade; o procedimento fiscal exclui (arts. 328 e 329)."
+    },
+    {
+     "sigla": "Um auto para cada tributo ou penalidade",
+     "texto": "A exigência do crédito e a penalidade isolada vão em autos de infração distintos (art. 331)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "As resoluções do Fórum de Harmonização Jurídica das Procuradorias vinculam as administrações tributárias da União, dos Estados, do DF e dos Municípios.",
+    "gabarito": "E",
+    "explicacao": "As resoluções do Fórum vinculam a PGFN e as procuradorias dos Estados, do DF e dos Municípios (art. 322, § 2º). Quem vincula as administrações tributárias são as resoluções do Comitê de Harmonização (art. 321, § 1º), e o ato conjunto dos dois vincula fiscos e procuradorias (art. 323)."
+   },
+   "aprofundamento": "<p><strong>Como funcionam os dois colegiados.</strong> Ambos se reúnem com presença mínima de 3/4 dos representantes e decidem por unanimidade dos presentes; os representantes da União são designados pelo Ministro da Fazenda, e os dos Estados, do DF e dos Municípios, pelo Presidente do Comitê Gestor; cada colegiado aprova o regimento interno por resolução (art. 320). A presidência alterna: no Comitê, entre a Receita Federal e o Comitê Gestor; no Fórum, entre a PGFN e os procuradores indicados pelo Comitê Gestor (art. 319, §§ 1º e 2º). Troca comum: dizer que decidem por maioria absoluta ou que basta a presença da metade.</p><p><strong>Quem previne litígios e quem vincula quem.</strong> Prevenir litígios sobre as normas comuns é competência do Comitê de Harmonização, não do Fórum (art. 321, II). As resoluções do Comitê, a partir da publicação no Diário Oficial da União, vinculam as administrações tributárias das três esferas (art. 321, § 1º); as do Fórum vinculam a PGFN e as procuradorias estaduais, distritais e municipais (art. 322, § 2º). O ato conjunto dos dois, proposto por qualquer deles no âmbito de sua competência, deve ser observado pelos fiscos e pelas procuradorias nos atos administrativos, normativos e decisórios (art. 323). Nenhuma dessas resoluções decide conflito entre entes federativos, que é competência originária do STJ (CF, art. 105, I, j).</p><p><strong>Quem pode pedir harmonização.</strong> O requerimento de harmonização da interpretação pode vir do Presidente do Comitê Gestor, do Ministro da Fazenda e das entidades representativas de categorias econômicas que indicam os representantes dos contribuintes nos órgãos de julgamento administrativo do IBS e da CBS. Ele deve ser decidido em até 90 dias úteis, com decisão fundamentada (art. 321, §§ 2º a 4º). O contribuinte isolado não tem essa legitimidade; para o seu caso concreto, ele usa a consulta. Ao Fórum, as controvérsias jurídicas chegam suscitadas só pelo Presidente do Comitê Gestor ou pelo Ministro da Fazenda (art. 322, § 1º).</p><p><strong>Consulta com matéria comum.</strong> A solução de consulta sobre IBS e CBS é emitida pelo órgão consultado, do Comitê Gestor ou da Receita Federal, mas a minuta vai a ambiente compartilhado para o outro órgão, que em 30 dias, prorrogáveis uma vez, acolhe e emite em conjunto, leva a divergência ao Comitê de Harmonização ou declara que não há matéria comum; o silêncio vale como aceitação tácita (art. 323-B).</p><p><strong>Fiscalização integrada.</strong> A Receita Federal e os fiscos dos Estados, do DF e dos Municípios podem usar nos seus lançamentos as fundamentações e as provas do lançamento de ofício feito por outro ente, ainda que o processo esteja encerrado, sem dispensar o contraditório e a ampla defesa (art. 325, I e § 3º). Eles registram num mesmo ambiente, de gestão compartilhada entre o Comitê Gestor e a Receita Federal, o início e o resultado das fiscalizações, e não podem pedir de novo ao contribuinte, em outro procedimento sobre os mesmos fatos e período, as respostas e documentos já entregues (art. 325, II, §§ 1º e 4º).</p><p><strong>Delegação recíproca tem limite.</strong> A Receita Federal e os fiscos estaduais, distrital e municipais podem celebrar convênio para delegação recíproca da fiscalização do IBS e da CBS só nos processos fiscais de pequeno valor, cujo lançamento não supere limite único fixado no regulamento (art. 326). O Ministério da Fazenda e o Comitê Gestor podem delegar entre si o julgamento do contencioso desses lançamentos (art. 327). Fora disso, cada fisco fiscaliza o seu tributo: a CBS, a autoridade da União; o IBS, as dos Estados, do DF e dos Municípios (art. 324). O Comitê Gestor coordena, mas não fiscaliza.</p><p><strong>Espontaneidade.</strong> O procedimento fiscal começa com a ciência do primeiro ato de ofício tendente a apurar obrigação ou infração, com a apreensão de bens, documentos ou livros ou com o começo do despacho aduaneiro. Ele exclui a espontaneidade do sujeito passivo quanto aos atos anteriores e, independentemente de intimação, a dos demais envolvidos; os atos de ciência e de apreensão valem por 90 dias, prorrogáveis por igual período com qualquer ato que formalize o prosseguimento (art. 328). Não excluem a espontaneidade o cruzamento de dados, que é o confronto entre as bases dos fiscos e do Comitê Gestor ou entre elas e informações do contribuinte ou de terceiros, e o monitoramento, que é a avaliação do comportamento fiscal do contribuinte, individualmente ou por setor econômico, inclusive com diligência ao estabelecimento (art. 329). Assim, o contribuinte que descobre a divergência apontada num cruzamento ainda pode se autorregularizar como espontâneo.</p><p><strong>Auto de infração.</strong> O lançamento de ofício exige auto de infração, lavrado e instruído em meio eletrônico, com qualificação do autuado, local, data e hora, descrição do fato, dispositivo infringido e penalidade, exigência e intimação, assinatura com cargo e matrícula e, no IBS, identificação do ente responsável pelo lançamento (art. 330). A exigência do crédito tributário e a aplicação de penalidade isolada são objeto de autos de infração distintos para cada tributo ou penalidade, mesmo quando a infração não gera crédito a exigir (art. 331). A lavratura não impede solução consensual da controvérsia (art. 330, § 3º).</p><p><strong>Cadastro, DTE e cidadania fiscal.</strong> O cadastro é único: CPF, CNPJ e CIB, administrados pela Receita Federal, com integração e compartilhamento obrigatório e tempestivo em ambiente nacional entre os fiscos das três esferas, sob gestão compartilhada do CGSIM (art. 59, §§ 1º a 3º). O Domicílio Tributário Eletrônico é unificado no IBS e obrigatório para todas as entidades e pessoas jurídicas sujeitas à inscrição no CNPJ (art. 59, § 5º). A intimação pelo DTE considera-se pessoal, inclusive a do procurador, e os fiscos ainda podem intimar pessoalmente (art. 332); a Receita Federal e o Comitê Gestor podem criar sistema de comunicação com governança compartilhada (art. 333). Por fim, o Comitê Gestor e a Receita Federal podem instituir programas de incentivo à cidadania fiscal, que estimulem o consumidor a exigir o documento fiscal, financiados por até 0,05% da arrecadação do IBS e da CBS (art. 61).</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "comite-gestor-do-ibs",
+    "processo-administrativo-tributario-do-ibs",
+    "documentos-fiscais-eletronicos-da-reforma"
    ]
   }
  ]
