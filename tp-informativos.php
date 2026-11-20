@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.21.0
+ * Version: 0.21.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.21.0' );
+define( 'TPI_VERSION', '0.21.1' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -579,8 +579,11 @@ function tpi_wrap_content( $content ) {
 		$pre .= tpi_aviso_situacao( $id );
 	}
 
+	$abas = 'julgado' === $tipo && tpi_embed_app() && tpi_resumo_de( $id );
 	if ( 'julgado' === $tipo ) {
 		$pre     .= tpi_botao_lido( $id, true );
+		$topo     = $pre; // assinatura, situação da tese e "Marcar como lido" ficam acima das abas
+		$pre      = '';
 		$pre     .= tpi_chips( $id, true );
 		$pre     .= tpi_ficha_julgado( $id );
 		$destaque = tpi_meta( $id, 'tp_destaque' );
@@ -631,6 +634,10 @@ function tpi_wrap_content( $content ) {
 		$pos .= tpi_newsletter_cta();
 	}
 
+	if ( 'julgado' === $tipo ) {
+		$corpo = $pre . $content . $pos;
+		return $topo . ( $abas ? tpi_julgado_em_abas( $id, $corpo ) : $corpo );
+	}
 	return $pre . $content . $pos;
 }
 
@@ -969,6 +976,55 @@ function tpi_legenda_marcadores() {
 		. '<span class="tpr-chip tpr-chip--virada">' . tpi_icone( 'virada' ) . 'Mudança de entendimento</span></p>';
 }
 
+/* Um bloco do resumo (tese, caso, porquê, como cai em prova). Serve à edição e ao painel do app (0.21.1). $mais = rodapé do bloco. */
+function tpi_resumo_bloco( $f, $r, $quem, $rid, $mais ) {
+	$tit  = get_the_title( $f );
+	$rp   = tpi_ramo_principal( $f );
+	$meta = trim( tpi_meta( $f->ID, 'tp_processo' ) . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) );
+	$b    = '<article class="tpr-bloco" id="' . esc_attr( $rid ) . '"><p class="tpr-meta">' . ( $rp ? '<span class="tpr-ramo">' . esc_html( $rp->name ) . '</span> ' : '' ) . esc_html( $meta ) . '</p>';
+	$b   .= tpi_chips( $f->ID ) . '<h3 class="tpr-titulo">' . esc_html( $tit ) . '</h3>';
+	if ( $r ) {
+		$b .= '<div class="tpr-tese"><p class="tpr-rot">Tese</p><p>' . tpi_inline( $r['tese'] ) . '</p></div>';
+		if ( ! empty( $r['caso'] ) ) {
+			$b .= '<p class="tpr-rot">O caso</p><p>' . tpi_inline( $r['caso'] ) . '</p>';
+		}
+		foreach ( array( 'pontos' => 'Por que ' . $quem . ' decidiu assim', 'prova' => 'Como cai em prova' ) as $k => $rot ) {
+			if ( ! empty( $r[ $k ] ) && is_array( $r[ $k ] ) ) {
+				$b .= '<p class="tpr-rot">' . esc_html( $rot ) . '</p><ul>';
+				foreach ( $r[ $k ] as $item ) {
+					$b .= '<li>' . tpi_inline( $item ) . '</li>';
+				}
+				$b .= '</ul>';
+			}
+		}
+	} elseif ( $f->post_excerpt ) {
+		$b .= '<p>' . esc_html( $f->post_excerpt ) . '</p>';
+	}
+	return $b . '<p class="tpr-mais">' . $mais . '</p></article>';
+}
+
+/* 0.21.1: painel "Ver julgado comentado" do app (?tp_embed=1, fora do Google). Julgado com resumo abre em
+   Resumo | Comentado, começando no Resumo; a página pública do julgado não muda. */
+function tpi_embed_app() {
+	return isset( $_GET['tp_embed'] ) && '1' === $_GET['tp_embed'];
+}
+
+function tpi_julgado_em_abas( $id, $comentado ) {
+	$post = get_post( $id );
+	$r    = tpi_resumo_de( $id );
+	if ( ! $post || ! $r ) {
+		return '';
+	}
+	$quem    = 'STF' === tpi_meta( $id, 'tp_tribunal' ) ? 'o STF' : 'o STJ';
+	$alterna = '<div class="tpr-alterna tpr-alterna--julgado" role="tablist" aria-label="Formato do julgado" data-tpr-evento="julgado_formato">'
+		. '<button type="button" role="tab" id="tpr-tab-resumo" aria-controls="tpr-resumo" aria-selected="true">Resumo</button>'
+		. '<button type="button" role="tab" id="tpr-tab-cards" aria-controls="tpr-cards" aria-selected="false" tabindex="-1">Comentado</button></div>';
+	$resumo  = '<section class="tpr-resumo tpr-resumo--julgado" id="tpr-resumo" role="tabpanel" aria-labelledby="tpr-tab-resumo">'
+		. tpi_resumo_bloco( $post, $r, $quem, 'resumo-1', '<button type="button" class="tpr-ir" data-tpr-ir="cards">Ler o comentário completo, com questões e flashcards</button>' )
+		. '</section>';
+	return $alterna . $resumo . '<div class="tpr-comentado" id="tpr-cards" role="tabpanel" aria-labelledby="tpr-tab-cards" hidden>' . $comentado . '</div>';
+}
+
 function tpi_resumo_de( $id ) {
 	$r = json_decode( (string) tpi_meta( $id, 'tp_resumo' ), true );
 	return is_array( $r ) && ! empty( $r['tese'] ) ? $r : null;
@@ -1005,29 +1061,7 @@ function tpi_resumo_blocos( $periodico_id, $filhos ) {
 		$rid  = 'resumo-' . ( $i + 1 );
 		$tit  = get_the_title( $f );
 		$nav .= '<li><a href="#' . $rid . '">' . esc_html( ! empty( $r['rotulo'] ) ? $r['rotulo'] : $tit ) . '</a></li>';
-		$rp   = tpi_ramo_principal( $f );
-		$meta = trim( tpi_meta( $f->ID, 'tp_processo' ) . ( tpi_meta( $f->ID, 'tp_orgao' ) ? ' · ' . tpi_meta( $f->ID, 'tp_orgao' ) : '' ) );
-		$b    = '<article class="tpr-bloco" id="' . $rid . '"><p class="tpr-meta">' . ( $rp ? '<span class="tpr-ramo">' . esc_html( $rp->name ) . '</span> ' : '' ) . esc_html( $meta ) . '</p>';
-		$b   .= tpi_chips( $f->ID ) . '<h3 class="tpr-titulo">' . esc_html( $tit ) . '</h3>';
-		if ( $r ) {
-			$b .= '<div class="tpr-tese"><p class="tpr-rot">Tese</p><p>' . tpi_inline( $r['tese'] ) . '</p></div>';
-			if ( ! empty( $r['caso'] ) ) {
-				$b .= '<p class="tpr-rot">O caso</p><p>' . tpi_inline( $r['caso'] ) . '</p>';
-			}
-			foreach ( array( 'pontos' => 'Por que ' . $quem . ' decidiu assim', 'prova' => 'Como cai em prova' ) as $k => $rot ) {
-				if ( ! empty( $r[ $k ] ) && is_array( $r[ $k ] ) ) {
-					$b .= '<p class="tpr-rot">' . esc_html( $rot ) . '</p><ul>';
-					foreach ( $r[ $k ] as $item ) {
-						$b .= '<li>' . tpi_inline( $item ) . '</li>';
-					}
-					$b .= '</ul>';
-				}
-			}
-		} elseif ( $f->post_excerpt ) {
-			$b .= '<p>' . esc_html( $f->post_excerpt ) . '</p>';
-		}
-		$b      .= '<p class="tpr-mais"><a href="' . esc_url( get_permalink( $f ) ) . '">Ler o comentário completo, com questões e flashcards</a></p></article>';
-		$blocos .= $b;
+		$blocos .= tpi_resumo_bloco( $f, $r, $quem, $rid, '<a href="' . esc_url( get_permalink( $f ) ) . '">Ler o comentário completo, com questões e flashcards</a>' );
 	}
 	$html .= '<nav class="tpr-indice" aria-label="Julgados do resumo"><ol>' . $nav . '</ol></nav>' . $blocos;
 	$html .= '<p class="tpr-rodape">Resumo do Informativo ' . esc_html( $num . ' do ' . $trib ) . ' · ' . esc_html( preg_replace( '#^https?://#', '', get_permalink( $periodico_id ) ) ) . '</p>';
