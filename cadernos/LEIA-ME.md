@@ -42,7 +42,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `macetes` | `[{sigla, texto}]`. A `sigla` é um título curto em frase (ex.: "DEBILIDADE × PERDA"). Sigla de letras só se for consagrada em aula e em questão (MARI, LUTA, LEEE, IPE, CADI, MODERECOPA, AIEV); nunca invente uma |
 | `juris` | `[{quem, texto, url?, link?}]`: `url` de preferência para o julgado em /informativos/ (rótulo "Ver julgado comentado"); link de tribunal ganha "Ver no site do tribunal" |
 | `pegadinha` | `{afirmacao, gabarito: "C"\|"E", explicacao}` |
-| `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível. **Só exceções e pegadinhas que já caíram em prova** (conferir nas provas oficiais da base de incidência e da auditoria de lacunas), cada uma amarrada a artigo de lei ou a julgado. Nada de "parte da doutrina" sem fonte nem tema que nunca foi cobrado. Rótulo padrão: "exceções que caem em prova" |
+| `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível. **Só o que o card de cima não diz** (playbook, seção 12): começa, se houver, por `<p>Já caiu em: …</p>` (as provas que confirmam o card, numa linha) e segue em até quatro seções fixas, nesta ordem e só as que tiverem conteúdo: `<p><strong>Exceções e detalhes cobrados</strong></p>`, `<p><strong>Distinções</strong></p>`, `<p><strong>Pegadinhas que já caíram</strong></p>` ("Errado: … Certo: … (banca, prova)", sem repetir a `pegadinha` do card), `<p><strong>Jurisprudência além da básica</strong></p>`. Cada súmula, artigo ou conceito aparece uma vez no tema; rodada nova (régua, revisão, questões do app) entra fundida na seção certa, nunca como bloco colado no fim. Tudo amarrado a lei, julgado ou prova real; nada de "parte da doutrina" sem fonte. `ferramentas/repeticao.py` aponta o que repete. Rótulo padrão: "exceções que caem em prova" |
 | `praticar` | link do botão; padrão `/estudar/` |
 | `relacionados` | slugs de temas da mesma disciplina; sem eles, os vizinhos do sumário |
 | `pagina_propria` | `true` dá URL própria ao tema (`/cadernos/<disciplina>/<tema>/`); sem isso, o endereço redireciona para a âncora |
@@ -66,6 +66,22 @@ decide só a indexação. Regra completa no playbook de conteúdo, seção 11.
   `python3 ferramentas/poda_cadernos.py --gsc export.zip --registrar`. Página com 0 impressões: 1ª vez, melhorar;
   2ª vez seguida, sugerir `"indexar": false` para o Jonatan decidir. Página com menos de 90 dias no ar fica de fora.
   Os dados da poda ficam em `ferramentas/poda/` (fora do deploy).
+
+## Mudar um tema de caderno (0.22.0)
+
+Para dividir um caderno grande (critérios no playbook, seção 12), **mova o tema inteiro** para o JSON do caderno novo,
+sem mudar o `slug`. O sincronizador reaproveita o post que já existe e troca só o caderno-pai: o id fica o mesmo, e com
+ele o lido do aluno, o selo Atualizado e o índice do app. Os endereços velhos seguem funcionando: `/cadernos/<antigo>/<tema>/`
+responde 301 para o lugar novo (com `?tp_embed=1` do app junto), e `/cadernos/<antigo>/#<tema>` leva ao lugar novo por um
+script curto na página antiga. As refs `antigo#tema` dos informativos já acham o tema em qualquer caderno. Nunca apague e
+recrie o tema com outro slug: isso cria outro post e o aluno perde o lido.
+
+## Repetição dentro do tema (0.22.0)
+
+`python3 ferramentas/repeticao.py [caderno…] [--tema slug]` lista, tema a tema, o que o aprofundamento repete do card.
+No CI do PR, só os temas que o PR criou ou cujo aprofundamento mudou: **trava** com bloco "Mais pontos que as questões
+cobram" colado no fim ou subtítulo repetido; **avisa** (sem travar) bloco com 60% ou mais das palavras já no card, a mesma
+súmula/artigo em dois blocos e aprofundamento acima de 700 palavras e maior que o card.
 
 ## Link a partir dos informativos (0.8.1)
 
