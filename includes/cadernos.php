@@ -145,7 +145,18 @@ function tpc_upsert( $slug, $parent, $titulo, $resumo, $ordem, $tipo, $dados ) {
 	$json = wp_json_encode( $dados, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES );
 	$hash = md5( $titulo . '|' . $ordem . '|' . $json );
 	$p    = tpc_post_por( $slug, $parent );
-	if ( $p && get_post_meta( $p->ID, 'tpc_hash', true ) === $hash && 'publish' === $p->post_status ) {
+	$veio = 0;
+	if ( ! $p && 'tema' === $tipo ) {
+		// 0.22.0: tema que mudou de caderno (divisão de caderno grande) reaproveita o post que já existe em outro
+		// caderno, só trocando o pai. O id fica o mesmo, e com ele o lido do aluno ("informativo:<id>"), o selo
+		// Atualizado e o índice do app. Os slugs são únicos entre cadernos (ferramentas/sobreposicao.py).
+		$outros = get_posts( array( 'post_type' => 'caderno', 'post_status' => array( 'publish', 'draft', 'private' ), 'name' => $slug, 'post_parent__not_in' => array( 0, $parent ), 'numberposts' => 2 ) );
+		if ( 1 === count( $outros ) ) {
+			$p    = $outros[0];
+			$veio = (int) $p->post_parent;
+		}
+	}
+	if ( $p && ! $veio && get_post_meta( $p->ID, 'tpc_hash', true ) === $hash && 'publish' === $p->post_status ) {
 		return $p->ID;
 	}
 	$texto = wp_strip_all_tags( (string) $resumo );
@@ -166,6 +177,9 @@ function tpc_upsert( $slug, $parent, $titulo, $resumo, $ordem, $tipo, $dados ) {
 	$id = wp_insert_post( wp_slash( $post ), true );
 	if ( is_wp_error( $id ) ) {
 		return 0;
+	}
+	if ( $veio && ! in_array( (string) $veio, (array) get_post_meta( $id, 'tpc_pai_antigo' ), true ) ) {
+		add_post_meta( $id, 'tpc_pai_antigo', $veio ); // um valor por caderno antigo: o endereço velho redireciona
 	}
 	update_post_meta( $id, 'tpc_tipo', $tipo );
 	update_post_meta( $id, 'tpc_slug', $slug );
@@ -223,6 +237,35 @@ function tpc_garante_hub() {
 	}
 	update_option( 'tpc_hub_criado', 1, false );
 }
+
+/* 0.22.0: /cadernos/<caderno antigo>/<tema>/ de um tema que mudou de caderno → 301 para o lugar novo
+   (o WordPress daria 404, porque o post agora é filho de outro caderno). ?tp_embed=1 do app segue junto. */
+function tpc_tema_mudou_de_caderno() {
+	if ( ! is_404() ) {
+		return;
+	}
+	$base = trim( (string) wp_parse_url( home_url( '/' ), PHP_URL_PATH ), '/' );
+	$path = trim( (string) wp_parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH ), '/' );
+	if ( '' !== $base && 0 === strpos( $path, $base . '/' ) ) {
+		$path = substr( $path, strlen( $base ) + 1 );
+	}
+	if ( ! preg_match( '#^cadernos/([^/]+)/([^/]+)$#', $path, $m ) ) {
+		return;
+	}
+	$disc = tpc_post_por( sanitize_title( $m[1] ), 0 );
+	if ( ! $disc ) {
+		return;
+	}
+	$slug = sanitize_title( $m[2] );
+	foreach ( tpc_temas_que_sairam( $disc->ID ) as $p ) {
+		if ( $p->post_name === $slug ) {
+			$url = isset( $_GET['tp_embed'] ) ? add_query_arg( 'tp_embed', '1', get_permalink( $p ) ) : tpc_link_tema( $p );
+			wp_safe_redirect( $url, 301 );
+			exit;
+		}
+	}
+}
+add_action( 'template_redirect', 'tpc_tema_mudou_de_caderno', 5 ); // antes do palpite de 404 do WordPress (prioridade 10)
 
 /* ---------------------------------------------------------------------------
  * 3. Endereços: tema sem página própria → âncora na página da disciplina (301)
@@ -633,7 +676,7 @@ function tpc_pagina_disciplina( $id ) {
 		$h .= '<p class="tpc-lede">' . esc_html( $d['descricao'] ) . '</p>';
 	}
 	if ( ! $temas ) {
-		return $h . '<p class="tpc-aviso">Os primeiros temas deste caderno entram em breve.</p></div>';
+		return $h . '<p class="tpc-aviso">Os primeiros temas deste caderno entram em breve.</p>' . tpc_ancoras_antigas( $id ) . '</div>';
 	}
 	$ids = wp_list_pluck( $temas, 'ID' );
 	$h  .= '<p class="tpi-progresso" data-tpi-progresso="' . esc_attr( implode( ',', $ids ) ) . '" data-tpi-nome="temas deste caderno" hidden><span class="tpi-progresso__barra" aria-hidden="true"><span></span></span><span class="tpi-progresso__texto"></span></p>';
@@ -683,7 +726,26 @@ function tpc_pagina_disciplina( $id ) {
 			$h .= '<p>Veja também os <a href="' . esc_url( get_term_link( $t ) ) . '">julgados comentados de ' . esc_html( $t->name ) . '</a>.</p>';
 		}
 	}
-	return $h . '</footer></div>';
+	return $h . '</footer>' . tpc_ancoras_antigas( $id ) . '</div>';
+}
+
+/*
+ * 0.22.0: tema que saiu deste caderno para outro (divisão de caderno grande). O que vem depois do # não chega
+ * ao servidor, então o link antigo /cadernos/<este>/#tema leva ao lugar novo por um script curto, só quando a
+ * âncora não existe mais nesta página. Os links /cadernos/<este>/<tema>/ saem por 301 (tpc_tema_mudou_de_caderno).
+ */
+function tpc_temas_que_sairam( $disc_id ) {
+	return get_posts( array( 'post_type' => 'caderno', 'post_status' => 'publish', 'numberposts' => -1, 'meta_key' => 'tpc_pai_antigo', 'meta_value' => (string) $disc_id, 'post_parent__not_in' => array( 0, (int) $disc_id ) ) );
+}
+function tpc_ancoras_antigas( $disc_id ) {
+	$mapa = array();
+	foreach ( tpc_temas_que_sairam( $disc_id ) as $p ) {
+		$mapa[ $p->post_name ] = tpc_link_tema( $p );
+	}
+	if ( ! $mapa ) {
+		return '';
+	}
+	return '<script>(function(m){var h=decodeURIComponent(location.hash.slice(1));if(h&&m[h]&&!document.getElementById(h)){location.replace(m[h]);}})(' . wp_json_encode( $mapa, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . ');</script>';
 }
 
 function tpc_pagina_tema( $id ) {
