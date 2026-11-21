@@ -3,7 +3,7 @@
  "titulo": "Caderno de Estatística",
  "disciplina": "Estatística",
  "ordem": 28,
- "descricao": "Estatística e Probabilidade para concursos fiscais: estatística descritiva, probabilidade, distribuições, amostragem, inferência e regressão, com contas resolvidas e pegadinhas.",
+ "descricao": "Estatística e Probabilidade para concursos: estatística descritiva, correlação e regressão, probabilidade, variáveis aleatórias e distribuições, amostragem, estimação e tamanho amostral, com contas resolvidas e pegadinhas.",
  "revisado_em": "2026-11-20",
  "revisado_rotulo": "Contas conferidas duas vezes",
  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
@@ -342,6 +342,68 @@
    ]
   },
   {
+   "slug": "correlacao-e-regressao-linear",
+   "titulo": "Correlação de Pearson e regressão linear simples",
+   "grupo": "Estatística descritiva",
+   "base": "Covariância, coeficiente de correlação de Pearson, reta de mínimos quadrados e coeficiente de determinação",
+   "tax": [
+    "estatistica.correlacao-regressao"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "correlação de Pearson",
+    "regressão linear",
+    "coeficiente de determinação",
+    "mínimos quadrados",
+    "covariância"
+   ],
+   "palavras": [
+    "correlacao",
+    "pearson",
+    "covariancia",
+    "regressao",
+    "reta",
+    "minimos quadrados",
+    "inclinacao",
+    "intercepto",
+    "coeficiente de determinacao",
+    "r quadrado",
+    "residuo",
+    "causalidade"
+   ],
+   "resumo": "A <strong>covariância</strong> mostra o sentido da variação conjunta de duas variáveis. O <strong>coeficiente de Pearson</strong> r é a covariância dividida pelo produto dos desvios padrão e fica sempre entre <strong>−1 e 1</strong>: r = 1 é relação linear perfeita crescente, r = −1 perfeita decrescente, e <strong>r = 0 é só ausência de relação linear</strong>. r não muda com mudança de unidade (soma de constante ou multiplicação por constante positiva); multiplicar por constante negativa inverte o sinal. <strong>Correlação não prova causalidade.</strong> Na <strong>regressão linear simples</strong>, a reta de mínimos quadrados ŷ = a + b · x tem inclinação b = cov(x, y)/var(x), com o mesmo sinal de r, e intercepto a = ȳ − b · x̄; por isso passa sempre pelo ponto (x̄, ȳ). O <strong>coeficiente de determinação</strong> R² = r² dá a fração da variação de y explicada pela reta: com r = 0,8, são 64%.",
+   "esquema": {
+    "rotulo": "o que cada número diz",
+    "html": "<table><thead><tr><th>Medida</th><th>Faixa</th><th>O que informa</th><th>O que não informa</th></tr></thead><tbody><tr><td><strong>Covariância</strong></td><td>qualquer valor</td><td>sentido da relação (sinal)</td><td>força, porque depende das unidades</td></tr><tr><td><strong>Pearson r</strong></td><td>−1 a 1</td><td>sentido e força da relação linear</td><td>causalidade; relação não linear</td></tr><tr><td><strong>Inclinação b</strong></td><td>qualquer valor, mesmo sinal de r</td><td>quanto ŷ muda quando x aumenta 1 unidade</td><td>se a reta explica bem os dados</td></tr><tr><td><strong>R² = r²</strong></td><td>0 a 1</td><td>fração da variação de y explicada pela reta</td><td>o sentido da relação</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "ZERO É SÓ NA RETA",
+     "texto": "r = 0 diz que não há relação linear. Pode haver relação curva entre as variáveis."
+    },
+    {
+     "sigla": "A RETA PASSA PELA MÉDIA",
+     "texto": "Substitua x por x̄ na reta de mínimos quadrados e o resultado é ȳ, sempre."
+    },
+    {
+     "sigla": "R² É r AO QUADRADO",
+     "texto": "Na regressão simples, eleve r ao quadrado para achar quanto a reta explica: 0,8 vira 64%, 0,5 vira 25%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se o coeficiente de correlação de Pearson entre duas variáveis é igual a zero, conclui-se que elas não têm nenhuma relação entre si.",
+    "gabarito": "E",
+    "explicacao": "Correlação zero indica só ausência de relação linear. As variáveis podem ter relação de outro tipo, como uma relação em forma de parábola."
+   },
+   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p><em>Mudança de unidade.</em> Converter altura de centímetros para metros, ou somar uma constante a todos os valores, não muda r. Multiplicar uma das variáveis por −1 troca só o sinal.</p><p><em>Resíduos.</em> Resíduo é o valor observado menos o valor previsto. Com intercepto no modelo, os resíduos da reta de mínimos quadrados somam zero, e a reta é a que deixa a menor soma dos quadrados dos resíduos.</p><p><strong>Distinções</strong></p><p>Correlação forte e causalidade são coisas diferentes: as duas variáveis podem depender de um terceiro fator. A banca troca \"está associado a\" por \"causa\" para tornar o item errado.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "medidas-de-dispersao",
+    "graficos-diagramas-e-tabelas"
+   ]
+  },
+  {
    "slug": "probabilidade-definicoes-e-axiomas",
    "titulo": "Probabilidade: definições básicas e axiomas",
    "grupo": "Probabilidade",
@@ -474,6 +536,71 @@
    ]
   },
   {
+   "slug": "variaveis-aleatorias-e-distribuicoes",
+   "titulo": "Variáveis aleatórias e distribuições: binomial, uniforme e normal",
+   "grupo": "Probabilidade",
+   "base": "Variável aleatória discreta e contínua, esperança, variância e distribuições de Bernoulli, binomial, uniforme e normal",
+   "tax": [
+    "estatistica.variaveis-aleatorias-distribuicoes"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "variável aleatória",
+    "distribuição binomial",
+    "distribuição normal",
+    "função densidade",
+    "valor esperado",
+    "esperança"
+   ],
+   "palavras": [
+    "variavel aleatoria",
+    "discreta",
+    "continua",
+    "densidade",
+    "esperanca",
+    "valor esperado",
+    "variancia",
+    "bernoulli",
+    "binomial",
+    "uniforme",
+    "normal",
+    "padronizacao",
+    "escore z",
+    "regra empirica"
+   ],
+   "resumo": "<strong>Variável aleatória</strong> associa um número a cada resultado de um experimento. A <strong>discreta</strong> assume valores contáveis e tem função de probabilidade (as probabilidades somam 1). A <strong>contínua</strong> assume qualquer valor de um intervalo e tem <strong>função densidade</strong>: a probabilidade é a área sob a curva, a área total é 1 e a probabilidade de um valor exato é zero, por isso P(X ≥ a) = P(X > a). A <strong>esperança</strong> é a média ponderada pelos pesos das probabilidades, e Var(X) = E(X²) − [E(X)]². Regras que mais caem: E(aX + b) = a · E(X) + b e <strong>Var(aX + b) = a² · Var(X)</strong> (somar constante não muda a variância). Para variáveis <strong>independentes</strong>, as variâncias se somam tanto em X + Y quanto em X − Y. <strong>Binomial</strong>: n ensaios independentes com probabilidade p; média n · p, variância n · p · (1 − p). <strong>Normal</strong>: simétrica, média = mediana = moda, P(X > μ) = 0,5, padroniza-se com Z = (X − μ)/σ. Soma de normais independentes é normal, com médias e variâncias somadas.",
+   "esquema": {
+    "rotulo": "as quatro distribuições que mais caem",
+    "html": "<table><thead><tr><th>Distribuição</th><th>Quando usar</th><th>Média</th><th>Variância</th></tr></thead><tbody><tr><td><strong>Bernoulli</strong></td><td>um único ensaio: sucesso ou fracasso</td><td>p</td><td>p(1 − p)</td></tr><tr><td><strong>Binomial</strong></td><td>número de sucessos em n ensaios independentes com o mesmo p</td><td>n · p</td><td>n · p · (1 − p)</td></tr><tr><td><strong>Uniforme contínua [a, b]</strong></td><td>qualquer valor do intervalo é igualmente provável</td><td>(a + b)/2</td><td>(b − a)²/12</td></tr><tr><td><strong>Normal</strong></td><td>sino simétrico em torno de μ</td><td>μ</td><td>σ²</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "SOMA DESLOCA, PRODUTO ESTICA",
+     "texto": "Somar uma constante muda a média e deixa a variância igual. Multiplicar por a multiplica a variância por a²."
+    },
+    {
+     "sigla": "VARIÂNCIA SE SOMA ATÉ NA DIFERENÇA",
+     "texto": "Com variáveis independentes, Var(X − Y) = Var(X) + Var(Y). Quem soma é a variância, nunca o desvio padrão."
+    },
+    {
+     "sigla": "CONTÍNUA NÃO TEM PONTO",
+     "texto": "Num valor exato a probabilidade é zero: maior que e maior ou igual dão o mesmo resultado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se X e Y são variáveis normais independentes, com desvios padrão 3 e 4, então X + Y tem distribuição normal com desvio padrão igual a 7.",
+    "gabarito": "E",
+    "explicacao": "A soma é normal, mas somam-se as variâncias: 9 + 16 = 25. O desvio padrão de X + Y é a raiz de 25, ou seja, 5."
+   },
+   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p><em>Densidade não é probabilidade.</em> A função densidade pode passar de 1 num ponto, desde que a área total sob a curva seja 1. O que é probabilidade é a área num intervalo.</p><p><em>Binomial com números.</em> Se 20% dos condenados reincidem e a reincidência de cada um é independente, entre três escolhidos ao acaso a chance de exatamente um reincidir é 3 · 0,2 · 0,8² = 0,384. O fator 3 conta as posições possíveis do reincidente.</p><p><em>Regra empírica da normal.</em> Cerca de 68% dos valores ficam a um desvio padrão da média, 95% a dois e 99,7% a três. Com média 100 e desvio 10, cerca de 95% dos valores estão entre 80 e 120.</p><p><strong>Distinções</strong></p><p>Variância da soma de variáveis <em>dependentes</em> não é só a soma das variâncias: entra a covariância. A regra \"as variâncias se somam\" exige independência, ou ao menos ausência de correlação.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "probabilidade-definicoes-e-axiomas",
+    "estimacao-e-tamanho-amostral"
+   ]
+  },
+  {
    "slug": "tecnicas-de-amostragem",
    "titulo": "Técnicas de amostragem: simples, sistemática, estratificada e por conglomerados",
    "grupo": "Amostragem",
@@ -545,6 +672,68 @@
    "relacionados": [
     "conceitos-basicos-e-distribuicao-de-frequencias",
     "medidas-de-dispersao"
+   ]
+  },
+  {
+   "slug": "estimacao-e-tamanho-amostral",
+   "titulo": "Estimação, intervalo de confiança e tamanho amostral",
+   "grupo": "Amostragem",
+   "base": "Estimador não viesado, erro padrão, teorema central do limite, intervalo de confiança e cálculo do tamanho da amostra",
+   "tax": [
+    "estatistica.estimacao-tamanho-amostral"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "intervalo de confiança",
+    "tamanho amostral",
+    "erro padrão",
+    "teorema central do limite",
+    "estimador não viesado"
+   ],
+   "palavras": [
+    "estimacao",
+    "estimador",
+    "vies",
+    "nao viesado",
+    "erro padrao",
+    "intervalo de confianca",
+    "nivel de confianca",
+    "margem de erro",
+    "tamanho da amostra",
+    "tamanho amostral",
+    "teorema central do limite",
+    "proporcao"
+   ],
+   "resumo": "<strong>Estimador</strong> é a regra calculada na amostra para estimar o parâmetro; a média e a proporção amostrais são <strong>não viesadas</strong>. O <strong>erro padrão</strong> da média é σ/√n: cai com a raiz de n, então <strong>reduzir o erro pela metade exige quadruplicar a amostra</strong>. Pelo <strong>teorema central do limite</strong>, em amostras grandes a média amostral é aproximadamente normal, qualquer que seja a população. <strong>Intervalo de confiança</strong> para a média: x̄ ± z · σ/√n (95% → z ≈ 1,96). Mais confiança alarga o intervalo; mais amostra estreita. <strong>Tamanho amostral</strong>: para a média, n = (z · σ/E)²; para a proporção, n = z² · p(1 − p)/E², usando <strong>p = 0,5</strong> quando não há estimativa prévia, porque dá a maior amostra. Com z = 2 e erro de 2 pontos percentuais, n = 4 · 0,25/0,0004 = 2.500.",
+   "esquema": {
+    "rotulo": "o que acontece com o intervalo e com a amostra",
+    "html": "<table><thead><tr><th>Se você…</th><th>Largura do intervalo</th><th>Tamanho da amostra necessário</th></tr></thead><tbody><tr><td>aumenta o nível de confiança</td><td>aumenta</td><td>aumenta</td></tr><tr><td>quer erro máximo menor</td><td>diminui</td><td>aumenta (erro pela metade → amostra × 4)</td></tr><tr><td>aumenta a amostra, mesma confiança</td><td>diminui</td><td>—</td></tr><tr><td>a população é mais dispersa (σ maior)</td><td>aumenta</td><td>aumenta</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "METADE DO ERRO, QUATRO VEZES A AMOSTRA",
+     "texto": "O n está dentro da raiz: para dividir o erro por 2, multiplique a amostra por 4."
+    },
+    {
+     "sigla": "SEM PISTA, p = 0,5",
+     "texto": "Sem estimativa prévia da proporção, use 0,5: é o pior caso e garante a amostra."
+    },
+    {
+     "sigla": "95% É DO MÉTODO",
+     "texto": "A confiança fala do procedimento repetido, não da chance de um intervalo já calculado conter o parâmetro."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para reduzir à metade o erro padrão da média amostral, basta dobrar o tamanho da amostra.",
+    "gabarito": "E",
+    "explicacao": "O erro padrão é σ/√n. Para cair pela metade, √n precisa dobrar, o que exige multiplicar n por 4."
+   },
+   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p><em>Leitura do intervalo.</em> Calculado o intervalo [10; 14] com 95% de confiança, está errado dizer que a média tem 95% de probabilidade de estar ali. Ou o intervalo contém a média ou não contém; os 95% dizem que, em muitas amostras, cerca de 95% dos intervalos construídos assim a conteriam.</p><p><em>Erro padrão da proporção.</em> É a raiz de p(1 − p)/n, e o intervalo para a proporção fica p̂ ± z · raiz de p̂(1 − p̂)/n.</p><p><em>Alocação proporcional.</em> Na amostragem estratificada com alocação proporcional, cada estrato recebe a fração da amostra igual à sua fração na população: um estrato com 30% da população fica com 30% da amostra.</p>",
+   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "relacionados": [
+    "tecnicas-de-amostragem",
+    "variaveis-aleatorias-e-distribuicoes"
    ]
   }
  ]

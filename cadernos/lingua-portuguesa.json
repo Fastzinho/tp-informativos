@@ -9,6 +9,131 @@
   "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da gramática normativa e das provas de Língua Portuguesa da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo; os da PC-DF 2024, do TC-DF 2023 e da SERES-PE 2021 também com a justificativa oficial de cada item. A escolha dos temas segue o que mais apareceu em 57 provas recentes da Cebraspe e da FGV.</p>",
   "temas": [
     {
+      "slug": "compreensao-e-interpretacao-de-textos",
+      "titulo": "Compreensão e interpretação de textos: inferência, extrapolação e pressuposto",
+      "grupo": "Texto e reescrita",
+      "base": "Itens de interpretação da Cebraspe: depreende-se, infere-se, o texto permite concluir",
+      "tax": [
+        "portugues.interpretacao-texto"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "interpretação de texto",
+        "inferência",
+        "extrapolação",
+        "pressuposto",
+        "subentendido",
+        "ideia central"
+      ],
+      "palavras": [
+        "interpretacao",
+        "compreensao",
+        "inferencia",
+        "infere-se",
+        "depreende-se",
+        "extrapolacao",
+        "pressuposto",
+        "subentendido",
+        "parafrase",
+        "ideia central",
+        "tese",
+        "ponto de vista"
+      ],
+      "resumo": "<strong>Compreender</strong> é achar o que o texto diz; <strong>interpretar</strong> é concluir a partir dele, sem contrariá-lo e sem ir além. Na Cebraspe, \"depreende-se\", \"infere-se\" e \"o texto permite concluir\" pedem <strong>inferência</strong>: a afirmação precisa estar sustentada pelo texto, ainda que com outras palavras. O item que acrescenta dado, opinião ou generalização que o autor não fez é <strong>extrapolação</strong> e está errado, mesmo que pareça verdadeiro no mundo real. Fique de olho nas palavras de <strong>alcance e intensidade</strong>: trocar \"alguns\" por \"todos\", \"pode\" por \"deve\", \"frequentemente\" por \"sempre\" muda o sentido. <strong>Pressuposto</strong> vem de marcas da frase e não pode ser negado (\"voltou a cair\" pressupõe queda anterior); <strong>subentendido</strong> é insinuação que depende do contexto. E não atribua ao autor a opinião de alguém que ele apenas cita.",
+      "esquema": {
+        "rotulo": "como julgar o item de leitura",
+        "html": "<table><thead><tr><th>O item…</th><th>Classificação</th><th>Julgamento</th></tr></thead><tbody><tr><td>repete a informação com outras palavras, sem mudar o alcance</td><td>paráfrase</td><td>Certo</td></tr><tr><td>tira conclusão que decorre do que o texto diz</td><td>inferência</td><td>Certo</td></tr><tr><td>acrescenta dado, causa ou opinião que o texto não traz</td><td>extrapolação</td><td>Errado</td></tr><tr><td>generaliza (\"todos\", \"sempre\", \"nunca\") o que o texto restringe</td><td>mudança de alcance</td><td>Errado</td></tr><tr><td>diz o contrário de um trecho</td><td>contradição</td><td>Errado</td></tr><tr><td>põe na boca do autor a opinião de uma fonte citada</td><td>troca de voz</td><td>Errado</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "O TEXTO É O JUIZ",
+          "texto": "Julgue pelo que está escrito, não pelo que você sabe do assunto. Verdadeiro no mundo e ausente no texto é extrapolação."
+        },
+        {
+          "sigla": "CAÇA ÀS PALAVRAS ABSOLUTAS",
+          "texto": "Sublinhe todos, sempre, nunca, apenas, deve e só. Se o texto não fala com essa força, o item cai."
+        },
+        {
+          "sigla": "VOZ DE QUEM?",
+          "texto": "Antes de atribuir uma opinião ao autor, confira se ele fala por si ou se está citando outra pessoa."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Se o texto afirma que \"algumas delegacias podem adotar o novo sistema\", a reescrita \"todas as delegacias devem adotar o novo sistema\" preserva o sentido original.",
+        "gabarito": "E",
+        "explicacao": "\"Todas\" amplia o alcance de \"algumas\", e \"devem\" transforma possibilidade em obrigação. Duas mudanças de sentido."
+      },
+      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p><em>Ideia central.</em> Título e primeiro parágrafo costumam anunciar o tema, mas a ideia central se confirma no conjunto: é a tese que os demais parágrafos sustentam com argumentos, exemplos ou dados.</p><p><em>Conectivo muda a relação.</em> \"Mas\", \"porém\" e \"contudo\" opõem; \"embora\" concede; \"portanto\" e \"logo\" concluem; \"porque\" e \"visto que\" explicam ou indicam causa. O item que troca a relação entre duas ideias (causa por consequência, oposição por adição) altera a interpretação.</p><p><strong>Distinções</strong></p><p>Pressuposto e subentendido: o pressuposto está marcado na frase (\"deixou de\", \"voltou a\", \"ainda\") e não pode ser negado sem contradição; o subentendido depende do contexto e quem fala pode negar que quis dizer aquilo.</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "reescrita-de-frases-e-substituicao-de-trechos",
+        "coesao-e-referenciacao",
+        "tipos-e-generos-textuais"
+      ]
+    },
+    {
+      "slug": "tipos-e-generos-textuais",
+      "titulo": "Tipos e gêneros textuais: narração, descrição, dissertação, exposição e injunção",
+      "grupo": "Texto e reescrita",
+      "base": "Tipologia textual e gêneros textuais",
+      "tax": [
+        "portugues.tipologia-generos"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "tipos textuais",
+        "gêneros textuais",
+        "tipologia textual",
+        "texto injuntivo",
+        "texto dissertativo"
+      ],
+      "palavras": [
+        "tipo textual",
+        "genero textual",
+        "tipologia",
+        "narrativo",
+        "descritivo",
+        "dissertativo",
+        "argumentativo",
+        "expositivo",
+        "injuntivo",
+        "instrucional",
+        "editorial",
+        "artigo de opiniao",
+        "cronica",
+        "noticia",
+        "reportagem"
+      ],
+      "resumo": "<strong>Tipo textual</strong> é o modo de organizar a linguagem, reconhecido por traços internos. São cinco os usuais: <strong>narrativo</strong> (fatos encadeados no tempo, verbos no pretérito perfeito), <strong>descritivo</strong> (características de um ser ou ambiente, adjetivos e verbos de estado), <strong>dissertativo-argumentativo</strong> (defende tese com argumentos), <strong>expositivo</strong> (explica sem defender tese) e <strong>injuntivo</strong> (orienta a agir, com imperativo ou infinitivo). <strong>Gênero textual</strong> é a forma que o texto assume na vida social: notícia, editorial, ofício, receita, bula, boletim de ocorrência. Os tipos são poucos; os gêneros são numerosos e mudam com as práticas sociais. Um mesmo texto combina tipos e se classifica pelo <strong>predominante</strong>: o boletim de ocorrência é predominantemente narrativo; o editorial, argumentativo; o manual, injuntivo.",
+      "esquema": {
+        "rotulo": "gênero e tipo predominante",
+        "html": "<table><thead><tr><th>Gênero</th><th>Tipo predominante</th><th>Traço que denuncia</th></tr></thead><tbody><tr><td>Notícia, boletim de ocorrência, relato</td><td>Narrativo</td><td>fatos em sequência, quem, quando, onde</td></tr><tr><td>Retrato falado, classificado de imóvel</td><td>Descritivo</td><td>características, adjetivos</td></tr><tr><td>Editorial, artigo de opinião</td><td>Dissertativo-argumentativo</td><td>tese e argumentos</td></tr><tr><td>Verbete, reportagem explicativa, aula</td><td>Expositivo</td><td>informa e explica, sem tomar partido</td></tr><tr><td>Receita, manual, regulamento</td><td>Injuntivo</td><td>imperativo ou infinitivo, passos</td></tr></tbody></table>"
+      },
+      "lei": [],
+      "macetes": [
+        {
+          "sigla": "TIPO É ESTRUTURA, GÊNERO É USO",
+          "texto": "Pergunte como o texto se organiza (tipo) e para que ele serve na sociedade (gênero)."
+        },
+        {
+          "sigla": "EDITORIAL NÃO TEM DONO",
+          "texto": "Editorial é a opinião do veículo, sem assinatura. Assinado, com a opinião do autor, é artigo de opinião."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Assim como os tipos textuais, os gêneros textuais formam uma lista fechada de cinco categorias.",
+        "gabarito": "E",
+        "explicacao": "Os tipos são poucos (narrativo, descritivo, dissertativo-argumentativo, expositivo e injuntivo), mas os gêneros são numerosos e mudam com as práticas sociais."
+      },
+      "aprofundamento": "<p><strong>Distinções</strong></p><p><em>Notícia, reportagem, editorial, artigo e crônica.</em> A notícia relata um fato recente de forma objetiva; a reportagem aprofunda o tema com pesquisa e fontes; o editorial expressa a opinião do veículo e não é assinado; o artigo de opinião é assinado e traz a opinião do autor; a crônica trata do cotidiano com linguagem leve e pessoal.</p><p><em>Dissertação expositiva x argumentativa.</em> As duas tratam de um tema de forma lógica, mas só a argumentativa defende um ponto de vista para convencer. A expositiva informa e explica.</p>",
+      "aprofundamento_rotulo": "exceções que caem em prova",
+      "relacionados": [
+        "compreensao-e-interpretacao-de-textos",
+        "redacao-oficial"
+      ]
+    },
+    {
       "slug": "reescrita-de-frases-e-substituicao-de-trechos",
       "titulo": "Reescrita de frases: substituição de palavras e deslocamento de termos",
       "grupo": "Texto e reescrita",
