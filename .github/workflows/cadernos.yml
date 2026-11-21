@@ -1,5 +1,6 @@
-# Checagem de sobreposição entre temas dos cadernos (canibalização). Só nos PRs que mexem em cadernos/*.json;
-# sem instalar nada (Python do runner), ~15 s por PR. Ver ferramentas/sobreposicao.py e playbook seção 11.
+# Checagens dos cadernos, só nos PRs que mexem em cadernos/*.json, sem instalar nada (Python do runner), ~15 s:
+# sobreposição entre temas (canibalização, playbook seção 11) e repetição dentro do tema, só nos temas que o PR
+# mexeu (ferramentas/repeticao.py, playbook seção 12).
 name: Cadernos
 
 on:
@@ -7,6 +8,7 @@ on:
     paths:
       - 'cadernos/*.json'
       - 'ferramentas/sobreposicao.py'
+      - 'ferramentas/repeticao.py'
       - 'ferramentas/poda/sobreposicao-conhecida.json'
 
 jobs:
@@ -16,3 +18,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 ferramentas/sobreposicao.py --ci
+      - run: git fetch --depth 1 origin "+refs/heads/${{ github.base_ref }}:refs/remotes/origin/${{ github.base_ref }}"
+      - run: python3 ferramentas/repeticao.py --ci --base origin/${{ github.base_ref }}
