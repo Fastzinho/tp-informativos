@@ -461,6 +461,45 @@ function tpc_mudanca( $t ) {
    mostra (estrutura, posição, fluxo); o esquema em HTML continua sendo o texto equivalente para o Google e o leitor
    de tela. Arquivos em assets/figuras/: a versão larga no computador e, quando houver, a vertical no celular
    (<picture> pela largura da tela), com largura e altura declaradas para não deslocar a página. */
+/* 0.23.0: mapa da lei ("mapa" no JSON). Tabela com TODOS os crimes da lei no tema geral dela, gerada e conferida contra
+   o acervo por ferramentas/mapa_lei.py (conduta, pena e, à mão, o que a banca troca). Com mais de 12 linhas fica
+   recolhida em <details>: o texto continua no HTML (o Google lê) e a página não vira um rolo para quem só quer o card. */
+function tpc_mapa( $mapas, $hb = 'h3' ) {
+	if ( empty( $mapas ) || ! is_array( $mapas ) ) {
+		return '';
+	}
+	$h = '';
+	foreach ( $mapas as $m ) {
+		$linhas = is_array( $m['linhas'] ?? null ) ? $m['linhas'] : array();
+		if ( ! $linhas ) {
+			continue;
+		}
+		$troca = false;
+		foreach ( $linhas as $li ) {
+			if ( ! empty( $li['troca'] ) ) {
+				$troca = true;
+				break;
+			}
+		}
+		$n    = count( $linhas );
+		$tab  = '<div class="tpc-rolagem"><table class="tpc-mapa__tabela"><thead><tr><th scope="col">Conduta</th><th scope="col">Pena</th>' . ( $troca ? '<th scope="col">O que a banca troca</th>' : '' ) . '</tr></thead><tbody>';
+		foreach ( $linhas as $li ) {
+			$tab .= '<tr><td><strong class="tpc-mapa__art">Art. ' . esc_html( $li['art'] ?? '' ) . '</strong> ' . esc_html( $li['conduta'] ?? '' ) . '</td>'
+				. '<td>' . esc_html( $li['pena'] ?? '' ) . '</td>'
+				. ( $troca ? '<td>' . esc_html( $li['troca'] ?? '' ) . '</td>' : '' ) . '</tr>';
+		}
+		$tab .= '</tbody></table></div>';
+		$h   .= '<section class="tpc-bloco tpc-mapa"><' . $hb . '>Mapa da lei' . ( ! empty( $m['rotulo'] ) ? ' <span class="tpc-tag">' . esc_html( $m['rotulo'] ) . '</span>' : '' ) . '</' . $hb . '>';
+		if ( $n > 12 ) {
+			$h .= '<details class="tpc-mapa__dobra"><summary>Ver as ' . (int) $n . ' condutas, com a pena de cada uma</summary>' . $tab . '</details>';
+		} else {
+			$h .= $tab;
+		}
+		$h .= '</section>';
+	}
+	return $h;
+}
+
 function tpc_figura_src( $arq ) {
 	$arq = (string) $arq;
 	return preg_match( '#^figuras/[a-z0-9-]+\.(svg|webp|png|jpg)$#', $arq ) ? TPI_URL . 'assets/' . $arq . '?v=' . TPI_VERSION : '';
@@ -557,6 +596,7 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	}
 
 	$h .= tpc_figura( $t['figura'] ?? null, $hb );
+	$h .= tpc_mapa( $t['mapa'] ?? null, $hb );
 
 	if ( ! empty( $t['lei'] ) && is_array( $t['lei'] ) ) {
 		$h .= '<section class="tpc-bloco"><' . $hb . '>Lei seca <span class="tpc-tag">texto oficial</span></' . $hb . '>';
@@ -627,6 +667,12 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		foreach ( $t['relacionados'] as $r ) {
 			if ( isset( $mapa[ $r ] ) ) {
 				$rel[] = $mapa[ $r ];
+			} else {
+				// 0.23.1: tema de outro caderno (Execução Penal ↔ Legislação Penal Especial), se o slug for único.
+				$fora = tpc_tema_por_ref( 'outro-caderno#' . $r );
+				if ( $fora ) {
+					$rel[] = $fora;
+				}
 			}
 		}
 	} else {
