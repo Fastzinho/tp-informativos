@@ -98,6 +98,10 @@ add_shortcode( 'tp_como_estudar', function () {
 			$cats[ $c->term_id ] = $c;
 		}
 	}
+	$concursos = shortcode_exists( 'tp_concursos' ) ? do_shortcode( '[tp_concursos]' ) : '';
+	if ( $concursos ) {
+		$h .= '<a class="tpv-pilula" href="#por-concurso">Por concurso</a>';
+	}
 	foreach ( $cats as $c ) {
 		$h .= '<a class="tpv-pilula" href="#' . esc_attr( $c->slug ) . '">' . esc_html( $c->name ) . '</a>';
 	}
@@ -106,6 +110,14 @@ add_shortcode( 'tp_como_estudar', function () {
 	// 0.19.0: o método em 6 passos (como-estudar/_pilar.html) ocupa o lugar de "Começando do zero? Siga esta ordem".
 	list( $metodo, $duvidas ) = tpv_pilar();
 	$h .= $metodo;
+	// 0.22.2: guias por concurso dentro de Como estudar (pedido do Jonatan em 22/11). A URL continua /concursos/<slug>/:
+	// só ganha a porta de entrada aqui, sem item novo no menu (com 7 itens o cabeçalho quebra em 2 linhas a 1024 px).
+	if ( $concursos ) {
+		$h .= '<h2 class="tpv-secao" id="por-concurso">Guia de estudos do seu concurso</h2>'
+			. '<p class="tpv-secao__texto">O método aplicado a um edital: por onde começar, quanto estudar por semana até a prova e o edital verticalizado com o caderno e as questões de cada tópico.</p>'
+			. $concursos
+			. '<p class="tpv-secao__texto"><a href="' . esc_url( home_url( '/concursos/' ) ) . '">Ver todos os concursos →</a></p>';
+	}
 	foreach ( $cats as $c ) {
 		$itens = '';
 		foreach ( $guias as $p ) {
