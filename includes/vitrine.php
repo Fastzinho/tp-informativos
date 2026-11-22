@@ -358,6 +358,26 @@ add_action( 'init', function () {
 	update_option( 'tpv_menu_v1', $feito ? 'inserido' : 'nao-achou', false );
 }, 60 );
 
+/* 0.22.2: menu sem "Perguntas" (âncora da home, sem uso nas outras páginas) e "Como funciona" levando à página do
+   método completo (/estudo-inteligente/), pedido do Jonatan em 22/11. Mesma técnica do tpv_menu_v1: roda uma vez. */
+add_action( 'init', function () {
+	if ( get_option( 'tpv_menu_v2' ) ) { return; }
+	$partes = get_posts( array( 'post_type' => 'wp_template_part', 'post_status' => 'any', 'numberposts' => 20, 'suppress_filters' => true ) );
+	$feito  = false;
+	foreach ( $partes as $p ) {
+		$c = $p->post_content;
+		if ( false === strpos( $c, 'tp-nav-link' ) ) { continue; }
+		$n = preg_replace( '#<a href="/\#perguntas"[^>]*>[^<]*</a>#', '', $c );
+		$n = str_replace( 'href="/#como-funciona"', 'href="/estudo-inteligente/"', $n );
+		if ( $n === $c ) { continue; }
+		global $wpdb; // direto no banco, como no v1 (o kses tiraria o <style> do cabeçalho)
+		$wpdb->update( $wpdb->posts, array( 'post_content' => $n ), array( 'ID' => $p->ID ) );
+		clean_post_cache( $p->ID );
+		$feito = true;
+	}
+	update_option( 'tpv_menu_v2', $feito ? 'trocado' : 'nao-achou', false );
+}, 61 );
+
 /* 0.15.0: imagem destacada dos guias (como-estudar/capas/<slug>.png, gerada por ferramentas/capas-como-estudar.js).
    Vira og:image no Rank Math e imagem do Article. Troca a imagem quando o arquivo muda (hash em tpv_capa_hash). */
 add_action( 'init', function () {
