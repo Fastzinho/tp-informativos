@@ -284,6 +284,10 @@ def main():
         todos += erros
     todos += confere_ligacoes(a.acervo, arquivos)
     todos += confere_mudancas(arquivos)
+    # 0.23.0: mapa da lei completo e com penas iguais ao acervo (ferramentas/mapa_lei.py)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import mapa_lei
+    todos += mapa_lei.confere_todos(a.acervo, arquivos)
     for e in todos:
         print('ERRO ' + e)
     if a.desde:
