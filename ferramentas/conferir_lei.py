@@ -43,7 +43,7 @@ def norm(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
-NOTA = re.compile(r'\s*\((?:[^()]*\b(?:reda[cç][aã]o|acrescid|inclu[ií]d|revogad|vide|renumerad|vig[eê]ncia)[^()]*)\)\s*$', re.I)
+NOTA = re.compile(r'\s*\((?:[^()]*\b(?:reda[cç][aã]o|acrescid|inclu[ií]d|revogad|vide|renumerad|vig[eê]ncia|vetad|retificad|transformad)[^()]*)\)\s*$', re.I)
 
 
 def sem_nota(s):
@@ -200,7 +200,8 @@ def confere_ligacoes(acervo, arquivos):
         for t in json.load(open(arq, encoding='utf-8')).get('temas', []):
             onde = '%s#%s' % (os.path.basename(arq), t.get('slug'))
             # 0.16.15: disciplina sem lei seca (Português) dispensa dispositivos; tema com bloco "lei" continua exigindo.
-            if t.get('resumo') and not t.get('tax'):
+            # 0.23.1: tema por bloco de artigos fica com tax [] e se liga pelos dispositivos (LEIA-ME, campo tax).
+            if t.get('resumo') and not t.get('tax') and not t.get('dispositivos'):
                 erros.append('%s: tema escrito sem tax.' % onde)
             if t.get('lei') and not t.get('dispositivos'):
                 erros.append('%s: tema com lei seca sem dispositivos.' % onde)
