@@ -293,22 +293,102 @@ function tpcon_link_app( $c, $onde ) {
 	);
 }
 
-/* Tema do caderno para o título do tópico (concursos/links.json), só se publicado e escrito. */
-function tpcon_tema_caderno( $titulo ) {
-	static $regras = null;
-	if ( null === $regras ) {
-		$j      = json_decode( (string) @file_get_contents( TPCON_DIR . '/links.json' ), true );
-		$regras = is_array( $j['regras'] ?? null ) ? $j['regras'] : array();
+/* Regras de concursos/links.json (lidas uma vez por página). */
+function tpcon_links() {
+	static $j = null;
+	if ( null === $j ) {
+		$j = json_decode( (string) @file_get_contents( TPCON_DIR . '/links.json' ), true );
+		$j = is_array( $j ) ? $j : array();
 	}
+	return $j;
+}
+
+/*
+ * 0.22.2: cadernos de uma disciplina do edital (posts de disciplina publicados), em ordem de preferência.
+ * 1º "disciplinas" do links.json (nome composto, como "Direito Civil e Empresarial"); 2º o nome sem "Noções de",
+ * comparado sem acento com o campo "disciplina" dos cadernos. Antes só o 1º tópico casado por regra decidia o
+ * caderno da disciplina, e "Noções de Direito Administrativo" (PF) ficava sem link apesar do caderno no ar.
+ */
+function tpcon_cadernos_da_disciplina( $nome ) {
+	static $mem = array(), $por_nome = null;
+	if ( isset( $mem[ $nome ] ) ) {
+		return $mem[ $nome ];
+	}
+	$slugs = array();
+	foreach ( (array) ( tpcon_links()['disciplinas'] ?? array() ) as $r ) {
+		if ( ! empty( $r['padrao'] ) && @preg_match( '/' . str_replace( '/', '\/', $r['padrao'] ) . '/u', $nome ) ) {
+			$slugs = (array) ( $r['cadernos'] ?? array() );
+			break;
+		}
+	}
+	if ( ! $slugs && function_exists( 'tpc_arquivos' ) ) {
+		if ( null === $por_nome ) {
+			$por_nome = array();
+			foreach ( tpc_arquivos() as $arq ) {
+				$d = json_decode( (string) @file_get_contents( $arq ), true );
+				if ( ! empty( $d['slug'] ) && ! empty( $d['disciplina'] ) ) {
+					$por_nome[ trim( tpc_norm( $d['disciplina'] ) ) ] = $d['slug'];
+				}
+			}
+		}
+		$n = trim( tpc_norm( $nome ) );
+		$n = preg_replace( '/^(nocoes basicas de|nocoes de|conhecimentos de|fundamentos de) /', '', $n );
+		if ( isset( $por_nome[ $n ] ) ) {
+			$slugs = array( $por_nome[ $n ] );
+		}
+	}
+	$posts = array();
+	foreach ( $slugs as $s ) {
+		$p = function_exists( 'tpc_post_por' ) ? tpc_post_por( sanitize_title( $s ), 0 ) : null;
+		if ( $p && 'publish' === $p->post_status ) {
+			$posts[] = $p;
+		}
+	}
+	return $mem[ $nome ] = $posts;
+}
+
+/*
+ * Tema do caderno para o tópico do edital ($cads = cadernos da disciplina).
+ * 1º regra explícita do links.json (vale para qualquer disciplina; "tema" vazio = sem link, para corrigir casamento
+ * errado). 2º (0.22.2) casamento automático dos cadernos: título do tema ou um dos "conceitos" no texto do tópico,
+ * palavra inteira, sem acento, vence o termo mais longo (o mesmo dos informativos, tpc_tema_para), mas só entre os
+ * temas dos cadernos da própria disciplina, para "Poder constituinte" do Constitucional não cair no Administrativo.
+ */
+function tpcon_tema_caderno( $titulo, $cads = array() ) {
 	if ( ! function_exists( 'tpc_tema_por_ref' ) ) {
 		return null;
 	}
-	foreach ( $regras as $r ) {
+	foreach ( (array) ( tpcon_links()['regras'] ?? array() ) as $r ) {
 		if ( @preg_match( '/' . str_replace( '/', '\/', $r['padrao'] ) . '/u', $titulo ) ) {
-			return tpc_tema_por_ref( $r['tema'] );
+			return '' === (string) ( $r['tema'] ?? '' ) ? null : tpc_tema_por_ref( $r['tema'] );
 		}
 	}
-	return null;
+	if ( ! $cads || ! function_exists( 'tpc_indice' ) ) {
+		return null;
+	}
+	static $ids_por_cad = array();
+	$ok = array();
+	foreach ( $cads as $c ) {
+		if ( ! isset( $ids_por_cad[ $c->ID ] ) ) {
+			$ids_por_cad[ $c->ID ] = array_flip( wp_list_pluck( tpc_temas( $c->ID ), 'ID' ) );
+		}
+		$ok += $ids_por_cad[ $c->ID ];
+	}
+	$alvo   = tpc_norm( $titulo );
+	$melhor = null;
+	$tam    = 0;
+	foreach ( tpc_indice() as $t ) {
+		if ( ! isset( $ok[ (int) $t['id'] ] ) ) {
+			continue;
+		}
+		foreach ( $t['chaves'] as $ch ) {
+			if ( strlen( $ch ) > $tam && false !== strpos( $alvo, ' ' . $ch . ' ' ) ) {
+				$melhor = $t;
+				$tam    = strlen( $ch );
+			}
+		}
+	}
+	return $melhor ? get_post( (int) $melhor['id'] ) : null;
 }
 
 function tpcon_lista_e( $itens ) {
@@ -516,7 +596,8 @@ function tpcon_pagina( $id ) {
 		$k      = 0;
 		$linhas = '';
 		$grupo  = '';
-		$cad    = null;
+		$cads   = tpcon_cadernos_da_disciplina( $d['nome'] );
+		$conta  = array(); // cadernos casados nos tópicos, para a disciplina sem caderno próprio
 		foreach ( $d['topicos'] as $j => $t ) {
 			$q    = (int) $t['questoes'];
 			$k   += $q >= $pr ? 1 : 0;
@@ -526,8 +607,10 @@ function tpcon_pagina( $id ) {
 				$grupo   = $pai;
 				$linhas .= '<li class="tpcon-grupo"><span class="tpcon-cod">' . esc_html( $pai ) . '</span><p>' . esc_html( $d['grupos'][ $pai ] ) . '</p></li>';
 			}
-			$tema  = tpcon_tema_caderno( $t['titulo'] );
-			$cad   = $cad ? $cad : $tema;
+			$tema  = tpcon_tema_caderno( $t['titulo'], $cads );
+			if ( $tema ) {
+				$conta[ $tema->post_parent ] = ( $conta[ $tema->post_parent ] ?? 0 ) + 1;
+			}
 			$chip  = $q >= $pr ? '<span class="tpcon-chip tpcon-chip--ok">' . $q . ' questões no app</span>'
 				: ( $q > 0 ? '<span class="tpcon-chip">' . $q . ' ' . ( 1 === $q ? 'questão' : 'questões' ) . ', ainda pouco</span>' : '<span class="tpcon-chip">Ainda sem questões</span>' );
 			$links = $tema ? '<a href="' . esc_url( tpc_link_tema( $tema ) ) . '" title="' . esc_attr( $tema->post_title ) . '">Ler no caderno →</a>' : '';
@@ -539,7 +622,10 @@ function tpcon_pagina( $id ) {
 			}
 			$linhas .= '</div></li>';
 		}
-		$cad_link = $cad ? '<a href="' . esc_url( get_permalink( $cad->post_parent ) ) . '">' . esc_html( get_the_title( $cad->post_parent ) ) . ' →</a>' : '';
+		// Caderno da disciplina; sem caderno próprio, o mais casado nos tópicos (ex.: legislação → Legislação Penal Especial).
+		arsort( $conta );
+		$cad_id   = $cads ? $cads[0]->ID : ( $conta ? (int) array_key_first( $conta ) : 0 );
+		$cad_link = $cad_id ? '<a href="' . esc_url( get_permalink( $cad_id ) ) . '">' . esc_html( get_the_title( $cad_id ) ) . ' →</a>' : '';
 		$h       .= '<details class="tpcon-disc" id="d-' . esc_attr( $d['id'] ) . '"' . ( $i < $abrir ? ' open' : '' ) . '><summary><h3>' . esc_html( $d['nome'] ) . '</h3><span class="tpcon-mini"><i data-tpcon-barra="' . esc_attr( $d['id'] ) . '"></i></span>'
 			. '<span class="tpcon-meta"><span>' . $n . ' tópicos</span><span>' . ( (float) $d['peso'] > 0 ? 'peso ' . esc_html( number_format_i18n( (float) $d['peso'], fmod( (float) $d['peso'], 1 ) ? 1 : 0 ) ) . ' questões' : 'sem questão objetiva' ) . '</span><span>' . $k . ' com questões</span>' . $cad_link . '</span></summary>'
 			. '<div class="tpcon-cols" aria-hidden="true"><span>Item</span><span>Tópico do edital</span><span class="tpcon-trq"><span>T</span><span>Q</span><span>R</span></span></div><ol class="tpcon-ts">' . $linhas . '</ol></details>';

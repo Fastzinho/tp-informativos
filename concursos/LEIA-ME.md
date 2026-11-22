@@ -5,7 +5,9 @@ Guia de estudos + edital verticalizado por concurso. Código em `includes/concur
 ## Arquivos
 - `<slug>.json`: parte editorial, uma por concurso. Sincroniza com o post (tipo `concurso`) no deploy, como os cadernos.
 - `dados-app.json`: cópia de reserva das questões por tópico. Vale só se o app instalado ainda não tiver `wp-content/plugins/tchau-pobreza/app/concursos.json` (gerado no build do app por `scripts/coverage/concursos.ts`). Quando o app tem o arquivo, a página usa o dele e se atualiza a cada deploy do app.
-- `links.json`: tópico do edital → tema do caderno (regex no título; o link só aparece se o tema estiver publicado e escrito).
+- `links.json`: ligação do edital com os cadernos (o link só aparece se o tema estiver publicado e escrito).
+  - `disciplinas`: disciplina do edital → cadernos, só para nomes que não batem com o campo `disciplina` do caderno (ex.: "Direito Civil e Empresarial"). O prefixo "Noções de" e os acentos já são ignorados, então "Noções de Direito Administrativo" acha o caderno de Direito Administrativo sozinho.
+  - `regras`: tópico → tema (regex no título, vale a primeira que casar; `"tema": ""` tira o link). Sem regra, o tópico casa sozinho com o título ou os `conceitos` dos temas dos cadernos da própria disciplina (termo mais longo vence). Use regra só para corrigir casamento errado ou ligar o que o automático não acha.
 
 ## Campos do `<slug>.json`
 | campo | uso |

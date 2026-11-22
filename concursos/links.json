@@ -1,6 +1,54 @@
 {
- "_": "Tópico do edital → tema do caderno. Expressão regular (PCRE, sem delimitadores, com /u) sobre o título do tópico; vale a primeira que casar. O link só aparece se o tema estiver publicado e escrito.",
+ "_": "Tópico do edital → tema do caderno. Expressão regular (PCRE, sem delimitadores, com /u) sobre o título do tópico; vale a primeira que casar. O link só aparece se o tema estiver publicado e escrito. \"tema\" vazio = sem link (corrige casamento automático errado). Sem regra, a página casa o tópico com os temas dos cadernos da própria disciplina (título ou \"conceitos\" do tema). \"disciplinas\": disciplina do edital → cadernos, para nomes que não batem com o campo \"disciplina\" do caderno (o prefixo \"Noções de\" já é ignorado).",
  "regras": [
+  {
+   "padrao": "^Delegação: concessão, permissão",
+   "tema": "direito-administrativo#servicos-publicos-e-concessoes"
+  },
+  {
+   "padrao": "^Crime e contravenção penal: conceito",
+   "tema": ""
+  },
+  {
+   "padrao": "^Títulos de crédito|^Aceite; aval",
+   "tema": "direito-empresarial#titulos-de-credito-no-codigo-civil-e-aval"
+  },
+  {
+   "padrao": "^Classificação das sociedades",
+   "tema": "direito-empresarial#sociedade-em-comum-e-responsabilidade-dos-socios"
+  },
+  {
+   "padrao": "^Institutos complementares do direito empresarial",
+   "tema": "direito-empresarial#empresario-capacidade-registro-e-escrituracao"
+  },
+  {
+   "padrao": "^Meios de prova",
+   "tema": "direito-processual-penal#teoria-geral-da-prova-e-provas-ilicitas"
+  },
+  {
+   "padrao": "^Origem; evolução histórica; autonomia; fontes",
+   "tema": ""
+  },
+  {
+   "padrao": "^Sistema Financeiro Nacional",
+   "tema": ""
+  },
+  {
+   "padrao": "^Pessoa jurídica$",
+   "tema": ""
+  },
+  {
+   "padrao": "^Acesso a distância a computadores",
+   "tema": ""
+  },
+  {
+   "padrao": "^Internet das coisas",
+   "tema": ""
+  },
+  {
+   "padrao": "^Cálculo de médias",
+   "tema": ""
+  },
   {
    "padrao": "princípios fundamentais",
    "tema": "direito-constitucional#principios-fundamentais"
@@ -180,6 +228,42 @@
   {
    "padrao": "[Rr]eescrit",
    "tema": "lingua-portuguesa#reescrita-de-frases-e-substituicao-de-trechos"
+  }
+ ],
+ "disciplinas": [
+  {
+   "padrao": "Legislação Penal e Processual Penal Extravagante|^Legislação (Penal )?Especial$",
+   "cadernos": [
+    "legislacao-penal-especial"
+   ]
+  },
+  {
+   "padrao": "^Direitos Humanos e Legislação Extravagante",
+   "cadernos": [
+    "direitos-humanos",
+    "legislacao-penal-especial",
+    "direito-da-crianca-e-do-adolescente"
+   ]
+  },
+  {
+   "padrao": "^Direito Civil e Empresarial",
+   "cadernos": [
+    "direito-civil",
+    "direito-de-familia-e-sucessoes",
+    "direito-empresarial"
+   ]
+  },
+  {
+   "padrao": "^Raciocínio Lógico",
+   "cadernos": [
+    "raciocinio-logico"
+   ]
+  },
+  {
+   "padrao": "Gestão de Contratos",
+   "cadernos": [
+    "direito-administrativo"
+   ]
   }
  ]
 }
