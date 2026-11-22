@@ -667,6 +667,12 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		foreach ( $t['relacionados'] as $r ) {
 			if ( isset( $mapa[ $r ] ) ) {
 				$rel[] = $mapa[ $r ];
+			} else {
+				// 0.23.1: tema de outro caderno (Execução Penal ↔ Legislação Penal Especial), se o slug for único.
+				$fora = tpc_tema_por_ref( 'outro-caderno#' . $r );
+				if ( $fora ) {
+					$rel[] = $fora;
+				}
 			}
 		}
 	} else {

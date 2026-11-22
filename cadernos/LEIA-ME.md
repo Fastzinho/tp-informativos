@@ -45,7 +45,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `pegadinha` | `{afirmacao, gabarito: "C"\|"E", explicacao}` |
 | `aprofundamento`, `aprofundamento_rotulo` | HTML do bloco recolhível. **Só o que o card de cima não diz** (playbook, seção 12): começa, se houver, por `<p>Já caiu em: …</p>` (as provas que confirmam o card, numa linha) e segue em até quatro seções fixas, nesta ordem e só as que tiverem conteúdo: `<p><strong>Exceções e detalhes cobrados</strong></p>`, `<p><strong>Distinções</strong></p>`, `<p><strong>Pegadinhas que já caíram</strong></p>` ("Errado: … Certo: … (banca, prova)", sem repetir a `pegadinha` do card), `<p><strong>Jurisprudência além da básica</strong></p>`. Cada súmula, artigo ou conceito aparece uma vez no tema; rodada nova (régua, revisão, questões do app) entra fundida na seção certa, nunca como bloco colado no fim. Tudo amarrado a lei, julgado ou prova real; nada de "parte da doutrina" sem fonte. `ferramentas/repeticao.py` aponta o que repete. Rótulo padrão: "exceções que caem em prova" |
 | `praticar` | link do botão; padrão `/estudar/` |
-| `relacionados` | slugs de temas da mesma disciplina; sem eles, os vizinhos do sumário |
+| `relacionados` | slugs de temas da mesma disciplina; um slug de outro caderno também vale, se for único entre os temas publicados (0.23.1). Sem eles, os vizinhos do sumário |
 | `pagina_propria` | `true` dá URL própria ao tema (`/cadernos/<disciplina>/<tema>/`); sem isso, o endereço redireciona para a âncora |
 
 ## Indexação
