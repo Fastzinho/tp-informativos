@@ -43,7 +43,7 @@ def norm(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
-NOTA = re.compile(r'\s*\((?:[^()]*\b(?:reda[cç][aã]o|acrescid|inclu[ií]d|revogad|vide|renumerad|vig[eê]ncia)[^()]*)\)\s*$', re.I)
+NOTA = re.compile(r'\s*\((?:[^()]*\b(?:reda[cç][aã]o|acrescid|inclu[ií]d|revogad|vide|renumerad|vig[eê]ncia|vetad|retificad|transformad)[^()]*)\)\s*$', re.I)
 
 
 def sem_nota(s):
