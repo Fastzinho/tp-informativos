@@ -102,6 +102,11 @@
 .tpc-lei .tpc-lei__epigrafe { margin: .9rem 0 .35rem; font-family: inherit; font-size: .85rem; font-weight: 600; font-style: italic; letter-spacing: .01em; opacity: .8; }
 .tpc-lei .tpc-lei__epigrafe:first-child { margin-top: 0; }
 .tpc-lei .tpc-lei__corte { opacity: .6; }
+.tpc-regras { margin: 0 0 .6rem; padding-left: 1.1rem; line-height: 1.6; }
+.tpc-regras li { margin: 0 0 .4rem; }
+.tpc-trechos { margin: .4rem 0 .6rem; display: flex; flex-wrap: wrap; gap: .35rem .5rem; align-items: baseline; }
+.tpc-trechos .tpc-rotulo { flex-basis: 100%; margin: 0; }
+.tpc-trechos q.tpc-lei { border-left: 0; padding: .1rem .45rem; background: #fbf7ee; border-radius: 4px; font-size: .98rem; }
 .tpc-fonte { margin: .5rem 0 1rem; font-size: .85rem; color: var(--tpi-suave); }
 .tpc-fonte:last-child { margin-bottom: 0; }
 
