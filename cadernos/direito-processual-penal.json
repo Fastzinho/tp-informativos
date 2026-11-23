@@ -148,6 +148,8 @@
         "norma mista",
         "retroatividade benefica",
         "representacao no estelionato",
+        "prosseguibilidade",
+        "lei 15.397",
         "interpretacao extensiva",
         "aplicacao analogica",
         "analogia in malam partem",
@@ -155,10 +157,10 @@
         "tratados e convencoes",
         "justica militar"
       ],
-      "resumo": "O CPP vale em todo o território nacional (<strong>territorialidade</strong>), ressalvados tratados, prerrogativas constitucionais de certas autoridades, a Justiça Militar e leis especiais. No tempo, a lei processual se aplica <strong>desde logo</strong>, mesmo a processos em curso e a crimes anteriores, mas os atos já praticados continuam válidos (<strong>tempus regit actum</strong>, art. 2º). Não há aqui a retroatividade benéfica do direito penal. A exceção são as normas <strong>híbridas</strong> ou mistas, que mexem também com o direito de punir, como as que criam condição de procedibilidade ou causa extintiva: nelas vale a regra penal, e a lei mais benéfica retroage. A lei processual admite <strong>interpretação extensiva</strong>, <strong>aplicação analógica</strong> e os princípios gerais de direito (art. 3º), ao contrário da lei penal incriminadora.",
+      "resumo": "O CPP vale em todo o território nacional (<strong>territorialidade</strong>), ressalvados tratados, prerrogativas constitucionais de certas autoridades, a Justiça Militar e leis especiais. No tempo, a lei processual se aplica <strong>desde logo</strong>, mesmo a processos em curso e a crimes anteriores, mas os atos já praticados continuam válidos (<strong>tempus regit actum</strong>, art. 2º). Não há aqui a retroatividade benéfica do direito penal. A exceção são as normas <strong>híbridas</strong> ou mistas, que mexem também com o direito de punir, como as que criam condição de procedibilidade ou causa extintiva: nelas vale a regra penal: a lei mais benéfica retroage e a mais gravosa só alcança fatos posteriores. A lei processual admite <strong>interpretação extensiva</strong>, <strong>aplicação analógica</strong> e os princípios gerais de direito (art. 3º), ao contrário da lei penal incriminadora.",
       "esquema": {
         "rotulo": "lei nova no processo",
-        "html": "<table><thead><tr><th>Tipo de norma</th><th>Regra no tempo</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Puramente processual</strong></td><td>Aplicação imediata; atos anteriores valem</td><td>Novo prazo ou novo rito</td></tr><tr><td><strong>Híbrida (processual e penal)</strong></td><td>Retroage se beneficiar</td><td>Representação no estelionato (Lei 13.964/2019)</td></tr><tr><td><strong>Penal</strong></td><td>Irretroatividade, salvo para beneficiar</td><td>Nova pena</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Tipo de norma</th><th>Regra no tempo</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Puramente processual</strong></td><td>Aplicação imediata; atos anteriores valem</td><td>Novo prazo ou novo rito</td></tr><tr><td><strong>Híbrida (processual e penal)</strong></td><td>Retroage se beneficiar; se prejudicar, só vale para fatos posteriores</td><td>Representação no estelionato (Lei 13.964/2019; revogada pela Lei 15.397/2026)</td></tr><tr><td><strong>Penal</strong></td><td>Irretroatividade, salvo para beneficiar</td><td>Nova pena</td></tr></tbody></table>"
       },
       "lei": [
         {
@@ -187,13 +189,17 @@
         },
         {
           "sigla": "HÍBRIDA SEGUE O PENAL",
-          "texto": "Se a norma também afeta a punibilidade, aplica-se a regra do direito penal: retroage para beneficiar."
+          "texto": "Se a norma também afeta a punibilidade, vale a regra do direito penal: a mais benéfica retroage, a mais gravosa só alcança fatos posteriores. Até onde a retroação vai no processo já iniciado é o que STF e STJ discutem (veja a jurisprudência)."
         }
       ],
       "juris": [
         {
-          "quem": "STJ · Terceira Seção, HC 610.201",
-          "texto": "A exigência de representação no estelionato, criada pela Lei 13.964/2019, não retroage para alcançar ações penais em que a denúncia já tinha sido oferecida antes da lei."
+          "quem": "STF · Plenário, HC 208.817 AgR (13/04/2023)",
+          "texto": "A exigência de representação no estelionato (§ 5º do art. 171 do CP, incluído pela Lei 13.964/2019) é norma híbrida favorável ao acusado e retroage aos processos em andamento, em qualquer fase, mesmo com a denúncia já oferecida. O juiz verifica se a vítima já manifestou a vontade de ver o fato apurado, o que vale como representação, ou a intima para isso. A retroação não alcança condenação transitada em julgado antes da lei (STF, 1ª Turma, HC 232.087 AgR)."
+        },
+        {
+          "quem": "STJ · Terceira Seção, HC 610.201 (2021)",
+          "texto": "Para o STJ, a mesma exigência não retroage às ações penais em que a denúncia já tinha sido oferecida antes da lei: o legislador criou condição de procedibilidade, e não de prosseguibilidade. Antes da denúncia, retroage. Em prova, veja se o item pede a posição do STJ ou a do STF, que é mais ampla."
         }
       ],
       "pegadinha": {
@@ -202,7 +208,14 @@
         "explicacao": "A lei processual se aplica desde logo, inclusive aos processos em curso, preservados os atos já praticados (art. 2º do CPP)."
       },
       "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>A imunidade diplomática (Convenção de Viena) impede que o agente seja submetido à jurisdição penal do Estado em que está acreditado, mas não o exime da jurisdição do Estado que representa. Ela alcança os familiares que vivem com ele, e os cônsules só têm imunidade pelos atos praticados no exercício das funções consulares.</p><p><strong>Distinções</strong></p><p>Fonte material, ou de produção, é quem pode criar a norma processual penal: em regra a União, com competência privativa (art. 22, I, da CF). Estados e DF têm competência concorrente sobre procedimentos (art. 24, XI), e lei complementar pode autorizá-los a legislar sobre questões específicas de matéria privativa. A fonte formal imediata é a lei em sentido amplo, incluindo a Constituição, as leis e os tratados incorporados; são fontes formais mediatas os costumes, os princípios gerais do direito e a analogia.</p>",
+      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>A imunidade diplomática (Convenção de Viena) impede que o agente seja submetido à jurisdição penal do Estado em que está acreditado, mas não o exime da jurisdição do Estado que representa. Ela alcança os familiares que vivem com ele, e os cônsules só têm imunidade pelos atos praticados no exercício das funções consulares.</p><p><strong>A representação no estelionato foi revogada em 2026.</strong> A Lei 15.397/2026, em vigor desde a publicação (DOU de 04/05/2026), revogou o § 5º do art. 171 do CP: o estelionato voltou a ser de ação pública incondicionada, ressalvado o art. 182. A discussão sobre a retroação continua valendo para os fatos do período em que a representação era exigida e segue como o exemplo clássico de norma híbrida. Pela mesma regra, a revogação é mais gravosa ao acusado e, por isso, não deveria alcançar fatos anteriores a ela; isso é aplicação da regra das normas híbridas, não tese de tribunal superior citada aqui.</p><p><strong>Distinções</strong></p><p>Fonte material, ou de produção, é quem pode criar a norma processual penal: em regra a União, com competência privativa (art. 22, I, da CF). Estados e DF têm competência concorrente sobre procedimentos (art. 24, XI), e lei complementar pode autorizá-los a legislar sobre questões específicas de matéria privativa. A fonte formal imediata é a lei em sentido amplo, incluindo a Constituição, as leis e os tratados incorporados; são fontes formais mediatas os costumes, os princípios gerais do direito e a analogia.</p>",
+      "mudancas": [
+        {
+          "em": "2026-11-23",
+          "tipo": "juris",
+          "nota": "Representação no estelionato: incluída a posição do Plenário do STF (retroage aos processos em curso) e a revogação do § 5º pela Lei 15.397/2026."
+        }
+      ],
       "relacionados": [
         "sistema-acusatorio-e-juiz-das-garantias",
         "denuncia-e-queixa"
