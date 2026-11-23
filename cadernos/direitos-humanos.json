@@ -4,7 +4,7 @@
  "disciplina": "Direitos Humanos",
  "ordem": 18,
  "ramo": "direitos-humanos",
- "descricao": "Direitos Humanos por tema: teoria geral, DUDH, tratados e controle de convencionalidade, sistemas da ONU e interamericano, uso da força, prevenção da tortura e direitos da pessoa presa, com resumo, esquemas, lei e pegadinhas de banca. Gratuito.",
+ "descricao": "Direitos Humanos por tema: teoria geral, DUDH, tratados e controle de convencionalidade, sistemas da ONU e interamericano, uso da força, prevenção da tortura, direitos da pessoa presa e Agenda 2030 (ODS), com resumo, esquemas, lei e pegadinhas de banca. Gratuito.",
  "revisado_em": "2026-11-13",
  "revisado_rotulo": "Itens de prova checados com o gabarito oficial e pontos de lei conferidos",
  "fontes": "<p>Texto próprio do Tchau Pobreza. Os pontos de lei (Constituição, Convenção Americana, Estatuto de Roma, CP, CPP e LEP) foram conferidos com o texto da Câmara dos Deputados; a DUDH, os Pactos de 1966, as Regras de Mandela, os Protocolos de Istambul e Minnesota, os Princípios Básicos da ONU e a Lei 13.060/2014 são citados pelo seu conteúdo. Os itens de prova citados vêm dos cadernos oficiais do Cebraspe e da FGV, de vários cargos, e foram conferidos com o gabarito oficial.</p>",
@@ -16,7 +16,8 @@
    "base": "Art. 4º, II, e art. 5º, §§ 1º e 2º, da CF",
    "tax": [
     "direitos-humanos.teoria-geral-direitos-humanos",
-    "direitos-humanos.afirmacao-historica"
+    "direitos-humanos.afirmacao-historica",
+    "internacional.geracoes-direitos"
    ],
    "dispositivos": [
     "nCF-1988-art-4",
@@ -805,6 +806,70 @@
      "tipo": "juris",
      "nota": "Acrescidas a audiência de custódia em todas as prisões (Rcl 29.303) e a SV 56."
     }
+   ]
+  },
+  {
+   "slug": "agenda-2030-e-ods",
+   "titulo": "Agenda 2030 e os Objetivos de Desenvolvimento Sustentável (ODS)",
+   "grupo": "Agenda internacional",
+   "base": "Resolução 70/1 da Assembleia Geral da ONU (2015)",
+   "tax": [
+    "direitos-humanos.agenda-2030"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "Agenda 2030",
+    "Objetivos de Desenvolvimento Sustentável",
+    "ODS",
+    "Objetivos de Desenvolvimento do Milênio"
+   ],
+   "palavras": [
+    "agenda 2030",
+    "ods",
+    "objetivos de desenvolvimento sustentavel",
+    "odm",
+    "objetivos de desenvolvimento do milenio",
+    "rio+20",
+    "o futuro que queremos",
+    "transformando nosso mundo",
+    "169 metas",
+    "nao deixar ninguem para tras",
+    "cinco ps",
+    "pessoas planeta prosperidade paz parcerias",
+    "adis abeba",
+    "forum politico de alto nivel",
+    "revisoes nacionais voluntarias",
+    "soft law",
+    "ods 12",
+    "ods 15",
+    "ods 16"
+   ],
+   "resumo": "A <strong>Agenda 2030</strong> foi adotada em setembro de 2015, em Nova York, pela Resolução 70/1 da Assembleia Geral da ONU (\"Transformando Nosso Mundo\"). Reúne <strong>17 Objetivos de Desenvolvimento Sustentável</strong> e <strong>169 metas</strong>, sucede os 8 Objetivos de Desenvolvimento do Milênio (horizonte 2015) e tem o lema <strong>não deixar ninguém para trás</strong>. O processo nasceu na <strong>Rio+20</strong> (Rio de Janeiro, 2012, documento final \"O Futuro que Queremos\"). Diferentemente dos ODM, os ODS são <strong>universais</strong>: valem para países desenvolvidos e em desenvolvimento. São <strong>integrados e indivisíveis</strong> e equilibram as dimensões econômica, social e ambiental, em cinco eixos: pessoas, planeta, prosperidade, paz e parcerias. A erradicação da pobreza é o maior desafio global. Não é tratado: é compromisso político sem força vinculante (soft law), e cada Estado define suas metas nacionais. O acompanhamento global cabe ao <strong>Fórum Político de Alto Nível</strong>, sob a Assembleia Geral e o ECOSOC, com revisões nacionais voluntárias; a Agenda de Ação de <strong>Adis Abeba</strong> (2015) é parte integrante e trata dos meios de implementação.",
+   "esquema": {
+    "rotulo": "os ODS que as bancas trocam",
+    "html": "<table><thead><tr><th>ODS</th><th>Tema</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>Erradicação da pobreza, em todas as formas e lugares</td></tr><tr><td><strong>2</strong></td><td>Fome zero, segurança alimentar e agricultura sustentável</td></tr><tr><td><strong>4</strong></td><td>Educação inclusiva, equitativa e de qualidade; aprendizagem ao longo da vida</td></tr><tr><td><strong>5</strong></td><td>Igualdade de gênero e empoderamento de mulheres e meninas</td></tr><tr><td><strong>10</strong></td><td>Redução das desigualdades dentro dos países e entre eles</td></tr><tr><td><strong>12</strong></td><td>Consumo e produção sustentáveis</td></tr><tr><td><strong>13</strong></td><td>Ação contra a mudança do clima</td></tr><tr><td><strong>14</strong></td><td>Vida na água: oceanos, mares e recursos marinhos</td></tr><tr><td><strong>15</strong></td><td>Vida terrestre: ecossistemas terrestres, florestas, desertificação, degradação da terra e biodiversidade</td></tr><tr><td><strong>16</strong></td><td>Paz, justiça e instituições eficazes; acesso à justiça para todos</td></tr><tr><td><strong>17</strong></td><td>Parcerias e meios de implementação</td></tr></tbody></table>"
+   },
+   "lei": [],
+   "macetes": [
+    {
+     "sigla": "14 É ÁGUA, 15 É TERRA",
+     "texto": "O ODS 14 cuida de oceanos, mares e recursos marinhos; o 15, de ecossistemas terrestres, florestas, desertificação e biodiversidade. Consumo e produção sustentáveis são o 12, não o 15."
+    },
+    {
+     "sigla": "ODM ERAM 8, ODS SÃO 17",
+     "texto": "Os Objetivos do Milênio eram 8, até 2015, voltados sobretudo aos países em desenvolvimento. Os ODS são 17, com 169 metas, até 2030, e universais."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O ODS 15 busca proteger os ecossistemas terrestres, combater a desertificação, deter a perda de biodiversidade e assegurar padrões de produção e de consumo sustentáveis.",
+    "gabarito": "E",
+    "explicacao": "Padrões de produção e de consumo sustentáveis são o objeto do ODS 12. O ODS 15 trata da vida terrestre: ecossistemas terrestres, florestas, desertificação, degradação da terra e biodiversidade."
+   },
+   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>A Rio+20 foi realizada no Rio de Janeiro, em 2012, e não em Joanesburgo em 2002 (a Rio+10). A Agenda reconhece a Convenção-Quadro das Nações Unidas sobre Mudança do Clima como o principal fórum internacional e intergovernamental para negociar a resposta global à mudança do clima (ODS 13). O acompanhamento global não cabe ao Conselho de Segurança, e sim ao Fórum Político de Alto Nível sobre Desenvolvimento Sustentável, sob os auspícios da Assembleia Geral e do Conselho Econômico e Social. A Agenda de Ação de Adis Abeba resultou da Terceira Conferência Internacional sobre Financiamento para o Desenvolvimento, de 2015.</p><p><strong>Distinções</strong></p><p>ODS 5 (igualdade de gênero) x ODS 16 (paz, justiça e instituições eficazes): a banca troca os dois. ODS 10 reduz desigualdades dentro dos países e entre eles; ODS 1 é a pobreza. No Judiciário brasileiro, o CNJ incorporou a Agenda 2030 ao planejamento estratégico e passou a classificar processos de acordo com os ODS; o ODS 16 é o mais ligado à atividade judicial (ver o tema sobre o CNJ no Caderno de Formação Humanística).</p>",
+   "relacionados": [
+    "sistema-global-de-protecao",
+    "teoria-geral-dos-direitos-humanos",
+    "cnj-loman-e-integridade-publica"
    ]
   }
  ]
