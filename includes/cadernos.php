@@ -673,7 +673,7 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	$pg = $t['pegadinha'] ?? null;
 	if ( is_array( $pg ) && ! empty( $pg['afirmacao'] ) && in_array( $pg['gabarito'] ?? '', array( 'C', 'E' ), true ) ) {
 		$gab = 'C' === $pg['gabarito'] ? 'Certo' : 'Errado';
-		$h  .= '<section class="tpc-bloco"><' . $hb . '>Pegadinha de banca <span class="tpc-tag">Certo ou Errado</span></' . $hb . '>'
+		$h  .= '<section class="tpc-bloco"><' . $hb . '>Pegadinha de banca <span class="tpc-tag">Questão</span></' . $hb . '>'
 			. '<div class="tpc-ce" data-gab="' . esc_attr( $pg['gabarito'] ) . '"><p class="tpc-ce__afirmacao">' . tpc_html( $pg['afirmacao'] ) . '</p>'
 			. '<details class="tpc-ce__gabarito"><summary>Ver gabarito</summary><p><strong>Gabarito: ' . $gab . '.</strong> ' . tpc_html( $pg['explicacao'] ?? '' ) . '</p></details></div></section>';
 	}
