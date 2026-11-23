@@ -841,9 +841,10 @@ add_filter( 'the_content', function ( $content ) {
 	return tpc_eh_disciplina( $id ) ? tpc_pagina_disciplina( $id ) : tpc_pagina_tema( $id );
 }, 20 );
 
-/* 0.11.4: caderno indexável ligado a um ramo dos informativos (campo "ramo" do JSON), para o link de volta. */
+/* 0.11.4: caderno indexável ligado a um ramo dos informativos (campo "ramo" do JSON), para o link de volta.
+   0.24.0: na ordem da vitrine, para o ramo dividido (Penal: Parte Geral e Parte Especial) cair no caderno principal. */
 function tpc_caderno_do_ramo( $ramo ) {
-	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1 ) ) as $p ) {
+	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1, 'orderby' => 'menu_order title', 'order' => 'ASC' ) ) as $p ) {
 		$d = tpc_dados( $p->ID );
 		if ( ( $d['ramo'] ?? '' ) === $ramo && tpc_indexavel( $p->ID ) ) {
 			return $p;
