@@ -433,6 +433,31 @@ function tpc_lei_p( $para ) {
 	return '<p>' . esc_html( $para ) . '</p>';
 }
 
+/* 0.24.0: lei seca contextualizada (Jonatan, 23/11/2026). O caderno não copia mais o artigo inteiro: explica cada
+   dispositivo com a origem ("§ 2º", "Pena") e destaca só a redação que a banca cobra ao pé da letra ("trechos", que o
+   conferir_lei.py exige literais no acervo). O texto completo fica na Lei seca do app; a citação "art. 13 do CP" do
+   rodapé vira, no navegador, o botão que abre o artigo do acervo em janela (tp-leis). Assim o caderno não substitui a
+   leitura da lei e não envelhece quando ela muda: o conferir_lei.py avisa pelo "conferido" (hash do artigo). */
+function tpc_lei_regras( $l ) {
+	$h = '<ul class="tpc-regras">';
+	foreach ( $l['regras'] as $r ) {
+		$h .= '<li>' . tpc_html( $r ) . '</li>';
+	}
+	$h .= '</ul>';
+	if ( ! empty( $l['trechos'] ) && is_array( $l['trechos'] ) ) {
+		$h .= '<p class="tpc-trechos"><span class="tpc-rotulo">Redação que cai ao pé da letra</span>';
+		foreach ( $l['trechos'] as $x ) {
+			$h .= '<q class="tpc-lei">' . esc_html( $x ) . '</q>';
+		}
+		$h .= '</p>';
+	}
+	$h .= '<p class="tpc-fonte">Leia na íntegra: ' . esc_html( $l['ref'] ?? '' );
+	if ( ! empty( $l['url'] ) ) {
+		$h .= ' · <a href="' . esc_url( $l['url'] ) . '" rel="noopener" target="_blank">texto oficial</a>';
+	}
+	return $h . ' · <a href="' . esc_url( home_url( '/estudar/' ) ) . '">Ler na Lei seca do app</a></p>';
+}
+
 function tpc_html( $s ) {
 	return wp_kses_post( (string) $s );
 }
@@ -599,8 +624,15 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 	$h .= tpc_mapa( $t['mapa'] ?? null, $hb );
 
 	if ( ! empty( $t['lei'] ) && is_array( $t['lei'] ) ) {
-		$h .= '<section class="tpc-bloco"><' . $hb . '>Lei seca <span class="tpc-tag">texto oficial</span></' . $hb . '>';
+		$so_regras = ! array_filter( $t['lei'], function ( $l ) {
+			return empty( $l['regras'] );
+		} );
+		$h .= '<section class="tpc-bloco"><' . $hb . '>' . ( $so_regras ? 'Na lei seca <span class="tpc-tag">o que cada dispositivo diz</span>' : 'Lei seca <span class="tpc-tag">texto oficial</span>' ) . '</' . $hb . '>';
 		foreach ( $t['lei'] as $l ) {
+			if ( ! empty( $l['regras'] ) && is_array( $l['regras'] ) ) {
+				$h .= tpc_lei_regras( $l );
+				continue;
+			}
 			$paras = array_filter( array_map( 'trim', preg_split( "/\n\s*\n/", (string) ( $l['texto'] ?? '' ) ) ) );
 			$h    .= '<blockquote class="tpc-lei">';
 			foreach ( $paras as $para ) {
@@ -809,9 +841,10 @@ add_filter( 'the_content', function ( $content ) {
 	return tpc_eh_disciplina( $id ) ? tpc_pagina_disciplina( $id ) : tpc_pagina_tema( $id );
 }, 20 );
 
-/* 0.11.4: caderno indexável ligado a um ramo dos informativos (campo "ramo" do JSON), para o link de volta. */
+/* 0.11.4: caderno indexável ligado a um ramo dos informativos (campo "ramo" do JSON), para o link de volta.
+   0.24.0: na ordem da vitrine, para o ramo dividido (Penal: Parte Geral e Parte Especial) cair no caderno principal. */
 function tpc_caderno_do_ramo( $ramo ) {
-	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1 ) ) as $p ) {
+	foreach ( get_posts( array( 'post_type' => 'caderno', 'post_parent' => 0, 'post_status' => 'publish', 'numberposts' => -1, 'orderby' => 'menu_order title', 'order' => 'ASC' ) ) as $p ) {
 		$d = tpc_dados( $p->ID );
 		if ( ( $d['ramo'] ?? '' ) === $ramo && tpc_indexavel( $p->ID ) ) {
 			return $p;
@@ -1134,7 +1167,9 @@ function tpc_previa_html( $p ) {
 	if ( ! empty( $t['esquema']['html'] ) ) {
 		$h .= '<div class="tpc-rolagem">' . tpc_html( $t['esquema']['html'] ) . '</div>';
 	}
-	if ( ! empty( $t['lei'][0]['texto'] ) ) {
+	if ( ! empty( $t['lei'][0]['regras'] ) ) {
+		$h .= tpc_lei_regras( $t['lei'][0] );
+	} elseif ( ! empty( $t['lei'][0]['texto'] ) ) {
 		$h .= '<blockquote class="tpc-lei">';
 		foreach ( array_filter( array_map( 'trim', preg_split( "/\n\s*\n/", (string) $t['lei'][0]['texto'] ) ) ) as $para ) {
 			$h .= tpc_lei_p( $para );

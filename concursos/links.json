@@ -232,6 +232,13 @@
  ],
  "disciplinas": [
   {
+   "padrao": "(?i)^(noções (básicas )?de )?direito penal$",
+   "cadernos": [
+    "direito-penal",
+    "direito-penal-parte-especial"
+   ]
+  },
+  {
    "padrao": "Legislação Penal e Processual Penal Extravagante|^Legislação (Penal )?Especial$",
    "cadernos": [
     "legislacao-penal-especial"

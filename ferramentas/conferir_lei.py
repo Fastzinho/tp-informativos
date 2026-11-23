@@ -19,6 +19,12 @@ Regras:
   (2026-11-11: o art. 155 do caderno parava no § 4º, IV, e faltavam o inciso V e os §§ 4º-A a 12).
   Para gerar o texto completo: --completar reescreve cada bloco "lei" com o artigo inteiro do acervo.
 
+Lei contextualizada (0.24.0, Jonatan 23/11/2026): item de "lei" com "regras" em vez de "texto". Precisa de
+"norma", "artigos" (rótulos do acervo, ex.: ["Art. 13."]), "ref" (citação que abre a janela, ex.: "art. 13 do CP"),
+"regras" (o que cada dispositivo diz, com a origem) e "conferido" ({rótulo: hash do artigo no acervo}). Cada item de
+"trechos" tem de existir literal num desses artigos. Se o artigo mudar no acervo, o hash deixa de bater e o script
+reprova: releia o artigo, ajuste as regras e rode --carimbar para gravar o hash novo.
+
 Também confere se `tax` e `dispositivos` de cada tema existem no app, e o formato de `mudancas` (0.16.0).
 Com --desde <ref do git> (ex.: origin/main), avisa quando a lei, o gabarito da pegadinha ou a
 jurisprudência de um tema publicado mudou sem uma entrada nova em `mudancas` (só aviso: pode ser
@@ -35,6 +41,7 @@ import os
 import re
 import sys
 import unicodedata
+import hashlib
 
 
 def norm(s):
@@ -103,6 +110,9 @@ def confere(acervo, arquivo):
             if not unidades:
                 erros.append('%s: norma não achada no acervo (%s). Ponha "norma" com o id do acervo.' % (onde, nid))
                 continue
+            if item.get('regras') is not None:
+                ok += _confere_regras(onde, nid, unidades, item, erros)
+                continue
             for rotulo, pars in artigos(item.get('texto', '')):
                 if not rotulo:
                     erros.append('%s: texto antes do primeiro "Art."; não dá para conferir.' % onde)
@@ -134,6 +144,63 @@ def confere(acervo, arquivo):
                     erros.append('%s: %s omite sem "(...)" o fim do artigo: %s' % (onde, rotulo, _rotulos(oficiais[pos + 1:])))
                 ok += 1
     return ok, erros
+
+
+def hash_artigo(u):
+    """Hash curto do texto do artigo no acervo (sem notas de redação): muda quando a lei muda."""
+    txt = '\n'.join(sem_nota(norm(x)) for x in re.split(r'\n\s*\n', u['text']) if norm(x))
+    return hashlib.sha1(txt.encode('utf-8')).hexdigest()[:12]
+
+
+def _confere_regras(onde, nid, unidades, item, erros):
+    ok = 0
+    rotulos = item.get('artigos') or []
+    if not rotulos:
+        erros.append('%s: lei contextualizada sem "artigos".' % onde)
+    if not str(item.get('ref', '')).strip():
+        erros.append('%s: lei contextualizada sem "ref" (ex.: "art. 13 do CP").' % onde)
+    regras = item.get('regras')
+    if not isinstance(regras, list) or not regras or not all(isinstance(r, str) and r.strip() for r in regras):
+        erros.append('%s: "regras" tem de ser uma lista de frases.' % onde)
+    textos, conf = [], item.get('conferido') or {}
+    for r in rotulos:
+        u = unidades.get(r)
+        if not u:
+            erros.append('%s: %s não existe em %s.' % (onde, r, nid))
+            continue
+        textos.append(norm(u['text']))
+        h = hash_artigo(u)
+        if conf.get(r) != h:
+            erros.append('%s: %s mudou no acervo desde que as regras foram escritas (ou falta o hash). '
+                         'Releia o artigo, ajuste as regras e rode --carimbar.' % (onde, r))
+        ok += 1
+    for x in item.get('trechos') or []:
+        if not any(norm(x) in t for t in textos):
+            erros.append('%s: trecho não é literal no acervo: "%s"' % (onde, x[:120]))
+    for r in regras or []:
+        if '—' in r:
+            erros.append('%s: travessão nas regras.' % onde)
+    return ok
+
+
+def carimbar(acervo, arquivo):
+    """Grava em "conferido" o hash atual dos artigos de cada lei contextualizada (depois de reler as regras)."""
+    s = open(arquivo, encoding='utf-8').read()
+    disc = json.loads(s)
+    n = 0
+    for tema in disc.get('temas', []):
+        for item in tema.get('lei') or []:
+            if item.get('regras') is None:
+                continue
+            unidades = carrega(acervo, norma_de(item)) or {}
+            novo = {r: hash_artigo(unidades[r]) for r in item.get('artigos') or [] if r in unidades}
+            if novo != item.get('conferido'):
+                item['conferido'] = novo
+                n += 1
+    if n:
+        ind = 1 if s.startswith('{\n "') else 2
+        open(arquivo, 'w', encoding='utf-8').write(json.dumps(disc, ensure_ascii=False, indent=ind) + '\n')
+    return n
 
 
 def _rotulos(pars):
@@ -240,7 +307,7 @@ def confere_mudancas(arquivos):
 def _essencial(t):
     """O que, se mudar, pode mudar a resposta do aluno: texto da lei, gabarito da pegadinha, jurisprudência."""
     return (
-        [norm(sem_nota(i.get('texto', ''))) for i in t.get('lei') or []],
+        [norm(sem_nota(i.get('texto', ''))) + '|'.join(i.get('regras') or []) + '|'.join(i.get('trechos') or []) for i in t.get('lei') or []],
         (t.get('pegadinha') or {}).get('gabarito'),
         [norm(j.get('texto', '')) for j in t.get('juris') or []],
     )
@@ -270,6 +337,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--acervo', required=True, help='pasta codigo-fonte/public/legal do app')
     ap.add_argument('--completar', action='store_true', help='reescreve os blocos "lei" com os artigos inteiros do acervo')
+    ap.add_argument('--carimbar', action='store_true', help='grava o hash atual dos artigos das leis contextualizadas')
     ap.add_argument('--desde', help='ref do git (ex.: origin/main) para avisar mudança essencial sem registro em mudancas')
     ap.add_argument('arquivos', nargs='*')
     a = ap.parse_args()
@@ -278,6 +346,9 @@ def main():
     if a.completar:
         for arq in arquivos:
             completar(a.acervo, arq)
+    if a.carimbar:
+        for arq in arquivos:
+            print('carimbados: %s (%d)' % (os.path.basename(arq), carimbar(a.acervo, arq)))
     total, todos = 0, []
     for arq in arquivos:
         ok, erros = confere(a.acervo, arq)
