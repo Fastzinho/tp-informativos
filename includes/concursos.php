@@ -1,6 +1,7 @@
 <?php
 /**
  * 0.18.0: Páginas de concurso (/concursos/<slug>/): guia de estudos + edital verticalizado.
+ * 0.25.0: título "Edital verticalizado SIGLA ANO: cargo" (era "Guia de estudos ...") e página da PM-AL.
  *
  * Piloto aprovado pelo Jonatan em 17/11/2026 (thread "Criar páginas de estudo por concurso"), com 5 concursos.
  * Página de ESTUDO, não de notícia: ficha curta e datada do edital (banca, vagas, inscrições, prova, edital),
@@ -164,8 +165,10 @@ add_action( 'init', function () {
 	delete_transient( 'tpcon_sync_trava' );
 }, 31 );
 
+/* 0.25.0: o título começa pelo que se busca ("edital verticalizado pmpe" = 1.000/mês no Ubersuggest, 24/11/2026;
+ * "guia de estudos pm pe" = 0). "Guia de estudos" fica no fim do title e no sobretítulo. */
 function tpcon_titulo( $c ) {
-	return 'Guia de estudos ' . $c['sigla'] . ( ! empty( $c['ano'] ) ? ' ' . $c['ano'] : '' ) . ': ' . $c['cargo'];
+	return 'Edital verticalizado ' . $c['sigla'] . ( ! empty( $c['ano'] ) ? ' ' . $c['ano'] : '' ) . ': ' . $c['cargo'];
 }
 
 function tpcon_sincroniza( $arquivo ) {
@@ -203,7 +206,7 @@ function tpcon_sincroniza( $arquivo ) {
 	update_post_meta( $id, 'tpcon_dados', wp_slash( $json ) );
 	update_post_meta( $id, 'tpcon_hash', $hash );
 	// Rank Math: o JSON é a fonte (como nos guias de Como estudar).
-	update_post_meta( $id, 'rank_math_title', $titulo . ' · como estudar e edital verticalizado' );
+	update_post_meta( $id, 'rank_math_title', $titulo . ' · guia de estudos' );
 	if ( ! empty( $c['descricao'] ) ) {
 		update_post_meta( $id, 'rank_math_description', $c['descricao'] );
 	}

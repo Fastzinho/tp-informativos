@@ -14,11 +14,11 @@ Guia de estudos + edital verticalizado por concurso. Código em `includes/concur
 |---|---|
 | `slug`, `ordem` | URL e ordem no hub |
 | `plano` | id do plano no catálogo do app (ex.: `pmpe`); liga os tópicos e o botão do app (`/estudar/?plano=`) |
-| `sigla`, `cargo`, `orgao`, `ano` | título "Guia de estudos SIGLA ANO: cargo" (sem `ano` quando não há edital novo) |
+| `sigla`, `cargo`, `orgao`, `ano` | título "Edital verticalizado SIGLA ANO: cargo" (sem `ano` quando não há edital novo) |
 | `edital_anterior` | ano do último edital, quando ainda não há edital novo (mostra o aviso na ficha) |
 | `banca`, `vagas`, `inscricoes_ate`, `prova_data`, `prova`, `edital`, `retificacao`, `url_banca` | ficha do edital (datas AAAA-MM-DD; os dias que faltam são calculados no navegador) |
 | `conferido_em` | data em que conferimos o edital (ficha, assinatura e `lastReviewed`) |
-| `palavra_chave`, `secundarias`, `descricao` | Rank Math (foco, secundárias e descrição) |
+| `palavra_chave`, `secundarias`, `descricao` | Rank Math (foco, secundárias e descrição). Foco = "edital verticalizado <sigla como se digita>" (ex.: pmpe, sem hífen), que é o que tem busca; "guia de estudos" vai nas secundárias |
 | `banca_texto` | parágrafo escrito à mão sobre como a banca cobra (HTML simples) |
 
 ## Regras
