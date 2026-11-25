@@ -511,6 +511,28 @@ function tpc_figuras( $f, $hb = 'h3' ) {
 	return $h . '</tbody></table></div></section>';
 }
 
+/* 0.26.0: "Para entender este tema" (playbook, seção 13.7). Só em tema que depende de conceito de outro tema: até três
+   itens, cada um com a ideia em uma frase simples e o link para o tema onde ela está explicada. */
+function tpc_para_entender( $itens, $irmaos = array() ) {
+	if ( empty( $itens ) || ! is_array( $itens ) ) {
+		return '';
+	}
+	$mapa = array();
+	foreach ( (array) $irmaos as $ir ) {
+		$mapa[ $ir->post_name ] = $ir;
+	}
+	$h = '<aside class="tpc-ponte"><p class="tpc-rotulo">Para entender este tema</p><ul>';
+	foreach ( array_slice( $itens, 0, 3 ) as $x ) {
+		$h .= '<li>' . tpc_html( $x['texto'] ?? '' );
+		$sl = (string) ( $x['tema'] ?? '' );
+		if ( $sl && isset( $mapa[ $sl ] ) ) {
+			$h .= ' <a href="' . esc_url( get_permalink( $mapa[ $sl ] ) ) . '">Ver: ' . esc_html( $mapa[ $sl ]->post_title ) . '</a>';
+		}
+		$h .= '</li>';
+	}
+	return $h . '</ul></aside>';
+}
+
 function tpc_html( $s ) {
 	return wp_kses_post( (string) $s );
 }
@@ -661,7 +683,11 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		$h  .= '<p class="tpc-revisado">Revisado por ' . esc_html( $cur['nome'] ) . ' em <time datetime="' . esc_attr( $t['revisado_em'] ) . '">' . esc_html( tpi_data_br( $t['revisado_em'] ) ) . '</time></p>';
 	}
 	$h .= tpc_botao_lido( $p, $disc->post_title );
+	if ( ! empty( $t['ja_caiu'] ) && is_array( $t['ja_caiu'] ) ) { // 0.26.0: prova de cobrança numa linha, fora do texto de estudo
+		$h .= '<p class="tpc-jacaiu"><span>Já caiu em:</span> ' . esc_html( implode( '; ', array_map( 'strval', $t['ja_caiu'] ) ) ) . '</p>';
+	}
 	$h .= '</header>';
+	$h .= tpc_para_entender( $t['para_entender'] ?? null, $irmaos );
 
 	if ( $escr ) {
 		$h .= '<div class="tpc-30s"><p class="tpc-rotulo">Em 30 segundos</p>' . tpc_html( wpautop( $t['resumo'] ) ) . '</div>';
@@ -701,6 +727,14 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		$h .= '</section>';
 	}
 
+	if ( ! empty( $t['detalhes'] ) && is_array( $t['detalhes'] ) ) { // 0.26.0: o que a prova cobra além do resumo, sempre à vista
+		$h .= '<section class="tpc-bloco"><' . $hb . '>Detalhes que caem</' . $hb . '><ul class="tpc-detalhes">';
+		foreach ( $t['detalhes'] as $x ) {
+			$h .= '<li>' . tpc_html( $x ) . '</li>';
+		}
+		$h .= '</ul></section>';
+	}
+
 	if ( ! empty( $t['macetes'] ) && is_array( $t['macetes'] ) ) {
 		$h .= '<section class="tpc-bloco"><' . $hb . '>Macete</' . $hb . '><div class="tpc-macetes">';
 		foreach ( $t['macetes'] as $m ) {
@@ -730,6 +764,15 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		$h  .= '<section class="tpc-bloco"><' . $hb . '>Pegadinha de banca <span class="tpc-tag">Questão</span></' . $hb . '>'
 			. '<div class="tpc-ce" data-gab="' . esc_attr( $pg['gabarito'] ) . '"><p class="tpc-ce__afirmacao">' . tpc_html( $pg['afirmacao'] ) . '</p>'
 			. '<details class="tpc-ce__gabarito"><summary>Ver gabarito</summary><p><strong>Gabarito: ' . $gab . '.</strong> ' . tpc_html( $pg['explicacao'] ?? '' ) . '</p></details></div></section>';
+	}
+
+	if ( ! empty( $t['pegadinhas'] ) && is_array( $t['pegadinhas'] ) ) { // 0.26.0: trocas reais de prova, Errado e Certo lado a lado
+		$h .= '<section class="tpc-bloco"><' . $hb . '>Pegadinhas que já caíram</' . $hb . '><ul class="tpc-trocas">';
+		foreach ( $t['pegadinhas'] as $x ) {
+			$h .= '<li><p><strong class="is-errado">Errado:</strong> ' . tpc_html( $x['errado'] ?? '' ) . '</p><p><strong class="is-certo">Certo:</strong> ' . tpc_html( $x['certo'] ?? '' ) . '</p>'
+				. ( ! empty( $x['fonte'] ) ? '<p class="tpc-fonte">' . esc_html( $x['fonte'] ) . '</p>' : '' ) . '</li>';
+		}
+		$h .= '</ul></section>';
 	}
 
 	if ( ! empty( $t['aprofundamento'] ) ) {
