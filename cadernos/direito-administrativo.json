@@ -3630,15 +3630,17 @@
   },
   {
    "slug": "poderes-administrativos",
-   "titulo": "Poderes hierárquico e disciplinar, delegação, avocação e abuso de poder",
+   "titulo": "Poderes administrativos: hierárquico, disciplinar, delegação, avocação e abuso de poder",
    "grupo": "Poderes e atos administrativos",
-   "base": "Arts. 11 a 15 da Lei 9.784/1999",
+   "base": "Arts. 11 a 15 da Lei 9.784/1999; doutrina",
    "tax": [
     "administrativo.poderes-administracao-publica",
     "administrativo.hierarquia-poder-hierarquico-manifestacoes",
     "administrativo.poder-disciplinar",
     "administrativo.uso-abuso-poder",
-    "administrativo.poderes-deveres-administracao-publica"
+    "administrativo.poderes-deveres-administracao-publica",
+    "administrativo.dever-agir",
+    "administrativo.dever-eficiencia"
    ],
    "dispositivos": [
     "n9784-1999-art-11",
@@ -3648,73 +3650,245 @@
     "n9784-1999-art-15"
    ],
    "conceitos": [
+    "poder-dever",
+    "poder vinculado",
+    "poder discricionário",
     "poder hierárquico",
     "poder disciplinar",
-    "delegação de competência",
+    "delegação",
     "avocação",
+    "recurso hierárquico impróprio",
     "abuso de poder",
+    "excesso de poder",
     "desvio de finalidade",
-    "excesso de poder"
+    "omissão",
+    "dever de agir",
+    "dever de eficiência",
+    "dever de probidade",
+    "dever de prestar contas"
    ],
    "palavras": [
     "poderes administrativos",
-    "poder dever",
-    "hierarquico",
-    "disciplinar",
+    "poder-dever",
+    "irrenunciavel",
     "vinculado",
     "discricionario",
+    "hierarquico",
+    "ordens",
+    "fiscalizar",
+    "rever",
+    "delegar",
+    "avocar",
+    "atos normativos internos",
+    "disciplinar",
+    "vinculo especial",
+    "contratado",
+    "servidor cedido",
+    "cessionario",
+    "cedente",
     "delegacao",
-    "avocacao temporaria",
-    "irrenunciavel",
-    "nao se delega",
-    "atos normativos",
-    "recursos administrativos",
+    "nao subordinados",
+    "indole tecnica social economica juridica territorial",
+    "colegiados",
+    "atos de carater normativo",
+    "decisao de recursos",
     "competencia exclusiva",
-    "sem subordinacao hierarquica",
+    "publicados no meio oficial",
     "revogavel a qualquer tempo",
+    "editadas pelo delegado",
+    "avocacao",
+    "excepcional",
+    "temporaria",
+    "hierarquicamente inferior",
     "abuso de poder",
     "excesso de poder",
-    "desvio de poder",
     "desvio de finalidade",
-    "remocao como punicao",
-    "servidor cedido",
-    "cessionario instaura cedente julga"
+    "desvio de poder",
+    "omissao",
+    "dever de agir",
+    "eficiencia",
+    "probidade",
+    "prestar contas",
+    "ordem manifestamente ilegal",
+    "recurso hierarquico improprio",
+    "sumula 510"
    ],
-   "resumo": "Os poderes administrativos são <strong>poderes-deveres</strong>: instrumentos para cumprir o interesse público, que o agente não pode deixar de exercer. Pelo <strong>poder hierárquico</strong>, a administração escalona órgãos e agentes, dá ordens, fiscaliza, revê atos dos subordinados, <strong>delega</strong> e <strong>avoca</strong> competências e edita atos internos. Pelo <strong>poder disciplinar</strong>, apura infrações e pune servidores e quem tem vínculo especial com ela (como contratados), o que não se confunde com o poder de polícia, voltado à coletividade. A competência é irrenunciável, mas pode ser <strong>delegada</strong> em parte, mesmo a órgão não subordinado, salvo atos normativos, decisão de recurso e matéria exclusiva (arts. 12 e 13). A <strong>avocação</strong> é excepcional, temporária, justificada e só de órgão hierarquicamente inferior (art. 15). <strong>Abuso de poder</strong> é gênero: <strong>excesso de poder</strong> quando o agente vai além da competência, <strong>desvio de finalidade</strong> quando age dentro dela, mas com fim diverso do previsto em lei.",
+   "resumo": "Os <strong>poderes administrativos</strong> são <strong>poderes-deveres</strong>: instrumentos do interesse público que o agente não pode deixar de exercer. Ao lado deles, a doutrina lista os <strong>deveres</strong> de agir, de eficiência, de probidade e de prestar contas. Pelo <strong>poder hierárquico</strong>, a administração escalona órgãos e agentes, dá ordens, fiscaliza, revê atos, delega, avoca e edita atos internos. Pelo <strong>poder disciplinar</strong>, apura infrações e pune servidores e quem tem <strong>vínculo especial</strong> com ela, como contratados; não se confunde com o poder de polícia, voltado à coletividade. A competência é <strong>irrenunciável</strong>, mas pode ser <strong>delegada</strong> em parte, mesmo a órgão não subordinado, salvo <strong>atos normativos, decisão de recurso e matéria exclusiva</strong> (arts. 12 e 13 da Lei 9.784/1999). A <strong>avocação</strong> é excepcional, temporária, justificada e só de órgão <strong>hierarquicamente inferior</strong> (art. 15). <strong>Abuso de poder</strong> é gênero: <strong>excesso</strong> quando o agente vai além da competência, <strong>desvio de finalidade</strong> quando age dentro dela com fim diverso do legal. A omissão ilegal também é abuso.",
    "esquema": {
     "rotulo": "delegação x avocação",
-    "html": "<table><thead><tr><th></th><th>Delegação</th><th>Avocação</th></tr></thead><tbody><tr><td><strong>Direção</strong></td><td>Transfere parte da competência</td><td>Chama para si competência do subordinado</td></tr><tr><td><strong>Hierarquia</strong></td><td>Não é obrigatória (art. 12)</td><td>Exigida: só de órgão inferior (art. 15)</td></tr><tr><td><strong>Limites</strong></td><td>Não cabe para atos normativos, recursos e competência exclusiva</td><td>Excepcional, temporária e motivada</td></tr><tr><td><strong>Forma</strong></td><td>Publicada; revogável a qualquer tempo; decisão é do delegado</td><td>Motivos relevantes justificados</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ponto</th><th>Delegação</th><th>Avocação</th></tr></thead><tbody><tr><td><strong>Direção</strong></td><td>Transfere parte da competência</td><td>Chama para si competência do subordinado</td></tr><tr><td><strong>Hierarquia</strong></td><td>Não é obrigatória (art. 12)</td><td>Exigida: só de órgão inferior (art. 15)</td></tr><tr><td><strong>Limites</strong></td><td>Não cabe para atos normativos, recursos e competência exclusiva</td><td>Excepcional, temporária e motivada</td></tr><tr><td><strong>Forma</strong></td><td>Publicada; revogável a qualquer tempo; a decisão se considera do delegado</td><td>Motivos relevantes justificados</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Vinculado x discricionário",
+      "o_que_e": "Na atuação vinculada, a lei fixa todos os elementos; na discricionária, deixa margem de conveniência e oportunidade.",
+      "atencao": "Hoje se fala em atuação vinculada ou discricionária, e não em poderes autônomos.",
+      "grupo": "Poderes"
+     },
+     {
+      "nome": "Hierárquico",
+      "o_que_e": "Ordenar, coordenar, controlar, corrigir, delegar e avocar dentro da mesma pessoa jurídica.",
+      "atencao": "Decorre da desconcentração. Não existe entre a direta e a indireta.",
+      "grupo": "Poderes"
+     },
+     {
+      "nome": "Disciplinar",
+      "o_que_e": "Apurar e punir faltas de servidores e de quem tem vínculo especial com a administração.",
+      "atencao": "Punir o contratado por inexecução é disciplinar; multar o cidadão em geral é polícia.",
+      "grupo": "Poderes"
+     },
+     {
+      "nome": "Ordem manifestamente ilegal",
+      "o_que_e": "O dever de obediência cede; o subordinado deve representar contra ela.",
+      "atencao": "Lei 8.112/1990, art. 116, IV e XII.",
+      "grupo": "Poderes"
+     },
+     {
+      "nome": "Excesso de poder",
+      "o_que_e": "O agente vai além da sua competência.",
+      "atencao": "Vício de competência; pode ser convalidado se a competência não for exclusiva.",
+      "grupo": "Abuso de poder"
+     },
+     {
+      "nome": "Desvio de finalidade",
+      "o_que_e": "O agente age dentro da competência, mas visa fim diverso do previsto em lei.",
+      "atencao": "Vício de finalidade, insanável, mesmo que o fim buscado seja outro interesse público.",
+      "grupo": "Abuso de poder"
+     },
+     {
+      "nome": "Omissão",
+      "o_que_e": "Deixar de agir quando a lei impõe também é abuso de poder.",
+      "grupo": "Abuso de poder"
+     },
+     {
+      "nome": "Responsabilidade",
+      "o_que_e": "O mesmo ato abusivo pode gerar responsabilidade administrativa, civil e penal, de forma independente.",
+      "grupo": "Abuso de poder"
+     },
+     {
+      "nome": "Judiciário e Legislativo",
+      "o_que_e": "Há hierarquia só no exercício da função administrativa.",
+      "atencao": "Não ao julgar nem ao legislar.",
+      "grupo": "Hierarquia fora do Executivo"
+     },
+     {
+      "nome": "Recurso hierárquico impróprio",
+      "o_que_e": "Dirigido a autoridade de outra pessoa jurídica ou sem relação hierárquica com quem decidiu.",
+      "atencao": "Só cabe quando a lei o prevê.",
+      "grupo": "Hierarquia fora do Executivo"
+     }
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 11. A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos.",
+     "norma": "n9784-1999",
+     "artigos": [
+      "Art. 11.",
+      "Art. 12.",
+      "Art. 13."
+     ],
+     "ref": "arts. 11 a 13 da Lei 9.784/1999",
+     "regras": [
+      "<strong>Art. 11.</strong> A competência é irrenunciável, salvo delegação e avocação legalmente admitidas.",
+      "<strong>Art. 12.</strong> O órgão pode delegar parte da competência, mesmo a órgão não subordinado, por razões técnicas, sociais, econômicas, jurídicas ou territoriais.",
+      "<strong>Art. 13.</strong> Não se delegam a edição de atos normativos, a decisão de recursos e as matérias de competência exclusiva."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria",
+       "marcas": [
+        "irrenunciável"
+       ],
+       "afirmacao": "A competência administrativa pode ser renunciada pelo titular do órgão, desde que motivadamente.",
+       "gabarito": "E",
+       "porque": "A competência é irrenunciável; admitem-se só a delegação e a avocação legalmente previstas (art. 11)."
+      },
+      {
+       "trecho": "ainda que estes não lhe sejam hierarquicamente subordinados",
+       "marcas": [
+        "não lhe sejam hierarquicamente subordinados"
+       ],
+       "afirmacao": "A delegação de competência só pode ser feita a órgão ou titular hierarquicamente subordinado ao delegante.",
+       "gabarito": "E",
+       "porque": "Pode ser feita ainda que o delegado não seja subordinado (art. 12)."
+      },
+      {
+       "trecho": "a decisão de recursos administrativos",
+       "marcas": [
+        "decisão de recursos"
+       ],
+       "afirmacao": "A decisão de recursos administrativos pode ser delegada, desde que o ato de delegação seja publicado.",
+       "gabarito": "E",
+       "porque": "A decisão de recursos administrativos não pode ser delegada (art. 13, II), assim como a edição de atos normativos e a matéria exclusiva."
+      }
+     ],
+     "conferido": {
+      "Art. 11.": "c3776f0bf23f",
+      "Art. 12.": "14f0d873bb15",
+      "Art. 13.": "63486c987df3"
+     },
      "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 12. Um órgão administrativo e seu titular poderão, se não houver impedimento legal, delegar parte da sua competência a outros órgãos ou titulares, ainda que estes não lhe sejam hierarquicamente subordinados, quando for conveniente, em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.\n\nParágrafo único. O disposto no caput deste artigo aplica-se à delegação de competência dos órgãos colegiados aos respectivos presidentes.",
+     "norma": "n9784-1999",
+     "artigos": [
+      "Art. 14.",
+      "Art. 15."
+     ],
+     "ref": "arts. 14 e 15 da Lei 9.784/1999",
+     "regras": [
+      "<strong>Art. 14.</strong> O ato de delegação e sua revogação são publicados; a delegação é revogável a qualquer tempo, e as decisões se consideram editadas pelo delegado.",
+      "<strong>Art. 15.</strong> A avocação é excepcional, temporária, por motivos relevantes justificados, e só de órgão hierarquicamente inferior."
+     ],
+     "literalidades": [
+      {
+       "trecho": "O ato de delegação é revogável a qualquer tempo pela autoridade delegante",
+       "marcas": [
+        "a qualquer tempo"
+       ],
+       "afirmacao": "O ato de delegação, depois de publicado, só pode ser revogado ao fim do prazo nele fixado.",
+       "gabarito": "E",
+       "porque": "A delegação é revogável a qualquer tempo pela autoridade delegante (art. 14, § 2º)."
+      },
+      {
+       "trecho": "As decisões adotadas por delegação devem mencionar explicitamente esta qualidade e considerar-se-ão editadas pelo delegado",
+       "marcas": [
+        "editadas pelo delegado"
+       ],
+       "afirmacao": "As decisões tomadas por delegação consideram-se editadas pela autoridade delegante, que responde por elas.",
+       "gabarito": "E",
+       "porque": "Consideram-se editadas pelo delegado (art. 14, § 3º). Por isso o mandado de segurança se dirige contra ele (Súmula 510 do STF)."
+      },
+      {
+       "trecho": "a avocação temporária de competência atribuída a órgão hierarquicamente inferior",
+       "marcas": [
+        "temporária",
+        "hierarquicamente inferior"
+       ],
+       "afirmacao": "A avocação de competência pode recair sobre órgão de mesma hierarquia e durar por tempo indeterminado.",
+       "gabarito": "E",
+       "porque": "A avocação é temporária e só alcança competência de órgão hierarquicamente inferior (art. 15)."
+      }
+     ],
+     "conferido": {
+      "Art. 14.": "28ebc996c9da",
+      "Art. 15.": "aec233a82f14"
+     },
      "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 510",
+     "texto": "Praticado o ato por autoridade, no exercício de competência delegada, contra ela cabe o mandado de segurança ou a medida judicial."
     },
     {
-     "texto": "Art. 13. Não podem ser objeto de delegação:\n\nI - a edição de atos de caráter normativo;\n\nII - a decisão de recursos administrativos;\n\nIII - as matérias de competência exclusiva do órgão ou autoridade.",
-     "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
-    },
-    {
-     "texto": "Art. 14. O ato de delegação e sua revogação deverão ser publicados no meio oficial.\n\n§ 1º O ato de delegação especificará as matérias e poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível, podendo conter ressalva de exercício da atribuição delegada.\n\n§ 2º O ato de delegação é revogável a qualquer tempo pela autoridade delegante.\n\n§ 3º As decisões adotadas por delegação devem mencionar explicitamente esta qualidade e considerar-se-ão editadas pelo delegado.",
-     "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
-    },
-    {
-     "texto": "Art. 15. Será permitida, em caráter excepcional e por motivos relevantes devidamente justificados, a avocação temporária de competência atribuída a órgão hierarquicamente inferior.",
-     "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "quem": "STJ · MS 21.991",
+     "texto": "O órgão cessionário pode instaurar processo disciplinar para apurar falta de servidor cedido, mas o julgamento e a eventual aplicação da sanção cabem ao órgão cedente, ao qual o servidor está vinculado."
     }
    ],
    "macetes": [
@@ -3724,36 +3898,74 @@
     },
     {
      "sigla": "AVOCAR É DE BAIXO PARA CIMA E POR POUCO TEMPO",
-     "texto": "Só se avoca de órgão hierarquicamente inferior e em caráter temporário. Avocação por tempo indeterminado está errada."
+     "texto": "Só se avoca de órgão inferior e temporariamente. Avocação por tempo indeterminado está errada."
+    },
+    {
+     "sigla": "EXCESSO PASSA DA COMPETÊNCIA; DESVIO ERRA O FIM",
+     "texto": "Excesso de poder é vício de competência. Desvio de finalidade é vício de finalidade."
     }
    ],
-   "juris": [
-    {
-     "quem": "STJ · MS 21.991",
-     "texto": "O órgão cessionário pode instaurar processo disciplinar para apurar falta de servidor cedido, mas o julgamento e a eventual aplicação da sanção cabem ao órgão cedente, ao qual o servidor está vinculado."
-    }
+   "detalhes": [
+    "O órgão colegiado pode delegar competência ao seu presidente (art. 12, parágrafo único).",
+    "O ato de delegação especifica as matérias, os limites, a duração, os objetivos e o recurso cabível, e pode ressalvar o exercício da atribuição pelo delegante (art. 14, § 1º).",
+    "O poder hierárquico é descrito como permanente, automático e irrestrito dentro da estrutura; dele não decorre punição de particulares sem vínculo.",
+    "A servidora cedida responde a processo instaurado pelo órgão cessionário, mas o julgamento cabe ao órgão cedente.",
+    "Editar atos normativos internos para ordenar a atuação dos subordinados é manifestação do poder hierárquico.",
+    "A punição pela verdade sabida, sem processo, é vedada, por ofender o contraditório e a ampla defesa, mesmo que a própria autoridade tenha presenciado a falta.",
+    "A licença para tratamento de saúde não impede a instauração do PAD nem a aplicação da pena de demissão (STJ, Jurisprudência em Teses, ed. 142).",
+    "As instâncias penal, civil e administrativa são independentes: a ação penal sobre os mesmos fatos não suspende o PAD. A exceção é a absolvição criminal que nega a existência do fato ou a autoria, que afasta a responsabilidade administrativa (art. 126 da Lei 8.112/1990).",
+    "As infrações disciplinares não têm a tipicidade estrita do direito penal; muitas usam conceitos abertos, como conduta escandalosa.",
+    "Entre a administração direta e a indireta não há hierarquia, só tutela (supervisão ministerial) nos limites da lei; o ministério supervisor não revê livremente os atos da autarquia.",
+    "Teoria da encampação no mandado de segurança: exige subordinação hierárquica entre a autoridade que prestou as informações e a que praticou o ato, discussão do mérito nas informações e ausência de modificação da competência (STJ, Jurisprudência em Teses, ed. 43)."
    ],
    "pegadinha": {
     "afirmacao": "Na delegação e na avocação de competência administrativa, é imprescindível a existência de vínculo formal de hierarquia entre os órgãos administrativos envolvidos.",
     "gabarito": "E",
     "explicacao": "A delegação pode ser feita a órgão que não seja hierarquicamente subordinado (art. 12). Só a avocação exige hierarquia (art. 15) (Cebraspe, Defensor DPE-RS 2021)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-PE 2024 (avocar e delegar são poder hierárquico; criar limitações administrativas é poder de polícia); Cebraspe, Delegado PC-MA 2018 (atos normativos internos para ordenar subordinados são poder hierárquico); Cebraspe, Delegado PC-RJ 2022 (servidora cedida: o cessionário instaura o PAD, o cedente julga); Cebraspe, Agente PC-DF 2020 e Auditor Sefaz-CE 2021 (punir servidor é poder disciplinar; limitar direitos em favor do interesse público é poder de polícia); Cebraspe, Analista MPCE 2025 (avocação não é por tempo indeterminado); Cebraspe, Analista TJ-ES 2023 (abuso de poder é gênero).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>Ao lado dos poderes, a doutrina lista deveres como o de agir, o de eficiência, o de probidade e o de prestar contas. O poder hierárquico decorre automaticamente da desconcentração e é descrito como permanente, automático e irrestrito; o dever de obediência cede diante de ordem manifestamente ilegal, contra a qual o subordinado deve representar. Dele não decorre punição de particulares: sancionar o contratado é poder disciplinar, e multar cidadãos em geral é poder de polícia.</p><p>No Judiciário e no Legislativo, a hierarquia existe só no exercício da função administrativa, e não ao julgar ou legislar. O recurso hierárquico impróprio, dirigido a autoridade de outra pessoa jurídica ou de órgão sem relação hierárquica com o que decidiu, só cabe quando a lei o prevê. O mesmo ato abusivo pode gerar, de forma independente, responsabilidade administrativa, civil e penal.</p>",
+   "pegadinhas": [
+    {
+     "errado": "A avocação pode ser por tempo indeterminado, se houver motivo relevante.",
+     "certo": "É sempre temporária e excepcional (art. 15).",
+     "fonte": "Cebraspe, Analista MPCE 2025"
+    },
+    {
+     "errado": "Aplicar multa ao particular sem vínculo com a administração é poder disciplinar.",
+     "certo": "É poder de polícia; o disciplinar alcança quem tem vínculo especial.",
+     "fonte": "Cebraspe, Agente PC-DF 2020"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Delegado PC-PE 2024 (avocar e delegar são poder hierárquico)",
+    "Cebraspe, Delegado PC-MA 2018 (atos normativos internos são poder hierárquico)",
+    "Cebraspe, Delegado PC-RJ 2022 (servidora cedida: o cessionário instaura, o cedente julga)",
+    "Cebraspe, Analista TJ-ES 2023 (abuso de poder é gênero)",
+    "Cebraspe, Defensor DPE-RS 2021 (delegação sem hierarquia)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Desconcentração:</strong> de onde nasce a hierarquia.",
+     "tema": "administracao-direta-e-indireta"
+    },
+    {
+     "texto": "<strong>PAD:</strong> como o poder disciplinar se exerce no processo.",
+     "tema": "processo-administrativo-disciplinar"
+    }
+   ],
    "relacionados": [
     "poder-regulamentar",
     "poder-de-policia",
-    "processo-administrativo-disciplinar"
+    "processo-administrativo-disciplinar",
+    "anulacao-revogacao-e-convalidacao"
    ]
   },
   {
    "slug": "poder-regulamentar",
    "titulo": "Poder regulamentar: decreto de execução, decreto autônomo e sustação",
    "grupo": "Poderes e atos administrativos",
-   "base": "Arts. 49, V, e 84, IV e VI, da CF",
+   "base": "Arts. 49, V, e 84, IV e VI, da Constituição",
    "tax": [
     "administrativo.poder-regulamentar",
-    "administrativo.poderes-administracao-publica",
     "administrativo.competencia-regulatoria"
    ],
    "dispositivos": [
@@ -3763,140 +3975,483 @@
    "conceitos": [
     "poder regulamentar",
     "poder normativo",
-    "decreto regulamentar",
+    "decreto de execução",
     "decreto autônomo",
-    "sustação de ato normativo"
+    "regulamento delegado",
+    "deslegalização",
+    "sustação",
+    "reserva legal",
+    "atos normativos secundários"
    ],
    "palavras": [
     "poder regulamentar",
     "poder normativo",
-    "decreto de execucao",
+    "decreto",
+    "regulamento",
     "fiel execucao",
     "decreto autonomo",
-    "ec 32",
-    "art 84 vi",
+    "emenda constitucional 32",
     "organizacao e funcionamento",
-    "sem aumento de despesa",
-    "extincao de cargos vagos",
-    "delegavel aos ministros",
-    "congresso susta",
-    "art 49 v",
-    "exorbitar",
+    "aumento de despesa",
+    "criacao ou extincao de orgaos",
+    "cargos vagos",
+    "delegar",
+    "ministros de estado",
+    "procurador-geral da republica",
+    "advogado-geral da uniao",
+    "sustar",
+    "exorbitem do poder regulamentar",
+    "congresso nacional",
+    "decreto legislativo",
     "resolucoes",
     "portarias",
     "instrucoes normativas",
     "agencias reguladoras",
-    "nao inova",
-    "reserva de lei"
+    "deslegalizacao",
+    "regulamento autorizado",
+    "inovar",
+    "controle judicial",
+    "adi"
    ],
-   "resumo": "O <strong>poder regulamentar</strong> é a competência do chefe do Executivo para expedir <strong>decretos e regulamentos para a fiel execução das leis</strong> (art. 84, IV). O regulamento de execução detalha a lei e não pode criar direitos ou obrigações novos nem contrariá-la. A CF admite, desde a EC 32/2001, o <strong>decreto autônomo</strong> em duas hipóteses: organização e funcionamento da administração federal, sem aumento de despesa nem criação ou extinção de órgãos, e extinção de funções ou cargos <strong>vagos</strong> (art. 84, VI). Essas matérias podem ser delegadas a Ministros, ao PGR e ao AGU. Em sentido amplo, o poder normativo inclui resoluções, portarias, instruções normativas e os atos das agências reguladoras, que também ficam abaixo da lei. Se o Executivo exorbita, o <strong>Congresso Nacional</strong> pode <strong>sustar</strong> o ato normativo (art. 49, V), sem prejuízo do controle judicial.",
+   "resumo": "O <strong>poder regulamentar</strong> é a competência do chefe do Executivo para expedir <strong>decretos e regulamentos para a fiel execução das leis</strong> (art. 84, IV). O regulamento de execução detalha a lei: <strong>não cria direitos nem obrigações novos</strong> e não a contraria. Desde a EC 32/2001, a Constituição admite o <strong>decreto autônomo</strong> em duas hipóteses: <strong>organização e funcionamento</strong> da administração federal, sem aumento de despesa nem criação ou extinção de órgãos, e <strong>extinção de funções ou cargos vagos</strong> (art. 84, VI). Essas matérias podem ser <strong>delegadas</strong> a Ministros, ao PGR e ao AGU; o decreto de execução, não. Em sentido amplo, o <strong>poder normativo</strong> inclui resoluções, portarias, instruções normativas e os atos das agências, sempre abaixo da lei. Se o Executivo exorbita, o <strong>Congresso Nacional</strong> pode <strong>sustar</strong> o ato normativo por decreto legislativo (art. 49, V), sem prejuízo do controle judicial.",
    "esquema": {
     "rotulo": "os dois tipos de decreto",
-    "html": "<table><thead><tr><th></th><th>Regulamentar (de execução)</th><th>Autônomo</th></tr></thead><tbody><tr><td><strong>Base</strong></td><td>Art. 84, IV</td><td>Art. 84, VI</td></tr><tr><td><strong>Função</strong></td><td>Detalhar a lei para sua fiel execução</td><td>Disciplinar direto matéria que a CF reservou ao decreto</td></tr><tr><td><strong>Matérias</strong></td><td>Qualquer lei que precise de regulamentação</td><td>Organização da administração sem despesa e sem criar ou extinguir órgão; extinção de cargo vago</td></tr><tr><td><strong>Delegação</strong></td><td>Não</td><td>Sim, a Ministros, PGR e AGU</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ponto</th><th>Regulamentar (de execução)</th><th>Autônomo</th></tr></thead><tbody><tr><td><strong>Base</strong></td><td>Art. 84, IV</td><td>Art. 84, VI</td></tr><tr><td><strong>Função</strong></td><td>Detalhar a lei para sua fiel execução</td><td>Disciplinar direto matéria que a Constituição reservou ao decreto</td></tr><tr><td><strong>Matérias</strong></td><td>Qualquer lei que precise de regulamentação</td><td>Organização da administração sem despesa e sem criar ou extinguir órgão; extinção de cargo vago</td></tr><tr><td><strong>Delegação</strong></td><td>Não</td><td>Sim, a Ministros, PGR e AGU</td></tr><tr><td><strong>Controle</strong></td><td>Sustação pelo Congresso e controle judicial de legalidade</td><td>Controle de constitucionalidade (é ato primário)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Regulamento de execução",
+      "o_que_e": "Detalha a lei; é ato secundário.",
+      "atencao": "Se contraria a lei, há ilegalidade, e não inconstitucionalidade direta.",
+      "grupo": "Espécies"
+     },
+     {
+      "nome": "Decreto autônomo",
+      "o_que_e": "Inova na ordem jurídica nas matérias do art. 84, VI.",
+      "atencao": "Ato primário: cabe controle concentrado de constitucionalidade.",
+      "grupo": "Espécies"
+     },
+     {
+      "nome": "Regulamento autorizado ou delegado",
+      "o_que_e": "Completa a lei por delegação do Legislativo.",
+      "atencao": "Não é aceito como regra no Brasil; admitem-se normas técnicas nos limites da lei.",
+      "grupo": "Espécies"
+     },
+     {
+      "nome": "Deslegalização",
+      "o_que_e": "A lei rebaixa o grau hierárquico de uma matéria e autoriza sua disciplina por ato infralegal técnico.",
+      "atencao": "Base do poder normativo das agências.",
+      "grupo": "Espécies"
+     },
+     {
+      "nome": "Decreto",
+      "o_que_e": "Forma do ato do chefe do Executivo.",
+      "atencao": "O poder normativo de outras autoridades usa resoluções, portarias e instruções normativas.",
+      "grupo": "Forma"
+     },
+     {
+      "nome": "Sustação",
+      "o_que_e": "O Congresso susta ato normativo que exorbite do poder regulamentar ou dos limites de delegação legislativa.",
+      "atencao": "Competência exclusiva, por decreto legislativo; controle político.",
+      "grupo": "Controle"
+     },
+     {
+      "nome": "Judiciário",
+      "o_que_e": "Pode afastar o regulamento ilegal no caso concreto ou declarar inconstitucional o decreto autônomo.",
+      "grupo": "Controle"
+     }
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 84. Compete privativamente ao Presidente da República:\n\n(...)\n\nIV - sancionar, promulgar e fazer publicar as leis, bem como expedir decretos e regulamentos para sua fiel execução;\n\nV - vetar projetos de lei, total ou parcialmente;\n\nVI - dispor, mediante decreto, sobre:\n\na) organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos;\n\nb) extinção de funções ou cargos públicos, quando vagos;\n\n(...)\n\nParágrafo único. O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União, que observarão os limites traçados nas respectivas delegações.",
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 84."
+     ],
+     "ref": "art. 84, IV e VI, e parágrafo único, da Constituição",
+     "regras": [
+      "<strong>Art. 84, IV.</strong> O Presidente expede decretos e regulamentos para a fiel execução das leis.",
+      "<strong>Art. 84, VI.</strong> Dispõe, por decreto, sobre organização e funcionamento da administração federal, sem aumento de despesa nem criação ou extinção de órgãos, e sobre extinção de funções ou cargos vagos.",
+      "<strong>Art. 84, parágrafo único.</strong> Pode delegar o inciso VI a Ministros, ao PGR e ao AGU."
+     ],
+     "literalidades": [
+      {
+       "trecho": "expedir decretos e regulamentos para sua fiel execução",
+       "marcas": [
+        "fiel execução"
+       ],
+       "afirmacao": "O regulamento de execução pode criar obrigações não previstas em lei, desde que necessárias à aplicação da norma regulamentada.",
+       "gabarito": "E",
+       "porque": "O regulamento existe para a fiel execução da lei (art. 84, IV) e não cria obrigações novas."
+      },
+      {
+       "trecho": "organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos",
+       "marcas": [
+        "aumento de despesa",
+        "criação ou extinção de órgãos públicos"
+       ],
+       "afirmacao": "O Presidente pode, por decreto autônomo, criar órgãos públicos, desde que sem aumento de despesa.",
+       "gabarito": "E",
+       "porque": "O decreto do art. 84, VI, a, não pode implicar aumento de despesa nem criação ou extinção de órgãos."
+      },
+      {
+       "trecho": "extinção de funções ou cargos públicos, quando vagos",
+       "marcas": [
+        "quando vagos"
+       ],
+       "afirmacao": "O Presidente pode extinguir por decreto cargos públicos ocupados, colocando os servidores estáveis em disponibilidade.",
+       "gabarito": "E",
+       "porque": "Por decreto só se extinguem funções ou cargos vagos (art. 84, VI, b). Cargo ocupado só se extingue por lei."
+      },
+      {
+       "trecho": "O Presidente da República poderá delegar as atribuições mencionadas nos incisos VI, XII e XXV, primeira parte, aos Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União",
+       "marcas": [
+        "incisos VI, XII e XXV"
+       ],
+       "afirmacao": "A competência para dispor, por decreto, sobre a organização da administração federal pode ser delegada aos Ministros de Estado.",
+       "gabarito": "C",
+       "porque": "É o art. 84, parágrafo único, que menciona o inciso VI."
+      }
+     ],
+     "conferido": {
+      "Art. 84.": "2207a8c64205"
+     },
      "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-     "norma": "nCF-1988"
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 49. É da competência exclusiva do Congresso Nacional:\n\n(...)\n\nV - sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa;\n\n(...)",
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 49."
+     ],
+     "ref": "art. 49, V, da Constituição",
+     "regras": [
+      "<strong>Art. 49, V.</strong> O Congresso Nacional susta os atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa."
+     ],
+     "literalidades": [
+      {
+       "trecho": "sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa",
+       "marcas": [
+        "sustar"
+       ],
+       "afirmacao": "O Senado Federal tem competência privativa para sustar os atos normativos do Executivo que exorbitem do poder regulamentar.",
+       "gabarito": "E",
+       "porque": "A competência é exclusiva do Congresso Nacional (art. 49, V)."
+      }
+     ],
+     "conferido": {
+      "Art. 49.": "5d2ec3e80219"
+     },
      "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-     "norma": "nCF-1988"
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADI 4.874",
+     "texto": "A competência normativa das agências reguladoras é técnica e se exerce nos limites fixados em lei; a Anvisa pode restringir aditivos em cigarros."
+    },
+    {
+     "quem": "STF · controle do decreto",
+     "texto": "Decreto que só regulamenta a lei não se submete, em regra, a ação direta: o confronto é de legalidade. O decreto autônomo, ato primário, admite controle concentrado."
     }
    ],
    "macetes": [
     {
      "sigla": "AUTÔNOMO: ORGANIZA E EXTINGUE VAGO",
-     "texto": "Decreto autônomo só serve para organizar a administração sem gasto e sem criar ou extinguir órgão, e para extinguir cargo vago. Cargo ocupado só se extingue por lei."
+     "texto": "Decreto autônomo só organiza a administração sem gasto e sem criar ou extinguir órgão, e extingue cargo vago."
     },
     {
      "sigla": "QUEM SUSTA É O CONGRESSO",
-     "texto": "A sustação do ato que exorbita o poder regulamentar é competência exclusiva do Congresso Nacional, e não do Senado nem do Presidente."
+     "texto": "Nem o Senado sozinho, nem o Presidente ouvida a AGU."
+    },
+    {
+     "sigla": "SÓ O VI SE DELEGA",
+     "texto": "O decreto autônomo pode ser delegado; o regulamento de execução (inciso IV), não."
     }
+   ],
+   "detalhes": [
+    "O poder regulamentar não se formaliza só por decreto: resoluções, portarias e instruções normativas também são atos normativos da administração.",
+    "A sustação pelo Congresso é controle legislativo de viés político, feito por decreto legislativo.",
+    "O abuso do poder regulamentar sujeita o ato tanto à sustação pelo Congresso quanto ao controle judicial.",
+    "Regulamento não pode exigir requisito para concurso que a lei não prevê.",
+    "Decreto estadual que cria, na Polícia Civil, núcleos de conciliação de infrações de menor potencial ofensivo só organiza unidades administrativas, no exercício do poder regulamentar; não cria rito nem altera a Lei 9.099/1995 (STF).",
+    "Na ADC 85, o STF declarou constitucionais os Decretos 11.366/2023 e 11.615/2023, que restringiram o acesso a armas e munições dentro dos limites do Estatuto do Desarmamento.",
+    "O STF reconhece a competência normativa técnica da ANVISA, observados os limites da lei (ADI 4.874).",
+    "Os Conselhos de Medicina podem fiscalizar aspectos éticos e técnicos do ato médico de estudantes, mas não podem, por resolução, interferir na organização pedagógica das escolas nem criar sanções sem lei (STF).",
+    "É inválida a deliberação de junta comercial que, a pretexto de regulamentar, cria obrigação de publicar demonstrações financeiras sem previsão legal e a exige para arquivar atos societários (STJ): o ato inova na ordem jurídica."
    ],
    "pegadinha": {
     "afirmacao": "O Senado Federal possui competência exclusiva para sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar.",
     "gabarito": "E",
     "explicacao": "A competência é do Congresso Nacional (art. 49, V) (Cebraspe, Administrativo PF 2025)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Auditor Sefaz-CE 2021 e TC-DF 2023 (o abuso do poder regulamentar sujeita o ato ao controle judicial e à sustação pelo Congresso, e não pelo Presidente ouvida a AGU); Cebraspe, Analista STM 2025 (a sustação é controle legislativo de viés político); Cebraspe, Analista STJ 2024 (o poder regulamentar não se formaliza só por decreto).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O poder normativo das agências reguladoras é técnico e subordinado à lei: elas não podem inovar contra a lei nem criar obrigações sem base legal. Na ADI 4874, o STF reconheceu a competência normativa da Anvisa para editar normas técnicas, nos limites fixados em lei. A deslegalização ocorre quando a lei rebaixa o grau hierárquico de certa matéria e autoriza sua disciplina por atos infralegais de caráter técnico.</p><p><strong>Distinções</strong></p><p>O regulamento delegado ou autorizado, que completa a lei por delegação do Legislativo, não é aceito como regra no Brasil; admite-se apenas a fixação de normas técnicas por entidades especializadas, nos limites da lei.</p>",
+   "pegadinhas": [
+    {
+     "errado": "O ato que exorbita do poder regulamentar é sustado pelo Presidente da República, ouvida a AGU.",
+     "certo": "A sustação é do Congresso Nacional, além do controle judicial.",
+     "fonte": "Cebraspe, Auditor Sefaz-CE 2021"
+    },
+    {
+     "errado": "O poder regulamentar se formaliza exclusivamente por decreto.",
+     "certo": "Também por resoluções, portarias e instruções normativas.",
+     "fonte": "Cebraspe, Analista STJ 2024"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Auditor Sefaz-CE 2021 e TC-DF 2023 (sustação pelo Congresso e controle judicial)",
+    "Cebraspe, Analista STM 2025 (sustação como controle legislativo)",
+    "Cebraspe, Analista STJ 2024 (o poder regulamentar não se formaliza só por decreto)",
+    "Cebraspe, Administrativo PF 2025 (quem susta é o Congresso)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Agências reguladoras:</strong> o poder normativo técnico e seus limites.",
+     "tema": "agencias-reguladoras"
+    }
+   ],
    "relacionados": [
     "poderes-administrativos",
-    "autarquias-agencias-e-fundacoes",
-    "controle-da-administracao"
+    "agencias-reguladoras",
+    "poder-executivo-e-presidente",
+    "congresso-nacional-composicao-e-competencias"
    ]
   },
   {
    "slug": "poder-de-policia",
-   "titulo": "Poder de polícia: conceito, atributos, ciclo e delegação",
+   "titulo": "Poder de polícia: conceito, atributos, ciclo, delegação e prescrição",
    "grupo": "Poderes e atos administrativos",
-   "base": "Art. 78 do Código Tributário Nacional e Súmula Vinculante 38",
+   "base": "Art. 78 do Código Tributário Nacional; Lei 9.873/1999",
    "tax": [
     "administrativo.poder-policia",
     "administrativo.liberdades-publicas-poder-policia"
    ],
    "dispositivos": [
-    "n5172-1966-art-78"
+    "n5172-1966-art-78",
+    "n9873-1999-art-1",
+    "n9873-1999-art-1-a",
+    "n9873-1999-art-2",
+    "n9873-1999-art-2-a",
+    "n9873-1999-art-3",
+    "n9873-1999-art-4",
+    "n9873-1999-art-5",
+    "n9873-1999-art-6",
+    "n9873-1999-art-7",
+    "n9873-1999-art-8"
    ],
    "conceitos": [
     "poder de polícia",
     "polícia administrativa",
     "polícia judiciária",
+    "supremacia geral",
+    "discricionariedade",
+    "autoexecutoriedade",
+    "exigibilidade",
+    "executoriedade",
+    "coercibilidade",
     "ciclo de polícia",
-    "atributos do poder de polícia"
+    "ordem",
+    "consentimento",
+    "fiscalização",
+    "sanção",
+    "delegação",
+    "prescrição da ação punitiva",
+    "prescrição intercorrente",
+    "taxa de polícia"
    ],
    "palavras": [
     "poder de policia",
-    "art 78 ctn",
+    "ctn",
+    "art. 78",
     "limitando ou disciplinando",
+    "direito interesse ou liberdade",
+    "interesse publico",
+    "seguranca",
+    "higiene",
+    "ordem",
+    "costumes",
     "policia administrativa",
     "policia judiciaria",
-    "preventivo",
-    "repressivo",
+    "preventiva",
+    "repressiva",
+    "bens direitos atividades",
+    "pessoas",
+    "flagrante",
     "discricionariedade",
+    "licenca",
     "autoexecutoriedade",
+    "exigibilidade",
+    "executoriedade",
     "coercibilidade",
-    "ciclo de policia",
-    "ordem",
+    "ciclo",
+    "ordem de policia",
     "consentimento",
     "fiscalizacao",
     "sancao",
     "tema 532",
-    "delegacao a estatal",
-    "taxa de policia",
-    "horario do comercio",
+    "delegacao",
+    "capital majoritariamente publico",
+    "regime nao concorrencial",
+    "taxa",
+    "exercicio efetivo",
+    "lei 9.873",
+    "cinco anos",
+    "infracao permanente",
+    "tres anos",
+    "intercorrente",
+    "crime",
+    "lei penal",
+    "multa",
+    "divida ativa",
+    "execucao fiscal",
+    "interdicao",
+    "sumula 127",
     "sumula vinculante 38",
-    "licenca",
-    "alvara",
-    "prescricao lei 9873",
-    "cinco anos"
+    "guarda municipal",
+    "transito"
    ],
-   "resumo": "O CTN define <strong>poder de polícia</strong> como a atividade que, <strong>limitando ou disciplinando</strong> direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão do interesse público (art. 78). A <strong>polícia administrativa</strong> incide sobre bens, direitos e atividades, em regra de forma preventiva, e é exercida por vários órgãos (vigilância sanitária, trânsito, meio ambiente). A <strong>polícia judiciária</strong> incide sobre pessoas e prepara a persecução penal. Atributos clássicos: <strong>discricionariedade</strong> (nem sempre, pois a licença é vinculada), <strong>autoexecutoriedade</strong> (age sem ordem judicial) e <strong>coercibilidade</strong>. O ciclo tem quatro fases: <strong>ordem</strong>, <strong>consentimento</strong>, <strong>fiscalização</strong> e <strong>sanção</strong>. O STF admite delegar consentimento, fiscalização e sanção a estatal de direito privado, de capital majoritariamente público, que preste serviço público próprio em regime não concorrencial; a ordem, por ser lei, é indelegável (Tema 532).",
+   "resumo": "O CTN define <strong>poder de polícia</strong> como a atividade que, <strong>limitando ou disciplinando direito, interesse ou liberdade</strong>, regula a prática de ato ou abstenção de fato em razão do interesse público (art. 78). Funda-se na <strong>supremacia geral</strong> do Estado sobre todos, sem vínculo especial. A <strong>polícia administrativa</strong> incide sobre bens, direitos e atividades, em regra de forma preventiva, e é exercida por vários órgãos; a <strong>polícia judiciária</strong> incide sobre pessoas e prepara a persecução penal. Atributos: <strong>discricionariedade</strong> (nem sempre: a licença é vinculada), <strong>autoexecutoriedade</strong> e <strong>coercibilidade</strong>. O ciclo tem quatro fases: <strong>ordem, consentimento, fiscalização e sanção</strong>. O STF admite delegar consentimento, fiscalização e sanção a estatal de capital majoritariamente público que preste serviço público próprio em regime não concorrencial; a <strong>ordem</strong> é indelegável (Tema 532). Na esfera federal, a ação punitiva prescreve em <strong>cinco anos</strong>, e há prescrição intercorrente se o processo fica parado por <strong>mais de três anos</strong> (Lei 9.873/1999).",
    "esquema": {
     "rotulo": "o ciclo de polícia",
     "html": "<table><thead><tr><th>Fase</th><th>O que é</th><th>Delegável a estatal (Tema 532)?</th></tr></thead><tbody><tr><td><strong>Ordem</strong></td><td>A norma que limita (lei e regulamento)</td><td>Não</td></tr><tr><td><strong>Consentimento</strong></td><td>Licença ou autorização para exercer a atividade</td><td>Sim</td></tr><tr><td><strong>Fiscalização</strong></td><td>Verificar o cumprimento</td><td>Sim</td></tr><tr><td><strong>Sanção</strong></td><td>Multa, interdição, apreensão</td><td>Sim</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Discricionariedade",
+      "o_que_e": "Margem para escolher meios e momento.",
+      "atencao": "Nem todo ato de polícia é discricionário: a licença é vinculada.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Autoexecutoriedade",
+      "o_que_e": "A administração executa sem ordem judicial.",
+      "atencao": "Divide-se em exigibilidade (meios indiretos, como a multa) e executoriedade (meios diretos, como a demolição).",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Coercibilidade",
+      "o_que_e": "O ato se impõe ao particular, inclusive com uso da força proporcional.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Multa",
+      "o_que_e": "Não é autoexecutória: se não paga, vai para dívida ativa e execução fiscal.",
+      "atencao": "A administração não se apropria de valores da conta do particular.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Administrativa",
+      "o_que_e": "Sobre bens, direitos e atividades; em regra preventiva; regida pelo direito administrativo.",
+      "atencao": "Vigilância sanitária, trânsito, meio ambiente. Delegados também a exercem.",
+      "grupo": "Polícia administrativa x judiciária"
+     },
+     {
+      "nome": "Judiciária",
+      "o_que_e": "Sobre pessoas; repressiva; prepara a persecução penal.",
+      "atencao": "Prender em flagrante não é polícia administrativa.",
+      "grupo": "Polícia administrativa x judiciária"
+     },
+     {
+      "nome": "Ação punitiva",
+      "o_que_e": "Cinco anos da prática do ato; na infração permanente ou continuada, do dia em que cessou.",
+      "atencao": "Se o fato for também crime, vale o prazo da lei penal.",
+      "grupo": "Prescrição (Lei 9.873/1999)"
+     },
+     {
+      "nome": "Intercorrente",
+      "o_que_e": "Processo parado por mais de três anos, pendente de julgamento ou despacho.",
+      "atencao": "Arquivado de ofício ou a pedido.",
+      "grupo": "Prescrição (Lei 9.873/1999)"
+     },
+     {
+      "nome": "Execução da multa",
+      "o_que_e": "Cinco anos depois de constituído definitivamente o crédito.",
+      "atencao": "Art. 1º-A.",
+      "grupo": "Prescrição (Lei 9.873/1999)"
+     },
+     {
+      "nome": "Taxa de polícia",
+      "o_que_e": "O exercício do poder de polícia é fato gerador de taxa.",
+      "atencao": "Só se cobra pelo exercício efetivo ou pela existência de órgão estruturado para fiscalizar.",
+      "grupo": "Taxa"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 78. Considera-se poder de polícia atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente à segurança, à higiene, à ordem, aos costumes, à disciplina da produção e do mercado, ao exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, à tranqüilidade pública ou ao respeito à propriedade e aos direitos individuais ou coletivos.\n\nParágrafo único. Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente nos limites da lei aplicável, com observância do processo legal e, tratando-se de atividade que a lei tenha como discricionária, sem abuso ou desvio de poder.",
+     "norma": "n5172-1966",
+     "artigos": [
+      "Art. 78."
+     ],
+     "ref": "art. 78 do Código Tributário Nacional",
+     "regras": [
+      "<strong>Art. 78.</strong> Poder de polícia é a atividade que, limitando ou disciplinando direito, interesse ou liberdade, regula ato ou abstenção em razão do interesse público. É regular quando exercido pelo órgão competente, nos limites da lei, com processo legal e sem abuso ou desvio de poder."
+     ],
+     "literalidades": [
+      {
+       "trecho": "limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato",
+       "marcas": [
+        "limitando ou disciplinando"
+       ],
+       "afirmacao": "Pelo conceito do CTN, o poder de polícia regula a prática de ato ou abstenção de fato, limitando ou disciplinando direito, interesse ou liberdade, em razão do interesse público.",
+       "gabarito": "C",
+       "porque": "É o art. 78, caput."
+      },
+      {
+       "trecho": "Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente nos limites da lei aplicável, com observância do processo legal",
+       "marcas": [
+        "órgão competente",
+        "processo legal"
+       ],
+       "afirmacao": "O exercício do poder de polícia é regular sempre que atender ao interesse público, ainda que praticado por órgão incompetente.",
+       "gabarito": "E",
+       "porque": "Exige-se órgão competente, limites da lei, processo legal e, na atividade discricionária, ausência de abuso ou desvio (art. 78, parágrafo único)."
+      }
+     ],
+     "conferido": {
+      "Art. 78.": "93fcdc8c59ad"
+     },
      "fonte": "Lei 5.172/1966 (Código Tributário Nacional), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html",
-     "norma": "n5172-1966"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "ADMINISTRATIVA NOS BENS, JUDICIÁRIA NAS PESSOAS",
-     "texto": "Polícia administrativa atua sobre atividades e bens, em regra preventiva. Polícia judiciária atua sobre pessoas, para apurar crimes. Prender em flagrante é polícia judiciária."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5172-25-outubro-1966-358971-normaatualizada-pl.html"
     },
     {
-     "sigla": "SÓ A ORDEM FICA COM O ESTADO",
-     "texto": "Das quatro fases, só a ordem é indelegável. Questão que diz que a sanção é a fase indelegável está errada."
+     "norma": "n9873-1999",
+     "artigos": [
+      "Art. 1º."
+     ],
+     "ref": "art. 1º da Lei 9.873/1999",
+     "regras": [
+      "<strong>Art. 1º.</strong> A ação punitiva da administração federal no exercício do poder de polícia prescreve em cinco anos da prática do ato ou, na infração permanente ou continuada, do dia em que cessou. O processo parado por mais de três anos prescreve."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Prescreve em cinco anos a ação punitiva da Administração Pública Federal, direta e indireta, no exercício do poder de polícia",
+       "marcas": [
+        "cinco anos"
+       ],
+       "afirmacao": "A ação punitiva da administração federal no exercício do poder de polícia prescreve em dez anos.",
+       "gabarito": "E",
+       "porque": "Prescreve em cinco anos (art. 1º)."
+      },
+      {
+       "trecho": "Incide a prescrição no procedimento administrativo paralisado por mais de três anos, pendente de julgamento ou despacho",
+       "marcas": [
+        "mais de três anos"
+       ],
+       "afirmacao": "Incide a prescrição intercorrente no procedimento administrativo paralisado por mais de três anos, pendente de julgamento ou despacho.",
+       "gabarito": "C",
+       "porque": "É o art. 1º, § 1º."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "0fc118e34cdd"
+     },
+     "fonte": "Lei 9.873/1999 (prescrição da ação punitiva da administração federal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9873-23-novembro-1999-369707-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -3907,32 +4462,375 @@
     {
      "quem": "STF · Súmula Vinculante 38",
      "texto": "É competente o Município para fixar o horário de funcionamento de estabelecimento comercial."
+    },
+    {
+     "quem": "STJ · Súmula 127",
+     "texto": "É ilegal condicionar a renovação da licença de veículo ao pagamento de multa, da qual o infrator não foi notificado."
+    },
+    {
+     "quem": "STF · RE 658.570 (Tema 472)",
+     "texto": "É constitucional a atribuição às guardas municipais do exercício de poder de polícia de trânsito, inclusive para imposição de sanções administrativas legalmente previstas."
     }
+   ],
+   "macetes": [
+    {
+     "sigla": "ADMINISTRATIVA NOS BENS, JUDICIÁRIA NAS PESSOAS",
+     "texto": "Polícia administrativa atua sobre atividades e bens; a judiciária, sobre pessoas, para apurar crimes."
+    },
+    {
+     "sigla": "SÓ A ORDEM FICA COM O ESTADO",
+     "texto": "Das quatro fases, só a ordem é indelegável."
+    },
+    {
+     "sigla": "5 ANOS PARA PUNIR, 3 PARADO PRESCREVE",
+     "texto": "Lei 9.873/1999: cinco anos para a ação punitiva; mais de três anos parado gera prescrição intercorrente."
+    }
+   ],
+   "detalhes": [
+    "O poder de polícia alcança os particulares em geral pela supremacia geral do Estado; o poder disciplinar exige vínculo especial.",
+    "Limitações gerais de polícia, por atingirem todos igualmente, em regra não geram indenização.",
+    "Diante de risco grave e imediato, a interdição pode ser executada pela própria administração, com contraditório diferido.",
+    "A prescrição da ação punitiva se interrompe pela notificação do acusado, por ato inequívoco de apuração do fato, pela decisão condenatória recorrível e por tentativa de conciliação (Lei 9.873/1999, art. 2º).",
+    "Não só as polícias exercem poder de polícia: municípios, agências e conselhos profissionais também o exercem.",
+    "Fixar multa administrativa em múltiplos do salário mínimo não viola a vedação de vinculação do art. 7º, IV, da Constituição (STF).",
+    "O alienante que não comunica a venda ao órgão de trânsito, na forma e no prazo do art. 134 do CTB, responde solidariamente pelas penalidades das infrações cometidas desde a venda até a comunicação (STJ, Tema 1324).",
+    "A Lei 5.991/1973 exige a presença física e contínua do farmacêutico durante todo o horário de funcionamento; o atendimento remoto em plantão não supre a exigência (STJ).",
+    "É ilegal a apreensão do CRLV quando a lei não comina essa penalidade em abstrato: a medida sem previsão legal é excesso de poder (STJ, Jurisprudência em Teses, ed. 112).",
+    "O PROCON tem poder de polícia para impor sanções administrativas por violação às normas do CDC (art. 57 do CDC; STJ).",
+    "Poder agir com base no próprio poder de polícia não retira da administração o interesse de agir em juízo, pela inafastabilidade do controle jurisdicional (STJ).",
+    "O pagamento da multa de trânsito não impede a discussão judicial do débito (Súmula 434 do STJ).",
+    "A liberação do veículo retido só por transporte irregular de passageiros não depende do pagamento de multas e despesas (Súmula 510 do STJ)."
    ],
    "pegadinha": {
     "afirmacao": "Segundo a jurisprudência do STF, o poder de polícia fragmenta-se em cinco etapas: ordem, consentimento, fiscalização, apuração e sanção, sendo somente a última impassível de delegação a pessoa jurídica de direito privado.",
     "gabarito": "E",
     "explicacao": "São quatro fases, e a indelegável é a ordem, não a sanção (Cebraspe, Analista STM 2025)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-SE 2018 (discricionariedade, autoexecutoriedade e coercibilidade; caráter preventivo); Cebraspe, Polícia Científica AL 2022 (há atos de polícia vinculados, como a licença; polícia administrativa e judiciária não são equivalentes); Cebraspe, Delegado PC-ES 2022 (o Município fixa o horário do comércio, sem autorização judicial, e não só as polícias exercem poder de polícia); Cebraspe, Delegado PC-RJ 2022 (delegados também exercem polícia administrativa); Cebraspe, Policial Penal AL 2021 (prender em flagrante não é polícia administrativa).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O conceito legal está no CTN porque o exercício do poder de polícia é fato gerador de taxa, que só se cobra pelo exercício efetivo, e não pela mera disponibilidade. O poder de polícia alcança os particulares em geral, pela supremacia geral do Estado, sem exigir vínculo especial; é aí que se diferencia do poder disciplinar. As limitações gerais, por atingirem todos de modo igual, em regra não geram indenização.</p><p>Na esfera federal (Lei 9.873/1999), a ação punitiva prescreve em 5 anos da prática do ato ou, na infração permanente ou continuada, do dia em que cessou; se o fato também for crime, vale o prazo da lei penal. Há prescrição intercorrente quando o procedimento fica parado por mais de 3 anos.</p><p><strong>Multa não é autoexecutória.</strong> Diante de risco grave e imediato, a interdição pode ser executada pela própria Administração. A multa, não: se o particular não paga, ela é inscrita em dívida ativa e cobrada em execução fiscal (Lei 6.830/1980, art. 2º), sem apropriação direta de valores da conta dele.</p><p><strong>Jurisprudência além da básica</strong></p><p>Lei municipal não pode impedir a instalação de estabelecimentos do mesmo ramo em determinada área (Súmula Vinculante 49). É ilegal condicionar a renovação da licença de veículo ao pagamento de multa da qual o infrator não foi notificado (Súmula 127 do STJ).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Todo ato de polícia é discricionário.",
+     "certo": "Há atos vinculados, como a licença.",
+     "fonte": "Cebraspe, Polícia Científica AL 2022"
+    },
+    {
+     "errado": "Prender em flagrante é ato de polícia administrativa.",
+     "certo": "É ato de polícia judiciária.",
+     "fonte": "Cebraspe, Policial Penal AL 2021"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Delegado PC-SE 2018 (discricionariedade, autoexecutoriedade e coercibilidade; caráter preventivo)",
+    "Cebraspe, Polícia Científica AL 2022 (licença vinculada; polícia administrativa e judiciária)",
+    "Cebraspe, Delegado PC-ES 2022 (o município fixa o horário do comércio)",
+    "Cebraspe, Delegado PC-RJ 2022 (delegados também exercem polícia administrativa)",
+    "Cebraspe, Analista STM 2025 (ciclo de polícia e Tema 532)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Estatais:</strong> quais delas podem receber o poder de polícia.",
+     "tema": "empresas-estatais"
+    },
+    {
+     "texto": "<strong>Liberdade econômica:</strong> os limites que a Lei 13.874/2019 impõe ao poder de polícia.",
+     "tema": "liberdade-economica-e-atos-de-liberacao"
+    }
+   ],
    "relacionados": [
     "poderes-administrativos",
+    "liberdade-economica-e-atos-de-liberacao",
     "empresas-estatais",
-    "classificacao-e-especies-de-atos"
+    "tributo-e-especies"
+   ]
+  },
+  {
+   "slug": "liberdade-economica-e-atos-de-liberacao",
+   "titulo": "Lei de Liberdade Econômica: atos públicos de liberação, aprovação tácita e abuso do poder regulatório",
+   "grupo": "Poderes e atos administrativos",
+   "base": "Arts. 1º a 4º da Lei 13.874/2019; arts. 170, parágrafo único, e 174 da Constituição",
+   "tax": [],
+   "dispositivos": [
+    "n13874-2019-art-1",
+    "n13874-2019-art-2",
+    "n13874-2019-art-3",
+    "n13874-2019-art-4"
+   ],
+   "conceitos": [
+    "Declaração de Direitos de Liberdade Econômica",
+    "ato público de liberação",
+    "atividade de baixo risco",
+    "aprovação tácita",
+    "presunção de boa-fé",
+    "vulnerabilidade do particular",
+    "intervenção subsidiária",
+    "abuso do poder regulatório",
+    "isonomia nas decisões de liberação"
+   ],
+   "palavras": [
+    "liberdade economica",
+    "lei 13.874",
+    "declaracao de direitos",
+    "livre iniciativa",
+    "ato publico de liberacao",
+    "licenca",
+    "autorizacao",
+    "alvara",
+    "baixo risco",
+    "sem necessidade de atos publicos",
+    "qualquer horario",
+    "feriados",
+    "preco livre",
+    "mercados nao regulados",
+    "tratamento isonomico",
+    "decisoes administrativas analogas",
+    "presuncao de boa-fe",
+    "novas modalidades",
+    "aprovacao tacita",
+    "silencio",
+    "prazo maximo",
+    "documento digital",
+    "microfilme",
+    "medida compensatoria abusiva",
+    "certidao sem previsao",
+    "abuso do poder regulatorio",
+    "reserva de mercado",
+    "novos competidores",
+    "especificacao tecnica",
+    "custos de transacao",
+    "demanda artificial",
+    "inovacao",
+    "publicidade",
+    "principios",
+    "vulnerabilidade do particular",
+    "intervencao subsidiaria",
+    "direito tributario",
+    "norma geral de direito economico",
+    "estados e municipios"
+   ],
+   "resumo": "A <strong>Lei 13.874/2019</strong> instituiu a <strong>Declaração de Direitos de Liberdade Econômica</strong> e limita o Estado como agente normativo e regulador. Seus princípios são a liberdade como garantia, a <strong>boa-fé do particular</strong>, a <strong>intervenção subsidiária e excepcional</strong> do Estado e o reconhecimento da <strong>vulnerabilidade do particular</strong> perante o Estado. <strong>Atos públicos de liberação</strong> são licença, autorização, alvará, inscrição, registro e qualquer ato exigido como condição para exercer atividade econômica. Toda pessoa tem direito, entre outros, a exercer <strong>atividade de baixo risco</strong> sem ato de liberação, a funcionar em <strong>qualquer horário</strong>, inclusive feriados, observadas as normas ambientais, de vizinhança e trabalhistas, a <strong>tratamento isonômico</strong> nas decisões de liberação e à <strong>aprovação tácita</strong>: apresentados todos os elementos, o silêncio da autoridade após o prazo máximo importa aprovação, salvo vedação legal. A administração deve evitar o <strong>abuso do poder regulatório</strong>, como criar reserva de mercado ou exigir especificação técnica desnecessária. A lei não se aplica ao direito tributário e financeiro, salvo o arquivamento digital.",
+   "esquema": {
+    "rotulo": "o que a lei garante ao particular (art. 3º)",
+    "html": "<table><thead><tr><th>Direito</th><th>Como cai</th></tr></thead><tbody><tr><td><strong>Atividade de baixo risco</strong></td><td>Sem nenhum ato público de liberação, se usar propriedade própria ou de terceiro consensual</td></tr><tr><td><strong>Horário livre</strong></td><td>Qualquer dia e horário, inclusive feriados, sem encargo adicional; respeitadas normas ambientais, de vizinhança e trabalhistas</td></tr><tr><td><strong>Preço livre</strong></td><td>Em mercados não regulados</td></tr><tr><td><strong>Isonomia</strong></td><td>O ato de liberação segue os critérios de decisões análogas anteriores</td></tr><tr><td><strong>Boa-fé</strong></td><td>Dúvidas de interpretação resolvidas a favor da autonomia privada</td></tr><tr><td><strong>Aprovação tácita</strong></td><td>Silêncio após o prazo máximo, com o pedido completo, vale aprovação, salvo vedação legal</td></tr><tr><td><strong>Documento digital</strong></td><td>Arquivo digital ou microfilme equivale ao físico</td></tr><tr><td><strong>Certidão</strong></td><td>Não se exige certidão sem previsão expressa em lei</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Norma geral de direito econômico",
+      "o_que_e": "Os arts. 1º a 4º valem para os atos de liberação de estados, DF e municípios.",
+      "atencao": "A aprovação tácita (art. 3º, IX) só os alcança se o ato vier de lei federal ou se o ente aderir.",
+      "grupo": "Âmbito"
+     },
+     {
+      "nome": "Fora da lei",
+      "o_que_e": "Direito tributário e financeiro.",
+      "atencao": "Exceto o inciso X do art. 3º (arquivamento digital).",
+      "grupo": "Âmbito"
+     },
+     {
+      "nome": "Interpretação",
+      "o_que_e": "Normas de ordenação pública sobre atividade privada se interpretam a favor da liberdade econômica, da boa-fé e do respeito aos contratos.",
+      "atencao": "Art. 1º, § 2º.",
+      "grupo": "Âmbito"
+     },
+     {
+      "nome": "Vulnerabilidade do particular",
+      "o_que_e": "Reconhecida perante o Estado.",
+      "atencao": "Afastável por regulamento só em casos de má-fé, hipersuficiência ou reincidência.",
+      "grupo": "Princípios (art. 2º)"
+     },
+     {
+      "nome": "Condutas vedadas",
+      "o_que_e": "Criar reserva de mercado, impedir novos competidores, exigir especificação técnica desnecessária, aumentar custos sem benefício, criar demanda artificial e restringir publicidade sem lei federal.",
+      "atencao": "Ressalvado o estrito cumprimento de previsão explícita em lei.",
+      "grupo": "Abuso do poder regulatório (art. 4º)"
+     },
+     {
+      "nome": "Inovação",
+      "o_que_e": "Não se redigem normas que impeçam ou retardem a adoção de novas tecnologias e modelos de negócio.",
+      "atencao": "Ressalvadas as situações de alto risco definidas em regulamento.",
+      "grupo": "Abuso do poder regulatório (art. 4º)"
+     },
+     {
+      "nome": "Medida compensatória abusiva",
+      "o_que_e": "Não se exige contrapartida já planejada, sem relação com o impacto ou desproporcional.",
+      "atencao": "Art. 3º, XI.",
+      "grupo": "Urbanismo"
+     }
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n13874-2019",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º."
+     ],
+     "ref": "arts. 1º e 2º da Lei 13.874/2019",
+     "regras": [
+      "<strong>Art. 1º.</strong> Institui a Declaração de Direitos de Liberdade Econômica e define os atos públicos de liberação.",
+      "<strong>Art. 2º.</strong> Princípios: liberdade, boa-fé do particular, intervenção subsidiária e excepcional e vulnerabilidade do particular perante o Estado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a intervenção subsidiária e excepcional do Estado sobre o exercício de atividades econômicas",
+       "marcas": [
+        "subsidiária e excepcional"
+       ],
+       "afirmacao": "A Lei de Liberdade Econômica tem como princípio a intervenção ampla e preferencial do Estado sobre as atividades econômicas.",
+       "gabarito": "E",
+       "porque": "O princípio é a intervenção subsidiária e excepcional (art. 2º, III)."
+      },
+      {
+       "trecho": "o reconhecimento da vulnerabilidade do particular perante o Estado",
+       "marcas": [
+        "vulnerabilidade do particular"
+       ],
+       "afirmacao": "Entre os princípios da Lei de Liberdade Econômica está o reconhecimento da vulnerabilidade do particular perante o Estado.",
+       "gabarito": "C",
+       "porque": "É o art. 2º, IV."
+      },
+      {
+       "trecho": "não se aplica ao direito tributário e ao direito financeiro",
+       "marcas": [
+        "direito tributário e ao direito financeiro"
+       ],
+       "afirmacao": "As garantias da Lei de Liberdade Econômica aplicam-se integralmente às relações tributárias.",
+       "gabarito": "E",
+       "porque": "Não se aplicam ao direito tributário e financeiro, ressalvado o inciso X do art. 3º (art. 1º, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "017b66d4afe0",
+      "Art. 2º.": "58cf632e9beb"
+     },
+     "fonte": "Lei 13.874/2019 (Declaração de Direitos de Liberdade Econômica), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2019/lei-13874-20-setembro-2019-789149-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n13874-2019",
+     "artigos": [
+      "Art. 3º.",
+      "Art. 4º."
+     ],
+     "ref": "arts. 3º e 4º da Lei 13.874/2019",
+     "regras": [
+      "<strong>Art. 3º.</strong> Lista os direitos de liberdade econômica: atividade de baixo risco sem liberação, horário livre, preço livre, isonomia, boa-fé, aprovação tácita, documento digital e outros.",
+      "<strong>Art. 4º.</strong> Veda o abuso do poder regulatório."
+     ],
+     "literalidades": [
+      {
+       "trecho": "desenvolver atividade econômica de baixo risco, para a qual se valha exclusivamente de propriedade privada própria ou de terceiros consensuais, sem a necessidade de quaisquer atos públicos de liberação da atividade econômica",
+       "marcas": [
+        "baixo risco",
+        "sem a necessidade de quaisquer atos públicos de liberação"
+       ],
+       "afirmacao": "A atividade econômica de baixo risco depende de alvará de funcionamento simplificado, expedido em até cinco dias.",
+       "gabarito": "E",
+       "porque": "A atividade de baixo risco dispensa quaisquer atos públicos de liberação (art. 3º, I)."
+      },
+      {
+       "trecho": "o silêncio da autoridade competente importará aprovação tácita para todos os efeitos, ressalvadas as hipóteses expressamente vedadas em lei",
+       "marcas": [
+        "aprovação tácita"
+       ],
+       "afirmacao": "Transcorrido o prazo de análise do pedido completo de liberação, o silêncio da autoridade importa indeferimento tácito.",
+       "gabarito": "E",
+       "porque": "Importa aprovação tácita, salvo as hipóteses vedadas em lei (art. 3º, IX)."
+      },
+      {
+       "trecho": "criar reserva de mercado ao favorecer, na regulação, grupo econômico, ou profissional, em prejuízo dos demais concorrentes",
+       "marcas": [
+        "reserva de mercado"
+       ],
+       "afirmacao": "Configura abuso do poder regulatório criar reserva de mercado ao favorecer, na regulação, grupo econômico em prejuízo dos demais concorrentes.",
+       "gabarito": "C",
+       "porque": "É o art. 4º, I."
+      }
+     ],
+     "conferido": {
+      "Art. 3º.": "8a8853f4f45a",
+      "Art. 4º.": "1000a603b2d4"
+     },
+     "fonte": "Lei 13.874/2019 (Declaração de Direitos de Liberdade Econômica), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2019/lei-13874-20-setembro-2019-789149-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula Vinculante 49",
+     "texto": "Ofende o princípio da livre concorrência lei municipal que impede a instalação de estabelecimentos comerciais do mesmo ramo em determinada área."
+    }
+   ],
+   "macetes": [
+    {
+     "sigla": "BAIXO RISCO NÃO PEDE LICENÇA",
+     "texto": "Atividade de baixo risco em propriedade própria ou consentida dispensa qualquer ato público de liberação."
+    },
+    {
+     "sigla": "PEDIDO COMPLETO + PRAZO + SILÊNCIO = APROVADO",
+     "texto": "Aprovação tácita só com todos os elementos apresentados, prazo vencido e sem vedação legal."
+    },
+    {
+     "sigla": "TRIBUTO FICA DE FORA",
+     "texto": "A lei não se aplica ao direito tributário e financeiro, salvo o arquivamento digital."
+    }
+   ],
+   "detalhes": [
+    "O particular é cientificado, ao protocolar o pedido completo, do prazo máximo para análise (art. 3º, IX).",
+    "Na falta de lei estadual ou municipal, a classificação das atividades de baixo risco segue ato do Executivo federal (art. 3º, § 1º).",
+    "O direito de funcionar em qualquer horário não afasta a legislação trabalhista, as normas ambientais e as restrições de vizinhança e condomínio.",
+    "A administração não pode exigir certidão sem previsão expressa em lei (art. 3º, XII)."
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo a Lei 13.874/2019, apresentados todos os elementos necessários à instrução do pedido de ato público de liberação, o silêncio da autoridade competente após o prazo máximo fixado importa aprovação tácita, ressalvadas as hipóteses expressamente vedadas em lei.",
+    "gabarito": "C",
+    "explicacao": "É o direito do art. 3º, IX. Para estados e municípios, vale quando o ato decorre de lei federal ou quando o ente adere (art. 1º, § 5º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A Lei de Liberdade Econômica autoriza o comércio a funcionar em qualquer horário, afastada a legislação trabalhista.",
+     "certo": "O horário é livre, mas observadas a legislação trabalhista e as normas ambientais e de vizinhança.",
+     "fonte": "Questão do app sobre a Lei 13.874/2019"
+    },
+    {
+     "errado": "A aprovação tácita do art. 3º, IX, vale para qualquer ato municipal de liberação.",
+     "certo": "Para estados e municípios, só se o ato vier de lei federal ou se o ente aderir.",
+     "fonte": "Questão do app sobre a Lei 13.874/2019"
+    }
+   ],
+   "ja_caiu": [
+    "Questões de lei seca dos arts. 1º a 4º da Lei 13.874/2019 no app (baixo risco, aprovação tácita e abuso do poder regulatório)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Poder de polícia:</strong> o consentimento de polícia é o ato de liberação.",
+     "tema": "poder-de-policia"
+    },
+    {
+     "texto": "<strong>Ordem econômica:</strong> livre iniciativa e o art. 174.",
+     "tema": "intervencao-do-estado-no-dominio-economico"
+    }
+   ],
+   "relacionados": [
+    "poder-de-policia",
+    "intervencao-do-estado-no-dominio-economico",
+    "classificacao-e-especies-de-atos",
+    "agencias-reguladoras"
    ]
   },
   {
    "slug": "atos-administrativos",
-   "titulo": "Ato administrativo: elementos, atributos e motivação",
+   "titulo": "Ato administrativo: conceito, elementos, atributos, motivação e mérito",
    "grupo": "Poderes e atos administrativos",
-   "base": "Art. 50 da Lei 9.784/1999 e art. 2º da Lei 4.717/1965",
+   "base": "Art. 50 da Lei 9.784/1999 e art. 2º da Lei 4.717/1965; doutrina",
    "tax": [
     "administrativo.atos-administrativos",
     "administrativo.conceitos-requisitos-elementos-pressupostos-classificacao",
     "administrativo.validade-eficacia-autoexecutoriedade-ato-administrativo",
     "administrativo.teoria-motivos-determinantes",
-    "administrativo.merito-ato-administrativo-discricionariedade"
+    "administrativo.merito-ato-administrativo-discricionariedade",
+    "administrativo.formacao-ato-administrativo",
+    "administrativo.fatos-administracao-publica"
    ],
    "dispositivos": [
     "n9784-1999-art-50",
@@ -3940,179 +4838,632 @@
    ],
    "conceitos": [
     "ato administrativo",
-    "elementos do ato administrativo",
-    "atributos do ato administrativo",
+    "fato administrativo",
+    "ato da administração",
+    "competência",
+    "finalidade",
+    "forma",
+    "motivo",
+    "objeto",
+    "mérito",
+    "presunção de legitimidade",
+    "presunção de veracidade",
+    "imperatividade",
+    "autoexecutoriedade",
+    "exigibilidade",
+    "executoriedade",
+    "tipicidade",
+    "motivação",
+    "motivação aliunde",
     "teoria dos motivos determinantes",
-    "mérito administrativo",
-    "motivação"
+    "perfeição",
+    "validade",
+    "eficácia",
+    "controle judicial do mérito"
    ],
    "palavras": [
     "ato administrativo",
+    "declaracao do estado",
+    "regime de direito publico",
+    "fato administrativo",
+    "acontecimento natural",
+    "ato da administracao",
+    "atos privados da administracao",
+    "elementos",
+    "requisitos",
     "competencia",
     "finalidade",
     "forma",
     "motivo",
     "objeto",
-    "cofifomob",
-    "vinculado",
-    "discricionario",
+    "conteudo",
     "merito",
     "conveniencia e oportunidade",
+    "vinculado",
+    "discricionario",
     "presuncao de legitimidade",
-    "veracidade",
+    "presuncao de veracidade",
+    "inversao do onus da prova",
     "imperatividade",
+    "poder extroverso",
     "autoexecutoriedade",
+    "exigibilidade",
+    "executoriedade",
+    "contraditorio diferido",
     "tipicidade",
-    "pati",
-    "motivo x motivacao",
-    "motivos determinantes",
+    "motivacao",
+    "explicita clara e congruente",
     "motivacao aliunde",
+    "pareceres",
+    "meio mecanico",
+    "orgaos colegiados ata",
+    "motivos determinantes",
+    "motivo falso",
     "exoneracao ad nutum",
-    "controle judicial do merito",
-    "fato administrativo"
+    "cargo em comissao",
+    "sumula 684",
+    "perfeito",
+    "valido",
+    "eficaz",
+    "ciclo de formacao",
+    "condicao suspensiva",
+    "termo inicial",
+    "publicacao",
+    "efeitos atipicos",
+    "efeitos reflexos",
+    "efeitos prodromicos",
+    "incompetencia",
+    "vicio de forma",
+    "ilegalidade do objeto",
+    "inexistencia dos motivos",
+    "desvio de finalidade",
+    "acao popular",
+    "controle judicial",
+    "razoabilidade",
+    "proporcionalidade",
+    "discricionariedade reduzida a zero"
    ],
-   "resumo": "Ato administrativo é a declaração do Estado, ou de quem o represente, que produz efeitos jurídicos imediatos sob regime de direito público e está sujeita a controle judicial. Seus <strong>elementos</strong> são <strong>competência</strong>, <strong>finalidade</strong>, <strong>forma</strong>, <strong>motivo</strong> e <strong>objeto</strong> (a Lei 4.717/1965 os usa para definir os vícios). Competência, finalidade e forma são sempre vinculadas; motivo e objeto podem ser discricionários e formam o <strong>mérito</strong>, que o Judiciário não reavalia, embora controle a legalidade, a razoabilidade e a existência dos motivos. <strong>Atributos</strong>: presunção de legitimidade e veracidade (presente em todos), imperatividade, autoexecutoriedade e tipicidade (nem sempre presentes). <strong>Motivo</strong> é o fato e o direito que levam ao ato; <strong>motivação</strong> é a sua exposição, obrigatória nos casos do art. 50 da Lei 9.784/1999, e pode remeter a parecer anterior. Pela <strong>teoria dos motivos determinantes</strong>, o motivo declarado vincula: se for falso ou inexistente, o ato é nulo, mesmo que a motivação fosse dispensável.",
+   "resumo": "<strong>Ato administrativo</strong> é a declaração do Estado, ou de quem lhe faça as vezes, que produz efeitos jurídicos sob <strong>regime de direito público</strong> e se sujeita a controle judicial. Não se confunde com o <strong>fato administrativo</strong>, que é acontecimento material (a queda de uma árvore, a demolição executada), nem com os <strong>atos da administração</strong> regidos pelo direito privado, como a locação de imóvel. Seus <strong>elementos</strong> são <strong>competência, finalidade, forma, motivo e objeto</strong>; a Lei 4.717/1965 usa os mesmos cinco para definir os vícios (art. 2º). Competência, finalidade e forma são vinculadas; <strong>motivo e objeto</strong> podem ser discricionários e formam o <strong>mérito</strong>, que o Judiciário não substitui, mas cuja legalidade, razoabilidade e existência dos motivos controla. Os <strong>atributos</strong> são a presunção de legitimidade e veracidade (em todos os atos), a imperatividade, a autoexecutoriedade e a tipicidade (só em alguns). <strong>Motivo</strong> é o fato e o direito que levam ao ato; <strong>motivação</strong> é a sua exposição, obrigatória nos casos do art. 50 da Lei 9.784/1999 e que pode remeter a parecer anterior. Pela <strong>teoria dos motivos determinantes</strong>, o motivo declarado vincula: falso ou inexistente, anula o ato, ainda que a motivação fosse dispensável.",
    "esquema": {
     "rotulo": "elementos do ato",
-    "html": "<table><thead><tr><th>Elemento</th><th>Pergunta</th><th>Vinculado ou discricionário</th></tr></thead><tbody><tr><td><strong>Competência</strong></td><td>Quem pode praticar?</td><td>Sempre vinculado</td></tr><tr><td><strong>Finalidade</strong></td><td>Para quê? (interesse público e fim específico da lei)</td><td>Sempre vinculado</td></tr><tr><td><strong>Forma</strong></td><td>Como se exterioriza?</td><td>Vinculado</td></tr><tr><td><strong>Motivo</strong></td><td>Por quê? (fato e direito)</td><td>Pode ser discricionário</td></tr><tr><td><strong>Objeto</strong></td><td>O que o ato produz?</td><td>Pode ser discricionário</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Elemento</th><th>Pergunta</th><th>Vinculado ou discricionário</th><th>Vício (art. 2º da Lei 4.717/1965)</th></tr></thead><tbody><tr><td><strong>Competência</strong></td><td>Quem pode praticar?</td><td>Sempre vinculado</td><td>Incompetência: fora das atribuições legais do agente</td></tr><tr><td><strong>Finalidade</strong></td><td>Para quê?</td><td>Sempre vinculado</td><td>Desvio de finalidade: fim diverso do previsto na regra de competência</td></tr><tr><td><strong>Forma</strong></td><td>Como se exterioriza?</td><td>Vinculado</td><td>Vício de forma: formalidade indispensável omitida ou mal observada</td></tr><tr><td><strong>Motivo</strong></td><td>Por quê? (fato e direito)</td><td>Pode ser discricionário</td><td>Inexistência dos motivos: fato inexistente ou direito inadequado</td></tr><tr><td><strong>Objeto</strong></td><td>O que o ato produz?</td><td>Pode ser discricionário</td><td>Ilegalidade do objeto: resultado viola lei ou ato normativo</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Fato administrativo",
+      "o_que_e": "Acontecimento material ou natural que produz efeitos para a administração, sem declaração de vontade.",
+      "atencao": "A morte do servidor e a execução material de uma obra são fatos, não atos.",
+      "grupo": "Conceitos vizinhos"
+     },
+     {
+      "nome": "Ato da administração",
+      "o_que_e": "Todo ato praticado pela administração, inclusive os de direito privado e os materiais.",
+      "atencao": "Gênero mais amplo que o ato administrativo.",
+      "grupo": "Conceitos vizinhos"
+     },
+     {
+      "nome": "Presunção de legitimidade e veracidade",
+      "o_que_e": "Presume-se que o ato é legal e que os fatos nele afirmados são verdadeiros, até prova em contrário.",
+      "atencao": "É relativa e está em todos os atos; inverte o ônus da prova.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Imperatividade",
+      "o_que_e": "O ato se impõe a terceiros independentemente de sua concordância.",
+      "atencao": "Falta nos atos negociais e enunciativos, como licenças e certidões.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Autoexecutoriedade",
+      "o_que_e": "A administração executa o ato por meios próprios, sem ordem judicial, quando a lei prevê ou há urgência.",
+      "atencao": "Divide-se em exigibilidade (meio indireto, como a multa) e executoriedade (meio direto, como a demolição).",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Tipicidade",
+      "o_que_e": "O ato deve corresponder a figura definida em lei para produzir certo efeito.",
+      "atencao": "Atributo apontado por Maria Sylvia Di Pietro.",
+      "grupo": "Atributos"
+     },
+     {
+      "nome": "Perfeição",
+      "o_que_e": "O ato concluiu o seu ciclo de formação.",
+      "atencao": "Ato imperfeito ainda não existe por completo e não produz efeitos.",
+      "grupo": "Planos do ato"
+     },
+     {
+      "nome": "Validade",
+      "o_que_e": "O ato está conforme o ordenamento.",
+      "atencao": "O ato inválido produz efeitos até ser anulado, por causa da presunção de legitimidade.",
+      "grupo": "Planos do ato"
+     },
+     {
+      "nome": "Eficácia",
+      "o_que_e": "O ato está apto a produzir efeitos.",
+      "atencao": "Pode ser válido e ineficaz, como o sujeito a termo inicial ou condição suspensiva.",
+      "grupo": "Planos do ato"
+     },
+     {
+      "nome": "Motivação aliunde",
+      "o_que_e": "A motivação remete a parecer, informação ou decisão anterior, que passa a integrar o ato.",
+      "atencao": "Admitida pelo art. 50, § 1º, da Lei 9.784/1999.",
+      "grupo": "Motivo e motivação"
+     },
+     {
+      "nome": "Motivos determinantes",
+      "o_que_e": "O motivo declarado vincula a validade do ato.",
+      "atencao": "Vale mesmo para ato que dispensa motivação, como a exoneração ad nutum.",
+      "grupo": "Motivo e motivação"
+     }
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 50. Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:\n\nI - neguem, limitem ou afetem direitos ou interesses;\n\nII - imponham ou agravem deveres, encargos ou sanções;\n\nIII - decidam processos administrativos de concurso ou seleção pública;\n\nIV - dispensem ou declarem a inexigibilidade de processo licitatório;\n\nV - decidam recursos administrativos;\n\nVI - decorram de reexame de ofício;\n\nVII - deixem de aplicar jurisprudência firmada sobre a questão ou discrepem de pareceres, laudos, propostas e relatórios oficiais;\n\nVIII - importem anulação, revogação, suspensão ou convalidação de ato administrativo.\n\n§ 1º A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.\n\n(...)",
+     "norma": "n9784-1999",
+     "artigos": [
+      "Art. 50."
+     ],
+     "ref": "art. 50 da Lei 9.784/1999",
+     "regras": [
+      "<strong>Caput e incisos.</strong> A motivação, com fatos e fundamentos jurídicos, é obrigatória quando o ato nega ou afeta direitos, impõe ou agrava deveres e sanções, decide concurso ou seleção, dispensa ou declara inexigível a licitação, decide recurso, decorre de reexame de ofício, diverge de jurisprudência ou de parecer oficial, ou anula, revoga, suspende ou convalida outro ato.",
+      "<strong>§ 1º.</strong> A motivação deve ser explícita, clara e congruente e pode consistir em concordância com parecer ou decisão anterior, que passa a integrar o ato.",
+      "<strong>§§ 2º e 3º.</strong> Em assuntos repetidos, admite-se meio mecânico que reproduza os fundamentos; a motivação de colegiados e de decisões orais consta de ata ou termo escrito."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - neguem, limitem ou afetem direitos ou interesses;",
+       "marcas": [
+        "neguem, limitem ou afetem"
+       ],
+       "afirmacao": "A motivação só é obrigatória nos atos que imponham sanções; atos que apenas limitem interesses do administrado dispensam fundamentação.",
+       "gabarito": "E",
+       "porque": "O art. 50, I, exige motivação dos atos que neguem, limitem ou afetem direitos ou interesses."
+      },
+      {
+       "trecho": "IV - dispensem ou declarem a inexigibilidade de processo licitatório;",
+       "marcas": [
+        "dispensem ou declarem a inexigibilidade"
+       ],
+       "afirmacao": "Os atos que dispensem licitação ou declarem a sua inexigibilidade devem ser motivados, com indicação dos fatos e dos fundamentos jurídicos.",
+       "gabarito": "C",
+       "porque": "É a hipótese do art. 50, IV."
+      },
+      {
+       "trecho": "podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato",
+       "marcas": [
+        "declaração de concordância",
+        "parte integrante do ato"
+       ],
+       "afirmacao": "É vedado à autoridade motivar o ato apenas declarando concordar com os fundamentos de parecer anterior, porque a motivação deve ser própria.",
+       "gabarito": "E",
+       "porque": "A motivação aliunde é admitida, e o parecer passa a integrar o ato (art. 50, § 1º)."
+      },
+      {
+       "trecho": "A motivação das decisões de órgãos colegiados e comissões ou de decisões orais constará da respectiva ata ou de termo escrito.",
+       "marcas": [
+        "ata ou de termo escrito"
+       ],
+       "afirmacao": "As decisões orais dispensam motivação, por não haver suporte escrito.",
+       "gabarito": "E",
+       "porque": "A motivação das decisões orais e de colegiados consta da ata ou de termo escrito (art. 50, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 50.": "85540515e459"
+     },
      "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 2º São nulos os atos lesivos ao patrimônio das entidades mencionadas no artigo anterior, nos casos de:\n\na) incompetência;\n\nb) vício de forma;\n\nc) ilegalidade do objeto;\n\nd) inexistência dos motivos;\n\ne) desvio de finalidade.\n\nParágrafo único. Para a conceituação dos casos de nulidade observar-se-ão as seguintes normas:\n\na) a incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou;\n\nb) o vício de forma consiste na omissão ou na observância incompleta ou irregular de formalidades indispensáveis à existência ou seriedade do ato;\n\nc) a ilegalidade do objeto ocorre quando o resultado do ato importa em violação de lei, regulamento ou outro ato normativo;\n\nd) a inexistência dos motivos se verifica quando a matéria de fato ou de direito, em que se fundamenta o ato, é materialmente inexistente ou juridicamente inadequada ao resultado obtido;\n\ne) o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
-     "fonte": "Lei 4.717/1965 (Ação Popular), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4717-29-junho-1965-377818-normaatualizada-pl.html",
-     "norma": "n4717-1965"
+     "norma": "n4717-1965",
+     "artigos": [
+      "Art. 2º."
+     ],
+     "ref": "art. 2º da Lei 4.717/1965",
+     "regras": [
+      "<strong>Caput.</strong> São nulos os atos lesivos ao patrimônio público nos casos de incompetência, vício de forma, ilegalidade do objeto, inexistência dos motivos e desvio de finalidade.",
+      "<strong>Parágrafo único.</strong> Define cada vício: a incompetência, o vício de forma, a ilegalidade do objeto, a inexistência dos motivos e o desvio de finalidade."
+     ],
+     "literalidades": [
+      {
+       "trecho": "d) a inexistência dos motivos se verifica quando a matéria de fato ou de direito, em que se fundamenta o ato, é materialmente inexistente ou juridicamente inadequada ao resultado obtido;",
+       "marcas": [
+        "materialmente inexistente ou juridicamente inadequada"
+       ],
+       "afirmacao": "Há inexistência dos motivos apenas quando o fato que fundamenta o ato não ocorreu; o enquadramento jurídico inadequado é vício de objeto.",
+       "gabarito": "E",
+       "porque": "Também há inexistência dos motivos quando a matéria de direito é juridicamente inadequada ao resultado (art. 2º, parágrafo único, d)."
+      },
+      {
+       "trecho": "e) o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
+       "marcas": [
+        "fim diverso",
+        "explícita ou implicitamente"
+       ],
+       "afirmacao": "Configura desvio de finalidade o ato praticado com fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.",
+       "gabarito": "C",
+       "porque": "É a definição do art. 2º, parágrafo único, e."
+      },
+      {
+       "trecho": "a) a incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou;",
+       "marcas": [
+        "atribuições legais do agente"
+       ],
+       "afirmacao": "A incompetência se caracteriza quando o ato não atinge o resultado pretendido pela lei.",
+       "gabarito": "E",
+       "porque": "Incompetência é o ato fora das atribuições legais do agente (art. 2º, parágrafo único, a). Resultado que viola a lei é ilegalidade do objeto."
+      }
+     ],
+     "conferido": {
+      "Art. 2º.": "a5390e67a1de"
+     },
+     "fonte": "Lei 4.717/1965 (Lei da Ação Popular), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4717-29-junho-1965-377818-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 684",
+     "texto": "É inconstitucional o veto não motivado à participação de candidato a concurso público."
+    },
+    {
+     "quem": "STJ · motivos determinantes (jurisprudência reiterada)",
+     "texto": "Exonerado servidor comissionado sob o motivo de corte de despesas, a nomeação de outra pessoa para o mesmo cargo logo depois revela a falsidade do motivo e invalida a exoneração, embora ela dispensasse motivação."
     }
    ],
    "macetes": [
     {
-     "sigla": "MÉRITO MORA NO MOTIVO E NO OBJETO",
-     "texto": "A margem de escolha do administrador está no motivo e no objeto. Competência, finalidade e forma são vinculados."
+     "sigla": "COM FI FOR MOB",
+     "texto": "Competência, finalidade, forma, motivo e objeto: os cinco elementos e, na mesma ordem, os cinco vícios da Lei da Ação Popular."
     },
     {
-     "sigla": "MOTIVO DECLARADO VINCULA",
-     "texto": "Mesmo em ato que dispensa motivação, como a exoneração de comissionado, o motivo informado, se falso, invalida o ato."
+     "sigla": "MÉRITO MORA NO MOTIVO E NO OBJETO",
+     "texto": "A margem de escolha está no motivo e no objeto. Competência, finalidade e forma são vinculadas."
     },
     {
      "sigla": "PRESUNÇÃO EM TODOS, IMPERATIVIDADE EM ALGUNS",
-     "texto": "A presunção de legitimidade acompanha todo ato. Imperatividade e autoexecutoriedade não: atos enunciativos e negociais não as têm."
+     "texto": "A presunção de legitimidade acompanha todo ato. Imperatividade e autoexecutoriedade não: atos negociais e enunciativos não as têm."
+    },
+    {
+     "sigla": "MOTIVO DECLARADO VINCULA",
+     "texto": "Mesmo quando a motivação era dispensável, o motivo informado, se falso, invalida o ato."
     }
+   ],
+   "detalhes": [
+    "Prevalece que a motivação se exige nos atos vinculados e nos discricionários; a exceção clássica é a nomeação e a exoneração para cargo em comissão (ad nutum).",
+    "Na autoexecutoriedade por urgência, o contraditório não é suprimido, mas diferido para depois da medida.",
+    "A cobrança de multa não paga exige execução fiscal: a multa é exigível, mas não autoexecutória.",
+    "O juiz que anula o ato discricionário não escolhe a solução no lugar do administrador; devolve a decisão à administração, salvo se a discricionariedade estiver reduzida a zero.",
+    "A publicação, quando exigida, é condição de eficácia do ato com efeitos externos, e não de existência: o ato não publicado existe, mas não se opõe aos administrados.",
+    "Efeitos atípicos reflexos atingem terceiros que não são destinatários, como o locatário do imóvel desapropriado; efeitos prodrômicos surgem antes do aperfeiçoamento, como o dever de a segunda autoridade se manifestar no ato complexo.",
+    "No fechamento de uma fábrica poluidora, o motivo é a poluição, o objeto é o fechamento e a finalidade é a proteção do meio ambiente.",
+    "Para Celso Antônio Bandeira de Mello, elementos do ato são só o conteúdo e a forma; os demais aspectos são pressupostos de existência ou de validade.",
+    "A presunção de veracidade inverte o ônus da prova: cabe ao particular provar que o fato afirmado pela administração não ocorreu.",
+    "Pela presunção de legitimidade e veracidade, a palavra dos agentes penitenciários na apuração de falta grave é prova idônea (STJ).",
+    "Motivo e motivação não são sinônimos: motivo é o pressuposto de fato e de direito; motivação é a exposição desse motivo.",
+    "Finalidade genérica é o interesse público; específica é o fim que a lei dá a cada ato. Praticar o ato para perseguir um desafeto ou favorecer um amigo viola a finalidade genérica.",
+    "Não se pode, por ato administrativo, restringir por idade a inscrição em concurso (Súmula 14 do STF); o limite de idade depende de lei e deve ser justificado pela natureza do cargo (Súmula 683 do STF).",
+    "Todas as estatais, prestadoras de serviço público ou exploradoras de atividade econômica, devem motivar em ato formal a dispensa de empregado concursado, sem necessidade de processo administrativo (STF, Tema 1022).",
+    "O aprovado fora do número de vagas tem mera expectativa de direito, que só vira direito subjetivo à nomeação se houver preterição arbitrária e imotivada (STJ, Jurisprudência em Teses, ed. 11).",
+    "O Judiciário não substitui o mérito, mas controla a legalidade do ato discricionário, inclusive pela razoabilidade e pela proporcionalidade.",
+    "Diante de inércia persistente do poder público, o Judiciário pode determinar medidas administrativas para proteger o patrimônio cultural e ambiental, sem invadir a discricionariedade (STJ).",
+    "A proteção da pessoa idosa em situação de risco é obrigação irrenunciável do Estado, fora da órbita da discricionariedade (STJ, Jurisprudência em Teses, ed. 244)."
    ],
    "pegadinha": {
     "afirmacao": "A validade de um ato administrativo se vincula, entre outros aspectos, à existência e à veracidade dos motivos apontados como fundamento para a tomada de decisão do gestor público.",
     "gabarito": "C",
     "explicacao": "É a teoria dos motivos determinantes (Cebraspe, Defensor DPE-RS 2021)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-ES 2022 (o conceito de ato administrativo, que não se confunde com o fato administrativo, decorrente de acontecimento natural); Cebraspe, Defensor DPE-RS 2021 (presunção em todos os atos, imperatividade nem sempre); Cebraspe, Analista MPCE 2025 (o motivo do ato discricionário se controla quanto à existência e à legalidade).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>Vício de forma não essencial e de competência não exclusiva gera ato anulável; vício de finalidade gera ato nulo (Cebraspe, Delegado PC-PE 2024).</p><p>O art. 50 da Lei 9.784/1999 exige motivação, por exemplo, nos atos que negam ou afetam direitos, impõem sanções, decidem recursos ou dispensam licitação. É inconstitucional o veto não motivado à participação de candidato em concurso (Súmula 684 do STF). Prevalece que a motivação se exige tanto nos atos vinculados quanto nos discricionários; a exceção clássica é a nomeação e exoneração para cargo em comissão (ad nutum). Exonerado o comissionado por falta de verba, a nomeação de outro para o mesmo cargo logo em seguida demonstra a falsidade do motivo e invalida a exoneração.</p><p>A autoexecutoriedade existe em duas situações: quando a lei a prevê expressamente e quando se trata de medida urgente, que, se não adotada de imediato, causaria prejuízo maior ao interesse público; nesse caso, o contraditório não é suprimido, mas diferido. Ela se desdobra em exigibilidade, que usa meios indiretos de coação, como a multa, e executoriedade, que usa meios diretos, como a demolição ou a apreensão. O juiz que anula o ato discricionário não escolhe a solução no lugar do administrador e devolve a decisão à Administração, salvo quando a discricionariedade está reduzida a zero.</p><p>Efeitos atípicos reflexos atingem terceiros que não são destinatários do ato, como o locatário do imóvel desapropriado.</p><p><strong>Distinções</strong></p><p>No fechamento de uma fábrica poluidora, o motivo é a poluição, o objeto é o fechamento e a finalidade é a proteção do meio ambiente. Para Celso Antônio Bandeira de Mello, elementos do ato são só o conteúdo e a forma; os demais aspectos são pressupostos, e os de existência são o objeto e a pertinência à função administrativa.</p><p>Perfeição, validade e eficácia são planos independentes. Ato perfeito é o que concluiu o ciclo de formação; antes disso é imperfeito e não produz efeitos. O ato pode ser perfeito, inválido e eficaz, produzindo efeitos até ser anulado, graças à presunção de legitimidade, ou perfeito, válido e ineficaz, como o sujeito a termo inicial ou condição suspensiva. A publicação, quando exigida, é condição de eficácia do ato com efeitos externos, e não de existência: o ato não publicado existe, mas não pode ser oposto aos administrados.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Todo ato administrativo é dotado de imperatividade e autoexecutoriedade.",
+     "certo": "Só a presunção de legitimidade está em todos; imperatividade e autoexecutoriedade faltam em vários atos, como os negociais e os enunciativos.",
+     "fonte": "Cebraspe, Defensor DPE-RS 2021"
+    },
+    {
+     "errado": "O Judiciário pode revogar ato discricionário que considere inconveniente.",
+     "certo": "O Judiciário só anula por ilegalidade; a revogação por mérito é da administração.",
+     "fonte": "Questão do app sobre controle do ato discricionário"
+    },
+    {
+     "errado": "A queda de uma árvore sobre um veículo oficial é ato administrativo.",
+     "certo": "É fato administrativo, acontecimento sem declaração de vontade.",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Delegado PC-ES 2022 (ato e fato administrativo)",
+    "Cebraspe, Defensor DPE-RS 2021 (presunção em todos, imperatividade nem sempre; motivos determinantes)",
+    "Cebraspe, Analista MPCE 2025 (controle do motivo do ato discricionário)",
+    "Cebraspe, Delegado PC-PE 2024 (vícios de forma e de competência sanáveis; de finalidade, não)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Espécies e classificação:</strong> licença, autorização, ato complexo e silêncio.",
+     "tema": "classificacao-e-especies-de-atos"
+    },
+    {
+     "texto": "<strong>Vícios e extinção:</strong> o que acontece quando um elemento falha.",
+     "tema": "anulacao-revogacao-e-convalidacao"
+    },
+    {
+     "texto": "<strong>Poderes administrativos:</strong> vinculação, discricionariedade e abuso de poder.",
+     "tema": "poderes-administrativos"
+    }
+   ],
    "relacionados": [
     "classificacao-e-especies-de-atos",
     "anulacao-revogacao-e-convalidacao",
-    "processo-administrativo-federal"
+    "processo-administrativo-federal",
+    "poderes-administrativos"
    ]
   },
   {
    "slug": "classificacao-e-especies-de-atos",
-   "titulo": "Classificação e espécies de atos: licença, autorização, permissão e outros",
+   "titulo": "Classificação e espécies de atos: licença, autorização, permissão, ato complexo e silêncio",
    "grupo": "Poderes e atos administrativos",
-   "base": "Doutrina consolidada aplicada pelas bancas; art. 50 da Lei 9.784/1999",
+   "base": "Doutrina consolidada aplicada pelas bancas; jurisprudência do STF",
    "tax": [
     "administrativo.atos-administrativos-especie",
     "administrativo.atos-administrativos-simples-complexos-compostos",
     "administrativo.atos-administrativos-vinculados-discricionarios",
     "administrativo.atos-administrativos-gerais-individuais",
-    "administrativo.silencio-direito-administrativo"
+    "administrativo.silencio-direito-administrativo",
+    "administrativo.atos-administrativos-unilaterais-bilaterais-multilaterais"
    ],
-   "dispositivos": [
-    "n9784-1999-art-50"
-   ],
+   "dispositivos": [],
    "conceitos": [
     "licença",
     "autorização",
     "permissão",
-    "ato complexo",
-    "ato composto",
-    "parecer",
+    "admissão",
+    "aprovação",
     "homologação",
     "visto",
-    "silêncio administrativo"
+    "parecer",
+    "ato simples",
+    "ato complexo",
+    "ato composto",
+    "ato vinculado",
+    "ato discricionário",
+    "conceito jurídico indeterminado",
+    "ato geral",
+    "ato individual",
+    "ato unilateral",
+    "ato bilateral",
+    "silêncio administrativo",
+    "atos normativos",
+    "atos ordinatórios",
+    "atos negociais",
+    "atos enunciativos",
+    "atos punitivos"
    ],
    "palavras": [
-    "licenca vinculada",
-    "autorizacao discricionaria",
-    "permissao precaria",
+    "classificacao",
+    "especies",
+    "licenca",
+    "autorizacao",
+    "permissao",
     "admissao",
     "aprovacao",
     "homologacao",
     "visto",
     "parecer",
     "parecer vinculante",
-    "atos normativos",
+    "parecer obrigatorio",
+    "simples",
+    "complexo",
+    "composto",
+    "aposentadoria",
+    "tribunal de contas",
+    "tema 445",
+    "vinculado",
+    "discricionario",
+    "conceito juridico indeterminado",
+    "zona de penumbra",
+    "discricionariedade tecnica",
+    "gerais",
+    "individuais",
+    "normativos",
+    "sumula 266",
+    "unilateral",
+    "bilateral",
+    "multilateral",
+    "silencio",
+    "aprovacao tacita",
+    "omissao",
     "ordinatorios",
+    "portaria",
+    "resolucao",
+    "alvara",
     "negociais",
     "enunciativos",
-    "punitivos",
-    "ato simples",
-    "ato complexo",
-    "ato composto",
-    "aposentadoria tcu",
-    "sumula vinculante 3",
-    "tema 445",
-    "silencio administrativo",
+    "certidao",
     "atestado",
-    "certidao"
+    "punitivos",
+    "atos de imperio",
+    "atos de gestao",
+    "precario",
+    "direito subjetivo"
    ],
-   "resumo": "As bancas cobram a classificação dos atos pela doutrina tradicional. Quanto à liberdade: <strong>licença</strong> é vinculada (preenchidos os requisitos, há direito, como na licença para construir); <strong>autorização</strong> e <strong>permissão</strong> são discricionárias e precárias. <strong>Admissão</strong> é vinculada e dá acesso a serviço público (matrícula em escola pública). <strong>Aprovação</strong> é controle discricionário, prévio ou posterior; <strong>homologação</strong> é controle vinculado e posterior; <strong>visto</strong> só atesta a legitimidade formal de outro ato. <strong>Parecer</strong> é opinião de órgão consultivo. Quanto à formação: <strong>simples</strong> (um órgão), <strong>complexo</strong> (dois ou mais órgãos se fundem num só ato, como a aposentadoria registrada pelo Tribunal de Contas, segundo o STF) e <strong>composto</strong> (um ato principal e outro acessório que o confirma). O <strong>silêncio</strong> da administração não é ato; só produz efeito quando a lei diz.",
+   "resumo": "As bancas cobram a classificação da doutrina tradicional. Quanto à liberdade, o ato é <strong>vinculado</strong> (a lei fixa todos os elementos) ou <strong>discricionário</strong> (a lei deixa escolha de conveniência e oportunidade). Entre as espécies, a <strong>licença</strong> é vinculada e gera direito a quem cumpre os requisitos, como a licença para construir; a <strong>autorização</strong> e a <strong>permissão</strong> de uso são discricionárias e precárias. A <strong>admissão</strong> é vinculada e dá acesso a serviço público. A <strong>aprovação</strong> é controle discricionário, prévio ou posterior; a <strong>homologação</strong> é controle vinculado e posterior; o <strong>visto</strong> só atesta a legitimidade formal de outro ato. O <strong>parecer</strong> é opinião de órgão consultivo. Quanto à formação, o ato é <strong>simples</strong> (um órgão, mesmo colegiado), <strong>complexo</strong> (vontades de órgãos diversos se fundem num só ato, como a aposentadoria registrada pelo Tribunal de Contas, segundo o STF) ou <strong>composto</strong> (um ato principal e outro acessório que o torna exequível). Quanto aos destinatários, é <strong>geral</strong> ou <strong>individual</strong>. O <strong>silêncio</strong> da administração não é ato; só produz efeito quando a lei o atribui.",
    "esquema": {
     "rotulo": "espécies mais cobradas",
-    "html": "<table><thead><tr><th>Ato</th><th>Natureza</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Licença</strong></td><td>Unilateral e vinculada</td><td>Licença para construir, para dirigir</td></tr><tr><td><strong>Autorização</strong></td><td>Unilateral, discricionária e precária</td><td>Porte de arma, uso de bem público por evento</td></tr><tr><td><strong>Permissão</strong></td><td>Discricionária e precária</td><td>Permissão de uso de bem público</td></tr><tr><td><strong>Admissão</strong></td><td>Vinculada</td><td>Matrícula em escola pública, internação em hospital público</td></tr><tr><td><strong>Aprovação</strong></td><td>Discricionária, prévia ou posterior</td><td>Aprovação de indicação pelo Senado</td></tr><tr><td><strong>Homologação</strong></td><td>Vinculada e posterior</td><td>Homologação de licitação</td></tr><tr><td><strong>Visto</strong></td><td>Vinculado, só legitimidade formal</td><td>Visto do chefe em requerimento</td></tr><tr><td><strong>Parecer</strong></td><td>Enunciativo, opinativo</td><td>Parecer jurídico</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ato</th><th>Natureza</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Licença</strong></td><td>Unilateral e vinculada; gera direito subjetivo</td><td>Licença para construir, para dirigir</td></tr><tr><td><strong>Autorização</strong></td><td>Unilateral, discricionária e precária</td><td>Porte de arma, uso de rua para evento</td></tr><tr><td><strong>Permissão</strong></td><td>Discricionária e precária</td><td>Permissão de uso de bem público</td></tr><tr><td><strong>Admissão</strong></td><td>Vinculada</td><td>Matrícula em escola pública, internação em hospital público</td></tr><tr><td><strong>Aprovação</strong></td><td>Discricionária, prévia ou posterior</td><td>Aprovação de indicação pelo Senado</td></tr><tr><td><strong>Homologação</strong></td><td>Vinculada e posterior</td><td>Homologação de licitação ou de concurso</td></tr><tr><td><strong>Visto</strong></td><td>Vinculado, só legitimidade formal</td><td>Visto do chefe em requerimento</td></tr><tr><td><strong>Parecer</strong></td><td>Enunciativo, opinativo</td><td>Parecer jurídico</td></tr></tbody></table>"
    },
-   "lei": [
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Simples",
+      "o_que_e": "Resulta da vontade de um único órgão, singular ou colegiado.",
+      "atencao": "A deliberação de um conselho é ato simples.",
+      "grupo": "Quanto à formação"
+     },
+     {
+      "nome": "Complexo",
+      "o_que_e": "Vontades de órgãos diversos se fundem para formar um único ato.",
+      "atencao": "Para o STF, a aposentadoria é ato complexo que se aperfeiçoa com o registro no Tribunal de Contas.",
+      "grupo": "Quanto à formação"
+     },
+     {
+      "nome": "Composto",
+      "o_que_e": "Um ato principal depende de outro, acessório, de outro órgão, para ser exequível.",
+      "atencao": "Aprovação, visto e homologação costumam ser o ato acessório.",
+      "grupo": "Quanto à formação"
+     },
+     {
+      "nome": "Geral",
+      "o_que_e": "Alcança destinatários indeterminados na mesma situação, como regulamentos e editais.",
+      "atencao": "Depende de publicação; não cabe mandado de segurança contra lei em tese (Súmula 266 do STF).",
+      "grupo": "Quanto aos destinatários e às partes"
+     },
+     {
+      "nome": "Individual",
+      "o_que_e": "Tem destinatários certos, um ou vários, como a nomeação em lista nominal.",
+      "atencao": "Pode gerar direito adquirido, o que limita a revogação.",
+      "grupo": "Quanto aos destinatários e às partes"
+     },
+     {
+      "nome": "Unilateral, bilateral e multilateral",
+      "o_que_e": "Unilateral depende só da vontade da administração; bilateral e multilateral nascem de acordo, como os contratos e os consórcios.",
+      "atencao": "Para muitos autores, o ato administrativo propriamente dito é unilateral.",
+      "grupo": "Quanto aos destinatários e às partes"
+     },
+     {
+      "nome": "Normativos",
+      "o_que_e": "Comandos gerais, como decretos, regimentos e resoluções.",
+      "grupo": "Quanto ao conteúdo (Hely Lopes Meirelles)"
+     },
+     {
+      "nome": "Ordinatórios",
+      "o_que_e": "Organizam o serviço interno, como portarias, ordens de serviço e circulares.",
+      "atencao": "A portaria instaura sindicância e PAD.",
+      "grupo": "Quanto ao conteúdo (Hely Lopes Meirelles)"
+     },
+     {
+      "nome": "Negociais",
+      "o_que_e": "Coincidem com a pretensão do particular, como licença, autorização e permissão.",
+      "atencao": "Não têm imperatividade.",
+      "grupo": "Quanto ao conteúdo (Hely Lopes Meirelles)"
+     },
+     {
+      "nome": "Enunciativos",
+      "o_que_e": "Atestam ou opinam, como certidões, atestados e pareceres.",
+      "atencao": "Não se revogam, porque não criam efeitos por si.",
+      "grupo": "Quanto ao conteúdo (Hely Lopes Meirelles)"
+     },
+     {
+      "nome": "Punitivos",
+      "o_que_e": "Aplicam sanções a servidores ou particulares.",
+      "grupo": "Quanto ao conteúdo (Hely Lopes Meirelles)"
+     },
+     {
+      "nome": "Conceito jurídico indeterminado",
+      "o_que_e": "Termos como boa conduta e interesse público relevante têm zonas de certeza positiva, negativa e de penumbra.",
+      "atencao": "Só na zona de penumbra há margem de apreciação.",
+      "grupo": "Liberdade de escolha"
+     },
+     {
+      "nome": "Discricionariedade técnica",
+      "o_que_e": "Se a técnica aponta uma única solução, não há escolha.",
+      "atencao": "A discricionariedade também pode ser reduzida a zero no caso concreto.",
+      "grupo": "Liberdade de escolha"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [
     {
-     "texto": "Art. 50. Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:\n\n(...)\n\n§ 1º A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.\n\n(...)",
-     "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "quem": "STF · RE 636.553 (Tema 445)",
+     "texto": "Em atenção à segurança jurídica e à confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de cinco anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, contado da chegada do processo à Corte de Contas."
+    },
+    {
+     "quem": "STF · Súmula 266",
+     "texto": "Não cabe mandado de segurança contra lei em tese."
+    },
+    {
+     "quem": "STF · MS 24.631",
+     "texto": "Quando a lei exige parecer vinculante, o administrador não pode decidir de modo diverso; nesse caso, o parecerista pode responder com o gestor. No parecer meramente opinativo, em regra, não responde."
     }
    ],
    "macetes": [
     {
      "sigla": "LICENÇA É DIREITO, AUTORIZAÇÃO É FAVOR",
-     "texto": "Na licença, cumpridos os requisitos, a administração tem de conceder. Na autorização e na permissão, ela avalia conveniência."
+     "texto": "Na licença, cumpridos os requisitos, a administração tem de conceder. Na autorização e na permissão, avalia conveniência."
     },
     {
      "sigla": "HOMOLOGA VINCULADO, APROVA DISCRICIONÁRIO",
-     "texto": "Homologação é controle vinculado e sempre posterior. Aprovação é controle discricionário e pode ser prévio ou posterior."
+     "texto": "Homologação é controle vinculado e sempre posterior. Aprovação é discricionária e pode ser prévia ou posterior."
+    },
+    {
+     "sigla": "COMPLEXO FUNDE, COMPOSTO SOMA",
+     "texto": "No complexo, as vontades se fundem num ato só. No composto, há um ato principal e outro acessório."
     }
    ],
-   "juris": [
-    {
-     "quem": "STF · RE 636.553 (Tema 445)",
-     "texto": "Em atenção à segurança jurídica e à confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de cinco anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, contado da chegada do processo à Corte de Contas."
-    }
+   "detalhes": [
+    "Retirar uma licença por interesse público superveniente exige indenização, porque ela gerou direito; a autorização precária pode ser revogada sem indenização, em regra.",
+    "A lei pode dar ao silêncio efeito positivo (aprovação tácita) ou negativo (indeferimento); fora disso, o juiz em regra fixa prazo para a administração decidir, salvo se o ato for vinculado e o direito estiver demonstrado.",
+    "O ato geral prevalece sobre o individual, mesmo editado pela mesma autoridade.",
+    "Resolução e portaria são formas de atos de autoridades abaixo do chefe do Executivo; o alvará é o instrumento da licença ou da autorização.",
+    "Atos de império são praticados com supremacia sobre o particular; atos de gestão, em igualdade, como na administração de bens. A distinção é antiga, mas ainda aparece em prova.",
+    "O parecer obrigatório deve ser pedido, mas não vincula; o vinculante deve ser pedido e seguido.",
+    "Férias gozadas, atestados e pareceres não se revogam; uma portaria que nomeia comissão, sim.",
+    "A remoção por motivo de saúde do servidor ou de dependente (art. 36, parágrafo único, III, b, da Lei 8.112/1990) é ato vinculado e direito subjetivo, desde que a doença seja comprovada por junta médica oficial (STJ).",
+    "É possível a promoção discricionária de militares estaduais, desde que autorizada e fundamentada em lei (STJ).",
+    "Não cabe ao Judiciário substituir a discricionariedade técnica do regulador pela judicial, como na política regulatória da SUSEP sobre a regulação de sinistros (STJ).",
+    "A responsabilização do parecerista exige indícios de que a peça foi redigida com erro grosseiro ou má-fé (STJ, Jurisprudência em Teses, ed. 187).",
+    "O órgão de trânsito pode indeferir a CNH definitiva a quem cometeu infração grave com a Permissão para Dirigir, qualquer que seja a natureza da infração (STJ, Jurisprudência em Teses, ed. 112)."
    ],
    "pegadinha": {
     "afirmacao": "Visto é ato administrativo unilateral mediante o qual a autoridade competente atesta a legitimidade formal de outro ato jurídico e manifesta sua concordância com o conteúdo de tal ato.",
     "gabarito": "E",
     "explicacao": "O visto só atesta a legitimidade formal; não expressa concordância com o conteúdo (Cebraspe, Analista MPCE 2025)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-PE 2024 (autorização, permissão e licença são discricionária, discricionária e vinculada; férias gozadas, atestados e pareceres não se revogam, só a portaria que nomeia comissão); Cebraspe, Delegado PC-ES 2022 (licença é unilateral e vinculada; a opinião do órgão consultivo é parecer, e não homologação); Cebraspe, Analista MPCE 2025 (parecer).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>A licença gera direito subjetivo a quem atende os requisitos; retirá-la por interesse público superveniente exige desapropriação do direito, com indenização. A lei pode dar ao silêncio efeito positivo (aprovação tácita) ou negativo (indeferimento); fora disso, o juiz em regra fixa prazo para a Administração decidir, salvo se o ato for vinculado e o direito estiver demonstrado.</p><p>A deliberação de um conselho é ato simples, porque o colegiado é um só órgão. Ato composto resulta da vontade de um órgão, mas depende da verificação de outro para ser exequível, como a aprovação, o visto ou a homologação. Resolução e portaria são formas de atos de autoridades abaixo do chefe do Executivo; a portaria instaura processo disciplinar e designa servidores; o alvará é o instrumento da licença ou da autorização. Atos negociais trazem declaração de vontade da Administração coincidente com a pretensão do particular, como licenças, autorizações e permissões.</p><p><strong>Distinções</strong></p><p>Atos gerais, ou normativos, alcançam destinatários indeterminados na mesma situação (regulamento, instrução normativa, edital) e dependem de publicação oficial; atos individuais têm destinatários certos, um ou vários, como a nomeação em lista nominal. O geral prevalece sobre o individual, mesmo editado pela mesma autoridade, e não pode ser impugnado por mandado de segurança antes de produzir efeitos concretos (Súmula 266 do STF). O individual pode gerar direito adquirido, o que limita sua revogação.</p><p>No ato vinculado, a lei fixa todos os elementos e, presentes os requisitos, o ato deve ser praticado. A discricionariedade nasce da lei, quando ela confere a escolha entre alternativas, usa conceitos jurídicos indeterminados ou não descreve o motivo. Esses conceitos (boa conduta, urgência, interesse público relevante) têm zona de certeza positiva, de certeza negativa e de penumbra, e só nesta há margem de apreciação. Na discricionariedade técnica, se a técnica aponta uma única solução, não há escolha; e a discricionariedade pode ser reduzida a zero no caso concreto, quando só uma solução é juridicamente válida.</p>",
+   "pegadinhas": [
+    {
+     "errado": "A licença é ato discricionário e precário.",
+     "certo": "A licença é vinculada e definitiva; precárias são a autorização e a permissão.",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    },
+    {
+     "errado": "A opinião emitida por órgão consultivo é homologação.",
+     "certo": "É parecer, ato enunciativo.",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    },
+    {
+     "errado": "O silêncio da administração equivale, em regra, ao deferimento do pedido.",
+     "certo": "O silêncio só produz efeito quando a lei o atribui.",
+     "fonte": "Questão do app sobre o silêncio administrativo"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Delegado PC-PE 2024 (autorização, permissão e licença; atos que não se revogam)",
+    "Cebraspe, Delegado PC-ES 2022 (licença vinculada; parecer)",
+    "Cebraspe, Analista MPCE 2025 (visto)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Elementos e atributos:</strong> a base para classificar.",
+     "tema": "atos-administrativos"
+    },
+    {
+     "texto": "<strong>Atos de liberação:</strong> a Lei de Liberdade Econômica e a aprovação tácita.",
+     "tema": "liberdade-economica-e-atos-de-liberacao"
+    }
+   ],
    "relacionados": [
     "atos-administrativos",
     "anulacao-revogacao-e-convalidacao",
-    "poder-de-policia"
+    "poder-de-policia",
+    "liberdade-economica-e-atos-de-liberacao"
    ]
   },
   {
    "slug": "anulacao-revogacao-e-convalidacao",
-   "titulo": "Anulação, revogação, convalidação e decadência de cinco anos",
+   "titulo": "Vícios, anulação, revogação, convalidação e decadência de cinco anos",
    "grupo": "Poderes e atos administrativos",
    "base": "Arts. 53 a 55 da Lei 9.784/1999 e Súmula 473 do STF",
    "tax": [
@@ -4121,85 +5472,251 @@
     "administrativo.teoria-nulidades-direito-administrativo",
     "administrativo.atos-administrativos-nulos-anulaveis",
     "administrativo.vicios-ato-administrativo",
-    "administrativo.cassacao"
+    "administrativo.cassacao",
+    "administrativo.ato-administrativo-inexistente"
    ],
    "dispositivos": [
     "n9784-1999-art-53",
     "n9784-1999-art-54",
-    "n9784-1999-art-55",
-    "n9784-1999-art-50"
+    "n9784-1999-art-55"
    ],
    "conceitos": [
+    "autotutela",
     "anulação",
     "revogação",
     "convalidação",
-    "autotutela",
-    "decadência administrativa",
+    "conversão",
+    "decadência",
     "cassação",
-    "caducidade"
+    "caducidade",
+    "contraposição",
+    "renúncia",
+    "ato inexistente",
+    "ato nulo",
+    "ato anulável",
+    "ato irregular",
+    "teoria monista",
+    "teoria dualista",
+    "excesso de poder",
+    "desvio de poder",
+    "proteção da confiança",
+    "preclusão administrativa"
    ],
    "palavras": [
-    "anulacao",
-    "ilegalidade",
-    "ex tunc",
-    "revogacao",
-    "conveniencia",
-    "ex nunc",
-    "direitos adquiridos",
-    "sumula 473",
-    "sumula 346",
+    "anular",
+    "revogar",
     "autotutela",
-    "decadencia cinco anos",
-    "art 54",
-    "ma fe",
+    "sumula 473",
+    "vicio de legalidade",
+    "conveniencia ou oportunidade",
+    "direitos adquiridos",
+    "ex tunc",
+    "ex nunc",
+    "apreciacao judicial",
+    "decai em cinco anos",
+    "ma-fe",
+    "efeitos patrimoniais continuos",
     "primeiro pagamento",
-    "convalidacao",
-    "competencia e forma",
-    "defeito sanavel",
-    "nao convalida finalidade",
-    "motivo",
-    "objeto",
+    "impugnacao a validade",
+    "convalidar",
+    "defeitos sanaveis",
+    "lesao ao interesse publico",
+    "prejuizo a terceiros",
+    "competencia nao exclusiva",
+    "forma nao essencial",
+    "ratificacao",
+    "reforma",
+    "conversao",
     "cassacao",
     "caducidade",
     "contraposicao",
-    "atos irrevogaveis",
-    "efeitos exauridos",
-    "atos vinculados",
-    "contraditorio antes de anular"
+    "renuncia",
+    "extincao do ato",
+    "ato inexistente",
+    "nulo",
+    "anulavel",
+    "irregular",
+    "monista",
+    "dualista",
+    "tema 138",
+    "tema 839",
+    "ms 26.860",
+    "serventia extrajudicial",
+    "protecao da confianca",
+    "preclusao",
+    "atos vinculados nao se revogam",
+    "atos exauridos",
+    "excesso de poder",
+    "desvio de poder",
+    "tredestinacao"
    ],
-   "resumo": "A administração <strong>deve anular</strong> seus atos ilegais e <strong>pode revogar</strong> os válidos por conveniência e oportunidade, respeitados os direitos adquiridos (art. 53; Súmula 473 do STF). A <strong>anulação</strong> atinge vício de legalidade, pode ser feita pela administração ou pelo Judiciário e, em regra, retroage (ex tunc). A <strong>revogação</strong> é privativa da administração que praticou o ato, alcança só atos válidos e discricionários e não retroage (ex nunc). Não se revogam atos vinculados, já exauridos, que geraram direito adquirido ou meros atos como pareceres e certidões. O direito de anular atos favoráveis ao destinatário <strong>decai em cinco anos</strong>, salvo má-fé comprovada; nos efeitos patrimoniais contínuos, conta-se do primeiro pagamento (art. 54). A <strong>convalidação</strong> corrige atos com defeito sanável, sem lesão ao interesse público nem a terceiros (art. 55): admite-se para vício de <strong>competência</strong> não exclusiva e de <strong>forma</strong> não essencial, nunca para finalidade, motivo ou objeto. Há ainda cassação (o beneficiário descumpre condições), caducidade (norma superveniente torna o ato incompatível) e contraposição (ato posterior com efeito oposto).",
+   "resumo": "Pela <strong>autotutela</strong>, a administração <strong>deve anular</strong> seus atos ilegais e <strong>pode revogar</strong> os válidos por conveniência e oportunidade, respeitados os direitos adquiridos (art. 53 da Lei 9.784/1999; Súmula 473 do STF). A <strong>anulação</strong> atinge vício de legalidade, cabe à administração ou ao Judiciário e, em regra, retroage. A <strong>revogação</strong> é privativa da administração que editou o ato, alcança só atos válidos e discricionários e não retroage. Não se revogam atos vinculados, exauridos, que geraram direito adquirido ou enunciativos, como pareceres e certidões. O direito de anular atos favoráveis ao destinatário <strong>decai em cinco anos</strong>, salvo má-fé comprovada; nos efeitos patrimoniais contínuos, conta-se do primeiro pagamento (art. 54). A <strong>convalidação</strong> corrige defeito sanável, sem lesão ao interesse público nem a terceiros (art. 55): cabe para vício de <strong>competência</strong> não exclusiva e de <strong>forma</strong> não essencial, nunca para finalidade, motivo ou objeto. O ato também se extingue por <strong>cassação</strong> (o beneficiário descumpre condições), <strong>caducidade</strong> (norma superveniente o torna incompatível), <strong>contraposição</strong> (ato posterior de efeito oposto) e <strong>renúncia</strong> do beneficiário.",
    "esquema": {
     "rotulo": "anular x revogar",
-    "html": "<table><thead><tr><th></th><th>Anulação</th><th>Revogação</th></tr></thead><tbody><tr><td><strong>Motivo</strong></td><td>Ilegalidade</td><td>Conveniência e oportunidade</td></tr><tr><td><strong>Quem</strong></td><td>Administração ou Judiciário</td><td>Só a administração que editou o ato</td></tr><tr><td><strong>Efeitos</strong></td><td>Ex tunc (em regra)</td><td>Ex nunc</td></tr><tr><td><strong>Prazo</strong></td><td>5 anos para atos favoráveis, salvo má-fé (art. 54)</td><td>Não há prazo, mas há limites materiais</td></tr><tr><td><strong>Objeto</strong></td><td>Ato vinculado ou discricionário</td><td>Só ato válido e discricionário</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ponto</th><th>Anulação</th><th>Revogação</th></tr></thead><tbody><tr><td><strong>Motivo</strong></td><td>Ilegalidade</td><td>Conveniência e oportunidade</td></tr><tr><td><strong>Quem</strong></td><td>Administração ou Judiciário</td><td>Só a administração que editou o ato</td></tr><tr><td><strong>Efeitos</strong></td><td>Retroativos (ex tunc), em regra</td><td>Para o futuro (ex nunc)</td></tr><tr><td><strong>Prazo</strong></td><td>5 anos para atos favoráveis, salvo má-fé (art. 54)</td><td>Não há prazo, mas há limites materiais</td></tr><tr><td><strong>Objeto</strong></td><td>Ato vinculado ou discricionário</td><td>Só ato válido e discricionário</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Ato inexistente",
+      "o_que_e": "Falta-lhe elemento essencial ou ele configura crime, como ordem para torturar.",
+      "atencao": "Não produz efeito algum, e ninguém deve cumpri-lo.",
+      "grupo": "Graus de invalidade"
+     },
+     {
+      "nome": "Ato nulo",
+      "o_que_e": "Vício insanável, como desvio de finalidade, motivo falso ou objeto ilícito.",
+      "atencao": "Deve ser anulado; não se convalida.",
+      "grupo": "Graus de invalidade"
+     },
+     {
+      "nome": "Ato anulável",
+      "o_que_e": "Vício sanável de competência não exclusiva ou de forma não essencial.",
+      "atencao": "Pode ser convalidado (art. 55).",
+      "grupo": "Graus de invalidade"
+     },
+     {
+      "nome": "Ato irregular",
+      "o_que_e": "Vício formal de pouca importância, como desatender padronização interna.",
+      "atencao": "Não compromete a validade.",
+      "grupo": "Graus de invalidade"
+     },
+     {
+      "nome": "Cassação",
+      "o_que_e": "O beneficiário deixou de cumprir as condições que deveria manter.",
+      "atencao": "Funciona como sanção, como a cassação de licença de funcionamento.",
+      "grupo": "Formas de extinção"
+     },
+     {
+      "nome": "Caducidade",
+      "o_que_e": "Norma superveniente torna inadmissível a situação antes permitida.",
+      "atencao": "Não confundir com a caducidade da concessão de serviço público, que é extinção por inadimplemento.",
+      "grupo": "Formas de extinção"
+     },
+     {
+      "nome": "Contraposição",
+      "o_que_e": "Ato posterior, de competência diversa, produz efeito oposto ao anterior.",
+      "atencao": "A exoneração em relação à nomeação.",
+      "grupo": "Formas de extinção"
+     },
+     {
+      "nome": "Renúncia",
+      "o_que_e": "O próprio beneficiário abre mão da situação favorável.",
+      "grupo": "Formas de extinção"
+     },
+     {
+      "nome": "Convalidação",
+      "o_que_e": "Corrige o vício sanável e retroage à data do ato.",
+      "atencao": "Ratificação (mesma autoridade ou superior) e reforma são suas formas.",
+      "grupo": "Salvar o ato"
+     },
+     {
+      "nome": "Conversão",
+      "o_que_e": "Aproveita o ato nulo como ato de outra espécie cujos requisitos ele preencha.",
+      "atencao": "Também chamada de sanatória.",
+      "grupo": "Salvar o ato"
+     },
+     {
+      "nome": "Excesso de poder",
+      "o_que_e": "Vício de competência, como aplicar demissão quando só se podia suspender.",
+      "atencao": "Sanável se a competência não for exclusiva.",
+      "grupo": "Vícios mais cobrados"
+     },
+     {
+      "nome": "Desvio de poder",
+      "o_que_e": "Vício de finalidade, mesmo que o agente busque outro interesse público.",
+      "atencao": "Insanável. Prova-se por indícios.",
+      "grupo": "Vícios mais cobrados"
+     }
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 53. A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+     "norma": "n9784-1999",
+     "artigos": [
+      "Art. 53.",
+      "Art. 55."
+     ],
+     "ref": "arts. 53 e 55 da Lei 9.784/1999",
+     "regras": [
+      "<strong>Art. 53.</strong> A administração deve anular seus atos ilegais e pode revogá-los por conveniência ou oportunidade, respeitados os direitos adquiridos.",
+      "<strong>Art. 55.</strong> Atos com defeitos sanáveis podem ser convalidados pela própria administração, se não houver lesão ao interesse público nem prejuízo a terceiros."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+       "marcas": [
+        "deve anular",
+        "pode revogá-los"
+       ],
+       "afirmacao": "A administração pode, por conveniência, deixar de anular os próprios atos eivados de vício de legalidade.",
+       "gabarito": "E",
+       "porque": "A anulação do ato ilegal é dever (deve anular); a revogação é faculdade (pode revogar), conforme o art. 53."
+      },
+      {
+       "trecho": "os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração",
+       "marcas": [
+        "defeitos sanáveis"
+       ],
+       "afirmacao": "Os atos com defeitos sanáveis podem ser convalidados ainda que a convalidação cause prejuízo a terceiros, desde que preservado o interesse público.",
+       "gabarito": "E",
+       "porque": "A convalidação exige que não haja lesão ao interesse público nem prejuízo a terceiros (art. 55)."
+      }
+     ],
+     "conferido": {
+      "Art. 53.": "351ecfe85771",
+      "Art. 55.": "93e5b337a701"
+     },
      "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 54. O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.\n\n§ 1º No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento.\n\n§ 2º Considera-se exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato.",
+     "norma": "n9784-1999",
+     "artigos": [
+      "Art. 54."
+     ],
+     "ref": "art. 54 da Lei 9.784/1999",
+     "regras": [
+      "<strong>Caput.</strong> O direito de anular atos com efeitos favoráveis ao destinatário decai em cinco anos da prática do ato, salvo comprovada má-fé.",
+      "<strong>§ 1º.</strong> Nos efeitos patrimoniais contínuos, o prazo conta da percepção do primeiro pagamento.",
+      "<strong>§ 2º.</strong> Qualquer medida de autoridade que impugne a validade do ato já é exercício do direito de anular."
+     ],
+     "literalidades": [
+      {
+       "trecho": "decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé",
+       "marcas": [
+        "cinco anos",
+        "comprovada má-fé"
+       ],
+       "afirmacao": "O direito de anular atos favoráveis ao destinatário prescreve em dez anos, contados da ciência da ilegalidade pela administração.",
+       "gabarito": "E",
+       "porque": "Decai em cinco anos, contados da prática do ato, salvo comprovada má-fé (art. 54)."
+      },
+      {
+       "trecho": "§ 1º No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento.",
+       "marcas": [
+        "primeiro pagamento"
+       ],
+       "afirmacao": "Nos efeitos patrimoniais contínuos, o prazo de decadência renova-se a cada pagamento e conta-se do último.",
+       "gabarito": "E",
+       "porque": "Conta-se da percepção do primeiro pagamento (art. 54, § 1º)."
+      },
+      {
+       "trecho": "§ 2º Considera-se exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato.",
+       "marcas": [
+        "qualquer medida"
+       ],
+       "afirmacao": "Só a decisão final de anulação interrompe o prazo decadencial do art. 54.",
+       "gabarito": "E",
+       "porque": "Qualquer medida de autoridade que importe impugnação à validade do ato já é exercício do direito de anular (art. 54, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 54.": "4f3b289ea7fc"
+     },
      "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
-    },
-    {
-     "texto": "Art. 55. Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.",
-     "fonte": "Lei 9.784/1999 (Processo Administrativo Federal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
-     "norma": "n9784-1999"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "CONVALIDA COMPETÊNCIA E FORMA",
-     "texto": "Só se salvam vícios de competência (não exclusiva) e de forma (não essencial). Finalidade, motivo e objeto viciados não se convalidam."
-    },
-    {
-     "sigla": "REVOGA PARA FRENTE, ANULA PARA TRÁS",
-     "texto": "A revogação não retroage; a anulação, em regra, sim. Questão que fala em revogação por ilegalidade, com efeito retroativo, troca os dois."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -4210,19 +5727,93 @@
     {
      "quem": "STF · RE 594.296 (Tema 138)",
      "texto": "Ao Estado é facultada a revogação de atos que repute ilegalmente praticados; porém, se de tais atos já tiverem decorrido efeitos concretos, seu desfazimento deve ser precedido de regular processo administrativo."
+    },
+    {
+     "quem": "STF · MS 26.860",
+     "texto": "O prazo decadencial do art. 54 da Lei 9.784/1999 não alcança situações flagrantemente inconstitucionais, como o ingresso em serventia extrajudicial sem concurso público."
+    },
+    {
+     "quem": "STF · RE 817.338 (Tema 839)",
+     "texto": "A administração pode rever, mesmo após cinco anos, anistias concedidas a cabos da Aeronáutica sem motivação exclusivamente política, assegurado o devido processo e vedada a devolução do que já foi recebido."
     }
+   ],
+   "macetes": [
+    {
+     "sigla": "CONVALIDA COMPETÊNCIA E FORMA",
+     "texto": "Só se salvam vícios de competência (não exclusiva) e de forma (não essencial). Finalidade, motivo e objeto viciados não se convalidam."
+    },
+    {
+     "sigla": "REVOGA PARA FRENTE, ANULA PARA TRÁS",
+     "texto": "A revogação não retroage; a anulação, em regra, sim. Questão que fala em revogação por ilegalidade, com efeito retroativo, troca os dois."
+    },
+    {
+     "sigla": "CASSA QUEM DESCUMPRE, CADUCA POR LEI NOVA",
+     "texto": "Cassação pune o beneficiário que descumpre condições. Caducidade decorre de norma superveniente."
+    }
+   ],
+   "detalhes": [
+    "O Judiciário não revoga atos de outro Poder; mas revoga os próprios atos administrativos, quando exerce função administrativa.",
+    "A convalidação é alternativa à anulação, e não à revogação.",
+    "Não se revogam os atos de um procedimento que já passou à fase seguinte, por preclusão administrativa.",
+    "A proteção da confiança, face subjetiva da segurança jurídica, impede desfazer situações ilegais com aparência de legalidade, constituídas de boa-fé e consolidadas pela inércia do próprio ente (FGV, Defensor DPE-RJ 2026).",
+    "A falta da motivação exigida é vício de forma; o motivo falso ou inexistente é vício de motivo, que não se convalida.",
+    "São vícios de objeto a licença para construir onde a lei proíbe edificar e a nomeação para cargo que não existe.",
+    "Para Hely Lopes Meirelles (corrente monista), não existe ato anulável; a Lei 9.784/1999 adotou a visão dualista ao admitir a convalidação (art. 55).",
+    "Para Celso Antônio Bandeira de Mello e Weida Zancaner, convalidar o ato sanável é, em regra, dever; a exceção é o vício de competência em ato discricionário, cuja ratificação fica a juízo da autoridade competente.",
+    "O desvio de finalidade é insanável mesmo quando o agente busca outro interesse público; a exceção conhecida é a tredestinação lícita na desapropriação.",
+    "Portaria do IBAMA que proíbe a venda de serviços de guia de turismo em parque nacional, sem base na Lei 9.985/2000 nem no seu decreto, incorre em desvio de poder (STJ).",
+    "Não há nulidade sem prejuízo: a intimação por edital para alegações finais no processo ambiental, prevista na redação original do Decreto 6.514/2008, só anula os atos seguintes se houver prejuízo efetivo à defesa (STJ, Tema 1329).",
+    "A convalidação de atos determinada pelo STF na ADPF 388 não alcança o PAD declarado nulo pela participação de membro do Ministério Público em conselho da Polícia Civil (STJ, Jurisprudência em Teses, ed. 140).",
+    "Se o ato ilegal já produziu efeitos concretos em favor do servidor, a anulação depende de prévio processo administrativo, com contraditório (STF, Tema 138)."
    ],
    "pegadinha": {
     "afirmacao": "A revogação consiste na retirada, parcial ou total, de um ato administrativo do ordenamento jurídico em razão de desconformidade com a lei, o que configura hipótese de extinção do ato administrativo que gera efeitos retroativos.",
     "gabarito": "E",
     "explicacao": "Retirada por ilegalidade é anulação. A revogação se funda em conveniência e oportunidade e não retroage (Cebraspe, Analista MPCE 2025)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PJC-MT 2017 (anular em 2017 o ato de 2011 que, de boa-fé, concedeu vantagem indevida é nulo, porque já decaiu o direito, art. 54); Cebraspe, Delegado PC-MA 2018 (convalidam-se competência e forma, e não objeto, finalidade ou motivo); Cebraspe, Delegado PC-PE 2024 (invalidar os ilegais e revogar os inoportunos é autotutela).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O prazo do art. 54 não protege situações flagrantemente inconstitucionais, como o ingresso em serventia extrajudicial sem concurso (STF, MS 26.860). O STF também admitiu rever, depois de 5 anos, anistias de cabos da Aeronáutica concedidas sem motivação exclusivamente política, com devido processo e sem devolução do que já foi recebido (Tema 839). Do outro lado, a proteção da confiança, face subjetiva da segurança jurídica, impede desfazer situações ilegais com aparência de legalidade, constituídas de boa-fé e consolidadas pela inércia do próprio ente (FGV, Defensor DPE-RJ 2026).</p><p>A convalidação é alternativa à anulação, e não à revogação. Para o ato nulo, a doutrina admite a conversão, que o aproveita como ato de outra espécie cujos requisitos ele preencha. Não se revogam os atos de um procedimento que já passou à fase seguinte, por preclusão administrativa. Cassação é a extinção do ato porque o beneficiário deixou de cumprir as condições que deveria manter para continuar a desfrutar dele; funciona como sanção. Caducidade é a extinção do ato porque sobreveio norma jurídica que tornou inadmissível a situação antes permitida. Na contraposição, o ato de efeitos contrários vem de competência diversa, como a exoneração em relação à nomeação.</p><p>Abuso de poder é gênero que inclui o excesso de poder (vício de competência), como aplicar demissão quando só se podia suspender, e o desvio de poder (vício de finalidade). O desvio é insanável mesmo quando o agente busca outro interesse público, diferente do previsto em lei; a exceção conhecida é a tredestinação lícita na desapropriação. Como raramente é confessado, prova-se por indícios, como a contradição entre o motivo declarado e as circunstâncias. A falta da motivação exigida é vício de forma; o motivo falso ou inexistente é vício de motivo, que não se convalida. São vícios de objeto a licença para construir onde a lei proíbe edificar e a nomeação para cargo que não existe.</p><p><strong>Distinções</strong></p><p>Para Hely Lopes Meirelles (corrente monista), não existe ato anulável: o ato ilegal é sempre nulo. A Lei 9.784/1999 adotou a visão dualista ao admitir a convalidação dos defeitos sanáveis (art. 55), e o critério que separa o nulo do anulável é justamente a possibilidade de convalidar. Celso Antônio Bandeira de Mello classifica os atos inválidos em inexistentes, nulos, anuláveis e irregulares (vício formal de pouca importância, como desatender padronização interna). Para ele e Weida Zancaner, convalidar o ato sanável é, em regra, dever; a exceção é o vício de competência em ato discricionário, cuja ratificação fica a juízo da autoridade competente.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Em 2017, a administração pode anular ato de 2011 que, de boa-fé, concedeu vantagem indevida ao servidor.",
+     "certo": "Decaiu o direito de anular: passaram mais de cinco anos sem má-fé (art. 54).",
+     "fonte": "Cebraspe, Delegado PJC-MT 2017"
+    },
+    {
+     "errado": "O vício de motivo pode ser convalidado pela autoridade competente.",
+     "certo": "Só se convalidam vícios de competência não exclusiva e de forma não essencial.",
+     "fonte": "Cebraspe, Delegado PC-MA 2018"
+    },
+    {
+     "errado": "O Judiciário pode revogar ato administrativo do Executivo que repute inoportuno.",
+     "certo": "Ao Judiciário cabe só anular atos de outro Poder por ilegalidade.",
+     "fonte": "Questão do app sobre revogação"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Delegado PJC-MT 2017 (decadência do art. 54)",
+    "Cebraspe, Delegado PC-MA 2018 (o que se convalida)",
+    "Cebraspe, Delegado PC-PE 2024 (autotutela)",
+    "Cebraspe, Analista MPCE 2025 (revogação não retroage)",
+    "FGV, Defensor DPE-RJ 2026 (proteção da confiança)"
+   ],
+   "para_entender": [
+    {
+     "texto": "<strong>Elementos do ato:</strong> cada vício corresponde a um elemento.",
+     "tema": "atos-administrativos"
+    },
+    {
+     "texto": "<strong>Abuso de poder:</strong> excesso e desvio como vícios.",
+     "tema": "poderes-administrativos"
+    },
+    {
+     "texto": "<strong>Processo administrativo:</strong> a anulação com efeitos concretos exige processo.",
+     "tema": "processo-administrativo-federal"
+    }
+   ],
    "relacionados": [
     "atos-administrativos",
     "classificacao-e-especies-de-atos",
-    "processo-administrativo-federal"
+    "processo-administrativo-federal",
+    "lindb-e-seguranca-juridica"
    ],
    "mudancas": [
     {
@@ -4961,8 +6552,7 @@
    "base": "Arts. 125 a 152 da Lei 8.112/1990 e Súmula Vinculante 5",
    "tax": [
     "administrativo.processo-administrativo-disciplinar",
-    "administrativo.responsabilidade-civil-penal-administrativa",
-    "administrativo.poder-disciplinar"
+    "administrativo.responsabilidade-civil-penal-administrativa"
    ],
    "dispositivos": [
     "n8112-1990-art-125",
