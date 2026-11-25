@@ -8011,8 +8011,7 @@
       "base": "Arts. 34 a 36 da Constituição",
       "tax": [
         "constitucional.intervencao-federal",
-        "constitucional.intervencao-estados-municipios",
-        "constitucional.adi-interventiva"
+        "constitucional.intervencao-estados-municipios"
       ],
       "dispositivos": [
         "nCF-1988-art-34",
@@ -14218,268 +14217,1913 @@
     },
     {
       "slug": "controle-de-constitucionalidade",
-      "titulo": "Controle de constitucionalidade: sistemas, difuso, reserva de plenário e técnicas de decisão",
+      "titulo": "Controle de constitucionalidade: pressupostos, espécies de inconstitucionalidade, momentos e sistemas",
       "grupo": "Controle de constitucionalidade",
-      "base": "Arts. 52, X, 97 e 102, III, da Constituição",
+      "base": "Arts. 49, V, 62, 66, § 1º, 97 e 102 da Constituição; doutrina",
       "tax": [
         "constitucional.controle-constitucionalidade",
-        "constitucional.sistema-brasileiro-controle-constitucionalidade",
         "constitucional.conceito-sistemas-controle-constitucionalidade",
-        "constitucional.controle-incidental-concreto",
-        "constitucional.inconstitucionalidade-acao-omissao",
-        "constitucional.senado-controle-constitucionalidade",
-        "constitucional.efeitos-transcendentes"
+        "constitucional.sistema-brasileiro-controle-constitucionalidade"
       ],
-      "dispositivos": [
-        "nCF-1988-art-52",
-        "nCF-1988-art-97",
-        "nCF-1988-art-102",
-        "n9868-1999-art-27",
-        "n9868-1999-art-28"
-      ],
+      "dispositivos": [],
       "conceitos": [
-        "controle preventivo e repressivo",
-        "controle difuso",
-        "controle concentrado",
-        "cláusula de reserva de plenário",
+        "supremacia da Constituição",
+        "rigidez constitucional",
+        "parâmetro de controle",
         "bloco de constitucionalidade",
-        "inconstitucionalidade por arrastamento",
-        "interpretação conforme",
-        "declaração parcial sem redução de texto",
-        "modulação de efeitos",
-        "estado de coisas inconstitucional"
-      ],
-      "palavras": [
+        "inconstitucionalidade formal",
+        "inconstitucionalidade material",
+        "inconstitucionalidade por ação e por omissão",
+        "inconstitucionalidade originária e superveniente",
+        "inconstitucionalidade direta e reflexa",
         "controle preventivo",
         "controle repressivo",
-        "legislativo controle repressivo medida provisoria decreto que exorbita",
-        "controle difuso qualquer juiz",
-        "incidental",
-        "efeitos inter partes",
-        "senado suspende execucao",
-        "abstrativizacao",
-        "reserva de plenario",
-        "sumula vinculante 10",
-        "maioria absoluta do tribunal",
-        "bloco de constitucionalidade",
-        "parametro norma revogada",
-        "arrastamento",
-        "por atracao",
-        "interpretacao conforme",
-        "nulidade parcial sem reducao de texto",
-        "modulacao dois tercos",
-        "seguranca juridica excepcional interesse social",
-        "estado de coisas inconstitucional",
-        "adpf 347",
-        "transcendencia dos motivos nao admitida"
+        "controle político, jurisdicional e misto",
+        "modelo difuso",
+        "modelo concentrado",
+        "sistema brasileiro misto"
       ],
-      "resumo": "O controle pode ser <strong>preventivo</strong> (sobre projetos, pelas comissões, pelo veto ou por mandado de segurança de parlamentar) ou <strong>repressivo</strong> (sobre normas em vigor, em regra pelo Judiciário; o Legislativo também o faz ao sustar decreto que exorbita ou rejeitar medida provisória). No <strong>difuso</strong>, qualquer juiz deixa de aplicar a lei no caso concreto, com efeito entre as partes; nos tribunais, só a <strong>maioria absoluta</strong> do plenário ou do órgão especial declara a inconstitucionalidade (<strong>reserva de plenário</strong>, Súmula Vinculante 10). No <strong>concentrado</strong>, o STF julga a norma em tese, com efeito contra todos e vinculante. O parâmetro inclui o <strong>bloco de constitucionalidade</strong>, como tratados aprovados como emenda. Entre as técnicas de decisão estão a <strong>interpretação conforme</strong>, a <strong>declaração parcial sem redução de texto</strong>, a <strong>inconstitucionalidade por arrastamento</strong> (de normas dependentes da norma derrubada) e a <strong>modulação</strong> dos efeitos por dois terços, por segurança jurídica ou excepcional interesse social. Diante de violação massiva e persistente de direitos, o STF reconhece o <strong>estado de coisas inconstitucional</strong> (ADPF 347).",
+      "palavras": [
+        "controle de constitucionalidade",
+        "supremacia",
+        "rigidez",
+        "parametro",
+        "bloco de constitucionalidade",
+        "tratados de direitos humanos",
+        "art. 5, 3",
+        "inconstitucionalidade formal",
+        "vicio de iniciativa",
+        "formal subjetiva",
+        "formal objetiva",
+        "quorum",
+        "inconstitucionalidade material",
+        "conteudo",
+        "por acao",
+        "por omissao",
+        "total",
+        "parcial",
+        "originaria",
+        "superveniente",
+        "nao recepcao",
+        "revogacao",
+        "direta",
+        "reflexa",
+        "indireta",
+        "regulamento",
+        "preventivo",
+        "projeto de lei",
+        "ccj",
+        "veto juridico",
+        "mandado de seguranca",
+        "parlamentar",
+        "repressivo",
+        "sustar decreto",
+        "rejeicao de medida provisoria",
+        "tribunal de contas",
+        "politico",
+        "frances",
+        "jurisdicional",
+        "difuso",
+        "norte-americano",
+        "marbury",
+        "concentrado",
+        "austriaco",
+        "kelsen",
+        "misto",
+        "constituicao de 1891",
+        "emenda 16/1965",
+        "representacao"
+      ],
+      "resumo": "Controlar a constitucionalidade é verificar se uma norma ou ato é compatível com a Constituição. O controle pressupõe <strong>constituição rígida</strong> e <strong>supremacia constitucional</strong>. O <strong>parâmetro</strong> é a Constituição vigente, inclusive os tratados de direitos humanos aprovados como emenda (bloco de constitucionalidade). A inconstitucionalidade pode ser <strong>formal</strong> (vício no processo de elaboração ou na competência) ou <strong>material</strong> (vício no conteúdo); <strong>por ação</strong> ou <strong>por omissão</strong>; total ou parcial. Lei anterior à Constituição que com ela conflita não é inconstitucional: é <strong>não recepcionada</strong>. Ato que viola a lei antes de violar a Constituição tem vício <strong>reflexo</strong> e não se ataca por ação direta. Quanto ao momento, o controle é <strong>preventivo</strong> (sobre o projeto) ou <strong>repressivo</strong> (sobre a norma pronta). Quanto ao órgão, é político, jurisdicional ou misto. O Brasil adota o controle jurisdicional <strong>misto</strong>: <strong>difuso</strong>, por qualquer juiz no caso concreto, desde 1891, e <strong>concentrado</strong>, pelo STF em tese, desde 1965.",
       "esquema": {
-        "rotulo": "difuso x concentrado",
-        "html": "<table><thead><tr><th>Ponto</th><th>Difuso</th><th>Concentrado</th></tr></thead><tbody><tr><td><strong>Quem julga</strong></td><td>Qualquer juiz ou tribunal</td><td>STF (ou TJ, em face da constituição estadual)</td></tr><tr><td><strong>Como surge</strong></td><td>Questão incidental num caso</td><td>Pedido principal, norma em tese</td></tr><tr><td><strong>Efeitos</strong></td><td>Entre as partes, em regra retroativos</td><td>Contra todos, vinculantes, em regra retroativos</td></tr><tr><td><strong>Em tribunal</strong></td><td>Reserva de plenário (art. 97)</td><td>Maioria absoluta do STF</td></tr></tbody></table>"
+        "rotulo": "quem controla e quando",
+        "html": "<table><thead><tr><th>Momento</th><th>Legislativo</th><th>Executivo</th><th>Judiciário</th></tr></thead><tbody><tr><td><strong>Preventivo (projeto)</strong></td><td>Parecer da Comissão de Constituição e Justiça; votação em plenário</td><td>Veto jurídico (art. 66, § 1º)</td><td>Mandado de segurança de parlamentar contra tramitação de PEC que fere cláusula pétrea ou de projeto com vício no processo</td></tr><tr><td><strong>Repressivo (norma em vigor)</strong></td><td>Sustar ato do Executivo que exorbita do poder regulamentar (art. 49, V); rejeitar MP inconstitucional</td><td>Chefe do Executivo pode deixar de aplicar lei que considere inconstitucional, segundo a doutrina majoritária</td><td>Controle difuso e concentrado: é a regra</td></tr></tbody></table>"
       },
-      "lei": [
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Supremacia e rigidez",
+            "o_que_e": "Sem constituição rígida não há controle: lei que a contraria seria só uma reforma.",
+            "atencao": "A Constituição flexível muda por lei comum.",
+            "grupo": "Pressupostos e parâmetro"
+          },
+          {
+            "nome": "Parâmetro",
+            "o_que_e": "As normas da Constituição vigente, inclusive o ADCT. O preâmbulo não é parâmetro, porque não tem força normativa.",
+            "atencao": "Os tratados de direitos humanos com rito de emenda (art. 5º, § 3º) são parâmetro: é o bloco de constitucionalidade.",
+            "grupo": "Pressupostos e parâmetro"
+          },
+          {
+            "nome": "Norma constitucional revogada",
+            "o_que_e": "Pode ser parâmetro no controle difuso de atos praticados sob sua vigência.",
+            "atencao": "No controle concentrado, o parâmetro é a Constituição vigente.",
+            "grupo": "Pressupostos e parâmetro"
+          },
+          {
+            "nome": "Formal subjetiva",
+            "o_que_e": "Vício de iniciativa.",
+            "atencao": "A sanção não convalida (Súmula 5 do STF superada).",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Formal objetiva",
+            "o_que_e": "Vício no rito: quórum, votação, espécie normativa errada.",
+            "atencao": "Lei ordinária sobre matéria de lei complementar.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Formal orgânica",
+            "o_que_e": "Ente sem competência legisla sobre a matéria.",
+            "atencao": "Lei estadual sobre direito penal.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Material",
+            "o_que_e": "O conteúdo contraria a Constituição.",
+            "atencao": "Pode atingir parte da norma.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Por omissão",
+            "o_que_e": "Falta a norma ou a medida que a Constituição exige.",
+            "atencao": "Total ou parcial. Combate-se por ADO ou mandado de injunção.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Superveniente",
+            "o_que_e": "Lei anterior incompatível com a Constituição nova.",
+            "atencao": "Para o STF, não é inconstitucionalidade: é não recepção (revogação). Não cabe ADI; cabe ADPF.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Reflexa",
+            "o_que_e": "O ato viola a lei e, só indiretamente, a Constituição.",
+            "atencao": "Regulamento que extrapola a lei tem vício de ilegalidade; não cabe ADI. Decreto autônomo, sim.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Por arrastamento",
+            "o_que_e": "Norma dependente cai junto com a principal.",
+            "atencao": "Também chamada de inconstitucionalidade consequencial.",
+            "grupo": "Espécies de inconstitucionalidade"
+          },
+          {
+            "nome": "Político",
+            "o_que_e": "Feito por órgão sem natureza jurisdicional.",
+            "atencao": "Modelo francês clássico, pelo Conselho Constitucional.",
+            "grupo": "Sistemas"
+          },
+          {
+            "nome": "Difuso",
+            "o_que_e": "Qualquer juiz, no caso concreto.",
+            "atencao": "Modelo norte-americano (Marbury v. Madison, 1803). No Brasil desde 1891.",
+            "grupo": "Sistemas"
+          },
+          {
+            "nome": "Concentrado",
+            "o_que_e": "Um tribunal decide a norma em tese.",
+            "atencao": "Modelo austríaco, de Kelsen (1920). No Brasil desde a EC 16/1965.",
+            "grupo": "Sistemas"
+          },
+          {
+            "nome": "Misto",
+            "o_que_e": "Os dois convivem.",
+            "atencao": "É o modelo brasileiro.",
+            "grupo": "Sistemas"
+          }
+        ]
+      },
+      "lei": [],
+      "juris": [
         {
-          "texto": "Art. 97. Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderão os tribunais declarar a inconstitucionalidade de lei ou ato normativo do poder público.",
-          "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-          "norma": "nCF-1988"
+          "quem": "STF · ADI 2.076",
+          "texto": "O preâmbulo da Constituição não tem força normativa e não serve de parâmetro para o controle de constitucionalidade."
         },
         {
-          "texto": "Art. 27. Ao declarar a inconstitucionalidade de lei ou ato normativo, e tendo em vista razões de segurança jurídica ou de excepcional interesse social, poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros, restringir os efeitos daquela declaração ou decidir que ela só tenha eficácia a partir de seu trânsito em julgado ou de outro momento que venha a ser fixado.",
-          "fonte": "Lei 9.868/1999 (ADI, ADO e ADC), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9868-10-novembro-1999-369587-normaatualizada-pl.html",
-          "norma": "n9868-1999"
+          "quem": "STF · ADI 815",
+          "texto": "Não há hierarquia entre normas constitucionais originárias, e por isso não cabe declarar a inconstitucionalidade de uma em face de outra. Emendas, sim, podem ser controladas."
         },
         {
-          "texto": "Art. 28. Dentro do prazo de dez dias após o trânsito em julgado da decisão, o Supremo Tribunal Federal fará publicar em seção especial do Diário da Justiça e do Diário Oficial da União a parte dispositiva do acórdão.\n\nParágrafo único. A declaração de constitucionalidade ou de inconstitucionalidade, inclusive a interpretação conforme a Constituição e a declaração parcial de inconstitucionalidade sem redução de texto, têm eficácia contra todos e efeito vinculante em relação aos órgãos do Poder Judiciário e à Administração Pública federal, estadual e municipal.",
-          "fonte": "Lei 9.868/1999 (ADI, ADO e ADC), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9868-10-novembro-1999-369587-normaatualizada-pl.html",
-          "norma": "n9868-1999"
+          "quem": "STF · ADI 2 e recepção",
+          "texto": "O conflito entre lei anterior e a Constituição nova resolve-se pela revogação (não recepção), e não pela inconstitucionalidade superveniente."
+        },
+        {
+          "quem": "STF · MS 32.033",
+          "texto": "O parlamentar tem legitimidade para impetrar mandado de segurança contra a tramitação de PEC que tende a abolir cláusula pétrea ou de projeto que desrespeita o processo legislativo. Não cabe controle preventivo do conteúdo de projeto de lei."
+        },
+        {
+          "quem": "STF · ADPF 347",
+          "texto": "Reconhecido o estado de coisas inconstitucional do sistema prisional, diante da violação massiva e persistente de direitos fundamentais por falhas estruturais."
         }
       ],
       "macetes": [
         {
-          "sigla": "TURMA NÃO DECLARA",
-          "texto": "Órgão fracionário de tribunal não pode declarar a inconstitucionalidade nem afastar a lei sem dizer isso. Precisa do plenário ou do órgão especial, salvo se já houver decisão deles ou do STF."
+          "sigla": "PROJETO: PREVENTIVO; LEI: REPRESSIVO",
+          "texto": "O que importa é se a norma já existe. Rejeitar MP e sustar decreto são repressivos, porque MP e decreto já estão em vigor."
         },
         {
-          "sigla": "CONFORME SALVA O SENTIDO, SEM REDUÇÃO TIRA UMA HIPÓTESE",
-          "texto": "Na interpretação conforme, escolhe-se o sentido válido. Na nulidade sem redução de texto, exclui-se uma hipótese de aplicação sem mexer nas palavras."
+          "sigla": "ANTES DE 1988 NÃO É INCONSTITUCIONAL, É NÃO RECEPCIONADA",
+          "texto": "Por isso não cabe ADI contra lei anterior à Constituição; cabe ADPF."
         },
         {
-          "sigla": "MODULAR É COM DOIS TERÇOS",
-          "texto": "Para restringir os efeitos ou fixar outro momento de eficácia, o STF precisa de oito ministros."
+          "sigla": "DIFUSO 1891, CONCENTRADO 1965",
+          "texto": "Difuso veio com a primeira Constituição republicana; concentrado, com a EC 16/1965 à Constituição de 1946."
         }
       ],
-      "juris": [
-        {
-          "quem": "STF · Súmula Vinculante 10",
-          "texto": "Viola a cláusula de reserva de plenário a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo do poder público, afasta sua incidência, no todo ou em parte."
-        },
-        {
-          "quem": "STF · ADPF 347",
-          "texto": "Reconhecido o estado de coisas inconstitucional do sistema prisional brasileiro, diante da violação massiva e persistente de direitos fundamentais decorrente de falhas estruturais e da omissão dos Poderes."
-        }
+      "detalhes": [
+        "O Tribunal de Contas pode, no caso concreto, deixar de aplicar lei inconstitucional, mas não declarar inconstitucionalidade com efeitos gerais (MS 35.410).",
+        "O mandado de segurança do parlamentar no controle preventivo perde o objeto se ele perde o mandato ou se a norma é promulgada.",
+        "Não cabe controle judicial preventivo do conteúdo de projeto de lei comum; o MS só discute o devido processo legislativo e as cláusulas pétreas.",
+        "A inconstitucionalidade por arrastamento pode ser declarada de ofício, mesmo sem pedido, quando a norma dependente perde o fundamento."
       ],
       "pegadinha": {
         "afirmacao": "É vedado ao Poder Legislativo efetuar o controle de constitucionalidade repressivo de normas em abstrato.",
         "gabarito": "E",
         "explicacao": "O Legislativo também faz controle repressivo, por exemplo ao sustar atos do Executivo que exorbitem do poder regulamentar (art. 49, V) ou rejeitar medida provisória inconstitucional (Cebraspe, Delegado PF 2021)."
       },
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-      "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PF 2021 (bloco de constitucionalidade: tratados do art. 5º, § 3º, são parâmetro); Cebraspe, Delegado PC-RJ 2022 (estado de coisas inconstitucional, ADPF 347, que não é medida do sistema de crises).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>A norma constitucional revogada pode ser parâmetro no controle difuso de atos praticados sob sua vigência (Cebraspe, Promotor MPSC 2023). Pelo art. 52, X, o Senado pode suspender a execução de lei declarada inconstitucional pelo STF no controle difuso, mas, para o STF, houve mutação: a declaração incidental do Plenário já tem efeito vinculante e erga omnes, e a resolução do Senado só dá publicidade (ADIs 3.406 e 3.470, 2017). A ação civil pública pode servir ao controle incidental desde que a inconstitucionalidade seja causa de pedir, e não o pedido principal, sob pena de usurpar a competência própria da ação direta.</p><p>A sustação por decreto legislativo dos atos do Executivo que exorbitem do poder regulamentar ou da delegação (art. 49, V) incide sobre norma já editada e é controle repressivo; o mesmo vale para a rejeição de medida provisória sem relevância e urgência (art. 62, § 5º), porque ela já tem força de lei. Preventivo é o controle sobre o projeto, como o parecer da comissão de constituição e justiça e o veto jurídico (art. 66, § 1º).</p><p><strong>Distinções</strong></p><p>O controle pressupõe constituição rígida e supremacia constitucional. No modelo norte-americano, difuso, qualquer juiz deixa de aplicar a lei no caso concreto (Marbury v. Madison, 1803); no austríaco, concentrado, idealizado por Kelsen, um tribunal constitucional decide em abstrato. Quanto ao órgão, o controle pode ser político, exercido por órgão sem natureza jurisdicional, como no modelo francês, jurisdicional ou misto.</p><p><strong>Pegadinhas que já caíram</strong></p><p>Errado: o STF admite a transcendência dos motivos determinantes para conhecer reclamação. Certo: vincula o dispositivo, e não a fundamentação (Cebraspe, Delegado PF 2021).</p><p>Errado: o pedido de interpretação conforme só pode vir por ADC (Cebraspe, Analista STJ 2024).</p>",
-      "relacionados": [
-        "acoes-do-controle-concentrado",
-        "aplicabilidade-e-interpretacao-das-normas",
-        "recepcao"
-      ],
-      "mudancas": [
+      "pegadinhas": [
         {
-          "em": "2026-11-14",
-          "tipo": "juris",
-          "nota": "Acrescidos o art. 52, X, e a mutação constitucional reconhecida nas ADIs 3.406 e 3.470 (abstrativização do controle difuso)."
+          "errado": "O bloco de constitucionalidade não inclui tratados internacionais.",
+          "certo": "Os tratados de direitos humanos aprovados pelo rito do art. 5º, § 3º, são parâmetro de controle.",
+          "fonte": "Cebraspe, Delegado PF 2021"
+        },
+        {
+          "errado": "A norma constitucional revogada não pode servir de parâmetro em nenhuma hipótese.",
+          "certo": "No controle difuso, ela é parâmetro para atos praticados durante sua vigência.",
+          "fonte": "Cebraspe, Promotor MPSC 2023"
+        },
+        {
+          "errado": "O estado de coisas inconstitucional é medida do sistema constitucional de crises.",
+          "certo": "É técnica de decisão do STF diante de violação massiva de direitos (ADPF 347), sem relação com estado de defesa ou de sítio.",
+          "fonte": "Cebraspe, Delegado PC-RJ 2022"
         }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Delegado PF 2021 (bloco de constitucionalidade; Legislativo faz controle repressivo)",
+        "Cebraspe, Delegado PC-RJ 2022 (estado de coisas inconstitucional)",
+        "Cebraspe, Promotor MPSC 2023 (norma revogada como parâmetro no difuso)"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Supremacia e rigidez:</strong> a base teórica está no dossiê de Teoria da Constituição.",
+          "tema": "supremacia-da-constituicao"
+        },
+        {
+          "texto": "<strong>Recepção:</strong> o que acontece com a lei anterior à Constituição.",
+          "tema": "recepcao"
+        }
+      ],
+      "relacionados": [
+        "controle-difuso-e-reserva-de-plenario",
+        "acoes-do-controle-concentrado",
+        "adpf-e-ado",
+        "supremacia-da-constituicao",
+        "recepcao"
+      ]
+    },
+    {
+      "slug": "controle-difuso-e-reserva-de-plenario",
+      "titulo": "Controle difuso: reserva de plenário, recurso extraordinário e papel do Senado",
+      "grupo": "Controle de constitucionalidade",
+      "base": "Arts. 52, X, 97 e 102, III e § 3º, da Constituição e arts. 948 a 950 do CPC",
+      "tax": [
+        "constitucional.controle-incidental-concreto",
+        "constitucional.senado-controle-constitucionalidade",
+        "constitucional.efeitos-transcendentes"
+      ],
+      "dispositivos": [
+        "nCF-1988-art-97",
+        "n13105-2015-art-948",
+        "n13105-2015-art-949",
+        "n13105-2015-art-950"
+      ],
+      "conceitos": [
+        "controle difuso",
+        "controle incidental",
+        "questão prejudicial",
+        "efeito inter partes",
+        "efeito ex tunc",
+        "cláusula de reserva de plenário",
+        "incidente de arguição de inconstitucionalidade",
+        "Súmula Vinculante 10",
+        "recurso extraordinário",
+        "repercussão geral",
+        "resolução do Senado",
+        "abstrativização do controle difuso",
+        "mutação constitucional do art. 52, X",
+        "ação civil pública como controle difuso"
+      ],
+      "palavras": [
+        "controle difuso",
+        "incidental",
+        "via de excecao",
+        "via de defesa",
+        "caso concreto",
+        "qualquer juiz",
+        "questao prejudicial",
+        "causa de pedir",
+        "inter partes",
+        "ex tunc",
+        "reserva de plenario",
+        "full bench",
+        "maioria absoluta",
+        "orgao especial",
+        "orgao fracionario",
+        "turma",
+        "camara",
+        "sumula vinculante 10",
+        "afasta a incidencia",
+        "incidente de arguicao",
+        "art. 948",
+        "art. 949",
+        "ja houver pronunciamento",
+        "amicus curiae",
+        "turma recursal",
+        "recepcao",
+        "juiz singular",
+        "recurso extraordinario",
+        "repercussao geral",
+        "dois tercos",
+        "senado",
+        "suspender a execucao",
+        "resolucao",
+        "art. 52, x",
+        "discricionario",
+        "mutacao constitucional",
+        "abstrativizacao",
+        "adi 3406",
+        "adi 3470",
+        "rcl 4335",
+        "acao civil publica",
+        "efeitos transcendentes"
+      ],
+      "resumo": "No controle <strong>difuso</strong>, qualquer juiz ou tribunal examina a constitucionalidade de uma norma como <strong>questão prejudicial</strong>, no caminho para decidir o caso. A decisão vale, em regra, <strong>entre as partes</strong> e retroage (<strong>ex tunc</strong>). Nos tribunais, vale a <strong>reserva de plenário</strong> (art. 97). Só a maioria absoluta do tribunal ou do órgão especial declara a inconstitucionalidade. A turma que a acolhe suspende o julgamento e remete a questão ao plenário, salvo se ele ou o STF já tiverem se pronunciado. Pela <strong>Súmula Vinculante 10</strong>, também viola a reserva a turma que afasta a lei sem declará-la inconstitucional. O caso chega ao STF por <strong>recurso extraordinário</strong>, com <strong>repercussão geral</strong>. Pelo art. 52, X, o Senado pode suspender a lei declarada inconstitucional pelo STF no difuso. Para o STF, porém, houve <strong>mutação</strong>: a decisão do Plenário, mesmo incidental, já tem efeito contra todos, e a resolução do Senado só dá publicidade (ADIs 3.406 e 3.470).",
+      "esquema": {
+        "rotulo": "difuso e concentrado",
+        "html": "<table><thead><tr><th>Ponto</th><th>Difuso</th><th>Concentrado</th></tr></thead><tbody><tr><td><strong>Quem decide</strong></td><td>Qualquer juiz ou tribunal</td><td>STF (em face da Constituição Federal) ou TJ (em face da constituição estadual)</td></tr><tr><td><strong>Como</strong></td><td>Incidental: a inconstitucionalidade é causa de pedir</td><td>Principal: a inconstitucionalidade é o próprio pedido</td></tr><tr><td><strong>Quem provoca</strong></td><td>Qualquer parte, o MP ou o juiz de ofício</td><td>Só os legitimados do art. 103</td></tr><tr><td><strong>Efeito subjetivo</strong></td><td>Entre as partes (salvo decisão do Plenário do STF, após a mutação do art. 52, X)</td><td>Contra todos e vinculante</td></tr><tr><td><strong>Efeito temporal</strong></td><td>Retroativo, em regra; o STF admite modular</td><td>Retroativo, salvo modulação por dois terços</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Regra",
+            "o_que_e": "Tribunal só declara inconstitucionalidade pela maioria absoluta do plenário ou do órgão especial.",
+            "atencao": "Art. 97. Juiz singular não se submete: decide sozinho.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Incidente",
+            "o_que_e": "A turma acolhe a arguição e remete a questão ao plenário; rejeitada, o julgamento prossegue.",
+            "atencao": "CPC, arts. 948 e 949.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Dispensa",
+            "o_que_e": "Não se remete ao plenário se já houver pronunciamento dele, do órgão especial ou do Plenário do STF.",
+            "atencao": "CPC, art. 949, parágrafo único.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Súmula Vinculante 10",
+            "o_que_e": "Afastar a lei, no todo ou em parte, sem declarar inconstitucional, também viola a reserva.",
+            "atencao": "A turma não pode fugir do art. 97 com outro nome.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Onde não se aplica",
+            "o_que_e": "Turmas recursais dos juizados, decisão de não recepção e decisão que declara a lei constitucional.",
+            "atencao": "Também não se aplica às turmas do STF no julgamento de RE.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Participação no incidente",
+            "o_que_e": "Pessoa jurídica que editou o ato, legitimados do art. 103 e amicus curiae podem se manifestar.",
+            "atencao": "CPC, art. 950.",
+            "grupo": "Reserva de plenário"
+          },
+          {
+            "nome": "Recurso extraordinário",
+            "o_que_e": "Contra decisão que contraria a Constituição, declara inconstitucional tratado ou lei federal ou valida lei local contestada.",
+            "atencao": "Art. 102, III.",
+            "grupo": "Chegada ao STF"
+          },
+          {
+            "nome": "Repercussão geral",
+            "o_que_e": "O recorrente demonstra a relevância da questão constitucional.",
+            "atencao": "O STF só recusa por dois terços (art. 102, § 3º).",
+            "grupo": "Chegada ao STF"
+          },
+          {
+            "nome": "Art. 52, X",
+            "o_que_e": "O Senado suspende, por resolução, a execução de lei declarada inconstitucional pelo STF no difuso.",
+            "atencao": "Ato discricionário; alcança leis federais, estaduais e municipais.",
+            "grupo": "Senado e efeitos"
+          },
+          {
+            "nome": "Mutação",
+            "o_que_e": "Para o STF, a decisão do Plenário no difuso já tem efeito contra todos e vinculante.",
+            "atencao": "A resolução do Senado passa a dar publicidade (ADIs 3.406 e 3.470, 2017).",
+            "grupo": "Senado e efeitos"
+          },
+          {
+            "nome": "Transcendência dos motivos",
+            "o_que_e": "O STF não admite que os fundamentos da decisão vinculem.",
+            "atencao": "O que vincula é o dispositivo.",
+            "grupo": "Senado e efeitos"
+          },
+          {
+            "nome": "Ação civil pública",
+            "o_que_e": "Pode servir ao controle difuso.",
+            "atencao": "Só se a inconstitucionalidade for causa de pedir, e não o pedido principal; senão usurpa a ação direta.",
+            "grupo": "Senado e efeitos"
+          }
+        ]
+      },
+      "lei": [
+        {
+          "norma": "nCF-1988",
+          "artigos": [
+            "Art. 97."
+          ],
+          "ref": "art. 97 da Constituição",
+          "regras": [
+            "<strong>Art. 97.</strong> Os tribunais só declaram a inconstitucionalidade de lei ou ato normativo pela maioria absoluta de seus membros ou do órgão especial."
+          ],
+          "literalidades": [
+            {
+              "trecho": "Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial",
+              "marcas": [
+                "maioria absoluta",
+                "órgão especial"
+              ],
+              "afirmacao": "A turma de tribunal pode declarar a inconstitucionalidade de lei pela maioria de seus membros, desde que fundamente a decisão.",
+              "gabarito": "E",
+              "porque": "Só a maioria absoluta do plenário ou do órgão especial declara a inconstitucionalidade (art. 97)."
+            }
+          ],
+          "conferido": {
+            "Art. 97.": "13577e620109"
+          },
+          "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+        },
+        {
+          "norma": "n13105-2015",
+          "artigos": [
+            "Art. 949."
+          ],
+          "ref": "art. 949 do CPC",
+          "regras": [
+            "<strong>Art. 949.</strong> Rejeitada a arguição, o julgamento prossegue; acolhida, vai ao plenário ou ao órgão especial. A remessa é dispensada se já houver pronunciamento deles ou do Plenário do STF."
+          ],
+          "literalidades": [
+            {
+              "trecho": "Os órgãos fracionários dos tribunais não submeterão ao plenário ou ao órgão especial a arguição de inconstitucionalidade quando já houver pronunciamento destes ou do plenário do Supremo Tribunal Federal sobre a questão",
+              "marcas": [
+                "já houver pronunciamento",
+                "plenário do Supremo Tribunal Federal"
+              ],
+              "afirmacao": "Mesmo que o Plenário do STF já tenha declarado a lei inconstitucional, a turma do tribunal deve remeter a arguição ao órgão especial.",
+              "gabarito": "E",
+              "porque": "A remessa é dispensada quando já houver pronunciamento do plenário, do órgão especial ou do Plenário do STF (art. 949, parágrafo único)."
+            }
+          ],
+          "conferido": {
+            "Art. 949.": "ba43281927fd"
+          },
+          "fonte": "Código de Processo Civil (Lei 13.105/2015), texto do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · Súmula Vinculante 10",
+          "texto": "Viola a cláusula de reserva de plenário a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo, afasta sua incidência, no todo ou em parte."
+        },
+        {
+          "quem": "STF · ADIs 3.406 e 3.470",
+          "texto": "Houve mutação constitucional do art. 52, X: a declaração de inconstitucionalidade pelo Plenário do STF, ainda que incidental, tem efeito vinculante e contra todos; o Senado apenas dá publicidade."
+        },
+        {
+          "quem": "STF · Rcl 3.014 e transcendência",
+          "texto": "O STF não adota a teoria da transcendência dos motivos determinantes: só o dispositivo da decisão vincula."
+        },
+        {
+          "quem": "STF · ação civil pública",
+          "texto": "A ação civil pública pode ser usada para controle difuso, desde que a inconstitucionalidade seja causa de pedir e não o pedido principal."
+        },
+        {
+          "quem": "STF · recepção e art. 97",
+          "texto": "A reserva de plenário não se aplica ao juízo de recepção de norma anterior à Constituição."
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "TURMA NÃO DECLARA",
+          "texto": "Órgão fracionário não declara nem afasta a lei sem o plenário, salvo se já houver decisão do plenário ou do STF."
+        },
+        {
+          "sigla": "SINGULAR PODE",
+          "texto": "O juiz de primeiro grau declara a inconstitucionalidade sozinho: a reserva de plenário é só para tribunais."
+        },
+        {
+          "sigla": "SENADO SÓ PUBLICA",
+          "texto": "Depois das ADIs 3.406 e 3.470, a resolução do art. 52, X, dá publicidade a uma decisão que já vale para todos."
+        }
+      ],
+      "detalhes": [
+        "No difuso, o juiz pode reconhecer a inconstitucionalidade de ofício.",
+        "O STF admite modular os efeitos também no controle difuso, aplicando por analogia o art. 27 da Lei 9.868/1999.",
+        "A decisão que declara a lei constitucional não precisa ir ao plenário: a reserva é para declarar a inconstitucionalidade.",
+        "A resolução do Senado do art. 52, X, pode suspender lei federal, estadual ou municipal."
+      ],
+      "pegadinha": {
+        "afirmacao": "Órgão fracionário de tribunal pode afastar a aplicação de lei por incompatibilidade com a Constituição, desde que não declare expressamente a sua inconstitucionalidade.",
+        "gabarito": "E",
+        "explicacao": "Afastar a lei sem declarar viola a reserva de plenário (Súmula Vinculante 10)."
+      },
+      "pegadinhas": [
+        {
+          "errado": "O STF admite a transcendência dos motivos determinantes para conhecer reclamação.",
+          "certo": "Vincula o dispositivo, e não a fundamentação.",
+          "fonte": "Cebraspe, Delegado PF 2021"
+        },
+        {
+          "errado": "O juiz de primeiro grau deve suscitar incidente ao tribunal para afastar lei inconstitucional.",
+          "certo": "A reserva de plenário vale para tribunais; o juiz singular decide sozinho.",
+          "fonte": "Questão do app sobre o art. 97"
+        },
+        {
+          "errado": "A ação civil pública não pode ser usada para controle de constitucionalidade.",
+          "certo": "Pode, no controle difuso, se a inconstitucionalidade for causa de pedir.",
+          "fonte": "Questão do app sobre controle difuso"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Delegado PF 2021 (transcendência dos motivos determinantes)"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Recurso extraordinário e repercussão geral:</strong> competências do STF.",
+          "tema": "stf-e-stj"
+        },
+        {
+          "texto": "<strong>Competências do Senado:</strong> art. 52.",
+          "tema": "congresso-nacional-composicao-e-competencias"
+        }
+      ],
+      "relacionados": [
+        "controle-de-constitucionalidade",
+        "acoes-do-controle-concentrado",
+        "poder-judiciario",
+        "stf-e-stj"
       ]
     },
     {
       "slug": "acoes-do-controle-concentrado",
-      "titulo": "Ações do controle concentrado: ADI, ADC, ADO e ADPF",
+      "titulo": "ADI e ADC: legitimados, objeto, procedimento, efeitos e técnicas de decisão",
       "grupo": "Controle de constitucionalidade",
-      "base": "Arts. 102, I, a, e §§ 1º e 2º, 103 e 125, § 2º, da Constituição; Leis 9.868/1999 e 9.882/1999",
+      "base": "Arts. 102, I, a, e §§ 1º e 2º, e 103 da Constituição e Lei 9.868/1999",
       "tax": [
         "constitucional.processo-adi-adc",
-        "constitucional.processo-adpf",
-        "constitucional.arguicao-descumprimento-preceitos-fundamentais",
-        "constitucional.inconstitucionalidade-acao-omissao",
-        "constitucional.agu-controle-concentrado",
-        "constitucional.adi-interventiva.controle-estadual"
+        "constitucional.agu-controle-concentrado"
       ],
       "dispositivos": [
-        "nCF-1988-art-102",
         "nCF-1988-art-103",
-        "nCF-1988-art-125",
+        "n9868-1999-art-2",
+        "n9868-1999-art-3",
+        "n9868-1999-art-4",
+        "n9868-1999-art-5",
+        "n9868-1999-art-6",
         "n9868-1999-art-7",
+        "n9868-1999-art-8",
+        "n9868-1999-art-9",
+        "n9868-1999-art-10",
+        "n9868-1999-art-11",
+        "n9868-1999-art-12",
+        "n9868-1999-art-13",
+        "n9868-1999-art-14",
+        "n9868-1999-art-20",
+        "n9868-1999-art-21",
+        "n9868-1999-art-22",
+        "n9868-1999-art-23",
+        "n9868-1999-art-24",
+        "n9868-1999-art-25",
         "n9868-1999-art-26",
-        "n9882-1999-art-1",
-        "n9882-1999-art-4",
-        "n9882-1999-art-12"
+        "n9868-1999-art-27",
+        "n9868-1999-art-28"
       ],
       "conceitos": [
         "ação direta de inconstitucionalidade",
         "ação declaratória de constitucionalidade",
-        "ação direta de inconstitucionalidade por omissão",
-        "arguição de descumprimento de preceito fundamental",
-        "legitimados ativos",
+        "processo objetivo",
+        "legitimados universais",
+        "legitimados especiais",
         "pertinência temática",
-        "subsidiariedade",
+        "controvérsia judicial relevante",
+        "Advogado-Geral da União",
+        "Procurador-Geral da República",
         "amicus curiae",
+        "medida cautelar",
+        "efeito repristinatório",
+        "quórum de instalação e de decisão",
         "efeito dúplice",
-        "efeito vinculante"
+        "eficácia contra todos",
+        "efeito vinculante",
+        "modulação de efeitos",
+        "interpretação conforme",
+        "declaração parcial sem redução de texto",
+        "fungibilidade"
       ],
       "palavras": [
-        "adi lei federal ou estadual",
-        "adc lei federal",
-        "controversia judicial relevante",
-        "adi lei municipal nao cabe",
-        "adpf lei municipal e pre-constitucional",
-        "subsidiariedade",
-        "legitimados do art 103",
-        "universais e especiais",
-        "pertinencia tematica governador mesa confederacao",
-        "partido com representacao",
-        "pgr sempre ouvido",
-        "agu defende a norma",
-        "amicus curiae irrecorrivel",
-        "nao cabe intervencao de terceiros",
-        "nao cabe desistencia",
-        "efeito duplice",
-        "irrecorrivel salvo embargos",
-        "nao cabe acao rescisoria",
-        "efeito vinculante judiciario e administracao",
-        "nao vincula o legislativo",
-        "reclamacao",
-        "regulamento secundario nao cabe adi",
-        "decreto autonomo cabe",
-        "adi estadual no tj",
-        "legitimidade ativa",
-        "governador afastado",
-        "capacidade postulatoria",
-        "nove estados",
-        "entidade de classe",
-        "confederacao sindical",
+        "adi",
+        "adc",
+        "processo objetivo",
+        "art. 103",
+        "presidente da republica",
+        "mesa do senado",
+        "mesa da camara",
+        "mesa de assembleia",
+        "governador",
+        "pgr",
+        "conselho federal da oab",
+        "partido politico",
+        "representacao no congresso",
         "diretorio nacional",
-        "amicus curiae embargos",
-        "ado",
-        "inertia deliberandi",
-        "projeto de lei em tramitacao",
-        "adpf lei municipal",
-        "transcende o interesse local",
-        "adi simultanea",
-        "suspensao da acao estadual"
+        "confederacao sindical",
+        "entidade de classe",
+        "nove estados",
+        "pertinencia tematica",
+        "capacidade postulatoria",
+        "lei federal ou estadual",
+        "distrito federal",
+        "sumula 642",
+        "lei anterior",
+        "norma revogada",
+        "decreto autonomo",
+        "regulamento",
+        "sumula",
+        "norma originaria",
+        "controversia judicial relevante",
+        "inicial inepta",
+        "agravo",
+        "desistencia",
+        "intervencao de terceiros",
+        "amicus curiae",
+        "informacoes",
+        "trinta dias",
+        "agu",
+        "curador",
+        "quinze dias",
+        "cautelar",
+        "maioria absoluta",
+        "ex nunc",
+        "legislacao anterior",
+        "rito sumario",
+        "art. 12",
+        "oito ministros",
+        "seis ministros",
+        "efeito duplice",
+        "irrecorrivel",
+        "embargos de declaracao",
+        "acao rescisoria",
+        "modulacao",
+        "dois tercos",
+        "seguranca juridica",
+        "excepcional interesse social",
+        "eficacia contra todos",
+        "efeito vinculante",
+        "legislativo",
+        "interpretacao conforme",
+        "sem reducao de texto",
+        "fungibilidade"
       ],
-      "resumo": "A <strong>ADI</strong> ataca lei ou ato normativo <strong>federal ou estadual</strong> posterior a 1988; a <strong>ADC</strong> defende lei ou ato <strong>federal</strong> e exige <strong>controvérsia judicial relevante</strong>; a <strong>ADO</strong> combate omissão normativa; a <strong>ADPF</strong>, subsidiária, alcança o que as outras não alcançam, como lei <strong>municipal</strong> e direito <strong>anterior a 1988</strong>. Podem propor os legitimados do art. 103; governador, Mesa de Assembleia e confederação sindical ou entidade de classe nacional precisam demonstrar <strong>pertinência temática</strong>, e partido precisa ter representação no Congresso. O PGR é sempre ouvido, e o AGU defende a norma impugnada. Não cabe desistência nem intervenção de terceiros, mas o relator pode admitir <strong>amicus curiae</strong>. ADI e ADC têm <strong>efeito dúplice</strong>: a improcedência de uma equivale à procedência da outra. A decisão é irrecorrível, salvo embargos de declaração, não admite ação rescisória e tem efeito contra todos e <strong>vinculante</strong> para o Judiciário e a administração, mas <strong>não</strong> para o Legislativo na função de legislar. Regulamento que só executa a lei não se ataca por ADI; decreto autônomo, sim. Nos estados, a representação de inconstitucionalidade contra lei estadual ou municipal em face da constituição estadual vai ao <strong>Tribunal de Justiça</strong>.",
+      "resumo": "A <strong>ADI</strong> ataca lei ou ato normativo <strong>federal ou estadual</strong> posterior a 1988. A <strong>ADC</strong> defende lei ou ato <strong>federal</strong> e exige <strong>controvérsia judicial relevante</strong>. Desde a EC 45/2004, as duas têm os mesmos legitimados (art. 103). Mesa de Assembleia, Governador e confederação ou entidade de classe nacional precisam de <strong>pertinência temática</strong>. Os demais são universais. É processo objetivo: <strong>não admite desistência</strong> nem intervenção de terceiros, mas o relator pode admitir <strong>amicus curiae</strong>. O <strong>PGR</strong> é sempre ouvido. O <strong>AGU</strong> defende a norma na ADI, mas não é obrigado quando o STF já a considerou inconstitucional. A cautelar exige maioria absoluta, vale em regra <em>ex nunc</em> e restaura a lei anterior. A decisão exige oito Ministros presentes e seis votos. Tem <strong>efeito dúplice</strong>, eficácia contra todos e efeito vinculante para o Judiciário e a administração, não para o legislador. É irrecorrível, salvo embargos de declaração, e não admite rescisória. Por <strong>dois terços</strong>, o STF pode modular os efeitos.",
       "esquema": {
-        "rotulo": "qual ação usar",
-        "html": "<table><thead><tr><th>Objeto</th><th>Ação no STF</th></tr></thead><tbody><tr><td><strong>Lei federal ou estadual posterior a 1988</strong></td><td>ADI (ou ADC, se federal e houver controvérsia)</td></tr><tr><td><strong>Omissão em regulamentar norma constitucional</strong></td><td>ADO</td></tr><tr><td><strong>Lei municipal em face da Constituição Federal</strong></td><td>ADPF</td></tr><tr><td><strong>Lei anterior a 1988</strong></td><td>ADPF</td></tr><tr><td><strong>Regulamento que apenas executa a lei</strong></td><td>Nenhuma: é crise de legalidade</td></tr></tbody></table>"
+        "rotulo": "legitimados do art. 103",
+        "html": "<table><thead><tr><th>Legitimado</th><th>Tipo</th><th>Detalhe cobrado</th></tr></thead><tbody><tr><td><strong>Presidente da República</strong></td><td>Universal</td><td></td></tr><tr><td><strong>Mesas do Senado e da Câmara</strong></td><td>Universais</td><td>A Mesa do Congresso não está na lista</td></tr><tr><td><strong>Mesa de Assembleia ou da Câmara Legislativa do DF</strong></td><td>Especial: pertinência temática</td><td></td></tr><tr><td><strong>Governador de Estado ou do DF</strong></td><td>Especial: pertinência temática</td><td>A legitimidade é do Governador, não do Estado; tem capacidade postulatória própria</td></tr><tr><td><strong>Procurador-Geral da República</strong></td><td>Universal</td><td>Também é sempre ouvido como fiscal</td></tr><tr><td><strong>Conselho Federal da OAB</strong></td><td>Universal</td><td>Seccionais da OAB não são legitimadas</td></tr><tr><td><strong>Partido com representação no Congresso</strong></td><td>Universal</td><td>Age pelo diretório nacional; basta um parlamentar, aferido na propositura</td></tr><tr><td><strong>Confederação sindical ou entidade de classe nacional</strong></td><td>Especial: pertinência temática</td><td>Federação e sindicato não; entidade presente em ao menos nove estados</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "ADI",
+            "o_que_e": "Lei ou ato normativo federal ou estadual, posterior à Constituição.",
+            "atencao": "Lei do DF de natureza municipal não cabe (Súmula 642).",
+            "grupo": "Objeto"
+          },
+          {
+            "nome": "ADC",
+            "o_que_e": "Só lei ou ato normativo federal.",
+            "atencao": "Exige controvérsia judicial relevante sobre a norma.",
+            "grupo": "Objeto"
+          },
+          {
+            "nome": "Não cabem",
+            "o_que_e": "Lei anterior a 1988, lei municipal, norma originária da Constituição, súmula, regulamento de execução, lei já revogada.",
+            "atencao": "Decreto autônomo cabe. Emenda constitucional cabe.",
+            "grupo": "Objeto"
+          },
+          {
+            "nome": "Lei revogada no curso",
+            "o_que_e": "A ação fica prejudicada.",
+            "atencao": "Exceção: revogação para fraudar o julgamento ou depois de pautada a ação.",
+            "grupo": "Objeto"
+          },
+          {
+            "nome": "Inicial",
+            "o_que_e": "Indica o dispositivo impugnado e os fundamentos de cada impugnação.",
+            "atencao": "Inepta, não fundamentada ou manifestamente improcedente: o relator indefere; cabe agravo.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Desistência",
+            "o_que_e": "Não se admite.",
+            "atencao": "Vale também para o pedido de cautelar.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Informações",
+            "o_que_e": "Os órgãos que editaram a norma prestam informações em trinta dias.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "AGU e PGR",
+            "o_que_e": "Manifestam-se sucessivamente, em quinze dias cada.",
+            "atencao": "Na ADC, o AGU não é citado: não há norma a defender contra ataque.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Amicus curiae",
+            "o_que_e": "Admitido pelo relator, por despacho irrecorrível, pela relevância da matéria e representatividade.",
+            "atencao": "Pode fazer sustentação oral, mas não recorre da decisão de mérito.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Rito sumário",
+            "o_que_e": "O relator leva a ação direto ao mérito, pela relevância da matéria.",
+            "atencao": "Art. 12.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Quórum",
+            "o_que_e": "Maioria absoluta do Tribunal, salvo no recesso.",
+            "atencao": "Em excepcional urgência, sem ouvir os órgãos que editaram a norma.",
+            "grupo": "Cautelar"
+          },
+          {
+            "nome": "Efeitos",
+            "o_que_e": "Contra todos, em regra <em>ex nunc</em>.",
+            "atencao": "Torna aplicável a legislação anterior, salvo manifestação em contrário: efeito repristinatório.",
+            "grupo": "Cautelar"
+          },
+          {
+            "nome": "Cautelar na ADC",
+            "o_que_e": "Determina que juízes e tribunais suspendam os julgamentos sobre a norma.",
+            "atencao": "O STF deve julgar em 180 dias, sob pena de perda da eficácia.",
+            "grupo": "Cautelar"
+          },
+          {
+            "nome": "Quórum",
+            "o_que_e": "Oito Ministros presentes; seis votos num sentido.",
+            "atencao": "Sem seis votos e com ausentes que possam influir, o julgamento é suspenso.",
+            "grupo": "Decisão"
+          },
+          {
+            "nome": "Efeito dúplice",
+            "o_que_e": "Procedente a ADI equivale a improcedente a ADC, e vice-versa.",
+            "atencao": "Art. 24.",
+            "grupo": "Decisão"
+          },
+          {
+            "nome": "Recursos",
+            "o_que_e": "Irrecorrível, salvo embargos de declaração.",
+            "atencao": "Não cabe ação rescisória.",
+            "grupo": "Decisão"
+          },
+          {
+            "nome": "Efeito vinculante",
+            "o_que_e": "Para os demais órgãos do Judiciário e a administração de todas as esferas.",
+            "atencao": "Não vincula o Legislativo na função de legislar nem o próprio Plenário do STF.",
+            "grupo": "Decisão"
+          },
+          {
+            "nome": "Modulação",
+            "o_que_e": "Dois terços, por segurança jurídica ou excepcional interesse social.",
+            "atencao": "Pode restringir efeitos ou fixar outro momento de eficácia.",
+            "grupo": "Decisão"
+          },
+          {
+            "nome": "Interpretação conforme",
+            "o_que_e": "Fixa o único sentido compatível com a Constituição.",
+            "atencao": "Pode ser pedida em ADI, não só em ADC.",
+            "grupo": "Técnicas de decisão"
+          },
+          {
+            "nome": "Nulidade parcial sem redução de texto",
+            "o_que_e": "Exclui uma hipótese de aplicação sem mexer nas palavras.",
+            "atencao": "Também tem efeito contra todos e vinculante (art. 28, parágrafo único).",
+            "grupo": "Técnicas de decisão"
+          },
+          {
+            "nome": "Inconstitucionalidade sem pronúncia de nulidade",
+            "o_que_e": "Reconhece o vício, mas mantém a norma por um tempo.",
+            "atencao": "Usada com apelo ao legislador.",
+            "grupo": "Técnicas de decisão"
+          },
+          {
+            "nome": "Fungibilidade",
+            "o_que_e": "O STF recebe uma ação pela outra (ADI por ADPF, ADI por ADO).",
+            "atencao": "Não vale com erro grosseiro na escolha.",
+            "grupo": "Técnicas de decisão"
+          }
+        ]
       },
       "lei": [
         {
-          "texto": "Art. 103. Podem propor a ação direta de inconstitucionalidade e a ação declaratória de constitucionalidade:\n\nI - o Presidente da República;\n\nII - a Mesa do Senado Federal;\n\nIII - a Mesa da Câmara dos Deputados;\n\nIV - a Mesa de Assembléia Legislativa ou da Câmara Legislativa do Distrito Federal;\n\nV - o Governador de Estado ou do Distrito Federal;\n\nVI - o Procurador-Geral da República;\n\nVII - o Conselho Federal da Ordem dos Advogados do Brasil;\n\nVIII - partido político com representação no Congresso Nacional;\n\nIX - confederação sindical ou entidade de classe de âmbito nacional.\n\n§ 1º O Procurador-Geral da República deverá ser previamente ouvido nas ações de inconstitucionalidade e em todos os processos de competência do Supremo Tribunal Federal.\n\n§ 2º Declarada a inconstitucionalidade por omissão de medida para tornar efetiva norma constitucional, será dada ciência ao Poder competente para a adoção das providências necessárias e, em se tratando de órgão administrativo, para fazê-lo em trinta dias.\n\n§ 3º Quando o Supremo Tribunal Federal apreciar a inconstitucionalidade, em tese, de norma legal ou ato normativo, citará, previamente, o Advogado-Geral da União, que defenderá o ato ou texto impugnado.\n\n(...)",
+          "norma": "nCF-1988",
+          "artigos": [
+            "Art. 103."
+          ],
+          "ref": "art. 103 da Constituição",
+          "regras": [
+            "<strong>Art. 103.</strong> Legitimados da ADI e da ADC. O PGR é ouvido previamente. O AGU defende o ato ou texto impugnado. Na omissão, dá-se ciência ao Poder competente, e o órgão administrativo tem trinta dias."
+          ],
+          "literalidades": [
+            {
+              "trecho": "Podem propor a ação direta de inconstitucionalidade e a ação declaratória de constitucionalidade",
+              "marcas": [
+                "e a ação declaratória de constitucionalidade"
+              ],
+              "afirmacao": "Apenas o Presidente da República, as Mesas da Câmara e do Senado e o PGR podem propor ADC.",
+              "gabarito": "E",
+              "porque": "Desde a EC 45/2004, os legitimados da ADC são os mesmos da ADI (art. 103). O art. 13 da Lei 9.868/1999, que listava quatro, foi superado."
+            },
+            {
+              "trecho": "confederação sindical ou entidade de classe de âmbito nacional",
+              "marcas": [
+                "confederação sindical",
+                "âmbito nacional"
+              ],
+              "afirmacao": "Federação sindical de âmbito nacional pode propor ADI.",
+              "gabarito": "E",
+              "porque": "Só a confederação sindical é legitimada; federação e sindicato não (art. 103, IX)."
+            },
+            {
+              "trecho": "citará, previamente, o Advogado-Geral da União, que defenderá o ato ou texto impugnado",
+              "marcas": [
+                "Advogado-Geral da União",
+                "defenderá o ato ou texto impugnado"
+              ],
+              "afirmacao": "O AGU deve defender a norma impugnada em qualquer hipótese, ainda que o STF já a tenha declarado inconstitucional.",
+              "gabarito": "E",
+              "porque": "O STF dispensa a defesa quando já firmou a inconstitucionalidade da tese (ADI 1.616)."
+            }
+          ],
+          "conferido": {
+            "Art. 103.": "44a54e806b33"
+          },
           "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-          "norma": "nCF-1988"
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
         },
         {
-          "texto": "Art. 102. Compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição, cabendo-lhe:\n\n(...)\n\n§ 2º As decisões definitivas de mérito, proferidas pelo Supremo Tribunal Federal, nas ações diretas de inconstitucionalidade e nas ações declaratórias de constitucionalidade, produzirão eficácia contra todos e efeito vinculante, relativamente aos demais órgãos do Poder Judiciário e à administração pública direta e indireta, nas esferas federal, estadual e municipal.\n\n(...)",
-          "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-          "norma": "nCF-1988"
+          "norma": "n9868-1999",
+          "artigos": [
+            "Art. 5º.",
+            "Art. 7º.",
+            "Art. 11.",
+            "Art. 22.",
+            "Art. 23.",
+            "Art. 26.",
+            "Art. 27.",
+            "Art. 28."
+          ],
+          "ref": "arts. 5º a 28 da Lei 9.868/1999",
+          "regras": [
+            "<strong>Art. 5º.</strong> Proposta a ação direta, não se admite desistência.",
+            "<strong>Art. 7º.</strong> Não se admite intervenção de terceiros, mas o relator pode admitir a manifestação de outros órgãos ou entidades.",
+            "<strong>Art. 11.</strong> A cautelar tem eficácia contra todos e efeito <em>ex nunc</em>, salvo eficácia retroativa, e torna aplicável a legislação anterior.",
+            "<strong>Arts. 22 e 23.</strong> Quórum de oito Ministros presentes e de seis votos.",
+            "<strong>Art. 26.</strong> A decisão é irrecorrível, salvo embargos declaratórios, e não admite ação rescisória.",
+            "<strong>Art. 27.</strong> Modulação por dois terços, por segurança jurídica ou excepcional interesse social.",
+            "<strong>Art. 28.</strong> A decisão, inclusive a interpretação conforme e a nulidade sem redução de texto, tem eficácia contra todos e efeito vinculante."
+          ],
+          "literalidades": [
+            {
+              "trecho": "Proposta a ação direta, não se admitirá desistência",
+              "marcas": [
+                "não se admitirá desistência"
+              ],
+              "afirmacao": "O Governador que propôs a ADI pode desistir dela até o início do julgamento.",
+              "gabarito": "E",
+              "porque": "Não se admite desistência da ação direta (art. 5º)."
+            },
+            {
+              "trecho": "A medida cautelar, dotada de eficácia contra todos, será concedida com efeito ex nunc, salvo se o Tribunal entender que deva conceder-lhe eficácia retroativa",
+              "marcas": [
+                "eficácia contra todos",
+                "ex nunc"
+              ],
+              "afirmacao": "A medida cautelar em ADI tem sempre efeito retroativo.",
+              "gabarito": "E",
+              "porque": "Em regra, o efeito é <em>ex nunc</em>; o retroativo depende de o Tribunal assim decidir (art. 11, § 1º)."
+            },
+            {
+              "trecho": "somente será tomada se presentes na sessão pelo menos oito Ministros",
+              "marcas": [
+                "oito Ministros"
+              ],
+              "afirmacao": "A decisão de mérito em ADI exige a presença de todos os onze Ministros.",
+              "gabarito": "E",
+              "porque": "Basta a presença de oito Ministros (art. 22), e a declaração exige seis votos (art. 23)."
+            },
+            {
+              "trecho": "poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros",
+              "marcas": [
+                "dois terços"
+              ],
+              "afirmacao": "O STF pode modular os efeitos da declaração de inconstitucionalidade pela maioria absoluta de seus membros.",
+              "gabarito": "E",
+              "porque": "A modulação exige dois terços dos membros (art. 27)."
+            }
+          ],
+          "conferido": {
+            "Art. 5º.": "32c53aa5f6a8",
+            "Art. 7º.": "2263e620ebc9",
+            "Art. 11.": "d79054963d6a",
+            "Art. 22.": "26030b9ee2c7",
+            "Art. 23.": "bec95303dd95",
+            "Art. 26.": "a9f67a472243",
+            "Art. 27.": "fb71eb0c4d83",
+            "Art. 28.": "6aa75d41d9e1"
+          },
+          "fonte": "Lei 9.868/1999, texto do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · ADI 1.616",
+          "texto": "O Advogado-Geral da União não está obrigado a defender a norma impugnada quando o STF já se pronunciou pela inconstitucionalidade da tese."
         },
         {
-          "texto": "Art. 4º A petição inicial será indeferida liminarmente, pelo relator, quando não for o caso de argüição de descumprimento de preceito fundamental, faltar algum dos requisitos prescritos nesta Lei ou for inepta.\n\n§ 1º Não será admitida argüição de descumprimento de preceito fundamental quando houver qualquer outro meio eficaz de sanar a lesividade.\n\n§ 2º Da decisão de indeferimento da petição inicial caberá agravo, no prazo de cinco dias.",
-          "fonte": "Lei 9.882/1999 (ADPF), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9882-3-dezembro-1999-369889-publicacaooriginal-1-pl.html",
-          "norma": "n9882-1999"
+          "quem": "STF · Súmula 642",
+          "texto": "Não cabe ação direta de inconstitucionalidade de lei do Distrito Federal derivada da sua competência legislativa municipal."
         },
         {
-          "texto": "Art. 12. A decisão que julgar procedente ou improcedente o pedido em argüição de descumprimento de preceito fundamental é irrecorrível, não podendo ser objeto de ação rescisória.",
-          "fonte": "Lei 9.882/1999 (ADPF), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9882-3-dezembro-1999-369889-publicacaooriginal-1-pl.html",
-          "norma": "n9882-1999"
+          "quem": "STF · decreto e regulamento",
+          "texto": "Não cabe ADI contra regulamento que apenas executa a lei; o excesso é ilegalidade. Cabe contra decreto autônomo, que inova na ordem jurídica."
+        },
+        {
+          "quem": "STF · entidade de classe",
+          "texto": "Entidade de classe de âmbito nacional precisa ter associados em pelo menos nove estados e representar categoria homogênea; associação de associações é admitida."
+        },
+        {
+          "quem": "STF · amicus curiae",
+          "texto": "O amicus curiae não tem legitimidade para opor embargos de declaração contra a decisão de mérito no controle concentrado."
+        },
+        {
+          "quem": "STF · partido político",
+          "texto": "A perda superveniente de representação do partido no Congresso não prejudica a ADI já proposta."
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "MESA, GOVERNADOR E CONFEDERAÇÃO PROVAM INTERESSE",
+          "texto": "Os legitimados especiais precisam de pertinência temática. Os outros seis são universais."
+        },
+        {
+          "sigla": "OITO PRESENTES, SEIS VOTOS",
+          "texto": "Quórum de instalação e de decisão na ADI e na ADC."
+        },
+        {
+          "sigla": "VINCULA TODO MUNDO, MENOS O LEGISLADOR",
+          "texto": "O Legislativo pode editar nova lei de igual conteúdo; ela se ataca por nova ação."
+        },
+        {
+          "sigla": "MODULAR É COM DOIS TERÇOS",
+          "texto": "Oito Ministros para restringir efeitos ou fixar outro momento de eficácia."
+        }
+      ],
+      "detalhes": [
+        "Não há prazo de prescrição ou decadência para propor ADI.",
+        "A petição assinada só pelo procurador do Estado precisa da subscrição do Governador.",
+        "Partido político age pelo diretório nacional; diretório estadual ou municipal não propõe ADI.",
+        "A ADI pode ter como objeto emenda constitucional, mas não norma originária da Constituição.",
+        "A decisão do STF não impede o próprio Tribunal de rever seu entendimento depois, em nova ação."
+      ],
+      "pegadinha": {
+        "afirmacao": "A fungibilidade entre as ações de controle concentrado impede o STF de rejeitar a ação por erro grosseiro na escolha da via.",
+        "gabarito": "E",
+        "explicacao": "O STF não aplica a fungibilidade quando há erro grosseiro (Cebraspe, Analista STJ 2024)."
+      },
+      "pegadinhas": [
+        {
+          "errado": "O efeito vinculante da ADI alcança o Legislativo, que fica proibido de editar lei de igual conteúdo.",
+          "certo": "O Legislativo não fica vinculado na função de legislar.",
+          "fonte": "Cebraspe, Delegado PC-PB 2022; Analista MPCE 2025"
+        },
+        {
+          "errado": "O STF admite ADI contra regulamento de licenciamento ambiental de cemitérios.",
+          "certo": "Regulamento que executa a lei não cabe em ADI.",
+          "fonte": "Cebraspe, Delegado PF 2018"
+        },
+        {
+          "errado": "O pedido de interpretação conforme só pode vir por ADC.",
+          "certo": "Pode ser formulado em ADI.",
+          "fonte": "Cebraspe, Analista STJ 2024"
+        },
+        {
+          "errado": "Em ADC, a decisão só pode confirmar a constitucionalidade da lei.",
+          "certo": "Pelo efeito dúplice, a ADC pode resultar em declaração de inconstitucionalidade, inclusive com modulação.",
+          "fonte": "Cebraspe, Delegado PC-AL 2023"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Delegado PC-AL 2023 (efeito dúplice e modulação na ADC)",
+        "Cebraspe, Delegado PC-PB 2022 (vinculação)",
+        "Cebraspe, Delegado PF 2018 (regulamento e decreto autônomo)",
+        "Cebraspe, Analista STJ 2024 (fungibilidade e interpretação conforme)"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Competência originária do STF:</strong> art. 102, I, a.",
+          "tema": "stf-e-stj"
+        }
+      ],
+      "relacionados": [
+        "controle-de-constitucionalidade",
+        "adpf-e-ado",
+        "reclamacao-constitucional",
+        "funcoes-essenciais-a-justica"
+      ]
+    },
+    {
+      "slug": "adpf-e-ado",
+      "titulo": "ADPF e ADO: subsidiariedade, objeto e efeitos",
+      "grupo": "Controle de constitucionalidade",
+      "base": "Arts. 102, § 1º, e 103, § 2º, da Constituição; Lei 9.882/1999; arts. 12-A a 12-H da Lei 9.868/1999",
+      "tax": [
+        "constitucional.processo-adpf",
+        "constitucional.arguicao-descumprimento-preceitos-fundamentais",
+        "constitucional.inconstitucionalidade-acao-omissao"
+      ],
+      "dispositivos": [
+        "n9882-1999-art-1",
+        "n9882-1999-art-2",
+        "n9882-1999-art-3",
+        "n9882-1999-art-4",
+        "n9882-1999-art-5",
+        "n9882-1999-art-6",
+        "n9882-1999-art-7",
+        "n9882-1999-art-8",
+        "n9882-1999-art-10",
+        "n9882-1999-art-11",
+        "n9882-1999-art-12",
+        "n9882-1999-art-13",
+        "n9868-1999-art-12-a",
+        "n9868-1999-art-12-b",
+        "n9868-1999-art-12-c",
+        "n9868-1999-art-12-d",
+        "n9868-1999-art-12-e",
+        "n9868-1999-art-12-f",
+        "n9868-1999-art-12-g",
+        "n9868-1999-art-12-h"
+      ],
+      "conceitos": [
+        "arguição de descumprimento de preceito fundamental",
+        "preceito fundamental",
+        "subsidiariedade",
+        "ADPF autônoma e incidental",
+        "direito pré-constitucional",
+        "lei municipal",
+        "ação direta de inconstitucionalidade por omissão",
+        "omissão total e parcial",
+        "ciência ao Poder competente",
+        "prazo de trinta dias ao órgão administrativo",
+        "omissão parcial",
+        "estado de coisas inconstitucional"
+      ],
+      "palavras": [
+        "adpf",
+        "preceito fundamental",
+        "lei 9.882",
+        "evitar ou reparar lesao",
+        "ato do poder publico",
+        "controversia constitucional relevante",
+        "federal, estadual ou municipal",
+        "anteriores a constituicao",
+        "subsidiariedade",
+        "outro meio eficaz",
+        "legitimados da adi",
+        "indeferida liminarmente",
+        "agravo",
+        "cinco dias",
+        "liminar",
+        "maioria absoluta",
+        "relator",
+        "recesso",
+        "ad referendum",
+        "dois tercos dos ministros",
+        "irrecorrivel",
+        "acao rescisoria",
+        "reclamacao",
+        "eficacia contra todos",
+        "efeito vinculante",
+        "modulacao",
+        "decisao judicial",
+        "transito em julgado",
+        "veto",
+        "sumula",
+        "ado",
+        "omissao",
+        "lei 12.063",
+        "12-a",
+        "dever constitucional de legislar",
+        "providencia de indole administrativa",
+        "ciencia ao poder competente",
+        "trinta dias",
+        "orgao administrativo",
+        "prazo razoavel",
+        "ado 26",
+        "homofobia",
+        "ado 25",
+        "lei kandir",
+        "mandado de injuncao",
+        "projeto em tramitacao",
+        "inertia deliberandi"
+      ],
+      "resumo": "A <strong>ADPF</strong> protege <strong>preceito fundamental</strong> contra ato do Poder Público e é <strong>subsidiária</strong>: só cabe quando não há outro meio eficaz de sanar a lesão. Por isso alcança o que a ADI não alcança: <strong>lei municipal</strong> em face da Constituição Federal, <strong>direito anterior a 1988</strong>, atos não normativos e decisões judiciais sem trânsito em julgado. Os legitimados são os da ADI. A liminar exige maioria absoluta, mas o relator a concede em extrema urgência ou no recesso, para referendo do Pleno. A decisão exige <strong>dois terços dos Ministros presentes</strong>, é irrecorrível, não admite rescisória e tem efeito contra todos e vinculante. A <strong>ADO</strong> combate a omissão em tornar efetiva norma constitucional, seja de legislar, seja de providência administrativa. Declarada a omissão, dá-se <strong>ciência ao Poder competente</strong>. Se a omissão é de órgão administrativo, ele tem <strong>30 dias</strong>. Ao Legislativo, a Constituição não fixa prazo, mas o STF já fixou (ADO 25) e já supriu a omissão (ADO 26).",
+      "esquema": {
+        "rotulo": "ADPF e ADO",
+        "html": "<table><thead><tr><th>Ponto</th><th>ADPF</th><th>ADO</th></tr></thead><tbody><tr><td><strong>Objeto</strong></td><td>Ato do Poder Público que lesa preceito fundamental, inclusive lei municipal e anterior a 1988</td><td>Omissão total ou parcial em legislar ou adotar providência administrativa</td></tr><tr><td><strong>Legitimados</strong></td><td>Os da ADI</td><td>Os da ADI e da ADC</td></tr><tr><td><strong>Requisito especial</strong></td><td>Subsidiariedade: ausência de outro meio eficaz</td><td>Norma constitucional de eficácia limitada não regulamentada</td></tr><tr><td><strong>Liminar</strong></td><td>Maioria absoluta; relator em extrema urgência ou recesso</td><td>Maioria absoluta, em excepcional urgência</td></tr><tr><td><strong>Quórum de decisão</strong></td><td>Dois terços dos Ministros presentes</td><td>Oito presentes e seis votos (regras da ADI)</td></tr><tr><td><strong>Efeito</strong></td><td>Contra todos e vinculante; irrecorrível; sem rescisória</td><td>Ciência ao Poder; 30 dias ao órgão administrativo</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Preceito fundamental",
+            "o_que_e": "A lei não define; o STF identifica caso a caso.",
+            "atencao": "Princípios fundamentais, direitos e garantias, cláusulas pétreas e princípios sensíveis são exemplos.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Subsidiariedade",
+            "o_que_e": "Não cabe se houver outro meio eficaz de sanar a lesão.",
+            "atencao": "O outro meio deve ter a mesma efetividade, ou seja, ser de controle concentrado.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Lei municipal",
+            "o_que_e": "Pode ser atacada em face da Constituição Federal.",
+            "atencao": "Não cabe ADI no STF contra lei municipal.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Direito pré-constitucional",
+            "o_que_e": "A ADPF discute a recepção de norma anterior a 1988.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Decisões judiciais",
+            "o_que_e": "Cabe ADPF contra conjunto de decisões judiciais que violam preceito fundamental.",
+            "atencao": "Não cabe contra decisão já transitada em julgado.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Não cabe",
+            "o_que_e": "Contra veto (ato político), súmula e PEC em tramitação.",
+            "atencao": "Para súmula, o caminho é a revisão ou o cancelamento.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Representação ao PGR",
+            "o_que_e": "O interessado pode pedir ao PGR que proponha a ADPF.",
+            "atencao": "O cidadão não é legitimado: o inciso que o incluía foi vetado.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Inicial",
+            "o_que_e": "O relator indefere quando não for caso de ADPF ou faltar requisito.",
+            "atencao": "Cabe agravo em cinco dias.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Fungibilidade",
+            "o_que_e": "O STF converte ADPF em ADI e ADI em ADPF.",
+            "atencao": "Desde que não haja erro grosseiro.",
+            "grupo": "ADPF"
+          },
+          {
+            "nome": "Origem",
+            "o_que_e": "Prevista no art. 103, § 2º; procedimento incluído na Lei 9.868/1999 pela Lei 12.063/2009.",
+            "grupo": "ADO"
+          },
+          {
+            "nome": "Omissão parcial",
+            "o_que_e": "A norma existe, mas é insuficiente.",
+            "atencao": "Exemplo clássico: salário mínimo insuficiente.",
+            "grupo": "ADO"
+          },
+          {
+            "nome": "Cautelar",
+            "o_que_e": "Pode suspender a lei, na omissão parcial, ou processos e procedimentos.",
+            "atencao": "Maioria absoluta, em excepcional urgência e relevância.",
+            "grupo": "ADO"
+          },
+          {
+            "nome": "AGU",
+            "o_que_e": "Não é obrigatório; o relator pode pedir sua manifestação.",
+            "atencao": "Não há norma para defender na omissão total.",
+            "grupo": "ADO"
+          },
+          {
+            "nome": "Projeto em tramitação",
+            "o_que_e": "Não afasta a omissão se a demora é excessiva.",
+            "atencao": "É a inertia deliberandi (ADI 3.682).",
+            "grupo": "ADO"
+          },
+          {
+            "nome": "ADO e mandado de injunção",
+            "o_que_e": "ADO é controle abstrato; MI protege direito concreto do impetrante.",
+            "atencao": "Ambos combatem a omissão.",
+            "grupo": "ADO"
+          }
+        ]
+      },
+      "lei": [
+        {
+          "norma": "n9882-1999",
+          "artigos": [
+            "Art. 1º.",
+            "Art. 4º.",
+            "Art. 5º.",
+            "Art. 8º.",
+            "Art. 12."
+          ],
+          "ref": "Lei 9.882/1999",
+          "regras": [
+            "<strong>Art. 1º.</strong> A ADPF evita ou repara lesão a preceito fundamental resultante de ato do Poder Público. Cabe também quando for relevante a controvérsia sobre lei federal, estadual ou municipal, inclusive anterior à Constituição.",
+            "<strong>Art. 4º.</strong> O relator indefere a inicial que não seja caso de ADPF ou seja inepta. Não se admite ADPF havendo outro meio eficaz. Cabe agravo em cinco dias.",
+            "<strong>Art. 5º.</strong> Liminar por maioria absoluta; em extrema urgência, perigo de lesão grave ou recesso, pelo relator, para referendo do Pleno.",
+            "<strong>Art. 8º.</strong> A decisão exige dois terços dos Ministros presentes na sessão.",
+            "<strong>Art. 12.</strong> A decisão é irrecorrível e não admite ação rescisória."
+          ],
+          "literalidades": [
+            {
+              "trecho": "Não será admitida argüição de descumprimento de preceito fundamental quando houver qualquer outro meio eficaz de sanar a lesividade",
+              "marcas": [
+                "qualquer outro meio eficaz"
+              ],
+              "afirmacao": "A ADPF cabe ainda que exista outro meio eficaz de sanar a lesão a preceito fundamental.",
+              "gabarito": "E",
+              "porque": "Vale a subsidiariedade: havendo outro meio eficaz, a ADPF não é admitida (art. 4º, § 1º)."
+            },
+            {
+              "trecho": "incluídos os anteriores à Constituição",
+              "marcas": [
+                "anteriores à Constituição"
+              ],
+              "afirmacao": "Lei federal anterior à Constituição de 1988 não pode ser objeto de ADPF.",
+              "gabarito": "E",
+              "porque": "A ADPF alcança lei ou ato federal, estadual ou municipal, incluídos os anteriores à Constituição (art. 1º, parágrafo único, I)."
+            },
+            {
+              "trecho": "é irrecorrível, não podendo ser objeto de ação rescisória",
+              "marcas": [
+                "irrecorrível",
+                "ação rescisória"
+              ],
+              "afirmacao": "As decisões do STF em ADPF só podem ser impugnadas por embargos de declaração e ação rescisória.",
+              "gabarito": "E",
+              "porque": "A decisão é irrecorrível e não admite ação rescisória (art. 12). Os embargos de declaração são admitidos pela jurisprudência."
+            }
+          ],
+          "conferido": {
+            "Art. 1º.": "8acd99b00be7",
+            "Art. 4º.": "00f41a63a5f9",
+            "Art. 5º.": "243e0efa8c04",
+            "Art. 8º.": "37448791a65e",
+            "Art. 12.": "f4a965c435e6"
+          },
+          "fonte": "Lei 9.882/1999, texto do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm"
+        },
+        {
+          "norma": "n9868-1999",
+          "artigos": [
+            "Art. 12-A.",
+            "Art. 12-H."
+          ],
+          "ref": "arts. 12-A e 12-H da Lei 9.868/1999",
+          "regras": [
+            "<strong>Art. 12-A.</strong> Propõem ADO os legitimados da ADI e da ADC.",
+            "<strong>Art. 12-H.</strong> Declarada a omissão, dá-se ciência ao Poder competente. O órgão administrativo tem trinta dias, ou prazo razoável fixado pelo Tribunal."
+          ],
+          "literalidades": [
+            {
+              "trecho": "as providências deverão ser adotadas no prazo de 30 (trinta) dias, ou em prazo razoável a ser estipulado excepcionalmente pelo Tribunal",
+              "marcas": [
+                "30 (trinta) dias",
+                "prazo razoável"
+              ],
+              "afirmacao": "Declarada a omissão inconstitucional de órgão administrativo, ele tem noventa dias para adotar as providências.",
+              "gabarito": "E",
+              "porque": "O prazo é de trinta dias, ou outro prazo razoável fixado excepcionalmente pelo Tribunal (art. 12-H, § 1º)."
+            }
+          ],
+          "conferido": {
+            "Art. 12-A.": "945a6e51620d",
+            "Art. 12-H.": "1731aad9249e"
+          },
+          "fonte": "Lei 9.868/1999, texto do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · ADPF 54",
+          "texto": "Exemplo de ADPF sobre interpretação de normas penais anteriores a 1988: a antecipação terapêutica do parto de feto anencéfalo não é aborto."
+        },
+        {
+          "quem": "STF · ADO 26 e MI 4.733",
+          "texto": "Até que o Congresso legisle, a homofobia e a transfobia enquadram-se nos crimes da Lei do Racismo."
+        },
+        {
+          "quem": "STF · ADO 25",
+          "texto": "O STF fixou prazo de doze meses para o Congresso editar a lei complementar de compensação aos estados pela desoneração do ICMS nas exportações."
+        },
+        {
+          "quem": "STF · ADI 3.682",
+          "texto": "A existência de projeto de lei em tramitação não afasta a omissão quando a demora é excessiva (inertia deliberandi)."
+        },
+        {
+          "quem": "STF · ADPF 347",
+          "texto": "Estado de coisas inconstitucional do sistema prisional, reconhecido em ADPF."
         }
       ],
       "macetes": [
         {
           "sigla": "MUNICIPAL E ANTIGA VÃO DE ADPF",
-          "texto": "Lei municipal contra a Constituição Federal e lei anterior a 1988 não cabem em ADI. No STF, a via é a ADPF."
+          "texto": "Lei municipal em face da Constituição Federal e lei anterior a 1988 não cabem em ADI. No STF, a via é a ADPF."
         },
         {
-          "sigla": "GOVERNADOR, MESA DE ASSEMBLEIA E CONFEDERAÇÃO PROVAM INTERESSE",
-          "texto": "São os legitimados especiais, que precisam de pertinência temática. Presidente, Mesas do Congresso, PGR, OAB e partido são universais."
+          "sigla": "ADPF: DOIS TERÇOS PRESENTES",
+          "texto": "Na ADPF, o quórum é de dois terços dos Ministros presentes (oito). Na ADI, oito presentes e seis votos."
         },
         {
-          "sigla": "VINCULA TODO MUNDO, MENOS O LEGISLADOR",
-          "texto": "O efeito vinculante alcança juízes e administração. O Legislativo pode editar nova lei de igual conteúdo, sem ofender a decisão."
+          "sigla": "ADO: CIÊNCIA AO PODER; ADMINISTRAÇÃO, 30 DIAS",
+          "texto": "Ao Legislativo, a Constituição não dá prazo. Ao órgão administrativo, trinta dias."
         }
       ],
-      "juris": [
-        {
-          "quem": "STF · jurisprudência consolidada",
-          "texto": "Não cabe ação direta contra regulamento ou decreto que apenas executa a lei: eventual excesso configura ilegalidade, não inconstitucionalidade direta. Cabe contra decreto autônomo, que inova na ordem jurídica."
-        }
+      "detalhes": [
+        "Na ADPF, o relator pode ouvir as partes dos processos que deram origem à arguição, designar peritos e marcar audiência pública.",
+        "Cabe reclamação contra o descumprimento da decisão em ADPF (art. 13 da Lei 9.882/1999).",
+        "O STF admite fungibilidade entre ADI e ADO, porque a omissão parcial e a ação podem se confundir.",
+        "O MP, nas arguições que não propôs, tem vista do processo por cinco dias.",
+        "A subsidiariedade se mede pelos outros meios de controle objetivo. Em regra, a representação no TJ afasta a ADPF contra lei municipal, mas o STF a admite quando a controvérsia ultrapassa o interesse local e pede resposta uniforme no país.",
+        "A ADPF não serve de sucedâneo recursal para rediscutir decisão de processo subjetivo, que tem seus próprios recursos."
       ],
       "pegadinha": {
         "afirmacao": "As decisões do plenário do STF em ADPF somente podem ser impugnadas mediante embargos de declaração e ação rescisória.",
         "gabarito": "E",
-        "explicacao": "A decisão que julga a ADPF é irrecorrível e não pode ser objeto de ação rescisória (art. 12 da Lei 9.882/1999); cabem apenas embargos de declaração (Cebraspe, Promotor MPSC 2023)."
+        "explicacao": "A decisão que julga a ADPF é irrecorrível e não pode ser objeto de ação rescisória (art. 12 da Lei 9.882/1999) (Cebraspe, Promotor MPSC 2023)."
       },
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "aprofundamento": "<p><strong>Efeito dúplice e modulação.</strong> Embora a ADC busque afirmar a validade da norma, o resultado pode ser a declaração de inconstitucionalidade, com possibilidade de modular os efeitos (Cebraspe, Delegado PC-AL 2023).</p><p><strong>Vinculação.</strong> A decisão definitiva em ADI vincula todos os níveis da administração pública; não vincula o Legislativo, que pode revogar ou reeditar a lei, e vincula o Judiciário por inteiro, não parcialmente (Cebraspe, Delegado PC-PB 2022). No mesmo sentido, certo que o efeito vinculante não alcança o Legislativo (Cebraspe, Analista MPCE 2025).</p><p><strong>ADPF inepta.</strong> O relator pode indeferir liminarmente a petição inicial inepta da ADPF; errado dizer que entidade de defesa de direitos difusos com um ano a propõe, que ela cabe mesmo havendo outro meio eficaz ou que dispensa o PGR (Cebraspe, Delegado PC-PE 2024).</p><p><strong>Regulamento.</strong> Errado dizer que o STF admite ADI contra regulamento de licenciamento ambiental de cemitérios, ato secundário que executa a lei (Cebraspe, Delegado PF 2018). Já o decreto autônomo sobre liberdade de reunião pode ser atacado por ADI (Cebraspe, Delegado PF 2018).</p><p><strong>Erro grosseiro.</strong> Errado dizer que a fungibilidade entre as ações impede rejeitar a ação por erro grosseiro na escolha da via (Cebraspe, Analista STJ 2024).</p><p><strong>Legitimidade: o que a jurisprudência acrescenta ao art. 103.</strong> A legitimidade do inciso V é do Governador, e não do Estado-membro nem da Procuradoria do Estado: o Governador tem capacidade postulatória própria, e a petição assinada só pelo procurador do Estado precisa da subscrição do Governador. Entidade de classe de âmbito nacional precisa ter associados ou membros em pelo menos nove Estados, aplicada por analogia a regra da lei dos partidos, e representar categoria homogênea; a associação de associações é admitida. Só a confederação sindical é legitimada, e não a federação nem o sindicato. O partido político age pelo diretório nacional, e não pelo estadual ou municipal; a representação no Congresso é aferida na data da propositura, e a perda superveniente não prejudica a ação.</p><p><strong>Amicus curiae: participa, mas não recorre.</strong> O relator pode admitir, por despacho irrecorrível, a manifestação de órgãos ou entidades com representatividade, considerada a relevância da matéria (art. 7º, § 2º, da Lei 9.868/1999). O amicus curiae contribui com informações e pode fazer sustentação oral, mas não tem legitimidade para opor embargos de declaração contra a decisão de mérito no controle concentrado: ele não é parte.</p><p><strong>ADO: projeto em tramitação não afasta a mora.</strong> A ADO cabe contra a omissão em editar norma necessária para tornar efetiva norma constitucional de eficácia limitada, seja a omissão total ou parcial. Para o STF, a existência de projeto de lei em tramitação não afasta, por si só, a mora: a demora excessiva em deliberar (inertia deliberandi) também caracteriza a omissão inconstitucional (ADI 3.682). Declarada a omissão, dá-se ciência ao Poder competente para adotar as providências; se a omissão for de órgão administrativo, ele deve supri-la em trinta dias (art. 103, § 2º), ou em prazo razoável fixado pelo STF (art. 12-H, § 1º, da Lei 9.868/1999).</p><p><strong>ADPF: subsidiariedade e ADI estadual.</strong> A ADPF não é admitida quando houver outro meio eficaz de sanar a lesividade (art. 4º, § 1º, da Lei 9.882/1999), e esse outro meio é avaliado no conjunto dos processos objetivos, capazes de resolver a controvérsia de modo amplo, geral e imediato. Por isso, em regra, a possibilidade de representação de inconstitucionalidade no Tribunal de Justiça contra lei municipal afasta a ADPF. O STF admite a ADPF quando a controvérsia constitucional ultrapassa o interesse do Município e pede resposta uniforme em todo o país, como na multiplicação de leis municipais de mesmo conteúdo. A ADPF também não serve de sucedâneo recursal para rediscutir decisão judicial em processo subjetivo.</p><p><strong>ADI no Tribunal de Justiça e no STF ao mesmo tempo.</strong> Quando a mesma lei estadual é impugnada ao mesmo tempo no Tribunal de Justiça, em face da constituição estadual, e no STF, em face da Constituição Federal, e o parâmetro estadual reproduz norma da Constituição Federal, a ação estadual fica suspensa até o julgamento da ação no STF, pouco importa qual foi proposta primeiro. Se o STF declarar a lei inconstitucional, a ação estadual perde o objeto; se a declarar constitucional, essa decisão vincula o Tribunal de Justiça quanto ao parâmetro reproduzido. A representação estadual não pode ter um único legitimado (art. 125, § 2º, da CF), e da decisão do TJ que interpreta norma de reprodução obrigatória cabe recurso extraordinário ao STF.</p><p><strong>Cautelar na ADI: ex nunc e efeito repristinatório.</strong> A medida cautelar tem eficácia contra todos e efeito ex nunc, salvo se o Tribunal lhe der eficácia retroativa (Lei 9.868/1999, art. 11, § 1º). E torna aplicável a legislação anterior acaso existente, salvo manifestação expressa em contrário (§ 2º). Errado: a cautelar retroage em regra, como a decisão final de mérito.</p>",
+      "pegadinhas": [
+        {
+          "errado": "Entidade de defesa de direitos difusos constituída há um ano pode propor ADPF.",
+          "certo": "Os legitimados da ADPF são os da ADI.",
+          "fonte": "Cebraspe, Delegado PC-PE 2024"
+        },
+        {
+          "errado": "A ADPF dispensa a manifestação do PGR.",
+          "certo": "O MP tem vista nas arguições que não propôs.",
+          "fonte": "Cebraspe, Delegado PC-PE 2024"
+        },
+        {
+          "errado": "O relator não pode indeferir liminarmente a inicial da ADPF.",
+          "certo": "Pode indeferir a inicial inepta ou sem os requisitos; cabe agravo.",
+          "fonte": "Cebraspe, Delegado PC-PE 2024"
+        },
+        {
+          "errado": "Projeto de lei em tramitação sempre afasta a omissão inconstitucional.",
+          "certo": "A demora excessiva na deliberação também é omissão.",
+          "fonte": "Questão do app sobre a ADO"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Promotor MPSC 2023 (decisão em ADPF irrecorrível e sem rescisória)",
+        "Cebraspe, Delegado PC-PE 2024 (legitimados, subsidiariedade, PGR e inicial inepta na ADPF)"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Mandado de injunção:</strong> a outra via contra a omissão, no caso concreto.",
+          "tema": "mandado-de-seguranca-injuncao-e-acao-popular"
+        },
+        {
+          "texto": "<strong>Normas de eficácia limitada:</strong> a origem da omissão inconstitucional.",
+          "tema": "aplicabilidade-e-interpretacao-das-normas"
+        }
+      ],
       "relacionados": [
+        "acoes-do-controle-concentrado",
         "controle-de-constitucionalidade",
-        "recepcao",
-        "poder-judiciario"
+        "mandado-de-seguranca-injuncao-e-acao-popular",
+        "recepcao"
+      ]
+    },
+    {
+      "slug": "controle-estadual-e-representacao-interventiva",
+      "titulo": "Controle de constitucionalidade estadual e representação interventiva",
+      "grupo": "Controle de constitucionalidade",
+      "base": "Arts. 36, III, e 125, § 2º, da Constituição e Lei 12.562/2011",
+      "tax": [
+        "constitucional.adi-interventiva"
+      ],
+      "dispositivos": [
+        "nCF-1988-art-125"
+      ],
+      "conceitos": [
+        "representação de inconstitucionalidade estadual",
+        "parâmetro estadual",
+        "norma de reprodução obrigatória",
+        "recurso extraordinário contra decisão do TJ",
+        "simultaneidade de ações",
+        "representação interventiva",
+        "princípios sensíveis",
+        "recusa à execução de lei federal",
+        "controle concreto",
+        "intervenção estadual nos municípios"
+      ],
+      "palavras": [
+        "representacao de inconstitucionalidade",
+        "art. 125, 2",
+        "constituicao estadual",
+        "leis estaduais ou municipais",
+        "tribunal de justica",
+        "unico orgao",
+        "legitimados",
+        "norma de reproducao obrigatoria",
+        "recurso extraordinario",
+        "tema 484",
+        "simultaneidade",
+        "suspensao",
+        "lei municipal",
+        "lei organica",
+        "representacao interventiva",
+        "adi interventiva",
+        "pgr",
+        "art. 36, iii",
+        "art. 34, vii",
+        "principios sensiveis",
+        "recusa a execucao de lei federal",
+        "lei 12.562",
+        "decreto",
+        "suspender a execucao do ato",
+        "congresso dispensado",
+        "pgj",
+        "art. 35, iv",
+        "sumula 637",
+        "liminar",
+        "maioria absoluta"
+      ],
+      "resumo": "Cada estado institui a <strong>representação de inconstitucionalidade</strong> de leis estaduais ou municipais em face da <strong>constituição estadual</strong>, julgada pelo <strong>Tribunal de Justiça</strong>. É vedado dar a legitimação a um <strong>único órgão</strong>. Se o parâmetro estadual reproduz norma da Constituição Federal de <strong>reprodução obrigatória</strong>, cabe recurso extraordinário ao STF, e a decisão dele vale contra todos. Os TJs podem, inclusive, controlar lei municipal usando como parâmetro norma de reprodução obrigatória (Tema 484). Se a mesma lei estadual é atacada no TJ e no STF, a ação estadual fica suspensa até o STF decidir. A <strong>representação interventiva</strong> é diferente: é proposta pelo <strong>PGR</strong> ao STF quando o estado viola um <strong>princípio sensível</strong> (art. 34, VII) ou recusa a execução de lei federal. É controle concreto, que serve de pressuposto à intervenção. Provida, o Presidente decreta a intervenção, e o Congresso é dispensado se o decreto só suspender o ato. No plano estadual, o PGJ representa ao TJ para a intervenção em município.",
+      "esquema": {
+        "rotulo": "as duas representações",
+        "html": "<table><thead><tr><th>Ponto</th><th>Representação de inconstitucionalidade (art. 125, § 2º)</th><th>Representação interventiva (art. 36, III)</th></tr></thead><tbody><tr><td><strong>Natureza</strong></td><td>Controle abstrato</td><td>Controle concreto, pressuposto da intervenção</td></tr><tr><td><strong>Quem propõe</strong></td><td>Legitimados da constituição estadual (nunca um só)</td><td>PGR, ao STF; no estado, o PGJ, ao TJ</td></tr><tr><td><strong>Parâmetro</strong></td><td>Constituição estadual</td><td>Princípios sensíveis (art. 34, VII) ou execução de lei federal</td></tr><tr><td><strong>Objeto</strong></td><td>Lei estadual ou municipal</td><td>Ato ou omissão do estado (ou do município, no plano estadual)</td></tr><tr><td><strong>Resultado</strong></td><td>Declaração com efeito contra todos</td><td>Requisição ao Presidente (ou ao Governador) para decretar a intervenção</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Legitimados",
+            "o_que_e": "A constituição estadual define.",
+            "atencao": "Não pode ser um só órgão. Pode ampliar o rol além do simétrico ao art. 103.",
+            "grupo": "Controle estadual"
+          },
+          {
+            "nome": "Lei municipal em face da Constituição Federal",
+            "o_que_e": "Não cabe ação no TJ com parâmetro só federal.",
+            "atencao": "Salvo norma federal de reprodução obrigatória (Tema 484); no STF, cabe ADPF.",
+            "grupo": "Controle estadual"
+          },
+          {
+            "nome": "Recurso extraordinário",
+            "o_que_e": "Cabe contra a decisão do TJ quando o parâmetro é norma de reprodução obrigatória.",
+            "atencao": "O STF decide com efeito contra todos.",
+            "grupo": "Controle estadual"
+          },
+          {
+            "nome": "Simultaneidade",
+            "o_que_e": "Lei estadual atacada no TJ e no STF.",
+            "atencao": "Suspende-se a ação estadual até o julgamento no STF.",
+            "grupo": "Controle estadual"
+          },
+          {
+            "nome": "Lei orgânica do DF",
+            "o_que_e": "Tem natureza de constituição local e serve de parâmetro no TJDFT.",
+            "grupo": "Controle estadual"
+          },
+          {
+            "nome": "Princípios sensíveis",
+            "o_que_e": "Forma republicana, sistema representativo e regime democrático; direitos da pessoa humana; autonomia municipal; prestação de contas; aplicação mínima em saúde e educação.",
+            "atencao": "Art. 34, VII.",
+            "grupo": "Representação interventiva"
+          },
+          {
+            "nome": "Recusa à execução de lei federal",
+            "o_que_e": "Também depende de representação do PGR ao STF desde a EC 45/2004.",
+            "atencao": "Antes era do STJ.",
+            "grupo": "Representação interventiva"
+          },
+          {
+            "nome": "Lei 12.562/2011",
+            "o_que_e": "Regula a representação interventiva no STF.",
+            "atencao": "Admite liminar por maioria absoluta; a decisão é irrecorrível e não cabe rescisória.",
+            "grupo": "Representação interventiva"
+          },
+          {
+            "nome": "Decreto",
+            "o_que_e": "Provida a representação, o Presidente decreta a intervenção.",
+            "atencao": "Dispensada a apreciação do Congresso se o decreto só suspender o ato e isso bastar (art. 36, § 3º).",
+            "grupo": "Representação interventiva"
+          },
+          {
+            "nome": "No plano estadual",
+            "o_que_e": "O PGJ representa ao TJ por violação de princípios da constituição estadual ou para prover a execução de lei, ordem ou decisão judicial.",
+            "atencao": "Não cabe recurso extraordinário contra o acórdão do TJ que defere a intervenção em município (Súmula 637).",
+            "grupo": "Representação interventiva"
+          }
+        ]
+      },
+      "lei": [
+        {
+          "norma": "nCF-1988",
+          "artigos": [
+            "Art. 125."
+          ],
+          "ref": "art. 125, § 2º, da Constituição",
+          "regras": [
+            "<strong>Art. 125, § 2º.</strong> Os estados instituem a representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da constituição estadual, vedada a legitimação de um único órgão."
+          ],
+          "literalidades": [
+            {
+              "trecho": "vedada a atribuição da legitimação para agir a um único órgão",
+              "marcas": [
+                "único órgão"
+              ],
+              "afirmacao": "A constituição estadual pode atribuir só ao Procurador-Geral de Justiça a legitimidade para a representação de inconstitucionalidade.",
+              "gabarito": "E",
+              "porque": "É vedado atribuir a legitimação a um único órgão (art. 125, § 2º)."
+            },
+            {
+              "trecho": "Cabe aos Estados a instituição de representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição estadual",
+              "marcas": [
+                "estaduais ou municipais",
+                "Constituição estadual"
+              ],
+              "afirmacao": "No controle abstrato estadual, só leis estaduais podem ser impugnadas perante o Tribunal de Justiça.",
+              "gabarito": "E",
+              "porque": "O objeto inclui leis e atos estaduais e municipais (art. 125, § 2º)."
+            }
+          ],
+          "conferido": {
+            "Art. 125.": "10a2d4ddb15b"
+          },
+          "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · RE 650.898 (Tema 484)",
+          "texto": "Tribunais de Justiça podem exercer controle abstrato de leis municipais tendo como parâmetro normas da Constituição Federal de reprodução obrigatória pelos estados."
+        },
+        {
+          "quem": "STF · simultaneidade de ações",
+          "texto": "Proposta ação contra a mesma lei estadual no TJ e no STF, suspende-se a estadual até o julgamento da ação no STF."
+        },
+        {
+          "quem": "STF · Súmula 637",
+          "texto": "Não cabe recurso extraordinário contra acórdão de Tribunal de Justiça que defere pedido de intervenção estadual em município."
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "NUNCA UM SÓ",
+          "texto": "A constituição estadual escolhe os legitimados, mas não pode concentrar em um único órgão."
+        },
+        {
+          "sigla": "INTERVENTIVA: PGR, STF, PRINCÍPIO SENSÍVEL",
+          "texto": "Três palavras que resolvem a questão. No estado: PGJ e TJ."
+        },
+        {
+          "sigla": "REPRODUÇÃO OBRIGATÓRIA ABRE O RE",
+          "texto": "Se a norma estadual copia a federal obrigatória, a palavra final é do STF."
+        }
+      ],
+      "detalhes": [
+        "Na representação interventiva, o STF não declara a nulidade da lei: julga o pedido e requisita a intervenção.",
+        "Provida a representação, o decreto do Presidente é ato vinculado, e não discricionário.",
+        "O decreto de intervenção que só suspende o ato impugnado dispensa o controle político do Congresso.",
+        "A constituição estadual pode prever ação direta por omissão em face dela própria, por simetria."
+      ],
+      "pegadinha": {
+        "afirmacao": "A representação interventiva por violação de princípio sensível é proposta pelo Presidente da República perante o STF.",
+        "gabarito": "E",
+        "explicacao": "Quem propõe é o Procurador-Geral da República (art. 36, III)."
+      },
+      "pegadinhas": [
+        {
+          "errado": "A recusa à execução de lei federal é julgada pelo STJ, por provocação do PGR.",
+          "certo": "Desde a EC 45/2004, também é do STF (art. 36, III).",
+          "fonte": "Questão do app sobre o art. 36"
+        },
+        {
+          "errado": "Contra a decisão do TJ em representação de inconstitucionalidade nunca cabe recurso extraordinário.",
+          "certo": "Cabe quando o parâmetro é norma de reprodução obrigatória da Constituição Federal.",
+          "fonte": "Questão do app sobre o art. 125"
+        }
+      ],
+      "ja_caiu": [],
+      "para_entender": [
+        {
+          "texto": "<strong>Intervenção federal e estadual:</strong> hipóteses, decreto e controle político.",
+          "tema": "intervencao-federal-e-estadual"
+        },
+        {
+          "texto": "<strong>Normas de reprodução obrigatória:</strong> o princípio da simetria.",
+          "tema": "principio-da-simetria"
+        }
+      ],
+      "relacionados": [
+        "intervencao-federal-e-estadual",
+        "principio-da-simetria",
+        "acoes-do-controle-concentrado",
+        "estados-membros"
+      ]
+    },
+    {
+      "slug": "reclamacao-constitucional",
+      "titulo": "Reclamação constitucional",
+      "grupo": "Controle de constitucionalidade",
+      "base": "Arts. 102, I, l, 103-A, § 3º, e 105, I, f, da Constituição; arts. 988 a 993 do CPC; Lei 11.417/2006",
+      "tax": [
+        "constitucional.controle-constitucionalidade.reclamacao-constitucional"
+      ],
+      "dispositivos": [
+        "n13105-2015-art-988",
+        "n13105-2015-art-989",
+        "n13105-2015-art-990",
+        "n13105-2015-art-991",
+        "n13105-2015-art-992",
+        "n13105-2015-art-993"
+      ],
+      "conceitos": [
+        "reclamação",
+        "preservação da competência",
+        "garantia da autoridade das decisões",
+        "súmula vinculante",
+        "decisão em controle concentrado",
+        "IRDR e IAC",
+        "esgotamento das instâncias ordinárias",
+        "esgotamento das vias administrativas",
+        "trânsito em julgado",
+        "natureza jurídica",
+        "legitimidade",
+        "transcendência dos motivos determinantes"
+      ],
+      "palavras": [
+        "reclamacao",
+        "preservar a competencia",
+        "autoridade das decisoes",
+        "sumula vinculante",
+        "controle concentrado",
+        "irdr",
+        "iac",
+        "art. 988",
+        "parte interessada",
+        "ministerio publico",
+        "qualquer tribunal",
+        "orgao jurisdicional",
+        "prova documental",
+        "relator do processo principal",
+        "aplicacao indevida",
+        "liminarmente indeferida",
+        "transito em julgado",
+        "sumula 734",
+        "repercussao geral",
+        "recursos repetitivos",
+        "esgotadas as instancias ordinarias",
+        "vias administrativas",
+        "lei 11.417",
+        "dez dias",
+        "quinze dias",
+        "beneficiario",
+        "cassara",
+        "imediato cumprimento",
+        "direito de peticao",
+        "adi 2212",
+        "constituicao estadual",
+        "acao autonoma",
+        "nao e recurso",
+        "transcendencia",
+        "lei 15.484",
+        "recurso especial",
+        "relevancia"
+      ],
+      "resumo": "A reclamação serve para <strong>preservar a competência</strong> de um tribunal e <strong>garantir a autoridade de suas decisões</strong>. A Constituição a prevê para o STF e o STJ e a estende ao ato que contraria ou aplica mal <strong>súmula vinculante</strong>. O CPC (art. 988) a admite também para garantir decisão do STF em <strong>controle concentrado</strong> e acórdão em <strong>IRDR</strong> ou <strong>IAC</strong>. Propõem a parte interessada e o Ministério Público, perante qualquer tribunal, e julga o órgão cuja competência ou autoridade se busca garantir. Não é recurso. É <strong>liminarmente indeferida</strong> se proposta depois do <strong>trânsito em julgado</strong> da decisão reclamada. Para garantir acórdão de recurso extraordinário com repercussão geral ou de repetitivo, exige o <strong>esgotamento das instâncias ordinárias</strong>. Contra ato da administração que contraria súmula vinculante, exige o <strong>esgotamento das vias administrativas</strong>. Procedente, o tribunal cassa a decisão ou anula o ato e determina a medida adequada.",
+      "esquema": {
+        "rotulo": "quando cabe",
+        "html": "<table><thead><tr><th>Hipótese</th><th>Cabe?</th><th>Condição</th></tr></thead><tbody><tr><td><strong>Usurpação de competência do tribunal</strong></td><td>Sim</td><td></td></tr><tr><td><strong>Desrespeito a decisão do tribunal no caso</strong></td><td>Sim</td><td>Quem foi parte no processo</td></tr><tr><td><strong>Desrespeito a ADI, ADC, ADPF ou súmula vinculante</strong></td><td>Sim</td><td>Qualquer atingido pode reclamar</td></tr><tr><td><strong>Ato administrativo contra súmula vinculante</strong></td><td>Sim</td><td>Depois de esgotadas as vias administrativas</td></tr><tr><td><strong>Acórdão de RE com repercussão geral ou repetitivo</strong></td><td>Sim</td><td>Depois de esgotadas as instâncias ordinárias</td></tr><tr><td><strong>Decisão já transitada em julgado</strong></td><td>Não</td><td>Indeferimento liminar (Súmula 734)</td></tr><tr><td><strong>Lei nova de igual conteúdo à declarada inconstitucional</strong></td><td>Não</td><td>O Legislativo não está vinculado; cabe nova ação de controle</td></tr><tr><td><strong>Ato baseado em outra lei, só pelos fundamentos da decisão</strong></td><td>Não</td><td>O STF não adota a transcendência dos motivos</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Natureza",
+            "o_que_e": "Para o STF (ADI 2.212), expressão do direito de petição.",
+            "atencao": "A doutrina processual a trata como ação autônoma. A previsão em constituição estadual para o TJ é válida.",
+            "grupo": "Natureza e cabimento"
+          },
+          {
+            "nome": "Não é recurso",
+            "o_que_e": "Nem sucedâneo recursal.",
+            "atencao": "O julgamento do recurso contra a decisão reclamada não prejudica a reclamação.",
+            "grupo": "Natureza e cabimento"
+          },
+          {
+            "nome": "Onde se propõe",
+            "o_que_e": "Perante qualquer tribunal.",
+            "atencao": "Julga o órgão cuja competência ou autoridade se busca preservar.",
+            "grupo": "Natureza e cabimento"
+          },
+          {
+            "nome": "Aplicação indevida",
+            "o_que_e": "Os incisos III a V abrangem a aplicação indevida da tese e a não aplicação aos casos correspondentes.",
+            "atencao": "Art. 988, § 4º.",
+            "grupo": "Natureza e cabimento"
+          },
+          {
+            "nome": "Parte interessada e MP",
+            "o_que_e": "Art. 988 do CPC.",
+            "grupo": "Legitimidade"
+          },
+          {
+            "nome": "Decisões com efeito vinculante",
+            "o_que_e": "Qualquer pessoa atingida pode reclamar, mesmo sem ter sido parte.",
+            "atencao": "Em processo subjetivo, só quem foi parte.",
+            "grupo": "Legitimidade"
+          },
+          {
+            "nome": "Trânsito em julgado",
+            "o_que_e": "Indeferimento liminar.",
+            "atencao": "O caminho passa a ser a rescisória, se cabível.",
+            "grupo": "Limites"
+          },
+          {
+            "nome": "Repercussão geral e repetitivos",
+            "o_que_e": "Só depois de esgotadas as instâncias ordinárias.",
+            "atencao": "Art. 988, § 5º, II.",
+            "grupo": "Limites"
+          },
+          {
+            "nome": "Administração e súmula vinculante",
+            "o_que_e": "Exige esgotamento das vias administrativas.",
+            "atencao": "Lei 11.417/2006, art. 7º, § 1º. Contra decisão judicial, não.",
+            "grupo": "Limites"
+          },
+          {
+            "nome": "Informações",
+            "o_que_e": "A autoridade presta informações em dez dias.",
+            "atencao": "O relator pode suspender o processo ou o ato.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Beneficiário",
+            "o_que_e": "É citado e tem quinze dias para contestar.",
+            "atencao": "Qualquer interessado pode impugnar o pedido.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Procedência",
+            "o_que_e": "O tribunal cassa a decisão ou determina medida adequada.",
+            "atencao": "O presidente manda cumprir de imediato, e o acórdão é lavrado depois.",
+            "grupo": "Procedimento"
+          },
+          {
+            "nome": "Lei 15.484/2026",
+            "o_que_e": "Acrescentou ao art. 988 o inciso V: recurso especial sob o regime de relevância, em casos excepcionais.",
+            "atencao": "Em vigor 30 dias após 4/8/2026.",
+            "grupo": "Procedimento"
+          }
+        ]
+      },
+      "lei": [
+        {
+          "norma": "n13105-2015",
+          "artigos": [
+            "Art. 988.",
+            "Art. 992."
+          ],
+          "ref": "arts. 988 e 992 do CPC",
+          "regras": [
+            "<strong>Art. 988.</strong> Cabe reclamação da parte interessada ou do MP para preservar a competência do tribunal, garantir a autoridade de suas decisões, garantir a observância de súmula vinculante e de decisão do STF em controle concentrado, de acórdão em IRDR ou IAC e, em casos excepcionais, de acórdão em recurso especial sob o regime de relevância. É liminarmente indeferida a reclamação proposta após o trânsito em julgado.",
+            "<strong>Art. 992.</strong> Procedente, o tribunal cassa a decisão exorbitante ou determina medida adequada."
+          ],
+          "literalidades": [
+            {
+              "trecho": "A reclamação pode ser proposta perante qualquer tribunal, e seu julgamento compete ao órgão jurisdicional cuja competência se busca preservar ou cuja autoridade se pretenda garantir",
+              "marcas": [
+                "qualquer tribunal"
+              ],
+              "afirmacao": "A reclamação só pode ser proposta perante o STF e o STJ, únicos tribunais com previsão constitucional expressa.",
+              "gabarito": "E",
+              "porque": "Pelo CPC, ela pode ser proposta perante qualquer tribunal (art. 988, § 1º)."
+            },
+            {
+              "trecho": "proposta após o trânsito em julgado da decisão reclamada",
+              "marcas": [
+                "trânsito em julgado"
+              ],
+              "afirmacao": "A reclamação pode ser proposta mesmo depois do trânsito em julgado da decisão reclamada, por não ser recurso.",
+              "gabarito": "E",
+              "porque": "Proposta após o trânsito em julgado, é liminarmente indeferida (art. 988, § 5º, I; Súmula 734)."
+            }
+          ],
+          "conferido": {
+            "Art. 988.": "217dc3905b1c",
+            "Art. 992.": "9d0cf383ba21"
+          },
+          "fonte": "Código de Processo Civil (Lei 13.105/2015), texto do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+        }
+      ],
+      "juris": [
+        {
+          "quem": "STF · ADI 2.212",
+          "texto": "É constitucional a reclamação prevista na constituição estadual para o Tribunal de Justiça, enquadrada no direito de petição."
+        },
+        {
+          "quem": "STF · Súmula 734",
+          "texto": "Não cabe reclamação quando já houver transitado em julgado o ato judicial que se alega tenha desrespeitado decisão do STF."
+        },
+        {
+          "quem": "STF · transcendência dos motivos",
+          "texto": "Não cabe reclamação fundada só nas razões de decidir de ação de controle concentrado para atacar ato baseado em outra lei, de outro ente."
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "TRANSITOU, NÃO RECLAMA",
+          "texto": "Depois do trânsito em julgado, a reclamação é liminarmente indeferida."
+        },
+        {
+          "sigla": "SÚMULA VINCULANTE CONTRA A ADMINISTRAÇÃO: ESGOTE A VIA ADMINISTRATIVA",
+          "texto": "Contra decisão judicial, não há essa exigência."
+        },
+        {
+          "sigla": "LEI NOVA NÃO DESAFIA RECLAMAÇÃO",
+          "texto": "O legislador pode editar lei igual à declarada inconstitucional; a nova lei se ataca por nova ação."
+        }
+      ],
+      "detalhes": [
+        "A reclamação deve ser instruída com prova documental e dirigida ao presidente do tribunal.",
+        "Sempre que possível, é distribuída ao relator do processo principal.",
+        "Também cabe reclamação contra o descumprimento de decisão em ADPF (Lei 9.882/1999, art. 13)."
+      ],
+      "pegadinha": {
+        "afirmacao": "Contribuinte autuado com base em interpretação que contraria súmula vinculante pode ajuizar reclamação diretamente no STF, sem necessidade de esgotar as vias administrativas, já que o art. 103-A, § 3º, da CF não faz essa exigência.",
+        "gabarito": "E",
+        "explicacao": "Contra ato da administração, a reclamação só é admitida após o esgotamento das vias administrativas (Lei 11.417/2006, art. 7º, § 1º)."
+      },
+      "pegadinhas": [
+        {
+          "errado": "Só quem foi parte na ADI pode reclamar contra ato que desrespeita a decisão.",
+          "certo": "Nas decisões com efeito vinculante, qualquer atingido pode reclamar.",
+          "fonte": "Questão do app sobre reclamação"
+        },
+        {
+          "errado": "A previsão de reclamação na constituição estadual é inconstitucional, por ser matéria processual da União.",
+          "certo": "O STF a validou como direito de petição (ADI 2.212).",
+          "fonte": "Questão do app sobre reclamação"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Delegado PF 2021 (transcendência dos motivos determinantes)"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Súmula vinculante:</strong> requisitos e efeitos.",
+          "tema": "cnj-e-sumula-vinculante"
+        }
+      ],
+      "relacionados": [
+        "acoes-do-controle-concentrado",
+        "cnj-e-sumula-vinculante",
+        "controle-difuso-e-reserva-de-plenario",
+        "stf-e-stj"
       ]
     },
     {
@@ -14659,64 +16303,6 @@
           "tipo": "juris",
           "nota": "Acrescidos as guardas municipais (ADPF 995 e Tema 656) e as atribuições da PF e das polícias civis (art. 144, §§ 1º e 4º)."
         }
-      ]
-    },
-    {
-      "slug": "reclamacao-constitucional",
-      "titulo": "Reclamação constitucional",
-      "grupo": "Controle de constitucionalidade",
-      "base": "Arts. 102, I, l, 103-A, § 3º, e 105, I, f, da CF; arts. 988 a 993 do CPC; Lei 11.417/2006",
-      "tax": [
-        "constitucional.controle-constitucionalidade.reclamacao-constitucional"
-      ],
-      "dispositivos": [],
-      "conceitos": [
-        "reclamação constitucional",
-        "reclamação",
-        "autoridade das decisões do STF"
-      ],
-      "palavras": [
-        "reclamacao",
-        "sumula vinculante",
-        "sumula 734",
-        "transito em julgado",
-        "esgotamento das instancias",
-        "repercussao geral",
-        "transcendencia dos motivos",
-        "efeito vinculante",
-        "cpc 988",
-        "lei 11417",
-        "adi 2212"
-      ],
-      "resumo": "A <strong>reclamação</strong> serve para preservar a competência de um tribunal e garantir a autoridade das suas decisões. A CF a prevê para o STF (art. 102, I, l) e para o STJ (art. 105, I, f), e o art. 103-A, § 3º, a estende ao ato administrativo ou à decisão judicial que contrariar súmula vinculante ou que indevidamente a aplicar: julgando-a procedente, o STF anulará o ato administrativo ou cassará a decisão judicial reclamada. O CPC ampliou o instituto. Pelo art. 988, cabe reclamação da parte interessada ou do Ministério Público para preservar a competência do tribunal, garantir a autoridade de suas decisões, garantir a observância de súmula vinculante e de decisão do STF em controle concentrado e garantir a observância de acórdão em incidente de resolução de demandas repetitivas ou de assunção de competência. A reclamação pode ser proposta perante qualquer tribunal, e o julgamento cabe ao órgão cuja competência se busca preservar ou cuja autoridade se pretende garantir. Ela não é recurso nem sucedâneo recursal. Será liminarmente indeferida a reclamação proposta após o trânsito em julgado da decisão reclamada (art. 988, § 5º, I, na linha da Súmula 734 do STF). Para garantir a observância de acórdão de recurso extraordinário com repercussão geral ou de recursos repetitivos, a reclamação só cabe depois de esgotadas as instâncias ordinárias. Contra ato ou omissão da administração pública que contrarie súmula vinculante, o uso da reclamação só será admitido após esgotamento das vias administrativas (Lei 11.417/2006, art. 7º, § 1º). Julgada procedente, o tribunal cassará a decisão exorbitante de seu julgado ou determinará medida adequada à solução da controvérsia (art. 992), e o presidente determinará o imediato cumprimento da decisão, lavrando-se o acórdão posteriormente (art. 993).",
-      "esquema": {
-        "rotulo": "quando cabe e quando não cabe a reclamação",
-        "html": "<table><thead><tr><th>Situação</th><th>Cabe?</th><th>Fundamento</th></tr></thead><tbody><tr><td><strong>Ato administrativo contrário a súmula vinculante</strong></td><td>Sim, depois de esgotada a via administrativa</td><td>CF, art. 103-A, § 3º; Lei 11.417/2006, art. 7º, § 1º</td></tr><tr><td><strong>Decisão judicial que contraria decisão do STF em ADI, ADC ou ADPF</strong></td><td>Sim, a qualquer interessado atingido</td><td>CPC, art. 988, III</td></tr><tr><td><strong>Decisão que contraria tese de repercussão geral ou de repetitivo</strong></td><td>Só depois de esgotadas as instâncias ordinárias</td><td>CPC, art. 988, § 5º, II</td></tr><tr><td><strong>Decisão já transitada em julgado</strong></td><td>Não</td><td>CPC, art. 988, § 5º, I; Súmula 734 do STF</td></tr><tr><td><strong>Lei nova de mesmo teor da que o STF declarou inconstitucional</strong></td><td>Não: o efeito vinculante não alcança o Legislativo na função legislativa</td><td>Jurisprudência do STF; cabe nova ação de controle</td></tr><tr><td><strong>Decisão que contraria fundamentos de outra ADI (motivos determinantes)</strong></td><td>Não: o STF rejeita a transcendência dos motivos</td><td>Jurisprudência do STF</td></tr><tr><td><strong>Reclamação ao Tribunal de Justiça prevista na Constituição estadual</strong></td><td>Sim</td><td>ADI 2.212; CPC, art. 988, § 1º</td></tr></tbody></table>"
-      },
-      "lei": [],
-      "macetes": [
-        {
-          "sigla": "Transitou, não reclama",
-          "texto": "Depois do trânsito em julgado da decisão reclamada, a reclamação é liminarmente indeferida; o caminho passa a ser, se cabível, a ação rescisória."
-        },
-        {
-          "sigla": "Súmula vinculante contra a Administração: esgote a via administrativa",
-          "texto": "Contra ato administrativo que contraria súmula vinculante, a reclamação ao STF só é admitida depois de esgotadas as vias administrativas."
-        },
-        {
-          "sigla": "Lei nova não desafia reclamação",
-          "texto": "O legislador pode editar lei igual à declarada inconstitucional; o efeito vinculante não o atinge na função de legislar, e a nova lei se ataca por nova ação de controle."
-        }
-      ],
-      "pegadinha": {
-        "afirmacao": "Contribuinte autuado com base em interpretação que contraria súmula vinculante pode ajuizar reclamação diretamente no STF, sem necessidade de esgotar as vias administrativas, já que o art. 103-A, § 3º, da CF não faz essa exigência.",
-        "gabarito": "E",
-        "explicacao": "Contra omissão ou ato da administração pública, o uso da reclamação só será admitido após esgotamento das vias administrativas (Lei 11.417/2006, art. 7º, § 1º). Contra decisão judicial que contrarie súmula vinculante, não há essa exigência."
-      },
-      "aprofundamento": "<p><strong>Natureza jurídica.</strong> No julgamento da ADI 2.212, o STF reconheceu a validade da reclamação prevista na Constituição estadual para o Tribunal de Justiça, enquadrando-a no direito de petição (art. 5º, XXXIV). A doutrina processual majoritária, reforçada pelo CPC de 2015, a trata como ação autônoma. O ponto que a banca explora é a validade da previsão estadual: ela é constitucional.</p><p><strong>Legitimidade.</strong> Pelo art. 988 do CPC, cabe reclamação da parte interessada ou do Ministério Público. Nas decisões com efeito vinculante e eficácia contra todos (ADI, ADC, ADPF e súmula vinculante), o STF admite reclamação de qualquer pessoa atingida pelo ato que as desrespeita, ainda que não tenha sido parte no processo objetivo. Já a decisão proferida em processo subjetivo, sem efeito vinculante, só pode ser invocada por quem foi parte nele.</p><p><strong>Transcendência dos motivos determinantes.</strong> O STF não admite reclamação fundada apenas nas razões de decidir de uma ação de controle concentrado para atacar ato baseado em outra lei, de outro ente, ainda que de conteúdo semelhante. O efeito vinculante alcança o dispositivo da decisão.</p><p><strong>Procedimento.</strong> Ao despachar a reclamação, o relator requisitará informações da autoridade a quem for imputada a prática do ato impugnado, que as prestará no prazo de 10 (dez) dias; se necessário, suspenderá o processo ou o ato impugnado; e determinará a citação do beneficiário da decisão impugnada, que terá 15 (quinze) dias para contestar (CPC, art. 989). Qualquer interessado poderá impugnar o pedido do reclamante (art. 990). A inadmissibilidade ou o julgamento do recurso interposto contra a decisão reclamada não prejudica a reclamação (art. 988, § 6º).</p><p><strong>Alteração posterior ao edital.</strong> A Lei 15.484, de 4/8/2026, com vigência trinta dias depois da publicação, acrescentou ao art. 988 do CPC o inciso V (em casos excepcionais, garantir a observância de acórdão de recurso especial sob o regime de relevância) e deu nova redação ao § 5º, II, que passou a mencionar também o recurso especial com relevância reconhecida e o ato manifestamente em desacordo com o precedente qualificado. Como a mudança entrou em vigor depois da publicação do edital, ela é registrada aqui apenas para atualização.</p>",
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "relacionados": [
-        "processo-legislativo-nos-estados-e-municipios"
       ]
     }
   ]
