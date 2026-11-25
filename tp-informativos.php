@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'TPI_VERSION', '0.27.0' );
 define( 'TPI_ARQUIVO', __FILE__ );
+require_once __DIR__ . '/includes/dominio.php';
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
 require_once __DIR__ . '/includes/ramos.php';
