@@ -161,4 +161,6 @@
 .tpv-duvidas details { border: 1px solid var(--tpv-linha); border-radius: 12px; padding: .85rem 1.1rem; background: #fff; }
 .tpv-duvidas summary { cursor: pointer; font-weight: 800; }
 .tpv-duvidas details p { margin: .6rem 0 0; line-height: 1.6; }
+/* 0.27.3: 6 passos em 2 colunas no computador (linhas mais curtas, metade da altura) */
+@media (min-width: 900px) { .tpv-passos { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tpv-passo { display: flex; flex-direction: column; } .tpv-passo__guia { margin-top: auto !important; padding-top: .2rem; } }
 @media (max-width: 600px) { .tpv-passo { padding: 3.6rem 1rem 1rem; } .tpv-passo::before { top: 1rem; left: 1rem; } }
