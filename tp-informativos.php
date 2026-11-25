@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TP Informativos
  * Description: Informativos STF/STJ comentados: tipo de conteúdo hierárquico (tribunal > periódico > julgado), calendário, "marcar como lido", dados estruturados e campos para automação via REST API.
- * Version: 0.25.0
+ * Version: 0.25.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author: Tchau Pobreza
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TPI_VERSION', '0.25.0' );
+define( 'TPI_VERSION', '0.25.1' );
 define( 'TPI_ARQUIVO', __FILE__ );
 require_once __DIR__ . '/includes/atualizador.php';
 require_once __DIR__ . '/includes/medicao.php';
@@ -1243,9 +1243,11 @@ function tpi_botao_lido( $id, $compacto = false ) {
  * 4. Calendário: [tp_calendario tribunal="STJ" limite="12"]
  *    Tabela HTML (indexável e acessível), não widget em JavaScript.
  * ------------------------------------------------------------------------- */
-add_shortcode( 'tp_calendario', function ( $atts ) {
-	$a     = shortcode_atts( array( 'tribunal' => '', 'limite' => 8 ), $atts );
-	$trib  = strtoupper( $a['tribunal'] );
+/* 0.25.1: edições do calendário que ainda não foram comentadas (previstas, com data estimada ou já divulgadas
+   aguardando o comentário), da mais próxima para a mais distante. As comentadas ficam fora: já aparecem nas
+   listas por edição ([tp_edicoes]) e nos hubs de tribunal, e antes empurravam as próximas datas para fora do limite. */
+function tpi_calendario_pendentes( $trib = '' ) {
+	$trib  = strtoupper( (string) $trib );
 	$hoje  = wp_date( 'Y-m-d' );
 	$itens = array();
 	foreach ( tpi_calendario_oficial() as $c ) {
@@ -1258,38 +1260,57 @@ add_shortcode( 'tp_calendario', function ( $atts ) {
 	if ( $trib ) {
 		$meta[] = array( 'key' => 'tp_tribunal', 'value' => $trib );
 	}
-	foreach ( get_posts( array( 'post_type' => 'informativo', 'numberposts' => 50, 'meta_query' => $meta ) ) as $p ) {
-		$k   = tpi_meta( $p->ID, 'tp_tribunal' ) . '-' . (int) tpi_meta( $p->ID, 'tp_numero' );
-		$prev = 'previsto' === tpi_meta( $p->ID, 'tp_status' );
-		$est = isset( $itens[ $k ] ) && ! empty( $itens[ $k ]['estimada'] ) && $prev;
-		$itens[ $k ] = array( 'tribunal' => tpi_meta( $p->ID, 'tp_tribunal' ), 'numero' => (int) tpi_meta( $p->ID, 'tp_numero' ), 'data' => $prev ? tpi_meta( $p->ID, 'tp_data_prevista' ) : tpi_meta( $p->ID, 'tp_data_publicacao' ), 'post' => $p, 'previsto' => $prev, 'estimada' => $est );
+	foreach ( get_posts( array( 'post_type' => 'informativo', 'numberposts' => -1, 'meta_query' => $meta ) ) as $p ) {
+		$k = tpi_meta( $p->ID, 'tp_tribunal' ) . '-' . (int) tpi_meta( $p->ID, 'tp_numero' );
+		if ( 'previsto' !== tpi_meta( $p->ID, 'tp_status' ) ) {
+			unset( $itens[ $k ] ); // já comentado
+			continue;
+		}
+		$est         = isset( $itens[ $k ] ) && ! empty( $itens[ $k ]['estimada'] );
+		$itens[ $k ] = array( 'tribunal' => tpi_meta( $p->ID, 'tp_tribunal' ), 'numero' => (int) tpi_meta( $p->ID, 'tp_numero' ), 'data' => tpi_meta( $p->ID, 'tp_data_prevista' ), 'post' => $p, 'estimada' => $est );
 	}
-	// Mostra a última edição comentada e as próximas.
+	// Data passada só fica se houver pré-página (edição divulgada e ainda sem comentário); o resto é acervo antigo.
 	$itens = array_filter( $itens, function ( $i ) use ( $hoje ) { return $i['post'] || $i['data'] >= $hoje; } );
 	usort( $itens, function ( $x, $y ) { return strcmp( $x['data'] . $x['tribunal'], $y['data'] . $y['tribunal'] ); } );
-	$itens = array_slice( $itens, 0, (int) $a['limite'] );
+	$vistos = array();
+	foreach ( $itens as &$i ) {
+		$i['proximo'] = ! isset( $vistos[ $i['tribunal'] ] ); // primeira pendente de cada tribunal
+		$vistos[ $i['tribunal'] ] = true;
+	}
+	unset( $i );
+	return $itens;
+}
+
+function tpi_calendario_situacao( $i, $curto = false ) {
+	if ( $i['data'] < wp_date( 'Y-m-d' ) ) {
+		return '<span class="tpi-sit">Divulgado</span>';
+	}
+	if ( ! empty( $i['estimada'] ) ) {
+		return '<span class="tpi-sit tpi-sit--est">' . ( $curto ? 'Estimada' : 'Data estimada' ) . '</span>';
+	}
+	return '<span class="tpi-sit tpi-sit--prev">' . ( ! empty( $i['proximo'] ) ? 'Próximo' : 'Previsto' ) . '</span>';
+}
+
+function tpi_calendario_fontes() {
+	return '<p class="tpi-calendario__fonte">Fontes: <a href="https://processo.stj.jus.br/docs_internet/jurisprudencia/ajuda/CalendarioIJ.pdf" rel="noopener" target="_blank">calendário oficial do STJ</a> e <a href="https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF&amp;pagina=Calendario_publicacoes_Informativo" rel="noopener" target="_blank">calendário do STF</a>. Quando o STF ainda não publicou a data, ela é estimada pelo ritmo semanal das edições e marcada como tal.</p>';
+}
+
+add_shortcode( 'tp_calendario', function ( $atts ) {
+	$a     = shortcode_atts( array( 'tribunal' => '', 'limite' => 8 ), $atts );
+	$trib  = strtoupper( $a['tribunal'] );
+	$itens = array_slice( tpi_calendario_pendentes( $trib ), 0, (int) $a['limite'] );
 	if ( ! $itens ) {
-		return '';
+		return '<div class="tpi-calendario"><p class="tpi-vazio">Nenhuma edição prevista no momento' . ( $trib ? ' para o ' . esc_html( $trib ) : '' ) . '. Assim que o tribunal publicar a próxima data, ela aparece aqui.</p>' . tpi_calendario_fontes() . '</div>';
 	}
 	$html = '<div class="tpi-calendario"><table><caption>Próximas datas de divulgação' . ( $trib ? ' do ' . esc_html( $trib ) : ' do STJ e do STF' ) . '</caption><thead><tr><th scope="col">Data</th><th scope="col">Edição</th><th scope="col">Situação</th></tr></thead><tbody>';
 	foreach ( $itens as $i ) {
 		$ts     = strtotime( $i['data'] );
 		$data   = '<time datetime="' . esc_attr( $i['data'] ) . '"><span class="tpi-cal__dia">' . esc_html( wp_date( 'd', $ts ) ) . '</span> <span class="tpi-cal__mes">' . esc_html( wp_date( 'M', $ts ) ) . '</span></time>';
-		$com    = $i['post'] && empty( $i['previsto'] );
 		$nome   = esc_html( (string) $i['numero'] );
 		$edicao = ( $i['post'] && tpi_linkavel( $i['post'], 'calendario' ) ) ? '<a href="' . esc_url( get_permalink( $i['post'] ) ) . '">Informativo ' . $nome . '</a>' : 'Informativo ' . $nome;
-		if ( $com ) {
-			$sit = '<span class="tpi-sit tpi-sit--ok">Comentado</span>';
-		} elseif ( $i['data'] < $hoje ) {
-			$sit = '<span class="tpi-sit">Divulgado</span>';
-		} elseif ( ! empty( $i['estimada'] ) ) {
-			$sit = '<span class="tpi-sit tpi-sit--est">Data estimada</span>';
-		} else {
-			$sit = '<span class="tpi-sit tpi-sit--prev">Previsto</span>';
-		}
-		$html .= '<tr' . ( $com ? ' class="is-comentado"' : '' ) . '><td>' . $data . '</td><td><span class="tpi-trib tpi-trib--' . esc_attr( strtolower( $i['tribunal'] ) ) . '">' . esc_html( $i['tribunal'] ) . '</span> ' . $edicao . '</td><td>' . $sit . '</td></tr>';
+		$html  .= '<tr><td>' . $data . '</td><td><span class="tpi-trib tpi-trib--' . esc_attr( strtolower( $i['tribunal'] ) ) . '">' . esc_html( $i['tribunal'] ) . '</span> ' . $edicao . '</td><td>' . tpi_calendario_situacao( $i ) . '</td></tr>';
 	}
-	return $html . '</tbody></table><p class="tpi-calendario__fonte">Fontes: <a href="https://processo.stj.jus.br/docs_internet/jurisprudencia/ajuda/CalendarioIJ.pdf" rel="noopener" target="_blank">calendário oficial do STJ</a> e <a href="https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF&amp;pagina=Calendario_publicacoes_Informativo" rel="noopener" target="_blank">calendário do STF</a>. Quando o STF ainda não publicou a data, ela é estimada pelo ritmo semanal das edições e marcada como tal.</p></div>';
+	return $html . '</tbody></table>' . tpi_calendario_fontes() . '</div>';
 } );
 
 /* Próximo informativo: [tp_proximo tribunal="STJ"] */
@@ -1330,15 +1351,16 @@ add_shortcode( 'tp_proximo', function ( $atts ) {
 /* Edições por tribunal e ano: [tp_edicoes anos="2"]
    0.4: colunas STJ | STF, cada edição com data, nº de julgados e progresso de leitura (logado). */
 add_shortcode( 'tp_edicoes', function ( $atts ) {
-	$a     = shortcode_atts( array( 'anos' => 2 ), $atts );
-	$html  = '<p class="tpi-edicoes__dica">Cada edição tem duas leituras: <strong>Comentado</strong>, com o estudo completo de cada julgado, e <strong>Resumo</strong>, para revisar rápido ou imprimir.</p><div class="tpi-edicoes">';
+	$a     = shortcode_atts( array( 'anos' => 2, 'proximos' => '' ), $atts );
+	$prox  = ! empty( $a['proximos'] ) ? tpi_edicoes_coluna_proximos() : '';
+	$html  = '<p class="tpi-edicoes__dica">Cada edição tem duas leituras: <strong>Comentado</strong>, com o estudo completo de cada julgado, e <strong>Resumo</strong>, para revisar rápido ou imprimir.</p><div class="tpi-edicoes' . ( $prox ? ' tpi-edicoes--3' : '' ) . '">';
 	foreach ( array( 'STJ', 'STF' ) as $trib ) {
 		$q = get_posts( array( 'post_type' => 'informativo', 'post_status' => 'publish', 'numberposts' => 200, 'meta_key' => 'tp_numero', 'orderby' => 'meta_value_num', 'order' => 'DESC', 'meta_query' => array( array( 'key' => 'tp_tipo', 'value' => 'periodico' ), array( 'key' => 'tp_tribunal', 'value' => $trib ) ) ) );
 		$q     = array_values( array_filter( $q, function ( $p ) { return tpi_linkavel( $p, 'edicoes' ); } ) );
 		$hid   = 'tpi-ed-' . strtolower( $trib );
 		$html .= '<section class="tpi-edicoes__col" aria-labelledby="' . $hid . '"><h3 id="' . $hid . '" class="tpi-edicoes__trib"><span class="tpi-trib tpi-trib--' . strtolower( $trib ) . '">' . $trib . '</span> ' . ( 'STJ' === $trib ? 'Superior Tribunal de Justiça' : 'Supremo Tribunal Federal' ) . '</h3>';
 		if ( ! $q ) {
-			$html .= '<p class="tpi-vazio">As primeiras edições comentadas do ' . $trib . ' entram aqui. Veja as datas no calendário abaixo.</p></section>';
+			$html .= '<p class="tpi-vazio">As primeiras edições comentadas do ' . $trib . ' entram aqui. Veja as próximas datas no calendário.</p></section>';
 			continue;
 		}
 		$por_ano = array();
@@ -1363,8 +1385,40 @@ add_shortcode( 'tp_edicoes', function ( $atts ) {
 		}
 		$html .= '</section>';
 	}
-	return $html . '</div>';
+	return $html . $prox . '</div>';
 } );
+
+/* 0.25.1: terceira coluna do hub, "Próximas edições": só o que ainda vai sair (o calendário sem as edições já
+   comentadas, que estão nas duas colunas ao lado). A primeira de cada tribunal é a "Próxima" e linka a pré-página
+   quando tpi_links_previstos permite ("calendario" ou "todos"). */
+function tpi_edicoes_coluna_proximos( $limite = 6 ) {
+	$itens = array_slice( tpi_calendario_pendentes(), 0, $limite );
+	$html  = '<section class="tpi-edicoes__col tpi-edicoes__col--prox" aria-labelledby="tpi-ed-prox"><h3 id="tpi-ed-prox" class="tpi-edicoes__trib">Próximas edições</h3>';
+	if ( ! $itens ) {
+		$html .= '<p class="tpi-vazio">Nenhuma edição prevista no momento. Assim que o STJ ou o STF publicar a próxima data, ela aparece aqui.</p>';
+	} else {
+		$por_ano = array();
+		foreach ( $itens as $i ) {
+			$por_ano[ substr( $i['data'], 0, 4 ) ][] = $i;
+		}
+		foreach ( $por_ano as $ano => $lista ) {
+			$html .= '<h4 class="tpi-edicoes__ano">' . esc_html( $ano ) . '</h4><ul class="tpi-edicoes__lista">';
+			foreach ( $lista as $i ) {
+				$t      = strtolower( $i['tribunal'] );
+				$quando = wp_date( 'd/m', strtotime( $i['data'] ) ); // o ano está no h4 acima
+				$dentro = '<span class="tpi-edicao__num">' . esc_html( (string) $i['numero'] ) . '</span><span class="tpi-edicao__info"><span class="tpi-trib tpi-trib--' . esc_attr( $t ) . '">' . esc_html( $i['tribunal'] ) . '</span> <time datetime="' . esc_attr( $i['data'] ) . '">' . esc_html( $quando ) . '</time><span class="tpi-sr"> (Informativo ' . esc_html( (string) $i['numero'] ) . ' do ' . esc_html( $i['tribunal'] ) . ')</span></span>' . tpi_calendario_situacao( $i, true );
+				$link   = $i['post'] && tpi_linkavel( $i['post'], 'calendario' );
+				$html  .= '<li class="tpi-edicao is-previsto">' . ( $link ? '<a href="' . esc_url( get_permalink( $i['post'] ) ) . '">' . $dentro . '</a>' : '<div class="tpi-edicao__linha">' . $dentro . '</div>' ) . '</li>';
+			}
+			$html .= '</ul>';
+		}
+	}
+	$cal = get_page_by_path( 'calendario-informativos-stj-stf' );
+	if ( $cal && 'publish' === $cal->post_status ) {
+		$html .= '<p class="tpi-edicoes__mais"><a href="' . esc_url( get_permalink( $cal ) ) . '">Calendário completo e fontes oficiais</a></p>';
+	}
+	return $html . '</section>';
+}
 
 /* Últimos periódicos: [tp_ultimos tribunal="" limite="6"] */
 add_shortcode( 'tp_ultimos', function ( $atts ) {
@@ -1808,12 +1862,9 @@ add_shortcode( 'tp_buscador', function () {
 
 	// Vitrine (também aparece abaixo dos resultados, mais enxuta)
 	if ( ! tpi_busca_ativa() ) {
-		// 0.18.2: o conteúdo já publicado vem primeiro; as próximas edições ficam logo abaixo, compactas e com link (pré-páginas indexáveis).
-		$html .= '<section class="tpi-vitrine" aria-labelledby="tpi-ed-titulo"><h2 id="tpi-ed-titulo">Informativos comentados por edição</h2>' . do_shortcode( '[tp_edicoes]' ) . '</section>';
-		$prox  = do_shortcode( '[tp_proximo tribunal="STJ" compacto="1"]' ) . do_shortcode( '[tp_proximo tribunal="STF" compacto="1"]' );
-		if ( $prox ) {
-			$html .= '<section class="tpi-proximas" aria-labelledby="tpi-prox-titulo"><h2 id="tpi-prox-titulo">Próximas edições</h2><ul class="tpi-proximos">' . $prox . '</ul></section>';
-		}
+		// 0.25.1: as próximas edições viraram a 3ª coluna ao lado de STJ e STF (antes: bloco "Próximas edições" e
+		// tabela do calendário no fim da página, que repetia as edições já comentadas).
+		$html .= '<section class="tpi-vitrine" aria-labelledby="tpi-ed-titulo"><h2 id="tpi-ed-titulo">Informativos comentados por edição</h2>' . do_shortcode( '[tp_edicoes proximos="1"]' ) . '</section>';
 	}
 	if ( $ramos ) {
 		$html .= '<section class="tpi-ramos" aria-labelledby="tpi-ramos-titulo"><h2 id="tpi-ramos-titulo">Navegue por ramo do Direito</h2><ul>';
@@ -1822,9 +1873,6 @@ add_shortcode( 'tp_buscador', function () {
 			$html .= '<li><a href="' . esc_url( get_term_link( $r ) ) . '"' . ( $ativo ? ' aria-current="true"' : '' ) . '>' . esc_html( $r->name ) . ' <span class="tpi-ramos__n">' . (int) $r->tpi_total . '</span></a></li>';
 		}
 		$html .= '</ul></section>';
-	}
-	if ( ! tpi_busca_ativa() ) {
-		$html .= '<section class="tpi-vitrine" aria-labelledby="tpi-cal-titulo"><h2 id="tpi-cal-titulo">Calendário de informativos</h2>' . do_shortcode( '[tp_calendario limite="10"]' ) . '</section>';
 	}
 	return '<div class="tpi-hub alignwide">' . $html . '</div>';
 } );

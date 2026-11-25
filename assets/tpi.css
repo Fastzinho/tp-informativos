@@ -649,3 +649,16 @@ h4.tpi-edicoes__ano { margin: .9rem 0 .4rem; font-size: .8rem; font-weight: 800;
 .tpr-ir{font:inherit;font-weight:700;color:var(--tpi-verde);background:none;border:0;padding:.4rem 0;min-height:44px;cursor:pointer;text-align:left}
 .tpr-ir::after{content:" ↓"}
 .tpr-ir:focus-visible{outline:3px solid var(--tpi-areia);outline-offset:2px}
+/* 0.25.1: hub com 3 colunas (STJ | STF | Próximas edições). Em telas médias, as próximas descem e ocupam a largura toda. */
+@media (min-width: 760px) { .tpi-edicoes--3 .tpi-edicoes__col--prox { grid-column: 1 / -1; } .tpi-edicoes--3 .tpi-edicoes__col--prox .tpi-edicoes__lista { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); } }
+@media (min-width: 1040px) { .tpi-edicoes--3 { grid-template-columns: 1fr 1fr minmax(16rem, .85fr); } .tpi-edicoes--3 .tpi-edicoes__col--prox { grid-column: auto; } .tpi-edicoes--3 .tpi-edicoes__col--prox .tpi-edicoes__lista { grid-template-columns: 1fr; } }
+.tpi-edicoes__col--prox { background: var(--tpi-nevoa); }
+.tpi-edicao__linha { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .75rem; min-height: 48px; box-sizing: border-box; padding: .45rem .75rem; border: 1px dashed var(--tpi-linha); border-radius: var(--tpi-raio-p); color: var(--tpi-tinta); background: #fff; }
+.tpi-edicoes__col--prox .tpi-edicao a { background: #fff; }
+.tpi-edicoes__col--prox .tpi-edicao__info { display: inline-flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+.tpi-edicoes__col--prox .tpi-trib { font-size: .7rem; }
+.tpi-edicoes__mais { margin: .8rem 0 0; font-size: .88rem; }
+.tpi-edicoes__mais a { color: var(--tpi-verde); font-weight: 700; }
+.tpi-calendario .tpi-vazio { margin: 0; color: var(--tpi-suave); }
+.tpi-edicoes__col--prox .tpi-trib { margin-right: 0; }
+.tpi-edicoes__col--prox .tpi-edicao > a, .tpi-edicoes__col--prox .tpi-edicao__linha { height: 100%; box-sizing: border-box; }
