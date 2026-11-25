@@ -32,6 +32,12 @@ Situação em 10/11/2026: 76 conceitos marcados em 43 julgados (STJ 907–909, S
 |---|---|---|
 | `planos-de-saude` | 2 | STJ 908: As exclusões do art. 10, VI e VII, da Lei dos Planos de Saúde; STJ 908: Rol da ANS, Lei 14.454/2022 e ADI 7.265 |
 
+## Execução Penal (`execucao-penal`)
+
+| Tema (slug) | Conceitos que pedem | Onde |
+|---|---|---|
+| `prisao-domiciliar` | 1 | STJ 911: Súmula Vinculante 56 e Tema 423 (classificação quadripartite da prisão domiciliar: cautelar, albergue domiciliar, substitutiva do cárcere e por falta de estabelecimento adequado) |
+
 ## Direito Notarial e Registral (`direito-notarial-e-registral`)
 
 | Tema (slug) | Conceitos que pedem | Onde |
