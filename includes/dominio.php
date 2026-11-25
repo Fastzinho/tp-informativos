@@ -6,8 +6,7 @@
  * index, follow (o robots.txt da Hostinger nesse domínio só bloqueia o Googlebot; Bing e robôs de IA liam a cópia).
  * O llms.txt gerado pelo Hostinger Tools saiu com todos os links nesse domínio.
  *
- * 1. Qualquer GET/HEAD no domínio provisório vai com 301 para o mesmo caminho em tchaupobreza.com.br.
- *    POST fica de fora (não quebrar chamada da própria Hostinger).
+ * 1. No domínio provisório: noindex (cabeçalho e meta) e canonical para tchaupobreza.com.br (0.27.1; o 301 da 0.27.0 virou loop).
  * 2. Rede de segurança do llms.txt: se o arquivo estático tiver o domínio provisório, troca pelo oficial
  *    (depois que o Hostinger Tools regrava o arquivo ao salvar posts, e uma vez por dia).
  */
@@ -22,20 +21,37 @@ function tpi_host_provisorio( $host ) {
 	return (bool) preg_match( '/\.hostingersite\.com$/i', (string) $host );
 }
 
-( function () {
-	$host   = strtolower( preg_replace( '/:\d+$/', '', (string) ( $_SERVER['HTTP_HOST'] ?? '' ) ) );
-	$metodo = strtoupper( (string) ( $_SERVER['REQUEST_METHOD'] ?? 'GET' ) );
-	if ( ! tpi_host_provisorio( $host ) || ! in_array( $metodo, array( 'GET', 'HEAD' ), true ) || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
-		return;
+/* 0.27.1: o 301 virou loop. A CDN da Hostinger (hcdn) reescreve o Location para o host pedido, então o
+ * redirect apontava para o próprio domínio provisório. Em vez de redirecionar, a cópia passa a dizer
+ * noindex e aponta o canonical para o domínio oficial. O wp-admin e o login seguem funcionando nela
+ * (o botão do hPanel pode usar esse endereço). */
+function tpi_no_provisorio() {
+	$host = strtolower( preg_replace( '/:\d+$/', '', (string) ( $_SERVER['HTTP_HOST'] ?? '' ) ) );
+	return tpi_host_provisorio( $host );
+}
+function tpi_url_oficial( $url ) {
+	return preg_replace( '#^https?://[a-z0-9-]+\.hostingersite\.com#i', 'https://' . TPI_DOMINIO_OFICIAL, (string) $url );
+}
+if ( tpi_no_provisorio() && ! headers_sent() ) {
+	header( 'X-Robots-Tag: noindex, follow', true );
+}
+add_filter( 'rank_math/frontend/canonical', function ( $c ) {
+	return tpi_no_provisorio() ? tpi_url_oficial( $c ) : $c;
+}, 99 );
+add_filter( 'rank_math/frontend/robots', function ( $r ) {
+	if ( tpi_no_provisorio() ) {
+		$r['index'] = 'noindex';
+		$r['follow'] = 'follow';
 	}
-	$uri = (string) ( $_SERVER['REQUEST_URI'] ?? '/' );
-	if ( '' === $uri || '/' !== $uri[0] ) {
-		$uri = '/';
+	return $r;
+}, 99 );
+add_filter( 'wp_robots', function ( $r ) {
+	if ( tpi_no_provisorio() ) {
+		unset( $r['index'] );
+		$r['noindex'] = true;
 	}
-	header( 'X-Robots-Tag: noindex', true );
-	header( 'Location: https://' . TPI_DOMINIO_OFICIAL . $uri, true, 301 );
-	exit;
-} )();
+	return $r;
+}, 99 );
 
 function tpi_conserta_llms() {
 	$arq = ABSPATH . 'llms.txt';
