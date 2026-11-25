@@ -451,11 +451,64 @@ function tpc_lei_regras( $l ) {
 		}
 		$h .= '</p>';
 	}
+	$h .= tpc_literalidades( $l['literalidades'] ?? null );
 	$h .= '<p class="tpc-fonte">Leia na íntegra: ' . esc_html( $l['ref'] ?? '' );
 	if ( ! empty( $l['url'] ) ) {
 		$h .= ' · <a href="' . esc_url( $l['url'] ) . '" rel="noopener" target="_blank">texto oficial</a>';
 	}
 	return $h . ' · <a href="' . esc_url( home_url( '/estudar/' ) ) . '">Ler na Lei seca do app</a></p>';
+}
+
+/* 0.26.0: literalidade que a banca troca (playbook, seção 13.3). Só onde há troca real: o trecho literal do acervo, com a
+   palavra trocada marcada ("marcas"), e logo abaixo a afirmação de prova, o gabarito dela e o porquê, num card só. O
+   conferir_lei.py exige o trecho literal no artigo e cada marca dentro do trecho. */
+function tpc_literalidades( $lits ) {
+	if ( empty( $lits ) || ! is_array( $lits ) ) {
+		return '';
+	}
+	$h = '';
+	foreach ( $lits as $x ) {
+		$tr = (string) ( $x['trecho'] ?? '' );
+		$gb = (string) ( $x['gabarito'] ?? '' );
+		if ( '' === $tr || empty( $x['afirmacao'] ) || ! in_array( $gb, array( 'C', 'E' ), true ) ) {
+			continue;
+		}
+		$q = esc_html( $tr );
+		foreach ( (array) ( $x['marcas'] ?? array() ) as $m ) {
+			$m = esc_html( (string) $m );
+			if ( '' !== $m ) {
+				$q = preg_replace( '/' . preg_quote( $m, '/' ) . '/u', '<mark>' . $m . '</mark>', $q, 1 );
+			}
+		}
+		$h .= '<div class="tpc-literal"><q class="tpc-lei">' . $q . '</q>'
+			. '<p class="tpc-rotulo">Literalidade que a banca troca · como cai</p>'
+			. '<p class="tpc-literal__afirmacao">' . tpc_html( $x['afirmacao'] ) . '</p>'
+			. '<p class="tpc-literal__gab"><strong>Gabarito da afirmação acima: ' . ( 'C' === $gb ? 'Certo' : 'Errado' ) . '.</strong></p>'
+			. ( ! empty( $x['porque'] ) ? '<p class="tpc-literal__porque"><strong>Por quê:</strong> ' . tpc_html( $x['porque'] ) . '</p>' : '' )
+			. '</div>';
+	}
+	return $h;
+}
+
+/* 0.26.0: "Cada figura, em uma linha" (playbook, seção 13.2). Tabela de completude: toda figura, espécie ou classificação
+   que a prova cobra recebe uma definição curta e, se houver, o ponto de atenção. Vem depois do esquema. */
+function tpc_figuras( $f, $hb = 'h3' ) {
+	$linhas = is_array( $f['linhas'] ?? null ) ? $f['linhas'] : array();
+	if ( ! $linhas ) {
+		return '';
+	}
+	$col = is_array( $f['colunas'] ?? null ) && 3 === count( $f['colunas'] ) ? $f['colunas'] : array( 'Figura', 'O que é', 'Atenção' );
+	$h   = '<section class="tpc-bloco"><' . $hb . '>' . esc_html( $f['titulo'] ?? 'Cada figura, em uma linha' ) . ( ! empty( $f['rotulo'] ) ? ' <span class="tpc-tag">' . esc_html( $f['rotulo'] ) . '</span>' : '' ) . '</' . $hb . '>';
+	$h  .= '<div class="tpc-rolagem"><table class="tpc-figuras"><thead><tr><th>' . esc_html( $col[0] ) . '</th><th>' . esc_html( $col[1] ) . '</th><th>' . esc_html( $col[2] ) . '</th></tr></thead><tbody>';
+	$grupo = null;
+	foreach ( $linhas as $l ) {
+		if ( ! empty( $l['grupo'] ) && $l['grupo'] !== $grupo ) {
+			$grupo = $l['grupo'];
+			$h    .= '<tr class="tpc-figuras__grupo"><th colspan="3" scope="colgroup">' . esc_html( $grupo ) . '</th></tr>';
+		}
+		$h .= '<tr><td><strong>' . tpc_html( $l['nome'] ?? '' ) . '</strong></td><td>' . tpc_html( $l['o_que_e'] ?? '' ) . '</td><td>' . tpc_html( $l['atencao'] ?? '' ) . '</td></tr>';
+	}
+	return $h . '</tbody></table></div></section>';
 }
 
 function tpc_html( $s ) {
@@ -620,6 +673,7 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 		$h .= '<section class="tpc-bloco"><' . $hb . '>Esquema' . ( ! empty( $t['esquema']['rotulo'] ) ? ' <span class="tpc-tag">' . esc_html( $t['esquema']['rotulo'] ) . '</span>' : '' ) . '</' . $hb . '><div class="tpc-rolagem">' . tpc_html( $t['esquema']['html'] ) . '</div></section>';
 	}
 
+	$h .= tpc_figuras( $t['figuras'] ?? null, $hb );
 	$h .= tpc_figura( $t['figura'] ?? null, $hb );
 	$h .= tpc_mapa( $t['mapa'] ?? null, $hb );
 

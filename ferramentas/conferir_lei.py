@@ -177,6 +177,15 @@ def _confere_regras(onde, nid, unidades, item, erros):
     for x in item.get('trechos') or []:
         if not any(norm(x) in t for t in textos):
             erros.append('%s: trecho não é literal no acervo: "%s"' % (onde, x[:120]))
+    for i, x in enumerate(item.get('literalidades') or []):
+        tr = x.get('trecho', '') if isinstance(x, dict) else ''
+        if not tr or not any(norm(tr) in t for t in textos):
+            erros.append('%s: literalidade %d: trecho não é literal no acervo: "%s"' % (onde, i + 1, tr[:120]))
+        for m in x.get('marcas') or [] if isinstance(x, dict) else []:
+            if m not in tr:
+                erros.append('%s: literalidade %d: marca "%s" fora do trecho.' % (onde, i + 1, m))
+        if not isinstance(x, dict) or x.get('gabarito') not in ('C', 'E') or not str(x.get('afirmacao', '')).strip() or not str(x.get('porque', '')).strip():
+            erros.append('%s: literalidade %d precisa de afirmacao, gabarito (C ou E) e porque.' % (onde, i + 1))
     for r in regras or []:
         if '—' in r:
             erros.append('%s: travessão nas regras.' % onde)
@@ -307,7 +316,7 @@ def confere_mudancas(arquivos):
 def _essencial(t):
     """O que, se mudar, pode mudar a resposta do aluno: texto da lei, gabarito da pegadinha, jurisprudência."""
     return (
-        [norm(sem_nota(i.get('texto', ''))) + '|'.join(i.get('regras') or []) + '|'.join(i.get('trechos') or []) for i in t.get('lei') or []],
+        [norm(sem_nota(i.get('texto', ''))) + '|'.join(i.get('regras') or []) + '|'.join(i.get('trechos') or []) + '|'.join('%s%s' % (x.get('trecho', ''), x.get('gabarito', '')) for x in i.get('literalidades') or []) for i in t.get('lei') or []],
         (t.get('pegadinha') or {}).get('gabarito'),
         [norm(j.get('texto', '')) for j in t.get('juris') or []],
     )
