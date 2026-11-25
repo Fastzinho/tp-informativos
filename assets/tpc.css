@@ -107,6 +107,28 @@
 .tpc-trechos { margin: .4rem 0 .6rem; display: flex; flex-wrap: wrap; gap: .35rem .5rem; align-items: baseline; }
 .tpc-trechos .tpc-rotulo { flex-basis: 100%; margin: 0; }
 .tpc-trechos q.tpc-lei { border-left: 0; padding: .1rem .45rem; background: #fbf7ee; border-radius: 4px; font-size: .98rem; }
+.tpc-literal { margin: .5rem 0 .8rem; padding: .75rem .9rem; border: 1px solid var(--tpi-linha); border-radius: 10px; display: grid; gap: .4rem; }
+.tpc-literal q.tpc-lei { display: block; border-left: 3px solid var(--tpi-areia); padding: .2rem .6rem; background: #fbf7ee; border-radius: 4px; quotes: none; }
+.tpc-literal mark { background: #f3dfae; color: inherit; padding: 0 .15em; border-radius: 3px; font-weight: 700; }
+.tpc-literal .tpc-rotulo { margin: .2rem 0 0; }
+.tpc-literal p { margin: 0; }
+.tpc-literal__gab { font-size: .95rem; }
+.tpc-literal__porque { font-size: .95rem; color: var(--tpi-tinta); }
+.tpc-jacaiu { margin: .4rem 0 0; font-size: .82rem; color: var(--tpi-suave); }
+.tpc-jacaiu span { font-weight: 700; }
+.tpc-ponte { margin: 0 0 1rem; padding: .75rem 1rem; border: 1px dashed var(--tpi-areia); border-radius: 10px; }
+.tpc-ponte ul { margin: .35rem 0 0; padding-left: 1.1rem; }
+.tpc-ponte li { margin: 0 0 .3rem; }
+.tpc-detalhes { margin: 0; padding-left: 1.1rem; line-height: 1.6; }
+.tpc-detalhes li { margin: 0 0 .5rem; }
+.tpc-trocas { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
+.tpc-trocas li { padding: .7rem .9rem; border: 1px solid var(--tpi-linha); border-radius: 10px; }
+.tpc-trocas p { margin: 0 0 .3rem; }
+.tpc-trocas .is-errado { color: #9b2c2c; }
+.tpc-trocas .is-certo { color: #2f7a4f; }
+.tpc-figuras td:first-child { white-space: nowrap; }
+.tpc-figuras__grupo th { text-align: left; background: var(--tpi-nevoa); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; }
+@media (max-width: 600px) { .tpc-figuras td:first-child { white-space: normal; } }
 .tpc-fonte { margin: .5rem 0 1rem; font-size: .85rem; color: var(--tpi-suave); }
 .tpc-fonte:last-child { margin-bottom: 0; }
 
