@@ -660,7 +660,12 @@ add_shortcode( 'tp_concursos', function () {
 		return '';
 	}
 	wp_enqueue_style( 'tp-concursos', TPI_URL . 'assets/tpcon.css', array(), TPI_VERSION );
-	$h = '<ul class="tpcon-hub">';
+	tpv_assets(); // 0.28.1: painel de chamada no fim do hub
+	// 0.28.1: abertura do hub (a auditoria contou 42 palavras na página). Descreve o que o guia traz sem repetir
+	// o "como estudar" genérico dos guias de /como-estudar/ nem o "plano de estudo" da home.
+	$h  = '<p class="tpcon-intro">Cada guia parte do edital oficial do concurso. No topo fica a ficha com banca, vagas, inscrições e data da prova, com a data em que conferimos tudo no edital. Logo abaixo vêm o peso de cada disciplina na prova, um roteiro de como estudar para aquela prova e o conteúdo programático tópico por tópico, na redação do próprio edital.</p>';
+	$h .= '<p class="tpcon-intro">Em cada tópico você vê quantas questões o app já tem sobre ele, o link para o tema no caderno quando existe e as marcas de teoria, questões e revisão, que ficam salvas no seu navegador. Quando o concurso ainda não tem edital novo, o guia segue o último publicado e diz isso no cartão.</p>';
+	$h .= '<ul class="tpcon-hub">';
 	foreach ( $ps as $p ) {
 		$c     = tpcon_dados( $p->ID );
 		$plano = tpcon_plano( $c['plano'] ?? '' );
@@ -669,7 +674,9 @@ add_shortcode( 'tp_concursos', function () {
 			. '<span>' . ( ! empty( $c['prova_data'] ) ? 'Prova em ' . esc_html( tpi_data_br( $c['prova_data'] ) ) : 'Pelo último edital (' . esc_html( $c['edital_anterior'] ?? '' ) . ')' ) . '</span>'
 			. '<span>' . (int) $total . ' tópicos · ' . (int) $com . ' com questões no app</span></a></li>';
 	}
-	return $h . '</ul>';
+	$h .= '</ul>';
+	$h .= '<p class="tpcon-intro">Novos guias entram quando o app já tem questões para a maior parte do edital. Para montar o seu próprio checklist de qualquer concurso, veja <a href="' . esc_url( home_url( '/como-estudar/edital-verticalizado/' ) ) . '">Edital verticalizado: o que é e como fazer o seu</a>.</p>';
+	return $h . tpv_cta( 'Seu concurso não está na lista?', 'O app tem planos para outros editais: escolha o seu e estude pelos tópicos dele, com questões e revisões agendadas.', 'Escolher meu concurso' );
 } );
 
 /* ---------------------------------------------------------------------------
