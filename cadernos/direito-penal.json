@@ -9445,53 +9445,96 @@
    "slug": "acao-penal",
    "titulo": "Ação penal: pública, condicionada e privada",
    "grupo": "Parte Geral: punibilidade",
-   "base": "Arts. 100 a 106 do CP",
+   "base": "Arts. 100 a 102 do CP",
    "tax": [
-    "penal.acao-penal",
-    "penal.extincao-punibilidade"
+    "penal.acao-penal"
    ],
    "dispositivos": [
     "n2848-1940-art-100",
     "n2848-1940-art-101",
-    "n2848-1940-art-102",
-    "n2848-1940-art-103",
-    "n2848-1940-art-104",
-    "n2848-1940-art-105",
-    "n2848-1940-art-106"
+    "n2848-1940-art-102"
    ],
    "conceitos": [
-    "ação pública incondicionada e condicionada",
-    "ação privada exclusiva e subsidiária",
-    "decadência",
-    "renúncia",
-    "perdão",
-    "perempção",
-    "indivisibilidade"
+    "ação penal pública incondicionada",
+    "ação pública condicionada à representação",
+    "ação pública condicionada à requisição do Ministro da Justiça",
+    "ação privada exclusiva",
+    "ação privada personalíssima",
+    "ação privada subsidiária da pública",
+    "sucessão processual do ofendido",
+    "crime complexo",
+    "retratação da representação",
+    "legitimidade concorrente"
    ],
    "palavras": [
     "acao penal publica",
+    "salvo quando a lei expressamente",
+    "privativa do ofendido",
+    "ministerio publico",
+    "denuncia",
     "representacao",
     "requisicao do ministro da justica",
     "queixa",
     "acao privada subsidiaria",
-    "decadencia",
-    "seis meses",
-    "doze meses violencia domestica",
-    "renuncia",
-    "renuncia tacita",
-    "perdao do ofendido",
-    "perdao aceito",
-    "perempcao",
-    "indivisibilidade",
+    "nao oferece denuncia no prazo legal",
+    "inercia",
+    "conjuge ascendente descendente irmao",
+    "declarado ausente",
+    "crime complexo",
+    "irretratavel",
+    "oferecida a denuncia",
     "retratacao da representacao",
     "sumula 714",
     "sumula 542",
-    "inercia do ministerio publico"
+    "maria da penha art. 16",
+    "audiencia",
+    "recebimento da denuncia",
+    "crimes sexuais",
+    "lei 13.718",
+    "acao personalissima",
+    "induzimento a erro essencial",
+    "lesao leve",
+    "lei 9.099 art. 88",
+    "manifestacao inequivoca",
+    "boletim de ocorrencia",
+    "dano simples",
+    "crimes contra a honra"
    ],
-   "resumo": "A regra é a ação <strong>pública incondicionada</strong>. A ação é condicionada (à representação do ofendido ou à requisição do Ministro da Justiça) ou privada só quando a lei diz. A representação pode ser retirada até o oferecimento da denúncia (art. 102). Queixa e representação <strong>decaem em 6 meses</strong>, contados do dia em que o ofendido soube quem é o autor (art. 103). Na violência doméstica e familiar contra a mulher, o prazo é de 12 meses. Na ação privada, a vítima pode abrir mão antes do processo (<strong>renúncia</strong>, ato unilateral) ou depois de iniciado (<strong>perdão</strong>, que só vale se o querelado aceitar). A renúncia ou o perdão dado a um dos autores aproveita a todos, pela indivisibilidade. Se o MP fica inerte no prazo legal, cabe ação privada subsidiária da pública (art. 100, § 3º).",
+   "resumo": "A ação penal é <strong>pública incondicionada</strong> por regra; só é condicionada ou privada quando a lei diz expressamente (art. 100). Na pública, o Ministério Público oferece a <strong>denúncia</strong>; se a lei exigir, ele depende antes da <strong>representação</strong> do ofendido ou da <strong>requisição do Ministro da Justiça</strong>. Na privada, o próprio ofendido (ou seu representante) oferece a <strong>queixa</strong>. Se o MP fica inerte no prazo legal, cabe a <strong>ação privada subsidiária da pública</strong> (art. 100, § 3º), mas a ação continua sendo pública e o MP pode retomá-la. Morto ou declarado ausente o ofendido, o direito de queixa passa ao cônjuge, ascendente, descendente ou irmão, salvo na ação privada personalíssima. No <strong>crime complexo</strong>, cabe ação pública se algum dos crimes que o formam é de ação pública (art. 101). A representação pode ser retirada <strong>até o oferecimento da denúncia</strong>; depois disso, é irretratável (art. 102). Prazos de decadência, renúncia e perdão estão no tema seguinte.",
    "esquema": {
-    "rotulo": "o que extingue a punibilidade em cada ação",
-    "html": "<table><thead><tr><th>Instituto</th><th>Momento</th><th>Em que ação extingue a punibilidade</th></tr></thead><tbody><tr><td><strong>Decadência</strong></td><td>Antes da ação (6 meses)</td><td>Privada exclusiva e pública condicionada (na subsidiária, o MP ainda pode agir)</td></tr><tr><td><strong>Renúncia</strong></td><td>Antes da queixa, unilateral</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perdão</strong></td><td>Depois da queixa e antes do trânsito em julgado, precisa ser aceito</td><td>Privada (exclusiva e personalíssima)</td></tr><tr><td><strong>Perempção</strong></td><td>Desídia do querelado no processo</td><td>Só a privada exclusiva; na subsidiária, o MP retoma a ação</td></tr><tr><td><strong>Retratação da representação</strong></td><td>Até o oferecimento da denúncia</td><td>Impede a ação na pública condicionada</td></tr></tbody></table>"
+    "rotulo": "as espécies de ação penal",
+    "html": "<table><thead><tr><th>Espécie</th><th>Quem propõe</th><th>Peça</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Pública incondicionada</strong></td><td>Ministério Público</td><td>Denúncia</td><td>Regra geral; lesão doméstica contra a mulher (Súmula 542 do STJ)</td></tr><tr><td><strong>Pública condicionada à representação</strong></td><td>MP, depois da representação</td><td>Denúncia</td><td>Lesão corporal leve e lesão culposa (Lei 9.099/1995, art. 88)</td></tr><tr><td><strong>Pública condicionada à requisição</strong></td><td>MP, depois da requisição do Ministro da Justiça</td><td>Denúncia</td><td>Crime contra a honra do Presidente da República (art. 145, parágrafo único)</td></tr><tr><td><strong>Privada exclusiva</strong></td><td>Ofendido ou quem o represente</td><td>Queixa</td><td>Regra dos crimes contra a honra (art. 145); dano simples (art. 167)</td></tr><tr><td><strong>Privada personalíssima</strong></td><td>Só o ofendido, sem sucessão</td><td>Queixa</td><td>Induzimento a erro essencial e ocultação de impedimento para casamento (art. 236)</td></tr><tr><td><strong>Privada subsidiária da pública</strong></td><td>Ofendido, se o MP fica inerte</td><td>Queixa substitutiva</td><td>Qualquer crime de ação pública (art. 100, § 3º; CF, art. 5º, LIX)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Representação e requisição lado a lado",
+    "linhas": [
+     {
+      "nome": "Quem faz",
+      "o_que_e": "Representação: o ofendido ou seu representante. Requisição: o Ministro da Justiça."
+     },
+     {
+      "nome": "Prazo",
+      "o_que_e": "Representação: 6 meses, sob pena de decadência (art. 103). Requisição: não tem prazo decadencial; basta não estar extinta a punibilidade."
+     },
+     {
+      "nome": "Forma",
+      "o_que_e": "Representação dispensa fórmula: basta a vontade inequívoca de ver o autor processado, como no registro da ocorrência (STJ)."
+     },
+     {
+      "nome": "Vincula o MP?",
+      "o_que_e": "Nenhuma das duas obriga a denunciar: o MP pode pedir o arquivamento."
+     },
+     {
+      "nome": "Retratação",
+      "o_que_e": "A representação é retratável até o oferecimento da denúncia (art. 102).",
+      "atencao": "Na Lei Maria da Penha, a renúncia à representação só vale em audiência, perante o juiz, antes do recebimento da denúncia (art. 16)."
+     }
+    ],
+    "colunas": [
+     "Ponto",
+     "Regra",
+     "Atenção"
+    ]
    },
    "lei": [
     {
@@ -9499,62 +9542,96 @@
      "artigos": [
       "Art. 100.",
       "Art. 101.",
-      "Art. 102.",
-      "Art. 103.",
-      "Art. 104.",
-      "Art. 105.",
-      "Art. 106."
+      "Art. 102."
      ],
-     "ref": "arts. 100 a 106 do CP",
+     "ref": "arts. 100 a 102 do CP",
      "regras": [
-      "<strong>Art. 100, caput e § 1º.</strong> A ação é pública, salvo quando a lei a declara privativa do ofendido; o Ministério Público a promove, dependendo, quando a lei exigir, de representação do ofendido ou de requisição do Ministro da Justiça.",
-      "<strong>Art. 100, §§ 2º a 4º.</strong> A privada se promove por queixa do ofendido ou de seu representante; cabe a privada subsidiária quando o MP não oferece denúncia no prazo; morto ou declarado ausente o ofendido, o direito passa ao cônjuge, ascendente, descendente ou irmão.",
-      "<strong>Art. 101.</strong> No crime complexo, cabe ação pública se algum dos crimes que o compõem for de ação pública.",
-      "<strong>Art. 102.</strong> A representação só pode ser retratada até o oferecimento da denúncia.",
-      "<strong>Art. 103.</strong> Decadência: 6 meses contados de quando o ofendido soube quem é o autor (ou do fim do prazo do MP, na subsidiária); na violência doméstica e familiar contra a mulher, 12 meses.",
-      "<strong>Art. 104.</strong> Renúncia (antes da queixa), expressa ou tácita, extingue o direito de queixa; receber a indenização do dano não é renúncia tácita.",
-      "<strong>Arts. 105 e 106.</strong> Perdão do ofendido (depois da queixa, só na ação privada): concedido a um querelado aproveita a todos; dado por um ofendido não prejudica os outros; recusado pelo querelado, não vale; não cabe depois do trânsito em julgado da condenação."
+      "<strong>Art. 100, caput e § 1º.</strong> A ação é pública, salvo quando a lei a declara privativa do ofendido. O MP a promove, dependendo, quando a lei exigir, de representação do ofendido ou de requisição do Ministro da Justiça.",
+      "<strong>Art. 100, §§ 2º e 3º.</strong> A privada se promove por queixa do ofendido ou de quem o represente. Cabe a privada nos crimes de ação pública se o MP não oferece denúncia no prazo legal.",
+      "<strong>Art. 100, § 4º.</strong> Morto o ofendido ou declarado ausente por decisão judicial, o direito de queixa ou de prosseguir passa ao cônjuge, ascendente, descendente ou irmão.",
+      "<strong>Art. 101.</strong> No crime complexo, cabe ação pública se em relação a qualquer dos crimes que o compõem se deva proceder por iniciativa do MP.",
+      "<strong>Art. 102.</strong> A representação é irretratável depois de oferecida a denúncia."
      ],
-     "trechos": [
-      "A representação será irretratável depois de oferecida a denúncia.",
-      "não a implica, todavia, o fato de receber o ofendido a indenização do dano causado pelo crime",
-      "se o querelado o recusa, não produz efeito"
+     "literalidades": [
+      {
+       "trecho": "Art. 100. A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido.",
+       "marcas": [
+        "pública",
+        "expressamente"
+       ],
+       "afirmacao": "O tipo penal que nada diz sobre a ação penal é de ação pública incondicionada.",
+       "gabarito": "C",
+       "porque": "A regra é a ação pública; ela só é privada quando a lei expressamente o declara, e só é condicionada quando a lei exige representação ou requisição (art. 100)."
+      },
+      {
+       "trecho": "§ 3º A ação de iniciativa privada pode intentar-se nos crimes de ação pública, se o Ministério Público não oferece denúncia no prazo legal.",
+       "marcas": [
+        "se o Ministério Público não oferece denúncia no prazo legal"
+       ],
+       "afirmacao": "O promotor que, no prazo legal, pede o arquivamento do inquérito por falta de provas abre à vítima o caminho da ação privada subsidiária da pública.",
+       "gabarito": "E",
+       "porque": "A subsidiária pressupõe inércia do MP (art. 100, § 3º). Pedir o arquivamento ou requisitar diligências é atuar, e não há inércia."
+      },
+      {
+       "trecho": "§ 4º No caso de morte do ofendido ou de ter sido declarado ausente por decisão judicial, o direito de oferecer queixa ou de prosseguir na ação passa ao cônjuge, ascendente, descendente ou irmão.",
+       "marcas": [
+        "cônjuge, ascendente, descendente ou irmão"
+       ],
+       "afirmacao": "Morta a vítima de difamação antes de oferecer a queixa, o irmão dela pode oferecê-la, se ainda estiver no prazo.",
+       "gabarito": "C",
+       "porque": "O direito passa ao cônjuge, ascendente, descendente ou irmão (art. 100, § 4º), e o prazo que sobra é o mesmo."
+      },
+      {
+       "trecho": "Art. 102. A representação será irretratável depois de oferecida a denúncia.",
+       "marcas": [
+        "irretratável",
+        "oferecida"
+       ],
+       "afirmacao": "A vítima de ameaça que representou pode se retratar depois de oferecida a denúncia, desde que antes do recebimento pelo juiz.",
+       "gabarito": "E",
+       "porque": "Pelo CP, a representação é irretratável depois de oferecida a denúncia (art. 102). O marco do recebimento vale só na Lei Maria da Penha (art. 16), e ali a renúncia exige audiência perante o juiz."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
       "Art. 100.": "2bedfed6d64f",
       "Art. 101.": "635b649296dc",
-      "Art. 102.": "3ad0b2db4037",
-      "Art. 103.": "94414ddb2e63",
-      "Art. 104.": "90ceeadc18e4",
-      "Art. 105.": "4c453ec18aea",
-      "Art. 106.": "30cc1d468aa4"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "RENÚNCIA É ANTES E SOZINHA, PERDÃO É DEPOIS E ACEITO",
-     "texto": "A renúncia não depende do autor do crime. O perdão recusado não produz efeito (art. 106, III)."
-    },
-    {
-     "sigla": "UM PERDOADO, TODOS PERDOADOS",
-     "texto": "Renúncia ou perdão a um dos autores aproveita a todos (indivisibilidade da ação privada)."
-    },
-    {
-     "sigla": "6 MESES DA AUTORIA",
-     "texto": "A decadência conta de quando a vítima soube quem é o autor, e não da data do fato. Na violência doméstica contra a mulher, são 12 meses."
+      "Art. 102.": "3ad0b2db4037"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
-     "quem": "STF · Súmula 714",
+     "quem": "STF, Súmula 714",
      "texto": "É concorrente a legitimidade do ofendido, mediante queixa, e do Ministério Público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções."
     },
     {
-     "quem": "STJ · Súmula 542",
+     "quem": "STJ, Súmula 542",
      "texto": "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada."
+    }
+   ],
+   "detalhes": [
+    "Na pública condicionada, a representação é exigida também para instaurar o inquérito (CPP, art. 5º, § 4º; Cebraspe, Delegado PC-AL 2023).",
+    "Na violência doméstica contra a mulher, a renúncia à representação só vale perante o juiz, em audiência designada para isso, antes do recebimento da denúncia e ouvido o MP (Lei 11.340/2006, art. 16).",
+    "Nos crimes contra a liberdade sexual e nos crimes sexuais contra vulnerável, a ação é pública incondicionada desde a Lei 13.718/2018 (art. 225 do CP).",
+    "No estelionato, o § 5º do art. 171, que exigia representação, foi revogado pela Lei 15.397/2026, e a ação voltou a ser pública incondicionada, ressalvado o art. 182.",
+    "Na ação privada subsidiária, o MP pode aditar a queixa, repudiá-la e oferecer denúncia substitutiva, intervir em todos os termos e retomar a ação como parte principal se o querelante for negligente (CPP, art. 29).",
+    "Na ação privada personalíssima (art. 236 do CP), não há sucessão: morto o ofendido, a punibilidade se extingue.",
+    "A legitimidade da Súmula 714 é alternativa: o servidor ofendido escolhe entre a queixa e a representação ao MP."
+   ],
+   "macetes": [
+    {
+     "sigla": "SILÊNCIO DA LEI = PÚBLICA INCONDICIONADA",
+     "texto": "Se o tipo não fala em representação, requisição ou queixa, a ação é pública incondicionada."
+    },
+    {
+     "sigla": "OFERECIDA, ACABOU",
+     "texto": "No CP, a representação se retrata até o oferecimento da denúncia. Na Maria da Penha, até o recebimento, e só em audiência."
+    },
+    {
+     "sigla": "SUBSIDIÁRIA EXIGE INÉRCIA",
+     "texto": "Arquivamento pedido ou diligência requisitada no prazo não é inércia: não cabe queixa subsidiária."
     }
    ],
    "pegadinha": {
@@ -9562,167 +9639,899 @@
     "gabarito": "C",
     "explicacao": "A omissão voluntária de um coautor é renúncia tácita, e pela indivisibilidade (art. 49 do CPP) ela aproveita a todos (FGV, Delegado PC-PR 2026)."
    },
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PJC-MT 2017 (perempção só na privada exclusiva; honra do servidor, Súmula 714); FGV, Delegado PC-PR 2026 e Cebraspe, Delegado PC-RJ 2022 (lesão doméstica contra a mulher não depende da vítima, Súmula 542); Cebraspe, Auditor Sefaz-CE 2021 (perdão recusado não vale para quem recusa; perempção por 30 dias sem andamento).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>Na pública condicionada, a representação é exigida também para instaurar o inquérito (art. 5º, § 4º, do CPP; Cebraspe, Delegado PC-AL 2023). Na violência doméstica contra a mulher, a renúncia à representação só vale perante o juiz, em audiência designada para isso, antes do recebimento da denúncia e ouvido o MP (art. 16 da Lei 11.340/2006).</p><p>Nos crimes contra a liberdade sexual e nos crimes sexuais contra vulnerável, a ação é pública incondicionada desde a Lei 13.718/2018 (art. 225). No estelionato, o § 5º do art. 171, que exigia representação, foi revogado pela Lei 15.397/2026, e a ação voltou a ser pública incondicionada, ressalvado o art. 182.</p><p><strong>Distinções</strong></p><p>Renúncia, perempção e perdão não existem na ação pública condicionada, e a decadência não atinge a incondicionada (Cebraspe, Delegado PC-PB 2022). A ação privada subsidiária pressupõe inércia do MP: se ele faz diligências ou pede o arquivamento, não há inércia, ainda que fora do prazo (Cebraspe, Delegado PC-MA 2018).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "relacionados": [
-    "extincao-da-punibilidade",
-    "crimes-contra-a-honra",
-    "ameaca-perseguicao-e-violencia-psicologica"
+   "pegadinhas": [
+    {
+     "errado": "A perempção pode ocorrer na ação privada subsidiária da pública.",
+     "certo": "A perempção é da ação privada exclusiva; na subsidiária, o MP retoma a ação.",
+     "fonte": "Cebraspe, Delegado PJC-MT 2017"
+    },
+    {
+     "errado": "A lesão corporal leve contra a mulher no âmbito doméstico depende de representação da vítima.",
+     "certo": "A ação é pública incondicionada (Súmula 542 do STJ).",
+     "fonte": "Cebraspe, Delegado PC-RJ 2022"
+    },
+    {
+     "errado": "O MP que requer diligências fora do prazo da denúncia fica inerte e autoriza a queixa subsidiária.",
+     "certo": "Requerer diligências ou o arquivamento não é inércia, ainda que fora do prazo.",
+     "fonte": "Cebraspe, Delegado PC-MA 2018"
+    },
+    {
+     "errado": "A requisição do Ministro da Justiça obriga o MP a oferecer a denúncia.",
+     "certo": "A requisição é condição de procedibilidade; o MP conserva a opinião sobre o crime e pode pedir o arquivamento.",
+     "fonte": "Questão do app sobre ação penal"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PJC-MT 2017; Delegado PC-MA 2018; Delegado PC-RJ 2022; Delegado PC-AL 2023",
+    "FGV: Delegado PC-PR 2026"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescidas as regras de ação na Lei Maria da Penha (art. 16), nos crimes sexuais (art. 225) e no estelionato após a Lei 15.397/2026."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito: aqui ficam as espécies de ação penal (arts. 100 a 102). Decadência, renúncia e perdão do ofendido ganharam tema próprio."
     }
+   ],
+   "relacionados": [
+    "decadencia-renuncia-e-perdao-do-ofendido",
+    "denuncia-e-queixa",
+    "crimes-contra-a-honra",
+    "lei-maria-penha"
+   ]
+  },
+  {
+   "slug": "decadencia-renuncia-e-perdao-do-ofendido",
+   "titulo": "Decadência, renúncia, perdão do ofendido e perempção",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 103 a 106 do CP",
+   "tax": [
+    "penal.extincao-punibilidade.decadencia-renuncia-perdao"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-103",
+    "n2848-1940-art-104",
+    "n2848-1940-art-105",
+    "n2848-1940-art-106"
+   ],
+   "conceitos": [
+    "decadência",
+    "prazo decadencial de seis meses",
+    "prazo de doze meses na violência doméstica",
+    "contagem do prazo decadencial",
+    "renúncia expressa e tácita",
+    "renúncia na composição civil",
+    "perdão do ofendido",
+    "perdão tácito",
+    "aceitação do perdão",
+    "indivisibilidade da ação privada",
+    "perempção"
+   ],
+   "palavras": [
+    "decadencia",
+    "seis meses",
+    "dia em que veio a saber quem e o autor",
+    "esgota o prazo para oferecimento da denuncia",
+    "12 meses",
+    "violencia domestica",
+    "lei 15.438",
+    "prazo penal",
+    "nao se suspende nem se interrompe",
+    "renuncia",
+    "renuncia tacita",
+    "ato incompativel",
+    "indenizacao do dano",
+    "composicao civil",
+    "lei 9.099 art. 74",
+    "perdao do ofendido",
+    "obsta ao prosseguimento",
+    "querelados",
+    "a todos aproveita",
+    "nao prejudica o direito dos outros",
+    "recusa",
+    "perdao tacito",
+    "passa em julgado",
+    "tres dias",
+    "silencio importa aceitacao",
+    "perempcao",
+    "30 dias",
+    "60 dias",
+    "alegacoes finais",
+    "cpp art. 60",
+    "sumula 594",
+    "menor de 18 anos",
+    "cpp art. 49"
+   ],
+   "resumo": "A <strong>decadência</strong> é a perda do direito de queixa ou de representação por não exercê-lo em <strong>6 meses</strong>, contados do dia em que o ofendido soube <strong>quem é o autor</strong> do crime, e não do dia do fato (art. 103). Na violência doméstica e familiar contra a mulher, o prazo é de <strong>12 meses</strong> (Lei 15.438/2026). Na subsidiária, os 6 meses correm do fim do prazo do MP, e a decadência não impede o MP de denunciar. O prazo é penal: conta o dia do começo e não se suspende, não se interrompe nem se prorroga. A <strong>renúncia</strong> vem antes da queixa e é ato unilateral, expresso ou tácito; receber a indenização do dano não é renúncia (art. 104). O <strong>perdão do ofendido</strong> vem depois de oferecida a queixa, só nos crimes de ação privada, e é bilateral: se o querelado recusa, não produz efeito (arts. 105 e 106). Renúncia ou perdão dado a um dos autores aproveita a todos, pela indivisibilidade; o perdão dado por um dos ofendidos não prejudica os outros. Não cabe perdão depois do trânsito em julgado da condenação. A <strong>perempção</strong> (CPP, art. 60) pune a desídia do querelante já no processo.",
+   "esquema": {
+    "rotulo": "quatro saídas do ofendido, em ordem no tempo",
+    "html": "<table><thead><tr><th>Instituto</th><th>Quando</th><th>Depende do autor do crime?</th><th>Onde cabe</th></tr></thead><tbody><tr><td><strong>Decadência</strong></td><td>Antes da queixa ou representação: 6 meses (12 na violência doméstica contra a mulher)</td><td>Não</td><td>Privada e pública condicionada à representação</td></tr><tr><td><strong>Renúncia</strong></td><td>Antes da queixa</td><td>Não: é unilateral</td><td>Ação privada</td></tr><tr><td><strong>Perdão do ofendido</strong></td><td>Depois da queixa e antes do trânsito em julgado</td><td>Sim: precisa ser aceito</td><td>Ação privada exclusiva e personalíssima</td></tr><tr><td><strong>Perempção</strong></td><td>No curso do processo</td><td>Não: é sanção à desídia do querelante</td><td>Só a privada exclusiva e personalíssima</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "As hipóteses de perempção (CPP, art. 60)",
+    "linhas": [
+     {
+      "nome": "30 dias parado",
+      "o_que_e": "O querelante deixa de promover o andamento do processo por 30 dias seguidos."
+     },
+     {
+      "nome": "Morte ou incapacidade",
+      "o_que_e": "Nenhum sucessor (cônjuge, ascendente, descendente ou irmão) comparece em 60 dias para prosseguir."
+     },
+     {
+      "nome": "Ausência ou falta de pedido",
+      "o_que_e": "O querelante falta, sem motivo, a ato a que devia estar presente, ou não pede a condenação nas alegações finais.",
+      "atencao": "Não pedir a condenação é a hipótese mais cobrada."
+     },
+     {
+      "nome": "Pessoa jurídica extinta",
+      "o_que_e": "A querelante se extingue sem deixar sucessor."
+     }
+    ],
+    "colunas": [
+     "Hipótese",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 103.",
+      "Art. 104.",
+      "Art. 105.",
+      "Art. 106."
+     ],
+     "ref": "arts. 103 a 106 do CP",
+     "regras": [
+      "<strong>Art. 103.</strong> Salvo disposição em contrário, o ofendido decai do direito de queixa ou de representação em 6 meses, contados do dia em que soube quem é o autor, ou, na subsidiária, do fim do prazo da denúncia. Na violência doméstica e familiar contra a mulher, o prazo é de 12 meses.",
+      "<strong>Art. 104.</strong> O direito de queixa não pode ser exercido se renunciado, expressa ou tacitamente. Renúncia tácita é o ato incompatível com a vontade de exercê-lo; receber a indenização do dano não é renúncia.",
+      "<strong>Art. 105.</strong> O perdão do ofendido, nos crimes de ação privada, impede o prosseguimento da ação.",
+      "<strong>Art. 106.</strong> O perdão, no processo ou fora dele, expresso ou tácito: dado a um querelado aproveita a todos; dado por um ofendido não prejudica os outros; recusado, não produz efeito. Não cabe depois do trânsito em julgado da condenação."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 103. Salvo disposição expressa em contrário, o ofendido decai do direito de queixa ou de representação se não o exerce dentro do prazo de seis meses, contado do dia em que veio a saber quem é o autor do crime,",
+       "marcas": [
+        "seis meses",
+        "do dia em que veio a saber quem é o autor do crime"
+       ],
+       "afirmacao": "A vítima de injúria em janeiro só descobriu em maio quem a ofendeu. Ela pode oferecer a queixa em agosto do mesmo ano.",
+       "gabarito": "C",
+       "porque": "Os 6 meses contam do dia em que a vítima soube quem é o autor (art. 103), e não do dia do fato. De maio a agosto o prazo não se esgotou."
+      },
+      {
+       "trecho": "Parágrafo único. Importa renúncia tácita ao direito de queixa a prática de ato incompatível com a vontade de exercê-lo; não a implica, todavia, o fato de receber o ofendido a indenização do dano causado pelo crime.",
+       "marcas": [
+        "não a implica",
+        "indenização do dano"
+       ],
+       "afirmacao": "A vítima de dano simples que aceita do autor o valor do conserto do carro, fora de qualquer acordo homologado, renuncia tacitamente ao direito de queixa.",
+       "gabarito": "E",
+       "porque": "Receber a indenização do dano não é renúncia tácita (art. 104, parágrafo único). Só no Juizado a composição civil homologada implica renúncia (Lei 9.099/1995, art. 74, parágrafo único)."
+      },
+      {
+       "trecho": "III - se o querelado o recusa, não produz efeito.",
+       "marcas": [
+        "recusa",
+        "não produz efeito"
+       ],
+       "afirmacao": "O querelado que recusa o perdão oferecido pela vítima segue respondendo à ação privada.",
+       "gabarito": "C",
+       "porque": "O perdão é bilateral: recusado, não produz efeito (art. 106, III), e a ação prossegue contra quem recusou."
+      },
+      {
+       "trecho": "§ 2º Não é admissível o perdão depois que passa em julgado a sentença condenatória.",
+       "marcas": [
+        "Não é admissível",
+        "passa em julgado"
+       ],
+       "afirmacao": "Depois do trânsito em julgado da condenação por difamação, a vítima ainda pode perdoar o condenado e extinguir a pena.",
+       "gabarito": "E",
+       "porque": "Não se admite perdão depois do trânsito em julgado da sentença condenatória (art. 106, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 103.": "94414ddb2e63",
+      "Art. 104.": "90ceeadc18e4",
+      "Art. 105.": "4c453ec18aea",
+      "Art. 106.": "30cc1d468aa4"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF, Súmula 594",
+     "texto": "Os direitos de queixa e de representação podem ser exercidos, independentemente, pelo ofendido ou por seu representante legal."
+    },
+    {
+     "quem": "STJ (Informativo 887)",
+     "texto": "O prazo de 6 meses para a queixa ou a representação é peremptório e não se suspende, interrompe nem prorroga, ainda que mude a capitulação jurídica do fato."
+    }
+   ],
+   "detalhes": [
+    "A decadência é prazo penal: conta o dia do começo (art. 10 do CP) e não se suspende nem se interrompe, nem por pedido de explicações, nem pela instauração do inquérito.",
+    "Na ação privada subsidiária, os 6 meses correm do fim do prazo do MP; a decadência só atinge o direito da vítima, e o MP pode denunciar enquanto não houver prescrição.",
+    "Vítima menor de 18 anos: o prazo corre para o representante legal; quando ela faz 18, tem prazo próprio (Súmula 594 do STF).",
+    "A renúncia a um dos autores se estende a todos (CPP, art. 49). Já o perdão dado a um aproveita a todos, mas só extingue a punibilidade de quem o aceita.",
+    "Intimado a dizer se aceita o perdão, o querelado que fica em silêncio por 3 dias o aceita (CPP, art. 58).",
+    "Na Lei 9.099/1995, a composição civil homologada nos crimes de ação privada ou pública condicionada implica renúncia ao direito de queixa ou de representação (art. 74, parágrafo único).",
+    "Perdão do ofendido não se confunde com perdão judicial: aquele é ato da vítima, na ação privada; este é do juiz, nos casos previstos em lei, em qualquer espécie de ação."
+   ],
+   "macetes": [
+    {
+     "sigla": "6 MESES DA AUTORIA",
+     "texto": "A decadência conta de quando a vítima soube quem é o autor, e não da data do fato. Na violência doméstica contra a mulher, 12 meses."
+    },
+    {
+     "sigla": "RENÚNCIA É ANTES E SOZINHA, PERDÃO É DEPOIS E ACEITO",
+     "texto": "A renúncia não depende do autor do crime. O perdão recusado não produz efeito (art. 106, III)."
+    },
+    {
+     "sigla": "PERDÃO A UM, OFERTA A TODOS",
+     "texto": "O perdão concedido a um querelado se estende a todos, mas cada um decide se aceita."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O prazo de decadência para a queixa reabre-se quando o Ministério Público altera a capitulação jurídica do fato e o crime passa a ser de ação privada.",
+    "gabarito": "E",
+    "explicacao": "O prazo de 6 meses é peremptório e não se suspende, interrompe nem prorroga, ainda que mude a capitulação (STJ, Informativo 887)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A decadência conta do dia do fato.",
+     "certo": "Conta do dia em que o ofendido soube quem é o autor (art. 103).",
+     "fonte": "Questão do app sobre decadência"
+    },
+    {
+     "errado": "O perdão recusado por um dos querelados impede que os demais sejam beneficiados.",
+     "certo": "O perdão aproveita a todos os querelados, mas não produz efeito para quem o recusa (art. 106, I e III).",
+     "fonte": "Cebraspe, Auditor Sefaz-CE 2021"
+    },
+    {
+     "errado": "Receber a indenização do dano importa renúncia tácita ao direito de queixa.",
+     "certo": "Não importa (art. 104, parágrafo único), salvo a composição civil homologada no Juizado.",
+     "fonte": "Questão do app sobre renúncia"
+    },
+    {
+     "errado": "Renúncia, perdão e perempção também extinguem a punibilidade na ação pública condicionada.",
+     "certo": "São institutos da ação privada; na pública condicionada, só a decadência e a retratação da representação.",
+     "fonte": "Cebraspe, Delegado PC-PB 2022"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Auditor Sefaz-CE 2021; Delegado PC-PB 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: decadência, renúncia, perdão do ofendido e perempção saíram do tema de ação penal."
+    }
+   ],
+   "relacionados": [
+    "acao-penal",
+    "extincao-da-punibilidade",
+    "crimes-contra-a-honra",
+    "suspensao-condicional-do-processo-e-rito-sumarissimo"
    ]
   },
   {
    "slug": "extincao-da-punibilidade",
-   "titulo": "Extinção da punibilidade",
+   "titulo": "Extinção da punibilidade: causas, momento e alcance",
    "grupo": "Parte Geral: punibilidade",
-   "base": "Arts. 107 e 119 do CP",
+   "base": "Arts. 107, 108 e 120 do CP",
    "tax": [
     "penal.extincao-punibilidade",
     "penal.conceito-causas-gerais-especificas-momentos"
    ],
    "dispositivos": [
     "n2848-1940-art-107",
-    "n2848-1940-art-119"
+    "n2848-1940-art-108",
+    "n2848-1940-art-120"
    ],
    "conceitos": [
     "extinção da punibilidade",
-    "anistia",
-    "graça",
-    "indulto",
+    "rol exemplificativo do art. 107",
+    "causas gerais e específicas",
+    "morte do agente",
+    "abolitio criminis",
+    "retratação do agente",
     "perdão judicial",
-    "perempção"
+    "extinção antes e depois do trânsito em julgado",
+    "crime pressuposto e crimes conexos",
+    "certidão de óbito falsa",
+    "multa não paga e hipossuficiência"
    ],
    "palavras": [
+    "extingue-se a punibilidade",
     "morte do agente",
-    "anistia",
-    "graca",
-    "indulto",
-    "abolitio criminis",
-    "decadencia",
-    "perempcao",
-    "renuncia",
-    "perdao do ofendido",
-    "retratacao",
-    "perdao judicial",
+    "certidao de obito",
     "certidao de obito falsa",
-    "hediondo",
-    "tortura"
+    "anistia graca indulto",
+    "abolitio criminis",
+    "retroatividade de lei",
+    "prescricao decadencia perempcao",
+    "renuncia",
+    "perdao aceito",
+    "retratacao",
+    "calunia difamacao",
+    "art. 143",
+    "falso testemunho",
+    "perdao judicial",
+    "homicidio culposo",
+    "sumula 18",
+    "reincidencia",
+    "art. 120",
+    "pressuposto",
+    "elemento constitutivo",
+    "receptacao",
+    "crimes conexos",
+    "agravacao da pena resultante da conexao",
+    "rol exemplificativo",
+    "peculato culposo",
+    "reparacao do dano",
+    "pretensao punitiva",
+    "pretensao executoria",
+    "efeitos secundarios",
+    "tema 931",
+    "multa",
+    "hipossuficiencia",
+    "decreto 12.338",
+    "defensoria publica"
    ],
-   "resumo": "O crime existe, mas o Estado perde o direito de punir. O art. 107 lista as causas gerais: morte do agente; anistia, graça ou indulto; <em>abolitio criminis</em>; prescrição, decadência ou perempção; renúncia ou perdão aceito nos crimes de ação privada; retratação, quando a lei admite; e perdão judicial, nos casos previstos em lei. A lista não é exaustiva: há causas na Parte Especial, como a reparação do dano no peculato culposo antes da sentença irrecorrível. No concurso de crimes, a extinção atinge a pena de cada um isoladamente (art. 119).",
+   "resumo": "Extinguir a punibilidade é reconhecer que o crime existiu, mas o Estado perdeu o direito de punir. O art. 107 lista as causas gerais: <strong>morte do agente</strong>; anistia, graça ou indulto; <em>abolitio criminis</em>; prescrição, decadência ou perempção; renúncia ou perdão aceito, na ação privada; <strong>retratação</strong>, só quando a lei admite; e <strong>perdão judicial</strong>, nos casos previstos em lei. O rol é <strong>exemplificativo</strong>: a Parte Especial e as leis especiais trazem outras causas, como a reparação do dano no peculato culposo antes da sentença irrecorrível (art. 312, § 3º). O <strong>momento</strong> muda o alcance: antes do trânsito em julgado, a causa atinge a pretensão punitiva e não sobra efeito da condenação; depois, atinge a pretensão executória e, em regra, mantém os efeitos secundários, como a reincidência. <em>Abolitio criminis</em> e anistia são exceções e apagam os efeitos penais. A extinção do crime que é pressuposto, elemento ou agravante de outro não se estende a este; nos crimes conexos, não impede a agravação pela conexão (art. 108). A sentença de perdão judicial não gera reincidência (art. 120). Anistia, graça e indulto têm tema próprio.",
    "esquema": {
-    "rotulo": "cada causa no seu lugar",
-    "html": "<table><thead><tr><th>Causa</th><th>Onde vale</th><th>Detalhe que cai</th></tr></thead><tbody><tr><td><strong>Renúncia</strong></td><td>Ação privada (antes da queixa)</td><td>Ato unilateral; a um dos autores se estende a todos</td></tr><tr><td><strong>Perdão do ofendido</strong></td><td>Ação privada propriamente dita (depois da queixa)</td><td>Bilateral: só extingue se aceito</td></tr><tr><td><strong>Perempção</strong></td><td>Ação privada propriamente dita</td><td>Desídia do querelante no curso do processo; não cabe na subsidiária da pública</td></tr><tr><td><strong>Decadência</strong></td><td>Ação privada e pública condicionada</td><td>Perda do prazo de queixa ou representação</td></tr><tr><td><strong>Retratação</strong></td><td>Só quando a lei admite (ex.: calúnia e difamação)</td><td>Na calúnia, antes da sentença, independe de aceitação</td></tr><tr><td><strong>Anistia</strong></td><td>Lei do Congresso, apaga o fato</td><td>Atinge todos os efeitos penais</td></tr><tr><td><strong>Graça e indulto</strong></td><td>Ato do Presidente</td><td>Apagam só a pena; vedados a hediondos, tortura, tráfico e terrorismo</td></tr></tbody></table>"
+    "rotulo": "cada causa do art. 107 no seu lugar",
+    "html": "<table><thead><tr><th>Causa (inciso)</th><th>Onde vale</th><th>Detalhe que cai</th></tr></thead><tbody><tr><td><strong>Morte do agente (I)</strong></td><td>Qualquer crime</td><td>Só se prova com certidão de óbito (CPP, art. 62); não alcança os coautores</td></tr><tr><td><strong>Anistia, graça, indulto (II)</strong></td><td>Conforme a lei ou o decreto</td><td>Ver o tema próprio</td></tr><tr><td><strong><em>Abolitio criminis</em> (III)</strong></td><td>Fato que deixou de ser crime</td><td>Apaga os efeitos penais, mesmo com trânsito em julgado; os civis permanecem (art. 2º)</td></tr><tr><td><strong>Prescrição, decadência, perempção (IV)</strong></td><td>Prescrição: qualquer crime. Decadência: privada e pública condicionada. Perempção: privada exclusiva</td><td>Ver os temas de prescrição e de decadência</td></tr><tr><td><strong>Renúncia e perdão aceito (V)</strong></td><td>Ação privada</td><td>Perdão é bilateral; renúncia, unilateral</td></tr><tr><td><strong>Retratação (VI)</strong></td><td>Só onde a lei admite: calúnia e difamação (art. 143), falso testemunho e falsa perícia (art. 342, § 2º)</td><td>Na calúnia, independe de aceitação; não cabe na injúria</td></tr><tr><td><strong>Perdão judicial (IX)</strong></td><td>Só nos casos previstos em lei, como o homicídio e a lesão culposos (arts. 121, § 5º, e 129, § 8º)</td><td>Sentença declaratória, sem efeito condenatório (Súmula 18 do STJ)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "O momento da causa muda o que sobra",
+    "linhas": [
+     {
+      "nome": "Antes do trânsito em julgado",
+      "o_que_e": "Atinge a pretensão punitiva: não há condenação válida e nenhum efeito sobra.",
+      "atencao": "Ex.: prescrição da pretensão punitiva, decadência, perdão do ofendido."
+     },
+     {
+      "nome": "Depois do trânsito em julgado",
+      "o_que_e": "Atinge a pretensão executória: cai a pena, mas os efeitos secundários ficam, como a reincidência e a obrigação de indenizar.",
+      "atencao": "Ex.: indulto, prescrição da pretensão executória (Súmula 631 do STJ)."
+     },
+     {
+      "nome": "Exceções",
+      "o_que_e": "<em>Abolitio criminis</em> e anistia apagam todos os efeitos penais, mesmo depois do trânsito.",
+      "atencao": "Os efeitos civis, como o dever de indenizar, permanecem."
+     }
+    ],
+    "colunas": [
+     "Momento",
+     "O que a causa atinge",
+     "Atenção"
+    ]
    },
    "lei": [
     {
      "norma": "n2848-1940",
      "artigos": [
       "Art. 107.",
-      "Art. 119."
+      "Art. 108.",
+      "Art. 120."
      ],
-     "ref": "arts. 107 e 119 do CP",
+     "ref": "arts. 107, 108 e 120 do CP",
      "regras": [
-      "<strong>Art. 107.</strong> Causas do rol (exemplificativo): morte do agente; anistia, graça ou indulto; abolitio criminis; prescrição, decadência ou perempção; renúncia ou perdão aceito, na ação privada; retratação, quando a lei admite; perdão judicial, nos casos previstos.",
-      "<strong>Art. 119.</strong> No concurso de crimes, a extinção da punibilidade incide sobre a pena de cada crime, isoladamente."
+      "<strong>Art. 107.</strong> Extingue-se a punibilidade pela morte do agente; anistia, graça ou indulto; lei que deixa de considerar o fato crime; prescrição, decadência ou perempção; renúncia ou perdão aceito, na ação privada; retratação, quando a lei admite; perdão judicial, nos casos previstos em lei.",
+      "<strong>Art. 108.</strong> A extinção da punibilidade do crime que é pressuposto, elemento constitutivo ou agravante de outro não se estende a este. Nos crimes conexos, a extinção de um não impede, quanto aos outros, a agravação da pena resultante da conexão.",
+      "<strong>Art. 120.</strong> A sentença que concede perdão judicial não é considerada para efeitos de reincidência."
      ],
-     "trechos": [
-      "pelo perdão aceito, nos crimes de ação privada",
-      "incidirá sobre a pena de cada um, isoladamente"
+     "literalidades": [
+      {
+       "trecho": "I - pela morte do agente;",
+       "marcas": [
+        "morte do agente"
+       ],
+       "afirmacao": "Morto um dos coautores de um roubo antes da sentença, a punibilidade se extingue só para ele, e os demais seguem respondendo pelo crime.",
+       "gabarito": "C",
+       "porque": "A morte extingue a punibilidade de quem morreu (art. 107, I). A pena não passa da pessoa do condenado, e a causa não se comunica aos coautores."
+      },
+      {
+       "trecho": "VI - pela retratação do agente, nos casos em que a lei a admite;",
+       "marcas": [
+        "nos casos em que a lei a admite"
+       ],
+       "afirmacao": "O autor de injúria que se retrata cabalmente antes da sentença fica isento de pena.",
+       "gabarito": "E",
+       "porque": "A retratação só extingue a punibilidade quando a lei a admite (art. 107, VI). O art. 143 a prevê para a calúnia e a difamação, e não para a injúria."
+      },
+      {
+       "trecho": "Art. 108. A extinção da punibilidade de crime que é pressuposto, elemento constitutivo ou circunstância agravante de outro não se estende a este.",
+       "marcas": [
+        "não se estende a este"
+       ],
+       "afirmacao": "Prescrito o furto do celular, o receptador que comprou o aparelho sabendo da origem pode ser condenado pela receptação.",
+       "gabarito": "C",
+       "porque": "O furto é pressuposto da receptação, e a extinção da punibilidade do crime pressuposto não se estende ao outro (art. 108)."
+      },
+      {
+       "trecho": "Art. 120. A sentença que conceder perdão judicial não será considerada para efeitos de reincidência.",
+       "marcas": [
+        "não será considerada para efeitos de reincidência"
+       ],
+       "afirmacao": "O pai que recebeu perdão judicial pelo homicídio culposo do filho, em acidente de trânsito, é reincidente se cometer outro crime depois.",
+       "gabarito": "E",
+       "porque": "A sentença de perdão judicial não gera reincidência (art. 120) e é declaratória da extinção da punibilidade, sem efeito condenatório (Súmula 18 do STJ)."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
       "Art. 107.": "4b41d812757d",
-      "Art. 119.": "af7467bec4b5"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "ANISTIA APAGA O FATO",
-     "texto": "A anistia vem por lei e apaga o fato. Graça (individual) e indulto (coletivo) vêm do Presidente e apagam só a pena."
-    },
-    {
-     "sigla": "PERDÃO PRECISA DE SIM",
-     "texto": "Perdão do ofendido só extingue se aceito. Renúncia e retratação da calúnia não dependem do outro lado."
+      "Art. 108.": "8c7a452f8b44",
+      "Art. 120.": "37add1f7c73e"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
-     "quem": "STJ · Súmula 18",
+     "quem": "STJ, Súmula 18",
      "texto": "A sentença concessiva do perdão judicial é declaratória da extinção da punibilidade, não subsistindo qualquer efeito condenatório."
     },
     {
-     "quem": "STJ · Tema 931 (repetitivo, revisado)",
+     "quem": "STJ, Tema 931 (repetitivo, revisado)",
      "texto": "O inadimplemento da pena de multa, depois de cumprida a pena privativa de liberdade ou restritiva de direitos, não impede a extinção da punibilidade diante da alegada hipossuficiência do condenado, salvo decisão concreta e motivada do juiz indicando que ele pode pagar."
+    },
+    {
+     "quem": "STJ (Informativo 872)",
+     "texto": "Pelo Decreto 12.338/2024 (art. 12, § 2º, I), o condenado assistido pela Defensoria Pública presume-se hipossuficiente e fica dispensado de comprovar a reparação do dano para obter o indulto."
+    }
+   ],
+   "detalhes": [
+    "O rol do art. 107 é exemplificativo. Fora dele: reparação do dano no peculato culposo antes da sentença irrecorrível (art. 312, § 3º); fim do período de prova do sursis e do livramento sem revogação (arts. 82 e 90).",
+    "Causas gerais valem para qualquer crime (morte, prescrição); causas específicas, só para alguns (retratação na calúnia e na difamação, perdão judicial nos casos previstos).",
+    "A decisão que extingue a punibilidade com base em certidão de óbito falsa pode ser revista, sem ofensa à proibição de revisão contra o réu (STF; Cebraspe, Delegado PC-PB 2022).",
+    "A reconciliação do casal não extingue a lesão corporal doméstica contra a mulher, que é de ação pública incondicionada (Súmula 542 do STJ; Cebraspe, Delegado PC-RJ 2022).",
+    "Nos crimes conexos, a extinção de um não impede a agravação do outro pela conexão: quem mata para garantir a impunidade de crime já prescrito responde pelo homicídio qualificado (art. 108; Cebraspe, Oficial de Justiça TJ-PA 2025).",
+    "Na retratação da calúnia e da difamação, basta o ato do querelado antes da sentença; o ofendido não precisa aceitar (art. 143; Cebraspe, Delegado PC-AL 2023)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ANTES APAGA TUDO, DEPOIS SÓ A PENA",
+     "texto": "Causa antes do trânsito: nada sobra. Depois: cai a pena, ficam a reincidência e os efeitos civis. Abolitio e anistia apagam os efeitos penais."
+    },
+    {
+     "sigla": "MORTE NÃO SE COMUNICA",
+     "texto": "A morte extingue só a punibilidade de quem morreu."
+    },
+    {
+     "sigla": "RETRATAÇÃO: CALÚNIA E DIFAMAÇÃO, NÃO INJÚRIA",
+     "texto": "A retratação só vale onde a lei prevê: art. 143 e falso testemunho (art. 342, § 2º)."
     }
    ],
    "pegadinha": {
-    "afirmacao": "A retratação do querelado na calúnia, feita antes da sentença, só extingue a punibilidade se o ofendido a aceitar.",
+    "afirmacao": "O rol de causas extintivas da punibilidade do art. 107 do Código Penal é taxativo.",
     "gabarito": "E",
-    "explicacao": "A retratação cabal da calúnia ou da difamação antes da sentença isenta de pena e não depende de aceitação do ofendido (art. 143; Cebraspe, Delegado PC-AL 2023)."
+    "explicacao": "O rol é exemplificativo. Há causas na Parte Especial e em leis especiais, como a reparação do dano no peculato culposo antes da sentença irrecorrível (art. 312, § 3º)."
    },
-   "aprofundamento": "<p><strong>Perdão e perempção são da ação privada propriamente dita.</strong> Entre as combinações cobradas, só \"perdão aceito e perempção na ação privada propriamente dita\" está certa. Não há renúncia nem perempção na pública condicionada, nem retratação na pública incondicionada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Certidão de óbito falsa não protege o réu.</strong> A decisão que extinguiu a punibilidade com base em certidão de óbito falsa pode ser revista, sem ofensa à proibição de revisão <em>pro societate</em>: a afirmação de que esse reexame não é admitido está errada (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Multa não paga por pobreza não segura a extinção.</strong> É errado dizer que só há extinção da punibilidade com a multa paga, mesmo que o condenado prove hipossuficiência (STJ, Tema 931; Cebraspe, Delegado PC-ES 2022).</p><p><strong>Reatar o namoro não extingue a lesão na violência doméstica.</strong> A lesão corporal contra a mulher no âmbito doméstico é de ação pública incondicionada (Súmula 542 do STJ). Por isso a reconciliação do casal não extingue a punibilidade (Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Na tortura, a vedação alcança o indulto.</strong> A Lei 9.455/1997 fala em graça e anistia, mas o STF entende a graça em sentido amplo, abrangendo o indulto. É errado dizer que a tortura permite indulto (FGV, Delegado PC-RN 2021).</p><p><strong>Indulto apaga a pena, não os efeitos secundários.</strong> O indulto atinge só os efeitos executórios da condenação. Reincidência e demais efeitos secundários, penais ou extrapenais, permanecem (Súmula 631 do STJ; Cebraspe, Escrivão PC-AL 2021).</p><p><strong>Anistia, graça e indulto: quando.</strong> A anistia pode ser concedida antes ou depois do trânsito em julgado. Dizer que só beneficia quem ainda não foi julgado definitivamente está errado. A graça e o indulto também não exigem que o cumprimento da pena tenha começado (Cebraspe, Oficial de Justiça TJ-PA 2025). A associação para o tráfico não admite graça nem indulto, por vedação do art. 44 da Lei 11.343/2006 (Cebraspe, Analista TRF6 2024).</p><p><strong>Conexão: extinção de um não salva o outro.</strong> Nos crimes conexos, a extinção da punibilidade de um deles não impede, quanto aos demais, a agravação da pena resultante da conexão (art. 108; Cebraspe, Oficial de Justiça TJ-PA 2025).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A sentença que concede o perdão judicial é condenatória e mantém efeitos secundários, como a reincidência.",
+     "certo": "É declaratória da extinção da punibilidade, sem efeito condenatório (Súmula 18 do STJ; art. 120).",
+     "fonte": "Questão do app sobre perdão judicial"
+    },
+    {
+     "errado": "O perdão judicial pode ser concedido em qualquer crime, a critério do juiz.",
+     "certo": "Só nos casos previstos em lei (art. 107, IX).",
+     "fonte": "Questão do app sobre extinção da punibilidade"
+    },
+    {
+     "errado": "Sem o pagamento da multa, nunca há extinção da punibilidade, ainda que o condenado prove hipossuficiência.",
+     "certo": "A falta de pagamento por hipossuficiência não impede a extinção, salvo decisão motivada do juiz (STJ, Tema 931).",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    },
+    {
+     "errado": "Extinta pela prescrição a punibilidade do furto, extingue-se também a da receptação da coisa furtada.",
+     "certo": "A extinção do crime pressuposto não se estende ao outro (art. 108).",
+     "fonte": "Questão do app sobre extinção da punibilidade"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PB 2022; Delegado PC-RJ 2022; Delegado PC-ES 2022; Delegado PC-AL 2023; Oficial de Justiça TJ-PA 2025"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito: rol do art. 107, momento e alcance da extinção, art. 108 e perdão judicial. Anistia, graça e indulto ganharam tema próprio."
+    }
+   ],
    "relacionados": [
+    "anistia-graca-e-indulto",
+    "decadencia-renuncia-e-perdao-do-ofendido",
     "prescricao-penal",
     "lei-penal-no-tempo",
+    "receptacao",
     "peculato"
    ]
   },
   {
-   "slug": "prescricao-penal",
-   "titulo": "Prescrição penal",
+   "slug": "anistia-graca-e-indulto",
+   "titulo": "Anistia, graça e indulto",
    "grupo": "Parte Geral: punibilidade",
-   "base": "Arts. 109 a 117 do CP",
+   "base": "Art. 107, II, do CP; arts. 187 a 193 da LEP; CF, arts. 5º, XLIII, 48, VIII, e 84, XII",
    "tax": [
-    "penal.prescricao-conceito-teorias-prazos-calculo",
-    "penal.extincao-punibilidade"
+    "penal.conceito-causas-gerais-especificas-momentos.anistia-graca-indulto"
+   ],
+   "dispositivos": [
+    "n7210-1984-art-189",
+    "n7210-1984-art-190",
+    "n7210-1984-art-191",
+    "n7210-1984-art-193"
+   ],
+   "conceitos": [
+    "anistia",
+    "graça ou indulto individual",
+    "indulto coletivo",
+    "comutação de pena",
+    "anistia própria e imprópria",
+    "efeitos da anistia",
+    "efeitos do indulto",
+    "vedação a hediondos e equiparados",
+    "discricionariedade do Presidente",
+    "indulto de medida de segurança",
+    "procedimento na LEP"
+   ],
+   "palavras": [
+    "anistia",
+    "lei do congresso",
+    "art. 48 viii",
+    "apaga o fato",
+    "reincidencia",
+    "efeitos civis",
+    "graca",
+    "indulto individual",
+    "indulto coletivo",
+    "indulto natalino",
+    "decreto",
+    "presidente da republica",
+    "art. 84 xii",
+    "delegar",
+    "ministros de estado",
+    "procurador-geral da republica",
+    "advogado-geral da uniao",
+    "comutacao",
+    "conselho penitenciario",
+    "ministerio da justica",
+    "de oficio",
+    "sumula 631",
+    "efeitos secundarios",
+    "sumula 535",
+    "falta grave",
+    "hediondo",
+    "tortura",
+    "trafico",
+    "terrorismo",
+    "art. 5 xliii",
+    "lei 8.072 art. 2",
+    "lei 11.343 art. 44",
+    "associacao para o trafico",
+    "medida de seguranca",
+    "tema 371",
+    "adi 5874",
+    "desvio de finalidade",
+    "antes ou depois do transito"
+   ],
+   "resumo": "As três são formas de clemência do Estado e extinguem a punibilidade (art. 107, II). A <strong>anistia</strong> vem por <strong>lei do Congresso</strong> (CF, art. 48, VIII), alcança <strong>fatos</strong>, pode vir antes ou depois do trânsito em julgado e apaga todos os <strong>efeitos penais</strong>, inclusive a reincidência; os efeitos civis, como o dever de indenizar, ficam. A <strong>graça</strong> (indulto individual) e o <strong>indulto</strong> (coletivo) vêm de <strong>decreto do Presidente da República</strong> (CF, art. 84, XII), que pode delegar a Ministros de Estado, ao Procurador-Geral da República ou ao Advogado-Geral da União. Graça e indulto apagam só a pena, os efeitos executórios: a reincidência e os demais efeitos secundários permanecem (Súmula 631 do STJ). O indulto pode ser pleno ou parcial; o parcial é a <strong>comutação</strong>, que reduz ou troca a pena. A graça depende de pedido, com parecer do Conselho Penitenciário; o indulto coletivo é espontâneo e o juiz o aplica até de ofício. A CF veda graça e anistia aos crimes hediondos, à tortura, ao tráfico de drogas e ao terrorismo (art. 5º, XLIII), e a Lei 8.072/1990 estende a vedação ao indulto.",
+   "esquema": {
+    "rotulo": "as três clemências lado a lado",
+    "html": "<table><thead><tr><th></th><th>Anistia</th><th>Graça</th><th>Indulto</th></tr></thead><tbody><tr><td><strong>Quem concede</strong></td><td>Congresso, por lei</td><td>Presidente, por decreto</td><td>Presidente, por decreto</td></tr><tr><td><strong>Alcança</strong></td><td>Fatos</td><td>Pessoa determinada</td><td>Grupo de condenados, por requisitos</td></tr><tr><td><strong>Iniciativa</strong></td><td>Legislativa</td><td>Pedido do condenado, do MP, do Conselho Penitenciário ou da autoridade administrativa</td><td>Espontâneo</td></tr><tr><td><strong>Efeitos penais secundários</strong></td><td>Apaga, inclusive a reincidência</td><td>Mantém (Súmula 631 do STJ)</td><td>Mantém (Súmula 631 do STJ)</td></tr><tr><td><strong>Efeitos civis</strong></td><td>Mantém</td><td>Mantém</td><td>Mantém</td></tr><tr><td><strong>Hediondos e equiparados</strong></td><td>Vedada (CF, art. 5º, XLIII)</td><td>Vedada (CF, art. 5º, XLIII)</td><td>Vedado (Lei 8.072/1990, art. 2º, I)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Classificações da anistia",
+    "linhas": [
+     {
+      "nome": "Própria e imprópria",
+      "o_que_e": "Própria: antes do trânsito em julgado. Imprópria: depois dele.",
+      "atencao": "As duas apagam os efeitos penais."
+     },
+     {
+      "nome": "Geral e parcial",
+      "o_que_e": "Geral: alcança todos os que praticaram o fato. Parcial: exige condição pessoal, como ser primário."
+     },
+     {
+      "nome": "Condicionada e incondicionada",
+      "o_que_e": "Condicionada: impõe um requisito, como reparar o dano. Incondicionada: não impõe nada.",
+      "atencao": "Só a condicionada pode ser recusada."
+     },
+     {
+      "nome": "Especial e comum",
+      "o_que_e": "Especial: crimes políticos. Comum: crimes comuns."
+     }
+    ],
+    "colunas": [
+     "Classificação",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n7210-1984",
+     "artigos": [
+      "Art. 189.",
+      "Art. 190.",
+      "Art. 191.",
+      "Art. 193."
+     ],
+     "ref": "arts. 189 a 191 e 193 da LEP",
+     "regras": [
+      "<strong>Art. 187.</strong> Concedida a anistia, o juiz declara extinta a punibilidade, de ofício, a requerimento do interessado ou do MP, ou por proposta da autoridade administrativa ou do Conselho Penitenciário.",
+      "<strong>Arts. 188 a 191.</strong> O indulto individual (graça) pode ser pedido pelo condenado, pelo MP, pelo Conselho Penitenciário ou pela autoridade administrativa. A petição vai ao Conselho Penitenciário, que dá parecer; é processada no Ministério da Justiça e submetida ao despacho do Presidente da República.",
+      "<strong>Arts. 192 e 193.</strong> Concedido o indulto, o juiz declara extinta a pena ou ajusta a execução ao decreto, se houver comutação. No indulto coletivo, o juiz age de ofício ou a requerimento do interessado, do MP, do Conselho Penitenciário ou da autoridade administrativa."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 189. A petição do indulto, acompanhada dos documentos que a instruírem, será entregue ao Conselho Penitenciário, para a elaboração de parecer e posterior encaminhamento ao Ministério da Justiça.",
+       "marcas": [
+        "Conselho Penitenciário",
+        "parecer"
+       ],
+       "afirmacao": "O pedido de graça do condenado é entregue diretamente ao Presidente da República, sem parecer de outro órgão.",
+       "gabarito": "E",
+       "porque": "A petição vai ao Conselho Penitenciário, que dá parecer, e depois ao Ministério da Justiça (art. 189); só então é submetida ao Presidente (art. 191)."
+      },
+      {
+       "trecho": "Art. 191. Processada no Ministério da Justiça com documentos e o relatório do Conselho Penitenciário, a petição será submetida a despacho do Presidente da República,",
+       "marcas": [
+        "despacho do Presidente da República"
+       ],
+       "afirmacao": "Depois do parecer do Conselho Penitenciário e do processamento no Ministério da Justiça, quem decide o pedido de indulto individual é o Presidente da República.",
+       "gabarito": "C",
+       "porque": "A petição é submetida a despacho do Presidente da República (art. 191), que concede a graça (CF, art. 84, XII)."
+      },
+      {
+       "trecho": "emitindo seu parecer sobre o mérito do pedido e esclarecendo qualquer formalidade ou circunstâncias omitidas na petição.",
+       "marcas": [
+        "parecer sobre o mérito do pedido"
+       ],
+       "afirmacao": "No pedido de graça, o Conselho Penitenciário apenas confere as formalidades da petição, sem opinar sobre o mérito.",
+       "gabarito": "E",
+       "porque": "O Conselho narra o crime, expõe os antecedentes e o comportamento do condenado e emite parecer sobre o mérito do pedido (art. 190)."
+      },
+      {
+       "trecho": "Art. 193. Se o sentenciado for beneficiado por indulto coletivo, o juiz, de ofício,",
+       "marcas": [
+        "indulto coletivo",
+        "de ofício"
+       ],
+       "afirmacao": "Publicado o decreto de indulto natalino, o juiz da execução pode reconhecer o benefício de ofício, sem pedido do condenado.",
+       "gabarito": "C",
+       "porque": "No indulto coletivo, o juiz providencia de ofício ou a requerimento do interessado, do MP, do Conselho Penitenciário ou da autoridade administrativa (art. 193)."
+      }
+     ],
+     "conferido": {
+      "Art. 189.": "02b9d6428729",
+      "Art. 190.": "e9cdcb1b0241",
+      "Art. 191.": "657113cd7e09",
+      "Art. 193.": "d28baf1a4aad"
+     },
+     "fonte": "Lei 7.210/1984 (Lei de Execução Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7210-11-julho-1984-356938-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ, Súmula 631",
+     "texto": "O indulto extingue os efeitos primários da condenação (pretensão executória), mas não atinge os efeitos secundários, penais ou extrapenais."
+    },
+    {
+     "quem": "STJ, Súmula 535",
+     "texto": "A prática de falta grave não interrompe o prazo para fim de comutação de pena ou indulto."
+    },
+    {
+     "quem": "STF, Tema 371 (repercussão geral)",
+     "texto": "É legítimo o indulto concedido pelo Presidente da República a quem cumpre medida de segurança por inimputabilidade ou semi-imputabilidade."
+    },
+    {
+     "quem": "STF, ADI 5874 (2019)",
+     "texto": "Cabe privativamente ao Presidente da República decidir se concede o indulto, fixar seus requisitos e sua extensão, por critérios de conveniência e oportunidade; o Judiciário não pode reescrever o decreto."
+    }
+   ],
+   "detalhes": [
+    "A anistia pode ser concedida antes ou depois do trânsito em julgado; graça e indulto não exigem que o cumprimento da pena tenha começado (Cebraspe, Oficial de Justiça TJ-PA 2025).",
+    "Na tortura, a Lei 9.455/1997 fala em graça e anistia, mas o STF lê a graça em sentido amplo, abrangendo o indulto (FGV, Delegado PC-RN 2021).",
+    "A associação para o tráfico não admite graça, indulto nem anistia, por vedação do art. 44 da Lei 11.343/2006 (Cebraspe, Analista TRF6 2024).",
+    "Concedida, a anistia não pode ser revogada por lei posterior, que não retroage em prejuízo do réu (doutrina majoritária).",
+    "A anistia condicionada pode ser recusada pelo beneficiado; a incondicionada, não.",
+    "O STF anulou decreto de graça individual por desvio de finalidade (ADPFs 964 a 967, 2023): a discricionariedade do Presidente tem limites constitucionais.",
+    "A sentença que reconhece o indulto ou a anistia é declaratória: só declara extinta a punibilidade já concedida pelo decreto ou pela lei."
+   ],
+   "macetes": [
+    {
+     "sigla": "ANISTIA APAGA O FATO",
+     "texto": "Anistia vem por lei e apaga o fato e seus efeitos penais. Graça (individual) e indulto (coletivo) vêm do Presidente e apagam só a pena."
+    },
+    {
+     "sigla": "INDULTO NÃO LIMPA A FICHA",
+     "texto": "Depois do indulto, o condenado continua reincidente (Súmula 631 do STJ)."
+    },
+    {
+     "sigla": "TORTURA, TRÁFICO, TERRORISMO E HEDIONDOS: SEM CLEMÊNCIA",
+     "texto": "Tortura, tráfico, terrorismo e hediondos: sem anistia e sem graça (CF), e sem indulto (Lei 8.072/1990)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A anistia é concedida por decreto do Presidente da República e alcança pessoas determinadas, enquanto a graça é concedida por lei e alcança fatos.",
+    "gabarito": "E",
+    "explicacao": "É o contrário: a anistia vem por lei do Congresso e alcança fatos (CF, art. 48, VIII); a graça vem de decreto do Presidente e alcança pessoa determinada (CF, art. 84, XII)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O indulto extingue os efeitos primários da condenação e também a reincidência e os demais efeitos secundários.",
+     "certo": "Atinge só os efeitos primários; os secundários permanecem (Súmula 631 do STJ).",
+     "fonte": "Cebraspe, Escrivão PC-AL 2021"
+    },
+    {
+     "errado": "A anistia só beneficia quem ainda não foi julgado definitivamente.",
+     "certo": "Ela pode vir antes ou depois do trânsito em julgado (anistia própria e imprópria).",
+     "fonte": "Cebraspe, Oficial de Justiça TJ-PA 2025"
+    },
+    {
+     "errado": "Como a Lei 9.455/1997 só fala em graça e anistia, a tortura admite indulto.",
+     "certo": "Para o STF, a graça ali abrange o indulto, que também é vedado.",
+     "fonte": "FGV, Delegado PC-RN 2021"
+    },
+    {
+     "errado": "Concedida depois do trânsito em julgado, a anistia extingue só a pretensão executória e mantém a reincidência, como o indulto.",
+     "certo": "A anistia apaga todos os efeitos penais, inclusive a reincidência, em qualquer momento.",
+     "fonte": "Questão do app sobre anistia"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Escrivão PC-AL 2021; Analista TRF6 2024; Oficial de Justiça TJ-PA 2025",
+    "FGV: Delegado PC-RN 2021"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: anistia, graça e indulto saíram do tema de extinção da punibilidade."
+    }
+   ],
+   "relacionados": [
+    "extincao-da-punibilidade",
+    "crimes-hediondos",
+    "tortura",
+    "orgaos-da-execucao-e-incidentes",
+    "medidas-de-seguranca"
+   ]
+  },
+  {
+   "slug": "prescricao-penal",
+   "titulo": "Prescrição penal: espécies, prazos e cálculo",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 109, 110, 113 a 115, 118 e 119 do CP",
+   "tax": [
+    "penal.prescricao-conceito-teorias-prazos-calculo"
    ],
    "dispositivos": [
     "n2848-1940-art-109",
     "n2848-1940-art-110",
-    "n2848-1940-art-111",
+    "n2848-1940-art-113",
     "n2848-1940-art-114",
     "n2848-1940-art-115",
-    "n2848-1940-art-116",
-    "n2848-1940-art-117"
+    "n2848-1940-art-118",
+    "n2848-1940-art-119"
    ],
    "conceitos": [
-    "prescrição",
+    "prescrição da pretensão punitiva em abstrato",
     "prescrição retroativa",
+    "prescrição superveniente ou intercorrente",
     "prescrição da pretensão executória",
-    "interrupção da prescrição",
-    "suspensão da prescrição"
+    "prescrição virtual ou em perspectiva",
+    "tabela do art. 109",
+    "aumento de um terço para o reincidente",
+    "redução pela metade por idade",
+    "prescrição da multa",
+    "prescrição no concurso de crimes",
+    "imprescritibilidade"
    ],
    "palavras": [
-    "prescricao da pretensao punitiva",
-    "prescricao executoria",
+    "prescricao",
+    "pretensao punitiva",
+    "maximo da pena",
+    "pena em abstrato",
+    "tabela do art. 109",
+    "vinte anos",
+    "dezesseis",
+    "doze",
+    "oito",
+    "quatro",
+    "tres anos",
+    "inferior a um ano",
+    "restritivas de direito",
+    "pena aplicada",
+    "pena em concreto",
     "retroativa",
     "superveniente",
     "intercorrente",
-    "pena em abstrato",
-    "pena em concreto",
-    "marcos interruptivos",
-    "acordao confirmatorio",
+    "transito em julgado para a acusacao",
+    "termo inicial anterior a denuncia",
+    "lei 12.234",
+    "pretensao executoria",
+    "reincidente",
+    "um terco",
+    "sumula 220",
+    "evadir-se",
+    "tempo que resta da pena",
+    "multa",
+    "dois anos",
+    "art. 114",
     "menor de 21",
     "maior de 70",
-    "reincidente",
-    "continuidade delitiva",
+    "data da sentenca",
+    "violencia sexual contra a mulher",
+    "lei 15.160",
+    "penas mais leves",
+    "concurso de crimes",
+    "isoladamente",
     "sumula 497",
-    "sumula 191",
-    "medida de seguranca"
+    "crime continuado",
+    "prescricao virtual",
+    "pena hipotetica",
+    "sumula 438",
+    "tema 239",
+    "racismo",
+    "imprescritivel",
+    "injuria racial",
+    "medida de seguranca",
+    "causas de aumento"
    ],
-   "resumo": "Antes do trânsito em julgado, a prescrição da pretensão punitiva regula-se pelo <strong>máximo da pena em abstrato</strong> (tabela do art. 109). Depois da sentença com trânsito para a acusação, conta a <strong>pena aplicada</strong>, que serve para a prescrição retroativa e a superveniente; a retroativa não pode ter termo inicial anterior à denúncia ou queixa. Depois do trânsito definitivo, a pretensão executória também usa a pena aplicada, com prazo aumentado de um terço se o condenado é reincidente. Os prazos caem pela metade para quem tinha menos de 21 anos na data do fato ou mais de 70 na data da sentença, salvo crime com violência sexual contra a mulher (Lei 15.160/2025). O art. 117 lista os marcos que interrompem e zeram a contagem, e o art. 116 os que só a suspendem.",
+   "resumo": "Antes do trânsito em julgado, a <strong>prescrição da pretensão punitiva</strong> se regula pelo <strong>máximo da pena em abstrato</strong>, pela tabela do art. 109. Na conta entram as causas de aumento (pela fração maior) e de diminuição (pela menor); agravantes e atenuantes ficam fora, salvo a redução do art. 115. Com a sentença condenatória transitada para a acusação, a conta passa a usar a <strong>pena aplicada</strong>. Ela vale para trás, entre o recebimento da denúncia e a sentença (<strong>retroativa</strong>), e para frente, até o trânsito definitivo (<strong>superveniente</strong> ou intercorrente). A retroativa não pode ter termo inicial anterior à denúncia ou queixa (art. 110, § 1º). Depois do trânsito definitivo, a <strong>pretensão executória</strong> também usa a pena aplicada, e o prazo aumenta de <strong>um terço</strong> se o condenado é reincidente. A reincidência não influi na pretensão punitiva (Súmula 220 do STJ). Os prazos caem pela <strong>metade</strong> para quem tinha menos de 21 anos na data do fato ou mais de 70 na data da sentença, salvo crime com violência sexual contra a mulher (art. 115). No concurso de crimes, cada pena prescreve isoladamente (art. 119). A prescrição <strong>virtual</strong>, com base na pena que provavelmente seria aplicada, não é admitida (Súmula 438 do STJ). Marcos de início, suspensão e interrupção estão no tema seguinte.",
    "esquema": {
     "rotulo": "tabela do art. 109",
-    "html": "<table><thead><tr><th>Pena máxima</th><th>Prescreve em</th></tr></thead><tbody><tr><td><strong>Mais de 12 anos</strong></td><td>20 anos</td></tr><tr><td><strong>Mais de 8 até 12</strong></td><td>16 anos</td></tr><tr><td><strong>Mais de 4 até 8</strong></td><td>12 anos</td></tr><tr><td><strong>Mais de 2 até 4</strong></td><td>8 anos</td></tr><tr><td><strong>De 1 até 2</strong></td><td>4 anos</td></tr><tr><td><strong>Menos de 1 ano</strong></td><td>3 anos</td></tr><tr><td><strong>Multa única</strong></td><td>2 anos (art. 114, I)</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Pena máxima (ou aplicada)</th><th>Prescreve em</th><th>Com redução do art. 115</th></tr></thead><tbody><tr><td><strong>Mais de 12 anos</strong></td><td>20 anos</td><td>10 anos</td></tr><tr><td><strong>Mais de 8 até 12</strong></td><td>16 anos</td><td>8 anos</td></tr><tr><td><strong>Mais de 4 até 8</strong></td><td>12 anos</td><td>6 anos</td></tr><tr><td><strong>Mais de 2 até 4</strong></td><td>8 anos</td><td>4 anos</td></tr><tr><td><strong>De 1 até 2</strong></td><td>4 anos</td><td>2 anos</td></tr><tr><td><strong>Menos de 1 ano</strong></td><td>3 anos</td><td>1 ano e 6 meses</td></tr><tr><td><strong>Multa como única pena</strong></td><td>2 anos (art. 114, I)</td><td>1 ano</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "As espécies de prescrição",
+    "linhas": [
+     {
+      "nome": "Em abstrato",
+      "o_que_e": "Pelo máximo da pena cominada (art. 109).",
+      "atencao": "Pode ser reconhecida em qualquer fase, até de ofício.",
+      "grupo": "Pretensão punitiva (antes do trânsito definitivo)"
+     },
+     {
+      "nome": "Retroativa",
+      "o_que_e": "Pela pena aplicada, contada para trás, do recebimento da denúncia até a sentença (art. 110, § 1º).",
+      "atencao": "Nunca antes da denúncia ou queixa (Lei 12.234/2010).",
+      "grupo": "Pretensão punitiva (antes do trânsito definitivo)"
+     },
+     {
+      "nome": "Superveniente ou intercorrente",
+      "o_que_e": "Pela pena aplicada, da sentença em diante, até o trânsito definitivo.",
+      "atencao": "Pressupõe trânsito para a acusação ou recurso dela improvido.",
+      "grupo": "Pretensão punitiva (antes do trânsito definitivo)"
+     },
+     {
+      "nome": "Virtual ou em perspectiva",
+      "o_que_e": "Pela pena que hipoteticamente seria aplicada.",
+      "atencao": "Não é admitida (Súmula 438 do STJ; STF, Tema 239).",
+      "grupo": "Pretensão punitiva (antes do trânsito definitivo)"
+     },
+     {
+      "nome": "Executória",
+      "o_que_e": "Pela pena aplicada, com aumento de 1/3 para o reincidente (art. 110).",
+      "atencao": "Se o condenado foge ou o livramento é revogado, regula-se pelo tempo que resta da pena (art. 113).",
+      "grupo": "Pretensão executória (depois do trânsito definitivo)"
+     }
+    ],
+    "colunas": [
+     "Espécie",
+     "Base de cálculo",
+     "Atenção"
+    ]
    },
    "lei": [
     {
@@ -9730,40 +10539,105 @@
      "artigos": [
       "Art. 109.",
       "Art. 110.",
-      "Art. 111.",
+      "Art. 113.",
       "Art. 114.",
       "Art. 115.",
-      "Art. 116.",
-      "Art. 117."
+      "Art. 118.",
+      "Art. 119."
      ],
-     "ref": "arts. 109 a 117 do CP",
+     "ref": "arts. 109, 110, 113 a 115, 118 e 119 do CP",
      "regras": [
-      "<strong>Art. 109.</strong> Prescrição da pretensão punitiva, pelo máximo da pena em abstrato: máximo acima de 12 anos, 20 anos; acima de 8 até 12, 16; acima de 4 até 8, 12; acima de 2 até 4, 8; de 1 até 2, 4; abaixo de 1 ano, 3 anos. As restritivas de direitos seguem os mesmos prazos.",
-      "<strong>Art. 110, caput.</strong> Depois do trânsito em julgado da condenação, a prescrição se regula pela pena aplicada, nos mesmos prazos, aumentados de um terço se o condenado é reincidente.",
-      "<strong>Art. 110, § 1º.</strong> Prescrição retroativa e intercorrente: com trânsito para a acusação, regula-se pela pena aplicada, mas nunca com termo inicial anterior à denúncia ou queixa.",
-      "<strong>Art. 111.</strong> Termo inicial antes do trânsito: consumação; na tentativa, fim da atividade; no permanente, fim da permanência; na bigamia e na falsificação de registro civil, quando o fato se tornou conhecido; nos crimes contra a dignidade sexual ou com violência contra criança e adolescente, quando a vítima faz 18 anos, salvo ação já proposta.",
-      "<strong>Art. 114.</strong> Multa: 2 anos quando for a única pena cominada ou aplicada; no prazo da privativa quando cominada alternativa ou cumulativamente, ou aplicada junto.",
-      "<strong>Art. 115.</strong> Prazos pela metade para quem tinha menos de 21 anos ao tempo do crime ou mais de 70 na data da sentença, salvo crime com violência sexual contra a mulher.",
-      "<strong>Art. 116.</strong> Causas impeditivas: questão prejudicial em outro processo; pena cumprida no exterior; embargos de declaração ou recursos aos tribunais superiores inadmissíveis; acordo de não persecução penal não cumprido nem rescindido. Depois do trânsito, não corre enquanto o condenado está preso por outro motivo.",
-      "<strong>Art. 117.</strong> Causas interruptivas: recebimento da denúncia ou queixa; pronúncia; decisão que a confirma; publicação de sentença ou acórdão condenatórios recorríveis; início ou continuação do cumprimento da pena; reincidência. Salvo nos dois últimos casos, a interrupção vale para todos os autores e se estende aos crimes conexos do mesmo processo; salvo o início do cumprimento, o prazo recomeça inteiro."
+      "<strong>Art. 109.</strong> Antes do trânsito em julgado, a prescrição se regula pelo máximo da pena privativa cominada: acima de 12 anos, 20; acima de 8 até 12, 16; acima de 4 até 8, 12; acima de 2 até 4, 8; de 1 até 2, 4; abaixo de 1 ano, 3. As restritivas de direitos seguem os mesmos prazos.",
+      "<strong>Art. 110.</strong> Depois do trânsito em julgado da condenação, a prescrição se regula pela pena aplicada, nos prazos do art. 109, aumentados de um terço se o condenado é reincidente. Com trânsito para a acusação ou improvido seu recurso, também se regula pela pena aplicada, mas nunca com termo inicial anterior à denúncia ou queixa.",
+      "<strong>Art. 113.</strong> Se o condenado foge ou o livramento é revogado, a prescrição se regula pelo tempo que resta da pena.",
+      "<strong>Art. 114.</strong> A multa prescreve em 2 anos quando é a única pena cominada ou aplicada; no prazo da privativa quando cominada alternativa ou cumulativamente, ou aplicada junto com ela.",
+      "<strong>Art. 115.</strong> Os prazos são reduzidos de metade se o agente tinha menos de 21 anos ao tempo do crime ou mais de 70 na data da sentença, salvo crime que envolva violência sexual contra a mulher.",
+      "<strong>Arts. 118 e 119.</strong> As penas mais leves prescrevem com as mais graves. No concurso de crimes, a extinção da punibilidade incide sobre a pena de cada um, isoladamente."
      ],
-     "trechos": [
-      "não podendo, em nenhuma hipótese, ter por termo inicial data anterior à da denúncia ou queixa",
-      "da data em que a vítima completar 18 (dezoito) anos, salvo se a esse tempo já houver sido proposta a ação penal",
-      "enquanto não cumprido ou não rescindido o acordo de não persecução penal"
+     "literalidades": [
+      {
+       "trecho": "VI - em 3 (três) anos, se o máximo da pena é inferior a 1 (um) ano.",
+       "marcas": [
+        "3 (três) anos",
+        "inferior a 1 (um) ano"
+       ],
+       "afirmacao": "O crime com pena máxima de 6 meses de detenção prescreve, antes do trânsito em julgado, em 2 anos.",
+       "gabarito": "E",
+       "porque": "Pena máxima inferior a 1 ano prescreve em 3 anos (art. 109, VI, com a redação da Lei 12.234/2010). Dois anos é o prazo da multa como pena única."
+      },
+      {
+       "trecho": "os quais se aumentam de um terço, se o condenado é reincidente.",
+       "marcas": [
+        "aumentam de um terço",
+        "reincidente"
+       ],
+       "afirmacao": "O reincidente condenado definitivamente a 2 anos de reclusão tem a pretensão executória prescrita em 5 anos e 4 meses.",
+       "gabarito": "C",
+       "porque": "Pena aplicada de 2 anos prescreve em 4 anos (art. 109, V); para o reincidente, a executória aumenta de um terço (art. 110): 4 anos mais 1 ano e 4 meses."
+      },
+      {
+       "trecho": "não podendo, em nenhuma hipótese, ter por termo inicial data anterior à da denúncia ou queixa.",
+       "marcas": [
+        "em nenhuma hipótese",
+        "anterior à da denúncia ou queixa"
+       ],
+       "afirmacao": "Furto praticado em 2015, denúncia recebida em 2020 e pena final de 1 ano, com trânsito para a acusação: houve prescrição retroativa entre o fato e o recebimento da denúncia.",
+       "gabarito": "E",
+       "porque": "Desde a Lei 12.234/2010, a prescrição pela pena aplicada não pode ter termo inicial anterior à denúncia ou queixa (art. 110, § 1º). Entre o fato e a denúncia, só corre a prescrição pela pena em abstrato."
+      },
+      {
+       "trecho": "Art. 119. No caso de concurso de crimes, a extinção da punibilidade incidirá sobre a pena de cada um, isoladamente.",
+       "marcas": [
+        "cada um, isoladamente"
+       ],
+       "afirmacao": "No concurso material, com penas aplicadas de 3 anos e de 1 ano, a pena de 1 ano também prescreve em 8 anos, prazo que corresponde à soma.",
+       "gabarito": "E",
+       "porque": "No concurso, cada pena prescreve isoladamente (art. 119): a de 3 anos em 8 anos e a de 1 ano em 4 anos."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
       "Art. 109.": "f6775ec7020c",
       "Art. 110.": "ba11b51afd14",
-      "Art. 111.": "e1b18dfef053",
+      "Art. 113.": "b73cd19760f6",
       "Art. 114.": "c8cbae978e9e",
       "Art. 115.": "a1192c7e9e2c",
-      "Art. 116.": "46142affe033",
-      "Art. 117.": "1d5d1da5f10b"
-     }
+      "Art. 118.": "8abafe2abd0c",
+      "Art. 119.": "af7467bec4b5"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STF, Súmula 497",
+     "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação."
+    },
+    {
+     "quem": "STJ, Súmula 220",
+     "texto": "A reincidência não influi no prazo da prescrição da pretensão punitiva."
+    },
+    {
+     "quem": "STJ, Súmula 438",
+     "texto": "É inadmissível a extinção da punibilidade pela prescrição da pretensão punitiva com fundamento em pena hipotética, independentemente da existência ou sorte do processo penal."
+    },
+    {
+     "quem": "STF, Tema 239 (repercussão geral)",
+     "texto": "É inadmissível a extinção da punibilidade pela prescrição da pretensão punitiva com base em previsão da pena que hipoteticamente seria aplicada."
+    },
+    {
+     "quem": "STJ (Informativo 875)",
+     "texto": "A redução pela metade do art. 115 alcança o réu que tem mais de 70 anos na data do acórdão que altera substancialmente a sentença condenatória, porque esse acórdão faz as vezes da sentença."
+    }
+   ],
+   "detalhes": [
+    "O menor de 21 anos se vê na data do fato, e o maior de 70, na data da sentença. Quem completa 70 entre a sentença e o trânsito não tem a redução, e não há redução para o maior de 60 (Cebraspe, Delegado PC-PE 2024).",
+    "A multa prescreve em 2 anos só quando é a única pena cominada ou aplicada; junto com prisão, prescreve no prazo desta (art. 114; Cebraspe, Analista Judiciário CNJ 2024 e Analista TJ-ES 2023).",
+    "No concurso formal e no crime continuado, o acréscimo da exasperação fica fora da conta (art. 119 e Súmula 497; Cebraspe, Delegado PC-PE 2024 e Delegado PJC-MT 2017).",
+    "Só são imprescritíveis o racismo e a ação de grupos armados contra a ordem constitucional (CF, art. 5º, XLII e XLIV); o STF incluiu a injúria racial no racismo. O terrorismo prescreve (Cebraspe, Analista TJ-ES 2023).",
+    "A medida de segurança também prescreve (Cebraspe, Delegado PC-PE 2024), e a pessoa jurídica condenada por crime ambiental segue os prazos do art. 109 do CP (Cebraspe, Delegado PC-DF 2026).",
+    "Para fatos anteriores à Lei 12.234/2010, de 5 de maio de 2010, ainda vale a retroativa entre o fato e a denúncia e o prazo mínimo de 2 anos, porque a lei mais severa não retroage.",
+    "A prescrição é matéria de ordem pública: pode ser reconhecida de ofício, em qualquer fase do processo (CPP, art. 61)."
    ],
    "macetes": [
     {
@@ -9771,30 +10645,282 @@
      "texto": "A escada do art. 109, de cima para baixo. As faixas de pena são 12, 8, 4, 2 e 1."
     },
     {
-     "sigla": "OS MARCOS DO ART. 117",
-     "texto": "Marcos interruptivos do art. 117: Recebimento da denúncia, pronúncia, confirmação da Pronúncia, Publicação da sentença ou acórdão condenatório, Cumprimento da pena e Reincidência."
+     "sigla": "REINCIDÊNCIA SÓ NA EXECUTÓRIA",
+     "texto": "O aumento de um terço vale depois do trânsito; na pretensão punitiva, a reincidência não conta (Súmula 220)."
+    },
+    {
+     "sigla": "21 NO FATO, 70 NA SENTENÇA",
+     "texto": "As duas idades que cortam o prazo pela metade, cada uma no seu momento."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A reincidência aumenta de um terço o prazo da prescrição da pretensão punitiva.",
+    "gabarito": "E",
+    "explicacao": "O aumento de um terço do art. 110 vale só para a pretensão executória. A reincidência não influi na pretensão punitiva (Súmula 220 do STJ)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A prescrição virtual, calculada com base na pena que provavelmente seria aplicada, é admitida quando evidente a inutilidade do processo.",
+     "certo": "É inadmissível (Súmula 438 do STJ; STF, Tema 239).",
+     "fonte": "Questão do app sobre prescrição"
+    },
+    {
+     "errado": "No crime continuado, a prescrição considera a pena com o acréscimo da continuidade.",
+     "certo": "Regula-se pela pena imposta, sem o acréscimo (Súmula 497 do STF).",
+     "fonte": "Cebraspe, Delegado PJC-MT 2017"
+    },
+    {
+     "errado": "O terrorismo, por ser equiparado a hediondo, é imprescritível.",
+     "certo": "Só o racismo e a ação de grupos armados contra a ordem constitucional são imprescritíveis.",
+     "fonte": "Cebraspe, Analista TJ-ES 2023"
+    },
+    {
+     "errado": "Quem completa 70 anos entre a sentença e o trânsito em julgado tem o prazo prescricional reduzido de metade.",
+     "certo": "A idade se vê na data da sentença (ou do acórdão que a altera substancialmente).",
+     "fonte": "Cebraspe, Delegado PC-PE 2024"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PJC-MT 2017; Delegado PC-PB 2022; Analista TJ-ES 2023; Delegado PC-PE 2024; Analista Judiciário CNJ 2024; Delegado PC-DF 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito: aqui ficam as espécies, os prazos e o cálculo da prescrição, com os arts. 113, 118 e 119. Termo inicial, suspensão e interrupção ganharam tema próprio."
+    }
+   ],
+   "relacionados": [
+    "prescricao-termo-inicial-suspensao-e-interrupcao",
+    "extincao-da-punibilidade",
+    "concurso-de-crimes",
+    "lei-penal-no-tempo",
+    "racismo-e-injuria-racial"
+   ]
+  },
+  {
+   "slug": "prescricao-termo-inicial-suspensao-e-interrupcao",
+   "titulo": "Prescrição: termo inicial, suspensão e interrupção",
+   "grupo": "Parte Geral: punibilidade",
+   "base": "Arts. 111, 112, 116 e 117 do CP",
+   "tax": [
+    "penal.prescricao-conceito-teorias-prazos-calculo.termo-suspensao-interrupcao"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-111",
+    "n2848-1940-art-112",
+    "n2848-1940-art-116",
+    "n2848-1940-art-117"
+   ],
+   "conceitos": [
+    "termo inicial da pretensão punitiva",
+    "termo inicial da pretensão executória",
+    "crime permanente",
+    "tentativa",
+    "bigamia e registro civil",
+    "crimes contra a dignidade sexual de criança e adolescente",
+    "causas impeditivas ou suspensivas",
+    "acordo de não persecução penal e prescrição",
+    "causas interruptivas",
+    "acórdão confirmatório",
+    "comunicabilidade da interrupção",
+    "reinício da contagem"
+   ],
+   "palavras": [
+    "comeca a correr",
+    "dia em que o crime se consumou",
+    "tentativa",
+    "cessou a atividade criminosa",
+    "crimes permanentes",
+    "cessou a permanencia",
+    "bigamia",
+    "registro civil",
+    "fato se tornou conhecido",
+    "dignidade sexual",
+    "crianca e adolescente",
+    "18 anos",
+    "salvo se ja houver sido proposta a acao",
+    "transita em julgado para a acusacao",
+    "revoga a suspensao condicional",
+    "interrompe a execucao",
+    "tema 788",
+    "ambas as partes",
+    "nao corre",
+    "questao prejudicial",
+    "cumpre pena no exterior",
+    "embargos de declaracao",
+    "recursos inadmissiveis",
+    "acordo de nao persecucao penal",
+    "preso por outro motivo",
+    "interrompe-se",
+    "recebimento da denuncia",
+    "pronuncia",
+    "decisao confirmatoria da pronuncia",
+    "sentenca ou acordao condenatorios recorriveis",
+    "acordao confirmatorio",
+    "hc 176.473",
+    "inicio ou continuacao do cumprimento",
+    "reincidencia",
+    "todos os autores",
+    "crimes conexos",
+    "todo o prazo comeca a correr novamente",
+    "sumula 191",
+    "sumula 415",
+    "citacao por edital",
+    "art. 366",
+    "tema 1303",
+    "imunidade parlamentar",
+    "sursis processual"
+   ],
+   "resumo": "Antes do trânsito em julgado, a prescrição começa a correr do dia da <strong>consumação</strong>. Na tentativa, corre do dia em que cessou a atividade; no crime <strong>permanente</strong>, do fim da permanência. Na bigamia e na falsificação de registro civil, corre da data em que o fato se tornou conhecido. Nos crimes contra a dignidade sexual ou com violência contra criança e adolescente, corre de quando a vítima faz <strong>18 anos</strong>, salvo se a ação já foi proposta (art. 111). A pretensão executória, pela letra do art. 112, corre do trânsito para a acusação, mas o <strong>STF</strong> fixou o trânsito para <strong>ambas as partes</strong> (Tema 788). A prescrição <strong>não corre</strong> (suspensão) nos casos do art. 116: questão prejudicial em outro processo, pena cumprida no exterior, embargos ou recursos inadmissíveis aos tribunais superiores e acordo de não persecução penal pendente. Depois do trânsito, também não corre enquanto o condenado está preso por outro motivo. A prescrição se <strong>interrompe</strong>, e a contagem recomeça do zero, nos marcos do art. 117. São eles: <strong>recebimento</strong> da denúncia ou queixa, pronúncia, decisão que confirma a pronúncia, publicação de sentença ou acórdão condenatórios recorríveis, início ou continuação do cumprimento da pena e reincidência. Salvo nos dois últimos, a interrupção alcança todos os autores e os crimes conexos do mesmo processo.",
+   "esquema": {
+    "rotulo": "suspender e interromper não são a mesma coisa",
+    "html": "<table><thead><tr><th></th><th>Suspensão (art. 116)</th><th>Interrupção (art. 117)</th></tr></thead><tbody><tr><td><strong>Efeito</strong></td><td>O prazo para e, depois, volta a correr de onde parou</td><td>O prazo zera e recomeça inteiro do dia da interrupção (§ 2º)</td></tr><tr><td><strong>Exemplos</strong></td><td>Questão prejudicial; pena no exterior; recursos inadmissíveis; acordo de não persecução pendente; preso por outro motivo</td><td>Recebimento da denúncia; pronúncia e sua confirmação; sentença ou acórdão condenatórios; início da pena; reincidência</td></tr><tr><td><strong>Fora do CP</strong></td><td>Citação por edital com revelia (CPP, art. 366); suspensão condicional do processo (Lei 9.099/1995, art. 89, § 6º); sustação de processo contra parlamentar (CF, art. 53, § 5º)</td><td>Não há marco fora do art. 117</td></tr><tr><td><strong>Coautores</strong></td><td>Cada causa tem sua regra</td><td>Alcança todos, salvo início da pena e reincidência (§ 1º)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Os marcos do art. 117, na ordem do processo",
+    "linhas": [
+     {
+      "nome": "I - Recebimento da denúncia ou queixa",
+      "o_que_e": "O que interrompe é o recebimento, e não o oferecimento."
+     },
+     {
+      "nome": "II - Pronúncia",
+      "o_que_e": "No júri.",
+      "atencao": "Interrompe mesmo que o júri depois desclassifique o crime (Súmula 191 do STJ)."
+     },
+     {
+      "nome": "III - Decisão confirmatória da pronúncia",
+      "o_que_e": "Acórdão que nega o recurso contra a pronúncia."
+     },
+     {
+      "nome": "IV - Sentença ou acórdão condenatórios recorríveis",
+      "o_que_e": "Conta a publicação.",
+      "atencao": "O acórdão condenatório sempre interrompe, mesmo quando só confirma a sentença (STF, HC 176.473)."
+     },
+     {
+      "nome": "V - Início ou continuação do cumprimento da pena",
+      "o_que_e": "Pretensão executória.",
+      "atencao": "Não se comunica aos coautores e não zera o prazo: regula-se pelo tempo que resta."
+     },
+     {
+      "nome": "VI - Reincidência",
+      "o_que_e": "Pretensão executória.",
+      "atencao": "Não se comunica aos coautores."
+     }
+    ],
+    "colunas": [
+     "Marco",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 111.",
+      "Art. 112.",
+      "Art. 116.",
+      "Art. 117."
+     ],
+     "ref": "arts. 111, 112, 116 e 117 do CP",
+     "regras": [
+      "<strong>Art. 111.</strong> Antes do trânsito, a prescrição corre da consumação; na tentativa, do fim da atividade; no permanente, do fim da permanência; na bigamia e na falsificação ou alteração de registro civil, de quando o fato se tornou conhecido; nos crimes contra a dignidade sexual ou com violência contra criança e adolescente, de quando a vítima faz 18 anos, salvo ação já proposta.",
+      "<strong>Art. 112.</strong> A executória corre do trânsito em julgado da condenação para a acusação, ou da decisão que revoga o sursis ou o livramento, e do dia em que se interrompe a execução, salvo se esse tempo deva computar-se na pena.",
+      "<strong>Art. 116.</strong> Antes do trânsito, a prescrição não corre enquanto pende questão prejudicial em outro processo, enquanto o agente cumpre pena no exterior, na pendência de embargos de declaração ou de recursos aos tribunais superiores inadmissíveis e enquanto não cumprido ou rescindido o acordo de não persecução penal. Depois do trânsito, não corre enquanto o condenado está preso por outro motivo.",
+      "<strong>Art. 117.</strong> Interrompem a prescrição: recebimento da denúncia ou queixa; pronúncia; decisão que a confirma; publicação de sentença ou acórdão condenatórios recorríveis; início ou continuação do cumprimento da pena; reincidência. Salvo nos dois últimos casos, a interrupção vale para todos os autores e se estende aos crimes conexos do mesmo processo; salvo o início do cumprimento, o prazo recomeça inteiro."
+     ],
+     "literalidades": [
+      {
+       "trecho": "III - nos crimes permanentes, do dia em que cessou a permanência;",
+       "marcas": [
+        "crimes permanentes",
+        "cessou a permanência"
+       ],
+       "afirmacao": "No sequestro que durou de março a julho, a prescrição começa a correr em março, quando o crime se consumou.",
+       "gabarito": "E",
+       "porque": "No crime permanente, a prescrição corre do dia em que cessou a permanência (art. 111, III): no caso, de julho."
+      },
+      {
+       "trecho": "IV - nos de bigamia e nos de falsificação ou alteração de assentamento do registro civil, da data em que o fato se tornou conhecido;",
+       "marcas": [
+        "bigamia",
+        "registro civil",
+        "se tornou conhecido"
+       ],
+       "afirmacao": "No estelionato descoberto três anos depois do fato, a prescrição corre da data em que a fraude se tornou conhecida.",
+       "gabarito": "E",
+       "porque": "A data do conhecimento só vale para a bigamia e para a falsificação ou alteração de registro civil (art. 111, IV). No estelionato, corre da consumação."
+      },
+      {
+       "trecho": "IV - enquanto não cumprido ou não rescindido o acordo de não persecução penal.",
+       "marcas": [
+        "acordo de não persecução penal"
+       ],
+       "afirmacao": "Enquanto o investigado cumpre as condições do acordo de não persecução penal, a prescrição não corre.",
+       "gabarito": "C",
+       "porque": "A prescrição não corre enquanto não cumprido ou não rescindido o acordo de não persecução penal (art. 116, IV, incluído pela Lei 13.964/2019)."
+      },
+      {
+       "trecho": "I - pelo recebimento da denúncia ou da queixa;",
+       "marcas": [
+        "recebimento"
+       ],
+       "afirmacao": "O oferecimento da denúncia interrompe a prescrição, ainda que o juiz só a receba meses depois.",
+       "gabarito": "E",
+       "porque": "O marco é o recebimento da denúncia ou da queixa (art. 117, I), e não o oferecimento."
+      }
+     ],
+     "conferido": {
+      "Art. 111.": "e1b18dfef053",
+      "Art. 112.": "aeaf88e1ae27",
+      "Art. 116.": "46142affe033",
+      "Art. 117.": "1d5d1da5f10b"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
-     "quem": "STF · HC 176.473 (2020)",
-     "texto": "O acórdão condenatório sempre interrompe a prescrição, inclusive quando confirma a sentença ou reduz ou aumenta a pena."
-    },
-    {
-     "quem": "STF · Súmula 497",
-     "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação."
-    },
-    {
-     "quem": "STJ · Súmula 191",
+     "quem": "STJ, Súmula 191",
      "texto": "A pronúncia é causa interruptiva da prescrição, ainda que o Tribunal do Júri venha a desclassificar o crime."
     },
     {
-     "quem": "STJ · Súmula 220",
-     "texto": "A reincidência não influi no prazo da prescrição da pretensão punitiva."
+     "quem": "STF, HC 176.473 (2020)",
+     "texto": "O acórdão condenatório sempre interrompe a prescrição, inclusive quando confirma a sentença ou reduz ou aumenta a pena."
     },
     {
-     "quem": "STJ, Súmula 438",
-     "texto": "É inadmissível a extinção da punibilidade pela prescrição da pretensão punitiva com fundamento em pena hipotética, independentemente da existência ou sorte do processo penal."
+     "quem": "STF, Tema 788 (repercussão geral)",
+     "texto": "O prazo da prescrição da pretensão executória só começa a correr do dia em que a sentença condenatória transita em julgado para ambas as partes, à luz da presunção de inocência (ADCs 43, 44 e 54)."
+    },
+    {
+     "quem": "STJ, Súmula 415",
+     "texto": "O período de suspensão do prazo prescricional é regulado pelo máximo da pena cominada."
+    }
+   ],
+   "detalhes": [
+    "A prescrição corre da consumação, e não do dia em que o fato se tornou conhecido; a data do conhecimento só vale para a bigamia e o registro civil (Cebraspe, Analista TJ-ES 2023).",
+    "Nos crimes contra a dignidade sexual de criança ou adolescente, a prescrição só corre dos 18 anos da vítima, salvo se a ação já tiver sido proposta (art. 111, V; Cebraspe, Promotor MPSC 2023).",
+    "Na citação por edital sem comparecimento, o processo e a prescrição ficam suspensos (CPP, art. 366), mas a suspensão dura no máximo o prazo prescricional da pena máxima cominada (Súmula 415 do STJ; STF, Tema 438).",
+    "Para o STF (Tema 1303), o sobrestamento do recurso extraordinário à espera de repercussão geral não suspende automaticamente a prescrição; o relator do paradigma pode determinar a suspensão.",
+    "A interrupção se estende aos coautores, salvo no início ou na continuação da execução e na reincidência (art. 117, § 1º; Cebraspe, Oficial de Justiça TJ-PA 2025).",
+    "A prescrição não corre enquanto se discute em outro processo questão de que dependa a existência do crime, como a ação cível sobre a validade do primeiro casamento na bigamia (art. 116, I; CPP, art. 92; Cebraspe, Delegado PC-CE 2025) e na pendência de embargos ou recursos inadmissíveis aos tribunais superiores (art. 116, III; Cebraspe, Delegado PC-ES 2022).",
+    "Fugindo o condenado, a executória corre do dia da fuga e se regula pelo tempo que resta da pena (arts. 112, II, e 113)."
+   ],
+   "macetes": [
+    {
+     "sigla": "SUSPENDE PAUSA, INTERROMPE ZERA",
+     "texto": "Na suspensão, o relógio para e volta de onde estava. Na interrupção, recomeça do zero."
+    },
+    {
+     "sigla": "RECEBIMENTO, NÃO OFERECIMENTO",
+     "texto": "O 1º marco do art. 117 é o recebimento da denúncia. No art. 102, o marco da retratação é o oferecimento: não confunda."
+    },
+    {
+     "sigla": "PENA E REINCIDÊNCIA SÃO PESSOAIS",
+     "texto": "Início da pena e reincidência interrompem só para aquele condenado; os demais marcos alcançam todos os autores."
     }
    ],
    "pegadinha": {
@@ -9802,18 +10928,44 @@
     "gabarito": "E",
     "explicacao": "Para o STF (HC 176.473), o acórdão condenatório interrompe a prescrição mesmo quando só confirma a condenação (Cebraspe, Delegado PF 2021; FGV, Delegado PC-AM 2021)."
    },
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PF 2021 e FGV, Delegado PC-AM 2021 (acórdão que confirma a condenação interrompe, HC 176.473); FGV, Delegado PC-RN 2021 (a pronúncia interrompe mesmo com desclassificação, Súmula 191); Cebraspe, Delegado PC-PE 2024 e Delegado PJC-MT 2017 (concurso e continuidade ficam fora da conta, art. 119 e Súmula 497).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>A prescrição corre da consumação, e não do dia em que o fato se tornou conhecido; a data do conhecimento só vale para a bigamia e a falsificação ou alteração de assentamento do registro civil (art. 111, IV; Cebraspe, Analista TJ-ES 2023). Nos crimes contra a dignidade sexual ou com violência contra criança e adolescente, corre dos 18 anos da vítima, salvo se a ação já tiver sido proposta (art. 111, V; Cebraspe, Promotor MPSC 2023). Para o STF, a executória corre do trânsito em julgado para ambas as partes (Cebraspe, TC-DF 2023).</p><p>A prescrição não corre enquanto se discute em outro processo questão de que dependa a existência do crime (art. 116, I; Cebraspe, Delegado PC-CE 2025) e, desde a Lei 13.964/2019, na pendência de embargos de declaração ou de recursos aos tribunais superiores inadmissíveis (art. 116, III; Cebraspe, Delegado PC-ES 2022). A interrupção se estende aos coautores, salvo no início ou na continuação da execução e na reincidência (art. 117, § 1º; Cebraspe, Oficial de Justiça TJ-PA 2025).</p><p>A multa prescreve em 2 anos só quando é a única pena cominada ou aplicada; junto com prisão, prescreve no prazo desta (art. 114; Cebraspe, Analista Judiciário CNJ 2024 e Analista TJ-ES 2023). A medida de segurança também prescreve (Cebraspe, Delegado PC-PE 2024), e a pessoa jurídica condenada por crime ambiental segue o art. 109 do CP (Cebraspe, Delegado PC-DF 2026). Só são imprescritíveis o racismo e a ação de grupos armados contra a ordem constitucional (art. 5º, XLII e XLIV, da CF); o terrorismo prescreve (Cebraspe, Analista TJ-ES 2023).</p><p><strong>Distinções</strong></p><p>O menor de 21 anos se vê na data do fato, e o maior de 70, na data da sentença. Quem completa 70 entre a sentença e o trânsito não tem a redução, e não há redução para o maior de 60; quem tem 20 anos na sentença tinha menos de 21 no fato e tem o prazo pela metade (Cebraspe, Delegado PC-PE 2024). Com 21 anos completos no fato, não há redução (Cebraspe, Analista TJ-ES 2023).</p><p><strong>Pegadinhas que já caíram</strong></p><p>Errado: no furto de 2011, com a denúncia recebida quatro anos depois e pena final de 1 ano, houve prescrição retroativa entre o fato e a denúncia. Certo: em fato posterior à Lei 12.234/2010, a retroativa não pode ter termo inicial anterior à denúncia ou queixa (art. 110, § 1º), e não houve prescrição (Cebraspe, Delegado PC-PB 2022).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "relacionados": [
-    "extincao-da-punibilidade",
-    "lei-penal-no-tempo"
+   "pegadinhas": [
+    {
+     "errado": "Se o júri desclassifica o crime para outro de competência do juiz singular, a pronúncia deixa de interromper a prescrição.",
+     "certo": "A pronúncia interrompe ainda que haja desclassificação (Súmula 191 do STJ).",
+     "fonte": "FGV, Delegado PC-RN 2021"
+    },
+    {
+     "errado": "A prescrição da pretensão executória corre do trânsito em julgado para a acusação.",
+     "certo": "Para o STF, corre do trânsito em julgado para ambas as partes (Tema 788).",
+     "fonte": "Cebraspe, TC-DF 2023"
+    },
+    {
+     "errado": "A reincidência de um dos condenados interrompe a prescrição em relação a todos os coautores.",
+     "certo": "Início da pena e reincidência não se comunicam (art. 117, § 1º).",
+     "fonte": "Cebraspe, Oficial de Justiça TJ-PA 2025"
+    },
+    {
+     "errado": "A interrupção da prescrição pelo início do cumprimento da pena faz o prazo recomeçar inteiro.",
+     "certo": "Nesse caso, o prazo não recomeça inteiro: regula-se pelo tempo que resta da pena (art. 117, § 2º, e art. 113).",
+     "fonte": "Questão do app sobre prescrição"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021; Delegado PC-ES 2022; Analista TJ-ES 2023; Promotor MPSC 2023; TC-DF 2023; Delegado PC-CE 2025; Oficial de Justiça TJ-PA 2025",
+    "FGV: Delegado PC-AM 2021; Delegado PC-RN 2021"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescida a Súmula 438 do STJ, que proíbe a prescrição virtual, com base em pena hipotética."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: o termo inicial, a suspensão e a interrupção da prescrição saíram do tema de prescrição."
     }
+   ],
+   "relacionados": [
+    "prescricao-penal",
+    "tribunal-do-juri",
+    "citacao-e-revelia",
+    "acordo-de-nao-persecucao-penal"
    ]
   }
  ]
