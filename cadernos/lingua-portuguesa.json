@@ -4,7 +4,7 @@
   "disciplina": "Língua Portuguesa",
   "ordem": 19,
   "descricao": "Língua Portuguesa organizada por tema e pelo que a Cebraspe mais cobra: reescrita de frases, coesão, significação e classes de palavras, sintaxe, coordenação e subordinação, tempos verbais, pontuação, concordância, regência, crase e redação oficial, com resumo, esquemas, macetes e pegadinhas tiradas de provas reais. Gratuito.",
-  "revisado_em": "2026-11-17",
+  "revisado_em": "2026-11-26",
   "revisado_rotulo": "Itens de prova checados com a justificativa e o gabarito oficial da Cebraspe",
   "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir da gramática normativa e das provas de Língua Portuguesa da Cebraspe. Os itens citados vêm dos cadernos oficiais da banca e foram conferidos com o gabarito definitivo; os da PC-DF 2024, do TC-DF 2023 e da SERES-PE 2021 também com a justificativa oficial de cada item. A escolha dos temas segue o que mais apareceu em 57 provas recentes da Cebraspe e da FGV.</p>",
   "temas": [
@@ -19,11 +19,16 @@
       "dispositivos": [],
       "conceitos": [
         "interpretação de texto",
+        "compreensão",
         "inferência",
         "extrapolação",
         "pressuposto",
         "subentendido",
-        "ideia central"
+        "paráfrase",
+        "ideia central",
+        "palavras de alcance",
+        "voz do autor e voz citada",
+        "relação entre as ideias"
       ],
       "palavras": [
         "interpretacao",
@@ -31,20 +36,108 @@
         "inferencia",
         "infere-se",
         "depreende-se",
+        "o texto permite concluir",
         "extrapolacao",
         "pressuposto",
         "subentendido",
         "parafrase",
         "ideia central",
         "tese",
-        "ponto de vista"
+        "ponto de vista",
+        "generalizacao",
+        "alcance",
+        "todos",
+        "alguns",
+        "sempre",
+        "nunca",
+        "pode",
+        "deve",
+        "contradicao",
+        "fonte citada",
+        "voz do autor",
+        "conectivo",
+        "concessao",
+        "embora",
+        "voltou a cair"
       ],
-      "resumo": "<strong>Compreender</strong> é achar o que o texto diz; <strong>interpretar</strong> é concluir a partir dele, sem contrariá-lo e sem ir além. Na Cebraspe, \"depreende-se\", \"infere-se\" e \"o texto permite concluir\" pedem <strong>inferência</strong>: a afirmação precisa estar sustentada pelo texto, ainda que com outras palavras. O item que acrescenta dado, opinião ou generalização que o autor não fez é <strong>extrapolação</strong> e está errado, mesmo que pareça verdadeiro no mundo real. Fique de olho nas palavras de <strong>alcance e intensidade</strong>: trocar \"alguns\" por \"todos\", \"pode\" por \"deve\", \"frequentemente\" por \"sempre\" muda o sentido. <strong>Pressuposto</strong> vem de marcas da frase e não pode ser negado (\"voltou a cair\" pressupõe queda anterior); <strong>subentendido</strong> é insinuação que depende do contexto. E não atribua ao autor a opinião de alguém que ele apenas cita.",
+      "resumo": "<strong>Compreender</strong> é achar o que o texto diz; <strong>interpretar</strong> é concluir a partir dele, sem contrariá-lo e sem ir além. Na Cebraspe, \"depreende-se\", \"infere-se\" e \"o texto permite concluir\" pedem <strong>inferência</strong>: a conclusão que decorre necessariamente das informações do texto, ainda que dita com outras palavras. Exemplo: se o texto diz que \"a ponte foi interditada e o trânsito foi desviado para a avenida\", infere-se que a avenida recebeu mais carros. Já a <strong>extrapolação</strong> é a conclusão que vai além do texto: acrescenta dado, causa, opinião ou generalização que o autor não fez. Dizer que \"a prefeitura errou ao interditar a ponte\" é extrapolação, e o item é errado mesmo que pareça verdadeiro no mundo real. O <strong>pressuposto</strong> é a informação que a própria frase carrega e que não se pode negar sem contradição: \"O índice voltou a cair\" pressupõe que ele já havia caído antes. O <strong>subentendido</strong> é a insinuação que depende do contexto e de quem ouve: \"Hoje o relatório chegou no prazo\" pode insinuar que costuma atrasar, mas o falante pode negar essa leitura. O esquema abaixo mostra como julgar cada tipo de item.",
       "esquema": {
         "rotulo": "como julgar o item de leitura",
-        "html": "<table><thead><tr><th>O item…</th><th>Classificação</th><th>Julgamento</th></tr></thead><tbody><tr><td>repete a informação com outras palavras, sem mudar o alcance</td><td>paráfrase</td><td>Certo</td></tr><tr><td>tira conclusão que decorre do que o texto diz</td><td>inferência</td><td>Certo</td></tr><tr><td>acrescenta dado, causa ou opinião que o texto não traz</td><td>extrapolação</td><td>Errado</td></tr><tr><td>generaliza (\"todos\", \"sempre\", \"nunca\") o que o texto restringe</td><td>mudança de alcance</td><td>Errado</td></tr><tr><td>diz o contrário de um trecho</td><td>contradição</td><td>Errado</td></tr><tr><td>põe na boca do autor a opinião de uma fonte citada</td><td>troca de voz</td><td>Errado</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>O item…</th><th>Nome</th><th>Julgamento</th></tr></thead><tbody><tr><td><strong>repete a informação com outras palavras, sem mudar o alcance</strong></td><td>paráfrase</td><td>Certo</td></tr><tr><td><strong>tira a conclusão que decorre do que o texto diz</strong></td><td>inferência</td><td>Certo</td></tr><tr><td><strong>acrescenta dado, causa ou opinião que o texto não traz</strong></td><td>extrapolação</td><td>Errado: o certo é ficar no que o texto sustenta</td></tr><tr><td><strong>generaliza (\"todos\", \"sempre\", \"nunca\") o que o texto restringe</strong></td><td>mudança de alcance</td><td>Errado: o certo é manter \"alguns\", \"às vezes\", \"pode\"</td></tr><tr><td><strong>diz o contrário de um trecho</strong></td><td>contradição</td><td>Errado: o certo é o que o trecho afirma</td></tr><tr><td><strong>põe na boca do autor a opinião de uma fonte citada</strong></td><td>troca de voz</td><td>Errado: o certo é atribuir a opinião a quem a emitiu</td></tr><tr><td><strong>troca a relação entre duas ideias (causa por consequência, oposição por adição)</strong></td><td>troca de relação lógica</td><td>Errado: o certo é a relação marcada pelo conectivo do texto</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada conceito, em uma linha",
+        "linhas": [
+          {
+            "nome": "Compreensão",
+            "o_que_e": "Localizar o que o texto diz de forma expressa.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Interpretação",
+            "o_que_e": "Concluir a partir do texto, sem contrariá-lo e sem ir além dele.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Paráfrase",
+            "o_que_e": "A mesma informação com outras palavras, com o mesmo alcance.",
+            "atencao": "Se a nova redação amplia ou restringe, já não é paráfrase.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Inferência",
+            "o_que_e": "Conclusão que decorre necessariamente das informações do texto.",
+            "atencao": "Não basta ser compatível com o tema: o texto tem de sustentá-la.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Extrapolação",
+            "o_que_e": "Conclusão que vai além do texto: dado, opinião ou generalização que o autor não fez.",
+            "atencao": "É errada mesmo quando é verdadeira fora do texto.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Ideia central",
+            "o_que_e": "A tese que os demais parágrafos sustentam com argumentos, exemplos ou dados.",
+            "atencao": "Título e primeiro parágrafo anunciam o tema, mas a ideia central se confirma no conjunto.",
+            "grupo": "Leitura"
+          },
+          {
+            "nome": "Pressuposto",
+            "o_que_e": "Informação marcada na própria frase (\"voltou a\", \"deixou de\", \"ainda\", \"também\") que não se pode negar.",
+            "atencao": "\"Ele deixou de fumar\" pressupõe que fumava.",
+            "grupo": "Sentido implícito"
+          },
+          {
+            "nome": "Subentendido",
+            "o_que_e": "Insinuação que depende do contexto e de quem ouve.",
+            "atencao": "O falante pode negar a insinuação; o pressuposto, não.",
+            "grupo": "Sentido implícito"
+          },
+          {
+            "nome": "Voz do autor",
+            "o_que_e": "A posição que o próprio autor assume no texto.",
+            "grupo": "Vozes"
+          },
+          {
+            "nome": "Voz citada",
+            "o_que_e": "A opinião de uma fonte que o autor reproduz, às vezes para contestar.",
+            "atencao": "Atribuir ao autor a opinião de uma fonte citada é erro comum.",
+            "grupo": "Vozes"
+          }
+        ],
+        "colunas": [
+          "Conceito",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Palavras de alcance e intensidade</strong> mudam o sentido: trocar \"alguns\" por \"todos\", \"pode\" por \"deve\", \"frequentemente\" por \"sempre\" ou \"muitos\" por \"a maioria\" altera o que o texto afirma.",
+        "<strong>O conectivo diz a relação entre as ideias:</strong> \"mas\", \"porém\" e \"contudo\" opõem; \"embora\" concede (admite um fato que não impede o outro); \"portanto\" e \"logo\" concluem; \"porque\" e \"visto que\" indicam causa. Em \"Embora a equipe tenha crescido, os prazos não melhoraram\", o crescimento é concedido e não impediu o atraso.",
+        "<strong>Texto com fonte contestada:</strong> quando o autor cita um especialista para depois rebatê-lo (\"Para alguns economistas, o imposto não pesa no preço; os dados, porém, mostram o contrário\"), a opinião citada não é a do autor.",
+        "<strong>Item de inferência certo pode usar palavras que o texto não usa:</strong> o que importa é que a conclusão esteja sustentada, não que a frase seja copiada."
+      ],
       "macetes": [
         {
           "sigla": "O TEXTO É O JUIZ",
@@ -60,12 +153,35 @@
         }
       ],
       "pegadinha": {
-        "afirmacao": "Se o texto afirma que \"algumas delegacias podem adotar o novo sistema\", a reescrita \"todas as delegacias devem adotar o novo sistema\" preserva o sentido original.",
+        "afirmacao": "Se o texto afirma que \"algumas bibliotecas podem abrir aos domingos\", a reescrita \"todas as bibliotecas devem abrir aos domingos\" preserva o sentido original.",
         "gabarito": "E",
-        "explicacao": "\"Todas\" amplia o alcance de \"algumas\", e \"devem\" transforma possibilidade em obrigação. Duas mudanças de sentido."
+        "explicacao": "\"Todas\" amplia o alcance de \"algumas\", e \"devem\" transforma possibilidade em obrigação: são duas mudanças de sentido. A paráfrase fiel seria \"parte das bibliotecas tem a possibilidade de abrir aos domingos\"."
       },
-      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p><em>Ideia central.</em> Título e primeiro parágrafo costumam anunciar o tema, mas a ideia central se confirma no conjunto: é a tese que os demais parágrafos sustentam com argumentos, exemplos ou dados.</p><p><em>Conectivo muda a relação.</em> \"Mas\", \"porém\" e \"contudo\" opõem; \"embora\" concede; \"portanto\" e \"logo\" concluem; \"porque\" e \"visto que\" explicam ou indicam causa. O item que troca a relação entre duas ideias (causa por consequência, oposição por adição) altera a interpretação.</p><p><strong>Distinções</strong></p>",
-      "aprofundamento_rotulo": "exceções que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Quando o item pede o que se infere do texto, vale qualquer conclusão compatível com o tema, mesmo que o texto não a sustente.",
+          "certo": "Inferência é a conclusão que decorre necessariamente das informações do texto; o que o texto não sustenta é extrapolação.",
+          "fonte": "Questão do app sobre inferência"
+        },
+        {
+          "errado": "O item que acrescenta ao texto uma generalização verdadeira no mundo real deve ser julgado certo.",
+          "certo": "Generalização que o autor não fez é extrapolação e torna o item errado, ainda que pareça verdadeira.",
+          "fonte": "Questão do app sobre extrapolação"
+        },
+        {
+          "errado": "Num texto em que o autor cita a opinião de um especialista para depois contestá-la, o autor defende a opinião do especialista.",
+          "certo": "A opinião é da fonte citada; o autor a reproduz para rebatê-la.",
+          "fonte": "Questão do app sobre a voz do autor e a fonte citada"
+        },
+        {
+          "errado": "De \"O índice de desemprego voltou a cair\" não se pode concluir nada sobre o passado do índice.",
+          "certo": "\"Voltou a cair\" pressupõe que o índice já havia caído antes.",
+          "fonte": "Questão do app sobre pressuposto"
+        }
+      ],
+      "ja_caiu": [
+        "Questões do app sobre inferência, extrapolação, pressuposto e voz do autor"
+      ],
       "relacionados": [
         "reescrita-de-frases-e-substituicao-de-trechos",
         "coesao-e-referenciacao",
@@ -85,8 +201,13 @@
         "tipos textuais",
         "gêneros textuais",
         "tipologia textual",
+        "tipo predominante",
+        "texto narrativo",
+        "texto descritivo",
+        "texto dissertativo-argumentativo",
+        "texto expositivo",
         "texto injuntivo",
-        "texto dissertativo"
+        "gêneros jornalísticos"
       ],
       "palavras": [
         "tipo textual",
@@ -99,18 +220,89 @@
         "expositivo",
         "injuntivo",
         "instrucional",
+        "predominante",
         "editorial",
         "artigo de opiniao",
         "cronica",
         "noticia",
-        "reportagem"
+        "reportagem",
+        "boletim de ocorrencia",
+        "manual",
+        "receita",
+        "bula",
+        "oficio",
+        "imperativo",
+        "infinitivo",
+        "tese"
       ],
-      "resumo": "<strong>Tipo textual</strong> é o modo de organizar a linguagem, reconhecido por traços internos. São cinco os usuais: <strong>narrativo</strong> (fatos encadeados no tempo, verbos no pretérito perfeito), <strong>descritivo</strong> (características de um ser ou ambiente, adjetivos e verbos de estado), <strong>dissertativo-argumentativo</strong> (defende tese com argumentos), <strong>expositivo</strong> (explica sem defender tese) e <strong>injuntivo</strong> (orienta a agir, com imperativo ou infinitivo). <strong>Gênero textual</strong> é a forma que o texto assume na vida social: notícia, editorial, ofício, receita, bula, boletim de ocorrência. Os tipos são poucos; os gêneros são numerosos e mudam com as práticas sociais. Um mesmo texto combina tipos e se classifica pelo <strong>predominante</strong>: o boletim de ocorrência é predominantemente narrativo; o editorial, argumentativo; o manual, injuntivo.",
+      "resumo": "<strong>Tipo textual</strong> é o modo de organizar a linguagem, reconhecido por traços internos: verbos, sequência, presença de tese. São cinco os tipos usuais: narrativo, descritivo, dissertativo-argumentativo, expositivo e injuntivo (o esquema mostra o traço de cada um). <strong>Gênero textual</strong> é a forma que o texto assume na vida social, com função e formato reconhecidos: notícia, editorial, ofício, receita, bula, boletim de ocorrência. Os tipos são poucos e fixos; os gêneros são numerosos e mudam com as práticas sociais (o e-mail e a postagem em rede social são gêneros recentes). Um mesmo texto costuma combinar tipos e se classifica pelo <strong>predominante</strong>: um boletim de ocorrência descreve o local, mas é predominantemente narrativo, porque relata fatos encadeados no tempo.",
       "esquema": {
-        "rotulo": "gênero e tipo predominante",
-        "html": "<table><thead><tr><th>Gênero</th><th>Tipo predominante</th><th>Traço que denuncia</th></tr></thead><tbody><tr><td>Notícia, boletim de ocorrência, relato</td><td>Narrativo</td><td>fatos em sequência, quem, quando, onde</td></tr><tr><td>Retrato falado, classificado de imóvel</td><td>Descritivo</td><td>características, adjetivos</td></tr><tr><td>Editorial, artigo de opinião</td><td>Dissertativo-argumentativo</td><td>tese e argumentos</td></tr><tr><td>Verbete, reportagem explicativa, aula</td><td>Expositivo</td><td>informa e explica, sem tomar partido</td></tr><tr><td>Receita, manual, regulamento</td><td>Injuntivo</td><td>imperativo ou infinitivo, passos</td></tr></tbody></table>"
+        "rotulo": "o tipo e os gêneros em que ele predomina",
+        "html": "<table><thead><tr><th>Tipo</th><th>Traço que denuncia</th><th>Gêneros em que predomina</th></tr></thead><tbody><tr><td><strong>Narrativo</strong></td><td>fatos encadeados no tempo; quem, quando, onde; verbos no pretérito perfeito</td><td>notícia, boletim de ocorrência, relato, conto</td></tr><tr><td><strong>Descritivo</strong></td><td>características de um ser, objeto ou ambiente; adjetivos e verbos de estado</td><td>retrato falado, classificado de imóvel, laudo de vistoria</td></tr><tr><td><strong>Dissertativo-argumentativo</strong></td><td>defende uma tese com argumentos para convencer</td><td>editorial, artigo de opinião, resenha crítica</td></tr><tr><td><strong>Expositivo</strong></td><td>informa e explica, sem defender tese nem tomar partido</td><td>verbete, reportagem explicativa, aula, texto didático</td></tr><tr><td><strong>Injuntivo (instrucional)</strong></td><td>orienta o leitor a agir; verbos no imperativo ou no infinitivo; passos</td><td>receita, manual, bula, regulamento, edital</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada gênero que cai, em uma linha",
+        "linhas": [
+          {
+            "nome": "Notícia",
+            "o_que_e": "Relata um fato recente de forma objetiva.",
+            "atencao": "Predomina o tipo narrativo.",
+            "grupo": "Jornalismo"
+          },
+          {
+            "nome": "Reportagem",
+            "o_que_e": "Aprofunda um tema com pesquisa, dados e várias fontes.",
+            "atencao": "Pode ser expositiva ou narrativa; não é opinião do veículo.",
+            "grupo": "Jornalismo"
+          },
+          {
+            "nome": "Editorial",
+            "o_que_e": "Expressa a opinião do veículo e não é assinado.",
+            "atencao": "Assinado, com a opinião de uma pessoa, é artigo de opinião.",
+            "grupo": "Jornalismo"
+          },
+          {
+            "nome": "Artigo de opinião",
+            "o_que_e": "Assinado, traz o ponto de vista do autor com argumentos.",
+            "grupo": "Jornalismo"
+          },
+          {
+            "nome": "Crônica",
+            "o_que_e": "Trata do cotidiano com linguagem leve e pessoal.",
+            "atencao": "Mistura narração, descrição e reflexão.",
+            "grupo": "Jornalismo"
+          },
+          {
+            "nome": "Boletim de ocorrência",
+            "o_que_e": "Relato de um fato comunicado à polícia.",
+            "atencao": "Predomina a narração, com trechos descritivos.",
+            "grupo": "Uso público e prático"
+          },
+          {
+            "nome": "Manual e regulamento",
+            "o_que_e": "Orientam como agir, passo a passo.",
+            "atencao": "Predomina a injunção: \"Preencha o formulário\", \"Anexar o comprovante\".",
+            "grupo": "Uso público e prático"
+          },
+          {
+            "nome": "Verbete",
+            "o_que_e": "Define e explica um termo, como no dicionário ou na enciclopédia.",
+            "atencao": "Predomina a exposição.",
+            "grupo": "Uso público e prático"
+          }
+        ],
+        "colunas": [
+          "Gênero",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Dissertação expositiva x argumentativa:</strong> as duas tratam de um tema de forma lógica, mas só a argumentativa defende um ponto de vista para convencer. A expositiva informa e explica.",
+        "<strong>Injunção com infinitivo:</strong> instruções como \"Anexar o documento\" e \"Não utilizar o elevador\" são injuntivas, ainda que o verbo não esteja no imperativo.",
+        "<strong>Narração x descrição:</strong> a narração tem progressão no tempo (um fato depois do outro); a descrição é um retrato parado, em que a ordem das frases pode mudar sem mudar o sentido.",
+        "<strong>Um gênero, vários tipos:</strong> a bula descreve o remédio, expõe como ele age e instrui sobre a dose; classifica-se pelo tipo que predomina no trecho analisado."
+      ],
       "macetes": [
         {
           "sigla": "TIPO É ESTRUTURA, GÊNERO É USO",
@@ -126,8 +318,26 @@
         "gabarito": "E",
         "explicacao": "Os tipos são poucos (narrativo, descritivo, dissertativo-argumentativo, expositivo e injuntivo), mas os gêneros são numerosos e mudam com as práticas sociais."
       },
-      "aprofundamento": "<p><strong>Distinções</strong></p><p><em>Notícia, reportagem, editorial, artigo e crônica.</em> A notícia relata um fato recente de forma objetiva; a reportagem aprofunda o tema com pesquisa e fontes; o editorial expressa a opinião do veículo e não é assinado; o artigo de opinião é assinado e traz a opinião do autor; a crônica trata do cotidiano com linguagem leve e pessoal.</p><p><em>Dissertação expositiva x argumentativa.</em> As duas tratam de um tema de forma lógica, mas só a argumentativa defende um ponto de vista para convencer. A expositiva informa e explica.</p>",
-      "aprofundamento_rotulo": "exceções que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "O editorial é o gênero jornalístico assinado por um jornalista e expressa a opinião pessoal dele.",
+          "certo": "O editorial expressa a opinião do veículo e não é assinado; o texto assinado com a opinião do autor é o artigo de opinião.",
+          "fonte": "Questão do app sobre gêneros jornalísticos"
+        },
+        {
+          "errado": "Por definição, um gênero textual só pode apresentar um único tipo textual do início ao fim.",
+          "certo": "Um mesmo texto pode combinar tipos diferentes; classifica-se pelo tipo predominante.",
+          "fonte": "Questão do app sobre tipo predominante"
+        },
+        {
+          "errado": "Narração, descrição, argumentação, exposição e injunção são gêneros textuais.",
+          "certo": "São tipos textuais; gêneros são formas sociais como notícia, editorial e manual.",
+          "fonte": "Questão do app sobre tipo e gênero"
+        }
+      ],
+      "ja_caiu": [
+        "Questões do app sobre tipo e gênero, tipo predominante e gêneros jornalísticos"
+      ],
       "relacionados": [
         "compreensao-e-interpretacao-de-textos",
         "redacao-oficial"
@@ -147,7 +357,16 @@
         "reescrita",
         "substituição de trechos",
         "reorganização de períodos",
-        "manutenção do sentido"
+        "manutenção do sentido",
+        "correção gramatical",
+        "escopo do termo deslocado",
+        "troca de conectivo",
+        "troca de tempo verbal",
+        "voz passiva analítica e sintética",
+        "oração reduzida",
+        "oração adjetiva restritiva e explicativa",
+        "nominalização",
+        "correlação verbal"
       ],
       "palavras": [
         "reescrita",
@@ -158,14 +377,159 @@
         "escopo",
         "sentido original",
         "correcao gramatical",
-        "paralelismo"
+        "paralelismo",
+        "mas",
+        "embora",
+        "apesar de",
+        "conquanto",
+        "porque",
+        "portanto",
+        "por conseguinte",
+        "pois",
+        "visando a",
+        "nem sempre",
+        "quase nunca",
+        "preterito imperfeito",
+        "voz passiva",
+        "passiva sintetica",
+        "sujeito paciente",
+        "sujeito indeterminado",
+        "precisa-se",
+        "agente da passiva",
+        "objeto direto",
+        "assistir",
+        "oracao reduzida",
+        "ao mais infinitivo",
+        "restritiva",
+        "explicativa",
+        "virgula",
+        "o qual",
+        "a qual",
+        "adjetivo anteposto",
+        "so",
+        "se e caso",
+        "subjuntivo",
+        "ratificar",
+        "retificar",
+        "o mesmo",
+        "obedecer",
+        "cumprir",
+        "haver",
+        "existir",
+        "ao encontro",
+        "de encontro",
+        "causa e consequencia"
       ],
-      "resumo": "O item de reescrita da Cebraspe quase sempre pede <strong>duas coisas ao mesmo tempo</strong>: a nova versão tem de continuar <strong>gramaticalmente correta</strong> e tem de <strong>manter o sentido</strong> do original. Basta falhar uma para o item ser errado. Confira em quatro passos: (1) a palavra nova tem o mesmo sentido <strong>naquele contexto</strong>, e não só no dicionário; (2) a troca não quebra a <strong>regência</strong>, a <strong>concordância</strong> nem o <strong>modo verbal</strong> que vêm junto; (3) o conectivo novo expressa a <strong>mesma relação lógica</strong> e cabe na estrutura da frase; (4) o termo deslocado continua se referindo às <strong>mesmas palavras</strong>, isto é, mantém o seu escopo. Quando o comando fala só em correção, o sentido não entra na conta, e vice-versa.",
+      "para_entender": [
+        {
+          "texto": "<strong>Regência:</strong> a preposição que um verbo ou nome exige (\"obedecer a\", \"visar a\" no sentido de ter como objetivo). Trocar a palavra pode exigir outra preposição.",
+          "tema": "regencia-verbal-e-nominal"
+        },
+        {
+          "texto": "<strong>Vozes verbais:</strong> na ativa, o sujeito pratica a ação; na passiva, sofre. Só verbo com objeto direto vai para a passiva.",
+          "tema": "vozes-verbais"
+        }
+      ],
+      "resumo": "O item de reescrita da Cebraspe quase sempre pede <strong>duas coisas ao mesmo tempo</strong>: a nova versão tem de continuar <strong>gramaticalmente correta</strong> e tem de <strong>manter o sentido</strong> do original. Basta falhar uma para o item ser errado: reescrita correta que muda o sentido torna o item errado. Confira em quatro passos. (1) A palavra nova tem o mesmo sentido <strong>naquele contexto</strong>, e não só no dicionário. (2) A troca não quebra a <strong>regência</strong> (a preposição exigida), a <strong>concordância</strong> nem o <strong>modo verbal</strong> que vêm junto. (3) O conectivo novo expressa a <strong>mesma relação lógica</strong> e cabe na estrutura da frase. (4) O termo deslocado continua se referindo às mesmas palavras, isto é, mantém o seu <strong>escopo</strong>: em \"Só o diretor assinou o ofício\", \"só\" restringe quem assinou; em \"O diretor só assinou o ofício\", restringe o que ele fez. Quando o comando fala só em correção, o sentido não entra na conta, e vice-versa.",
       "esquema": {
         "rotulo": "o que conferir em cada tipo de reescrita",
-        "html": "<table><thead><tr><th>Tipo de reescrita</th><th>O que conferir</th><th>Exemplo de prova</th></tr></thead><tbody><tr><td><strong>Troca de palavra</strong></td><td>O sentido naquele contexto</td><td>“sintomático” por “revelador” mantém o sentido; “nem sempre” por “quase nunca” muda o sentido</td></tr><tr><td><strong>Troca de conectivo</strong></td><td>A mesma relação lógica e a mesma estrutura</td><td>em “não como uma precondição (...), mas como uma ameaça”, só “mas” cabe; “embora” não substitui</td></tr><tr><td><strong>Troca de expressão com preposição</strong></td><td>A regência da expressão nova</td><td>“em busca do desenvolvimento” por “visando ao desenvolvimento”; “relativas às” por “acerca das”</td></tr><tr><td><strong>Troca de tempo verbal</strong></td><td>A coerência com a duração do fato</td><td>“foi vista, durante certo tempo” por “era vista” mantém a correção e a coerência</td></tr><tr><td><strong>Deslocamento de termo</strong></td><td>O escopo do termo e as vírgulas</td><td>levar “cada vez mais” para depois de “também” faz a expressão modificar só o último complemento</td></tr><tr><td><strong>Troca de classe de palavra</strong></td><td>A palavra nova exerce a mesma função</td><td>“de maneira menos desenfreada” não vira “menos desenfreado”: “desenfreado” é adjetivo e não faz papel de advérbio</td></tr><tr><td><strong>Retomada por pronome relativo</strong></td><td>A que termo o “que” passa a se ligar</td><td>trocar “e, sobretudo, a aproximação desses dois setores” por “que, sobretudo, aproximaram esses dois setores” muda quem aproximou</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Tipo de reescrita</th><th>O que conferir</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Troca de palavra</strong></td><td>O sentido naquele contexto</td><td>\"sintomático\" por \"revelador\" mantém o sentido; \"nem sempre\" por \"quase nunca\" muda o sentido</td></tr><tr><td><strong>Troca de conectivo</strong></td><td>A mesma relação lógica e a mesma estrutura</td><td>em \"não foi visto como solução, mas como ameaça\", só \"mas\" cabe; \"embora\" não substitui</td></tr><tr><td><strong>Troca de expressão com preposição</strong></td><td>A regência da expressão nova</td><td>\"em busca da redução de custos\" por \"visando à redução de custos\"; \"relativas às metas\" por \"acerca das metas\"</td></tr><tr><td><strong>Troca de tempo verbal</strong></td><td>A coerência com a duração do fato</td><td>\"foi tratada, por meses, como assunto menor\" por \"era tratada\" mantém a correção e a coerência</td></tr><tr><td><strong>Deslocamento de termo</strong></td><td>O escopo do termo e as vírgulas</td><td>levar \"cada vez mais\" para depois de \"também\" faz a expressão modificar só o último complemento</td></tr><tr><td><strong>Troca de classe de palavra</strong></td><td>A palavra nova exerce a mesma função</td><td>\"de maneira menos apressada\" não vira \"menos apressado\": o adjetivo não faz papel de advérbio</td></tr><tr><td><strong>Retomada por pronome relativo</strong></td><td>A que termo o \"que\" passa a se ligar</td><td>o relativo pode mudar quem pratica a ação (veja os detalhes)</td></tr><tr><td><strong>Mudança de voz ou de estrutura</strong></td><td>Concordância e sentido da nova estrutura</td><td>\"A comissão analisou os recursos\" vira \"Os recursos foram analisados pela comissão\"</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada operação, em uma linha",
+        "linhas": [
+          {
+            "nome": "Sinônimo no contexto",
+            "o_que_e": "A palavra nova tem o mesmo sentido naquele contexto, e não só no dicionário.",
+            "atencao": "\"Nem sempre\" diz que hoje algo funciona de um jeito, mas já funcionou de outro; \"quase nunca\" diz que a forma diferente prevaleceu quase o tempo todo.",
+            "grupo": "Substituição"
+          },
+          {
+            "nome": "Conectivo equivalente",
+            "o_que_e": "Mesma relação lógica (oposição, concessão, causa, conclusão) e mesma estrutura.",
+            "atencao": "\"Embora\", \"conquanto\", \"ainda que\", \"mesmo que\" e \"apesar de\" exprimem concessão; trocar uma concessiva por uma causal altera a relação entre as ideias.",
+            "grupo": "Substituição"
+          },
+          {
+            "nome": "Conclusivos",
+            "o_que_e": "\"Portanto\", \"logo\", \"por conseguinte\" e \"assim\" introduzem conclusão.",
+            "atencao": "\"Portanto\" só inicia um período que conclui o anterior.",
+            "grupo": "Substituição"
+          },
+          {
+            "nome": "\"Pois\" deslocado",
+            "o_que_e": "Antes do verbo, \"pois\" é explicativo; quando vem deslocada depois do verbo, é conclusiva e equivale a \"portanto\".",
+            "atencao": "\"Choveu muito; o jogo foi, pois, adiado\": conclusão.",
+            "grupo": "Substituição"
+          },
+          {
+            "nome": "Deslocamento de termo",
+            "o_que_e": "Mudar um termo de lugar pode mudar o seu escopo.",
+            "atencao": "Palavras como \"apenas\", \"até\" e \"também\" modificam o termo ao lado: mudá-las de posição muda o sentido.",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "Passiva analítica",
+            "o_que_e": "Verbo \"ser\" + particípio: \"Os recursos foram analisados pela comissão\".",
+            "atencao": "O particípio concorda com o novo sujeito e o antigo sujeito passa a agente da passiva introduzido por \"por\".",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "Passiva sintética (pronominal)",
+            "o_que_e": "Verbo + \"se\": \"Analisaram-se os recursos\".",
+            "atencao": "Na passiva sintética, o verbo concorda com o sujeito paciente: \"Venderam-se as salas\".",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "\"Se\" de sujeito indeterminado",
+            "o_que_e": "Com verbo transitivo indireto ou intransitivo, o \"se\" indica sujeito indeterminado e o verbo fica no singular.",
+            "atencao": "\"Precisa-se de técnicos\", e não \"Precisam-se de técnicos\".",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "Oração reduzida",
+            "o_que_e": "Oração sem conectivo, com o verbo no infinitivo, gerúndio ou particípio.",
+            "atencao": "\"Quando terminou a reunião\" equivale a \"Terminada a reunião\" ou \"Ao terminar a reunião\".",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "Nominalização",
+            "o_que_e": "A oração vira substantivo: uma oração subordinada substantiva objetiva direta pode ser reescrita como substantivo abstrato.",
+            "atencao": "\"Informamos que o prazo foi prorrogado\" equivale a \"Informamos a prorrogação do prazo\".",
+            "grupo": "Reorganização"
+          },
+          {
+            "nome": "Adjetiva restritiva x explicativa",
+            "o_que_e": "A oração adjetiva restritiva vem sem vírgulas e limita o antecedente; a explicativa vem entre vírgulas e se refere ao antecedente inteiro.",
+            "atencao": "\"Os alunos que faltaram serão chamados\" (só os faltosos) x \"Os alunos, que faltaram, serão chamados\" (todos faltaram).",
+            "grupo": "Reorganização"
+          }
+        ],
+        "colunas": [
+          "Operação",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Tempo verbal pode mudar sem mudar o sentido:</strong> o pretérito imperfeito também expressa um fato que durou certo tempo. Em \"A greve foi tratada, por meses, como assunto menor\", trocar \"foi tratada\" por \"era tratada\" mantém a correção e a coerência.",
+        "<strong>Expressão nova, regência nova:</strong> \"visar\", no sentido de ter como objetivo, pede \"a\": \"em busca da redução de custos\" vira \"visando à redução de custos\". Já \"obedeceu às normas\" se reescreve \"cumpriu as normas\", sem preposição, porque \"cumprir\" é transitivo direto.",
+        "<strong>Adjetivo não faz papel de advérbio:</strong> em \"Trabalhamos mais devagar e de maneira menos apressada\", trocar \"de maneira menos apressada\" por \"menos apressado\" é incorreto. Um adjetivo, como \"apressado\" ou \"desenfreado\", não exerce a função de adjunto adverbial. O certo é manter a locução ou usar o advérbio \"menos apressadamente\".",
+        "<strong>Deslocamento muda o escopo:</strong> em \"A cidade investe, cada vez mais, em saúde e também em transporte\", levar \"cada vez mais\" para depois de \"também\" mantém a correção, mas a expressão passa a modificar só \"transporte\". Do mesmo modo, em \"A comissão recomendou, com urgência, a revisão do contrato e a abertura de sindicância\", pôr \"com urgência\" depois de \"e\" faz a urgência valer só para a sindicância.",
+        "<strong>Relativo que muda o agente:</strong> em \"A crise e a pressão popular aceleraram as obras e, sobretudo, a aprovação do orçamento\", quem levou à aprovação foram a crise e a pressão. Reescrever com \"que, sobretudo, aprovaram o orçamento\" faz o \"que\" retomar \"as obras\", e o sentido muda.",
+        "<strong>\"A que\" e \"à qual\":</strong> \"a norma a que se refere o ofício\" equivale a \"a norma à qual se refere o ofício\", com crase, porque \"referir-se a\" + \"a qual\".",
+        "<strong>Dois períodos podem ser unidos por pronome relativo:</strong> \"O servidor apresentou o relatório. O relatório foi aprovado.\" vira \"O servidor apresentou o relatório, que foi aprovado.\" E orações coordenadas ligadas por \"e\" podem ser separadas por ponto ou por ponto e vírgula sem alteração de sentido.",
+        "<strong>Só admite voz passiva o verbo que tem objeto direto:</strong> \"O ministro assistiu à cerimônia\" e \"O servidor compareceu à audiência\" não podem ser passados para a passiva, porque \"assistir\" (no sentido de ver) e \"comparecer\" não têm objeto direto.",
+        "<strong>Certos adjetivos mudam de sentido conforme a posição:</strong> \"um alto funcionário\" é um funcionário de posição elevada, e \"um funcionário alto\" é um funcionário de grande estatura; \"um simples servidor\" é apenas um servidor, e \"um servidor simples\" é um servidor sem sofisticação.",
+        "<strong>\"Ao\" seguido de infinitivo exprime tempo</strong> e equivale a \"quando\" com verbo conjugado: \"Ao receber o documento, o servidor o protocolou\" equivale a \"Quando recebeu o documento, o servidor o protocolou\". Também \"Embora estivesse doente\" equivale a \"Apesar de estar doente\" ou \"Mesmo estando doente\".",
+        "<strong>Correlação dos tempos:</strong> \"Se\" + futuro do subjuntivo pede futuro do presente (\"Se o servidor comparecer, será ouvido\"); \"se\" + imperfeito do subjuntivo pede futuro do pretérito (\"Se comparecesse, seria ouvido\"). Trocar um par pelo outro altera o sentido: o primeiro trata o fato como possível; o segundo, como hipótese.",
+        "<strong>\"Se\" e \"caso\" exprimem condição, mas pedem formas verbais diferentes:</strong> \"se\" combina-se com o futuro do subjuntivo (se houver), e \"caso\" exige o presente do subjuntivo (caso haja). \"Caso o aluno não compareça\" vira \"Se o aluno não comparecer\".",
+        "<strong>Inverter causa e consequência na reescrita altera o sentido:</strong> \"A aula foi cancelada porque faltou luz\" não equivale a \"Faltou luz porque a aula foi cancelada\".",
+        "<strong>\"Haver\" e \"existir\":</strong> \"haver\", no sentido de existir, é impessoal e fica no singular; ao ser substituído por \"existir\", o verbo passa a concordar com o sujeito: \"Houve falhas\" vira \"Existiram falhas\".",
+        "<strong>\"O mesmo\" não é pronome pessoal:</strong> a norma-padrão não admite \"o mesmo\" e \"a mesma\" como substitutos de pronome pessoal para retomar um nome. Em \"O diretor assinou o ofício, e o mesmo foi enviado\", o certo é \"e ele foi enviado\" ou \"e este foi enviado\".",
+        "<strong>Parônimos não se substituem entre si:</strong> \"ratificar\" é confirmar, e \"retificar\" é corrigir; \"mandado\" é a ordem judicial, e \"mandato\" é a delegação de poderes; \"deferir\" é conceder, e \"diferir\" é adiar ou ser diferente; \"infligir\" é aplicar uma pena, e \"infringir\" é violar uma norma. \"Ao encontro de\" indica concordância ou favorecimento; \"de encontro a\", choque.",
+        "<strong>Discurso direto para indireto na reescrita:</strong> a fala passa a oração introduzida por \"que\", os tempos recuam (futuro do presente para futuro do pretérito) e os pronomes e advérbios se ajustam (eu para ele; amanhã para no dia seguinte). O quadro completo está no tema de discurso direto e indireto."
+      ],
       "macetes": [
         {
           "sigla": "CORREÇÃO E SENTIDO",
@@ -173,24 +537,93 @@
         },
         {
           "sigla": "SINÔNIMO NO CONTEXTO",
-          "texto": "Vale o sentido daquela frase, e não o do dicionário em geral. “Nem sempre” admite que já foi diferente; “quase nunca” diz que quase sempre foi diferente."
+          "texto": "Vale o sentido daquela frase, e não o do dicionário em geral."
         },
         {
           "sigla": "TROCOU A PALAVRA, CONFIRA A PREPOSIÇÃO",
-          "texto": "A palavra nova pode exigir outra preposição: “visar”, no sentido de ter como objetivo, pede “a” (visando ao desenvolvimento)."
+          "texto": "A palavra nova pode exigir outra preposição: \"visar\", no sentido de ter como objetivo, pede \"a\" (visando ao desenvolvimento); \"cumprir\" não pede nenhuma."
+        },
+        {
+          "sigla": "MOVEU, MUDOU O ALVO?",
+          "texto": "Antes de aceitar um deslocamento, pergunte a que palavra o termo se refere antes e depois da mudança."
         }
       ],
       "pegadinha": {
-        "afirmacao": "No trecho “a preservação do meio ambiente foi vista, durante certo tempo, não como uma precondição (...), mas como uma ameaça”, a substituição de “mas” por “embora” manteria a coerência e os sentidos do texto, uma vez que ambas as conjunções são adversativas.",
+        "afirmacao": "Em \"O plano não foi recebido como solução, mas como ameaça ao orçamento\", a substituição de \"mas\" por \"embora\" manteria a coerência e o sentido, uma vez que as duas conjunções expressam oposição.",
         "gabarito": "E",
-        "explicacao": "Depois da negação “não como uma precondição”, só “mas” introduz a ideia que corrige a anterior, por isso a troca não mantém a coerência. “Embora” é concessiva, pede o verbo no subjuntivo e não cabe nessa estrutura. O correto é manter “mas” (Cebraspe, PC-DF 2024)."
+        "explicacao": "Depois da negação \"não foi recebido como solução\", só \"mas\" introduz a ideia que corrige a anterior. \"Embora\" é concessiva, pede verbo no subjuntivo e não cabe nessa estrutura. O certo é manter \"mas\" (ou trocar por \"e sim\")."
       },
-      "aprofundamento": "<p><strong>Tempo verbal pode mudar sem mudar o sentido.</strong> Trocar “foi vista, durante certo tempo,” por “era vista” foi aceito como correto e coerente, porque se trata de uma percepção que durou certo tempo e depois foi superada, e o pretérito imperfeito também expressa essa duração (Cebraspe, PC-DF 2024).</p><p><strong>Expressão nova, regência nova.</strong> “Em busca do desenvolvimento” pode virar “visando ao desenvolvimento”, com a preposição que “visar” exige nesse sentido, e “relativas às preocupações ambientais” pode virar “acerca das preocupações ambientais”. As duas trocas mantêm a correção e o sentido (Cebraspe, PC-DF 2024).</p><p><strong>Sinônimo que não é sinônimo.</strong> “Nem sempre” não equivale a “quase nunca”: a primeira expressão diz que hoje algo funciona de um jeito, mas já funcionou de outro; a segunda diz que a forma diferente prevaleceu quase o tempo todo. Já “sintomático” por “revelador” e “inestimáveis” por “incalculáveis” foram trocas aceitas (Cebraspe, PC-DF 2024).</p><p><strong>Deslocamento muda o escopo.</strong> Em “tendendo, cada vez mais, à autogestão nos campos social, econômico e político, como também a uma nova composição de formas de gestão”, levar “cada vez mais” para depois de “também” mantém a correção, mas a expressão deixa de se referir aos dois complementos de “tender” e passa a modificar só o último. O sentido muda (Cebraspe, TC-DF 2023). Pelo mesmo motivo, foi considerado alteração de sentido levar um adjunto como “em dez anos” para o escopo de outra oração (Cebraspe, SERES-PE 2021).</p><p><strong>Adjetivo não faz papel de advérbio.</strong> Em “Nós rimos mais baixo e de maneira menos desenfreada que nossos ancestrais”, trocar “de maneira menos desenfreada” por “menos desenfreado” para imitar “baixo” é incorreto: “baixo” pode ser advérbio, mas “desenfreado” é sempre adjetivo e não exerce a função de adjunto adverbial (Cebraspe, TC-DF 2023).</p><p><strong>Relativo que muda o agente.</strong> Em “O processo de redemocratização, o fortalecimento de organizações da sociedade civil, o avanço dos estudos científicos e a consolidação de uma estrutura federal de governança ambiental favoreceram essas novas percepções e, sobretudo, a aproximação desses dois setores”, a aproximação foi favorecida por todos os elementos do sujeito. Reescrever com “que, sobretudo, aproximaram esses dois setores” faria o “que” retomar “essas novas percepções”, e o sentido muda (Cebraspe, PC-DF 2024).</p><p><strong>Conclusão que não é conclusão.</strong> Começar o último período com “Portanto” só é coerente se ele concluir o que veio antes. Quando o período acrescenta uma ideia nova, a troca é errada (Cebraspe, PC-DF 2024).</p><p><strong>Exceções e detalhes cobrados</strong></p><p><strong>Reorganização de orações e períodos.</strong> Com verbo transitivo indireto ou intransitivo, o \"se\" indica sujeito indeterminado e o verbo fica no singular: \"Precisa-se de servidores\", \"Tratou-se de assuntos urgentes\". Certos adjetivos mudam de sentido conforme a posição: \"um alto funcionário\" é um funcionário de posição elevada, e \"um funcionário alto\" é um funcionário de grande estatura; \"um simples servidor\" é apenas um servidor, e \"um servidor simples\" é um servidor sem sofisticação. \"Ao\" seguido de infinitivo exprime tempo e equivale a \"quando\" com verbo conjugado: \"Ao receber o documento, o servidor o protocolou\" equivale a \"Quando recebeu o documento, o servidor o protocolou\". Só admite voz passiva o verbo que tem objeto direto; \"O ministro assistiu à cerimônia\" e \"O servidor compareceu à audiência\" não podem ser passados para a passiva, porque os verbos não têm objeto direto. Uma oração subordinada desenvolvida pode ser reescrita como oração reduzida sem alteração de sentido: \"Quando terminou a reunião\" equivale a \"Terminada a reunião\" ou \"Ao terminar a reunião\"; \"Embora estivesse doente\" equivale a \"Apesar de estar doente\" ou \"Mesmo estando doente\". Na passagem do discurso direto para o indireto, a fala passa a oração subordinada introduzida por \"que\", os tempos verbais recuam (presente para pretérito imperfeito; pretérito perfeito para pretérito mais-que-perfeito; futuro do presente para futuro do pretérito) e os pronomes e advérbios se ajustam (eu para ele; amanhã para no dia seguinte; aqui para ali). Orações coordenadas ligadas por \"e\" podem ser separadas por ponto ou por ponto e vírgula sem alteração de sentido: \"O relatório foi concluído e a chefia o aprovou\" equivale a \"O relatório foi concluído. A chefia o aprovou.\".</p><p><strong>Substituição de palavras ou trechos.</strong> \"Se\" e \"caso\" exprimem condição, mas pedem formas verbais diferentes: \"se\" combina-se com o futuro do subjuntivo (se houver), e \"caso\" exige o presente do subjuntivo (caso haja). Parônimos não se substituem entre si: \"ratificar\" é confirmar, e \"retificar\" é corrigir; \"mandado\" é a ordem judicial, e \"mandato\" é a delegação de poderes; \"deferir\" é conceder, e \"diferir\" é adiar ou ser diferente; \"infligir\" é aplicar uma pena, e \"infringir\" é violar uma norma.</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Depois de uma negação (\"não como solução, mas como ameaça\"), \"embora\" pode substituir \"mas\", porque as duas conjunções são adversativas.",
+          "certo": "\"Embora\" é concessiva e pede subjuntivo; depois da negação, só \"mas\" (ou \"e sim\") corrige a ideia anterior.",
+          "fonte": "Cebraspe, PC-DF 2024"
+        },
+        {
+          "errado": "\"O sistema nem sempre funcionou de forma integrada\" equivale a \"O sistema quase nunca funcionou de forma integrada\".",
+          "certo": "\"Nem sempre\" admite que já funcionou de outro jeito; \"quase nunca\" diz que a forma integrada foi rara. O sentido muda.",
+          "fonte": "Cebraspe, PC-DF 2024"
+        },
+        {
+          "errado": "O conectivo \"portanto\" pode iniciar qualquer período que acrescente uma nova informação ao anterior.",
+          "certo": "\"Portanto\" só inicia um período que conclui o anterior; para acrescentar, usa-se \"além disso\".",
+          "fonte": "Cebraspe, PC-DF 2024"
+        },
+        {
+          "errado": "Deslocar \"cada vez mais\" para depois de \"também\" mantém o sentido, porque a frase continua correta.",
+          "certo": "A frase continua correta, mas a expressão passa a modificar só o último complemento: o sentido muda.",
+          "fonte": "Cebraspe, TC-DF 2023"
+        },
+        {
+          "errado": "\"De maneira menos apressada\" pode ser trocada por \"menos apressado\", como se faz com \"mais baixo\".",
+          "certo": "\"Apressado\" é adjetivo e não exerce função de adjunto adverbial; o certo é manter a locução ou usar \"menos apressadamente\".",
+          "fonte": "Cebraspe, TC-DF 2023"
+        },
+        {
+          "errado": "Levar um adjunto de tempo (\"em dez anos\") para outra oração do período não altera o sentido.",
+          "certo": "O adjunto passa a se referir ao fato da outra oração, e o sentido muda.",
+          "fonte": "Cebraspe, SERES-PE 2021"
+        },
+        {
+          "errado": "\"Precisa-se de servidores\" pode ser reescrita como \"Precisam-se de servidores\", para o verbo concordar com \"servidores\".",
+          "certo": "Com verbo transitivo indireto, o \"se\" indica sujeito indeterminado e o verbo fica no singular: \"Precisa-se de servidores\".",
+          "fonte": "Questão do app sobre sujeito indeterminado"
+        },
+        {
+          "errado": "\"O ministro assistiu à cerimônia\" admite a passiva \"A cerimônia foi assistida pelo ministro\".",
+          "certo": "\"Assistir\", no sentido de ver, é transitivo indireto e não vai para a passiva.",
+          "fonte": "Questão do app sobre voz passiva"
+        },
+        {
+          "errado": "\"Os recursos dos candidatos foi analisado pela comissão\" é a passiva correta de \"A comissão analisou os recursos dos candidatos\".",
+          "certo": "O verbo e o particípio concordam com o novo sujeito: \"Os recursos dos candidatos foram analisados pela comissão\".",
+          "fonte": "Questão do app sobre voz passiva"
+        },
+        {
+          "errado": "\"Caso o servidor não compareça\" pode virar \"Se o servidor não compareça\", sem outra alteração.",
+          "certo": "\"Se\" pede o futuro do subjuntivo: \"Se o servidor não comparecer\".",
+          "fonte": "Questão do app sobre conjunções condicionais"
+        },
+        {
+          "errado": "No período \"O servidor obedeceu às normas\", trocar \"obedeceu\" por \"cumpriu\" mantém a correção com \"às normas\".",
+          "certo": "\"Cumprir\" é transitivo direto: \"cumpriu as normas\", sem preposição e sem crase.",
+          "fonte": "Questão do app sobre regência na reescrita"
+        },
+        {
+          "errado": "\"Um alto funcionário\" e \"um funcionário alto\" têm o mesmo sentido.",
+          "certo": "Anteposto, \"alto\" indica posição elevada; posposto, estatura.",
+          "fonte": "Questão do app sobre posição do adjetivo"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe: PC-DF 2024; TC-DF 2023; SERES-PE 2021",
+        "Questões do app sobre substituição de trechos e reorganização de períodos"
+      ],
       "relacionados": [
         "coesao-e-referenciacao",
         "pontuacao-e-emprego-da-virgula",
-        "regencia-verbal-e-nominal"
+        "regencia-verbal-e-nominal",
+        "vozes-verbais"
       ]
     },
     {
@@ -205,9 +638,17 @@
       "conceitos": [
         "coesão textual",
         "coesão referencial",
+        "coesão sequencial",
         "referenciação",
+        "referente",
         "anáfora",
-        "catáfora"
+        "catáfora",
+        "elipse",
+        "hiperônimo",
+        "nominalização",
+        "expressão resumidora",
+        "pronome relativo",
+        "pronome demonstrativo"
       ],
       "palavras": [
         "coesao",
@@ -217,15 +658,120 @@
         "catafora",
         "pronome relativo",
         "pronome demonstrativo",
+        "pronome pessoal",
         "sinonimia",
-        "elipse"
+        "elipse",
+        "sujeito oculto",
+        "hiperonimo",
+        "hiponimo",
+        "nominalizacao",
+        "expressao resumidora",
+        "esse",
+        "este",
+        "isso",
+        "isto",
+        "aquele",
+        "o qual",
+        "cujo",
+        "o mesmo",
+        "conector",
+        "no entanto",
+        "contudo",
+        "todavia",
+        "portanto",
+        "coesao lexical",
+        "coesao sequencial",
+        "antecedente"
       ],
-      "resumo": "Coesão é a costura do texto: as palavras que <strong>retomam</strong> algo já dito (anáfora) ou <strong>anunciam</strong> algo que vem depois (catáfora) e os <strong>conectivos</strong> que ligam as ideias. A Cebraspe cobra quase sempre a mesma pergunta: <strong>este termo retoma aquele?</strong> Para responder, troque o pronome pelo candidato a referente e veja se a frase continua dizendo a mesma coisa. Os mecanismos mais cobrados são os pronomes pessoais e oblíquos (ele, o, lhe), os demonstrativos (esse, isso, este), os relativos (que, o qual, cujo), as expressões que resumem um trecho (“esses elementos”, “esse fato”) e a retomada por sinônimo ou palavra mais geral. O relativo costuma retomar o termo mais próximo, mas nem sempre: a concordância do verbo e o sentido é que decidem.",
+      "resumo": "<strong>Coesão</strong> é a costura do texto. Ela se faz de dois modos: pelas palavras que <strong>retomam</strong> algo já dito (<strong>anáfora</strong>) ou <strong>anunciam</strong> algo que vem depois (<strong>catáfora</strong>), que formam a coesão referencial; e pelos <strong>conectivos</strong> que ligam as ideias, que formam a coesão sequencial. O termo retomado ou anunciado é o <strong>referente</strong>. Em \"A secretaria recebeu os ofícios e os encaminhou\", o pronome \"os\" retoma \"os ofícios\": é anáfora. Em \"A comissão decidiu isto: suspender o concurso\", \"isto\" anuncia o que vem: é catáfora. A Cebraspe cobra quase sempre a mesma pergunta: <strong>este termo retoma aquele?</strong> Para responder, troque o pronome pelo candidato a referente e veja se a frase continua dizendo a mesma coisa. O relativo e o pronome costumam retomar o termo mais próximo, mas nem sempre: a concordância do verbo e o sentido é que decidem.",
       "esquema": {
         "rotulo": "mecanismos de coesão e como testar",
-        "html": "<table><thead><tr><th>Mecanismo</th><th>Exemplos</th><th>Como testar</th></tr></thead><tbody><tr><td><strong>Pronome pessoal ou oblíquo</strong></td><td>ele, ela, o, a, lhe, “dela”</td><td>Troque pelo nome candidato; gênero, número e sentido precisam bater</td></tr><tr><td><strong>Pronome demonstrativo</strong></td><td>esse, isso, este, isto, aquele</td><td>“Esse” e “isso” costumam retomar o que já foi dito; “este” e “isto”, anunciar o que vem</td></tr><tr><td><strong>Pronome relativo</strong></td><td>que, o qual, cujo, onde</td><td>Ache o antecedente pela concordância do verbo da oração adjetiva e pelo sentido</td></tr><tr><td><strong>Expressão resumidora</strong></td><td>“esses elementos”, “esse fato”, “tal cenário”</td><td>Pode retomar uma enumeração inteira ou uma ideia, e não só a última palavra</td></tr><tr><td><strong>Sinônimo, palavra mais geral ou repetição</strong></td><td>“os ataques cibernéticos” retomando “os ciberataques”; “castigo” retomando “expiação”</td><td>Mesmo referente com palavras diferentes</td></tr><tr><td><strong>Elipse</strong></td><td>sujeito oculto</td><td>Recupere o termo omitido pela flexão do verbo e pelo contexto</td></tr><tr><td><strong>Conectivo</strong></td><td>mas, portanto, embora, além disso</td><td>Diz a relação lógica entre as partes; veja o tema de reescrita</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Mecanismo</th><th>Exemplos</th><th>Como testar</th></tr></thead><tbody><tr><td><strong>Pronome pessoal ou oblíquo</strong></td><td>ele, ela, o, a, lhe, \"dela\"</td><td>Troque pelo nome candidato; gênero, número e sentido precisam bater</td></tr><tr><td><strong>Pronome demonstrativo</strong></td><td>esse, isso, este, isto, aquele</td><td>\"Esse\" e \"isso\" costumam retomar o que já foi dito; \"este\" e \"isto\", anunciar o que vem</td></tr><tr><td><strong>Pronome relativo</strong></td><td>que, o qual, cujo, onde</td><td>Ache o antecedente pela concordância do verbo da oração adjetiva e pelo sentido</td></tr><tr><td><strong>Expressão resumidora</strong></td><td>\"esses fatores\", \"esse fato\", \"tal cenário\"</td><td>Pode retomar uma enumeração inteira ou uma ideia, e não só a última palavra</td></tr><tr><td><strong>Sinônimo, palavra mais geral ou repetição</strong></td><td>\"as inundações\" retomando \"as enchentes\"; \"o animal\" retomando \"o cão\"</td><td>Mesmo referente com palavras diferentes</td></tr><tr><td><strong>Nominalização</strong></td><td>\"A prefeitura interditou a ponte. A interdição…\"</td><td>Um substantivo retoma o processo dito antes por um verbo</td></tr><tr><td><strong>Elipse</strong></td><td>sujeito oculto</td><td>Recupere o termo omitido pela flexão do verbo e pelo contexto</td></tr><tr><td><strong>Conectivo</strong></td><td>mas, portanto, embora, além disso</td><td>Diz a relação lógica entre as partes; veja o tema de reescrita</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada conceito, em uma linha",
+        "linhas": [
+          {
+            "nome": "Anáfora",
+            "o_que_e": "Retomada de algo já dito: \"Os técnicos chegaram e eles revisaram o sistema\".",
+            "atencao": "É o caso mais cobrado.",
+            "grupo": "Direção da referência"
+          },
+          {
+            "nome": "Catáfora",
+            "o_que_e": "Anúncio de algo que ainda vem: o demonstrativo \"isto\" anuncia o que ainda vai ser dito.",
+            "atencao": "\"A pesquisa revelou isto: metade dos alunos estuda à noite\".",
+            "grupo": "Direção da referência"
+          },
+          {
+            "nome": "Hiperônimo",
+            "o_que_e": "Termo de sentido mais amplo que retoma o específico: \"o animal\" retomando \"o cão\".",
+            "atencao": "É coesão lexical, ainda que não haja pronome.",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Hipônimo",
+            "o_que_e": "Termo de sentido mais específico que retoma o geral: \"o veículo… o carro\".",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Sinônimo e repetição",
+            "o_que_e": "A retomada pode ser feita por sinônimo, por palavra mais geral ou pela repetição do mesmo termo.",
+            "atencao": "\"As enchentes… As inundações\" é coesão, mesmo sem pronome.",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Expressão nominal definida",
+            "o_que_e": "Retoma o referente acrescentando informação: \"o relator\" retomado por \"o ministro\".",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Nominalização",
+            "o_que_e": "A nominalização retoma, por meio de um substantivo, o processo expresso antes por um verbo.",
+            "atencao": "\"interditou o viaduto… A interdição\".",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Elipse",
+            "o_que_e": "A elipse (ou omissão) é mecanismo de coesão: o termo omitido se recupera pelo contexto.",
+            "atencao": "Em \"Os técnicos vistoriaram a obra e assinaram o laudo\", o sujeito de \"assinaram\" é \"Os técnicos\".",
+            "grupo": "Formas de retomada"
+          },
+          {
+            "nome": "Esse, essa, isso",
+            "o_que_e": "Retomam o que já foi dito.",
+            "atencao": "Na língua cuidada, \"isso\" aponta para trás.",
+            "grupo": "Demonstrativos"
+          },
+          {
+            "nome": "Este, esta, isto",
+            "o_que_e": "Anunciam o que vem; em pares, \"este\" retoma o mais próximo (o último citado).",
+            "atencao": "\"O ofício e o memorando foram arquivados; este, por engano\": \"este\" é o memorando.",
+            "grupo": "Demonstrativos"
+          },
+          {
+            "nome": "Aquele, aquela",
+            "o_que_e": "Em pares, \"aquele\" retoma o mais distante (o primeiro citado).",
+            "grupo": "Demonstrativos"
+          }
+        ],
+        "colunas": [
+          "Conceito",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Expressão que retoma uma lista inteira:</strong> em \"Chuva forte, ventania e falta de energia: esses fatores atrasaram a obra\", \"esses fatores\" retoma os três elementos, e não só o último.",
+        "<strong>O vizinho nem sempre é o referente:</strong> em \"Os servidores das secretarias que aderiram ao programa receberam bônus\", o \"que\" pode retomar \"secretarias\" ou \"servidores\"; a flexão de \"aderiram\" serve aos dois, e só o sentido decide. O referente certo é achado pelo sentido e não pela proximidade.",
+        "<strong>Relativo que retoma um trecho maior:</strong> em \"O professor escreveu um livro sobre ética pública, que virou leitura obrigatória\", o \"que\" retoma \"um livro sobre ética pública\", e não só \"ética pública\": o pronome relativo pode retomar um segmento inteiro, e não só a palavra imediatamente anterior.",
+        "<strong>Gênero e número ajudam a achar o referente:</strong> \"o qual\", masculino singular, só retoma um nome masculino singular; \"dela\" só retoma um nome feminino.",
+        "<strong>Pronome oblíquo e referente:</strong> em \"A juíza ouviu a testemunha e, depois, dispensou-a\", o \"a\" retoma \"a testemunha\", porque a juíza não dispensaria a si mesma; o sentido desfaz a dúvida que o gênero não resolve.",
+        "<strong>Elipse não quebra a coesão:</strong> a omissão não compromete a coesão quando o referente é recuperado sem ambiguidade, como em \"Os técnicos revisaram o sistema e corrigiram as falhas\".",
+        "<strong>\"O mesmo\" como pronome pessoal:</strong> o emprego de \"o mesmo\" e \"a mesma\" como pronome pessoal, para retomar um termo anterior, não é aceito pela norma-padrão. \"O pedido foi protocolado, e o mesmo será analisado\" deve virar \"e ele será analisado\".",
+        "<strong>Conector só se troca por outro da mesma relação:</strong> \"no entanto\" pode ser trocado por \"contudo\" ou \"todavia\"; trocar \"no entanto\" por \"portanto\" transforma a oposição em conclusão.",
+        "<strong>Reescrita que mantém a coesão:</strong> \"sem nenhuma norma que orientasse a obra\" pode virar \"sem que nenhuma norma orientasse a obra\", com a mesma coesão e o mesmo sentido."
+      ],
       "macetes": [
         {
           "sigla": "TROQUE PELO REFERENTE",
@@ -233,20 +779,58 @@
         },
         {
           "sigla": "O VERBO ENTREGA O ANTECEDENTE",
-          "texto": "No pronome relativo, o verbo da oração adjetiva concorda com o antecedente: “que podem” pede antecedente no plural."
+          "texto": "No pronome relativo, o verbo da oração adjetiva concorda com o antecedente: \"que podem\" pede antecedente no plural."
         },
         {
-          "sigla": "EXPRESSÃO RESUMIDORA",
-          "texto": "“Esses elementos”, “esse fato” e “tal cenário” podem retomar uma lista inteira ou uma ideia, e não só a última palavra."
+          "sigla": "ESSE PARA TRÁS, ESTE PARA A FRENTE",
+          "texto": "\"Esse\" e \"isso\" retomam; \"este\" e \"isto\" anunciam. Em pares, \"este\" é o último citado e \"aquele\", o primeiro."
         }
       ],
       "pegadinha": {
-        "afirmacao": "Os “dois setores” citados ao final do texto correspondem ao mesmo referente da expressão “as duas esferas”, no primeiro período: soberania estatal e políticas ambientais.",
+        "afirmacao": "Num texto que começa com \"O pacto une as duas esferas, a federal e a municipal\" e, no parágrafo final, conclui que \"o programa aproximou, enfim, os dois setores\", logo depois de falar de escolas e hospitais, \"os dois setores\" retomam \"as duas esferas\".",
         "gabarito": "E",
-        "explicacao": "“As duas esferas” retoma as instituições ligadas à soberania e as políticas ambientais. Os “dois setores”, no fim do texto, retomam a sociedade e as instituições de defesa, citadas pouco antes em “tanto no âmbito da sociedade quanto em meio às instituições de defesa” (Cebraspe, PC-DF 2024)."
+        "explicacao": "Expressões parecidas podem ter referentes diferentes. \"As duas esferas\" são a federal e a municipal; \"os dois setores\" retomam as escolas e os hospitais, citados logo antes. O certo é achar o referente pelo sentido de cada trecho."
       },
-      "aprofundamento": "<p><strong>Expressão que retoma uma lista inteira.</strong> “Esses elementos” pode retomar, por anáfora, toda a enumeração introduzida por “como” no período anterior, e não só o último item dela (Cebraspe, TC-DF 2023).</p><p><strong>Sinônimo e repetição também fazem coesão.</strong> “Os ciberataques” e “Os ataques cibernéticos”, assim como os pronomes “seu” e “os” (em “os ensejou”), foram reconhecidos como mecanismos de coesão referencial (Cebraspe, CNJ 2024). Também é coesão por sinonímia o termo “castigo” retomar “expiação” (Cebraspe, PF 2025).</p><p><strong>Gênero e número ajudam a achar o referente.</strong> O relativo “o qual”, masculino singular, retomou “um antigo sistema binário” (Cebraspe, Banco Central 2024), e o pronome em “dela” retomou “rosa”, citada no período anterior (Cebraspe, INSS 2022).</p><p><strong>O vizinho nem sempre é o referente.</strong> A Cebraspe deu como errado que o “que” de “que ocupam e usam territórios e recursos naturais” retomasse “formas próprias de organização social” (CNMP 2023), que “ele” retomasse “bispo escocês Pethlem” e que “esse fato” remetesse à acusação contra Fredegunda (PGE-RJ 2022). Em todos esses casos, o referente certo é outro termo do texto, achado pelo sentido e não pela proximidade.</p><p><strong>Relativo que retoma um trecho maior.</strong> Em “O tema se tornou, anos depois, um livro do palestrante sobre o assunto, que entrou na lista dos mais vendidos”, o “que” retoma todo o segmento “um livro do palestrante sobre o assunto”, e não só a palavra “assunto”: quem entrou na lista foi o livro (Cebraspe, MPCE 2025).</p><p><strong>Reescrita que mantém a coesão.</strong> Trocar “sem qualquer instrumento legal de abrangência nacional que guiasse sua efetivação” por “sem que qualquer instrumento legal de abrangência nacional guiasse sua efetivação” mantém a coesão e a coerência (Cebraspe, CNMP 2023).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>A substituição de um conector por outro só preserva o sentido quando ambos exprimem a mesma relação: \"no entanto\" pode ser trocado por \"contudo\" ou \"todavia\"; trocar \"no entanto\" por \"portanto\" transforma a oposição em conclusão. A substituição lexical retoma o referente por sinônimo, por hiperônimo (termo de sentido mais amplo: \"o animal\" retomando \"o cão\"), por hipônimo ou por expressão nominal definida que acrescenta informação (\"o relator\" retomado por \"o ministro\").</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Duas expressões resumidoras parecidas (\"as duas esferas\" e \"os dois setores\") retomam necessariamente o mesmo referente.",
+          "certo": "Cada expressão retoma o par que o sentido indica; no item, eram pares diferentes do texto.",
+          "fonte": "Cebraspe, PC-DF 2024"
+        },
+        {
+          "errado": "\"Esses elementos\" retoma apenas o último item da enumeração feita antes.",
+          "certo": "A expressão resumidora pode retomar a enumeração inteira.",
+          "fonte": "Cebraspe, TC-DF 2023"
+        },
+        {
+          "errado": "Sem pronome não há coesão: a repetição de um termo por sinônimo (\"os ciberataques… os ataques cibernéticos\") não é mecanismo de coesão.",
+          "certo": "Sinônimo e repetição também são coesão referencial.",
+          "fonte": "Cebraspe, CNJ 2024; PF 2025"
+        },
+        {
+          "errado": "O pronome relativo retoma sempre a palavra imediatamente anterior.",
+          "certo": "O relativo é achado pela concordância e pelo sentido, e pode retomar um segmento inteiro.",
+          "fonte": "Cebraspe: CNMP 2023; PGE-RJ 2022; MPCE 2025"
+        },
+        {
+          "errado": "Em \"O ofício e o memorando foram arquivados; este, por engano\", \"este\" retoma \"o ofício\".",
+          "certo": "Em pares, \"este\" retoma o mais próximo (o último citado): o memorando.",
+          "fonte": "Questão do app sobre pronomes demonstrativos"
+        },
+        {
+          "errado": "\"Esse\" e \"isso\" são empregados, em regra, para anunciar o que ainda será dito, e \"este\" e \"isto\", para retomar.",
+          "certo": "É o inverso: \"esse\" e \"isso\" retomam; \"este\" e \"isto\" anunciam.",
+          "fonte": "Questão do app sobre pronomes demonstrativos"
+        },
+        {
+          "errado": "Em \"O pedido foi protocolado, e o mesmo será analisado\", o uso de \"o mesmo\" está de acordo com a norma-padrão.",
+          "certo": "A norma-padrão não aceita \"o mesmo\" como pronome pessoal: \"e ele será analisado\".",
+          "fonte": "Questão do app sobre \"o mesmo\""
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe: PC-DF 2024; TC-DF 2023; CNJ 2024; PF 2025; Banco Central 2024; INSS 2022; CNMP 2023; PGE-RJ 2022; MPCE 2025"
+      ],
       "relacionados": [
         "reescrita-de-frases-e-substituicao-de-trechos",
         "concordancia-verbal-e-nominal",
@@ -267,9 +851,18 @@
       "conceitos": [
         "significação das palavras",
         "sinonímia",
+        "antonímia",
         "polissemia",
+        "homonímia",
         "paronímia",
-        "sentido contextual"
+        "hiperonímia e hiponímia",
+        "denotação",
+        "conotação",
+        "metáfora",
+        "metonímia",
+        "ambiguidade",
+        "sentido contextual",
+        "conectivos equivalentes"
       ],
       "palavras": [
         "sinonimo",
@@ -277,18 +870,144 @@
         "polissemia",
         "paronimo",
         "homonimo",
+        "homofono",
+        "homografo",
         "sentido no contexto",
         "vocabulario",
         "conectivo",
         "conjuncao equivalente",
-        "acepcao"
+        "acepcao",
+        "denotacao",
+        "conotacao",
+        "sentido figurado",
+        "sentido literal",
+        "metafora",
+        "metonimia",
+        "ambiguidade",
+        "possessivo seu",
+        "ratificar",
+        "retificar",
+        "eminente",
+        "iminente",
+        "infligir",
+        "infringir",
+        "cessao",
+        "sessao",
+        "secao",
+        "absolver",
+        "absorver",
+        "ao encontro de",
+        "de encontro a",
+        "a principio",
+        "em principio",
+        "entretanto",
+        "conquanto",
+        "porquanto",
+        "logo",
+        "apesar de",
+        "embora",
+        "ha",
+        "existem",
+        "paliativo",
+        "protelatorio",
+        "vislumbrar",
+        "cerne",
+        "amago",
+        "regencia do sinonimo"
       ],
-      "resumo": "Nos itens de significação, a banca pergunta se uma palavra tem <strong>o mesmo sentido</strong> de outra <strong>no texto</strong>, ou em que sentido ela foi empregada. Três cuidados resolvem a maioria dos itens. (1) Muitas palavras são <strong>polissêmicas</strong>, e vale a acepção daquele trecho: “certas” pode querer dizer “corretas” ou “garantidas”. (2) <strong>Sinônimo perfeito é raro</strong>: a troca precisa manter o sentido e caber na frase, com a mesma regência. (3) Nos <strong>conectivos</strong>, não basta a mesma família de sentido: “entretanto” e “conquanto” expressam oposição, mas o primeiro é coordenativo e o segundo é concessivo, pede subjuntivo e outra estrutura. Desconfie também de itens que deduzem sinonímia da estrutura: “ou” entre duas palavras indica alternativa, e não que elas sejam sinônimas.",
+      "resumo": "Nos itens de significação, a banca pergunta se uma palavra tem <strong>o mesmo sentido</strong> de outra <strong>no texto</strong>, ou em que sentido ela foi empregada. Três cuidados resolvem a maioria dos itens. (1) Muitas palavras são <strong>polissêmicas</strong>, isto é, têm vários sentidos, e vale a acepção daquele trecho: em \"Com o contrato assinado, a entrega e o pagamento ficaram certos\", \"certos\" quer dizer garantidos, e não corretos. (2) <strong>Sinônimo perfeito é raro</strong>: a troca precisa manter o sentido e caber na frase, com a mesma regência. (3) Nos <strong>conectivos</strong>, não basta a mesma família de sentido: \"entretanto\" e \"conquanto\" expressam oposição, mas o primeiro liga orações independentes e o segundo é concessivo, pede subjuntivo e outra estrutura. O sentido pode ser <strong>denotativo</strong> (literal, de dicionário: \"a pedra rolou da encosta\") ou <strong>conotativo</strong> (figurado: \"coração de pedra\"), e o que decide é o contexto, e não a palavra isolada.",
       "esquema": {
         "rotulo": "relações de sentido que caem",
-        "html": "<table><thead><tr><th>Relação</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Sinonímia</strong></td><td>Sentidos equivalentes no contexto</td><td>“âmago” e “cerne”; “achado” e “descoberta”; “inestimáveis” e “incalculáveis”</td></tr><tr><td><strong>Antonímia</strong></td><td>Sentidos opostos</td><td>“escasso” e “abundante”; “permitir” e “proibir”</td></tr><tr><td><strong>Polissemia</strong></td><td>Uma palavra com vários sentidos</td><td>“certas” em “a sobriedade e a honestidade certas” quer dizer garantidas, e não corretas</td></tr><tr><td><strong>Hiperonímia e hiponímia</strong></td><td>Palavra geral e palavra específica</td><td>“veículo” e “carro”; “crime” e “furto”</td></tr><tr><td><strong>Paronímia</strong></td><td>Formas parecidas com sentidos diferentes</td><td>“eminente” e “iminente”; “descrição” e “discrição”; “ratificar” e “retificar”</td></tr><tr><td><strong>Homonímia</strong></td><td>Mesma forma ou mesmo som, sentidos diferentes</td><td>“cessão”, “sessão” e “seção”; “concerto” e “conserto”</td></tr><tr><td><strong>Denotação e conotação</strong></td><td>Sentido literal e sentido figurado</td><td>“coração” como órgão e “coração da cidade” como centro</td></tr><tr><td><strong>Conectivos</strong></td><td>Mesma relação lógica e mesma estrutura</td><td>“porquanto” é causal e não equivale a “logo”, que é conclusivo</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Relação</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Sinonímia</strong></td><td>Sentidos equivalentes no contexto</td><td>\"âmago\" e \"cerne\"; \"achado\" e \"descoberta\"; \"inestimáveis\" e \"incalculáveis\"</td></tr><tr><td><strong>Antonímia</strong></td><td>Sentidos opostos</td><td>\"prolixo\" e \"conciso\"; \"escasso\" e \"abundante\"; \"permitir\" e \"proibir\"</td></tr><tr><td><strong>Polissemia</strong></td><td>Uma palavra com vários sentidos relacionados</td><td>\"pé\" do corpo e \"pé\" da mesa; \"certos\" como corretos ou garantidos</td></tr><tr><td><strong>Homonímia</strong></td><td>Palavras de origens diferentes com a mesma forma ou o mesmo som</td><td>\"manga\" fruta e \"manga\" da camisa; \"cessão\", \"sessão\" e \"seção\"; \"concerto\" e \"conserto\"</td></tr><tr><td><strong>Paronímia</strong></td><td>Formas parecidas, mas não idênticas, com sentidos diferentes</td><td>\"eminente\" e \"iminente\"; \"ratificar\" e \"retificar\"; \"infligir\" e \"infringir\"</td></tr><tr><td><strong>Hiperonímia e hiponímia</strong></td><td>Palavra geral e palavra específica</td><td>\"veículo\" e \"carro\"; \"crime\" e \"furto\"</td></tr><tr><td><strong>Denotação e conotação</strong></td><td>Sentido literal e sentido figurado</td><td>\"coração\" como órgão e \"coração da cidade\" como centro</td></tr><tr><td><strong>Conectivos</strong></td><td>Mesma relação lógica e mesma estrutura</td><td>\"porquanto\" é causal e não equivale a \"logo\", que é conclusivo</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada conceito, em uma linha",
+        "linhas": [
+          {
+            "nome": "Denotação",
+            "o_que_e": "Denotação é o sentido literal, básico e dicionarizado da palavra.",
+            "atencao": "A linguagem denotativa predomina nos textos informativos, técnicos, científicos e oficiais.",
+            "grupo": "Sentido"
+          },
+          {
+            "nome": "Conotação",
+            "o_que_e": "Conotação é o sentido figurado, ampliado ou afetivo que a palavra ganha no contexto, como \"pedra\" em \"coração de pedra\".",
+            "atencao": "Manchetes empregam conotação com frequência: \"Inflação dá trégua e consumidor respira aliviado\".",
+            "grupo": "Sentido"
+          },
+          {
+            "nome": "Expressão cristalizada",
+            "o_que_e": "Expressões cristalizadas do dia a dia também são conotativas, ainda que o falante já não perceba a imagem.",
+            "atencao": "\"Custar os olhos da cara\" é custar muito caro; \"chegar a um ponto morto\" é chegar a um impasse.",
+            "grupo": "Sentido"
+          },
+          {
+            "nome": "Metáfora",
+            "o_que_e": "Comparação implícita: \"Aquela sala é um forno\"; \"A conversa esfriou\" (perdeu o entusiasmo).",
+            "grupo": "Sentido"
+          },
+          {
+            "nome": "Metonímia",
+            "o_que_e": "Troca de um termo por outro com o qual tem relação real: a metonímia (\"Leu Machado de Assis\", isto é, a obra do autor).",
+            "atencao": "É sentido conotativo, embora o nome se refira a uma pessoa real.",
+            "grupo": "Sentido"
+          },
+          {
+            "nome": "Homônimos homófonos",
+            "o_que_e": "Homônimos homófonos têm a mesma pronúncia e grafia diferente: \"cela\" (cômodo) e \"sela\" (arreio); \"sessão\", \"seção\" e \"cessão\".",
+            "atencao": "Não são parônimos: o som é idêntico.",
+            "grupo": "Forma e sentido"
+          },
+          {
+            "nome": "Homônimos homógrafos",
+            "o_que_e": "Homônimos homógrafos têm a mesma grafia e pronúncia diferente: \"colher\" (verbo, ê fechado) e \"colher\" (talher, é aberto).",
+            "grupo": "Forma e sentido"
+          },
+          {
+            "nome": "Homônimos perfeitos",
+            "o_que_e": "Mesma grafia e mesmo som: \"são\" (sadio), \"são\" (santo) e \"são\" (verbo ser).",
+            "grupo": "Forma e sentido"
+          },
+          {
+            "nome": "Parônimos",
+            "o_que_e": "Parônimos são palavras de forma e som parecidos, mas não idênticos: \"absolver\" e \"absorver\".",
+            "atencao": "Os parônimos não são homônimos: a pronúncia é apenas semelhante, e não idêntica.",
+            "grupo": "Forma e sentido"
+          },
+          {
+            "nome": "Polissemia x homonímia",
+            "o_que_e": "Na polissemia, uma palavra tem sentidos relacionados; na homonímia, palavras de origens diferentes coincidem na forma.",
+            "atencao": "\"Pé\" do corpo e da mesa: polissemia. \"Manga\" fruta e da camisa: homonímia.",
+            "grupo": "Forma e sentido"
+          },
+          {
+            "nome": "Ambiguidade",
+            "o_que_e": "Duplo sentido indesejado, lexical (de uma palavra) ou estrutural (da ordem da frase).",
+            "atencao": "O possessivo \"seu\" gera ambiguidade quando há dois referentes possíveis: \"O diretor informou ao servidor que seu pedido foi deferido\".",
+            "grupo": "Forma e sentido"
+          }
+        ],
+        "colunas": [
+          "Conceito",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Sinônimos aceitos no contexto:</strong> \"âmago\" e \"cerne\" (o centro de uma ideia); \"achado\" como descoberta em \"O principal achado da auditoria\"; \"ardiloso\" como doloso em \"um plano ardiloso\"; \"irrupção\" como entrada súbita em \"a irrupção da chuva na festa\"; \"mnemônico\" como relativo à memória, e não como algo prolongado.",
+        "<strong>A palavra polissêmica tem sinônimos diferentes conforme a acepção:</strong> \"forte\" vira \"potente\" em \"remédio forte\" e \"contundente\" em \"discurso forte\". Como \"homem\" pode significar ser humano ou pessoa do sexo masculino, os direitos do \"homem\", na Declaração dos Direitos do Homem e do Cidadão, podem ser lidos como restritos a um grupo de pessoas.",
+        "<strong>\"Ou\" não cria sinônimos:</strong> \"ou\" entre duas palavras indica alternativa, e não que elas sejam sinônimas. Em \"Os candidatos serão avaliados ou entrevistados\", são duas possibilidades diferentes.",
+        "<strong>Mesma classe gramatical não basta:</strong> para uma palavra substituir outra, o sentido tem de ser o mesmo naquele contexto e a frase tem de continuar correta.",
+        "<strong>O sinônimo precisa ter a mesma regência no contexto:</strong> \"aspirava ao cargo\" passa a \"desejava o cargo\", e não \"desejava ao cargo\".",
+        "<strong>Conectivos que não se trocam:</strong> \"entretanto\" coordena; \"conquanto\" subordina e pede subjuntivo. \"Porquanto\" é causal e não equivale a \"logo\", que é conclusivo; equivale a \"porque\". \"Inversamente\" indica inversão, e não outro aspecto do assunto, como \"por outro lado\". \"Apesar de\" pede infinitivo ou substantivo, enquanto \"embora\" introduz oração com verbo no subjuntivo: \"Embora o prazo fosse curto\" vira \"Apesar de o prazo ser curto\".",
+        "<strong>Verbo trocado, concordância revista:</strong> \"haver\", no sentido de existir, é impessoal e fica no singular; \"existir\" concorda com o sujeito. \"Há muitos processos\" vira \"Existem muitos processos\".",
+        "<strong>\"Ao encontro de\" e \"de encontro a\":</strong> \"ir ao encontro de\" significa ser favorável, estar de acordo; \"ir de encontro a\" significa chocar-se, ser contrário. \"A proposta vai de encontro aos interesses dos servidores\" quer dizer que os contraria.",
+        "<strong>\"A princípio\" e \"em princípio\":</strong> \"a princípio\" significa \"no início, inicialmente\"; \"em princípio\" significa \"em tese, de modo geral, antes de examinar o caso concreto\".",
+        "<strong>Parônimos que caem:</strong> \"ratificar\" (confirmar) e \"retificar\" (corrigir); \"eminente\" (ilustre) e \"iminente\" (prestes a acontecer); \"deferir\" (conceder) e \"diferir\" (adiar, divergir); \"infligir\" (aplicar pena ou castigo) e \"infringir\" (violar, transgredir); \"mandado\" (ordem) e \"mandato\" (delegação); \"absolver\" (inocentar) e \"absorver\" (sorver); \"descrição\" (ato de descrever) e \"discrição\" (reserva); \"flagrante\" e \"fragrante\"; \"tráfego\" e \"tráfico\"; \"descriminar\" (inocentar) e \"discriminar\" (distinguir, segregar).",
+        "<strong>Adjetivos que parecem próximos e não são:</strong> \"paliativo\" é o que alivia ou atenua um problema sem resolvê-lo; \"protelatório\" é o que adia, retarda; os termos não são sinônimos. \"Medidas paliativas\" aliviam; \"medidas protelatórias\" empurram o problema para depois.",
+        "<strong>\"Vislumbrar\" significa entrever</strong>, perceber de modo vago ou ainda indistinto, conjecturar; não equivale a observar com nitidez. \"Já se vislumbra uma saída\" quer dizer que a saída começa a aparecer.",
+        "<strong>Antônimos podem vir de prefixo</strong> (\"legal\" e \"ilegal\") ou de radicais diferentes (\"prolixo\" e \"conciso\")."
+      ],
       "macetes": [
         {
           "sigla": "SINÔNIMO NAQUELA FRASE",
@@ -296,20 +1015,97 @@
         },
         {
           "sigla": "CONECTIVO: RELAÇÃO E ESTRUTURA",
-          "texto": "“Porquanto” é causal, e “logo” é conclusivo. “Entretanto” coordena; “conquanto” subordina e pede subjuntivo."
+          "texto": "\"Porquanto\" é causal, e \"logo\" é conclusivo. \"Entretanto\" coordena; \"conquanto\" subordina e pede subjuntivo."
         },
         {
-          "sigla": "PARÔNIMOS QUE CAEM",
-          "texto": "Cessão é o ato de ceder, sessão é reunião e seção é divisão; eminente é ilustre, e iminente é o que está prestes a ocorrer; descrição é o ato de descrever, e discrição é reserva."
+          "sigla": "CESSÃO, SESSÃO, SEÇÃO",
+          "texto": "Cessão é o ato de ceder, sessão é reunião e seção é divisão; eminente é ilustre, e iminente é o que está prestes a ocorrer."
+        },
+        {
+          "sigla": "O CONTEXTO DECIDE",
+          "texto": "A mesma palavra é denotativa numa frase e conotativa em outra: \"o doce de leite\" e \"um jeito doce de falar\"."
         }
       ],
       "pegadinha": {
-        "afirmacao": "No trecho “e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas”, a substituição de “certas” por “corretas” manteria a coerência das ideias do texto, visto que tais palavras têm o mesmo significado.",
+        "afirmacao": "Em \"Com o contrato assinado, a entrega e o pagamento ficaram certos\", a substituição de \"certos\" por \"corretos\" manteria o sentido, visto que essas palavras têm o mesmo significado.",
         "gabarito": "E",
-        "explicacao": "No trecho, “certas” significa garantidas, asseguradas: com os dois pecados extintos, a sobriedade e a honestidade ficavam garantidas. “Corretas” dá outro sentido à frase. As palavras só são sinônimas em outra acepção (Cebraspe, STJ 2024)."
+        "explicacao": "No trecho, \"certos\" significa garantidos, assegurados. \"Corretos\" daria outro sentido à frase: as palavras só são sinônimas em outra acepção. Uma troca que mantém o sentido seria \"garantidos\"."
       },
-      "aprofundamento": "<p><strong>Sinônimos aceitos no contexto.</strong> A Cebraspe aceitou trocar “âmago” por “cerne” (TCE-RJ 2021), ler “achado” como descoberta em “O principal achado da pesquisa” (MPCE 2025), trocar “ardiloso” por “doloso” em “seu ardiloso truque” (PGE-RJ 2022) e entender que “irrupção”, em “protegidos da irrupção da violência na sua vida”, indica que a violência atingia as pessoas de forma súbita (PRF 2021).</p><p><strong>Sentido que não é o do item.</strong> Em “alguma forma mnemônica”, a palavra diz respeito à memória, e não a algo prolongado, como afirmava o item errado (Cebraspe, MP-GO 2024).</p><p><strong>“Ou” não cria sinônimos.</strong> Em “o emprego padrão é cada vez mais suplementado ou substituído por trabalho temporário”, o “ou” apresenta duas possibilidades diferentes; é errado dizer que ele indica que as palavras são sinônimas (Cebraspe, Banco Central 2024).</p><p><strong>Polissemia que muda a leitura.</strong> Como “homem” pode significar ser humano ou pessoa do sexo masculino, a Cebraspe aceitou que os direitos do “homem”, na Declaração dos Direitos do Homem e do Cidadão, pudessem ser lidos como restritos a um grupo de pessoas (STJ 2024).</p><p><strong>Conectivos que não se trocam.</strong> Foram dadas como erradas as trocas de “entretanto” por “conquanto” (INSS 2022), de “porquanto” por “logo” (CNMP 2023), de “Por outro lado” por “Inversamente” (INSS 2022) e de “Embora” por “Apesar de” sem ajuste da oração (PC-SE 2021). “Conquanto” é concessivo e pede subjuntivo; “porquanto” é causal, e “logo”, conclusivo; “inversamente” indica inversão, e não outro aspecto do assunto; “apesar de” pede infinitivo ou substantivo, enquanto “embora” introduz oração com verbo no subjuntivo.</p><p><strong>Verbo trocado, concordância revista.</strong> Em “há outros fatores que interferem na saúde mental”, trocar “há” por “existem” é correto: “haver”, no sentido de existir, é impessoal e fica no singular, mas “existir” concorda com o sujeito, “outros fatores” (Cebraspe, MPCE 2025).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>\"Ir ao encontro de\" significa ser favorável, estar de acordo; \"ir de encontro a\" significa chocar-se, ser contrário. \"A princípio\" significa \"no início, inicialmente\"; \"em princípio\" significa \"em tese, de modo geral, antes de examinar o caso concreto\". Parônimos são palavras de forma parecida, mas não idêntica, e sentidos diferentes: \"ratificar\" (confirmar) e \"retificar\" (corrigir); \"eminente\" (ilustre) e \"iminente\" (prestes a acontecer); \"deferir\" (conceder) e \"diferir\" (adiar, divergir); \"infligir\" (aplicar pena ou castigo) e \"infringir\" (violar, transgredir); \"mandado\" (ordem) e \"mandato\" (delegação); \"absolver\" (inocentar) e \"absorver\" (sorver); \"flagrante\" e \"fragrante\"; \"tráfego\" e \"tráfico\"; \"descriminar\" (inocentar) e \"discriminar\" (distinguir, segregar). A ambiguidade lexical ou estrutural é o duplo sentido indesejado; o possessivo \"seu\" gera ambiguidade quando há dois referentes possíveis (\"O diretor informou ao servidor que seu pedido foi deferido\"). Os parônimos não são homônimos: a pronúncia é apenas semelhante, e não idêntica (\"absolver\" e \"absorver\" distinguem-se tanto na grafia quanto no som). Homônimos podem ser homófonos (mesmo som, grafia diferente: \"cela\", cômodo, e \"sela\", arreio), homógrafos (mesma grafia, som diferente: \"colher\" verbo, com ê fechado, e \"colher\" talher, com é aberto) ou perfeitos (\"são\" sadio, santo e verbo ser). O sinônimo precisa ter a mesma regência: \"aspirava ao cargo\" passa a \"desejava o cargo\", e não \"desejava ao cargo\". Antônimos podem vir de prefixo (\"legal\" e \"ilegal\") ou de radicais diferentes (\"prolixo\" e \"conciso\"). A linguagem denotativa predomina nos textos técnicos, científicos e oficiais, mas a conotação aparece também no jornalismo (\"Inflação dá trégua e consumidor respira aliviado\") e em expressões cristalizadas, ainda que o falante já não perceba a imagem (\"custar os olhos da cara\", custar muito caro). Ela está na base da metáfora (\"Aquela sala é um forno\") e da metonímia (\"Leu Machado de Assis\", isto é, a obra do autor).</p><p><strong>Distinções</strong></p><p>Polissemia e homonímia: na polissemia, uma palavra tem sentidos relacionados (\"pé\" do corpo e \"pé\" da mesa); na homonímia, palavras de origens diferentes coincidem na forma (\"manga\" fruta e \"manga\" da camisa). O contexto decide entre denotação e conotação: \"pedra\" é denotativa em \"A pedra rolou da encosta\" e ganha sentido figurado, ampliado ou afetivo em \"Ele tem um coração de pedra\" (insensível); \"doce\" é denotativo em \"O doce de leite ficou pronto\" e conotativo em \"Ela tem um jeito doce de falar\"; \"esfriar\" é conotativo em \"A conversa esfriou depois da notícia\".</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Em contexto no qual \"certas\" significa garantidas, a troca por \"corretas\" mantém o sentido, porque as palavras são sinônimas.",
+          "certo": "Vale a acepção do trecho: ali \"certas\" é garantidas, e \"corretas\" muda o sentido.",
+          "fonte": "Cebraspe, STJ 2024"
+        },
+        {
+          "errado": "\"Ou\" entre duas palavras indica que elas são sinônimas no período.",
+          "certo": "\"Ou\" apresenta alternativas diferentes, e não sinônimos.",
+          "fonte": "Cebraspe, Banco Central 2024"
+        },
+        {
+          "errado": "\"Entretanto\" pode ser trocado por \"conquanto\" sem outro ajuste, porque os dois expressam oposição.",
+          "certo": "\"Conquanto\" é concessivo, subordina e pede subjuntivo; a troca exige reestruturar a frase.",
+          "fonte": "Cebraspe, INSS 2022"
+        },
+        {
+          "errado": "\"Porquanto\" pode ser trocado por \"logo\" sem mudança de sentido.",
+          "certo": "\"Porquanto\" é causal (equivale a \"porque\"); \"logo\" é conclusivo.",
+          "fonte": "Cebraspe, CNMP 2023"
+        },
+        {
+          "errado": "\"Embora\" pode ser trocado por \"apesar de\" sem nenhum outro ajuste na oração.",
+          "certo": "\"Apesar de\" pede infinitivo ou substantivo: \"Apesar de o prazo ser curto\".",
+          "fonte": "Cebraspe, PC-SE 2021"
+        },
+        {
+          "errado": "\"Há outros fatores\" não pode virar \"existem outros fatores\", porque o verbo tem de ficar no singular.",
+          "certo": "\"Haver\" fica no singular, mas \"existir\" concorda com o sujeito: \"existem outros fatores\" está correto.",
+          "fonte": "Cebraspe, MPCE 2025"
+        },
+        {
+          "errado": "\"Mnemônico\" indica algo prolongado no tempo.",
+          "certo": "\"Mnemônico\" diz respeito à memória.",
+          "fonte": "Cebraspe, MP-GO 2024"
+        },
+        {
+          "errado": "Em \"O auditor infringiu uma multa à empresa\", o verbo está bem empregado, pois significa aplicar sanção.",
+          "certo": "Aplicar pena é \"infligir\"; \"infringir\" é violar: \"O auditor infligiu uma multa\".",
+          "fonte": "Questão do app sobre parônimos"
+        },
+        {
+          "errado": "\"Absolver\" e \"absorver\" são homônimos homófonos.",
+          "certo": "São parônimos: a pronúncia é parecida, e não idêntica.",
+          "fonte": "Questão do app sobre parônimos e homônimos"
+        },
+        {
+          "errado": "\"Cela\" (cômodo da prisão) e \"sela\" (arreio) são parônimas.",
+          "certo": "São homônimas homófonas: mesma pronúncia, grafias diferentes.",
+          "fonte": "Questão do app sobre homônimos"
+        },
+        {
+          "errado": "A linguagem conotativa predomina nos textos técnicos, científicos e oficiais.",
+          "certo": "Nesses textos predomina a denotativa, que busca um só sentido para cada termo.",
+          "fonte": "Questão do app sobre denotação e conotação"
+        },
+        {
+          "errado": "Em \"Leu Machado de Assis nas férias\", o nome do escritor está em sentido denotativo, porque se refere a uma pessoa real.",
+          "certo": "É metonímia, sentido conotativo: o nome do autor está no lugar da obra.",
+          "fonte": "Questão do app sobre denotação e conotação"
+        },
+        {
+          "errado": "\"Em princípio\" significa \"no início, inicialmente\".",
+          "certo": "\"Em princípio\" é \"em tese\"; \"a princípio\" é \"no início\".",
+          "fonte": "Questão do app sobre expressões de sentido próximo"
+        },
+        {
+          "errado": "\"Medidas paliativas\" pode ser trocado por \"medidas protelatórias\" sem alteração de sentido.",
+          "certo": "Paliativo alivia sem resolver; protelatório adia. Não são sinônimos.",
+          "fonte": "Questão do app sobre vocabulário"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe: STJ 2024; TCE-RJ 2021; MPCE 2025; PGE-RJ 2022; PRF 2021; MP-GO 2024; Banco Central 2024; INSS 2022; CNMP 2023; PC-SE 2021"
+      ],
       "relacionados": [
         "reescrita-de-frases-e-substituicao-de-trechos",
         "coesao-e-referenciacao",
@@ -892,30 +1688,97 @@
       "dispositivos": [],
       "conceitos": [
         "intertextualidade",
-        "paródia",
-        "paráfrase",
+        "intertextualidade explícita",
+        "intertextualidade implícita",
+        "citação",
+        "referência",
         "epígrafe",
+        "paráfrase",
+        "paródia",
+        "alusão",
         "pastiche",
-        "alusão"
+        "repertório do leitor",
+        "plágio"
       ],
       "palavras": [
-        "intertexto",
+        "intertextualidade",
+        "explicita",
+        "implicita",
         "citacao",
-        "alusao",
-        "parodia",
-        "parafrase",
+        "referencia",
         "epigrafe",
+        "parafrase",
+        "parodia",
+        "alusao",
         "pastiche",
-        "intertextualidade explicita",
-        "intertextualidade implicita",
-        "dialogo entre textos"
+        "plagio",
+        "repertorio",
+        "convergencia",
+        "contraste",
+        "cancao do exilio",
+        "oswald de andrade",
+        "goncalves dias",
+        "minha terra tem palmeiras",
+        "propaganda",
+        "quadro famoso"
       ],
-      "resumo": "<strong>Intertextualidade</strong> é a relação que um texto estabelece com outro texto já existente, retomando-o de forma explícita ou implícita. Na <strong>explícita</strong>, a fonte é indicada no próprio texto: <strong>citação</strong> (transcrição literal, em regra entre aspas e com indicação da autoria), referência e <strong>epígrafe</strong> (trecho de outro texto posto no início de um livro, capítulo ou poema, antes do texto principal). Na <strong>implícita</strong>, a fonte não é indicada, e o leitor reconhece o texto retomado pelo próprio repertório: <strong>alusão</strong>, <strong>paródia</strong> e <strong>pastiche</strong>. A <strong>paráfrase</strong> retoma as ideias de outro texto com outras palavras, mantendo o sentido original; a <strong>paródia</strong> retoma com deslocamento ou inversão de sentido, em tom crítico, irônico ou humorístico. O que decide entre explícita e implícita é a indicação da fonte.",
+      "resumo": "<strong>Intertextualidade</strong> é a relação que um texto estabelece com outro texto já existente, retomando-o de forma explícita ou implícita. Na <strong>explícita</strong>, a fonte é indicada no próprio texto, como na citação entre aspas com o nome do autor. Na <strong>implícita</strong>, a fonte não é indicada, e o leitor reconhece o texto retomado pelo próprio repertório (o conjunto de leituras e referências que ele já tem). O que decide entre explícita e implícita é a indicação da fonte. Outra pergunta frequente é o efeito: a <strong>paráfrase</strong> confirma o sentido do texto de origem (convergência); a <strong>paródia</strong> o desloca ou inverte, com crítica, ironia ou humor (contraste). O esquema traz cada forma com a resposta às duas perguntas.",
       "esquema": {
         "rotulo": "formas de intertextualidade",
-        "html": "<table><thead><tr><th>Forma</th><th>O que faz</th><th>Fonte indicada?</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Citação</strong></td><td>Transcreve literalmente trecho de outro texto</td><td>Sim (explícita)</td><td>Parecer que reproduz, entre aspas, a frase de um jurista com o nome dele</td></tr><tr><td><strong>Epígrafe</strong></td><td>Cita trecho alheio no início da obra, do capítulo ou do poema, para anunciar o tema ou o tom</td><td>Sim (explícita)</td><td>Versos de um poeta antes do primeiro capítulo de um romance</td></tr><tr><td><strong>Paráfrase</strong></td><td>Diz o mesmo com outras palavras; confirma o sentido (efeito de convergência)</td><td>Pode ou não</td><td>Resumo fiel, com as próprias palavras, das ideias de um artigo científico</td></tr><tr><td><strong>Paródia</strong></td><td>Retoma para deslocar ou inverter o sentido, com crítica, ironia ou humor (efeito de contraste)</td><td>Em regra não (implícita)</td><td>“Minha terra tem palmares / onde gorjeia o mar”, de Oswald de Andrade, sobre a Canção do exílio de Gonçalves Dias</td></tr><tr><td><strong>Alusão</strong></td><td>Referência breve e indireta a outro texto, personagem ou fato conhecido, sem transcrevê-lo</td><td>Não (implícita)</td><td>Chamar uma tarefa sem fim de “trabalho de Sísifo”</td></tr><tr><td><strong>Pastiche</strong></td><td>Imita o estilo de um autor ou de uma escola, por homenagem ou exercício, sem intenção necessariamente crítica</td><td>Não (implícita)</td><td>Conto escrito à maneira de Machado de Assis</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Forma</th><th>O que faz</th><th>Fonte indicada?</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Citação</strong></td><td>Transcreve literalmente trecho de outro texto</td><td>Sim (explícita)</td><td>Parecer que reproduz, entre aspas, a frase de um jurista com o nome dele</td></tr><tr><td><strong>Epígrafe</strong></td><td>Cita trecho alheio no início da obra, do capítulo ou do poema, para anunciar o tema ou o tom</td><td>Sim (explícita)</td><td>Versos de um poeta antes do primeiro capítulo de um romance</td></tr><tr><td><strong>Referência</strong></td><td>Menciona a obra ou o autor de forma expressa, sem transcrever</td><td>Sim (explícita)</td><td>\"Como mostra o romance Vidas secas…\"</td></tr><tr><td><strong>Paráfrase</strong></td><td>Diz o mesmo com outras palavras; confirma o sentido (efeito de convergência)</td><td>Pode ou não</td><td>Resumo fiel, com as próprias palavras, das ideias de um artigo científico</td></tr><tr><td><strong>Paródia</strong></td><td>Retoma para deslocar ou inverter o sentido, com crítica, ironia ou humor (efeito de contraste)</td><td>Em regra não (implícita)</td><td>\"Minha terra tem palmares / onde gorjeia o mar\", de Oswald de Andrade, sobre a Canção do exílio de Gonçalves Dias</td></tr><tr><td><strong>Alusão</strong></td><td>Referência breve e indireta a outro texto, personagem ou fato conhecido, sem transcrevê-lo</td><td>Não (implícita)</td><td>Chamar uma tarefa sem fim de \"trabalho de Sísifo\"</td></tr><tr><td><strong>Pastiche</strong></td><td>Imita o estilo de um autor ou de uma escola, por homenagem ou exercício, sem intenção necessariamente crítica</td><td>Não (implícita)</td><td>Conto escrito à maneira de Machado de Assis</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada forma, em uma linha",
+        "linhas": [
+          {
+            "nome": "Citação",
+            "o_que_e": "Citação é a transcrição literal de trecho de outro texto, em regra entre aspas e com indicação da autoria.",
+            "atencao": "Se há trecho literal com o autor, é citação, e não alusão.",
+            "grupo": "Explícitas"
+          },
+          {
+            "nome": "Epígrafe",
+            "o_que_e": "Epígrafe é o trecho de outro texto posto no início de um livro, capítulo ou poema, antes do texto principal.",
+            "atencao": "Costuma vir com o nome do autor: é explícita.",
+            "grupo": "Explícitas"
+          },
+          {
+            "nome": "Alusão",
+            "o_que_e": "Menção breve que o leitor precisa reconhecer, sem transcrição e sem fonte.",
+            "atencao": "Não transcreve: só evoca.",
+            "grupo": "Implícitas"
+          },
+          {
+            "nome": "Paródia",
+            "o_que_e": "Retomada com deslocamento ou inversão de sentido, em tom crítico, irônico ou humorístico.",
+            "atencao": "Oswald de Andrade parodia \"Minha terra tem palmeiras\" em \"Minha terra tem palmares\".",
+            "grupo": "Implícitas"
+          },
+          {
+            "nome": "Pastiche",
+            "o_que_e": "Pastiche é a imitação do estilo de um autor ou de uma escola, por homenagem ou exercício.",
+            "atencao": "Não tem necessariamente intenção crítica; por isso não equivale à paródia.",
+            "grupo": "Implícitas"
+          },
+          {
+            "nome": "Paráfrase",
+            "o_que_e": "Paráfrase é a retomada das ideias de outro texto com outras palavras, mantendo o sentido original.",
+            "atencao": "É a mesma operação da reescrita: não acrescenta, não retira e não inverte o sentido.",
+            "grupo": "Com ou sem fonte"
+          }
+        ],
+        "colunas": [
+          "Forma",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>A intertextualidade pode ocorrer entre linguagens diferentes</strong>, e não só entre textos verbais: a propaganda que reproduz a composição de um quadro famoso sem mencioná-lo dialoga com a pintura, e o diálogo é implícito.",
+        "<strong>A intertextualidade implícita depende do repertório do leitor:</strong> quem não conhece o texto de origem lê o texto novo sem perceber o diálogo.",
+        "<strong>Forma igual, sentido diferente:</strong> a paródia pode imitar a forma do original (a métrica, a estrutura dos versos), mas desloca o sentido; o pastiche imita a forma sem inverter o sentido.",
+        "<strong>Paródia x plágio:</strong> a paródia assume o diálogo e só produz efeito se o leitor reconhecer o original; o plágio esconde a origem para fazer passar o texto alheio como próprio e não é recurso de intertextualidade."
+      ],
       "macetes": [
         {
           "sigla": "PARÁFRASE CONVERGE, PARÓDIA CONTRASTA",
@@ -935,8 +1798,26 @@
         "gabarito": "E",
         "explicacao": "Sem indicação da fonte, a intertextualidade é implícita: o leitor precisa reconhecer o texto de origem. Explícitas são a citação, a referência e a epígrafe, que nomeiam a fonte."
       },
-      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>A intertextualidade pode ocorrer entre linguagens diferentes, e não só entre textos verbais: a propaganda que reproduz a composição de um quadro famoso sem mencioná-lo dialoga com a pintura, e o diálogo é implícito. Por isso a intertextualidade implícita depende do repertório do leitor: quem não conhece o texto de origem lê o texto novo sem perceber o diálogo. A paródia pode imitar a forma do original (a métrica, a estrutura dos versos), mas desloca o sentido; o pastiche imita a forma sem inverter o sentido.</p><p><strong>Distinções</strong></p><p>Paródia e plágio: a paródia assume o diálogo e só produz efeito se o leitor reconhecer o original; o plágio esconde a origem para fazer passar o texto alheio como próprio e não é recurso de intertextualidade. A paráfrase usada para retomar as ideias de outro autor é a mesma operação cobrada na reescrita de frases: não acrescenta, não retira e não inverte o sentido.</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "A paródia retoma outro texto conservando seu sentido original com outras palavras, em efeito de convergência.",
+          "certo": "Quem conserva o sentido com outras palavras é a paráfrase; a paródia desloca ou inverte o sentido.",
+          "fonte": "Questão do app sobre paródia e paráfrase"
+        },
+        {
+          "errado": "Na alusão, o autor transcreve literalmente trecho de outro texto, entre aspas e com indicação da fonte.",
+          "certo": "Isso é citação; a alusão é menção breve e indireta, sem transcrição.",
+          "fonte": "Questão do app sobre citação e alusão"
+        },
+        {
+          "errado": "O pastiche tem necessariamente intenção crítica ou satírica, o que o torna equivalente à paródia.",
+          "certo": "O pastiche imita o estilo por homenagem ou exercício, sem intenção necessariamente crítica.",
+          "fonte": "Questão do app sobre pastiche"
+        }
+      ],
+      "ja_caiu": [
+        "Questões do app sobre formas de intertextualidade explícita e implícita"
+      ],
       "relacionados": [
         "compreensao-e-interpretacao-de-textos",
         "tipos-e-generos-textuais",
@@ -957,45 +1838,124 @@
         "discurso indireto",
         "discurso indireto livre",
         "verbo de elocução",
-        "verbo dicendi"
+        "verbo dicendi",
+        "transposição de discurso",
+        "interrogativa indireta",
+        "correlação de tempos"
       ],
       "palavras": [
-        "discurso relatado",
-        "transposicao de discurso",
-        "verbo dicendi",
-        "verbo de elocucao",
-        "fala da personagem",
+        "discurso direto",
+        "discurso indireto",
         "indireto livre",
+        "verbo de elocucao",
+        "verbo dicendi",
+        "dizer",
+        "afirmar",
+        "perguntar",
+        "travessao",
+        "aspas",
+        "dois-pontos",
+        "transposicao",
         "interrogativa indireta",
-        "correlacao de tempos"
+        "preterito imperfeito",
+        "mais-que-perfeito",
+        "futuro do preterito",
+        "imperativo",
+        "subjuntivo",
+        "no dia seguinte",
+        "aquele",
+        "vocativo"
       ],
-      "resumo": "No <strong>discurso direto</strong>, o narrador reproduz literalmente a fala da personagem, em regra introduzida por <strong>verbo de elocução</strong> (verbo dicendi: dizer, afirmar, perguntar, responder, ordenar) e marcada por dois-pontos, travessão ou aspas. No <strong>discurso indireto</strong>, o narrador conta com as próprias palavras o que a personagem disse, em oração subordinada introduzida por “que” ou “se”, sem dois-pontos nem aspas. No <strong>indireto livre</strong>, a fala ou o pensamento da personagem aparece no meio da narração, sem verbo de elocução, sem dois-pontos e sem conectivo subordinativo: as vozes do narrador e da personagem se misturam. Na transposição do direto para o indireto, com o verbo de elocução no passado, a pessoa passa à terceira, os tempos recuam e os advérbios e demonstrativos se ajustam.",
+      "para_entender": [
+        {
+          "texto": "<strong>Tempos verbais:</strong> pretérito perfeito (fiz), imperfeito (fazia), mais-que-perfeito (fizera, tinha feito), futuro do pretérito (faria). A transposição é uma troca entre eles.",
+          "tema": "tempos-e-modos-verbais"
+        }
+      ],
+      "resumo": "No <strong>discurso direto</strong>, o narrador reproduz literalmente a fala da personagem, em regra introduzida por <strong>verbo de elocução</strong> (também chamado verbo dicendi: dizer, afirmar, perguntar, responder, ordenar) e marcada por dois-pontos, travessão ou aspas: O diretor afirmou: \"Entregarei o parecer amanhã\". No <strong>discurso indireto</strong>, o narrador conta com as próprias palavras o que a personagem disse, numa oração introduzida por \"que\" ou \"se\", sem dois-pontos nem aspas: O diretor afirmou que entregaria o parecer no dia seguinte. No <strong>indireto livre</strong>, a fala ou o pensamento da personagem aparece no meio da narração, sem verbo de elocução, sem dois-pontos e sem conectivo: as vozes do narrador e da personagem se misturam. Na passagem do direto para o indireto com o verbo de elocução no passado, a pessoa passa à terceira, os tempos recuam e os advérbios e demonstrativos se ajustam, como mostra o esquema.",
       "esquema": {
         "rotulo": "transposição do direto para o indireto (verbo de elocução no passado)",
-        "html": "<table><thead><tr><th>Elemento</th><th>No discurso direto</th><th>No discurso indireto</th></tr></thead><tbody><tr><td><strong>Pessoa</strong></td><td>“eu”, “meu”, “nós”</td><td>“ele”, “seu”, “eles” (terceira pessoa)</td></tr><tr><td><strong>Presente do indicativo</strong></td><td>“Estou cansado.”</td><td>disse que estava cansado (pretérito imperfeito)</td></tr><tr><td><strong>Pretérito perfeito</strong></td><td>“Fiz o relatório.”</td><td>disse que fizera (tinha feito) o relatório (mais-que-perfeito)</td></tr><tr><td><strong>Futuro do presente</strong></td><td>“Voltarei amanhã.”</td><td>disse que voltaria no dia seguinte (futuro do pretérito)</td></tr><tr><td><strong>Imperativo</strong></td><td>“Saia daqui.”</td><td>mandou que saísse dali (pretérito imperfeito do subjuntivo)</td></tr><tr><td><strong>Pergunta</strong></td><td>“Você vem?”</td><td>perguntou se ele vinha (interrogativa indireta, sem ponto de interrogação)</td></tr><tr><td><strong>Tempo e lugar</strong></td><td>hoje, amanhã, ontem, agora, aqui</td><td>naquele dia, no dia seguinte, no dia anterior, naquele momento, ali</td></tr><tr><td><strong>Demonstrativos</strong></td><td>este, esse, isto</td><td>aquele, aquilo</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Elemento</th><th>No discurso direto</th><th>No discurso indireto</th></tr></thead><tbody><tr><td><strong>Pessoa</strong></td><td>\"eu\", \"meu\", \"nós\"</td><td>\"ele\", \"seu\", \"eles\" (terceira pessoa)</td></tr><tr><td><strong>Presente do indicativo</strong></td><td>\"Estou cansado.\"</td><td>disse que estava cansado (pretérito imperfeito)</td></tr><tr><td><strong>Pretérito perfeito</strong></td><td>\"Fiz o relatório.\"</td><td>disse que fizera (tinha feito) o relatório (mais-que-perfeito)</td></tr><tr><td><strong>Futuro do presente</strong></td><td>\"Voltarei amanhã.\"</td><td>disse que voltaria no dia seguinte (futuro do pretérito)</td></tr><tr><td><strong>Imperativo</strong></td><td>\"Saia daqui.\"</td><td>mandou que saísse dali (pretérito imperfeito do subjuntivo)</td></tr><tr><td><strong>Pergunta</strong></td><td>\"Você vem?\"</td><td>perguntou se ele vinha (interrogativa indireta, sem ponto de interrogação)</td></tr><tr><td><strong>Tempo e lugar</strong></td><td>hoje, amanhã, ontem, agora, aqui</td><td>naquele dia, no dia seguinte, no dia anterior, naquele momento, ali</td></tr><tr><td><strong>Demonstrativos</strong></td><td>este, esse, isto</td><td>aquele, aquilo</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "Cada discurso, em uma linha",
+        "linhas": [
+          {
+            "nome": "Discurso direto",
+            "o_que_e": "A fala da personagem, reproduzida literalmente, com verbo de elocução e dois-pontos, travessão ou aspas.",
+            "atencao": "As palavras são da personagem, em primeira pessoa."
+          },
+          {
+            "nome": "Discurso indireto",
+            "o_que_e": "O narrador relata a fala com as próprias palavras, em oração introduzida por \"que\" ou \"se\".",
+            "atencao": "Some a pontuação da fala; a pergunta passa a interrogativa indireta."
+          },
+          {
+            "nome": "Discurso indireto livre",
+            "o_que_e": "A fala ou o pensamento da personagem aparece no meio da narração, sem verbo de elocução e sem conectivo.",
+            "atencao": "Mantém a terceira pessoa e o tempo da narração, mas conserva interrogações e exclamações da personagem."
+          },
+          {
+            "nome": "Verbo de elocução",
+            "o_que_e": "Verbo que introduz a fala: dizer, afirmar, perguntar, responder, ordenar, exclamar.",
+            "atencao": "É o verbo dicendi; no indireto livre, ele não aparece."
+          }
+        ],
+        "colunas": [
+          "Discurso",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Se o verbo de elocução estiver no presente, os tempos não mudam:</strong> O relator diz: \"O prazo está vencido\" passa a \"O relator diz que o prazo está vencido\", e não \"estava vencido\"; só os pronomes passam à terceira pessoa.",
+        "<strong>Indireto livre na prática:</strong> em \"Marta fechou a pasta devagar. Como ia explicar aquilo ao chefe? Não havia saída.\", a pergunta é o pensamento de Marta incorporado à voz do narrador, sem verbo de elocução.",
+        "<strong>Vocativos e interjeições</strong> do discurso direto desaparecem no indireto ou são incorporados à narração: Ana gritou: \"Pedro, cuidado!\" vira Ana gritou a Pedro que tomasse cuidado."
+      ],
       "macetes": [
         {
           "sigla": "OLHE PRIMEIRO O VERBO DE ELOCUÇÃO",
-          "texto": "Se ele está no passado (disse), os tempos recuam. Se está no presente (diz), os tempos da fala não mudam: “Ele diz que está cansado”."
+          "texto": "Se ele está no passado (disse), os tempos recuam. Se está no presente (diz), os tempos da fala não mudam: \"Ele diz que está cansado\"."
         },
         {
           "sigla": "PERFEITO VAI A MAIS-QUE-PERFEITO",
           "texto": "Presente vira imperfeito; perfeito vira mais-que-perfeito (fizera, tinha feito); futuro do presente vira futuro do pretérito; imperativo vira imperfeito do subjuntivo."
         },
         {
-          "sigla": "SEM “DISSE QUE” E SEM ASPAS",
+          "sigla": "SEM \"DISSE QUE\" E SEM ASPAS",
           "texto": "Fala ou pensamento da personagem dentro da frase do narrador, sem verbo de elocução nem conectivo, é indireto livre."
         }
       ],
       "pegadinha": {
-        "afirmacao": "A frase O chefe ordenou: “Arquive estes processos” passa corretamente ao discurso indireto como “O chefe ordenou que o servidor arquivasse estes processos”.",
+        "afirmacao": "A frase O chefe ordenou: \"Arquive estes processos\" passa corretamente ao discurso indireto como \"O chefe ordenou que o servidor arquivasse estes processos\".",
         "gabarito": "E",
-        "explicacao": "O verbo foi bem transposto (imperativo para imperfeito do subjuntivo), mas o demonstrativo não: no indireto, “estes” passa a “aqueles”. O correto é “arquivasse aqueles processos”."
+        "explicacao": "O verbo foi bem transposto (imperativo para imperfeito do subjuntivo), mas o demonstrativo não: no indireto, \"estes\" passa a \"aqueles\". O correto é \"arquivasse aqueles processos\"."
       },
-      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>Se o verbo de elocução estiver no presente, os tempos não mudam: O relator diz: “O prazo está vencido” passa a “O relator diz que o prazo está vencido”, e não “estava vencido”; só os pronomes passam à terceira pessoa. O indireto livre mantém a terceira pessoa e o tempo da narração, mas conserva as interrogações, as exclamações e o modo de falar da personagem: em “Marta fechou a pasta devagar. Como ia explicar aquilo ao chefe? Não havia saída.”, a pergunta é o pensamento de Marta incorporado à voz do narrador. Vocativos e interjeições do discurso direto desaparecem no indireto ou são incorporados à narração.</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Na passagem de A servidora disse: \"Fiz o levantamento ontem\" para o indireto, o pretérito perfeito passa ao imperfeito: \"disse que fazia o levantamento no dia anterior\".",
+          "certo": "O pretérito perfeito passa ao mais-que-perfeito: \"disse que fizera (tinha feito) o levantamento no dia anterior\".",
+          "fonte": "Questão do app sobre transposição de discurso"
+        },
+        {
+          "errado": "No discurso indireto livre, a fala da personagem vem introduzida por verbo de elocução seguido de \"que\".",
+          "certo": "O indireto livre não tem verbo de elocução nem conectivo; a fala aparece misturada à narração.",
+          "fonte": "Questão do app sobre discurso indireto livre"
+        },
+        {
+          "errado": "O relator diz: \"O prazo está vencido\" passa ao indireto como \"O relator diz que o prazo estava vencido\".",
+          "certo": "Com o verbo de elocução no presente, os tempos não mudam: \"diz que o prazo está vencido\".",
+          "fonte": "Questão do app sobre transposição de discurso"
+        },
+        {
+          "errado": "O diretor declarou: \"Entregarei o relatório amanhã\" passa ao indireto como \"O diretor declarou que entregará o relatório amanhã\".",
+          "certo": "Com \"declarou\" no passado, o futuro do presente vai ao futuro do pretérito e o advérbio se ajusta: \"que entregaria o relatório no dia seguinte\".",
+          "fonte": "Questão do app sobre correlação dos tempos"
+        }
+      ],
+      "ja_caiu": [
+        "Questões do app sobre transposição do discurso direto para o indireto e sobre o indireto livre"
+      ],
       "relacionados": [
         "tempos-e-modos-verbais",
         "reescrita-de-frases-e-substituicao-de-trechos",
@@ -1013,28 +1973,81 @@
       "dispositivos": [],
       "conceitos": [
         "contexto de produção",
+        "contexto de recepção",
         "contexto histórico",
-        "anacronismo",
+        "leitura situada",
+        "marcas de época",
         "arcaísmo",
-        "marcas de época"
+        "neologismo",
+        "anacronismo"
       ],
       "palavras": [
         "contexto de producao",
-        "contexto historico",
         "contexto de recepcao",
-        "marca de epoca",
+        "contexto historico",
+        "leitura situada",
+        "marcas de epoca",
         "arcaismo",
         "neologismo",
         "anacronismo",
-        "leitura situada",
-        "interlocutor"
+        "vossemece",
+        "botica",
+        "alcova",
+        "reis",
+        "bonde",
+        "epoca",
+        "interlocutor",
+        "finalidade",
+        "veiculo de publicacao",
+        "data",
+        "extrapolacao",
+        "seculo xix",
+        "ditadura"
       ],
-      "resumo": "Todo texto é produzido numa situação concreta: um autor, em certa época e lugar, dirige-se a um interlocutor com certa finalidade; isso é o <strong>contexto de produção</strong>. Ler o texto em seu <strong>contexto histórico</strong> é relacioná-lo às ideias, aos valores, às instituições e aos fatos da época em que foi escrito. A <strong>leitura situada</strong> avalia o sentido de uma palavra ou de uma opinião pelo uso da época, e não pelo valor que ela tem hoje. As <strong>marcas de época</strong> (vocabulário, formas de tratamento, grafias antigas, referências a costumes, moedas, objetos e instituições extintos) ajudam a situar o texto no tempo. O <strong>anacronismo</strong> é atribuir a uma época algo que pertence a outra. E o contexto ajuda a interpretar, mas não autoriza atribuir ao autor posição que o texto não expressa.",
+      "resumo": "Todo texto é produzido numa situação concreta: um autor, em certa época e lugar, dirige-se a um interlocutor com certa finalidade; isso é o <strong>contexto de produção</strong>. Ler o texto em seu <strong>contexto histórico</strong> é relacioná-lo às ideias, aos valores, às instituições e aos fatos da época em que foi escrito. Exemplo: numa crônica de jornal da década de 1950, a menção ao \"bonde da linha do centro\" só se entende bem quando o leitor lembra que o bonde era transporte urbano comum naquela época. A <strong>leitura situada</strong> avalia uma palavra ou uma opinião pelo uso da época, e não pelo valor que ela tem hoje; fazer o contrário é <strong>anacronismo</strong>, que é atribuir a uma época algo que pertence a outra. O contexto ajuda a interpretar, mas não autoriza atribuir ao autor posição que o texto não expressa.",
       "esquema": {
         "rotulo": "conceitos que a banca troca",
-        "html": "<table><thead><tr><th>Conceito</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Contexto de produção</strong></td><td>Autor, época, lugar, interlocutor, finalidade, data e veículo de publicação</td><td>Crônica de jornal da década de 1950 que fala do “bonde da linha do centro”</td></tr><tr><td><strong>Contexto de recepção</strong></td><td>O momento em que o texto é lido; pode dar sentidos novos ao texto</td><td>Poema escrito durante a ditadura militar relido à luz de debates atuais</td></tr><tr><td><strong>Marca de época</strong></td><td>Vocabulário, tratamento, grafia, moeda, costume ou objeto que situa o texto no tempo</td><td>“trata-se na botica do largo; preço: dez contos de réis”</td></tr><tr><td><strong>Arcaísmo</strong></td><td>Palavra ou construção que caiu em desuso</td><td>“vossemecê”, “botica”, “alcova”</td></tr><tr><td><strong>Neologismo</strong></td><td>Palavra nova, criada para nomear realidade nova</td><td>Termos criados para tecnologias recentes</td></tr><tr><td><strong>Anacronismo</strong></td><td>Atribuir a uma época algo que pertence a outra</td><td>Julgar um texto do século XIX por valores de hoje; personagem do Império com telefone celular</td></tr><tr><td><strong>Leitura situada</strong></td><td>Avaliar palavras e opiniões pelo uso da época do texto</td><td>Entender “vossemecê” como tratamento comum no passado</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Conceito</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Contexto de produção</strong></td><td>Autor, época, lugar, interlocutor, finalidade, data e veículo de publicação</td><td>Crônica de jornal da década de 1950 que fala do \"bonde da linha do centro\"</td></tr><tr><td><strong>Contexto de recepção</strong></td><td>O momento em que o texto é lido; pode dar sentidos novos ao texto</td><td>Poema escrito durante a ditadura militar relido à luz de debates atuais</td></tr><tr><td><strong>Marca de época</strong></td><td>Vocabulário, tratamento, grafia, moeda, costume ou objeto que situa o texto no tempo</td><td>Anúncio que pede \"tratar na botica do largo\" e fixa o preço em contos de réis</td></tr><tr><td><strong>Arcaísmo</strong></td><td>Palavra ou construção que caiu em desuso</td><td>\"vossemecê\", \"botica\", \"alcova\"</td></tr><tr><td><strong>Neologismo</strong></td><td>Palavra nova, criada para nomear realidade nova</td><td>Termos criados para tecnologias recentes</td></tr><tr><td><strong>Anacronismo</strong></td><td>Atribuir a uma época algo que pertence a outra</td><td>Julgar um texto do século XIX por valores de hoje; personagem do Império com telefone celular</td></tr><tr><td><strong>Leitura situada</strong></td><td>Avaliar palavras e opiniões pelo uso da época do texto</td><td>Entender \"vossemecê\" como tratamento comum no passado</td></tr></tbody></table>"
       },
-      "lei": [],
+      "figuras": {
+        "titulo": "O que compõe o contexto de produção, em uma linha",
+        "linhas": [
+          {
+            "nome": "Autor",
+            "o_que_e": "Quem escreve, com sua posição social e suas ideias."
+          },
+          {
+            "nome": "Época e lugar",
+            "o_que_e": "Quando e onde o texto foi escrito.",
+            "atencao": "Explicam as marcas de época."
+          },
+          {
+            "nome": "Interlocutor",
+            "o_que_e": "O leitor previsto: carta pessoal, discurso parlamentar e sermão pressupõem leitores e conhecimentos diferentes."
+          },
+          {
+            "nome": "Finalidade",
+            "o_que_e": "Para que o texto foi escrito: informar, convencer, instruir, divertir."
+          },
+          {
+            "nome": "Data e veículo",
+            "o_que_e": "A data e o veículo de publicação (jornal, revista, livro) integram o contexto de produção.",
+            "atencao": "Explicam referências que o texto não detalha."
+          }
+        ],
+        "colunas": [
+          "Elemento",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Marcas de época são vocabulário, formas de tratamento, grafias antigas e referências a costumes, moedas,</strong> objetos e instituições extintos: num anúncio de \"casa à venda; tratar na botica do largo; preço em contos de réis\", a moeda e a palavra \"botica\" situam o texto num período anterior ao atual.",
+        "<strong>Arcaísmo não prova a data:</strong> o arcaísmo pode indicar que o texto é antigo, mas também pode ser usado de propósito por autor atual, para recriar uma época ou produzir efeito de estilo. Confirme com outras marcas, como a data e o veículo de publicação.",
+        "<strong>Neologismo não é anacronismo:</strong> neologismo é palavra nova; arcaísmo é palavra em desuso; anacronismo é misturar épocas.",
+        "<strong>Sentidos novos, contexto de origem:</strong> um texto pode ganhar sentidos novos quando lido em outra época (contexto de recepção), mas as alusões a fatos do período em que foi escrito (a censura, um episódio político) só se reconhecem pelo contexto de produção.",
+        "<strong>Contexto e extrapolação:</strong> saber que um cronista escrevia em 1950 explica a menção ao bonde, mas não permite dizer que ele defendia a política de transporte do governo da época, se o texto não diz isso. Atribuir ao autor posição que o texto não expressa, só porque ela era comum na época, é extrapolação, e não leitura situada."
+      ],
       "macetes": [
         {
           "sigla": "RÉGUA DA ÉPOCA, NÃO A DE HOJE",
@@ -1050,12 +2063,30 @@
         }
       ],
       "pegadinha": {
-        "afirmacao": "A presença de arcaísmos como “vossemecê” e “alcova” prova que o texto em que aparecem foi escrito em época remota.",
+        "afirmacao": "A presença de arcaísmos como \"vossemecê\" e \"alcova\" prova que o texto em que aparecem foi escrito em época remota.",
         "gabarito": "E",
         "explicacao": "O arcaísmo pode indicar texto antigo, mas não prova a data: um autor atual pode usá-lo de propósito para recriar uma época ou produzir efeito de estilo. Confirme com outras marcas, como a data e o veículo de publicação."
       },
-      "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>O interlocutor previsto também condiciona o texto: carta pessoal, discurso parlamentar e sermão pressupõem leitores e conhecimentos diferentes. A data e o veículo de publicação (jornal, revista, livro) integram o contexto de produção e explicam referências que o texto não detalha. Um texto pode ganhar sentidos novos quando lido em outra época, mas o contexto de produção continua sendo o de origem: as alusões a fatos do período (a censura, um episódio político) só se reconhecem por ele.</p><p><strong>Distinções</strong></p><p>Contexto e extrapolação: saber que um cronista escrevia em 1950 explica a menção ao bonde, mas não permite dizer que ele defendia a política de transporte do governo da época, se o texto não diz isso. Atribuir ao autor posição que o texto não expressa, só porque ela era comum na época, é extrapolação, e não leitura situada.</p>",
-      "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
+      "pegadinhas": [
+        {
+          "errado": "Anacronismo é o emprego de palavra nova, criada recentemente para nomear realidade que antes não existia.",
+          "certo": "Isso é neologismo; anacronismo é atribuir a uma época algo que pertence a outra.",
+          "fonte": "Questão do app sobre anacronismo e neologismo"
+        },
+        {
+          "errado": "Quem condena o narrador de um romance do século XIX por não usar o vocabulário recomendado hoje faz uma leitura situada.",
+          "certo": "Julgar o texto pelos valores de hoje é anacronismo; a leitura situada usa os valores da época do texto.",
+          "fonte": "Questão do app sobre leitura situada"
+        },
+        {
+          "errado": "O contexto histórico autoriza atribuir ao autor posições que o texto não expressa, desde que compatíveis com as ideias da época.",
+          "certo": "O contexto ajuda a interpretar, mas atribuir ao autor posição que o texto não expressa é extrapolação.",
+          "fonte": "Questão do app sobre contexto e extrapolação"
+        }
+      ],
+      "ja_caiu": [
+        "Questões do app sobre contexto de produção, marcas de época e anacronismo"
+      ],
       "relacionados": [
         "compreensao-e-interpretacao-de-textos",
         "tipos-e-generos-textuais",
