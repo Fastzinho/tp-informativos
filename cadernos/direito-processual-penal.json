@@ -5114,235 +5114,207 @@
    ]
   },
   {
-   "slug": "sujeitos-do-processo",
-   "titulo": "Sujeitos do processo: juiz, impedimento e suspeição, MP, defensor e assistente",
-   "grupo": "Sujeitos e incidentes",
-   "base": "Arts. 251 a 273 e 107 do CPP",
-   "tax": [
-    "processo-penal.sujeitos-processo"
-   ],
-   "dispositivos": [
-    "n3689-1941-art-252",
-    "n3689-1941-art-254",
-    "n3689-1941-art-256",
-    "n3689-1941-art-258",
-    "n3689-1941-art-261",
-    "n3689-1941-art-263",
-    "n3689-1941-art-268",
-    "n3689-1941-art-269",
-    "n3689-1941-art-271",
-    "n3689-1941-art-273",
-    "n3689-1941-art-107"
-   ],
-   "conceitos": [
-    "impedimento do juiz",
-    "suspeição do juiz",
-    "defesa técnica",
-    "defensor dativo",
-    "assistente de acusação",
-    "suspeição da autoridade policial"
-   ],
-   "palavras": [
-    "impedimento",
-    "suspeicao",
-    "parente ate terceiro grau",
-    "tio delegado",
-    "juiz testemunha",
-    "juiz de outra instancia",
-    "amigo intimo",
-    "inimigo capital",
-    "aconselhou a parte",
-    "credor ou devedor",
-    "tutor curador",
-    "injuriar o juiz",
-    "suspeicao provocada",
-    "mp impedido",
-    "nenhum acusado sem defensor",
-    "defensor dativo honorarios",
-    "assistente de acusacao",
-    "ofendido assistente",
-    "corréu nao pode ser assistente",
-    "assistente recebe a causa no estado",
-    "despacho que admite assistente sem recurso",
-    "suspeicao do delegado",
-    "excecao de suspeicao autoridade policial"
-   ],
-   "resumo": "O <strong>impedimento</strong> (art. 252) decorre de fatos objetivos ligados ao próprio processo: o juiz não atua se ele, o cônjuge ou parente até o 3º grau funcionou como advogado, MP, <strong>autoridade policial</strong>, perito ou auxiliar, se ele foi testemunha, se julgou a questão em outra instância ou se é parte ou interessado. A <strong>suspeição</strong> (art. 254) decorre de vínculos com as partes, externos ao processo: amizade íntima ou inimizade capital, ter aconselhado a parte, ser credor, devedor, tutor ou curador dela, entre outros. A suspeição não pode ser reconhecida se a parte injuriar o juiz de propósito para criá-la. Nenhum acusado é processado sem <strong>defensor</strong>, ainda que ausente ou foragido. O ofendido pode ser <strong>assistente</strong> do MP na ação pública, a partir do recebimento da denúncia e até o trânsito em julgado, recebendo a causa no estado em que estiver; o corréu não pode ser assistente, e da decisão sobre a admissão não cabe recurso. Contra o delegado não se opõe exceção de suspeição, mas ele deve declarar-se suspeito quando houver motivo legal (art. 107).",
-   "esquema": {
-    "rotulo": "impedimento x suspeição",
-    "html": "<table><thead><tr><th></th><th>Impedimento (art. 252)</th><th>Suspeição (art. 254)</th></tr></thead><tbody><tr><td><strong>Origem</strong></td><td>Fatos internos ao processo</td><td>Vínculo do juiz com as partes</td></tr><tr><td><strong>Exemplos</strong></td><td>Parente atuou como delegado ou promotor no caso; juiz foi testemunha</td><td>Amigo íntimo ou inimigo; aconselhou a parte; credor ou devedor</td></tr><tr><td><strong>Contra o delegado</strong></td><td>Não se aplica</td><td>Ele deve declarar-se suspeito (art. 107)</td></tr></tbody></table>"
-   },
-   "lei": [
-    {
-     "texto": "Art. 252. O juiz não poderá exercer jurisdição no processo em que:\n\nI - tiver funcionado seu cônjuge ou parente, consangüíneo ou afim, em linha reta ou colateral até o 3º grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito;\n\nII - ele próprio houver desempenhado qualquer dessas funções ou servido como testemunha;\n\nIII - tiver funcionado como juiz de outra instância, pronunciando-se, de fato ou de direito, sobre a questão;\n\nIV - ele próprio ou seu cônjuge ou parente, consangüíneo ou afim em linha reta ou colateral até o 3º grau, inclusive, for parte ou diretamente interessado no feito.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 254. O juiz dar-se-á por suspeito, e, se não o fizer, poderá ser recusado por qualquer das partes:\n\nI - se for amigo íntimo ou inimigo capital de qualquer delas;\n\nII - se ele, seu cônjuge, ascendente ou descendente, estiver respondendo a processo por fato análogo, sobre cujo caráter criminoso haja controvérsia;\n\nIII - se ele, seu cônjuge, ou parente, consangüíneo ou afim, até o 3º grau, inclusive, sustentar demanda ou responder a processo que tenha de ser julgado por qualquer das partes;\n\nIV - se tiver aconselhado qualquer das partes;\n\nV - se for credor ou devedor, tutor ou curador, de qualquer das partes;\n\nVI - se for sócio, acionista ou administrador de sociedade interessada no processo.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 107. Não se poderá opor suspeição às autoridades policiais nos atos do inquérito, mas deverão elas declarar-se suspeitas, quando ocorrer motivo legal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 268. Em todos os termos da ação pública, poderá intervir, como assistente do Ministério Público, o ofendido ou seu representante legal, ou, na falta, qualquer das pessoas mencionadas no art. 31.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 269. O assistente será admitido enquanto não passar em julgado a sentença e receberá a causa no estado em que se achar.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "IMPEDIMENTO É DENTRO, SUSPEIÇÃO É FORA",
-     "texto": "Impedimento olha quem atuou no processo. Suspeição olha a relação do juiz com as partes."
-    },
-    {
-     "sigla": "DELEGADO SE DECLARA, NÃO É RECUSADO",
-     "texto": "Ninguém opõe exceção de suspeição ao delegado, mas ele tem o dever de se declarar suspeito."
-    }
-   ],
-   "juris": [
-    {
-     "quem": "STF · Súmula 523",
-     "texto": "No processo penal, a falta da defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu."
-    },
-    {
-     "quem": "STF · Súmula 208",
-     "texto": "O assistente do Ministério Público não pode recorrer, extraordinariamente, de decisão concessiva de habeas corpus."
-    }
-   ],
-   "pegadinha": {
-    "afirmacao": "O fato de não ser cabível a oposição de exceção de suspeição à autoridade policial na presidência do inquérito faz, por consequência, que não sejam cabíveis as hipóteses de suspeição em investigação criminal.",
-    "gabarito": "E",
-    "explicacao": "A parte não pode opor a exceção, mas o delegado deve declarar-se suspeito quando houver motivo legal (art. 107) (Cebraspe, Delegado PF 2018)."
-   },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-PB 2022 (o tio do juiz atuou como delegado no inquérito: impedimento; amizade íntima, aconselhamento e tutela são suspeição); Cebraspe, Seres-PE 2021 (é suspeição o cônjuge do juiz responder por fato análogo; a injúria da parte não a gera); Cebraspe, Delegado PC-AL 2023 (não cabe exceção de suspeição contra o delegado); Cebraspe, Policial Penal AL 2021 (o corréu não pode ser assistente, art. 270).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>A defesa técnica é indisponível; a autodefesa, que compreende o direito de audiência e o de presença, é renunciável.</p><p><strong>Pegadinhas que já caíram</strong></p><p>Errado: as hipóteses de impedimento são objetivas e subjetivas. Certo: são objetivas, ligadas ao processo, e as de suspeição se referem a circunstâncias externas a ele (Cebraspe, Delegado PF 2018).</p>",
-   "relacionados": [
-    "questoes-prejudiciais-e-excecoes",
-    "nulidades",
-    "inquerito-policial"
-   ]
-  },
-  {
    "slug": "questoes-prejudiciais-e-excecoes",
-   "titulo": "Questões prejudiciais, exceções, restituição de coisas e insanidade mental",
+   "titulo": "Questões prejudiciais e exceções de litispendência, ilegitimidade e coisa julgada",
    "grupo": "Sujeitos e incidentes",
-   "base": "Arts. 92 a 124 e 149 a 154 do CPP",
+   "base": "Arts. 92 a 95, 110 e 111 do CPP",
    "tax": [
     "processo-penal.questoes-processos-incidentes"
    ],
    "dispositivos": [
     "n3689-1941-art-92",
     "n3689-1941-art-93",
+    "n3689-1941-art-94",
     "n3689-1941-art-95",
-    "n3689-1941-art-111",
-    "n3689-1941-art-118",
-    "n3689-1941-art-120",
-    "n3689-1941-art-149",
-    "n3689-1941-art-152"
+    "n3689-1941-art-110",
+    "n3689-1941-art-111"
    ],
    "conceitos": [
-    "questão prejudicial obrigatória",
-    "questão prejudicial facultativa",
+    "questão prejudicial",
+    "prejudicial obrigatória sobre estado civil",
+    "prejudicial facultativa",
+    "suspensão do processo",
+    "provas urgentes",
+    "prazo da suspensão",
+    "suspensão da prescrição",
     "exceções processuais",
-    "litispendência",
-    "coisa julgada",
-    "restituição de coisas apreendidas",
-    "incidente de insanidade mental"
+    "exceção de litispendência",
+    "exceção de ilegitimidade de parte",
+    "exceção de coisa julgada",
+    "autos apartados",
+    "recursos nas exceções"
    ],
    "palavras": [
     "questao prejudicial",
-    "estado civil das pessoas",
-    "suspensao obrigatoria",
-    "suspensao facultativa",
-    "posse questao civel",
-    "incidenter tantum",
+    "prejudicial obrigatoria",
+    "prejudicial facultativa",
+    "estado civil",
+    "seria e fundada",
+    "bigamia",
+    "juizo civel",
+    "sentenca passada em julgado",
+    "provas urgentes",
+    "testemunhas",
+    "ministerio publico promove acao civil",
+    "posse",
+    "propriedade",
+    "esbulho",
+    "dificil solucao",
+    "direito cuja prova a lei civil limite",
+    "prazo da suspensao",
+    "prorrogado",
+    "retomando sua competencia",
+    "nao cabera recurso",
+    "de oficio",
+    "art 116 cp",
     "prescricao suspensa",
+    "rese",
     "excecoes",
-    "suspeicao incompetencia litispendencia ilegitimidade coisa julgada",
+    "suspeicao",
+    "incompetencia",
+    "litispendencia",
+    "ilegitimidade de parte",
+    "coisa julgada",
+    "fato principal",
+    "numa so peticao",
     "autos apartados",
-    "nao suspendem o processo",
-    "litispendencia de oficio",
-    "restituicao de coisas",
-    "enquanto interessarem ao processo",
-    "delegado pode restituir",
-    "terceiro de boa fe",
-    "insanidade mental",
-    "curador",
-    "doenca mental superveniente",
-    "processo suspenso"
+    "nao suspendem"
    ],
-   "resumo": "A <strong>questão prejudicial</strong> é a que precisa ser resolvida antes do mérito penal. Se versa sobre o <strong>estado civil das pessoas</strong> e é séria e fundada, a suspensão do processo é <strong>obrigatória</strong> até a decisão cível (art. 92). Se versa sobre outra matéria cível, como a posse ou a propriedade, a suspensão é <strong>facultativa</strong> e exige ação cível já proposta; o juiz criminal pode resolver a questão incidentalmente (art. 93). Enquanto o processo fica suspenso, a prescrição também fica. As <strong>exceções</strong> são suspeição, incompetência, litispendência, ilegitimidade de parte e coisa julgada; correm em autos apartados e, em regra, não suspendem a ação. As coisas apreendidas não são <strong>restituídas</strong> enquanto interessarem ao processo; sem dúvida sobre o dono, o delegado ou o juiz podem restituir, mas, se houver dúvida ou terceiro de boa-fé, só o juiz decide. Havendo dúvida sobre a sanidade do acusado, o juiz determina o <strong>exame de insanidade</strong>, nomeia curador e suspende o processo; o exame pode ser pedido já no inquérito, por representação do delegado.",
+   "resumo": "<strong>Questão prejudicial</strong> é a que precisa ser resolvida antes porque dela depende a existência do crime. Se ela versa sobre o <strong>estado civil das pessoas</strong> e é séria e fundada, a suspensão é <strong>obrigatória</strong>: a ação penal fica parada até a sentença cível transitar em julgado, mas o juiz ainda colhe as provas urgentes (art. 92). Nas demais questões de competência do juízo cível, como posse ou propriedade, a suspensão é <strong>facultativa</strong> e exige ação cível já proposta, questão de difícil solução e direito cuja prova a lei civil não limite (art. 93). O juiz marca prazo, que pode ser prorrogado; vencido, ele mesmo decide a questão. Não cabe recurso da decisão que nega a suspensão. Enquanto o processo está suspenso, a <strong>prescrição não corre</strong> (art. 116, I, do CP). As <strong>exceções</strong> são as de suspeição, incompetência, litispendência, ilegitimidade de parte e coisa julgada (art. 95). As três últimas seguem o rito da exceção de incompetência, numa só petição, e a de coisa julgada só vale quanto ao fato principal julgado (art. 110). As exceções correm em autos apartados e, em regra, não suspendem a ação (art. 111).",
    "esquema": {
-    "rotulo": "prejudiciais",
-    "html": "<table><thead><tr><th></th><th>Art. 92</th><th>Art. 93</th></tr></thead><tbody><tr><td><strong>Matéria</strong></td><td>Estado civil das pessoas</td><td>Outra questão cível (posse, propriedade)</td></tr><tr><td><strong>Suspensão</strong></td><td>Obrigatória</td><td>Facultativa</td></tr><tr><td><strong>Exige ação cível em curso?</strong></td><td>Não</td><td>Sim</td></tr><tr><td><strong>Recurso contra a negativa de suspensão</strong></td><td>Não se aplica</td><td>Não cabe (art. 93, § 2º)</td></tr></tbody></table>"
+    "rotulo": "prejudicial obrigatória e facultativa",
+    "html": "<table><thead><tr><th>Ponto</th><th>Obrigatória (art. 92)</th><th>Facultativa (art. 93)</th></tr></thead><tbody><tr><td><strong>Matéria</strong></td><td>Estado civil das pessoas (casamento, parentesco, idade)</td><td>Outra questão cível, como posse ou propriedade</td></tr><tr><td><strong>Ação cível</strong></td><td>Não precisa estar proposta; na ação pública, o MP a promove</td><td>Precisa estar proposta</td></tr><tr><td><strong>Suspensão</strong></td><td>Obrigatória, até o trânsito em julgado da sentença cível</td><td>Faculdade do juiz, por prazo que ele marca</td></tr><tr><td><strong>Provas urgentes</strong></td><td>Colhidas antes de suspender</td><td>Colhidas antes de suspender</td></tr><tr><td><strong>Prazo vencido</strong></td><td>Não se aplica</td><td>O juiz criminal retoma o processo e decide tudo</td></tr><tr><td><strong>Recurso</strong></td><td>Cabe recurso em sentido estrito da decisão que suspende (art. 581, XVI)</td><td>Não cabe recurso da decisão que nega a suspensão (art. 93, § 2º)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "As cinco exceções do art. 95",
+    "linhas": [
+     {
+      "nome": "Suspeição",
+      "o_que_e": "Afasta o juiz parcial. Precede qualquer outra exceção.",
+      "atencao": "Tem rito próprio (arts. 96 a 107)."
+     },
+     {
+      "nome": "Incompetência",
+      "o_que_e": "Leva o processo ao juízo competente. Oposta no prazo de defesa.",
+      "atencao": "Veja o tema de incompetência e conflito."
+     },
+     {
+      "nome": "Litispendência",
+      "o_que_e": "Réu processado duas vezes pelo mesmo fato em processos em curso.",
+      "atencao": "Na ação pública, pode ser reconhecida de ofício e arguida a qualquer tempo."
+     },
+     {
+      "nome": "Ilegitimidade de parte",
+      "o_que_e": "Quem acusa ou quem é acusado não pode figurar no processo.",
+      "atencao": "Ex.: MP oferece denúncia em crime de ação privada."
+     },
+     {
+      "nome": "Coisa julgada",
+      "o_que_e": "O mesmo fato já foi julgado por sentença definitiva.",
+      "atencao": "Só vale quanto ao fato principal que foi objeto da sentença."
+     }
+    ],
+    "colunas": [
+     "Exceção",
+     "Para que serve",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 92. Se a decisão sobre a existência da infração depender da solução de controvérsia, que o juiz repute séria e fundada, sobre o estado civil das pessoas, o curso da ação penal ficará suspenso até que no juízo cível seja a controvérsia dirimida por sentença passada em julgado, sem prejuízo, entretanto, da inquirição das testemunhas e de outras provas de natureza urgente.\n\nParágrafo único. Se for o crime de ação pública, o Ministério Público, quando necessário, promoverá a ação civil ou prosseguirá na que tiver sido iniciada, com a citação dos interessados.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 92.",
+      "Art. 93.",
+      "Art. 94.",
+      "Art. 95.",
+      "Art. 110.",
+      "Art. 111."
+     ],
+     "ref": "arts. 92 a 95, 110 e 111 do CPP",
+     "regras": [
+      "<strong>Art. 92.</strong> Prejudicial sobre estado civil, séria e fundada: a ação penal fica suspensa até a sentença cível transitar em julgado, sem prejuízo das provas urgentes. Na ação pública, o MP promove a ação civil ou prossegue nela.",
+      "<strong>Art. 93.</strong> Outra questão cível com ação já proposta, de difícil solução e sem limite legal de prova: o juiz pode suspender, depois das provas urgentes, por prazo prorrogável. Vencido o prazo, retoma o processo e decide. Não cabe recurso da decisão que nega a suspensão. Na ação pública, o MP intervém na causa cível.",
+      "<strong>Art. 94.</strong> A suspensão é decretada de ofício ou a requerimento das partes.",
+      "<strong>Art. 95.</strong> Exceções: suspeição, incompetência de juízo, litispendência, ilegitimidade de parte e coisa julgada.",
+      "<strong>Art. 110.</strong> Litispendência, ilegitimidade e coisa julgada seguem o rito da exceção de incompetência; várias exceções vão numa só petição; a de coisa julgada só vale quanto ao fato principal objeto da sentença.",
+      "<strong>Art. 111.</strong> As exceções correm em autos apartados e, em regra, não suspendem a ação penal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o curso da ação penal ficará suspenso até que no juízo cível seja a controvérsia dirimida",
+       "marcas": [
+        "ficará suspenso"
+       ],
+       "afirmacao": "O acusado de bigamia alega, com fundamento sério, que o primeiro casamento é nulo. O juiz pode escolher se suspende ou não a ação penal.",
+       "gabarito": "E",
+       "porque": "Questão séria e fundada sobre estado civil impõe a suspensão (art. 92). A escolha só existe na prejudicial facultativa (art. 93)."
+      },
+      {
+       "trecho": "sem prejuízo, entretanto, da inquirição das testemunhas e de outras provas de natureza urgente",
+       "marcas": [
+        "provas de natureza urgente"
+       ],
+       "afirmacao": "Suspensa a ação penal por questão sobre estado civil, o juiz ainda pode ouvir uma testemunha idosa e muito doente.",
+       "gabarito": "C",
+       "porque": "A suspensão não impede a inquirição de testemunhas e outras provas urgentes (art. 92)."
+      },
+      {
+       "trecho": "e se neste houver sido proposta ação para resolvê-la",
+       "marcas": [
+        "houver sido proposta ação"
+       ],
+       "afirmacao": "O réu por esbulho alega que a posse da área está em disputa, mas ninguém propôs ação cível. O juiz pode suspender o processo com base no art. 93.",
+       "gabarito": "E",
+       "porque": "A prejudicial facultativa exige ação cível já proposta (art. 93)."
+      },
+      {
+       "trecho": "o juiz criminal fará prosseguir o processo, retomando sua competência para resolver, de fato e de direito, toda a matéria da acusação ou da defesa",
+       "marcas": [
+        "retomando sua competência"
+       ],
+       "afirmacao": "Vencido o prazo da suspensão sem decisão do juiz cível, o juiz criminal retoma o processo e decide ele mesmo a questão da posse.",
+       "gabarito": "C",
+       "porque": "Expirado o prazo, o juiz criminal retoma a competência para resolver toda a matéria (art. 93, § 1º)."
+      },
+      {
+       "trecho": "Do despacho que denegar a suspensão não caberá recurso.",
+       "marcas": [
+        "não caberá recurso"
+       ],
+       "afirmacao": "O juiz nega a suspensão do processo pedida com base no art. 93. A defesa pode interpor recurso em sentido estrito contra essa decisão.",
+       "gabarito": "E",
+       "porque": "Não cabe recurso da decisão que nega a suspensão (art. 93, § 2º). Cabe recurso em sentido estrito da que a concede (art. 581, XVI)."
+      },
+      {
+       "trecho": "deverá fazê-lo numa só petição ou articulado",
+       "marcas": [
+        "numa só petição"
+       ],
+       "afirmacao": "A defesa que quer opor as exceções de litispendência e de coisa julgada deve fazê-lo numa só petição.",
+       "gabarito": "C",
+       "porque": "Havendo mais de uma dessas exceções, a parte as opõe numa só petição ou articulado (art. 110, § 1º)."
+      },
+      {
+       "trecho": "não suspenderão, em regra, o andamento da ação penal",
+       "marcas": [
+        "não suspenderão, em regra"
+       ],
+       "afirmacao": "Oposta a exceção de litispendência, a ação penal fica automaticamente suspensa até o julgamento dela.",
+       "gabarito": "E",
+       "porque": "As exceções correm em autos apartados e, em regra, não suspendem a ação penal (art. 111)."
+      }
+     ],
+     "conferido": {
+      "Art. 92.": "2d7d219bcc10",
+      "Art. 93.": "02790d126032",
+      "Art. 94.": "2ba2efd028f5",
+      "Art. 95.": "2f176e2eaa16",
+      "Art. 110.": "4d1fd8c707d5",
+      "Art. 111.": "b2e150368356"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 93. Se o reconhecimento da existência da infração penal depender de decisão sobre questão diversa da prevista no artigo anterior, da competência do juízo cível, e se neste houver sido proposta ação para resolvê-la, o juiz criminal poderá, desde que essa questão seja de difícil solução e não verse sobre direito cuja prova a lei civil limite, suspender o curso do processo, após a inquirição das testemunhas e realização das outras provas de natureza urgente.\n\n§ 1º O juiz marcará o prazo da suspensão, que poderá ser razoavelmente prorrogado, se a demora não for imputável à parte. Expirado o prazo, sem que o juiz cível tenha proferido decisão, o juiz criminal fará prosseguir o processo, retomando sua competência para resolver, de fato e de direito, toda a matéria da acusação ou da defesa.\n\n§ 2º Do despacho que denegar a suspensão não caberá recurso.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 95. Poderão ser opostas as exceções de:\n\nI - suspeição;\n\nII - incompetência de juízo;\n\nIII - litispendência;\n\nIV - ilegitimidade de parte;\n\nV - coisa julgada.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 111. As exceções serão processadas em autos apartados e não suspenderão, em regra, o andamento da ação penal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 118. Antes de transitar em julgado a sentença final, as coisas apreendidas não poderão ser restituídas enquanto interessarem ao processo.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 120. A restituição, quando cabível, poderá ser ordenada pela autoridade policial ou juiz, mediante termo nos autos, desde que não exista dúvida quanto ao direito do reclamante.\n\n§ 1º Se duvidoso esse direito, o pedido de restituição autuar-se-á em apartado, assinando-se ao requerente o prazo de 5 dias para a prova. Em tal caso, só o juiz criminal poderá decidir o incidente.\n\n§ 2º O incidente autuar-se-á também em apartado e só a autoridade judicial o resolverá, se as coisas forem apreendidas em poder de terceiro de boa-fé, que será intimado para alegar e provar o seu direito, em prazo igual e sucessivo ao do reclamante, tendo um e outro dois dias para arrazoar.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 149. Quando houver dúvida sobre a integridade mental do acusado, o juiz ordenará, de ofício ou a requerimento do Ministério Público, do defensor, do curador, do ascendente, descendente, irmão ou cônjuge do acusado, seja este submetido a exame médico-legal.\n\n§ 1º O exame poderá ser ordenado ainda na fase do inquérito, mediante representação da autoridade policial ao juiz competente.\n\n§ 2º O juiz nomeará curador ao acusado, quando determinar o exame, ficando suspenso o processo, se já iniciada a ação penal, salvo quanto às diligências que possam ser prejudicadas pelo adiamento.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "ESTADO CIVIL SUSPENDE SEMPRE",
-     "texto": "Casamento, filiação, idade: prejudicial obrigatória. O resto do direito civil é facultativo."
-    },
-    {
-     "sigla": "EXCEÇÃO NÃO PARA O PROCESSO",
-     "texto": "As exceções correm em apartado e, em regra, o processo segue."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -5351,119 +5323,945 @@
      "texto": "Antes de passar em julgado a sentença final, a prescrição não corre enquanto não resolvida, em outro processo, questão de que dependa o reconhecimento da existência do crime."
     }
    ],
+   "detalhes": [
+    "Na ação pública incondicionada, a litispendência pode ser arguida a qualquer tempo pela defesa e pelo MP, ou reconhecida de ofício pelo juiz (Cebraspe, Delegado PC-CE 2025).",
+    "Certo dizer que, se a existência da infração depender de controvérsia séria e fundada sobre o estado civil das pessoas, a ação penal fica suspensa até o trânsito em julgado da decisão cível (art. 92) (Cebraspe, Analista MPCE 2025).",
+    "Contra a decisão que julga procedente exceção, salvo a de suspeição, cabe recurso em sentido estrito (art. 581, III). Da que a rejeita não cabe recurso próprio; a matéria pode voltar em preliminar de apelação ou em habeas corpus.",
+    "Prescrição não é exceção do art. 95: é causa de extinção da punibilidade, reconhecida de ofício a qualquer tempo (art. 61).",
+    "Questão prejudicial não se confunde com questão preliminar: a prejudicial é de mérito e autônoma, pode ser objeto de outro processo; a preliminar é processual e só existe dentro do processo."
+   ],
+   "macetes": [
+    {
+     "sigla": "ESTADO CIVIL SUSPENDE, O RESTO PODE",
+     "texto": "Prejudicial sobre estado civil: suspensão obrigatória. Outras questões cíveis: suspensão facultativa, com ação já proposta."
+    },
+    {
+     "sigla": "NEGOU A SUSPENSÃO, SEM RECURSO",
+     "texto": "Da decisão que nega a suspensão do art. 93 não cabe recurso; da que suspende cabe recurso em sentido estrito."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "Réu por apropriação indébita alega que discute a posse da coisa em ação cível que propôs. Nesse caso, o juiz criminal deverá suspender a ação penal até a decisão do juízo cível.",
     "gabarito": "E",
     "explicacao": "Posse não é estado civil: a suspensão é facultativa (art. 93), e o juiz criminal pode resolver a questão incidentalmente, sem suspender (Cebraspe, Delegado PC-RJ 2022)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Litispendência.</strong> Na ação pública incondicionada, a litispendência pode ser arguida a qualquer tempo pela defesa e pelo MP, ou reconhecida de ofício pelo juiz (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Estado civil.</strong> Certo dizer que, se a existência da infração depender de controvérsia séria e fundada sobre o estado civil das pessoas, a ação penal fica suspensa até o trânsito em julgado da decisão cível (art. 92) (Cebraspe, Analista MPCE 2025).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Expirado o prazo do art. 93 sem decisão cível, o processo penal continua suspenso até a sentença do juízo cível.",
+     "certo": "O juiz criminal retoma o processo e decide a questão (art. 93, § 1º).",
+     "fonte": "Questão do app sobre o art. 93"
+    },
+    {
+     "errado": "No processo penal, podem ser opostas as exceções de incompetência e de prescrição.",
+     "certo": "Prescrição não é exceção do art. 95; é extinção da punibilidade.",
+     "fonte": "Questão do app sobre o art. 95"
+    },
+    {
+     "errado": "Na prejudicial sobre estado civil em crime de ação pública, cabe ao ofendido promover a ação civil.",
+     "certo": "O MP promove a ação civil, quando necessário (art. 92, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 92"
+    },
+    {
+     "errado": "As exceções de litispendência e coisa julgada seguem o rito da exceção de suspeição.",
+     "certo": "Seguem o rito da exceção de incompetência (art. 110).",
+     "fonte": "Questão do app sobre o art. 110"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-RJ 2022; Delegado PC-CE 2025; Analista MPCE 2025"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: agora trata das questões prejudiciais e das exceções de litispendência, ilegitimidade e coisa julgada. Suspeição e restituição ganharam temas próprios."
+    }
+   ],
+   "relacionados": [
+    "impedimento-e-suspeicao",
+    "incompetencia-e-conflito-de-competencia",
+    "restituicao-de-coisas-apreendidas"
+   ]
+  },
+  {
+   "slug": "impedimento-e-suspeicao",
+   "titulo": "Impedimento, suspeição e exceção de suspeição",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 96 a 107, 112, 252 a 256 e 258 do CPP",
+   "tax": [
+    "processo-penal.sujeitos-processo.imparcialidade",
+    "processo-penal.questoes-processos-incidentes.suspeicao"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-96",
+    "n3689-1941-art-97",
+    "n3689-1941-art-98",
+    "n3689-1941-art-99",
+    "n3689-1941-art-100",
+    "n3689-1941-art-101",
+    "n3689-1941-art-102",
+    "n3689-1941-art-103",
+    "n3689-1941-art-104",
+    "n3689-1941-art-105",
+    "n3689-1941-art-106",
+    "n3689-1941-art-107",
+    "n3689-1941-art-112",
+    "n3689-1941-art-252",
+    "n3689-1941-art-253",
+    "n3689-1941-art-254",
+    "n3689-1941-art-255",
+    "n3689-1941-art-256",
+    "n3689-1941-art-258"
+   ],
+   "conceitos": [
+    "imparcialidade do juiz",
+    "impedimento",
+    "suspeição",
+    "rol taxativo do impedimento",
+    "parentesco até o 3º grau",
+    "afinidade e dissolução do casamento",
+    "suspeição provocada pela parte",
+    "exceção de suspeição",
+    "precedência da suspeição",
+    "rito da exceção de suspeição",
+    "suspeição nos tribunais",
+    "suspeição do MP, de peritos e de serventuários",
+    "suspeição de jurados",
+    "suspeição do delegado",
+    "impedimento do MP"
+   ],
+   "palavras": [
+    "impedimento",
+    "suspeicao",
+    "art 252",
+    "art 254",
+    "conjuge",
+    "parente",
+    "consanguineo",
+    "afim",
+    "terceiro grau",
+    "tio",
+    "defensor",
+    "autoridade policial",
+    "testemunha",
+    "juiz de outra instancia",
+    "parte interessada",
+    "juizos coletivos",
+    "amigo intimo",
+    "inimigo capital",
+    "fato analogo",
+    "aconselhado",
+    "credor",
+    "devedor",
+    "tutor",
+    "curador",
+    "socio",
+    "acionista",
+    "dissolucao do casamento",
+    "descendentes",
+    "sogro",
+    "padrasto",
+    "cunhado",
+    "genro",
+    "enteado",
+    "injuriar o juiz",
+    "excecao de suspeicao",
+    "precedera a qualquer outra",
+    "motivo superveniente",
+    "por escrito",
+    "procurador com poderes especiais",
+    "autos em apartado",
+    "tres dias",
+    "vinte e quatro horas",
+    "manifesta improcedencia",
+    "atos nulos",
+    "relator",
+    "revisor",
+    "tribunal pleno",
+    "vice-presidente",
+    "suspeicao do promotor",
+    "sem recurso",
+    "peritos",
+    "interpretes",
+    "serventuarios",
+    "jurados",
+    "oralmente",
+    "delegado",
+    "art 107",
+    "sumula 234",
+    "incompatibilidade"
+   ],
+   "resumo": "O juiz deve ser imparcial. No <strong>impedimento</strong> (art. 252), o vínculo é com o próprio processo: ele não atua se ele mesmo, o cônjuge ou parente até o 3º grau funcionou no caso como advogado, MP, delegado, perito ou auxiliar, se ele foi testemunha, se já decidiu a questão em outra instância ou se é parte ou interessado. Nos juízos coletivos, parentes não servem juntos (art. 253). Na <strong>suspeição</strong> (art. 254), o vínculo é com as partes: amizade íntima ou inimizade capital, processo por fato análogo, demanda a ser julgada por uma das partes, aconselhamento, crédito ou débito, tutela ou curatela, sociedade interessada. A afinidade cessa com o fim do casamento sem filhos, mas sogro, padrasto, cunhado, genro e enteado continuam afastados (art. 255). Não há suspeição criada de propósito pela parte, como a injúria ao juiz (art. 256). A <strong>exceção de suspeição</strong> precede qualquer outra, salvo motivo superveniente (art. 96); a parte a apresenta por petição própria ou de procurador com poderes especiais (art. 98). Se o juiz não a aceita, responde em <strong>3 dias</strong> e remete o incidente ao tribunal em 24 horas (art. 100). As mesmas regras alcançam o MP (art. 258). Não se opõe suspeição ao delegado no inquérito, mas ele deve se declarar suspeito quando houver motivo legal (art. 107).",
+   "esquema": {
+    "rotulo": "impedimento ou suspeição",
+    "html": "<table><thead><tr><th>Ponto</th><th>Impedimento (art. 252)</th><th>Suspeição (art. 254)</th></tr></thead><tbody><tr><td><strong>Vínculo</strong></td><td>Com o processo (objetivo)</td><td>Com as partes (subjetivo)</td></tr><tr><td><strong>Exemplos</strong></td><td>Parente atuou como delegado ou advogado; juiz foi testemunha; decidiu em outra instância</td><td>Amigo íntimo ou inimigo capital; aconselhou a parte; é credor ou devedor dela</td></tr><tr><td><strong>Rol</strong></td><td>Taxativo, para o STF</td><td>Previsto em lei; a parte não pode criá-lo (art. 256)</td></tr><tr><td><strong>Efeito</strong></td><td>O juiz não pode exercer jurisdição; atos praticados são nulos</td><td>Atos nulos, se a suspeição é julgada procedente (art. 101)</td></tr><tr><td><strong>Como arguir</strong></td><td>Rito da exceção de suspeição (art. 112)</td><td>Exceção de suspeição (arts. 96 a 103)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Exceção de suspeição passo a passo",
+    "linhas": [
+     {
+      "nome": "Juiz reconhece de ofício",
+      "o_que_e": "Declara por escrito o motivo legal e manda o processo ao substituto, intimadas as partes (art. 97)."
+     },
+     {
+      "nome": "Parte argui",
+      "o_que_e": "Petição assinada por ela ou por procurador com poderes especiais, com prova documental ou rol de testemunhas (art. 98).",
+      "atencao": "Precede qualquer outra exceção (art. 96)."
+     },
+     {
+      "nome": "Juiz aceita",
+      "o_que_e": "Suspende o processo, junta a petição e manda os autos ao substituto (art. 99)."
+     },
+     {
+      "nome": "Juiz não aceita",
+      "o_que_e": "Autua em apartado, responde em 3 dias e remete ao tribunal em 24 horas (art. 100).",
+      "atencao": "Se manifestamente improcedente, rejeição liminar."
+     },
+     {
+      "nome": "Julgamento",
+      "o_que_e": "Procedente: atos do processo nulos; juiz paga custas se o erro for inescusável. Rejeitada com malícia: multa ao excipiente (art. 101).",
+      "atencao": "A parte contrária pode pedir a suspensão do processo se reconhecer a arguição (art. 102)."
+     },
+     {
+      "nome": "MP, peritos, intérpretes, serventuários",
+      "o_que_e": "O juiz decide sem recurso (arts. 104 e 105).",
+      "atencao": "Do MP, ouve-o antes e pode admitir prova em 3 dias."
+     },
+     {
+      "nome": "Jurados",
+      "o_que_e": "Arguição oral, decidida de plano pelo juiz presidente, registrada em ata (art. 106)."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 96.",
+      "Art. 97.",
+      "Art. 98.",
+      "Art. 99.",
+      "Art. 100.",
+      "Art. 101.",
+      "Art. 102.",
+      "Art. 103.",
+      "Art. 104.",
+      "Art. 105.",
+      "Art. 106.",
+      "Art. 107.",
+      "Art. 112.",
+      "Art. 252.",
+      "Art. 253.",
+      "Art. 254.",
+      "Art. 255.",
+      "Art. 256.",
+      "Art. 258."
+     ],
+     "ref": "arts. 96 a 107, 112, 252 a 256 e 258 do CPP",
+     "regras": [
+      "<strong>Arts. 96 a 102.</strong> Rito da exceção de suspeição contra o juiz (veja a figura).",
+      "<strong>Art. 103.</strong> Nos tribunais, o juiz suspeito declara nos autos; o revisor passa ao substituto e o relator apresenta os autos para nova distribuição; quem não é relator nem revisor declara verbalmente na sessão. Não reconhecida, a suspeição é julgada pelo pleno, com o presidente como relator; se o recusado for o presidente, relata o vice.",
+      "<strong>Arts. 104 a 106.</strong> Suspeição do MP, de peritos, intérpretes e serventuários: o juiz decide sem recurso. Dos jurados: arguição oral, decidida de plano pelo presidente do júri.",
+      "<strong>Art. 107.</strong> Não se opõe suspeição às autoridades policiais no inquérito, mas elas devem declarar-se suspeitas quando houver motivo legal.",
+      "<strong>Art. 112.</strong> Juiz, MP, serventuários, peritos e intérpretes abstêm-se quando houver incompatibilidade ou impedimento; se não o fizerem, as partes arguem pelo rito da suspeição.",
+      "<strong>Art. 252.</strong> Hipóteses de impedimento do juiz (veja o esquema).",
+      "<strong>Art. 253.</strong> Nos juízos coletivos, juízes parentes até o 3º grau não servem no mesmo processo.",
+      "<strong>Art. 254.</strong> Hipóteses de suspeição do juiz (veja o resumo).",
+      "<strong>Art. 255.</strong> O impedimento ou a suspeição por afinidade cessa com a dissolução do casamento, salvo se houver descendentes; mesmo sem eles, sogro, padrasto, cunhado, genro e enteado continuam afastados.",
+      "<strong>Art. 256.</strong> Não há suspeição quando a parte injuria o juiz ou cria de propósito o motivo.",
+      "<strong>Art. 258.</strong> O MP não funciona quando o juiz ou qualquer das partes for seu cônjuge ou parente até o 3º grau, e a ele se aplicam as regras de suspeição e impedimento dos juízes."
+     ],
+     "literalidades": [
+      {
+       "trecho": "colateral até o 3º grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito",
+       "marcas": [
+        "autoridade policial"
+       ],
+       "afirmacao": "O tio do juiz presidiu o inquérito como delegado. O juiz está impedido de atuar no processo.",
+       "gabarito": "C",
+       "porque": "O tio é parente colateral de 3º grau, e o impedimento alcança o parente que funcionou como autoridade policial (art. 252, I) (Cebraspe, Delegado PC-PB 2022)."
+      },
+      {
+       "trecho": "tiver funcionado como juiz de outra instância, pronunciando-se, de fato ou de direito, sobre a questão",
+       "marcas": [
+        "juiz de outra instância"
+       ],
+       "afirmacao": "Promovido ao Tribunal de Justiça, o desembargador pode relatar a apelação contra a sentença que ele mesmo deu como juiz no processo.",
+       "gabarito": "E",
+       "porque": "Está impedido quem funcionou como juiz de outra instância e se pronunciou sobre a questão (art. 252, III)."
+      },
+      {
+       "trecho": "se for amigo íntimo ou inimigo capital de qualquer delas",
+       "marcas": [
+        "amigo íntimo"
+       ],
+       "afirmacao": "O juiz é amigo íntimo do réu desde a infância. É caso de suspeição, e não de impedimento.",
+       "gabarito": "C",
+       "porque": "Amizade íntima com a parte é hipótese de suspeição (art. 254, I), ligada à relação com as partes."
+      },
+      {
+       "trecho": "não funcionará como juiz o sogro, o padrasto, o cunhado, o genro ou enteado de quem for parte no processo",
+       "marcas": [
+        "o cunhado"
+       ],
+       "afirmacao": "O juiz se divorciou da irmã do réu, sem ter tido filhos com ela. Com isso, ele passa a poder julgar o ex-cunhado.",
+       "gabarito": "E",
+       "porque": "Mesmo dissolvido o casamento sem descendentes, o cunhado continua impedido de julgar (art. 255)."
+      },
+      {
+       "trecho": "quando a parte injuriar o juiz ou de propósito der motivo para criá-la",
+       "marcas": [
+        "injuriar o juiz"
+       ],
+       "afirmacao": "Para afastar o juiz, o réu o ofende gravemente em audiência. O juiz deve então se declarar suspeito.",
+       "gabarito": "E",
+       "porque": "A suspeição não pode ser declarada quando a parte injuria o juiz ou cria de propósito o motivo (art. 256) (Cebraspe, Seres-PE 2021)."
+      },
+      {
+       "trecho": "A argüição de suspeição precederá a qualquer outra, salvo quando fundada em motivo superveniente.",
+       "marcas": [
+        "precederá a qualquer outra"
+       ],
+       "afirmacao": "A defesa quer alegar a suspeição do juiz e a incompetência do juízo. A suspeição deve vir primeiro.",
+       "gabarito": "C",
+       "porque": "A arguição de suspeição precede qualquer outra, salvo motivo superveniente (art. 96)."
+      },
+      {
+       "trecho": "dará sua resposta dentro em três dias",
+       "marcas": [
+        "três dias"
+       ],
+       "afirmacao": "O juiz não aceita a suspeição arguida, manda autuar a petição em apartado e tem 10 dias para responder.",
+       "gabarito": "E",
+       "porque": "O juiz responde em 3 dias e remete os autos da exceção em 24 horas a quem julgará (art. 100)."
+      },
+      {
+       "trecho": "o juiz, depois de ouvi-lo, decidirá, sem recurso",
+       "marcas": [
+        "sem recurso"
+       ],
+       "afirmacao": "Arguida a suspeição do promotor, o juiz o ouve e decide. Contra essa decisão cabe recurso em sentido estrito.",
+       "gabarito": "E",
+       "porque": "A suspeição do MP é decidida pelo juiz, sem recurso (art. 104)."
+      },
+      {
+       "trecho": "mas deverão elas declarar-se suspeitas, quando ocorrer motivo legal",
+       "marcas": [
+        "declarar-se suspeitas"
+       ],
+       "afirmacao": "O investigado não pode opor suspeição ao delegado no inquérito, mas o delegado amigo íntimo da vítima deve se declarar suspeito.",
+       "gabarito": "C",
+       "porque": "Não se opõe suspeição à autoridade policial no inquérito, mas ela deve declarar-se suspeita quando houver motivo legal (art. 107)."
+      },
+      {
+       "trecho": "e a eles se estendem, no que lhes for aplicável, as prescrições relativas à suspeição e aos impedimentos dos juízes",
+       "marcas": [
+        "se estendem"
+       ],
+       "afirmacao": "O promotor é irmão do advogado que defende o réu no processo. Ele não pode funcionar nesse processo.",
+       "gabarito": "C",
+       "porque": "Ao MP se aplicam as regras de impedimento e suspeição dos juízes (art. 258), e o art. 252, I, alcança o parente que atua como advogado."
+      }
+     ],
+     "conferido": {
+      "Art. 96.": "8f5fa3797f9a",
+      "Art. 97.": "899183cf61a3",
+      "Art. 98.": "c0e6ffd371cb",
+      "Art. 99.": "52d57f46a129",
+      "Art. 100.": "57666a3d9d62",
+      "Art. 101.": "8085d9fa7d4f",
+      "Art. 102.": "348f45b7db84",
+      "Art. 103.": "5ac243427c3b",
+      "Art. 104.": "234daef2a1b6",
+      "Art. 105.": "202a8869e4a6",
+      "Art. 106.": "895e41829808",
+      "Art. 107.": "c7f15898e970",
+      "Art. 112.": "bdd29ee63d27",
+      "Art. 252.": "315e660a54c3",
+      "Art. 253.": "930a736163e0",
+      "Art. 254.": "371e155f3e8a",
+      "Art. 255.": "cfac06b609b6",
+      "Art. 256.": "a21c4687c4dd",
+      "Art. 258.": "0f502e2f8891"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 234",
+     "texto": "A participação de membro do Ministério Público na fase investigatória criminal não acarreta o seu impedimento ou suspeição para o oferecimento da denúncia."
+    }
+   ],
+   "detalhes": [
+    "Para o STF, as hipóteses de impedimento do art. 252 são taxativas.",
+    "Reconhecida preliminarmente a relevância da arguição de suspeição, o juiz ou tribunal cita as partes, marca a inquirição das testemunhas e julga em seguida, sem novas alegações (art. 100, § 1º). Se a arguição for de manifesta improcedência, o juiz ou o relator a rejeita liminarmente (art. 100, § 2º).",
+    "É suspeição o cônjuge do juiz responder por fato análogo, de caráter criminoso controvertido (art. 254, II) (Cebraspe, Seres-PE 2021).",
+    "Amizade íntima, aconselhamento da parte e tutela são suspeição; o parente que atuou como delegado no inquérito gera impedimento (Cebraspe, Delegado PC-PB 2022).",
+    "Não cabe exceção de suspeição contra o delegado no inquérito (Cebraspe, Delegado PC-AL 2023).",
+    "Errado dizer que as hipóteses de impedimento são objetivas e subjetivas. Certo: são objetivas, ligadas ao processo, e as de suspeição se referem a circunstâncias externas a ele (Cebraspe, Delegado PF 2018).",
+    "A multa do art. 101 ainda está escrita em mil-réis, moeda extinta; a doutrina a considera sem aplicação."
+   ],
+   "macetes": [
+    {
+     "sigla": "IMPEDIMENTO É COM O PROCESSO, SUSPEIÇÃO É COM AS PARTES",
+     "texto": "Impedimento: quem funcionou no caso. Suspeição: amizade, inimizade, crédito, conselho."
+    },
+    {
+     "sigla": "SUSPEIÇÃO PRIMEIRO",
+     "texto": "A arguição de suspeição precede qualquer outra exceção, salvo motivo superveniente."
+    },
+    {
+     "sigla": "DELEGADO SE DECLARA, NÃO É RECUSADO",
+     "texto": "Contra o delegado não se opõe suspeição; ele mesmo se declara suspeito."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O fato de não ser cabível a oposição de exceção de suspeição à autoridade policial na presidência do inquérito faz, por consequência, que não sejam cabíveis as hipóteses de suspeição em investigação criminal.",
+    "gabarito": "E",
+    "explicacao": "A parte não pode opor a exceção, mas o delegado deve declarar-se suspeito quando houver motivo legal (art. 107) (Cebraspe, Delegado PF 2018)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O promotor que participou da fase investigatória fica impedido de oferecer a denúncia.",
+     "certo": "Não fica impedido nem suspeito (Súmula 234 do STJ).",
+     "fonte": "Questão do app sobre o impedimento do MP"
+    },
+    {
+     "errado": "Não reconhecida, a suspeição de juiz de tribunal é julgada pela câmara, com relator sorteado.",
+     "certo": "É julgada pelo tribunal pleno, com o presidente como relator (art. 103, § 4º).",
+     "fonte": "Questão do app sobre o art. 103"
+    },
+    {
+     "errado": "Se o presidente do tribunal se der por suspeito, o relator designa dia para o julgamento e o preside.",
+     "certo": "Quem designa e preside é o substituto do presidente (art. 103, § 2º).",
+     "fonte": "Questão do app sobre o art. 103"
+    },
+    {
+     "errado": "A injúria da parte contra o juiz gera suspeição.",
+     "certo": "Não gera (art. 256).",
+     "fonte": "Cebraspe, Seres-PE 2021"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2018; Seres-PE 2021; Delegado PC-PB 2022; Delegado PC-AL 2023"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: impedimento, suspeição e exceção de suspeição do juiz, do MP e dos auxiliares saíram dos temas de sujeitos e de exceções."
+    }
+   ],
    "relacionados": [
     "sujeitos-do-processo",
+    "questoes-prejudiciais-e-excecoes",
+    "nulidades"
+   ]
+  },
+  {
+   "slug": "restituicao-de-coisas-apreendidas",
+   "titulo": "Restituição de coisas apreendidas",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 118 a 124-A do CPP",
+   "tax": [
+    "processo-penal.questoes-processos-incidentes.restituicao"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-118",
+    "n3689-1941-art-119",
+    "n3689-1941-art-120",
+    "n3689-1941-art-121",
+    "n3689-1941-art-122",
+    "n3689-1941-art-123",
+    "n3689-1941-art-124",
+    "n3689-1941-art-124-a"
+   ],
+   "conceitos": [
+    "coisa que interessa ao processo",
+    "instrumentos e produto do crime",
+    "lesado e terceiro de boa-fé",
+    "restituição pela autoridade policial",
+    "incidente de restituição",
+    "dúvida sobre o direito do reclamante",
+    "terceiro de boa-fé",
+    "oitiva do MP",
+    "remessa ao juízo cível",
+    "coisas deterioráveis",
+    "leilão de objetos não reclamados",
+    "museu criminal",
+    "bens de valor cultural"
+   ],
+   "palavras": [
+    "restituicao",
+    "coisas apreendidas",
+    "interessarem ao processo",
+    "transitar em julgado",
+    "art 91 cp",
+    "instrumentos do crime",
+    "produto do crime",
+    "lesado",
+    "terceiro de boa fe",
+    "autoridade policial",
+    "termo nos autos",
+    "duvida",
+    "autos em apartado",
+    "5 dias",
+    "so o juiz criminal",
+    "dois dias para arrazoar",
+    "ouvido o ministerio publico",
+    "juizo civel",
+    "verdadeiro dono",
+    "depositario",
+    "facilmente deterioraveis",
+    "leilao",
+    "90 dias",
+    "juizo de ausentes",
+    "museu criminal",
+    "obras de arte",
+    "museus publicos",
+    "apelacao"
+   ],
+   "resumo": "Enquanto <strong>interessarem ao processo</strong>, as coisas apreendidas não são devolvidas antes do trânsito em julgado (art. 118). Instrumentos e produto do crime sujeitos a perdimento (art. 91 do CP) não são devolvidos nem depois, salvo se forem do <strong>lesado ou de terceiro de boa-fé</strong> (art. 119). Sem dúvida sobre o direito do reclamante, a restituição pode ser feita pela <strong>autoridade policial</strong> ou pelo juiz, por termo nos autos (art. 120). Havendo dúvida, ou se a coisa estava com terceiro de boa-fé, forma-se um incidente em apartado, que <strong>só o juiz criminal</strong> decide, com prazo de 5 dias para a prova. O <strong>MP é sempre ouvido</strong>. Se a dúvida é sobre quem é o verdadeiro dono, o juiz manda as partes ao <strong>juízo cível</strong> e deposita a coisa. Coisas facilmente deterioráveis vão a leilão. Objetos não reclamados em <strong>90 dias</strong> do trânsito em julgado são leiloados (art. 123); instrumentos perdidos podem ir a museu criminal (art. 124), e bens de valor cultural, sem vítima determinada, a museus públicos (art. 124-A).",
+   "esquema": {
+    "rotulo": "quem decide a restituição",
+    "html": "<table><thead><tr><th>Situação</th><th>Quem decide</th><th>Rito</th></tr></thead><tbody><tr><td><strong>Sem dúvida sobre o direito do reclamante</strong></td><td>Autoridade policial ou juiz</td><td>Termo nos autos; o MP é ouvido</td></tr><tr><td><strong>Direito do reclamante duvidoso</strong></td><td>Só o juiz criminal</td><td>Autos apartados; 5 dias para a prova</td></tr><tr><td><strong>Coisa apreendida com terceiro de boa-fé</strong></td><td>Só o juiz criminal</td><td>Prazos iguais e sucessivos; 2 dias para cada um arrazoar</td></tr><tr><td><strong>Dúvida sobre quem é o verdadeiro dono</strong></td><td>Juízo cível</td><td>O juiz criminal remete as partes e deposita a coisa</td></tr><tr><td><strong>Coisa facilmente deteriorável</strong></td><td>Juiz</td><td>Avaliação e leilão, ou entrega ao terceiro idôneo que a detinha</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 118.",
+      "Art. 119.",
+      "Art. 120.",
+      "Art. 121.",
+      "Art. 122.",
+      "Art. 123.",
+      "Art. 124.",
+      "Art. 124-A."
+     ],
+     "ref": "arts. 118 a 124-A do CPP",
+     "regras": [
+      "<strong>Art. 118.</strong> Antes do trânsito em julgado, as coisas apreendidas não são restituídas enquanto interessarem ao processo.",
+      "<strong>Art. 119.</strong> Instrumentos e produto do crime sujeitos a perdimento não são restituídos nem depois do trânsito em julgado, salvo se pertencerem ao lesado ou a terceiro de boa-fé. O texto ainda cita os antigos arts. 74 e 100 do CP, hoje art. 91.",
+      "<strong>Art. 120.</strong> Restituição pela autoridade policial ou pelo juiz, sem dúvida sobre o direito; com dúvida ou terceiro de boa-fé, incidente em apartado decidido pelo juiz; MP sempre ouvido; dúvida sobre o dono vai ao juízo cível; coisas deterioráveis vão a leilão.",
+      "<strong>Arts. 121 e 122.</strong> Coisa adquirida com os proventos do crime segue o regime do sequestro (art. 133); as coisas apreendidas são alienadas na forma do art. 133.",
+      "<strong>Art. 123.</strong> Objetos não reclamados em 90 dias do trânsito em julgado, ou que não pertençam ao réu, são vendidos em leilão, e o saldo vai ao juízo de ausentes.",
+      "<strong>Art. 124.</strong> Instrumentos perdidos em favor da União e coisas confiscadas são inutilizados ou recolhidos a museu criminal.",
+      "<strong>Art. 124-A.</strong> Obras de arte e bens de relevante valor cultural perdidos, em crime sem vítima determinada, podem ir a museus públicos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "não poderão ser restituídas enquanto interessarem ao processo",
+       "marcas": [
+        "enquanto interessarem ao processo"
+       ],
+       "afirmacao": "O celular do réu foi apreendido e a perícia nele ainda não foi feita. Como o réu é o dono, o juiz deve devolvê-lo assim que ele pedir.",
+       "gabarito": "E",
+       "porque": "Antes do trânsito em julgado, as coisas apreendidas não são restituídas enquanto interessarem ao processo (art. 118)."
+      },
+      {
+       "trecho": "salvo se pertencerem ao lesado ou a terceiro de boa fé",
+       "marcas": [
+        "terceiro de boa fé"
+       ],
+       "afirmacao": "O carro usado no roubo pertencia a um vizinho que o emprestou sem saber de nada. Depois do trânsito em julgado, o carro pode ser devolvido a ele.",
+       "gabarito": "C",
+       "porque": "Instrumentos do crime não são restituídos, salvo se pertencerem ao lesado ou a terceiro de boa-fé (art. 119)."
+      },
+      {
+       "trecho": "poderá ser ordenada pela autoridade policial ou juiz, mediante termo nos autos",
+       "marcas": [
+        "autoridade policial ou juiz"
+       ],
+       "afirmacao": "Sem dúvida sobre quem é o dono, o próprio delegado devolve à vítima a bicicleta furtada e apreendida, mediante termo nos autos.",
+       "gabarito": "C",
+       "porque": "Sem dúvida sobre o direito do reclamante, a restituição pode ser ordenada pela autoridade policial ou pelo juiz (art. 120)."
+      },
+      {
+       "trecho": "Em tal caso, só o juiz criminal poderá decidir o incidente.",
+       "marcas": [
+        "só o juiz criminal"
+       ],
+       "afirmacao": "Havendo dúvida sobre o direito do reclamante, o delegado dá 5 dias para a prova e decide o pedido de restituição.",
+       "gabarito": "E",
+       "porque": "Com o direito duvidoso, o incidente é autuado em apartado e só o juiz criminal o decide (art. 120, § 1º)."
+      },
+      {
+       "trecho": "Sobre o pedido de restituição será sempre ouvido o Ministério Público.",
+       "marcas": [
+        "sempre ouvido"
+       ],
+       "afirmacao": "Num pedido simples de restituição, sem dúvida nem terceiro de boa-fé, o MP não precisa ser ouvido.",
+       "gabarito": "E",
+       "porque": "O MP é sempre ouvido sobre o pedido de restituição (art. 120, § 3º)."
+      },
+      {
+       "trecho": "o juiz remeterá as partes para o juízo cível",
+       "marcas": [
+        "juízo cível"
+       ],
+       "afirmacao": "Duas pessoas apresentam notas fiscais do mesmo trator apreendido. O juiz criminal manda a disputa ao juízo cível e deixa o trator com um depositário.",
+       "gabarito": "C",
+       "porque": "Na dúvida sobre quem é o verdadeiro dono, o juiz remete as partes ao juízo cível e ordena o depósito (art. 120, § 4º)."
+      },
+      {
+       "trecho": "se dentro no prazo de 90 dias, a contar da data em que transitar em julgado a sentença final",
+       "marcas": [
+        "90 dias"
+       ],
+       "afirmacao": "Transitada em julgado a sentença, os objetos apreendidos que não forem reclamados em 30 dias vão a leilão.",
+       "gabarito": "E",
+       "porque": "O prazo é de 90 dias do trânsito em julgado (art. 123)."
+      },
+      {
+       "trecho": "se o crime não tiver vítima determinada, poderá haver destinação dos bens a museus públicos",
+       "marcas": [
+        "museus públicos"
+       ],
+       "afirmacao": "Decretado o perdimento de quadros valiosos num crime de lavagem sem vítima determinada, eles podem ser destinados a um museu público.",
+       "gabarito": "C",
+       "porque": "Obras de arte e bens de relevante valor cultural perdidos podem ir a museus públicos se o crime não tiver vítima determinada (art. 124-A)."
+      }
+     ],
+     "conferido": {
+      "Art. 118.": "fc20eb890b17",
+      "Art. 119.": "7794cfd31dce",
+      "Art. 120.": "831ab0832ce4",
+      "Art. 121.": "5ab2eaf8ad15",
+      "Art. 122.": "b075e816157e",
+      "Art. 123.": "48e064d6b319",
+      "Art. 124.": "cc2d67521c63",
+      "Art. 124-A.": "29e41060b541"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "detalhes": [
+    "Contra a decisão do juiz que resolve o pedido de restituição cabe apelação, por ser decisão com força de definitiva (art. 593, II).",
+    "Coisas facilmente deterioráveis são avaliadas e levadas a leilão, ou entregues ao terceiro que as detinha, se idôneo e se assinar termo de responsabilidade (art. 120, § 5º). Não são doadas.",
+    "A alienação antecipada e o uso de bens apreendidos por órgãos públicos estão nos arts. 133-A e 144-A, no tema de sequestro.",
+    "O leilão do art. 123 vale para sentença final condenatória ou absolutória: o prazo de 90 dias conta do trânsito em julgado de qualquer delas."
+   ],
+   "macetes": [
+    {
+     "sigla": "SEM DÚVIDA, DELEGADO DEVOLVE",
+     "texto": "Direito certo: polícia ou juiz restituem por termo. Direito duvidoso ou terceiro de boa-fé: só o juiz."
+    },
+    {
+     "sigla": "MP SEMPRE OUVIDO",
+     "texto": "Em todo pedido de restituição, o MP se manifesta."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se duas pessoas exibem títulos conflitantes sobre o bem apreendido, o juiz criminal decide no próprio incidente qual delas é a verdadeira dona.",
+    "gabarito": "E",
+    "explicacao": "Na dúvida sobre quem é o verdadeiro dono, o juiz remete as partes ao juízo cível e ordena o depósito da coisa (art. 120, § 4º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Coisas apreendidas facilmente deterioráveis são doadas imediatamente a instituições de caridade.",
+     "certo": "São avaliadas e leiloadas, ou entregues ao terceiro idôneo que as detinha (art. 120, § 5º).",
+     "fonte": "Questão do app sobre o art. 120"
+    },
+    {
+     "errado": "Apreendida a coisa com terceiro de boa-fé, ele e o reclamante têm cinco dias cada um para arrazoar.",
+     "certo": "Têm dois dias cada um para arrazoar (art. 120, § 2º).",
+     "fonte": "Questão do app sobre o art. 120"
+    },
+    {
+     "errado": "Na restituição, a oitiva do MP só é exigida quando há terceiro de boa-fé.",
+     "certo": "O MP é sempre ouvido (art. 120, § 3º).",
+     "fonte": "Questão do app sobre o art. 120"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: a restituição de coisas apreendidas saiu do tema de questões prejudiciais e exceções."
+    }
+   ],
+   "relacionados": [
+    "questoes-prejudiciais-e-excecoes",
     "medidas-assecuratorias",
-    "competencia-criminal"
+    "busca-domiciliar"
    ]
   },
   {
    "slug": "medidas-assecuratorias",
-   "titulo": "Medidas assecuratórias: sequestro, arresto, hipoteca legal e alienação antecipada",
+   "titulo": "Sequestro de bens, uso por órgãos públicos e alienação antecipada",
    "grupo": "Sujeitos e incidentes",
-   "base": "Arts. 125 a 144-A do CPP",
+   "base": "Arts. 125 a 133-A e 144-A do CPP",
    "tax": [
-    "processo-penal.questoes-processos-incidentes",
-    "processo-penal.perdimento-bens"
+    "processo-penal.questoes-processos-incidentes.sequestro",
+    "processo-penal.perdimento-bens",
+    "processo-penal.alienacao-antecipada-bens"
    ],
    "dispositivos": [
     "n3689-1941-art-125",
     "n3689-1941-art-126",
     "n3689-1941-art-127",
+    "n3689-1941-art-128",
+    "n3689-1941-art-129",
     "n3689-1941-art-130",
     "n3689-1941-art-131",
-    "n3689-1941-art-134",
-    "n3689-1941-art-136",
-    "n3689-1941-art-137",
-    "n3689-1941-art-140",
+    "n3689-1941-art-132",
+    "n3689-1941-art-133",
+    "n3689-1941-art-133-a",
     "n3689-1941-art-144-a"
    ],
    "conceitos": [
-    "sequestro de bens",
-    "hipoteca legal",
-    "arresto",
-    "alienação antecipada",
+    "medidas assecuratórias",
+    "sequestro de imóveis",
+    "sequestro de móveis",
+    "proventos da infração",
+    "indícios veementes",
+    "legitimados para pedir o sequestro",
+    "inscrição no Registro de Imóveis",
     "embargos de terceiro",
-    "perdimento de bens"
+    "embargos do acusado e do terceiro adquirente",
+    "levantamento do sequestro",
+    "leilão após o trânsito em julgado",
+    "Fundo Penitenciário Nacional",
+    "uso de bem constrito por órgão público",
+    "alienação antecipada"
    ],
    "palavras": [
-    "medidas assecuratorias",
     "sequestro",
+    "sequestrado",
     "proventos da infracao",
-    "bens transferidos a terceiro",
+    "transferidos a terceiro",
     "indicios veementes",
-    "representacao da autoridade policial",
     "de oficio",
-    "qualquer fase",
-    "levantamento 60 dias",
-    "embargos",
-    "terceiro de boa fe",
-    "hipoteca legal",
-    "certeza da infracao",
-    "bens licitos",
-    "arresto previo",
-    "15 dias inscricao",
-    "arresto de moveis",
+    "representacao da autoridade policial",
+    "antes de oferecida a denuncia",
+    "registro de imoveis",
+    "autos em apartado",
+    "embargos de terceiro",
+    "titulo oneroso",
+    "boa fe",
+    "passar em julgado",
+    "levantado",
+    "sessenta dias",
+    "60 dias",
+    "caucao",
+    "absolvido",
+    "extinta a punibilidade",
+    "bens moveis",
+    "busca e apreensao",
+    "leilao",
+    "perdimento",
+    "fundo penitenciario nacional",
+    "utilizacao de bem",
+    "orgaos de seguranca publica",
+    "instituto geral de pericia",
+    "prioridade",
+    "certificado provisorio",
+    "multas",
+    "transferencia definitiva",
     "alienacao antecipada",
-    "deterioracao depreciacao",
-    "leilao eletronico",
-    "reparacao do dano preferencia"
+    "deterioracao",
+    "depreciacao",
+    "meio eletronico",
+    "80%",
+    "moeda estrangeira",
+    "conta judicial",
+    "adjudicacao"
    ],
-   "resumo": "O <strong>sequestro</strong> recai sobre bens adquiridos com os <strong>proventos do crime</strong>, mesmo já transferidos a terceiro, e exige apenas <strong>indícios veementes</strong> da origem ilícita. Pode ser decretado de ofício, a requerimento do MP ou do ofendido ou por <strong>representação do delegado</strong>, em qualquer fase, inclusive antes da denúncia. É levantado se a ação não for proposta em <strong>60 dias</strong> da conclusão da diligência, se o terceiro prestar caução ou se houver absolvição ou extinção da punibilidade. A <strong>hipoteca legal</strong> e o <strong>arresto</strong> recaem sobre bens <strong>lícitos</strong> do acusado para garantir a reparação do dano, exigem certeza da infração e indícios suficientes de autoria e são pedidos pelo ofendido ou pelo MP. O arresto prévio de imóvel cai se a hipoteca não for promovida em 15 dias. A <strong>alienação antecipada</strong> preserva o valor de bens sujeitos a deterioração ou depreciação, de preferência em leilão eletrônico.",
+   "resumo": "O <strong>sequestro</strong> recai sobre bens adquiridos com os <strong>proventos da infração</strong>, mesmo que já transferidos a terceiro (art. 125). Basta haver <strong>indícios veementes</strong> da origem ilícita (art. 126). O juiz pode decretá-lo de ofício, a pedido do MP ou do ofendido, ou por representação do delegado, em qualquer fase e até antes da denúncia (art. 127). Sendo imóvel, o sequestro é inscrito no Registro de Imóveis. Corre em autos apartados e admite <strong>embargos de terceiro</strong>. O acusado pode embargar alegando origem lícita, e o terceiro adquirente a título oneroso pode alegar boa-fé, mas esses embargos <strong>só são julgados depois do trânsito em julgado</strong> da condenação (art. 130). O sequestro é levantado se a ação penal não vier em <strong>60 dias</strong> da conclusão da diligência, se o terceiro prestar caução, ou com absolvição ou extinção da punibilidade transitadas em julgado (art. 131). Bens móveis só são sequestrados se não couber busca e apreensão (art. 132). Depois da condenação definitiva, os bens perdidos vão a leilão, e o valor vai ao Fundo Penitenciário Nacional, salvo lei especial (art. 133). Antes disso, o juiz pode autorizar o <strong>uso do bem</strong> por órgãos de segurança pública (art. 133-A) e deve determinar a <strong>alienação antecipada</strong> do que corre risco de deteriorar ou perder valor (art. 144-A).",
    "esquema": {
-    "rotulo": "qual medida",
-    "html": "<table><thead><tr><th>Medida</th><th>Recai sobre</th><th>Requisito</th></tr></thead><tbody><tr><td><strong>Sequestro</strong></td><td>Bens adquiridos com os proventos do crime</td><td>Indícios veementes da origem ilícita</td></tr><tr><td><strong>Hipoteca legal</strong></td><td>Imóveis lícitos do acusado</td><td>Certeza da infração e indícios suficientes de autoria</td></tr><tr><td><strong>Arresto</strong></td><td>Imóveis (prévio) ou móveis penhoráveis lícitos</td><td>Os mesmos da hipoteca</td></tr><tr><td><strong>Alienação antecipada</strong></td><td>Bens constritos sujeitos a deterioração ou depreciação</td><td>Risco de perda de valor ou dificuldade de manutenção</td></tr></tbody></table>"
+    "rotulo": "sequestro, do pedido ao destino do bem",
+    "html": "<table><thead><tr><th>Etapa</th><th>Regra</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Objeto</strong></td><td>Bens adquiridos com os proventos da infração, ainda que transferidos a terceiro</td><td>125 e 132</td></tr><tr><td><strong>Prova exigida</strong></td><td>Indícios veementes da proveniência ilícita</td><td>126</td></tr><tr><td><strong>Quem pede</strong></td><td>Juiz de ofício, MP, ofendido ou representação do delegado</td><td>127</td></tr><tr><td><strong>Quando</strong></td><td>Em qualquer fase, inclusive antes da denúncia ou queixa</td><td>127</td></tr><tr><td><strong>Defesa</strong></td><td>Embargos de terceiro; embargos do acusado e do terceiro de boa-fé, julgados só após o trânsito em julgado</td><td>129 e 130</td></tr><tr><td><strong>Levantamento</strong></td><td>Sem ação penal em 60 dias, caução do terceiro, absolvição ou extinção da punibilidade definitivas</td><td>131</td></tr><tr><td><strong>Destino final</strong></td><td>Leilão após a condenação definitiva; valor ao Fundo Penitenciário Nacional</td><td>133</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "O que fazer com o bem enquanto o processo corre",
+    "linhas": [
+     {
+      "nome": "Uso por órgão público",
+      "o_que_e": "Juiz autoriza, com interesse público, o uso por segurança pública, sistema prisional, socioeducativo, Força Nacional e perícia.",
+      "atencao": "Quem participou da investigação tem prioridade (art. 133-A, § 1º)."
+     },
+     {
+      "nome": "Uso por outros órgãos",
+      "o_que_e": "Fora dessas hipóteses, o juiz pode autorizar o uso por demais órgãos públicos.",
+      "atencao": "Exige interesse público demonstrado (art. 133-A, § 2º)."
+     },
+     {
+      "nome": "Alienação antecipada",
+      "o_que_e": "Juiz determina a venda do bem sujeito a deterioração, depreciação ou de difícil manutenção.",
+      "atencao": "Leilão preferencialmente eletrônico; no segundo, até 80% da avaliação (art. 144-A)."
+     },
+     {
+      "nome": "Dinheiro e moeda estrangeira",
+      "o_que_e": "Convertidos em moeda nacional e depositados em conta judicial.",
+      "atencao": "Art. 144-A, § 4º."
+     }
+    ],
+    "colunas": [
+     "Medida",
+     "Como funciona",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 125. Caberá o seqüestro dos bens imóveis, adquiridos pelo indiciado com os proventos da infração, ainda que já tenham sido transferidos a terceiro.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 125.",
+      "Art. 126.",
+      "Art. 127.",
+      "Art. 128.",
+      "Art. 129.",
+      "Art. 130.",
+      "Art. 131.",
+      "Art. 132.",
+      "Art. 133.",
+      "Art. 133-A.",
+      "Art. 144-A."
+     ],
+     "ref": "arts. 125 a 133-A e 144-A do CPP",
+     "regras": [
+      "<strong>Arts. 125 e 126.</strong> Cabe sequestro dos imóveis adquiridos com os proventos da infração, ainda que transferidos a terceiro; bastam indícios veementes da proveniência ilícita.",
+      "<strong>Art. 127.</strong> O juiz ordena o sequestro de ofício, a requerimento do MP ou do ofendido, ou por representação da autoridade policial, em qualquer fase ou antes da denúncia ou queixa.",
+      "<strong>Arts. 128 e 129.</strong> Realizado o sequestro, inscreve-se no Registro de Imóveis; ele corre em apartado e admite embargos de terceiro.",
+      "<strong>Art. 130.</strong> Também embargam o acusado (bens não vieram da infração) e o terceiro adquirente a título oneroso (boa-fé); a decisão só vem após o trânsito em julgado da condenação.",
+      "<strong>Art. 131.</strong> O sequestro é levantado se a ação não for intentada em 60 dias da conclusão da diligência, se o terceiro prestar caução, ou com extinção da punibilidade ou absolvição transitadas em julgado.",
+      "<strong>Art. 132.</strong> Sequestram-se bens móveis quando não couber a busca e apreensão.",
+      "<strong>Art. 133.</strong> Após o trânsito em julgado da condenação, os bens perdidos são avaliados e vendidos em leilão; o que não couber ao lesado ou terceiro de boa-fé vai ao Fundo Penitenciário Nacional, salvo lei especial.",
+      "<strong>Art. 133-A.</strong> O juiz pode autorizar, com interesse público, o uso de bem constrito por órgãos de segurança pública e afins, com prioridade para quem investigou; veículos recebem certificado provisório sem débitos anteriores.",
+      "<strong>Art. 144-A.</strong> O juiz determina a alienação antecipada de bens sujeitos a deterioração ou depreciação, ou de difícil manutenção; o produto fica em conta judicial até o fim do processo."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ainda que já tenham sido transferidos a terceiro",
+       "marcas": [
+        "transferidos a terceiro"
+       ],
+       "afirmacao": "O investigado comprou uma casa com dinheiro do peculato e a vendeu ao primo antes da investigação. A venda impede o sequestro da casa.",
+       "gabarito": "E",
+       "porque": "Cabe o sequestro dos imóveis adquiridos com os proventos da infração, ainda que já transferidos a terceiro (art. 125)."
+      },
+      {
+       "trecho": "bastará a existência de indícios veementes da proveniência ilícita dos bens",
+       "marcas": [
+        "indícios veementes"
+       ],
+       "afirmacao": "Para sequestrar a fazenda, o juiz não precisa de prova plena: bastam indícios veementes de que ela foi comprada com o dinheiro do crime.",
+       "gabarito": "C",
+       "porque": "Para o sequestro, bastam indícios veementes da proveniência ilícita (art. 126)."
+      },
+      {
+       "trecho": "em qualquer fase do processo ou ainda antes de oferecida a denúncia ou queixa",
+       "marcas": [
+        "antes de oferecida a denúncia"
+       ],
+       "afirmacao": "Ainda no inquérito, o delegado representa e o juiz decreta o sequestro do apartamento do investigado.",
+       "gabarito": "C",
+       "porque": "O sequestro pode ser ordenado em qualquer fase ou antes da denúncia ou queixa, inclusive por representação da autoridade policial (art. 127)."
+      },
+      {
+       "trecho": "Não poderá ser pronunciada decisão nesses embargos antes de passar em julgado a sentença condenatória.",
+       "marcas": [
+        "antes de passar em julgado"
+       ],
+       "afirmacao": "Maria comprou de boa-fé, a preço de mercado, um carro depois sequestrado. O juiz deve julgar logo os embargos dela, antes da sentença penal.",
+       "gabarito": "E",
+       "porque": "Os embargos do acusado e do terceiro adquirente de boa-fé só são decididos após o trânsito em julgado da condenação (art. 130, parágrafo único)."
+      },
+      {
+       "trecho": "se a ação penal não for intentada no prazo de sessenta dias, contado da data em que ficar concluída a diligência",
+       "marcas": [
+        "sessenta dias"
+       ],
+       "afirmacao": "O sequestro foi concluído no inquérito e, passados 70 dias, nenhuma denúncia foi oferecida. O sequestro deve ser levantado.",
+       "gabarito": "C",
+       "porque": "O sequestro é levantado se a ação penal não for intentada em 60 dias da conclusão da diligência (art. 131, I)."
+      },
+      {
+       "trecho": "se for julgada extinta a punibilidade ou absolvido o réu, por sentença transitada em julgado",
+       "marcas": [
+        "sentença transitada em julgado"
+       ],
+       "afirmacao": "O réu foi absolvido em primeira instância e o MP apelou. O sequestro deve ser levantado imediatamente.",
+       "gabarito": "E",
+       "porque": "Só a absolvição ou a extinção da punibilidade transitadas em julgado levantam o sequestro (art. 131, III)."
+      },
+      {
+       "trecho": "não for cabível a medida regulada no Capítulo XI do Título VII deste Livro",
+       "marcas": [
+        "não for cabível"
+       ],
+       "afirmacao": "O relógio comprado com o dinheiro do roubo pode ser apreendido por busca e apreensão. Mesmo assim, o caminho próprio é o sequestro.",
+       "gabarito": "E",
+       "porque": "Bens móveis só são sequestrados quando não couber a busca e apreensão (art. 132)."
+      },
+      {
+       "trecho": "O valor apurado deverá ser recolhido ao Fundo Penitenciário Nacional, exceto se houver previsão diversa em lei especial.",
+       "marcas": [
+        "Fundo Penitenciário Nacional"
+       ],
+       "afirmacao": "Vendidos em leilão os bens perdidos, o que não couber à vítima nem a terceiro de boa-fé vai ao Fundo Penitenciário Nacional, salvo previsão diversa em lei especial.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 133, § 2º."
+      },
+      {
+       "trecho": "terá prioridade na sua utilização",
+       "marcas": [
+        "prioridade"
+       ],
+       "afirmacao": "A Polícia Federal investigou o caso que levou à apreensão de uma lancha. Se outro órgão de segurança também pedir o uso, a PF tem prioridade.",
+       "gabarito": "C",
+       "porque": "O órgão que participou da investigação tem prioridade no uso do bem (art. 133-A, § 1º)."
+      },
+      {
+       "trecho": "podendo os bens ser alienados por valor não inferior a 80% (oitenta por cento) do estipulado na avaliação judicial",
+       "marcas": [
+        "80%"
+       ],
+       "afirmacao": "No segundo leilão da alienação antecipada, o carro apreendido pode ser vendido pela metade do valor da avaliação.",
+       "gabarito": "E",
+       "porque": "No novo leilão, o valor não pode ser inferior a 80% da avaliação judicial (art. 144-A, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 125.": "c4435bdd504e",
+      "Art. 126.": "e64d3f2f1644",
+      "Art. 127.": "8b3c788d1c25",
+      "Art. 128.": "6b61799c13d9",
+      "Art. 129.": "584a2c1938a5",
+      "Art. 130.": "f5aace48ce5b",
+      "Art. 131.": "439ace318275",
+      "Art. 132.": "c57535a2020d",
+      "Art. 133.": "686f63e032d7",
+      "Art. 133-A.": "5e02cf228909",
+      "Art. 144-A.": "fdb388975f8f"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 126. Para a decretação do seqüestro, bastará a existência de indícios veementes da proveniência ilícita dos bens.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 127. O juiz, de ofício, a requerimento do Ministério Público ou do ofendido, ou mediante representação da autoridade policial, poderá ordenar o seqüestro, em qualquer fase do processo ou ainda antes de oferecida a denúncia ou queixa.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 131. O seqüestro será levantado:\n\nI - se a ação penal não for intentada no prazo de sessenta dias, contado da data em que ficar concluída a diligência;\n\nII - se o terceiro, a quem tiverem sido transferidos os bens, prestar caução que assegure a aplicação do disposto no art. 74, II, b, segunda parte, do Código Penal;\n\nIII - se for julgada extinta a punibilidade ou absolvido o réu, por sentença transitada em julgado.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 134. A hipoteca legal sobre os imóveis do indiciado poderá ser requerida pelo ofendido em qualquer fase do processo, desde que haja certeza da infração e indícios suficientes da autoria.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 136. O arresto do imóvel poderá ser decretado de início, revogando-se, porém, se no prazo de 15 (quinze) dias não for promovido o processo de inscrição da hipoteca legal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 144-A. O juiz determinará a alienação antecipada para preservação do valor dos bens sempre que estiverem sujeitos a qualquer grau de deterioração ou depreciação, ou quando houver dificuldade para sua manutenção.\n\n§ 1º O leilão far-se-á preferencialmente por meio eletrônico.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Informativo 902",
+     "texto": "As medidas assecuratórias penais admitem integração pelo CPC. Não há direito líquido e certo ao leilão quando a adjudicação do bem, pelo valor de mercado e com concordância da vítima, repara o dano com mais eficiência."
+    }
+   ],
+   "detalhes": [
+    "Sequestro pega o que veio do crime. Hipoteca legal e arresto pegam o patrimônio lícito do réu para garantir a indenização; estão no tema seguinte.",
+    "O terceiro que recebeu o bem por doação não pode embargar alegando boa-fé: o art. 130, II, exige aquisição a título oneroso. Ele ainda pode usar os embargos de terceiro do art. 129, se for estranho ao crime.",
+    "A autorização de uso do bem é do juiz, não do delegado (art. 133-A).",
+    "O órgão público que recebe o veículo para uso não paga multas, encargos e tributos anteriores; eles são cobrados do responsável (art. 133-A, § 3º).",
+    "Na alienação antecipada, o dinheiro fica em conta judicial: vira renda da União, do Estado ou do DF se houver condenação, e volta ao acusado se ele for absolvido (art. 144-A, § 3º).",
+    "Na alienação antecipada, ações e títulos negociados em bolsa valem pela cotação oficial do dia, provada por certidão ou publicação oficial; não se faz avaliação judicial deles (art. 144-A, § 6º).",
+    "A perda dos instrumentos e do produto do crime é efeito da condenação previsto no art. 91 do CP; a perda alargada do art. 91-A tem requisitos próprios e é tratada no caderno de Direito Penal."
    ],
    "macetes": [
     {
@@ -5473,25 +6271,1225 @@
     {
      "sigla": "SESSENTA DIAS PARA DENUNCIAR",
      "texto": "Sequestro feito antes da ação cai se a ação penal não vier em 60 dias."
+    },
+    {
+     "sigla": "EMBARGO SÓ DEPOIS DO TRÂNSITO",
+     "texto": "Embargos do acusado e do terceiro de boa-fé esperam a condenação definitiva para serem julgados."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O sequestro de bens só pode ser decretado depois de oferecida a denúncia, porque antes dela não há acusado.",
+    "gabarito": "E",
+    "explicacao": "O sequestro pode ser ordenado em qualquer fase do processo ou antes de oferecida a denúncia ou queixa, inclusive por representação do delegado (art. 127)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Realizado o sequestro de imóvel, a inscrição no Registro de Imóveis depende do trânsito em julgado da condenação.",
+     "certo": "Realizado o sequestro, o juiz ordena logo a inscrição (art. 128).",
+     "fonte": "Questão do app sobre o art. 128"
+    },
+    {
+     "errado": "O sequestro corre nos próprios autos da ação penal.",
+     "certo": "Corre em autos apartados e admite embargos de terceiro (art. 129).",
+     "fonte": "Questão do app sobre o art. 129"
+    },
+    {
+     "errado": "Proferida a sentença condenatória, ainda que pendente recurso, o juiz manda vender em leilão os bens perdidos.",
+     "certo": "O leilão do art. 133 exige o trânsito em julgado da condenação.",
+     "fonte": "Questão do app sobre o art. 133"
+    },
+    {
+     "errado": "O delegado pode autorizar o uso de bem apreendido pela própria polícia.",
+     "certo": "Só o juiz autoriza, constatado o interesse público (art. 133-A).",
+     "fonte": "Questão do app sobre o art. 133-A"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: agora trata do sequestro, do uso de bens por órgãos públicos e da alienação antecipada. Hipoteca legal e arresto ganharam tema próprio."
+    }
+   ],
+   "relacionados": [
+    "hipoteca-legal-e-arresto",
+    "restituicao-de-coisas-apreendidas",
+    "acao-civil-ex-delicto"
+   ]
+  },
+  {
+   "slug": "hipoteca-legal-e-arresto",
+   "titulo": "Hipoteca legal e arresto",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 134 a 144 do CPP",
+   "tax": [
+    "processo-penal.questoes-processos-incidentes.hipoteca-arresto"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-134",
+    "n3689-1941-art-135",
+    "n3689-1941-art-136",
+    "n3689-1941-art-137",
+    "n3689-1941-art-138",
+    "n3689-1941-art-139",
+    "n3689-1941-art-140",
+    "n3689-1941-art-141",
+    "n3689-1941-art-142",
+    "n3689-1941-art-143",
+    "n3689-1941-art-144"
+   ],
+   "conceitos": [
+    "hipoteca legal",
+    "certeza da infração e indícios de autoria",
+    "especialização da hipoteca",
+    "arbitramento da responsabilidade",
+    "avaliação dos imóveis",
+    "caução do réu",
+    "arresto prévio do imóvel",
+    "arresto de bens móveis",
+    "manutenção do indiciado e da família",
+    "autos apartados",
+    "ordem de preferência do ressarcimento",
+    "cancelamento por absolvição",
+    "atuação do MP",
+    "remessa ao juízo cível"
+   ],
+   "palavras": [
+    "hipoteca legal",
+    "imoveis do indiciado",
+    "ofendido",
+    "qualquer fase",
+    "certeza da infracao",
+    "indicios suficientes da autoria",
+    "especializacao",
+    "arbitramento",
+    "valor da responsabilidade",
+    "avaliacao",
+    "perito nomeado",
+    "avaliador judicial",
+    "dois dias",
+    "inscricao da hipoteca",
+    "imoveis necessarios",
+    "novo arbitramento",
+    "caucao",
+    "titulos de divida publica",
+    "arresto",
+    "15 dias",
+    "quinze dias",
+    "bens moveis",
+    "penhora",
+    "rendas",
+    "manutencao do indiciado",
+    "auto apartado",
+    "processo civil",
+    "despesas processuais",
+    "penas pecuniarias",
+    "preferencia",
+    "reparacao do dano",
+    "sentenca irrecorrivel",
+    "ministerio publico",
+    "fazenda publica",
+    "ofendido for pobre",
+    "juiz do civel",
+    "responsavel civil"
+   ],
+   "resumo": "A <strong>hipoteca legal</strong> não busca o produto do crime: ela grava os imóveis lícitos do réu para garantir a <strong>indenização da vítima</strong>. O ofendido pode pedi-la em qualquer fase do processo, desde que haja <strong>certeza da infração e indícios suficientes da autoria</strong> (art. 134). No pedido de especialização, a parte estima o valor da responsabilidade e indica os imóveis; o juiz manda arbitrar o valor e avaliar os bens, e só autoriza a inscrição sobre os imóveis <strong>necessários</strong> à garantia. O valor é provisório e pode ser revisto após a condenação. Se o réu oferece caução suficiente em dinheiro ou títulos da dívida pública, o juiz pode dispensar a inscrição (art. 135). Para não perder tempo, o juiz pode decretar logo o <strong>arresto do imóvel</strong>, que cai se em <strong>15 dias</strong> não se promover a inscrição da hipoteca (art. 136). Sem imóveis suficientes, arrestam-se <strong>bens móveis penhoráveis</strong>, e das rendas deles o juiz pode tirar recursos para sustentar o indiciado e a família (art. 137). As garantias cobrem também custas e multa, mas a reparação do dano tem preferência (art. 140). Com absolvição ou extinção da punibilidade por sentença irrecorrível, a hipoteca é cancelada e o arresto levantado (art. 141). Com a condenação definitiva, os autos vão ao <strong>juízo cível</strong> (art. 143).",
+   "esquema": {
+    "rotulo": "sequestro, hipoteca legal e arresto",
+    "html": "<table><thead><tr><th>Ponto</th><th>Sequestro</th><th>Hipoteca legal</th><th>Arresto</th></tr></thead><tbody><tr><td><strong>Alcança</strong></td><td>Bens adquiridos com os proventos do crime</td><td>Imóveis lícitos do réu</td><td>Imóvel, de início, ou móveis penhoráveis lícitos</td></tr><tr><td><strong>Finalidade</strong></td><td>Evitar que o réu fique com o lucro do crime</td><td>Garantir a indenização, as custas e a multa</td><td>Garantir a indenização enquanto não vem a hipoteca, ou quando faltam imóveis</td></tr><tr><td><strong>Requisito</strong></td><td>Indícios veementes da origem ilícita</td><td>Certeza da infração e indícios suficientes de autoria</td><td>Os mesmos da hipoteca</td></tr><tr><td><strong>Quem pede</strong></td><td>Juiz de ofício, MP, ofendido ou delegado</td><td>Ofendido; o MP, se houver interesse da Fazenda ou ofendido pobre que o requeira</td><td>Os mesmos da hipoteca</td></tr><tr><td><strong>Prazo que derruba</strong></td><td>60 dias sem ação penal</td><td>Não há</td><td>15 dias sem pedido de inscrição da hipoteca (arresto do imóvel)</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 134.",
+      "Art. 135.",
+      "Art. 136.",
+      "Art. 137.",
+      "Art. 138.",
+      "Art. 139.",
+      "Art. 140.",
+      "Art. 141.",
+      "Art. 142.",
+      "Art. 143.",
+      "Art. 144."
+     ],
+     "ref": "arts. 134 a 144 do CPP",
+     "regras": [
+      "<strong>Art. 134.</strong> O ofendido pode requerer, em qualquer fase do processo, a hipoteca legal dos imóveis do indiciado, havendo certeza da infração e indícios suficientes da autoria.",
+      "<strong>Art. 135.</strong> No pedido de especialização, a parte estima a responsabilidade e indica os imóveis; o juiz manda arbitrar e avaliar (por perito, onde não houver avaliador), ouve as partes em 2 dias, inscreve só o necessário e pode dispensar a inscrição se houver caução suficiente.",
+      "<strong>Art. 136.</strong> O arresto do imóvel pode ser decretado de início e é revogado se em 15 dias não se promover a inscrição da hipoteca.",
+      "<strong>Art. 137.</strong> Sem imóveis ou com imóveis insuficientes, arrestam-se móveis penhoráveis; das rendas, o juiz pode fornecer recursos para a manutenção do indiciado e da família.",
+      "<strong>Arts. 138 e 139.</strong> A especialização e o arresto correm em auto apartado; depósito e administração dos bens arrestados seguem o processo civil.",
+      "<strong>Art. 140.</strong> As garantias alcançam despesas processuais e penas pecuniárias, com preferência para a reparação do dano.",
+      "<strong>Art. 141.</strong> Arresto levantado e hipoteca cancelada se o réu for absolvido ou extinta a punibilidade por sentença irrecorrível.",
+      "<strong>Art. 142.</strong> O MP promove as medidas se houver interesse da Fazenda Pública ou se o ofendido for pobre e o requerer.",
+      "<strong>Arts. 143 e 144.</strong> Com a condenação definitiva, os autos vão ao juiz do cível; os interessados também podem requerer as medidas no juízo cível contra o responsável civil."
+     ],
+     "literalidades": [
+      {
+       "trecho": "desde que haja certeza da infração e indícios suficientes da autoria",
+       "marcas": [
+        "certeza da infração"
+       ],
+       "afirmacao": "A vítima pede a hipoteca legal sobre a casa do réu durante a instrução, já comprovado o crime e havendo fortes indícios de que ele é o autor. O pedido é cabível.",
+       "gabarito": "C",
+       "porque": "A hipoteca legal pode ser requerida em qualquer fase, com certeza da infração e indícios suficientes da autoria (art. 134)."
+      },
+      {
+       "trecho": "ouvidas as partes no prazo de dois dias",
+       "marcas": [
+        "dois dias"
+       ],
+       "afirmacao": "Feito o arbitramento, o juiz ouve as partes em cinco dias e pode corrigir o valor da responsabilidade.",
+       "gabarito": "E",
+       "porque": "O prazo para ouvir as partes é de dois dias, em cartório (art. 135, § 3º)."
+      },
+      {
+       "trecho": "O juiz autorizará somente a inscrição da hipoteca do imóvel ou imóveis necessários à garantia da responsabilidade.",
+       "marcas": [
+        "somente"
+       ],
+       "afirmacao": "O réu tem cinco imóveis, e um só basta para garantir a indenização. O juiz deve autorizar a hipoteca sobre os cinco, como pediu a vítima.",
+       "gabarito": "E",
+       "porque": "Só se inscreve a hipoteca dos imóveis necessários à garantia (art. 135, § 4º)."
+      },
+      {
+       "trecho": "revogando-se, porém, se no prazo de 15 (quinze) dias não for promovido o processo de inscrição da hipoteca legal",
+       "marcas": [
+        "15 (quinze) dias"
+       ],
+       "afirmacao": "O juiz decretou de início o arresto do imóvel do investigado. Passados 20 dias sem pedido de inscrição da hipoteca, o arresto deve ser revogado.",
+       "gabarito": "C",
+       "porque": "O arresto prévio do imóvel é revogado se em 15 dias não se promover a inscrição da hipoteca legal (art. 136)."
+      },
+      {
+       "trecho": "poderão ser arrestados bens móveis suscetíveis de penhora",
+       "marcas": [
+        "suscetíveis de penhora"
+       ],
+       "afirmacao": "O réu não tem imóveis. Para garantir a indenização, o juiz pode arrestar a geladeira e o fogão da casa dele, bens que a lei civil declara impenhoráveis.",
+       "gabarito": "E",
+       "porque": "Só se arrestam bens móveis suscetíveis de penhora (art. 137)."
+      },
+      {
+       "trecho": "para a manutenção do indiciado e de sua família",
+       "marcas": [
+        "manutenção do indiciado"
+       ],
+       "afirmacao": "Arrestadas máquinas do investigado que rendem aluguel, o juiz pode arbitrar parte dessa renda para sustentar a família dele.",
+       "gabarito": "C",
+       "porque": "Das rendas dos móveis arrestados, o juiz pode fornecer recursos para a manutenção do indiciado e da família (art. 137, § 2º)."
+      },
+      {
+       "trecho": "tendo preferência sobre estas a reparação do dano ao ofendido",
+       "marcas": [
+        "preferência"
+       ],
+       "afirmacao": "Os bens hipotecados não bastam para tudo. Paga-se primeiro a multa penal, depois as custas e, por último, a indenização da vítima.",
+       "gabarito": "E",
+       "porque": "A reparação do dano ao ofendido tem preferência sobre as despesas processuais e as penas pecuniárias (art. 140)."
+      },
+      {
+       "trecho": "se o ofendido for pobre e o requerer",
+       "marcas": [
+        "e o requerer"
+       ],
+       "afirmacao": "A vítima é pobre e pede ao MP que promova a hipoteca legal sobre o imóvel do réu. Cabe ao MP promover a medida.",
+       "gabarito": "C",
+       "porque": "O MP promove a hipoteca e o arresto se o ofendido for pobre e o requerer, ou se houver interesse da Fazenda Pública (art. 142)."
+      }
+     ],
+     "conferido": {
+      "Art. 134.": "4430f730ac5d",
+      "Art. 135.": "064346c05368",
+      "Art. 136.": "2a83b1868a10",
+      "Art. 137.": "84f5c8dc4fc6",
+      "Art. 138.": "4db44582d797",
+      "Art. 139.": "b706b5130488",
+      "Art. 140.": "c4ca1e14fc07",
+      "Art. 141.": "24be97865e44",
+      "Art. 142.": "8dc5eba8a9e9",
+      "Art. 143.": "7776db31db1d",
+      "Art. 144.": "cfcaf635ebdc"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "detalhes": [
+    "Hipoteca legal e arresto alcançam bens lícitos. Quem confunde com o sequestro erra: o sequestro exige bens adquiridos com os proventos da infração.",
+    "A caução que permite dispensar a inscrição da hipoteca é em dinheiro ou em títulos da dívida pública, pela cotação em Bolsa (art. 135, § 6º). Não é qualquer bem móvel.",
+    "Para cancelar a hipoteca, não basta absolvição recorrível: exige-se sentença irrecorrível (art. 141).",
+    "Móveis arrestados fungíveis e facilmente deterioráveis seguem a regra do art. 120, § 5º: avaliação e leilão (art. 137, § 1º).",
+    "O MP não promove a medida só porque a vítima é pobre: ela precisa requerer (art. 142).",
+    "Na comarca sem avaliador judicial, o perito do arbitramento é nomeado pelo juiz, não indicado pelo MP (art. 135, § 2º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ARRESTO DE IMÓVEL VIVE 15 DIAS",
+     "texto": "Decretado de início, o arresto do imóvel cai se em 15 dias não se pedir a inscrição da hipoteca."
+    },
+    {
+     "sigla": "VÍTIMA PRIMEIRO",
+     "texto": "Na divisão do que foi garantido, a reparação do dano vem antes das custas e da multa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A hipoteca legal sobre imóveis do indiciado só pode ser requerida pelo ofendido após o trânsito em julgado da sentença condenatória.",
+    "gabarito": "E",
+    "explicacao": "Pode ser requerida em qualquer fase do processo, desde que haja certeza da infração e indícios suficientes da autoria (art. 134)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O arresto do imóvel decretado de início é revogado se em 30 dias não for promovida a inscrição da hipoteca.",
+     "certo": "O prazo é de 15 dias (art. 136).",
+     "fonte": "Questão do app sobre o art. 136"
+    },
+    {
+     "errado": "O valor da responsabilidade arbitrado antes da sentença é definitivo.",
+     "certo": "É liquidado em definitivo após a condenação, e cabe novo arbitramento (art. 135, § 5º).",
+     "fonte": "Questão do app sobre o art. 135"
+    },
+    {
+     "errado": "O depósito e a administração dos bens arrestados ficam a cargo da autoridade policial.",
+     "certo": "Seguem o regime do processo civil (art. 139).",
+     "fonte": "Questão do app sobre o art. 139"
+    },
+    {
+     "errado": "Com a condenação definitiva, os autos de hipoteca ou arresto ficam no juízo criminal para a execução.",
+     "certo": "São remetidos ao juiz do cível (art. 143).",
+     "fonte": "Questão do app sobre o art. 143"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: hipoteca legal e arresto saíram do tema de medidas assecuratórias."
+    }
+   ],
+   "relacionados": [
+    "medidas-assecuratorias",
+    "acao-civil-ex-delicto",
+    "restituicao-de-coisas-apreendidas"
+   ]
+  },
+  {
+   "slug": "incidente-de-falsidade-e-insanidade-mental",
+   "titulo": "Incidentes de falsidade documental e de insanidade mental",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 145 a 148 e 151 a 154 do CPP",
+   "tax": [
+    "processo-penal.questoes-processos-incidentes.falsidade-insanidade"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-145",
+    "n3689-1941-art-146",
+    "n3689-1941-art-147",
+    "n3689-1941-art-148",
+    "n3689-1941-art-151",
+    "n3689-1941-art-152",
+    "n3689-1941-art-153",
+    "n3689-1941-art-154"
+   ],
+   "conceitos": [
+    "incidente de falsidade",
+    "arguição por escrito",
+    "autos apartados",
+    "prazos do incidente de falsidade",
+    "desentranhamento do documento",
+    "poderes especiais do procurador",
+    "verificação de ofício",
+    "ausência de coisa julgada",
+    "incidente de insanidade mental",
+    "inimputabilidade ao tempo do crime",
+    "doença mental superveniente",
+    "curador",
+    "reinquirição das testemunhas",
+    "insanidade na execução"
+   ],
+   "palavras": [
+    "falsidade",
+    "documento",
+    "por escrito",
+    "autuar em apartado",
+    "48 horas",
+    "tres dias",
+    "sucessivamente",
+    "diligencias",
+    "decisao irrecorrivel",
+    "desentranhar",
+    "ministerio publico",
+    "procurador",
+    "poderes especiais",
+    "de oficio",
+    "coisa julgada",
+    "ulterior processo",
+    "insanidade mental",
+    "integridade mental",
+    "exame medico legal",
+    "curador",
+    "irresponsavel",
+    "art 22",
+    "art 26",
+    "inimputavel",
+    "prosseguira",
+    "sobreveio",
+    "continuara suspenso",
+    "manicomio judiciario",
+    "restabeleca",
+    "reinquirir",
+    "auto apartado",
+    "laudo",
+    "apenso",
+    "execucao da pena",
+    "art 682"
+   ],
+   "resumo": "O <strong>incidente de falsidade</strong> serve para afastar do processo um documento falso. Arguida a falsidade <strong>por escrito</strong>, o juiz manda autuar a impugnação em apartado e ouve a parte contrária em <strong>48 horas</strong>. Depois dá <strong>3 dias</strong> a cada parte, sucessivamente, para provar o que alegou, e pode ordenar as diligências que achar necessárias. Reconhecida a falsidade por decisão irrecorrível, o documento é desentranhado e enviado ao MP com os autos do incidente (art. 145). O advogado que argui a falsidade precisa de <strong>poderes especiais</strong> (art. 146). O juiz também pode verificar a falsidade <strong>de ofício</strong> (art. 147). Qualquer que seja a decisão, ela <strong>não faz coisa julgada</strong> contra processo penal ou civil posterior (art. 148). O <strong>incidente de insanidade mental</strong> começa quando há dúvida sobre a integridade mental do acusado; o exame e seus legitimados (arts. 149 e 150) estão no caderno de Medicina Legal. Aqui importa o que acontece depois do laudo. Se o acusado já era inimputável <strong>ao tempo do crime</strong>, o processo <strong>prossegue com curador</strong> (art. 151). Se a doença <strong>surgiu depois</strong> do crime, o processo fica <strong>suspenso</strong> até ele se restabelecer, e ao voltar ele pode pedir que as testemunhas ouvidas sem ele sejam ouvidas de novo (art. 152). O incidente corre em auto apartado, apensado só depois do laudo (art. 153). Se a doença vier durante a execução da pena, aplica-se o art. 682 (art. 154).",
+   "esquema": {
+    "rotulo": "o que o laudo de insanidade muda no processo",
+    "html": "<table><thead><tr><th>O laudo conclui que</th><th>O que acontece</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Acusado era inimputável ao tempo do crime</strong></td><td>O processo prossegue, com curador; ao final pode haver absolvição imprópria com medida de segurança</td><td>151</td></tr><tr><td><strong>A doença mental surgiu depois do crime</strong></td><td>O processo fica suspenso até o acusado se restabelecer; ele pode ser internado</td><td>152</td></tr><tr><td><strong>O acusado se restabeleceu</strong></td><td>O processo retoma; ele pode reinquirir as testemunhas ouvidas sem a sua presença</td><td>152, § 2º</td></tr><tr><td><strong>A doença surgiu na execução da pena</strong></td><td>Aplica-se o art. 682 (internação e regras da execução)</td><td>154</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Incidente de falsidade em quatro passos",
+    "linhas": [
+     {
+      "nome": "1. Arguição",
+      "o_que_e": "Por escrito; o advogado precisa de poderes especiais. O juiz também pode agir de ofício.",
+      "atencao": "Arts. 145, 146 e 147."
+     },
+     {
+      "nome": "2. Resposta",
+      "o_que_e": "Impugnação autuada em apartado; a parte contrária responde em 48 horas.",
+      "atencao": "Art. 145, I."
+     },
+     {
+      "nome": "3. Prova",
+      "o_que_e": "Três dias para cada parte, sucessivamente; o juiz pode mandar fazer diligências.",
+      "atencao": "Art. 145, II e III."
+     },
+     {
+      "nome": "4. Decisão",
+      "o_que_e": "Falsidade reconhecida por decisão irrecorrível: o documento sai dos autos e vai ao MP.",
+      "atencao": "Art. 145, IV. Não faz coisa julgada (art. 148)."
+     }
+    ],
+    "colunas": [
+     "Passo",
+     "O que acontece",
+     "Base"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 145.",
+      "Art. 146.",
+      "Art. 147.",
+      "Art. 148.",
+      "Art. 151.",
+      "Art. 152.",
+      "Art. 153.",
+      "Art. 154."
+     ],
+     "ref": "arts. 145 a 148 e 151 a 154 do CPP",
+     "regras": [
+      "<strong>Art. 145.</strong> Arguida por escrito a falsidade de documento: autuação em apartado; resposta da parte contrária em 48 horas; 3 dias sucessivos a cada parte para prova; diligências; reconhecida a falsidade por decisão irrecorrível, desentranha-se o documento e remete-se ao MP.",
+      "<strong>Art. 146.</strong> A arguição feita por procurador exige poderes especiais.",
+      "<strong>Art. 147.</strong> O juiz pode verificar a falsidade de ofício.",
+      "<strong>Art. 148.</strong> A decisão do incidente não faz coisa julgada em prejuízo de processo penal ou civil posterior.",
+      "<strong>Art. 151.</strong> Se os peritos concluírem que o acusado era inimputável ao tempo da infração, o processo prossegue com o curador. O texto ainda cita o antigo art. 22 do CP, hoje art. 26.",
+      "<strong>Art. 152.</strong> Se a doença mental sobreveio à infração, o processo continua suspenso até o acusado se restabelecer; ele pode ser internado e, restabelecido, pode reinquirir as testemunhas ouvidas sem ele.",
+      "<strong>Art. 153.</strong> O incidente corre em auto apartado, apensado ao principal só depois do laudo.",
+      "<strong>Art. 154.</strong> Insanidade surgida na execução da pena segue o art. 682."
+     ],
+     "literalidades": [
+      {
+       "trecho": "que, no prazo de 48 horas, oferecerá resposta",
+       "marcas": [
+        "48 horas"
+       ],
+       "afirmacao": "Arguida por escrito a falsidade de um contrato juntado pela acusação, o juiz autua a impugnação em apartado e dá à acusação cinco dias para responder.",
+       "gabarito": "E",
+       "porque": "A parte contrária responde em 48 horas (art. 145, I)."
+      },
+      {
+       "trecho": "assinará o prazo de três dias, sucessivamente, a cada uma das partes, para prova de suas alegações",
+       "marcas": [
+        "três dias, sucessivamente"
+       ],
+       "afirmacao": "No incidente de falsidade, depois da resposta, a defesa tem três dias para provar o que alegou e, em seguida, a acusação tem outros três.",
+       "gabarito": "C",
+       "porque": "O juiz dá três dias, sucessivamente, a cada parte para a prova (art. 145, II)."
+      },
+      {
+       "trecho": "A argüição de falsidade, feita por procurador, exige poderes especiais.",
+       "marcas": [
+        "poderes especiais"
+       ],
+       "afirmacao": "O advogado do réu, com procuração geral para o foro, argui a falsidade de um recibo. A arguição é regular.",
+       "gabarito": "E",
+       "porque": "A arguição de falsidade feita por procurador exige poderes especiais (art. 146)."
+      },
+      {
+       "trecho": "O juiz poderá, de ofício, proceder à verificação da falsidade.",
+       "marcas": [
+        "de ofício"
+       ],
+       "afirmacao": "Ao analisar os autos, o juiz desconfia da autenticidade de um laudo particular juntado pela defesa e instaura, ele mesmo, a verificação da falsidade.",
+       "gabarito": "C",
+       "porque": "O juiz pode verificar a falsidade de ofício (art. 147)."
+      },
+      {
+       "trecho": "não fará coisa julgada em prejuízo de ulterior processo penal ou civil",
+       "marcas": [
+        "não fará coisa julgada"
+       ],
+       "afirmacao": "O incidente reconheceu a falsidade de uma escritura. No processo posterior pelo crime de falso, essa questão não pode mais ser discutida.",
+       "gabarito": "E",
+       "porque": "A decisão do incidente não faz coisa julgada em prejuízo de processo penal ou civil posterior (art. 148)."
+      },
+      {
+       "trecho": "o processo prosseguirá, com a presença do curador",
+       "marcas": [
+        "prosseguirá"
+       ],
+       "afirmacao": "O laudo conclui que o acusado já tinha a doença mental quando cometeu o crime. O processo segue, com curador ao lado dele.",
+       "gabarito": "C",
+       "porque": "Inimputável ao tempo da infração: o processo prossegue com o curador (art. 151)."
+      },
+      {
+       "trecho": "o processo continuará suspenso até que o acusado se restabeleça",
+       "marcas": [
+        "continuará suspenso"
+       ],
+       "afirmacao": "A doença mental do acusado surgiu um ano depois do crime. Como ele é inimputável, o processo prossegue com curador até a sentença.",
+       "gabarito": "E",
+       "porque": "Doença mental superveniente à infração mantém o processo suspenso até o acusado se restabelecer (art. 152)."
+      },
+      {
+       "trecho": "ficando-lhe assegurada a faculdade de reinquirir as testemunhas que houverem prestado depoimento sem a sua presença",
+       "marcas": [
+        "reinquirir as testemunhas"
+       ],
+       "afirmacao": "Restabelecido o acusado, o processo volta a correr, e ele pode pedir que as testemunhas ouvidas na sua ausência sejam ouvidas de novo.",
+       "gabarito": "C",
+       "porque": "É a faculdade do art. 152, § 2º."
+      },
+      {
+       "trecho": "que só depois da apresentação do laudo será apenso ao processo principal",
+       "marcas": [
+        "só depois da apresentação do laudo"
+       ],
+       "afirmacao": "O incidente de insanidade mental é processado nos próprios autos principais, para não atrasar a ação penal.",
+       "gabarito": "E",
+       "porque": "O incidente corre em auto apartado, apensado só depois do laudo (art. 153)."
+      }
+     ],
+     "conferido": {
+      "Art. 145.": "b581868e496a",
+      "Art. 146.": "e8ccb211df95",
+      "Art. 147.": "6f03d3775655",
+      "Art. 148.": "54bfa3307e74",
+      "Art. 151.": "d2ab561c0bc5",
+      "Art. 152.": "c46f7e1c3311",
+      "Art. 153.": "c6ac491713ad",
+      "Art. 154.": "ce7c9012cec1"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "detalhes": [
+    "O exame de insanidade pode ser ordenado de ofício ou a pedido do MP, do defensor, do curador, do ascendente, descendente, irmão ou cônjuge do acusado, e até no inquérito, por representação do delegado (art. 149, no caderno de Medicina Legal).",
+    "Ao determinar o exame, o juiz nomeia curador e suspende o processo já iniciado, salvo diligências que o adiamento prejudicaria (art. 149, § 2º).",
+    "O exame não dura mais de 45 dias, salvo se os peritos demonstrarem a necessidade de mais prazo (art. 150, § 1º). Não são 30 dias improrrogáveis.",
+    "O acusado preso é internado em manicômio judiciário, onde houver; o solto só vai a estabelecimento adequado se os peritos pedirem (art. 150).",
+    "Na doença superveniente, a suspensão não impede as diligências urgentes que o adiamento prejudicaria (art. 152, que remete ao art. 149, § 2º).",
+    "Inimputabilidade ao tempo do crime leva, ao final, à absolvição imprópria com medida de segurança (art. 386, parágrafo único, III)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ANTES SEGUE, DEPOIS PARA",
+     "texto": "Doença mental antes do crime: o processo segue com curador. Doença depois do crime: o processo para até a melhora."
+    },
+    {
+     "sigla": "48 HORAS E 3 DIAS",
+     "texto": "Falsidade: 48 horas para a resposta, 3 dias sucessivos para cada parte provar."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Constatado que a doença mental sobreveio à infração, o processo prossegue com a nomeação de curador ao acusado, que poderá ser submetido a medida de segurança ao final.",
+    "gabarito": "E",
+    "explicacao": "Prosseguir com curador é o caso do acusado inimputável ao tempo do crime (art. 151). Se a doença sobreveio à infração, o processo fica suspenso até ele se restabelecer (art. 152)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "No incidente de falsidade, conclusos os autos, o juiz só pode ordenar diligências a requerimento das partes.",
+     "certo": "Pode ordenar as diligências que entender necessárias (art. 145, III).",
+     "fonte": "Questão do app sobre o art. 145"
+    },
+    {
+     "errado": "A verificação da falsidade de documento depende sempre de arguição da parte.",
+     "certo": "O juiz pode proceder a ela de ofício (art. 147).",
+     "fonte": "Questão do app sobre o art. 147"
+    },
+    {
+     "errado": "Restabelecido o acusado, o processo retoma seu curso, sem possibilidade de reinquirir as testemunhas ouvidas na sua ausência.",
+     "certo": "A reinquirição é assegurada (art. 152, § 2º).",
+     "fonte": "Questão do app sobre o art. 152"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: os incidentes de falsidade documental e de insanidade mental ganharam tema próprio."
+    }
+   ],
+   "relacionados": [
+    "questoes-prejudiciais-e-excecoes",
+    "imputabilidade-e-capacidade-civil",
+    "nulidades"
+   ]
+  },
+  {
+   "slug": "sujeitos-do-processo",
+   "titulo": "Sujeitos do processo: juiz, Ministério Público, acusado e defensor",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 251, 257 e 259 a 267 do CPP",
+   "tax": [
+    "processo-penal.sujeitos-processo"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-251",
+    "n3689-1941-art-257",
+    "n3689-1941-art-259",
+    "n3689-1941-art-260",
+    "n3689-1941-art-261",
+    "n3689-1941-art-262",
+    "n3689-1941-art-263",
+    "n3689-1941-art-264",
+    "n3689-1941-art-265",
+    "n3689-1941-art-266",
+    "n3689-1941-art-267"
+   ],
+   "conceitos": [
+    "sujeitos principais do processo",
+    "poder de polícia do juiz",
+    "funções do Ministério Público",
+    "promotor natural",
+    "identificação do acusado",
+    "condução coercitiva",
+    "defesa técnica obrigatória",
+    "defensor dativo",
+    "honorários do dativo",
+    "abandono do processo",
+    "adiamento da audiência",
+    "defensor substituto",
+    "constituição de defensor no interrogatório",
+    "parentes do juiz como defensores"
+   ],
+   "palavras": [
+    "sujeitos do processo",
+    "juiz",
+    "regularidade do processo",
+    "manter a ordem",
+    "forca publica",
+    "ministerio publico",
+    "privativamente",
+    "acao penal publica",
+    "fiscalizar a execucao da lei",
+    "promotor natural",
+    "identidade fisica",
+    "nome falso",
+    "retificacao",
+    "validade dos atos",
+    "conducao coercitiva",
+    "interrogatorio",
+    "adpf 395",
+    "adpf 444",
+    "ausente",
+    "foragido",
+    "sem defensor",
+    "manifestacao fundamentada",
+    "defensor publico",
+    "dativo",
+    "honorarios",
+    "nao for pobre",
+    "a todo tempo",
+    "nomear outro",
+    "defender se",
+    "habilitacao",
+    "motivo relevante",
+    "abandonar",
+    "justo motivo",
+    "infracao disciplinar",
+    "adiada",
+    "abertura da audiencia",
+    "defensor substituto",
+    "instrumento de mandato",
+    "parentes do juiz",
+    "sumula 523",
+    "sumula 705",
+    "sumula 708",
+    "autodefesa",
+    "defesa tecnica"
+   ],
+   "resumo": "Os sujeitos principais do processo penal são o <strong>juiz</strong>, o <strong>acusador</strong> e o <strong>acusado</strong>. Ao juiz cabe manter a regularidade e a ordem dos atos, e ele pode requisitar a força pública para isso (art. 251). Ao <strong>Ministério Público</strong> cabe promover, <strong>privativamente</strong>, a ação penal pública e fiscalizar a execução da lei (art. 257). Quanto ao acusado, a falta de nome ou de qualificação não atrasa a ação se a <strong>identidade física</strong> for certa; descoberta a verdadeira qualificação, retifica-se por termo, sem invalidar os atos anteriores (art. 259). A autoridade pode mandar conduzir o acusado que falta a ato que não se faz sem ele, mas o STF declarou <strong>não recepcionada</strong> a condução coercitiva <strong>para o interrogatório</strong> (ADPFs 395 e 444). Nenhum acusado, nem ausente ou foragido, é processado ou julgado <strong>sem defensor</strong> (art. 261). Sem advogado, o juiz nomeia um dativo, e o acusado pode a todo tempo trocar por outro de sua confiança; se não for pobre, paga os honorários (art. 263). O defensor não pode abandonar o processo sem justo motivo comunicado antes; se faltar à audiência, precisa provar o impedimento <strong>até a abertura</strong> dela, ou o juiz nomeia substituto (art. 265). O acusado pode constituir defensor no próprio interrogatório, sem procuração (art. 266), e parentes do juiz não atuam como defensores (art. 267).",
+   "esquema": {
+    "rotulo": "falta e deficiência da defesa",
+    "html": "<table><thead><tr><th>Situação</th><th>Consequência</th><th>Base</th></tr></thead><tbody><tr><td><strong>Processo sem defensor</strong></td><td>Nulidade absoluta</td><td>Art. 261 e Súmula 523 do STF</td></tr><tr><td><strong>Defesa deficiente</strong></td><td>Só anula se houver prova de prejuízo</td><td>Súmula 523 do STF</td></tr><tr><td><strong>Defensor falta à audiência sem provar impedimento até a abertura</strong></td><td>O ato não é adiado; nomeia-se substituto</td><td>Art. 265, § 2º</td></tr><tr><td><strong>Defensor abandona o processo</strong></td><td>Acusado intimado para constituir outro; não localizado, nomeia-se defensor público ou dativo</td><td>Art. 265, § 3º</td></tr><tr><td><strong>Único defensor renuncia e o réu não é intimado para constituir outro</strong></td><td>Nulo o julgamento da apelação</td><td>Súmula 708 do STF</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem é quem no processo penal",
+    "linhas": [
+     {
+      "nome": "Juiz",
+      "o_que_e": "Conduz o processo, mantém a ordem e pode requisitar a força pública.",
+      "atencao": "Impedimento e suspeição estão no tema próprio."
+     },
+     {
+      "nome": "Ministério Público",
+      "o_que_e": "Promove privativamente a ação penal pública e fiscaliza a execução da lei.",
+      "atencao": "Atua também como fiscal na ação privada."
+     },
+     {
+      "nome": "Acusado",
+      "o_que_e": "Pode se calar e se defender pessoalmente, mas não pode ficar sem defesa técnica.",
+      "atencao": "A autodefesa é renunciável; a defesa técnica, não."
+     },
+     {
+      "nome": "Defensor",
+      "o_que_e": "Constituído, público ou dativo; o dativo e o público se manifestam sempre de forma fundamentada.",
+      "atencao": "Pode ser constituído no interrogatório, sem procuração."
+     }
+    ],
+    "colunas": [
+     "Sujeito",
+     "Papel",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 251.",
+      "Art. 257.",
+      "Art. 259.",
+      "Art. 260.",
+      "Art. 261.",
+      "Art. 262.",
+      "Art. 263.",
+      "Art. 264.",
+      "Art. 265.",
+      "Art. 266.",
+      "Art. 267."
+     ],
+     "ref": "arts. 251, 257 e 259 a 267 do CPP",
+     "regras": [
+      "<strong>Art. 251.</strong> O juiz provê à regularidade do processo e mantém a ordem, podendo requisitar a força pública.",
+      "<strong>Art. 257.</strong> Ao MP cabe promover privativamente a ação penal pública e fiscalizar a execução da lei.",
+      "<strong>Art. 259.</strong> A falta de identificação pelo nome não retarda a ação se a identidade física for certa; a qualificação descoberta é retificada por termo, sem prejuízo dos atos anteriores.",
+      "<strong>Art. 260.</strong> O acusado que não atende à intimação para ato que não se faz sem ele pode ser conduzido. A expressão \"para o interrogatório\" não foi recepcionada (ADPFs 395 e 444).",
+      "<strong>Arts. 261 e 262.</strong> Ninguém é processado ou julgado sem defensor; defensor público e dativo se manifestam de forma fundamentada. O antigo curador do acusado menor perdeu sentido com a maioridade civil aos 18 anos.",
+      "<strong>Arts. 263 e 264.</strong> O juiz nomeia defensor a quem não tem; o acusado pode trocar a todo tempo ou se defender, se habilitado; quem não é pobre paga os honorários do dativo; o advogado nomeado só recusa por motivo relevante.",
+      "<strong>Art. 265.</strong> O defensor não abandona o processo sem justo motivo comunicado antes, sob pena de infração disciplinar; o impedimento para a audiência se prova até a abertura dela.",
+      "<strong>Arts. 266 e 267.</strong> O defensor indicado no interrogatório dispensa procuração; parentes do juiz não funcionam como defensores."
+     ],
+     "literalidades": [
+      {
+       "trecho": "podendo, para tal fim, requisitar a força pública",
+       "marcas": [
+        "requisitar a força pública"
+       ],
+       "afirmacao": "Durante a audiência, o público tumultua a sala. O juiz, por iniciativa própria, requisita a força pública para manter a ordem.",
+       "gabarito": "C",
+       "porque": "O juiz mantém a ordem dos atos e pode requisitar a força pública para isso (art. 251), sem depender de pedido das partes."
+      },
+      {
+       "trecho": "promover, privativamente, a ação penal pública",
+       "marcas": [
+        "privativamente"
+       ],
+       "afirmacao": "O delegado conclui o inquérito por homicídio e, diante da demora do MP, oferece ele mesmo a denúncia.",
+       "gabarito": "E",
+       "porque": "A ação penal pública é promovida privativamente pelo MP (art. 257, I, e art. 129, I, da CF)."
+      },
+      {
+       "trecho": "sem prejuízo da validade dos atos precedentes",
+       "marcas": [
+        "validade dos atos precedentes"
+       ],
+       "afirmacao": "O réu usou nome falso, mas sua identidade física era certa. Descoberto o nome verdadeiro na execução, todos os atos do processo devem ser anulados.",
+       "gabarito": "E",
+       "porque": "Retifica-se a qualificação por termo, sem prejuízo da validade dos atos precedentes (art. 259)."
+      },
+      {
+       "trecho": "Nenhum acusado, ainda que ausente ou foragido, será processado ou julgado sem defensor.",
+       "marcas": [
+        "ainda que ausente ou foragido"
+       ],
+       "afirmacao": "O réu fugiu depois de citado pessoalmente. O processo pode seguir, mas o juiz tem de garantir a ele um defensor.",
+       "gabarito": "C",
+       "porque": "Nenhum acusado, ainda que ausente ou foragido, é processado ou julgado sem defensor (art. 261)."
+      },
+      {
+       "trecho": "ressalvado o seu direito de, a todo tempo, nomear outro de sua confiança",
+       "marcas": [
+        "a todo tempo"
+       ],
+       "afirmacao": "O juiz nomeou defensor dativo ao réu. Meses depois, o réu contrata um advogado de sua confiança, que passa a atuar no lugar do dativo.",
+       "gabarito": "C",
+       "porque": "O acusado pode, a todo tempo, nomear outro defensor de sua confiança (art. 263)."
+      },
+      {
+       "trecho": "O acusado, que não for pobre, será obrigado a pagar os honorários do defensor dativo, arbitrados pelo juiz.",
+       "marcas": [
+        "não for pobre"
+       ],
+       "afirmacao": "O réu, empresário com boa renda, não constituiu advogado e recebeu defensor dativo. Como foi o juiz quem nomeou, o réu nada paga.",
+       "gabarito": "E",
+       "porque": "O acusado que não for pobre paga os honorários do dativo, arbitrados pelo juiz (art. 263, parágrafo único)."
+      },
+      {
+       "trecho": "Incumbe ao defensor provar o impedimento até a abertura da audiência.",
+       "marcas": [
+        "até a abertura da audiência"
+       ],
+       "afirmacao": "O defensor falta à audiência e só no dia seguinte junta atestado médico. O juiz deveria ter adiado a audiência.",
+       "gabarito": "E",
+       "porque": "O impedimento deve ser provado até a abertura da audiência; sem isso, nomeia-se defensor substituto, ainda que só para o ato (art. 265, § 2º)."
+      },
+      {
+       "trecho": "se o acusado o indicar por ocasião do interrogatório",
+       "marcas": [
+        "por ocasião do interrogatório"
+       ],
+       "afirmacao": "No interrogatório, o réu diz ao juiz que o advogado presente é seu defensor. Não é preciso juntar procuração.",
+       "gabarito": "C",
+       "porque": "A constituição de defensor independe de mandato se o acusado o indicar no interrogatório (art. 266)."
+      }
+     ],
+     "conferido": {
+      "Art. 251.": "297a346d8af7",
+      "Art. 257.": "01cbe4e16c5b",
+      "Art. 259.": "461411c3e01c",
+      "Art. 260.": "4ad67a9d7b3f",
+      "Art. 261.": "4cd4a58821b6",
+      "Art. 262.": "46acf8489d99",
+      "Art. 263.": "cdec8fad8527",
+      "Art. 264.": "d0acca0ecaf6",
+      "Art. 265.": "d41ce1d58602",
+      "Art. 266.": "f8cb3c0a000b",
+      "Art. 267.": "24d02150f518"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
-     "quem": "CPP · art. 140",
-     "texto": "As garantias do ressarcimento do dano alcançam também as despesas processuais e as penas pecuniárias, com preferência para a reparação do dano ao ofendido."
+     "quem": "STF · Súmula 523",
+     "texto": "No processo penal, a falta da defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu."
+    },
+    {
+     "quem": "STF · Súmula 705",
+     "texto": "A renúncia do réu ao direito de apelação, manifestada sem a assistência do defensor, não impede o conhecimento da apelação por este interposta."
+    },
+    {
+     "quem": "STF · Súmula 708",
+     "texto": "É nulo o julgamento da apelação se, após a manifestação nos autos da renúncia do único defensor, o réu não foi previamente intimado para constituir outro."
+    },
+    {
+     "quem": "STF · ADPFs 395 e 444",
+     "texto": "A condução coercitiva de investigados ou réus para interrogatório não foi recepcionada pela Constituição."
+    },
+    {
+     "quem": "STJ · Informativo 900",
+     "texto": "A autonomia investigatória do MP não dispensa as regras de atribuição e designação, em respeito ao princípio do promotor natural."
+    }
+   ],
+   "detalhes": [
+    "A defesa técnica é indisponível; a autodefesa (direito de presença e de audiência) é renunciável, e o réu pode ficar em silêncio.",
+    "A audiência pode ser adiada se o defensor não puder comparecer por motivo justificado (art. 265, § 1º). Não é adiada sempre que ele falta.",
+    "O abandono sem justo motivo gera infração disciplinar perante o órgão correicional (art. 265). A antiga multa de 10 a 100 salários mínimos não existe mais.",
+    "O advogado nomeado pelo juiz só pode recusar o patrocínio por motivo relevante (art. 264).",
+    "Para o STJ (Inf. 902), inserir em petição, de forma oculta, comando para manipular sistemas de inteligência artificial é ato atentatório à dignidade da justiça, com ofício à entidade de classe e ao MP.",
+    "O MP fiscaliza a execução da lei também nas ações privadas, como fiscal da ordem jurídica."
+   ],
+   "macetes": [
+    {
+     "sigla": "FALTA ANULA, DEFICIÊNCIA SÓ COM PREJUÍZO",
+     "texto": "Súmula 523: sem defensor, nulidade absoluta; defesa fraca, só com prejuízo provado."
+    },
+    {
+     "sigla": "IMPEDIMENTO DO DEFENSOR ATÉ A ABERTURA",
+     "texto": "O defensor que falta prova o motivo até abrir a audiência, ou o juiz nomeia substituto."
     }
    ],
    "pegadinha": {
-    "afirmacao": "Para a decretação do sequestro de bens imóveis adquiridos com os proventos da infração, exige-se prova cabal da origem ilícita, e a medida só é possível depois do recebimento da denúncia.",
+    "afirmacao": "No processo penal, a deficiência da defesa gera nulidade absoluta, independentemente de prejuízo.",
     "gabarito": "E",
-    "explicacao": "Bastam indícios veementes (art. 126), e o sequestro cabe em qualquer fase, inclusive antes da denúncia (art. 127)."
+    "explicacao": "A falta de defesa é nulidade absoluta; a deficiência só anula se houver prova de prejuízo ao réu (Súmula 523 do STF)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-MA 2018 e Delegado PC-CE 2025 (o delegado pode representar pelo sequestro de imóveis e veículos comprados com o dinheiro do crime).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O acusado pode embargar alegando que os bens não vieram do crime, e o terceiro adquirente a título oneroso, alegando boa-fé, mas a decisão sobre esses embargos só sai depois do trânsito em julgado da condenação (art. 130).</p><p>A perda em favor da União dos instrumentos e do produto do crime é efeito automático da condenação, ressalvado o direito do lesado ou do terceiro de boa-fé. A perda alargada do art. 91-A do CP alcança a diferença entre o patrimônio do condenado e o compatível com seu rendimento lícito, em crimes com pena máxima superior a seis anos. A Constituição prevê a perda de bens como pena e determina o confisco dos bens apreendidos no tráfico e na exploração de trabalho escravo; para o STF, o confisco no tráfico não exige habitualidade nem uso exclusivo do bem para o crime.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Nomeado defensor pelo juiz, o acusado não pode mais substituí-lo por outro de sua confiança.",
+     "certo": "Pode, a todo tempo (art. 263).",
+     "fonte": "Questão do app sobre o art. 263"
+    },
+    {
+     "errado": "O MP fiscaliza a execução da lei só nas ações penais públicas.",
+     "certo": "O art. 257, II, não faz essa restrição.",
+     "fonte": "Questão do app sobre o art. 257"
+    },
+    {
+     "errado": "Os parentes do juiz podem funcionar como defensores se o acusado concordar.",
+     "certo": "Não funcionam como defensores (art. 267).",
+     "fonte": "Questão do app sobre o art. 267"
+    },
+    {
+     "errado": "O acusado foragido pode ser processado sem defensor enquanto não for localizado.",
+     "certo": "Nenhum acusado, ainda que foragido, fica sem defensor (art. 261).",
+     "fonte": "Questão do app sobre o art. 261"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: agora trata do juiz, do MP, do acusado e do defensor. Impedimento e suspeição e o assistente de acusação ganharam temas próprios."
+    }
+   ],
    "relacionados": [
-    "questoes-prejudiciais-e-excecoes",
-    "acao-civil-ex-delicto",
-    "inquerito-policial"
+    "impedimento-e-suspeicao",
+    "assistente-de-acusacao-e-auxiliares-da-justica",
+    "nulidades"
+   ]
+  },
+  {
+   "slug": "assistente-de-acusacao-e-auxiliares-da-justica",
+   "titulo": "Assistente de acusação, peritos, intérpretes e serventuários",
+   "grupo": "Sujeitos e incidentes",
+   "base": "Arts. 268 a 276 e 278 a 281 do CPP",
+   "tax": [
+    "processo-penal.sujeitos-processo.assistente-auxiliares"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-268",
+    "n3689-1941-art-269",
+    "n3689-1941-art-270",
+    "n3689-1941-art-271",
+    "n3689-1941-art-272",
+    "n3689-1941-art-273",
+    "n3689-1941-art-274",
+    "n3689-1941-art-275",
+    "n3689-1941-art-276",
+    "n3689-1941-art-278",
+    "n3689-1941-art-279",
+    "n3689-1941-art-280",
+    "n3689-1941-art-281"
+   ],
+   "conceitos": [
+    "assistente de acusação",
+    "legitimados à assistência",
+    "momento da admissão",
+    "corréu não pode ser assistente",
+    "poderes do assistente",
+    "oitiva prévia do MP",
+    "irrecorribilidade da decisão sobre a assistência",
+    "recurso supletivo do assistente",
+    "suspeição dos serventuários",
+    "disciplina judiciária do perito",
+    "nomeação do perito sem intervenção das partes",
+    "condução do perito",
+    "impedimentos para ser perito",
+    "intérpretes equiparados a peritos"
+   ],
+   "palavras": [
+    "assistente",
+    "assistente do ministerio publico",
+    "ofendido",
+    "representante legal",
+    "art 31",
+    "conjuge",
+    "ascendente",
+    "descendente",
+    "irmao",
+    "acao publica",
+    "passar em julgado",
+    "estado em que se achar",
+    "co reu",
+    "corréu",
+    "propor meios de prova",
+    "perguntas as testemunhas",
+    "aditar o libelo",
+    "debate oral",
+    "arrazoar",
+    "recursos",
+    "art 584",
+    "art 598",
+    "ouvido previamente",
+    "nao cabera recurso",
+    "constar dos autos",
+    "nova intimacao",
+    "forca maior",
+    "sumula 208",
+    "sumula 210",
+    "sumula 448",
+    "habeas corpus",
+    "recurso extraordinario",
+    "supletivamente",
+    "serventuarios",
+    "funcionarios da justica",
+    "perito",
+    "disciplina judiciaria",
+    "nao oficial",
+    "nomeacao do perito",
+    "conducao",
+    "interdicao de direito",
+    "prestado depoimento",
+    "opinado anteriormente",
+    "analfabetos",
+    "menores de 21 anos",
+    "interpretes",
+    "equiparados aos peritos"
+   ],
+   "resumo": "Na ação penal pública, o <strong>ofendido</strong> ou seu representante legal pode intervir como <strong>assistente do MP</strong>. Se ele tiver morrido ou sido declarado ausente, podem intervir o cônjuge, o ascendente, o descendente ou o irmão (arts. 268 e 31). O assistente é admitido <strong>enquanto não transitar em julgado a sentença</strong> e recebe a causa no estado em que estiver (art. 269). Não há assistência no inquérito, e o <strong>corréu</strong> no mesmo processo não pode ser assistente (art. 270). O assistente pode propor provas, requerer perguntas às testemunhas, participar do debate oral e arrazoar os recursos do MP. Também pode recorrer por conta própria nos casos dos arts. 584, § 1º, e 598 (art. 271). O <strong>MP é ouvido antes</strong> da admissão, e da decisão que admite ou não o assistente <strong>não cabe recurso</strong> (arts. 272 e 273). Os auxiliares da justiça também devem ser imparciais. As regras de suspeição dos juízes valem para serventuários e funcionários (art. 274) e para os peritos (art. 280). O perito, mesmo não oficial, está sujeito à disciplina judiciária, e <strong>as partes não intervêm na sua nomeação</strong> (arts. 275 e 276). Se faltar sem justa causa, pode ser conduzido (art. 278). Não podem ser peritos os interditados, quem já depôs ou opinou sobre o objeto da perícia, os analfabetos e os menores de 21 anos (art. 279). Os <strong>intérpretes</strong> são equiparados aos peritos para todos os efeitos (art. 281). A multa do perito que recusa o encargo (art. 277) está no caderno de Medicina Legal.",
+   "esquema": {
+    "rotulo": "o que o assistente pode e não pode",
+    "html": "<table><thead><tr><th>Pode</th><th>Não pode</th></tr></thead><tbody><tr><td><strong>Ingressar até o trânsito em julgado, recebendo a causa no estado em que está</strong></td><td>Habilitar-se no inquérito policial</td></tr><tr><td><strong>Propor provas, requerer perguntas e participar do debate oral</strong></td><td>Ter suas provas admitidas sem que o MP seja ouvido</td></tr><tr><td><strong>Arrazoar os recursos do MP</strong></td><td>Ser corréu no mesmo processo</td></tr><tr><td><strong>Recorrer supletivamente, inclusive com recurso extraordinário, nos casos dos arts. 584, § 1º, e 598 (Súmula 210)</strong></td><td>Recorrer extraordinariamente de decisão que concede habeas corpus (Súmula 208)</td></tr><tr><td><strong>Seguir sem nova intimação se faltar a ato sem força maior comprovada</strong></td><td>Recorrer da decisão que o admite ou não (art. 273)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem não pode ser perito (art. 279)",
+    "linhas": [
+     {
+      "nome": "Interditado",
+      "o_que_e": "Quem está sujeito à interdição de direito para cargo ou profissão.",
+      "atencao": "O texto cita o antigo art. 69 do CP; hoje é o art. 47."
+     },
+     {
+      "nome": "Quem já atuou no caso",
+      "o_que_e": "Quem prestou depoimento no processo ou opinou antes sobre o objeto da perícia.",
+      "atencao": "Basta uma das duas situações."
+     },
+     {
+      "nome": "Analfabeto",
+      "o_que_e": "Não pode ser perito, qualquer que seja a idade.",
+      "atencao": "Art. 279, III."
+     },
+     {
+      "nome": "Menor de 21 anos",
+      "o_que_e": "O texto do CPP ainda fala em 21 anos.",
+      "atencao": "Art. 279, III."
+     }
+    ],
+    "colunas": [
+     "Quem",
+     "Por quê",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 268.",
+      "Art. 269.",
+      "Art. 270.",
+      "Art. 271.",
+      "Art. 272.",
+      "Art. 273.",
+      "Art. 274.",
+      "Art. 275.",
+      "Art. 276.",
+      "Art. 278.",
+      "Art. 279.",
+      "Art. 280.",
+      "Art. 281."
+     ],
+     "ref": "arts. 268 a 276 e 278 a 281 do CPP",
+     "regras": [
+      "<strong>Art. 268.</strong> Na ação pública, pode intervir como assistente do MP o ofendido ou seu representante legal, ou, na falta, as pessoas do art. 31.",
+      "<strong>Arts. 269 e 270.</strong> O assistente é admitido enquanto não transitar em julgado a sentença e recebe a causa no estado em que se acha; o corréu não pode ser assistente.",
+      "<strong>Art. 271.</strong> O assistente propõe provas, requer perguntas, participa do debate oral e arrazoa recursos do MP ou os seus próprios (arts. 584, § 1º, e 598). O juiz decide sobre as provas ouvindo o MP. Faltando sem força maior, o processo segue sem nova intimação. O \"libelo\" citado no texto foi extinto pela reforma do júri de 2008.",
+      "<strong>Arts. 272 e 273.</strong> O MP é ouvido antes da admissão; da decisão não cabe recurso, mas pedido e decisão constam dos autos.",
+      "<strong>Art. 274.</strong> As regras de suspeição dos juízes se estendem aos serventuários e funcionários da justiça.",
+      "<strong>Arts. 275 e 276.</strong> O perito, mesmo não oficial, está sujeito à disciplina judiciária; as partes não intervêm na sua nomeação.",
+      "<strong>Art. 278.</strong> O perito que não comparece sem justa causa pode ser conduzido.",
+      "<strong>Arts. 279 a 281.</strong> Não podem ser peritos os interditados, quem depôs ou opinou antes sobre o objeto, os analfabetos e os menores de 21 anos; a suspeição dos juízes se estende aos peritos; intérpretes são equiparados aos peritos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "O assistente será admitido enquanto não passar em julgado a sentença e receberá a causa no estado em que se achar.",
+       "marcas": [
+        "enquanto não passar em julgado"
+       ],
+       "afirmacao": "A vítima pede habilitação como assistente depois da sentença condenatória, ainda sem trânsito em julgado. O juiz deve negar, porque a instrução já acabou.",
+       "gabarito": "E",
+       "porque": "O assistente é admitido enquanto não transitar em julgado a sentença e recebe a causa no estado em que se acha (art. 269)."
+      },
+      {
+       "trecho": "O co-réu no mesmo processo não poderá intervir como assistente do Ministério Público.",
+       "marcas": [
+        "co-réu"
+       ],
+       "afirmacao": "Dois homens se agrediram e respondem no mesmo processo. Um deles pode se habilitar como assistente do MP contra o outro, se o juiz autorizar.",
+       "gabarito": "E",
+       "porque": "O corréu no mesmo processo não pode intervir como assistente (art. 270)."
+      },
+      {
+       "trecho": "participar do debate oral e arrazoar os recursos interpostos pelo Ministério Público",
+       "marcas": [
+        "participar do debate oral"
+       ],
+       "afirmacao": "No júri, o advogado da família da vítima, admitido como assistente, ocupa parte do tempo da acusação nos debates.",
+       "gabarito": "C",
+       "porque": "O assistente pode participar do debate oral (art. 271)."
+      },
+      {
+       "trecho": "O juiz, ouvido o Ministério Público, decidirá acerca da realização das provas propostas pelo assistente.",
+       "marcas": [
+        "ouvido o Ministério Público"
+       ],
+       "afirmacao": "O assistente pede uma perícia complementar. O juiz decide sem ouvir o MP, porque o pedido não veio dele.",
+       "gabarito": "E",
+       "porque": "O juiz decide sobre as provas do assistente depois de ouvir o MP (art. 271, § 1º)."
+      },
+      {
+       "trecho": "Do despacho que admitir, ou não, o assistente, não caberá recurso",
+       "marcas": [
+        "não caberá recurso"
+       ],
+       "afirmacao": "O juiz indeferiu a habilitação da vítima como assistente. Ela pode interpor recurso em sentido estrito.",
+       "gabarito": "E",
+       "porque": "Da decisão que admite ou não o assistente não cabe recurso, mas pedido e decisão constam dos autos (art. 273)."
+      },
+      {
+       "trecho": "As partes não intervirão na nomeação do perito.",
+       "marcas": [
+        "não intervirão"
+       ],
+       "afirmacao": "A defesa indica ao delegado o nome do perito que deve fazer o exame, e a indicação vincula a autoridade.",
+       "gabarito": "E",
+       "porque": "As partes não intervêm na nomeação do perito (art. 276)."
+      },
+      {
+       "trecho": "os que tiverem prestado depoimento no processo ou opinado anteriormente sobre o objeto da perícia",
+       "marcas": [
+        "prestado depoimento"
+       ],
+       "afirmacao": "O engenheiro que já depôs como testemunha no processo é nomeado perito para avaliar o mesmo imóvel. A nomeação é válida, porque ele nunca opinou sobre o objeto da perícia.",
+       "gabarito": "E",
+       "porque": "Não pode ser perito quem prestou depoimento no processo ou opinou antes sobre o objeto (art. 279, II): basta uma das duas situações."
+      },
+      {
+       "trecho": "Os intérpretes são, para todos os efeitos, equiparados aos peritos.",
+       "marcas": [
+        "para todos os efeitos"
+       ],
+       "afirmacao": "O intérprete nomeado é amigo íntimo do réu. A parte pode arguir a suspeição dele, como faria com um perito.",
+       "gabarito": "C",
+       "porque": "Intérpretes são equiparados aos peritos para todos os efeitos (art. 281), e aos peritos se aplica a suspeição dos juízes (art. 280)."
+      }
+     ],
+     "conferido": {
+      "Art. 268.": "d94f7236c182",
+      "Art. 269.": "7baf9c0fb779",
+      "Art. 270.": "f80fb3f017cc",
+      "Art. 271.": "6a4a7692925b",
+      "Art. 272.": "1b5c1e5c2722",
+      "Art. 273.": "500eadd29afc",
+      "Art. 274.": "7d717ea015cb",
+      "Art. 275.": "82ebe7a33b89",
+      "Art. 276.": "a50e9177682f",
+      "Art. 278.": "e6afe6109038",
+      "Art. 279.": "f92afde65ccb",
+      "Art. 280.": "83260dbedf70",
+      "Art. 281.": "a20fdd864214"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 208",
+     "texto": "O assistente do Ministério Público não pode recorrer, extraordinariamente, de decisão concessiva de habeas corpus."
+    },
+    {
+     "quem": "STF · Súmula 210",
+     "texto": "O assistente do Ministério Público pode recorrer, inclusive extraordinariamente, na ação penal, nos casos dos arts. 584, § 1º, e 598 do Código de Processo Penal."
+    },
+    {
+     "quem": "STF · Súmula 448",
+     "texto": "O prazo para o assistente recorrer, supletivamente, começa a correr imediatamente após o transcurso do prazo do Ministério Público."
+    }
+   ],
+   "detalhes": [
+    "Não existe assistente de acusação no inquérito policial: a lei fala em intervir na ação pública (art. 268).",
+    "Na ação privada não há assistente: o próprio ofendido é o querelante.",
+    "Os recursos próprios do assistente (art. 598) cabem quando o MP não recorre: apelação da sentença, e recurso em sentido estrito da impronúncia e da extinção da punibilidade (art. 584, § 1º).",
+    "Intimado, o assistente que falta sem força maior comprovada não é intimado de novo para aquele ato; o processo segue (art. 271, § 2º).",
+    "A suspeição do perito é decidida de plano pelo juiz, sem recurso, à vista da matéria alegada e de prova imediata (art. 105, no tema de impedimento e suspeição).",
+    "O perito que recusa o encargo ou falta sem justa causa sofre a multa do art. 277 (caderno de Medicina Legal) e pode ser conduzido (art. 278)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ASSISTENTE ENTRA ATÉ O TRÂNSITO",
+     "texto": "Admitido enquanto não transitar em julgado a sentença; recebe o processo como está."
+    },
+    {
+     "sigla": "SEM RECURSO NA ADMISSÃO",
+     "texto": "Admitiu ou negou o assistente: não cabe recurso, mas tudo fica nos autos."
+    },
+    {
+     "sigla": "INTÉRPRETE É PERITO",
+     "texto": "Para todos os efeitos, inclusive suspeição e impedimentos."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O ofendido pode habilitar-se como assistente de acusação já durante o inquérito policial, para acompanhar as diligências.",
+    "gabarito": "E",
+    "explicacao": "A assistência existe na ação penal pública, enquanto não transitar em julgado a sentença (arts. 268 e 269). No inquérito não há assistente."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O assistente de acusação só pode ser admitido até o encerramento da instrução.",
+     "certo": "É admitido enquanto não transitar em julgado a sentença (art. 269).",
+     "fonte": "Questão do app sobre o art. 269"
+    },
+    {
+     "errado": "Ao assistente é permitido requerer perguntas às testemunhas, mas não participar do debate oral.",
+     "certo": "Pode participar do debate oral (art. 271).",
+     "fonte": "Questão do app sobre o art. 271"
+    },
+    {
+     "errado": "Pode ser perito o maior de 18 anos, ainda que analfabeto.",
+     "certo": "Analfabetos não podem ser peritos, e o CPP fala em menores de 21 anos (art. 279, III).",
+     "fonte": "Questão do app sobre o art. 279"
+    },
+    {
+     "errado": "Os intérpretes equiparam-se aos peritos só para fins de remuneração.",
+     "certo": "São equiparados para todos os efeitos (art. 281).",
+     "fonte": "Questão do app sobre o art. 281"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: o assistente de acusação, os peritos, os intérpretes e os serventuários saíram do tema de sujeitos do processo."
+    }
+   ],
+   "relacionados": [
+    "sujeitos-do-processo",
+    "impedimento-e-suspeicao",
+    "corpo-de-delito-pericia-e-peritos"
    ]
   },
   {
