@@ -9,68 +9,944 @@
  "fontes": "<p>Texto próprio do Tchau Pobreza, conferido com o texto atualizado das leis na Câmara dos Deputados e no Planalto, inclusive as alterações de 2026 (Lei 15.358, que criou o crime de domínio social estruturado, e a nova redação do art. 112 da LEP). Os itens de prova citados vêm dos cadernos oficiais e dos gabaritos definitivos do Cebraspe. Questões antigas foram ajustadas ao texto atual quando a lei mudou.</p>",
  "temas": [
   {
+   "slug": "sisnad-e-politicas-sobre-drogas",
+   "titulo": "Sisnad: conceito de droga, princípios, objetivos e competências",
+   "grupo": "Drogas",
+   "base": "Arts. 1º a 8º-E, 16, 17 e 64 a 75 da Lei 11.343/2006",
+   "tax": [
+    "penal-especial.lei-drogas.sisnad"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-1",
+    "n11343-2006-art-2",
+    "n11343-2006-art-3",
+    "n11343-2006-art-4",
+    "n11343-2006-art-5",
+    "n11343-2006-art-7",
+    "n11343-2006-art-8-a",
+    "n11343-2006-art-8-d",
+    "n11343-2006-art-8-e",
+    "n11343-2006-art-16",
+    "n11343-2006-art-17",
+    "n11343-2006-art-64",
+    "n11343-2006-art-65",
+    "n11343-2006-art-66",
+    "n11343-2006-art-67",
+    "n11343-2006-art-67-a",
+    "n11343-2006-art-68",
+    "n11343-2006-art-73",
+    "n11343-2006-art-74",
+    "n11343-2006-art-75"
+   ],
+   "conceitos": [
+    "Sisnad",
+    "conceito de droga",
+    "norma penal em branco",
+    "Portaria SVS/MS 344/1998",
+    "plantio para fins medicinais ou científicos",
+    "princípios do Sisnad",
+    "objetivos do Sisnad",
+    "Plano Nacional de Políticas sobre Drogas",
+    "conselhos de políticas sobre drogas",
+    "Conad",
+    "competência da União",
+    "cooperação internacional",
+    "Funad",
+    "vacatio legis de 45 dias"
+   ],
+   "palavras": [
+    "sisnad",
+    "sistema nacional de politicas publicas sobre drogas",
+    "conceito de droga",
+    "dependencia fisica ou psiquica",
+    "lista atualizada periodicamente",
+    "poder executivo da uniao",
+    "portaria 344",
+    "svs",
+    "norma penal em branco",
+    "plantio",
+    "fins medicinais ou cientificos",
+    "uniao pode autorizar",
+    "principios",
+    "autonomia",
+    "liberdade",
+    "diversidade",
+    "responsabilidade compartilhada",
+    "intersetorialidade",
+    "conad",
+    "objetivos",
+    "inclusao social",
+    "compete a uniao",
+    "plano nacional",
+    "conselhos estaduais",
+    "conselhos municipais",
+    "cooperacao internacional",
+    "funad",
+    "45 dias",
+    "revoga a lei 6.368"
+   ],
+   "resumo": "A Lei 11.343/2006 cria o <strong>Sisnad</strong>, o sistema que articula duas frentes: a <strong>prevenção, a atenção e a reinserção social</strong> de usuários e dependentes e a <strong>repressão</strong> da produção não autorizada e do tráfico (arts. 1º e 3º). O conceito de droga é de <strong>norma penal em branco</strong>: droga é a substância capaz de causar dependência que esteja em lista do Poder Executivo da União (art. 1º, parágrafo único), hoje a <strong>Portaria SVS/MS 344/1998</strong> (art. 66). O plantio e a exploração de vegetais que dão droga são proibidos, mas a <strong>União pode autorizar</strong> o cultivo para fins exclusivamente medicinais ou científicos, em local e prazo predeterminados e sob fiscalização (art. 2º). Os princípios do Sisnad começam pelo respeito aos direitos fundamentais, com destaque para <strong>autonomia e liberdade</strong> (art. 4º, I). Compete à União formular a Política Nacional, elaborar o Plano Nacional e coordenar o Sisnad (art. 8º-A). A lei entrou em vigor <strong>45 dias</strong> após a publicação e revogou as Leis 6.368/1976 e 10.409/2002 (arts. 74 e 75).",
+   "esquema": {
+    "rotulo": "as duas frentes do Sisnad",
+    "html": "<table><thead><tr><th>Frente</th><th>O que abrange</th><th>Onde está</th></tr></thead><tbody><tr><td><strong>Prevenção, atenção e reinserção</strong></td><td>Reduzir fatores de risco, cuidar do usuário e do dependente e reintegrá-los à sociedade</td><td>Arts. 18 a 26-A</td></tr><tr><td><strong>Repressão</strong></td><td>Combater a produção não autorizada e o tráfico, com crimes, procedimento e perda de bens</td><td>Arts. 27 a 64</td></tr><tr><td><strong>Organização</strong></td><td>Orientação central e execução descentralizada nas esferas federal, estadual, distrital e municipal</td><td>Art. 7º</td></tr><tr><td><strong>Financiamento</strong></td><td>Funad recebe multas, bens confiscados e o produto da alienação</td><td>Arts. 29, parágrafo único, e 63-E</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem faz o quê no Sisnad",
+    "linhas": [
+     {
+      "nome": "União",
+      "o_que_e": "Formula e coordena a Política Nacional, elabora o Plano Nacional, coordena o Sisnad e cuida do controle de fronteiras",
+      "atencao": "Art. 8º-A."
+     },
+     {
+      "nome": "Conselhos estaduais, distritais e municipais",
+      "o_que_e": "Auxiliam na elaboração das políticas locais e colaboram com os órgãos do Sisnad",
+      "atencao": "Art. 8º-E."
+     },
+     {
+      "nome": "Instituições de saúde e assistência",
+      "o_que_e": "Comunicam os casos atendidos e os óbitos ao sistema municipal de saúde, sem identificar as pessoas",
+      "atencao": "Art. 16."
+     },
+     {
+      "nome": "Poder Executivo da União",
+      "o_que_e": "Mantém a lista das substâncias que são droga (Portaria SVS/MS 344/1998)",
+      "atencao": "Arts. 1º e 66."
+     }
+    ],
+    "colunas": [
+     "Órgão",
+     "Papel",
+     "Base"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º.",
+      "Art. 3º.",
+      "Art. 4º.",
+      "Art. 5º.",
+      "Art. 7º.",
+      "Art. 8º-A.",
+      "Art. 8º-D.",
+      "Art. 8º-E.",
+      "Art. 16.",
+      "Art. 17.",
+      "Art. 64.",
+      "Art. 65.",
+      "Art. 66.",
+      "Art. 67.",
+      "Art. 67-A.",
+      "Art. 68.",
+      "Art. 73.",
+      "Art. 74.",
+      "Art. 75."
+     ],
+     "ref": "arts. 1º a 8º-E, 16, 17 e 64 a 75 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 1º.</strong> Objeto da lei e conceito de droga: substância capaz de causar dependência, especificada em lei ou em lista do Poder Executivo da União.",
+      "<strong>Art. 2º.</strong> Proibição das drogas e do plantio; a União pode autorizar o cultivo só para fins medicinais ou científicos.",
+      "<strong>Arts. 3º a 5º.</strong> Finalidade, princípios e objetivos do Sisnad, em articulação com o SUS e o Suas.",
+      "<strong>Arts. 7º a 8º-E.</strong> Organização descentralizada, competências da União, Plano Nacional e conselhos de políticas sobre drogas.",
+      "<strong>Arts. 16 e 17.</strong> Comunicação dos casos atendidos sem identificar as pessoas; dados de repressão no sistema do Executivo.",
+      "<strong>Arts. 64 a 75.</strong> Convênios, cooperação internacional, lista da Portaria 344, estímulos, vigência em 45 dias e revogações."
+     ],
+     "literalidades": [
+      {
+       "trecho": "consideram-se como drogas as substâncias ou os produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União",
+       "marcas": [
+        "Poder Executivo da União"
+       ],
+       "afirmacao": "Uma substância nova, capaz de causar dependência, começou a circular, mas ainda não consta da lista do Ministério da Saúde. Quem a vende já pratica tráfico de drogas.",
+       "gabarito": "E",
+       "porque": "Droga é só a substância relacionada em lei ou na lista do Poder Executivo da União (art. 1º, parágrafo único). Fora da lista, o fato é atípico para a Lei de Drogas."
+      },
+      {
+       "trecho": "Pode a União autorizar o plantio, a cultura e a colheita dos vegetais referidos no caput deste artigo, exclusivamente para fins medicinais ou científicos",
+       "marcas": [
+        "União",
+        "exclusivamente para fins medicinais ou científicos"
+       ],
+       "afirmacao": "Uma universidade quer cultivar cannabis para pesquisar um remédio. Quem pode autorizar o cultivo, em local e prazo predeterminados e sob fiscalização, é a União.",
+       "gabarito": "C",
+       "porque": "Art. 2º, parágrafo único: a autorização é da União e só para fins medicinais ou científicos."
+      },
+      {
+       "trecho": "o respeito aos direitos fundamentais da pessoa humana, especialmente quanto à sua autonomia e à sua liberdade",
+       "marcas": [
+        "autonomia",
+        "liberdade"
+       ],
+       "afirmacao": "Entre os princípios do Sisnad, a lei destaca o respeito aos direitos fundamentais, especialmente quanto à segurança pública e à ordem social.",
+       "gabarito": "E",
+       "porque": "O art. 4º, I, destaca a autonomia e a liberdade da pessoa, e não a segurança pública."
+      },
+      {
+       "trecho": "O Sisnad atuará em articulação com o Sistema Único de Saúde - SUS, e com o Sistema Único de Assistência Social - SUAS.",
+       "marcas": [
+        "SUS",
+        "SUAS"
+       ],
+       "afirmacao": "Um município monta seu serviço de acolhimento de dependentes ligado ao CRAS e às unidades de saúde da família. A lei quer exatamente essa articulação do Sisnad com o SUS e o Suas.",
+       "gabarito": "C",
+       "porque": "Art. 3º, § 2º: o Sisnad atua articulado com o SUS e o Suas."
+      },
+      {
+       "trecho": "A organização do Sisnad assegura a orientação central e a execução descentralizada das atividades",
+       "marcas": [
+        "orientação central",
+        "execução descentralizada"
+       ],
+       "afirmacao": "No Sisnad, a orientação e a execução das atividades são centralizadas na União, que executa diretamente as ações nos municípios.",
+       "gabarito": "E",
+       "porque": "A orientação é central, mas a execução é descentralizada, nas esferas federal, distrital, estadual e municipal (art. 7º)."
+      },
+      {
+       "trecho": "Esta Lei entra em vigor 45 (quarenta e cinco) dias após a sua publicação.",
+       "marcas": [
+        "45 (quarenta e cinco) dias"
+       ],
+       "afirmacao": "A Lei de Drogas entrou em vigor na data da sua publicação.",
+       "gabarito": "E",
+       "porque": "Teve vacatio legis de 45 dias (art. 74)."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "efb4c8d1511f",
+      "Art. 2º.": "92170fcc8958",
+      "Art. 3º.": "ff525c966a9f",
+      "Art. 4º.": "7738542cbca3",
+      "Art. 5º.": "68368d492961",
+      "Art. 7º.": "815a7900625b",
+      "Art. 8º-A.": "7a57127483b5",
+      "Art. 8º-D.": "073981149997",
+      "Art. 8º-E.": "22533391337d",
+      "Art. 16.": "e32382981974",
+      "Art. 17.": "81397a8fe408",
+      "Art. 64.": "7951f4285ff2",
+      "Art. 65.": "2759c47d4641",
+      "Art. 66.": "fa11416e85f3",
+      "Art. 67.": "5e1a8fb26f30",
+      "Art. 67-A.": "b0f65d84f151",
+      "Art. 68.": "207151c0ef52",
+      "Art. 73.": "8c7a997e1b0b",
+      "Art. 74.": "ca24166ef76e",
+      "Art. 75.": "c47f58c201d2"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF e STJ · jurisprudência consolidada",
+     "texto": "O art. 33 é norma penal em branco heterogênea: o complemento vem da Portaria SVS/MS 344/1998, ato do Executivo. Substância retirada da lista deixa de ser droga, e a mudança retroage a favor do réu."
+    }
+   ],
+   "detalhes": [
+    "A lista da Portaria 344 vale “até que seja atualizada a terminologia da lista” (art. 66). Ela abrange entorpecentes, psicotrópicos, precursores e outras substâncias sob controle especial.",
+    "Os conselhos estaduais, distritais e municipais de políticas sobre drogas auxiliam na elaboração das políticas locais e colaboram com os órgãos do Sisnad (art. 8º-E).",
+    "As instituições de saúde e assistência que atendam usuários comunicam os casos e os óbitos ao sistema municipal de saúde preservando a identidade das pessoas (art. 16).",
+    "A União, por meio da Senad, pode firmar convênios para liberar equipamentos e recursos arrecadados (art. 64). Gestores que recebam recursos públicos para políticas sobre drogas devem garantir acesso à fiscalização (art. 67-A).",
+    "A cooperação internacional (art. 65) respeita a não intervenção em assuntos internos, a igualdade jurídica e a integridade territorial dos Estados."
+   ],
+   "macetes": [
+    {
+     "sigla": "DROGA É O QUE ESTÁ NA LISTA",
+     "texto": "Sem previsão em lei ou na lista do Executivo da União (Portaria 344), não há droga para fins penais."
+    },
+    {
+     "sigla": "CENTRAL NA ORIENTAÇÃO, DESCENTRALIZADO NA EXECUÇÃO",
+     "texto": "É a organização do Sisnad (art. 7º)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para os fins da Lei de Drogas, consideram-se drogas todas as substâncias capazes de causar dependência física ou psíquica, independentemente de previsão em lei ou em lista do Poder Executivo.",
+    "gabarito": "E",
+    "explicacao": "A lei exige que a substância esteja especificada em lei ou relacionada em lista atualizada pelo Poder Executivo da União (art. 1º, parágrafo único)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Os Estados podem autorizar o plantio de cannabis para fins medicinais.",
+     "certo": "Quem autoriza é a União, só para fins medicinais ou científicos (art. 2º, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 2º"
+    },
+    {
+     "errado": "O Sisnad atua em articulação apenas com o SUS.",
+     "certo": "Atua com o SUS e com o Suas (art. 3º, § 2º).",
+     "fonte": "Questão do app sobre o art. 3º"
+    },
+    {
+     "errado": "Entre os objetivos do Sisnad está a criminalização do usuário.",
+     "certo": "Os objetivos falam em inclusão social, conhecimento sobre drogas e integração de políticas (art. 5º).",
+     "fonte": "Questão do app sobre o art. 5º"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre o conceito de droga e os princípios do Sisnad (arts. 1º a 5º)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: Sisnad, conceito de droga, princípios, objetivos, competências da União e disposições finais da Lei de Drogas."
+    }
+   ],
+   "relacionados": [
+    "prevencao-atencao-e-reinsercao-social",
+    "porte-de-drogas-para-consumo-pessoal",
+    "trafico-de-drogas"
+   ]
+  },
+  {
+   "slug": "prevencao-atencao-e-reinsercao-social",
+   "titulo": "Prevenção do uso indevido, atenção ao usuário e reinserção social",
+   "grupo": "Drogas",
+   "base": "Arts. 18 a 23, 24 a 26 da Lei 11.343/2006",
+   "tax": [
+    "penal-especial.lei-drogas.prevencao-atencao"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-18",
+    "n11343-2006-art-19",
+    "n11343-2006-art-19-a",
+    "n11343-2006-art-20",
+    "n11343-2006-art-21",
+    "n11343-2006-art-22",
+    "n11343-2006-art-22-a",
+    "n11343-2006-art-23",
+    "n11343-2006-art-24",
+    "n11343-2006-art-25",
+    "n11343-2006-art-26"
+   ],
+   "conceitos": [
+    "prevenção",
+    "fatores de risco",
+    "fatores de proteção",
+    "redução de riscos",
+    "não uso e retardamento do uso",
+    "atenção ao usuário",
+    "reinserção social",
+    "projeto terapêutico individualizado",
+    "Semana Nacional de Políticas sobre Drogas",
+    "Conanda",
+    "benefícios a instituições privadas",
+    "Funad",
+    "saúde do preso usuário"
+   ],
+   "palavras": [
+    "prevencao",
+    "uso indevido",
+    "fatores de vulnerabilidade e risco",
+    "fatores de protecao",
+    "nao-uso",
+    "retardamento do uso",
+    "reducao de riscos",
+    "estigmatizacao",
+    "conanda",
+    "crianca e adolescente",
+    "semana nacional",
+    "quarta semana de junho",
+    "atencao",
+    "qualidade de vida",
+    "reducao dos riscos e dos danos",
+    "reinsercao social",
+    "redes sociais",
+    "projeto terapeutico individualizado",
+    "equipes multiprofissionais",
+    "educacao de jovens e adultos",
+    "previsao orcamentaria",
+    "beneficios",
+    "instituicoes privadas",
+    "funad",
+    "sem fins lucrativos",
+    "pena privativa de liberdade",
+    "medida de seguranca",
+    "sistema penitenciario"
+   ],
+   "resumo": "A lei separa três atividades. <strong>Prevenção</strong> é reduzir os fatores de vulnerabilidade e risco e fortalecer os de proteção (art. 18). Ela reconhece o <strong>não uso, o retardamento do uso e a redução de riscos</strong> como resultados desejáveis (art. 19, VI) e evita preconceito e estigmatização (art. 19, II). A prevenção voltada a crianças e adolescentes segue as diretrizes do <strong>Conanda</strong> (art. 19, parágrafo único). <strong>Atenção</strong> é melhorar a qualidade de vida e reduzir riscos e danos do uso (art. 20). <strong>Reinserção social</strong> é integrar ou reintegrar o usuário em redes sociais (art. 21). A atenção e a reinserção respeitam o usuário <strong>independentemente de quaisquer condições</strong> e partem de um projeto terapêutico individualizado (art. 22). Os entes podem conceder benefícios a empresas que contratem usuários encaminhados por órgão oficial (art. 24). Entidades sem fins lucrativos podem receber recursos do Funad (art. 25). O usuário preso ou em medida de segurança tem garantidos os serviços de saúde do sistema penitenciário (art. 26).",
+   "esquema": {
+    "rotulo": "as três atividades, em uma linha cada",
+    "html": "<table><thead><tr><th>Atividade</th><th>Definição legal</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Prevenção</strong></td><td>Reduzir fatores de vulnerabilidade e risco e fortalecer fatores de proteção</td><td>18 e 19</td></tr><tr><td><strong>Atenção</strong></td><td>Melhorar a qualidade de vida e reduzir riscos e danos associados ao uso</td><td>20</td></tr><tr><td><strong>Reinserção social</strong></td><td>Integrar ou reintegrar o usuário e a família em redes sociais</td><td>21 e 22</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 18.",
+      "Art. 19.",
+      "Art. 19-A.",
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 22.",
+      "Art. 22-A.",
+      "Art. 23.",
+      "Art. 24.",
+      "Art. 25.",
+      "Art. 26."
+     ],
+     "ref": "arts. 18 a 26 da Lei de Drogas",
+     "regras": [
+      "<strong>Arts. 18 e 19.</strong> Prevenção: fatores de risco e de proteção; princípios, com o não uso, o retardamento do uso e a redução de riscos como resultados desejáveis; diretrizes do Conanda para crianças e adolescentes.",
+      "<strong>Art. 19-A.</strong> Semana Nacional de Políticas sobre Drogas, na quarta semana de junho.",
+      "<strong>Arts. 20 a 23.</strong> Atenção e reinserção social: respeito ao usuário em quaisquer condições, projeto terapêutico individualizado, educação e trabalho; redes de saúde com previsão orçamentária.",
+      "<strong>Arts. 24 a 26.</strong> Benefícios a instituições privadas que reinsiram usuários no trabalho; recursos do Funad a entidades sem fins lucrativos; saúde do usuário preso."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o reconhecimento do “não-uso”, do “retardamento do uso” e da redução de riscos como resultados desejáveis das atividades de natureza preventiva",
+       "marcas": [
+        "“retardamento do uso”",
+        "redução de riscos"
+       ],
+       "afirmacao": "Um programa escolar consegue que os alunos comecem a beber e a usar drogas mais tarde, sem eliminar o uso. Para a lei, esse resultado não conta como prevenção.",
+       "gabarito": "E",
+       "porque": "O retardamento do uso e a redução de riscos são resultados desejáveis da prevenção (art. 19, VI)."
+      },
+      {
+       "trecho": "As atividades de prevenção do uso indevido de drogas dirigidas à criança e ao adolescente deverão estar em consonância com as diretrizes emanadas pelo Conselho Nacional dos Direitos da Criança e do Adolescente - Conanda.",
+       "marcas": [
+        "Conanda"
+       ],
+       "afirmacao": "Uma campanha de prevenção para adolescentes deve seguir, além das normas do Conad, as diretrizes do Conanda.",
+       "gabarito": "C",
+       "porque": "Art. 19, parágrafo único: a prevenção dirigida a crianças e adolescentes segue as diretrizes do Conanda."
+      },
+      {
+       "trecho": "Fica instituída a Semana Nacional de Políticas sobre Drogas, comemorada anualmente, na quarta semana de junho.",
+       "marcas": [
+        "quarta semana de junho"
+       ],
+       "afirmacao": "A Semana Nacional de Políticas sobre Drogas é comemorada na primeira semana de dezembro.",
+       "gabarito": "E",
+       "porque": "É na quarta semana de junho (art. 19-A)."
+      },
+      {
+       "trecho": "aquelas direcionadas para sua integração ou reintegração em redes sociais",
+       "marcas": [
+        "redes sociais"
+       ],
+       "afirmacao": "Um programa que ajuda o dependente em recuperação a voltar ao trabalho e ao convívio comunitário faz reinserção social, nos termos da lei.",
+       "gabarito": "C",
+       "porque": "Reinserção social é a integração ou reintegração em redes sociais (art. 21)."
+      },
+      {
+       "trecho": "respeito ao usuário e ao dependente de drogas, independentemente de quaisquer condições",
+       "marcas": [
+        "independentemente de quaisquer condições"
+       ],
+       "afirmacao": "A atenção ao dependente pode ser recusada a quem tem antecedentes criminais, por falta de merecimento.",
+       "gabarito": "E",
+       "porque": "A atenção e a reinserção respeitam o usuário independentemente de quaisquer condições (art. 22, I)."
+      },
+      {
+       "trecho": "têm garantidos os serviços de atenção à sua saúde, definidos pelo respectivo sistema penitenciário",
+       "marcas": [
+        "sistema penitenciário"
+       ],
+       "afirmacao": "O preso dependente de drogas que cumpre pena tem garantidos os serviços de atenção à saúde, definidos pelo sistema penitenciário.",
+       "gabarito": "C",
+       "porque": "Art. 26: o usuário preso ou em medida de segurança tem garantida a atenção à saúde pelo sistema penitenciário."
+      }
+     ],
+     "conferido": {
+      "Art. 18.": "6a3a07135b71",
+      "Art. 19.": "f0f9ea850f33",
+      "Art. 19-A.": "cd08058d27ea",
+      "Art. 20.": "927739a52bed",
+      "Art. 21.": "88a33af63d6b",
+      "Art. 22.": "16296e2c806c",
+      "Art. 22-A.": "bcc3929ee44e",
+      "Art. 23.": "271d129b361c",
+      "Art. 24.": "a8ec8e4a2b74",
+      "Art. 25.": "f10e64111bab",
+      "Art. 26.": "5a104ae7c9cd"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "A prevenção usa conceitos objetivos e de fundamentação científica para evitar preconceito e estigmatização das pessoas e dos serviços que as atendem (art. 19, II).",
+    "A reinserção inclui educação continuada e trabalho, e as pessoas atendidas têm acesso a educação profissional, de jovens e adultos e alfabetização (arts. 22, VIII, e 22-A).",
+    "As redes de saúde de todos os entes desenvolvem programas de atenção, com previsão orçamentária obrigatória (art. 23).",
+    "Os benefícios do art. 24 são para instituições privadas que contratem usuários encaminhados por órgão oficial; os recursos do Funad (art. 25) vão a entidades sem fins lucrativos."
+   ],
+   "macetes": [
+    {
+     "sigla": "PREVENIR, ATENDER, REINSERIR",
+     "texto": "Risco e proteção (art. 18); qualidade de vida e redução de danos (art. 20); redes sociais (art. 21)."
+    },
+    {
+     "sigla": "NÃO USO, USO MAIS TARDE, MENOS RISCO",
+     "texto": "Os três resultados desejáveis da prevenção (art. 19, VI)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para a Lei de Drogas, as atividades de prevenção só alcançam seu objetivo quando levam ao não uso de drogas.",
+    "gabarito": "E",
+    "explicacao": "O art. 19, VI, reconhece como resultados desejáveis o não uso, o retardamento do uso e a redução de riscos."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A prevenção para crianças segue as diretrizes do Conad.",
+     "certo": "Segue as do Conanda (art. 19, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 19"
+    },
+    {
+     "errado": "Atenção ao usuário é a atividade voltada a reintegrá-lo em redes sociais.",
+     "certo": "Isso é reinserção (art. 21); atenção visa qualidade de vida e redução de riscos e danos (art. 20).",
+     "fonte": "Questão do app sobre os arts. 20 e 21"
+    },
+    {
+     "errado": "Instituições com fins lucrativos recebem recursos do Funad para atender usuários.",
+     "certo": "O art. 25 fala em instituições sem fins lucrativos.",
+     "fonte": "Questão do app sobre o art. 25"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre os princípios da prevenção e da reinserção (arts. 19 e 22)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: prevenção, atenção e reinserção social (arts. 18 a 26 da Lei de Drogas)."
+    }
+   ],
+   "relacionados": [
+    "sisnad-e-politicas-sobre-drogas",
+    "tratamento-internacao-e-comunidade-terapeutica"
+   ]
+  },
+  {
+   "slug": "tratamento-internacao-e-comunidade-terapeutica",
+   "titulo": "Tratamento do dependente: internação voluntária e involuntária, PIA e comunidade terapêutica",
+   "grupo": "Drogas",
+   "base": "Arts. 23-A, 23-B e 26-A da Lei 11.343/2006",
+   "tax": [
+    "penal-especial.lei-drogas.tratamento-internacao"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-23-a",
+    "n11343-2006-art-23-b",
+    "n11343-2006-art-26-a"
+   ],
+   "conceitos": [
+    "rede de atenção à saúde",
+    "prioridade ambulatorial",
+    "internação voluntária",
+    "internação involuntária",
+    "prazo máximo de 90 dias",
+    "comunicação em 72 horas",
+    "Plano Individual de Atendimento",
+    "PIA em 30 dias",
+    "comunidade terapêutica acolhedora",
+    "vedação de internação na comunidade terapêutica",
+    "adesão voluntária",
+    "vedação de isolamento"
+   ],
+   "palavras": [
+    "tratamento",
+    "rede de atencao a saude",
+    "ambulatorial",
+    "internacao",
+    "voluntaria",
+    "involuntaria",
+    "consentimento",
+    "familiar",
+    "responsavel legal",
+    "servidor publico",
+    "seguranca publica",
+    "medico",
+    "crm",
+    "90 dias",
+    "desintoxicacao",
+    "72 horas",
+    "ministerio publico",
+    "defensoria publica",
+    "sigilo",
+    "recursos extra-hospitalares",
+    "plano individual de atendimento",
+    "pia",
+    "30 dias",
+    "equipe multidisciplinar",
+    "comunidade terapeutica acolhedora",
+    "abstinencia",
+    "adesao e permanencia voluntaria",
+    "isolamento fisico",
+    "lei 10.216"
+   ],
+   "resumo": "O tratamento é organizado em rede, com <strong>prioridade para o ambulatório</strong>; a internação é excepcional e só cabe quando os recursos extra-hospitalares forem insuficientes (art. 23-A, caput e § 6º). Ela ocorre em unidades de saúde ou hospitais gerais, com autorização de <strong>médico registrado no CRM</strong> do Estado (§ 2º). A <strong>voluntária</strong> depende do consentimento e de declaração escrita; termina por decisão do médico ou pedido escrito do paciente (§ 4º). A <strong>involuntária</strong> é feita sem consentimento, a pedido de familiar ou responsável legal. Na absoluta falta deles, pode pedir servidor da saúde, da assistência social ou do Sisnad, <strong>nunca da segurança pública</strong>. Ela exige decisão formal do médico, dura só o necessário à desintoxicação, no <strong>máximo de 90 dias</strong>, e a família pode pedir a interrupção a qualquer tempo (§ 5º). Toda internação e alta é informada em até <strong>72 horas</strong> ao MP, à Defensoria e a outros órgãos (§ 7º). O atendimento exige avaliação multidisciplinar e um <strong>Plano Individual de Atendimento</strong>, feito em até 30 dias (art. 23-B). A <strong>comunidade terapêutica acolhedora</strong> recebe só quem adere por escrito e de forma voluntária, sem isolamento físico, e nela é <strong>vedada qualquer internação</strong> (arts. 26-A e 23-A, § 9º).",
+   "esquema": {
+    "rotulo": "voluntária x involuntária",
+    "html": "<table><thead><tr><th></th><th>Voluntária</th><th>Involuntária</th></tr></thead><tbody><tr><td><strong>Consentimento</strong></td><td>Sim, com declaração escrita</td><td>Não</td></tr><tr><td><strong>Quem pede</strong></td><td>O próprio dependente</td><td>Familiar ou responsável legal; na falta, servidor da saúde, assistência social ou Sisnad (não da segurança pública)</td></tr><tr><td><strong>Duração</strong></td><td>Até o médico decidir ou o paciente pedir por escrito</td><td>Só o necessário à desintoxicação, no máximo 90 dias</td></tr><tr><td><strong>Término</strong></td><td>Médico ou pedido escrito do paciente</td><td>Médico; a família pode pedir a interrupção a qualquer tempo</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Os números do tratamento",
+    "linhas": [
+     {
+      "nome": "90 dias",
+      "o_que_e": "Prazo máximo da internação involuntária",
+      "atencao": "Art. 23-A, § 5º, III."
+     },
+     {
+      "nome": "72 horas",
+      "o_que_e": "Prazo para informar internações e altas ao MP, à Defensoria e a outros órgãos de fiscalização",
+      "atencao": "Art. 23-A, § 7º."
+     },
+     {
+      "nome": "30 dias",
+      "o_que_e": "Prazo para elaborar o Plano Individual de Atendimento",
+      "atencao": "Art. 23-B, § 6º."
+     }
+    ],
+    "colunas": [
+     "Número",
+     "O que é",
+     "Base"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 23-A.",
+      "Art. 23-B.",
+      "Art. 26-A."
+     ],
+     "ref": "arts. 23-A, 23-B e 26-A da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 23-A.</strong> Rede de atenção com prioridade ambulatorial; internação excepcional em unidade de saúde ou hospital geral, autorizada por médico; voluntária e involuntária; 90 dias; comunicação em 72 horas; sigilo; vedação de internação em comunidade terapêutica.",
+      "<strong>Art. 23-B.</strong> Avaliação prévia multidisciplinar e Plano Individual de Atendimento, com participação da família, elaborado em até 30 dias e sigiloso.",
+      "<strong>Art. 26-A.</strong> Comunidade terapêutica acolhedora: abstinência, adesão voluntária por escrito, ambiente residencial, avaliação médica prévia, PIA e vedação de isolamento físico."
+     ],
+     "literalidades": [
+      {
+       "trecho": "com exceção de servidores da área de segurança pública",
+       "marcas": [
+        "segurança pública"
+       ],
+       "afirmacao": "Na absoluta falta de familiares, um policial militar que conhece o dependente pode pedir sua internação involuntária.",
+       "gabarito": "E",
+       "porque": "Na falta de familiar ou responsável, o pedido cabe a servidor da saúde, da assistência social ou do Sisnad, com exceção dos servidores da segurança pública (art. 23-A, § 3º, II)."
+      },
+      {
+       "trecho": "perdurará apenas pelo tempo necessário à desintoxicação, no prazo máximo de 90 (noventa) dias",
+       "marcas": [
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Internado involuntariamente, o dependente completa 90 dias de tratamento. A internação não pode seguir nesse regime, ainda que o médico entenda útil prolongá-la.",
+       "gabarito": "C",
+       "porque": "A involuntária dura só o necessário à desintoxicação, no máximo 90 dias (art. 23-A, § 5º, III)."
+      },
+      {
+       "trecho": "a família ou o representante legal poderá, a qualquer tempo, requerer ao médico a interrupção do tratamento",
+       "marcas": [
+        "a qualquer tempo"
+       ],
+       "afirmacao": "Na internação involuntária, a família só pode pedir a interrupção depois de 30 dias de tratamento.",
+       "gabarito": "E",
+       "porque": "A família ou o representante legal pode pedir a interrupção a qualquer tempo (art. 23-A, § 5º, IV)."
+      },
+      {
+       "trecho": "deverão ser informadas, em, no máximo, de 72 (setenta e duas) horas, ao Ministério Público, à Defensoria Pública e a outros órgãos de fiscalização",
+       "marcas": [
+        "72 (setenta e duas) horas"
+       ],
+       "afirmacao": "Um hospital interna involuntariamente um dependente numa sexta-feira e comunica o fato ao Ministério Público e à Defensoria na segunda seguinte. Cumpriu o prazo legal.",
+       "gabarito": "C",
+       "porque": "O prazo é de no máximo 72 horas (art. 23-A, § 7º); de sexta a segunda, dentro dele."
+      },
+      {
+       "trecho": "É vedada a realização de qualquer modalidade de internação nas comunidades terapêuticas acolhedoras.",
+       "marcas": [
+        "qualquer modalidade de internação"
+       ],
+       "afirmacao": "A comunidade terapêutica acolhedora pode fazer internação voluntária, desde que o dependente assine termo de adesão.",
+       "gabarito": "E",
+       "porque": "É vedada qualquer modalidade de internação na comunidade terapêutica (art. 23-A, § 9º); ela faz acolhimento voluntário."
+      },
+      {
+       "trecho": "O PIA será elaborado no prazo de até 30 (trinta) dias da data do ingresso no atendimento.",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "O Plano Individual de Atendimento deve ser elaborado em até 10 dias do ingresso no atendimento.",
+       "gabarito": "E",
+       "porque": "O prazo é de até 30 dias (art. 23-B, § 6º)."
+      },
+      {
+       "trecho": "vedação de isolamento físico do usuário ou dependente de drogas",
+       "marcas": [
+        "isolamento físico"
+       ],
+       "afirmacao": "Uma comunidade terapêutica tranca o acolhido num quarto separado por uma semana, como fase de adaptação. A prática é permitida se prevista no projeto terapêutico.",
+       "gabarito": "E",
+       "porque": "O acolhimento proíbe o isolamento físico (art. 26-A, VI)."
+      }
+     ],
+     "conferido": {
+      "Art. 23-A.": "67b90c6d5653",
+      "Art. 23-B.": "36d27116a721",
+      "Art. 26-A.": "fb8eaee40fa8"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "A internação, em qualquer modalidade, só é indicada quando os recursos extra-hospitalares se mostrarem insuficientes (art. 23-A, § 6º).",
+    "A involuntária é indicada após avaliação do tipo de droga e do padrão de uso, e só se comprovada a impossibilidade de outras alternativas terapêuticas (art. 23-A, § 5º, II).",
+    "O PIA conta com a participação da família, que tem o dever de contribuir; no caso de crianças e adolescentes, os responsáveis podem ser responsabilizados nos termos do ECA (art. 23-B, § 3º).",
+    "Não podem ser acolhidas em comunidade terapêutica as pessoas com comprometimentos graves que exijam atenção médico-hospitalar contínua ou de emergência (art. 26-A, § 1º).",
+    "As informações do sistema de internações e as do PIA são sigilosas (arts. 23-A, § 8º, e 23-B, § 7º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "90 / 72 / 30",
+     "texto": "90 dias de internação involuntária no máximo; 72 horas para comunicar; 30 dias para o PIA."
+    },
+    {
+     "sigla": "COMUNIDADE ACOLHE, NÃO INTERNA",
+     "texto": "Na comunidade terapêutica a adesão é voluntária e escrita, sem isolamento físico e sem internação."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A internação involuntária de dependente de drogas pode ser requerida por agente da segurança pública na absoluta falta de familiar ou responsável legal.",
+    "gabarito": "E",
+    "explicacao": "Os servidores da área de segurança pública estão expressamente excluídos (art. 23-A, § 3º, II)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A internação involuntária pode durar até 180 dias.",
+     "certo": "No máximo 90 dias (art. 23-A, § 5º, III).",
+     "fonte": "Questão do app sobre o art. 23-A"
+    },
+    {
+     "errado": "A internação voluntária termina só por determinação do médico.",
+     "certo": "Termina também por pedido escrito do paciente (art. 23-A, § 4º, II).",
+     "fonte": "Questão do app sobre o art. 23-A"
+    },
+    {
+     "errado": "O tratamento prioriza a internação em hospitais gerais.",
+     "certo": "A prioridade é o tratamento ambulatorial; a internação é excepcional (art. 23-A, caput).",
+     "fonte": "Questão do app sobre o art. 23-A"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre a internação involuntária (art. 23-A)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: internação voluntária e involuntária, Plano Individual de Atendimento e comunidade terapêutica (Lei 13.840/2019)."
+    }
+   ],
+   "relacionados": [
+    "prevencao-atencao-e-reinsercao-social",
+    "sisnad-e-politicas-sobre-drogas"
+   ]
+  },
+  {
    "slug": "porte-de-drogas-para-consumo-pessoal",
    "titulo": "Porte de drogas para consumo pessoal",
    "grupo": "Drogas",
-   "base": "Arts. 28 e 48 da Lei 11.343/2006",
+   "base": "Arts. 27 a 30 e 48 da Lei 11.343/2006",
    "tax": [
-    "penal-especial.lei-drogas"
+    "penal-especial.lei-drogas.porte-consumo"
    ],
    "dispositivos": [
+    "n11343-2006-art-27",
     "n11343-2006-art-28",
-    "n11343-2006-art-48",
-    "n11343-2006-art-33"
+    "n11343-2006-art-29",
+    "n11343-2006-art-30",
+    "n11343-2006-art-48"
    ],
    "conceitos": [
-    "porte de drogas para consumo pessoal",
-    "consumo pessoal",
-    "usuário de drogas",
-    "porte de maconha"
+    "porte para consumo pessoal",
+    "advertência",
+    "prestação de serviços à comunidade",
+    "medida educativa",
+    "5 meses e 10 na reincidência",
+    "cultivo para consumo",
+    "critérios do art. 28, § 2º",
+    "admoestação e multa",
+    "prescrição em 2 anos",
+    "termo circunstanciado",
+    "vedação da prisão em flagrante",
+    "transação penal",
+    "Tema 506 do STF",
+    "40 gramas ou seis plantas-fêmeas"
    ],
    "palavras": [
-    "art 28",
-    "usuario",
-    "consumo proprio",
+    "consumo pessoal",
+    "adquirir",
+    "guardar",
+    "tiver em deposito",
+    "transportar",
+    "trouxer consigo",
     "advertencia",
-    "prestacao de servicos",
+    "prestacao de servicos a comunidade",
+    "medida educativa",
     "curso educativo",
+    "5 meses",
+    "10 meses",
+    "reincidencia",
+    "semeia",
+    "cultiva",
+    "colhe",
+    "pequena quantidade",
+    "natureza e quantidade",
+    "local e condicoes",
+    "antecedentes",
+    "admoestacao verbal",
+    "multa",
+    "40 a 100 dias-multa",
+    "fundo nacional antidrogas",
+    "prescrevem em 2 anos",
     "termo circunstanciado",
-    "sem flagrante",
+    "nao se impora prisao em flagrante",
+    "vedada a detencao",
+    "juizado especial",
+    "transacao penal",
     "maconha",
     "40 gramas",
     "seis plantas",
     "tema 506",
-    "re 635659",
-    "sementes",
-    "consumo compartilhado"
+    "re 635659"
    ],
-   "resumo": "Quem adquire, guarda, tem em depósito, transporta ou traz consigo droga <strong>para consumo pessoal</strong> não vai preso. As penas do art. 28 são advertência, prestação de serviços à comunidade e comparecimento a programa ou curso educativo; as duas últimas duram no máximo <strong>5 meses</strong>, ou 10 na reincidência. O mesmo vale para quem planta pequena quantidade para si. Não há <strong>prisão em flagrante</strong>: lavra-se termo circunstanciado e o caso segue o rito do Juizado (art. 48). Para separar usuário de traficante, o juiz olha a natureza e a quantidade da droga, o local, as condições da ação, as circunstâncias sociais e pessoais, a conduta e os antecedentes. Em 2024, o STF decidiu que portar <strong>maconha</strong> para consumo próprio não é crime, e sim ilícito administrativo, e presumiu usuário quem tiver até 40 gramas ou seis plantas-fêmeas (presunção relativa).",
+   "resumo": "Quem adquire, guarda, tem em depósito, transporta ou traz consigo droga <strong>para consumo pessoal</strong> não vai preso. As penas do art. 28 são <strong>advertência</strong>, <strong>prestação de serviços à comunidade</strong> e <strong>medida educativa</strong> de comparecimento a programa ou curso. As duas últimas duram no máximo <strong>5 meses</strong>, ou <strong>10 na reincidência</strong>, e podem ser aplicadas isolada ou cumulativamente e substituídas a qualquer tempo (art. 27). O mesmo vale para quem planta pequena quantidade para si (§ 1º). Para separar usuário de traficante, o juiz olha a natureza e a quantidade da droga, o local e as condições da ação, as circunstâncias sociais e pessoais, a conduta e os antecedentes (§ 2º). Se o agente se recusa a cumprir a medida, o juiz aplica, sucessivamente, <strong>admoestação verbal e multa</strong> (§ 6º). As penas prescrevem em <strong>2 anos</strong> (art. 30). <strong>Não há prisão em flagrante</strong>: lavra-se termo circunstanciado e o caso segue o rito do Juizado, com transação penal (art. 48, §§ 1º a 5º). Em 2024, o STF decidiu que portar <strong>maconha</strong> para consumo próprio é ilícito administrativo, não penal, e presumiu usuário quem tiver até <strong>40 gramas ou seis plantas-fêmeas</strong> (presunção relativa).",
    "esquema": {
-    "rotulo": "usuário, consumo compartilhado e tráfico",
-    "html": "<table><thead><tr><th>Conduta</th><th>Consequência</th><th>Prisão em flagrante</th></tr></thead><tbody><tr><td><strong>Art. 28: droga para consumo pessoal</strong></td><td>Advertência, serviços à comunidade ou curso educativo; rito do Juizado</td><td>Não. Termo circunstanciado (art. 48, § 2º)</td></tr><tr><td><strong>Maconha até 40 g ou 6 plantas-fêmeas (STF, Tema 506)</strong></td><td>Ilícito administrativo: apreensão, advertência e curso educativo</td><td>Não</td></tr><tr><td><strong>Art. 33, § 3º: oferecer droga, eventualmente e sem lucro, a pessoa do relacionamento, para consumirem juntos</strong></td><td>Detenção de 6 meses a 1 ano e multa, sem prejuízo das penas do art. 28</td><td>Infração de menor potencial ofensivo</td></tr><tr><td><strong>Art. 33, caput: fornecer droga, ainda que gratuitamente</strong></td><td>Reclusão de 5 a 15 anos</td><td>Sim</td></tr></tbody></table>"
+    "rotulo": "usuário x traficante no flagrante",
+    "html": "<table><thead><tr><th></th><th>Usuário (art. 28)</th><th>Traficante (art. 33)</th></tr></thead><tbody><tr><td><strong>Prisão em flagrante</strong></td><td>Não; termo circunstanciado e compromisso de comparecer</td><td>Sim, com auto de prisão</td></tr><tr><td><strong>Ausente o juiz</strong></td><td>O delegado toma as providências no local, vedada a detenção</td><td>Comunicação imediata ao juiz e vista ao MP em 24 horas</td></tr><tr><td><strong>Rito</strong></td><td>Juizado Especial (arts. 60 e seguintes da Lei 9.099)</td><td>Rito especial dos arts. 54 a 59</td></tr><tr><td><strong>Pena</strong></td><td>Advertência, serviços à comunidade, medida educativa</td><td>Reclusão de 5 a 15 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Os números do art. 28",
+    "linhas": [
+     {
+      "nome": "5 meses",
+      "o_que_e": "Prazo máximo da prestação de serviços e da medida educativa",
+      "atencao": "§ 3º."
+     },
+     {
+      "nome": "10 meses",
+      "o_que_e": "Prazo máximo na reincidência",
+      "atencao": "§ 4º."
+     },
+     {
+      "nome": "40 a 100 dias-multa",
+      "o_que_e": "Multa para quem se recusa a cumprir a medida, cada dia de 1/30 a 3 salários mínimos",
+      "atencao": "Art. 29."
+     },
+     {
+      "nome": "2 anos",
+      "o_que_e": "Prescrição da imposição e da execução das penas",
+      "atencao": "Art. 30."
+     }
+    ],
+    "colunas": [
+     "Número",
+     "O que é",
+     "Base"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 28. Quem adquirir, guardar, tiver em depósito, transportar ou trouxer consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar será submetido às seguintes penas:\n\nI - advertência sobre os efeitos das drogas;\n\nII - prestação de serviços à comunidade;\n\nIII - medida educativa de comparecimento a programa ou curso educativo.\n\n§ 1º Às mesmas medidas submete-se quem, para seu consumo pessoal, semeia, cultiva ou colhe plantas destinadas à preparação de pequena quantidade de substância ou produto capaz de causar dependência física ou psíquica.\n\n§ 2º Para determinar se a droga destinava-se a consumo pessoal, o juiz atenderá à natureza e à quantidade da substância apreendida, ao local e às condições em que se desenvolveu a ação, às circunstâncias sociais e pessoais, bem como à conduta e aos antecedentes do agente.\n\n§ 3º As penas previstas nos incisos II e III do caput deste artigo serão aplicadas pelo prazo máximo de 5 (cinco) meses.\n\n§ 4º Em caso de reincidência, as penas previstas nos incisos II e III do caput deste artigo serão aplicadas pelo prazo máximo de 10 (dez) meses.\n\n(...)",
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 27.",
+      "Art. 28.",
+      "Art. 29.",
+      "Art. 30.",
+      "Art. 48."
+     ],
+     "ref": "arts. 27 a 30 e 48 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 27.</strong> As penas do capítulo podem ser isoladas ou cumulativas e substituídas a qualquer tempo, ouvidos o MP e o defensor.",
+      "<strong>Art. 28.</strong> Condutas para consumo pessoal; advertência, serviços e medida educativa; cultivo de pequena quantidade; critérios do § 2º; 5 e 10 meses; admoestação e multa; tratamento oferecido sem custo pelo Poder Público.",
+      "<strong>Arts. 29 e 30.</strong> Multa de 40 a 100 dias-multa para o Funad; prescrição em 2 anos.",
+      "<strong>Art. 48.</strong> Procedimento: rito da Lei de Drogas com CPP e LEP subsidiários; usuário no Juizado, sem prisão em flagrante, com termo circunstanciado e transação penal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Às mesmas medidas submete-se quem, para seu consumo pessoal, semeia, cultiva ou colhe plantas destinadas à preparação de pequena quantidade",
+       "marcas": [
+        "pequena quantidade"
+       ],
+       "afirmacao": "Quem cultiva em casa três pés de maconha para fumar sozinho responde pelo tráfico do art. 33, § 1º, II, porque plantar é sempre tráfico.",
+       "gabarito": "E",
+       "porque": "O cultivo de pequena quantidade para consumo pessoal tem as mesmas medidas do art. 28 (§ 1º). O art. 33, § 1º, II, é o cultivo para o tráfico."
+      },
+      {
+       "trecho": "o juiz atenderá à natureza e à quantidade da substância apreendida, ao local e às condições em que se desenvolveu a ação, às circunstâncias sociais e pessoais, bem como à conduta e aos antecedentes do agente",
+       "marcas": [
+        "natureza e à quantidade",
+        "conduta e aos antecedentes"
+       ],
+       "afirmacao": "Para decidir se a droga era para consumo, o juiz pode considerar o local da apreensão e os antecedentes do agente, e não apenas a quantidade.",
+       "gabarito": "C",
+       "porque": "O art. 28, § 2º, manda considerar natureza e quantidade, local e condições, circunstâncias sociais e pessoais, conduta e antecedentes."
+      },
+      {
+       "trecho": "Em caso de reincidência, as penas previstas nos incisos II e III do caput deste artigo serão aplicadas pelo prazo máximo de 10 (dez) meses.",
+       "marcas": [
+        "10 (dez) meses"
+       ],
+       "afirmacao": "Na reincidência, a prestação de serviços à comunidade pelo porte para consumo pode durar até 1 ano.",
+       "gabarito": "E",
+       "porque": "Na reincidência, o máximo é de 10 meses (art. 28, § 4º)."
+      },
+      {
+       "trecho": "poderá o juiz submetê-lo, sucessivamente a:",
+       "marcas": [
+        "sucessivamente"
+       ],
+       "afirmacao": "O usuário se recusa, sem justificativa, a frequentar o curso educativo. O juiz pode convertê-lo em prisão simples.",
+       "gabarito": "E",
+       "porque": "Para garantir o cumprimento, o juiz aplica, sucessivamente, admoestação verbal e multa (art. 28, § 6º). Não há prisão."
+      },
+      {
+       "trecho": "Prescrevem em 2 (dois) anos a imposição e a execução das penas",
+       "marcas": [
+        "2 (dois) anos"
+       ],
+       "afirmacao": "A imposição e a execução das penas do porte para consumo pessoal prescrevem em 3 anos, como as infrações de menor potencial ofensivo em geral.",
+       "gabarito": "E",
+       "porque": "Prescrevem em 2 anos (art. 30)."
+      },
+      {
+       "trecho": "Tratando-se da conduta prevista no art. 28 desta Lei, não se imporá prisão em flagrante",
+       "marcas": [
+        "não se imporá prisão em flagrante"
+       ],
+       "afirmacao": "Flagrado fumando maconha na praça, o rapaz é levado à delegacia, onde se lavra termo circunstanciado e ele assume o compromisso de comparecer ao Juizado. O delegado agiu conforme a lei.",
+       "gabarito": "C",
+       "porque": "No art. 28 não se impõe prisão em flagrante: lavra-se termo circunstanciado e o autor é encaminhado ou se compromete a comparecer (art. 48, § 2º)."
+      },
+      {
+       "trecho": "vedada a detenção do agente",
+       "marcas": [
+        "vedada a detenção"
+       ],
+       "afirmacao": "Ausente o juiz, o delegado pode manter o usuário detido na delegacia até o dia seguinte, para apresentá-lo ao Juizado.",
+       "gabarito": "E",
+       "porque": "As providências são tomadas de imediato pela autoridade policial, vedada a detenção do agente (art. 48, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 27.": "2c915712df5f",
+      "Art. 28.": "76daadd36952",
+      "Art. 29.": "f7e57fc4fa8d",
+      "Art. 30.": "68379e8118bb",
+      "Art. 48.": "4675c4983b4b"
+     },
      "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 48. O procedimento relativo aos processos por crimes definidos neste Título rege-se pelo disposto neste Capítulo, aplicando-se, subsidiariamente, as disposições do Código de Processo Penal e da Lei de Execução Penal.\n\n§ 1º O agente de qualquer das condutas previstas no art. 28 desta Lei, salvo se houver concurso com os crimes previstos nos arts. 33 a 37 desta Lei, será processado e julgado na forma dos arts. 60 e seguintes da Lei nº 9.099, de 26 de setembro de 1995, que dispõe sobre os Juizados Especiais Criminais.\n\n§ 2º Tratando-se da conduta prevista no art. 28 desta Lei, não se imporá prisão em flagrante, devendo o autor do fato ser imediatamente encaminhado ao juízo competente ou, na falta deste, assumir o compromisso de a ele comparecer, lavrando-se termo circunstanciado e providenciando-se as requisições dos exames e perícias necessários.\n\n§ 3º Se ausente a autoridade judicial, as providências previstas no § 2º deste artigo serão tomadas de imediato pela autoridade policial, no local em que se encontrar, vedada a detenção do agente.\n\n(...)",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "QUEM USA NÃO É PRESO",
-     "texto": "No art. 28 não há pena de prisão nem prisão em flagrante. Sem juiz no momento, o delegado lavra o termo no local, vedada a detenção (art. 48, § 3º)."
-    },
-    {
-     "sigla": "5 MESES, 10 NA REINCIDÊNCIA",
-     "texto": "É o prazo máximo da prestação de serviços e do curso educativo (art. 28, §§ 3º e 4º). A advertência não tem prazo."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -81,120 +957,304 @@
     {
      "quem": "STJ · Terceira Seção, EREsp 1.624.564",
      "texto": "Importar pequena quantidade de sementes de maconha é fato atípico: a semente não tem o princípio ativo nem é matéria-prima de droga."
+    },
+    {
+     "quem": "STJ · REsp 1.672.654",
+     "texto": "Condenação anterior pelo art. 28 não gera reincidência para o crime posterior."
+    }
+   ],
+   "detalhes": [
+    "Concluído o termo, o agente faz exame de corpo de delito se pedir ou se o delegado achar conveniente, e é liberado (art. 48, § 4º).",
+    "O usuário só vai ao Juizado se não houver concurso com os crimes dos arts. 33 a 37; havendo, segue o rito especial (art. 48, § 1º).",
+    "O MP pode propor a transação penal com uma das penas do art. 28 (art. 48, § 5º).",
+    "O juiz determina que o Poder Público ofereça ao infrator, sem cobrar, estabelecimento de saúde, de preferência ambulatorial (art. 28, § 7º).",
+    "A decisão do STF no Tema 506 vale só para a maconha. Para as demais drogas, o porte para consumo segue sendo o crime do art. 28."
+   ],
+   "macetes": [
+    {
+     "sigla": "QUEM USA NÃO É PRESO",
+     "texto": "No art. 28 não há pena de prisão nem prisão em flagrante. Sem juiz no momento, o delegado lavra o termo no local, vedada a detenção (art. 48, § 3º)."
+    },
+    {
+     "sigla": "5 MESES, 10 NA REINCIDÊNCIA",
+     "texto": "É o prazo máximo da prestação de serviços e da medida educativa (art. 28, §§ 3º e 4º). A advertência não tem prazo."
+    },
+    {
+     "sigla": "ADMOESTAÇÃO, DEPOIS MULTA",
+     "texto": "É a ordem para quem se recusa a cumprir a medida (art. 28, § 6º)."
     }
    ],
    "pegadinha": {
-    "afirmacao": "Quem adquire, transporta e guarda cocaína para consumo próprio fica sujeito às mesmas penas de quem adquire, transporta e guarda cocaína para fornecer a parentes e amigos, ainda que gratuitamente.",
+    "afirmacao": "Quem adquire, transporta e guarda cocaína para consumo próprio fica sujeito às mesmas penas de quem adquire, transporta e guarda cocaína para fornecer a parentes e amigos, mesmo sem cobrar.",
     "gabarito": "E",
-    "explicacao": "Para consumo próprio é o art. 28, sem prisão. Fornecer, mesmo de graça, é tráfico (art. 33, caput). Só a oferta eventual, sem lucro, a pessoa do relacionamento, para consumirem juntos, tem pena menor (§ 3º) (Cebraspe, Delegado PF 2018)."
+    "explicacao": "Para consumo próprio é o art. 28, sem prisão. Fornecer, mesmo sem cobrar, é tráfico (art. 33, caput). Só a oferta eventual, sem lucro, a pessoa do relacionamento, para consumirem juntos, tem pena menor (§ 3º) (Cebraspe, Delegado PF 2018)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Termo no lugar do flagrante.</strong> Na conduta do art. 28 não se impõe prisão em flagrante: ausente o juiz, as providências são tomadas de imediato pela autoridade policial, no local em que se encontrar, vedada a detenção do agente (art. 48, §§ 2º e 3º; Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Sementes não são droga.</strong> A importação de pequena quantidade de sementes de maconha é atípica (STJ, EREsp 1.624.564). A banca cobrou isso como a alternativa correta (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Dar de graça é tráfico.</strong> Fornecer droga gratuitamente a parentes e amigos é art. 33, caput, e não art. 28 (Cebraspe, Delegado PF 2018).</p><p><strong>Sem reincidência e prescrição em 2 anos.</strong> Condenação anterior pelo art. 28 não gera reincidência nem afasta, por si só, o tráfico privilegiado (STJ, REsp 1.672.654 e precedentes posteriores). A imposição e a execução das penas do art. 28 prescrevem em 2 anos (art. 30).</p>",
-   "relacionados": [
-    "trafico-de-drogas",
-    "procedimento-e-investigacao-na-lei-de-drogas"
+   "pegadinhas": [
+    {
+     "errado": "O usuário flagrado pode ser preso em flagrante se não tiver documento.",
+     "certo": "No art. 28 não se impõe prisão em flagrante em hipótese alguma (art. 48, § 2º).",
+     "fonte": "Cebraspe: Delegado PC-RJ 2022"
+    },
+    {
+     "errado": "Importar pequena quantidade de sementes de maconha é tráfico.",
+     "certo": "É atípico (STJ, EREsp 1.624.564).",
+     "fonte": "Cebraspe: Delegado PC-PB 2022"
+    },
+    {
+     "errado": "A advertência dura no máximo 5 meses.",
+     "certo": "O prazo de 5 meses é da prestação de serviços e da medida educativa; a advertência não tem prazo (art. 28, § 3º).",
+     "fonte": "Questão do app sobre o art. 28"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2018; Delegado PC-RJ 2022; Delegado PC-PB 2022"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescidos o efeito da condenação pelo art. 28 (sem reincidência) e a prescrição em 2 anos do art. 30."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: porte para consumo (arts. 27 a 30) com o procedimento do usuário (art. 48) e o Tema 506 do STF."
     }
+   ],
+   "relacionados": [
+    "trafico-de-drogas",
+    "procedimento-e-investigacao-na-lei-de-drogas",
+    "juizados-especiais-criminais"
    ]
   },
   {
    "slug": "trafico-de-drogas",
-   "titulo": "Tráfico de drogas e tráfico privilegiado",
+   "titulo": "Tráfico de drogas, tráfico privilegiado e causas de aumento",
    "grupo": "Drogas",
-   "base": "Arts. 33, 40, 40-A e 42 da Lei 11.343/2006",
+   "base": "Arts. 31 a 33, 40, 40-A e 70 da Lei 11.343/2006",
    "tax": [
-    "penal-especial.lei-drogas"
+    "penal-especial.lei-drogas.trafico"
    ],
    "dispositivos": [
+    "n11343-2006-art-31",
+    "n11343-2006-art-32",
     "n11343-2006-art-33",
     "n11343-2006-art-40",
     "n11343-2006-art-40-a",
-    "n11343-2006-art-42",
-    "n11343-2006-art-44",
-    "n11343-2006-art-45",
-    "n11343-2006-art-46",
-    "n7210-1984-art-112",
-    "n10826-2003-art-21-a"
+    "n11343-2006-art-70"
    ],
    "conceitos": [
-    "tráfico de drogas",
+    "18 verbos",
+    "tipo misto alternativo",
+    "crime único",
+    "fornecer sem cobrar",
+    "matéria-prima e insumo",
+    "cultivo para o tráfico",
+    "uso de local para o tráfico",
+    "agente policial disfarçado",
+    "induzir ao uso",
+    "uso compartilhado",
     "tráfico privilegiado",
-    "tráfico ilícito de drogas",
-    "causa de aumento da Lei de Drogas",
-    "majorante do art. 40"
+    "requisitos cumulativos",
+    "equiparado a hediondo",
+    "majorantes do art. 40",
+    "transnacionalidade",
+    "tráfico interestadual",
+    "art. 40-A",
+    "concurso material com arma",
+    "competência da Justiça Federal",
+    "expropriação de glebas"
    ],
    "palavras": [
-    "art 33",
-    "tipo misto alternativo",
-    "crime unico",
-    "trafico privilegiado",
-    "paragrafo 4",
-    "mula",
-    "dedicacao a atividades criminosas",
-    "tema 1139",
-    "equiparado a hediondo",
-    "art 40",
+    "trafico",
+    "importar",
+    "exportar",
+    "remeter",
+    "preparar",
+    "produzir",
+    "fabricar",
+    "adquirir",
+    "vender",
+    "expor a venda",
+    "oferecer",
+    "ter em deposito",
+    "transportar",
+    "trazer consigo",
+    "guardar",
+    "prescrever",
+    "ministrar",
+    "entregar a consumo",
+    "fornecer",
+    "ainda que gratuitamente",
+    "5 a 15 anos",
+    "materia-prima",
+    "insumo",
+    "semeia",
+    "cultiva",
+    "local ou bem",
+    "agente policial disfarcado",
+    "induzir",
+    "instigar",
+    "auxiliar",
+    "uso compartilhado",
+    "pessoa de seu relacionamento",
+    "privilegiado",
+    "um sexto a dois tercos",
+    "primario",
+    "bons antecedentes",
+    "organizacao criminosa",
+    "hediondo",
+    "transnacionalidade",
     "interestadual",
-    "transnacional",
-    "sumula 587",
-    "sumula 607",
-    "art 42",
-    "natureza e quantidade",
-    "bis in idem",
-    "sumula 630",
-    "confissao",
-    "restritiva de direitos",
-    "art 40-a",
-    "milicia"
+    "funcao publica",
+    "estabelecimentos prisionais",
+    "arma de fogo",
+    "crianca ou adolescente",
+    "em dobro",
+    "milicia",
+    "justica federal",
+    "plantacoes ilicitas",
+    "destruidas",
+    "expropriadas",
+    "licenca previa"
    ],
-   "resumo": "O art. 33 tem 18 verbos e é <strong>tipo misto alternativo</strong>: praticar vários deles no mesmo contexto, com a mesma droga, é crime único. A pena é de 5 a 15 anos de reclusão. O tráfico é <strong>equiparado a hediondo</strong> (art. 5º, XLIII, da CF; art. 2º da Lei 8.072): não admite fiança, anistia, graça nem indulto. O <strong>tráfico privilegiado</strong> (§ 4º) reduz a pena de 1/6 a 2/3 para quem é primário, tem bons antecedentes, não se dedica a atividades criminosas e não integra organização criminosa, requisitos que valem juntos. Ele <strong>não é hediondo</strong> (art. 112, § 5º, da LEP) e admite pena restritiva de direitos. O art. 40 aumenta a pena de 1/6 a 2/3 em sete hipóteses, e o art. 40-A, de 2026, aplica a pena em dobro ao integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia, com concurso material se houver arma de fogo (parágrafo único). Tráfico com arma ligada à venda não é mais só majorante: são dois crimes, e a pena do crime de arma aumenta de 2/3 (art. 21-A do Estatuto do Desarmamento). Na dosimetria, a natureza e a quantidade da droga preponderam (art. 42).",
+   "resumo": "O art. 33 tem <strong>18 verbos</strong> e é tipo misto alternativo: praticar vários deles no mesmo contexto, com a mesma droga, é <strong>crime único</strong>. A pena é de <strong>5 a 15 anos</strong> de reclusão, e fornecer droga <strong>mesmo sem cobrar</strong> já é tráfico. Respondem pelas mesmas penas quem lida com matéria-prima ou insumo, quem cultiva para o tráfico, quem usa ou cede local para o tráfico e quem vende ao <strong>agente policial disfarçado</strong> havendo prova de conduta criminal preexistente (§ 1º). Têm penas menores induzir ao uso (§ 2º) e oferecer droga eventualmente, sem lucro, a pessoa do relacionamento para consumirem juntos (§ 3º). O <strong>tráfico privilegiado</strong> (§ 4º) reduz a pena de 1/6 a 2/3 para quem é primário, tem bons antecedentes, não se dedica a atividades criminosas e não integra organização criminosa, requisitos cumulativos. Ele <strong>não é hediondo</strong> e admite pena restritiva de direitos. O tráfico comum é equiparado a hediondo. O art. 40 aumenta a pena de 1/6 a 2/3 em sete hipóteses. O <strong>art. 40-A</strong> (Lei 15.358/2026) aplica a pena em dobro ao integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia, com concurso material se houver arma de fogo. Se o tráfico é transnacional, a competência é da <strong>Justiça Federal</strong> (art. 70).",
    "esquema": {
-    "rotulo": "o que afasta o tráfico privilegiado",
-    "html": "<table><thead><tr><th>Situação</th><th>Afasta o § 4º?</th><th>Fonte</th></tr></thead><tbody><tr><td><strong>Reincidência</strong></td><td>Sim</td><td>Art. 33, § 4º (exige primário)</td></tr><tr><td><strong>Maus antecedentes</strong></td><td>Sim</td><td>Art. 33, § 4º</td></tr><tr><td><strong>Integrar organização criminosa ou se dedicar a atividades criminosas</strong></td><td>Sim</td><td>Art. 33, § 4º</td></tr><tr><td><strong>Inquéritos ou ações penais em curso</strong></td><td>Não, sozinhos</td><td>STJ, Tema 1.139</td></tr><tr><td><strong>Condição de \"mula\"</strong></td><td>Não garante nem afasta, por si só</td><td>STJ; Cebraspe, Delegado PC-CE 2025</td></tr><tr><td><strong>Pequena quantidade de droga</strong></td><td>Não garante, por si só</td><td>Cebraspe, Delegado PC-CE 2025</td></tr></tbody></table>"
+    "rotulo": "o art. 33 por parágrafo",
+    "html": "<table><thead><tr><th>Dispositivo</th><th>Conduta</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Caput</strong></td><td>18 verbos com a droga, mesmo sem cobrar</td><td>Reclusão de 5 a 15 anos e 500 a 1.500 dias-multa</td></tr><tr><td><strong>§ 1º</strong></td><td>Matéria-prima, cultivo, uso de local e venda a agente disfarçado</td><td>As mesmas do caput</td></tr><tr><td><strong>§ 2º</strong></td><td>Induzir, instigar ou auxiliar ao uso</td><td>Detenção de 1 a 3 anos e multa</td></tr><tr><td><strong>§ 3º</strong></td><td>Oferecer eventualmente, sem lucro, a pessoa do relacionamento, para consumirem juntos</td><td>Detenção de 6 meses a 1 ano e multa, mais as do art. 28</td></tr><tr><td><strong>§ 4º</strong></td><td>Privilegiado: primário, bons antecedentes, sem dedicação ao crime e sem organização</td><td>Redução de 1/6 a 2/3</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "As sete majorantes do art. 40 (1/6 a 2/3)",
+    "linhas": [
+     {
+      "nome": "I",
+      "o_que_e": "Transnacionalidade evidenciada pela natureza, procedência ou circunstâncias",
+      "atencao": "Basta a intenção (Súmula 607 do STJ)."
+     },
+     {
+      "nome": "II",
+      "o_que_e": "Função pública ou missão de educação, poder familiar, guarda ou vigilância"
+     },
+     {
+      "nome": "III",
+      "o_que_e": "Nas dependências ou imediações de presídios, escolas, hospitais, locais de trabalho coletivo, espetáculos, unidades militares ou policiais, ou em transporte público"
+     },
+     {
+      "nome": "IV",
+      "o_que_e": "Violência, grave ameaça, arma de fogo ou intimidação difusa ou coletiva"
+     },
+     {
+      "nome": "V",
+      "o_que_e": "Tráfico entre Estados ou entre Estado e DF",
+      "atencao": "Não precisa cruzar a divisa (Súmula 587 do STJ)."
+     },
+     {
+      "nome": "VI",
+      "o_que_e": "Envolver ou visar criança, adolescente ou quem tenha capacidade diminuída"
+     },
+     {
+      "nome": "VII",
+      "o_que_e": "O agente financiar ou custear o crime",
+      "atencao": "Afasta o concurso com o art. 36."
+     }
+    ],
+    "colunas": [
+     "Inciso",
+     "Hipótese",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 33. Importar, exportar, remeter, preparar, produzir, fabricar, adquirir, vender, expor à venda, oferecer, ter em depósito, transportar, trazer consigo, guardar, prescrever, ministrar, entregar a consumo ou fornecer drogas, ainda que gratuitamente, sem autorização ou em desacordo com determinação legal ou regulamentar:\n\nPena - reclusão de 5 (cinco) a 15 (quinze) anos e pagamento de 500 (quinhentos) a 1.500 (mil e quinhentos) dias-multa.\n\n(...)\n\n§ 4º Nos delitos definidos no caput e no § 1º deste artigo, as penas poderão ser reduzidas de um sexto a dois terços, vedada a conversão em penas restritivas de direitos, desde que o agente seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa. (Expressão \"vedada a conversão em penas restritivas de direitos\" com execução suspensa pelo Senado Federal, na forma do art. 52, X, da Constituição Federal, pela Resolução nº 5, de 15/2/2012)\n\n(...)",
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 31.",
+      "Art. 32.",
+      "Art. 33.",
+      "Art. 40.",
+      "Art. 40-A.",
+      "Art. 70."
+     ],
+     "ref": "arts. 31 a 33, 40, 40-A e 70 da Lei de Drogas",
+     "regras": [
+      "<strong>Arts. 31 e 32.</strong> Licença prévia para lidar com drogas; plantações ilícitas destruídas pelo delegado, com amostra para perícia; glebas expropriadas (art. 243 da CF).",
+      "<strong>Art. 33.</strong> Tráfico (caput), figuras equiparadas (§ 1º), induzimento ao uso (§ 2º), uso compartilhado (§ 3º) e tráfico privilegiado (§ 4º).",
+      "<strong>Arts. 40 e 40-A.</strong> Aumento de 1/6 a 2/3 em sete hipóteses; pena em dobro para integrante de organização ultraviolenta, paramilitar ou milícia, com concurso material se houver arma de fogo.",
+      "<strong>Art. 70.</strong> Tráfico transnacional é julgado pela Justiça Federal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "entregar a consumo ou fornecer drogas, ainda que gratuitamente",
+       "marcas": [
+        "ainda que gratuitamente"
+       ],
+       "afirmacao": "Na festa de aniversário, o rapaz distribui cocaína aos convidados sem cobrar nada. Responde por tráfico, porque fornecer droga, mesmo sem cobrar, está no art. 33.",
+       "gabarito": "C",
+       "porque": "O caput do art. 33 pune quem fornece droga, ainda que sem cobrar. Só o uso compartilhado eventual, sem lucro, com pessoa do relacionamento, vai para o § 3º."
+      },
+      {
+       "trecho": "a agente policial disfarçado, quando presentes elementos probatórios razoáveis de conduta criminal preexistente",
+       "marcas": [
+        "agente policial disfarçado",
+        "conduta criminal preexistente"
+       ],
+       "afirmacao": "Um policial à paisana se apresenta como comprador a um homem que, segundo investigação anterior, já vendia droga no bairro, e compra dele uma porção. A venda ao policial disfarçado é crime.",
+       "gabarito": "C",
+       "porque": "Art. 33, § 1º, IV (Pacote Anticrime): vender droga a agente policial disfarçado é crime quando há elementos razoáveis de conduta criminal preexistente."
+      },
+      {
+       "trecho": "Oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem",
+       "marcas": [
+        "eventualmente e sem objetivo de lucro",
+        "para juntos a consumirem"
+       ],
+       "afirmacao": "Num fim de semana, o rapaz oferece um cigarro de maconha à namorada para fumarem juntos. Responde pelo tráfico do caput, com pena de 5 a 15 anos.",
+       "gabarito": "E",
+       "porque": "É o uso compartilhado do art. 33, § 3º: detenção de 6 meses a 1 ano e multa, sem prejuízo das penas do art. 28."
+      },
+      {
+       "trecho": "desde que o agente seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa",
+       "marcas": [
+        "primário",
+        "não se dedique às atividades criminosas"
+       ],
+       "afirmacao": "Réu primário e de bons antecedentes, mas comprovadamente dedicado ao tráfico como meio de vida, tem direito à redução do § 4º.",
+       "gabarito": "E",
+       "porque": "Os requisitos do tráfico privilegiado são cumulativos: a dedicação a atividades criminosas afasta a redução (art. 33, § 4º)."
+      },
+      {
+       "trecho": "a natureza, a procedência da substância ou do produto apreendido e as circunstâncias do fato evidenciarem a transnacionalidade do delito",
+       "marcas": [
+        "evidenciarem a transnacionalidade"
+       ],
+       "afirmacao": "Presa no aeroporto de Guarulhos com cocaína na mala antes de embarcar para Lisboa, a mulher não responde pela majorante da transnacionalidade, porque a droga não chegou a sair do país.",
+       "gabarito": "E",
+       "porque": "Basta que as circunstâncias evidenciem a transnacionalidade (art. 40, I); não se exige a transposição da fronteira (Súmula 607 do STJ)."
+      },
+      {
+       "trecho": "serão aplicadas em dobro se o crime tiver sido praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada",
+       "marcas": [
+        "em dobro"
+       ],
+       "afirmacao": "O integrante de milícia que trafica no território do grupo, para financiá-lo, tem a pena do tráfico aplicada em dobro.",
+       "gabarito": "C",
+       "porque": "Art. 40-A, incluído pela Lei 15.358/2026."
+      },
+      {
+       "trecho": "se caracterizado ilícito transnacional, são da competência da Justiça Federal",
+       "marcas": [
+        "Justiça Federal"
+       ],
+       "afirmacao": "O tráfico internacional de drogas é julgado pela Justiça Estadual quando a droga é apreendida no interior do país.",
+       "gabarito": "E",
+       "porque": "Caracterizado o ilícito transnacional, a competência é da Justiça Federal (art. 70; art. 109, V, da CF)."
+      }
+     ],
+     "conferido": {
+      "Art. 31.": "b2a32578c4cf",
+      "Art. 32.": "1db7cd44cfe8",
+      "Art. 33.": "01fde4da6786",
+      "Art. 40.": "f885e5e27f6e",
+      "Art. 40-A.": "c37d3f6079aa",
+      "Art. 70.": "38f68308e327"
+     },
      "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 40. As penas previstas nos arts. 33 a 37 desta Lei são aumentadas de um sexto a dois terços, se:\n\nI - a natureza, a procedência da substância ou do produto apreendido e as circunstâncias do fato evidenciarem a transnacionalidade do delito;\n\nII - o agente praticar o crime prevalecendo-se de função pública ou no desempenho de missão de educação, poder familiar, guarda ou vigilância;\n\nIII - a infração tiver sido cometida nas dependências ou imediações de estabelecimentos prisionais, de ensino ou hospitalares, de sedes de entidades estudantis, sociais, culturais, recreativas, esportivas, ou beneficentes, de locais de trabalho coletivo, de recintos onde se realizem espetáculos ou diversões de qualquer natureza, de serviços de tratamento de dependentes de drogas ou de reinserção social, de unidades militares ou policiais ou em transportes públicos;\n\nIV - o crime tiver sido praticado com violência, grave ameaça, emprego de arma de fogo, ou qualquer processo de intimidação difusa ou coletiva;\n\nV - caracterizado o tráfico entre Estados da Federação ou entre estes e o Distrito Federal;\n\nVI - sua prática envolver ou visar a atingir criança ou adolescente ou a quem tenha, por qualquer motivo, diminuída ou suprimida a capacidade de entendimento e determinação;\n\nVII - o agente financiar ou custear a prática do crime.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 42. O juiz, na fixação das penas, considerará, com preponderância sobre o previsto no art. 59 do Código Penal, a natureza e a quantidade da substância ou do produto, a personalidade e a conduta social do agente.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 112. A pena privativa de liberdade será executada de forma progressiva com a transferência para regime menos rigoroso, a ser determinada pelo juiz, quando o preso tiver cumprido ao menos 1/6 (um sexto) da pena no regime anterior e seu mérito indicar a progressão, observadas as seguintes exceções:\n\n(...)\n\n§ 5º Não se considera hediondo ou equiparado, para os fins deste artigo, o crime de tráfico de drogas previsto no § 4º do art. 33 da Lei nº 11.343, de 23 de agosto de 2006.\n\n(...)",
-     "fonte": "Lei 7.210/1984 (Lei de Execução Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7210-11-julho-1984-356938-normaatualizada-pl.html",
-     "norma": "n7210-1984"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "VÁRIOS VERBOS, UM CRIME",
-     "texto": "Adquirir, transportar e guardar a mesma droga, no mesmo contexto, é um tráfico só, e não concurso de crimes."
-    },
-    {
-     "sigla": "PRIVILEGIADO NÃO É HEDIONDO",
-     "texto": "O § 4º sai da regra da hediondez (art. 112, § 5º, da LEP). Por isso progride com as frações comuns e admite restritiva de direitos."
-    },
-    {
-     "sigla": "1/6 A 2/3 NO PRIVILÉGIO E NA MAJORANTE",
-     "texto": "O § 4º reduz e o art. 40 aumenta na mesma faixa. A colaboração do art. 41 reduz de 1/3 a 2/3."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -204,7 +1264,7 @@
     },
     {
      "quem": "STF · HC 97.256 e Resolução 5/2012 do Senado",
-     "texto": "É inconstitucional vedar, em abstrato, a substituição por pena restritiva de direitos no tráfico. O Senado suspendeu a expressão \"vedada a conversão\" do § 4º."
+     "texto": "É inconstitucional vedar, em abstrato, a substituição por pena restritiva de direitos no tráfico. O Senado suspendeu a expressão “vedada a conversão” do § 4º."
     },
     {
      "quem": "STJ · Tema 1.139",
@@ -223,180 +1283,218 @@
      "texto": "A atenuante da confissão no tráfico exige que o réu reconheça a traficância; admitir só a posse para uso próprio não basta."
     }
    ],
+   "detalhes": [
+    "Requisitos cumulativos: ser “mula” ou levar pouca droga, por si só, não garante a redução do § 4º (Cebraspe, Delegado PC-CE 2025).",
+    "Processo em curso não tira o privilégio. Errado dizer que ações penais em curso e registros de atos infracionais impedem, por si sós, o tráfico privilegiado (STJ, Tema 1.139; Cebraspe, Delegado PC-PB 2022).",
+    "Manter em depósito cocaína, maconha, haxixe e crack, com balança e serra, no mesmo contexto, é crime único (Cebraspe, Delegado PC-SE 2018).",
+    "Traficar valendo-se de função pública atrai o art. 40, II (Cebraspe, Delegado PC-DF 2026).",
+    "Tráfico com arma ligada à venda não é só majorante: com a Lei 15.358/2026, a pena do crime de arma aumenta de 2/3 (art. 21-A do Estatuto do Desarmamento) e, no contexto do art. 40-A, aplica-se o concurso material.",
+    "A Súmula 522 do STF fixa a competência da Justiça Federal no tráfico internacional; o tráfico interestadual segue na Justiça Estadual.",
+    "O § 2º (induzir ao uso) foi interpretado pelo STF na ADI 4.274: não alcança manifestações em favor da legalização, como a “marcha da maconha”."
+   ],
+   "macetes": [
+    {
+     "sigla": "VÁRIOS VERBOS, UM CRIME",
+     "texto": "Adquirir, transportar e guardar a mesma droga, no mesmo contexto, é um tráfico só, e não concurso de crimes."
+    },
+    {
+     "sigla": "PRIVILEGIADO NÃO É HEDIONDO",
+     "texto": "O § 4º sai da regra da hediondez (art. 112, § 5º, da LEP). Por isso progride com as frações comuns e admite restritiva de direitos."
+    },
+    {
+     "sigla": "1/6 A 2/3 NO PRIVILÉGIO E NA MAJORANTE",
+     "texto": "O § 4º reduz e o art. 40 aumenta na mesma faixa. A colaboração do art. 41 reduz de 1/3 a 2/3."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "Equipara-se a crime hediondo o tráfico ilícito de drogas na forma privilegiada.",
     "gabarito": "E",
     "explicacao": "O tráfico privilegiado (art. 33, § 4º) não é hediondo nem equiparado (art. 112, § 5º, da LEP; STF, HC 118.533) (Cebraspe, Delegado PC-AL 2023)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Requisitos cumulativos.</strong> A minorante depende de todos os requisitos ao mesmo tempo. Ser \"mula\" ou levar pouca droga, por si só, não garante a redução (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Processo em curso não tira o privilégio.</strong> Errado dizer que ações penais em curso e registros de atos infracionais impedem, por si sós, o reconhecimento do tráfico privilegiado (STJ, Tema 1.139; Cebraspe, Delegado PC-PB 2022).</p><p><strong>Interestadual sem cruzar a divisa.</strong> Errado exigir a efetiva transposição de fronteiras entre estados para a majorante (Súmula 587 do STJ). Na mesma questão, era certo que a quantidade da droga pesa na pena-base (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Crime único com várias drogas.</strong> Manter em depósito cocaína, maconha, haxixe e crack, com balança e serra, no mesmo contexto, é crime único (Cebraspe, Delegado PC-SE 2018).</p><p><strong>Função pública aumenta a pena.</strong> Traficar valendo-se de função pública atrai o art. 40, II (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Dependente inteiramente incapaz é isento.</strong> Errado falar em diminuição de pena de metade a dois terços. Se a dependência tirou toda a capacidade de entender ou de se determinar, o agente é isento de pena (art. 45). A redução de 1/3 a 2/3 é para a capacidade só diminuída (art. 46) (Cebraspe, Delegado PC-PE 2024).</p><p><strong>Maquinário não é hediondo.</strong> O crime do art. 34 da Lei de Drogas (maquinário para o tráfico) não está no rol da Lei 8.072/1990 e não se equipara a hediondo; a progressão segue as frações dos crimes comuns (STJ). Estava errado equiparar o art. 34 ao tráfico por analogia, dizer que todos os crimes da Lei de Drogas são equiparados a hediondo ou ligar a mudança à reincidência (FGV, Juiz TJPE 2026).</p><p><strong>Arma usada no tráfico.</strong> Com a Lei 15.358/2026, quem trafica e porta arma de fogo para garantir a venda responde pelos dois crimes em concurso material (art. 69 do CP), e a pena do crime de arma aumenta de 2/3 por estar ligada ao tráfico (art. 21-A do Estatuto do Desarmamento). Para o integrante de facção ultraviolenta, o concurso material vale mesmo que a arma não esteja ligada à venda (art. 40-A, parágrafo único, da Lei de Drogas). Estava errado tratar a arma só como majorante do tráfico, absorvida por ele (FGV, Juiz TJPE 2026).</p><p><strong>Arma ao lado da droga, sem uso.</strong> Pistola com numeração suprimida ao alcance do traficante, sem que ele a empunhasse para ameaçar ou resistir: com base no STJ, a resposta foi tráfico em concurso material com posse de arma de uso restrito (art. 16, § 1º, IV, do Estatuto do Desarmamento), porque os crimes protegem bens jurídicos distintos e um não absorve o outro (FGV, Defensor DPE-RJ 2026). Para fatos posteriores à Lei 15.358/2026, a arma ligada ao tráfico também gera dois crimes, com o aumento do art. 21-A do Estatuto.</p>",
-   "relacionados": [
-    "associacao-para-o-trafico-e-financiamento",
-    "porte-de-drogas-para-consumo-pessoal",
-    "procedimento-e-investigacao-na-lei-de-drogas"
-   ],
-   "mapa": [
+   "pegadinhas": [
     {
-     "norma": "n11343-2006",
-     "rotulo": "todos os crimes da Lei 11.343/2006 (Drogas)",
-     "de": "28",
-     "ate": "39",
-     "fora": [],
-     "linhas": [
-      {
-       "art": "28",
-       "conduta": "Adquirir, guardar, ter em depósito, transportar ou trazer consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar",
-       "pena": "advertência sobre os efeitos das drogas; prestação de serviços à comunidade; medida educativa de comparecimento a programa ou curso educativo",
-       "troca": "Não tem prisão, nem em flagrante (art. 48, § 2º). STF (RE 635.659, 2024): porte de maconha para uso é ilícito sem efeito penal, com presunção de usuário até 40 g ou 6 plantas fêmeas; as outras drogas seguem no art. 28."
-      },
-      {
-       "art": "28, § 1º",
-       "conduta": "Semear, cultivar ou colher, para consumo pessoal, plantas destinadas à preparação de pequena quantidade de substância ou produto capaz de causar dependência física ou psíquica",
-       "pena": "às mesmas medidas"
-      },
-      {
-       "art": "33",
-       "conduta": "Importar, exportar, remeter, preparar, produzir, fabricar, adquirir, vender, expor à venda, oferecer, ter em depósito, transportar, trazer consigo, guardar, prescrever…",
-       "pena": "reclusão de 5 a 15 anos e pagamento de 500 a 1.500 dias-multa",
-       "troca": "Equiparado a hediondo. O tráfico privilegiado (§ 4º, redução de 1/6 a 2/3) não é hediondo (STF HC 118.533; art. 112, § 5º, LEP)."
-      },
-      {
-       "art": "33, § 1º",
-       "conduta": "Nas mesmas penas incorre quem: importa, exporta, remete, produz, fabrica, adquire, vende, expõe à venda, oferece, fornece, tem em depósito, transporta, traz consigo ou…",
-       "pena": "as mesmas do caput"
-      },
-      {
-       "art": "33, § 2º",
-       "conduta": "Induzir, instigar ou auxiliar alguém ao uso indevido de droga",
-       "pena": "detenção, de 1 a 3 anos, e multa de 100 a 300 dias-multa"
-      },
-      {
-       "art": "33, § 3º",
-       "conduta": "Oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem",
-       "pena": "detenção, de 6 meses a 1 ano, e pagamento de 700 a 1.500 dias-multa, sem prejuízo das penas previstas no art. 28",
-       "troca": "Uso compartilhado exige tudo junto: eventualmente, sem lucro, pessoa do seu relacionamento e para consumirem juntos. Faltou um requisito, é o caput."
-      },
-      {
-       "art": "34",
-       "conduta": "Fabricar, adquirir, utilizar, transportar, oferecer, vender, distribuir, entregar a qualquer título, possuir, guardar ou fornecer, ainda que gratuitamente, maquinário…",
-       "pena": "reclusão, de 3 a 10 anos, e pagamento de 1.200 a 2.000 dias-multa"
-      },
-      {
-       "art": "35",
-       "conduta": "Associarem-se duas ou mais pessoas para o fim de praticar, reiteradamente ou não, qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei",
-       "pena": "reclusão, de 3 a 10 anos, e pagamento de 700 a 1.200 dias-multa",
-       "troca": "Bastam 2 pessoas (o art. 288 do CP exige 3), mas com estabilidade e permanência. Não é hediondo (STJ)."
-      },
-      {
-       "art": "35, Parágrafo único",
-       "conduta": "Nas mesmas penas do caput deste artigo incorre quem se associa para a prática reiterada do crime definido no art. 36 desta Lei.",
-       "pena": "as mesmas do caput"
-      },
-      {
-       "art": "36",
-       "conduta": "Financiar ou custear a prática de qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei",
-       "pena": "reclusão, de 8 a 20 anos, e pagamento de 1.500 a 4.000 dias-multa",
-       "troca": "Financiar o tráfico alheio é o art. 36; financiar o próprio tráfico é o art. 33 com o aumento do art. 40, VII (STJ)."
-      },
-      {
-       "art": "37",
-       "conduta": "Colaborar, como informante, com grupo, organização ou associação destinados à prática de qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei",
-       "pena": "reclusão, de 2 a 6 anos, e pagamento de 300 a 700 dias-multa",
-       "troca": "Informante eventual. Se integra a associação, responde só pelo art. 35 (STJ)."
-      },
-      {
-       "art": "38",
-       "conduta": "Prescrever ou ministrar, culposamente, drogas, sem que delas necessite o paciente, ou fazê-lo em doses excessivas ou em desacordo com determinação legal ou regulamentar",
-       "pena": "detenção, de 6 meses a 2 anos, e pagamento de 50 a 200 dias-multa",
-       "troca": "Único crime culposo da Lei de Drogas."
-      },
-      {
-       "art": "39",
-       "conduta": "Conduzir embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem",
-       "pena": "detenção, de 6 meses a 3 anos, além da apreensão do veículo, cassação da habilitação respectiva ou proibição de obtê-la, pelo mesmo prazo da pena privativa de liberdade aplicada, e pagamento de 200 a 400 dias-multa"
-      }
-     ]
+     "errado": "A majorante do tráfico interestadual exige que a droga cruze a divisa.",
+     "certo": "Basta a intenção (Súmula 587 do STJ).",
+     "fonte": "Cebraspe: Delegado PC-MA 2018"
+    },
+    {
+     "errado": "Ações penais em curso afastam, por si sós, o tráfico privilegiado.",
+     "certo": "Não afastam (STJ, Tema 1.139).",
+     "fonte": "Cebraspe: Delegado PC-PB 2022"
+    },
+    {
+     "errado": "No tráfico privilegiado é vedada a substituição por restritiva de direitos.",
+     "certo": "A expressão foi suspensa pelo Senado (Resolução 5/2012) após o STF declará-la inconstitucional.",
+     "fonte": "Questão do app sobre o art. 33, § 4º"
+    },
+    {
+     "errado": "As plantações ilícitas só podem ser destruídas após o laudo definitivo.",
+     "certo": "São destruídas de imediato pelo delegado, que recolhe amostra para perícia (art. 32).",
+     "fonte": "Questão do app sobre o art. 32"
     }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-AL 2023; Delegado PC-CE 2025; Delegado PC-PB 2022; Delegado PC-SE 2018; Delegado PC-DF 2026; Delegado PC-MA 2018"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: tráfico, figuras do art. 33, majorantes, art. 40-A (Lei 15.358/2026) e competência da Justiça Federal (art. 70)."
+    }
+   ],
+   "relacionados": [
+    "porte-de-drogas-para-consumo-pessoal",
+    "associacao-para-o-trafico-e-financiamento",
+    "penas-beneficios-e-imputabilidade-na-lei-de-drogas",
+    "crimes-hediondos"
    ]
   },
   {
    "slug": "associacao-para-o-trafico-e-financiamento",
-   "titulo": "Associação para o tráfico, financiamento e informante",
+   "titulo": "Maquinário, associação para o tráfico, financiamento, informante e os crimes culposos",
    "grupo": "Drogas",
-   "base": "Arts. 34 a 37 e 44 da Lei 11.343/2006",
+   "base": "Arts. 34 a 39 da Lei 11.343/2006",
    "tax": [
-    "penal-especial.lei-drogas"
+    "penal-especial.lei-drogas.associacao-outros-crimes"
    ],
    "dispositivos": [
     "n11343-2006-art-34",
     "n11343-2006-art-35",
     "n11343-2006-art-36",
     "n11343-2006-art-37",
-    "n11343-2006-art-44"
+    "n11343-2006-art-38",
+    "n11343-2006-art-39"
    ],
    "conceitos": [
+    "maquinário para o tráfico",
     "associação para o tráfico",
+    "duas ou mais pessoas",
+    "vínculo estável e permanente",
+    "reiteradamente ou não",
+    "associação para financiar",
     "financiamento do tráfico",
-    "informante do tráfico",
-    "maquinário para o tráfico"
+    "informante",
+    "prescrição culposa",
+    "condução de embarcação ou aeronave após uso de droga",
+    "transporte coletivo"
    ],
    "palavras": [
-    "art 35",
+    "maquinario",
+    "aparelho",
+    "instrumento",
+    "fabricacao",
+    "3 a 10 anos",
+    "associarem-se",
     "duas ou mais pessoas",
-    "estabilidade",
-    "permanencia",
-    "art 36",
+    "reiteradamente ou nao",
+    "estavel e permanente",
+    "concurso de agentes",
     "financiar",
     "custear",
-    "art 37",
-    "informante",
-    "fogueteiro",
+    "8 a 20 anos",
+    "art. 40, vii",
+    "colaborar como informante",
+    "2 a 6 anos",
     "olheiro",
-    "art 34",
-    "maquinario",
-    "balanca de precisao",
-    "indulto",
-    "art 44"
+    "prescrever ou ministrar culposamente",
+    "doses excessivas",
+    "conselho federal",
+    "conduzir embarcacao ou aeronave",
+    "dano potencial",
+    "transporte coletivo",
+    "4 a 6 anos"
    ],
-   "resumo": "A <strong>associação para o tráfico</strong> (art. 35) reúne duas ou mais pessoas para praticar, reiteradamente ou não, o tráfico ou o crime de maquinário, com pena de 3 a 10 anos. Ao contrário da associação criminosa do Código Penal, bastam duas pessoas, mas o vínculo tem de ser <strong>estável e permanente</strong>; a reunião ocasional é só concurso de agentes. <strong>Financiar ou custear</strong> o tráfico (art. 36) tem pena de 8 a 20 anos; quem financia e também trafica responde pelo art. 33 com a majorante do art. 40, VII. O <strong>informante</strong> (art. 37), que colabora com o grupo sem integrá-lo, tem pena de 2 a 6 anos. O art. 34 pune o maquinário destinado à produção de drogas. Os arts. 33 a 37 são insuscetíveis de graça, indulto e anistia (art. 44).",
+   "resumo": "O art. 34 pune o <strong>maquinário</strong> e os objetos destinados à fabricação de drogas (3 a 10 anos). A <strong>associação para o tráfico</strong> (art. 35) reúne <strong>duas ou mais pessoas</strong> para praticar, reiteradamente ou não, o tráfico ou o crime de maquinário (3 a 10 anos). Bastam duas pessoas, ao contrário da associação criminosa do CP, mas o vínculo tem de ser <strong>estável e permanente</strong>; a reunião ocasional é só concurso de agentes. Também responde quem se associa para financiar o tráfico de forma reiterada (parágrafo único). <strong>Financiar ou custear</strong> o tráfico (art. 36) tem pena de 8 a 20 anos. Quem financia e também trafica responde pelo art. 33 com a majorante do art. 40, VII. O <strong>informante</strong> (art. 37), que colabora com o grupo sem integrá-lo, tem pena de 2 a 6 anos. Há dois crimes de menor gravidade. O primeiro é prescrever ou ministrar droga <strong>culposamente</strong> (art. 38), com comunicação ao conselho profissional. O segundo é <strong>conduzir embarcação ou aeronave</strong> após consumir droga, expondo outros a perigo (art. 39), com pena maior se o veículo for de transporte coletivo.",
    "esquema": {
-    "rotulo": "quem faz o quê",
-    "html": "<table><thead><tr><th>Artigo</th><th>Conduta</th><th>Pena</th><th>Ponto de prova</th></tr></thead><tbody><tr><td><strong>Art. 34</strong></td><td>Maquinário, aparelho ou objeto destinado a produzir drogas</td><td>3 a 10 anos</td><td>Balança usada no mesmo tráfico fica absorvida</td></tr><tr><td><strong>Art. 35</strong></td><td>Associação de 2 ou mais pessoas</td><td>3 a 10 anos</td><td>Exige estabilidade; \"reiteradamente ou não\"</td></tr><tr><td><strong>Art. 36</strong></td><td>Financiar ou custear o tráfico</td><td>8 a 20 anos</td><td>Quem também trafica: art. 33 + art. 40, VII</td></tr><tr><td><strong>Art. 37</strong></td><td>Colaborar como informante</td><td>2 a 6 anos</td><td>O associado responde só pelo art. 35</td></tr></tbody></table>"
+    "rotulo": "penas lado a lado",
+    "html": "<table><thead><tr><th>Crime</th><th>Conduta</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Art. 34</strong></td><td>Maquinário, aparelho ou objeto para fabricar drogas</td><td>Reclusão de 3 a 10 anos</td></tr><tr><td><strong>Art. 35</strong></td><td>Associação de duas ou mais pessoas para o tráfico ou o maquinário</td><td>Reclusão de 3 a 10 anos</td></tr><tr><td><strong>Art. 36</strong></td><td>Financiar ou custear o tráfico ou o maquinário</td><td>Reclusão de 8 a 20 anos</td></tr><tr><td><strong>Art. 37</strong></td><td>Colaborar como informante com grupo de tráfico</td><td>Reclusão de 2 a 6 anos</td></tr><tr><td><strong>Art. 38</strong></td><td>Prescrever ou ministrar droga culposamente</td><td>Detenção de 6 meses a 2 anos</td></tr><tr><td><strong>Art. 39</strong></td><td>Conduzir embarcação ou aeronave após uso de droga, com perigo</td><td>Detenção de 6 meses a 3 anos; 4 a 6 anos em transporte coletivo</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 35. Associarem-se duas ou mais pessoas para o fim de praticar, reiteradamente ou não, qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei:\n\nPena - reclusão, de 3 (três) a 10 (dez) anos, e pagamento de 700 (setecentos) a 1.200 (mil e duzentos) dias-multa.\n\nParágrafo único. Nas mesmas penas do caput deste artigo incorre quem se associa para a prática reiterada do crime definido no art. 36 desta Lei.",
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 34.",
+      "Art. 35.",
+      "Art. 36.",
+      "Art. 37.",
+      "Art. 38.",
+      "Art. 39."
+     ],
+     "ref": "arts. 34 a 39 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 34.</strong> Maquinário e objetos destinados à fabricação de drogas.",
+      "<strong>Art. 35.</strong> Associação de duas ou mais pessoas para os crimes dos arts. 33, caput e § 1º, e 34; e associação para o financiamento reiterado.",
+      "<strong>Arts. 36 e 37.</strong> Financiamento ou custeio do tráfico; colaboração como informante.",
+      "<strong>Arts. 38 e 39.</strong> Prescrição ou ministração culposa; condução de embarcação ou aeronave após o consumo de drogas."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Associarem-se duas ou mais pessoas para o fim de praticar, reiteradamente ou não",
+       "marcas": [
+        "duas ou mais pessoas",
+        "reiteradamente ou não"
+       ],
+       "afirmacao": "Dois irmãos combinam, de forma estável, dividir a venda de cocaína no bairro por tempo indeterminado. Mesmo sendo apenas dois, podem responder por associação para o tráfico.",
+       "gabarito": "C",
+       "porque": "O art. 35 exige duas ou mais pessoas, com vínculo estável e permanente, para praticar o tráfico, reiteradamente ou não."
+      },
+      {
+       "trecho": "Nas mesmas penas do caput deste artigo incorre quem se associa para a prática reiterada do crime definido no art. 36 desta Lei.",
+       "marcas": [
+        "prática reiterada"
+       ],
+       "afirmacao": "A associação para financiar o tráfico se consuma com um único financiamento combinado entre os associados, sem necessidade de reiteração.",
+       "gabarito": "E",
+       "porque": "Para o financiamento, a lei exige a associação para a prática reiterada do crime do art. 36 (art. 35, parágrafo único)."
+      },
+      {
+       "trecho": "Financiar ou custear a prática de qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei",
+       "marcas": [
+        "Financiar ou custear"
+       ],
+       "afirmacao": "O empresário que só põe dinheiro no esquema, sem tocar na droga, responde pelo art. 36, com pena de 8 a 20 anos.",
+       "gabarito": "C",
+       "porque": "O art. 36 pune quem financia ou custeia o tráfico ou o maquinário. Se ele também traficar, responde pelo art. 33 com a majorante do art. 40, VII."
+      },
+      {
+       "trecho": "Colaborar, como informante, com grupo, organização ou associação destinados à prática de qualquer dos crimes",
+       "marcas": [
+        "como informante"
+       ],
+       "afirmacao": "O vigia que integra a divisão de tarefas do ponto de venda e avisa da chegada da polícia responde sempre e só pelo art. 37.",
+       "gabarito": "E",
+       "porque": "O art. 37 é subsidiário. Se a atuação é integrada e essencial à venda, o agente é coautor do tráfico (art. 33) (FGV, Delegado PC-PR 2026)."
+      },
+      {
+       "trecho": "Prescrever ou ministrar, culposamente, drogas, sem que delas necessite o paciente",
+       "marcas": [
+        "culposamente"
+       ],
+       "afirmacao": "A médica que, por descuido, prescreve morfina em dose excessiva a um paciente responde pelo crime culposo do art. 38, e o juiz comunica a condenação ao conselho profissional.",
+       "gabarito": "C",
+       "porque": "O art. 38 é o único crime culposo da lei; o parágrafo único manda comunicar ao Conselho Federal da categoria."
+      },
+      {
+       "trecho": "Conduzir embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem",
+       "marcas": [
+        "embarcação ou aeronave"
+       ],
+       "afirmacao": "Quem dirige automóvel após consumir cocaína responde pelo art. 39 da Lei de Drogas.",
+       "gabarito": "E",
+       "porque": "O art. 39 fala em embarcação ou aeronave. Automóvel é crime do Código de Trânsito (art. 306)."
+      }
+     ],
+     "conferido": {
+      "Art. 34.": "8a68f833b835",
+      "Art. 35.": "9d1783831528",
+      "Art. 36.": "24f07345d4d3",
+      "Art. 37.": "d5613ac4fd97",
+      "Art. 38.": "1335bcb72f15",
+      "Art. 39.": "e08d931ea874"
+     },
      "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 36. Financiar ou custear a prática de qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei:\n\nPena - reclusão, de 8 (oito) a 20 (vinte) anos, e pagamento de 1.500 (mil e quinhentos) a 4.000 (quatro mil) dias-multa.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 37. Colaborar, como informante, com grupo, organização ou associação destinados à prática de qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 desta Lei:\n\nPena - reclusão, de 2 (dois) a 6 (seis) anos, e pagamento de 300 (trezentos) a 700 (setecentos) dias-multa.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 44. Os crimes previstos nos arts. 33, caput e § 1º, e 34 a 37 desta Lei são inafiançáveis e insuscetíveis de sursis, graça, indulto, anistia e liberdade provisória, vedada a conversão de suas penas em restritivas de direitos.\n\nParágrafo único. Nos crimes previstos no caput deste artigo, dar-se-á o livramento condicional após o cumprimento de dois terços da pena, vedada sua concessão ao reincidente específico.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "DOIS BASTAM, MAS COM VÍNCULO",
-     "texto": "A associação do art. 35 começa com duas pessoas (a do art. 288 do CP pede três), desde que o acordo seja estável e permanente."
-    },
-    {
-     "sigla": "QUEM FINANCIA E VENDE",
-     "texto": "Responde pelo tráfico com a pena aumentada (art. 40, VII), e não pelo art. 36 em concurso."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -409,104 +1507,476 @@
      "texto": "O agente que financia e também pratica o tráfico responde pelo art. 33 com a causa de aumento do art. 40, VII, e não em concurso material com o art. 36."
     }
    ],
+   "detalhes": [
+    "Dez pessoas encontradas, por força de mandado, numa casa onde se armazenava, organizava e vendia droga de forma contínua, com balanças de precisão, respondem por tráfico e associação para o tráfico, sem o crime autônomo de maquinário (Cebraspe, Delegado PC-ES 2022).",
+    "A associação para o tráfico (art. 35) e o maquinário (art. 34) não são hediondos nem equiparados (STJ). Por isso a progressão segue os percentuais dos crimes comuns (FGV, Juiz TJPE 2026).",
+    "Por estarem no art. 44, os arts. 34 a 37 não admitem graça, indulto ou anistia, e o livramento exige 2/3 da pena, vedado ao reincidente específico (Cebraspe, Delegado PC-PE 2024).",
+    "A ausência de droga apreendida com o olheiro não leva por si só à absolvição se a materialidade está provada pela droga do grupo (FGV, Delegado PC-PR 2026)."
+   ],
+   "macetes": [
+    {
+     "sigla": "DOIS BASTAM, MAS COM VÍNCULO",
+     "texto": "A associação do art. 35 começa com duas pessoas (a do art. 288 do CP pede três), desde que o acordo seja estável e permanente."
+    },
+    {
+     "sigla": "QUEM FINANCIA E VENDE",
+     "texto": "Responde pelo tráfico com a pena aumentada (art. 40, VII), e não pelo art. 36 em concurso."
+    },
+    {
+     "sigla": "38 É O CULPOSO",
+     "texto": "O único crime culposo da Lei de Drogas é prescrever ou ministrar droga por culpa."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "É possível a concessão de indulto à pena imposta por condenação pelo crime de associação para a prática de tráfico ilícito de entorpecentes.",
     "gabarito": "E",
     "explicacao": "O art. 44 da Lei de Drogas veda graça, indulto e anistia para os crimes dos arts. 33, caput e § 1º, e 34 a 37, o que inclui a associação do art. 35 (Cebraspe, Delegado PC-PE 2024)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Tráfico e associação juntos.</strong> Dez pessoas encontradas, por força de mandado, numa casa onde se armazenava, organizava e vendia droga de forma contínua, com balanças de precisão: respondem por tráfico e associação para o tráfico, sem o crime autônomo de maquinário (Cebraspe, Delegado PC-ES 2022).</p><p><strong>Indulto vedado.</strong> A associação do art. 35 está entre os crimes do art. 44, que não admitem indulto (Cebraspe, Delegado PC-PE 2024).</p><p><strong>Olheiro integrado ao esquema.</strong> O colaborador do art. 37 (informante) é figura subsidiária. Se a atuação do agente é integrada e essencial à venda, como o vigia que avisa da polícia dentro da divisão de tarefas do ponto, ele é coautor do tráfico (art. 33), e o art. 37 fica afastado. Errado dizer que o olheiro sempre responde só pelo art. 37. A ausência de droga apreendida com ele também não leva por si só à absolvição, se a materialidade está provada pela droga do grupo (FGV, Delegado PC-PR 2026).</p><p><strong>Associação não é hedionda.</strong> A associação para o tráfico (art. 35) não é crime hediondo nem equiparado (STJ), por isso a progressão segue os percentuais dos crimes comuns. Mas, por estar no art. 44, o livramento condicional exige 2/3 da pena e é vedado ao reincidente específico (art. 44, parágrafo único).</p>",
-   "relacionados": [
-    "trafico-de-drogas",
-    "procedimento-e-investigacao-na-lei-de-drogas",
-    "organizacoes-criminosas"
+   "pegadinhas": [
+    {
+     "errado": "A associação para o tráfico exige pelo menos três pessoas.",
+     "certo": "Bastam duas (art. 35); três é a associação criminosa do art. 288 do CP.",
+     "fonte": "Questão do app sobre o art. 35"
+    },
+    {
+     "errado": "O olheiro sempre responde só como informante.",
+     "certo": "Se integrado à divisão de tarefas, é coautor do tráfico.",
+     "fonte": "FGV: Delegado PC-PR 2026"
+    },
+    {
+     "errado": "Associação para o tráfico é crime equiparado a hediondo.",
+     "certo": "Não é (STJ); a progressão segue as frações comuns.",
+     "fonte": "FGV: Juiz TJPE 2026"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PE 2024; Delegado PC-ES 2022",
+    "FGV: Delegado PC-PR 2026; Juiz TJPE 2026"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescido que a associação para o tráfico não é hedionda, com a regra do livramento do art. 44, parágrafo único."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema ampliado: além de maquinário, associação, financiamento e informante, os crimes dos arts. 38 (culposo) e 39 (embarcação ou aeronave)."
     }
+   ],
+   "relacionados": [
+    "trafico-de-drogas",
+    "penas-beneficios-e-imputabilidade-na-lei-de-drogas",
+    "organizacoes-criminosas"
+   ]
+  },
+  {
+   "slug": "penas-beneficios-e-imputabilidade-na-lei-de-drogas",
+   "titulo": "Colaboração, dosimetria, vedações do art. 44 e dependência na Lei de Drogas",
+   "grupo": "Drogas",
+   "base": "Arts. 41 a 47 da Lei 11.343/2006",
+   "tax": [
+    "penal-especial.lei-drogas.penas-imputabilidade"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-41",
+    "n11343-2006-art-42",
+    "n11343-2006-art-43",
+    "n11343-2006-art-44",
+    "n11343-2006-art-45",
+    "n11343-2006-art-46",
+    "n11343-2006-art-47"
+   ],
+   "conceitos": [
+    "colaboração voluntária",
+    "redução de 1/3 a 2/3",
+    "preponderância da natureza e quantidade",
+    "multa de 1/30 a 5 salários",
+    "multa até o décuplo",
+    "inafiançabilidade",
+    "vedação de sursis, graça, indulto e anistia",
+    "liberdade provisória",
+    "livramento com 2/3",
+    "reincidente específico",
+    "isenção de pena por dependência",
+    "semi-imputabilidade",
+    "tratamento na sentença"
+   ],
+   "palavras": [
+    "colaborar voluntariamente",
+    "identificacao dos demais co-autores",
+    "recuperacao do produto",
+    "um terco a dois tercos",
+    "fixacao das penas",
+    "preponderancia",
+    "art. 59",
+    "natureza e a quantidade",
+    "personalidade",
+    "conduta social",
+    "dias-multa",
+    "cinco vezes o maior salario-minimo",
+    "decuplo",
+    "inafiancaveis",
+    "sursis",
+    "graca",
+    "indulto",
+    "anistia",
+    "liberdade provisoria",
+    "restritivas de direitos",
+    "livramento condicional",
+    "dois tercos",
+    "reincidente especifico",
+    "isento de pena",
+    "dependencia",
+    "caso fortuito ou forca maior",
+    "inteiramente incapaz",
+    "tratamento medico",
+    "reduzidas de um terco a dois tercos",
+    "plena capacidade",
+    "encaminhamento para tratamento"
+   ],
+   "resumo": "Quem <strong>colabora voluntariamente</strong> na identificação dos comparsas e na recuperação do produto do crime tem a pena reduzida de <strong>1/3 a 2/3</strong>, se condenado (art. 41). Na dosimetria, a <strong>natureza e a quantidade</strong> da droga, a personalidade e a conduta social <strong>preponderam</strong> sobre o art. 59 do CP (art. 42). A multa vai de 1/30 a 5 vezes o maior salário mínimo por dia e pode chegar ao <strong>décuplo</strong> (art. 43). O art. 44 torna os crimes dos arts. 33, caput e § 1º, e 34 a 37 <strong>inafiançáveis e insuscetíveis de sursis, graça, indulto e anistia</strong>. O livramento condicional exige <strong>2/3</strong> da pena e é vedado ao reincidente específico. As vedações de liberdade provisória e de restritiva de direitos foram declaradas inconstitucionais pelo STF. O agente <strong>inteiramente incapaz</strong> por dependência, ou por efeito de droga vindo de caso fortuito ou força maior, é <strong>isento de pena</strong> (art. 45). Se a capacidade estava só diminuída, a pena cai de 1/3 a 2/3 (art. 46). Na condenação, o juiz pode mandar tratar o dependente (art. 47).",
+   "esquema": {
+    "rotulo": "o que o art. 44 veda, e o que sobrou",
+    "html": "<table><thead><tr><th>Benefício</th><th>Texto do art. 44</th><th>Hoje</th></tr></thead><tbody><tr><td><strong>Fiança</strong></td><td>Vedada</td><td>Vedada (art. 5º, XLIII, da CF)</td></tr><tr><td><strong>Graça, indulto e anistia</strong></td><td>Vedados</td><td>Vedados</td></tr><tr><td><strong>Sursis</strong></td><td>Vedado</td><td>Vedado pela lei</td></tr><tr><td><strong>Liberdade provisória</strong></td><td>Vedada</td><td>Cabe: o STF declarou inconstitucional a vedação em abstrato (HC 104.339)</td></tr><tr><td><strong>Restritiva de direitos</strong></td><td>Vedada</td><td>Cabe se preenchidos os requisitos (HC 97.256; Resolução 5/2012 do Senado)</td></tr><tr><td><strong>Livramento condicional</strong></td><td>Com 2/3 da pena</td><td>2/3, vedado ao reincidente específico</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 41.",
+      "Art. 42.",
+      "Art. 43.",
+      "Art. 44.",
+      "Art. 45.",
+      "Art. 46.",
+      "Art. 47."
+     ],
+     "ref": "arts. 41 a 47 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 41.</strong> Colaboração voluntária: redução de 1/3 a 2/3 na condenação.",
+      "<strong>Arts. 42 e 43.</strong> Natureza e quantidade da droga preponderam na pena; multa de 1/30 a 5 salários mínimos por dia, até o décuplo.",
+      "<strong>Art. 44.</strong> Inafiançabilidade e vedações; livramento com 2/3, vedado ao reincidente específico.",
+      "<strong>Arts. 45 a 47.</strong> Isenção de pena do inteiramente incapaz por dependência ou por efeito de droga vindo de caso fortuito ou força maior; redução para a capacidade diminuída; tratamento determinado na sentença."
+     ],
+     "literalidades": [
+      {
+       "trecho": "no caso de condenação, terá pena reduzida de um terço a dois terços",
+       "marcas": [
+        "um terço a dois terços"
+       ],
+       "afirmacao": "O acusado que ajuda a polícia a identificar os demais integrantes do grupo e a recuperar parte do dinheiro do tráfico terá, se condenado, a pena reduzida de 1/6 a 2/3.",
+       "gabarito": "E",
+       "porque": "A redução da colaboração do art. 41 é de 1/3 a 2/3. A de 1/6 a 2/3 é a do tráfico privilegiado (Cebraspe, Delegado PC-RJ 2022)."
+      },
+      {
+       "trecho": "com preponderância sobre o previsto no art. 59 do Código Penal, a natureza e a quantidade da substância ou do produto, a personalidade e a conduta social do agente",
+       "marcas": [
+        "preponderância",
+        "natureza e a quantidade"
+       ],
+       "afirmacao": "Condenado por guardar 200 kg de cocaína, o réu tem a pena-base elevada sobretudo pela grande quantidade da droga, que pesa mais que as demais circunstâncias do art. 59.",
+       "gabarito": "C",
+       "porque": "Art. 42: natureza e quantidade da droga, personalidade e conduta social preponderam sobre o art. 59 do CP."
+      },
+      {
+       "trecho": "podem ser aumentadas até o décuplo se, em virtude da situação econômica do acusado, considerá-las o juiz ineficazes",
+       "marcas": [
+        "décuplo"
+       ],
+       "afirmacao": "Mesmo aplicada no máximo, a multa ficou ridícula para o traficante milionário. O juiz pode aumentá-la até o triplo, como no Código Penal.",
+       "gabarito": "E",
+       "porque": "Na Lei de Drogas, a multa pode ser aumentada até o décuplo (art. 43, parágrafo único)."
+      },
+      {
+       "trecho": "dar-se-á o livramento condicional após o cumprimento de dois terços da pena, vedada sua concessão ao reincidente específico",
+       "marcas": [
+        "dois terços",
+        "reincidente específico"
+       ],
+       "afirmacao": "Condenado pela segunda vez por tráfico, o réu poderá obter livramento condicional depois de cumprir dois terços da pena.",
+       "gabarito": "E",
+       "porque": "O livramento exige 2/3, mas é vedado ao reincidente específico (art. 44, parágrafo único)."
+      },
+      {
+       "trecho": "era, ao tempo da ação ou da omissão, qualquer que tenha sido a infração penal praticada, inteiramente incapaz de entender o caráter ilícito do fato",
+       "marcas": [
+        "qualquer que tenha sido a infração penal praticada",
+        "inteiramente incapaz"
+       ],
+       "afirmacao": "Dependente químico em crise de abstinência, sem nenhuma capacidade de entender o que fazia, furta uma bicicleta. A isenção de pena do art. 45 pode alcançá-lo, mesmo sendo furto.",
+       "gabarito": "C",
+       "porque": "O art. 45 vale para qualquer infração penal praticada pelo inteiramente incapaz em razão da dependência."
+      },
+      {
+       "trecho": "As penas podem ser reduzidas de um terço a dois terços se, por força das circunstâncias previstas no art. 45 desta Lei, o agente não possuía, ao tempo da ação ou da omissão, a plena capacidade",
+       "marcas": [
+        "um terço a dois terços",
+        "plena capacidade"
+       ],
+       "afirmacao": "Se a dependência apenas diminuiu a capacidade de entender do agente, ele é isento de pena.",
+       "gabarito": "E",
+       "porque": "Capacidade só diminuída leva à redução de 1/3 a 2/3 (art. 46); a isenção é para o inteiramente incapaz (art. 45) (Cebraspe, Delegado PC-PE 2024)."
+      }
+     ],
+     "conferido": {
+      "Art. 41.": "150007edb59a",
+      "Art. 42.": "ae85fbaa1b50",
+      "Art. 43.": "bffc156b8232",
+      "Art. 44.": "dacc77171848",
+      "Art. 45.": "79b07ecf7d30",
+      "Art. 46.": "ea5944e20d9d",
+      "Art. 47.": "cee9d4bf63a4"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 104.339 (Plenário)",
+     "texto": "É inconstitucional a vedação em abstrato da liberdade provisória no tráfico (art. 44). A prisão preventiva exige fundamentação concreta."
+    },
+    {
+     "quem": "STF · HC 97.256 e Resolução 5/2012 do Senado",
+     "texto": "A vedação da conversão em penas restritivas de direitos é inconstitucional; cabe a substituição se preenchidos os requisitos do art. 44 do CP."
+    },
+    {
+     "quem": "STF · ARE 666.334 (Tema 712)",
+     "texto": "Natureza e quantidade da droga não podem ser valoradas na primeira e na terceira fase ao mesmo tempo."
+    }
+   ],
+   "detalhes": [
+    "Na PC-PE 2024 a alternativa certa era a literal do art. 41; na PC-RJ 2022 a banca trocou a fração por “um sexto a dois terços” e o item estava errado.",
+    "As multas, em concurso de crimes, são sempre cumulativas (art. 43, parágrafo único).",
+    "Ao absolver o inteiramente incapaz com base em perícia, o juiz pode encaminhá-lo a tratamento (art. 45, parágrafo único)."
+   ],
+   "macetes": [
+    {
+     "sigla": "COLABOROU: 1/3 A 2/3",
+     "texto": "Mesma fração da semi-imputabilidade (art. 46). O privilégio e as majorantes são de 1/6 a 2/3."
+    },
+    {
+     "sigla": "INTEIRAMENTE ISENTA, PARCIALMENTE REDUZ",
+     "texto": "Art. 45 isenta; art. 46 reduz de 1/3 a 2/3."
+    },
+    {
+     "sigla": "MULTA ATÉ DEZ VEZES",
+     "texto": "Na Lei de Drogas o aumento vai ao décuplo; no CP, ao triplo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O agente que, em razão da dependência de drogas, era inteiramente incapaz de entender o caráter ilícito do fato terá a pena diminuída de metade a dois terços.",
+    "gabarito": "E",
+    "explicacao": "Inteiramente incapaz é isento de pena (art. 45). A redução de 1/3 a 2/3 é para a capacidade só diminuída (art. 46) (Cebraspe, Delegado PC-PE 2024)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A colaboração do art. 41 reduz a pena de 1/6 a 2/3.",
+     "certo": "Reduz de 1/3 a 2/3.",
+     "fonte": "Cebraspe: Delegado PC-RJ 2022"
+    },
+    {
+     "errado": "O tráfico não admite liberdade provisória, por expressa vedação legal válida.",
+     "certo": "O STF declarou inconstitucional a vedação em abstrato (HC 104.339).",
+     "fonte": "Questão do app sobre o art. 44"
+    },
+    {
+     "errado": "A isenção do art. 45 vale só para os crimes da Lei de Drogas.",
+     "certo": "Vale para qualquer infração penal.",
+     "fonte": "Questão do app sobre o art. 45"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PE 2024; Delegado PC-RJ 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: colaboração, dosimetria, multa, vedações do art. 44 e dependência (arts. 41 a 47 da Lei de Drogas)."
+    }
+   ],
+   "relacionados": [
+    "trafico-de-drogas",
+    "associacao-para-o-trafico-e-financiamento",
+    "crimes-hediondos"
    ]
   },
   {
    "slug": "procedimento-e-investigacao-na-lei-de-drogas",
-   "titulo": "Investigação, prisão e bens na Lei de Drogas",
+   "titulo": "Investigação na Lei de Drogas: flagrante, laudo, destruição da droga, prazos do inquérito e técnicas especiais",
    "grupo": "Drogas",
-   "base": "Arts. 41, 50 a 53 e 63 da Lei 11.343/2006; art. 243 da CF",
+   "base": "Arts. 49 a 53 e 72 da Lei 11.343/2006",
    "tax": [
-    "penal-especial.lei-drogas"
+    "penal-especial.lei-drogas.investigacao"
    ],
    "dispositivos": [
-    "n11343-2006-art-41",
+    "n11343-2006-art-49",
     "n11343-2006-art-50",
+    "n11343-2006-art-50-a",
     "n11343-2006-art-51",
+    "n11343-2006-art-52",
     "n11343-2006-art-53",
-    "n11343-2006-art-63",
-    "nCF-1988-art-243"
+    "n11343-2006-art-72"
    ],
    "conceitos": [
+    "proteção a colaboradores e testemunhas",
+    "comunicação do flagrante",
+    "vista ao MP em 24 horas",
     "laudo de constatação",
-    "ação controlada na Lei de Drogas",
-    "colaboração na Lei de Drogas",
-    "confisco de bens do tráfico"
+    "perito oficial ou pessoa idônea",
+    "mesmo perito no laudo definitivo",
+    "destruição da droga",
+    "incineração em 30 dias",
+    "inquérito em 30 e 90 dias",
+    "duplicação dos prazos",
+    "relatório do delegado",
+    "diligências complementares",
+    "infiltração de agentes",
+    "ação controlada",
+    "destruição das amostras"
    ],
    "palavras": [
+    "lei 9.807",
+    "protecao",
+    "colaboradores",
+    "testemunhas",
+    "prisao em flagrante",
+    "comunicacao",
+    "24 horas",
     "laudo de constatacao",
+    "natureza e quantidade",
+    "perito oficial",
+    "pessoa idonea",
     "laudo definitivo",
-    "perito",
+    "nao ficara impedido",
+    "10 dias",
     "destruicao das drogas",
-    "inquerito 30 dias",
+    "15 dias",
+    "autoridade sanitaria",
+    "incineracao",
+    "30 dias",
+    "inquerito",
+    "preso",
+    "solto",
     "90 dias",
     "duplicados",
+    "relatara",
+    "diligencias complementares",
+    "3 dias antes da audiencia",
     "infiltracao",
-    "nao atuacao policial",
+    "agentes de policia",
+    "nao-atuacao policial",
     "acao controlada",
-    "art 41",
-    "colaboracao",
-    "um terco a dois tercos",
-    "funad",
-    "confisco",
-    "art 243",
-    "tema 647",
-    "habitualidade"
+    "itinerario provavel",
+    "autorizacao judicial",
+    "amostras",
+    "contraprova"
    ],
-   "resumo": "Na prisão em flagrante, o delegado comunica o juiz <strong>imediatamente</strong> e o Ministério Público tem vista em 24 horas. O <strong>laudo de constatação</strong>, feito por perito oficial ou, na falta, por pessoa idônea, basta para o auto e para a materialidade naquele momento, e o mesmo perito pode fazer o laudo definitivo. O juiz certifica o laudo em 10 dias e manda destruir a droga, o que o delegado faz em 15 dias, com o MP e a autoridade sanitária. O inquérito termina em <strong>30 dias com preso e 90 com solto</strong>, prazos que o juiz pode duplicar. Com autorização judicial e oitiva do MP cabem a infiltração de agentes e a <strong>não atuação policial</strong> sobre os portadores da droga. Quem colabora na identificação dos comparsas e na recuperação do produto tem a pena reduzida de 1/3 a 2/3 (art. 41). Bens apreendidos em decorrência do tráfico são confiscados (art. 243 da CF).",
+   "resumo": "Na prisão em flagrante, o delegado comunica o juiz <strong>imediatamente</strong> e o MP tem vista em <strong>24 horas</strong> (art. 50). O <strong>laudo de constatação</strong>, feito por perito oficial ou, na falta, por pessoa idônea, basta para o auto e para a materialidade naquele momento, e o mesmo perito pode fazer o laudo definitivo (§§ 1º e 2º). O juiz certifica o laudo em <strong>10 dias</strong> e manda destruir a droga, o que o delegado faz em <strong>15 dias</strong>, com o MP e a autoridade sanitária (§§ 3º e 4º). Sem flagrante, a droga é incinerada em até <strong>30 dias</strong> da apreensão (art. 50-A). O inquérito termina em <strong>30 dias com preso e 90 com solto</strong>, prazos que o juiz pode duplicar a pedido justificado do delegado, ouvido o MP (art. 51). Com autorização judicial e oitiva do MP cabem a <strong>infiltração de agentes</strong> e a <strong>não atuação policial</strong> (ação controlada) sobre os portadores da droga. Na ação controlada, é preciso conhecer o itinerário provável e identificar os agentes (art. 53). Encerrado o processo ou arquivado o inquérito, destroem-se as amostras de contraprova (art. 72).",
    "esquema": {
-    "rotulo": "prazos e números do procedimento",
-    "html": "<table><thead><tr><th>Ato</th><th>Prazo ou regra</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Comunicação do flagrante ao juiz</strong></td><td>Imediata; vista ao MP em 24 horas</td><td>Art. 50</td></tr><tr><td><strong>Certificação do laudo e ordem de destruição</strong></td><td>10 dias, pelo juiz</td><td>Art. 50, § 3º</td></tr><tr><td><strong>Destruição da droga</strong></td><td>15 dias, pelo delegado, com MP e autoridade sanitária</td><td>Art. 50, § 4º</td></tr><tr><td><strong>Inquérito</strong></td><td>30 dias preso, 90 solto; o juiz pode duplicar, ouvido o MP</td><td>Art. 51</td></tr><tr><td><strong>Infiltração e não atuação policial</strong></td><td>Autorização judicial, ouvido o MP, em qualquer fase</td><td>Art. 53</td></tr><tr><td><strong>Colaboração</strong></td><td>Redução de 1/3 a 2/3</td><td>Art. 41</td></tr></tbody></table>"
+    "rotulo": "a linha do tempo da droga apreendida",
+    "html": "<table><thead><tr><th>Etapa</th><th>Prazo</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Comunicação do flagrante ao juiz</strong></td><td>Imediata; vista ao MP em 24 horas</td><td>50, caput</td></tr><tr><td><strong>Juiz certifica o laudo de constatação e manda destruir</strong></td><td>10 dias</td><td>50, § 3º</td></tr><tr><td><strong>Delegado destrói a droga, com MP e autoridade sanitária</strong></td><td>15 dias</td><td>50, § 4º</td></tr><tr><td><strong>Sem flagrante: incineração</strong></td><td>Até 30 dias da apreensão</td><td>50-A</td></tr><tr><td><strong>Inquérito com indiciado preso / solto</strong></td><td>30 / 90 dias, duplicáveis</td><td>51</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 50. Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, imediatamente, comunicação ao juiz competente, remetendo-lhe cópia do auto lavrado, do qual será dada vista ao órgão do Ministério Público, em 24 (vinte e quatro) horas.\n\n§ 1º Para efeito da lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea.\n\n§ 2º O perito que subscrever o laudo a que se refere o § 1º deste artigo não ficará impedido de participar da elaboração do laudo definitivo.\n\n§ 3º Recebida cópia do auto de prisão em flagrante, o juiz, no prazo de 10 (dez) dias, certificará a regularidade formal do laudo de constatação e determinará a destruição das drogas apreendidas, guardando-se amostra necessária à realização do laudo definitivo.\n\n§ 4º A destruição das drogas será executada pelo delegado de polícia competente no prazo de 15 (quinze) dias na presença do Ministério Público e da autoridade sanitária.\n\n(...)",
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 49.",
+      "Art. 50.",
+      "Art. 50-A.",
+      "Art. 51.",
+      "Art. 52.",
+      "Art. 53.",
+      "Art. 72."
+     ],
+     "ref": "arts. 49 a 53 e 72 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 49.</strong> Proteção a colaboradores e testemunhas da Lei 9.807/1999 nos crimes dos arts. 33 a 37.",
+      "<strong>Arts. 50 e 50-A.</strong> Comunicação do flagrante; laudo de constatação; destruição da droga em 10 + 15 dias, ou incineração em 30 dias sem flagrante.",
+      "<strong>Arts. 51 e 52.</strong> Inquérito em 30 dias (preso) ou 90 (solto), duplicáveis; relatório e diligências complementares até 3 dias antes da audiência.",
+      "<strong>Art. 53.</strong> Infiltração e não atuação policial, com autorização judicial e oitiva do MP.",
+      "<strong>Art. 72.</strong> Destruição das amostras de contraprova ao fim do processo ou com o arquivamento."
+     ],
+     "literalidades": [
+      {
+       "trecho": "é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea",
+       "marcas": [
+        "pessoa idônea"
+       ],
+       "afirmacao": "Numa cidade sem perito oficial, o laudo de constatação assinado por pessoa idônea basta para lavrar o auto de prisão em flagrante por tráfico.",
+       "gabarito": "C",
+       "porque": "Art. 50, § 1º: na falta de perito oficial, o laudo de constatação pode ser firmado por pessoa idônea."
+      },
+      {
+       "trecho": "O perito que subscrever o laudo a que se refere o § 1º deste artigo não ficará impedido de participar da elaboração do laudo definitivo.",
+       "marcas": [
+        "não ficará impedido"
+       ],
+       "afirmacao": "O perito que fez o laudo de constatação fica impedido de assinar o laudo definitivo, para garantir a imparcialidade.",
+       "gabarito": "E",
+       "porque": "O art. 50, § 2º, diz que ele não fica impedido."
+      },
+      {
+       "trecho": "A destruição das drogas será executada pelo delegado de polícia competente no prazo de 15 (quinze) dias na presença do Ministério Público e da autoridade sanitária.",
+       "marcas": [
+        "15 (quinze) dias",
+        "autoridade sanitária"
+       ],
+       "afirmacao": "Depois da ordem judicial, o delegado incinera a droga apreendida no flagrante em 10 dias, acompanhado do promotor e de um fiscal da vigilância sanitária. Agiu dentro do prazo legal.",
+       "gabarito": "C",
+       "porque": "O delegado destrói a droga em 15 dias, na presença do MP e da autoridade sanitária (art. 50, § 4º); 10 dias está dentro do prazo."
+      },
+      {
+       "trecho": "O inquérito policial será concluído no prazo de 30 (trinta) dias, se o indiciado estiver preso, e de 90 (noventa) dias, quando solto.",
+       "marcas": [
+        "30 (trinta) dias",
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Na Lei de Drogas, o inquérito com indiciado solto deve ser concluído em 30 dias, prorrogáveis.",
+       "gabarito": "E",
+       "porque": "São 30 dias com preso e 90 com solto, ambos duplicáveis pelo juiz (art. 51)."
+      },
+      {
+       "trecho": "Os prazos a que se refere este artigo podem ser duplicados pelo juiz, ouvido o Ministério Público, mediante pedido justificado da autoridade de polícia judiciária.",
+       "marcas": [
+        "duplicados pelo juiz"
+       ],
+       "afirmacao": "Com o indiciado preso, o delegado pede mais prazo, justificando a complexidade. Ouvido o MP, o juiz pode dobrar o prazo, que passa a 60 dias.",
+       "gabarito": "C",
+       "porque": "Art. 51, parágrafo único: os prazos podem ser duplicados pelo juiz, ouvido o MP, a pedido justificado do delegado."
+      },
+      {
+       "trecho": "a autorização será concedida desde que sejam conhecidos o itinerário provável e a identificação dos agentes do delito ou de colaboradores",
+       "marcas": [
+        "itinerário provável"
+       ],
+       "afirmacao": "Na Lei de Drogas, a não atuação policial sobre os portadores da droga dispensa autorização judicial, bastando comunicação posterior ao juiz.",
+       "gabarito": "E",
+       "porque": "Os procedimentos do art. 53 exigem autorização judicial e oitiva do MP; na ação controlada, é preciso conhecer o itinerário provável e identificar os agentes."
+      }
+     ],
+     "conferido": {
+      "Art. 49.": "1bbafd92e620",
+      "Art. 50.": "b420047c0605",
+      "Art. 50-A.": "ab29cc9ee04e",
+      "Art. 51.": "1a64b9f689f7",
+      "Art. 52.": "9d04cb8e05eb",
+      "Art. 53.": "faba858f33dd",
+      "Art. 72.": "e5d1216f1fb6"
+     },
      "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 51. O inquérito policial será concluído no prazo de 30 (trinta) dias, se o indiciado estiver preso, e de 90 (noventa) dias, quando solto.\n\nParágrafo único. Os prazos a que se refere este artigo podem ser duplicados pelo juiz, ouvido o Ministério Público, mediante pedido justificado da autoridade de polícia judiciária.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 53. Em qualquer fase da persecução criminal relativa aos crimes previstos nesta Lei, são permitidos, além dos previstos em lei, mediante autorização judicial e ouvido o Ministério Público, os seguintes procedimentos investigatórios:\n\nI - a infiltração por agentes de polícia, em tarefas de investigação, constituída pelos órgãos especializados pertinentes;\n\nII - a não-atuação policial sobre os portadores de drogas, seus precursores químicos ou outros produtos utilizados em sua produção, que se encontrem no território brasileiro, com a finalidade de identificar e responsabilizar maior número de integrantes de operações de tráfico e distribuição, sem prejuízo da ação penal cabível.\n\nParágrafo único. Na hipótese do inciso II deste artigo, a autorização será concedida desde que sejam conhecidos o itinerário provável e a identificação dos agentes do delito ou de colaboradores.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 41. O indiciado ou acusado que colaborar voluntariamente com a investigação policial e o processo criminal na identificação dos demais co-autores ou partícipes do crime e na recuperação total ou parcial do produto do crime, no caso de condenação, terá pena reduzida de um terço a dois terços.",
-     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html",
-     "norma": "n11343-2006"
-    },
-    {
-     "texto": "Art. 243. As propriedades rurais e urbanas de qualquer região do País onde forem localizadas culturas ilegais de plantas psicotrópicas ou a exploração de trabalho escravo na forma da lei serão expropriadas e destinadas à reforma agrária e a programas de habitação popular, sem qualquer indenização ao proprietário e sem prejuízo de outras sanções previstas em lei, observado, no que couber, o disposto no art. 5º.\n\nParágrafo único. Todo e qualquer bem de valor econômico apreendido em decorrência do tráfico ilícito de entorpecentes e drogas afins e da exploração de trabalho escravo será confiscado e reverterá a fundo especial com destinação específica, na forma da lei.",
-     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-     "norma": "nCF-1988"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Terceira Seção, EREsp 1.544.057 (2016)",
+     "texto": "O laudo de constatação basta para o flagrante e a denúncia, mas a condenação exige, em regra, o laudo toxicológico definitivo. A exceção é o laudo provisório com grau de certeza equivalente."
+    }
+   ],
+   "detalhes": [
+    "Na ação controlada da Lei de Drogas (art. 53, II), a autorização é judicial, ao contrário da Lei 12.850, em que a ação controlada é só comunicada ao juiz (Cebraspe, Delegado PC-DF 2026).",
+    "O relatório do delegado justifica a classificação do delito e indica quantidade, natureza, local, condições da ação, circunstâncias da prisão, conduta, qualificação e antecedentes (art. 52, I).",
+    "Diligências complementares, inclusive sobre os bens do agente, seguem após a remessa e são enviadas até 3 dias antes da audiência (art. 52, parágrafo único).",
+    "O local de destruição é vistoriado antes e depois, com auto circunstanciado do delegado (art. 50, § 5º)."
    ],
    "macetes": [
     {
@@ -516,12 +1986,502 @@
     {
      "sigla": "O MESMO PERITO PODE",
      "texto": "Quem assinou o laudo de constatação não fica impedido de fazer o definitivo (art. 50, § 2º)."
+    },
+    {
+     "sigla": "10 + 15, OU 30",
+     "texto": "Com flagrante, o juiz manda destruir em 10 dias e o delegado destrói em 15. Sem flagrante, incineração em 30 dias."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na Lei de Drogas, a não atuação policial sobre portadores de drogas, para identificar mais integrantes da cadeia, depende apenas de comunicação prévia ao Ministério Público.",
+    "gabarito": "E",
+    "explicacao": "Exige autorização judicial, ouvido o MP, e conhecimento do itinerário provável e da identificação dos agentes (art. 53, II e parágrafo único)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O laudo de constatação só pode ser feito por perito oficial.",
+     "certo": "Na falta, por pessoa idônea (art. 50, § 1º).",
+     "fonte": "Questão do app sobre o art. 50"
+    },
+    {
+     "errado": "O inquérito com preso termina em 10 dias, como no CPP.",
+     "certo": "Na Lei de Drogas, em 30 dias (art. 51).",
+     "fonte": "Questão do app sobre o art. 51"
+    },
+    {
+     "errado": "A droga apreendida sem flagrante é incinerada em até 60 dias.",
+     "certo": "Em até 30 dias da apreensão (art. 50-A).",
+     "fonte": "Questão do app sobre o art. 50-A"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-DF 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: investigação e destruição da droga (arts. 49 a 53 e 72). Instrução e bens apreendidos ganharam temas próprios."
+    }
+   ],
+   "relacionados": [
+    "instrucao-criminal-na-lei-de-drogas",
+    "apreensao-e-destinacao-de-bens-na-lei-de-drogas",
+    "colaboracao-premiada-e-meios-de-prova"
+   ]
+  },
+  {
+   "slug": "instrucao-criminal-na-lei-de-drogas",
+   "titulo": "Instrução criminal na Lei de Drogas: denúncia, defesa prévia, audiência e sentença",
+   "grupo": "Drogas",
+   "base": "Arts. 54 a 59 da Lei 11.343/2006",
+   "tax": [
+    "penal-especial.lei-drogas.instrucao"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-54",
+    "n11343-2006-art-55",
+    "n11343-2006-art-56",
+    "n11343-2006-art-57",
+    "n11343-2006-art-58",
+    "n11343-2006-art-59"
+   ],
+   "conceitos": [
+    "vista ao MP em 10 dias",
+    "até 5 testemunhas",
+    "notificação para defesa prévia",
+    "defesa prévia antes do recebimento",
+    "defensor nomeado",
+    "decisão em 5 dias",
+    "afastamento cautelar do servidor",
+    "audiência em 30 dias ou 90",
+    "interrogatório no início",
+    "debates de 20 minutos",
+    "sentença em 10 dias",
+    "apelar em liberdade"
+   ],
+   "palavras": [
+    "recebidos em juizo",
+    "vista ao ministerio publico",
+    "10 dias",
+    "arquivamento",
+    "diligencias",
+    "denuncia",
+    "5 testemunhas",
+    "notificacao",
+    "defesa previa",
+    "por escrito",
+    "defesa preliminar",
+    "excecoes",
+    "em apartado",
+    "nomeara defensor",
+    "decidira em 5 dias",
+    "recebida a denuncia",
+    "citacao pessoal",
+    "afastamento cautelar",
+    "funcionario publico",
+    "30 dias",
+    "90 dias",
+    "avaliacao de dependencia",
+    "interrogatorio",
+    "sustentacao oral",
+    "20 minutos",
+    "prorrogavel por mais 10",
+    "sentenca de imediato",
+    "recolher-se a prisao",
+    "primario e de bons antecedentes"
+   ],
+   "resumo": "Recebido o inquérito, o MP tem <strong>10 dias</strong> para pedir arquivamento, requisitar diligências ou oferecer denúncia com até <strong>5 testemunhas</strong> (art. 54). Antes de receber a denúncia, o juiz <strong>notifica</strong> o acusado para a <strong>defesa prévia</strong>, por escrito, em 10 dias, com até 5 testemunhas. Se ela não vier, o juiz nomeia defensor, que tem mais 10 dias. Apresentada a defesa, o juiz decide em <strong>5 dias</strong> (art. 55). Recebida a denúncia, o juiz marca a audiência, manda citar o acusado pessoalmente e requisita os laudos. Nos crimes dos arts. 33 a 37, pode <strong>afastar cautelarmente o servidor público</strong> denunciado (art. 56, § 1º). A audiência ocorre em <strong>30 dias</strong>, ou em 90 se houver avaliação de dependência (§ 2º). Na audiência, pela letra da lei, o <strong>interrogatório</strong> vem antes das testemunhas, e os debates são de 20 minutos, prorrogáveis por mais 10 (art. 57). O juiz sentencia de imediato ou em 10 dias (art. 58).",
+   "esquema": {
+    "rotulo": "o rito em números",
+    "html": "<table><thead><tr><th>Etapa</th><th>Prazo ou limite</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>MP após receber o inquérito</strong></td><td>10 dias; até 5 testemunhas</td><td>54</td></tr><tr><td><strong>Defesa prévia (antes do recebimento)</strong></td><td>10 dias; até 5 testemunhas</td><td>55</td></tr><tr><td><strong>Defensor nomeado, se o acusado não responder</strong></td><td>10 dias</td><td>55, § 3º</td></tr><tr><td><strong>Decisão do juiz sobre a denúncia</strong></td><td>5 dias</td><td>55, § 4º</td></tr><tr><td><strong>Audiência de instrução e julgamento</strong></td><td>30 dias do recebimento; 90 se houver avaliação de dependência</td><td>56, § 2º</td></tr><tr><td><strong>Sustentação oral de cada parte</strong></td><td>20 minutos, mais 10</td><td>57</td></tr><tr><td><strong>Sentença</strong></td><td>De imediato ou em 10 dias</td><td>58</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 54.",
+      "Art. 55.",
+      "Art. 56.",
+      "Art. 57.",
+      "Art. 58.",
+      "Art. 59."
+     ],
+     "ref": "arts. 54 a 59 da Lei de Drogas",
+     "regras": [
+      "<strong>Art. 54.</strong> Vista ao MP em 10 dias: arquivamento, diligências ou denúncia com até 5 testemunhas.",
+      "<strong>Art. 55.</strong> Notificação para defesa prévia escrita em 10 dias, antes do recebimento; exceções em apartado; defensor nomeado; decisão em 5 dias.",
+      "<strong>Art. 56.</strong> Recebimento, citação pessoal, afastamento cautelar do servidor e audiência em 30 ou 90 dias.",
+      "<strong>Arts. 57 a 59.</strong> Interrogatório, testemunhas, debates de 20 minutos mais 10; sentença em 10 dias; regra (superada) de recolhimento para apelar."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Oferecida a denúncia, o juiz ordenará a notificação do acusado para oferecer defesa prévia, por escrito, no prazo de 10 (dez) dias.",
+       "marcas": [
+        "notificação",
+        "defesa prévia"
+       ],
+       "afirmacao": "No rito da Lei de Drogas, o juiz primeiro recebe a denúncia e só então cita o acusado para a resposta à acusação.",
+       "gabarito": "E",
+       "porque": "Há defesa prévia antes do recebimento: oferecida a denúncia, o acusado é notificado para responder em 10 dias (art. 55); só depois o juiz decide se recebe."
+      },
+      {
+       "trecho": "Se a resposta não for apresentada no prazo, o juiz nomeará defensor para oferecê-la em 10 (dez) dias",
+       "marcas": [
+        "nomeará defensor"
+       ],
+       "afirmacao": "Notificado, o acusado deixa passar o prazo sem apresentar a defesa prévia. O juiz nomeia defensor, que terá 10 dias para oferecê-la com vista dos autos.",
+       "gabarito": "C",
+       "porque": "Art. 55, § 3º."
+      },
+      {
+       "trecho": "o juiz, ao receber a denúncia, poderá decretar o afastamento cautelar do denunciado de suas atividades, se for funcionário público",
+       "marcas": [
+        "afastamento cautelar"
+       ],
+       "afirmacao": "Denunciado por tráfico, o agente penitenciário pode ser afastado cautelarmente do cargo pelo juiz no momento do recebimento da denúncia.",
+       "gabarito": "C",
+       "porque": "Art. 56, § 1º: nos crimes dos arts. 33, caput e § 1º, e 34 a 37."
+      },
+      {
+       "trecho": "será realizada dentro dos 30 (trinta) dias seguintes ao recebimento da denúncia, salvo se determinada a realização de avaliação para atestar dependência de drogas, quando se realizará em 90 (noventa) dias",
+       "marcas": [
+        "30 (trinta) dias",
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Determinada avaliação para atestar a dependência do réu, a audiência de instrução deve ocorrer em até 30 dias do recebimento da denúncia.",
+       "gabarito": "E",
+       "porque": "Com avaliação de dependência, o prazo da audiência é de 90 dias (art. 56, § 2º)."
+      },
+      {
+       "trecho": "pelo prazo de 20 (vinte) minutos para cada um, prorrogável por mais 10 (dez), a critério do juiz",
+       "marcas": [
+        "20 (vinte) minutos",
+        "mais 10 (dez)"
+       ],
+       "afirmacao": "Nos debates do rito da Lei de Drogas, cada parte tem 20 minutos, prorrogáveis por mais 10, a critério do juiz.",
+       "gabarito": "C",
+       "porque": "Art. 57, caput."
+      }
+     ],
+     "conferido": {
+      "Art. 54.": "1781c6dbced9",
+      "Art. 55.": "458b214d6cd3",
+      "Art. 56.": "14ca57327b6e",
+      "Art. 57.": "9048b2ac9226",
+      "Art. 58.": "90e23805b24c",
+      "Art. 59.": "178baefe6123"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 127.900 (Plenário)",
+     "texto": "O interrogatório deve ser o último ato da instrução também nos procedimentos especiais, como o da Lei de Drogas, aplicando-se o art. 400 do CPP (regra válida para instruções encerradas após a publicação da ata do julgamento, em 2016)."
+    },
+    {
+     "quem": "STJ · Súmula 347",
+     "texto": "O conhecimento de recurso de apelação do réu independe de sua prisão. Por isso o art. 59 não é aplicado."
+    }
+   ],
+   "detalhes": [
+    "A defesa prévia do art. 55 tem natureza de defesa preliminar e exceções; as exceções correm em apartado (arts. 95 a 113 do CPP).",
+    "Se entender imprescindível, o juiz determina em até 10 dias a apresentação do preso, diligências, exames e perícias (art. 55, § 5º).",
+    "Após o interrogatório, o juiz pergunta às partes se restou fato a esclarecer (art. 57, parágrafo único)."
+   ],
+   "macetes": [
+    {
+     "sigla": "NOTIFICA ANTES, CITA DEPOIS",
+     "texto": "Na Lei de Drogas o acusado é notificado para a defesa prévia antes do recebimento; recebida a denúncia, é citado pessoalmente."
+    },
+    {
+     "sigla": "30, OU 90 COM AVALIAÇÃO",
+     "texto": "Prazo da audiência após o recebimento (art. 56, § 2º)."
+    },
+    {
+     "sigla": "INTERROGATÓRIO POR ÚLTIMO",
+     "texto": "A letra do art. 57 põe o interrogatório primeiro, mas o STF manda aplicar o art. 400 do CPP."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "No procedimento da Lei de Drogas, o interrogatório do réu é o primeiro ato da audiência de instrução, conforme entendimento atual do STF.",
+    "gabarito": "E",
+    "explicacao": "A letra do art. 57 coloca o interrogatório antes das testemunhas, mas o STF (HC 127.900) fixou que ele deve ser o último ato da instrução, como no art. 400 do CPP."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A defesa prévia da Lei de Drogas tem prazo de 5 dias.",
+     "certo": "É de 10 dias (art. 55); 5 dias é o prazo da decisão do juiz (§ 4º).",
+     "fonte": "Questão do app sobre o art. 55"
+    },
+    {
+     "errado": "Denúncia por tráfico pode arrolar até 8 testemunhas.",
+     "certo": "Até 5 (art. 54, III).",
+     "fonte": "Questão do app sobre o art. 54"
+    },
+    {
+     "errado": "O réu por tráfico só pode apelar se se recolher à prisão.",
+     "certo": "A apelação independe da prisão (Súmula 347 do STJ).",
+     "fonte": "Questão do app sobre o art. 59"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre o rito dos arts. 54 a 58"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: instrução criminal da Lei de Drogas (arts. 54 a 59), com a defesa prévia antes do recebimento e o interrogatório ao final (STF)."
+    }
+   ],
+   "relacionados": [
+    "procedimento-e-investigacao-na-lei-de-drogas",
+    "procedimento-comum"
+   ]
+  },
+  {
+   "slug": "apreensao-e-destinacao-de-bens-na-lei-de-drogas",
+   "titulo": "Bens do tráfico: medidas assecuratórias, alienação antecipada, uso pela polícia, perdimento e confisco",
+   "grupo": "Drogas",
+   "base": "Arts. 60 a 63-F e 69 da Lei 11.343/2006 e art. 243 da Constituição",
+   "tax": [
+    "penal-especial.lei-drogas.bens"
+   ],
+   "dispositivos": [
+    "n11343-2006-art-60",
+    "n11343-2006-art-60-a",
+    "n11343-2006-art-61",
+    "n11343-2006-art-62",
+    "n11343-2006-art-62-a",
+    "n11343-2006-art-63",
+    "n11343-2006-art-63-a",
+    "n11343-2006-art-63-b",
+    "n11343-2006-art-63-c",
+    "n11343-2006-art-63-d",
+    "n11343-2006-art-63-e",
+    "n11343-2006-art-63-f",
+    "n11343-2006-art-69"
+   ],
+   "conceitos": [
+    "medidas assecuratórias",
+    "conversão de moeda estrangeira",
+    "comunicação da apreensão",
+    "alienação antecipada em 30 dias",
+    "avaliação em 5 dias",
+    "uso do bem pela polícia",
+    "depósito na Caixa",
+    "decisão sobre bens na sentença",
+    "comparecimento pessoal para restituição",
+    "liberação de bens lícitos",
+    "destinação pela Senad",
+    "Funad",
+    "perda alargada",
+    "expropriação de glebas",
+    "confisco do art. 243"
+   ],
+   "palavras": [
+    "medidas assecuratorias",
+    "apreensao",
+    "produto do crime",
+    "proveito",
+    "arts. 125 cpp",
+    "moeda estrangeira",
+    "conversao em moeda nacional",
+    "veiculos",
+    "embarcacoes",
+    "aeronaves",
+    "habitual ou nao",
+    "comunicada",
+    "alienacao",
+    "30 dias",
+    "armas",
+    "avaliacao",
+    "oficial de justica",
+    "5 dias",
+    "interesse publico",
+    "orgaos de policia",
+    "uso",
+    "autorizacao judicial",
+    "caixa economica federal",
+    "sentenca",
+    "perdimento",
+    "restituicao",
+    "comparecimento pessoal",
+    "licitude da origem",
+    "senad",
+    "funad",
+    "patrimonio do condenado",
+    "rendimento licito",
+    "pena maxima superior a 6 anos",
+    "falencia",
+    "expropriadas",
+    "sem indenizacao",
+    "confiscado",
+    "fundo especial",
+    "tema 647"
+   ],
+   "resumo": "No inquérito ou na ação penal, o juiz pode decretar a <strong>apreensão e outras medidas assecuratórias</strong> sobre bens suspeitos de serem produto ou proveito do crime. Pode fazê-lo a pedido do MP ou do assistente, ou por representação do delegado (art. 60). Moeda estrangeira, títulos e cheques apreendidos são <strong>convertidos</strong> logo em moeda nacional (art. 60-A). Veículos e objetos usados no crime, de forma habitual ou não, têm a apreensão <strong>comunicada</strong> ao juiz. Ele determina a <strong>alienação em 30 dias</strong>, exceto as armas (art. 61). Havendo interesse público, a polícia pode <strong>usar o bem</strong> com autorização judicial, ouvido o MP e após avaliação (art. 62). Na sentença, o juiz decide sobre o perdimento (art. 63). Pedido de restituição exige o <strong>comparecimento pessoal</strong> do acusado (art. 63-A). Bens de origem lícita são liberados, mantido o necessário para reparar danos e pagar multas e custas (art. 63-B). A Senad destina os bens perdidos em favor da União, e o produto da alienação vai integralmente ao Funad (arts. 63-C e 63-E). Se a pena máxima do crime passa de 6 anos, cabe a <strong>perda alargada</strong>: a diferença entre o patrimônio do condenado e o compatível com sua renda lícita (art. 63-F). A Constituição manda expropriar, <strong>sem indenização</strong>, as glebas com culturas ilegais e confiscar todo bem apreendido em decorrência do tráfico (art. 243).",
+   "esquema": {
+    "rotulo": "do flagrante ao Funad",
+    "html": "<table><thead><tr><th>Momento</th><th>O que acontece</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Investigação ou processo</strong></td><td>Apreensão e medidas assecuratórias sobre produto ou proveito</td><td>60</td></tr><tr><td><strong>Apreensão de veículos e instrumentos</strong></td><td>Comunicação ao juiz; alienação em 30 dias, salvo armas</td><td>61</td></tr><tr><td><strong>Antes da sentença</strong></td><td>Uso pela polícia, com autorização judicial e avaliação</td><td>62</td></tr><tr><td><strong>Sentença</strong></td><td>Perdimento ou liberação; restituição só com comparecimento pessoal</td><td>63, 63-A e 63-B</td></tr><tr><td><strong>Depois do perdimento</strong></td><td>Destinação pela Senad; produto integral ao Funad</td><td>63-C e 63-E</td></tr><tr><td><strong>Pena máxima acima de 6 anos</strong></td><td>Perda alargada do patrimônio incompatível</td><td>63-F</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n11343-2006",
+     "artigos": [
+      "Art. 60.",
+      "Art. 60-A.",
+      "Art. 61.",
+      "Art. 62.",
+      "Art. 62-A.",
+      "Art. 63.",
+      "Art. 63-A.",
+      "Art. 63-B.",
+      "Art. 63-C.",
+      "Art. 63-D.",
+      "Art. 63-E.",
+      "Art. 63-F.",
+      "Art. 69."
+     ],
+     "ref": "arts. 60 a 63-F e 69 da Lei de Drogas",
+     "regras": [
+      "<strong>Arts. 60 e 60-A.</strong> Medidas assecuratórias a pedido do MP, do assistente ou por representação do delegado; conversão imediata de moeda estrangeira e títulos.",
+      "<strong>Arts. 61 a 62-A.</strong> Comunicação da apreensão, alienação em 30 dias, avaliação, uso pela polícia e depósito na Caixa Econômica Federal.",
+      "<strong>Arts. 63 a 63-F.</strong> Decisão na sentença, restituição com comparecimento pessoal, liberação de bens lícitos, destinação pela Senad, produto ao Funad e perda alargada.",
+      "<strong>Art. 69.</strong> Providências do juízo na falência ou liquidação de estabelecimentos que lidem com drogas."
+     ],
+     "literalidades": [
+      {
+       "trecho": "utilizados para a prática, habitual ou não, dos crimes definidos nesta Lei",
+       "marcas": [
+        "habitual ou não"
+       ],
+       "afirmacao": "O carro usado uma única vez para levar droga de uma cidade a outra não pode ser apreendido, porque não era usado habitualmente no tráfico.",
+       "gabarito": "E",
+       "porque": "A apreensão alcança os bens usados na prática, habitual ou não, dos crimes (art. 61; STF, Tema 647)."
+      },
+      {
+       "trecho": "determinará a alienação dos bens apreendidos, excetuadas as armas",
+       "marcas": [
+        "excetuadas as armas"
+       ],
+       "afirmacao": "Comunicada a apreensão, o juiz deve mandar alienar em 30 dias todos os bens apreendidos, inclusive as armas de fogo.",
+       "gabarito": "E",
+       "porque": "As armas ficam fora da alienação e são recolhidas na forma da legislação própria (art. 61, § 1º)."
+      },
+      {
+       "trecho": "Nenhum pedido de restituição será conhecido sem o comparecimento pessoal do acusado",
+       "marcas": [
+        "comparecimento pessoal"
+       ],
+       "afirmacao": "O acusado foragido pede, por advogado, a restituição do carro apreendido. Sem o seu comparecimento pessoal, o pedido não será conhecido.",
+       "gabarito": "C",
+       "porque": "Art. 63-A: o pedido de restituição exige o comparecimento pessoal do acusado."
+      },
+      {
+       "trecho": "O produto da alienação dos bens apreendidos ou confiscados será revertido integralmente ao Funad",
+       "marcas": [
+        "integralmente ao Funad"
+       ],
+       "afirmacao": "O valor da arrematação do imóvel confiscado pode ser usado primeiro para quitar o IPTU atrasado, e só o saldo vai ao Funad.",
+       "gabarito": "E",
+       "porque": "O produto vai integralmente ao Funad, vedada a sub-rogação para saldar multas, encargos ou tributos pendentes (art. 63-E)."
+      },
+      {
+       "trecho": "poderá ser decretada a perda, como produto ou proveito do crime, dos bens correspondentes à diferença entre o valor do patrimônio do condenado e aquele compatível com o seu rendimento lícito",
+       "marcas": [
+        "diferença entre o valor do patrimônio"
+       ],
+       "afirmacao": "Condenado por tráfico, o réu tem patrimônio de R$ 5 milhões, mas renda lícita compatível com R$ 500 mil. O juiz pode decretar a perda da diferença.",
+       "gabarito": "C",
+       "porque": "Art. 63-F: perda alargada nos crimes com pena máxima superior a 6 anos de reclusão, como o tráfico."
+      }
+     ],
+     "conferido": {
+      "Art. 60.": "0b6db1756fd0",
+      "Art. 60-A.": "88cae82a13c8",
+      "Art. 61.": "0a385f305923",
+      "Art. 62.": "3c05962218e6",
+      "Art. 62-A.": "42ab057d2392",
+      "Art. 63.": "91df4f0ef705",
+      "Art. 63-A.": "91bf632f1f86",
+      "Art. 63-B.": "ea662ff143b2",
+      "Art. 63-C.": "96dae167f11e",
+      "Art. 63-D.": "06d5557ca24e",
+      "Art. 63-E.": "a9070f3a53a9",
+      "Art. 63-F.": "a27ad9aaec8d",
+      "Art. 69.": "50875e9189b5"
+     },
+     "fonte": "Lei 11.343/2006 (Lei de Drogas), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11343-23-agosto-2006-545399-normaatualizada-pl.html"
+    },
+    {
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 243."
+     ],
+     "ref": "art. 243 da Constituição",
+     "regras": [
+      "<strong>Art. 243.</strong> Expropriação, sem indenização, das propriedades com culturas ilegais de plantas psicotrópicas ou trabalho escravo; confisco de todo bem apreendido em decorrência do tráfico, revertido a fundo especial."
+     ],
+     "literalidades": [
+      {
+       "trecho": "serão expropriadas e destinadas à reforma agrária e a programas de habitação popular, sem qualquer indenização ao proprietário",
+       "marcas": [
+        "sem qualquer indenização"
+       ],
+       "afirmacao": "A fazenda onde a polícia encontrou plantação de maconha será expropriada, e o proprietário receberá indenização em títulos da dívida agrária.",
+       "gabarito": "E",
+       "porque": "A expropriação do art. 243 é sem qualquer indenização ao proprietário."
+      },
+      {
+       "trecho": "Todo e qualquer bem de valor econômico apreendido em decorrência do tráfico ilícito de entorpecentes e drogas afins",
+       "marcas": [
+        "Todo e qualquer bem"
+       ],
+       "afirmacao": "A moto apreendida com o traficante no momento da venda pode ser confiscada e revertida a fundo especial, sem precisar provar que ela foi adaptada para o tráfico.",
+       "gabarito": "C",
+       "porque": "Todo bem de valor econômico apreendido em decorrência do tráfico é confiscado (art. 243, parágrafo único; STF, Tema 647)."
+      }
+     ],
+     "conferido": {
+      "Art. 243.": "3a8fb3fa7593"
+     },
+     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     }
    ],
    "juris": [
     {
      "quem": "STF · RE 638.491 (Tema 647)",
      "texto": "É possível confiscar qualquer bem apreendido em decorrência do tráfico, sem exigir habitualidade, reiteração do uso nem adaptação do bem para a prática do crime (art. 243, parágrafo único, da CF)."
+    },
+    {
+     "quem": "STF · RE 635.336 (Tema 399)",
+     "texto": "A expropriação de glebas com cultura ilegal de psicotrópicos é sanção que alcança o proprietário, que pode se livrar provando que não teve culpa, ainda que in vigilando ou in eligendo."
+    }
+   ],
+   "detalhes": [
+    "A avaliação dos bens é feita por oficial de justiça em 5 dias da autuação; depois, o órgão gestor do Funad, o MP e o interessado se manifestam em 5 dias (art. 61, §§ 3º e 4º).",
+    "Os depósitos em dinheiro de alienações e numerários apreendidos vão para a Caixa Econômica Federal (art. 62-A).",
+    "Compete ao Ministério da Justiça fixar os valores abaixo dos quais o bem é destruído ou inutilizado (art. 63-D).",
+    "O MP fiscaliza o cumprimento do prazo de 30 dias para a alienação (art. 61, § 9º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "HABITUAL OU NÃO",
+     "texto": "Para apreender e confiscar o bem do tráfico, não se exige uso reiterado nem adaptação (art. 61; Tema 647)."
+    },
+    {
+     "sigla": "TUDO PARA O FUNAD",
+     "texto": "O produto da alienação vai integralmente ao Funad, sem pagar tributos atrasados (art. 63-E)."
+    },
+    {
+     "sigla": "MAIS DE 6 ANOS, PERDA ALARGADA",
+     "texto": "Patrimônio incompatível com a renda lícita pode ser perdido (art. 63-F)."
     }
    ],
    "pegadinha": {
@@ -529,19 +2489,37 @@
     "gabarito": "E",
     "explicacao": "O STF afastou essa exigência no Tema 647: basta que o bem tenha sido apreendido em decorrência do tráfico (art. 243, parágrafo único, da CF) (Cebraspe, Delegado PF 2021)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Colaboração: 1/3 a 2/3.</strong> Na mesma prova de Delegado PC-PE 2024, a alternativa certa era a literal do art. 41. Na PC-RJ 2022, a banca trocou a fração por \"um sexto a dois terços\", e o item estava errado.</p><p><strong>Ação controlada na Lei de Drogas.</strong> Em qualquer fase da persecução, com autorização judicial e oitiva do MP, admite-se a não atuação policial sobre os portadores da droga para identificar mais integrantes da cadeia (art. 53, II; Cebraspe, Delegado PC-DF 2026).</p><p><strong>Laudo definitivo para condenar.</strong> O laudo de constatação basta para o flagrante e a denúncia, mas a condenação exige, em regra, o laudo toxicológico definitivo (STJ, 3ª Seção, EREsp 1.544.057, 2016). A exceção é o laudo provisório com grau de certeza equivalente ao do definitivo.</p>",
-   "relacionados": [
-    "trafico-de-drogas",
-    "porte-de-drogas-para-consumo-pessoal",
-    "colaboracao-premiada-e-meios-de-prova"
+   "pegadinhas": [
+    {
+     "errado": "O juiz decreta medidas assecuratórias de ofício na Lei de Drogas.",
+     "certo": "A requerimento do MP ou do assistente, ou por representação do delegado (art. 60).",
+     "fonte": "Questão do app sobre o art. 60"
+    },
+    {
+     "errado": "A polícia pode usar o veículo apreendido mediante simples autorização do delegado-geral.",
+     "certo": "Exige autorização judicial, ouvido o MP, e avaliação prévia (art. 62).",
+     "fonte": "Questão do app sobre o art. 62"
+    },
+    {
+     "errado": "Quem destina os bens perdidos em favor da União é a Polícia Federal.",
+     "certo": "É a Senad, do Ministério da Justiça (art. 63-C).",
+     "fonte": "Questão do app sobre o art. 63-C"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescido que a condenação por tráfico exige, em regra, o laudo toxicológico definitivo (EREsp 1.544.057)."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: medidas assecuratórias, alienação, uso pela polícia, perdimento, Funad, perda alargada e art. 243 da CF."
     }
+   ],
+   "relacionados": [
+    "procedimento-e-investigacao-na-lei-de-drogas",
+    "trafico-de-drogas",
+    "lavagem-de-dinheiro"
    ]
   },
   {
