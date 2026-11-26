@@ -9337,106 +9337,658 @@
    ]
   },
   {
-   "slug": "prisao-em-flagrante",
-   "titulo": "Prisão em flagrante, auto de prisão e audiência de custódia",
+   "slug": "cautelares-e-prisao-regras-gerais",
+   "titulo": "Cautelares e prisão: regras gerais, mandado, cumprimento e prisão especial",
    "grupo": "Prisão e medidas cautelares",
-   "base": "Arts. 301 a 310 do CPP",
+   "base": "Arts. 282 a 300-A do CPP",
    "tax": [
     "processo-penal.prisao",
-    "processo-penal.prisao-flagrante",
-    "processo-penal.conceito-especies-mandado-prisao-cumprimento"
+    "processo-penal.conceito-especies-mandado-prisao-cumprimento",
+    "processo-penal.principio-necessidade-prisao-especial-liberdade",
+    "processo-penal.medidas-cautelares-liberdade-provisoria.regras-gerais"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-282",
+    "n3689-1941-art-283",
+    "n3689-1941-art-284",
+    "n3689-1941-art-285",
+    "n3689-1941-art-286",
+    "n3689-1941-art-287",
+    "n3689-1941-art-288",
+    "n3689-1941-art-289",
+    "n3689-1941-art-289-a",
+    "n3689-1941-art-290",
+    "n3689-1941-art-291",
+    "n3689-1941-art-292",
+    "n3689-1941-art-293",
+    "n3689-1941-art-294",
+    "n3689-1941-art-295",
+    "n3689-1941-art-296",
+    "n3689-1941-art-297",
+    "n3689-1941-art-299",
+    "n3689-1941-art-300",
+    "n3689-1941-art-300-a"
+   ],
+   "conceitos": [
+    "necessidade e adequação",
+    "cautelares isoladas ou cumuladas",
+    "quem pede a cautelar",
+    "contraditório prévio",
+    "descumprimento da cautelar",
+    "revogação e substituição de ofício",
+    "preventiva como última opção",
+    "espécies de prisão",
+    "prisão sem pena privativa de liberdade",
+    "horário da prisão",
+    "uso da força e algemas",
+    "mandado de prisão",
+    "prisão sem exibição do mandado",
+    "prisão por precatória",
+    "banco de mandados do CNJ",
+    "perseguição em outra comarca",
+    "prisão em domicílio",
+    "prisão especial",
+    "separação de presos provisórios",
+    "perfil genético do preso"
+   ],
+   "palavras": [
+    "medidas cautelares",
+    "necessidade",
+    "adequacao",
+    "isolada ou cumulativamente",
+    "requerimento das partes",
+    "representacao da autoridade policial",
+    "intimacao da parte contraria",
+    "5 dias",
+    "cinco dias",
+    "urgencia",
+    "perigo de ineficacia",
+    "descumprimento",
+    "substituir a medida",
+    "em ultimo caso",
+    "de oficio",
+    "revogar",
+    "ultima ratio",
+    "prisao pena",
+    "prisao cautelar",
+    "prisao processual",
+    "ordem escrita e fundamentada",
+    "pena privativa de liberdade",
+    "qualquer dia e a qualquer hora",
+    "emprego de forca",
+    "resistencia",
+    "tentativa de fuga",
+    "algemas",
+    "sumula vinculante 11",
+    "gravidas",
+    "parto",
+    "puerperio",
+    "mandado de prisao",
+    "escrivao",
+    "alcunha",
+    "duplicata",
+    "inafiancavel",
+    "falta de exibicao do mandado",
+    "precatoria",
+    "deprecada",
+    "30 dias",
+    "cnj",
+    "banco de dados",
+    "fora da competencia territorial",
+    "perseguicao",
+    "sem interrupcao",
+    "perdido de vista",
+    "casa",
+    "morador",
+    "duas testemunhas",
+    "sendo dia",
+    "sendo noite",
+    "logo que amanheca",
+    "prisao especial",
+    "quarteis",
+    "diplomados",
+    "curso superior",
+    "adpf 334",
+    "cela distinta",
+    "alojamento coletivo",
+    "presos provisoriamente",
+    "separadas",
+    "militar preso em flagrante",
+    "perfil genetico",
+    "dna",
+    "dignidade sexual"
+   ],
+   "resumo": "Toda cautelar observa <strong>necessidade</strong> e <strong>adequação</strong> e pode ser aplicada isolada ou cumulativamente (art. 282). O juiz decreta a pedido das partes ou, na investigação, por representação do delegado ou requerimento do MP; salvo urgência ou perigo de ineficácia, ouve antes a parte contrária em 5 dias. Descumprida a medida, o juiz pode substituí-la, cumular outra ou, em último caso, decretar a preventiva. Pode também <strong>revogar ou substituir de ofício</strong> quando faltar motivo. A preventiva é a <strong>última opção</strong>: só cabe quando nenhuma outra cautelar basta, e isso tem de ser justificado no caso concreto. Ninguém é preso senão em <strong>flagrante</strong> ou por <strong>ordem escrita e fundamentada</strong> do juiz, por prisão cautelar ou por condenação transitada em julgado (art. 283). Não cabe cautelar se a infração não prevê pena privativa de liberdade. A prisão pode ocorrer a qualquer dia e hora, respeitado o domicílio: de noite, a casa é cercada e a entrada ocorre ao amanhecer (art. 293). Força, só a indispensável. O mandado é registrado no banco do <strong>CNJ</strong>, e qualquer policial pode cumpri-lo, mesmo fora do território do juiz. Os <strong>presos provisórios</strong> ficam separados dos condenados, e a <strong>prisão especial</strong> é só local distinto da prisão comum.",
+   "esquema": {
+    "rotulo": "espécies de prisão",
+    "html": "<table><thead><tr><th>Espécie</th><th>Quando</th><th>Base</th></tr></thead><tbody><tr><td><strong>Prisão-pena</strong></td><td>Depois da condenação transitada em julgado</td><td>Art. 283 do CPP</td></tr><tr><td><strong>Flagrante</strong></td><td>Quem está cometendo ou acabou de cometer a infração, entre outras situações</td><td>Arts. 301 a 310 do CPP</td></tr><tr><td><strong>Preventiva</strong></td><td>Investigação ou processo, com prova do crime, indício de autoria e perigo da liberdade</td><td>Arts. 311 a 316 do CPP</td></tr><tr><td><strong>Temporária</strong></td><td>Só na investigação, para crimes do rol</td><td>Lei 7.960/1989</td></tr><tr><td><strong>Domiciliar</strong></td><td>Substitui a preventiva em casos da lei</td><td>Arts. 317 a 318-B do CPP</td></tr><tr><td><strong>Militar disciplinar</strong></td><td>Transgressão ou crime propriamente militar, sem ordem judicial</td><td>Art. 5º, LXI, da CF</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cumprimento do mandado de prisão: o que cai",
+    "linhas": [
+     {
+      "nome": "Sem exibir o mandado",
+      "o_que_e": "Na infração inafiançável, a falta de exibição do mandado não impede a prisão; o preso vai logo ao juiz que o expediu, para a audiência de custódia.",
+      "atencao": "Art. 287."
+     },
+     {
+      "nome": "Fora da jurisdição do juiz",
+      "o_que_e": "A prisão é deprecada, e o juiz processante remove o preso em até 30 dias.",
+      "atencao": "Art. 289, § 3º."
+     },
+     {
+      "nome": "Mandado no CNJ",
+      "o_que_e": "Qualquer policial pode cumprir, mesmo fora do território do juiz que expediu.",
+      "atencao": "Art. 289-A, § 1º."
+     },
+     {
+      "nome": "Mandado sem registro",
+      "o_que_e": "O policial também pode cumprir, conferindo a autenticidade e comunicando o juiz, que providencia o registro.",
+      "atencao": "Art. 289-A, § 2º."
+     },
+     {
+      "nome": "Réu na casa de alguém",
+      "o_que_e": "De dia, com duas testemunhas, entra à força; de noite, cerca a casa e entra ao amanhecer.",
+      "atencao": "Art. 293."
+     },
+     {
+      "nome": "Perseguição",
+      "o_que_e": "O executor prende no município onde alcançar o réu e o apresenta à autoridade local.",
+      "atencao": "Art. 290."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Regra",
+     "Artigo"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 282.",
+      "Art. 283.",
+      "Art. 284.",
+      "Art. 285.",
+      "Art. 286.",
+      "Art. 287.",
+      "Art. 288.",
+      "Art. 289.",
+      "Art. 289-A.",
+      "Art. 290.",
+      "Art. 291.",
+      "Art. 292.",
+      "Art. 293.",
+      "Art. 294.",
+      "Art. 295.",
+      "Art. 296.",
+      "Art. 297.",
+      "Art. 299.",
+      "Art. 300.",
+      "Art. 300-A."
+     ],
+     "ref": "arts. 282 a 300-A do CPP",
+     "regras": [
+      "<strong>Art. 282.</strong> Cautelares observam necessidade e adequação, podem ser isoladas ou cumuladas, são decretadas pelo juiz a pedido das partes ou, na investigação, por representação do delegado ou requerimento do MP. Contraditório prévio em 5 dias, salvo urgência. Descumprimento: substituir, cumular ou, em último caso, preventiva. Revogação e substituição de ofício. Preventiva só quando nenhuma outra cautelar couber.",
+      "<strong>Arts. 283 e 284.</strong> Prisão só em flagrante ou por ordem escrita e fundamentada do juiz. Sem pena privativa de liberdade, não há cautelar. Prisão a qualquer hora, respeitado o domicílio; força só a indispensável.",
+      "<strong>Arts. 285 a 289-A.</strong> Requisitos do mandado, entrega de uma via ao preso, prisão sem exibição do mandado na infração inafiançável, precatória, requisição urgente e registro no banco do CNJ.",
+      "<strong>Arts. 290 a 294.</strong> Perseguição em outra comarca, resistência, vedação de algemas no parto e prisão em casa alheia (de noite, só ao amanhecer).",
+      "<strong>Arts. 295 a 300-A.</strong> Prisão especial (local distinto, sem outros privilégios), presos provisórios separados dos condenados, militar preso em quartel e coleta obrigatória de DNA do preso cautelar por crime contra a dignidade sexual. O art. 298 foi revogado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "As medidas cautelares poderão ser aplicadas isolada ou cumulativamente.",
+       "marcas": [
+        "isolada ou cumulativamente"
+       ],
+       "afirmacao": "O juiz impõe ao investigado, na mesma decisão, a proibição de contato com a vítima e o comparecimento mensal em juízo. A cumulação é permitida.",
+       "gabarito": "C",
+       "porque": "As medidas cautelares podem ser aplicadas isolada ou cumulativamente (art. 282, § 1º)."
+      },
+      {
+       "trecho": "determinará a intimação da parte contrária, para se manifestar no prazo de 5 (cinco) dias",
+       "marcas": [
+        "5 (cinco) dias"
+       ],
+       "afirmacao": "O MP pede a suspensão da função pública de um servidor investigado, sem nenhuma urgência. O juiz pode decidir sem ouvir a defesa, porque o contraditório só vem depois.",
+       "gabarito": "E",
+       "porque": "Fora da urgência ou do perigo de ineficácia, o juiz intima a parte contrária para se manifestar em 5 dias (art. 282, § 3º)."
+      },
+      {
+       "trecho": "ou, em último caso, decretar a prisão preventiva",
+       "marcas": [
+        "em último caso"
+       ],
+       "afirmacao": "O acusado descumpre a proibição de frequentar bares. Antes de decretar a preventiva, o juiz deve verificar se basta substituir a medida ou cumular outra.",
+       "gabarito": "C",
+       "porque": "No descumprimento, a preventiva vem em último caso (art. 282, § 4º)."
+      },
+      {
+       "trecho": "O juiz poderá, de ofício ou a pedido das partes, revogar a medida cautelar ou substituí-la",
+       "marcas": [
+        "de ofício"
+       ],
+       "afirmacao": "Encerrada a instrução, o juiz percebe que a proibição de contato com as testemunhas perdeu a razão de ser. Ele só pode revogá-la se a defesa pedir.",
+       "gabarito": "E",
+       "porque": "O juiz pode revogar ou substituir a cautelar de ofício quando faltar motivo para que subsista (art. 282, § 5º)."
+      },
+      {
+       "trecho": "não se aplicam à infração a que não for isolada, cumulativa ou alternativamente cominada pena privativa de liberdade",
+       "marcas": [
+        "pena privativa de liberdade"
+       ],
+       "afirmacao": "No crime de porte de droga para consumo pessoal, que não prevê pena privativa de liberdade, o juiz pode impor monitoração eletrônica como cautelar.",
+       "gabarito": "E",
+       "porque": "As cautelares não se aplicam à infração sem pena privativa de liberdade cominada (art. 283, § 1º)."
+      },
+      {
+       "trecho": "Se a infração for inafiançável, a falta de exibição do mandado não obstará a prisão",
+       "marcas": [
+        "inafiançável"
+       ],
+       "afirmacao": "Policiais encontram, na rua, um procurado por estupro sem portar o mandado. Podem prendê-lo, apresentando-o logo ao juiz que expediu a ordem.",
+       "gabarito": "C",
+       "porque": "Na infração inafiançável, a falta de exibição do mandado não impede a prisão (art. 287)."
+      },
+      {
+       "trecho": "O juiz processante deverá providenciar a remoção do preso no prazo máximo de 30 (trinta) dias",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "Preso por precatória em outro Estado, o réu deve ser removido pelo juiz processante em até 30 dias da prisão.",
+       "gabarito": "C",
+       "porque": "É o prazo do art. 289, § 3º."
+      },
+      {
+       "trecho": "ainda que fora da competência territorial do juiz que o expediu",
+       "marcas": [
+        "fora da competência territorial"
+       ],
+       "afirmacao": "Um policial de São Paulo encontra em sua cidade um foragido com mandado de juiz de Pernambuco registrado no CNJ. Ele só pode prender se houver precatória.",
+       "gabarito": "E",
+       "porque": "Qualquer agente policial pode cumprir o mandado registrado no CNJ, ainda que fora da competência territorial de quem o expediu (art. 289-A, § 1º)."
+      },
+      {
+       "trecho": "É vedado o uso de algemas em mulheres grávidas durante os atos médico-hospitalares preparatórios para a realização do parto",
+       "marcas": [
+        "parto"
+       ],
+       "afirmacao": "Presa gestante é levada ao hospital em trabalho de parto. A escolta deve retirar as algemas durante o parto e no puerpério imediato.",
+       "gabarito": "C",
+       "porque": "É vedado algemar a mulher no parto, nos atos preparatórios e no puerpério imediato (art. 292, parágrafo único)."
+      },
+      {
+       "trecho": "sendo noite, o executor, depois da intimação ao morador, se não for atendido, fará guardar todas as saídas",
+       "marcas": [
+        "sendo noite"
+       ],
+       "afirmacao": "Às 23h, o morador se recusa a entregar o réu procurado por mandado. Os policiais podem arrombar a porta na hora, desde que levem duas testemunhas.",
+       "gabarito": "E",
+       "porque": "De noite, o executor cerca a casa, torna-a incomunicável e só arromba logo que amanheça (art. 293)."
+      },
+      {
+       "trecho": "consiste exclusivamente no recolhimento em local distinto da prisão comum",
+       "marcas": [
+        "exclusivamente"
+       ],
+       "afirmacao": "O preso com direito a prisão especial pode receber visitas fora do horário comum, já que a prisão especial lhe dá regime mais brando.",
+       "gabarito": "E",
+       "porque": "A prisão especial consiste só em local distinto, e os demais direitos e deveres são os do preso comum (art. 295, §§ 1º e 5º)."
+      },
+      {
+       "trecho": "As pessoas presas provisoriamente ficarão separadas das que já estiverem definitivamente condenadas",
+       "marcas": [
+        "separadas"
+       ],
+       "afirmacao": "Por falta de vagas, o presídio coloca um preso preventivo na mesma cela de condenados definitivos. A lei autoriza essa solução.",
+       "gabarito": "E",
+       "porque": "Presos provisórios ficam separados dos definitivamente condenados (art. 300)."
+      },
+      {
+       "trecho": "deverão ser submetidos obrigatoriamente à identificação do perfil genético",
+       "marcas": [
+        "obrigatoriamente"
+       ],
+       "afirmacao": "Preso preventivamente por estupro, o investigado tem o DNA extraído ao ingressar no presídio, por técnica indolor, ainda que não queira.",
+       "gabarito": "C",
+       "porque": "O investigado por crime contra a dignidade sexual preso cautelarmente é submetido obrigatoriamente à identificação do perfil genético no ingresso (art. 300-A)."
+      }
+     ],
+     "conferido": {
+      "Art. 282.": "badaa35a5b19",
+      "Art. 283.": "322936667f7f",
+      "Art. 284.": "c5721aa399ea",
+      "Art. 285.": "ba1667092222",
+      "Art. 286.": "1ad4d87f5a17",
+      "Art. 287.": "4ea5dbeb721a",
+      "Art. 288.": "f9d2a9b0671f",
+      "Art. 289.": "4d4b25e81c38",
+      "Art. 289-A.": "f8398db69fce",
+      "Art. 290.": "1eea7514fc31",
+      "Art. 291.": "51d9847dd872",
+      "Art. 292.": "ec7059c88d93",
+      "Art. 293.": "c5ff155b811c",
+      "Art. 294.": "b5061a3cce9e",
+      "Art. 295.": "7b6e923095cd",
+      "Art. 296.": "fc55c9cc036a",
+      "Art. 297.": "edbc8491e582",
+      "Art. 299.": "52a7df29c597",
+      "Art. 300.": "5e5c95f8bef4",
+      "Art. 300-A.": "0eaaa5c85b23"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula Vinculante 11",
+     "texto": "Só é lícito o uso de algemas em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, justificada a excepcionalidade por escrito, sob pena de responsabilidade e de nulidade da prisão ou do ato processual."
+    },
+    {
+     "quem": "STF · ADPF 334 (2023)",
+     "texto": "Não foi recepcionada pela Constituição a prisão especial dos diplomados em curso superior (art. 295, VII, do CPP), por violar a igualdade."
+    }
+   ],
+   "detalhes": [
+    "A justificativa por escrito para o uso de algemas vale para qualquer autoridade, inclusive a policial. Algemar sem justificar escrita gera responsabilidade e pode anular a prisão ou o ato (Súmula Vinculante 11).",
+    "A prisão disciplinar militar, nas transgressões e nos crimes propriamente militares, dispensa ordem judicial, por previsão constitucional (art. 5º, LXI, da CF).",
+    "Prisão-pena e prisão cautelar não se confundem: a primeira executa a condenação definitiva; a segunda é instrumental e não antecipa pena (art. 313, § 2º).",
+    "A regra do art. 293 (de noite, só ao amanhecer) aplica-se também ao flagrante no que couber (art. 294), mas a própria CF permite entrar na casa a qualquer hora em flagrante delito (art. 5º, XI, no caderno de Direito Constitucional).",
+    "O morador que esconde o réu e se recusa a entregá-lo é levado à autoridade para responder pelo fato (art. 293, parágrafo único).",
+    "O preso especial não é transportado junto com o preso comum, e a cela especial pode ser alojamento coletivo, com salubridade (art. 295, §§ 3º e 4º).",
+    "O preso por mandado é informado de seus direitos; se não indicar advogado, a prisão é comunicada à Defensoria (art. 289-A, § 4º).",
+    "Havendo dúvida sobre a pessoa do executor ou a legalidade do mandado, a autoridade local pode pôr o réu em custódia até esclarecer (art. 290, § 2º).",
+    "Há perseguição, para prender em outra comarca, mesmo que o executor tenha perdido o réu de vista depois de avistá-lo, ou quando vai no seu encalço por indícios ou informações fidedignas de que ele passou há pouco (art. 290, § 1º).",
+    "A prisão por mandado se considera feita quando o executor se faz conhecer, apresenta o mandado e intima o réu a acompanhá-lo; o mandado é dirigido a quem tem qualidade para executá-lo (arts. 285, parágrafo único, e, e 291).",
+    "O ex-jurado tem prisão especial, salvo se excluído da lista por incapacidade para a função (art. 295, X). Inferiores e praças vão a estabelecimento militar onde for possível (art. 296)."
+   ],
+   "macetes": [
+    {
+     "sigla": "NECESSIDADE + ADEQUAÇÃO",
+     "texto": "Os dois filtros de toda cautelar do art. 282. A preventiva só entra quando nenhuma outra basta."
+    },
+    {
+     "sigla": "DE NOITE, CERCA; DE DIA, ENTRA",
+     "texto": "Prisão por mandado em casa alheia: de dia, com duas testemunhas, arromba; de noite, guarda as saídas e espera amanhecer."
+    },
+    {
+     "sigla": "ESPECIAL É SÓ O LUGAR",
+     "texto": "Prisão especial muda apenas o local. Direitos e deveres são os do preso comum."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A prisão especial assegura ao preso, além do recolhimento em local distinto, regime de visitas e de alimentação diferenciado em relação ao preso comum.",
+    "gabarito": "E",
+    "explicacao": "A prisão especial consiste exclusivamente no recolhimento em local distinto da prisão comum; os demais direitos e deveres do preso especial são os mesmos do preso comum (art. 295, §§ 1º e 5º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O uso de algemas dispensa justificativa escrita quando a decisão é tomada pela autoridade policial.",
+     "certo": "A excepcionalidade é justificada por escrito por qualquer autoridade (Súmula Vinculante 11).",
+     "fonte": "Questão do app sobre algemas"
+    },
+    {
+     "errado": "A prisão disciplinar por transgressão militar depende de ordem escrita e fundamentada do juiz.",
+     "certo": "A CF a dispensa (art. 5º, LXI).",
+     "fonte": "Questão do app sobre espécies de prisão"
+    },
+    {
+     "errado": "Pela Constituição, ninguém será preso senão em flagrante ou por ordem judicial, sem nenhuma exceção.",
+     "certo": "Há exceção: a transgressão militar e o crime propriamente militar, definidos em lei.",
+     "fonte": "Questão do app sobre o art. 283"
+    },
+    {
+     "errado": "Os diplomados em curso superior têm direito a prisão especial antes da condenação definitiva.",
+     "certo": "O STF declarou não recepcionado o art. 295, VII (ADPF 334).",
+     "fonte": "Questão do app sobre o art. 295"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-ES 2022 (revogação de ofício da cautelar)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: regras gerais das cautelares, mandado, cumprimento da prisão e prisão especial, antes espalhados pelos temas de prisão."
+    }
+   ],
+   "relacionados": [
+    "prisao-em-flagrante",
+    "prisao-preventiva",
+    "medidas-cautelares-e-fianca",
+    "busca-domiciliar"
+   ]
+  },
+  {
+   "slug": "prisao-em-flagrante",
+   "titulo": "Prisão em flagrante: espécies e auto de prisão",
+   "grupo": "Prisão e medidas cautelares",
+   "base": "Arts. 301 a 309 do CPP",
+   "tax": [
+    "processo-penal.prisao-flagrante"
    ],
    "dispositivos": [
     "n3689-1941-art-301",
     "n3689-1941-art-302",
     "n3689-1941-art-303",
     "n3689-1941-art-304",
+    "n3689-1941-art-305",
     "n3689-1941-art-306",
     "n3689-1941-art-307",
-    "n3689-1941-art-310"
+    "n3689-1941-art-308",
+    "n3689-1941-art-309"
    ],
    "conceitos": [
+    "flagrante facultativo e obrigatório",
     "flagrante próprio",
     "flagrante impróprio",
     "flagrante presumido",
+    "crime permanente",
     "flagrante preparado",
     "flagrante esperado",
     "flagrante diferido",
+    "flagrante forjado",
     "auto de prisão em flagrante",
+    "condutor e testemunhas",
+    "testemunhas de apresentação",
+    "comunicação da prisão",
     "nota de culpa",
-    "audiência de custódia"
+    "flagrante contra a autoridade",
+    "flagrante e fiança na delegacia"
    ],
    "palavras": [
-    "prisao em flagrante",
-    "qualquer do povo pode",
-    "policia deve prender",
-    "flagrante facultativo",
-    "flagrante obrigatorio",
+    "flagrante",
+    "qualquer do povo",
+    "autoridades policiais",
+    "deverao prender",
+    "facultativo",
+    "obrigatorio",
     "esta cometendo",
-    "acaba de cometer",
+    "acaba de comete-la",
+    "proprio",
+    "improprio",
+    "quase flagrante",
     "perseguido logo apos",
+    "presumido",
+    "ficto",
     "encontrado logo depois",
-    "flagrante improprio",
-    "flagrante presumido",
-    "crime permanente",
-    "flagrante preparado sumula 145",
-    "flagrante esperado",
-    "flagrante diferido acao controlada",
-    "flagrante forjado",
-    "auto de prisao em flagrante",
+    "instrumentos armas objetos",
+    "permanentes",
+    "permanencia",
+    "preparado",
+    "sumula 145",
+    "agente provocador",
+    "esperado",
+    "diferido",
+    "acao controlada",
+    "forjado",
     "condutor",
     "testemunhas",
-    "nota de culpa 24 horas",
-    "comunicacao imediata",
+    "interrogatorio",
+    "auto",
+    "fundada suspeita",
+    "livrar-se solto",
+    "falta de testemunhas",
+    "duas pessoas",
+    "apresentacao do preso",
+    "recusar a assinar",
+    "filhos",
+    "escrivao",
+    "compromisso legal",
+    "comunicados imediatamente",
+    "familia",
+    "24 horas",
     "defensoria publica",
-    "audiencia de custodia 24 horas",
-    "relaxar",
-    "converter em preventiva",
-    "liberdade provisoria",
-    "videoconferencia custodia"
+    "nota de culpa",
+    "motivo da prisao",
+    "presenca da autoridade",
+    "lugar mais proximo",
+    "laudo de constatacao",
+    "advogado",
+    "oab"
    ],
-   "resumo": "<strong>Qualquer pessoa pode</strong> e a polícia <strong>deve</strong> prender quem está em flagrante (art. 301). É flagrante quem está cometendo ou acaba de cometer a infração (<strong>próprio</strong>), quem é perseguido logo após em situação que faça presumir a autoria (<strong>impróprio</strong>) e quem é encontrado logo depois com objetos que façam presumir a autoria (<strong>presumido</strong>). Nos crimes permanentes, o flagrante dura enquanto não cessar a permanência. O <strong>flagrante preparado</strong> por quem provoca o crime e torna impossível sua consumação não vale (Súmula 145 do STF); o <strong>esperado</strong>, em que a polícia só aguarda, é válido; o <strong>diferido</strong> (ação controlada) depende de previsão legal. No auto, o delegado ouve o condutor, as testemunhas e o preso; sem testemunhas do fato, assinam duas pessoas que viram a apresentação. A prisão é comunicada imediatamente ao juiz, ao MP e à família; em 24 horas o auto vai ao juiz e, sem advogado, à Defensoria, e o preso recebe a <strong>nota de culpa</strong>. Na <strong>audiência de custódia</strong>, em até 24 horas, o juiz relaxa a prisão ilegal, converte em preventiva ou concede liberdade provisória. Desde a Lei 15.358/2026, essa audiência é feita por videoconferência em tempo real (art. 310), com entrevista prévia e reservada do preso com o defensor (§ 9º); a forma presencial ficou para situações excepcionais de força maior (§ 13). A decisão do STF de 2023 citada abaixo é anterior a essa mudança.",
+   "resumo": "<strong>Qualquer do povo pode</strong> e a polícia <strong>deve</strong> prender quem está em flagrante (art. 301). É flagrante quem está cometendo ou acaba de cometer a infração (<strong>próprio</strong>), quem é perseguido logo após em situação que faça presumir a autoria (<strong>impróprio</strong>) e quem é encontrado logo depois com objetos que façam presumir a autoria (<strong>presumido</strong>). Nos crimes <strong>permanentes</strong>, o flagrante dura enquanto não cessar a permanência. O flagrante <strong>preparado</strong>, em que o agente provocador torna impossível a consumação, não vale (Súmula 145 do STF); o <strong>esperado</strong>, em que a polícia só aguarda, é válido; o <strong>diferido</strong> (ação controlada) depende de previsão legal. No auto, o delegado ouve o condutor, as testemunhas e o preso; sem testemunhas do fato, assinam duas pessoas que viram a apresentação. A prisão e o local são comunicados <strong>imediatamente</strong> ao juiz, ao MP e à família. Em <strong>24 horas</strong>, o auto vai ao juiz e, se o preso não indicar advogado, cópia vai à Defensoria; no mesmo prazo, ele recebe a <strong>nota de culpa</strong>. A audiência de custódia tem tema próprio.",
    "esquema": {
     "rotulo": "espécies de flagrante",
-    "html": "<table><thead><tr><th>Espécie</th><th>Situação</th><th>Válido?</th></tr></thead><tbody><tr><td><strong>Próprio</strong></td><td>Está cometendo ou acaba de cometer (art. 302, I e II)</td><td>Sim</td></tr><tr><td><strong>Impróprio</strong></td><td>Perseguido logo após (art. 302, III)</td><td>Sim</td></tr><tr><td><strong>Presumido</strong></td><td>Encontrado logo depois com objetos (art. 302, IV)</td><td>Sim</td></tr><tr><td><strong>Esperado</strong></td><td>Polícia aguarda o crime acontecer</td><td>Sim</td></tr><tr><td><strong>Diferido</strong></td><td>Ação controlada, previsão legal</td><td>Sim</td></tr><tr><td><strong>Preparado</strong></td><td>Agente provocador torna o crime impossível</td><td>Não (Súmula 145)</td></tr><tr><td><strong>Forjado</strong></td><td>Prova plantada</td><td>Não; é crime de quem forja</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Espécie</th><th>Situação</th><th>Válido?</th></tr></thead><tbody><tr><td><strong>Próprio</strong></td><td>Está cometendo ou acaba de cometer (art. 302, I e II)</td><td>Sim</td></tr><tr><td><strong>Impróprio</strong></td><td>Perseguido logo após (art. 302, III)</td><td>Sim</td></tr><tr><td><strong>Presumido</strong></td><td>Encontrado logo depois com objetos (art. 302, IV)</td><td>Sim</td></tr><tr><td><strong>Esperado</strong></td><td>Polícia aguarda o crime acontecer</td><td>Sim</td></tr><tr><td><strong>Diferido</strong></td><td>Ação controlada, com previsão legal</td><td>Sim</td></tr><tr><td><strong>Preparado</strong></td><td>Agente provocador torna o crime impossível</td><td>Não (Súmula 145)</td></tr><tr><td><strong>Forjado</strong></td><td>Prova plantada</td><td>Não; é crime de quem forja</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 301. Qualquer do povo poderá e as autoridades policiais e seus agentes deverão prender quem quer que seja encontrado em flagrante delito.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 301.",
+      "Art. 302.",
+      "Art. 303.",
+      "Art. 304.",
+      "Art. 305.",
+      "Art. 306.",
+      "Art. 307.",
+      "Art. 308.",
+      "Art. 309."
+     ],
+     "ref": "arts. 301 a 309 do CPP",
+     "regras": [
+      "<strong>Arts. 301 a 303.</strong> Qualquer do povo pode e a polícia deve prender em flagrante. Espécies: está cometendo, acaba de cometer, perseguido logo após, encontrado logo depois. Crime permanente: flagrante enquanto durar a permanência.",
+      "<strong>Arts. 304 e 305.</strong> O delegado ouve o condutor, as testemunhas e o preso e lavra o auto; com fundada suspeita, recolhe o preso, salvo se ele se livrar solto ou prestar fiança. Sem testemunhas do fato, assinam duas de apresentação. O auto registra filhos e responsável. Sem escrivão, qualquer pessoa designada, depois do compromisso.",
+      "<strong>Art. 306.</strong> Comunicação imediata ao juiz, ao MP e à família; em 24 horas, auto ao juiz e cópia à Defensoria se não houver advogado; nota de culpa ao preso.",
+      "<strong>Arts. 307 a 309.</strong> Crime na presença da autoridade ou contra ela; falta de autoridade no lugar (vai à do lugar mais próximo); quem se livra solto é liberado depois do auto."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Qualquer do povo poderá e as autoridades policiais e seus agentes deverão prender",
+       "marcas": [
+        "deverão"
+       ],
+       "afirmacao": "Um policial de folga vê um roubo em andamento e decide não intervir, porque o flagrante é sempre faculdade de quem presencia o crime.",
+       "gabarito": "E",
+       "porque": "Para as autoridades policiais e seus agentes, o flagrante é obrigatório; só para qualquer do povo é facultativo (art. 301)."
+      },
+      {
+       "trecho": "é perseguido, logo após, pela autoridade, pelo ofendido ou por qualquer pessoa",
+       "marcas": [
+        "logo após"
+       ],
+       "afirmacao": "A vítima de um furto sai correndo atrás do ladrão, que é alcançado duas quadras depois pela polícia, que entrou na perseguição sem interrupção. Há flagrante impróprio.",
+       "gabarito": "C",
+       "porque": "É flagrante quem é perseguido logo após, em situação que faça presumir a autoria (art. 302, III)."
+      },
+      {
+       "trecho": "é encontrado, logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele autor da infração",
+       "marcas": [
+        "logo depois"
+       ],
+       "afirmacao": "Meia hora depois de um assalto, a polícia aborda um homem com a bolsa da vítima e a arma usada. É possível a prisão em flagrante presumido.",
+       "gabarito": "C",
+       "porque": "É o flagrante presumido do art. 302, IV."
+      },
+      {
+       "trecho": "Nas infrações permanentes, entende-se o agente em flagrante delito enquanto não cessar a permanência.",
+       "marcas": [
+        "permanência"
+       ],
+       "afirmacao": "A vítima de extorsão mediante sequestro está há dez dias no cativeiro. Como o crime se consumou no primeiro dia, já não cabe flagrante.",
+       "gabarito": "E",
+       "porque": "Nas infrações permanentes, o agente está em flagrante enquanto não cessar a permanência (art. 303)."
+      },
+      {
+       "trecho": "exceto no caso de livrar-se solto ou de prestar fiança",
+       "marcas": [
+        "prestar fiança"
+       ],
+       "afirmacao": "Lavrado o auto por crime com pena máxima de 3 anos, o preso paga a fiança arbitrada pelo delegado. Ele não é recolhido à prisão.",
+       "gabarito": "C",
+       "porque": "Com fundada suspeita, o preso é recolhido, salvo se livrar-se solto ou prestar fiança (art. 304, § 1º)."
+      },
+      {
+       "trecho": "A falta de testemunhas da infração não impedirá o auto de prisão em flagrante",
+       "marcas": [
+        "não impedirá"
+       ],
+       "afirmacao": "Ninguém presenciou o crime além do policial condutor. Sem testemunhas do fato, o delegado não pode lavrar o auto de prisão em flagrante.",
+       "gabarito": "E",
+       "porque": "A falta de testemunhas não impede o auto; assinam, com o condutor, ao menos duas pessoas que testemunharam a apresentação do preso (art. 304, § 2º)."
+      },
+      {
+       "trecho": "caso o autuado não informe o nome de seu advogado, cópia integral para a Defensoria Pública",
+       "marcas": [
+        "Defensoria Pública"
+       ],
+       "afirmacao": "Preso em flagrante sem advogado, o autuado tem cópia integral do auto enviada à Defensoria em até 24 horas da prisão.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 306, § 1º."
+      },
+      {
+       "trecho": "No mesmo prazo, será entregue ao preso, mediante recibo, a nota de culpa",
+       "marcas": [
+        "nota de culpa"
+       ],
+       "afirmacao": "A nota de culpa, com o motivo da prisão e os nomes do condutor e das testemunhas, é entregue ao preso em até 48 horas.",
+       "gabarito": "E",
+       "porque": "A nota de culpa é entregue no mesmo prazo de 24 horas (art. 306, § 2º)."
+      },
+      {
+       "trecho": "Não havendo autoridade no lugar em que se tiver efetuado a prisão, o preso será logo apresentado à do lugar mais próximo.",
+       "marcas": [
+        "lugar mais próximo"
+       ],
+       "afirmacao": "Num distrito sem delegacia, o preso em flagrante é levado à autoridade do lugar mais próximo.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 308."
+      }
+     ],
+     "conferido": {
+      "Art. 301.": "e74d3f7ab3a6",
+      "Art. 302.": "d10a34cb74fa",
+      "Art. 303.": "9e5bcc331fd8",
+      "Art. 304.": "de4139c87bb6",
+      "Art. 305.": "0191c06c07f1",
+      "Art. 306.": "8d5a6cf79942",
+      "Art. 307.": "5d6d511f42f6",
+      "Art. 308.": "ea1d2ecf34d8",
+      "Art. 309.": "5b933d6b5990"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 302. Considera-se em flagrante delito quem:\n\nI - está cometendo a infração penal;\n\nII - acaba de cometê-la;\n\nIII - é perseguido, logo após, pela autoridade, pelo ofendido ou por qualquer pessoa, em situação que faça presumir ser autor da infração;\n\nIV - é encontrado, logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele autor da infração.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 303. Nas infrações permanentes, entende-se o agente em flagrante delito enquanto não cessar a permanência.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 304. Apresentado o preso à autoridade competente, ouvirá esta o condutor e colherá, desde logo, sua assinatura, entregando a este cópia do termo e recibo de entrega do preso. Em seguida, procederá à oitiva das testemunhas que o acompanharem e ao interrogatório do acusado sobre a imputação que lhe é feita, colhendo, após cada oitiva suas respectivas assinaturas, lavrando, a autoridade, afinal, o auto.\n\n§ 1º Resultando das respostas fundada suspeita contra o conduzido, a autoridade mandará recolhê-lo à prisão, exceto no caso de livrar-se solto ou de prestar fiança, e prosseguirá nos atos do inquérito ou processo, se para isso for competente; se não o for, enviará os autos à autoridade que o seja.\n\n§ 2º A falta de testemunhas da infração não impedirá o auto de prisão em flagrante; mas, nesse caso, com o condutor, deverão assiná-lo pelo menos duas pessoas que hajam testemunhado a apresentação do preso à autoridade.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 306. A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente, ao Ministério Público e à família do preso ou à pessoa por ele indicada.\n\n§ 1º Em até 24 (vinte e quatro) horas após a realização da prisão, será encaminhado ao juiz competente o auto de prisão em flagrante e, caso o autuado não informe o nome de seu advogado, cópia integral para a Defensoria Pública.\n\n§ 2º No mesmo prazo, será entregue ao preso, mediante recibo, a nota de culpa, assinada pela autoridade, com o motivo da prisão, o nome do condutor e os das testemunhas.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 310. Após receber o auto de prisão em flagrante, no prazo máximo de até 24 (vinte e quatro) horas após a realização da prisão, o juiz deverá promover, por meio de videoconferência em tempo real, audiência de custódia com a presença do acusado, seu advogado constituído ou membro da Defensoria Pública e o membro do Ministério Público, e, nessa audiência, o juiz deverá, fundamentadamente:\n\nI - relaxar a prisão ilegal; ou\n\nII - converter a prisão em flagrante em preventiva, quando presentes os requisitos constantes do art. 312 deste Código, e se revelarem inadequadas ou insuficientes as medidas cautelares diversas da prisão; ou\n\nIII - conceder liberdade provisória, com ou sem fiança.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 145",
+     "texto": "Não há crime, quando a preparação do flagrante pela polícia torna impossível a sua consumação."
+    }
+   ],
+   "detalhes": [
+    "No tráfico, trazer consigo ou guardar a droga já consuma o crime antes da atuação do policial disfarçado. Por isso, a compra simulada não torna o flagrante preparado quanto à posse anterior.",
+    "A ação controlada da Lei 12.850/2013 (organização criminosa) é só comunicada previamente ao juiz; a da Lei de Drogas (art. 53, II, da Lei 11.343/2006) depende de autorização judicial.",
+    "Para lavrar o auto por tráfico, basta o laudo de constatação da natureza e da quantidade da droga (art. 50, § 1º, da Lei 11.343/2006); o laudo definitivo vem depois.",
+    "O auto de prisão em flagrante não é nulo só porque o preso não tinha advogado, se foi informado do direito de ser assistido.",
+    "O advogado preso em flagrante tem direito à presença de representante da OAB na lavratura do auto quando o motivo for ligado ao exercício da advocacia; nos demais casos, a OAB é comunicada (art. 7º, IV, da Lei 8.906/1994).",
+    "Preso em outra comarca depois de perseguição, o auto é lavrado pela autoridade do lugar da captura (art. 290), mas o inquérito segue para a autoridade competente pelo lugar do crime (art. 304, § 1º).",
+    "Na infração de menor potencial ofensivo, quem é encaminhado ao juizado ou assume o compromisso de comparecer não é autuado em flagrante: lavra-se termo circunstanciado (art. 69 da Lei 9.099/1995).",
+    "No crime praticado na presença da autoridade ou contra ela, o auto narra o fato e a voz de prisão e é remetido ao juiz competente (art. 307)."
    ],
    "macetes": [
     {
@@ -9444,22 +9996,12 @@
      "texto": "Flagrante facultativo para qualquer pessoa, obrigatório para a autoridade e seus agentes."
     },
     {
-     "sigla": "RELAXA, CONVERTE OU SOLTA",
-     "texto": "As três saídas da audiência de custódia: relaxar a ilegal, converter em preventiva, conceder liberdade provisória."
+     "sigla": "LOGO APÓS PERSEGUE, LOGO DEPOIS ENCONTRA",
+     "texto": "Impróprio: perseguido logo após. Presumido: encontrado logo depois com objetos."
     },
     {
      "sigla": "VINTE E QUATRO HORAS",
-     "texto": "Prazo para enviar o auto ao juiz, entregar a nota de culpa e fazer a audiência de custódia."
-    }
-   ],
-   "juris": [
-    {
-     "quem": "STF · Súmula 145",
-     "texto": "Não há crime, quando a preparação do flagrante pela polícia torna impossível a sua consumação."
-    },
-    {
-     "quem": "STF · ADIs 6.298 e outras (2023)",
-     "texto": "A audiência de custódia deve ocorrer em 24 horas, salvo impossibilidade fática; a videoconferência é excepcional e depende de decisão judicial. Passado o prazo, o juiz avalia a prorrogação ou a videoconferência, e a falta da audiência não gera relaxamento automático, sem prejuízo da decretação da preventiva."
+     "texto": "Prazo para enviar o auto ao juiz, mandar cópia à Defensoria e entregar a nota de culpa."
     }
    ],
    "pegadinha": {
@@ -9467,29 +10009,343 @@
     "gabarito": "E",
     "explicacao": "No concurso material, as penas se somam: B deixa de ser de menor potencial ofensivo e a pena máxima total passa de 4 anos. O delegado lavra flagrante pelos dois crimes e não pode arbitrar fiança (Cebraspe, Delegado PC-CE 2025)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-CE 2025 (o gerente da fazenda que contém o autor da tentativa de furto faz prisão legal; o delegado lavra o auto e recolhe o preso, salvo se ele se livrar solto ou prestar fiança).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>No homicídio simples, cabe liberdade provisória com fiança arbitrada pelo juiz, sem prévia oitiva do MP: o crime não é hediondo, e a pena máxima impede a fiança pelo delegado (Cebraspe, Delegado PC-PB 2022).</p><p>Se o agente é reincidente, integra organização criminosa armada ou milícia ou porta arma de fogo de uso restrito, o juiz deve denegar a liberdade provisória, com ou sem cautelares (art. 310, § 2º, da Lei 13.964/2019). A vedação abstrata é criticada à luz da jurisprudência do STF contra proibições automáticas de liberdade (ADI 3.112; HC 104.339). A prisão disciplinar militar, nas transgressões e nos crimes propriamente militares, dispensa ordem judicial, por previsão constitucional.</p>",
-   "relacionados": [
-    "prisao-preventiva",
-    "medidas-cautelares-e-fianca",
-    "inquerito-policial",
-    "busca-domiciliar"
+   "pegadinhas": [
+    {
+     "errado": "No flagrante esperado, a polícia monitora o agente aguardando o momento da prisão, o que torna o flagrante ilegal, como no preparado.",
+     "certo": "O esperado é válido; só o preparado, que torna o crime impossível, é ilegal (Súmula 145).",
+     "fonte": "Questão do app sobre espécies de flagrante"
+    },
+    {
+     "errado": "Em qualquer prisão em flagrante de advogado é obrigatória a presença de representante da OAB na lavratura do auto.",
+     "certo": "Só quando o motivo é ligado ao exercício da advocacia; nos demais casos, a OAB é comunicada.",
+     "fonte": "Questão do app sobre o auto de prisão"
+    },
+    {
+     "errado": "Preso em outro município após perseguição, o investigado tem o inquérito concluído pela delegacia do lugar da captura.",
+     "certo": "O auto é lavrado lá, mas os autos seguem para a autoridade competente.",
+     "fonte": "Questão do app sobre o art. 290"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-CE 2025 (prisão por particular na tentativa de furto e concurso de crimes com fiança)"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
+     "em": "2026-11-26",
      "tipo": "lei",
-     "nota": "Acrescido o art. 310, § 2º, do CPP (liberdade provisória negada ao reincidente, à milícia e ao portador de arma restrita)."
+     "nota": "Tema revisto: audiência de custódia, regras do mandado e prisão especial ganharam temas próprios; aqui ficam espécies e auto."
     }
+   ],
+   "relacionados": [
+    "audiencia-de-custodia",
+    "cautelares-e-prisao-regras-gerais",
+    "prisao-preventiva",
+    "fianca",
+    "inquerito-policial"
+   ]
+  },
+  {
+   "slug": "audiencia-de-custodia",
+   "titulo": "Audiência de custódia e decisão sobre o flagrante",
+   "grupo": "Prisão e medidas cautelares",
+   "base": "Arts. 310 e 310-A do CPP",
+   "tax": [
+    "processo-penal.audiencia-custodia",
+    "processo-penal.prisao-flagrante.custodia"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-310",
+    "n3689-1941-art-310-a"
+   ],
+   "conceitos": [
+    "prazo de 24 horas",
+    "videoconferência como regra",
+    "audiência presencial excepcional",
+    "relaxamento",
+    "conversão em preventiva",
+    "liberdade provisória",
+    "excludente de ilicitude",
+    "vedação de liberdade provisória",
+    "responsabilidade pela não realização",
+    "circunstâncias que recomendam a conversão",
+    "entrevista prévia com o defensor",
+    "falha do sistema",
+    "perfil genético na custódia",
+    "conversão de ofício"
+   ],
+   "palavras": [
+    "audiencia de custodia",
+    "24 horas",
+    "videoconferencia",
+    "tempo real",
+    "advogado",
+    "defensoria publica",
+    "ministerio publico",
+    "relaxar",
+    "prisao ilegal",
+    "converter",
+    "preventiva",
+    "liberdade provisoria",
+    "com ou sem fianca",
+    "legitima defesa",
+    "estado de necessidade",
+    "excludente",
+    "termo de comparecimento",
+    "reincidente",
+    "organizacao criminosa armada",
+    "milicia",
+    "arma de fogo de uso restrito",
+    "denegar",
+    "responder administrativa civil e penalmente",
+    "ilegalidade da prisao",
+    "pratica reiterada",
+    "violencia ou grave ameaca",
+    "liberado em previa audiencia",
+    "fuga",
+    "periculosidade",
+    "pendencia de citacao",
+    "entrevista previa",
+    "privacidade",
+    "falha no sistema",
+    "repeticao completa",
+    "forca maior",
+    "presencialmente",
+    "perfil genetico",
+    "material biologico",
+    "10 dias",
+    "de oficio",
+    "conversao de oficio",
+    "algemas",
+    "adi 6298",
+    "rcl 29303"
+   ],
+   "resumo": "Recebido o auto, em até <strong>24 horas</strong> da prisão, o juiz faz a <strong>audiência de custódia</strong>, com o preso, o defensor e o MP (art. 310). Desde 2026, a regra é a <strong>videoconferência em tempo real</strong>; a forma presencial ficou para situações excepcionais de força maior, por decisão justificada (§ 13). Na audiência, o juiz, fundamentadamente, <strong>relaxa</strong> a prisão ilegal, <strong>converte</strong> o flagrante em preventiva (se presentes os requisitos do art. 312 e insuficientes as outras cautelares) ou concede <strong>liberdade provisória</strong>, com ou sem fiança. Se o auto mostrar legítima defesa, estado de necessidade ou outra excludente, cabe liberdade provisória mediante termo de comparecimento. Para o reincidente, o integrante de organização criminosa armada ou milícia e quem porta arma de uso restrito, a lei manda denegar a liberdade provisória. A lei também lista circunstâncias que <strong>recomendam</strong> a conversão, como violência ou grave ameaça, reiteração e fuga, e obriga o juiz a examiná-las. Nos crimes violentos, sexuais, hediondos ou de facção armada, o MP ou o delegado requer a coleta de <strong>DNA</strong> do preso, de preferência na própria audiência (art. 310-A).",
+   "esquema": {
+    "rotulo": "as saídas da audiência de custódia",
+    "html": "<table><thead><tr><th>Saída</th><th>Quando</th><th>Base</th></tr></thead><tbody><tr><td><strong>Relaxar</strong></td><td>Prisão ilegal (fora das hipóteses de flagrante, vício formal grave, custódia não feita sem motivo)</td><td>Art. 310, I, e § 4º</td></tr><tr><td><strong>Converter em preventiva</strong></td><td>Requisitos do art. 312 e outras cautelares insuficientes; exige pedido do MP ou do delegado</td><td>Art. 310, II</td></tr><tr><td><strong>Liberdade provisória</strong></td><td>Prisão legal, sem necessidade da preventiva; com ou sem fiança e cautelares</td><td>Art. 310, III</td></tr><tr><td><strong>Liberdade com termo</strong></td><td>Indício de excludente de ilicitude (art. 23 do CP)</td><td>Art. 310, § 1º</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Audiência de custódia por videoconferência: garantias",
+    "linhas": [
+     {
+      "nome": "Defesa e MP",
+      "o_que_e": "Podem intervir e suscitar questões de ordem por todos os mecanismos.",
+      "atencao": "§ 8º"
+     },
+     {
+      "nome": "Entrevista prévia",
+      "o_que_e": "Reservada e inviolável, presencial, por vídeo ou outro meio.",
+      "atencao": "§ 9º"
+     },
+     {
+      "nome": "Privacidade",
+      "o_que_e": "O preso fica sozinho na sala durante a oitiva, salvo a presença física do defensor.",
+      "atencao": "§ 10"
+     },
+     {
+      "nome": "Falha do tribunal",
+      "o_que_e": "Obriga a repetir a audiência inteira; ato incompleto não se convalida.",
+      "atencao": "§ 11"
+     },
+     {
+      "nome": "Presencial",
+      "o_que_e": "Só em força maior, por decisão justificada, e não se for custoso demais ou arriscado.",
+      "atencao": "§ 13"
+     }
+    ],
+    "colunas": [
+     "Garantia",
+     "Regra",
+     "Art. 310"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 310.",
+      "Art. 310-A."
+     ],
+     "ref": "arts. 310 e 310-A do CPP",
+     "regras": [
+      "<strong>Art. 310, caput e incisos.</strong> Em até 24 horas da prisão, audiência de custódia por videoconferência em tempo real, com o preso, o defensor e o MP; o juiz relaxa a prisão ilegal, converte em preventiva ou concede liberdade provisória, com ou sem fiança.",
+      "<strong>§§ 1º a 6º.</strong> Excludente de ilicitude: liberdade com termo de comparecimento. Reincidente, organização criminosa armada, milícia, arma de uso restrito: denegar liberdade. Responsabilidade de quem impede a audiência sem motivo; passadas mais 24 horas, a prisão se torna ilegal, sem prejuízo da preventiva. Circunstâncias que recomendam a conversão e dever de examiná-las.",
+      "<strong>§§ 7º a 13.</strong> Conferência de citações pendentes, garantias da videoconferência, salas próprias nos presídios e audiência presencial só por força maior.",
+      "<strong>Art. 310-A.</strong> Nos crimes com violência ou grave ameaça, contra a dignidade sexual, hediondos ou de integrante de facção armada, o MP ou o delegado requer a coleta de material biológico para o perfil genético, na audiência ou em 10 dias."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o juiz deverá promover, por meio de videoconferência em tempo real, audiência de custódia",
+       "marcas": [
+        "videoconferência em tempo real"
+       ],
+       "afirmacao": "Preso em flagrante numa capital com estrutura adequada, o autuado é ouvido pelo juiz em audiência de custódia por videoconferência em tempo real. A forma é a prevista em lei.",
+       "gabarito": "C",
+       "porque": "O art. 310, caput, prevê a audiência de custódia por videoconferência em tempo real."
+      },
+      {
+       "trecho": "relaxar a prisão ilegal",
+       "marcas": [
+        "relaxar"
+       ],
+       "afirmacao": "O preso foi detido três dias depois do crime, em casa, sem perseguição e sem objetos do crime. Na custódia, o juiz deve relaxar a prisão.",
+       "gabarito": "C",
+       "porque": "Fora das hipóteses do art. 302, a prisão é ilegal e deve ser relaxada (art. 310, I)."
+      },
+      {
+       "trecho": "poderá, fundamentadamente, conceder ao acusado liberdade provisória, mediante termo de comparecimento obrigatório a todos os atos processuais",
+       "marcas": [
+        "termo de comparecimento"
+       ],
+       "afirmacao": "O auto mostra que o preso atirou para repelir agressão atual contra o filho. O juiz pode conceder liberdade provisória mediante termo de comparecimento a todos os atos.",
+       "gabarito": "C",
+       "porque": "Indicada excludente de ilicitude, cabe liberdade provisória com termo de comparecimento (art. 310, § 1º)."
+      },
+      {
+       "trecho": "deverá denegar a liberdade provisória, com ou sem medidas cautelares",
+       "marcas": [
+        "deverá denegar"
+       ],
+       "afirmacao": "Preso em flagrante portando fuzil de uso restrito, o autuado tem, pela letra da lei, a liberdade provisória denegada na custódia.",
+       "gabarito": "C",
+       "porque": "O art. 310, § 2º, manda denegar a liberdade provisória a quem porta arma de fogo de uso restrito, entre outros."
+      },
+      {
+       "trecho": "responderá administrativa, civil e penalmente pela omissão",
+       "marcas": [
+        "administrativa, civil e penalmente"
+       ],
+       "afirmacao": "O servidor que, sem motivo idôneo, deixa de apresentar o preso para a audiência de custódia no prazo responde só na esfera administrativa.",
+       "gabarito": "E",
+       "porque": "A autoridade que dá causa à não realização sem motivação idônea responde administrativa, civil e penalmente (art. 310, § 3º)."
+      },
+      {
+       "trecho": "ter o agente já sido liberado em prévia audiência de custódia por outra infração penal",
+       "marcas": [
+        "prévia audiência de custódia"
+       ],
+       "afirmacao": "Solto em audiência de custódia por um roubo no mês anterior, o agente é preso de novo por furto. Esse histórico recomenda a conversão em preventiva.",
+       "gabarito": "C",
+       "porque": "Ter sido liberado em prévia audiência de custódia por outra infração recomenda a conversão, salvo absolvição posterior (art. 310, § 5º, III)."
+      },
+      {
+       "trecho": "é obrigatória a repetição completa da audiência, sem convalescer qualquer ato incompleto",
+       "marcas": [
+        "repetição completa"
+       ],
+       "afirmacao": "A conexão do tribunal cai no meio da oitiva do preso. Retomado o sinal, o juiz pode seguir do ponto em que parou, aproveitando o que foi dito.",
+       "gabarito": "E",
+       "porque": "Na falha atribuível ao tribunal, a audiência é repetida por inteiro (art. 310, § 11)."
+      },
+      {
+       "trecho": "Em situações excepcionais decorrentes de força maior, poderá a audiência de custódia ser realizada presencialmente",
+       "marcas": [
+        "força maior"
+       ],
+       "afirmacao": "Um ataque hacker derruba o sistema de vídeo do tribunal. Por decisão justificada, o juiz faz a audiência de custódia presencialmente.",
+       "gabarito": "C",
+       "porque": "A audiência presencial cabe em situações excepcionais de força maior, por decisão justificada (art. 310, § 13)."
+      },
+      {
+       "trecho": "deverá ser feita, preferencialmente, na própria audiência de custódia ou no prazo de 10 (dez) dias",
+       "marcas": [
+        "10 (dez) dias"
+       ],
+       "afirmacao": "Preso em flagrante por roubo com arma, o autuado tem o material biológico colhido para perfil genético, de preferência na própria audiência de custódia.",
+       "gabarito": "C",
+       "porque": "A coleta é feita, de preferência, na audiência de custódia ou em 10 dias (art. 310-A, § 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 310.": "c57394520429",
+      "Art. 310-A.": "c16768925a3d"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADIs 6.298 e outras (2023)",
+     "texto": "A audiência de custódia deve ocorrer em 24 horas, salvo impossibilidade fática, e a falta da audiência não gera relaxamento automático, sem prejuízo da preventiva. A decisão é anterior à Lei 15.358/2026, que tornou a videoconferência a regra."
+    },
+    {
+     "quem": "STF · Rcl 29.303 (2023)",
+     "texto": "A audiência de custódia é obrigatória em todas as modalidades de prisão, inclusive as decorrentes de mandado (preventiva, temporária e definitiva), no prazo de 24 horas."
+    },
+    {
+     "quem": "STJ · Terceira Seção",
+     "texto": "Depois da Lei 13.964/2019, o juiz não pode converter de ofício o flagrante em preventiva; é necessário pedido do MP ou representação do delegado."
+    }
+   ],
+   "detalhes": [
+    "Antes da audiência, o cartório confere os processos do preso; havendo citação pendente, o juiz a certifica e faz a citação pessoal ali mesmo (art. 310, § 7º).",
+    "O exame das circunstâncias do § 5º, do § 2º e dos critérios de periculosidade do art. 312, § 3º, é obrigatório na decisão da custódia (art. 310, § 6º).",
+    "A vedação abstrata de liberdade provisória do § 2º é criticada à luz da jurisprudência do STF contra proibições automáticas (ADI 3.112; HC 104.339).",
+    "O uso de algemas na custódia não gera nulidade quando a necessidade foi justificada por escrito (Súmula Vinculante 11).",
+    "Decretada depois a preventiva, a alegação de ilegalidade do flagrante fica prejudicada, porque a prisão passa a ter novo título.",
+    "No homicídio simples, cabe liberdade provisória com fiança arbitrada pelo juiz: o crime não é hediondo, e a pena máxima impede a fiança pelo delegado (Cebraspe, Delegado PC-PB 2022).",
+    "A audiência de custódia examina a legalidade e a necessidade da prisão e a ocorrência de tortura ou maus-tratos; o juiz não inquire o preso sobre o mérito dos fatos para produzir prova."
+   ],
+   "macetes": [
+    {
+     "sigla": "RELAXA, CONVERTE OU SOLTA",
+     "texto": "As três saídas da custódia: relaxar a ilegal, converter em preventiva, conceder liberdade provisória."
+    },
+    {
+     "sigla": "VÍDEO É REGRA, PRESENÇA É FORÇA MAIOR",
+     "texto": "Desde 2026, a custódia é por videoconferência; presencial só em força maior, por decisão justificada."
+    },
+    {
+     "sigla": "JUIZ NÃO CONVERTE SOZINHO",
+     "texto": "A conversão em preventiva exige pedido do MP ou representação do delegado."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Embora não possa decretar a preventiva de ofício, o juiz pode converter de ofício a prisão em flagrante em preventiva na audiência de custódia.",
+    "gabarito": "E",
+    "explicacao": "Para o STJ (Terceira Seção), depois da Lei 13.964/2019, a conversão de ofício também é vedada; o juiz precisa de pedido do MP ou de representação do delegado."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A audiência de custódia é presencial, e a videoconferência só se admite em casos excepcionais.",
+     "certo": "Desde a Lei 15.358/2026, é o inverso: videoconferência é a regra, e a presencial é para força maior (art. 310, caput e § 13).",
+     "fonte": "Questão do app sobre o art. 310"
+    },
+    {
+     "errado": "Na custódia, havendo indício de legítima defesa, o juiz deve relaxar a prisão.",
+     "certo": "Pode conceder liberdade provisória mediante termo de comparecimento (art. 310, § 1º).",
+     "fonte": "Questão do app sobre o art. 310"
+    },
+    {
+     "errado": "A falta da audiência de custódia no prazo gera, por si só, a soltura automática do preso.",
+     "certo": "Para o STF, não há relaxamento automático, sem prejuízo da preventiva.",
+     "fonte": "Questão do app sobre audiência de custódia"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PB 2022 (liberdade provisória com fiança no homicídio simples)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: audiência de custódia com a videoconferência da Lei 15.358/2026, as circunstâncias do § 5º e a coleta de DNA do art. 310-A."
+    }
+   ],
+   "relacionados": [
+    "prisao-em-flagrante",
+    "prisao-preventiva",
+    "medidas-cautelares-e-fianca",
+    "direitos-da-pessoa-presa"
    ]
   },
   {
    "slug": "prisao-preventiva",
    "titulo": "Prisão preventiva: requisitos, cabimento, fundamentação e revisão",
    "grupo": "Prisão e medidas cautelares",
-   "base": "Arts. 311 a 318-A do CPP",
+   "base": "Arts. 311 a 316 do CPP",
    "tax": [
-    "processo-penal.prisao",
     "processo-penal.prisao-preventiva"
    ],
    "dispositivos": [
@@ -9498,106 +10354,310 @@
     "n3689-1941-art-313",
     "n3689-1941-art-314",
     "n3689-1941-art-315",
-    "n3689-1941-art-316",
-    "n3689-1941-art-318",
-    "n3689-1941-art-318-a"
+    "n3689-1941-art-316"
    ],
    "conceitos": [
-    "fumus comissi delicti",
-    "periculum libertatis",
-    "garantia da ordem pública",
-    "contemporaneidade",
+    "legitimidade para pedir",
     "vedação da preventiva de ofício",
-    "revisão nonagesimal",
-    "prisão domiciliar"
+    "pressupostos",
+    "fundamentos",
+    "periculosidade do agente",
+    "gravidade abstrata",
+    "hipóteses de cabimento",
+    "dúvida sobre a identidade",
+    "vedação de antecipação de pena",
+    "excludente de ilicitude",
+    "fundamentação concreta",
+    "fatos novos ou contemporâneos",
+    "decisão não fundamentada",
+    "revogação e nova decretação",
+    "revisão a cada 90 dias",
+    "homogeneidade"
    ],
    "palavras": [
-    "prisao preventiva",
+    "preventiva",
     "qualquer fase",
-    "requerimento do mp",
-    "representacao do delegado",
-    "nao de oficio",
+    "investigacao",
+    "processo",
+    "requerimento",
+    "ministerio publico",
+    "querelante",
+    "assistente",
+    "representacao",
+    "autoridade policial",
+    "de oficio",
+    "pacote anticrime",
     "ordem publica",
     "ordem economica",
     "conveniencia da instrucao",
     "aplicacao da lei penal",
     "prova da existencia do crime",
     "indicio suficiente de autoria",
-    "perigo do estado de liberdade",
-    "pena maxima superior a 4 anos",
-    "reincidente doloso",
-    "violencia domestica",
-    "duvida sobre identidade",
-    "gravidade abstrata",
+    "perigo gerado pelo estado de liberdade",
+    "descumprimento",
     "fatos novos ou contemporaneos",
-    "antecipacao de pena",
-    "excludente de ilicitude impede",
-    "revisao 90 dias",
-    "nao revoga automaticamente",
-    "prisao domiciliar",
-    "gestante",
-    "mae filho ate 12 anos",
-    "maior de 80 anos"
+    "periculosidade",
+    "modus operandi",
+    "organizacao criminosa",
+    "drogas armas ou municoes",
+    "reiteracao delitiva",
+    "inqueritos e acoes penais em curso",
+    "gravidade abstrata",
+    "superior a 4 anos",
+    "quatro anos",
+    "reincidente",
+    "violencia domestica",
+    "medidas protetivas",
+    "ultraviolenta",
+    "milicia",
+    "dignidade sexual",
+    "crianca ou adolescente",
+    "identidade civil",
+    "antecipacao de cumprimento de pena",
+    "recebimento de denuncia",
+    "excludente de ilicitude",
+    "legitima defesa",
+    "motivada e fundamentada",
+    "parafrase",
+    "conceitos juridicos indeterminados",
+    "revogar",
+    "novamente decreta-la",
+    "90 dias",
+    "noventa dias",
+    "revisar",
+    "homogeneidade",
+    "clamor publico",
+    "condicoes pessoais favoraveis",
+    "citacao por edital"
    ],
-   "resumo": "A preventiva cabe em qualquer fase da investigação ou do processo, mas só a <strong>requerimento</strong> do MP, do querelante ou do assistente ou por <strong>representação</strong> do delegado: desde o Pacote Anticrime, o juiz <strong>não a decreta de ofício</strong>. Exige prova do crime e indício suficiente de autoria, além de perigo da liberdade para a <strong>ordem pública</strong>, a ordem econômica, a <strong>instrução</strong> ou a <strong>aplicação da lei penal</strong> (art. 312). Só é admitida nos crimes dolosos com <strong>pena máxima superior a 4 anos</strong>, para o reincidente em crime doloso, na violência doméstica para garantir medidas protetivas, em casos de organização criminosa e em crimes sexuais contra criança e adolescente, além da dúvida sobre a identidade (art. 313). Não cabe se houver indício de excludente de ilicitude, nem como antecipação de pena ou por <strong>gravidade abstrata</strong>. A decisão deve apontar <strong>fatos novos ou contemporâneos</strong> e ser revista a cada <strong>90 dias</strong>. É a última opção: só se decreta se outras cautelares não bastarem. Pode ser substituída pela domiciliar (maiores de 80 anos, doentes graves, gestantes, mães de filho de até 12 anos, entre outros).",
+   "resumo": "A preventiva cabe em <strong>qualquer fase</strong> da investigação ou do processo, mas só a requerimento do MP, do querelante ou do assistente ou por representação do delegado: desde o Pacote Anticrime, o juiz <strong>não a decreta de ofício</strong> (art. 311). Exige <strong>prova do crime</strong>, <strong>indício suficiente de autoria</strong> e <strong>perigo</strong> da liberdade para a ordem pública, a ordem econômica, a instrução ou a aplicação da lei penal (art. 312). Na periculosidade, contam o modus operandi, a participação em organização criminosa, a quantidade de drogas ou armas e o receio de reiteração; a <strong>gravidade abstrata</strong> não basta (§§ 3º e 4º, de 2025). Só é admitida nos crimes dolosos com pena máxima <strong>superior a 4 anos</strong>, para o reincidente em crime doloso, na violência doméstica para garantir medidas protetivas, nos crimes de facção ultraviolenta ou milícia e nos crimes sexuais contra criança e adolescente, além da dúvida sobre a identidade (art. 313). Não cabe como antecipação de pena nem se houver indício de excludente de ilicitude (art. 314). A decisão aponta <strong>fatos novos ou contemporâneos</strong> e é revista a cada <strong>90 dias</strong> (arts. 315 e 316).",
    "esquema": {
-    "rotulo": "os três filtros",
-    "html": "<table><thead><tr><th>Filtro</th><th>Onde</th><th>O que exige</th></tr></thead><tbody><tr><td><strong>Pressupostos</strong></td><td>Art. 312, caput</td><td>Prova do crime e indício suficiente de autoria</td></tr><tr><td><strong>Fundamentos</strong></td><td>Art. 312, caput</td><td>Ordem pública, ordem econômica, instrução ou aplicação da lei penal</td></tr><tr><td><strong>Hipóteses de cabimento</strong></td><td>Art. 313</td><td>Pena máxima acima de 4 anos, reincidência dolosa, violência doméstica, entre outras</td></tr><tr><td><strong>Vedações</strong></td><td>Arts. 313, § 2º, e 314</td><td>Antecipação de pena, gravidade abstrata, excludente de ilicitude</td></tr></tbody></table>"
+    "rotulo": "os quatro filtros",
+    "html": "<table><thead><tr><th>Filtro</th><th>Onde</th><th>O que exige</th></tr></thead><tbody><tr><td><strong>Pressupostos</strong></td><td>Art. 312, caput</td><td>Prova do crime, indício suficiente de autoria e perigo da liberdade</td></tr><tr><td><strong>Fundamentos</strong></td><td>Art. 312, caput</td><td>Ordem pública, ordem econômica, instrução ou aplicação da lei penal</td></tr><tr><td><strong>Cabimento</strong></td><td>Art. 313</td><td>Pena máxima acima de 4 anos, reincidência dolosa, violência doméstica, facção ou milícia, crime sexual contra criança, identidade incerta</td></tr><tr><td><strong>Vedações</strong></td><td>Arts. 313, § 2º, e 314</td><td>Antecipação de pena, gravidade abstrata, excludente de ilicitude</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Periculosidade: o que pode e o que não pode fundamentar",
+    "linhas": [
+     {
+      "nome": "Modus operandi",
+      "o_que_e": "Uso reiterado de violência ou grave ameaça, premeditação.",
+      "grupo": "Pode (art. 312, § 3º)"
+     },
+     {
+      "nome": "Organização criminosa",
+      "o_que_e": "Participação do agente.",
+      "grupo": "Pode (art. 312, § 3º)"
+     },
+     {
+      "nome": "Apreensão",
+      "o_que_e": "Natureza, quantidade e variedade de drogas, armas ou munições.",
+      "grupo": "Pode (art. 312, § 3º)"
+     },
+     {
+      "nome": "Reiteração",
+      "o_que_e": "Fundado receio, inclusive por outros inquéritos e ações em curso.",
+      "grupo": "Pode (art. 312, § 3º)"
+     },
+     {
+      "nome": "Gravidade abstrata",
+      "o_que_e": "Dizer que o crime é grave em tese.",
+      "atencao": "Art. 312, § 4º.",
+      "grupo": "Não pode"
+     },
+     {
+      "nome": "Clamor público",
+      "o_que_e": "Comoção social sozinha não é fundamento.",
+      "atencao": "Jurisprudência do STF e do STJ.",
+      "grupo": "Não pode"
+     },
+     {
+      "nome": "Antecipação de pena",
+      "o_que_e": "Prender só porque a denúncia foi recebida.",
+      "atencao": "Art. 313, § 2º.",
+      "grupo": "Não pode"
+     }
+    ],
+    "colunas": [
+     "Elemento",
+     "O que é",
+     "Base"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 311. Em qualquer fase da investigação policial ou do processo penal, caberá a prisão preventiva decretada pelo juiz, a requerimento do Ministério Público, do querelante ou do assistente, ou por representação da autoridade policial.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 311.",
+      "Art. 312.",
+      "Art. 313.",
+      "Art. 314.",
+      "Art. 315.",
+      "Art. 316."
+     ],
+     "ref": "arts. 311 a 316 do CPP",
+     "regras": [
+      "<strong>Art. 311.</strong> Cabe em qualquer fase da investigação ou do processo, a requerimento do MP, do querelante ou do assistente, ou por representação do delegado.",
+      "<strong>Art. 312.</strong> Fundamentos e pressupostos; cabe também no descumprimento de outra cautelar; decisão com fatos novos ou contemporâneos; critérios de periculosidade; vedada a gravidade abstrata.",
+      "<strong>Art. 313.</strong> Hipóteses de cabimento (incisos I a III, V e VI; o IV foi revogado), dúvida sobre a identidade e vedação de antecipação de pena.",
+      "<strong>Art. 314.</strong> Nunca se decreta se as provas indicarem excludente de ilicitude.",
+      "<strong>Art. 315.</strong> A decisão que decreta, substitui ou nega a preventiva é sempre fundamentada; o § 2º lista o que não é fundamentação.",
+      "<strong>Art. 316.</strong> Revogação de ofício ou a pedido, nova decretação se surgirem razões e revisão de ofício a cada 90 dias, sob pena de ilegalidade."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Em qualquer fase da investigação policial ou do processo penal, caberá a prisão preventiva decretada pelo juiz, a requerimento",
+       "marcas": [
+        "a requerimento"
+       ],
+       "afirmacao": "Durante a instrução, sem pedido de ninguém, o juiz percebe que o réu ameaça testemunhas e decreta a preventiva de ofício.",
+       "gabarito": "E",
+       "porque": "A preventiva depende de requerimento do MP, do querelante ou do assistente, ou de representação do delegado (art. 311)."
+      },
+      {
+       "trecho": "quando houver prova da existência do crime e indício suficiente de autoria e de perigo gerado pelo estado de liberdade do imputado",
+       "marcas": [
+        "perigo gerado pelo estado de liberdade"
+       ],
+       "afirmacao": "Há prova do crime e indícios de autoria, mas nada indica risco da liberdade do investigado. A preventiva não pode ser decretada.",
+       "gabarito": "C",
+       "porque": "Além da prova do crime e do indício de autoria, exige-se perigo gerado pelo estado de liberdade (art. 312)."
+      },
+      {
+       "trecho": "o fundado receio de reiteração delitiva, inclusive à vista da existência de outros inquéritos e ações penais em curso",
+       "marcas": [
+        "inquéritos e ações penais em curso"
+       ],
+       "afirmacao": "O investigado responde a outros três processos por roubo. Esses processos em curso podem ser usados para demonstrar o receio de reiteração.",
+       "gabarito": "C",
+       "porque": "O art. 312, § 3º, IV, inclui a existência de outros inquéritos e ações penais em curso."
+      },
+      {
+       "trecho": "É incabível a decretação da prisão preventiva com base em alegações de gravidade abstrata do delito",
+       "marcas": [
+        "gravidade abstrata"
+       ],
+       "afirmacao": "O juiz decreta a preventiva dizendo apenas que o tráfico de drogas é crime gravíssimo que destrói famílias. A decisão está fundamentada.",
+       "gabarito": "E",
+       "porque": "É incabível a preventiva com base na gravidade abstrata; a periculosidade deve ser demonstrada concretamente (art. 312, § 4º)."
+      },
+      {
+       "trecho": "nos crimes dolosos punidos com pena privativa de liberdade máxima superior a 4 (quatro) anos",
+       "marcas": [
+        "superior a 4 (quatro) anos"
+       ],
+       "afirmacao": "Investigado por furto simples, com pena de 1 a 4 anos, primário e sem violência doméstica envolvida, não pode ter preventiva decretada com base no art. 313, I.",
+       "gabarito": "C",
+       "porque": "O art. 313, I, exige pena máxima superior a 4 anos; a de 4 anos exatos não basta."
+      },
+      {
+       "trecho": "para garantir a execução das medidas protetivas de urgência",
+       "marcas": [
+        "medidas protetivas de urgência"
+       ],
+       "afirmacao": "O agressor, com medida protetiva por lesão leve contra a ex-companheira, descumpre a ordem e volta a ameaçá-la. Cabe preventiva, mesmo com pena máxima baixa.",
+       "gabarito": "C",
+       "porque": "Na violência doméstica e familiar, a preventiva cabe para garantir as medidas protetivas (art. 313, III)."
+      },
+      {
+       "trecho": "nos crimes contra a dignidade sexual praticados contra criança ou adolescente",
+       "marcas": [
+        "criança ou adolescente"
+       ],
+       "afirmacao": "Nos crimes contra a dignidade sexual praticados contra adolescente, a preventiva só é admitida se a pena máxima passar de 4 anos.",
+       "gabarito": "E",
+       "porque": "Desde 2026, esses crimes autorizam a preventiva por hipótese própria (art. 313, VI), sem depender do limite do inciso I."
+      },
+      {
+       "trecho": "devendo o preso ser colocado imediatamente em liberdade após a identificação",
+       "marcas": [
+        "imediatamente em liberdade"
+       ],
+       "afirmacao": "Preso preventivamente só por não ter documentos e dar nomes diferentes, o investigado é identificado. Sem outra hipótese, deve ser solto de imediato.",
+       "gabarito": "C",
+       "porque": "É o que manda o art. 313, § 1º."
+      },
+      {
+       "trecho": "Não será admitida a decretação da prisão preventiva com a finalidade de antecipação de cumprimento de pena",
+       "marcas": [
+        "antecipação de cumprimento de pena"
+       ],
+       "afirmacao": "Recebida a denúncia, o juiz decreta a preventiva porque o réu, se condenado, terá de cumprir pena em regime fechado.",
+       "gabarito": "E",
+       "porque": "A preventiva não serve para antecipar pena nem decorre do simples recebimento da denúncia (art. 313, § 2º)."
+      },
+      {
+       "trecho": "A prisão preventiva em nenhum caso será decretada se o juiz verificar pelas provas constantes dos autos ter o agente praticado o fato nas condições previstas",
+       "marcas": [
+        "em nenhum caso"
+       ],
+       "afirmacao": "As provas indicam que o investigado agiu em legítima defesa, mas ele tem maus antecedentes. O juiz pode decretar a preventiva para garantir a ordem pública.",
+       "gabarito": "E",
+       "porque": "Se as provas indicam excludente de ilicitude, a preventiva não é decretada em nenhum caso (art. 314)."
+      },
+      {
+       "trecho": "limitar-se à indicação, à reprodução ou à paráfrase de ato normativo",
+       "marcas": [
+        "paráfrase"
+       ],
+       "afirmacao": "A decisão diz só que \"estão presentes os requisitos do art. 312, para garantia da ordem pública\". Ela não se considera fundamentada.",
+       "gabarito": "C",
+       "porque": "Limitar-se a reproduzir ou parafrasear a lei não é fundamentação (art. 315, § 2º, I)."
+      },
+      {
+       "trecho": "revisar a necessidade de sua manutenção a cada 90 (noventa) dias",
+       "marcas": [
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Decretada a preventiva, o juiz revisa sua necessidade a cada 90 dias, de ofício, em decisão fundamentada.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 316, parágrafo único."
+      }
+     ],
+     "conferido": {
+      "Art. 311.": "e3e8a145876a",
+      "Art. 312.": "2abeb94f7c92",
+      "Art. 313.": "88bfb83d6e31",
+      "Art. 314.": "5af8912264fa",
+      "Art. 315.": "0935c1d1c39f",
+      "Art. 316.": "dd02b9f64df4"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 312. A prisão preventiva poderá ser decretada como garantia da ordem pública, da ordem econômica, por conveniência da instrução criminal ou para assegurar a aplicação da lei penal, quando houver prova da existência do crime e indício suficiente de autoria e de perigo gerado pelo estado de liberdade do imputado.\n\n§ 1º A prisão preventiva também poderá ser decretada em caso de descumprimento de qualquer das obrigações impostas por força de outras medidas cautelares (art. 282, § 4º).\n\n§ 2º A decisão que decretar a prisão preventiva deve ser motivada e fundamentada em receio de perigo e existência concreta de fatos novos ou contemporâneos que justifiquem a aplicação da medida adotada.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 313. Nos termos do art. 312 deste Código, será admitida a decretação da prisão preventiva:\n\nI - nos crimes dolosos punidos com pena privativa de liberdade máxima superior a 4 (quatro) anos;\n\nII - se tiver sido condenado por outro crime doloso, em sentença transitada em julgado, ressalvado o disposto no inciso I do caput do art. 64 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal;\n\nIII - se o crime envolver violência doméstica e familiar contra a mulher, criança, adolescente, idoso, enfermo ou pessoa com deficiência, para garantir a execução das medidas protetivas de urgência;\n\n(...)\n\nV - se o crime for cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado no Brasil.\n\nVI - nos crimes contra a dignidade sexual praticados contra criança ou adolescente ou os previstos nos arts. 240 a 241-D e 244-A da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).\n\n§ 1º Também será admitida a prisão preventiva quando houver dúvida sobre a identidade civil da pessoa ou quando esta não fornecer elementos suficientes para esclarecê-la, devendo o preso ser colocado imediatamente em liberdade após a identificação, salvo se outra hipótese recomendar a manutenção da medida.\n\n§ 2º Não será admitida a decretação da prisão preventiva com a finalidade de antecipação de cumprimento de pena ou como decorrência imediata de investigação criminal ou da apresentação ou recebimento de denúncia.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 314. A prisão preventiva em nenhum caso será decretada se o juiz verificar pelas provas constantes dos autos ter o agente praticado o fato nas condições previstas nos incisos I, II e III do caput do art. 23 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 316. O juiz poderá, de ofício ou a pedido das partes, revogar a prisão preventiva se, no correr da investigação ou do processo, verificar a falta de motivo para que ela subsista, bem como novamente decretá-la, se sobrevierem razões que a justifiquem.\n\nParágrafo único. Decretada a prisão preventiva, deverá o órgão emissor da decisão revisar a necessidade de sua manutenção a cada 90 (noventa) dias, mediante decisão fundamentada, de ofício, sob pena de tornar a prisão ilegal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "MAIS DE QUATRO",
-     "texto": "Crime doloso com pena máxima acima de 4 anos é a porta de entrada da preventiva. Até 4 anos, a regra é cautelar diversa."
-    },
-    {
-     "sigla": "JUIZ NÃO PRENDE SOZINHO",
-     "texto": "Depois de 2019, preventiva só com pedido do MP, do querelante, do assistente ou representação do delegado. O juiz pode revogar de ofício."
-    },
-    {
-     "sigla": "NOVENTA DIAS SEM SOLTURA AUTOMÁTICA",
-     "texto": "A revisão a cada 90 dias é obrigatória, mas o atraso não solta o preso automaticamente; o juiz deve ser provocado a reavaliar."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
      "quem": "STF · SL 1.395 e ADIs 6.581 e 6.582",
-     "texto": "A inobservância do prazo de 90 dias do art. 316, parágrafo único, não implica revogação automática da prisão preventiva; o juízo competente deve ser instado a reavaliar a legalidade e a atualidade de seus fundamentos."
+     "texto": "A inobservância do prazo de 90 dias do art. 316, parágrafo único, não implica revogação automática da preventiva; o juízo competente deve ser instado a reavaliar a legalidade e a atualidade de seus fundamentos."
     },
     {
      "quem": "STJ · Terceira Seção",
-     "texto": "Após a Lei 13.964/2019, não é possível a conversão de ofício da prisão em flagrante em preventiva; é necessário requerimento do MP ou representação da autoridade policial."
+     "texto": "Depois da Lei 13.964/2019, não é possível a decretação nem a conversão de ofício da preventiva; é necessário requerimento do MP ou representação da autoridade policial."
+    }
+   ],
+   "detalhes": [
+    "O juiz não decreta de ofício, mas pode revogar de ofício e decretar de novo se surgirem razões, desde que provocado (art. 316).",
+    "Condições pessoais favoráveis, como primariedade, emprego e residência fixa, não garantem por si sós a revogação da preventiva quando há fundamento concreto.",
+    "O tribunal, ao julgar habeas corpus, não pode acrescentar fundamentos que o juiz não usou para manter a preventiva mal fundamentada.",
+    "Clamor público e comoção social, sozinhos, não fundamentam a preventiva.",
+    "A citação por edital ou a revelia, por si sós, não bastam para a preventiva; é preciso demonstrar concretamente o risco à aplicação da lei penal.",
+    "Pelo princípio da homogeneidade, a preventiva não pode ser mais gravosa que a provável pena: se a condenação esperada não levará à prisão, a medida é desproporcional.",
+    "O sequestro simples (pena máxima de 3 anos) não admite preventiva pelo art. 313, I, mas está no rol da temporária; o estelionato admite preventiva, mas não está no rol da temporária (Cebraspe, Delegado PC-PB 2022).",
+    "Na motivação de qualquer cautelar, o juiz indica fatos novos ou contemporâneos (art. 315, § 1º) (Cebraspe, Delegado PC-PE 2024).",
+    "A revisão a cada 90 dias é só da preventiva e não se estende às cautelares diversas da prisão (FGV, Juiz TJPE 2026)."
+   ],
+   "macetes": [
+    {
+     "sigla": "MAIS DE QUATRO",
+     "texto": "Crime doloso com pena máxima acima de 4 anos é a porta de entrada geral. Até 4 anos, a regra é cautelar diversa."
+    },
+    {
+     "sigla": "JUIZ NÃO PRENDE SOZINHO",
+     "texto": "Depois de 2019, preventiva só com pedido do MP, do querelante, do assistente ou representação do delegado. Revogar, ele pode de ofício."
+    },
+    {
+     "sigla": "NOVENTA DIAS SEM SOLTURA AUTOMÁTICA",
+     "texto": "A revisão a cada 90 dias é obrigatória, mas o atraso não solta o preso automaticamente."
     }
    ],
    "pegadinha": {
@@ -9605,87 +10665,487 @@
     "gabarito": "E",
     "explicacao": "O sequestro simples tem pena máxima de 3 anos e não admite preventiva pelo art. 313, I, mas está no rol da temporária. O estelionato admite preventiva e não está no rol da temporária (Cebraspe, Delegado PC-PB 2022)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Fundamentação.</strong> Para decretar a preventiva, o juiz deve indicar concretamente fatos novos ou contemporâneos que justifiquem a medida (art. 315, § 1º) (Cebraspe, Delegado PC-PE 2024).</p><p><strong>De ofício.</strong> Na PC-MA 2018, foi dado como certo que a liberdade provisória concedida pelo delegado não impede a preventiva decretada de ofício pelo juiz. Hoje o item estaria errado na parte do \"de ofício\", porque a Lei 13.964/2019 retirou essa possibilidade. Errados na mesma questão: medida cautelar diversa não pode ser substituída ou cumulada, e o delegado pode dar fiança no estupro (Cebraspe, Delegado PC-MA 2018).</p><p><strong>Cautelares diversas sem revisão.</strong> A revisão obrigatória a cada 90 dias (art. 316, parágrafo único) se restringe à prisão preventiva e não se aplica às medidas cautelares diversas da prisão; mesmo para a preventiva, o atraso não gera ilegalidade automática. A aposentadoria do acusado também não afasta, por si só, a necessidade das medidas. Estava errado estender a revisão de 90 dias às cautelares alternativas ou declará-las ilegais pelo simples passar do prazo (FGV, Juiz TJPE 2026).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Para o STJ, a preventiva pode se basear em fatos antigos, ainda que não contemporâneos à decisão, se o crime for grave.",
+     "certo": "A decisão exige fatos novos ou contemporâneos (arts. 312, § 2º, e 315, § 1º).",
+     "fonte": "Questão do app sobre o art. 315"
+    },
+    {
+     "errado": "Ultrapassados 90 dias sem revisão, o preso preventivo deve ser solto imediatamente.",
+     "certo": "Não há soltura automática; o juiz deve ser instado a reavaliar (STF, SL 1.395).",
+     "fonte": "Questão do app sobre o art. 316"
+    },
+    {
+     "errado": "O clamor público e a comoção social são fundamentos idôneos para a preventiva.",
+     "certo": "Não são, sozinhos; o risco tem de ser concreto.",
+     "fonte": "Questão do app sobre o art. 312"
+    },
+    {
+     "errado": "Durante o processo, o juiz ainda pode decretar a preventiva de ofício; a vedação vale só para a investigação.",
+     "certo": "Desde a Lei 13.964/2019, não decreta de ofício em nenhuma fase (art. 311).",
+     "fonte": "Questão do app sobre o art. 311"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-PB 2022; Delegado PC-PE 2024",
+    "FGV: Juiz TJPE 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto com a Lei 15.272/2025 (periculosidade e gravidade abstrata) e o art. 313, V e VI; a domiciliar ganhou tema próprio."
+    }
+   ],
    "relacionados": [
-    "prisao-em-flagrante",
+    "audiencia-de-custodia",
+    "prisao-domiciliar",
     "prisao-temporaria",
     "medidas-cautelares-e-fianca"
+   ]
+  },
+  {
+   "slug": "prisao-domiciliar",
+   "titulo": "Prisão domiciliar substitutiva da preventiva",
+   "grupo": "Prisão e medidas cautelares",
+   "base": "Arts. 317 a 318-B do CPP",
+   "tax": [
+    "processo-penal.medidas-cautelares-liberdade-provisoria.domiciliar",
+    "processo-penal.prisao-preventiva.domiciliar"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-317",
+    "n3689-1941-art-318",
+    "n3689-1941-art-318-a",
+    "n3689-1941-art-318-b"
+   ],
+   "conceitos": [
+    "conceito de prisão domiciliar",
+    "domiciliar não é recolhimento noturno",
+    "hipóteses do art. 318",
+    "prova idônea",
+    "gestante e mãe de criança",
+    "substituição obrigatória do art. 318-A",
+    "exceções do art. 318-A",
+    "habeas corpus coletivo",
+    "situações excepcionalíssimas",
+    "cumulação com cautelares diversas"
+   ],
+   "palavras": [
+    "prisao domiciliar",
+    "recolhimento",
+    "residencia",
+    "autorizacao judicial",
+    "substituir",
+    "maior de 80 anos",
+    "oitenta anos",
+    "extremamente debilitado",
+    "doenca grave",
+    "imprescindivel",
+    "menor de 6 anos",
+    "seis anos",
+    "deficiencia",
+    "gestante",
+    "mulher com filho",
+    "12 anos incompletos",
+    "doze anos",
+    "homem",
+    "unico responsavel",
+    "prova idonea",
+    "mae",
+    "responsavel por criancas",
+    "sera substituida",
+    "violencia ou grave ameaca",
+    "contra seu filho ou dependente",
+    "hc 143641",
+    "habeas corpus coletivo",
+    "excepcionalissimas",
+    "medidas alternativas",
+    "concomitante",
+    "monitoracao",
+    "hipertensao"
+   ],
+   "resumo": "A <strong>prisão domiciliar</strong> é o recolhimento do investigado ou acusado em sua residência, de onde só sai com autorização judicial (art. 317). Não se confunde com o recolhimento domiciliar <strong>noturno</strong>, que é cautelar diversa (art. 319, V). O juiz <strong>pode</strong> substituir a preventiva pela domiciliar quando o agente for maior de <strong>80 anos</strong>, extremamente debilitado por doença grave, imprescindível aos cuidados de pessoa menor de <strong>6 anos</strong> ou com deficiência, gestante, mulher com filho de até <strong>12 anos incompletos</strong> ou homem que seja o único responsável por filho nessa idade, sempre com <strong>prova idônea</strong> (art. 318). Para a gestante e a mãe ou responsável por criança ou pessoa com deficiência, a substituição é <strong>obrigatória</strong> (\"será substituída\"), salvo crime com violência ou grave ameaça ou crime contra o próprio filho ou dependente (art. 318-A). A domiciliar pode ser somada às cautelares diversas, como a monitoração eletrônica (art. 318-B).",
+   "esquema": {
+    "rotulo": "art. 318 x art. 318-A",
+    "html": "<table><thead><tr><th>Ponto</th><th>Art. 318</th><th>Art. 318-A</th></tr></thead><tbody><tr><td><strong>Quem</strong></td><td>Maior de 80, doente grave, cuidador de menor de 6 ou de pessoa com deficiência, gestante, mãe de filho até 12 incompletos, pai único responsável</td><td>Gestante, mãe ou responsável por crianças ou pessoas com deficiência</td></tr><tr><td><strong>Natureza</strong></td><td>Faculdade do juiz (\"poderá\")</td><td>Dever (\"será substituída\")</td></tr><tr><td><strong>Exceções</strong></td><td>Avaliação do caso concreto</td><td>Crime com violência ou grave ameaça; crime contra o filho ou dependente</td></tr><tr><td><strong>Prova</strong></td><td>Prova idônea dos requisitos</td><td>Prova da condição</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 317.",
+      "Art. 318.",
+      "Art. 318-A.",
+      "Art. 318-B."
+     ],
+     "ref": "arts. 317 a 318-B do CPP",
+     "regras": [
+      "<strong>Art. 317.</strong> Prisão domiciliar é o recolhimento na residência, de onde só se sai com autorização judicial.",
+      "<strong>Art. 318.</strong> O juiz pode substituir a preventiva pela domiciliar: maior de 80 anos, extremamente debilitado por doença grave, imprescindível aos cuidados de menor de 6 anos ou pessoa com deficiência, gestante, mulher com filho de até 12 anos incompletos, homem único responsável pelo filho nessa idade. Exige prova idônea.",
+      "<strong>Arts. 318-A e 318-B.</strong> A preventiva da gestante ou da mãe ou responsável por crianças ou pessoas com deficiência será substituída, salvo crime com violência ou grave ameaça ou contra o próprio filho ou dependente. A substituição pode vir com cautelares do art. 319."
+     ],
+     "literalidades": [
+      {
+       "trecho": "só podendo dela ausentar-se com autorização judicial",
+       "marcas": [
+        "autorização judicial"
+       ],
+       "afirmacao": "Em prisão domiciliar, o acusado pode sair durante o dia para trabalhar, desde que volte para casa à noite e nos dias de folga.",
+       "gabarito": "E",
+       "porque": "Na prisão domiciliar, ele só sai com autorização judicial; sair de dia e recolher-se à noite é o recolhimento noturno do art. 319, V (art. 317)."
+      },
+      {
+       "trecho": "maior de 80 (oitenta) anos",
+       "marcas": [
+        "80 (oitenta) anos"
+       ],
+       "afirmacao": "Réu de 72 anos, sem doença grave, tem direito à substituição da preventiva pela domiciliar apenas pela idade.",
+       "gabarito": "E",
+       "porque": "O critério de idade do art. 318, I, é ser maior de 80 anos."
+      },
+      {
+       "trecho": "extremamente debilitado por motivo de doença grave",
+       "marcas": [
+        "extremamente debilitado"
+       ],
+       "afirmacao": "O preso tem hipertensão controlada com remédio dado no presídio. Só por ter doença crônica, deve ir para a domiciliar.",
+       "gabarito": "E",
+       "porque": "A lei exige que o agente esteja extremamente debilitado por doença grave (art. 318, II)."
+      },
+      {
+       "trecho": "imprescindível aos cuidados especiais de pessoa menor de 6 (seis) anos de idade ou com deficiência",
+       "marcas": [
+        "imprescindível"
+       ],
+       "afirmacao": "A avó presa provou ser a única pessoa que cuida do neto de 4 anos. O juiz pode substituir a preventiva pela domiciliar.",
+       "gabarito": "C",
+       "porque": "Cabe para quem é imprescindível aos cuidados de menor de 6 anos ou de pessoa com deficiência (art. 318, III)."
+      },
+      {
+       "trecho": "homem, caso seja o único responsável pelos cuidados do filho de até 12 (doze) anos de idade incompletos",
+       "marcas": [
+        "único responsável"
+       ],
+       "afirmacao": "O pai preso divide com a mãe da criança os cuidados do filho de 8 anos. Ele tem direito à domiciliar como único responsável.",
+       "gabarito": "E",
+       "porque": "Para o homem, a hipótese exige que ele seja o único responsável pelo filho de até 12 anos incompletos (art. 318, VI)."
+      },
+      {
+       "trecho": "Para a substituição, o juiz exigirá prova idônea dos requisitos estabelecidos neste artigo.",
+       "marcas": [
+        "prova idônea"
+       ],
+       "afirmacao": "A defesa alega que o réu tem 85 anos, mas não junta documento algum. O juiz pode exigir prova idônea antes de substituir.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 318, parágrafo único."
+      },
+      {
+       "trecho": "será substituída por prisão domiciliar, desde que",
+       "marcas": [
+        "será substituída"
+       ],
+       "afirmacao": "Mãe de criança de 3 anos, presa por furto qualificado sem violência, tem a preventiva substituída pela domiciliar.",
+       "gabarito": "C",
+       "porque": "Para a mãe de criança, a substituição é obrigatória, se o crime não teve violência ou grave ameaça e não foi contra o filho (art. 318-A)."
+      },
+      {
+       "trecho": "não tenha cometido crime com violência ou grave ameaça a pessoa",
+       "marcas": [
+        "violência ou grave ameaça"
+       ],
+       "afirmacao": "Gestante presa por roubo com arma de fogo tem direito automático à prisão domiciliar pelo art. 318-A.",
+       "gabarito": "E",
+       "porque": "A substituição obrigatória não alcança o crime com violência ou grave ameaça à pessoa (art. 318-A, I)."
+      },
+      {
+       "trecho": "sem prejuízo da aplicação concomitante das medidas alternativas previstas no art. 319",
+       "marcas": [
+        "concomitante"
+       ],
+       "afirmacao": "Substituída a preventiva pela domiciliar, o juiz também impõe monitoração eletrônica. A cumulação é permitida.",
+       "gabarito": "C",
+       "porque": "O art. 318-B permite aplicar, junto com a domiciliar, as medidas do art. 319."
+      }
+     ],
+     "conferido": {
+      "Art. 317.": "9f93facdcf97",
+      "Art. 318.": "55c89615b4ad",
+      "Art. 318-A.": "c60f446ec18d",
+      "Art. 318-B.": "89bb71ac29f7"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 143.641 (2018)",
+     "texto": "Habeas corpus coletivo: substituição da preventiva pela domiciliar para presas gestantes, puérperas ou mães de crianças de até 12 anos ou de pessoas com deficiência, salvo crimes com violência ou grave ameaça, contra seus descendentes ou situações excepcionalíssimas, devidamente fundamentadas."
+    }
+   ],
+   "detalhes": [
+    "Para a mãe de filho de até 12 anos, não se exige prova de que seus cuidados são imprescindíveis; para negar a domiciliar, o juiz precisa de fundamentação idônea e concreta.",
+    "É situação excepcionalíssima, que permite negar a domiciliar à mãe, usar a própria casa para o tráfico ou para a atuação de organização criminosa, com indícios concretos.",
+    "Doença crônica controlada, como a hipertensão, não basta: o art. 318, II, exige debilidade extrema, e conta se o tratamento pode ou não ser prestado no presídio.",
+    "Na hipótese do art. 318, III, a imprescindibilidade aos cuidados do menor de 6 anos ou da pessoa com deficiência tem de ser comprovada.",
+    "Prisão domiciliar substitui a preventiva; recolhimento domiciliar noturno e nos dias de folga é cautelar diversa, para quem tem residência e trabalho fixos (art. 319, V)."
+   ],
+   "macetes": [
+    {
+     "sigla": "80, 6, 12",
+     "texto": "Maior de 80 anos; cuidador de menor de 6; mãe (ou pai único responsável) de filho de até 12 incompletos."
+    },
+    {
+     "sigla": "318 PODE, 318-A DEVE",
+     "texto": "No art. 318, o juiz pode substituir. No art. 318-A, para gestante e mãe, a substituição é obrigatória, salvo violência, grave ameaça ou crime contra o filho."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A prisão domiciliar da mulher com filho de até 12 anos incompletos está condicionada à comprovação de que os cuidados maternos são imprescindíveis.",
+    "gabarito": "E",
+    "explicacao": "Para a mãe de filho de até 12 anos, a lei e o STF (HC 143.641) não exigem prova de imprescindibilidade. Essa prova é exigida na hipótese do art. 318, III (cuidador de menor de 6 anos ou de pessoa com deficiência)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Para a domiciliar do art. 318, II, basta comprovar doença grave, sendo irrelevante se o tratamento pode ser prestado no presídio.",
+     "certo": "Exige debilidade extrema, e a possibilidade de tratamento no presídio pesa contra a substituição.",
+     "fonte": "Questão do app sobre o art. 318"
+    },
+    {
+     "errado": "A substituição para quem cuida de criança menor de 6 anos dispensa prova de que o agente é imprescindível a esses cuidados.",
+     "certo": "A imprescindibilidade deve ser provada (art. 318, III, e parágrafo único).",
+     "fonte": "Questão do app sobre o art. 318"
+    },
+    {
+     "errado": "Concedida a domiciliar, o juiz não pode impor outras cautelares.",
+     "certo": "Pode, concomitantemente (art. 318-B).",
+     "fonte": "Questão do app sobre o art. 318-B"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: prisão domiciliar substitutiva, antes dividida entre os temas de preventiva e de cautelares."
+    }
+   ],
+   "relacionados": [
+    "prisao-preventiva",
+    "medidas-cautelares-e-fianca",
+    "cautelares-e-prisao-regras-gerais"
    ]
   },
   {
    "slug": "prisao-temporaria",
    "titulo": "Prisão temporária: cabimento, prazo e requisitos do STF",
    "grupo": "Prisão e medidas cautelares",
-   "base": "Lei 7.960/1989 e art. 2º, § 4º, da Lei 8.072/1990",
+   "base": "Arts. 1º a 3º e 5º da Lei 7.960/1989",
    "tax": [
-    "processo-penal.prisao",
     "processo-penal.prisao-temporaria"
    ],
    "dispositivos": [
     "n7960-1989-art-1",
     "n7960-1989-art-2",
     "n7960-1989-art-3",
-    "n8072-1990-art-2"
+    "n7960-1989-art-5"
    ],
    "conceitos": [
-    "prisão temporária",
-    "imprescindibilidade para a investigação",
-    "rol taxativo de crimes",
-    "prazo de 5 mais 5 dias",
-    "prazo de 30 mais 30 dias"
+    "só na investigação",
+    "quem pede",
+    "vedação de ofício",
+    "oitiva do MP",
+    "decisão em 24 horas",
+    "rol de crimes",
+    "requisitos cumulativos do STF",
+    "prazo de 5 mais 5",
+    "prazo de 30 mais 30 nos hediondos",
+    "mandado com data de soltura",
+    "soltura sem nova ordem",
+    "dia do cumprimento",
+    "separação dos demais presos",
+    "plantão permanente",
+    "abuso de autoridade"
    ],
    "palavras": [
     "prisao temporaria",
-    "lei 7960",
-    "so no inquerito",
-    "fase investigativa",
-    "imprescindivel para as investigacoes",
-    "sem residencia fixa",
-    "fundadas razoes de autoria",
-    "rol taxativo",
+    "inquerito policial",
+    "imprescindivel",
+    "residencia fixa",
+    "identidade",
+    "fundadas razoes",
+    "autoria ou participacao",
     "homicidio doloso",
     "sequestro",
+    "carcere privado",
     "roubo",
     "extorsao",
+    "extorsao mediante sequestro",
     "estupro",
+    "epidemia",
+    "envenenamento",
+    "quadrilha",
+    "associacao criminosa",
+    "genocidio",
     "trafico",
-    "representacao do delegado",
-    "requerimento do mp",
-    "nao de oficio",
-    "5 dias prorrogavel",
-    "30 dias hediondos",
-    "24 horas para decidir",
-    "solto sem nova ordem",
-    "dia do cumprimento conta",
-    "presos separados",
+    "sistema financeiro",
+    "terrorismo",
+    "hediondos",
+    "representacao",
+    "requerimento",
+    "ouvira o ministerio publico",
+    "de oficio",
+    "5 dias",
+    "cinco dias",
+    "prorrogavel",
+    "extrema e comprovada necessidade",
+    "30 dias",
+    "trinta dias",
+    "24 horas",
+    "fundamentado",
+    "corpo de delito",
+    "duas vias",
+    "nota de culpa",
+    "dia em que o preso devera ser libertado",
+    "independentemente de nova ordem",
+    "dia do cumprimento",
+    "separados",
+    "plantao",
     "adi 4109",
-    "requisitos cumulativos"
+    "adi 3360",
+    "abuso de autoridade",
+    "estelionato"
    ],
-   "resumo": "A temporária existe só na <strong>fase de investigação</strong>, nunca no processo. É decretada pelo juiz mediante <strong>representação do delegado</strong> (ouvido o MP) ou requerimento do MP, <strong>nunca de ofício</strong>, em decisão fundamentada proferida em 24 horas. Cabe nos crimes do <strong>rol</strong> do art. 1º, III (homicídio doloso, sequestro, roubo, extorsão, estupro, tráfico, entre outros) e nos hediondos e equiparados. O prazo é de <strong>5 dias, prorrogável por mais 5</strong> em caso de extrema e comprovada necessidade; nos hediondos, tráfico, tortura e terrorismo, <strong>30 mais 30</strong>. Vencido o prazo, o preso é solto sem nova ordem judicial, e o dia do cumprimento conta no prazo. Para o STF (ADI 4.109), os requisitos são cumulativos: imprescindibilidade para a investigação com base em elementos concretos, fundadas razões de autoria em crime do rol, fatos novos ou contemporâneos, adequação à gravidade e insuficiência de outras cautelares. Não ter residência fixa, sozinho, não basta.",
+   "resumo": "A temporária existe <strong>só na investigação</strong>, nunca no processo. É decretada pelo juiz mediante <strong>representação do delegado</strong> (ouvido o MP) ou <strong>requerimento do MP</strong>, nunca de ofício, em decisão fundamentada proferida em <strong>24 horas</strong> (art. 2º). Cabe nos crimes do rol do art. 1º, III (homicídio doloso, sequestro, roubo, extorsão, estupro, tráfico, entre outros) e nos hediondos e equiparados. O prazo é de <strong>5 dias, prorrogável por mais 5</strong> em caso de extrema e comprovada necessidade; nos hediondos, tráfico, tortura e terrorismo, <strong>30 mais 30</strong> (art. 2º, § 4º, da Lei 8.072/1990, no caderno de Legislação Penal Especial). O mandado traz o dia da soltura; vencido o prazo, o preso é solto sem nova ordem judicial, e o dia do cumprimento conta no prazo. Para o STF (ADI 4.109), os requisitos são <strong>cumulativos</strong>: imprescindibilidade para a investigação com base em elementos concretos, fundadas razões de autoria em crime do rol, fatos novos ou contemporâneos, adequação à gravidade e insuficiência de outras cautelares. Não ter residência fixa, sozinho, não basta.",
    "esquema": {
     "rotulo": "temporária x preventiva",
-    "html": "<table><thead><tr><th></th><th>Temporária</th><th>Preventiva</th></tr></thead><tbody><tr><td><strong>Fase</strong></td><td>Só investigação</td><td>Investigação e processo</td></tr><tr><td><strong>Prazo</strong></td><td>5 + 5 dias; hediondos 30 + 30</td><td>Sem prazo fixo; revisão a cada 90 dias</td></tr><tr><td><strong>Cabimento</strong></td><td>Rol de crimes da Lei 7.960 e hediondos</td><td>Art. 313 do CPP</td></tr><tr><td><strong>De ofício</strong></td><td>Não</td><td>Não</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ponto</th><th>Temporária</th><th>Preventiva</th></tr></thead><tbody><tr><td><strong>Fase</strong></td><td>Só investigação</td><td>Investigação e processo</td></tr><tr><td><strong>Quem pede</strong></td><td>Delegado ou MP</td><td>MP, querelante, assistente ou delegado</td></tr><tr><td><strong>Prazo</strong></td><td>5 + 5 dias; hediondos e equiparados 30 + 30</td><td>Sem prazo fixo; revisão a cada 90 dias</td></tr><tr><td><strong>Cabimento</strong></td><td>Rol do art. 1º, III, e hediondos</td><td>Art. 313 do CPP</td></tr><tr><td><strong>De ofício</strong></td><td>Não</td><td>Não</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 1º Caberá prisão temporária:\n\nI - quando imprescindível para as investigações do inquérito policial;\n\nII - quando o indiciado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade;\n\nIII - quando houver fundadas razões, de acordo com qualquer prova admitida na legislação penal, de autoria ou participação do indiciado nos seguintes crimes:\n\na) homicídio doloso (art. 121, caput, e seu § 2º);\n\nb) sequestro ou cárcere privado (art. 148, caput, e seus §§ 1º e 2º);\n\nc) roubo (art. 157, caput, e seus §§ 1º, 2º e 3º);\n\nd) extorsão (art. 158, caput, e seus §§ 1º e 2º);\n\ne) extorsão mediante sequestro (art. 159, caput, e seus §§ 1º, 2º e 3º);\n\nf) estupro (art. 213, caput, e sua combinação com o art. 223, caput, e parágrafo único);\n\n(...)",
+     "norma": "n7960-1989",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º.",
+      "Art. 3º.",
+      "Art. 5º."
+     ],
+     "ref": "arts. 1º a 3º e 5º da Lei 7.960/1989",
+     "regras": [
+      "<strong>Art. 1º.</strong> Cabe quando imprescindível para o inquérito, quando o indiciado não tiver residência fixa ou identidade esclarecida, e quando houver fundadas razões de autoria ou participação nos crimes do rol (lidos pelo STF como requisitos cumulativos).",
+      "<strong>Art. 2º.</strong> Decretada pelo juiz, por representação do delegado (ouvido o MP) ou requerimento do MP; 5 dias, prorrogáveis por igual período; decisão fundamentada em 24 horas; mandado em duas vias, uma como nota de culpa, com o dia da soltura; soltura sem nova ordem; o dia do cumprimento conta.",
+      "<strong>Arts. 3º e 5º.</strong> Presos temporários ficam separados dos demais; há plantão permanente de 24 horas do Judiciário e do MP."
+     ],
+     "literalidades": [
+      {
+       "trecho": "quando imprescindível para as investigações do inquérito policial",
+       "marcas": [
+        "imprescindível"
+       ],
+       "afirmacao": "Já recebida a denúncia por homicídio, o MP pede a prisão temporária do réu para ouvi-lo de novo. O juiz pode deferir.",
+       "gabarito": "E",
+       "porque": "A temporária serve às investigações do inquérito e não cabe depois do início da ação penal (art. 1º, I)."
+      },
+      {
+       "trecho": "quando o indiciado não tiver residência fixa ou não fornecer elementos necessários ao esclarecimento de sua identidade",
+       "marcas": [
+        "residência fixa"
+       ],
+       "afirmacao": "O juiz decreta a temporária do investigado por furto simples porque ele mora na rua. A decisão é válida.",
+       "gabarito": "E",
+       "porque": "Para o STF, a falta de residência fixa sozinha não basta, e o furto simples nem está no rol (art. 1º, II e III; ADI 4.109)."
+      },
+      {
+       "trecho": "terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade",
+       "marcas": [
+        "extrema e comprovada necessidade"
+       ],
+       "afirmacao": "Investigado por roubo, o preso temporário tem a prisão prorrogada por mais 5 dias porque a polícia comprovou extrema necessidade de localizar a arma.",
+       "gabarito": "C",
+       "porque": "No crime comum do rol, são 5 dias, prorrogáveis por igual período em caso de extrema e comprovada necessidade (art. 2º)."
+      },
+      {
+       "trecho": "o Juiz, antes de decidir, ouvirá o Ministério Público",
+       "marcas": [
+        "ouvirá o Ministério Público"
+       ],
+       "afirmacao": "Representada a temporária pelo delegado, o juiz decide sem ouvir o MP, porque a urgência dispensa sua manifestação.",
+       "gabarito": "E",
+       "porque": "Na representação do delegado, o juiz ouve o MP antes de decidir (art. 2º, § 1º)."
+      },
+      {
+       "trecho": "prolatado dentro do prazo de 24 (vinte e quatro) horas",
+       "marcas": [
+        "24 (vinte e quatro) horas"
+       ],
+       "afirmacao": "O despacho que decreta a temporária deve ser fundamentado e proferido em até 24 horas do recebimento do pedido.",
+       "gabarito": "C",
+       "porque": "É o prazo do art. 2º, § 2º."
+      },
+      {
+       "trecho": "bem como o dia em que o preso deverá ser libertado",
+       "marcas": [
+        "deverá ser libertado"
+       ],
+       "afirmacao": "O mandado de prisão temporária indica o período de duração e o dia em que o preso deve ser solto.",
+       "gabarito": "C",
+       "porque": "É o que exige o art. 2º, § 4º-A."
+      },
+      {
+       "trecho": "independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade",
+       "marcas": [
+        "independentemente de nova ordem"
+       ],
+       "afirmacao": "Vencido o prazo da temporária, o diretor do presídio mantém o preso até receber alvará de soltura do juiz.",
+       "gabarito": "E",
+       "porque": "Decorrido o prazo, a autoridade solta o preso sem nova ordem judicial, salvo prorrogação ou preventiva já comunicadas (art. 2º, § 7º)."
+      },
+      {
+       "trecho": "Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária.",
+       "marcas": [
+        "Inclui-se"
+       ],
+       "afirmacao": "Preso às 22h de segunda-feira, o investigado tem a segunda-feira contada como primeiro dia da temporária.",
+       "gabarito": "C",
+       "porque": "O dia do cumprimento do mandado entra no cômputo do prazo (art. 2º, § 8º)."
+      },
+      {
+       "trecho": "Os presos temporários deverão permanecer, obrigatoriamente, separados dos demais detentos.",
+       "marcas": [
+        "obrigatoriamente"
+       ],
+       "afirmacao": "Os presos temporários ficam, obrigatoriamente, separados dos demais detentos.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 3º."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "903fd0338eb0",
+      "Art. 2º.": "e1e184999953",
+      "Art. 3º.": "82bbc43f6ad1",
+      "Art. 5º.": "51fe0026c80d"
+     },
      "fonte": "Lei 7.960/1989 (Prisão temporária), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7960-21-dezembro-1989-365581-normaatualizada-pl.html",
-     "norma": "n7960-1989"
-    },
-    {
-     "texto": "Art. 2º A prisão temporária será decretada pelo Juiz, em face da representação da autoridade policial ou de requerimento do Ministério Público, e terá o prazo de 5 (cinco) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.\n\n§ 1º Na hipótese de representação da autoridade policial, o Juiz, antes de decidir, ouvirá o Ministério Público.\n\n§ 2º O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 24 (vinte e quatro) horas, contadas a partir do recebimento da representação ou do requerimento.\n\n(...)\n\n§ 6º Efetuada a prisão, a autoridade policial informará o preso dos direitos previstos no art. 5º da Constituição Federal.\n\n§ 7º Decorrido o prazo contido no mandado de prisão, a autoridade responsável pela custódia deverá, independentemente de nova ordem da autoridade judicial, pôr imediatamente o preso em liberdade, salvo se já tiver sido comunicada da prorrogação da prisão temporária ou da decretação da prisão preventiva.\n\n§ 8º Inclui-se o dia do cumprimento do mandado de prisão no cômputo do prazo de prisão temporária.",
-     "fonte": "Lei 7.960/1989 (Prisão temporária), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7960-21-dezembro-1989-365581-normaatualizada-pl.html",
-     "norma": "n7960-1989"
-    },
-    {
-     "texto": "Art. 2º Os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo são insuscetíveis de:\n\n(...)\n\n§ 4º A prisão temporária, sobre a qual dispõe a Lei nº 7.960, de 21 de dezembro de 1989, nos crimes previstos neste artigo, terá o prazo de 30 (trinta) dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
-     "fonte": "Lei 8.072/1990 (Crimes hediondos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8072-25-julho-1990-372192-normaatualizada-pl.html",
-     "norma": "n8072-1990"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7960-21-dezembro-1989-365581-normaatualizada-pl.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADIs 3.360 e 4.109 (2022)",
+     "texto": "A temporária só é cabível quando, cumulativamente, for imprescindível para as investigações, com base em elementos concretos e não em meras conjecturas; houver fundadas razões de autoria ou participação em crime do art. 1º, III; for justificada em fatos novos ou contemporâneos; for adequada à gravidade do crime; e não bastarem as medidas cautelares diversas. É vedada sua decretação apenas porque o indiciado não tem residência fixa."
+    }
+   ],
+   "detalhes": [
+    "O rol do art. 1º, III, é taxativo. O estelionato não está nele: admite preventiva, mas não temporária (Cebraspe, Delegado PC-PB 2022).",
+    "O atentado violento ao pudor (alínea g) foi absorvido pelo estupro, e a quadrilha ou bando (alínea l) hoje é a associação criminosa do art. 288 do CP.",
+    "O juiz pode, de ofício ou a pedido do MP ou do advogado, mandar apresentar o preso, pedir informações ao delegado e submetê-lo a exame de corpo de delito (art. 2º, § 3º).",
+    "A temporária não serve só para interrogar o investigado (Cebraspe, Delegado PC-MA 2018).",
+    "Prolongar a prisão temporária sem soltar o preso quando esgotado o prazo é crime de abuso de autoridade (art. 12 da Lei 13.869/2019).",
+    "Uma via do mandado é entregue ao preso e serve como nota de culpa; a prisão só é executada depois da expedição do mandado (art. 2º, §§ 4º e 5º).",
+    "O rol alcança o homicídio doloso simples e qualificado, todas as formas de roubo (inclusive o latrocínio), a epidemia só com resultado morte, o envenenamento de água ou alimento qualificado pela morte e o genocídio em qualquer de suas formas típicas.",
+    "Leitura atual do rol: o tráfico da Lei 6.368/1976 é hoje o art. 33 da Lei 11.343/2006; o rapto violento (art. 219 do CP) foi revogado em 2005; os crimes contra o sistema financeiro (Lei 7.492/1986) seguem no rol.",
+    "Para o STF, a temporária não pode servir de prisão para averiguação nem para constranger o investigado a depor (ADI 4.109)."
    ],
    "macetes": [
     {
@@ -9697,140 +11157,715 @@
      "texto": "Comum: 5 + 5. Hediondos e equiparados: 30 + 30. Nunca 90 dias."
     }
    ],
-   "juris": [
-    {
-     "quem": "STF · ADIs 3.360 e 4.109 (2022)",
-     "texto": "A temporária só é cabível quando, cumulativamente, for imprescindível para as investigações, com base em elementos concretos e não em meras conjecturas; houver fundadas razões de autoria ou participação em crime do art. 1º, III; for justificada em fatos novos ou contemporâneos; for adequada à gravidade do crime; e não bastarem as medidas cautelares diversas. É vedada sua decretação apenas porque o indiciado não tem residência fixa."
-    }
-   ],
    "pegadinha": {
     "afirmacao": "Representada a prisão temporária por crime hediondo, o prazo máximo da prisão eventualmente decretada será de noventa dias.",
     "gabarito": "E",
     "explicacao": "Nos hediondos, o prazo é de 30 dias, prorrogável por mais 30. Na mesma questão, era certo que a temporária não pode ser decretada após a fase inquisitória (Cebraspe, Delegado PC-MA 2018)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-MA 2018 (o juiz não decreta a temporária de ofício, e ela não serve só para interrogar).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>Os presos temporários ficam separados dos demais detentos.</p><p><strong>Distinções</strong></p><p>O sequestro e cárcere privado simples admite temporária, mas não preventiva (pena máxima de 3 anos); o estelionato admite preventiva, mas não temporária, porque não está no rol (Cebraspe, Delegado PC-PB 2022).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O juiz pode decretar a temporária de ofício quando o inquérito apontar crime hediondo.",
+     "certo": "Só por representação do delegado ou requerimento do MP (art. 2º).",
+     "fonte": "Cebraspe, Delegado PC-MA 2018"
+    },
+    {
+     "errado": "Vencido o prazo da temporária, o preso só pode ser solto com alvará do juiz.",
+     "certo": "É solto sem nova ordem judicial (art. 2º, § 7º).",
+     "fonte": "Questão do app sobre o art. 2º"
+    },
+    {
+     "errado": "Os incisos do art. 1º são alternativos: basta o indiciado não ter residência fixa.",
+     "certo": "Para o STF, os requisitos são cumulativos, e a falta de residência sozinha não basta (ADI 4.109).",
+     "fonte": "Questão do app sobre o art. 1º"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-PB 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: o art. 2º, § 4º, da Lei 8.072/1990 (prazo nos hediondos) é citado e fica no caderno de Legislação Penal Especial."
+    }
+   ],
    "relacionados": [
     "prisao-preventiva",
     "inquerito-policial",
-    "medidas-cautelares-e-fianca"
+    "crimes-hediondos"
    ]
   },
   {
    "slug": "medidas-cautelares-e-fianca",
-   "titulo": "Medidas cautelares diversas da prisão, liberdade provisória e fiança",
+   "titulo": "Medidas cautelares diversas da prisão e liberdade provisória",
    "grupo": "Prisão e medidas cautelares",
-   "base": "Arts. 282, 283 e 319 a 350 do CPP",
+   "base": "Arts. 319 a 321, 350 e 350-B do CPP",
    "tax": [
     "processo-penal.medidas-cautelares-liberdade-provisoria",
-    "processo-penal.fianca",
-    "processo-penal.principio-necessidade-prisao-especial-liberdade"
+    "processo-penal.principio-necessidade-prisao-especial-liberdade.liberdade-provisoria"
    ],
    "dispositivos": [
-    "n3689-1941-art-282",
-    "n3689-1941-art-283",
     "n3689-1941-art-319",
+    "n3689-1941-art-320",
     "n3689-1941-art-321",
-    "n3689-1941-art-322",
-    "n3689-1941-art-323",
-    "n3689-1941-art-324",
-    "n3689-1941-art-325",
-    "n3689-1941-art-341",
-    "n3689-1941-art-350"
+    "n3689-1941-art-350",
+    "n3689-1941-art-350-b"
    ],
    "conceitos": [
-    "binômio necessidade e adequação",
-    "contraditório prévio",
-    "medidas cautelares diversas",
+    "rol das cautelares diversas",
+    "comparecimento periódico",
+    "proibição de lugares e de contato",
+    "proibição de sair da comarca",
+    "recolhimento noturno",
+    "suspensão de função pública",
+    "internação provisória",
+    "fiança como cautelar",
+    "monitoração eletrônica",
+    "proibição de sair do país",
     "liberdade provisória",
-    "fiança",
-    "inafiançabilidade",
-    "quebramento da fiança"
+    "liberdade sem fiança pela pobreza",
+    "proibição de atividade com vulneráveis",
+    "inafiançável não impede liberdade",
+    "excesso de prazo",
+    "revisão de 90 dias"
    ],
    "palavras": [
-    "medidas cautelares",
-    "necessidade e adequacao",
-    "isolada ou cumulativa",
-    "contraditorio previo",
+    "medidas cautelares diversas",
     "comparecimento periodico",
-    "proibicao de frequentar lugares",
-    "proibicao de contato",
-    "recolhimento noturno",
-    "suspensao de funcao publica",
+    "proibicao de acesso",
+    "frequencia a determinados lugares",
+    "manter contato",
+    "ausentar-se da comarca",
+    "recolhimento domiciliar",
+    "periodo noturno",
+    "dias de folga",
+    "residencia e trabalho fixos",
+    "suspensao do exercicio de funcao publica",
+    "atividade economica ou financeira",
     "internacao provisoria",
-    "monitoracao eletronica",
+    "inimputavel",
+    "semi-imputavel",
+    "risco de reiteracao",
     "fianca",
-    "delegado concede fianca ate 4 anos",
-    "juiz decide em 48 horas",
-    "racismo tortura trafico terrorismo hediondos inafiancaveis",
-    "inafiancavel admite liberdade provisoria",
-    "valor da fianca",
-    "dispensa de fianca pobre",
-    "quebramento",
-    "nova infracao dolosa",
-    "perda de metade",
-    "liberdade provisoria sem fianca",
-    "pena so de multa sem cautelar"
+    "monitoracao eletronica",
+    "tornozeleira",
+    "ausentar-se do pais",
+    "passaporte",
+    "24 horas",
+    "liberdade provisoria",
+    "ausentes os requisitos",
+    "situacao economica",
+    "sem fianca",
+    "obrigacoes",
+    "arts 327 e 328",
+    "descumprir",
+    "motivo justo",
+    "vulnerabilidade",
+    "contato direto",
+    "vitima",
+    "inafiancavel",
+    "adi 3112",
+    "hc 104339",
+    "trafico",
+    "sumula 697",
+    "excesso de prazo",
+    "relaxamento",
+    "90 dias",
+    "legitima defesa"
    ],
-   "resumo": "Toda cautelar observa <strong>necessidade</strong> e <strong>adequação</strong> (art. 282), pode ser aplicada isolada ou cumulativamente e, salvo urgência, exige <strong>contraditório prévio</strong>. O juiz decreta a pedido das partes ou por representação do delegado e pode revogar ou substituir de ofício. Não cabe cautelar se a infração não prevê pena privativa de liberdade. O art. 319 lista as medidas diversas: comparecimento periódico, proibição de frequentar lugares ou manter contato, proibição de sair da comarca, recolhimento noturno, suspensão de função pública, internação provisória, fiança e <strong>monitoração eletrônica</strong>. Sem requisitos da preventiva, o juiz concede <strong>liberdade provisória</strong>, com ou sem cautelares. O <strong>delegado</strong> concede fiança se a pena máxima não passar de <strong>4 anos</strong>; acima disso, o juiz decide em 48 horas. São <strong>inafiançáveis</strong> racismo, tortura, tráfico, terrorismo, hediondos e ação de grupos armados contra a ordem constitucional, mas inafiançável não significa sem liberdade provisória. A fiança é <strong>quebrada</strong> se o réu falta sem motivo, obstrui o processo, descumpre cautelar, resiste a ordem judicial ou comete nova infração dolosa, e perde-se metade do valor.",
+   "resumo": "O art. 319 lista as <strong>medidas cautelares diversas da prisão</strong>: comparecimento periódico em juízo, proibição de frequentar lugares, proibição de contato com pessoa determinada, proibição de sair da comarca, <strong>recolhimento domiciliar noturno</strong> e nos dias de folga, suspensão de função pública ou de atividade econômica, <strong>internação provisória</strong> do inimputável ou semi-imputável em crime violento com risco de reiteração, <strong>fiança</strong> e <strong>monitoração eletrônica</strong>. A proibição de sair do país é comunicada às autoridades de fronteira, e o passaporte é entregue em 24 horas (art. 320). Sem requisitos da preventiva, o juiz <strong>deve</strong> conceder <strong>liberdade provisória</strong>, com cautelares se for o caso (art. 321). Quando cabe fiança e o preso é pobre, o juiz pode dar liberdade provisória <strong>sem fiança</strong>, com as obrigações dos arts. 327 e 328; se ele descumprir sem motivo justo, aplica-se o art. 282, § 4º (art. 350). Desde 2025, o juiz pode proibir o autor de atividades com <strong>contato direto com vulneráveis</strong>, a pedido do delegado, do MP ou da vítima (art. 350-B). Crime inafiançável impede a fiança, não a liberdade provisória sem fiança.",
    "esquema": {
-    "rotulo": "fiança",
-    "html": "<table><thead><tr><th>Ponto</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Quem concede</strong></td><td>Delegado se pena máxima até 4 anos; juiz nos demais casos (48 horas)</td></tr><tr><td><strong>Valor</strong></td><td>1 a 100 salários mínimos (até 4 anos); 10 a 200 (acima)</td></tr><tr><td><strong>Ajuste</strong></td><td>Dispensa (art. 350), redução até 2/3 ou aumento até 1.000 vezes</td></tr><tr><td><strong>Inafiançáveis</strong></td><td>Racismo, tortura, tráfico, terrorismo, hediondos, grupos armados</td></tr><tr><td><strong>Quebramento</strong></td><td>Perda de metade do valor; pode gerar outras cautelares ou preventiva</td></tr><tr><td><strong>Perda total</strong></td><td>Condenado que não se apresenta para cumprir a pena</td></tr></tbody></table>"
+    "rotulo": "as nove cautelares do art. 319",
+    "html": "<table><thead><tr><th>Inciso</th><th>Medida</th><th>Requisito específico</th></tr></thead><tbody><tr><td><strong>I</strong></td><td>Comparecimento periódico em juízo</td><td>Prazo e condições fixados pelo juiz</td></tr><tr><td><strong>II</strong></td><td>Proibição de acesso ou frequência a lugares</td><td>Evitar risco de novas infrações</td></tr><tr><td><strong>III</strong></td><td>Proibição de contato com pessoa determinada</td><td>Circunstâncias do fato</td></tr><tr><td><strong>IV</strong></td><td>Proibição de ausentar-se da comarca</td><td>Conveniência da investigação ou instrução</td></tr><tr><td><strong>V</strong></td><td>Recolhimento domiciliar noturno e nas folgas</td><td>Residência e trabalho fixos</td></tr><tr><td><strong>VI</strong></td><td>Suspensão de função pública ou atividade econômica</td><td>Justo receio de uso para crimes</td></tr><tr><td><strong>VII</strong></td><td>Internação provisória</td><td>Violência ou grave ameaça, inimputável ou semi-imputável, risco de reiteração</td></tr><tr><td><strong>VIII</strong></td><td>Fiança</td><td>Infrações que a admitem</td></tr><tr><td><strong>IX</strong></td><td>Monitoração eletrônica</td><td>Sem requisito próprio no inciso</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 282. As medidas cautelares previstas neste Título deverão ser aplicadas observando-se a:\n\nI - necessidade para aplicação da lei penal, para a investigação ou a instrução criminal e, nos casos expressamente previstos, para evitar a prática de infrações penais;\n\nII - adequação da medida à gravidade do crime, circunstâncias do fato e condições pessoais do indiciado ou acusado.\n\n§ 1º As medidas cautelares poderão ser aplicadas isolada ou cumulativamente.\n\n§ 2º As medidas cautelares serão decretadas pelo juiz a requerimento das partes ou, quando no curso da investigação criminal, por representação da autoridade policial ou mediante requerimento do Ministério Público.\n\n§ 3º Ressalvados os casos de urgência ou de perigo de ineficácia da medida, o juiz, ao receber o pedido de medida cautelar, determinará a intimação da parte contrária, para se manifestar no prazo de 5 (cinco) dias, acompanhada de cópia do requerimento e das peças necessárias, permanecendo os autos em juízo, e os casos de urgência ou de perigo deverão ser justificados e fundamentados em decisão que contenha elementos do caso concreto que justifiquem essa medida excepcional.\n\n(...)\n\n§ 5º O juiz poderá, de ofício ou a pedido das partes, revogar a medida cautelar ou substituí-la quando verificar a falta de motivo para que subsista, bem como voltar a decretá-la, se sobrevierem razões que a justifiquem.\n\n§ 6º A prisão preventiva somente será determinada quando não for cabível a sua substituição por outra medida cautelar, observado o art. 319 deste Código, e o não cabimento da substituição por outra medida cautelar deverá ser justificado de forma fundamentada nos elementos presentes do caso concreto, de forma individualizada.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 319.",
+      "Art. 320.",
+      "Art. 321.",
+      "Art. 350.",
+      "Art. 350-B."
+     ],
+     "ref": "arts. 319 a 321, 350 e 350-B do CPP",
+     "regras": [
+      "<strong>Art. 319.</strong> Nove medidas cautelares diversas da prisão; a fiança segue o capítulo próprio e pode ser cumulada com outras medidas (§ 4º). Os §§ 1º a 3º foram revogados.",
+      "<strong>Art. 320.</strong> Proibição de ausentar-se do país: comunicação às autoridades de fronteira e entrega do passaporte em 24 horas.",
+      "<strong>Art. 321.</strong> Ausentes os requisitos da preventiva, o juiz deve conceder liberdade provisória, com cautelares se for o caso.",
+      "<strong>Art. 350.</strong> Cabendo fiança, o juiz pode dar liberdade provisória sem ela, pela situação econômica do preso, com as obrigações dos arts. 327 e 328; descumprimento sem motivo justo: art. 282, § 4º.",
+      "<strong>Art. 350-B.</strong> Em qualquer fase, a pedido do delegado, do MP ou da vítima, o juiz pode proibir o autor de exercer atividades com contato direto com pessoa vulnerável, com prova do crime, indício de autoria e perigo da liberdade."
+     ],
+     "literalidades": [
+      {
+       "trecho": "quando o investigado ou acusado tenha residência e trabalho fixos",
+       "marcas": [
+        "residência e trabalho fixos"
+       ],
+       "afirmacao": "Investigado desempregado e sem endereço certo recebe, como cautelar, o recolhimento domiciliar noturno e nos dias de folga.",
+       "gabarito": "E",
+       "porque": "O recolhimento noturno pressupõe residência e trabalho fixos (art. 319, V)."
+      },
+      {
+       "trecho": "quando houver justo receio de sua utilização para a prática de infrações penais",
+       "marcas": [
+        "justo receio"
+       ],
+       "afirmacao": "Servidor investigado por fraudar licitações no cargo pode ter o exercício da função suspenso como cautelar.",
+       "gabarito": "C",
+       "porque": "Cabe a suspensão da função pública quando há justo receio de seu uso para crimes (art. 319, VI)."
+      },
+      {
+       "trecho": "quando os peritos concluírem ser inimputável ou semi-imputável",
+       "marcas": [
+        "semi-imputável"
+       ],
+       "afirmacao": "Acusado de furto simples, sem violência, tem internação provisória decretada porque os peritos o acharam inimputável.",
+       "gabarito": "E",
+       "porque": "A internação provisória exige crime com violência ou grave ameaça, inimputabilidade ou semi-imputabilidade e risco de reiteração (art. 319, VII)."
+      },
+      {
+       "trecho": "intimando-se o indiciado ou acusado para entregar o passaporte, no prazo de 24 (vinte e quatro) horas",
+       "marcas": [
+        "24 (vinte e quatro) horas"
+       ],
+       "afirmacao": "Proibido de sair do país, o acusado é intimado a entregar o passaporte em até 48 horas.",
+       "gabarito": "E",
+       "porque": "O prazo para entregar o passaporte é de 24 horas (art. 320)."
+      },
+      {
+       "trecho": "Ausentes os requisitos que autorizam a decretação da prisão preventiva, o juiz deverá conceder liberdade provisória",
+       "marcas": [
+        "deverá conceder"
+       ],
+       "afirmacao": "Ausentes os requisitos da preventiva, o juiz deve conceder liberdade provisória ao preso, impondo cautelares se for o caso.",
+       "gabarito": "C",
+       "porque": "É o que manda o art. 321."
+      },
+      {
+       "trecho": "o juiz, verificando a situação econômica do preso, poderá conceder-lhe liberdade provisória",
+       "marcas": [
+        "situação econômica"
+       ],
+       "afirmacao": "Preso por crime afiançável, o autuado não tem como pagar a fiança. Ele deve ficar preso até reunir o valor.",
+       "gabarito": "E",
+       "porque": "O juiz pode conceder liberdade provisória sem fiança pela situação econômica do preso (art. 350)."
+      },
+      {
+       "trecho": "Se o beneficiado descumprir, sem motivo justo, qualquer das obrigações ou medidas impostas",
+       "marcas": [
+        "sem motivo justo"
+       ],
+       "afirmacao": "Solto sem fiança pela pobreza, o réu falta a uma audiência porque estava internado. O juiz deve aplicar o art. 282, § 4º, e pode decretar a preventiva.",
+       "gabarito": "E",
+       "porque": "A consequência do art. 282, § 4º, vem só quando o descumprimento é sem motivo justo (art. 350, parágrafo único)."
+      },
+      {
+       "trecho": "a pedido da autoridade policial, do Ministério Público ou da vítima",
+       "marcas": [
+        "da vítima"
+       ],
+       "afirmacao": "A mãe da criança vítima de abuso pede ao juiz que proíba o investigado, professor, de dar aulas para crianças. O pedido da vítima é admitido.",
+       "gabarito": "C",
+       "porque": "A proibição do art. 350-B pode ser pedida pelo delegado, pelo MP ou pela vítima."
+      }
+     ],
+     "conferido": {
+      "Art. 319.": "2df90451200c",
+      "Art. 320.": "2720b22c9c2f",
+      "Art. 321.": "815cf31e9398",
+      "Art. 350.": "5eaf5b628259",
+      "Art. 350-B.": "ffe302ecafaa"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 319. São medidas cautelares diversas da prisão:\n\nI - comparecimento periódico em juízo, no prazo e nas condições fixadas pelo juiz, para informar e justificar atividades;\n\nII - proibição de acesso ou frequência a determinados lugares quando, por circunstâncias relacionadas ao fato, deva o indiciado ou acusado permanecer distante desses locais para evitar o risco de novas infrações;\n\nIII - proibição de manter contato com pessoa determinada quando, por circunstâncias relacionadas ao fato, deva o indiciado ou acusado dela permanecer distante;\n\nIV - proibição de ausentar-se da Comarca quando a permanência seja conveniente ou necessária para a investigação ou instrução;\n\nV - recolhimento domiciliar no período noturno e nos dias de folga quando o investigado ou acusado tenha residência e trabalho fixos;\n\nVI - suspensão do exercício de função pública ou de atividade de natureza econômica ou financeira quando houver justo receio de sua utilização para a prática de infrações penais;\n\nVII - internação provisória do acusado nas hipóteses de crimes praticados com violência ou grave ameaça, quando os peritos concluírem ser inimputável ou semi-imputável (art. 26 do Código Penal) e houver risco de reiteração;\n\nVIII - fiança, nas infrações que a admitem, para assegurar o comparecimento a atos do processo, evitar a obstrução do seu andamento ou em caso de resistência injustificada à ordem judicial;\n\nIX - monitoração eletrônica.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 322. A autoridade policial somente poderá conceder fiança nos casos de infração cuja pena privativa de liberdade máxima não seja superior a 4 (quatro) anos.\n\nParágrafo único. Nos demais casos, a fiança será requerida ao juiz, que decidirá em 48 (quarenta e oito) horas.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 323. Não será concedida fiança:\n\nI - nos crimes de racismo;\n\nII - nos crimes de tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo e nos definidos como crimes hediondos;\n\nIII - nos crimes cometidos por grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático;\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 341. Julgar-se-á quebrada a fiança quando o acusado:\n\nI - regularmente intimado para ato do processo, deixar de comparecer, sem motivo justo;\n\nII - deliberadamente praticar ato de obstrução ao andamento do processo;\n\nIII - descumprir medida cautelar imposta cumulativamente com a fiança;\n\nIV - resistir injustificadamente a ordem judicial;\n\nV - praticar nova infração penal dolosa.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "ATÉ QUATRO, O DELEGADO",
-     "texto": "Pena máxima de até 4 anos: fiança na delegacia. Acima disso, só o juiz."
-    },
-    {
-     "sigla": "INAFIANÇÁVEL NÃO É INSOLTÁVEL",
-     "texto": "Crime inafiançável impede a fiança, não a liberdade provisória sem fiança."
-    },
-    {
-     "sigla": "QUEBROU, PERDE METADE",
-     "texto": "Quebramento: metade do valor. Perda total: condenado que foge do cumprimento da pena."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
      "quem": "STF · ADI 3.112",
-     "texto": "É inconstitucional a vedação abstrata de liberdade provisória prevista no Estatuto do Desarmamento; a inafiançabilidade não impede a liberdade provisória sem fiança."
+     "texto": "É inconstitucional a vedação abstrata de liberdade provisória do Estatuto do Desarmamento; a inafiançabilidade não impede a liberdade provisória sem fiança."
     },
     {
      "quem": "STF · HC 104.339",
      "texto": "É inconstitucional a vedação abstrata de liberdade provisória ao preso por tráfico de drogas (art. 44 da Lei 11.343/2006)."
+    },
+    {
+     "quem": "STF · Súmula 697",
+     "texto": "A proibição de liberdade provisória nos processos por crimes hediondos não veda o relaxamento da prisão processual por excesso de prazo."
+    }
+   ],
+   "detalhes": [
+    "Liberdade provisória pressupõe prisão legal; prisão ilegal não gera liberdade provisória, e sim relaxamento.",
+    "A revisão obrigatória a cada 90 dias se restringe à preventiva e não se aplica às cautelares diversas; a aposentadoria do acusado também não afasta, por si só, a necessidade das medidas (FGV, Juiz TJPE 2026).",
+    "A inafiançabilidade dos crimes hediondos não impede a liberdade provisória concedida pelo juiz; impede apenas a fiança (Cebraspe, Delegado PF 2018).",
+    "No tráfico de drogas, cabe liberdade provisória quando ausentes os requisitos da preventiva (HC 104.339).",
+    "Medida cautelar diversa pode ser substituída ou cumulada com outra; estava errado afirmar o contrário (Cebraspe, Delegado PC-MA 2018).",
+    "Se o auto de prisão indica legítima defesa ou outra excludente, a liberdade provisória vem mediante termo de comparecimento a todos os atos (art. 310, § 1º, no tema da audiência de custódia).",
+    "Indícios de crime contra a dignidade sexual também autorizam medidas protetivas de urgência (art. 350-A), tratadas no caderno de Legislação Penal Especial."
+   ],
+   "macetes": [
+    {
+     "sigla": "INAFIANÇÁVEL NÃO É INSOLTÁVEL",
+     "texto": "Crime inafiançável impede a fiança, não a liberdade provisória sem fiança."
+    },
+    {
+     "sigla": "NOTURNO PEDE CASA E TRABALHO",
+     "texto": "Recolhimento domiciliar noturno só para quem tem residência e trabalho fixos."
+    },
+    {
+     "sigla": "POBRE SAI SEM PAGAR",
+     "texto": "Art. 350: cabendo fiança e não podendo pagar, liberdade provisória sem fiança, com as obrigações dos arts. 327 e 328."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o STJ, a revisão obrigatória a cada 90 dias do art. 316, parágrafo único, do CPP também se aplica às medidas cautelares diversas da prisão.",
+    "gabarito": "E",
+    "explicacao": "A revisão de 90 dias se restringe à preventiva. Estava errado estendê-la às cautelares diversas ou declará-las ilegais pelo simples passar do prazo (FGV, Juiz TJPE 2026)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Nos casos em que couber fiança, a situação econômica do preso não autoriza a liberdade provisória sem pagamento.",
+     "certo": "Autoriza, com as obrigações dos arts. 327 e 328 (art. 350).",
+     "fonte": "Questão do app sobre o art. 350"
+    },
+    {
+     "errado": "A proibição de liberdade provisória nos crimes hediondos impede o relaxamento por excesso de prazo.",
+     "certo": "Não impede (Súmula 697 do STF).",
+     "fonte": "Questão do app sobre liberdade provisória"
+    },
+    {
+     "errado": "A internação provisória cabe em qualquer crime, bastando o laudo de inimputabilidade.",
+     "certo": "Exige violência ou grave ameaça e risco de reiteração (art. 319, VII).",
+     "fonte": "Questão do app sobre o art. 319"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PF 2018",
+    "FGV: Juiz TJPE 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: a fiança ganhou tema próprio; aqui ficam as cautelares diversas, a liberdade provisória e o novo art. 350-B."
+    }
+   ],
+   "relacionados": [
+    "cautelares-e-prisao-regras-gerais",
+    "fianca",
+    "prisao-preventiva",
+    "medidas-protetivas-de-urgencia"
+   ]
+  },
+  {
+   "slug": "fianca",
+   "titulo": "Fiança: quem concede, crimes inafiançáveis, valor, quebramento e perda",
+   "grupo": "Prisão e medidas cautelares",
+   "base": "Arts. 322 a 349 do CPP",
+   "tax": [
+    "processo-penal.fianca",
+    "processo-penal.principio-necessidade-prisao-especial-liberdade.fianca"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-322",
+    "n3689-1941-art-323",
+    "n3689-1941-art-324",
+    "n3689-1941-art-325",
+    "n3689-1941-art-326",
+    "n3689-1941-art-327",
+    "n3689-1941-art-328",
+    "n3689-1941-art-329",
+    "n3689-1941-art-330",
+    "n3689-1941-art-331",
+    "n3689-1941-art-332",
+    "n3689-1941-art-333",
+    "n3689-1941-art-334",
+    "n3689-1941-art-335",
+    "n3689-1941-art-336",
+    "n3689-1941-art-337",
+    "n3689-1941-art-338",
+    "n3689-1941-art-339",
+    "n3689-1941-art-340",
+    "n3689-1941-art-341",
+    "n3689-1941-art-342",
+    "n3689-1941-art-343",
+    "n3689-1941-art-344",
+    "n3689-1941-art-345",
+    "n3689-1941-art-346",
+    "n3689-1941-art-347",
+    "n3689-1941-art-348",
+    "n3689-1941-art-349"
+   ],
+   "conceitos": [
+    "fiança pelo delegado",
+    "fiança pelo juiz",
+    "crimes inafiançáveis",
+    "outras vedações",
+    "valor da fiança",
+    "dispensa, redução e aumento",
+    "critérios de fixação",
+    "obrigações do afiançado",
+    "termo de fiança",
+    "espécies de fiança",
+    "depósito",
+    "autoridade competente",
+    "fiança sem ouvir o MP",
+    "até o trânsito em julgado",
+    "recusa do delegado",
+    "destino do valor",
+    "restituição",
+    "cassação",
+    "reforço",
+    "quebramento",
+    "perda total"
+   ],
+   "palavras": [
+    "fianca",
+    "autoridade policial",
+    "delegado",
+    "4 anos",
+    "quatro anos",
+    "48 horas",
+    "juiz",
+    "racismo",
+    "tortura",
+    "trafico",
+    "terrorismo",
+    "hediondos",
+    "grupos armados",
+    "ordem constitucional",
+    "quebrado fianca",
+    "prisao civil",
+    "prisao militar",
+    "motivos da preventiva",
+    "valor",
+    "salarios minimos",
+    "1 a 100",
+    "10 a 200",
+    "dispensada",
+    "reduzida",
+    "2/3",
+    "dois tercos",
+    "aumentada",
+    "1000 vezes",
+    "mil vezes",
+    "natureza da infracao",
+    "condicoes pessoais de fortuna",
+    "vida pregressa",
+    "periculosidade",
+    "custas",
+    "comparecer",
+    "mudar de residencia",
+    "oito dias",
+    "livro especial",
+    "termo",
+    "definitiva",
+    "dinheiro",
+    "pedras",
+    "metais preciosos",
+    "titulos da divida publica",
+    "hipoteca",
+    "tres dias",
+    "escrivao",
+    "presidir o auto",
+    "independentemente de audiencia do ministerio publico",
+    "transitar em julgado",
+    "recusando ou retardando",
+    "simples peticao",
+    "indenizacao do dano",
+    "prestacao pecuniaria",
+    "multa",
+    "restituido",
+    "cassada",
+    "inovacao na classificacao",
+    "reforco",
+    "quebrada",
+    "obstrucao",
+    "nova infracao penal dolosa",
+    "metade",
+    "perda",
+    "totalidade",
+    "fundo penitenciario",
+    "juizo civel",
+    "leiloeiro",
+    "concurso material"
+   ],
+   "resumo": "O <strong>delegado</strong> concede fiança se a pena máxima não passar de <strong>4 anos</strong>; acima disso, o pedido vai ao <strong>juiz</strong>, que decide em 48 horas (art. 322). No concurso material, somam-se as penas máximas. São <strong>inafiançáveis</strong> racismo, tortura, tráfico, terrorismo, hediondos e ação de grupos armados contra a ordem constitucional (art. 323), e não se concede fiança a quem já quebrou fiança no mesmo processo, na prisão civil ou militar e quando presentes os motivos da preventiva (art. 324). O valor vai de <strong>1 a 100</strong> salários mínimos (pena máxima até 4 anos) ou de <strong>10 a 200</strong> (acima de 4), e pode ser dispensado, reduzido até 2/3 ou aumentado até <strong>1.000 vezes</strong> (art. 325). O afiançado deve comparecer quando intimado e não pode mudar de residência sem permissão nem se ausentar por mais de 8 dias sem avisar (arts. 327 e 328). A fiança é concedida sem ouvir o MP e pode ser prestada até o trânsito em julgado. É <strong>cassada</strong> se incabível, <strong>reforçada</strong> se insuficiente e <strong>quebrada</strong> se o acusado falta sem motivo, obstrui o processo, descumpre cautelar, resiste a ordem judicial ou comete nova infração dolosa: perde-se <strong>metade</strong> do valor. O condenado que não se apresenta para cumprir a pena perde o <strong>total</strong>.",
+   "esquema": {
+    "rotulo": "o que acontece com a fiança",
+    "html": "<table><thead><tr><th>Situação</th><th>Consequência</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Fiança incabível ou crime reclassificado como inafiançável</strong></td><td>Cassada; valor restituído</td><td>338, 339 e 337</td></tr><tr><td><strong>Fiança insuficiente, bens depreciados ou nova classificação</strong></td><td>Reforço; sem reforço, fica sem efeito e o réu é preso</td><td>340</td></tr><tr><td><strong>Falta sem motivo, obstrução, descumprimento de cautelar, resistência, nova infração dolosa</strong></td><td>Quebrada; perde metade; juiz decide sobre cautelares ou preventiva</td><td>341 e 343</td></tr><tr><td><strong>Condenado não se apresenta para cumprir a pena</strong></td><td>Perda total</td><td>344</td></tr><tr><td><strong>Absolvição ou extinção da ação</strong></td><td>Restituição atualizada, sem desconto</td><td>337</td></tr><tr><td><strong>Condenação</strong></td><td>Paga custas, indenização, prestação pecuniária e multa</td><td>336</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Valor da fiança",
+    "linhas": [
+     {
+      "nome": "Pena máxima até 4 anos",
+      "o_que_e": "De 1 a 100 salários mínimos.",
+      "atencao": "Art. 325, I."
+     },
+     {
+      "nome": "Pena máxima acima de 4 anos",
+      "o_que_e": "De 10 a 200 salários mínimos.",
+      "atencao": "Art. 325, II."
+     },
+     {
+      "nome": "Preso pobre",
+      "o_que_e": "Dispensa (art. 350) ou redução até 2/3.",
+      "atencao": "Art. 325, § 1º, I e II."
+     },
+     {
+      "nome": "Preso rico",
+      "o_que_e": "Aumento em até 1.000 vezes.",
+      "atencao": "Art. 325, § 1º, III."
+     },
+     {
+      "nome": "Critérios",
+      "o_que_e": "Natureza da infração, fortuna, vida pregressa, periculosidade e custas prováveis.",
+      "atencao": "Art. 326."
+     }
+    ],
+    "colunas": [
+     "Caso",
+     "Valor",
+     "Artigo"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 322.",
+      "Art. 323.",
+      "Art. 324.",
+      "Art. 325.",
+      "Art. 326.",
+      "Art. 327.",
+      "Art. 328.",
+      "Art. 329.",
+      "Art. 330.",
+      "Art. 331.",
+      "Art. 332.",
+      "Art. 333.",
+      "Art. 334.",
+      "Art. 335.",
+      "Art. 336.",
+      "Art. 337.",
+      "Art. 338.",
+      "Art. 339.",
+      "Art. 340.",
+      "Art. 341.",
+      "Art. 342.",
+      "Art. 343.",
+      "Art. 344.",
+      "Art. 345.",
+      "Art. 346.",
+      "Art. 347.",
+      "Art. 348.",
+      "Art. 349."
+     ],
+     "ref": "arts. 322 a 349 do CPP",
+     "regras": [
+      "<strong>Arts. 322 a 324.</strong> Delegado concede se a pena máxima não passar de 4 anos; nos demais casos, o juiz decide em 48 horas. Crimes inafiançáveis e outras vedações (quebra anterior, prisão civil ou militar, motivos da preventiva).",
+      "<strong>Arts. 325 e 326.</strong> Valor de 1 a 100 ou de 10 a 200 salários mínimos; dispensa, redução até 2/3 ou aumento até 1.000 vezes; critérios de fixação.",
+      "<strong>Arts. 327 a 335.</strong> Obrigações do afiançado, livro e termo de fiança, espécies (dinheiro, pedras, metais, títulos, hipoteca), depósito, competência, concessão sem ouvir o MP, prazo até o trânsito em julgado e pedido ao juiz se o delegado recusar ou retardar.",
+      "<strong>Arts. 336 a 349.</strong> Destino do valor na condenação, restituição, cassação, reforço, quebramento (metade), perda total, fundo penitenciário, execução da hipoteca pelo MP no cível e venda de bens por leiloeiro."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A autoridade policial somente poderá conceder fiança nos casos de infração cuja pena privativa de liberdade máxima não seja superior a 4 (quatro) anos.",
+       "marcas": [
+        "não seja superior a 4 (quatro) anos"
+       ],
+       "afirmacao": "Preso em flagrante por crime com pena de 2 a 5 anos, o autuado tem a fiança arbitrada pelo delegado na própria delegacia.",
+       "gabarito": "E",
+       "porque": "Com pena máxima acima de 4 anos, só o juiz concede a fiança (art. 322)."
+      },
+      {
+       "trecho": "nos crimes de tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo e nos definidos como crimes hediondos",
+       "marcas": [
+        "crimes hediondos"
+       ],
+       "afirmacao": "Preso por estupro, o autuado não pode receber fiança, mas pode obter liberdade provisória sem fiança se ausentes os requisitos da preventiva.",
+       "gabarito": "C",
+       "porque": "Hediondos são inafiançáveis (art. 323, II), mas a inafiançabilidade não impede a liberdade provisória sem fiança."
+      },
+      {
+       "trecho": "quando presentes os motivos que autorizam a decretação da prisão preventiva",
+       "marcas": [
+        "motivos que autorizam"
+       ],
+       "afirmacao": "Mesmo com motivos para a preventiva, o crime afiançável garante ao preso a liberdade mediante fiança.",
+       "gabarito": "E",
+       "porque": "Não se concede fiança quando presentes os motivos da preventiva (art. 324, IV)."
+      },
+      {
+       "trecho": "aumentada em até 1.000 (mil) vezes",
+       "marcas": [
+        "1.000 (mil) vezes"
+       ],
+       "afirmacao": "Empresário milionário preso por crime com pena máxima de 3 anos tem a fiança fixada em 100 salários mínimos aumentada em até mil vezes.",
+       "gabarito": "C",
+       "porque": "Se a situação econômica recomendar, a fiança pode ser aumentada em até 1.000 vezes (art. 325, § 1º, III)."
+      },
+      {
+       "trecho": "ou ausentar-se por mais de oito dias de sua residência, sem comunicar àquela autoridade o lugar onde será encontrado",
+       "marcas": [
+        "oito dias"
+       ],
+       "afirmacao": "O réu afiançado viaja por quinze dias sem avisar o juízo onde pode ser encontrado. A fiança pode ser considerada quebrada.",
+       "gabarito": "C",
+       "porque": "Ausentar-se por mais de 8 dias sem comunicar o lugar onde será encontrado quebra a fiança (art. 328)."
+      },
+      {
+       "trecho": "A fiança, que será sempre definitiva, consistirá em depósito de dinheiro, pedras, objetos ou metais preciosos",
+       "marcas": [
+        "sempre definitiva"
+       ],
+       "afirmacao": "Sem dinheiro em espécie, o preso oferece como fiança barras de ouro, avaliadas de imediato por perito nomeado pela autoridade.",
+       "gabarito": "C",
+       "porque": "A fiança pode consistir em metais preciosos, avaliados de imediato por perito (art. 330 e § 1º)."
+      },
+      {
+       "trecho": "e dentro de três dias dar-se-á ao valor o destino que lhe assina este artigo",
+       "marcas": [
+        "três dias"
+       ],
+       "afirmacao": "Numa cidade sem agência bancária, o valor da fiança fica com o escrivão, que tem três dias para depositá-lo.",
+       "gabarito": "C",
+       "porque": "Onde o depósito não puder ser feito de pronto, o valor fica com o escrivão ou pessoa abonada e é destinado em três dias (art. 331, parágrafo único)."
+      },
+      {
+       "trecho": "que será concedida independentemente de audiência do Ministério Público",
+       "marcas": [
+        "independentemente de audiência"
+       ],
+       "afirmacao": "O juiz só pode conceder a fiança depois de ouvir o MP, sob pena de nulidade.",
+       "gabarito": "E",
+       "porque": "A fiança é concedida independentemente de audiência do MP, que tem vista depois (art. 333)."
+      },
+      {
+       "trecho": "A fiança poderá ser prestada enquanto não transitar em julgado a sentença condenatória.",
+       "marcas": [
+        "não transitar em julgado"
+       ],
+       "afirmacao": "Condenado em primeiro grau, o réu recorre e pede fiança. Ela ainda pode ser prestada.",
+       "gabarito": "C",
+       "porque": "A fiança pode ser prestada enquanto não transitar em julgado a sentença condenatória (art. 334)."
+      },
+      {
+       "trecho": "Recusando ou retardando a autoridade policial a concessão da fiança",
+       "marcas": [
+        "Recusando ou retardando"
+       ],
+       "afirmacao": "O delegado se recusa a arbitrar fiança cabível. O próprio preso pode prestá-la ao juiz por simples petição, e o juiz decide em 48 horas.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 335."
+      },
+      {
+       "trecho": "Será também cassada a fiança quando reconhecida a existência de delito inafiançável, no caso de inovação na classificação do delito.",
+       "marcas": [
+        "cassada"
+       ],
+       "afirmacao": "Denunciado por lesão grave, o réu teve fiança; depois, a acusação passa a ser de tortura. A fiança deve ser reforçada.",
+       "gabarito": "E",
+       "porque": "Reconhecido crime inafiançável por nova classificação, a fiança é cassada (art. 339)."
+      },
+      {
+       "trecho": "praticar nova infração penal dolosa",
+       "marcas": [
+        "dolosa"
+       ],
+       "afirmacao": "Afiançado, o réu causa um acidente e responde por lesão culposa no trânsito. A fiança é quebrada por nova infração.",
+       "gabarito": "E",
+       "porque": "Só a nova infração penal dolosa quebra a fiança (art. 341, V)."
+      },
+      {
+       "trecho": "importará na perda de metade do seu valor",
+       "marcas": [
+        "metade"
+       ],
+       "afirmacao": "Quebrada a fiança, o réu perde a metade do valor, e o juiz decide sobre outras cautelares ou a preventiva.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 343."
+      },
+      {
+       "trecho": "Entender-se-á perdido, na totalidade, o valor da fiança, se, condenado, o acusado não se apresentar",
+       "marcas": [
+        "na totalidade"
+       ],
+       "afirmacao": "Condenado em definitivo, o réu foge para não cumprir a pena. Ele perde metade do valor da fiança.",
+       "gabarito": "E",
+       "porque": "Nesse caso, a perda é total (art. 344)."
+      }
+     ],
+     "conferido": {
+      "Art. 322.": "c86dc5d251bb",
+      "Art. 323.": "ebdafae46688",
+      "Art. 324.": "c1a720a0c9b2",
+      "Art. 325.": "f714dfcec900",
+      "Art. 326.": "c012f1175af7",
+      "Art. 327.": "4a38e4c9cf3a",
+      "Art. 328.": "e9d7cbd97bd4",
+      "Art. 329.": "fabeef71a039",
+      "Art. 330.": "57141141a598",
+      "Art. 331.": "9189b2abcddd",
+      "Art. 332.": "9e411315fb8d",
+      "Art. 333.": "50cca80fd3cb",
+      "Art. 334.": "45fd6d3690d1",
+      "Art. 335.": "9827bf77f826",
+      "Art. 336.": "8958279fc6e5",
+      "Art. 337.": "7a1c4d2cb1ad",
+      "Art. 338.": "cc171cf18dac",
+      "Art. 339.": "ae43998dcda1",
+      "Art. 340.": "fe4e9a0ab421",
+      "Art. 341.": "890b72c85b6d",
+      "Art. 342.": "3400660b0371",
+      "Art. 343.": "30aa7efce24e",
+      "Art. 344.": "c6d9a3b786d2",
+      "Art. 345.": "d6cfb98e65cc",
+      "Art. 346.": "3fb2006936be",
+      "Art. 347.": "756be775a696",
+      "Art. 348.": "2420072792a3",
+      "Art. 349.": "276a148032bf"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADI 3.112",
+     "texto": "A inafiançabilidade não impede a liberdade provisória sem fiança; é inconstitucional a vedação abstrata de liberdade provisória."
+    }
+   ],
+   "detalhes": [
+    "Para saber se o delegado pode dar fiança, somam-se as penas máximas no concurso material: se o total passar de 4 anos, só o juiz arbitra (Cebraspe, Delegado PC-CE 2025).",
+    "Os crimes inafiançáveis do art. 323 repetem a Constituição (art. 5º, XLII a XLIV, no caderno de Direito Constitucional).",
+    "Concedida a fiança pelo delegado e não sendo possível o depósito imediato, o valor pode ser entregue ao escrivão, que tem três dias para dar-lhe destino. E o juiz pode revogar ou substituir a cautelar de ofício quando falta motivo (Cebraspe, Delegado PC-ES 2022).",
+    "No flagrante, concede a fiança a autoridade que presidiu o auto; na prisão por mandado, o juiz que o expediu ou a autoridade a quem a prisão foi requisitada (art. 332).",
+    "Se o julgamento que declarou a fiança quebrada for reformado, ela subsiste em todos os seus efeitos (art. 342).",
+    "Os valores servem às custas, à indenização, à prestação pecuniária e à multa também quando houver prescrição depois da sentença condenatória (art. 336, parágrafo único).",
+    "A fiança prestada em hipoteca é executada no juízo cível pelo MP; pedras e metais são vendidos por leiloeiro ou corretor (arts. 348 e 349).",
+    "O delegado não pode dar fiança no estupro: é crime hediondo e inafiançável (Cebraspe, Delegado PC-MA 2018).",
+    "Não cabe fiança na prisão civil nem na militar (art. 324, II). O valor não é entregue à vítima: é recolhido à repartição arrecadadora ou ao depositário público (art. 331)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ATÉ QUATRO, O DELEGADO",
+     "texto": "Pena máxima de até 4 anos: fiança na delegacia. Acima disso, só o juiz, em 48 horas."
+    },
+    {
+     "sigla": "QUEBROU, PERDE METADE",
+     "texto": "Quebramento: metade do valor. Perda total: condenado que foge do cumprimento da pena."
+    },
+    {
+     "sigla": "CASSA, REFORÇA, QUEBRA",
+     "texto": "Incabível: cassa. Insuficiente: reforça. Comportamento do réu: quebra."
+    },
+    {
+     "sigla": "1-100 / 10-200 / x1.000",
+     "texto": "Até 4 anos: 1 a 100 salários mínimos. Acima: 10 a 200. Pode reduzir até 2/3 ou aumentar até mil vezes."
     }
    ],
    "pegadinha": {
@@ -9838,12 +11873,37 @@
     "gabarito": "E",
     "explicacao": "Nova infração dolosa quebra a fiança e gera perda de metade do valor (arts. 341, V, e 343). A perda total é para o condenado que não se apresenta para cumprir a pena (Cebraspe, Delegado PC-ES 2022)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Fiança na delegacia.</strong> Concedida a fiança pelo delegado e não sendo possível o depósito imediato, o valor pode ser entregue ao escrivão, que tem três dias para dar-lhe destino (art. 331, parágrafo único). E o juiz pode, sim, revogar ou substituir a cautelar de ofício quando falta motivo para que subsista (art. 282, § 5º) (Cebraspe, Delegado PC-ES 2022).</p><p><strong>Inafiançabilidade.</strong> A inafiançabilidade dos crimes hediondos não impede a liberdade provisória concedida pelo juiz; impede apenas a fiança como forma de obtê-la (Cebraspe, Delegado PF 2018).</p><p><strong>Concurso de crimes.</strong> Para saber se o delegado pode dar fiança, somam-se as penas máximas no concurso material: se o total passar de 4 anos, só o juiz arbitra (Cebraspe, Delegado PC-CE 2025).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O delegado pode conceder fiança nas infrações com pena máxima de até oito anos.",
+     "certo": "Só até 4 anos (art. 322).",
+     "fonte": "Questão do app sobre o art. 322"
+    },
+    {
+     "errado": "A fiança só é concedida depois da manifestação do MP.",
+     "certo": "É concedida independentemente de audiência do MP (art. 333).",
+     "fonte": "Questão do app sobre o art. 333"
+    },
+    {
+     "errado": "Reconhecido na sentença crime inafiançável, a fiança deve ser reforçada.",
+     "certo": "Deve ser cassada (art. 339). O reforço é para fiança insuficiente.",
+     "fonte": "Questão do app sobre o art. 339"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-ES 2022; Delegado PC-CE 2025"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: a fiança saiu do tema de cautelares e ganhou quadro de valores, cassação, reforço, quebramento e perda."
+    }
+   ],
    "relacionados": [
-    "prisao-preventiva",
+    "medidas-cautelares-e-fianca",
     "prisao-em-flagrante",
-    "prisao-temporaria"
+    "cautelares-e-prisao-regras-gerais"
    ]
   },
   {
