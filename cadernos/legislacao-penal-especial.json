@@ -2606,80 +2606,622 @@
    ]
   },
   {
-   "slug": "posse-e-porte-de-arma-de-fogo",
-   "titulo": "Posse e porte ilegal de arma de fogo",
+   "slug": "sinarm-registro-e-posse-legal-de-arma",
+   "titulo": "Sinarm, aquisição e registro de arma de fogo",
    "grupo": "Armas de fogo",
-   "base": "Arts. 12, 14 e 16 da Lei 10.826/2003",
+   "base": "Arts. 1º a 5º, 11, 11-A e 28 da Lei 10.826/2003",
    "tax": [
-    "penal-especial.estatuto-desarmamento"
+    "penal-especial.estatuto-desarmamento.sinarm-registro"
+   ],
+   "dispositivos": [
+    "n10826-2003-art-1o",
+    "n10826-2003-art-2o",
+    "n10826-2003-art-3o",
+    "n10826-2003-art-4o",
+    "n10826-2003-art-5o",
+    "n10826-2003-art-11",
+    "n10826-2003-art-11-a",
+    "n10826-2003-art-28"
+   ],
+   "conceitos": [
+    "Sinarm",
+    "Polícia Federal",
+    "registro obrigatório",
+    "arma de uso restrito registrada no Exército",
+    "efetiva necessidade",
+    "idoneidade",
+    "ocupação lícita e residência certa",
+    "capacidade técnica e aptidão psicológica",
+    "autorização de compra intransferível",
+    "30 dias úteis",
+    "certificado de registro",
+    "posse em casa ou no trabalho",
+    "imóvel rural inteiro",
+    "renovação a cada 3 anos",
+    "taxas e isenções",
+    "vedação ao menor de 25 anos"
+   ],
+   "palavras": [
+    "sinarm",
+    "sistema nacional de armas",
+    "policia federal",
+    "ministerio da justica",
+    "cadastrar",
+    "registro obrigatorio",
+    "uso restrito",
+    "comando do exercito",
+    "efetiva necessidade",
+    "idoneidade",
+    "certidoes negativas",
+    "inquerito",
+    "ocupacao licita",
+    "residencia certa",
+    "capacidade tecnica",
+    "aptidao psicologica",
+    "autorizacao de compra",
+    "intransferivel",
+    "30 dias uteis",
+    "municao no calibre",
+    "entre pessoas fisicas",
+    "certificado de registro",
+    "interior de sua residencia",
+    "local de trabalho",
+    "titular ou o responsavel legal",
+    "area rural",
+    "toda a extensao do imovel",
+    "3 anos",
+    "taxas",
+    "isentas",
+    "menor de 25 anos",
+    "instrutor",
+    "psicologo"
+   ],
+   "resumo": "O <strong>Sinarm</strong>, no Ministério da Justiça e no âmbito da <strong>Polícia Federal</strong>, cadastra armas, portes, transferências, apreensões e armeiros em todo o país (arts. 1º e 2º). O <strong>registro é obrigatório</strong>; o das armas de uso restrito é feito no Comando do Exército (art. 3º). Para comprar arma de uso permitido, o interessado declara a <strong>efetiva necessidade</strong> e comprova três requisitos (art. 4º): idoneidade, ocupação lícita e residência certa, e capacidade técnica e aptidão psicológica. A idoneidade exige certidões negativas e não estar respondendo a inquérito ou processo. A autorização de compra é <strong>intransferível</strong> e sai em 30 dias úteis. O <strong>certificado de registro</strong>, expedido pela PF, permite manter a arma <strong>só dentro de casa</strong> ou no local de trabalho de que o dono seja titular ou responsável (art. 5º). Na área rural, a residência é <strong>todo o imóvel</strong>. Os requisitos são comprovados de novo a cada 3 anos, no mínimo. Menores de <strong>25 anos</strong> não podem comprar arma, salvo integrantes de certas carreiras (art. 28).",
+   "esquema": {
+    "rotulo": "registro x porte",
+    "html": "<table><thead><tr><th></th><th>Registro (posse)</th><th>Porte</th></tr></thead><tbody><tr><td><strong>O que autoriza</strong></td><td>Manter a arma em casa ou no trabalho de que se é titular</td><td>Levar a arma consigo fora desses lugares</td></tr><tr><td><strong>Quem expede</strong></td><td>Polícia Federal, após autorização do Sinarm (uso restrito: Exército)</td><td>Polícia Federal, após autorização do Sinarm (art. 10)</td></tr><tr><td><strong>Crime sem o documento</strong></td><td>Posse irregular (art. 12) ou art. 16, se restrita</td><td>Porte ilegal (art. 14) ou art. 16, se restrita</td></tr><tr><td><strong>Validade</strong></td><td>Todo o território nacional; requisitos revistos a cada 3 anos ou mais</td><td>Pode ter eficácia temporária e territorial limitada</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n10826-2003",
+     "artigos": [
+      "Art. 1o.",
+      "Art. 2o.",
+      "Art. 3o.",
+      "Art. 4o.",
+      "Art. 5o.",
+      "Art. 11.",
+      "Art. 11-A.",
+      "Art. 28."
+     ],
+     "ref": "arts. 1º a 5º, 11, 11-A e 28 do Estatuto do Desarmamento",
+     "regras": [
+      "<strong>Arts. 1º e 2º.</strong> Sinarm: no Ministério da Justiça, no âmbito da Polícia Federal; cadastros de armas, portes, ocorrências, apreensões e armeiros. Não alcança as armas das Forças Armadas.",
+      "<strong>Art. 3º.</strong> Registro obrigatório; uso restrito registrado no Comando do Exército.",
+      "<strong>Art. 4º.</strong> Efetiva necessidade e requisitos para comprar; autorização intransferível em 30 dias úteis; munição só do calibre registrado; venda entre pessoas físicas só com autorização do Sinarm.",
+      "<strong>Art. 5º.</strong> Certificado de registro: posse em casa ou no trabalho de que se é titular; imóvel rural inteiro; renovação.",
+      "<strong>Arts. 11, 11-A e 28.</strong> Taxas e isenções; credenciamento de psicólogos e instrutores; vedação de compra ao menor de 25 anos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "As armas de fogo de uso restrito serão registradas no Comando do Exército",
+       "marcas": [
+        "Comando do Exército"
+       ],
+       "afirmacao": "O atirador desportivo que compra um fuzil de uso restrito deve registrá-lo no Comando do Exército, e não no Sinarm.",
+       "gabarito": "C",
+       "porque": "Art. 3º, parágrafo único: a arma de uso restrito é registrada no Comando do Exército."
+      },
+      {
+       "trecho": "de não estar respondendo a inquérito policial ou a processo criminal",
+       "marcas": [
+        "inquérito policial"
+       ],
+       "afirmacao": "Quem responde a inquérito policial, mas ainda não foi denunciado, preenche o requisito de idoneidade para comprar arma de uso permitido.",
+       "gabarito": "E",
+       "porque": "A idoneidade exige não estar respondendo a inquérito policial ou a processo criminal (art. 4º, I)."
+      },
+      {
+       "trecho": "em nome do requerente e para a arma indicada, sendo intransferível esta autorização",
+       "marcas": [
+        "intransferível"
+       ],
+       "afirmacao": "Com a autorização de compra já expedida, o interessado desiste e a repassa ao irmão, que cumpre os mesmos requisitos. A transferência é válida.",
+       "gabarito": "E",
+       "porque": "A autorização de compra é intransferível (art. 4º, § 1º)."
+      },
+      {
+       "trecho": "no prazo de 30 (trinta) dias úteis, a contar da data do requerimento do interessado",
+       "marcas": [
+        "30 (trinta) dias úteis"
+       ],
+       "afirmacao": "A autorização de compra de arma deve ser concedida, ou recusada com fundamentação, em até 30 dias úteis do requerimento.",
+       "gabarito": "C",
+       "porque": "Art. 4º, § 6º."
+      },
+      {
+       "trecho": "Aos residentes em área rural, para os fins do disposto no caput deste artigo, considera-se residência ou domicílio toda a extensão do respectivo imóvel rural.",
+       "marcas": [
+        "toda a extensão do respectivo imóvel rural"
+       ],
+       "afirmacao": "O fazendeiro com arma registrada a leva no cinto enquanto percorre o pasto da própria fazenda, longe da sede. Não comete crime, porque o imóvel rural inteiro conta como residência.",
+       "gabarito": "C",
+       "porque": "Art. 5º, § 5º (Lei 13.870/2019)."
+      },
+      {
+       "trecho": "É vedado ao menor de 25 (vinte e cinco) anos adquirir arma de fogo",
+       "marcas": [
+        "25 (vinte e cinco) anos"
+       ],
+       "afirmacao": "Com 21 anos, sem pertencer a nenhuma carreira armada, o rapaz pode comprar arma de uso permitido se cumprir os requisitos do art. 4º.",
+       "gabarito": "E",
+       "porque": "A compra é vedada ao menor de 25 anos, salvo integrantes das entidades do art. 6º, I, II, III, V, VI, VII e X (art. 28)."
+      }
+     ],
+     "conferido": {
+      "Art. 1o.": "6f962fdf6406",
+      "Art. 2o.": "4f64354c005f",
+      "Art. 3o.": "01fa54376539",
+      "Art. 4o.": "5e1986338627",
+      "Art. 5o.": "bfe4fe24101f",
+      "Art. 11.": "97eba3283127",
+      "Art. 11-A.": "7ba250ea1686",
+      "Art. 28.": "501a904de52a"
+     },
+     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Corte Especial, APn 686",
+     "texto": "Manter em casa arma com registro vencido é infração administrativa, e não o crime do art. 12. A lógica não vale para o porte, que exige autorização própria."
+    }
+   ],
+   "detalhes": [
+    "A empresa que vende armas comunica a venda e mantém banco de dados; as armas são de sua propriedade enquanto não vendidas (art. 4º, §§ 3º e 4º).",
+    "Quem comprova estar autorizado a portar arma com as mesmas características fica dispensado de comprovar capacidade técnica e aptidão psicológica (art. 4º, § 8º).",
+    "Estão isentos das taxas os integrantes das entidades do art. 6º, I a VII e X, e o caçador para subsistência (art. 11, § 2º).",
+    "O instrutor de tiro não pode cobrar mais de R$ 80,00 mais a munição; cobrar acima leva ao descredenciamento (art. 11-A)."
+   ],
+   "macetes": [
+    {
+     "sigla": "REGISTRO É CASA; PORTE É RUA",
+     "texto": "O registro autoriza manter a arma em casa ou no trabalho de que se é titular; fora daí precisa de porte."
+    },
+    {
+     "sigla": "RESTRITA, EXÉRCITO",
+     "texto": "Arma de uso restrito se registra no Comando do Exército (art. 3º)."
+    },
+    {
+     "sigla": "25 ANOS",
+     "texto": "Idade mínima para comprar arma, salvo carreiras do art. 6º (art. 28)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O certificado de registro de arma de fogo autoriza o proprietário a portá-la no trajeto entre sua casa e qualquer local de trabalho.",
+    "gabarito": "E",
+    "explicacao": "O registro autoriza manter a arma só dentro da residência ou no local de trabalho de que o dono seja titular ou responsável (art. 5º). O trajeto exige porte."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O Sinarm cadastra também as armas das Forças Armadas.",
+     "certo": "As armas das Forças Armadas e Auxiliares ficam fora (art. 2º, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 2º"
+    },
+    {
+     "errado": "Os requisitos do registro são comprovados a cada ano.",
+     "certo": "Em período não inferior a 3 anos (art. 5º, § 2º).",
+     "fonte": "Questão do app sobre o art. 5º"
+    },
+    {
+     "errado": "A venda de arma entre particulares é livre se ambos tiverem registro.",
+     "certo": "Só com autorização do Sinarm (art. 4º, § 5º).",
+     "fonte": "Questão do app sobre o art. 4º"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre os requisitos de aquisição e o registro (arts. 4º e 5º)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: Sinarm, requisitos de aquisição, registro e posse legal (arts. 1º a 5º, 11, 11-A e 28 do Estatuto)."
+    }
+   ],
+   "relacionados": [
+    "porte-legal-de-arma-de-fogo",
+    "posse-e-porte-de-arma-de-fogo"
+   ]
+  },
+  {
+   "slug": "porte-legal-de-arma-de-fogo",
+   "titulo": "Porte de arma: quem pode portar, condições e perda automática",
+   "grupo": "Armas de fogo",
+   "base": "Arts. 6º a 10 da Lei 10.826/2003",
+   "tax": [
+    "penal-especial.estatuto-desarmamento.porte-legal"
+   ],
+   "dispositivos": [
+    "n10826-2003-art-6o",
+    "n10826-2003-art-7",
+    "n10826-2003-art-7o-a",
+    "n10826-2003-art-8o",
+    "n10826-2003-art-9o",
+    "n10826-2003-art-10"
+   ],
+   "conceitos": [
+    "proibição geral do porte",
+    "porte funcional",
+    "Forças Armadas e polícias",
+    "guardas municipais (ADI 5.538)",
+    "porte fora de serviço",
+    "agentes prisionais",
+    "caçador para subsistência",
+    "segurança privada",
+    "porte de tribunais e MP",
+    "limite de 50% dos servidores",
+    "porte pela Polícia Federal",
+    "efetiva necessidade",
+    "eficácia temporária e territorial",
+    "perda automática por embriaguez"
+   ],
+   "palavras": [
+    "proibido o porte",
+    "forcas armadas",
+    "art. 144",
+    "forca nacional",
+    "guardas municipais",
+    "adi 5538",
+    "abin",
+    "gabinete de seguranca institucional",
+    "policias legislativas",
+    "agentes e guardas prisionais",
+    "escoltas de presos",
+    "guardas portuarias",
+    "seguranca privada",
+    "transporte de valores",
+    "desporto",
+    "auditoria da receita",
+    "auditor-fiscal do trabalho",
+    "tribunais",
+    "ministerios publicos",
+    "funcoes de seguranca",
+    "fora de servico",
+    "dedicacao exclusiva",
+    "cacador para subsistencia",
+    "maiores de 25 anos",
+    "area rural",
+    "regioes metropolitanas",
+    "em servico",
+    "50%",
+    "24 horas",
+    "policia federal",
+    "efetiva necessidade",
+    "atividade profissional de risco",
+    "eficacia temporaria",
+    "territorial limitada",
+    "embriaguez",
+    "substancias quimicas",
+    "perdera automaticamente"
+   ],
+   "resumo": "A regra é a <strong>proibição do porte</strong> em todo o país; as exceções estão em lei própria e no art. 6º. Podem portar, entre outros, Forças Armadas, polícias do art. 144 da CF, Força Nacional, guardas municipais, Abin e GSI, polícias legislativas, agentes prisionais, escoltas de presos e guardas portuárias. Também segurança privada e transporte de valores, atiradores desportivos e auditores da Receita e do Trabalho. Tribunais e MP, só para servidores em funções de segurança. As restrições de população às guardas municipais caíram no STF (ADI 5.538). Forças Armadas, polícias, guardas, Abin/GSI e polícias legislativas portam <strong>mesmo fora de serviço</strong> (§ 1º). Os agentes prisionais também, se em dedicação exclusiva, com formação e controle (§ 1º-B). O residente rural <strong>maior de 25 anos</strong> que depende da arma para a subsistência alimentar recebe o porte de <strong>caçador para subsistência</strong> (§ 5º). Fora dessas categorias, o porte de uso permitido é dado pela <strong>Polícia Federal</strong>, após o Sinarm, a quem demonstrar efetiva necessidade (art. 10). O porte perde a eficácia <strong>automaticamente</strong> se o portador for detido ou abordado embriagado ou sob efeito de drogas (§ 2º).",
+   "esquema": {
+    "rotulo": "porte funcional, em linhas gerais",
+    "html": "<table><thead><tr><th>Quem</th><th>Fora de serviço?</th><th>Base</th></tr></thead><tbody><tr><td><strong>Forças Armadas, polícias do art. 144, Força Nacional, guardas municipais, Abin/GSI, polícias legislativas</strong></td><td>Sim, com arma particular ou da corporação</td><td>Art. 6º, § 1º</td></tr><tr><td><strong>Agentes e guardas prisionais</strong></td><td>Sim, se em dedicação exclusiva, com formação e controle</td><td>Art. 6º, § 1º-B</td></tr><tr><td><strong>Guardas municipais de regiões metropolitanas</strong></td><td>Em serviço (regra do § 7º)</td><td>Art. 6º, § 7º</td></tr><tr><td><strong>Segurança privada e transporte de valores</strong></td><td>Não: arma da empresa, só em serviço</td><td>Art. 7º</td></tr><tr><td><strong>Servidores de segurança de tribunais e MP</strong></td><td>Não: arma da instituição, só em serviço; até 50% dos servidores da função</td><td>Art. 7º-A</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n10826-2003",
+     "artigos": [
+      "Art. 6o.",
+      "Art. 7º.",
+      "Art. 7o-A.",
+      "Art. 8o.",
+      "Art. 9o.",
+      "Art. 10."
+     ],
+     "ref": "arts. 6º a 10 do Estatuto do Desarmamento",
+     "regras": [
+      "<strong>Art. 6º.</strong> Proibição do porte e as exceções; porte fora de serviço; agentes prisionais; guardas municipais; caçador para subsistência.",
+      "<strong>Arts. 7º e 7º-A.</strong> Armas da segurança privada e dos tribunais e MP, de propriedade das instituições e usadas só em serviço; comunicação de extravio em 24 horas.",
+      "<strong>Arts. 8º e 9º.</strong> Entidades desportivas; porte para seguranças de estrangeiros (Ministério da Justiça) e porte de trânsito (Exército).",
+      "<strong>Art. 10.</strong> Porte de uso permitido pela Polícia Federal, após o Sinarm; efetiva necessidade; eficácia limitada; perda automática."
+     ],
+     "literalidades": [
+      {
+       "trecho": "É proibido o porte de arma de fogo em todo o território nacional, salvo para os casos previstos em legislação própria",
+       "marcas": [
+        "legislação própria"
+       ],
+       "afirmacao": "Magistrados e membros do Ministério Público portam arma com base nas próprias leis orgânicas, que o Estatuto ressalva ao admitir casos previstos em legislação própria.",
+       "gabarito": "C",
+       "porque": "O art. 6º, caput, ressalva os casos previstos em legislação própria, como a LOMAN e a Lei Orgânica do MP."
+      },
+      {
+       "trecho": "maiores de 25 (vinte e cinco) anos que comprovem depender do emprego de arma de fogo para prover sua subsistência alimentar familiar",
+       "marcas": [
+        "maiores de 25 (vinte e cinco) anos",
+        "subsistência alimentar familiar"
+       ],
+       "afirmacao": "O agricultor de 22 anos, que caça para alimentar a família no sertão, pode obter o porte de caçador para subsistência.",
+       "gabarito": "E",
+       "porque": "O porte de caçador para subsistência é para residentes rurais maiores de 25 anos (art. 6º, § 5º)."
+      },
+      {
+       "trecho": "responderá, conforme o caso, por porte ilegal ou por disparo de arma de fogo de uso permitido",
+       "marcas": [
+        "porte ilegal",
+        "disparo"
+       ],
+       "afirmacao": "O caçador para subsistência leva a espingarda para a festa da cidade. Responde por porte ilegal, porque deu outro uso à arma.",
+       "gabarito": "C",
+       "porque": "Art. 6º, § 6º: dar outro uso à arma leva ao porte ilegal ou ao disparo."
+      },
+      {
+       "trecho": "respeitado o limite máximo de 50% (cinquenta por cento) do número de servidores que exerçam funções de segurança",
+       "marcas": [
+        "50% (cinquenta por cento)"
+       ],
+       "afirmacao": "O presidente do tribunal pode autorizar o porte a todos os servidores que exercem funções de segurança, sem limite.",
+       "gabarito": "E",
+       "porque": "O limite é de 50% dos servidores em funções de segurança (art. 7º-A, § 2º)."
+      },
+      {
+       "trecho": "é de competência da Polícia Federal e somente será concedida após autorização do Sinarm",
+       "marcas": [
+        "Polícia Federal",
+        "Sinarm"
+       ],
+       "afirmacao": "O advogado ameaçado pede o porte de arma de uso permitido à Secretaria de Segurança do seu Estado.",
+       "gabarito": "E",
+       "porque": "A autorização de porte de uso permitido é da Polícia Federal, após o Sinarm (art. 10)."
+      },
+      {
+       "trecho": "perderá automaticamente sua eficácia caso o portador dela seja detido ou abordado em estado de embriaguez",
+       "marcas": [
+        "automaticamente"
+       ],
+       "afirmacao": "Abordado numa blitz visivelmente embriagado, o empresário com porte da Polícia Federal perde a eficácia do porte automaticamente, sem processo administrativo prévio.",
+       "gabarito": "C",
+       "porque": "Art. 10, § 2º: a perda é automática."
+      }
+     ],
+     "conferido": {
+      "Art. 6o.": "69f8f7e7b9ae",
+      "Art. 7º.": "0ec04d40d30d",
+      "Art. 7o-A.": "5f8f41150a19",
+      "Art. 8o.": "706cf6d4433b",
+      "Art. 9o.": "52909278a300",
+      "Art. 10.": "8967c45c6d80"
+     },
+     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADI 5.538 e ADC 38",
+     "texto": "É inconstitucional restringir o porte das guardas municipais pelo tamanho da população do Município; todas as guardas podem ter porte, nas condições do regulamento."
+    }
+   ],
+   "detalhes": [
+    "Os agentes da Abin e do GSI, as polícias legislativas, os agentes prisionais e os auditores precisam comprovar capacidade técnica e aptidão psicológica (art. 6º, § 2º).",
+    "O porte das guardas municipais depende de formação em estabelecimentos de ensino policial e de mecanismos de fiscalização e controle (art. 6º, § 3º).",
+    "Forças Armadas e polícias, ao comprar arma, ficam dispensadas dos requisitos do art. 4º (art. 6º, § 4º).",
+    "O proprietário ou diretor de empresa de segurança que não comunica o extravio de arma em 24 horas comete o crime do art. 13, parágrafo único (art. 7º, § 1º).",
+    "A autorização de porte para tribunais e MP independe do pagamento de taxa (art. 7º-A, § 1º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "PORTE É EXCEÇÃO",
+     "texto": "A regra é a proibição (art. 6º); cada exceção tem lista e condições."
+    },
+    {
+     "sigla": "BEBEU, PERDEU",
+     "texto": "Abordado embriagado ou drogado, o porte perde a eficácia na hora (art. 10, § 2º)."
+    },
+    {
+     "sigla": "CAÇADOR: RURAL, 25, SUBSISTÊNCIA",
+     "texto": "Os três requisitos do porte de caçador para subsistência (art. 6º, § 5º)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "As armas usadas pelos vigilantes de empresa de segurança privada podem ser de propriedade do próprio vigilante, desde que registradas no Sinarm.",
+    "gabarito": "E",
+    "explicacao": "São de propriedade, responsabilidade e guarda das empresas, usadas só em serviço (art. 7º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Só as guardas municipais de capitais têm direito ao porte.",
+     "certo": "O STF derrubou as restrições por população (ADI 5.538).",
+     "fonte": "Questão do app sobre o art. 6º"
+    },
+    {
+     "errado": "Agente prisional porta arma fora de serviço em qualquer situação.",
+     "certo": "Só se em dedicação exclusiva, com formação funcional e sujeito a controle (art. 6º, § 1º-B).",
+     "fonte": "Questão do app sobre o art. 6º"
+    },
+    {
+     "errado": "O porte de trânsito de arma de colecionador é dado pela Polícia Federal.",
+     "certo": "É do Comando do Exército (art. 9º).",
+     "fonte": "Questão do app sobre o art. 9º"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre as categorias do art. 6º e o porte da Polícia Federal (art. 10)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: quem pode portar arma, condições, caçador para subsistência e perda automática do porte (arts. 6º a 10 do Estatuto)."
+    }
+   ],
+   "relacionados": [
+    "sinarm-registro-e-posse-legal-de-arma",
+    "posse-e-porte-de-arma-de-fogo"
+   ]
+  },
+  {
+   "slug": "posse-e-porte-de-arma-de-fogo",
+   "titulo": "Posse irregular, omissão de cautela, porte ilegal e arma de uso restrito ou proibido",
+   "grupo": "Armas de fogo",
+   "base": "Arts. 12, 13, 14 e 16 da Lei 10.826/2003",
+   "tax": [
+    "penal-especial.estatuto-desarmamento.posse-porte-crimes"
    ],
    "dispositivos": [
     "n10826-2003-art-12",
+    "n10826-2003-art-13",
     "n10826-2003-art-14",
     "n10826-2003-art-16"
    ],
    "conceitos": [
-    "posse irregular de arma de fogo",
-    "porte ilegal de arma de fogo",
-    "arma de uso restrito",
-    "arma de uso proibido",
-    "numeração raspada"
-   ],
-   "palavras": [
-    "estatuto do desarmamento",
-    "art 12",
-    "art 14",
-    "art 16",
-    "posse",
-    "porte",
-    "residencia",
-    "local de trabalho",
-    "uso permitido",
-    "uso restrito",
-    "uso proibido",
-    "numeracao raspada",
+    "posse irregular",
+    "omissão de cautela",
+    "extravio não comunicado em 24 horas",
+    "porte ilegal",
     "perigo abstrato",
     "arma desmuniciada",
     "arma ineficaz",
-    "municao",
-    "acessorio",
-    "silenciador",
-    "caminhao",
-    "registro vencido"
+    "uso restrito",
+    "uso proibido",
+    "numeração raspada",
+    "artefato explosivo",
+    "venda de arma a criança ou adolescente",
+    "registro vencido",
+    "abolitio criminis temporária",
+    "crime único com várias armas"
    ],
-   "resumo": "Ter arma de <strong>uso permitido</strong> sem registro dentro de casa, ou no local de trabalho de que se é titular ou responsável, é <strong>posse irregular</strong> (art. 12): detenção de 1 a 3 anos. Fora desses lugares, ou nos demais verbos (transportar, ceder, emprestar), é <strong>porte ilegal</strong> (art. 14): reclusão de 2 a 4 anos. Com arma, acessório ou munição de <strong>uso restrito</strong>, posse e porte caem no mesmo art. 16, com pena de 3 a 6 anos; se a arma for de <strong>uso proibido</strong>, de 4 a 12, e o crime é hediondo. A arma com numeração raspada, suprimida ou adulterada leva à pena do art. 16, ainda que seja de uso permitido. São crimes de <strong>perigo abstrato</strong>: a arma desmuniciada continua sendo crime; só a arma totalmente ineficaz, comprovada por perícia, torna o fato atípico.",
+   "palavras": [
+    "possuir",
+    "manter sob sua guarda",
+    "uso permitido",
+    "interior de sua residencia",
+    "local de trabalho",
+    "titular ou o responsavel",
+    "1 a 3 anos",
+    "detencao",
+    "cautelas necessarias",
+    "menor de 18 anos",
+    "deficiencia mental",
+    "se apodere",
+    "24 horas",
+    "empresa de seguranca",
+    "portar",
+    "deter",
+    "transportar",
+    "ceder",
+    "emprestar",
+    "2 a 4 anos",
+    "inafiancavel",
+    "uso restrito",
+    "3 a 6 anos",
+    "numeracao",
+    "raspado",
+    "suprimido",
+    "adulterado",
+    "explosivo",
+    "incendiario",
+    "crianca ou adolescente",
+    "uso proibido",
+    "4 a 12 anos",
+    "hediondo",
+    "desmuniciada",
+    "perigo abstrato",
+    "ineficacia",
+    "registro vencido",
+    "apn 686",
+    "sumula 513",
+    "caminhao"
+   ],
+   "resumo": "Ter arma de uso permitido sem registro <strong>dentro de casa</strong>, ou no local de trabalho de que se é titular ou responsável, é <strong>posse irregular</strong> (art. 12): detenção de 1 a 3 anos. Fora desses lugares, ou nos demais verbos (transportar, ceder, emprestar), é <strong>porte ilegal</strong> (art. 14): reclusão de 2 a 4 anos. Com arma, acessório ou munição de <strong>uso restrito</strong>, posse e porte caem no mesmo art. 16, com pena de 3 a 6 anos. Se a arma for de <strong>uso proibido</strong>, a pena é de 4 a 12 anos, e o crime é hediondo. Também vão para o art. 16 a arma com <strong>numeração raspada</strong>, ainda que de uso permitido, o artefato explosivo e a venda de arma ou munição a criança ou adolescente. São crimes de <strong>perigo abstrato</strong>: a arma desmuniciada continua sendo crime; só a arma totalmente ineficaz, comprovada por perícia, torna o fato atípico. A <strong>omissão de cautela</strong> (art. 13) pune quem deixa menor de 18 anos ou pessoa com deficiência mental se apoderar da arma. Na mesma pena incorre o dono de empresa de segurança que não comunica o extravio em 24 horas.",
    "esquema": {
-    "rotulo": "qual artigo",
-    "html": "<table><thead><tr><th>Situação</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Arma de uso permitido em casa ou no próprio local de trabalho</strong></td><td>Posse irregular (art. 12)</td><td>Detenção, 1 a 3 anos</td></tr><tr><td><strong>Arma de uso permitido fora de casa, ou transportada, cedida, emprestada</strong></td><td>Porte ilegal (art. 14)</td><td>Reclusão, 2 a 4 anos</td></tr><tr><td><strong>Arma de uso restrito, dentro ou fora de casa</strong></td><td>Art. 16, caput</td><td>Reclusão, 3 a 6 anos</td></tr><tr><td><strong>Qualquer arma com numeração raspada ou suprimida</strong></td><td>Art. 16, § 1º, IV</td><td>Reclusão, 3 a 6 anos</td></tr><tr><td><strong>Arma de uso proibido</strong></td><td>Art. 16, § 2º (hediondo)</td><td>Reclusão, 4 a 12 anos</td></tr></tbody></table>"
+    "rotulo": "posse x porte, permitida x restrita",
+    "html": "<table><thead><tr><th></th><th>Uso permitido</th><th>Uso restrito</th><th>Uso proibido</th></tr></thead><tbody><tr><td><strong>Dentro de casa ou do trabalho de que é titular</strong></td><td>Posse irregular (art. 12): detenção de 1 a 3 anos</td><td>Art. 16: reclusão de 3 a 6 anos</td><td>Art. 16, § 2º: reclusão de 4 a 12 anos; hediondo</td></tr><tr><td><strong>Fora desses lugares ou nos outros verbos</strong></td><td>Porte ilegal (art. 14): reclusão de 2 a 4 anos</td><td>Art. 16: reclusão de 3 a 6 anos</td><td>Art. 16, § 2º: reclusão de 4 a 12 anos; hediondo</td></tr><tr><td><strong>Numeração raspada</strong></td><td>Art. 16, § 1º, IV</td><td>Art. 16, § 1º, IV</td><td>Art. 16, § 2º</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 12. Possuir ou manter sob sua guarda arma de fogo, acessório ou munição, de uso permitido, em desacordo com determinação legal ou regulamentar, no interior de sua residência ou dependência desta, ou, ainda no seu local de trabalho, desde que seja o titular ou o responsável legal do estabelecimento ou empresa:\n\nPena – detenção, de 1 (um) a 3 (três) anos, e multa.",
+     "norma": "n10826-2003",
+     "artigos": [
+      "Art. 12.",
+      "Art. 13.",
+      "Art. 14.",
+      "Art. 16."
+     ],
+     "ref": "arts. 12, 13, 14 e 16 do Estatuto do Desarmamento",
+     "regras": [
+      "<strong>Art. 12.</strong> Posse irregular de arma de uso permitido em casa ou no local de trabalho de que se é titular ou responsável.",
+      "<strong>Art. 13.</strong> Omissão de cautela com menor de 18 anos ou pessoa com deficiência mental; extravio não comunicado em 24 horas pela empresa de segurança.",
+      "<strong>Art. 14.</strong> Porte ilegal de arma de uso permitido; a inafiançabilidade do parágrafo único caiu na ADI 3.112.",
+      "<strong>Art. 16.</strong> Posse ou porte de uso restrito; figuras equiparadas do § 1º; uso proibido no § 2º."
+     ],
+     "literalidades": [
+      {
+       "trecho": "no interior de sua residência ou dependência desta, ou, ainda no seu local de trabalho, desde que seja o titular ou o responsável legal do estabelecimento ou empresa",
+       "marcas": [
+        "titular ou o responsável legal"
+       ],
+       "afirmacao": "O balconista guarda, na gaveta da loja em que trabalha como empregado, um revólver de uso permitido sem registro. Comete posse irregular, porque a arma está no local de trabalho.",
+       "gabarito": "E",
+       "porque": "O local de trabalho só conta para a posse se o agente é o titular ou responsável legal do estabelecimento (art. 12). O empregado comete porte ilegal (art. 14)."
+      },
+      {
+       "trecho": "Deixar de observar as cautelas necessárias para impedir que menor de 18 (dezoito) anos ou pessoa portadora de deficiência mental se apodere de arma de fogo",
+       "marcas": [
+        "menor de 18 (dezoito) anos"
+       ],
+       "afirmacao": "O pai deixa a pistola carregada em cima da mesa da sala, e o filho de 12 anos a pega para brincar. O pai responde pela omissão de cautela do art. 13.",
+       "gabarito": "C",
+       "porque": "O art. 13 pune quem não toma as cautelas para impedir que menor de 18 anos se apodere da arma."
+      },
+      {
+       "trecho": "nas primeiras 24 (vinte quatro) horas depois de ocorrido o fato",
+       "marcas": [
+        "24 (vinte quatro) horas"
+       ],
+       "afirmacao": "O diretor da empresa de transporte de valores tem até 72 horas para comunicar à Polícia Federal o furto de uma arma da empresa.",
+       "gabarito": "E",
+       "porque": "O prazo é de 24 horas; quem não comunica incorre nas penas do art. 13 (parágrafo único)."
+      },
+      {
+       "trecho": "ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob guarda ou ocultar arma de fogo, acessório ou munição, de uso permitido",
+       "marcas": [
+        "emprestar"
+       ],
+       "afirmacao": "Emprestar, por um fim de semana, a um amigo sem porte, um revólver de uso permitido não é crime, porque não houve venda.",
+       "gabarito": "E",
+       "porque": "Emprestar ou ceder, mesmo sem cobrar, está entre os verbos do porte ilegal (art. 14)."
+      },
+      {
+       "trecho": "portar, possuir, adquirir, transportar ou fornecer arma de fogo com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado",
+       "marcas": [
+        "raspado, suprimido ou adulterado"
+       ],
+       "afirmacao": "Guardado em casa, um revólver calibre 38, de uso permitido, com a numeração raspada leva o dono às penas do art. 16, e não às da posse irregular.",
+       "gabarito": "C",
+       "porque": "Art. 16, § 1º, IV: a numeração raspada leva ao art. 16 qualquer que seja a arma (Cebraspe, Delegado PC-DF 2026)."
+      },
+      {
+       "trecho": "vender, entregar ou fornecer, ainda que gratuitamente, arma de fogo, acessório, munição ou explosivo a criança ou adolescente",
+       "marcas": [
+        "criança ou adolescente"
+       ],
+       "afirmacao": "O tio entrega ao sobrinho de 16 anos, de presente, uma caixa de munição. A conduta tem as penas do art. 16.",
+       "gabarito": "C",
+       "porque": "Art. 16, § 1º, V: fornecer munição a adolescente, mesmo sem cobrar, tem as penas do art. 16."
+      }
+     ],
+     "conferido": {
+      "Art. 12.": "7bd4a38802d6",
+      "Art. 13.": "7abd9eb5313c",
+      "Art. 14.": "a5a3ac5fa791",
+      "Art. 16.": "3b7e24287f9d"
+     },
      "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 14. Portar, deter, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob guarda ou ocultar arma de fogo, acessório ou munição, de uso permitido, sem autorização e em desacordo com determinação legal ou regulamentar:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\n(...)",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 16. Possuir, deter, portar, adquirir, fornecer, receber, ter em depósito, transportar, ceder, ainda que gratuitamente, emprestar, remeter, empregar, manter sob sua guarda ou ocultar arma de fogo, acessório ou munição de uso restrito, sem autorização e em desacordo com determinação legal ou regulamentar:\n\nPena – reclusão, de 3 (três) a 6 (seis) anos, e multa.\n\n§ 1º Nas mesmas penas incorre quem:\n\nI – suprimir ou alterar marca, numeração ou qualquer sinal de identificação de arma de fogo ou artefato;\n\n(...)\n\nIV – portar, possuir, adquirir, transportar ou fornecer arma de fogo com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado;\n\n(...)\n\n§ 2º Se as condutas descritas no caput e no § 1º deste artigo envolverem arma de fogo de uso proibido, a pena é de reclusão, de 4 (quatro) a 12 (doze) anos.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "DENTRO É POSSE, FORA É PORTE",
-     "texto": "Só a arma de uso permitido distingue posse (art. 12) e porte (art. 14). Na de uso restrito, os dois estão no art. 16."
-    },
-    {
-     "sigla": "RASPOU, VIROU 16",
-     "texto": "Numeração raspada leva qualquer arma, mesmo de uso permitido e guardada em casa, para a pena do art. 16."
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm"
     }
    ],
    "juris": [
@@ -2696,8 +3238,29 @@
      "texto": "Laudo que atesta a ineficácia absoluta da arma afasta o crime, por impossibilidade de lesão ao bem jurídico. O caminhão não é extensão da residência nem local de trabalho do motorista, e levar arma nele é porte."
     },
     {
-     "quem": "STJ, Súmula 513",
+     "quem": "STJ · Súmula 513",
      "texto": "A abolitio criminis temporária prevista na Lei n. 10.826/2003 aplica-se ao crime de posse de arma de fogo de uso permitido com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado, praticado somente até 23/10/2005."
+    }
+   ],
+   "detalhes": [
+    "O caminhoneiro surpreendido com revólver de uso permitido no caminhão comete porte, e não posse (Cebraspe, Delegado PC-PB 2022). Na mesma questão, a pequena quantidade de munição sem arma podia ser atípica pela insignificância, conforme o caso, e o silenciador é acessório de uso restrito (art. 16).",
+    "Errado dizer que o porte de arma desmuniciada não é crime por ser de perigo concreto (Cebraspe, Delegado PC-SE 2018; Delegado PJC-MT 2017).",
+    "Várias armas ou munições no mesmo contexto e no mesmo tipo penal formam crime único, e a quantidade pesa na pena-base. Arma de uso permitido junto com arma de uso restrito leva a concurso formal (STJ).",
+    "Com o Pacote Anticrime, só a posse ou o porte de arma de uso proibido é hediondo (art. 1º, parágrafo único, II, da Lei 8.072); o de uso restrito deixou de ser.",
+    "A omissão de cautela (art. 13, caput) é o único crime culposo do Estatuto."
+   ],
+   "macetes": [
+    {
+     "sigla": "DENTRO É POSSE, FORA É PORTE",
+     "texto": "Só a arma de uso permitido distingue posse (art. 12) e porte (art. 14). Na de uso restrito, os dois estão no art. 16."
+    },
+    {
+     "sigla": "RASPOU, VIROU 16",
+     "texto": "Numeração raspada leva qualquer arma, mesmo de uso permitido e guardada em casa, para a pena do art. 16."
+    },
+    {
+     "sigla": "PROIBIDA É HEDIONDA",
+     "texto": "Desde 2019, só a arma de uso proibido torna o art. 16 hediondo."
     }
    ],
    "pegadinha": {
@@ -2705,18 +3268,37 @@
     "gabarito": "E",
     "explicacao": "A arma com numeração suprimida leva à pena do art. 16, § 1º, IV, mesmo guardada em casa (Cebraspe, Delegado PC-DF 2026)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Caminhoneiro porta, não possui.</strong> O caminhoneiro surpreendido com revólver de uso permitido no caminhão comete porte, e não posse (Cebraspe, Delegado PC-PB 2022). Na mesma questão havia quatro erros. A arma declarada absolutamente ineficaz pela perícia afasta o crime. Pequena quantidade de munição sem arma pode, sim, ser atípica pela insignificância, conforme o caso. O silenciador não é fato atípico: é acessório de uso restrito (art. 16). E o aumento do art. 20 não se aplica à posse do art. 12, só aos arts. 14 a 18.</p><p><strong>Desmuniciada continua crime.</strong> Errado dizer que o porte de arma desmuniciada não é crime por ser de perigo concreto (Cebraspe, Delegado PC-SE 2018; Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Raspada vai para o art. 16.</strong> Com o revólver de numeração raspada, o agente fica sujeito à pena da posse ou porte de arma de uso restrito (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Arma do pai falecido.</strong> O entendimento de que manter arma com registro vencido é só infração administrativa protege o proprietário que a adquiriu legalmente. Ele não alcança o herdeiro que guarda em casa a arma do pai falecido sem fazer a transferência: a conduta é típica e se encaixa no art. 12 do Estatuto. Estava errado estender ao herdeiro a solução administrativa, falar em crime autônomo de registro vencido ou exigir a partilha no inventário para haver crime (FGV, Juiz TJPE 2026).</p><p><strong>Abolitio temporária e várias armas.</strong> A abolitio criminis temporária do Estatuto alcança a posse de arma de uso permitido com numeração raspada, suprimida ou adulterada praticada até 23/10/2005 (Súmula 513 do STJ). Várias armas ou munições no mesmo contexto e no mesmo tipo penal formam crime único, e a quantidade pesa na pena-base; arma de uso permitido junto com arma de uso restrito leva a concurso formal (STJ).</p><p><strong>Empresa de segurança que não comunica o extravio.</strong> Incorre nas penas da omissão de cautela (art. 13, parágrafo único) o proprietário ou diretor responsável de empresa de segurança e transporte de valores que não registra ocorrência policial e não comunica à Polícia Federal perda, furto, roubo ou extravio de arma, acessório ou munição sob sua guarda nas primeiras 24 horas. O caput do art. 13 é outro crime: deixar menor de 18 anos ou pessoa com deficiência mental se apoderar da arma. Ambos são de detenção, de 1 a 2 anos, e multa.</p>",
-   "relacionados": [
-    "comercio-trafico-internacional-e-disparo-de-arma",
-    "crimes-hediondos"
+   "pegadinhas": [
+    {
+     "errado": "O caminhoneiro com arma no caminhão comete posse, porque o veículo é seu local de trabalho.",
+     "certo": "Comete porte (art. 14).",
+     "fonte": "Cebraspe: Delegado PC-PB 2022"
+    },
+    {
+     "errado": "Arma desmuniciada não configura porte ilegal.",
+     "certo": "É crime de perigo abstrato (STF, HC 104.410).",
+     "fonte": "Cebraspe: Delegado PC-SE 2018"
+    },
+    {
+     "errado": "A posse de arma de uso restrito continua hedionda.",
+     "certo": "Só a de uso proibido é hedionda desde o Pacote Anticrime.",
+     "fonte": "Questão do app sobre o art. 16"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-DF 2026; Delegado PC-PB 2022; Delegado PC-SE 2018; Delegado PJC-MT 2017"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescidos a Súmula 513 do STJ (abolitio temporária) e a regra de crime único ou concurso formal com várias armas."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema ampliado: entra a omissão de cautela (art. 13) ao lado da posse, do porte e do art. 16."
     }
+   ],
+   "relacionados": [
+    "sinarm-registro-e-posse-legal-de-arma",
+    "porte-legal-de-arma-de-fogo",
+    "comercio-trafico-internacional-e-disparo-de-arma"
    ],
    "mapa": [
     {
@@ -2801,11 +3383,11 @@
   },
   {
    "slug": "comercio-trafico-internacional-e-disparo-de-arma",
-   "titulo": "Disparo, comércio ilegal e tráfico internacional de arma de fogo",
+   "titulo": "Disparo, comércio ilegal, tráfico internacional de arma e causas de aumento",
    "grupo": "Armas de fogo",
-   "base": "Arts. 15 e 17 a 21-A da Lei 10.826/2003; art. 1º, parágrafo único, da Lei 8.072/1990",
+   "base": "Arts. 15 e 17 a 21-A da Lei 10.826/2003",
    "tax": [
-    "penal-especial.estatuto-desarmamento"
+    "penal-especial.estatuto-desarmamento.comercio-trafico-disparo"
    ],
    "dispositivos": [
     "n10826-2003-art-15",
@@ -2814,78 +3396,145 @@
     "n10826-2003-art-19",
     "n10826-2003-art-20",
     "n10826-2003-art-21",
-    "n10826-2003-art-21-a",
-    "n8072-1990-art-1"
+    "n10826-2003-art-21-a"
    ],
    "conceitos": [
     "disparo de arma de fogo",
-    "comércio ilegal de arma de fogo",
-    "tráfico internacional de arma de fogo",
-    "agente policial disfarçado"
+    "subsidiariedade do disparo",
+    "comércio ilegal",
+    "atividade comercial clandestina em casa",
+    "tráfico internacional de arma",
+    "agente policial disfarçado",
+    "aumento da metade",
+    "uso proibido ou restrito",
+    "integrante de órgão ou empresa",
+    "reincidente específico",
+    "ADI 3.112",
+    "aumento de 2/3 no contexto do tráfico de drogas",
+    "crimes hediondos do Estatuto"
    ],
    "palavras": [
-    "art 15",
-    "disparo",
+    "disparar",
+    "acionar municao",
+    "lugar habitado",
+    "adjacencias",
     "via publica",
-    "art 17",
+    "finalidade a pratica de outro crime",
+    "2 a 4 anos",
     "comercio ilegal",
-    "atividade comercial",
+    "atividade comercial ou industrial",
     "residencia",
-    "art 18",
-    "trafico internacional",
-    "art 19",
-    "art 20",
+    "6 a 12 anos",
+    "importar",
+    "exportar",
+    "favorecer a entrada",
+    "8 a 16 anos",
+    "agente policial disfarcado",
+    "aumentada da metade",
+    "uso proibido ou restrito",
     "reincidente especifico",
-    "art 21",
     "liberdade provisoria",
     "adi 3112",
     "inafiancavel",
-    "agente policial disfarcado",
+    "2/3",
+    "comercio ilicito de entorpecentes",
     "hediondo",
-    "art 21-a"
+    "justica federal"
    ],
-   "resumo": "<strong>Disparar</strong> arma de fogo ou acionar munição em lugar habitado, nas adjacências ou em via pública é crime de 2 a 4 anos (art. 15), desde que o disparo não seja meio para outro crime. O <strong>comércio ilegal</strong> (art. 17), no exercício de atividade comercial ou industrial, ainda que clandestina e feita em casa, tem pena de 6 a 12 anos. O <strong>tráfico internacional</strong> (art. 18), importar, exportar ou favorecer a entrada ou saída de arma, acessório ou munição, tem pena de 8 a 16. Nos dois, a pena sobe metade se o material for de uso proibido ou restrito (art. 19). Os dois crimes e a posse ou porte de arma de uso proibido são <strong>hediondos</strong>. Desde 2019, vender arma a <strong>agente policial disfarçado</strong> também é crime, havendo prova de conduta criminosa anterior. O STF derrubou a inafiançabilidade dos arts. 14 e 15 e a proibição de liberdade provisória do art. 21 (ADI 3.112).",
+   "resumo": "Disparar arma de fogo ou acionar munição em lugar habitado, nas adjacências ou em via pública é crime de 2 a 4 anos (art. 15), desde que o disparo <strong>não seja meio para outro crime</strong>. O <strong>comércio ilegal</strong> (art. 17), no exercício de atividade comercial ou industrial, mesmo clandestina e feita em casa, tem pena de 6 a 12 anos. O <strong>tráfico internacional</strong> (art. 18) tem pena de 8 a 16 anos: importar, exportar ou favorecer a entrada ou saída de arma, acessório ou munição. Nos dois, a pena sobe <strong>metade</strong> se o material for de uso proibido ou restrito (art. 19). Os arts. 14 a 18 também sobem metade se o agente integra os órgãos e empresas dos arts. 6º a 8º ou é <strong>reincidente específico</strong> (art. 20). Desde 2019, vender arma a <strong>agente policial disfarçado</strong> também é crime, havendo prova de conduta criminosa anterior. O <strong>art. 21-A</strong> (Lei 15.358/2026) aumenta de 2/3 a pena dos arts. 12, 14 e 16 quando a arma está ligada ao tráfico de drogas. O STF derrubou a inafiançabilidade dos arts. 14 e 15 e a proibição de liberdade provisória do art. 21 (ADI 3.112). O comércio ilegal, o tráfico internacional e a posse ou porte de arma de uso proibido são <strong>hediondos</strong>.",
    "esquema": {
-    "rotulo": "hediondo, aumento e o que o STF derrubou",
-    "html": "<table><thead><tr><th>Crime</th><th>Pena</th><th>Hediondo?</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Porte de uso permitido (art. 14)</strong></td><td>2 a 4 anos</td><td>Não</td><td>Inafiançabilidade derrubada (ADI 3.112)</td></tr><tr><td><strong>Disparo (art. 15)</strong></td><td>2 a 4 anos</td><td>Não</td><td>Subsidiário; inafiançabilidade derrubada</td></tr><tr><td><strong>Posse ou porte de uso proibido (art. 16, § 2º)</strong></td><td>4 a 12 anos</td><td>Sim</td><td>Uso restrito no caput do art. 16 não é hediondo</td></tr><tr><td><strong>Comércio ilegal (art. 17)</strong></td><td>6 a 12 anos</td><td>Sim</td><td>+ metade se uso proibido ou restrito (art. 19)</td></tr><tr><td><strong>Tráfico internacional (art. 18)</strong></td><td>8 a 16 anos</td><td>Sim</td><td>+ metade se uso proibido ou restrito (art. 19)</td></tr></tbody></table>"
+    "rotulo": "as causas de aumento do Estatuto",
+    "html": "<table><thead><tr><th>Dispositivo</th><th>Quando</th><th>Alcança</th></tr></thead><tbody><tr><td><strong>Art. 19</strong></td><td>Arma, acessório ou munição de uso proibido ou restrito: metade</td><td>Arts. 17 e 18</td></tr><tr><td><strong>Art. 20, I</strong></td><td>Integrante dos órgãos e empresas dos arts. 6º, 7º e 8º: metade</td><td>Arts. 14 a 18</td></tr><tr><td><strong>Art. 20, II</strong></td><td>Reincidente específico: metade</td><td>Arts. 14 a 18</td></tr><tr><td><strong>Art. 21-A</strong></td><td>Arma ligada ao tráfico de drogas: 2/3</td><td>Arts. 12, 14 e 16</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 15. Disparar arma de fogo ou acionar munição em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, desde que essa conduta não tenha como finalidade a prática de outro crime:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\n(...)",
+     "norma": "n10826-2003",
+     "artigos": [
+      "Art. 15.",
+      "Art. 17.",
+      "Art. 18.",
+      "Art. 19.",
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 21-A."
+     ],
+     "ref": "arts. 15 e 17 a 21-A do Estatuto do Desarmamento",
+     "regras": [
+      "<strong>Art. 15.</strong> Disparo em lugar habitado, adjacências ou via pública, se não for meio para outro crime.",
+      "<strong>Arts. 17 e 18.</strong> Comércio ilegal (6 a 12 anos) e tráfico internacional (8 a 16 anos), com a venda ao agente disfarçado.",
+      "<strong>Arts. 19 a 21-A.</strong> Aumentos da metade (uso proibido ou restrito; integrante de órgão ou empresa; reincidente específico); vedação de liberdade provisória derrubada; aumento de 2/3 ligado ao tráfico de drogas."
+     ],
+     "literalidades": [
+      {
+       "trecho": "desde que essa conduta não tenha como finalidade a prática de outro crime",
+       "marcas": [
+        "finalidade a prática de outro crime"
+       ],
+       "afirmacao": "O homem dispara contra o vizinho para matá-lo e erra. Responde pela tentativa de homicídio e também pelo disparo do art. 15, em concurso material.",
+       "gabarito": "E",
+       "porque": "O disparo é subsidiário: fica absorvido quando tem por finalidade outro crime (art. 15)."
+      },
+      {
+       "trecho": "qualquer forma de prestação de serviços, fabricação ou comércio irregular ou clandestino, inclusive o exercido em residência",
+       "marcas": [
+        "inclusive o exercido em residência"
+       ],
+       "afirmacao": "O homem monta e vende pistolas na garagem de casa, sem loja nem CNPJ. Pode responder por comércio ilegal de arma de fogo.",
+       "gabarito": "C",
+       "porque": "O art. 17, § 1º, equipara à atividade comercial o comércio irregular ou clandestino, inclusive em residência."
+      },
+      {
+       "trecho": "Nos crimes previstos nos arts. 17 e 18, a pena é aumentada da metade se a arma de fogo, acessório ou munição forem de uso proibido ou restrito.",
+       "marcas": [
+        "arts. 17 e 18"
+       ],
+       "afirmacao": "O dono de uma loja clandestina que vende fuzis de uso restrito tem a pena do comércio ilegal aumentada de metade.",
+       "gabarito": "C",
+       "porque": "O art. 19 aumenta de metade os arts. 17 e 18 quando a arma, o acessório ou a munição é de uso proibido ou restrito."
+      },
+      {
+       "trecho": "forem praticados por integrante dos órgãos e empresas referidas nos arts. 6º, 7º e 8º desta Lei",
+       "marcas": [
+        "arts. 6º, 7º e 8º"
+       ],
+       "afirmacao": "O policial que mantém em casa arma de uso permitido sem registro tem a pena da posse irregular aumentada de metade por ser integrante de órgão do art. 6º.",
+       "gabarito": "E",
+       "porque": "O art. 20 alcança os arts. 14, 15, 16, 17 e 18; a posse irregular do art. 12 fica de fora."
+      },
+      {
+       "trecho": "se o crime for praticado em concurso com crime previsto na Lei nº 11.343, de 23 de agosto de 2006, estiver diretamente ligado ao comércio ilícito de entorpecentes",
+       "marcas": [
+        "diretamente ligado ao comércio ilícito de entorpecentes"
+       ],
+       "afirmacao": "O traficante que mantém um revólver ao lado da droga para garantir a venda tem a pena do porte ilegal aumentada de 2/3.",
+       "gabarito": "C",
+       "porque": "Art. 21-A, incluído pela Lei 15.358/2026: aumento de 2/3 nos arts. 12, 14 e 16 ligados ao tráfico de drogas."
+      }
+     ],
+     "conferido": {
+      "Art. 15.": "f9108196aaff",
+      "Art. 17.": "438f63e6771e",
+      "Art. 18.": "e1a8e85d80bb",
+      "Art. 19.": "c53eb902f507",
+      "Art. 20.": "c3cdd506bcb6",
+      "Art. 21.": "6dabf9527eac",
+      "Art. 21-A.": "662936ec7d56"
+     },
      "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 17. Adquirir, alugar, receber, transportar, conduzir, ocultar, ter em depósito, desmontar, montar, remontar, adulterar, vender, expor à venda, ou de qualquer forma utilizar, em proveito próprio ou alheio, no exercício de atividade comercial ou industrial, arma de fogo, acessório ou munição, sem autorização ou em desacordo com determinação legal ou regulamentar:\n\nPena - reclusão, de 6 (seis) a 12 (doze) anos, e multa.\n\n§ 1º Equipara-se à atividade comercial ou industrial, para efeito deste artigo, qualquer forma de prestação de serviços, fabricação ou comércio irregular ou clandestino, inclusive o exercido em residência.\n\n§ 2º Incorre na mesma pena quem vende ou entrega arma de fogo, acessório ou munição, sem autorização ou em desacordo com a determinação legal ou regulamentar, a agente policial disfarçado, quando presentes elementos probatórios razoáveis de conduta criminal preexistente.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 18. Importar, exportar, favorecer a entrada ou saída do território nacional, a qualquer título, de arma de fogo, acessório ou munição, sem autorização da autoridade competente:\n\nPena - reclusão, de 8 (oito) a 16 (dezesseis) anos, e multa.\n\nParágrafo único. Incorre na mesma pena quem vende ou entrega arma de fogo, acessório ou munição, em operação de importação, sem autorização da autoridade competente, a agente policial disfarçado, quando presentes elementos probatórios razoáveis de conduta criminal preexistente.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 19. Nos crimes previstos nos arts. 17 e 18, a pena é aumentada da metade se a arma de fogo, acessório ou munição forem de uso proibido ou restrito.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 20. Nos crimes previstos nos arts. 14, 15, 16, 17 e 18, a pena é aumentada da metade se:\n\nI - forem praticados por integrante dos órgãos e empresas referidas nos arts. 6º, 7º e 8º desta Lei; ou\n\nII - o agente for reincidente específico em crimes dessa natureza.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
-    },
-    {
-     "texto": "Art. 21-A. Nos crimes previstos nos arts. 12, 14 e 16 desta Lei, a pena é aumentada de 2/3 (dois terços) se o crime for praticado em concurso com crime previsto na Lei nº 11.343, de 23 de agosto de 2006, estiver diretamente ligado ao comércio ilícito de entorpecentes ou o artefato tiver sido utilizado para assegurar o sucesso da mercancia.",
-     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
-     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm",
-     "norma": "n10826-2003"
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADI 3.112",
+     "texto": "São inconstitucionais os parágrafos únicos dos arts. 14 e 15, que tornavam inafiançáveis o porte e o disparo, e o art. 21, que proibia liberdade provisória nos arts. 16, 17 e 18."
+    }
+   ],
+   "detalhes": [
+    "Na prova de Delegado PC-MA 2018 a única certa era que a numeração raspada equivale à arma de uso restrito. Estavam erradas a vedação de liberdade provisória ao tráfico internacional (ADI 3.112), o aumento do comércio ilegal com arma de uso permitido e a atipicidade da arma desmuniciada (Cebraspe).",
+    "Errado dizer que o delegado não pode conceder fiança no porte porque a arma não está registrada no nome do agente: a inafiançabilidade do art. 14 caiu na ADI 3.112 (Cebraspe, Delegado PC-SE 2018).",
+    "São hediondos, pela Lei 8.072 (art. 1º, parágrafo único): posse ou porte de arma de uso proibido (art. 16, § 2º), comércio ilegal (art. 17) e tráfico internacional de arma (art. 18).",
+    "O tráfico internacional de arma é julgado pela Justiça Federal."
    ],
    "macetes": [
     {
@@ -2895,12 +3544,10 @@
     {
      "sigla": "COMÉRCIO E TRÁFICO SOBEM COM ARMA RESTRITA",
      "texto": "O art. 19 só aumenta os arts. 17 e 18. Comércio de arma de uso permitido não tem essa majorante."
-    }
-   ],
-   "juris": [
+    },
     {
-     "quem": "STF · ADI 3.112",
-     "texto": "São inconstitucionais os parágrafos únicos dos arts. 14 e 15, que tornavam inafiançáveis o porte e o disparo, e o art. 21, que proibia liberdade provisória nos arts. 16, 17 e 18."
+     "sigla": "ARMA DO TRÁFICO: + 2/3",
+     "texto": "Art. 21-A, para os arts. 12, 14 e 16 ligados ao tráfico de drogas."
     }
    ],
    "pegadinha": {
@@ -2908,11 +3555,268 @@
     "gabarito": "E",
     "explicacao": "O art. 21 do Estatuto, que previa essa vedação, foi declarado inconstitucional na ADI 3.112 (Cebraspe, Delegado PC-MA 2018)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Uma questão, quatro pegadinhas.</strong> Na prova de Delegado PC-MA 2018, a única certa era que a numeração raspada equivale à arma de uso restrito. Estavam erradas a vedação de liberdade provisória ao tráfico internacional (ADI 3.112), o aumento do comércio ilegal com arma de uso permitido (o art. 19 exige uso proibido ou restrito), a atipicidade da arma desmuniciada e a inafiançabilidade do disparo e do porte (Cebraspe).</p><p><strong>Fiança no porte.</strong> Errado dizer que o delegado não pode conceder fiança porque a arma não está registrada no nome do agente: a inafiançabilidade do art. 14 caiu na ADI 3.112 (Cebraspe, Delegado PC-SE 2018).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O comércio ilegal de arma de uso permitido tem a pena aumentada de metade.",
+     "certo": "O aumento do art. 19 exige arma de uso proibido ou restrito.",
+     "fonte": "Cebraspe: Delegado PC-MA 2018"
+    },
+    {
+     "errado": "O porte ilegal de arma não registrada no nome do agente é inafiançável.",
+     "certo": "A inafiançabilidade caiu na ADI 3.112.",
+     "fonte": "Cebraspe: Delegado PC-SE 2018"
+    },
+    {
+     "errado": "Disparar arma para o alto em rua deserta, sem casas por perto, é sempre o crime do art. 15.",
+     "certo": "O art. 15 exige lugar habitado, adjacências ou via pública; fora disso, o fato pode ser atípico.",
+     "fonte": "Questão do app sobre o art. 15"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-SE 2018"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema atualizado: aumento de 2/3 do art. 21-A (Lei 15.358/2026) para arma ligada ao tráfico de drogas."
+    }
+   ],
    "relacionados": [
     "posse-e-porte-de-arma-de-fogo",
+    "trafico-de-drogas",
     "crimes-hediondos"
+   ]
+  },
+  {
+   "slug": "disposicoes-gerais-do-estatuto-do-desarmamento",
+   "titulo": "Classificação das armas, destino das armas apreendidas, entrega voluntária e Banco de Perfis Balísticos",
+   "grupo": "Armas de fogo",
+   "base": "Arts. 22 a 37 da Lei 10.826/2003",
+   "tax": [
+    "penal-especial.estatuto-desarmamento.disposicoes-gerais"
+   ],
+   "dispositivos": [
+    "n10826-2003-art-22",
+    "n10826-2003-art-23",
+    "n10826-2003-art-24",
+    "n10826-2003-art-25",
+    "n10826-2003-art-26",
+    "n10826-2003-art-27",
+    "n10826-2003-art-29",
+    "n10826-2003-art-30",
+    "n10826-2003-art-31",
+    "n10826-2003-art-32",
+    "n10826-2003-art-33",
+    "n10826-2003-art-34",
+    "n10826-2003-art-34-a",
+    "n10826-2003-art-35",
+    "n10826-2003-art-36",
+    "n10826-2003-art-37"
+   ],
+   "conceitos": [
+    "classificação por ato do Executivo",
+    "Comando do Exército",
+    "código de barras nas munições",
+    "armas apreendidas ao Exército em 48 horas",
+    "destruição ou doação",
+    "réplicas e simulacros",
+    "uso restrito por autorização excepcional",
+    "entrega voluntária e extinção da punibilidade",
+    "indenização",
+    "multa a empresas de transporte",
+    "eventos com mais de 1.000 pessoas",
+    "Banco Nacional de Perfis Balísticos",
+    "referendo de 2005"
+   ],
+   "palavras": [
+    "classificacao",
+    "chefe do poder executivo federal",
+    "comando do exercito",
+    "codigo de barras",
+    "culote",
+    "dispositivo intrinseco",
+    "apreendidas",
+    "laudo pericial",
+    "48 horas",
+    "destruicao",
+    "doacao",
+    "orgaos de seguranca",
+    "brinquedos",
+    "replicas",
+    "simulacros",
+    "instrucao",
+    "colecao",
+    "aquisicao de uso restrito",
+    "excepcionalmente",
+    "entregar",
+    "recibo",
+    "indenizacao",
+    "boa-fe",
+    "extinta a punibilidade",
+    "multa",
+    "100 mil",
+    "300 mil",
+    "transporte",
+    "publicidade",
+    "1000 pessoas",
+    "eventos",
+    "banco nacional de perfis balisticos",
+    "sigiloso",
+    "pericia criminal",
+    "referendo",
+    "outubro de 2005",
+    "revoga a lei 9.437"
+   ],
+   "resumo": "A classificação das armas em uso proibido, restrito, permitido ou obsoleto é feita por <strong>ato do chefe do Poder Executivo federal</strong>, por proposta do Comando do Exército (art. 23). O Exército autoriza e fiscaliza produção, importação, exportação e comércio de produtos controlados (art. 24). Depois do laudo, a arma apreendida que não interessa mais ao processo vai ao <strong>Comando do Exército em até 48 horas</strong>, para destruição ou doação a órgãos de segurança (art. 25). São proibidos brinquedos, <strong>réplicas e simulacros</strong> que se confundam com armas, salvo para instrução, adestramento ou coleção autorizada (art. 26). Quem <strong>entrega espontaneamente</strong> a arma à Polícia Federal recebe indenização, presume-se de boa-fé e tem <strong>extinta a punibilidade</strong> da posse irregular (art. 32). Promotores de eventos fechados com mais de 1.000 pessoas devem impedir o ingresso de pessoas armadas (art. 34). Os registros balísticos de crimes vão para o <strong>Banco Nacional de Perfis Balísticos</strong>, sigiloso e gerido pela perícia oficial (art. 34-A). A proibição geral de venda de armas (art. 35) dependia de referendo e não entrou em vigor.",
+   "esquema": {
+    "rotulo": "quem faz o quê fora do Sinarm",
+    "html": "<table><thead><tr><th>Órgão</th><th>Competência</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Chefe do Executivo federal</strong></td><td>Classificar as armas (proibido, restrito, permitido, obsoleto)</td><td>23</td></tr><tr><td><strong>Comando do Exército</strong></td><td>Autorizar e fiscalizar produção, comércio exterior e produtos controlados; receber armas apreendidas; autorizar excepcionalmente a compra de uso restrito</td><td>24, 25 e 27</td></tr><tr><td><strong>Polícia Federal</strong></td><td>Receber armas entregues voluntariamente, com indenização</td><td>31 e 32</td></tr><tr><td><strong>Perícia oficial</strong></td><td>Gerir o Banco Nacional de Perfis Balísticos</td><td>34-A</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n10826-2003",
+     "artigos": [
+      "Art. 22.",
+      "Art. 23.",
+      "Art. 24.",
+      "Art. 25.",
+      "Art. 26.",
+      "Art. 27.",
+      "Art. 29.",
+      "Art. 30.",
+      "Art. 31.",
+      "Art. 32.",
+      "Art. 33.",
+      "Art. 34.",
+      "Art. 34-A.",
+      "Art. 35.",
+      "Art. 36.",
+      "Art. 37."
+     ],
+     "ref": "arts. 22 a 37 do Estatuto do Desarmamento",
+     "regras": [
+      "<strong>Arts. 22 a 24.</strong> Convênios; classificação das armas por ato do Executivo; código de barras e marcação; competências do Exército.",
+      "<strong>Arts. 25 a 27.</strong> Destino das armas apreendidas; réplicas e simulacros; compra excepcional de uso restrito.",
+      "<strong>Arts. 29 a 32.</strong> Regras de transição; entrega voluntária com indenização e extinção da punibilidade.",
+      "<strong>Arts. 33 a 37.</strong> Multas a empresas; eventos e transporte de passageiros; Banco Nacional de Perfis Balísticos; referendo; vigência."
+     ],
+     "literalidades": [
+      {
+       "trecho": "serão encaminhadas pelo juiz competente ao Comando do Exército, no prazo de até 48 (quarenta e oito) horas",
+       "marcas": [
+        "48 (quarenta e oito) horas"
+       ],
+       "afirmacao": "Juntado o laudo e sem interesse para o processo, a arma apreendida deve ser enviada pelo juiz à Polícia Federal em até 30 dias, para destruição.",
+       "gabarito": "E",
+       "porque": "O juiz encaminha a arma ao Comando do Exército em até 48 horas, para destruição ou doação (art. 25)."
+      },
+      {
+       "trecho": "Excetuam-se da proibição as réplicas e os simulacros destinados à instrução, ao adestramento, ou à coleção de usuário autorizado",
+       "marcas": [
+        "instrução",
+        "adestramento"
+       ],
+       "afirmacao": "Uma academia de polícia pode usar simulacros de pistola para treinar os alunos, nas condições fixadas pelo Comando do Exército.",
+       "gabarito": "C",
+       "porque": "Art. 26, parágrafo único: réplicas para instrução, adestramento ou coleção autorizada são permitidas."
+      },
+      {
+       "trecho": "presumindo-se de boa-fé, serão indenizados, na forma do regulamento, ficando extinta a punibilidade de eventual posse irregular da referida arma",
+       "marcas": [
+        "extinta a punibilidade"
+       ],
+       "afirmacao": "O morador que encontra no sótão o revólver sem registro do avô e o entrega espontaneamente à Polícia Federal pode ser processado por posse irregular.",
+       "gabarito": "E",
+       "porque": "A entrega espontânea extingue a punibilidade da posse irregular daquela arma (art. 32)."
+      },
+      {
+       "trecho": "com aglomeração superior a 1000 (um mil) pessoas",
+       "marcas": [
+        "1000 (um mil) pessoas"
+       ],
+       "afirmacao": "O promotor de um show em ginásio fechado para 3 mil pessoas deve adotar providências para impedir a entrada de pessoas armadas.",
+       "gabarito": "C",
+       "porque": "Art. 34: eventos em locais fechados com mais de 1.000 pessoas."
+      },
+      {
+       "trecho": "O Banco Nacional de Perfis Balísticos será gerido pela unidade oficial de perícia criminal.",
+       "marcas": [
+        "unidade oficial de perícia criminal"
+       ],
+       "afirmacao": "O Banco Nacional de Perfis Balísticos é gerido pelo Comando do Exército, que também fiscaliza os produtos controlados.",
+       "gabarito": "E",
+       "porque": "É gerido pela unidade oficial de perícia criminal (art. 34-A, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 22.": "bd61f9958f78",
+      "Art. 23.": "a641d9f424f0",
+      "Art. 24.": "b804ade2455e",
+      "Art. 25.": "ab27678c92e0",
+      "Art. 26.": "43863e6a79bf",
+      "Art. 27.": "1dd50c33ca04",
+      "Art. 29.": "61dc994c376b",
+      "Art. 30.": "ccf99ea0c816",
+      "Art. 31.": "0a2b4ae81fff",
+      "Art. 32.": "cfa1d5a94140",
+      "Art. 33.": "62225f94050c",
+      "Art. 34.": "69b1d599d1a2",
+      "Art. 34-A.": "44a114d45558",
+      "Art. 35.": "a37b5889003d",
+      "Art. 36.": "a80f3108cffb",
+      "Art. 37.": "00306a4260f8"
+     },
+     "fonte": "Lei 10.826/2003 (Estatuto do Desarmamento), texto compilado do Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826compilado.htm"
+    }
+   ],
+   "detalhes": [
+    "Armas e munições apreendidas no tráfico de drogas, perdidas em favor da União, podem ser destinadas aos órgãos de segurança pública (art. 25, § 1º-A).",
+    "Os dados do Banco Nacional de Perfis Balísticos são sigilosos, e sua venda é proibida (art. 34-A, §§ 4º e 5º).",
+    "A multa de R$ 100 mil a R$ 300 mil alcança a empresa de transporte que permite levar arma sem autorização e a que faz publicidade estimulando o uso indiscriminado de armas (art. 33).",
+    "No referendo de outubro de 2005, a proibição geral do comércio de armas (art. 35) foi rejeitada e não entrou em vigor."
+   ],
+   "macetes": [
+    {
+     "sigla": "APREENDEU, LAUDO, EXÉRCITO EM 48 H",
+     "texto": "Destino da arma apreendida que não interessa mais ao processo (art. 25)."
+    },
+    {
+     "sigla": "ENTREGOU, EXTINGUIU",
+     "texto": "Entrega espontânea extingue a punibilidade da posse irregular (art. 32)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A classificação legal e técnica das armas de fogo de uso proibido, restrito e permitido é feita por portaria do Ministro da Justiça.",
+    "gabarito": "E",
+    "explicacao": "É disciplinada em ato do chefe do Poder Executivo federal, mediante proposta do Comando do Exército (art. 23)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A entrega voluntária da arma extingue a punibilidade também do porte ilegal praticado com ela.",
+     "certo": "O art. 32 extingue a punibilidade da posse irregular da arma entregue.",
+     "fonte": "Questão do app sobre o art. 32"
+    },
+    {
+     "errado": "Simulacros de arma podem ser vendidos livremente como brinquedo.",
+     "certo": "São vedados os que se confundam com armas (art. 26).",
+     "fonte": "Questão do app sobre o art. 26"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre o destino das armas apreendidas e a entrega voluntária (arts. 25 e 32)"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: classificação das armas, armas apreendidas, réplicas, entrega voluntária e Banco Nacional de Perfis Balísticos (arts. 22 a 37)."
+    }
+   ],
+   "relacionados": [
+    "sinarm-registro-e-posse-legal-de-arma",
+    "posse-e-porte-de-arma-de-fogo"
    ]
   },
   {
