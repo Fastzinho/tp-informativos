@@ -18716,148 +18716,263 @@
   },
   {
    "slug": "responsabilidade-civil",
-   "titulo": "Responsabilidade civil: subjetiva, objetiva e por fato de terceiro",
+   "titulo": "Responsabilidade civil: pressupostos, culpa, risco e excludentes",
    "grupo": "Responsabilidade civil",
-   "base": "CC, arts. 186, 187, 188 e 927 a 943",
+   "base": "Arts. 927, 931 e 935 do Código Civil",
    "tax": [
     "civil.responsabilidade-civil",
+    "civil.responsabilidade-civil.pressupostos",
     "civil.teoria-culpa-risco"
    ],
    "dispositivos": [
-    "n10406-2002-art-186",
-    "n10406-2002-art-187",
-    "n10406-2002-art-188",
     "n10406-2002-art-927",
-    "n10406-2002-art-928",
-    "n10406-2002-art-929",
-    "n10406-2002-art-930",
     "n10406-2002-art-931",
-    "n10406-2002-art-932",
-    "n10406-2002-art-933",
-    "n10406-2002-art-934",
-    "n10406-2002-art-935",
-    "n10406-2002-art-936",
-    "n10406-2002-art-937",
-    "n10406-2002-art-938",
-    "n10406-2002-art-942"
+    "n10406-2002-art-935"
    ],
    "conceitos": [
-    "ato ilícito",
-    "abuso de direito",
-    "excludentes de ilicitude",
+    "pressupostos da responsabilidade civil",
+    "conduta",
+    "culpa",
+    "nexo causal",
+    "dano",
     "responsabilidade subjetiva",
-    "responsabilidade objetiva pela atividade de risco",
-    "responsabilidade do incapaz",
-    "responsabilidade por fato de terceiro",
-    "culpa in vigilando e in eligendo",
+    "responsabilidade objetiva",
+    "cláusula geral do risco da atividade",
+    "teoria do risco criado",
+    "teoria do risco integral",
+    "fortuito interno e externo",
+    "excludentes do nexo causal",
+    "teorias do nexo causal",
     "independência das instâncias",
-    "responsabilidade pelo fato da coisa e do animal",
-    "solidariedade dos coautores",
-    "teorias do nexo causal"
+    "responsabilidade pelos produtos postos em circulação"
    ],
    "palavras": [
     "responsabilidade civil",
     "ato ilicito",
-    "art 186",
-    "abuso de direito",
-    "art 187",
-    "legitima defesa",
-    "estado de necessidade",
-    "exercicio regular de direito",
+    "art 927",
+    "obrigado a repara-lo",
+    "independentemente de culpa",
+    "casos especificados em lei",
+    "atividade normalmente desenvolvida",
+    "por sua natureza",
+    "risco para os direitos de outrem",
     "responsabilidade subjetiva",
-    "culpa",
     "responsabilidade objetiva",
-    "atividade de risco",
-    "art 927 paragrafo unico",
-    "risco integral",
-    "dano ambiental",
-    "incapaz responde",
-    "pais filhos menores",
-    "empregador preposto",
-    "culpa in vigilando",
-    "culpa in eligendo",
-    "independente de culpa terceiro",
-    "regresso",
-    "descendente incapaz",
-    "instancia criminal",
-    "dono do animal",
-    "ruina do edificio",
-    "coisas lancadas",
-    "effusis et dejectis",
-    "solidariedade coautores",
+    "culpa",
     "nexo causal",
     "causalidade adequada",
     "dano direto e imediato",
     "equivalencia dos antecedentes",
+    "risco criado",
+    "risco proveito",
+    "risco integral",
+    "caso fortuito",
+    "forca maior",
+    "fortuito interno",
+    "fortuito externo",
+    "culpa exclusiva da vitima",
+    "fato de terceiro",
+    "sumula 479",
+    "fraude bancaria",
+    "golpe",
+    "cheque falso",
+    "estacionamento",
+    "sumula 130",
+    "acidente de trabalho",
+    "tema 932",
+    "produtos postos em circulacao",
+    "empresarios individuais",
+    "independente da criminal",
+    "existencia do fato",
+    "autoria",
+    "juizo criminal",
+    "jornalista",
+    "dolo ou culpa grave",
+    "assedio judicial",
     "punitive damages"
    ],
-   "resumo": "Comete <strong>ato ilícito</strong> quem, por ação ou omissão voluntária, negligência ou imprudência, viola direito e causa dano a outrem, ainda que só moral (art. 186), e também quem exerce um direito <strong>excedendo manifestamente</strong> os limites do seu fim econômico ou social, da boa-fé ou dos bons costumes (<strong>abuso de direito</strong>, art. 187). Legítima defesa, exercício regular de direito e remoção de perigo iminente não são ilícitos (art. 188), mas quem age em estado de necessidade indeniza o lesado que não causou o perigo e tem regresso contra o culpado (arts. 929 e 930). A regra é a <strong>responsabilidade subjetiva</strong> (art. 927, caput). Haverá dever de reparar <strong>independentemente de culpa</strong> nos casos da lei ou quando a <strong>atividade normalmente desenvolvida</strong> implicar, por sua natureza, <strong>risco</strong> para os direitos de outrem (art. 927, parágrafo único). O <strong>incapaz</strong> responde de forma subsidiária e equitativa (art. 928). Pais, tutores, curadores, empregadores, donos de hotéis e quem participou gratuitamente do produto do crime respondem pelos atos dos terceiros do art. 932 <strong>ainda que não haja culpa</strong> sua (art. 933), com regresso, salvo contra descendente incapaz (art. 934). A responsabilidade civil é independente da criminal, mas não se discute a existência do fato ou a autoria já decididas no juízo criminal (art. 935). Respondem o dono do animal (art. 936), o dono do edifício em ruína por falta de reparos (art. 937) e quem habita o prédio de onde coisas caem ou são lançadas (art. 938). Havendo vários autores, todos respondem <strong>solidariamente</strong> (art. 942).",
+   "para_entender": [
+    {
+     "texto": "Ato ilícito (art. 186), abuso de direito (art. 187) e as excludentes de ilicitude (art. 188), com o dever de indenizar no estado de necessidade (arts. 929 e 930), estão no tema da Parte geral.",
+     "tema": "atos-ilicitos-e-abuso-de-direito"
+    },
+    {
+     "texto": "O dano direto e imediato (art. 403), base da teoria do nexo causal adotada no Código, está no tema de perdas e danos.",
+     "tema": "perdas-e-danos-juros-e-atualizacao-monetaria"
+    }
+   ],
+   "resumo": "Quem, por <strong>ato ilícito</strong> (arts. 186 e 187), causa dano a outrem fica obrigado a repará-lo (art. 927). São quatro os pressupostos: <strong>conduta</strong>, <strong>culpa</strong> (na responsabilidade subjetiva), <strong>nexo causal</strong> e <strong>dano</strong>. A regra do Código é a responsabilidade <strong>subjetiva</strong>. Há dever de reparar <strong>independentemente de culpa</strong> nos casos especificados em lei ou quando a <strong>atividade normalmente desenvolvida</strong> pelo autor do dano implicar, <strong>por sua natureza</strong>, risco para os direitos de outrem (art. 927, parágrafo único): é a cláusula geral do <strong>risco criado</strong>. Empresários e empresas respondem sem culpa pelos danos dos <strong>produtos postos em circulação</strong> (art. 931). Mesmo na responsabilidade objetiva, o nexo causal se rompe por <strong>caso fortuito ou força maior</strong>, <strong>culpa exclusiva da vítima</strong> ou <strong>fato exclusivo de terceiro</strong>; mas o <strong>fortuito interno</strong>, ligado à própria atividade, não exclui o dever de indenizar, como nas fraudes bancárias (Súmula 479 do STJ). No <strong>risco integral</strong>, adotado para o dano ambiental, nem as excludentes afastam a responsabilidade. A responsabilidade civil é <strong>independente da criminal</strong>, mas não se discute mais a <strong>existência do fato</strong> nem a <strong>autoria</strong> quando decididas no juízo criminal (art. 935).",
    "esquema": {
     "rotulo": "subjetiva ou objetiva",
-    "html": "<table><thead><tr><th>Hipótese</th><th>Regime</th><th>Base</th></tr></thead><tbody><tr><td><strong>Regra geral</strong></td><td>Subjetiva: exige culpa</td><td>Arts. 186 e 927, caput</td></tr><tr><td><strong>Atividade de risco ou previsão legal</strong></td><td>Objetiva</td><td>Art. 927, parágrafo único</td></tr><tr><td><strong>Pais, tutores, empregadores, hoteleiros</strong></td><td>Respondem ainda que não haja culpa de sua parte</td><td>Arts. 932 e 933</td></tr><tr><td><strong>Empresário pelos produtos em circulação</strong></td><td>Objetiva</td><td>Art. 931</td></tr><tr><td><strong>Dano ambiental</strong></td><td>Objetiva, pelo risco integral</td><td>Lei 6.938/1981, art. 14, § 1º</td></tr><tr><td><strong>Incapaz</strong></td><td>Subsidiária e equitativa</td><td>Art. 928</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Hipótese</th><th>Regime</th><th>Base</th></tr></thead><tbody><tr><td><strong>Regra geral</strong></td><td>Subjetiva: a vítima prova a culpa</td><td>Arts. 186 e 927, caput</td></tr><tr><td><strong>Caso previsto em lei</strong></td><td>Objetiva</td><td>Art. 927, parágrafo único, 1ª parte</td></tr><tr><td><strong>Atividade que, por sua natureza, cria risco</strong></td><td>Objetiva (risco criado)</td><td>Art. 927, parágrafo único, 2ª parte</td></tr><tr><td><strong>Produtos postos em circulação</strong></td><td>Objetiva</td><td>Art. 931</td></tr><tr><td><strong>Fato de terceiro: pais, empregador, hoteleiro</strong></td><td>Objetiva, desde que haja ato ilícito do terceiro</td><td>Arts. 932 e 933</td></tr><tr><td><strong>Dano ambiental</strong></td><td>Objetiva, pelo risco integral</td><td>Lei 6.938/1981, art. 14, § 1º</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Excludentes e teorias do nexo causal",
+    "linhas": [
+     {
+      "nome": "Caso fortuito ou força maior",
+      "o_que_e": "Fato necessário, cujos efeitos não se podem evitar ou impedir.",
+      "atencao": "Só exclui se o fato não for conexo à atividade (fortuito externo).",
+      "grupo": "Excludentes do nexo causal"
+     },
+     {
+      "nome": "Culpa exclusiva da vítima",
+      "o_que_e": "A conduta da própria vítima é a causa do dano.",
+      "atencao": "Culpa concorrente não exclui: reduz a indenização (art. 945).",
+      "grupo": "Excludentes do nexo causal"
+     },
+     {
+      "nome": "Fato exclusivo de terceiro",
+      "o_que_e": "Pessoa estranha à relação causa sozinha o dano.",
+      "atencao": "No transporte de pessoas, a culpa de terceiro não exclui (art. 735).",
+      "grupo": "Excludentes do nexo causal"
+     },
+     {
+      "nome": "Equivalência dos antecedentes",
+      "o_que_e": "Tudo o que concorre para o resultado é causa.",
+      "atencao": "É a teoria do Código Penal, não a do Código Civil.",
+      "grupo": "Teorias do nexo causal"
+     },
+     {
+      "nome": "Causalidade adequada",
+      "o_que_e": "Causa é a condição apta, em abstrato, a produzir o dano.",
+      "grupo": "Teorias do nexo causal"
+     },
+     {
+      "nome": "Dano direto e imediato",
+      "o_que_e": "Só se indeniza o dano que é efeito necessário da conduta (art. 403).",
+      "atencao": "Teoria majoritária no STF e no STJ.",
+      "grupo": "Teorias do nexo causal"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 186. Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar direito e causar dano a outrem, ainda que exclusivamente moral, comete ato ilícito.",
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 927.",
+      "Art. 931.",
+      "Art. 935."
+     ],
+     "ref": "arts. 927, 931 e 935 do Código Civil",
+     "regras": [
+      "<strong>Art. 927.</strong> Obrigação de indenizar e cláusula geral do risco.",
+      "<strong>Art. 931.</strong> Danos dos produtos postos em circulação.",
+      "<strong>Art. 935.</strong> Independência entre a responsabilidade civil e a criminal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 927. Aquele que, por ato ilícito (arts. 186 e 187), causar dano a outrem, fica obrigado a repará-lo.",
+       "marcas": [
+        "por ato ilícito (arts. 186 e 187)"
+       ],
+       "afirmacao": "O titular de um direito que o exerce excedendo manifestamente seu fim econômico ou social e causa dano fica obrigado a repará-lo.",
+       "gabarito": "C",
+       "porque": "O abuso de direito é ato ilícito (art. 187) e gera o dever de indenizar do art. 927."
+      },
+      {
+       "trecho": "Parágrafo único. Haverá obrigação de reparar o dano, independentemente de culpa, nos casos especificados em lei, ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem.",
+       "marcas": [
+        "independentemente de culpa",
+        "atividade normalmente desenvolvida",
+        "por sua natureza"
+       ],
+       "afirmacao": "Fora dos casos previstos em lei, a responsabilidade sem culpa depende de cláusula expressa no contrato.",
+       "gabarito": "E",
+       "porque": "Também há responsabilidade sem culpa quando a atividade normalmente desenvolvida implicar, por sua natureza, risco para os direitos de outrem (art. 927, parágrafo único)."
+      },
+      {
+       "trecho": "Art. 931. Ressalvados outros casos previstos em lei especial, os empresários individuais e as empresas respondem independentemente de culpa pelos danos causados pelos produtos postos em circulação.",
+       "marcas": [
+        "independentemente de culpa",
+        "produtos postos em circulação"
+       ],
+       "afirmacao": "Fora das relações de consumo, a empresa só responde pelos danos de seus produtos se a vítima provar sua culpa.",
+       "gabarito": "E",
+       "porque": "Os empresários individuais e as empresas respondem independentemente de culpa pelos danos dos produtos postos em circulação (art. 931)."
+      },
+      {
+       "trecho": "Art. 935. A responsabilidade civil é independente da criminal, não se podendo questionar mais sobre a existência do fato, ou sobre quem seja o seu autor, quando estas questões se acharem decididas no juízo criminal.",
+       "marcas": [
+        "existência do fato",
+        "quem seja o seu autor"
+       ],
+       "afirmacao": "Absolvido o réu no juízo criminal por negativa de autoria, a vítima ainda pode discutir no cível quem foi o autor do fato.",
+       "gabarito": "E",
+       "porque": "Decididas no juízo criminal a existência do fato ou a autoria, não se pode mais questioná-las no cível (art. 935)."
+      },
+      {
+       "trecho": "Art. 935. A responsabilidade civil é independente da criminal, não se podendo questionar mais sobre a existência do fato, ou sobre quem seja o seu autor, quando estas questões se acharem decididas no juízo criminal.",
+       "marcas": [
+        "independente da criminal"
+       ],
+       "afirmacao": "O motorista absolvido no crime por falta de provas ainda pode ser condenado a indenizar no cível.",
+       "gabarito": "C",
+       "porque": "As responsabilidades são independentes; só a decisão criminal sobre a existência do fato ou a autoria vincula o cível (art. 935)."
+      }
+     ],
+     "conferido": {
+      "Art. 927.": "23cf67a1f99a",
+      "Art. 931.": "4ebd25be6477",
+      "Art. 935.": "6626241b5941"
+     },
      "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 187. Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 927. Aquele que, por ato ilícito (arts. 186 e 187), causar dano a outrem, fica obrigado a repará-lo.\n\nParágrafo único. Haverá obrigação de reparar o dano, independentemente de culpa, nos casos especificados em lei, ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 932. São também responsáveis pela reparação civil:\n\nI - os pais, pelos filhos menores que estiverem sob sua autoridade e em sua companhia;\n\nII - o tutor e o curador, pelos pupilos e curatelados, que se acharem nas mesmas condições;\n\nIII - o empregador ou comitente, por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir, ou em razão dele;\n\nIV - os donos de hotéis, hospedarias, casas ou estabelecimentos onde se albergue por dinheiro, mesmo para fins de educação, pelos seus hóspedes, moradores e educandos;\n\nV - os que gratuitamente houverem participado nos produtos do crime, até a concorrente quantia.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 933. As pessoas indicadas nos incisos I a V do artigo antecedente, ainda que não haja culpa de sua parte, responderão pelos atos praticados pelos terceiros ali referidos.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 934. Aquele que ressarcir o dano causado por outrem pode reaver o que houver pago daquele por quem pagou, salvo se o causador do dano for descendente seu, absoluta ou relativamente incapaz.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 942. Os bens do responsável pela ofensa ou violação do direito de outrem ficam sujeitos à reparação do dano causado; e, se a ofensa tiver mais de um autor, todos responderão solidariamente pela reparação.\n\nParágrafo único. São solidariamente responsáveis com os autores os co-autores e as pessoas designadas no art. 932.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "VIGIAR E ESCOLHER",
-     "texto": "Culpa in vigilando é a falta de vigilância sobre quem estava sob a guarda; culpa in eligendo é a má escolha do empregado ou preposto. Desde o art. 933, essa culpa não precisa ser provada."
-    },
-    {
-     "sigla": "RISCO INTEGRAL É OBJETIVA",
-     "texto": "No dano ambiental, a responsabilidade é objetiva e nem as excludentes comuns a afastam. Ligar o risco integral a responsabilidade subjetiva é o erro clássico."
-    },
-    {
-     "sigla": "NÃO HÁ REGRESSO CONTRA FILHO INCAPAZ",
-     "texto": "Quem paga pelo dano causado por outrem cobra dele, salvo se for seu descendente incapaz (art. 934)."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
     }
    ],
    "juris": [
     {
+     "quem": "STJ, Súmula 479",
+     "texto": "As instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias."
+    },
+    {
      "quem": "STJ, Súmula 130",
      "texto": "A empresa responde, perante o cliente, pela reparação de dano ou furto de veículo ocorridos em seu estacionamento."
+    },
+    {
+     "quem": "STF, Súmula 28",
+     "texto": "O estabelecimento bancário é responsável pelo pagamento de cheque falso, ressalvadas as hipóteses de culpa exclusiva ou concorrente do correntista."
+    },
+    {
+     "quem": "STF, Tema 932 (repercussão geral)",
+     "texto": "O art. 927, parágrafo único, do Código Civil é compatível com o art. 7º, XXVIII, da Constituição, e é constitucional a responsabilidade objetiva do empregador por acidente de trabalho nos casos da lei ou quando a atividade, por sua natureza, expuser o trabalhador a risco especial, com ônus maior do que aos demais membros da coletividade."
+    },
+    {
+     "quem": "STF, ADIs 6.792 e 7.055 (2024)",
+     "texto": "A responsabilidade civil de jornalistas e órgãos de imprensa só se configura em caso inequívoco de dolo ou culpa grave; no assédio judicial (muitas ações sobre os mesmos fatos em comarcas diversas), o réu pode pedir a reunião das ações no foro do seu domicílio."
+    },
+    {
+     "quem": "CJF, Enunciado 38 (I Jornada)",
+     "texto": "A responsabilidade fundada no risco da atividade (art. 927, parágrafo único, segunda parte) configura-se quando a atividade normalmente desenvolvida pelo autor do dano causar a pessoa determinada um ônus maior do que aos demais membros da coletividade."
+    },
+    {
+     "quem": "CJF, Enunciado 443 (V Jornada)",
+     "texto": "O caso fortuito e a força maior só excluem a responsabilidade civil quando o fato gerador do dano não for conexo à atividade desenvolvida."
+    }
+   ],
+   "detalhes": [
+    "Para o STJ, responde objetivamente o banco que não aciona bloqueio nem alerta diante de transferência de madrugada muito acima do perfil da cliente, no golpe da falsa central: a falha no monitoramento de transações atípicas é fortuito interno. Isso não significa responder por qualquer transferência só porque a vítima diz ter sido enganada.",
+    "Para o STJ, o laboratório responde objetivamente pelo falso negativo em exame de DNA de investigação de paternidade, sem que a vítima precise provar culpa.",
+    "Para o STJ, fabricante e vendedor de fertilizante respondem solidariamente pelos prejuízos do produtor causados pela ineficácia do produto quando não informam adequadamente a composição e o modo de uso.",
+    "A aplicação ampla dos punitive damages (indenização punitiva desvinculada do dano) encontra óbice no Código, em que a indenização se mede pela extensão do dano (art. 944)."
+   ],
+   "macetes": [
+    {
+     "sigla": "CONDUTA, CULPA, NEXO, DANO",
+     "texto": "Os quatro pressupostos. Na objetiva, cai só a culpa: conduta, nexo e dano continuam necessários."
+    },
+    {
+     "sigla": "FORTUITO INTERNO NÃO SALVA",
+     "texto": "Fraude de terceiro em banco é risco da atividade (Súmula 479). Só o fortuito externo, estranho à atividade, rompe o nexo."
+    },
+    {
+     "sigla": "CRIME DECIDIU FATO OU AUTOR? O CÍVEL ACATA",
+     "texto": "Absolvição por falta de provas não impede a indenização; por inexistência do fato ou negativa de autoria, impede (art. 935)."
     }
    ],
    "pegadinha": {
@@ -18865,170 +18980,1495 @@
     "gabarito": "C",
     "explicacao": "É o parágrafo único do art. 927, base da responsabilidade objetiva pelo risco da atividade (Cebraspe, Promotor MPSC 2023)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Punitive damages.</strong> A aplicação ampla e irrestrita dos punitive damages encontra óbice na ordem civil brasileira, em que a indenização se mede pela extensão do dano (art. 944). Foi a opção correta (Cebraspe, Advogado da União AGU 2022).</p><p><strong>Os erros da mesma questão.</strong> Estava errado atribuir a máxima \"tudo o que é condição deve ser considerado causa\" ao nexo causal probabilístico, porque ela é a da equivalência dos antecedentes. Também estava errado dizer que o risco integral no dano ambiental denota responsabilidade subjetiva, quando ela é objetiva, e chamar de culpa in vigilando a má escolha do preposto, que é a culpa in eligendo. Por fim, a vítima que concorre com culpa tem a indenização fixada pela gravidade da sua culpa em confronto com a do autor (art. 945), e não pela \"ausência de culpa\" dela diante do dolo do outro (Cebraspe, Advogado da União AGU 2022).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A máxima \"tudo o que é condição deve ser considerado causa\" é a do nexo causal probabilístico.",
+     "certo": "É a da equivalência dos antecedentes; o Código Civil segue a teoria do dano direto e imediato (art. 403).",
+     "fonte": "Cebraspe, Advogado da União AGU 2022"
+    },
+    {
+     "errado": "O risco integral, aplicado ao dano ambiental, denota responsabilidade subjetiva.",
+     "certo": "É responsabilidade objetiva, em que nem as excludentes comuns afastam o dever de indenizar.",
+     "fonte": "Cebraspe, Advogado da União AGU 2022"
+    },
+    {
+     "errado": "Admite-se no Brasil a aplicação ampla e irrestrita dos punitive damages.",
+     "certo": "Ela encontra óbice na ordem civil brasileira, em que a indenização se mede pela extensão do dano (art. 944).",
+     "fonte": "Cebraspe, Advogado da União AGU 2022"
+    },
+    {
+     "errado": "No golpe da falsa central, o banco responde por qualquer transferência feita pela vítima, bastando que ela alegue ter sido enganada.",
+     "certo": "Responde quando há falha do serviço, como não bloquear transação atípica: é o fortuito interno (Súmula 479).",
+     "fonte": "Questão do app sobre responsabilidade civil"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Promotor MPSC 2023",
+    "Cebraspe, Advogado da União AGU 2022",
+    "Questões de lei seca dos arts. 927, 931 e 935 no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reescrito no dossiê de responsabilidade civil: fato de terceiro, fato da coisa e cobrança indevida ganharam temas próprios."
+    }
+   ],
    "relacionados": [
+    "atos-ilicitos-e-abuso-de-direito",
+    "responsabilidade-por-fato-de-terceiro-e-do-incapaz",
     "danos-e-indenizacao",
+    "contrato-de-transporte"
+   ]
+  },
+  {
+   "slug": "responsabilidade-por-fato-de-terceiro-e-do-incapaz",
+   "titulo": "Responsabilidade do incapaz e por fato de terceiro",
+   "grupo": "Responsabilidade civil",
+   "base": "Arts. 928, 932, 933, 934 e 942, parágrafo único, do Código Civil",
+   "tax": [
+    "civil.responsabilidade-civil.fato-de-terceiro"
+   ],
+   "dispositivos": [
+    "n10406-2002-art-928",
+    "n10406-2002-art-932",
+    "n10406-2002-art-933",
+    "n10406-2002-art-934"
+   ],
+   "conceitos": [
+    "responsabilidade subsidiária do incapaz",
+    "indenização equitativa",
+    "responsabilidade por fato de terceiro",
+    "responsabilidade objetiva indireta",
+    "culpa in vigilando",
+    "culpa in eligendo",
+    "pais e filhos menores",
+    "empregador e preposto",
+    "hoteleiros e educadores",
+    "participação gratuita no produto do crime",
+    "direito de regresso",
+    "descendente incapaz",
+    "solidariedade com o responsável"
+   ],
+   "palavras": [
+    "incapaz responde",
+    "pessoas por ele responsaveis",
+    "meios suficientes",
+    "equitativa",
+    "privar do necessario",
+    "pais",
+    "filhos menores",
+    "sob sua autoridade e em sua companhia",
+    "tutor",
+    "curador",
+    "pupilos",
+    "curatelados",
+    "empregador",
+    "comitente",
+    "empregados",
+    "servicais",
+    "prepostos",
+    "no exercicio do trabalho",
+    "ou em razao dele",
+    "hoteis",
+    "hospedarias",
+    "albergue por dinheiro",
+    "educandos",
+    "gratuitamente",
+    "produtos do crime",
+    "concorrente quantia",
+    "ainda que nao haja culpa",
+    "culpa in vigilando",
+    "culpa in eligendo",
+    "sumula 341",
+    "reaver o que houver pago",
+    "descendente",
+    "absoluta ou relativamente incapaz",
+    "regresso",
+    "emancipado",
+    "solidariamente responsaveis",
+    "locadora de veiculos",
+    "sumula 492"
+   ],
+   "resumo": "O <strong>incapaz</strong> responde pelos prejuízos que causar <strong>só se</strong> os responsáveis por ele não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes (art. 928): a responsabilidade é <strong>subsidiária</strong>, e a indenização, <strong>equitativa</strong>, não terá lugar se privar do necessário o incapaz ou quem dele depende. Respondem pelos atos de terceiros (art. 932): os <strong>pais</strong>, pelos filhos menores sob sua autoridade e em sua companhia; o <strong>tutor e o curador</strong>, pelos pupilos e curatelados; o <strong>empregador ou comitente</strong>, por empregados e prepostos no exercício do trabalho <strong>ou em razão dele</strong>; os donos de <strong>hotéis</strong> e estabelecimentos que albergam por dinheiro, inclusive para educação, por hóspedes, moradores e educandos; e quem <strong>participou gratuitamente</strong> do produto do crime, até a concorrente quantia. Todos respondem <strong>ainda que não haja culpa</strong> de sua parte (art. 933): a antiga culpa presumida in vigilando ou in eligendo deu lugar à responsabilidade <strong>objetiva</strong>, que depende de ato ilícito do terceiro. Quem paga pode reaver do causador, <strong>salvo se for descendente seu incapaz</strong> (art. 934). Os responsáveis do art. 932 são <strong>solidários</strong> com os autores (art. 942, parágrafo único).",
+   "esquema": {
+    "rotulo": "quem responde por quem",
+    "html": "<table><thead><tr><th>Responsável</th><th>Por quem</th><th>Condição</th><th>Regresso</th></tr></thead><tbody><tr><td><strong>Pais</strong></td><td>Filhos menores</td><td>Sob sua autoridade e em sua companhia</td><td>Não, se o filho for incapaz (art. 934)</td></tr><tr><td><strong>Tutor e curador</strong></td><td>Pupilos e curatelados</td><td>Nas mesmas condições</td><td>Sim, salvo descendente incapaz</td></tr><tr><td><strong>Empregador ou comitente</strong></td><td>Empregados, serviçais e prepostos</td><td>No exercício do trabalho ou em razão dele</td><td>Sim</td></tr><tr><td><strong>Hotel, hospedaria, escola com internato</strong></td><td>Hóspedes, moradores e educandos</td><td>Albergue por dinheiro</td><td>Sim</td></tr><tr><td><strong>Quem participou do produto do crime</strong></td><td>Autor do crime</td><td>Participação gratuita, até a concorrente quantia</td><td>Sim</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "O incapaz que causa dano",
+    "linhas": [
+     {
+      "nome": "Responsável com meios e obrigado",
+      "o_que_e": "Paga o responsável; o incapaz não responde.",
+      "atencao": "Pais e filho incapaz: sem regresso (art. 934)."
+     },
+     {
+      "nome": "Responsável sem obrigação ou sem meios",
+      "o_que_e": "Responde o incapaz, de forma subsidiária (art. 928)."
+     },
+     {
+      "nome": "Indenização do incapaz",
+      "o_que_e": "Equitativa; não terá lugar se o privar do necessário, ou a quem dele depende (art. 928, parágrafo único)."
+     },
+     {
+      "nome": "Filho emancipado pelos pais",
+      "o_que_e": "Pode responder solidariamente com eles (CJF, Enunciado 41).",
+      "atencao": "A emancipação voluntária não exonera os pais."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Quem paga",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 928.",
+      "Art. 932.",
+      "Art. 933.",
+      "Art. 934.",
+      "Art. 942."
+     ],
+     "ref": "arts. 928 e 932 a 934 do Código Civil",
+     "regras": [
+      "<strong>Art. 928.</strong> Responsabilidade subsidiária e equitativa do incapaz.",
+      "<strong>Arts. 932 e 933.</strong> Responsáveis por fato de terceiro, ainda que sem culpa.",
+      "<strong>Art. 934.</strong> Regresso contra o causador, salvo descendente incapaz.",
+      "<strong>Art. 942, parágrafo único.</strong> Solidariedade dos responsáveis com os autores."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 928. O incapaz responde pelos prejuízos que causar, se as pessoas por ele responsáveis não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes.",
+       "marcas": [
+        "não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes"
+       ],
+       "afirmacao": "O adolescente de 15 anos que quebra o carro do vizinho responde solidariamente com os pais, que têm patrimônio suficiente.",
+       "gabarito": "E",
+       "porque": "O incapaz só responde se os responsáveis não tiverem obrigação ou meios suficientes (art. 928); a responsabilidade dele é subsidiária."
+      },
+      {
+       "trecho": "Parágrafo único. A indenização prevista neste artigo, que deverá ser eqüitativa, não terá lugar se privar do necessário o incapaz ou as pessoas que dele dependem.",
+       "marcas": [
+        "eqüitativa",
+        "privar do necessário"
+       ],
+       "afirmacao": "A indenização paga pelo incapaz é equitativa e não terá lugar se o privar do necessário.",
+       "gabarito": "C",
+       "porque": "É o art. 928, parágrafo único."
+      },
+      {
+       "trecho": "I - os pais, pelos filhos menores que estiverem sob sua autoridade e em sua companhia;",
+       "marcas": [
+        "sob sua autoridade e em sua companhia"
+       ],
+       "afirmacao": "Os pais respondem pelos filhos menores que estiverem sob sua autoridade e em sua companhia.",
+       "gabarito": "C",
+       "porque": "É o art. 932, I."
+      },
+      {
+       "trecho": "III - o empregador ou comitente, por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir, ou em razão dele;",
+       "marcas": [
+        "ou em razão dele"
+       ],
+       "afirmacao": "O entregador que, durante a entrega, atropela um pedestre com a moto da empresa gera responsabilidade da empresa apenas se ela tiver escolhido mal o empregado.",
+       "gabarito": "E",
+       "porque": "O empregador responde pelo empregado no exercício do trabalho ou em razão dele, ainda que não haja culpa sua (arts. 932, III, e 933)."
+      },
+      {
+       "trecho": "V - os que gratuitamente houverem participado nos produtos do crime, até a concorrente quantia.",
+       "marcas": [
+        "até a concorrente quantia"
+       ],
+       "afirmacao": "Quem recebe de presente parte do dinheiro de um furto responde por todo o prejuízo da vítima.",
+       "gabarito": "E",
+       "porque": "Responde até a concorrente quantia do que recebeu (art. 932, V)."
+      },
+      {
+       "trecho": "Art. 933. As pessoas indicadas nos incisos I a V do artigo antecedente, ainda que não haja culpa de sua parte, responderão pelos atos praticados pelos terceiros ali referidos.",
+       "marcas": [
+        "ainda que não haja culpa de sua parte"
+       ],
+       "afirmacao": "O hotel se exime de indenizar o dano causado por um hóspede a outro provando que vigiou adequadamente as dependências.",
+       "gabarito": "E",
+       "porque": "Os responsáveis do art. 932 respondem ainda que não haja culpa de sua parte (art. 933)."
+      },
+      {
+       "trecho": "Art. 934. Aquele que ressarcir o dano causado por outrem pode reaver o que houver pago daquele por quem pagou, salvo se o causador do dano for descendente seu, absoluta ou relativamente incapaz.",
+       "marcas": [
+        "descendente seu, absoluta ou relativamente incapaz"
+       ],
+       "afirmacao": "O avô tutor que paga o dano causado pelo neto de 16 anos pode cobrar dele depois.",
+       "gabarito": "E",
+       "porque": "Não há regresso contra descendente absoluta ou relativamente incapaz (art. 934)."
+      },
+      {
+       "trecho": "Parágrafo único. São solidariamente responsáveis com os autores os co-autores e as pessoas designadas no art. 932.",
+       "marcas": [
+        "solidariamente responsáveis"
+       ],
+       "afirmacao": "O empregador responde de forma subsidiária ao empregado que causou o dano, só se este não tiver bens.",
+       "gabarito": "E",
+       "porque": "As pessoas do art. 932 são solidariamente responsáveis com os autores (art. 942, parágrafo único)."
+      }
+     ],
+     "conferido": {
+      "Art. 928.": "c609c12b321c",
+      "Art. 932.": "6fffd468edf0",
+      "Art. 933.": "77157bf1c3f6",
+      "Art. 934.": "ff7de211b3a5",
+      "Art. 942.": "803be533c9c3"
+     },
+     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF, Súmula 492",
+     "texto": "A empresa locadora de veículos responde, civil e solidariamente com o locatário, pelos danos por este causados a terceiro, no uso do carro locado."
+    },
+    {
+     "quem": "CJF, Enunciado 41 (I Jornada)",
+     "texto": "A única hipótese em que poderá haver responsabilidade solidária do menor de 18 anos com seus pais é ter sido emancipado nos termos do art. 5º, parágrafo único, I, do Código Civil."
+    }
+   ],
+   "detalhes": [
+    "A antiga Súmula 341 do STF (culpa presumida do patrão pelo ato culposo do empregado) foi superada pelo art. 933, que dispensa a culpa do empregador.",
+    "A responsabilidade do art. 933 é objetiva quanto ao responsável, mas pressupõe ato ilícito do terceiro: se o empregado agiu sem culpa, numa hipótese de responsabilidade subjetiva, o empregador não responde.",
+    "Culpa in vigilando é a falta de vigilância sobre quem está sob a guarda; culpa in eligendo é a má escolha do empregado ou preposto. Desde o art. 933, nenhuma delas precisa ser provada."
+   ],
+   "macetes": [
+    {
+     "sigla": "INCAPAZ PAGA POR ÚLTIMO",
+     "texto": "Primeiro o responsável; o incapaz só se o responsável não tiver obrigação ou meios, e com indenização equitativa (art. 928)."
+    },
+    {
+     "sigla": "NÃO HÁ REGRESSO CONTRA FILHO INCAPAZ",
+     "texto": "Quem paga pelo dano causado por outrem cobra dele, salvo se for seu descendente incapaz (art. 934)."
+    },
+    {
+     "sigla": "PATRÃO SEM CULPA PAGA",
+     "texto": "Empregador responde pelo empregado no trabalho ou em razão dele, ainda que não tenha culpa (arts. 932, III, e 933), e solidariamente (art. 942)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Chama-se culpa in vigilando a má escolha do empregado ou preposto pelo empregador.",
+    "gabarito": "E",
+    "explicacao": "A má escolha é a culpa in eligendo; in vigilando é a falta de vigilância. Desde o art. 933, nenhuma das duas precisa ser provada (Cebraspe, Advogado da União AGU 2022)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Os pais respondem pelos filhos menores apenas se provada a falta de vigilância.",
+     "certo": "Respondem ainda que não haja culpa de sua parte (art. 933).",
+     "fonte": "Questão do app sobre responsabilidade por fato de terceiro"
+    },
+    {
+     "errado": "O incapaz nunca responde pelos danos que causa.",
+     "certo": "Responde de forma subsidiária e equitativa, se os responsáveis não tiverem obrigação ou meios (art. 928).",
+     "fonte": "Questão do app sobre responsabilidade do incapaz"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Advogado da União AGU 2022",
+    "Questões de lei seca dos arts. 928 e 932 a 934 no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo."
+    }
+   ],
+   "relacionados": [
+    "responsabilidade-civil",
+    "responsabilidade-pelo-fato-da-coisa-e-do-animal",
+    "cobranca-indevida-solidariedade-e-transmissao"
+   ]
+  },
+  {
+   "slug": "responsabilidade-pelo-fato-da-coisa-e-do-animal",
+   "titulo": "Responsabilidade pelo fato do animal, da ruína e das coisas caídas",
+   "grupo": "Responsabilidade civil",
+   "base": "Arts. 936 a 938 do Código Civil",
+   "tax": [
+    "civil.responsabilidade-civil.fato-da-coisa"
+   ],
+   "dispositivos": [
+    "n10406-2002-art-936",
+    "n10406-2002-art-937",
+    "n10406-2002-art-938"
+   ],
+   "conceitos": [
+    "responsabilidade pelo fato da coisa",
+    "teoria da guarda",
+    "dono ou detentor do animal",
+    "ruína de edifício",
+    "falta de reparos manifesta",
+    "coisas caídas ou lançadas",
+    "actio de effusis et dejectis",
+    "responsabilidade do condomínio",
+    "proprietário do veículo"
+   ],
+   "palavras": [
+    "dono",
+    "detentor",
+    "animal",
+    "culpa da vitima",
+    "forca maior",
+    "fato de terceiro",
+    "edificio",
+    "construcao",
+    "ruina",
+    "falta de reparos",
+    "necessidade fosse manifesta",
+    "habitar predio",
+    "coisas que dele cairem",
+    "forem lancadas",
+    "lugar indevido",
+    "effusis et dejectis",
+    "condominio",
+    "unidade",
+    "teoria da guarda",
+    "veiculo",
+    "proprietario",
+    "emprestado",
+    "sumula 132",
+    "transferencia",
+    "registro"
+   ],
+   "resumo": "O <strong>dono ou detentor do animal</strong> ressarce o dano por ele causado, <strong>se não provar culpa da vítima ou força maior</strong> (art. 936): a responsabilidade é objetiva, e a doutrina admite também a excludente do fato exclusivo de terceiro. O <strong>dono do edifício ou construção</strong> responde pelos danos de sua <strong>ruína</strong>, se ela provier de <strong>falta de reparos cuja necessidade fosse manifesta</strong> (art. 937). Quem <strong>habitar</strong> o prédio, ou parte dele, responde pelo dano das coisas que dele <strong>caírem ou forem lançadas</strong> em lugar indevido (art. 938): não importa se é dono, inquilino ou comodatário. Em condomínio edilício, se não se identifica a unidade, responde o <strong>condomínio</strong>, com regresso. Pelo fato da coisa em geral, responde quem tem a <strong>guarda</strong>, isto é, o poder de direção sobre ela: por isso o dono do veículo responde solidariamente com quem o dirige, mas não o antigo dono que já vendeu, ainda sem registro da transferência (Súmula 132 do STJ).",
+   "esquema": {
+    "rotulo": "quem responde e como se livra",
+    "html": "<table><thead><tr><th>Fato</th><th>Quem responde</th><th>Como se exime</th><th>Base</th></tr></thead><tbody><tr><td><strong>Dano causado por animal</strong></td><td>Dono ou detentor</td><td>Culpa da vítima ou força maior</td><td>Art. 936</td></tr><tr><td><strong>Ruína de edifício ou construção</strong></td><td>Dono</td><td>Provando que não faltavam reparos manifestamente necessários</td><td>Art. 937</td></tr><tr><td><strong>Coisa caída ou lançada do prédio</strong></td><td>Quem o habita</td><td>Lugar devido, ou fato exclusivo da vítima</td><td>Art. 938</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Veículos e guarda da coisa",
+    "linhas": [
+     {
+      "nome": "Carro emprestado que causa acidente",
+      "o_que_e": "Dono responde solidariamente com o condutor.",
+      "atencao": "É a teoria da guarda."
+     },
+     {
+      "nome": "Carro alugado",
+      "o_que_e": "Locadora responde solidariamente com o locatário.",
+      "atencao": "STF, Súmula 492."
+     },
+     {
+      "nome": "Carro vendido sem registro da transferência",
+      "o_que_e": "O antigo dono não responde pelo acidente.",
+      "atencao": "STJ, Súmula 132."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Regra",
+     "Base"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 936.",
+      "Art. 937.",
+      "Art. 938."
+     ],
+     "ref": "arts. 936 a 938 do Código Civil",
+     "regras": [
+      "<strong>Art. 936.</strong> Dano causado por animal.",
+      "<strong>Art. 937.</strong> Ruína de edifício ou construção.",
+      "<strong>Art. 938.</strong> Coisas caídas ou lançadas de prédio."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 936. O dono, ou detentor, do animal ressarcirá o dano por este causado, se não provar culpa da vítima ou força maior.",
+       "marcas": [
+        "se não provar culpa da vítima ou força maior"
+       ],
+       "afirmacao": "O dono do cão que morde um pedestre se exime de indenizar provando que o animal estava sempre preso e bem cuidado.",
+       "gabarito": "E",
+       "porque": "O dono ou detentor só se exime provando culpa da vítima ou força maior (art. 936); a diligência dele não basta."
+      },
+      {
+       "trecho": "Art. 936. O dono, ou detentor, do animal ressarcirá o dano por este causado, se não provar culpa da vítima ou força maior.",
+       "marcas": [
+        "dono, ou detentor"
+       ],
+       "afirmacao": "Quem cuida do cavalo de outra pessoa, em seu sítio, pode ter de ressarcir o dano que o animal causar.",
+       "gabarito": "C",
+       "porque": "Respondem o dono ou o detentor do animal (art. 936)."
+      },
+      {
+       "trecho": "Art. 937. O dono de edifício ou construção responde pelos danos que resultarem de sua ruína, se esta provier de falta de reparos, cuja necessidade fosse manifesta.",
+       "marcas": [
+        "falta de reparos, cuja necessidade fosse manifesta"
+       ],
+       "afirmacao": "O dono do prédio responde pela ruína de uma marquise que vinha rachando de forma visível havia meses, sem conserto.",
+       "gabarito": "C",
+       "porque": "Responde pelos danos da ruína que provier de falta de reparos manifestamente necessários (art. 937)."
+      },
+      {
+       "trecho": "Art. 938. Aquele que habitar prédio, ou parte dele, responde pelo dano proveniente das coisas que dele caírem ou forem lançadas em lugar indevido.",
+       "marcas": [
+        "Aquele que habitar prédio"
+       ],
+       "afirmacao": "Pelo vaso que cai da varanda do apartamento alugado e fere um pedestre, responde o proprietário do imóvel, e não o inquilino.",
+       "gabarito": "E",
+       "porque": "Responde quem habitar o prédio ou parte dele (art. 938), o que inclui o inquilino."
+      }
+     ],
+     "conferido": {
+      "Art. 936.": "147a72176363",
+      "Art. 937.": "3148d41c9e31",
+      "Art. 938.": "acab56ec25fb"
+     },
+     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ, Súmula 132",
+     "texto": "A ausência de registro da transferência não implica a responsabilidade do antigo proprietário por dano resultante de acidente que envolva o veículo alienado."
+    },
+    {
+     "quem": "CJF, Enunciado 452 (V Jornada)",
+     "texto": "A responsabilidade civil do dono ou detentor de animal é objetiva, admitindo-se a excludente do fato exclusivo de terceiro."
+    },
+    {
+     "quem": "CJF, Enunciado 556 (VI Jornada)",
+     "texto": "A responsabilidade civil do dono do prédio ou construção por sua ruína, tratada pelo art. 937 do Código Civil, é objetiva."
+    },
+    {
+     "quem": "CJF, Enunciado 557 (VI Jornada)",
+     "texto": "Se a coisa cair ou for lançada de condomínio edilício, não sendo possível identificar de qual unidade, responderá o condomínio, assegurado o direito de regresso."
+    }
+   ],
+   "detalhes": [
+    "Na queda de objeto de condomínio sem unidade identificada, o STJ admite excluir da responsabilidade a ala ou face do prédio de onde o objeto não poderia ter caído.",
+    "Os §§ 1º e 2º do art. 937 foram vetados na Lei 13.425/2017."
+   ],
+   "macetes": [
+    {
+     "sigla": "ANIMAL: SÓ VÍTIMA OU FORÇA MAIOR",
+     "texto": "O texto do art. 936 só traz essas duas excludentes; o Enunciado 452 acrescenta o fato exclusivo de terceiro."
+    },
+    {
+     "sigla": "QUEM MORA, PAGA",
+     "texto": "Coisa caída ou lançada: responde quem habita (art. 938), dono ou não. Sem unidade identificada, o condomínio."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O inquilino de um apartamento responde pelo dano causado por objeto lançado de sua janela em lugar indevido, ainda que o imóvel não seja seu.",
+    "gabarito": "C",
+    "explicacao": "Responde quem habitar o prédio ou parte dele (art. 938). Questão do app sobre fato da coisa."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O dono do animal só responde pelo dano se ficar provada a sua culpa na guarda.",
+     "certo": "Responde se não provar culpa da vítima ou força maior (art. 936); a responsabilidade é objetiva.",
+     "fonte": "Questão do app sobre fato do animal"
+    },
+    {
+     "errado": "Quem vende o carro e não registra a transferência responde pelo acidente causado pelo comprador.",
+     "certo": "A falta de registro não gera responsabilidade do antigo proprietário (STJ, Súmula 132).",
+     "fonte": "Questão do app sobre fato da coisa"
+    }
+   ],
+   "ja_caiu": [
+    "Questões de lei seca dos arts. 936 a 938 no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo."
+    }
+   ],
+   "relacionados": [
+    "responsabilidade-civil",
+    "responsabilidade-por-fato-de-terceiro-e-do-incapaz",
     "posse-e-acoes-possessorias"
+   ]
+  },
+  {
+   "slug": "cobranca-indevida-solidariedade-e-transmissao",
+   "titulo": "Cobrança antes do vencimento ou de dívida paga, solidariedade e transmissão",
+   "grupo": "Responsabilidade civil",
+   "base": "Arts. 939 a 943 do Código Civil",
+   "tax": [
+    "civil.responsabilidade-civil.cobranca-solidariedade"
+   ],
+   "dispositivos": [
+    "n10406-2002-art-939",
+    "n10406-2002-art-940",
+    "n10406-2002-art-941",
+    "n10406-2002-art-942",
+    "n10406-2002-art-943"
+   ],
+   "conceitos": [
+    "demanda antes do vencimento",
+    "custas em dobro",
+    "cobrança de dívida já paga",
+    "pagamento em dobro",
+    "pedido de mais do que o devido",
+    "desistência antes da contestação",
+    "má-fé do credor",
+    "solidariedade dos coautores",
+    "patrimônio do responsável",
+    "transmissão com a herança"
+   ],
+   "palavras": [
+    "demandar o devedor",
+    "antes de vencida a divida",
+    "esperar o tempo que faltava",
+    "descontar os juros",
+    "custas em dobro",
+    "divida ja paga",
+    "sem ressalvar as quantias recebidas",
+    "pedir mais do que for devido",
+    "dobro do que houver cobrado",
+    "equivalente do que dele exigir",
+    "salvo se houver prescricao",
+    "desistir da acao",
+    "antes de contestada a lide",
+    "ma-fe",
+    "sumula 159",
+    "tema 622",
+    "propria defesa",
+    "reconvencao",
+    "art 42 cdc",
+    "repeticao em dobro",
+    "bens do responsavel",
+    "mais de um autor",
+    "solidariamente",
+    "coautores",
+    "transmitem-se com a heranca",
+    "herdeiros",
+    "sumula 642"
+   ],
+   "resumo": "O credor que <strong>demanda antes do vencimento</strong>, fora dos casos em que a lei permite, espera o tempo que faltava, desconta os juros correspondentes, ainda que estipulados, e paga as <strong>custas em dobro</strong> (art. 939). Quem demanda por <strong>dívida já paga</strong>, no todo ou em parte, sem ressalvar o que recebeu, paga ao devedor o <strong>dobro do que cobrou</strong>; quem <strong>pede mais do que o devido</strong> paga o <strong>equivalente do que exigiu</strong>, salvo prescrição (art. 940). Essas penas não se aplicam se o autor <strong>desistir antes da contestação</strong>, ressalvada a indenização do prejuízo provado pelo réu (art. 941). Pela jurisprudência, a sanção do art. 940 exige <strong>má-fé</strong> do credor (Súmula 159 do STF) e pode ser pedida na <strong>própria defesa</strong>, sem ação autônoma nem reconvenção (Tema 622 do STJ). Os <strong>bens do responsável</strong> respondem pela reparação, e, havendo <strong>mais de um autor</strong>, todos respondem <strong>solidariamente</strong>, com os coautores e as pessoas do art. 932 (art. 942). O direito de exigir a reparação e a obrigação de prestá-la <strong>transmitem-se com a herança</strong> (art. 943).",
+   "esquema": {
+    "rotulo": "a pena de cada cobrança",
+    "html": "<table><thead><tr><th>Conduta do credor</th><th>Pena</th><th>Base</th></tr></thead><tbody><tr><td><strong>Cobra em juízo antes do vencimento</strong></td><td>Espera o prazo, desconta juros e paga custas em dobro</td><td>Art. 939</td></tr><tr><td><strong>Cobra dívida já paga, sem ressalva</strong></td><td>Paga ao devedor o dobro do que cobrou</td><td>Art. 940, 1ª parte</td></tr><tr><td><strong>Pede mais do que o devido</strong></td><td>Paga o equivalente do que exigiu</td><td>Art. 940, 2ª parte</td></tr><tr><td><strong>Desiste antes da contestação</strong></td><td>Não sofre as penas; indeniza o prejuízo provado</td><td>Art. 941</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Dobro no Código Civil e no CDC",
+    "linhas": [
+     {
+      "nome": "Código Civil, art. 940",
+      "o_que_e": "Cobrança judicial de dívida paga: dobro do que foi cobrado.",
+      "atencao": "Exige má-fé (STF, Súmula 159); pedido na própria defesa (STJ, Tema 622)."
+     },
+     {
+      "nome": "CDC, art. 42, parágrafo único",
+      "o_que_e": "Consumidor cobrado em quantia indevida: repetição do indébito em dobro do que pagou em excesso.",
+      "atencao": "Basta conduta contrária à boa-fé objetiva, sem prova de má-fé (STJ, Corte Especial, EAREsp 676.608)."
+     }
+    ],
+    "colunas": [
+     "Regime",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 939.",
+      "Art. 940.",
+      "Art. 941.",
+      "Art. 942.",
+      "Art. 943."
+     ],
+     "ref": "arts. 939 a 943 do Código Civil",
+     "regras": [
+      "<strong>Arts. 939 a 941.</strong> Cobrança antes do vencimento, de dívida paga e de mais do que o devido.",
+      "<strong>Art. 942.</strong> Patrimônio do responsável e solidariedade.",
+      "<strong>Art. 943.</strong> Transmissão com a herança."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 939. O credor que demandar o devedor antes de vencida a dívida, fora dos casos em que a lei o permita, ficará obrigado a esperar o tempo que faltava para o vencimento, a descontar os juros correspondentes, embora estipulados, e a pagar as custas em dobro.",
+       "marcas": [
+        "custas em dobro",
+        "embora estipulados"
+       ],
+       "afirmacao": "O credor que cobra em juízo antes do vencimento, fora dos casos legais, paga ao devedor o dobro da dívida.",
+       "gabarito": "E",
+       "porque": "Espera o tempo que faltava, desconta os juros correspondentes, embora estipulados, e paga as custas em dobro (art. 939)."
+      },
+      {
+       "trecho": "Art. 940. Aquele que demandar por dívida já paga, no todo ou em parte, sem ressalvar as quantias recebidas ou pedir mais do que for devido, ficará obrigado a pagar ao devedor, no primeiro caso, o dobro do que houver cobrado e, no segundo, o equivalente do que dele exigir, salvo se houver prescrição.",
+       "marcas": [
+        "o dobro do que houver cobrado",
+        "o equivalente do que dele exigir"
+       ],
+       "afirmacao": "O credor que, de má-fé, cobra em juízo R$ 10 mil já pagos fica obrigado a pagar ao devedor R$ 20 mil.",
+       "gabarito": "C",
+       "porque": "Na cobrança de dívida já paga, paga o dobro do que houver cobrado (art. 940)."
+      },
+      {
+       "trecho": "Art. 940. Aquele que demandar por dívida já paga, no todo ou em parte, sem ressalvar as quantias recebidas ou pedir mais do que for devido, ficará obrigado a pagar ao devedor, no primeiro caso, o dobro do que houver cobrado e, no segundo, o equivalente do que dele exigir, salvo se houver prescrição.",
+       "marcas": [
+        "pedir mais do que for devido"
+       ],
+       "afirmacao": "Quem pede, de má-fé, mais do que lhe é devido paga ao devedor o dobro do excesso.",
+       "gabarito": "E",
+       "porque": "Paga o equivalente do que dele exigir (art. 940, segunda parte); o dobro é para a cobrança de dívida já paga."
+      },
+      {
+       "trecho": "Art. 941. As penas previstas nos arts. 939 e 940 não se aplicarão quando o autor desistir da ação antes de contestada a lide, salvo ao réu o direito de haver indenização por algum prejuízo que prove ter sofrido.",
+       "marcas": [
+        "antes de contestada a lide"
+       ],
+       "afirmacao": "O credor que cobrou dívida paga e desiste da ação depois da contestação escapa da pena do dobro.",
+       "gabarito": "E",
+       "porque": "Só escapa das penas se desistir antes de contestada a lide (art. 941)."
+      },
+      {
+       "trecho": "Art. 942. Os bens do responsável pela ofensa ou violação do direito de outrem ficam sujeitos à reparação do dano causado; e, se a ofensa tiver mais de um autor, todos responderão solidariamente pela reparação.",
+       "marcas": [
+        "todos responderão solidariamente"
+       ],
+       "afirmacao": "Dois motoristas que, por imprudência de ambos, atropelam um ciclista respondem cada um apenas pela metade do dano.",
+       "gabarito": "E",
+       "porque": "Se a ofensa tiver mais de um autor, todos respondem solidariamente pela reparação (art. 942)."
+      },
+      {
+       "trecho": "Art. 943. O direito de exigir reparação e a obrigação de prestá-la transmitem-se com a herança.",
+       "marcas": [
+        "transmitem-se com a herança"
+       ],
+       "afirmacao": "Morto o causador do dano, os herdeiros respondem pela indenização nas forças da herança.",
+       "gabarito": "C",
+       "porque": "A obrigação de reparar transmite-se com a herança (art. 943); os herdeiros respondem até as forças dela (art. 1.792)."
+      }
+     ],
+     "conferido": {
+      "Art. 939.": "9174daaebd15",
+      "Art. 940.": "975d5c4e5bb6",
+      "Art. 941.": "80fc0efb33cb",
+      "Art. 942.": "803be533c9c3",
+      "Art. 943.": "76193bb8a328"
+     },
+     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF, Súmula 159",
+     "texto": "Cobrança excessiva, mas de boa-fé, não dá lugar às sanções do art. 1.531 do Código Civil. (O art. 1.531 do Código de 1916 corresponde ao atual art. 940.)"
+    },
+    {
+     "quem": "STJ, Tema 622 (repetitivo)",
+     "texto": "A sanção do pagamento em dobro por cobrança judicial de dívida já paga pode ser pedida pelo réu na própria defesa, sem ação autônoma ou reconvenção, sendo imprescindível a demonstração de má-fé do credor."
+    }
+   ],
+   "detalhes": [
+    "O dano moral também se transmite: os herdeiros podem ajuizar ou prosseguir a ação indenizatória (Súmula 642 do STJ, no tema dos direitos da personalidade).",
+    "A solidariedade do art. 942 é legal (art. 265): a vítima pode cobrar o todo de qualquer dos autores, que depois acertam entre si."
+   ],
+   "macetes": [
+    {
+     "sigla": "COBROU ANTES? CUSTAS EM DOBRO",
+     "texto": "Antes do vencimento, o dobro é só das custas (art. 939)."
+    },
+    {
+     "sigla": "JÁ PAGA: DOBRO. A MAIS: EQUIVALENTE",
+     "texto": "Dívida paga gera o dobro do cobrado; pedido a mais gera o equivalente do exigido (art. 940). Desistiu antes da contestação, escapa (art. 941)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para aplicar a sanção do art. 940 do Código Civil, o réu cobrado por dívida já paga precisa ajuizar ação autônoma ou reconvir.",
+    "gabarito": "E",
+    "explicacao": "Pode pedi-la na própria defesa, mas precisa demonstrar a má-fé do credor (STJ, Tema 622). Questão do app sobre cobrança indevida."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A cobrança excessiva gera a sanção do art. 940 ainda que o credor esteja de boa-fé.",
+     "certo": "Cobrança excessiva de boa-fé não dá lugar às sanções (STF, Súmula 159).",
+     "fonte": "Questão do app sobre cobrança indevida"
+    },
+    {
+     "errado": "A obrigação de indenizar extingue-se com a morte do causador do dano.",
+     "certo": "Transmite-se com a herança (art. 943).",
+     "fonte": "Questão do app sobre responsabilidade civil"
+    }
+   ],
+   "ja_caiu": [
+    "Questões de lei seca dos arts. 939 a 943 no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo."
+    }
+   ],
+   "relacionados": [
+    "responsabilidade-civil",
+    "responsabilidade-por-fato-de-terceiro-e-do-incapaz",
+    "solidariedade-ativa-e-passiva",
+    "direitos-da-personalidade"
    ]
   },
   {
    "slug": "danos-e-indenizacao",
    "titulo": "Danos indenizáveis e medida da indenização",
    "grupo": "Responsabilidade civil",
-   "base": "CC, arts. 402, 403 e 944 a 954",
+   "base": "Arts. 944 a 947 do Código Civil",
    "tax": [
-    "civil.responsabilidade-civil"
+    "civil.responsabilidade-civil.danos"
    ],
    "dispositivos": [
     "n10406-2002-art-944",
     "n10406-2002-art-945",
     "n10406-2002-art-946",
-    "n10406-2002-art-948",
-    "n10406-2002-art-949",
-    "n10406-2002-art-950",
-    "n10406-2002-art-953",
-    "n10406-2002-art-20"
+    "n10406-2002-art-947"
    ],
    "conceitos": [
-    "dano emergente e lucro cessante",
-    "dano direto e imediato",
+    "reparação integral",
     "extensão do dano",
     "redução equitativa",
-    "culpa concorrente",
-    "indenização por homicídio e lesão",
-    "pensão de uma só vez",
+    "culpa concorrente da vítima",
+    "dano material",
     "dano moral",
     "dano moral presumido",
     "dano estético",
     "perda de uma chance",
-    "direito de imagem e biografias"
+    "função punitiva ou pedagógica",
+    "método bifásico",
+    "obrigação indeterminada",
+    "prestação substituída pelo valor"
    ],
    "palavras": [
-    "dano material",
-    "dano emergente",
-    "lucros cessantes",
-    "dano direto e imediato",
+    "indenizacao",
     "extensao do dano",
-    "reducao equitativa",
+    "excessiva desproporcao",
+    "gravidade da culpa",
+    "reduzir equitativamente",
+    "concorrido culposamente",
     "culpa concorrente",
-    "homicidio indenizacao",
-    "funeral luto",
-    "alimentos duracao provavel da vida",
-    "lesao a saude",
-    "pensao",
-    "de uma so vez",
+    "obrigacao indeterminada",
+    "lei processual",
+    "na especie ajustada",
+    "moeda corrente",
     "dano moral",
     "in re ipsa",
     "dano moral presumido",
     "dano estetico",
     "cumulacao",
+    "sumula 387",
     "perda de uma chance",
+    "chance seria e real",
+    "cadastro de inadimplentes",
+    "sumula 385",
+    "devolucao indevida de cheque",
+    "cheque pre-datado",
+    "pessoa juridica de direito publico",
+    "abandono afetivo",
+    "direitos autorais",
+    "metodo bifasico",
+    "funcao punitiva",
     "atraso na entrega do imovel",
     "aluguel presumido",
     "tema 996",
-    "direito de imagem",
-    "sumula 403",
-    "biografia nao autorizada",
-    "adi 4815",
-    "documentario",
-    "injuria difamacao calunia"
+    "enunciado 46",
+    "responsabilidade objetiva reducao"
    ],
-   "resumo": "As perdas e danos abrangem o que o credor <strong>efetivamente perdeu</strong> e o que <strong>razoavelmente deixou de lucrar</strong> (art. 402), mas, mesmo com dolo, só os prejuízos que são efeito <strong>direto e imediato</strong> da inexecução (art. 403). A indenização <strong>mede-se pela extensão do dano</strong>, e o juiz pode reduzi-la equitativamente se houver excessiva desproporção entre a gravidade da culpa e o dano (art. 944). Se a vítima concorreu culposamente, considera-se a gravidade de sua culpa em confronto com a do autor (art. 945). No <strong>homicídio</strong>, indenizam-se tratamento, funeral e luto e prestam-se alimentos a quem o morto os devia, pela duração provável da sua vida (art. 948). Na <strong>lesão</strong>, pagam-se o tratamento e os lucros cessantes até o fim da convalescença (art. 949). Se a vítima perde ou tem reduzida a capacidade de trabalho, soma-se uma <strong>pensão</strong>, que ela pode exigir <strong>de uma só vez</strong> (art. 950). O <strong>dano moral</strong> é indenizável (CF, art. 5º, V e X) e cumula-se com o material e com o estético. A jurisprudência reconhece a <strong>perda de uma chance</strong> séria e real. O uso da imagem com fins econômicos ou comerciais gera dano sem prova de prejuízo, mas, desde a ADI 4.815, obras <strong>biográficas</strong> não dependem de autorização do biografado.",
+   "para_entender": [
+    {
+     "texto": "Dano emergente, lucros cessantes, dano direto e imediato, juros e correção da indenização (Súmulas 43, 54 e 362 do STJ) estão no tema de perdas e danos.",
+     "tema": "perdas-e-danos-juros-e-atualizacao-monetaria"
+    },
+    {
+     "texto": "Dano moral da pessoa jurídica (Súmula 227), uso da imagem (Súmula 403), biografias (ADI 4.815) e transmissão do dano moral aos herdeiros (Súmula 642) estão no tema dos direitos da personalidade.",
+     "tema": "direitos-da-personalidade"
+    }
+   ],
+   "resumo": "A indenização <strong>mede-se pela extensão do dano</strong> (art. 944): é o princípio da <strong>reparação integral</strong>. Se houver <strong>excessiva desproporção</strong> entre a gravidade da culpa e o dano, o juiz pode <strong>reduzi-la equitativamente</strong> (parágrafo único), regra de exceção que se interpreta restritivamente. Se a vítima <strong>concorreu culposamente</strong>, a indenização considera a gravidade da sua culpa em confronto com a do autor (art. 945). Obrigação indeterminada, sem valor fixado em lei ou contrato, apura-se na forma da lei processual (art. 946), e a prestação impossível na espécie ajustada <strong>substitui-se pelo seu valor</strong> em moeda corrente (art. 947). São indenizáveis o dano <strong>material</strong>, o <strong>moral</strong> (CF, art. 5º, V e X), que se cumula com ele, e o <strong>estético</strong>, que se cumula com o moral (Súmula 387). Em vários casos o dano moral é <strong>presumido</strong> (in re ipsa), como na devolução indevida de cheque (Súmula 388). A <strong>perda de uma chance</strong> indeniza a probabilidade <strong>séria e real</strong> frustrada, e não o resultado final. O STJ fixa o dano moral pelo <strong>método bifásico</strong>: valor básico pelos precedentes do mesmo interesse lesado e ajuste pelas circunstâncias do caso.",
    "esquema": {
     "rotulo": "que dano é esse",
-    "html": "<table><thead><tr><th>Dano</th><th>O que é</th><th>Base</th></tr></thead><tbody><tr><td><strong>Emergente</strong></td><td>O que a vítima efetivamente perdeu</td><td>Art. 402</td></tr><tr><td><strong>Lucro cessante</strong></td><td>O que razoavelmente deixou de ganhar</td><td>Art. 402</td></tr><tr><td><strong>Moral</strong></td><td>Lesão a direito da personalidade</td><td>CF, art. 5º, V e X; CC, art. 186</td></tr><tr><td><strong>Estético</strong></td><td>Alteração morfológica permanente; cumula com o moral</td><td>STJ, Súmula 387</td></tr><tr><td><strong>Perda de uma chance</strong></td><td>Chance séria e real frustrada; indeniza-se a chance, não o resultado</td><td>Jurisprudência do STJ</td></tr><tr><td><strong>Atraso na entrega do imóvel</strong></td><td>Lucro cessante presumido, no valor do aluguel</td><td>STJ, Tema 996</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Dano</th><th>O que é</th><th>Base</th></tr></thead><tbody><tr><td><strong>Material</strong></td><td>Dano emergente e lucro cessante</td><td>Art. 402</td></tr><tr><td><strong>Moral</strong></td><td>Lesão a direito da personalidade; cumula com o material</td><td>CF, art. 5º, V e X; STJ, Súmula 37</td></tr><tr><td><strong>Estético</strong></td><td>Alteração morfológica permanente; cumula com o moral</td><td>STJ, Súmula 387</td></tr><tr><td><strong>Perda de uma chance</strong></td><td>Chance séria e real frustrada; indeniza-se a chance, não o resultado</td><td>Jurisprudência do STJ; CJF, Enunciado 444</td></tr><tr><td><strong>Atraso na entrega do imóvel</strong></td><td>Lucro cessante presumido, no valor do aluguel</td><td>STJ, Tema 996</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Dano moral presumido ou não",
+    "linhas": [
+     {
+      "nome": "Devolução indevida de cheque",
+      "o_que_e": "Basta o fato.",
+      "atencao": "STJ, Súmula 388.",
+      "grupo": "Há dano moral presumido"
+     },
+     {
+      "nome": "Apresentação antecipada de cheque pré-datado",
+      "o_que_e": "Basta o fato.",
+      "atencao": "STJ, Súmula 370.",
+      "grupo": "Há dano moral presumido"
+     },
+     {
+      "nome": "Inscrição indevida em cadastro de inadimplentes",
+      "o_que_e": "Basta o fato.",
+      "atencao": "Salvo inscrição legítima anterior (Súmula 385).",
+      "grupo": "Há dano moral presumido"
+     },
+     {
+      "nome": "Pessoa jurídica de direito público ofendida",
+      "o_que_e": "Não tem direito a dano moral por ofensa à honra ou imagem.",
+      "atencao": "A Súmula 227 vale para a pessoa jurídica de direito privado.",
+      "grupo": "Não há"
+     },
+     {
+      "nome": "Abandono afetivo antes do reconhecimento da paternidade",
+      "o_que_e": "Não gera dano moral.",
+      "atencao": "STJ.",
+      "grupo": "Não há"
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Regra",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 402. Salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao credor abrangem, além do que ele efetivamente perdeu, o que razoavelmente deixou de lucrar.",
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 944.",
+      "Art. 945.",
+      "Art. 946.",
+      "Art. 947."
+     ],
+     "ref": "arts. 944 a 947 do Código Civil",
+     "regras": [
+      "<strong>Art. 944.</strong> Extensão do dano e redução equitativa.",
+      "<strong>Art. 945.</strong> Culpa concorrente da vítima.",
+      "<strong>Arts. 946 e 947.</strong> Obrigação indeterminada e prestação substituída pelo valor."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Art. 944. A indenização mede-se pela extensão do dano.",
+       "marcas": [
+        "extensão do dano"
+       ],
+       "afirmacao": "No Código Civil, a indenização se mede pela gravidade da culpa do ofensor.",
+       "gabarito": "E",
+       "porque": "Mede-se pela extensão do dano (art. 944); a gravidade da culpa só serve para reduzir em caso de excessiva desproporção."
+      },
+      {
+       "trecho": "Parágrafo único. Se houver excessiva desproporção entre a gravidade da culpa e o dano, poderá o juiz reduzir, eqüitativamente, a indenização.",
+       "marcas": [
+        "excessiva desproporção",
+        "reduzir, eqüitativamente"
+       ],
+       "afirmacao": "Um motorista, por leve distração, causa dano enorme: o juiz pode reduzir equitativamente a indenização pela desproporção entre a culpa e o dano.",
+       "gabarito": "C",
+       "porque": "É o art. 944, parágrafo único."
+      },
+      {
+       "trecho": "Art. 945. Se a vítima tiver concorrido culposamente para o evento danoso, a sua indenização será fixada tendo-se em conta a gravidade de sua culpa em confronto com a do autor do dano.",
+       "marcas": [
+        "em confronto com a do autor do dano"
+       ],
+       "afirmacao": "A culpa concorrente da vítima exclui o dever de indenizar do autor do dano.",
+       "gabarito": "E",
+       "porque": "Não exclui: a indenização é fixada considerando a gravidade da culpa da vítima em confronto com a do autor (art. 945)."
+      },
+      {
+       "trecho": "Art. 946. Se a obrigação for indeterminada, e não houver na lei ou no contrato disposição fixando a indenização devida pelo inadimplente, apurar-se-á o valor das perdas e danos na forma que a lei processual determinar.",
+       "marcas": [
+        "na forma que a lei processual determinar"
+       ],
+       "afirmacao": "Sendo indeterminada a obrigação e sem valor fixado na lei ou no contrato, o valor das perdas e danos é apurado na forma da lei processual.",
+       "gabarito": "C",
+       "porque": "É o art. 946."
+      },
+      {
+       "trecho": "Art. 947. Se o devedor não puder cumprir a prestação na espécie ajustada, substituir-se-á pelo seu valor, em moeda corrente.",
+       "marcas": [
+        "substituir-se-á pelo seu valor, em moeda corrente"
+       ],
+       "afirmacao": "Se o devedor não pode entregar a prestação na espécie ajustada, o credor fica sem nada a receber.",
+       "gabarito": "E",
+       "porque": "A prestação substitui-se pelo seu valor, em moeda corrente (art. 947)."
+      }
+     ],
+     "conferido": {
+      "Art. 944.": "8e8c8fa9faaf",
+      "Art. 945.": "2e16db815dc2",
+      "Art. 946.": "f9de6ca6b1b8",
+      "Art. 947.": "eb4f3d107bca"
+     },
      "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 403. Ainda que a inexecução resulte de dolo do devedor, as perdas e danos só incluem os prejuízos efetivos e os lucros cessantes por efeito dela direto e imediato, sem prejuízo do disposto na lei processual.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 944. A indenização mede-se pela extensão do dano.\n\nParágrafo único. Se houver excessiva desproporção entre a gravidade da culpa e o dano, poderá o juiz reduzir, eqüitativamente, a indenização.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 948. No caso de homicídio, a indenização consiste, sem excluir outras reparações:\n\nI - no pagamento das despesas com o tratamento da vítima, seu funeral e o luto da família;\n\nII - na prestação de alimentos às pessoas a quem o morto os devia, levando-se em conta a duração provável da vida da vítima.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
-    },
-    {
-     "texto": "Art. 950. Se da ofensa resultar defeito pelo qual o ofendido não possa exercer o seu ofício ou profissão, ou se lhe diminua a capacidade de trabalho, a indenização, além das despesas do tratamento e lucros cessantes até ao fim da convalescença, incluirá pensão correspondente à importância do trabalho para que se inabilitou, ou da depreciação que ele sofreu.\n\nParágrafo único. O prejudicado, se preferir, poderá exigir que a indenização seja arbitrada e paga de uma só vez.",
-     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
-     "norma": "n10406-2002"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STJ, Súmula 387",
+     "texto": "É lícita a cumulação das indenizações de dano estético e dano moral."
+    },
+    {
+     "quem": "STJ, Súmula 385",
+     "texto": "Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento."
+    },
+    {
+     "quem": "STJ, Súmula 388",
+     "texto": "A simples devolução indevida de cheque caracteriza dano moral."
+    },
+    {
+     "quem": "STJ, Súmula 370",
+     "texto": "Caracteriza dano moral a apresentação antecipada de cheque pré-datado."
+    },
+    {
+     "quem": "STJ, Tema 996",
+     "texto": "No atraso da entrega do imóvel, o prejuízo do adquirente é presumido, consistente na privação injusta do uso do bem, e se indeniza como aluguel mensal com base no valor locatício de imóvel assemelhado."
+    },
+    {
+     "quem": "CJF, Enunciados 46 e 380",
+     "texto": "A redução do art. 944, parágrafo único, deve ser interpretada restritivamente, por ser exceção à reparação integral; o Enunciado 380 suprimiu a parte final do 46, que a afastava da responsabilidade objetiva."
+    },
+    {
+     "quem": "CJF, Enunciado 379 (IV Jornada)",
+     "texto": "O art. 944, caput, do Código Civil não afasta a possibilidade de se reconhecer a função punitiva ou pedagógica da responsabilidade civil."
+    },
+    {
+     "quem": "CJF, Enunciado 444 (V Jornada)",
+     "texto": "A responsabilidade civil pela perda de chance não se limita aos danos extrapatrimoniais; conforme o caso, a chance perdida pode ter natureza de dano patrimonial. A chance deve ser séria e real, sem ficar adstrita a percentuais apriorísticos."
+    }
+   ],
+   "detalhes": [
+    "Para o STJ, os danos materiais decorrentes de violação de direitos autorais dispensam a prova de prejuízo concreto, e a indenização pode ser quantificada em liquidação de sentença.",
+    "Dano moral e dano material oriundos do mesmo fato são cumuláveis (Súmula 37 do STJ)."
    ],
    "macetes": [
     {
-     "sigla": "OBRA ATRASADA, ALUGUEL PRESUMIDO",
-     "texto": "No atraso da entrega do imóvel por culpa da construtora, o comprador não prova o lucro cessante: ele é presumido e corresponde ao aluguel que deixou de receber ou pagar."
+     "sigla": "EXTENSÃO MEDE, CULPA SÓ REDUZ",
+     "texto": "A régua é o dano (art. 944). A culpa leve diante de dano enorme permite reduzir; a culpa da vítima entra no confronto (art. 945)."
     },
     {
-     "sigla": "BIOGRAFIA DISPENSA AUTORIZAÇÃO",
-     "texto": "A Súmula 403 vale para o uso comercial da imagem, como num anúncio. Documentário ou biografia sobre a vida de alguém é liberdade de expressão."
+     "sigla": "OBRA ATRASADA, ALUGUEL PRESUMIDO",
+     "texto": "No atraso da entrega do imóvel por culpa da construtora, o lucro cessante é presumido e corresponde ao aluguel (Tema 996)."
     },
     {
      "sigla": "CHANCE NÃO É PALPITE",
      "texto": "A perda de uma chance indeniza a probabilidade séria e real de um ganho frustrado. Quando o ganho já veio para outra pessoa à custa da vítima, o caminho é o enriquecimento sem causa."
     }
    ],
-   "juris": [
-    {
-     "quem": "STJ, Tema 996",
-     "texto": "No atraso da entrega do imóvel, o prejuízo do adquirente é presumido, consistente na privação injusta do uso do bem, e se indeniza como aluguel mensal com base no valor locatício de imóvel assemelhado."
-    },
-    {
-     "quem": "STF, ADI 4.815",
-     "texto": "É inexigível o consentimento da pessoa biografada, ou de coadjuvantes e familiares, para obras biográficas literárias ou audiovisuais."
-    },
-    {
-     "quem": "STJ, Súmula 403",
-     "texto": "Independe de prova do prejuízo a indenização pela publicação não autorizada de imagem de pessoa com fins econômicos ou comerciais."
-    },
-    {
-     "quem": "STJ, Súmula 387",
-     "texto": "É lícita a cumulação das indenizações de dano estético e dano moral."
-    },
-    {
-     "quem": "STJ, Súmula 54",
-     "texto": "Os juros moratórios fluem a partir do evento danoso, em caso de responsabilidade extracontratual."
-    },
-    {
-     "quem": "STJ, Súmula 362",
-     "texto": "A correção monetária do valor da indenização do dano moral incide desde a data do arbitramento."
-    }
-   ],
    "pegadinha": {
     "afirmacao": "Em caso de atraso na entrega do imóvel por culpa da construtora, o prejuízo do promitente comprador deverá ser comprovado.",
     "gabarito": "E",
-    "explicacao": "O prejuízo é presumido e corresponde à média do aluguel que o comprador deixaria de pagar (STJ, Tema 996). Foi a opção correta da mesma questão; estavam erradas as que excluíam os lucros cessantes, as que presumiam o dano moral e as que reduziam a indenização ao dano moral (Cebraspe, Juiz TJDFT 2022)."
+    "explicacao": "O prejuízo é presumido e corresponde à média do aluguel que o comprador deixaria de pagar (STJ, Tema 996). Estavam erradas também as opções que excluíam os lucros cessantes, as que presumiam o dano moral e as que reduziam a indenização ao dano moral (Cebraspe, Juiz TJDFT 2022)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Craque e goleiro no documentário.</strong> Um cinegrafista contou a vida de um craque de futebol num documentário e mostrou o goleiro que levou um drible vergonhoso dele. Ambos pediram dano moral por violação de direitos autorais e de imagem, e os dois pedidos eram improcedentes: obra biográfica não depende de autorização do biografado nem dos coadjuvantes (STF, ADI 4.815). Estava errado dizer que o intuito lucrativo dispensaria a prova do prejuízo (FGV, Juiz TJPE 2024).</p><p><strong>Lucro cessante mais enriquecimento sem causa.</strong> O motorista usou escondido os carros do patrão em corridas e ganhou um prêmio. O dono pode pedir os aluguéis a título de lucros cessantes e a reversão do prêmio para evitar o enriquecimento sem causa. A perda de uma chance não serve aqui, porque o patrão não perdeu chance alguma de ganhar a corrida (FGV, Juiz TJSC 2023).</p>",
-   "relacionados": [
-    "responsabilidade-civil",
-    "direitos-da-personalidade",
-    "atos-unilaterais-e-enriquecimento-sem-causa"
+   "pegadinhas": [
+    {
+     "errado": "No documentário sobre a vida de um craque, o intuito lucrativo dispensa a prova do prejuízo e garante dano moral ao craque e ao goleiro driblado.",
+     "certo": "Obra biográfica não depende de autorização do biografado nem dos coadjuvantes (STF, ADI 4.815); os pedidos eram improcedentes.",
+     "fonte": "FGV, Juiz TJPE 2024"
+    },
+    {
+     "errado": "O dono dos carros usados escondido pelo motorista numa corrida premiada deve pedir indenização pela perda de uma chance.",
+     "certo": "Pede os aluguéis como lucros cessantes e a reversão do prêmio, para evitar o enriquecimento sem causa; ele não perdeu chance alguma de ganhar a corrida.",
+     "fonte": "FGV, Juiz TJSC 2023"
+    },
+    {
+     "errado": "O dano estético é espécie de dano moral, e por isso as duas indenizações não se cumulam.",
+     "certo": "É lícita a cumulação (STJ, Súmula 387).",
+     "fonte": "Questão do app sobre danos"
+    },
+    {
+     "errado": "O município ofendido em sua imagem pode pedir dano moral, porque a Súmula 227 admite dano moral à pessoa jurídica.",
+     "certo": "Pessoa jurídica de direito público não tem direito a dano moral por ofensa à honra ou à imagem (STJ).",
+     "fonte": "Questão do app sobre danos"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe, Juiz TJDFT 2022",
+    "FGV, Juiz TJPE 2024",
+    "FGV, Juiz TJSC 2023",
+    "Questões de lei seca dos arts. 944 a 947 no app"
    ],
    "mudancas": [
     {
      "em": "2026-11-14",
      "tipo": "juris",
-     "nota": "Acrescidas as Súmulas 54 e 362 do STJ e o Tema 970 (cláusula penal moratória e lucros cessantes)."
+     "nota": "Acrescidas as Súmulas 54 e 362 do STJ e o Tema 970."
+    },
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reescrito: arts. 402 e 403 ficaram em perdas e danos; arts. 948 a 954 ganharam tema próprio; entram as súmulas de dano moral presumido e os Enunciados 46, 379, 380 e 444."
     }
+   ],
+   "relacionados": [
+    "responsabilidade-civil",
+    "indenizacao-por-morte-lesao-e-ofensas",
+    "perdas-e-danos-juros-e-atualizacao-monetaria",
+    "direitos-da-personalidade",
+    "atos-unilaterais-e-enriquecimento-sem-causa"
+   ]
+  },
+  {
+   "slug": "indenizacao-por-morte-lesao-e-ofensas",
+   "titulo": "Indenização por morte, lesão, usurpação e ofensas à honra e à liberdade",
+   "grupo": "Responsabilidade civil",
+   "base": "Arts. 948 a 954 do Código Civil",
+   "tax": [
+    "civil.responsabilidade-civil.indenizacao-especie"
+   ],
+   "dispositivos": [
+    "n10406-2002-art-948",
+    "n10406-2002-art-949",
+    "n10406-2002-art-950",
+    "n10406-2002-art-951",
+    "n10406-2002-art-952",
+    "n10406-2002-art-953",
+    "n10406-2002-art-954"
+   ],
+   "conceitos": [
+    "indenização por homicídio",
+    "despesas de tratamento, funeral e luto",
+    "alimentos indenizatórios",
+    "duração provável da vida da vítima",
+    "lucros cessantes até o fim da convalescença",
+    "pensão por incapacidade",
+    "pagamento de uma só vez",
+    "responsabilidade do profissional de saúde",
+    "usurpação ou esbulho",
+    "preço de afeição",
+    "injúria, difamação e calúnia",
+    "ofensa à liberdade pessoal",
+    "constituição de capital"
+   ],
+   "palavras": [
+    "homicidio",
+    "despesas com o tratamento",
+    "funeral",
+    "luto da familia",
+    "prestacao de alimentos",
+    "a quem o morto os devia",
+    "duracao provavel da vida",
+    "lesao",
+    "ofensa a saude",
+    "convalescenca",
+    "lucros cessantes",
+    "oficio ou profissao",
+    "capacidade de trabalho",
+    "pensao",
+    "depreciacao",
+    "de uma so vez",
+    "atividade profissional",
+    "negligencia",
+    "imprudencia",
+    "impericia",
+    "paciente",
+    "medico",
+    "usurpacao",
+    "esbulho",
+    "deterioracoes",
+    "preco ordinario",
+    "preco de afeicao",
+    "injuria",
+    "difamacao",
+    "calunia",
+    "equitativamente",
+    "liberdade pessoal",
+    "carcere privado",
+    "queixa ou denuncia falsa",
+    "prisao ilegal",
+    "filho menor",
+    "sumula 491",
+    "salario minimo",
+    "sumula 490",
+    "constituicao de capital",
+    "sumula 313",
+    "seguro obrigatorio",
+    "sumula 246",
+    "lei de imprensa",
+    "sumula 281"
+   ],
+   "resumo": "No <strong>homicídio</strong>, a indenização compreende, sem excluir outras reparações, as despesas com o <strong>tratamento</strong> da vítima, o <strong>funeral</strong> e o <strong>luto</strong> da família, e <strong>alimentos</strong> às pessoas a quem o morto os devia, pela <strong>duração provável da vida da vítima</strong> (art. 948). Na <strong>lesão</strong> ou ofensa à saúde, pagam-se o tratamento e os <strong>lucros cessantes até o fim da convalescença</strong>, além de outro prejuízo provado (art. 949). Se a vítima não pode mais exercer o ofício ou tem a capacidade de trabalho reduzida, soma-se <strong>pensão</strong> correspondente ao trabalho para que se inabilitou ou à depreciação sofrida (art. 950), que ela pode exigir <strong>arbitrada e paga de uma só vez</strong> (parágrafo único). Essas regras valem para o <strong>profissional</strong> que, por negligência, imprudência ou imperícia, causa a morte ou lesão do paciente (art. 951): a responsabilidade é <strong>subjetiva</strong>. Na <strong>usurpação ou esbulho</strong>, restitui-se a coisa com o valor das deteriorações e os lucros cessantes; faltando a coisa, paga-se o equivalente pelo preço ordinário e pelo <strong>de afeição</strong>, que não pode superar aquele (art. 952). Na <strong>injúria, difamação ou calúnia</strong> e na <strong>ofensa à liberdade pessoal</strong> (cárcere privado, prisão por queixa falsa e de má-fé, prisão ilegal), sem prova de prejuízo material o juiz fixa a indenização <strong>equitativamente</strong> (arts. 953 e 954).",
+   "esquema": {
+    "rotulo": "o que se paga em cada caso",
+    "html": "<table><thead><tr><th>Ofensa</th><th>Indenização</th><th>Base</th></tr></thead><tbody><tr><td><strong>Homicídio</strong></td><td>Tratamento, funeral, luto e alimentos a quem o morto os devia</td><td>Art. 948</td></tr><tr><td><strong>Lesão à saúde</strong></td><td>Tratamento e lucros cessantes até o fim da convalescença</td><td>Art. 949</td></tr><tr><td><strong>Incapacidade para o trabalho</strong></td><td>Além disso, pensão; pode ser paga de uma só vez</td><td>Art. 950</td></tr><tr><td><strong>Erro de profissional de saúde</strong></td><td>As mesmas verbas, se houver culpa</td><td>Art. 951</td></tr><tr><td><strong>Usurpação ou esbulho</strong></td><td>Coisa, deteriorações e lucros cessantes; ou o equivalente</td><td>Art. 952</td></tr><tr><td><strong>Injúria, difamação, calúnia; ofensa à liberdade</strong></td><td>Dano provado; sem prova, valor equitativo</td><td>Arts. 953 e 954</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Pensão na jurisprudência",
+    "linhas": [
+     {
+      "nome": "Morte de filho menor, mesmo sem trabalho remunerado",
+      "o_que_e": "É indenizável (STF, Súmula 491).",
+      "atencao": "Na família de baixa renda, o STJ fixa pensão de 2/3 do salário mínimo até os 25 anos da vítima e de 1/3 até os 65."
+     },
+     {
+      "nome": "Base de cálculo",
+      "o_que_e": "Salário mínimo vigente ao tempo da sentença, com as variações posteriores (STF, Súmula 490)."
+     },
+     {
+      "nome": "Garantia",
+      "o_que_e": "Constituição de capital ou caução fidejussória, independentemente da situação financeira do réu (STJ, Súmula 313)."
+     },
+     {
+      "nome": "Seguro obrigatório",
+      "o_que_e": "O valor é deduzido da indenização judicial (STJ, Súmula 246)."
+     },
+     {
+      "nome": "Pagamento de uma só vez",
+      "o_que_e": "É opção do lesado, salvo impossibilidade econômica do devedor (CJF, Enunciado 381)."
+     }
+    ],
+    "colunas": [
+     "Ponto",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n10406-2002",
+     "artigos": [
+      "Art. 948.",
+      "Art. 949.",
+      "Art. 950.",
+      "Art. 951.",
+      "Art. 952.",
+      "Art. 953.",
+      "Art. 954."
+     ],
+     "ref": "arts. 948 a 954 do Código Civil",
+     "regras": [
+      "<strong>Arts. 948 a 951.</strong> Morte, lesão, incapacidade e erro profissional.",
+      "<strong>Art. 952.</strong> Usurpação ou esbulho.",
+      "<strong>Arts. 953 e 954.</strong> Ofensas à honra e à liberdade pessoal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - no pagamento das despesas com o tratamento da vítima, seu funeral e o luto da família;",
+       "marcas": [
+        "seu funeral e o luto da família"
+       ],
+       "afirmacao": "No homicídio, a indenização se limita aos alimentos devidos aos dependentes da vítima.",
+       "gabarito": "E",
+       "porque": "Inclui tratamento, funeral e luto (art. 948, I) e alimentos (II), sem excluir outras reparações."
+      },
+      {
+       "trecho": "II - na prestação de alimentos às pessoas a quem o morto os devia, levando-se em conta a duração provável da vida da vítima.",
+       "marcas": [
+        "duração provável da vida da vítima"
+       ],
+       "afirmacao": "Os alimentos aos dependentes do morto levam em conta a duração provável da vida da vítima.",
+       "gabarito": "C",
+       "porque": "É o art. 948, II."
+      },
+      {
+       "trecho": "Art. 949. No caso de lesão ou outra ofensa à saúde, o ofensor indenizará o ofendido das despesas do tratamento e dos lucros cessantes até ao fim da convalescença, além de algum outro prejuízo que o ofendido prove haver sofrido.",
+       "marcas": [
+        "até ao fim da convalescença"
+       ],
+       "afirmacao": "Na lesão corporal, os lucros cessantes são devidos só até a alta hospitalar.",
+       "gabarito": "E",
+       "porque": "São devidos até o fim da convalescença (art. 949)."
+      },
+      {
+       "trecho": "Parágrafo único. O prejudicado, se preferir, poderá exigir que a indenização seja arbitrada e paga de uma só vez.",
+       "marcas": [
+        "paga de uma só vez"
+       ],
+       "afirmacao": "O motorista que perdeu a capacidade de trabalho pode exigir que a pensão seja arbitrada e paga de uma só vez.",
+       "gabarito": "C",
+       "porque": "É o art. 950, parágrafo único; o juiz pode fixar outra forma se o devedor não tiver condição econômica (CJF, Enunciado 381)."
+      },
+      {
+       "trecho": "Art. 951. O disposto nos arts. 948, 949 e 950 aplica-se ainda no caso de indenização devida por aquele que, no exercício de atividade profissional, por negligência, imprudência ou imperícia, causar a morte do paciente, agravar-lhe o mal, causar-lhe lesão, ou inabilitá-lo para o trabalho.",
+       "marcas": [
+        "por negligência, imprudência ou imperícia"
+       ],
+       "afirmacao": "O médico responde pela lesão do paciente independentemente de culpa, porque sua atividade é de risco.",
+       "gabarito": "E",
+       "porque": "Responde quando agir com negligência, imprudência ou imperícia (art. 951): é responsabilidade subjetiva."
+      },
+      {
+       "trecho": "Parágrafo único. Para se restituir o equivalente, quando não exista a própria coisa, estimar-se-á ela pelo seu preço ordinário e pelo de afeição, contanto que este não se avantaje àquele.",
+       "marcas": [
+        "contanto que este não se avantaje àquele"
+       ],
+       "afirmacao": "Destruído o relógio de família esbulhado, o preço de afeição pode ser fixado em valor muito superior ao preço ordinário do bem.",
+       "gabarito": "E",
+       "porque": "O preço de afeição não pode superar o ordinário (art. 952, parágrafo único)."
+      },
+      {
+       "trecho": "Parágrafo único. Se o ofendido não puder provar prejuízo material, caberá ao juiz fixar, eqüitativamente, o valor da indenização, na conformidade das circunstâncias do caso.",
+       "marcas": [
+        "fixar, eqüitativamente"
+       ],
+       "afirmacao": "Caluniado sem prejuízo material provado, o ofendido ainda pode receber indenização fixada equitativamente pelo juiz.",
+       "gabarito": "C",
+       "porque": "É o art. 953, parágrafo único."
+      },
+      {
+       "trecho": "II - a prisão por queixa ou denúncia falsa e de má-fé;",
+       "marcas": [
+        "falsa e de má-fé"
+       ],
+       "afirmacao": "Toda prisão decorrente de queixa que depois se mostra infundada é ofensa à liberdade pessoal indenizável pelo art. 954.",
+       "gabarito": "E",
+       "porque": "O art. 954, II, exige queixa ou denúncia falsa e de má-fé."
+      }
+     ],
+     "conferido": {
+      "Art. 948.": "86f4b5393d9d",
+      "Art. 949.": "19e77e2aa1dd",
+      "Art. 950.": "4760a0a83ad9",
+      "Art. 951.": "7d61bfbf415a",
+      "Art. 952.": "bc58dee3b723",
+      "Art. 953.": "f2907dcbaefc",
+      "Art. 954.": "1b70f94b330e"
+     },
+     "fonte": "Lei 10.406/2002 (Código Civil), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF, Súmula 491",
+     "texto": "É indenizável o acidente que cause a morte de filho menor, ainda que não exerça trabalho remunerado."
+    },
+    {
+     "quem": "STF, Súmula 490",
+     "texto": "A pensão correspondente a indenização oriunda de responsabilidade civil deve ser calculada com base no salário-mínimo vigente ao tempo da sentença e ajustar-se-á às variações ulteriores."
+    },
+    {
+     "quem": "STJ, Súmula 313",
+     "texto": "Em ação de indenização, procedente o pedido, é necessária a constituição de capital ou caução fidejussória para a garantia de pagamento da pensão, independentemente da situação financeira do demandado."
+    },
+    {
+     "quem": "STJ, Súmula 246",
+     "texto": "O valor do seguro obrigatório deve ser deduzido da indenização judicialmente fixada."
+    },
+    {
+     "quem": "STJ, Súmula 281",
+     "texto": "A indenização por dano moral não está sujeita à tarifação prevista na Lei de Imprensa."
+    },
+    {
+     "quem": "CJF, Enunciado 381 (IV Jornada)",
+     "texto": "O lesado pode exigir que a indenização sob a forma de pensionamento seja arbitrada e paga de uma só vez, salvo impossibilidade econômica do devedor, caso em que o juiz poderá fixar outra forma de pagamento, atendendo à condição financeira do ofensor e aos benefícios resultantes do pagamento antecipado."
+    }
+   ],
+   "detalhes": [
+    "Para o STJ, a pensão do art. 950 pela perda permanente da capacidade de trabalho é vitalícia; a duração provável da vida só limita os alimentos do art. 948, II, devidos a terceiros pela morte.",
+    "A responsabilidade pessoal do profissional liberal também é subjetiva no CDC (art. 14, § 4º); o hospital, como fornecedor de serviço, responde objetivamente pelos serviços próprios."
+   ],
+   "macetes": [
+    {
+     "sigla": "MORTE: TRATA, ENTERRA, ENLUTA, ALIMENTA",
+     "texto": "Tratamento, funeral e luto, mais alimentos pela duração provável da vida da vítima (art. 948)."
+    },
+    {
+     "sigla": "AFEIÇÃO NÃO PASSA O PREÇO",
+     "texto": "O preço de afeição soma-se ao ordinário, mas não pode superá-lo (art. 952, parágrafo único)."
+    },
+    {
+     "sigla": "MÉDICO, SÓ COM CULPA",
+     "texto": "Negligência, imprudência ou imperícia (art. 951)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A morte de filho menor que não exercia trabalho remunerado não gera indenização por dano material aos pais.",
+    "gabarito": "E",
+    "explicacao": "É indenizável o acidente que cause a morte de filho menor, ainda que não exerça trabalho remunerado (STF, Súmula 491). Questão do app sobre indenização por morte."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A pensão por incapacidade só pode ser paga mês a mês.",
+     "certo": "O prejudicado pode exigir que seja arbitrada e paga de uma só vez (art. 950, parágrafo único).",
+     "fonte": "Questão do app sobre indenização por lesão"
+    },
+    {
+     "errado": "A indenização por injúria exige prova de prejuízo material.",
+     "certo": "Sem essa prova, o juiz fixa equitativamente o valor (art. 953, parágrafo único).",
+     "fonte": "Questão do app sobre ofensas à honra"
+    }
+   ],
+   "ja_caiu": [
+    "Questões de lei seca dos arts. 948 a 954 no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo."
+    }
+   ],
+   "relacionados": [
+    "danos-e-indenizacao",
+    "responsabilidade-civil",
+    "posse-e-acoes-possessorias"
+   ]
+  },
+  {
+   "slug": "dano-moral-coletivo-e-danos-sociais",
+   "titulo": "Dano moral coletivo e danos sociais",
+   "grupo": "Responsabilidade civil",
+   "base": "Jurisprudência do STJ; Lei 7.347/1985, art. 1º; CJF, Enunciado 455",
+   "tax": [
+    "civil.danos-coletivos-sociais",
+    "civil.responsabilidade-ambiental-consumo-patrimonio"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "dano moral coletivo",
+    "dano in re ipsa",
+    "valores fundamentais da coletividade",
+    "danos sociais",
+    "rebaixamento do nível de vida da coletividade",
+    "legitimados para a ação coletiva",
+    "fundo de reparação",
+    "reparação integral do dano ambiental",
+    "consumidor por equiparação no dano ambiental"
+   ],
+   "palavras": [
+    "dano moral coletivo",
+    "in re ipsa",
+    "valores fundamentais",
+    "coletividade",
+    "intoleravel",
+    "danos sociais",
+    "dano social",
+    "enunciado 455",
+    "acao civil publica",
+    "lei 7347",
+    "fundo",
+    "legitimados",
+    "acao individual",
+    "julgamento extra petita",
+    "trote universitario",
+    "vaga de deficiente",
+    "cursos superiores irregulares",
+    "desmatamento",
+    "dano ambiental",
+    "obrigacao de fazer",
+    "nao fazer",
+    "indenizar",
+    "cumulacao",
+    "consumidor por equiparacao",
+    "bystander",
+    "difusos",
+    "individuais homogeneos"
+   ],
+   "para_entender": [
+    {
+     "texto": "Os pressupostos da responsabilidade civil e o risco integral do dano ambiental estão no tema de pressupostos; a responsabilidade ambiental em detalhe fica no caderno de Direito Ambiental.",
+     "tema": "responsabilidade-civil"
+    }
+   ],
+   "resumo": "O <strong>dano moral coletivo</strong> é categoria <strong>autônoma</strong> de dano: decorre da violação <strong>injusta e intolerável</strong> de <strong>valores fundamentais da coletividade</strong> e é aferível <strong>in re ipsa</strong>, sem prova de dor, sofrimento ou abalo psíquico de alguém (STJ). Tem base na Lei da Ação Civil Pública, que rege as ações por danos <strong>morais e patrimoniais</strong> ao meio ambiente, ao consumidor, à ordem urbanística, ao patrimônio público e social e a qualquer outro interesse difuso ou coletivo (Lei 7.347/1985, art. 1º), com a condenação revertida a um <strong>fundo</strong> (art. 13). Não basta qualquer ilicitude: o STJ negou dano moral coletivo no estacionamento em vaga de pessoa com deficiência e em declarações de trote universitário. Os <strong>danos sociais</strong> são lesões que rebaixam o nível de vida da coletividade, por diminuição de sua segurança ou qualidade de vida; o dano do art. 944 abrange os danos sociais, difusos, coletivos e individuais homogêneos (CJF, Enunciado 455), mas eles só podem ser pedidos pelos <strong>legitimados à ação coletiva</strong>, e não fixados de ofício numa ação individual.",
+   "esquema": {
+    "rotulo": "dano individual ou coletivo",
+    "html": "<table><thead><tr><th>Dano</th><th>Titular</th><th>Prova</th><th>Quem pede</th></tr></thead><tbody><tr><td><strong>Moral individual</strong></td><td>A vítima</td><td>Em regra, do fato lesivo; às vezes presumido</td><td>A vítima</td></tr><tr><td><strong>Moral coletivo</strong></td><td>A coletividade</td><td>In re ipsa: basta a lesão intolerável a valores coletivos</td><td>Legitimados da ação civil pública</td></tr><tr><td><strong>Social</strong></td><td>A sociedade</td><td>Rebaixamento do nível de vida coletivo</td><td>Só os legitimados à ação coletiva</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Casos julgados pelo STJ",
+    "linhas": [
+     {
+      "nome": "Oferta irregular de cursos superiores",
+      "o_que_e": "Configura dano moral coletivo, sem prova de abalo psíquico dos alunos.",
+      "grupo": "Há dano moral coletivo"
+     },
+     {
+      "nome": "Desmatamento e exploração madeireira sem licença",
+      "o_que_e": "Gera dano moral coletivo.",
+      "atencao": "No dano ambiental, também independe de prova de dor da coletividade.",
+      "grupo": "Há dano moral coletivo"
+     },
+     {
+      "nome": "Estacionar sem credencial em vaga de pessoa com deficiência",
+      "o_que_e": "Não configura dano moral coletivo.",
+      "atencao": "Há infração, mas não lesão intolerável a valores coletivos.",
+      "grupo": "Não há"
+     },
+     {
+      "nome": "Declarações em trote universitário contra grupo específico",
+      "o_que_e": "Não configuram dano moral coletivo.",
+      "atencao": "Pode haver dano individual aos atingidos.",
+      "grupo": "Não há"
+     }
+    ],
+    "colunas": [
+     "Caso",
+     "Decisão",
+     "Atenção"
+    ]
+   },
+   "lei": [],
+   "juris": [
+    {
+     "quem": "CJF, Enunciado 455 (V Jornada)",
+     "texto": "A expressão dano no art. 944 abrange não só os danos individuais, materiais ou imateriais, mas também os danos sociais, difusos, coletivos e individuais homogêneos a serem reclamados pelos legitimados para propor ações coletivas."
+    },
+    {
+     "quem": "STJ",
+     "texto": "O dano moral coletivo, aferível in re ipsa, é categoria autônoma de dano, relacionada à violação injusta e intolerável de valores fundamentais da coletividade."
+    },
+    {
+     "quem": "STJ, Reclamação 12.062 (2014)",
+     "texto": "É nula, por julgamento extra petita, a condenação por dano social fixada de ofício em ação individual; o dano social só pode ser pedido pelos legitimados para a ação coletiva."
+    }
+   ],
+   "detalhes": [
+    "Na reparação integral do meio ambiente, admite-se a condenação simultânea e cumulativa nas obrigações de fazer, de não fazer e de indenizar.",
+    "Quem sofre dano individual decorrente de atividade empresarial causadora de impacto ambiental pode ser tratado como consumidor por equiparação (STJ).",
+    "Na ação civil pública, é inconstitucional o art. 16 da Lei 7.347/1985, na redação da Lei 9.494/1997, que limitava a eficácia da sentença à competência territorial do órgão prolator; ajuizadas várias ações de âmbito nacional ou regional, firma-se a prevenção do juízo que primeiro conheceu de uma delas (STF, Tema 1.075)."
+   ],
+   "macetes": [
+    {
+     "sigla": "COLETIVO DISPENSA LÁGRIMA",
+     "texto": "Dano moral coletivo é in re ipsa: não se prova dor nem indignação da coletividade. Mas exige lesão intolerável a valores coletivos."
+    },
+    {
+     "sigla": "DANO SOCIAL SÓ NA AÇÃO COLETIVA",
+     "texto": "O juiz não fixa dano social de ofício numa ação individual (Rcl 12.062)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Configurado o dano ambiental, o dano moral coletivo depende de prova de dor, sofrimento ou indignação da coletividade afetada.",
+    "gabarito": "E",
+    "explicacao": "O dano moral coletivo é aferível in re ipsa, sem prova de abalo psíquico (STJ). Questão do app sobre dano moral coletivo."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A oferta irregular de cursos superiores só configura dano moral coletivo se demonstrado abalo psíquico concreto dos alunos.",
+     "certo": "O dano moral coletivo é in re ipsa (STJ).",
+     "fonte": "Questão do app sobre dano moral coletivo"
+    },
+    {
+     "errado": "Na ação individual de consumo, o juiz pode condenar de ofício o fornecedor a pagar dano social a uma entidade.",
+     "certo": "O dano social só pode ser pedido pelos legitimados à ação coletiva (STJ, Rcl 12.062).",
+     "fonte": "Questão do app sobre danos sociais"
+    }
+   ],
+   "ja_caiu": [
+    "Questões de teoria sobre dano moral coletivo no app"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "juris",
+     "nota": "Tema novo."
+    }
+   ],
+   "relacionados": [
+    "danos-e-indenizacao",
+    "responsabilidade-civil",
+    "responsabilidade-civil-ambiental"
    ]
   },
   {
