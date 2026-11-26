@@ -1,0 +1,28 @@
+# Robôs no llms.txt (teste de 26/11/2026, includes/llms.php): só à mão, em Actions > "Robôs no llms.txt" > Run workflow.
+# Lê por SSH a contagem que o plugin grava (opção tpi_llms_robos) e procura /llms.txt nos logs de acesso, se houver.
+# ~1 minuto por execução.
+name: Robôs no llms.txt
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HOST: ${{ secrets.HOSTINGER_HOST }}
+      PORT: ${{ secrets.HOSTINGER_PORT }}
+      USUARIO: ${{ secrets.HOSTINGER_USER }}
+      SSHPASS: ${{ secrets.HOSTINGER_PASSWORD }}
+      CHAVE: ${{ secrets.HOSTINGER_SSH_KEY }}
+      WP_PATH: ${{ secrets.HOSTINGER_WP_PATH }}
+    steps:
+      - name: Ler a contagem
+        run: |
+          sudo apt-get install -y -qq sshpass >/dev/null
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          if [ -n "$CHAVE" ]; then printf '%s\n' "$CHAVE" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy; SSHCMD="ssh -p ${PORT:-65002} -i $HOME/.ssh/id_deploy"; PRE=""; else SSHCMD="ssh -p ${PORT:-65002}"; PRE="sshpass -e"; fi
+          ssh-keyscan -p "${PORT:-65002}" "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          WP="${WP_PATH:-domains/tchaupobreza.com.br/public_html}"
+          $PRE $SSHCMD "$USUARIO@$HOST" "cd '$WP' && echo '== tpi_llms_robos ==' && wp option get tpi_llms_robos --format=json; echo; echo '== bloco no .htaccess ==' && grep -A4 'BEGIN TPI llms' .htaccess; echo '== logs de acesso com llms.txt ==' && for f in \$(ls -1 ~/logs/*access* ~/domains/tchaupobreza.com.br/logs/*access* 2>/dev/null); do echo \"-- \$f\"; zgrep -h 'llms.txt' \"\$f\" | tail -n 50; done; true"
