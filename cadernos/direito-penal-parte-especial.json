@@ -11796,82 +11796,165 @@
   },
   {
    "slug": "estupro",
-   "titulo": "Estupro, violação sexual mediante fraude e assédio sexual",
+   "titulo": "Estupro e violação sexual mediante fraude",
    "grupo": "Crimes contra a dignidade sexual",
-   "base": "Arts. 213, 215, 216-A, 225 e 226 do CP",
+   "base": "Arts. 213 e 215 do CP",
    "tax": [
-    "penal.crimes-contra-dignidade-sexual"
+    "penal.crimes-contra-dignidade-sexual.estupro"
    ],
    "dispositivos": [
     "n2848-1940-art-213",
-    "n2848-1940-art-215",
-    "n2848-1940-art-216-a",
-    "n2848-1940-art-225",
-    "n2848-1940-art-226"
+    "n2848-1940-art-215"
    ],
    "conceitos": [
     "estupro",
-    "conjunção carnal e ato libidinoso",
+    "conjunção carnal",
+    "outro ato libidinoso",
+    "fim do atentado violento ao pudor",
+    "estupro qualificado",
+    "estupro com resultado morte",
+    "crime único no estupro",
     "violação sexual mediante fraude",
-    "assédio sexual",
-    "estupro coletivo e corretivo"
+    "hediondez do estupro"
    ],
    "palavras": [
     "estupro",
-    "art 213",
+    "constranger",
+    "violencia ou grave ameaca",
     "conjuncao carnal",
     "ato libidinoso",
-    "atentado violento ao pudor",
+    "permitir que com ele se pratique",
+    "seis a dez anos",
     "lei 12015",
-    "crime unico",
+    "atentado violento ao pudor",
+    "lesao corporal grave",
+    "menor de 18 e maior de 14",
+    "oito a doze anos",
+    "morte",
+    "doze a trinta anos",
     "violacao sexual mediante fraude",
-    "estelionato sexual",
-    "assedio sexual",
-    "professor e aluno",
-    "estupro coletivo",
-    "estupro corretivo",
-    "acao penal publica incondicionada",
+    "fraude",
+    "livre manifestacao de vontade",
+    "dois a seis anos",
+    "vantagem economica",
+    "multa",
+    "crime unico",
+    "continuidade delitiva",
+    "contemplacao lasciva",
+    "contato fisico",
+    "hediondo",
     "inafiancavel",
-    "hediondo"
+    "homem vitima",
+    "himen",
+    "crime comum"
    ],
-   "resumo": "<strong>Estupro</strong> (art. 213) é constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir outro ato libidinoso (6 a 10 anos). Desde a Lei 12.015/2009, o antigo atentado violento ao pudor está dentro do art. 213, e homem ou mulher podem ser autor ou vítima. A pena sobe para 8 a 12 anos se resulta lesão grave ou se a vítima tem entre 14 e 18 anos, e para 12 a 30 anos se resulta morte. Se a vítima é enganada, sem violência, o crime é <strong>violação sexual mediante fraude</strong> (art. 215). O <strong>assédio sexual</strong> (art. 216-A) exige que o agente se valha de superioridade hierárquica ou ascendência ligada a emprego, cargo ou função. A ação penal é pública incondicionada (art. 225), e o estupro é hediondo e inafiançável.",
+   "resumo": "Estupro (art. 213) é <strong>constranger</strong> alguém, mediante <strong>violência ou grave ameaça</strong>, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique <strong>outro ato libidinoso</strong>: reclusão de 6 a 10 anos. Desde a Lei 12.015/2009, o antigo atentado violento ao pudor está dentro do art. 213, e homem ou mulher podem ser autor ou vítima. A pena sobe para 8 a 12 anos se resulta lesão grave ou se a vítima tem entre 14 e 18 anos, e para 12 a 30 anos se resulta morte. Conjunção carnal e outros atos contra a mesma vítima, no mesmo contexto, são <strong>crime único</strong>. Se, em vez de violência, o agente usa <strong>fraude</strong> ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima, o crime é a <strong>violação sexual mediante fraude</strong> (art. 215: 2 a 6 anos, e multa se o fim é vantagem econômica). O estupro é hediondo, e a ação é pública incondicionada (art. 225).",
    "esquema": {
     "rotulo": "qual crime sexual",
-    "html": "<table><thead><tr><th>Meio</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Violência ou grave ameaça</strong></td><td>Estupro (art. 213)</td><td>6 a 10 anos</td></tr><tr><td><strong>Fraude ou meio que dificulta a vontade da vítima</strong></td><td>Violação sexual mediante fraude (art. 215)</td><td>2 a 6 anos</td></tr><tr><td><strong>Ato libidinoso sem anuência, sem violência</strong></td><td>Importunação sexual (art. 215-A)</td><td>1 a 5 anos</td></tr><tr><td><strong>Constranger valendo-se de superioridade ou ascendência</strong></td><td>Assédio sexual (art. 216-A)</td><td>1 a 2 anos</td></tr><tr><td><strong>Qualquer ato libidinoso com menor de 14 anos</strong></td><td>Estupro de vulnerável (art. 217-A)</td><td>10 a 18 anos</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Meio</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Violência ou grave ameaça</strong></td><td>Estupro (art. 213)</td><td>6 a 10 anos</td></tr><tr><td><strong>Fraude ou meio que dificulta a vontade da vítima</strong></td><td>Violação sexual mediante fraude (art. 215)</td><td>2 a 6 anos</td></tr><tr><td><strong>Ato libidinoso sem anuência, sem violência</strong></td><td>Importunação sexual (art. 215-A)</td><td>1 a 5 anos</td></tr><tr><td><strong>Constranger valendo-se de superioridade ou ascendência</strong></td><td>Assédio sexual (art. 216-A)</td><td>1 a 2 anos</td></tr><tr><td><strong>Qualquer ato libidinoso com menor de 14 anos</strong></td><td>Estupro de vulnerável (art. 217-A)</td><td>10 a 18 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Estupro: faixas de pena",
+    "linhas": [
+     {
+      "nome": "Simples (caput)",
+      "o_que_e": "Violência ou grave ameaça para conjunção carnal ou outro ato libidinoso.",
+      "atencao": "Reclusão de 6 a 10 anos."
+     },
+     {
+      "nome": "Lesão grave ou vítima de 14 a 18 anos (§ 1º)",
+      "o_que_e": "Resulta lesão corporal grave, ou a vítima é maior de 14 e menor de 18 anos.",
+      "atencao": "Reclusão de 8 a 12 anos."
+     },
+     {
+      "nome": "Morte (§ 2º)",
+      "o_que_e": "Da conduta resulta a morte.",
+      "atencao": "Reclusão de 12 a 30 anos."
+     },
+     {
+      "nome": "Vítima menor de 14 anos",
+      "o_que_e": "Sai do art. 213.",
+      "atencao": "É estupro de vulnerável (art. 217-A)."
+     }
+    ],
+    "colunas": [
+     "Forma",
+     "Quando",
+     "Pena"
+    ]
    },
    "lei": [
     {
      "norma": "n2848-1940",
      "artigos": [
       "Art. 213.",
-      "Art. 215.",
-      "Art. 216-A.",
-      "Art. 225.",
-      "Art. 226."
+      "Art. 215."
      ],
-     "ref": "arts. 213, 215, 216-A, 225 e 226 do CP",
+     "ref": "arts. 213 e 215 do CP",
      "regras": [
-      "<strong>Art. 213.</strong> Estupro: constranger alguém, com violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso; reclusão de 6 a 10 anos. Resulta lesão grave, ou vítima maior de 14 e menor de 18 anos: reclusão de 8 a 12 anos. Resulta morte: reclusão de 12 a 30 anos.",
-      "<strong>Art. 215.</strong> Violação sexual mediante fraude: conjunção carnal ou outro ato libidinoso mediante fraude ou meio que impeça ou dificulte a livre manifestação de vontade da vítima; reclusão de 2 a 6 anos, e também multa se o fim é vantagem econômica.",
-      "<strong>Art. 216-A.</strong> Assédio sexual: constranger alguém para obter vantagem ou favorecimento sexual, prevalecendo-se da condição de superior hierárquico ou da ascendência inerentes a emprego, cargo ou função; detenção de 1 a 2 anos, aumentada em até um terço se a vítima é menor de 18 anos.",
-      "<strong>Art. 225.</strong> Nos crimes contra a liberdade sexual e nos crimes sexuais contra vulnerável, a ação penal é pública incondicionada.",
-      "<strong>Art. 226.</strong> Aumento de quarta parte com concurso de duas ou mais pessoas; de metade se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor, empregador ou tem autoridade sobre a vítima; de um terço a dois terços no estupro coletivo (dois ou mais agentes) e no estupro corretivo (para controlar o comportamento social ou sexual da vítima)."
+      "<strong>Art. 213.</strong> Constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso: reclusão de 6 a 10 anos. Resulta lesão grave, ou vítima menor de 18 e maior de 14 anos: reclusão de 8 a 12 anos. Resulta morte: reclusão de 12 a 30 anos.",
+      "<strong>Art. 215.</strong> Ter conjunção carnal ou praticar outro ato libidinoso com alguém, mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima: reclusão de 2 a 6 anos; com o fim de obter vantagem econômica, também multa."
      ],
-     "trechos": [
-      "a praticar ou permitir que com ele se pratique outro ato libidinoso",
-      "procede-se mediante ação penal pública incondicionada",
-      "para controlar o comportamento social ou sexual da vítima"
+     "literalidades": [
+      {
+       "trecho": "a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso",
+       "marcas": [
+        "outro ato libidinoso"
+       ],
+       "afirmacao": "O homem que, com uma faca no pescoço da vítima, a obriga a praticar sexo oral comete atentado violento ao pudor, e não estupro.",
+       "gabarito": "E",
+       "porque": "Desde a Lei 12.015/2009, o art. 213 abrange a conjunção carnal e qualquer outro ato libidinoso obtido com violência ou grave ameaça. O atentado violento ao pudor deixou de existir como tipo autônomo."
+      },
+      {
+       "trecho": "ou se a vítima é menor de 18 (dezoito) ou maior de 14 (catorze) anos",
+       "marcas": [
+        "maior de 14 (catorze) anos"
+       ],
+       "afirmacao": "O estupro de uma adolescente de 16 anos, mediante grave ameaça, tem pena de reclusão de 8 a 12 anos.",
+       "gabarito": "C",
+       "porque": "Se a vítima é menor de 18 e maior de 14 anos, o estupro é qualificado (art. 213, § 1º): reclusão de 8 a 12 anos."
+      },
+      {
+       "trecho": "mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima",
+       "marcas": [
+        "mediante fraude"
+       ],
+       "afirmacao": "O falso líder espiritual que convence a fiel de que a relação sexual com ele é parte de um ritual de cura comete violação sexual mediante fraude.",
+       "gabarito": "C",
+       "porque": "Ter conjunção carnal ou praticar ato libidinoso mediante fraude que vicia a vontade da vítima é o art. 215: reclusão de 2 a 6 anos."
+      },
+      {
+       "trecho": "Se o crime é cometido com o fim de obter vantagem econômica, aplica-se também multa.",
+       "marcas": [
+        "vantagem econômica"
+       ],
+       "afirmacao": "Na violação sexual mediante fraude, o fim de obter vantagem econômica aumenta a pena de um terço.",
+       "gabarito": "E",
+       "porque": "Com o fim de obter vantagem econômica, aplica-se também a multa (art. 215, parágrafo único); não há aumento de um terço."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
       "Art. 213.": "ddf03b3728ac",
-      "Art. 215.": "1c15536e6ce3",
-      "Art. 216-A.": "10cc2508f1b7",
-      "Art. 225.": "c2a217edbf6a",
-      "Art. 226.": "cfb6b19bc15d"
-     }
+      "Art. 215.": "1c15536e6ce3"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Jurisprudência em Teses, ed. 152",
+     "texto": "A contemplação lasciva pode configurar o ato libidinoso do estupro e do estupro de vulnerável, sem contato físico entre agente e vítima."
+    }
+   ],
+   "detalhes": [
+    "Hímen íntegro e ausência de espermatozoides não afastam o estupro quando há vestígios de outro ato libidinoso violento. Conjunção carnal é a penetração, ainda que parcial, do pênis na vagina, com ou sem ejaculação (Cebraspe, Delegado PC-DF 2026).",
+    "Homem pode ser vítima de estupro. Se a conjunção carnal decorre de ardil sobre a identidade do agente, o crime é violação sexual mediante fraude (Cebraspe, Delegado PJC-MT 2017).",
+    "Conjunção carnal e outro ato libidinoso contra a mesma vítima, no mesmo contexto, são crime único (FGV, Delegado PC-AM 2021); contra vítimas diversas ou em contextos diferentes, cabe continuidade delitiva (Cebraspe, Delegado PJC-MT 2017).",
+    "Por ser hediondo, o estupro é inafiançável: o delegado não pode conceder fiança no flagrante (Cebraspe, Delegado PC-MA 2018 e Delegado PF 2018).",
+    "O estupro é crime comum quanto ao sujeito ativo (Cebraspe, Analista TJ-PA 2025). Exigir contato físico intenso para o ato libidinoso está errado (Cebraspe, Analista MPCE 2025).",
+    "O estupro se processa por ação penal pública incondicionada, sem representação (Cebraspe, Delegado PC-ES 2022).",
+    "Se o consentimento cessa durante o ato e o agente continua mediante força física, há a violência do estupro, ainda que o ato tenha começado consentido (dissenso superveniente; STJ, Informativo 890)."
    ],
    "macetes": [
     {
@@ -11883,176 +11966,187 @@
      "texto": "Conjunção carnal e outros atos libidinosos contra a mesma vítima, no mesmo contexto, formam crime único."
     }
    ],
-   "juris": [],
    "pegadinha": {
     "afirmacao": "O crime de estupro é configurado exclusivamente pela conjunção carnal; outro ato libidinoso praticado mediante violência ou grave ameaça configura atentado violento ao pudor.",
     "gabarito": "E",
     "explicacao": "Desde a Lei 12.015/2009, o art. 213 abrange a conjunção carnal e qualquer outro ato libidinoso. O atentado violento ao pudor deixou de existir como tipo autônomo (Cebraspe, Delegado PC-DF 2026)."
    },
-   "aprofundamento": "<p><strong>Estupro não depende de hímen nem de esperma.</strong> Hímen íntegro e ausência de espermatozoides não afastam o estupro quando há vestígios de outro ato libidinoso violento (Cebraspe, Delegado PC-DF 2026). Conjunção carnal é a penetração, ainda que parcial, do pênis na vagina, com ou sem ejaculação (Cebraspe, Delegado PC-DF 2026).</p><p><strong>Homem também é vítima; ardil é outro crime.</strong> Homem pode ser vítima de estupro. Se a conjunção carnal decorre de ardil sobre a identidade do agente, o crime é violação sexual mediante fraude, e não estupro (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Crime único ou continuidade.</strong> Conjunção carnal e outro ato libidinoso contra a mesma vítima, no mesmo contexto, são crime único (FGV, Delegado PC-AM 2021). Contra vítimas diversas ou fora do mesmo contexto, cabe continuidade delitiva (Cebraspe, Delegado PJC-MT 2017).</p><p><strong>Assédio fora do emprego formal.</strong> O STJ admite o assédio sexual na relação entre professor e aluno, pela ascendência inerente à função. Está errado dizer que o tipo exige subordinação laboral (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Ação penal e fiança.</strong> O estupro está no art. 213, e não no 215, e se processa por ação pública incondicionada, sem representação (Cebraspe, Delegado PC-ES 2022). Por ser hediondo, é inafiançável: o delegado não pode conceder fiança no flagrante por estupro (Cebraspe, Delegado PC-MA 2018 e Delegado PF 2018).</p><p><strong>Contato físico não é indispensável.</strong> O estupro é crime comum quanto ao sujeito ativo (Cebraspe, Analista TJ-PA 2025). Para o STJ, o ato libidinoso pode se configurar sem contato físico entre autor e vítima, como na contemplação lasciva. Exigir contato físico intenso está errado (Cebraspe, Analista MPCE 2025).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "relacionados": [
-    "estupro-de-vulneravel",
-    "importunacao-sexual",
-    "concurso-de-crimes"
+   "pegadinhas": [
+    {
+     "errado": "Só a mulher pode ser vítima de estupro.",
+     "certo": "Homem ou mulher podem ser vítima, desde a Lei 12.015/2009.",
+     "fonte": "Cebraspe, Delegado PJC-MT 2017"
+    },
+    {
+     "errado": "O delegado pode arbitrar fiança no flagrante por estupro simples.",
+     "certo": "O estupro é hediondo e inafiançável.",
+     "fonte": "Cebraspe, Delegado PF 2018"
+    },
+    {
+     "errado": "Conjunção carnal seguida de sexo anal forçado contra a mesma vítima, no mesmo contexto, são dois estupros em concurso material.",
+     "certo": "É crime único.",
+     "fonte": "FGV, Delegado PC-AM 2021"
+    },
+    {
+     "errado": "O estupro depende de representação da vítima.",
+     "certo": "A ação é pública incondicionada (art. 225).",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PJC-MT 2017; Delegado PC-MA 2018; Delegado PF 2018; Delegado PC-ES 2022; Analista TJ-PA 2025; Analista MPCE 2025; Delegado PC-DF 2026",
+    "FGV: Delegado PC-AM 2021"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "correcao",
-     "nota": "O esquema dava 8 a 15 anos ao estupro de vulnerável; a pena é de 10 a 18 anos desde a Lei 15.280/2025."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo. O assédio sexual foi para o tema da importunação, e os arts. 225 e 226 para as disposições gerais."
     }
+   ],
+   "relacionados": [
+    "estupro-de-vulneravel",
+    "importunacao-sexual",
+    "disposicoes-gerais-dos-crimes-sexuais"
    ]
   },
   {
-   "slug": "estupro-de-vulneravel",
-   "titulo": "Estupro de vulnerável",
-   "grupo": "Crimes contra a dignidade sexual",
-   "base": "Art. 217-A do CP",
-   "tax": [
-    "penal.crimes-contra-dignidade-sexual"
-   ],
-   "dispositivos": [
-    "n2848-1940-art-217-a"
-   ],
-   "conceitos": [
-    "estupro de vulnerável",
-    "217-A"
-   ],
-   "palavras": [
-    "vulneravel",
-    "menor de 14",
-    "presuncao absoluta",
-    "consentimento",
-    "sumula 593"
-   ],
-   "resumo": "Estupro de vulnerável é ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 anos (caput) ou com quem, por enfermidade ou deficiência mental, não tem o discernimento necessário, ou por qualquer outra causa não pode oferecer resistência (§ 1º). Consentimento, experiência sexual anterior, relacionamento ou gravidez não afastam o crime (§ 5º e Súmula 593 do STJ). Desde a Lei 15.353/2026, a presunção de vulnerabilidade é expressamente absoluta (§ 4º-A).",
-   "esquema": {
-    "rotulo": "hipóteses e penas",
-    "html": "<table><thead><tr><th>Hipótese</th><th>Base</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Menor de 14 anos</strong></td><td>caput</td><td>Reclusão, 10 a 18 anos, e multa</td></tr><tr><td><strong>Sem discernimento ou sem poder resistir</strong> (enfermidade, deficiência mental, sono, outra causa)</td><td>§ 1º</td><td>A mesma do caput</td></tr><tr><td><strong>Resulta lesão corporal grave</strong></td><td>§ 3º</td><td>Reclusão, 12 a 24 anos, e multa</td></tr><tr><td><strong>Resulta morte</strong></td><td>§ 4º</td><td>Reclusão, 20 a 40 anos, e multa</td></tr></tbody></table>"
-   },
-   "lei": [
-    {
-     "norma": "n2848-1940",
-     "artigos": [
-      "Art. 217-A."
-     ],
-     "ref": "art. 217-A do CP",
-     "regras": [
-      "<strong>Caput.</strong> Estupro de vulnerável: ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 anos; reclusão de 10 a 18 anos e multa. Não exige violência nem grave ameaça.",
-      "<strong>§ 1º.</strong> Mesma pena com quem, por enfermidade ou deficiência mental, não tem o discernimento necessário para o ato, ou que, por qualquer outra causa, não pode oferecer resistência.",
-      "<strong>§§ 3º e 4º.</strong> Resulta lesão grave: reclusão de 12 a 24 anos e multa. Resulta morte: reclusão de 20 a 40 anos e multa.",
-      "<strong>§§ 4º-A e 5º.</strong> A presunção de vulnerabilidade é absoluta, e as penas se aplicam independentemente do consentimento da vítima, de sua experiência sexual, de relações anteriores ou de gravidez resultante do crime."
-     ],
-     "trechos": [
-      "É absoluta a presunção de vulnerabilidade da vítima e inadmissível sua relativização.",
-      "por qualquer outra causa, não pode oferecer resistência"
-     ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
-     "conferido": {
-      "Art. 217-A.": "afa28d4da63d"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "14 OU NÃO RESISTE",
-     "texto": "Duas portas para o crime: a idade (menor de 14) ou a incapacidade de resistir ou de discernir (§ 1º)."
-    },
-    {
-     "sigla": "NADA AFASTA",
-     "texto": "Consentimento, experiência sexual, namoro, gravidez: nada disso afasta o crime (§ 5º)."
-    }
-   ],
-   "juris": [
-    {
-     "quem": "STJ · Súmula 593 e Tema 918",
-     "texto": "O crime se configura com a conjunção carnal ou o ato libidinoso com menor de 14 anos, sendo irrelevante o consentimento da vítima, sua experiência sexual anterior ou a existência de relacionamento amoroso com o agente.",
-     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=918&cod_tema_final=918"
-    },
-    {
-     "quem": "STJ · Tema 1.121 (repetitivo)",
-     "texto": "Presente o dolo de satisfazer a lascívia, o ato libidinoso com menor de 14 anos é estupro de vulnerável, independentemente da ligeireza ou superficialidade da conduta, sem desclassificação para importunação sexual.",
-     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1121&cod_tema_final=1121"
-    },
-    {
-     "quem": "STJ · Informativo 907",
-     "texto": "A incapacidade de resistência da pessoa adulta atrai a mesma proteção legal conferida aos menores de 14 anos quanto à tipificação do estupro de vulnerável.",
-     "url": "/informativos/stj/informativo-907/estupro-de-vulneravel-adulto-sem-capacidade-de-resistir-nao-cabe-desclassificar-para-importunacao/"
-    },
-    {
-     "quem": "STJ · Jurisprudência em Teses, ed. 151",
-     "texto": "O estado de sono, que diminua a capacidade da vítima de oferecer resistência, caracteriza a vulnerabilidade do art. 217-A, § 1º, do CP."
-    }
-   ],
-   "pegadinha": {
-    "afirmacao": "Se o ato libidinoso com menor de 14 anos for rápido e superficial, o STJ admite a desclassificação para importunação sexual.",
-    "gabarito": "E",
-    "explicacao": "Não cabe a desclassificação: a ligeireza da conduta não afasta o estupro de vulnerável (Tema 1.121 do STJ)."
-   },
-   "aprofundamento": "<p><strong>Quem consente pela vítima também responde.</strong> A concordância dos pais com a relação não afasta o crime (§ 5º). O responsável que incentiva o ato pode responder pelo estupro de vulnerável junto com o agente, como partícipe.</p><p><strong>Induzir para outro é crime próprio.</strong> Induzir menor de 14 anos a satisfazer a lascívia de outra pessoa é o art. 218 (corrupção de menores, reclusão de 6 a 14 anos), e não estupro de vulnerável de quem induz.</p><p><strong>Sem contato físico.</strong> A contemplação lasciva pode configurar o ato libidinoso dos arts. 213 e 217-A, sem contato físico entre agente e vítima (STJ, Jurisprudência em Teses, ed. 152).</p><p><strong>Presunção absoluta escrita na lei.</strong> A Lei 15.353/2026 incluiu o § 4º-A: a vulnerabilidade é absoluta e não admite relativização. O distinguishing que o STJ chegou a admitir vale só para fatos anteriores (Informativo 897).</p><p><strong>Estupro coletivo filmado e divulgado.</strong> Dois agentes que estupram a vulnerável respondem por estupro de vulnerável com o aumento de 1/3 a 2/3 do estupro coletivo (art. 226, IV, a). Quem ainda divulga o vídeo responde também pelo art. 218-C, com pena aumentada de 1/3 a 2/3 se agiu com o fim de vingança ou humilhação (§ 1º). Borrar só parte da imagem e manter o rosto da vítima nítido não afasta o crime (Cebraspe, Delegado PC-MA 2026).</p>",
-   "relacionados": [
-    "importunacao-sexual"
-   ],
-   "aprofundamento_rotulo": "exceções que caem em prova"
-  },
-  {
    "slug": "importunacao-sexual",
-   "titulo": "Importunação sexual",
+   "titulo": "Importunação sexual e assédio sexual",
    "grupo": "Crimes contra a dignidade sexual",
-   "base": "Art. 215-A do CP",
+   "base": "Arts. 215-A e 216-A do CP",
    "tax": [
-    "penal.crimes-contra-dignidade-sexual"
+    "penal.crimes-contra-dignidade-sexual.importunacao-assedio"
    ],
    "dispositivos": [
-    "n2848-1940-art-215-a"
+    "n2848-1940-art-215-a",
+    "n2848-1940-art-216-a"
    ],
    "conceitos": [
     "importunação sexual",
-    "215-A"
+    "subsidiariedade expressa",
+    "importunação sem contato físico",
+    "assédio sexual",
+    "superioridade hierárquica",
+    "ascendência inerente à função",
+    "assédio entre professor e aluno"
    ],
    "palavras": [
+    "importunacao sexual",
+    "sem a sua anuencia",
     "ato libidinoso",
-    "sem anuencia",
-    "lascivia",
+    "satisfazer a propria lascivia",
+    "um a cinco anos",
+    "crime mais grave",
     "subsidiario",
-    "lei 13.718"
+    "lei 13718",
+    "contato fisico",
+    "verbalizacao",
+    "conteudo pornografico",
+    "transporte publico",
+    "assedio sexual",
+    "constranger",
+    "vantagem ou favorecimento sexual",
+    "superior hierarquico",
+    "ascendencia",
+    "emprego cargo ou funcao",
+    "um a dois anos",
+    "menor de 18",
+    "ate um terco",
+    "professor e aluno",
+    "lei 10224"
    ],
-   "resumo": "Importunação sexual é praticar contra alguém, sem a sua anuência, ato libidinoso para satisfazer a própria lascívia ou a de terceiro. A pena é de reclusão de 1 a 5 anos, se o ato não constituir crime mais grave: o tipo é expressamente subsidiário. Não há violência nem grave ameaça (com elas, é estupro), e a vítima não é vulnerável (se for, é estupro de vulnerável). O STJ admite o crime sem contato físico.",
+   "resumo": "<strong>Importunação sexual</strong> (art. 215-A) é praticar contra alguém, <strong>sem a sua anuência</strong>, ato libidinoso para satisfazer a própria lascívia ou a de terceiro: reclusão de 1 a 5 anos, <strong>se o ato não constitui crime mais grave</strong>. Não há violência nem grave ameaça (com elas, é estupro), e a vítima não é vulnerável (se for, é estupro de vulnerável). O STJ admite o crime sem contato físico. O <strong>assédio sexual</strong> (art. 216-A) é constranger alguém para obter vantagem ou favorecimento sexual, prevalecendo-se o agente da condição de <strong>superior hierárquico</strong> ou da <strong>ascendência</strong> inerentes a emprego, cargo ou função: detenção de 1 a 2 anos, aumentada em até um terço se a vítima é menor de 18 anos.",
    "esquema": {
-    "rotulo": "importunação × estupro × estupro de vulnerável",
-    "html": "<table><thead><tr><th>Crime</th><th>Meio</th><th>Vítima</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Importunação sexual</strong> (art. 215-A)</td><td>Sem anuência, sem violência ou grave ameaça</td><td>Qualquer pessoa não vulnerável</td><td>Reclusão, 1 a 5 anos</td></tr><tr><td><strong>Estupro</strong> (art. 213)</td><td>Violência ou grave ameaça</td><td>Qualquer pessoa</td><td>Reclusão, 6 a 10 anos</td></tr><tr><td><strong>Estupro de vulnerável</strong> (art. 217-A)</td><td>Qualquer meio; a vulnerabilidade basta</td><td>Menor de 14 ou quem não pode resistir ou discernir</td><td>Reclusão, 10 a 18 anos, e multa</td></tr></tbody></table>"
+    "rotulo": "importunação, assédio, estupro e estupro de vulnerável",
+    "html": "<table><thead><tr><th>Crime</th><th>Meio</th><th>Vítima</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Importunação sexual (art. 215-A)</strong></td><td>Sem anuência, sem violência ou grave ameaça</td><td>Qualquer pessoa não vulnerável</td><td>Reclusão de 1 a 5 anos</td></tr><tr><td><strong>Assédio sexual (art. 216-A)</strong></td><td>Constrangimento valendo-se de superioridade ou ascendência</td><td>Subordinado ou quem está sob a ascendência do agente</td><td>Detenção de 1 a 2 anos</td></tr><tr><td><strong>Estupro (art. 213)</strong></td><td>Violência ou grave ameaça</td><td>Qualquer pessoa</td><td>Reclusão de 6 a 10 anos</td></tr><tr><td><strong>Estupro de vulnerável (art. 217-A)</strong></td><td>Qualquer meio; a vulnerabilidade basta</td><td>Menor de 14 ou quem não pode resistir ou discernir</td><td>Reclusão de 10 a 18 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Importunação sexual: o que conta",
+    "linhas": [
+     {
+      "nome": "Sem contato físico",
+      "o_que_e": "Verbalizações de cunho sexual, conforme o contexto, ou envio de conteúdo pornográfico sem consentimento.",
+      "atencao": "O STJ admite."
+     },
+     {
+      "nome": "No transporte público",
+      "o_que_e": "Ejacular ou se esfregar na passageira sem anuência.",
+      "atencao": "Caso clássico que motivou a Lei 13.718/2018."
+     },
+     {
+      "nome": "Com violência ou grave ameaça",
+      "o_que_e": "Sai da importunação.",
+      "atencao": "É estupro."
+     },
+     {
+      "nome": "Vítima menor de 14",
+      "o_que_e": "Sai da importunação.",
+      "atencao": "É estupro de vulnerável (Tema 1.121 do STJ)."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Exemplo",
+     "Atenção"
+    ]
    },
    "lei": [
     {
      "norma": "n2848-1940",
      "artigos": [
-      "Art. 215-A."
+      "Art. 215-A.",
+      "Art. 216-A."
      ],
-     "ref": "art. 215-A do CP",
+     "ref": "arts. 215-A e 216-A do CP",
      "regras": [
-      "<strong>Art. 215-A.</strong> Importunação sexual: praticar contra alguém, sem a sua anuência, ato libidinoso para satisfazer a própria lascívia ou a de terceiro; reclusão de 1 a 5 anos, se o ato não constitui crime mais grave (crime expressamente subsidiário)."
+      "<strong>Art. 215-A.</strong> Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro: reclusão de 1 a 5 anos, se o ato não constitui crime mais grave.",
+      "<strong>Art. 216-A.</strong> Constranger alguém com o intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente da condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função: detenção de 1 a 2 anos. A pena aumenta em até um terço se a vítima é menor de 18 anos."
      ],
-     "trechos": [
-      "sem a sua anuência ato libidinoso",
-      "se o ato não constitui crime mais grave"
+     "literalidades": [
+      {
+       "trecho": "Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro",
+       "marcas": [
+        "sem a sua anuência"
+       ],
+       "afirmacao": "O passageiro que, no ônibus lotado, se esfrega de propósito numa passageira adulta, sem violência e sem o consentimento dela, comete importunação sexual.",
+       "gabarito": "C",
+       "porque": "Praticar ato libidinoso contra alguém, sem a sua anuência, para satisfazer a própria lascívia é importunação sexual (art. 215-A): reclusão de 1 a 5 anos."
+      },
+      {
+       "trecho": "se o ato não constitui crime mais grave",
+       "marcas": [
+        "crime mais grave"
+       ],
+       "afirmacao": "Se o agente, para beijar à força a vítima adulta, a imobiliza com violência, responde por importunação sexual, porque não houve conjunção carnal.",
+       "gabarito": "E",
+       "porque": "Com violência ou grave ameaça, o ato libidinoso é estupro (art. 213). A importunação é subsidiária e só se aplica se o ato não constitui crime mais grave."
+      },
+      {
+       "trecho": "prevalecendo-se o agente da sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função",
+       "marcas": [
+        "ascendência"
+       ],
+       "afirmacao": "O colega de mesma função que insiste em convites sexuais à colega de setor, sem nenhuma relação de chefia, comete assédio sexual.",
+       "gabarito": "E",
+       "porque": "O assédio sexual exige que o agente se prevaleça da condição de superior hierárquico ou da ascendência inerentes a emprego, cargo ou função (art. 216-A). Entre colegas do mesmo nível, sem ascendência, não há esse crime."
+      },
+      {
+       "trecho": "§ 2º A pena é aumentada em até um terço se a vítima é menor de 18 (dezoito) anos.",
+       "marcas": [
+        "em até um terço"
+       ],
+       "afirmacao": "O gerente que constrange a jovem aprendiz de 17 anos, sua subordinada, para obter favores sexuais tem a pena do assédio aumentada em até um terço.",
+       "gabarito": "C",
+       "porque": "No assédio sexual, a pena é aumentada em até um terço se a vítima é menor de 18 anos (art. 216-A, § 2º)."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
-      "Art. 215-A.": "9ac675fba830"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "SEM ANUÊNCIA, SEM VIOLÊNCIA",
-     "texto": "Faltou anuência e não houve violência nem grave ameaça: importunação. Com violência ou grave ameaça: estupro."
-    },
-    {
-     "sigla": "SÓ SE NÃO FOR MAIS GRAVE",
-     "texto": "O próprio tipo diz: a pena vale “se o ato não constitui crime mais grave”. É subsidiário expresso."
+      "Art. 215-A.": "9ac675fba830",
+      "Art. 216-A.": "10cc2508f1b7"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -12071,16 +12165,1269 @@
      "texto": "Pelo princípio da especialidade, não cabe desclassificar o estupro de vulnerável para importunação sexual: esta é praticada sem violência ou grave ameaça, e aquele traz presunção absoluta de violência."
     }
    ],
+   "detalhes": [
+    "O STJ admite o assédio sexual na relação entre professor e aluno, pela ascendência inerente à função. Está errado dizer que o tipo exige subordinação laboral (Cebraspe, Delegado PC-PB 2022).",
+    "O beijo lascivo obtido com força física ou grave ameaça é estupro, mesmo com vítima maior de 14 anos. Com menor de 14, qualquer ato libidinoso é estupro de vulnerável, por mais rápido que seja (Tema 1.121 do STJ).",
+    "A importunação sexual substituiu a antiga contravenção de importunação ofensiva ao pudor (art. 61 da Lei de Contravenções), revogada pela Lei 13.718/2018.",
+    "O assédio sexual é crime formal: consuma-se com o constrangimento, ainda que o agente não obtenha a vantagem sexual.",
+    "A ameaça de prejudicar a vítima ou a promessa de favorecê-la não são elementares do assédio sexual; basta constranger valendo-se da superioridade ou ascendência (STJ, Corte Especial, Informativo 893).",
+    "A ação penal nos dois crimes é pública incondicionada (art. 225)."
+   ],
+   "macetes": [
+    {
+     "sigla": "SEM ANUÊNCIA, SEM VIOLÊNCIA",
+     "texto": "Faltou anuência e não houve violência nem grave ameaça: importunação. Com violência ou grave ameaça: estupro."
+    },
+    {
+     "sigla": "ASSÉDIO PRECISA DE ASCENDÊNCIA",
+     "texto": "Sem chefia ou ascendência ligada a emprego, cargo ou função, não há assédio sexual do art. 216-A."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "O crime de importunação sexual exige contato físico entre o autor e a vítima.",
     "gabarito": "E",
     "explicacao": "O STJ admite o crime sem contato físico, por exemplo com verbalizações de cunho sexual ou envio de conteúdo pornográfico sem consentimento (Informativo 908)."
    },
-   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><p>Nos crimes contra a liberdade sexual e contra vulnerável, a ação penal é pública incondicionada (art. 225, na redação da Lei 13.718/2018).</p><p><strong>Distinções</strong></p><p>O verbo do art. 215-A é praticar ato libidinoso sem anuência; constranger mediante violência ou grave ameaça é estupro (art. 213). Por isso o beijo lascivo obtido com força física ou grave ameaça é estupro, mesmo com vítima maior de 14 anos. Com menor de 14, o ato libidinoso é estupro de vulnerável, por mais rápido ou superficial que seja (Tema 1.121 do STJ).</p><p>Fazer montagem em foto ou vídeo para incluir alguém em cena de nudez ou ato sexual, ainda que só com o rosto, é registro não autorizado da intimidade sexual (art. 216-B, parágrafo único; Cebraspe, Técnico MPCE 2025).</p>",
-   "relacionados": [
-    "estupro-de-vulneravel"
+   "pegadinhas": [
+    {
+     "errado": "O assédio sexual exige vínculo de emprego entre autor e vítima.",
+     "certo": "Basta a ascendência inerente a emprego, cargo ou função; o STJ o admite entre professor e aluno.",
+     "fonte": "Cebraspe, Delegado PC-PB 2022"
+    },
+    {
+     "errado": "O ato libidinoso rápido com menor de 14 anos pode ser desclassificado para importunação sexual.",
+     "certo": "É estupro de vulnerável, por mais superficial que seja (Tema 1.121 do STJ).",
+     "fonte": "Questão do app sobre a importunação sexual"
+    },
+    {
+     "errado": "O assédio sexual só se consuma se a vítima cede ao favorecimento sexual.",
+     "certo": "Consuma-se com o constrangimento.",
+     "fonte": "Questão do app sobre o art. 216-A"
+    }
    ],
-   "aprofundamento_rotulo": "exceções que caem em prova"
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PB 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo e ampliado com o assédio sexual (art. 216-A), que estava no tema do estupro."
+    }
+   ],
+   "relacionados": [
+    "estupro",
+    "estupro-de-vulneravel",
+    "exposicao-da-intimidade-sexual"
+   ]
+  },
+  {
+   "slug": "exposicao-da-intimidade-sexual",
+   "titulo": "Registro da intimidade sexual e divulgação de cena de estupro ou de nudez",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Arts. 216-B e 218-C do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.intimidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-216-b",
+    "n2848-1940-art-218-c"
+   ],
+   "conceitos": [
+    "registro não autorizado da intimidade sexual",
+    "montagem de cena íntima",
+    "divulgação de cena de estupro",
+    "divulgação de cena de sexo ou nudez sem consentimento",
+    "pornografia de vingança",
+    "exclusão da ilicitude jornalística"
+   ],
+   "palavras": [
+    "registro nao autorizado",
+    "intimidade sexual",
+    "produzir fotografar filmar",
+    "cena de nudez",
+    "ato sexual",
+    "carater intimo e privado",
+    "sem autorizacao dos participantes",
+    "seis meses a um ano",
+    "montagem",
+    "deepfake",
+    "lei 13772",
+    "divulgacao",
+    "oferecer trocar disponibilizar",
+    "publicar ou divulgar",
+    "cena de estupro",
+    "estupro de vulneravel",
+    "apologia",
+    "sem o consentimento da vitima",
+    "sexo nudez ou pornografia",
+    "quatro a dez anos",
+    "lei 15280",
+    "relacao intima de afeto",
+    "vinganca ou humilhacao",
+    "um terco a dois tercos",
+    "pornografia de vinganca",
+    "natureza jornalistica",
+    "identificacao da vitima",
+    "eca",
+    "art 241"
+   ],
+   "resumo": "O art. 216-B pune quem <strong>produz, fotografa, filma ou registra</strong>, por qualquer meio, cena de nudez ou ato sexual de caráter íntimo e privado <strong>sem autorização dos participantes</strong> (detenção de 6 meses a 1 ano e multa). Na mesma pena incorre quem faz <strong>montagem</strong> em foto, vídeo ou áudio para incluir alguém em cena desse tipo. O art. 218-C vai além do registro: pune quem <strong>oferece, troca, transmite, vende, publica ou divulga</strong>, por qualquer meio, registro com <strong>cena de estupro</strong> ou de estupro de vulnerável, ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia (reclusão de 4 a 10 anos e multa, se o fato não constitui crime mais grave). A pena aumenta de 1/3 a 2/3 se o agente mantém ou manteve <strong>relação íntima de afeto</strong> com a vítima ou age por <strong>vingança ou humilhação</strong>. Não há crime em publicação jornalística, científica, cultural ou acadêmica que impossibilite identificar a vítima.",
+   "esquema": {
+    "rotulo": "registrar × divulgar",
+    "html": "<table><thead><tr><th></th><th>Art. 216-B</th><th>Art. 218-C</th></tr></thead><tbody><tr><td><strong>Conduta</strong></td><td>Produzir, fotografar, filmar ou registrar; fazer montagem</td><td>Oferecer, trocar, transmitir, vender, publicar, divulgar</td></tr><tr><td><strong>Objeto</strong></td><td>Cena íntima e privada sem autorização dos participantes</td><td>Cena de estupro ou apologia; ou cena de sexo, nudez ou pornografia sem consentimento</td></tr><tr><td><strong>Pena</strong></td><td>Detenção de 6 meses a 1 ano e multa</td><td>Reclusão de 4 a 10 anos e multa</td></tr><tr><td><strong>Aumento</strong></td><td>Não há</td><td>1/3 a 2/3 por relação íntima de afeto ou vingança e humilhação</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Casos que caem",
+    "linhas": [
+     {
+      "nome": "Filmar escondido a relação com a parceira",
+      "o_que_e": "Art. 216-B.",
+      "atencao": "Registro sem autorização."
+     },
+     {
+      "nome": "Montar o rosto de alguém num vídeo pornográfico",
+      "o_que_e": "Art. 216-B, parágrafo único.",
+      "atencao": "Ainda que só o rosto seja real."
+     },
+     {
+      "nome": "Ex-namorado que posta as fotos íntimas da ex para humilhá-la",
+      "o_que_e": "Art. 218-C com aumento de 1/3 a 2/3.",
+      "atencao": "Relação íntima de afeto e humilhação."
+     },
+     {
+      "nome": "Repassar no grupo o vídeo de um estupro",
+      "o_que_e": "Art. 218-C.",
+      "atencao": "Basta divulgar a cena de estupro."
+     },
+     {
+      "nome": "Vítima menor de 18 anos",
+      "o_que_e": "Estatuto da Criança e do Adolescente (arts. 240 e 241-A).",
+      "atencao": "Norma especial."
+     }
+    ],
+    "colunas": [
+     "Caso",
+     "Crime",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 216-B.",
+      "Art. 218-C."
+     ],
+     "ref": "arts. 216-B e 218-C do CP",
+     "regras": [
+      "<strong>Art. 216-B.</strong> Produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes: detenção de 6 meses a 1 ano e multa. Mesma pena para quem faz montagem em fotografia, vídeo, áudio ou outro registro para incluir pessoa nesse tipo de cena.",
+      "<strong>Art. 218-C.</strong> Oferecer, trocar, disponibilizar, transmitir, vender, expor à venda, distribuir, publicar ou divulgar, por qualquer meio, inclusive comunicação de massa ou informática, registro com cena de estupro ou de estupro de vulnerável, ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia: reclusão de 4 a 10 anos e multa, se o fato não constitui crime mais grave.",
+      "<strong>Art. 218-C, §§ 1º e 2º.</strong> Mais 1/3 a 2/3 se o agente mantém ou manteve relação íntima de afeto com a vítima ou age com o fim de vingança ou humilhação. Não há crime em publicação jornalística, científica, cultural ou acadêmica com recurso que impossibilite identificar a vítima, salvo sua prévia autorização, se maior de 18 anos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "sem autorização dos participantes",
+       "marcas": [
+        "sem autorização dos participantes"
+       ],
+       "afirmacao": "O homem que instala uma câmera escondida no quarto e grava a relação sexual com a namorada, sem que ela saiba, só comete crime se divulgar o vídeo.",
+       "gabarito": "E",
+       "porque": "Registrar cena de ato sexual de caráter íntimo e privado sem autorização dos participantes já é crime (art. 216-B), ainda que o vídeo nunca seja divulgado."
+      },
+      {
+       "trecho": "realiza montagem em fotografia, vídeo, áudio ou qualquer outro registro com o fim de incluir pessoa em cena de nudez ou ato sexual ou libidinoso de caráter íntimo",
+       "marcas": [
+        "montagem"
+       ],
+       "afirmacao": "Quem usa um aplicativo para colocar o rosto de uma colega num vídeo pornográfico comete crime, mesmo sem nunca ter filmado a colega.",
+       "gabarito": "C",
+       "porque": "Fazer montagem em foto ou vídeo para incluir pessoa em cena de nudez ou ato sexual é a figura do art. 216-B, parágrafo único."
+      },
+      {
+       "trecho": "se o crime é praticado por agente que mantém ou tenha mantido relação íntima de afeto com a vítima ou com o fim de vingança ou humilhação",
+       "marcas": [
+        "relação íntima de afeto"
+       ],
+       "afirmacao": "O ex-companheiro que, depois do fim do relacionamento, publica nas redes as fotos íntimas da ex sem o consentimento dela responde pelo art. 218-C sem nenhum aumento, porque a relação já tinha acabado.",
+       "gabarito": "E",
+       "porque": "A pena aumenta de 1/3 a 2/3 se o agente mantém ou tenha mantido relação íntima de afeto com a vítima, ou age por vingança ou humilhação (art. 218-C, § 1º)."
+      },
+      {
+       "trecho": "com a adoção de recurso que impossibilite a identificação da vítima",
+       "marcas": [
+        "impossibilite a identificação da vítima"
+       ],
+       "afirmacao": "O jornal que publica trecho do vídeo de um estupro com o rosto da vítima nítido, para informar sobre o caso, está protegido pela exclusão de ilicitude da atividade jornalística.",
+       "gabarito": "E",
+       "porque": "A exclusão do § 2º exige recurso que impossibilite a identificação da vítima, salvo sua prévia autorização, se maior de 18 anos. Manter o rosto nítido afasta a proteção (Cebraspe, Delegado PC-MA 2026)."
+      }
+     ],
+     "conferido": {
+      "Art. 216-B.": "7b2320fbe838",
+      "Art. 218-C.": "b3f6f558a65c"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Fazer montagem para incluir alguém em cena de nudez ou ato sexual, ainda que só com o rosto, é o art. 216-B, parágrafo único (Cebraspe, Técnico MPCE 2025).",
+    "Quem estupra e ainda divulga o vídeo responde pelo estupro e também pelo art. 218-C, em concurso; borrar só parte da imagem e manter o rosto da vítima nítido não afasta o crime (Cebraspe, Delegado PC-MA 2026).",
+    "Se a vítima é criança ou adolescente, aplicam-se os crimes do Estatuto da Criança e do Adolescente sobre registro e divulgação de cena de sexo ou pornografia (arts. 240 e 241-A), por especialidade.",
+    "O art. 218-C é expressamente subsidiário: só se aplica se o fato não constitui crime mais grave.",
+    "A Lei 15.280/2025 elevou a pena do art. 218-C para reclusão de 4 a 10 anos e multa."
+   ],
+   "macetes": [
+    {
+     "sigla": "216-B REGISTRA, 218-C ESPALHA",
+     "texto": "Gravar ou montar a cena íntima é o 216-B. Divulgar, vender ou repassar é o 218-C."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Gravar, sem autorização, a relação sexual com a parceira só é crime se o vídeo for divulgado.",
+    "gabarito": "E",
+    "explicacao": "O registro não autorizado da intimidade sexual já é crime (art. 216-B). A divulgação é outro crime, o do art. 218-C."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A montagem que coloca o rosto de alguém num vídeo pornográfico é atípica, porque a pessoa não participou da cena.",
+     "certo": "É crime: art. 216-B, parágrafo único.",
+     "fonte": "Cebraspe, Técnico MPCE 2025"
+    },
+    {
+     "errado": "Na divulgação de cena de estupro, basta borrar o corpo da vítima para afastar o crime.",
+     "certo": "O recurso precisa impossibilitar a identificação da vítima; com o rosto nítido, há crime.",
+     "fonte": "Cebraspe, Delegado PC-MA 2026"
+    },
+    {
+     "errado": "Divulgar fotos íntimas da ex por vingança tem a mesma pena da divulgação sem esse fim.",
+     "certo": "A vingança ou humilhação, e a relação íntima de afeto, aumentam a pena de 1/3 a 2/3 (art. 218-C, § 1º).",
+     "fonte": "Questão do app sobre o art. 218-C"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Técnico MPCE 2025; Delegado PC-MA 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com o registro não autorizado da intimidade sexual (art. 216-B) e a divulgação de cena de estupro ou de nudez (art. 218-C)."
+    }
+   ],
+   "relacionados": [
+    "importunacao-sexual",
+    "estupro-de-vulneravel",
+    "disposicoes-gerais-dos-crimes-sexuais"
+   ]
+  },
+  {
+   "slug": "estupro-de-vulneravel",
+   "titulo": "Estupro de vulnerável",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Art. 217-A do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.estupro-vulneravel"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-217-a"
+   ],
+   "conceitos": [
+    "estupro de vulnerável",
+    "vulnerabilidade por idade",
+    "vulnerabilidade por enfermidade ou deficiência",
+    "impossibilidade de resistência",
+    "presunção absoluta de vulnerabilidade",
+    "irrelevância do consentimento",
+    "estupro de vulnerável qualificado"
+   ],
+   "palavras": [
+    "estupro de vulneravel",
+    "conjuncao carnal",
+    "ato libidinoso",
+    "menor de 14",
+    "dez a dezoito anos",
+    "lei 15280",
+    "enfermidade ou deficiencia mental",
+    "necessario discernimento",
+    "nao pode oferecer resistencia",
+    "sono",
+    "embriaguez",
+    "lesao grave",
+    "doze a vinte e quatro anos",
+    "morte",
+    "vinte a quarenta anos",
+    "presuncao absoluta",
+    "lei 15353",
+    "relativizacao",
+    "consentimento",
+    "experiencia sexual",
+    "relacionamento",
+    "gravidez",
+    "sumula 593",
+    "tema 918",
+    "tema 1121",
+    "importunacao",
+    "desclassificacao",
+    "hediondo",
+    "distinguishing"
+   ],
+   "resumo": "Estupro de vulnerável (art. 217-A) é ter conjunção carnal ou praticar outro ato libidinoso com <strong>menor de 14 anos</strong> (caput) ou com quem, por enfermidade ou deficiência mental, não tem o necessário discernimento, ou, por qualquer outra causa, <strong>não pode oferecer resistência</strong> (§ 1º): reclusão de 10 a 18 anos e multa, na redação da Lei 15.280/2025. Não se exige violência nem grave ameaça. Se resulta lesão grave, 12 a 24 anos; se resulta morte, 20 a 40 anos. Consentimento, experiência sexual anterior, relacionamento ou gravidez <strong>não afastam o crime</strong> (§ 5º e Súmula 593 do STJ), e desde a Lei 15.353/2026 a presunção de vulnerabilidade é <strong>expressamente absoluta</strong> (§ 4º-A). Para o STJ, o ato libidinoso com menor de 14 anos, por mais superficial que seja, não se desclassifica para importunação sexual.",
+   "esquema": {
+    "rotulo": "hipóteses e penas",
+    "html": "<table><thead><tr><th>Hipótese</th><th>Base</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Menor de 14 anos</strong></td><td>Caput</td><td>Reclusão de 10 a 18 anos e multa</td></tr><tr><td><strong>Sem discernimento por enfermidade ou deficiência mental; ou sem poder resistir por qualquer causa (sono, embriaguez completa)</strong></td><td>§ 1º</td><td>A mesma do caput</td></tr><tr><td><strong>Resulta lesão corporal grave</strong></td><td>§ 3º</td><td>Reclusão de 12 a 24 anos e multa</td></tr><tr><td><strong>Resulta morte</strong></td><td>§ 4º</td><td>Reclusão de 20 a 40 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "O que não afasta o crime (§ 5º)",
+    "linhas": [
+     {
+      "nome": "Consentimento da vítima",
+      "o_que_e": "Irrelevante.",
+      "atencao": "Súmula 593 do STJ."
+     },
+     {
+      "nome": "Experiência sexual anterior",
+      "o_que_e": "Irrelevante."
+     },
+     {
+      "nome": "Namoro ou relacionamento com o agente",
+      "o_que_e": "Irrelevante.",
+      "atencao": "Tema 918 do STJ."
+     },
+     {
+      "nome": "Gravidez resultante do crime",
+      "o_que_e": "Irrelevante; pode aumentar a pena (art. 234-A, III)."
+     },
+     {
+      "nome": "Concordância dos pais",
+      "o_que_e": "Irrelevante; o responsável que incentiva pode ser partícipe."
+     }
+    ],
+    "colunas": [
+     "Circunstância",
+     "Efeito",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 217-A."
+     ],
+     "ref": "art. 217-A do CP",
+     "regras": [
+      "<strong>Caput e § 1º.</strong> Ter conjunção carnal ou praticar outro ato libidinoso com menor de 14 anos: reclusão de 10 a 18 anos e multa. Mesma pena com quem, por enfermidade ou deficiência mental, não tem o necessário discernimento para o ato, ou que, por qualquer outra causa, não pode oferecer resistência.",
+      "<strong>§§ 3º e 4º.</strong> Resulta lesão corporal grave: reclusão de 12 a 24 anos e multa. Resulta morte: reclusão de 20 a 40 anos e multa.",
+      "<strong>§§ 4º-A e 5º.</strong> É absoluta a presunção de vulnerabilidade, e inadmissível sua relativização. As penas se aplicam independentemente do consentimento da vítima, de sua experiência sexual, de relações anteriores ou de gravidez resultante do crime."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ou que, por qualquer outra causa, não pode oferecer resistência",
+       "marcas": [
+        "por qualquer outra causa"
+       ],
+       "afirmacao": "O homem que pratica ato libidinoso com a colega adulta que dorme profundamente na festa comete estupro de vulnerável.",
+       "gabarito": "C",
+       "porque": "Quem, por qualquer causa, não pode oferecer resistência, como no sono profundo, é vulnerável (art. 217-A, § 1º; STJ, Jurisprudência em Teses, ed. 151)."
+      },
+      {
+       "trecho": "É absoluta a presunção de vulnerabilidade da vítima e inadmissível sua relativização.",
+       "marcas": [
+        "inadmissível sua relativização"
+       ],
+       "afirmacao": "O juiz pode afastar o estupro de vulnerável se a vítima de 13 anos namorava o réu de 19 com aprovação da família e os dois formaram um núcleo familiar.",
+       "gabarito": "E",
+       "porque": "Desde a Lei 15.353/2026, a presunção de vulnerabilidade é absoluta e não admite relativização (art. 217-A, § 4º-A); o relacionamento e a aprovação da família são irrelevantes (§ 5º)."
+      },
+      {
+       "trecho": "Pena - reclusão, de 20 (vinte) a 40 (quarenta) anos, e multa.",
+       "marcas": [
+        "20 (vinte) a 40 (quarenta) anos"
+       ],
+       "afirmacao": "Se do estupro de vulnerável resulta a morte da vítima, a pena é de reclusão de 12 a 30 anos, igual à do estupro com morte.",
+       "gabarito": "E",
+       "porque": "No estupro de vulnerável com resultado morte, a pena é de reclusão de 20 a 40 anos e multa (art. 217-A, § 4º). A de 12 a 30 anos é a do estupro do art. 213, § 2º."
+      },
+      {
+       "trecho": "independentemente do consentimento da vítima, de sua experiência sexual",
+       "marcas": [
+        "consentimento da vítima"
+       ],
+       "afirmacao": "A adolescente de 13 anos que já tinha vida sexual ativa e consentiu no ato é vítima de estupro de vulnerável.",
+       "gabarito": "C",
+       "porque": "As penas se aplicam independentemente do consentimento da vítima e de sua experiência sexual anterior (art. 217-A, § 5º; Súmula 593 do STJ)."
+      }
+     ],
+     "conferido": {
+      "Art. 217-A.": "afa28d4da63d"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Súmula 593 e Tema 918",
+     "texto": "O crime de estupro de vulnerável se configura com a conjunção carnal ou o ato libidinoso com menor de 14 anos, sendo irrelevante o consentimento da vítima, sua experiência sexual anterior ou a existência de relacionamento amoroso com o agente.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=918&cod_tema_final=918"
+    },
+    {
+     "quem": "STJ · Tema 1.121 (repetitivo)",
+     "texto": "Presente o dolo de satisfazer a lascívia, o ato libidinoso com menor de 14 anos é estupro de vulnerável, independentemente da ligeireza ou superficialidade da conduta, sem desclassificação para importunação sexual.",
+     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1121&cod_tema_final=1121"
+    },
+    {
+     "quem": "STJ · Informativo 907",
+     "texto": "A incapacidade de resistência da pessoa adulta atrai a mesma proteção legal conferida aos menores de 14 anos quanto à tipificação do estupro de vulnerável.",
+     "url": "/informativos/stj/informativo-907/estupro-de-vulneravel-adulto-sem-capacidade-de-resistir-nao-cabe-desclassificar-para-importunacao/"
+    },
+    {
+     "quem": "STJ · Jurisprudência em Teses, ed. 151",
+     "texto": "O estado de sono, que diminua a capacidade da vítima de oferecer resistência, caracteriza a vulnerabilidade do art. 217-A, § 1º, do CP."
+    }
+   ],
+   "detalhes": [
+    "O distinguishing que o STJ chegou a admitir em casos de namoro com núcleo familiar formado vale só para fatos anteriores à Lei 15.353/2026 (Informativo 897).",
+    "Induzir menor de 14 anos a satisfazer a lascívia de outra pessoa é o art. 218 (6 a 14 anos), e não estupro de vulnerável de quem induz.",
+    "A contemplação lasciva pode configurar o ato libidinoso, sem contato físico entre agente e vítima (STJ, Jurisprudência em Teses, ed. 152).",
+    "Dois agentes que estupram a vulnerável respondem com o aumento de 1/3 a 2/3 do estupro coletivo (art. 226, IV, a); quem ainda divulga o vídeo responde também pelo art. 218-C (Cebraspe, Delegado PC-MA 2026).",
+    "O estupro de vulnerável é hediondo em todas as formas (art. 1º, VI, da Lei 8.072/1990).",
+    "Nos abusos repetidos por longo período, o STJ admite a fração máxima da continuidade delitiva (art. 71, caput), ainda que o número exato de atos não esteja delimitado, se for possível concluir que houve sete ou mais repetições (Tema 1.202).",
+    "A vulnerabilidade do § 1º precisa ser conhecida pelo agente: quem não sabe nem tinha como saber que a vítima não podia resistir pode alegar erro de tipo."
+   ],
+   "macetes": [
+    {
+     "sigla": "14 OU NÃO RESISTE",
+     "texto": "Duas portas para o crime: a idade (menor de 14) ou a incapacidade de resistir ou de discernir (§ 1º)."
+    },
+    {
+     "sigla": "NADA AFASTA",
+     "texto": "Consentimento, experiência sexual, namoro, gravidez: nada disso afasta o crime (§ 5º)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Se o ato libidinoso com menor de 14 anos for rápido e superficial, o STJ admite a desclassificação para importunação sexual.",
+    "gabarito": "E",
+    "explicacao": "Não cabe a desclassificação: a ligeireza da conduta não afasta o estupro de vulnerável (Tema 1.121 do STJ)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O consentimento da vítima de 13 anos, que já tinha experiência sexual, afasta o crime.",
+     "certo": "São irrelevantes o consentimento e a experiência sexual anterior (Súmula 593 do STJ; art. 217-A, § 5º).",
+     "fonte": "Questão do app sobre o estupro de vulnerável"
+    },
+    {
+     "errado": "Pessoa adulta que dorme não é vulnerável, porque a vulnerabilidade é só etária.",
+     "certo": "Quem, por qualquer causa, não pode oferecer resistência é vulnerável (§ 1º).",
+     "fonte": "Questão do app sobre o art. 217-A"
+    },
+    {
+     "errado": "Desde 2026, o juiz pode relativizar a vulnerabilidade quando há namoro aprovado pela família.",
+     "certo": "A presunção é absoluta e inadmissível sua relativização (§ 4º-A, Lei 15.353/2026).",
+     "fonte": "Questão do app sobre o art. 217-A"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo, com o § 4º-A (Lei 15.353/2026) e as penas da Lei 15.280/2025."
+    }
+   ],
+   "relacionados": [
+    "estupro",
+    "importunacao-sexual",
+    "corrupcao-de-menores-e-exploracao-sexual-de-vulneravel"
+   ]
+  },
+  {
+   "slug": "corrupcao-de-menores-e-exploracao-sexual-de-vulneravel",
+   "titulo": "Corrupção de menores, lascívia na presença de criança e exploração sexual de vulnerável",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Arts. 218 a 218-B do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.exploracao-vulneravel"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-218",
+    "n2848-1940-art-218-a",
+    "n2848-1940-art-218-b"
+   ],
+   "conceitos": [
+    "corrupção de menores do art. 218",
+    "satisfação de lascívia mediante presença de criança ou adolescente",
+    "favorecimento da prostituição de vulnerável",
+    "cliente do adolescente explorado",
+    "responsável pelo local",
+    "cassação da licença do estabelecimento"
+   ],
+   "palavras": [
+    "corrupcao de menores",
+    "induzir",
+    "menor de 14",
+    "lascivia de outrem",
+    "seis a quatorze anos",
+    "lei 15280",
+    "satisfacao de lascivia",
+    "na presenca",
+    "presenciar",
+    "cinco a doze anos",
+    "favorecimento da prostituicao",
+    "exploracao sexual",
+    "submeter induzir ou atrair",
+    "menor de 18",
+    "facilitar",
+    "impedir ou dificultar que a abandone",
+    "sete a dezesseis anos",
+    "cliente",
+    "maior de 14 e menor de 18",
+    "proprietario gerente ou responsavel",
+    "cassacao da licenca",
+    "efeito obrigatorio da condenacao",
+    "hediondo",
+    "lei 12978",
+    "eca",
+    "art 244-b"
+   ],
+   "resumo": "Três crimes protegem a criança e o adolescente fora do estupro de vulnerável. O art. 218 pune quem <strong>induz menor de 14 anos a satisfazer a lascívia de outrem</strong> (reclusão de 6 a 14 anos e multa). O art. 218-A pune quem pratica, <strong>na presença</strong> de menor de 14 anos, ou o induz a presenciar, conjunção carnal ou outro ato libidinoso, para satisfazer lascívia própria ou alheia (5 a 12 anos e multa). O art. 218-B, <strong>favorecimento da prostituição ou outra forma de exploração sexual de vulnerável</strong>, pune quem submete, induz ou atrai à prostituição menor de 18 anos ou quem não tem discernimento por enfermidade ou deficiência mental, a facilita, ou impede ou dificulta que a vítima a abandone (7 a 16 anos e multa). Incorrem nas mesmas penas o <strong>cliente</strong> que pratica ato sexual com adolescente de 14 a 18 anos nessa situação e o proprietário, gerente ou responsável pelo local, cuja licença é cassada como efeito obrigatório da condenação.",
+   "esquema": {
+    "rotulo": "os três crimes",
+    "html": "<table><thead><tr><th>Crime</th><th>Vítima</th><th>Conduta</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Corrupção de menores (218)</strong></td><td>Menor de 14</td><td>Induzir a satisfazer a lascívia de outrem</td><td>Reclusão de 6 a 14 anos e multa</td></tr><tr><td><strong>Lascívia na presença de criança (218-A)</strong></td><td>Menor de 14</td><td>Praticar ato sexual na presença dela ou induzi-la a presenciar</td><td>Reclusão de 5 a 12 anos e multa</td></tr><tr><td><strong>Exploração sexual de vulnerável (218-B)</strong></td><td>Menor de 18 ou sem discernimento</td><td>Submeter, induzir, atrair, facilitar, impedir ou dificultar o abandono da prostituição</td><td>Reclusão de 7 a 16 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem responde no art. 218-B",
+    "linhas": [
+     {
+      "nome": "Quem explora",
+      "o_que_e": "Submete, induz, atrai, facilita, impede ou dificulta o abandono.",
+      "atencao": "Caput."
+     },
+     {
+      "nome": "O cliente",
+      "o_que_e": "Pratica ato sexual com adolescente de 14 a 18 anos em situação de exploração.",
+      "atencao": "§ 2º, I. Com menor de 14, é estupro de vulnerável."
+     },
+     {
+      "nome": "O dono ou gerente do local",
+      "o_que_e": "Proprietário, gerente ou responsável pelo local das práticas.",
+      "atencao": "§ 2º, II, com cassação da licença (§ 3º)."
+     }
+    ],
+    "colunas": [
+     "Quem",
+     "Conduta",
+     "Base"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 218.",
+      "Art. 218-A.",
+      "Art. 218-B."
+     ],
+     "ref": "arts. 218 a 218-B do CP",
+     "regras": [
+      "<strong>Art. 218.</strong> Induzir alguém menor de 14 anos a satisfazer a lascívia de outrem: reclusão de 6 a 14 anos e multa.",
+      "<strong>Art. 218-A.</strong> Praticar, na presença de alguém menor de 14 anos, ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso, a fim de satisfazer lascívia própria ou de outrem: reclusão de 5 a 12 anos e multa.",
+      "<strong>Art. 218-B.</strong> Submeter, induzir ou atrair à prostituição ou outra forma de exploração sexual menor de 18 anos ou quem não tem o necessário discernimento por enfermidade ou deficiência mental, facilitá-la, impedir ou dificultar que a abandone: reclusão de 7 a 16 anos e multa. Mesmas penas para quem pratica conjunção carnal ou ato libidinoso com menor de 18 e maior de 14 anos nessa situação, e para o proprietário, gerente ou responsável pelo local; neste caso, a cassação da licença de localização e funcionamento é efeito obrigatório da condenação."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Induzir alguém menor de 14 (catorze) anos a satisfazer a lascívia de outrem",
+       "marcas": [
+        "lascívia de outrem"
+       ],
+       "afirmacao": "A tia que convence a sobrinha de 12 anos a se despir diante de um vizinho, para que ele se satisfaça olhando, comete o crime do art. 218.",
+       "gabarito": "C",
+       "porque": "Induzir menor de 14 anos a satisfazer a lascívia de outrem é o art. 218: reclusão de 6 a 14 anos e multa."
+      },
+      {
+       "trecho": "ou induzi-lo a presenciar, conjunção carnal ou outro ato libidinoso",
+       "marcas": [
+        "induzi-lo a presenciar"
+       ],
+       "afirmacao": "O casal que mantém relação sexual na frente do filho de 10 anos, para se excitar com a presença dele, só comete crime se a criança for tocada.",
+       "gabarito": "E",
+       "porque": "Praticar ato sexual na presença de menor de 14 anos, ou induzi-lo a presenciar, para satisfazer lascívia própria ou alheia, é o art. 218-A, sem necessidade de contato com a criança."
+      },
+      {
+       "trecho": "quem pratica conjunção carnal ou outro ato libidinoso com alguém menor de 18 (dezoito) e maior de 14 (catorze) anos na situação descrita no caput deste artigo",
+       "marcas": [
+        "menor de 18 (dezoito) e maior de 14 (catorze) anos"
+       ],
+       "afirmacao": "O homem que paga para ter relação sexual com uma adolescente de 16 anos explorada numa casa de prostituição não comete crime, porque ela é maior de 14 anos.",
+       "gabarito": "E",
+       "porque": "O cliente que pratica ato sexual com adolescente de 14 a 18 anos em situação de exploração sexual incorre nas mesmas penas do art. 218-B (§ 2º, I)."
+      },
+      {
+       "trecho": "constitui efeito obrigatório da condenação a cassação da licença de localização e de funcionamento do estabelecimento",
+       "marcas": [
+        "efeito obrigatório"
+       ],
+       "afirmacao": "Condenado o dono do bar onde adolescentes eram exploradas sexualmente, a cassação da licença de funcionamento depende de pedido expresso do Ministério Público.",
+       "gabarito": "E",
+       "porque": "A cassação da licença de localização e funcionamento é efeito obrigatório da condenação do responsável pelo local (art. 218-B, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 218.": "4e5d8e0321f3",
+      "Art. 218-A.": "b8232c066cbe",
+      "Art. 218-B.": "314971d1969d"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O favorecimento da prostituição ou de outra forma de exploração sexual de vulnerável (art. 218-B) é hediondo, incluído na Lei 8.072/1990 pela Lei 12.978/2014.",
+    "Para o STJ, a visualização à distância e em tempo real, por meios tecnológicos, basta para o elemento presença do art. 218-A, como a criança obrigada a assistir ao ato por videochamada.",
+    "Com vítima menor de 14 anos, o cliente que pratica o ato sexual responde por estupro de vulnerável (art. 217-A), e não pelo art. 218-B, § 2º, I.",
+    "O art. 218 do CP não se confunde com a corrupção de menores do ECA (art. 244-B), que é corromper ou facilitar a corrupção de menor de 18 anos, praticando com ele infração penal ou induzindo-o a praticá-la.",
+    "Quem induz menor de 14 anos a satisfazer a lascívia de outrem e participa do ato com a vítima responde por estupro de vulnerável, crime mais grave.",
+    "A Lei 15.280/2025 elevou as penas dos arts. 218, 218-A e 218-B e revogou o § 1º do art. 218-B."
+   ],
+   "macetes": [
+    {
+     "sigla": "218 INDUZ, 218-A ASSISTE, 218-B EXPLORA",
+     "texto": "218: induzir o menor de 14 a satisfazer outro. 218-A: fazê-lo presenciar. 218-B: prostituição ou exploração do menor de 18."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O cliente que pratica ato sexual com adolescente de 15 anos explorada sexualmente não comete crime, porque a vítima tem mais de 14 anos.",
+    "gabarito": "E",
+    "explicacao": "Ele incorre nas mesmas penas do favorecimento da exploração sexual de vulnerável (art. 218-B, § 2º, I)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "No art. 218-B, só é vítima o menor de 14 anos.",
+     "certo": "A vítima é o menor de 18 anos ou quem não tem discernimento por enfermidade ou deficiência mental.",
+     "fonte": "Questão do app sobre o art. 218-B"
+    },
+    {
+     "errado": "O art. 218-A exige que a criança participe do ato libidinoso.",
+     "certo": "Basta praticar o ato na presença dela ou induzi-la a presenciar.",
+     "fonte": "Questão do app sobre o art. 218-A"
+    },
+    {
+     "errado": "A cassação da licença do estabelecimento é efeito que o juiz pode ou não declarar na sentença.",
+     "certo": "É efeito obrigatório da condenação (art. 218-B, § 3º).",
+     "fonte": "Questão do app sobre o art. 218-B"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com os arts. 218, 218-A e 218-B, que antes não tinham tema próprio."
+    }
+   ],
+   "relacionados": [
+    "estupro-de-vulneravel",
+    "lenocinio-e-exploracao-sexual",
+    "disposicoes-gerais-dos-crimes-sexuais"
+   ]
+  },
+  {
+   "slug": "lenocinio-e-exploracao-sexual",
+   "titulo": "Lenocínio, casa de prostituição e rufianismo",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Arts. 227 a 230 do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.lenocinio"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-227",
+    "n2848-1940-art-228",
+    "n2848-1940-art-229",
+    "n2848-1940-art-230"
+   ],
+   "conceitos": [
+    "mediação para servir a lascívia de outrem",
+    "favorecimento da prostituição",
+    "casa de prostituição",
+    "rufianismo",
+    "lenocínio qualificado",
+    "fim de lucro no lenocínio"
+   ],
+   "palavras": [
+    "lenocinio",
+    "mediacao",
+    "induzir alguem a satisfazer a lascivia de outrem",
+    "um a tres anos",
+    "maior de 14 e menor de 18",
+    "ascendente",
+    "conjuge",
+    "tutor",
+    "dois a cinco anos",
+    "violencia grave ameaca ou fraude",
+    "dois a oito anos",
+    "fim de lucro",
+    "multa",
+    "favorecimento da prostituicao",
+    "induzir ou atrair",
+    "prostituicao",
+    "exploracao sexual",
+    "facilitar",
+    "impedir ou dificultar que abandone",
+    "tres a oito anos",
+    "quatro a dez anos",
+    "casa de prostituicao",
+    "manter estabelecimento",
+    "intuito de lucro",
+    "rufianismo",
+    "tirar proveito da prostituicao alheia",
+    "participando dos lucros",
+    "fazendo-se sustentar",
+    "um a quatro anos",
+    "tres a seis anos",
+    "prostituicao nao e crime",
+    "trafico de pessoas",
+    "lei 13344"
+   ],
+   "resumo": "O capítulo do lenocínio pune quem explora a sexualidade alheia; a prostituição em si não é crime. A <strong>mediação para servir a lascívia de outrem</strong> (art. 227) é induzir alguém a satisfazer a lascívia de outra pessoa (reclusão de 1 a 3 anos), com pena maior se a vítima tem de 14 a 18 anos ou o agente é parente, cônjuge, tutor ou responsável (2 a 5 anos), ou se há violência, grave ameaça ou fraude (2 a 8 anos). O <strong>favorecimento da prostituição</strong> (art. 228) é induzir ou atrair alguém à prostituição ou outra forma de exploração sexual, facilitá-la, ou impedir ou dificultar que a abandone (2 a 5 anos e multa). A <strong>casa de prostituição</strong> (art. 229) é manter estabelecimento em que ocorra exploração sexual, com ou sem intuito de lucro (2 a 5 anos e multa). O <strong>rufianismo</strong> (art. 230) é tirar proveito da prostituição alheia, participando dos lucros ou fazendo-se sustentar por quem a exerce (1 a 4 anos e multa). Com fim de lucro, os arts. 227 e 228 recebem também multa.",
+   "esquema": {
+    "rotulo": "o capítulo do lenocínio",
+    "html": "<table><thead><tr><th>Crime</th><th>Conduta</th><th>Pena simples</th><th>Com violência, grave ameaça ou fraude</th></tr></thead><tbody><tr><td><strong>Mediação (227)</strong></td><td>Induzir alguém a satisfazer a lascívia de outrem</td><td>1 a 3 anos</td><td>2 a 8 anos, além da pena da violência</td></tr><tr><td><strong>Favorecimento da prostituição (228)</strong></td><td>Induzir, atrair, facilitar, impedir ou dificultar o abandono</td><td>2 a 5 anos e multa</td><td>4 a 10 anos, além da pena da violência</td></tr><tr><td><strong>Casa de prostituição (229)</strong></td><td>Manter estabelecimento em que ocorra exploração sexual</td><td>2 a 5 anos e multa</td><td>Não há forma própria</td></tr><tr><td><strong>Rufianismo (230)</strong></td><td>Participar dos lucros ou fazer-se sustentar pela prostituição alheia</td><td>1 a 4 anos e multa</td><td>2 a 8 anos, sem prejuízo da pena da violência</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quando a pena sobe por quem é o agente",
+    "linhas": [
+     {
+      "nome": "Mediação (227, § 1º)",
+      "o_que_e": "Vítima de 14 a 18 anos, ou agente ascendente, descendente, cônjuge ou companheiro, irmão, tutor, curador ou responsável pela educação, tratamento ou guarda.",
+      "atencao": "Reclusão de 2 a 5 anos."
+     },
+     {
+      "nome": "Favorecimento (228, § 1º)",
+      "o_que_e": "Agente ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor, curador, preceptor, empregador ou quem assumiu dever de cuidado.",
+      "atencao": "Reclusão de 3 a 8 anos."
+     },
+     {
+      "nome": "Rufianismo (230, § 1º)",
+      "o_que_e": "Vítima de 14 a 18 anos, ou os mesmos agentes do art. 228, § 1º.",
+      "atencao": "Reclusão de 3 a 6 anos e multa."
+     }
+    ],
+    "colunas": [
+     "Crime",
+     "Quando",
+     "Pena"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 227.",
+      "Art. 228.",
+      "Art. 229.",
+      "Art. 230."
+     ],
+     "ref": "arts. 227 a 230 do CP",
+     "regras": [
+      "<strong>Art. 227.</strong> Induzir alguém a satisfazer a lascívia de outrem: reclusão de 1 a 3 anos. Vítima maior de 14 e menor de 18 anos, ou agente ascendente, descendente, cônjuge ou companheiro, irmão, tutor, curador ou pessoa a quem esteja confiada para educação, tratamento ou guarda: 2 a 5 anos. Com violência, grave ameaça ou fraude: 2 a 8 anos, além da pena da violência. Com fim de lucro, também multa.",
+      "<strong>Art. 228.</strong> Induzir ou atrair alguém à prostituição ou outra forma de exploração sexual, facilitá-la, impedir ou dificultar que alguém a abandone: reclusão de 2 a 5 anos e multa; de 3 a 8 anos se o agente é ascendente, padrasto, madrasta, irmão, enteado, cônjuge, companheiro, tutor, curador, preceptor ou empregador, ou assumiu dever de cuidado; de 4 a 10 anos com violência, grave ameaça ou fraude. Com fim de lucro, também multa.",
+      "<strong>Arts. 229 e 230.</strong> Manter, por conta própria ou de terceiro, estabelecimento em que ocorra exploração sexual, haja ou não intuito de lucro ou mediação direta do proprietário ou gerente: reclusão de 2 a 5 anos e multa. Tirar proveito da prostituição alheia, participando diretamente de seus lucros ou fazendo-se sustentar por quem a exerça: reclusão de 1 a 4 anos e multa; de 3 a 6 anos e multa com vítima de 14 a 18 anos ou agente familiar ou responsável; de 2 a 8 anos com violência, grave ameaça, fraude ou meio que impeça a livre manifestação da vontade."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Induzir alguém a satisfazer a lascívia de outrem:",
+       "marcas": [
+        "lascívia de outrem"
+       ],
+       "afirmacao": "Quem convence uma amiga adulta a manter relação sexual com o chefe dele, para agradá-lo, comete mediação para servir a lascívia de outrem.",
+       "gabarito": "C",
+       "porque": "Induzir alguém a satisfazer a lascívia de outrem é o art. 227: reclusão de 1 a 3 anos."
+      },
+      {
+       "trecho": "impedir ou dificultar que alguém a abandone",
+       "marcas": [
+        "impedir ou dificultar"
+       ],
+       "afirmacao": "O dono da boate que retém os documentos de uma mulher adulta para que ela não deixe a prostituição não comete crime, porque não foi ele quem a levou a se prostituir.",
+       "gabarito": "E",
+       "porque": "Impedir ou dificultar que alguém abandone a prostituição é uma das condutas do favorecimento da prostituição (art. 228)."
+      },
+      {
+       "trecho": "haja, ou não, intuito de lucro ou mediação direta do proprietário ou gerente",
+       "marcas": [
+        "haja, ou não, intuito de lucro"
+       ],
+       "afirmacao": "O crime de casa de prostituição só existe se o dono do estabelecimento lucra com a exploração sexual.",
+       "gabarito": "E",
+       "porque": "O art. 229 pune manter estabelecimento em que ocorra exploração sexual, haja ou não intuito de lucro ou mediação direta do proprietário ou gerente."
+      },
+      {
+       "trecho": "fazendo-se sustentar, no todo ou em parte, por quem a exerça",
+       "marcas": [
+        "fazendo-se sustentar"
+       ],
+       "afirmacao": "O companheiro que vive do dinheiro que a parceira ganha com a prostituição, sem trabalhar, comete rufianismo, com pena aumentada por ser companheiro.",
+       "gabarito": "C",
+       "porque": "Fazer-se sustentar por quem exerce a prostituição é rufianismo (art. 230); sendo o agente companheiro da vítima, a pena é de 3 a 6 anos e multa (§ 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 227.": "a1e53bf0a70f",
+      "Art. 228.": "6369dd86bee7",
+      "Art. 229.": "7c64df7eef50",
+      "Art. 230.": "a67d3cd69b76"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "A prostituição exercida por adulto, por conta própria, não é crime; o que se pune é explorá-la, mediá-la ou favorecê-la.",
+    "Desde a Lei 12.015/2009, o art. 229 fala em estabelecimento em que ocorra exploração sexual. A doutrina e parte da jurisprudência entendem que manter local de prostituição sem exploração, com adultos que atuam livremente, não basta para o crime.",
+    "Com vítima menor de 18 anos ou sem discernimento, o favorecimento da prostituição passa ao art. 218-B, hediondo e com pena de 7 a 16 anos.",
+    "O tráfico de pessoas para exploração sexual saiu do Título VI: os arts. 231 e 231-A foram revogados pela Lei 13.344/2016, e a conduta está hoje no art. 149-A.",
+    "O fim de lucro, nos arts. 227 e 228, acrescenta a multa; não muda a faixa da pena privativa de liberdade."
+   ],
+   "macetes": [
+    {
+     "sigla": "PROSTITUIR-SE NÃO É CRIME",
+     "texto": "O Código pune quem media (227), favorece (228), mantém o local (229) ou vive da prostituição alheia (230)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Manter casa de prostituição só é crime se houver intuito de lucro do proprietário.",
+    "gabarito": "E",
+    "explicacao": "O art. 229 dispensa o intuito de lucro e a mediação direta do proprietário ou gerente."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O tráfico internacional de pessoas para exploração sexual continua no art. 231 do Código Penal.",
+     "certo": "O art. 231 foi revogado pela Lei 13.344/2016; o tráfico de pessoas está no art. 149-A.",
+     "fonte": "Questão do app sobre o lenocínio"
+    },
+    {
+     "errado": "No rufianismo, só responde quem participa diretamente dos lucros da prostituição.",
+     "certo": "Também responde quem se faz sustentar, no todo ou em parte, por quem a exerce.",
+     "fonte": "Questão do app sobre o art. 230"
+    },
+    {
+     "errado": "O favorecimento da prostituição exige que o agente tenha levado a vítima a se prostituir.",
+     "certo": "Facilitar, impedir ou dificultar o abandono também configuram o crime (art. 228).",
+     "fonte": "Questão do app sobre o art. 228"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com o lenocínio (arts. 227 a 230), que antes não tinha tema próprio."
+    }
+   ],
+   "relacionados": [
+    "corrupcao-de-menores-e-exploracao-sexual-de-vulneravel",
+    "trafico-de-pessoas-e-migracao-ilegal",
+    "disposicoes-gerais-dos-crimes-sexuais"
+   ]
+  },
+  {
+   "slug": "ato-obsceno-e-escrito-obsceno",
+   "titulo": "Ato obsceno e escrito ou objeto obsceno",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Arts. 233 e 234 do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.ultraje-pudor"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-233",
+    "n2848-1940-art-234"
+   ],
+   "conceitos": [
+    "ato obsceno",
+    "lugar público, aberto ou exposto ao público",
+    "escrito ou objeto obsceno",
+    "ultraje público ao pudor",
+    "ato obsceno e importunação sexual"
+   ],
+   "palavras": [
+    "ato obsceno",
+    "lugar publico",
+    "aberto ou exposto ao publico",
+    "tres meses a um ano",
+    "multa",
+    "menor potencial ofensivo",
+    "escrito obsceno",
+    "objeto obsceno",
+    "fazer importar exportar",
+    "para fim de comercio",
+    "distribuicao",
+    "exposicao publica",
+    "seis meses a dois anos",
+    "representacao teatral",
+    "exibicao cinematografica",
+    "radio",
+    "recitacao",
+    "ultraje publico ao pudor",
+    "importunacao sexual",
+    "adequacao social"
+   ],
+   "resumo": "O capítulo do <strong>ultraje público ao pudor</strong> tem dois crimes. O <strong>ato obsceno</strong> (art. 233) é praticar ato obsceno em <strong>lugar público, ou aberto ou exposto ao público</strong>: detenção de 3 meses a 1 ano, ou multa. O ato não precisa ser dirigido a ninguém em especial; se é praticado contra alguém, sem anuência, para satisfazer a lascívia, o crime passa a ser a importunação sexual. O <strong>escrito ou objeto obsceno</strong> (art. 234) é fazer, importar, exportar, adquirir ou guardar, para comércio, distribuição ou exposição pública, escrito, desenho, pintura, estampa ou objeto obsceno, e também vendê-lo ou expô-lo, ou realizar em lugar público espetáculo, audição ou recitação obscena (detenção de 6 meses a 2 anos, ou multa). Os dois são infrações de menor potencial ofensivo.",
+   "esquema": {
+    "rotulo": "os dois crimes",
+    "html": "<table><thead><tr><th>Crime</th><th>Conduta</th><th>Onde</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Ato obsceno (233)</strong></td><td>Praticar ato obsceno</td><td>Lugar público, aberto ou exposto ao público</td><td>Detenção de 3 meses a 1 ano, ou multa</td></tr><tr><td><strong>Escrito ou objeto obsceno (234)</strong></td><td>Fazer, importar, exportar, adquirir ou guardar para comércio, distribuição ou exposição</td><td>Qualquer lugar, com fim de difusão</td><td>Detenção de 6 meses a 2 anos, ou multa</td></tr><tr><td><strong>Formas equiparadas (234, § 1º)</strong></td><td>Vender, distribuir ou expor; espetáculo, audição ou recitação obscena</td><td>Lugar público ou acessível ao público, ou pelo rádio</td><td>A mesma</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Ato obsceno ou outro crime",
+    "linhas": [
+     {
+      "nome": "Exibir as partes íntimas na praça, sem dirigir o ato a ninguém",
+      "o_que_e": "Ato obsceno (art. 233)."
+     },
+     {
+      "nome": "Masturbar-se encostado numa passageira, sem anuência",
+      "o_que_e": "Importunação sexual (art. 215-A).",
+      "atencao": "Ato dirigido contra alguém."
+     },
+     {
+      "nome": "Exibir-se diante de criança para se satisfazer",
+      "o_que_e": "Art. 218-A, se a criança é induzida a presenciar ato libidinoso.",
+      "atencao": "Norma especial e mais grave."
+     },
+     {
+      "nome": "Ato sexual dentro de casa, sem ninguém ver de fora",
+      "o_que_e": "Atípico.",
+      "atencao": "Lugar não exposto ao público."
+     }
+    ],
+    "colunas": [
+     "Caso",
+     "Crime",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 233.",
+      "Art. 234."
+     ],
+     "ref": "arts. 233 e 234 do CP",
+     "regras": [
+      "<strong>Art. 233.</strong> Praticar ato obsceno em lugar público, ou aberto ou exposto ao público: detenção de 3 meses a 1 ano, ou multa.",
+      "<strong>Art. 234.</strong> Fazer, importar, exportar, adquirir ou ter sob sua guarda, para fim de comércio, de distribuição ou de exposição pública, escrito, desenho, pintura, estampa ou qualquer objeto obsceno: detenção de 6 meses a 2 anos, ou multa. Mesma pena para quem vende, distribui ou expõe esses objetos, ou realiza, em lugar público ou acessível ao público, espetáculo de caráter obsceno, ou audição ou recitação obscena, inclusive pelo rádio."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Praticar ato obsceno em lugar público, ou aberto ou exposto ao público",
+       "marcas": [
+        "ou exposto ao público"
+       ],
+       "afirmacao": "O homem que, dentro do próprio apartamento, se exibe nu na janela aberta para a rua movimentada pode cometer ato obsceno.",
+       "gabarito": "C",
+       "porque": "O art. 233 alcança o lugar público e também o aberto ou exposto ao público, como a janela voltada para a rua."
+      },
+      {
+       "trecho": "Pena - detenção, de três meses a um ano, ou multa.",
+       "marcas": [
+        "detenção, de três meses a um ano"
+       ],
+       "afirmacao": "O ato obsceno é punido com reclusão de 1 a 5 anos, como a importunação sexual.",
+       "gabarito": "E",
+       "porque": "O ato obsceno tem pena de detenção de 3 meses a 1 ano, ou multa (art. 233). A reclusão de 1 a 5 anos é da importunação sexual (art. 215-A)."
+      },
+      {
+       "trecho": "para fim de comércio, de distribuição ou de exposição pública",
+       "marcas": [
+        "para fim de comércio"
+       ],
+       "afirmacao": "Ter em casa, só para uso próprio, revistas de conteúdo obsceno é o crime do art. 234.",
+       "gabarito": "E",
+       "porque": "O art. 234 exige o fim de comércio, distribuição ou exposição pública; guardar para uso próprio não é crime."
+      },
+      {
+       "trecho": "realiza, em lugar público ou acessível ao público, representação teatral, ou exibição cinematográfica de caráter obsceno",
+       "marcas": [
+        "exibição cinematográfica"
+       ],
+       "afirmacao": "Exibir filme de caráter obsceno num telão em praça pública está entre as condutas equiparadas do crime de escrito ou objeto obsceno.",
+       "gabarito": "C",
+       "porque": "Realizar, em lugar público ou acessível ao público, exibição cinematográfica de caráter obsceno é forma equiparada do art. 234 (§ 1º, II)."
+      }
+     ],
+     "conferido": {
+      "Art. 233.": "1811318943e3",
+      "Art. 234.": "c0f0c7eb9caf"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O conceito de obsceno varia com o tempo e o lugar; a doutrina aplica a adequação social a condutas toleradas pelo costume, como o nudismo em praia autorizada.",
+    "Os dois crimes são de menor potencial ofensivo e seguem o rito do Juizado Especial Criminal (Lei 9.099/1995).",
+    "Se a vítima de ato libidinoso é menor de 14 anos, a exibição pode ser o art. 218-A ou o estupro de vulnerável, crimes mais graves.",
+    "A importunação sexual exige ato contra alguém, sem anuência; o ato obsceno é contra a coletividade, e por isso não precisa de vítima determinada."
+   ],
+   "macetes": [
+    {
+     "sigla": "PÚBLICO OU EXPOSTO",
+     "texto": "Ato obsceno: lugar público, aberto ou exposto ao público. Dentro de casa, sem ninguém ver, é atípico."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O ato obsceno só se configura em lugar público, não alcançando o lugar privado exposto ao público.",
+    "gabarito": "E",
+    "explicacao": "O art. 233 alcança o lugar público e também o aberto ou exposto ao público."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Quem se masturba encostado numa passageira do metrô, sem anuência dela, comete ato obsceno.",
+     "certo": "O ato dirigido contra alguém, sem anuência, para satisfazer a lascívia, é importunação sexual (art. 215-A).",
+     "fonte": "Questão do app sobre o ato obsceno"
+    },
+    {
+     "errado": "Guardar objeto obsceno, para uso próprio, é crime do art. 234.",
+     "certo": "O tipo exige o fim de comércio, distribuição ou exposição pública.",
+     "fonte": "Questão do app sobre o art. 234"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com o ultraje público ao pudor (arts. 233 e 234)."
+    }
+   ],
+   "relacionados": [
+    "importunacao-sexual",
+    "corrupcao-de-menores-e-exploracao-sexual-de-vulneravel"
+   ]
+  },
+  {
+   "slug": "disposicoes-gerais-dos-crimes-sexuais",
+   "titulo": "Ação penal, aumentos de pena e segredo de justiça nos crimes sexuais",
+   "grupo": "Crimes contra a dignidade sexual",
+   "base": "Arts. 225, 226, 234-A e 234-B do CP",
+   "tax": [
+    "penal.crimes-contra-dignidade-sexual.disposicoes-gerais"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-225",
+    "n2848-1940-art-226",
+    "n2848-1940-art-234-a",
+    "n2848-1940-art-234-b"
+   ],
+   "conceitos": [
+    "ação penal nos crimes sexuais",
+    "aumento pelo concurso de pessoas",
+    "aumento pela relação de autoridade",
+    "estupro coletivo",
+    "estupro corretivo",
+    "aumento por gravidez",
+    "aumento por transmissão de doença",
+    "segredo de justiça",
+    "publicidade do nome do condenado",
+    "monitoramento eletrônico do condenado"
+   ],
+   "palavras": [
+    "acao penal publica incondicionada",
+    "capitulos i e ii",
+    "lei 13718",
+    "representacao",
+    "quarta parte",
+    "concurso de duas ou mais pessoas",
+    "metade",
+    "ascendente",
+    "padrasto",
+    "madrasta",
+    "tio",
+    "irmao",
+    "conjuge",
+    "companheiro",
+    "tutor",
+    "curador",
+    "preceptor",
+    "empregador",
+    "autoridade sobre a vitima",
+    "estupro coletivo",
+    "estupro corretivo",
+    "um terco a dois tercos",
+    "controlar o comportamento social ou sexual",
+    "gravidez",
+    "metade a dois tercos",
+    "doenca sexualmente transmissivel",
+    "idosa ou pessoa com deficiencia",
+    "segredo de justica",
+    "nome completo do reu",
+    "cpf",
+    "condenacao em primeira instancia",
+    "lei 15035",
+    "absolvido em grau recursal",
+    "monitorado por dispositivo eletronico"
+   ],
+   "resumo": "Nos crimes contra a liberdade sexual e nos crimes sexuais contra vulnerável (capítulos I e II), a <strong>ação penal é pública incondicionada</strong> (art. 225, na redação da Lei 13.718/2018). A pena aumenta (art. 226) de <strong>quarta parte</strong> com o concurso de duas ou mais pessoas; de <strong>metade</strong> se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor, empregador ou tem autoridade sobre a vítima; e de <strong>1/3 a 2/3</strong> no <strong>estupro coletivo</strong> e no <strong>estupro corretivo</strong>, praticado para controlar o comportamento social ou sexual da vítima. Em todo o título (art. 234-A), a pena sobe de metade a 2/3 se resulta gravidez, e de 1/3 a 2/3 se o agente transmite doença sexualmente transmissível que sabe ou deveria saber ter, ou se a vítima é idosa ou pessoa com deficiência. Os processos correm em <strong>segredo de justiça</strong> (art. 234-B), mas, desde a Lei 15.035/2024, o nome, o CPF e a tipificação do réu condenado em primeira instância por certos crimes ficam públicos, e o condenado passa a ser monitorado eletronicamente.",
+   "esquema": {
+    "rotulo": "aumentos de pena",
+    "html": "<table><thead><tr><th>Circunstância</th><th>Base</th><th>Aumento</th></tr></thead><tbody><tr><td><strong>Concurso de duas ou mais pessoas</strong></td><td>Art. 226, I</td><td>De quarta parte</td></tr><tr><td><strong>Agente ascendente, padrasto, madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor, empregador ou com autoridade sobre a vítima</strong></td><td>Art. 226, II</td><td>De metade</td></tr><tr><td><strong>Estupro coletivo (dois ou mais agentes) ou corretivo</strong></td><td>Art. 226, IV</td><td>De 1/3 a 2/3</td></tr><tr><td><strong>Resulta gravidez</strong></td><td>Art. 234-A, III</td><td>De metade a 2/3</td></tr><tr><td><strong>Transmissão de doença sexualmente transmissível; vítima idosa ou com deficiência</strong></td><td>Art. 234-A, IV</td><td>De 1/3 a 2/3</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Segredo de justiça e publicidade (art. 234-B)",
+    "linhas": [
+     {
+      "nome": "Regra",
+      "o_que_e": "Os processos dos crimes do título correm em segredo de justiça."
+     },
+     {
+      "nome": "Condenação em primeira instância",
+      "o_que_e": "Ficam públicos o nome completo, o CPF e a tipificação nos crimes dos arts. 213, 216-B, 217-A, 218-B, 227, 228, 229 e 230, com os dados da pena.",
+      "atencao": "O juiz pode manter o sigilo, de forma fundamentada."
+     },
+     {
+      "nome": "Absolvição em grau recursal",
+      "o_que_e": "O sigilo é restabelecido."
+     },
+     {
+      "nome": "Monitoramento",
+      "o_que_e": "O réu condenado passa a ser monitorado por dispositivo eletrônico.",
+      "atencao": "Lei 15.035/2024."
+     }
+    ],
+    "colunas": [
+     "Ponto",
+     "Regra",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 225.",
+      "Art. 226.",
+      "Art. 234-A.",
+      "Art. 234-B."
+     ],
+     "ref": "arts. 225, 226, 234-A e 234-B do CP",
+     "regras": [
+      "<strong>Art. 225.</strong> Nos crimes dos capítulos I e II do título (liberdade sexual e crimes sexuais contra vulnerável), a ação penal é pública incondicionada.",
+      "<strong>Art. 226.</strong> A pena aumenta: de quarta parte com o concurso de duas ou mais pessoas; de metade se o agente é ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima, ou tem autoridade sobre ela; de 1/3 a 2/3 no estupro coletivo (dois ou mais agentes) e no estupro corretivo (para controlar o comportamento social ou sexual da vítima).",
+      "<strong>Art. 234-A.</strong> Nos crimes do título, a pena aumenta de metade a 2/3 se resulta gravidez, e de 1/3 a 2/3 se o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador, ou se a vítima é idosa ou pessoa com deficiência.",
+      "<strong>Art. 234-B.</strong> Os processos correm em segredo de justiça. A partir da condenação em primeira instância nos crimes dos arts. 213, 216-B, 217-A, 218-B, 227, 228, 229 e 230, ficam públicos o nome completo, o CPF e a tipificação, com os dados da pena, salvo decisão fundamentada do juiz; o sigilo volta se houver absolvição em recurso. O réu condenado passa a ser monitorado por dispositivo eletrônico."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada.",
+       "marcas": [
+        "pública incondicionada"
+       ],
+       "afirmacao": "O estupro de mulher adulta, sem lesão grave, depende de representação da vítima.",
+       "gabarito": "E",
+       "porque": "Desde a Lei 13.718/2018, nos crimes contra a liberdade sexual e contra vulnerável, a ação é pública incondicionada (art. 225)."
+      },
+      {
+       "trecho": "b) para controlar o comportamento social ou sexual da vítima.",
+       "marcas": [
+        "controlar o comportamento social ou sexual"
+       ],
+       "afirmacao": "O estupro praticado para \"corrigir\" a orientação sexual da vítima tem a pena aumentada de um terço a dois terços.",
+       "gabarito": "C",
+       "porque": "O estupro corretivo, praticado para controlar o comportamento social ou sexual da vítima, aumenta a pena de 1/3 a 2/3 (art. 226, IV, b)."
+      },
+      {
+       "trecho": "III - de metade a 2/3 (dois terços), se do crime resulta gravidez",
+       "marcas": [
+        "de metade a 2/3"
+       ],
+       "afirmacao": "Se do estupro resulta gravidez, a pena aumenta de um sexto a um terço.",
+       "gabarito": "E",
+       "porque": "Se do crime resulta gravidez, a pena aumenta de metade a 2/3 (art. 234-A, III)."
+      },
+      {
+       "trecho": "O réu condenado passará a ser monitorado por dispositivo eletrônico.",
+       "marcas": [
+        "monitorado por dispositivo eletrônico"
+       ],
+       "afirmacao": "Pela Lei 15.035/2024, o réu condenado por crime contra a dignidade sexual passa a ser monitorado por dispositivo eletrônico.",
+       "gabarito": "C",
+       "porque": "O art. 234-B, § 3º, incluído pela Lei 15.035/2024, prevê o monitoramento eletrônico do réu condenado."
+      }
+     ],
+     "conferido": {
+      "Art. 225.": "c2a217edbf6a",
+      "Art. 226.": "cfb6b19bc15d",
+      "Art. 234-A.": "2df407166021",
+      "Art. 234-B.": "4b2859af9e43"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O art. 226, I (concurso de duas ou mais pessoas, quarta parte), e o art. 226, IV, a (estupro coletivo, 1/3 a 2/3), descrevem situações parecidas; para a doutrina, no estupro prevalece o aumento maior do estupro coletivo, e o inciso I segue para os demais crimes do título.",
+    "O aumento de metade do art. 226, II, alcança também quem, por qualquer título, tem autoridade sobre a vítima, como o padrasto de fato.",
+    "A publicidade do art. 234-B, § 1º, vale só para os crimes listados (arts. 213, 216-B, 217-A, 218-B, 227, 228, 229 e 230) e a partir da condenação em primeira instância.",
+    "A agravante da violência contra a mulher no ambiente doméstico (art. 61, II, f) pode ser aplicada junto com o aumento do art. 226, II, sem bis in idem; se só houver a relação de autoridade, incide apenas a causa de aumento (STJ, Tema 1.215).",
+    "A ação dos crimes do capítulo V (lenocínio) e do capítulo VI (ultraje ao pudor) é pública incondicionada pela regra geral do art. 100 do CP.",
+    "O art. 225 já foi de ação privada e, depois, de ação condicionada (Lei 12.015/2009). Questões antigas que pedem representação estão desatualizadas."
+   ],
+   "macetes": [
+    {
+     "sigla": "1/4, METADE, 1/3 A 2/3",
+     "texto": "Art. 226: concurso, quarta parte; parente ou autoridade, metade; estupro coletivo ou corretivo, 1/3 a 2/3."
+    },
+    {
+     "sigla": "GRAVIDEZ: METADE A 2/3",
+     "texto": "Art. 234-A: gravidez, metade a 2/3; doença, idosa ou pessoa com deficiência, 1/3 a 2/3."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Nos crimes contra a liberdade sexual, a ação penal é pública condicionada à representação, salvo se a vítima é menor de 18 anos ou vulnerável.",
+    "gabarito": "E",
+    "explicacao": "Desde a Lei 13.718/2018, a ação é sempre pública incondicionada nos capítulos I e II (art. 225)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "No estupro cometido pelo padrasto da vítima, a pena aumenta de um terço.",
+     "certo": "O aumento é de metade (art. 226, II).",
+     "fonte": "Questão do app sobre o art. 226"
+    },
+    {
+     "errado": "O estupro coletivo aumenta a pena de quarta parte.",
+     "certo": "O estupro coletivo aumenta de 1/3 a 2/3 (art. 226, IV, a).",
+     "fonte": "Questão do app sobre o art. 226"
+    },
+    {
+     "errado": "Os processos por crimes sexuais são públicos desde o início, para proteger a sociedade.",
+     "certo": "Correm em segredo de justiça; só depois da condenação em primeira instância, e para certos crimes, nome e CPF ficam públicos (art. 234-B).",
+     "fonte": "Questão do app sobre o art. 234-B"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-ES 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com a ação penal, os aumentos de pena e o segredo de justiça dos crimes sexuais (arts. 225, 226, 234-A e 234-B)."
+    }
+   ],
+   "relacionados": [
+    "estupro",
+    "estupro-de-vulneravel",
+    "acao-penal"
+   ]
   }
  ]
 }
