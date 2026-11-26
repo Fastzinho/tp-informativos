@@ -1,85 +1,75 @@
 {
- "nota": "Pares de temas parecidos já conhecidos. Os 10 de 20/11/2026 entraram como \"a avaliar\" na 1ª poda (fev/2027): decidir em cada um se fica (ângulos diferentes), se um enxuga e remete ao outro, ou se juntam. Gerado por ferramentas/sobreposicao.py --aceitar; tirar um par daqui o faz voltar a avisar no CI.",
+ "nota": "Pares de temas já avaliados e mantidos de propósito (ângulos diferentes). Gerado por ferramentas/sobreposicao.py --aceitar; tirar um par daqui o faz voltar a avisar.",
  "pares": [
   {
    "par": [
     "contabilidade-publica#demonstracao-das-variacoes-patrimoniais",
     "contabilidade-publica#realizacao-e-resultado-patrimonial"
    ],
-   "motivo": "5 palavras-chave em comum (26%)",
-   "situacao": "a avaliar"
+   "motivo": "5 palavras-chave em comum (26%)"
   },
   {
    "par": [
     "contabilidade-publica#demonstracao-dos-fluxos-de-caixa",
     "financas-publicas#fluxo-de-caixa-elaboracao-projecao-e-analise"
    ],
-   "motivo": "6 palavras-chave em comum (33%)",
-   "situacao": "a avaliar"
+   "motivo": "6 palavras-chave em comum (33%)"
+  },
+  {
+   "par": [
+    "direito-administrativo#controle-legislativo-e-tribunais-de-contas",
+    "direito-constitucional#fiscalizacao-e-tribunais-de-contas"
+   ],
+   "motivo": "23 palavras-chave em comum (26%)"
   },
   {
    "par": [
     "direito-civil#prescricao-e-decadencia-no-codigo-civil",
     "direito-tributario#prescricao-e-decadencia"
    ],
-   "motivo": "títulos parecidos (67% das palavras)",
-   "situacao": "a avaliar"
-  },
-  {
-   "par": [
-    "direito-constitucional#mandado-de-seguranca-injuncao-e-acao-popular",
-    "direito-processual-civil#mandado-de-seguranca-e-acao-popular"
-   ],
-   "motivo": "títulos parecidos (71% das palavras)",
-   "situacao": "a avaliar"
+   "motivo": "títulos parecidos (67% das palavras)"
   },
   {
    "par": [
     "economia#eficiencia-bens-publicos-e-falhas-de-mercado",
     "financas-publicas#funcoes-do-estado-falhas-de-mercado-e-bem-estar"
    ],
-   "motivo": "10 palavras-chave em comum (30%)",
-   "situacao": "a avaliar"
+   "motivo": "10 palavras-chave em comum (30%)"
   },
   {
    "par": [
     "economia#setor-publico-e-politicas-de-estabilizacao",
     "financas-publicas#instrumentos-das-politicas-fiscal-monetaria-e-regulatoria"
    ],
-   "motivo": "11 palavras-chave em comum (30%)",
-   "situacao": "a avaliar"
+   "motivo": "11 palavras-chave em comum (30%)"
   },
   {
    "par": [
     "financas-publicas#credito-publico-e-seus-limites",
     "financas-publicas#lrf-endividamento-e-transparencia"
    ],
-   "motivo": "8 palavras-chave em comum (38%)",
-   "situacao": "a avaliar"
+   "motivo": "8 palavras-chave em comum (38%)"
   },
   {
    "par": [
     "financas-publicas#valor-presente-liquido-e-taxa-interna-de-retorno",
     "matematica-financeira#avaliacao-economica-de-projetos"
    ],
-   "motivo": "8 palavras-chave em comum (38%)",
-   "situacao": "a avaliar"
+   "motivo": "8 palavras-chave em comum (38%)"
   },
   {
    "par": [
     "financas-publicas#valor-presente-valor-futuro-e-rendas-antecipadas-e-postecipadas",
     "matematica-financeira#rendas-uniformes-e-variaveis"
    ],
-   "motivo": "7 palavras-chave em comum (25%)",
-   "situacao": "a avaliar"
+   "motivo": "7 palavras-chave em comum (25%)"
   },
   {
    "par": [
     "tecnologia-da-informacao#ataques-a-aplicacoes-web",
     "tecnologia-da-informacao#owasp-top-10-e-praticas-de-codificacao-segura"
    ],
-   "motivo": "13 palavras-chave em comum (25%)",
-   "situacao": "a avaliar"
+   "motivo": "13 palavras-chave em comum (25%)"
   }
  ]
 }
