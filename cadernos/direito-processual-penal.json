@@ -7177,7 +7177,8 @@
    "grupo": "Sujeitos e incidentes",
    "base": "Arts. 268 a 276 e 278 a 281 do CPP",
    "tax": [
-    "processo-penal.sujeitos-processo.assistente-auxiliares"
+    "processo-penal.sujeitos-processo.assistente-auxiliares",
+    "processo-penal.conceito-objeto-classificacao-sistemas-avaliacao.peritos"
    ],
    "dispositivos": [
     "n3689-1941-art-268",
@@ -7496,7 +7497,7 @@
    "slug": "teoria-geral-da-prova-e-provas-ilicitas",
    "titulo": "Teoria geral da prova e provas ilícitas",
    "grupo": "Provas",
-   "base": "Arts. 155 a 158 do CPP e art. 5º, LVI, da Constituição",
+   "base": "Arts. 155 a 157 do CPP e art. 5º, LVI, da CF",
    "tax": [
     "processo-penal.provas",
     "processo-penal.provas-ilicitas",
@@ -7508,100 +7509,228 @@
    "dispositivos": [
     "n3689-1941-art-155",
     "n3689-1941-art-156",
-    "n3689-1941-art-157",
-    "n3689-1941-art-158",
-    "nCF-1988-art-5",
-    "n3689-1941-art-158-a"
+    "n3689-1941-art-157"
    ],
    "conceitos": [
+    "conceito e acepções de prova",
+    "objeto de prova",
+    "sistemas de valoração",
     "livre convencimento motivado",
-    "elementos informativos",
+    "elementos informativos e provas",
     "provas cautelares, não repetíveis e antecipadas",
     "ônus da prova",
-    "prova ilícita",
-    "prova ilícita por derivação",
+    "iniciativa probatória do juiz",
+    "provas ilícitas",
+    "provas derivadas",
     "fonte independente",
     "descoberta inevitável",
-    "encontro fortuito de provas"
+    "inutilização da prova ilícita",
+    "serendipidade",
+    "prova ilícita a favor do réu"
    ],
    "palavras": [
+    "prova",
+    "objeto de prova",
+    "fatos notorios",
+    "direito estrangeiro",
+    "direito municipal",
+    "costume",
+    "sistema da prova tarifada",
+    "intima conviccao",
     "livre convencimento motivado",
     "persuasao racional",
     "contraditorio judicial",
-    "elementos informativos do inquerito",
+    "elementos informativos",
     "exclusivamente",
-    "provas cautelares nao repetiveis antecipadas",
+    "provas cautelares",
+    "nao repetiveis",
+    "antecipadas",
+    "estado das pessoas",
+    "lei civil",
     "onus da prova",
-    "quem alega prova",
-    "juiz de oficio provas",
+    "a quem a fizer",
+    "alibi",
+    "de oficio",
+    "producao antecipada",
+    "proporcionalidade",
+    "diligencias",
+    "duvida",
     "provas ilicitas",
-    "desentranhamento",
-    "frutos da arvore envenenada",
+    "normas constitucionais ou legais",
+    "desentranhadas",
     "derivadas",
-    "nexo causal",
+    "arvore envenenada",
+    "fruto da arvore envenenada",
+    "nexo de causalidade",
     "fonte independente",
     "descoberta inevitavel",
+    "inutilizada",
+    "preclusa",
+    "par 5",
+    "adi 6298",
     "serendipidade",
     "encontro fortuito",
-    "prova atipica",
-    "provas nao previstas no cpp",
-    "confissao nao supre corpo de delito",
-    "crime que deixa vestigio",
-    "juiz que conheceu a prova ilicita"
+    "pro reo",
+    "prova plena",
+    "prova pessoal",
+    "prova real"
    ],
-   "resumo": "O juiz forma sua convicção pela <strong>livre apreciação</strong> da prova produzida em contraditório judicial e não pode condenar com base <strong>exclusivamente</strong> nos elementos do inquérito, ressalvadas as provas <strong>cautelares, não repetíveis e antecipadas</strong> (art. 155). Quem alega prova, mas o juiz pode, de ofício, produzir antecipadamente provas urgentes e determinar diligências para esclarecer dúvida (art. 156). As <strong>provas ilícitas</strong>, obtidas com violação de normas constitucionais ou legais, são inadmissíveis e desentranhadas, e as <strong>derivadas</strong> também, salvo se não houver nexo causal ou se puderem ser obtidas por <strong>fonte independente</strong> (art. 157). Provas não previstas em lei (atípicas) são admitidas se lícitas. Se o crime deixa vestígios, o <strong>exame de corpo de delito</strong> é indispensável e a confissão não o supre (art. 158). O STF derrubou o § 5º do art. 157, que impedia de sentenciar o juiz que tivesse tido contato com a prova ilícita.",
+   "resumo": "<strong>Prova</strong> é tudo o que leva ao juiz os fatos da causa. O CPP adota o <strong>livre convencimento motivado</strong>: o juiz aprecia livremente a prova feita em contraditório judicial, mas tem de fundamentar (art. 155 e art. 93, IX, da CF). Ele não pode condenar <strong>exclusivamente</strong> com base nos elementos do inquérito, salvo as provas <strong>cautelares, não repetíveis e antecipadas</strong>. Só sobre o estado das pessoas valem as restrições da lei civil, como provar casamento por certidão. A prova cabe <strong>a quem alega</strong>: a acusação prova o fato e a autoria, e a dúvida favorece o réu. O juiz pode, de ofício, ordenar provas urgentes antes da ação e diligências para tirar dúvida sobre ponto relevante (art. 156). São <strong>inadmissíveis</strong> as provas ilícitas, obtidas com violação de normas constitucionais ou legais, que devem ser desentranhadas (art. 157 e art. 5º, LVI, da CF). As <strong>derivadas</strong> também caem, salvo sem nexo de causalidade ou quando podiam ser obtidas por <strong>fonte independente</strong>. Preclusa a decisão de desentranhamento, a prova é inutilizada. O § 5º, que afastava o juiz que conheceu a prova ilícita, foi declarado inconstitucional pelo STF.",
    "esquema": {
-    "rotulo": "exceções à prova derivada",
-    "html": "<table><thead><tr><th>Teoria</th><th>Ideia</th><th>Base</th></tr></thead><tbody><tr><td><strong>Ausência de nexo causal</strong></td><td>A prova não decorreu da ilícita</td><td>Art. 157, § 1º</td></tr><tr><td><strong>Fonte independente</strong></td><td>Havia outro caminho lícito, efetivamente seguido</td><td>Art. 157, §§ 1º e 2º</td></tr><tr><td><strong>Descoberta inevitável</strong></td><td>A prova seria descoberta de qualquer forma pelos trâmites normais</td><td>Construção a partir do § 2º, aceita pelo STJ</td></tr><tr><td><strong>Encontro fortuito</strong></td><td>Prova de outro crime achada em diligência lícita</td><td>Jurisprudência do STF e do STJ</td></tr></tbody></table>"
+    "rotulo": "sistemas de valoração da prova",
+    "html": "<table><thead><tr><th>Sistema</th><th>Como o juiz decide</th><th>Onde aparece</th></tr></thead><tbody><tr><td><strong>Prova tarifada (legal)</strong></td><td>A lei fixa o valor de cada prova; a confissão era a rainha das provas</td><td>Resquício: estado das pessoas prova-se como na lei civil (art. 155, parágrafo único)</td></tr><tr><td><strong>Íntima convicção</strong></td><td>Decide sem fundamentar</td><td>Jurados no Tribunal do Júri</td></tr><tr><td><strong>Livre convencimento motivado</strong></td><td>Aprecia livremente, mas fundamenta com base nas provas dos autos</td><td>Regra do CPP (art. 155) e da CF (art. 93, IX)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Prova derivada da ilícita: quando cai e quando se salva",
+    "linhas": [
+     {
+      "nome": "Regra",
+      "o_que_e": "A prova derivada da ilícita também é inadmissível (fruto da árvore envenenada).",
+      "atencao": "Art. 157, § 1º."
+     },
+     {
+      "nome": "Sem nexo de causalidade",
+      "o_que_e": "Se não há ligação entre a ilícita e a outra prova, esta vale.",
+      "atencao": "Art. 157, § 1º."
+     },
+     {
+      "nome": "Fonte independente",
+      "o_que_e": "A prova vale se podia ser obtida por fonte autônoma, nos trâmites normais da investigação.",
+      "atencao": "O § 2º define fonte independente com palavras que a doutrina liga à descoberta inevitável."
+     },
+     {
+      "nome": "Encontro fortuito",
+      "o_que_e": "Prova de outro crime achada em diligência regular, sem desvio de finalidade, é válida.",
+      "atencao": "Serendipidade."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Consequência",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 155. O juiz formará sua convicção pela livre apreciação da prova produzida em contraditório judicial, não podendo fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas.\n\nParágrafo único. Somente quanto ao estado das pessoas serão observadas as restrições estabelecidas na lei civil.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 155.",
+      "Art. 156.",
+      "Art. 157."
+     ],
+     "ref": "arts. 155 a 157 do CPP",
+     "regras": [
+      "<strong>Art. 155.</strong> O juiz forma a convicção pela livre apreciação da prova produzida em contraditório judicial; não pode fundamentar a decisão exclusivamente nos elementos da investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas. Quanto ao estado das pessoas, valem as restrições da lei civil.",
+      "<strong>Art. 156.</strong> A prova incumbe a quem alega; o juiz pode, de ofício, ordenar antes da ação a produção antecipada de provas urgentes e relevantes (necessidade, adequação e proporcionalidade) e determinar diligências para dirimir dúvida sobre ponto relevante.",
+      "<strong>Art. 157.</strong> Provas ilícitas são inadmissíveis e desentranhadas. As derivadas também, salvo sem nexo causal ou com fonte independente. Preclusa a decisão, a prova é inutilizada. O § 5º foi declarado inconstitucional (ADIs 6.298, 6.299, 6.300 e 6.305)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "não podendo fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação",
+       "marcas": [
+        "exclusivamente"
+       ],
+       "afirmacao": "O juiz condena o réu citando só os depoimentos do inquérito, que nenhuma testemunha confirmou em juízo. A condenação está bem fundamentada.",
+       "gabarito": "E",
+       "porque": "O juiz não pode fundamentar a decisão exclusivamente nos elementos informativos da investigação (art. 155)."
+      },
+      {
+       "trecho": "ressalvadas as provas cautelares, não repetíveis e antecipadas",
+       "marcas": [
+        "não repetíveis"
+       ],
+       "afirmacao": "O laudo de lesões feito no inquérito, quando os ferimentos já sararam, pode fundamentar a condenação mesmo sem ser refeito em juízo.",
+       "gabarito": "C",
+       "porque": "O exame de lesões é prova não repetível e está entre as ressalvas do art. 155; o contraditório sobre ele é diferido."
+      },
+      {
+       "trecho": "Somente quanto ao estado das pessoas serão observadas as restrições estabelecidas na lei civil.",
+       "marcas": [
+        "estado das pessoas"
+       ],
+       "afirmacao": "Na bigamia, o primeiro casamento é provado pela certidão, e não basta o depoimento de testemunhas.",
+       "gabarito": "C",
+       "porque": "Quanto ao estado das pessoas, observam-se as restrições da lei civil (art. 155, parágrafo único)."
+      },
+      {
+       "trecho": "ordenar, mesmo antes de iniciada a ação penal, a produção antecipada de provas consideradas urgentes e relevantes",
+       "marcas": [
+        "mesmo antes de iniciada a ação penal"
+       ],
+       "afirmacao": "A única testemunha do crime tem doença terminal. Ainda no inquérito, o juiz pode ordenar de ofício que ela seja ouvida logo.",
+       "gabarito": "C",
+       "porque": "O juiz pode ordenar de ofício, antes da ação penal, a produção antecipada de provas urgentes e relevantes (art. 156, I)."
+      },
+      {
+       "trecho": "São inadmissíveis, devendo ser desentranhadas do processo, as provas ilícitas",
+       "marcas": [
+        "desentranhadas"
+       ],
+       "afirmacao": "Reconhecida a ilicitude de uma gravação, ela pode continuar nos autos, desde que o juiz não a use na sentença.",
+       "gabarito": "E",
+       "porque": "As provas ilícitas devem ser desentranhadas do processo (art. 157)."
+      },
+      {
+       "trecho": "salvo quando não evidenciado o nexo de causalidade entre umas e outras",
+       "marcas": [
+        "nexo de causalidade"
+       ],
+       "afirmacao": "A droga foi achada numa busca feita só por causa de uma confissão obtida sob tortura. Como a droga existe, a apreensão vale como prova.",
+       "gabarito": "E",
+       "porque": "A prova derivada da ilícita é inadmissível quando há nexo causal com ela, e aqui não havia fonte independente (art. 157, § 1º)."
+      },
+      {
+       "trecho": "seria capaz de conduzir ao fato objeto da prova",
+       "marcas": [
+        "seria capaz"
+       ],
+       "afirmacao": "Uma interceptação ilegal apontou o depósito de armas, mas uma investigação regular e já em curso chegaria a ele de qualquer modo. A apreensão das armas pode ser mantida.",
+       "gabarito": "C",
+       "porque": "Vale a prova que, pelos trâmites típicos da investigação, seria capaz de conduzir ao fato (art. 157, § 2º)."
+      },
+      {
+       "trecho": "esta será inutilizada por decisão judicial, facultado às partes acompanhar o incidente",
+       "marcas": [
+        "inutilizada"
+       ],
+       "afirmacao": "Preclusa a decisão que desentranhou a prova ilícita, ela é inutilizada por decisão judicial, e as partes podem acompanhar o ato.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 157, § 3º."
+      }
+     ],
+     "conferido": {
+      "Art. 155.": "affd0f85e2a5",
+      "Art. 156.": "498f7debe32c",
+      "Art. 157.": "8733c46e7321"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 156. A prova da alegação incumbirá a quem a fizer, sendo, porém, facultado ao juiz de ofício:\n\nI - ordenar, mesmo antes de iniciada a ação penal, a produção antecipada de provas consideradas urgentes e relevantes, observando a necessidade, adequação e proporcionalidade da medida;\n\nII - determinar, no curso da instrução, ou antes de proferir sentença, a realização de diligências para dirimir dúvida sobre ponto relevante.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 157. São inadmissíveis, devendo ser desentranhadas do processo, as provas ilícitas, assim entendidas as obtidas em violação a normas constitucionais ou legais.\n\n§ 1º São também inadmissíveis as provas derivadas das ilícitas, salvo quando não evidenciado o nexo de causalidade entre umas e outras, ou quando as derivadas puderem ser obtidas por uma fonte independente das primeiras.\n\n§ 2º Considera-se fonte independente aquela que por si só, seguindo os trâmites típicos e de praxe, próprios da investigação ou instrução criminal, seria capaz de conduzir ao fato objeto da prova.\n\n§ 3º Preclusa a decisão de desentranhamento da prova declarada inadmissível, esta será inutilizada por decisão judicial, facultado às partes acompanhar o incidente.\n\n(...)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 158. Quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado.\n\nParágrafo único. Dar-se-á prioridade à realização do exame de corpo de delito quando se tratar de crime que envolva:\n\nI - violência doméstica e familiar contra mulher;\n\nII - violência contra criança, adolescente, idoso ou pessoa com deficiência.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "SÓ INQUÉRITO NÃO CONDENA",
-     "texto": "Elementos informativos podem somar, mas não sustentar sozinhos a condenação. Salvo provas cautelares, não repetíveis e antecipadas."
-    },
-    {
-     "sigla": "ÁRVORE ENVENENADA, FRUTO ENVENENADO",
-     "texto": "A prova derivada da ilícita cai junto, a menos que não haja nexo ou exista fonte independente."
-    },
-    {
-     "sigla": "VESTÍGIO PEDE PERÍCIA",
-     "texto": "Crime que deixa vestígios exige exame de corpo de delito. Confissão não substitui."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
      "quem": "STF · ADIs 6.298, 6.299, 6.300 e 6.305 (2023)",
      "texto": "Declarado inconstitucional o § 5º do art. 157 do CPP, que impedia o juiz que conheceu o conteúdo da prova inadmissível de proferir a sentença."
+    }
+   ],
+   "detalhes": [
+    "Quanto ao valor, a prova é plena quando gera juízo de certeza e não plena quando gera só probabilidade. A não plena basta para medidas cautelares, mas não para condenar.",
+    "Quanto ao sujeito, a prova é pessoal quando vem de afirmação consciente de alguém, como o testemunho, e real quando emana da própria coisa, como o cadáver ou a arma.",
+    "Em regra o direito não é objeto de prova, mas a parte pode ter de provar teor e vigência de direito municipal, estadual, estrangeiro ou consuetudinário. Diferente do processo civil, o fato admitido pela defesa não dispensa prova.",
+    "Ônus da prova é encargo, não dever. Quem alega álibi deve trazer elementos, mas a falta de prova do álibi não basta para condenar.",
+    "A prova de outro crime achada por acaso numa interceptação ou busca regular vale mesmo sem conexão, se não houve desvio de finalidade (serendipidade), e serve como notícia do crime (FGV, Delegado PC-PR 2026).",
+    "A doutrina e os tribunais admitem a prova ilícita a favor do réu, para evitar a condenação de um inocente.",
+    "Provas atípicas, sem rito previsto em lei, são admitidas se forem lícitas (Cebraspe, Delegado PC-MA 2018).",
+    "Em contexto de crime organizado, com testemunhas silenciadas por facções, o testemunho indireto qualificado pode ter peso, sob controle judicial estrito e com contraditório (Cebraspe, Delegado PC-MA 2026)."
+   ],
+   "macetes": [
+    {
+     "sigla": "SÓ INQUÉRITO NÃO CONDENA",
+     "texto": "Elementos informativos podem somar, mas não sustentam sozinhos a condenação. Salvo provas cautelares, não repetíveis e antecipadas."
     },
     {
-     "quem": "STF · RE 1.116.949 (Tema 1.041)",
-     "texto": "Sem autorização judicial ou fora das hipóteses legais, é ilícita a prova obtida mediante abertura de carta, telegrama, pacote ou meio análogo."
+     "sigla": "ÁRVORE ENVENENADA, FRUTO ENVENENADO",
+     "texto": "A prova derivada da ilícita cai junto, a menos que não haja nexo ou exista fonte independente."
     }
    ],
    "pegadinha": {
@@ -7609,229 +7738,615 @@
     "gabarito": "E",
     "explicacao": "O art. 156, I, permite ao juiz, de ofício, ordenar a produção antecipada de provas urgentes e relevantes, observadas a necessidade, a adequação e a proporcionalidade (Cebraspe, Delegado PC-PE 2024)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-PE 2024 (art. 155 e a ressalva da fonte independente nas derivadas); Cebraspe, Delegado PC-MA 2018 (provas atípicas lícitas são admitidas; a confissão não supre a perícia; prova ilícita não sustenta condenação, nem com confissão); Cebraspe, Delegado PF 2021 (a confissão não dispensa o corpo de delito nos crimes não transeuntes).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>Quanto ao valor, a prova é plena quando gera juízo de certeza, e não plena quando gera só juízo de probabilidade, suficiente para medidas cautelares, mas não para a condenação.</p><p>Se as testemunhas não confirmam a autoria e só há a confissão, o juiz absolve por insuficiência de provas, porque a confissão é confrontada com as demais provas (art. 197; Cebraspe, Delegado PC-CE 2025). A prova de outro crime achada por acaso numa interceptação ou busca regular vale mesmo sem conexão, se não houve desvio de finalidade (serendipidade), e não depende de nova homologação para servir como notícia do crime (FGV, Delegado PC-PR 2026).</p><p>Com quebra incontroversa da cadeia de custódia, a prova não se torna automaticamente ilícita ou nula, mas perde credibilidade, e cabe à acusação demonstrar que a integridade do vestígio foi mantida (FGV, Defensor DPE-RJ 2026). Em contexto de criminalidade organizada, com testemunhas silenciadas por facções, o testemunho indireto qualificado pode ter peso probatório, sob controle judicial estrito e com contraditório; não é prova ilícita nem sempre inadmissível (Cebraspe, Delegado PC-MA 2026).</p><p>Em regra o direito não é objeto de prova, mas a parte pode ter de provar teor e vigência de direito municipal, estadual, estrangeiro ou consuetudinário. Ônus da prova é encargo, e não dever. Ao acusado que apresenta álibi cabe trazer elementos que o sustentem, mas a falta de prova do álibi não basta para condenar: a acusação continua obrigada a provar a autoria.</p><p><strong>Distinções</strong></p><p>No júri, os jurados decidem pela íntima convicção, sem fundamentar; no sistema da prova tarifada, a lei fixa o valor de cada prova, e a confissão era a rainha das provas. Quanto ao sujeito, a prova é pessoal quando decorre de afirmação consciente de alguém, como o testemunho, e real quando emana da própria coisa, como o cadáver ou a arma.</p><p><strong>Pegadinhas que já caíram</strong></p><p>Errado: o print de conversa de WhatsApp entregue pelo noticiante vale como documento se confirmado por quem o entregou, ou cabe à defesa entregar o celular para perícia. Certo: o STJ exige o arquivo digital original, para conferir a integridade e a cadeia de custódia (arts. 158-A e seguintes), e o delegado deve diligenciar para obtê-lo; não é caso de interceptação, porque a conversa veio de um dos interlocutores (FGV, Delegado PC-PR 2026).</p><p>Errado: o relatório feito com IA generativa, que \"achou\" ofensa no áudio que os laudos oficiais não acharam, serve para fundamentar decisão. Certo: para o STJ, não é prova apta, porque a IA trabalha com padrões estatísticos sujeitos a alucinação e a viés de confirmação (Cebraspe, Delegado PC-MA 2026).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O sistema da persuasão racional dispensa a fundamentação quando as provas dos autos forem convergentes.",
+     "certo": "O juiz sempre fundamenta (art. 155 do CPP e art. 93, IX, da CF).",
+     "fonte": "Questão do app sobre o art. 155"
+    },
+    {
+     "errado": "A prova não plena, que gera só juízo de probabilidade, basta para a condenação.",
+     "certo": "Basta para medidas cautelares; condenar exige certeza.",
+     "fonte": "Questão do app sobre valoração da prova"
+    },
+    {
+     "errado": "Como no processo civil, o fato admitido pela defesa dispensa prova no processo penal.",
+     "certo": "No processo penal, a confissão ou a admissão do fato não dispensa a prova da acusação.",
+     "fonte": "Questão do app sobre objeto de prova"
+    },
+    {
+     "errado": "O juiz que conheceu a prova declarada inadmissível fica impedido de sentenciar.",
+     "certo": "O § 5º do art. 157, que previa isso, foi declarado inconstitucional pelo STF.",
+     "fonte": "Questão do app sobre o art. 157"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-PE 2024; Delegado PC-MA 2026",
+    "FGV: Delegado PC-PR 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: a cadeia de custódia ficou no caderno de Medicina Legal, e as provas digitais e o celular ganharam tema próprio."
+    }
+   ],
    "relacionados": [
-    "interrogatorio-do-acusado",
-    "busca-domiciliar",
-    "reconhecimento-de-pessoas",
-    "nulidades"
+    "provas-digitais-e-celular",
+    "devido-processo-provas-ilicitas-e-prisao",
+    "busca-domiciliar"
    ]
   },
   {
    "slug": "interrogatorio-do-acusado",
    "titulo": "Interrogatório do acusado, direito ao silêncio e confissão",
    "grupo": "Provas",
-   "base": "Arts. 185 a 200 do CPP",
+   "base": "Arts. 185 a 196, 198 e 199 do CPP",
    "tax": [
-    "processo-penal.meios-prova",
-    "processo-penal.provas"
+    "processo-penal.meios-prova.interrogatorio",
+    "processo-penal.meios-prova.confissao"
    ],
    "dispositivos": [
     "n3689-1941-art-185",
     "n3689-1941-art-186",
     "n3689-1941-art-187",
     "n3689-1941-art-188",
+    "n3689-1941-art-189",
+    "n3689-1941-art-190",
     "n3689-1941-art-191",
+    "n3689-1941-art-192",
+    "n3689-1941-art-193",
+    "n3689-1941-art-195",
     "n3689-1941-art-196",
-    "n3689-1941-art-197",
     "n3689-1941-art-198",
-    "n3689-1941-art-200"
+    "n3689-1941-art-199"
    ],
    "conceitos": [
-    "interrogatório",
+    "interrogatório como meio de defesa",
+    "presença do defensor",
+    "interrogatório do réu preso",
+    "videoconferência",
+    "entrevista prévia e reservada",
     "direito ao silêncio",
-    "nemo tenetur se detegere",
-    "interrogatório por videoconferência",
+    "duas partes do interrogatório",
+    "perguntas das partes",
+    "interrogatório separado dos corréus",
+    "surdo, mudo e intérprete",
+    "novo interrogatório",
+    "interrogatório como último ato",
     "confissão",
+    "confissão fora do interrogatório",
     "condução coercitiva"
    ],
    "palavras": [
     "interrogatorio",
-    "meio de defesa",
-    "presenca do defensor",
-    "entrevista previa e reservada",
-    "direito ao silencio",
-    "silencio nao importa confissao",
-    "nemo tenetur",
-    "videoconferencia",
+    "qualificado e interrogado",
+    "presenca de seu defensor",
     "reu preso",
-    "intimacao 10 dias",
-    "duas partes pessoa e fatos",
-    "perguntas das partes",
-    "correus separadamente",
+    "sala propria",
+    "estabelecimento",
+    "videoconferencia",
+    "excepcionalmente",
+    "decisao fundamentada",
+    "organizacao criminosa",
+    "10 dias",
+    "dez dias de antecedencia",
+    "entrevista previa e reservada",
+    "filhos",
+    "permanecer calado",
+    "silencio",
+    "nao importara em confissao",
+    "prejuizo da defesa",
+    "duas partes",
+    "pessoa do acusado",
+    "fatos",
+    "vida pregressa",
+    "partes",
+    "esclarecido",
+    "negar a acusacao",
+    "confessar",
+    "separadamente",
+    "surdo",
+    "mudo",
+    "surdo mudo",
+    "interprete",
+    "lingua nacional",
+    "assinar",
     "novo interrogatorio",
-    "ultimo ato da instrucao",
-    "confissao divisivel e retratavel",
-    "confissao confrontada",
+    "a todo tempo",
+    "ultimo ato",
+    "hc 127900",
+    "confissao",
+    "divisivel",
+    "retratavel",
+    "termo nos autos",
     "conducao coercitiva",
+    "adpf 395",
     "adpf 444",
-    "interrogatorio policial sem advogado",
     "entrevista informal"
    ],
-   "resumo": "O interrogatório é <strong>meio de defesa</strong> e também de prova. No processo, é feito na presença do defensor, com direito a <strong>entrevista prévia e reservada</strong>, e é o último ato da instrução no procedimento comum. Antes das perguntas, o juiz informa o direito de <strong>permanecer calado</strong>, e o silêncio não importa confissão nem pode prejudicar a defesa. Tem duas partes, sobre a pessoa e sobre os fatos, e as partes podem pedir esclarecimentos ao final. Corréus são ouvidos separadamente, e o juiz pode fazer novo interrogatório a qualquer tempo. O réu preso pode ser ouvido por <strong>videoconferência</strong> só excepcionalmente, por decisão fundamentada e com intimação das partes 10 dias antes. A <strong>confissão</strong> vale como as demais provas, deve ser confrontada com elas e é <strong>divisível e retratável</strong>. O STF proibiu a <strong>condução coercitiva</strong> de investigados ou réus para interrogatório (ADPFs 395 e 444).",
+   "resumo": "O <strong>interrogatório</strong> é meio de defesa e de prova. O acusado é qualificado e interrogado <strong>na presença do defensor</strong>, com quem pode ter <strong>entrevista prévia e reservada</strong> (art. 185 e § 5º). O réu preso é ouvido, em regra, no presídio, em sala própria. A <strong>videoconferência</strong> é excepcional: exige decisão fundamentada e uma das finalidades da lei, como risco à segurança pública ou influência sobre testemunha, e as partes são intimadas com <strong>10 dias</strong> de antecedência. Antes de começar, o juiz informa o direito de <strong>permanecer calado</strong>. O silêncio não importa confissão e <strong>não pode ser interpretado contra a defesa</strong> (art. 186). O interrogatório tem duas partes, sobre a pessoa e sobre os fatos (art. 187). Ao final, as partes podem pedir esclarecimentos, e o juiz faz as perguntas que achar pertinentes (art. 188). Corréus são ouvidos <strong>separadamente</strong> (art. 191). Surdo, mudo e surdo-mudo respondem por escrito ou oralmente, conforme o caso, e quem não fala português é ouvido com intérprete. O juiz pode fazer <strong>novo interrogatório</strong> a todo tempo (art. 196). Desde 2008, o interrogatório é o <strong>último ato</strong> da instrução. A <strong>confissão</strong> é avaliada com as demais provas, é divisível e retratável (arts. 197 e 200, no caderno de Medicina Legal). Se feita fora do interrogatório, é tomada por termo (art. 199).",
    "esquema": {
-    "rotulo": "videoconferência do réu preso (art. 185, § 2º)",
-    "html": "<table><thead><tr><th>Finalidade</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Prevenir risco à segurança pública</strong></td><td>Suspeita de que integra organização criminosa ou de fuga no deslocamento</td></tr><tr><td><strong>Viabilizar a participação do réu</strong></td><td>Enfermidade ou dificuldade relevante de comparecer</td></tr><tr><td><strong>Impedir influência sobre testemunha ou vítima</strong></td><td>Quando não for possível ouvi-las por videoconferência</td></tr><tr><td><strong>Responder a gravíssima questão de ordem pública</strong></td><td>Situação excepcional fundamentada</td></tr></tbody></table>"
+    "rotulo": "videoconferência no interrogatório do réu preso",
+    "html": "<table><thead><tr><th>Ponto</th><th>Regra</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Natureza</strong></td><td>Excepcional, por decisão fundamentada, de ofício ou a pedido</td><td>185, § 2º</td></tr><tr><td><strong>Finalidades</strong></td><td>Segurança pública (facção ou risco de fuga), dificuldade de comparecimento, influência sobre testemunha ou vítima, gravíssima questão de ordem pública</td><td>185, § 2º, I a IV</td></tr><tr><td><strong>Intimação</strong></td><td>As partes são intimadas da decisão com 10 dias de antecedência</td><td>185, § 3º</td></tr><tr><td><strong>Garantias</strong></td><td>Acompanhar a audiência pelo sistema; entrevista reservada; canais telefônicos com o defensor</td><td>185, §§ 4º e 5º</td></tr><tr><td><strong>Fiscalização da sala</strong></td><td>Corregedores, juiz da causa, MP e OAB</td><td>185, § 6º</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 185. O acusado que comparecer perante a autoridade judiciária, no curso do processo penal, será qualificado e interrogado na presença de seu defensor, constituído ou nomeado.\n\n(...)\n\n§ 2º Excepcionalmente, o juiz, por decisão fundamentada, de ofício ou a requerimento das partes, poderá realizar o interrogatório do réu preso por sistema de videoconferência ou outro recurso tecnológico de transmissão de sons e imagens em tempo real, desde que a medida seja necessária para atender a uma das seguintes finalidades:\n\nI - prevenir risco à segurança pública, quando exista fundada suspeita de que o preso integre organização criminosa ou de que, por outra razão, possa fugir durante o deslocamento;\n\nII - viabilizar a participação do réu no referido ato processual, quando haja relevante dificuldade para seu comparecimento em juízo, por enfermidade ou outra circunstância pessoal;\n\nIII - impedir a influência do réu no ânimo de testemunha ou da vítima, desde que não seja possível colher o depoimento destas por videoconferência, nos termos do art. 217 deste Código;\n\nIV - responder à gravíssima questão de ordem pública.\n\n§ 3º Da decisão que determinar a realização de interrogatório por videoconferência, as partes serão intimadas com 10 (dez) dias de antecedência.\n\n(...)",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 185.",
+      "Art. 186.",
+      "Art. 187.",
+      "Art. 188.",
+      "Art. 189.",
+      "Art. 190.",
+      "Art. 191.",
+      "Art. 192.",
+      "Art. 193.",
+      "Art. 195.",
+      "Art. 196.",
+      "Art. 198.",
+      "Art. 199."
+     ],
+     "ref": "arts. 185 a 196, 198 e 199 do CPP",
+     "regras": [
+      "<strong>Art. 185.</strong> O acusado é qualificado e interrogado na presença do defensor; o preso, em regra, no estabelecimento; por videoconferência, excepcionalmente, nas hipóteses da lei, com intimação das partes 10 dias antes e entrevista reservada garantida. O termo registra filhos e responsável por eles.",
+      "<strong>Art. 186.</strong> Antes do interrogatório, o juiz informa o direito de permanecer calado; o silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+      "<strong>Arts. 187 a 190.</strong> Duas partes: pessoa e fatos. As partes podem pedir esclarecimentos ao final. Quem nega pode indicar provas; quem confessa é perguntado sobre motivos e coautores.",
+      "<strong>Arts. 191 a 193 e 195.</strong> Corréus são ouvidos separadamente; regras para surdo, mudo e surdo-mudo; intérprete para quem não fala a língua; registro de quem não sabe ou não quer assinar. O art. 194 foi revogado.",
+      "<strong>Art. 196.</strong> O juiz pode fazer novo interrogatório a todo tempo, de ofício ou a pedido fundamentado das partes.",
+      "<strong>Arts. 198 e 199.</strong> O silêncio não importa confissão; a parte final do art. 198, que o usa no convencimento do juiz, não é compatível com a CF. A confissão fora do interrogatório é tomada por termo."
+     ],
+     "literalidades": [
+      {
+       "trecho": "será qualificado e interrogado na presença de seu defensor, constituído ou nomeado",
+       "marcas": [
+        "na presença de seu defensor"
+       ],
+       "afirmacao": "O réu chega à audiência sem advogado. O juiz pode interrogá-lo assim mesmo e nomear defensor só para as alegações finais.",
+       "gabarito": "E",
+       "porque": "O interrogatório judicial é feito na presença do defensor, constituído ou nomeado (art. 185)."
+      },
+      {
+       "trecho": "Excepcionalmente, o juiz, por decisão fundamentada",
+       "marcas": [
+        "Excepcionalmente"
+       ],
+       "afirmacao": "Para economizar com escolta, o juiz passa a interrogar todos os réus presos por videoconferência, sem examinar caso a caso.",
+       "gabarito": "E",
+       "porque": "A videoconferência é excepcional e exige decisão fundamentada com uma das finalidades da lei (art. 185, § 2º)."
+      },
+      {
+       "trecho": "as partes serão intimadas com 10 (dez) dias de antecedência",
+       "marcas": [
+        "10 (dez) dias"
+       ],
+       "afirmacao": "Decidido o interrogatório por videoconferência, as partes são intimadas dessa decisão com 10 dias de antecedência.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 185, § 3º."
+      },
+      {
+       "trecho": "O silêncio, que não importará em confissão, não poderá ser interpretado em prejuízo da defesa.",
+       "marcas": [
+        "não poderá ser interpretado"
+       ],
+       "afirmacao": "Na sentença, o juiz diz que o réu, ao ficar calado no interrogatório, mostrou não ter explicação, e usa isso para reforçar a condenação.",
+       "gabarito": "E",
+       "porque": "O silêncio não pode ser interpretado em prejuízo da defesa (art. 186, parágrafo único, e art. 5º, LXIII, da CF)."
+      },
+      {
+       "trecho": "Havendo mais de um acusado, serão interrogados separadamente.",
+       "marcas": [
+        "separadamente"
+       ],
+       "afirmacao": "Três réus respondem ao mesmo processo. O juiz ouve cada um sem que os outros estejam presentes.",
+       "gabarito": "C",
+       "porque": "Havendo mais de um acusado, eles são interrogados separadamente (art. 191)."
+      },
+      {
+       "trecho": "ao surdo serão apresentadas por escrito as perguntas, que ele responderá oralmente",
+       "marcas": [
+        "responderá oralmente"
+       ],
+       "afirmacao": "No interrogatório do réu surdo, as perguntas são feitas oralmente e ele responde por escrito.",
+       "gabarito": "E",
+       "porque": "Ao surdo, as perguntas vão por escrito e ele responde oralmente; o inverso é o caso do mudo (art. 192, I e II)."
+      },
+      {
+       "trecho": "A todo tempo o juiz poderá proceder a novo interrogatório",
+       "marcas": [
+        "A todo tempo"
+       ],
+       "afirmacao": "Depois de ouvidas novas testemunhas, a defesa pede, com fundamento, que o réu seja interrogado de novo. O juiz pode deferir.",
+       "gabarito": "C",
+       "porque": "O juiz pode fazer novo interrogatório a todo tempo, de ofício ou a pedido fundamentado das partes (art. 196)."
+      },
+      {
+       "trecho": "será tomada por termo nos autos",
+       "marcas": [
+        "por termo"
+       ],
+       "afirmacao": "O réu procura o cartório e diz que quer confessar o crime. A confissão fora do interrogatório é tomada por termo nos autos.",
+       "gabarito": "C",
+       "porque": "A confissão feita fora do interrogatório é tomada por termo nos autos (art. 199)."
+      }
+     ],
+     "conferido": {
+      "Art. 185.": "d5d71023437c",
+      "Art. 186.": "5c966fe68b9d",
+      "Art. 187.": "9984444dc0a5",
+      "Art. 188.": "c608913ba671",
+      "Art. 189.": "3df53cf77a81",
+      "Art. 190.": "d1ca2bdc2939",
+      "Art. 191.": "e543a8294a64",
+      "Art. 192.": "06df4bbb0e7b",
+      "Art. 193.": "de75bbe9b97e",
+      "Art. 195.": "fcdf56e60f2b",
+      "Art. 196.": "1e996a466027",
+      "Art. 198.": "950d238ed121",
+      "Art. 199.": "3fd9e1a3a883"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 186. Depois de devidamente qualificado e cientificado do inteiro teor da acusação, o acusado será informado pelo juiz, antes de iniciar o interrogatório, do seu direito de permanecer calado e de não responder perguntas que lhe forem formuladas.\n\nParágrafo único. O silêncio, que não importará em confissão, não poderá ser interpretado em prejuízo da defesa.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 197. O valor da confissão se aferirá pelos critérios adotados para os outros elementos de prova, e para a sua apreciação o juiz deverá confrontá-la com as demais provas do processo, verificando se entre ela e estas existe compatibilidade ou concordância.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 200. A confissão será divisível e retratável, sem prejuízo do livre convencimento do juiz, fundado no exame das provas em conjunto.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STF · HC 127.900 (2016)",
+     "texto": "O interrogatório deve ser o último ato da instrução também nos procedimentos regidos por lei especial, como a Lei de Drogas e o processo penal militar."
+    },
+    {
+     "quem": "STF · ADPFs 395 e 444 (2018)",
+     "texto": "A condução coercitiva de investigados ou réus para interrogatório é incompatível com a Constituição, e a expressão \"para o interrogatório\" do art. 260 do CPP não foi recepcionada."
+    }
+   ],
+   "detalhes": [
+    "A parte final do art. 198 (o silêncio pode formar o convencimento do juiz) choca com o art. 186, parágrafo único, e com a CF. Prevalece que o silêncio não prejudica.",
+    "A confissão não tem valor absoluto e não supre o exame de corpo de delito nos crimes que deixam vestígios (art. 158; Cebraspe, Delegado PF 2021). Se as testemunhas não confirmam a autoria e só há confissão, o juiz pode absolver (Cebraspe, Delegado PC-CE 2025).",
+    "A ADPF 444 não alcança vítimas: o ofendido que, intimado, falta sem justo motivo pode ser conduzido (art. 201, § 1º) (Cebraspe, Delegado PC-AL 2023).",
+    "Para o STF, a entrevista informal conduzida pelo delegado durante a busca, sem as advertências do interrogatório, viola garantias dos presos (Cebraspe, Delegado PF 2021).",
+    "Quem já é investigado não pode ser ouvido como testemunha, com dever de dizer a verdade e sem aviso do direito ao silêncio. O depoimento é ilícito, e a busca feita a partir dele é ilícita por derivação (FGV, Delegado PC-PR 2026).",
+    "No inquérito, a presença de advogado não é condição de validade do interrogatório policial (Cebraspe, Delegado PC-AL 2023). Mas impedir o advogado que quer acompanhar o cliente é abuso de autoridade (Cebraspe, Delegado PF 2018)."
    ],
    "macetes": [
     {
      "sigla": "SILÊNCIO NÃO CONDENA",
-     "texto": "A parte final do art. 198, que deixa o silêncio formar o convencimento do juiz, choca com o art. 186, parágrafo único, e com a Constituição. Prevalece que o silêncio não prejudica."
+     "texto": "O silêncio não importa confissão e não pode ser usado contra o réu."
+    },
+    {
+     "sigla": "SURDO FALA, MUDO ESCREVE",
+     "texto": "Surdo recebe por escrito e responde oralmente; mudo ouve e responde por escrito; surdo-mudo, tudo por escrito."
     },
     {
      "sigla": "DIVISÍVEL E RETRATÁVEL",
      "texto": "O juiz pode aceitar parte da confissão, e o réu pode voltar atrás. Tudo é confrontado com as demais provas."
     }
    ],
-   "juris": [
-    {
-     "quem": "STF · ADPFs 395 e 444 (2018)",
-     "texto": "A condução coercitiva de investigados ou réus para interrogatório é incompatível com a Constituição, e a expressão \"para o interrogatório\" do art. 260 do CPP não foi recepcionada."
-    },
-    {
-     "quem": "STF · HC 127.900 (2016)",
-     "texto": "O interrogatório deve ser o último ato da instrução também nos procedimentos regidos por lei especial, como a Lei de Drogas e o processo penal militar."
-    }
-   ],
    "pegadinha": {
     "afirmacao": "É imprescindível a presença de defensor no interrogatório realizado em sede extrajudicial.",
     "gabarito": "E",
-    "explicacao": "No inquérito, o investigado deve ser informado de seus direitos, mas a presença de defensor não é condição de validade do interrogatório policial (Cebraspe, Delegado PC-AL 2023). Impedir o advogado que quer acompanhar o cliente, por outro lado, é abuso de autoridade (Cebraspe, Delegado PF 2018)."
+    "explicacao": "No inquérito, o investigado deve ser informado de seus direitos, mas a presença de defensor não é condição de validade do interrogatório policial (Cebraspe, Delegado PC-AL 2023)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Entrevista informal.</strong> Segundo o STF, a entrevista informalmente conduzida pelo delegado durante a busca domiciliar, sem as advertências do interrogatório, viola garantias dos presos (Cebraspe, Delegado PF 2021).</p><p><strong>Vítimas.</strong> Errado dizer que o STF declarou inconstitucional a condução coercitiva de vítimas no inquérito: as ADPFs 395 e 444 tratam de investigados e réus, e o art. 201, § 1º, permite conduzir o ofendido que não comparece sem justo motivo (Cebraspe, Delegado PC-AL 2023).</p><p><strong>Defensor no inquérito.</strong> Errado dizer que o advogado deve obrigatoriamente participar do interrogatório policial sob pena de nulidade absoluta (Cebraspe, Delegado PJC-MT 2017). Na PC-ES 2022, também errado dizer que o delegado pode interrogar sem advogado mesmo quando o indiciado diz que quer a presença dele.</p><p><strong>Suspeito ouvido como testemunha.</strong> Quem já é investigado não pode ser ouvido como testemunha, com dever de dizer a verdade e sem aviso do direito ao silêncio (art. 5º, LXIII, da CF). O depoimento assim colhido é ilícito, e a busca feita a partir dele é ilícita por derivação (art. 157, § 1º, do CPP). Está errado tratar esse depoimento como lícito, e também está errado dizer que a busca se salva por ter sido autorizada depois. A presença de advogado dativo não é requisito dessa oitiva; o vício está na falta de advertência (FGV, Delegado PC-PR 2026).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Embora não importe confissão, o silêncio do acusado pode ser interpretado em prejuízo da defesa.",
+     "certo": "Não pode (art. 186, parágrafo único, e art. 5º, LXIII, da CF).",
+     "fonte": "Questão do app sobre o art. 198"
+    },
+    {
+     "errado": "O valor da confissão é aferido por critérios superiores aos das demais provas.",
+     "certo": "É aferido pelos mesmos critérios, confrontado com as demais provas (art. 197).",
+     "fonte": "Questão do app sobre o art. 197"
+    },
+    {
+     "errado": "Advogado deve obrigatoriamente participar do interrogatório policial, sob pena de nulidade absoluta.",
+     "certo": "Não é condição de validade no inquérito.",
+     "fonte": "Cebraspe, Delegado PJC-MT 2017"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PJC-MT 2017; Delegado PF 2018 e 2021; Delegado PC-AL 2023; Delegado PC-CE 2025",
+    "FGV: Delegado PC-PR 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: arts. 197 e 200 (valor da confissão) ficam no caderno de Medicina Legal; entram os arts. 189 a 193, 195 e 199."
+    }
+   ],
    "relacionados": [
-    "teoria-geral-da-prova-e-provas-ilicitas",
     "prova-testemunhal",
-    "procedimento-comum"
+    "teoria-geral-da-prova-e-provas-ilicitas",
+    "testemunho-confissao-e-acareacao"
    ]
   },
   {
    "slug": "prova-testemunhal",
    "titulo": "Prova testemunhal e declarações do ofendido",
    "grupo": "Provas",
-   "base": "Arts. 201 a 225 do CPP",
+   "base": "Arts. 202 a 211 e 213 a 225 do CPP",
    "tax": [
-    "processo-penal.meios-prova"
+    "processo-penal.meios-prova.ofendido-testemunhas"
    ],
    "dispositivos": [
-    "n3689-1941-art-201",
     "n3689-1941-art-202",
     "n3689-1941-art-203",
     "n3689-1941-art-204",
+    "n3689-1941-art-205",
     "n3689-1941-art-206",
     "n3689-1941-art-207",
     "n3689-1941-art-208",
+    "n3689-1941-art-209",
     "n3689-1941-art-210",
-    "n3689-1941-art-212",
+    "n3689-1941-art-211",
+    "n3689-1941-art-213",
+    "n3689-1941-art-214",
+    "n3689-1941-art-215",
+    "n3689-1941-art-216",
     "n3689-1941-art-217",
+    "n3689-1941-art-218",
+    "n3689-1941-art-219",
+    "n3689-1941-art-220",
     "n3689-1941-art-221",
-    "n3689-1941-art-222"
+    "n3689-1941-art-222",
+    "n3689-1941-art-222-a",
+    "n3689-1941-art-223",
+    "n3689-1941-art-224",
+    "n3689-1941-art-225"
    ],
    "conceitos": [
-    "testemunha compromissada",
-    "informante",
-    "recusa de depor",
-    "proibição de depor",
-    "cross-examination",
-    "oitiva por videoconferência",
-    "depoimento de policiais"
+    "quem pode ser testemunha",
+    "compromisso de dizer a verdade",
+    "depoimento oral",
+    "recusa de parentes",
+    "proibição de depor por sigilo",
+    "testemunhas sem compromisso",
+    "testemunhas do juízo",
+    "incomunicabilidade",
+    "falso testemunho",
+    "contradita",
+    "videoconferência e retirada do réu",
+    "condução da testemunha faltosa",
+    "prerrogativas de autoridades",
+    "carta precatória e rogatória",
+    "depoimento antecipado",
+    "ofendido"
    ],
    "palavras": [
     "testemunha",
-    "toda pessoa pode ser testemunha",
-    "compromisso de dizer a verdade",
-    "informante",
-    "menores de 14 anos",
-    "doentes mentais",
-    "parentes podem recusar",
-    "conjuge ascendente descendente irmao",
-    "proibidos de depor",
-    "sigilo profissional",
-    "padre advogado medico",
-    "depoimento oral",
+    "toda pessoa",
+    "compromisso",
+    "palavra de honra",
+    "dizer a verdade",
+    "oralmente",
+    "por escrito",
     "apontamentos",
-    "perguntas diretas das partes",
-    "cross examination",
-    "juiz complementa",
-    "inversao da ordem nulidade relativa",
-    "retirada do reu da sala",
-    "videoconferencia testemunha",
-    "carta precatoria nao suspende",
-    "autoridades ajustam data",
-    "depoimento de policial",
-    "ofendido conduzido",
-    "falso testemunho"
+    "identidade",
+    "eximir se",
+    "recusar se",
+    "ascendente",
+    "descendente",
+    "afim em linha reta",
+    "conjuge",
+    "irmao",
+    "pai",
+    "mae",
+    "filho adotivo",
+    "salvo quando nao for possivel",
+    "proibidas de depor",
+    "segredo",
+    "funcao",
+    "ministerio",
+    "oficio",
+    "profissao",
+    "desobrigadas",
+    "menores de 14 anos",
+    "doentes e deficientes mentais",
+    "testemunhas do juizo",
+    "referidas",
+    "nada souber",
+    "de per si",
+    "incomunicabilidade",
+    "falso testemunho",
+    "apreciacoes pessoais",
+    "contraditar",
+    "contradita",
+    "suspeita de parcialidade",
+    "reduzido a termo",
+    "humilhacao",
+    "temor",
+    "videoconferencia",
+    "retirada do reu",
+    "conducao",
+    "multa",
+    "desobediencia",
+    "enfermidade",
+    "velhice",
+    "presidente da republica",
+    "local dia e hora",
+    "por escrito",
+    "militares",
+    "funcionarios publicos",
+    "carta precatoria",
+    "nao suspendera",
+    "carta rogatoria",
+    "imprescindibilidade",
+    "interprete",
+    "mudanca de residencia",
+    "um ano",
+    "depoimento antecipado",
+    "art 212",
+    "perguntas diretamente",
+    "policiais",
+    "ofendido",
+    "ouvir dizer"
    ],
-   "resumo": "<strong>Toda pessoa</strong> pode ser testemunha, e a testemunha não pode se eximir de depor. Podem se <strong>recusar</strong> o cônjuge, ascendente, descendente, irmão e afins em linha reta do acusado, salvo se não houver outro modo de obter a prova. São <strong>proibidos</strong> de depor os que devem guardar segredo por função ou profissão, salvo se desobrigados e quiserem. Não prestam <strong>compromisso</strong> os doentes mentais, os menores de 14 anos e os parentes do art. 206: são informantes. O depoimento é <strong>oral</strong>, admitida breve consulta a apontamentos, e as testemunhas são ouvidas separadamente. As partes perguntam <strong>diretamente</strong> à testemunha, e o juiz complementa ao final (art. 212). Se a presença do réu intimidar a testemunha, o juiz usa videoconferência ou, não sendo possível, retira o réu da sala, mantido o defensor. Autoridades do art. 221 ajustam dia, hora e local, e a carta precatória não suspende a instrução. O ofendido não é testemunha, não presta compromisso e pode ser conduzido se faltar sem motivo.",
+   "resumo": "<strong>Toda pessoa pode ser testemunha</strong> (art. 202). Ela promete dizer a verdade, se qualifica e explica como sabe dos fatos (art. 203). O depoimento é <strong>oral</strong>, com breve consulta a apontamentos (art. 204). A testemunha não pode se negar a depor, mas os <strong>parentes próximos do acusado podem recusar</strong>: ascendente, descendente, afim em linha reta, cônjuge, irmão, pai, mãe e filho adotivo. A recusa não vale se não houver outro modo de obter a prova (art. 206). Quem deve guardar <strong>segredo</strong> por função, ministério, ofício ou profissão é <strong>proibido de depor</strong>, salvo se desobrigado pela parte interessada e se quiser (art. 207). Não prestam compromisso os doentes e deficientes mentais, os <strong>menores de 14 anos</strong> e os parentes do art. 206 (art. 208). As testemunhas são ouvidas <strong>separadamente</strong> e advertidas das penas do falso testemunho (art. 210). As partes podem <strong>contraditar</strong> a testemunha antes do depoimento, mas o juiz só a exclui ou dispensa o compromisso nos casos dos arts. 207 e 208 (art. 214). Se a presença do réu intimidar a testemunha ou o ofendido, a inquirição é feita por <strong>videoconferência</strong>; só se isso for impossível, o réu é retirado, e o defensor fica (art. 217). A testemunha faltosa pode ser conduzida e multada (arts. 218 e 219). Certas autoridades ajustam local, dia e hora (art. 221). Quem mora fora da comarca é ouvido por <strong>carta precatória</strong>, que <strong>não suspende a instrução</strong> (art. 222). A carta rogatória exige prova de que é imprescindível (art. 222-A). As declarações do ofendido estão no art. 201, e a ordem das perguntas, no art. 212.",
    "esquema": {
-    "rotulo": "quem depõe e como",
-    "html": "<table><thead><tr><th>Pessoa</th><th>Situação</th></tr></thead><tbody><tr><td><strong>Cônjuge, ascendente, descendente, irmão do réu</strong></td><td>Pode recusar; se depõe, é informante (sem compromisso)</td></tr><tr><td><strong>Quem deve guardar segredo profissional</strong></td><td>Proibido, salvo se desobrigado e quiser depor</td></tr><tr><td><strong>Menor de 14 anos, doente mental</strong></td><td>Depõe sem compromisso</td></tr><tr><td><strong>Ofendido</strong></td><td>Não é testemunha; pode ser conduzido se faltar</td></tr></tbody></table>"
+    "rotulo": "quem não depõe, quem pode recusar e quem depõe sem compromisso",
+    "html": "<table><thead><tr><th>Situação</th><th>Quem</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Pode recusar-se</strong></td><td>Ascendente, descendente, afim em linha reta, cônjuge, irmão, pai, mãe e filho adotivo do acusado</td><td>Depõe se não houver outro modo de obter a prova (art. 206), sem compromisso (art. 208)</td></tr><tr><td><strong>Proibido de depor</strong></td><td>Quem deve guardar segredo por função, ministério, ofício ou profissão (padre, advogado, médico)</td><td>Só depõe se desobrigado pela parte interessada e se quiser (art. 207)</td></tr><tr><td><strong>Sem compromisso</strong></td><td>Doentes e deficientes mentais, menores de 14 anos e os parentes do art. 206</td><td>São ouvidos como informantes (art. 208)</td></tr><tr><td><strong>Prerrogativa de local, dia e hora</strong></td><td>Presidente, ministros, parlamentares, governadores, magistrados e outros do art. 221</td><td>Ajustam com o juiz; os chefes dos Poderes podem depor por escrito (art. 221, § 1º)</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 202. Toda pessoa poderá ser testemunha.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 202.",
+      "Art. 203.",
+      "Art. 204.",
+      "Art. 205.",
+      "Art. 206.",
+      "Art. 207.",
+      "Art. 208.",
+      "Art. 209.",
+      "Art. 210.",
+      "Art. 211.",
+      "Art. 213.",
+      "Art. 214.",
+      "Art. 215.",
+      "Art. 216.",
+      "Art. 217.",
+      "Art. 218.",
+      "Art. 219.",
+      "Art. 220.",
+      "Art. 221.",
+      "Art. 222.",
+      "Art. 222-A.",
+      "Art. 223.",
+      "Art. 224.",
+      "Art. 225."
+     ],
+     "ref": "arts. 202 a 211 e 213 a 225 do CPP",
+     "regras": [
+      "<strong>Arts. 202 a 205.</strong> Toda pessoa pode ser testemunha; promete dizer a verdade e se qualifica; depõe oralmente, com breve consulta a apontamentos; dúvida sobre a identidade não impede o depoimento imediato.",
+      "<strong>Arts. 206 a 208.</strong> Parentes próximos do acusado podem recusar-se, salvo sem outro modo de prova; quem guarda segredo profissional é proibido de depor, salvo se desobrigado e se quiser; não prestam compromisso os doentes e deficientes mentais, os menores de 14 anos e os parentes do art. 206.",
+      "<strong>Arts. 209 a 211.</strong> O juiz pode ouvir outras testemunhas e as referidas; não se conta quem nada sabe; inquirição separada, com espaços que garantam a incomunicabilidade; falso testemunho reconhecido na sentença gera remessa à polícia.",
+      "<strong>Arts. 213 a 216.</strong> Sem apreciações pessoais, salvo inseparáveis da narrativa; contradita antes do depoimento, com exclusão só nos casos dos arts. 207 e 208; redação fiel às expressões da testemunha; termo assinado.",
+      "<strong>Arts. 217 a 220.</strong> Réu que intimida: videoconferência e, se impossível, retirada do réu, com o defensor presente; testemunha faltosa pode ser conduzida, multada e processada por desobediência; enfermos e idosos são ouvidos onde estiverem.",
+      "<strong>Arts. 221 a 222-A.</strong> Autoridades ajustam local, dia e hora; chefes dos Poderes podem depor por escrito; militares são requisitados; precatória não suspende a instrução e admite videoconferência; rogatória só se imprescindível, com custos para quem pede.",
+      "<strong>Arts. 223 a 225.</strong> Intérprete para quem não fala a língua; testemunha comunica mudança de residência por um ano; depoimento antecipado de quem vai se ausentar ou pode morrer."
+     ],
+     "literalidades": [
+      {
+       "trecho": "não sendo permitido à testemunha trazê-lo por escrito",
+       "marcas": [
+        "por escrito"
+       ],
+       "afirmacao": "A testemunha chega com o depoimento digitado e pede para apenas lê-lo ao juiz.",
+       "gabarito": "E",
+       "porque": "O depoimento é oral e não pode ser trazido por escrito; só se admite breve consulta a apontamentos (art. 204)."
+      },
+      {
+       "trecho": "salvo quando não for possível, por outro modo, obter-se ou integrar-se a prova do fato e de suas circunstâncias",
+       "marcas": [
+        "salvo quando não for possível"
+       ],
+       "afirmacao": "A esposa do réu foi a única pessoa que viu o crime. Mesmo assim, ela pode se recusar a depor, e o juiz nada pode fazer.",
+       "gabarito": "E",
+       "porque": "O parente pode recusar-se, salvo quando não for possível obter a prova de outro modo (art. 206)."
+      },
+      {
+       "trecho": "salvo se, desobrigadas pela parte interessada, quiserem dar o seu testemunho",
+       "marcas": [
+        "desobrigadas pela parte interessada"
+       ],
+       "afirmacao": "O psicólogo do réu foi liberado do sigilo pelo próprio réu. Mesmo assim, ele não é obrigado a depor.",
+       "gabarito": "C",
+       "porque": "Quem guarda segredo profissional só depõe se desobrigado pela parte interessada e se quiser (art. 207)."
+      },
+      {
+       "trecho": "aos menores de 14 anos",
+       "marcas": [
+        "menores de 14 anos"
+       ],
+       "afirmacao": "O menino de 13 anos viu o roubo. Ele pode ser ouvido, mas sem prestar o compromisso de dizer a verdade.",
+       "gabarito": "C",
+       "porque": "Não se defere o compromisso aos menores de 14 anos (art. 208)."
+      },
+      {
+       "trecho": "mas só excluirá a testemunha ou não lhe deferirá compromisso nos casos previstos nos arts. 207 e 208",
+       "marcas": [
+        "só excluirá a testemunha"
+       ],
+       "afirmacao": "A defesa contradita a testemunha por ser amiga íntima da vítima. O juiz deve excluí-la do processo.",
+       "gabarito": "E",
+       "porque": "A contradita é consignada, mas a exclusão ou a dispensa do compromisso só ocorre nos casos dos arts. 207 e 208 (art. 214)."
+      },
+      {
+       "trecho": "fará a inquirição por videoconferência e, somente na impossibilidade dessa forma, determinará a retirada do réu",
+       "marcas": [
+        "somente na impossibilidade"
+       ],
+       "afirmacao": "A vítima de estupro se apavora diante do réu. Havendo videoconferência disponível, o juiz deve ouvi-la por esse meio antes de pensar em retirar o réu da sala.",
+       "gabarito": "C",
+       "porque": "Primeiro a videoconferência; a retirada do réu só ocorre se ela for impossível, e o defensor permanece (art. 217)."
+      },
+      {
+       "trecho": "A expedição da precatória não suspenderá a instrução criminal.",
+       "marcas": [
+        "não suspenderá"
+       ],
+       "afirmacao": "Expedida carta precatória para ouvir uma testemunha em outro estado, a instrução fica parada até a carta voltar.",
+       "gabarito": "E",
+       "porque": "A expedição da precatória não suspende a instrução (art. 222, § 1º)."
+      },
+      {
+       "trecho": "se demonstrada previamente a sua imprescindibilidade, arcando a parte requerente com os custos de envio",
+       "marcas": [
+        "imprescindibilidade"
+       ],
+       "afirmacao": "A defesa pede carta rogatória para ouvir testemunha que mora em Portugal. Ela deve demonstrar antes que o depoimento é imprescindível e pagar o envio.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 222-A."
+      }
+     ],
+     "conferido": {
+      "Art. 202.": "4e8a8c56f383",
+      "Art. 203.": "15932be95b58",
+      "Art. 204.": "bf032fdb90e3",
+      "Art. 205.": "925e2dc85428",
+      "Art. 206.": "f60230a719df",
+      "Art. 207.": "77659bb79412",
+      "Art. 208.": "3363138f33cb",
+      "Art. 209.": "191379a16855",
+      "Art. 210.": "ac1a6c8453ac",
+      "Art. 211.": "946ccdcb0952",
+      "Art. 213.": "1f9fa3e2507e",
+      "Art. 214.": "2dc8c374f282",
+      "Art. 215.": "fd23355b0e05",
+      "Art. 216.": "108961df0de2",
+      "Art. 217.": "15c89ed63f74",
+      "Art. 218.": "6878e8fe284c",
+      "Art. 219.": "6c501e0f2955",
+      "Art. 220.": "5615e8ff6154",
+      "Art. 221.": "308c7cbb4847",
+      "Art. 222.": "dfc3819ef8b5",
+      "Art. 222-A.": "315cb54fe9f6",
+      "Art. 223.": "6d494851d913",
+      "Art. 224.": "8a28dc83912b",
+      "Art. 225.": "b8e798db0616"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 206. A testemunha não poderá eximir-se da obrigação de depor. Poderão, entretanto, recusar-se a fazê-lo o ascendente ou descendente, o afim em linha reta, o cônjuge, ainda que desquitado, o irmão e o pai, a mãe, ou o filho adotivo do acusado, salvo quando não for possível, por outro modo, obter-se ou integrar-se a prova do fato e de suas circunstâncias.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 207. São proibidas de depor as pessoas que, em razão de função, ministério, ofício ou profissão, devam guardar segredo, salvo se, desobrigadas pela parte interessada, quiserem dar o seu testemunho.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 208. Não se deferirá o compromisso a que alude o art. 203 aos doentes e deficientes mentais e aos menores de 14 anos, nem às pessoas a que se refere o art. 206.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 212. As perguntas serão formuladas pelas partes diretamente à testemunha, não admitindo o juiz aquelas que puderem induzir a resposta, não tiverem relação com a causa ou importarem na repetição de outra já respondida.\n\nParágrafo único. Sobre os pontos não esclarecidos, o juiz poderá complementar a inquirição.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 217. Se o juiz verificar que a presença do réu poderá causar humilhação, temor, ou sério constrangimento à testemunha ou ao ofendido, de modo que prejudique a verdade do depoimento, fará a inquirição por videoconferência e, somente na impossibilidade dessa forma, determinará a retirada do réu, prosseguindo na inquirição, com a presença do seu defensor.\n\nParágrafo único. A adoção de qualquer das medidas previstas no caput deste artigo deverá constar do termo, assim como os motivos que a determinaram.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · jurisprudência consolidada",
+     "texto": "A inobservância da ordem de perguntas do art. 212 do CPP gera nulidade relativa, que depende de arguição oportuna e de prova do prejuízo."
+    },
+    {
+     "quem": "STJ · jurisprudência consolidada",
+     "texto": "O depoimento de policiais é válido e pode fundamentar a condenação quando coerente com as demais provas."
+    }
+   ],
+   "detalhes": [
+    "Desde 2008, as partes fazem as perguntas diretamente à testemunha, e o juiz só complementa sobre pontos não esclarecidos (art. 212, no caderno de Medicina Legal).",
+    "O ofendido não é testemunha: não presta compromisso e não comete falso testemunho. Se faltar sem justo motivo, pode ser conduzido (art. 201, § 1º).",
+    "Não se condena só com base no relato de policial sobre confissão informal do preso.",
+    "Lei estadual não pode dar a delegados a prerrogativa de ajustar dia, hora e local do depoimento: processo é competência privativa da União (art. 22, I, da CF) (Cebraspe, Delegado PJC-MT 2017).",
+    "A testemunha faltosa pode ser conduzida por oficial de justiça ou apresentada pela polícia, paga multa e as custas da diligência e responde por desobediência (arts. 218 e 219).",
+    "O depoimento antecipado (art. 225) é exemplo de prova antecipada, uma das ressalvas do art. 155."
    ],
    "macetes": [
     {
@@ -7839,98 +8354,201 @@
      "texto": "Parente pode recusar. Quem tem sigilo profissional é proibido de depor, salvo se liberado e se quiser."
     },
     {
-     "sigla": "PARTE PERGUNTA, JUIZ COMPLEMENTA",
-     "texto": "Desde 2008, as partes perguntam diretamente. O juiz só complementa sobre pontos não esclarecidos."
-    }
-   ],
-   "juris": [
+     "sigla": "VÍDEO ANTES, RETIRADA DEPOIS",
+     "texto": "Réu que intimida: primeiro videoconferência; só sem ela o réu sai, e o defensor fica."
+    },
     {
-     "quem": "STJ · jurisprudência consolidada",
-     "texto": "A inobservância da ordem de perguntas do art. 212 do CPP gera nulidade relativa, que depende de arguição oportuna e de prova do prejuízo."
+     "sigla": "PRECATÓRIA NÃO PARA O PROCESSO",
+     "texto": "Expedida a carta, a instrução segue; vencido o prazo, pode haver julgamento."
     }
    ],
    "pegadinha": {
     "afirmacao": "Lei estadual pode conferir aos delegados de polícia do estado a prerrogativa de ajustar com o juiz a data, a hora e o local em que serão ouvidos como testemunha, por se tratar de procedimento de âmbito estadual.",
     "gabarito": "E",
-    "explicacao": "A lei é inconstitucional: legislar sobre direito processual é competência privativa da União (art. 22, I) (Cebraspe, Delegado PJC-MT 2017)."
+    "explicacao": "A lei é inconstitucional: legislar sobre direito processual é competência privativa da União (art. 22, I, da CF) (Cebraspe, Delegado PJC-MT 2017)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Policiais.</strong> O depoimento de policiais é válido como prova e pode fundamentar condenação quando coerente com as demais provas, segundo o STF e o STJ. O que não se admite é condenar só com base no relato de policial sobre confissão informal.</p><p><strong>Ofendido.</strong> O ofendido que, intimado, não comparece sem motivo justo pode ser conduzido (art. 201, § 1º); a ADPF 444 não alcança vítimas (Cebraspe, Delegado PC-AL 2023).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Não se defere o compromisso de dizer a verdade aos menores de 18 anos.",
+     "certo": "O limite do art. 208 é 14 anos.",
+     "fonte": "Questão do app sobre o art. 208"
+    },
+    {
+     "errado": "Arguida a contradita, o juiz exclui a testemunha sempre que reconhecer que ela é suspeita de parcialidade.",
+     "certo": "Só exclui nos casos dos arts. 207 e 208 (art. 214).",
+     "fonte": "Questão do app sobre o art. 214"
+    },
+    {
+     "errado": "Se a presença do réu intimidar a vítima, o juiz deve retirá-lo da sala de imediato.",
+     "certo": "Primeiro tenta a videoconferência; a retirada é subsidiária (art. 217).",
+     "fonte": "Questão do app sobre o art. 217"
+    },
+    {
+     "errado": "A testemunha deve comunicar ao juiz qualquer mudança de residência pelo prazo de dois anos.",
+     "certo": "O prazo é de um ano (art. 224).",
+     "fonte": "Questão do app sobre o art. 224"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PJC-MT 2017"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: entram os arts. 205, 209, 211, 213 a 216, 218 a 220 e 222-A a 225; os arts. 201 e 212 ficam em outros cadernos e seguem citados."
+    }
+   ],
    "relacionados": [
     "interrogatorio-do-acusado",
     "reconhecimento-de-pessoas",
-    "procedimento-comum"
+    "testemunho-confissao-e-acareacao"
    ]
   },
   {
    "slug": "reconhecimento-de-pessoas",
-   "titulo": "Reconhecimento de pessoas e coisas: o procedimento do art. 226",
+   "titulo": "Reconhecimento de pessoas e coisas e acareação",
    "grupo": "Provas",
-   "base": "Arts. 226 a 228 do CPP",
+   "base": "Arts. 226 a 228 e 230 do CPP",
    "tax": [
-    "processo-penal.meios-prova",
+    "processo-penal.meios-prova.reconhecimento-acareacao",
     "processo-penal.entendimento-tribunais-superiores-acerca-institutos"
    ],
    "dispositivos": [
     "n3689-1941-art-226",
     "n3689-1941-art-227",
-    "n3689-1941-art-228"
+    "n3689-1941-art-228",
+    "n3689-1941-art-230"
    ],
    "conceitos": [
     "reconhecimento de pessoas",
+    "descrição prévia",
+    "alinhamento com pessoas semelhantes",
+    "proteção de quem reconhece",
+    "auto pormenorizado",
     "reconhecimento fotográfico",
-    "show-up",
-    "falsas memórias",
-    "garantia mínima do art. 226"
+    "reconhecimento de objeto",
+    "reconhecimento por várias pessoas",
+    "garantia mínima do suspeito",
+    "acareação",
+    "acareação por precatória"
    ],
    "palavras": [
-    "reconhecimento de pessoas",
-    "art 226",
-    "descrever previamente",
-    "colocar ao lado de pessoas semelhantes",
+    "reconhecimento",
+    "reconhecimento de pessoa",
+    "descrever",
+    "colocada ao lado",
+    "semelhanca",
+    "apontar",
+    "se possivel",
+    "intimidacao",
+    "nao veja",
     "auto pormenorizado",
     "duas testemunhas",
-    "reconhecimento fotografico",
-    "album de suspeitos",
+    "instrucao criminal",
+    "plenario",
+    "objeto",
+    "em separado",
+    "comunicacao",
+    "fotografico",
     "show up",
-    "mera recomendacao",
     "garantia minima",
     "hc 598886",
-    "falsas memorias",
-    "reconhecimento em juizo confirmacao",
-    "nulidade do reconhecimento",
-    "vitima conhecia o autor",
-    "resolucao 484 cnj",
-    "reconhecimento por videochamada",
-    "cada um em separado"
+    "rhc 206846",
+    "tema 1258",
+    "conhecimento previo",
+    "de vista",
+    "videochamada",
+    "acareacao",
+    "divergencia",
+    "testemunha ausente",
+    "precatoria"
    ],
-   "resumo": "O art. 226 manda que quem vai reconhecer primeiro <strong>descreva</strong> a pessoa, que o suspeito seja colocado, se possível, <strong>ao lado de outras parecidas</strong>, e que se lavre <strong>auto pormenorizado</strong> com duas testemunhas; havendo várias pessoas para reconhecer, cada uma faz a prova separadamente. Por muito tempo, os tribunais trataram essas regras como mera recomendação. Desde 2020, STJ e STF entendem que elas são <strong>garantia mínima</strong> do suspeito: o reconhecimento feito sem elas é inválido e não pode fundamentar condenação, nem se confirmado em juízo. O <strong>reconhecimento fotográfico</strong> serve apenas como etapa preliminar e deve seguir o mesmo rito. A mostra de um único suspeito (show-up) é especialmente sujeita a erro. A condenação pode se apoiar em outras provas independentes do reconhecimento viciado. Se a vítima já conhecia o autor, não há propriamente reconhecimento e o rito pode ser dispensado.",
+   "resumo": "O <strong>reconhecimento de pessoa</strong> segue um rito (art. 226). Primeiro, quem vai reconhecer <strong>descreve</strong> a pessoa. Depois, o suspeito é colocado, se possível, <strong>ao lado de outras parecidas</strong> com ele, e quem reconhece aponta. Se houver receio de intimidação, a autoridade faz com que o suspeito não veja quem o reconhece, cautela que <strong>não se aplica</strong> na instrução nem no plenário. Por fim, lavra-se <strong>auto pormenorizado</strong>, assinado pela autoridade, por quem reconheceu e por duas testemunhas. Para o STJ e o STF, esse rito é <strong>garantia mínima</strong> do suspeito: reconhecimento feito fora dele é inválido e não sustenta condenação, nem se confirmado em juízo. O reconhecimento fotográfico segue o mesmo rito. Objetos são reconhecidos com as mesmas cautelas, no que couber (art. 227). Se várias pessoas vão reconhecer, cada uma o faz <strong>em separado</strong> (art. 228). A <strong>acareação</strong> coloca frente a frente pessoas com versões divergentes (art. 229, no caderno de Medicina Legal). Se uma testemunha estiver ausente, a divergência é levada a ela por precatória, se isso não atrasar o processo e o juiz achar conveniente (art. 230).",
    "esquema": {
-    "rotulo": "como deve ser",
-    "html": "<table><thead><tr><th>Etapa</th><th>Exigência</th></tr></thead><tbody><tr><td><strong>1. Descrição</strong></td><td>Quem reconhece descreve antes a pessoa</td></tr><tr><td><strong>2. Alinhamento</strong></td><td>Suspeito ao lado de pessoas semelhantes</td></tr><tr><td><strong>3. Separação</strong></td><td>Vários reconhecedores, cada um em separado</td></tr><tr><td><strong>4. Registro</strong></td><td>Auto pormenorizado, assinado por duas testemunhas</td></tr><tr><td><strong>Fotografia</strong></td><td>Só etapa preliminar, com as mesmas cautelas</td></tr></tbody></table>"
+    "rotulo": "o rito do art. 226",
+    "html": "<table><thead><tr><th>Passo</th><th>O que se faz</th><th>Atenção</th></tr></thead><tbody><tr><td><strong>1. Descrição</strong></td><td>Quem reconhece descreve a pessoa antes de vê-la</td><td>Inciso I</td></tr><tr><td><strong>2. Alinhamento</strong></td><td>Suspeito ao lado de outras pessoas semelhantes, se possível</td><td>Inciso II; foto isolada ou show-up não atendem</td></tr><tr><td><strong>3. Proteção</strong></td><td>Se houver risco de intimidação, o suspeito não vê quem reconhece</td><td>Inciso III; não vale na instrução nem no plenário</td></tr><tr><td><strong>4. Auto</strong></td><td>Auto pormenorizado, com a autoridade, quem reconheceu e duas testemunhas</td><td>Inciso IV</td></tr></tbody></table>"
    },
    "lei": [
     {
-     "texto": "Art. 226. Quando houver necessidade de fazer-se o reconhecimento de pessoa, proceder-se-á pela seguinte forma:\n\nI - a pessoa que tiver de fazer o reconhecimento será convidada a descrever a pessoa que deva ser reconhecida;\n\nII - a pessoa, cujo reconhecimento se pretender, será colocada, se possível, ao lado de outras que com ela tiverem qualquer semelhança, convidando-se quem tiver de fazer o reconhecimento a apontá-la;\n\nIII - se houver razão para recear que a pessoa chamada para o reconhecimento, por efeito de intimidação ou outra influência, não diga a verdade em face da pessoa que deve ser reconhecida, a autoridade providenciará para que esta não veja aquela;\n\nIV - do ato de reconhecimento lavrar-se-á auto pormenorizado, subscrito pela autoridade, pela pessoa chamada para proceder ao reconhecimento e por duas testemunhas presenciais.\n\nParágrafo único. O disposto no n. III deste artigo não terá aplicação na fase da instrução criminal ou em plenário de julgamento.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 226.",
+      "Art. 227.",
+      "Art. 228.",
+      "Art. 230."
+     ],
+     "ref": "arts. 226 a 228 e 230 do CPP",
+     "regras": [
+      "<strong>Art. 226.</strong> Reconhecimento de pessoa: descrição prévia, alinhamento com pessoas semelhantes se possível, proteção de quem reconhece contra intimidação (não na instrução nem no plenário) e auto pormenorizado com duas testemunhas.",
+      "<strong>Art. 227.</strong> No reconhecimento de objeto, aplicam-se as mesmas cautelas, no que couber.",
+      "<strong>Art. 228.</strong> Várias pessoas fazem o reconhecimento em separado, sem comunicação entre elas.",
+      "<strong>Art. 230.</strong> Testemunha ausente com versão divergente: os pontos são levados a ela por precatória, se não houver demora prejudicial e o juiz entender conveniente."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a pessoa que tiver de fazer o reconhecimento será convidada a descrever a pessoa que deva ser reconhecida",
+       "marcas": [
+        "descrever"
+       ],
+       "afirmacao": "Na delegacia, mostram à vítima o suspeito sozinho e perguntam se foi ele. Ela confirma, sem ter descrito o assaltante antes.",
+       "gabarito": "E",
+       "porque": "O reconhecimento começa com a descrição da pessoa (art. 226, I), e o suspeito deve ser colocado ao lado de outras semelhantes (inciso II)."
+      },
+      {
+       "trecho": "será colocada, se possível, ao lado de outras que com ela tiverem qualquer semelhança",
+       "marcas": [
+        "se possível"
+       ],
+       "afirmacao": "O suspeito é colocado numa fila com quatro homens de altura, idade e cor de pele parecidas, e a vítima aponta um deles.",
+       "gabarito": "C",
+       "porque": "É o alinhamento do art. 226, II."
+      },
+      {
+       "trecho": "O disposto no n. III deste artigo não terá aplicação na fase da instrução criminal ou em plenário de julgamento.",
+       "marcas": [
+        "não terá aplicação"
+       ],
+       "afirmacao": "Em plenário do júri, a testemunha teme o réu, e o juiz faz o reconhecimento de modo que o réu não a veja, como permite o art. 226, III.",
+       "gabarito": "E",
+       "porque": "A proteção do inciso III não se aplica na instrução nem no plenário (art. 226, parágrafo único)."
+      },
+      {
+       "trecho": "subscrito pela autoridade, pela pessoa chamada para proceder ao reconhecimento e por duas testemunhas presenciais",
+       "marcas": [
+        "duas testemunhas presenciais"
+       ],
+       "afirmacao": "Feito o reconhecimento, lavra-se auto pormenorizado, assinado pela autoridade, por quem reconheceu e por duas testemunhas que presenciaram o ato.",
+       "gabarito": "C",
+       "porque": "É o art. 226, IV."
+      },
+      {
+       "trecho": "cada uma fará a prova em separado, evitando-se qualquer comunicação entre elas",
+       "marcas": [
+        "em separado"
+       ],
+       "afirmacao": "Três vítimas do mesmo roubo são levadas juntas para reconhecer o suspeito, para que uma ajude a memória da outra.",
+       "gabarito": "E",
+       "porque": "Cada pessoa faz o reconhecimento em separado, sem comunicação com as demais (art. 228)."
+      },
+      {
+       "trecho": "Esta diligência só se realizará quando não importe demora prejudicial ao processo e o juiz a entenda conveniente.",
+       "marcas": [
+        "demora prejudicial"
+       ],
+       "afirmacao": "A acareação por precatória com a testemunha que mora em outro estado é feita sempre que as versões divergirem, ainda que atrase o processo.",
+       "gabarito": "E",
+       "porque": "Só se faz quando não importe demora prejudicial e o juiz a entenda conveniente (art. 230)."
+      }
+     ],
+     "conferido": {
+      "Art. 226.": "28d57665f314",
+      "Art. 227.": "0a8fd2560bb0",
+      "Art. 228.": "2299bba36def",
+      "Art. 230.": "7f83e365a6a5"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 228. Se várias forem as pessoas chamadas a efetuar o reconhecimento de pessoa ou de objeto, cada uma fará a prova em separado, evitando-se qualquer comunicação entre elas.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "DESCREVE, ALINHA, REGISTRA",
-     "texto": "As três exigências centrais do art. 226. Faltou uma, o reconhecimento não serve para condenar sozinho."
-    },
-    {
-     "sigla": "JUÍZO NÃO SANEIA",
-     "texto": "Confirmar em juízo um reconhecimento viciado não cura o vício, porque a memória já foi contaminada."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -7943,38 +8561,325 @@
      "texto": "A inobservância do procedimento do art. 226 torna inválido o reconhecimento, que não pode fundamentar condenação nem decisões como o recebimento da denúncia; o reconhecimento fotográfico deve observar o mesmo rito."
     }
    ],
+   "detalhes": [
+    "É desnecessário o procedimento se a vítima já conhecia o autor e consegue individualizá-lo (Cebraspe, Delegado PC-AL 2023).",
+    "A dispensa por conhecimento prévio (STJ, Tema 1.258) exige familiaridade real. Policial que só conhecia o réu de vista, pelo apelido e por comentários, não se enquadra (FGV, Defensor DPE-RJ 2026).",
+    "Não é proibido o reconhecimento por videochamada do investigado preso que concorda com o ato (Cebraspe, Delegado PC-ES 2022).",
+    "Confirmar em juízo um reconhecimento viciado não cura o vício, porque a memória já foi contaminada."
+   ],
+   "macetes": [
+    {
+     "sigla": "DESCREVE, ALINHA, REGISTRA",
+     "texto": "As três exigências centrais do art. 226. Faltou uma, o reconhecimento não serve para condenar sozinho."
+    },
+    {
+     "sigla": "JUÍZO NÃO SANEIA",
+     "texto": "Confirmar em juízo um reconhecimento viciado não cura o vício."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "O procedimento previsto no art. 226 do CPP para o reconhecimento de pessoas é mera recomendação legal, de modo que sua inobservância não invalida o reconhecimento confirmado em juízo.",
     "gabarito": "E",
     "explicacao": "Desde o HC 598.886 do STJ (2020) e o RHC 206.846 do STF (2022), o art. 226 é garantia mínima, e o reconhecimento irregular não fundamenta condenação."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Vítima que conhece o autor.</strong> É desnecessário submeter a vítima ao procedimento de reconhecimento se ela é capaz de individualizar o agente, que já conhecia (Cebraspe, Delegado PC-AL 2023).</p><p><strong>Videochamada.</strong> Errado dizer que é proibido o reconhecimento por videochamada do investigado preso que concorda com o ato (Cebraspe, Delegado PC-ES 2022).</p><p><strong>\"Conhecer de vista\" não dispensa o art. 226.</strong> A dispensa do procedimento por conhecimento prévio (STJ, Tema 1.258, tese 3.6) exige familiaridade real e vínculo sólido entre quem reconhece e o acusado. Policial que só conhecia o réu \"de vista, pelo vulgo e por comentários\" e pelos antecedentes, sem nunca ter tido contato com ele, não se enquadra na exceção, e o apontamento é insuficiente para a autoria (FGV, Defensor DPE-RJ 2026).</p>",
+   "pegadinhas": [
+    {
+     "errado": "É proibido o reconhecimento por videochamada do investigado preso, ainda que ele concorde.",
+     "certo": "Não há essa proibição.",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    },
+    {
+     "errado": "O reconhecimento fotográfico dispensa as cautelas do art. 226.",
+     "certo": "Deve seguir o mesmo rito (STF, RHC 206.846).",
+     "fonte": "Questão do app sobre o art. 226"
+    },
+    {
+     "errado": "O policial que conhecia o réu de vista pode reconhecê-lo sem o procedimento do art. 226.",
+     "certo": "A dispensa exige familiaridade real com o acusado.",
+     "fonte": "FGV, Defensor DPE-RJ 2026"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-ES 2022; Delegado PC-AL 2023",
+    "FGV: Defensor DPE-RJ 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: inclui a acareação por precatória (art. 230); a acareação presencial (art. 229) fica no caderno de Medicina Legal."
+    }
+   ],
    "relacionados": [
     "prova-testemunhal",
     "teoria-geral-da-prova-e-provas-ilicitas",
-    "nulidades"
+    "testemunho-confissao-e-acareacao"
+   ]
+  },
+  {
+   "slug": "prova-documental-e-indicios",
+   "titulo": "Prova documental e indícios",
+   "grupo": "Provas",
+   "base": "Arts. 231 a 239 do CPP",
+   "tax": [
+    "processo-penal.meios-prova.documentos-indicios"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-231",
+    "n3689-1941-art-232",
+    "n3689-1941-art-233",
+    "n3689-1941-art-234",
+    "n3689-1941-art-235",
+    "n3689-1941-art-236",
+    "n3689-1941-art-237",
+    "n3689-1941-art-238",
+    "n3689-1941-art-239"
+   ],
+   "conceitos": [
+    "momento de juntar documentos",
+    "conceito de documento",
+    "fotografia autenticada",
+    "cartas interceptadas ou obtidas por crime",
+    "carta exibida pelo destinatário",
+    "juntada de ofício",
+    "exame de letra e firma",
+    "documento em língua estrangeira",
+    "pública-forma",
+    "devolução de originais",
+    "indício",
+    "prova indiciária"
+   ],
+   "palavras": [
+    "documentos",
+    "qualquer fase do processo",
+    "salvo os casos expressos em lei",
+    "escritos",
+    "instrumentos",
+    "papeis",
+    "publicos ou particulares",
+    "fotografia",
+    "autenticada",
+    "mesmo valor do original",
+    "cartas particulares",
+    "interceptadas",
+    "meios criminosos",
+    "destinatario",
+    "defesa de seu direito",
+    "consentimento do signatario",
+    "noticia",
+    "independentemente de requerimento",
+    "letra e firma",
+    "exame pericial",
+    "contestada",
+    "autenticidade",
+    "lingua estrangeira",
+    "juntada imediata",
+    "tradutor publico",
+    "pessoa idonea",
+    "publicas formas",
+    "conferidas com o original",
+    "processo findo",
+    "traslado",
+    "ouvido o ministerio publico",
+    "indicio",
+    "circunstancia conhecida e provada",
+    "inducao",
+    "carta psicografada",
+    "tema 1041",
+    "correspondencia",
+    "print",
+    "whatsapp"
+   ],
+   "resumo": "Salvo os casos expressos em lei, as partes podem apresentar <strong>documentos em qualquer fase</strong> do processo (art. 231). Uma exceção conhecida é o júri: documento não juntado com 3 dias úteis de antecedência não pode ser lido em plenário (art. 479). <strong>Documento</strong> é qualquer escrito, instrumento ou papel, público ou particular, e a <strong>fotografia autenticada</strong> vale como o original (art. 232). <strong>Cartas particulares interceptadas ou obtidas por meios criminosos</strong> não são admitidas, mas o <strong>destinatário</strong> pode exibir a carta para defender seu direito, mesmo sem consentimento de quem a escreveu (art. 233). Sabendo de documento relevante, o juiz o junta <strong>de ofício</strong>, se possível (art. 234). Letra e firma de documento particular só vão a perícia <strong>quando a autenticidade é contestada</strong> (art. 235). Documento em língua estrangeira é juntado <strong>de imediato</strong> e traduzido se necessário (art. 236). Pública-forma só vale conferida com o original diante da autoridade (art. 237). Findo o processo, os originais podem ser devolvidos a quem os juntou, a pedido e ouvido o MP, ficando cópia nos autos (art. 238). <strong>Indício</strong> é a circunstância <strong>conhecida e provada</strong> que, ligada ao fato, permite concluir, por <strong>indução</strong>, a existência de outra circunstância (art. 239).",
+   "esquema": {
+    "rotulo": "regras de cada tipo de documento",
+    "html": "<table><thead><tr><th>Documento</th><th>Regra</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Qualquer documento</strong></td><td>Juntado em qualquer fase, salvo exceção legal (ex.: júri, art. 479)</td><td>231</td></tr><tr><td><strong>Fotografia autenticada</strong></td><td>Mesmo valor do original</td><td>232, parágrafo único</td></tr><tr><td><strong>Carta interceptada ou obtida por crime</strong></td><td>Inadmissível; o destinatário pode exibi-la em defesa de seu direito</td><td>233</td></tr><tr><td><strong>Documento particular contestado</strong></td><td>Letra e firma vão a exame pericial</td><td>235</td></tr><tr><td><strong>Documento em língua estrangeira</strong></td><td>Juntada imediata; tradução por tradutor público, se necessário</td><td>236</td></tr><tr><td><strong>Pública-forma</strong></td><td>Só vale conferida com o original perante a autoridade</td><td>237</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 231.",
+      "Art. 232.",
+      "Art. 233.",
+      "Art. 234.",
+      "Art. 235.",
+      "Art. 236.",
+      "Art. 237.",
+      "Art. 238.",
+      "Art. 239."
+     ],
+     "ref": "arts. 231 a 239 do CPP",
+     "regras": [
+      "<strong>Arts. 231 e 232.</strong> Documentos podem ser apresentados em qualquer fase, salvo casos expressos em lei; documento é qualquer escrito, instrumento ou papel, público ou particular; fotografia autenticada vale como o original.",
+      "<strong>Art. 233.</strong> Cartas particulares interceptadas ou obtidas por meios criminosos não são admitidas; o destinatário pode exibi-las para a defesa de seu direito, ainda sem consentimento do signatário.",
+      "<strong>Art. 234.</strong> Sabendo de documento relevante, o juiz providencia a juntada independentemente de requerimento, se possível.",
+      "<strong>Arts. 235 a 237.</strong> Letra e firma de documento particular vão a perícia quando contestada a autenticidade; documento estrangeiro é juntado de imediato e traduzido se necessário; pública-forma só vale conferida com o original.",
+      "<strong>Art. 238.</strong> Findo o processo, os originais podem ser entregues a quem os produziu, a requerimento e ouvido o MP, ficando traslado.",
+      "<strong>Art. 239.</strong> Indício é a circunstância conhecida e provada que, relacionada ao fato, autoriza concluir por indução a existência de outra."
+     ],
+     "literalidades": [
+      {
+       "trecho": "as partes poderão apresentar documentos em qualquer fase do processo",
+       "marcas": [
+        "em qualquer fase"
+       ],
+       "afirmacao": "Na fase de alegações finais, a defesa junta um contrato que reforça a tese do réu. A juntada é possível.",
+       "gabarito": "C",
+       "porque": "Salvo os casos expressos em lei, documentos podem ser apresentados em qualquer fase do processo (art. 231)."
+      },
+      {
+       "trecho": "À fotografia do documento, devidamente autenticada, se dará o mesmo valor do original.",
+       "marcas": [
+        "mesmo valor do original"
+       ],
+       "afirmacao": "A acusação junta cópia autenticada de uma nota fiscal. Por não ser o original, ela vale só como indício.",
+       "gabarito": "E",
+       "porque": "A fotografia do documento devidamente autenticada tem o mesmo valor do original (art. 232, parágrafo único)."
+      },
+      {
+       "trecho": "As cartas particulares, interceptadas ou obtidas por meios criminosos, não serão admitidas em juízo.",
+       "marcas": [
+        "não serão admitidas"
+       ],
+       "afirmacao": "O investigador tirou uma carta da caixa de correio da vítima e a juntou ao inquérito. Ela pode ser usada como prova.",
+       "gabarito": "E",
+       "porque": "Cartas particulares interceptadas ou obtidas por meios criminosos não são admitidas em juízo (art. 233)."
+      },
+      {
+       "trecho": "ainda que não haja consentimento do signatário",
+       "marcas": [
+        "ainda que não haja consentimento"
+       ],
+       "afirmacao": "A vítima de ameaça recebeu uma carta do réu e a entrega ao juiz para provar o crime, sem que o réu concorde. A carta é admitida.",
+       "gabarito": "C",
+       "porque": "O destinatário pode exibir a carta em juízo para defender seu direito, ainda sem consentimento do signatário (art. 233, parágrafo único)."
+      },
+      {
+       "trecho": "quando contestada a sua autenticidade",
+       "marcas": [
+        "quando contestada"
+       ],
+       "afirmacao": "Toda assinatura em documento particular juntado ao processo penal passa por exame pericial, ainda que ninguém a conteste.",
+       "gabarito": "E",
+       "porque": "Letra e firma vão a exame pericial quando contestada a autenticidade (art. 235)."
+      },
+      {
+       "trecho": "sem prejuízo de sua juntada imediata",
+       "marcas": [
+        "juntada imediata"
+       ],
+       "afirmacao": "Um contrato em espanhol só pode ser juntado aos autos depois de traduzido por tradutor público.",
+       "gabarito": "E",
+       "porque": "O documento estrangeiro é juntado de imediato e traduzido, se necessário (art. 236)."
+      },
+      {
+       "trecho": "Considera-se indício a circunstância conhecida e provada",
+       "marcas": [
+        "conhecida e provada"
+       ],
+       "afirmacao": "Indício é a circunstância apenas suposta, que ainda depende de prova, mas permite ao juiz presumir o fato.",
+       "gabarito": "E",
+       "porque": "Indício é a circunstância conhecida e provada que autoriza, por indução, concluir a existência de outra (art. 239)."
+      }
+     ],
+     "conferido": {
+      "Art. 231.": "4f8396aa5daf",
+      "Art. 232.": "44a705a642f4",
+      "Art. 233.": "a05ded6ffe61",
+      "Art. 234.": "7e9fb1a3a3a4",
+      "Art. 235.": "9bdeee7685a7",
+      "Art. 236.": "6eb5956e97c0",
+      "Art. 237.": "a3bfaa6cacc8",
+      "Art. 238.": "e2ee5c59ada9",
+      "Art. 239.": "cf185de16314"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · RE 1.116.949 (Tema 1.041)",
+     "texto": "Sem autorização judicial ou fora das hipóteses legais, é ilícita a prova obtida mediante abertura de carta, telegrama, pacote ou meio análogo."
+    },
+    {
+     "quem": "STJ · Informativo 870",
+     "texto": "A carta psicografada não pode ser admitida como prova no processo judicial, por falta de idoneidade epistêmica mínima, e deve ser desentranhada."
+    }
+   ],
+   "detalhes": [
+    "Indício não é presunção: o indício é fato provado do qual se induz outro. A condenação pode se apoiar em indícios, desde que vários, graves e concordantes, e não em um indício isolado.",
+    "No júri, não se lê em plenário documento que não tenha sido juntado com antecedência mínima de 3 dias úteis, com ciência da outra parte (art. 479).",
+    "A juntada de documento pelo juiz de ofício (art. 234) é exemplo da iniciativa probatória do art. 156.",
+    "Print de conversa de celular precisa de método que garanta a integridade, como o código hash; isso está no tema de provas digitais.",
+    "Os originais só são devolvidos a pedido e ouvido o MP, e não de ofício (art. 238)."
+   ],
+   "macetes": [
+    {
+     "sigla": "CARTA ROUBADA NÃO ENTRA, CARTA RECEBIDA ENTRA",
+     "texto": "Interceptada ou obtida por crime: fora. Exibida pelo destinatário para se defender: vale, mesmo sem o aval de quem escreveu."
+    },
+    {
+     "sigla": "INDÍCIO É FATO PROVADO",
+     "texto": "Circunstância conhecida e provada, que leva por indução a outra."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O destinatário pode exibir em juízo carta particular para a defesa de seu direito, desde que haja consentimento do signatário.",
+    "gabarito": "E",
+    "explicacao": "A exibição pelo destinatário dispensa o consentimento do signatário (art. 233, parágrafo único)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Os documentos originais juntos a processo findo são entregues de ofício à parte que os produziu.",
+     "certo": "Dependem de requerimento e de oitiva do MP, ficando traslado (art. 238).",
+     "fonte": "Questão do app sobre o art. 238"
+    },
+    {
+     "errado": "Documentos em língua estrangeira só podem ser juntados após a tradução.",
+     "certo": "São juntados de imediato e traduzidos se necessário (art. 236).",
+     "fonte": "Questão do app sobre o art. 236"
+    },
+    {
+     "errado": "A carta psicografada pode ser admitida como prova se submetida ao contraditório.",
+     "certo": "Para o STJ, não é prova admissível e deve ser desentranhada.",
+     "fonte": "Questão do app sobre o Informativo 870 do STJ"
+    }
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: a prova documental e os indícios (arts. 231 a 239) ganharam tema próprio."
+    }
+   ],
+   "relacionados": [
+    "teoria-geral-da-prova-e-provas-ilicitas",
+    "provas-digitais-e-celular",
+    "busca-domiciliar"
    ]
   },
   {
    "slug": "busca-domiciliar",
    "titulo": "Busca e apreensão: domiciliar, pessoal e em veículos",
    "grupo": "Provas",
-   "base": "Arts. 240 a 250 do CPP e art. 5º, XI, da Constituição",
+   "base": "Arts. 240 a 250 do CPP e art. 5º, XI, da CF",
    "tax": [
-    "processo-penal.busca-apreensao",
-    "processo-penal.meios-prova",
-    "processo-penal.provas-ilicitas"
+    "processo-penal.busca-apreensao"
    ],
    "dispositivos": [
     "n3689-1941-art-240",
     "n3689-1941-art-241",
+    "n3689-1941-art-242",
     "n3689-1941-art-243",
     "n3689-1941-art-244",
     "n3689-1941-art-245",
     "n3689-1941-art-246",
+    "n3689-1941-art-247",
+    "n3689-1941-art-248",
     "n3689-1941-art-249",
-    "nCF-1988-art-5"
+    "n3689-1941-art-250"
    ],
    "conceitos": [
     "busca domiciliar",
@@ -7982,74 +8887,229 @@
     "fundadas razões",
     "fundada suspeita",
     "mandado de busca",
-    "ingresso em domicílio sem mandado",
-    "consentimento do morador"
+    "requisitos do mandado",
+    "documento em poder do defensor",
+    "busca pessoal sem mandado",
+    "busca durante o dia",
+    "consentimento do morador",
+    "arrombamento",
+    "conceito de casa",
+    "busca em mulher",
+    "diligência em território alheio",
+    "entrada forçada em flagrante",
+    "celular apreendido"
    ],
    "palavras": [
-    "busca e apreensao",
-    "busca domiciliar",
-    "mandado de busca",
-    "durante o dia",
-    "consentimento do morador a noite",
+    "busca",
+    "domiciliar",
+    "pessoal",
     "fundadas razoes",
-    "tema 280",
-    "justificadas a posteriori",
-    "flagrante crime permanente",
-    "trafico em casa",
-    "denuncia anonima nao basta",
-    "fuga ao avistar policia",
-    "consentimento registrado",
-    "gravacao do consentimento",
-    "busca pessoal",
+    "prender criminosos",
+    "coisas achadas",
+    "instrumentos de falsificacao",
+    "armas e municoes",
+    "cartas abertas ou nao",
+    "vitimas de crime",
+    "elemento de conviccao",
     "fundada suspeita",
-    "revista pessoal",
-    "busca em veiculo",
+    "arma proibida",
+    "mandado",
+    "autoridade policial ou judiciaria",
+    "de oficio",
+    "requerimento",
+    "o mais precisamente possivel",
+    "motivo e os fins",
+    "escrivao",
+    "ordem de prisao",
+    "defensor do acusado",
+    "corpo de delito",
+    "independera de mandado",
+    "de dia",
+    "a noite",
+    "consentir",
+    "mostrarao e lerao o mandado",
+    "arrombada",
+    "forca contra coisas",
+    "vizinho",
+    "auto circunstanciado",
+    "duas testemunhas",
+    "compartimento habitado",
+    "habitacao coletiva",
+    "nao aberto ao publico",
+    "profissao",
+    "molestar",
+    "mulher",
+    "jurisdicao alheia",
+    "outro estado",
+    "seguimento",
+    "tema 280",
+    "re 603616",
+    "flagrante",
+    "consentimento",
+    "gravacao audiovisual",
+    "atitude suspeita",
+    "nervosismo",
     "trailer",
-    "quarto de motel",
-    "escritorio de advocacia",
-    "busca em mulher por mulher",
-    "celular apreendido acesso",
-    "encontro fortuito"
+    "quarto de hotel",
+    "motel",
+    "veiculo",
+    "celular",
+    "escritorio de advocacia"
    ],
-   "resumo": "A <strong>busca domiciliar</strong> exige <strong>fundadas razões</strong> e, salvo quando feita pela própria autoridade judiciária, mandado com a casa, o motivo e os fins. É cumprida <strong>de dia</strong>, salvo consentimento do morador. Sem mandado, só se entra na casa em <strong>flagrante delito</strong>, desastre, para prestar socorro ou com <strong>consentimento</strong> do morador (art. 5º, XI, da CF). Para o STF (Tema 280), a entrada forçada em flagrante, inclusive de crime permanente como o tráfico, só é lícita com fundadas razões justificadas <strong>a posteriori</strong>, sob pena de nulidade dos atos e responsabilidade do agente. O STJ não aceita como fundadas razões, sozinhas, a denúncia anônima, a fuga ao ver a polícia ou o nervosismo, e exige que o consentimento seja comprovado pelo Estado, de preferência por gravação. A <strong>busca pessoal</strong> independe de mandado em caso de prisão ou de <strong>fundada suspeita</strong> objetiva de posse de arma ou objetos de crime; impressões subjetivas não bastam. Veículo comum se equipara à busca pessoal, salvo se usado como moradia, como trailer ou cabine de caminhão.",
+   "resumo": "A busca é <strong>domiciliar</strong> ou <strong>pessoal</strong> (art. 240). A domiciliar exige <strong>fundadas razões</strong> e serve para prender criminosos, apreender coisas do crime, armas, instrumentos e cartas úteis à prova, libertar vítimas e colher elementos de convicção. A pessoal exige <strong>fundada suspeita</strong> de que alguém oculte arma proibida ou objetos do crime. A casa é asilo inviolável: sem consentimento do morador, só se entra em <strong>flagrante</strong>, desastre ou socorro, a qualquer hora, ou, <strong>durante o dia</strong>, por <strong>ordem judicial</strong> (art. 5º, XI, da CF). Por isso, a regra do art. 241 que deixava o delegado buscar sem mandado não foi recepcionada nessa parte. O mandado deve indicar a casa e o morador com precisão e dizer o motivo e os fins (art. 243). <strong>Não se apreende documento em poder do defensor</strong>, salvo se for corpo de delito. A <strong>busca pessoal independe de mandado</strong> na prisão, na fundada suspeita de posse de arma ou objeto do crime e durante busca domiciliar (art. 244). Os executores leem o mandado ao morador e, se ele resistir, podem arrombar a porta. Ao fim, lavram auto com duas testemunhas (art. 245). Escritório fechado ao público e quarto habitado também são protegidos (art. 246). A busca em mulher é feita por mulher, se não atrasar a diligência (art. 249). A polícia pode seguir pessoa ou coisa em território de outra jurisdição e se apresentar à autoridade local antes ou depois (art. 250).",
    "esquema": {
-    "rotulo": "quando precisa de mandado",
-    "html": "<table><thead><tr><th>Local ou situação</th><th>Mandado?</th></tr></thead><tbody><tr><td><strong>Casa, de dia, sem flagrante nem consentimento</strong></td><td>Sim</td></tr><tr><td><strong>Casa, à noite</strong></td><td>Só com consentimento ou flagrante, desastre ou socorro</td></tr><tr><td><strong>Flagrante de crime permanente</strong></td><td>Não, mas com fundadas razões justificadas depois</td></tr><tr><td><strong>Busca pessoal com fundada suspeita</strong></td><td>Não</td></tr><tr><td><strong>Veículo de passeio</strong></td><td>Não (equipara-se à busca pessoal)</td></tr><tr><td><strong>Trailer ou boleia usados como moradia</strong></td><td>Sim (equiparam-se a casa)</td></tr></tbody></table>"
+    "rotulo": "busca domiciliar e busca pessoal",
+    "html": "<table><thead><tr><th>Ponto</th><th>Busca domiciliar</th><th>Busca pessoal</th></tr></thead><tbody><tr><td><strong>Requisito</strong></td><td>Fundadas razões (art. 240, § 1º)</td><td>Fundada suspeita, baseada em elementos concretos (art. 240, § 2º)</td></tr><tr><td><strong>Mandado</strong></td><td>Ordem judicial, salvo flagrante, desastre, socorro ou consentimento (art. 5º, XI, da CF)</td><td>Dispensado na prisão, na fundada suspeita e durante busca domiciliar (art. 244)</td></tr><tr><td><strong>Horário</strong></td><td>Por ordem judicial, só de dia; em flagrante ou com consentimento, a qualquer hora</td><td>A qualquer hora</td></tr><tr><td><strong>Quem faz</strong></td><td>Executores leem o mandado; auto com duas testemunhas</td><td>Em mulher, por outra mulher, se não houver atraso (art. 249)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Casa ou não casa para fins de busca",
+    "linhas": [
+     {
+      "nome": "Trailer onde alguém mora",
+      "o_que_e": "Casa",
+      "atencao": "Precisa de mandado fora das exceções constitucionais (Cebraspe, Delegado PC-ES 2022)."
+     },
+     {
+      "nome": "Quarto de hotel ocupado",
+      "o_que_e": "Casa",
+      "atencao": "É aposento ocupado de habitação coletiva (art. 246)."
+     },
+     {
+      "nome": "Escritório fechado ao público",
+      "o_que_e": "Casa",
+      "atencao": "Compartimento não aberto ao público onde se exerce profissão (art. 246)."
+     },
+     {
+      "nome": "Quarto de motel desocupado",
+      "o_que_e": "Não é casa",
+      "atencao": "Dispensa mandado (Cebraspe, Delegado PC-ES 2022)."
+     },
+     {
+      "nome": "Carro de passeio",
+      "o_que_e": "Não é casa",
+      "atencao": "A busca segue as regras da busca pessoal (Cebraspe, Delegado PC-PB 2022)."
+     }
+    ],
+    "colunas": [
+     "Lugar",
+     "Proteção",
+     "Atenção"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:\n\n(...)\n\nXI - a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial;\n\n(...)",
-     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-     "norma": "nCF-1988"
-    },
-    {
-     "texto": "Art. 240. A busca será domiciliar ou pessoal.\n\n§ 1º Proceder-se-á à busca domiciliar, quando fundadas razões a autorizarem, para:\n\na) prender criminosos;\n\nb) apreender coisas achadas ou obtidas por meios criminosos;\n\nc) apreender instrumentos de falsificação ou de contrafação e objetos falsificados ou contrafeitos;\n\nd) apreender armas e munições, instrumentos utilizados na prática de crime ou destinados a fim delituoso;\n\ne) descobrir objetos necessários à prova de infração ou à defesa do réu;\n\nf) apreender cartas, abertas ou não, destinadas ao acusado ou em seu poder, quando haja suspeita de que o conhecimento do seu conteúdo possa ser útil à elucidação do fato;\n\ng) apreender pessoas vítimas de crime;\n\nh) colher qualquer elemento de convicção.\n\n§ 2º Proceder-se-á à busca pessoal quando houver fundada suspeita de que alguém oculte consigo arma proibida ou objetos mencionados nas letras b a f e letra h do parágrafo anterior.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 240.",
+      "Art. 241.",
+      "Art. 242.",
+      "Art. 243.",
+      "Art. 244.",
+      "Art. 245.",
+      "Art. 246.",
+      "Art. 247.",
+      "Art. 248.",
+      "Art. 249.",
+      "Art. 250."
+     ],
+     "ref": "arts. 240 a 250 do CPP",
+     "regras": [
+      "<strong>Art. 240.</strong> A busca é domiciliar (fundadas razões, para as finalidades das alíneas a a h) ou pessoal (fundada suspeita de arma proibida ou objetos do crime).",
+      "<strong>Arts. 241 e 242.</strong> Se a autoridade não fizer a busca pessoalmente, expede-se mandado; a busca pode ser determinada de ofício ou a requerimento. Pela CF, a busca domiciliar sem consentimento e fora de flagrante exige ordem judicial.",
+      "<strong>Art. 243.</strong> O mandado indica a casa e o morador, ou a pessoa, com precisão; diz o motivo e os fins; é assinado pela autoridade. Não se apreende documento em poder do defensor, salvo se for corpo de delito.",
+      "<strong>Art. 244.</strong> A busca pessoal independe de mandado na prisão, na fundada suspeita de arma proibida ou corpo de delito, e no curso de busca domiciliar.",
+      "<strong>Arts. 245 a 248.</strong> Busca domiciliar de dia, salvo consentimento; leitura do mandado; arrombamento se houver desobediência; vizinho na ausência do morador; auto com duas testemunhas; vale também para quarto habitado e local de profissão não aberto ao público; sem molestar além do necessário.",
+      "<strong>Arts. 249 e 250.</strong> Busca em mulher por mulher, se não atrasar; a polícia pode seguir pessoa ou coisa em outra jurisdição e se apresenta à autoridade local antes ou depois."
+     ],
+     "literalidades": [
+      {
+       "trecho": "quando fundadas razões a autorizarem",
+       "marcas": [
+        "fundadas razões"
+       ],
+       "afirmacao": "A polícia recebe denúncia anônima de tráfico e, sem nenhuma diligência prévia, arromba a casa à noite. Como achou droga, a entrada foi lícita.",
+       "gabarito": "E",
+       "porque": "A entrada exige fundadas razões anteriores, e o resultado não convalida a diligência (art. 240, § 1º, e Tema 280 do STF)."
+      },
+      {
+       "trecho": "apreender pessoas vítimas de crime",
+       "marcas": [
+        "vítimas de crime"
+       ],
+       "afirmacao": "A busca domiciliar pode ser usada para libertar uma pessoa mantida em cárcere privado na casa.",
+       "gabarito": "C",
+       "porque": "Entre as finalidades da busca domiciliar está apreender pessoas vítimas de crime (art. 240, § 1º, g)."
+      },
+      {
+       "trecho": "indicar, o mais precisamente possível, a casa em que será realizada a diligência",
+       "marcas": [
+        "o mais precisamente possível"
+       ],
+       "afirmacao": "O juiz expede mandado de busca para todas as casas de uma rua, sem indicar qual nem o morador.",
+       "gabarito": "E",
+       "porque": "O mandado deve indicar, o mais precisamente possível, a casa e o nome do proprietário ou morador (art. 243, I)."
+      },
+      {
+       "trecho": "Não será permitida a apreensão de documento em poder do defensor do acusado, salvo quando constituir elemento do corpo de delito.",
+       "marcas": [
+        "salvo quando constituir elemento do corpo de delito"
+       ],
+       "afirmacao": "Na busca no escritório do advogado do réu, a polícia apreende a carta em que o réu narrou o crime ao defensor para preparar a defesa.",
+       "gabarito": "E",
+       "porque": "Não se apreende documento em poder do defensor, salvo se for elemento do corpo de delito (art. 243, § 2º)."
+      },
+      {
+       "trecho": "quando a medida for determinada no curso de busca domiciliar",
+       "marcas": [
+        "no curso de busca domiciliar"
+       ],
+       "afirmacao": "Durante a busca autorizada na casa, os policiais revistam o morador sem mandado específico para isso. A revista é válida.",
+       "gabarito": "C",
+       "porque": "A busca pessoal independe de mandado quando determinada no curso de busca domiciliar (art. 244)."
+      },
+      {
+       "trecho": "As buscas domiciliares serão executadas de dia, salvo se o morador consentir que se realizem à noite",
+       "marcas": [
+        "de dia"
+       ],
+       "afirmacao": "Com mandado judicial e sem consentimento do morador, a polícia entra na casa às duas da manhã para cumprir a busca.",
+       "gabarito": "E",
+       "porque": "Por ordem judicial, a busca domiciliar é feita de dia, salvo consentimento do morador (art. 245 e art. 5º, XI, da CF)."
+      },
+      {
+       "trecho": "A busca em mulher será feita por outra mulher, se não importar retardamento ou prejuízo da diligência.",
+       "marcas": [
+        "se não importar retardamento"
+       ],
+       "afirmacao": "Na abordagem, não há policial feminina na equipe, e esperar traria risco de a suspeita se desfazer da arma. A revista pode ser feita por policial homem.",
+       "gabarito": "C",
+       "porque": "A busca em mulher é feita por outra mulher, se não importar retardamento ou prejuízo da diligência (art. 249)."
+      },
+      {
+       "trecho": "devendo apresentar-se à competente autoridade local, antes da diligência ou após, conforme a urgência desta",
+       "marcas": [
+        "antes da diligência ou após"
+       ],
+       "afirmacao": "Policiais de Pernambuco perseguem sem parar um carro roubado que entra na Paraíba. Eles podem fazer a apreensão e se apresentar à autoridade local depois.",
+       "gabarito": "C",
+       "porque": "Em seguimento de pessoa ou coisa, a polícia pode entrar em outra jurisdição e se apresentar antes ou depois, conforme a urgência (art. 250)."
+      }
+     ],
+     "conferido": {
+      "Art. 240.": "0d1936a90b39",
+      "Art. 241.": "6af8f213f78f",
+      "Art. 242.": "56e132b7473c",
+      "Art. 243.": "1a7854afecdd",
+      "Art. 244.": "2b3ff4887cae",
+      "Art. 245.": "462d78a22f3d",
+      "Art. 246.": "dd5424c583ab",
+      "Art. 247.": "cbe88f467c2c",
+      "Art. 248.": "29b7a5785c82",
+      "Art. 249.": "70331e3a372f",
+      "Art. 250.": "92ea58790981"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 244. A busca pessoal independerá de mandado, no caso de prisão ou quando houver fundada suspeita de que a pessoa esteja na posse de arma proibida ou de objetos ou papéis que constituam corpo de delito, ou quando a medida for determinada no curso de busca domiciliar.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 245. As buscas domiciliares serão executadas de dia, salvo se o morador consentir que se realizem à noite, e, antes de penetrarem na casa, os executores mostrarão e lerão o mandado ao morador, ou a quem o represente, intimando-o, em seguida, a abrir a porta.\n\n§ 1º Se a própria autoridade der a busca, declarará previamente sua qualidade e o objeto da diligência.\n\n§ 2º Em caso de desobediência, será arrombada a porta e forçada a entrada.\n\n§ 3º Recalcitrando o morador, será permitido o emprego de força contra coisas existentes no interior da casa, para o descobrimento do que se procura.\n\n§ 4º Observar-se-á o disposto nos §§ 2º e 3º, quando ausentes os moradores, devendo, neste caso, ser intimado a assistir à diligência qualquer vizinho, se houver e estiver presente.\n\n§ 5º Se é determinada a pessoa ou coisa que se vai procurar, o morador será intimado a mostrá-la.\n\n§ 6º Descoberta a pessoa ou coisa que se procura, será imediatamente apreendida e posta sob custódia da autoridade ou de seus agentes.\n\n§ 7º Finda a diligência, os executores lavrarão auto circunstanciado, assinando-o com duas testemunhas presenciais, sem prejuízo do disposto no § 4º.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "FUNDADAS RAZÕES ANTES, JUSTIFICADAS DEPOIS",
-     "texto": "As razões precisam existir antes da entrada, e o policial deve explicá-las depois. Achar droga não legitima a entrada sem razões prévias."
-    },
-    {
-     "sigla": "CASA É ONDE SE MORA",
-     "texto": "Trailer, quarto de hotel ocupado e escritório fechado ao público têm proteção de domicílio. Carro de passeio e quarto de motel desocupado não."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -8066,17 +9126,209 @@
      "texto": "A busca pessoal sem mandado exige fundada suspeita baseada em elementos concretos e objetivos; impressões subjetivas, como atitude suspeita ou nervosismo, não bastam."
     }
    ],
+   "detalhes": [
+    "Na entrada forçada em flagrante, as razões devem ser justificadas a posteriori; se ilícitas, há responsabilidade disciplinar, civil e penal, e os atos são nulos (Cebraspe, Delegado PC-PB 2022). A exigência de ordem judicial fora das exceções expressa a reserva de jurisdição (Cebraspe, Delegado PC-RJ 2022).",
+    "A ordem judicial de busca domiciliar autoriza o acesso aos dados do celular apreendido na diligência (Cebraspe, Delegado PF 2021). Sem ordem, é ilícito extrair conversas do celular apreendido no flagrante (Cebraspe, Delegado PC-PB 2022).",
+    "Não sendo encontrado o que se procura, os motivos da diligência são comunicados a quem sofreu a busca, se ele pedir (art. 247).",
+    "Ausente o morador, intima-se qualquer vizinho presente para assistir à diligência (art. 245, § 4º).",
+    "Considera-se que a polícia vai em seguimento quando acompanha a remoção sem interrupção, ainda que perca de vista, ou quando sabe por informações seguras a direção tomada (art. 250, § 1º). A autoridade local pode exigir prova da legitimidade, sem frustrar a diligência (§ 2º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "FUNDADAS RAZÕES ANTES, JUSTIFICADAS DEPOIS",
+     "texto": "As razões precisam existir antes da entrada, e o policial deve explicá-las depois. Achar droga não legitima a entrada sem razões prévias."
+    },
+    {
+     "sigla": "CASA É ONDE SE MORA",
+     "texto": "Trailer, quarto de hotel ocupado e escritório fechado ao público têm proteção de domicílio. Carro de passeio e quarto de motel desocupado não."
+    },
+    {
+     "sigla": "MANDADO DE DIA, FLAGRANTE A QUALQUER HORA",
+     "texto": "Ordem judicial só se cumpre de dia; flagrante e consentimento valem a qualquer hora."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "A busca domiciliar baseada apenas em notícia anônima foi válida porque, ao final, encontrou-se situação de flagrante delito.",
     "gabarito": "E",
     "explicacao": "O resultado da diligência não convalida a entrada. As fundadas razões precisam existir antes, e a notícia anônima, sem diligências prévias, não basta (Cebraspe, Delegado PF 2021)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Tema 280.</strong> Na entrada forçada noturna em flagrante, as razões devem ser justificadas a posteriori; se ilícitas, há responsabilidade disciplinar, civil e penal da autoridade, e os atos são nulos (Cebraspe, Delegado PC-PB 2022). A exigência de autorização judicial para ingressar sem consentimento fora das exceções expressa a reserva de jurisdição (Cebraspe, Delegado PC-RJ 2022).</p><p><strong>Trailer e veículo.</strong> Trailer onde alguém mora é casa, e a polícia não pode revistá-lo sem mandado fora das exceções constitucionais. Já o quarto de motel desocupado não é casa de ninguém e dispensa mandado, e a busca domiciliar serve, sim, para apreender vítimas de crime (art. 240, § 1º, g) (Cebraspe, Delegado PC-ES 2022). Veículo de passeio não é casa: a busca nele sem autorização judicial é lícita (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Celular.</strong> A ordem judicial de busca domiciliar autoriza o acesso aos dados do celular apreendido na diligência (Cebraspe, Delegado PF 2021). Sem ordem, é ilícito extrair conversas do celular apreendido no flagrante (Cebraspe, Delegado PC-PB 2022).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Nervosismo do abordado diante da viatura basta como fundada suspeita para a busca pessoal.",
+     "certo": "Exigem-se elementos concretos e objetivos (STJ, RHC 158.580).",
+     "fonte": "Questão do app sobre o art. 244"
+    },
+    {
+     "errado": "Quarto de motel desocupado tem proteção de domicílio e exige mandado.",
+     "certo": "Não é casa de ninguém e dispensa mandado.",
+     "fonte": "Cebraspe, Delegado PC-ES 2022"
+    },
+    {
+     "errado": "A autoridade local que duvida do mandado apresentado por policiais de outro estado pode impedir a diligência.",
+     "certo": "Pode exigir prova da legitimidade, mas sem frustrar a diligência (art. 250, § 2º).",
+     "fonte": "Questão do app sobre o art. 250"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021; Delegado PC-PB 2022; Delegado PC-RJ 2022; Delegado PC-ES 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: entram os arts. 242, 247, 248 e 250; o art. 5º da CF fica no caderno de Constitucional e segue citado."
+    }
+   ],
+   "relacionados": [
+    "inviolabilidade-do-domicilio-e-sigilos",
+    "provas-digitais-e-celular",
+    "teoria-geral-da-prova-e-provas-ilicitas"
+   ]
+  },
+  {
+   "slug": "provas-digitais-e-celular",
+   "titulo": "Provas digitais: celular, dados e integridade",
+   "grupo": "Provas",
+   "base": "Jurisprudência do STJ e do STF; arts. 158-A a 158-F do CPP (caderno de Medicina Legal)",
+   "tax": [
+    "processo-penal.meios-prova.provas-digitais",
+    "processo-penal.meios-prova.cadeia-custodia",
+    "processo-penal.provas.prova-digital"
+   ],
+   "conceitos": [
+    "prova digital",
+    "integridade e mesmidade",
+    "código hash",
+    "espelhamento de dados",
+    "print de tela",
+    "WhatsApp Web",
+    "acesso a dados do celular",
+    "celular abandonado",
+    "celular no presídio",
+    "chip como fonte independente",
+    "quebra de sigilo de dados armazenados",
+    "ronda virtual",
+    "inteligência artificial generativa",
+    "gravação ambiental",
+    "cadeia de custódia digital"
+   ],
+   "palavras": [
+    "prova digital",
+    "celular",
+    "dados",
+    "hash",
+    "mesmidade",
+    "integridade",
+    "espelhamento",
+    "print",
+    "captura de tela",
+    "whatsapp",
+    "whatsapp web",
+    "extracao",
+    "perito oficial",
+    "mandado de busca",
+    "abandonado",
+    "desbloqueado",
+    "expectativa de privacidade",
+    "presidio",
+    "notificacoes",
+    "chip",
+    "operadora",
+    "fonte independente",
+    "dados armazenados",
+    "limite temporal",
+    "fluxo",
+    "interceptacao",
+    "ronda virtual",
+    "infiltracao",
+    "eca 190 a",
+    "inteligencia artificial",
+    "ia generativa",
+    "alucinacao",
+    "gravacao ambiental",
+    "interlocutor",
+    "colaborador",
+    "cadeia de custodia",
+    "laudo nulo",
+    "contraditorio"
+   ],
+   "resumo": "Prova digital vale se for possível mostrar que o dado examinado é <strong>o mesmo</strong> que foi colhido. Para isso existe a <strong>cadeia de custódia</strong>, que inclui registros e o <strong>código hash</strong>, uma espécie de impressão digital do arquivo. Por isso o STJ não aceita como prova confiável o <strong>print de tela</strong> sem método que garanta a integridade, ainda que o investigado concorde. Também considera ilícito o <strong>espelhamento pelo WhatsApp Web</strong>, mesmo com ordem judicial, porque permite mandar e apagar mensagens. Já a coleta preliminar de dados durante busca autorizada, com espelhamento e hash, pode ser feita pelo policial sem perito no local. O acesso às conversas do <strong>celular apreendido</strong> exige ordem judicial, mas a ordem de busca já autoriza ver os dados do aparelho apreendido nela. Não há proteção ao celular desbloqueado e abandonado por pessoa não identificada. No presídio, o acesso inicial às notificações do aparelho dispensa ordem prévia, com controle judicial depois. A quebra do sigilo de <strong>dados armazenados</strong> não precisa de limite temporal, ao contrário da interceptação. A gravação feita por um dos interlocutores é lícita. A <strong>quebra da cadeia de custódia</strong> não anula a prova de modo automático: o juiz pesa a confiabilidade, e cabe à acusação mostrar que o vestígio ficou íntegro. Mas é nulo o laudo feito sobre mídias que a defesa não pôde acessar por inteiro. As regras dos arts. 158-A a 158-F estão no caderno de Medicina Legal.",
+   "esquema": {
+    "rotulo": "vale ou não vale",
+    "html": "<table><thead><tr><th>Situação</th><th>Vale?</th><th>Por quê</th></tr></thead><tbody><tr><td><strong>Print de tela sem hash, com consentimento do investigado</strong></td><td>Não é prova confiável</td><td>Falta método que garanta a integridade (STJ)</td></tr><tr><td><strong>Espelhamento pelo WhatsApp Web com ordem judicial</strong></td><td>Ilícito</td><td>Permite interagir e apagar mensagens; não é interceptação (STJ)</td></tr><tr><td><strong>Dados do celular apreendido na busca com mandado</strong></td><td>Vale</td><td>A ordem de busca autoriza o acesso ao aparelho apreendido</td></tr><tr><td><strong>Conversas do celular apreendido no flagrante, sem ordem</strong></td><td>Ilícito</td><td>Exige autorização judicial</td></tr><tr><td><strong>Celular desbloqueado abandonado por desconhecido</strong></td><td>Vale</td><td>Não há expectativa legítima de privacidade (STJ)</td></tr><tr><td><strong>Relatório policial feito com IA generativa</strong></td><td>Não serve como prova</td><td>Padrões estatísticos sujeitos a alucinação e viés (STJ)</td></tr><tr><td><strong>Gravação ambiental por um dos interlocutores</strong></td><td>Vale</td><td>Não depende de consentimento dos demais nem de ordem judicial</td></tr></tbody></table>"
+   },
+   "juris": [
+    {
+     "quem": "STJ · Informativo 891 (Corte Especial)",
+     "texto": "Durante o cumprimento de mandado de busca, o policial pode verificar e coletar preliminarmente dados de celular sem perito oficial no local; o espelhamento com hash garante integridade e auditabilidade."
+    },
+    {
+     "quem": "STJ · Informativo 897 (Terceira Seção)",
+     "texto": "O chip da operadora não integra o aparelho e é fonte independente de prova; a nulidade da extração de dados do celular não o alcança."
+    },
+    {
+     "quem": "STJ · Informativo 870",
+     "texto": "É nulo o laudo pericial baseado em mídias cujo conteúdo integral ficou inacessível à defesa por falha de armazenamento na cadeia de custódia."
+    },
+    {
+     "quem": "STJ · Informativo extraordinário 33",
+     "texto": "Celular desbloqueado e abandonado voluntariamente não tem proteção de privacidade; no presídio, o acesso inicial às notificações dispensa ordem prévia, com controle judicial posterior; o manuseio do aparelho antes da perícia, sem registro, não quebra por si só a cadeia de custódia."
+    }
+   ],
+   "detalhes": [
+    "Havendo dúvida razoável sobre a integridade e a autenticidade da prova digital, é necessário exame pericial (Jurisprudência em Teses do STJ, ed. 281).",
+    "A ronda virtual, em que o policial só observa o que está aberto na rede, dispensa autorização judicial. A infiltração de agentes na internet do art. 190-A do ECA, em que ele se passa por outra pessoa, exige.",
+    "Para o STJ, relatório feito com IA generativa não tem confiabilidade mínima como prova, ainda que juntado aos autos e submetido ao contraditório (Cebraspe, Delegado PC-MA 2026).",
+    "O print de WhatsApp entregue pelo noticiante não basta: o delegado deve buscar o arquivo digital original. Não é caso de interceptação, porque a conversa veio de um dos interlocutores (FGV, Delegado PC-PR 2026).",
+    "É lícita a gravação ambiental feita pelo colaborador premiado que participa da conversa, sem consentimento dos demais e sem ordem judicial (Jurisprudência em Teses do STJ, ed. 193)."
+   ],
+   "macetes": [
+    {
+     "sigla": "SEM HASH, SEM CONFIANÇA",
+     "texto": "Print e cópia sem método que prove a integridade não sustentam a prova digital."
+    },
+    {
+     "sigla": "ESPELHO NÃO É ESCUTA",
+     "texto": "WhatsApp Web deixa a polícia interagir com a conta; por isso é ilícito, mesmo com ordem judicial."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Para o STJ, o espelhamento de conversas pelo WhatsApp Web é válido quando autorizado judicialmente, pois equivale à interceptação telefônica.",
+    "gabarito": "E",
+    "explicacao": "O STJ considera o espelhamento ilícito mesmo com ordem judicial, porque permite interagir com a conta e apagar mensagens; não se confunde com a interceptação."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Comprovada a quebra da cadeia de custódia, cabe à defesa provar que o vestígio foi adulterado.",
+     "certo": "Com quebra incontroversa, cabe à acusação demonstrar que a integridade foi mantida (STJ).",
+     "fonte": "FGV, Defensor DPE-RJ 2026"
+    },
+    {
+     "errado": "A quebra do sigilo de dados armazenados exige decisão com limite temporal específico.",
+     "certo": "Para o STJ, não exige; dados armazenados não se confundem com interceptação em fluxo.",
+     "fonte": "Questão do app sobre jurisprudência do STJ"
+    },
+    {
+     "errado": "No presídio, o acesso às notificações do celular encontrado com o preso depende sempre de ordem judicial prévia.",
+     "certo": "O acesso inicial dispensa ordem prévia, com justificação e controle judicial posteriores (STJ).",
+     "fonte": "Questão do app sobre jurisprudência do STJ"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2026",
+    "FGV: Delegado PC-PR 2026; Defensor DPE-RJ 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: provas digitais, celular e integridade dos dados, com a jurisprudência recente do STJ."
+    }
+   ],
    "relacionados": [
     "teoria-geral-da-prova-e-provas-ilicitas",
-    "prisao-em-flagrante",
-    "inquerito-policial"
+    "busca-domiciliar",
+    "cadeia-de-custodia-e-local-de-crime"
    ]
   },
   {
