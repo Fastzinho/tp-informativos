@@ -5119,7 +5119,8 @@
    "grupo": "Sujeitos e incidentes",
    "base": "Arts. 92 a 95, 110 e 111 do CPP",
    "tax": [
-    "processo-penal.questoes-processos-incidentes"
+    "processo-penal.questoes-processos-incidentes",
+    "processo-penal.sentenca-coisa-julgada-habeas-corpus.coisa-julgada"
    ],
    "dispositivos": [
     "n3689-1941-art-92",
@@ -15566,134 +15567,211 @@
   },
   {
    "slug": "recursos-no-processo-penal",
-   "titulo": "Recursos no processo penal: princípios, RESE, apelação e embargos",
+   "titulo": "Teoria geral dos recursos: voluntariedade, interesse, fungibilidade e reformatio in pejus",
    "grupo": "Recursos e ações autônomas",
-   "base": "Arts. 574 a 619 do CPP",
+   "base": "Arts. 574 a 580 e 617 do CPP",
    "tax": [
-    "processo-penal.recursos-geral",
-    "processo-penal.tribunal-juri.apelacao"
+    "processo-penal.recursos-geral"
    ],
    "dispositivos": [
     "n3689-1941-art-574",
+    "n3689-1941-art-575",
     "n3689-1941-art-576",
     "n3689-1941-art-577",
+    "n3689-1941-art-578",
     "n3689-1941-art-579",
     "n3689-1941-art-580",
-    "n3689-1941-art-581",
-    "n3689-1941-art-586",
-    "n3689-1941-art-593",
-    "n3689-1941-art-600",
-    "n3689-1941-art-609",
-    "n3689-1941-art-617",
-    "n3689-1941-art-619"
+    "n3689-1941-art-617"
    ],
    "conceitos": [
     "voluntariedade",
     "recurso de ofício",
+    "erro do funcionário",
+    "indisponibilidade do recurso do MP",
+    "legitimidade para recorrer",
+    "interesse recursal",
+    "interposição por petição ou termo",
     "fungibilidade",
-    "unirrecorribilidade",
+    "má-fé",
     "efeito extensivo",
-    "proibição da reformatio in pejus",
+    "reformatio in pejus direta",
     "reformatio in pejus indireta",
-    "recurso em sentido estrito",
-    "apelação",
-    "embargos infringentes e de nulidade",
-    "embargos de declaração"
+    "efeito devolutivo",
+    "renúncia do réu e apelação do defensor",
+    "mandado de segurança para efeito suspensivo",
+    "duplo grau de jurisdição"
    ],
    "palavras": [
-    "recursos",
     "voluntarios",
+    "de oficio",
     "recurso de oficio",
-    "reexame necessario",
-    "concessao de habeas corpus",
-    "mp nao desiste do recurso",
-    "interesse recursal",
+    "habeas corpus",
+    "absolver desde logo",
+    "erro",
+    "falta ou omissao dos funcionarios",
+    "desistir",
+    "ministerio publico nao podera desistir",
+    "querelante",
+    "reu",
+    "procurador",
+    "defensor",
+    "interesse",
+    "reforma ou modificacao",
+    "peticao",
+    "termo nos autos",
+    "a seu rogo",
+    "duas testemunhas",
+    "um recurso por outro",
+    "ma-fe",
     "fungibilidade",
-    "ma fe",
-    "efeito extensivo",
+    "rito do recurso cabivel",
     "concurso de agentes",
+    "carater exclusivamente pessoal",
+    "aproveitara aos outros",
+    "efeito extensivo",
+    "agravada a pena",
+    "somente o reu",
     "reformatio in pejus",
-    "reformatio indireta",
-    "sumula 160",
-    "recurso em sentido estrito",
-    "rol do art 581",
-    "rejeicao da denuncia",
-    "incompetencia",
-    "pronuncia",
-    "fianca",
-    "prescricao indeferida",
-    "recusa do anpp",
-    "prazo 5 dias",
-    "razoes 2 dias rese",
-    "apelacao",
-    "sentenca definitiva",
-    "apelacao residual",
-    "apelacao do juri",
-    "razoes 8 dias",
-    "assistente 15 dias",
-    "embargos infringentes so defesa",
-    "10 dias",
-    "embargos de declaracao 2 dias",
+    "indireta",
     "sumula 705",
-    "sumula 707",
-    "sumula 713",
-    "sumula 347 stj"
+    "sumula 160",
+    "sumula 604",
+    "mandado de seguranca",
+    "efeito suspensivo",
+    "duplo grau"
    ],
-   "resumo": "Os recursos são, em regra, <strong>voluntários</strong>; há recurso de ofício, por exemplo, da sentença que concede habeas corpus (art. 574). O MP não pode desistir do recurso que interpôs, e só recorre quem tem <strong>interesse</strong>. Pela <strong>fungibilidade</strong>, o recurso errado é aproveitado, salvo má-fé (art. 579). A decisão do recurso de um corréu aproveita aos outros, se não fundada em motivo pessoal (<strong>efeito extensivo</strong>, art. 580). É vedada a <strong>reformatio in pejus</strong>: no recurso só da defesa, a situação do réu não piora, nem mesmo em novo julgamento após anulação (indireta). O <strong>recurso em sentido estrito</strong> cabe nas hipóteses do art. 581, como rejeição da denúncia, incompetência, pronúncia, decisões sobre fiança e prisão, indeferimento da prescrição e recusa de homologar o ANPP; o prazo é de <strong>5 dias</strong>, com 2 dias para razões. A <strong>apelação</strong> cabe contra sentenças definitivas de condenação ou absolvição, decisões com força de definitivas não sujeitas a RESE e certas decisões do júri; prazo de 5 dias e 8 para razões. Quando cabe apelação, não se usa o RESE, ainda que se recorra de parte da decisão (art. 593, § 4º). Os <strong>embargos infringentes e de nulidade</strong> são exclusivos da defesa, contra acórdão não unânime desfavorável, em 10 dias. Os <strong>embargos de declaração</strong> têm prazo de 2 dias.",
+   "resumo": "Os recursos são, em regra, <strong>voluntários</strong>. O CPP manda o juiz recorrer <strong>de ofício</strong> da sentença que concede habeas corpus e da absolvição sumária por excludente (art. 574); leis especiais preveem outros casos. O recurso não se perde por erro ou omissão do cartório (art. 575). O <strong>MP não pode desistir</strong> do recurso que interpôs (art. 576), embora não seja obrigado a recorrer. Recorrem o MP, o querelante, o réu, seu procurador ou defensor, mas só quem tem <strong>interesse</strong> na reforma (art. 577). Pela <strong>fungibilidade</strong>, a parte não é prejudicada por interpor um recurso por outro, salvo má-fé, e o juiz manda processar pelo rito certo (art. 579). No concurso de agentes, o recurso de um réu <strong>aproveita aos outros</strong> se o fundamento não for exclusivamente pessoal (art. 580). Por fim, é vedada a <strong>reformatio in pejus</strong>: se só o réu recorreu, a pena não pode ser agravada (art. 617), nem no tribunal (direta) nem no novo julgamento depois de anulada a sentença (indireta).",
    "esquema": {
-    "rotulo": "prazos e cabimento",
-    "html": "<table><thead><tr><th>Recurso</th><th>Cabimento</th><th>Prazo</th></tr></thead><tbody><tr><td><strong>Recurso em sentido estrito</strong></td><td>Rol do art. 581</td><td>5 dias; razões em 2</td></tr><tr><td><strong>Apelação</strong></td><td>Sentenças definitivas e residual (art. 593)</td><td>5 dias; razões em 8</td></tr><tr><td><strong>Apelação do assistente não habilitado</strong></td><td>Inércia do MP (art. 598)</td><td>15 dias após o prazo do MP</td></tr><tr><td><strong>Embargos infringentes e de nulidade</strong></td><td>Acórdão não unânime desfavorável ao réu</td><td>10 dias</td></tr><tr><td><strong>Embargos de declaração</strong></td><td>Ambiguidade, obscuridade, contradição ou omissão</td><td>2 dias</td></tr></tbody></table>"
+    "rotulo": "os princípios em uma tabela",
+    "html": "<table><thead><tr><th>Princípio</th><th>O que diz</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Voluntariedade</strong></td><td>Recorre quem quer; o juiz recorre de ofício só nos casos previstos</td><td>574</td></tr><tr><td><strong>Indisponibilidade para o MP</strong></td><td>O MP não é obrigado a recorrer, mas não pode desistir do recurso interposto</td><td>576</td></tr><tr><td><strong>Interesse</strong></td><td>Só recorre quem pode obter situação melhor com a reforma</td><td>577, parágrafo único</td></tr><tr><td><strong>Fungibilidade</strong></td><td>Recurso errado é aproveitado, salvo má-fé</td><td>579</td></tr><tr><td><strong>Efeito extensivo</strong></td><td>O provimento de um corréu aproveita aos demais, salvo motivo pessoal</td><td>580</td></tr><tr><td><strong>Vedação da reformatio in pejus</strong></td><td>Recurso só do réu não piora sua situação</td><td>617</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Reformatio in pejus: direta e indireta",
+    "linhas": [
+     {
+      "nome": "Só a defesa apela, e o tribunal aumenta a pena",
+      "o_que_e": "Direta: vedada",
+      "atencao": "Art. 617."
+     },
+     {
+      "nome": "Só a defesa apela, o tribunal anula a sentença e o novo juiz aplica pena maior",
+      "o_que_e": "Indireta: vedada",
+      "atencao": "O teto é a pena da sentença anulada."
+     },
+     {
+      "nome": "MP e defesa apelam, e o tribunal acolhe o recurso do MP",
+      "o_que_e": "Não há reformatio: o MP pediu a piora",
+      "atencao": "Art. 617, a contrario."
+     },
+     {
+      "nome": "Só o MP recorre, e o tribunal absolve o réu",
+      "o_que_e": "Permitido: reformatio in mellius",
+      "atencao": "O tribunal pode beneficiar o réu de ofício."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Resultado",
+     "Por quê"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 574. Os recursos serão voluntários, excetuando-se os seguintes casos, em que deverão ser interpostos, de ofício, pelo juiz:\n\nI - da sentença que conceder habeas corpus;\n\nII - da que absolver desde logo o réu com fundamento na existência de circunstância que exclua o crime ou isente o réu de pena, nos termos do art. 411.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 574.",
+      "Art. 575.",
+      "Art. 576.",
+      "Art. 577.",
+      "Art. 578.",
+      "Art. 579.",
+      "Art. 580.",
+      "Art. 617."
+     ],
+     "ref": "arts. 574 a 580 e 617 do CPP",
+     "regras": [
+      "<strong>Arts. 574 a 576.</strong> Recursos voluntários, com recurso de ofício da concessão de habeas corpus e da absolvição sumária por excludente; erro dos funcionários não prejudica o recurso; o MP não desiste do recurso interposto.",
+      "<strong>Arts. 577 e 578.</strong> Legitimados: MP, querelante, réu, procurador ou defensor; exige-se interesse; interposição por petição ou por termo nos autos.",
+      "<strong>Arts. 579 e 580.</strong> Fungibilidade, salvo má-fé; efeito extensivo no concurso de agentes.",
+      "<strong>Art. 617.</strong> O tribunal aplica as regras de emendatio, absolvição e condenação, mas não pode agravar a pena quando só o réu apelou."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - da sentença que conceder habeas corpus;",
+       "marcas": [
+        "conceder habeas corpus"
+       ],
+       "afirmacao": "O juiz concede habeas corpus para trancar um inquérito. Ninguém recorre, mas o próprio juiz deve recorrer de ofício ao tribunal.",
+       "gabarito": "C",
+       "porque": "A sentença que concede habeas corpus está sujeita a recurso de ofício (art. 574, I)."
+      },
+      {
+       "trecho": "Não serão prejudicados os recursos que, por erro, falta ou omissão dos funcionários, não tiverem seguimento",
+       "marcas": [
+        "erro, falta ou omissão dos funcionários"
+       ],
+       "afirmacao": "A apelação foi protocolada no prazo, mas o cartório a esqueceu numa gaveta e só a juntou meses depois. O recurso está perdido por intempestividade.",
+       "gabarito": "E",
+       "porque": "O recurso não é prejudicado por erro, falta ou omissão dos funcionários (art. 575)."
+      },
+      {
+       "trecho": "O Ministério Público não poderá desistir de recurso que haja interposto.",
+       "marcas": [
+        "não poderá desistir"
+       ],
+       "afirmacao": "O promotor apela da absolvição, mas, convencido pelos argumentos da defesa, desiste do recurso antes do julgamento.",
+       "gabarito": "E",
+       "porque": "O MP não pode desistir do recurso que interpôs (art. 576), embora não seja obrigado a recorrer."
+      },
+      {
+       "trecho": "Não se admitirá, entretanto, recurso da parte que não tiver interesse na reforma ou modificação da decisão.",
+       "marcas": [
+        "interesse"
+       ],
+       "afirmacao": "Absolvido por falta de provas, o réu apela para ser absolvido por estar provado que não é o autor do fato. Ele tem interesse recursal.",
+       "gabarito": "C",
+       "porque": "A mudança do fundamento da absolvição repercute no cível (art. 386), e isso dá interesse ao réu (art. 577, parágrafo único)."
+      },
+      {
+       "trecho": "Salvo a hipótese de má-fé, a parte não será prejudicada pela interposição de um recurso por outro.",
+       "marcas": [
+        "má-fé"
+       ],
+       "afirmacao": "Contra a rejeição da denúncia, o MP interpõe apelação dentro de 5 dias. O juiz deve receber o recurso como recurso em sentido estrito.",
+       "gabarito": "C",
+       "porque": "Pela fungibilidade, sem má-fé e no prazo do recurso certo, o juiz manda processar pelo rito cabível (art. 579 e parágrafo único)."
+      },
+      {
+       "trecho": "se fundado em motivos que não sejam de caráter exclusivamente pessoal, aproveitará aos outros",
+       "marcas": [
+        "caráter exclusivamente pessoal"
+       ],
+       "afirmacao": "Dois corréus são condenados por furto. Só um apela, e o tribunal reconhece que o fato é atípico. A absolvição alcança também o corréu que não recorreu.",
+       "gabarito": "C",
+       "porque": "A atipicidade não é motivo pessoal, e o provimento aproveita aos demais (art. 580)."
+      },
+      {
+       "trecho": "não podendo, porém, ser agravada a pena, quando somente o réu houver apelado da sentença",
+       "marcas": [
+        "somente o réu"
+       ],
+       "afirmacao": "Só a defesa apela, pedindo absolvição. O tribunal percebe que a pena foi mal calculada e a aumenta de ofício, porque o erro é de ordem pública.",
+       "gabarito": "E",
+       "porque": "Se só o réu apelou, a pena não pode ser agravada (art. 617)."
+      }
+     ],
+     "conferido": {
+      "Art. 574.": "6b4c93b36925",
+      "Art. 575.": "3e38ef6d8b89",
+      "Art. 576.": "106961f29b2b",
+      "Art. 577.": "f51f5c60fd36",
+      "Art. 578.": "8b14bfd6a49f",
+      "Art. 579.": "207f57777995",
+      "Art. 580.": "9e59d9cf0ea8",
+      "Art. 617.": "8547388eb5d8"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 579. Salvo a hipótese de má-fé, a parte não será prejudicada pela interposição de um recurso por outro.\n\nParágrafo único. Se o juiz, desde logo, reconhecer a impropriedade do recurso interposto pela parte, mandará processá-lo de acordo com o rito do recurso cabível.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 580. No caso de concurso de agentes (Código Penal, art. 25), a decisão do recurso interposto por um dos réus, se fundado em motivos que não sejam de caráter exclusivamente pessoal, aproveitará aos outros.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 581. Caberá recurso, no sentido estrito, da decisão, despacho ou sentença:\n\nI - que não receber a denúncia ou a queixa;\n\nII - que concluir pela incompetência do juízo;\n\nIII - que julgar procedentes as exceções, salvo a de suspeição;\n\nIV - que pronunciar o réu;\n\nV - que conceder, negar, arbitrar, cassar ou julgar inidônea a fiança, indeferir requerimento de prisão preventiva ou revogá-la, conceder liberdade provisória ou relaxar a prisão em flagrante;\n\n(...)\n\nVIII - que decretar a prescrição ou julgar, por outro modo, extinta a punibilidade;\n\nIX - que indeferir o pedido de reconhecimento da prescrição ou de outra causa extintiva da punibilidade;\n\nX - que conceder ou negar a ordem de habeas corpus;\n\n(...)\n\nXIII - que anular o processo da instrução criminal, no todo ou em parte;\n\n(...)\n\nXV - que denegar a apelação ou a julgar deserta;\n\nXVI - que ordenar a suspensão do processo, em virtude de questão prejudicial;\n\n(...)\n\nXXV - que recusar homologação à proposta de acordo de não persecução penal, previsto no art. 28-A desta Lei.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 593. Caberá apelação no prazo de cinco dias:\n\nI - das sentenças definitivas de condenação ou absolvição proferidas por Juiz singular;\n\nII - das decisões definitivas, ou com força de definitivas, proferidas por Juiz singular, nos casos não previstos no capítulo anterior;\n\nIII - das decisões do Tribunal do Júri, quando:\n\na) ocorrer nulidade posterior à pronúncia;\n\nb) for a sentença do Juiz Presidente contrária à lei expressa ou à decisão dos jurados;\n\nc) houver erro ou injustiça no tocante à aplicação da pena ou da medida de segurança;\n\nd) for a decisão dos jurados manifestamente contrária à prova dos autos.\n\n(...)\n\n§ 4º Quando cabível a apelação, não poderá ser usado o recurso em sentido estrito, ainda que somente de parte da decisão se recorra. (Parágrafo único transformado em § 4º pela Lei nº 263, de 23/2/1948, publicada no DOU de 26/2/1948, em vigor: no Distrito Federal, 3 dias após a publicação; 10 dias nos Estados do Rio de Janeiro, São Paulo e Minas; e, 20 dias, nos demais Estados e Territórios)",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 617. O tribunal, câmara ou turma atenderá nas suas decisões ao disposto nos arts. 383, 386 e 387, no que for aplicável, não podendo, porém, ser agravada a pena, quando somente o réu houver apelado da sentença.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "CINCO PARA RECORRER",
-     "texto": "RESE e apelação têm o mesmo prazo de interposição: 5 dias. Muda o das razões: 2 no RESE e 8 na apelação."
-    },
-    {
-     "sigla": "INFRINGENTES SÓ PARA O RÉU",
-     "texto": "Acórdão por maioria contra o réu: embargos infringentes e de nulidade em 10 dias. A acusação não tem esse recurso."
-    },
-    {
-     "sigla": "NÃO PIORA QUEM RECORRE SOZINHO",
-     "texto": "Se só a defesa recorre, a pena não sobe, nem no tribunal nem em novo julgamento após anulação."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -15702,121 +15780,1850 @@
      "texto": "A renúncia do réu ao direito de apelação, manifestada sem a assistência do defensor, não impede o conhecimento da apelação por este interposta."
     },
     {
+     "quem": "STF · Súmula 160",
+     "texto": "É nula a decisão do tribunal que acolhe, contra o réu, nulidade não arguida no recurso da acusação, ressalvados os casos de recurso de ofício."
+    },
+    {
+     "quem": "STJ · Súmula 604",
+     "texto": "O mandado de segurança não se presta para atribuir efeito suspensivo a recurso criminal interposto pelo Ministério Público."
+    }
+   ],
+   "detalhes": [
+    "Recurso de ofício: além do art. 574, leis especiais o preveem, como a absolvição ou o arquivamento nos crimes contra a economia popular e a saúde pública (Lei 1.521/1951, art. 7º). Parte da doutrina entende que o recurso de ofício da absolvição sumária (art. 574, II) perdeu sentido com a reforma do júri; na prova, siga o texto do CPP quando a questão pedir a lei.",
+    "Fungibilidade exige boa-fé: a jurisprudência a nega em caso de erro grosseiro ou de recurso interposto fora do prazo do recurso cabível.",
+    "Na apelação exclusiva da defesa, o efeito devolutivo é amplo a favor do réu: o tribunal pode absolver, reduzir a pena ou reconhecer nulidade de ofício, fora do que foi pedido. O que não pode é piorar a situação dele (FGV, Delegado PC-PR 2026).",
+    "Mandado de segurança para dar efeito suspensivo: negada a restituição do carro de que a dona depende para trabalhar, a Defensoria apela e impetra mandado de segurança só para dar efeito suspensivo à apelação; a resposta foi que cabe, excepcionalmente, para evitar lesão grave a direito líquido e certo (FGV, Defensor DPE-RJ 2026). Já para o recurso do MP, não serve (Súmula 604 do STJ).",
+    "Julgar a apelação em órgão fracionário composto majoritariamente por juízes convocados não viola o juiz natural (Cebraspe, Delegado PC-MA 2026).",
+    "O termo de recurso de quem não sabe ou não pode assinar é assinado por alguém a seu rogo, na presença de duas testemunhas (art. 578, § 1º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "MP NÃO DESISTE",
+     "texto": "O MP pode deixar de recorrer, mas, depois de recorrer, não desiste."
+    },
+    {
+     "sigla": "NÃO PIORA QUEM RECORRE SOZINHO",
+     "texto": "Se só a defesa recorre, a pena não sobe, nem no tribunal nem em novo julgamento após anulação."
+    },
+    {
+     "sigla": "MOTIVO PESSOAL NÃO SE ESTENDE",
+     "texto": "Atipicidade e nulidade se estendem ao corréu; menoridade e confissão, não."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Em recurso exclusivo da defesa, anulada a sentença, o juiz pode aplicar no novo julgamento pena mais grave que a anterior, porque a primeira sentença deixou de existir.",
+    "gabarito": "E",
+    "explicacao": "É a reformatio in pejus indireta, também vedada: a pena da sentença anulada é o teto no novo julgamento."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O MP pode desistir do recurso que interpôs, se convencido do acerto da decisão.",
+     "certo": "Não pode desistir (art. 576).",
+     "fonte": "Questão do app sobre o art. 576"
+    },
+    {
+     "errado": "A fungibilidade recursal se aplica mesmo havendo má-fé da parte.",
+     "certo": "Salvo má-fé (art. 579).",
+     "fonte": "Questão do app sobre o art. 579"
+    },
+    {
+     "errado": "O provimento do recurso de um corréu nunca beneficia os que não recorreram.",
+     "certo": "Beneficia, se o fundamento não for exclusivamente pessoal (art. 580).",
+     "fonte": "Questão do app sobre o art. 580"
+    },
+    {
+     "errado": "Na apelação exclusiva da defesa, o tribunal fica preso ao pedido e não pode reconhecer nulidade de ofício em favor do réu.",
+     "certo": "Pode beneficiar o réu de ofício; só não pode piorar a situação dele (art. 617).",
+     "fonte": "FGV, Delegado PC-PR 2026"
+    }
+   ],
+   "ja_caiu": [
+    "FGV: Delegado PC-PR 2026; Defensor DPE-RJ 2026",
+    "Cebraspe: Delegado PC-MA 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema dividido: aqui fica a teoria geral dos recursos (arts. 574 a 580 e 617); RESE, apelação, tribunais e recursos aos superiores ganharam temas próprios."
+    }
+   ],
+   "relacionados": [
+    "recurso-em-sentido-estrito",
+    "apelacao-criminal",
+    "julgamento-nos-tribunais-e-embargos",
+    "recursos-especial-extraordinario-e-carta-testemunhavel",
+    "revisao-criminal",
+    "habeas-corpus"
+   ]
+  },
+  {
+   "slug": "recurso-em-sentido-estrito",
+   "titulo": "Recurso em sentido estrito: cabimento, prazos, efeitos e retratação",
+   "grupo": "Recursos e ações autônomas",
+   "base": "Arts. 581 a 592 do CPP",
+   "tax": [
+    "processo-penal.recursos-geral.rese"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-581",
+    "n3689-1941-art-582",
+    "n3689-1941-art-583",
+    "n3689-1941-art-584",
+    "n3689-1941-art-585",
+    "n3689-1941-art-586",
+    "n3689-1941-art-587",
+    "n3689-1941-art-588",
+    "n3689-1941-art-589",
+    "n3689-1941-art-590",
+    "n3689-1941-art-591",
+    "n3689-1941-art-592"
+   ],
+   "conceitos": [
+    "rol do art. 581",
+    "rejeição da denúncia",
+    "incompetência",
+    "pronúncia",
+    "decisões sobre fiança e prisão",
+    "extinção da punibilidade",
+    "indeferimento da prescrição",
+    "habeas corpus em primeiro grau",
+    "lista de jurados",
+    "denegação da apelação",
+    "recusa do ANPP",
+    "subida nos próprios autos ou por instrumento",
+    "efeito suspensivo",
+    "efeito suspensivo ou ativo no inciso V",
+    "prazo de 5 dias",
+    "razões em 2 dias",
+    "juízo de retratação",
+    "agravo em execução",
+    "assistente e RESE"
+   ],
+   "palavras": [
+    "recurso no sentido estrito",
+    "recurso em sentido estrito",
+    "rese",
+    "nao receber a denuncia",
+    "rejeicao",
+    "incompetencia",
+    "excecoes",
+    "salvo a de suspeicao",
+    "pronunciar",
+    "fianca",
+    "prisao preventiva",
+    "liberdade provisoria",
+    "relaxar",
+    "quebrada",
+    "perdido o seu valor",
+    "prescricao",
+    "extinta a punibilidade",
+    "habeas corpus",
+    "suspensao condicional da pena",
+    "livramento condicional",
+    "anular o processo",
+    "lista geral",
+    "denegar a apelacao",
+    "deserta",
+    "questao prejudicial",
+    "unificacao de penas",
+    "incidente de falsidade",
+    "medida de seguranca",
+    "acordo de nao persecucao",
+    "proprios autos",
+    "traslado",
+    "instrumento",
+    "efeito suspensivo",
+    "efeito ativo",
+    "15.358",
+    "cinco dias",
+    "vinte dias",
+    "dois dias",
+    "razoes",
+    "reformara ou sustentara",
+    "retratacao",
+    "simples peticao",
+    "sumula 707",
+    "sumula 709",
+    "agravo em execucao",
+    "rol taxativo"
+   ],
+   "resumo": "O <strong>recurso em sentido estrito</strong> ataca decisões interlocutórias e algumas sentenças, nas hipóteses do <strong>art. 581</strong>. As mais cobradas: não receber a denúncia ou a queixa, concluir pela incompetência, julgar procedentes as exceções (salvo a de suspeição), <strong>pronunciar</strong> o réu, decidir sobre fiança, indeferir ou revogar a preventiva, conceder liberdade provisória ou relaxar o flagrante, decretar ou <strong>indeferir</strong> a prescrição, conceder ou negar habeas corpus, anular o processo, denegar a apelação ou julgá-la deserta e recusar a homologação do <strong>ANPP</strong>. O rol é tratado como taxativo, admitida a interpretação extensiva. O prazo é de <strong>5 dias</strong> (20 dias para a lista de jurados), com <strong>2 dias</strong> para razões e outros 2 para contrarrazões. Em regra não tem efeito suspensivo; tem nos casos de perda da fiança, livramento condicional, denegação da apelação, unificação de penas e conversão da multa (art. 584). Desde 2026, nas decisões sobre prisão e fiança, o recorrente pode pedir ao tribunal efeito suspensivo ou ativo. Antes de subir, o juiz pode se <strong>retratar</strong> em 2 dias (art. 589).",
+   "esquema": {
+    "rotulo": "o caminho do RESE",
+    "html": "<table><thead><tr><th>Etapa</th><th>Prazo</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Interposição, por petição ou termo</strong></td><td>5 dias (20 para a lista de jurados)</td><td>586</td></tr><tr><td><strong>Indicação de peças, se subir por instrumento</strong></td><td>No termo ou em requerimento avulso; traslado em 5 dias</td><td>587</td></tr><tr><td><strong>Razões do recorrente e contrarrazões</strong></td><td>2 dias cada</td><td>588</td></tr><tr><td><strong>Retratação do juiz</strong></td><td>2 dias para reformar ou sustentar</td><td>589</td></tr><tr><td><strong>Remessa ao tribunal</strong></td><td>5 dias da publicação da resposta do juiz</td><td>591</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "RESE ou apelação? As trocas mais cobradas",
+    "linhas": [
+     {
+      "nome": "Rejeição da denúncia ou queixa",
+      "o_que_e": "RESE (art. 581, I)",
+      "atencao": "Nos juizados, apelação (Lei 9.099/1995, art. 82)."
+     },
+     {
+      "nome": "Recebimento da denúncia",
+      "o_que_e": "Não há recurso",
+      "atencao": "Cabe habeas corpus, se houver ilegalidade."
+     },
+     {
+      "nome": "Pronúncia",
+      "o_que_e": "RESE (art. 581, IV)",
+      "atencao": "Impronúncia e absolvição sumária: apelação (art. 416)."
+     },
+     {
+      "nome": "Decreta ou indefere a prescrição",
+      "o_que_e": "RESE (art. 581, VIII e IX)",
+      "atencao": "Se declarada na sentença de mérito, apelação."
+     },
+     {
+      "nome": "Concede ou nega habeas corpus (juiz)",
+      "o_que_e": "RESE (art. 581, X)",
+      "atencao": "A concessão também tem recurso de ofício."
+     },
+     {
+      "nome": "Recusa homologar o ANPP",
+      "o_que_e": "RESE (art. 581, XXV)",
+      "atencao": "Incluído pela Lei 13.964/2019."
+     },
+     {
+      "nome": "Decisões do juiz da execução",
+      "o_que_e": "Agravo em execução (LEP, art. 197)",
+      "atencao": "Os incisos XI, XII, XVII e XIX a XXIV foram absorvidos pela LEP."
+     }
+    ],
+    "colunas": [
+     "Decisão",
+     "Recurso",
+     "Observação"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 581.",
+      "Art. 582.",
+      "Art. 583.",
+      "Art. 584.",
+      "Art. 585.",
+      "Art. 586.",
+      "Art. 587.",
+      "Art. 588.",
+      "Art. 589.",
+      "Art. 590.",
+      "Art. 591.",
+      "Art. 592."
+     ],
+     "ref": "arts. 581 a 592 do CPP",
+     "regras": [
+      "<strong>Art. 581.</strong> As hipóteses de cabimento, da rejeição da denúncia à recusa de homologação do ANPP.",
+      "<strong>Arts. 582 a 585.</strong> Recurso para o tribunal, salvo exceções; casos que sobem nos próprios autos; efeito suspensivo só nos casos listados; recurso da pronúncia suspende apenas o julgamento; efeito suspensivo ou ativo pedido ao tribunal no inciso V.",
+      "<strong>Arts. 586 a 590.</strong> Prazo de 5 dias (20 para a lista de jurados); traslado das peças; razões e contrarrazões em 2 dias; retratação em 2 dias; prorrogação do traslado até o dobro.",
+      "<strong>Arts. 591 e 592.</strong> Remessa ao tribunal em 5 dias da resposta do juiz e devolução dos autos em 5 dias depois da decisão."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - que não receber a denúncia ou a queixa;",
+       "marcas": [
+        "não receber"
+       ],
+       "afirmacao": "O juiz recebe a denúncia contra um empresário por sonegação. A defesa interpõe recurso em sentido estrito contra o recebimento.",
+       "gabarito": "E",
+       "porque": "Cabe RESE da decisão que não recebe a denúncia (art. 581, I). Contra o recebimento não há recurso; a via é o habeas corpus, se houver ilegalidade."
+      },
+      {
+       "trecho": "III - que julgar procedentes as exceções, salvo a de suspeição;",
+       "marcas": [
+        "salvo a de suspeição"
+       ],
+       "afirmacao": "O juiz julga procedente a exceção de coisa julgada e extingue o processo. O MP pode interpor recurso em sentido estrito.",
+       "gabarito": "C",
+       "porque": "Cabe RESE contra a decisão que julga procedentes as exceções, salvo a de suspeição (art. 581, III)."
+      },
+      {
+       "trecho": "IX - que indeferir o pedido de reconhecimento da prescrição ou de outra causa extintiva da punibilidade;",
+       "marcas": [
+        "indeferir"
+       ],
+       "afirmacao": "Na resposta à acusação, a defesa pede o reconhecimento da prescrição. O juiz indefere e manda o processo seguir. Essa decisão é irrecorrível, cabendo só habeas corpus.",
+       "gabarito": "E",
+       "porque": "Cabe RESE da decisão que indefere o reconhecimento da prescrição (art. 581, IX) (Cebraspe, Delegado PC-CE 2025)."
+      },
+      {
+       "trecho": "XXV - que recusar homologação à proposta de acordo de não persecução penal",
+       "marcas": [
+        "acordo de não persecução penal"
+       ],
+       "afirmacao": "O juiz recusa homologar o acordo de não persecução penal firmado entre o MP e o investigado. Cabe recurso em sentido estrito.",
+       "gabarito": "C",
+       "porque": "É a hipótese do art. 581, XXV, incluída pela Lei 13.964/2019."
+      },
+      {
+       "trecho": "O recurso da pronúncia suspenderá tão-somente o julgamento.",
+       "marcas": [
+        "tão-somente o julgamento"
+       ],
+       "afirmacao": "Pronunciado, o réu interpõe recurso em sentido estrito. Enquanto o recurso não é julgado, todo o processo fica parado, inclusive a análise de um pedido de revogação da preventiva.",
+       "gabarito": "E",
+       "porque": "O recurso da pronúncia suspende apenas o julgamento em plenário (art. 584, § 2º)."
+      },
+      {
+       "trecho": "o recorrente poderá pedir ao Tribunal ad quem concessão de efeito suspensivo ou ativo ao recurso interposto",
+       "marcas": [
+        "efeito suspensivo ou ativo"
+       ],
+       "afirmacao": "O juiz indefere a preventiva de um investigado que ameaça testemunhas. Ao recorrer, o MP pode pedir ao tribunal efeito ativo, para que a prisão seja decretada antes do julgamento do recurso.",
+       "gabarito": "C",
+       "porque": "Nas decisões do art. 581, V, o recorrente pode pedir ao tribunal efeito suspensivo ou ativo, demonstrando relevância, plausibilidade e risco de dano (art. 584, § 4º, incluído pela Lei 15.358/2026)."
+      },
+      {
+       "trecho": "O recurso voluntário poderá ser interposto no prazo de cinco dias.",
+       "marcas": [
+        "cinco dias"
+       ],
+       "afirmacao": "A defesa interpõe recurso em sentido estrito contra a pronúncia no 10º dia após a intimação, junto com as razões. O recurso é tempestivo.",
+       "gabarito": "E",
+       "porque": "O RESE é interposto em 5 dias (art. 586); as razões vêm em 2 dias depois (art. 588)."
+      },
+      {
+       "trecho": "o prazo será de vinte dias, contado da data da publicação definitiva da lista de jurados",
+       "marcas": [
+        "vinte dias"
+       ],
+       "afirmacao": "Um cidadão quer recorrer da inclusão de seu nome na lista geral de jurados. Tem 20 dias, contados da publicação definitiva da lista.",
+       "gabarito": "C",
+       "porque": "No caso do art. 581, XIV, o prazo é de 20 dias (art. 586, parágrafo único), e o recurso vai ao presidente do tribunal (art. 582, parágrafo único)."
+      },
+      {
+       "trecho": "que, dentro de dois dias, reformará ou sustentará o seu despacho",
+       "marcas": [
+        "reformará ou sustentará"
+       ],
+       "afirmacao": "Recebido o recurso em sentido estrito contra a rejeição da denúncia, o juiz se convence do erro e reforma a decisão, recebendo a denúncia.",
+       "gabarito": "C",
+       "porque": "O RESE tem juízo de retratação: em 2 dias, o juiz reforma ou sustenta a decisão (art. 589)."
+      },
+      {
+       "trecho": "não sendo mais lícito ao juiz modificá-la",
+       "marcas": [
+        "não sendo mais lícito"
+       ],
+       "afirmacao": "O juiz se retrata e reforma a decisão recorrida. A parte prejudicada pede nova retratação, e o juiz volta à decisão original.",
+       "gabarito": "E",
+       "porque": "Reformada a decisão, a parte contrária pode recorrer por simples petição, mas o juiz não pode mais modificá-la (art. 589, parágrafo único)."
+      }
+     ],
+     "conferido": {
+      "Art. 581.": "6d82de48ca4d",
+      "Art. 582.": "4e5edd64840a",
+      "Art. 583.": "4c3fc234c7bb",
+      "Art. 584.": "5a9676ac2bcc",
+      "Art. 585.": "aa0b5825f3d7",
+      "Art. 586.": "9239f7697682",
+      "Art. 587.": "e7420d85efe6",
+      "Art. 588.": "13ca1af3c6c7",
+      "Art. 589.": "2756a8655b39",
+      "Art. 590.": "b0204312ce91",
+      "Art. 591.": "a7434aeb81d4",
+      "Art. 592.": "c4e15fd858af"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
      "quem": "STF · Súmula 707",
      "texto": "Constitui nulidade a falta de intimação do denunciado para oferecer contrarrazões ao recurso interposto da rejeição da denúncia, não a suprindo a nomeação de defensor dativo."
     },
     {
-     "quem": "STJ · Súmula 347",
-     "texto": "O conhecimento de recurso de apelação do réu independe de sua prisão."
+     "quem": "STF · Súmula 709",
+     "texto": "Salvo quando nula a decisão de primeiro grau, o acórdão que provê o recurso contra a rejeição da denúncia vale, desde logo, pelo recebimento dela."
+    },
+    {
+     "quem": "STF · Súmula 210",
+     "texto": "O assistente do Ministério Público pode recorrer, inclusive extraordinariamente, na ação penal, nos casos dos arts. 584, § 1º, e 598 do CPP."
+    }
+   ],
+   "detalhes": [
+    "O assistente de acusação, mesmo não habilitado, pode recorrer da impronúncia e da decisão que extingue a punibilidade (arts. 584, § 1º, e 598; Súmula 210 do STF). Para o STJ, o assistente também pode interpor RESE contra a rejeição da denúncia (Informativo 883).",
+    "Sobem nos próprios autos os recursos de ofício, os dos incisos I, III, IV, VI, VIII e X e os que não prejudiquem o andamento do processo (art. 583). O da pronúncia sobe em traslado se, havendo mais de um réu, algum se conformar ou nem todos tiverem sido intimados.",
+    "O art. 585 (réu só recorre da pronúncia depois de preso) é considerado incompatível com a presunção de inocência e não é aplicado.",
+    "As decisões dos incisos XI, XII, XVII e XIX a XXIV, quando tomadas pelo juiz da execução, desafiam agravo em execução (LEP, art. 197), com prazo de 5 dias (Súmula 700 do STF).",
+    "O recurso quanto à lista de jurados (inciso XIV) vai ao presidente do tribunal (art. 582, parágrafo único).",
+    "Se o tribunal dá provimento ao RESE contra a rejeição da denúncia, o acórdão vale como recebimento, salvo se a decisão de primeiro grau for nula (Súmula 709 do STF).",
+    "Se o recorrido é o réu, ele é intimado para contrarrazões na pessoa do defensor (art. 588, parágrafo único); mas, no recurso contra a rejeição da denúncia, a falta de intimação do denunciado é nulidade (Súmula 707 do STF)."
+   ],
+   "macetes": [
+    {
+     "sigla": "CINCO PARA RECORRER, DOIS PARA ARRAZOAR",
+     "texto": "RESE: 5 dias para interpor e 2 para as razões. Apelação: 5 e 8."
+    },
+    {
+     "sigla": "NÃO RECEBEU, RESE; RECEBEU, HC",
+     "texto": "Rejeição da denúncia desafia RESE; o recebimento não tem recurso."
+    },
+    {
+     "sigla": "RETRATAÇÃO É DO RESE",
+     "texto": "O juiz pode reformar a própria decisão em 2 dias. Na apelação, não há retratação."
     }
    ],
    "pegadinha": {
     "afirmacao": "Contra a decisão que, ao apreciar a resposta à acusação, indefere o pedido de reconhecimento da prescrição e determina o prosseguimento do feito, não cabe recurso.",
     "gabarito": "E",
-    "explicacao": "Cabe recurso em sentido estrito, julgado pelo tribunal, porque o art. 581, IX, prevê o RESE contra a decisão que indefere o pedido de reconhecimento da prescrição (Cebraspe, Delegado PC-CE 2025)."
+    "explicacao": "Cabe recurso em sentido estrito, porque o art. 581, IX, prevê o RESE contra a decisão que indefere o pedido de reconhecimento da prescrição (Cebraspe, Delegado PC-CE 2025)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Recurso de ofício.</strong> Além da concessão de habeas corpus, o CPP prevê recurso de ofício da absolvição sumária por excludente (art. 574, II), mas parte da doutrina e da jurisprudência entende que essa segunda hipótese perdeu sentido depois que o art. 415 passou a reger o júri. Na prova, siga o texto da lei quando a questão pedir o CPP.</p><p><strong>Júri.</strong> O efeito devolutivo da apelação contra decisões do júri é adstrito aos fundamentos da sua interposição (Súmula 713 do STF).</p><p><strong>Apelação só da defesa.</strong> Na apelação exclusiva da defesa, o efeito devolutivo é amplo a favor do réu: o tribunal pode absolver, reduzir a pena ou reconhecer nulidade de ofício, mesmo fora do que foi pedido. O que não pode é piorar a situação do réu (art. 617 do CPP, proibição da reformatio in pejus). Errado dizer que o tribunal fica preso ao pedido da defesa. Também está errado falar em deserção pela fuga do réu: o art. 595 foi revogado em 2011 e a apelação não depende de o réu se recolher à prisão (Súmula 347 do STJ) (FGV, Delegado PC-PR 2026).</p><p><strong>Mandado de segurança para dar efeito suspensivo.</strong> Negada a restituição do carro de que a dona depende para trabalhar, a Defensoria apela e impetra mandado de segurança só para dar efeito suspensivo à apelação. A resposta foi que cabe, excepcionalmente, para evitar lesão grave a direito líquido e certo, sem substituir o recurso (FGV, Defensor DPE-RJ 2026). Não confunda com a Súmula 604 do STJ: o mandado de segurança não serve para dar efeito suspensivo a recurso criminal interposto pelo Ministério Público.</p><p><strong>Câmara com juízes convocados.</strong> Julgar a apelação em órgão fracionário composto majoritariamente por juízes convocados não viola o juiz natural. Na mesma linha, também não viola o juiz natural designar magistrados para mutirão carcerário (Cebraspe, Delegado PC-MA 2026).</p><p><strong>Carta testemunhável.</strong> Cabe da decisão que nega seguimento ao recurso ou que, admitindo-o, impede sua expedição e seguimento ao tribunal (art. 639). É requerida ao escrivão nas 48 horas seguintes ao despacho, com a indicação das peças a trasladar (art. 640). Não serve contra decisão de mérito nem contra a que nega apelação, que tem recurso próprio (RESE, art. 581, XV).</p><p><strong>Retratação no RESE (art. 589).</strong> O juiz tem dois dias para reformar ou sustentar a decisão. Se reformar, a parte contrária pode recorrer da nova decisão por simples petição, se couber recurso, e o juiz já não pode modificá-la de novo; o recurso sobe sem novos arrazoados.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Cabe recurso em sentido estrito contra a decisão que recebe a denúncia.",
+     "certo": "Cabe contra a que não recebe (art. 581, I); contra o recebimento, habeas corpus.",
+     "fonte": "Questão do app sobre o art. 581"
+    },
+    {
+     "errado": "Cabe RESE contra a decisão que julga procedente a exceção de suspeição.",
+     "certo": "A suspeição é ressalvada no art. 581, III.",
+     "fonte": "Questão do app sobre o art. 581"
+    },
+    {
+     "errado": "O recurso da pronúncia suspende todo o processo.",
+     "certo": "Suspende só o julgamento (art. 584, § 2º).",
+     "fonte": "Questão do app sobre o art. 584"
+    },
+    {
+     "errado": "O prazo das razões do RESE é de 8 dias.",
+     "certo": "É de 2 dias (art. 588); 8 dias são da apelação (art. 600).",
+     "fonte": "Questão do app sobre o art. 588"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-CE 2025"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: recurso em sentido estrito (arts. 581 a 592), com o efeito suspensivo ou ativo do art. 584, § 4º (Lei 15.358/2026)."
+    }
+   ],
    "relacionados": [
-    "habeas-corpus",
-    "revisao-criminal",
+    "recursos-no-processo-penal",
+    "apelacao-criminal",
     "tribunal-do-juri",
-    "nulidades"
+    "recursos-especial-extraordinario-e-carta-testemunhavel"
+   ]
+  },
+  {
+   "slug": "apelacao-criminal",
+   "titulo": "Apelação criminal: cabimento, júri, efeitos e prazos",
+   "grupo": "Recursos e ações autônomas",
+   "base": "Arts. 593 e 596 a 603 do CPP",
+   "tax": [
+    "processo-penal.recursos-geral.apelacao",
+    "processo-penal.tribunal-juri.apelacao"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-593",
+    "n3689-1941-art-596",
+    "n3689-1941-art-597",
+    "n3689-1941-art-598",
+    "n3689-1941-art-599",
+    "n3689-1941-art-600",
+    "n3689-1941-art-601",
+    "n3689-1941-art-602",
+    "n3689-1941-art-603"
+   ],
+   "conceitos": [
+    "apelação contra sentença definitiva",
+    "apelação residual",
+    "apelação contra decisões do júri",
+    "decisão manifestamente contrária à prova",
+    "uma só apelação pelo mérito",
+    "efeito devolutivo no júri",
+    "apelação absorve o RESE",
+    "efeito suspensivo",
+    "apelação do ofendido não habilitado",
+    "apelação total ou parcial",
+    "razões em 8 dias",
+    "razões na superior instância",
+    "apelação do réu foragido",
+    "prazo de MP e Defensoria no júri"
+   ],
+   "palavras": [
+    "apelacao",
+    "cinco dias",
+    "sentencas definitivas",
+    "condenacao ou absolvicao",
+    "juiz singular",
+    "forca de definitivas",
+    "tribunal do juri",
+    "nulidade posterior a pronuncia",
+    "contraria a lei expressa",
+    "decisao dos jurados",
+    "erro ou injustica",
+    "aplicacao da pena",
+    "manifestamente contraria a prova",
+    "novo julgamento",
+    "segunda apelacao",
+    "nao podera ser usado o recurso em sentido estrito",
+    "absolutoria",
+    "liberdade",
+    "efeito suspensivo",
+    "ofendido",
+    "nao se tenha habilitado",
+    "quinze dias",
+    "15 dias",
+    "todo o julgado",
+    "parte dele",
+    "oito dias",
+    "8 dias",
+    "tres dias",
+    "contravencao",
+    "superior instancia",
+    "traslado",
+    "sumula 713",
+    "sumula 347",
+    "sumula 448",
+    "sumula 708",
+    "tema 1.087",
+    "desercao",
+    "foragido",
+    "tema 1.403",
+    "clemencia"
+   ],
+   "resumo": "Cabe <strong>apelação</strong>, em <strong>5 dias</strong>, contra as sentenças definitivas de condenação ou absolvição do juiz singular e, de forma residual, contra decisões definitivas ou com força de definitivas não sujeitas a recurso em sentido estrito (art. 593, I e II). No <strong>júri</strong>, a apelação é vinculada: só cabe por nulidade posterior à pronúncia, sentença do presidente contrária à lei ou aos jurados, erro na pena ou decisão dos jurados <strong>manifestamente contrária à prova</strong>. Nesse último caso, o tribunal não absolve nem condena: manda o réu a <strong>novo júri</strong>, e não cabe segunda apelação pelo mesmo motivo. Quando cabe apelação, não se usa o RESE, ainda que se recorra só de parte da decisão. A apelação da absolvição não impede a soltura do réu, e a da condenação tem efeito suspensivo. Se o MP não apela, o ofendido ou seus sucessores podem apelar, mesmo sem habilitação, em <strong>15 dias</strong> contados do fim do prazo do MP. Interposta a apelação, apelante e apelado têm <strong>8 dias</strong> cada para razões (3 nas contravenções), e o apelante pode arrazoar no tribunal.",
+   "esquema": {
+    "rotulo": "apelação contra o júri (art. 593, III)",
+    "html": "<table><thead><tr><th>Fundamento</th><th>O que o tribunal faz</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>a) Nulidade posterior à pronúncia</strong></td><td>Anula e manda a novo julgamento</td><td>593, III, a</td></tr><tr><td><strong>b) Sentença do presidente contrária à lei ou aos jurados</strong></td><td>Corrige a própria sentença</td><td>593, § 1º</td></tr><tr><td><strong>c) Erro ou injustiça na pena ou na medida de segurança</strong></td><td>Retifica a pena</td><td>593, § 2º</td></tr><tr><td><strong>d) Decisão dos jurados manifestamente contrária à prova</strong></td><td>Manda a novo júri, uma única vez</td><td>593, § 3º</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Prazos da apelação",
+    "linhas": [
+     {
+      "nome": "Interposição",
+      "o_que_e": "5 dias",
+      "atencao": "Art. 593."
+     },
+     {
+      "nome": "Razões do apelante e do apelado",
+      "o_que_e": "8 dias cada; 3 nas contravenções",
+      "atencao": "Art. 600."
+     },
+     {
+      "nome": "Razões do assistente",
+      "o_que_e": "3 dias, depois do MP",
+      "atencao": "Art. 600, § 1º."
+     },
+     {
+      "nome": "Apelação do ofendido não habilitado",
+      "o_que_e": "15 dias, do fim do prazo do MP",
+      "atencao": "Art. 598, parágrafo único."
+     },
+     {
+      "nome": "Remessa ao tribunal",
+      "o_que_e": "5 dias; 30 se houver traslado",
+      "atencao": "Art. 601."
+     }
+    ],
+    "colunas": [
+     "Ato",
+     "Prazo",
+     "Artigo"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 593.",
+      "Art. 596.",
+      "Art. 597.",
+      "Art. 598.",
+      "Art. 599.",
+      "Art. 600.",
+      "Art. 601.",
+      "Art. 602.",
+      "Art. 603."
+     ],
+     "ref": "arts. 593 e 596 a 603 do CPP",
+     "regras": [
+      "<strong>Art. 593.</strong> Cabimento da apelação em 5 dias: sentenças definitivas, decisões com força de definitivas não sujeitas a RESE e as quatro hipóteses do júri; novo júri uma só vez por decisão contrária à prova; apelação absorve o RESE.",
+      "<strong>Arts. 596 a 599.</strong> Absolvição: réu solto de imediato; condenação: efeito suspensivo, com ressalvas; apelação supletiva do ofendido em 15 dias, sem efeito suspensivo; apelação total ou parcial.",
+      "<strong>Arts. 600 a 603.</strong> Razões em 8 dias (3 nas contravenções), do assistente em 3; razões na superior instância; remessa dos autos e traslado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "II - das decisões definitivas, ou com força de definitivas, proferidas por Juiz singular, nos casos não previstos no capítulo anterior;",
+       "marcas": [
+        "nos casos não previstos no capítulo anterior"
+       ],
+       "afirmacao": "O juiz indefere o pedido de restituição de um carro apreendido, e não há hipótese de recurso em sentido estrito para isso. Cabe apelação.",
+       "gabarito": "C",
+       "porque": "A decisão com força de definitiva fora do rol do RESE desafia apelação (art. 593, II)."
+      },
+      {
+       "trecho": "d) for a decisão dos jurados manifestamente contrária à prova dos autos.",
+       "marcas": [
+        "manifestamente contrária"
+       ],
+       "afirmacao": "O réu foi absolvido pelo júri com apoio numa tese da defesa que tinha respaldo em depoimentos colhidos em plenário. O MP apela, dizendo que a outra versão era mais convincente, e o tribunal deve mandar o réu a novo júri.",
+       "gabarito": "E",
+       "porque": "Só a decisão manifestamente contrária à prova autoriza novo júri (art. 593, III, d). Se os jurados escolheram uma das versões apoiadas na prova, prevalece a soberania dos veredictos."
+      },
+      {
+       "trecho": "não se admite, porém, pelo mesmo motivo, segunda apelação",
+       "marcas": [
+        "segunda apelação"
+       ],
+       "afirmacao": "Mandado o réu a novo júri por decisão manifestamente contrária à prova, ele é de novo absolvido com a mesma tese. O MP apela pelo mesmo motivo.",
+       "gabarito": "E",
+       "porque": "Não se admite segunda apelação pelo mesmo motivo (art. 593, § 3º)."
+      },
+      {
+       "trecho": "Quando cabível a apelação, não poderá ser usado o recurso em sentido estrito, ainda que somente de parte da decisão se recorra.",
+       "marcas": [
+        "ainda que somente de parte"
+       ],
+       "afirmacao": "Na sentença condenatória, o juiz também negou a substituição da pena. O réu quer recorrer só desse ponto e deve usar o recurso em sentido estrito.",
+       "gabarito": "E",
+       "porque": "Quando cabe apelação, não se usa o RESE, ainda que se recorra só de parte da decisão (art. 593, § 4º)."
+      },
+      {
+       "trecho": "A apelação da sentença absolutória não impedirá que o réu seja posto imediatamente em liberdade.",
+       "marcas": [
+        "imediatamente em liberdade"
+       ],
+       "afirmacao": "Absolvido, o réu preso preventivamente só é solto depois do trânsito em julgado, porque o MP apelou.",
+       "gabarito": "E",
+       "porque": "A apelação da absolvição não impede a soltura imediata (art. 596)."
+      },
+      {
+       "trecho": "ainda que não se tenha habilitado como assistente, poderá interpor apelação, que não terá, porém, efeito suspensivo",
+       "marcas": [
+        "ainda que não se tenha habilitado"
+       ],
+       "afirmacao": "Absolvido o réu por homicídio, o MP não apela. A mãe da vítima, que nunca se habilitou como assistente, pode apelar.",
+       "gabarito": "C",
+       "porque": "O ofendido ou as pessoas do art. 31 podem apelar mesmo sem habilitação, se o MP não o fizer (art. 598), em 15 dias do fim do prazo do MP."
+      },
+      {
+       "trecho": "O prazo para interposição desse recurso será de quinze dias e correrá do dia em que terminar o do Ministério Público.",
+       "marcas": [
+        "quinze dias"
+       ],
+       "afirmacao": "O prazo do MP para apelar terminou numa segunda-feira. A vítima não habilitada tem 5 dias, a partir da intimação dela, para apelar.",
+       "gabarito": "E",
+       "porque": "O prazo da apelação supletiva do ofendido não habilitado é de 15 dias, contados do fim do prazo do MP (art. 598, parágrafo único; Súmula 448 do STF)."
+      },
+      {
+       "trecho": "terão o prazo de oito dias cada um para oferecer razões, salvo nos processos de contravenção, em que o prazo será de três dias",
+       "marcas": [
+        "oito dias"
+       ],
+       "afirmacao": "Interposta a apelação num processo por furto, o apelante tem 8 dias para as razões, e depois o apelado tem o mesmo prazo.",
+       "gabarito": "C",
+       "porque": "É o art. 600, caput; nas contravenções, 3 dias."
+      },
+      {
+       "trecho": "que deseja arrazoar na Superior Instância",
+       "marcas": [
+        "Superior Instância"
+       ],
+       "afirmacao": "Ao interpor a apelação, o defensor declara que quer apresentar as razões no tribunal. O pedido deve ser indeferido, porque as razões são sempre apresentadas no primeiro grau.",
+       "gabarito": "E",
+       "porque": "O apelante pode declarar que deseja arrazoar na superior instância (art. 600, § 4º)."
+      }
+     ],
+     "conferido": {
+      "Art. 593.": "cce57b72ec18",
+      "Art. 596.": "fb7b467db949",
+      "Art. 597.": "fff7e30692c5",
+      "Art. 598.": "fbee17342f4d",
+      "Art. 599.": "6f0974d6f515",
+      "Art. 600.": "8d8d69377d86",
+      "Art. 601.": "bce754ce79d7",
+      "Art. 602.": "c2a168908c57",
+      "Art. 603.": "4f16e3df8f88"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 713",
+     "texto": "O efeito devolutivo da apelação contra decisões do Júri é adstrito aos fundamentos da sua interposição."
+    },
+    {
+     "quem": "STJ · Súmula 347",
+     "texto": "O conhecimento de recurso de apelação do réu independe de sua prisão."
+    },
+    {
+     "quem": "STF · Súmula 708",
+     "texto": "É nulo o julgamento da apelação se, após a manifestação nos autos da renúncia do único defensor, o réu não foi previamente intimado para constituir outro."
+    },
+    {
+     "quem": "STF · ARE 1.225.185 (Tema 1.087)",
+     "texto": "É cabível apelação com base no art. 593, III, d, do CPP quando a decisão do júri, amparada em quesito genérico, for considerada pela acusação manifestamente contrária à prova dos autos. O tribunal não determinará novo júri se tiver sido apresentada em ata tese de clemência acolhida pelos jurados, compatível com a Constituição, os precedentes vinculantes do STF e as circunstâncias dos autos."
+    }
+   ],
+   "detalhes": [
+    "A fuga do réu não gera deserção: o art. 595 foi revogado em 2011, e a apelação não depende de ele se recolher à prisão (Súmula 347 do STJ) (FGV, Delegado PC-PR 2026).",
+    "Acolhida pelos jurados a tese de ausência de autoria, de forma coerente com as provas debatidas em plenário, o tribunal não pode mandar o réu a novo júri (STJ).",
+    "Para MP e Defensoria, o prazo para recorrer de decisão do júri corre da entrega dos autos ao órgão, ainda que intimados em plenário (STJ, Tema 1.403).",
+    "Pelo motivo de decisão contrária à prova, só se admite uma apelação, seja de quem for: se o tribunal manda a novo júri por recurso do MP, a defesa não pode depois apelar pelo mesmo motivo.",
+    "A apelação da condenação tem efeito suspensivo (art. 597), mas no júri a condenação pode ser executada de imediato (Tema 1.068 do STF; art. 492, § 4º).",
+    "A apelação contra a sentença do juizado especial criminal é de 10 dias, com razões juntas, e julgada pela turma recursal (Lei 9.099/1995, art. 82).",
+    "Havendo mais de um apelante ou apelado, os prazos são comuns (art. 600, § 3º).",
+    "No novo júri realizado porque o primeiro veredito foi manifestamente contrário à prova, não se admite inovação no conjunto probatório: o novo Conselho julga sobre as mesmas provas (STJ, Informativo 870)."
+   ],
+   "macetes": [
+    {
+     "sigla": "APELAÇÃO ENGOLE O RESE",
+     "texto": "Se cabe apelação contra a decisão, não se usa o RESE, nem para parte dela (art. 593, § 4º)."
+    },
+    {
+     "sigla": "CONTRÁRIA À PROVA, UMA VEZ SÓ",
+     "texto": "O tribunal manda a novo júri uma única vez pelo mesmo motivo; não absolve nem condena."
+    },
+    {
+     "sigla": "VÍTIMA SEM HABILITAÇÃO: QUINZE DIAS",
+     "texto": "Contados do fim do prazo do MP, e sem efeito suspensivo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Provida a apelação do MP porque a absolvição pelo júri foi manifestamente contrária à prova, o tribunal condena desde logo o réu.",
+    "gabarito": "E",
+    "explicacao": "O tribunal só pode sujeitar o réu a novo julgamento pelo júri (art. 593, § 3º); condenar diretamente violaria a soberania dos veredictos."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A apelação do réu foragido não deve ser conhecida enquanto ele não se recolher à prisão.",
+     "certo": "O conhecimento independe da prisão (Súmula 347 do STJ).",
+     "fonte": "Questão do app sobre a apelação"
+    },
+    {
+     "errado": "O efeito devolutivo da apelação contra o júri é amplo, e o tribunal pode examinar qualquer ponto.",
+     "certo": "É adstrito aos fundamentos da interposição (Súmula 713 do STF).",
+     "fonte": "Questão do app sobre o júri"
+    },
+    {
+     "errado": "Contra a parte da sentença que nega o sursis cabe recurso em sentido estrito.",
+     "certo": "Se a decisão está na sentença, a apelação absorve o RESE (art. 593, § 4º).",
+     "fonte": "Questão do app sobre o art. 593"
+    },
+    {
+     "errado": "Contra a impronúncia cabe recurso em sentido estrito.",
+     "certo": "Cabe apelação (art. 416).",
+     "fonte": "Questão do app sobre o art. 416"
+    }
+   ],
+   "ja_caiu": [
+    "FGV: Delegado PC-PR 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: apelação criminal (arts. 593 e 596 a 603), com a apelação contra o júri, a do ofendido não habilitado e os Temas 1.087 e 1.403."
+    }
+   ],
+   "relacionados": [
+    "recursos-no-processo-penal",
+    "recurso-em-sentido-estrito",
+    "juri-quesitos-sentenca-e-ata",
+    "julgamento-nos-tribunais-e-embargos"
+   ]
+  },
+  {
+   "slug": "julgamento-nos-tribunais-e-embargos",
+   "titulo": "Julgamento nos tribunais, embargos infringentes e embargos de declaração",
+   "grupo": "Recursos e ações autônomas",
+   "base": "Arts. 609 a 616 e 618 a 620 do CPP",
+   "tax": [
+    "processo-penal.recursos-geral.tribunais-embargos"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-609",
+    "n3689-1941-art-610",
+    "n3689-1941-art-612",
+    "n3689-1941-art-613",
+    "n3689-1941-art-614",
+    "n3689-1941-art-615",
+    "n3689-1941-art-616",
+    "n3689-1941-art-618",
+    "n3689-1941-art-619",
+    "n3689-1941-art-620"
+   ],
+   "conceitos": [
+    "competência das câmaras criminais",
+    "embargos infringentes e de nulidade",
+    "divergência parcial",
+    "processamento do RESE e da apelação de detenção",
+    "apelação de reclusão com revisor",
+    "sustentação oral",
+    "julgamento por maioria",
+    "empate favorável ao réu",
+    "diligências no tribunal",
+    "embargos de declaração",
+    "prazo de 2 dias",
+    "intimação da pauta"
+   ],
+   "palavras": [
+    "tribunais de justica",
+    "camaras",
+    "turmas criminais",
+    "nao for unanime",
+    "desfavoravel ao reu",
+    "embargos infringentes",
+    "embargos de nulidade",
+    "10 dias",
+    "dez dias",
+    "materia objeto de divergencia",
+    "procurador-geral",
+    "relator",
+    "revisor",
+    "reclusao",
+    "detencao",
+    "dez minutos",
+    "quarto de hora",
+    "primeira sessao",
+    "maioria de votos",
+    "empate",
+    "mais favoravel",
+    "14.836",
+    "novo interrogatorio",
+    "reinquirir",
+    "diligencias",
+    "embargos de declaracao",
+    "dois dias",
+    "ambiguidade",
+    "obscuridade",
+    "contradicao",
+    "omissao",
+    "sumula 431",
+    "pauta"
+   ],
+   "resumo": "No tribunal, os recursos são julgados pelas câmaras ou turmas criminais, conforme a organização judiciária (art. 609). No RESE e na apelação de crime apenado com <strong>detenção</strong> ou contravenção, os autos vão ao procurador-geral por 5 dias e ao relator por igual prazo, com 10 minutos de sustentação oral; na apelação de crime apenado com <strong>reclusão</strong>, há também <strong>revisor</strong>, os prazos dobram e os debates duram um quarto de hora. O tribunal decide por maioria e, desde 2024, havendo <strong>empate</strong>, prevalece a decisão <strong>mais favorável ao réu</strong>, ainda que o colegiado esteja incompleto. Na apelação, o tribunal pode reinterrogar o réu, reouvir testemunhas e ordenar diligências. Contra acórdão de segunda instância <strong>não unânime e desfavorável ao réu</strong>, cabem <strong>embargos infringentes e de nulidade</strong>, exclusivos da defesa, em <strong>10 dias</strong>, restritos à matéria da divergência. Contra acórdão ambíguo, obscuro, contraditório ou omisso, cabem <strong>embargos de declaração</strong> em <strong>2 dias</strong>, julgados pelo relator na primeira sessão.",
+   "esquema": {
+    "rotulo": "embargos lado a lado",
+    "html": "<table><thead><tr><th>Ponto</th><th>Infringentes e de nulidade</th><th>De declaração</th></tr></thead><tbody><tr><td><strong>Contra o quê</strong></td><td>Acórdão de 2ª instância não unânime e desfavorável ao réu</td><td>Acórdão ambíguo, obscuro, contraditório ou omisso</td></tr><tr><td><strong>Quem opõe</strong></td><td>Só a defesa</td><td>Qualquer parte</td></tr><tr><td><strong>Prazo</strong></td><td>10 dias da publicação do acórdão</td><td>2 dias da publicação</td></tr><tr><td><strong>Alcance</strong></td><td>Só a matéria da divergência</td><td>Só os pontos apontados</td></tr><tr><td><strong>Artigo</strong></td><td>609, parágrafo único</td><td>619 e 620</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 609.",
+      "Art. 610.",
+      "Art. 612.",
+      "Art. 613.",
+      "Art. 614.",
+      "Art. 615.",
+      "Art. 616.",
+      "Art. 618.",
+      "Art. 619.",
+      "Art. 620."
+     ],
+     "ref": "arts. 609 a 616 e 618 a 620 do CPP",
+     "regras": [
+      "<strong>Art. 609.</strong> Julgamento pelas câmaras ou turmas criminais; embargos infringentes e de nulidade contra decisão não unânime desfavorável ao réu, em 10 dias, restritos à divergência.",
+      "<strong>Arts. 610 a 614.</strong> Rito do RESE e da apelação de detenção ou contravenção: procurador-geral, relator e 10 minutos de sustentação; habeas corpus na primeira sessão; apelação de reclusão com revisor, prazos em dobro e 15 minutos de debates.",
+      "<strong>Arts. 615, 616 e 618.</strong> Decisão por maioria e empate a favor do réu; novas diligências na apelação; normas complementares nos regimentos.",
+      "<strong>Arts. 619 e 620.</strong> Embargos de declaração em 2 dias contra ambiguidade, obscuridade, contradição ou omissão, julgados pelo relator na primeira sessão."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Quando não for unânime a decisão de segunda instância, desfavorável ao réu, admitem-se embargos infringentes e de nulidade",
+       "marcas": [
+        "desfavorável ao réu"
+       ],
+       "afirmacao": "O tribunal absolve o réu por 2 votos a 1. O MP opõe embargos infringentes para fazer prevalecer o voto vencido.",
+       "gabarito": "E",
+       "porque": "Os embargos infringentes e de nulidade cabem só contra decisão não unânime desfavorável ao réu (art. 609, parágrafo único). A acusação não tem esse recurso."
+      },
+      {
+       "trecho": "Se o desacordo for parcial, os embargos serão restritos à matéria objeto de divergência.",
+       "marcas": [
+        "restritos à matéria objeto de divergência"
+       ],
+       "afirmacao": "O tribunal mantém a condenação por unanimidade, mas fixa o regime fechado por 2 votos a 1. Os embargos infringentes da defesa só podem discutir o regime.",
+       "gabarito": "C",
+       "porque": "Se o desacordo é parcial, os embargos ficam restritos à divergência (art. 609, parágrafo único)."
+      },
+      {
+       "trecho": "passarão estes ao revisor",
+       "marcas": [
+        "revisor"
+       ],
+       "afirmacao": "Na apelação de um condenado por roubo, crime apenado com reclusão, o processo passa pelo relator e depois pelo revisor antes do julgamento.",
+       "gabarito": "C",
+       "porque": "Nas apelações de crime apenado com reclusão, há revisor, e os prazos dobram (art. 613)."
+      },
+      {
+       "trecho": "havendo empate, prevalecerá a decisão mais favorável ao indivíduo imputado",
+       "marcas": [
+        "mais favorável ao indivíduo imputado"
+       ],
+       "afirmacao": "Numa turma de cinco desembargadores, um está impedido, e a apelação do réu empata em 2 a 2. O julgamento deve ser suspenso até a convocação de outro julgador.",
+       "gabarito": "E",
+       "porque": "Havendo empate, prevalece de imediato a decisão mais favorável ao réu, ainda que o colegiado esteja incompleto por impedimento (art. 615, § 1º, com a redação da Lei 14.836/2024)."
+      },
+      {
+       "trecho": "No julgamento das apelações poderá o tribunal, câmara ou turma proceder a novo interrogatório do acusado, reinquirir testemunhas ou determinar outras diligências.",
+       "marcas": [
+        "novo interrogatório"
+       ],
+       "afirmacao": "Julgando a apelação, a câmara criminal decide ouvir de novo uma testemunha cujo depoimento ficou confuso no primeiro grau.",
+       "gabarito": "C",
+       "porque": "O tribunal pode reinterrogar o réu, reinquirir testemunhas e determinar diligências na apelação (art. 616)."
+      },
+      {
+       "trecho": "poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação",
+       "marcas": [
+        "dois dias"
+       ],
+       "afirmacao": "Publicado o acórdão com uma omissão sobre a detração, a defesa opõe embargos de declaração no 5º dia.",
+       "gabarito": "E",
+       "porque": "O prazo dos embargos de declaração no CPP é de 2 dias (art. 619)."
+      },
+      {
+       "trecho": "Se não preenchidas as condições enumeradas neste artigo, o relator indeferirá desde logo o requerimento.",
+       "marcas": [
+        "indeferirá desde logo"
+       ],
+       "afirmacao": "Os embargos de declaração não apontam nenhuma ambiguidade, obscuridade, contradição ou omissão; só repetem as razões da apelação. O relator pode indeferi-los de plano.",
+       "gabarito": "C",
+       "porque": "Sem as condições do art. 620, o relator indefere desde logo o requerimento (art. 620, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 609.": "4cbfad0a823a",
+      "Art. 610.": "71381d4d856c",
+      "Art. 612.": "5b7078cc7ca0",
+      "Art. 613.": "1fa8dfc6423c",
+      "Art. 614.": "f4b3e5bcf033",
+      "Art. 615.": "ea2d3d3f239d",
+      "Art. 616.": "503d9cb061c2",
+      "Art. 618.": "e18c0f42fa79",
+      "Art. 619.": "81d11ecd325b",
+      "Art. 620.": "47dac051c863"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 431",
+     "texto": "É nulo o julgamento de recurso criminal, na segunda instância, sem prévia intimação, ou publicação da pauta, salvo em habeas corpus."
+    }
+   ],
+   "detalhes": [
+    "O voto vencido define o limite dos embargos infringentes: se o vencido só reduzia a pena, os embargos não podem pedir absolvição.",
+    "No juizado especial criminal, os embargos de declaração têm prazo de 5 dias e interrompem o prazo para outros recursos (Lei 9.099/1995, art. 83).",
+    "No habeas corpus, a regra do empate também favorece o paciente (art. 664, parágrafo único).",
+    "Os recursos de habeas corpus são julgados na primeira sessão após a designação do relator (art. 612).",
+    "Se algum prazo dos arts. 610 e 613 não puder ser cumprido, os motivos da demora são declarados nos autos (art. 614)."
+   ],
+   "macetes": [
+    {
+     "sigla": "INFRINGENTES SÓ PARA O RÉU",
+     "texto": "Acórdão por maioria contra o réu: 10 dias. A acusação não tem esse recurso."
+    },
+    {
+     "sigla": "DECLARAÇÃO EM DOIS",
+     "texto": "Embargos de declaração no CPP: 2 dias. No juizado, 5 dias."
+    },
+    {
+     "sigla": "EMPATE É DO RÉU",
+     "texto": "Desde 2024, empate em qualquer julgamento criminal colegiado favorece o acusado (art. 615, § 1º)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os embargos infringentes e de nulidade podem ser opostos pelo Ministério Público contra acórdão não unânime que absolve o réu.",
+    "gabarito": "E",
+    "explicacao": "São exclusivos da defesa: cabem só contra decisão não unânime desfavorável ao réu (art. 609, parágrafo único)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Os embargos infringentes têm prazo de 15 dias.",
+     "certo": "Têm prazo de 10 dias da publicação do acórdão (art. 609, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 609"
+    },
+    {
+     "errado": "Havendo empate por ausência de um julgador, aguarda-se a recomposição do colegiado.",
+     "certo": "Prevalece de imediato a decisão mais favorável ao réu (art. 615, § 1º).",
+     "fonte": "Questão do app sobre o art. 615"
+    },
+    {
+     "errado": "Os embargos de declaração no CPP têm prazo de 5 dias.",
+     "certo": "Têm 2 dias (art. 619).",
+     "fonte": "Questão do app sobre o art. 619"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: julgamento dos recursos nos tribunais, empate a favor do réu (Lei 14.836/2024) e embargos infringentes e de declaração (arts. 609 a 620)."
+    }
+   ],
+   "relacionados": [
+    "recursos-no-processo-penal",
+    "apelacao-criminal",
+    "recursos-especial-extraordinario-e-carta-testemunhavel"
+   ]
+  },
+  {
+   "slug": "recursos-especial-extraordinario-e-carta-testemunhavel",
+   "titulo": "Recurso especial, recurso extraordinário e carta testemunhável",
+   "grupo": "Recursos e ações autônomas",
+   "base": "Arts. 637 a 646 do CPP",
+   "tax": [
+    "processo-penal.recursos-geral.carta-testemunhavel",
+    "processo-penal.recursos-tribunais-superiores"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-637",
+    "n3689-1941-art-638",
+    "n3689-1941-art-639",
+    "n3689-1941-art-640",
+    "n3689-1941-art-641",
+    "n3689-1941-art-642",
+    "n3689-1941-art-643",
+    "n3689-1941-art-644",
+    "n3689-1941-art-645",
+    "n3689-1941-art-646"
+   ],
+   "conceitos": [
+    "recurso extraordinário em matéria penal",
+    "recurso especial",
+    "efeito suspensivo dos recursos excepcionais",
+    "execução provisória e presunção de inocência",
+    "reexame de prova",
+    "prequestionamento",
+    "esgotamento das instâncias",
+    "juizados e recursos excepcionais",
+    "carta testemunhável",
+    "prazo de 48 horas",
+    "julgamento da carta de meritis",
+    "recurso ordinário constitucional"
+   ],
+   "palavras": [
+    "recurso extraordinario",
+    "recurso especial",
+    "efeito suspensivo",
+    "traslado",
+    "baixarao",
+    "leis especiais",
+    "lei processual civil",
+    "regimentos internos",
+    "carta testemunhavel",
+    "denegar o recurso",
+    "obstar",
+    "expedicao e seguimento",
+    "quarenta e oito horas",
+    "48 horas",
+    "escrivao",
+    "secretario do tribunal",
+    "cinco dias",
+    "sessenta dias",
+    "suspenso por trinta dias",
+    "avocara",
+    "de meritis",
+    "sumula 279",
+    "sumula 281",
+    "sumula 282",
+    "sumula 640",
+    "sumula 203",
+    "reexame de prova",
+    "prequestionamento",
+    "adc 43",
+    "presuncao de inocencia",
+    "recurso ordinario"
+   ],
+   "resumo": "O <strong>recurso extraordinário</strong> (ao STF, por ofensa à Constituição) e o <strong>recurso especial</strong> (ao STJ, por ofensa à lei federal) seguem as leis especiais, o CPC e os regimentos (art. 638). O CPP diz que o extraordinário <strong>não tem efeito suspensivo</strong> (art. 637), mas o STF decidiu que a pena só se executa depois do trânsito em julgado (ADCs 43, 44 e 54), salvo a condenação pelo júri. Esses recursos não servem para <strong>reexame de prova</strong>, exigem que a questão tenha sido decidida pelo tribunal de origem (<strong>prequestionamento</strong>) e só cabem depois de esgotados os recursos ordinários. A <strong>carta testemunhável</strong> é o recurso contra a decisão que <strong>denega</strong> o recurso ou que, admitindo-o, impede sua subida (art. 639). É requerida ao escrivão ou ao secretário do tribunal em <strong>48 horas</strong>, com a indicação das peças a trasladar; o escrivão a entrega em 5 dias, no caso de RESE. Segue o rito do recurso denegado, e o tribunal pode mandar processar o recurso ou, se a carta estiver bem instruída, julgar logo o mérito. Não tem efeito suspensivo.",
+   "esquema": {
+    "rotulo": "onde não cabe carta testemunhável",
+    "html": "<table><thead><tr><th>Decisão</th><th>Recurso próprio</th><th>Por quê</th></tr></thead><tbody><tr><td><strong>Juiz denega a apelação ou a julga deserta</strong></td><td>RESE (art. 581, XV)</td><td>A lei prevê recurso específico</td></tr><tr><td><strong>Presidente do tribunal não admite RE ou REsp</strong></td><td>Agravo do art. 1.042 do CPC</td><td>Rito dos recursos excepcionais (art. 638)</td></tr><tr><td><strong>Juiz denega o RESE</strong></td><td>Carta testemunhável (art. 639, I)</td><td>Não há outro recurso</td></tr><tr><td><strong>Juiz recebe o RESE, mas impede sua subida</strong></td><td>Carta testemunhável (art. 639, II)</td><td>Obstáculo à expedição e ao seguimento</td></tr></tbody></table>"
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 637.",
+      "Art. 638.",
+      "Art. 639.",
+      "Art. 640.",
+      "Art. 641.",
+      "Art. 642.",
+      "Art. 643.",
+      "Art. 644.",
+      "Art. 645.",
+      "Art. 646."
+     ],
+     "ref": "arts. 637 a 646 do CPP",
+     "regras": [
+      "<strong>Arts. 637 e 638.</strong> Recurso extraordinário sem efeito suspensivo, com baixa dos originais; RE e REsp processados pelas leis especiais, pelo CPC e pelos regimentos.",
+      "<strong>Arts. 639 a 642.</strong> Carta testemunhável contra a denegação do recurso ou o obstáculo à sua subida; requerimento em 48 horas; entrega em 5 dias (RESE) ou 60 dias (extraordinário); suspensão do escrivão que se nega a dar o recibo ou a entregar a carta.",
+      "<strong>Arts. 643 a 646.</strong> Rito do recurso denegado; o tribunal manda processar o recurso ou julga o mérito; sem efeito suspensivo."
+     ],
+     "literalidades": [
+      {
+       "trecho": "O recurso extraordinário e o recurso especial serão processados e julgados no Supremo Tribunal Federal e no Superior Tribunal de Justiça na forma estabelecida por leis especiais, pela lei processual civil e pelos respectivos regimentos internos.",
+       "marcas": [
+        "lei processual civil"
+       ],
+       "afirmacao": "Para saber o prazo e o processamento do recurso especial criminal, aplica-se o CPC, além das leis especiais e do regimento do STJ.",
+       "gabarito": "C",
+       "porque": "É a remissão do art. 638, com a redação da Lei 13.964/2019."
+      },
+      {
+       "trecho": "II - da que, admitindo embora o recurso, obstar à sua expedição e seguimento para o juízo ad quem.",
+       "marcas": [
+        "obstar à sua expedição"
+       ],
+       "afirmacao": "O juiz recebe o recurso em sentido estrito, mas, meses depois, ainda não mandou os autos ao tribunal, sem justificativa. A parte pode usar a carta testemunhável.",
+       "gabarito": "C",
+       "porque": "Cabe carta testemunhável da decisão que, admitindo o recurso, obsta a sua expedição e seguimento (art. 639, II)."
+      },
+      {
+       "trecho": "nas quarenta e oito horas seguintes ao despacho que denegar o recurso",
+       "marcas": [
+        "quarenta e oito horas"
+       ],
+       "afirmacao": "Denegado o recurso em sentido estrito, a defesa tem 5 dias para requerer a carta testemunhável ao juiz.",
+       "gabarito": "E",
+       "porque": "A carta é requerida ao escrivão ou ao secretário do tribunal, não ao juiz, nas 48 horas seguintes ao despacho (art. 640)."
+      },
+      {
+       "trecho": "se estiver suficientemente instruída, decidirá logo, de meritis",
+       "marcas": [
+        "de meritis"
+       ],
+       "afirmacao": "Bem instruída a carta testemunhável, o tribunal que a conhece pode julgar desde logo o mérito do recurso denegado.",
+       "gabarito": "C",
+       "porque": "O tribunal manda processar o recurso ou, se a carta estiver suficientemente instruída, decide logo o mérito (art. 644)."
+      },
+      {
+       "trecho": "A carta testemunhável não terá efeito suspensivo.",
+       "marcas": [
+        "não terá efeito suspensivo"
+       ],
+       "afirmacao": "Requerida a carta testemunhável contra a denegação do recurso, o processo fica suspenso até que o tribunal a julgue.",
+       "gabarito": "E",
+       "porque": "A carta testemunhável não tem efeito suspensivo (art. 646)."
+      }
+     ],
+     "conferido": {
+      "Art. 637.": "a987bd01dbab",
+      "Art. 638.": "49128e15ee1c",
+      "Art. 639.": "5fd0cbcdf545",
+      "Art. 640.": "cb710a51c14a",
+      "Art. 641.": "eed9047b8efa",
+      "Art. 642.": "8aa5e18b38d5",
+      "Art. 643.": "cc6ffb56fa66",
+      "Art. 644.": "5736e0389412",
+      "Art. 645.": "0f4c36129aba",
+      "Art. 646.": "14f9bdfcbf65"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 279",
+     "texto": "Para simples reexame de prova não cabe recurso extraordinário."
+    },
+    {
+     "quem": "STF · Súmula 281",
+     "texto": "É inadmissível o recurso extraordinário, quando couber na Justiça de origem, recurso ordinário da decisão impugnada."
+    },
+    {
+     "quem": "STF · Súmula 282",
+     "texto": "É inadmissível o recurso extraordinário, quando não ventilada, na decisão recorrida, a questão federal suscitada."
+    },
+    {
+     "quem": "STF · Súmula 640",
+     "texto": "É cabível recurso extraordinário contra decisão proferida por juiz de primeiro grau nas causas de alçada, ou por turma recursal de juizado especial cível e criminal."
+    },
+    {
+     "quem": "STJ · Súmula 203",
+     "texto": "Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais."
+    }
+   ],
+   "detalhes": [
+    "Nas ADCs 43, 44 e 54 (2019), o STF declarou constitucional o art. 283 do CPP: não há execução provisória da pena enquanto cabem recursos especial e extraordinário. A exceção é a condenação pelo júri (Tema 1.068).",
+    "Da turma recursal dos juizados cabe recurso extraordinário, mas não recurso especial (Súmula 640 do STF e Súmula 203 do STJ), porque a turma não é tribunal.",
+    "No recurso extraordinário, exige-se ainda a repercussão geral da questão constitucional (CF, art. 102, § 3º).",
+    "O recurso ordinário constitucional em habeas corpus vai ao STJ quando o tribunal de segunda instância denega a ordem (CF, art. 105, II, a), e ao STF quando um tribunal superior a denega em única instância (CF, art. 102, II, a).",
+    "Na carta testemunhável, o escrivão que se nega a dar o recibo ou a entregar o instrumento é suspenso por 30 dias, e o testemunhante pode reclamar ao presidente do tribunal, que avoca os autos (art. 642).",
+    "A carta testemunhável não serve contra decisão de mérito nem contra a que denega a apelação, que tem recurso próprio (RESE, art. 581, XV)."
+   ],
+   "macetes": [
+    {
+     "sigla": "CARTA EM 48 HORAS, AO ESCRIVÃO",
+     "texto": "Não ao juiz: ao escrivão ou ao secretário do tribunal."
+    },
+    {
+     "sigla": "APELAÇÃO NEGADA, RESE; RESE NEGADO, CARTA",
+     "texto": "A carta testemunhável é residual: só onde não há outro recurso contra a denegação."
+    },
+    {
+     "sigla": "TURMA RECURSAL: RE SIM, RESP NÃO",
+     "texto": "Súmula 640 do STF e Súmula 203 do STJ."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Contra a decisão do juiz que denega seguimento à apelação, cabe carta testemunhável.",
+    "gabarito": "E",
+    "explicacao": "A denegação da apelação desafia recurso em sentido estrito (art. 581, XV). A carta testemunhável é residual e serve, por exemplo, contra a denegação do RESE (art. 639)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Cabe recurso extraordinário para simples reexame de prova quando a condenação contraria a evidência dos autos.",
+     "certo": "Não cabe (Súmula 279 do STF); para isso existe a revisão criminal.",
+     "fonte": "Questão do app sobre recurso extraordinário"
+    },
+    {
+     "errado": "O recurso extraordinário é admissível ainda que a questão não tenha sido ventilada na decisão recorrida.",
+     "certo": "É inadmissível sem prequestionamento (Súmula 282 do STF).",
+     "fonte": "Questão do app sobre recurso extraordinário"
+    },
+    {
+     "errado": "Cabe recurso especial contra acórdão de turma recursal do juizado especial criminal.",
+     "certo": "Não cabe (Súmula 203 do STJ); cabe recurso extraordinário (Súmula 640 do STF).",
+     "fonte": "Questão do app sobre recursos aos tribunais superiores"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo: recursos especial e extraordinário em matéria penal e carta testemunhável (arts. 637 a 646), com as súmulas de admissibilidade."
+    }
+   ],
+   "relacionados": [
+    "recursos-no-processo-penal",
+    "recurso-em-sentido-estrito",
+    "julgamento-nos-tribunais-e-embargos",
+    "habeas-corpus"
+   ]
+  },
+  {
+   "slug": "revisao-criminal",
+   "titulo": "Revisão criminal: hipóteses, legitimidade, competência e indenização",
+   "grupo": "Recursos e ações autônomas",
+   "base": "Arts. 621 a 631 do CPP",
+   "tax": [
+    "processo-penal.recursos-geral.revisao",
+    "processo-penal.sentenca-coisa-julgada-habeas-corpus.revisao"
+   ],
+   "dispositivos": [
+    "n3689-1941-art-621",
+    "n3689-1941-art-622",
+    "n3689-1941-art-623",
+    "n3689-1941-art-624",
+    "n3689-1941-art-625",
+    "n3689-1941-art-626",
+    "n3689-1941-art-627",
+    "n3689-1941-art-628",
+    "n3689-1941-art-629",
+    "n3689-1941-art-630",
+    "n3689-1941-art-631"
+   ],
+   "conceitos": [
+    "ação autônoma de impugnação",
+    "processo findo",
+    "só a favor do réu",
+    "contrariedade à lei ou à evidência dos autos",
+    "prova falsa",
+    "prova nova",
+    "a qualquer tempo",
+    "reiteração com prova nova",
+    "legitimidade e morte do réu",
+    "competência dos tribunais",
+    "relator que não atuou no processo",
+    "efeitos da procedência",
+    "proibição de agravar a pena",
+    "indenização por erro judiciário",
+    "certidão de óbito falsa",
+    "tese vinculante superveniente"
+   ],
+   "palavras": [
+    "revisao",
+    "revisao criminal",
+    "processos findos",
+    "transitada",
+    "contraria ao texto expresso",
+    "evidencia dos autos",
+    "comprovadamente falsos",
+    "novas provas",
+    "inocencia",
+    "diminuicao especial",
+    "qualquer tempo",
+    "extincao da pena",
+    "reiteracao",
+    "proprio reu",
+    "procurador",
+    "conjuge",
+    "ascendente",
+    "descendente",
+    "irmao",
+    "supremo tribunal federal",
+    "tribunais de justica",
+    "camaras reunidas",
+    "relator",
+    "revisor",
+    "nao tenha pronunciado decisao",
+    "certidao",
+    "in limine",
+    "procurador-geral",
+    "absolver",
+    "anular o processo",
+    "modificar a pena",
+    "nao podera ser agravada",
+    "restabelecimento",
+    "indenizacao",
+    "justa indenizacao",
+    "uniao",
+    "estado",
+    "confissao",
+    "meramente privada",
+    "curador",
+    "pro societate",
+    "certidao de obito falsa",
+    "sumula 393",
+    "revaloracao"
+   ],
+   "resumo": "A <strong>revisão criminal</strong> é ação autônoma contra condenação <strong>transitada em julgado</strong> e existe só a favor do réu: <strong>não há revisão pro societate</strong>, ainda que a absolvição tenha sido injusta. Cabe quando a condenação contraria o texto expresso da lei penal ou a <strong>evidência dos autos</strong>, quando se funda em depoimentos, exames ou documentos <strong>comprovadamente falsos</strong> ou quando surgem <strong>novas provas</strong> de inocência ou de circunstância que diminua a pena (art. 621). Pode ser pedida a <strong>qualquer tempo</strong>, antes ou depois da extinção da pena; não se repete o pedido, salvo com novas provas. Pedem o próprio réu ou seu procurador e, se ele morreu, o cônjuge, ascendente, descendente ou irmão. É julgada sempre por <strong>tribunal</strong>, com relator que não tenha atuado no processo. Procedente, o tribunal pode alterar a classificação, absolver, modificar a pena ou anular o processo, mas <strong>nunca agravar a pena</strong>. A absolvição restabelece os direitos perdidos, e o tribunal pode reconhecer o direito a <strong>indenização</strong>, liquidada no cível e paga pela União ou pelo Estado.",
+   "esquema": {
+    "rotulo": "hipóteses (art. 621)",
+    "html": "<table><thead><tr><th>Inciso</th><th>Hipótese</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>I</strong></td><td>Condenação contrária ao texto expresso da lei penal ou à evidência dos autos</td><td>Condenação por fato que a lei não descreve como crime</td></tr><tr><td><strong>II</strong></td><td>Condenação fundada em depoimentos, exames ou documentos comprovadamente falsos</td><td>Testemunha condenada depois por falso testemunho naquele processo</td></tr><tr><td><strong>III</strong></td><td>Novas provas de inocência ou de circunstância que autorize diminuição especial da pena</td><td>Exame de DNA feito depois que exclui o condenado</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Indenização por erro judiciário (art. 630)",
+    "linhas": [
+     {
+      "nome": "Quem decide",
+      "o_que_e": "O tribunal da revisão, se o interessado pedir",
+      "atencao": "Art. 630, caput."
+     },
+     {
+      "nome": "Onde se liquida",
+      "o_que_e": "No juízo cível",
+      "atencao": "Art. 630, § 1º."
+     },
+     {
+      "nome": "Quem paga",
+      "o_que_e": "A União, se a condenação foi da justiça do Distrito Federal ou de território; o Estado, se da justiça estadual",
+      "atencao": "Art. 630, § 1º."
+     },
+     {
+      "nome": "Quando não é devida",
+      "o_que_e": "Se o erro veio de ato do próprio condenado, como a confissão ou a ocultação de prova",
+      "atencao": "Art. 630, § 2º, a."
+     }
+    ],
+    "colunas": [
+     "Ponto",
+     "Regra",
+     "Artigo"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 621.",
+      "Art. 622.",
+      "Art. 623.",
+      "Art. 624.",
+      "Art. 625.",
+      "Art. 626.",
+      "Art. 627.",
+      "Art. 628.",
+      "Art. 629.",
+      "Art. 630.",
+      "Art. 631."
+     ],
+     "ref": "arts. 621 a 631 do CPP",
+     "regras": [
+      "<strong>Arts. 621 a 623.</strong> Hipóteses; a qualquer tempo, antes ou depois da extinção da pena; reiteração só com provas novas; legitimidade do réu, do procurador e, após a morte, do cônjuge, ascendente, descendente ou irmão.",
+      "<strong>Arts. 624 e 625.</strong> Competência do STF para as próprias condenações e dos tribunais nos demais casos; relator que não decidiu no processo; certidão do trânsito; indeferimento liminar com recurso; parecer do procurador-geral.",
+      "<strong>Arts. 626 a 631.</strong> Procedência: alterar a classificação, absolver, modificar a pena ou anular; vedada a agravação; direitos restabelecidos; indenização; curador se o réu morre no curso da revisão."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - quando a sentença condenatória for contrária ao texto expresso da lei penal ou à evidência dos autos;",
+       "marcas": [
+        "sentença condenatória"
+       ],
+       "afirmacao": "Absolvido em sentença transitada em julgado, o réu confessa o crime numa entrevista. O MP pode ajuizar revisão criminal com base na nova prova.",
+       "gabarito": "E",
+       "porque": "A revisão só cabe contra sentença condenatória, a favor do réu (art. 621). Não existe revisão pro societate."
+      },
+      {
+       "trecho": "III - quando, após a sentença, se descobrirem novas provas de inocência do condenado ou de circunstância que determine ou autorize diminuição especial da pena.",
+       "marcas": [
+        "diminuição especial da pena"
+       ],
+       "afirmacao": "Depois do trânsito, surge prova de que o condenado reparou o dano antes do recebimento da denúncia, o que autoriza o arrependimento posterior. Cabe revisão para reduzir a pena.",
+       "gabarito": "C",
+       "porque": "A prova nova de circunstância que autorize diminuição especial da pena admite revisão (art. 621, III)."
+      },
+      {
+       "trecho": "A revisão poderá ser requerida em qualquer tempo, antes da extinção da pena ou após.",
+       "marcas": [
+        "antes da extinção da pena ou após"
+       ],
+       "afirmacao": "O condenado já cumpriu toda a pena há cinco anos. Não pode mais pedir revisão criminal, porque a pena está extinta.",
+       "gabarito": "E",
+       "porque": "A revisão pode ser requerida a qualquer tempo, antes ou depois da extinção da pena (art. 622)."
+      },
+      {
+       "trecho": "no caso de morte do réu, pelo cônjuge, ascendente, descendente ou irmão",
+       "marcas": [
+        "cônjuge, ascendente, descendente ou irmão"
+       ],
+       "afirmacao": "Morto o condenado, a filha dele ajuíza revisão criminal para limpar o nome do pai. Ela é parte legítima.",
+       "gabarito": "C",
+       "porque": "Após a morte do réu, a revisão pode ser pedida pelo cônjuge, ascendente, descendente ou irmão (art. 623)."
+      },
+      {
+       "trecho": "devendo funcionar como relator um desembargador que não tenha pronunciado decisão em qualquer fase do processo",
+       "marcas": [
+        "não tenha pronunciado decisão"
+       ],
+       "afirmacao": "A revisão criminal é distribuída ao desembargador que foi relator da apelação do mesmo réu, por prevenção.",
+       "gabarito": "E",
+       "porque": "O relator da revisão não pode ter proferido decisão em qualquer fase do processo (art. 625)."
+      },
+      {
+       "trecho": "De qualquer maneira, não poderá ser agravada a pena imposta pela decisão revista.",
+       "marcas": [
+        "não poderá ser agravada"
+       ],
+       "afirmacao": "Julgando a revisão, o tribunal anula o processo, e no novo julgamento o réu recebe pena maior que a da condenação revista.",
+       "gabarito": "E",
+       "porque": "A pena da decisão revista não pode ser agravada (art. 626, parágrafo único), inclusive no novo julgamento após a anulação."
+      },
+      {
+       "trecho": "se o erro ou a injustiça da condenação proceder de ato ou falta imputável ao próprio impetrante, como a confissão ou a ocultação de prova em seu poder",
+       "marcas": [
+        "confissão"
+       ],
+       "afirmacao": "O réu confessou falsamente para proteger o irmão e foi condenado. Na revisão procedente, ele tem direito a indenização integral pelo erro judiciário.",
+       "gabarito": "E",
+       "porque": "A indenização não é devida se o erro veio de ato do próprio condenado, como a confissão (art. 630, § 2º, a)."
+      },
+      {
+       "trecho": "Quando, no curso da revisão, falecer a pessoa, cuja condenação tiver de ser revista, o presidente do tribunal nomeará curador para a defesa.",
+       "marcas": [
+        "curador"
+       ],
+       "afirmacao": "O autor da revisão morre antes do julgamento. A revisão é extinta, porque a ação é personalíssima.",
+       "gabarito": "E",
+       "porque": "Se o réu falece no curso da revisão, o presidente do tribunal nomeia curador para a defesa, e a ação prossegue (art. 631)."
+      }
+     ],
+     "conferido": {
+      "Art. 621.": "7d385cb84ecc",
+      "Art. 622.": "1a562166c50e",
+      "Art. 623.": "24fd3e5550d2",
+      "Art. 624.": "550f6a57d486",
+      "Art. 625.": "d479c08b16e7",
+      "Art. 626.": "8c1919c15b11",
+      "Art. 627.": "e50a88c0399b",
+      "Art. 628.": "eabb04c1c996",
+      "Art. 629.": "b3216c89e9f9",
+      "Art. 630.": "d5400165fc7a",
+      "Art. 631.": "37bb834716f9"
+     },
+     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula 393",
+     "texto": "Para requerer revisão criminal, o condenado não é obrigado a recolher-se à prisão."
+    },
+    {
+     "quem": "STF · jurisprudência consolidada",
+     "texto": "A decisão que extingue a punibilidade com base em certidão de óbito falsa pode ser revista, porque não faz coisa julgada em sentido estrito, sem que isso configure revisão pro societate."
+    }
+   ],
+   "detalhes": [
+    "Sem prova nova, a revisão não serve para revalorar subjetivamente provas já analisadas no processo (STJ, Informativo 871).",
+    "Errado dizer que a revisão é julgada pelo próprio juízo que condenou: a competência é sempre de tribunal (art. 624) (Cebraspe, Delegado PC-CE 2025).",
+    "Tese vinculante superveniente: condenado por tráfico teve o privilegiado negado só pela reincidência não específica, e depois o STF fixou tese vinculante em sentido contrário. Cabe revisão pelo art. 621, I, porque a condenação apoiada em orientação superada por tese vinculante passa a contrariar a lei penal lida à luz da Constituição (FGV, Defensor DPE-RJ 2026). Fora desse cenário, a simples mudança de jurisprudência não autoriza revisão.",
+    "Lei penal mais benéfica depois do trânsito em julgado é aplicada pelo juiz da execução (Súmula 611 do STF), sem necessidade de revisão.",
+    "Cabe revisão contra condenação do júri; ela não ofende a soberania dos veredictos, porque protege a liberdade do condenado.",
+    "A indenização também não é devida se a acusação foi meramente privada (art. 630, § 2º, b), segundo o texto do CPP.",
+    "Em ilegalidade flagrante que não exige exame de provas, o STJ admite habeas corpus contra condenação transitada em julgado, mesmo sem revisão ajuizada."
+   ],
+   "macetes": [
+    {
+     "sigla": "SÓ PRO REO",
+     "texto": "Absolvição injusta transitada em julgado não se desfaz. A exceção prática é a certidão de óbito falsa, que não gera coisa julgada."
+    },
+    {
+     "sigla": "QUALQUER TEMPO, NUNCA PIORA",
+     "texto": "Não há prazo, cabe até depois da morte, e a pena nunca é agravada."
+    },
+    {
+     "sigla": "SEMPRE TRIBUNAL",
+     "texto": "Nunca o juiz que condenou; o relator não pode ter atuado no processo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A revisão criminal pro societate é admitida quando a sentença absolutória tiver sido proferida por juízo incompetente.",
+    "gabarito": "E",
+    "explicacao": "O ordenamento não admite revisão pro societate, mesmo que o réu tenha sido absolvido injustamente por decisão transitada em julgado (Cebraspe, Delegado PC-PB 2022)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Não se admite reexame da decisão que extingue a punibilidade com base em certidão de óbito falsa.",
+     "certo": "Admite-se, porque essa decisão não faz coisa julgada em sentido estrito.",
+     "fonte": "Cebraspe, Delegado PC-PB 2022"
+    },
+    {
+     "errado": "A revisão criminal é julgada pelo próprio juízo que proferiu a condenação.",
+     "certo": "É sempre julgada por tribunal (art. 624).",
+     "fonte": "Cebraspe, Delegado PC-CE 2025"
+    },
+    {
+     "errado": "A revisão admite a revaloração das provas já analisadas, mesmo sem prova nova.",
+     "certo": "Sem prova nova, não se revaloram subjetivamente as provas já examinadas (STJ).",
+     "fonte": "Questão do app sobre revisão criminal"
+    },
+    {
+     "errado": "Para pedir revisão criminal, o condenado precisa se recolher à prisão.",
+     "certo": "Não precisa (Súmula 393 do STF).",
+     "fonte": "Questão do app sobre revisão criminal"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PB 2022; Delegado PC-CE 2025",
+    "FGV: Defensor DPE-RJ 2026"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: entram os arts. 625, 627 a 629 e 631, a indenização e suas exceções e a revisão por tese vinculante superveniente."
+    }
+   ],
+   "relacionados": [
+    "recursos-no-processo-penal",
+    "habeas-corpus",
+    "sentenca-emendatio-e-mutatio",
+    "recursos-especial-extraordinario-e-carta-testemunhavel"
    ]
   },
   {
    "slug": "habeas-corpus",
-   "titulo": "Habeas corpus no processo penal: cabimento, trancamento e competência",
+   "titulo": "Habeas corpus: cabimento, legitimidade, competência e rito",
    "grupo": "Recursos e ações autônomas",
    "base": "Arts. 647 a 667 do CPP",
    "tax": [
-    "processo-penal.sentenca-coisa-julgada-habeas-corpus"
+    "processo-penal.sentenca-coisa-julgada-habeas-corpus",
+    "processo-penal.mandado-seguranca-execucao-competencia"
    ],
    "dispositivos": [
     "n3689-1941-art-647",
+    "n3689-1941-art-647-a",
     "n3689-1941-art-648",
+    "n3689-1941-art-649",
     "n3689-1941-art-650",
     "n3689-1941-art-651",
+    "n3689-1941-art-652",
+    "n3689-1941-art-653",
     "n3689-1941-art-654",
-    "n3689-1941-art-660"
+    "n3689-1941-art-655",
+    "n3689-1941-art-656",
+    "n3689-1941-art-657",
+    "n3689-1941-art-658",
+    "n3689-1941-art-659",
+    "n3689-1941-art-660",
+    "n3689-1941-art-661",
+    "n3689-1941-art-662",
+    "n3689-1941-art-663",
+    "n3689-1941-art-664",
+    "n3689-1941-art-665",
+    "n3689-1941-art-666",
+    "n3689-1941-art-667"
    ],
    "conceitos": [
-    "habeas corpus preventivo",
-    "habeas corpus liberatório",
-    "trancamento do inquérito",
-    "trancamento da ação penal",
+    "coação ilegal na liberdade de locomoção",
+    "punição disciplinar",
     "habeas corpus de ofício",
-    "habeas corpus substitutivo de recurso"
+    "habeas corpus coletivo",
+    "hipóteses de coação ilegal",
+    "trancamento de inquérito e de ação",
+    "competência pela autoridade coatora",
+    "habeas corpus contra particular",
+    "legitimidade universal",
+    "requisitos da petição",
+    "apresentação do paciente",
+    "pedido prejudicado",
+    "decisão em 24 horas",
+    "salvo-conduto",
+    "empate a favor do paciente",
+    "HC substitutivo de recurso",
+    "mandado de segurança em matéria penal"
    ],
    "palavras": [
     "habeas corpus",
-    "coacao ilegal",
-    "liberdade de locomocao",
-    "sem justa causa",
-    "excesso de prazo",
-    "autoridade incompetente",
-    "cessou o motivo",
-    "fianca negada",
-    "processo manifestamente nulo",
-    "extincao da punibilidade",
-    "trancamento do inquerito",
-    "trancamento da acao penal",
-    "excepcional",
-    "atipicidade manifesta",
-    "ausencia de indicios",
-    "qualquer pessoa impetra",
-    "sem advogado",
-    "ministerio publico impetra",
-    "contra particular",
+    "violencia ou coacao ilegal",
+    "liberdade de ir e vir",
+    "locomocao",
+    "punicao disciplinar",
     "de oficio",
+    "coletivo",
+    "14.836",
+    "justa causa",
+    "preso por mais tempo",
+    "competencia",
+    "cessado o motivo",
+    "fianca",
+    "manifestamente nulo",
+    "extinta a punibilidade",
+    "trancamento",
+    "autoridade coatora",
+    "igual ou superior jurisdicao",
+    "prisao administrativa",
+    "nao obstara",
+    "renovado",
+    "custas",
+    "ma-fe",
+    "qualquer pessoa",
+    "ministerio publico",
+    "peticao",
+    "assinatura",
+    "a seu rogo",
+    "apresentado",
+    "grave enfermidade",
+    "prejudicado",
+    "vinte e quatro horas",
+    "24 horas",
+    "salvo-conduto",
+    "informacoes",
+    "in limine",
+    "primeira sessao",
+    "empate",
+    "mais favoravel ao paciente",
     "sumula 691",
-    "sumula 693 multa",
-    "sumula 695 pena extinta",
-    "substitutivo de recurso",
-    "delegado autoridade coatora",
-    "promotor coator tribunal",
-    "rese contra decisao de hc",
-    "recurso ordinario"
+    "sumula 693",
+    "sumula 694",
+    "sumula 695",
+    "sumula 606",
+    "particular",
+    "juiz das garantias",
+    "mandado de seguranca",
+    "substitutivo"
    ],
-   "resumo": "Cabe habeas corpus sempre que alguém sofre ou está ameaçado de sofrer <strong>coação ilegal</strong> na liberdade de ir e vir (art. 647). O art. 648 lista as coações ilegais: falta de <strong>justa causa</strong>, prisão além do prazo, ordem de autoridade incompetente, motivo cessado, fiança negada quando cabível, processo <strong>manifestamente nulo</strong> e punibilidade extinta. Qualquer pessoa pode impetrar, inclusive o MP, sem advogado, e o juiz ou tribunal pode concedê-lo de ofício. Cabe contra ato de particular. Pelo HC se pede o <strong>trancamento</strong> do inquérito ou da ação, medida excepcional reservada a atipicidade evidente, extinção da punibilidade ou ausência de indícios mínimos de autoria ou materialidade, aferíveis sem exame aprofundado de provas. A competência depende da autoridade coatora: se for o delegado, o juiz; se for o promotor ou o juiz, o tribunal. Não cabe HC quando só há pena de multa (Súmula 693) ou quando a pena já está extinta (Súmula 695). Da decisão de juiz que concede ou nega a ordem cabe RESE, e a concessão tem recurso de ofício.",
+   "resumo": "Cabe <strong>habeas corpus</strong> sempre que alguém sofre ou está na iminência de sofrer <strong>violência ou coação ilegal</strong> na liberdade de ir e vir (art. 647). O art. 648 lista as coações ilegais: falta de <strong>justa causa</strong>, prisão além do prazo, ordem de autoridade incompetente, motivo cessado, fiança negada quando cabível, processo <strong>manifestamente nulo</strong> e punibilidade extinta. Qualquer pessoa pode impetrar, em favor próprio ou de outrem, inclusive o MP, sem advogado, e o juiz ou tribunal pode concedê-lo <strong>de ofício</strong>, individual ou coletivo (art. 647-A). Cabe também contra ato de particular. A competência segue a autoridade coatora: delegado, o juiz; juiz ou promotor, o tribunal. O juiz decide em <strong>24 horas</strong>, depois de ouvir o paciente; concedida a ordem preventiva, expede-se <strong>salvo-conduto</strong>. A concessão não encerra o processo, salvo se ele contrariar os fundamentos da ordem. Não cabe HC quando só há pena de <strong>multa</strong> (Súmula 693) ou quando a pena já está extinta (Súmula 695). Da decisão do juiz que concede ou nega a ordem cabe RESE, e a concessão tem recurso de ofício.",
    "esquema": {
     "rotulo": "quem julga o HC",
-    "html": "<table><thead><tr><th>Autoridade coatora</th><th>Competência</th></tr></thead><tbody><tr><td><strong>Delegado de polícia</strong></td><td>Juiz de primeiro grau</td></tr><tr><td><strong>Promotor de justiça</strong></td><td>Tribunal de Justiça</td></tr><tr><td><strong>Juiz de direito</strong></td><td>Tribunal de Justiça</td></tr><tr><td><strong>Juizado especial criminal (juiz ou turma)</strong></td><td>Turma recursal ou Tribunal de Justiça, conforme o ato</td></tr><tr><td><strong>Tribunal de Justiça ou TRF</strong></td><td>STJ</td></tr><tr><td><strong>Tribunal superior</strong></td><td>STF</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Autoridade coatora</th><th>Competência</th></tr></thead><tbody><tr><td><strong>Delegado de polícia</strong></td><td>Juiz de primeiro grau (na investigação, o juiz das garantias)</td></tr><tr><td><strong>Promotor de justiça</strong></td><td>Tribunal de Justiça</td></tr><tr><td><strong>Juiz de direito</strong></td><td>Tribunal de Justiça</td></tr><tr><td><strong>Juizado especial criminal (juiz ou turma)</strong></td><td>Turma recursal ou Tribunal de Justiça, conforme o ato</td></tr><tr><td><strong>Tribunal de Justiça ou TRF</strong></td><td>STJ</td></tr><tr><td><strong>Tribunal superior</strong></td><td>STF</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cabe ou não cabe habeas corpus?",
+    "linhas": [
+     {
+      "nome": "Condenação só a pena de multa",
+      "o_que_e": "Não cabe",
+      "atencao": "Súmula 693 do STF."
+     },
+     {
+      "nome": "Pena privativa de liberdade já extinta",
+      "o_que_e": "Não cabe",
+      "atencao": "Súmula 695 do STF."
+     },
+     {
+      "nome": "Exclusão de militar ou perda de função pública",
+      "o_que_e": "Não cabe",
+      "atencao": "Súmula 694 do STF."
+     },
+     {
+      "nome": "Mérito de punição disciplinar militar",
+      "o_que_e": "Não cabe; a legalidade pode ser examinada",
+      "atencao": "CF, art. 142, § 2º; CPP, art. 647."
+     },
+     {
+      "nome": "Inquérito por crime já prescrito",
+      "o_que_e": "Cabe, para trancar o inquérito",
+      "atencao": "Art. 648, VII."
+     },
+     {
+      "nome": "Ato de particular que restringe a liberdade",
+      "o_que_e": "Cabe",
+      "atencao": "A Constituição não restringe a autoridade pública."
+     }
+    ],
+    "colunas": [
+     "Situação",
+     "Habeas corpus",
+     "Fundamento"
+    ]
    },
    "lei": [
     {
-     "texto": "Art. 647. Dar-se-á habeas corpus sempre que alguém sofrer ou se achar na iminência de sofrer violência ou coação ilegal na sua liberdade de ir e vir, salvo nos casos de punição disciplinar.",
+     "norma": "n3689-1941",
+     "artigos": [
+      "Art. 647.",
+      "Art. 647-A.",
+      "Art. 648.",
+      "Art. 649.",
+      "Art. 650.",
+      "Art. 651.",
+      "Art. 652.",
+      "Art. 653.",
+      "Art. 654.",
+      "Art. 655.",
+      "Art. 656.",
+      "Art. 657.",
+      "Art. 658.",
+      "Art. 659.",
+      "Art. 660.",
+      "Art. 661.",
+      "Art. 662.",
+      "Art. 663.",
+      "Art. 664.",
+      "Art. 665.",
+      "Art. 666.",
+      "Art. 667."
+     ],
+     "ref": "arts. 647 a 667 do CPP",
+     "regras": [
+      "<strong>Arts. 647 a 648.</strong> Cabimento, salvo punição disciplinar; habeas corpus de ofício, individual ou coletivo (Lei 14.836/2024); as sete hipóteses de coação ilegal.",
+      "<strong>Arts. 649 a 653.</strong> Ordem expedida seja qual for a coatora; competência originária e cessação da competência do juiz diante de autoridade de igual ou superior jurisdição; a concessão não encerra o processo; nulidade leva à renovação; custas para a autoridade de má-fé.",
+      "<strong>Arts. 654 a 660.</strong> Legitimidade universal e requisitos da petição; concessão de ofício; multa a quem embaraça a ordem; apresentação do preso; pedido prejudicado se cessou a coação; decisão em 24 horas, soltura, salvo-conduto.",
+      "<strong>Arts. 661 a 667.</strong> Habeas corpus no tribunal: informações da autoridade, indeferimento liminar pelo colegiado, julgamento na primeira sessão, empate a favor do paciente, expedição da ordem."
+     ],
+     "literalidades": [
+      {
+       "trecho": "salvo nos casos de punição disciplinar",
+       "marcas": [
+        "punição disciplinar"
+       ],
+       "afirmacao": "Um soldado é punido com detenção disciplinar por autoridade sem competência para isso. Não cabe habeas corpus, porque se trata de punição disciplinar.",
+       "gabarito": "E",
+       "porque": "O que não se examina em HC é o mérito da punição disciplinar (art. 647; CF, art. 142, § 2º). A legalidade, como a competência da autoridade, pode ser discutida."
+      },
+      {
+       "trecho": "ainda que não conhecidos a ação ou o recurso em que veiculado o pedido de cessação de coação ilegal",
+       "marcas": [
+        "ainda que não conhecidos"
+       ],
+       "afirmacao": "O STJ não conhece de um recurso especial por falta de prequestionamento, mas percebe que o réu cumpre pena em regime mais grave que o legal. Pode conceder habeas corpus de ofício.",
+       "gabarito": "C",
+       "porque": "A ordem pode ser concedida de ofício mesmo que a ação ou o recurso não seja conhecido (art. 647-A, parágrafo único, da Lei 14.836/2024)."
+      },
+      {
+       "trecho": "I - quando não houver justa causa;",
+       "marcas": [
+        "justa causa"
+       ],
+       "afirmacao": "É instaurado inquérito para apurar fato evidentemente atípico. O investigado pode impetrar habeas corpus para trancá-lo.",
+       "gabarito": "C",
+       "porque": "Sem justa causa, a coação é ilegal (art. 648, I), e o trancamento é admitido quando a atipicidade é evidente, sem exame aprofundado de provas."
+      },
+      {
+       "trecho": "A competência do juiz cessará sempre que a violência ou coação provier de autoridade judiciária de igual ou superior jurisdição.",
+       "marcas": [
+        "igual ou superior jurisdição"
+       ],
+       "afirmacao": "Um juiz de vara criminal decreta prisão ilegal. O habeas corpus pode ser impetrado perante outro juiz de primeiro grau da mesma comarca.",
+       "gabarito": "E",
+       "porque": "A competência do juiz cessa diante de coação de autoridade judiciária de igual ou superior jurisdição (art. 650, § 1º). O HC vai ao tribunal."
+      },
+      {
+       "trecho": "A concessão do habeas corpus não obstará, nem porá termo ao processo, desde que este não esteja em conflito com os fundamentos daquela.",
+       "marcas": [
+        "não obstará"
+       ],
+       "afirmacao": "Concedido habeas corpus para relaxar uma prisão por excesso de prazo, o processo penal contra o réu deve ser extinto.",
+       "gabarito": "E",
+       "porque": "A concessão não põe termo ao processo, salvo se ele conflitar com os fundamentos da ordem (art. 651). Relaxada a prisão, o processo segue com o réu solto."
+      },
+      {
+       "trecho": "O habeas corpus poderá ser impetrado por qualquer pessoa, em seu favor ou de outrem, bem como pelo Ministério Público.",
+       "marcas": [
+        "qualquer pessoa"
+       ],
+       "afirmacao": "Um estudante de direito, sem procuração e sem ser advogado, impetra habeas corpus em favor de um vizinho preso. A impetração é válida.",
+       "gabarito": "C",
+       "porque": "Qualquer pessoa pode impetrar HC, em seu favor ou de outrem (art. 654), sem capacidade postulatória."
+      },
+      {
+       "trecho": "Se o juiz ou o tribunal verificar que já cessou a violência ou coação ilegal, julgará prejudicado o pedido.",
+       "marcas": [
+        "prejudicado"
+       ],
+       "afirmacao": "Impetrado HC contra uma prisão ilegal, o paciente é solto antes do julgamento. O juiz deve julgar o mérito para declarar a ilegalidade.",
+       "gabarito": "E",
+       "porque": "Cessada a coação, o pedido é julgado prejudicado (art. 659)."
+      },
+      {
+       "trecho": "Efetuadas as diligências, e interrogado o paciente, o juiz decidirá, fundamentadamente, dentro de vinte e quatro horas.",
+       "marcas": [
+        "vinte e quatro horas"
+       ],
+       "afirmacao": "Recebido o habeas corpus e ouvido o paciente, o juiz tem 5 dias para decidir.",
+       "gabarito": "E",
+       "porque": "O juiz decide em 24 horas (art. 660)."
+      },
+      {
+       "trecho": "Se a ordem de habeas corpus for concedida para evitar ameaça de violência ou coação ilegal, dar-se-á ao paciente salvo-conduto assinado pelo juiz.",
+       "marcas": [
+        "salvo-conduto"
+       ],
+       "afirmacao": "Ameaçada de prisão ilegal, a pessoa obtém habeas corpus preventivo e recebe salvo-conduto assinado pelo juiz.",
+       "gabarito": "C",
+       "porque": "No HC preventivo, concede-se salvo-conduto (art. 660, § 4º)."
+      },
+      {
+       "trecho": "Havendo empate, se o presidente não tiver tomado parte na votação, proferirá voto de desempate; no caso contrário, prevalecerá a decisão mais favorável ao paciente.",
+       "marcas": [
+        "mais favorável ao paciente"
+       ],
+       "afirmacao": "No julgamento de HC no tribunal, com o presidente votando, há empate. Prevalece a decisão mais favorável ao paciente.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 664, parágrafo único, reforçada pelo art. 615, § 1º."
+      }
+     ],
+     "conferido": {
+      "Art. 647.": "ff9f2f787c39",
+      "Art. 647-A.": "6f0316d4be38",
+      "Art. 648.": "79acce20f5b8",
+      "Art. 649.": "bf2f40ec05ff",
+      "Art. 650.": "bf3917c972a0",
+      "Art. 651.": "16c272f4293f",
+      "Art. 652.": "71a6fe9925f6",
+      "Art. 653.": "9f0c88fd758b",
+      "Art. 654.": "0b54d1d7d9ed",
+      "Art. 655.": "bce93b7a160c",
+      "Art. 656.": "0dba58cfdf20",
+      "Art. 657.": "e28bd7878328",
+      "Art. 658.": "946081e9ce2e",
+      "Art. 659.": "022672a5079f",
+      "Art. 660.": "d73a34bb1805",
+      "Art. 661.": "85f5335ca1fc",
+      "Art. 662.": "9900f9ab0dde",
+      "Art. 663.": "033b9656f907",
+      "Art. 664.": "d3f4c14fd7c0",
+      "Art. 665.": "abd1260c9635",
+      "Art. 666.": "94e4b2ebe02a",
+      "Art. 667.": "ab34845b2bdf"
+     },
      "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 648. A coação considerar-se-á ilegal:\n\nI - quando não houver justa causa;\n\nII - quando alguém estiver preso por mais tempo do que determina a lei;\n\nIII - quando quem ordenar a coação não tiver competência para fazê-lo;\n\nIV - quando houver cessado o motivo que autorizou a coação;\n\nV - quando não for alguém admitido a prestar fiança, nos casos em que a lei a autoriza;\n\nVI - quando o processo for manifestamente nulo;\n\nVII - quando extinta a punibilidade.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 651. A concessão do habeas corpus não obstará, nem porá termo ao processo, desde que este não esteja em conflito com os fundamentos daquela.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 654. O habeas corpus poderá ser impetrado por qualquer pessoa, em seu favor ou de outrem, bem como pelo Ministério Público.\n\n(...)\n\n§ 2º Os juízes e os tribunais têm competência para expedir de ofício ordem de habeas corpus, quando no curso de processo verificarem que alguém sofre ou está na iminência de sofrer coação ilegal.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "TRANCAR É EXCEÇÃO",
-     "texto": "Trancamento por HC exige ilegalidade evidente, sem revolver provas: atipicidade, extinção da punibilidade ou falta de indícios mínimos."
-    },
-    {
-     "sigla": "SÓ MULTA, SEM HC",
-     "texto": "Se não há risco à liberdade, como na pena só de multa ou já extinta, o HC não é o caminho."
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -15829,8 +17636,40 @@
      "texto": "Não cabe habeas corpus contra decisão condenatória a pena de multa, ou relativo a processo em curso por infração penal a que a pena pecuniária seja a única cominada."
     },
     {
+     "quem": "STF · Súmula 695",
+     "texto": "Não cabe habeas corpus quando já extinta a pena privativa de liberdade."
+    },
+    {
+     "quem": "STF · Súmula 606",
+     "texto": "Não cabe habeas corpus originário para o Tribunal Pleno de decisão de Turma, ou do Plenário, proferida em habeas corpus ou no respectivo recurso."
+    },
+    {
      "quem": "STJ · jurisprudência consolidada",
      "texto": "O trancamento da ação penal por habeas corpus é medida excepcional, admitida quando houver, de plano, atipicidade da conduta, causa extintiva da punibilidade ou ausência de indícios de autoria ou de prova da materialidade."
+    }
+   ],
+   "detalhes": [
+    "Embora o mais comum seja o HC contra autoridade, ele é admitido contra ato de particular (Cebraspe, Delegado PC-AL 2023).",
+    "O inquérito instaurado por requisição do promotor não impede que o delegado prossiga e seja apontado como autoridade coatora no HC (Cebraspe, Delegado PC-AL 2023).",
+    "Se o constrangimento vem do delegado, como o inquérito que se arrasta com o investigado preso ou indiciado, o HC vai ao juiz de primeiro grau, que na investigação é o juiz das garantias (art. 3º-B, XII). Errado mandar esse HC direto ao tribunal, que só julga quando o coator é o juiz (FGV, Delegado PC-PR 2026).",
+    "O STF e o STJ não conhecem do habeas corpus substitutivo de recurso próprio, mas concedem a ordem de ofício diante de ilegalidade flagrante.",
+    "Habeas corpus coletivo: contra resolução estadual que torna inelegível para trabalho e estudo todo preso com qualquer falta nos últimos 12 meses, cabe HC coletivo da Defensoria diretamente no Tribunal de Justiça, com o Secretário de Estado como autoridade coatora (STF, HC 143.641) (FGV, Defensor DPE-RJ 2026).",
+    "Mandado de segurança em matéria penal: cabe contra ato judicial que viole direito líquido e certo não amparado por habeas corpus, como a negativa de vista dos autos ao advogado. Se impetrado pelo MP contra decisão do juiz criminal, o réu deve ser citado como litisconsorte (Súmula 701 do STF).",
+    "Se o paciente estiver preso, nenhum motivo escusa a sua apresentação, salvo grave enfermidade, não estar sob a guarda de quem se aponta como detentor ou não ter sido determinada a apresentação; o juiz pode ir ao local se ele estiver doente (art. 657).",
+    "Não cabe HC contra prisão administrativa de responsável por dinheiro público, salvo prova de quitação ou depósito, ou se a prisão exceder o prazo legal (art. 650, § 2º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "TRANCAR É EXCEÇÃO",
+     "texto": "Trancamento por HC exige ilegalidade evidente, sem revolver provas: atipicidade, extinção da punibilidade ou falta de indícios mínimos."
+    },
+    {
+     "sigla": "SÓ MULTA, SEM HC",
+     "texto": "Se não há risco à liberdade, como na pena só de multa ou já extinta, o HC não é o caminho."
+    },
+    {
+     "sigla": "COATOR DEFINE O JUIZ",
+     "texto": "Delegado: juiz. Juiz ou promotor: tribunal. Tribunal de segundo grau: STJ."
     }
    ],
    "pegadinha": {
@@ -15838,129 +17677,45 @@
     "gabarito": "E",
     "explicacao": "Cabe habeas corpus para trancar o inquérito, porque a punibilidade extinta torna a coação ilegal (art. 648, VII) (Cebraspe, Delegado PC-MA 2018)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Particular.</strong> Embora o mais comum seja o HC contra autoridade, ele é admitido contra ato de particular (Cebraspe, Delegado PC-AL 2023).</p><p><strong>Autoridade coatora.</strong> O inquérito instaurado por requisição do promotor não impede que o delegado prossiga e seja apontado como autoridade coatora no HC (Cebraspe, Delegado PC-AL 2023).</p><p><strong>Juiz das garantias.</strong> O HC impetrado antes do oferecimento da denúncia é julgado pelo juiz das garantias, quando ele for o competente (art. 3º-B, XII).</p><p><strong>Delegado coator antes da denúncia.</strong> Se o constrangimento vem do delegado, como o inquérito que se arrasta com o investigado preso ou indiciado, o habeas corpus vai ao juiz de primeiro grau, que na fase de investigação é o juiz das garantias (art. 3º-B, XII, do CPP). Errado mandar esse habeas corpus direto ao tribunal de justiça, que só julga quando o coator é o juiz. Também está errado dizer que não cabe habeas corpus para trancar inquérito por excesso de prazo, que ele vai ao juiz da instrução, ou que o Ministério Público pode avocar o caso no lugar do juiz (FGV, Delegado PC-PR 2026).</p><p><strong>HC substitutivo e punição disciplinar.</strong> O STF e o STJ não conhecem do habeas corpus substitutivo de recurso próprio, mas concedem a ordem de ofício diante de ilegalidade flagrante. Não cabe HC sobre o mérito da punição disciplinar militar (CF, art. 142, § 2º; CPP, art. 647), mas cabe para examinar a legalidade, como competência, previsão da sanção e formalidades.</p><p><strong>Habeas corpus coletivo contra resolução da SEAP.</strong> Resolução estadual que torna inelegível para trabalho e estudo (e, portanto, para a remição) todo preso com qualquer falta nos últimos 12 meses: cabe habeas corpus coletivo da Defensoria diretamente no Tribunal de Justiça, com o Secretário de Estado como autoridade coatora, porque o ato normativo que cria obstáculo geral à remição já é ameaça real à liberdade de um grupo (STF, HC 143.641) (FGV, Defensor DPE-RJ 2026).</p>",
-   "relacionados": [
-    "recursos-no-processo-penal",
-    "revisao-criminal",
-    "inquerito-policial"
+   "pegadinhas": [
+    {
+     "errado": "Cabe habeas corpus mesmo depois de extinta a pena privativa de liberdade.",
+     "certo": "Não cabe (Súmula 695 do STF).",
+     "fonte": "Questão do app sobre habeas corpus"
+    },
+    {
+     "errado": "Não cabe habeas corpus contra ato de particular.",
+     "certo": "Cabe, pois a coação ilegal pode vir de particular.",
+     "fonte": "Cebraspe, Delegado PC-AL 2023"
+    },
+    {
+     "errado": "O HC contra o delegado, antes da denúncia, vai direto ao Tribunal de Justiça.",
+     "certo": "Vai ao juiz de primeiro grau, o juiz das garantias (art. 3º-B, XII).",
+     "fonte": "FGV, Delegado PC-PR 2026"
+    },
+    {
+     "errado": "No mandado de segurança impetrado pelo MP contra decisão do juiz criminal, o réu não precisa ser citado.",
+     "certo": "Deve ser citado como litisconsorte passivo (Súmula 701 do STF).",
+     "fonte": "Questão do app sobre mandado de segurança"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-MA 2018; Delegado PC-AL 2023",
+    "FGV: Delegado PC-PR 2026; Defensor DPE-RJ 2026"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescidos o HC substitutivo de recurso (ordem de ofício) e o limite do HC contra punição disciplinar."
-    }
-   ]
-  },
-  {
-   "slug": "revisao-criminal",
-   "titulo": "Revisão criminal",
-   "grupo": "Recursos e ações autônomas",
-   "base": "Arts. 621 a 631 do CPP",
-   "tax": [
-    "processo-penal.sentenca-coisa-julgada-habeas-corpus",
-    "processo-penal.recursos-geral"
-   ],
-   "dispositivos": [
-    "n3689-1941-art-621",
-    "n3689-1941-art-622",
-    "n3689-1941-art-623",
-    "n3689-1941-art-624",
-    "n3689-1941-art-626",
-    "n3689-1941-art-630"
-   ],
-   "conceitos": [
-    "revisão criminal",
-    "revisão pro reo",
-    "vedação da revisão pro societate",
-    "indenização por erro judiciário"
-   ],
-   "palavras": [
-    "revisao criminal",
-    "processo findo",
-    "transito em julgado",
-    "contraria ao texto expresso da lei",
-    "evidencia dos autos",
-    "provas falsas",
-    "novas provas de inocencia",
-    "a qualquer tempo",
-    "mesmo apos a extincao da pena",
-    "apos a morte",
-    "conjuge ascendente descendente irmao",
-    "sem reiteracao salvo novas provas",
-    "competencia dos tribunais",
-    "nao agrava a pena",
-    "indenizacao",
-    "revisao pro societate vedada",
-    "juri revisao",
-    "certidao de obito falsa",
-    "justificacao criminal"
-   ],
-   "resumo": "A revisão criminal é <strong>ação autônoma</strong> contra condenação <strong>transitada em julgado</strong> e existe só em favor do réu: <strong>não há revisão pro societate</strong>, ainda que a absolvição tenha sido injusta. Cabe quando a condenação contraria a lei expressa ou a <strong>evidência dos autos</strong>, quando se funda em provas <strong>comprovadamente falsas</strong> ou quando surgem <strong>novas provas</strong> de inocência ou de circunstância que reduza a pena (art. 621). Pode ser pedida a <strong>qualquer tempo</strong>, antes ou depois da extinção da pena, pelo próprio réu ou procurador e, se ele morreu, pelo cônjuge, ascendente, descendente ou irmão. Não se repete o pedido, salvo com novas provas. É julgada pelos <strong>tribunais</strong>, nunca pelo juiz de primeiro grau, e jamais agrava a pena. Procedente, o tribunal pode absolver, alterar a classificação, reduzir a pena ou anular o processo, e pode reconhecer o direito a <strong>indenização</strong>. Cabe também contra condenação do júri.",
-   "esquema": {
-    "rotulo": "hipóteses (art. 621)",
-    "html": "<table><thead><tr><th>Inciso</th><th>Hipótese</th></tr></thead><tbody><tr><td><strong>I</strong></td><td>Condenação contrária ao texto expresso da lei penal ou à evidência dos autos</td></tr><tr><td><strong>II</strong></td><td>Condenação fundada em depoimentos, exames ou documentos comprovadamente falsos</td></tr><tr><td><strong>III</strong></td><td>Novas provas de inocência ou de circunstância que diminua a pena</td></tr></tbody></table>"
-   },
-   "lei": [
-    {
-     "texto": "Art. 621. A revisão dos processos findos será admitida:\n\nI - quando a sentença condenatória for contrária ao texto expresso da lei penal ou à evidência dos autos;\n\nII - quando a sentença condenatória se fundar em depoimentos, exames ou documentos comprovadamente falsos;\n\nIII - quando, após a sentença, se descobrirem novas provas de inocência do condenado ou de circunstância que determine ou autorize diminuição especial da pena.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 622. A revisão poderá ser requerida em qualquer tempo, antes da extinção da pena ou após.\n\nParágrafo único. Não será admissível a reiteração do pedido, salvo se fundado em novas provas.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 623. A revisão poderá ser pedida pelo próprio réu ou por procurador legalmente habilitado ou, no caso de morte do réu, pelo cônjuge, ascendente, descendente ou irmão.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 626. Julgando procedente a revisão, o tribunal poderá alterar a classificação da infração, absolver o réu, modificar a pena ou anular o processo.\n\nParágrafo único. De qualquer maneira, não poderá ser agravada a pena imposta pela decisão revista.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
-    },
-    {
-     "texto": "Art. 630. O tribunal, se o interessado o requerer, poderá reconhecer o direito a uma justa indenização pelos prejuízos sofridos.\n\n§ 1º Por essa indenização, que será liquidada no juízo cível, responderá a União, se a condenação tiver sido proferida pela justiça do Distrito Federal ou de Território, ou o Estado, se o tiver sido pela respectiva justiça.\n\n§ 2º A indenização não será devida:\n\na) se o erro ou a injustiça da condenação proceder de ato ou falta imputável ao próprio impetrante, como a confissão ou a ocultação de prova em seu poder;\n\nb) se a acusação houver sido meramente privada.",
-     "fonte": "Decreto-Lei 3.689/1941 (Código de Processo Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html",
-     "norma": "n3689-1941"
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema revisto: entram o HC de ofício e coletivo (art. 647-A), todo o rito dos arts. 649 a 667, as Súmulas 606 e 695 e o mandado de segurança criminal."
     }
    ],
-   "macetes": [
-    {
-     "sigla": "SÓ PRO REO",
-     "texto": "Absolvição injusta transitada em julgado não se desfaz. A única exceção prática é a certidão de óbito falsa, que não gera coisa julgada."
-    },
-    {
-     "sigla": "QUALQUER TEMPO, NUNCA PIORA",
-     "texto": "Não há prazo, cabe até depois da morte, e a pena nunca é agravada."
-    }
-   ],
-   "juris": [
-    {
-     "quem": "STF · jurisprudência consolidada",
-     "texto": "A decisão que extingue a punibilidade com base em certidão de óbito falsa pode ser revista, porque não faz coisa julgada em sentido estrito, sem que isso configure revisão pro societate."
-    }
-   ],
-   "pegadinha": {
-    "afirmacao": "A revisão criminal pro societate é admitida quando a sentença absolutória tiver sido proferida por juízo incompetente.",
-    "gabarito": "E",
-    "explicacao": "O ordenamento não admite revisão pro societate, mesmo que o réu tenha sido absolvido injustamente por decisão transitada em julgado (Cebraspe, Delegado PC-PB 2022)."
-   },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Certidão de óbito.</strong> Na mesma questão da PC-PB 2022, errado dizer que não se admite reexame da decisão que extingue a punibilidade com base em falsa certidão de óbito (Cebraspe, Delegado PC-PB 2022).</p><p><strong>Competência.</strong> Errado dizer que a revisão é julgada pelo próprio juízo que condenou: a competência é sempre de tribunal (art. 624) (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Tese vinculante que muda o jogo.</strong> Condenado por tráfico teve o privilegiado negado só pela reincidência não específica, e depois o STF fixou, em repercussão geral, que essa reincidência não impede o benefício por si só. A resposta correta foi: cabe revisão criminal pelo art. 621, I, do CPP, porque a condenação apoiada em orientação superada por tese vinculante passa a ser contrária ao texto da lei penal lido à luz da Constituição (FGV, Defensor DPE-RJ 2026). Fora desse cenário de tese vinculante, a simples mudança de jurisprudência não autoriza revisão.</p>",
    "relacionados": [
     "recursos-no-processo-penal",
-    "habeas-corpus",
-    "sentenca-emendatio-e-mutatio"
+    "revisao-criminal",
+    "inquerito-policial",
+    "recurso-em-sentido-estrito",
+    "habeas-corpus-e-habeas-data"
    ]
   }
  ]
