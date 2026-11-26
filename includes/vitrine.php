@@ -50,9 +50,11 @@ function tpv_cat( $p ) {
 	return $c ? $c[0] : null;
 }
 
-function tpv_card_guia( $p, $num = 0 ) {
-	$c = tpv_cat( $p );
-	return '<li class="tpv-card"><a class="tpv-card__link" href="' . esc_url( get_permalink( $p ) ) . '">'
+function tpv_card_guia( $p, $num = 0, $capa = false ) {
+	$c   = tpv_cat( $p );
+	$img = $capa ? get_the_post_thumbnail_url( $p, 'medium_large' ) : '';
+	return '<li class="tpv-card' . ( $img ? ' tpv-card--capa' : '' ) . '"><a class="tpv-card__link" href="' . esc_url( get_permalink( $p ) ) . '">'
+		. ( $img ? '<img class="tpv-card__capa" src="' . esc_url( $img ) . '" alt="" width="768" height="403" loading="lazy" decoding="async">' : '' )
 		. '<span class="tpv-card__topo">' . ( $num ? '<span class="tpv-card__num">' . (int) $num . '</span>' : '' )
 		. ( $c ? '<span class="tpv-card__selo">' . esc_html( $c->name ) . '</span>' : '' )
 		. '<span class="tpv-card__tempo">' . esc_html( tpv_minutos( $p ) . ' min' ) . '</span></span>'
@@ -247,26 +249,28 @@ add_filter( 'the_content', function ( $html ) {
 	$autor = '<aside class="tpv-autor"><p class="tpv-autor__nome">' . esc_html( get_the_author_meta( 'display_name', $p->post_author ) ) . '</p>'
 		. '<p class="tpv-autor__texto">Estuda para concurso e constrói o Tchau Pobreza. Os números deste guia vêm de editais, gabaritos definitivos e provas oficiais, contados por nós; as fontes estão acima.</p>'
 		. '<p><a href="' . esc_url( home_url( '/sobre/' ) ) . '">Sobre o projeto <span aria-hidden="true">→</span></a></p></aside>';
-	$rel   = array();
+	// 0.29.1: primeiro os guias que o texto cita (são os mais ligados ao assunto), depois os da mesma categoria, depois o resto.
+	$rel = array();
 	foreach ( tpv_guias() as $g ) {
-		$gc = tpv_cat( $g );
-		if ( $g->ID !== $p->ID && $c && $gc && $gc->term_id === $c->term_id ) {
+		if ( $g->ID !== $p->ID && false !== strpos( $p->post_content, '/como-estudar/' . $g->post_name . '/' ) ) {
 			$rel[] = $g;
 		}
 	}
-	foreach ( tpv_guias() as $g ) {
-		if ( count( $rel ) >= 3 ) {
-			break;
-		}
-		if ( $g->ID !== $p->ID && ! in_array( $g, $rel, true ) ) {
-			$rel[] = $g;
+	foreach ( array( true, false ) as $mesma ) {
+		foreach ( tpv_guias() as $g ) {
+			$gc = tpv_cat( $g );
+			$ok = ! $mesma || ( $c && $gc && $gc->term_id === $c->term_id );
+			if ( $ok && $g->ID !== $p->ID && ! in_array( $g, $rel, true ) ) {
+				$rel[] = $g;
+			}
 		}
 	}
 	$cont = '';
 	foreach ( array_slice( $rel, 0, 3 ) as $g ) {
-		$cont .= tpv_card_guia( $g );
+		$cont .= tpv_card_guia( $g, 0, true );
 	}
-	$fim = $autor . ( $cont ? '<h2 class="tpv-secao">Continue lendo</h2><ul class="tpv-grade tpv-grade--3 alignwide">' . $cont . '</ul>' : '' );
+	$fim = $autor . ( $cont ? '<section class="tpv-relacionados alignwide"><h2 class="tpv-secao">Continue lendo</h2><ul class="tpv-grade tpv-grade--3">' . $cont . '</ul>'
+		. '<p class="tpv-mais"><a href="' . esc_url( home_url( '/como-estudar/' ) ) . '">Ver todos os guias de como estudar <span aria-hidden="true">→</span></a></p></section>' : '' );
 
 	return '<!--tpv-guia-->' . $sum . $html . $fim;
 }, 30 );
@@ -320,6 +324,23 @@ add_filter( 'render_block_core/post-title', function ( $html, $block ) {
 		. '<span class="tpv-capa__dados">' . esc_html( tpv_minutos( $p ) . ' min de leitura' ) . ' · Atualizado em <time datetime="' . esc_attr( get_the_modified_date( 'Y-m-d', $p ) ) . '">' . esc_html( get_the_modified_date( 'd/m/Y', $p ) ) . '</time></span></span></div>'
 		. '</div>' . tpv_capa_arte( $c ? $c->slug : '' ) . '</header>';
 }, 10, 2 );
+
+/*
+ * 0.29.1: nos guias, o modelo do tema repetia "Mais posts" (lista com data, incluindo o próprio guia) e a navegação
+ * anterior/próximo por data, logo abaixo do "Continue lendo". Os dois saem só nos guias.
+ */
+add_filter( 'render_block_core/group', function ( $html ) {
+	if ( ! tpv_eh_guia() ) {
+		return $html;
+	}
+	if ( false !== strpos( $html, 'wp-block-query' ) && false !== stripos( $html, 'Mais posts' ) && false === strpos( $html, 'wp-block-post-content' ) ) {
+		return '';
+	}
+	if ( false !== strpos( $html, 'wp-block-post-navigation-link' ) && false === strpos( $html, 'wp-block-post-content' ) ) {
+		return '';
+	}
+	return $html;
+} );
 
 add_filter( 'body_class', function ( $c ) {
 	if ( tpv_eh_guia() ) {
