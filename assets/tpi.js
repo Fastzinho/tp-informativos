@@ -180,7 +180,7 @@
       var lido = !!(box && lidos[box.getAttribute('data-tpi-id')]);
       var some = (f === 'read' && !lido) || (f === 'unread' && lido);
       art.hidden = some;
-      var a = document.querySelector('.tpc-sumario a[href="#' + art.id + '"]');
+      var a = document.querySelector('.tpc-sumario a[href="#' + art.id + '"], .tpc-sumario a[data-tpc-ancora="' + art.id + '"]');
       if (a && a.parentNode) a.parentNode.classList.toggle('tpc-filtrado', some);
     });
   }

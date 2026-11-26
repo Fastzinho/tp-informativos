@@ -842,8 +842,9 @@ function tpc_card_curto( $p, $disc ) {
 	$h .= tpc_incidencia( $t['incidencia'] ?? null );
 	$h .= tpc_botao_lido( $p, $disc->post_title );
 	$h .= '</header>';
+	// 0.29.8: o link para a página vem logo abaixo do título, como botão (no rodapé do card passava batido).
+	$h .= '<p class="tpc-tema__ir"><a class="tpc-tema__ir-link" href="' . esc_url( $url ) . '">Abrir o tema completo <span aria-hidden="true">→</span></a></p>';
 	$h .= '<div class="tpc-30s"><p class="tpc-rotulo">Em 30 segundos</p>' . tpc_html( wpautop( $t['resumo'] ) ) . '</div>';
-	$h .= '<p class="tpc-tema__ir"><a class="tpc-tema__ir-link" href="' . esc_url( $url ) . '">Ler o tema completo <span aria-hidden="true">→</span></a></p>';
 	return $h . '</article>';
 }
 
@@ -892,8 +893,9 @@ function tpc_pagina_disciplina( $id ) {
 		$grupo = $g;
 		$nv    = $t['incidencia']['nivel'] ?? '';
 		$busca = remove_accents( mb_strtolower( $p->post_title . ' ' . ( $t['base'] ?? '' ) . ' ' . implode( ' ', (array) ( $t['palavras'] ?? array() ) ) ) );
-		$h    .= '<li><a href="#' . esc_attr( $p->post_name ) . '" data-tpc-busca="' . esc_attr( $busca ) . '" data-tpc-lido="' . esc_attr( $p->ID ) . '"' . tpi_attr_mudanca( tpc_mudanca( $t ) ) . ( tpc_escrito( $t ) ? '' : ' class="is-rascunho"' ) . '>'
-			. '<span class="tpc-sumario__nome">' . esc_html( $p->post_title ) . '</span>'
+		$solo  = tpc_indexavel( $p->ID ); // 0.29.8: tema com página própria abre a página direto do sumário
+		$h    .= '<li><a href="' . ( $solo ? esc_url( get_permalink( $p ) ) : '#' . esc_attr( $p->post_name ) ) . '"' . ( $solo ? ' data-tpc-ancora="' . esc_attr( $p->post_name ) . '"' : '' ) . ' data-tpc-busca="' . esc_attr( $busca ) . '" data-tpc-lido="' . esc_attr( $p->ID ) . '"' . tpi_attr_mudanca( tpc_mudanca( $t ) ) . ( tpc_escrito( $t ) ? '' : ' class="is-rascunho"' ) . '>'
+			. '<span class="tpc-sumario__nome">' . esc_html( $p->post_title ) . ( $solo ? ' <span class="tpc-sumario__pagina" aria-hidden="true" title="Abre a página do tema">↗</span>' : '' ) . '</span>'
 			. ( isset( tpc_niveis()[ $nv ] ) ? '<i class="tpc-ponto tpc-ponto--' . esc_attr( $nv ) . '" title="' . esc_attr( tpc_niveis()[ $nv ] ) . '"></i><span class="tpi-sr"> (' . esc_html( tpc_niveis()[ $nv ] ) . ')</span>' : '' )
 			. '<span class="tpc-sumario__lido" hidden></span></a></li>';
 	}
