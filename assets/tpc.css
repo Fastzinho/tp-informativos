@@ -242,3 +242,9 @@ dialog.tpc-gaveta::backdrop { background: rgba(20,32,28,.35); }
 .tpc-filtro__todos { font-size: .82rem; font-weight: 600; padding: 5px 10px; }
 .tpc-filtro__botao .i-um, .tpc-filtro__botao .i-dois { display: block; }
 .tpc-sumario__lista li.tpc-filtrado { display: none; }
+
+/* 0.29.6: card curto do tema com página própria (piloto de SEO) */
+.tpc .tpc-tema--curto .tpc-tema__titulo a { color: inherit; text-decoration: none; }
+.tpc .tpc-tema--curto .tpc-tema__titulo a:hover, .tpc .tpc-tema--curto .tpc-tema__titulo a:focus-visible { text-decoration: underline; }
+.tpc-tema__ir { margin: .9rem 0 0; }
+.tpc-tema__ir-link { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; font-weight: 700; color: var(--tpi-tinta, inherit); }

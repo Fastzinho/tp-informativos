@@ -824,6 +824,29 @@ function tpc_card( $p, $disc, $irmaos, $nivel_h = 2 ) {
 }
 
 /* Autor: o do site (tpi_autor) ou o do JSON ("autor": {"nome","credenciais","url"}), para disciplinas fora do Direito. */
+/*
+ * 0.29.6 (piloto de SEO, 26/11/2026): tema com página própria aparece no caderno só como card curto (título, "Em 30
+ * segundos" e o link para a página). O texto completo fica numa URL só, para o caderno não competir com a página do
+ * tema. O id/âncora continua igual: sumário, busca e links antigos #slug caem aqui e seguem para o tema.
+ */
+function tpc_card_curto( $p, $disc ) {
+	$t    = tpc_dados( $p->ID );
+	$slug = $p->post_name;
+	$url  = get_permalink( $p );
+	$h    = '<article class="tpc-tema tpc-tema--curto" id="' . esc_attr( $slug ) . '" aria-labelledby="tpc-t-' . esc_attr( $slug ) . '">';
+	$h   .= '<header class="tpc-tema__topo">';
+	if ( ! empty( $t['base'] ) || ! empty( $t['grupo'] ) ) {
+		$h .= '<p class="tpc-kicker">' . esc_html( implode( ' · ', array_filter( array( $t['grupo'] ?? '', $t['base'] ?? '' ) ) ) ) . '</p>';
+	}
+	$h .= '<h2 id="tpc-t-' . esc_attr( $slug ) . '" class="tpc-tema__titulo"><a href="' . esc_url( $url ) . '">' . esc_html( $p->post_title ) . '</a></h2>';
+	$h .= tpc_incidencia( $t['incidencia'] ?? null );
+	$h .= tpc_botao_lido( $p, $disc->post_title );
+	$h .= '</header>';
+	$h .= '<div class="tpc-30s"><p class="tpc-rotulo">Em 30 segundos</p>' . tpc_html( wpautop( $t['resumo'] ) ) . '</div>';
+	$h .= '<p class="tpc-tema__ir"><a class="tpc-tema__ir-link" href="' . esc_url( $url ) . '">Ler o tema completo <span aria-hidden="true">→</span></a></p>';
+	return $h . '</article>';
+}
+
 function tpc_autor( $d ) {
 	$a = tpi_autor();
 	if ( ! empty( $d['autor']['nome'] ) ) {
@@ -878,7 +901,7 @@ function tpc_pagina_disciplina( $id ) {
 
 	$h .= '<div class="tpc-temas">';
 	foreach ( $temas as $p ) {
-		$h .= tpc_card( $p, $disc, $temas );
+		$h .= tpc_indexavel( $p->ID ) ? tpc_card_curto( $p, $disc ) : tpc_card( $p, $disc, $temas );
 	}
 	$h .= '</div></div>';
 
@@ -1120,6 +1143,15 @@ add_action( 'wp_head', function () {
 	}
 	echo '<script type="application/ld+json">' . wp_json_encode( array( '@context' => 'https://schema.org', '@graph' => array( $page, $art, $bc ) ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
 }, 30 );
+
+/* 0.29.6: title da página própria do tema na grafia buscada ("seo_titulo" no JSON), sem mudar o nome do tema. */
+add_filter( 'rank_math/frontend/title', function ( $title ) {
+	if ( ! is_singular( 'caderno' ) ) {
+		return $title;
+	}
+	$d = tpc_dados( get_queried_object_id() );
+	return ! empty( $d['seo_titulo'] ) ? $d['seo_titulo'] : $title;
+} );
 
 /* Descrição para o Rank Math quando ninguém escreveu uma no painel. */
 add_filter( 'rank_math/frontend/description', function ( $desc ) {

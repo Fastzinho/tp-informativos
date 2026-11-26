@@ -52,6 +52,7 @@ Vale para qualquer disciplina, jurídica ou não: os blocos vazios simplesmente 
 | `praticar` | link do botão; padrão `/estudar/` |
 | `relacionados` | slugs de temas da mesma disciplina; um slug de outro caderno também vale, se for único entre os temas publicados (0.23.1). Sem eles, os vizinhos do sumário |
 | `pagina_propria` | `true` dá URL própria ao tema (`/cadernos/<disciplina>/<tema>/`); sem isso, o endereço redireciona para a âncora |
+| `seo_titulo`, `descricao` | opcionais, só para tema com `pagina_propria` (0.29.6): title e meta description da página do tema, na grafia que as pessoas buscam. O `titulo` (nome do tema no caderno, no app e no "Já li") não muda. Com `pagina_propria`, o caderno mostra o tema como card curto (título, "Em 30 segundos" e "Ler o tema completo"), para o texto ficar numa URL só |
 
 ## Indexação
 
