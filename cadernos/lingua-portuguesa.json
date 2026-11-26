@@ -1113,6 +1113,517 @@
       ]
     },
     {
+      "slug": "figuras-de-linguagem",
+      "titulo": "Figuras de linguagem: metáfora, metonímia, antítese, silepse e as demais",
+      "grupo": "Texto e reescrita",
+      "base": "Gramática normativa (Bechara; Cunha e Cintra)",
+      "tax": [
+        "portugues.figuras-linguagem"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "figuras de linguagem",
+        "metáfora",
+        "comparação",
+        "metonímia",
+        "catacrese",
+        "hipérbole",
+        "eufemismo",
+        "ironia",
+        "antítese",
+        "paradoxo",
+        "prosopopeia",
+        "sinestesia",
+        "pleonasmo",
+        "elipse",
+        "zeugma",
+        "silepse",
+        "anacoluto",
+        "hipérbato",
+        "gradação",
+        "polissíndeto",
+        "assíndeto",
+        "aliteração",
+        "assonância"
+      ],
+      "palavras": [
+        "figuras de linguagem",
+        "metafora",
+        "comparacao",
+        "simile",
+        "conectivo comparativo",
+        "metonimia",
+        "catacrese",
+        "hiperbole",
+        "eufemismo",
+        "ironia",
+        "antitese",
+        "paradoxo",
+        "oximoro",
+        "prosopopeia",
+        "personificacao",
+        "sinestesia",
+        "pleonasmo",
+        "pleonasmo vicioso",
+        "elipse",
+        "zeugma",
+        "silepse",
+        "silepse de genero",
+        "silepse de numero",
+        "silepse de pessoa",
+        "anacoluto",
+        "hiperbato",
+        "gradacao",
+        "polissindeto",
+        "assindeto",
+        "aliteracao",
+        "assonancia",
+        "anafora",
+        "onomatopeia",
+        "o planalto"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Sentido figurado:</strong> a palavra fora do sentido literal, de dicionário (conotação). Quase toda figura de palavra trabalha com ele.",
+          "tema": "significacao-das-palavras"
+        }
+      ],
+      "resumo": "Figura de linguagem é um modo de dizer que foge do uso literal para dar ênfase, expressividade ou economia. A prova pede quase sempre a <strong>distinção entre figuras vizinhas</strong>: metáfora e comparação (a comparação tem conectivo, como \"como\"), metonímia e metáfora (a metonímia troca termos que têm relação real, como o lugar pela instituição), antítese e paradoxo (na antítese os opostos estão em termos distintos; no paradoxo, no mesmo ser). Outras figuras mexem na estrutura da frase, como a elipse, o zeugma, o hipérbato e a <strong>silepse</strong>, que é a concordância com a ideia, e não com a forma: \"Vossa Excelência está cansado\", dito a um homem. O esquema separa as figuras que a banca mais confunde.",
+      "esquema": {
+        "rotulo": "as figuras que a banca confunde",
+        "html": "<table><thead><tr><th>Par</th><th>Diferença</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Metáfora x comparação</strong></td><td>A comparação tem conectivo (como, tal qual, feito); a metáfora, não</td><td>\"O orçamento é uma colcha curta\" (metáfora); \"cresceu como uma bola de neve\" (comparação)</td></tr><tr><td><strong>Metáfora x metonímia</strong></td><td>Metáfora: semelhança; metonímia: relação real de proximidade</td><td>\"O Itamaraty negou a informação\" (lugar pela instituição): metonímia</td></tr><tr><td><strong>Catacrese x metáfora viva</strong></td><td>Catacrese é a metáfora gasta, usada por falta de termo próprio</td><td>\"braço da cadeira\", \"pé da mesa\", \"embarcar no ônibus\"</td></tr><tr><td><strong>Antítese x paradoxo</strong></td><td>Antítese: opostos em termos distintos; paradoxo: contradição no mesmo ser</td><td>\"entre o começo e o fim\" (antítese); \"um silêncio que grita\" (paradoxo)</td></tr><tr><td><strong>Hipérbole x eufemismo</strong></td><td>Uma exagera; o outro suaviza</td><td>\"já pedi mil vezes\"; \"faltou com a verdade\" (por mentiu)</td></tr><tr><td><strong>Pleonasmo estilístico x vicioso</strong></td><td>O estilístico enfatiza; o vicioso só repete e é condenado</td><td>\"vi com meus próprios olhos\"; \"subir para cima\", \"elo de ligação\"</td></tr><tr><td><strong>Elipse x zeugma</strong></td><td>Elipse: omissão de termo fácil de deduzir; zeugma: omissão de termo já dito</td><td>\"Eu prefiro chá; ela, café\" (zeugma do verbo)</td></tr><tr><td><strong>Silepse</strong></td><td>Concordância com a ideia: de gênero, de número ou de pessoa</td><td>\"Vossa Excelência será informado\"; \"o povo, cansado, gritavam por justiça\"; \"os servidores estamos atentos\"</td></tr><tr><td><strong>Polissíndeto x assíndeto</strong></td><td>Repetição de conjunção x ausência de conjunção</td><td>\"e estuda, e revisa, e insiste\"; \"cheguei, li, assinei\"</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Metáfora",
+            "o_que_e": "Metáfora é a comparação implícita, sem conectivo comparativo (\"A inflação é um dragão\").",
+            "atencao": "Com conectivo, é comparação (símile).",
+            "grupo": "Figuras de palavra"
+          },
+          {
+            "nome": "Comparação (símile)",
+            "o_que_e": "A presença do conectivo comparativo (\"cresceu como uma bola de neve\") caracteriza comparação, e não metáfora.",
+            "grupo": "Figuras de palavra"
+          },
+          {
+            "nome": "Metonímia",
+            "o_que_e": "Troca de um termo por outro com relação de contiguidade: o autor pela obra (\"ler Machado\"), o continente pelo conteúdo (\"beber um copo\"), a parte pelo todo (\"faltam braços\"), o lugar pela instituição que nele funciona (\"o Planalto anunciou\").",
+            "atencao": "Também a marca pelo produto e o efeito pela causa.",
+            "grupo": "Figuras de palavra"
+          },
+          {
+            "nome": "Catacrese",
+            "o_que_e": "Catacrese é a metáfora desgastada pelo uso, empregada por falta de termo próprio (\"pé da mesa\", \"braço da cadeira\").",
+            "atencao": "Não há exagero, então não é hipérbole.",
+            "grupo": "Figuras de palavra"
+          },
+          {
+            "nome": "Sinestesia",
+            "o_que_e": "Mistura de sentidos diferentes: \"voz doce\", \"cor quente\".",
+            "grupo": "Figuras de palavra"
+          },
+          {
+            "nome": "Hipérbole",
+            "o_que_e": "Exagero intencional: \"morrer de rir\".",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Eufemismo",
+            "o_que_e": "Eufemismo é a suavização de uma ideia desagradável (\"faltou com a verdade\" por \"mentiu\").",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Ironia",
+            "o_que_e": "Dizer o contrário do que se pensa, com intenção crítica: \"Que pontualidade: só duas horas de atraso\".",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Antítese",
+            "o_que_e": "Aproximação de ideias opostas em termos distintos (\"guerra e paz\").",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Paradoxo (oxímoro)",
+            "o_que_e": "União de ideias contraditórias num mesmo ser ou objeto (\"silêncio ensurdecedor\").",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Prosopopeia (personificação)",
+            "o_que_e": "Prosopopeia (personificação) atribui ação, sentimento ou característica humana a seres inanimados ou irracionais (\"A cidade acordou cedo\").",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Gradação",
+            "o_que_e": "Termos em ordem crescente ou decrescente de intensidade: \"pediu, insistiu, exigiu\".",
+            "grupo": "Figuras de pensamento"
+          },
+          {
+            "nome": "Pleonasmo",
+            "o_que_e": "Redundância; é estilístico quando enfatiza (\"vi com estes olhos\") e vicioso quando apenas repete sem acrescentar (\"subir para cima\", \"entrar para dentro\").",
+            "atencao": "O vicioso é condenado pela norma-padrão.",
+            "grupo": "Figuras de construção"
+          },
+          {
+            "nome": "Elipse e zeugma",
+            "o_que_e": "Omissão de termo; zeugma é a omissão de termo já expresso antes.",
+            "grupo": "Figuras de construção"
+          },
+          {
+            "nome": "Silepse",
+            "o_que_e": "Silepse é a concordância com a ideia: de gênero (\"Vossa Excelência será informado\", concordando com o sexo da pessoa, e não com o gênero gramatical do pronome), de número (\"o povo gritavam\") e de pessoa (\"os brasileiros somos\").",
+            "grupo": "Figuras de construção"
+          },
+          {
+            "nome": "Hipérbato e anacoluto",
+            "o_que_e": "Hipérbato é a inversão da ordem direta; anacoluto é a quebra da estrutura, que deixa um termo solto.",
+            "atencao": "\"O diretor, ninguém sabe onde ele está\": anacoluto.",
+            "grupo": "Figuras de construção"
+          },
+          {
+            "nome": "Polissíndeto e assíndeto",
+            "o_que_e": "Repetição da conjunção; ausência de conjunção.",
+            "grupo": "Figuras de construção"
+          },
+          {
+            "nome": "Aliteração, assonância e onomatopeia",
+            "o_que_e": "Repetição de consoantes; repetição de vogais; palavra que imita som.",
+            "atencao": "Anáfora, como figura, é a repetição de palavra no início de frases ou versos.",
+            "grupo": "Figuras de som"
+          }
+        ],
+        "colunas": [
+          "Figura",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Conectivo decide entre metáfora e comparação:</strong> \"O plenário era um mercado\" é metáfora; \"O plenário parecia um mercado\" e \"barulhento como um mercado\" são comparação.",
+        "<strong>Metonímia tem relação real:</strong> em \"A Esplanada reagiu à proposta\", o lugar está pelos órgãos que funcionam nele. Na metáfora, a relação é só de semelhança imaginada.",
+        "<strong>Antítese ou paradoxo:</strong> \"Uma ausência muito presente\" junta opostos na mesma coisa e soa contraditório: paradoxo. \"O relatório trata do sucesso e do fracasso do programa\" opõe termos sem contradição: antítese.",
+        "<strong>Silepse não é erro de concordância:</strong> em \"Vossa Senhoria está convidado\", dirigido a um homem, o particípio concorda com a pessoa, e a construção é aceita.",
+        "<strong>Pleonasmo que a norma condena:</strong> \"elo de ligação\", \"surpresa inesperada\", \"há anos atrás\". Quando a repetição é intencional e dá ênfase, como em \"vi com estes olhos\", é estilística."
+      ],
+      "macetes": [
+        {
+          "sigla": "COM \"COMO\", É COMPARAÇÃO",
+          "texto": "Apareceu conectivo comparativo (como, tal qual, feito, parece), não é metáfora."
+        },
+        {
+          "sigla": "LUGAR PELA INSTITUIÇÃO É METONÍMIA",
+          "texto": "Planalto, Itamaraty, Esplanada, Brasília no lugar do governo: metonímia."
+        },
+        {
+          "sigla": "OPOSTOS NO MESMO SER, PARADOXO",
+          "texto": "Antítese aproxima opostos em termos diferentes; paradoxo junta os opostos na mesma coisa (\"silêncio ensurdecedor\")."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em \"O Itamaraty divulgou nota sobre o acordo\", há metáfora, porque o palácio é comparado ao ministério.",
+        "gabarito": "E",
+        "explicacao": "Não há comparação: o lugar está pela instituição que funciona nele, uma relação real de proximidade. É metonímia."
+      },
+      "pegadinhas": [
+        {
+          "errado": "Em \"O desemprego avançou como uma onda\", há metáfora, porque a aproximação dispensa conectivo.",
+          "certo": "O \"como\" torna a aproximação explícita: é comparação (símile).",
+          "fonte": "Questão do app sobre metáfora e comparação"
+        },
+        {
+          "errado": "\"Um silêncio ensurdecedor\" é antítese.",
+          "certo": "Ideias contraditórias no mesmo objeto formam paradoxo (oxímoro); antítese opõe termos distintos.",
+          "fonte": "Questão do app sobre antítese e paradoxo"
+        },
+        {
+          "errado": "\"O braço da poltrona\" é hipérbole.",
+          "certo": "É catacrese: metáfora gasta, usada por falta de termo próprio; não há exagero.",
+          "fonte": "Questão do app sobre catacrese"
+        },
+        {
+          "errado": "\"Entrar para dentro\" é pleonasmo estilístico, aceito pela norma-padrão.",
+          "certo": "A repetição nada acrescenta: é pleonasmo vicioso, condenado pela norma.",
+          "fonte": "Questão do app sobre pleonasmo"
+        },
+        {
+          "errado": "Em \"Vossa Excelência será recebido\", dito a um homem, há erro de concordância, porque o pronome é feminino.",
+          "certo": "A concordância com o sexo da pessoa é silepse de gênero, aceita.",
+          "fonte": "Questão do app sobre silepse"
+        },
+        {
+          "errado": "\"Ele faleceu\" no lugar de \"ele morreu\" é ironia.",
+          "certo": "Suavizar uma ideia desagradável é eufemismo; ironia diz o contrário do que se pensa.",
+          "fonte": "Questão do app sobre eufemismo"
+        }
+      ],
+      "ja_caiu": [
+        "Questão do app sobre figuras de palavra, de pensamento e de construção"
+      ],
+      "relacionados": [
+        "significacao-das-palavras",
+        "concordancia-verbal-e-nominal",
+        "compreensao-e-interpretacao-de-textos"
+      ]
+    },
+    {
+      "slug": "variacao-linguistica",
+      "titulo": "Variação linguística e níveis de formalidade: tipos de variação, norma-padrão e reescrita formal",
+      "grupo": "Texto e reescrita",
+      "base": "Gramática normativa (Bechara; Cunha e Cintra)",
+      "tax": [
+        "portugues.variacao-linguistica",
+        "portugues.reescrita-formalidade"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "variação linguística",
+        "variação geográfica",
+        "variação social",
+        "variação situacional",
+        "variação histórica",
+        "norma-padrão",
+        "norma culta",
+        "preconceito linguístico",
+        "registro formal",
+        "registro informal",
+        "níveis de formalidade",
+        "reescrita formal",
+        "gerundismo",
+        "uniformidade de tratamento",
+        "impessoalidade"
+      ],
+      "palavras": [
+        "variacao linguistica",
+        "diatopica",
+        "diastratica",
+        "diafasica",
+        "diacronica",
+        "regionalismo",
+        "jargao",
+        "giria",
+        "norma-padrao",
+        "norma culta",
+        "preconceito linguistico",
+        "registro formal",
+        "registro informal",
+        "nivel de formalidade",
+        "reescrita formal",
+        "a gente",
+        "pra",
+        "vosmece",
+        "voce",
+        "vossa senhoria",
+        "gerundismo",
+        "vou estar enviando",
+        "para eu fazer",
+        "para mim",
+        "teu e seu",
+        "eu acho",
+        "recomenda-se",
+        "linguagem clara",
+        "publico leigo",
+        "noticia",
+        "terceira pessoa",
+        "ter e haver",
+        "vi ele",
+        "rebuscamento"
+      ],
+      "para_entender": [
+        {
+          "texto": "<strong>Pronome átono no início da frase:</strong> a norma-padrão não começa período com me, te, se, lhe: \"Envie-me\", e não \"Me envie\".",
+          "tema": "colocacao-pronominal"
+        },
+        {
+          "texto": "<strong>Reescrita:</strong> a nova versão tem de ser correta e manter a informação do original.",
+          "tema": "reescrita-de-frases-e-substituicao-de-trechos"
+        }
+      ],
+      "resumo": "Toda língua <strong>varia</strong> no espaço, no tempo, entre grupos sociais e conforme a situação; a variação é propriedade natural da língua, e não defeito. Por isso a prova não chama de errada a variedade popular: ela é <strong>inadequada a situações formais</strong>, e tratá-la como inferior é preconceito linguístico. Também separa <strong>norma-padrão</strong> (o modelo das gramáticas, exigido em texto oficial) de <strong>norma culta</strong> (o uso real de falantes escolarizados em situação monitorada). O outro lado do tema é a <strong>reescrita formal</strong>: trocar marcas informais (\"a gente\", \"pra\", \"vou estar enviando\", \"para mim fazer\") por formas da norma-padrão, sem acrescentar, tirar ou mudar informação. O esquema traz os tipos de variação e as trocas que a reescrita formal faz.",
+      "esquema": {
+        "rotulo": "tipos de variação e trocas da reescrita formal",
+        "html": "<table><thead><tr><th>Ponto</th><th>O que é ou como fica</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Geográfica (diatópica)</strong></td><td>Diferenças entre regiões</td><td>mandioca, macaxeira, aipim; sotaques</td></tr><tr><td><strong>Social (diastrática)</strong></td><td>Grupo social, idade, escolaridade, profissão</td><td>jargão de uma profissão; gíria de um grupo</td></tr><tr><td><strong>Situacional (diafásica)</strong></td><td>O mesmo falante muda o registro conforme a situação</td><td>conversa com amigos x sustentação em audiência</td></tr><tr><td><strong>Histórica (diacrônica)</strong></td><td>Mudança ao longo do tempo</td><td>\"vosmecê\", forma em desuso</td></tr><tr><td><strong>\"A gente\" e \"pra\"</strong></td><td>\"nós\" com verbo na 1ª do plural; \"para\"</td><td>\"a gente decidiu\" → \"decidimos\"</td></tr><tr><td><strong>\"Ter\" de existência</strong></td><td>\"haver\", no singular</td><td>\"vai ter reunião\" → \"haverá reunião\"; \"tem vagas\" → \"há vagas\"</td></tr><tr><td><strong>Gerundismo</strong></td><td>Futuro simples</td><td>\"vou estar enviando\" → \"enviarei\"</td></tr><tr><td><strong>Sujeito do infinitivo</strong></td><td>Pronome reto</td><td>\"para mim assinar\" → \"para eu assinar\"</td></tr><tr><td><strong>Tratamento misturado</strong></td><td>Uniformidade: \"você\" com seu, sua, lhe</td><td>\"você trouxe teu crachá\" → \"você trouxe seu crachá\"</td></tr><tr><td><strong>Opinião pessoal</strong></td><td>Impessoalidade</td><td>\"eu acho que o pedido deve ser negado\" → \"recomenda-se o indeferimento do pedido\"</td></tr><tr><td><strong>Palavras vagas</strong></td><td>Termo preciso</td><td>\"dar entrada\" → \"protocolar\"; \"um monte de\" → \"vários\"</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada conceito e cada troca, em uma linha",
+        "linhas": [
+          {
+            "nome": "Geográfica (diatópica)",
+            "o_que_e": "A variação geográfica (diatópica) distingue falares regionais, como as diferentes palavras para o mesmo tubérculo (\"mandioca\", \"macaxeira\", \"aipim\").",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Social (diastrática)",
+            "o_que_e": "Ligada a grupo social, escolaridade, idade e profissão; o vocabulário técnico de uma profissão (jargão jurídico, como \"agravo\" e \"preclusão\") é exemplo de variação diastrática, e não geográfica.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Situacional (diafásica)",
+            "o_que_e": "A variação situacional (diafásica) é a mudança de registro, mais formal ou mais informal, feita pelo mesmo falante conforme a situação de comunicação.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Histórica (diacrônica)",
+            "o_que_e": "Mudança da língua ao longo do tempo; \"vosmecê\" é forma em desuso que ilustra essa variação.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Norma-padrão e norma culta",
+            "o_que_e": "Norma-padrão é o modelo idealizado das gramáticas normativas; norma culta é o uso efetivo dos falantes escolarizados em situações monitoradas; as duas expressões não são sinônimas.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Preconceito linguístico",
+            "o_que_e": "As variedades populares não são formas erradas da língua, mas inadequadas em situações formais.",
+            "atencao": "Julgar uma variedade como inferior é preconceito linguístico.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Gradiente de formalidade",
+            "o_que_e": "A formalidade é um gradiente: há graus entre o registro mais informal e o mais formal.",
+            "grupo": "Variação"
+          },
+          {
+            "nome": "Marcas do registro informal",
+            "o_que_e": "São marcas de registro informal, inadequadas a textos oficiais: \"a gente\" por \"nós\", \"pra\" por \"para\", \"tá\" por \"está\", \"tem\" por \"há\", gírias, \"né\", \"tipo\" e pronome reto como objeto (\"vi ele\").",
+            "grupo": "Marcas informais"
+          },
+          {
+            "nome": "Tratamento em texto oficial",
+            "o_que_e": "O Manual de Redação da Presidência da República prevê o emprego dos pronomes de tratamento (Vossa Excelência, Vossa Senhoria), e não de \"você\", nas comunicações oficiais.",
+            "grupo": "Marcas informais"
+          },
+          {
+            "nome": "\"A gente\"",
+            "o_que_e": "\"A gente analisou\" torna-se \"nós analisamos\" ou simplesmente \"analisamos\".",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Pronome átono",
+            "o_que_e": "O pronome pessoal átono não inicia frase na escrita formal: \"Me envie\" vira \"Envie-me\".",
+            "atencao": "A ênclise é obrigatória, e não facultativa, quando o verbo abre a frase.",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Infinitivo",
+            "o_que_e": "O sujeito do infinitivo é pronome reto: a forma da norma-padrão é \"para eu fazer\".",
+            "atencao": "\"Para mim\" só sem verbo depois: \"o documento é para mim\".",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Tratamento uniforme",
+            "o_que_e": "Quem usa \"você\" emprega seu, sua, lhe; misturar \"você trouxe teus documentos\" fere a norma-padrão.",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Gerundismo",
+            "o_que_e": "\"Vou estar enviando\" é marca informal; o registro formal usa \"enviarei\" e \"analisaremos\".",
+            "atencao": "\"Estarei enviando\" continua gerundismo.",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Impessoalidade",
+            "o_que_e": "\"Eu acho que o pedido deve ser negado\" torna-se \"o pedido deve ser negado\" ou \"recomenda-se o indeferimento do pedido\".",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Linguagem clara",
+            "o_que_e": "Adequar um texto técnico ao público leigo (linguagem clara) não é torná-lo informal.",
+            "atencao": "Explica-se o termo técnico e mantêm-se a norma-padrão e a impessoalidade.",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Relato pessoal para notícia",
+            "o_que_e": "A notícia passa da primeira para a terceira pessoa, retira juízos de valor e mantém os fatos.",
+            "atencao": "\"Eu vi o galpão alagar\" → \"Um alagamento atingiu o galpão\".",
+            "grupo": "Reescrita formal"
+          },
+          {
+            "nome": "Formal não é rebuscado",
+            "o_que_e": "O registro formal usa a norma-padrão com clareza; o preciosismo atrapalha tanto quanto a gíria.",
+            "grupo": "Reescrita formal"
+          }
+        ],
+        "colunas": [
+          "Conceito ou troca",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Inadequado, e não errado:</strong> \"Nós vai\" não é \"erro\" para a linguística; é forma de uma variedade popular, inadequada a um requerimento. A prova costuma marcar como errada a afirmação de que a variedade popular é \"forma errada da língua\".",
+        "<strong>Jargão é social, e não regional:</strong> o vocabulário de médicos, juristas ou engenheiros depende do grupo profissional, e não da região: variação diastrática.",
+        "<strong>Reescrita formal não muda informação:</strong> \"Tem um monte de processo parado\" vira \"Há muitos processos parados\", e não \"Há alguns processos parados\", que diminui a quantidade.",
+        "<strong>Gerundismo disfarçado:</strong> \"estaremos analisando\" e \"vou estar encaminhando\" são a mesma marca; o formal é \"analisaremos\" e \"encaminharei\". O gerúndio de ação em curso (\"estamos analisando o pedido agora\") é correto.",
+        "<strong>\"Para mim\" ou \"para eu\":</strong> \"O ofício chegou para mim\" (sem verbo depois) está certo; \"O ofício chegou para eu assinar\" (com infinitivo) pede o pronome reto, porque \"eu\" é sujeito de \"assinar\".",
+        "<strong>\"Ter\" e \"haver\":</strong> \"Vai ter audiência\" vira \"Haverá audiência\"; \"Tem dois anos que\" vira \"Há dois anos que\". O \"haver\" de existência fica no singular: \"Havia muitas pessoas\", \"deve haver vagas\"."
+      ],
+      "macetes": [
+        {
+          "sigla": "QUATRO TIPOS, QUATRO PERGUNTAS",
+          "texto": "Onde? Geográfica (diatópica). Quem? Social (diastrática). Em que situação? Situacional (diafásica). Quando? Histórica (diacrônica)."
+        },
+        {
+          "sigla": "PADRÃO É O MODELO; CULTA É O USO",
+          "texto": "Norma-padrão é o que a gramática prescreve; norma culta é como os falantes escolarizados realmente falam e escrevem em situação monitorada."
+        },
+        {
+          "sigla": "FORMAL SEM PERDER INFORMAÇÃO",
+          "texto": "Na reescrita formal, troque a marca informal pela forma padrão e verifique se a quantidade, o tempo e quem age continuam os mesmos."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "O uso de termos técnicos próprios da área médica, como \"anamnese\" e \"prognóstico\", é exemplo de variação geográfica, porque depende do lugar em que o profissional trabalha.",
+        "gabarito": "E",
+        "explicacao": "Jargão profissional é variação social (diastrática): depende do grupo profissional, e não da região."
+      },
+      "pegadinhas": [
+        {
+          "errado": "Norma culta e norma-padrão são sinônimos: ambas designam as regras das gramáticas normativas.",
+          "certo": "Norma-padrão é o modelo prescrito; norma culta é o uso efetivo dos falantes escolarizados em situação monitorada.",
+          "fonte": "Questão do app sobre norma-padrão e norma culta"
+        },
+        {
+          "errado": "Para a linguística, a variedade de pessoas pouco escolarizadas é forma errada da língua.",
+          "certo": "As variedades populares não são erradas, mas inadequadas a situações formais; julgá-las inferiores é preconceito linguístico.",
+          "fonte": "Questão do app sobre preconceito linguístico"
+        },
+        {
+          "errado": "Em ofício, \"você\" deve substituir \"Vossa Senhoria\", por ser mais claro e direto.",
+          "certo": "O Manual de Redação prevê os pronomes de tratamento; \"você\" é informal.",
+          "fonte": "Questão do app sobre registro em texto oficial"
+        },
+        {
+          "errado": "\"Estaremos encaminhando o parecer na sexta\" adequa ao registro formal a frase \"Vamos estar encaminhando o parecer na sexta\".",
+          "certo": "\"Estaremos encaminhando\" mantém o gerundismo; o formal é \"Encaminharemos o parecer na sexta-feira\".",
+          "fonte": "Questão do app sobre gerundismo"
+        },
+        {
+          "errado": "\"Deixaram a certidão para mim retirar\" pode ficar em requerimento formal, porque \"para mim\" é a forma correta.",
+          "certo": "Antes de infinitivo, o sujeito é pronome reto: \"para eu retirar\".",
+          "fonte": "Questão do app sobre sujeito do infinitivo"
+        },
+        {
+          "errado": "Explicar termos técnicos a um público leigo torna o texto informal.",
+          "certo": "Linguagem clara não é informalidade: o texto segue formal se mantiver a norma-padrão e a impessoalidade.",
+          "fonte": "Questão do app sobre linguagem clara"
+        },
+        {
+          "errado": "\"Me encaminhe a ata\" vira \"Encaminhe-me a ata\" porque, no início da frase, a próclise é facultativa.",
+          "certo": "A reescrita está certa, mas a próclise no início da frase é proibida, e não facultativa: a ênclise é obrigatória.",
+          "fonte": "Questão do app sobre reescrita formal"
+        }
+      ],
+      "ja_caiu": [
+        "Questão do app sobre tipos de variação, norma-padrão e norma culta e reescrita em registro formal"
+      ],
+      "relacionados": [
+        "reescrita-de-frases-e-substituicao-de-trechos",
+        "redacao-oficial",
+        "colocacao-pronominal"
+      ]
+    },
+    {
       "slug": "pontuacao-e-emprego-da-virgula",
       "titulo": "Pontuação: quando a vírgula é obrigatória, facultativa ou proibida",
       "grupo": "Norma gramatical",
@@ -1890,6 +2401,566 @@
       ]
     },
     {
+      "slug": "colocacao-pronominal",
+      "titulo": "Colocação pronominal: próclise, ênclise, mesóclise e as palavras que atraem o pronome",
+      "grupo": "Norma gramatical",
+      "base": "Gramática normativa (Bechara; Cunha e Cintra)",
+      "tax": [
+        "portugues.colocacao-pronominal"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "colocação pronominal",
+        "pronome oblíquo átono",
+        "próclise",
+        "ênclise",
+        "mesóclise",
+        "palavra atrativa",
+        "locução verbal",
+        "futuro do presente",
+        "futuro do pretérito",
+        "particípio",
+        "gerúndio"
+      ],
+      "palavras": [
+        "colocacao pronominal",
+        "pronome obliquo",
+        "pronome atono",
+        "proclise",
+        "enclise",
+        "mesoclise",
+        "palavra atrativa",
+        "atracao",
+        "negacao",
+        "pronome relativo",
+        "conjuncao subordinativa",
+        "pronome indefinido",
+        "adverbio",
+        "virgula depois do adverbio",
+        "inicio de periodo",
+        "futuro do presente",
+        "futuro do preterito",
+        "publicar-se-a",
+        "dir-se-ia",
+        "participio",
+        "locucao verbal",
+        "gerundio",
+        "em se tratando",
+        "lo la",
+        "no na",
+        "fa-lo"
+      ],
+      "resumo": "Os pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) têm três posições: antes do verbo (<strong>próclise</strong>), no meio (<strong>mesóclise</strong>) e depois (<strong>ênclise</strong>). A ênclise é a posição de partida, e a norma-padrão não começa período com pronome átono: \"Informa-se aos candidatos\", e não \"Se informa\". A próclise passa a ser obrigatória quando antes do verbo há uma <strong>palavra que atrai o pronome</strong>: negação, pronome relativo, conjunção subordinativa, pronome indefinido e advérbio sem vírgula. Com o verbo no futuro do presente ou do pretérito, sem palavra atrativa, usa-se a mesóclise (\"enviar-se-á\"); nunca a ênclise ao futuro. O esquema mostra cada caso.",
+      "esquema": {
+        "rotulo": "onde fica o pronome átono",
+        "html": "<table><thead><tr><th>Situação</th><th>Posição</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Verbo abre o período</strong></td><td>Ênclise</td><td>Comunica-se aos candidatos que a prova foi adiada.</td></tr><tr><td><strong>Negação antes do verbo</strong></td><td>Próclise obrigatória</td><td>Não se admitirá pedido fora do prazo.</td></tr><tr><td><strong>Pronome relativo</strong></td><td>Próclise obrigatória</td><td>Os candidatos que se inscreveram receberão o cartão.</td></tr><tr><td><strong>Conjunção subordinativa</strong></td><td>Próclise obrigatória</td><td>Quando o chamarem, compareça ao balcão.</td></tr><tr><td><strong>Pronome indefinido</strong></td><td>Próclise obrigatória</td><td>Alguém nos avisou da mudança.</td></tr><tr><td><strong>Advérbio sem vírgula</strong></td><td>Próclise</td><td>Ainda se discute o orçamento.</td></tr><tr><td><strong>Advérbio com vírgula</strong></td><td>Ênclise</td><td>Ainda assim, discute-se o orçamento.</td></tr><tr><td><strong>Futuro sem palavra atrativa</strong></td><td>Mesóclise (ou próclise, se não abrir o período)</td><td>Publicar-se-á o resultado amanhã.</td></tr><tr><td><strong>Futuro com palavra atrativa</strong></td><td>Próclise; mesóclise vedada</td><td>Não se publicará o resultado amanhã.</td></tr><tr><td><strong>Locução com particípio</strong></td><td>Pronome no auxiliar, nunca depois do particípio</td><td>A comissão havia-o aprovado / o havia aprovado</td></tr><tr><td><strong>Gerúndio com \"em\"</strong></td><td>Próclise obrigatória</td><td>Em se tratando de prazo, vale o edital.</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada caso, em uma linha",
+        "linhas": [
+          {
+            "nome": "Próclise",
+            "o_que_e": "Pronome antes do verbo: \"não o vi\".",
+            "grupo": "Posições"
+          },
+          {
+            "nome": "Ênclise",
+            "o_que_e": "Pronome depois do verbo, com hífen: \"vi-o\".",
+            "atencao": "Não se inicia período com pronome átono; quando o verbo abre a frase, a ênclise é a posição exigida.",
+            "grupo": "Posições"
+          },
+          {
+            "nome": "Mesóclise",
+            "o_que_e": "Pronome no meio do verbo: com o verbo no futuro do presente ou no futuro do pretérito, sem palavra atrativa, usa-se a mesóclise (publicar-se-á, dir-se-ia).",
+            "atencao": "Ênclise ao futuro (\"publicará-se\") é sempre errada.",
+            "grupo": "Posições"
+          },
+          {
+            "nome": "Negação",
+            "o_que_e": "Palavras de sentido negativo (não, nunca, jamais, ninguém, nada) atraem o pronome para antes do verbo, tornando a próclise obrigatória.",
+            "grupo": "Palavras que atraem"
+          },
+          {
+            "nome": "Relativos, conjunções e indefinidos",
+            "o_que_e": "Pronomes relativos (que, quem, cujo, onde), conjunções subordinativas (quando, se, embora, porque, conforme) e pronomes indefinidos (tudo, alguém, ninguém) também atraem o pronome átono, e a próclise é obrigatória.",
+            "grupo": "Palavras que atraem"
+          },
+          {
+            "nome": "Advérbio",
+            "o_que_e": "Advérbios sem vírgula (sempre, já, ainda, aqui, talvez) atraem o pronome; se houver vírgula depois do advérbio, desaparece a atração e a ênclise volta a ser a colocação regular.",
+            "atencao": "\"Aqui se decide\"; \"Aqui, decide-se\".",
+            "grupo": "Palavras que atraem"
+          },
+          {
+            "nome": "Exclamação, desejo e pergunta",
+            "o_que_e": "Frases exclamativas, optativas (\"Deus o guarde!\") e perguntas iniciadas por pronome ou advérbio de pergunta (\"Quem o avisou?\") pedem próclise.",
+            "grupo": "Palavras que atraem"
+          },
+          {
+            "nome": "Futuro com atração",
+            "o_que_e": "Havendo palavra atrativa, prevalece a próclise (não se publicará), e a mesóclise fica vedada.",
+            "grupo": "Palavras que atraem"
+          },
+          {
+            "nome": "Particípio",
+            "o_que_e": "O pronome átono nunca fica depois de particípio: diz-se \"tinha-o entregado\" ou \"o tinha entregado\".",
+            "atencao": "\"Tinha entregado-o\" está errado.",
+            "grupo": "Locuções e formas nominais"
+          },
+          {
+            "nome": "Infinitivo ou gerúndio na locução",
+            "o_que_e": "Sem palavra atrativa, o pronome vai no auxiliar (\"quero-lhe dizer\") ou no principal (\"quero dizer-lhe\"); com palavra atrativa, antes do auxiliar (\"não lhe quero dizer\") ou depois do principal (\"não quero dizer-lhe\").",
+            "grupo": "Locuções e formas nominais"
+          },
+          {
+            "nome": "Gerúndio com \"em\"",
+            "o_que_e": "Com gerúndio precedido da preposição \"em\", a próclise é obrigatória: \"em se tratando de\".",
+            "atencao": "Nunca \"em tratando-se de\".",
+            "grupo": "Locuções e formas nominais"
+          },
+          {
+            "nome": "Formas lo, la, no, na",
+            "o_que_e": "Depois de verbo em -r, -s ou -z, o pronome vira lo, la (revisá-lo, fizemo-lo, fê-lo); depois de som nasal, no, na (entregaram-no, põe-na).",
+            "grupo": "Locuções e formas nominais"
+          }
+        ],
+        "colunas": [
+          "Caso",
+          "Regra",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>A vírgula desfaz a atração:</strong> \"Depois se verificou o erro\" (advérbio colado ao verbo atrai o pronome). \"Depois, verificou-se o erro\" (com a vírgula, o advérbio deixa de atrair, e a colocação volta à regra geral).",
+        "<strong>Mesóclise só no futuro e sem atração:</strong> \"Encaminhar-lhe-emos o parecer\" está correto. Com \"não\" antes, a próclise prevalece: \"Não lhe encaminharemos o parecer\", e não \"Não encaminhar-lhe-emos\".",
+        "<strong>Particípio não recebe pronome:</strong> \"Os documentos tinham-lhe sido entregues\" ou \"lhe tinham sido entregues\". O pronome vai com o auxiliar.",
+        "<strong>Sujeito expresso não é palavra atrativa:</strong> em \"O diretor se manifestou\" e \"O diretor manifestou-se\", as duas colocações são aceitas; o substantivo sujeito não obriga a próclise.",
+        "<strong>O pronome muda de forma depois de certos verbos:</strong> \"Vamos revisar o edital\" vira \"Vamos revisá-lo\"; \"Fizemos o relatório\" vira \"Fizemo-lo\"; \"Entregaram a ata\" vira \"Entregaram-na\"."
+      ],
+      "macetes": [
+        {
+          "sigla": "NÃO COMECE COM ME, TE, SE",
+          "texto": "Se o verbo abre o período, o pronome vai depois: \"Solicita-se\", \"Envie-me\", \"Informo-lhe\"."
+        },
+        {
+          "sigla": "PALAVRA ATRATIVA PUXA O PRONOME",
+          "texto": "Negação, relativo, conjunção subordinativa, indefinido e advérbio sem vírgula colocam o pronome antes do verbo, inclusive no futuro."
+        },
+        {
+          "sigla": "FUTURO NÃO ACEITA ÊNCLISE",
+          "texto": "No futuro do presente e do pretérito: mesóclise (\"far-se-á\") ou próclise; nunca \"fará-se\"."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "Em \"Nunca informou-se o motivo do cancelamento\", a ênclise está correta, porque o verbo está no pretérito perfeito.",
+        "gabarito": "E",
+        "explicacao": "\"Nunca\" tem sentido negativo e atrai o pronome: a próclise é obrigatória, \"Nunca se informou o motivo\". O tempo do verbo não afasta a atração."
+      },
+      "pegadinhas": [
+        {
+          "errado": "\"Se comunica aos servidores que o ponto será facultativo\" atende à norma-padrão.",
+          "certo": "Não se inicia período com pronome átono: \"Comunica-se aos servidores...\".",
+          "fonte": "Questão do app sobre início de período"
+        },
+        {
+          "errado": "Em \"Os técnicos que se reuniram ontem\", seria igualmente correto \"que reuniram-se\".",
+          "certo": "O pronome relativo atrai o pronome átono: a próclise é obrigatória.",
+          "fonte": "Questão do app sobre palavras atrativas"
+        },
+        {
+          "errado": "\"Não encaminhar-se-á o processo\" está correto, porque o verbo está no futuro do presente.",
+          "certo": "Com palavra atrativa, a próclise prevalece e a mesóclise fica vedada: \"Não se encaminhará o processo\".",
+          "fonte": "Questão do app sobre mesóclise"
+        },
+        {
+          "errado": "\"Ontem, assinou-se o contrato\" está errado, porque o advérbio atrai o pronome.",
+          "certo": "A vírgula depois do advérbio desfaz a atração; a ênclise está correta.",
+          "fonte": "Questão do app sobre advérbio e vírgula"
+        },
+        {
+          "errado": "\"O secretário tinha recebido-o pela manhã\" está correto, porque o pronome segue o verbo principal.",
+          "certo": "O pronome nunca fica depois do particípio: \"tinha-o recebido\" ou \"o tinha recebido\".",
+          "fonte": "Questão do app sobre locução com particípio"
+        },
+        {
+          "errado": "\"Em tratando-se de recurso, o prazo é de dez dias\" está de acordo com a norma-padrão.",
+          "certo": "Gerúndio precedido de \"em\" exige próclise: \"Em se tratando de recurso\".",
+          "fonte": "Questão do app sobre gerúndio com \"em\""
+        },
+        {
+          "errado": "\"Enviarei-lhe o parecer amanhã\" está correto, porque abre o período sem pronome.",
+          "certo": "Não existe ênclise ao futuro: \"Enviar-lhe-ei o parecer\" (ou \"Eu lhe enviarei\").",
+          "fonte": "Questão do app sobre mesóclise"
+        }
+      ],
+      "ja_caiu": [
+        "Questão do app sobre próclise, ênclise, mesóclise e palavras atrativas"
+      ],
+      "relacionados": [
+        "classes-de-palavras",
+        "tempos-e-modos-verbais",
+        "variacao-linguistica"
+      ]
+    },
+    {
+      "slug": "ortografia-e-acentuacao",
+      "titulo": "Ortografia e acentuação: hífen, maiúsculas, palavras parecidas e regras de acento",
+      "grupo": "Norma gramatical",
+      "base": "Acordo Ortográfico de 1990 (Decreto 6.583/2008) e Vocabulário Ortográfico da Língua Portuguesa (VOLP)",
+      "tax": [
+        "portugues.ortografia",
+        "portugues.acentuacao"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "ortografia oficial",
+        "Acordo Ortográfico",
+        "trema",
+        "emprego do hífen",
+        "prefixo",
+        "emprego das maiúsculas",
+        "homônimos e parônimos",
+        "acentuação gráfica",
+        "oxítona",
+        "paroxítona",
+        "proparoxítona",
+        "hiato",
+        "ditongo aberto",
+        "acento diferencial",
+        "porquê"
+      ],
+      "palavras": [
+        "ortografia",
+        "acordo ortografico",
+        "trema",
+        "hifen",
+        "prefixo",
+        "micro-ondas",
+        "anti-inflamatorio",
+        "antirrabico",
+        "ultrassom",
+        "autoescola",
+        "coordenar",
+        "cooperar",
+        "pre-natal",
+        "pos-graduacao",
+        "ex-diretor",
+        "vice",
+        "mal-estar",
+        "malsucedido",
+        "maiuscula",
+        "minuscula",
+        "meses do ano",
+        "dias da semana",
+        "secao",
+        "sessao",
+        "cessao",
+        "a fim de",
+        "afim",
+        "ha e a",
+        "mas e mais",
+        "isar e izar",
+        "acentuacao",
+        "acento grafico",
+        "oxitona",
+        "paroxitona",
+        "proparoxitona",
+        "hiato",
+        "ditongo aberto",
+        "ideia",
+        "assembleia",
+        "heroico",
+        "feiura",
+        "voo",
+        "creem",
+        "deem",
+        "leem",
+        "veem",
+        "pode e pode",
+        "por e por",
+        "forma e forma",
+        "tem e tem",
+        "mantem e mantem",
+        "rubrica",
+        "porque",
+        "por que",
+        "por que acentuado",
+        "item",
+        "itens"
+      ],
+      "resumo": "A ortografia segue o <strong>Acordo Ortográfico de 1990</strong>, em vigor no Brasil pelo Decreto 6.583/2008. Ele tirou o <strong>trema</strong> das palavras portuguesas (\"frequente\", \"tranquilo\") e mudou o <strong>hífen</strong> e alguns <strong>acentos</strong>, que são o que a prova mais cobra. No hífen, a pergunta é quase sempre a mesma: como termina o prefixo e como começa a palavra seguinte. Letras iguais pedem hífen (\"micro-ondas\"); vogal seguida de r ou s dobra a consoante, sem hífen (\"antirrábico\"); vogais diferentes se juntam (\"autoescola\"). No acento, tudo depende de onde cai a sílaba tônica e de como a palavra termina: toda proparoxítona leva acento; a oxítona e a paroxítona dependem da terminação. O Acordo tirou o acento de \"ideia\" e \"assembleia\", de \"voo\" e \"creem\", mas manteve o de \"pôde\", \"pôr\", \"têm\" e \"vêm\". O esquema reúne as regras.",
+      "esquema": {
+        "rotulo": "hífen e acento, regra por regra",
+        "html": "<table><thead><tr><th>Caso</th><th>Regra</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Prefixo + mesma letra</strong></td><td>Com hífen</td><td>micro-ondas, anti-inflamatório, hiper-realista, sub-base, arqui-inimigo</td></tr><tr><td><strong>Prefixo em vogal + r ou s</strong></td><td>Sem hífen; dobra a consoante</td><td>antirrábico, ultrassom, minissaia, contrarregra, autorretrato</td></tr><tr><td><strong>Prefixo em vogal + vogal diferente</strong></td><td>Sem hífen</td><td>autoescola, infraestrutura, extraoficial, semiaberto</td></tr><tr><td><strong>Prefixo \"co-\"</strong></td><td>Sempre junto, mesmo diante de o</td><td>coordenar, cooperar, coobrigado, coautor</td></tr><tr><td><strong>Prefixo + h</strong></td><td>Com hífen</td><td>anti-higiênico, super-homem, pré-história</td></tr><tr><td><strong>Pré-, pró-, pós-, ex-, vice-, recém-, sem-</strong></td><td>Sempre com hífen</td><td>pré-natal, pós-graduação, ex-diretor, vice-governador, recém-nascido</td></tr><tr><td><strong>Oxítonas</strong></td><td>Acento nas terminadas em a, e, o, em, ens</td><td>sofá, café, cipó, armazém, parabéns</td></tr><tr><td><strong>Paroxítonas</strong></td><td>Acento nas terminadas em i, us, l, n, r, x, ps, ã, ão, um e ditongo; sem acento em -em e -ens</td><td>júri, vírus, fácil, hífen, caráter, órgão, série; item, itens, jovem</td></tr><tr><td><strong>Proparoxítonas</strong></td><td>Todas acentuadas</td><td>lâmpada, público, jurídico, cédula</td></tr><tr><td><strong>Hiato com i ou u tônico</strong></td><td>Acento, se sozinho na sílaba ou com s, e sem nh depois</td><td>saída, saúde, juízes, baú; mas rainha, Raul, ruim</td></tr><tr><td><strong>O que o Acordo tirou</strong></td><td>Ditongo aberto ei e oi em paroxítona; oo e eem; i e u depois de ditongo em paroxítona</td><td>ideia, assembleia, heroico; voo, creem, deem; feiura</td></tr><tr><td><strong>O que ficou</strong></td><td>Acento diferencial obrigatório e plural de ter e vir</td><td>pôde x pode; pôr x por; ele tem, eles têm; ele mantém, eles mantêm</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada regra, em uma linha",
+        "linhas": [
+          {
+            "nome": "Trema",
+            "o_que_e": "O Acordo Ortográfico eliminou o trema das palavras portuguesas e aportuguesadas (frequente, linguiça, tranquilo, sequência).",
+            "atencao": "Fica só em nomes próprios estrangeiros e derivados: Müller, mülleriano.",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "Alfabeto",
+            "o_que_e": "O alfabeto tem 26 letras, com k, w e y.",
+            "atencao": "Usadas em siglas, símbolos e nomes estrangeiros: km, Darwin, darwinismo.",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "-isar e -izar",
+            "o_que_e": "Com s quando a palavra de base já tem s (análise, analisar; pesquisa, pesquisar); com z quando não tem (real, realizar; canal, canalizar).",
+            "atencao": "A grafia do derivado segue a da palavra primitiva.",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "-ês, -esa e -ez, -eza",
+            "o_que_e": "-ês e -esa (origem, título: português, marquesa) com s; -ez e -eza (substantivo abstrato tirado de adjetivo: rigidez, beleza) com z.",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "-am e -ão no verbo",
+            "o_que_e": "-am é pretérito (eles entregaram); -ão é futuro (eles entregarão).",
+            "atencao": "Trocar uma pela outra muda o tempo do verbo.",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "Seção, sessão e cessão",
+            "o_que_e": "Seção é divisão, setor, parte de um todo; sessão é reunião de um colegiado ou o tempo de um evento; cessão é o ato de ceder.",
+            "atencao": "\"A sessão do conselho\"; \"a seção de protocolo\"; \"a cessão do imóvel\".",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "Há e a",
+            "o_que_e": "\"Há\" indica tempo decorrido e equivale a \"faz\"; \"a\" indica tempo futuro ou distância.",
+            "atencao": "\"há dois anos\"; \"daqui a dois anos\"; \"a dez quilômetros\".",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "A fim de e afim",
+            "o_que_e": "\"A fim de\" é locução de finalidade; \"afim\" é adjetivo (semelhante, parente por afinidade).",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "Mas, mais e más",
+            "o_que_e": "\"Mas\" é adversativa (= porém); \"mais\" é intensidade ou quantidade; \"más\" é plural de \"má\".",
+            "grupo": "Ortografia"
+          },
+          {
+            "nome": "Mesma letra",
+            "o_que_e": "Usa-se hífen quando o prefixo termina com a mesma letra com que começa o segundo elemento (micro-ondas, anti-inflamatório).",
+            "atencao": "Vale para vogal e para consoante: hiper-realista, sub-base.",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Vogal + r ou s",
+            "o_que_e": "Não se usa hífen quando o prefixo termina em vogal e o segundo elemento começa por r ou s; nesse caso, dobra-se a consoante (antirrábico, ultrassom).",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Prefixo co-",
+            "o_que_e": "O prefixo co- constitui exceção à regra das vogais iguais: aglutina-se ao segundo elemento mesmo quando este começa por o (cooperar, coordenar).",
+            "atencao": "Nunca \"co-ordenar\".",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Prefixos que sempre pedem hífen",
+            "o_que_e": "Exigem sempre hífen os prefixos tônicos pré-, pró- e pós- e os elementos ex- (anterioridade), vice-, além-, aquém-, recém-, bem- e sem-.",
+            "atencao": "As formas átonas se juntam: prever, promover, pospor.",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Sub- e sob-",
+            "o_que_e": "Hífen diante de r ou b: sub-reitor, sub-região, sub-bloco.",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "\"Mal\"",
+            "o_que_e": "Hífen quando o segundo elemento começa por vogal, h ou l (mal-estar, mal-humorado, mal-entendido); junto diante de outra consoante (malsucedido, malcriado).",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Locuções",
+            "o_que_e": "Locuções não têm hífen: fim de semana, dia a dia, a fim de.",
+            "atencao": "Exceções consagradas: cor-de-rosa, água-de-colônia, mais-que-perfeito, pé-de-meia.",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Compostos que perderam o hífen",
+            "o_que_e": "Os que perderam a noção de composição: girassol, mandachuva, paraquedas, pontapé.",
+            "atencao": "Ficam com hífen: guarda-chuva, segunda-feira, decreto-lei, arco-íris.",
+            "grupo": "Hífen"
+          },
+          {
+            "nome": "Dias, meses e estações",
+            "o_que_e": "Os nomes dos dias da semana, dos meses e das estações do ano escrevem-se com letra inicial minúscula.",
+            "atencao": "\"na terça-feira, 3 de agosto\".",
+            "grupo": "Maiúsculas"
+          },
+          {
+            "nome": "Pontos cardeais",
+            "o_que_e": "Minúscula para direção (seguiu para o norte); maiúscula para região (a seca do Nordeste).",
+            "grupo": "Maiúsculas"
+          },
+          {
+            "nome": "Maiúscula facultativa",
+            "o_que_e": "Áreas do saber (Direito Penal ou direito penal), formas de tratamento, palavras do título depois da primeira, nomes de logradouros.",
+            "grupo": "Maiúsculas"
+          },
+          {
+            "nome": "Instituição determinada",
+            "o_que_e": "Maiúscula para a entidade (o Ministério da Saúde, a Constituição Federal); minúscula no sentido genérico (os ministérios).",
+            "atencao": "Gentílicos e idiomas vão com minúscula: os brasileiros, o francês.",
+            "grupo": "Maiúsculas"
+          },
+          {
+            "nome": "Paroxítona em -em e -ens",
+            "o_que_e": "Não se acentuam as paroxítonas terminadas em -em e -ens (item, itens, jovem, jovens, hifens).",
+            "atencao": "A oxítona leva: armazém, parabéns.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Ditongo aberto",
+            "o_que_e": "Deixou de haver acento nos ditongos abertos ei e oi das palavras paroxítonas (ideia, assembleia, jiboia, heroico).",
+            "atencao": "Fica nas oxítonas e monossílabos: papéis, herói, dói.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Hiato oo e eem",
+            "o_que_e": "Caiu o acento circunflexo do primeiro o do hiato oo (voo, enjoo) e do e do hiato ee das formas verbais da terceira pessoa do plural (creem, deem, leem, veem).",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "I e u depois de ditongo",
+            "o_que_e": "Depois de ditongo decrescente, o i e o u tônicos das palavras paroxítonas deixaram de ser acentuados (feiura, baiuca).",
+            "atencao": "Na oxítona o acento fica: Piauí, tuiuiú. E \"saída\" mantém: hiato simples.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Acento diferencial",
+            "o_que_e": "O acento diferencial permanece obrigatório em \"pôde\" (pretérito perfeito), que se distingue de \"pode\" (presente), e em \"pôr\" (verbo), frente a \"por\".",
+            "atencao": "Facultativo em \"fôrma\" e \"dêmos\"; caiu em \"para\", \"pelo\", \"polo\" e \"pera\".",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Ter, vir e derivados",
+            "o_que_e": "\"Ele tem\", \"eles têm\"; nos derivados (conter, obter, manter, deter, intervir, provir), o singular recebe acento agudo e o plural, circunflexo (\"ele mantém\", \"eles mantêm\").",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Gue, gui, que, qui",
+            "o_que_e": "O u tônico desses grupos perdeu o acento agudo: averigue, apazigue, argui.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Porquê e por quê",
+            "o_que_e": "O substantivo \"porquê\" recebe acento por ser oxítono terminado em e (\"o porquê da decisão\"); em \"por quê\", no fim da frase ou diante de pausa, o \"que\" torna-se tônico e recebe acento.",
+            "atencao": "\"Porque\" (conjunção) e \"por que\" (preposição + pronome) não levam acento.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Sílaba tônica fora do lugar",
+            "o_que_e": "\"Rubrica\" não recebe acento porque é paroxítona terminada em -a (ru-bri-ca, com tônica em \"bri\").",
+            "atencao": "Também paroxítonas sem acento: recorde, filantropo, pudico, ibero.",
+            "grupo": "Acentuação"
+          },
+          {
+            "nome": "Verbo com pronome",
+            "o_que_e": "Aplica-se a regra ao conjunto: \"fazê-lo\", \"amá-lo\", \"pô-lo\" são oxítonas e levam acento; \"recebe-se\" não leva.",
+            "grupo": "Acentuação"
+          }
+        ],
+        "colunas": [
+          "Regra",
+          "O que diz",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Hífen se decide pelas duas pontas:</strong> olhe a última letra do prefixo e a primeira da palavra seguinte. \"Contra\" + \"almirante\" dá \"contra-almirante\" (a com a); \"contra\" + \"regra\" dá \"contrarregra\" (vogal com r); \"contra\" + \"indicação\" dá \"contraindicação\" (vogais diferentes).",
+        "<strong>O \"co-\" e o \"re-\" não seguem a regra das vogais iguais:</strong> \"coordenar\", \"cooperar\", \"reeleição\", \"reescrever\" se escrevem juntos.",
+        "<strong>Acento diferencial que ficou:</strong> \"Ontem ele não pôde vir; hoje pode\" (pôde é passado). \"Vou pôr o ofício por cima da pasta\" (pôr é verbo). Os outros diferenciais caíram: \"Ele para o carro\", \"o polo industrial\".",
+        "<strong>Singular e plural de ter e vir:</strong> \"O órgão tem sede aqui; os órgãos têm sede aqui\". Nos derivados, o singular tem agudo e o plural, circunflexo: \"a norma contém\", \"as normas contêm\"; \"ele detém\", \"eles detêm\". \"Eles creem\" e \"eles leem\" perderam o circunflexo; \"eles têm\" e \"eles vêm\", não.",
+        "<strong>Hiato que perde e hiato que fica:</strong> \"saída\", \"saúde\" e \"país\" continuam acentuados (i ou u sozinho na sílaba). \"Feiura\" perdeu o acento porque o i vem depois de ditongo, em paroxítona. \"Rainha\" e \"ruim\" nunca tiveram acento (nh depois; consoante na mesma sílaba).",
+        "<strong>Os quatro porquês:</strong> \"Por que o prazo mudou?\" (pergunta, separado). \"Não se sabe por quê.\" (antes de pausa, com acento). \"O prazo mudou porque houve recurso.\" (causa, junto). \"Ninguém explicou o porquê da mudança.\" (substantivo, junto e com acento)."
+      ],
+      "macetes": [
+        {
+          "sigla": "IGUAL SE SEPARA, DIFERENTE SE JUNTA",
+          "texto": "Prefixo e palavra começando pela mesma letra: hífen (micro-ondas). Letras diferentes: tudo junto (autoescola). Vogal com r ou s: junto e dobrado (antirrábico)."
+        },
+        {
+          "sigla": "PROPAROXÍTONA SEMPRE",
+          "texto": "Toda proparoxítona leva acento. Se a palavra não leva acento, verifique se a tônica não está na penúltima, como em \"rubrica\" e \"recorde\"."
+        },
+        {
+          "sigla": "PÔDE E PÔR FICARAM",
+          "texto": "Dos acentos diferenciais, só \"pôde\" e \"pôr\" são obrigatórios, além de \"têm\" e \"vêm\" no plural. \"Fôrma\" e \"dêmos\" são facultativos."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "A grafia \"co-ordenação\" está correta, porque o prefixo termina com a mesma vogal com que começa o segundo elemento, como em \"micro-ondas\".",
+        "gabarito": "E",
+        "explicacao": "O prefixo \"co-\" é exceção à regra das vogais iguais e sempre se junta ao segundo elemento: \"coordenação\", \"cooperação\", \"coobrigado\"."
+      },
+      "pegadinhas": [
+        {
+          "errado": "\"Antiinflamatório\" se escreve junto, porque o prefixo termina em vogal.",
+          "certo": "Letras iguais pedem hífen: \"anti-inflamatório\". Só vogais diferentes se juntam (\"antiaéreo\").",
+          "fonte": "Questão do app sobre hífen com prefixo"
+        },
+        {
+          "errado": "\"Ultra-som\" e \"anti-rábico\" se escrevem com hífen, porque o segundo elemento começa por consoante.",
+          "certo": "Prefixo em vogal seguido de r ou s: sem hífen e com a consoante dobrada (\"ultrassom\", \"antirrábico\").",
+          "fonte": "Questão do app sobre hífen com prefixo"
+        },
+        {
+          "errado": "Em \"o relatório de Setembro\", o nome do mês leva maiúscula.",
+          "certo": "Meses, dias da semana e estações do ano vão com minúscula: \"setembro\", \"segunda-feira\", \"primavera\".",
+          "fonte": "Questão do app sobre emprego das maiúsculas"
+        },
+        {
+          "errado": "\"A seção plenária foi adiada\" está correto, porque \"seção\" designa a reunião do colegiado.",
+          "certo": "A reunião é \"sessão\"; \"seção\" é divisão, setor; \"cessão\" é o ato de ceder.",
+          "fonte": "Questão do app sobre palavras parecidas"
+        },
+        {
+          "errado": "\"Assembléia\" e \"idéia\" mantêm o acento, porque o ditongo aberto é sempre acentuado.",
+          "certo": "O ditongo aberto ei e oi perdeu o acento na paroxítona (assembleia, ideia, heroico); fica só na oxítona e no monossílabo (papéis, herói).",
+          "fonte": "Questão do app sobre acentuação depois do Acordo"
+        },
+        {
+          "errado": "Depois do Acordo, o acento de \"pôde\" passou a ser facultativo.",
+          "certo": "\"Pôde\" (passado) e \"pôr\" (verbo) mantêm o acento obrigatório; facultativos são só \"fôrma\" e \"dêmos\".",
+          "fonte": "Questão do app sobre acento diferencial"
+        },
+        {
+          "errado": "\"Itens\" e \"jovem\" levam acento, porque terminam em -ens e -em.",
+          "certo": "Só a oxítona em -em e -ens leva acento (armazém, parabéns); a paroxítona não (item, itens, jovem, hifens).",
+          "fonte": "Questão do app sobre acentuação das paroxítonas"
+        },
+        {
+          "errado": "\"Feiúra\" mantém o acento, porque todo i tônico em hiato é acentuado.",
+          "certo": "Depois de ditongo decrescente, em paroxítona, o i perdeu o acento: \"feiura\". \"Saída\" mantém: hiato simples.",
+          "fonte": "Questão do app sobre acentuação dos hiatos"
+        },
+        {
+          "errado": "\"Rúbrica\" leva acento por ser proparoxítona.",
+          "certo": "\"Rubrica\" é paroxítona (ru-BRI-ca) e não tem acento.",
+          "fonte": "Questão do app sobre sílaba tônica"
+        }
+      ],
+      "ja_caiu": [
+        "Questão do app sobre hífen, maiúsculas, palavras parecidas e acentuação depois do Acordo Ortográfico"
+      ],
+      "relacionados": [
+        "formacao-de-palavras",
+        "crase-e-acento-grave",
+        "classes-de-palavras"
+      ]
+    },
+    {
       "slug": "classes-de-palavras",
       "titulo": "Classes de palavras: a mesma palavra em classes diferentes",
       "grupo": "Norma gramatical",
@@ -2111,6 +3182,243 @@
         "coordenacao-e-subordinacao",
         "significacao-das-palavras",
         "flexao-nominal-e-verbal"
+      ]
+    },
+    {
+      "slug": "formacao-de-palavras",
+      "titulo": "Estrutura e formação de palavras: derivação, composição e outros processos",
+      "grupo": "Norma gramatical",
+      "base": "Gramática normativa (Bechara; Cunha e Cintra)",
+      "tax": [
+        "portugues.formacao-palavras"
+      ],
+      "dispositivos": [],
+      "conceitos": [
+        "estrutura das palavras",
+        "radical",
+        "afixo",
+        "prefixo",
+        "sufixo",
+        "desinência",
+        "vogal temática",
+        "derivação prefixal",
+        "derivação sufixal",
+        "derivação parassintética",
+        "derivação regressiva",
+        "derivação imprópria",
+        "composição por justaposição",
+        "composição por aglutinação",
+        "hibridismo",
+        "onomatopeia",
+        "abreviação",
+        "sigla",
+        "palavras cognatas"
+      ],
+      "palavras": [
+        "formacao de palavras",
+        "estrutura das palavras",
+        "radical",
+        "afixo",
+        "prefixo",
+        "sufixo",
+        "desinencia",
+        "vogal tematica",
+        "derivacao",
+        "derivacao prefixal",
+        "derivacao sufixal",
+        "parassintese",
+        "parassintetica",
+        "derivacao regressiva",
+        "deverbal",
+        "derivacao impropria",
+        "conversao",
+        "composicao",
+        "justaposicao",
+        "aglutinacao",
+        "hibridismo",
+        "onomatopeia",
+        "abreviacao",
+        "sigla",
+        "cognatas",
+        "amanhecer",
+        "entardecer",
+        "desigualdade",
+        "planalto",
+        "aguardente",
+        "inflamavel",
+        "televisao",
+        "o jantar",
+        "combate",
+        "perda"
+      ],
+      "resumo": "Toda palavra tem um <strong>radical</strong>, a parte que carrega o sentido e se repete na família (livr-: livro, livraria, livreiro). Ao radical se juntam os <strong>afixos</strong>: o prefixo vem antes (desfazer), o sufixo depois (livraria). As <strong>desinências</strong> não criam palavra nova; só marcam gênero, número, pessoa e tempo. Os dois grandes processos de formação são a <strong>derivação</strong>, que parte de uma palavra e acrescenta ou retira afixos, e a <strong>composição</strong>, que junta dois radicais. A prova cobra sobretudo a diferença entre parassíntese e derivação prefixal e sufixal, a derivação regressiva e a imprópria, e a diferença entre justaposição e aglutinação. O esquema mostra cada processo com o teste que o identifica.",
+      "esquema": {
+        "rotulo": "cada processo e o teste que o identifica",
+        "html": "<table><thead><tr><th>Processo</th><th>Como se forma</th><th>Exemplo e teste</th></tr></thead><tbody><tr><td><strong>Derivação prefixal</strong></td><td>Prefixo + radical</td><td>desfazer, ilegal, refazer</td></tr><tr><td><strong>Derivação sufixal</strong></td><td>Radical + sufixo</td><td>legalidade, felizmente, folhagem</td></tr><tr><td><strong>Prefixal e sufixal</strong></td><td>Prefixo e sufixo em etapas</td><td>deslealdade: existem \"desleal\" e \"lealdade\"</td></tr><tr><td><strong>Parassintética</strong></td><td>Prefixo e sufixo ao mesmo tempo</td><td>entardecer, esclarecer, apedrejar: não existem \"entarde\" nem \"tardecer\"</td></tr><tr><td><strong>Regressiva</strong></td><td>Corta-se a terminação do verbo e nasce um substantivo abstrato</td><td>combate (combater), pesca (pescar), perda (perder), escolha</td></tr><tr><td><strong>Imprópria (conversão)</strong></td><td>Muda a classe, não a forma</td><td>o jantar (verbo vira substantivo), o sim, falar alto (adjetivo como advérbio)</td></tr><tr><td><strong>Justaposição</strong></td><td>Os radicais se juntam sem perder som</td><td>guarda-chuva, passatempo, segunda-feira, girassol</td></tr><tr><td><strong>Aglutinação</strong></td><td>Os radicais se fundem e perdem som; fica um só acento</td><td>planalto (plano + alto), aguardente (água + ardente), fidalgo, embora</td></tr><tr><td><strong>Hibridismo</strong></td><td>Elementos de línguas diferentes</td><td>automóvel (grego + latim), sociologia (latim + grego), televisão</td></tr><tr><td><strong>Outros processos</strong></td><td>Som imitado, palavra encurtada, iniciais</td><td>tique-taque; foto, moto, pneu; ONU, Detran</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada elemento e cada processo, em uma linha",
+        "linhas": [
+          {
+            "nome": "Radical",
+            "o_que_e": "Radical é o elemento comum às palavras de uma mesma família (livr-: livro, livraria, livreiro).",
+            "atencao": "Palavras cognatas têm o mesmo radical: terra, terreno, enterrar, subterrâneo.",
+            "grupo": "Estrutura"
+          },
+          {
+            "nome": "Afixos",
+            "o_que_e": "Prefixo antes do radical; sufixo depois.",
+            "grupo": "Estrutura"
+          },
+          {
+            "nome": "Desinências",
+            "o_que_e": "Desinências expressam flexão, e não criam palavra nova: em \"meninas\", -a é desinência de gênero e -s é desinência de número.",
+            "atencao": "Em \"cantávamos\": -va- é modo-temporal; -mos, número-pessoal.",
+            "grupo": "Estrutura"
+          },
+          {
+            "nome": "Vogal temática",
+            "o_que_e": "Liga o radical às desinências e indica a conjugação: cant-a-va, vend-e-r, part-i-mos.",
+            "grupo": "Estrutura"
+          },
+          {
+            "nome": "Vogal e consoante de ligação",
+            "o_que_e": "Elementos sem sentido que facilitam a pronúncia: cafe-t-eira, gas-ô-metro.",
+            "grupo": "Estrutura"
+          },
+          {
+            "nome": "Parassintética",
+            "o_que_e": "Derivação parassintética ocorre quando prefixo e sufixo se acrescentam simultaneamente ao radical, de modo que a retirada de um deles produz forma inexistente na língua (entardecer, amanhecer).",
+            "atencao": "Teste: tire o prefixo e depois o sufixo; se as duas formas não existem, é parassíntese.",
+            "grupo": "Derivação"
+          },
+          {
+            "nome": "Prefixal e sufixal",
+            "o_que_e": "Em \"desigualdade\" e \"infelizmente\" há derivação prefixal e sufixal sucessivas, e não parassíntese, porque existem \"desigual\" e \"igualdade\".",
+            "grupo": "Derivação"
+          },
+          {
+            "nome": "Regressiva",
+            "o_que_e": "Derivação regressiva forma substantivos abstratos (deverbais) pela supressão da terminação verbal: \"combate\" (de combater), \"pesca\" (de pescar), \"debate\", \"perda\".",
+            "atencao": "Se o substantivo é objeto concreto, é o verbo que vem dele: âncora, ancorar.",
+            "grupo": "Derivação"
+          },
+          {
+            "nome": "Imprópria",
+            "o_que_e": "Derivação imprópria (ou conversão) é a mudança de classe gramatical sem alteração da forma da palavra: \"o jantar\" (verbo tornado substantivo).",
+            "atencao": "Também: \"o essencial\", \"um olhar\", \"falou claro\".",
+            "grupo": "Derivação"
+          },
+          {
+            "nome": "Justaposição e aglutinação",
+            "o_que_e": "Na justaposição os elementos conservam o som (guarda-chuva, passatempo); na composição por aglutinação, há perda de elementos fônicos e os componentes se fundem sob um só acento tônico (planalto, de plano + alto; aguardente, de água + ardente).",
+            "grupo": "Composição e outros"
+          },
+          {
+            "nome": "Hibridismo",
+            "o_que_e": "Hibridismo é a formação com elementos de línguas diferentes: \"automóvel\" (grego + latim), \"sociologia\" (latim + grego).",
+            "atencao": "Também \"televisão\", \"burocracia\", \"sambódromo\".",
+            "grupo": "Composição e outros"
+          },
+          {
+            "nome": "Onomatopeia, abreviação e sigla",
+            "o_que_e": "Palavra que imita som (tique-taque, miau); palavra encurtada (foto, moto, pneu); palavra formada pelas iniciais (ONU, Enem).",
+            "grupo": "Composição e outros"
+          },
+          {
+            "nome": "In- de negação e in- de movimento",
+            "o_que_e": "O prefixo \"in-\" pode indicar negação (incapaz, inútil) ou movimento para dentro (ingerir, infiltrar); em \"inflamável\", o prefixo não tem valor de negação, pois inflamável é o que pode inflamar-se.",
+            "atencao": "O antônimo de \"inflamável\" é \"não inflamável\".",
+            "grupo": "Valor dos afixos"
+          },
+          {
+            "nome": "Prefixos gregos e latinos",
+            "o_que_e": "Mesmo valor, origem diferente: a- e in- (negação); anti- e contra- (oposição); hiper- e super- (excesso); hemi- e semi- (metade).",
+            "grupo": "Valor dos afixos"
+          },
+          {
+            "nome": "Sufixos de sentido",
+            "o_que_e": "-mente forma advérbio a partir do feminino do adjetivo (atenciosamente); -ção, -mento, -ança formam substantivo de ação (julgamento, cobrança); -eiro, -ista, -or indicam agente (padeiro, dentista).",
+            "atencao": "Diminutivo e aumentativo podem ser afetivos ou pejorativos: \"jornalzinho\", \"beberrão\".",
+            "grupo": "Valor dos afixos"
+          }
+        ],
+        "colunas": [
+          "Elemento ou processo",
+          "O que é",
+          "Atenção"
+        ]
+      },
+      "detalhes": [
+        "<strong>Parassíntese ou duas derivações:</strong> em \"empobrecer\", não existem \"empobre\" nem \"pobrecer\": prefixo e sufixo entraram juntos (parassíntese). Em \"deslealdade\", existem \"desleal\" e \"lealdade\": os afixos entraram em etapas (prefixal e sufixal).",
+        "<strong>Regressiva ou sufixal:</strong> \"a escolha\", \"o desconto\", \"a entrega\" vêm do verbo por corte da terminação (regressiva). Já \"julgamento\" e \"cobrança\" vêm do verbo com sufixo (sufixal).",
+        "<strong>Imprópria não muda nada na forma:</strong> \"O depoimento foi um não categórico\" (advérbio vira substantivo); \"o amanhã\" (advérbio vira substantivo); \"ele fala sério\" (adjetivo com valor de advérbio, sem flexão).",
+        "<strong>Desinência não é sufixo:</strong> \"servidoras\" tem desinências de gênero e número, e continua a mesma palavra \"servidor\". \"Servidão\" tem sufixo e é palavra nova.",
+        "<strong>Justaposição com ou sem hífen:</strong> \"passatempo\" e \"girassol\" são justaposição mesmo escritos juntos, porque nenhum elemento perdeu som. O que define a aglutinação é a perda de som (\"embora\", de \"em boa hora\")."
+      ],
+      "macetes": [
+        {
+          "sigla": "TIRE UM AFIXO DE CADA VEZ",
+          "texto": "Se sobra palavra existente ao tirar o prefixo ou o sufixo, as derivações foram sucessivas. Se nenhuma sobra, é parassíntese."
+        },
+        {
+          "sigla": "VERBO ENCURTADO, AÇÃO",
+          "texto": "Substantivo de ação que sai do verbo sem sufixo (o combate, a pesca, a perda) é derivação regressiva."
+        },
+        {
+          "sigla": "PERDEU SOM, AGLUTINOU",
+          "texto": "Na aglutinação um dos elementos perde som (plano + alto = planalto). Se os dois ficam inteiros, é justaposição, com ou sem hífen."
+        }
+      ],
+      "pegadinha": {
+        "afirmacao": "A palavra \"esclarecer\" foi formada por derivação prefixal e sufixal, porque recebeu o prefixo \"es-\" e o sufixo \"-ecer\".",
+        "gabarito": "E",
+        "explicacao": "Como não existem \"esclaro\" nem \"clarecer\", o prefixo e o sufixo entraram ao mesmo tempo: é derivação parassintética. Derivação prefixal e sufixal exige que cada afixo possa sair sozinho, como em \"deslealdade\"."
+      },
+      "pegadinhas": [
+        {
+          "errado": "\"Amanhecer\" é derivação sufixal, porque só recebeu o sufixo \"-ecer\".",
+          "certo": "Recebeu prefixo e sufixo ao mesmo tempo (a- e -ecer), e nenhum sai sozinho: é parassintética.",
+          "fonte": "Questão do app sobre parassíntese"
+        },
+        {
+          "errado": "\"Infelizmente\" é parassintética, porque tem prefixo e sufixo.",
+          "certo": "Existem \"infeliz\" e \"felizmente\": os afixos entraram em etapas, derivação prefixal e sufixal.",
+          "fonte": "Questão do app sobre parassíntese"
+        },
+        {
+          "errado": "\"A perda\" é formada por derivação sufixal a partir de \"perder\".",
+          "certo": "É substantivo deverbal formado pelo corte da terminação do verbo: derivação regressiva.",
+          "fonte": "Questão do app sobre derivação regressiva"
+        },
+        {
+          "errado": "Em \"servidoras\", -a e -s são sufixos, porque acrescentam gênero e número.",
+          "certo": "Gênero e número são flexões, marcadas por desinências, que não criam palavra nova.",
+          "fonte": "Questão do app sobre desinências e sufixos"
+        },
+        {
+          "errado": "O \"in-\" de \"inflamável\" indica negação, e por isso o seu antônimo é \"flamável\".",
+          "certo": "Ali o \"in-\" indica movimento para dentro: inflamável é o que pode inflamar-se, e o antônimo é \"não inflamável\".",
+          "fonte": "Questão do app sobre valor dos prefixos"
+        },
+        {
+          "errado": "\"Televisão\" e \"sociologia\" não são hibridismos, porque os dois elementos são gregos.",
+          "certo": "Tele- é grego e visão, latino; socio- é latino e -logia, grego: são hibridismos.",
+          "fonte": "Questão do app sobre hibridismo"
+        },
+        {
+          "errado": "\"Aguardente\" é composição por justaposição, porque une dois radicais.",
+          "certo": "Houve perda de som (água + ardente) e um só acento: é aglutinação.",
+          "fonte": "Questão do app sobre composição"
+        }
+      ],
+      "ja_caiu": [
+        "Questão do app sobre estrutura das palavras, derivação e composição"
+      ],
+      "relacionados": [
+        "classes-de-palavras",
+        "ortografia-e-acentuacao",
+        "significacao-das-palavras"
       ]
     },
     {
