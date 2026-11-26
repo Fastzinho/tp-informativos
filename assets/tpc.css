@@ -248,3 +248,9 @@ dialog.tpc-gaveta::backdrop { background: rgba(20,32,28,.35); }
 .tpc .tpc-tema--curto .tpc-tema__titulo a:hover, .tpc .tpc-tema--curto .tpc-tema__titulo a:focus-visible { text-decoration: underline; }
 .tpc-tema__ir { margin: .9rem 0 0; }
 .tpc-tema__ir-link { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; font-weight: 700; color: var(--tpi-tinta, inherit); }
+
+/* 0.29.8: botão do tema com página própria logo abaixo do título; sinal ↗ no sumário */
+.tpc-tema--curto .tpc-tema__ir { margin: .25rem 0 1rem; }
+.tpc-tema--curto .tpc-tema__ir-link { padding: .55rem 1.1rem; border-radius: 999px; background: var(--tpi-verde-escuro, #1f5f45); color: #fff; text-decoration: none; }
+.tpc-tema--curto .tpc-tema__ir-link:hover, .tpc-tema--curto .tpc-tema__ir-link:focus-visible { background: var(--tpi-verde, #2a7a58); color: #fff; }
+.tpc-sumario__pagina { font-size: .85em; opacity: .7; margin-left: .15rem; }
