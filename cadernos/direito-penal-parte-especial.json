@@ -4347,74 +4347,184 @@
   },
   {
    "slug": "moeda-falsa",
-   "titulo": "Moeda falsa",
+   "titulo": "Moeda falsa e crimes assimilados",
    "grupo": "Crimes contra a fé pública",
-   "base": "Art. 289 do CP",
+   "base": "Arts. 289 a 292 do CP",
    "tax": [
-    "penal.crimes-contra-fe-publica"
+    "penal.crimes-contra-fe-publica.moeda-falsa"
    ],
    "dispositivos": [
-    "n2848-1940-art-289"
+    "n2848-1940-art-289",
+    "n2848-1940-art-290",
+    "n2848-1940-art-291",
+    "n2848-1940-art-292"
    ],
    "conceitos": [
     "moeda falsa",
     "circulação de moeda falsa",
+    "forma privilegiada da moeda falsa",
+    "fabricação ou emissão irregular de moeda",
+    "crimes assimilados ao de moeda falsa",
+    "petrechos para falsificação de moeda",
+    "emissão de título ao portador sem permissão legal",
     "falsificação grosseira"
    ],
    "palavras": [
     "moeda falsa",
     "papel-moeda",
+    "moeda metalica",
     "cedula falsa",
-    "introduzir em circulacao",
+    "curso legal no pais ou no estrangeiro",
+    "tres a doze anos",
+    "introduz na circulacao",
+    "guarda",
     "recebida de boa-fe",
+    "restitui a circulacao",
+    "depois de conhecer a falsidade",
+    "seis meses a dois anos",
+    "banco de emissao",
+    "titulo ou peso inferior",
+    "quantidade superior a autorizada",
+    "tres a quinze anos",
+    "circulacao nao autorizada",
+    "fragmentos de cedulas",
+    "sinal indicativo de inutilizacao",
+    "dois a oito anos",
+    "elevado a doze anos",
+    "petrechos",
+    "especialmente destinado a falsificacao de moeda",
+    "dois a seis anos",
+    "titulo ao portador",
+    "vale",
+    "ficha",
+    "sem permissao legal",
+    "quinze dias a tres meses",
     "falsificacao grosseira",
     "sumula 73",
+    "estelionato",
     "justica federal",
     "arrependimento posterior",
-    "insignificancia"
+    "insignificancia",
+    "coletividade"
    ],
-   "resumo": "Falsificar moeda metálica ou papel-moeda de curso legal, no país ou no estrangeiro, é crime com pena de 3 a 12 anos. Na mesma pena incorre quem importa, exporta, adquire, vende, troca, guarda ou introduz moeda falsa na circulação (§ 1º). Quem recebe de boa-fé e, depois de saber da falsidade, a devolve à circulação responde pela forma privilegiada do § 2º (6 meses a 2 anos). O crime exige falsificação capaz de enganar: a <strong>falsificação grosseira</strong> não ofende a fé pública e pode configurar estelionato, da Justiça Estadual (Súmula 73 do STJ). Fora isso, moeda falsa é crime federal.",
+   "resumo": "Falsificar, fabricando ou alterando, moeda metálica ou papel-moeda de curso legal <strong>no país ou no estrangeiro</strong> tem reclusão de 3 a 12 anos e multa (art. 289). Na mesma pena incorre quem importa, exporta, adquire, vende, troca, cede, empresta, guarda ou introduz moeda falsa na circulação (§ 1º). Quem a recebeu de <strong>boa-fé</strong> e a restitui à circulação depois de conhecer a falsidade responde pela forma privilegiada do § 2º (detenção de 6 meses a 2 anos e multa). O funcionário ou dirigente de banco de emissão que fabrica ou autoriza moeda com título ou peso inferior ao legal, ou papel-moeda acima do autorizado, e quem desvia e faz circular moeda ainda não autorizada têm reclusão de 3 a 15 anos (§§ 3º e 4º). Formar cédula com fragmentos de cédulas verdadeiras ou apagar o sinal de inutilização para devolver a nota à circulação é crime assimilado (art. 290, 2 a 8 anos, com máximo de 12 para o funcionário da repartição). Guardar petrechos especialmente destinados a falsificar moeda tem 2 a 6 anos (art. 291), e emitir vale ou título ao portador sem permissão legal é infração menor (art. 292). A <strong>falsificação grosseira</strong> não engana e não ofende a fé pública: usada para enganar alguém, é estelionato, da Justiça estadual (Súmula 73 do STJ). Fora disso, moeda falsa é crime federal.",
    "esquema": {
-    "rotulo": "qual crime e qual justiça",
-    "html": "<table><thead><tr><th>Situação</th><th>Crime</th><th>Justiça</th></tr></thead><tbody><tr><td><strong>Falsificação apta a enganar</strong></td><td>Moeda falsa (art. 289)</td><td>Federal</td></tr><tr><td><strong>Guardar ou passar adiante sabendo da falsidade</strong></td><td>Art. 289, § 1º (mesma pena)</td><td>Federal</td></tr><tr><td><strong>Recebeu de boa-fé e repassou depois de saber</strong></td><td>Art. 289, § 2º (privilegiada)</td><td>Federal</td></tr><tr><td><strong>Falsificação grosseira usada para enganar alguém</strong></td><td>Estelionato</td><td>Estadual (Súmula 73 do STJ)</td></tr></tbody></table>"
+    "rotulo": "qual crime, qual pena",
+    "html": "<table><thead><tr><th>Situação</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Falsificação apta a enganar</strong></td><td>Moeda falsa (art. 289)</td><td>Reclusão de 3 a 12 anos e multa</td></tr><tr><td><strong>Guardar ou passar adiante sabendo da falsidade</strong></td><td>Art. 289, § 1º</td><td>A mesma do caput</td></tr><tr><td><strong>Recebeu de boa-fé e repassou depois de saber</strong></td><td>Art. 289, § 2º (privilegiada)</td><td>Detenção de 6 meses a 2 anos e multa</td></tr><tr><td><strong>Banco de emissão que fabrica moeda abaixo do peso legal ou acima da quantidade autorizada</strong></td><td>Art. 289, § 3º</td><td>Reclusão de 3 a 15 anos e multa</td></tr><tr><td><strong>Montar cédula com pedaços de notas verdadeiras ou apagar o sinal de inutilização</strong></td><td>Crime assimilado (art. 290)</td><td>Reclusão de 2 a 8 anos e multa</td></tr><tr><td><strong>Falsificação grosseira usada para enganar alguém</strong></td><td>Estelionato, na Justiça estadual (Súmula 73)</td><td>A do estelionato</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Em volta da moeda falsa",
+    "linhas": [
+     {
+      "nome": "Crimes assimilados (art. 290)",
+      "o_que_e": "Formar cédula com fragmentos de cédulas verdadeiras; suprimir o sinal de inutilização de nota recolhida; devolvê-la à circulação.",
+      "atencao": "Funcionário da repartição onde o dinheiro estava recolhido: máximo elevado a 12 anos."
+     },
+     {
+      "nome": "Petrechos (art. 291)",
+      "o_que_e": "Fabricar, adquirir, fornecer, possuir ou guardar objeto especialmente destinado a falsificar moeda.",
+      "atencao": "Fornecer sem cobrar também é crime."
+     },
+     {
+      "nome": "Título ao portador sem permissão (art. 292)",
+      "o_que_e": "Emitir vale, ficha ou título com promessa de pagamento em dinheiro ao portador, sem permissão legal.",
+      "atencao": "Quem recebe ou usa como dinheiro: detenção de 15 dias a 3 meses, ou multa."
+     }
+    ],
+    "colunas": [
+     "Crime",
+     "Conduta",
+     "Atenção"
+    ]
    },
    "lei": [
     {
      "norma": "n2848-1940",
      "artigos": [
-      "Art. 289."
+      "Art. 289.",
+      "Art. 290.",
+      "Art. 291.",
+      "Art. 292."
      ],
-     "ref": "art. 289 do CP",
+     "ref": "arts. 289 a 292 do CP",
      "regras": [
-      "<strong>Caput.</strong> Moeda falsa: falsificar, fabricando ou alterando, moeda metálica ou papel-moeda de curso legal no País ou no estrangeiro; reclusão de 3 a 12 anos e multa.",
-      "<strong>§ 1º.</strong> Mesma pena para quem importa, exporta, adquire, vende, troca, cede, empresta, guarda ou introduz moeda falsa em circulação.",
-      "<strong>§ 2º.</strong> Forma privilegiada: quem recebeu de boa-fé e, depois de conhecer a falsidade, devolve a moeda à circulação; detenção de 6 meses a 2 anos e multa.",
-      "<strong>§§ 3º e 4º.</strong> Funcionário ou dirigente de banco de emissão que fabrica ou emite moeda com título ou peso inferior ao legal, ou papel-moeda acima do autorizado, e quem desvia e faz circular moeda ainda não autorizada; reclusão de 3 a 15 anos e multa."
+      "<strong>Art. 289.</strong> Falsificar, fabricando ou alterando, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro: reclusão de 3 a 12 anos e multa. Mesma pena para quem importa, exporta, adquire, vende, troca, cede, empresta, guarda ou introduz moeda falsa na circulação. Recebida de boa-fé e restituída à circulação depois de conhecida a falsidade: detenção de 6 meses a 2 anos e multa. Funcionário ou dirigente de banco de emissão que fabrica ou autoriza moeda com título ou peso inferior ao legal ou papel-moeda acima do autorizado, e quem desvia e faz circular moeda ainda não autorizada: reclusão de 3 a 15 anos e multa.",
+      "<strong>Art. 290.</strong> Formar cédula com fragmentos de cédulas verdadeiras, suprimir de nota recolhida o sinal de sua inutilização para devolvê-la à circulação, ou restituí-la à circulação: reclusão de 2 a 8 anos e multa; máximo de 12 anos se o autor é funcionário da repartição onde o dinheiro estava recolhido ou nela tem fácil ingresso pelo cargo.",
+      "<strong>Arts. 291 e 292.</strong> Fabricar, adquirir, fornecer, possuir ou guardar objeto especialmente destinado à falsificação de moeda: reclusão de 2 a 6 anos e multa. Emitir, sem permissão legal, nota, vale, ficha ou título com promessa de pagamento em dinheiro ao portador: detenção de 1 a 6 meses, ou multa; quem o recebe ou usa como dinheiro: detenção de 15 dias a 3 meses, ou multa."
      ],
-     "trechos": [
-      "tendo recebido de boa fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação"
+     "literalidades": [
+      {
+       "trecho": "§ 2º Quem, tendo recebido de boa fé, como verdadeira, moeda falsa ou alterada, a restitui à circulação, depois de conhecer a falsidade, é punido com detenção, de seis meses a dois anos, e multa.",
+       "marcas": [
+        "depois de conhecer a falsidade"
+       ],
+       "afirmacao": "Lúcia recebeu de troco, sem perceber, uma nota falsa de R$ 100. Dias depois, já sabendo da falsidade, usou a nota para pagar a feira. Ela responde com a pena do caput, de 3 a 12 anos.",
+       "gabarito": "E",
+       "porque": "Quem recebe de boa-fé e só depois de conhecer a falsidade devolve a nota à circulação responde pela forma privilegiada: detenção de 6 meses a 2 anos e multa (art. 289, § 2º)."
+      },
+      {
+       "trecho": "Parágrafo único. O máximo da reclusão é elevado a doze anos e o da multa, se o crime é cometido por funcionário que trabalha na repartição onde o dinheiro se achava recolhido",
+       "marcas": [
+        "elevado a doze anos"
+       ],
+       "afirmacao": "O servidor do setor onde ficam as cédulas recolhidas para destruição, que as devolve à circulação, pode receber até 12 anos de reclusão.",
+       "gabarito": "C",
+       "porque": "No crime assimilado do art. 290, o máximo sobe de 8 para 12 anos se o autor trabalha na repartição onde o dinheiro estava recolhido (parágrafo único)."
+      },
+      {
+       "trecho": "possuir ou guardar maquinismo, aparelho, instrumento ou qualquer objeto especialmente destinado à falsificação de moeda",
+       "marcas": [
+        "especialmente destinado"
+       ],
+       "afirmacao": "Quem guarda em casa uma impressora comum, usada para trabalhos da escola, comete o crime de petrechos para falsificação de moeda.",
+       "gabarito": "E",
+       "porque": "O art. 291 exige objeto especialmente destinado à falsificação de moeda; um aparelho de uso comum, sem essa destinação, não basta."
+      },
+      {
+       "trecho": "Parágrafo único. Quem recebe ou utiliza como dinheiro qualquer dos documentos referidos neste artigo, incorre na pena de detenção, de quinze dias a três meses, ou multa.",
+       "marcas": [
+        "recebe ou utiliza como dinheiro"
+       ],
+       "afirmacao": "O dono da mercearia que aceita como dinheiro os vales ao portador emitidos por uma fazenda, sem permissão legal, comete crime, com pena menor que a de quem os emitiu.",
+       "gabarito": "C",
+       "porque": "Receber ou usar como dinheiro esses títulos tem detenção de 15 dias a 3 meses, ou multa; quem os emite tem detenção de 1 a 6 meses, ou multa (art. 292)."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
-      "Art. 289.": "3da3336f4bb0"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "GROSSEIRA VIRA ESTELIONATO",
-     "texto": "Se a nota não engana ninguém, não há moeda falsa. Se enganou uma pessoa específica, é estelionato, na Justiça Estadual."
-    },
-    {
-     "sigla": "BOA-FÉ NA ENTRADA, MÁ-FÉ NA SAÍDA",
-     "texto": "Recebeu sem saber e repassou depois de saber: forma privilegiada do § 2º."
+      "Art. 289.": "3da3336f4bb0",
+      "Art. 290.": "bce8595bdd49",
+      "Art. 291.": "5c42755a094e",
+      "Art. 292.": "101e43b8ee69"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
     {
      "quem": "STJ · Súmula 73",
      "texto": "A utilização de papel moeda grosseiramente falsificado configura, em tese, o crime de estelionato, da competência da Justiça Estadual."
+    },
+    {
+     "quem": "STF e STJ",
+     "texto": "Não se aplica o princípio da insignificância à moeda falsa, ainda que seja uma única cédula de pequeno valor: o bem protegido é a fé pública."
+    }
+   ],
+   "detalhes": [
+    "Moeda estrangeira também é protegida: o art. 289 fala em curso legal no país ou no estrangeiro.",
+    "Não cabe arrependimento posterior: a vítima é a fé pública, e não há dano patrimonial a reparar (Cebraspe, Delegado PF 2021).",
+    "O sujeito passivo principal é a coletividade; não é preciso uma vítima determinada (Cebraspe, Analista STJ 2024).",
+    "A moeda falsa exige falsificação capaz de enganar o homem médio; a grosseira é crime impossível quanto à fé pública.",
+    "Desviar e pôr em circulação moeda verdadeira ainda não autorizada também é crime, com reclusão de 3 a 15 anos (art. 289, § 4º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "GROSSEIRA VIRA ESTELIONATO",
+     "texto": "Se a nota não engana ninguém, não há moeda falsa. Se enganou uma pessoa determinada, é estelionato, na Justiça estadual."
+    },
+    {
+     "sigla": "BOA-FÉ NA ENTRADA, MÁ-FÉ NA SAÍDA",
+     "texto": "Recebeu sem saber e repassou depois de saber: forma privilegiada do § 2º."
     }
    ],
    "pegadinha": {
@@ -4422,51 +4532,369 @@
     "gabarito": "E",
     "explicacao": "O bem protegido é a fé pública, um dano que não se repara devolvendo valores. Por isso o arrependimento posterior não se aplica à moeda falsa (Cebraspe, Delegado PF 2021)."
    },
-   "aprofundamento": "<p><strong>Sem arrependimento posterior.</strong> Como a vítima é a fé pública, não há dano patrimonial a reparar, e o art. 16 não se aplica à moeda falsa (Cebraspe, Delegado PF 2021).</p><p><strong>Fé pública não admite insignificância.</strong> Nos crimes contra a fé pública, como o uso de documento falso, a jurisprudência não aplica o princípio da insignificância. Ele é admitido, por exemplo, no descaminho (FGV, Delegado PC-AM 2021).</p><p><strong>Vítima é a coletividade.</strong> Nos crimes contra a fé pública, como a moeda falsa, o sujeito passivo principal é a coletividade. Não é preciso uma vítima específica e determinada (Cebraspe, Analista STJ 2024).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Quem compra cédulas falsas sabendo da falsidade e as passa adiante responde pela forma privilegiada do § 2º.",
+     "certo": "Responde pelo § 1º, com a pena do caput; o § 2º exige que a nota tenha sido recebida de boa-fé.",
+     "fonte": "Questão do app sobre o art. 289"
+    },
+    {
+     "errado": "Desviar e fazer circular moeda verdadeira ainda não autorizada é atípico, porque a moeda não é falsa.",
+     "certo": "É crime, com reclusão de 3 a 15 anos (art. 289, § 4º).",
+     "fonte": "Questão do app sobre o art. 289"
+    },
+    {
+     "errado": "O uso de cédula grosseiramente falsificada configura moeda falsa, da Justiça Federal.",
+     "certo": "Configura, em tese, estelionato, da Justiça estadual (Súmula 73 do STJ).",
+     "fonte": "Questão do app sobre a Súmula 73"
+    },
+    {
+     "errado": "No crime do art. 290, o funcionário da repartição onde o dinheiro estava recolhido tem a pena aumentada de um terço.",
+     "certo": "O máximo da reclusão é elevado a 12 anos (parágrafo único).",
+     "fonte": "Questão do app sobre o art. 290"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021; Analista STJ 2024"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo e ampliado com os crimes assimilados, os petrechos e o título ao portador sem permissão legal (arts. 290 a 292)."
+    }
+   ],
    "relacionados": [
+    "falsificacao-de-papeis-publicos-e-selos",
+    "estelionato",
+    "falsificacao-de-documentos"
+   ]
+  },
+  {
+   "slug": "falsificacao-de-papeis-publicos-e-selos",
+   "titulo": "Falsificação de papéis públicos, selos e sinais",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Arts. 293 a 296 e 306 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica.papeis-selos"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-293",
+    "n2848-1940-art-294",
+    "n2848-1940-art-295",
+    "n2848-1940-art-296",
+    "n2848-1940-art-306"
+   ],
+   "conceitos": [
+    "falsificação de papéis públicos",
+    "selo de controle tributário",
+    "comércio de produto com selo falso ou sem selo",
+    "supressão de carimbo de inutilização",
+    "petrechos de falsificação de papéis públicos",
+    "falsificação do selo ou sinal público",
+    "uso indevido de logotipo de órgão público",
+    "falsificação de marca de contraste ou de fiscalização"
+   ],
+   "palavras": [
+    "papeis publicos",
+    "selo de controle tributario",
+    "papel selado",
+    "papel de credito publico",
+    "titulo da divida publica",
+    "vale postal",
+    "cautela de penhor",
+    "caderneta de deposito",
+    "guia de arrecadacao",
+    "rendas publicas",
+    "bilhete de transporte",
+    "dois a oito anos",
+    "usa guarda possui",
+    "cigarros",
+    "bebidas",
+    "sem selo oficial",
+    "camelo",
+    "comercio irregular",
+    "residencia",
+    "carimbo de inutilizacao",
+    "um a quatro anos",
+    "boa-fe",
+    "seis meses a dois anos",
+    "petrechos",
+    "um a tres anos",
+    "sexta parte",
+    "selo publico",
+    "atos oficiais",
+    "sinal publico de tabeliao",
+    "logotipo",
+    "siglas",
+    "dois a seis anos",
+    "contraste de metal precioso",
+    "fiscalizacao alfandegaria",
+    "fiscalizacao sanitaria"
+   ],
+   "resumo": "O <strong>art. 293</strong> pune quem falsifica selo de controle tributário ou papel de arrecadação de tributo, papel de crédito público que não seja moeda, vale postal, cautela de penhor de caixa econômica, guia ou recibo de rendas públicas e bilhete de transporte de empresa pública: reclusão de 2 a 8 anos e multa. Na mesma pena incorre quem usa ou guarda esses papéis falsos, quem comercializa selo tributário falso e quem, em atividade comercial, vende produto com selo falso ou <strong>sem o selo que a lei tributária exige</strong>; o comércio irregular, em praças ou em residências, equipara-se a atividade comercial. Apagar o carimbo de inutilização para reusar o papel tem 1 a 4 anos, e usar depois de saber da falsidade o que se recebeu de boa-fé, 6 meses a 2 anos, ou multa. Os petrechos desses papéis têm 1 a 3 anos (art. 294). O <strong>art. 296</strong> pune falsificar o selo que autentica atos oficiais da União, dos Estados ou dos Municípios, ou o sinal público de tabelião (2 a 6 anos), além do uso do selo falso, do uso indevido do selo verdadeiro e do uso indevido de logotipos e siglas de órgãos públicos. O <strong>art. 306</strong> pune falsificar a marca oficial de contraste de metal precioso ou de fiscalização alfandegária. O funcionário que se prevalece do cargo tem a pena aumentada de <strong>sexta parte</strong> (arts. 295 e 296, § 2º).",
+   "esquema": {
+    "rotulo": "qual artigo",
+    "html": "<table><thead><tr><th>O que se falsifica ou faz</th><th>Artigo</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Selo de controle tributário, papel de crédito público, vale postal, guia de rendas públicas, bilhete de transporte público</strong></td><td>Art. 293</td><td>Reclusão de 2 a 8 anos e multa</td></tr><tr><td><strong>Apagar o carimbo de inutilização para reusar o papel, ou usá-lo depois disso</strong></td><td>Art. 293, §§ 2º e 3º</td><td>Reclusão de 1 a 4 anos e multa</td></tr><tr><td><strong>Usar ou devolver à circulação, depois de saber, papel falso recebido de boa-fé</strong></td><td>Art. 293, § 4º</td><td>Detenção de 6 meses a 2 anos, ou multa</td></tr><tr><td><strong>Objeto especialmente destinado a falsificar esses papéis</strong></td><td>Art. 294</td><td>Reclusão de 1 a 3 anos e multa</td></tr><tr><td><strong>Selo que autentica atos oficiais, sinal de tabelião, logotipo de órgão público</strong></td><td>Art. 296</td><td>Reclusão de 2 a 6 anos e multa</td></tr><tr><td><strong>Marca de contraste de metal precioso ou de fiscalização alfandegária</strong></td><td>Art. 306</td><td>Reclusão de 2 a 6 anos e multa; 1 a 3 anos na fiscalização sanitária</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem também responde pelo art. 293 (§ 1º)",
+    "linhas": [
+     {
+      "nome": "Usar ou guardar",
+      "o_que_e": "Usa, guarda, possui ou detém qualquer dos papéis falsificados.",
+      "atencao": "Não precisa ter falsificado."
+     },
+     {
+      "nome": "Comércio do selo falso",
+      "o_que_e": "Importa, exporta, adquire, vende, troca, cede, empresta, guarda, fornece ou restitui à circulação selo tributário falsificado."
+     },
+     {
+      "nome": "Produto com selo falso",
+      "o_que_e": "Em atividade comercial ou industrial, vende ou mantém em depósito produto com selo de controle tributário falsificado.",
+      "atencao": "Não precisa ter aplicado o selo."
+     },
+     {
+      "nome": "Produto sem selo",
+      "o_que_e": "Em atividade comercial ou industrial, vende produto sem o selo oficial que a legislação tributária torna obrigatório.",
+      "atencao": "Se a lei não exige o selo, não há crime."
+     },
+     {
+      "nome": "Comércio irregular (§ 5º)",
+      "o_que_e": "Equipara-se a atividade comercial o comércio clandestino, inclusive em vias, praças e residências.",
+      "atencao": "O camelô entra."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "Conduta",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 293.",
+      "Art. 294.",
+      "Art. 295.",
+      "Art. 296.",
+      "Art. 306."
+     ],
+     "ref": "arts. 293 a 296 e 306 do CP",
+     "regras": [
+      "<strong>Art. 293.</strong> Falsificar selo de controle tributário ou papel de arrecadação de tributo, papel de crédito público que não seja moeda, vale postal, cautela de penhor ou caderneta de caixa econômica pública, documento de arrecadação de rendas públicas ou bilhete de empresa de transporte pública: reclusão de 2 a 8 anos e multa. Mesma pena para quem usa ou guarda esses papéis falsos, comercializa selo tributário falso ou, em atividade comercial ou industrial, vende produto com selo falso ou sem o selo que a legislação tributária exige. Suprimir o carimbo de inutilização para reusar o papel, ou usá-lo depois disso: reclusão de 1 a 4 anos e multa. Usar ou restituir à circulação, depois de conhecer a falsidade, o papel recebido de boa-fé: detenção de 6 meses a 2 anos, ou multa.",
+      "<strong>Arts. 294 e 295.</strong> Fabricar, adquirir, fornecer, possuir ou guardar objeto especialmente destinado a falsificar esses papéis: reclusão de 1 a 3 anos e multa. Funcionário público que se prevalece do cargo: aumento de sexta parte.",
+      "<strong>Art. 296.</strong> Falsificar selo público destinado a autenticar atos oficiais da União, de Estado ou de Município, ou selo ou sinal de entidade de direito público, de autoridade ou de tabelião: reclusão de 2 a 6 anos e multa. Mesma pena para quem usa o selo falso, usa indevidamente o selo verdadeiro em prejuízo de outrem ou em proveito próprio ou alheio, ou altera, falsifica ou usa indevidamente marcas, logotipos e siglas de órgãos públicos. Funcionário que se prevalece do cargo: aumento de sexta parte.",
+      "<strong>Art. 306.</strong> Falsificar ou usar marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária: reclusão de 2 a 6 anos e multa. Se a marca é a da fiscalização sanitária ou a que autentica ou encerra objetos ou comprova formalidade legal: reclusão ou detenção de 1 a 3 anos e multa."
+     ],
+     "literalidades": [
+      {
+       "trecho": "b) sem selo oficial, nos casos em que a legislação tributária determina a obrigatoriedade de sua aplicação.",
+       "marcas": [
+        "determina a obrigatoriedade"
+       ],
+       "afirmacao": "O ambulante que vende na praça cigarros sem o selo oficial que a legislação tributária torna obrigatório incorre nas penas do art. 293.",
+       "gabarito": "C",
+       "porque": "Vender, em atividade comercial, produto sem o selo obrigatório é crime (art. 293, § 1º, III, b), e o comércio em logradouros públicos equipara-se a atividade comercial (§ 5º)."
+      },
+      {
+       "trecho": "Fabricar, adquirir, fornecer, possuir ou guardar objeto especialmente destinado à falsificação de qualquer dos papéis referidos no artigo anterior:",
+       "marcas": [
+        "especialmente destinado"
+       ],
+       "afirmacao": "Quem guarda em casa um carimbo feito para imitar o selo de controle tributário de bebidas é punido com reclusão de 2 a 8 anos.",
+       "gabarito": "E",
+       "porque": "Guardar petrechos de falsificação dos papéis públicos é o art. 294, com reclusão de 1 a 3 anos e multa; 2 a 8 anos é a pena da falsificação (art. 293)."
+      },
+      {
+       "trecho": "II - quem utiliza indevidamente o selo ou sinal verdadeiro em prejuízo de outrem ou em proveito próprio ou alheio;",
+       "marcas": [
+        "selo ou sinal verdadeiro"
+       ],
+       "afirmacao": "O servidor que usa o selo autêntico da prefeitura para autenticar papéis da sua empresa particular não comete crime, porque o selo não é falso.",
+       "gabarito": "E",
+       "porque": "Usar indevidamente o selo ou sinal verdadeiro, em proveito próprio ou alheio, tem a mesma pena da falsificação do selo público (art. 296, § 1º, II)."
+      },
+      {
+       "trecho": "Falsificar, fabricando-o ou alterando-o, marca ou sinal empregado pelo poder público no contraste de metal precioso ou na fiscalização alfandegária",
+       "marcas": [
+        "contraste de metal precioso"
+       ],
+       "afirmacao": "O joalheiro que imita a marca oficial de contraste para atestar, numa peça, um teor de ouro que ela não tem comete crime punido com reclusão de 2 a 6 anos.",
+       "gabarito": "C",
+       "porque": "Falsificar a marca usada pelo poder público no contraste de metal precioso é o art. 306, com reclusão de 2 a 6 anos e multa."
+      }
+     ],
+     "conferido": {
+      "Art. 293.": "daff1a6901ab",
+      "Art. 294.": "8b2dc9bec1bd",
+      "Art. 295.": "b5bb5e5154d6",
+      "Art. 296.": "f2b7a343017d",
+      "Art. 306.": "6d0a62c4d9f2"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Falsificar papel-moeda é moeda falsa (art. 289); o art. 293, II, trata do papel de crédito público que não seja moeda, como o título da dívida pública.",
+    "Guia de recolhimento de tributo falsificada é o art. 293, V, e não falsificação de documento público do art. 297: a norma especial prevalece.",
+    "Selo de controle tributário é o art. 293, I; selo que autentica atos oficiais é o art. 296.",
+    "O comerciante que vende produto com selo tributário falso responde ainda que não tenha sido ele a falsificar ou a aplicar o selo.",
+    "Usar indevidamente o logotipo ou a sigla de um órgão público para parecer oficial é o art. 296, § 1º, III."
+   ],
+   "macetes": [
+    {
+     "sigla": "MOEDA NO 289, PAPEL NO 293",
+     "texto": "Papel-moeda é moeda falsa. Título da dívida, vale postal, guia de tributo e selo tributário são papéis públicos."
+    },
+    {
+     "sigla": "SEXTA PARTE PARA O FUNCIONÁRIO",
+     "texto": "Nos arts. 295, 296, 297 e 299, o funcionário que se prevalece do cargo tem aumento de sexta parte; no art. 311, de um terço."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Falsificar selo destinado a controle tributário é falsificação do selo ou sinal público do art. 296, com pena de reclusão de 2 a 6 anos.",
+    "gabarito": "E",
+    "explicacao": "O selo de controle tributário está no art. 293, I, com reclusão de 2 a 8 anos e multa. O art. 296 trata do selo que autentica atos oficiais."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O comerciante que vende bebidas com selo tributário falsificado só responde pelo art. 293 se ele mesmo falsificou o selo.",
+     "certo": "Basta vender o produto com selo falso no exercício de atividade comercial (art. 293, § 1º, III, a).",
+     "fonte": "Questão do app sobre o art. 293"
+    },
+    {
+     "errado": "O comércio clandestino exercido em residência não se equipara a atividade comercial para o art. 293.",
+     "certo": "Equipara-se, como o exercido em vias e praças (art. 293, § 5º).",
+     "fonte": "Questão do app sobre o art. 293"
+    },
+    {
+     "errado": "O uso indevido do logotipo verdadeiro de um órgão público é atípico; só a falsificação é crime.",
+     "certo": "O uso indevido também é crime (art. 296, § 1º, III).",
+     "fonte": "Questão do app sobre o art. 296"
+    },
+    {
+     "errado": "O funcionário que falsifica papéis públicos prevalecendo-se do cargo tem a pena aumentada de um terço.",
+     "certo": "O aumento é de sexta parte (art. 295).",
+     "fonte": "Questão do app sobre o art. 295"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com a falsificação de papéis públicos, de selos e sinais públicos e de marcas oficiais de fiscalização (arts. 293 a 296 e 306)."
+    }
+   ],
+   "relacionados": [
+    "moeda-falsa",
     "falsificacao-de-documentos",
-    "estelionato"
+    "contrabando-e-descaminho"
    ]
   },
   {
    "slug": "falsificacao-de-documentos",
-   "titulo": "Falsificação de documentos e uso de documento falso",
+   "titulo": "Falsificação de documentos, uso de documento falso e supressão",
    "grupo": "Crimes contra a fé pública",
-   "base": "Arts. 297 a 299 e 304 do CP",
+   "base": "Arts. 297 a 299, 304 e 305 do CP",
    "tax": [
-    "penal.crimes-contra-fe-publica"
+    "penal.crimes-contra-fe-publica.documentos"
    ],
    "dispositivos": [
     "n2848-1940-art-297",
     "n2848-1940-art-298",
     "n2848-1940-art-299",
-    "n2848-1940-art-304"
+    "n2848-1940-art-304",
+    "n2848-1940-art-305"
    ],
    "conceitos": [
     "falsidade material",
     "falsidade ideológica",
     "documento público por equiparação",
-    "uso de documento falso"
+    "falsificação de cartão",
+    "falsidade em documento da previdência",
+    "uso de documento falso",
+    "supressão de documento"
    ],
    "palavras": [
     "falsificacao de documento publico",
     "documento particular",
     "falsidade ideologica",
     "falsidade material",
-    "testamento particular",
-    "livros mercantis",
+    "alterar documento verdadeiro",
+    "dois a seis anos",
+    "um a cinco anos",
+    "um a tres anos",
+    "sexta parte",
+    "entidade paraestatal",
     "titulo ao portador",
+    "endosso",
+    "nota promissoria",
+    "cheque",
+    "acoes de sociedade comercial",
+    "livros mercantis",
+    "testamento particular",
+    "carteira de trabalho",
+    "folha de pagamento",
+    "previdencia social",
+    "segurado",
     "cartao de credito",
+    "cartao de debito",
+    "clonagem",
+    "omitir declaracao",
+    "inserir declaracao falsa",
+    "fato juridicamente relevante",
+    "registro civil",
     "uso de documento falso",
+    "pena cominada a falsificacao",
+    "supressao de documento",
+    "destruir suprimir ocultar",
     "sumula 17",
     "sumula 546",
-    "declaracao de pobreza"
+    "sumula 104",
+    "sumula 200",
+    "passaporte falso",
+    "declaracao de hipossuficiencia",
+    "carteira da oab",
+    "exame de ordem"
    ],
-   "resumo": "Na <strong>falsidade material</strong> (arts. 297 e 298), o agente falsifica ou altera a forma do documento: cria um falso ou adultera um verdadeiro. Na <strong>falsidade ideológica</strong> (art. 299), o documento é formalmente verdadeiro, mas o conteúdo é falso: o agente omite declaração que devia constar ou insere declaração falsa, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante. Algumas peças particulares são tratadas como públicas: documento de entidade paraestatal, título ao portador ou transmissível por endosso, ações de sociedade comercial, livros mercantis e testamento particular. O cartão de crédito ou débito equipara-se a documento particular. Quem usa o papel falso responde pelo art. 304, com a pena da falsificação.",
+   "resumo": "Na <strong>falsidade material</strong> (arts. 297 e 298), o agente falsifica ou altera a forma do documento: cria um falso ou adultera um verdadeiro. Documento público tem reclusão de 2 a 6 anos; particular, de 1 a 5. Para fins penais, equiparam-se a documento público o de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular; o cartão de crédito ou débito equipara-se a documento particular. Também têm a pena do art. 297 as falsidades destinadas à previdência social: incluir na folha de pagamento quem não é segurado, anotar declaração falsa na carteira de trabalho ou em documento contábil, e omitir nome, remuneração ou vigência do contrato. Na <strong>falsidade ideológica</strong> (art. 299), o documento é verdadeiro na forma e falso no conteúdo: o agente omite declaração devida ou insere declaração falsa, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante (1 a 5 anos se público, 1 a 3 se particular). Quem <strong>usa</strong> o papel falso responde pelo art. 304, com a pena da falsificação; quem falsifica e usa responde só pela falsificação. Destruir, suprimir ou ocultar documento verdadeiro de que não podia dispor é <strong>supressão de documento</strong> (art. 305).",
    "esquema": {
     "rotulo": "material × ideológica",
-    "html": "<table><thead><tr><th>Ponto</th><th>Falsidade material</th><th>Falsidade ideológica</th></tr></thead><tbody><tr><td><strong>O que é falso</strong></td><td>A forma (documento forjado ou adulterado)</td><td>O conteúdo (documento verdadeiro, ideia falsa)</td></tr><tr><td><strong>Perícia</strong></td><td>Em regra, a perícia identifica</td><td>A perícia grafotécnica não revela</td></tr><tr><td><strong>Pena (público)</strong></td><td>2 a 6 anos (art. 297)</td><td>1 a 5 anos (art. 299)</td></tr><tr><td><strong>Pena (particular)</strong></td><td>1 a 5 anos (art. 298)</td><td>1 a 3 anos (art. 299)</td></tr><tr><td><strong>Funcionário que se prevalece do cargo</strong></td><td>Aumento de um sexto</td><td>Aumento de um sexto</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Ponto</th><th>Falsidade material</th><th>Falsidade ideológica</th></tr></thead><tbody><tr><td><strong>O que é falso</strong></td><td>A forma (documento forjado ou adulterado)</td><td>O conteúdo (documento verdadeiro, ideia falsa)</td></tr><tr><td><strong>Perícia</strong></td><td>Em regra, a perícia identifica</td><td>A perícia grafotécnica não revela</td></tr><tr><td><strong>Pena (público)</strong></td><td>Reclusão de 2 a 6 anos (art. 297)</td><td>Reclusão de 1 a 5 anos (art. 299)</td></tr><tr><td><strong>Pena (particular)</strong></td><td>Reclusão de 1 a 5 anos (art. 298)</td><td>Reclusão de 1 a 3 anos (art. 299)</td></tr><tr><td><strong>Funcionário que se prevalece do cargo</strong></td><td>Aumento de sexta parte</td><td>Aumento de sexta parte</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Falsidade na previdência (art. 297, §§ 3º e 4º)",
+    "linhas": [
+     {
+      "nome": "Folha de pagamento",
+      "o_que_e": "Inserir, na folha ou em documento para a previdência, pessoa que não é segurado obrigatório.",
+      "atencao": "Pena do art. 297, e não do art. 299."
+     },
+     {
+      "nome": "Carteira de trabalho",
+      "o_que_e": "Inserir na carteira de trabalho declaração falsa ou diversa da que devia constar.",
+      "atencao": "Anotar salário menor que o real entra aqui."
+     },
+     {
+      "nome": "Documento contábil",
+      "o_que_e": "Inserir declaração falsa em documento ligado às obrigações da empresa com a previdência."
+     },
+     {
+      "nome": "Omissão (§ 4º)",
+      "o_que_e": "Omitir nesses documentos o nome do segurado, a remuneração ou a vigência do contrato.",
+      "atencao": "A omissão também é crime."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "Conduta",
+     "Atenção"
+    ]
    },
    "lei": [
     {
@@ -4475,39 +4903,72 @@
       "Art. 297.",
       "Art. 298.",
       "Art. 299.",
-      "Art. 304."
+      "Art. 304.",
+      "Art. 305."
      ],
-     "ref": "arts. 297 a 299 e 304 do CP",
+     "ref": "arts. 297 a 299, 304 e 305 do CP",
      "regras": [
-      "<strong>Art. 297, caput e § 1º.</strong> Falsificação de documento público (no todo ou em parte, ou alterar o verdadeiro): reclusão de 2 a 6 anos e multa; mais um sexto se o funcionário se prevalece do cargo.",
-      "<strong>Art. 297, § 2º.</strong> Equiparam-se a documento público o de entidade paraestatal, o título ao portador ou endossável, as ações de sociedade comercial, os livros mercantis e o testamento particular.",
-      "<strong>Art. 297, §§ 3º e 4º.</strong> Mesma pena para inserir ou omitir, em folha de pagamento, CTPS ou documento contábil para a previdência, segurado inexistente, declaração falsa ou os dados do segurado e do contrato.",
-      "<strong>Art. 298.</strong> Falsificação de documento particular: reclusão de 1 a 5 anos e multa. Cartão de crédito ou débito equipara-se a documento particular.",
-      "<strong>Art. 299.</strong> Falsidade ideológica: documento formalmente verdadeiro com conteúdo falso (omitir declaração devida ou inserir falsa) para prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante; reclusão de 1 a 5 anos se público, de 1 a 3 se particular; mais um sexto para funcionário que se prevalece do cargo ou em registro civil.",
-      "<strong>Art. 304.</strong> Uso de documento falso: mesma pena da falsificação ou alteração."
+      "<strong>Art. 297.</strong> Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro: reclusão de 2 a 6 anos e multa; mais sexta parte se o funcionário se prevalece do cargo. Equiparam-se a documento público o de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular. Mesma pena para quem insere ou omite, em documentos destinados à previdência social, segurado inexistente, declaração falsa ou os dados do segurado e do contrato.",
+      "<strong>Art. 298.</strong> Falsificar, no todo ou em parte, documento particular ou alterar documento particular verdadeiro: reclusão de 1 a 5 anos e multa. O cartão de crédito ou débito equipara-se a documento particular.",
+      "<strong>Art. 299.</strong> Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir declaração falsa ou diversa da devida, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante: reclusão de 1 a 5 anos e multa se o documento é público, e de 1 a 3 anos e multa se é particular; mais sexta parte se o funcionário se prevalece do cargo ou se a falsidade é de assentamento de registro civil.",
+      "<strong>Arts. 304 e 305.</strong> Fazer uso de papel falsificado ou alterado dos arts. 297 a 302: a pena cominada à falsificação. Destruir, suprimir ou ocultar, em benefício próprio ou alheio ou em prejuízo alheio, documento verdadeiro de que não podia dispor: reclusão de 2 a 6 anos e multa se público, de 1 a 5 anos e multa se particular."
      ],
-     "trechos": [
-      "equipara-se a documento particular o cartão de crédito ou débito",
-      "com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante"
+     "literalidades": [
+      {
+       "trecho": "§ 2º Para os efeitos penais, equiparam-se a documento público o emanado de entidade paraestatal, o título ao portador ou transmissível por endosso, as ações de sociedade comercial, os livros mercantis e o testamento particular.",
+       "marcas": [
+        "testamento particular"
+       ],
+       "afirmacao": "Rui altera, em casa, o testamento particular do tio para se incluir como herdeiro. Ele responde por falsificação de documento particular, com pena de 1 a 5 anos.",
+       "gabarito": "E",
+       "porque": "Para fins penais, o testamento particular equipara-se a documento público (art. 297, § 2º): a pena é de reclusão de 2 a 6 anos e multa."
+      },
+      {
+       "trecho": "Parágrafo único. Para fins do disposto no caput, equipara-se a documento particular o cartão de crédito ou débito.",
+       "marcas": [
+        "cartão de crédito ou débito"
+       ],
+       "afirmacao": "Quem clona o cartão de crédito de um cliente numa maquininha adulterada comete falsificação de documento particular, com pena de 1 a 5 anos.",
+       "gabarito": "C",
+       "porque": "O cartão de crédito ou débito equipara-se a documento particular (art. 298, parágrafo único, incluído pela Lei 12.737/2012)."
+      },
+      {
+       "trecho": "com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante",
+       "marcas": [
+        "fato juridicamente relevante"
+       ],
+       "afirmacao": "Um sócio registra, na ata da assembleia, a presença de um acionista que faltou, para obter o quórum de destituição do diretor. É falsidade ideológica: a ata é verdadeira na forma e falsa no conteúdo.",
+       "gabarito": "C",
+       "porque": "Inserir declaração falsa em documento formalmente verdadeiro, para alterar a verdade sobre fato juridicamente relevante, é falsidade ideológica (art. 299)."
+      },
+      {
+       "trecho": "Destruir, suprimir ou ocultar, em benefício próprio ou de outrem, ou em prejuízo alheio, documento público ou particular verdadeiro, de que não podia dispor:",
+       "marcas": [
+        "documento público ou particular verdadeiro"
+       ],
+       "afirmacao": "O herdeiro que rasga o testamento verdadeiro do pai, para tirar a irmã da herança, comete falsificação de documento público.",
+       "gabarito": "E",
+       "porque": "Destruir documento verdadeiro de que não podia dispor é supressão de documento (art. 305). Não há falsificação, porque nada foi forjado ou alterado."
+      },
+      {
+       "trecho": "Fazer uso de qualquer dos papéis falsificados ou alterados, a que se referem os artigos 297 a 302:",
+       "marcas": [
+        "artigos 297 a 302"
+       ],
+       "afirmacao": "O empregado que entrega à empresa um atestado médico falso, feito por outra pessoa, comete uso de documento falso.",
+       "gabarito": "C",
+       "porque": "Usar qualquer papel falsificado dos arts. 297 a 302, inclusive o atestado médico falso do art. 302, é o art. 304, com a pena da falsificação."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
       "Art. 297.": "84c56743849b",
       "Art. 298.": "5e8057fe9f59",
       "Art. 299.": "e55d4f0d5892",
-      "Art. 304.": "fa3cc8db8b88"
-     }
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "PARTICULAR QUE VIRA PÚBLICO",
-     "texto": "Art. 297, § 2º: documento de paraestatal, título ao portador ou por endosso, ações de sociedade comercial, livros mercantis e testamento particular."
-    },
-    {
-     "sigla": "CARTÃO É PARTICULAR",
-     "texto": "Cartão de crédito ou débito equipara-se a documento particular (art. 298, parágrafo único), não a público."
+      "Art. 304.": "fa3cc8db8b88",
+      "Art. 305.": "6c0881ec684a"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -4518,6 +4979,40 @@
     {
      "quem": "STJ · Súmula 546",
      "texto": "A competência para processar e julgar o crime de uso de documento falso é firmada em razão da entidade ou órgão ao qual foi apresentado o documento público, não importando a qualificação do órgão expedidor."
+    },
+    {
+     "quem": "STJ · Súmula 104",
+     "texto": "Compete à Justiça Estadual o processo e julgamento dos crimes de falsificação e uso de documento falso relativo a estabelecimento particular de ensino."
+    },
+    {
+     "quem": "STJ · Súmula 200",
+     "texto": "O Juízo Federal competente para processar e julgar acusado de crime de uso de passaporte falso é o do lugar onde o delito se consumou."
+    },
+    {
+     "quem": "STJ",
+     "texto": "A declaração falsa de hipossuficiência para obter gratuidade de justiça não é falsidade ideológica nem uso de documento falso: tem presunção relativa e fica sujeita à verificação do juiz."
+    }
+   ],
+   "detalhes": [
+    "O funcionário que insere declaração falsa prevalecendo-se do cargo responde pela falsidade ideológica com aumento de sexta parte, e não na forma simples (FGV, Delegado PC-MG 2024).",
+    "A falsidade ideológica é crime instantâneo de efeitos permanentes: a prescrição não recomeça a cada vez que o documento produz efeitos (Cebraspe, Delegado PF 2021).",
+    "A carteira da OAB é documento público (Cebraspe, Analista MPCE 2025).",
+    "Afirmação falsa de funcionário em licenciamento ambiental é o crime do art. 66 da Lei 9.605/1998, e não o art. 299 (Cebraspe, Delegado PF 2021).",
+    "Nos crimes contra a fé pública, como o uso de documento falso, não se aplica o princípio da insignificância (FGV, Delegado PC-AM 2021).",
+    "Anotar na carteira de trabalho salário menor que o pago é o art. 297, § 3º, II, com a pena da falsificação de documento público, e não o art. 299."
+   ],
+   "macetes": [
+    {
+     "sigla": "PARTICULAR QUE VIRA PÚBLICO",
+     "texto": "Art. 297, § 2º: documento de paraestatal, título ao portador ou por endosso, ações de sociedade comercial, livros mercantis e testamento particular."
+    },
+    {
+     "sigla": "CARTÃO É PARTICULAR",
+     "texto": "Cartão de crédito ou débito equipara-se a documento particular (art. 298, parágrafo único), e não a público."
+    },
+    {
+     "sigla": "FALSIFICOU E USOU: UM CRIME SÓ",
+     "texto": "Quem falsifica e depois usa o próprio documento responde só pela falsificação; o uso é fato posterior não punível."
     }
    ],
    "pegadinha": {
@@ -4525,73 +5020,396 @@
     "gabarito": "C",
     "explicacao": "Todos estão no rol do art. 297, § 2º, que os equipara a documento público para efeitos penais (Cebraspe, Delegado PC-DF 2026)."
    },
-   "aprofundamento": "<p>Já caiu em: FGV, Delegado PC-MG 2024 e Cebraspe, Analista TJ-RJ 2020, Polícia Judicial STM 2025 e Analista TRT8 2022 (testamento particular, cheque, ações e livros mercantis são públicos por equiparação; cartão de crédito é particular).</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O funcionário que insere declaração falsa prevalecendo-se do cargo responde pela falsidade ideológica com o aumento de 1/6, e não na forma simples (FGV, Delegado PC-MG 2024). A falsidade ideológica é crime instantâneo de efeitos permanentes: o prazo prescricional não recomeça a cada vez que o documento produz efeitos (Cebraspe, Delegado PF 2021). A carteira da OAB é documento público (Cebraspe, Analista MPCE 2025).</p><p><strong>Distinções</strong></p><p>Afirmação falsa de funcionário em licenciamento ambiental é o crime especial do art. 66 da Lei 9.605/1998, e não o art. 299 (Cebraspe, Delegado PF 2021). Remarcar o chassi é adulteração de sinal identificador (art. 311), e falsificar o certificado de registro é falsificação de documento público (art. 297): dois crimes, e não um (Cebraspe, PRF 2021).</p><p><strong>Jurisprudência além da básica</strong></p><p>Para o STJ, a declaração falsa de hipossuficiência para obter gratuidade de justiça não é falsidade ideológica nem uso de documento falso, porque tem presunção relativa e se sujeita à verificação do juiz (Cebraspe, Delegado PC-RJ 2022).</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Por não ser lavrado por oficial público, o testamento particular é documento particular para os efeitos do crime de falsificação.",
+     "certo": "Equipara-se a documento público (art. 297, § 2º).",
+     "fonte": "Questão do app sobre o art. 297"
+    },
+    {
+     "errado": "A declaração falsa de hipossuficiência para obter gratuidade de justiça é falsidade ideológica.",
+     "certo": "Para o STJ, é atípica, pois tem presunção relativa e se sujeita à verificação do juiz.",
+     "fonte": "Cebraspe, Delegado PC-RJ 2022"
+    },
+    {
+     "errado": "Quem remarca o chassi e falsifica o certificado de registro do mesmo veículo comete um crime só.",
+     "certo": "São dois crimes: art. 311 e art. 297.",
+     "fonte": "Cebraspe, PRF 2021"
+    },
+    {
+     "errado": "A falsidade ideológica é crime permanente, e a prescrição só corre quando o documento deixa de produzir efeitos.",
+     "certo": "É crime instantâneo de efeitos permanentes.",
+     "fonte": "Cebraspe, Delegado PF 2021"
+    },
+    {
+     "errado": "O uso de documento falso tem pena própria, menor que a da falsificação.",
+     "certo": "Tem a pena cominada à falsificação ou à alteração (art. 304).",
+     "fonte": "Questão do app sobre o art. 304"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021; PRF 2021; Delegado PC-RJ 2022; Analista TRT8 2022; Analista MPCE 2025; Polícia Judicial STM 2025; Delegado PC-DF 2026; Analista TJ-RJ 2020",
+    "FGV: Delegado PC-MG 2024; Delegado PC-AM 2021"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo e ampliado com a falsidade na previdência (art. 297, §§ 3º e 4º) e a supressão de documento (art. 305)."
+    }
+   ],
    "relacionados": [
+    "falsidade-de-atestados-e-certidoes",
     "falsa-identidade",
     "estelionato",
-    "moeda-falsa"
+    "adulteracao-de-sinal-identificador-de-veiculo"
    ]
   },
   {
-   "slug": "falsa-identidade",
-   "titulo": "Falsa identidade",
+   "slug": "falsidade-de-atestados-e-certidoes",
+   "titulo": "Falso reconhecimento de firma, atestados e certidões",
    "grupo": "Crimes contra a fé pública",
-   "base": "Art. 307 do CP",
+   "base": "Arts. 300 a 303 do CP",
    "tax": [
-    "penal.crimes-contra-fe-publica"
+    "penal.crimes-contra-fe-publica.atestados"
    ],
    "dispositivos": [
-    "n2848-1940-art-307"
+    "n2848-1940-art-300",
+    "n2848-1940-art-301",
+    "n2848-1940-art-302",
+    "n2848-1940-art-303"
    ],
    "conceitos": [
-    "falsa identidade",
-    "autodefesa",
-    "uso de documento falso"
+    "falso reconhecimento de firma ou letra",
+    "certidão ou atestado ideologicamente falso",
+    "falsidade material de atestado ou certidão",
+    "falsidade de atestado médico",
+    "reprodução ou adulteração de selo ou peça filatélica"
    ],
    "palavras": [
-    "falsa identidade",
-    "atribuir-se",
-    "autodefesa",
-    "sumula 522",
-    "nemo tenetur",
-    "documento falso",
-    "foragido",
-    "subsidiariedade expressa"
+    "reconhecimento de firma",
+    "firma ou letra",
+    "cartorio",
+    "tabeliao",
+    "escrevente",
+    "funcao publica",
+    "atestar ou certificar falsamente",
+    "cargo publico",
+    "isencao de onus",
+    "vantagem",
+    "dois meses a um ano",
+    "falsidade material de atestado",
+    "certidao",
+    "tres meses a dois anos",
+    "fim de lucro",
+    "multa",
+    "atestado medico falso",
+    "dar o medico",
+    "um mes a um ano",
+    "selo filatelico",
+    "peca filatelica",
+    "colecao",
+    "visivelmente anotada",
+    "fins de comercio",
+    "um a tres anos",
+    "uso de documento falso"
    ],
-   "resumo": "Atribuir-se ou atribuir a terceiro falsa identidade, para obter vantagem ou causar dano a outrem, é crime de menor potencial ofensivo (3 meses a 1 ano, ou multa). É expressamente <strong>subsidiário</strong>: só incide se o fato não constitui crime mais grave. A conduta é verbal, sem papel falso. Quem apresenta documento de identidade falso comete <strong>uso de documento falso</strong> (art. 304), crime mais grave. Para o STJ, a falsa identidade perante a autoridade policial é típica, ainda que alegada a autodefesa (Súmula 522).",
+   "resumo": "O <strong>art. 300</strong> pune o funcionário que, no exercício da função pública, reconhece como verdadeira firma ou letra que não o é: reclusão de 1 a 5 anos se o documento é público, e de 1 a 3 se é particular. O <strong>art. 301</strong> pune o funcionário que, em razão da função, atesta ou certifica falsamente fato que habilite alguém a obter cargo público, isenção de ônus ou de serviço público, ou outra vantagem (detenção de 2 meses a 1 ano). Falsificar ou alterar atestado ou certidão com esse fim é a <strong>falsidade material</strong> do § 1º, que qualquer pessoa pode cometer (detenção de 3 meses a 2 anos). O <strong>art. 302</strong> pune o médico que, no exercício da profissão, dá atestado falso (detenção de 1 mês a 1 ano). Nos arts. 301 e 302, o <strong>fim de lucro</strong> acrescenta a pena de multa. O <strong>art. 303</strong> pune reproduzir ou alterar selo ou peça filatélica com valor para coleção, salvo se a reprodução estiver visivelmente anotada, e usá-la para fins de comércio. Quem usa qualquer desses papéis falsos dos arts. 300 a 302 responde pelo art. 304, com a mesma pena.",
    "esquema": {
-    "rotulo": "falsa identidade × uso de documento falso",
-    "html": "<table><thead><tr><th>Conduta</th><th>Crime</th></tr></thead><tbody><tr><td><strong>Diz um nome falso ao policial para esconder antecedentes</strong></td><td>Falsa identidade (art. 307), típica mesmo em autodefesa</td></tr><tr><td><strong>Apresenta carteira de identidade falsificada</strong></td><td>Uso de documento falso (art. 304)</td></tr><tr><td><strong>Usa a identidade falsa como meio de um crime mais grave</strong></td><td>Só o crime mais grave (subsidiariedade expressa)</td></tr></tbody></table>"
+    "rotulo": "quem pode cometer",
+    "html": "<table><thead><tr><th>Conduta</th><th>Quem</th><th>Crime</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Reconhecer como verdadeira firma ou letra falsa</strong></td><td>Funcionário, no exercício da função</td><td>Art. 300</td><td>Reclusão de 1 a 5 anos (público) ou 1 a 3 (particular), e multa</td></tr><tr><td><strong>Atestar ou certificar falsamente fato que habilite a cargo, isenção ou vantagem</strong></td><td>Funcionário, em razão da função</td><td>Art. 301, caput</td><td>Detenção de 2 meses a 1 ano</td></tr><tr><td><strong>Falsificar ou alterar atestado ou certidão com esse fim</strong></td><td>Qualquer pessoa</td><td>Art. 301, § 1º</td><td>Detenção de 3 meses a 2 anos</td></tr><tr><td><strong>Dar atestado falso</strong></td><td>Médico, no exercício da profissão</td><td>Art. 302</td><td>Detenção de 1 mês a 1 ano</td></tr><tr><td><strong>Usar qualquer desses papéis falsos</strong></td><td>Qualquer pessoa</td><td>Art. 304</td><td>A pena da falsificação</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quando o lucro pesa",
+    "linhas": [
+     {
+      "nome": "Certidão ou atestado falso (art. 301, § 2º)",
+      "o_que_e": "Praticado com o fim de lucro.",
+      "atencao": "Acrescenta multa à pena de prisão."
+     },
+     {
+      "nome": "Atestado médico falso (art. 302, parágrafo único)",
+      "o_que_e": "Cometido com o fim de lucro.",
+      "atencao": "Acrescenta multa; não há aumento de fração."
+     },
+     {
+      "nome": "Selo filatélico (art. 303)",
+      "o_que_e": "Reproduzir ou alterar selo de coleção.",
+      "atencao": "A multa já vem no caput; o uso só é crime para fins de comércio."
+     }
+    ],
+    "colunas": [
+     "Crime",
+     "Situação",
+     "Efeito"
+    ]
    },
    "lei": [
     {
      "norma": "n2848-1940",
      "artigos": [
-      "Art. 307."
+      "Art. 300.",
+      "Art. 301.",
+      "Art. 302.",
+      "Art. 303."
      ],
-     "ref": "art. 307 do CP",
+     "ref": "arts. 300 a 303 do CP",
      "regras": [
-      "<strong>Art. 307.</strong> Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem ou causar dano; detenção de 3 meses a 1 ano, ou multa. Crime subsidiário: cede se o fato constitui crime mais grave."
+      "<strong>Art. 300.</strong> Reconhecer como verdadeira, no exercício de função pública, firma ou letra que não o seja: reclusão de 1 a 5 anos e multa se o documento é público, e de 1 a 3 anos e multa se é particular.",
+      "<strong>Art. 301.</strong> Atestar ou certificar falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço público, ou outra vantagem: detenção de 2 meses a 1 ano. Falsificar ou alterar atestado ou certidão para essa prova: detenção de 3 meses a 2 anos. Com fim de lucro, aplica-se também multa.",
+      "<strong>Art. 302.</strong> Dar o médico, no exercício da profissão, atestado falso: detenção de 1 mês a 1 ano; com fim de lucro, aplica-se também multa.",
+      "<strong>Art. 303.</strong> Reproduzir ou alterar selo ou peça filatélica com valor para coleção, salvo se a reprodução ou alteração estiver visivelmente anotada na face ou no verso: detenção de 1 a 3 anos e multa. Mesma pena para quem, para fins de comércio, faz uso do selo ou peça."
      ],
-     "trechos": [
-      "se o fato não constitui elementos de crime mais grave"
+     "literalidades": [
+      {
+       "trecho": "Reconhecer, como verdadeira, no exercício de função pública, firma ou letra que o não seja:",
+       "marcas": [
+        "no exercício de função pública"
+       ],
+       "afirmacao": "O escrevente de cartório que, a pedido de um amigo, reconhece como autêntica uma assinatura que sabe ser falsa, posta num contrato particular, pode receber reclusão de 1 a 3 anos.",
+       "gabarito": "C",
+       "porque": "Reconhecer firma falsa como verdadeira, no exercício de função pública, é o art. 300; sendo particular o documento, a pena é de reclusão de 1 a 3 anos e multa."
+      },
+      {
+       "trecho": "§ 1º Falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de certidão ou de atestado verdadeiro,",
+       "marcas": [
+        "Falsificar, no todo ou em parte"
+       ],
+       "afirmacao": "O estudante que adultera uma certidão para tomar posse em cargo público não responde pelo art. 301, § 1º, porque esse crime só pode ser cometido por funcionário público.",
+       "gabarito": "E",
+       "porque": "A falsidade material de atestado ou certidão (art. 301, § 1º) é crime comum, que qualquer pessoa pode cometer. Só o caput exige o funcionário que atesta em razão da função."
+      },
+      {
+       "trecho": "Art. 302. Dar o médico, no exercício da sua profissão, atestado falso:",
+       "marcas": [
+        "Dar o médico"
+       ],
+       "afirmacao": "A médica que cobra R$ 200 para emitir atestado falso de doença tem a pena aumentada de um terço.",
+       "gabarito": "E",
+       "porque": "No atestado médico falso com fim de lucro, aplica-se também a pena de multa (art. 302, parágrafo único); não há aumento de fração."
+      },
+      {
+       "trecho": "salvo quando a reprodução ou a alteração está visivelmente anotada na face ou no verso do selo ou peça",
+       "marcas": [
+        "visivelmente anotada"
+       ],
+       "afirmacao": "O colecionador que reproduz selos raros e anota de forma visível, no verso de cada um, que são reproduções não comete o crime do art. 303.",
+       "gabarito": "C",
+       "porque": "O art. 303 ressalva a reprodução ou alteração visivelmente anotada na face ou no verso do selo ou peça."
+      }
      ],
-     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html",
      "conferido": {
-      "Art. 307.": "a744c2c00d62"
-     }
+      "Art. 300.": "cb79067cd598",
+      "Art. 301.": "3ff740b59b8c",
+      "Art. 302.": "bcaed26c1bfc",
+      "Art. 303.": "9401d3765a6a"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O empregado que apresenta à empresa o atestado médico falso que recebeu responde pelo uso de documento falso (art. 304), com a pena do art. 302.",
+    "O art. 301, caput, é falsidade ideológica praticada pelo funcionário; o § 1º é falsidade material, e qualquer pessoa pode cometê-la.",
+    "No art. 300, a pena depende da natureza do documento em que a firma foi reconhecida: maior se público, menor se particular.",
+    "O art. 302 é crime próprio do médico e exige que o atestado seja dado no exercício da profissão.",
+    "No selo filatélico, o uso só é crime se feito para fins de comércio (art. 303, parágrafo único)."
    ],
    "macetes": [
     {
-     "sigla": "FALOU × MOSTROU",
-     "texto": "Falou um nome falso: falsa identidade. Mostrou documento falso: uso de documento falso."
+     "sigla": "LUCRO TRAZ MULTA",
+     "texto": "Nos arts. 301, § 2º, e 302, o fim de lucro acrescenta a multa à pena de prisão. Não há aumento de fração."
     },
     {
-     "sigla": "AUTODEFESA NÃO SALVA",
-     "texto": "O direito de não produzir prova contra si não autoriza mentir sobre quem você é (Súmula 522 do STJ)."
+     "sigla": "CAPUT FUNCIONÁRIO, § 1º QUALQUER UM",
+     "texto": "Atestar falsamente em razão da função é do funcionário. Falsificar ou alterar o atestado ou a certidão, qualquer pessoa pode."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Na falsidade de atestado ou certidão, se o crime é praticado com o fim de lucro, a pena é aplicada em dobro.",
+    "gabarito": "E",
+    "explicacao": "Com fim de lucro, aplica-se, além da pena privativa de liberdade, a de multa (art. 301, § 2º). Não há dobra da pena."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A falsidade material de atestado ou certidão, prevista no art. 301, § 1º, só pode ser praticada por funcionário público.",
+     "certo": "É crime comum: qualquer pessoa pode falsificar ou alterar o atestado ou a certidão.",
+     "fonte": "Questão do app sobre o art. 301"
+    },
+    {
+     "errado": "No atestado médico falso, se o crime é cometido com o fim de lucro, a pena é aumentada de um terço.",
+     "certo": "Aplica-se também multa (art. 302, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 302"
+    },
+    {
+     "errado": "Incorre nas penas do art. 303 quem usa selo filatélico reproduzido, ainda que sem fins de comércio.",
+     "certo": "O uso só é crime para fins de comércio (art. 303, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 303"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com o falso reconhecimento de firma, as certidões e atestados falsos, o atestado médico falso e o selo filatélico (arts. 300 a 303)."
+    }
+   ],
+   "relacionados": [
+    "falsificacao-de-documentos",
+    "falsa-identidade"
+   ]
+  },
+  {
+   "slug": "falsa-identidade",
+   "titulo": "Falsa identidade e uso de documento de identidade alheio",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Arts. 307 a 310 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica.identidade"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-307",
+    "n2848-1940-art-308",
+    "n2848-1940-art-309",
+    "n2848-1940-art-310"
+   ],
+   "conceitos": [
+    "falsa identidade",
+    "autodefesa",
+    "uso de documento de identidade alheio",
+    "cessão de documento de identidade",
+    "uso de nome falso por estrangeiro",
+    "atribuição de falsa qualidade a estrangeiro",
+    "testa de ferro de estrangeiro",
+    "subsidiariedade expressa"
+   ],
+   "palavras": [
+    "falsa identidade",
+    "atribuir-se",
+    "atribuir a terceiro",
+    "obter vantagem",
+    "causar dano",
+    "tres meses a um ano",
+    "crime mais grave",
+    "subsidiariedade expressa",
+    "autodefesa",
+    "sumula 522",
+    "tema 478",
+    "nemo tenetur",
+    "maus antecedentes",
+    "crime formal",
+    "foragido",
+    "documento falso",
+    "passaporte",
+    "titulo de eleitor",
+    "caderneta de reservista",
+    "documento de identidade alheia",
+    "ceder a outrem",
+    "quatro meses a dois anos",
+    "estrangeiro",
+    "nome que nao e o seu",
+    "entrar ou permanecer",
+    "um a tres anos",
+    "falsa qualidade",
+    "um a quatro anos",
+    "acao titulo ou valor",
+    "testa de ferro",
+    "seis meses a tres anos"
+   ],
+   "resumo": "Atribuir-se ou atribuir a terceiro falsa identidade, para obter vantagem ou causar dano a outrem, é o <strong>art. 307</strong> (detenção de 3 meses a 1 ano, ou multa). É crime <strong>formal</strong> e expressamente <strong>subsidiário</strong>: só incide se o fato não constitui crime mais grave. A conduta é dizer-se outra pessoa, sem papel falso; quem apresenta documento de identidade falsificado comete uso de documento falso (art. 304). Para o STJ, a falsa identidade perante a autoridade policial é típica, ainda que alegada a autodefesa (Súmula 522), e o STF fixou o mesmo no Tema 478. Usar como próprio documento de identidade verdadeiro de outra pessoa, ou ceder o próprio para outro usar, é o <strong>art. 308</strong> (detenção de 4 meses a 2 anos e multa, também subsidiário). O estrangeiro que usa nome que não é o seu para entrar ou permanecer no país comete o <strong>art. 309</strong> (detenção de 1 a 3 anos e multa), e quem lhe atribui falsa qualidade para promover a entrada, o parágrafo único (reclusão de 1 a 4 anos). O <strong>art. 310</strong> pune quem se presta a figurar como dono de ação, título ou valor de estrangeiro proibido por lei de tê-los.",
+   "esquema": {
+    "rotulo": "falou, mostrou ou emprestou",
+    "html": "<table><thead><tr><th>Conduta</th><th>Crime</th></tr></thead><tbody><tr><td><strong>Diz um nome falso ao policial para esconder antecedentes</strong></td><td>Falsa identidade (art. 307), típica mesmo em autodefesa</td></tr><tr><td><strong>Apresenta carteira de identidade falsificada</strong></td><td>Uso de documento falso (art. 304)</td></tr><tr><td><strong>Usa como seu o documento verdadeiro de outra pessoa, ou empresta o próprio</strong></td><td>Art. 308</td></tr><tr><td><strong>Estrangeiro usa nome que não é o seu para entrar ou ficar no país</strong></td><td>Art. 309</td></tr><tr><td><strong>Usa a identidade falsa como meio de um crime mais grave</strong></td><td>Só o crime mais grave (subsidiariedade expressa)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Fraudes ligadas ao estrangeiro",
+    "linhas": [
+     {
+      "nome": "Nome falso (art. 309, caput)",
+      "o_que_e": "O estrangeiro usa nome que não é o seu para entrar ou permanecer no território nacional.",
+      "atencao": "Detenção de 1 a 3 anos e multa."
+     },
+     {
+      "nome": "Falsa qualidade (art. 309, parágrafo único)",
+      "o_que_e": "Atribuir a estrangeiro falsa qualidade para promover sua entrada no país.",
+      "atencao": "Pena maior: reclusão de 1 a 4 anos e multa."
+     },
+     {
+      "nome": "Testa de ferro (art. 310)",
+      "o_que_e": "Figurar como proprietário ou possuidor de ação, título ou valor de estrangeiro que a lei proíbe de tê-los.",
+      "atencao": "Detenção de 6 meses a 3 anos e multa."
+     }
+    ],
+    "colunas": [
+     "Crime",
+     "Conduta",
+     "Pena"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 307.",
+      "Art. 308.",
+      "Art. 309.",
+      "Art. 310."
+     ],
+     "ref": "arts. 307 a 310 do CP",
+     "regras": [
+      "<strong>Art. 307.</strong> Atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem: detenção de 3 meses a 1 ano, ou multa, se o fato não constitui crime mais grave.",
+      "<strong>Art. 308.</strong> Usar como próprio passaporte, título de eleitor, caderneta de reservista ou qualquer documento de identidade alheia, ou ceder a outrem documento dessa natureza, próprio ou de terceiro, para que dele se utilize: detenção de 4 meses a 2 anos e multa, se o fato não constitui crime mais grave.",
+      "<strong>Art. 309.</strong> Usar o estrangeiro, para entrar ou permanecer no território nacional, nome que não é o seu: detenção de 1 a 3 anos e multa. Atribuir a estrangeiro falsa qualidade para promover sua entrada: reclusão de 1 a 4 anos e multa.",
+      "<strong>Art. 310.</strong> Prestar-se a figurar como proprietário ou possuidor de ação, título ou valor pertencente a estrangeiro, nos casos em que a lei o proíbe de tê-los: detenção de 6 meses a 3 anos e multa."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Pena - detenção, de três meses a um ano, ou multa, se o fato não constitui elementos de crime mais grave.",
+       "marcas": [
+        "crime mais grave"
+       ],
+       "afirmacao": "Preso em flagrante, Caio diz ao delegado que se chama como o irmão, para esconder seus antecedentes. Por ser autodefesa, a conduta é atípica.",
+       "gabarito": "E",
+       "porque": "A falsa identidade perante a autoridade policial é típica, ainda que em alegada autodefesa (Súmula 522 do STJ; STF, Tema 478)."
+      },
+      {
+       "trecho": "ou ceder a outrem, para que dele se utilize, documento dessa natureza, próprio ou de terceiro",
+       "marcas": [
+        "próprio ou de terceiro"
+       ],
+       "afirmacao": "O rapaz que empresta o próprio passaporte ao primo, para que ele embarque num voo internacional, comete o crime do art. 308.",
+       "gabarito": "C",
+       "porque": "Ceder a outrem, para que dele se utilize, documento de identidade próprio ou de terceiro é o art. 308."
+      },
+      {
+       "trecho": "Art. 309. Usar o estrangeiro, para entrar ou permanecer no território nacional, nome que não é o seu:",
+       "marcas": [
+        "nome que não é o seu"
+       ],
+       "afirmacao": "O estrangeiro que se apresenta na fronteira com um nome inventado, para conseguir entrar no país, responde pela falsa identidade do art. 307, com pena de 3 meses a 1 ano.",
+       "gabarito": "E",
+       "porque": "A conduta tem tipo próprio: o art. 309, com detenção de 1 a 3 anos e multa."
+      },
+      {
+       "trecho": "Art. 310. Prestar-se a figurar como proprietário ou possuidor de ação, título ou valor pertencente a estrangeiro, nos casos em que a este é vedada por lei a propriedade ou a posse de tais bens:",
+       "marcas": [
+        "Prestar-se a figurar"
+       ],
+       "afirmacao": "O brasileiro que aceita aparecer como dono de ações que pertencem, na verdade, a um estrangeiro proibido por lei de possuí-las comete crime contra a fé pública.",
+       "gabarito": "C",
+       "porque": "Prestar-se a figurar como dono de bem de estrangeiro, quando a lei veda a ele a propriedade, é o art. 310: detenção de 6 meses a 3 anos e multa."
+      }
+     ],
+     "conferido": {
+      "Art. 307.": "a744c2c00d62",
+      "Art. 308.": "bf744c46d7e8",
+      "Art. 309.": "89738c4d4eeb",
+      "Art. 310.": "2c764cce0e20"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
     }
    ],
    "juris": [
@@ -4602,6 +5420,26 @@
     {
      "quem": "STF, Tema 478 (RE 640.139)",
      "texto": "O princípio constitucional da autodefesa não alcança aquele que atribui falsa identidade perante autoridade policial com o intento de ocultar maus antecedentes, sendo típica a conduta do art. 307 do CP."
+    },
+    {
+     "quem": "STJ",
+     "texto": "A falsa identidade é crime formal: consuma-se com a atribuição da identidade falsa, ainda que o agente não obtenha a vantagem pretendida."
+    }
+   ],
+   "detalhes": [
+    "O foragido que apresenta carteira de identidade falsa à polícia para evitar a prisão comete uso de documento falso (art. 304), e não falsa identidade (Cebraspe, Delegado PF 2021).",
+    "Usar como próprio um documento verdadeiro de outra pessoa é o art. 308; usar documento falsificado é o art. 304.",
+    "Os arts. 307 e 308 são subsidiários: cedem quando o fato constitui crime mais grave, como o estelionato.",
+    "O art. 309, caput, é crime próprio do estrangeiro; o parágrafo único pode ser cometido por qualquer pessoa que promova a entrada dele."
+   ],
+   "macetes": [
+    {
+     "sigla": "FALOU × MOSTROU",
+     "texto": "Falou um nome falso: falsa identidade. Mostrou documento falso: uso de documento falso. Usou ou emprestou documento verdadeiro alheio: art. 308."
+    },
+    {
+     "sigla": "AUTODEFESA NÃO SALVA",
+     "texto": "O direito de não produzir prova contra si não autoriza mentir sobre quem você é (Súmula 522 do STJ)."
     }
    ],
    "pegadinha": {
@@ -4609,17 +5447,429 @@
     "gabarito": "E",
     "explicacao": "Apresentar documento falsificado é uso de documento falso (art. 304). A falsa identidade do art. 307 é a atribuição de identidade sem uso de documento falso, e é subsidiária (Cebraspe, Delegado PF 2021)."
    },
-   "aprofundamento": "<p>Já caiu em: Cebraspe, Delegado PC-AL 2023, Agente PC-AL 2021, Policial Penal AL 2021 e Analista TJ-ES 2023, e FGV, Delegado PC-RN 2021 (falsa identidade em autodefesa é típica, Súmula 522); Cebraspe, Delegado PF 2021 (o foragido que mostra identidade falsa usa documento falso).</p><p><strong>Distinções</strong></p><p>Usar como próprio documento de identidade verdadeiro de outra pessoa, ou ceder o próprio para outro usar, é o art. 308 (detenção de 4 meses a 2 anos e multa, se o fato não constitui crime mais grave). O art. 307 é atribuir-se identidade sem documento, e o art. 304, usar documento falsificado.</p>",
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "relacionados": [
-    "falsificacao-de-documentos"
+   "pegadinhas": [
+    {
+     "errado": "A falsa identidade perante a autoridade policial é atípica quando praticada em autodefesa, para ocultar maus antecedentes.",
+     "certo": "É típica, ainda que em alegada autodefesa (Súmula 522 do STJ).",
+     "fonte": "Cebraspe, Delegado PC-AL 2023"
+    },
+    {
+     "errado": "A falsa identidade é crime material, que só se consuma com a efetiva obtenção da vantagem.",
+     "certo": "É crime formal para o STJ.",
+     "fonte": "Questão do app sobre o art. 307"
+    },
+    {
+     "errado": "A falsa identidade é punida com reclusão de 1 a 4 anos e multa.",
+     "certo": "Detenção de 3 meses a 1 ano, ou multa (art. 307).",
+     "fonte": "Questão do app sobre o art. 307"
+    },
+    {
+     "errado": "O uso, como próprio, de passaporte alheio é punido com detenção de 3 meses a 1 ano, ou multa.",
+     "certo": "Detenção de 4 meses a 2 anos e multa (art. 308).",
+     "fonte": "Questão do app sobre o art. 308"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PF 2021; Delegado PC-AL 2023; Agente PC-AL 2021; Policial Penal AL 2021; Analista TJ-ES 2023",
+    "FGV: Delegado PC-RN 2021"
    ],
    "mudancas": [
     {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescidos o art. 308 do CP (uso de documento de identidade alheio) e o Tema 478 do STF."
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema refeito no formato novo e ampliado com as fraudes ligadas ao estrangeiro (arts. 309 e 310)."
     }
+   ],
+   "relacionados": [
+    "falsificacao-de-documentos",
+    "trafico-de-pessoas-e-migracao-ilegal"
+   ]
+  },
+  {
+   "slug": "adulteracao-de-sinal-identificador-de-veiculo",
+   "titulo": "Adulteração de sinal identificador de veículo",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Art. 311 do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica.veiculo"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-311"
+   ],
+   "conceitos": [
+    "adulteração de sinal identificador de veículo",
+    "remarcação de chassi",
+    "troca de placa",
+    "funcionário que contribui para o licenciamento",
+    "petrechos de adulteração de veículo",
+    "uso de veículo adulterado",
+    "forma qualificada em atividade comercial"
+   ],
+   "palavras": [
+    "adulterar remarcar ou suprimir",
+    "chassi",
+    "monobloco",
+    "motor",
+    "placa",
+    "sinal identificador",
+    "veiculo automotor",
+    "eletrico",
+    "hibrido",
+    "reboque",
+    "semirreboque",
+    "componentes",
+    "sem autorizacao do orgao competente",
+    "tres a seis anos",
+    "funcao publica",
+    "um terco",
+    "detran",
+    "licenciamento",
+    "registro",
+    "maquinismo aparelho instrumento",
+    "conduz",
+    "desmonta",
+    "devesse saber",
+    "desmanche",
+    "atividade comercial ou industrial",
+    "quatro a oito anos",
+    "residencia",
+    "lei 14562",
+    "fita adesiva",
+    "crv",
+    "certificado de registro"
+   ],
+   "resumo": "Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa ou qualquer sinal identificador de veículo automotor, <strong>elétrico, híbrido, reboque ou semirreboque</strong>, ou de seus componentes, sem autorização do órgão competente, tem reclusão de 3 a 6 anos e multa (art. 311, na redação da Lei 14.562/2023). Se o agente comete o crime no exercício da função pública ou em razão dela, a pena aumenta de <strong>um terço</strong>. Têm a mesma pena o funcionário que contribui para o licenciamento ou o registro do veículo adulterado, fornecendo material ou informação oficial; quem tem, fabrica ou fornece, cobrando ou não, aparelho especialmente destinado à adulteração; e quem adquire, conduz, oculta, desmonta, vende ou de qualquer forma usa veículo com sinal que <strong>devesse saber</strong> estar adulterado. Praticar essas duas últimas condutas em atividade comercial ou industrial tem <strong>reclusão de 4 a 8 anos</strong>, e o comércio clandestino, inclusive em residência, equipara-se a atividade comercial.",
+   "esquema": {
+    "rotulo": "condutas e penas",
+    "html": "<table><thead><tr><th>Conduta</th><th>Dispositivo</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Adulterar, remarcar ou suprimir chassi, motor, placa ou outro sinal, sem autorização</strong></td><td>Art. 311, caput</td><td>Reclusão de 3 a 6 anos e multa</td></tr><tr><td><strong>O mesmo, no exercício da função pública ou em razão dela</strong></td><td>Art. 311, § 1º</td><td>Aumento de um terço</td></tr><tr><td><strong>Funcionário que fornece material ou informação para licenciar o veículo adulterado</strong></td><td>Art. 311, § 2º, I</td><td>A do caput</td></tr><tr><td><strong>Ter ou fornecer aparelho especialmente destinado à adulteração</strong></td><td>Art. 311, § 2º, II</td><td>A do caput</td></tr><tr><td><strong>Adquirir, conduzir, ocultar ou vender veículo que devesse saber adulterado</strong></td><td>Art. 311, § 2º, III</td><td>A do caput</td></tr><tr><td><strong>Os incisos II ou III em atividade comercial ou industrial, mesmo clandestina</strong></td><td>Art. 311, §§ 3º e 4º</td><td>Reclusão de 4 a 8 anos e multa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Quem também responde (§ 2º)",
+    "linhas": [
+     {
+      "nome": "Funcionário (inciso I)",
+      "o_que_e": "Contribui para o licenciamento ou o registro do veículo adulterado, fornecendo indevidamente material ou informação oficial.",
+      "atencao": "Não precisa ter adulterado o veículo."
+     },
+     {
+      "nome": "Petrechos (inciso II)",
+      "o_que_e": "Adquire, guarda, fabrica ou fornece aparelho ou instrumento especialmente destinado à adulteração.",
+      "atencao": "Fornecer sem cobrar também é crime."
+     },
+     {
+      "nome": "Veículo adulterado (inciso III)",
+      "o_que_e": "Adquire, recebe, conduz, oculta, desmonta, monta, vende ou usa veículo ou peça com sinal adulterado.",
+      "atencao": "Basta que devesse saber da adulteração."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "Conduta",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 311."
+     ],
+     "ref": "art. 311 do CP",
+     "regras": [
+      "<strong>Caput e § 1º.</strong> Adulterar, remarcar ou suprimir número de chassi, monobloco, motor, placa ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, ou de seus componentes, sem autorização do órgão competente: reclusão de 3 a 6 anos e multa; aumento de um terço se o agente comete o crime no exercício da função pública ou em razão dela.",
+      "<strong>§ 2º.</strong> Mesmas penas para o funcionário que contribui para o licenciamento ou registro do veículo adulterado fornecendo indevidamente material ou informação oficial; para quem adquire, guarda, fabrica ou fornece, cobrando ou não, objeto especialmente destinado à adulteração; e para quem adquire, recebe, conduz, oculta, desmonta, vende ou usa veículo ou partes com sinal que devesse saber estar adulterado ou remarcado.",
+      "<strong>§§ 3º e 4º.</strong> As condutas dos incisos II e III do § 2º, no exercício de atividade comercial ou industrial: reclusão de 4 a 8 anos e multa. Equipara-se a atividade comercial o comércio irregular ou clandestino, inclusive em residência."
+     ],
+     "literalidades": [
+      {
+       "trecho": "§ 1º Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de um terço.",
+       "marcas": [
+        "um terço"
+       ],
+       "afirmacao": "O vistoriador do Detran que, em razão da função, remarca o chassi de um carro roubado tem a pena aumentada de sexta parte.",
+       "gabarito": "E",
+       "porque": "No art. 311, o crime cometido no exercício da função pública ou em razão dela tem a pena aumentada de um terço (§ 1º). A sexta parte é o aumento dos outros crimes contra a fé pública."
+      },
+      {
+       "trecho": "que devesse saber estar adulterado ou remarcado",
+       "marcas": [
+        "devesse saber"
+       ],
+       "afirmacao": "O motorista que compra, por um terço do preço, um carro com a numeração do chassi visivelmente raspada e passa a dirigi-lo incorre nas penas do art. 311, ainda que não tenha certeza da adulteração.",
+       "gabarito": "C",
+       "porque": "O § 2º, III, alcança quem conduz ou usa veículo com sinal que devesse saber estar adulterado; não se exige a certeza."
+      },
+      {
+       "trecho": "§ 4º Equipara-se a atividade comercial, para efeito do disposto no § 3º deste artigo, qualquer forma de comércio irregular ou clandestino, inclusive aquele exercido em residência.",
+       "marcas": [
+        "inclusive aquele exercido em residência"
+       ],
+       "afirmacao": "Quem monta, na garagem de casa, um desmanche clandestino que vende peças com a numeração adulterada responde com reclusão de 4 a 8 anos.",
+       "gabarito": "C",
+       "porque": "O comércio clandestino exercido em residência equipara-se a atividade comercial (§ 4º), e a pena passa a ser de 4 a 8 anos (§ 3º)."
+      },
+      {
+       "trecho": "fornece, a título oneroso ou gratuito, possui ou guarda maquinismo, aparelho, instrumento ou objeto especialmente destinado à falsificação",
+       "marcas": [
+        "a título oneroso ou gratuito"
+       ],
+       "afirmacao": "O mecânico que dá a um amigo, sem cobrar, o kit de punções feito para remarcar chassis não incorre nas penas do art. 311, pois não houve venda.",
+       "gabarito": "E",
+       "porque": "Fornecer o instrumento especialmente destinado à adulteração é crime, com ou sem cobrança (§ 2º, II)."
+      }
+     ],
+     "conferido": {
+      "Art. 311.": "ed6a3d70ac98"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ",
+     "texto": "Alterar os caracteres da placa do veículo com fita adesiva configura o crime do art. 311 do CP."
+    }
+   ],
+   "detalhes": [
+    "Remarcar o chassi (art. 311) e falsificar o certificado de registro do veículo (art. 297) são dois crimes, e não um (Cebraspe, PRF 2021).",
+    "O dono que troca a placa do próprio carro por outra, sem autorização do órgão competente, também comete o crime.",
+    "Desde a Lei 14.562/2023, o tipo alcança veículos elétricos, híbridos, reboques, semirreboques e seus componentes.",
+    "No § 2º, III, a lista de verbos inclui conduzir: quem só dirige o veículo adulterado, devendo saber da adulteração, responde.",
+    "A forma qualificada de 4 a 8 anos vale para os incisos II e III do § 2º em atividade comercial ou industrial; o caput não muda."
+   ],
+   "macetes": [
+    {
+     "sigla": "VEÍCULO: UM TERÇO",
+     "texto": "No art. 311, o funcionário tem aumento de um terço; nos demais crimes contra a fé pública, de sexta parte."
+    },
+    {
+     "sigla": "DESMANCHE: 4 A 8",
+     "texto": "Petrechos ou veículo adulterado no comércio, mesmo clandestino e em casa: reclusão de 4 a 8 anos."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Quem remarca o chassi de um veículo e falsifica o seu certificado de registro comete crime único, pois a falsificação do documento é absorvida pela adulteração.",
+    "gabarito": "E",
+    "explicacao": "São dois crimes: adulteração de sinal identificador (art. 311) e falsificação de documento público (art. 297) (Cebraspe, PRF 2021)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O art. 311 pune a adulteração do sinal identificador de veículo automotor, mas não de veículo elétrico ou de reboque.",
+     "certo": "Alcança veículo elétrico, híbrido, reboque e semirreboque (Lei 14.562/2023).",
+     "fonte": "Questão do app sobre o art. 311"
+    },
+    {
+     "errado": "Adulterar o número do chassi é crime punido com detenção de 1 a 3 anos.",
+     "certo": "Reclusão de 3 a 6 anos e multa.",
+     "fonte": "Questão do app sobre o art. 311"
+    },
+    {
+     "errado": "Quem fornece instrumento destinado à adulteração de chassi só responde se o fizer a título oneroso.",
+     "certo": "Fornecer sem cobrar também é crime (§ 2º, II).",
+     "fonte": "Questão do app sobre o art. 311"
+    },
+    {
+     "errado": "Quem conduz veículo com placa adulterada só responde se souber, com certeza, da adulteração.",
+     "certo": "Basta que devesse saber (§ 2º, III).",
+     "fonte": "Questão do app sobre o art. 311"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: PRF 2021"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com a adulteração de sinal identificador de veículo, na redação da Lei 14.562/2023 (art. 311)."
+    }
+   ],
+   "relacionados": [
+    "falsificacao-de-documentos",
+    "receptacao",
+    "furto"
+   ]
+  },
+  {
+   "slug": "fraudes-em-certames-de-interesse-publico",
+   "titulo": "Fraudes em certames de interesse público",
+   "grupo": "Crimes contra a fé pública",
+   "base": "Art. 311-A do CP",
+   "tax": [
+    "penal.crimes-contra-fe-publica.certames"
+   ],
+   "dispositivos": [
+    "n2848-1940-art-311-a"
+   ],
+   "conceitos": [
+    "fraude em certame de interesse público",
+    "conteúdo sigiloso de concurso",
+    "facilitação do acesso a conteúdo sigiloso",
+    "forma qualificada pelo dano à administração",
+    "aumento para funcionário público"
+   ],
+   "palavras": [
+    "fraudes em certames",
+    "concurso publico",
+    "conteudo sigiloso",
+    "gabarito",
+    "vazamento de prova",
+    "utilizar ou divulgar indevidamente",
+    "beneficiar a si ou a outrem",
+    "comprometer a credibilidade do certame",
+    "avaliacao ou exame publicos",
+    "enem",
+    "vestibular",
+    "ensino superior",
+    "processo seletivo previsto em lei",
+    "um a quatro anos",
+    "permite ou facilita",
+    "pessoas nao autorizadas",
+    "dano a administracao publica",
+    "dois a seis anos",
+    "um terco",
+    "funcionario publico",
+    "lei 12550",
+    "cola eletronica"
+   ],
+   "resumo": "Utilizar ou divulgar indevidamente <strong>conteúdo sigiloso</strong> de concurso público, de avaliação ou exame públicos, de processo seletivo para ingresso no ensino superior ou de exame ou processo seletivo previsto em lei é crime (art. 311-A, incluído pela Lei 12.550/2011): reclusão de 1 a 4 anos e multa. Basta um de dois fins: <strong>beneficiar a si ou a outrem</strong>, ou <strong>comprometer a credibilidade do certame</strong>. Na mesma pena incorre quem permite ou facilita, por qualquer meio, o acesso de pessoas não autorizadas a essas informações. O crime não exige dano: se da ação ou omissão resulta dano à administração pública, a pena passa a ser de reclusão de 2 a 6 anos e multa. Se o fato é cometido por funcionário público, a pena aumenta de <strong>um terço</strong>.",
+   "esquema": {
+    "rotulo": "condutas e penas",
+    "html": "<table><thead><tr><th>Situação</th><th>Dispositivo</th><th>Pena</th></tr></thead><tbody><tr><td><strong>Usar ou divulgar o conteúdo sigiloso para beneficiar alguém ou desacreditar o certame</strong></td><td>Art. 311-A, caput</td><td>Reclusão de 1 a 4 anos e multa</td></tr><tr><td><strong>Permitir ou facilitar o acesso de quem não está autorizado</strong></td><td>Art. 311-A, § 1º</td><td>A do caput</td></tr><tr><td><strong>Da ação ou omissão resulta dano à administração</strong></td><td>Art. 311-A, § 2º</td><td>Reclusão de 2 a 6 anos e multa</td></tr><tr><td><strong>Fato cometido por funcionário público</strong></td><td>Art. 311-A, § 3º</td><td>Aumento de um terço</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Certames protegidos",
+    "linhas": [
+     {
+      "nome": "Concurso público (inciso I)",
+      "o_que_e": "Seleção para cargo ou emprego público."
+     },
+     {
+      "nome": "Avaliação ou exame públicos (inciso II)",
+      "o_que_e": "Exames aplicados pelo poder público, como o Enem."
+     },
+     {
+      "nome": "Ensino superior (inciso III)",
+      "o_que_e": "Processo seletivo para ingresso no ensino superior, como o vestibular."
+     },
+     {
+      "nome": "Previsto em lei (inciso IV)",
+      "o_que_e": "Exame ou processo seletivo previsto em lei."
+     }
+    ],
+    "colunas": [
+     "Certame",
+     "O que é"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n2848-1940",
+     "artigos": [
+      "Art. 311-A."
+     ],
+     "ref": "art. 311-A do CP",
+     "regras": [
+      "<strong>Caput.</strong> Utilizar ou divulgar, indevidamente, com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame, conteúdo sigiloso de concurso público, de avaliação ou exame públicos, de processo seletivo para ingresso no ensino superior ou de exame ou processo seletivo previstos em lei: reclusão de 1 a 4 anos e multa.",
+      "<strong>§§ 1º a 3º.</strong> Mesma pena para quem permite ou facilita, por qualquer meio, o acesso de pessoas não autorizadas a essas informações. Se resulta dano à administração pública: reclusão de 2 a 6 anos e multa. Aumento de um terço se o fato é cometido por funcionário público."
+     ],
+     "literalidades": [
+      {
+       "trecho": "§ 1º Nas mesmas penas incorre quem permite ou facilita, por qualquer meio, o acesso de pessoas não autorizadas às informações mencionadas no caput.",
+       "marcas": [
+        "permite ou facilita"
+       ],
+       "afirmacao": "O funcionário da gráfica que deixa destrancada a sala das provas, para que um candidato fotografe o caderno de questões, incorre nas penas do art. 311-A.",
+       "gabarito": "C",
+       "porque": "Quem permite ou facilita, por qualquer meio, o acesso de pessoa não autorizada ao conteúdo sigiloso responde com as mesmas penas (§ 1º)."
+      },
+      {
+       "trecho": "§ 3º Aumenta-se a pena de 1/3 (um terço) se o fato é cometido por funcionário público.",
+       "marcas": [
+        "1/3 (um terço)"
+       ],
+       "afirmacao": "O servidor da comissão do concurso que vende o gabarito antes da prova tem a pena aumentada de metade.",
+       "gabarito": "E",
+       "porque": "Se o fato é cometido por funcionário público, a pena aumenta de um terço (§ 3º)."
+      },
+      {
+       "trecho": "com o fim de beneficiar a si ou a outrem, ou de comprometer a credibilidade do certame",
+       "marcas": [
+        "comprometer a credibilidade do certame"
+       ],
+       "afirmacao": "O hacker que publica nas redes o conteúdo sigiloso do Enem só para desmoralizar o exame, sem querer beneficiar ninguém, comete o crime do art. 311-A.",
+       "gabarito": "C",
+       "porque": "Basta um dos fins: beneficiar a si ou a outrem, ou comprometer a credibilidade do certame (caput)."
+      },
+      {
+       "trecho": "§ 2º Se da ação ou omissão resulta dano à administração pública:",
+       "marcas": [
+        "dano à administração pública"
+       ],
+       "afirmacao": "O vazamento da prova que obriga o órgão a anular e refazer o concurso, com novo gasto público, tem pena de reclusão de 1 a 4 anos.",
+       "gabarito": "E",
+       "porque": "Se da ação ou omissão resulta dano à administração pública, a pena é de reclusão de 2 a 6 anos e multa (§ 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 311-A.": "1d3e28d6cdb5"
+     },
+     "fonte": "Decreto-Lei 2.848/1940 (Código Penal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+    }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O crime não exige dano: consuma-se com o uso ou a divulgação indevida do conteúdo sigiloso; o dano à administração apenas qualifica (§ 2º).",
+    "Quem só facilita o acesso de terceiro ao conteúdo sigiloso, sem usá-lo nem divulgá-lo, também responde (§ 1º).",
+    "O art. 311-A foi incluído pela Lei 12.550/2011, para cobrir as fraudes em concursos e exames que antes não tinham tipo próprio.",
+    "O aumento do § 3º é de um terço e basta que o fato seja cometido por funcionário público."
+   ],
+   "macetes": [
+    {
+     "sigla": "1 A 4, 2 A 6, MAIS UM TERÇO",
+     "texto": "Caput: 1 a 4 anos. Com dano à administração: 2 a 6. Funcionário público: mais um terço."
+    },
+    {
+     "sigla": "BENEFICIAR OU DESACREDITAR",
+     "texto": "Um dos dois fins basta: favorecer alguém ou comprometer a credibilidade do certame."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Utilizar indevidamente conteúdo sigiloso de concurso público, para beneficiar a si mesmo, só é crime se houver dano à administração pública.",
+    "gabarito": "E",
+    "explicacao": "O caput já é crime, com reclusão de 1 a 4 anos e multa. O dano à administração pública só qualifica a pena para 2 a 6 anos (§ 2º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Quem apenas facilita o acesso de pessoa não autorizada ao conteúdo sigiloso de concurso não comete o crime, que exige a utilização ou a divulgação.",
+     "certo": "Incorre nas mesmas penas (art. 311-A, § 1º).",
+     "fonte": "Questão do app sobre o art. 311-A"
+    },
+    {
+     "errado": "A divulgação indevida de conteúdo sigiloso de avaliação pública exige o fim de beneficiar alguém.",
+     "certo": "Basta o fim de comprometer a credibilidade do certame.",
+     "fonte": "Questão do app sobre o art. 311-A"
+    },
+    {
+     "errado": "Na fraude em certame de interesse público, a pena é aumentada de metade se o fato é cometido por funcionário público.",
+     "certo": "Aumenta de um terço (§ 3º).",
+     "fonte": "Questão do app sobre o art. 311-A"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema novo com as fraudes em certames de interesse público (art. 311-A, incluído pela Lei 12.550/2011)."
+    }
+   ],
+   "relacionados": [
+    "falsificacao-de-documentos",
+    "corrupcao-passiva",
+    "peculato"
    ]
   },
   {
