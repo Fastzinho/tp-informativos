@@ -7,7 +7,7 @@
  * O llms.txt gerado pelo Hostinger Tools saiu com todos os links nesse domínio.
  *
  * 1. No domínio provisório: noindex (cabeçalho e meta) e canonical para tchaupobreza.com.br (0.27.1; o 301 da 0.27.0 virou loop).
- * 2. Rede de segurança do llms.txt: se o arquivo estático tiver o domínio provisório, troca pelo oficial
+ * 2. llms.txt: desde a 0.28.0 escrito por inteiro em includes/llms.php (o estático é sobrescrito)
  *    (depois que o Hostinger Tools regrava o arquivo ao salvar posts, e uma vez por dia).
  */
 
@@ -53,26 +53,18 @@ add_filter( 'wp_robots', function ( $r ) {
 	return $r;
 }, 99 );
 
+/* 0.28.0: o llms.txt passou a ser escrito por inteiro em includes/llms.php (seções por produto). */
 function tpi_conserta_llms() {
-	$arq = ABSPATH . 'llms.txt';
-	if ( ! is_readable( $arq ) || ! is_writable( $arq ) ) {
-		return;
-	}
-	$txt = (string) file_get_contents( $arq );
-	$novo = preg_replace( '#(https?://)?[a-z0-9-]+\.hostingersite\.com#i', 'https://' . TPI_DOMINIO_OFICIAL, $txt );
-	// Linha do "Agent (MCP protocol)" da Hostinger aponta para o domínio provisório: sai.
-	$novo = preg_replace( '#^- \[Agent \(MCP protocol\)\]\([^)]*\)\s*$#mi', '', (string) $novo );
-	$novo = preg_replace( "/## Optional\s*\n\s*\n(\[comment\])/", '$1', (string) $novo );
-	if ( is_string( $novo ) && $novo !== $txt ) {
-		file_put_contents( $arq, $novo );
+	if ( function_exists( 'tpi_llms_grava_estatico' ) ) {
+		tpi_llms_grava_estatico();
 	}
 }
 add_action( 'save_post', function () {
 	add_action( 'shutdown', 'tpi_conserta_llms', 999 );
 }, 999 );
 add_action( 'init', function () {
-	if ( ! get_transient( 'tpi_llms_conferido' ) ) {
-		set_transient( 'tpi_llms_conferido', 1, DAY_IN_SECONDS );
+	if ( ! get_transient( 'tpi_llms_conferido_028' ) ) {
+		set_transient( 'tpi_llms_conferido_028', 1, DAY_IN_SECONDS );
 		add_action( 'shutdown', 'tpi_conserta_llms', 999 );
 	}
 } );
