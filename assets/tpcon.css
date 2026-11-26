@@ -156,6 +156,7 @@
 @media (max-width: 899px) { .tpcon-fixo { display: flex; } body.tpcon-pagina { padding-bottom: 76px; } }
 
 /* Hub /concursos/ */
+.tpcon-intro { margin: 0 0 1rem; max-width: 48rem; line-height: 1.6; color: var(--tpi-tinta); }
 .tpcon-hub { list-style: none; margin: 1.5rem 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
 .tpcon-hub li { margin: 0; }
 .tpcon-hub a { display: grid; gap: .3rem; height: 100%; padding: 1.1rem; background: #fff; border: 1px solid var(--tpi-linha); border-radius: var(--tpi-raio); text-decoration: none; color: var(--tpi-tinta); }

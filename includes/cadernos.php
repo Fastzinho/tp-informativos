@@ -1000,10 +1000,14 @@ add_shortcode( 'tp_cadernos', function () {
 		. '<label class="tpv-hero__titulo" for="tpv-busca">Que tema você quer revisar?</label>'
 		. '<div class="tpv-busca"><input id="tpv-busca" type="search" autocomplete="off" placeholder="Ex.: peculato, lesão corporal, ICMS" data-tpv-busca>'
 		. '<ul class="tpv-busca__lista" data-tpv-resultados hidden></ul></div>'
-		. '<p class="tpv-hero__nota">Cada tema traz resumo em 30 segundos, esquema, lei seca, jurisprudência, macete e uma pegadinha de prova.</p>'
+		. '<p class="tpv-hero__nota">Cada tema mostra onde o assunto já caiu em prova, explica o que decide a questão e reúne os detalhes que caem e as pegadinhas das bancas.</p>'
 		. '<script type="application/json" data-tpv-indice>' . wp_json_encode( $busca, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG ) . '</script>'
 		. '</section>';
-	$h .= '<h2 class="tpv-secao">Disciplinas</h2><ul class="tpv-grade">' . $cards . '</ul>';
+	// 0.28.1: abertura (a auditoria contou 100 palavras na página): como o caderno é feito e como ele se liga ao app.
+	$h .= '<h2 class="tpv-secao">Disciplinas</h2>'
+		. '<p class="tpv-secao__texto">Os cadernos são escritos a partir da lei em vigor, da jurisprudência do STF e do STJ e de questões de provas reais, e servem para todos os cargos que cobram a disciplina. Cada afirmação errada que costuma aparecer em prova vem ao lado da versão correta. Quando a lei muda, o tema é conferido de novo, e a data de atualização aparece no topo de cada caderno.</p>'
+		. '<p class="tpv-secao__texto">Use a busca acima para ir direto a um tema ou abra a disciplina para ler na ordem. No app, cada questão tem o botão "Rever teoria", que abre o tema certo do caderno.</p>'
+		. '<ul class="tpv-grade">' . $cards . '</ul>';
 	$h .= tpv_ponte_guias( array( 'como-estudar-lei-seca', 'como-estudar-jurisprudencia', 'como-estudar-por-questoes' ), 'Como usar os cadernos no seu estudo' );
 	$h .= tpv_cta( 'Transforme o caderno em plano de estudo', 'Escolha o seu concurso e o Tchau Pobreza monta o cronograma pelo edital, com questões e revisões agendadas.', 'Começar pelo meu edital' );
 	return $h . '</div>';
