@@ -429,7 +429,8 @@ function tpcon_guia( $c, $plano, $total ) {
 	if ( ! empty( $c['prova_data'] ) && tpcon_dias_ate( $c['prova_data'] ) > 0 ) {
 		$sem   = (int) floor( tpcon_dias_ate( $c['prova_data'] ) / 7 );
 		$est   = max( $sem - 4, 1 );
-		$tempo = 'Faltam <b>' . $sem . ' semanas</b> até a prova (' . esc_html( tpi_data_br( $c['prova_data'] ) ) . '). Para ver os ' . $total . ' tópicos uma vez e guardar as 4 últimas semanas só para revisão, a conta dá <b>' . (int) ceil( $total / $est ) . ' tópicos por semana</b>.';
+		$tempo = 'Faltam <b>' . $sem . ' semanas</b> até a prova (' . esc_html( tpi_data_br( $c['prova_data'] ) ) . '). Para ver os ' . $total . ' tópicos uma vez e guardar as 4 últimas semanas só para revisão, a conta dá <b>' . (int) ceil( $total / $est ) . ' tópicos por semana</b>.'
+			. ( shortcode_exists( 'tp_cronograma' ) && ! empty( $c['slug'] ) ? ' <a href="' . esc_url( home_url( '/como-estudar/cronograma-de-estudos-para-concurso/?edital=' . rawurlencode( $c['slug'] ) . '#gerador' ) ) . '">Gerar o cronograma semana a semana deste edital</a>.' : '' );
 	} elseif ( ! empty( $c['edital_anterior'] ) ) {
 		$tempo = 'Ainda não há data de prova. Estudar pelo edital de ' . esc_html( $c['edital_anterior'] ) . ' adianta o trabalho: quando o novo sair, você compara com esta lista e ajusta só o que mudou.';
 	} else {
