@@ -6481,6 +6481,9 @@
     "n87-1996-art-13",
     "n87-1996-art-19",
     "n87-1996-art-20",
+    "n87-1996-art-21",
+    "n87-1996-art-23",
+    "n87-1996-art-33",
     "n24-1975-art-1",
     "n24-1975-art-2",
     "n24-1975-art-4",
@@ -6825,13 +6828,20 @@
       "Art. 12.",
       "Art. 13.",
       "Art. 19.",
-      "Art. 20."
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 23.",
+      "Art. 33."
      ],
-     "ref": "arts. 2º, 3º, 4º, 11, 12, 13, 19 e 20 da LC 87/1996",
+     "ref": "arts. 2º, 3º, 4º, 11, 12, 13, 19, 20, 21, 23 e 33 da LC 87/1996",
      "regras": [
       "<strong>Arts. 2º a 4º.</strong> Incidência, não incidência e contribuinte.",
       "<strong>Arts. 11 a 13.</strong> Local da operação, momento do fato gerador e base de cálculo.",
-      "<strong>Arts. 19 e 20.</strong> Não cumulatividade e direito ao crédito."
+      "<strong>Arts. 19 e 20.</strong> Não cumulatividade e direito ao crédito.",
+      "<strong>Art. 21, caput.</strong> O sujeito passivo estorna o imposto creditado sempre que o serviço tomado ou a mercadoria entrada for objeto de saída ou prestação não tributada ou isenta, circunstância imprevisível na entrada ou na utilização do serviço (I); for integrada ou consumida em industrialização cuja saída resultante não seja tributada ou seja isenta (II); vier a ser usada em fim alheio à atividade do estabelecimento (III); ou vier a perecer, deteriorar-se ou extraviar-se (IV).",
+      "<strong>Art. 21, §§ 1º a 8º.</strong> Não se estornam os créditos de mercadorias e serviços destinados ao exterior nem os das operações com papel destinado à impressão de livros, jornais e periódicos (§ 2º, redação da LC 120/2005). O não creditamento ou o estorno do art. 20, § 3º, e do caput não impedem usar os mesmos créditos em operações posteriores tributadas com a mesma mercadoria (§ 3º). O § 1º, o § 4º, o § 5º, o § 6º, o § 7º e o § 8º foram revogados pela LC 102/2000.",
+      "<strong>Art. 23.</strong> O crédito do estabelecimento que recebeu as mercadorias ou os serviços, para compensar com o débito, depende da idoneidade da documentação e, se for o caso, da escrituração nos prazos e condições da legislação. Pelo parágrafo único, o direito de usar o crédito se extingue após cinco anos contados da data de emissão do documento.",
+      "<strong>Art. 33.</strong> Na aplicação do art. 20: só dão crédito as mercadorias de uso ou consumo entradas a partir de 1º de janeiro de 2033 (I, redação da LC 171/2019); a entrada de energia elétrica só dá crédito quando for objeto de saída de energia (II, a), quando consumida na industrialização (b), quando seu consumo resultar em saída ou prestação para o exterior, na proporção destas sobre o total (c), e, a partir de 1º de janeiro de 2033, nas demais hipóteses (d); só dão crédito as mercadorias do ativo permanente entradas desde a vigência da lei (III); e o serviço de comunicação só dá crédito ao estabelecimento que presta serviço da mesma natureza (IV, a), quando sua utilização resultar em saída ou prestação para o exterior, na mesma proporção (b), e, a partir de 1º de janeiro de 2033, nas demais hipóteses (c)."
      ],
      "literalidades": [
       {
@@ -6869,6 +6879,60 @@
        "afirmacao": "A mercadoria que entrou com isenção dá ao comprador crédito de ICMS para abater na saída.",
        "gabarito": "E",
        "porque": "Entradas isentas ou não tributadas não dão crédito (art. 20, § 1º)."
+      },
+      {
+       "trecho": "vier a perecer, deteriorar-se ou extraviar-se",
+       "marcas": [
+        "extraviar-se"
+       ],
+       "afirmacao": "O crédito do ICMS deve ser estornado quando a mercadoria vier a perecer ou deteriorar-se, mas não quando vier a extraviar-se.",
+       "gabarito": "E",
+       "porque": "O extravio também obriga ao estorno (art. 21, IV)."
+      },
+      {
+       "trecho": "operações com o papel destinado à impressão de livros, jornais e periódicos",
+       "marcas": [
+        "papel destinado à impressão"
+       ],
+       "afirmacao": "Os créditos relativos ao papel destinado à impressão de livros, jornais e periódicos devem ser estornados quando ele sai sem tributação.",
+       "gabarito": "E",
+       "porque": "O § 2º do art. 21 manda não estornar esses créditos, como os das operações para o exterior."
+      },
+      {
+       "trecho": "não impedem a utilização dos mesmos créditos em operações posteriores, sujeitas ao imposto, com a mesma mercadoria",
+       "marcas": [
+        "não impedem"
+       ],
+       "afirmacao": "O estorno do crédito não impede que os mesmos créditos sejam usados em operações posteriores, sujeitas ao imposto, com a mesma mercadoria.",
+       "gabarito": "C",
+       "porque": "É o art. 21, § 3º."
+      },
+      {
+       "trecho": "está condicionado à idoneidade da documentação",
+       "marcas": [
+        "idoneidade da documentação"
+       ],
+       "afirmacao": "O direito de crédito do ICMS está condicionado à idoneidade da documentação e, se for o caso, à escrituração nos prazos da legislação.",
+       "gabarito": "C",
+       "porque": "É o art. 23, caput."
+      },
+      {
+       "trecho": "quando consumida no processo de industrialização",
+       "marcas": [
+        "consumida no processo de industrialização"
+       ],
+       "afirmacao": "A energia elétrica consumida no processo de industrialização só dará crédito do ICMS a partir de 1º de janeiro de 2033.",
+       "gabarito": "E",
+       "porque": "Já dá crédito (art. 33, II, b); 2033 vale para as demais hipóteses (d)."
+      },
+      {
+       "trecho": "ao qual tenham sido prestados na execução de serviços da mesma natureza",
+       "marcas": [
+        "mesma natureza"
+       ],
+       "afirmacao": "Dá direito a crédito o serviço de comunicação tomado pelo estabelecimento que o utiliza na execução de serviços da mesma natureza.",
+       "gabarito": "C",
+       "porque": "É o art. 33, IV, a."
       }
      ],
      "conferido": {
@@ -6879,7 +6943,10 @@
       "Art. 12.": "7509f1fd03dd",
       "Art. 13.": "a4ed8f4a7129",
       "Art. 19.": "ccd63afa440b",
-      "Art. 20.": "8a95b9e8711e"
+      "Art. 20.": "8a95b9e8711e",
+      "Art. 21.": "74e074eb33fa",
+      "Art. 23.": "e5114437047a",
+      "Art. 33.": "ebbb613a04ee"
      },
      "fonte": "Lei Complementar 87/1996 (Lei Kandir), texto atualizado da Câmara dos Deputados",
      "url": "https://www2.camara.leg.br/legin/fed/leicom/1996/leicomplementar-87-13-setembro-1996-370965-normaatualizada-pl.html"
