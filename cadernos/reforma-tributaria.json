@@ -5,7 +5,7 @@
  "ordem": 20,
  "descricao": "A reforma tributária do consumo organizada por tema: IBS, CBS, Imposto Seletivo, split payment, cashback e transição, com o texto da EC 132/2023 e da LC 214/2025, esquemas e pegadinhas de banca.",
  "ramo": "direito-tributario",
- "revisado_em": "2026-11-18",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "Texto da CF e da LC 214/2025 conferido",
  "temas": [
   {
@@ -40,30 +40,256 @@
     "tributacao do consumo",
     "destino"
    ],
-   "resumo": "A EC 132/2023 trocou cinco tributos sobre o consumo por um <strong>IVA dual</strong>: a <strong>CBS</strong>, federal (art. 195, V, da CF), substitui PIS e Cofins; o <strong>IBS</strong>, de competência compartilhada entre Estados, DF e Municípios (art. 156-A), substitui ICMS e ISS. Os dois seguem as mesmas regras de fato gerador, base, imunidades, regimes e créditos (art. 149-B). Ao lado deles veio o <strong>Imposto Seletivo</strong>, federal e extrafiscal, sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII). A LC 214/2025, já alterada pela LC 227/2026, instituiu os três e diz que IBS e CBS são informados pelo princípio da <strong>neutralidade</strong> (art. 2º).",
+   "resumo": "A EC 132/2023 reformou a tributação do consumo e criou um <strong>IVA dual</strong>. IVA é o imposto sobre o valor agregado: ele é cobrado em cada etapa da cadeia, mas cada comprador abate, como crédito, o que já foi pago nas etapas anteriores, de modo que o peso total recai só sobre o valor acrescentado e, no fim, sobre o consumidor. É \"dual\" porque são dois tributos gêmeos: a <strong>CBS</strong>, contribuição da União (art. 195, V, da CF), e o <strong>IBS</strong>, imposto de <strong>competência compartilhada</strong> entre Estados, DF e Municípios (art. 156-A). Competência compartilhada quer dizer uma lei complementar nacional para todos, mas cada ente fixa a própria alíquota e fica com a sua parte da arrecadação. Os dois seguem as mesmas regras de fato gerador, base, imunidades, regimes e créditos (art. 149-B). Quem substitui quem está na tabela. Ao lado deles veio o <strong>Imposto Seletivo</strong>, federal e <strong>extrafiscal</strong> (serve para desestimular o consumo, e não para arrecadar), sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII). A LC 214/2025, já alterada pela LC 227/2026, instituiu o IBS e a CBS (art. 1º) e diz que os dois são informados pelo princípio da <strong>neutralidade</strong>: o tributo não deve mudar as decisões de consumo nem a forma de organizar a empresa (art. 2º). Na prática, isso se traduz em base ampla, alíquota única por ente, crédito amplo e cobrança no <strong>destino</strong>, isto é, no local do consumo, e não no da produção.",
    "esquema": {
     "rotulo": "quem substitui quem",
     "html": "<table><thead><tr><th>Novo tributo</th><th>Competência</th><th>Substitui</th><th>Base na CF</th></tr></thead><tbody><tr><td><strong>CBS</strong></td><td>União</td><td>PIS e Cofins</td><td>Art. 195, V</td></tr><tr><td><strong>IBS</strong></td><td>Compartilhada: Estados, DF e Municípios</td><td>ICMS e ISS</td><td>Art. 156-A</td></tr><tr><td><strong>Imposto Seletivo</strong></td><td>União</td><td>Não substitui tributo. O IPI continua existindo</td><td>Art. 153, VIII</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "IVA dual",
+      "o_que_e": "Dois tributos sobre o valor agregado com as mesmas regras: a CBS, federal, e o IBS, subnacional.",
+      "atencao": "São tributos distintos: IBS não paga CBS, e o crédito de um não se usa no outro.",
+      "grupo": "Os tributos novos"
+     },
+     {
+      "nome": "Competência compartilhada",
+      "o_que_e": "O IBS é um imposto só, instituído por lei complementar e com legislação única no país; cada Estado, Município e o DF fixa apenas a própria alíquota.",
+      "atencao": "Não há lei instituidora do IBS por Estado ou por Município: essa lei é a LC 214/2025.",
+      "grupo": "Os tributos novos"
+     },
+     {
+      "nome": "Imposto Seletivo",
+      "o_que_e": "Imposto federal, extrafiscal, sobre produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente.",
+      "atencao": "Não substitui o IPI, que continua existindo.",
+      "grupo": "Os tributos novos"
+     },
+     {
+      "nome": "Neutralidade",
+      "o_que_e": "O tributo deve evitar distorcer as decisões de consumo e de organização da atividade econômica, ressalvadas as exceções da CF e da LC.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Princípio do destino",
+      "o_que_e": "O IBS é cobrado pela soma das alíquotas do Estado e do Município de destino da operação, e a arrecadação fica com eles.",
+      "atencao": "Não é a alíquota do Estado de origem, como era a lógica do ICMS interestadual.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Cálculo por fora",
+      "o_que_e": "O IBS não integra a própria base nem a da CBS, do PIS e do Imposto Seletivo.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Não cumulatividade ampla",
+      "o_que_e": "Credita-se o imposto cobrado em todas as aquisições, salvo as de uso ou consumo pessoal especificadas em lei complementar e as hipóteses da CF.",
+      "atencao": "Não se limita aos insumos que se integram fisicamente ao produto.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Alíquota de referência",
+      "o_que_e": "Fixada por resolução do Senado Federal para cada esfera, vale quando o ente não fixa a sua; o ente pode optar por se vincular a ela.",
+      "atencao": "Não é fixada por lei complementar, e o ente não é obrigado a adotá-la.",
+      "grupo": "Alíquotas"
+     },
+     {
+      "nome": "Devolução a pessoas físicas",
+      "o_que_e": "A lei complementar define hipóteses, limites e beneficiários da devolução do IBS a pessoas físicas, para reduzir desigualdades de renda (cashback).",
+      "atencao": "É obrigatória na energia elétrica e no gás de cozinha ao consumidor de baixa renda; não beneficia pessoa jurídica.",
+      "grupo": "Alíquotas"
+     },
+     {
+      "nome": "Regime específico",
+      "o_que_e": "Tratamento próprio previsto na CF, por lei complementar, para setores como combustíveis, serviços financeiros, imóveis, planos de saúde, cooperativas, hotelaria e transporte coletivo.",
+      "atencao": "A lista é constitucional: aviação comercial de longa distância e serviços de educação não estão no § 6º.",
+      "grupo": "Regimes"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 149-B. Os tributos previstos nos arts. 156-A e 195, V, observarão as mesmas regras em relação a:\n\nI - fatos geradores, bases de cálculo, hipóteses de não incidência e sujeitos passivos;\n\nII - imunidades;\n\nIII - regimes específicos, diferenciados ou favorecidos de tributação;\n\nIV - regras de não cumulatividade e de creditamento.\n\nParágrafo único. Os tributos de que trata o caput observarão as imunidades previstas no art. 150, VI, não se aplicando a ambos os tributos o disposto no art. 195, § 7º. (Artigo acrescido pela Emenda Constitucional nº 132, de 2023)",
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 149-B.",
+      "Art. 156-A."
+     ],
+     "ref": "arts. 149-B e 156-A da CF",
+     "regras": [
+      "<strong>Art. 149-B.</strong> IBS e CBS seguem as mesmas regras de fato gerador, base de cálculo, não incidência, sujeitos passivos, imunidades, regimes específicos, diferenciados ou favorecidos e não cumulatividade. O parágrafo único estende aos dois as imunidades do art. 150, VI, e afasta, para ambos, o art. 195, § 7º.",
+      "<strong>Art. 156-A, caput e § 1º, I a III.</strong> Lei complementar institui o IBS, de competência compartilhada entre Estados, DF e Municípios, informado pela neutralidade. Incide sobre operações com bens materiais ou imateriais, inclusive direitos, ou com serviços, e sobre a importação feita por pessoa física ou jurídica, ainda que não seja contribuinte habitual e qualquer que seja a finalidade. Não incide sobre exportações, mantidos e aproveitados os créditos do exportador.",
+      "<strong>§ 1º, IV a VII.</strong> Legislação única e uniforme no país, salvo a alíquota: cada ente fixa a sua por lei específica, a mesma para todas as operações, ressalvadas as hipóteses da CF, e o imposto é cobrado pela soma das alíquotas do Estado e do Município de destino.",
+      "<strong>§ 1º, VIII e IX.</strong> Não cumulatividade: compensa-se o imposto cobrado em todas as aquisições, excetuadas só as de uso ou consumo pessoal especificadas em lei complementar e as hipóteses da CF. O IBS não integra a própria base nem a do Imposto Seletivo, da CBS, do PIS e das contribuições do art. 195, I, b, e IV.",
+      "<strong>§ 1º, X a XIII.</strong> Vedados incentivos, benefícios e regimes favorecidos fora das hipóteses da CF. Não incide na radiodifusão sonora e de sons e imagens de recepção livre, sem cobrança do público. Resolução do Senado fixa a alíquota de referência de cada esfera, aplicada se o ente não fixar outra. Sempre que possível, o valor do imposto vem informado no documento fiscal.",
+      "<strong>§§ 2º e 3º.</strong> O DF exerce as competências estadual e municipal na fixação das alíquotas. A lei complementar pode definir como sujeito passivo quem concorrer para a realização, a execução ou o pagamento da operação, ainda que residente ou domiciliado no exterior.",
+      "<strong>§ 4º.</strong> Para distribuir a arrecadação, o Comitê Gestor retém o equivalente ao saldo de créditos não compensados nem ressarcidos no período e aos valores da devolução a pessoas físicas, e distribui o restante ao ente de destino das operações que não geraram crédito.",
+      "<strong>§ 5º.</strong> Cabem à lei complementar: as regras de distribuição (cálculo, imposto não recolhido no prazo e regimes favorecidos, específicos e diferenciados); o regime de compensação, que pode condicionar o crédito ao efetivo recolhimento quando o adquirente puder recolher ou o recolhimento ocorrer no momento da liquidação financeira, que é o split payment; a forma e o prazo do ressarcimento de créditos acumulados; os critérios do destino; a desoneração dos bens de capital, por crédito integral e imediato, diferimento ou redução de 100% das alíquotas; o diferimento e a desoneração nos regimes aduaneiros especiais e nas zonas de processamento de exportação; o processo administrativo fiscal; a devolução a pessoas físicas, com limites e beneficiários; e os critérios das obrigações acessórias, para simplificá-las.",
+      "<strong>§ 6º, I.</strong> Combustíveis e lubrificantes: incidência única, qualquer que seja a finalidade, com alíquotas uniformes no país, específicas por unidade de medida e diferenciadas por produto; sem crédito na aquisição para distribuição, comercialização ou revenda; com crédito na aquisição pelo sujeito passivo para uso próprio, como a transportadora que compra diesel para os seus caminhões.",
+      "<strong>§ 6º, II a VI.</strong> Outros regimes específicos por lei complementar: serviços financeiros, operações com bens imóveis, planos de assistência à saúde e concursos de prognósticos (com alterações de alíquota, crédito e base, e até incidência sobre receita ou faturamento com alíquota uniforme); sociedades cooperativas, em regime optativo, com não incidência entre a cooperativa e os associados e regra própria de crédito; hotelaria, parques de diversão e temáticos, agências de viagens e turismo, bares e restaurantes, Sociedade Anônima do Futebol e aviação regional; operações alcançadas por tratado ou convenção internacional, como missões diplomáticas e repartições consulares; e transporte coletivo de passageiros rodoviário intermunicipal e interestadual, ferroviário e hidroviário.",
+      "<strong>§§ 7º e 8º.</strong> Isenção e imunidade numa operação não geram crédito, nem presumido, para o adquirente nas operações seguintes e anulam o crédito das anteriores, salvo, na imunidade, quando a lei complementar determinar o contrário. A lei complementar pode conceituar operação com serviços de forma residual: tudo o que não for operação com bens materiais ou imateriais.",
+      "<strong>§§ 9º a 11.</strong> Lei federal que reduza ou eleve a arrecadação do IBS é compensada pelo Senado nas alíquotas de referência e só entra em vigor junto com esse ajuste. Estados, DF e Municípios podem vincular sua alíquota à de referência. Projeto de lei complementar que mexa na arrecadação só é apreciado com a estimativa de impacto nas alíquotas de referência.",
+      "<strong>§§ 12 e 13.</strong> A devolução a pessoas físicas não entra nas bases de cálculo das vinculações constitucionais (como saúde e educação) nem na repartição do art. 158, IV, b. Ela é obrigatória no fornecimento de energia elétrica e de gás liquefeito de petróleo ao consumidor de baixa renda, e a lei complementar pode mandar calculá-la e concedê-la na própria cobrança."
+     ],
+     "literalidades": [
+      {
+       "trecho": "não se aplicando a ambos os tributos o disposto no art. 195, § 7º",
+       "marcas": [
+        "não se aplicando"
+       ],
+       "afirmacao": "Uma entidade beneficente de assistência social não pode invocar, contra a CBS, a imunidade às contribuições para a seguridade do art. 195, § 7º; sua proteção, no IBS e na CBS, vem do art. 150, VI, c.",
+       "gabarito": "C",
+       "porque": "O parágrafo único do art. 149-B afasta o art. 195, § 7º, para os dois tributos e estende a eles as imunidades do art. 150, VI. Errado seria dizer que os dois observam a imunidade do art. 195, § 7º."
+      },
+      {
+       "trecho": "cada ente federativo fixará sua alíquota própria por lei específica",
+       "marcas": [
+        "lei específica"
+       ],
+       "afirmacao": "Um Município que queira cobrar IBS acima da alíquota de referência precisa aprovar lei municipal específica fixando sua alíquota.",
+       "gabarito": "C",
+       "porque": "Cada ente fixa a própria alíquota por lei específica (art. 156-A, § 1º, V). O Comitê Gestor não fixa alíquotas."
+      },
+      {
+       "trecho": "será cobrado pelo somatório das alíquotas do Estado e do Município de destino da operação",
+       "marcas": [
+        "de destino"
+       ],
+       "afirmacao": "O IBS será cobrado pelo somatório da alíquota do Estado de origem com a alíquota do Município de destino da operação.",
+       "gabarito": "E",
+       "porque": "As duas alíquotas são as do destino: a do Estado e a do Município de destino (art. 156-A, § 1º, VII)."
+      },
+      {
+       "trecho": "c) redução em 100% (cem por cento) das alíquotas do imposto",
+       "marcas": [
+        "100% (cem por cento)"
+       ],
+       "afirmacao": "A lei complementar pode desonerar a compra de bens de capital por crédito integral e imediato, por diferimento ou por redução de 100% das alíquotas do IBS.",
+       "gabarito": "C",
+       "porque": "São as três formas do art. 156-A, § 5º, V. A redução total é admitida, e não só uma redução parcial."
+      },
+      {
+       "trecho": "será obrigatória nas operações de fornecimento de energia elétrica e de gás liquefeito de petróleo ao consumidor de baixa renda",
+       "marcas": [
+        "obrigatória"
+       ],
+       "afirmacao": "A devolução do IBS ao consumidor de baixa renda no fornecimento de energia elétrica é facultativa e depende de lei de cada Estado.",
+       "gabarito": "E",
+       "porque": "Nesses fornecimentos a devolução é obrigatória por força da própria CF (art. 156-A, § 13)."
+      },
+      {
+       "trecho": "b) será vedada a apropriação de créditos em relação às aquisições dos produtos de que trata este inciso destinados a distribuição, comercialização ou revenda",
+       "marcas": [
+        "revenda"
+       ],
+       "afirmacao": "O posto de gasolina pode se creditar do IBS pago na compra do combustível que vai revender.",
+       "gabarito": "E",
+       "porque": "No regime dos combustíveis é vedado o crédito na aquisição para distribuição, comercialização ou revenda (art. 156-A, § 6º, I, b). Quem compra para uso próprio, como a transportadora, credita."
+      }
+     ],
+     "conferido": {
+      "Art. 149-B.": "8e5b1f65c522",
+      "Art. 156-A.": "c63871863a3e"
+     },
      "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-     "norma": "nCF-1988"
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 1º Ficam instituídos:\n\nI - o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, Municípios e Distrito Federal, de que trata o art. 156-A da Constituição Federal; e\n\nII - a Contribuição Social sobre Bens e Serviços (CBS), de competência da União, de que trata o inciso V do caput do art. 195 da Constituição Federal.",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 153."
+     ],
+     "ref": "art. 153 da CF",
+     "regras": [
+      "<strong>Caput, I a VII.</strong> Impostos da União: importação, exportação, renda e proventos, produtos industrializados (IPI), operações de crédito, câmbio e seguro ou relativas a títulos e valores mobiliários (IOF), propriedade territorial rural (ITR) e grandes fortunas, este nos termos de lei complementar. São os impostos federais clássicos, que a reforma não extinguiu.",
+      "<strong>Caput, VIII.</strong> Imposto sobre produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente, nos termos de lei complementar: o Imposto Seletivo, detalhado em tema próprio.",
+      "<strong>§ 1º.</strong> O Poder Executivo pode alterar as alíquotas do imposto de importação, do de exportação, do IPI e do IOF, atendidas as condições e os limites da lei. Basta decreto do Presidente da República, dentro desses limites.",
+      "<strong>§§ 2º e 3º.</strong> O imposto de renda segue a generalidade, a universalidade e a progressividade (o inciso II do § 2º foi revogado pela EC 20/1998). O IPI é seletivo pela essencialidade, não cumulativo, não incide sobre produtos destinados ao exterior e tem impacto reduzido na aquisição de bens de capital.",
+      "<strong>§ 4º.</strong> O ITR é progressivo, para desestimular a propriedade improdutiva; não incide sobre pequenas glebas rurais, definidas em lei, exploradas pelo proprietário que não tenha outro imóvel; e pode ser fiscalizado e cobrado pelos Municípios que optarem, sem redução do imposto nem renúncia fiscal.",
+      "<strong>§ 5º.</strong> O ouro definido em lei como ativo financeiro ou instrumento cambial sofre só o IOF, devido na operação de origem, com alíquota mínima de 1%; a arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem.",
+      "<strong>§ 6º.</strong> O Imposto Seletivo não incide sobre exportações nem sobre energia elétrica e telecomunicações; incide uma única vez; não integra a própria base, mas integra a do ICMS, do ISS, do IBS e da CBS; pode ter o mesmo fato gerador e a mesma base de outros tributos; tem alíquotas fixadas em lei ordinária, específicas ou ad valorem; e, na extração, é cobrado independentemente da destinação, com alíquota máxima de 1% do valor de mercado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a alíquota mínima será de um por cento",
+       "marcas": [
+        "mínima",
+        "um por cento"
+       ],
+       "afirmacao": "O IOF sobre o ouro definido em lei como ativo financeiro terá alíquota mínima de dois por cento.",
+       "gabarito": "E",
+       "porque": "A alíquota mínima é de um por cento (art. 153, § 5º)."
+      },
+      {
+       "trecho": "II - setenta por cento para o Município de origem.",
+       "marcas": [
+        "setenta por cento",
+        "Município"
+       ],
+       "afirmacao": "O ouro ativo financeiro extraído num Município de Minas Gerais paga IOF, e 70% dessa arrecadação vai para o Município de origem.",
+       "gabarito": "C",
+       "porque": "A arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem (art. 153, § 5º, I e II). Inverter os percentuais é o erro clássico."
+      },
+      {
+       "trecho": "terá suas alíquotas fixadas em lei ordinária",
+       "marcas": [
+        "lei ordinária"
+       ],
+       "afirmacao": "O Imposto Seletivo é previsto nos termos de lei complementar, mas suas alíquotas podem ser fixadas por lei ordinária.",
+       "gabarito": "C",
+       "porque": "O inciso VIII remete à lei complementar, e o § 6º, VI, manda fixar as alíquotas em lei ordinária, específicas ou ad valorem."
+      },
+      {
+       "trecho": "a alíquota máxima corresponderá a 1% (um por cento) do valor de mercado do produto",
+       "marcas": [
+        "máxima"
+       ],
+       "afirmacao": "Na extração, o Imposto Seletivo é cobrado independentemente da destinação, com alíquota mínima de 1% do valor de mercado do produto.",
+       "gabarito": "E",
+       "porque": "O 1% é teto: alíquota máxima (art. 153, § 6º, VII)."
+      }
+     ],
+     "conferido": {
+      "Art. 153.": "a03407568d54"
+     },
+     "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 2º O IBS e a CBS são informados pelo princípio da neutralidade, segundo o qual esses tributos devem evitar distorcer as decisões de consumo e de organização da atividade econômica, observadas as exceções previstas na Constituição Federal e nesta Lei Complementar.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º."
+     ],
+     "ref": "arts. 1º e 2º da LC 214/2025",
+     "regras": [
+      "<strong>Art. 1º.</strong> Ficam instituídos o IBS, de competência compartilhada entre Estados, Municípios e DF (art. 156-A da CF), e a CBS, de competência da União (art. 195, V, da CF).",
+      "<strong>Art. 2º.</strong> IBS e CBS são informados pela neutralidade: devem evitar distorcer as decisões de consumo e de organização da atividade econômica, observadas as exceções da CF e da própria lei complementar."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a Contribuição Social sobre Bens e Serviços (CBS), de competência da União",
+       "marcas": [
+        "de competência da União"
+       ],
+       "afirmacao": "A CBS, que toma o lugar do PIS e da Cofins, é de competência da União, enquanto o IBS é de competência compartilhada entre Estados, Municípios e DF.",
+       "gabarito": "C",
+       "porque": "É o art. 1º, I e II, da LC 214/2025. Errado seria dizer que a CBS é compartilhada."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "ff1e2a30c9ce",
+      "Art. 2º.": "a2dec801ec85"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Nas compras da administração pública direta, das autarquias e das fundações públicas, inclusive importações, a arrecadação do IBS e da CBS vai integralmente ao ente contratante, por redução a zero das alíquotas dos demais entes e elevação equivalente da alíquota dele (art. 149-C da CF). Compra de fundação pública federal: tudo para a CBS. Compra de autarquia estadual: tudo para a parcela estadual do IBS. Empresas públicas e sociedades de economia mista ficam fora dessa regra.",
+    "O Fundo Nacional de Desenvolvimento Regional, criado pela EC 132/2023 (art. 159-A da CF), recebe recursos da União entregues aos Estados e ao DF, e não aos Municípios, com coeficientes de 30% pela população e 70% pelo coeficiente do FPE, calculados pelo TCU. É vedada a retenção desses recursos.",
+    "O IBS e a CBS observam as imunidades do art. 150, VI, ainda que a CBS seja contribuição: a instituição de assistência social sem fins lucrativos segue protegida pelo art. 150, VI, c, atendidos os requisitos da lei, nos dois tributos."
    ],
    "macetes": [
     {
@@ -80,8 +306,63 @@
     "gabarito": "E",
     "explicacao": "O IPI não foi extinto. O Imposto Seletivo é um tributo novo, extrafiscal, sobre bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII, da CF). PIS e Cofins dão lugar à CBS, e ICMS e ISS ao IBS."
    },
-   "aprofundamento": "<p><strong>Uma lei, muitas alíquotas.</strong> O IBS é instituído por lei complementar e tem legislação única e uniforme em todo o território nacional, ressalvada a alíquota (art. 156-A, caput e § 1º, IV, da CF). Não há lei instituidora do IBS por Estado ou por Município; essa lei é a LC 214/2025.</p><p><strong>Alíquota própria e uniforme.</strong> Cada ente fixa sua alíquota por lei específica, e ela é a mesma para todas as operações com bens ou serviços, ressalvadas as hipóteses da própria Constituição (art. 156-A, § 1º, V e VI). O IBS não é seletivo: o ente não pode graduar a alíquota pela essencialidade do bem, como fazia com o ICMS, nem conceder incentivos e benefícios financeiros ou fiscais ou regimes favorecidos fora das hipóteses constitucionais (§ 1º, X). O DF exerce as competências estadual e municipal na fixação de suas alíquotas (§ 2º).</p><p><strong>Alíquota de referência.</strong> Resolução do Senado Federal fixa alíquota de referência para cada esfera federativa, aplicada só se o próprio ente não tiver estabelecido outra (art. 156-A, § 1º, XII). É supletiva, não se sobrepõe à do ente.</p><p><strong>Imunidades.</strong> O parágrafo único do art. 149-B estende ao IBS e à CBS as imunidades do art. 150, VI, e afasta, para os dois, o art. 195, § 7º (imunidade das entidades beneficentes de assistência social às contribuições para a seguridade). As instituições de assistência social sem fins lucrativos seguem protegidas pelo art. 150, VI, c, atendidos os requisitos da lei, que agora alcança os dois tributos.</p><p><strong>Compras públicas.</strong> Nas operações contratadas pela administração pública direta, por autarquias e por fundações públicas, inclusive importações, o produto da arrecadação do IBS e da CBS vai integralmente para o ente contratante, por redução a zero das alíquotas devidas aos demais entes e elevação equivalente da alíquota do ente contratante (art. 149-C). Compra de fundação pública federal: a carga vai toda para a CBS. Compra de secretaria estadual: toda para a parcela estadual do IBS. Fora das compras públicas vale a regra geral: IBS pelo somatório das alíquotas do Estado e do Município de destino (art. 156-A, § 1º, VII) e CBS para a União.</p><p><strong>Fundo Nacional de Desenvolvimento Regional.</strong> A EC 132/2023 criou o fundo (art. 159-A), com recursos da União entregues aos Estados e ao DF, e não aos Municípios, para infraestrutura, fomento a atividades produtivas e ciência, tecnologia e inovação. Os coeficientes têm peso de 30% para a população e de 70% para o coeficiente de participação no FPE, e o TCU os regulamenta e calcula (§§ 4º e 5º). É vedada a retenção dos recursos (§ 1º).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O IBS e a CBS podem ter fatos geradores diferentes, desde que tenham as mesmas alíquotas.",
+     "certo": "Fato gerador, base, imunidades, regimes e créditos são iguais; o que muda é a alíquota e quem arrecada (art. 149-B).",
+     "fonte": "Questão do app sobre o art. 149-B da CF"
+    },
+    {
+     "errado": "Por ser contribuição, a CBS não observa as imunidades do art. 150, VI.",
+     "certo": "Observa: o art. 149-B, parágrafo único, estende essas imunidades ao IBS e à CBS.",
+     "fonte": "Questão do app sobre o art. 149-B da CF"
+    },
+    {
+     "errado": "Cada Estado pode editar sua própria legislação do IBS sobre fato gerador e base de cálculo, como fazia com o ICMS.",
+     "certo": "A legislação é única e uniforme no país; o ente fixa só a alíquota (art. 156-A, § 1º, IV e V).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "O Estado pode fixar, por lei própria, alíquota de IBS menor para alimentos e maior para eletrônicos.",
+     "certo": "A alíquota do ente é a mesma para todas as operações, ressalvadas as hipóteses da CF (art. 156-A, § 1º, VI).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "Benefícios fiscais de IBS podem ser concedidos por convênio entre Estados, como no ICMS.",
+     "certo": "São vedados incentivos e benefícios fora das hipóteses da CF (art. 156-A, § 1º, X).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "O IBS integra a base de cálculo da CBS, como o ICMS integrava a do PIS e da Cofins.",
+     "certo": "Não integra: o IBS é calculado por fora (art. 156-A, § 1º, IX).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "Na exportação, o IBS não incide, mas o exportador deve estornar os créditos das operações anteriores.",
+     "certo": "O exportador mantém e aproveita os créditos (art. 156-A, § 1º, III).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "O regime específico do § 6º, II, do art. 156-A alcança serviços financeiros e de educação.",
+     "certo": "Alcança serviços financeiros, operações com bens imóveis, planos de assistência à saúde e concursos de prognósticos.",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "Lei federal que reduz a arrecadação do IBS entra em vigor na publicação, e o ajuste das alíquotas de referência vem depois.",
+     "certo": "Ela só entra em vigor com o início dos efeitos do ajuste das alíquotas de referência (art. 156-A, § 9º, II).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "O valor do IBS fica embutido no preço e não deve ser destacado no documento fiscal.",
+     "certo": "Sempre que possível, o valor vem informado de forma específica no documento fiscal (art. 156-A, § 1º, XIII).",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
+    },
+    {
+     "errado": "Com a EC 132/2023, cada Estado e cada Município passou a editar sua própria lei instituidora do IBS.",
+     "certo": "O IBS é instituído por lei complementar única, a LC 214/2025; o ente só fixa a alíquota.",
+     "fonte": "Questão do app sobre a reforma tributária"
+    }
+   ],
    "relacionados": [
     "incidencia-do-ibs-e-da-cbs",
     "transicao-da-reforma-tributaria",
@@ -126,29 +407,235 @@
     "execucao continuada",
     "antecipacao"
    ],
-   "resumo": "IBS e CBS incidem sobre <strong>operações onerosas com bens ou serviços</strong>, conceito amplo que inclui locação, cessão, mútuo oneroso e arrendamento (art. 4º, § 2º). As operações não onerosas só são tributadas quando a lei manda (§ 1º), e lucro, forma jurídica e título da posse são irrelevantes (§ 3º). Não incidem, entre outros, sobre serviço de empregado, transferência entre estabelecimentos do mesmo contribuinte e dividendos (art. 6º). O fato gerador ocorre no <strong>fornecimento</strong> (art. 10), e o local da operação define o <strong>destino</strong>, que fica com a arrecadação (art. 11). As imunidades repetem as clássicas (entes públicos, templos, livros, partidos e entidades sem fins lucrativos) e somam outras (art. 9º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Destino e competência compartilhada:</strong> por que o local da operação decide quem recebe o IBS.",
+     "tema": "visao-geral-da-reforma-tributaria"
+    }
+   ],
+   "resumo": "O <strong>fato gerador</strong> é o fato que faz nascer a obrigação de pagar o tributo. No IBS e na CBS, ele é a <strong>operação onerosa</strong> com bens ou com serviços, isto é, qualquer fornecimento com <strong>contraprestação</strong> (algo dado em troca), o que inclui venda, troca, locação, cessão, mútuo oneroso, arrendamento e prestação de serviços (art. 4º da LC 214/2025). A operação sem contraprestação só é tributada quando a lei diz expressamente. Lucro, forma jurídica do negócio e o título pelo qual o fornecedor tem a posse do bem não importam. A <strong>não incidência</strong> do art. 6º tira do campo do tributo operações que não são consumo, como o trabalho do empregado e a transferência entre estabelecimentos do mesmo contribuinte. A <strong>imunidade</strong> é a proteção que vem da Constituição; o art. 9º repete para os dois tributos as imunidades clássicas e acrescenta outras. O tributo nasce no momento do <strong>fornecimento</strong> (art. 10), e o <strong>local da operação</strong> (art. 11), mostrado na tabela, define o destino, que fica com a arrecadação do IBS.",
    "esquema": {
     "rotulo": "onde a operação acontece (art. 11)",
     "html": "<table><thead><tr><th>Operação</th><th>Local</th></tr></thead><tbody><tr><td>Bem móvel material</td><td>Entrega ou disponibilização ao destinatário</td></tr><tr><td>Bem imóvel e serviço sobre imóvel</td><td>Onde o imóvel está</td></tr><tr><td>Serviço prestado fisicamente sobre pessoa física</td><td>Onde o serviço é prestado</td></tr><tr><td>Transporte de passageiros</td><td>Início do transporte</td></tr><tr><td>Transporte de carga</td><td>Entrega do bem ao destinatário</td></tr><tr><td>Exploração de via (pedágio)</td><td>Cada ente, pela extensão da via</td></tr><tr><td>Telefonia fixa por cabo</td><td>Instalação do terminal</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Operação onerosa",
+      "o_que_e": "Fornecimento com contraprestação: compra e venda, troca, dação em pagamento, locação, licenciamento, cessão, mútuo oneroso, doação com contraprestação ao doador, direitos reais onerosos, arrendamento e prestação de serviços.",
+      "atencao": "A locação entra, embora não transfira a propriedade.",
+      "grupo": "Incidência"
+     },
+     {
+      "nome": "Operação não onerosa",
+      "o_que_e": "Só é tributada nas hipóteses expressas da LC 214/2025.",
+      "atencao": "Não é \"nunca tributada\": há hipóteses expressas, como a doação de bem que gerou crédito ao doador.",
+      "grupo": "Incidência"
+     },
+     {
+      "nome": "Pessoa física contribuinte fora da atividade",
+      "o_que_e": "Na compra ou venda de bens e serviços sem relação com a atividade econômica, segue as regras dos não contribuintes (art. 4º, § 6º).",
+      "grupo": "Incidência"
+     },
+     {
+      "nome": "Não incidência",
+      "o_que_e": "Hipóteses do art. 6º em que o fato está fora do campo do tributo: trabalho do empregado e de administradores e conselheiros, transferências internas, participações societárias, rendimentos financeiros, dividendos, doações sem contraprestação, repasses públicos a organizações da sociedade civil, fundos e sobras de cooperativas e contribuições associativas.",
+      "atencao": "Atos que, somados, configurem na essência operação onerosa são tributados (§ 1º).",
+      "grupo": "Não incidência e imunidade"
+     },
+     {
+      "nome": "Imunidade",
+      "o_que_e": "Proteção constitucional repetida no art. 9º: entes públicos, templos, partidos, sindicatos de trabalhadores, entidades de educação e assistência sem fins lucrativos, livros e papel, fonogramas brasileiros, radiodifusão de recepção livre e ouro ativo financeiro.",
+      "atencao": "Protege o fornecimento, e não as compras da entidade imune (§ 4º).",
+      "grupo": "Não incidência e imunidade"
+     },
+     {
+      "nome": "Fornecimento no serviço",
+      "o_que_e": "Transporte iniciado no País: no início. Transporte de carga iniciado no exterior: no término. Demais serviços: no término do fornecimento.",
+      "grupo": "Momento"
+     },
+     {
+      "nome": "Execução continuada ou fracionada",
+      "o_que_e": "O fato gerador ocorre no primeiro destes eventos: quando se torna exigível a parcela da contraprestação ou quando ela é paga.",
+      "atencao": "Não se espera o fim do contrato.",
+      "grupo": "Momento"
+     },
+     {
+      "nome": "Pagamento antecipado",
+      "o_que_e": "Em cada parcela paga antes do fornecimento cobra-se uma antecipação, pela alíquota vigente na emissão do documento fiscal ou no pagamento, o que vier primeiro; no fornecimento, apura-se o valor definitivo sobre o total, pela alíquota vigente nessa data.",
+      "atencao": "Antecipação a maior segue as regras do pagamento indevido; sem fornecimento, inclusive por distrato, as do cancelamento.",
+      "grupo": "Momento"
+     },
+     {
+      "nome": "Compras públicas",
+      "o_que_e": "Nas aquisições da administração direta, autarquias e fundações sujeitas ao art. 473, o fato gerador ocorre no pagamento.",
+      "atencao": "Não é no empenho, na emissão da nota nem no fornecimento.",
+      "grupo": "Momento"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 4º O IBS e a CBS incidem sobre operações onerosas com bens ou com serviços.\n\n§ 1º As operações não onerosas com bens ou com serviços serão tributadas nas hipóteses expressamente previstas nesta Lei Complementar.\n\n§ 2º Para fins do disposto neste artigo, considera-se operação onerosa com bens ou com serviços qualquer fornecimento com contraprestação, incluindo o decorrente de:\n\nI - compra e venda, troca ou permuta, dação em pagamento e demais espécies de alienação;\n\nII - locação;\n\nIII - licenciamento, concessão, cessão;\n\nIV - mútuo oneroso;\n\nV - doação com contraprestação em benefício do doador;\n\nVI - instituição onerosa de direitos reais;\n\nVII - arrendamento, inclusive mercantil; e\n\nVIII - prestação de serviços.\n\n§ 3º São irrelevantes para a caracterização das operações de que trata este artigo:\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 4º.",
+      "Art. 6º."
+     ],
+     "ref": "arts. 4º e 6º da LC 214/2025",
+     "regras": [
+      "<strong>Art. 4º, caput e §§ 1º a 3º.</strong> IBS e CBS incidem sobre operações onerosas com bens ou serviços; as não onerosas, só nas hipóteses expressas. Operação onerosa é qualquer fornecimento com contraprestação, com o rol da figura. São irrelevantes o título da posse do fornecedor, a forma, a validade e os efeitos do negócio, a obtenção de lucro e o cumprimento de exigências legais ou administrativas.",
+      "<strong>§§ 4º a 6º.</strong> Incidem sobre qualquer operação do contribuinte, inclusive com bens do ativo não circulante ou em atividade não habitual. A incidência não altera a base do ITCMD nem a do ITBI. A pessoa física contribuinte, nas operações alheias à sua atividade, segue as regras dos não contribuintes.",
+      "<strong>Art. 6º, I a IV.</strong> Não incidem sobre serviços de pessoa física como empregado do contribuinte ou como administrador ou membro de conselho de administração, fiscal ou de comitê de assessoramento previsto em lei; sobre transferência de bens entre estabelecimentos do mesmo contribuinte, que continua obrigado a emitir documento fiscal eletrônico; sobre baixa, liquidação e transmissão de participação societária; e sobre transmissão de bens em fusão, cisão, incorporação, integralização e devolução de capital (ressalvada, nos dois e também nos dividendos e sobras dos incisos VI e XI, a transmissão a sócio não contribuinte do regime regular de bens que deram crédito, do art. 5º, III).",
+      "<strong>Art. 6º, V a VIII.</strong> Nem sobre rendimentos financeiros, salvo no regime específico de serviços financeiros; dividendos, juros sobre capital próprio, juros ao capital de cooperativas e resultados de avaliação de participações; demais operações com títulos e valores mobiliários, salvo no regime de serviços financeiros; e doações sem contraprestação em benefício do doador.",
+      "<strong>Art. 6º, IX a XII.</strong> Nem sobre repasses de recursos e bens públicos a organizações da sociedade civil sem fins lucrativos, por termos de fomento, colaboração, convênios e instrumentos semelhantes; destinação de recursos de cooperativa aos fundos do art. 28 da Lei 5.764/1971 e sua reversão; repasse da cooperativa aos associados e distribuição de sobras; e contribuições associativas estatutárias, sem contraprestação, de associações que atendam ao art. 14 do CTN.",
+      "<strong>Art. 6º, §§ 1º e 2º.</strong> Incidem sobre o conjunto de atos dos incisos III a VII que, na essência, seja operação onerosa. Na doação de bem ou serviço que gerou crédito ao doador, a doação é tributada pelo valor de mercado ou, à escolha do contribuinte, os créditos são anulados."
+     ],
+     "literalidades": [
+      {
+       "trecho": "As operações não onerosas com bens ou com serviços serão tributadas nas hipóteses expressamente previstas nesta Lei Complementar.",
+       "marcas": [
+        "hipóteses expressamente previstas"
+       ],
+       "afirmacao": "O IBS e a CBS incidem somente sobre operações onerosas, de modo que operações não onerosas com bens ou serviços nunca são tributadas.",
+       "gabarito": "E",
+       "porque": "As operações não onerosas são tributadas nas hipóteses expressamente previstas na LC 214/2025 (art. 4º, § 1º)."
+      },
+      {
+       "trecho": "III - a obtenção de lucro com a operação; e",
+       "marcas": [
+        "obtenção de lucro"
+       ],
+       "afirmacao": "Uma associação que vende produtos a preço de custo, sem lucro, em atividade econômica, não escapa do IBS e da CBS por não lucrar.",
+       "gabarito": "C",
+       "porque": "A obtenção de lucro é irrelevante para caracterizar a operação (art. 4º, § 3º, III)."
+      },
+      {
+       "trecho": "b) sua atuação como administradores ou membros de conselhos de administração e fiscal",
+       "marcas": [
+        "conselhos de administração e fiscal"
+       ],
+       "afirmacao": "Como não há relação de emprego, o IBS e a CBS incidem sobre os serviços prestados por pessoa física como membro do conselho de administração do contribuinte.",
+       "gabarito": "E",
+       "porque": "A não incidência alcança também a atuação como administrador ou membro de conselho de administração, fiscal ou de comitê de assessoramento (art. 6º, I, b)."
+      }
+     ],
+     "conferido": {
+      "Art. 4º.": "d9dc00b30b72",
+      "Art. 6º.": "d2d1c9f63d2e"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 10. Considera-se ocorrido o fato gerador do IBS e da CBS no momento do fornecimento nas operações com bens ou com serviços, ainda que de execução continuada ou fracionada.\n\n§ 1º Para fins do disposto no caput deste artigo, considera-se ocorrido o fornecimento no momento:\n\nI - do início do transporte, na prestação de serviço de transporte iniciado no País;\n\nII - do término do transporte, na prestação de serviço de transporte de carga quando iniciado no exterior;\n\nIII - do término do fornecimento, no caso dos demais serviços;\n\nIV - em que o bem for encontrado desacobertado de documentação fiscal idônea; e\n\nV - da aquisição do bem nas hipóteses de:\n\na) licitação promovida pelo poder público de bem apreendido ou abandonado; ou\n\nb) leilão judicial.\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 9º."
+     ],
+     "ref": "art. 9º da LC 214/2025",
+     "regras": [
+      "<strong>Caput.</strong> São imunes também ao IBS e à CBS os fornecimentos dos entes federativos; das entidades religiosas e templos, inclusive suas organizações assistenciais e beneficentes; de partidos, inclusive institutos e fundações, sindicatos de trabalhadores e instituições de educação e assistência social sem fins lucrativos; de livros, jornais, periódicos e papel de impressão; de fonogramas e videofonogramas musicais produzidos no Brasil com obras ou intérpretes brasileiros, salvo a replicação industrial de mídias ópticas; de radiodifusão de recepção livre, sem cobrança do público; e de ouro ativo financeiro ou instrumento cambial.",
+      "<strong>§ 1º.</strong> A imunidade dos entes se estende às autarquias e fundações instituídas e mantidas pelo poder público e à empresa pública prestadora de serviço postal; alcança só as operações ligadas às finalidades essenciais; não vale para exploração de atividade econômica de regime privado nem quando há preço ou tarifa paga pelo usuário; e não exonera o promitente comprador de imóvel.",
+      "<strong>§§ 2º a 4º.</strong> Entidade religiosa e templo é a pessoa jurídica de direito privado sem fins lucrativos que professa a fé e pratica a religião; a organização assistencial e beneficente é a mantida por ela, que atende sem discriminação. A imunidade do inciso III exige o cumprimento cumulativo do art. 14 do CTN. As imunidades das entidades dos incisos I a III não alcançam as compras que elas fazem."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ou em que haja contraprestação ou pagamento de preços ou tarifas pelo usuário",
+       "marcas": [
+        "preços ou tarifas pelo usuário"
+       ],
+       "afirmacao": "A imunidade ao IBS e à CBS dos fornecimentos feitos pelos entes federativos alcança as operações em que haja pagamento de tarifa pelo usuário.",
+       "gabarito": "E",
+       "porque": "A imunidade não se aplica quando há contraprestação ou pagamento de preço ou tarifa pelo usuário (art. 9º, § 1º, II)."
+      },
+      {
+       "trecho": "não se aplicam às suas aquisições de bens materiais e imateriais, inclusive direitos, e serviços",
+       "marcas": [
+        "aquisições"
+       ],
+       "afirmacao": "Uma igreja compra cadeiras de um fornecedor contribuinte. A operação é tributada normalmente, apesar da imunidade da igreja.",
+       "gabarito": "C",
+       "porque": "As imunidades das entidades dos incisos I a III não se aplicam às aquisições que elas fazem (art. 9º, § 4º)."
+      }
+     ],
+     "conferido": {
+      "Art. 9º.": "987b91e1df29"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 10.",
+      "Art. 11."
+     ],
+     "ref": "arts. 10 e 11 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 10, caput e § 1º.</strong> O fato gerador ocorre no fornecimento, ainda que de execução continuada ou fracionada. Considera-se ocorrido o fornecimento no início do transporte iniciado no País, no término do transporte de carga iniciado no exterior, no término dos demais serviços, quando o bem é encontrado sem documentação fiscal idônea e na aquisição em licitação de bem apreendido ou abandonado ou em leilão judicial.",
+      "<strong>§§ 2º e 3º.</strong> Nas compras da administração direta, autarquias e fundações sujeitas ao art. 473, o fato gerador ocorre no pagamento. Na execução continuada ou fracionada, no primeiro entre o momento em que a parcela se torna exigível e o pagamento.",
+      "<strong>§§ 4º a 7º.</strong> Pagamento antes do fornecimento: antecipação em cada parcela, com base no valor pago e alíquota vigente na emissão do documento fiscal ou no pagamento, o que ocorrer primeiro, lançada como débito; no fornecimento, valor definitivo sobre o total, pela alíquota vigente nessa data, com a diferença a menor lançada como débito e a maior tratada como pagamento indevido. Sem fornecimento, inclusive por distrato, aplicam-se as regras do cancelamento. Extinta a antecipação, o adquirente pode creditar. O regulamento pode levar a antecipação ao período do fornecimento quando entre um e outro houver até 5 dias.",
+      "<strong>Art. 11, caput.</strong> O local da operação está na tabela. Para bem ou serviço não abrangido pelos outros incisos, vale o domicílio principal do adquirente (ou do destinatário, se o adquirente não for residente no País) na operação onerosa e o do destinatário na não onerosa.",
+      "<strong>§§ 1º e 2º.</strong> Na venda não presencial de bem móvel, vale o destino final indicado pelo adquirente ao fornecedor ou ao transportador, conforme quem contrate o frete. Veículo automotor terrestre, aquático ou aéreo: domicílio principal do destinatário. Licitação de bem apreendido, leilão judicial e bem sem documento idôneo: onde o bem está. Imóvel em mais de um Município: onde está a maior parte da área.",
+      "<strong>§ 3º.</strong> O domicílio principal é o do cadastro único: para pessoa física, a habitação permanente ou, havendo nenhuma ou várias, onde suas relações econômicas forem mais relevantes; para pessoa jurídica, cada estabelecimento destinatário. Sem cadastro regular, combinam-se ao menos dois critérios não conflitantes, à escolha do fornecedor (endereço declarado, endereço colhido na operação, cadastro do meio de pagamento, IP ou geolocalização); não sendo possível, vale o endereço declarado.",
+      "<strong>§§ 4º a 6º.</strong> Na compra centralizada por contribuinte do regime regular com vários estabelecimentos, telecomunicações por cabo e locação de bem móvel se consideram fornecidas no domicílio principal, que é o da matriz. O serviço sobre a pessoa prestado a distância segue a regra residual do inciso X. Informação incorreta do adquirente que reduza o tributo gera cobrança da diferença do próprio adquirente.",
+      "<strong>§§ 7º a 11.</strong> Água, gás canalizado e energia: local da entrega, no consumo, ou do estabelecimento principal do adquirente, quando não há consumo efetivo (transmissão, geração, distribuição e comercialização). O § 8º foi revogado pela LC 227/2026. Energia comprada de forma multilateral: estabelecimento do agente devedor na Câmara de Comercialização. Transporte dutoviário de gás: estabelecimento do fornecedor na capacidade de entrada e do adquirente na de saída. Cessão de espaço publicitário segue a regra residual do inciso X."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - do início do transporte, na prestação de serviço de transporte iniciado no País;",
+       "marcas": [
+        "do início do transporte"
+       ],
+       "afirmacao": "Uma empresa de ônibus faz uma viagem de Maceió a Recife. Para o IBS e a CBS, o fornecimento ocorre na partida, em Maceió.",
+       "gabarito": "C",
+       "porque": "No transporte iniciado no País, o fornecimento ocorre no início do transporte (art. 10, § 1º, I)."
+      },
+      {
+       "trecho": "considera-se ocorrido o fato gerador no momento em que se realiza o pagamento",
+       "marcas": [
+        "pagamento"
+       ],
+       "afirmacao": "Nas aquisições pela administração pública direta, autarquias e fundações sujeitas ao art. 473, o fato gerador do IBS e da CBS ocorre na emissão da nota de empenho.",
+       "gabarito": "E",
+       "porque": "Nessas compras o fato gerador ocorre no momento do pagamento (art. 10, § 2º)."
+      },
+      {
+       "trecho": "VI - serviço de transporte de passageiros, o local de início do transporte;",
+       "marcas": [
+        "início do transporte"
+       ],
+       "afirmacao": "No serviço de transporte de passageiros, o local da operação, para fins de IBS e CBS, é o local de destino do passageiro.",
+       "gabarito": "E",
+       "porque": "No transporte de passageiros vale o local de início; no de carga, o da entrega ao destinatário (art. 11, VI e VII)."
+      },
+      {
+       "trecho": "proporcionalmente à correspondente extensão da via explorada",
+       "marcas": [
+        "extensão da via explorada"
+       ],
+       "afirmacao": "No pedágio de uma rodovia que corta três Municípios, o IBS é repartido entre eles na proporção da extensão da via em cada um.",
+       "gabarito": "C",
+       "porque": "Na exploração de via, o local é o território de cada ente, proporcionalmente à extensão da via explorada (art. 11, VIII), e não só o Município da praça de cobrança."
+      }
+     ],
+     "conferido": {
+      "Art. 10.": "75286cd82fe4",
+      "Art. 11.": "01b881eef460"
+     },
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "A destinação integral do IBS e da CBS ao ente contratante nas compras públicas (art. 149-C da CF) alcança a administração direta, as autarquias e as fundações públicas, inclusive nas importações, com igualdade de tratamento em relação às compras internas. Lei complementar pode reduzir de forma uniforme as alíquotas nessas compras; empresas públicas e sociedades de economia mista ficam fora.",
+    "Telefonia fixa por cabos e fibras: o local é o da instalação do terminal (art. 11, IX). Quem mora em Maceió e instala o terminal na casa de veraneio em Maragogi paga o IBS para Maragogi."
    ],
    "macetes": [
     {
      "sigla": "ONEROSA EM REGRA",
-     "texto": "Contraprestação basta. Gratuito só é tributado se a LC 214 disser (art. 4º, § 1º), e o lucro nunca importa (§ 3º, III)."
+     "texto": "Contraprestação basta. Operação sem contraprestação só é tributada se a LC 214 disser (art. 4º, § 1º), e o lucro nunca importa (§ 3º, III)."
     },
     {
      "sigla": "PASSAGEIRO SAI; CARGA CHEGA",
@@ -160,12 +647,47 @@
     "gabarito": "E",
     "explicacao": "A locação está no rol de operações onerosas (art. 4º, § 2º, II, da LC 214/2025). Por isso o IBS alcança a locação de imóveis, que o ISS não alcançava."
    },
+   "pegadinhas": [
+    {
+     "errado": "A locação de bens não configura operação onerosa para fins de IBS e CBS, porque não há transferência de propriedade.",
+     "certo": "A locação está no rol de operações onerosas (art. 4º, § 2º, II).",
+     "fonte": "Questão do app sobre o art. 4º da LC 214/2025"
+    },
+    {
+     "errado": "O IBS e a CBS incidem sobre o fornecimento de serviços por pessoa física em decorrência de relação de emprego com o contribuinte.",
+     "certo": "Não incidem (art. 6º, I, a).",
+     "fonte": "Questão do app sobre o art. 6º da LC 214/2025"
+    },
+    {
+     "errado": "Havendo pagamento antecipado, os valores definitivos são calculados pelas alíquotas vigentes na data do pagamento.",
+     "certo": "O valor definitivo usa a alíquota vigente na data do fornecimento (art. 10, § 4º, II).",
+     "fonte": "Questão do app sobre o art. 10 da LC 214/2025"
+    },
+    {
+     "errado": "Na execução continuada, o fato gerador ocorre somente ao término do fornecimento.",
+     "certo": "Ocorre no primeiro entre a exigibilidade da parcela e o pagamento (art. 10, § 3º).",
+     "fonte": "Questão do app sobre o art. 10 da LC 214/2025"
+    },
+    {
+     "errado": "Na aquisição de veículo automotor, o local da operação é o estabelecimento da concessionária.",
+     "certo": "É o domicílio principal do destinatário (art. 11, § 1º, II).",
+     "fonte": "Questão do app sobre o art. 11 da LC 214/2025"
+    },
+    {
+     "errado": "No pedágio, o local da operação é o Município onde está a praça de cobrança.",
+     "certo": "É o território de cada ente, na proporção da extensão da via (art. 11, VIII).",
+     "fonte": "Questão do app sobre o art. 11 da LC 214/2025"
+    },
+    {
+     "errado": "A destinação integral do IBS e da CBS ao ente contratante alcança também as compras das empresas públicas e sociedades de economia mista.",
+     "certo": "Alcança a administração direta, autarquias e fundações públicas (art. 149-C da CF).",
+     "fonte": "Questão do app sobre o art. 149-C da CF"
+    }
+   ],
    "relacionados": [
     "contribuintes-do-ibs-e-da-cbs",
     "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
-   ],
-   "aprofundamento": "<p><strong>Administradores e conselheiros fora do campo.</strong> Além do serviço do empregado, não incidem IBS e CBS sobre os serviços que a pessoa física presta como administradora ou como membro de conselho de administração, de conselho fiscal ou de comitê de assessoramento do conselho de administração previsto em lei (art. 6º, I, b, da LC 214/2025). A falta de vínculo de emprego não muda a conclusão: o que afasta a incidência é a atuação no órgão societário. Já a consultoria prestada por pessoa jurídica ao mesmo contribuinte é operação onerosa comum.</p><p><strong>Compras governamentais: fato gerador no pagamento.</strong> Nas aquisições da administração pública direta, das autarquias e das fundações públicas sujeitas ao art. 473, considera-se ocorrido o fato gerador no momento do pagamento, e não no fornecimento nem no empenho (art. 10, § 2º). É a mesma sistemática em que a arrecadação dessas compras vai integralmente ao ente contratante (art. 473).</p><p><strong>Execução continuada ou fracionada.</strong> Nesses contratos, o fato gerador ocorre na primeira entre duas ocorrências: o momento em que se torna exigível a parte da contraprestação correspondente a cada pagamento ou o pagamento da obrigação (art. 10, § 3º, com a redação da LC 227/2026). Não se espera o término do contrato.</p><p><strong>Pagamento antecipado: duas alíquotas em dois momentos.</strong> Se houver pagamento, total ou parcial, antes do fornecimento, cobra-se uma antecipação em cada parcela paga: a base é o valor da parcela, e a alíquota é a vigente na data da emissão do documento fiscal eletrônico correspondente ao pagamento ou na data do pagamento, o que ocorrer primeiro; a antecipação entra como débito na apuração (art. 10, § 4º, I). Na data do fornecimento, calcula-se o valor definitivo sobre o valor total da operação, incluídas as parcelas antecipadas, com as alíquotas vigentes na data do fornecimento. Se a antecipação foi menor, a diferença é débito; se foi maior, aplicam-se as regras do pagamento indevido ou a maior (§ 4º, II). Se o fornecimento não acontecer, inclusive por distrato, seguem-se as regras do cancelamento (§ 5º). Para a prova: a antecipação usa a alíquota do primeiro evento entre documento e pagamento; o valor definitivo usa a alíquota do fornecimento.</p>",
-   "aprofundamento_rotulo": "Aprofundamento"
+   ]
   },
   {
    "slug": "contribuintes-do-ibs-e-da-cbs",
@@ -197,24 +719,191 @@
     "mei",
     "regime regular"
    ],
-   "resumo": "É contribuinte quem fornece bens ou serviços no desenvolvimento de atividade econômica, de modo habitual ou de forma profissional, ainda que a profissão não seja regulamentada; também o importador e o adquirente em leilão judicial ou em licitação de bem apreendido (art. 21). As <strong>plataformas digitais</strong>, mesmo no exterior, respondem pelo tributo das operações feitas por elas, em substituição ao fornecedor estrangeiro ou solidariamente com o fornecedor nacional que não emite nota (art. 22). <strong>Não são contribuintes</strong> o condomínio edilício, a SCP, o <strong>nanoempreendedor</strong>, o produtor rural e o transportador autônomo de carga nas condições da lei, entre outros (art. 26), e alguns podem optar pelo regime regular. Quem está no <strong>Simples</strong> segue o Simples, mas pode optar por recolher IBS e CBS pelo regime regular (art. 41, § 3º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Operação onerosa:</strong> o que faz nascer o IBS e a CBS.",
+     "tema": "incidencia-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "<strong>Contribuinte</strong> é quem tem relação pessoal e direta com o fato gerador e por isso deve o tributo. No IBS e na CBS, é o fornecedor que realiza operações no desenvolvimento de atividade econômica, de modo habitual ou em volume que a caracterize, ou de forma profissional, ainda que a profissão não seja regulamentada; também o importador e quem compra em leilão judicial ou em licitação de bem apreendido ou abandonado (art. 21 da LC 214/2025). <strong>Responsável</strong> é o terceiro a quem a lei manda pagar o tributo do contribuinte. A <strong>plataforma digital</strong>, o intermediário que controla a cobrança, o pagamento, os termos ou a entrega, responde pelo tributo das operações feitas por ela, mesmo domiciliada no exterior (art. 22). A responsabilidade <strong>solidária</strong> é aquela em que o Fisco pode cobrar de um ou de outro; na <strong>substituição</strong>, a plataforma paga no lugar do fornecedor. O art. 26 lista quem não é contribuinte, e alguns podem optar pelo regime regular. O <strong>regime regular</strong> é o conjunto completo de regras de incidência e apuração da lei; quem está no Simples ou no MEI segue esses regimes, mas o optante pelo Simples pode recolher IBS e CBS pelo regular (art. 41).",
    "esquema": {
     "rotulo": "quem paga",
     "html": "<table><thead><tr><th>Situação</th><th>Regra</th></tr></thead><tbody><tr><td>Fornecedor habitual ou profissional</td><td>Contribuinte (art. 21, I)</td></tr><tr><td>Arrematante em leilão judicial</td><td>Contribuinte, mesmo sem habitualidade (art. 21, II)</td></tr><tr><td>Plataforma digital com fornecedor no exterior</td><td>Responsável, em substituição ao fornecedor (art. 22, I)</td></tr><tr><td>Condomínio edilício, SCP, nanoempreendedor</td><td>Não contribuinte; condomínio e SCP podem optar (art. 26, § 1º)</td></tr><tr><td>Optante do Simples</td><td>Recolhe no Simples ou opta pelo regime regular (art. 41)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Fornecedor contribuinte",
+      "o_que_e": "Quem fornece no desenvolvimento de atividade econômica, de modo habitual ou em volume que a caracterize, ou de forma profissional.",
+      "atencao": "A profissão não precisa ser regulamentada.",
+      "grupo": "Contribuintes"
+     },
+     {
+      "nome": "Adquirente contribuinte",
+      "o_que_e": "Quem compra em leilão judicial ou em licitação de bem apreendido ou abandonado, ainda que não exerça atividade econômica.",
+      "atencao": "Não depende de habitualidade.",
+      "grupo": "Contribuintes"
+     },
+     {
+      "nome": "Fornecedor no exterior",
+      "o_que_e": "Cadastra-se como contribuinte se realiza operações no País, ou como responsável nas importações.",
+      "atencao": "Fica dispensado se vender só por plataforma digital inscrita no regime regular.",
+      "grupo": "Contribuintes"
+     },
+     {
+      "nome": "Plataforma digital",
+      "o_que_e": "Intermediária de operações não presenciais ou eletrônicas que controla cobrança, pagamento, termos e condições ou entrega.",
+      "atencao": "Não é plataforma quem só dá acesso à internet, só processa pagamento como instituição autorizada pelo Banco Central, só faz publicidade ou só compara fornecedores sem cobrar pelas vendas.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Plataforma e fornecedor estrangeiro",
+      "o_que_e": "Responde solidariamente com o adquirente e em substituição ao fornecedor residente no exterior.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Plataforma e fornecedor nacional",
+      "o_que_e": "Responde solidariamente com o fornecedor nacional quando não informa as operações ao Fisco ou quando o fornecedor contribuinte não emite documento fiscal da operação.",
+      "atencao": "Fica livre de diferenças se o split payment for possível e ela prestar as informações exigidas.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Nanoempreendedor",
+      "o_que_e": "Pessoa física com receita bruta inferior a 50% do limite do MEI que não aderiu a esse regime.",
+      "atencao": "Motorista de aplicativo e entregador contam só 25% do valor bruto mensal recebido como receita.",
+      "grupo": "Não contribuintes"
+     },
+     {
+      "nome": "Condomínio edilício",
+      "o_que_e": "Não é contribuinte, mas pode optar pelo regime regular, caso em que o tributo incide sobre todas as taxas e valores cobrados.",
+      "atencao": "Sem a opção, se as taxas dos condôminos forem menos de 80% da receita, ele paga sobre as demais operações e credita na proporção.",
+      "grupo": "Não contribuintes"
+     },
+     {
+      "nome": "Fundos de investimento",
+      "o_que_e": "Em regra não são contribuintes; os FII e Fiagro com cotas negociadas em bolsa, ao menos 100 cotistas e sem concentração relevante também não.",
+      "atencao": "FIDC e fundos que antecipam recebíveis são contribuintes no regime regular.",
+      "grupo": "Não contribuintes"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 21. É contribuinte do IBS e da CBS:\n\nI - o fornecedor que realizar operações:\n\na) no desenvolvimento de atividade econômica;\n\nb) de modo habitual ou em volume que caracterize atividade econômica; ou\n\nc) de forma profissional, ainda que a profissão não seja regulamentada;\n\nII - o adquirente, ainda que não enquadrado no inciso I deste caput, na aquisição de bem:\n\na) apreendido ou abandonado, em licitação promovida pelo poder público; ou\n\nb) em leilão judicial;\n\nIII - o importador;\n\nIV - aquele previsto expressamente em outras hipóteses nesta Lei Complementar.\n\n§ 1º O contribuinte de que trata o caput deste artigo é obrigado a se inscrever nos cadastros relativos ao IBS e à CBS.\n\n§ 2º O fornecedor residente ou domiciliado no exterior fica obrigado a se cadastrar como contribuinte caso realize operações no País ou como responsável tributário no caso de importações, observada a definição do local da operação prevista no art. 11 e o disposto no art. 23 desta Lei Complementar.\n\n§ 3º O regulamento também poderá exigir inscrição nos cadastros relativos ao IBS e à CBS dos responsáveis pelo cumprimento de obrigações principais ou acessórias previstas nesta Lei Complementar.\n\n§ 4º Na importação de bens materiais, o disposto no § 2º deste artigo somente se aplica às remessas internacionais sujeitas a regime de tributação simplificada nos termos do art. 95.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 21.",
+      "Art. 22."
+     ],
+     "ref": "arts. 21 e 22 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 21.</strong> São contribuintes o fornecedor que realiza operações no desenvolvimento de atividade econômica, de modo habitual ou em volume que a caracterize, ou de forma profissional, ainda que não regulamentada; o adquirente em licitação de bem apreendido ou abandonado ou em leilão judicial; o importador; e os demais previstos na lei. O contribuinte deve se inscrever nos cadastros; o fornecedor no exterior se cadastra como contribuinte, se opera no País, ou como responsável, na importação (nos bens materiais, só nas remessas do regime simplificado do art. 95); o regulamento pode exigir inscrição dos responsáveis.",
+      "<strong>Art. 22, caput e § 1º.</strong> A plataforma digital, ainda que no exterior, responde pelo IBS e pela CBS das operações feitas por ela: solidariamente com o adquirente e em substituição ao fornecedor estrangeiro; e solidariamente com o fornecedor nacional quando não presta as informações do § 5º, quando o fornecedor contribuinte, inscrito ou não, não emite documento fiscal no valor da operação, ou quando a operação não é registrada em documento fiscal. Plataforma é a intermediária de operações não presenciais ou eletrônicas que controla cobrança, pagamento, termos e condições ou entrega.",
+      "<strong>§§ 2º a 6º.</strong> Não é plataforma quem executa só acesso à internet, pagamento por instituição autorizada pelo Banco Central, publicidade ou busca e comparação sem cobrança sobre vendas. O fornecedor estrangeiro que vende só por plataforma inscrita no regime regular fica dispensado de inscrição. O Comitê Gestor e a Receita Federal informam à plataforma quem é contribuinte não inscrito. A plataforma presta informações sobre as operações, identificando o fornecedor, e, quando inicia o pagamento, envia os dados para o split payment.",
+      "<strong>§§ 7º a 11.</strong> A plataforma não responde por diferenças do fornecedor nacional se o split payment for possível e ela prestar as informações dos §§ 5º e 6º. Os §§ 8º e 9º foram revogados pela LC 227/2026. Quando responsável, ela responde solidariamente pelos débitos do fornecedor nacional inscrito, pelas regras dele; nos demais casos, calcula pelo regime regular. Sem controlar nenhum elemento essencial, não é responsável.",
+      "<strong>§§ 12 a 15.</strong> Com anuência do fornecedor nacional, a plataforma pode emitir documentos fiscais em nome dele, inclusive de forma consolidada, e pagar o tributo, ou atuar como substituta tributária, emitindo, apurando e pagando, mantida a obrigação do fornecedor pelas diferenças. Se emitir o documento em até 30 dias do prazo do fornecedor e pagar o tributo, os acréscimos e a multa por falta de emissão ficam só com o fornecedor. Sem informação sobre o regime do fornecedor, pode usar as alíquotas de referência, e a diferença é paga pelo fornecedor ou devolvida."
+     ],
+     "literalidades": [
+      {
+       "trecho": "c) de forma profissional, ainda que a profissão não seja regulamentada;",
+       "marcas": [
+        "ainda que a profissão não seja regulamentada"
+       ],
+       "afirmacao": "Um designer autônomo que presta serviços de forma profissional é contribuinte do IBS e da CBS, embora a profissão dele não seja regulamentada.",
+       "gabarito": "C",
+       "porque": "O art. 21, I, c, alcança quem atua de forma profissional, ainda que a profissão não seja regulamentada."
+      },
+      {
+       "trecho": "II - o adquirente, ainda que não enquadrado no inciso I deste caput, na aquisição de bem:",
+       "marcas": [
+        "ainda que não enquadrado"
+       ],
+       "afirmacao": "O adquirente de bem em leilão judicial só é contribuinte do IBS e da CBS se desenvolver atividade econômica de modo habitual.",
+       "gabarito": "E",
+       "porque": "O adquirente em leilão judicial é contribuinte ainda que não se enquadre no inciso I, isto é, sem atividade econômica habitual (art. 21, II, b)."
+      },
+      {
+       "trecho": "As plataformas digitais, ainda que domiciliadas no exterior",
+       "marcas": [
+        "ainda que domiciliadas no exterior"
+       ],
+       "afirmacao": "Uma plataforma de hospedagem sediada na Irlanda intermedeia, cobrando o hóspede, a locação de um flat em Maceió por um proprietário residente na Itália. A plataforma responde pelo IBS e pela CBS da operação.",
+       "gabarito": "C",
+       "porque": "A plataforma responde ainda que domiciliada no exterior; com fornecedor estrangeiro, em substituição a ele e solidariamente com o adquirente (art. 22, caput e I)."
+      },
+      {
+       "trecho": "com anuência do fornecedor residente ou domiciliado no País",
+       "marcas": [
+        "com anuência do fornecedor"
+       ],
+       "afirmacao": "A plataforma digital pode emitir documentos fiscais eletrônicos em nome do fornecedor residente no País independentemente da anuência dele.",
+       "gabarito": "E",
+       "porque": "A opção da plataforma depende da anuência do fornecedor (art. 22, § 12)."
+      }
+     ],
+     "conferido": {
+      "Art. 21.": "be6fe2ed054e",
+      "Art. 22.": "78d99f0016b7"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 26. Não são contribuintes do IBS e da CBS, ressalvado o disposto no inciso II do § 1º do art. 156-A da Constituição Federal:\n\nI - condomínio edilício;\n\nII - consórcio de que trata o art. 278 da Lei nº 6.404, de 15 de dezembro de 1976;\n\nIII - sociedade em conta de participação;\n\nIV - nanoempreendedor, assim entendido a pessoa física que tenha auferido receita bruta inferior a 50% (cinquenta por cento) do limite estabelecido para adesão ao regime do MEI previsto no § 1º do art. 18-A observado ainda o disposto nos §§ 4º e 4º- B do referido artigo da Lei Complementar nº 123, de 14 de dezembro de 2006, e não tenha aderido a esse regime; e\n\nV - fundos de investimento, observado o disposto nos §§ 5º-A a 8º-A deste artigo; (Inciso vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado no DOU de 2/7/2025, com redação dada pela Lei Complementar nº 227, de 13/1/2026)\n\nVI - produtor rural de que trata o art. 164 desta Lei Complementar;\n\nVII - transportador autônomo de carga de que trata o art. 169 desta Lei Complementar;\n\nVIII - entidade ou unidade de natureza econômico-contábil, sem fins lucrativos que presta serviços de planos de assistência à saúde sob a modalidade de autogestão;\n\nIX - entidades de previdência complementar fechada, constituídas de acordo com a Lei Complementar nº 109, de 29 de maio de 2001; e\n\nX - fundos patrimoniais instituídos nos termos da Lei nº 13.800, de 4 de janeiro de 2019. (Inciso vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado no DOU de 2/7/2025)\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 26.",
+      "Art. 41."
+     ],
+     "ref": "arts. 26 e 41 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 26, caput.</strong> Não são contribuintes, ressalvada a importação (art. 156-A, § 1º, II, da CF): condomínio edilício; consórcio do art. 278 da Lei 6.404/1976; sociedade em conta de participação; nanoempreendedor; fundos de investimento, nos termos dos §§ 5º-A a 8º-A; produtor rural do art. 164; transportador autônomo de carga do art. 169; autogestão de planos de saúde sem fins lucrativos; entidades fechadas de previdência complementar; e fundos patrimoniais da Lei 13.800/2019. Os incisos V e X foram vetados e mantidos pelo Congresso.",
+      "<strong>§ 1º.</strong> Podem optar pelo regime regular, com a trava do art. 41, § 6º: as entidades sem personalidade jurídica (condomínio, consórcio e SCP), o nanoempreendedor, o produtor rural e o transportador autônomo de carga (o inciso III foi vetado).",
+      "<strong>§§ 2º a 4º.</strong> O condomínio que opta paga sobre todas as taxas e valores cobrados de condôminos e terceiros. Sem a opção, se as taxas dos condôminos forem menos de 80% da receita total, paga sobre as demais operações e credita na proporção delas. No consórcio sem opção, os consorciados pagam na proporção das participações; na SCP sem opção, o sócio ostensivo paga, sem excluir o que cabe aos sócios participantes.",
+      "<strong>§§ 5º-A e 5º-B.</strong> Não são contribuintes: os FII e Fiagro com operações imobiliárias, cotas negociadas só em bolsa ou balcão organizado, ao menos 100 cotistas e sem concentração (pessoa física com 20% ou mais, grupo familiar até o 2º grau com 40% ou mais, pessoa jurídica com mais de 50%, salvo entidade fechada de previdência); os FII e Fiagro detidos em mais de 95% por esses fundos, por fundos de previdência e seguros de pessoas, por entidades de previdência ou por fundos com os mesmos requisitos; e os demais fundos aplicados só em ativos financeiros admitidos pela CVM. A posse temporária de bens recuperados judicial ou extrajudicialmente não descaracteriza esses requisitos. Os §§ 5º, 6º e 8º foram vetados.",
+      "<strong>§§ 6º-A a 8º-A.</strong> São contribuintes no regime regular os FII e Fiagro imobiliários que não cumprem esses requisitos ou que são tributados como pessoa jurídica, e os FIDC e fundos que antecipam recebíveis sem ser entidade de investimento. FII e Fiagro isentos podem optar, a qualquer tempo e de forma irretratável, pelo regime regular. O § 7º foi revogado. Fundo que passe a poder fazer novas operações tributadas será contribuinte no regime regular.",
+      "<strong>§§ 9º a 11.</strong> A autogestão de saúde e a previdência fechada viram contribuintes se descumprirem o art. 14 do CTN. Se o fundo for contribuinte, o rendimento do cotista do regime de serviços financeiros correspondente às operações já tributadas no fundo sai da base dele. Para o nanoempreendedor motorista de aplicativo ou entregador, conta como receita bruta 25% do valor bruto mensal. O regulamento pode simplificar as obrigações acessórias dessas pessoas e entes.",
+      "<strong>Art. 41.</strong> O regime regular abrange todas as regras de incidência e apuração da lei, inclusive as dos regimes diferenciados e específicos, e alcança quem não optou pelo Simples Nacional ou pelo MEI. Os optantes seguem esses regimes, mas o optante pelo Simples pode apurar IBS e CBS pelo regular, na forma da LC 123/2006. Quem recebeu ressarcimento de créditos no ano corrente ou no anterior não pode sair do regime regular, e a mesma trava vale para as demais opções facultativas pelo regime regular."
+     ],
+     "literalidades": [
+      {
+       "trecho": "IV - nanoempreendedor, assim entendido a pessoa física que tenha auferido receita bruta inferior a 50% (cinquenta por cento) do limite estabelecido para adesão ao regime do MEI",
+       "marcas": [
+        "inferior a 50% (cinquenta por cento)"
+       ],
+       "afirmacao": "O nanoempreendedor, pessoa física com receita bruta inferior a 50% do limite do MEI e que não aderiu a esse regime, é contribuinte obrigatório do IBS e da CBS.",
+       "gabarito": "E",
+       "porque": "O nanoempreendedor não é contribuinte (art. 26, IV); ele pode optar pelo regime regular (§ 1º, II)."
+      },
+      {
+       "trecho": "25% (vinte e cinco por cento) do valor bruto mensal recebido",
+       "marcas": [
+        "25% (vinte e cinco por cento)"
+       ],
+       "afirmacao": "Um motorista de aplicativo recebe R$ 8.000 brutos por mês. Para saber se é nanoempreendedor, conta-se como receita bruta só R$ 2.000 por mês.",
+       "gabarito": "C",
+       "porque": "Para o transporte privado individual de passageiros e a entrega de bens, considera-se receita bruta 25% do valor bruto mensal (art. 26, § 10)."
+      },
+      {
+       "trecho": "Os optantes pelo Simples Nacional poderão exercer a opção de apurar e recolher o IBS e a CBS pelo regime regular",
+       "marcas": [
+        "poderão exercer a opção"
+       ],
+       "afirmacao": "Uma microempresa do Simples Nacional que vende para grandes indústrias pode escolher apurar e recolher o IBS e a CBS pelo regime regular.",
+       "gabarito": "C",
+       "porque": "O optante pelo Simples pode exercer essa opção (art. 41, § 3º), na forma da LC 123/2006. Se receber ressarcimento de créditos, não pode sair do regime regular no mesmo ano nem no seguinte (§ 5º)."
+      }
+     ],
+     "conferido": {
+      "Art. 26.": "6b712e3dfc93",
+      "Art. 41.": "d3a344ed8f64"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Na importação, até quem não é contribuinte pelo art. 26 paga IBS e CBS: o caput ressalva o art. 156-A, § 1º, II, da CF, que alcança a importação feita por qualquer pessoa física ou jurídica."
    ],
    "macetes": [
     {
@@ -227,6 +916,28 @@
     "gabarito": "E",
     "explicacao": "Ele está no rol de quem não é contribuinte (art. 26, IV, da LC 214/2025)."
    },
+   "pegadinhas": [
+    {
+     "errado": "Plataforma digital no exterior não responde pelo IBS e pela CBS.",
+     "certo": "Responde, ainda que domiciliada no exterior (art. 22).",
+     "fonte": "Questão do app sobre o art. 22 da LC 214/2025"
+    },
+    {
+     "errado": "O adquirente em leilão judicial só é contribuinte se tiver atividade econômica habitual.",
+     "certo": "É contribuinte mesmo sem atividade econômica (art. 21, II).",
+     "fonte": "Questão do app sobre o art. 21 da LC 214/2025"
+    },
+    {
+     "errado": "O nanoempreendedor é contribuinte obrigatório do IBS e da CBS.",
+     "certo": "Não é contribuinte, mas pode optar pelo regime regular (art. 26, IV e § 1º).",
+     "fonte": "Questão do app sobre o art. 26 da LC 214/2025"
+    },
+    {
+     "errado": "A plataforma pode emitir nota em nome do fornecedor nacional sem a anuência dele.",
+     "certo": "Depende da anuência do fornecedor (art. 22, § 12).",
+     "fonte": "Questão do app sobre o art. 22 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "incidencia-do-ibs-e-da-cbs",
     "nao-cumulatividade-do-ibs-e-da-cbs"
@@ -263,30 +974,167 @@
     "passageiros",
     "metade do valor"
    ],
-   "resumo": "A base é o <strong>valor da operação</strong>, com juros, multas, descontos condicionais e tributos sobre a operação (art. 12, § 1º). Ficam fora o próprio IBS e a CBS (cálculo <strong>por fora</strong>), o IPI, os <strong>descontos incondicionais</strong> e, até 2032, ICMS, ISS, PIS e Cofins (§ 2º). Cada ente fixa a própria alíquota por lei específica: a União a da CBS, cada Estado e cada Município a sua parte do IBS (art. 14). Sem lei do ente, vale a <strong>alíquota de referência</strong>, fixada por <strong>resolução do Senado</strong> (arts. 14, § 3º, e 18). A alíquota do IBS na operação é a soma da do Estado com a do Município <strong>de destino</strong> (art. 15).",
+   "para_entender": [
+    {
+     "texto": "<strong>Local da operação:</strong> como se acha o Estado e o Município de destino.",
+     "tema": "incidencia-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "A <strong>base de cálculo</strong> é o valor sobre o qual se aplica a alíquota. No IBS e na CBS, é o <strong>valor da operação</strong>: tudo o que o fornecedor cobra, a qualquer título (art. 12 da LC 214/2025). A tabela mostra o que entra e o que fica fora. O cálculo é <strong>por fora</strong>: o próprio IBS e a CBS não entram na base, ao contrário do ICMS, que se incluía no próprio preço. Na falta de valor, em valor não expresso em dinheiro e entre partes relacionadas, usa-se o <strong>valor de mercado</strong>, o praticado entre partes independentes. A <strong>alíquota</strong> é o percentual aplicado à base. Cada ente fixa a sua por lei específica: a União a da CBS, cada Estado e cada Município a sua parcela do IBS, e o DF as duas parcelas (art. 14). A alíquota do IBS numa operação é a soma da do Estado com a do Município de destino (art. 15). A <strong>alíquota de referência</strong>, fixada por resolução do Senado (art. 18), é a que vale quando o ente não aprova lei própria; o ente pode também usá-la como ponto de partida, somando ou subtraindo pontos percentuais.",
    "esquema": {
     "rotulo": "entra ou não entra na base (art. 12)",
     "html": "<table><thead><tr><th>Integra a base</th><th>Não integra</th></tr></thead><tbody><tr><td>Juros, multas e encargos</td><td>O próprio IBS e a CBS</td></tr><tr><td>Descontos sob condição</td><td>Descontos incondicionais</td></tr><tr><td>Frete cobrado pelo fornecedor</td><td>IPI</td></tr><tr><td>Tributos e tarifas sobre a operação</td><td>ICMS, ISS, PIS e Cofins de 2026 a 2032</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Valor da operação",
+      "o_que_e": "Valor integral cobrado pelo fornecedor a qualquer título, com acréscimos de ajuste, juros, multas, encargos, descontos condicionais, frete do próprio fornecedor, tributos e preços públicos e demais importâncias, como seguros e taxas.",
+      "grupo": "Base de cálculo"
+     },
+     {
+      "nome": "Desconto incondicional",
+      "o_que_e": "Parcela redutora do preço que consta do documento fiscal e não depende de evento posterior, inclusive a de programa de fidelidade sem cobrança do próprio fornecedor; fica fora da base.",
+      "atencao": "O desconto sob condição entra na base.",
+      "grupo": "Base de cálculo"
+     },
+     {
+      "nome": "Valor de mercado",
+      "o_que_e": "Valor praticado em operações comparáveis entre partes não relacionadas; vale na falta de valor, em operação sem valor determinado, em valor não representado em dinheiro e entre partes relacionadas.",
+      "grupo": "Base de cálculo"
+     },
+     {
+      "nome": "Passagem internacional de ida e volta",
+      "o_que_e": "Vendidos os dois trechos em conjunto, a base é a metade do valor cobrado.",
+      "atencao": "O trecho de volta começa no exterior, e no transporte de passageiros o local é o de início.",
+      "grupo": "Base de cálculo"
+     },
+     {
+      "nome": "Alíquota do ente",
+      "o_que_e": "Fixada por lei específica: União (CBS), cada Estado e cada Município (IBS) e o DF (as duas parcelas). Pernambuco exerce a competência municipal em Fernando de Noronha.",
+      "grupo": "Alíquotas"
+     },
+     {
+      "nome": "Vinculação à referência",
+      "o_que_e": "O ente pode vincular sua alíquota à de referência, com acréscimo ou decréscimo de pontos percentuais, ou fixá-la sem vínculo.",
+      "grupo": "Alíquotas"
+     },
+     {
+      "nome": "Sem lei do ente",
+      "o_que_e": "Aplica-se a alíquota de referência da respectiva esfera.",
+      "atencao": "A operação não fica desonerada à espera da lei.",
+      "grupo": "Alíquotas"
+     },
+     {
+      "nome": "Alíquota-padrão",
+      "o_que_e": "Na LC 214/2025, é a alíquota que cada ente fixou; as reduções dos regimes diferenciados se aplicam sobre ela.",
+      "grupo": "Alíquotas"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 14. As alíquotas da CBS e do IBS serão fixadas por lei específica do respectivo ente federativo, nos seguintes termos:\n\nI - a União fixará a alíquota da CBS;\n\nII - cada Estado fixará sua alíquota do IBS;\n\nIII - cada Município fixará sua alíquota do IBS; e\n\nIV - o Distrito Federal exercerá as competências estadual e municipal na fixação de suas alíquotas.\n\n§ 1º Para fins do disposto no inciso III do caput deste artigo, o Estado de Pernambuco exercerá a competência municipal relativamente às operações realizadas no Distrito Estadual de Fernando de Noronha, conforme o art. 15 do Ato das Disposições Constitucionais Transitórias (ADCT).\n\n§ 2º Ao fixar sua alíquota, cada ente federativo poderá:\n\nI - vinculá-la à alíquota de referência da respectiva esfera federativa, de que trata o art. 18 desta Lei Complementar, por meio de acréscimo ou decréscimo de pontos percentuais; ou\n\nII - defini-la sem vinculação à alíquota de referência da respectiva esfera federativa.\n\n§ 3º Na ausência de lei específica que estabeleça a alíquota do ente federativo, será aplicada a alíquota de referência da respectiva esfera federativa.\n\n§ 4º As referências nesta Lei Complementar às alíquotas-padrão devem ser entendidas como remissões às alíquotas fixadas por cada ente federativo nos termos deste artigo.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 12."
+     ],
+     "ref": "art. 12 da LC 214/2025",
+     "regras": [
+      "<strong>Caput e § 1º.</strong> A base é o valor da operação, salvo disposição em contrário, e compreende o valor integral cobrado pelo fornecedor a qualquer título, com o que mostra o esquema.",
+      "<strong>§§ 2º e 3º.</strong> Não integram a base o próprio IBS e a CBS, o IPI, os descontos incondicionais, os reembolsos por operações por conta e ordem de terceiros com documento em nome do terceiro, de 2026 a 2032 o ICMS, o ISS, o PIS e a Cofins incidentes na operação, e a contribuição de iluminação pública do art. 149-A da CF. Desconto incondicional é o que consta do documento fiscal e não depende de evento posterior, inclusive em programa de fidelidade sem cobrança do próprio fornecedor.",
+      "<strong>§§ 4º a 6º.</strong> Usa-se o valor de mercado na falta de valor, em operação sem valor determinado, em valor não representado em dinheiro e entre partes relacionadas. Valor em moeda estrangeira é convertido pelo câmbio do Banco Central, conforme o regulamento. O ganho em derivativo contratado fora de condições de mercado para ocultar o valor da operação entra na base.",
+      "<strong>§§ 7º a 9º.</strong> Na devolução ou no cancelamento, a base é a da operação original. No transporte internacional de passageiros com ida e volta vendidas em conjunto, a base é a metade do valor cobrado. Na energia elétrica comprada de forma multilateral, a base é o valor da liquidação financeira apurado pela Câmara de Comercialização, na proporção dos estabelecimentos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - o montante do IBS e da CBS incidentes sobre a operação;",
+       "marcas": [
+        "o montante do IBS e da CBS"
+       ],
+       "afirmacao": "O montante do próprio IBS e da CBS incidentes sobre a operação integra a base de cálculo desses tributos.",
+       "gabarito": "E",
+       "porque": "O IBS e a CBS não integram a própria base (art. 12, § 2º, I): o cálculo é por fora."
+      },
+      {
+       "trecho": "III - descontos concedidos sob condição;",
+       "marcas": [
+        "sob condição"
+       ],
+       "afirmacao": "Uma loja vende a prazo e concede 5% de desconto se o cliente pagar até o dia 10. Esse desconto integra a base de cálculo do IBS e da CBS.",
+       "gabarito": "C",
+       "porque": "O desconto condicional integra o valor da operação (art. 12, § 1º, III); só o incondicional sai da base (§ 2º, III)."
+      },
+      {
+       "trecho": "a base de cálculo será a metade do valor cobrado",
+       "marcas": [
+        "a metade do valor cobrado"
+       ],
+       "afirmacao": "Na venda conjunta de passagem aérea internacional de ida e volta, a base de cálculo do IBS e da CBS é o valor integral cobrado pelos dois trechos.",
+       "gabarito": "E",
+       "porque": "A base é a metade do valor cobrado (art. 12, § 8º)."
+      }
+     ],
+     "conferido": {
+      "Art. 12.": "1ae895bad930"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 15. A alíquota do IBS incidente sobre cada operação corresponderá:\n\nI - à soma:\n\na) da alíquota do Estado de destino da operação; e\n\nb) da alíquota do Município de destino da operação; ou\n\nII - à alíquota do Distrito Federal, quando este for o destino da operação.\n\nParágrafo único. Para fins do disposto neste artigo, o destino da operação é o local da ocorrência da operação, definido nos termos do art. 11 desta Lei Complementar.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 14.",
+      "Art. 15.",
+      "Art. 18."
+     ],
+     "ref": "arts. 14, 15 e 18 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 14.</strong> As alíquotas são fixadas por lei específica de cada ente: a União fixa a da CBS; cada Estado e cada Município, a sua do IBS; o DF exerce as competências estadual e municipal. Pernambuco exerce a competência municipal em Fernando de Noronha (art. 15 do ADCT). O ente pode vincular sua alíquota à de referência, por acréscimo ou decréscimo de pontos percentuais, ou fixá-la sem vínculo. Sem lei específica, aplica-se a alíquota de referência da esfera. As alíquotas-padrão citadas na lei são as fixadas por cada ente.",
+      "<strong>Art. 15.</strong> A alíquota do IBS em cada operação é a soma das alíquotas do Estado e do Município de destino, ou a do DF quando ele for o destino. O destino é o local da operação definido no art. 11.",
+      "<strong>Art. 18.</strong> As alíquotas de referência são fixadas por resolução do Senado: para a CBS, de 2027 a 2035; para o IBS, de 2029 a 2035, segundo as regras de cálculo da transição; depois de 2035, valem as do ano anterior."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Na ausência de lei específica que estabeleça a alíquota do ente federativo, será aplicada a alíquota de referência da respectiva esfera federativa.",
+       "marcas": [
+        "será aplicada a alíquota de referência"
+       ],
+       "afirmacao": "Um Município que não aprovou lei fixando sua alíquota do IBS cobra, nas operações destinadas a ele, a alíquota de referência da esfera municipal.",
+       "gabarito": "C",
+       "porque": "Sem lei específica, aplica-se a alíquota de referência da respectiva esfera (art. 14, § 3º); a operação não fica desonerada."
+      },
+      {
+       "trecho": "As alíquotas de referência serão fixadas por resolução do Senado Federal",
+       "marcas": [
+        "resolução do Senado Federal"
+       ],
+       "afirmacao": "As alíquotas de referência do IBS e da CBS são fixadas por lei complementar federal.",
+       "gabarito": "E",
+       "porque": "São fixadas por resolução do Senado Federal (art. 18 da LC 214/2025; art. 156-A, § 1º, XII, da CF)."
+      },
+      {
+       "trecho": "b) da alíquota do Município de destino da operação; ou",
+       "marcas": [
+        "Município de destino"
+       ],
+       "afirmacao": "Uma loja de Arapiraca vende pela internet uma geladeira entregue a um consumidor em Natal. A alíquota do IBS é a soma das alíquotas do Rio Grande do Norte e de Natal.",
+       "gabarito": "C",
+       "porque": "A alíquota do IBS é a soma das alíquotas do Estado e do Município de destino (art. 15, I)."
+      }
+     ],
+     "conferido": {
+      "Art. 14.": "66926e23fd3a",
+      "Art. 15.": "f8d33ceb6a12",
+      "Art. 18.": "8da64e021a6e"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
-    },
-    {
-     "texto": "Art. 18. As alíquotas de referência serão fixadas por resolução do Senado Federal:\n\nI - para a CBS, de 2027 a 2035, nos termos dos arts. 353 a 359, 366, 368 e 369 desta Lei Complementar;\n\nII - para o IBS, de 2029 a 2035, nos termos dos arts. 361 a 366 e 369 desta Lei Complementar;\n\nIII - para o IBS e a CBS, após 2035, as vigentes no ano anterior.",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O transporte efetuado pelo próprio fornecedor, ou por conta e ordem dele, entra na base quando cobrado como parte do valor da operação (art. 12, § 1º, IV)."
    ],
    "macetes": [
     {
@@ -303,12 +1151,27 @@
     "gabarito": "E",
     "explicacao": "São fixadas por resolução do Senado Federal (art. 18 da LC 214/2025; art. 156-A, § 1º, XII, da CF)."
    },
+   "pegadinhas": [
+    {
+     "errado": "Os descontos concedidos sob condição são excluídos da base de cálculo do IBS e da CBS.",
+     "certo": "Entram na base; saem só os incondicionais (art. 12, § 1º, III, e § 2º, III).",
+     "fonte": "Questão do app sobre o art. 12 da LC 214/2025"
+    },
+    {
+     "errado": "No transporte internacional com ida e volta vendidas juntas, a base é a metade e o local da operação é o destino final do passageiro.",
+     "certo": "A base é a metade, e o local, no transporte de passageiros, é o de início do transporte (arts. 11, VI, e 12, § 8º).",
+     "fonte": "Questão do app sobre base e alíquotas"
+    },
+    {
+     "errado": "Na falta de lei do ente, as operações ficam desoneradas.",
+     "certo": "Aplica-se a alíquota de referência (art. 14, § 3º).",
+     "fonte": "Questão do app sobre o art. 14 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "incidencia-do-ibs-e-da-cbs",
     "transicao-da-reforma-tributaria"
-   ],
-   "aprofundamento": "<p><strong>Transporte internacional de passageiros com ida e volta.</strong> Quando os trechos de ida e volta do transporte internacional de passageiros são vendidos em conjunto, a base de cálculo do IBS e da CBS é a metade do valor cobrado (art. 12, § 8º, da LC 214/2025). O trecho de volta começa no exterior, e no transporte de passageiros o local da operação é o de início do transporte (art. 11, VI); por isso a lei manda tributar só metade do bilhete conjunto, e não o valor integral nem o valor do trecho mais caro.</p>",
-   "aprofundamento_rotulo": "Aprofundamento"
+   ]
   },
   {
    "slug": "nao-cumulatividade-do-ibs-e-da-cbs",
@@ -347,24 +1210,163 @@
     "aliquota zero",
     "aliquota reduzida"
    ],
-   "resumo": "A não cumulatividade é <strong>plena</strong>: o contribuinte do regime regular credita tudo o que comprou, com a única exceção expressa das aquisições de <strong>uso ou consumo pessoal</strong> (art. 47; CF, art. 156-A, § 1º, VIII). Mas o crédito depende de o débito da etapa anterior ter sido <strong>extinto</strong> (pago, compensado ou recolhido no split payment) e de <strong>documento fiscal eletrônico idôneo</strong>. IBS e CBS são apurados separadamente e <strong>não se compensam entre si</strong> (§ 1º, I). Compra de optante do Simples também gera crédito (§ 3º). Operação imune, isenta, com alíquota zero, diferimento ou suspensão não gera crédito ao adquirente, salvo crédito presumido previsto em lei (art. 49). A apuração é <strong>mensal</strong> e consolida todos os estabelecimentos (arts. 42 e 43).",
+   "para_entender": [
+    {
+     "texto": "<strong>Modalidades de extinção do débito:</strong> o crédito depende de o débito anterior ter sido extinto.",
+     "tema": "split-payment"
+    }
+   ],
+   "resumo": "<strong>Não cumulatividade</strong> é a técnica que evita que o tributo se acumule ao longo da cadeia: cada contribuinte abate, como <strong>crédito</strong>, o tributo que incidiu nas compras e paga só a diferença sobre o que vende. No IBS e na CBS ela é <strong>plena</strong>: o contribuinte do regime regular credita tudo o que adquire, com a única exceção expressa das aquisições de <strong>uso ou consumo pessoal</strong>, como bens do sócio sem ligação com a empresa (art. 47 da LC 214/2025; CF, art. 156-A, § 1º, VIII). O crédito é <strong>financeiro</strong>: não precisa se integrar fisicamente ao produto. A comparação com o ICMS está na tabela. Mas o crédito só nasce quando o débito da etapa anterior foi <strong>extinto</strong> (pago, compensado, recolhido no split payment ou pelo adquirente) e há documento fiscal eletrônico idôneo. IBS e CBS são apurados de forma separada e não se compensam entre si. A compra imune, isenta, com alíquota zero, diferimento ou suspensão não dá crédito ao adquirente, salvo crédito presumido expresso (art. 49). <strong>Crédito presumido</strong> é o crédito que a lei concede sem corresponder a tributo efetivamente pago. A <strong>apuração</strong>, o encontro mensal de débitos e créditos, consolida todos os estabelecimentos (arts. 42 e 43).",
    "esquema": {
     "rotulo": "ICMS antigo × IBS",
     "html": "<table><thead><tr><th></th><th>ICMS (LC 87/1996)</th><th>IBS e CBS (LC 214/2025)</th></tr></thead><tbody><tr><td><strong>Crédito</strong></td><td>Físico, com restrições (uso e consumo só a partir de 2033)</td><td>Financeiro, amplo; só sai o uso ou consumo pessoal</td></tr><tr><td><strong>Condição</strong></td><td>Documento idôneo e escrituração</td><td>Documento eletrônico idôneo e débito anterior extinto</td></tr><tr><td><strong>Apuração</strong></td><td>Por estabelecimento</td><td>Centralizada, mensal</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Uso ou consumo pessoal",
+      "o_que_e": "Aquisição que a lei complementar considera de uso ou consumo pessoal (art. 57); é a única exceção ao crédito, além das hipóteses expressas da lei.",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Crédito condicionado à extinção",
+      "o_que_e": "O crédito corresponde ao débito destacado no documento fiscal da compra e extinto por uma das modalidades do art. 27, ou ao crédito presumido previsto em lei.",
+      "atencao": "Não basta provar o pagamento ao fornecedor: exige documento fiscal eletrônico idôneo.",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Combustíveis",
+      "o_que_e": "Na compra de combustível do regime específico, dispensa-se a prova da extinção; o crédito é o valor registrado no documento fiscal.",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Compra de optante do Simples",
+      "o_que_e": "Gera crédito ao adquirente do regime regular, no montante equivalente ao IBS e à CBS pagos pelo Simples.",
+      "atencao": "O optante que não escolheu o regime regular não apropria créditos.",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Estorno por perda",
+      "o_que_e": "Perecimento, deterioração, roubo, furto ou extravio do bem obrigam a estornar o crédito.",
+      "atencao": "No ativo imobilizado roubado ou furtado, o estorno é proporcional à vida útil e às taxas de depreciação do regulamento.",
+      "grupo": "Estorno"
+     },
+     {
+      "nome": "Falência do adquirente",
+      "o_que_e": "O fornecedor do regime regular credita o débito extinto de venda não paga por adquirente falido, se a compra não deu crédito ao adquirente, a operação foi contabilizada desde o fato gerador e o pagamento dos credores terminou em definitivo.",
+      "grupo": "Estorno"
+     },
+     {
+      "nome": "Devolução e cancelamento",
+      "o_que_e": "Se o adquirente não é do regime regular, o fornecedor credita ou estorna o débito; se é, o regulamento define débito ou estorno para o adquirente e crédito ou estorno para o fornecedor.",
+      "atencao": "Com split payment, o valor recolhido pode voltar ao fornecedor em até 3 dias úteis, sem gerar crédito para ele.",
+      "grupo": "Estorno"
+     },
+     {
+      "nome": "Apuração consolidada",
+      "o_que_e": "Um só encontro mensal de débitos e créditos de todos os estabelecimentos, inclusive dos regimes diferenciados e específicos; pagamento e ressarcimento centralizados em um estabelecimento.",
+      "atencao": "Não se apura por estabelecimento, como no ICMS.",
+      "grupo": "Apuração"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 47. O contribuinte sujeito ao regime regular poderá apropriar créditos do IBS e da CBS quando ocorrer a extinção por qualquer das modalidades previstas no art. 27 dos débitos relativos às operações em que seja adquirente, excetuadas exclusivamente aquelas consideradas de uso ou consumo pessoal, nos termos do art. 57 desta Lei Complementar, e as demais hipóteses previstas nesta Lei Complementar.\n\n§ 1º A apropriação dos créditos de que trata o caput deste artigo:\n\nI - será realizada de forma segregada para o IBS e para a CBS, vedadas, em qualquer hipótese, a compensação de créditos de IBS com valores devidos de CBS e a compensação de créditos de CBS com valores devidos de IBS; e\n\nII - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.\n\n§ 2º Os valores dos créditos do IBS e da CBS apropriados corresponderão:\n\nI - aos valores dos débitos, respectivamente, do IBS e da CBS que tenham sido destacados no documento fiscal de aquisição e extintos por qualquer das modalidades previstas no art. 27; ou\n\nII - aos valores de crédito presumido, nas hipóteses previstas nesta Lei Complementar.\n\n§ 3º O disposto neste artigo aplica-se, inclusive, nas aquisições de bem ou serviço fornecido por optante pelo Simples Nacional.\n\n§ 4º Nas operações em que o contribuinte seja adquirente de combustíveis tributados no regime específico de que trata o Capítulo I do Título V deste Livro, fica dispensada a comprovação de extinção dos débitos do IBS e da CBS para apropriação dos créditos.\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 42.",
+      "Art. 43."
+     ],
+     "ref": "arts. 42 e 43 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 42.</strong> A apuração consolida as operações de todos os estabelecimentos do contribuinte e todos os seus débitos e créditos no regime regular, inclusive os dos regimes diferenciados e específicos, salvo previsão expressa em contrário; o pagamento e o pedido de ressarcimento são centralizados em um único estabelecimento.",
+      "<strong>Art. 43.</strong> O período de apuração é mensal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A apuração relativa ao IBS e à CBS consolidará as operações realizadas por todos os estabelecimentos do contribuinte.",
+       "marcas": [
+        "todos os estabelecimentos"
+       ],
+       "afirmacao": "Uma rede de farmácias com lojas em três Estados faz uma única apuração mensal do IBS e da CBS, que reúne as operações de todas as lojas.",
+       "gabarito": "C",
+       "porque": "A apuração consolida as operações de todos os estabelecimentos e é mensal (arts. 42 e 43). Não se apura por estabelecimento, como no ICMS."
+      }
+     ],
+     "conferido": {
+      "Art. 42.": "72035828f5c1",
+      "Art. 43.": "7328f75a08b2"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 49. As operações imunes, isentas ou sujeitas a alíquota zero, a diferimento ou a suspensão não permitirão a apropriação de créditos pelos adquirentes dos bens e serviços.\n\nParágrafo único. O disposto no caput deste artigo não impede a apropriação dos créditos presumidos previstos expressamente nesta Lei Complementar.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 47.",
+      "Art. 49."
+     ],
+     "ref": "arts. 47 e 49 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 47, caput e § 1º.</strong> O contribuinte do regime regular apropria crédito quando o débito da operação em que é adquirente é extinto por qualquer modalidade do art. 27, salvo uso ou consumo pessoal (art. 57) e as demais hipóteses da lei. A apropriação é segregada para o IBS e para a CBS, vedada a compensação cruzada, e depende de documento fiscal eletrônico idôneo.",
+      "<strong>§§ 2º a 5º.</strong> O crédito é o débito destacado no documento fiscal e extinto, ou o crédito presumido previsto em lei. A regra vale também para compras de optante pelo Simples. Na compra de combustível do regime específico, dispensa-se a prova de extinção, e o crédito é o valor registrado no documento fiscal idôneo.",
+      "<strong>§§ 6º e 7º.</strong> Estorna-se o crédito se o bem perecer, se deteriorar ou for roubado, furtado ou extraviado; no roubo ou furto de bem do ativo imobilizado, de forma proporcional à vida útil e às taxas de depreciação do regulamento.",
+      "<strong>§§ 8º e 9º.</strong> Na devolução ou no cancelamento de venda a quem não é do regime regular, o fornecedor credita ou estorna o débito. Se o pagamento é feito pelo Simples, sem opção pelo regime regular, o optante não credita, e o adquirente do regime regular credita o valor equivalente ao devido pelo Simples.",
+      "<strong>§§ 10 e 11.</strong> Vender com alíquota reduzida não obriga a estornar créditos, salvo previsão expressa. O fornecedor do regime regular pode creditar o débito extinto de venda não paga por adquirente falido, se a compra não deu crédito ao adquirente, a operação foi contabilizada desde o fato gerador e o pagamento dos credores do falido terminou em definitivo.",
+      "<strong>§§ 12 e 13.</strong> Na devolução e no cancelamento com adquirente do regime regular, o regulamento disciplina débito ou estorno do adquirente e crédito ou estorno do fornecedor. Se o débito foi extinto por split payment, o regulamento pode prever a transferência do valor ao fornecedor em até 3 dias úteis, valor que ele não pode apropriar como crédito.",
+      "<strong>Art. 49.</strong> As operações imunes, isentas ou com alíquota zero, diferimento ou suspensão não dão crédito ao adquirente, sem prejuízo dos créditos presumidos expressos na lei."
+     ],
+     "literalidades": [
+      {
+       "trecho": "vedadas, em qualquer hipótese, a compensação de créditos de IBS com valores devidos de CBS",
+       "marcas": [
+        "vedadas, em qualquer hipótese"
+       ],
+       "afirmacao": "Uma empresa com crédito acumulado de CBS e débito de IBS no mês pode usar o crédito de CBS para pagar o IBS.",
+       "gabarito": "E",
+       "porque": "É vedada, em qualquer hipótese, a compensação cruzada entre créditos de um tributo e débitos do outro (art. 47, § 1º, I)."
+      },
+      {
+       "trecho": "II - está condicionada à comprovação da operação por meio de documento fiscal eletrônico idôneo.",
+       "marcas": [
+        "documento fiscal eletrônico idôneo"
+       ],
+       "afirmacao": "A apropriação de créditos de IBS e CBS independe de documento fiscal eletrônico idôneo, bastando a prova do pagamento ao fornecedor.",
+       "gabarito": "E",
+       "porque": "O crédito depende de documento fiscal eletrônico idôneo (art. 47, § 1º, II)."
+      },
+      {
+       "trecho": "O adquirente deverá estornar o crédito apropriado caso o bem adquirido venha a perecer, deteriorar-se ou ser objeto de roubo, furto ou extravio.",
+       "marcas": [
+        "roubo, furto ou extravio"
+       ],
+       "afirmacao": "Uma loja do regime regular tem mercadorias do estoque furtadas. Ela deve estornar os créditos de IBS e CBS apropriados na compra dessas mercadorias.",
+       "gabarito": "C",
+       "porque": "O furto obriga ao estorno, ainda que o evento seja alheio à vontade do contribuinte (art. 47, § 6º)."
+      },
+      {
+       "trecho": "não impede a apropriação dos créditos presumidos previstos expressamente nesta Lei Complementar",
+       "marcas": [
+        "créditos presumidos"
+       ],
+       "afirmacao": "Na aquisição isenta de IBS e CBS, o adquirente pode apropriar crédito calculado pela alíquota de referência.",
+       "gabarito": "E",
+       "porque": "A compra isenta não dá crédito; só cabem os créditos presumidos expressos na lei (art. 49 e parágrafo único)."
+      }
+     ],
+     "conferido": {
+      "Art. 47.": "db5a3ee54562",
+      "Art. 49.": "1a44931af778"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Do lado do fornecedor, a venda imune ou isenta anula os créditos das compras na proporção das operações imunes e isentas sobre o total (art. 51, caput e § 1º). Exportações, livros, jornais, periódicos, papel de impressão e radiodifusão de recepção livre ficam fora dessa anulação (§ 2º). Na alíquota zero, os créditos anteriores são mantidos (art. 52).",
+    "Do lado do adquirente, a compra imune, isenta, com alíquota zero, diferimento ou suspensão não dá crédito (art. 49). Separe sempre os dois lados da mesma operação."
    ],
    "macetes": [
     {
@@ -381,12 +1383,37 @@
     "gabarito": "E",
     "explicacao": "Operações isentas, imunes ou com alíquota zero não permitem crédito ao adquirente, salvo crédito presumido expresso (art. 49 da LC 214/2025)."
    },
+   "pegadinhas": [
+    {
+     "errado": "No regime regular, o contribuinte pode apropriar créditos inclusive sobre aquisições de uso ou consumo pessoal.",
+     "certo": "Uso ou consumo pessoal é a exceção ao crédito (art. 47, caput).",
+     "fonte": "Questão do app sobre o art. 47 da LC 214/2025"
+    },
+    {
+     "errado": "A loja que tem mercadoria do estoque roubada mantém o crédito, por ser evento alheio à sua vontade.",
+     "certo": "Deve estornar o crédito (art. 47, § 6º).",
+     "fonte": "Questão do app sobre o art. 47 da LC 214/2025"
+    },
+    {
+     "errado": "As vendas com alíquota reduzida acarretam o estorno proporcional dos créditos das aquisições.",
+     "certo": "Não acarretam estorno, salvo previsão expressa (art. 47, § 10).",
+     "fonte": "Questão do app sobre o art. 47 da LC 214/2025"
+    },
+    {
+     "errado": "Para o fornecedor, a isenção, assim como a alíquota zero, mantém os créditos anteriores.",
+     "certo": "A isenção anula os créditos na proporção; a alíquota zero os mantém (arts. 51 e 52).",
+     "fonte": "Questão do app sobre o art. 51 da LC 214/2025"
+    },
+    {
+     "errado": "A anulação de créditos por vendas isentas ou imunes é integral, qualquer que seja a proporção delas.",
+     "certo": "É proporcional ao valor dessas operações sobre o total (art. 51, § 1º).",
+     "fonte": "Questão do app sobre o art. 51 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "split-payment",
     "contribuintes-do-ibs-e-da-cbs"
-   ],
-   "aprofundamento": "<p><strong>Estorno por perda do bem.</strong> O adquirente deve estornar o crédito apropriado se o bem adquirido perecer, se deteriorar ou for objeto de roubo, furto ou extravio (art. 47, § 6º, da LC 214/2025). O bem não chegará a uma operação tributada, e o crédito perde a razão de ser; não importa que a perda seja alheia à vontade do contribuinte. No roubo ou furto de bem do ativo imobilizado, o estorno é proporcional ao prazo de vida útil e às taxas de depreciação definidos em regulamento (§ 7º), porque parte do bem já foi usada na atividade tributada.</p><p><strong>Isenção e imunidade anulam; alíquota zero mantém.</strong> Do lado do fornecedor, a imunidade e a isenção acarretam a anulação dos créditos relativos às operações anteriores, de forma proporcional ao valor das operações imunes e isentas sobre o valor de todas as operações do fornecedor (art. 51, caput e § 1º). Ficam fora dessa anulação as exportações e as operações imunes com livros, jornais, periódicos e o papel destinado à impressão e com radiodifusão sonora e de sons e imagens de recepção livre (art. 51, § 2º, que remete ao art. 9º, IV e VI). Na alíquota zero, ao contrário, os créditos relativos às operações anteriores são mantidos (art. 52). E a venda com alíquota reduzida não obriga a estornar créditos, salvo previsão expressa (art. 47, § 10).</p><p><strong>Dois lados da mesma operação.</strong> Separe o adquirente do fornecedor. Para o adquirente, a compra imune, isenta, com alíquota zero, diferimento ou suspensão não dá crédito, salvo crédito presumido expresso (art. 49). Para o fornecedor que vende nessas condições, a isenção e a imunidade anulam os créditos das compras na proporção dessas vendas, e a alíquota zero os preserva (arts. 51 e 52).</p>",
-   "aprofundamento_rotulo": "Aprofundamento"
+   ]
   },
   {
    "slug": "split-payment",
@@ -421,18 +1448,161 @@
     "vinculacao a operacao",
     "ordem cronologica"
    ],
-   "resumo": "Os débitos de IBS e CBS se extinguem por compensação com créditos, pagamento, <strong>split payment</strong>, recolhimento pelo adquirente ou pagamento pelo responsável (art. 27). No split payment, quem segrega e recolhe o tributo ao Comitê Gestor e à Receita Federal são os <strong>prestadores de serviços de pagamento</strong> e as operadoras de sistemas de pagamento, no momento da liquidação financeira (art. 31). No <strong>procedimento padrão</strong>, o originador da transação informa a operação e os valores dos tributos (art. 32). No <strong>simplificado</strong>, que é opcional, retém-se um percentual preestabelecido do valor, que não guarda relação com o débito real e vale obrigatoriamente para os dois tributos (art. 33).",
+   "para_entender": [
+    {
+     "texto": "<strong>Crédito e débito extinto:</strong> por que o split payment destrava o crédito do comprador.",
+     "tema": "nao-cumulatividade-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Extinguir o débito tributário é fazê-lo desaparecer, em regra pelo pagamento. O art. 27 da LC 214/2025 lista cinco modalidades para o IBS e a CBS: compensação com créditos, pagamento pelo contribuinte, recolhimento na liquidação financeira (<strong>split payment</strong>), recolhimento pelo adquirente e pagamento pelo responsável. <strong>Liquidação financeira</strong> é o momento em que o dinheiro do comprador chega ao vendedor, por cartão, Pix ou boleto. No split payment, os <strong>prestadores de serviços de pagamento</strong> e as operadoras de sistemas de pagamento separam, nesse momento, a parte do tributo e a recolhem ao Comitê Gestor e à Receita Federal; o restante vai ao fornecedor (art. 31). Os dois procedimentos estão na tabela: no <strong>padrão</strong>, quem origina o pagamento informa a operação e os valores dos tributos, e o prestador consulta o sistema antes de separar (art. 32); no <strong>simplificado</strong>, opcional, separa-se um percentual preestabelecido do valor, sem relação com o débito real (art. 33).",
    "esquema": {
     "rotulo": "padrão × simplificado",
     "html": "<table><thead><tr><th></th><th>Padrão (art. 32)</th><th>Simplificado (art. 33)</th></tr></thead><tbody><tr><td><strong>Valor retido</strong></td><td>O IBS e a CBS da operação</td><td>Percentual preestabelecido do valor</td></tr><tr><td><strong>Quem fixa o percentual</strong></td><td>—</td><td>Comitê Gestor (IBS) e Receita Federal (CBS)</td></tr><tr><td><strong>Adesão</strong></td><td>Regra</td><td>Opcional; para os dois tributos juntos</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Originador da transação",
+      "o_que_e": "Quem inicia a transação no arranjo de pagamento, pagador ou recebedor.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Transação iniciada pelo recebedor",
+      "o_que_e": "Originada por instrução ou instrumento do recebedor, que define o valor (boleto, QR code de cobrança); o pagador só paga, ainda que em parte.",
+      "atencao": "O recebedor pode não enviar a vinculação ao prestador, mas então o documento fiscal deve trazer os dados que liguem a operação ao pagamento.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Transação iniciada pelo pagador",
+      "o_que_e": "Originada pelo pagador, que define o valor sem intervenção prévia do recebedor (transferência por iniciativa própria).",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Quem segrega",
+      "o_que_e": "Os prestadores de serviços de pagamento eletrônico e as operadoras de sistemas de pagamento, inclusive de arranjos fora da regulação do Banco Central.",
+      "atencao": "Não é o fornecedor; e o prestador não vira responsável tributário pelo tributo da operação (art. 34, V).",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Valor segregado no padrão",
+      "o_que_e": "Diferença positiva entre os débitos destacados no documento fiscal e as parcelas já extintas por outra modalidade.",
+      "atencao": "Sem consulta possível, segrega-se o débito informado, e o excesso volta ao fornecedor em até 3 dias úteis.",
+      "grupo": "Procedimentos"
+     },
+     {
+      "nome": "Percentual do simplificado",
+      "o_que_e": "Fixado pelo Comitê Gestor (IBS) e pela Receita Federal (CBS), pode variar por setor ou por contribuinte, com metodologia uniforme divulgada antes.",
+      "atencao": "Vale para os dois tributos ao mesmo tempo; não se aplica só a um.",
+      "grupo": "Procedimentos"
+     },
+     {
+      "nome": "Opção pela conduta",
+      "o_que_e": "Originar o pagamento sem identificar os valores do IBS e da CBS implica opção pelo simplificado.",
+      "grupo": "Procedimentos"
+     },
+     {
+      "nome": "Destino do valor retido no simplificado",
+      "o_que_e": "Paga primeiro os débitos do período em vendas a quem não é do regime regular e, no fim do período, os demais débitos; a sobra volta ao fornecedor em até 3 dias úteis da conclusão da apuração.",
+      "atencao": "Não gera crédito ao adquirente do regime regular.",
+      "grupo": "Procedimentos"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 27. Os débitos do IBS e da CBS decorrentes da incidência sobre operações com bens ou com serviços serão extintos mediante as seguintes modalidades:\n\nI - compensação com créditos, respectivamente, de IBS e de CBS apropriados pelo contribuinte, nos termos dos arts. 47 a 56 e das demais disposições desta Lei Complementar;\n\nII - pagamento pelo contribuinte;\n\nIII - recolhimento na liquidação financeira da operação (split payment), nos termos dos arts. 31 a 35 desta Lei Complementar;\n\nIV - recolhimento pelo adquirente, nos termos do art. 36 desta Lei Complementar; ou\n\nV - pagamento por aquele a quem esta Lei Complementar atribuir responsabilidade.\n\nParágrafo único. A extinção de débitos de que trata o caput deste artigo:\n\nI - nas hipóteses dos incisos I e II do caput deste artigo, será imputada aos valores dos débitos não extintos do IBS e da CBS incidentes sobre as operações ocorridas no período de apuração na ordem cronológica do documento fiscal, segundo critérios estabelecidos no regulamento;\n\nII - nas hipóteses dos incisos III e IV do caput deste artigo, será vinculada à respectiva operação; e\n\nIII - na hipótese do inciso V do caput deste artigo, será vinculada à operação específica a que se refere ou, caso não se refira a uma operação específica, será imputada na forma do inciso I deste parágrafo.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 27."
+     ],
+     "ref": "art. 27 da LC 214/2025",
+     "regras": [
+      "<strong>Caput.</strong> Os débitos do IBS e da CBS se extinguem por compensação com créditos do mesmo tributo, pagamento pelo contribuinte, split payment, recolhimento pelo adquirente (art. 36) ou pagamento pelo responsável.",
+      "<strong>Parágrafo único.</strong> Na compensação e no pagamento pelo contribuinte, a extinção é imputada aos débitos não extintos do período, na ordem cronológica do documento fiscal; no split payment e no recolhimento pelo adquirente, fica vinculada à operação; no pagamento pelo responsável, vincula-se à operação específica ou, se não houver, segue a imputação cronológica."
+     ],
+     "literalidades": [
+      {
+       "trecho": "II - nas hipóteses dos incisos III e IV do caput deste artigo, será vinculada à respectiva operação; e",
+       "marcas": [
+        "vinculada à respectiva operação"
+       ],
+       "afirmacao": "A extinção de débitos por split payment ou por recolhimento pelo adquirente fica vinculada à respectiva operação, enquanto a extinção por compensação ou pagamento é imputada aos débitos do período em ordem cronológica.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 27, parágrafo único, I e II."
+      }
+     ],
+     "conferido": {
+      "Art. 27.": "3a881fafd309"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 31.",
+      "Art. 32.",
+      "Art. 33."
+     ],
+     "ref": "arts. 31 a 33 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 31.</strong> Nas transações de pagamento de operações com bens ou serviços, os prestadores de serviços de pagamento eletrônico e as operadoras de sistemas de pagamento segregam e recolhem ao Comitê Gestor e à Receita Federal, na liquidação financeira, os valores do IBS e da CBS. Há o procedimento padrão e o simplificado. Os conceitos de originador e de transação iniciada pelo recebedor ou pelo pagador estão na figura. Atos conjuntos do Comitê Gestor e da Receita disciplinam o tema, que alcança todos os prestadores, em arranjos abertos ou fechados, públicos ou privados, inclusive fora da regulação do Banco Central.",
+      "<strong>Art. 32, §§ 1º a 2º-A.</strong> No padrão, o originador transmite ao prestador dados que vinculem as operações ao pagamento e identifiquem os valores do IBS e da CBS. Transmitem o fornecedor ou o adquirente que iniciam o pagamento, a plataforma digital nas operações feitas por ela ou quem mais iniciar a transação. Na transação iniciada pelo recebedor, ele pode não enviar a vinculação, e então o documento fiscal deve trazê-la.",
+      "<strong>Art. 32, §§ 3º e 4º.</strong> Antes de liberar o dinheiro ao fornecedor, o prestador consulta o sistema do Comitê Gestor e da Receita e segrega a diferença positiva entre os débitos destacados no documento fiscal e as parcelas já extintas. Sem consulta possível, segrega o débito informado, e o Comitê Gestor e a Receita calculam o valor devido e devolvem o excesso ao fornecedor em até 3 dias úteis.",
+      "<strong>Art. 33, caput a § 2º-A.</strong> O simplificado é opcional: o valor segregado é um percentual preestabelecido do valor das operações, fixado pelo Comitê Gestor para o IBS e pela Receita para a CBS, vedado o uso para um tributo só; pode ser diferenciado por setor econômico ou por contribuinte, com metodologia uniforme divulgada antes; e não guarda relação com o débito efetivo. Originar o pagamento sem identificar os valores dos tributos implica opção pelo simplificado.",
+      "<strong>Art. 33, §§ 3º a 7º.</strong> O valor recolhido paga, na ordem cronológica do documento fiscal, os débitos do período em vendas a quem não é do regime regular e, no fim do período, os demais débitos; a sobra é transferida ao fornecedor em até 3 dias úteis da conclusão da apuração. O § 5º foi revogado pela LC 227/2026. Ato conjunto pode impor o simplificado nas vendas a quem não é do regime regular enquanto o padrão não funcionar bem nos principais meios de pagamento. O recolhimento simplificado só extingue débitos na ordem do § 3º e não gera crédito ao adquirente do regime regular."
+     ],
+     "literalidades": [
+      {
+       "trecho": "os prestadores de serviços de pagamento eletrônico e as instituições operadoras de sistemas de pagamentos deverão segregar e recolher",
+       "marcas": [
+        "prestadores de serviços de pagamento eletrônico"
+       ],
+       "afirmacao": "No split payment, cabe ao próprio fornecedor segregar e recolher o IBS e a CBS no momento da liquidação financeira da transação.",
+       "gabarito": "E",
+       "porque": "Quem segrega e recolhe são os prestadores de serviços de pagamento eletrônico e as operadoras de sistemas de pagamento (art. 31)."
+      },
+      {
+       "trecho": "vedada a aplicação de procedimento simplificado para apenas um desses tributos",
+       "marcas": [
+        "apenas um desses tributos"
+       ],
+       "afirmacao": "No split payment, o contribuinte pode usar o procedimento simplificado apenas para o IBS e manter a CBS no procedimento padrão.",
+       "gabarito": "E",
+       "porque": "É vedado aplicar o simplificado a um só dos tributos (art. 33, § 2º, I)."
+      },
+      {
+       "trecho": "II - poderá ser diferenciado por setor econômico ou por contribuinte",
+       "marcas": [
+        "por setor econômico ou por contribuinte"
+       ],
+       "afirmacao": "O percentual do procedimento simplificado do split payment pode ser diferenciado por setor econômico ou por contribuinte, com base em metodologia uniforme previamente divulgada.",
+       "gabarito": "C",
+       "porque": "É o art. 33, § 2º, II."
+      },
+      {
+       "trecho": "em até 3 (três) dias úteis contados da conclusão da apuração",
+       "marcas": [
+        "conclusão da apuração"
+       ],
+       "afirmacao": "Os valores recolhidos pelo simplificado e não usados para pagar débitos do período são transferidos ao fornecedor em até 3 dias úteis contados de cada transação de pagamento.",
+       "gabarito": "E",
+       "porque": "O prazo de 3 dias úteis conta da conclusão da apuração (art. 33, § 4º)."
+      }
+     ],
+     "conferido": {
+      "Art. 31.": "00e06073e9d7",
+      "Art. 32.": "01ba6acf449f",
+      "Art. 33.": "97f73ecb9b50"
+     },
+     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "Os prestadores de serviços de pagamento segregam e recolhem, mas não são responsáveis tributários pelo IBS e pela CBS das operações cujos pagamentos liquidam (art. 34, V); o sujeito passivo continua responsável pelo saldo (art. 34, IV).",
+    "No pagamento parcelado pelo fornecedor, a segregação é proporcional, na liquidação de cada parcela, e a antecipação de recebíveis não altera essa obrigação (art. 34, II e III)."
    ],
    "macetes": [
     {
@@ -445,8 +1615,23 @@
     "gabarito": "E",
     "explicacao": "É vedado aplicar o procedimento simplificado para apenas um dos tributos (art. 33, § 2º, I, da LC 214/2025)."
    },
-   "aprofundamento": "<p><strong>O banco divide, mas não responde.</strong> Os prestadores de serviços de pagamento e as operadoras de sistemas de pagamento respondem por segregar e recolher, mas não são responsáveis tributários pelo IBS e pela CBS das operações cujos pagamentos liquidam (art. 34, V, da LC 214/2025). O sujeito passivo continua responsável pelo eventual saldo a recolher (art. 34, IV).</p><p><strong>Quanto se segrega no padrão.</strong> Antes de disponibilizar os recursos ao fornecedor, o prestador consulta o sistema do Comitê Gestor e da Receita Federal e segrega a diferença positiva entre os débitos de IBS e CBS destacados no documento fiscal eletrônico e as parcelas desses débitos já extintas por qualquer modalidade do art. 27, como a compensação com créditos (art. 32, § 3º). Sem consulta possível, segrega-se o débito informado, e o excesso é devolvido ao fornecedor em até 3 dias úteis (art. 32, § 4º).</p><p><strong>Parcelamento e recebíveis.</strong> No pagamento parcelado pelo fornecedor, a segregação é proporcional, na liquidação de todas as parcelas; a antecipação de recebíveis não altera essa obrigação (art. 34, II e III).</p><p><strong>Simplificado sem crédito.</strong> O valor recolhido no procedimento simplificado não dá crédito ao adquirente contribuinte do regime regular e extingue débitos do fornecedor só na ordem do art. 33, § 3º (art. 33, § 7º).</p><p><strong>Simplificado: como se fixa o percentual.</strong> O percentual do procedimento simplificado é fixado pelo Comitê Gestor, para o IBS, e pela Receita Federal, para a CBS, e pode ser diferenciado por setor econômico ou por contribuinte, a partir de metodologia uniforme divulgada previamente, que considera, entre outros dados, a alíquota média das operações e o histórico de utilização de créditos (art. 33, § 2º, I e II, da LC 214/2025). Como não guarda relação com o débito efetivo da operação (§ 2º, III), o valor retido é acertado na apuração.</p><p><strong>Opção que decorre da conduta.</strong> Desde a LC 227/2026, originar a transação de pagamento sem identificar os valores do IBS e da CBS implica opção pelo procedimento simplificado (art. 33, § 2º-A). Enquanto o procedimento padrão não funcionar em nível adequado nos principais meios de pagamento, ato conjunto do Comitê Gestor e da Receita Federal pode determinar o simplificado nas vendas a quem não é contribuinte do regime regular (§ 6º).</p><p><strong>Para onde vai o valor retido.</strong> O valor recolhido no simplificado paga, na ordem cronológica do documento fiscal, primeiro os débitos não extintos das operações do período com adquirentes que não são contribuintes do regime regular e, no fim do período, os demais débitos não extintos (§ 3º); a sobra é transferida ao fornecedor em até 3 dias úteis contados da conclusão da apuração (§ 4º). No split payment, a regra geral é outra: a extinção fica vinculada à respectiva operação, como no recolhimento pelo adquirente, enquanto na compensação e no pagamento pelo contribuinte ela é imputada aos débitos do período na ordem cronológica do documento fiscal (art. 27, parágrafo único, I e II). O simplificado é a exceção, porque o valor retido não corresponde ao débito daquela operação (art. 33, § 7º, I).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "No split payment, o fornecedor segrega e recolhe o tributo.",
+     "certo": "Quem segrega são os prestadores de serviços de pagamento e as operadoras de sistemas de pagamento (art. 31).",
+     "fonte": "Questão do app sobre o art. 31 da LC 214/2025"
+    },
+    {
+     "errado": "Os prestadores que segregam e recolhem tornam-se responsáveis tributários pelos tributos da operação.",
+     "certo": "Não são responsáveis tributários (art. 34, V).",
+     "fonte": "Questão do app sobre o split payment"
+    },
+    {
+     "errado": "O percentual do simplificado é único para todos os setores, vedada a diferenciação.",
+     "certo": "Pode variar por setor econômico ou por contribuinte (art. 33, § 2º, II).",
+     "fonte": "Questão do app sobre o art. 33 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "nao-cumulatividade-do-ibs-e-da-cbs",
     "comite-gestor-do-ibs"
