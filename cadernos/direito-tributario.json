@@ -448,6 +448,7 @@
     "n5172-1966-art-8",
     "n5172-1966-art-18",
     "nCF-1988-art-147",
+    "nCF-1988-art-153",
     "nCF-1988-art-154"
    ],
    "conceitos": [
@@ -524,7 +525,7 @@
      {
       "nome": "União",
       "o_que_e": "II, IE, IR, IPI, IOF, ITR, grandes fortunas e imposto seletivo (CF, art. 153); residual e extraordinário (art. 154)",
-      "atencao": "O art. 153 está no caderno de Reforma Tributária.",
+      "atencao": "O Imposto Seletivo (art. 153, VIII e § 6º, da EC 132/2023) é regulado pela LC 214/2025, no caderno de Reforma Tributária.",
       "grupo": "Quem institui o quê"
      },
      {
@@ -647,11 +648,19 @@
      "norma": "nCF-1988",
      "artigos": [
       "Art. 147.",
+      "Art. 153.",
       "Art. 154."
      ],
-     "ref": "arts. 147 e 154 da CF",
+     "ref": "arts. 147, 153 e 154 da CF",
      "regras": [
       "<strong>Art. 147.</strong> Impostos nos Territórios Federais e no Distrito Federal.",
+      "<strong>Art. 153, I a VII.</strong> Impostos da União sobre: importação de produtos estrangeiros; exportação, para o exterior, de produtos nacionais ou nacionalizados; renda e proventos de qualquer natureza; produtos industrializados (IPI); operações de crédito, câmbio e seguro, ou relativas a títulos ou valores mobiliários (IOF); propriedade territorial rural (ITR); e grandes fortunas, nos termos de lei complementar.",
+      "<strong>Art. 153, VIII (EC 132/2023).</strong> Imposto Seletivo: produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente, nos termos de lei complementar. A lei complementar é a LC 214/2025 (arts. 409 e seguintes), no caderno de Reforma Tributária.",
+      "<strong>§ 1º.</strong> O Poder Executivo pode, atendidas as condições e os limites da lei, alterar as alíquotas do imposto de importação, do de exportação, do IPI e do IOF. Basta decreto do Presidente da República, dentro desses limites. O IR e o ITR ficam fora.",
+      "<strong>§§ 2º e 3º.</strong> O imposto de renda segue a generalidade, a universalidade e a progressividade, na forma da lei (o inciso II do § 2º foi revogado pela EC 20/1998). O IPI é seletivo em função da essencialidade do produto; não cumulativo, compensando-se o devido em cada operação com o cobrado nas anteriores (a indústria que comprou insumo com IPI destacado compensa esse valor com o IPI devido na saída do produto que fabricou); não incide sobre produtos industrializados destinados ao exterior; e terá reduzido o impacto sobre a aquisição de bens de capital pelo contribuinte (EC 42/2003).",
+      "<strong>§ 4º (EC 42/2003).</strong> O ITR é progressivo, com alíquotas que desestimulam a propriedade improdutiva; não incide sobre pequenas glebas rurais, definidas em lei, exploradas pelo proprietário que não possua outro imóvel; e pode ser fiscalizado e cobrado pelos Municípios que optarem, na forma da lei, sem redução do imposto nem outra forma de renúncia fiscal.",
+      "<strong>§ 5º.</strong> O ouro definido em lei como ativo financeiro ou instrumento cambial sofre só o IOF, devido na operação de origem, com alíquota mínima de 1%; a arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem.",
+      "<strong>§ 6º (EC 132/2023).</strong> O Imposto Seletivo não incide sobre exportações nem sobre energia elétrica e telecomunicações; incide uma única vez sobre o bem ou serviço; não integra a própria base, mas integra a do ICMS, do ISS, do IBS e da CBS; pode ter o mesmo fato gerador e a mesma base de outros tributos; tem alíquotas fixadas em lei ordinária, específicas por unidade de medida ou ad valorem; e, na extração, é cobrado independentemente da destinação, com alíquota máxima de 1% do valor de mercado do produto.",
       "<strong>Art. 154.</strong> Competência residual da União, por lei complementar, e impostos extraordinários de guerra."
      ],
      "literalidades": [
@@ -690,10 +699,67 @@
        "afirmacao": "O Distrito Federal cobra IPTU e ISS.",
        "gabarito": "C",
        "porque": "Ao DF cabem os impostos municipais (art. 147), além dos estaduais (art. 155)."
+      },
+      {
+       "trecho": "alterar as alíquotas dos impostos enumerados nos incisos I, II, IV e V",
+       "marcas": [
+        "incisos I, II, IV e V"
+       ],
+       "afirmacao": "Um decreto do Presidente da República que eleva a alíquota do IOF, dentro dos limites fixados em lei, é compatível com a Constituição.",
+       "gabarito": "C",
+       "porque": "O § 1º do art. 153 faculta ao Executivo alterar as alíquotas do II, do IE, do IPI e do IOF, atendidas as condições e os limites da lei."
+      },
+      {
+       "trecho": "quando as explore o proprietário que não possua outro imóvel",
+       "marcas": [
+        "não possua outro imóvel"
+       ],
+       "afirmacao": "O ITR não incide sobre a pequena gleba rural, definida em lei, ainda que o proprietário que a explora possua outro imóvel.",
+       "gabarito": "E",
+       "porque": "A não incidência exige que o proprietário que explora a gleba não possua outro imóvel (art. 153, § 4º, II)."
+      },
+      {
+       "trecho": "a alíquota mínima será de um por cento",
+       "marcas": [
+        "mínima",
+        "um por cento"
+       ],
+       "afirmacao": "O IOF sobre o ouro definido em lei como ativo financeiro terá alíquota mínima de dois por cento.",
+       "gabarito": "E",
+       "porque": "A alíquota mínima é de um por cento (art. 153, § 5º)."
+      },
+      {
+       "trecho": "II - setenta por cento para o Município de origem.",
+       "marcas": [
+        "setenta por cento",
+        "Município"
+       ],
+       "afirmacao": "O ouro ativo financeiro extraído num Município de Minas Gerais paga IOF, e 70% dessa arrecadação vai para o Município de origem.",
+       "gabarito": "C",
+       "porque": "A arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem (art. 153, § 5º, I e II). Inverter os percentuais é o erro clássico."
+      },
+      {
+       "trecho": "terá suas alíquotas fixadas em lei ordinária",
+       "marcas": [
+        "lei ordinária"
+       ],
+       "afirmacao": "O Imposto Seletivo é previsto nos termos de lei complementar, mas suas alíquotas podem ser fixadas por lei ordinária.",
+       "gabarito": "C",
+       "porque": "O inciso VIII remete à lei complementar, e o § 6º, VI, manda fixar as alíquotas em lei ordinária, específicas ou ad valorem."
+      },
+      {
+       "trecho": "a alíquota máxima corresponderá a 1% (um por cento) do valor de mercado do produto",
+       "marcas": [
+        "máxima"
+       ],
+       "afirmacao": "Na extração, o Imposto Seletivo é cobrado independentemente da destinação, com alíquota mínima de 1% do valor de mercado do produto.",
+       "gabarito": "E",
+       "porque": "O 1% é teto: alíquota máxima (art. 153, § 6º, VII)."
       }
      ],
      "conferido": {
       "Art. 147.": "84c2ae7ce1eb",
+      "Art. 153.": "a03407568d54",
       "Art. 154.": "5de94813ef0f"
      },
      "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
@@ -757,7 +823,7 @@
     {
      "em": "2026-11-27",
      "tipo": "lei",
-     "nota": "Tema reorganizado: ganha o art. 18 do CTN e a parafiscalidade dos conselhos profissionais; os arts. 153, 155, 156 e 156-A da CF passam a ser citados; sai o aprofundamento."
+     "nota": "Tema reorganizado: ganha o art. 18 do CTN, o art. 153 da CF e a parafiscalidade dos conselhos profissionais; os arts. 155, 156 e 156-A da CF são citados; sai o aprofundamento."
     }
    ],
    "relacionados": [
@@ -8472,7 +8538,7 @@
     {
      "em": "2026-11-27",
      "tipo": "lei",
-     "nota": "Tema reorganizado: ganha os arts. 161 e 162 da CF; o art. 153 da CF, dono na Reforma Tributária, passa a ser citado; sai o aprofundamento."
+     "nota": "Tema reorganizado: ganha os arts. 161 e 162 da CF; o art. 153 da CF passa a ser citado; sai o aprofundamento."
     }
    ],
    "relacionados": [

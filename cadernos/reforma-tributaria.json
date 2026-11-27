@@ -19,7 +19,6 @@
    "dispositivos": [
     "nCF-1988-art-156-a",
     "nCF-1988-art-149-b",
-    "nCF-1988-art-153",
     "n214-2025-art-1",
     "n214-2025-art-2"
    ],
@@ -195,67 +194,6 @@
      "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
-     "norma": "nCF-1988",
-     "artigos": [
-      "Art. 153."
-     ],
-     "ref": "art. 153 da CF",
-     "regras": [
-      "<strong>Caput, I a VII.</strong> Impostos da União: importação, exportação, renda e proventos, produtos industrializados (IPI), operações de crédito, câmbio e seguro ou relativas a títulos e valores mobiliários (IOF), propriedade territorial rural (ITR) e grandes fortunas, este nos termos de lei complementar. São os impostos federais clássicos, que a reforma não extinguiu.",
-      "<strong>Caput, VIII.</strong> Imposto sobre produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente, nos termos de lei complementar: o Imposto Seletivo, detalhado em tema próprio.",
-      "<strong>§ 1º.</strong> O Poder Executivo pode alterar as alíquotas do imposto de importação, do de exportação, do IPI e do IOF, atendidas as condições e os limites da lei. Basta decreto do Presidente da República, dentro desses limites.",
-      "<strong>§§ 2º e 3º.</strong> O imposto de renda segue a generalidade, a universalidade e a progressividade (o inciso II do § 2º foi revogado pela EC 20/1998). O IPI é seletivo pela essencialidade, não cumulativo, não incide sobre produtos destinados ao exterior e tem impacto reduzido na aquisição de bens de capital.",
-      "<strong>§ 4º.</strong> O ITR é progressivo, para desestimular a propriedade improdutiva; não incide sobre pequenas glebas rurais, definidas em lei, exploradas pelo proprietário que não tenha outro imóvel; e pode ser fiscalizado e cobrado pelos Municípios que optarem, sem redução do imposto nem renúncia fiscal.",
-      "<strong>§ 5º.</strong> O ouro definido em lei como ativo financeiro ou instrumento cambial sofre só o IOF, devido na operação de origem, com alíquota mínima de 1%; a arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem.",
-      "<strong>§ 6º.</strong> O Imposto Seletivo não incide sobre exportações nem sobre energia elétrica e telecomunicações; incide uma única vez; não integra a própria base, mas integra a do ICMS, do ISS, do IBS e da CBS; pode ter o mesmo fato gerador e a mesma base de outros tributos; tem alíquotas fixadas em lei ordinária, específicas ou ad valorem; e, na extração, é cobrado independentemente da destinação, com alíquota máxima de 1% do valor de mercado."
-     ],
-     "literalidades": [
-      {
-       "trecho": "a alíquota mínima será de um por cento",
-       "marcas": [
-        "mínima",
-        "um por cento"
-       ],
-       "afirmacao": "O IOF sobre o ouro definido em lei como ativo financeiro terá alíquota mínima de dois por cento.",
-       "gabarito": "E",
-       "porque": "A alíquota mínima é de um por cento (art. 153, § 5º)."
-      },
-      {
-       "trecho": "II - setenta por cento para o Município de origem.",
-       "marcas": [
-        "setenta por cento",
-        "Município"
-       ],
-       "afirmacao": "O ouro ativo financeiro extraído num Município de Minas Gerais paga IOF, e 70% dessa arrecadação vai para o Município de origem.",
-       "gabarito": "C",
-       "porque": "A arrecadação vai 30% para o Estado, o DF ou o Território de origem e 70% para o Município de origem (art. 153, § 5º, I e II). Inverter os percentuais é o erro clássico."
-      },
-      {
-       "trecho": "terá suas alíquotas fixadas em lei ordinária",
-       "marcas": [
-        "lei ordinária"
-       ],
-       "afirmacao": "O Imposto Seletivo é previsto nos termos de lei complementar, mas suas alíquotas podem ser fixadas por lei ordinária.",
-       "gabarito": "C",
-       "porque": "O inciso VIII remete à lei complementar, e o § 6º, VI, manda fixar as alíquotas em lei ordinária, específicas ou ad valorem."
-      },
-      {
-       "trecho": "a alíquota máxima corresponderá a 1% (um por cento) do valor de mercado do produto",
-       "marcas": [
-        "máxima"
-       ],
-       "afirmacao": "Na extração, o Imposto Seletivo é cobrado independentemente da destinação, com alíquota mínima de 1% do valor de mercado do produto.",
-       "gabarito": "E",
-       "porque": "O 1% é teto: alíquota máxima (art. 153, § 6º, VII)."
-      }
-     ],
-     "conferido": {
-      "Art. 153.": "a03407568d54"
-     },
-     "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
-    },
-    {
      "norma": "n214-2025",
      "artigos": [
       "Art. 1º.",
@@ -324,7 +262,7 @@
     },
     {
      "errado": "O Estado pode fixar, por lei própria, alíquota de IBS menor para alimentos e maior para eletrônicos.",
-     "certo": "A alíquota do ente é a mesma para todas as operações, ressalvadas as hipóteses da CF (art. 156-A, § 1º, VI).",
+     "certo": "A alíquota do ente é a mesma para todas as operações, ressalvadas as hipóteses da CF (art. 156-A, § 1º, VI). Não há alíquota conforme a essencialidade, como no ICMS.",
      "fonte": "Questão do app sobre o art. 156-A da CF"
     },
     {
@@ -361,6 +299,11 @@
      "errado": "Com a EC 132/2023, cada Estado e cada Município passou a editar sua própria lei instituidora do IBS.",
      "certo": "O IBS é instituído por lei complementar única, a LC 214/2025; o ente só fixa a alíquota.",
      "fonte": "Questão do app sobre a reforma tributária"
+    },
+    {
+     "errado": "A devolução do IBS prevista no art. 156-A, § 5º, VIII, beneficia também pessoas jurídicas de pequeno porte.",
+     "certo": "A devolução é a pessoas físicas, com limites e beneficiários definidos em lei complementar, para reduzir as desigualdades de renda.",
+     "fonte": "Questão do app sobre o art. 156-A da CF"
     }
    ],
    "relacionados": [
@@ -1676,30 +1619,217 @@
     "taxista",
     "sociedade de profissionais"
    ],
-   "resumo": "Os <strong>regimes diferenciados</strong> valem de modo uniforme no país inteiro e são compensados por ajuste nas alíquotas de referência (art. 126). Há três faixas: <strong>redução de 30%</strong> para serviços de profissionais intelectuais fiscalizados por conselho, como administradores, advogados e contadores (art. 127); <strong>redução de 60%</strong> para educação, saúde, dispositivos médicos, medicamentos, alimentos, higiene pessoal e insumos agropecuários, entre outros (art. 128); e <strong>alíquota zero</strong> para itens como produtos hortícolas, frutas e ovos, absorventes, certos medicamentos e automóveis de PcD, TEA e taxistas (art. 143). Os <strong>regimes específicos</strong> são outra coisa: mudam a própria forma de cobrança em setores como combustíveis, serviços financeiros e bens imóveis (art. 181 e seguintes).",
+   "para_entender": [
+    {
+     "texto": "<strong>Alíquota-padrão e alíquota de referência:</strong> sobre qual alíquota incide cada redução.",
+     "tema": "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Um <strong>regime diferenciado</strong> é um tratamento mais favorável que a LC 214/2025 dá a certos bens e serviços, de modo uniforme no país inteiro, por <strong>alíquota reduzida</strong> ou por <strong>crédito presumido</strong>, que é um crédito que a lei concede ao comprador sem que ele tenha pago o tributo na etapa anterior (art. 126). Como todo benefício pesa sobre os demais contribuintes, a perda é compensada por ajuste nas <strong>alíquotas de referência</strong>. A redução é aplicada sobre a <strong>alíquota-padrão</strong>, isto é, a alíquota que cada ente fixou por lei (§ 4º). As três faixas, de 30%, de 60% e de alíquota zero, estão na tabela, e cada uma tem lista fechada na lei: fora dela, vale a alíquota-padrão. O <strong>regime específico</strong> é outra coisa: em vez de só reduzir a alíquota, muda a própria forma de cobrar, a base ou o crédito, como nos serviços financeiros (art. 181).",
    "esquema": {
     "rotulo": "as três faixas",
     "html": "<table><thead><tr><th>Faixa</th><th>Exemplos</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>−30%</strong></td><td>Profissionais intelectuais com conselho profissional</td><td>127</td></tr><tr><td><strong>−60%</strong></td><td>Educação, saúde, medicamentos, alimentos, higiene, insumos agropecuários</td><td>128</td></tr><tr><td><strong>Zero</strong></td><td>Cesta básica nacional, hortícolas, frutas e ovos, saúde menstrual, carro de PcD, TEA e taxista</td><td>125 e 143</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Regime diferenciado",
+      "o_que_e": "Alíquota reduzida ou crédito presumido, uniforme no país, com ajuste das alíquotas de referência para reequilibrar a arrecadação (art. 126).",
+      "atencao": "Vale também na importação dos mesmos bens e serviços (§ 1º), mas não nas remessas do Regime de Tributação Simplificada, salvo medicamentos importados por pessoa física para uso próprio (§ 6º).",
+      "grupo": "Regras comuns"
+     },
+     {
+      "nome": "Crédito presumido",
+      "o_que_e": "Crédito concedido por lei ao adquirente, sem tributo pago na etapa anterior.",
+      "atencao": "Só pode ser apropriado com documento fiscal eletrônico emitido pelo adquirente, identificando o fornecedor, e com o efetivo pagamento ao fornecedor (art. 126, § 5º).",
+      "grupo": "Regras comuns"
+     },
+     {
+      "nome": "Mudança da lista",
+      "o_que_e": "Acrescentar, excluir ou substituir bens e serviços beneficiados só vale depois da avaliação e do ajuste dos §§ 9º e 11 do art. 156-A da CF (art. 126, § 2º).",
+      "atencao": "Há exceções de pequeno impacto, até 0,02 ponto percentual da alíquota de referência (§ 3º).",
+      "grupo": "Regras comuns"
+     },
+     {
+      "nome": "Redução de 30%",
+      "o_que_e": "Serviços de 18 profissões intelectuais, de natureza científica, literária ou artística, fiscalizadas por conselho profissional: administradores, advogados, arquitetos e urbanistas, assistentes sociais, bibliotecários, biólogos, contabilistas, economistas, economistas domésticos, profissionais de educação física, engenheiros e agrônomos, estatísticos, médicos veterinários e zootecnistas, museólogos, químicos, relações públicas e técnicos industriais e agrícolas (art. 127).",
+      "atencao": "Médico, dentista e psicólogo não estão no art. 127: os serviços de saúde ficam nos 60% do art. 128.",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Sociedade de profissionais",
+      "o_que_e": "A pessoa jurídica tem a redução de 30% se cumprir todos os requisitos: sócios habilitados e fiscalizados por conselho, nenhuma pessoa jurídica como sócia, não ser sócia de outra, nenhuma atividade fora das habilitações dos sócios e serviços da atividade-fim prestados pelos próprios sócios, admitidos auxiliares (art. 127, § 1º, II).",
+      "atencao": "Não impedem a redução a natureza jurídica da sociedade, a união de profissões diferentes do rol e a forma de distribuir lucros (§ 2º). Para a educação física, a pessoa jurídica fiscalizada por conselho não precisa desses requisitos (§ 3º).",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Redução de 60%",
+      "o_que_e": "Educação, saúde, dispositivos médicos, dispositivos de acessibilidade, medicamentos, alimentos para consumo humano, higiene pessoal e limpeza consumidos por famílias de baixa renda, produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas in natura, insumos agropecuários e aquícolas, produções artísticas, culturais, jornalísticas e audiovisuais nacionais, comunicação institucional, atividades desportivas e soberania e segurança nacional, da informação e cibernética (art. 128).",
+      "atencao": "Dispositivos médicos, de acessibilidade e medicamentos aparecem também na lista da alíquota zero (art. 143): o tratamento depende do anexo em que o item está.",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Comunicação institucional",
+      "o_que_e": "Redução de 60% para páginas eletrônicas, redes sociais, relações com a imprensa e relações públicas prestadas à administração pública direta, às autarquias e às fundações públicas (art. 140).",
+      "atencao": "O mesmo serviço prestado a empresa privada paga a alíquota-padrão (art. 140, parágrafo único).",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Atividades desportivas",
+      "o_que_e": "Redução de 60% para a educação desportiva e para a gestão e exploração do desporto por clubes filiados ao órgão estadual ou federal de coordenação, inclusive ingressos, sócio-torcedor e cessão e transferência de atletas (art. 141).",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Alíquota zero",
+      "o_que_e": "Dispositivos médicos e de acessibilidade, medicamentos, produtos de saúde menstrual, hortícolas, frutas e ovos, automóveis de pessoa com deficiência ou com TEA e de taxista, e serviços de ICT sem fins lucrativos (art. 143).",
+      "atencao": "A Cesta Básica Nacional também tem alíquota zero, mas por regra própria (art. 125).",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Automóvel com alíquota zero",
+      "o_que_e": "Carro de passageiros de fabricação nacional, com no mínimo 4 portas, comprado por taxista ou por pessoa com deficiência física, visual ou auditiva, com deficiência mental severa ou profunda ou com autismo de nível moderado ou grave (art. 149).",
+      "atencao": "Para a pessoa com deficiência ou com TEA, preço ao consumidor de até R$ 200 mil e benefício limitado a R$ 100 mil (§ 2º, II, com a redação da LC 227/2026). Para o taxista, carro elétrico ou com motor de até 2.000 cm³ a combustível renovável, flex ou híbrido (§ 2º, I).",
+      "grupo": "Faixas"
+     },
+     {
+      "nome": "Regime específico",
+      "o_que_e": "Forma própria de cobrança, com base, alíquota ou crédito diferentes, para setores como serviços financeiros (art. 181), combustíveis, planos de saúde, apostas, imóveis, bares e restaurantes, hotelaria, transporte e cooperativas.",
+      "atencao": "Detalhado em tema próprio deste caderno.",
+      "grupo": "Regimes específicos"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 126. Ficam instituídos regimes diferenciados do IBS e da CBS, de maneira uniforme em todo o território nacional, conforme estabelecido neste Título, com a aplicação de alíquotas reduzidas ou com a concessão de créditos presumidos, assegurados os respectivos ajustes nas alíquotas de referência do IBS e da CBS, com vistas a reequilibrar a arrecadação.\n\n§ 1º Atendidos os requisitos próprios, os regimes diferenciados de que trata este Capítulo aplicam-se, no que couber, à importação dos bens e serviços nele previstos.\n\n§ 2º A alteração das operações com bens ou com serviços beneficiadas pelos regimes diferenciados de que trata este Capítulo, mediante acréscimo, exclusão ou substituição, somente entrará em vigor após o cumprimento do disposto nos §§ 9º e 11 do art. 156-A da Constituição Federal.\n\n§ 3º O disposto no § 2º deste artigo não se aplica às hipóteses de que tratam o § 2º do art. 131, o § 2º do art. 132, o art. 134, o § 10 do art. 138, o § 2º do art. 144, o § 2º do art. 145 e o § 3º do art. 146 desta Lei Complementar desde que seus efeitos, considerados conjuntamente a cada período de revisão, não resultem em elevação superior a 0,02 (dois centésimos) ponto percentual da alíquota de referência da CBS, da alíquota de referência estadual do IBS ou da alíquota de referência municipal do IBS.\n\n§ 4º As reduções de alíquotas de que trata este Título serão aplicadas sobre as alíquotas-padrão do IBS e da CBS de cada ente federativo, fixadas na forma do art. 14 desta Lei Complementar.\n\n§ 5º A apropriação dos créditos presumidos previstos neste Título fica condicionada:\n\nI - à emissão de documento fiscal eletrônico relativo à operação pelo adquirente, com identificação do respectivo fornecedor; e\n\nII - ao efetivo pagamento ao fornecedor.\n\n§ 6º O disposto no § 1º deste artigo não se aplica às remessas internacionais sujeitas ao Regime de Tributação Simplificada (RTS), exceto na hipótese de produtos acabados pertencentes a classes de medicamentos importados por pessoa física para uso próprio ou individual. (Parágrafo acrescido pela Lei Complementar nº 227, de 13/1/2026)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 126."
+     ],
+     "ref": "art. 126 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 126, caput e § 1º.</strong> Ficam instituídos regimes diferenciados do IBS e da CBS, uniformes em todo o território nacional, com alíquotas reduzidas ou créditos presumidos, assegurados os ajustes nas alíquotas de referência para reequilibrar a arrecadação. Atendidos os requisitos próprios, eles valem, no que couber, na importação dos mesmos bens e serviços.",
+      "<strong>§§ 2º e 3º.</strong> Acrescentar, excluir ou substituir operações beneficiadas só entra em vigor depois de cumprido o art. 156-A, §§ 9º e 11, da CF. Ficam fora dessa exigência as hipóteses listadas no § 3º, desde que, somadas a cada período de revisão, não elevem em mais de 0,02 ponto percentual a alíquota de referência da CBS, a estadual ou a municipal do IBS.",
+      "<strong>§§ 4º a 6º.</strong> As reduções são aplicadas sobre as alíquotas-padrão de cada ente, fixadas pelo art. 14. O crédito presumido depende da emissão de documento fiscal eletrônico pelo adquirente, com identificação do fornecedor, e do efetivo pagamento ao fornecedor. A extensão à importação não vale nas remessas do Regime de Tributação Simplificada (RTS), salvo produtos acabados de classes de medicamentos importados por pessoa física para uso próprio (§ 6º, incluído pela LC 227/2026)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "As reduções de alíquotas de que trata este Título serão aplicadas sobre as alíquotas-padrão",
+       "marcas": [
+        "alíquotas-padrão"
+       ],
+       "afirmacao": "As reduções dos regimes diferenciados incidem sobre a alíquota de referência fixada pelo Senado, ainda que o ente tenha fixado alíquota própria.",
+       "gabarito": "E",
+       "porque": "Incidem sobre a alíquota-padrão de cada ente, fixada por lei própria (art. 126, § 4º). A de referência só se aplica quando o ente não fixa a sua (art. 14, § 3º)."
+      },
+      {
+       "trecho": "II - ao efetivo pagamento ao fornecedor.",
+       "marcas": [
+        "efetivo pagamento"
+       ],
+       "afirmacao": "Um contribuinte compra de fornecedor cuja operação dá direito a crédito presumido, mas ainda não pagou a compra. Enquanto não pagar, não pode apropriar o crédito presumido.",
+       "gabarito": "C",
+       "porque": "A apropriação depende do documento fiscal eletrônico emitido pelo adquirente e do efetivo pagamento ao fornecedor (art. 126, § 5º)."
+      }
+     ],
+     "conferido": {
+      "Art. 126.": "51616ffb8fdc"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 128. Desde que observadas as definições e demais disposições deste Capítulo, ficam reduzidas em 60% (sessenta por cento) as alíquotas do IBS e da CBS incidentes sobre operações com:\n\nI - serviços de educação;\n\nII - serviços de saúde;\n\nIII - dispositivos médicos;\n\nIV - dispositivos de acessibilidade próprios para pessoas com deficiência;\n\nV - medicamentos;\n\nVI - alimentos destinados ao consumo humano;\n\nVII - produtos de higiene pessoal e limpeza majoritariamente consumidos por famílias de baixa renda;\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 127."
+     ],
+     "ref": "art. 127 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 127, caput, I a XVIII.</strong> Redução de 30% nas alíquotas do IBS e da CBS sobre os serviços de profissionais que exercem atividade intelectual de natureza científica, literária ou artística, fiscalizada por conselho profissional: administradores; advogados; arquitetos e urbanistas; assistentes sociais; bibliotecários; biólogos; contabilistas; economistas; economistas domésticos; profissionais de educação física; engenheiros e agrônomos; estatísticos; médicos veterinários e zootecnistas; museólogos; químicos; profissionais de relações públicas; técnicos industriais; e técnicos agrícolas.",
+      "<strong>§ 1º.</strong> A redução vale para a pessoa física, se o serviço estiver ligado à habilitação, e para a pessoa jurídica que cumpra, cumulativamente: sócios com habilitação ligada ao objeto social e fiscalizados por conselho; nenhuma pessoa jurídica como sócia; não ser sócia de outra pessoa jurídica; nenhuma atividade diversa das habilitações dos sócios; e serviços da atividade-fim prestados diretamente pelos sócios, admitidos auxiliares ou colaboradores.",
+      "<strong>§§ 2º e 3º.</strong> Não impedem a redução a natureza jurídica da sociedade, a união de profissionais diferentes do rol, se cada sócio atua na sua habilitação, e a forma de distribuição de lucros. Os §§ 1º e 2º não se aplicam à pessoa jurídica que preste serviços de educação física, desde que fiscalizada por conselho profissional."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Ficam reduzidas em 30% (trinta por cento) as alíquotas do IBS e da CBS incidentes sobre a prestação de serviços pelos seguintes profissionais",
+       "marcas": [
+        "30% (trinta por cento)"
+       ],
+       "afirmacao": "Os serviços de advogados e contabilistas, fiscalizados por conselho profissional, têm redução de 60% nas alíquotas do IBS e da CBS.",
+       "gabarito": "E",
+       "porque": "Profissionais intelectuais com conselho têm redução de 30% (art. 127). Os 60% são de bens e serviços essenciais, como educação e saúde (art. 128)."
+      },
+      {
+       "trecho": "b) não tenha como sócio pessoa jurídica;",
+       "marcas": [
+        "não tenha como sócio pessoa jurídica"
+       ],
+       "afirmacao": "Uma sociedade de engenheiros que tem uma holding como sócia não tem direito à redução de 30%, ainda que os sócios pessoas físicas prestem diretamente os serviços.",
+       "gabarito": "C",
+       "porque": "Os requisitos da pessoa jurídica são cumulativos, e um deles é não ter pessoa jurídica como sócia (art. 127, § 1º, II, b)."
+      },
+      {
+       "trecho": "III - a forma de distribuição de lucros.",
+       "marcas": [
+        "forma de distribuição de lucros"
+       ],
+       "afirmacao": "Uma sociedade de advogados que distribui lucros de forma desproporcional ao capital perde a redução de 30%.",
+       "gabarito": "E",
+       "porque": "A forma de distribuição de lucros não impede a redução (art. 127, § 2º, III)."
+      }
+     ],
+     "conferido": {
+      "Art. 127.": "e6dfe93687d7"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 143. Desde que observadas as definições e demais disposições deste Capítulo, ficam reduzidas a zero as alíquotas do IBS e da CBS incidentes sobre operações com os seguintes bens e serviços:\n\nI - dispositivos médicos;\n\nII - dispositivos de acessibilidade próprios para pessoas com deficiência;\n\nIII - medicamentos;\n\nIV - produtos de cuidados básicos à saúde menstrual;\n\nV - produtos hortícolas, frutas e ovos;\n\nVI - automóveis de passageiros adquiridos por pessoas com deficiência ou com transtorno do espectro autista;\n\nVII - automóveis de passageiros adquiridos por motoristas profissionais que destinem o automóvel à utilização na categoria de aluguel (táxi); e\n\nVIII - serviços prestados por Instituição Científica, Tecnológica e de Inovação (ICT) sem fins lucrativos.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 128.",
+      "Art. 143.",
+      "Art. 181."
+     ],
+     "ref": "arts. 128, 143 e 181 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 128, I a XIII.</strong> Redução de 60%, observadas as definições do capítulo, sobre: serviços de educação; serviços de saúde; dispositivos médicos; dispositivos de acessibilidade para pessoas com deficiência; medicamentos; alimentos destinados ao consumo humano; produtos de higiene pessoal e limpeza majoritariamente consumidos por famílias de baixa renda; produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas vegetais in natura; insumos agropecuários e aquícolas; produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais; comunicação institucional; atividades desportivas; e bens e serviços ligados à soberania e à segurança nacional, à segurança da informação e à segurança cibernética.",
+      "<strong>Art. 143, I a VIII.</strong> Alíquota zero, observadas as definições do capítulo, sobre: dispositivos médicos; dispositivos de acessibilidade para pessoas com deficiência; medicamentos; produtos de cuidados básicos à saúde menstrual; produtos hortícolas, frutas e ovos; automóveis de passageiros comprados por pessoas com deficiência ou com transtorno do espectro autista; automóveis de passageiros comprados por motoristas profissionais para uso como táxi; e serviços de Instituição Científica, Tecnológica e de Inovação (ICT) sem fins lucrativos.",
+      "<strong>Art. 181.</strong> Os serviços financeiros ficam sujeitos a regime específico de incidência do IBS e da CBS."
+     ],
+     "literalidades": [
+      {
+       "trecho": "XIII - bens e serviços relacionados à soberania e à segurança nacional, à segurança da informação e à segurança cibernética.",
+       "marcas": [
+        "segurança cibernética"
+       ],
+       "afirmacao": "Os serviços de segurança cibernética estão entre as operações com redução de 60% nas alíquotas do IBS e da CBS.",
+       "gabarito": "C",
+       "porque": "É o art. 128, XIII, ao lado da soberania, da segurança nacional e da segurança da informação."
+      },
+      {
+       "trecho": "VIII - serviços prestados por Instituição Científica, Tecnológica e de Inovação (ICT) sem fins lucrativos.",
+       "marcas": [
+        "sem fins lucrativos"
+       ],
+       "afirmacao": "Os serviços prestados por Instituição Científica, Tecnológica e de Inovação têm alíquota zero de IBS e CBS, tenha ou não fins lucrativos.",
+       "gabarito": "E",
+       "porque": "A alíquota zero alcança só a ICT sem fins lucrativos (art. 143, VIII)."
+      }
+     ],
+     "conferido": {
+      "Art. 128.": "82e2994fc873",
+      "Art. 143.": "c82a5c1d42ad",
+      "Art. 181.": "c9a8496fd0cf"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "A redução de 60% da comunicação institucional depende de quem compra, e não de quem vende: só os serviços fornecidos à administração pública direta, às autarquias e às fundações públicas têm o benefício. A agência que atende também empresas privadas paga a alíquota-padrão sobre esses outros serviços (art. 140, parágrafo único).",
+    "No automóvel com alíquota zero, o grau importa: a deficiência mental tem de ser severa ou profunda, e o autismo, de nível moderado ou grave (art. 149, II). Deficiência mental leve ou moderada e autismo de nível leve ficam fora. A aquisição é feita diretamente pela pessoa com plena capacidade jurídica ou por representante legal ou mandatário, que responde solidariamente pelo tributo que deixar de ser pago (§§ 4º e 5º)."
    ],
    "macetes": [
     {
@@ -1712,12 +1842,42 @@
     "gabarito": "E",
     "explicacao": "Têm alíquota zero (art. 143, VII, da LC 214/2025), assim como os comprados por pessoas com deficiência ou com TEA (inciso VI)."
    },
+   "pegadinhas": [
+    {
+     "errado": "Os serviços de profissionais intelectuais fiscalizados por conselho profissional têm redução de 60% nas alíquotas do IBS e da CBS.",
+     "certo": "A redução é de 30% (art. 127). Os 60% são da educação, da saúde e dos demais itens do art. 128.",
+     "fonte": "Questão do app sobre o art. 127 da LC 214/2025"
+    },
+    {
+     "errado": "A sociedade de engenheiros tem direito à redução de 30% ainda que tenha pessoa jurídica como sócia, desde que os sócios prestem os serviços diretamente.",
+     "certo": "Não ter pessoa jurídica como sócia é requisito cumulativo (art. 127, § 1º, II, b).",
+     "fonte": "Questão do app sobre o art. 127 da LC 214/2025"
+    },
+    {
+     "errado": "A redução de 60% da comunicação institucional vale também para os mesmos serviços prestados a empresas privadas.",
+     "certo": "Vale só para o fornecimento à administração pública direta, às autarquias e às fundações públicas; para os demais adquirentes, alíquota-padrão (art. 140, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 140 da LC 214/2025"
+    },
+    {
+     "errado": "O automóvel comprado por pessoa com deficiência mental em qualquer grau tem alíquota zero.",
+     "certo": "Só a deficiência mental severa ou profunda (art. 149, II, b).",
+     "fonte": "Questão do app sobre o art. 149 da LC 214/2025"
+    },
+    {
+     "errado": "Os automóveis comprados por taxistas têm redução de 60% nas alíquotas do IBS e da CBS.",
+     "certo": "Têm alíquota zero (art. 143, VII).",
+     "fonte": "Questão do app sobre o art. 143 da LC 214/2025"
+    },
+    {
+     "errado": "Os serviços financeiros têm redução de 60% nas alíquotas, como regime diferenciado.",
+     "certo": "Estão em regime específico de incidência (art. 181), que muda base, alíquota e crédito.",
+     "fonte": "Questão do app sobre o art. 181 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "cesta-basica-e-cashback",
     "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
-   ],
-   "aprofundamento": "<p><strong>Comunicação institucional só para o poder público.</strong> A redução de 60% da comunicação institucional (art. 128, XI, da LC 214/2025) alcança apenas os serviços fornecidos à administração pública direta, às autarquias e às fundações públicas: planejamento, criação e manutenção de páginas eletrônicas e gestão de redes sociais do órgão, relações com a imprensa e relações públicas (art. 140). O mesmo fornecedor paga a alíquota-padrão sobre os serviços prestados a outros adquirentes, como empresas privadas (art. 140, parágrafo único).</p><p><strong>Atividades desportivas.</strong> Também têm redução de 60% o serviço de educação desportiva e a gestão e exploração do desporto por associações e clubes filiados ao órgão estadual ou federal de coordenação dos desportos, inclusive a venda de ingressos, os programas de sócio-torcedor e a cessão e a transferência de direitos desportivos de atletas (arts. 128, XII, e 141).</p><p><strong>Automóvel com alíquota zero: requisitos.</strong> A alíquota zero alcança automóvel de passageiros de fabricação nacional, com no mínimo 4 portas, comprado por taxista ou por pessoa com deficiência física, visual ou auditiva, com deficiência mental severa ou profunda ou com transtorno do espectro autista de nível moderado ou grave (art. 149). Não é qualquer grau: deficiência mental leve ou moderada e autismo de nível leve ficam fora. Para a pessoa com deficiência ou com autismo, o preço de venda ao consumidor não pode superar R$ 200 mil, e o benefício se limita a R$ 100 mil do valor da operação (§ 2º, II, com a redação da LC 227/2026). Para o taxista, o carro deve ser elétrico ou ter motor de até 2.000 cm³ movido a combustível renovável, sistema reversível de combustão ou híbrido (§ 2º, I).</p><p><strong>Profissionais intelectuais em sociedade.</strong> A redução de 30% do art. 127 vale para a pessoa física, quando o serviço está ligado à sua habilitação, e para a pessoa jurídica que cumpra todos os requisitos: sócios habilitados e fiscalizados por conselho na área do objeto social, nenhuma pessoa jurídica como sócia, a sociedade não pode ser sócia de outra, nenhuma atividade diversa das habilitações dos sócios e serviços da atividade-fim prestados diretamente pelos sócios, admitidos auxiliares (art. 127, § 1º). A natureza jurídica da sociedade, a união de profissões diferentes do rol e a forma de distribuir lucros não impedem a redução (§ 2º).</p>",
-   "aprofundamento_rotulo": "Aprofundamento"
+   ]
   },
   {
    "slug": "cesta-basica-e-cashback",
@@ -1748,30 +1908,185 @@
     "botijao",
     "energia eletrica"
    ],
-   "resumo": "Os produtos da <strong>Cesta Básica Nacional de Alimentos</strong> listados no Anexo I têm IBS e CBS com <strong>alíquota zero</strong> (art. 125). Além disso, famílias de baixa renda inscritas no <strong>CadÚnico</strong> recebem de volta parte do tributo que pagaram: a CBS é devolvida pela União e o IBS pelos Estados, DF e Municípios (arts. 112 e 113). Na regra geral, a devolução é de <strong>20%</strong> da CBS e do IBS. No botijão de gás de até 13 kg, na energia elétrica, na água, no esgoto, no gás canalizado e nas telecomunicações, é de <strong>100% da CBS e 20% do IBS</strong> (art. 118). Cada ente pode subir o seu percentual por lei específica, nunca baixar, e a devolução não pode passar do tributo efetivamente suportado (arts. 118, § 1º, e 120).",
+   "para_entender": [
+    {
+     "texto": "<strong>Alíquota zero e redução de 60%:</strong> onde ficam os alimentos que não estão na Cesta Básica.",
+     "tema": "regimes-diferenciados-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "A <strong>Cesta Básica Nacional de Alimentos</strong>, criada pela EC 132/2023 (art. 8º), é a lista de alimentos do Anexo I da LC 214/2025, identificados pela classificação fiscal (NCM/SH), que têm IBS e CBS com <strong>alíquota zero</strong> (art. 125). A <strong>devolução personalizada</strong>, chamada de <strong>cashback</strong>, é outra técnica: em vez de baixar o tributo para todos, a lei devolve a quem tem pouca renda parte do que essa pessoa pagou. A CBS é devolvida pela União e o IBS pelos Estados, pelo DF e pelos Municípios (art. 112). Recebe o responsável pela família de baixa renda inscrita no <strong>CadÚnico</strong>, o cadastro federal de programas sociais, desde que cumpra os requisitos da lei (art. 113). Os percentuais estão na tabela (art. 118). Cada ente pode subir o seu percentual por lei específica, nunca reduzi-lo.",
    "esquema": {
     "rotulo": "percentuais do cashback (art. 118)",
     "html": "<table><thead><tr><th>Consumo</th><th>CBS</th><th>IBS</th></tr></thead><tbody><tr><td>Gás de botijão até 13 kg, energia, água, esgoto, gás canalizado, telecomunicações</td><td>100%</td><td>20%</td></tr><tr><td>Demais casos</td><td>20%</td><td>20%</td></tr><tr><td>Lei do ente</td><td colspan=\"2\">Pode fixar percentual maior (exceto os 100% da CBS)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Cesta Básica Nacional",
+      "o_que_e": "Alimentos do Anexo I, com a classificação NCM/SH, com alíquota zero de IBS e CBS (art. 125).",
+      "atencao": "Alimentos fora do Anexo I podem ter redução de 60% (art. 128, VI), e não alíquota zero.",
+      "grupo": "Cesta Básica"
+     },
+     {
+      "nome": "Importação de item da Cesta",
+      "o_que_e": "A alíquota zero vale, no que couber, na importação (art. 125, parágrafo único, que remete ao art. 126, §§ 1º e 2º).",
+      "atencao": "A mudança da lista segue a mesma regra de avaliação dos regimes diferenciados.",
+      "grupo": "Cesta Básica"
+     },
+     {
+      "nome": "Devolução personalizada (cashback)",
+      "o_que_e": "Devolução de parte da CBS e do IBS pagos por pessoas físicas de famílias de baixa renda (art. 112).",
+      "atencao": "A CBS é devolvida pela União; o IBS, pelos Estados, pelo DF e pelos Municípios.",
+      "grupo": "Cashback"
+     },
+     {
+      "nome": "Destinatário",
+      "o_que_e": "O responsável pela unidade familiar de baixa renda inscrita no CadÚnico que cumpra, cumulativamente: renda familiar mensal per capita de até meio salário-mínimo, residência no país e CPF regular (art. 113).",
+      "atencao": "A inclusão é automática; a pessoa pode pedir a exclusão a qualquer tempo (§ 1º).",
+      "grupo": "Cashback"
+     },
+     {
+      "nome": "Dados pessoais",
+      "o_que_e": "Seguem a LGPD e o sigilo do art. 198 do CTN e só podem ir a órgãos públicos ou, anonimizados, a institutos de pesquisa, para ações ligadas às devoluções (art. 113, § 2º).",
+      "grupo": "Cashback"
+     },
+     {
+      "nome": "100% da CBS e 20% do IBS",
+      "o_que_e": "Botijão de gás de até 13 kg, energia elétrica domiciliar, água, esgoto, gás canalizado e telecomunicações (art. 118, I).",
+      "atencao": "O percentual de 100% da CBS não pode ser alterado por lei específica (§ 3º).",
+      "grupo": "Percentuais"
+     },
+     {
+      "nome": "20% da CBS e do IBS",
+      "o_que_e": "Todos os demais casos (art. 118, II).",
+      "atencao": "Não é 50%: os 20% valem para os dois tributos.",
+      "grupo": "Percentuais"
+     },
+     {
+      "nome": "Percentual próprio do ente",
+      "o_que_e": "União, Estados, DF e Municípios podem, por lei específica, fixar percentuais maiores para a sua parcela, diferenciados pela renda familiar ou entre os dois grupos de consumo (art. 118, § 1º).",
+      "atencao": "Sem lei própria, valem os percentuais do caput (§ 2º). Percentual menor não é permitido.",
+      "grupo": "Percentuais"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 112. Serão devolvidos, nos termos e limites previstos neste Capítulo, para pessoas físicas que forem integrantes de famílias de baixa renda:\n\nI - a CBS, pela União; e\n\nII - o IBS, pelos Estados, pelo Distrito Federal e pelos Municípios.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 112.",
+      "Art. 113."
+     ],
+     "ref": "arts. 112 e 113 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 112.</strong> Serão devolvidos às pessoas físicas integrantes de famílias de baixa renda, nos termos e limites do capítulo, a CBS, pela União, e o IBS, pelos Estados, pelo DF e pelos Municípios.",
+      "<strong>Art. 113, caput, I a III.</strong> O destinatário é o responsável por unidade familiar de baixa renda inscrita no CadÚnico (art. 6º-F da Lei 8.742/1993, ou norma que a suceder) que cumpra, cumulativamente: renda familiar mensal per capita de até meio salário-mínimo nacional; residência no território nacional; e inscrição regular no CPF.",
+      "<strong>§§ 1º e 2º.</strong> A inclusão na sistemática é automática, e o destinatário pode pedir a exclusão a qualquer tempo. Os dados pessoais seguem a LGPD e o art. 198 do CTN e só podem ser usados ou cedidos a órgãos da administração pública ou, de forma anonimizada, a institutos de pesquisa, para ações ligadas às devoluções."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - possuir renda familiar mensal per capita de até meio salário-mínimo nacional;",
+       "marcas": [
+        "meio salário-mínimo"
+       ],
+       "afirmacao": "Tem direito ao cashback o responsável por família inscrita no CadÚnico com renda mensal per capita de até um salário-mínimo, residente no país e com CPF regular.",
+       "gabarito": "E",
+       "porque": "O limite é de meio salário-mínimo per capita (art. 113, I)."
+      },
+      {
+       "trecho": "O destinatário será incluído de forma automática na sistemática de devoluções, podendo, a qualquer tempo, solicitar a sua exclusão.",
+       "marcas": [
+        "forma automática",
+        "a qualquer tempo"
+       ],
+       "afirmacao": "A família que cumpre os requisitos entra no cashback sem precisar pedir e pode sair quando quiser.",
+       "gabarito": "C",
+       "porque": "A inclusão é automática, e a exclusão pode ser pedida a qualquer tempo (art. 113, § 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 112.": "5ac92bfb647a",
+      "Art. 113.": "c55c87704ede"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 118. O percentual a ser aplicado nos termos do art. 117 desta Lei Complementar será de:\n\nI - 100% (cem por cento) para a CBS e 20% (vinte por cento) para o IBS na aquisição de botijão de até 13 kg (treze quilogramas) de gás liquefeito de petróleo, nas operações de fornecimento domiciliar de energia elétrica, abastecimento de água, esgotamento sanitário e gás canalizado e nas operações de fornecimento de telecomunicações; e\n\nII - 20% (vinte por cento) para a CBS e para o IBS, nos demais casos.\n\n§ 1º A União, os Estados, o Distrito Federal e os Municípios poderão, por lei específica, fixar percentuais de devolução da sua parcela da CBS ou do IBS superiores aos previstos nos incisos I e II do caput, os quais poderão ser diferenciados:\n\nI - em função da renda familiar dos destinatários, observado o disposto no art. 113 desta Lei Complementar;\n\nII - entre os casos previstos nos incisos I e II do caput.\n\n§ 2º Na ausência da fixação de percentuais próprios, as devoluções previstas neste Capítulo serão calculadas mediante aplicação dos percentuais de que tratam os incisos I e II do caput.\n\n§ 3º O disposto no § 1º deste artigo não se aplica ao percentual de devolução da CBS de que trata o inciso I do caput.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 118."
+     ],
+     "ref": "art. 118 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 118, caput.</strong> O percentual de devolução é de 100% da CBS e 20% do IBS na compra de botijão de até 13 kg de gás liquefeito de petróleo e no fornecimento domiciliar de energia elétrica, água, esgoto e gás canalizado e de telecomunicações; e de 20% da CBS e do IBS nos demais casos.",
+      "<strong>§§ 1º a 3º.</strong> Cada ente pode, por lei específica, fixar percentuais superiores para a sua parcela, diferenciados pela renda familiar ou entre os dois casos do caput. Sem essa lei, aplicam-se os percentuais do caput. O percentual de 100% da CBS do inciso I não pode ser alterado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "II - 20% (vinte por cento) para a CBS e para o IBS, nos demais casos.",
+       "marcas": [
+        "20% (vinte por cento)"
+       ],
+       "afirmacao": "Fora dos casos de gás, energia, água, esgoto e telecomunicações, o cashback é de 50% da CBS e do IBS.",
+       "gabarito": "E",
+       "porque": "Nos demais casos, a devolução é de 20% da CBS e do IBS (art. 118, II)."
+      },
+      {
+       "trecho": "fixar percentuais de devolução da sua parcela da CBS ou do IBS superiores aos previstos",
+       "marcas": [
+        "superiores"
+       ],
+       "afirmacao": "Um Município pode, por lei específica, fixar percentual de devolução da sua parcela do IBS menor que o da LC 214/2025.",
+       "gabarito": "E",
+       "porque": "A lei do ente só pode fixar percentuais superiores (art. 118, § 1º)."
+      },
+      {
+       "trecho": "O disposto no § 1º deste artigo não se aplica ao percentual de devolução da CBS de que trata o inciso I do caput.",
+       "marcas": [
+        "não se aplica"
+       ],
+       "afirmacao": "A devolução de 100% da CBS na conta de luz da família de baixa renda não pode ser alterada por lei da União.",
+       "gabarito": "C",
+       "porque": "O § 3º afasta, para esse percentual, a possibilidade de alteração do § 1º."
+      }
+     ],
+     "conferido": {
+      "Art. 118.": "87caa8299b80"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 125. Ficam reduzidas a zero as alíquotas do IBS e da CBS incidentes sobre as vendas de produtos destinados à alimentação humana relacionados no Anexo I desta Lei Complementar, com a especificação das respectivas classificações da NCM/SH, que compõem a Cesta Básica Nacional de Alimentos, criada nos termos do art. 8º da Emenda Constitucional nº 132, de 20 de dezembro de 2023.\n\nParágrafo único. Aplica-se o disposto nos §§ 1º e 2º do art. 126 desta Lei Complementar às reduções de alíquotas de que trata o caput deste artigo.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 125."
+     ],
+     "ref": "art. 125 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 125.</strong> Ficam reduzidas a zero as alíquotas do IBS e da CBS sobre as vendas dos produtos destinados à alimentação humana listados no Anexo I, com as classificações da NCM/SH, que compõem a Cesta Básica Nacional de Alimentos, criada pelo art. 8º da EC 132/2023. O parágrafo único estende a essas reduções os §§ 1º e 2º do art. 126: importação e regra para alterar a lista."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Ficam reduzidas a zero as alíquotas do IBS e da CBS incidentes sobre as vendas de produtos destinados à alimentação humana relacionados no Anexo I",
+       "marcas": [
+        "reduzidas a zero"
+       ],
+       "afirmacao": "Um supermercado vende arroz e feijão listados no Anexo I da LC 214/2025. Nessa venda, as alíquotas do IBS e da CBS são zero.",
+       "gabarito": "C",
+       "porque": "Os itens do Anexo I compõem a Cesta Básica Nacional e têm alíquota zero (art. 125)."
+      }
+     ],
+     "conferido": {
+      "Art. 125.": "48f43f1e64c6"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "A devolução não pode passar do tributo que a família efetivamente suportou: o cashback devolve parte do que foi pago, e não cria renda nova (art. 120)."
    ],
    "macetes": [
     {
@@ -1784,6 +2099,28 @@
     "gabarito": "E",
     "explicacao": "Têm alíquota zero (art. 125 da LC 214/2025). A redução de 60% vale para outros alimentos destinados ao consumo humano (art. 128, VI)."
    },
+   "pegadinhas": [
+    {
+     "errado": "Os produtos da Cesta Básica Nacional de Alimentos têm redução de 60% nas alíquotas do IBS e da CBS.",
+     "certo": "Têm alíquota zero (art. 125). A redução de 60% vale para outros alimentos destinados ao consumo humano (art. 128, VI).",
+     "fonte": "Questão do app sobre o art. 125 da LC 214/2025"
+    },
+    {
+     "errado": "Fora das hipóteses especiais, o cashback é de 50% da CBS e do IBS.",
+     "certo": "É de 20% da CBS e do IBS (art. 118, II).",
+     "fonte": "Questão do app sobre o art. 118 da LC 214/2025"
+    },
+    {
+     "errado": "Os entes podem, por lei específica, fixar percentuais de devolução inferiores aos da LC 214/2025.",
+     "certo": "Só podem fixar percentuais superiores (art. 118, § 1º).",
+     "fonte": "Questão do app sobre o art. 118 da LC 214/2025"
+    },
+    {
+     "errado": "No cashback, a União devolve a CBS e também o IBS.",
+     "certo": "O IBS é devolvido pelos Estados, pelo DF e pelos Municípios (art. 112, II).",
+     "fonte": "Questão do app sobre o art. 112 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "regimes-diferenciados-do-ibs-e-da-cbs",
     "visao-geral-da-reforma-tributaria"
@@ -1798,7 +2135,6 @@
     "tributario.reforma-imposto-seletivo"
    ],
    "dispositivos": [
-    "nCF-1988-art-153",
     "n214-2025-art-409",
     "n214-2025-art-410",
     "n214-2025-art-411",
@@ -1822,36 +2158,209 @@
     "apostas",
     "veiculos"
    ],
-   "resumo": "O <strong>Imposto Seletivo</strong> é federal e extrafiscal: incide sobre a produção, extração, comercialização ou importação de bens e serviços <strong>prejudiciais à saúde ou ao meio ambiente</strong>: veículos, embarcações e aeronaves, fumígenos, bebidas alcoólicas e açucaradas, bens minerais, concursos de prognósticos e fantasy sport (art. 409). Incide <strong>uma única vez</strong>, sem crédito (art. 410), não incide sobre exportações, energia elétrica e telecomunicações (CF, art. 153, § 6º, I; LC, art. 413) e é administrado pela <strong>Receita Federal</strong> (art. 411). As alíquotas vêm de lei ordinária (CF, art. 153, § 6º, VI). Diferentemente do IBS e da CBS, ele <strong>integra</strong> a base desses tributos (§ 6º, IV).",
+   "para_entender": [
+    {
+     "texto": "<strong>IVA dual:</strong> por que o IBS e a CBS são neutros e o Imposto Seletivo não.",
+     "tema": "visao-geral-da-reforma-tributaria"
+    }
+   ],
+   "resumo": "O <strong>Imposto Seletivo</strong> foi criado pela EC 132/2023 (art. 153, VIII, da CF, que está no caderno de Direito Tributário) e instituído pela LC 214/2025 (art. 409). É federal e <strong>extrafiscal</strong>: o objetivo é encarecer bens e serviços <strong>prejudiciais à saúde ou ao meio ambiente</strong> para desestimular o consumo, e não arrecadar. A lista desses bens e serviços é fechada. Ele é <strong>monofásico</strong>, isto é, incide uma única vez na cadeia, e por isso não tem crédito nem gera crédito (art. 410). Fica com a <strong>Receita Federal</strong>, e não com o Comitê Gestor (art. 411). O <strong>fato gerador</strong>, o momento em que nasce o imposto, é em regra o primeiro fornecimento, e o <strong>contribuinte</strong>, em regra, o fabricante (arts. 412 e 424). A comparação com o IBS e a CBS está na tabela.",
    "esquema": {
     "rotulo": "IS × IBS/CBS",
     "html": "<table><thead><tr><th></th><th>Imposto Seletivo</th><th>IBS e CBS</th></tr></thead><tbody><tr><td><strong>Finalidade</strong></td><td>Extrafiscal</td><td>Arrecadatória, neutra</td></tr><tr><td><strong>Incidência</strong></td><td>Uma vez só, sem crédito</td><td>Em todas as etapas, com crédito</td></tr><tr><td><strong>Alíquota</strong></td><td>Lei ordinária</td><td>Lei de cada ente; referência do Senado</td></tr><tr><td><strong>Administração</strong></td><td>Receita Federal</td><td>Comitê Gestor (IBS) e Receita Federal (CBS)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Imposto Seletivo",
+      "o_que_e": "Imposto federal sobre produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente (art. 153, VIII, da CF; art. 409 da LC 214/2025).",
+      "atencao": "É extrafiscal. A CF manda fixar as alíquotas em lei ordinária, específicas ou ad valorem (art. 153, § 6º, VI).",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Bens e serviços alcançados",
+      "o_que_e": "Veículos; embarcações e aeronaves; produtos fumígenos; bebidas alcoólicas; bebidas açucaradas; bens minerais, inclusive carvão mineral; concursos de prognósticos e fantasy sport (art. 409, § 1º, e Anexo XVII).",
+      "atencao": "Serviço também paga: as apostas estão na lista.",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Embalagem primária",
+      "o_que_e": "Fumígenos e bebidas alcoólicas pagam quando estão na embalagem em contato direto com o produto e destinada ao consumidor final (art. 409, § 2º).",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Incidência única",
+      "o_que_e": "O imposto incide uma única vez sobre o bem ou serviço, vedado qualquer crédito de operações anteriores e qualquer geração de crédito para as seguintes (art. 410).",
+      "atencao": "Não tem não cumulatividade.",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Administração",
+      "o_que_e": "Cabe à Receita Federal administrar e fiscalizar o imposto; o contencioso administrativo segue o Decreto 70.235/1972 (art. 411).",
+      "atencao": "O Comitê Gestor cuida só do IBS.",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Base de outros tributos",
+      "o_que_e": "O Imposto Seletivo não integra a própria base, mas integra a do ICMS, do ISS, do IBS e da CBS, e pode ter o mesmo fato gerador e a mesma base de outros tributos (art. 153, § 6º, III a V, da CF).",
+      "atencao": "É o oposto do IBS e da CBS, que não entram na base do Seletivo.",
+      "grupo": "O imposto"
+     },
+     {
+      "nome": "Fato gerador",
+      "o_que_e": "Primeiro fornecimento do bem; arrematação em leilão público; transferência não onerosa de bem produzido; incorporação ao ativo imobilizado pelo fabricante; extração de bem mineral; consumo pelo fabricante; fornecimento ou pagamento do serviço, o que vier primeiro; e importação (art. 412).",
+      "grupo": "Fato gerador e contribuinte"
+     },
+     {
+      "nome": "Contribuinte",
+      "o_que_e": "O fabricante, no primeiro fornecimento, na incorporação ao ativo, na transferência não onerosa ou no consumo; o importador; o arrematante; o produtor-extrativista; e o fornecedor do serviço de apostas, ainda que no exterior (art. 424).",
+      "atencao": "O comerciante varejista não é contribuinte: a incidência ficou na primeira etapa.",
+      "grupo": "Fato gerador e contribuinte"
+     },
+     {
+      "nome": "Não incidência",
+      "o_que_e": "Operações com energia elétrica e telecomunicações e bens e serviços com alíquotas reduzidas pelo art. 9º, § 1º, da EC 132/2023 (art. 413). O inciso I foi vetado.",
+      "atencao": "A CF também afasta o imposto das exportações (art. 153, § 6º, I).",
+      "grupo": "Não incidência"
+     },
+     {
+      "nome": "Extração",
+      "o_que_e": "Na extração, o imposto é cobrado qualquer que seja a destinação, com alíquota máxima de 1% do valor de mercado (art. 153, § 6º, VII, da CF).",
+      "atencao": "O 1% é teto, e não piso.",
+      "grupo": "Não incidência"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 409. Fica instituído o Imposto Seletivo, de que trata o inciso VIII do art. 153 da Constituição Federal, incidente sobre a produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente.\n\n§ 1º Para fins de incidência do Imposto Seletivo, consideram-se prejudiciais à saúde ou ao meio ambiente os bens classificados nos códigos da NCM/SH e o carvão mineral, e os serviços listados no Anexo XVII, referentes a:\n\nI - veículos;\n\nII - embarcações e aeronaves;\n\nIII - produtos fumígenos;\n\nIV - bebidas alcoólicas;\n\nV - bebidas açucaradas;\n\nVI - bens minerais;\n\nVII - concursos de prognósticos e fantasy sport.\n\n§ 2º Os bens a que se referem os incisos III e IV do § 1º estão sujeitos ao Imposto Seletivo quando acondicionados em embalagem primária, assim entendida aquela em contato direto com o produto e destinada ao consumidor final.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 409.",
+      "Art. 410.",
+      "Art. 411."
+     ],
+     "ref": "arts. 409 a 411 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 409, caput e § 1º.</strong> Fica instituído o Imposto Seletivo do art. 153, VIII, da CF, sobre a produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente. São considerados prejudiciais os bens das NCM/SH, o carvão mineral e os serviços do Anexo XVII referentes a: veículos; embarcações e aeronaves; produtos fumígenos; bebidas alcoólicas; bebidas açucaradas; bens minerais; e concursos de prognósticos e fantasy sport.",
+      "<strong>§ 2º.</strong> Fumígenos e bebidas alcoólicas estão sujeitos ao imposto quando acondicionados em embalagem primária, a que fica em contato direto com o produto e se destina ao consumidor final.",
+      "<strong>Art. 410.</strong> O imposto incide uma única vez sobre o bem ou serviço, vedado qualquer aproveitamento de crédito de operações anteriores ou geração de crédito para as posteriores.",
+      "<strong>Art. 411.</strong> Compete à Receita Federal administrar e fiscalizar o Imposto Seletivo; o contencioso administrativo segue o Decreto 70.235/1972."
+     ],
+     "literalidades": [
+      {
+       "trecho": "VII - concursos de prognósticos e fantasy sport.",
+       "marcas": [
+        "concursos de prognósticos"
+       ],
+       "afirmacao": "O Imposto Seletivo alcança também serviços, como os concursos de prognósticos e o fantasy sport.",
+       "gabarito": "C",
+       "porque": "Estão no art. 409, § 1º, VII. O imposto não se limita a bens materiais."
+      },
+      {
+       "trecho": "quando acondicionados em embalagem primária",
+       "marcas": [
+        "embalagem primária"
+       ],
+       "afirmacao": "Os cigarros estão sujeitos ao Imposto Seletivo quando acondicionados na embalagem que fica em contato direto com o produto e se destina ao consumidor final.",
+       "gabarito": "C",
+       "porque": "Fumígenos e bebidas alcoólicas pagam o imposto na embalagem primária (art. 409, § 2º)."
+      },
+      {
+       "trecho": "sendo vedado qualquer tipo de aproveitamento de crédito do imposto com operações anteriores",
+       "marcas": [
+        "vedado qualquer tipo de aproveitamento de crédito"
+       ],
+       "afirmacao": "O Imposto Seletivo é não cumulativo, e o contribuinte pode aproveitar o imposto pago nas operações anteriores.",
+       "gabarito": "E",
+       "porque": "Incide uma única vez, vedado qualquer crédito (art. 410)."
+      },
+      {
+       "trecho": "Compete à RFB a administração e a fiscalização do Imposto Seletivo.",
+       "marcas": [
+        "RFB"
+       ],
+       "afirmacao": "A administração e a fiscalização do Imposto Seletivo cabem ao Comitê Gestor do IBS.",
+       "gabarito": "E",
+       "porque": "Cabem à Receita Federal do Brasil (art. 411)."
+      }
+     ],
+     "conferido": {
+      "Art. 409.": "d850fbc33cff",
+      "Art. 410.": "3047a92dc32d",
+      "Art. 411.": "56b4225600d6"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 410. O Imposto Seletivo incidirá uma única vez sobre o bem ou serviço, sendo vedado qualquer tipo de aproveitamento de crédito do imposto com operações anteriores ou geração de créditos para operações posteriores.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 412.",
+      "Art. 413."
+     ],
+     "ref": "arts. 412 e 413 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 412.</strong> O fato gerador ocorre no momento: do primeiro fornecimento do bem, a qualquer título, inclusive nos negócios do art. 4º, § 2º, I a VIII; da arrematação em leilão público; da transferência não onerosa de bem produzido; da incorporação do bem ao ativo imobilizado pelo fabricante; da extração de bem mineral; do consumo do bem pelo fabricante; do fornecimento ou do pagamento do serviço, o que ocorrer primeiro; ou da importação de bens e serviços.",
+      "<strong>Art. 413.</strong> O imposto não incide sobre as operações com energia elétrica e com telecomunicações e sobre os bens e serviços com alíquotas reduzidas nos termos do art. 9º, § 1º, da EC 132/2023. O inciso I foi vetado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "IV - da incorporação do bem ao ativo imobilizado pelo fabricante;",
+       "marcas": [
+        "ativo imobilizado"
+       ],
+       "afirmacao": "A montadora que incorpora ao próprio ativo imobilizado um veículo que fabricou realiza o fato gerador do Imposto Seletivo.",
+       "gabarito": "C",
+       "porque": "É o art. 412, IV."
+      },
+      {
+       "trecho": "III - os bens e serviços cujas alíquotas sejam reduzidas nos termos do § 1º do art. 9º da Emenda Constitucional nº 132",
+       "marcas": [
+        "alíquotas sejam reduzidas"
+       ],
+       "afirmacao": "O Imposto Seletivo não incide sobre bens e serviços beneficiados com redução de alíquotas nos termos do art. 9º, § 1º, da EC 132/2023.",
+       "gabarito": "C",
+       "porque": "É o art. 413, III."
+      }
+     ],
+     "conferido": {
+      "Art. 412.": "3aa14c911d3d",
+      "Art. 413.": "5bd763c6f00a"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 411. Compete à RFB a administração e a fiscalização do Imposto Seletivo.\n\nParágrafo único. O contencioso administrativo no âmbito do Imposto Seletivo atenderá ao disposto no Decreto nº 70.235, de 6 de março de 1972.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 424."
+     ],
+     "ref": "art. 424 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 424.</strong> É contribuinte: o fabricante, no primeiro fornecimento, na incorporação do bem ao ativo imobilizado, na tradição em transação não onerosa ou no consumo do bem (inciso I, com a redação da LC 227/2026); o importador, na entrada do bem estrangeiro; o arrematante, na arrematação; o produtor-extrativista que realiza a extração; e o fornecedor do serviço de concursos de prognósticos e fantasy sport, ainda que residente ou domiciliado no exterior."
+     ],
+     "literalidades": [
+      {
+       "trecho": "I - o fabricante, no primeiro fornecimento",
+       "marcas": [
+        "fabricante"
+       ],
+       "afirmacao": "No primeiro fornecimento do bem, o contribuinte do Imposto Seletivo é o comerciante varejista que vende ao consumidor final.",
+       "gabarito": "E",
+       "porque": "No primeiro fornecimento, o contribuinte é o fabricante (art. 424, I)."
+      }
+     ],
+     "conferido": {
+      "Art. 424.": "0edc150bbe8c"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
-    },
-    {
-     "texto": "Art. 413. O Imposto Seletivo não incide sobre:\n\nI - (VETADO);\n\nII - as operações com energia elétrica e com telecomunicações; e\n\nIII - os bens e serviços cujas alíquotas sejam reduzidas nos termos do § 1º do art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023.",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O art. 153 da CF, que traz o Imposto Seletivo no inciso VIII e as regras constitucionais no § 6º, fica no tema de competência tributária do caderno de Direito Tributário. Aqui ele só é citado."
    ],
    "macetes": [
     {
@@ -1864,6 +2373,33 @@
     "gabarito": "E",
     "explicacao": "É tributo federal administrado pela Receita Federal do Brasil (art. 411 da LC 214/2025), com contencioso pelo Decreto 70.235/1972."
    },
+   "pegadinhas": [
+    {
+     "errado": "O Imposto Seletivo não alcança concursos de prognósticos, porque incide só sobre bens materiais.",
+     "certo": "Alcança concursos de prognósticos e fantasy sport (art. 409, § 1º, VII).",
+     "fonte": "Questão do app sobre o art. 409 da LC 214/2025"
+    },
+    {
+     "errado": "O Imposto Seletivo é não cumulativo.",
+     "certo": "Incide uma única vez, vedado qualquer crédito (art. 410).",
+     "fonte": "Questão do app sobre o art. 410 da LC 214/2025"
+    },
+    {
+     "errado": "O Imposto Seletivo é administrado pelo Comitê Gestor do IBS.",
+     "certo": "É administrado e fiscalizado pela Receita Federal, com contencioso pelo Decreto 70.235/1972 (art. 411).",
+     "fonte": "Questão do app sobre o art. 411 da LC 214/2025"
+    },
+    {
+     "errado": "No primeiro fornecimento, o contribuinte do Imposto Seletivo é o comerciante varejista.",
+     "certo": "É o fabricante (art. 424, I).",
+     "fonte": "Questão do app sobre o art. 424 da LC 214/2025"
+    },
+    {
+     "errado": "O Imposto Seletivo incide sobre a energia elétrica, por ser bem prejudicial ao meio ambiente.",
+     "certo": "Não incide sobre operações com energia elétrica e telecomunicações (art. 413, II).",
+     "fonte": "Questão do app sobre o art. 413 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "visao-geral-da-reforma-tributaria",
     "regimes-diferenciados-do-ibs-e-da-cbs"
@@ -1900,24 +2436,215 @@
     "105 i j",
     "competencia originaria"
    ],
-   "resumo": "O <strong>Comitê Gestor do IBS</strong> é entidade pública sob regime especial, com sede no DF e independência técnica, administrativa, orçamentária e financeira (art. 480 da LC 214/2025; CF, art. 156-B). Ele arrecada o IBS, faz as compensações e distribui o produto aos entes de destino. A instância máxima é o <strong>Conselho Superior</strong>, com <strong>27 membros dos Estados e do DF</strong> e <strong>27 dos Municípios e do DF</strong>; destes, 14 são eleitos com voto igual para cada Município e 13 com voto ponderado pela população (art. 481).",
+   "para_entender": [
+    {
+     "texto": "<strong>Competência compartilhada:</strong> por que o IBS tem um gestor comum de Estados e Municípios.",
+     "tema": "visao-geral-da-reforma-tributaria"
+    }
+   ],
+   "resumo": "O IBS é de muitos entes ao mesmo tempo, e por isso Estados, DF e Municípios exercem as principais competências administrativas dele <strong>de forma integrada</strong>, exclusivamente por meio do <strong>Comitê Gestor do IBS</strong> (CGIBS) (art. 156-B da CF). São três: editar o regulamento único, arrecadar e distribuir o produto, e julgar o contencioso administrativo. O Comitê é <strong>entidade pública sob regime especial</strong>, com sede no DF, sem vinculação, tutela ou subordinação a qualquer órgão (art. 480 da LC 214/2025). Ele <strong>coordena</strong>, mas não fiscaliza nem lança: essas tarefas continuam com os fiscos de cada ente. A instância máxima é o <strong>Conselho Superior</strong>, com representação <strong>paritária</strong>, isto é, o mesmo número de cadeiras para os dois lados, Estados e Municípios, como mostra a tabela (art. 481). <strong>Quórum</strong>, o número de votos exigido para aprovar uma deliberação, segue regra própria para cada lado.",
    "esquema": {
     "rotulo": "Conselho Superior (art. 481)",
     "html": "<table><thead><tr><th>Bancada</th><th>Membros</th><th>Como são escolhidos</th></tr></thead><tbody><tr><td>Estados e DF</td><td>27</td><td>Indicados pelo chefe do Executivo de cada um</td></tr><tr><td>Municípios e DF</td><td>14</td><td>Eleitos com voto de igual valor por Município</td></tr><tr><td>Municípios e DF</td><td>13</td><td>Eleitos com voto ponderado pela população</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Comitê Gestor do IBS",
+      "o_que_e": "Entidade pública de caráter técnico e operacional sob regime especial, com sede e foro no DF e independência técnica, administrativa, orçamentária e financeira (art. 156-B, § 1º, da CF; art. 480 da LC 214/2025).",
+      "atencao": "Não é órgão da União nem do Ministério da Fazenda: não tem vinculação, tutela ou subordinação hierárquica (art. 480, § 1º).",
+      "grupo": "Natureza e competências"
+     },
+     {
+      "nome": "Três competências, só pelo Comitê",
+      "o_que_e": "Editar regulamento único e uniformizar a interpretação e a aplicação da legislação; arrecadar, compensar e distribuir o produto entre os entes; decidir o contencioso administrativo (art. 156-B, I a III).",
+      "atencao": "Cada Estado ou Município não arrecada sozinho nem edita regulamento próprio.",
+      "grupo": "Natureza e competências"
+     },
+     {
+      "nome": "Coordenar não é executar",
+      "o_que_e": "Fiscalização, lançamento, cobrança e representação administrativa e judicial do IBS ficam com as administrações tributárias e as procuradorias dos Estados, do DF e dos Municípios, que podem delegar ou compartilhar; ao Comitê cabe coordenar (art. 156-B, § 2º, V).",
+      "atencao": "A execução fiscal do IBS não é da PGFN. As competências exclusivas dessas carreiras, no Comitê, são exercidas por servidores delas (§ 2º, VI).",
+      "grupo": "Natureza e competências"
+     },
+     {
+      "nome": "Lei complementar e regimento",
+      "o_que_e": "A lei complementar estabelece a estrutura e a gestão do Comitê; o regimento interno dispõe sobre organização e funcionamento (art. 156-B, § 2º, VII).",
+      "atencao": "Não é o regimento que fixa estrutura e gestão.",
+      "grupo": "Natureza e competências"
+     },
+     {
+      "nome": "Controle externo e financiamento",
+      "o_que_e": "O controle externo é dos Estados, do DF e dos Municípios; o financiamento vem de percentual da arrecadação do IBS destinada a cada ente (art. 156-B, § 2º, III e IV).",
+      "atencao": "Não é o TCU.",
+      "grupo": "Organização"
+     },
+     {
+      "nome": "Presidência",
+      "o_que_e": "Alterna entre o conjunto dos Estados e do DF e o conjunto dos Municípios e do DF; o Presidente deve ter notórios conhecimentos de administração tributária (art. 156-B, § 2º, II, e § 5º).",
+      "grupo": "Organização"
+     },
+     {
+      "nome": "Conselho Superior",
+      "o_que_e": "Instância máxima: 27 membros dos Estados e do DF, indicados por cada chefe do Executivo, e 27 do conjunto dos Municípios e do DF, dos quais 14 eleitos com voto de igual valor e 13 com voto ponderado pela população (art. 156-B, § 3º; art. 481).",
+      "atencao": "Cada Município só pode ter 1 membro titular ou suplente, e não pode estar nos dois grupos (art. 481, §§ 4º e 11).",
+      "grupo": "Organização"
+     },
+     {
+      "nome": "Quórum de aprovação",
+      "o_que_e": "Cumulativamente: maioria absoluta dos representantes dos Estados e do DF, que somem mais de 50% da população do país, e maioria absoluta dos representantes dos Municípios e do DF (art. 156-B, § 4º).",
+      "atencao": "O critério da população vale só do lado estadual na votação.",
+      "grupo": "Organização"
+     },
+     {
+      "nome": "Integração com a União",
+      "o_que_e": "O Comitê, a Receita Federal e a PGFN compartilham informações fiscais e harmonizam normas, interpretações, obrigações acessórias e procedimentos do IBS e da CBS, e podem implementar soluções integradas de administração e cobrança (art. 156-B, §§ 6º e 7º; art. 480, § 3º).",
+      "atencao": "A lei complementar pode integrar o contencioso administrativo dos dois tributos (art. 156-B, § 8º), mas a CF não o unificou.",
+      "grupo": "Organização"
+     },
+     {
+      "nome": "Conflito federativo sobre IBS e CBS",
+      "o_que_e": "Compete ao STJ julgar, originariamente, os conflitos entre entes federativos, ou entre eles e o Comitê Gestor, sobre o IBS e a CBS (art. 105, I, j, da CF, incluído pela EC 132/2023).",
+      "atencao": "Não vai ao STF nem à Justiça Federal de primeira instância.",
+      "grupo": "Conflitos"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 480. Fica instituído, até 31 de dezembro de 2025, o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS), entidade pública com caráter técnico e operacional sob regime especial, com sede e foro no Distrito Federal, dotado de independência técnica, administrativa, orçamentária e financeira.\n\n§ 1º O CGIBS, nos termos da Constituição Federal e desta Lei Complementar, terá sua atuação caracterizada pela ausência de vinculação, tutela ou subordinação hierárquica a qualquer órgão da administração pública.\n\n§ 2º O regulamento único do IBS definirá o prazo máximo para a realização das atividades de cobrança administrativa, desde que não superior a 12 (doze) meses, contado da constituição definitiva do crédito tributário, após o qual a administração tributária encaminhará o expediente à respectiva procuradoria, para as providências de cobrança judicial ou extrajudicial cabíveis, nos termos definidos no referido regulamento.\n\n§ 3º O CGIBS, a Secretaria Especial da Receita Federal do Brasil e a Procuradoria-Geral da Fazenda Nacional poderão implementar soluções integradas para a futura administração e a cobrança do IBS e da CBS.\n\n§ 4º As normas comuns ao IBS e à CBS constantes do regulamento único do IBS serão aprovadas por ato conjunto do CGIBS e do Poder Executivo federal.\n\n§ 5º O regulamento único do IBS preverá regras uniformes de conformidade tributária, de orientação, de autorregularização e de tratamento diferenciado a contribuintes que atendam a programas de conformidade do IBS estabelecidos pelos entes federativos.\n\n§ 6º As licitações e as contratações realizadas pelo CGIBS serão regidas pelas normas gerais de licitação e contratação aplicáveis às administrações públicas diretas, autárquicas e fundacionais da União, dos Estados, do Distrito Federal e dos Municípios.\n\n§ 7º O CGIBS observará o princípio da publicidade, mediante veiculação de seus atos normativos, preferencialmente por meio eletrônico, disponibilizado na internet.",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 156-B."
+     ],
+     "ref": "art. 156-B da CF",
+     "regras": [
+      "<strong>Art. 156-B, caput, I a III.</strong> Os Estados, o DF e os Municípios exercem de forma integrada, exclusivamente por meio do Comitê Gestor do IBS, nos termos da CF e da lei complementar, as competências de: editar regulamento único e uniformizar a interpretação e a aplicação da legislação do imposto; arrecadar, efetuar as compensações e distribuir o produto entre Estados, DF e Municípios; e decidir o contencioso administrativo.",
+      "<strong>§ 1º.</strong> O Comitê Gestor, entidade pública sob regime especial, tem independência técnica, administrativa, orçamentária e financeira.",
+      "<strong>§ 2º, I a IV.</strong> Na forma da lei complementar: representação paritária dos Estados e do DF e dos Municípios e do DF na instância máxima; alternância na presidência entre esses dois conjuntos; financiamento por percentual da arrecadação destinada a cada ente; controle externo pelos Estados, pelo DF e pelos Municípios.",
+      "<strong>§ 2º, V a VII.</strong> Fiscalização, lançamento, cobrança e representação administrativa e judicial pelas administrações tributárias e procuradorias dos entes, que podem definir delegação ou compartilhamento, com coordenação do Comitê; competências exclusivas dessas carreiras exercidas, no Comitê, por servidores delas; e estrutura e gestão fixadas pela lei complementar, cabendo ao regimento interno a organização e o funcionamento.",
+      "<strong>§§ 3º e 4º.</strong> Composição da instância máxima: 27 membros representando cada Estado e o DF, e 27 representando o conjunto dos Municípios e do DF, 14 eleitos com voto igual por Município e 13 com voto ponderado pela população. A deliberação é aprovada com, cumulativamente, a maioria absoluta dos representantes dos Estados e do DF, que correspondam a mais de 50% da população do país, e a maioria absoluta dos representantes dos Municípios e do DF.",
+      "<strong>§§ 5º a 8º.</strong> O Presidente deve ter notórios conhecimentos de administração tributária. O Comitê, a Receita Federal e a PGFN compartilham informações fiscais do IBS e da CBS e harmonizam normas, interpretações, obrigações acessórias e procedimentos. O Comitê e a Receita podem implementar soluções integradas de administração e cobrança. A lei complementar pode prever a integração do contencioso administrativo dos dois tributos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "IV - o controle externo do Comitê Gestor será exercido pelos Estados, pelo Distrito Federal e pelos Municípios;",
+       "marcas": [
+        "controle externo"
+       ],
+       "afirmacao": "Por ser entidade de âmbito nacional, o Comitê Gestor do IBS tem controle externo exercido pelo Tribunal de Contas da União.",
+       "gabarito": "E",
+       "porque": "O controle externo é dos Estados, do DF e dos Municípios (art. 156-B, § 2º, IV)."
+      },
+      {
+       "trecho": "a) 14 (quatorze) representantes, com base nos votos de cada Município, com valor igual para todos; e",
+       "marcas": [
+        "14 (quatorze)",
+        "valor igual"
+       ],
+       "afirmacao": "Dos 27 representantes dos Municípios, 13 são eleitos com voto de igual valor para todos e 14 com voto ponderado pela população.",
+       "gabarito": "E",
+       "porque": "É o contrário: 14 com voto de igual valor e 13 com voto ponderado (art. 156-B, § 3º, II)."
+      },
+      {
+       "trecho": "b) de representantes dos Estados e do Distrito Federal que correspondam a mais de 50% (cinquenta por cento) da população do País; e",
+       "marcas": [
+        "mais de 50%"
+       ],
+       "afirmacao": "Uma deliberação tem a maioria absoluta dos representantes estaduais e municipais, mas os Estados que votaram a favor somam 45% da população do país. Ela não é aprovada.",
+       "gabarito": "C",
+       "porque": "Do lado estadual, além da maioria absoluta, os votos favoráveis precisam corresponder a mais de 50% da população (art. 156-B, § 4º, I, b)."
+      },
+      {
+       "trecho": "II - em relação ao conjunto dos Municípios e do Distrito Federal, da maioria absoluta de seus representantes.",
+       "marcas": [
+        "maioria absoluta"
+       ],
+       "afirmacao": "Do lado dos Municípios, as deliberações do Comitê Gestor exigem dois terços dos representantes.",
+       "gabarito": "E",
+       "porque": "Exigem a maioria absoluta dos representantes dos Municípios e do DF (art. 156-B, § 4º, II)."
+      },
+      {
+       "trecho": "Lei complementar poderá prever a integração do contencioso administrativo",
+       "marcas": [
+        "poderá prever"
+       ],
+       "afirmacao": "A Constituição permite que a lei complementar integre o contencioso administrativo do IBS e da CBS.",
+       "gabarito": "C",
+       "porque": "É o art. 156-B, § 8º: a integração é possível por lei complementar, e não foi feita pela própria CF."
+      }
+     ],
+     "conferido": {
+      "Art. 156-B.": "0c26215388a5"
+     },
+     "fonte": "Constituição Federal de 1988, com a redação da EC 132/2023 (texto atualizado da Câmara dos Deputados)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 481. O Conselho Superior do CGIBS, instância máxima de deliberação do CGIBS, tem a seguinte composição:\n\nI - 27 (vinte e sete) membros e respectivos suplentes, representantes de cada Estado e do Distrito Federal; e\n\nII - 27 (vinte e sete) membros e respectivos suplentes, representantes do conjunto dos Municípios e do Distrito Federal.\n\n§ 1º Os membros e os respectivos suplentes de que trata:\n\nI - o inciso I do caput deste artigo serão indicados pelo Chefe do Poder Executivo de cada Estado e do Distrito Federal; e\n\nII - o inciso II do caput deste artigo serão indicados pelos Chefes dos Poderes Executivos dos Municípios e do Distrito Federal, da seguinte forma:\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 480.",
+      "Art. 481."
+     ],
+     "ref": "arts. 480 e 481 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 480, caput e § 1º.</strong> Fica instituído, até 31 de dezembro de 2025, o Comitê Gestor do IBS (CGIBS), entidade pública de caráter técnico e operacional sob regime especial, com sede e foro no DF e independência técnica, administrativa, orçamentária e financeira, sem vinculação, tutela ou subordinação hierárquica a qualquer órgão da administração pública.",
+      "<strong>§§ 2º a 4º.</strong> O regulamento único fixa o prazo máximo da cobrança administrativa, de até 12 meses da constituição definitiva do crédito, depois do qual o expediente vai à procuradoria para cobrança judicial ou extrajudicial. O CGIBS, a Receita Federal e a PGFN podem implementar soluções integradas para administrar e cobrar o IBS e a CBS. As normas comuns aos dois tributos no regulamento único são aprovadas por ato conjunto do CGIBS e do Poder Executivo federal.",
+      "<strong>§§ 5º a 7º.</strong> O regulamento único prevê regras uniformes de conformidade, orientação, autorregularização e tratamento diferenciado a contribuintes de programas de conformidade dos entes. Licitações e contratações seguem as normas gerais da administração direta, autárquica e fundacional. O CGIBS observa a publicidade, com os atos normativos de preferência na internet.",
+      "<strong>Art. 481, caput e § 1º.</strong> O Conselho Superior, instância máxima do CGIBS, tem 27 membros e suplentes de cada Estado e do DF, indicados pelo chefe do Executivo de cada um, e 27 membros e suplentes do conjunto dos Municípios e do DF, indicados pelos chefes dos Executivos municipais e do DF: 14 eleitos com voto de igual valor e 13 com voto ponderado pela população.",
+      "<strong>§§ 2º a 5º-A.</strong> Para instalar o CGIBS provisório, os representantes municipais são indicados pela Confederação Nacional de Municípios (CNM), os 14, e pela Frente Nacional de Prefeitas e Prefeitos (FNP), os 13, em chapa única, com 2 suplentes de Municípios distintos por titular, vitória com mais de 50% dos votos válidos ou segundo turno entre as duas mais votadas, e indicações aprovadas antes na instância máxima de cada associação, com direito de participação dos não associados. Se uma associação não indicar até 31 de outubro de 2025, a outra indica. Cada Município só pode indicar 1 membro titular ou suplente. O § 3º foi revogado pela LC 227/2026.",
+      "<strong>§§ 6º a 12.</strong> Os §§ 6º a 10 foram revogados pela LC 227/2026. É vedado indicar representantes de um mesmo Município para o grupo dos 14 e para o dos 13 ao mesmo tempo. As ações judiciais sobre esses processos eleitorais correm na comarca de Brasília."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ausência de vinculação, tutela ou subordinação hierárquica a qualquer órgão da administração pública",
+       "marcas": [
+        "ausência de vinculação"
+       ],
+       "afirmacao": "O Comitê Gestor do IBS é entidade vinculada ao Ministério da Fazenda, que exerce sobre ele a tutela administrativa.",
+       "gabarito": "E",
+       "porque": "O CGIBS atua sem vinculação, tutela ou subordinação hierárquica a qualquer órgão (art. 480, § 1º)."
+      },
+      {
+       "trecho": "desde que não superior a 12 (doze) meses",
+       "marcas": [
+        "12 (doze) meses"
+       ],
+       "afirmacao": "O regulamento único do IBS pode fixar em até 24 meses, da constituição definitiva do crédito, o prazo da cobrança administrativa.",
+       "gabarito": "E",
+       "porque": "O prazo máximo é de 12 meses (art. 480, § 2º)."
+      },
+      {
+       "trecho": "Os Municípios somente poderão indicar, dentre os membros a que se refere o inciso II do caput deste artigo, 1 (um) único membro titular ou suplente.",
+       "marcas": [
+        "1 (um) único membro"
+       ],
+       "afirmacao": "Um Município não pode ter, ao mesmo tempo, um titular e um suplente entre os representantes municipais do Conselho Superior.",
+       "gabarito": "C",
+       "porque": "Cada Município só pode indicar 1 único membro, titular ou suplente (art. 481, § 4º)."
+      },
+      {
+       "trecho": "é o da comarca de Brasília, no Distrito Federal",
+       "marcas": [
+        "comarca de Brasília"
+       ],
+       "afirmacao": "As ações judiciais sobre a eleição dos representantes municipais do Conselho Superior do CGIBS correm na comarca de Brasília.",
+       "gabarito": "C",
+       "porque": "É o art. 481, § 12."
+      }
+     ],
+     "conferido": {
+      "Art. 480.": "19159da0ec24",
+      "Art. 481.": "ebe4a0c98422"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "O conflito entre dois Estados sobre o IBS vai ao STJ, e não ao STF: o art. 102, I, f, da CF dá ao Supremo os conflitos entre a União e os Estados ou entre uns e outros, mas a alínea j do art. 105, I, é regra específica para os tributos da reforma. A presença da União, num conflito sobre CBS e IBS com um Município, também não leva a causa à Justiça Federal de primeira instância.",
+    "O Comitê de Harmonização das Administrações Tributárias uniformiza a interpretação das normas comuns e previne litígios na via administrativa, mas não julga conflito entre entes federativos."
    ],
    "macetes": [
     {
@@ -1930,8 +2657,43 @@
     "gabarito": "E",
     "explicacao": "São 14 eleitos com voto de igual valor e 13 com voto ponderado pela população (art. 481, § 1º, II, da LC 214/2025)."
    },
-   "aprofundamento": "<p><strong>Três competências, só pelo Comitê.</strong> Estados, DF e Municípios exercem de forma integrada, exclusivamente por meio do Comitê Gestor, as competências de editar o regulamento único e uniformizar a interpretação da legislação do IBS; arrecadar, efetuar as compensações e distribuir o produto da arrecadação; e decidir o contencioso administrativo (art. 156-B, I a III, da CF).</p><p><strong>Coordenar não é executar.</strong> O Comitê Gestor não fiscaliza nem lança. Fiscalização, lançamento, cobrança e representação administrativa e judicial do IBS cabem às administrações tributárias e às procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências, que podem definir delegação ou compartilhamento; ao Comitê cabe coordenar essas atividades para integrar os entes (art. 156-B, § 2º, V). As competências exclusivas dessas carreiras são exercidas, no Comitê e na sua representação, por servidores delas (§ 2º, VI). O auto de infração de IBS continua sendo lavrado por auditor fiscal estadual, distrital ou municipal.</p><p><strong>Controle externo, financiamento e presidência.</strong> O controle externo do Comitê é exercido pelos Estados, pelo DF e pelos Municípios, e não pelo TCU (art. 156-B, § 2º, IV). O Comitê é financiado por percentual da arrecadação do IBS destinada a cada ente (§ 2º, III); a presidência alterna entre o conjunto dos Estados e do DF e o dos Municípios e do DF (§ 2º, II); e o Presidente deve ter notórios conhecimentos de administração tributária (§ 5º).</p><p><strong>Quórum das deliberações.</strong> A deliberação só é aprovada se obtiver, cumulativamente, a maioria absoluta dos representantes dos Estados e do DF, representantes estaduais e distritais que correspondam a mais de 50% da população do País e a maioria absoluta dos representantes dos Municípios e do DF (art. 156-B, § 4º). Do lado municipal não há critério populacional na votação; a população só pesa na eleição de 13 dos 27 representantes municipais (§ 3º).</p><p><strong>Integração com a União.</strong> O Comitê, a Receita Federal e a PGFN compartilham informações fiscais sobre IBS e CBS e atuam para harmonizar normas, interpretações, obrigações acessórias e procedimentos (§ 6º).</p><p><strong>Conflitos federativos do IBS e da CBS vão ao STJ.</strong> A EC 132/2023 incluiu a alínea j no art. 105, I, da Constituição: compete ao Superior Tribunal de Justiça processar e julgar, originariamente, os conflitos entre entes federativos, ou entre eles e o Comitê Gestor do IBS, relacionados ao IBS (art. 156-A) e à CBS (art. 195, V). O critério junta os sujeitos e a matéria: de um lado, entes federativos entre si ou um ente contra o Comitê; do outro, uma disputa sobre IBS ou CBS. Presentes os dois, a competência é originária do STJ.</p><p><strong>As três trocas que a banca faz.</strong> Primeira: o STF. O art. 102, I, f, dá ao Supremo as causas e os conflitos entre a União e os Estados ou o DF, ou entre uns e outros, mas a alínea j do art. 105, I, é regra específica para os tributos da reforma, e o conflito entre dois Estados sobre IBS vai ao STJ, não ao STF. Segunda: a Justiça Federal. A presença da União no conflito sobre CBS e IBS, ou a sede do Comitê no DF, não desloca a causa para a primeira instância federal. Terceira: o Comitê de Harmonização das Administrações Tributárias. Ele uniformiza a interpretação das normas comuns e previne litígios na via administrativa, mas não julga conflito entre entes federativos.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A estrutura e a gestão do Comitê Gestor são fixadas pelo seu regimento interno, sem lei complementar.",
+     "certo": "A lei complementar estabelece estrutura e gestão; o regimento dispõe sobre organização e funcionamento (art. 156-B, § 2º, VII).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "Cada Estado arrecada isoladamente o IBS das operações destinadas ao seu território, sem o Comitê Gestor.",
+     "certo": "A arrecadação, a compensação e a distribuição são feitas de forma integrada, exclusivamente pelo Comitê (art. 156-B, II).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "Depois da EC 132/2023, a fiscalização, o lançamento e a representação judicial do IBS passaram ao Comitê Gestor.",
+     "certo": "Continuam com as administrações tributárias e as procuradorias dos entes; o Comitê coordena (art. 156-B, § 2º, V).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "A presidência do Comitê Gestor é exercida permanentemente por representante dos Estados.",
+     "certo": "Há alternância entre o conjunto dos Estados e do DF e o dos Municípios e do DF (art. 156-B, § 2º, II).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "O Comitê Gestor e a Receita Federal não podem compartilhar informações fiscais, por pertencerem a esferas diferentes.",
+     "certo": "Devem compartilhar informações e harmonizar normas e procedimentos (art. 156-B, § 6º).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "A Constituição já unificou num único órgão o contencioso administrativo do IBS e da CBS.",
+     "certo": "A CF só permite que a lei complementar preveja a integração (art. 156-B, § 8º).",
+     "fonte": "Questão do app sobre o art. 156-B da CF"
+    },
+    {
+     "errado": "O conflito entre um Estado e o Comitê Gestor sobre o IBS é julgado originariamente pelo STF.",
+     "certo": "É do STJ (art. 105, I, j, da CF).",
+     "fonte": "Questão do app sobre o art. 105 da CF"
+    }
+   ],
    "relacionados": [
     "split-payment",
     "transicao-da-reforma-tributaria"
@@ -1963,42 +2725,204 @@
     "2027",
     "2033",
     "ano teste",
-    "0,9%",
-    "0,1%",
+    "0 9",
+    "0 1",
     "extincao do icms",
     "extincao do iss",
     "pis cofins"
    ],
-   "resumo": "<strong>2026 é o ano de teste</strong>: CBS a 0,9% e IBS a 0,1% (estadual), valores compensados com PIS e Cofins do mesmo período ou, na falta deles, com outro tributo federal ou ressarcidos em até 60 dias (arts. 343, 346 e 348). Em 2026, a arrecadação do IBS não segue as repartições constitucionais: financia o Comitê Gestor e o fundo de compensação de benefícios do ICMS (art. 343, parágrafo único). Em <strong>2027 e 2028</strong>, a CBS passa a ser cobrada de verdade (PIS e Cofins acabam) e o IBS fica em 0,05% estadual e 0,05% municipal (arts. 344 e 347). <strong>De 2029 a 2032</strong>, ICMS e ISS caem gradualmente, junto com os benefícios fiscais deles, enquanto o IBS sobe (art. 342). Em <strong>2033</strong>, o sistema novo vale por inteiro.",
+   "para_entender": [
+    {
+     "texto": "<strong>Alíquota de referência:</strong> o que o Senado fixa durante a transição.",
+     "tema": "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "A <strong>transição</strong> é o período em que o sistema antigo e o novo convivem, para que as empresas e os fiscos se adaptem sem perda brusca de arrecadação. Ela começa em <strong>2026, o ano de teste</strong>: o IBS e a CBS são cobrados com alíquotas simbólicas, e o valor recolhido é <strong>compensado</strong>, isto é, abatido do PIS e da Cofins devidos (arts. 343, 346 e 348). Quem cumpre as obrigações acessórias, os deveres de informar, como emitir documento fiscal, fica dispensado de recolher (art. 348, § 1º). Em 2027 e 2028 a CBS já é cobrada de verdade, e o IBS segue com alíquota de teste (arts. 344 e 347). De 2029 a 2032, ICMS e ISS caem aos poucos, junto com os seus benefícios fiscais, enquanto o IBS sobe (art. 342). As datas estão na linha do tempo da tabela.",
    "esquema": {
     "rotulo": "linha do tempo",
     "html": "<table><thead><tr><th>Ano</th><th>CBS</th><th>IBS</th><th>Tributos antigos</th></tr></thead><tbody><tr><td><strong>2026</strong></td><td>0,9% (teste, compensável)</td><td>0,1% estadual (teste)</td><td>Todos continuam</td></tr><tr><td><strong>2027–2028</strong></td><td>Cobrança plena</td><td>0,05% + 0,05%</td><td>PIS e Cofins extintos; ICMS e ISS seguem</td></tr><tr><td><strong>2029–2032</strong></td><td>Plena</td><td>Sobe aos poucos</td><td>ICMS e ISS caem aos poucos</td></tr><tr><td><strong>2033</strong></td><td>Plena</td><td>Pleno</td><td>ICMS e ISS extintos</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Ano de teste (2026)",
+      "o_que_e": "IBS à alíquota estadual de 0,1% e CBS a 0,9% (arts. 343 e 346).",
+      "atencao": "Somadas, 1%. As alíquotas não se aplicam aos optantes do Simples Nacional (art. 348, III, c).",
+      "grupo": "2026"
+     },
+     {
+      "nome": "Compensação em 2026",
+      "o_que_e": "O IBS e a CBS recolhidos são compensados com o PIS e a Cofins devidos no mesmo período de apuração; sem débitos suficientes, o valor pode ser compensado com qualquer outro tributo federal ou ressarcido em até 60 dias, mediante requerimento (art. 348, I e II).",
+      "atencao": "O valor não se perde.",
+      "grupo": "2026"
+     },
+     {
+      "nome": "Dispensa do recolhimento",
+      "o_que_e": "Em 2026, quem cumpre as obrigações acessórias fica dispensado de recolher o IBS e a CBS, mas continua obrigado a pagar integralmente o PIS e a Cofins (art. 348, §§ 1º e 2º).",
+      "atencao": "Autuado por descumprir obrigação acessória do IBS e da CBS, o contribuinte tem 60 dias da intimação para suprir a omissão, e o atendimento extingue a penalidade (§§ 3º e 4º, incluídos pela LC 227/2026).",
+      "grupo": "2026"
+     },
+     {
+      "nome": "Destino do IBS de 2026",
+      "o_que_e": "A arrecadação não observa as vinculações, repartições e destinações da CF: vai, integral e sucessivamente, ao financiamento do Comitê Gestor e ao Fundo de Compensação de Benefícios Fiscais ou Financeiro-Fiscais do ICMS (art. 343, parágrafo único).",
+      "grupo": "2026"
+     },
+     {
+      "nome": "Reduções e regimes no teste",
+      "o_que_e": "As alíquotas de teste são aplicadas com a redução dos regimes diferenciados e nos regimes específicos, sobre as respectivas bases, salvo combustíveis e biocombustíveis (arts. 344, parágrafo único, e 348, III).",
+      "grupo": "2026"
+     },
+     {
+      "nome": "IBS em 2027 e 2028",
+      "o_que_e": "Alíquota estadual de 0,05% e municipal de 0,05% (art. 344).",
+      "atencao": "Nos combustíveis do regime específico, as alíquotas incidem sobre o valor da operação no momento da incidência da CBS, e esse IBS pode ser deduzido da CBS a recolher (arts. 344, parágrafo único, III, e 347, § 2º).",
+      "grupo": "2027 e 2028"
+     },
+     {
+      "nome": "CBS em 2027 e 2028",
+      "o_que_e": "Alíquota fixada nos termos do art. 14, reduzida em 0,1 ponto percentual, salvo combustíveis do regime específico (art. 347).",
+      "atencao": "A redução é proporcional nos regimes diferenciados e aplicada nos específicos, sobre as respectivas bases (§ 1º).",
+      "grupo": "2027 e 2028"
+     },
+     {
+      "nome": "ICMS e ISS de 2029 a 2032",
+      "o_que_e": "Redução gradual das alíquotas do ICMS e do ISS e dos benefícios fiscais ligados a eles, nos termos dos arts. 501 e 508 (art. 342, I e II).",
+      "atencao": "Não é de 2027 a 2030.",
+      "grupo": "2029 em diante"
+     },
+     {
+      "nome": "Alíquotas de referência do IBS",
+      "o_que_e": "De 2029 a 2033, pelos arts. 361 a 365; em 2034 e 2035, pelos arts. 366 e 369 (art. 342, III e IV).",
+      "grupo": "2029 em diante"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 343. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026, o IBS será cobrado mediante aplicação da alíquota estadual de 0,1% (um décimo por cento).\n\nParágrafo único. Durante o período indicado no caput deste artigo a arrecadação do IBS não observará as vinculações, repartições e destinações previstas na Constituição Federal, devendo ser aplicada, integral e sucessivamente, para:\n\nI - o financiamento do Comitê Gestor do IBS, nos termos do art. 156-B, § 2º, III, da Constituição Federal; e\n\nII - compor o Fundo de Compensação de Benefícios Fiscais ou Financeiro- Fiscais do ICMS.",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 342.",
+      "Art. 343.",
+      "Art. 344."
+     ],
+     "ref": "arts. 342 a 344 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 342.</strong> A transição para o IBS segue esta Seção e: o art. 501, para a redução das alíquotas do ICMS e dos benefícios fiscais desse imposto entre 2029 e 2032; o art. 508, para a mesma redução no ISS, também entre 2029 e 2032; os arts. 361 a 365, para as alíquotas de referência do IBS de 2029 a 2033; e os arts. 366 e 369, para as de 2034 e 2035.",
+      "<strong>Art. 343.</strong> Nos fatos geradores de 1º de janeiro a 31 de dezembro de 2026, o IBS é cobrado à alíquota estadual de 0,1%. Nesse período a arrecadação não observa as vinculações, repartições e destinações da CF e vai, integral e sucessivamente, ao financiamento do Comitê Gestor (art. 156-B, § 2º, III, da CF) e ao Fundo de Compensação de Benefícios Fiscais ou Financeiro-Fiscais do ICMS.",
+      "<strong>Art. 344.</strong> Nos fatos geradores de 2027 e 2028, o IBS é cobrado à alíquota estadual de 0,05% e à municipal de 0,05%. Essas alíquotas são aplicadas com a redução dos regimes diferenciados; nos regimes específicos, sobre as respectivas bases, exceto combustíveis; nos combustíveis do regime específico, sobre o valor da operação no momento da incidência da CBS; e valem como alíquotas de referência do IBS para os fins dos arts. 189, § 2º, 485, § 8º, 486, § 13, e 487, § 12 (inciso IV, incluído pela LC 227/2026)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o IBS será cobrado mediante aplicação da alíquota estadual de 0,1% (um décimo por cento)",
+       "marcas": [
+        "estadual",
+        "0,1%"
+       ],
+       "afirmacao": "Nos fatos geradores de 2026, o IBS é cobrado à alíquota estadual de 0,1%.",
+       "gabarito": "C",
+       "porque": "É o art. 343. Não há parcela municipal no ano de teste."
+      },
+      {
+       "trecho": "a arrecadação do IBS não observará as vinculações, repartições e destinações previstas na Constituição Federal",
+       "marcas": [
+        "não observará"
+       ],
+       "afirmacao": "Em 2026, a arrecadação do IBS segue as vinculações e repartições previstas na Constituição.",
+       "gabarito": "E",
+       "porque": "Não segue: vai ao financiamento do Comitê Gestor e ao fundo de compensação de benefícios do ICMS (art. 343, parágrafo único)."
+      },
+      {
+       "trecho": "à redução dos benefícios fiscais relacionados a este imposto entre 2029 e 2032",
+       "marcas": [
+        "entre 2029 e 2032"
+       ],
+       "afirmacao": "A redução gradual das alíquotas do ICMS e do ISS, e dos benefícios fiscais ligados a eles, ocorre entre 2027 e 2030.",
+       "gabarito": "E",
+       "porque": "Ocorre entre 2029 e 2032 (art. 342, I e II)."
+      }
+     ],
+     "conferido": {
+      "Art. 342.": "7ffde4635bfd",
+      "Art. 343.": "54f8347afe60",
+      "Art. 344.": "58fd49c60582"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 344. Em relação aos fatos geradores ocorridos de 1º de janeiro de 2027 a 31 de dezembro de 2028, o IBS será cobrado à alíquota estadual de 0,05% (cinco centésimos por cento) e à alíquota municipal de 0,05% (cinco centésimos por cento).\n\nParágrafo único. As alíquotas previstas no caput:\n\nI - serão aplicadas com a respectiva redução no caso das operações sujeitas a alíquota reduzida, no âmbito de regimes diferenciados de tributação;\n\nII - serão aplicadas em relação aos regimes específicos de que trata esta Lei Complementar, observadas as respectivas bases de cálculo, exceto em relação aos combustíveis sujeitos ao regime específico de que tratam os arts. 172 a 180 desta Lei Complementar; e\n\n(...)",
+     "norma": "n214-2025",
+     "artigos": [
+      "Art. 346.",
+      "Art. 347.",
+      "Art. 348."
+     ],
+     "ref": "arts. 346 a 348 da LC 214/2025",
+     "regras": [
+      "<strong>Art. 346.</strong> Nos fatos geradores de 2026, a CBS é cobrada à alíquota de 0,9%.",
+      "<strong>Art. 347.</strong> Nos fatos geradores de 2027 e 2028, a alíquota da CBS é a fixada pelo art. 14, I e §§ 2º e 3º, reduzida em 0,1 ponto percentual, salvo nos combustíveis do regime específico. A redução é proporcional nos regimes diferenciados e aplicada nos específicos, sobre as respectivas bases. O IBS recolhido pelos combustíveis nesse período pode ser deduzido da CBS a recolher.",
+      "<strong>Art. 348, caput, I a III.</strong> Em 2026, o IBS e a CBS recolhidos são compensados com a Cofins e o PIS devidos no mesmo período de apuração (art. 195, I, b, e IV, e art. 239 da CF); sem débitos suficientes, o valor pode ser compensado com qualquer outro tributo federal ou ressarcido em até 60 dias, mediante requerimento. As alíquotas de teste são aplicadas com a redução dos regimes diferenciados, nos regimes específicos sobre as respectivas bases, exceto combustíveis e biocombustíveis, e não se aplicam aos optantes do Simples Nacional.",
+      "<strong>§§ 1º a 4º.</strong> Fica dispensado o recolhimento de 2026 para quem cumprir as obrigações acessórias, mantido o pagamento integral do PIS e da Cofins. Lavrado auto de infração por descumprimento das obrigações acessórias do art. 341-G, o sujeito passivo é intimado a suprir a omissão em 60 dias, e o atendimento extingue a penalidade (§§ 3º e 4º, incluídos pela LC 227/2026)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a CBS será cobrada mediante aplicação da alíquota de 0,9% (nove décimos por cento)",
+       "marcas": [
+        "0,9%"
+       ],
+       "afirmacao": "Nos fatos geradores de 2026, a CBS é cobrada à alíquota de 0,1%, a mesma do IBS.",
+       "gabarito": "E",
+       "porque": "A CBS de 2026 é de 0,9% (art. 346); o IBS, de 0,1% (art. 343)."
+      },
+      {
+       "trecho": "reduzida em 0,1 (um décimo) ponto percentual",
+       "marcas": [
+        "0,1 (um décimo) ponto percentual"
+       ],
+       "afirmacao": "Em 2027 e 2028, a alíquota da CBS é a fixada pela União nos termos do art. 14, reduzida em 0,1 ponto percentual, salvo nos combustíveis do regime específico.",
+       "gabarito": "C",
+       "porque": "É o art. 347, caput."
+      },
+      {
+       "trecho": "b) ressarcido em até 60 (sessenta) dias, mediante requerimento;",
+       "marcas": [
+        "60 (sessenta) dias"
+       ],
+       "afirmacao": "Em 2026, se o contribuinte não tiver débitos de PIS e Cofins suficientes para a compensação, o valor recolhido de IBS e CBS não pode ser recuperado.",
+       "gabarito": "E",
+       "porque": "Pode ser compensado com outro tributo federal ou ressarcido em até 60 dias, mediante requerimento (art. 348, II)."
+      },
+      {
+       "trecho": "c) não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional.",
+       "marcas": [
+        "Simples Nacional"
+       ],
+       "afirmacao": "As alíquotas de teste do IBS e da CBS em 2026 não se aplicam às operações dos optantes pelo Simples Nacional.",
+       "gabarito": "C",
+       "porque": "É o art. 348, III, c."
+      },
+      {
+       "trecho": "O atendimento à intimação a que se refere o § 3º deste artigo importa extinção da penalidade",
+       "marcas": [
+        "extinção da penalidade"
+       ],
+       "afirmacao": "Autuado em 2026 por descumprir obrigação acessória do IBS e da CBS, o contribuinte que supre a omissão no prazo da intimação tem a penalidade extinta.",
+       "gabarito": "C",
+       "porque": "O § 4º do art. 348, incluído pela LC 227/2026, prevê a extinção; o prazo é de 60 dias da intimação (§ 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 346.": "a02fffe29eb5",
+      "Art. 347.": "3c05aac07410",
+      "Art. 348.": "6bf3fe776f72"
+     },
      "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
-    },
-    {
-     "texto": "Art. 346. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026, a CBS será cobrada mediante aplicação da alíquota de 0,9% (nove décimos por cento).",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
-    },
-    {
-     "texto": "Art. 348. Em relação aos fatos geradores ocorridos de 1º de janeiro a 31 de dezembro de 2026:\n\nI - o montante recolhido do IBS e da CBS será compensado com o valor devido, no mesmo período de apuração, das contribuições previstas no art. 195, inciso I, alínea \"b\", e inciso IV, e da contribuição para o PIS a que se refere o art. 239, ambos da Constituição Federal;\n\nII - caso o contribuinte não possua débitos suficientes para efetuar a compensação de que trata o inciso I, o valor recolhido poderá ser:\n\na) compensado com qualquer outro tributo federal, nos termos da legislação; ou\n\nb) ressarcido em até 60 (sessenta) dias, mediante requerimento;\n\nIII - as alíquotas do IBS e da CBS previstas nos arts. 343 e 346 desta Lei Complementar:\n\n(...)",
-     "fonte": "Lei Complementar nº 214/2025, com a redação da LC 227/2026 (texto atualizado da Câmara dos Deputados)",
-     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html",
-     "norma": "n214-2025"
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2025/leicomplementar-214-16-janeiro-2025-796905-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "A extinção do PIS e da Cofins em 2027 e a extinção do ICMS e do ISS em 2033 vêm da EC 132/2023 e do ADCT; a LC 214/2025 regula a cobrança do IBS e da CBS em cada fase."
    ],
    "macetes": [
     {
@@ -2011,6 +2935,33 @@
     "gabarito": "E",
     "explicacao": "A redução de ICMS e ISS, e dos benefícios fiscais ligados a eles, ocorre entre 2029 e 2032 (art. 342, I e II, da LC 214/2025)."
    },
+   "pegadinhas": [
+    {
+     "errado": "Em 2026, a CBS é cobrada à alíquota de 0,1%, a mesma do IBS.",
+     "certo": "A CBS é de 0,9% (art. 346); o IBS, de 0,1% estadual (art. 343).",
+     "fonte": "Questão do app sobre o art. 346 da LC 214/2025"
+    },
+    {
+     "errado": "Em 2026, a arrecadação do IBS segue as repartições previstas na Constituição.",
+     "certo": "Vai ao Comitê Gestor e ao fundo de compensação de benefícios do ICMS (art. 343, parágrafo único).",
+     "fonte": "Questão do app sobre o art. 343 da LC 214/2025"
+    },
+    {
+     "errado": "Sem débitos de PIS e Cofins suficientes em 2026, o IBS e a CBS recolhidos não podem ser recuperados.",
+     "certo": "Podem ser compensados com outro tributo federal ou ressarcidos em até 60 dias (art. 348, II).",
+     "fonte": "Questão do app sobre o art. 348 da LC 214/2025"
+    },
+    {
+     "errado": "A redução gradual do ICMS e do ISS ocorre entre 2027 e 2030.",
+     "certo": "Ocorre entre 2029 e 2032 (art. 342, I e II).",
+     "fonte": "Questão do app sobre o art. 342 da LC 214/2025"
+    },
+    {
+     "errado": "Em 2027 e 2028, o IBS é cobrado só pelos Estados, à alíquota de 0,1%.",
+     "certo": "É cobrado à alíquota estadual de 0,05% e à municipal de 0,05% (art. 344).",
+     "fonte": "Questão do app sobre o art. 344 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "visao-geral-da-reforma-tributaria",
     "comite-gestor-do-ibs"
@@ -2822,12 +3773,126 @@
     "agencia de turismo",
     "cooperativas"
    ],
-   "resumo": "Os <strong>regimes específicos</strong> não se limitam a reduzir alíquota: mudam a base de cálculo, a alíquota ou a regra de crédito de setores em que o débito e crédito comum funciona mal. Nos <strong>serviços financeiros</strong>, as alíquotas são nacionalmente uniformes e a base é a receita das operações com deduções legais, como as despesas de captação (arts. 185, 189 e 192). Nos <strong>planos de assistência à saúde</strong>, a alíquota é a de referência reduzida em 60%, e o adquirente, em regra, não credita (arts. 237 e 238). Nos <strong>concursos de prognósticos</strong>, a base é a arrecadação menos os prêmios pagos e as destinações legais, e o apostador não tem crédito (arts. 245 e 247). Nos <strong>bens imóveis</strong>, há redução de 50% (70% na locação) e dois redutores da base: o de ajuste e o social (arts. 257 a 261). <strong>Bares e restaurantes</strong> e <strong>hotelaria e parques</strong> têm redução de 40%; o fornecedor credita, mas o adquirente não (arts. 275, 276 e 281 a 283). No <strong>transporte coletivo</strong> intermunicipal e interestadual, a redução é de 40% e o adquirente credita; no ferroviário e hidroviário urbano, a redução é de 100% e o crédito é vedado nas duas pontas (arts. 284 a 286). As <strong>agências de turismo</strong> tributam o valor cobrado menos os repasses aos fornecedores, e as <strong>cooperativas</strong> podem optar por alíquota zero nas operações com associados (arts. 289 e 271).",
+   "para_entender": [
+    {
+     "texto": "<strong>Regime diferenciado:</strong> a diferença entre reduzir a alíquota e mudar a forma de cobrar.",
+     "tema": "regimes-diferenciados-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Crédito do adquirente:</strong> a regra geral que os regimes específicos afastam.",
+     "tema": "nao-cumulatividade-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Os <strong>regimes específicos</strong> são setores em que o débito e crédito comum do IVA funciona mal, e por isso a LC 214/2025 muda a <strong>base de cálculo</strong> (o valor sobre o qual se aplica a alíquota), a alíquota ou a regra de crédito. No setor financeiro, por exemplo, não há preço destacado em cada operação, e a base passa a ser a <strong>receita</strong> com deduções, como as despesas de captação. Em outros setores, como restaurantes, hotelaria, parques e apostas, o comprador, mesmo empresa do regime regular, <strong>não credita</strong>. Nos imóveis, a base é reduzida por dois <strong>redutores</strong>, valores que a lei manda abater: o de ajuste e o social. Base, alíquota e crédito de cada regime estão na tabela; as regras finas estão nas figuras.",
    "esquema": {
     "rotulo": "base, alíquota e crédito em cada regime",
     "html": "<table><thead><tr><th>Regime</th><th>Base de cálculo</th><th>Alíquota</th><th>Crédito de quem compra</th></tr></thead><tbody><tr><td><strong>Serviços financeiros</strong></td><td>Receita das operações com deduções legais</td><td>Nacionalmente uniforme</td><td>Só nas hipóteses expressas, como a da empresa que toma empréstimo</td></tr><tr><td><strong>Recebíveis de cartão</strong></td><td>Desconto menos a curva de juros futuros da taxa DI</td><td>A dos arranjos de pagamento</td><td>Parcela do desconto acima da curva DI</td></tr><tr><td><strong>Planos de saúde</strong></td><td>Prêmios recebidos menos indenizações pagas e outras deduções</td><td>Referência reduzida em 60%</td><td>Vedado, salvo plano de empregados por acordo ou convenção coletiva</td></tr><tr><td><strong>Concursos de prognósticos</strong></td><td>Arrecadação menos prêmios e destinações legais</td><td>Soma das alíquotas de referência</td><td>Vedado ao apostador</td></tr><tr><td><strong>Bens imóveis</strong></td><td>Valor da operação menos redutores de ajuste e social</td><td>Redução de 50%; locação, 70%</td><td>Regras gerais</td></tr><tr><td><strong>Bares e restaurantes</strong></td><td>Valor da operação, sem gorjeta de até 15% repassada</td><td>Redução de 40%</td><td>Vedado</td></tr><tr><td><strong>Hotelaria e parques</strong></td><td>Valor da operação</td><td>Redução de 40%</td><td>Vedado; o fornecedor credita</td></tr><tr><td><strong>Transporte intermunicipal e interestadual</strong></td><td>Valor da operação</td><td>Redução de 40%</td><td>Permitido</td></tr><tr><td><strong>Trem e barco urbanos e metropolitanos</strong></td><td>Valor da operação</td><td>Redução de 100%</td><td>Vedado ao adquirente e ao fornecedor</td></tr><tr><td><strong>Agências de turismo</strong></td><td>Valor cobrado menos repasses aos fornecedores</td><td>A da hotelaria</td><td>Permitido sobre a intermediação</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Serviços financeiros: base",
+      "o_que_e": "Receita das operações com as deduções do regime; nas operações de crédito, câmbio e títulos, deduzem-se, entre outras, as despesas de captação e as perdas no recebimento, e o principal não entra na receita (arts. 185 e 192).",
+      "grupo": "Serviços financeiros"
+     },
+     {
+      "nome": "Serviços financeiros: alíquota",
+      "o_que_e": "Nacionalmente uniforme; somadas, de 10,85% em 2027 e 2028 a 12,50% em 2033 (arts. 189 e 233).",
+      "grupo": "Serviços financeiros"
+     },
+     {
+      "nome": "Crédito do tomador de empréstimo",
+      "o_que_e": "A regra é a vedação de crédito a quem toma serviço financeiro, salvo hipóteses expressas (art. 199). A empresa do regime regular, fora do regime financeiro, que toma empréstimo credita pela mesma alíquota sobre as despesas financeiras efetivamente pagas, pelo regime de caixa, depois de deduzir o principal e a Selic sobre o principal (art. 194).",
+      "grupo": "Serviços financeiros"
+     },
+     {
+      "nome": "Antecipação de recebíveis",
+      "o_que_e": "Na liquidação antecipada de recebíveis de arranjos de pagamento, como as vendas no cartão, a base é o desconto com a dedução da curva de juros futuros da taxa DI pelo prazo da antecipação, admitida a dedução das perdas (art. 219, §§ 1º e 2º).",
+      "atencao": "A base não é o desconto inteiro nem o valor antecipado. O lojista do regime regular credita a parcela do desconto acima da curva DI, pelo regime de caixa (§ 5º); o mesmo vale para cessão de recebíveis, desconto, securitização e factoring (art. 196).",
+      "grupo": "Serviços financeiros"
+     },
+     {
+      "nome": "Importação de serviço financeiro",
+      "o_que_e": "Paga a mesma alíquota do serviço contratado no país (art. 231). Se o importador do regime regular teria crédito na compra interna, aplica-se alíquota zero e não há crédito (§ 1º, II).",
+      "atencao": "Se o importador é quem faz operações de crédito, câmbio, títulos, securitização ou factoring, a alíquota zero vem com o direito de deduzir a despesa da própria base (§ 1º, IV), salvo, entre partes relacionadas, no que passar do preço de mercado (§ 3º).",
+      "grupo": "Serviços financeiros"
+     },
+     {
+      "nome": "Planos de saúde",
+      "o_que_e": "Planos de assistência à saúde e funerários: base formada pelos prêmios e contraprestações menos as indenizações pagas e outras deduções, com alíquotas de referência reduzidas em 60% (arts. 235 a 237).",
+      "atencao": "O adquirente não credita, salvo a empresa do regime regular que contrata plano para empregados e dependentes em decorrência de acordo ou convenção coletiva de trabalho, que pode apropriar crédito na parcela desses beneficiários, excluído o que foi repassado aos empregados (arts. 57, § 3º, IV, f, e 238).",
+      "grupo": "Saúde e apostas"
+     },
+     {
+      "nome": "Concursos de prognósticos",
+      "o_que_e": "Loterias, apostas de quota fixa, turfe e fantasy sport: base é a receita própria da operadora, o arrecadado menos os prêmios pagos e as destinações obrigatórias por lei; a alíquota é a soma das alíquotas de referência, uniforme no país (arts. 244 a 246).",
+      "atencao": "Os prêmios não sofrem incidência, e o apostador não credita (art. 247).",
+      "grupo": "Saúde e apostas"
+     },
+     {
+      "nome": "Imóveis: pessoa física contribuinte",
+      "o_que_e": "A pessoa física é contribuinte do regime regular quando, no ano-calendário anterior, a locação, cessão ou arrendamento superar R$ 240 mil de receita e envolver mais de 3 imóveis distintos, requisitos cumulativos; quando alienar mais de 3 imóveis distintos; ou quando alienar mais de 1 imóvel construído por ela nos 5 anos anteriores (art. 251, § 1º).",
+      "atencao": "Só a receita acima de R$ 240 mil com locação, independentemente do número de imóveis, não basta. Se, no próprio ano, a receita de locação passar o limite em 20%, ela já é contribuinte nesse ano (§ 2º, II).",
+      "grupo": "Imóveis"
+     },
+     {
+      "nome": "Redutor de ajuste",
+      "o_que_e": "Vinculado a cada imóvel do contribuinte do regime regular a partir de 2027, corresponde em regra ao valor de aquisição atualizado e reduz só a base da alienação (arts. 257 e 258).",
+      "grupo": "Imóveis"
+     },
+     {
+      "nome": "Redutor social",
+      "o_que_e": "R$ 100 mil por imóvel residencial novo e R$ 30 mil por lote residencial, abatidos na alienação depois do redutor de ajuste e usados uma única vez por imóvel; na locação residencial, R$ 600 por mês por imóvel (arts. 259 e 260).",
+      "grupo": "Imóveis"
+     },
+     {
+      "nome": "Imóveis: alíquotas e outras regras",
+      "o_que_e": "Redução de 50% nas operações com imóveis e de 70% na locação, cessão onerosa e arrendamento (art. 261).",
+      "atencao": "A locação residencial por período não superior a 90 dias ininterruptos, feita por contribuinte do regime regular, segue as mesmas regras da hotelaria (art. 253). Não incidem IBS e CBS na permuta, salvo sobre a torna, nem na constituição de garantia real (art. 252, § 2º).",
+      "grupo": "Imóveis"
+     },
+     {
+      "nome": "Bares e restaurantes",
+      "o_que_e": "Alimentação de bares, restaurantes e lanchonetes e bebidas não alcoólicas preparadas no local, com redução de 40% e sem crédito para o cliente, ainda que empresa do regime regular (arts. 273, 275 e 276).",
+      "atencao": "Ficam fora as bebidas alcoólicas, mesmo preparadas ali, os produtos comprados prontos e a alimentação fornecida a pessoa jurídica sob contrato (art. 273). Saem da base a gorjeta de até 15% repassada integralmente ao empregado e o que a plataforma de entrega não repassa (art. 274).",
+      "grupo": "Bares, hotelaria e turismo"
+     },
+     {
+      "nome": "Hotelaria e parques",
+      "o_que_e": "Hotelaria é o alojamento temporário com os serviços da hospedagem, em unidade de uso exclusivo do hóspede, em estabelecimento próprio ou imóvel residencial mobiliado (art. 278). Hotelaria, parques de diversão e temáticos têm redução de 40%: o fornecedor credita, o adquirente não (arts. 281 a 283). A empresa do regime regular que hospeda empregados em viagem a trabalho não apropria crédito da hospedagem.",
+      "atencao": "A alimentação servida pelo hotel segue o regime de bares e restaurantes (art. 280, parágrafo único).",
+      "grupo": "Bares, hotelaria e turismo"
+     },
+     {
+      "nome": "Agências de turismo",
+      "o_que_e": "Base é o valor cobrado do cliente menos os repasses aos fornecedores intermediados, com a alíquota da hotelaria; o adquirente credita o IBS e a CBS da intermediação, e a agência não credita o que deduziu da base (arts. 289 a 291).",
+      "grupo": "Bares, hotelaria e turismo"
+     },
+     {
+      "nome": "Transporte intermunicipal e interestadual",
+      "o_que_e": "Rodoviário, ferroviário e hidroviário de passageiros: redução de 40%, com crédito para o fornecedor e para o adquirente (arts. 284, § 2º, e 286). O aéreo regional, de passageiros ou de carga, também tem redução de 40% (art. 287).",
+      "grupo": "Transporte"
+     },
+     {
+      "nome": "Trem e barco urbanos e metropolitanos",
+      "o_que_e": "Ferroviário e hidroviário urbano, semiurbano e metropolitano: redução de 100%, com crédito vedado ao fornecedor nas compras e ao adquirente (art. 285).",
+      "atencao": "Não generalize: o adquirente do transporte intermunicipal credita; o da hotelaria e dos parques, não.",
+      "grupo": "Transporte"
+     },
+     {
+      "nome": "Cooperativas",
+      "o_que_e": "A cooperativa pode optar, no ano anterior ao início dos efeitos ou no início das atividades, por alíquota zero na operação do associado com a cooperativa e na da cooperativa com associado do regime regular, inclusive nos serviços financeiros aos associados (art. 271).",
+      "atencao": "A adesão é opcional, e não automática.",
+      "grupo": "Cooperativas"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Na importação de serviço financeiro por contribuinte que teria crédito na compra interna, a alíquota zero sem crédito evita o débito e o crédito simultâneos: o efeito final seria o mesmo (art. 231, § 1º, II)."
+   ],
    "macetes": [
     {
      "sigla": "A curva DI fica fora da base",
@@ -2851,8 +3916,43 @@
     "gabarito": "E",
     "explicacao": "A base é o desconto com a dedução do valor correspondente à curva de juros futuros da taxa DI pelo prazo da antecipação, admitida ainda a dedução de perdas (art. 219, §§ 1º e 2º, da LC 214/2025)."
    },
-   "aprofundamento": "<p><strong>Serviços financeiros: base, alíquota e crédito do tomador.</strong> A base é a receita das operações com as deduções do próprio regime. Nas operações de crédito, de câmbio e com títulos e valores mobiliários, deduzem-se, entre outras, as despesas financeiras com a captação de recursos e as perdas no recebimento de créditos, e o principal não entra na receita (arts. 185 e 192). As alíquotas são nacionalmente uniformes e, somadas, vão de 10,85% em 2027 e 2028 a 12,50% em 2033 (arts. 189 e 233). A regra é a vedação de crédito a quem toma serviço financeiro, salvo nas hipóteses expressas (art. 199). A principal delas: a empresa do regime regular que não está no regime financeiro e toma empréstimo pode creditar-se pela mesma alíquota da operação, aplicada sobre as despesas financeiras efetivamente pagas, pelo regime de caixa, depois de deduzir de cada parcela o principal e o valor correspondente à Selic sobre o principal (art. 194).</p><p><strong>Recebíveis e curva DI.</strong> Na liquidação antecipada de recebíveis de arranjos de pagamento, como a antecipação das vendas no cartão, a base do IBS e da CBS é o desconto aplicado com a dedução do valor correspondente à curva de juros futuros da taxa DI pelo prazo da antecipação, e podem ser deduzidas as perdas no recebimento e na cessão dos créditos (art. 219, §§ 1º e 2º). O lojista do regime regular que antecipa seus recebíveis credita-se sobre a parcela do desconto que superar essa curva, pelo regime de caixa (art. 219, § 5º). A mesma lógica vale para quem toma cessão de recebíveis, desconto, securitização ou factoring: credita a parcela do deságio superior à curva DI (art. 196). Repare: a base não é o desconto inteiro, nem o valor antecipado.</p><p><strong>Importação de serviços financeiros.</strong> O serviço financeiro importado paga a mesma alíquota do contratado no País (art. 231). Há duas hipóteses de alíquota zero. Se o importador é contribuinte do regime regular com direito a crédito na compra do mesmo serviço no País, aplica-se alíquota zero na importação e não se apropria crédito (§ 1º, II): o efeito final seria o mesmo, e a lei evita o débito e o crédito simultâneos. Se o importador é quem realiza operações de crédito, câmbio, títulos, securitização ou factoring (incisos I a V do art. 182), a alíquota zero vem com a manutenção do direito de deduzir essa despesa da própria base (§ 1º, IV), salvo, entre partes relacionadas, na parcela que exceder os preços de mercado (§ 3º).</p><p><strong>Planos de saúde e apostas.</strong> Os planos de assistência à saúde, e também os funerários, têm base formada pelos prêmios e contraprestações recebidos menos as indenizações pagas pelos eventos e outras deduções, e alíquotas de referência reduzidas em 60% (arts. 235 a 237). O crédito do adquirente é vedado, com uma exceção: a empresa do regime regular que contrata plano para empregados e dependentes em decorrência de acordo ou convenção coletiva de trabalho credita a parcela proporcional a esses beneficiários, excluído o que foi repassado aos empregados (arts. 57, § 3º, IV, f, e 238). Nos concursos de prognósticos, que abrangem loterias, apostas de quota fixa, turfe e fantasy sport, a base é a receita própria da operadora: o arrecadado menos os prêmios pagos e as destinações obrigatórias por lei. Os prêmios não sofrem incidência, a alíquota é a soma das alíquotas de referência, uniforme no País, e o apostador não credita (arts. 244 a 247).</p><p><strong>Imóveis: quem é contribuinte e os dois redutores.</strong> O regime vale para quem apura no regime regular. A pessoa física entra nele quando, no ano anterior, a locação, cessão ou arrendamento superar R$ 240 mil de receita e envolver mais de 3 imóveis distintos, requisitos cumulativos; quando alienar mais de 3 imóveis distintos; ou quando alienar mais de 1 imóvel construído por ela nos 5 anos anteriores (art. 251, § 1º). Se, no próprio ano, a receita de locação exceder em 20% o limite, ela já é contribuinte nesse ano (§ 2º, II). O <strong>redutor de ajuste</strong> fica vinculado a cada imóvel do contribuinte do regime regular a partir de 2027, corresponde em regra ao valor de aquisição atualizado e reduz exclusivamente a base da alienação (arts. 257 e 258). O <strong>redutor social</strong> é outra coisa: R$ 100 mil por imóvel residencial novo e R$ 30 mil por lote residencial, deduzidos na alienação depois do redutor de ajuste e usados uma única vez por imóvel; na locação residencial, R$ 600 por mês por imóvel (arts. 259 e 260). As alíquotas caem 50% nas operações com imóveis e 70% na locação, cessão onerosa e arrendamento (art. 261). A locação residencial de até 90 dias feita por contribuinte do regime regular segue as regras da hotelaria (art. 253). Não incidem IBS e CBS na permuta, salvo sobre a torna, nem na constituição de garantia real (art. 252, § 2º).</p><p><strong>Bares e restaurantes.</strong> O regime alcança a alimentação fornecida por bares, restaurantes e lanchonetes e as bebidas não alcoólicas preparadas no local. Ficam fora as bebidas alcoólicas, ainda que preparadas ali, os produtos comprados prontos de terceiros e a alimentação fornecida a pessoa jurídica sob contrato (art. 273). A gorjeta sai da base se for repassada integralmente ao empregado e não passar de 15% do valor total do fornecimento; também saem os valores que a plataforma de entrega não repassa ao restaurante (art. 274). A alíquota é reduzida em 40%, e o cliente não credita, ainda que seja empresa do regime regular (arts. 275 e 276).</p><p><strong>Hotelaria, parques e turismo.</strong> Hotelaria é o alojamento temporário com os serviços incluídos na hospedagem, em unidade de uso exclusivo do hóspede em estabelecimento próprio ou em imóvel residencial mobiliado (art. 278). Hotelaria, parques de diversão e parques temáticos têm alíquota reduzida em 40%; o fornecedor credita normalmente nas suas compras, mas o adquirente da hospedagem ou do ingresso não credita (arts. 281 a 283). A alimentação servida pelo hotel segue o regime de bares e restaurantes (art. 280, parágrafo único). A agência de turismo tributa o valor cobrado do cliente menos o que repassou aos fornecedores intermediados, com a alíquota da hotelaria; o adquirente pode creditar o IBS e a CBS da intermediação, e a agência não credita os valores que deduziu da base (arts. 289 a 291).</p><p><strong>Transporte coletivo: o crédito muda conforme o modal.</strong> No rodoviário, ferroviário e hidroviário intermunicipal e interestadual, a alíquota cai 40%, o fornecedor credita e o adquirente também pode creditar (arts. 284, § 2º, e 286). No aéreo regional, de passageiros ou de carga, a redução também é de 40% (art. 287). No ferroviário e hidroviário urbano, semiurbano e metropolitano, a redução é de 100%, e o crédito é vedado tanto ao fornecedor nas suas compras quanto ao adquirente (art. 285). Não generalize: a vedação de crédito do adquirente existe na hotelaria e nos parques, mas não no transporte intermunicipal.</p><p><strong>Cooperativas.</strong> A cooperativa pode optar, no ano anterior ao início dos efeitos ou no início das atividades, por regime em que ficam reduzidas a zero as alíquotas na operação do associado com a cooperativa e na da cooperativa com associado do regime regular, inclusive nos serviços financeiros prestados a associados (art. 271). A adesão é opcional, não automática.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Na liquidação antecipada de recebíveis de cartão, a base do IBS e da CBS é o desconto integral cobrado do lojista.",
+     "certo": "A base é o desconto menos a curva de juros futuros da taxa DI pelo prazo da antecipação, admitida a dedução de perdas (art. 219, §§ 1º e 2º).",
+     "fonte": "Questão do app sobre o art. 219 da LC 214/2025"
+    },
+    {
+     "errado": "A pessoa física que, no ano anterior, teve receita superior a R$ 240 mil com locação de imóveis é contribuinte do regime regular, qualquer que seja o número de imóveis.",
+     "certo": "Os requisitos são cumulativos: mais de R$ 240 mil e mais de 3 imóveis distintos (art. 251, § 1º).",
+     "fonte": "Questão do app sobre o art. 251 da LC 214/2025"
+    },
+    {
+     "errado": "A empresa do regime regular que paga a refeição dos clientes num restaurante pode creditar o IBS e a CBS.",
+     "certo": "O adquirente de bares e restaurantes não credita, ainda que seja do regime regular (art. 276).",
+     "fonte": "Questão do app sobre o art. 276 da LC 214/2025"
+    },
+    {
+     "errado": "O adquirente do transporte coletivo intermunicipal não pode creditar o IBS e a CBS, como ocorre na hotelaria.",
+     "certo": "No intermunicipal e interestadual, o adquirente credita (art. 286); a vedação é da hotelaria, dos parques e do transporte urbano.",
+     "fonte": "Questão do app sobre o art. 286 da LC 214/2025"
+    },
+    {
+     "errado": "O redutor social do imóvel residencial novo é de R$ 30 mil por imóvel.",
+     "certo": "É de R$ 100 mil por imóvel residencial novo; os R$ 30 mil são do lote residencial (art. 259).",
+     "fonte": "Questão do app sobre o art. 259 da LC 214/2025"
+    },
+    {
+     "errado": "A gorjeta integra a base do IBS e da CBS dos restaurantes, qualquer que seja o valor.",
+     "certo": "Sai da base a gorjeta de até 15% repassada integralmente ao empregado (art. 274).",
+     "fonte": "Questão do app sobre o art. 274 da LC 214/2025"
+    },
+    {
+     "errado": "Toda cooperativa fica automaticamente no regime de alíquota zero nas operações com associados.",
+     "certo": "O regime é opcional (art. 271).",
+     "fonte": "Questão do app sobre o art. 271 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "regimes-diferenciados-do-ibs-e-da-cbs",
     "nao-cumulatividade-do-ibs-e-da-cbs",
@@ -2898,12 +3998,103 @@
     "fiscalizacao",
     "lancamento de oficio"
    ],
-   "resumo": "Cada tributo tem o seu regulamento: o do IBS é editado pelo Comitê Gestor e o da CBS pelo Poder Executivo da União, e as normas comuns são aprovadas por ato conjunto (art. 317). Para que as duas metades do IVA dual não se afastem, a LC 214/2025 criou duas instâncias paritárias de <strong>harmonização</strong>. O <strong>Comitê de Harmonização das Administrações Tributárias</strong>, com 4 representantes da Receita Federal e 4 do Comitê Gestor, uniformiza a interpretação das matérias comuns, previne litígios e delibera sobre obrigações acessórias, e suas resoluções vinculam as administrações tributárias. O <strong>Fórum de Harmonização Jurídica das Procuradorias</strong>, com 4 procuradores da Fazenda Nacional e 4 indicados pelo Comitê Gestor, é consultivo do Comitê e analisa controvérsias jurídicas, e suas resoluções vinculam as procuradorias (arts. 319 a 323). Na ponta, a <strong>fiscalização e o lançamento</strong> da CBS cabem à Receita Federal, e os do IBS, aos fiscos dos Estados, do DF e dos Municípios (art. 324). Os fiscos compartilham num mesmo ambiente o início e o resultado das fiscalizações, podem usar as provas do lançamento feito por outro ente, com contraditório, e podem delegar entre si a fiscalização dos processos de pequeno valor (arts. 325 e 326). O procedimento fiscal exclui a espontaneidade, mas o cruzamento de dados e o monitoramento não (arts. 328 e 329). O lançamento se faz por auto de infração eletrônico, um para cada tributo ou penalidade, e as intimações correm pelo Domicílio Tributário Eletrônico (arts. 330 a 332).",
+   "para_entender": [
+    {
+     "texto": "<strong>Comitê Gestor do IBS:</strong> o que ele coordena e o que fica com os fiscos de cada ente.",
+     "tema": "comite-gestor-do-ibs"
+    }
+   ],
+   "resumo": "Cada tributo tem o seu regulamento: o do IBS é editado pelo Comitê Gestor, e o da CBS, pelo Poder Executivo da União; as normas comuns saem por ato conjunto (art. 317). Para que as duas metades do IVA dual não se afastem, a LC 214/2025 criou duas instâncias de <strong>harmonização</strong>, isto é, de uniformização da interpretação: uma para os fiscos e outra para as procuradorias, ambas <strong>paritárias</strong>, com o mesmo número de membros da União e do Comitê Gestor. O quadro está na tabela. A <strong>fiscalização</strong> e o <strong>lançamento de ofício</strong>, o ato pelo qual o fisco constitui o crédito que o contribuinte não declarou ou pagou, ficam com cada fisco: a CBS, com a Receita Federal; o IBS, com os Estados, o DF e os Municípios (art. 324). A <strong>espontaneidade</strong>, o direito de corrigir a falta sem multa de ofício antes de ser fiscalizado, acaba com o procedimento fiscal, mas não com o simples cruzamento de dados (arts. 328 e 329).",
    "esquema": {
     "rotulo": "Comitê de Harmonização × Fórum das Procuradorias (arts. 319 a 323)",
     "html": "<table><thead><tr><th></th><th>Comitê de Harmonização das Administrações Tributárias</th><th>Fórum de Harmonização Jurídica das Procuradorias</th></tr></thead><tbody><tr><td><strong>Composição</strong></td><td>4 da Receita Federal e 4 do Comitê Gestor (2 dos Estados ou DF e 2 dos Municípios ou DF)</td><td>4 da PGFN, indicados pela União, e 4 procuradores indicados pelo Comitê Gestor (2 estaduais ou distritais e 2 municipais ou distritais)</td></tr><tr><td><strong>Presidência</strong></td><td>Alternada entre Receita Federal e Comitê Gestor</td><td>Alternada entre PGFN e procuradores indicados pelo Comitê Gestor</td></tr><tr><td><strong>Competência</strong></td><td>Uniformizar regulamentação e interpretação das matérias comuns, prevenir litígios, deliberar sobre obrigações acessórias e procedimentos comuns</td><td>Órgão consultivo do Comitê; analisar controvérsias jurídicas suscitadas</td></tr><tr><td><strong>Quem a resolução vincula</strong></td><td>Administrações tributárias da União, dos Estados, do DF e dos Municípios</td><td>PGFN e procuradorias dos Estados, do DF e dos Municípios</td></tr><tr><td><strong>Quem provoca</strong></td><td>Presidente do Comitê Gestor, Ministro da Fazenda e entidades representativas de categorias econômicas</td><td>Presidente do Comitê Gestor e Ministro da Fazenda</td></tr><tr><td><strong>Regras comuns</strong></td><td colspan=\"2\">Presença mínima de 3/4 dos representantes, decisão por unanimidade dos presentes, regimento interno por resolução, efeito a partir da publicação no Diário Oficial da União</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Funcionamento dos dois colegiados",
+      "o_que_e": "Presença mínima de 3/4 dos representantes e decisão por unanimidade dos presentes; os representantes da União são designados pelo Ministro da Fazenda, e os dos entes subnacionais, pelo Presidente do Comitê Gestor; regimento interno por resolução (art. 320).",
+      "atencao": "Troca comum: maioria absoluta ou presença de metade.",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Presidência alternada",
+      "o_que_e": "No Comitê de Harmonização, entre a Receita Federal e o Comitê Gestor; no Fórum, entre a PGFN e os procuradores indicados pelo Comitê Gestor (art. 319, §§ 1º e 2º).",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Quem previne litígios",
+      "o_que_e": "Prevenir litígios sobre as normas comuns é do Comitê de Harmonização, e não do Fórum (art. 321, II).",
+      "atencao": "O Fórum é consultivo e analisa controvérsias jurídicas.",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Quem a resolução vincula",
+      "o_que_e": "As do Comitê, depois de publicadas no Diário Oficial da União, vinculam as administrações tributárias das três esferas (art. 321, § 1º); as do Fórum vinculam a PGFN e as procuradorias estaduais, distritais e municipais (art. 322, § 2º).",
+      "atencao": "O ato conjunto dos dois, proposto por qualquer deles, vincula fiscos e procuradorias nos atos administrativos, normativos e decisórios (art. 323).",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Legitimidade para pedir harmonização",
+      "o_que_e": "Presidente do Comitê Gestor, Ministro da Fazenda e entidades representativas de categorias econômicas que indicam representantes dos contribuintes nos órgãos de julgamento do IBS e da CBS; decisão fundamentada em até 90 dias úteis contados da apresentação do requerimento (art. 321, §§ 2º a 4º).",
+      "atencao": "O contribuinte isolado não tem legitimidade: para o caso concreto, usa a consulta. Ao Fórum, só o Presidente do Comitê Gestor e o Ministro da Fazenda levam controvérsias (art. 322, § 1º).",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Consulta com matéria comum",
+      "o_que_e": "A solução é do órgão consultado, mas a minuta vai a ambiente compartilhado; o outro órgão, em 30 dias prorrogáveis uma vez, acolhe e emite em conjunto, leva a divergência ao Comitê de Harmonização ou declara que não há matéria comum (art. 323-B).",
+      "atencao": "O silêncio vale como aceitação tácita.",
+      "grupo": "Harmonização"
+     },
+     {
+      "nome": "Fiscalização integrada",
+      "o_que_e": "Receita Federal e fiscos subnacionais podem usar as fundamentações e as provas do lançamento de outro ente, ainda que o processo esteja encerrado, com contraditório e ampla defesa (art. 325, I e § 3º).",
+      "atencao": "Registram num mesmo ambiente o início e o resultado das fiscalizações e não podem pedir de novo, sobre os mesmos fatos e período, documentos já entregues (art. 325, II, §§ 1º e 4º).",
+      "grupo": "Fiscalização"
+     },
+     {
+      "nome": "Delegação recíproca",
+      "o_que_e": "Por convênio, só nos processos de pequeno valor, cujo lançamento não supere limite único do regulamento (art. 326); o julgamento desses lançamentos também pode ser delegado entre o Ministério da Fazenda e o Comitê Gestor (art. 327).",
+      "atencao": "Fora disso, cada fisco fiscaliza o seu tributo (art. 324). O Comitê Gestor coordena, mas não fiscaliza.",
+      "grupo": "Fiscalização"
+     },
+     {
+      "nome": "Início do procedimento fiscal",
+      "o_que_e": "Ciência do primeiro ato de ofício para apurar obrigação ou infração, apreensão de bens, documentos ou livros ou começo do despacho aduaneiro; exclui a espontaneidade do sujeito passivo quanto aos atos anteriores e, independentemente de intimação, a dos demais envolvidos (art. 328).",
+      "atencao": "Os atos valem por 90 dias, prorrogáveis por igual período com ato que formalize o prosseguimento.",
+      "grupo": "Espontaneidade"
+     },
+     {
+      "nome": "Cruzamento de dados e monitoramento",
+      "o_que_e": "Confronto entre as bases dos fiscos e do Comitê Gestor, ou entre elas e informações do contribuinte ou de terceiros, e avaliação do comportamento fiscal, individual ou por setor, inclusive com diligência ao estabelecimento (art. 329).",
+      "atencao": "Não excluem a espontaneidade: se o fisco encontra divergência ao comparar sua base de dados com a escrituração enviada pelo contribuinte, este ainda pode regularizar a situação como espontâneo.",
+      "grupo": "Espontaneidade"
+     },
+     {
+      "nome": "Auto de infração",
+      "o_que_e": "Lavrado e instruído em meio eletrônico, com qualificação do autuado, local, data e hora, descrição do fato, dispositivo infringido e penalidade, exigência e intimação, assinatura com cargo e matrícula e, no IBS, o ente responsável (art. 330).",
+      "atencao": "Um auto para cada tributo ou penalidade, ainda que a infração não gere crédito a exigir (art. 331): não se reúnem tributo e penalidade isolada num só auto. A lavratura não impede solução consensual (art. 330, § 3º).",
+      "grupo": "Lançamento"
+     },
+     {
+      "nome": "Cadastro e Domicílio Tributário Eletrônico",
+      "o_que_e": "Cadastro único com CPF, CNPJ e CIB, administrados pela Receita Federal, compartilhados entre os fiscos sob gestão do CGSIM (art. 59, §§ 1º a 3º). O DTE é unificado no âmbito do IBS e obrigatório para todas as pessoas jurídicas sujeitas à inscrição no CNPJ (§ 5º, com a redação da LC 227/2026): a adoção não é facultativa, e elas não podem preferir outra forma de intimação.",
+      "atencao": "A intimação feita pelo DTE considera-se pessoal para todos os efeitos legais, inclusive quando dirigida a procurador, e o fisco ainda pode intimar pessoalmente (art. 332). Pode haver sistema de comunicação com governança compartilhada (art. 333).",
+      "grupo": "Lançamento"
+     },
+     {
+      "nome": "Cidadania fiscal",
+      "o_que_e": "Programas do Comitê Gestor e da Receita Federal que estimulam o consumidor a exigir documento fiscal, financiados por até 0,05% da arrecadação do IBS e da CBS (art. 61).",
+      "grupo": "Lançamento"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Nenhuma resolução dos dois colegiados decide conflito entre entes federativos: esse conflito, quando envolve IBS ou CBS, é da competência originária do STJ (art. 105, I, j, da CF)."
+   ],
    "macetes": [
     {
      "sigla": "O Comitê previne, o Fórum aconselha",
@@ -2927,8 +4118,48 @@
     "gabarito": "E",
     "explicacao": "As resoluções do Fórum vinculam a PGFN e as procuradorias dos Estados, do DF e dos Municípios (art. 322, § 2º). Quem vincula as administrações tributárias são as resoluções do Comitê de Harmonização (art. 321, § 1º), e o ato conjunto dos dois vincula fiscos e procuradorias (art. 323)."
    },
-   "aprofundamento": "<p><strong>Como funcionam os dois colegiados.</strong> Ambos se reúnem com presença mínima de 3/4 dos representantes e decidem por unanimidade dos presentes; os representantes da União são designados pelo Ministro da Fazenda, e os dos Estados, do DF e dos Municípios, pelo Presidente do Comitê Gestor; cada colegiado aprova o regimento interno por resolução (art. 320). A presidência alterna: no Comitê, entre a Receita Federal e o Comitê Gestor; no Fórum, entre a PGFN e os procuradores indicados pelo Comitê Gestor (art. 319, §§ 1º e 2º). Troca comum: dizer que decidem por maioria absoluta ou que basta a presença da metade.</p><p><strong>Quem previne litígios e quem vincula quem.</strong> Prevenir litígios sobre as normas comuns é competência do Comitê de Harmonização, não do Fórum (art. 321, II). As resoluções do Comitê, a partir da publicação no Diário Oficial da União, vinculam as administrações tributárias das três esferas (art. 321, § 1º); as do Fórum vinculam a PGFN e as procuradorias estaduais, distritais e municipais (art. 322, § 2º). O ato conjunto dos dois, proposto por qualquer deles no âmbito de sua competência, deve ser observado pelos fiscos e pelas procuradorias nos atos administrativos, normativos e decisórios (art. 323). Nenhuma dessas resoluções decide conflito entre entes federativos, que é competência originária do STJ (CF, art. 105, I, j).</p><p><strong>Quem pode pedir harmonização.</strong> O requerimento de harmonização da interpretação pode vir do Presidente do Comitê Gestor, do Ministro da Fazenda e das entidades representativas de categorias econômicas que indicam os representantes dos contribuintes nos órgãos de julgamento administrativo do IBS e da CBS. Ele deve ser decidido em até 90 dias úteis, com decisão fundamentada (art. 321, §§ 2º a 4º). O contribuinte isolado não tem essa legitimidade; para o seu caso concreto, ele usa a consulta. Ao Fórum, as controvérsias jurídicas chegam suscitadas só pelo Presidente do Comitê Gestor ou pelo Ministro da Fazenda (art. 322, § 1º).</p><p><strong>Consulta com matéria comum.</strong> A solução de consulta sobre IBS e CBS é emitida pelo órgão consultado, do Comitê Gestor ou da Receita Federal, mas a minuta vai a ambiente compartilhado para o outro órgão, que em 30 dias, prorrogáveis uma vez, acolhe e emite em conjunto, leva a divergência ao Comitê de Harmonização ou declara que não há matéria comum; o silêncio vale como aceitação tácita (art. 323-B).</p><p><strong>Fiscalização integrada.</strong> A Receita Federal e os fiscos dos Estados, do DF e dos Municípios podem usar nos seus lançamentos as fundamentações e as provas do lançamento de ofício feito por outro ente, ainda que o processo esteja encerrado, sem dispensar o contraditório e a ampla defesa (art. 325, I e § 3º). Eles registram num mesmo ambiente, de gestão compartilhada entre o Comitê Gestor e a Receita Federal, o início e o resultado das fiscalizações, e não podem pedir de novo ao contribuinte, em outro procedimento sobre os mesmos fatos e período, as respostas e documentos já entregues (art. 325, II, §§ 1º e 4º).</p><p><strong>Delegação recíproca tem limite.</strong> A Receita Federal e os fiscos estaduais, distrital e municipais podem celebrar convênio para delegação recíproca da fiscalização do IBS e da CBS só nos processos fiscais de pequeno valor, cujo lançamento não supere limite único fixado no regulamento (art. 326). O Ministério da Fazenda e o Comitê Gestor podem delegar entre si o julgamento do contencioso desses lançamentos (art. 327). Fora disso, cada fisco fiscaliza o seu tributo: a CBS, a autoridade da União; o IBS, as dos Estados, do DF e dos Municípios (art. 324). O Comitê Gestor coordena, mas não fiscaliza.</p><p><strong>Espontaneidade.</strong> O procedimento fiscal começa com a ciência do primeiro ato de ofício tendente a apurar obrigação ou infração, com a apreensão de bens, documentos ou livros ou com o começo do despacho aduaneiro. Ele exclui a espontaneidade do sujeito passivo quanto aos atos anteriores e, independentemente de intimação, a dos demais envolvidos; os atos de ciência e de apreensão valem por 90 dias, prorrogáveis por igual período com qualquer ato que formalize o prosseguimento (art. 328). Não excluem a espontaneidade o cruzamento de dados, que é o confronto entre as bases dos fiscos e do Comitê Gestor ou entre elas e informações do contribuinte ou de terceiros, e o monitoramento, que é a avaliação do comportamento fiscal do contribuinte, individualmente ou por setor econômico, inclusive com diligência ao estabelecimento (art. 329). Assim, o contribuinte que descobre a divergência apontada num cruzamento ainda pode se autorregularizar como espontâneo.</p><p><strong>Auto de infração.</strong> O lançamento de ofício exige auto de infração, lavrado e instruído em meio eletrônico, com qualificação do autuado, local, data e hora, descrição do fato, dispositivo infringido e penalidade, exigência e intimação, assinatura com cargo e matrícula e, no IBS, identificação do ente responsável pelo lançamento (art. 330). A exigência do crédito tributário e a aplicação de penalidade isolada são objeto de autos de infração distintos para cada tributo ou penalidade, mesmo quando a infração não gera crédito a exigir (art. 331). A lavratura não impede solução consensual da controvérsia (art. 330, § 3º).</p><p><strong>Cadastro, DTE e cidadania fiscal.</strong> O cadastro é único: CPF, CNPJ e CIB, administrados pela Receita Federal, com integração e compartilhamento obrigatório e tempestivo em ambiente nacional entre os fiscos das três esferas, sob gestão compartilhada do CGSIM (art. 59, §§ 1º a 3º). O Domicílio Tributário Eletrônico é unificado no IBS e obrigatório para todas as entidades e pessoas jurídicas sujeitas à inscrição no CNPJ (art. 59, § 5º). A intimação pelo DTE considera-se pessoal, inclusive a do procurador, e os fiscos ainda podem intimar pessoalmente (art. 332); a Receita Federal e o Comitê Gestor podem criar sistema de comunicação com governança compartilhada (art. 333). Por fim, o Comitê Gestor e a Receita Federal podem instituir programas de incentivo à cidadania fiscal, que estimulem o consumidor a exigir o documento fiscal, financiados por até 0,05% da arrecadação do IBS e da CBS (art. 61).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "As resoluções do Fórum de Harmonização Jurídica das Procuradorias vinculam as administrações tributárias das três esferas.",
+     "certo": "Vinculam a PGFN e as procuradorias dos entes (art. 322, § 2º); quem vincula os fiscos é o Comitê de Harmonização (art. 321, § 1º).",
+     "fonte": "Questão do app sobre o art. 322 da LC 214/2025"
+    },
+    {
+     "errado": "O Comitê de Harmonização decide por maioria absoluta, com presença mínima da metade dos representantes.",
+     "certo": "Decide por unanimidade dos presentes, com presença mínima de 3/4 (art. 320).",
+     "fonte": "Questão do app sobre o art. 320 da LC 214/2025"
+    },
+    {
+     "errado": "O contribuinte pode requerer diretamente ao Comitê de Harmonização a uniformização da interpretação para o seu caso.",
+     "certo": "A legitimidade é do Presidente do Comitê Gestor, do Ministro da Fazenda e das entidades representativas de categorias econômicas; o contribuinte usa a consulta (art. 321, § 2º).",
+     "fonte": "Questão do app sobre o art. 321 da LC 214/2025"
+    },
+    {
+     "errado": "O cruzamento de dados feito pelo fisco exclui a espontaneidade do contribuinte.",
+     "certo": "Cruzamento e monitoramento não excluem a espontaneidade; o procedimento fiscal exclui (arts. 328 e 329).",
+     "fonte": "Questão do app sobre o art. 329 da LC 214/2025"
+    },
+    {
+     "errado": "A Receita Federal e os fiscos estaduais podem delegar entre si a fiscalização do IBS e da CBS em qualquer processo.",
+     "certo": "Só nos processos de pequeno valor, até o limite do regulamento (art. 326).",
+     "fonte": "Questão do app sobre o art. 326 da LC 214/2025"
+    },
+    {
+     "errado": "A exigência do crédito e a penalidade isolada podem ser lançadas num único auto de infração, para os dois tributos.",
+     "certo": "São autos distintos para cada tributo ou penalidade (art. 331).",
+     "fonte": "Questão do app sobre o art. 331 da LC 214/2025"
+    },
+    {
+     "errado": "No âmbito do IBS, o Domicílio Tributário Eletrônico é facultativo para as pessoas jurídicas inscritas no CNPJ.",
+     "certo": "É obrigatório para todas as entidades e pessoas jurídicas sujeitas à inscrição no CNPJ (art. 59, § 5º).",
+     "fonte": "Questão do app sobre o art. 59 da LC 214/2025"
+    },
+    {
+     "errado": "A fiscalização e o lançamento do IBS cabem ao Comitê Gestor.",
+     "certo": "Cabem aos fiscos dos Estados, do DF e dos Municípios; a CBS, à Receita Federal (art. 324).",
+     "fonte": "Questão do app sobre o art. 324 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "comite-gestor-do-ibs",
     "processo-administrativo-tributario-do-ibs",
