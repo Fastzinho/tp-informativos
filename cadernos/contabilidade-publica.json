@@ -1327,10 +1327,10 @@
    ],
    "palavras": [
     "nbc tsp 03",
-    "obrigação presente",
+    "obrigacao presente",
     "evento passado",
-    "provável",
-    "possível",
+    "provavel",
+    "possivel",
     "remota",
     "melhor estimativa",
     "valor presente",
@@ -1339,14 +1339,86 @@
     "notas explicativas",
     "contas de controle",
     "riscos fiscais",
-    "provisão matemática"
+    "provisao matematica"
    ],
-   "resumo": "<strong>Provisão</strong> é um passivo de prazo ou de valor incerto. Ela é reconhecida quando, cumulativamente, (a) a entidade tem uma obrigação presente, formalizada ou não formalizada, como resultado de evento passado; (b) é provável que seja necessária uma saída de recursos que incorporem benefícios econômicos ou potencial de serviços para extinguir a obrigação; e (c) pode ser feita estimativa confiável do valor. Provável significa mais provável que sim do que não. O valor reconhecido é a melhor estimativa do desembolso exigido para extinguir a obrigação na data das demonstrações, trazido a valor presente quando o efeito do tempo for relevante. A provisão é revista em cada data de demonstrações e só pode ser usada para os desembolsos para os quais foi constituída. No setor público, são exemplos as provisões para riscos trabalhistas, fiscais e cíveis, as de repartição de créditos tributários e as provisões matemáticas previdenciárias. O <strong>passivo contingente</strong> é (a) uma obrigação possível, cuja existência será confirmada apenas por eventos futuros incertos fora do controle da entidade, ou (b) uma obrigação presente que não se reconhece porque a saída de recursos não é provável ou porque o valor não pode ser mensurado com confiabilidade. O passivo contingente não é reconhecido no balanço: é divulgado em notas explicativas, salvo se for remota a possibilidade de saída de recursos, e controlado em contas de controle. O <strong>ativo contingente</strong> também não é reconhecido; é divulgado quando a entrada de recursos for provável. A LRF manda a lei de diretrizes orçamentárias conter o Anexo de Riscos Fiscais, onde serão avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas (art. 4º, § 3º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Passivo e obrigação presente:</strong> a definição de passivo e a obrigação não formalizada.",
+     "tema": "ativo-e-passivo-no-setor-publico"
+    }
+   ],
+   "resumo": "<strong>Provisão</strong> é um passivo de prazo ou de valor incerto. Ela é reconhecida quando, cumulativamente, (a) a entidade tem uma <strong>obrigação presente</strong>, formalizada ou não formalizada, como resultado de <strong>evento passado</strong>; (b) é <strong>provável</strong> (mais provável que sim do que não) que seja necessária uma saída de recursos que incorporem benefícios econômicos ou potencial de serviços para extinguir a obrigação; e (c) pode ser feita estimativa confiável do valor. O valor reconhecido é a <strong>melhor estimativa</strong> do desembolso exigido para extinguir a obrigação na data das demonstrações, trazido a <strong>valor presente</strong> quando o efeito do tempo for relevante. A provisão é revista em cada data de demonstrações e só pode ser usada para os desembolsos para os quais foi constituída. No setor público, são exemplos as provisões para riscos trabalhistas, fiscais e cíveis, as de repartição de créditos tributários e as <strong>provisões matemáticas</strong> previdenciárias. O <strong>passivo contingente</strong> é (a) uma obrigação possível, cuja existência será confirmada apenas por eventos futuros incertos fora do controle da entidade, ou (b) uma obrigação presente que não se reconhece porque a saída de recursos não é provável ou porque o valor não pode ser mensurado com confiabilidade. Ele não é reconhecido no balanço: é divulgado em notas explicativas, salvo se for remota a possibilidade de saída de recursos, e controlado em contas de controle. O <strong>ativo contingente</strong> também não é reconhecido; é divulgado quando a entrada de recursos for provável. A LRF manda a lei de diretrizes orçamentárias conter o <strong>Anexo de Riscos Fiscais</strong>, onde serão avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas (art. 4º, § 3º).",
    "esquema": {
     "rotulo": "probabilidade de saída de recursos e tratamento",
     "html": "<table><thead><tr><th>Situação</th><th>Saída de recursos</th><th>Tratamento</th></tr></thead><tbody><tr><td>Obrigação presente, estimativa confiável</td><td>provável</td><td><strong>provisão</strong> reconhecida (VPD) e divulgada</td></tr><tr><td>Obrigação presente sem estimativa confiável (caso raro)</td><td>provável</td><td>passivo contingente: só divulgação</td></tr><tr><td>Obrigação possível ou presente</td><td>possível (não provável)</td><td><strong>passivo contingente</strong>: notas explicativas e contas de controle</td></tr><tr><td>Obrigação possível ou presente</td><td>remota</td><td>nada a reconhecer nem divulgar</td></tr><tr><td>Direito possível</td><td>entrada provável</td><td><strong>ativo contingente</strong>: só divulgação</td></tr><tr><td>Direito</td><td>entrada praticamente certa</td><td>deixa de ser contingente: reconhece-se o ativo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Provisão e contas a pagar",
+      "o_que_e": "A provisão tem incerteza sobre o prazo ou o valor do desembolso; em fornecedores e obrigações apropriadas por competência, prazo e valor são conhecidos.",
+      "grupo": "Provisão"
+     },
+     {
+      "nome": "Ajuste para perdas",
+      "o_que_e": "O ajuste para perdas de créditos e a depreciação acumulada reduzem o valor de ativos: são contas redutoras, e não provisões, que são passivos.",
+      "atencao": "O ajuste para perdas de créditos tributários a receber não vai para o passivo circulante.",
+      "grupo": "Provisão"
+     },
+     {
+      "nome": "Perdas operacionais futuras",
+      "o_que_e": "Não geram provisão: sem evento passado não há obrigação presente.",
+      "atencao": "A autarquia que projeta déficits operacionais nos próximos exercícios não provisiona essas perdas; a expectativa pode ser indício de redução ao valor recuperável.",
+      "grupo": "Provisão"
+     },
+     {
+      "nome": "Contrato oneroso",
+      "o_que_e": "Quando os custos inevitáveis de cumprir o contrato superam os benefícios esperados, a obrigação presente é reconhecida como provisão.",
+      "grupo": "Provisão"
+     },
+     {
+      "nome": "Reestruturação",
+      "o_que_e": "Só há obrigação não formalizada de reestruturar com plano formal detalhado e expectativa válida criada nos afetados, por implantação iniciada ou anúncio das principais características.",
+      "grupo": "Provisão"
+     },
+     {
+      "nome": "Uso da provisão",
+      "o_que_e": "A provisão para riscos trabalhistas não pode cobrir condenações cíveis, ainda que do mesmo exercício.",
+      "atencao": "Usá-la para outra finalidade esconderia o efeito de dois eventos diferentes.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Valor presente",
+      "o_que_e": "O valor nominal do desembolso não basta quando a saída de recursos está prevista para daqui a vários anos: traz-se a valor presente.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Reembolso",
+      "o_que_e": "O reembolso de terceiro, como uma seguradora, só é reconhecido quando for praticamente certo, como ativo separado, e não pode superar a provisão.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Reavaliação do contingente",
+      "o_que_e": "Se a saída de recursos passar a ser provável, reconhece-se a provisão no período em que a probabilidade mudou.",
+      "grupo": "Contingentes"
+     },
+     {
+      "nome": "Ativo praticamente certo",
+      "o_que_e": "Quando a entrada se torna praticamente certa, o ativo deixa de ser contingente e é reconhecido.",
+      "grupo": "Contingentes"
+     },
+     {
+      "nome": "Anexo de Riscos Fiscais",
+      "o_que_e": "Integra a LDO, ao lado do Anexo de Metas Fiscais, e informa as providências caso os riscos se concretizem.",
+      "atencao": "Não integra a LOA. Exemplos: demandas judiciais contra o ente e garantias concedidas.",
+      "grupo": "Contingentes"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "PROVÁVEL RECONHECE, POSSÍVEL DIVULGA, REMOTA IGNORA",
@@ -1366,8 +1438,53 @@
     "gabarito": "E",
     "explicacao": "Passivo contingente não se reconhece no balanço. Quando a saída é possível, ele é divulgado em notas explicativas e registrado em contas de controle. Só a saída provável, com estimativa confiável, leva a reconhecer provisão."
    },
-   "aprofundamento": "<p><strong>Provisão × outros passivos.</strong> A provisão difere de fornecedores e de obrigações apropriadas por competência porque há incerteza sobre o prazo ou o valor do desembolso. Nas contas a pagar, prazo e valor são conhecidos.</p><p><strong>Provisão × ajuste para perdas.</strong> O ajuste para perdas de créditos e a depreciação acumulada reduzem o valor de ativos; não são provisões, que são passivos.</p><p><strong>Contrato oneroso.</strong> Se a entidade tem um contrato em que os custos inevitáveis de cumprir a obrigação superam os benefícios esperados, a obrigação presente desse contrato é reconhecida como provisão.</p><p><strong>Reestruturação.</strong> Só há obrigação não formalizada de reestruturar quando a entidade tem um plano formal detalhado e criou nos afetados a expectativa válida de que o executará, começando a implantá-lo ou anunciando suas principais características.</p><p><strong>Reembolso.</strong> Se parte do desembolso será reembolsada por terceiro (uma seguradora, por exemplo), o reembolso só é reconhecido quando for praticamente certo, como ativo separado, e o valor não pode superar o da provisão.</p><p><strong>Reavaliação contínua.</strong> Um passivo contingente deve ser reavaliado periodicamente: se a saída de recursos passar a ser provável, reconhece-se a provisão no período em que a mudança de probabilidade ocorrer.</p><p><strong>Anexo de Riscos Fiscais.</strong> A LRF manda a LDO avaliar os passivos contingentes e outros riscos capazes de afetar as contas públicas, informando as providências a serem tomadas caso se concretizem. São exemplos as demandas judiciais contra o ente e as garantias concedidas.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Provisiona-se quando a saída de recursos é possível.",
+     "certo": "Exige saída provável; possível é passivo contingente.",
+     "fonte": "Questões do app sobre provisões"
+    },
+    {
+     "errado": "A autarquia provisiona déficits operacionais futuros.",
+     "certo": "Perdas futuras não geram provisão.",
+     "fonte": "Questões do app sobre provisões"
+    },
+    {
+     "errado": "A provisão é medida pelo valor nominal, sem valor presente.",
+     "certo": "Traz-se a valor presente quando o tempo é relevante.",
+     "fonte": "Questões do app sobre provisões"
+    },
+    {
+     "errado": "A provisão trabalhista pode cobrir condenação cível.",
+     "certo": "Só cobre o desembolso para o qual foi constituída.",
+     "fonte": "Questões do app sobre provisões"
+    },
+    {
+     "errado": "O ajuste para perdas de créditos é provisão no passivo.",
+     "certo": "É conta redutora do ativo.",
+     "fonte": "Questões do app sobre provisões"
+    },
+    {
+     "errado": "O Anexo de Riscos Fiscais integra a LOA.",
+     "certo": "Integra a LDO.",
+     "fonte": "Questões do app sobre passivos contingentes"
+    },
+    {
+     "errado": "Passivo contingente possível vai ao passivo não circulante.",
+     "certo": "Vai a notas explicativas e contas de controle.",
+     "fonte": "Questões do app sobre passivos contingentes"
+    },
+    {
+     "errado": "Passivo contingente remoto é divulgado em nota.",
+     "certo": "Remoto não se divulga.",
+     "fonte": "Questões do app sobre passivos contingentes"
+    },
+    {
+     "errado": "O ativo contingente provável é reconhecido no balanço.",
+     "certo": "Só é divulgado.",
+     "fonte": "Questões do app sobre ativos contingentes"
+    }
+   ],
    "relacionados": [
     "ativo-e-passivo-no-setor-publico",
     "tributos-e-contribuicoes-na-contabilidade-publica"
@@ -1391,25 +1508,77 @@
    ],
    "palavras": [
     "fato gerador",
-    "lançamento",
-    "regime de competência",
-    "vpa tributária",
-    "dívida ativa",
-    "repartição de receitas",
+    "lancamento",
+    "regime de competencia",
+    "vpa tributaria",
+    "divida ativa",
+    "reparticao de receitas",
     "irrf",
     "imposto de renda retido",
-    "consignações",
+    "consignacoes",
     "inss retido",
     "pasep",
-    "tributo recuperável",
-    "receita sem contraprestação"
+    "tributo recuperavel",
+    "receita sem contraprestacao"
    ],
-   "resumo": "O ente público aparece nas relações tributárias de duas formas, e a contabilidade trata cada uma de um jeito. Como <strong>sujeito ativo</strong>, o ente reconhece a receita tributária pelo regime de competência: no fato gerador, quando o crédito puder ser mensurado com confiabilidade, registra-se o crédito tributário a receber no ativo em contrapartida de VPA tributária. A arrecadação posterior é a receita orçamentária, pois os créditos da Fazenda Pública serão escriturados como receita do exercício em que forem arrecadados (art. 39 da Lei 4.320/1964), e no patrimônio apenas troca o crédito por caixa. O crédito vencido e não pago é inscrito em dívida ativa depois de apurada a sua liquidez e certeza, e a entidade constitui ajuste para perdas sobre a parte de recebimento improvável. A parcela do tributo que pertence a outro ente pela repartição constitucional é tratada como dedução da receita de quem arrecada e como transferência a receber de quem recebe. Como <strong>contribuinte ou responsável</strong>, o ente registra os tributos que incidem sobre ele, como a contribuição patronal previdenciária e a contribuição para o PASEP, como VPD por competência e passivo até o pagamento. As retenções na fonte feitas sobre pagamentos a servidores e fornecedores, como a contribuição previdenciária retida e o ISS retido, não são VPD do ente: o valor retido é passivo (consignação) até o repasse ao credor. Exceção relevante: o imposto de renda retido na fonte sobre rendimentos pagos pelo próprio estado ou município pertence a esse ente (arts. 157, I, e 158, I, da Constituição) e, por isso, é receita orçamentária dele, e não valor a repassar à União. Por fim, tributos recuperáveis pagos na compra de bens não integram o custo do ativo; os não recuperáveis integram.",
+   "para_entender": [
+    {
+     "texto": "<strong>VPA e regime de competência:</strong> quando a variação patrimonial aumentativa é reconhecida.",
+     "tema": "realizacao-e-resultado-patrimonial"
+    }
+   ],
+   "resumo": "O ente público aparece nas relações tributárias de duas formas. Como <strong>sujeito ativo</strong>, reconhece a receita tributária pelo regime de competência: no <strong>fato gerador</strong>, quando o crédito puder ser mensurado com confiabilidade, registra-se o <strong>crédito tributário a receber</strong> no ativo em contrapartida de VPA tributária. A arrecadação posterior é a receita orçamentária, pois os créditos da Fazenda Pública serão escriturados como receita do exercício em que forem arrecadados (art. 39 da Lei 4.320/1964); no patrimônio, ela só troca o crédito por caixa. O crédito vencido e não pago é inscrito em <strong>dívida ativa</strong> depois de apurada a sua liquidez e certeza, e a entidade constitui <strong>ajuste para perdas</strong> sobre a parte de recebimento improvável. A parcela que pertence a outro ente pela repartição constitucional é dedução da receita de quem arrecada e transferência a receber de quem recebe. Como <strong>contribuinte ou responsável</strong>, o ente registra os tributos que incidem sobre ele, como a <strong>contribuição patronal</strong> previdenciária e a contribuição para o PASEP, como VPD por competência e passivo até o pagamento. As <strong>retenções na fonte</strong> sobre pagamentos a servidores e fornecedores, como a contribuição previdenciária retida e o ISS retido, não são VPD do ente: o valor retido é passivo (<strong>consignação</strong>) até o repasse ao credor. Exceção: o imposto de renda retido na fonte sobre rendimentos pagos pelo próprio estado ou município pertence a esse ente (arts. 157, I, e 158, I, da Constituição) e é receita orçamentária dele, e não valor a repassar à União. Tributos recuperáveis pagos na compra de bens não integram o custo do ativo; os não recuperáveis integram.",
    "esquema": {
     "rotulo": "o ente como credor e como devedor de tributos",
     "html": "<table><thead><tr><th>Situação</th><th>Registro patrimonial</th><th>Registro orçamentário</th></tr></thead><tbody><tr><td>Fato gerador de tributo do próprio ente</td><td>D crédito tributário a receber / C VPA</td><td>nenhum até a arrecadação</td></tr><tr><td>Arrecadação desse tributo</td><td>D caixa / C crédito tributário a receber</td><td>receita orçamentária realizada</td></tr><tr><td>Crédito de recebimento improvável</td><td>D VPD / C ajuste para perdas (redutora do ativo)</td><td>nenhum</td></tr><tr><td>Contribuição patronal e PASEP do ente</td><td>D VPD / C obrigação a pagar</td><td>despesa orçamentária</td></tr><tr><td>INSS ou ISS retido de fornecedor</td><td>passivo (consignação) até o repasse</td><td>ingresso e dispêndio extraorçamentários</td></tr><tr><td>IRRF sobre a folha estadual ou municipal</td><td>o valor retido é VPA tributária do próprio ente</td><td>receita orçamentária do próprio ente</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Receita sem contraprestação",
+      "o_que_e": "O tributo é o exemplo central: o ente recebe recursos sem dar diretamente valor aproximadamente igual em troca.",
+      "atencao": "O ativo é reconhecido quando o ente obtém o controle do recurso, no fato gerador, se mensurável com confiabilidade.",
+      "grupo": "Sujeito ativo"
+     },
+     {
+      "nome": "Lançamento por homologação",
+      "o_que_e": "No ICMS, o contribuinte apura e paga antes do exame do fisco; sem informação confiável antes da declaração ou do pagamento, a VPA pode ser reconhecida só nesse momento.",
+      "atencao": "Isso não afasta a competência como critério.",
+      "grupo": "Sujeito ativo"
+     },
+     {
+      "nome": "Lançamento de ofício",
+      "o_que_e": "No IPVA e no IPTU, o crédito é conhecido e reconhecido no lançamento.",
+      "grupo": "Sujeito ativo"
+     },
+     {
+      "nome": "Inscrição em dívida ativa",
+      "o_que_e": "Os créditos exigíveis pelo transcurso do prazo são inscritos em registro próprio, após apurada a liquidez e certeza (art. 39, § 1º, da Lei 4.320/1964).",
+      "atencao": "A inscrição é fato permutativo: transfere o crédito de uma conta de ativo para outra, sem nova VPA.",
+      "grupo": "Sujeito ativo"
+     },
+     {
+      "nome": "Deduções da receita",
+      "o_que_e": "Restituições, incentivos fiscais concedidos na arrecadação e a parcela de outros entes são dedução da receita orçamentária, e não despesa.",
+      "grupo": "Sujeito ativo"
+     },
+     {
+      "nome": "Retenção de prestador",
+      "o_que_e": "A VPD é o serviço contratado, pelo valor bruto; a contribuição retida do prestador fica no passivo até o repasse, e não é VPD no momento da retenção.",
+      "atencao": "No orçamento, a retenção é ingresso e dispêndio extraorçamentários.",
+      "grupo": "Contribuinte e responsável"
+     },
+     {
+      "nome": "Tributo recuperável",
+      "o_que_e": "Quando a entidade pode compensar o tributo pago na compra, como em serviço industrial sujeito à não cumulatividade, o valor vai a um ativo de tributo a recuperar, e não ao custo do bem.",
+      "grupo": "Contribuinte e responsável"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "VPA NO FATO GERADOR, RECEITA NA ARRECADAÇÃO",
@@ -1429,8 +1598,28 @@
     "gabarito": "E",
     "explicacao": "Pelo art. 157, I, da Constituição, pertence aos estados o produto da arrecadação do imposto de renda incidente na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. O valor retido é receita orçamentária do próprio estado, e não consignação a repassar."
    },
-   "aprofundamento": "<p><strong>Receita sem contraprestação.</strong> Os tributos são o exemplo central de receita de transação sem contraprestação: o ente recebe recursos sem dar diretamente valor aproximadamente igual em troca. O ativo é reconhecido quando o ente obtém o controle do recurso, e no tributo isso ocorre com o fato gerador, quando o valor é mensurável com confiabilidade.</p><p><strong>Tributos lançados por homologação.</strong> No ICMS, o contribuinte apura e paga antes de qualquer exame do fisco; quando o fisco não dispõe de informação confiável sobre o fato gerador antes da declaração ou do pagamento, a VPA pode acabar reconhecida só nesse momento, o que não afasta a competência como critério. Nos tributos lançados de ofício, como o IPVA e o IPTU, o crédito é conhecido e reconhecido no lançamento.</p><p><strong>Dívida ativa.</strong> Os créditos exigíveis pelo transcurso do prazo para pagamento serão inscritos como Dívida Ativa, em registro próprio, após apurada a sua liquidez e certeza (art. 39, § 1º, da Lei 4.320/1964). A inscrição é fato permutativo: transfere o crédito de uma conta de ativo para outra, sem nova VPA.</p><p><strong>Renúncia e deduções.</strong> Restituições, incentivos fiscais concedidos na arrecadação e a parcela de outros entes são registrados como dedução da receita orçamentária, e não como despesa.</p><p><strong>Tributo recuperável.</strong> Quando a entidade pode compensar o tributo pago na compra (por exemplo, em serviço industrial sujeito à não cumulatividade), o valor vai a um ativo de tributo a recuperar e não ao custo do bem.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A receita tributária patrimonial só é reconhecida na arrecadação.",
+     "certo": "A VPA é reconhecida no fato gerador.",
+     "fonte": "Questões do app sobre tributos na contabilidade pública"
+    },
+    {
+     "errado": "A contribuição retida do prestador é VPD do ente na retenção.",
+     "certo": "É consignação no passivo até o repasse.",
+     "fonte": "Questões do app sobre tributos na contabilidade pública"
+    },
+    {
+     "errado": "O IR retido pelo município sobre seus servidores é receita da União.",
+     "certo": "Pertence ao município (art. 158, I, da CF).",
+     "fonte": "Questões do app sobre tributos na contabilidade pública"
+    },
+    {
+     "errado": "A inscrição em dívida ativa gera nova VPA.",
+     "certo": "É fato permutativo.",
+     "fonte": "Questões do app sobre tributos na contabilidade pública"
+    }
+   ],
    "relacionados": [
     "realizacao-e-resultado-patrimonial",
     "provisoes-e-passivos-contingentes"
@@ -1452,26 +1641,73 @@
     "objeto de custo"
    ],
    "palavras": [
-    "lei 4.320",
-    "serviços industriais",
+    "lei 4 320",
+    "servicos industriais",
     "decreto-lei 200",
     "lrf",
-    "lei de diretrizes orçamentárias",
+    "lei de diretrizes orcamentarias",
     "controle de custos",
-    "lei 10.180",
+    "lei 10 180",
     "sistema de contabilidade federal",
-    "nbc t 16.11",
+    "nbc t 16 11",
     "custeio direto",
-    "custeio por absorção",
+    "custeio por absorcao",
     "abc",
     "custeio pleno"
    ],
-   "resumo": "A <strong>Lei 4.320/1964</strong> manda organizar os serviços de contabilidade de forma a permitir a determinação dos custos dos serviços industriais (art. 85) e determina que os serviços públicos industriais, ainda que não organizados como empresa pública ou autárquica, mantenham contabilidade especial para determinação dos custos, ingressos e resultados (art. 99). O <strong>Decreto-Lei 200/1967</strong> ampliou a exigência: a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão (art. 79). A <strong>Lei de Responsabilidade Fiscal</strong> tornou o tema geral para todos os entes: a lei de diretrizes orçamentárias disporá sobre normas relativas ao controle de custos e à avaliação dos resultados dos programas financiados com recursos dos orçamentos (art. 4º, I, e), e a Administração Pública manterá sistema de custos que permita a avaliação e o acompanhamento da gestão orçamentária, financeira e patrimonial (art. 50, § 3º). Na União, a <strong>Lei 10.180/2001</strong> inclui entre as finalidades do Sistema de Contabilidade Federal evidenciar os custos dos programas e das unidades da Administração Pública Federal (art. 15, V). No plano normativo contábil, a <strong>NBC TSP 34</strong> (Custos no Setor Público) aplica-se às entidades do setor público a partir de 1º de janeiro de 2024. Ela define custo como o consumo ou a utilização de recursos para a geração de bens ou serviços, e objeto de custo como a unidade para a qual se deseja identificar, mensurar e avaliar os custos. Cada entidade deve identificar, acumular e relatar os custos de seus objetos em base regular. A escolha do método de custeio cabe à administração da entidade e, uma vez adotado, o método deve ser usado de forma consistente; para entidades em estágio inicial, a norma recomenda o custeio direto.",
+   "para_entender": [
+    {
+     "texto": "<strong>Métodos de custeio:</strong> direto, variável, por absorção, pleno e ABC.",
+     "tema": "terminologia-de-custos-no-setor-publico"
+    }
+   ],
+   "resumo": "A <strong>Lei 4.320/1964</strong> manda organizar os serviços de contabilidade de forma a permitir a determinação dos custos dos serviços industriais (art. 85) e determina que os serviços públicos industriais, ainda que não organizados como empresa pública ou autárquica, mantenham contabilidade especial para determinação dos custos, ingressos e resultados (art. 99). O <strong>Decreto-Lei 200/1967</strong> ampliou a exigência: a contabilidade deverá apurar os custos dos serviços de forma a evidenciar os resultados da gestão (art. 79). A <strong>Lei de Responsabilidade Fiscal</strong> tornou o tema geral para todos os entes: a lei de diretrizes orçamentárias disporá sobre normas relativas ao controle de custos e à avaliação dos resultados dos programas financiados com recursos dos orçamentos (art. 4º, I, e), e a Administração Pública manterá sistema de custos que permita a avaliação e o acompanhamento da gestão orçamentária, financeira e patrimonial (art. 50, § 3º). Na União, a <strong>Lei 10.180/2001</strong> inclui entre as finalidades do Sistema de Contabilidade Federal evidenciar os custos dos programas e das unidades da Administração Pública Federal (art. 15, V). No plano contábil, a <strong>NBC TSP 34</strong> (Custos no Setor Público) aplica-se às entidades do setor público a partir de 1º de janeiro de 2024. Ela define <strong>custo</strong> como o consumo ou a utilização de recursos para a geração de bens ou serviços, e <strong>objeto de custo</strong> como a unidade para a qual se deseja identificar, mensurar e avaliar os custos. Cada entidade identifica, acumula e relata os custos de seus objetos em base regular.",
    "esquema": {
     "rotulo": "linha do tempo da base legal dos custos",
     "html": "<table><thead><tr><th>Norma</th><th>O que exige</th><th>Alcance</th></tr></thead><tbody><tr><td><strong>Lei 4.320/1964</strong>, arts. 85 e 99</td><td>custos dos serviços industriais; contabilidade especial dos serviços públicos industriais</td><td>só serviços industriais</td></tr><tr><td><strong>Decreto-Lei 200/1967</strong>, art. 79</td><td>apurar os custos dos serviços para evidenciar os resultados da gestão</td><td>Administração federal</td></tr><tr><td><strong>LRF</strong>, art. 4º, I, e</td><td>LDO dispõe sobre controle de custos e avaliação de resultados dos programas</td><td>todos os entes</td></tr><tr><td><strong>LRF</strong>, art. 50, § 3º</td><td>Administração manterá sistema de custos</td><td>todos os entes</td></tr><tr><td><strong>Lei 10.180/2001</strong>, art. 15, V</td><td>Sistema de Contabilidade Federal evidencia custos dos programas e unidades</td><td>União</td></tr><tr><td><strong>NBC TSP 34</strong></td><td>diretrizes do sistema de custos; vigência a partir de 1º/1/2024; revogou a NBC T 16.11</td><td>entidades do setor público</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Vigência e revogação",
+      "o_que_e": "A NBC TSP 34 vale desde 1º de janeiro de 2024 e, a partir dessa data, revogou a NBC T 16.11.",
+      "atencao": "Não passou a ser aplicada em 2021 nem convive com a NBC T 16.11, que não permanece em vigor.",
+      "grupo": "NBC TSP 34"
+     },
+     {
+      "nome": "Quem escolhe o método",
+      "o_que_e": "A administração da entidade ou de suas unidades está na melhor posição para selecionar o método de custeio; a norma não impõe método único.",
+      "grupo": "NBC TSP 34"
+     },
+     {
+      "nome": "Consistência",
+      "o_que_e": "Uma vez adotado, o método é usado de forma consistente, para permitir a comparação ao longo do tempo.",
+      "grupo": "NBC TSP 34"
+     },
+     {
+      "nome": "Métodos recomendados",
+      "o_que_e": "Custeio direto para entidades em estágio inicial; custeio por absorção, parcial ou integral (custeio pleno), quando os custos indiretos forem relevantes.",
+      "atencao": "O custeio baseado em atividades é sugerido como técnica para rastrear custos indiretos, sem ser obrigatório.",
+      "grupo": "NBC TSP 34"
+     },
+     {
+      "nome": "Sistema de custos",
+      "o_que_e": "Combina o modelo de gestão de custos, o sistema de informação de custos e a definição de papéis e responsabilidades, para gerar informação de custos como instrumento de governança pública.",
+      "atencao": "É mais que um software.",
+      "grupo": "NBC TSP 34"
+     },
+     {
+      "nome": "Contabilidade especial (art. 99)",
+      "o_que_e": "Vale mesmo para o serviço industrial não organizado como empresa pública ou autarquia.",
+      "atencao": "Convive com a escrituração patrimonial e financeira comum, sem substituí-la.",
+      "grupo": "Lei 4.320/1964"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "1964 SÓ PENSOU NA INDÚSTRIA",
@@ -1491,8 +1727,28 @@
     "gabarito": "E",
     "explicacao": "A Lei 4.320/1964 trata dos custos dos serviços industriais (arts. 85 e 99). A exigência de a Administração manter sistema de custos para avaliar e acompanhar a gestão orçamentária, financeira e patrimonial está no art. 50, § 3º, da LRF."
    },
-   "aprofundamento": "<p><strong>Quem escolhe o método.</strong> A NBC TSP 34 afirma que a administração da entidade ou de suas unidades está na melhor posição para selecionar o método de custeio. A norma não impõe um método único.</p><p><strong>Consistência.</strong> Uma vez adotado, o método de custeio deve ser usado de forma consistente, para permitir a comparação ao longo do tempo.</p><p><strong>Métodos.</strong> Para entidades em estágio inicial, a recomendação é o custeio direto. Quando os custos indiretos forem relevantes, recomenda-se o custeio por absorção, parcial ou integral (custeio pleno). O custeio baseado em atividades é sugerido como técnica para rastrear custos indiretos, sem ser obrigatório.</p><p><strong>Sistema de custos é mais que software.</strong> Para a NBC TSP 34, o sistema de custos combina o modelo de gestão de custos, o sistema de informação de custos e a definição de papéis e responsabilidades na organização, para gerar informação de custos como instrumento de governança pública.</p><p><strong>Contabilidade especial dos serviços industriais.</strong> O art. 99 da Lei 4.320/1964 vale mesmo para o serviço industrial que não foi organizado como empresa pública ou autarquia, e a contabilidade especial convive com a escrituração patrimonial e financeira comum.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Pela LRF, a LOA dispõe sobre controle de custos.",
+     "certo": "É a LDO (art. 4º, I, e).",
+     "fonte": "Questões do app sobre sistema de custos"
+    },
+    {
+     "errado": "A contabilidade especial dos serviços industriais substitui a escrituração comum.",
+     "certo": "Convive com ela.",
+     "fonte": "Questões do app sobre sistema de custos"
+    },
+    {
+     "errado": "A NBC TSP 34 impõe o ABC como método obrigatório.",
+     "certo": "A escolha cabe à administração.",
+     "fonte": "Questões do app sobre sistema de custos"
+    },
+    {
+     "errado": "A NBC TSP 34 vale desde 2021 e convive com a NBC T 16.11.",
+     "certo": "Vale desde 1º/1/2024 e revogou a NBC T 16.11.",
+     "fonte": "Questões do app sobre sistema de custos"
+    }
+   ],
    "relacionados": [
     "casp-conceito-objeto-campo-de-aplicacao"
    ]
@@ -1506,6 +1762,7 @@
     "contabilidade-publica.custos-ambiente-informacao",
     "contabilidade-publica.custos-caracteristicas-informacao"
    ],
+   "dispositivos": [],
    "conceitos": [
     "informação de custos",
     "sistema de custos",
@@ -1513,20 +1770,83 @@
    ],
    "palavras": [
     "nbc tsp 34",
-    "nbc t 16.11",
-    "competência",
-    "governança pública",
+    "nbc t 16 11",
+    "competencia",
+    "governanca publica",
     "granularidade",
     "adaptabilidade",
-    "relevância",
+    "relevancia",
     "tempestividade",
     "centro de responsabilidade"
    ],
-   "resumo": "A <strong>NBC TSP 34</strong> (Custos no Setor Público) se aplica às entidades do setor público a partir de 1º de janeiro de 2024 e revogou a antiga NBC T 16.11. Ela trata o sistema de custos como instrumento de governança pública, com foco no uso gerencial da informação e com apoio da alta administração. O <strong>ambiente</strong> em que a informação de custos nasce é singular: o governo atua com universalidade e obrigação de fornecimento, muitas vezes sem contraprestação direta, e seus serviços são financiados pelo orçamento, não pelo preço. Por isso o sistema procura evidenciar quanto de recurso foi consumido para cumprir uma finalidade, associando o valor a uma variável física, como o custo por aluno, por cidadão atendido ou por tonelada de lixo recolhido. O custo do período segue o regime de competência, independentemente da execução orçamentária: o que determina o custo é o momento do consumo do recurso, e não o empenho ou o pagamento. Recursos consumidos sem desembolso, como bens recebidos em doação e servidores ou prédios cedidos, também são atribuídos aos objetos de custo. As perdas, como indenizações e efeitos de catástrofes, não são custo. Quanto às <strong>características</strong>, a NBC TSP 34 adota as características qualitativas da Estrutura Conceitual: relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às restrições de materialidade, custo-benefício e equilíbrio entre as características.",
+   "para_entender": [
+    {
+     "texto": "<strong>NBC TSP 34 e base legal:</strong> de onde vem a obrigação de manter sistema de custos.",
+     "tema": "sistema-de-custos-aspectos-legais"
+    }
+   ],
+   "resumo": "A <strong>NBC TSP 34</strong> (Custos no Setor Público) se aplica às entidades do setor público a partir de 1º de janeiro de 2024 e revogou a antiga NBC T 16.11. Ela trata o sistema de custos como instrumento de <strong>governança pública</strong>, com foco no uso gerencial da informação e com apoio da alta administração. O <strong>ambiente</strong> em que a informação de custos nasce é singular: o governo atua com universalidade e obrigação de fornecimento, muitas vezes sem contraprestação direta, e seus serviços são financiados pelo orçamento, não pelo preço. Por isso o sistema procura evidenciar quanto de recurso foi consumido para cumprir uma finalidade, associando o valor a uma variável física, como o custo por aluno, por cidadão atendido ou por tonelada de lixo recolhido. O custo do período segue o <strong>regime de competência</strong>, independentemente da execução orçamentária: o que determina o custo é o momento do consumo do recurso, e não o empenho ou o pagamento. Recursos consumidos sem desembolso, como bens recebidos em doação e servidores ou prédios cedidos, também são atribuídos aos objetos de custo. As <strong>perdas</strong> não são custo. Quanto às <strong>características</strong>, a NBC TSP 34 adota as características qualitativas da Estrutura Conceitual: relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às <strong>restrições</strong> de materialidade, custo-benefício e equilíbrio entre as características.",
    "esquema": {
     "rotulo": "o que entra e o que não entra no custo do período",
     "html": "<table><thead><tr><th>Situação</th><th>Tratamento no sistema de custos</th><th>Por quê</th></tr></thead><tbody><tr><td>Despesa empenhada e liquidada no mês com material consumido no mês</td><td>É custo do mês</td><td>houve consumo do recurso no período</td></tr><tr><td>Material comprado para estoque e ainda não consumido</td><td>Não é custo ainda; vira custo quando for consumido</td><td>o custo segue o consumo, não a compra</td></tr><tr><td>13º salário pago em dezembro</td><td>Apropriado mês a mês ao custo</td><td>competência, independentemente da execução orçamentária</td></tr><tr><td>Depreciação de equipamentos</td><td>É custo, embora não gere despesa orçamentária</td><td>fato não orçamentário que consome o potencial de serviço</td></tr><tr><td>Servidor cedido ou bem recebido em doação</td><td>Deve ser atribuído ao objeto de custo</td><td>recurso consumido mesmo sem desembolso</td></tr><tr><td>Indenização, catástrofe ou perda anormal</td><td>Não é custo; é perda</td><td>consumo anormal que não gera bem ou serviço</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Servidor cedido",
+      "o_que_e": "O custo do serviço prestado com o trabalho de servidores cedidos por outro órgão inclui o valor desse trabalho, ainda que a entidade não tenha desembolsado a remuneração deles.",
+      "grupo": "Ambiente"
+     },
+     {
+      "nome": "Indenização e catástrofe",
+      "o_que_e": "As indenizações pagas em razão de catástrofe que destruiu instalações são perda: consumo anormal que não gera bem ou serviço.",
+      "atencao": "Não devem ser apropriadas como custo dos serviços prestados.",
+      "grupo": "Ambiente"
+     },
+     {
+      "nome": "Material para estoque",
+      "o_que_e": "Só vira custo quando é consumido; até lá é ativo, e não custo do mês do empenho.",
+      "grupo": "Ambiente"
+     },
+     {
+      "nome": "Gerar e garantir os dados",
+      "o_que_e": "A geração da informação de custos cabe ao profissional da contabilidade; a integridade dos dados de origem é dos gestores das transações.",
+      "atencao": "A alta administração apoia, define os centros de responsabilidade e cobra a qualidade dos dados.",
+      "grupo": "Responsabilidades"
+     },
+     {
+      "nome": "Integração",
+      "o_que_e": "A norma recomenda integrar as bases de folha de pagamento e de gestão patrimonial, porque pessoal e uso de bens costumam ser os maiores custos.",
+      "grupo": "Responsabilidades"
+     },
+     {
+      "nome": "Materialidade aplicada",
+      "o_que_e": "Em atenção à restrição de custo-benefício, a NBC TSP 34 admite que bens de pequeno valor sejam apropriados imediatamente ao custo, em vez de depreciados.",
+      "atencao": "Materialidade e custo-benefício são restrições, e não características qualitativas.",
+      "grupo": "Características"
+     },
+     {
+      "nome": "Comparabilidade",
+      "o_que_e": "A informação é registrada de forma consistente ao longo do tempo.",
+      "atencao": "Alterar o método de custeio não dispensa a divulgação da mudança em nota explicativa, para que o usuário saiba que as séries não são diretamente comparáveis.",
+      "grupo": "Características"
+     },
+     {
+      "nome": "Atributos da NBC T 16.11",
+      "o_que_e": "A norma revogada listava relevância, utilidade, oportunidade, valor social, fidedignidade, especificidade, comparabilidade, adaptabilidade e granularidade.",
+      "grupo": "Norma revogada"
+     },
+     {
+      "nome": "Especificidade, adaptabilidade e granularidade",
+      "o_que_e": "Especificidade: informação elaborada conforme a finalidade pretendida pelo usuário. Adaptabilidade: detalhamento conforme as necessidades de cada unidade e usuário. Granularidade: informação em diferentes níveis de detalhe sem perder a comparabilidade.",
+      "grupo": "Norma revogada"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "CUSTO SEGUE O CONSUMO",
@@ -1546,14 +1866,42 @@
     "gabarito": "E",
     "explicacao": "O custo do período é apurado pelo regime de competência, independentemente da execução orçamentária. A despesa empenhada precisa de ajustes: entra a depreciação e o consumo de estoque, o 13º é apropriado mês a mês, e sai a compra de material que ainda não foi consumido."
    },
-   "aprofundamento": "<p><strong>Responsabilidades.</strong> A geração da informação de custos cabe ao profissional da contabilidade, mas a integridade dos dados de origem é responsabilidade dos gestores das transações. A alta administração apoia a geração das informações, define os centros de responsabilidade e cobra dos gestores a qualidade dos dados.</p><p><strong>Integração.</strong> O sistema de custos capta dados de outros sistemas e a norma recomenda integrar as bases de folha de pagamento e de gestão patrimonial, porque pessoal e uso de bens costumam ser os maiores custos do serviço público.</p><p><strong>Materialidade aplicada.</strong> Por custo-benefício, a norma admite que bens de baixo valor sejam apropriados ao custo de imediato, em vez de depreciados ao longo da vida útil.</p><p><strong>Características da norma revogada.</strong> A antiga NBC T 16.11 listava como atributos da informação de custos a relevância, a utilidade, a oportunidade, o valor social, a fidedignidade, a especificidade, a comparabilidade, a adaptabilidade e a granularidade. Granularidade é a capacidade de produzir informação em diferentes níveis de detalhe sem perder a comparabilidade. Adaptabilidade é permitir o detalhamento conforme as necessidades de cada unidade e usuário. Especificidade é a informação elaborada conforme a finalidade pretendida pelo usuário. Na NBC TSP 34, em vigor, a lista passa a ser a das características qualitativas da Estrutura Conceitual.</p><p><strong>Comparabilidade.</strong> A informação de custos deve ser registrada de forma consistente ao longo do tempo; mudança de critério ou de método deve ser divulgada em nota explicativa, para que o usuário saiba que as séries não são diretamente comparáveis.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Material para estoque é custo do mês do empenho.",
+     "certo": "Vira custo no consumo.",
+     "fonte": "Questões do app sobre custos no setor público"
+    },
+    {
+     "errado": "Indenizações por catástrofe são custo dos serviços.",
+     "certo": "São perda.",
+     "fonte": "Questões do app sobre custos no setor público"
+    },
+    {
+     "errado": "O contador responde também pela integridade dos dados de origem.",
+     "certo": "Essa é dos gestores das transações.",
+     "fonte": "Questões do app sobre custos no setor público"
+    },
+    {
+     "errado": "Materialidade e custo-benefício são características qualitativas.",
+     "certo": "São restrições.",
+     "fonte": "Questões do app sobre custos no setor público"
+    },
+    {
+     "errado": "Na NBC T 16.11, adaptabilidade era a informação feita para a finalidade do usuário.",
+     "certo": "Isso é especificidade.",
+     "fonte": "Questões do app sobre custos no setor público"
+    },
+    {
+     "errado": "Mudar o método de custeio dispensa nota explicativa.",
+     "certo": "A mudança é divulgada em nota.",
+     "fonte": "Questões do app sobre custos no setor público"
+    }
+   ],
    "relacionados": [
     "terminologia-de-custos-no-setor-publico",
     "regime-contabil-orcamentario-e-patrimonial"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "terminologia-de-custos-no-setor-publico",
@@ -1563,6 +1911,7 @@
    "tax": [
     "contabilidade-publica.custos-terminologia"
    ],
+   "dispositivos": [],
    "conceitos": [
     "terminologia de custos",
     "método de custeio",
@@ -1576,23 +1925,77 @@
     "custo direto",
     "custo indireto",
     "custo fixo",
-    "custo variável",
-    "custeio por absorção",
+    "custo variavel",
+    "custeio por absorcao",
     "custeio pleno",
-    "custeio variável",
+    "custeio variavel",
     "custeio direto",
     "abc",
     "direcionador de custo",
-    "sistema de acumulação",
+    "sistema de acumulacao",
     "itens de custo",
     "insumos",
     "custo e investimento"
    ],
-   "resumo": "<strong>Gasto</strong> é o dispêndio de um ativo ou a criação de um passivo, relacionado ou não à obtenção de bem ou serviço. <strong>Desembolso</strong> é o pagamento decorrente do gasto. <strong>Investimento</strong> é o gasto reconhecido no ativo pelos benefícios futuros esperados. <strong>Custo</strong> é o consumo ou a utilização de recursos para gerar bens ou serviços. <strong>Perda</strong> é o consumo anormal e imprevisível de recursos, que não contribui para gerar bens e serviços. Custo direto é o que se identifica e se apropria diretamente ao objeto de custo; custo indireto não se identifica diretamente e é alocado por direcionadores ou, em última instância, por bases de rateio. Custo fixo não varia proporcionalmente ao volume de atividades dentro de um intervalo relevante; custo variável varia proporcionalmente ao volume. Custo controlável é aquele cujo consumo o gestor consegue influenciar. Custos finalísticos correspondem às atividades ligadas à missão institucional; custos de suporte dão apoio a essas atividades. O <strong>objeto de custo</strong> é a unidade cujo custo se quer identificar, mensurar e avaliar: é final quando é bem ou serviço entregue à sociedade e intermediário quando não é entrega à sociedade, mas é útil para a gestão. O <strong>sistema de acumulação</strong> pode ser por ordem, com especificação predeterminada e duração limitada, próprio de obras e projetos, ou contínuo, para demandas de caráter continuado. Os principais <strong>métodos de custeio</strong> são o direto, o variável e o custeio por absorção, parcial ou integral; o custeio por absorção integral também é chamado de custeio pleno.",
+   "resumo": "<strong>Gasto</strong> é o dispêndio de um ativo ou a criação de um passivo, relacionado ou não à obtenção de bem ou serviço. <strong>Desembolso</strong> é o pagamento decorrente do gasto. <strong>Investimento</strong> é o gasto reconhecido no ativo pelos benefícios futuros esperados. <strong>Custo</strong> é o consumo ou a utilização de recursos para gerar bens ou serviços. <strong>Perda</strong> é o consumo anormal e imprevisível de recursos, que não contribui para gerar bens e serviços. <strong>Custo direto</strong> é o que se identifica e se apropria diretamente ao objeto de custo; <strong>custo indireto</strong> não se identifica diretamente e é alocado por direcionadores ou, em última instância, por bases de rateio. <strong>Custo fixo</strong> não varia proporcionalmente ao volume de atividades dentro de um intervalo relevante; <strong>custo variável</strong> varia proporcionalmente ao volume. <strong>Custo controlável</strong> é aquele cujo consumo o gestor consegue influenciar. Custos <strong>finalísticos</strong> correspondem às atividades ligadas à missão institucional; custos <strong>de suporte</strong> dão apoio a essas atividades. O <strong>objeto de custo</strong> é a unidade cujo custo se quer identificar, mensurar e avaliar: é final quando é bem ou serviço entregue à sociedade, como a consulta numa unidade básica de saúde, e intermediário quando não é entrega à sociedade, mas é útil para a gestão. O <strong>sistema de acumulação</strong> pode ser por ordem, com especificação predeterminada e duração limitada, próprio de obras e projetos, ou contínuo, para demandas de caráter continuado. Os <strong>métodos de custeio</strong> estão na tabela.",
    "esquema": {
     "rotulo": "métodos de custeio lado a lado",
     "html": "<table><thead><tr><th>Método</th><th>O que atribui ao objeto de custo</th><th>Uso indicado</th></tr></thead><tbody><tr><td><strong>Direto</strong></td><td>os custos que se identificam diretamente com o objeto, sem rateio</td><td>estágios iniciais de implantação do sistema</td></tr><tr><td><strong>Variável</strong></td><td>apenas os custos variáveis; os fixos vão para o resultado do período</td><td>análise de decisões de curto prazo</td></tr><tr><td><strong>Absorção</strong> (parcial ou integral)</td><td>custos diretos e indiretos, estes por direcionadores ou rateio</td><td>quando a atribuição dos custos indiretos for relevante</td></tr><tr><td><strong>Pleno</strong> (absorção integral)</td><td>todos os custos e despesas, inclusive os de suporte e administração</td><td>comparar objetos de custo finais entre entidades</td></tr><tr><td><strong>ABC</strong></td><td>custos rastreados pelas atividades, com direcionadores</td><td>técnica de rastreamento incentivada, não obrigatória</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Estoque e veículo",
+      "o_que_e": "A compra de material para estoque é gasto e investimento; consumido no serviço, vira custo. A compra de veículo é investimento; a depreciação do veículo usado na fiscalização é custo da fiscalização.",
+      "grupo": "Gasto, custo e investimento"
+     },
+     {
+      "nome": "Custo ou investimento",
+      "o_que_e": "A compra de computadores ou veículos é investimento, reconhecido no ativo, e não item de custo no mês da compra; o custo aparece pela depreciação.",
+      "atencao": "A remuneração do pessoal que usa os bens é custo do período.",
+      "grupo": "Gasto, custo e investimento"
+     },
+     {
+      "nome": "Direcionador de custo",
+      "o_que_e": "Indicador de causa e efeito entre o consumo do recurso e o objeto: número de servidores, área ocupada, horas trabalhadas.",
+      "atencao": "O rateio por base arbitrária é a última opção.",
+      "grupo": "Alocação"
+     },
+     {
+      "nome": "Centro de responsabilidade",
+      "o_que_e": "Unidade que conduz atividades e cujo gestor presta contas à alta administração pelos recursos consumidos.",
+      "atencao": "Dá sentido à classificação em custo controlável e não controlável.",
+      "grupo": "Alocação"
+     },
+     {
+      "nome": "Custeio variável",
+      "o_que_e": "Os custos fixos não são distribuídos aos objetos; vão inteiros para o resultado do período.",
+      "atencao": "Distribuir custos fixos por rateio é o custeio por absorção.",
+      "grupo": "Métodos"
+     },
+     {
+      "nome": "Intervalo relevante",
+      "o_que_e": "Fora dele, como ao abrir nova unidade de atendimento, a estrutura de custos fixos muda.",
+      "grupo": "Comportamento"
+     },
+     {
+      "nome": "Custo de oportunidade",
+      "o_que_e": "Valor da melhor alternativa abandonada pela escolha feita.",
+      "atencao": "A antiga NBC T 16.11 o usava para medir a receita econômica do serviço público: quantidade de serviços vezes o custo de referência.",
+      "grupo": "Comportamento"
+     },
+     {
+      "nome": "Itens de custo",
+      "o_que_e": "No modelo do Tesouro Nacional, agregam os insumos consumidos (pessoal e encargos, material de consumo, serviços de terceiros, depreciação): mostram o que se consumiu, sem relação com a finalidade.",
+      "atencao": "Cruzados com os objetos de custo, mostram também para que foram usados.",
+      "grupo": "Comportamento"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "GASTO É GÊNERO",
@@ -1612,13 +2015,36 @@
     "gabarito": "E",
     "explicacao": "A norma não impõe método único: a administração escolhe o que melhor se ajusta ao seu contexto. Recomenda o custeio direto nos estágios iniciais, o custeio por absorção quando a atribuição dos custos indiretos for relevante e a absorção integral para comparar objetos finais entre entidades. O custeio baseado em atividades é incentivado como técnica de rastreamento, sem ser obrigatório."
    },
-   "aprofundamento": "<p><strong>Gasto, custo e despesa na prática.</strong> A compra de material para estoque é gasto e investimento (vai para o ativo); quando o material é consumido na prestação do serviço, vira custo. A compra de um veículo é investimento; a depreciação do veículo usado na fiscalização é custo da fiscalização.</p><p><strong>Direcionador e rateio.</strong> Direcionador de custo é o indicador que expressa uma relação de causa e efeito entre o consumo do recurso e o objeto (número de servidores, área ocupada, horas trabalhadas). O rateio por base arbitrária é a última opção, quando não há direcionador que explique o consumo.</p><p><strong>Centro de responsabilidade.</strong> É a unidade do modelo de gerenciamento que conduz atividades e cujo gestor presta contas à alta administração pelos recursos consumidos. É ele que dá sentido à classificação em custo controlável e não controlável.</p><p><strong>Custo de oportunidade.</strong> É o valor da melhor alternativa abandonada pela escolha feita, conceito que a antiga NBC T 16.11 usava para medir a receita econômica do serviço público (quantidade de serviços multiplicada pelo custo de referência).</p><p><strong>Custeio variável.</strong> Os custos fixos não são distribuídos aos objetos; vão inteiros para o resultado do período. Uma assertiva que diga que o custeio variável distribui os custos fixos por rateio descreve o custeio por absorção.</p><p><strong>Itens de custo.</strong> No modelo de informação de custos do Tesouro Nacional, itens de custo são agregadores dos insumos consumidos pela entidade na prestação dos serviços (pessoal e encargos, material de consumo, serviços de terceiros, depreciação): mostram o que se consumiu, sem relação com a finalidade do gasto. Eles informam ao gestor e aos demais usuários quais recursos foram usados; cruzados com os objetos de custo, mostram também para que foram usados.</p><p><strong>Custo ou investimento.</strong> A compra de bem durável, como um computador ou um veículo, é investimento, reconhecido no ativo, e não item de custo no momento da aquisição; o custo aparece aos poucos, pela depreciação do bem usado no serviço. A compra de material de consumo para estoque também é investimento até o consumo, enquanto a remuneração do servidor que trabalha no serviço é custo do período.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Desembolso é o gasto reconhecido no ativo.",
+     "certo": "Isso é investimento; desembolso é o pagamento.",
+     "fonte": "Questões do app sobre terminologia de custos"
+    },
+    {
+     "errado": "Custo fixo é constante em qualquer volume.",
+     "certo": "Só dentro do intervalo relevante.",
+     "fonte": "Questões do app sobre terminologia de custos"
+    },
+    {
+     "errado": "No custeio variável, os fixos vão aos objetos por rateio.",
+     "certo": "Os fixos vão ao resultado do período.",
+     "fonte": "Questões do app sobre terminologia de custos"
+    },
+    {
+     "errado": "A consulta na UBS é objeto de custo intermediário.",
+     "certo": "É objeto final.",
+     "fonte": "Questões do app sobre terminologia de custos"
+    },
+    {
+     "errado": "Computador comprado é item de custo no mês da compra.",
+     "certo": "É investimento; o custo vem pela depreciação.",
+     "fonte": "Questões do app sobre terminologia de custos"
+    }
+   ],
    "relacionados": [
     "custos-no-setor-publico-ambiente-e-caracteristicas"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "plano-de-contas-aplicado-ao-setor-publico-pcasp",
