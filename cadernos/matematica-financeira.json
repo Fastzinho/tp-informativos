@@ -39,10 +39,87 @@
     "variacao percentual",
     "pontos percentuais"
    ],
-   "resumo": "Duas grandezas são <strong>diretamente proporcionais</strong> quando a razão entre elas é constante (dobra uma, dobra a outra) e <strong>inversamente proporcionais</strong> quando o produto entre elas é constante (dobra uma, a outra cai à metade). Na <strong>regra de três simples</strong>, monte as duas colunas e pergunte se as grandezas crescem juntas; se uma cresce enquanto a outra diminui, inverta a razão antes de igualar. Na <strong>regra de três composta</strong>, isole a grandeza pedida e compare cada uma das outras com ela, mantendo as demais fixas: a direta entra com a razão como está e a inversa entra invertida. Exemplo: se 6 auditores analisam 120 processos em 10 dias, então 8 auditores analisam 240 processos em 15 dias, porque 120 × (8/6) × (15/10) = 240. Na <strong>divisão inversamente proporcional</strong>, divide-se de forma direta pelos inversos dos números dados. Em <strong>porcentagem</strong>, trabalhe com fatores: aumento de i multiplica por (1 + i) e desconto de i multiplica por (1 − i). Variações sucessivas se multiplicam, nunca se somam: aumento de 20% seguido de desconto de 20% dá 1,2 × 0,8 = 0,96, isto é, perda de 4%. A variação percentual é sempre calculada sobre o valor inicial: (final − inicial) / inicial.",
+   "resumo": "Duas grandezas são <strong>diretamente proporcionais</strong> quando crescem na mesma razão: dobra uma, dobra a outra, e a divisão entre elas é constante. São <strong>inversamente proporcionais</strong> quando uma cresce na razão em que a outra cai: dobra uma, a outra cai à metade, e o produto entre elas é constante. A <strong>regra de três</strong> é a conta que acha um valor desconhecido a partir de grandezas proporcionais. Na simples há duas grandezas; na composta, três ou mais. O método é sempre o mesmo: pergunte se cada grandeza cresce junto com a pedida. Se cresce, a razão entra como está; se diminui, entra invertida. Antes de montar a conta, ponha tudo na mesma unidade, como horas e minutos. <strong>Porcentagem</strong> é uma razão com denominador 100, e a forma segura de trabalhar com ela é o <strong>fator</strong>: aumento de i multiplica o valor por (1 + i), e desconto de i multiplica por (1 − i). Por isso variações sucessivas se multiplicam e não se somam. A variação percentual se mede sempre sobre o valor de partida. A tabela traz uma conta para cada situação.",
    "esquema": {
     "rotulo": "o que fazer em cada situação",
     "html": "<table><thead><tr><th>Situação</th><th>Regra</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Grandezas diretas</strong></td><td>razão constante: y / x = k</td><td>mais horas, mais processos analisados</td></tr><tr><td><strong>Grandezas inversas</strong></td><td>produto constante: x × y = k</td><td>4 servidores em 15 dias = 6 servidores em 10 dias (60 servidores-dia)</td></tr><tr><td><strong>Regra de três composta</strong></td><td>compare cada grandeza com a pedida, uma de cada vez</td><td>120 × (8/6) × (15/10) = 240 processos</td></tr><tr><td><strong>Divisão direta</strong></td><td>partes proporcionais aos pesos</td><td>600 em 1, 2 e 3: 100, 200 e 300</td></tr><tr><td><strong>Divisão inversa</strong></td><td>partes proporcionais aos inversos</td><td>600 inversamente a 2 e 3: 360 e 240</td></tr><tr><td><strong>Variações sucessivas</strong></td><td>multiplique os fatores</td><td>1,1 × 1,1 = 1,21: dois aumentos de 10% resultam em 21%</td></tr><tr><td><strong>Desfazer um aumento</strong></td><td>divida pelo fator</td><td>1 / 1,25 = 0,8: depois de +25%, volta com −20%</td></tr><tr><td><strong>Pontos percentuais</strong></td><td>diferença entre duas taxas</td><td>de 10% para 12%: 2 pontos percentuais, ou 20% de aumento</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Direta, em números",
+      "o_que_e": "3 kg de um produto custam R$ 24,00. Ao mesmo preço por quilo, 5 kg custam 24 × 5 / 3 = R$ 40,00.",
+      "grupo": "Proporção"
+     },
+     {
+      "nome": "Inversa, em números",
+      "o_que_e": "A 60 km/h, um percurso leva 4 horas. A 80 km/h, o mesmo percurso leva 4 × 60 / 80 = 3 horas: mais velocidade, menos tempo.",
+      "atencao": "Tratar como direta daria 5h20, mais tempo com mais velocidade.",
+      "grupo": "Proporção"
+     },
+     {
+      "nome": "Inversa disfarçada",
+      "o_que_e": "Mais servidores terminam a mesma tarefa em menos dias: o total de servidores-dia fica fixo. 4 servidores em 15 dias são 60 servidores-dia; 6 servidores levam 60 / 6 = 10 dias.",
+      "atencao": "A resposta direta, 22,5 dias, é a armadilha.",
+      "grupo": "Proporção"
+     },
+     {
+      "nome": "Mesma unidade antes da conta",
+      "o_que_e": "Uma bomba retira 300 litros de água em 1 h 30 min, isto é, 90 minutos. Mantida a vazão, em 60 minutos retira 300 × 60 / 90 = 200 litros.",
+      "atencao": "Usar 1,30 hora no lugar de 1,5 hora erra a conta.",
+      "grupo": "Regra de três"
+     },
+     {
+      "nome": "Composta, passo a passo",
+      "o_que_e": "Se 6 auditores analisam 120 processos em 10 dias, então 8 auditores, no mesmo ritmo, analisam 240 processos em 15 dias: 120 × (8 / 6) × (15 / 10) = 240. Mais auditores e mais dias, mais processos: as duas razões são diretas.",
+      "grupo": "Regra de três"
+     },
+     {
+      "nome": "Composta com tempo e produção",
+      "o_que_e": "5 máquinas, em 8 horas diárias, produzem 1.000 peças em 4 dias. 4 máquinas, em 10 horas diárias, nos mesmos 4 dias, produzem 1.000 × (4 / 5) × (10 / 8) = 1.000 peças. As duas grandezas são diretas em relação às peças.",
+      "grupo": "Regra de três"
+     },
+     {
+      "nome": "Composta com tanque",
+      "o_que_e": "4 torneiras iguais enchem 800 litros em 30 minutos. Com 2 torneiras e 1.200 litros, o tempo é 30 × (4 / 2) × (1.200 / 800) = 90 minutos: menos torneiras é inversa (razão invertida), mais litros é direta.",
+      "grupo": "Regra de três"
+     },
+     {
+      "nome": "Fração da obra",
+      "o_que_e": "8 operários fazem 1/4 de uma obra em 6 dias. Faltam 3/4, o triplo do feito; com 16 operários, o prazo é 6 × 3 × (8 / 16) = 9 dias.",
+      "atencao": "Compare o trabalho que falta com o já feito, e não com a obra inteira.",
+      "grupo": "Regra de três"
+     },
+     {
+      "nome": "Divisão inversa",
+      "o_que_e": "Para dividir 600 inversamente a 2 e 3, use os inversos 1/2 e 1/3; multiplicando por 6, os pesos viram 3 e 2. Cada peso vale 600 / 5 = 120, e as partes são 360 e 240.",
+      "atencao": "O número menor recebe a parte maior.",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Descontos sucessivos",
+      "o_que_e": "Desconto de 10% seguido de desconto de 20% dá 0,9 × 0,8 = 0,72: desconto total de 28%, e não de 30%.",
+      "grupo": "Porcentagem"
+     },
+     {
+      "nome": "Desfazer um aumento",
+      "o_que_e": "Para que o preço volte ao valor anterior a um aumento de 25%, basta aplicar ao preço aumentado um desconto de 20%, porque 1 / 1,25 = 0,8. Um desconto de 25% levaria a 1,25 × 0,75 = 0,9375 do original.",
+      "grupo": "Porcentagem"
+     },
+     {
+      "nome": "Base da variação",
+      "o_que_e": "De 200 para 150, a queda é de 25% (50 sobre 200); de 150 de volta para 200, a alta é de 33,3% (50 sobre 150).",
+      "atencao": "A base é sempre o valor de partida.",
+      "grupo": "Porcentagem"
+     },
+     {
+      "nome": "Ponto percentual",
+      "o_que_e": "Diferença entre duas taxas. A elevação de uma alíquota de 10% para 12% corresponde a 2 pontos percentuais, o que é um aumento relativo de 20%.",
+      "atencao": "Dizer que subiu 20 pontos percentuais confunde as duas medidas.",
+      "grupo": "Porcentagem"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -64,8 +141,43 @@
     "gabarito": "E",
     "explicacao": "Os fatores se multiplicam: 1,2 × 0,8 = 0,96. O preço final é 96% do inicial, uma perda de 4%. O desconto de 20% incide sobre um valor maior que o inicial."
    },
-   "aprofundamento": "<p><strong>Inversa disfarçada.</strong> Mais servidores terminam a mesma tarefa em menos dias. Se 4 servidores concluem uma tarefa em 15 dias, 6 servidores, no mesmo ritmo, concluem a mesma tarefa em 10 dias, porque o total de servidores-dia fica fixo em 60. A armadilha é tratar como direta e responder 22,5 dias.</p><p><strong>Divisão inversa.</strong> Para dividir 600 em partes inversamente proporcionais a 2 e 3, use os inversos 1/2 e 1/3; multiplicando por 6, os pesos viram 3 e 2. As partes são 360 e 240: o número menor recebe a parte maior.</p><p><strong>Desfazer um aumento.</strong> Depois de um aumento de 25%, o desconto que devolve o preço original é de 20%, porque 1 / 1,25 = 0,8. O desconto de 25% levaria o preço a 1,25 × 0,75 = 0,9375 do original.</p><p><strong>Pontos percentuais.</strong> Se uma alíquota passa de 10% para 12%, ela subiu 2 pontos percentuais, o que corresponde a um aumento relativo de 20%. Dizer que subiu 20 pontos percentuais confunde as duas medidas.</p><p><strong>Base da variação.</strong> Se um valor cai de 200 para 150, a queda é de 25% (50 sobre 200); se depois volta de 150 para 200, a alta é de 33,3% (50 sobre 150). A base é sempre o valor de partida.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Se 4 servidores concluem uma tarefa em 15 dias, 6 servidores no mesmo ritmo a concluem em 22,5 dias.",
+     "certo": "Concluem em 10 dias: servidores e dias são inversamente proporcionais (60 servidores-dia).",
+     "fonte": "Questão do app sobre regra de três"
+    },
+    {
+     "errado": "Se 6 operários constroem um muro em 10 dias, 15 operários de mesma produtividade o constroem em 25 dias.",
+     "certo": "Constroem em 6 × 10 / 15 = 4 dias.",
+     "fonte": "Questão do app sobre grandezas inversas"
+    },
+    {
+     "errado": "Um veículo a 80 km/h faz um percurso em 3 horas; a 120 km/h, o mesmo percurso leva 4,5 horas.",
+     "certo": "Leva 3 × 80 / 120 = 2 horas.",
+     "fonte": "Questão do app sobre grandezas inversas"
+    },
+    {
+     "errado": "Se 4 máquinas, 6 horas por dia, produzem 1.200 peças em 5 dias, 6 máquinas, 8 horas por dia, produzem 1.800 peças em 5 dias.",
+     "certo": "Produzem 1.200 × (6 / 4) × (8 / 6) = 2.400 peças.",
+     "fonte": "Questão do app sobre regra de três composta"
+    },
+    {
+     "errado": "Dez operários fizeram metade de uma obra em 12 dias; com mais 10 operários iguais, a outra metade leva 24 dias.",
+     "certo": "Leva 12 × 10 / 20 = 6 dias.",
+     "fonte": "Questão do app sobre regra de três composta"
+    },
+    {
+     "errado": "Dividindo R$ 600,00 em partes diretamente proporcionais a 1, 2 e 3, a menor parte é de R$ 150,00.",
+     "certo": "É de R$ 100,00 (as partes são 100, 200 e 300).",
+     "fonte": "Questão do app sobre divisão proporcional"
+    },
+    {
+     "errado": "A alíquota que passa de 10% para 12% sobe 20 pontos percentuais.",
+     "certo": "Sobe 2 pontos percentuais, um aumento relativo de 20%.",
+     "fonte": "Questão do app sobre porcentagem"
+    }
+   ],
    "relacionados": [
     "juros-simples-e-compostos",
     "taxas-nominal-efetiva-equivalente-real-e-aparente"
@@ -101,10 +213,63 @@
     "ano comercial",
     "duplicacao do capital"
    ],
-   "resumo": "No <strong>regime de juros simples</strong>, os juros de cada período incidem só sobre o capital inicial: J = C × i × n e M = C × (1 + i × n). O montante cresce em <strong>progressão aritmética</strong>, em linha reta. No <strong>regime de juros compostos</strong>, os juros de cada período se incorporam ao capital e passam a render juros: M = C × (1 + i)^n. O montante cresce em <strong>progressão geométrica</strong>, em curva exponencial. A taxa e o prazo têm de estar na mesma unidade de tempo. Exemplo: R$ 1.000,00 a 10% ao mês geram R$ 1.200,00 em 2 meses e R$ 1.300,00 em 3 meses a juros simples; a juros compostos, geram R$ 1.210,00 e R$ 1.331,00. A comparação entre os regimes depende do prazo: com prazo inferior a um período, o regime simples dá montante maior; com prazo igual a um período, os montantes são iguais; com prazo superior a um período, o regime composto dá montante maior. Nos juros simples contados em dias, há o <strong>juro comercial</strong>, que usa ano de 360 dias, e o <strong>juro exato</strong>, que usa o ano civil de 365 dias; para os mesmos capital, taxa anual e número de dias, o juro comercial é maior que o exato.",
+   "para_entender": [
+    {
+     "texto": "<strong>Fator de aumento:</strong> crescer i é multiplicar por (1 + i).",
+     "tema": "regra-de-tres-proporcionalidade-e-porcentagem"
+    }
+   ],
+   "resumo": "<strong>Juros</strong> são o preço do dinheiro no tempo: quem empresta um <strong>capital</strong> (C, o valor inicial) recebe de volta o <strong>montante</strong> (M), que é o capital mais os juros. A <strong>taxa</strong> (i) diz quanto se paga por período, e o <strong>prazo</strong> (n) quantos períodos se passaram; taxa e prazo têm de estar na mesma unidade de tempo. No <strong>regime de juros simples</strong>, os juros de cada período incidem só sobre o capital inicial: J = C × i × n e M = C × (1 + i × n). O montante cresce sempre o mesmo valor, em <strong>progressão aritmética</strong>. No <strong>regime de juros compostos</strong>, os juros de cada período se somam ao capital e passam a render juros, os \"juros sobre juros\": M = C × (1 + i)^n. O montante cresce pelo mesmo fator a cada período, em <strong>progressão geométrica</strong>. Qual regime dá mais depende do prazo: antes de um período, o simples; em exatamente um período, empatam; depois, o composto. Quando o prazo é contado em dias, o <strong>juro comercial</strong> usa o ano de 360 dias e o <strong>juro exato</strong>, o ano civil de 365. A tabela compara os dois regimes.",
    "esquema": {
     "rotulo": "simples × composto",
     "html": "<table><thead><tr><th>Ponto</th><th>Juros simples</th><th>Juros compostos</th></tr></thead><tbody><tr><td><strong>Base dos juros</strong></td><td>sempre o capital inicial</td><td>o montante do período anterior</td></tr><tr><td><strong>Fórmula do montante</strong></td><td>M = C × (1 + i × n)</td><td>M = C × (1 + i)^n</td></tr><tr><td><strong>Crescimento</strong></td><td>linear, progressão aritmética</td><td>exponencial, progressão geométrica</td></tr><tr><td><strong>R$ 1.000,00 a 10% ao mês, 3 meses</strong></td><td>R$ 1.300,00</td><td>R$ 1.331,00</td></tr><tr><td><strong>Prazo menor que 1 período</strong></td><td>montante maior</td><td>montante menor</td></tr><tr><td><strong>Prazo maior que 1 período</strong></td><td>montante menor</td><td>montante maior</td></tr><tr><td><strong>Tempo para dobrar a 10% ao mês</strong></td><td>10 meses (n = 1 / i)</td><td>entre 7 e 8 meses</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Juros simples, em números",
+      "o_que_e": "R$ 2.000,00 a 3% ao mês por 5 meses: J = 2.000 × 0,03 × 5 = R$ 300,00 e M = R$ 2.300,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Juros compostos, em números",
+      "o_que_e": "R$ 2.000,00 a 3% ao mês por 2 meses: M = 2.000 × 1,03² = 2.000 × 1,0609 = R$ 2.121,80.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Juros do período no composto",
+      "o_que_e": "R$ 1.000,00 a 10% ao mês: os juros do terceiro mês são R$ 121,00 (10% sobre R$ 1.210,00), e não R$ 100,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Fração de período",
+      "o_que_e": "R$ 1.000,00 a 10% ao mês por meio mês: a juros simples, R$ 1.050,00; a juros compostos, 1.000 × 1,1^0,5 ≈ R$ 1.048,81. Antes de um período, o simples rende mais.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Dobrar a juros simples",
+      "o_que_e": "O capital dobra quando i × n = 1: a 5% ao mês, em 20 meses; a 4% ao mês, em 25 meses.",
+      "grupo": "Prazo para dobrar"
+     },
+     {
+      "nome": "Dobrar a juros compostos",
+      "o_que_e": "A 10% ao mês, 1,1^7 ≈ 1,949 e 1,1^8 ≈ 2,144: o capital dobra entre o sétimo e o oitavo mês, ou seja, em menos de 8 meses.",
+      "atencao": "A regra de dividir 72 pela taxa (72 / 10 = 7,2) é só aproximação.",
+      "grupo": "Prazo para dobrar"
+     },
+     {
+      "nome": "Juro comercial e juro exato",
+      "o_que_e": "R$ 36.500,00 a 36% ao ano por 10 dias: comercial, 36.500 × 0,36 × 10 / 360 = R$ 365,00; exato, 36.500 × 0,36 × 10 / 365 = R$ 360,00.",
+      "atencao": "Divisor menor, juro maior: o comercial supera o exato.",
+      "grupo": "Juro em dias"
+     },
+     {
+      "nome": "Converter a taxa ao prazo",
+      "o_que_e": "Taxa ao mês com prazo em dias: no regime simples, pela taxa proporcional (3% ao mês são 0,1% ao dia no mês comercial de 30 dias); no composto, pela taxa equivalente.",
+      "grupo": "Juro em dias"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -126,8 +291,23 @@
     "gabarito": "E",
     "explicacao": "Essa é a descrição do regime de juros compostos. No regime simples, os juros incidem sempre sobre o capital inicial, são iguais em todos os períodos e o montante cresce em progressão aritmética."
    },
-   "aprofundamento": "<p><strong>Prazo para dobrar a juros simples.</strong> O capital dobra quando i × n = 1. A 5% ao mês, isso ocorre em 20 meses; a 10% ao mês, em 10 meses.</p><p><strong>Prazo para dobrar a juros compostos.</strong> A 10% ao mês, 1,1^7 ≈ 1,949 e 1,1^8 ≈ 2,144; o capital dobra, portanto, entre o sétimo e o oitavo mês. A regra prática de dividir 72 pela taxa em porcentagem (72 / 10 = 7,2) é só uma aproximação.</p><p><strong>Juro comercial e juro exato.</strong> Para os mesmos capital, taxa anual e número de dias, o juro comercial (ano de 360 dias) supera o juro exato (ano de 365 dias). A armadilha é inverter a relação.</p><p><strong>Mesma unidade.</strong> Taxa ao mês com prazo em dias exige converter: no regime simples, pela taxa proporcional (3% ao mês correspondem a 0,1% ao dia no mês comercial de 30 dias); no composto, pela taxa equivalente.</p><p><strong>Juros do período.</strong> A juros compostos, os juros do terceiro mês de R$ 1.000,00 a 10% ao mês são R$ 121,00 (10% sobre R$ 1.210,00), e não R$ 100,00.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A juros compostos, R$ 1.000,00 a 10% ao mês produzem R$ 1.300,00 em 3 meses.",
+     "certo": "Produzem 1.000 × 1,1³ = R$ 1.331,00; R$ 1.300,00 é o montante a juros simples.",
+     "fonte": "Questão do app sobre juros compostos"
+    },
+    {
+     "errado": "Para prazo inferior a um período, o regime composto dá montante maior que o simples, à mesma taxa.",
+     "certo": "Na fração de período, o simples dá montante maior; no prazo de um período, os dois empatam.",
+     "fonte": "Questão do app sobre regimes de juros"
+    },
+    {
+     "errado": "Com o mesmo capital, a mesma taxa anual e os mesmos dias, o juro exato é maior que o comercial.",
+     "certo": "O comercial, com ano de 360 dias, é maior que o exato, com ano de 365.",
+     "fonte": "Questão do app sobre juro comercial e exato"
+    }
+   ],
    "relacionados": [
     "regimes-de-capitalizacao",
     "taxas-nominal-efetiva-equivalente-real-e-aparente"
@@ -161,10 +341,53 @@
     "valor futuro",
     "taxa instantanea"
    ],
-   "resumo": "<strong>Capitalização</strong> é a incorporação dos juros ao capital ao fim de cada período. Na <strong>capitalização simples</strong> (linear), os juros nunca se incorporam para render juros; na <strong>composta</strong> (exponencial, descontínua), incorporam-se ao fim de cada período; na <strong>contínua</strong>, incorporam-se a cada instante e o montante é M = C × e^(i × n). Uma taxa contínua de 10% ao período equivale a uma taxa efetiva de cerca de 10,52% ao período, porque e^0,1 ≈ 1,1052. Quando o prazo é fracionário no regime composto, há duas convenções. Na <strong>convenção exponencial</strong>, aplica-se a fórmula composta ao prazo inteiro, inclusive à fração. Na <strong>convenção linear</strong>, aplicam-se juros compostos à parte inteira do prazo e juros simples à parte fracionária: M = C × (1 + i)^k × (1 + i × f). Como o simples rende mais que o composto em fração de período, a convenção linear produz montante maior que a convenção exponencial. Exemplo: R$ 1.000,00 a 10% ao mês por 2,5 meses, na convenção linear, geram 1.000 × 1,21 × 1,05 = R$ 1.270,50. O <strong>valor presente</strong> desconta o valor futuro pelo fator do regime: no composto, PV = FV / (1 + i)^n. Na <strong>equivalência de capitais</strong>, dois capitais em datas diferentes são equivalentes quando têm o mesmo valor numa data focal, à mesma taxa.",
+   "para_entender": [
+    {
+     "texto": "<strong>Juros simples e compostos:</strong> as duas fórmulas do montante.",
+     "tema": "juros-simples-e-compostos"
+    }
+   ],
+   "resumo": "<strong>Capitalização</strong> é a incorporação dos juros ao capital, para que passem a render juros também. Na <strong>capitalização simples</strong>, ou linear, isso nunca acontece. Na <strong>composta</strong>, ou exponencial, acontece ao fim de cada período. Na <strong>contínua</strong>, a cada instante, e o montante é M = C × e^(i × n), em que e ≈ 2,718 é a base dos logaritmos naturais. Quando o prazo tem fração de período no regime composto, como 2,5 meses, há duas <strong>convenções</strong>, que são formas de tratar a fração. A <strong>exponencial</strong> aplica juros compostos ao prazo inteiro; a <strong>linear</strong> aplica juros compostos à parte inteira e juros simples à fração, e por isso dá montante maior. O <strong>valor presente</strong> é o quanto um valor futuro vale hoje: no composto, PV = FV / (1 + i)^n. Dois capitais em datas diferentes são <strong>equivalentes</strong> quando, levados a uma mesma data, chamada <strong>data focal</strong>, à mesma taxa, têm o mesmo valor. A tabela traz a fórmula de cada regime.",
    "esquema": {
     "rotulo": "como cada regime incorpora os juros",
     "html": "<table><thead><tr><th>Regime ou convenção</th><th>Fórmula</th><th>O que cai</th></tr></thead><tbody><tr><td><strong>Capitalização simples</strong></td><td>M = C × (1 + i × n)</td><td>equivalência depende da data focal</td></tr><tr><td><strong>Capitalização composta</strong></td><td>M = C × (1 + i)^n</td><td>equivalência vale em qualquer data focal</td></tr><tr><td><strong>Capitalização contínua</strong></td><td>M = C × e^(i × n)</td><td>taxa contínua de 10% ≈ efetiva de 10,52%</td></tr><tr><td><strong>Convenção exponencial</strong></td><td>M = C × (1 + i)^(k + f)</td><td>montante menor no prazo fracionário</td></tr><tr><td><strong>Convenção linear</strong></td><td>M = C × (1 + i)^k × (1 + i × f)</td><td>montante maior no prazo fracionário</td></tr><tr><td><strong>Valor presente (composto)</strong></td><td>PV = FV / (1 + i)^n</td><td>quanto maior a taxa, menor o PV</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Convenção linear, em números",
+      "o_que_e": "R$ 1.000,00 aplicados a 10% ao mês durante 2 meses e meio, adotada a convenção linear: compostos nos 2 meses inteiros (fator 1,21) e simples no meio mês (fator 1,05): 1.000 × 1,21 × 1,05 = R$ 1.270,50.",
+      "grupo": "Prazo fracionário"
+     },
+     {
+      "nome": "Convenção exponencial, em números",
+      "o_que_e": "Mesmos dados: 1.000 × 1,1^2,5 ≈ R$ 1.269,06, um pouco menos que na linear.",
+      "grupo": "Prazo fracionário"
+     },
+     {
+      "nome": "Contínua x discreta",
+      "o_que_e": "A contínua é o limite da composta quando as capitalizações por período tendem ao infinito. Com e^0,1 ≈ 1,1052, a taxa contínua de 10% ao período equivale à efetiva de cerca de 10,52%, o máximo que essa taxa pode render.",
+      "grupo": "Capitalização contínua"
+     },
+     {
+      "nome": "Valor presente e taxa",
+      "o_que_e": "R$ 1.210,00 daqui a 2 meses valem R$ 1.000,00 hoje a 10% ao mês e cerca de R$ 1.097,51 a 5% ao mês (1.210 / 1,1025).",
+      "atencao": "Quanto maior a taxa, menor o valor presente.",
+      "grupo": "Valor presente"
+     },
+     {
+      "nome": "Equivalência no composto",
+      "o_que_e": "A 10% ao mês, R$ 1.100,00 em 1 mês e R$ 1.210,00 em 2 meses valem R$ 1.000,00 hoje; na data 2, valem os dois R$ 1.210,00. Equivalentes numa data, equivalentes em qualquer outra.",
+      "grupo": "Equivalência de capitais"
+     },
+     {
+      "nome": "Equivalência no simples",
+      "o_que_e": "A 10% ao mês simples, R$ 1.100,00 em 1 mês e R$ 1.200,00 em 2 meses valem R$ 1.000,00 na data zero (1.100 / 1,1 e 1.200 / 1,2). Na data 2, porém, o primeiro vale 1.100 × 1,1 = R$ 1.210,00 e o segundo, R$ 1.200,00.",
+      "atencao": "No simples, o enunciado tem de fixar a data focal.",
+      "grupo": "Equivalência de capitais"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -182,8 +405,18 @@
     "gabarito": "E",
     "explicacao": "Essa propriedade é do regime composto, em que levar ou trazer valores é sempre multiplicar ou dividir pelo mesmo fator (1 + i)^n. No regime simples, a equivalência depende da data focal escolhida, e por isso o enunciado precisa fixá-la."
    },
-   "aprofundamento": "<p><strong>Convenção linear em números.</strong> R$ 1.000,00 a 10% ao mês por 2,5 meses: juros compostos nos 2 meses inteiros (fator 1,21) e juros simples no meio mês (fator 1,05), total de R$ 1.270,50. Na convenção exponencial o montante fica em cerca de R$ 1.269,06, um pouco menor.</p><p><strong>Contínua × discreta.</strong> A capitalização contínua é o limite da composta quando o número de capitalizações por período tende ao infinito. A mesma taxa nominal rende mais quanto mais frequente a capitalização, e o máximo é o da contínua: com 10% ao período, cerca de 10,52%.</p><p><strong>Data focal.</strong> Em juros simples, a data focal tem de ser dada no enunciado; usar a data zero ou a data final leva a valores diferentes. Em juros compostos, qualquer data serve e o resultado da comparação não muda.</p><p><strong>Valor presente e taxa.</strong> O valor presente de um valor futuro cai quando a taxa sobe: R$ 1.210,00 daqui a 2 meses valem R$ 1.000,00 hoje a 10% ao mês e cerca de R$ 1.097,51 a 5% ao mês (1.210 / 1,1025).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No prazo fracionário a juros compostos, a convenção linear dá montante menor que a exponencial.",
+     "certo": "Dá montante maior, porque usa juros simples na fração, e na fração o simples rende mais.",
+     "fonte": "Questão do app sobre convenção linear"
+    },
+    {
+     "errado": "A taxa de 10% ao ano com capitalização contínua equivale à taxa efetiva de 10% ao ano.",
+     "certo": "Equivale a cerca de 10,52% ao ano, porque e^0,1 ≈ 1,1052.",
+     "fonte": "Questão do app sobre capitalização contínua"
+    }
+   ],
    "relacionados": [
     "juros-simples-e-compostos",
     "desconto-simples-e-composto"
@@ -219,10 +452,61 @@
     "duplicata",
     "titulo"
    ],
-   "resumo": "<strong>Desconto</strong> é a diferença entre o <strong>valor nominal</strong> (N, de face, devido no vencimento) e o <strong>valor atual</strong> (A, recebido na antecipação): D = N − A. No <strong>desconto racional simples</strong> (por dentro), a taxa incide sobre o valor atual, como juros simples ao contrário: A = N / (1 + i × n). No <strong>desconto comercial simples</strong> (por fora, ou bancário), a taxa incide sobre o valor nominal: D = N × d × n e A = N × (1 − d × n). Para os mesmos taxa e prazo, o desconto comercial é maior que o racional, e a relação é D comercial = D racional × (1 + i × n). Exemplo: título de R$ 1.000,00 descontado 2 meses antes do vencimento a 5% ao mês. Pelo desconto comercial, D = R$ 100,00 e o valor liberado é R$ 900,00; pelo racional, A = 1.000 / 1,1 ≈ R$ 909,09 e D ≈ R$ 90,91. Como o desconto comercial é calculado sobre um valor maior que o liberado, a <strong>taxa efetiva de juros</strong> da operação supera a taxa de desconto: no exemplo, 100 / 900 ≈ 11,11% no período, contra 10% de taxa de desconto. No regime composto, o <strong>desconto racional composto</strong> usa A = N / (1 + i)^n e coincide com juros compostos; o <strong>desconto comercial composto</strong> usa A = N × (1 − d)^n, e a taxa efetiva por período é d / (1 − d).",
+   "para_entender": [
+    {
+     "texto": "<strong>Juros simples:</strong> o desconto racional é a conta de juros feita ao contrário.",
+     "tema": "juros-simples-e-compostos"
+    },
+    {
+     "texto": "<strong>Valor presente:</strong> quanto vale hoje um valor futuro.",
+     "tema": "regimes-de-capitalizacao"
+    }
+   ],
+   "resumo": "<strong>Descontar</strong> um título, como uma duplicata, é receber hoje um valor que só venceria no futuro, abrindo mão de parte dele. O <strong>valor nominal</strong> (N, ou de face) é o que o título vale no vencimento; o <strong>valor atual</strong> (A) é o que se recebe na antecipação; o <strong>desconto</strong> é a diferença: D = N − A. O que separa as modalidades é a base da taxa. No <strong>desconto racional</strong>, ou <strong>por dentro</strong>, a taxa incide sobre o valor atual, como juros feitos ao contrário. No <strong>desconto comercial</strong>, <strong>por fora</strong> ou bancário, a taxa incide sobre o valor nominal, que é maior. Por isso, com a mesma taxa e o mesmo prazo, o desconto comercial é sempre maior que o racional, e a <strong>taxa efetiva</strong> de juros que o cliente paga, calculada sobre o que ele de fato recebeu, supera a taxa de desconto. As duas modalidades existem no regime simples e no composto, e as fórmulas estão na tabela.",
    "esquema": {
     "rotulo": "as quatro modalidades",
     "html": "<table><thead><tr><th>Modalidade</th><th>Valor atual</th><th>Base da taxa</th></tr></thead><tbody><tr><td><strong>Racional simples (por dentro)</strong></td><td>A = N / (1 + i × n)</td><td>valor atual</td></tr><tr><td><strong>Comercial simples (por fora)</strong></td><td>A = N × (1 − d × n)</td><td>valor nominal</td></tr><tr><td><strong>Racional composto</strong></td><td>A = N / (1 + i)^n</td><td>equivale a juros compostos</td></tr><tr><td><strong>Comercial composto</strong></td><td>A = N × (1 − d)^n</td><td>taxa efetiva por período = d / (1 − d)</td></tr><tr><td><strong>Exemplo: N = 1.000, 5% ao mês, 2 meses</strong></td><td>comercial: A = 900; racional: A ≈ 909,09</td><td>taxa efetiva do comercial ≈ 11,11% no período</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Comercial simples, em números",
+      "o_que_e": "Título de R$ 1.000,00, descontado 2 meses antes a 5% ao mês: D = 1.000 × 0,05 × 2 = R$ 100,00, e o valor liberado é R$ 900,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Racional simples, em números",
+      "o_que_e": "Mesmo título: A = 1.000 / 1,1 ≈ R$ 909,09 e D ≈ R$ 90,91.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Ponte entre os dois",
+      "o_que_e": "No simples, D comercial = D racional × (1 + i × n): 90,91 × 1,1 ≈ 100,00. O comercial é o racional levado ao vencimento.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Taxa efetiva do comercial simples",
+      "o_que_e": "O banco cobra R$ 100,00 e libera R$ 900,00: o custo efetivo do cliente é 100 / 900 ≈ 11,11% no período, contra 10% de taxa de desconto.",
+      "atencao": "Quanto maior o prazo, maior a distância entre as duas taxas.",
+      "grupo": "Taxa efetiva"
+     },
+     {
+      "nome": "Comercial composto, em números",
+      "o_que_e": "Título de R$ 1.000,00, 2 meses antes, a 10% ao mês: A = 1.000 × 0,9² = R$ 810,00. A taxa efetiva é 0,1 / 0,9 ≈ 11,11% ao mês: 810 × (1 / 0,9)² = 1.000.",
+      "grupo": "Taxa efetiva"
+     },
+     {
+      "nome": "Racional composto é juro composto",
+      "o_que_e": "Descontar racionalmente a 10% ao mês um título de R$ 1.210,00 com 2 meses para vencer dá R$ 1.000,00, o mesmo que trazer o valor a valor presente.",
+      "grupo": "Taxa efetiva"
+     },
+     {
+      "nome": "Taxa administrativa",
+      "o_que_e": "Se, além dos R$ 100,00 de desconto comercial, o banco cobra 2% sobre o nominal na data da operação, libera R$ 880,00, e o custo efetivo sobe para 120 / 880 ≈ 13,64% no período.",
+      "grupo": "Taxa efetiva"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -240,8 +524,23 @@
     "gabarito": "E",
     "explicacao": "O fator é (1 + i × n): D comercial = D racional × (1 + i × n). No exemplo de R$ 1.000,00 a 5% ao mês por 2 meses, 90,91 × 1,1 ≈ 100,00. Por isso o comercial é maior que o racional."
    },
-   "aprofundamento": "<p><strong>Taxa efetiva do desconto comercial simples.</strong> O banco cobra R$ 100,00 e libera R$ 900,00; o custo efetivo do cliente no período é 100 / 900 ≈ 11,11%, maior que os 10% de desconto. Quanto maior o prazo, maior a distância entre a taxa de desconto e a taxa efetiva.</p><p><strong>Desconto comercial composto.</strong> A uma taxa de desconto de 10% ao mês, o cliente recebe 90% do valor a cada mês de antecipação; a taxa efetiva de juros é 0,1 / 0,9 ≈ 11,11% ao mês.</p><p><strong>Racional composto é juro composto.</strong> Descontar racionalmente a 10% ao mês um título de R$ 1.210,00 com 2 meses para vencer dá R$ 1.000,00, o mesmo que trazer o valor a valor presente a juros compostos.</p><p><strong>Desconto bancário com taxa administrativa.</strong> Quando o banco cobra também uma taxa sobre o nominal na data da operação, o valor liberado cai e a taxa efetiva sobe ainda mais.</p><p><strong>Por dentro × por fora.</strong> Está errado dizer que o desconto por dentro é calculado sobre o valor nominal: quem usa o nominal como base é o desconto por fora, o comercial.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No desconto racional simples, o desconto por dentro, a taxa incide sobre o valor nominal.",
+     "certo": "Incide sobre o valor atual; quem usa o nominal como base é o comercial, por fora.",
+     "fonte": "Questão do app sobre desconto racional"
+    },
+    {
+     "errado": "Com a mesma taxa e o mesmo prazo, o desconto comercial simples é menor que o racional.",
+     "certo": "É maior, porque a taxa incide sobre o valor nominal, que é maior que o atual.",
+     "fonte": "Questão do app sobre desconto comercial"
+    },
+    {
+     "errado": "No desconto comercial composto a 10% ao mês, a taxa efetiva de juros é de 10% ao mês.",
+     "certo": "É de 0,1 / 0,9 ≈ 11,11% ao mês.",
+     "fonte": "Questão do app sobre desconto composto"
+    }
+   ],
    "relacionados": [
     "regimes-de-capitalizacao",
     "custo-efetivo-das-operacoes"
@@ -277,10 +576,62 @@
     "inflacao",
     "equacao de fisher"
    ],
-   "resumo": "Taxas <strong>proporcionais</strong> pertencem ao regime simples: a taxa anual é a mensal vezes 12, e 1% ao mês corresponde a 12% ao ano. Taxas <strong>equivalentes</strong> pertencem ao regime composto: aplicadas ao mesmo capital pelo mesmo prazo, geram o mesmo montante, e por isso (1 + i anual) = (1 + i mensal)^12. Assim, 1% ao mês equivale a cerca de 12,68% ao ano, e 10% ao semestre equivalem a 21% ao ano. A <strong>taxa nominal</strong> é aquela cuja unidade de tempo difere da unidade do período de capitalização, como 24% ao ano capitalizados mensalmente; ela não é usada diretamente na conta. A <strong>taxa efetiva</strong> é aquela cuja unidade coincide com o período de capitalização. Para converter, tome a taxa proporcional da nominal no período de capitalização (24% ao ano capitalizados mensalmente dão 2% ao mês, que é a efetiva mensal) e depois use a equivalência composta: 1,02^12 ≈ 1,2682, efetiva de cerca de 26,82% ao ano. Com mais de uma capitalização no período, a efetiva é sempre maior que a nominal. A <strong>taxa aparente</strong> é a taxa contratada, que inclui a inflação; a <strong>taxa real</strong> é o ganho acima da inflação. A relação é multiplicativa: (1 + aparente) = (1 + real) × (1 + inflação). Com taxa aparente de 21% e inflação de 10%, a taxa real é 1,21 / 1,10 − 1 = 10%.",
+   "para_entender": [
+    {
+     "texto": "<strong>Regimes de juros:</strong> por que no simples se multiplica a taxa e no composto se eleva o fator.",
+     "tema": "juros-simples-e-compostos"
+    }
+   ],
+   "resumo": "Converter uma taxa para outra unidade de tempo depende do regime. Taxas <strong>proporcionais</strong> são as do regime simples: basta multiplicar ou dividir pelo número de períodos, e 1% ao mês corresponde a 12% ao ano. Taxas <strong>equivalentes</strong> são as do regime composto: aplicadas ao mesmo capital pelo mesmo prazo, geram o mesmo montante, e por isso se convertem por potência, (1 + i anual) = (1 + i mensal)^12. <strong>Período de capitalização</strong> é o intervalo em que os juros se somam ao capital. A <strong>taxa nominal</strong> tem unidade diferente desse período, como 24% ao ano capitalizados mensalmente, e não entra direto na conta. A <strong>taxa efetiva</strong> tem a mesma unidade do período de capitalização. Para usar a nominal, divida-a pelo número de capitalizações (24% ao ano viram 2% ao mês) e só então aplique a equivalência. A <strong>taxa aparente</strong> é a contratada, com a inflação dentro; a <strong>taxa real</strong> é o ganho acima da inflação. A relação entre elas é de fatores, e não de diferença: (1 + aparente) = (1 + real) × (1 + inflação). A tabela traz uma conta de cada.",
    "esquema": {
     "rotulo": "como converter cada taxa",
     "html": "<table><thead><tr><th>Taxa</th><th>Regime ou definição</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Proporcional</strong></td><td>regime simples: multiplica ou divide pelo número de períodos</td><td>1% ao mês = 12% ao ano</td></tr><tr><td><strong>Equivalente</strong></td><td>regime composto: (1 + i anual) = (1 + i mensal)^12</td><td>1% ao mês ≈ 12,68% ao ano; 10% ao semestre = 21% ao ano</td></tr><tr><td><strong>Nominal</strong></td><td>unidade da taxa diferente do período de capitalização</td><td>24% ao ano capitalizados mensalmente</td></tr><tr><td><strong>Efetiva</strong></td><td>unidade da taxa igual ao período de capitalização</td><td>2% ao mês capitalizados mensalmente ≈ 26,82% ao ano</td></tr><tr><td><strong>12% ao ano, capitalização semestral</strong></td><td>6% ao semestre de efetiva</td><td>1,06^2 = 1,1236: efetiva de 12,36% ao ano</td></tr><tr><td><strong>Real</strong></td><td>(1 + aparente) / (1 + inflação) − 1</td><td>21% aparente e 10% de inflação: 10% real</td></tr><tr><td><strong>Real negativa</strong></td><td>inflação maior que a taxa aparente</td><td>5% aparente e 10% de inflação: cerca de −4,55%</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Proporcional não é equivalente",
+      "o_que_e": "1% ao mês e 12% ao ano são proporcionais; no composto, 1% ao mês equivale a 1,01^12 − 1 ≈ 12,68% ao ano.",
+      "grupo": "Proporcional e equivalente"
+     },
+     {
+      "nome": "Do semestre ao ano",
+      "o_que_e": "No composto, 10% ao semestre equivalem a 1,1² − 1 = 21% ao ano, e não a 20%.",
+      "grupo": "Proporcional e equivalente"
+     },
+     {
+      "nome": "Caminho inverso",
+      "o_que_e": "Para a taxa equivalente menor, extraia a raiz: 21% ao ano dão √1,21 − 1 = 10% ao semestre e (1,21)^(1/12) − 1 ≈ 1,60% ao mês.",
+      "grupo": "Proporcional e equivalente"
+     },
+     {
+      "nome": "Nominal mensal em efetiva anual",
+      "o_que_e": "24% ao ano capitalizados mensalmente: 2% ao mês efetivos e 1,02^12 − 1 ≈ 26,82% ao ano efetivos.",
+      "atencao": "Com mais de uma capitalização no período, a efetiva supera a nominal.",
+      "grupo": "Nominal e efetiva"
+     },
+     {
+      "nome": "Nominal semestral em efetiva anual",
+      "o_que_e": "12% ao ano capitalizados semestralmente: 6% ao semestre efetivos e 1,06² − 1 = 12,36% ao ano efetivos.",
+      "grupo": "Nominal e efetiva"
+     },
+     {
+      "nome": "Taxa real, em números",
+      "o_que_e": "Aparente de 21% com inflação de 10%: real = 1,21 / 1,10 − 1 = 10%. Aparente de 15% com inflação de 10%: 1,15 / 1,10 − 1 ≈ 4,55%.",
+      "grupo": "Real e aparente"
+     },
+     {
+      "nome": "Taxa real negativa",
+      "o_que_e": "Inflação maior que a taxa aparente: 5% aparente com 10% de inflação dá 1,05 / 1,10 − 1 ≈ −4,55%. Se as duas forem iguais, a real é zero.",
+      "grupo": "Real e aparente"
+     },
+     {
+      "nome": "Aparente a partir da real",
+      "o_que_e": "Para obter ganho real de 10% num ano em que a inflação seja de 10%, o investidor precisa de taxa aparente de 1,1 × 1,1 − 1 = 21%, e não de 20%.",
+      "grupo": "Real e aparente"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -302,8 +653,28 @@
     "gabarito": "E",
     "explicacao": "A taxa real sai da divisão dos fatores: 1,15 / 1,10 ≈ 1,0455, ou cerca de 4,55%. A subtração 15% − 10% = 5% ignora que a inflação também incide sobre o ganho."
    },
-   "aprofundamento": "<p><strong>Proporcional não é equivalente.</strong> As taxas de 1% ao mês e de 12% ao ano são proporcionais e só equivalentes no regime simples. No regime composto, 1% ao mês equivale a 1,01^12 − 1 ≈ 12,68% ao ano.</p><p><strong>Nominal e efetiva.</strong> A taxa de 24% ao ano capitalizados mensalmente não corresponde a 24% ao ano efetivos: a efetiva mensal é 2% e a efetiva anual é cerca de 26,82%. A taxa de 12% ao ano capitalizados semestralmente corresponde a 12,36% ao ano efetivos.</p><p><strong>Caminho inverso.</strong> Para achar a taxa mensal equivalente a 21% ao ano no regime composto, extraia a raiz: (1,21)^(1/12) − 1. Para o semestre, a raiz quadrada de 1,21 é 1,1, ou seja, 10% ao semestre.</p><p><strong>Taxa real negativa.</strong> Quando a inflação supera a taxa aparente, a taxa real é negativa: aparente de 5% com inflação de 10% dá 1,05 / 1,10 − 1 ≈ −4,55%. Quando as duas são iguais, a taxa real é zero.</p><p><strong>Aparente a partir da real.</strong> Quem quer ganho real de 10% num ano de inflação de 10% precisa de taxa aparente de 1,1 × 1,1 − 1 = 21%, e não de 20%.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No regime composto, as taxas de 1% ao mês e de 12% ao ano são equivalentes.",
+     "certo": "São proporcionais; no composto, 1% ao mês equivale a cerca de 12,68% ao ano.",
+     "fonte": "Questão do app sobre taxas equivalentes"
+    },
+    {
+     "errado": "A taxa nominal de 24% ao ano com capitalização mensal corresponde à efetiva de 24% ao ano.",
+     "certo": "Corresponde a cerca de 26,82% ao ano, porque 1,02^12 ≈ 1,2682.",
+     "fonte": "Questão do app sobre taxa nominal e efetiva"
+    },
+    {
+     "errado": "Taxa efetiva é aquela cuja unidade de tempo difere da do período de capitalização.",
+     "certo": "Essa é a nominal; na efetiva, as duas unidades coincidem.",
+     "fonte": "Questão do app sobre taxa nominal e efetiva"
+    },
+    {
+     "errado": "Para ganho real de 10% num ano de inflação de 10%, basta taxa aparente de 20%.",
+     "certo": "É preciso 1,1 × 1,1 − 1 = 21%.",
+     "fonte": "Questão do app sobre taxa real e aparente"
+    }
+   ],
    "relacionados": [
     "juros-simples-e-compostos",
     "custo-efetivo-das-operacoes"
@@ -343,10 +714,68 @@
     "modelo de gordon",
     "renda variavel"
    ],
-   "resumo": "<strong>Renda</strong> (série de pagamentos) é uma sequência de valores, os termos, pagos ou recebidos em datas determinadas. Quanto ao prazo, a renda é <strong>temporária</strong> ou <strong>perpétua</strong>; quanto ao valor, <strong>uniforme</strong> (termos iguais) ou <strong>variável</strong>; quanto ao vencimento do primeiro termo, <strong>postecipada</strong> (fim do primeiro período, sem entrada), <strong>antecipada</strong> (início do período, com entrada) ou <strong>diferida</strong> (com carência antes do primeiro termo). Na renda uniforme postecipada, PV = PMT × a(n, i), com a(n, i) = [1 − (1 + i)^−n] / i, e FV = PMT × s(n, i), com s(n, i) = [(1 + i)^n − 1] / i. Na renda antecipada, cada termo vem um período antes, e o valor presente é o da postecipada multiplicado por (1 + i). Na diferida, desconta-se o valor da série pelo prazo de carência. A <strong>perpetuidade</strong> uniforme tem PV = PMT / i: R$ 1.000,00 por mês para sempre, a 1% ao mês, valem R$ 100.000,00. A perpetuidade com crescimento g por período (gradiente geométrico) vale PV = PMT / (i − g), com i maior que g. Nas <strong>rendas variáveis</strong> com poucos termos, o caminho seguro é trazer cada termo a valor presente: dois pagamentos postecipados de R$ 1.210,00, a 10% ao mês, valem 1.100 + 1.000 = R$ 2.100,00 hoje.",
+   "para_entender": [
+    {
+     "texto": "<strong>Valor presente:</strong> trazer um valor futuro para hoje, dividindo por (1 + i)^n.",
+     "tema": "regimes-de-capitalizacao"
+    }
+   ],
+   "resumo": "<strong>Renda</strong>, ou <strong>série de pagamentos</strong>, é uma sequência de valores, os <strong>termos</strong>, pagos ou recebidos em datas certas, como as parcelas de uma compra a prazo. Ela se classifica de três modos. Quanto ao prazo, é <strong>temporária</strong> ou <strong>perpétua</strong> (sem fim). Quanto ao valor, é <strong>uniforme</strong> (termos iguais) ou <strong>variável</strong>. Quanto ao primeiro termo, é <strong>postecipada</strong> (no fim do primeiro período, sem entrada), <strong>antecipada</strong> (na data zero, com entrada) ou <strong>diferida</strong> (depois de uma <strong>carência</strong>, um prazo sem pagamento). O <strong>valor presente</strong> da renda é o total dos termos trazidos à data zero. Na uniforme postecipada, ele é o termo (PMT) vezes o <strong>fator de valor atual</strong> a(n, i) = [1 − (1 + i)^−n] / i. O <strong>valor futuro</strong> usa o <strong>fator de acumulação</strong> s(n, i) = [(1 + i)^n − 1] / i. Na antecipada, cada termo vem um período antes e vale mais: multiplica-se por (1 + i). Na diferida, desconta-se pela carência. Com poucos termos, o caminho seguro é descontar termo a termo. A tabela traz a fórmula de cada tipo.",
    "esquema": {
     "rotulo": "tipos de renda e fórmulas",
     "html": "<table><thead><tr><th>Renda</th><th>Primeiro termo</th><th>Valor presente</th></tr></thead><tbody><tr><td><strong>Postecipada</strong></td><td>fim do 1º período</td><td>PV = PMT × [1 − (1 + i)^−n] / i</td></tr><tr><td><strong>Antecipada</strong></td><td>data zero (entrada)</td><td>PV = PMT × a(n, i) × (1 + i)</td></tr><tr><td><strong>Diferida (carência de k períodos)</strong></td><td>fim do período k + 1</td><td>PV = PMT × a(n, i) / (1 + i)^k</td></tr><tr><td><strong>Perpetuidade uniforme</strong></td><td>fim do 1º período</td><td>PV = PMT / i</td></tr><tr><td><strong>Perpetuidade crescente</strong></td><td>fim do 1º período, crescendo g</td><td>PV = PMT / (i − g), com i maior que g</td></tr><tr><td><strong>Gradiente aritmético</strong></td><td>termos crescem um valor fixo em reais</td><td>poucos termos: some os valores presentes</td></tr><tr><td><strong>Gradiente geométrico</strong></td><td>termos crescem uma taxa fixa</td><td>1.100, 1.210 e 1.331 a 10%: PV = 3.000</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Postecipada, em números",
+      "o_que_e": "Dois termos mensais de R$ 1.210,00, o primeiro daqui a um mês, a 10% ao mês: 1.210 / 1,1 + 1.210 / 1,21 = 1.100 + 1.000 = R$ 2.100,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Antecipada, em números",
+      "o_que_e": "Os mesmos dois termos, o primeiro hoje: 1.210 + 1.100 = R$ 2.310,00, que é 2.100 × 1,1.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Diferida, em números",
+      "o_que_e": "Os mesmos dois termos com um mês de carência, o primeiro no fim do mês 2: 2.100 / 1,1 ≈ R$ 1.909,09.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Valor futuro",
+      "o_que_e": "Dois depósitos mensais de R$ 1.000,00 a 10% ao mês somam, na data do último, 1.000 × 1,1 + 1.000 = R$ 2.100,00, pois s(2; 10%) = 2,1.",
+      "atencao": "Na postecipada, o montante é medido na data do último termo; na antecipada, um período depois.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Fator menor que n",
+      "o_que_e": "Com taxa positiva, a(n, i) é sempre menor que n, porque cada termo é descontado: a(2; 10%) ≈ 1,7355. O fator de acumulação s(n, i) é sempre maior que n.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Perpetuidade uniforme",
+      "o_que_e": "Sem prazo final, a(n, i) tende a 1 / i: R$ 1.000,00 por mês para sempre, a 1% ao mês, valem 1.000 / 0,01 = R$ 100.000,00.",
+      "grupo": "Perpetuidade"
+     },
+     {
+      "nome": "Perpetuidade crescente",
+      "o_que_e": "R$ 1.000,00 no fim do primeiro ano, crescendo 5% ao ano para sempre, a 10% ao ano: 1.000 / (0,10 − 0,05) = R$ 20.000,00. Sem crescimento, R$ 10.000,00.",
+      "atencao": "Se g for igual ou maior que i, a fórmula não se aplica.",
+      "grupo": "Perpetuidade"
+     },
+     {
+      "nome": "Gradiente aritmético",
+      "o_que_e": "Termos que crescem um valor fixo em reais. R$ 100,00, R$ 200,00 e R$ 300,00 nos anos 1, 2 e 3, a 10% ao ano: 90,91 + 165,29 + 225,39 ≈ R$ 481,59.",
+      "grupo": "Rendas variáveis"
+     },
+     {
+      "nome": "Gradiente geométrico com g igual a i",
+      "o_que_e": "R$ 1.100,00, R$ 1.210,00 e R$ 1.331,00 nos anos 1, 2 e 3, a 10% ao ano: cada termo vale R$ 1.000,00 hoje, e a série vale R$ 3.000,00.",
+      "grupo": "Rendas variáveis"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -368,8 +797,23 @@
     "gabarito": "E",
     "explicacao": "Na renda antecipada cada termo vence um período antes, e por isso vale mais hoje: o valor presente é o da postecipada multiplicado por (1 + i). Exemplo: dois termos de R$ 1.210,00 a 10% valem R$ 2.100,00 postecipados e R$ 2.310,00 antecipados (1.210 + 1.100)."
    },
-   "aprofundamento": "<p><strong>Diferida não é variável.</strong> Renda diferida é a que tem carência antes do primeiro termo; ela pode ser uniforme. A renda cujos termos crescem um valor fixo em reais é a variável em gradiente aritmético, e a que cresce uma taxa fixa é a de gradiente geométrico.</p><p><strong>Fator menor que n.</strong> Para taxa positiva, o fator de valor atual a(n, i) é sempre menor que o número de termos n, porque cada termo é descontado. Já o fator de acumulação s(n, i) é sempre maior que n.</p><p><strong>Perpetuidade crescente.</strong> Um fluxo de R$ 1.000,00 no fim do primeiro ano, crescendo 5% ao ano para sempre, vale 1.000 / (0,10 − 0,05) = R$ 20.000,00 a 10% ao ano. Sem o crescimento valeria R$ 10.000,00. Se g fosse igual ou maior que i, a fórmula não se aplicaria.</p><p><strong>Gradiente geométrico com g igual a i.</strong> Termos de R$ 1.100,00, R$ 1.210,00 e R$ 1.331,00 nos anos 1, 2 e 3, a 10% ao ano, valem cada um R$ 1.000,00 hoje; o valor presente da série é R$ 3.000,00.</p><p><strong>Valor futuro.</strong> O montante de uma série postecipada é medido na data do último termo; o de uma antecipada, um período depois do último termo.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Renda diferida é a série cujos termos crescem um valor constante em reais.",
+     "certo": "Diferida é a que tem carência antes do primeiro termo; a que cresce valor fixo é a de gradiente aritmético.",
+     "fonte": "Questão do app sobre classificação das rendas"
+    },
+    {
+     "errado": "A 10% ao ano, a perpetuidade de R$ 1.000,00 no fim do ano 1, crescendo 5% ao ano, vale R$ 10.000,00.",
+     "certo": "Vale 1.000 / (0,10 − 0,05) = R$ 20.000,00.",
+     "fonte": "Questão do app sobre perpetuidades"
+    },
+    {
+     "errado": "Com taxa positiva, o fator de valor atual a(n, i) é maior que o número de termos.",
+     "certo": "É menor, porque cada termo é descontado.",
+     "fonte": "Questão do app sobre rendas uniformes"
+    }
+   ],
    "relacionados": [
     "sistema-frances-tabela-price",
     "avaliacao-economica-de-projetos"
@@ -402,10 +846,62 @@
     "planilha de amortizacao",
     "taxa nominal"
    ],
-   "resumo": "No <strong>sistema francês</strong>, o empréstimo é pago em prestações <strong>iguais e periódicas</strong>, em regra postecipadas, calculadas como uma renda uniforme: PMT = PV / a(n, i). Em cada período, os <strong>juros</strong> são a taxa vezes o saldo devedor do início do período, e a <strong>amortização</strong> é a prestação menos os juros. Como o saldo devedor cai, os juros caem e a amortização cresce. As amortizações crescem em progressão geométrica de razão (1 + i): A(k) = A(1) × (1 + i)^(k − 1). Exemplo: empréstimo de R$ 2.100,00 a 10% ao mês em 2 prestações mensais. A prestação é R$ 1.210,00, porque 1.210 / 1,1 + 1.210 / 1,21 = 2.100. No mês 1, os juros são R$ 210,00, a amortização é R$ 1.000,00 e o saldo devedor cai para R$ 1.100,00. No mês 2, os juros são R$ 110,00 e a amortização é R$ 1.100,00, que zera o saldo. O saldo devedor em qualquer data é o valor presente das prestações que faltam, na taxa do contrato. A <strong>Tabela Price</strong> é o sistema francês em que a taxa é dada como nominal, geralmente anual, e as prestações têm período menor, geralmente mensal: usa-se a taxa proporcional ao período da prestação, e por isso a taxa efetiva anual fica maior que a anunciada. Para os mesmos valor, taxa e prazo, o sistema francês paga mais juros no total que o SAC, porque amortiza mais devagar no começo.",
+   "para_entender": [
+    {
+     "texto": "<strong>Renda uniforme:</strong> a prestação do sistema francês é o PMT de uma série postecipada.",
+     "tema": "rendas-uniformes-e-variaveis"
+    },
+    {
+     "texto": "<strong>Taxa nominal:</strong> por que a Tabela Price usa a proporcional.",
+     "tema": "taxas-nominal-efetiva-equivalente-real-e-aparente"
+    }
+   ],
+   "resumo": "<strong>Amortizar</strong> é devolver o principal de uma dívida. Cada <strong>prestação</strong> tem duas partes: os <strong>juros</strong>, que são a taxa vezes o <strong>saldo devedor</strong> (o que ainda se deve) no início do período, e a <strong>amortização</strong>, o resto, que abate o saldo. No <strong>sistema francês</strong>, as prestações são <strong>iguais e periódicas</strong>, em regra postecipadas, calculadas como uma renda uniforme: PMT = PV / a(n, i). Como o saldo devedor cai a cada pagamento, os juros caem e a amortização cresce na mesma medida. As amortizações crescem em progressão geométrica de razão (1 + i). O saldo devedor em qualquer data é o valor presente das prestações que faltam, à taxa do contrato. A <strong>Tabela Price</strong> é o sistema francês com a taxa anunciada como nominal, em geral anual, e prestações mensais: usa-se a taxa proporcional ao mês, e a efetiva anual fica maior que a anunciada. A planilha de um empréstimo de dois meses está na tabela.",
    "esquema": {
     "rotulo": "planilha do exemplo: R$ 2.100,00, 10% ao mês, 2 prestações",
     "html": "<table><thead><tr><th>Mês</th><th>Prestação</th><th>Juros</th><th>Amortização</th><th>Saldo devedor</th></tr></thead><tbody><tr><td>0</td><td></td><td></td><td></td><td>2.100,00</td></tr><tr><td>1</td><td>1.210,00</td><td>210,00</td><td>1.000,00</td><td>1.100,00</td></tr><tr><td>2</td><td>1.210,00</td><td>110,00</td><td>1.100,00</td><td>0,00</td></tr><tr><td><strong>Comportamento</strong></td><td>constante</td><td>decrescente</td><td>crescente, razão (1 + i)</td><td>decrescente, mais devagar no início</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Prestação, em números",
+      "o_que_e": "Empréstimo de R$ 2.100,00 a 10% ao mês, pago em 2 prestações mensais, a primeira um mês após a contratação: PMT = R$ 1.210,00, porque 1.210 / 1,1 + 1.210 / 1,21 = 2.100.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Juros que caem",
+      "o_que_e": "Juros do mês 1: 10% de 2.100 = R$ 210,00. Do mês 2: 10% de 1.100 = R$ 110,00. A prestação fica fixa, e os juros caem.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Razão das amortizações",
+      "o_que_e": "Conhecida a primeira, as outras saem por multiplicação: com A(1) = R$ 1.000,00 e taxa de 10%, A(2) = R$ 1.100,00 e A(3) = R$ 1.210,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Saldo sem a planilha",
+      "o_que_e": "Imediatamente após o pagamento de uma prestação, o saldo devedor é o valor presente das prestações ainda não pagas. No exemplo, depois da primeira falta uma de R$ 1.210,00: 1.210 / 1,1 = R$ 1.100,00.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Totais da planilha",
+      "o_que_e": "A soma das amortizações é o valor financiado (1.000 + 1.100 = 2.100); a soma das prestações é o financiado mais os juros (2.420 = 2.100 + 320).",
+      "atencao": "Vale para qualquer sistema de amortização.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Tabela Price e taxa nominal",
+      "o_que_e": "12% ao ano viram 1% ao mês pela proporcional, e a efetiva anual é 1,01^12 − 1 ≈ 12,68%.",
+      "atencao": "A taxa anunciada não é efetiva, e a mensal não sai por equivalência composta.",
+      "grupo": "Tabela Price"
+     },
+     {
+      "nome": "Price x SAC",
+      "o_que_e": "Com os mesmos valor, taxa e prazo, o sistema francês amortiza mais devagar no começo, e por isso o total de juros pagos é maior que no SAC.",
+      "grupo": "Tabela Price"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -423,8 +919,23 @@
     "gabarito": "E",
     "explicacao": "Essa é a descrição do SAC. No sistema francês, as prestações são constantes; os juros diminuem e as amortizações aumentam em progressão geométrica de razão (1 + i), como no exemplo, em que a amortização passa de R$ 1.000,00 para R$ 1.100,00."
    },
-   "aprofundamento": "<p><strong>Tabela Price e taxa nominal.</strong> Na Tabela Price, a taxa anunciada é nominal: 12% ao ano viram 1% ao mês pela proporcional, e a taxa efetiva anual é 1,01^12 − 1 ≈ 12,68%. Está errado dizer que a taxa anual anunciada é efetiva e que a mensal sai por equivalência composta.</p><p><strong>Razão das amortizações.</strong> Conhecida a primeira amortização, as seguintes saem por multiplicação: com A(1) = R$ 1.000,00 e taxa de 10%, A(2) = R$ 1.100,00 e A(3) = R$ 1.210,00.</p><p><strong>Juros do período.</strong> Os juros caem de período para período, mesmo com a prestação fixa: no exemplo, R$ 210,00 no primeiro mês e R$ 110,00 no segundo.</p><p><strong>Price × SAC.</strong> Para os mesmos valor, taxa e prazo, a primeira prestação do SAC é maior que a do sistema francês e a última é menor; o total de juros pagos é maior no sistema francês.</p><p><strong>Soma das amortizações.</strong> Em qualquer sistema, a soma das amortizações é igual ao valor financiado; a soma das prestações é o valor financiado mais o total de juros.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No empréstimo de R$ 2.100,00 a 10% ao mês em 2 prestações de R$ 1.210,00, os juros da segunda prestação são R$ 210,00.",
+     "certo": "São R$ 110,00, 10% do saldo de R$ 1.100,00; R$ 210,00 são os da primeira.",
+     "fonte": "Questão do app sobre sistema francês"
+    },
+    {
+     "errado": "Na Tabela Price, a taxa anual anunciada é efetiva, e a mensal sai por equivalência composta.",
+     "certo": "A anunciada é nominal; a mensal é a proporcional, e a efetiva anual fica maior.",
+     "fonte": "Questão do app sobre Tabela Price"
+    },
+    {
+     "errado": "Com os mesmos dados, o total de juros do sistema francês é menor que o do SAC.",
+     "certo": "É maior, porque o francês amortiza mais devagar no início.",
+     "fonte": "Questão do app sobre sistemas de amortização"
+    }
+   ],
    "relacionados": [
     "rendas-uniformes-e-variaveis",
     "sac-e-sam"
@@ -458,10 +969,67 @@
     "media aritmetica",
     "saldo devedor linear"
    ],
-   "resumo": "No <strong>sistema de amortização constante</strong> (SAC), a amortização é a mesma em todos os períodos: A = PV / n. Os juros incidem sobre o saldo devedor, que cai em linha reta; por isso juros e prestações <strong>decrescem em progressão aritmética</strong> de razão A × i. Exemplo: R$ 12.000,00 em 12 prestações mensais a 1% ao mês. A amortização é R$ 1.000,00; a primeira prestação é 1.000 + 120 = R$ 1.120,00; a segunda é 1.000 + 110 = R$ 1.110,00; cada prestação é R$ 10,00 menor que a anterior, e a última é 1.000 + 10 = R$ 1.010,00. Depois de 6 pagamentos, o saldo devedor é R$ 6.000,00. O total de juros é a soma da progressão: (120 + 10) / 2 × 12 = R$ 780,00. Comparado ao sistema francês com os mesmos dados, o SAC começa com prestação maior, termina com prestação menor e paga menos juros no total. No <strong>sistema de amortização misto</strong> (SAM), cada prestação é a <strong>média aritmética</strong> das prestações do sistema francês e do SAC no mesmo período, para os mesmos valor, taxa e prazo. A amortização, os juros e o saldo devedor do SAM também são as médias dos dois sistemas. Exemplo: R$ 2.100,00 a 10% ao mês em 2 meses. O sistema francês tem prestações de R$ 1.210,00; o SAC, de R$ 1.260,00 e R$ 1.155,00. O SAM tem prestações de R$ 1.235,00 e R$ 1.182,50, decrescentes.",
+   "para_entender": [
+    {
+     "texto": "<strong>Sistema francês:</strong> prestação, juros e amortização na planilha.",
+     "tema": "sistema-frances-tabela-price"
+    }
+   ],
+   "resumo": "No <strong>sistema de amortização constante</strong> (SAC), a dívida é devolvida em partes iguais: a amortização de cada período é A = PV / n. Os juros incidem sobre o saldo devedor, que cai sempre o mesmo valor, em linha reta. Por isso os juros e as prestações caem em <strong>progressão aritmética</strong>, isto é, diminuem um valor fixo por período, de razão A × i. Comparado ao sistema francês com os mesmos dados, o SAC começa com prestação maior, termina com prestação menor e paga menos juros no total. No <strong>sistema de amortização misto</strong> (SAM), cada prestação é a <strong>média aritmética</strong>, a soma dividida por dois, das prestações do sistema francês e do SAC no mesmo período, para os mesmos valor, taxa e prazo. A amortização, os juros e o saldo devedor do SAM também são as médias dos dois sistemas, e as prestações caem, mas mais devagar que no SAC. A tabela compara os três sistemas com o mesmo empréstimo.",
    "esquema": {
     "rotulo": "SAC, sistema francês e SAM com os mesmos dados (R$ 2.100,00, 10% ao mês, 2 meses)",
     "html": "<table><thead><tr><th>Ponto</th><th>SAC</th><th>Francês (Price)</th><th>SAM</th></tr></thead><tbody><tr><td><strong>Amortização</strong></td><td>constante: 1.050,00 e 1.050,00</td><td>crescente: 1.000,00 e 1.100,00</td><td>média: 1.025,00 e 1.075,00</td></tr><tr><td><strong>Juros</strong></td><td>210,00 e 105,00</td><td>210,00 e 110,00</td><td>210,00 e 107,50</td></tr><tr><td><strong>Prestação</strong></td><td>decrescente em PA: 1.260,00 e 1.155,00</td><td>constante: 1.210,00</td><td>média, decrescente: 1.235,00 e 1.182,50</td></tr><tr><td><strong>Saldo após o 1º pagamento</strong></td><td>1.050,00</td><td>1.100,00</td><td>1.075,00</td></tr><tr><td><strong>Total de juros</strong></td><td>o menor</td><td>o maior</td><td>intermediário</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "SAC, em números",
+      "o_que_e": "R$ 12.000,00 em 12 prestações mensais a 1% ao mês: amortização de 12.000 / 12 = R$ 1.000,00; primeira prestação de 1.000 + 120 = R$ 1.120,00; segunda de 1.000 + 110 = R$ 1.110,00.",
+      "grupo": "SAC"
+     },
+     {
+      "nome": "Razão da queda",
+      "o_que_e": "Cada prestação é A × i = 1.000 × 0,01 = R$ 10,00 menor que a anterior; a última é 1.000 + 10 = R$ 1.010,00.",
+      "grupo": "SAC"
+     },
+     {
+      "nome": "Fórmula da prestação",
+      "o_que_e": "P(k) = A × [1 + (n − k + 1) × i]. No exemplo: P(1) = 1.000 × 1,12 = R$ 1.120,00 e P(12) = 1.000 × 1,01 = R$ 1.010,00.",
+      "grupo": "SAC"
+     },
+     {
+      "nome": "Saldo devedor",
+      "o_que_e": "Cai R$ 1.000,00 por mês: depois de 6 pagamentos, 12.000 − 6.000 = R$ 6.000,00.",
+      "grupo": "SAC"
+     },
+     {
+      "nome": "Total de juros",
+      "o_que_e": "Os juros formam uma progressão aritmética de 120 até 10; a soma é (120 + 10) / 2 × 12 = R$ 780,00.",
+      "atencao": "Multiplicar os juros do primeiro mês pelo prazo (120 × 12 = R$ 1.440,00) ignora que o saldo cai.",
+      "grupo": "SAC"
+     },
+     {
+      "nome": "SAC com o empréstimo curto",
+      "o_que_e": "R$ 2.100,00 a 10% ao mês em 2 meses: amortização de R$ 1.050,00; juros de R$ 210,00 e R$ 105,00; prestações de R$ 1.260,00 e R$ 1.155,00.",
+      "grupo": "SAM"
+     },
+     {
+      "nome": "SAM, em números",
+      "o_que_e": "Mesmo empréstimo: prestações de (1.210 + 1.260) / 2 = R$ 1.235,00 e (1.210 + 1.155) / 2 = R$ 1.182,50; amortizações de R$ 1.025,00 e R$ 1.075,00.",
+      "grupo": "SAM"
+     },
+     {
+      "nome": "SAM cai devagar",
+      "o_que_e": "Média de uma prestação constante e de uma decrescente, a prestação do SAM cai na metade do ritmo do SAC: R$ 52,50 no exemplo, contra R$ 105,00.",
+      "grupo": "SAM"
+     },
+     {
+      "nome": "Primeira prestação",
+      "o_que_e": "Com os mesmos dados, a primeira prestação do SAC é a maior, a do francês a menor, e a do SAM fica entre as duas.",
+      "grupo": "Comparação"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -479,8 +1047,33 @@
     "gabarito": "E",
     "explicacao": "O saldo devedor do SAC cai sempre o mesmo valor (a amortização constante), e por isso os juros e as prestações caem em progressão aritmética de razão A × i. No exemplo de R$ 12.000,00 a 1% ao mês, a prestação cai R$ 10,00 por mês."
    },
-   "aprofundamento": "<p><strong>Exceções e detalhes cobrados</strong></p><ul><li><em>Fórmula da prestação do SAC.</em> A prestação do período k é P(k) = A × [1 + (n − k + 1) × i]. No exemplo de R$ 12.000,00, 12 meses e 1%: P(1) = 1.000 × 1,12 = R$ 1.120,00 e P(12) = 1.000 × 1,01 = R$ 1.010,00.</li><li><em>O SAM cai, mas devagar.</em> Média de uma prestação constante e de uma decrescente, a prestação do SAM cai pela metade do ritmo do SAC: no exemplo de R$ 2.100,00, a queda é de R$ 52,50, contra R$ 105,00 no SAC.</li></ul><p><strong>Pegadinhas que já caíram</strong></p><ul><li>Errado: o total de juros do SAC é o juro do primeiro mês vezes o número de meses (R$ 120 × 12 = R$ 1.440,00). Certo: o saldo cai, os juros formam uma PA de 120 até 10, e a soma é R$ 780,00.</li></ul>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No SAC de R$ 12.000,00 em 12 meses a 1% ao mês, o total de juros é R$ 1.440,00.",
+     "certo": "É R$ 780,00: os juros caem de 120 a 10, em progressão aritmética.",
+     "fonte": "Questão do app sobre SAC"
+    },
+    {
+     "errado": "Com os mesmos dados, a primeira prestação do SAC é menor que a do sistema francês.",
+     "certo": "É maior; o SAC começa mais caro e termina mais barato.",
+     "fonte": "Questão do app sobre SAC"
+    },
+    {
+     "errado": "No SAM, cada prestação é a média geométrica das prestações do francês e do SAC.",
+     "certo": "É a média aritmética.",
+     "fonte": "Questão do app sobre SAM"
+    },
+    {
+     "errado": "No SAM, as prestações são constantes, como no sistema francês.",
+     "certo": "São decrescentes, porque são a média de uma prestação constante e de uma decrescente.",
+     "fonte": "Questão do app sobre SAM"
+    },
+    {
+     "errado": "No SAM, a amortização de cada período é igual à do SAC, e só os juros são a média.",
+     "certo": "Amortização, juros, prestação e saldo são todos médias dos dois sistemas.",
+     "fonte": "Questão do app sobre SAM"
+    }
+   ],
    "relacionados": [
     "sistema-frances-tabela-price",
     "custo-efetivo-das-operacoes"
@@ -517,10 +1110,56 @@
     "rentabilidade liquida",
     "imposto de renda"
    ],
-   "resumo": "O <strong>custo efetivo</strong> de um empréstimo ou financiamento é a taxa que iguala o valor que o tomador <strong>efetivamente recebe</strong> ao valor presente de tudo o que ele paga. Em outras palavras, é a taxa interna de retorno do fluxo de caixa do tomador. Tarifas cobradas na liberação, tributos, seguros, juros cobrados antecipadamente e exigência de saldo médio reduzem o valor líquido recebido ou aumentam os pagamentos, e por isso elevam o custo efetivo acima da taxa contratada. Exemplo: empréstimo de R$ 10.000,00 a 10% ao mês, com pagamento único de R$ 11.000,00 em um mês e tarifa de R$ 1.200,00 descontada na liberação. O tomador recebe R$ 8.800,00 e paga R$ 11.000,00; o custo efetivo é 11.000 / 8.800 − 1 = 25% ao mês, e não 10% nem 22%. Com <strong>juros antecipados</strong> de 10% (o banco desconta os juros na liberação), o tomador recebe 90 para pagar 100, e o custo efetivo é 100 / 90 − 1 ≈ 11,11% no período. No crédito bancário, o <strong>Custo Efetivo Total</strong> (CET) informa ao cliente, em forma de taxa, o custo da operação com juros, tarifas, tributos e seguros. O <strong>custo real</strong> desconta a inflação do custo efetivo pela relação multiplicativa: custo efetivo de 21% num período de inflação de 10% corresponde a custo real de 1,21 / 1,10 − 1 = 10%. No <strong>investimento</strong>, a lógica é a mesma do lado do aplicador: a rentabilidade efetiva considera o valor líquido de impostos e custos, e a rentabilidade real desconta a inflação.",
+   "para_entender": [
+    {
+     "texto": "<strong>TIR:</strong> a taxa que zera o valor presente de um fluxo de caixa.",
+     "tema": "taxa-interna-de-retorno"
+    },
+    {
+     "texto": "<strong>Taxa real:</strong> como se tira a inflação de uma taxa.",
+     "tema": "taxas-nominal-efetiva-equivalente-real-e-aparente"
+    }
+   ],
+   "resumo": "O <strong>custo efetivo</strong> de um empréstimo é a taxa que de fato pesa no bolso do tomador. Ele é a taxa que iguala o valor <strong>efetivamente recebido</strong> ao valor presente de tudo o que se paga, ou seja, a taxa interna de retorno do fluxo de caixa do tomador. Tudo o que o banco retém na largada ou acrescenta às parcelas eleva o custo efetivo acima da taxa contratada: tarifas cobradas na liberação, tributos como o IOF, seguros, <strong>juros antecipados</strong> (descontados na liberação) e exigência de <strong>saldo médio</strong> (dinheiro que precisa ficar parado na conta). No crédito bancário, o <strong>Custo Efetivo Total</strong> (CET) informa ao cliente, em forma de taxa, o custo da operação com juros, tarifas, tributos e seguros. O <strong>custo real</strong> tira a inflação do custo efetivo pela divisão dos fatores. No <strong>investimento</strong>, a lógica é a mesma do lado do aplicador: a rentabilidade efetiva usa o valor líquido de impostos e custos, e a real desconta a inflação. A tabela mostra o efeito de cada elemento.",
    "esquema": {
     "rotulo": "o que muda o custo efetivo",
     "html": "<table><thead><tr><th>Elemento</th><th>Efeito</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Tarifa na liberação</strong></td><td>reduz o valor recebido e eleva o custo</td><td>recebe 8.800, paga 11.000: 25% no mês</td></tr><tr><td><strong>Juros antecipados</strong></td><td>o tomador recebe menos que o principal</td><td>10% antecipados: 100 / 90 − 1 ≈ 11,11%</td></tr><tr><td><strong>Saldo médio exigido</strong></td><td>parte do dinheiro fica parada no banco</td><td>reduz o valor disponível e eleva o custo</td></tr><tr><td><strong>Tributos e seguros financiados</strong></td><td>aumentam os pagamentos</td><td>entram no CET</td></tr><tr><td><strong>Inflação</strong></td><td>converte custo efetivo em custo real</td><td>21% efetivo e 10% de inflação: 10% real</td></tr><tr><td><strong>Imposto sobre o rendimento (investimento)</strong></td><td>reduz a rentabilidade efetiva</td><td>rende 10% bruto, imposto de 20% do ganho: 8% líquido</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Tarifa na liberação",
+      "o_que_e": "Empréstimo de R$ 10.000,00 a 10% ao mês, pagamento único de R$ 11.000,00 em um mês e tarifa de R$ 1.200,00 descontada na liberação: o tomador recebe R$ 8.800,00, e o custo efetivo é 11.000 / 8.800 − 1 = 25% ao mês.",
+      "atencao": "Não é 10% nem 22%: a tarifa reduz a base, e não se adiciona à taxa.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Juros antecipados",
+      "o_que_e": "Com 10% de juros descontados na liberação, o tomador recebe 90 para devolver 100: custo efetivo de 100 / 90 − 1 ≈ 11,11% no período.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Saldo médio",
+      "o_que_e": "Se R$ 1.000,00 dos R$ 10.000,00 precisam ficar parados até o vencimento, o tomador dispõe de R$ 9.000,00 e, ao fim, desembolsa líquidos R$ 10.000,00 (paga 11.000 e recupera 1.000): custo efetivo ≈ 11,11% ao mês.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Custo real",
+      "o_que_e": "Custo efetivo de 21% num ano de inflação de 10%: 1,21 / 1,10 − 1 = 10% de custo real, e não 11%.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Investimento com imposto e inflação",
+      "o_que_e": "R$ 10.000,00 rendem R$ 1.000,00 brutos em um ano, com imposto de 20% sobre o rendimento: ganho líquido de R$ 800,00, ou 8%. Se a inflação do ano tiver sido de 8%, nesse caso a rentabilidade real líquida é nula (1,08 / 1,08 − 1 = 0).",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Várias prestações",
+      "o_que_e": "Com mais de um pagamento, o custo efetivo é a TIR do fluxo do tomador (entrada do valor líquido na data zero, saídas nas datas das prestações), achada por tentativa ou por tabela financeira.",
+      "grupo": "Método"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -538,8 +1177,23 @@
     "gabarito": "E",
     "explicacao": "O custo efetivo é calculado sobre o valor líquido recebido: o tomador recebe R$ 8.800,00 e paga R$ 11.000,00, e 11.000 / 8.800 − 1 = 25% ao mês. Somar os 10% de juros aos 12% da tarifa sobre o nominal ignora que a tarifa reduz a base."
    },
-   "aprofundamento": "<p><strong>Custo efetivo é taxa interna de retorno.</strong> O custo efetivo de um financiamento é a taxa interna de retorno do fluxo do tomador: entrada do valor líquido na data zero e saídas das prestações nas datas de pagamento. Com várias prestações, a taxa se acha por tentativa ou com tabela financeira.</p><p><strong>Base de cálculo.</strong> Está errado dizer que o custo efetivo se calcula sobre o valor nominal contratado: a base é o valor líquido efetivamente liberado ao tomador.</p><p><strong>Juros antecipados.</strong> Quando os juros de 10% são cobrados na liberação, o tomador recebe 90% do principal e devolve 100%; o custo efetivo é cerca de 11,11% no período, maior que a taxa anunciada.</p><p><strong>Custo real.</strong> O custo real desconta a inflação dividindo os fatores, e não subtraindo as taxas: custo efetivo de 21% com inflação de 10% dá custo real de 10%, e não de 11%.</p><p><strong>Investimento com imposto e inflação.</strong> Suponha uma aplicação de R$ 10.000,00 que rende R$ 1.000,00 brutos em um ano, com imposto de 20% sobre o rendimento: o ganho líquido é R$ 800,00, rentabilidade efetiva líquida de 8%. Se a inflação do ano foi de 8%, a rentabilidade real líquida foi zero (1,08 / 1,08 − 1).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O custo efetivo de um empréstimo é calculado sobre o valor nominal contratado.",
+     "certo": "É calculado sobre o valor líquido efetivamente liberado ao tomador.",
+     "fonte": "Questão do app sobre custo efetivo"
+    },
+    {
+     "errado": "Com juros de 10% cobrados antecipadamente, o custo efetivo para o tomador é de 10% no período.",
+     "certo": "É de cerca de 11,11%, porque ele recebe 90 e devolve 100.",
+     "fonte": "Questão do app sobre juros antecipados"
+    },
+    {
+     "errado": "Custo efetivo de 21% ao ano num ano de inflação de 10% corresponde a custo real de 11% ao ano.",
+     "certo": "Corresponde a 1,21 / 1,10 − 1 = 10% ao ano.",
+     "fonte": "Questão do app sobre custo real"
+    }
+   ],
    "relacionados": [
     "desconto-simples-e-composto",
     "taxa-interna-de-retorno"
@@ -577,10 +1231,73 @@
     "projetos mutuamente exclusivos",
     "fluxo de caixa"
    ],
-   "resumo": "O <strong>valor presente líquido</strong> (VPL) traz todos os fluxos de caixa do projeto para a data zero, descontados pela <strong>taxa mínima de atratividade</strong> (TMA), que representa o custo de oportunidade do capital: VPL = −I + Σ FC(t) / (1 + TMA)^t. Com VPL positivo, o projeto rende mais que a TMA e deve ser aceito; com VPL nulo, rende exatamente a TMA; com VPL negativo, deve ser rejeitado. Em projeto convencional (saída inicial seguida de entradas), o VPL diminui quando a TMA aumenta. Exemplo: investimento de R$ 1.000,00 com entradas de R$ 660,00 no ano 1 e R$ 605,00 no ano 2, TMA de 10% ao ano. VPL = −1.000 + 600 + 500 = R$ 100,00. O <strong>índice de lucratividade</strong> (IL) divide o valor presente das entradas pelo investimento: 1.100 / 1.000 = 1,1. IL maior que 1 equivale a VPL positivo. O <strong>payback simples</strong> mede o tempo para recuperar o investimento com os fluxos sem desconto: no exemplo, 1 + 340 / 605 ≈ 1,56 ano. O <strong>payback descontado</strong> usa os fluxos descontados pela TMA: 1 + 400 / 500 = 1,8 ano. Com entradas positivas e TMA positiva, o payback descontado nunca é menor que o simples. Os dois paybacks ignoram os fluxos posteriores à recuperação do investimento. O <strong>valor anual uniforme equivalente</strong> (VAUE) transforma o VPL numa série uniforme pela vida do projeto e serve para comparar projetos de vidas diferentes. O VPL é aditivo: o VPL de dois projetos somados é a soma dos VPL.",
+   "para_entender": [
+    {
+     "texto": "<strong>Valor presente:</strong> trazer cada fluxo futuro para a data zero.",
+     "tema": "regimes-de-capitalizacao"
+    },
+    {
+     "texto": "<strong>Renda uniforme:</strong> o fator a(n, i), que o VAUE usa.",
+     "tema": "rendas-uniformes-e-variaveis"
+    }
+   ],
+   "resumo": "Avaliar um projeto é perguntar se o dinheiro investido nele rende mais que a melhor alternativa. Essa alternativa é a <strong>taxa mínima de atratividade</strong> (TMA), o <strong>custo de oportunidade</strong> do capital: o que se ganharia aplicando o dinheiro em outro lugar. O <strong>fluxo de caixa</strong> é a lista das saídas e entradas de dinheiro do projeto, ano a ano. O <strong>valor presente líquido</strong> (VPL) traz todos esses fluxos para a data zero, descontados pela TMA, e soma: VPL = −I + Σ FC(t) / (1 + TMA)^t. VPL positivo quer dizer que o projeto paga a TMA e ainda sobra, e ele deve ser aceito; VPL nulo, que rende exatamente a TMA; VPL negativo, que deve ser rejeitado. O <strong>índice de lucratividade</strong> (IL) divide o valor presente das entradas pelo investimento. O <strong>payback</strong> mede o tempo para recuperar o investimento, com os fluxos sem desconto (simples) ou descontados pela TMA (descontado). O <strong>valor anual uniforme equivalente</strong> (VAUE) reparte o VPL numa série anual igual pela vida do projeto. A tabela traz a regra de cada critério e um exemplo.",
    "esquema": {
     "rotulo": "critérios de avaliação",
     "html": "<table><thead><tr><th>Critério</th><th>Regra de decisão</th><th>Limitação</th></tr></thead><tbody><tr><td><strong>VPL</strong></td><td>aceitar se VPL maior que zero; entre excludentes, o maior VPL</td><td>depende da TMA escolhida</td></tr><tr><td><strong>Índice de lucratividade</strong></td><td>aceitar se IL maior que 1</td><td>não mede o tamanho do ganho</td></tr><tr><td><strong>Payback simples</strong></td><td>aceitar se menor que o prazo máximo fixado</td><td>ignora o valor do dinheiro no tempo e os fluxos após a recuperação</td></tr><tr><td><strong>Payback descontado</strong></td><td>idem, com fluxos descontados</td><td>ignora os fluxos após a recuperação</td></tr><tr><td><strong>VAUE</strong></td><td>aceitar se positivo; compara vidas diferentes</td><td>supõe repetição do projeto</td></tr><tr><td><strong>Exemplo (I = 1.000; 660 e 605; TMA 10%)</strong></td><td>VPL = 100; IL = 1,1</td><td>payback simples ≈ 1,56 ano; descontado = 1,8 ano</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "VPL, em números",
+      "o_que_e": "Investimento de R$ 1.000,00, entradas de R$ 660,00 no ano 1 e R$ 605,00 no ano 2, TMA de 10% ao ano: VPL = −1.000 + 660 / 1,1 + 605 / 1,21 = −1.000 + 600 + 500 = R$ 100,00.",
+      "grupo": "Contas do exemplo"
+     },
+     {
+      "nome": "Índice de lucratividade",
+      "o_que_e": "IL = 1.100 / 1.000 = 1,1. IL maior que 1 equivale a VPL positivo, igual a 1 a VPL nulo, e menor que 1 a VPL negativo.",
+      "grupo": "Contas do exemplo"
+     },
+     {
+      "nome": "Payback simples",
+      "o_que_e": "No ano 1 entram R$ 660,00; faltam R$ 340,00 dos R$ 605,00 do ano 2: 1 + 340 / 605 ≈ 1,56 ano, admitida a entrada uniforme ao longo do ano.",
+      "grupo": "Contas do exemplo"
+     },
+     {
+      "nome": "Payback descontado",
+      "o_que_e": "Com os fluxos descontados (600 e 500): no ano 1 se recuperam R$ 600,00; faltam R$ 400,00 dos R$ 500,00: 1 + 400 / 500 = 1,8 ano.",
+      "atencao": "Com TMA positiva, o descontado nunca é menor que o simples.",
+      "grupo": "Contas do exemplo"
+     },
+     {
+      "nome": "VAUE",
+      "o_que_e": "O VPL de R$ 100,00 repartido em 2 anos a 10%: 100 / a(2; 10%) = 100 / 1,7355 ≈ R$ 57,62 por ano.",
+      "atencao": "Serve para comparar projetos de vidas diferentes sem repeti-los até o mínimo múltiplo comum das vidas.",
+      "grupo": "Contas do exemplo"
+     },
+     {
+      "nome": "Payback ignora o fim do fluxo",
+      "o_que_e": "Projeto A: −1.000 e +1.000 no ano 1 (payback de 1 ano, VPL a 10% de −R$ 90,91). Projeto B: −1.000, nada no ano 1 e +1.500 no ano 2 (payback de 2 anos, VPL de +R$ 239,67).",
+      "atencao": "O payback mais curto pode ter o pior VPL, simples ou descontado.",
+      "grupo": "Limites dos critérios"
+     },
+     {
+      "nome": "VPL nulo",
+      "o_que_e": "Não é prejuízo: o projeto remunera o capital exatamente à TMA, que nesse caso é a própria taxa interna de retorno.",
+      "grupo": "Limites dos critérios"
+     },
+     {
+      "nome": "Sensibilidade à TMA",
+      "o_que_e": "Em projeto convencional (saída inicial e depois só entradas), o VPL cai quando a TMA sobe e se anula quando ela chega à taxa interna de retorno.",
+      "grupo": "Limites dos critérios"
+     },
+     {
+      "nome": "VPL é aditivo",
+      "o_que_e": "O VPL de dois projetos executados juntos é a soma dos VPL de cada um.",
+      "grupo": "Limites dos critérios"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -602,8 +1319,28 @@
     "gabarito": "E",
     "explicacao": "Descontar as entradas reduz cada uma delas, e assim se demora mais para recuperar o investimento: o payback descontado é igual ou maior que o simples. No exemplo, 1,8 ano contra cerca de 1,56 ano."
    },
-   "aprofundamento": "<p><strong>Payback ignora o fim do fluxo.</strong> Tanto o payback simples quanto o descontado desprezam os fluxos de caixa que ocorrem depois da recuperação do investimento. Um projeto com payback mais curto pode ter VPL menor.</p><p><strong>VPL nulo.</strong> VPL igual a zero não indica prejuízo: indica que o projeto remunera o capital exatamente à TMA. Nesse caso, a TMA é a própria taxa interna de retorno.</p><p><strong>Índice de lucratividade.</strong> IL maior que 1 equivale a VPL positivo, IL igual a 1 a VPL nulo e IL menor que 1 a VPL negativo. No exemplo, IL = 1,1 e VPL = R$ 100,00.</p><p><strong>Vidas diferentes.</strong> Para comparar projetos de vidas diferentes, use o VAUE ou repita os projetos até o mínimo múltiplo comum das vidas; comparar os VPL diretos mistura horizontes diferentes e pode distorcer a escolha.</p><p><strong>Sensibilidade à TMA.</strong> Em projeto convencional, o VPL cai à medida que a TMA sobe e se anula quando a TMA atinge a taxa interna de retorno.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O payback descontado corrige as duas falhas do payback simples: considera o valor do dinheiro no tempo e os fluxos posteriores à recuperação.",
+     "certo": "Corrige só a primeira; os dois paybacks ignoram os fluxos depois da recuperação.",
+     "fonte": "Questão do app sobre payback"
+    },
+    {
+     "errado": "Em projeto convencional, o aumento da TMA eleva o VPL.",
+     "certo": "Reduz o VPL, porque desconta mais as entradas futuras.",
+     "fonte": "Questão do app sobre VPL"
+    },
+    {
+     "errado": "VPL igual a zero indica que o projeto dá prejuízo.",
+     "certo": "Indica que ele rende exatamente a TMA.",
+     "fonte": "Questão do app sobre VPL"
+    },
+    {
+     "errado": "Índice de lucratividade de 0,9 indica VPL positivo.",
+     "certo": "IL menor que 1 indica VPL negativo.",
+     "fonte": "Questão do app sobre índice de lucratividade"
+    }
+   ],
    "relacionados": [
     "taxa-interna-de-retorno",
     "rendas-uniformes-e-variaveis"
@@ -640,10 +1377,70 @@
     "interseccao de fisher",
     "taxa de retorno contabil"
    ],
-   "resumo": "A <strong>taxa interna de retorno</strong> (TIR) é a taxa de desconto que torna o VPL do fluxo de caixa igual a zero. Em projeto convencional, aceita-se o projeto quando a TIR é maior que a TMA; nesse caso, o VPL calculado à TMA é positivo. Exemplo: investir R$ 1.000,00 hoje para receber R$ 1.210,00 daqui a 2 anos dá TIR de 10% ao ano, porque 1.000 × 1,1^2 = 1.210; dividir o ganho total de 21% por 2 anos (10,5%) é erro de juros simples. A TIR supõe que os fluxos intermediários sejam reinvestidos à própria TIR; o VPL supõe reinvestimento à TMA. A <strong>TIR modificada</strong> corrige isso: leva as entradas ao fim do prazo à taxa de reinvestimento, traz as saídas à data zero à taxa de financiamento e calcula a taxa única que liga os dois valores. Fluxo <strong>não convencional</strong>, com mais de uma troca de sinal, pode ter mais de uma TIR ou nenhuma; pela regra de sinais, o número de TIR positivas não passa do número de trocas de sinal. Entre projetos <strong>mutuamente exclusivos</strong>, VPL e TIR podem indicar escolhas diferentes, por diferença de escala ou de distribuição dos fluxos no tempo; vale o VPL, ou a análise do fluxo incremental: se a TIR do incremento supera a TMA, escolhe-se o projeto maior. A taxa em que os VPL de dois projetos se igualam é a <strong>intersecção de Fisher</strong>. Diferentemente do VPL, a TIR não é aditiva. Há ainda a <strong>taxa de retorno contábil</strong>, que divide o lucro médio pelo investimento e ignora o valor do dinheiro no tempo.",
+   "para_entender": [
+    {
+     "texto": "<strong>VPL e TMA:</strong> o critério com que a TIR é comparada.",
+     "tema": "avaliacao-economica-de-projetos"
+    }
+   ],
+   "resumo": "A <strong>taxa interna de retorno</strong> (TIR) é a taxa de desconto que torna o VPL do fluxo de caixa igual a zero: é o rendimento do próprio projeto, em juros compostos. Em <strong>projeto convencional</strong>, com uma saída inicial seguida só de entradas, aceita-se o projeto quando a TIR supera a TMA, e então o VPL à TMA é positivo. A TIR supõe que os fluxos intermediários sejam <strong>reinvestidos</strong> à própria TIR; o VPL supõe reinvestimento à TMA. A <strong>TIR modificada</strong> corrige isso com taxas explícitas: leva as entradas ao fim do prazo à taxa de reinvestimento, traz as saídas à data zero à taxa de financiamento e calcula a taxa única que liga os dois valores. Fluxo <strong>não convencional</strong>, com mais de uma troca de sinal, pode ter várias TIR ou nenhuma. Entre projetos <strong>mutuamente exclusivos</strong>, em que escolher um descarta o outro, VPL e TIR podem apontar escolhas diferentes, e vale o VPL. A <strong>taxa de retorno contábil</strong> divide o lucro médio pelo investimento e ignora o valor do dinheiro no tempo. A tabela compara TIR e VPL.",
    "esquema": {
     "rotulo": "TIR × VPL",
     "html": "<table><thead><tr><th>Ponto</th><th>TIR</th><th>VPL</th></tr></thead><tbody><tr><td><strong>O que é</strong></td><td>a taxa que zera o VPL</td><td>valor em reais, na data zero, à TMA</td></tr><tr><td><strong>Regra de aceitação</strong></td><td>TIR maior que a TMA</td><td>VPL maior que zero</td></tr><tr><td><strong>Reinvestimento implícito</strong></td><td>à própria TIR</td><td>à TMA</td></tr><tr><td><strong>Fluxo não convencional</strong></td><td>pode ter várias TIR ou nenhuma</td><td>valor único</td></tr><tr><td><strong>Projetos excludentes</strong></td><td>pode errar por escala</td><td>critério que prevalece</td></tr><tr><td><strong>Aditividade</strong></td><td>não é aditiva</td><td>é aditivo</td></tr><tr><td><strong>Exemplo</strong></td><td>−1.000 hoje e +1.210 em 2 anos: 10% ao ano</td><td>à TMA de 10%, VPL = 0</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "TIR, em números",
+      "o_que_e": "O investimento de R$ 1.000,00 que gera um único retorno de R$ 1.210,00 dois anos depois tem TIR de 10% ao ano, porque 1.000 × 1,1² = 1.210.",
+      "atencao": "Tomar a metade do ganho total de 21% (10,5%) é conta de juros simples.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "TIR por tentativa",
+      "o_que_e": "Investimento de R$ 1.000,00 e duas entradas anuais de R$ 600,00: a 13% o VPL ainda é positivo e a 14% já é negativo; a TIR é cerca de 13,07% ao ano.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "TIR modificada, em números",
+      "o_que_e": "O mesmo fluxo com reinvestimento a 10%: as entradas valem 600 × 1,1 + 600 = R$ 1.260,00 no ano 2, e a TIR modificada é √1,26 − 1 ≈ 12,25% ao ano, abaixo da TIR de 13,07%.",
+      "atencao": "Reinvestir abaixo da TIR reduz a taxa.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Duas TIR",
+      "o_que_e": "O fluxo −100, +230 e −132 troca de sinal duas vezes e tem VPL zero a 10% e a 20%. Pela regra de sinais, o número de TIR positivas não passa do número de trocas de sinal.",
+      "atencao": "Com várias TIR, a regra TIR maior que TMA não decide nada; use o VPL ou a TIR modificada.",
+      "grupo": "Fluxo não convencional"
+     },
+     {
+      "nome": "Conflito entre VPL e TIR",
+      "o_que_e": "A: −1.000 e +1.300 no ano 1 (TIR de 30%). B: −1.000, nada no ano 1 e +1.600 no ano 2 (TIR ≈ 26,49%). A 10%, o VPL de A é R$ 181,82 e o de B, R$ 322,31: B cria mais valor, embora tenha TIR menor.",
+      "grupo": "Projetos excludentes"
+     },
+     {
+      "nome": "Intersecção de Fisher",
+      "o_que_e": "É a taxa em que os VPL de dois projetos se igualam. No exemplo, 1.300 × (1 + r) = 1.600 dá r ≈ 23,08%. Abaixo dela vence B (pelo VPL); acima, vence A (a 25%, VPL de R$ 40,00 contra R$ 24,00).",
+      "atencao": "O conflito só aparece quando a TMA fica abaixo da intersecção.",
+      "grupo": "Projetos excludentes"
+     },
+     {
+      "nome": "Fluxo incremental",
+      "o_que_e": "B menos A: 0, −1.300 no ano 1 e +1.600 no ano 2. A TIR do incremento é 1.600 / 1.300 − 1 ≈ 23,08%, acima da TMA de 10%: escolhe-se B.",
+      "grupo": "Projetos excludentes"
+     },
+     {
+      "nome": "TIR não soma",
+      "o_que_e": "O VPL de dois projetos juntos é a soma dos VPL; a TIR do conjunto não é a soma nem a média simples das TIR.",
+      "grupo": "Projetos excludentes"
+     },
+     {
+      "nome": "TIR e custo efetivo",
+      "o_que_e": "No fluxo de um empréstimo visto pelo tomador, a TIR é o custo efetivo da operação.",
+      "grupo": "Projetos excludentes"
+     }
+    ]
    },
    "lei": [],
    "macetes": [
@@ -665,8 +1462,28 @@
     "gabarito": "E",
     "explicacao": "A hipótese de reinvestimento à TMA é a do VPL. A TIR supõe reinvestimento à própria TIR, o que pode superestimar projetos com TIR muito alta; a TIR modificada substitui essa hipótese por uma taxa de reinvestimento explícita."
    },
-   "aprofundamento": "<p><strong>Juros compostos na TIR.</strong> Quem investe R$ 1.000,00 e recebe R$ 1.210,00 dois anos depois obtém TIR de 10% ao ano, e não de 10,5% ao ano: a TIR é taxa composta.</p><p><strong>Hipótese de reinvestimento.</strong> A TIR pressupõe reinvestimento dos fluxos intermediários à própria TIR; o VPL, à TMA. A TIR modificada usa taxas explícitas de reinvestimento e de financiamento e produz uma taxa única.</p><p><strong>Múltiplas TIR.</strong> Um fluxo com saída, entradas e nova saída no fim (por exemplo, custo de desmobilização) troca de sinal duas vezes e pode ter até duas TIR positivas. Nesse caso, a regra TIR maior que TMA não serve.</p><p><strong>Projetos excludentes.</strong> Diante de conflito entre VPL e TIR em projetos mutuamente exclusivos, escolha o de maior VPL à TMA. O conflito surge quando a TMA fica abaixo da intersecção de Fisher.</p><p><strong>TIR não soma.</strong> O VPL de dois projetos juntos é a soma dos VPL, mas a TIR do conjunto não é a soma nem a média simples das TIR.</p><p><strong>TIR e custo efetivo.</strong> No fluxo de um empréstimo visto pelo tomador (entrada do valor líquido e saídas das prestações), a TIR é o custo efetivo da operação.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Quem investe R$ 1.000,00 e recebe R$ 1.210,00 dois anos depois tem TIR de 10,5% ao ano.",
+     "certo": "Tem TIR de 10% ao ano, porque 1,1² = 1,21; a TIR é taxa composta.",
+     "fonte": "Questão do app sobre TIR"
+    },
+    {
+     "errado": "Havendo conflito entre VPL e TIR em projetos mutuamente exclusivos, escolhe-se o de maior TIR.",
+     "certo": "Escolhe-se o de maior VPL à TMA, ou se decide pela TIR do fluxo incremental.",
+     "fonte": "Questão do app sobre projetos excludentes"
+    },
+    {
+     "errado": "A TIR de dois projetos executados juntos é a soma das TIR de cada um.",
+     "certo": "A TIR não é aditiva; quem soma é o VPL.",
+     "fonte": "Questão do app sobre TIR"
+    },
+    {
+     "errado": "Fluxo com investimento, entradas e uma saída relevante no fim tem sempre uma única TIR.",
+     "certo": "Com duas trocas de sinal, pode ter até duas TIR positivas.",
+     "fonte": "Questão do app sobre fluxo não convencional"
+    }
+   ],
    "relacionados": [
     "avaliacao-economica-de-projetos",
     "custo-efetivo-das-operacoes"
