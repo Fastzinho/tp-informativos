@@ -4,7 +4,7 @@
  "disciplina": "Contabilidade Pública",
  "ordem": 23,
  "descricao": "Contabilidade aplicada ao setor público pelas NBC TSP, pelo MCASP e pela Lei 4.320/1964: patrimônio público, variações patrimoniais, receita e despesa, plano de contas, demonstrações e custos, com resumo, quadros e pegadinhas.",
- "revisado_em": "2026-11-20",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "NBC TSP, MCASP e Lei 4.320/1964 conferidos",
  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
  "temas": [
@@ -26,19 +26,66 @@
     "casp",
     "objeto",
     "objetivo",
-    "entidades do setor público",
+    "entidades do setor publico",
     "estatal dependente",
     "estatal independente",
-    "usuários",
+    "usuarios",
     "accountability",
     "nbc tsp estrutura conceitual"
    ],
-   "resumo": "A <strong>Contabilidade Aplicada ao Setor Público</strong> é o ramo da ciência contábil que aplica, no processo gerador de informações, os princípios e as normas contábeis voltados ao controle do patrimônio das entidades do setor público. O <strong>objeto</strong> da contabilidade aplicada ao setor público é o patrimônio público, e não o orçamento: o orçamento é controlado pela contabilidade, mas o que ela mede e evidencia é o patrimônio e suas variações. O <strong>objetivo</strong> é fornecer aos usuários informações úteis sobre a natureza orçamentária, econômica, financeira e física do patrimônio, para a prestação de contas e responsabilização (accountability) e para a tomada de decisão. Os usuários primários da informação contábil do setor público são os usuários dos serviços e seus representantes e os provedores de recursos e seus representantes, como os cidadãos e o Poder Legislativo. O <strong>campo de aplicação</strong> obrigatório alcança as entidades do setor público: governos federal, estaduais, distrital e municipais e seus poderes, inclusive tribunais de contas, defensorias e Ministério Público, órgãos, secretarias, autarquias, fundações instituídas e mantidas pelo poder público, fundos, consórcios públicos e as empresas estatais dependentes. As empresas estatais independentes ficam fora do alcance obrigatório das normas do setor público e seguem a legislação societária (Lei 6.404/1976). A Lei 4.320/1964 manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89).",
+   "resumo": "A <strong>Contabilidade Aplicada ao Setor Público</strong> é o ramo da ciência contábil que aplica, no processo gerador de informações, os princípios e as normas contábeis voltados ao controle do patrimônio das entidades do setor público. O <strong>objeto</strong> é o patrimônio público, e não o orçamento: o orçamento é controlado pela contabilidade, mas o que ela mede e evidencia é o patrimônio e suas variações. O <strong>objetivo</strong> é fornecer aos usuários informações úteis sobre a natureza orçamentária, econômica, financeira e física do patrimônio, para a prestação de contas e responsabilização (<strong>accountability</strong>, o dever de o gestor responder pelo uso dos recursos) e para a tomada de decisão. Os <strong>usuários primários</strong> são os usuários dos serviços e os provedores de recursos, com seus representantes, como os cidadãos e o Poder Legislativo. O <strong>campo de aplicação</strong> obrigatório alcança as entidades do setor público, detalhadas na tabela. A <strong>empresa estatal dependente</strong> é a que recebe do ente recursos para pessoal, custeio ou capital e por isso segue as normas do setor público; a <strong>estatal independente</strong>, que se mantém com recursos próprios, segue a legislação societária (Lei 6.404/1976). A Lei 4.320/1964 manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89).",
    "esquema": {
     "rotulo": "quem está no campo de aplicação obrigatório",
     "html": "<table><thead><tr><th>Entidade</th><th>Aplica as normas do setor público?</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Administração direta</strong> (União, estados, DF, municípios e seus poderes)</td><td>Sim</td><td>inclui tribunais de contas, defensorias e Ministério Público</td></tr><tr><td><strong>Autarquias e fundações públicas</strong></td><td>Sim</td><td>fundações instituídas e mantidas pelo poder público</td></tr><tr><td><strong>Fundos e consórcios públicos</strong></td><td>Sim</td><td>fundo não tem personalidade jurídica, mas tem contabilidade própria</td></tr><tr><td><strong>Empresa estatal dependente</strong></td><td>Sim</td><td>recebe do ente recursos para pessoal, custeio ou capital (fora aumento de participação acionária)</td></tr><tr><td><strong>Empresa estatal independente</strong></td><td>Não, de forma obrigatória</td><td>segue a Lei 6.404/1976; entra nas contas do ente pela participação</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Objeto",
+      "o_que_e": "O patrimônio público e suas variações.",
+      "atencao": "Dizer que o objeto é o orçamento, cabendo à contabilidade só evidenciar a receita prevista e a despesa fixada, troca os conceitos.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Objetivo",
+      "o_que_e": "Gerar informação útil para a prestação de contas e responsabilização e para a tomada de decisão.",
+      "atencao": "Não é apenas cumprir a lei orçamentária.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Usuários primários",
+      "o_que_e": "A Estrutura Conceitual escolhe os usuários dos serviços e os provedores de recursos, com seus representantes.",
+      "atencao": "Gestores e órgãos de controle interno e externo também usam a informação, mas não são os usuários primários a que as demonstrações se destinam prioritariamente.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Art. 83 da Lei 4.320/1964",
+      "o_que_e": "A contabilidade evidenciará perante a Fazenda Pública a situação de todos os que arrecadem receitas, efetuem despesas, administrem ou guardem bens públicos.",
+      "grupo": "Lei 4.320/1964"
+     },
+     {
+      "nome": "Art. 85 da Lei 4.320/1964",
+      "o_que_e": "Os serviços de contabilidade permitem o acompanhamento da execução orçamentária, o conhecimento da composição patrimonial, a determinação dos custos dos serviços industriais, o levantamento dos balanços gerais e a análise dos resultados econômicos e financeiros.",
+      "atencao": "O texto fala em custos dos serviços industriais, e não administrativos.",
+      "grupo": "Lei 4.320/1964"
+     },
+     {
+      "nome": "Estatal dependente na LRF",
+      "o_que_e": "Empresa controlada que recebe do ente recursos financeiros para despesas com pessoal, custeio em geral ou de capital, excluídos os provenientes de aumento de participação acionária.",
+      "atencao": "Por isso entra no orçamento e nas demonstrações do ente.",
+      "grupo": "Campo de aplicação"
+     },
+     {
+      "nome": "Estatal independente",
+      "o_que_e": "Fica fora do alcance obrigatório, ainda que integre a administração indireta, e entra nas contas do ente pela participação.",
+      "grupo": "Campo de aplicação"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "OBJETO É PATRIMÔNIO, NÃO ORÇAMENTO",
@@ -54,8 +101,28 @@
     "gabarito": "E",
     "explicacao": "Só a empresa estatal dependente está no campo de aplicação obrigatório. A estatal independente, que se mantém com recursos próprios, segue a legislação societária (Lei 6.404/1976)."
    },
-   "aprofundamento": "<p><strong>Objeto e objetivo não se confundem.</strong> O objeto é o patrimônio público. O objetivo é gerar informação útil para a prestação de contas e responsabilização e para a tomada de decisão. Uma assertiva que diga que o objeto é o orçamento, ou que o objetivo é apenas cumprir a lei orçamentária, troca os conceitos.</p><p><strong>Usuários primários.</strong> A Estrutura Conceitual escolhe como usuários primários os usuários dos serviços e os provedores de recursos, com seus representantes. Gestores e órgãos de controle também usam a informação, mas não são o foco escolhido pela norma.</p><p><strong>Lei 4.320/1964.</strong> A contabilidade evidenciará perante a Fazenda Pública a situação de todos os que arrecadem receitas, efetuem despesas, administrem ou guardem bens públicos (art. 83). Os serviços de contabilidade devem permitir o acompanhamento da execução orçamentária, o conhecimento da composição patrimonial, a determinação dos custos dos serviços industriais, o levantamento dos balanços gerais e a análise dos resultados econômicos e financeiros (art. 85).</p><p><strong>Estatal dependente.</strong> O conceito vem da Lei de Responsabilidade Fiscal: é a empresa controlada que recebe do ente recursos financeiros para despesas com pessoal, custeio em geral ou de capital, excluídos os provenientes de aumento de participação acionária. Por isso entra no orçamento e nas demonstrações do ente.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O objeto da contabilidade pública é o orçamento.",
+     "certo": "É o patrimônio público.",
+     "fonte": "Questões do app sobre contabilidade aplicada ao setor público"
+    },
+    {
+     "errado": "Estatais independentes, por serem da administração indireta, seguem as normas do setor público.",
+     "certo": "Seguem a Lei 6.404/1976; só a dependente está no campo obrigatório.",
+     "fonte": "Questões do app sobre contabilidade aplicada ao setor público"
+    },
+    {
+     "errado": "A Lei 4.320/1964 exige determinar os custos dos serviços administrativos.",
+     "certo": "O art. 85 fala em serviços industriais.",
+     "fonte": "Questões do app sobre contabilidade aplicada ao setor público"
+    },
+    {
+     "errado": "Os usuários primários são os gestores e os órgãos de controle.",
+     "certo": "São os usuários dos serviços e os provedores de recursos.",
+     "fonte": "Questões do app sobre contabilidade aplicada ao setor público"
+    }
+   ],
    "relacionados": [
     "ativo-e-passivo-no-setor-publico",
     "saldo-patrimonial-e-superavit-financeiro"
@@ -81,28 +148,87 @@
    ],
    "palavras": [
     "recurso controlado",
-    "obrigação presente",
+    "obrigacao presente",
     "evento passado",
     "circulante",
-    "não circulante",
+    "nao circulante",
     "doze meses",
     "atributo f",
     "atributo p",
-    "dívida fundada",
-    "dívida flutuante",
+    "divida fundada",
+    "divida flutuante",
     "restos a pagar",
-    "obrigação não formalizada",
+    "obrigacao nao formalizada",
     "identidade do credor",
     "outros recursos",
     "outras obrigacoes",
     "situacao patrimonial liquida"
    ],
-   "resumo": "Pela NBC TSP Estrutura Conceitual, <strong>ativo</strong> é um recurso controlado no presente pela entidade como resultado de evento passado. Recurso é um item com potencial de serviços ou com capacidade de gerar benefícios econômicos. O que define o ativo é o controle do recurso, e não a propriedade jurídica. <strong>Passivo</strong> é uma obrigação presente, derivada de evento passado, cuja extinção deva resultar na saída de recursos da entidade. A obrigação presente pode ser legalmente vinculada ou não formalizada, quando a entidade não tem alternativa realista senão cumpri-la. No balanço patrimonial, o ativo é circulante quando está disponível para realização imediata ou tem expectativa de realização até doze meses após a data das demonstrações contábeis; o passivo é circulante quando é exigível até doze meses após essa data. O restante é não circulante. A Lei 4.320/1964 traz outra divisão, que o balanço também evidencia: o Ativo Financeiro compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o Ativo Permanente compreende os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa. O Passivo Financeiro reúne as dívidas cujo pagamento independe de autorização orçamentária, como os restos a pagar; o Passivo Permanente reúne as dívidas que dependem de autorização legislativa para amortização ou resgate, como a dívida fundada. No plano de contas, essa divisão aparece no atributo F ou P de cada conta.",
+   "para_entender": [
+    {
+     "texto": "<strong>Saldo patrimonial e superávit financeiro:</strong> as diferenças entre ativo e passivo, total ou só financeiro.",
+     "tema": "saldo-patrimonial-e-superavit-financeiro"
+    }
+   ],
+   "resumo": "Pela NBC TSP Estrutura Conceitual, <strong>ativo</strong> é um recurso controlado no presente pela entidade como resultado de evento passado. <strong>Recurso</strong> é um item com potencial de serviços ou com capacidade de gerar benefícios econômicos. O que define o ativo é o <strong>controle</strong> do recurso, que permite usá-lo e regular o uso por terceiros, e não a propriedade jurídica, que é só um indício de controle. <strong>Passivo</strong> é uma obrigação presente, derivada de evento passado, cuja extinção deva resultar na saída de recursos da entidade. A <strong>obrigação presente</strong> pode ser legalmente vinculada, nascida de contrato ou de lei, ou <strong>não formalizada</strong>, quando a entidade não tem alternativa realista senão cumpri-la. O ativo é <strong>circulante</strong> quando está disponível para realização imediata ou tem expectativa de realização até doze meses após a data das demonstrações contábeis; o passivo é circulante quando é exigível até doze meses após essa data; o restante é <strong>não circulante</strong>. A Lei 4.320/1964 (art. 105) traz outra divisão: o <strong>Ativo Financeiro</strong> compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o <strong>Ativo Permanente</strong>, os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa. O <strong>Passivo Financeiro</strong> reúne as dívidas cujo pagamento independe de autorização orçamentária, como os restos a pagar; o <strong>Passivo Permanente</strong>, as que dependem de autorização legislativa para amortização ou resgate, como a dívida fundada. No plano de contas, essa divisão aparece no atributo F ou P de cada conta.",
    "esquema": {
     "rotulo": "as duas classificações do patrimônio",
     "html": "<table><thead><tr><th>Critério</th><th>Ativo</th><th>Passivo</th><th>Exemplo típico</th></tr></thead><tbody><tr><td><strong>Circulante</strong> (prazo)</td><td>realização imediata ou até 12 meses após a data das demonstrações</td><td>exigível até 12 meses após a data das demonstrações</td><td>caixa; fornecedores a pagar no ano</td></tr><tr><td><strong>Não circulante</strong> (prazo)</td><td>realizável a longo prazo, investimentos, imobilizado, intangível</td><td>exigível depois de 12 meses</td><td>empréstimo de longo prazo</td></tr><tr><td><strong>Financeiro</strong> (Lei 4.320, art. 105)</td><td>realizável sem autorização orçamentária e numerário</td><td>pagamento independe de autorização orçamentária</td><td>disponibilidades; restos a pagar; depósitos de terceiros</td></tr><tr><td><strong>Permanente</strong> (Lei 4.320, art. 105)</td><td>mobilização ou alienação depende de autorização legislativa</td><td>amortização ou resgate depende de autorização legislativa</td><td>imóveis, dívida ativa; dívida fundada</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Dívida fundada",
+      "o_que_e": "Compromissos de exigibilidade superior a doze meses, contraídos para atender a desequilíbrio orçamentário ou a financiamento de obras e serviços públicos (art. 98 da Lei 4.320/1964).",
+      "atencao": "Não são seis meses. É passivo permanente.",
+      "grupo": "Dívidas"
+     },
+     {
+      "nome": "Dívida flutuante",
+      "o_que_e": "Restos a pagar (excluídos os serviços da dívida), serviços da dívida a pagar, depósitos e débitos de tesouraria (art. 92 da Lei 4.320/1964).",
+      "atencao": "É passivo financeiro: os restos a pagar já foram empenhados e não dependem de nova autorização.",
+      "grupo": "Dívidas"
+     },
+     {
+      "nome": "Dívida ativa",
+      "o_que_e": "Seu recebimento gera receita orçamentária, por isso o crédito não é realizável independentemente do orçamento e recebe atributo P.",
+      "atencao": "As disponibilidades (caixa e bancos) é que são ativo financeiro.",
+      "grupo": "Atributos F e P"
+     },
+     {
+      "nome": "Passivo sem empenho",
+      "o_que_e": "Obrigação reconhecida por competência antes do empenho, como a folha de dezembro apropriada e não empenhada, nasce com atributo P; com o empenho, passa a F.",
+      "atencao": "Importa porque o superávit financeiro só considera o passivo financeiro.",
+      "grupo": "Atributos F e P"
+     },
+     {
+      "nome": "Obrigação não formalizada",
+      "o_que_e": "Não precisa nascer de contrato ou lei: basta que a entidade, por prática ou política divulgada, tenha criado expectativa válida em terceiros e não tenha alternativa realista senão cumpri-la.",
+      "grupo": "Passivo"
+     },
+     {
+      "nome": "Identidade do credor",
+      "o_que_e": "Não é preciso conhecer a identidade do terceiro a quem se deve: o credor pode ser identificado mais tarde.",
+      "atencao": "Exemplo: obrigação de indenizar pessoas ainda não identificadas atingidas por um dano causado pela entidade.",
+      "grupo": "Passivo"
+     },
+     {
+      "nome": "Corte do circulante",
+      "o_que_e": "Doze meses após a data das demonstrações contábeis; não se usa o ciclo operacional nem o término do exercício seguinte ao do encerramento do balanço, regra antiga da legislação societária.",
+      "grupo": "Circulante"
+     },
+     {
+      "nome": "Outros recursos e outras obrigações",
+      "o_que_e": "Itens que uma NBC TSP específica manda reconhecer sem atender à definição de nenhum elemento (ativo, passivo, receita, despesa, contribuição ou distribuição aos proprietários).",
+      "atencao": "A situação patrimonial líquida é a diferença entre ativos e passivos depois de somados os outros recursos e deduzidas as outras obrigações.",
+      "grupo": "Elementos"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "CONTROLE, NÃO PROPRIEDADE",
@@ -122,8 +248,53 @@
     "gabarito": "E",
     "explicacao": "Os restos a pagar já foram empenhados no exercício de origem. O pagamento independe de nova autorização orçamentária, por isso integram o passivo financeiro (dívida flutuante, art. 92 da Lei 4.320/1964)."
    },
-   "aprofundamento": "<p><strong>Dívida fundada e dívida flutuante.</strong> A dívida fundada compreende os compromissos de exigibilidade superior a doze meses, contraídos para atender a desequilíbrio orçamentário ou a financiamento de obras e serviços públicos (art. 98). A dívida flutuante compreende os restos a pagar (excluídos os serviços da dívida), os serviços da dívida a pagar, os depósitos e os débitos de tesouraria (art. 92). A flutuante é passivo financeiro; a fundada é passivo permanente.</p><p><strong>Dívida ativa é ativo permanente.</strong> O recebimento da dívida ativa gera receita orçamentária, por isso o crédito não é realizável independentemente do orçamento e recebe atributo P. Já as disponibilidades (caixa e bancos) são ativo financeiro.</p><p><strong>Passivo sem empenho.</strong> Quando a entidade reconhece uma obrigação por competência antes do empenho (por exemplo, a folha de dezembro apropriada e não empenhada), o passivo nasce com atributo P. Com o empenho, a conta passa a F. Essa troca importa porque o superávit financeiro só considera o passivo financeiro.</p><p><strong>Obrigação não formalizada.</strong> Uma obrigação presente não precisa nascer de contrato ou lei: basta que a entidade, por prática ou política divulgada, tenha criado expectativa válida em terceiros e não tenha alternativa realista senão cumpri-la.</p><p><strong>Circulante no setor público.</strong> O critério do MCASP é de doze meses após a data das demonstrações contábeis; não se usa o ciclo operacional nem o fim do exercício seguinte.</p><p><strong>Identidade do credor.</strong> Para existir obrigação presente, não é preciso conhecer a identidade do terceiro a quem se deve: a obrigação nasce do evento passado e da falta de alternativa realista para evitar a saída de recursos, ainda que o credor só seja identificado mais tarde, como na obrigação de indenizar pessoas ainda não identificadas atingidas por um dano causado pela entidade.</p><p><strong>Outros recursos e outras obrigações.</strong> A Estrutura Conceitual admite que uma NBC TSP específica exija o reconhecimento de recurso ou obrigação que não atende à definição de nenhum elemento (ativo, passivo, receita, despesa, contribuição dos proprietários ou distribuição aos proprietários), quando isso for necessário para os objetivos da informação contábil. Esses itens são chamados de outros recursos e outras obrigações. Por isso, a situação patrimonial líquida é a diferença entre ativos e passivos depois de somados os outros recursos e deduzidas as outras obrigações reconhecidos no balanço.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Só o bem de propriedade jurídica pode ser ativo.",
+     "certo": "Define o ativo o controle, e não o título.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "O ativo permanente depende de autorização orçamentária para mobilização ou alienação.",
+     "certo": "Depende de autorização legislativa.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "O circulante vai até o término do exercício seguinte ao do balanço.",
+     "certo": "Vai até doze meses após a data das demonstrações.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "A dívida ativa é ativo financeiro.",
+     "certo": "Recebe atributo P, de ativo permanente.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "Só obrigações de contrato ou lei são passivo.",
+     "certo": "Também a obrigação não formalizada.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "A dívida fundada tem exigibilidade superior a seis meses.",
+     "certo": "Superior a doze meses.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "Restos a pagar são passivo permanente.",
+     "certo": "São dívida flutuante, passivo financeiro.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "O passivo financeiro depende de autorização legislativa para resgate.",
+     "certo": "Isso é o passivo permanente.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    },
+    {
+     "errado": "Só há obrigação presente se o credor é conhecido.",
+     "certo": "O credor pode ser identificado depois.",
+     "fonte": "Questões do app sobre ativo e passivo"
+    }
+   ],
    "relacionados": [
     "saldo-patrimonial-e-superavit-financeiro",
     "casp-conceito-objeto-campo-de-aplicacao"
@@ -145,20 +316,66 @@
     "passivo a descoberto"
    ],
    "palavras": [
-    "situação líquida",
-    "ativo real líquido",
+    "situacao liquida",
+    "ativo real liquido",
     "passivo real a descoberto",
     "resultados acumulados",
-    "ajustes de avaliação patrimonial",
-    "créditos adicionais",
+    "ajustes de avaliacao patrimonial",
+    "creditos adicionais",
     "fonte de recursos"
    ],
-   "resumo": "O <strong>saldo patrimonial</strong> é a diferença entre o ativo e o passivo da entidade, e corresponde ao patrimônio líquido, que a Estrutura Conceitual define como a diferença entre os ativos e os passivos após a inclusão de outros recursos e a dedução de outras obrigações. A Lei 4.320/1964 manda o Balanço Patrimonial demonstrar o saldo patrimonial ao lado do ativo e passivo financeiros e permanentes e das contas de compensação (art. 105). Quando o ativo supera o passivo, há ativo real líquido (situação líquida positiva); quando o passivo supera o ativo, há passivo real a descoberto (situação líquida negativa). O saldo patrimonial é um estoque, medido numa data; o resultado patrimonial do exercício é um fluxo, que altera esse estoque. No patrimônio líquido aparecem, entre outros grupos, o patrimônio social ou capital social, as reservas, os ajustes de avaliação patrimonial e os resultados acumulados, onde se acumula o superávit ou o déficit patrimonial. Outro saldo, que a banca gosta de confundir com o patrimonial, é o <strong>superávit financeiro</strong>: a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, § 2º). O superávit financeiro apurado no balanço patrimonial do exercício anterior é fonte para abrir créditos suplementares e especiais. Exemplo: ativo financeiro 500 e passivo financeiro 300 dão superávit financeiro de 200; se o ativo permanente é 1.200 e o passivo permanente 900, o saldo patrimonial é (500 + 1.200) − (300 + 900) = 500.",
+   "para_entender": [
+    {
+     "texto": "<strong>Ativo e passivo financeiros e permanentes:</strong> a divisão da Lei 4.320/1964 pelos atributos F e P.",
+     "tema": "ativo-e-passivo-no-setor-publico"
+    },
+    {
+     "texto": "<strong>Resultado patrimonial:</strong> a diferença entre VPA e VPD do exercício.",
+     "tema": "realizacao-e-resultado-patrimonial"
+    }
+   ],
+   "resumo": "O <strong>saldo patrimonial</strong> é a diferença entre o ativo e o passivo da entidade e corresponde ao <strong>patrimônio líquido</strong>, que a Estrutura Conceitual define como a diferença entre os ativos e os passivos após a inclusão de outros recursos e a dedução de outras obrigações. A Lei 4.320/1964 manda o Balanço Patrimonial demonstrar o saldo patrimonial ao lado do ativo e passivo financeiros e permanentes e das contas de compensação (art. 105). Quando o ativo supera o passivo, há <strong>ativo real líquido</strong> (situação líquida positiva); quando o passivo supera o ativo, há <strong>passivo real a descoberto</strong> (situação líquida negativa). O saldo patrimonial é um estoque, medido numa data; o resultado patrimonial do exercício é um fluxo, que altera esse estoque. No patrimônio líquido aparecem, entre outros grupos, o patrimônio social ou capital social, as reservas, os ajustes de avaliação patrimonial e os <strong>resultados acumulados</strong>, onde se acumula o superávit ou o déficit patrimonial. O <strong>superávit financeiro</strong> é a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, § 2º, da Lei 4.320/1964); o apurado no balanço patrimonial do exercício anterior é fonte para abrir créditos suplementares e especiais. Exemplo: ativo financeiro 500 e passivo financeiro 300 dão superávit financeiro de 200; com ativo permanente de 1.200 e passivo permanente de 900, o saldo patrimonial é (500 + 1.200) − (300 + 900) = 500.",
    "esquema": {
     "rotulo": "três saldos que a banca troca",
     "html": "<table><thead><tr><th>Saldo</th><th>Como se calcula</th><th>Natureza</th><th>Para que serve</th></tr></thead><tbody><tr><td><strong>Saldo patrimonial</strong></td><td>ativo total − passivo total</td><td>estoque numa data</td><td>mostra a situação líquida (ativo real líquido ou passivo a descoberto)</td></tr><tr><td><strong>Superávit financeiro</strong></td><td>ativo financeiro − passivo financeiro, conjugando créditos adicionais transferidos e operações de crédito vinculadas</td><td>estoque numa data</td><td>fonte para créditos suplementares e especiais no exercício seguinte</td></tr><tr><td><strong>Resultado patrimonial</strong></td><td>VPA − VPD do exercício</td><td>fluxo do período</td><td>superávit ou déficit que vai para resultados acumulados</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Passivo real a descoberto",
+      "o_que_e": "Situação líquida negativa: passivo maior que o ativo, comum em entes com grande passivo atuarial reconhecido.",
+      "atencao": "Ativo real líquido é o saldo positivo; não se usa essa expressão para o negativo.",
+      "grupo": "Saldo patrimonial"
+     },
+     {
+      "nome": "Sinais opostos",
+      "o_que_e": "Um ente pode ter superávit financeiro e, ao mesmo tempo, passivo a descoberto.",
+      "atencao": "O saldo patrimonial inclui a dívida fundada e o passivo atuarial, que ficam fora do superávit financeiro.",
+      "grupo": "Saldo patrimonial"
+     },
+     {
+      "nome": "Contas de compensação",
+      "o_que_e": "Registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (art. 105, § 5º).",
+      "atencao": "São controle e não alteram o saldo patrimonial.",
+      "grupo": "Balanço"
+     },
+     {
+      "nome": "Destino do resultado",
+      "o_que_e": "O superávit ou déficit apurado na Demonstração das Variações Patrimoniais vai para resultados acumulados.",
+      "atencao": "Ajustes de exercícios anteriores também são lançados em resultados acumulados, e não como variação do exercício.",
+      "grupo": "Balanço"
+     },
+     {
+      "nome": "Saldo e resultado",
+      "o_que_e": "O saldo patrimonial é a diferença entre ativo e passivo na data do balanço e acumula todos os exercícios; o resultado patrimonial é a diferença entre VPA e VPD do período.",
+      "grupo": "Saldo patrimonial"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "SALDO É FOTO, RESULTADO É FILME",
@@ -174,8 +391,23 @@
     "gabarito": "E",
     "explicacao": "A diferença entre ativo total e passivo total é o saldo patrimonial. O superávit financeiro é a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os créditos adicionais transferidos e as operações de crédito a eles vinculadas (art. 43, § 2º, da Lei 4.320/1964)."
    },
-   "aprofundamento": "<p><strong>Passivo real a descoberto.</strong> Um ente com passivo maior que o ativo tem situação líquida negativa. Isso é comum em entes com grande passivo atuarial reconhecido. A expressão correta para o saldo negativo é passivo real a descoberto; ativo real líquido é o saldo positivo.</p><p><strong>Superávit financeiro e saldo patrimonial podem ter sinais opostos.</strong> Um ente pode ter superávit financeiro (sobra de caixa sobre restos a pagar) e, ao mesmo tempo, passivo a descoberto, porque o saldo patrimonial inclui a dívida fundada e o passivo atuarial, que ficam fora do superávit financeiro.</p><p><strong>Conta de compensação não entra no saldo.</strong> As contas de compensação registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (art. 105, § 5º). Elas são controle e não alteram o saldo patrimonial.</p><p><strong>Onde vai o resultado.</strong> O superávit ou déficit patrimonial apurado na Demonstração das Variações Patrimoniais é transferido para resultados acumulados, no patrimônio líquido. Ajustes de exercícios anteriores também são lançados em resultados acumulados, e não como variação do exercício.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Passivo maior que o ativo é ativo real líquido.",
+     "certo": "É passivo real a descoberto.",
+     "fonte": "Questões do app sobre saldo patrimonial"
+    },
+    {
+     "errado": "Com AF 500, AP 1.200, PF 300 e PP 900, o superávit financeiro é 500.",
+     "certo": "É 200; 500 é o saldo patrimonial.",
+     "fonte": "Questões do app sobre superávit financeiro"
+    },
+    {
+     "errado": "O saldo patrimonial é o resultado patrimonial do exercício.",
+     "certo": "Saldo é estoque; resultado é fluxo do período.",
+     "fonte": "Questões do app sobre saldo patrimonial"
+    }
+   ],
    "relacionados": [
     "ativo-e-passivo-no-setor-publico",
     "realizacao-e-resultado-patrimonial"
@@ -204,19 +436,99 @@
     "fato permutativo",
     "fato modificativo",
     "fato misto",
-    "receita não efetiva",
-    "despesa não efetiva",
-    "superveniência",
-    "insubsistência",
-    "enfoque orçamentário",
+    "receita nao efetiva",
+    "despesa nao efetiva",
+    "superveniencia",
+    "insubsistencia",
+    "enfoque orcamentario",
     "enfoque patrimonial"
    ],
-   "resumo": "Variação patrimonial é qualquer alteração no patrimônio. As <strong>variações qualitativas</strong> (fatos permutativos) mudam a composição dos elementos patrimoniais sem alterar o patrimônio líquido: a compra de um bem à vista, a obtenção de um empréstimo, o pagamento de uma dívida já registrada. As <strong>variações quantitativas</strong> (fatos modificativos) alteram o patrimônio líquido e se dividem em variação patrimonial aumentativa (VPA), que o aumenta, e variação patrimonial diminutiva (VPD), que o diminui. Sob o enfoque patrimonial, a receita é a VPA e a despesa é a VPD. A VPA corresponde a aumentos de benefícios econômicos ou potencial de serviços no período, por entrada de recursos, aumento de ativos ou redução de passivos, que resultem em aumento do patrimônio líquido e não sejam aportes dos proprietários. A VPD corresponde a reduções por saída de recursos, consumo de ativos ou surgimento de passivos, que resultem em diminuição do patrimônio líquido e não sejam distribuições aos proprietários. Sob o enfoque orçamentário, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas (art. 35 da Lei 4.320/1964). Os dois enfoques se cruzam: a <strong>receita orçamentária efetiva</strong> aumenta o patrimônio líquido no momento do seu reconhecimento (a receita tributária, por exemplo), enquanto a <strong>receita orçamentária não efetiva</strong> é fato permutativo, como a operação de crédito e a alienação de bens. A <strong>despesa orçamentária efetiva</strong> diminui o patrimônio líquido (pessoal, juros, material de consumo usado), enquanto a <strong>despesa orçamentária não efetiva</strong> é permutativa, como a aquisição de imóvel e a amortização da dívida. Há também VPA e VPD independentes da execução orçamentária, como a doação recebida de um bem e a depreciação.",
+   "para_entender": [
+    {
+     "texto": "<strong>Realização e resultado patrimonial:</strong> quando a VPA e a VPD são reconhecidas e como se apura o resultado.",
+     "tema": "realizacao-e-resultado-patrimonial"
+    }
+   ],
+   "resumo": "<strong>Variação patrimonial</strong> é qualquer alteração no patrimônio. As <strong>variações qualitativas</strong> (fatos permutativos) mudam a composição dos elementos patrimoniais sem alterar o patrimônio líquido, como a compra de um bem à vista, a obtenção de um empréstimo e o pagamento de uma dívida já registrada. As <strong>variações quantitativas</strong> (fatos modificativos) alteram o patrimônio líquido: a <strong>variação patrimonial aumentativa</strong> (VPA) o aumenta, e a <strong>variação patrimonial diminutiva</strong> (VPD) o diminui. Sob o enfoque patrimonial, a receita é a VPA e a despesa é a VPD. A VPA corresponde a aumentos de benefícios econômicos ou potencial de serviços no período, por entrada de recursos, aumento de ativos ou redução de passivos, que aumentem o patrimônio líquido e não sejam aportes dos proprietários. A VPD corresponde a reduções por saída de recursos, consumo de ativos ou surgimento de passivos, que diminuam o patrimônio líquido e não sejam distribuições aos proprietários. Sob o <strong>enfoque orçamentário</strong>, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas (art. 35 da Lei 4.320/1964). Os dois enfoques se cruzam: a <strong>receita orçamentária efetiva</strong> aumenta o patrimônio líquido no seu reconhecimento, e a <strong>não efetiva</strong> é fato permutativo; a <strong>despesa orçamentária efetiva</strong> diminui o patrimônio líquido, e a <strong>não efetiva</strong> é permutativa. Os exemplos de cada caso estão na tabela.",
    "esquema": {
     "rotulo": "o mesmo fato nos dois enfoques",
     "html": "<table><thead><tr><th>Fato</th><th>Enfoque orçamentário</th><th>Enfoque patrimonial</th></tr></thead><tbody><tr><td>Operação de crédito recebida</td><td>receita orçamentária não efetiva (de capital)</td><td>permutativo: entra caixa e surge passivo</td></tr><tr><td>Alienação de bem pelo valor contábil</td><td>receita orçamentária não efetiva</td><td>permutativo: sai o bem e entra caixa</td></tr><tr><td>Tributo reconhecido no fato gerador</td><td>receita orçamentária efetiva quando arrecadada</td><td>VPA no reconhecimento do crédito</td></tr><tr><td>Folha de pessoal do próprio exercício</td><td>despesa orçamentária efetiva</td><td>VPD</td></tr><tr><td>Aquisição de imóvel</td><td>despesa orçamentária não efetiva (investimento)</td><td>permutativo: sai caixa e entra o bem</td></tr><tr><td>Amortização do principal da dívida</td><td>despesa orçamentária não efetiva</td><td>permutativo: sai caixa e baixa o passivo</td></tr><tr><td>Doação recebida de bem; depreciação</td><td>sem execução orçamentária</td><td>VPA; VPD (independentes da execução orçamentária)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Art. 100 da Lei 4.320/1964",
+      "o_que_e": "As alterações da situação líquida patrimonial abrangem os resultados da execução orçamentária, as variações independentes dessa execução e as superveniências e insubsistências ativas e passivas.",
+      "grupo": "Superveniências e insubsistências"
+     },
+     {
+      "nome": "Superveniência e insubsistência",
+      "o_que_e": "Superveniência é o surgimento de um elemento patrimonial; insubsistência é o seu desaparecimento.",
+      "atencao": "Os autores divergem sobre qual fato leva o adjetivo ativa ou passiva; decida pelo efeito no patrimônio líquido.",
+      "grupo": "Superveniências e insubsistências"
+     },
+     {
+      "nome": "Cancelamento de dívida",
+      "o_que_e": "A baixa de um passivo sem saída de recursos, como o perdão ou o cancelamento de uma dívida, aumenta o patrimônio líquido: é fato modificativo, VPA.",
+      "atencao": "Não é permutativo, que só altera a composição.",
+      "grupo": "Superveniências e insubsistências"
+     },
+     {
+      "nome": "Furto de bem",
+      "o_que_e": "A baixa de um ativo sem contrapartida diminui o patrimônio líquido: VPD.",
+      "grupo": "Superveniências e insubsistências"
+     },
+     {
+      "nome": "Tributo no fato gerador",
+      "o_que_e": "Quando o crédito tributário é registrado no fato gerador, a VPA acontece nesse momento.",
+      "atencao": "A arrecadação posterior é receita orçamentária, mas no patrimônio só troca o crédito a receber por caixa.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Transferência de capital recebida",
+      "o_que_e": "É receita de capital e, mesmo assim, receita efetiva: não gera obrigação de devolver e aumenta o patrimônio líquido de quem recebe.",
+      "atencao": "Não basta ser de capital para ser não efetiva; operação de crédito e alienação de bens é que são permutativas.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Empréstimo obtido",
+      "o_que_e": "Aumenta o caixa, mas cria passivo de igual valor: variação qualitativa, e não VPA.",
+      "atencao": "A operação de crédito é receita orçamentária não efetiva.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Aporte dos proprietários",
+      "o_que_e": "O aporte de capital do ente controlador numa estatal dependente é contribuição dos proprietários, e não VPA.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Fato misto",
+      "o_que_e": "Pagar dívida com juros de mora é permutativo quanto ao principal e modificativo quanto aos juros, que são VPD.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Amortização da dívida",
+      "o_que_e": "Caixa e passivo diminuem juntos: despesa orçamentária não efetiva; os juros pagos com ela são despesa efetiva.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Alienação pelo valor contábil",
+      "o_que_e": "O bem sai e entra caixa de igual valor: permutativo.",
+      "atencao": "Só há VPA ou VPD pela diferença entre o preço e o valor contábil.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Restos a pagar não processados",
+      "o_que_e": "A despesa orçamentária pertence ao exercício do empenho (art. 35), mas a VPD é reconhecida quando ocorre o fato gerador, pela competência.",
+      "atencao": "Pertencem ao exercício as despesas nele legalmente empenhadas, e não as efetivamente pagas.",
+      "grupo": "Despesa"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "EFETIVA MEXE NO PATRIMÔNIO LÍQUIDO",
@@ -236,8 +548,53 @@
     "gabarito": "E",
     "explicacao": "A saída de caixa é compensada pela entrada do imóvel no ativo: o fato é permutativo e o patrimônio líquido não muda. Por isso a aquisição é despesa orçamentária não efetiva. Efetiva é a despesa que diminui o patrimônio líquido, como a folha de pessoal."
    },
-   "aprofundamento": "<p><strong>Superveniências e insubsistências (art. 100 da Lei 4.320/1964).</strong> As alterações da situação líquida patrimonial abrangem os resultados da execução orçamentária, as variações independentes dessa execução e as superveniências e insubsistências ativas e passivas. Superveniência é o surgimento de um elemento patrimonial e insubsistência é o seu desaparecimento. O surgimento de um ativo e a baixa de um passivo sem saída de recursos, como o cancelamento de uma dívida, aumentam o patrimônio líquido e são fatos modificativos aumentativos; o surgimento de um passivo e a baixa de um ativo, como o furto de um bem, o diminuem. Os autores divergem sobre qual desses fatos leva o adjetivo ativa ou passiva, por isso decida a questão pelo efeito no patrimônio líquido, e não pelo rótulo.</p><p><strong>Receita tributária reconhecida antes da arrecadação.</strong> Quando o crédito tributário é registrado no fato gerador, a VPA acontece nesse momento. A arrecadação posterior é receita orçamentária, mas, no patrimônio, apenas troca o crédito a receber por caixa.</p><p><strong>Transferência de capital recebida.</strong> É receita de capital e, mesmo assim, aumenta o patrimônio líquido de quem recebe, porque não gera obrigação de devolver. Não basta ser de capital para ser não efetiva.</p><p><strong>Fato misto.</strong> O pagamento de uma dívida com juros é permutativo quanto ao principal e modificativo quanto aos juros, que são VPD.</p><p><strong>Restos a pagar não processados liquidados no exercício seguinte.</strong> A despesa orçamentária pertence ao exercício do empenho (art. 35), mas a VPD é reconhecida quando ocorre o fato gerador, pela competência.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O empréstimo bancário obtido é VPA.",
+     "certo": "É variação qualitativa.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "Pagar dívida com juros de mora é fato só qualitativo.",
+     "certo": "É misto; os juros são VPD.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "Vender veículo pelo valor contábil é VPD.",
+     "certo": "É permutativo.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "Aporte do controlador na estatal dependente é VPA.",
+     "certo": "É contribuição dos proprietários.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "A operação de crédito é receita orçamentária efetiva.",
+     "certo": "É não efetiva.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "A amortização do principal é despesa orçamentária efetiva.",
+     "certo": "É não efetiva.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "Toda receita de capital é não efetiva.",
+     "certo": "A transferência de capital recebida é efetiva.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "Pertencem ao exercício as despesas nele pagas.",
+     "certo": "As nele legalmente empenhadas.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    },
+    {
+     "errado": "O cancelamento de dívida sem saída de recursos é permutativo.",
+     "certo": "É modificativo, VPA.",
+     "fonte": "Questões do app sobre variações patrimoniais"
+    }
+   ],
    "relacionados": [
     "realizacao-e-resultado-patrimonial",
     "saldo-patrimonial-e-superavit-financeiro"
@@ -261,22 +618,81 @@
     "déficit patrimonial"
    ],
    "palavras": [
-    "competência",
+    "competencia",
     "fato gerador",
     "reconhecimento",
-    "demonstração das variações patrimoniais",
+    "demonstracao das variacoes patrimoniais",
     "dvp",
-    "resultado orçamentário",
+    "resultado orcamentario",
     "resultado financeiro",
     "resultados acumulados",
-    "doações e subvenções"
+    "doacoes e subvencoes"
    ],
-   "resumo": "A <strong>realização</strong> da variação patrimonial segue o <strong>regime de competência</strong>: a VPA e a VPD são reconhecidas no período em que ocorre o fato gerador, independentemente de recebimento ou pagamento. Na contabilidade patrimonial, a VPA é reconhecida quando há aumento de benefícios econômicos ou potencial de serviços que possa ser mensurado com confiabilidade, e a VPD quando há redução que possa ser mensurada com confiabilidade. Os critérios clássicos de realização ajudam: a VPA se realiza nas transações com terceiros, quando estes pagam ou assumem compromisso firme de pagar; na extinção, parcial ou total, de um passivo sem o desaparecimento de um ativo de valor igual ou maior; na geração natural de novos ativos independentemente da intervenção de terceiros; e no recebimento efetivo de doações e subvenções. A VPD se considera incorrida quando deixa de existir o ativo, por transferência de sua propriedade a terceiro; pela diminuição ou extinção do valor econômico de um ativo; e pelo surgimento de um passivo sem o correspondente ativo. O <strong>resultado patrimonial</strong> do exercício é a diferença entre o total das VPA e o total das VPD, apurado na Demonstração das Variações Patrimoniais, que evidencia as alterações do patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial (art. 104 da Lei 4.320/1964). VPA maior que VPD dá superávit patrimonial; o contrário, déficit. O resultado é transferido para resultados acumulados, no patrimônio líquido. Resultado patrimonial não se confunde com resultado orçamentário, que compara receita arrecadada e despesa empenhada. Exemplo: VPA de 900 (tributária 700, transferências recebidas 150, doação de bem 50) e VPD de 800 dão superávit patrimonial de 100.",
+   "para_entender": [
+    {
+     "texto": "<strong>VPA e VPD:</strong> as variações quantitativas que aumentam ou diminuem o patrimônio líquido.",
+     "tema": "variacoes-patrimoniais-qualitativas-e-quantitativas"
+    }
+   ],
+   "resumo": "A <strong>realização</strong> da variação patrimonial segue o <strong>regime de competência</strong>: a VPA e a VPD são reconhecidas no período em que ocorre o <strong>fato gerador</strong>, independentemente de recebimento ou pagamento. Na contabilidade patrimonial, a VPA é reconhecida quando há aumento de benefícios econômicos ou potencial de serviços que possa ser mensurado com confiabilidade, e a VPD quando há redução que possa ser mensurada com confiabilidade. Pelos critérios clássicos, a VPA se realiza nas transações com terceiros, quando estes pagam ou assumem compromisso firme de pagar; na extinção, parcial ou total, de um passivo sem o desaparecimento de um ativo de valor igual ou maior; na geração natural de novos ativos independentemente da intervenção de terceiros; e no recebimento efetivo de doações e subvenções. A VPD se considera incorrida quando deixa de existir o ativo, por transferência de sua propriedade a terceiro; pela diminuição ou extinção do valor econômico de um ativo; e pelo surgimento de um passivo sem o correspondente ativo. O <strong>resultado patrimonial</strong> do exercício é a diferença entre o total das VPA e o total das VPD, apurado na Demonstração das Variações Patrimoniais (DVP), que evidencia as alterações do patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial (art. 104 da Lei 4.320/1964). VPA maior que VPD dá <strong>superávit patrimonial</strong>; o contrário, déficit. O resultado vai para resultados acumulados, no patrimônio líquido, e não se confunde com o <strong>resultado orçamentário</strong>, que compara receita arrecadada e despesa empenhada. Exemplo: VPA de 900 (tributária 700, transferências recebidas 150, doação de bem 50) e VPD de 800 dão superávit patrimonial de 100.",
    "esquema": {
     "rotulo": "resultado patrimonial × resultado orçamentário",
     "html": "<table><thead><tr><th>Fato</th><th>Resultado orçamentário</th><th>Resultado patrimonial</th></tr></thead><tbody><tr><td>Operação de crédito de 100</td><td>aumenta (receita de 100)</td><td>não muda (permutativo)</td></tr><tr><td>Compra de imóvel de 100</td><td>diminui (despesa de 100)</td><td>não muda (permutativo)</td></tr><tr><td>Depreciação de 30</td><td>não muda (sem execução orçamentária)</td><td>diminui (VPD de 30)</td></tr><tr><td>Doação recebida de bem de 50</td><td>não muda</td><td>aumenta (VPA de 50)</td></tr><tr><td>Folha de pessoal de 80, empenhada e liquidada</td><td>diminui (despesa de 80)</td><td>diminui (VPD de 80)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Doações e subvenções",
+      "o_que_e": "Pelo critério clássico, a VPA se realiza no recebimento efetivo, e não no momento da promessa formal do doador.",
+      "atencao": "Se a doação vem com condição que obriga a devolução em caso de descumprimento, reconhece-se um passivo até que a condição seja cumprida.",
+      "grupo": "Realização da VPA"
+     },
+     {
+      "nome": "Geração natural de ativos",
+      "o_que_e": "O nascimento de animais de um rebanho público é VPA sem intervenção de terceiros e sem execução orçamentária.",
+      "grupo": "Realização da VPA"
+     },
+     {
+      "nome": "Perdão e pagamento",
+      "o_que_e": "O perdão de uma dívida pelo credor é VPA, porque o passivo desaparece sem saída de ativo.",
+      "atencao": "O pagamento não é VPA: o passivo some junto com o caixa, no mesmo valor.",
+      "grupo": "Realização da VPA"
+     },
+     {
+      "nome": "Surgimento de passivo",
+      "o_que_e": "Um passivo sem o correspondente ativo, como a multa contratual devida pelo ente, já caracteriza VPD incorrida.",
+      "atencao": "A VPD não espera o desembolso, que só baixa o passivo.",
+      "grupo": "VPD incorrida"
+     },
+     {
+      "nome": "Folha de dezembro",
+      "o_que_e": "O fato gerador é o serviço prestado em dezembro: a VPD entra em dezembro, e o pagamento em janeiro só baixa o passivo.",
+      "grupo": "VPD incorrida"
+     },
+     {
+      "nome": "Competência na LRF",
+      "o_que_e": "A despesa e a assunção de compromisso são registradas pelo regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II, da LRF).",
+      "grupo": "Normas"
+     },
+     {
+      "nome": "DVP e alienação de ativos",
+      "o_que_e": "A DVP dá destaque à origem e ao destino dos recursos da alienação de ativos (art. 50, VI, da LRF).",
+      "atencao": "O ganho ou a perda na alienação, e não o valor recebido, entra como VPA ou VPD.",
+      "grupo": "Normas"
+     },
+     {
+      "nome": "DVP e Balanço Financeiro",
+      "o_que_e": "A DVP indica o resultado patrimonial (art. 104); o resultado financeiro aparece no Balanço Financeiro.",
+      "grupo": "Normas"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Num exercício com operação de crédito de 100, depreciação de 30 e doação recebida de bem de 50, o resultado patrimonial é superávit de 20 (50 − 30): a operação de crédito é permutativa e fica fora."
+   ],
    "macetes": [
     {
      "sigla": "COMPETÊNCIA OLHA O FATO GERADOR",
@@ -292,8 +708,48 @@
     "gabarito": "E",
     "explicacao": "A operação de crédito é receita orçamentária (aumenta o resultado orçamentário), mas, no patrimônio, entra caixa e surge um passivo de igual valor. É fato permutativo, sem VPA, e não altera o resultado patrimonial."
    },
-   "aprofundamento": "<p><strong>Doações e subvenções.</strong> Pelo critério clássico, a VPA de doações e subvenções se realiza no recebimento efetivo. Se a doação vem com condição que obriga a devolução em caso de descumprimento, a norma de receita sem contraprestação manda reconhecer um passivo até que a condição seja cumprida.</p><p><strong>Geração natural de ativos.</strong> O nascimento de animais de um rebanho público é VPA sem intervenção de terceiros e sem execução orçamentária.</p><p><strong>Extinção de passivo.</strong> O perdão de uma dívida do ente pelo credor é VPA, porque o passivo desaparece sem saída de ativo. Já o pagamento da dívida não é VPA: o passivo some junto com o caixa.</p><p><strong>Competência na LRF.</strong> A despesa e a assunção de compromisso serão registradas segundo o regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II, da LRF).</p><p><strong>DVP e alienação de ativos.</strong> A Demonstração das Variações Patrimoniais dará destaque à origem e ao destino dos recursos provenientes da alienação de ativos (art. 50, VI, da LRF). O ganho ou a perda na alienação, e não o valor recebido, é que entra como VPA ou VPD.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A VPD da folha de dezembro entra em janeiro, quando é paga.",
+     "certo": "Entra em dezembro.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "A VPA de doação se realiza na promessa formal.",
+     "certo": "Realiza-se no recebimento efetivo.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "Pagar uma dívida é VPA, pois extingue passivo.",
+     "certo": "É permutativo; sai caixa no mesmo valor.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "A VPD só é incorrida com o desembolso.",
+     "certo": "O surgimento de passivo sem ativo já a caracteriza.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "A DVP indica o resultado financeiro.",
+     "certo": "Indica o resultado patrimonial.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "Comprar imóvel de 100 reduz em 100 o resultado patrimonial.",
+     "certo": "Reduz o resultado orçamentário; no patrimônio é permutativo.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "Resultado patrimonial é receita arrecadada menos despesa empenhada.",
+     "certo": "Isso é o resultado orçamentário; o patrimonial é VPA menos VPD.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    },
+    {
+     "errado": "Operação de crédito de 100, depreciação de 30 e doação de 50 dão superávit de 120.",
+     "certo": "O superávit é de 20.",
+     "fonte": "Questões do app sobre resultado patrimonial"
+    }
+   ],
    "relacionados": [
     "variacoes-patrimoniais-qualitativas-e-quantitativas",
     "saldo-patrimonial-e-superavit-financeiro"
@@ -317,25 +773,101 @@
    "palavras": [
     "nbc tsp 07",
     "reconhecimento",
-    "mensuração inicial",
+    "mensuracao inicial",
     "custo",
-    "transação sem contraprestação",
-    "doação",
+    "transacao sem contraprestacao",
+    "doacao",
     "modelo do custo",
-    "modelo da reavaliação",
+    "modelo da reavaliacao",
     "gastos subsequentes",
-    "manutenção",
+    "manutencao",
     "baixa",
     "propriedade para investimento",
-    "patrimônio cultural",
-    "inventário"
+    "patrimonio cultural",
+    "inventario"
    ],
-   "resumo": "<strong>Ativo imobilizado</strong> é o item tangível mantido para uso na produção ou no fornecimento de bens ou serviços, ou para fins administrativos, e que se espera utilizar por mais de um período. Inclui bens móveis, imóveis e bens de infraestrutura, como estradas e redes de saneamento. O item é reconhecido quando for provável que benefícios econômicos futuros ou potencial de serviços associados a ele fluam para a entidade e quando seu custo ou valor justo puder ser mensurado com confiabilidade. Na <strong>mensuração inicial</strong>, o item é registrado pelo custo, que inclui o preço de compra, os tributos de importação e os não recuperáveis, deduzidos descontos e abatimentos, os custos diretamente atribuíveis para colocar o ativo no local e na condição de funcionar e a estimativa inicial dos custos de desmontagem, remoção e restauração do local. Quando o ativo é adquirido por transação sem contraprestação, como uma doação, o custo é o seu valor justo na data da aquisição. A Lei 4.320/1964 manda avaliar os bens móveis e imóveis pelo valor de aquisição ou pelo custo de produção ou de construção (art. 106, II). Depois do reconhecimento, a entidade escolhe, para cada classe de bens, o <strong>modelo do custo</strong> (custo menos depreciação acumulada e perdas por redução ao valor recuperável) ou o <strong>modelo da reavaliação</strong> (valor justo na data da reavaliação menos depreciação e perdas posteriores). Gastos de manutenção diária são VPD do período; gastos que aumentam a vida útil, a capacidade ou a qualidade do serviço são incorporados ao ativo. Na baixa, a diferença entre o valor líquido da alienação e o valor contábil vai ao resultado, como VPA ou VPD.",
+   "para_entender": [
+    {
+     "texto": "<strong>Depreciação:</strong> a redução do valor do bem tangível ao longo da vida útil.",
+     "tema": "depreciacao-amortizacao-e-exaustao"
+    },
+    {
+     "texto": "<strong>Reavaliação e impairment:</strong> o modelo da reavaliação e a perda por redução ao valor recuperável.",
+     "tema": "reavaliacao-e-reducao-ao-valor-recuperavel"
+    }
+   ],
+   "resumo": "<strong>Ativo imobilizado</strong> é o item tangível mantido para uso na produção ou no fornecimento de bens ou serviços, ou para fins administrativos, e que se espera utilizar por mais de um período. Inclui bens móveis, imóveis e <strong>bens de infraestrutura</strong>, como estradas e redes de saneamento. O item é <strong>reconhecido</strong> quando for provável que benefícios econômicos futuros ou potencial de serviços associados a ele fluam para a entidade e quando seu custo ou valor justo puder ser mensurado com confiabilidade. Na <strong>mensuração inicial</strong>, o item é registrado pelo <strong>custo</strong>, que inclui o preço de compra, os tributos de importação e os não recuperáveis, deduzidos descontos e abatimentos, os custos diretamente atribuíveis para colocar o ativo no local e na condição de funcionar e a estimativa inicial dos custos de desmontagem, remoção e restauração do local. Quando o ativo é adquirido por <strong>transação sem contraprestação</strong>, como uma doação, o custo é o seu <strong>valor justo</strong> na data da aquisição. A Lei 4.320/1964 manda avaliar os bens móveis e imóveis pelo valor de aquisição ou pelo custo de produção ou de construção (art. 106, II). Depois do reconhecimento, a entidade escolhe, para cada classe de bens, o <strong>modelo do custo</strong> (custo menos depreciação acumulada e perdas por redução ao valor recuperável) ou o <strong>modelo da reavaliação</strong> (valor justo na data da reavaliação menos depreciação e perdas posteriores). Na baixa, a diferença entre o valor líquido da alienação e o valor contábil vai ao resultado, como VPA ou VPD. O que entra ou não no custo está na tabela.",
    "esquema": {
     "rotulo": "o que vai para o custo do imobilizado",
     "html": "<table><thead><tr><th>Gasto</th><th>Tratamento</th></tr></thead><tbody><tr><td>Preço de compra, frete, instalação, montagem e testes</td><td>compõem o custo</td></tr><tr><td>Tributos não recuperáveis e de importação</td><td>compõem o custo; tributo recuperável não entra</td></tr><tr><td>Estimativa de desmontagem, remoção e restauração do local</td><td>compõe o custo, com provisão em contrapartida</td></tr><tr><td>Treinamento de pessoal, publicidade, custos administrativos gerais</td><td>VPD, não entram no custo</td></tr><tr><td>Bem recebido em doação</td><td>valor justo na data da aquisição</td></tr><tr><td>Manutenção e reparos de rotina</td><td>VPD do período</td></tr><tr><td>Reforma que aumenta vida útil ou capacidade</td><td>incorporada ao valor do ativo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Bem de uso comum",
+      "o_que_e": "Estradas e pontes construídas com recursos públicos são bens de infraestrutura e entram no imobilizado quando atendem aos critérios de reconhecimento.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Patrimônio cultural",
+      "o_que_e": "A NBC TSP 07 não obriga a reconhecer ativos do patrimônio cultural, pela dificuldade de mensurá-los; se reconhecidos, aplicam-se as exigências de divulgação.",
+      "atencao": "Um prédio histórico usado como sede administrativa é tratado como qualquer imobilizado.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Propriedade para investimento",
+      "o_que_e": "Imóvel mantido para renda de aluguel ou valorização, e não para uso nos serviços, segue norma própria, e não a de imobilizado.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Obras em andamento",
+      "o_que_e": "O custo acumulado fica no imobilizado em andamento e não é depreciado até o bem estar disponível para uso.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Bem recebido em doação",
+      "o_que_e": "Mensurado pelo valor justo na data da aquisição, em contrapartida de VPA.",
+      "atencao": "Não pelo valor contábil do doador nem por valor simbólico.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Tributo recuperável",
+      "o_que_e": "Não integra o custo: vai a um ativo de tributo a recuperar.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Treinamento",
+      "o_que_e": "O treinamento dos servidores que vão operar o equipamento não é custo diretamente atribuível: é VPD do período.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Escolha por classe",
+      "o_que_e": "Se um imóvel é reavaliado, toda a classe a que ele pertence é reavaliada, para evitar escolha seletiva de valores.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Registros analíticos e sintéticos",
+      "o_que_e": "Registros analíticos de todos os bens de caráter permanente, com os agentes responsáveis pela guarda (art. 94); registros sintéticos dos bens móveis e imóveis na contabilidade (art. 95); levantamento geral pelo inventário analítico de cada unidade e pela escrituração sintética (art. 96).",
+      "grupo": "Lei 4.320/1964"
+     },
+     {
+      "nome": "Material permanente",
+      "o_que_e": "Para classificar a despesa, é o de duração superior a dois anos (art. 15, § 2º).",
+      "atencao": "Critério orçamentário; o reconhecimento no imobilizado segue a norma contábil.",
+      "grupo": "Lei 4.320/1964"
+     },
+     {
+      "nome": "Almoxarifado",
+      "o_que_e": "Os bens de almoxarifado são avaliados pelo preço médio ponderado das compras (art. 106, III), e não pelo preço da última compra.",
+      "atencao": "São estoques, e não imobilizado.",
+      "grupo": "Lei 4.320/1964"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "DOAÇÃO ENTRA PELO VALOR JUSTO",
@@ -355,8 +887,38 @@
     "gabarito": "E",
     "explicacao": "Na transação sem contraprestação, o ativo é mensurado pelo valor justo na data da aquisição, em contrapartida de VPA. A falta de desembolso não autoriza valor simbólico."
    },
-   "aprofundamento": "<p><strong>Controle, e não título.</strong> Bens de uso comum do povo construídos com recursos públicos, como estradas e pontes, são bens de infraestrutura e entram no imobilizado quando atendem aos critérios de reconhecimento.</p><p><strong>Patrimônio cultural.</strong> A NBC TSP 07 não obriga a entidade a reconhecer ativos do patrimônio cultural, pela dificuldade de mensurá-los; se forem reconhecidos, aplicam-se as exigências de divulgação da norma. Um prédio histórico usado como sede administrativa é tratado como qualquer imobilizado.</p><p><strong>Propriedade para investimento.</strong> Imóvel mantido para renda de aluguel ou valorização, e não para uso nos serviços, segue a norma própria de propriedade para investimento, e não a de imobilizado.</p><p><strong>Registros da Lei 4.320/1964.</strong> Haverá registros analíticos de todos os bens de caráter permanente, com os agentes responsáveis pela guarda (art. 94); a contabilidade mantém registros sintéticos dos bens móveis e imóveis (art. 95); e o levantamento geral dos bens se baseia no inventário analítico de cada unidade e na escrituração sintética (art. 96).</p><p><strong>Material permanente.</strong> Para classificar a despesa, considera-se material permanente o de duração superior a dois anos (art. 15, § 2º, da Lei 4.320/1964). Esse é um critério orçamentário; o reconhecimento no imobilizado segue a norma contábil.</p><p><strong>Almoxarifado.</strong> Os bens de almoxarifado são avaliados pelo preço médio ponderado das compras (art. 106, III, da Lei 4.320/1964). São estoques, e não imobilizado.</p><p><strong>Obras em andamento.</strong> O custo acumulado fica no imobilizado em andamento e não é depreciado até o bem estar disponível para uso.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Bem doado entra pelo valor contábil do doador.",
+     "certo": "Entra pelo valor justo na data da aquisição.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    },
+    {
+     "errado": "O treinamento dos operadores compõe o custo do equipamento.",
+     "certo": "É VPD do período.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    },
+    {
+     "errado": "Todos os tributos, inclusive os recuperáveis, integram o custo.",
+     "certo": "Só os não recuperáveis e os de importação.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    },
+    {
+     "errado": "Pode-se reavaliar um único imóvel e manter a classe pelo custo.",
+     "certo": "O modelo vale para a classe inteira.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    },
+    {
+     "errado": "O almoxarifado é avaliado pelo preço da última compra.",
+     "certo": "Pelo preço médio ponderado.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    },
+    {
+     "errado": "A NBC TSP 07 obriga a reconhecer todo o patrimônio cultural.",
+     "certo": "Não obriga.",
+     "fonte": "Questões do app sobre ativo imobilizado"
+    }
+   ],
    "relacionados": [
     "depreciacao-amortizacao-e-exaustao",
     "reavaliacao-e-reducao-ao-valor-recuperavel",
@@ -380,24 +942,68 @@
    ],
    "palavras": [
     "nbc tsp 08",
-    "separável",
+    "separavel",
     "direitos contratuais",
     "software",
-    "licença",
+    "licenca",
     "marca gerada internamente",
     "fase de pesquisa",
     "fase de desenvolvimento",
-    "amortização",
-    "vida útil definida",
+    "amortizacao",
+    "vida util definida",
     "teste anual",
     "mercado ativo"
    ],
-   "resumo": "<strong>Ativo intangível</strong> é o ativo não monetário, sem substância física, identificável. É <strong>identificável</strong> quando é separável, isto é, pode ser vendido, transferido, licenciado ou trocado, ou quando resulta de compromissos obrigatórios, como contratos ou outros direitos legais, ainda que não seja separável. Além disso, a entidade precisa controlá-lo e esperar dele benefícios econômicos futuros ou potencial de serviços. São exemplos softwares, licenças, patentes, direitos autorais e direitos de uso. O reconhecimento exige que esses benefícios sejam prováveis e que o custo ou valor justo possa ser mensurado com confiabilidade; a mensuração inicial é pelo custo, ou pelo valor justo na data da aquisição quando obtido sem contraprestação. No intangível gerado internamente, a norma separa duas fases: os gastos da <strong>fase de pesquisa</strong> são sempre reconhecidos como VPD; os da <strong>fase de desenvolvimento</strong> podem ser ativados se a entidade demonstrar, entre outros requisitos, a viabilidade técnica de concluir o ativo, a intenção e a capacidade de usá-lo ou vendê-lo, como ele gerará benefícios ou potencial de serviços, a disponibilidade de recursos para concluí-lo e a mensuração confiável dos gastos. Marcas, títulos de publicações, listas de usuários e itens semelhantes gerados internamente não são reconhecidos como intangível. Quanto à vida útil, o intangível de <strong>vida útil definida</strong> é amortizado; o de <strong>vida útil indefinida</strong> não é amortizado, mas é testado quanto à redução ao valor recuperável anualmente e sempre que houver indício de perda, e a vida útil indefinida é revisada a cada período. O modelo da reavaliação só cabe ao intangível quando o valor justo puder ser obtido em mercado ativo.",
+   "resumo": "<strong>Ativo intangível</strong> é o ativo não monetário, sem substância física, identificável. É <strong>identificável</strong> quando é separável, isto é, pode ser vendido, transferido, licenciado ou trocado, ou quando resulta de compromissos obrigatórios, como contratos ou outros direitos legais, ainda que não seja separável; basta um dos dois caminhos. A entidade precisa ainda controlá-lo e esperar dele benefícios econômicos futuros ou potencial de serviços. São exemplos softwares, licenças, patentes, direitos autorais e direitos de uso. O reconhecimento exige que esses benefícios sejam prováveis e que o custo ou valor justo possa ser mensurado com confiabilidade; a mensuração inicial é pelo custo, ou pelo valor justo na data da aquisição quando obtido sem contraprestação. No intangível gerado internamente, os gastos da <strong>fase de pesquisa</strong> são sempre reconhecidos como VPD, porque ainda não se sabe se haverá ativo; os da <strong>fase de desenvolvimento</strong> podem ser ativados se a entidade demonstrar, entre outros requisitos, a viabilidade técnica de concluir o ativo, a intenção e a capacidade de usá-lo ou vendê-lo, como ele gerará benefícios ou potencial de serviços, a disponibilidade de recursos para concluí-lo e a mensuração confiável dos gastos. Quanto à vida útil, o intangível de <strong>vida útil definida</strong> é amortizado; o de <strong>vida útil indefinida</strong> (sem limite previsível hoje) não é amortizado, mas é testado quanto à redução ao valor recuperável anualmente e sempre que houver indício de perda, e a vida útil indefinida é revisada a cada período. O <strong>modelo da reavaliação</strong> só cabe ao intangível quando o valor justo puder ser obtido em <strong>mercado ativo</strong>.",
    "esquema": {
     "rotulo": "imobilizado ou intangível, ativo ou VPD",
     "html": "<table><thead><tr><th>Situação</th><th>Tratamento</th></tr></thead><tbody><tr><td>Software sem o qual o equipamento não funciona (sistema operacional embarcado)</td><td>integra o imobilizado</td></tr><tr><td>Software adquirido separadamente (sistema de arrecadação)</td><td>intangível</td></tr><tr><td>Gastos da fase de pesquisa</td><td>sempre VPD</td></tr><tr><td>Gastos da fase de desenvolvimento que atendem aos requisitos</td><td>intangível</td></tr><tr><td>Marca, lista de usuários, títulos gerados internamente</td><td>não se reconhecem como ativo</td></tr><tr><td>Vida útil definida</td><td>amortização sistemática</td></tr><tr><td>Vida útil indefinida</td><td>sem amortização; teste anual de recuperabilidade</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Fases que não se separam",
+      "o_que_e": "Se não dá para distinguir a pesquisa do desenvolvimento num projeto interno, todo o gasto é tratado como pesquisa, isto é, VPD.",
+      "grupo": "Gerado internamente"
+     },
+     {
+      "nome": "Gasto lançado como VPD",
+      "o_que_e": "O gasto reconhecido inicialmente como VPD não é reconhecido depois como parte do custo do ativo.",
+      "grupo": "Gerado internamente"
+     },
+     {
+      "nome": "Marcas, listas e ágio internos",
+      "o_que_e": "Marcas, títulos de publicações, listas de usuários e o ágio por expectativa de rentabilidade futura gerados internamente não são reconhecidos como intangível.",
+      "atencao": "O gasto com eles não se distingue do custo de desenvolver as atividades como um todo.",
+      "grupo": "Gerado internamente"
+     },
+     {
+      "nome": "Software embarcado",
+      "o_que_e": "O software sem o qual o equipamento não funciona integra o imobilizado; o adquirido separadamente é intangível.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Valor amortizável",
+      "o_que_e": "Apropriado de forma sistemática ao longo da vida útil, a partir de quando o ativo está disponível para uso.",
+      "atencao": "O valor residual é presumido zero, salvo compromisso de terceiro de comprá-lo ou mercado ativo.",
+      "grupo": "Vida útil"
+     },
+     {
+      "nome": "Indefinida que vira definida",
+      "o_que_e": "A mudança é tratada como mudança de estimativa, de forma prospectiva, e o ativo passa a ser amortizado.",
+      "grupo": "Vida útil"
+     },
+     {
+      "nome": "Reavaliação na prática",
+      "o_que_e": "Raramente há mercado ativo para softwares, patentes e licenças específicas; a regra prática é o modelo do custo.",
+      "grupo": "Mensuração"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "PESQUISA NUNCA VIRA ATIVO",
@@ -417,8 +1023,28 @@
     "gabarito": "E",
     "explicacao": "Intangível de vida útil indefinida não é amortizado. Ele é testado quanto à redução ao valor recuperável anualmente e sempre que houver indício de perda, e a vida útil é revista a cada período."
    },
-   "aprofundamento": "<p><strong>Quando não dá para separar as fases.</strong> Se a entidade não consegue distinguir a fase de pesquisa da fase de desenvolvimento de um projeto interno, trata todo o gasto como se fosse da fase de pesquisa, isto é, como VPD.</p><p><strong>Gasto já lançado como VPD não volta.</strong> O gasto com um item intangível reconhecido inicialmente como VPD não é reconhecido depois como parte do custo do ativo.</p><p><strong>Ágio e marcas internas.</strong> O ágio derivado da expectativa de rentabilidade futura gerado internamente não é reconhecido como ativo, assim como marcas e listas de usuários geradas internamente, porque seus gastos não se distinguem do custo de desenvolver as atividades como um todo.</p><p><strong>Revisão da vida útil indefinida.</strong> Se a revisão concluir que a vida útil passou a ser definida, a mudança é tratada como mudança de estimativa, de forma prospectiva, e o ativo passa a ser amortizado.</p><p><strong>Reavaliação.</strong> Como raramente há mercado ativo para softwares, patentes e licenças específicas, a regra prática é o modelo do custo. A reavaliação do intangível exige mercado ativo.</p><p><strong>Amortização.</strong> O valor amortizável do intangível de vida útil definida é apropriado de forma sistemática ao longo da vida útil, a partir de quando o ativo está disponível para uso; o valor residual é presumido zero, salvo compromisso de terceiro de comprá-lo ou mercado ativo.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Gastos de pesquisa são ativados se o potencial de serviços for provável.",
+     "certo": "Pesquisa é sempre VPD.",
+     "fonte": "Questões do app sobre ativo intangível"
+    },
+    {
+     "errado": "O intangível de vida indefinida é amortizado e só testado com indício.",
+     "certo": "Não é amortizado e é testado anualmente.",
+     "fonte": "Questões do app sobre ativo intangível"
+    },
+    {
+     "errado": "Direito contratual só é identificável se for separável.",
+     "certo": "Basta resultar de contrato ou direito legal.",
+     "fonte": "Questões do app sobre ativo intangível"
+    },
+    {
+     "errado": "Marcas e listas de usuários internas podem ser ativadas pelo custo.",
+     "certo": "Não são reconhecidas como intangível.",
+     "fonte": "Questões do app sobre ativo intangível"
+    }
+   ],
    "relacionados": [
     "depreciacao-amortizacao-e-exaustao",
     "ativo-imobilizado-setor-publico",
@@ -443,22 +1069,62 @@
    ],
    "palavras": [
     "valor justo",
-    "reserva de reavaliação",
+    "reserva de reavaliacao",
     "ativo gerador de caixa",
-    "ativo não gerador de caixa",
-    "valor recuperável de serviço",
-    "custo de reposição depreciado",
-    "reversão",
+    "ativo nao gerador de caixa",
+    "valor recuperavel de servico",
+    "custo de reposicao depreciado",
+    "reversao",
     "nbc tsp 09",
     "nbc tsp 10",
-    "indício de perda"
+    "indicio de perda"
    ],
-   "resumo": "A <strong>reavaliação</strong> ajusta o valor contábil do ativo ao seu valor justo e é uma política de mensuração subsequente: a entidade que adota o modelo da reavaliação deve reavaliar toda a classe a que o bem pertence, com regularidade suficiente para que o valor contábil não difira materialmente do valor justo na data das demonstrações. A Lei 4.320/1964 já admitia: poderão ser feitas reavaliações dos bens móveis e imóveis (art. 106, § 3º). O aumento do valor contábil vai para a <strong>reserva de reavaliação</strong>, no patrimônio líquido, salvo quando reverte uma redução da mesma classe reconhecida antes no resultado, caso em que é VPA até esse limite. A diminuição é VPD, salvo na parte que puder ser debitada da reserva de reavaliação existente para a mesma classe. A <strong>redução ao valor recuperável</strong> (impairment) é outra coisa: é a perda reconhecida quando o valor contábil supera o valor recuperável. Em cada data de demonstrações, a entidade avalia se há indício de perda; havendo, estima o valor recuperável. Para o <strong>ativo gerador de caixa</strong> (mantido para gerar retorno comercial), o valor recuperável é o maior entre o valor justo menos os custos de alienação e o valor em uso, que é o valor presente dos fluxos de caixa futuros. Para o <strong>ativo não gerador de caixa</strong>, o valor recuperável de serviço é o maior entre o valor justo menos os custos de alienação e o valor em uso, medido pelo potencial de serviços remanescente, por exemplo pelo custo de reposição depreciado. A perda é VPD, ou reduz a reserva de reavaliação se o ativo for reavaliado, e pode ser revertida depois, até o valor contábil que existiria sem a perda. Exemplo: valor contábil 500.000, valor justo menos custos de alienação 420.000 e valor em uso 450.000. O valor recuperável é 450.000 (o maior) e a perda é de 50.000.",
+   "para_entender": [
+    {
+     "texto": "<strong>Modelo do custo e modelo da reavaliação:</strong> a escolha da mensuração subsequente do imobilizado, por classe.",
+     "tema": "ativo-imobilizado-setor-publico"
+    }
+   ],
+   "resumo": "A <strong>reavaliação</strong> ajusta o valor contábil do ativo ao seu <strong>valor justo</strong> e é uma política de mensuração subsequente: quem adota o modelo da reavaliação reavalia toda a classe a que o bem pertence, com regularidade suficiente para que o valor contábil não difira materialmente do valor justo na data das demonstrações. A Lei 4.320/1964 já admitia: poderão ser feitas reavaliações dos bens móveis e imóveis (art. 106, § 3º). O aumento do valor contábil vai para a <strong>reserva de reavaliação</strong>, no patrimônio líquido, salvo quando reverte uma redução da mesma classe reconhecida antes no resultado, caso em que é VPA até esse limite. A diminuição é VPD, salvo na parte que puder ser debitada da reserva existente para a mesma classe. A <strong>redução ao valor recuperável</strong> (impairment) é a perda reconhecida quando o valor contábil supera o <strong>valor recuperável</strong>. Em cada data de demonstrações, a entidade avalia se há indício de perda; havendo, estima o valor recuperável. Para o <strong>ativo gerador de caixa</strong> (mantido para gerar retorno comercial), o valor recuperável é o maior entre o valor justo menos os custos de alienação e o <strong>valor em uso</strong>, que é o valor presente dos fluxos de caixa futuros. Para o <strong>ativo não gerador de caixa</strong>, o valor recuperável de serviço é o maior entre o valor justo menos os custos de alienação e o valor em uso medido pelo potencial de serviços remanescente. A perda é VPD, ou reduz a reserva se o ativo for reavaliado, e pode ser revertida em exercício posterior, limitada ao valor contábil que o ativo teria se a perda não tivesse sido reconhecida. Exemplo: valor contábil 500.000, valor justo menos custos de alienação 420.000 e valor em uso 450.000: o valor recuperável é 450.000, o maior, e a perda é de 50.000.",
    "esquema": {
     "rotulo": "reavaliação × redução ao valor recuperável",
     "html": "<table><thead><tr><th>Aspecto</th><th>Reavaliação</th><th>Redução ao valor recuperável</th></tr></thead><tbody><tr><td>Natureza</td><td>política de mensuração (modelo da reavaliação)</td><td>teste obrigatório quando há indício de perda</td></tr><tr><td>Direção</td><td>aumenta ou diminui</td><td>só reduz (a reversão volta, no máximo, ao valor sem perda)</td></tr><tr><td>Base</td><td>valor justo</td><td>valor recuperável: maior entre valor justo menos custos de alienação e valor em uso</td></tr><tr><td>Alcance</td><td>toda a classe do bem</td><td>ativo individual ou unidade geradora de caixa</td></tr><tr><td>Aumento</td><td>reserva de reavaliação (VPA se reverte redução anterior no resultado)</td><td>reversão de perda: VPA</td></tr><tr><td>Redução</td><td>VPD, salvo saldo de reserva da mesma classe</td><td>VPD, salvo saldo de reserva do ativo reavaliado</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Gerador ou não gerador de caixa",
+      "o_que_e": "Decide o objetivo de manter o ativo: hospital público que atende a população sem cobrança é não gerador, ainda que cobre algumas taxas; imóvel alugado a preço de mercado por uma autarquia para obter retorno é gerador.",
+      "grupo": "Impairment"
+     },
+     {
+      "nome": "Valor em uso do não gerador",
+      "o_que_e": "Medido pelo valor presente do potencial de serviços remanescente, por abordagens como custo de reposição depreciado, custo de restauração e unidades de serviço.",
+      "atencao": "Não pelo valor presente dos fluxos de caixa, medida do gerador de caixa.",
+      "grupo": "Impairment"
+     },
+     {
+      "nome": "Indícios de perda",
+      "o_que_e": "Paralisação da construção, dano físico, queda da demanda pelo serviço e decisão de deixar de usar o bem.",
+      "atencao": "O imobilizado não é testado todo ano sem indício; o teste anual vale para o intangível de vida útil indefinida e o ainda não disponível para uso.",
+      "grupo": "Impairment"
+     },
+     {
+      "nome": "Depreciação depois do ajuste",
+      "o_que_e": "Após a reavaliação ou a perda, a depreciação seguinte é recalculada sobre o novo valor contábil, pela vida útil remanescente.",
+      "grupo": "Efeitos"
+     },
+     {
+      "nome": "Frequência",
+      "o_que_e": "Itens com variações significativas no valor justo podem exigir reavaliação anual; com variações pouco relevantes, a NBC TSP 07 admite a cada três ou cinco anos.",
+      "grupo": "Reavaliação"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "RECUPERÁVEL É O MAIOR DOS DOIS",
@@ -478,8 +1144,28 @@
     "gabarito": "E",
     "explicacao": "O valor recuperável é o maior dos dois. A lógica é que a entidade escolhe a melhor forma de recuperar o ativo: vendê-lo ou continuar a usá-lo."
    },
-   "aprofundamento": "<p><strong>Gerador ou não gerador de caixa.</strong> O que decide é o objetivo de manter o ativo. Um hospital público que atende a população sem cobrança é ativo não gerador de caixa, ainda que cobre algumas taxas; um imóvel alugado a preço de mercado por uma autarquia para obter retorno é gerador de caixa.</p><p><strong>Valor em uso do não gerador de caixa.</strong> Como esse ativo não gera fluxo de caixa, o valor em uso é medido pelo valor presente do potencial de serviços remanescente, por abordagens como o custo de reposição depreciado, o custo de restauração e as unidades de serviço.</p><p><strong>Indícios.</strong> São exemplos de indício de perda a paralisação da construção, o dano físico, a queda da demanda pelo serviço e a decisão de deixar de usar o bem. A entidade avalia os indícios em cada data de demonstrações; o teste anual sem indício só é exigido para o intangível de vida útil indefinida e o ainda não disponível para uso.</p><p><strong>Depreciação depois do ajuste.</strong> Após a reavaliação ou o reconhecimento da perda, a depreciação dos períodos seguintes é recalculada sobre o novo valor contábil, pela vida útil remanescente.</p><p><strong>Frequência da reavaliação.</strong> Itens com variações significativas no valor justo podem exigir reavaliação anual; para itens com variações pouco relevantes, a NBC TSP 07 admite reavaliação a cada três ou cinco anos.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O aumento por reavaliação é, em regra, VPA.",
+     "certo": "Vai para a reserva de reavaliação.",
+     "fonte": "Questões do app sobre reavaliação e impairment"
+    },
+    {
+     "errado": "Com contábil 500.000, VJ − custos 420.000 e uso 450.000, a perda é 80.000.",
+     "certo": "É 50.000: usa-se o maior.",
+     "fonte": "Questões do app sobre reavaliação e impairment"
+    },
+    {
+     "errado": "O valor em uso do não gerador de caixa é o valor presente dos fluxos de caixa.",
+     "certo": "É o do potencial de serviços remanescente.",
+     "fonte": "Questões do app sobre reavaliação e impairment"
+    },
+    {
+     "errado": "Todo o imobilizado é testado anualmente, haja ou não indício.",
+     "certo": "Só com indício.",
+     "fonte": "Questões do app sobre reavaliação e impairment"
+    }
+   ],
    "relacionados": [
     "ativo-imobilizado-setor-publico",
     "depreciacao-amortizacao-e-exaustao",
@@ -503,24 +1189,74 @@
     "valor residual"
    ],
    "palavras": [
-    "valor depreciável",
-    "método linear",
+    "valor depreciavel",
+    "metodo linear",
     "cotas constantes",
-    "soma dos dígitos",
+    "soma dos digitos",
     "unidades produzidas",
     "terrenos",
     "bens de natureza cultural",
-    "revisão da vida útil",
-    "mudança de estimativa",
+    "revisao da vida util",
+    "mudanca de estimativa",
     "componentes",
     "recursos naturais"
    ],
-   "resumo": "<strong>Depreciação</strong> é a redução do valor dos bens tangíveis pelo desgaste ou perda de utilidade por uso, ação da natureza ou obsolescência. <strong>Amortização</strong> é a redução do valor aplicado na aquisição de direitos de propriedade e quaisquer outros, inclusive ativos intangíveis, com existência ou exercício de duração limitada. <strong>Exaustão</strong> é a redução do valor decorrente da exploração dos recursos minerais, florestais e outros recursos naturais esgotáveis. As três são VPD independentes da execução orçamentária: reduzem o resultado patrimonial, mas não geram despesa orçamentária. O valor depreciável é o custo do ativo (ou o valor que o substitui) menos o valor residual, e deve ser apropriado de forma sistemática ao longo da vida útil. A depreciação começa quando o bem está disponível para uso, no local e na condição de funcionamento pretendidos, e não cessa só porque o bem ficou ocioso. A vida útil e o valor residual são revisados pelo menos no final de cada exercício, e a alteração é tratada como mudança de estimativa contábil, de forma prospectiva. Os métodos usuais são o <strong>linear</strong> (cotas constantes), o da <strong>soma dos dígitos</strong> (cotas decrescentes) e o das <strong>unidades produzidas</strong>. Exemplo: custo de 170.000, valor residual de 20.000 e vida útil de 5 anos. Pelo linear, a cota anual é (170.000 − 20.000) ÷ 5 = 30.000. Pela soma dos dígitos, a soma é 1 + 2 + 3 + 4 + 5 = 15; no 1º ano a cota é 5/15 de 150.000 = 50.000 e no 2º ano, 4/15 de 150.000 = 40.000. Terrenos não são depreciados, porque têm vida útil ilimitada, salvo pedreiras e terrenos usados como aterro.",
+   "resumo": "<strong>Depreciação</strong> é a redução do valor dos bens tangíveis pelo desgaste ou perda de utilidade por uso, ação da natureza ou obsolescência. <strong>Amortização</strong> é a redução do valor aplicado na aquisição de direitos de propriedade e quaisquer outros, inclusive ativos intangíveis, com existência ou exercício de duração limitada. <strong>Exaustão</strong> é a redução do valor decorrente da exploração dos recursos minerais, florestais e outros recursos naturais esgotáveis. As três são VPD independentes da execução orçamentária: reduzem o resultado patrimonial, mas não geram despesa orçamentária nem empenho, que ocorreram na aquisição. O <strong>valor depreciável</strong> é o custo do ativo (ou o valor que o substitui) menos o <strong>valor residual</strong>, apropriado de forma sistemática ao longo da <strong>vida útil</strong>. A depreciação começa quando o bem está disponível para uso, no local e na condição de funcionamento pretendidos, e não cessa só porque o bem ficou ocioso. A vida útil e o valor residual são revisados pelo menos no final de cada exercício, e a alteração é mudança de estimativa contábil, aplicada de forma prospectiva. Os métodos usuais são o <strong>linear</strong> (cotas constantes), o da <strong>soma dos dígitos</strong> (cotas decrescentes) e o das <strong>unidades produzidas</strong>. Exemplo: custo de 170.000, valor residual de 20.000 e vida útil de 5 anos. Pelo linear, a cota anual é (170.000 − 20.000) ÷ 5 = 30.000. Pela soma dos dígitos, a soma é 1 + 2 + 3 + 4 + 5 = 15; no 1º ano a cota é 5/15 de 150.000 = 50.000 e no 2º, 4/15 de 150.000 = 40.000. Terrenos não são depreciados, porque têm vida útil ilimitada, salvo pedreiras e terrenos usados como aterro.",
    "esquema": {
     "rotulo": "qual redução se aplica a cada ativo",
     "html": "<table><thead><tr><th>Redução</th><th>Aplica-se a</th><th>Exemplos</th></tr></thead><tbody><tr><td><strong>Depreciação</strong></td><td>bens tangíveis com vida útil limitada</td><td>veículos, computadores, edifícios, estradas</td></tr><tr><td><strong>Amortização</strong></td><td>intangíveis de vida útil definida e direitos de duração limitada</td><td>licença de software por 4 anos; benfeitoria em imóvel de terceiro</td></tr><tr><td><strong>Exaustão</strong></td><td>recursos naturais esgotáveis</td><td>jazida mineral, floresta destinada a corte</td></tr><tr><td><strong>Nenhuma</strong></td><td>terrenos; bens de natureza cultural; intangível de vida útil indefinida; bens ainda não disponíveis para uso</td><td>lote urbano; obra de arte; obra em andamento</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Bens que não se depreciam (MCASP)",
+      "o_que_e": "Bens móveis de natureza cultural (obras de arte, antiguidades, documentos e bens de interesse histórico integrados em coleções), bens de uso comum de vida útil indeterminada, animais destinados à exposição e à preservação e terrenos rurais e urbanos.",
+      "grupo": "Alcance"
+     },
+     {
+      "nome": "Edifício e terreno",
+      "o_que_e": "Mesmo comprados juntos, são ativos separados: o edifício deprecia e o terreno não.",
+      "atencao": "Um aumento no valor do terreno não altera a vida útil do edifício.",
+      "grupo": "Alcance"
+     },
+     {
+      "nome": "Licença de software",
+      "o_que_e": "Licença de uso por prazo determinado é direito de duração limitada, intangível: sua redução é amortização, e não depreciação.",
+      "grupo": "Alcance"
+     },
+     {
+      "nome": "Componentes",
+      "o_que_e": "Cada componente com custo significativo em relação ao total é depreciado separadamente, como as turbinas de uma aeronave.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Cota de exaustão",
+      "o_que_e": "Segue a proporção do recurso extraído no período em relação à possança total estimada.",
+      "atencao": "Jazida de custo 900.000 com 300.000 toneladas estimadas e 60.000 extraídas no ano: 20% de 900.000 = 180.000.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Base sem o residual",
+      "o_que_e": "Dividir o custo total pela vida útil (170.000 ÷ 5 = 34.000) ou aplicar a fração sobre ele (5/15 × 170.000) ignora o valor residual.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Mudança de estimativa",
+      "o_que_e": "Se, depois de dois anos de depreciação linear, a vida útil é revista, o valor contábil restante, menos o novo residual, é distribuído pela vida útil remanescente.",
+      "atencao": "Os anos anteriores não são refeitos.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Bem usado",
+      "o_que_e": "A vida útil do bem adquirido usado é estimada pelo seu estado na data da aquisição, e não pela tabela de um bem novo.",
+      "grupo": "Cálculo"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "TANGÍVEL DEPRECIA, DIREITO AMORTIZA, NATUREZA EXAURE",
@@ -540,8 +1276,33 @@
     "gabarito": "E",
     "explicacao": "A depreciação é VPD independente da execução orçamentária. Reduz o patrimônio líquido, mas não há saída de recursos nem empenho: a despesa orçamentária ocorreu na aquisição do bem."
    },
-   "aprofundamento": "<p><strong>Bens que não se depreciam (MCASP).</strong> Não estão sujeitos à depreciação os bens móveis de natureza cultural, como obras de arte, antiguidades, documentos e bens de interesse histórico integrados em coleções; os bens de uso comum de vida útil indeterminada; os animais destinados à exposição e à preservação; e os terrenos rurais e urbanos.</p><p><strong>Edifício e terreno.</strong> Mesmo comprados juntos, terreno e edifício são ativos separados: o edifício deprecia e o terreno não. Um aumento no valor do terreno não altera a vida útil do edifício.</p><p><strong>Componentes.</strong> Cada componente de um item com custo significativo em relação ao total é depreciado separadamente, como as turbinas de uma aeronave.</p><p><strong>Exaustão de floresta.</strong> Quando o recurso natural é explorado, a cota de exaustão segue a proporção do recurso extraído no período em relação à possança total estimada. Exemplo: jazida de custo 900.000 com 300.000 toneladas estimadas; extraídas 60.000 toneladas no ano, a cota é 60.000 ÷ 300.000 = 20% de 900.000 = 180.000.</p><p><strong>Mudança de estimativa.</strong> Se, depois de dois anos de depreciação linear, a vida útil é revista, o valor contábil restante (menos o novo valor residual) é distribuído pela vida útil remanescente; os anos anteriores não são refeitos.</p><p><strong>Bem usado.</strong> A vida útil de um bem adquirido usado é estimada a partir do seu estado na data da aquisição, e não pela tabela de um bem novo.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A licença de software por quatro anos é depreciada.",
+     "certo": "É amortizada.",
+     "fonte": "Questões do app sobre depreciação"
+    },
+    {
+     "errado": "Custo 170.000, residual 20.000 e 5 anos dão cota linear de 34.000.",
+     "certo": "A cota é 30.000.",
+     "fonte": "Questões do app sobre depreciação"
+    },
+    {
+     "errado": "Pela soma dos dígitos, o 1º ano dá cerca de 56.667.",
+     "certo": "Dá 50.000 (5/15 de 150.000).",
+     "fonte": "Questões do app sobre depreciação"
+    },
+    {
+     "errado": "O terreno da sede deprecia pela vida do edifício.",
+     "certo": "Terreno não deprecia.",
+     "fonte": "Questões do app sobre depreciação"
+    },
+    {
+     "errado": "A nova vida útil se aplica retrospectivamente.",
+     "certo": "Aplica-se de forma prospectiva.",
+     "fonte": "Questões do app sobre depreciação"
+    }
+   ],
    "relacionados": [
     "ativo-imobilizado-setor-publico",
     "ativo-intangivel-setor-publico",
