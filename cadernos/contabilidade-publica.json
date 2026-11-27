@@ -2054,29 +2054,89 @@
    "tax": [
     "contabilidade-publica.pcasp"
    ],
+   "dispositivos": [],
    "conceitos": [
     "plano de contas aplicado ao setor público",
     "pcasp"
    ],
    "palavras": [
     "classes",
-    "natureza da informação",
+    "natureza da informacao",
     "patrimonial",
-    "orçamentária",
+    "orcamentaria",
     "controle",
-    "níveis",
-    "subtítulo",
-    "quinto nível",
+    "niveis",
+    "subtitulo",
+    "quinto nivel",
     "atributo f",
     "atributo p",
-    "matriz de saldos contábeis",
+    "matriz de saldos contabeis",
     "msc"
    ],
-   "resumo": "O <strong>PCASP</strong> é a estrutura padronizada de contas contábeis, mantida pela Secretaria do Tesouro Nacional como órgão central de contabilidade da União, de uso obrigatório por todos os entes da Federação. Ele padroniza os registros para permitir a consolidação nacional das contas públicas, a geração de estatísticas fiscais e a elaboração das demonstrações contábeis e dos demonstrativos fiscais. As contas se organizam em <strong>oito classes</strong>, separadas pela natureza da informação: de natureza <strong>patrimonial</strong>, a classe 1 (Ativo), a 2 (Passivo e Patrimônio Líquido), a 3 (Variações Patrimoniais Diminutivas) e a 4 (Variações Patrimoniais Aumentativas); de natureza <strong>orçamentária</strong>, a classe 5 (Controles da Aprovação do Planejamento e Orçamento) e a 6 (Controles da Execução do Planejamento e Orçamento); de natureza de <strong>controle</strong>, a classe 7 (Controles Devedores) e a 8 (Controles Credores). Os lançamentos seguem o método das partidas dobradas dentro de cada natureza: um débito numa conta patrimonial tem a contrapartida em outra conta patrimonial, e o mesmo vale para as contas orçamentárias e de controle. A conta tem até sete níveis de desdobramento: classe, grupo, subgrupo, título, subtítulo, item e subitem, no formato X.X.X.X.X.XX.XX. O 5º nível, o subtítulo, identifica as transações que serão excluídas na consolidação. As classes 1, 3, 5 e 7 têm, em regra, saldo devedor, e as classes 2, 4, 6 e 8, saldo credor. A classe 5 registra a previsão da receita e a fixação da despesa; a classe 6, a realização da receita e as etapas da despesa (empenho, liquidação e pagamento).",
+   "para_entender": [
+    {
+     "texto": "<strong>Consolidação:</strong> como o 5º nível elimina as transações recíprocas.",
+     "tema": "consolidacao-das-demonstracoes-contabeis"
+    }
+   ],
+   "resumo": "O <strong>PCASP</strong> (Plano de Contas Aplicado ao Setor Público) é a estrutura padronizada de contas contábeis, mantida pela Secretaria do Tesouro Nacional como órgão central de contabilidade da União, de uso obrigatório por todos os entes da Federação. Padronizar os registros permite a consolidação nacional das contas públicas, a geração de estatísticas fiscais e a elaboração das demonstrações contábeis e dos demonstrativos fiscais. As contas se organizam em <strong>oito classes</strong>, separadas pela <strong>natureza da informação</strong>: patrimonial (classes 1 a 4), orçamentária (classes 5 e 6) e de controle (classes 7 e 8), como mostra a tabela. Os lançamentos seguem o método das <strong>partidas dobradas</strong> dentro de cada natureza: um débito em conta orçamentária tem como contrapartida um crédito também em conta orçamentária, e o mesmo vale para as contas patrimoniais e de controle. A conta tem até <strong>sete níveis</strong> de desdobramento: classe, grupo, subgrupo, título, subtítulo, item e subitem, no formato X.X.X.X.X.XX.XX. O 5º nível, o <strong>subtítulo</strong>, identifica as transações que serão excluídas na consolidação. Em regra, as classes ímpares têm saldo devedor e as pares, saldo credor: as contas da classe 3, de variações patrimoniais diminutivas, têm saldo devedor, e as da classe 4, de variações patrimoniais aumentativas, saldo credor. Cada conta carrega ainda <strong>atributos</strong>, como a natureza do saldo (devedora, credora ou mista) e o indicador do superávit financeiro.",
    "esquema": {
     "rotulo": "as oito classes do PCASP",
     "html": "<table><thead><tr><th>Natureza</th><th>Classe devedora</th><th>Classe credora</th><th>O que registra</th></tr></thead><tbody><tr><td><strong>Patrimonial</strong></td><td>1 Ativo</td><td>2 Passivo e Patrimônio Líquido</td><td>bens, direitos, obrigações e saldo patrimonial</td></tr><tr><td><strong>Patrimonial</strong> (resultado)</td><td>3 Variações Patrimoniais Diminutivas</td><td>4 Variações Patrimoniais Aumentativas</td><td>fatos que diminuem ou aumentam o patrimônio líquido</td></tr><tr><td><strong>Orçamentária</strong></td><td>5 Controles da Aprovação do Planejamento e Orçamento</td><td>6 Controles da Execução do Planejamento e Orçamento</td><td>previsão e fixação (5); realização da receita, empenho, liquidação e pagamento (6)</td></tr><tr><td><strong>Controle</strong></td><td>7 Controles Devedores</td><td>8 Controles Credores</td><td>atos potenciais, garantias, convênios, disponibilidade por destinação de recursos</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Classes 5 e 6",
+      "o_que_e": "A classe 5 registra a aprovação: previsão da receita e fixação da despesa na lei orçamentária. A classe 6 registra a execução: realização da receita, empenho, liquidação e pagamento.",
+      "atencao": "A fixação da despesa fica na classe 5; só o empenho e as etapas seguintes vão à classe 6.",
+      "grupo": "Classes"
+     },
+     {
+      "nome": "Classes 7 e 8",
+      "o_que_e": "Têm natureza de controle e correspondem aos controles devedores (7) e aos controles credores (8): atos potenciais, garantias, convênios e disponibilidade por destinação de recursos.",
+      "grupo": "Classes"
+     },
+     {
+      "nome": "VPA e VPD",
+      "o_que_e": "Ficam nas classes 4 e 3, de natureza patrimonial.",
+      "atencao": "Não compõem as classes 5 e 6, que são de natureza orçamentária.",
+      "grupo": "Classes"
+     },
+     {
+      "nome": "Quinto nível",
+      "o_que_e": "Código 1: saldos que não serão excluídos na consolidação. Código 2: transações intra OFSS, entre órgãos e entidades do mesmo ente. Códigos 3, 4 e 5: transações inter OFSS com a União, com estado e com município.",
+      "atencao": "As intra OFSS saem na consolidação do ente; as inter OFSS, só na consolidação nacional.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Indicador do superávit financeiro",
+      "o_que_e": "Atributo F para ativo e passivo financeiros e P para ativo e passivo permanentes; é ele que monta o quadro dos ativos e passivos financeiros e permanentes do Balanço Patrimonial.",
+      "atencao": "Não classifica as contas em circulantes e não circulantes, critério que segue o prazo de realização ou de exigibilidade.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Detalhamento pelos entes",
+      "o_que_e": "Os entes podem detalhar o plano abaixo do nível padronizado, desde que preservem a estrutura básica, sem o que a consolidação ficaria impossível.",
+      "atencao": "O município não troca o PCASP por plano de contas próprio aprovado pelo tribunal de contas.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Um fato, várias naturezas",
+      "o_que_e": "A arrecadação de tributo à vista gera lançamento patrimonial (débito em caixa, crédito em VPA, se não houve reconhecimento anterior), orçamentário (receita realizada na classe 6 contra receita a realizar na classe 5) e de controle (disponibilidade por destinação de recursos nas classes 7 e 8).",
+      "grupo": "Lançamentos"
+     },
+     {
+      "nome": "Normas gerais de consolidação",
+      "o_que_e": "Cabem ao órgão central de contabilidade da União enquanto não implantado o conselho de gestão fiscal (LRF, art. 50, § 2º).",
+      "grupo": "Base legal"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "1 A 4 PATRIMÔNIO, 5 E 6 ORÇAMENTO, 7 E 8 CONTROLE",
@@ -2096,14 +2156,37 @@
     "gabarito": "E",
     "explicacao": "A classe 5 registra a aprovação: previsão da receita, fixação da despesa e o planejamento. O empenho, a liquidação e o pagamento são registrados na classe 6, Controles da Execução do Planejamento e Orçamento, junto com a realização da receita."
    },
-   "aprofundamento": "<p><strong>Quinto nível.</strong> O subtítulo usa o código 1 para saldos que não serão excluídos na consolidação (transações com quem está fora do orçamento fiscal e da seguridade social do ente), 2 para as transações intra OFSS (entre órgãos e entidades do mesmo ente, excluídas na consolidação do ente) e 3, 4 e 5 para as transações inter OFSS com a União, com estado e com município, excluídas na consolidação nacional.</p><p><strong>Atributos da conta.</strong> Cada conta tem atributos, como a natureza do saldo (devedora, credora ou mista) e o indicador do superávit financeiro: F para ativo e passivo financeiros, P para ativo e passivo permanentes. É esse atributo que permite montar o quadro dos ativos e passivos financeiros e permanentes do Balanço Patrimonial.</p><p><strong>Um fato, várias naturezas.</strong> A arrecadação de um tributo à vista gera lançamento patrimonial (débito em caixa, crédito em VPA, se não houve reconhecimento anterior), orçamentário (receita realizada na classe 6 contra receita a realizar na classe 5) e de controle (disponibilidade por destinação de recursos nas classes 7 e 8).</p><p><strong>Detalhamento pelos entes.</strong> Os entes podem detalhar o plano abaixo do nível padronizado para atender às suas necessidades, desde que preservem a estrutura básica, sem o que a consolidação ficaria impossível.</p><p><strong>Base legal.</strong> A edição de normas gerais para consolidação das contas públicas cabe ao órgão central de contabilidade da União enquanto não implantado o conselho de gestão fiscal (LRF, art. 50, § 2º).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "As VPA e as VPD compõem as classes 5 e 6.",
+     "certo": "Compõem as classes 4 e 3, patrimoniais.",
+     "fonte": "Questões do app sobre o PCASP"
+    },
+    {
+     "errado": "A fixação da despesa e o empenho ficam na classe 6.",
+     "certo": "A fixação fica na classe 5; o empenho, na 6.",
+     "fonte": "Questões do app sobre o PCASP"
+    },
+    {
+     "errado": "A conta do PCASP tem cinco níveis de desdobramento.",
+     "certo": "Tem sete, até item e subitem.",
+     "fonte": "Questões do app sobre o PCASP"
+    },
+    {
+     "errado": "O indicador do superávit financeiro separa circulante e não circulante.",
+     "certo": "Separa financeiro (F) e permanente (P).",
+     "fonte": "Questões do app sobre o PCASP"
+    },
+    {
+     "errado": "O PCASP é facultativo para os municípios.",
+     "certo": "É obrigatório para todos os entes.",
+     "fonte": "Questões do app sobre o PCASP"
+    }
+   ],
    "relacionados": [
     "consolidacao-das-demonstracoes-contabeis",
     "balanco-orcamentario"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "balanco-orcamentario",
@@ -2113,28 +2196,88 @@
    "tax": [
     "contabilidade-publica.balanco-orcamentario"
    ],
+   "dispositivos": [],
    "conceitos": [
     "balanço orçamentário"
    ],
    "palavras": [
-    "previsão inicial",
-    "previsão atualizada",
+    "previsao inicial",
+    "previsao atualizada",
     "receitas realizadas",
-    "dotação inicial",
-    "dotação atualizada",
+    "dotacao inicial",
+    "dotacao atualizada",
     "despesas empenhadas",
     "despesas liquidadas",
     "despesas pagas",
-    "saldo da dotação",
-    "restos a pagar não processados",
-    "resultado orçamentário",
+    "saldo da dotacao",
+    "restos a pagar nao processados",
+    "resultado orcamentario",
     "refinanciamento"
    ],
-   "resumo": "O <strong>Balanço Orçamentário</strong> demonstra as receitas e despesas previstas em confronto com as realizadas (Lei 4.320/1964, art. 102). No MCASP ele tem um <strong>quadro principal</strong> e dois quadros anexos: o da execução dos restos a pagar não processados e o da execução dos restos a pagar processados. No quadro principal, a receita aparece em quatro colunas: previsão inicial, previsão atualizada, receitas realizadas e saldo (realizadas menos previsão atualizada). A despesa aparece em seis: dotação inicial, dotação atualizada, despesas empenhadas, despesas liquidadas, despesas pagas e saldo da dotação (dotação atualizada menos despesas empenhadas). A previsão atualizada incorpora reestimativas da receita, e a dotação atualizada incorpora os créditos adicionais abertos no exercício. Pelo art. 35 da Lei 4.320/1964, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas: por isso o <strong>resultado orçamentário</strong> é a diferença entre as receitas realizadas e as despesas empenhadas. Quando há déficit, ele é mostrado do lado da receita, para equilibrar os totais; quando há superávit, ele aparece do lado da despesa. As operações de crédito de refinanciamento e a amortização da dívida refinanciada são detalhadas em linhas próprias. O superávit financeiro de exercícios anteriores usado para abrir créditos adicionais e os créditos reabertos não são receita do exercício: aparecem na linha de saldos de exercícios anteriores apenas para explicar por que a dotação atualizada pode superar a receita prevista.",
+   "para_entender": [
+    {
+     "texto": "<strong>Regime orçamentário:</strong> receita arrecadada e despesa empenhada no art. 35 da Lei 4.320/1964.",
+     "tema": "regime-contabil-orcamentario-e-patrimonial"
+    }
+   ],
+   "resumo": "O <strong>Balanço Orçamentário</strong> demonstra as receitas e despesas previstas em confronto com as realizadas (Lei 4.320/1964, art. 102). No MCASP ele tem um <strong>quadro principal</strong> e dois quadros anexos, o da execução dos restos a pagar não processados e o da execução dos restos a pagar processados; as colunas de cada um estão na tabela. A <strong>previsão atualizada</strong> é a previsão inicial com as reestimativas da receita, e a <strong>dotação atualizada</strong> é a dotação inicial com os créditos adicionais abertos no exercício. <strong>Restos a pagar</strong> são as despesas empenhadas e não pagas até 31 de dezembro: <strong>processados</strong>, quando já liquidadas; <strong>não processados</strong>, quando ainda não. Pelo art. 35 da Lei 4.320/1964, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas: por isso o <strong>resultado orçamentário</strong> confronta as receitas realizadas com as despesas empenhadas, e não com as pagas. O déficit é mostrado do lado da receita, e o superávit do lado da despesa, para que os totais se igualem. As operações de crédito de <strong>refinanciamento</strong> e a amortização da dívida refinanciada têm linhas próprias. O superávit financeiro de exercícios anteriores usado para abrir créditos adicionais e os créditos reabertos não são receita do exercício: aparecem na linha de saldos de exercícios anteriores apenas para explicar por que a dotação atualizada pode superar a receita prevista.",
    "esquema": {
     "rotulo": "colunas do quadro principal",
     "html": "<table><thead><tr><th>Lado</th><th>Colunas</th><th>Saldo</th></tr></thead><tbody><tr><td><strong>Receita</strong></td><td>previsão inicial; previsão atualizada; receitas realizadas</td><td>receitas realizadas menos previsão atualizada (negativo indica frustração de arrecadação)</td></tr><tr><td><strong>Despesa</strong></td><td>dotação inicial; dotação atualizada; despesas empenhadas; despesas liquidadas; despesas pagas</td><td>dotação atualizada menos despesas empenhadas (crédito disponível não utilizado)</td></tr><tr><td><strong>Resultado</strong></td><td>receitas realizadas menos despesas empenhadas</td><td>déficit mostrado do lado da receita; superávit mostrado do lado da despesa</td></tr><tr><td><strong>Quadros anexos</strong></td><td>execução dos restos a pagar não processados; execução dos restos a pagar processados</td><td>inscritos, liquidados (só nos não processados), pagos, cancelados e saldo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Empenhadas, liquidadas e pagas",
+      "o_que_e": "Ao fim do exercício, empenhadas menos liquidadas são os restos a pagar não processados inscritos; liquidadas menos pagas, os restos a pagar processados inscritos.",
+      "grupo": "Quadro principal"
+     },
+     {
+      "nome": "Saldo da dotação",
+      "o_que_e": "Dotação atualizada menos despesas empenhadas.",
+      "atencao": "Não se usam as despesas liquidadas nem as pagas: é o empenho que consome o crédito orçamentário.",
+      "grupo": "Quadro principal"
+     },
+     {
+      "nome": "Exemplo de déficit",
+      "o_que_e": "Considere que, em determinado exercício, um ente tenha previsão atualizada de receitas de R$ 1.000 milhões, receitas realizadas de R$ 950 milhões, despesas empenhadas de R$ 980 milhões e despesas pagas de R$ 900 milhões: o Balanço Orçamentário evidenciará déficit orçamentário de R$ 30 milhões (950 menos 980).",
+      "atencao": "A previsão e a despesa paga não entram na conta do resultado.",
+      "grupo": "Resultado"
+     },
+     {
+      "nome": "Frustração de arrecadação",
+      "o_que_e": "Receitas realizadas de R$ 950 milhões para previsão atualizada de R$ 1.000 milhões dão saldo da receita de R$ 50 milhões negativos: é frustração de arrecadação, e não déficit.",
+      "atencao": "Com despesas empenhadas de R$ 900 milhões, o resultado é superávit de R$ 50 milhões.",
+      "grupo": "Resultado"
+     },
+     {
+      "nome": "Saldos de exercícios anteriores",
+      "o_que_e": "O superávit financeiro apurado no balanço patrimonial do exercício anterior é fonte para créditos adicionais (Lei 4.320/1964, art. 43, § 1º, I), mas não integra as receitas realizadas do exercício corrente.",
+      "atencao": "Por isso a dotação atualizada pode superar a previsão atualizada sem indicar desequilíbrio.",
+      "grupo": "Resultado"
+     },
+     {
+      "nome": "Quadro dos não processados",
+      "o_que_e": "Mostra os valores inscritos em exercícios anteriores e em 31 de dezembro do exercício anterior, os liquidados, os pagos, os cancelados e o saldo.",
+      "grupo": "Quadros anexos"
+     },
+     {
+      "nome": "Quadro dos processados",
+      "o_que_e": "Não tem coluna de liquidados, porque a despesa já estava liquidada quando foi inscrita.",
+      "atencao": "Os dois quadros de execução de restos a pagar não têm a mesma estrutura.",
+      "grupo": "Quadros anexos"
+     },
+     {
+      "nome": "Art. 101 da Lei 4.320/1964",
+      "o_que_e": "Os resultados gerais do exercício são demonstrados no Balanço Orçamentário, no Balanço Financeiro, no Balanço Patrimonial e na Demonstração das Variações Patrimoniais.",
+      "grupo": "Lei 4.320/1964"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "RECEITA ARRECADADA, DESPESA EMPENHADA",
@@ -2154,14 +2297,37 @@
     "gabarito": "E",
     "explicacao": "O saldo da dotação é a dotação atualizada menos as despesas empenhadas. É o empenho que consome o crédito orçamentário; a despesa empenhada e não paga vira restos a pagar, mas já não está disponível como dotação."
    },
-   "aprofundamento": "<p><strong>Despesas empenhadas, liquidadas e pagas.</strong> A diferença entre as empenhadas e as liquidadas corresponde, ao fim do exercício, aos restos a pagar não processados inscritos; a diferença entre as liquidadas e as pagas corresponde aos restos a pagar processados inscritos.</p><p><strong>Exemplo de resultado.</strong> Com previsão atualizada de 1.000, receitas realizadas de 950 e despesas empenhadas de 980, o resultado orçamentário é déficit de 30 (950 menos 980). O saldo da receita é de 50 negativos (950 menos 1.000), o que indica frustração de arrecadação, não déficit.</p><p><strong>Saldos de exercícios anteriores.</strong> O superávit financeiro apurado no balanço patrimonial do exercício anterior é fonte para créditos adicionais (Lei 4.320/1964, art. 43, § 1º, I), mas não é receita orçamentária do exercício corrente. Por isso a dotação atualizada pode legitimamente superar a previsão atualizada sem indicar desequilíbrio.</p><p><strong>Quadros de restos a pagar.</strong> O quadro dos não processados mostra os valores inscritos em exercícios anteriores e em 31 de dezembro do exercício anterior, os liquidados, os pagos, os cancelados e o saldo. O dos processados não tem coluna de liquidação, porque a despesa já estava liquidada quando foi inscrita.</p><p><strong>Quadro e lei.</strong> A Lei 4.320/1964 exige o Balanço Orçamentário entre os resultados gerais do exercício (art. 101), ao lado do Balanço Financeiro, do Balanço Patrimonial e da Demonstração das Variações Patrimoniais.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O saldo da dotação é a dotação atualizada menos as despesas liquidadas.",
+     "certo": "É menos as despesas empenhadas.",
+     "fonte": "Questões do app sobre o balanço orçamentário"
+    },
+    {
+     "errado": "Receitas realizadas de 950 e empenhos de 900 dão déficit de 50.",
+     "certo": "Dão superávit de 50; os 50 que faltam à previsão são frustração de arrecadação.",
+     "fonte": "Questões do app sobre o balanço orçamentário"
+    },
+    {
+     "errado": "O déficit orçamentário é apresentado junto às despesas.",
+     "certo": "É apresentado do lado da receita.",
+     "fonte": "Questões do app sobre o balanço orçamentário"
+    },
+    {
+     "errado": "Os dois quadros de restos a pagar têm as mesmas colunas.",
+     "certo": "O dos processados não tem coluna de liquidados.",
+     "fonte": "Questões do app sobre o balanço orçamentário"
+    },
+    {
+     "errado": "O superávit financeiro usado em créditos adicionais integra as receitas realizadas.",
+     "certo": "Fica na linha de saldos de exercícios anteriores.",
+     "fonte": "Questões do app sobre o balanço orçamentário"
+    }
+   ],
    "relacionados": [
     "balanco-financeiro",
     "regime-contabil-orcamentario-e-patrimonial"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "balanco-financeiro",
@@ -2171,26 +2337,69 @@
    "tax": [
     "contabilidade-publica.balanco-financeiro"
    ],
+   "dispositivos": [],
    "conceitos": [
     "balanço financeiro"
    ],
    "palavras": [
     "ingressos",
-    "dispêndios",
-    "transferências financeiras recebidas",
-    "transferências financeiras concedidas",
-    "recebimentos extraorçamentários",
-    "pagamentos extraorçamentários",
-    "inscrição de restos a pagar",
-    "saldo do exercício anterior",
-    "saldo para o exercício seguinte",
+    "dispendios",
+    "transferencias financeiras recebidas",
+    "transferencias financeiras concedidas",
+    "recebimentos extraorcamentarios",
+    "pagamentos extraorcamentarios",
+    "inscricao de restos a pagar",
+    "saldo do exercicio anterior",
+    "saldo para o exercicio seguinte",
     "resultado financeiro"
    ],
-   "resumo": "O <strong>Balanço Financeiro</strong> demonstra a receita e a despesa orçamentárias, os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie vindos do exercício anterior e os que se transferem para o seguinte (Lei 4.320/1964, art. 103). No MCASP ele é um quadro único de <strong>ingressos</strong> e <strong>dispêndios</strong>. Os ingressos são a receita orçamentária, as transferências financeiras recebidas, os recebimentos extraorçamentários e o saldo do exercício anterior. Os dispêndios são a despesa orçamentária, as transferências financeiras concedidas, os pagamentos extraorçamentários e o saldo para o exercício seguinte. A receita e a despesa orçamentárias aparecem detalhadas por destinação de recursos, separando os ordinários dos vinculados. Como a despesa orçamentária entra pelo valor empenhado, e parte dela não foi paga, o parágrafo único do art. 103 manda computar os restos a pagar do exercício na receita extraorçamentária para compensar sua inclusão na despesa orçamentária. Por isso a inscrição de restos a pagar aparece como recebimento extraorçamentário, e o pagamento de restos a pagar de exercícios anteriores aparece como pagamento extraorçamentário. As transferências financeiras recebidas e concedidas registram os repasses entre órgãos e entidades do mesmo ente, como as cotas e repasses aos Poderes. O <strong>resultado financeiro</strong> do exercício é o saldo para o exercício seguinte menos o saldo do exercício anterior; ele mede a variação das disponibilidades e não se confunde com o superávit financeiro do Balanço Patrimonial.",
+   "para_entender": [
+    {
+     "texto": "<strong>Superávit financeiro:</strong> ativo financeiro menos passivo financeiro, no Balanço Patrimonial.",
+     "tema": "balanco-patrimonial-dcasp"
+    }
+   ],
+   "resumo": "O <strong>Balanço Financeiro</strong> demonstra a receita e a despesa orçamentárias, os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie vindos do exercício anterior e os que se transferem para o exercício seguinte (Lei 4.320/1964, art. 103). No MCASP ele é um quadro único de <strong>ingressos</strong> e <strong>dispêndios</strong>, com as linhas da tabela. <strong>Extraorçamentário</strong> é o recebimento ou pagamento que não depende do orçamento, como as cauções e as retenções a repassar a terceiros. A receita e a despesa orçamentárias aparecem detalhadas por destinação de recursos, separando os ordinários dos vinculados. A despesa orçamentária entra pelo valor empenhado, e parte dela não foi paga; por isso o parágrafo único do art. 103 manda computar os restos a pagar do exercício na receita extraorçamentária para compensar sua inclusão na despesa orçamentária. Assim, a inscrição de restos a pagar é recebimento extraorçamentário, e o pagamento, no exercício, de restos a pagar inscritos em exercícios anteriores é pagamento extraorçamentário, e não despesa orçamentária. As <strong>transferências financeiras</strong> recebidas e concedidas são os repasses entre órgãos e entidades do mesmo ente, como as cotas e repasses aos Poderes; não são receita nem despesa orçamentária. O <strong>resultado financeiro</strong> do exercício é o saldo para o exercício seguinte menos o saldo do exercício anterior: mede a variação das disponibilidades e não se confunde com o superávit financeiro do Balanço Patrimonial.",
    "esquema": {
     "rotulo": "ingressos e dispêndios",
     "html": "<table><thead><tr><th>Ingressos</th><th>Dispêndios</th></tr></thead><tbody><tr><td>Receita orçamentária (ordinária e vinculada)</td><td>Despesa orçamentária (ordinária e vinculada), pelo valor empenhado</td></tr><tr><td>Transferências financeiras recebidas</td><td>Transferências financeiras concedidas</td></tr><tr><td>Recebimentos extraorçamentários: inscrição de restos a pagar processados e não processados, depósitos restituíveis e valores vinculados, outros</td><td>Pagamentos extraorçamentários: pagamento de restos a pagar processados e não processados, devolução de depósitos restituíveis, outros</td></tr><tr><td>Saldo do exercício anterior (caixa e equivalentes de caixa e depósitos restituíveis)</td><td>Saldo para o exercício seguinte</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Exemplo de fechamento",
+      "o_que_e": "Considere um ente com saldo de caixa de R$ 100 mil no início do exercício, receita orçamentária arrecadada de R$ 500 mil, despesa orçamentária empenhada de R$ 520 mil, inscrição de restos a pagar de R$ 40 mil e pagamento de restos a pagar de exercícios anteriores de R$ 30 mil: o saldo para o exercício seguinte é 100 + 500 + 40 - 520 - 30 = R$ 90 mil.",
+      "atencao": "O resultado financeiro do exercício é de R$ 10 mil negativos (90 menos 100), e não superávit.",
+      "grupo": "Exemplo"
+     },
+     {
+      "nome": "Totais iguais",
+      "o_que_e": "O total dos ingressos é sempre igual ao total dos dispêndios, porque o saldo para o exercício seguinte integra os dispêndios como conta de fechamento.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Transferências financeiras",
+      "o_que_e": "Repasses do Tesouro aos demais Poderes do mesmo ente e outras movimentações entre unidades, relacionadas ou não à execução do orçamento.",
+      "atencao": "Não são receita orçamentária; na consolidação do ente, as recebidas e as concedidas se anulam.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Depósitos restituíveis",
+      "o_que_e": "Cauções e retenções em folha de valores devidos a terceiros entram como recebimentos extraorçamentários e saem como pagamentos extraorçamentários quando devolvidos ou repassados.",
+      "grupo": "Estrutura"
+     },
+     {
+      "nome": "Resultado e superávit",
+      "o_que_e": "O resultado financeiro mostra quanto o caixa variou no ano; o superávit financeiro do Balanço Patrimonial (ativo financeiro menos passivo financeiro) é a fonte para abertura de créditos adicionais no exercício seguinte.",
+      "atencao": "Um caixa que cresceu pode conviver com déficit financeiro, se os restos a pagar cresceram mais.",
+      "grupo": "Resultado financeiro"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "INSCRIÇÃO DE RESTOS ENTRA COMO INGRESSO",
@@ -2206,14 +2415,32 @@
     "gabarito": "E",
     "explicacao": "A inscrição de restos a pagar é recebimento extraorçamentário: os restos a pagar do exercício são computados na receita extraorçamentária para compensar sua inclusão na despesa orçamentária (Lei 4.320/1964, art. 103, parágrafo único). O pagamento extraorçamentário é o pagamento, em exercício posterior, de restos a pagar já inscritos."
    },
-   "aprofundamento": "<p><strong>Exemplo de fechamento.</strong> Saldo do exercício anterior de 100, receita orçamentária de 500, despesa orçamentária empenhada de 520, inscrição de restos a pagar de 40 e pagamento de restos a pagar de exercícios anteriores de 30. O saldo para o exercício seguinte é 100 + 500 + 40 - 520 - 30 = 90. O resultado financeiro é de 10 negativos (90 menos 100).</p><p><strong>Totais iguais.</strong> O Balanço Financeiro é o único em que o total dos ingressos é sempre igual ao total dos dispêndios, porque o saldo para o exercício seguinte é a conta de fechamento.</p><p><strong>Transferências financeiras.</strong> São movimentações de recursos entre unidades do mesmo ente, relacionadas ou não à execução do orçamento; não são receita nem despesa orçamentária. Na consolidação do ente, as transferências recebidas e concedidas se anulam.</p><p><strong>Depósitos restituíveis.</strong> Cauções e retenções em folha de valores devidos a terceiros entram como recebimentos extraorçamentários e saem como pagamentos extraorçamentários quando devolvidos ou repassados.</p><p><strong>Resultado financeiro e superávit financeiro.</strong> O resultado financeiro do Balanço Financeiro mostra quanto o caixa variou no ano. O superávit financeiro do Balanço Patrimonial (ativo financeiro menos passivo financeiro) mostra a folga para abertura de créditos adicionais. Um caixa que cresceu pode conviver com déficit financeiro, se os restos a pagar cresceram mais.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Os restos a pagar inscritos vão à despesa extraorçamentária, para compensar a receita orçamentária.",
+     "certo": "Vão à receita extraorçamentária, para compensar a despesa orçamentária.",
+     "fonte": "Questões do app sobre o balanço financeiro"
+    },
+    {
+     "errado": "O repasse do Tesouro a outro Poder do ente é receita orçamentária.",
+     "certo": "É transferência financeira recebida.",
+     "fonte": "Questões do app sobre o balanço financeiro"
+    },
+    {
+     "errado": "O resultado financeiro é o superávit financeiro usado em créditos adicionais.",
+     "certo": "É a variação do caixa; o superávit financeiro vem do Balanço Patrimonial.",
+     "fonte": "Questões do app sobre o balanço financeiro"
+    },
+    {
+     "errado": "O pagamento de restos a pagar de exercícios anteriores é despesa orçamentária.",
+     "certo": "É pagamento extraorçamentário.",
+     "fonte": "Questões do app sobre o balanço financeiro"
+    }
+   ],
    "relacionados": [
     "balanco-orcamentario",
     "demonstracao-dos-fluxos-de-caixa"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "demonstracao-das-variacoes-patrimoniais",
@@ -2223,25 +2450,67 @@
    "tax": [
     "contabilidade-publica.dvp"
    ],
+   "dispositivos": [],
    "conceitos": [
     "demonstração das variações patrimoniais"
    ],
    "palavras": [
     "dvp",
-    "variações patrimoniais aumentativas",
-    "variações patrimoniais diminutivas",
+    "variacoes patrimoniais aumentativas",
+    "variacoes patrimoniais diminutivas",
     "vpa",
     "vpd",
     "resultado patrimonial",
-    "superávit patrimonial",
-    "déficit patrimonial",
-    "alienação de ativos"
+    "superavit patrimonial",
+    "deficit patrimonial",
+    "alienacao de ativos"
    ],
-   "resumo": "A <strong>Demonstração das Variações Patrimoniais</strong> evidencia as alterações verificadas no patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial do exercício (Lei 4.320/1964, art. 104). Ela confronta as <strong>variações patrimoniais aumentativas</strong> (VPA, classe 4 do PCASP) com as <strong>variações patrimoniais diminutivas</strong> (VPD, classe 3), e a diferença é o <strong>resultado patrimonial</strong>: superávit quando as VPA superam as VPD, déficit no caso contrário. A DVP é a demonstração do resultado do setor público e é elaborada pelo regime de competência, por isso registra fatos que não passam pelo orçamento, como a depreciação, as provisões, a reavaliação e a doação de bens. Do mesmo modo, deixa de fora fatos orçamentários que não alteram o patrimônio líquido, como a compra de um equipamento (troca de caixa por imobilizado), a operação de crédito (entra caixa e nasce dívida) e a amortização da dívida. As VPA se agrupam em impostos, taxas e contribuições de melhoria; contribuições; exploração e venda de bens, serviços e direitos; variações patrimoniais aumentativas financeiras; transferências e delegações recebidas; valorização e ganhos com ativos e desincorporação de passivos; e outras. As VPD se agrupam em pessoal e encargos; benefícios previdenciários e assistenciais; uso de bens, serviços e consumo de capital fixo; variações patrimoniais diminutivas financeiras; transferências e delegações concedidas; desvalorização e perda de ativos e incorporação de passivos; tributárias; custo das mercadorias e produtos vendidos e dos serviços prestados; e outras. A LRF manda a DVP dar destaque à origem e ao destino dos recursos provenientes da alienação de ativos (art. 50, VI).",
+   "para_entender": [
+    {
+     "texto": "<strong>Fatos permutativos e modificativos:</strong> o que altera ou não o patrimônio líquido.",
+     "tema": "variacoes-patrimoniais-qualitativas-e-quantitativas"
+    }
+   ],
+   "resumo": "A <strong>Demonstração das Variações Patrimoniais</strong> (DVP) evidencia as alterações verificadas no patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial do exercício (Lei 4.320/1964, art. 104). Ela confronta as <strong>variações patrimoniais aumentativas</strong> (VPA, classe 4 do PCASP), que aumentam o patrimônio líquido, com as <strong>variações patrimoniais diminutivas</strong> (VPD, classe 3), que o reduzem. A diferença é o <strong>resultado patrimonial</strong>: superávit quando as VPA superam as VPD, déficit no caso contrário. A DVP é a demonstração do resultado do setor público e segue o regime de competência; a tabela mostra quais fatos entram nela. O <strong>fato permutativo</strong>, que só troca um elemento patrimonial por outro, fica fora. As VPA se agrupam em impostos, taxas e contribuições de melhoria; contribuições; exploração e venda de bens, serviços e direitos; variações patrimoniais aumentativas financeiras; transferências e delegações recebidas; valorização e ganhos com ativos e desincorporação de passivos; e outras. As VPD se agrupam em pessoal e encargos; benefícios previdenciários e assistenciais; uso de bens, serviços e consumo de capital fixo; variações patrimoniais diminutivas financeiras; transferências e delegações concedidas; desvalorização e perda de ativos e incorporação de passivos; tributárias; custo das mercadorias e produtos vendidos e dos serviços prestados; e outras. A LRF manda a DVP dar destaque à origem e ao destino dos recursos provenientes da alienação de ativos (art. 50, VI).",
    "esquema": {
     "rotulo": "o fato entra ou não na DVP?",
     "html": "<table><thead><tr><th>Fato</th><th>Efeito no patrimônio líquido</th><th>Na DVP?</th></tr></thead><tbody><tr><td>Lançamento de imposto (fato gerador ocorrido)</td><td>aumenta</td><td>sim, como VPA</td></tr><tr><td>Folha de pagamento do mês (competência)</td><td>diminui</td><td>sim, como VPD de pessoal e encargos</td></tr><tr><td>Depreciação de bens</td><td>diminui, sem passar pelo orçamento</td><td>sim, como VPD de uso de bens, serviços e consumo de capital fixo</td></tr><tr><td>Compra de equipamento à vista</td><td>não altera (troca caixa por imobilizado)</td><td>não</td></tr><tr><td>Recebimento de operação de crédito</td><td>não altera (entra caixa, nasce dívida)</td><td>não</td></tr><tr><td>Amortização da dívida</td><td>não altera (sai caixa, some dívida)</td><td>não</td></tr><tr><td>Doação recebida de bem</td><td>aumenta, sem passar pelo orçamento</td><td>sim, como VPA de transferências e delegações recebidas</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Exemplo de resultado",
+      "o_que_e": "Considere que, em um exercício, um ente tenha registrado VPA de tributos de R$ 800 mil e de transferências recebidas de R$ 200 mil, VPD de pessoal de R$ 600 mil, de depreciação de R$ 50 mil e de juros da dívida de R$ 100 mil, além de ter comprado veículos por R$ 120 mil e amortizado R$ 90 mil de dívida: a DVP evidenciará superávit patrimonial de R$ 250 mil (1.000 - 750).",
+      "atencao": "A compra de veículos à vista e a amortização da dívida são fatos permutativos e não reduzem o resultado.",
+      "grupo": "Resultado"
+     },
+     {
+      "nome": "Operação de crédito",
+      "o_que_e": "O ingresso de recursos de operação de crédito contratada pelo ente não é variação patrimonial aumentativa financeira: entra caixa e nasce dívida, sem alterar o patrimônio líquido.",
+      "grupo": "Fora da DVP"
+     },
+     {
+      "nome": "Superveniências e insubsistências",
+      "o_que_e": "Integram as alterações da situação líquida patrimonial, ao lado dos resultados da execução orçamentária e das variações independentes dela (Lei 4.320/1964, art. 100). Superveniência ativa é o surgimento de um ativo, como o bem doado; insubsistência passiva é o desaparecimento de um passivo, como o perdão de uma dívida do ente por parte do credor: ambas aumentam o patrimônio líquido.",
+      "atencao": "Insubsistência ativa (desaparece um ativo) e superveniência passiva (surge um passivo) o reduzem.",
+      "grupo": "Lei 4.320/1964"
+     },
+     {
+      "nome": "Superávit orçamentário e déficit patrimonial",
+      "o_que_e": "É possível que, no mesmo exercício, um ente apresente superávit no Balanço Orçamentário e déficit patrimonial na DVP, por exemplo quando registra grande provisão previdenciária ou forte depreciação, que não passam pelo orçamento.",
+      "grupo": "Comparação"
+     },
+     {
+      "nome": "Destino do resultado",
+      "o_que_e": "O resultado patrimonial do período é transferido para o patrimônio líquido, em resultados acumulados, e aparece também na DMPL.",
+      "grupo": "Comparação"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "VPA MENOS VPD",
@@ -2261,14 +2530,32 @@
     "gabarito": "E",
     "explicacao": "A DVP evidencia as alterações verificadas no patrimônio, resultantes ou independentes da execução orçamentária (Lei 4.320/1964, art. 104). Depreciação, provisões, reavaliação e doações recebidas alteram o patrimônio líquido sem passar pelo orçamento e entram na DVP."
    },
-   "aprofundamento": "<p><strong>Exemplo de resultado.</strong> No exercício houve VPA de tributos de 800 e de transferências recebidas de 200, VPD de pessoal de 600, de depreciação de 50 e de juros da dívida de 100, além da compra de veículos de 120 e da amortização de dívida de 90. O resultado patrimonial é 1.000 - 750 = superávit de 250; a compra de veículos e a amortização não entram na conta.</p><p><strong>Superveniências e insubsistências.</strong> As alterações da situação líquida patrimonial abrangem os resultados da execução orçamentária, as variações independentes dessa execução e as superveniências e insubsistências ativas e passivas (Lei 4.320/1964, art. 100). Superveniência ativa é o surgimento de um ativo (bem doado); insubsistência passiva é o desaparecimento de um passivo (dívida perdoada): ambas aumentam o patrimônio líquido.</p><p><strong>Resultado patrimonial e resultado orçamentário.</strong> Um ente pode ter superávit orçamentário e déficit patrimonial no mesmo ano, por exemplo quando registra grande provisão previdenciária ou forte depreciação, que não passam pelo orçamento.</p><p><strong>Onde vai o resultado.</strong> O resultado patrimonial do período é transferido para o patrimônio líquido, na conta de resultados acumulados, e aparece também na Demonstração das Mutações do Patrimônio Líquido.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A DVP mostra só as variações resultantes da execução orçamentária e indica o resultado orçamentário.",
+     "certo": "Mostra as resultantes ou independentes dela e indica o resultado patrimonial.",
+     "fonte": "Questões do app sobre a DVP"
+    },
+    {
+     "errado": "Com VPA de 1.000 e VPD de 750, a compra de veículos de 120 e a amortização de 90 deixam superávit de 40.",
+     "certo": "O superávit é de 250: compra e amortização não entram.",
+     "fonte": "Questões do app sobre a DVP"
+    },
+    {
+     "errado": "A operação de crédito recebida é VPA financeira.",
+     "certo": "É fato permutativo, fora da DVP.",
+     "fonte": "Questões do app sobre a DVP"
+    },
+    {
+     "errado": "O perdão de dívida do ente é insubsistência ativa e reduz o PL.",
+     "certo": "É insubsistência passiva e aumenta o PL.",
+     "fonte": "Questões do app sobre a DVP"
+    }
+   ],
    "relacionados": [
     "balanco-patrimonial-dcasp",
     "demonstracao-das-mutacoes-do-pl-e-notas-explicativas"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "balanco-patrimonial-dcasp",
@@ -2278,28 +2565,81 @@
    "tax": [
     "contabilidade-publica.balanco-patrimonial"
    ],
+   "dispositivos": [],
    "conceitos": [
     "balanço patrimonial"
    ],
    "palavras": [
     "ativo circulante",
-    "ativo não circulante",
+    "ativo nao circulante",
     "passivo circulante",
-    "passivo não circulante",
-    "patrimônio líquido",
+    "passivo nao circulante",
+    "patrimonio liquido",
     "ativo financeiro",
     "ativo permanente",
     "passivo financeiro",
     "passivo permanente",
-    "contas de compensação",
-    "superávit financeiro",
-    "quadro por destinação de recursos"
+    "contas de compensacao",
+    "superavit financeiro",
+    "quadro por destinacao de recursos"
    ],
-   "resumo": "O <strong>Balanço Patrimonial</strong> evidencia, qualitativa e quantitativamente, a situação patrimonial da entidade por meio de contas representativas do patrimônio público e dos atos potenciais registrados em contas de controle. No MCASP ele tem quatro quadros. O <strong>quadro principal</strong> segue o critério de liquidez e exigibilidade: ativo circulante e não circulante, passivo circulante e não circulante e patrimônio líquido. O ativo circulante reúne os ativos realizáveis em até doze meses da data das demonstrações, o caixa e os mantidos para negociação; o ativo não circulante divide-se em realizável a longo prazo, investimentos, imobilizado e intangível. O patrimônio líquido abrange patrimônio social e capital social, adiantamento para futuro aumento de capital, reservas, ajustes de avaliação patrimonial, resultados acumulados e ações ou cotas em tesouraria, como redutor. O <strong>quadro dos ativos e passivos financeiros e permanentes</strong> atende à Lei 4.320/1964 (art. 105): o ativo financeiro compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o ativo permanente, os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa; o passivo financeiro, os compromissos cujo pagamento independa de autorização orçamentária; o passivo permanente, as dívidas que dependam de autorização legislativa para amortização ou resgate. O <strong>quadro das contas de compensação</strong> mostra os atos potenciais ativos e passivos, registrados nas classes 7 e 8 do PCASP, como garantias, convênios e contratos a executar. O <strong>quadro do superávit ou déficit financeiro</strong> apura, por destinação de recursos, a diferença entre ativo financeiro e passivo financeiro, que serve de fonte para créditos adicionais no exercício seguinte.",
+   "para_entender": [
+    {
+     "texto": "<strong>Saldo patrimonial e superávit financeiro:</strong> as duas grandezas da Lei 4.320/1964.",
+     "tema": "saldo-patrimonial-e-superavit-financeiro"
+    }
+   ],
+   "resumo": "O <strong>Balanço Patrimonial</strong> evidencia, qualitativa e quantitativamente, a situação patrimonial da entidade por meio de contas representativas do patrimônio público e dos atos potenciais registrados em contas de controle. No MCASP ele tem os quatro quadros da tabela. O quadro principal segue o critério de <strong>liquidez</strong> (a rapidez com que o ativo vira caixa) e de <strong>exigibilidade</strong> (o prazo em que o passivo vence). O <strong>ativo circulante</strong> reúne os ativos realizáveis em até doze meses da data das demonstrações, o caixa e os mantidos para negociação; o <strong>ativo não circulante</strong> divide-se em realizável a longo prazo, investimentos, imobilizado e intangível. O <strong>patrimônio líquido</strong> abrange patrimônio social e capital social, adiantamento para futuro aumento de capital, reservas, ajustes de avaliação patrimonial, resultados acumulados e ações ou cotas em tesouraria, como redutor. O quadro dos ativos e passivos financeiros e permanentes atende à Lei 4.320/1964 (art. 105): o <strong>ativo financeiro</strong> compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários; o <strong>ativo permanente</strong>, os bens, créditos e valores cuja mobilização ou alienação dependa de autorização legislativa; o <strong>passivo financeiro</strong>, os compromissos cujo pagamento independa de autorização orçamentária; o <strong>passivo permanente</strong>, as dívidas fundadas e outras que dependam de autorização legislativa para amortização ou resgate. As <strong>contas de compensação</strong> registram os atos potenciais, nas classes 7 e 8 do PCASP. O <strong>superávit financeiro</strong> é a diferença positiva entre o ativo financeiro e o passivo financeiro, apurada por destinação de recursos.",
    "esquema": {
     "rotulo": "os quatro quadros do Balanço Patrimonial",
     "html": "<table><thead><tr><th>Quadro</th><th>Critério</th><th>Para que serve</th></tr></thead><tbody><tr><td><strong>Principal</strong></td><td>circulante e não circulante; patrimônio líquido</td><td>situação patrimonial pela liquidez e exigibilidade, alinhada às normas internacionais</td></tr><tr><td><strong>Ativos e passivos financeiros e permanentes</strong></td><td>dependência ou não de autorização orçamentária ou legislativa (Lei 4.320/1964, art. 105)</td><td>apurar o saldo patrimonial no conceito da lei e o superávit financeiro</td></tr><tr><td><strong>Contas de compensação</strong></td><td>atos potenciais ativos e passivos (classes 7 e 8)</td><td>mostrar o que pode vir a afetar o patrimônio: garantias, convênios, contratos</td></tr><tr><td><strong>Superávit ou déficit financeiro</strong></td><td>por destinação de recursos (fonte)</td><td>indicar quanto pode ser usado para créditos adicionais no exercício seguinte</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Dois critérios",
+      "o_que_e": "Circulante e não circulante só no quadro principal; financeiro e permanente só no quadro da Lei 4.320/1964.",
+      "grupo": "Quadros"
+     },
+     {
+      "nome": "Restos a pagar não processados",
+      "o_que_e": "No quadro principal, o empenho não liquidado não é passivo, porque ainda não há obrigação presente.",
+      "atencao": "Mas integra o passivo financeiro na apuração do superávit financeiro, porque o pagamento não depende de nova autorização orçamentária.",
+      "grupo": "Quadros"
+     },
+     {
+      "nome": "Exemplo de superávit financeiro",
+      "o_que_e": "Se o Balanço Patrimonial de um ente evidencia ativo financeiro de R$ 900 mil e passivo financeiro de R$ 650 mil, o superávit financeiro de R$ 250 mil pode servir de fonte para abertura de créditos adicionais no exercício seguinte, desde que não comprometido (Lei 4.320/1964, art. 43, § 1º, I, e § 2º).",
+      "grupo": "Superávit financeiro"
+     },
+     {
+      "nome": "Contas de compensação",
+      "o_que_e": "Registram os bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (Lei 4.320/1964, art. 105, § 5º).",
+      "atencao": "Não são o que afeta imediata e diretamente o patrimônio. A garantia concedida pelo ente é exemplo típico: não é passivo hoje, mas pode vir a ser.",
+      "grupo": "Compensação"
+     },
+     {
+      "nome": "Imobilizado é permanente",
+      "o_que_e": "Os bens do imobilizado estão no ativo permanente, porque sua alienação depende de autorização legislativa, e no ativo não circulante do quadro principal.",
+      "grupo": "Grupos"
+     },
+     {
+      "nome": "Sem ativo diferido",
+      "o_que_e": "O ativo não circulante do MCASP tem quatro grupos: realizável a longo prazo, investimentos, imobilizado e intangível.",
+      "atencao": "O antigo ativo diferido não integra essa estrutura.",
+      "grupo": "Grupos"
+     },
+     {
+      "nome": "Saldo patrimonial",
+      "o_que_e": "No quadro da Lei 4.320/1964, é a diferença entre o ativo real (financeiro mais permanente) e o passivo real; no quadro principal, a mesma grandeza é o patrimônio líquido.",
+      "grupo": "Grupos"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "FINANCEIRO INDEPENDE DE AUTORIZAÇÃO",
@@ -2319,14 +2659,37 @@
     "gabarito": "E",
     "explicacao": "O quadro principal usa o critério de liquidez: ativo circulante e ativo não circulante. A divisão em ativo financeiro e ativo permanente, da Lei 4.320/1964, aparece em quadro próprio, o dos ativos e passivos financeiros e permanentes."
    },
-   "aprofundamento": "<p><strong>Restos a pagar não processados.</strong> No quadro principal, o empenho não liquidado não é passivo, porque ainda não há obrigação presente. Mas ele integra o passivo financeiro na apuração do superávit financeiro, porque o pagamento não depende de nova autorização orçamentária.</p><p><strong>Exemplo de superávit financeiro.</strong> Ativo financeiro de 900 (caixa e aplicações), passivo financeiro de 650 (restos a pagar processados e não processados e depósitos de terceiros). O superávit financeiro é de 250, que pode ser fonte de créditos adicionais no exercício seguinte, desde que não comprometido (Lei 4.320/1964, art. 43, § 1º, I, e § 2º).</p><p><strong>Contas de compensação.</strong> Registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio (Lei 4.320/1964, art. 105, § 5º). Uma garantia concedida pelo ente é exemplo típico: não é passivo hoje, mas pode vir a ser.</p><p><strong>Imobilizado é permanente.</strong> Bens imóveis e móveis do imobilizado estão no ativo permanente, porque sua alienação depende de autorização legislativa, e no ativo não circulante do quadro principal.</p><p><strong>Sem ativo diferido.</strong> O ativo não circulante do MCASP tem quatro grupos: realizável a longo prazo, investimentos, imobilizado e intangível. O antigo ativo diferido não integra essa estrutura.</p><p><strong>Saldo patrimonial.</strong> No quadro da Lei 4.320/1964, o saldo patrimonial é a diferença entre o ativo real (financeiro mais permanente) e o passivo real; no quadro principal, a mesma grandeza é o patrimônio líquido.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O quadro principal divide o ativo em financeiro e permanente.",
+     "certo": "Divide em circulante e não circulante.",
+     "fonte": "Questões do app sobre o balanço patrimonial"
+    },
+    {
+     "errado": "O ativo permanente independe de autorização legislativa para alienação.",
+     "certo": "Depende dela.",
+     "fonte": "Questões do app sobre o balanço patrimonial"
+    },
+    {
+     "errado": "As contas de compensação registram o que afeta imediata e diretamente o patrimônio.",
+     "certo": "Registram o que pode afetá-lo mediata ou indiretamente.",
+     "fonte": "Questões do app sobre o balanço patrimonial"
+    },
+    {
+     "errado": "Os restos a pagar não processados ficam fora do passivo financeiro.",
+     "certo": "Integram o passivo financeiro.",
+     "fonte": "Questões do app sobre o balanço patrimonial"
+    },
+    {
+     "errado": "O ativo não circulante inclui o diferido.",
+     "certo": "São quatro grupos, sem o diferido.",
+     "fonte": "Questões do app sobre o balanço patrimonial"
+    }
+   ],
    "relacionados": [
     "demonstracao-das-variacoes-patrimoniais",
     "balanco-financeiro"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "demonstracao-dos-fluxos-de-caixa",
@@ -2336,25 +2699,89 @@
    "tax": [
     "contabilidade-publica.dfc"
    ],
+   "dispositivos": [],
    "conceitos": [
     "demonstração dos fluxos de caixa"
    ],
    "palavras": [
     "dfc",
-    "método direto",
+    "metodo direto",
     "atividades operacionais",
     "atividades de investimento",
     "atividades de financiamento",
     "caixa e equivalentes de caixa",
-    "geração líquida de caixa",
+    "geracao liquida de caixa",
     "receitas derivadas",
-    "receitas originárias"
+    "receitas originarias"
    ],
-   "resumo": "A <strong>Demonstração dos Fluxos de Caixa</strong> mostra as entradas e saídas de caixa e equivalentes de caixa do período, classificadas em três fluxos: das <strong>atividades operacionais</strong>, das <strong>atividades de investimento</strong> e das <strong>atividades de financiamento</strong>. A soma dos três é a geração líquida de caixa e equivalentes de caixa, que corresponde à diferença entre o caixa final e o caixa inicial. O MCASP adota o <strong>método direto</strong>, que evidencia as principais classes de recebimentos e pagamentos brutos. Os ingressos operacionais são as receitas derivadas e originárias, as transferências correntes recebidas e outros ingressos operacionais; os desembolsos operacionais são pessoal e demais despesas, juros e encargos da dívida, transferências concedidas e outros desembolsos. Os ingressos de investimento são a alienação de bens e a amortização de empréstimos e financiamentos concedidos; os desembolsos de investimento são a aquisição de ativo não circulante e a concessão de empréstimos e financiamentos. Os ingressos de financiamento são as operações de crédito, a integralização do capital social de empresas dependentes e as transferências de capital recebidas; os desembolsos de financiamento são a amortização e o refinanciamento da dívida. Além do quadro principal, a DFC traz quadros de receitas derivadas e originárias, de transferências recebidas e concedidas, de desembolsos de pessoal e demais despesas por função e de juros e encargos da dívida. A DFC não está entre os balanços da Lei 4.320/1964: é exigida pelas normas contábeis aplicadas ao setor público e pelo MCASP.",
+   "para_entender": [
+    {
+     "texto": "<strong>Balanço Financeiro:</strong> ingressos e dispêndios orçamentários e extraorçamentários.",
+     "tema": "balanco-financeiro"
+    }
+   ],
+   "resumo": "A <strong>Demonstração dos Fluxos de Caixa</strong> (DFC) mostra as entradas e saídas de <strong>caixa e equivalentes de caixa</strong> do período, classificadas em três fluxos: das <strong>atividades operacionais</strong>, ligadas à arrecadação e à prestação de serviços; das <strong>atividades de investimento</strong>, ligadas aos ativos não circulantes e aos empréstimos concedidos pelo ente; e das <strong>atividades de financiamento</strong>, ligadas às operações de crédito e à dívida. A soma dos três é a <strong>geração líquida de caixa</strong> e equivalentes de caixa, que corresponde à diferença entre o caixa final e o caixa inicial. O MCASP adota o <strong>método direto</strong>, que evidencia as principais classes de recebimentos e pagamentos brutos; o que cabe em cada fluxo está na tabela. <strong>Receitas derivadas</strong> são as que o Estado obtém pelo seu poder de império, como os tributos; <strong>receitas originárias</strong>, as que obtém explorando o próprio patrimônio ou atividade, como aluguéis e tarifas. Além do quadro principal, a DFC traz quadros de receitas derivadas e originárias, de transferências recebidas e concedidas, de desembolsos de pessoal e demais despesas por função e de juros e encargos da dívida. A DFC não está entre os balanços da Lei 4.320/1964: é exigida pelas normas contábeis aplicadas ao setor público e pelo MCASP.",
    "esquema": {
     "rotulo": "onde cada fluxo entra",
     "html": "<table><thead><tr><th>Fluxo</th><th>Ingressos</th><th>Desembolsos</th></tr></thead><tbody><tr><td><strong>Operacional</strong></td><td>receitas derivadas (tributos) e originárias; transferências correntes recebidas; outros</td><td>pessoal e demais despesas; juros e encargos da dívida; transferências concedidas; outros</td></tr><tr><td><strong>Investimento</strong></td><td>alienação de bens; amortização de empréstimos e financiamentos concedidos</td><td>aquisição de ativo não circulante; concessão de empréstimos e financiamentos</td></tr><tr><td><strong>Financiamento</strong></td><td>operações de crédito; integralização de capital de empresas dependentes; transferências de capital recebidas</td><td>amortização e refinanciamento da dívida</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Método indireto",
+      "o_que_e": "Parte do resultado patrimonial do período e o ajusta pelos itens que não afetam o caixa.",
+      "atencao": "O MCASP não o adota: a DFC pública segue o método direto.",
+      "grupo": "Método"
+     },
+     {
+      "nome": "Juros da dívida",
+      "o_que_e": "Os pagamentos de juros e encargos da dívida pública são desembolso das atividades operacionais.",
+      "atencao": "Só a amortização do principal vai ao fluxo de financiamento.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Operação de crédito",
+      "o_que_e": "Os recursos recebidos de operação de crédito contratada pelo ente são ingresso das atividades de financiamento, e não de investimento.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Empréstimo concedido",
+      "o_que_e": "O recebimento, pelo ente, da amortização de empréstimo que ele concedeu a terceiros é ingresso das atividades de investimento; a concessão é desembolso de investimento.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Aquisição de bens",
+      "o_que_e": "A aquisição de bens do ativo não circulante, como veículos e equipamentos, é desembolso das atividades de investimento.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Exemplo numérico",
+      "o_que_e": "Caixa inicial de R$ 200 mil; no exercício, o ente arrecadou tributos de R$ 900 mil, pagou pessoal de R$ 600 mil e juros de R$ 50 mil, comprou equipamentos por R$ 150 mil, vendeu imóvel por R$ 80 mil, recebeu operação de crédito de R$ 100 mil e amortizou R$ 120 mil de dívida.",
+      "atencao": "Operacional: 900 - 600 - 50 = 250. Investimento: 80 - 150 = -70. Financiamento: 100 - 120 = -20. Geração líquida: 160. Caixa final: 360.",
+      "grupo": "Exemplo"
+     },
+     {
+      "nome": "Equivalentes de caixa",
+      "o_que_e": "Aplicações de curto prazo, de alta liquidez, prontamente conversíveis em valor conhecido de caixa e sujeitas a risco insignificante de mudança de valor.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "O que não é caixa",
+      "o_que_e": "Depreciação, provisões e doações de bens não aparecem na DFC, porque não movimentam caixa.",
+      "atencao": "A aquisição de bem financiada diretamente pelo fornecedor também não é fluxo de caixa no momento da aquisição.",
+      "grupo": "Conceitos"
+     },
+     {
+      "nome": "Utilidade",
+      "o_que_e": "Mostra a capacidade de gerar caixa com as operações e a dependência de operações de crédito para financiar investimentos, o que nem o Balanço Financeiro, que mistura orçamento e caixa, nem a DVP, que segue a competência, mostram com clareza.",
+      "grupo": "Conceitos"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "JUROS NO OPERACIONAL, PRINCIPAL NO FINANCIAMENTO",
@@ -2374,14 +2801,32 @@
     "gabarito": "E",
     "explicacao": "A operação de crédito obtida pelo ente é ingresso das atividades de financiamento. No fluxo de investimento ficam a alienação de bens, a aquisição de ativo não circulante e a concessão e o recebimento de empréstimos concedidos pelo próprio ente."
    },
-   "aprofundamento": "<p><strong>Exemplo numérico.</strong> Caixa inicial de 200. Tributos arrecadados de 900, pagamento de pessoal de 600, juros pagos de 50, compra de equipamentos de 150, venda de imóvel de 80, operação de crédito recebida de 100 e amortização de dívida de 120. Fluxo operacional: 900 - 600 - 50 = 250. Fluxo de investimento: 80 - 150 = -70. Fluxo de financiamento: 100 - 120 = -20. Geração líquida: 250 - 70 - 20 = 160. Caixa final: 360.</p><p><strong>Caixa e equivalentes de caixa.</strong> Equivalentes de caixa são aplicações de curto prazo, de alta liquidez, prontamente conversíveis em valor conhecido de caixa e sujeitas a risco insignificante de mudança de valor.</p><p><strong>Fluxo que não é caixa.</strong> Depreciação, provisões e doações de bens não aparecem na DFC, porque não movimentam caixa. Uma aquisição de bem financiada diretamente pelo fornecedor também não é fluxo de caixa no momento da aquisição.</p><p><strong>Utilidade.</strong> A DFC permite avaliar a capacidade da entidade de gerar caixa com suas operações e a dependência de operações de crédito para financiar investimentos, informação que nem o Balanço Financeiro (que mistura orçamento e caixa) nem a DVP (competência) mostram com clareza.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A operação de crédito recebida é ingresso de investimento.",
+     "certo": "É ingresso de financiamento.",
+     "fonte": "Questões do app sobre a DFC"
+    },
+    {
+     "errado": "Os juros da dívida são desembolso de financiamento.",
+     "certo": "São desembolso operacional.",
+     "fonte": "Questões do app sobre a DFC"
+    },
+    {
+     "errado": "O MCASP adota o método indireto.",
+     "certo": "Adota o método direto.",
+     "fonte": "Questões do app sobre a DFC"
+    },
+    {
+     "errado": "A depreciação aparece na DFC.",
+     "certo": "Não movimenta caixa e fica fora.",
+     "fonte": "Questões do app sobre a DFC"
+    }
+   ],
    "relacionados": [
     "balanco-financeiro",
     "demonstracao-das-mutacoes-do-pl-e-notas-explicativas"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "demonstracao-das-mutacoes-do-pl-e-notas-explicativas",
@@ -2392,25 +2837,76 @@
     "contabilidade-publica.dmpl",
     "contabilidade-publica.notas-explicativas"
    ],
+   "dispositivos": [],
    "conceitos": [
     "demonstração das mutações do patrimônio líquido",
     "notas explicativas"
    ],
    "palavras": [
     "dmpl",
-    "ajustes de exercícios anteriores",
+    "ajustes de exercicios anteriores",
     "resultados acumulados",
-    "transações de capital com os sócios",
+    "transacoes de capital com os socios",
     "estatais dependentes",
-    "políticas contábeis",
-    "declaração de conformidade",
+    "politicas contabeis",
+    "declaracao de conformidade",
     "nbc tsp 11"
    ],
-   "resumo": "A <strong>Demonstração das Mutações do Patrimônio Líquido</strong> mostra a evolução de cada componente do patrimônio líquido no período: patrimônio social ou capital social, adiantamento para futuro aumento de capital, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, demais reservas, resultados acumulados e ações ou cotas em tesouraria. Ela evidencia o resultado patrimonial do período, os ajustes de exercícios anteriores, as transações de capital com os sócios e a constituição ou reversão de reservas. Segundo o MCASP, a DMPL é obrigatória para as empresas estatais dependentes e para os entes que as incorporarem no processo de consolidação das contas; para os demais, é facultativa. Os <strong>ajustes de exercícios anteriores</strong> decorrem de mudança de critério contábil ou de retificação de erro imputável a exercício anterior e são registrados diretamente no patrimônio líquido, em resultados acumulados, sem passar pela DVP do exercício. As <strong>notas explicativas</strong> são parte integrante das demonstrações contábeis. Elas apresentam a base de elaboração e as políticas contábeis usadas, divulgam informação exigida pelas normas que não esteja apresentada em outra parte e trazem informação adicional relevante para a compreensão das demonstrações. A ordem habitual é: declaração de conformidade com as normas de contabilidade aplicadas ao setor público, resumo das políticas contábeis significativas, informações de suporte aos itens apresentados, na ordem em que cada demonstração e cada item aparecem, e outras divulgações, como passivos contingentes, compromissos contratuais não reconhecidos e informações não financeiras.",
+   "para_entender": [
+    {
+     "texto": "<strong>DVP:</strong> de onde vem o resultado patrimonial que vai ao patrimônio líquido.",
+     "tema": "demonstracao-das-variacoes-patrimoniais"
+    }
+   ],
+   "resumo": "A <strong>Demonstração das Mutações do Patrimônio Líquido</strong> (DMPL) mostra a evolução de cada componente do patrimônio líquido no período, do patrimônio social ou capital social às ações ou cotas em tesouraria. Ela evidencia o resultado patrimonial do período, os ajustes de exercícios anteriores, as transações de capital com os sócios e a constituição ou reversão de reservas. Segundo o MCASP, a DMPL é obrigatória para as empresas estatais dependentes e para os entes que as incorporarem no processo de consolidação das contas; para os demais, é facultativa. <strong>Ajustes de exercícios anteriores</strong> são correções de saldos de anos passados, por mudança de critério contábil ou por retificação de erro imputável a exercício anterior; vão direto ao patrimônio líquido, em resultados acumulados, sem passar pela DVP do exercício. <strong>Transações de capital com os sócios</strong> são as operações em que o ente atua como dono, como a integralização de capital e a distribuição de dividendos. As <strong>notas explicativas</strong> são parte integrante das demonstrações contábeis aplicadas ao setor público. Elas apresentam a base de elaboração e as <strong>políticas contábeis</strong> (os critérios escolhidos para reconhecer e mensurar os itens), divulgam informação exigida pelas normas que não esteja apresentada em outra parte e trazem informação adicional relevante para a compreensão das demonstrações. A ordem habitual é: declaração de conformidade com as normas de contabilidade aplicadas ao setor público, resumo das políticas contábeis significativas, informações de suporte aos itens apresentados, na ordem em que cada demonstração e cada item aparecem, e outras divulgações, como passivos contingentes, compromissos contratuais não reconhecidos e informações não financeiras.",
    "esquema": {
     "rotulo": "DMPL e notas em um quadro",
     "html": "<table><thead><tr><th>Ponto</th><th>DMPL</th><th>Notas explicativas</th></tr></thead><tbody><tr><td>Natureza</td><td>demonstração contábil própria</td><td>parte integrante das demonstrações</td></tr><tr><td>Obrigatoriedade</td><td>estatais dependentes e entes que as consolidam; facultativa para os demais</td><td>acompanham as demonstrações de todas as entidades</td></tr><tr><td>Conteúdo central</td><td>movimento de cada conta do patrimônio líquido: resultado, ajustes de exercícios anteriores, transações com sócios, reservas</td><td>conformidade, políticas contábeis, suporte aos itens, outras divulgações</td></tr><tr><td>Ponto de prova</td><td>ajuste de exercício anterior vai direto ao patrimônio líquido</td><td>informação que não foi reconhecida, como passivo contingente, vai em nota</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Erro e critério",
+      "o_que_e": "A mudança de política contábil e a retificação de erro de exercício anterior são aplicadas retrospectivamente, com ajuste no patrimônio líquido.",
+      "grupo": "DMPL"
+     },
+     {
+      "nome": "Mudança de estimativa",
+      "o_que_e": "A revisão da vida útil estimada de um bem do imobilizado é aplicada prospectivamente, afetando o resultado do exercício corrente e dos seguintes.",
+      "atencao": "Não é ajuste de exercícios anteriores.",
+      "grupo": "DMPL"
+     },
+     {
+      "nome": "Transações com os sócios",
+      "o_que_e": "Aparecem sobretudo nas estatais dependentes: integralização de capital, adiantamento para futuro aumento de capital e distribuição de lucros e dividendos.",
+      "grupo": "DMPL"
+     },
+     {
+      "nome": "Nota não substitui registro",
+      "o_que_e": "Um passivo que atende aos critérios de reconhecimento deve estar no Balanço Patrimonial; a nota explica, mas não substitui o registro.",
+      "grupo": "Notas explicativas"
+     },
+     {
+      "nome": "Referência cruzada",
+      "o_que_e": "Os itens apresentados nas demonstrações contábeis devem ter referência cruzada com as respectivas notas explicativas.",
+      "grupo": "Notas explicativas"
+     },
+     {
+      "nome": "Informação adicional",
+      "o_que_e": "As notas não se limitam à base de elaboração e às políticas contábeis: trazem também informação adicional relevante, ainda que não exigida expressamente pelas normas.",
+      "grupo": "Notas explicativas"
+     },
+     {
+      "nome": "Rol das DCASP",
+      "o_que_e": "Balanço Orçamentário, Balanço Financeiro, Balanço Patrimonial, DVP, DFC e DMPL, acompanhadas das notas explicativas.",
+      "grupo": "DCASP"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "AJUSTE ANTIGO NÃO PASSA PELA DVP",
@@ -2430,14 +2926,37 @@
     "gabarito": "E",
     "explicacao": "O ajuste de exercícios anteriores, por retificação de erro ou mudança de critério contábil, é registrado diretamente no patrimônio líquido, em resultados acumulados, e aparece na DMPL, não na DVP do exercício."
    },
-   "aprofundamento": "<p><strong>Mudança de critério e mudança de estimativa.</strong> A mudança de política contábil e a retificação de erro de exercício anterior são aplicadas retrospectivamente, com ajuste no patrimônio líquido. A mudança de estimativa, como a revisão da vida útil de um bem, é aplicada prospectivamente, afetando o resultado do exercício corrente e dos seguintes.</p><p><strong>Transações de capital com os sócios.</strong> Aparecem sobretudo nas estatais dependentes: integralização de capital, adiantamento para futuro aumento de capital e distribuição de lucros e dividendos.</p><p><strong>Notas e informação não reconhecida.</strong> Divulgar em nota não corrige um reconhecimento errado. Um passivo que atende aos critérios de reconhecimento deve estar no balanço; a nota explica, mas não substitui o registro.</p><p><strong>Referência cruzada.</strong> Cada item das demonstrações deve remeter à nota correspondente, para que o usuário encontre a informação de suporte.</p><p><strong>Rol das DCASP.</strong> Pelo MCASP, as demonstrações contábeis aplicadas ao setor público são o Balanço Orçamentário, o Balanço Financeiro, o Balanço Patrimonial, a DVP, a DFC e a DMPL, acompanhadas das notas explicativas.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A DMPL é obrigatória para todos os órgãos e entidades.",
+     "certo": "É obrigatória para as estatais dependentes e os entes que as consolidam.",
+     "fonte": "Questões do app sobre a DMPL e as notas explicativas"
+    },
+    {
+     "errado": "A revisão da vida útil é ajuste de exercícios anteriores.",
+     "certo": "É mudança de estimativa, prospectiva.",
+     "fonte": "Questões do app sobre a DMPL e as notas explicativas"
+    },
+    {
+     "errado": "Divulgar em nota dispensa o registro do passivo.",
+     "certo": "A nota não substitui o reconhecimento.",
+     "fonte": "Questões do app sobre a DMPL e as notas explicativas"
+    },
+    {
+     "errado": "As informações de suporte vêm antes da declaração de conformidade.",
+     "certo": "A conformidade e as políticas contábeis vêm primeiro.",
+     "fonte": "Questões do app sobre a DMPL e as notas explicativas"
+    },
+    {
+     "errado": "É vedado pôr nas notas informação não exigida pelas normas.",
+     "certo": "Cabe informação adicional relevante.",
+     "fonte": "Questões do app sobre a DMPL e as notas explicativas"
+    }
+   ],
    "relacionados": [
     "demonstracao-das-variacoes-patrimoniais",
     "balanco-patrimonial-dcasp"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "consolidacao-das-demonstracoes-contabeis",
@@ -2447,27 +2966,70 @@
    "tax": [
     "contabilidade-publica.consolidacao-dcasp"
    ],
+   "dispositivos": [],
    "conceitos": [
     "consolidação das demonstrações contábeis",
     "consolidação das contas públicas"
    ],
    "palavras": [
-    "transações recíprocas",
+    "transacoes reciprocas",
     "intra ofss",
     "inter ofss",
-    "quinto nível",
-    "balanço do setor público nacional",
+    "quinto nivel",
+    "balanco do setor publico nacional",
     "bspn",
-    "operações intragovernamentais",
+    "operacoes intragovernamentais",
     "30 de junho",
     "30 de abril",
     "estatal dependente"
    ],
-   "resumo": "<strong>Consolidar</strong> é somar ou agregar os saldos das demonstrações de órgãos e entidades e excluir as transações recíprocas entre eles, para apresentar o conjunto como se fosse uma única entidade. Pela LRF, as demonstrações contábeis compreendem, isolada e conjuntamente, as transações e operações de cada órgão, fundo ou entidade da administração direta, autárquica e fundacional, inclusive empresa estatal dependente (art. 50, III), e, no caso das demonstrações conjuntas, excluem-se as operações intragovernamentais (art. 50, § 1º). A empresa estatal independente fica fora dessa consolidação; entra nas contas do ente apenas pela participação societária. No PCASP, o 5º nível da conta, o subtítulo, identifica a contraparte: o código 1 marca saldos que não serão excluídos; o código 2 marca as transações <strong>intra OFSS</strong>, entre órgãos e entidades do orçamento fiscal e da seguridade social do mesmo ente, excluídas na consolidação do ente; os códigos 3, 4 e 5 marcam as transações <strong>inter OFSS</strong> com a União, com estado e com município, excluídas na consolidação nacional. A consolidação nacional é o Balanço do Setor Público Nacional: o Poder Executivo da União promove, até 30 de junho, a consolidação, nacional e por esfera de governo, das contas dos entes relativas ao exercício anterior, e a sua divulgação, inclusive por meio eletrônico de acesso público (LRF, art. 51). Estados e municípios encaminham suas contas ao Poder Executivo da União até 30 de abril (art. 51, § 1º, na redação da LC 178/2021). O descumprimento desses prazos impede, até a regularização, que o Poder ou órgão receba transferências voluntárias e contrate operações de crédito, exceto as destinadas ao pagamento da dívida mobiliária (art. 51, § 2º).",
+   "para_entender": [
+    {
+     "texto": "<strong>PCASP:</strong> o 5º nível da conta e as classes.",
+     "tema": "plano-de-contas-aplicado-ao-setor-publico-pcasp"
+    }
+   ],
+   "resumo": "<strong>Consolidar</strong> é agregar os saldos das demonstrações de órgãos e entidades e excluir as <strong>transações recíprocas</strong> entre eles (as que um faz com o outro, como repasses e empréstimos), apresentando o conjunto como se fosse uma única entidade. Pela LRF, as demonstrações contábeis compreenderão, isolada e conjuntamente, as transações e operações de cada órgão, fundo ou entidade da administração direta, autárquica e fundacional, inclusive empresa estatal dependente (art. 50, III), e, no caso das demonstrações conjuntas, excluem-se as operações intragovernamentais (art. 50, § 1º). A empresa estatal independente fica fora dessa consolidação e entra nas contas do ente apenas pela participação societária. O 5º nível da conta do PCASP, o subtítulo, identifica a contraparte de cada transação. <strong>OFSS</strong> é o conjunto do orçamento fiscal e da seguridade social. As transações <strong>intra OFSS</strong>, entre órgãos e entidades do mesmo ente, são excluídas na consolidação do ente; as <strong>inter OFSS</strong>, com outro ente, só na consolidação nacional, como mostra a tabela. A consolidação nacional é o <strong>Balanço do Setor Público Nacional</strong>: o Poder Executivo da União promove, até 30 de junho, a consolidação, nacional e por esfera de governo, das contas dos entes relativas ao exercício anterior, e a sua divulgação, inclusive por meio eletrônico de acesso público (LRF, art. 51). Estados e municípios encaminham suas contas ao Poder Executivo da União até 30 de abril (art. 51, § 1º, na redação da LC 178/2021). O descumprimento desses prazos impede, até a regularização, que o Poder ou órgão receba transferências voluntárias e contrate operações de crédito, exceto as destinadas ao pagamento da dívida mobiliária (art. 51, § 2º).",
    "esquema": {
     "rotulo": "o que se elimina em cada consolidação",
     "html": "<table><thead><tr><th>Nível de consolidação</th><th>Quem entra</th><th>O que se elimina</th></tr></thead><tbody><tr><td><strong>Do ente</strong> (ex.: Estado de Alagoas)</td><td>administração direta, autarquias, fundações, fundos e estatais dependentes</td><td>transações intra OFSS (5º nível = 2): duodécimos, transferências financeiras, créditos e débitos entre órgãos do mesmo ente</td></tr><tr><td><strong>Nacional</strong> (Balanço do Setor Público Nacional)</td><td>todos os entes da Federação</td><td>também as transações inter OFSS (5º nível = 3, 4 ou 5): transferências constitucionais e voluntárias entre entes, empréstimos entre entes</td></tr><tr><td><strong>Fora da consolidação</strong></td><td>estatal independente</td><td>não se soma; aparece como investimento do ente controlador</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Duodécimo",
+      "o_que_e": "Na consolidação das demonstrações de um estado, o duodécimo repassado pelo Tesouro ao Tribunal de Justiça é eliminado: o Executivo registra transferência financeira concedida e VPD intra OFSS, o Tribunal registra transferência recebida e VPA intra OFSS, e os dois lados se anulam.",
+      "atencao": "A eliminação não tem efeito sobre o resultado patrimonial consolidado.",
+      "grupo": "Exemplos"
+     },
+     {
+      "nome": "Cota-parte do ICMS",
+      "o_que_e": "A cota-parte do ICMS transferida pelo estado aos seus municípios é transação inter OFSS (5º nível = 5 no registro do estado).",
+      "atencao": "Não é intra OFSS: permanece no consolidado do próprio estado e só é eliminada no Balanço do Setor Público Nacional.",
+      "grupo": "Exemplos"
+     },
+     {
+      "nome": "Estatal independente",
+      "o_que_e": "Não se soma nas demonstrações conjuntas: aparece como investimento do ente controlador.",
+      "atencao": "O art. 50, III, da LRF inclui a empresa estatal dependente, e não a independente.",
+      "grupo": "Quem entra"
+     },
+     {
+      "nome": "Por que o 5º nível",
+      "o_que_e": "Identificar a contraparte já no registro permite que a exclusão das transações recíprocas seja automática, sem conciliações manuais entre milhares de entidades.",
+      "grupo": "Quem entra"
+     },
+     {
+      "nome": "Normas gerais",
+      "o_que_e": "Cabe ao órgão central de contabilidade da União, enquanto não implantado o conselho de gestão fiscal, editar normas gerais para consolidação das contas públicas (LRF, art. 50, § 2º).",
+      "grupo": "Prazos e normas"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "INTRA É DENTRO DO ENTE, INTER É ENTRE ENTES",
@@ -2487,14 +3049,32 @@
     "gabarito": "E",
     "explicacao": "Desde a LC 178/2021, estados e municípios encaminham suas contas ao Poder Executivo da União até 30 de abril (LRF, art. 51, § 1º). A União promove a consolidação, nacional e por esfera de governo, até 30 de junho."
    },
-   "aprofundamento": "<p><strong>Exemplo de eliminação.</strong> O Tesouro estadual repassa 100 ao Tribunal de Justiça como duodécimo. O Poder Executivo registra transferência financeira concedida e VPD de transferência intra OFSS; o Tribunal registra transferência financeira recebida e VPA intra OFSS. Na consolidação do ente, os dois lados se anulam e o resultado patrimonial consolidado não muda.</p><p><strong>Transação inter OFSS.</strong> A cota do ICMS transferida pelo estado aos municípios é inter OFSS (5º nível = 5 no registro do estado). Ela permanece no balanço consolidado do estado, mas é eliminada no Balanço do Setor Público Nacional.</p><p><strong>Por que o 5º nível existe.</strong> Sem identificar a contraparte já no registro, a eliminação das transações recíprocas exigiria conciliações manuais entre milhares de entidades. O subtítulo do PCASP permite que a exclusão seja automática.</p><p><strong>Normas gerais.</strong> Cabe ao órgão central de contabilidade da União, enquanto não implantado o conselho de gestão fiscal, editar normas gerais para consolidação das contas públicas (LRF, art. 50, § 2º).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Os municípios encaminham as contas à União até 30 de junho.",
+     "certo": "Até 30 de abril; 30 de junho é o prazo da União.",
+     "fonte": "Questões do app sobre a consolidação"
+    },
+    {
+     "errado": "A estatal independente entra nas demonstrações conjuntas.",
+     "certo": "Entra a dependente (LRF, art. 50, III).",
+     "fonte": "Questões do app sobre a consolidação"
+    },
+    {
+     "errado": "A cota-parte do ICMS é intra OFSS e sai no consolidado do estado.",
+     "certo": "É inter OFSS e só sai no consolidado nacional.",
+     "fonte": "Questões do app sobre a consolidação"
+    },
+    {
+     "errado": "O descumprimento dos prazos impede todas as operações de crédito.",
+     "certo": "Ressalva as destinadas ao pagamento da dívida mobiliária.",
+     "fonte": "Questões do app sobre a consolidação"
+    }
+   ],
    "relacionados": [
     "plano-de-contas-aplicado-ao-setor-publico-pcasp",
     "balanco-financeiro"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "transacoes-no-setor-publico",
