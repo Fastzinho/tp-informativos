@@ -1546,6 +1546,1219 @@
    "relacionados": [
     "probabilidade"
    ]
+  },
+  {
+   "slug": "fracoes-mmc-mdc-e-problemas-aritmeticos",
+   "titulo": "Frações, MMC e MDC e problemas aritméticos",
+   "grupo": "Matemática",
+   "base": "Texto próprio, com itens de matemática básica do banco do app",
+   "tax": [
+    "rlm.fracoes",
+    "rlm.mmc-mdc",
+    "rlm.problemas-aritmeticos"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "frações",
+    "mínimo múltiplo comum",
+    "máximo divisor comum",
+    "números primos"
+   ],
+   "palavras": [
+    "fracoes equivalentes",
+    "fracao geratriz",
+    "dizima periodica",
+    "decimal exato",
+    "fracao de fracao",
+    "numero misto",
+    "divisibilidade",
+    "numeros primos",
+    "primos entre si",
+    "quantidade de divisores",
+    "fatoracao",
+    "mmc",
+    "mdc",
+    "problemas de idades",
+    "mistura",
+    "torneira e ralo",
+    "trabalho em conjunto",
+    "postes",
+    "cortes",
+    "galinhas e coelhos",
+    "dia da semana",
+    "encontro e alcance",
+    "numeracao de paginas",
+    "relogio",
+    "troco"
+   ],
+   "resumo": "Em <strong>frações</strong>, só se somam os numeradores depois de igualar os denominadores, em geral pelo MMC; denominadores nunca se somam. Para dividir, multiplica-se pelo inverso; fração de fração é produto. A fração irredutível dá <strong>decimal exato</strong> quando o denominador só tem os fatores primos 2 e 5; qualquer outro primo gera <strong>dízima periódica</strong>, cuja geratriz tem o período sobre tantos noves quantos são os algarismos do período. Em <strong>divisibilidade</strong>, valem os critérios de 2, 3, 4, 5, 6, 9 e 10; 1 não é primo e 2 é o único primo par. O <strong>MMC</strong> diz quando eventos periódicos voltam a coincidir; o <strong>MDC</strong>, qual o maior pedaço igual sem sobra; e MMC × MDC é o produto dos dois números. Nos <strong>problemas aritméticos</strong>, reconheça o tipo: idades (a diferença é constante), mistura (média ponderada), torneira, ralo e trabalho em conjunto (some as frações feitas por hora), postes e marcos (um a mais que os intervalos), ciclos (resto da divisão) e móveis (soma ou diferença das velocidades).",
+   "esquema": {
+    "rotulo": "qual ferramenta usar",
+    "html": "<table><thead><tr><th>O enunciado pede</th><th>Ferramenta</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Somar ou subtrair frações</strong></td><td>MMC dos denominadores</td><td>1/4 + 1/6 = 3/12 + 2/12 = 5/12</td></tr><tr><td><strong>Quando os eventos coincidem de novo</strong></td><td>MMC dos períodos</td><td>ônibus a cada 8 e a cada 12 min: juntos a cada 24 min</td></tr><tr><td><strong>Maior pedaço igual, sem sobra</strong></td><td>MDC dos comprimentos; pedaços = soma dos quocientes</td><td>36, 48 e 60 m: pedaços de 12 m, 3 + 4 + 5 = 12 pedaços</td></tr><tr><td><strong>Dia da semana daqui a n dias</strong></td><td>Resto de n ÷ 7</td><td>45 = 6 × 7 + 3: avance 3 dias</td></tr><tr><td><strong>Dois fazem juntos</strong></td><td>1/a + 1/b do serviço por hora</td><td>4 h e 12 h: 1/4 + 1/12 = 1/3, juntos em 3 h</td></tr><tr><td><strong>Total de unidades e total de pés ou de reais</strong></td><td>Suponha tudo de um tipo e corrija pela diferença unitária</td><td>carros e motos: cada carro troca 2 rodas a mais</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Frações equivalentes",
+      "o_que_e": "Multiplicar ou dividir numerador e denominador pelo mesmo número não nulo",
+      "atencao": "2/3 = 8/12 = 10/15.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Soma e subtração",
+      "o_que_e": "Reduzir ao mesmo denominador e operar só os numeradores",
+      "atencao": "1/4 + 1/6 = 5/12, e não 2/10.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Produto",
+      "o_que_e": "Numerador vezes numerador, denominador vezes denominador",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Divisão",
+      "o_que_e": "Multiplicar pelo inverso da segunda fração",
+      "atencao": "(2/3) ÷ (4/9) = (2/3) · (9/4) = 3/2.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Comparação",
+      "o_que_e": "Mesmo denominador ou produtos cruzados",
+      "atencao": "Com o mesmo numerador, a maior é a de menor denominador: 5/7 > 5/9.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Fração de uma quantidade",
+      "o_que_e": "Divide-se pelo denominador e multiplica-se pelo numerador",
+      "atencao": "2/5 de 350 = 350 ÷ 5 × 2 = 140.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Fração de fração",
+      "o_que_e": "Multiplicam-se as frações",
+      "atencao": "Metade de 2/3 é 1/3.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Número misto",
+      "o_que_e": "Inteiro somado a uma fração própria",
+      "atencao": "3 e 1/2 = 7/2.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Decimal exato ou dízima",
+      "o_que_e": "Denominador irredutível só com os fatores primos 2 e 5 dá decimal exato",
+      "atencao": "3/8 = 0,375; 1/6 = 0,1666..., dízima.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Fração geratriz",
+      "o_que_e": "Na dízima periódica simples, o período sobre tantos noves quantos forem os algarismos do período",
+      "atencao": "0,4545... = 45/99 = 5/11, e não 45/100.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Vírgula",
+      "o_que_e": "Multiplicar por 10, 100 ou 1.000 desloca a vírgula para a direita; dividir, para a esquerda",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "O que resta",
+      "o_que_e": "Complemento para a unidade",
+      "atencao": "Gastos 1/3 e 1/4 do todo: restam 1 − 1/3 − 1/4 = 5/12.",
+      "grupo": "Frações e decimais"
+     },
+     {
+      "nome": "Por 2, 5 e 10",
+      "o_que_e": "Termina em algarismo par; em 0 ou 5; em 0",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Por 3 e por 9",
+      "o_que_e": "Soma dos algarismos múltipla de 3 ou de 9",
+      "atencao": "2.817: soma 18, divisível por 3 e por 9.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Por 4 e por 6",
+      "o_que_e": "Dois últimos algarismos formam múltiplo de 4; divisível por 2 e por 3 ao mesmo tempo",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Número primo",
+      "o_que_e": "Natural maior que 1 com exatamente dois divisores naturais",
+      "atencao": "1 não é primo; 2 é o único primo par.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Fatoração",
+      "o_que_e": "Todo natural maior que 1 é primo ou produto único de fatores primos",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Quantidade de divisores",
+      "o_que_e": "Some 1 a cada expoente da fatoração e multiplique",
+      "atencao": "60 = 2² · 3 · 5: 3 · 2 · 2 = 12 divisores.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "MDC",
+      "o_que_e": "Fatores primos comuns, cada um com o menor expoente",
+      "atencao": "Nunca é maior que o menor dos números. MDC(8, 12) = 4.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "MMC",
+      "o_que_e": "Todos os fatores primos, comuns e não comuns, com o maior expoente",
+      "atencao": "Nunca é menor que o maior dos números. MMC(8, 12) = 24.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "MMC × MDC",
+      "o_que_e": "Igual ao produto dos dois números",
+      "atencao": "24 × 4 = 96 = 8 × 12.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Primos entre si",
+      "o_que_e": "MDC igual a 1, mesmo que nenhum dos dois seja primo",
+      "atencao": "8 e 15: o MMC é o produto, 120.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Um é múltiplo do outro",
+      "o_que_e": "O MDC é o menor e o MMC é o maior",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Múltiplos de k de 1 a n",
+      "o_que_e": "Quociente inteiro de n ÷ k",
+      "atencao": "De 1 a 100 há 14 múltiplos de 7.",
+      "grupo": "Divisibilidade, MMC e MDC"
+     },
+     {
+      "nome": "Idades",
+      "o_que_e": "A diferença entre as idades é constante; a razão muda",
+      "atencao": "Todos envelhecem o mesmo número de anos: monte a equação na mesma data.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Mistura",
+      "o_que_e": "Preço ou teor médio é a média ponderada pelas quantidades",
+      "atencao": "2 L a R$ 10 e 3 L a R$ 5: (20 + 15)/5 = R$ 7 o litro.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Trabalho em conjunto",
+      "o_que_e": "1/a + 1/b do serviço por hora; tempo ab/(a + b)",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Torneira e ralo",
+      "o_que_e": "Enche 1/a e esvazia 1/b por hora: sobra 1/a − 1/b",
+      "atencao": "Torneira de 4 h e ralo de 6 h: 1/12 por hora, cheio em 12 h.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Postes e marcos",
+      "o_que_e": "Com marco nas duas extremidades, há um marco a mais que intervalos",
+      "atencao": "1.000 m com postes a cada 50 m: 20 intervalos e 21 postes.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Cortes",
+      "o_que_e": "Cortar um objeto linear (corda, barra, fita) em k pedaços exige k − 1 cortes",
+      "atencao": "Corda de 12 m em pedaços de 2 m: 6 pedaços e 5 cortes necessários.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Dois tipos de unidade",
+      "o_que_e": "Suponha todas de um tipo e corrija pela diferença unitária",
+      "atencao": "Galinhas e coelhos, carros e motos, bilhetes de dois valores.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Ciclos",
+      "o_que_e": "Resto da divisão pelo tamanho do ciclo",
+      "atencao": "Dia da semana: divida o número de dias por 7 e avance o resto.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Encontro e alcance",
+      "o_que_e": "Sentidos opostos: soma das velocidades; mesmo sentido: diferença",
+      "atencao": "300 km a 70 e a 80 km/h, um em direção ao outro: 300/150 = 2 h.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Partes múltiplas de x",
+      "o_que_e": "Some os coeficientes e divida o total",
+      "atencao": "x + 2x + 3x = 1.200: x = 200.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Soma e diferença conhecidas",
+      "o_que_e": "Menor (T − x)/2 e maior (T + x)/2",
+      "atencao": "A tem o dobro de B e juntos 36: o total vai em 3 partes, B = 12.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Divisão com resto",
+      "o_que_e": "Dividendo = divisor × quociente + resto, com resto menor que o divisor",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Numeração de páginas",
+      "o_que_e": "9 algarismos de 1 a 9, 180 de 10 a 99 e 3 por página a partir de 100",
+      "atencao": "De 1 a 150: 9 + 180 + 51 × 3 = 342 algarismos.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Relógio que atrasa",
+      "o_que_e": "O atraso acumula na proporção dos dias",
+      "atencao": "2 min por dia: 14 min em uma semana.",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Compra e troco",
+      "o_que_e": "Custo = preço unitário × quantidade; troco = valor entregue − custo",
+      "grupo": "Problemas aritméticos"
+     },
+     {
+      "nome": "Número de dois algarismos",
+      "o_que_e": "ab vale 10a + b",
+      "atencao": "Inverter os algarismos muda o número em 9(b − a), múltiplo de 9.",
+      "grupo": "Problemas aritméticos"
+     }
+    ]
+   },
+   "juris": [],
+   "detalhes": [
+    "<strong>“Do restante” muda a base.</strong> Em frações sucessivas, “1/4 do restante” incide sobre o que sobrou da etapa anterior, não sobre o total. Salário de R$ 2.400, aluguel de 1/3 e alimentação de 1/4 do restante: sobram 1.600, gasta-se 400 e restam R$ 1.200.",
+    "<strong>Dízima com parte que não se repete.</strong> 0,1666... = (16 − 1)/90 = 15/90 = 1/6: no numerador, o número até o fim do período menos a parte que não se repete; no denominador, um 9 por algarismo do período e um 0 por algarismo antes dele.",
+    "<strong>Média com o mesmo acréscimo.</strong> Se cada valor aumenta k unidades, a média aumenta k; se cada valor é multiplicado por k, a média também é. Cinco pessoas com média de 32 anos terão média de 35 daqui a 3 anos.",
+    "<strong>Pai e filho.</strong> Pai com 36 anos e filho com 8: a diferença de 28 anos não muda. O pai terá o dobro da idade do filho quando este tiver 28, daqui a 20 anos.",
+    "<strong>Produção com mais gente e mais dias.</strong> Mantida a produtividade de cada um, a produção é proporcional ao número de trabalhadores e ao de dias. Se 4 pessoas fazem 240 peças em 3 dias, cada uma faz 20 por dia, e 5 pessoas fazem 600 peças em 6 dias.",
+    "<strong>Dois preços, duas compras.</strong> Com dois preços desconhecidos, cada compra dá uma equação do 1º grau; uma só compra não determina os dois preços. O sistema fica no tema de equações, sistemas e funções."
+   ],
+   "macetes": [
+    {
+     "sigla": "NUNCA SOME DENOMINADORES",
+     "texto": "Iguale os denominadores pelo MMC e some só os numeradores."
+    },
+    {
+     "sigla": "MMC JUNTA, MDC REPARTE",
+     "texto": "Quando os eventos voltam a coincidir, MMC; o maior pedaço igual sem sobra, MDC."
+    },
+    {
+     "sigla": "POSTES = INTERVALOS + 1",
+     "texto": "Com marcos nas duas pontas há sempre um a mais que intervalos; em k pedaços, k − 1 cortes."
+    },
+    {
+     "sigla": "CICLO É RESTO",
+     "texto": "Dia da semana, cor que se repete ou posição em um padrão: divida pelo tamanho do ciclo e olhe o resto."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Uma torneira enche um tanque em 3 horas e um ralo o esvazia em 6 horas. Abertos juntos, com o tanque vazio, ele ficará cheio em 4 horas e 30 minutos.",
+    "gabarito": "E",
+    "explicacao": "Por hora, a torneira enche 1/3 e o ralo esvazia 1/6: sobra 1/3 − 1/6 = 1/6 do tanque por hora, e o tanque enche em 6 horas."
+   },
+   "pegadinhas": [
+    {
+     "errado": "1/4 + 1/6 = 2/10.",
+     "certo": "Com o MMC 12: 3/12 + 2/12 = 5/12.",
+     "fonte": "Questão do app sobre soma de frações"
+    },
+    {
+     "errado": "0,4545... = 45/100.",
+     "certo": "A geratriz é 45/99 = 5/11.",
+     "fonte": "Questão do app sobre fração geratriz"
+    },
+    {
+     "errado": "1, 2, 3, 5 e 7 são todos primos.",
+     "certo": "1 não é primo: tem um só divisor natural.",
+     "fonte": "Questão do app sobre números primos"
+    },
+    {
+     "errado": "15 e 28 não são primos entre si, porque nenhum dos dois é primo.",
+     "certo": "MDC(15, 28) = 1: são primos entre si.",
+     "fonte": "Questão do app sobre primos entre si"
+    },
+    {
+     "errado": "Em 1.000 m com postes a cada 50 m e um em cada extremidade, há 20 postes.",
+     "certo": "São 20 intervalos e 21 postes.",
+     "fonte": "Questão do app sobre postes e intervalos"
+    },
+    {
+     "errado": "De 1 a 150 usam-se 450 algarismos para numerar as páginas.",
+     "certo": "9 + 180 + 153 = 342 algarismos.",
+     "fonte": "Questão do app sobre numeração de páginas"
+    }
+   ],
+   "relacionados": [
+    "razao-proporcao-e-divisao-proporcional",
+    "equacoes-sistemas-e-funcoes",
+    "conjuntos-e-diagramas"
+   ]
+  },
+  {
+   "slug": "razao-proporcao-e-divisao-proporcional",
+   "titulo": "Razão, proporção e divisão proporcional",
+   "grupo": "Matemática",
+   "base": "Texto próprio, com itens de matemática básica do banco do app",
+   "tax": [
+    "rlm.razao-proporcao",
+    "rlm.divisao-proporcional"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "razão e proporção"
+   ],
+   "palavras": [
+    "razao",
+    "proporcao",
+    "produto dos meios",
+    "produto dos extremos",
+    "constante de proporcionalidade",
+    "partes proporcionais",
+    "inversos",
+    "escala",
+    "mapa",
+    "densidade demografica",
+    "velocidade media",
+    "socios",
+    "partilha de lucros",
+    "capital e tempo",
+    "proporcionalidade composta"
+   ],
+   "resumo": "<strong>Razão</strong> é o quociente a/b, com b ≠ 0; <strong>proporção</strong> é a igualdade de duas razões, e nela o produto dos meios é igual ao produto dos extremos. Se dois números estão na razão 3:5, escreva-os como 3k e 5k e ache k pela soma ou pela diferença. Razão entre grandezas de espécies diferentes é taxa, como densidade demográfica e velocidade; a <strong>escala</strong> compara desenho e realidade na mesma unidade. Na <strong>divisão em partes diretamente proporcionais</strong>, k é o total dividido pela soma dos números, e cada parte é k vezes o seu número. Nas <strong>inversamente proporcionais</strong>, trocam-se os números pelos inversos e reduz-se ao mesmo denominador: a maior parte cabe ao menor número. Com duas grandezas ao mesmo tempo, multiplique os números de cada pessoa antes de repartir; entre sócios, o lucro segue capital × tempo. A regra de três fica no caderno de Matemática Financeira.",
+   "esquema": {
+    "rotulo": "como repartir",
+    "html": "<table><thead><tr><th>Tipo</th><th>Como fazer</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Diretamente proporcional</strong></td><td>k = total ÷ soma dos números; parte = k × número</td><td>R$ 1.400 entre 3 e 4: k = 200, partes de 600 e 800</td></tr><tr><td><strong>Inversamente proporcional</strong></td><td>Use os inversos e reduza ao mesmo denominador</td><td>2 e 3 viram 1/2 e 1/3, isto é, 3 e 2: R$ 500 dá 300 e 200</td></tr><tr><td><strong>A frações</strong></td><td>Reduza ao mesmo denominador e use os numeradores</td><td>1/2 e 1/3 = 3/6 e 2/6: proporcional a 3 e 2</td></tr><tr><td><strong>Composta</strong></td><td>Multiplique os números de cada pessoa</td><td>10 anos e 6 ocorrências contra 20 e 3: 60 e 60, partes iguais</td></tr><tr><td><strong>Sócios</strong></td><td>Capital × tempo de cada um</td><td>capitais iguais: pelo tempo; tempos iguais: pelo capital</td></tr><tr><td><strong>Só a diferença conhecida</strong></td><td>k = diferença das partes ÷ diferença dos números</td><td>5 e 8 com diferença de 150: k = 50, total 650</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Razão",
+      "o_que_e": "Quociente a/b, com b diferente de zero",
+      "atencao": "12 para 18 é 12/18 = 2/3, ou 2:3.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Razão inversa",
+      "o_que_e": "Troca antecedente e consequente",
+      "atencao": "A inversa de 3/4 é 4/3.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Proporção",
+      "o_que_e": "Igualdade de duas razões: produto dos meios = produto dos extremos",
+      "atencao": "4/x = 10/15: 10x = 60, x = 6.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Soma dos antecedentes",
+      "o_que_e": "Se a/b = c/d, então (a + c)/(b + d) = a/b",
+      "atencao": "Serve quando o enunciado dá a soma de dois antecedentes.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Números na razão p:q",
+      "o_que_e": "Escreva pk e qk",
+      "atencao": "Razão 2:7 e soma 45: k = 5, números 10 e 35.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Mesma espécie",
+      "o_que_e": "A razão é um número puro",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Taxa",
+      "o_que_e": "Razão entre grandezas de espécies diferentes",
+      "atencao": "Densidade demográfica: habitantes ÷ área em km²; consumo em km/L.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Escala",
+      "o_que_e": "Medida no desenho ÷ medida real, na mesma unidade",
+      "atencao": "1:50.000: 1 cm no mapa são 50.000 cm, ou 500 m.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Velocidade média",
+      "o_que_e": "Distância total ÷ tempo total",
+      "atencao": "Não é a média aritmética das velocidades parciais.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Multiplicar ou somar",
+      "o_que_e": "Multiplicar os dois termos pelo mesmo fator mantém a razão; somar o mesmo valor a ambos muda",
+      "atencao": "A razão entre as idades de dois irmãos muda com o tempo.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Grandezas diretamente proporcionais",
+      "o_que_e": "Quociente constante: dobra uma, dobra a outra",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Grandezas inversamente proporcionais",
+      "o_que_e": "Produto constante: dobra uma, a outra cai à metade",
+      "atencao": "x = 4 e y = 15 dão produto 60; com x = 6, y = 10.",
+      "grupo": "Razão e proporção"
+     },
+     {
+      "nome": "Partes diretamente proporcionais",
+      "o_que_e": "Cada parte é k vezes o seu número, com k = total ÷ soma dos números",
+      "atencao": "A maior parte cabe ao maior número.",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Partes inversamente proporcionais",
+      "o_que_e": "Diretamente proporcionais aos inversos dos números",
+      "atencao": "Inversamente a 2, 3 e 4 é diretamente a 6, 4 e 3; a maior parte cabe ao menor número.",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Proporcionalidade composta",
+      "o_que_e": "Proporcional a duas grandezas: multiplicam-se os números de cada pessoa antes de repartir",
+      "atencao": "Direta a uma e inversa a outra: multiplica-se pelo inverso.",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Partilha entre sócios",
+      "o_que_e": "Proporcional ao produto capital × tempo",
+      "atencao": "Capitais iguais e tempos diferentes: pelo tempo; mesmo tempo: pelo capital.",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Diferença conhecida",
+      "o_que_e": "k = diferença entre as partes ÷ diferença entre os números",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Prova",
+      "o_que_e": "A soma das partes é igual ao total repartido",
+      "grupo": "Divisão proporcional"
+     },
+     {
+      "nome": "Mudar a escala dos números",
+      "o_que_e": "Multiplicar todos os números de referência pelo mesmo fator não muda as partes",
+      "atencao": "Repartir por 2 e 3 ou por 4 e 6 dá o mesmo.",
+      "grupo": "Divisão proporcional"
+     }
+    ]
+   },
+   "juris": [],
+   "detalhes": [
+    "<strong>Velocidade média em dois trechos iguais.</strong> 60 km a 30 km/h levam 2 h e mais 60 km a 60 km/h levam 1 h: são 120 km em 3 h, média de 40 km/h, e não 45 km/h.",
+    "<strong>Sócios com capitais e tempos diferentes.</strong> A entra com R$ 6.000 por 5 meses (30.000) e B com R$ 4.000 por 10 meses (40.000). Um lucro de R$ 14.000 vai na razão 3:4: A recebe R$ 6.000 e B, R$ 8.000.",
+    "<strong>Inversa a três números.</strong> R$ 1.800 em partes inversamente proporcionais a 3, 4 e 6: os inversos 1/3, 1/4 e 1/6 ficam 4/12, 3/12 e 2/12; com soma 9, k = 200, e as partes são 800, 600 e 400.",
+    "<strong>Direta a uma e inversa a outra.</strong> Proporcional a 2 e 3 e, ao mesmo tempo, inversamente a 4 e 9: os números ficam 2/4 e 3/9, isto é, 1/2 e 1/3, ou 3 e 2.",
+    "<strong>Mapa e realidade.</strong> Na escala 1:200.000, 3 cm no mapa são 600.000 cm, ou 6 km. Converta para a mesma unidade antes de comparar."
+   ],
+   "macetes": [
+    {
+     "sigla": "PARTE = k × NÚMERO",
+     "texto": "k é o total dividido pela soma dos números, ou a diferença das partes dividida pela diferença dos números."
+    },
+    {
+     "sigla": "INVERSA: INVERTA E IGUALE",
+     "texto": "Troque cada número pelo inverso, reduza ao mesmo denominador e reparta pelos numeradores."
+    },
+    {
+     "sigla": "MÉDIA É TOTAL SOBRE TOTAL",
+     "texto": "Velocidade média é a distância toda dividida pelo tempo todo."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Ao dividir R$ 900 entre duas pessoas em partes inversamente proporcionais a 1 e 2, a pessoa correspondente ao número 2 recebe R$ 600.",
+    "gabarito": "E",
+    "explicacao": "Inversamente a 1 e 2 é diretamente a 2 e 1: k = 900 ÷ 3 = 300, e a pessoa do número 2 recebe R$ 300. A maior parte cabe ao menor número."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Na proporção 3/x = 9/15, x = 45.",
+     "certo": "Produto dos meios e dos extremos: 9x = 45, x = 5.",
+     "fonte": "Questão do app sobre proporção"
+    },
+    {
+     "errado": "Se x e y são inversamente proporcionais e y = 15 quando x = 4, então y = 22,5 quando x = 6.",
+     "certo": "O produto é constante, 60: y = 10.",
+     "fonte": "Questão do app sobre grandezas inversamente proporcionais"
+    },
+    {
+     "errado": "Se a razão entre as idades de dois irmãos é 2/3, ela continua 2/3 daqui a 5 anos.",
+     "certo": "Somar o mesmo valor aos dois termos muda a razão.",
+     "fonte": "Questão do app sobre razão entre idades"
+    },
+    {
+     "errado": "36.000 habitantes em 120 km² dão densidade de 3.000 habitantes por km².",
+     "certo": "36.000 ÷ 120 = 300 habitantes por km².",
+     "fonte": "Questão do app sobre densidade demográfica"
+    },
+    {
+     "errado": "Na escala 1:50.000, 4 cm no mapa correspondem a 20 km.",
+     "certo": "4 × 50.000 cm = 200.000 cm = 2 km.",
+     "fonte": "Questão do app sobre escala"
+    },
+    {
+     "errado": "Na divisão inversamente proporcional às idades de três filhos, o mais velho recebe a maior parte.",
+     "certo": "Na inversa, a maior parte cabe ao menor número: ao mais novo.",
+     "fonte": "Questão do app sobre divisão inversamente proporcional"
+    },
+    {
+     "errado": "Divididos entre A e B na proporção de 5 e 8, com B recebendo R$ 150 a mais, o total era R$ 450.",
+     "certo": "k = 150/(8 − 5) = 50; total de 13 × 50 = R$ 650.",
+     "fonte": "Questão do app sobre divisão proporcional"
+    }
+   ],
+   "relacionados": [
+    "regra-de-tres-proporcionalidade-e-porcentagem",
+    "fracoes-mmc-mdc-e-problemas-aritmeticos",
+    "porcentagem-e-juros"
+   ]
+  },
+  {
+   "slug": "equacoes-sistemas-e-funcoes",
+   "titulo": "Equações, inequações, sistemas lineares e funções",
+   "grupo": "Matemática",
+   "base": "Texto próprio, com itens de matemática básica do banco do app",
+   "tax": [
+    "rlm.equacoes",
+    "rlm.sistemas-lineares",
+    "rlm.funcoes"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "equação do segundo grau",
+    "sistema linear",
+    "função afim",
+    "função quadrática"
+   ],
+   "palavras": [
+    "equacao do primeiro grau",
+    "equacao do segundo grau",
+    "discriminante",
+    "delta",
+    "bhaskara",
+    "soma e produto das raizes",
+    "girard",
+    "inequacao",
+    "modulo",
+    "sistema linear",
+    "metodo da adicao",
+    "cramer",
+    "determinante",
+    "sistema impossivel",
+    "sistema indeterminado",
+    "escalonamento",
+    "funcao afim",
+    "coeficiente angular",
+    "funcao quadratica",
+    "vertice",
+    "parabola",
+    "funcao composta",
+    "injetora",
+    "funcao exponencial",
+    "ponto de equilibrio"
+   ],
+   "resumo": "Na <strong>equação do 1º grau</strong> ax + b = 0, com a ≠ 0, a solução é x = −b/a. Na <strong>inequação</strong>, multiplicar ou dividir os dois membros por número negativo inverte o sentido da desigualdade. Na <strong>equação do 2º grau</strong>, Δ = b² − 4ac decide: positivo, duas raízes reais distintas; zero, uma raiz dupla; negativo, nenhuma raiz real; a soma das raízes é −b/a e o produto, c/a. Um <strong>sistema linear 2×2</strong> tem solução única quando os coeficientes das incógnitas não são proporcionais (retas que se cruzam); é impossível quando só os termos independentes quebram a proporção (retas paralelas) e indeterminado quando tudo é proporcional (a mesma reta). Na <strong>função afim</strong> f(x) = ax + b, a é a taxa de variação e b é o ponto em que a reta corta o eixo y; na <strong>quadrática</strong>, o vértice em x = −b/(2a) é mínimo se a > 0 e máximo se a < 0. Na exponencial, f(0) = 1 para qualquer base.",
+   "esquema": {
+    "rotulo": "o que decide o tipo de solução",
+    "html": "<table><thead><tr><th>Objeto</th><th>Critério</th><th>Resultado</th></tr></thead><tbody><tr><td><strong>Equação do 2º grau</strong></td><td>Δ > 0, Δ = 0 ou Δ < 0</td><td>duas raízes reais distintas, uma raiz dupla ou nenhuma raiz real</td></tr><tr><td><strong>Sistema 2×2</strong></td><td>a/a' ≠ b/b'</td><td>solução única: retas concorrentes</td></tr><tr><td><strong>Sistema 2×2</strong></td><td>a/a' = b/b' ≠ c/c'</td><td>impossível: retas paralelas e distintas</td></tr><tr><td><strong>Sistema 2×2</strong></td><td>a/a' = b/b' = c/c'</td><td>possível e indeterminado: a mesma reta</td></tr><tr><td><strong>Função afim</strong></td><td>a > 0 ou a < 0</td><td>crescente ou decrescente</td></tr><tr><td><strong>Função quadrática</strong></td><td>a > 0 ou a < 0</td><td>concavidade para cima, com mínimo, ou para baixo, com máximo</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Equação do 1º grau",
+      "o_que_e": "ax + b = 0, com a ≠ 0: x = −b/a",
+      "atencao": "4x − 3 = x + 9: 3x = 12, x = 4.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Inequação do 1º grau",
+      "o_que_e": "Somar, subtrair ou multiplicar por positivo mantém o sentido; por negativo, inverte",
+      "atencao": "−3x + 9 > 0: −3x > −9, x < 3.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Equação do 2º grau",
+      "o_que_e": "x = (−b ± √Δ)/(2a), com Δ = b² − 4ac",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Soma e produto (Girard)",
+      "o_que_e": "Soma −b/a; produto c/a",
+      "atencao": "x² − 7x + 10 = 0: soma 7, produto 10, raízes 2 e 5.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Produto nulo",
+      "o_que_e": "Um produto é zero se, e somente se, um dos fatores é zero",
+      "atencao": "(x − 3)(x + 2) = 0: raízes 3 e −2.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Módulo",
+      "o_que_e": "|x| = a, com a > 0: x = a ou x = −a; |x| < a: −a < x < a",
+      "atencao": "|x − 1| = 3: x = 4 ou x = −2.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Inequação do 2º grau",
+      "o_que_e": "Estude o sinal da parábola",
+      "atencao": "Com a > 0, é negativa entre as raízes: x² − 2x − 3 < 0 vale para −1 < x < 3.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Incógnita no denominador",
+      "o_que_e": "Exclua os valores que anulam o denominador",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Resposta no contexto",
+      "o_que_e": "Idade, quantidade e medida não podem ser negativas",
+      "atencao": "Defina a incógnita e confira a resposta no enunciado.",
+      "grupo": "Equações e inequações"
+     },
+     {
+      "nome": "Método da adição",
+      "o_que_e": "Multiplique as equações para que, somadas, uma incógnita se elimine",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Substituição",
+      "o_que_e": "Isole uma incógnita e substitua na outra equação",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Regra de Cramer",
+      "o_que_e": "D = ab' − ba'; x = Dx/D e y = Dy/D",
+      "atencao": "D ≠ 0: solução única.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Determinante nulo",
+      "o_que_e": "D = 0: não há solução única",
+      "atencao": "O sistema é indeterminado ou impossível, conforme os termos independentes.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Sistema homogêneo",
+      "o_que_e": "Termos independentes todos nulos",
+      "atencao": "Sempre admite a solução trivial, com todas as incógnitas iguais a zero.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Solução",
+      "o_que_e": "Satisfaz todas as equações ao mesmo tempo",
+      "atencao": "Um par que satisfaz só uma delas não é solução.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Duas incógnitas",
+      "o_que_e": "Duas informações independentes, duas equações",
+      "atencao": "Ingressos de dois preços: uma equação para a quantidade e outra para o valor total.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Escalonamento",
+      "o_que_e": "Elimine incógnitas até sobrar uma; resolva de baixo para cima",
+      "atencao": "Usado no sistema 3×3.",
+      "grupo": "Sistemas lineares"
+     },
+     {
+      "nome": "Função",
+      "o_que_e": "Cada elemento do domínio tem exatamente uma imagem",
+      "atencao": "A imagem é o conjunto dos valores efetivamente assumidos.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Função afim",
+      "o_que_e": "f(x) = ax + b: a reta corta o eixo y em b; a raiz é −b/a",
+      "atencao": "f(x) = 3x − 12 é crescente, corta o eixo y em −12 e tem raiz 4.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Coeficiente angular",
+      "o_que_e": "a = (y2 − y1)/(x2 − x1)",
+      "atencao": "Pontos (0, 1) e (2, 7): a = 3.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Valor fixo mais valor por unidade",
+      "o_que_e": "f(x) = b + ax",
+      "atencao": "Táxi com bandeirada de R$ 4 e R$ 3 por km: 10 km custam R$ 34.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Função quadrática",
+      "o_que_e": "Parábola com vértice em x = −b/(2a) e y = −Δ/(4a)",
+      "atencao": "f(x) = x² − 4x + 3: vértice (2, −1), ponto de mínimo.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Raízes da quadrática",
+      "o_que_e": "Pontos em que a parábola corta o eixo x",
+      "atencao": "Quantas são depende do sinal de Δ.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Função composta",
+      "o_que_e": "f(g(x)) aplica primeiro g e depois f",
+      "atencao": "Em geral, f(g(x)) ≠ g(f(x)).",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Injetora",
+      "o_que_e": "Elementos distintos do domínio têm imagens distintas",
+      "atencao": "x² nos reais não é: f(2) = f(−2). Só a bijetora tem inversa.",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Função exponencial",
+      "o_que_e": "f(x) = a^x: com a > 1 é crescente e nunca se anula; f(0) = 1",
+      "atencao": "Quantidade que dobra a cada T: Q₀ × 2^(t/T).",
+      "grupo": "Funções"
+     },
+     {
+      "nome": "Custo e receita",
+      "o_que_e": "Custo total = custo fixo + custo variável × quantidade",
+      "atencao": "O ponto de equilíbrio é a quantidade em que a receita iguala o custo.",
+      "grupo": "Funções"
+     }
+    ]
+   },
+   "juris": [],
+   "detalhes": [
+    "<strong>Dobrar não é somar.</strong> Uma colônia de 400 bactérias que dobra a cada 2 horas tem, em 6 horas, 400 × 2³ = 3.200 indivíduos, e não 1.200: o crescimento é exponencial, não afim.",
+    "<strong>Ponto de equilíbrio.</strong> Custo fixo de R$ 1.200, custo variável de R$ 15 e preço de R$ 35 por unidade: cada unidade cobre R$ 20 do custo fixo, e a receita iguala o custo com 60 unidades.",
+    "<strong>Sistema com parâmetro.</strong> Em x + ky = 3 e 2x + 6y = 5, D = 6 − 2k. Com k = 3, D = 0 e não há solução única; como 1/2 = 3/6 ≠ 3/5, o sistema é impossível.",
+    "<strong>Equações proporcionais.</strong> 2x + 3y = 12 e 4x + 6y = 24 são a mesma reta: o sistema tem infinitas soluções, e não nenhuma.",
+    "<strong>Ingressos de dois preços.</strong> 60 ingressos, inteira a R$ 30 e meia a R$ 15, total de R$ 1.350. Se todos fossem meia, dariam R$ 900; os R$ 450 a mais, divididos pela diferença de R$ 15, dão 30 inteiras."
+   ],
+   "macetes": [
+    {
+     "sigla": "NEGATIVO VIRA O SINAL",
+     "texto": "Multiplicou ou dividiu a inequação por número negativo, inverta a desigualdade."
+    },
+    {
+     "sigla": "DELTA DECIDE",
+     "texto": "Antes da fórmula, calcule Δ: negativo, nenhuma raiz real."
+    },
+    {
+     "sigla": "COMPARE OS COEFICIENTES",
+     "texto": "a/a', b/b' e c/c': diferentes, uma solução; só os dois primeiros iguais, nenhuma; os três iguais, infinitas."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A inequação −4x + 8 ≥ 0 tem como solução, nos reais, os valores de x tais que x ≥ 2.",
+    "gabarito": "E",
+    "explicacao": "−4x ≥ −8; ao dividir por −4, o sentido se inverte: x ≤ 2."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A solução de −2x + 6 > 0 nos reais é x > 3.",
+     "certo": "Dividir por −2 inverte o sentido: x < 3.",
+     "fonte": "Questão do app sobre inequação do 1º grau"
+    },
+    {
+     "errado": "x² + 2x + 5 = 0 tem duas raízes reais distintas.",
+     "certo": "Δ = 4 − 20 = −16: nenhuma raiz real.",
+     "fonte": "Questão do app sobre discriminante"
+    },
+    {
+     "errado": "|2x − 6| = 4 tem como única solução x = 5.",
+     "certo": "2x − 6 = 4 ou 2x − 6 = −4: x = 5 ou x = 1.",
+     "fonte": "Questão do app sobre equação modular"
+    },
+    {
+     "errado": "As raízes de (x − 1)(x + 4) = 0 são 1 e 4.",
+     "certo": "São 1 e −4.",
+     "fonte": "Questão do app sobre produto nulo"
+    },
+    {
+     "errado": "O sistema x + y = 0 e 2x − y = 0 não tem solução.",
+     "certo": "É homogêneo: (0, 0) é solução.",
+     "fonte": "Questão do app sobre sistema homogêneo"
+    },
+    {
+     "errado": "f(x) = x² − 6x + 5 tem valor máximo −4 em x = 3.",
+     "certo": "Com a > 0, o vértice é ponto de mínimo: −4 é o valor mínimo.",
+     "fonte": "Questão do app sobre vértice da parábola"
+    },
+    {
+     "errado": "Para f(x) = 3^x, f(0) = 0.",
+     "certo": "f(0) = 3⁰ = 1.",
+     "fonte": "Questão do app sobre função exponencial"
+    }
+   ],
+   "relacionados": [
+    "fracoes-mmc-mdc-e-problemas-aritmeticos",
+    "sequencias-geometria-e-medidas",
+    "razao-proporcao-e-divisao-proporcional"
+   ]
+  },
+  {
+   "slug": "sequencias-geometria-e-medidas",
+   "titulo": "Sequências e progressões, geometria e medidas",
+   "grupo": "Matemática",
+   "base": "Texto próprio, com itens de matemática básica do banco do app",
+   "tax": [
+    "rlm.sequencias-progressoes",
+    "rlm.geometria",
+    "rlm.sistema-medidas"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "progressão aritmética",
+    "progressão geométrica",
+    "teorema de Pitágoras"
+   ],
+   "palavras": [
+    "sequencia",
+    "padrao",
+    "progressao aritmetica",
+    "progressao geometrica",
+    "termo geral",
+    "soma dos termos",
+    "interpolacao",
+    "meios aritmeticos",
+    "fibonacci",
+    "recorrencia",
+    "pg infinita",
+    "angulos",
+    "poligonos",
+    "diagonais",
+    "pitagoras",
+    "area",
+    "perimetro",
+    "volume",
+    "circulo",
+    "semelhanca",
+    "lei dos cossenos",
+    "distancia entre pontos",
+    "unidades de medida",
+    "hectare",
+    "litro",
+    "conversao de unidades"
+   ],
+   "resumo": "Na <strong>PA</strong>, soma-se a razão r: aₙ = a₁ + (n − 1)r, e a soma dos n termos é (a₁ + aₙ) × n/2. Na <strong>PG</strong>, multiplica-se pela razão q: aₙ = a₁ × qⁿ⁻¹, a soma é a₁(qⁿ − 1)/(q − 1) e a soma infinita, com |q| < 1, é a₁/(1 − q). Crescimento percentual constante forma PG, não PA. Em padrões, olhe as diferenças entre termos ou o resto da divisão pelo tamanho do ciclo. Na <strong>geometria</strong>, os ângulos internos de um polígono convexo somam (n − 2) × 180°, os externos sempre 360°, e há n(n − 3)/2 diagonais; Pitágoras liga a hipotenusa aos catetos; multiplicar as medidas lineares por k multiplica a área por k² e o volume por k³. Nas <strong>medidas</strong>, comprimento vai de 10 em 10, área de 100 em 100 e volume de 1.000 em 1.000; 1 dm³ = 1 litro, 1 ha = 10.000 m², e o tempo não é decimal: 2 h 15 min são 2,25 h.",
+   "esquema": {
+    "rotulo": "fórmulas de bolso",
+    "html": "<table><thead><tr><th>Assunto</th><th>Fórmula</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Termo geral da PA</strong></td><td>aₙ = a₁ + (n − 1)r</td><td>a₁ = 2 e r = 5: a₁₀ = 47</td></tr><tr><td><strong>Soma da PA</strong></td><td>Sₙ = (a₁ + aₙ) × n/2</td><td>2 + 4 + ... + 40 = 42 × 20/2 = 420</td></tr><tr><td><strong>Termo geral da PG</strong></td><td>aₙ = a₁ × qⁿ⁻¹</td><td>3, 6, 12, ...: a₆ = 3 × 2⁵ = 96</td></tr><tr><td><strong>Soma infinita da PG</strong></td><td>a₁/(1 − q), com |q| < 1</td><td>9 + 3 + 1 + ... = 9/(2/3) = 13,5</td></tr><tr><td><strong>Ângulos internos</strong></td><td>(n − 2) × 180°</td><td>pentágono 540°; hexágono 720°</td></tr><tr><td><strong>Diagonais</strong></td><td>n(n − 3)/2</td><td>hexágono 9; octógono 20</td></tr><tr><td><strong>Velocidade</strong></td><td>km/h ÷ 3,6 = m/s</td><td>72 km/h = 20 m/s</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Progressão aritmética (PA)",
+      "o_que_e": "Soma-se a razão r a cada termo",
+      "atencao": "Qualquer termo é a média dos vizinhos: a₄ = 10 e a₆ = 16 dão a₅ = 13.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Quantidade de termos da PA",
+      "o_que_e": "(último − primeiro)/r + 1",
+      "atencao": "7, 11, ..., 203: (203 − 7)/4 + 1 = 50 termos.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Interpolação",
+      "o_que_e": "k meios entre a e b formam k + 2 termos, com r = (b − a)/(k + 1)",
+      "atencao": "4 meios entre 3 e 28: r = 25/5 = 5.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Eventos em PA",
+      "o_que_e": "Intervalo = (último − primeiro)/(k − 1)",
+      "atencao": "Cinco eventos das 9 h às 17 h: um a cada 2 h.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Progressão geométrica (PG)",
+      "o_que_e": "Multiplica-se o termo pela razão q",
+      "atencao": "Com termos positivos, cada termo é a média geométrica dos vizinhos.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Soma da PG",
+      "o_que_e": "a₁(qⁿ − 1)/(q − 1), com q ≠ 1",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "PG infinita",
+      "o_que_e": "Com |q| < 1, a soma é a₁/(1 − q)",
+      "atencao": "8 + 4 + 2 + 1 + ... = 8/(1/2) = 16.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Crescimento percentual",
+      "o_que_e": "Taxa constante por período forma PG de razão 1 + i",
+      "atencao": "10% ao ano: razão 1,1, e não PA de razão 100.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Fibonacci",
+      "o_que_e": "Cada termo é a soma dos dois anteriores",
+      "atencao": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55: o décimo é 55.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Recorrência",
+      "o_que_e": "Cada termo sai do anterior pela regra, aplicada passo a passo",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Padrão por diferenças",
+      "o_que_e": "Se as diferenças crescem com regra, a próxima segue a regra",
+      "atencao": "2, 5, 10, 17, 26: diferenças 3, 5, 7, 9; o próximo é 37.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Ciclos",
+      "o_que_e": "Resto da divisão da posição pelo tamanho do ciclo",
+      "atencao": "Cores, dias da semana, algarismo final de potências.",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Letras como números",
+      "o_que_e": "Posição no alfabeto de 26 letras, A = 1 até Z = 26",
+      "grupo": "Sequências e progressões"
+     },
+     {
+      "nome": "Complementares e suplementares",
+      "o_que_e": "Somam 90° e 180°",
+      "atencao": "50° e 40° são complementares, não suplementares.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Triângulo",
+      "o_que_e": "Ângulos internos somam 180°; cada lado é menor que a soma dos outros dois",
+      "atencao": "Não existe triângulo de lados 2, 3 e 6.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Polígono convexo",
+      "o_que_e": "Internos (n − 2) × 180°; externos 360°; diagonais n(n − 3)/2",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Teorema de Pitágoras",
+      "o_que_e": "Quadrado da hipotenusa = soma dos quadrados dos catetos",
+      "atencao": "Ternos 3-4-5, 5-12-13 e 6-8-10.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Altura relativa à hipotenusa",
+      "o_que_e": "Produto dos catetos = hipotenusa × altura",
+      "atencao": "Catetos 6 e 8: hipotenusa 10 e altura 4,8.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Triângulo equilátero",
+      "o_que_e": "Altura L√3/2; área L²√3/4",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Lei dos cossenos",
+      "o_que_e": "c² = a² + b² − 2ab × cos γ",
+      "atencao": "Lados 5 e 8 com 60°: c² = 25 + 64 − 40 = 49, c = 7.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Áreas",
+      "o_que_e": "Retângulo b × h; triângulo b × h/2; trapézio (B + b) × h/2; círculo πr²",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Circunferência",
+      "o_que_e": "Comprimento 2πr",
+      "atencao": "Dobrar o raio dobra o comprimento e quadruplica a área.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Perímetro e área",
+      "o_que_e": "Mesmo perímetro não garante mesma área",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Semelhança",
+      "o_que_e": "Lados proporcionais e ângulos iguais; áreas na razão k²",
+      "atencao": "Sombras no mesmo instante: poste de 2 m com sombra de 1,5 m; sombra de 6 m indica 8 m de altura.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Diagonais de quadriláteros",
+      "o_que_e": "Quadrado a√2; retângulo √(a² + b²)",
+      "atencao": "Retângulo de 30 m por 40 m: diagonal de 50 m.",
+      "grupo": "Geometria plana"
+     },
+     {
+      "nome": "Paralelepípedo",
+      "o_que_e": "Comprimento × largura × altura",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Cubo",
+      "o_que_e": "Volume a³; área total 6a²; diagonal da face a√2; diagonal do cubo a√3",
+      "atencao": "Aresta de 3 cm: diagonal do cubo 3√3 cm.",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Cilindro",
+      "o_que_e": "Área da base × altura = πr²h",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Cone e pirâmide",
+      "o_que_e": "Um terço da área da base × altura",
+      "atencao": "O cone tem 1/3 do volume do cilindro de mesma base e altura.",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Ampliação",
+      "o_que_e": "Medidas lineares × k: perímetro × k, área × k², volume × k³",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Distância entre pontos",
+      "o_que_e": "√[(x₂ − x₁)² + (y₂ − y₁)²], pelo teorema de Pitágoras",
+      "atencao": "(1, 2) e (4, 6): √(9 + 16) = 5.",
+      "grupo": "Sólidos e plano cartesiano"
+     },
+     {
+      "nome": "Comprimento",
+      "o_que_e": "De 10 em 10: km, hm, dam, m, dm, cm, mm",
+      "atencao": "1 km = 1.000 m; 1 m = 100 cm = 1.000 mm.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Área",
+      "o_que_e": "De 100 em 100: 1 m² = 10.000 cm²; 1 km² = 1.000.000 m²",
+      "atencao": "1 hectare = 10.000 m²; 1 are = 100 m²; 1 km² = 100 ha.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Volume",
+      "o_que_e": "De 1.000 em 1.000: 1 m³ = 1.000 dm³",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Capacidade",
+      "o_que_e": "1 litro = 1 dm³; 1 m³ = 1.000 litros; 1 mL = 1 cm³",
+      "atencao": "Volume em m³ vezes 1.000 dá a capacidade em litros.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Massa",
+      "o_que_e": "1 t = 1.000 kg; 1 kg = 1.000 g",
+      "atencao": "Quilogramas para toneladas: divida por 1.000.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Tempo",
+      "o_que_e": "Não é decimal: 1 h = 60 min = 3.600 s",
+      "atencao": "2 h 15 min = 2,25 h; 1 h 45 min = 1,75 h.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Velocidade",
+      "o_que_e": "km/h ÷ 3,6 = m/s; m/s × 3,6 = km/h",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Soma de horas",
+      "o_que_e": "Somam-se os minutos, convertem-se 60 min em 1 h e somam-se as horas",
+      "atencao": "2 h 50 min + 1 h 30 min = 4 h 20 min.",
+      "grupo": "Medidas"
+     },
+     {
+      "nome": "Consumo e densidade",
+      "o_que_e": "Consumo em km/L; densidade = massa ÷ volume",
+      "atencao": "1 litro de água tem cerca de 1 kg.",
+      "grupo": "Medidas"
+     }
+    ]
+   },
+   "juris": [],
+   "detalhes": [
+    "<strong>Contar múltiplos com a PA.</strong> Os múltiplos de 6 entre 50 e 200 vão de 54 a 198: (198 − 54)/6 + 1 = 25 termos.",
+    "<strong>Soma dos ímpares.</strong> A soma dos n primeiros ímpares é n²: 1 + 3 + ... + 99 tem 50 termos e soma 2.500.",
+    "<strong>Lei dos cossenos com 120°.</strong> cos 120° = −1/2, e o último termo passa a somar: lados 3 e 5 com 120° dão c² = 9 + 25 + 15 = 49, c = 7.",
+    "<strong>Caixa e litros.</strong> Uma caixa de 40 cm × 25 cm × 10 cm tem 10.000 cm³ = 10 dm³ = 10 litros.",
+    "<strong>Ampliação dobrada.</strong> Dobrar todas as medidas lineares multiplica a área por 4 e, no sólido, o volume por 8."
+   ],
+   "macetes": [
+    {
+     "sigla": "PA SOMA, PG MULTIPLICA",
+     "texto": "Razão somada a cada termo é PA; razão multiplicada é PG. Taxa percentual fixa é PG."
+    },
+    {
+     "sigla": "INTERNOS (n − 2) × 180°, EXTERNOS 360°",
+     "texto": "A soma dos externos não depende do número de lados."
+    },
+    {
+     "sigla": "ÁREA DE 100 EM 100, VOLUME DE 1.000 EM 1.000",
+     "texto": "Na conversão, o expoente da unidade diz quantos zeros andam por casa."
+    },
+    {
+     "sigla": "TEMPO NÃO É DECIMAL",
+     "texto": "15 min são 0,25 h, e não 0,15 h."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Um atendimento de 1 h 30 min durou 1,3 hora.",
+    "gabarito": "E",
+    "explicacao": "30 minutos são metade de uma hora: 1 h 30 min = 1,5 h. O sistema de tempo não é decimal."
+   },
+   "pegadinhas": [
+    {
+     "errado": "1 + 3 + 5 + ... + 99 = 2.550.",
+     "certo": "São 50 ímpares: 50² = 2.500.",
+     "fonte": "Questão do app sobre soma da PA"
+    },
+    {
+     "errado": "8 + 4 + 2 + 1 + 1/2 + ... = 15.",
+     "certo": "PG infinita de razão 1/2: 8/(1 − 1/2) = 16.",
+     "fonte": "Questão do app sobre PG infinita"
+    },
+    {
+     "errado": "Em uma PA com a₄ = 10 e a₆ = 16, a₅ = 12.",
+     "certo": "a₅ é a média dos vizinhos: 13.",
+     "fonte": "Questão do app sobre progressão aritmética"
+    },
+    {
+     "errado": "Dobrar o raio de um círculo dobra a sua área.",
+     "certo": "A área quadruplica; o comprimento da borda é que dobra.",
+     "fonte": "Questão do app sobre área do círculo"
+    },
+    {
+     "errado": "O volume do cone é a metade do volume do cilindro de mesma base e altura.",
+     "certo": "É um terço.",
+     "fonte": "Questão do app sobre volume do cone"
+    },
+    {
+     "errado": "Um hexágono convexo tem 18 diagonais.",
+     "certo": "6 × 3/2 = 9 diagonais.",
+     "fonte": "Questão do app sobre diagonais de polígono"
+    },
+    {
+     "errado": "45.000 m² correspondem a 45 hectares.",
+     "certo": "1 ha = 10.000 m²: são 4,5 ha.",
+     "fonte": "Questão do app sobre medidas agrárias"
+    }
+   ],
+   "relacionados": [
+    "equacoes-sistemas-e-funcoes",
+    "porcentagem-e-juros",
+    "juros-simples-e-compostos"
+   ]
   }
  ]
 }
