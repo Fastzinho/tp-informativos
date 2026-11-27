@@ -4,7 +4,7 @@
  "disciplina": "Economia",
  "ordem": 26,
  "descricao": "Economia para concursos fiscais: microeconomia, macroeconomia e economia do setor público, com resumo, quadros, macetes e pegadinhas.",
- "revisado_em": "2026-11-20",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "Conceitos conferidos com a literatura de referência",
  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
  "temas": [
@@ -38,10 +38,70 @@
     "economia positiva",
     "economia normativa"
    ],
-   "resumo": "A economia estuda como a sociedade administra recursos escassos para atender necessidades humanas ilimitadas. A <strong>escassez</strong> obriga a escolher, e toda escolha tem um <strong>custo de oportunidade</strong>: o valor da melhor alternativa de que se abre mão. Daí os três problemas econômicos fundamentais: o que e quanto produzir, como produzir e para quem produzir. A <strong>curva de possibilidades de produção</strong> (CPP, ou fronteira de possibilidades de produção) mostra as combinações máximas de dois bens que a economia consegue produzir com os recursos e a tecnologia disponíveis, usando todos os recursos de forma eficiente. Pontos sobre a curva são eficientes; pontos abaixo dela indicam desemprego ou uso ineficiente de recursos; pontos acima são inatingíveis com os recursos e a tecnologia atuais. A CPP é negativamente inclinada porque, com pleno emprego, produzir mais de um bem exige produzir menos do outro. Ela costuma ser côncava em relação à origem porque os custos de oportunidade são crescentes: os recursos não são igualmente adequados à produção dos dois bens. Se o custo de oportunidade fosse constante, a CPP seria uma reta. O aumento da quantidade de recursos ou o progresso tecnológico deslocam a curva para fora, o que representa crescimento econômico; a redução do desemprego apenas leva a economia de um ponto interno para a curva, sem deslocá-la.",
+   "para_entender": [
+    {
+     "texto": "<strong>Fatores de produção:</strong> terra, trabalho, capital e capacidade empresarial, os recursos que a curva de possibilidades supõe dados.",
+     "tema": "fatores-de-producao-e-remuneracao"
+    }
+   ],
+   "resumo": "A economia estuda como a sociedade usa <strong>recursos escassos</strong> para atender necessidades que não têm limite. A <strong>escassez</strong> obriga a escolher, e cada escolha tem um <strong>custo de oportunidade</strong>: o valor da melhor alternativa de que se abre mão. Dela nascem os três problemas econômicos fundamentais, o que e quanto produzir, como produzir e para quem produzir. A <strong>curva de possibilidades de produção</strong> (CPP, também chamada fronteira de possibilidades de produção) desenha essa escolha para dois bens. Cada ponto dela é uma combinação máxima que a economia obtém com os recursos e a tecnologia de que dispõe, empregando todos eles. A curva desce da esquerda para a direita porque, com <strong>pleno emprego</strong> dos recursos, ganhar mais de um bem exige abrir mão de parte do outro; a inclinação mede justamente o custo de oportunidade. Ela costuma ser curvada para fora porque os recursos não servem igualmente bem às duas produções: os primeiros deslocados são os menos aptos para o bem que se abandona. O esquema mostra o que significa cada posição em relação à curva e o que a desloca. A mudança de toda a curva para fora é o <strong>crescimento econômico</strong>, que vem de mais recursos ou de melhor tecnologia.",
    "esquema": {
     "rotulo": "o que acontece na curva de possibilidades de produção",
     "html": "<table><thead><tr><th>Situação</th><th>Efeito na CPP</th><th>Pegadinha comum</th></tr></thead><tbody><tr><td><strong>Ponto sobre a curva</strong></td><td>produção eficiente, com pleno emprego dos recursos</td><td>eficiente não quer dizer socialmente desejável</td></tr><tr><td><strong>Ponto abaixo da curva</strong></td><td>desemprego ou uso ineficiente dos recursos</td><td>reduzir o desemprego move o ponto até a curva, não desloca a curva</td></tr><tr><td><strong>Ponto acima da curva</strong></td><td>inatingível com os recursos e a tecnologia atuais</td><td>só se torna possível com crescimento econômico</td></tr><tr><td><strong>Mais recursos ou tecnologia nos dois bens</strong></td><td>deslocamento paralelo ou quase paralelo para fora</td><td>é crescimento econômico</td></tr><tr><td><strong>Progresso tecnológico em um só bem</strong></td><td>a curva gira para fora apenas no eixo desse bem</td><td>a produção máxima do outro bem não muda</td></tr><tr><td><strong>Custos de oportunidade crescentes</strong></td><td>curva côncava em relação à origem</td><td>curva reta indica custo de oportunidade constante</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Custo em unidades do outro bem",
+      "o_que_e": "Se, para passar de 10 para 20 unidades de alimentos, a economia perde 5 unidades de máquinas, cada alimento adicional custa 0,5 máquina nesse trecho.",
+      "atencao": "A conta é o que se perde dividido pelo que se ganha: 5 ÷ 10, e não 10 ÷ 5.",
+      "grupo": "Medir o custo"
+     },
+     {
+      "nome": "Progresso técnico em um bem",
+      "o_que_e": "A inovação que só melhora a produção de alimentos afasta a curva da origem no eixo dos alimentos e mantém o máximo de máquinas.",
+      "atencao": "Mesmo assim, nas combinações intermediárias, a economia passa a ter mais dos dois bens.",
+      "grupo": "Deslocar a curva"
+     },
+     {
+      "nome": "Bens de capital hoje",
+      "o_que_e": "A economia que escolhe hoje mais bens de capital e menos bens de consumo tende a ter amanhã uma CPP mais afastada da origem.",
+      "grupo": "Deslocar a curva"
+     },
+     {
+      "nome": "Eficiência não é escolha social",
+      "o_que_e": "Todos os pontos da curva são eficientes; qual deles a sociedade prefere depende de preferências e de juízo de valor.",
+      "grupo": "Deslocar a curva"
+     },
+     {
+      "nome": "Economia positiva",
+      "o_que_e": "Descreve e explica o que é, como o efeito de um imposto sobre o preço.",
+      "atencao": "Pode ser confrontada com dados.",
+      "grupo": "Classificações"
+     },
+     {
+      "nome": "Economia normativa",
+      "o_que_e": "Trata do que deveria ser e envolve juízo de valor, como dizer que o imposto é justo ou que a desigualdade deveria cair.",
+      "atencao": "Verbos como deveria e convém denunciam a proposição normativa.",
+      "grupo": "Classificações"
+     },
+     {
+      "nome": "Microeconomia",
+      "o_que_e": "Estuda o comportamento de consumidores, empresas e mercados específicos.",
+      "grupo": "Classificações"
+     },
+     {
+      "nome": "Macroeconomia",
+      "o_que_e": "Estuda os agregados da economia: produto, emprego, nível geral de preços e balanço de pagamentos.",
+      "grupo": "Classificações"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -63,8 +123,23 @@
     "gabarito": "E",
     "explicacao": "A redução do desemprego leva a economia de um ponto interno para um ponto sobre a curva. A CPP só se desloca para fora com aumento da quantidade de recursos ou com progresso tecnológico."
    },
-   "aprofundamento": "<p><strong>Custo de oportunidade mede-se em unidades do outro bem.</strong> Se, ao passar de 10 para 20 unidades de alimentos, a economia deixa de produzir 5 unidades de máquinas, o custo de oportunidade de cada unidade adicional de alimento nesse trecho é de 0,5 unidade de máquina.</p><p><strong>Progresso técnico concentrado em um bem gira a curva.</strong> Uma inovação que só aumenta a produtividade na produção de alimentos desloca a CPP para fora no eixo dos alimentos, mas mantém o ponto máximo do eixo das máquinas. Mesmo assim, a economia passa a poder ter mais dos dois bens em combinações intermediárias.</p><p><strong>Bens de capital hoje, mais produção amanhã.</strong> A economia que escolhe hoje um ponto com mais bens de capital e menos bens de consumo tende a ter, no futuro, uma CPP mais deslocada para fora do que a economia que privilegia o consumo presente.</p><p><strong>Eficiência não é escolha social.</strong> Todos os pontos sobre a CPP são eficientes; a curva não diz qual deles a sociedade deve escolher. Essa escolha depende de preferências e de juízo de valor.</p><p><strong>Economia positiva e economia normativa.</strong> A economia positiva descreve e explica o que é (por exemplo, o efeito de um imposto sobre o preço); a economia normativa trata do que deveria ser e envolve juízo de valor (por exemplo, se o imposto é justo).</p><p><strong>Microeconomia e macroeconomia.</strong> A microeconomia estuda o comportamento de consumidores, empresas e mercados específicos; a macroeconomia estuda os agregados da economia, como produto, emprego, nível geral de preços e balanço de pagamentos.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Se a economia deixa de produzir 5 máquinas para obter 10 alimentos a mais, o custo de oportunidade de cada alimento adicional é de 2 máquinas.",
+     "certo": "É de 0,5 máquina: divide-se o que se perde (5) pelo que se ganha (10).",
+     "fonte": "Questões do app sobre o custo de oportunidade"
+    },
+    {
+     "errado": "A CPP em forma de reta negativamente inclinada indica custos de oportunidade crescentes.",
+     "certo": "A reta tem inclinação constante, o que indica custo de oportunidade constante; custo crescente dá curva côncava.",
+     "fonte": "Questões do app sobre o formato da CPP"
+    },
+    {
+     "errado": "Defender tributação mais progressiva para reduzir a desigualdade é proposição de economia positiva.",
+     "certo": "É proposição normativa: diz o que deveria ser e envolve juízo de valor.",
+     "fonte": "Questões do app sobre economia positiva e normativa"
+    }
+   ],
    "relacionados": [
     "fatores-de-producao-e-remuneracao",
     "livre-mercado-e-papel-do-governo"
@@ -101,10 +176,68 @@
     "fluxo circular",
     "distribuicao funcional da renda"
    ],
-   "resumo": "Os <strong>fatores de produção</strong> são os recursos usados para produzir bens e serviços. A classificação tradicional traz a <strong>terra</strong> (recursos naturais), o <strong>trabalho</strong> (esforço humano, físico e intelectual), o <strong>capital</strong> (bens de capital, como máquinas, equipamentos, edifícios e instalações, que são bens produzidos e usados para produzir outros bens) e a <strong>capacidade empresarial</strong> (organizar a produção e assumir riscos). Muitos manuais acrescentam a tecnologia. Cada fator tem a sua remuneração: a terra recebe aluguel ou renda da terra; o trabalho recebe salário; o capital recebe juros; a capacidade empresarial recebe lucro. No fluxo circular da renda, as famílias são donas dos fatores e os oferecem às empresas no mercado de fatores; as empresas pagam por eles salários, juros, aluguéis e lucros, e essa renda volta às empresas como gasto com bens e serviços. A <strong>produtividade</strong> é a relação entre a produção e a quantidade de fator usada: a produtividade média é o produto por unidade do fator, e a produtividade marginal é o acréscimo de produção trazido por uma unidade adicional do fator. Pela teoria da produtividade marginal, em mercados competitivos a empresa contrata trabalhadores até que o valor do produto marginal do trabalho, o preço do produto multiplicado pelo produto marginal, se iguale ao salário. Por isso a demanda por fator é uma demanda derivada: depende da demanda pelo bem que o fator ajuda a produzir.",
+   "para_entender": [
+    {
+     "texto": "<strong>Escassez:</strong> os recursos não bastam para todas as necessidades, e cada uso deles tem custo de oportunidade.",
+     "tema": "escassez-escolha-e-fronteira-de-possibilidades"
+    },
+    {
+     "texto": "<strong>Produto marginal:</strong> acréscimo de produção trazido por uma unidade a mais de um fator, mantidos os outros.",
+     "tema": "teoria-da-producao"
+    }
+   ],
+   "resumo": "Os <strong>fatores de produção</strong> são os recursos que entram na produção de bens e serviços. A lista tradicional tem quatro, e o esquema mostra o que é cada um e como é pago; muitos manuais acrescentam a tecnologia. O ponto mais cobrado é o capital: como fator, ele é o <strong>bem de capital</strong>, coisa já produzida que serve para produzir outras, e não o dinheiro guardado pela empresa. No <strong>fluxo circular da renda</strong>, as famílias são donas dos fatores e os vendem às empresas no mercado de fatores; a renda que recebem por eles volta às empresas como gasto com bens e serviços. A <strong>produtividade</strong> compara a produção com o fator usado: a média é o produto por unidade do fator; a marginal é o que uma unidade adicional acrescenta. Pela <strong>teoria da produtividade marginal</strong>, em mercados competitivos a empresa contrata trabalhadores até que o <strong>valor do produto marginal</strong>, o preço de venda multiplicado pelo acréscimo de produção do último contratado, chegue ao salário: antes disso, cada contratado rende mais do que custa. Daí a <strong>demanda derivada</strong>: a empresa procura o fator porque há quem compre o que ele ajuda a fazer, e a queda da procura pelo bem reduz a procura pelo fator.",
    "esquema": {
     "rotulo": "fatores de produção e suas remunerações",
     "html": "<table><thead><tr><th>Fator</th><th>O que é</th><th>Remuneração</th></tr></thead><tbody><tr><td><strong>Terra</strong></td><td>recursos naturais: solo, minérios, água, florestas</td><td>aluguel ou renda da terra</td></tr><tr><td><strong>Trabalho</strong></td><td>esforço humano, físico e intelectual, aplicado à produção</td><td>salário</td></tr><tr><td><strong>Capital</strong></td><td>bens produzidos que servem para produzir outros bens (máquinas, equipamentos, edifícios)</td><td>juros</td></tr><tr><td><strong>Capacidade empresarial</strong></td><td>organizar os demais fatores e assumir o risco do negócio</td><td>lucro</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Exemplo de contratação",
+      "o_que_e": "Produto vendido a R$ 10 e quinto trabalhador que acrescenta 8 unidades: o valor do produto marginal dele é R$ 80.",
+      "atencao": "Com salário de R$ 70, vale contratar; com R$ 90, não vale.",
+      "grupo": "Contratar trabalho"
+     },
+     {
+      "nome": "Receita do produto marginal",
+      "o_que_e": "Se a empresa tem poder de mercado no produto, o critério passa a ser a receita marginal vezes o produto marginal, menor que o valor do produto marginal.",
+      "atencao": "Por isso o monopolista contrata menos trabalho.",
+      "grupo": "Contratar trabalho"
+     },
+     {
+      "nome": "Produtividade e salário real",
+      "o_que_e": "Produtividade marginal maior eleva a demanda por trabalho e tende a elevar o salário real; no longo prazo, o padrão de vida de um país depende sobretudo da produtividade.",
+      "grupo": "Contratar trabalho"
+     },
+     {
+      "nome": "Capital humano",
+      "o_que_e": "Educação, treinamento e experiência aumentam a produtividade do trabalhador e ajudam a explicar as diferenças de salário.",
+      "grupo": "Contratar trabalho"
+     },
+     {
+      "nome": "Renda econômica",
+      "o_que_e": "Quando a oferta do fator é fixa, como a terra na visão de Ricardo, a remuneração é dada pela demanda; é o pagamento acima do mínimo necessário para que o fator seja ofertado.",
+      "grupo": "Repartir a renda"
+     },
+     {
+      "nome": "Distribuição funcional",
+      "o_que_e": "Reparte a renda entre os fatores: salários, juros, aluguéis e lucros.",
+      "grupo": "Repartir a renda"
+     },
+     {
+      "nome": "Distribuição pessoal",
+      "o_que_e": "Reparte a renda entre pessoas ou famílias, por faixas de renda.",
+      "atencao": "A pergunta que separa é entre quem a renda se divide: fatores ou pessoas.",
+      "grupo": "Repartir a renda"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -126,8 +259,23 @@
     "gabarito": "E",
     "explicacao": "Como fator de produção, o capital é formado por bens de capital, como máquinas, equipamentos e edificações, e a sua remuneração é o juro. O lucro remunera a capacidade empresarial."
    },
-   "aprofundamento": "<p><strong>Valor do produto marginal e receita do produto marginal.</strong> Com o produto vendido em concorrência perfeita, o valor do produto marginal do trabalho é o preço do produto vezes o produto marginal. Se a empresa tem poder de mercado no produto, o critério passa a ser a receita do produto marginal, a receita marginal vezes o produto marginal, que é menor que o valor do produto marginal; por isso ela contrata menos trabalho.</p><p><strong>Exemplo de contratação.</strong> Se o produto é vendido a R$ 10 e o quinto trabalhador acrescenta 8 unidades, o valor do produto marginal desse trabalhador é R$ 80. Com salário de R$ 70, vale contratá-lo; com salário de R$ 90, não vale.</p><p><strong>Produtividade e salário real.</strong> O aumento da produtividade marginal do trabalho eleva a demanda por trabalho e tende a elevar o salário real. No longo prazo, o padrão de vida de um país depende sobretudo da sua produtividade.</p><p><strong>Renda econômica.</strong> Quando a oferta de um fator é fixa, como a terra na visão de Ricardo, a sua remuneração é determinada pela demanda e corresponde a uma renda econômica: o pagamento acima do mínimo necessário para que o fator seja ofertado.</p><p><strong>Distribuição funcional e distribuição pessoal.</strong> A distribuição funcional da renda reparte a renda entre os fatores (salários, juros, aluguéis e lucros); a distribuição pessoal reparte a renda entre pessoas ou famílias, por faixas de renda.</p><p><strong>Capital humano.</strong> Educação, treinamento e experiência aumentam a produtividade do trabalhador. O investimento em capital humano é uma das explicações para as diferenças de salário entre trabalhadores.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Com produto vendido a R$ 10, quinto trabalhador que acrescenta 8 unidades e salário de R$ 90, é lucrativo contratá-lo.",
+     "certo": "O valor do produto marginal é R$ 80, abaixo do salário de R$ 90: a contratação reduz o lucro.",
+     "fonte": "Questões do app sobre a contratação de trabalho"
+    },
+    {
+     "errado": "O monopolista no mercado do produto contrata trabalho até o salário igualar o preço vezes o produto marginal.",
+     "certo": "O critério dele é a receita do produto marginal, a receita marginal vezes o produto marginal, que é menor; por isso contrata menos.",
+     "fonte": "Questões do app sobre o monopolista no mercado de fatores"
+    },
+    {
+     "errado": "A distribuição pessoal da renda mostra a repartição entre salários, juros, aluguéis e lucros.",
+     "certo": "Essa é a distribuição funcional; a pessoal reparte a renda entre pessoas ou famílias.",
+     "fonte": "Questões do app sobre a distribuição da renda"
+    }
+   ],
    "relacionados": [
     "escassez-escolha-e-fronteira-de-possibilidades",
     "teoria-da-producao"
@@ -167,10 +315,74 @@
     "idh",
     "infraestrutura"
    ],
-   "resumo": "Os sistemas econômicos respondem de modos diferentes aos problemas de o que, como e para quem produzir. Na <strong>economia de mercado</strong> (livre mercado), as decisões são descentralizadas: consumidores e empresas, guiados pelos preços e pela busca do próprio interesse, coordenam a produção, com propriedade privada dos meios de produção. Adam Smith chamou essa coordenação de <strong>mão invisível</strong>. Os preços funcionam como sinais de escassez: se a demanda por um bem cresce, o preço sobe, o que estimula a produção e racionaliza o consumo. Na <strong>economia centralizada</strong>, um órgão central de planejamento decide o que, como e para quem produzir, e os meios de produção são em regra do Estado. As economias reais são <strong>mistas</strong>: o mercado coordena a maior parte das decisões, e o governo intervém. O mercado sozinho falha em certas situações: bens públicos, externalidades, poder de mercado e informação assimétrica; além disso, não garante distribuição de renda aceitável nem estabilidade de preços e de emprego. Daí as três funções clássicas do governo, na formulação de Musgrave: <strong>alocativa</strong> (prover bens que o mercado não oferece de modo adequado), <strong>distributiva</strong> (ajustar a distribuição da renda, por tributos e transferências) e <strong>estabilizadora</strong> (usar as políticas fiscal e monetária para buscar emprego elevado, estabilidade de preços e crescimento). Em uma economia em desenvolvimento, o governo também costuma atuar como indutor do desenvolvimento: investe em infraestrutura, educação e saúde, financia setores estratégicos e procura reduzir desigualdades sociais e regionais.",
+   "para_entender": [
+    {
+     "texto": "<strong>Problemas econômicos fundamentais:</strong> o que e quanto, como e para quem produzir.",
+     "tema": "escassez-escolha-e-fronteira-de-possibilidades"
+    },
+    {
+     "texto": "<strong>Falhas de mercado:</strong> casos em que o mercado sozinho não chega ao resultado eficiente, como bens públicos e externalidades.",
+     "tema": "eficiencia-bens-publicos-e-falhas-de-mercado"
+    }
+   ],
+   "resumo": "Cada <strong>sistema econômico</strong> responde de um jeito às perguntas de o que, como e para quem produzir. Na <strong>economia de mercado</strong>, ninguém comanda: consumidores e empresas, cada um atrás do próprio interesse, decidem a partir dos preços, e os meios de produção são de propriedade privada. Adam Smith chamou de <strong>mão invisível</strong> essa coordenação sem coordenador. O preço funciona como sinal de escassez: se a procura por um bem cresce, ele sobe, os produtores ofertam mais e os consumidores economizam. Na <strong>economia centralizada</strong>, quem decide é o planejamento estatal, e os meios de produção pertencem em regra ao Estado. As economias reais são <strong>mistas</strong>. O mercado sozinho falha diante de bens públicos, externalidades, poder de mercado e informação assimétrica, e também não assegura distribuição de renda aceitável nem estabilidade de preços e de emprego. Por isso Musgrave atribui ao governo três funções, a <strong>alocativa</strong>, a <strong>distributiva</strong> e a <strong>estabilizadora</strong>, que o esquema descreve com exemplos. Na economia em desenvolvimento, o governo costuma ir além e atuar como indutor: investe em infraestrutura, educação e saúde, financia setores estratégicos e procura reduzir desigualdades sociais e regionais.",
    "esquema": {
     "rotulo": "sistemas econômicos e funções do governo",
     "html": "<table><thead><tr><th>Item</th><th>Como funciona</th><th>Ponto de prova</th></tr></thead><tbody><tr><td><strong>Economia de mercado</strong></td><td>decisões descentralizadas, coordenadas pelos preços</td><td>mão invisível; soberania do consumidor</td></tr><tr><td><strong>Economia centralizada</strong></td><td>órgão central de planejamento decide a produção</td><td>preços fixados administrativamente</td></tr><tr><td><strong>Economia mista</strong></td><td>mercado coordena a maior parte, com intervenção do governo</td><td>é o modelo das economias reais</td></tr><tr><td><strong>Função alocativa</strong></td><td>provisão de bens públicos e correção de falhas de mercado</td><td>defesa, segurança, iluminação pública</td></tr><tr><td><strong>Função distributiva</strong></td><td>ajuste da distribuição da renda</td><td>tributação progressiva e transferências</td></tr><tr><td><strong>Função estabilizadora</strong></td><td>políticas fiscal e monetária contra inflação e desemprego</td><td>atua sobre a demanda agregada</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Preços e as três perguntas",
+      "o_que_e": "O que produzir sai da demanda dos consumidores (soberania do consumidor); como produzir, da busca do menor custo pelas empresas; para quem, da renda de cada um, que depende dos fatores que possui e da remuneração deles.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Laissez-faire",
+      "o_que_e": "Defende a mínima intervenção na atividade econômica, e não a ausência de Estado: os clássicos já aceitavam defesa, justiça e algumas obras públicas.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Falhas de governo",
+      "o_que_e": "A intervenção também falha, por problemas de informação, de incentivos, de captura por grupos de interesse e de custo de arrecadação.",
+      "atencao": "A falha de mercado justifica estudar a intervenção, mas não garante que ela melhore o resultado.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Ordem econômica na Constituição",
+      "o_que_e": "A CF funda a ordem econômica na valorização do trabalho e na livre iniciativa (art. 170); o Estado só explora atividade econômica diretamente por imperativo da segurança nacional ou relevante interesse coletivo (art. 173) e atua como agente normativo e regulador, com planejamento determinante para o setor público e indicativo para o privado (art. 174).",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Crescimento econômico",
+      "o_que_e": "Aumento contínuo do produto, em geral medido pelo PIB real ou pelo PIB per capita.",
+      "grupo": "Desenvolvimento"
+     },
+     {
+      "nome": "Desenvolvimento econômico",
+      "o_que_e": "Inclui a melhora do padrão de vida, com mudanças na estrutura produtiva, na distribuição da renda, na saúde e na educação.",
+      "atencao": "Pode haver crescimento sem desenvolvimento.",
+      "grupo": "Desenvolvimento"
+     },
+     {
+      "nome": "IDH",
+      "o_que_e": "Combina saúde (expectativa de vida ao nascer), educação (média de anos de estudo dos adultos e anos esperados de escolaridade das crianças) e renda (renda nacional bruta per capita).",
+      "atencao": "O índice de Gini não entra no IDH, que também não se confunde com o PIB per capita.",
+      "grupo": "Desenvolvimento"
+     },
+     {
+      "nome": "Capital social básico",
+      "o_que_e": "Energia, transportes e saneamento, em que o retorno é de longo prazo e há externalidades positivas; nas economias em desenvolvimento, o governo costuma assumir esse investimento, além do capital humano e do crédito de longo prazo.",
+      "atencao": "No Brasil, esse papel ganhou força na industrialização por substituição de importações.",
+      "grupo": "Desenvolvimento"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -188,8 +400,23 @@
     "gabarito": "E",
     "explicacao": "Tributar mais quem ganha mais e transferir renda para os mais pobres é a função distributiva. A função alocativa trata da provisão de bens públicos e da correção de falhas de mercado na alocação de recursos."
    },
-   "aprofundamento": "<p><strong>Crescimento e desenvolvimento.</strong> O crescimento econômico é o aumento contínuo do produto, em geral medido pelo PIB real ou pelo PIB per capita. O desenvolvimento econômico é mais amplo: inclui a melhora do padrão de vida da população, com mudanças na estrutura produtiva, na distribuição da renda, na saúde e na educação. Pode haver crescimento sem desenvolvimento.</p><p><strong>Índice de Desenvolvimento Humano.</strong> O IDH combina três dimensões: saúde (expectativa de vida ao nascer), educação (média de anos de estudo dos adultos e anos esperados de escolaridade das crianças) e renda (renda nacional bruta per capita). Por isso o IDH não se confunde com o PIB per capita.</p><p><strong>Sistema de preços responde às três perguntas.</strong> No livre mercado, o que produzir é decidido pela demanda dos consumidores (soberania do consumidor); como produzir, pela busca do menor custo pelas empresas; para quem produzir, pela renda de cada um, que depende dos fatores que possui e da remuneração deles.</p><p><strong>Laissez-faire não é ausência total de Estado.</strong> Mesmo os economistas clássicos reconheciam funções do Estado, como defesa, justiça e algumas obras públicas. A ideia de laissez-faire é a de mínima intervenção na atividade econômica.</p><p><strong>Papel do governo no desenvolvimento.</strong> Nas economias em desenvolvimento, o governo costuma assumir o investimento em capital social básico (energia, transportes, saneamento), em que o retorno é de longo prazo e há externalidades positivas, além de investir em capital humano e de usar instrumentos de planejamento e crédito de longo prazo. No Brasil, esse papel ganhou força no período de industrialização por substituição de importações.</p><p><strong>Falhas de governo.</strong> A intervenção também pode falhar: há problemas de informação, de incentivos, de captura por grupos de interesse e de custos de arrecadação. A existência de falha de mercado justifica estudar a intervenção, mas não garante que ela melhore o resultado.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O IDH combina renda per capita, distribuição da renda medida pelo índice de Gini e expectativa de vida ao nascer.",
+     "certo": "O Gini não entra: o IDH combina saúde, educação e renda nacional bruta per capita.",
+     "fonte": "Questões do app sobre o IDH"
+    },
+    {
+     "errado": "Na economia de mercado, um órgão central de planejamento decide o que, como e para quem produzir.",
+     "certo": "Isso descreve a economia centralizada; no mercado, as decisões são descentralizadas e guiadas pelos preços.",
+     "fonte": "Questões do app sobre os sistemas econômicos"
+    },
+    {
+     "errado": "Comprovada a falha de mercado, a intervenção do governo leva necessariamente a alocação mais eficiente.",
+     "certo": "O governo também falha; a falha de mercado só justifica examinar a intervenção.",
+     "fonte": "Questões do app sobre as falhas de governo"
+    }
+   ],
    "relacionados": [
     "eficiencia-bens-publicos-e-falhas-de-mercado",
     "setor-publico-e-politicas-de-estabilizacao"
@@ -229,10 +456,69 @@
     "tabelamento",
     "equilibrio"
    ],
-   "resumo": "Pela <strong>lei da demanda</strong>, mantidos constantes os demais fatores (ceteris paribus), a quantidade demandada de um bem varia em sentido inverso ao seu preço; pela <strong>lei da oferta</strong>, a quantidade ofertada varia no mesmo sentido do preço. A mudança do preço do próprio bem provoca <strong>movimento ao longo da curva</strong> (variação da quantidade demandada ou ofertada). A mudança de qualquer outro determinante <strong>desloca a curva</strong>. Deslocam a demanda: a renda, os preços dos bens relacionados, os gostos, as expectativas e o número de consumidores. No bem normal, o aumento da renda eleva a demanda; no bem inferior, o aumento da renda reduz a demanda. Nos bens substitutos, a alta do preço de um eleva a demanda do outro (café e chá); nos complementares, a alta do preço de um reduz a demanda do outro (carro e gasolina). Deslocam a oferta: o preço dos insumos, a tecnologia, os tributos, as expectativas e o número de vendedores. O <strong>equilíbrio</strong> ocorre ao preço em que a quantidade demandada iguala a ofertada. Acima dele, há excesso de oferta, e o preço tende a cair; abaixo, há excesso de demanda (escassez), e o preço tende a subir. Exemplo: com demanda Qd = 100 − 2P e oferta Qs = 20 + 2P, o equilíbrio está em P = 20 e Q = 60. Um <strong>preço máximo</strong> (tabelamento) abaixo do equilíbrio gera escassez; um <strong>preço mínimo</strong> acima do equilíbrio gera excedente.",
+   "para_entender": [
+    {
+     "texto": "<strong>Sistema de preços:</strong> no mercado, o preço sinaliza a escassez e coordena produtores e consumidores.",
+     "tema": "livre-mercado-e-papel-do-governo"
+    }
+   ],
+   "resumo": "A <strong>curva de demanda</strong> mostra quanto os consumidores querem comprar a cada preço, e a <strong>curva de oferta</strong>, quanto os vendedores querem vender. Pela <strong>lei da demanda</strong>, mantido tudo o mais constante (<em>ceteris paribus</em>), a quantidade procurada cai quando o preço sobe; pela <strong>lei da oferta</strong>, a quantidade oferecida sobe junto com o preço. A distinção mais cobrada é entre andar na curva e deslocá-la. A mudança do preço do próprio bem altera a quantidade demandada ou ofertada, ponto a ponto sobre a mesma curva; os demais determinantes mudam a curva inteira. Na demanda, são a renda, o preço de bens relacionados, os gostos, as expectativas e o número de compradores. No <strong>bem normal</strong>, mais renda traz mais demanda; no <strong>bem inferior</strong>, menos. Entre <strong>substitutos</strong>, como café e chá, a alta de um aumenta a procura pelo outro; entre <strong>complementares</strong>, como carro e gasolina, reduz. Na oferta, contam o preço dos insumos, a tecnologia, os tributos, as expectativas e o número de vendedores. O <strong>equilíbrio</strong> é o preço em que as duas quantidades coincidem. Acima dele sobra mercadoria e o preço tende a cair; abaixo falta, e o preço tende a subir. Com Qd = 100 − 2P e Qs = 20 + 2P, o equilíbrio fica em P = 20 e Q = 60. O esquema resume o efeito de cada choque e dos preços tabelados.",
    "esquema": {
     "rotulo": "o que acontece com preço e quantidade de equilíbrio",
     "html": "<table><thead><tr><th>Choque</th><th>Preço de equilíbrio</th><th>Quantidade de equilíbrio</th></tr></thead><tbody><tr><td><strong>Demanda aumenta</strong></td><td>sobe</td><td>sobe</td></tr><tr><td><strong>Demanda diminui</strong></td><td>cai</td><td>cai</td></tr><tr><td><strong>Oferta aumenta</strong></td><td>cai</td><td>sobe</td></tr><tr><td><strong>Oferta diminui</strong></td><td>sobe</td><td>cai</td></tr><tr><td><strong>Demanda e oferta aumentam</strong></td><td>indeterminado</td><td>sobe</td></tr><tr><td><strong>Demanda aumenta e oferta diminui</strong></td><td>sobe</td><td>indeterminada</td></tr><tr><td><strong>Preço máximo abaixo do equilíbrio</strong></td><td>fica no teto</td><td>escassez: demanda maior que oferta</td></tr><tr><td><strong>Preço mínimo acima do equilíbrio</strong></td><td>fica no piso</td><td>excedente: oferta maior que demanda</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Equilíbrio do exemplo",
+      "o_que_e": "Igualando as duas curvas, 80 = 4P: o preço é 20, e qualquer das curvas dá 60 unidades.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Preço máximo de 15",
+      "o_que_e": "Com as curvas do exemplo, ao preço de 15 a quantidade demandada é 100 − 30 = 70 e a ofertada é 20 + 30 = 50.",
+      "atencao": "Falta mercadoria: escassez de 20 unidades, e não excedente de oferta.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Efeito substituição",
+      "o_que_e": "Quando o preço cai, o bem fica relativamente mais barato que os outros, e o consumidor compra mais dele no lugar deles.",
+      "grupo": "Consumidor"
+     },
+     {
+      "nome": "Efeito renda",
+      "o_que_e": "A queda do preço aumenta o poder de compra; no bem normal, isso também eleva a compra, e os dois efeitos atuam no mesmo sentido.",
+      "grupo": "Consumidor"
+     },
+     {
+      "nome": "Bem de Giffen",
+      "o_que_e": "Bem inferior em que o efeito renda supera o efeito substituição: a demanda tem inclinação positiva, e a alta do preço aumenta a quantidade demandada.",
+      "atencao": "Todo bem de Giffen é inferior, mas nem todo bem inferior é de Giffen.",
+      "grupo": "Consumidor"
+     },
+     {
+      "nome": "Expectativa de alta",
+      "o_que_e": "Se os consumidores esperam preço maior no futuro, a demanda de hoje cresce; se os produtores esperam, a oferta de hoje tende a cair.",
+      "grupo": "Consumidor"
+     },
+     {
+      "nome": "Melhora tecnológica",
+      "o_que_e": "Reduz o custo de produção e desloca a oferta para a direita, e não a demanda: no novo equilíbrio, o preço cai e a quantidade sobe.",
+      "grupo": "Produtor"
+     },
+     {
+      "nome": "Tributo sobre o vendedor",
+      "o_que_e": "O tributo específico cobrado do produtor desloca a oferta para cima, no valor do tributo, e o preço pago pelo consumidor sobe menos que ele.",
+      "atencao": "Sobe no valor integral só com demanda perfeitamente inelástica ou oferta perfeitamente elástica.",
+      "grupo": "Produtor"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -254,8 +540,28 @@
     "gabarito": "E",
     "explicacao": "O aumento da renda desloca a demanda para a direita só no bem normal. No bem inferior, a demanda se desloca para a esquerda quando a renda sobe, porque o consumidor troca o bem por outro de melhor qualidade."
    },
-   "aprofundamento": "<p><strong>Cálculo do equilíbrio.</strong> Com Qd = 100 − 2P e Qs = 20 + 2P, iguala-se 100 − 2P = 20 + 2P, o que dá 80 = 4P, P = 20 e Q = 60. Se o governo fixar preço máximo de 15, a quantidade demandada será 70 e a ofertada 50: escassez de 20 unidades.</p><p><strong>Bem de Giffen.</strong> É um bem inferior em que o efeito renda supera o efeito substituição, de modo que a curva de demanda tem inclinação positiva: a alta do preço aumenta a quantidade demandada. Todo bem de Giffen é inferior, mas nem todo bem inferior é de Giffen.</p><p><strong>Efeito substituição e efeito renda.</strong> Quando o preço de um bem cai, o consumidor compra mais porque o bem ficou relativamente mais barato (efeito substituição) e porque o seu poder de compra aumentou (efeito renda). No bem normal, os dois efeitos atuam no mesmo sentido.</p><p><strong>Expectativa de alta desloca a demanda hoje.</strong> Se os consumidores esperam que o preço suba no futuro, a demanda presente aumenta (desloca-se para a direita). Se os produtores esperam preço maior no futuro, a oferta presente tende a diminuir.</p><p><strong>Melhora tecnológica desloca a oferta, não a demanda.</strong> Uma inovação que reduz o custo de produção desloca a curva de oferta para a direita: no novo equilíbrio, o preço cai e a quantidade sobe.</p><p><strong>Imposto sobre o vendedor desloca a oferta.</strong> Um tributo específico cobrado do produtor desloca a curva de oferta para cima, no valor do tributo. O preço pago pelo consumidor sobe menos que o tributo, salvo se a demanda for perfeitamente inelástica ou a oferta perfeitamente elástica, casos em que sobe no valor integral do tributo.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Se dois bens são complementares, a alta do preço de um desloca para a direita a demanda do outro.",
+     "certo": "Isso vale para substitutos; entre complementares, a alta do preço de um reduz a demanda do outro.",
+     "fonte": "Questões do app sobre bens relacionados"
+    },
+    {
+     "errado": "Com Qd = 100 − 2P e Qs = 20 + 2P, o preço máximo de 15 gera excedente de oferta de 20 unidades.",
+     "certo": "Gera escassez de 20: ao preço de 15, demandam-se 70 e ofertam-se 50.",
+     "fonte": "Questões do app sobre o preço máximo"
+    },
+    {
+     "errado": "Todo bem inferior tem curva de demanda positivamente inclinada.",
+     "certo": "Só o bem de Giffen, caso extremo de bem inferior em que o efeito renda supera o efeito substituição.",
+     "fonte": "Questões do app sobre o bem de Giffen"
+    },
+    {
+     "errado": "A inovação que reduz o custo de produção eleva o preço e a quantidade de equilíbrio.",
+     "certo": "A oferta se desloca para a direita: a quantidade sobe, mas o preço cai.",
+     "fonte": "Questões do app sobre o choque de oferta"
+    }
+   ],
    "relacionados": [
     "elasticidades",
     "concorrencia-perfeita"
@@ -295,10 +601,64 @@
     "incidencia do imposto",
     "peso morto"
    ],
-   "resumo": "A <strong>elasticidade-preço da demanda</strong> mede a sensibilidade da quantidade demandada ao preço: é a variação percentual da quantidade dividida pela variação percentual do preço. Em módulo, se é maior que 1, a demanda é elástica; se é menor que 1, inelástica; se é igual a 1, unitária. A elasticidade decide o que acontece com a <strong>receita total</strong> (gasto do consumidor): com demanda elástica, a queda do preço aumenta a receita; com demanda inelástica, a alta do preço aumenta a receita; com elasticidade unitária, a receita não muda. A demanda é mais elástica quando há substitutos próximos, quando o bem é supérfluo, quando pesa muito no orçamento e quanto maior o prazo de ajuste. Na demanda linear, a elasticidade varia ao longo da curva: é elástica na parte de cima, unitária no ponto médio e inelástica na parte de baixo. A curva vertical é perfeitamente inelástica (elasticidade zero); a horizontal, perfeitamente elástica; a hipérbole equilátera tem elasticidade unitária em todos os pontos. A <strong>elasticidade-renda</strong> é positiva no bem normal (acima de 1 no bem superior ou de luxo, entre 0 e 1 no bem necessário) e negativa no bem inferior. A <strong>elasticidade cruzada</strong> é positiva entre substitutos e negativa entre complementares. Na <strong>incidência tributária</strong>, o lado do mercado mais inelástico arca com a maior parte do tributo, seja ele cobrado do vendedor ou do comprador.",
+   "para_entender": [
+    {
+     "texto": "<strong>Curva de demanda:</strong> quantidade que os consumidores querem comprar a cada preço; bens substitutos e complementares deslocam a demanda um do outro.",
+     "tema": "oferta-e-demanda"
+    }
+   ],
+   "resumo": "<strong>Elasticidade</strong> mede o quanto uma variável reage a outra, em termos percentuais. A <strong>elasticidade-preço da demanda</strong> é a variação percentual da quantidade demandada dividida pela variação percentual do preço, lida em módulo: acima de 1, a demanda é <strong>elástica</strong> (a quantidade reage mais que o preço); abaixo de 1, <strong>inelástica</strong>; igual a 1, <strong>unitária</strong>. Ela importa porque decide o rumo da <strong>receita total</strong>, que é preço vezes quantidade e equivale ao gasto do consumidor. A procura é mais elástica quando há substitutos próximos, quando o bem é supérfluo, quando pesa no orçamento e quanto mais tempo o consumidor tem para se ajustar. Três formatos têm elasticidade fixa: a curva vertical (zero, perfeitamente inelástica), a horizontal (infinita, perfeitamente elástica) e a hipérbole equilátera (unitária em todos os pontos). A <strong>elasticidade-renda</strong> mede a reação da demanda à renda e classifica o bem; a <strong>elasticidade cruzada</strong> mede a reação da demanda de um bem ao preço de outro e diz se os dois se substituem ou se completam. O esquema reúne os sinais e valores de cada uma. Por fim, a elasticidade decide a <strong>incidência tributária</strong>, isto é, quem de fato suporta o tributo, que não precisa ser quem o recolhe.",
    "esquema": {
     "rotulo": "sinais e valores das elasticidades",
     "html": "<table><thead><tr><th>Elasticidade</th><th>Valor</th><th>Leitura</th></tr></thead><tbody><tr><td><strong>Preço da demanda, em módulo</strong></td><td>maior que 1</td><td>elástica: preço cai, receita total sobe</td></tr><tr><td><strong>Preço da demanda, em módulo</strong></td><td>menor que 1</td><td>inelástica: preço sobe, receita total sobe</td></tr><tr><td><strong>Preço da demanda, em módulo</strong></td><td>igual a 1</td><td>unitária: receita total constante</td></tr><tr><td><strong>Renda</strong></td><td>maior que 1</td><td>bem normal superior (de luxo)</td></tr><tr><td><strong>Renda</strong></td><td>entre 0 e 1</td><td>bem normal necessário</td></tr><tr><td><strong>Renda</strong></td><td>negativa</td><td>bem inferior</td></tr><tr><td><strong>Cruzada</strong></td><td>positiva</td><td>substitutos</td></tr><tr><td><strong>Cruzada</strong></td><td>negativa</td><td>complementares</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Conta da receita",
+      "o_que_e": "Preço 10% maior e quantidade 5% menor: elasticidade de 0,5, demanda inelástica; a receita passa a 1,10 × 0,95 = 1,045 da anterior, cerca de 4,5% a mais.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Inclinação não é elasticidade",
+      "o_que_e": "Duas curvas com a mesma inclinação podem ter elasticidades diferentes no mesmo preço, porque a elasticidade leva em conta, além da inclinação, o preço e a quantidade do ponto em que se mede.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Ponto médio da reta",
+      "o_que_e": "Na demanda linear P = a − bQ, o ponto médio tem elasticidade unitária e é também o ponto de receita total máxima.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Curto e longo prazo",
+      "o_que_e": "No curto prazo, o consumidor tem pouca margem para trocar de produto, e a demanda é mais inelástica; no longo prazo, encontra substitutos, e ela fica mais elástica.",
+      "atencao": "Com combustíveis, o exemplo é clássico: o carro e a rotina não mudam de imediato.",
+      "grupo": "Prazo"
+     },
+     {
+      "nome": "Elasticidade-preço da oferta",
+      "o_que_e": "Mede a resposta da quantidade ofertada ao preço; é maior no longo prazo, quando as empresas ampliam a capacidade, e quando há capacidade ociosa.",
+      "grupo": "Prazo"
+     },
+     {
+      "nome": "Casos extremos de incidência",
+      "o_que_e": "Demanda perfeitamente inelástica: o consumidor arca com todo o tributo. Demanda perfeitamente elástica ou oferta perfeitamente inelástica: o produtor arca com tudo.",
+      "atencao": "A incidência econômica não depende de quem recolhe legalmente o tributo.",
+      "grupo": "Tributo"
+     },
+     {
+      "nome": "Peso morto do tributo",
+      "o_que_e": "O tributo cria uma cunha entre o preço pago pelo comprador e o recebido pelo vendedor e reduz a quantidade; a perda de excedente que não vira arrecadação é o peso morto.",
+      "atencao": "Cresce quanto mais elásticas forem a oferta e a demanda.",
+      "grupo": "Tributo"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -320,8 +680,28 @@
     "gabarito": "E",
     "explicacao": "A inclinação da reta é constante, mas a elasticidade não: ela depende também da razão entre preço e quantidade. A demanda linear é elástica na parte de cima, unitária no ponto médio e inelástica na parte de baixo."
    },
-   "aprofundamento": "<p><strong>Conta da receita.</strong> Se o preço sobe 10% e a quantidade demandada cai 5%, a elasticidade-preço é, em módulo, 0,5: demanda inelástica. A receita total passa a ser 1,10 × 0,95 = 1,045 da anterior, ou seja, aumenta cerca de 4,5%.</p><p><strong>Inclinação não é elasticidade.</strong> Duas curvas com a mesma inclinação podem ter elasticidades diferentes no mesmo preço. Na demanda linear P = a − bQ, o ponto médio, onde a elasticidade é unitária, é também o ponto de receita total máxima.</p><p><strong>Prazo aumenta a elasticidade.</strong> No curto prazo, o consumidor tem pouca margem para trocar de produto, e a demanda tende a ser mais inelástica; no longo prazo, ele encontra substitutos, e a demanda fica mais elástica. Com combustíveis, isso é clássico.</p><p><strong>Incidência e casos extremos.</strong> Se a demanda é perfeitamente inelástica, o consumidor arca com todo o tributo; se é perfeitamente elástica, o produtor arca com todo ele. Se a oferta é perfeitamente inelástica, o produtor arca com todo o tributo. A incidência econômica não depende de quem recolhe legalmente o tributo.</p><p><strong>Peso morto do tributo.</strong> O tributo cria uma cunha entre o preço pago pelo comprador e o recebido pelo vendedor e reduz a quantidade transacionada. A perda de excedente que não vira arrecadação é o peso morto, maior quanto mais elásticas a oferta e a demanda.</p><p><strong>Elasticidade-preço da oferta.</strong> Mede a resposta da quantidade ofertada ao preço. A oferta tende a ser mais elástica no longo prazo, quando as empresas conseguem ampliar a capacidade, e quando há capacidade ociosa.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Se a alta de 10% no preço reduz em 5% a quantidade demandada, a demanda é elástica e a receita total cai.",
+     "certo": "A elasticidade é 0,5: demanda inelástica, e a receita sobe cerca de 4,5%.",
+     "fonte": "Questões do app sobre a elasticidade-preço e a receita"
+    },
+    {
+     "errado": "Elasticidade cruzada positiva entre dois bens indica que eles são complementares.",
+     "certo": "Positiva indica substitutos; entre complementares, a elasticidade cruzada é negativa.",
+     "fonte": "Questões do app sobre a elasticidade cruzada"
+    },
+    {
+     "errado": "A maior parte do ônus do tributo recai sempre sobre quem tem a obrigação legal de recolhê-lo.",
+     "certo": "A incidência econômica depende das elasticidades: arca com mais o lado mais inelástico.",
+     "fonte": "Questões do app sobre a incidência tributária"
+    },
+    {
+     "errado": "A demanda por combustíveis é mais elástica no curto prazo do que no longo prazo.",
+     "certo": "É o contrário: com o tempo, o consumidor encontra substitutos, e a demanda fica mais elástica.",
+     "fonte": "Questões do app sobre o prazo e a elasticidade"
+    }
+   ],
    "relacionados": [
     "oferta-e-demanda",
     "monopolio"
@@ -366,10 +746,72 @@
     "substitutos perfeitos",
     "elasticidade de substituicao"
    ],
-   "resumo": "A <strong>função de produção</strong> relaciona a quantidade máxima de produto que se obtém com cada combinação de fatores, dada a tecnologia. No <strong>curto prazo</strong>, ao menos um fator é fixo (em geral o capital); no <strong>longo prazo</strong>, todos os fatores são variáveis. Com o capital fixo, o produto total depende do trabalho. O produto médio do trabalho é o produto total dividido pelo número de trabalhadores; o produto marginal é o acréscimo de produto gerado por um trabalhador adicional. Pela <strong>lei dos rendimentos marginais decrescentes</strong>, ao se acrescentarem unidades de um fator variável a um fator fixo, a partir de certo ponto o produto marginal do fator variável diminui. A lei é de curto prazo: pressupõe um fator fixo. O produto marginal corta o produto médio no ponto máximo do produto médio: enquanto o marginal está acima do médio, o médio sobe; quando está abaixo, o médio cai. Quando o produto marginal é zero, o produto total está no máximo. No <strong>longo prazo</strong>, a questão é a escala: se todos os fatores dobram e o produto mais que dobra, há <strong>rendimentos crescentes de escala</strong>; se dobra exatamente, constantes; se menos que dobra, decrescentes. Na função Cobb-Douglas Q = A·K^a·L^b, a soma a + b maior que 1 indica rendimentos crescentes; igual a 1, constantes; menor que 1, decrescentes. A combinação de menor custo está onde a isoquanta tangencia a isocusto: a taxa marginal de substituição técnica, razão entre os produtos marginais, iguala a razão entre os preços dos fatores.",
+   "para_entender": [
+    {
+     "texto": "<strong>Fatores de produção:</strong> terra, trabalho, capital e capacidade empresarial, cada um com a sua remuneração.",
+     "tema": "fatores-de-producao-e-remuneracao"
+    }
+   ],
+   "resumo": "A <strong>função de produção</strong> diz quanto produto, no máximo, se obtém com cada combinação de fatores, dada a tecnologia. O que separa os prazos é a flexibilidade, e não o calendário: no <strong>curto prazo</strong>, ao menos um fator está fixo, em geral o capital; no <strong>longo prazo</strong>, todos podem variar. Com o capital fixo, o produto total passa a depender só do trabalho, e dele saem duas medidas. O <strong>produto médio</strong> é o produto total dividido pelo número de trabalhadores; o <strong>produto marginal</strong> é o que um trabalhador a mais acrescenta. A <strong>lei dos rendimentos marginais decrescentes</strong> diz que, somando unidades do fator variável ao fator fixo, a partir de certo ponto o acréscimo trazido por cada nova unidade diminui. No longo prazo, a pergunta passa a ser a <strong>escala</strong>: o que acontece com o produto quando todos os fatores crescem na mesma proporção. Na <strong>Cobb-Douglas</strong>, Q = A·K^a·L^b, a resposta vem dos expoentes. O esquema separa o que é de cada prazo. Para escolher a combinação de menor custo, a empresa usa a <strong>isoquanta</strong>, curva das combinações de fatores que dão a mesma produção, e a <strong>isocusto</strong>, reta das combinações que custam o mesmo. O ótimo está na tangência: a <strong>taxa marginal de substituição técnica</strong> (TMST), razão entre os produtos marginais, iguala a razão entre os preços dos fatores.",
    "esquema": {
     "rotulo": "curto prazo e longo prazo na produção",
     "html": "<table><thead><tr><th>Conceito</th><th>Prazo</th><th>O que diz</th></tr></thead><tbody><tr><td><strong>Rendimentos marginais decrescentes</strong></td><td>curto prazo (há fator fixo)</td><td>o produto marginal do fator variável acaba caindo</td></tr><tr><td><strong>Produto marginal igual ao produto médio</strong></td><td>curto prazo</td><td>ocorre no máximo do produto médio</td></tr><tr><td><strong>Produto marginal igual a zero</strong></td><td>curto prazo</td><td>produto total no máximo</td></tr><tr><td><strong>Rendimentos crescentes de escala</strong></td><td>longo prazo (todos variáveis)</td><td>dobrar os fatores mais que dobra o produto</td></tr><tr><td><strong>Rendimentos constantes de escala</strong></td><td>longo prazo</td><td>dobrar os fatores dobra o produto</td></tr><tr><td><strong>Rendimentos decrescentes de escala</strong></td><td>longo prazo</td><td>dobrar os fatores menos que dobra o produto</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Estágios da produção",
+      "o_que_e": "No estágio I, o produto médio do trabalho cresce até o máximo; no II, o médio cai, mas o marginal ainda é positivo; no III, o marginal é negativo.",
+      "atencao": "A empresa racional produz no estágio II.",
+      "grupo": "Curto prazo"
+     },
+     {
+      "nome": "Exemplo de médio e marginal",
+      "o_que_e": "Se 3 trabalhadores produzem 30 unidades e 4 produzem 36, o produto marginal do quarto é 6, e o médio cai de 10 para 9.",
+      "atencao": "O médio cai justamente porque o marginal ficou abaixo dele.",
+      "grupo": "Curto prazo"
+     },
+     {
+      "nome": "Cobb-Douglas com números",
+      "o_que_e": "Em Q = K^0,5·L^0,5, a soma dos expoentes é 1: rendimentos constantes. Em Q = K^0,6·L^0,6, a soma é 1,2: rendimentos crescentes.",
+      "atencao": "Mesmo com rendimentos crescentes de escala, o produto marginal de cada fator isolado pode ser decrescente.",
+      "grupo": "Escala"
+     },
+     {
+      "nome": "Regra de menor custo",
+      "o_que_e": "O produto marginal por real gasto é o mesmo em todos os fatores: o do trabalho dividido pelo salário igual ao do capital dividido pelo custo do capital.",
+      "grupo": "Escolha dos fatores"
+     },
+     {
+      "nome": "Leontief",
+      "o_que_e": "Em Q = min(aK, bL), os fatores são complementares perfeitos e só produzem juntos, numa proporção fixa; as isoquantas têm forma de L, com o vértice no raio em que aK = bL.",
+      "atencao": "Em Q = min(2K, L), produzir 10 unidades exige K = 5 e L = 10; mais trabalho sem mais capital não aumenta a produção, e o fator em excesso tem produto marginal zero.",
+      "grupo": "Escolha dos fatores"
+     },
+     {
+      "nome": "Leontief sem substituição",
+      "o_que_e": "Qualquer que seja o preço dos fatores, a combinação escolhida é o vértice: a elasticidade de substituição é zero, e o preço só muda o custo.",
+      "atencao": "Em Q = min(2K, L), com salário de 10 e capital a 20, cada unidade exige 1 de trabalho e 0,5 de capital e custa 10 + 10 = 20; 10 unidades custam 200. A função tem rendimentos constantes de escala.",
+      "grupo": "Escolha dos fatores"
+     },
+     {
+      "nome": "Substitutos perfeitos",
+      "o_que_e": "Em Q = aK + bL, as isoquantas são retas e a TMST é constante, igual a b/a; a empresa usa só o fator que rende mais produto por real gasto (solução de canto).",
+      "atencao": "Se a razão entre os preços for igual à TMST, qualquer ponto da isoquanta custa o mesmo.",
+      "grupo": "Escolha dos fatores"
+     },
+     {
+      "nome": "Cobb-Douglas no meio",
+      "o_que_e": "Fica entre os dois extremos: isoquantas convexas, TMST decrescente à medida que o trabalho substitui o capital e elasticidade de substituição igual a 1.",
+      "grupo": "Escolha dos fatores"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -391,8 +833,33 @@
     "gabarito": "E",
     "explicacao": "O item descreveu rendimentos decrescentes de escala, fenômeno de longo prazo. A lei dos rendimentos marginais decrescentes é de curto prazo: aumenta-se um só fator, mantido outro fixo, e o produto marginal do fator variável acaba diminuindo."
    },
-   "aprofundamento": "<p><strong>Estágios da produção.</strong> No estágio I, o produto médio do trabalho cresce, até o seu máximo; no estágio II, o produto médio cai, mas o marginal ainda é positivo; no estágio III, o produto marginal é negativo. A empresa racional produz no estágio II.</p><p><strong>Exemplo de Cobb-Douglas.</strong> Em Q = K^0,5·L^0,5, a soma dos expoentes é 1: rendimentos constantes de escala. Em Q = K^0,6·L^0,6, a soma é 1,2: rendimentos crescentes. Mesmo com rendimentos crescentes de escala, cada fator isolado pode ter produto marginal decrescente.</p><p><strong>Exemplo de produto médio e marginal.</strong> Se 3 trabalhadores produzem 30 unidades e 4 produzem 36, o produto marginal do quarto trabalhador é 6, e o produto médio cai de 10 para 9, justamente porque o marginal ficou abaixo do médio.</p><p><strong>Isoquanta.</strong> É o conjunto das combinações de fatores que geram a mesma quantidade de produto. A sua inclinação, em módulo, é a taxa marginal de substituição técnica, igual à razão entre o produto marginal do trabalho e o produto marginal do capital.</p><p><strong>Escolha de menor custo.</strong> A empresa minimiza o custo quando o produto marginal por real gasto é igual em todos os fatores: produto marginal do trabalho dividido pelo salário igual ao produto marginal do capital dividido pelo custo do capital.</p><p><strong>Proporções fixas (Leontief).</strong> Na função de Leontief, Q = min(aK, bL), os fatores são complementares perfeitos e só produzem juntos, numa proporção fixa. Em Q = min(2K, L), produzir 10 unidades exige K = 5 e L = 10; mais trabalho sem mais capital não aumenta a produção, e o produto marginal do fator em excesso é zero. As isoquantas têm forma de L, com o vértice sobre o raio em que aK = bL. Não há substituição entre fatores, qualquer que seja o preço: a elasticidade de substituição é zero, e a combinação escolhida é sempre o vértice; o preço dos fatores só muda o custo. Exemplo: em Q = min(2K, L), com salário de 10 e custo do capital de 20, cada unidade de produto exige 1 de trabalho e 0,5 de capital e custa 10 + 10 = 20; produzir 10 unidades custa 200. A função min(aK, bL) tem rendimentos constantes de escala: dobrando K e L, a produção dobra.</p><p><strong>Substitutos perfeitos e o caso intermediário.</strong> Na função linear Q = aK + bL, os fatores são substitutos perfeitos: as isoquantas são retas, e a taxa marginal de substituição técnica é constante, igual à razão entre os produtos marginais (b/a, para o trabalho em relação ao capital). A empresa usa só o fator que rende mais produto por real gasto (solução de canto), salvo quando a razão entre os preços é igual a essa taxa, caso em que qualquer combinação da isoquanta tem o mesmo custo. A Cobb-Douglas fica entre os dois extremos: isoquantas convexas, com taxa marginal de substituição técnica decrescente à medida que o trabalho substitui o capital, e elasticidade de substituição igual a 1.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O produto total atinge o máximo quando o produto médio do trabalho é igual a zero.",
+     "certo": "O máximo ocorre quando o produto marginal é zero; o médio continua positivo.",
+     "fonte": "Questões do app sobre o produto total"
+    },
+    {
+     "errado": "Se 3 trabalhadores produzem 30 unidades e 4 produzem 36, o produto marginal do quarto é 9.",
+     "certo": "O marginal é o acréscimo, 36 − 30 = 6; 9 é o novo produto médio.",
+     "fonte": "Questões do app sobre o produto marginal"
+    },
+    {
+     "errado": "Na combinação de menor custo, a TMST é igual à razão entre os produtos médios dos fatores.",
+     "certo": "A TMST é a razão entre os produtos marginais, e no ótimo ela iguala a razão entre os preços dos fatores.",
+     "fonte": "Questões do app sobre a escolha de menor custo"
+    },
+    {
+     "errado": "Na função de Leontief, o salário mais alto leva a empresa a trocar trabalho por capital, mantida a produção.",
+     "certo": "Nas proporções fixas não há substituição: a empresa fica no vértice, e o salário só muda o custo.",
+     "fonte": "Questões do app sobre a função de Leontief"
+    },
+    {
+     "errado": "Em Q = aK + bL, as isoquantas são convexas e a TMST é decrescente.",
+     "certo": "Nos substitutos perfeitos as isoquantas são retas e a TMST é constante; a convexidade é da Cobb-Douglas.",
+     "fonte": "Questões do app sobre os substitutos perfeitos"
+    }
+   ],
    "relacionados": [
     "custos-de-producao",
     "fatores-de-producao-e-remuneracao"
@@ -434,10 +901,68 @@
     "economias de escopo",
     "envoltoria"
    ],
-   "resumo": "No curto prazo, o <strong>custo total</strong> (CT) é a soma do <strong>custo fixo</strong> (CF), que não varia com a quantidade produzida e existe mesmo com produção zero, e do <strong>custo variável</strong> (CV), que cresce com a produção. O custo fixo médio (CF/Q) cai continuamente à medida que a produção aumenta. O custo variável médio (CV/Q) e o custo médio total (CT/Q) têm formato de U. O <strong>custo marginal</strong> é o acréscimo do custo total por unidade adicional produzida; como o custo fixo não muda, ele é também o acréscimo do custo variável. O custo fixo, portanto, não afeta o custo marginal. A curva de custo marginal corta as curvas de custo variável médio e de custo médio total nos seus pontos mínimos. O formato em U de curto prazo vem da lei dos rendimentos decrescentes: quando o produto marginal do trabalho cai, o custo marginal sobe, pois o custo marginal é o salário dividido pelo produto marginal do trabalho. O <strong>custo econômico</strong> inclui os custos explícitos e os implícitos (custo de oportunidade dos recursos próprios); por isso o lucro econômico, em regra, é menor que o contábil. Lucro econômico zero é o <strong>lucro normal</strong>. No <strong>longo prazo</strong>, todos os custos são variáveis, e a curva de custo médio de longo prazo é a envoltória das curvas de curto prazo. Onde ela cai, há <strong>economias de escala</strong>; onde sobe, deseconomias de escala.",
+   "para_entender": [
+    {
+     "texto": "<strong>Rendimentos marginais decrescentes:</strong> no curto prazo, o acréscimo de produto de cada unidade nova do fator variável acaba caindo.",
+     "tema": "teoria-da-producao"
+    },
+    {
+     "texto": "<strong>Custo de oportunidade:</strong> valor da melhor alternativa de que se abre mão.",
+     "tema": "escassez-escolha-e-fronteira-de-possibilidades"
+    }
+   ],
+   "resumo": "No curto prazo, o <strong>custo total</strong> (CT) tem duas partes. O <strong>custo fixo</strong> (CF) não depende da quantidade e existe mesmo sem produção, como o aluguel; o <strong>custo variável</strong> (CV) cresce com a produção, como insumos e horas de trabalho. Dividindo cada um pela quantidade, obtêm-se as médias: custo fixo médio (CF/Q), custo variável médio (CV/Q) e custo médio total (CT/Q). O <strong>custo marginal</strong> (CMg) é o acréscimo do custo total por unidade a mais; como o fixo não se altera, é também o acréscimo do variável. O formato das curvas vem da produção: o custo marginal é o salário dividido pelo produto marginal do trabalho, e quando os rendimentos decrescentes derrubam esse produto, o custo marginal sobe. O esquema mostra cada curva e onde elas se cruzam. Para o economista, o custo inclui, além do <strong>custo explícito</strong> (o que se paga a terceiros), o <strong>custo implícito</strong>, que é o custo de oportunidade dos recursos do próprio dono. Por isso o lucro econômico costuma ficar abaixo do contábil, e o lucro econômico zero recebe o nome de <strong>lucro normal</strong>. No longo prazo, nenhum custo é fixo; onde o custo médio de longo prazo cai, há <strong>economias de escala</strong>, e onde sobe, <strong>deseconomias de escala</strong>.",
    "esquema": {
     "rotulo": "as curvas de custo e onde se cruzam",
     "html": "<table><thead><tr><th>Curva</th><th>Comportamento</th><th>Ponto de prova</th></tr></thead><tbody><tr><td><strong>Custo fixo médio</strong></td><td>cai sempre com o aumento de Q</td><td>não tem mínimo</td></tr><tr><td><strong>Custo variável médio</strong></td><td>em U</td><td>o custo marginal o corta no mínimo</td></tr><tr><td><strong>Custo médio total</strong></td><td>em U, acima do variável médio</td><td>o custo marginal o corta no mínimo; a distância para o variável médio é o fixo médio</td></tr><tr><td><strong>Custo marginal</strong></td><td>cai e depois sobe</td><td>não depende do custo fixo</td></tr><tr><td><strong>Custo médio de longo prazo</strong></td><td>envoltória das curvas de curto prazo</td><td>cai com economias de escala e sobe com deseconomias</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "CT = 100 + 10Q + Q²",
+      "o_que_e": "Custo fixo de 100, custo variável de 10Q + Q² e custo marginal de 10 + 2Q.",
+      "grupo": "Exemplo numérico"
+     },
+     {
+      "nome": "Em Q = 10",
+      "o_que_e": "Custo total de 300, custo médio de 30, custo variável médio de 20, custo fixo médio de 10 e custo marginal de 30.",
+      "atencao": "Como o marginal iguala o médio, Q = 10 é o ponto de custo médio mínimo; o variável médio ali é 20, e não 30.",
+      "grupo": "Exemplo numérico"
+     },
+     {
+      "nome": "Custo implícito do dono",
+      "o_que_e": "O salário que o dono deixa de ganhar em outra empresa para trabalhar no próprio negócio entra como custo.",
+      "atencao": "Receita que só cobre os custos explícitos e implícitos dá lucro econômico zero com lucro contábil positivo.",
+      "grupo": "Custo econômico"
+     },
+     {
+      "nome": "Custo irrecuperável",
+      "o_que_e": "Gasto já feito que não volta (custo afundado) é irrelevante para a decisão futura; já o custo de oportunidade de um recurso próprio é relevante, porque a alternativa ainda existe.",
+      "grupo": "Custo econômico"
+     },
+     {
+      "nome": "Escala e rendimentos",
+      "o_que_e": "Com preços dos fatores constantes, rendimentos crescentes de escala geram economias de escala, e rendimentos decrescentes geram deseconomias.",
+      "grupo": "Longo prazo"
+     },
+     {
+      "nome": "Escala mínima eficiente",
+      "o_que_e": "Menor produção em que o custo médio de longo prazo atinge o mínimo.",
+      "grupo": "Longo prazo"
+     },
+     {
+      "nome": "Economias de escopo",
+      "o_que_e": "Produzir dois bens juntos custa menos que produzi-los em empresas separadas, como a empresa aérea que leva passageiros e carga no mesmo voo.",
+      "atencao": "Escala diz respeito ao volume de um mesmo produto; escopo, à variedade.",
+      "grupo": "Longo prazo"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -459,8 +984,23 @@
     "gabarito": "E",
     "explicacao": "O custo fixo não varia com a quantidade, por isso não entra no custo marginal. O aumento do custo fixo eleva o custo médio total e o custo fixo médio, mas o custo marginal fica igual."
    },
-   "aprofundamento": "<p><strong>Exemplo numérico.</strong> Com CT = 100 + 10Q + Q², o custo fixo é 100, o custo variável é 10Q + Q² e o custo marginal é 10 + 2Q. Em Q = 10, o custo total é 300, o custo médio é 30, o custo variável médio é 20, o custo fixo médio é 10 e o custo marginal é 30. Como o custo marginal iguala o custo médio em Q = 10, esse é o ponto de custo médio mínimo.</p><p><strong>Custo econômico e lucro normal.</strong> O dono que trabalha no próprio negócio e deixa de ganhar salário em outra empresa tem esse salário renunciado como custo implícito. Se a receita apenas cobre os custos explícitos e implícitos, o lucro econômico é zero, embora o lucro contábil seja positivo: é o lucro normal.</p><p><strong>Economias de escala e rendimentos de escala.</strong> Com preços dos fatores constantes, rendimentos crescentes de escala geram economias de escala (custo médio de longo prazo decrescente), e rendimentos decrescentes de escala geram deseconomias. A escala mínima eficiente é a menor produção em que o custo médio de longo prazo atinge o mínimo.</p><p><strong>Economias de escopo.</strong> Existem quando produzir dois bens juntos custa menos do que produzi-los em empresas separadas, como a empresa aérea que transporta passageiros e carga no mesmo voo. Não se confundem com economias de escala, que dizem respeito ao volume de um mesmo produto.</p><p><strong>Custo irrecuperável.</strong> Gasto já feito e que não pode ser recuperado (custo afundado) é irrelevante para a decisão futura. Já o custo de oportunidade de usar um recurso próprio é relevante, porque representa alternativa ainda disponível.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Com CT = 100 + 10Q + Q², o custo variável médio de 10 unidades é 30.",
+     "certo": "É 20: o custo variável é 200, e 200 ÷ 10 = 20; 30 é o custo médio total.",
+     "fonte": "Questões do app sobre o custo variável médio"
+    },
+    {
+     "errado": "Uma empresa com lucro econômico zero tem, necessariamente, lucro contábil também zero.",
+     "certo": "O custo econômico inclui os implícitos; com lucro econômico zero, o contábil é positivo (lucro normal).",
+     "fonte": "Questões do app sobre o lucro econômico"
+    },
+    {
+     "errado": "Há economias de escala quando produzir dois bens juntos custa menos que produzi-los em empresas distintas.",
+     "certo": "Isso é economia de escopo; economia de escala é custo médio menor com volume maior do mesmo produto.",
+     "fonte": "Questões do app sobre escala e escopo"
+    }
+   ],
    "relacionados": [
     "teoria-da-producao",
     "concorrencia-perfeita"
@@ -498,10 +1038,67 @@
     "eficiencia alocativa",
     "eficiencia produtiva"
    ],
-   "resumo": "A <strong>concorrência perfeita</strong> supõe muitos compradores e vendedores, nenhum capaz de influir no preço (atomicidade); produto homogêneo; livre entrada e saída de empresas; informação perfeita; e mobilidade dos fatores. Cada empresa é <strong>tomadora de preço</strong>: a demanda que ela enfrenta é horizontal (perfeitamente elástica) ao preço de mercado, e por isso o preço é igual à receita média e à receita marginal. A empresa maximiza o lucro produzindo a quantidade em que a <strong>receita marginal iguala o custo marginal</strong>, ou seja, em que o preço iguala o custo marginal, no trecho crescente deste. No <strong>curto prazo</strong>, se o preço supera o custo médio total, há lucro extraordinário; se fica entre o custo variável médio e o custo médio total, a empresa tem prejuízo, mas continua produzindo, porque a receita cobre os custos variáveis e parte dos fixos, e o prejuízo é menor que o custo fixo que ela teria de pagar se parasse; se o preço fica abaixo do mínimo do custo variável médio, a empresa fecha (<strong>ponto de fechamento</strong>). Por isso a curva de oferta de curto prazo da empresa é o trecho da curva de custo marginal acima do mínimo do custo variável médio. No <strong>longo prazo</strong>, a livre entrada atrai novas empresas enquanto houver lucro extraordinário, e a saída ocorre enquanto houver prejuízo. O equilíbrio se dá com preço igual ao custo marginal e ao mínimo do custo médio: lucro econômico zero, isto é, lucro normal. Há eficiência alocativa (preço igual ao custo marginal) e produtiva (produção ao menor custo médio).",
+   "para_entender": [
+    {
+     "texto": "<strong>Custo marginal e custo variável médio:</strong> o acréscimo de custo da unidade adicional e o custo variável por unidade produzida.",
+     "tema": "custos-de-producao"
+    },
+    {
+     "texto": "<strong>Demanda perfeitamente elástica:</strong> curva horizontal, em que qualquer alta de preço zera a quantidade vendida.",
+     "tema": "elasticidades"
+    }
+   ],
+   "resumo": "O modelo de <strong>concorrência perfeita</strong> tem cinco hipóteses: muitos compradores e vendedores, nenhum grande o bastante para mexer no preço (<strong>atomicidade</strong>); produto homogêneo, igual em qualquer vendedor; livre entrada e saída; informação perfeita; e mobilidade dos fatores. Daí que cada empresa é <strong>tomadora de preço</strong>: enfrenta uma demanda horizontal, perfeitamente elástica, no preço de mercado. Cada unidade vendida rende o mesmo preço, que é ao mesmo tempo a <strong>receita média</strong> (receita por unidade) e a <strong>receita marginal</strong> (receita da unidade adicional). Como toda empresa, ela maximiza o lucro onde a receita marginal iguala o custo marginal, no trecho em que este sobe. No curto prazo, a comparação do preço com os custos médios diz se há lucro, prejuízo tolerável ou fechamento, como mostra o esquema. O <strong>ponto de fechamento</strong> é o mínimo do custo variável médio, e por isso a <strong>curva de oferta de curto prazo</strong> da empresa é o pedaço da curva de custo marginal acima desse mínimo. No longo prazo, o lucro extraordinário atrai entrantes e o prejuízo expulsa empresas, até que o preço se iguale ao custo marginal e ao menor custo médio possível. O resultado tem <strong>eficiência alocativa</strong>, porque o preço iguala o custo marginal, e <strong>eficiência produtiva</strong>, porque se produz ao menor custo médio.",
    "esquema": {
     "rotulo": "decisão da empresa competitiva no curto prazo",
     "html": "<table><thead><tr><th>Preço de mercado</th><th>Resultado</th><th>Decisão</th></tr></thead><tbody><tr><td><strong>Acima do custo médio total</strong></td><td>lucro extraordinário</td><td>produz onde P = CMg; atrai entrantes no longo prazo</td></tr><tr><td><strong>Igual ao mínimo do custo médio total</strong></td><td>lucro econômico zero (ponto de nivelamento)</td><td>produz; é o equilíbrio de longo prazo</td></tr><tr><td><strong>Entre o mínimo do custo variável médio e o custo médio total</strong></td><td>prejuízo menor que o custo fixo</td><td>continua produzindo no curto prazo</td></tr><tr><td><strong>Abaixo do mínimo do custo variável médio</strong></td><td>prejuízo maior que o custo fixo se produzir</td><td>fecha (ponto de fechamento)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Quantidade ótima a 40",
+      "o_que_e": "O custo marginal é 10 + 2Q; com P = 40, Q = 15. Receita de 600, custo de 100 + 150 + 225 = 475 e lucro de 125.",
+      "grupo": "Contas com CT = 100 + 10Q + Q²"
+     },
+     {
+      "nome": "Preço de longo prazo",
+      "o_que_e": "O mínimo do custo médio é 30, em Q = 10; com custos constantes, a entrada de concorrentes leva o preço a 30 e o lucro econômico a zero.",
+      "atencao": "O preço de 40 dá lucro extraordinário só no curto prazo.",
+      "grupo": "Contas com CT = 100 + 10Q + Q²"
+     },
+     {
+      "nome": "Fechamento no exemplo",
+      "o_que_e": "O custo variável médio é 10 + Q, que tende a 10 quando a produção tende a zero; a preços abaixo de 10, a empresa para e arca só com o custo fixo de 100.",
+      "grupo": "Contas com CT = 100 + 10Q + Q²"
+     },
+     {
+      "nome": "Oferta de mercado",
+      "o_que_e": "No curto prazo, é a soma horizontal das ofertas das empresas; no longo prazo, com custos constantes, é horizontal ao preço igual ao mínimo do custo médio.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "A empresa não escolhe preço",
+      "o_que_e": "Acima do preço de mercado, perde todos os clientes, porque o produto é homogêneo e a informação é perfeita; abaixo, não precisa, porque vende o quanto quiser.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Excedente máximo",
+      "o_que_e": "Sem externalidades, o equilíbrio competitivo maximiza a soma dos excedentes do consumidor e do produtor; por isso é a referência de eficiência para comparar com o monopólio.",
+      "grupo": "Mercado"
+     },
+     {
+      "nome": "Concorrência monopolística",
+      "o_que_e": "Muitas empresas e livre entrada, mas produto diferenciado (marca, localização, qualidade) e demanda negativamente inclinada, com algum poder sobre o preço.",
+      "atencao": "No longo prazo, a entrada também elimina o lucro extraordinário, mas o preço fica acima do custo marginal.",
+      "grupo": "Mercado"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -521,10 +1118,20 @@
    "pegadinha": {
     "afirmacao": "No curto prazo, a empresa em concorrência perfeita deve encerrar imediatamente a produção sempre que o preço de mercado for inferior ao seu custo médio total.",
     "gabarito": "E",
-    "explicacao": "O critério de curto prazo é o custo variável médio. Se o preço fica entre o custo variável médio e o custo médio total, a empresa tem prejuízo, mas continua produzindo, porque perde menos do que o custo fixo que pagaria parada. Ela fecha só quando o preço fica abaixo do mínimo do custo variável médio."
+    "explicacao": "Quem decide o fechamento no curto prazo é o custo variável médio. Com preço abaixo do custo médio total, mas acima do variável médio, a receita paga os custos variáveis e parte dos fixos: produzir dá prejuízo menor do que parar e arcar com todo o custo fixo. A empresa só fecha abaixo do mínimo do custo variável médio."
    },
-   "aprofundamento": "<p><strong>Exemplo de quantidade ótima.</strong> Com CT = 100 + 10Q + Q², o custo marginal é 10 + 2Q. Ao preço de 40, a empresa produz onde 40 = 10 + 2Q, isto é, Q = 15. A receita é 600, o custo total é 100 + 150 + 225 = 475, e o lucro é 125. Como o mínimo do custo médio é 30, no longo prazo a entrada de concorrentes leva o preço a 30.</p><p><strong>Ponto de fechamento no exemplo.</strong> Com CT = 100 + 10Q + Q², o custo variável médio é 10 + Q, cujo menor valor tende a 10 quando a produção tende a zero. A preços abaixo de 10, a empresa não cobre nem o custo variável e prefere parar, arcando só com o custo fixo de 100.</p><p><strong>Oferta de mercado.</strong> A curva de oferta de curto prazo do mercado é a soma horizontal das curvas de oferta das empresas. No longo prazo, com custos constantes, a oferta do mercado é horizontal ao preço igual ao mínimo do custo médio.</p><p><strong>A empresa não escolhe preço.</strong> Se cobrar acima do preço de mercado, a empresa competitiva perde todos os clientes, porque o produto é homogêneo e a informação é perfeita; cobrar abaixo é desnecessário, pois ela vende o quanto quiser ao preço de mercado.</p><p><strong>Concorrência monopolística não é concorrência perfeita.</strong> Na concorrência monopolística há muitas empresas e livre entrada, mas o produto é diferenciado (marca, localização, qualidade), e cada empresa tem algum poder sobre o próprio preço, com demanda negativamente inclinada. No longo prazo, a entrada também elimina o lucro extraordinário, mas o preço fica acima do custo marginal.</p><p><strong>Excedente máximo.</strong> No equilíbrio competitivo, sem externalidades, a soma dos excedentes do consumidor e do produtor é a maior possível. Por isso a concorrência perfeita é a referência de eficiência para comparar com o monopólio.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Em mercado competitivo de custos constantes, com CT = 100 + 10Q + Q² em todas as empresas, o preço de longo prazo é 40, com lucro econômico positivo.",
+     "certo": "A livre entrada leva o preço ao mínimo do custo médio, 30, com lucro econômico zero.",
+     "fonte": "Questões do app sobre o equilíbrio de longo prazo"
+    },
+    {
+     "errado": "A diferenciação do produto está entre as hipóteses da concorrência perfeita e permite à empresa fixar o próprio preço.",
+     "certo": "O modelo supõe produto homogêneo e empresa tomadora de preço; diferenciação é da concorrência monopolística.",
+     "fonte": "Questões do app sobre as hipóteses do modelo"
+    }
+   ],
    "relacionados": [
     "custos-de-producao",
     "monopolio"
@@ -564,10 +1171,79 @@
     "tarifa",
     "trecho elastico"
    ],
-   "resumo": "No <strong>monopólio</strong>, há um único vendedor de um produto sem substitutos próximos, protegido por <strong>barreiras à entrada</strong>: legais (patentes, concessões públicas), de custo (economias de escala), de controle de um insumo essencial ou estratégicas. A demanda da empresa é a do mercado, negativamente inclinada; para vender mais, o monopolista tem de baixar o preço de todas as unidades, e por isso a <strong>receita marginal é menor que o preço</strong>. Com demanda linear P = a − bQ, a receita marginal é a − 2bQ: tem o mesmo intercepto e o dobro da inclinação. O monopolista maximiza o lucro onde a receita marginal iguala o custo marginal e cobra o preço que a demanda aceita para essa quantidade. Resultado: preço maior que o custo marginal, quantidade menor que a de concorrência e <strong>peso morto</strong>, a perda de excedente de trocas que valeriam a pena e não ocorrem. Como a receita marginal só é positiva onde a demanda é elástica, o monopolista nunca opera no trecho inelástico da demanda. O monopolista não tem curva de oferta: não há relação única entre preço e quantidade, pois ela depende do formato da demanda. O poder de mercado se mede pelo <strong>índice de Lerner</strong>, (P − CMg)/P, igual ao inverso do módulo da elasticidade-preço da demanda no ponto escolhido. As barreiras permitem que o lucro extraordinário persista no longo prazo. O <strong>monopólio natural</strong> ocorre quando o custo médio cai em toda a faixa relevante de produção, de modo que uma só empresa produz mais barato que várias.",
+   "para_entender": [
+    {
+     "texto": "<strong>Concorrência perfeita:</strong> referência de eficiência, com preço igual ao custo marginal e lucro normal no longo prazo.",
+     "tema": "concorrencia-perfeita"
+    },
+    {
+     "texto": "<strong>Elasticidade-preço da demanda:</strong> variação percentual da quantidade dividida pela variação percentual do preço.",
+     "tema": "elasticidades"
+    }
+   ],
+   "resumo": "No <strong>monopólio</strong>, um único vendedor oferece um produto sem substitutos próximos e se protege com <strong>barreiras à entrada</strong>: legais, como patentes e concessões públicas; de custo, como as economias de escala; o controle de um insumo essencial; ou estratégias para afastar concorrentes. Como a empresa é o mercado inteiro, ela enfrenta a demanda de todo o mercado e, para vender uma unidade a mais, precisa baixar o preço de todas. Por isso a receita marginal fica abaixo do preço; na demanda linear, ela tem o mesmo intercepto e o dobro da inclinação. A regra de lucro máximo é a de qualquer empresa, receita marginal igual a custo marginal, e o preço é o que a demanda aceita pagar por essa quantidade. Em comparação com a concorrência, sai preço mais alto, quantidade menor e <strong>peso morto</strong>, o excedente das trocas que valeriam a pena e deixam de ocorrer. O monopolista não tem curva de oferta, porque a quantidade escolhida a cada preço depende do formato da demanda. O poder de mercado se mede pelo <strong>índice de Lerner</strong>, (P − CMg)/P, que é o inverso da elasticidade-preço da demanda, em módulo, no ponto escolhido. As barreiras deixam o lucro extraordinário durar no longo prazo. O <strong>monopólio natural</strong> aparece quando o custo médio cai em toda a faixa relevante de produção: uma só empresa produz mais barato que várias. O esquema compara monopólio e concorrência perfeita.",
    "esquema": {
     "rotulo": "concorrência perfeita e monopólio",
     "html": "<table><thead><tr><th>Aspecto</th><th>Concorrência perfeita</th><th>Monopólio</th></tr></thead><tbody><tr><td><strong>Demanda da empresa</strong></td><td>horizontal ao preço de mercado</td><td>a demanda do mercado, negativamente inclinada</td></tr><tr><td><strong>Receita marginal</strong></td><td>igual ao preço</td><td>menor que o preço</td></tr><tr><td><strong>Regra de lucro máximo</strong></td><td>P = CMg</td><td>RMg = CMg, com P maior que CMg</td></tr><tr><td><strong>Curva de oferta</strong></td><td>trecho do CMg acima do mínimo do CVMe</td><td>não existe</td></tr><tr><td><strong>Lucro de longo prazo</strong></td><td>zero (lucro normal)</td><td>pode haver lucro extraordinário</td></tr><tr><td><strong>Eficiência</strong></td><td>alocativa e produtiva</td><td>peso morto; preço acima do custo marginal</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Ótimo do monopolista",
+      "o_que_e": "A receita marginal é 100 − 2Q; igualando a 20, Q = 40 e P = 60.",
+      "atencao": "Em concorrência, P = 20 e Q = 80.",
+      "grupo": "Exemplo com P = 100 − Q e CMg = 20"
+     },
+     {
+      "nome": "Peso morto",
+      "o_que_e": "É o triângulo 0,5 × (60 − 20) × (80 − 40) = 800.",
+      "atencao": "O valor de 1.600 esquece o fator 0,5 da área do triângulo.",
+      "grupo": "Exemplo com P = 100 − Q e CMg = 20"
+     },
+     {
+      "nome": "Lerner no exemplo",
+      "o_que_e": "(60 − 20)/60 = 2/3, o inverso da elasticidade no ponto, que é 1,5 em módulo.",
+      "atencao": "Quanto mais inelástica a demanda no ponto escolhido, maior a margem do preço sobre o custo marginal.",
+      "grupo": "Exemplo com P = 100 − Q e CMg = 20"
+     },
+     {
+      "nome": "Primeiro grau",
+      "o_que_e": "Cada consumidor paga o seu preço de reserva; o monopolista fica com todo o excedente e produz a quantidade de concorrência.",
+      "grupo": "Discriminação de preços"
+     },
+     {
+      "nome": "Segundo grau",
+      "o_que_e": "O preço varia com a quantidade comprada, como nos descontos por volume.",
+      "grupo": "Discriminação de preços"
+     },
+     {
+      "nome": "Terceiro grau",
+      "o_que_e": "A empresa separa grupos de consumidores e cobra mais do grupo de demanda mais inelástica, como na meia-entrada ou nas tarifas por horário.",
+      "grupo": "Discriminação de preços"
+     },
+     {
+      "nome": "Condições",
+      "o_que_e": "Poder de mercado, meio de separar os grupos e impedimento à revenda entre eles.",
+      "grupo": "Discriminação de preços"
+     },
+     {
+      "nome": "Tarifa pelo custo marginal",
+      "o_que_e": "No monopólio natural, o custo marginal fica abaixo do custo médio decrescente, e a tarifa igual a ele dá prejuízo; seria preciso subsídio.",
+      "atencao": "A alternativa usual é a tarifa pelo custo médio, que cobre os custos com lucro normal, ao preço de algum peso morto.",
+      "grupo": "Regulação e lucro"
+     },
+     {
+      "nome": "Monopólio não garante lucro",
+      "o_que_e": "Com demanda baixa em relação aos custos, o monopolista pode ter prejuízo; as barreiras só impedem que a entrada elimine o lucro extraordinário que houver.",
+      "grupo": "Regulação e lucro"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -589,8 +1265,23 @@
     "gabarito": "E",
     "explicacao": "O monopolista iguala receita marginal e custo marginal. Como a receita marginal é menor que o preço, o preço cobrado fica acima do custo marginal, o que reduz a quantidade e gera peso morto."
    },
-   "aprofundamento": "<p><strong>Exemplo numérico.</strong> Com demanda P = 100 − Q e custo marginal constante de 20, a receita marginal é 100 − 2Q. Igualando 100 − 2Q = 20, obtém-se Q = 40 e P = 60. Em concorrência, P = 20 e Q = 80. O peso morto é 0,5 × (60 − 20) × (80 − 40) = 800. O índice de Lerner é (60 − 20)/60 = 2/3, que é o inverso da elasticidade no ponto, igual a 1,5 em módulo.</p><p><strong>Discriminação de preços.</strong> Na de primeiro grau (perfeita), o monopolista cobra de cada consumidor o seu preço de reserva, apropria-se de todo o excedente e produz a quantidade de concorrência, sem peso morto. Na de segundo grau, o preço varia com a quantidade comprada, como em descontos por volume. Na de terceiro grau, a empresa separa grupos de consumidores e cobra preço maior do grupo de demanda mais inelástica, como em meia-entrada ou tarifas diferentes por horário.</p><p><strong>Condições da discriminação.</strong> Para discriminar preços, a empresa precisa ter poder de mercado, conseguir separar os grupos de consumidores e impedir a revenda entre eles.</p><p><strong>Regulação do monopólio natural.</strong> Se o regulador impõe preço igual ao custo marginal, a empresa tem prejuízo, porque no monopólio natural o custo marginal fica abaixo do custo médio decrescente; seria preciso subsídio. A alternativa usual é a tarifa pelo custo médio, que cobre os custos com lucro normal, ao custo de algum peso morto.</p><p><strong>Monopólio não garante lucro.</strong> Se a demanda for baixa em relação aos custos, mesmo o monopolista pode ter prejuízo. O que as barreiras garantem é que, havendo lucro extraordinário, ele não é eliminado pela entrada de concorrentes.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Com custo marginal constante de 20 e demanda P = 100 − Q, o peso morto do monopólio é de 1.600.",
+     "certo": "É de 800: o triângulo 0,5 × (60 − 20) × (80 − 40).",
+     "fonte": "Questões do app sobre o peso morto"
+    },
+    {
+     "errado": "Na discriminação de primeiro grau, o monopolista cobra mais do grupo com demanda mais inelástica, como na meia-entrada.",
+     "certo": "Separar grupos é discriminação de terceiro grau; na de primeiro grau, cada consumidor paga o seu preço de reserva.",
+     "fonte": "Questões do app sobre a discriminação de preços"
+    },
+    {
+     "errado": "A curva de oferta do monopolista é o trecho do custo marginal acima do mínimo do custo variável médio.",
+     "certo": "Essa é a oferta da empresa competitiva; o monopolista não tem curva de oferta.",
+     "fonte": "Questões do app sobre a oferta do monopolista"
+    }
+   ],
    "relacionados": [
     "concorrencia-perfeita",
     "eficiencia-bens-publicos-e-falhas-de-mercado"
@@ -634,10 +1325,77 @@
     "risco moral",
     "samuelson"
    ],
-   "resumo": "Uma alocação é <strong>eficiente no sentido de Pareto</strong> quando não é possível melhorar a situação de alguém sem piorar a de outro. Pelo <strong>primeiro teorema do bem-estar</strong>, o equilíbrio de mercados competitivos é eficiente no sentido de Pareto, desde que não haja falhas de mercado; pelo <strong>segundo teorema</strong>, qualquer alocação eficiente pode ser alcançada pelo mercado competitivo, desde que se redistribuam adequadamente as dotações iniciais. Eficiência não garante equidade: uma alocação muito desigual pode ser eficiente. As <strong>falhas de mercado</strong> são situações em que o mercado não chega a um resultado eficiente: poder de mercado, externalidades, bens públicos e informação assimétrica. <strong>Bens públicos</strong> puros são <strong>não rivais</strong> (o consumo de um não reduz o que sobra para os outros) e <strong>não excludentes</strong> (não se pode impedir quem não paga de usufruir), como a defesa nacional e a iluminação pública. Como cada um pode usufruir sem pagar (comportamento de carona), o mercado oferece menos que o eficiente ou nada. Bens comuns são rivais e não excludentes, o que leva à superexploração (tragédia dos comuns); bens de clube são excludentes e não rivais. <strong>Externalidades</strong> são efeitos da ação de um agente sobre terceiros, não refletidos nos preços. Com externalidade negativa, como a poluição, o mercado produz mais que o eficiente; com externalidade positiva, como a vacinação, produz menos. Na <strong>informação assimétrica</strong>, a seleção adversa surge antes do contrato, e o risco moral, depois dele.",
+   "para_entender": [
+    {
+     "texto": "<strong>Concorrência perfeita:</strong> sem externalidades, o equilíbrio competitivo maximiza a soma dos excedentes.",
+     "tema": "concorrencia-perfeita"
+    },
+    {
+     "texto": "<strong>Funções do governo:</strong> alocativa, distributiva e estabilizadora, na formulação de Musgrave.",
+     "tema": "livre-mercado-e-papel-do-governo"
+    }
+   ],
+   "resumo": "Uma alocação é <strong>eficiente no sentido de Pareto</strong> quando não dá para melhorar a situação de alguém sem piorar a de outro. O <strong>primeiro teorema do bem-estar</strong> diz que o equilíbrio de mercados competitivos tem essa eficiência, desde que não haja falhas de mercado; o <strong>segundo teorema</strong> diz que qualquer alocação eficiente pode ser alcançada pelo mercado competitivo, desde que se redistribuam as dotações iniciais. Eficiência não é justiça: até uma distribuição muito concentrada pode ser eficiente. <strong>Falhas de mercado</strong> são os casos em que o mercado não chega ao resultado eficiente: poder de mercado, externalidades, bens públicos e informação assimétrica. Os bens se classificam por duas perguntas. A da <strong>rivalidade</strong>: o consumo de um reduz o que sobra para os outros? A da <strong>exclusão</strong>: dá para barrar quem não paga? O esquema cruza as respostas. No bem público puro, cada um pode usufruir sem pagar, o comportamento de <strong>carona</strong> (free rider), e o mercado oferece pouco ou nada. <strong>Externalidade</strong> é o efeito da ação de um agente sobre terceiros que o preço não registra: com a negativa, como a poluição, o mercado produz além do eficiente; com a positiva, como a vacinação, produz aquém. Na <strong>informação assimétrica</strong>, uma parte sabe mais que a outra; a <strong>seleção adversa</strong> nasce antes do contrato, e o <strong>risco moral</strong>, depois.",
    "esquema": {
     "rotulo": "classificação dos bens por rivalidade e exclusão",
     "html": "<table><thead><tr><th>Tipo de bem</th><th>Rival?</th><th>Excludente?</th><th>Exemplo e problema</th></tr></thead><tbody><tr><td><strong>Privado</strong></td><td>sim</td><td>sim</td><td>alimento, roupa; o mercado provê bem</td></tr><tr><td><strong>Público puro</strong></td><td>não</td><td>não</td><td>defesa nacional, iluminação pública; carona e subprovisão</td></tr><tr><td><strong>Comum</strong></td><td>sim</td><td>não</td><td>peixes no mar, pasto aberto; tragédia dos comuns</td></tr><tr><td><strong>De clube</strong></td><td>não</td><td>sim</td><td>TV por assinatura, rodovia com pedágio sem congestionamento</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Teorema de Coase",
+      "o_que_e": "Com direitos de propriedade bem definidos e custos de transação baixos, as partes negociam e chegam ao resultado eficiente, qualquer que seja a parte a quem se atribuiu o direito.",
+      "atencao": "A atribuição do direito muda a distribuição da renda, e não a eficiência.",
+      "grupo": "Externalidades"
+     },
+     {
+      "nome": "Imposto de Pigou",
+      "o_que_e": "Tributo por unidade igual ao custo marginal externo no nível eficiente de produção: o poluidor passa a considerar o dano, e a produção cai ao nível eficiente.",
+      "atencao": "Para externalidade positiva, o instrumento simétrico é o subsídio; também se usam regulação direta e licenças negociáveis de emissão.",
+      "grupo": "Externalidades"
+     },
+     {
+      "nome": "Soma vertical",
+      "o_que_e": "Como todos consomem a mesma quantidade, a demanda total pelo bem público soma os benefícios marginais de cada um, na vertical; nos bens privados, a soma é horizontal.",
+      "atencao": "A quantidade eficiente é aquela em que a soma dos benefícios marginais iguala o custo marginal.",
+      "grupo": "Bens públicos"
+     },
+     {
+      "nome": "Bens meritórios",
+      "o_que_e": "Bens que o governo quer ver consumidos em quantidade maior que a escolhida pelos indivíduos, como educação básica e saúde; podem ser rivais e excludentes.",
+      "atencao": "A provisão pública se justifica por juízo de valor e por externalidades, e não pela não rivalidade.",
+      "grupo": "Bens públicos"
+     },
+     {
+      "nome": "Seleção adversa",
+      "o_que_e": "No mercado de carros usados, o comprador teme levar um carro ruim e oferece preço médio; os donos de carros bons saem do mercado, e sobram os ruins.",
+      "atencao": "Exames prévios e sinalização combatem a seleção adversa.",
+      "grupo": "Informação"
+     },
+     {
+      "nome": "Risco moral",
+      "o_que_e": "O segurado que, depois de contratar o seguro, passa a ter menos cuidado com o bem.",
+      "atencao": "Franquias e coparticipação combatem o risco moral.",
+      "grupo": "Informação"
+     },
+     {
+      "nome": "Excedente do consumidor",
+      "o_que_e": "Diferença entre o que ele estaria disposto a pagar e o que paga.",
+      "grupo": "Bem-estar"
+     },
+     {
+      "nome": "Excedente do produtor",
+      "o_que_e": "Diferença entre o preço recebido e o custo marginal de produzir.",
+      "atencao": "A eficiência de mercado maximiza a soma dos dois.",
+      "grupo": "Bem-estar"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -659,8 +1417,23 @@
     "gabarito": "E",
     "explicacao": "Bem público, em economia, define-se pelas características do consumo, e não por quem o fornece: é não rival e não excludente. O Estado também fornece bens privados, e o mercado pode fornecer bens de clube."
    },
-   "aprofundamento": "<p><strong>Teorema de Coase.</strong> Se os direitos de propriedade estão bem definidos e os custos de transação são baixos, as partes envolvidas numa externalidade negociam e chegam à solução eficiente, qualquer que seja a parte a quem se atribuiu o direito. A atribuição do direito muda a distribuição da renda, não a eficiência.</p><p><strong>Imposto de Pigou.</strong> Um tributo por unidade igual ao custo marginal externo, no nível eficiente de produção, faz o poluidor considerar o dano que causa, e a produção cai ao nível eficiente. Para externalidades positivas, o instrumento simétrico é o subsídio. Também se usam regulação direta e licenças negociáveis de emissão.</p><p><strong>Provisão eficiente de bem público.</strong> Como todos consomem a mesma quantidade, a demanda total pelo bem público se obtém pela soma vertical das demandas individuais (soma dos benefícios marginais), e não pela soma horizontal usada nos bens privados. A quantidade eficiente é aquela em que a soma dos benefícios marginais iguala o custo marginal.</p><p><strong>Seleção adversa e risco moral.</strong> No mercado de carros usados, o vendedor sabe mais que o comprador; com receio de levar um carro ruim, o comprador oferece um preço médio, os donos de carros bons saem do mercado, e sobram os ruins: é seleção adversa. O segurado que, depois de contratar o seguro, passa a ter menos cuidado com o bem age com risco moral. Franquias e coparticipação combatem o risco moral; exames prévios e sinalização combatem a seleção adversa.</p><p><strong>Excedentes.</strong> O excedente do consumidor é a diferença entre o que ele estaria disposto a pagar e o que paga; o do produtor é a diferença entre o preço recebido e o custo marginal de produzir. A eficiência de mercado maximiza a soma dos dois.</p><p><strong>Bens meritórios.</strong> São bens que o governo considera que devem ser consumidos em quantidade maior do que a escolhida pelos indivíduos, como educação básica e saúde. Podem ser rivais e excludentes; a provisão pública se justifica por juízo de valor e por externalidades, e não pela não rivalidade.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Os estoques de peixes em águas internacionais são bem de clube, não rivais e excludentes.",
+     "certo": "São bem comum: rivais, porque o peixe pescado por um falta aos outros, e não excludentes.",
+     "fonte": "Questões do app sobre a classificação dos bens"
+    },
+    {
+     "errado": "O motorista que, depois de contratar seguro total, passa a estacionar em locais menos seguros ilustra a seleção adversa.",
+     "certo": "É risco moral, que surge depois do contrato; a seleção adversa surge antes.",
+     "fonte": "Questões do app sobre a informação assimétrica"
+    },
+    {
+     "errado": "A demanda agregada por um bem público obtém-se pela soma horizontal das demandas individuais.",
+     "certo": "É a soma vertical dos benefícios marginais, porque todos consomem a mesma quantidade.",
+     "fonte": "Questões do app sobre a provisão de bens públicos"
+    }
+   ],
    "relacionados": [
     "livre-mercado-e-papel-do-governo",
     "monopolio"
@@ -707,10 +1480,65 @@
     "identidade poupanca investimento",
     "transferencias"
    ],
-   "resumo": "As contas nacionais medem a atividade econômica por três óticas que, por identidade, dão o mesmo valor: <strong>produto</strong>, <strong>renda</strong> e <strong>despesa</strong>. O <strong>PIB</strong> é o valor de mercado dos bens e serviços finais produzidos dentro do território do país em um período. Para evitar a dupla contagem, somam-se só os bens finais, ou, o que dá no mesmo, os <strong>valores adicionados</strong> de cada setor, isto é, o valor bruto da produção menos o consumo intermediário. Pela ótica da despesa, PIB = C + I + G + (X − M): consumo das famílias, investimento (formação bruta de capital fixo mais variação de estoques), consumo do governo e exportações líquidas. Pela ótica da renda, somam-se as remunerações dos fatores gerados no país (salários, juros, aluguéis e lucros); para chegar ao PIB a preços de mercado, acrescentam-se a depreciação e os impostos indiretos líquidos de subsídios. O <strong>PNB</strong> (ou renda nacional bruta) olha a renda dos residentes: PNB = PIB − renda líquida enviada ao exterior. Assim, um país que remete ao exterior mais rendas do que recebe, como juros, lucros e dividendos, tem PNB menor que o PIB. O produto líquido desconta a depreciação: PIL = PIB − depreciação. A preços de mercado, o produto inclui os impostos indiretos; a custo de fatores, retiram-se os impostos indiretos e somam-se os subsídios. A <strong>renda nacional</strong> é o produto nacional líquido a custo de fatores. O PIB nominal usa preços correntes; o PIB real usa preços de um ano-base. O <strong>deflator do PIB</strong> é o PIB nominal dividido pelo real, vezes 100. Não entram no PIB as transferências, a venda de bens usados e as operações puramente financeiras.",
+   "para_entender": [
+    {
+     "texto": "<strong>Fluxo circular da renda:</strong> as famílias vendem fatores às empresas e gastam a renda recebida em bens e serviços.",
+     "tema": "fatores-de-producao-e-remuneracao"
+    }
+   ],
+   "resumo": "As <strong>contas nacionais</strong> medem a atividade econômica de um país por três óticas, a do produto, a da renda e a da despesa, que dão o mesmo valor por identidade. O <strong>PIB</strong> (produto interno bruto) é o valor de mercado dos bens e serviços <strong>finais</strong> produzidos no território do país em um período. Final é o bem que não volta a ser insumo; somar também os intermediários contaria a mesma produção duas vezes (<strong>dupla contagem</strong>). O mesmo total se obtém somando o <strong>valor adicionado</strong> de cada etapa, que é o valor bruto da produção menos o <strong>consumo intermediário</strong>. Pela ótica da despesa, PIB = C + I + G + (X − M): consumo das famílias, investimento, consumo do governo e exportações menos importações. O investimento reúne a <strong>formação bruta de capital fixo</strong> (máquinas, construções) e a variação de estoques. Pela ótica da renda, somam-se salários, juros, aluguéis e lucros gerados no país, mais a depreciação e os impostos indiretos líquidos de subsídios. O <strong>PNB</strong> (produto nacional bruto, ou renda nacional bruta) troca o critério do território pelo dos residentes. Três outros pares completam o quadro: <strong>bruto</strong> ou <strong>líquido</strong> (com ou sem a <strong>depreciação</strong>, o desgaste do capital), <strong>a preços de mercado</strong> ou <strong>a custo de fatores</strong> (com ou sem os impostos indiretos, que entram no preço), e <strong>nominal</strong> ou <strong>real</strong> (a preços correntes ou de um ano-base). O esquema mostra a operação de cada passagem. A <strong>renda nacional</strong> coincide com o produto nacional líquido medido a custo de fatores, e o <strong>deflator do PIB</strong> é a razão entre o PIB nominal e o real, vezes 100. Ficam fora do PIB as transferências, a venda de bens usados e as operações puramente financeiras.",
    "esquema": {
     "rotulo": "passagens entre os agregados",
     "html": "<table><thead><tr><th>De</th><th>Para</th><th>Operação</th></tr></thead><tbody><tr><td><strong>Interno (PIB)</strong></td><td>Nacional (PNB)</td><td>subtrai a renda líquida enviada ao exterior</td></tr><tr><td><strong>Bruto</strong></td><td>Líquido</td><td>subtrai a depreciação</td></tr><tr><td><strong>Preços de mercado</strong></td><td>Custo de fatores</td><td>subtrai impostos indiretos e soma subsídios</td></tr><tr><td><strong>Produto nacional líquido a custo de fatores</strong></td><td>Renda nacional</td><td>são iguais</td></tr><tr><td><strong>Nominal</strong></td><td>Real</td><td>divide pelo deflator (e multiplica por 100)</td></tr><tr><td><strong>Valor bruto da produção</strong></td><td>Valor adicionado</td><td>subtrai o consumo intermediário</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Exemplo completo",
+      "o_que_e": "Consumo de 600, investimento de 200, gastos do governo de 150, exportações de 100 e importações de 80: PIB de 970. Com renda líquida enviada ao exterior de 30, PNB de 940; com depreciação de 50, produto nacional líquido a preços de mercado de 890.",
+      "atencao": "Com impostos indiretos de 120 e subsídios de 20, a renda nacional é 890 − 120 + 20 = 790, e não 990.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Valor adicionado no pão",
+      "o_que_e": "Trigo vendido por 100 ao moinho, farinha por 160 à padaria e pão por 250 ao consumidor: o PIB gerado é 250, igual à soma dos valores adicionados, 100 + 60 + 90.",
+      "atencao": "Somar 100 + 160 + 250 seria dupla contagem.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Entram",
+      "o_que_e": "O aluguel imputado dos imóveis ocupados pelos próprios donos e a produção para autoconsumo que se pode estimar.",
+      "grupo": "O que entra e o que não entra"
+     },
+     {
+      "nome": "Não entram",
+      "o_que_e": "Serviço doméstico não remunerado da própria família, revenda de bens usados (só a margem do revendedor entra), compra de ações e transferências de renda.",
+      "grupo": "O que entra e o que não entra"
+     },
+     {
+      "nome": "Variação de estoques",
+      "o_que_e": "O bem produzido no ano e não vendido entra no PIB como variação de estoques, dentro do investimento.",
+      "atencao": "Por isso a identidade entre produto e despesa vale sempre, ainda que as vendas fiquem abaixo do planejado.",
+      "grupo": "O que entra e o que não entra"
+     },
+     {
+      "nome": "Poupança e investimento",
+      "o_que_e": "Em economia fechada e sem governo, a poupança é igual ao investimento. Com governo e setor externo, o investimento é a soma das poupanças privada, do governo e externa.",
+      "atencao": "A poupança externa corresponde ao déficit em transações correntes do balanço de pagamentos.",
+      "grupo": "Identidades e índices"
+     },
+     {
+      "nome": "Deflator e índice ao consumidor",
+      "o_que_e": "O deflator cobre todos os bens e serviços finais produzidos no país, inclusive bens de capital, e exclui importados; o índice de preços ao consumidor mede uma cesta fixa das famílias, inclusive importados.",
+      "grupo": "Identidades e índices"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -732,8 +1560,23 @@
     "gabarito": "E",
     "explicacao": "Se a renda líquida enviada ao exterior é positiva, PNB = PIB − renda líquida enviada ao exterior fica menor que o PIB. É o caso típico de economias com muito capital estrangeiro e dívida externa, como o Brasil."
    },
-   "aprofundamento": "<p><strong>Exemplo de cálculo.</strong> Com consumo de 600, investimento de 200, gastos do governo de 150, exportações de 100 e importações de 80, o PIB é 600 + 200 + 150 + 100 − 80 = 970. Com renda líquida enviada ao exterior de 30, o PNB é 940. Com depreciação de 50, o produto nacional líquido a preços de mercado é 890. Com impostos indiretos de 120 e subsídios de 20, a renda nacional é 890 − 120 + 20 = 790.</p><p><strong>Valor adicionado.</strong> Se o agricultor vende trigo por 100 ao moinho, o moinho vende farinha por 160 à padaria e a padaria vende pão por 250 ao consumidor, o PIB gerado é 250, que é igual à soma dos valores adicionados: 100 + 60 + 90. Somar 100 + 160 + 250 seria dupla contagem.</p><p><strong>O que entra e o que não entra.</strong> Entram o aluguel imputado dos imóveis ocupados pelos próprios donos e a produção para autoconsumo estimável. Não entram os serviços domésticos não remunerados feitos pela própria família, a revenda de bens usados (só a margem do revendedor entra), a compra de ações e as transferências de renda.</p><p><strong>Variação de estoques é investimento.</strong> O bem produzido no ano e não vendido entra no PIB como variação de estoques, dentro do investimento. Por isso a identidade entre produto e despesa vale sempre, ainda que as vendas fiquem abaixo do planejado.</p><p><strong>Identidade poupança e investimento.</strong> Em economia fechada e sem governo, a poupança é igual ao investimento. Com governo e setor externo, o investimento é igual à soma da poupança privada, da poupança do governo e da poupança externa; a poupança externa corresponde ao déficit em transações correntes do balanço de pagamentos.</p><p><strong>Deflator e índice de preços ao consumidor.</strong> O deflator do PIB considera todos os bens e serviços finais produzidos no país, inclusive bens de capital, e exclui importados; o índice de preços ao consumidor mede o custo de uma cesta fixa consumida pelas famílias, inclusive bens importados.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Com produto nacional líquido a preços de mercado de 890, impostos indiretos de 120 e subsídios de 20, a renda nacional é de 990.",
+     "certo": "É de 790: subtraem-se os impostos indiretos e somam-se os subsídios.",
+     "fonte": "Questões do app sobre a renda nacional"
+    },
+    {
+     "errado": "Aposentadorias e seguro-desemprego pagos pelo governo entram no componente de gastos do governo do PIB.",
+     "certo": "São transferências, que não remuneram produção corrente, e ficam fora do G.",
+     "fonte": "Questões do app sobre os gastos do governo"
+    },
+    {
+     "errado": "Os bens produzidos no ano e não vendidos ficam fora do PIB desse ano.",
+     "certo": "Entram como variação de estoques, componente do investimento.",
+     "fonte": "Questões do app sobre a variação de estoques"
+    }
+   ],
    "relacionados": [
     "consumo-poupanca-investimento-e-multiplicador",
     "setor-publico-e-politicas-de-estabilizacao"
@@ -774,10 +1617,64 @@
     "ciclo de vida",
     "demanda agregada"
    ],
-   "resumo": "No modelo keynesiano, o <strong>consumo</strong> depende da renda disponível: C = C0 + c·Yd, em que C0 é o consumo autônomo e c é a <strong>propensão marginal a consumir</strong> (PMgC), entre 0 e 1. Pela lei psicológica fundamental de Keynes, quando a renda aumenta, o consumo aumenta, mas menos que a renda. Com consumo autônomo positivo, a propensão média a consumir (C/Y) cai à medida que a renda sobe. A <strong>poupança</strong> é a parte da renda disponível não consumida, e a propensão marginal a poupar é 1 − c. O <strong>investimento</strong> depende da taxa de juros e da eficiência marginal do capital, isto é, do retorno esperado dos projetos, e é muito sensível às expectativas dos empresários. No equilíbrio, a renda é igual à demanda agregada: Y = C + I + G + (X − M). Um aumento do gasto autônomo eleva a renda em um múltiplo dele, porque cada gasto vira renda de alguém, que gasta parte dela, e assim por diante. Em economia fechada, sem tributação proporcional, o <strong>multiplicador dos gastos</strong> é 1/(1 − c), isto é, o inverso da propensão marginal a poupar. Com c = 0,8, o multiplicador é 5, e um aumento de 100 no gasto do governo eleva a renda em 500. O multiplicador dos impostos fixos é −c/(1 − c), menor em módulo que o dos gastos: com c = 0,8, vale −4. Por isso, um aumento igual de gastos e de impostos fixos eleva a renda no mesmo valor do aumento (multiplicador do orçamento equilibrado igual a 1). Tributação proporcional à renda e importações reduzem o multiplicador, porque são vazamentos do fluxo de renda.",
+   "para_entender": [
+    {
+     "texto": "<strong>Ótica da despesa:</strong> PIB = C + I + G + (X − M), a soma do consumo, do investimento, do gasto do governo e das exportações líquidas.",
+     "tema": "contas-nacionais-produto-e-renda"
+    }
+   ],
+   "resumo": "No modelo keynesiano, o consumo depende da <strong>renda disponível</strong> (Yd), a renda que sobra depois dos tributos: C = C0 + c·Yd. C0 é o <strong>consumo autônomo</strong>, que existe mesmo com renda zero, e c é a <strong>propensão marginal a consumir</strong> (PMgC), a fração de cada real adicional que vira consumo, entre 0 e 1. É a <strong>lei psicológica fundamental</strong> de Keynes: a renda sobe, o consumo sobe, mas menos que ela. Com C0 positivo, a <strong>propensão média a consumir</strong> (C/Y) diminui conforme a renda cresce. O que não se consome é poupado, e a <strong>propensão marginal a poupar</strong> é 1 − c. O investimento depende da taxa de juros e da <strong>eficiência marginal do capital</strong>, o retorno esperado dos projetos, e oscila com as expectativas dos empresários. Em equilíbrio, a renda iguala a <strong>demanda agregada</strong>, Y = C + I + G + (X − M). O gasto autônomo novo eleva a renda em um múltiplo dele, o <strong>multiplicador</strong>: o gasto de um vira renda de outro, que consome parte dela, e a rodada se repete com valores cada vez menores. Na economia fechada e sem imposto proporcional, o multiplicador é 1/(1 − c), o inverso da propensão marginal a poupar; com c = 0,8, um gasto público de 100 a mais eleva a renda em 500. O esquema reúne os multiplicadores de cada situação.",
    "esquema": {
     "rotulo": "multiplicadores no modelo keynesiano simples",
     "html": "<table><thead><tr><th>Situação</th><th>Multiplicador</th><th>Com c = 0,8</th></tr></thead><tbody><tr><td><strong>Gasto autônomo, economia fechada, imposto fixo</strong></td><td>1/(1 − c)</td><td>5</td></tr><tr><td><strong>Imposto fixo (lump-sum)</strong></td><td>−c/(1 − c)</td><td>−4</td></tr><tr><td><strong>Orçamento equilibrado (ΔG = ΔT fixo)</strong></td><td>1</td><td>1</td></tr><tr><td><strong>Gasto com imposto proporcional à alíquota t</strong></td><td>1/[1 − c(1 − t)]</td><td>com t = 0,25: 2,5</td></tr><tr><td><strong>Gasto com propensão marginal a importar m</strong></td><td>1/[1 − c(1 − t) + m]</td><td>menor que sem importações</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Imposto proporcional",
+      "o_que_e": "Com c = 0,8 e alíquota de 25% sobre a renda, a propensão a consumir da renda total cai para 0,8 × 0,75 = 0,6, e o multiplicador passa a 1/(1 − 0,6) = 2,5.",
+      "atencao": "É a metade do caso sem tributação proporcional.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Propensões somam 1",
+      "o_que_e": "A propensão marginal a consumir mais a propensão marginal a poupar é igual a 1, e o mesmo vale para as médias. Com propensão marginal a poupar de 0,25, a de consumir é 0,75, e o multiplicador simples é 4.",
+      "atencao": "O valor 1,33 é 1 dividido pela propensão marginal a consumir, e não o multiplicador.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Paradoxo da parcimônia",
+      "o_que_e": "Se todas as famílias tentam poupar mais ao mesmo tempo, o consumo e a renda de equilíbrio caem, e a poupança agregada pode ficar igual ou até diminuir.",
+      "atencao": "O que é prudente para um indivíduo pode reduzir a renda do conjunto.",
+      "grupo": "Consumo"
+     },
+     {
+      "nome": "Renda permanente",
+      "o_que_e": "Pela hipótese de Friedman, o consumo segue a renda esperada de longo prazo; variações transitórias, como um abono pago uma vez, afetam pouco o consumo.",
+      "grupo": "Consumo"
+     },
+     {
+      "nome": "Ciclo de vida",
+      "o_que_e": "Pela hipótese de Modigliani, as pessoas distribuem o consumo ao longo da vida, poupando na fase ativa e despoupando na aposentadoria.",
+      "grupo": "Consumo"
+     },
+     {
+      "nome": "Eficiência marginal e juros",
+      "o_que_e": "Investe-se enquanto a eficiência marginal do capital supera a taxa de juros; com juros menores, mantidas as expectativas, mais projetos passam no teste.",
+      "grupo": "Investimento"
+     },
+     {
+      "nome": "Acelerador",
+      "o_que_e": "O investimento induzido depende da variação da renda, e não do seu nível.",
+      "grupo": "Investimento"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -799,8 +1696,23 @@
     "gabarito": "E",
     "explicacao": "O gasto de 100 eleva a renda em 5 × 100 = 500; o imposto de 100 a reduz em 4 × 100 = 400. O efeito líquido é de 100: o multiplicador do orçamento equilibrado é 1."
    },
-   "aprofundamento": "<p><strong>Multiplicador com imposto proporcional.</strong> Com c = 0,8 e alíquota de 25% sobre a renda, a propensão a consumir da renda total cai para 0,8 × 0,75 = 0,6, e o multiplicador passa a 1/(1 − 0,6) = 2,5, metade do caso sem tributação proporcional.</p><p><strong>Paradoxo da parcimônia.</strong> Se todas as famílias tentam poupar mais ao mesmo tempo, o consumo cai, a renda de equilíbrio cai, e a poupança agregada pode ficar igual ou até diminuir. O que é prudente para um indivíduo pode reduzir a renda do conjunto.</p><p><strong>Teorias do consumo.</strong> Pela hipótese da renda permanente, de Friedman, o consumo depende da renda esperada de longo prazo, e variações transitórias da renda afetam pouco o consumo. Pela hipótese do ciclo de vida, de Modigliani, as pessoas distribuem o consumo ao longo da vida, poupando na fase ativa e despoupando na aposentadoria.</p><p><strong>Investimento e juros.</strong> O investimento é realizado enquanto a eficiência marginal do capital supera a taxa de juros. A queda dos juros, mantidas as expectativas, aumenta o investimento. Pelo princípio do acelerador, o investimento induzido depende da variação da renda, e não do seu nível.</p><p><strong>Propensões somam 1.</strong> A propensão marginal a consumir mais a propensão marginal a poupar é igual a 1, e o mesmo vale para as propensões médias. Se a propensão marginal a poupar é 0,25, a propensão marginal a consumir é 0,75, e o multiplicador simples é 4.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Na função consumo keynesiana com consumo autônomo positivo, a propensão média a consumir aumenta com a renda.",
+     "certo": "Cai: C/Y = C0/Y + c, e C0/Y diminui quando Y sobe.",
+     "fonte": "Questões do app sobre a propensão média a consumir"
+    },
+    {
+     "errado": "Com propensão marginal a poupar de 0,25, o multiplicador keynesiano simples é 1,33.",
+     "certo": "É 1/0,25 = 4; 1,33 é 1 dividido pela propensão marginal a consumir.",
+     "fonte": "Questões do app sobre o multiplicador"
+    },
+    {
+     "errado": "Pela renda permanente, um abono único eleva o consumo mais que um aumento salarial permanente de mesmo valor anual.",
+     "certo": "O abono é renda transitória e mexe pouco no consumo; o aumento permanente muda a renda esperada.",
+     "fonte": "Questões do app sobre as teorias do consumo"
+    }
+   ],
    "relacionados": [
     "contas-nacionais-produto-e-renda",
     "setor-publico-e-politicas-de-estabilizacao"
@@ -855,10 +1767,99 @@
     "cambio fixo",
     "cambio flutuante"
    ],
-   "resumo": "As <strong>políticas de estabilização</strong> procuram reduzir as oscilações da atividade econômica, combatendo a recessão e o desemprego, de um lado, e a inflação, de outro. A <strong>política fiscal</strong> usa os gastos e os tributos do governo: é expansionista quando aumenta gastos ou reduz tributos e contracionista no caso inverso. Os <strong>estabilizadores automáticos</strong>, como o imposto de renda progressivo e o seguro-desemprego, atenuam o ciclo sem nova decisão do governo: na recessão, a arrecadação cai e as transferências sobem. O resultado das contas públicas tem três conceitos: o <strong>primário</strong> exclui os juros; o <strong>nominal</strong> inclui todos os juros; o <strong>operacional</strong> é o nominal sem a correção monetária e cambial da dívida. A <strong>política monetária</strong> atua sobre a oferta de moeda e a taxa de juros. Os instrumentos clássicos são as operações de mercado aberto (compra e venda de títulos públicos pelo banco central), os depósitos compulsórios e o redesconto. A política é expansionista quando o banco central compra títulos, reduz o compulsório ou barateia o redesconto. No modelo <strong>IS-LM</strong>, a curva IS reúne os equilíbrios no mercado de bens, e a curva LM, os equilíbrios no mercado monetário. A política fiscal expansionista desloca a IS para a direita: eleva a renda e os juros, e os juros mais altos reduzem parte do investimento privado (<strong>efeito deslocamento</strong>, ou crowding out). A política monetária expansionista desloca a LM para a direita: eleva a renda e reduz os juros. No Brasil, o Conselho Monetário Nacional fixa a meta de inflação, e o Comitê de Política Monetária do Banco Central define a meta da taxa Selic para alcançá-la.",
+   "para_entender": [
+    {
+     "texto": "<strong>Multiplicador:</strong> o gasto autônomo novo eleva a renda em um múltiplo dele.",
+     "tema": "consumo-poupanca-investimento-e-multiplicador"
+    },
+    {
+     "texto": "<strong>Função estabilizadora:</strong> a função do governo que busca emprego elevado, preços estáveis e crescimento.",
+     "tema": "livre-mercado-e-papel-do-governo"
+    }
+   ],
+   "resumo": "As <strong>políticas de estabilização</strong> tentam suavizar o ciclo econômico, combatendo de um lado a recessão e o desemprego e, de outro, a inflação. A <strong>política fiscal</strong> trabalha com gastos e tributos: aumentar gastos ou cortar tributos é <strong>expansionista</strong>; o contrário é <strong>contracionista</strong>. Parte dela age sozinha: os <strong>estabilizadores automáticos</strong>, como o imposto de renda progressivo e o seguro-desemprego, amortecem o ciclo sem nova decisão, porque na recessão a arrecadação cai e as transferências sobem. As contas públicas se medem por três resultados. O <strong>primário</strong> deixa os juros de fora; o <strong>nominal</strong> inclui todos os juros; o <strong>operacional</strong> é o nominal sem a correção monetária e cambial da dívida. A <strong>política monetária</strong> age sobre a oferta de moeda e os juros, com três instrumentos clássicos: as <strong>operações de mercado aberto</strong> (o banco central compra ou vende títulos públicos), o <strong>depósito compulsório</strong> (parte dos depósitos que os bancos devem manter no banco central) e o <strong>redesconto</strong> (empréstimo do banco central aos bancos). Comprar títulos, reduzir o compulsório e baratear o redesconto são medidas expansionistas. No modelo <strong>IS-LM</strong>, a curva IS reúne as combinações de renda e juros que equilibram o mercado de bens, e a LM, as que equilibram o mercado monetário. A expansão fiscal leva a IS para a direita: a renda sobe, os juros também, e os juros mais altos tiram parte do investimento privado, o <strong>efeito deslocamento</strong> (crowding out). A expansão monetária leva a LM para a direita, com renda maior e juros menores. O esquema mostra os casos extremos. No Brasil, o Conselho Monetário Nacional fixa a meta de inflação, e o Comitê de Política Monetária (Copom) do Banco Central define a meta da taxa Selic para cumpri-la.",
    "esquema": {
     "rotulo": "eficácia das políticas nos casos extremos do IS-LM",
     "html": "<table><thead><tr><th>Caso</th><th>Política fiscal</th><th>Política monetária</th></tr></thead><tbody><tr><td><strong>Armadilha da liquidez (LM horizontal)</strong></td><td>plenamente eficaz, sem efeito deslocamento</td><td>ineficaz</td></tr><tr><td><strong>Caso clássico (LM vertical)</strong></td><td>ineficaz: efeito deslocamento total</td><td>plenamente eficaz</td></tr><tr><td><strong>Investimento insensível aos juros (IS vertical)</strong></td><td>plenamente eficaz</td><td>ineficaz</td></tr><tr><td><strong>Investimento muito sensível aos juros (IS quase horizontal)</strong></td><td>pouco eficaz</td><td>muito eficaz</td></tr><tr><td><strong>Câmbio flutuante e mobilidade perfeita de capitais</strong></td><td>ineficaz</td><td>eficaz</td></tr><tr><td><strong>Câmbio fixo e mobilidade perfeita de capitais</strong></td><td>eficaz</td><td>ineficaz</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Mercado aberto",
+      "o_que_e": "Vender títulos retira moeda da economia e é contracionista; comprar injeta moeda e é expansionista.",
+      "grupo": "Instrumentos"
+     },
+     {
+      "nome": "Compulsório e redesconto",
+      "o_que_e": "O compulsório maior reduz o multiplicador bancário e a oferta de moeda; o redesconto mais caro também contrai.",
+      "grupo": "Instrumentos"
+     },
+     {
+      "nome": "Defasagens",
+      "o_que_e": "A política fiscal tem defasagem interna longa (reconhecer o problema, aprovar no Legislativo e executar) e efeito mais rápido depois de aprovada; a monetária tem defasagem interna curta e externa longa, porque os juros levam meses para afetar consumo e investimento.",
+      "grupo": "Instrumentos"
+     },
+     {
+      "nome": "Primário e nominal juntos",
+      "o_que_e": "O governo pode ter superávit primário e déficit nominal ao mesmo tempo, quando os juros superam o superávit primário.",
+      "atencao": "A necessidade de financiamento do setor público no conceito nominal corresponde ao déficit nominal: o resultado primário somado aos juros nominais.",
+      "grupo": "Contas públicas"
+     },
+     {
+      "nome": "Inclinação da IS",
+      "o_que_e": "A IS é mais inclinada, próxima da vertical, quanto menos o investimento reage aos juros e quanto menor o multiplicador.",
+      "atencao": "IS inclinada fortalece a fiscal, porque a alta dos juros pouco reduz o investimento, e enfraquece a monetária; IS pouco inclinada faz o inverso.",
+      "grupo": "IS-LM"
+     },
+     {
+      "nome": "Inclinação da LM",
+      "o_que_e": "A LM é mais horizontal quanto mais a demanda por moeda reage aos juros e mais vertical quanto menos reage.",
+      "atencao": "LM pouco inclinada favorece a fiscal (extremo: armadilha da liquidez); LM muito inclinada favorece a monetária (extremo: caso clássico).",
+      "grupo": "IS-LM"
+     },
+     {
+      "nome": "Regra geral",
+      "o_que_e": "A política fiscal é mais eficaz com IS inclinada e LM horizontal; a monetária, com IS horizontal e LM inclinada.",
+      "grupo": "IS-LM"
+     },
+     {
+      "nome": "Contrações",
+      "o_que_e": "A monetária contracionista leva a LM para a esquerda: os juros sobem e a renda cai. A fiscal contracionista leva a IS para a esquerda: a renda e os juros caem.",
+      "grupo": "IS-LM"
+     },
+     {
+      "nome": "Combinações",
+      "o_que_e": "Expansão fiscal com expansão monetária eleva a renda com certeza, e o efeito nos juros depende da intensidade de cada deslocamento; expansão fiscal com contração monetária eleva os juros com certeza, e a renda fica indeterminada.",
+      "grupo": "IS-LM"
+     },
+     {
+      "nome": "Câmbio flutuante",
+      "o_que_e": "Com mobilidade perfeita de capitais, a expansão fiscal pressiona os juros, atrai capitais, valoriza a moeda nacional e reduz as exportações líquidas, e a renda não muda. A expansão monetária reduz os juros, deprecia a moeda e aumenta as exportações líquidas, o que reforça a renda.",
+      "grupo": "Economia aberta (Mundell-Fleming)"
+     },
+     {
+      "nome": "Câmbio fixo",
+      "o_que_e": "A expansão monetária reduz os juros, provoca saída de capitais, e o banco central vende reservas para defender a taxa: a oferta de moeda volta a cair e a renda não muda. A expansão fiscal atrai capitais, o banco central compra divisas emitindo moeda, e a LM se desloca junto com a IS: a renda sobe com força.",
+      "atencao": "Pergunte quem absorve a pressão sobre o câmbio: no câmbio fixo, é a oferta de moeda.",
+      "grupo": "Economia aberta (Mundell-Fleming)"
+     },
+     {
+      "nome": "Demanda e custos",
+      "o_que_e": "A inflação de demanda vem do excesso de demanda agregada sobre a capacidade de produção e cede a políticas contracionistas; a de custos vem de salários, câmbio ou insumos, e combatê-la pela demanda custa mais produção e emprego.",
+      "grupo": "Inflação"
+     },
+     {
+      "nome": "Curva de Phillips",
+      "o_que_e": "Na versão original, relação inversa entre inflação e desemprego no curto prazo; com expectativas, a troca só existe no curto prazo, e a curva de longo prazo é vertical na taxa natural de desemprego.",
+      "grupo": "Inflação"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -880,8 +1881,33 @@
     "gabarito": "E",
     "explicacao": "Na armadilha da liquidez, a LM é horizontal: a moeda adicional é retida, os juros não caem e a política monetária é ineficaz. A política fiscal, ao contrário, eleva a renda sem subir os juros, sem efeito deslocamento. O caso em que a fiscal é ineficaz e a monetária plenamente eficaz é o clássico, com LM vertical."
    },
-   "aprofundamento": "<p><strong>Instrumentos monetários e sentido.</strong> A venda de títulos pelo banco central no mercado aberto retira moeda da economia e é contracionista; a compra injeta moeda e é expansionista. O aumento do compulsório reduz o multiplicador bancário e a oferta de moeda; a redução faz o inverso. O redesconto é o empréstimo do banco central aos bancos; encarecê-lo é contracionista.</p><p><strong>Defasagens.</strong> A política fiscal costuma ter defasagem interna longa (reconhecer o problema, aprovar a medida no Legislativo e executá-la) e efeito mais rápido sobre a demanda depois de aprovada; a política monetária tem defasagem interna curta, pois o banco central decide rapidamente, mas defasagem externa longa, porque os juros levam meses para afetar consumo e investimento.</p><p><strong>Modelo Mundell-Fleming.</strong> Com mobilidade perfeita de capitais e câmbio flutuante, a expansão fiscal pressiona os juros, atrai capitais, valoriza a moeda nacional e reduz as exportações líquidas, anulando o efeito sobre a renda; a política monetária é eficaz. Com câmbio fixo, o banco central precisa comprar ou vender divisas para manter a taxa, a oferta de moeda deixa de ser controlável, a política monetária é ineficaz e a fiscal é eficaz.</p><p><strong>Necessidade de financiamento do setor público.</strong> A necessidade de financiamento do setor público no conceito nominal corresponde ao déficit nominal: a variação da dívida líquida decorrente do resultado primário somado aos juros nominais. Um governo pode ter superávit primário e, ao mesmo tempo, déficit nominal, se os juros superam o superávit primário.</p><p><strong>Inflação de demanda e de custos.</strong> A inflação de demanda decorre do excesso de demanda agregada em relação à capacidade de produção e é combatida com políticas contracionistas. A inflação de custos vem do aumento de custos, como salários, câmbio ou preços de insumos, e o combate pela demanda tem custo maior em produção e emprego.</p><p><strong>Curva de Phillips.</strong> Na versão original, mostra relação inversa entre inflação e desemprego no curto prazo. Na versão com expectativas, essa troca só existe no curto prazo; no longo prazo, o desemprego tende à taxa natural, e a curva de Phillips de longo prazo é vertical.</p><p><strong>Inclinação da IS.</strong> A IS é mais inclinada (próxima da vertical) quanto menos o investimento reage aos juros e quanto menor o multiplicador, e é mais horizontal quando o investimento é muito sensível aos juros. Com IS muito inclinada, a política fiscal é mais eficaz, porque a alta dos juros pouco reduz o investimento e o efeito deslocamento é pequeno, e a política monetária é menos eficaz, porque a queda dos juros pouco estimula o investimento. Com IS pouco inclinada, ocorre o inverso: a monetária ganha força e a fiscal perde.</p><p><strong>Inclinação da LM.</strong> A LM é mais horizontal quanto mais a demanda por moeda reage aos juros, e mais vertical quanto menos reage. Com LM pouco inclinada, a expansão fiscal eleva pouco os juros, o efeito deslocamento é pequeno e a política fiscal é eficaz, enquanto a monetária perde força; o caso extremo é a armadilha da liquidez. Com LM muito inclinada, a expansão fiscal eleva muito os juros e desloca o investimento privado, e a política monetária é forte; o caso extremo é a LM vertical do caso clássico. Em resumo: a política fiscal é mais eficaz com IS inclinada e LM horizontal; a monetária, com IS horizontal e LM inclinada.</p><p><strong>Sentido dos efeitos.</strong> A política monetária contracionista desloca a LM para a esquerda: os juros sobem e a renda cai. A fiscal contracionista desloca a IS para a esquerda: a renda e os juros caem. Expansão fiscal combinada com expansão monetária eleva a renda com certeza, mas o efeito sobre os juros depende da intensidade de cada deslocamento. Expansão fiscal combinada com contração monetária eleva os juros com certeza, e o efeito sobre a renda fica indeterminado.</p><p><strong>Câmbio fixo e flutuante passo a passo.</strong> Com câmbio fixo e mobilidade perfeita de capitais, a expansão monetária reduz os juros internos, provoca saída de capitais e pressão de desvalorização; o banco central vende reservas para defender a taxa, a oferta de moeda volta a cair e a renda não muda. A expansão fiscal eleva os juros, atrai capitais, e o banco central compra divisas emitindo moeda: a LM se desloca junto com a IS e a renda sobe com força. Com câmbio flutuante, a expansão monetária reduz os juros, deprecia a moeda nacional e aumenta as exportações líquidas, o que reforça o efeito sobre a renda.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A venda de títulos públicos pelo banco central em operações de mercado aberto é política monetária expansionista.",
+     "certo": "Ao vender títulos, o banco central recolhe moeda dos bancos: a medida é contracionista.",
+     "fonte": "Questões do app sobre o mercado aberto"
+    },
+    {
+     "errado": "O resultado nominal do setor público exclui os juros da dívida e mede o esforço fiscal do governo.",
+     "certo": "Isso é o resultado primário; o nominal inclui os juros.",
+     "fonte": "Questões do app sobre os resultados fiscais"
+    },
+    {
+     "errado": "Com mobilidade perfeita de capitais e câmbio flutuante, a política fiscal é eficaz e a monetária, ineficaz.",
+     "certo": "É o resultado do câmbio fixo; no flutuante, a fiscal é ineficaz e a monetária é eficaz.",
+     "fonte": "Questões do app sobre o modelo Mundell-Fleming"
+    },
+    {
+     "errado": "Quanto mais sensível a demanda por moeda aos juros, mais inclinada a LM e mais eficaz a política monetária.",
+     "certo": "Demanda por moeda sensível aos juros deixa a LM mais horizontal, o que fortalece a fiscal e enfraquece a monetária.",
+     "fonte": "Questões do app sobre a inclinação da LM"
+    },
+    {
+     "errado": "A política monetária contracionista desloca a LM para a esquerda e reduz a renda e a taxa de juros.",
+     "certo": "Os juros sobem e a renda cai; renda e juros caem juntos na fiscal contracionista.",
+     "fonte": "Questões do app sobre a política monetária contracionista"
+    }
+   ],
    "relacionados": [
     "consumo-poupanca-investimento-e-multiplicador",
     "livre-mercado-e-papel-do-governo"
