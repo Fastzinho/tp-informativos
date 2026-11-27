@@ -4,7 +4,7 @@
  "disciplina": "Legislação Tributária de Alagoas",
  "ordem": 30,
  "descricao": "Legislação tributária de Alagoas: ICMS (Lei 5.900/1996), IPVA (Lei 6.555/2004), ITCD (Lei 5.077/1989), processo administrativo tributário (Lei 6.771/2006) e Contribuinte Arretado (Lei 8.085/2018).",
- "revisado_em": "2026-11-20",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "Leis estaduais conferidas no texto da Sefaz-AL",
  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
  "temas": [
@@ -31,10 +31,72 @@
     "passivo ficticio",
     "antecipacao"
    ],
-   "resumo": "A <strong>Lei 5.900/1996</strong> é a lei do ICMS de Alagoas e segue a Lei Complementar 87/1996. Pelo art. 1º, o imposto incide sobre operações relativas à circulação de mercadorias, inclusive o fornecimento de alimentação e bebidas em bares e restaurantes; sobre prestações de transporte interestadual e intermunicipal, por qualquer via; sobre prestações onerosas de comunicação; e sobre o fornecimento de mercadorias com serviços. Incide também sobre a entrada de bem ou mercadoria importados do exterior por pessoa física ou jurídica, ainda que não seja contribuinte habitual do imposto, qualquer que seja a sua finalidade, e sobre o serviço prestado ou iniciado no exterior. O art. 2º fixa o momento do fato gerador: na <strong>saída</strong> de mercadoria de estabelecimento de contribuinte; no <strong>desembaraço aduaneiro</strong> da importação; no <strong>início</strong> da prestação de transporte; no ato final do transporte iniciado no exterior; e na <strong>entrada</strong> no Estado de mercadoria vinda de outra unidade da Federação, adquirida por contribuinte para uso, consumo ou ativo imobilizado. Desde 30/12/2024 (Lei 9.440/2024), não se considera ocorrido o fato gerador na saída de mercadoria para outro estabelecimento do mesmo titular, mantido o crédito das operações anteriores; por opção do contribuinte, essa transferência pode ser equiparada a operação tributada (art. 2º, §§ 15 e 16). O § 9º do art. 2º presume operações internas tributadas sem pagamento do imposto quando o Fisco constata, por exemplo, passivo fictício, suprimento de caixa sem comprovação de origem ou diferença de estoque, ressalvada ao sujeito passivo a prova da improcedência da presunção.",
+   "para_entender": [
+    {
+     "texto": "<strong>Substituição tributária:</strong> regime em que um responsável retém e recolhe o ICMS de operações de outros contribuintes da cadeia.",
+     "tema": "icms-alagoas-sujeicao-passiva-e-substituicao"
+    }
+   ],
+   "resumo": "A Lei 5.900/1996 é a lei do ICMS de Alagoas e segue a Lei Complementar 87/1996, a lei nacional do imposto. O <strong>fato gerador</strong> é o acontecimento que faz nascer a obrigação de pagar; a lei separa o que é tributado (a <strong>incidência</strong>, art. 1º) de quando se considera ocorrido o fato (art. 2º). Pelo art. 1º, o imposto alcança as operações de circulação de mercadorias, inclusive o fornecimento de alimentação e bebidas em bares e restaurantes; as prestações de transporte interestadual e intermunicipal, por qualquer via; as prestações onerosas de comunicação; e o fornecimento de mercadorias com serviços. Alcança também a entrada de bem ou mercadoria importados do exterior por pessoa física ou jurídica, mesmo que não seja contribuinte habitual e qualquer que seja a finalidade, e o serviço prestado ou iniciado no exterior. O esquema mostra o momento do fato gerador em cada situação. A Lei 9.440/2024 mudou a transferência entre estabelecimentos do mesmo titular: desde 30/12/2024 ela não gera imposto, e o crédito das operações anteriores se mantém (art. 2º, § 15). Por fim, o § 9º do art. 2º traz <strong>presunções</strong>. Quando o Fisco constata, por exemplo, <strong>passivo fictício</strong> (obrigação registrada na escrita que não existe), suprimento de caixa sem origem comprovada ou diferença de estoque, presume operações internas tributadas sem pagamento do imposto. A presunção é relativa: cabe ao sujeito passivo mostrar que ela não procede.",
    "esquema": {
     "rotulo": "momento do fato gerador na Lei 5.900/1996",
     "html": "<table><thead><tr><th>Situação</th><th>Momento do fato gerador</th><th>Base</th></tr></thead><tbody><tr><td><strong>Venda ou outra saída de mercadoria</strong></td><td>Saída do estabelecimento do contribuinte</td><td>art. 2º, I</td></tr><tr><td><strong>Importação de bem ou mercadoria</strong></td><td>Desembaraço aduaneiro; se a entrega vier antes, na entrega</td><td>art. 2º, IV e § 14</td></tr><tr><td><strong>Transporte interestadual ou intermunicipal</strong></td><td>Início da prestação</td><td>art. 2º, VIII</td></tr><tr><td><strong>Transporte iniciado no exterior</strong></td><td>Ato final do transporte</td><td>art. 2º, IX</td></tr><tr><td><strong>Serviço prestado no exterior</strong></td><td>Recebimento pelo destinatário</td><td>art. 2º, XI</td></tr><tr><td><strong>Comunicação paga com ficha ou cartão</strong></td><td>Fornecimento do instrumento ao usuário</td><td>art. 2º, § 4º</td></tr><tr><td><strong>Bem de uso, consumo ou ativo vindo de outra UF</strong></td><td>Entrada no território de Alagoas</td><td>art. 2º, V</td></tr><tr><td><strong>Mercadoria em armazém geral no Estado</strong></td><td>Transmissão a terceiro</td><td>art. 2º, XII</td></tr><tr><td><strong>Transferência para estabelecimento do mesmo titular</strong></td><td>Não ocorre fato gerador, salvo opção pela equiparação</td><td>art. 2º, §§ 15 e 16</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Estoque final",
+      "o_que_e": "A mercadoria em estoque na data do encerramento da atividade considera-se saída do estabelecimento (art. 2º, § 2º, I).",
+      "grupo": "Saídas equiparadas"
+     },
+     {
+      "nome": "Entrada não escriturada",
+      "o_que_e": "A mercadoria cuja entrada não foi escriturada nos livros fiscais próprios considera-se saída desacompanhada de documento fiscal (art. 2º, § 2º, II).",
+      "grupo": "Saídas equiparadas"
+     },
+     {
+      "nome": "Autoconsumo",
+      "o_que_e": "O consumo ou a integração ao ativo fixo de mercadoria produzida pelo próprio estabelecimento, ou adquirida para industrialização ou comercialização, equipara-se à saída (art. 2º, § 3º).",
+      "grupo": "Saídas equiparadas"
+     },
+     {
+      "nome": "Natureza jurídica irrelevante",
+      "o_que_e": "O fato gerador não depende da natureza jurídica da operação nem do título pelo qual a mercadoria estava na posse do titular (art. 2º, § 6º).",
+      "grupo": "Saídas equiparadas"
+     },
+     {
+      "nome": "Opção pela equiparação",
+      "o_que_e": "Na transferência entre estabelecimentos do mesmo titular, o contribuinte pode optar por equiparar a saída a operação tributada (art. 2º, § 16).",
+      "grupo": "Transferência e antecipação"
+     },
+     {
+      "nome": "Antecipação",
+      "o_que_e": "Ao contrário da substituição tributária, a antecipação não encerra a fase de tributação, e o imposto antecipado é crédito fiscal a ser apropriado pelo contribuinte, salvo sistemática diversa prevista em lei (art. 2º, § 8º).",
+      "atencao": "Pergunte se o pagamento encerra a cadeia ou só adianta o imposto do próprio contribuinte.",
+      "grupo": "Transferência e antecipação"
+     },
+     {
+      "nome": "Entradas interestaduais tributadas",
+      "o_que_e": "Incide também na entrada no Estado de mercadoria sujeita ao regime de pagamento antecipado, de mercadoria a ser comercializada sem destinatário certo e da destinada a estabelecimento em situação cadastral irregular ou a contribuinte inscrito na Dívida Ativa (art. 1º, parágrafo único, III, c e d).",
+      "grupo": "Transferência e antecipação"
+     },
+     {
+      "nome": "Despesas acima da receita",
+      "o_que_e": "A presunção também se aplica quando as despesas e retiradas do contribuinte superam a receita do estabelecimento (art. 2º, § 10).",
+      "grupo": "Presunções"
+     },
+     {
+      "nome": "Custo agregado de 30%",
+      "o_que_e": "Para quem não tem escrituração contábil de lucro real, o montante das saídas tributáveis é o custo das mercadorias vendidas acrescido de 30% (art. 2º, § 12).",
+      "grupo": "Presunções"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -56,8 +118,18 @@
     "gabarito": "E",
     "explicacao": "Desde a Lei 9.440/2024, com efeitos a partir de 30/12/2024, não se considera ocorrido o fato gerador na saída para estabelecimento do mesmo titular, mantendo-se o crédito das operações anteriores. A equiparação a operação tributada depende de opção do contribuinte (art. 2º, §§ 15 e 16)."
    },
-   "aprofundamento": "<p><strong>Estoque final e entrada não escriturada.</strong> Considera-se saída do estabelecimento a mercadoria constante do estoque final na data do encerramento da atividade e, desacompanhada de documento fiscal, a mercadoria cuja entrada não tenha sido escriturada nos livros fiscais próprios (art. 2º, § 2º, I e II).</p><p><strong>Autoconsumo equipara-se a saída.</strong> Equipara-se à saída o consumo ou a integração no ativo fixo de mercadoria produzida pelo próprio estabelecimento ou adquirida para industrialização ou comercialização (art. 2º, § 3º).</p><p><strong>Antecipação não é substituição tributária.</strong> Diferentemente da substituição tributária, a antecipação do imposto não encerra a fase de tributação, e o imposto antecipado é crédito fiscal a ser apropriado pelo contribuinte, salvo sistemática diversa prevista em lei (art. 2º, § 8º).</p><p><strong>Mais presunções.</strong> A presunção também se aplica quando as despesas e retiradas do contribuinte superam a receita do estabelecimento (art. 2º, § 10). Para quem não tem escrituração contábil de lucro real, o montante das saídas tributáveis é apurado tomando o custo das mercadorias vendidas agregado de 30% (art. 2º, § 12).</p><p><strong>Natureza jurídica é irrelevante.</strong> A caracterização do fato gerador independe da natureza jurídica da operação ou do título pelo qual a mercadoria estava na posse do titular (art. 2º, § 6º).</p><p><strong>Entradas interestaduais tributadas na entrada.</strong> O imposto incide também na entrada no Estado de mercadoria sujeita ao regime de pagamento antecipado e de mercadoria a ser comercializada sem destinatário certo ou destinada a estabelecimento em situação cadastral irregular ou a contribuinte inscrito na Dívida Ativa (art. 1º, parágrafo único, III, c e d).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Pela Lei 5.900/1996, no transporte interestadual de carga iniciado em Alagoas, o fato gerador ocorre no ato final do transporte, com a entrega da carga ao destinatário.",
+     "certo": "Ocorre no início da prestação (art. 2º, VIII); o ato final só marca o transporte iniciado no exterior (art. 2º, IX).",
+     "fonte": "Questões do app sobre o transporte"
+    },
+    {
+     "errado": "A antecipação do ICMS, como a substituição tributária, encerra a fase de tributação, e o valor antecipado não gera crédito fiscal.",
+     "certo": "A antecipação não encerra a tributação, e o imposto antecipado é crédito fiscal do contribuinte (art. 2º, § 8º).",
+     "fonte": "Questões do app sobre a antecipação"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-nao-incidencia-isencoes",
     "icms-alagoas-base-de-calculo-e-aliquotas"
@@ -87,10 +159,68 @@
     "armazem geral",
     "comodato"
    ],
-   "resumo": "O art. 3º da Lei 5.900/1996 lista as hipóteses em que o ICMS <strong>não incide</strong>. Entre elas: operações com livros, jornais, periódicos e o papel destinado à sua impressão; operações e prestações que destinem ao exterior mercadorias, inclusive produtos primários e semielaborados, ou serviços; saídas interestaduais de energia elétrica e petróleo destinados à industrialização ou à comercialização; ouro como ativo financeiro; alienação fiduciária em garantia; transferência de estoque por transformação, fusão, cisão ou incorporação; transporte de carga própria; remessa para armazém geral ou depósito fechado no próprio Estado e o retorno; locação ou comodato com contrato registrado; e arrendamento mercantil, salvo a venda do bem ao arrendatário. A não incidência dos livros <strong>não alcança</strong> livro em branco ou simplesmente pautado, agenda ou similar, nem catálogo, guia e outros impressos com propaganda comercial (art. 3º, § 1º). Pelo art. 4º, as <strong>isenções</strong> são concedidas ou revogadas nos termos de <strong>convênios</strong> celebrados e ratificados pelo Estado, regra que vale também para redução de base de cálculo, créditos presumidos e prorrogações. Quando a isenção depender de condição não satisfeita, o imposto é considerado devido no momento em que ocorreu a operação. O benefício previsto em convênio autorizativo só integra a legislação alagoana após regulamentação por decreto; o de convênio impositivo vigora a partir da data nele prevista. Haverá <strong>suspensão</strong> quando a exigência do imposto ficar condicionada a evento futuro, como na remessa para demonstração a contribuinte do Estado, que se encerra com a transmissão da propriedade ou com o não retorno em 60 dias (art. 5º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Incidência do ICMS:</strong> o que a Lei 5.900/1996 tributa e quando ocorre o fato gerador.",
+     "tema": "icms-alagoas-incidencia-e-fato-gerador"
+    }
+   ],
+   "resumo": "Três institutos afastam ou adiam o imposto, e não se confundem. Na <strong>não incidência</strong> (art. 3º), a lei declara que a operação fica fora do campo do ICMS. Na <strong>isenção</strong> (art. 4º), a operação estaria sujeita ao imposto, mas um benefício dispensa o pagamento. Na <strong>suspensão</strong> (art. 5º), a exigência fica condicionada a um evento futuro. A lista do art. 3º reúne, entre outras, as operações com livros, jornais e periódicos; as que destinam ao exterior mercadorias ou serviços; as saídas interestaduais de energia elétrica e petróleo; o ouro como ativo financeiro; a alienação fiduciária em garantia; a transferência de estoque por transformação, fusão, cisão ou incorporação; o transporte de carga própria; a remessa para armazém geral ou depósito fechado no próprio Estado e o retorno; a locação ou o comodato com contrato registrado; e o arrendamento mercantil. As isenções são concedidas ou revogadas nos termos de <strong>convênios</strong> celebrados e ratificados pelo Estado, e a mesma regra vale para redução de base de cálculo, créditos presumidos e prorrogações. O convênio pode ser <strong>autorizativo</strong> ou <strong>impositivo</strong>, e a diferença decide quando o benefício passa a valer em Alagoas. O exemplo típico de suspensão é a remessa para demonstração a contribuinte do Estado. O esquema mostra a regra de cada instituto e o ponto que costuma ser trocado.",
    "esquema": {
     "rotulo": "não incidência, isenção e suspensão",
     "html": "<table><thead><tr><th>Instituto</th><th>Regra na Lei 5.900/1996</th><th>Ponto que a banca troca</th></tr></thead><tbody><tr><td><strong>Livros, jornais e periódicos</strong></td><td>Não incidência, inclusive o papel para impressão</td><td>Não vale para livro em branco, agenda e catálogo com propaganda</td></tr><tr><td><strong>Exportação</strong></td><td>Não incidência, inclusive primários e semielaborados</td><td>Equipara-se a saída para comercial exportadora, armazém alfandegado ou entreposto; se a mercadoria não chegar ao destino, tributa-se</td></tr><tr><td><strong>Energia elétrica e petróleo interestaduais</strong></td><td>Não incidência quando destinados à industrialização ou comercialização</td><td>Para uso e consumo há incidência na entrada</td></tr><tr><td><strong>Arrendamento mercantil</strong></td><td>Não incidência</td><td>A venda do bem ao arrendatário é tributada</td></tr><tr><td><strong>Isenção</strong></td><td>Concedida ou revogada por convênio</td><td>Condição não satisfeita: imposto devido desde a operação</td></tr><tr><td><strong>Convênio autorizativo</strong></td><td>Só integra a legislação após decreto</td><td>Convênio impositivo vigora na data nele prevista</td></tr><tr><td><strong>Suspensão por demonstração</strong></td><td>Destinatário contribuinte no Estado</td><td>Encerra com a venda ou sem retorno em 60 dias</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Exportação indireta",
+      "o_que_e": "Equipara-se à exportação a saída com fim específico de exportação para empresa comercial exportadora, inclusive trading, ou para armazém alfandegado ou entreposto aduaneiro (art. 3º, § 2º).",
+      "atencao": "Se a mercadoria não chegar ao destino ou for reintroduzida no mercado interno, a operação é tributável, com acréscimos e penalidades (art. 3º, § 3º).",
+      "grupo": "Não incidência"
+     },
+     {
+      "nome": "Impresso personalizado",
+      "o_que_e": "Não incide na operação com impresso personalizado promovida pela indústria gráfica diretamente a usuário final (art. 3º, XIV).",
+      "atencao": "Não vale para o impresso destinado a etapas seguintes de comercialização ou industrialização (art. 3º, § 4º).",
+      "grupo": "Não incidência"
+     },
+     {
+      "nome": "Prorrogação de convênio",
+      "o_que_e": "É imediata a aplicação de convênio que prorroga benefício fiscal, publicada a ratificação no Diário Oficial da União, mesmo no caso de convênio autorizativo já incorporado (art. 4º, § 5º).",
+      "grupo": "Isenções"
+     },
+     {
+      "nome": "Bares e restaurantes",
+      "o_que_e": "No fornecimento de refeições em bares, restaurantes e similares e nas refeições coletivas, o contribuinte pode optar por carga tributária de 4% em substituição aos créditos normais (art. 4º-A, I).",
+      "grupo": "Isenções"
+     },
+     {
+      "nome": "Cesta básica isenta",
+      "o_que_e": "O art. 4º-D isenta parte da cesta básica, como hortifrutícolas em estado natural, leite e derivados e carnes frescas.",
+      "grupo": "Isenções"
+     },
+     {
+      "nome": "Cesta básica com carga de 7%",
+      "o_que_e": "Outra parte tem redução de base de cálculo para carga de 7%, como arroz, feijão, açúcar cristal em embalagem de até 2 kg, café torrado e farinha de mandioca (art. 4º-D).",
+      "grupo": "Isenções"
+     },
+     {
+      "nome": "Veículo usado",
+      "o_que_e": "É isenta a saída interna de veículo usado de estabelecimento revendedor; usado é o veículo com mais de 1 ano de uso ou mais de 20.000 km rodados (art. 4º-E).",
+      "grupo": "Isenções"
+     },
+     {
+      "nome": "Mudança de endereço",
+      "o_que_e": "Fica suspenso o lançamento na operação com mercadoria do estoque levada de um lugar para outro dentro do Estado por mudança de localização do estabelecimento (art. 5º, § 1º, I).",
+      "grupo": "Suspensão"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -112,8 +242,18 @@
     "gabarito": "E",
     "explicacao": "O art. 3º, § 1º, afasta expressamente a não incidência para livro em branco ou simplesmente pautado, agenda ou similar e catálogo, guia, lista e outros impressos que contenham propaganda comercial."
    },
-   "aprofundamento": "<p><strong>Exportação indireta.</strong> Equipara-se à exportação a saída com fim específico de exportação destinada a empresa comercial exportadora, inclusive trading, ou a armazém alfandegado ou entreposto aduaneiro. Se a mercadoria não chegar ao destino ou for reintroduzida no mercado interno, a operação será considerada tributável, com acréscimos e penalidades (art. 3º, §§ 2º e 3º).</p><p><strong>Impresso personalizado.</strong> Não incide o imposto na operação com impresso personalizado promovida pela indústria gráfica diretamente a usuário final, mas a regra não se aplica ao impresso destinado a etapas seguintes de comercialização ou industrialização (art. 3º, XIV e § 4º).</p><p><strong>Prorrogação de convênio.</strong> É imediata a aplicação de convênio que prorroga benefício fiscal, uma vez publicada a ratificação no Diário Oficial da União, mesmo no caso de convênio autorizativo já incorporado (art. 4º, § 5º).</p><p><strong>Bares e restaurantes.</strong> No fornecimento de refeições em bares, restaurantes e similares e nas refeições coletivas, o contribuinte pode optar por carga tributária de 4% do ICMS em substituição aos créditos normais (art. 4º-A, I).</p><p><strong>Cesta básica.</strong> O art. 4º-D separa a cesta básica em dois grupos: produtos isentos, como hortifrutícolas em estado natural, leite e derivados e carnes frescas, e produtos com redução de base de cálculo para carga de 7%, como arroz, feijão, açúcar cristal em embalagem de até 2 kg, café torrado e farinha de mandioca.</p><p><strong>Veículo usado.</strong> É isenta a saída interna de veículo usado de estabelecimento revendedor; considera-se usado o veículo com mais de 1 ano de uso ou mais de 20.000 km rodados (art. 4º-E).</p><p><strong>Mudança de endereço.</strong> Fica suspenso o lançamento na operação com mercadoria do estoque transportada de um lugar para outro dentro do Estado em decorrência da mudança de localização do estabelecimento (art. 5º, § 1º, I).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O benefício de convênio ICMS autorizativo integra a legislação de Alagoas desde a publicação da ratificação, sem depender de decreto estadual.",
+     "certo": "O autorizativo só integra a legislação estadual depois de regulamentado por decreto; o impositivo vigora na data nele prevista (art. 4º, § 3º).",
+     "fonte": "Questões do app sobre os convênios"
+    },
+    {
+     "errado": "Na remessa para demonstração a contribuinte situado em Alagoas, a suspensão se encerra se a mercadoria não retornar em 90 dias.",
+     "certo": "O prazo é de 60 dias, e a suspensão também se encerra com a transmissão da propriedade (art. 5º, § 2º).",
+     "fonte": "Questões do app sobre a remessa para demonstração"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-incidencia-e-fato-gerador",
     "icms-alagoas-base-de-calculo-e-aliquotas"
@@ -135,19 +275,78 @@
    "palavras": [
     "base de calculo",
     "aliquota",
-    "20,5%",
+    "20 5",
     "difal",
     "resolucao 13",
-    "importados 4%",
+    "importados 4",
     "arbitramento",
     "pauta",
     "ipi na base",
     "por dentro"
    ],
-   "resumo": "Na regra geral, a base de cálculo é o <strong>valor da operação</strong> de que decorrer a saída (art. 6º, I). Na importação, soma-se o valor dos documentos de importação, o imposto de importação, o IPI, o IOF câmbio, as despesas aduaneiras e quaisquer outros impostos, taxas e contribuições. Integra a base o <strong>montante do próprio imposto</strong>, sendo o destaque mera indicação para fins de controle, além de seguro, juros, descontos concedidos sob condição e frete cobrado em separado quando o transporte for do próprio remetente ou por sua conta e ordem (art. 7º). O IPI fica fora da base quando a operação, entre contribuintes e com produto destinado à industrialização ou à comercialização, configurar fato gerador dos dois impostos; fora dessa hipótese, integra a base (art. 8º). Alíquotas internas (art. 17, I): <strong>20,5%</strong> nos demais casos, na redação da Lei 9.776/2025, com efeitos a partir de 01/04/2026; <strong>25%</strong> para itens como perfumes e cosméticos, rodas esportivas, peleteria, aparelhos de sauna e banheiras de hidromassagem, videogames, artigos de antiquário e brinquedos que imitam armas; <strong>27%</strong> para bebidas alcoólicas; <strong>29%</strong> para cigarros e fumo, joias e aviões e helicópteros para uso não comercial; <strong>12%</strong> para transporte aéreo, fogos de artifício, embarcações de esporte e recreio e gás natural veicular. Nas operações interestaduais, a alíquota é de <strong>12%</strong>, salvo 4% no transporte aéreo e nas operações com bens e mercadorias importados do exterior (Resolução do Senado 13/2012). Na venda a consumidor final de outra unidade da Federação, adota-se a alíquota interestadual, e a diferença para a alíquota interna cabe ao Estado do destinatário (art. 17, §§ 1º e 2º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Fato gerador do ICMS:</strong> o momento em que a lei considera ocorrida a operação tributada.",
+     "tema": "icms-alagoas-incidencia-e-fato-gerador"
+    }
+   ],
+   "resumo": "A <strong>base de cálculo</strong> é o valor sobre o qual se aplica a <strong>alíquota</strong>, o percentual do imposto. Na regra geral, é o valor da operação de que decorre a saída (art. 6º, I). Na importação, somam-se o valor dos documentos de importação, o imposto de importação, o IPI, o IOF câmbio, as despesas aduaneiras e quaisquer outros impostos, taxas e contribuições. O ICMS é calculado <strong>por dentro</strong>: o próprio imposto compõe a base. Também entram seguro, juros, descontos concedidos sob condição e o frete cobrado em separado, quando o transporte for feito pelo remetente ou por sua conta e ordem (art. 7º). O IPI fica de fora quando a operação, entre contribuintes e com produto destinado à industrialização ou à comercialização, for fato gerador dos dois impostos; nos demais casos, integra a base (art. 8º). As alíquotas internas variam pelo produto, de 12% a 29%, com uma alíquota geral para os casos não listados; o esquema traz cada faixa. Nas operações interestaduais, a alíquota é de 12%, e cai a 4% no transporte aéreo e nos bens e mercadorias importados do exterior (Resolução do Senado 13/2012). Na venda a consumidor final de outro Estado, aplica-se a alíquota interestadual, e a diferença para a alíquota interna, o <strong>diferencial de alíquotas</strong> (difal), cabe ao Estado do destinatário (art. 17, §§ 1º e 2º).",
    "esquema": {
     "rotulo": "alíquotas do art. 17 da Lei 5.900/1996",
     "html": "<table><thead><tr><th>Alíquota</th><th>Onde se aplica</th></tr></thead><tbody><tr><td><strong>20,5%</strong></td><td>Operações internas e importações não discriminadas (regra geral, desde 01/04/2026)</td></tr><tr><td><strong>25%</strong></td><td>Perfumes e cosméticos, rodas esportivas, peleteria, sauna e hidromassagem, videogames, antiquário, brinquedos que imitam armas</td></tr><tr><td><strong>27%</strong></td><td>Bebidas alcoólicas</td></tr><tr><td><strong>29%</strong></td><td>Cigarro, charuto e fumo, joias, aviões e helicópteros para uso não comercial</td></tr><tr><td><strong>12% interna</strong></td><td>Transporte aéreo, fogos de artifício, embarcações de esporte e recreio, ultraleves e similares, gás natural veicular</td></tr><tr><td><strong>12% interestadual</strong></td><td>Regra das operações e prestações interestaduais</td></tr><tr><td><strong>4% interestadual</strong></td><td>Transporte aéreo e importados sem industrialização ou com conteúdo de importação superior a 40%</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Arbitramento",
+      "o_que_e": "O Fisco arbitra o valor quando não forem exibidos os elementos de comprovação, houver fundada suspeita sobre os documentos ou a escrita for imprestável, assegurada a avaliação contraditória na impugnação (art. 15).",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Trânsito sem documento",
+      "o_que_e": "Mercadoria em trânsito ou em estabelecimento não cadastrado, sem documento fiscal ou com documento inidôneo: a base é o maior preço de venda a varejo na praça da ocorrência ou, na falta, no mercado varejista regional (art. 6º, XVI).",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Levantamento fisco-contábil",
+      "o_que_e": "Na saída sem documento apurada em levantamento, a base é o valor da aquisição mais recente ou o custo de produção, mais margem de 50%, salvo percentual específico (art. 6º, XVII).",
+      "atencao": "Para o estoque final no encerramento da atividade, a margem é de 30% (art. 6º, XII, a).",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Sem destinatário certo",
+      "o_que_e": "Mercadoria trazida de outro Estado sem destinatário certo paga antecipadamente sobre o valor do documento acrescido de 50%, salvo outro percentual em decreto, compensado o imposto da origem até o limite da alíquota interestadual (art. 16).",
+      "atencao": "Documento de R$ 10.000,00 dá base de R$ 15.000,00.",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Falta do valor da operação",
+      "o_que_e": "Vale o preço corrente no mercado atacadista se o remetente for produtor, o preço FOB industrial à vista se industrial e o preço FOB comercial à vista se comerciante (art. 9º).",
+      "atencao": "Se o comerciante não vender a outros comerciantes, a base é 75% do preço de venda no varejo.",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Pauta fiscal",
+      "o_que_e": "Se o valor da operação superar o da pauta, prevalece o valor da operação; o contribuinte pode provar a exatidão do valor declarado, e na operação interestadual a pauta depende de acordo com o outro Estado (art. 14, §§ 2º a 4º).",
+      "grupo": "Valor arbitrado ou presumido"
+     },
+     {
+      "nome": "Câmbio na importação",
+      "o_que_e": "O preço em moeda estrangeira se converte pela mesma taxa de câmbio usada no imposto de importação, sem acréscimo ou devolução posterior (art. 13).",
+      "grupo": "Importação e substituição"
+     },
+     {
+      "nome": "Base da substituição tributária",
+      "o_que_e": "Para as operações subsequentes, esgotada cada hipótese em ordem: preço final fixado por órgão público; preço sugerido pelo fabricante previsto em legislação ou acordo; ou valor da operação própria com frete, seguro e margem de valor agregado (art. 6º, XIII, b).",
+      "grupo": "Importação e substituição"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -169,8 +368,23 @@
     "gabarito": "E",
     "explicacao": "A alíquota dos demais casos é de 20,5%, na redação dada ao art. 17, I, b, pela Lei 9.776/2025, com efeitos a partir de 01/04/2026."
    },
-   "aprofundamento": "<p><strong>Arbitramento.</strong> O Fisco arbitra o valor quando não forem exibidos os elementos de comprovação, houver fundada suspeita sobre os documentos ou a escrita for imprestável, assegurada a avaliação contraditória na impugnação (art. 15).</p><p><strong>Mercadoria em trânsito sem documento.</strong> No caso de mercadoria encontrada em trânsito ou em estabelecimento não cadastrado, desacompanhada de documentação fiscal ou com documento inidôneo, a base é o maior preço de venda a varejo na praça da ocorrência ou, na falta, no mercado varejista regional (art. 6º, XVI).</p><p><strong>Margens de agregação do levantamento.</strong> Na saída sem documento apurada em levantamento fisco-contábil, a base é o valor da aquisição mais recente ou o custo de produção, acrescido de margem de 50%, salvo percentual específico (art. 6º, XVII). Para o estoque final no encerramento da atividade, a margem é de 30% (art. 6º, XII, a).</p><p><strong>Mercadoria sem destinatário certo.</strong> Na mercadoria trazida de outro Estado sem destinatário certo, o imposto é recolhido antecipadamente sobre o valor do documento acrescido de 50%, salvo outro percentual em decreto, admitida a compensação do imposto da origem até o limite da alíquota interestadual (art. 16).</p><p><strong>Falta do valor da operação.</strong> Na falta do valor da operação, a base é o preço corrente no mercado atacadista quando o remetente for produtor, o preço FOB industrial à vista quando industrial e o preço FOB comercial à vista quando comerciante; se o comerciante não vender a outros comerciantes, a base é 75% do preço de venda no varejo (art. 9º).</p><p><strong>Pauta fiscal.</strong> Quando o valor da operação for superior ao fixado em pauta, prevalece o valor da operação; o contribuinte pode comprovar a exatidão do valor declarado, e na operação interestadual a pauta depende de acordo com o outro Estado (art. 14, §§ 2º a 4º).</p><p><strong>Câmbio na importação.</strong> O preço em moeda estrangeira é convertido pela mesma taxa de câmbio usada no cálculo do imposto de importação, sem acréscimo ou devolução posterior (art. 13).</p><p><strong>Base da substituição tributária.</strong> Para as operações subsequentes, esgotada sucessivamente cada hipótese, a base é o preço final fixado por órgão público, o preço sugerido pelo fabricante previsto em legislação ou acordo, ou o valor da operação própria somado a frete, seguro e margem de valor agregado (art. 6º, XIII, b).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O IPI integra a base do ICMS em qualquer operação, inclusive entre contribuintes com produto destinado à industrialização que seja fato gerador dos dois impostos.",
+     "certo": "Nessa hipótese o IPI fica fora da base (art. 8º).",
+     "fonte": "Questões do app sobre o IPI na base"
+    },
+    {
+     "errado": "Em Alagoas, as bebidas alcoólicas pagam ICMS de 29%, a mesma alíquota de cigarros e joias.",
+     "certo": "Bebidas alcoólicas pagam 27%; 29% é a alíquota de cigarro, charuto e fumo, joias e aviões e helicópteros para uso não comercial (art. 17, I).",
+     "fonte": "Questões do app sobre as alíquotas internas"
+    },
+    {
+     "errado": "A alíquota interestadual de 4% alcança todos os importados, inclusive gás natural e bens sem similar nacional da lista da CAMEX.",
+     "certo": "O art. 17, § 4º, afasta os 4% nesses casos e nos produtos com processo produtivo básico.",
+     "fonte": "Questões do app sobre a alíquota de 4%"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-incidencia-e-fato-gerador",
     "icms-alagoas-sujeicao-passiva-e-substituicao"
@@ -201,10 +415,66 @@
     "transportador autonomo",
     "estabelecimento autonomo"
    ],
-   "resumo": "<strong>Contribuinte</strong> é a pessoa natural ou jurídica que realize, com habitualidade ou em volume que caracterize intuito comercial, operação de circulação de mercadoria ou prestação de transporte interestadual e intermunicipal e de comunicação (art. 18). Mesmo sem habitualidade, é contribuinte quem importa mercadorias ou bens, qualquer que seja a finalidade, quem é destinatário de serviço do exterior, quem adquire em licitação bens apreendidos ou abandonados e quem adquire em outro Estado combustíveis ou energia elétrica não destinados à comercialização ou à industrialização. O art. 21 aponta responsáveis, como o leiloeiro, o armazém geral, o transportador que entrega mercadoria a destinatário diverso e qualquer possuidor de mercadoria sem documento fiscal. O art. 22 lista solidários, e essa solidariedade não comporta benefício de ordem. Na <strong>substituição tributária</strong> (art. 23), o responsável retém e recolhe o imposto de operações antecedentes, concomitantes ou subsequentes: o destinatário, nas antecedentes do Anexo I; o remetente, nas subsequentes do Anexo II; e o tomador contribuinte, no transporte iniciado no Estado por autônomo ou por transportadora de fora não inscrita. Em operações interestaduais, a ST depende de acordo entre os Estados. O imposto devido por ST nas operações subsequentes é a diferença entre a alíquota interna aplicada sobre a base presumida e o imposto da operação própria do substituto (art. 26). O substituído tem direito à <strong>restituição</strong> se o fato gerador presumido não ocorrer ou se a venda a consumidor final se realizar por valor inferior ao presumido; esta segunda hipótese vale para fatos posteriores a 5 de abril de 2017 (art. 27). Se a venda ocorrer por valor superior, o substituído paga a diferença (art. 27-A).",
+   "para_entender": [
+    {
+     "texto": "<strong>Base de cálculo da substituição tributária:</strong> preço fixado por órgão público, preço sugerido pelo fabricante ou valor da operação com margem de valor agregado.",
+     "tema": "icms-alagoas-base-de-calculo-e-aliquotas"
+    }
+   ],
+   "resumo": "O <strong>sujeito passivo</strong> é quem a lei obriga a pagar. Pode ser o <strong>contribuinte</strong>, que pratica o fato gerador, ou o <strong>responsável</strong>, terceiro que a lei chama a pagar no lugar dele ou junto com ele. Pelo art. 18, contribuinte é a pessoa natural ou jurídica que realiza, com habitualidade ou em volume que caracterize intuito comercial, operações de circulação de mercadoria ou prestações de transporte interestadual e intermunicipal e de comunicação. Algumas pessoas são contribuintes mesmo sem habitualidade, como quem importa bens, qualquer que seja a finalidade. O art. 21 aponta responsáveis por atos ou omissões que concorrem para a falta de pagamento, e o art. 22 lista os <strong>solidários</strong>, que respondem junto com o contribuinte sem <strong>benefício de ordem</strong>: a Fazenda pode cobrar de qualquer deles, sem esgotar antes o devedor principal. Na <strong>substituição tributária</strong> (art. 23), um responsável, o <strong>substituto</strong>, retém e recolhe o imposto de operações antecedentes, concomitantes ou subsequentes de outros contribuintes, os <strong>substituídos</strong>; em operações interestaduais, ela depende de acordo entre os Estados. O esquema mostra quem ocupa cada posição. Nas operações subsequentes, o substituto recolhe a diferença entre a alíquota interna aplicada sobre a base presumida e o imposto da própria operação (art. 26). O substituído tem direito à restituição se o fato gerador presumido não ocorrer ou se a venda a consumidor final se der por valor menor que o presumido, esta para fatos posteriores a 5 de abril de 2017 (art. 27); se a venda se der por valor maior, ele paga a diferença (art. 27-A).",
    "esquema": {
     "rotulo": "quem paga o ICMS",
     "html": "<table><thead><tr><th>Figura</th><th>Quem é</th><th>Regra que decide</th></tr></thead><tbody><tr><td><strong>Contribuinte habitual</strong></td><td>Quem opera com habitualidade ou volume com intuito comercial</td><td>art. 18, caput</td></tr><tr><td><strong>Contribuinte sem habitualidade</strong></td><td>Importador, destinatário de serviço do exterior, arrematante, adquirente interestadual de combustível ou energia para consumo</td><td>art. 18, § 1º</td></tr><tr><td><strong>Difal a não contribuinte</strong></td><td>O remetente</td><td>art. 18, § 2º, XII, b</td></tr><tr><td><strong>Responsável (art. 21)</strong></td><td>Leiloeiro, armazém geral, transportador, possuidor de mercadoria sem documento, sucessor</td><td>atos ou omissões que concorrem para o não recolhimento</td></tr><tr><td><strong>Solidário (art. 22)</strong></td><td>Representante, demais estabelecimentos do titular, gráfica sem autorização</td><td>sem benefício de ordem</td></tr><tr><td><strong>Substituto nas antecedentes</strong></td><td>Destinatário da mercadoria (Anexo I)</td><td>art. 23, I</td></tr><tr><td><strong>Substituto nas subsequentes</strong></td><td>Remetente (Anexo II)</td><td>art. 23, II</td></tr><tr><td><strong>Substituto no transporte</strong></td><td>Tomador contribuinte, se o transportador for autônomo ou empresa de fora não inscrita</td><td>art. 23, IV</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Estabelecimento autônomo",
+      "o_que_e": "Cada estabelecimento é autônomo, mas todos os do mesmo titular respondem pelo crédito tributário (art. 19, §§ 3º e 4º).",
+      "grupo": "Estabelecimentos e sujeição"
+     },
+     {
+      "nome": "Difal na venda a consumidor de outro Estado",
+      "o_que_e": "O contribuinte da diferença de alíquotas é o destinatário, se contribuinte, ou o remetente, se o destinatário não for contribuinte (art. 18, § 2º, XII).",
+      "grupo": "Estabelecimentos e sujeição"
+     },
+     {
+      "nome": "Convenções particulares",
+      "o_que_e": "Acordos privados sobre quem paga o imposto não podem ser opostos à Fazenda Pública para mudar a definição legal do sujeito passivo (art. 29).",
+      "grupo": "Estabelecimentos e sujeição"
+     },
+     {
+      "nome": "Irrelevâncias",
+      "o_que_e": "Para excluir a responsabilidade, não importam a capacidade civil da pessoa natural, a irregularidade formal na constituição da pessoa jurídica nem a inexistência ou clandestinidade do estabelecimento (art. 28).",
+      "grupo": "Estabelecimentos e sujeição"
+     },
+     {
+      "nome": "Sub-rogação do responsável",
+      "o_que_e": "O responsável sub-roga-se nos direitos e obrigações do contribuinte originário, e a Fazenda pode exigir deste o que o responsável não pagar (art. 21, § 2º).",
+      "grupo": "Estabelecimentos e sujeição"
+     },
+     {
+      "nome": "Definitividade da base presumida",
+      "o_que_e": "Com anuência expressa do contribuinte, o Poder Executivo pode tornar definitiva a base de cálculo da ST, e então não cabe restituição nem complementação (art. 27, § 4º, II).",
+      "grupo": "Substituição tributária"
+     },
+     {
+      "nome": "Cooperativas",
+      "o_que_e": "Nas operações entre o associado e a cooperativa de produtores situada no Estado, a responsabilidade passa à destinatária, que recolhe na saída subsequente (art. 23, §§ 7º e 9º).",
+      "grupo": "Substituição tributária"
+     },
+     {
+      "nome": "Combustíveis monofásicos",
+      "o_que_e": "Na tributação monofásica de gasolina, diesel, biodiesel e GLP, o ICMS incide uma única vez; os contribuintes são o produtor, os equiparados e o importador, e é vedado o crédito das operações antecedentes (arts. 38-A, 38-C e 38-H).",
+      "grupo": "Substituição tributária"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -224,10 +494,25 @@
    "pegadinha": {
     "afirmacao": "Formulado o pedido de restituição do ICMS pago por substituição tributária e não havendo deliberação no prazo de 60 dias, o contribuinte substituído pode creditar-se do valor em sua escrita fiscal.",
     "gabarito": "E",
-    "explicacao": "O prazo é de 90 dias: formulado o pedido de restituição e não havendo deliberação em 90 dias, o substituído pode creditar-se do valor, devidamente atualizado (art. 27, § 1º)."
+    "explicacao": "O prazo é de 90 dias, e não de 60. Passado esse prazo sem decisão sobre o pedido, o substituído lança o valor atualizado como crédito na escrita fiscal (art. 27, § 1º)."
    },
-   "aprofundamento": "<p><strong>Estabelecimento autônomo.</strong> Cada estabelecimento é autônomo, mas todos os estabelecimentos do mesmo titular respondem pelo crédito tributário (art. 19, §§ 3º e 4º).</p><p><strong>Diferencial de alíquotas.</strong> Na venda a consumidor final de outro Estado, o contribuinte da diferença de alíquotas é o destinatário, se contribuinte, ou o remetente, se o destinatário não for contribuinte (art. 18, § 2º, XII).</p><p><strong>Convenções particulares.</strong> As convenções particulares sobre responsabilidade pelo pagamento do imposto não podem ser opostas à Fazenda Pública para modificar a definição legal do sujeito passivo (art. 29).</p><p><strong>Irrelevâncias.</strong> Para excluir a responsabilidade, são irrelevantes a capacidade civil da pessoa natural, a irregularidade formal na constituição da pessoa jurídica e a inexistência ou clandestinidade do estabelecimento (art. 28).</p><p><strong>Sub-rogação do responsável.</strong> O responsável sub-roga-se nos direitos e obrigações do contribuinte originário, ressalvado à Fazenda o direito de exigir deste a obrigação não satisfeita pelo responsável (art. 21, § 2º).</p><p><strong>Definitividade da base presumida.</strong> O Poder Executivo pode estabelecer, mediante anuência expressa do contribuinte, a definitividade da base de cálculo da ST, caso em que não cabe restituição nem complementação (art. 27, § 4º, II).</p><p><strong>Cooperativas.</strong> A responsabilidade pelo imposto nas operações entre o associado e a cooperativa de produtores situada no Estado fica transferida para a destinatária, que recolhe na saída subsequente (art. 23, §§ 7º e 9º).</p><p><strong>Combustíveis monofásicos.</strong> Na tributação monofásica de gasolina, diesel, biodiesel e GLP, o ICMS incide uma única vez, os contribuintes são o produtor, os equiparados e o importador, e é vedada a apropriação de créditos das operações antecedentes às saídas desses combustíveis (arts. 38-A, 38-C e 38-H).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Na venda a consumidor final não contribuinte localizado em outro Estado, o contribuinte do diferencial de alíquotas é o destinatário.",
+     "certo": "Se o destinatário não é contribuinte, quem paga o diferencial é o remetente (art. 18, § 2º, XII).",
+     "fonte": "Questões do app sobre o diferencial de alíquotas"
+    },
+    {
+     "errado": "A solidariedade do art. 22 da Lei 5.900/1996 comporta benefício de ordem, e a Fazenda deve cobrar primeiro o contribuinte.",
+     "certo": "Não comporta: a Fazenda pode exigir o imposto de qualquer dos solidários (art. 22, § 2º).",
+     "fonte": "Questões do app sobre a solidariedade"
+    },
+    {
+     "errado": "A restituição do ICMS-ST pela venda a consumidor final abaixo do valor presumido vale para qualquer fato gerador, inclusive anterior a 2017.",
+     "certo": "Vale para fatos geradores posteriores a 5 de abril de 2017 (art. 27).",
+     "fonte": "Questões do app sobre a restituição do ICMS-ST"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-base-de-calculo-e-aliquotas",
     "icms-alagoas-nao-cumulatividade-e-apuracao"
@@ -250,7 +535,7 @@
     "nao cumulatividade",
     "credito fiscal",
     "ativo permanente",
-    "1/48",
+    "1 48",
     "estorno",
     "energia eletrica",
     "saldo credor",
@@ -258,10 +543,66 @@
     "estimativa",
     "restituicao"
    ],
-   "resumo": "O ICMS é <strong>não cumulativo</strong>: compensa-se o devido em cada operação com o montante cobrado nas anteriores, por Alagoas ou por outra unidade da Federação (art. 32). O direito ao crédito depende da <strong>idoneidade da documentação</strong> e da escrituração nos prazos do regulamento, e extingue-se após cinco anos contados da data de emissão do documento que lhe deu origem (art. 34, § 1º). Se o imposto foi destacado a maior, o crédito não compreende o excesso. O crédito de bem do <strong>ativo permanente</strong> é apropriado à razão de um quarenta e oito avos por mês, a partir do mês da entrada, na proporção das saídas tributadas sobre o total das saídas; se o bem for alienado antes de quatro anos, cessa o creditamento da fração restante, e ao fim do quadragésimo oitavo mês o saldo é cancelado (art. 34, § 6º). A entrada de <strong>energia elétrica</strong> só dá crédito quando for objeto de saída de energia, consumida na industrialização ou quando o consumo resultar em exportação, na proporção desta (art. 34, § 7º). Não dão crédito as entradas isentas ou não tributadas nem as alheias à atividade do estabelecimento; presumem-se alheios, salvo prova em contrário, os veículos de transporte pessoal (art. 35). O contribuinte <strong>estorna</strong> o crédito quando a mercadoria tiver saída isenta ou não tributada, for usada em fim alheio, perecer, deteriorar-se ou extraviar-se, e de forma proporcional quando houver redução de base (art. 37). Não se anulam os créditos de mercadorias exportadas nem os do papel destinado à impressão de livros, jornais e periódicos (art. 38). Na <strong>apuração</strong> (art. 39), os débitos do período se compensam com os créditos e o saldo credor anterior; o saldo devedor é pago no prazo do decreto e o saldo credor passa ao período seguinte. Os saldos dos estabelecimentos do mesmo sujeito passivo no Estado se compensam entre si.",
+   "para_entender": [
+    {
+     "texto": "<strong>Base de cálculo e alíquota:</strong> o imposto de cada operação é a alíquota aplicada sobre a base.",
+     "tema": "icms-alagoas-base-de-calculo-e-aliquotas"
+    }
+   ],
+   "resumo": "O ICMS é <strong>não cumulativo</strong>: em cada operação, o contribuinte abate do imposto devido o montante cobrado nas operações anteriores, por Alagoas ou por outra unidade da Federação (art. 32). Na prática, o imposto das entradas vira <strong>crédito</strong>, o das saídas vira <strong>débito</strong>, e paga-se a diferença. O direito ao crédito depende de documentação idônea e de escrituração nos prazos do regulamento (art. 34). Não geram crédito as entradas isentas ou não tributadas nem as alheias à atividade do estabelecimento (art. 35). O <strong>estorno</strong> é a anulação do crédito já lançado: o contribuinte o faz quando a mercadoria tem saída isenta ou não tributada, é usada em fim alheio à atividade, perece, se deteriora ou se extravia, e o faz na proporção quando há redução de base (art. 37). O bem do <strong>ativo permanente</strong>, a máquina ou o equipamento usado na atividade, tem crédito parcelado, e a energia elétrica e a comunicação só dão crédito em certos usos; o esquema reúne essas regras. Na <strong>apuração</strong> (art. 39), os débitos do período se compensam com os créditos e com o saldo credor anterior. Sobrando débito, ele é pago no prazo fixado em decreto; sobrando crédito, passa ao período seguinte. Os saldos dos estabelecimentos do mesmo sujeito passivo no Estado se compensam entre si.",
    "esquema": {
     "rotulo": "crédito, vedação e estorno",
     "html": "<table><thead><tr><th>Situação</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Prazo para usar o crédito</strong></td><td>Cinco anos da emissão do documento</td><td>art. 34, § 1º</td></tr><tr><td><strong>Imposto destacado a maior</strong></td><td>Crédito sem o excesso</td><td>art. 34, § 2º</td></tr><tr><td><strong>Ativo permanente</strong></td><td>1/48 por mês, proporcional às saídas tributadas; cancela o saldo no 48º mês</td><td>art. 34, § 6º</td></tr><tr><td><strong>Energia elétrica</strong></td><td>Só na saída de energia, na industrialização ou na exportação proporcional</td><td>art. 34, § 7º</td></tr><tr><td><strong>Comunicação</strong></td><td>Só na execução de serviço da mesma natureza ou na exportação proporcional</td><td>art. 34, § 8º</td></tr><tr><td><strong>Veículo de transporte pessoal</strong></td><td>Presume-se alheio à atividade, salvo prova</td><td>art. 35, parágrafo único</td></tr><tr><td><strong>Perecimento ou extravio</strong></td><td>Estorno</td><td>art. 37, IV</td></tr><tr><td><strong>Exportação e papel de livros</strong></td><td>Mantém o crédito</td><td>art. 38</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Conta do ativo permanente",
+      "o_que_e": "Máquina com ICMS de R$ 48.000,00: 1/48 dá R$ 1.000,00 por mês; com 75% das saídas tributadas no mês, o crédito do mês é de R$ 750,00.",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Produto agropecuário",
+      "o_que_e": "Operações tributadas posteriores a saídas isentas ou não tributadas de produtos agropecuários dão direito ao crédito das operações anteriores às isentas (art. 36, § 1º).",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Benefício de outro Estado",
+      "o_que_e": "Ato da Secretaria da Fazenda pode vedar o crédito, ainda que destacado, quando outro Estado conceder benefício em desacordo com a lei complementar (art. 36, § 2º).",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Estorno sem saber a entrada",
+      "o_que_e": "Com mais de uma aquisição e sem saber a qual corresponde a mercadoria, o estorno aplica a alíquota vigente na data do estorno sobre o preço da aquisição mais recente (art. 37, § 1º).",
+      "grupo": "Crédito"
+     },
+     {
+      "nome": "Exportador com saldo credor",
+      "o_que_e": "Quem exporta pode, na proporção dessas saídas, imputar o saldo credor acumulado a outro estabelecimento seu no Estado e transferir o restante a outros contribuintes alagoanos, com documento da Secretaria da Fazenda (art. 39, § 3º).",
+      "grupo": "Apuração e saldo"
+     },
+     {
+      "nome": "Débitos que o crédito não paga",
+      "o_que_e": "Salvo previsão regulamentar, o crédito não compensa o imposto devido por substituição tributária, na importação e nas entradas interestaduais do parágrafo único do art. 1º (art. 39, § 4º).",
+      "grupo": "Apuração e saldo"
+     },
+     {
+      "nome": "Estimativa",
+      "o_que_e": "Por decreto, o imposto pode ser pago em parcelas periódicas calculadas por estimativa, com ajuste ao fim do período: a diferença positiva é paga e a negativa é compensada depois, sem dispensa das obrigações acessórias (art. 40).",
+      "grupo": "Apuração e saldo"
+     },
+     {
+      "nome": "Restituição do indébito",
+      "o_que_e": "Exige prova de que o encargo financeiro não foi transferido a terceiro, ou autorização de quem o suportou; deferida, a compensação em cada período não passa de 20% do saldo devedor (art. 45).",
+      "grupo": "Apuração e saldo"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -283,8 +624,23 @@
     "gabarito": "E",
     "explicacao": "A apropriação é de um quarenta e oito avos por mês, e o saldo remanescente é cancelado ao final do quadragésimo oitavo mês contado da entrada do bem (art. 34, § 6º, I e VII)."
    },
-   "aprofundamento": "<p><strong>Exportador com saldo credor acumulado.</strong> O estabelecimento que exporta pode, na proporção dessas saídas, imputar o saldo credor acumulado a outro estabelecimento seu no Estado e, havendo saldo remanescente, transferi-lo a outros contribuintes alagoanos mediante documento da Secretaria da Fazenda (art. 39, § 3º).</p><p><strong>Crédito não paga qualquer débito.</strong> Salvo previsão regulamentar, é vedado usar crédito para compensar o imposto devido por substituição tributária, na importação e nas entradas interestaduais do parágrafo único do art. 1º (art. 39, § 4º).</p><p><strong>Estimativa.</strong> Por decreto, o imposto pode ser pago em parcelas periódicas calculadas por estimativa, com ajuste ao fim do período: a diferença positiva é paga e a negativa é compensada nos períodos seguintes, sem dispensar as obrigações acessórias (art. 40).</p><p><strong>Produto agropecuário.</strong> Operações tributadas posteriores a saídas isentas ou não tributadas de produtos agropecuários dão direito ao crédito das operações anteriores às isentas (art. 36, § 1º).</p><p><strong>Benefício de outro Estado.</strong> Ato da Secretaria da Fazenda pode vedar o crédito, ainda que destacado, quando outro Estado conceder benefício em desacordo com a lei complementar (art. 36, § 2º).</p><p><strong>Restituição do indébito.</strong> A restituição exige prova de que o encargo financeiro não foi transferido a terceiro, ou autorização de quem o suportou; deferido o pedido, o valor compensado em cada período não pode passar de 20% do saldo devedor do período (art. 45).</p><p><strong>Estorno sem saber qual entrada.</strong> Havendo mais de uma aquisição e sendo impossível saber a qual delas corresponde a mercadoria, o estorno aplica a alíquota vigente na data do estorno sobre o preço da aquisição mais recente (art. 37, § 1º).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O direito de usar o crédito do ICMS se extingue em cinco anos contados da entrada da mercadoria no estabelecimento.",
+     "certo": "O prazo conta da emissão do documento que deu origem ao crédito (art. 34, § 1º).",
+     "fonte": "Questões do app sobre o prazo do crédito"
+    },
+    {
+     "errado": "A entrada de energia elétrica em estabelecimento comercial dá crédito do ICMS em qualquer hipótese.",
+     "certo": "Só dá crédito quando a energia é objeto de saída de energia, consumida na industrialização ou quando o consumo resulta em exportação, na proporção desta (art. 34, § 7º).",
+     "fonte": "Questões do app sobre o crédito de energia elétrica"
+    },
+    {
+     "errado": "Deferida a restituição do indébito, a compensação em cada período pode chegar a 50% do saldo devedor.",
+     "certo": "O limite é de 20% do saldo devedor do período (art. 45).",
+     "fonte": "Questões do app sobre a restituição do indébito"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-sujeicao-passiva-e-substituicao",
     "icms-alagoas-penalidades-e-denuncia-espontanea"
@@ -306,19 +662,79 @@
    "palavras": [
     "multa",
     "reducao de multa",
-    "70%",
+    "70",
     "juros de mora",
     "selic",
     "denuncia espontanea",
-    "0,33%",
+    "0 33",
     "apropriacao indebita",
     "parcelamento",
     "notificacao de debito"
    ],
-   "resumo": "Os débitos não pagos no vencimento sofrem <strong>juros de mora</strong> de 1% no mês do vencimento, 1% no mês do pagamento e a taxa SELIC nos meses intermediários (art. 71). As multas são calculadas com base na data da infração; se não for possível precisá-la, adota-se o último dia do exercício ou do período fiscalizado (art. 72, §§ 1º e 2º). O art. 73 <strong>reduz as multas</strong> das infrações apuradas pelo Fisco: em 70% se o crédito for pago de uma só vez em 30 dias da ciência do lançamento; em 42% se pago depois desses 30 dias e antes da decisão de primeira instância ou, sem impugnação, antes da inscrição em dívida ativa; em 28% se pago em 30 dias da ciência da decisão de primeira instância; e em 10% se pago em 30 dias da ciência da decisão do Conselho Tributário Estadual. No parcelamento, as reduções são de 25%, 15% e 5%, conforme o número de parcelas e o prazo do pedido. Infração sem sanção específica sofre multa de 1% do valor da operação ou prestação (art. 74), e as multas por descumprimento de obrigação principal e acessória são cumulativas (art. 75). O não recolhimento, no prazo legal, do imposto retido pelo substituto constitui <strong>apropriação indébita</strong> (art. 77). Exemplos de multa: 50% na falta de recolhimento com documentos emitidos e escriturados (art. 81); 60% no uso de crédito indevido ou inexistente (art. 93); 80% no uso antecipado de crédito (art. 91); 100% nas presunções do art. 87, na falta de retenção ou de recolhimento do imposto retido pelo substituto e na falta de pagamento do diferencial de alíquotas (arts. 89, 90 e 90-B). Na <strong>denúncia espontânea</strong>, feita antes de qualquer procedimento fiscal, o contribuinte paga juros e acréscimo moratório de 0,33% por dia de atraso, limitado a 20%; para microempresa e empresa de pequeno porte, 0,13% por dia, limitado a 4% (art. 96).",
+   "para_entender": [
+    {
+     "texto": "<strong>Substituição tributária:</strong> o substituto retém e recolhe o imposto de outros contribuintes da cadeia.",
+     "tema": "icms-alagoas-sujeicao-passiva-e-substituicao"
+    },
+    {
+     "texto": "<strong>Crédito fiscal:</strong> o imposto das entradas, abatido do devido nas saídas.",
+     "tema": "icms-alagoas-nao-cumulatividade-e-apuracao"
+    }
+   ],
+   "resumo": "Quem paga o imposto depois do vencimento arca com <strong>juros de mora</strong>, que remuneram o atraso: 1% no mês do vencimento, 1% no mês do pagamento e a taxa SELIC nos meses intermediários (art. 71). A <strong>multa</strong> é a punição pela infração e se calcula com base na data em que ela ocorreu; se não for possível precisá-la, usa-se o último dia do exercício ou do período fiscalizado (art. 72, §§ 1º e 2º). Para estimular o pagamento, o art. 73 reduz as multas das infrações apuradas pelo Fisco, e a redução é maior quanto mais cedo o sujeito passivo paga; no parcelamento, as reduções são menores. O esquema traz cada percentual. A infração sem pena específica sofre multa de 1% do valor da operação ou prestação (art. 74), e as multas por descumprimento da obrigação principal e da acessória se somam (art. 75). Exemplos de multas da lei: 50% na falta de recolhimento com documentos emitidos e escriturados (art. 81); 60% no uso de crédito indevido ou inexistente (art. 93); 80% no uso antecipado de crédito (art. 91); e 100% nas presunções do art. 87, na falta de retenção pelo substituto e na falta de pagamento do diferencial de alíquotas (arts. 89 e 90-B). O não recolhimento, no prazo legal, do imposto retido pelo substituto é <strong>apropriação indébita</strong> (art. 77). A <strong>denúncia espontânea</strong> é a confissão da falta antes de qualquer procedimento fiscal: o contribuinte paga o imposto com juros e um acréscimo moratório diário com teto, menor para microempresa e empresa de pequeno porte (art. 96).",
    "esquema": {
     "rotulo": "reduções de multa do art. 73 (pagamento de uma só vez)",
     "html": "<table><thead><tr><th>Momento do pagamento</th><th>Redução da multa</th></tr></thead><tbody><tr><td><strong>Até 30 dias da ciência do lançamento</strong></td><td>70%</td></tr><tr><td><strong>Depois de 30 dias e antes da decisão de primeira instância (ou da inscrição em dívida ativa, sem impugnação)</strong></td><td>42%</td></tr><tr><td><strong>Até 30 dias da ciência da decisão de primeira instância</strong></td><td>28%</td></tr><tr><td><strong>Até 30 dias da ciência da decisão do Conselho Tributário Estadual</strong></td><td>10%</td></tr><tr><td><strong>Parcelamento em até 12 parcelas, pedido em 30 dias da ciência</strong></td><td>25%</td></tr><tr><td><strong>Parcelamento em até 20 parcelas, pedido em 60 dias</strong></td><td>15%</td></tr><tr><td><strong>Parcelamento em até 25 parcelas, pedido em 60 dias</strong></td><td>5%</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Notificação de Débito",
+      "o_que_e": "A falta de recolhimento do imposto constante de Notificação de Débito tem multa de 20% do imposto, sem as reduções do art. 73 (art. 81-A).",
+      "grupo": "Multas especiais"
+     },
+     {
+      "nome": "Presunções e cumulação",
+      "o_que_e": "A multa de 100% do art. 87, aplicada às omissões de registro, ao passivo fictício e à diferença de estoque, não se cumula com as dos arts. 97 ou 107 (art. 87, § 2º).",
+      "grupo": "Multas especiais"
+     },
+     {
+      "nome": "Multa não quita imposto",
+      "o_que_e": "O pagamento de multa não dispensa a exigência do imposto quando devido (art. 75, § 1º).",
+      "grupo": "Multas especiais"
+     },
+     {
+      "nome": "Exemplo de redução",
+      "o_que_e": "Auto de infração com imposto de R$ 10.000,00 e multa de 50%: pago de uma só vez 20 dias após a ciência do lançamento, a multa de R$ 5.000,00 cai 70% e fica em R$ 1.500,00.",
+      "grupo": "Multas especiais"
+     },
+     {
+      "nome": "Parcelamento cancelado",
+      "o_que_e": "O atraso no pagamento integral de qualquer parcela por mais de 60 dias cancela o parcelamento e vence as parcelas vincendas (art. 73, § 2º).",
+      "grupo": "Multas especiais"
+     },
+     {
+      "nome": "Recolhimento sem o acréscimo",
+      "o_que_e": "O recolhimento espontâneo fora do prazo sem o acréscimo moratório sujeita o contribuinte a multa de 100% da cominada no art. 96 (art. 95), que então exclui os acréscimos do art. 96 (art. 96, § 1º).",
+      "grupo": "Denúncia espontânea"
+     },
+     {
+      "nome": "Crédito declarado e dívida ativa",
+      "o_que_e": "A multa moratória vale também para o crédito declarado em documento de informação econômico-fiscal ou livro fiscal e passa a 25% do imposto não recolhido a partir da inscrição em dívida ativa (art. 96, § 2º).",
+      "grupo": "Denúncia espontânea"
+     },
+     {
+      "nome": "Obrigação acessória espontânea",
+      "o_que_e": "Cumprir espontaneamente a obrigação acessória afasta a multa correspondente, salvo quando o descumprimento deu a terceiros vantagem indevida, inclusive por falsificação de documentos fiscais (art. 96, §§ 3º e 4º).",
+      "grupo": "Denúncia espontânea"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -338,10 +754,25 @@
    "pegadinha": {
     "afirmacao": "Pela Lei 5.900/1996, a redução de 70% da multa aplicada em lançamento de ofício exige o pagamento integral, de uma só vez, no prazo de 30 dias contados da ciência da decisão de primeira instância administrativa.",
     "gabarito": "E",
-    "explicacao": "A redução de 70% exige o pagamento em 30 dias contados da ciência do lançamento. O pagamento em 30 dias da ciência da decisão de primeira instância dá redução de 28% (art. 73, I e III)."
+    "explicacao": "A redução de 70% vale para o pagamento em até 30 dias contados da ciência do lançamento. Quem paga só depois da decisão de primeira instância, nesse mesmo prazo contado da ciência dela, tem redução de 28% (art. 73, I e III)."
    },
-   "aprofundamento": "<p><strong>Notificação de Débito.</strong> A falta de recolhimento do imposto constante de Notificação de Débito sofre multa de 20% do imposto, e a essa infração não se aplicam as reduções do art. 73 (art. 81-A).</p><p><strong>Recolhimento espontâneo sem a multa.</strong> O recolhimento espontâneo fora do prazo desacompanhado do acréscimo moratório sujeita o contribuinte a multa de 100% da cominada no art. 96 (art. 95), e a aplicação dessa multa exclui os acréscimos do art. 96 (art. 96, § 1º).</p><p><strong>Crédito declarado e dívida ativa.</strong> A multa moratória aplica-se também ao crédito declarado em documento de informação econômico-fiscal ou livro fiscal e, a partir da inscrição em dívida ativa, passa a 25% do imposto não recolhido (art. 96, § 2º).</p><p><strong>Obrigação acessória cumprida espontaneamente.</strong> O cumprimento espontâneo da obrigação acessória afasta a multa correspondente, salvo quando o descumprimento beneficiou terceiros com vantagem indevida, inclusive por falsificação de documentos fiscais (art. 96, §§ 3º e 4º).</p><p><strong>Parcelamento cancelado.</strong> O atraso no pagamento integral de qualquer parcela por mais de 60 dias cancela o parcelamento e vence as parcelas vincendas (art. 73, § 2º).</p><p><strong>Presunções e cumulação.</strong> A multa de 100% do art. 87, aplicada às omissões de registro, ao passivo fictício e à diferença de estoque, afasta a cumulação com as multas dos arts. 97 ou 107 (art. 87, § 2º).</p><p><strong>Pagamento da multa não quita o imposto.</strong> O pagamento de multa não dispensa a exigência do imposto quando devido (art. 75, § 1º).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A redução de 42% da multa vale para o pagamento de uma só vez em até 30 dias da ciência da decisão do Conselho Tributário Estadual.",
+     "certo": "Depois da decisão do Conselho, a redução é de 10%; a de 42% é para o pagamento feito antes da decisão de primeira instância (art. 73).",
+     "fonte": "Questões do app sobre as reduções de multa"
+    },
+    {
+     "errado": "Na denúncia espontânea de contribuinte que não é microempresa nem empresa de pequeno porte, o acréscimo moratório é de 0,33% ao dia, limitado a 10% do imposto.",
+     "certo": "O limite é de 20% (art. 96).",
+     "fonte": "Questões do app sobre a denúncia espontânea"
+    },
+    {
+     "errado": "A multa de 20% da Notificação de Débito admite as reduções por pagamento antecipado das multas apuradas em ação fiscal.",
+     "certo": "Não admite: o art. 81-A afasta as reduções.",
+     "fonte": "Questões do app sobre a Notificação de Débito"
+    }
+   ],
    "relacionados": [
     "icms-alagoas-nao-cumulatividade-e-apuracao",
     "pat-alagoas-contencioso-e-julgamento"
@@ -384,10 +815,117 @@
     "ciclomotor",
     "leilao"
    ],
-   "resumo": "O <strong>IPVA</strong> incide sobre a propriedade de veículo automotor de qualquer espécie sujeito a registro, matrícula ou licenciamento em Alagoas; veículo automotor é qualquer veículo aéreo, terrestre, aquático ou anfíbio dotado de força motriz própria (art. 2º da Lei 6.555/2004). O <strong>fato gerador</strong> ocorre, para veículo novo, na data da aquisição por consumidor final ou da incorporação ao ativo permanente de fabricante ou revendedor; para veículo usado, no dia primeiro de janeiro de cada exercício; para veículo importado por consumidor final, no desembaraço aduaneiro; e, na revogação de não incidência ou isenção, no dia primeiro de janeiro do exercício da revogação (art. 3º). O art. 4º afasta o imposto (não incidência) dos veículos da União, Estados, DF e Municípios, das autarquias e fundações públicas, dos partidos políticos, dos sindicatos de trabalhadores, dos templos e das instituições de educação e assistência social sem fins lucrativos que atendam aos requisitos legais. Entre as <strong>isenções</strong> do art. 6º estão os veículos de missões diplomáticas, os de uso exclusivo agrícola, o automóvel do taxista com motor de até 2.0, o automóvel para pessoa com deficiência, os veículos terrestres com 15 ou mais anos de fabricação, as embarcações e aeronaves com trinta ou mais anos, os furtados ou roubados a partir do mês seguinte à ocorrência, as motos de até 175 cilindradas de pessoa natural que não tenha mais de um veículo, o automóvel do microempreendedor individual motorista de aplicativo e, no ano de aquisição do veículo novo, os elétricos e híbridos. O requerimento de isenção deve ser feito antes do vencimento do imposto, e a isenção só é concedida a quem não tiver débito com a Fazenda Estadual (art. 6º, §§ 5º e 12).",
+   "para_entender": [
+    {
+     "texto": "<strong>Contribuinte do IPVA:</strong> o proprietário do veículo; no arrendamento mercantil, a empresa arrendadora.",
+     "tema": "ipva-alagoas-calculo-sujeicao-e-pagamento"
+    }
+   ],
+   "resumo": "O <strong>IPVA</strong>, regulado em Alagoas pela Lei 6.555/2004, incide sobre a propriedade de veículo automotor de qualquer espécie sujeito a registro, matrícula ou licenciamento no Estado. Veículo automotor é qualquer veículo aéreo, terrestre, aquático ou anfíbio com força motriz própria (art. 2º). O fato gerador depende da situação do veículo (art. 3º): o novo tem um marco, o usado outro e o importado por consumidor final um terceiro; na revogação de não incidência ou isenção, o imposto nasce no dia primeiro de janeiro do exercício da revogação. O esquema traz cada marco. A <strong>não incidência</strong> (art. 4º) tira do imposto os veículos da União, dos Estados, do DF e dos Municípios, das autarquias e fundações públicas, dos partidos políticos, dos sindicatos de trabalhadores, dos templos e das instituições de educação e assistência social sem fins lucrativos que atendam aos requisitos legais. A <strong>isenção</strong> (art. 6º) é uma lista longa de benefícios. Entre os mais cobrados estão os veículos de missões diplomáticas, os de uso exclusivo agrícola, o automóvel do taxista com motor de até 2.0, o automóvel para pessoa com deficiência, os veículos antigos, os furtados ou roubados, as motos de pequena cilindrada de pessoa natural, o automóvel do microempreendedor individual motorista de aplicativo e os elétricos e híbridos novos. O pedido de isenção tem prazo, e quem deve à Fazenda Estadual não a obtém (art. 6º, §§ 5º e 12).",
    "esquema": {
     "rotulo": "fato gerador e isenções do IPVA alagoano",
     "html": "<table><thead><tr><th>Situação</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Veículo novo</strong></td><td>Fato gerador na aquisição por consumidor final</td><td>art. 3º, I, a</td></tr><tr><td><strong>Veículo usado</strong></td><td>Fato gerador em 1º de janeiro de cada exercício</td><td>art. 3º, II</td></tr><tr><td><strong>Importado por consumidor final</strong></td><td>Fato gerador no desembaraço aduaneiro</td><td>art. 3º, IV, a</td></tr><tr><td><strong>Furto ou roubo recuperado</strong></td><td>Fato gerador em 1º de janeiro do exercício do restabelecimento da posse</td><td>art. 3º, VI</td></tr><tr><td><strong>Terrestre antigo</strong></td><td>Isento com 15 ou mais anos de fabricação</td><td>art. 6º, V</td></tr><tr><td><strong>Embarcação e aeronave antigas</strong></td><td>Isentas com trinta ou mais anos de fabricação</td><td>art. 6º, VI</td></tr><tr><td><strong>Pessoa com deficiência</strong></td><td>Preço sugerido de até R$ 70 mil; isenção parcial até R$ 120 mil, limitada a R$ 70 mil</td><td>art. 6º, IV e § 2º</td></tr><tr><td><strong>Moto de pessoa natural</strong></td><td>Até 175 cilindradas, sem mais de um veículo em seu nome</td><td>art. 6º, XVI</td></tr><tr><td><strong>Elétrico ou híbrido novo</strong></td><td>Isento no ano de aquisição</td><td>art. 6º, XVIII</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Local de pagamento",
+      "o_que_e": "O imposto é devido no local do domicílio ou da residência do proprietário em Alagoas; com várias residências, vale o local onde ele, cumulativamente, reside e exerce a profissão (art. 3º-A).",
+      "grupo": "Fato gerador e local"
+     },
+     {
+      "nome": "Veículo vindo de outro Estado",
+      "o_que_e": "Veículo não registrado nem licenciado em Alagoas: fato gerador na data da aquisição, se não houver prova do pagamento do IPVA em outra unidade da Federação (art. 3º, III).",
+      "grupo": "Fato gerador e local"
+     },
+     {
+      "nome": "Locadoras",
+      "o_que_e": "Usado e já registrado no Estado: 1º de janeiro. Usado registrado em outro Estado: data em que for locado ou posto à disposição em Alagoas. Novo: aquisição para a frota (art. 3º, VII).",
+      "grupo": "Fato gerador e local"
+     },
+     {
+      "nome": "Arrendamento mercantil",
+      "o_que_e": "No leasing, o imposto é devido no domicílio ou residência do arrendatário (art. 3º-A, § 6º), e presume-se domiciliado em Alagoas o proprietário cujo veículo estiver registrado no órgão de trânsito do Estado (art. 3º-A, § 5º).",
+      "grupo": "Fato gerador e local"
+     },
+     {
+      "nome": "Taxista",
+      "o_que_e": "Automóvel de até 2.0 na categoria aluguel, de profissional que exerça a atividade há pelo menos 1 ano, use o veículo nela, tenha a atividade reconhecida pelo Município e seja inscrito no INSS (art. 6º, III).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Motorista de aplicativo",
+      "o_que_e": "Automóvel do microempreendedor individual cadastrado há pelo menos 6 meses em empresa de aplicativo e exercendo a atividade, limitado a um veículo (art. 6º, XVII).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Um único veículo",
+      "o_que_e": "As isenções do taxista, da pessoa com deficiência e da moto agrícola valem para um único veículo, próprio ou em arrendamento, se o interessado não tiver mais de um veículo registrado, excluída a motocicleta (art. 6º, § 1º).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Veículo agrícola",
+      "o_que_e": "São isentos os veículos fabricados para uso exclusivo na atividade agrícola ou florestal, como trator, colheitadeira e máquina agrícola ou florestal (art. 6º, II).",
+      "atencao": "Caminhonete ou caminhão usados na fazenda não entram: conta a destinação de fábrica, e não o uso que o dono dá.",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Moto do produtor rural",
+      "o_que_e": "Motocicleta ou motoneta de até 200 cilindradas, de pessoa física, para uso exclusivo em atividade agrícola, com certidão de pequeno proprietário, produtor rural ou assentado da reforma agrária (art. 6º, IX).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Furto, roubo e perda total",
+      "o_que_e": "Isento do mês seguinte ao furto ou roubo até o mês anterior à devolução ao proprietário, ou do mês seguinte à baixa do veículo sinistrado no órgão de trânsito (art. 6º, VII), com registro do fato no Renavam (§ 6º).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Pedido fora do prazo",
+      "o_que_e": "Não é analisado, nem há restituição do que já foi pago, salvo se o contribuinte provar que não deu causa ao atraso (art. 6º, § 5º, I e II).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Desvio de finalidade",
+      "o_que_e": "A falta das condições exigidas ou o desvio de finalidade do veículo revoga ou anula a isenção, com cobrança do imposto e acréscimos (art. 6º, §§ 3º e 4º).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Não incidência condicionada",
+      "o_que_e": "Para partidos, sindicatos, templos e instituições de educação e assistência, só os veículos ligados às finalidades essenciais ficam de fora, e as instituições precisam, entre outros requisitos, não distribuir patrimônio ou renda e ter reconhecimento de utilidade pública (art. 4º, VI e § 2º).",
+      "grupo": "Isenções com requisitos"
+     },
+     {
+      "nome": "Turista estrangeiro",
+      "o_que_e": "Veículo com certificado internacional de circulação, pelo prazo do certificado e nunca por mais de um ano, se o país de origem der tratamento recíproco (VIII).",
+      "grupo": "Outras isenções do art. 6º"
+     },
+     {
+      "nome": "Apreendido e leiloado",
+      "o_que_e": "Do mês seguinte ao da apreensão até o mês anterior ao da arrematação (XI).",
+      "grupo": "Outras isenções do art. 6º"
+     },
+     {
+      "nome": "Aluguel e transporte complementar",
+      "o_que_e": "Veículo de duas rodas na categoria aluguel de profissional autônomo e veículo de aluguel do serviço complementar de transporte intermunicipal de passageiros com permissão estadual, cada um limitado a um veículo (XII e XIII).",
+      "grupo": "Outras isenções do art. 6º"
+     },
+     {
+      "nome": "Ciclomotor e Cadastur",
+      "o_que_e": "Ciclomotores e ciclo-elétricos de até 50 cilindradas (XIV) e veículos de pessoa jurídica inscrita no Cadastur, do Ministério do Turismo (XV).",
+      "grupo": "Outras isenções do art. 6º"
+     },
+     {
+      "nome": "Troca Arretada",
+      "o_que_e": "Veículo novo adquirido em Alagoas no programa, por um ano, com dispensa também do imposto do veículo substituído, destinado à sucata e baixado (XIX).",
+      "grupo": "Outras isenções do art. 6º"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -409,8 +947,38 @@
     "gabarito": "E",
     "explicacao": "A isenção alcança os veículos de uso terrestre com 15 ou mais anos de fabricação; para embarcações e aeronaves, o marco é de trinta anos (art. 6º, V e VI)."
    },
-   "aprofundamento": "<p><strong>Local de pagamento.</strong> O imposto é devido no local do domicílio ou da residência do proprietário em Alagoas; quem tem várias residências tem como domicílio o local onde, cumulativamente, reside e exerce profissão (art. 3º-A).</p><p><strong>Veículo vindo de outro Estado.</strong> Para veículo não registrado e não licenciado em Alagoas, o fato gerador ocorre na data da aquisição, se não houver comprovação do pagamento do IPVA em outra unidade da Federação (art. 3º, III).</p><p><strong>Locadoras.</strong> Para veículo de locadora, o fato gerador ocorre em 1º de janeiro, se usado e já registrado no Estado; na data em que for locado ou posto à disposição em Alagoas, se usado e registrado em outro Estado; e na aquisição para a frota, se novo (art. 3º, VII).</p><p><strong>Arrendamento mercantil.</strong> No leasing, o imposto é devido no local do domicílio ou residência do arrendatário (art. 3º-A, § 6º), e presume-se domiciliado em Alagoas o proprietário cujo veículo estiver registrado no órgão de trânsito do Estado (art. 3º-A, § 5º).</p><p><strong>Taxista.</strong> A isenção do taxista exige automóvel de até 2.0 na categoria aluguel e profissional que exerça a atividade há pelo menos 1 ano, use o veículo na atividade, tenha a atividade reconhecida pelo Município e seja inscrito no INSS (art. 6º, III).</p><p><strong>Motorista de aplicativo.</strong> O automóvel do microempreendedor individual motorista de aplicativo é isento, limitado a um veículo, se o motorista estiver cadastrado há pelo menos 6 meses em empresa de aplicativo e exercendo a atividade (art. 6º, XVII).</p><p><strong>Um único veículo.</strong> As isenções do taxista, da pessoa com deficiência e da moto agrícola aplicam-se a um único veículo, próprio ou em arrendamento, desde que o interessado não tenha mais de um veículo registrado, excluída a motocicleta (art. 6º, § 1º).</p><p><strong>Desvio de finalidade.</strong> A falta das condições exigidas ou o desvio de finalidade do veículo beneficiado revoga ou anula a isenção, com cobrança do imposto e acréscimos (art. 6º, §§ 3º e 4º).</p><p><strong>Não incidência condicionada.</strong> Na não incidência dos partidos, sindicatos, templos e instituições de educação e assistência, só os veículos ligados às finalidades essenciais ficam de fora, e as instituições precisam, entre outros requisitos, não distribuir patrimônio ou renda e ter reconhecimento de utilidade pública (art. 4º, VI e § 2º).</p><p><strong>Veículos agrícolas e moto do produtor rural.</strong> São isentos do IPVA os veículos fabricados para uso exclusivo na atividade agrícola ou florestal (art. 6º, II, da Lei 6.555/2004). A isenção depende da destinação de fábrica: trator, colheitadeira e máquina agrícola ou florestal. Caminhonete ou caminhão usados na fazenda não entram, porque não foram fabricados só para esse uso. Também é isenta a motocicleta ou motoneta de até 200 cilindradas, de pessoa física, destinada ao uso exclusivo em atividade agrícola, se o beneficiário apresentar certidão que comprove a condição de pequeno proprietário, produtor rural ou assentado da reforma agrária (art. 6º, IX); essa isenção vale para um único veículo (§ 1º).</p><p><strong>As demais isenções do art. 6º.</strong> Além das que constam do resumo, são isentos: os veículos de turistas estrangeiros com certificado internacional de circulação, pelo prazo do certificado e nunca por mais de um ano, desde que o país de origem dê tratamento recíproco (VIII); os apreendidos e levados a leilão pelo Estado, do mês seguinte ao da apreensão até o mês anterior ao da arrematação (XI); os de duas rodas na categoria aluguel de profissional autônomo, limitado a um veículo (XII); os da categoria aluguel usados no serviço complementar de transporte intermunicipal de passageiros, com permissão estadual, limitado a um veículo (XIII); os ciclomotores e ciclo-elétricos de até 50 cilindradas (XIV); os de pessoa jurídica inscrita no Cadastur, do Ministério do Turismo (XV); e os veículos novos adquiridos em Alagoas no programa Troca Arretada, por um ano, com dispensa também do imposto do veículo substituído destinado à sucata e baixado (XIX).</p><p><strong>Furto, roubo e perda total.</strong> O veículo furtado, roubado ou sinistrado com perda total é isento a partir do mês seguinte ao da ocorrência do furto ou roubo, até o mês anterior ao da devolução ao proprietário, ou a partir do mês seguinte ao da efetiva baixa do veículo sinistrado no órgão de trânsito (art. 6º, VII), condicionado ao registro do fato no Renavam (§ 6º). O requerimento fora do prazo não é analisado, salvo se o contribuinte provar que não deu causa ao atraso, e não há restituição do que já foi pago, salvo nesse mesmo caso (§ 5º, I e II).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Para veículo novo adquirido por consumidor final, o fato gerador do IPVA alagoano ocorre em 1º de janeiro do exercício seguinte ao da aquisição.",
+     "certo": "Ocorre na data da aquisição pelo consumidor final (art. 3º, I, a).",
+     "fonte": "Questões do app sobre o veículo novo"
+    },
+    {
+     "errado": "A Lei 6.555/2004 isenta do IPVA as embarcações e as aeronaves com 15 ou mais anos de fabricação.",
+     "certo": "Para elas, o marco é de trinta anos; 15 anos é o dos veículos terrestres (art. 6º, V e VI).",
+     "fonte": "Questões do app sobre os veículos antigos"
+    },
+    {
+     "errado": "Com múltiplas residências, presume-se domicílio do proprietário o endereço indicado no registro do veículo.",
+     "certo": "Presume-se o local onde ele, cumulativamente, reside e exerce a profissão (art. 3º-A).",
+     "fonte": "Questões do app sobre o domicílio tributário"
+    },
+    {
+     "errado": "Os veículos elétricos novos são isentos do IPVA em Alagoas nos cinco primeiros anos contados da aquisição.",
+     "certo": "A isenção vale só no ano de aquisição (art. 6º, XVIII); depois, aplicam-se as alíquotas reduzidas do art. 8º.",
+     "fonte": "Questões do app sobre o veículo elétrico"
+    },
+    {
+     "errado": "A caminhonete usada por produtor rural só no transporte da produção da fazenda é isenta como veículo de uso agrícola.",
+     "certo": "A isenção alcança veículos fabricados para uso exclusivo agrícola ou florestal (art. 6º, II).",
+     "fonte": "Questões do app sobre o veículo agrícola"
+    },
+    {
+     "errado": "A isenção da motocicleta de uso exclusivo agrícola alcança modelos de até 300 cilindradas, de pessoa física ou jurídica.",
+     "certo": "Vale para até 200 cilindradas, de pessoa física com certidão de pequeno proprietário, produtor rural ou assentado (art. 6º, IX).",
+     "fonte": "Questões do app sobre a moto agrícola"
+    }
+   ],
    "relacionados": [
     "ipva-alagoas-calculo-sujeicao-e-pagamento"
    ]
@@ -431,21 +999,98 @@
    "palavras": [
     "base de calculo ipva",
     "aliquota ipva",
-    "3%",
-    "1%",
+    "3",
+    "1",
     "cota unica",
-    "desconto 5%",
+    "desconto 5",
     "parcelamento ipva",
     "calendario",
     "solidario ipva",
     "arrendadora",
-    "repartição 50%",
+    "reparticao 50",
     "multa ipva"
    ],
-   "resumo": "A <strong>base de cálculo</strong> do veículo novo é o preço de venda a consumidor da tabela sugerida pelo fabricante, acrescido de frete, IPI e acessórios, ou o valor do documento fiscal de aquisição, se maior. No usado, é o <strong>valor médio de mercado</strong> da tabela publicada até o último dia do exercício para vigorar no seguinte; se a tabela não sair no prazo, vale a anterior. O estado de conservação do veículo é irrelevante (art. 7º). <strong>Alíquotas</strong> (art. 8º): 1% para ônibus, micro-ônibus, caminhão, cavalo mecânico, aeronave e embarcação; para motos, 2% até 150 cm³, 2,75% acima de 150 até 400 cm³ e 3,25% acima de 400 cm³; para automóveis, 2,75% até 80 HP, 3% acima de 80 até 160 HP e 3,25% acima de 160 HP; 1,5% para veículos a gás natural; e 3,25% para os demais. Veículos de locadoras e os em arrendamento mercantil ou alienação fiduciária pagam 1%, atendidos os requisitos do decreto. <strong>Contribuinte</strong> é o proprietário; no arrendamento mercantil, a empresa arrendadora (art. 9º). São solidários, entre outros, o devedor fiduciário, o arrendatário, o possuidor, o adquirente quanto a fatos geradores anteriores e o leiloeiro, sem benefício de ordem (art. 10). O <strong>lançamento</strong> se constitui com a publicação do calendário de pagamento no Diário Oficial do Estado, data em que o contribuinte se considera notificado (art. 12). O pagamento anual pode ser feito em cota única ou em até 10 parcelas, com desconto de 5% na cota única paga no vencimento (art. 17). O imposto é proporcional, em doze avos, na aquisição de veículo novo e nas hipóteses do art. 18. Pagar após o vencimento gera multa de 20% do imposto; havendo dolo, fraude ou simulação, a multa é de 5% do valor venal (art. 39). O arrecadado é repartido em 50% para o Estado e 50% para o município onde o veículo for licenciado (art. 43).",
+   "para_entender": [
+    {
+     "texto": "<strong>Fato gerador do IPVA:</strong> data da aquisição para o veículo novo e 1º de janeiro para o usado.",
+     "tema": "ipva-alagoas-incidencia-e-isencoes"
+    }
+   ],
+   "resumo": "A <strong>base de cálculo</strong> do veículo novo é o preço de venda a consumidor da tabela sugerida pelo fabricante, com frete, IPI e acessórios, ou o valor do documento fiscal de aquisição, se for maior. No usado, é o <strong>valor médio de mercado</strong> da tabela publicada até o último dia do exercício para vigorar no seguinte; se ela não sair no prazo, vale a anterior. O estado de conservação do veículo não importa (art. 7º). As alíquotas do art. 8º variam com o tipo de veículo, a cilindrada da moto e a potência do automóvel, como mostra o esquema. O contribuinte é o proprietário (art. 9º). O art. 10 lista os <strong>solidários</strong>, que respondem sem benefício de ordem, entre eles o devedor fiduciário, o arrendatário, o possuidor, o adquirente quanto a fatos geradores anteriores e o leiloeiro. O <strong>lançamento</strong>, ato que constitui o crédito tributário, se dá pelo calendário de pagamento publicado no Diário Oficial do Estado (art. 12). O pagamento anual admite cota única ou parcelas, com desconto na cota única paga no vencimento (art. 17). Na aquisição de veículo novo e nas demais hipóteses do art. 18, o imposto é <strong>proporcional</strong>, em doze avos. Quem paga depois do vencimento sofre multa de 20% do imposto; com dolo, fraude ou simulação, a multa é de 5% do valor venal (art. 39). A arrecadação é dividida entre o Estado e o município de licenciamento (art. 43).",
    "esquema": {
     "rotulo": "alíquotas do art. 8º da Lei 6.555/2004",
     "html": "<table><thead><tr><th>Veículo</th><th>Alíquota</th></tr></thead><tbody><tr><td><strong>Ônibus, micro-ônibus, caminhão, cavalo mecânico, aeronave e embarcação</strong></td><td>1%</td></tr><tr><td><strong>Moto até 150 cm³</strong></td><td>2%</td></tr><tr><td><strong>Moto acima de 150 até 400 cm³</strong></td><td>2,75%</td></tr><tr><td><strong>Moto acima de 400 cm³</strong></td><td>3,25%</td></tr><tr><td><strong>Automóvel até 80 HP</strong></td><td>2,75%</td></tr><tr><td><strong>Automóvel acima de 80 até 160 HP</strong></td><td>3%</td></tr><tr><td><strong>Automóvel acima de 160 HP</strong></td><td>3,25%</td></tr><tr><td><strong>Veículo a gás natural</strong></td><td>1,5%</td></tr><tr><td><strong>Elétrico: ano seguinte à aquisição / a partir do segundo ano</strong></td><td>0,5% / 1%</td></tr><tr><td><strong>Híbrido: ano seguinte à aquisição / a partir do segundo ano</strong></td><td>0,75% / 1,5%</td></tr><tr><td><strong>Locadora, leasing e alienação fiduciária (requisitos do decreto)</strong></td><td>1%</td></tr><tr><td><strong>Demais veículos</strong></td><td>3,25%</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Importado",
+      "o_que_e": "Para o importado por consumidor final, a base é o valor do documento de importação com tributos e despesas, não inferior à base do ICMS.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Caminhão",
+      "o_que_e": "Para a alíquota de 1%, caminhão é o veículo rodoviário com capacidade de carga igual ou superior a 3.500 kg (art. 8º, § 1º).",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Exemplo de cálculo",
+      "o_que_e": "Automóvel usado de 120 HP com valor médio de R$ 60.000,00: 3% dá R$ 1.800,00; com o desconto de 5% da cota única no vencimento, R$ 1.710,00.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Arrendatário solidário",
+      "o_que_e": "No arrendamento mercantil, a contribuinte é a arrendadora, e o arrendatário responde solidariamente (art. 9º, parágrafo único, e art. 10, II).",
+      "grupo": "Sujeição"
+     },
+     {
+      "nome": "Alienante que não comunica",
+      "o_que_e": "Quem não comunica a alienação ao órgão competente responde pelo imposto cujo fato gerador ocorra entre a alienação e a comunicação (art. 10, XIII).",
+      "grupo": "Sujeição"
+     },
+     {
+      "nome": "Leilão público",
+      "o_que_e": "A solidariedade do art. 10 não se aplica ao veículo vendido em leilão promovido pelo poder público (art. 10, § 2º).",
+      "grupo": "Sujeição"
+     },
+     {
+      "nome": "Veículo novo em dez dias",
+      "o_que_e": "A cota única do veículo novo vence em dez dias contados da saída na nota fiscal ou do documento de aquisição; o mesmo prazo conta do desembaraço aduaneiro e da revogação da isenção (art. 17, § 2º).",
+      "grupo": "Pagamento"
+     },
+     {
+      "nome": "Doze avos",
+      "o_que_e": "Paga-se um doze avos por mês, incluído o mês do evento, na aquisição de veículo novo e na importação por consumidor final, na incorporação ao ativo do fabricante ou revendedor e na revogação de isenção sem dolo, fraude ou simulação (art. 18).",
+      "grupo": "Pagamento"
+     },
+     {
+      "nome": "Parcelamento de débitos vencidos",
+      "o_que_e": "Até 6 parcelas mensais, com parcela mínima de R$ 50,00, inclusive em dívida ativa; o pedido é confissão irretratável, e o atraso de qualquer parcela por mais de sessenta dias cancela o parcelamento (art. 24).",
+      "atencao": "Não cabe recurso do despacho que indefere o parcelamento (art. 28, § 2º).",
+      "grupo": "Pagamento"
+     },
+     {
+      "nome": "Denúncia espontânea",
+      "o_que_e": "Antes de procedimento fiscal, o acréscimo moratório é de 0,2% ao dia se pago em até trinta dias do vencimento, 9% entre trinta e sessenta dias e 15% depois de sessenta dias (art. 40).",
+      "grupo": "Pagamento"
+     },
+     {
+      "nome": "Licenciamento e transferência",
+      "o_que_e": "Nenhum veículo é transferido ou licenciado sem prova do pagamento ou do reconhecimento da não incidência ou isenção, e é vedada a transferência para outra unidade da Federação de veículo com débito, inclusive parcelamento não quitado (arts. 21 e 22).",
+      "grupo": "Pagamento"
+     },
+     {
+      "nome": "Restituição",
+      "o_que_e": "O direito de pedir a restituição do IPVA pago indevidamente extingue-se em 5 anos contados do recolhimento ou da decisão definitiva que reformar a condenação (art. 34, § 3º).",
+      "grupo": "Pagamento"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
    },
    "lei": [],
    "macetes": [
@@ -467,8 +1112,23 @@
     "gabarito": "E",
     "explicacao": "É o inverso: no arrendamento mercantil, o contribuinte é a empresa arrendadora (art. 9º, parágrafo único), mas o imposto é devido no domicílio ou residência do arrendatário (art. 3º-A, § 6º). O arrendatário responde solidariamente (art. 10, II)."
    },
-   "aprofundamento": "<p><strong>Importado.</strong> No importado por consumidor final, é o valor do documento de importação com tributos e despesas, não inferior à base do ICMS.</p><p><strong>Veículo novo paga em dez dias.</strong> A cota única do veículo novo deve ser paga em dez dias contados da data de saída na nota fiscal ou do documento de aquisição; o mesmo prazo vale a partir do desembaraço aduaneiro e da revogação da isenção (art. 17, § 2º).</p><p><strong>Proporcionalidade.</strong> O imposto é pago na proporção de um doze avos por mês, incluído o mês do evento, na aquisição de veículo novo por consumidor final, na importação por consumidor final, na incorporação ao ativo do fabricante ou revendedor e na revogação de isenção sem dolo, fraude ou simulação (art. 18).</p><p><strong>Parcelamento de débitos vencidos.</strong> Débitos de IPVA vencidos, inclusive em dívida ativa, podem ser pagos em até 6 parcelas mensais, com parcela mínima de R$ 50,00; o pedido importa confissão irretratável, e o atraso de qualquer parcela por mais de sessenta dias cancela o parcelamento (art. 24). Não cabe recurso do despacho que indeferir o parcelamento (art. 28, § 2º).</p><p><strong>Denúncia espontânea do IPVA.</strong> Antes de qualquer procedimento fiscal, o acréscimo moratório é de 0,2% por dia se o débito for pago em até trinta dias do vencimento, de 9% entre trinta e sessenta dias e de 15% depois de sessenta dias (art. 40).</p><p><strong>Alienante que não comunica a venda.</strong> O alienante que não comunicar a alienação ao órgão competente responde pelo imposto cujo fato gerador ocorra entre a alienação e a comunicação (art. 10, XIII).</p><p><strong>Leilão público.</strong> A solidariedade do art. 10 não se aplica ao veículo vendido em leilão promovido pelo poder público (art. 10, § 2º).</p><p><strong>Licenciamento e transferência.</strong> Nenhum veículo é transferido ou licenciado sem a comprovação do pagamento do imposto ou do reconhecimento da não incidência ou isenção, e é vedada a transferência para outra unidade da Federação de veículo com débito, inclusive parcelamento não quitado (arts. 21 e 22).</p><p><strong>Caminhão.</strong> Para a alíquota de 1%, caminhão é o veículo rodoviário com capacidade de carga igual ou superior a 3.500 kg (art. 8º, § 1º).</p><p><strong>Restituição.</strong> O direito de pedir a restituição do IPVA pago indevidamente extingue-se em 5 anos contados do recolhimento ou da decisão definitiva que reformar a condenação (art. 34, § 3º).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Pela Lei 6.555/2004, a alíquota do IPVA para motocicleta de 300 cm³ é de 2%.",
+     "certo": "Está na faixa acima de 150 até 400 cm³, com 2,75% (art. 8º, II, b); 2% vale só até 150 cm³.",
+     "fonte": "Questões do app sobre as alíquotas das motos"
+    },
+    {
+     "errado": "O IPVA arrecadado em Alagoas é repartido em 75% para o Estado e 25% para o município de licenciamento.",
+     "certo": "A divisão é meio a meio (art. 43).",
+     "fonte": "Questões do app sobre a repartição da receita"
+    },
+    {
+     "errado": "O pagamento do IPVA após o vencimento, sem dolo, fraude ou simulação, gera multa de 5% do valor venal do veículo.",
+     "certo": "Gera multa de 20% do imposto; os 5% do valor venal são para o caso de dolo, fraude ou simulação (art. 39).",
+     "fonte": "Questões do app sobre a multa do IPVA"
+    }
+   ],
    "relacionados": [
     "ipva-alagoas-incidencia-e-isencoes"
    ]
