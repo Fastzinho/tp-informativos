@@ -2,7 +2,7 @@
  "slug": "direito-previdenciario",
  "titulo": "Caderno de Direito Previdenciário",
  "disciplina": "Direito Previdenciário",
- "descricao": "Direito Previdenciário para concursos: evolução, fontes e princípios da seguridade social, saúde e previdência na Constituição (com a EC 103/2019), assistência social na LOAS, benefício de prestação continuada e auxílio-inclusão.",
+ "descricao": "Direito Previdenciário para concursos: evolução, fontes e princípios da seguridade social, saúde, previdência e assistência na Constituição (com a EC 103/2019), LOAS, BPC e auxílio-inclusão, segurados, custeio e arrecadação, benefícios do Regime Geral, acidente do trabalho, contagem recíproca, processo previdenciário e pensões especiais.",
  "ordem": 34,
  "revisado_em": "2026-11-27",
  "revisado_rotulo": "Leis conferidas no texto atualizado da Câmara dos Deputados",
@@ -4585,6 +4585,3174 @@
    "relacionados": [
     "arrecadacao-e-recolhimento-das-contribuicoes",
     "salario-de-contribuicao-e-contribuicao-dos-segurados"
+   ]
+  },
+  {
+   "slug": "prestacoes-dependentes-e-carencia-no-regime-geral",
+   "titulo": "Prestações do Regime Geral, dependentes e carência",
+   "grupo": "Benefícios do Regime Geral: regras gerais e cálculo",
+   "base": "Arts. 9º, 10, 16, 18 e 24 a 27-A da Lei 8.213/1991",
+   "tax": [
+    "previdenciario.prestacoes-rgps",
+    "previdenciario.desaposentacao"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-9",
+    "n8213-1991-art-10",
+    "n8213-1991-art-16",
+    "n8213-1991-art-18",
+    "n8213-1991-art-24",
+    "n8213-1991-art-25",
+    "n8213-1991-art-26",
+    "n8213-1991-art-27",
+    "n8213-1991-art-27-a"
+   ],
+   "conceitos": [
+    "Regime Geral e regime complementar",
+    "beneficiários",
+    "segurados e dependentes",
+    "classes de dependentes",
+    "dependência presumida",
+    "dependência comprovada",
+    "equiparados a filho",
+    "exclusão do dependente homicida",
+    "prestações do segurado",
+    "prestações do dependente",
+    "serviço social e reabilitação profissional",
+    "aposentado que volta a trabalhar",
+    "desaposentação",
+    "período de carência",
+    "carência de 12, 10, 24 e 180 contribuições",
+    "benefícios sem carência",
+    "cômputo da carência",
+    "metade da carência após nova filiação"
+   ],
+   "palavras": [
+    "prestacoes",
+    "beneficios e servicos",
+    "regime geral",
+    "regime facultativo complementar",
+    "desemprego involuntario",
+    "beneficiarios",
+    "segurados e dependentes",
+    "dependentes",
+    "classes",
+    "conjuge",
+    "companheira",
+    "companheiro",
+    "filho nao emancipado",
+    "21 anos",
+    "invalido",
+    "deficiencia intelectual",
+    "pais",
+    "irmao",
+    "classe seguinte",
+    "enteado",
+    "menor sob tutela",
+    "menor sob guarda",
+    "uniao estavel",
+    "dependencia economica presumida",
+    "inicio de prova material",
+    "24 meses",
+    "prova testemunhal",
+    "homicidio doloso",
+    "auxilio-acidente",
+    "salario-familia",
+    "reabilitacao profissional",
+    "servico social",
+    "aposentado que retorna",
+    "desaposentacao",
+    "reaposentacao",
+    "tema 503",
+    "cartorio de registro civil",
+    "carencia",
+    "12 contribuicoes",
+    "180 contribuicoes",
+    "10 contribuicoes",
+    "24 contribuicoes",
+    "auxilio-reclusao",
+    "independe de carencia",
+    "doencas graves",
+    "acidente de qualquer natureza",
+    "primeira contribuicao sem atraso",
+    "metade da carencia",
+    "nova filiacao"
+   ],
+   "resumo": "A Lei 8.213 organiza o Regime Geral em <strong>prestações</strong>, que se dividem em benefícios (pagamentos em dinheiro) e serviços (serviço social e reabilitação profissional). Os beneficiários são de dois tipos: <strong>segurados</strong>, que contribuem, e <strong>dependentes</strong>, que recebem só pensão por morte e auxílio-reclusão, além dos serviços. Os dependentes estão em três classes, e a existência de alguém numa classe exclui as seguintes. Só a dependência da primeira classe é presumida. O aposentado que continua trabalhando contribui, mas só tem direito ao salário-família e à reabilitação profissional, quando empregado. Por isso o STF recusou a desaposentação. A <strong>carência</strong> é o número mínimo de contribuições mensais para cada benefício. Alguns benefícios a dispensam, e quem perdeu a qualidade de segurado precisa cumprir metade dela depois da nova filiação.",
+   "esquema": {
+    "rotulo": "carência por benefício (arts. 25 e 26)",
+    "html": "<table><thead><tr><th>Benefício</th><th>Carência</th></tr></thead><tbody><tr><td><strong>Auxílio por incapacidade temporária e aposentadoria por incapacidade permanente</strong></td><td>12 contribuições, dispensadas em acidente de qualquer natureza, doença profissional ou do trabalho e doenças da lista oficial</td></tr><tr><td><strong>Aposentadoria por idade, por tempo de contribuição e especial</strong></td><td>180 contribuições</td></tr><tr><td><strong>Salário-maternidade da contribuinte individual, da segurada especial e da facultativa</strong></td><td>10 contribuições, reduzidas em caso de parto antecipado; a segurada especial comprova 12 meses de atividade rural</td></tr><tr><td><strong>Salário-maternidade da empregada, da avulsa e da doméstica</strong></td><td>Sem carência</td></tr><tr><td><strong>Auxílio-reclusão</strong></td><td>24 contribuições</td></tr><tr><td><strong>Pensão por morte, salário-família e auxílio-acidente</strong></td><td>Sem carência</td></tr><tr><td><strong>Serviço social e reabilitação profissional</strong></td><td>Sem carência</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Classe I de dependentes",
+      "o_que_e": "Cônjuge, companheira, companheiro e filho não emancipado, de qualquer condição, menor de 21 anos, inválido ou com deficiência intelectual, mental ou grave.",
+      "atencao": "Dependência presumida."
+     },
+     {
+      "nome": "Classe II",
+      "o_que_e": "Os pais.",
+      "atencao": "Precisam provar a dependência econômica."
+     },
+     {
+      "nome": "Classe III",
+      "o_que_e": "Irmão não emancipado, de qualquer condição, menor de 21 anos, inválido ou com deficiência intelectual, mental ou grave.",
+      "atencao": "Precisa provar a dependência econômica."
+     },
+     {
+      "nome": "Equiparados a filho",
+      "o_que_e": "Enteado, menor sob tutela e menor sob guarda judicial, mediante declaração do segurado e sem condições de prover o próprio sustento e educação."
+     },
+     {
+      "nome": "Período de carência",
+      "o_que_e": "Número mínimo de contribuições mensais para ter direito ao benefício, contadas a partir do primeiro dia dos meses de suas competências."
+     },
+     {
+      "nome": "Desaposentação",
+      "o_que_e": "Renúncia à aposentadoria para obter outra mais vantajosa com as contribuições posteriores.",
+      "atencao": "O STF a considerou inviável sem previsão em lei."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 9º.",
+      "Art. 10.",
+      "Art. 16.",
+      "Art. 18."
+     ],
+     "ref": "arts. 9º, 10, 16 e 18 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Arts. 9º e 10.</strong> A Previdência Social compreende o Regime Geral (I) e o Regime Facultativo Complementar (II). O Regime Geral cobre todas as situações do art. 1º, exceto o desemprego involuntário, que tem lei específica, e a aposentadoria por tempo de contribuição de quem contribui na alíquota reduzida do art. 21, § 2º, da Lei 8.212 (§ 1º). O regime complementar é objeto de lei específica (§ 2º). Os beneficiários são segurados e dependentes (art. 10).",
+      "<strong>Art. 16, caput e incisos.</strong> São dependentes, em três classes: o cônjuge, a companheira, o companheiro e o filho não emancipado, de qualquer condição, menor de 21 anos, inválido ou com deficiência intelectual, mental ou grave (I); os pais (II); o irmão não emancipado nas mesmas condições do filho (III). O inciso IV foi revogado, e os incisos V a VII foram vetados.",
+      "<strong>Art. 16, §§ 1º a 7º.</strong> Um dependente de qualquer classe exclui os das classes seguintes (§ 1º). O enteado, o menor sob tutela e o menor sob guarda judicial equiparam-se a filho, mediante declaração do segurado e se não tiverem condições de prover o próprio sustento e educação (§ 2º). Companheiro é quem, sem ser casado, mantém união estável com o segurado (§ 3º). A dependência da classe I é presumida, e a das demais deve ser comprovada (§ 4º). A prova de união estável e de dependência econômica exige início de prova material contemporânea, de no máximo 24 meses antes do óbito ou da prisão, e não se admite prova só testemunhal, salvo força maior ou caso fortuito (§ 5º). Para a pensão do cônjuge ou companheiro pelo prazo da tabela do art. 77, exige-se ainda início de prova material de união estável por pelo menos 2 anos antes do óbito (§ 6º). Quem for condenado, por sentença transitada em julgado, como autor, coautor ou partícipe de homicídio doloso ou tentativa contra o segurado é excluído definitivamente, ressalvados os absolutamente incapazes e os inimputáveis (§ 7º).",
+      "<strong>Art. 18, caput e incisos.</strong> As prestações são devidas também nos eventos de acidente do trabalho. Quanto ao segurado: aposentadoria por invalidez, por idade, por tempo de contribuição e especial, auxílio-doença, salário-família, salário-maternidade e auxílio-acidente (I, a a h; a alínea i foi revogada). Quanto ao dependente: pensão por morte e auxílio-reclusão (II). Quanto a ambos: serviço social e reabilitação profissional (III, b e c; a alínea a foi revogada).",
+      "<strong>Art. 18, §§ 1º a 4º.</strong> Só o empregado, o doméstico, o avulso e o segurado especial (art. 11, I, II, VI e VII) recebem auxílio-acidente (§ 1º). O aposentado que permanece ou volta à atividade não tem direito a prestação alguma por essa atividade, exceto salário-família e reabilitação profissional, quando empregado (§ 2º; o § 2º-A foi vetado). O contribuinte individual que trabalha por conta própria e o facultativo que contribuem na alíquota reduzida do art. 21, § 2º, da Lei 8.212 não têm aposentadoria por tempo de contribuição (§ 3º). Os benefícios podem ser pedidos aos Oficiais de Registro Civil das Pessoas Naturais, que enviam o requerimento ao INSS por meio eletrônico (§ 4º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "exceto as de desemprego involuntário, objeto de lei específica",
+       "marcas": [
+        "desemprego involuntário"
+       ],
+       "afirmacao": "O Regime Geral da Lei 8.213/1991 garante a cobertura de todas as situações do art. 1º, inclusive o desemprego involuntário.",
+       "gabarito": "E",
+       "porque": "O desemprego involuntário fica fora do Regime Geral da Lei 8.213, porque é objeto de lei específica (art. 9º, § 1º)."
+      },
+      {
+       "trecho": "A existência de dependente de qualquer das classes deste artigo exclui do direito às prestações os das classes seguintes",
+       "marcas": [
+        "exclui"
+       ],
+       "afirmacao": "Marcos morreu deixando a esposa e a mãe, que também vivia às custas dele. Só a esposa recebe a pensão por morte.",
+       "gabarito": "C",
+       "porque": "A esposa é da classe I e exclui a mãe, que é da classe II (art. 16, § 1º, da Lei 8.213)."
+      },
+      {
+       "trecho": "A dependência econômica das pessoas indicadas no inciso I é presumida e a das demais deve ser comprovada",
+       "marcas": [
+        "presumida"
+       ],
+       "afirmacao": "A dependência econômica dos pais em relação ao segurado é presumida, tal como a do cônjuge.",
+       "gabarito": "E",
+       "porque": "Só é presumida a dependência da classe I; a dos pais e a do irmão devem ser comprovadas (art. 16, § 4º)."
+      },
+      {
+       "trecho": "não admitida a prova exclusivamente testemunhal, exceto na ocorrência de motivo de força maior ou caso fortuito",
+       "marcas": [
+        "exclusivamente testemunhal"
+       ],
+       "afirmacao": "A companheira pode provar a união estável para a pensão por morte apenas com testemunhas, ainda que não haja força maior nem caso fortuito.",
+       "gabarito": "E",
+       "porque": "Exige-se início de prova material contemporânea, produzido no máximo 24 meses antes do óbito; a prova só testemunhal é admitida apenas em força maior ou caso fortuito (art. 16, § 5º)."
+      },
+      {
+       "trecho": "ressalvados os absolutamente incapazes e os inimputáveis",
+       "marcas": [
+        "inimputáveis"
+       ],
+       "afirmacao": "Um filho inimputável, por doença mental, matou o pai segurado. Ele não é excluído da condição de dependente pela regra do homicídio doloso.",
+       "gabarito": "C",
+       "porque": "A exclusão definitiva do autor de homicídio doloso contra o segurado ressalva os absolutamente incapazes e os inimputáveis (art. 16, § 7º)."
+      },
+      {
+       "trecho": "Somente poderão beneficiar-se do auxílio-acidente os segurados incluídos nos incisos I, II, VI e VII do art. 11 desta Lei",
+       "marcas": [
+        "Somente"
+       ],
+       "afirmacao": "Uma advogada autônoma, contribuinte individual, fica com sequela de um acidente que reduz sua capacidade de trabalho. Ela não tem direito a auxílio-acidente.",
+       "gabarito": "C",
+       "porque": "O auxílio-acidente cabe só ao empregado, ao doméstico, ao avulso e ao segurado especial (art. 18, § 1º)."
+      },
+      {
+       "trecho": "exceto ao salário-família e à reabilitação profissional, quando empregado",
+       "marcas": [
+        "salário-família",
+        "reabilitação profissional"
+       ],
+       "afirmacao": "O aposentado do Regime Geral que volta a trabalhar como empregado tem direito, por essa atividade, ao auxílio-doença e à reabilitação profissional.",
+       "gabarito": "E",
+       "porque": "Ele só tem direito ao salário-família e à reabilitação profissional, quando empregado (art. 18, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 9º.": "258d9c02390d",
+      "Art. 10.": "83555cfedbc5",
+      "Art. 16.": "d210cb09b4c3",
+      "Art. 18.": "e2b22ef970fd"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 24.",
+      "Art. 25.",
+      "Art. 26.",
+      "Art. 27.",
+      "Art. 27-A."
+     ],
+     "ref": "arts. 24 a 27-A da Lei 8.213/1991",
+     "regras": [
+      "<strong>Arts. 24 e 25.</strong> Carência é o número mínimo de contribuições mensais para o benefício, contadas a partir do primeiro dia dos meses de suas competências (art. 24; o parágrafo único foi revogado). Exigem 12 contribuições o auxílio-doença e a aposentadoria por invalidez (I); 180, as aposentadorias por idade, por tempo de serviço e especial (II); 10, o salário-maternidade da contribuinte individual, da segurada especial e da facultativa, observado o art. 39, parágrafo único (III); 24, o auxílio-reclusão (IV). No parto antecipado, a carência do inciso III cai no número de meses da antecipação (parágrafo único; o § 2º foi vetado).",
+      "<strong>Art. 26.</strong> Independem de carência: pensão por morte, salário-família e auxílio-acidente (I); auxílio-doença e aposentadoria por invalidez em acidente de qualquer natureza, doença profissional ou do trabalho, ou doença da lista dos Ministérios da Saúde e da Previdência, atualizada a cada 3 anos, contraída depois da filiação (II); os benefícios do segurado especial do art. 39, I (III); serviço social (IV); reabilitação profissional (V); salário-maternidade da empregada, da avulsa e da doméstica (VI).",
+      "<strong>Arts. 27 e 27-A.</strong> Para a carência contam: no caso do empregado, inclusive o doméstico, e do avulso, as contribuições desde a filiação (I); no caso do contribuinte individual, do especial e do facultativo, as contribuições a partir do primeiro pagamento sem atraso, sem contar as recolhidas em atraso de competências anteriores (II). Quem perdeu a qualidade de segurado precisa, a partir da nova filiação, de metade da carência para auxílio-doença, aposentadoria por invalidez, salário-maternidade e auxílio-reclusão (art. 27-A)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "IV - auxílio-reclusão: 24 (vinte e quatro) contribuições mensais",
+       "marcas": [
+        "24 (vinte e quatro)"
+       ],
+       "afirmacao": "O auxílio-reclusão, como a pensão por morte, independe de carência.",
+       "gabarito": "E",
+       "porque": "O auxílio-reclusão exige 24 contribuições mensais (art. 25, IV); a pensão por morte é que independe de carência (art. 26, I)."
+      },
+      {
+       "trecho": "será reduzido em número de contribuições equivalente ao número de meses em que o parto foi antecipado",
+       "marcas": [
+        "parto foi antecipado"
+       ],
+       "afirmacao": "Uma contribuinte individual tinha 8 contribuições quando o filho nasceu com 2 meses de antecipação. Ela cumpre a carência do salário-maternidade.",
+       "gabarito": "C",
+       "porque": "A carência de 10 contribuições é reduzida no número de meses em que o parto foi antecipado (art. 25, parágrafo único)."
+      },
+      {
+       "trecho": "VI - salário-maternidade para as seguradas empregada, trabalhadora avulsa e empregada doméstica",
+       "marcas": [
+        "empregada doméstica"
+       ],
+       "afirmacao": "A empregada doméstica contratada há 3 meses precisa cumprir carência de 10 contribuições para receber salário-maternidade.",
+       "gabarito": "E",
+       "porque": "O salário-maternidade da empregada, da avulsa e da doméstica independe de carência (art. 26, VI)."
+      },
+      {
+       "trecho": "não sendo consideradas para este fim as contribuições recolhidas com atraso referentes a competências anteriores",
+       "marcas": [
+        "com atraso"
+       ],
+       "afirmacao": "Um contribuinte individual pagou hoje, de uma vez, 12 meses atrasados de contribuição, sem ter feito nenhum recolhimento em dia antes. Esses 12 meses contam para a carência.",
+       "gabarito": "E",
+       "porque": "Para o contribuinte individual, a carência conta a partir do primeiro pagamento sem atraso, e as contribuições atrasadas de competências anteriores não entram (art. 27, II)."
+      },
+      {
+       "trecho": "com metade dos períodos previstos nos incisos I, III e IV do caput do art. 25 desta Lei",
+       "marcas": [
+        "metade"
+       ],
+       "afirmacao": "Joana perdeu a qualidade de segurada e voltou a contribuir como empregada. Depois de 6 contribuições, ela adoece e cumpre a carência do auxílio-doença.",
+       "gabarito": "C",
+       "porque": "Na nova filiação, basta metade da carência: 6 das 12 contribuições do auxílio-doença (art. 27-A)."
+      }
+     ],
+     "conferido": {
+      "Art. 24.": "652a7477a9c1",
+      "Art. 25.": "5cb3302a4377",
+      "Art. 26.": "47682ac974d0",
+      "Art. 27.": "ddc35a10d67a",
+      "Art. 27-A.": "6b858708f7c5"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Tema 503 (RE 661.256, 2016)",
+     "texto": "No Regime Geral, só lei pode criar benefícios e vantagens previdenciárias. Como não há previsão legal, a desaposentação e a reaposentação são inviáveis, e o art. 18, § 2º, da Lei 8.213 é constitucional."
+    }
+   ],
+   "detalhes": [
+    "Desde a EC 103/2019, a Constituição chama a aposentadoria por invalidez de aposentadoria por incapacidade permanente, e o auxílio-doença de auxílio por incapacidade temporária. A Lei 8.213 ainda usa os nomes antigos em vários artigos.",
+    "O aposentado que volta a trabalhar continua obrigado a contribuir (art. 12, § 4º, da Lei 8.212). A restrição do art. 18, § 2º, atinge só as prestações.",
+    "O auxílio-reclusão é prestação do dependente, não do preso. Quem recebe são os dependentes do segurado recolhido à prisão.",
+    "Dispensa de carência não é dispensa da qualidade de segurado: a pensão por morte não exige carência, mas o falecido precisa ser segurado na data do óbito."
+   ],
+   "macetes": [
+    {
+     "sigla": "12, 10, 24 E 180",
+     "texto": "Incapacidade: 12. Salário-maternidade da contribuinte individual, especial e facultativa: 10. Auxílio-reclusão: 24. Aposentadorias programadas: 180."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O serviço social e a reabilitação profissional são prestações devidas apenas ao segurado, e não aos dependentes.",
+    "gabarito": "E",
+    "explicacao": "São prestações devidas ao segurado e ao dependente (art. 18, III, da Lei 8.213)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Os pais concorrem em igualdade com o cônjuge na pensão por morte do filho.",
+     "certo": "O cônjuge, da classe I, exclui os pais, da classe II (art. 16, § 1º, da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 16 da Lei 8.213"
+    },
+    {
+     "errado": "O aposentado que volta a contribuir pode renunciar à aposentadoria e pedir outra, mais vantajosa, somando as novas contribuições.",
+     "certo": "O STF declarou inviável a desaposentação por falta de previsão legal (Tema 503).",
+     "fonte": "Questões do app sobre a desaposentação"
+    },
+    {
+     "errado": "Depois de perder a qualidade de segurado, quem volta a se filiar precisa cumprir de novo toda a carência do auxílio-doença.",
+     "certo": "Basta metade da carência a partir da nova filiação (art. 27-A da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 27-A da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "segurado-facultativo-filiacao-inscricao-e-qualidade-de-segurado",
+    "pensao-por-morte-e-auxilio-reclusao",
+    "salario-de-beneficio-renda-mensal-e-reajuste"
+   ]
+  },
+  {
+   "slug": "salario-de-beneficio-renda-mensal-e-reajuste",
+   "titulo": "Salário de benefício, renda mensal inicial, abono anual e reajuste dos benefícios",
+   "grupo": "Benefícios do Regime Geral: regras gerais e cálculo",
+   "base": "Arts. 28, 29, 29-A a 29-C, 33 a 37, 39, 40 e 41-A da Lei 8.213/1991; art. 26 da EC 103/2019",
+   "tax": [
+    "previdenciario.renda-mensal-inicial",
+    "previdenciario.valores-minimo-maximo-beneficio"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-28",
+    "n8213-1991-art-29",
+    "n8213-1991-art-29-a",
+    "n8213-1991-art-29-b",
+    "n8213-1991-art-29-c",
+    "n8213-1991-art-33",
+    "n8213-1991-art-34",
+    "n8213-1991-art-35",
+    "n8213-1991-art-36",
+    "n8213-1991-art-37",
+    "n8213-1991-art-39",
+    "n8213-1991-art-40",
+    "n8213-1991-art-41-a"
+   ],
+   "conceitos": [
+    "salário de benefício",
+    "período básico de cálculo",
+    "média dos maiores salários de contribuição",
+    "fator previdenciário",
+    "regra de pontos 85/95",
+    "piso e teto do benefício",
+    "ganhos habituais",
+    "décimo terceiro fora do cálculo",
+    "benefício por incapacidade no período de cálculo",
+    "limite do auxílio-doença",
+    "CNIS",
+    "correção pelo INPC",
+    "renda mensal inicial",
+    "contribuições não recolhidas pelo empregador",
+    "benefício de valor mínimo provisório",
+    "segurado especial",
+    "abono anual",
+    "reajuste anual pro rata",
+    "prazo do primeiro pagamento"
+   ],
+   "palavras": [
+    "salario de beneficio",
+    "renda mensal inicial",
+    "rmi",
+    "media aritmetica",
+    "oitenta por cento",
+    "periodo contributivo",
+    "fator previdenciario",
+    "expectativa de sobrevida",
+    "ibge",
+    "tabua de mortalidade",
+    "cinco anos mulher",
+    "professor",
+    "piso",
+    "teto",
+    "salario minimo",
+    "limite maximo",
+    "ganhos habituais",
+    "utilidades",
+    "decimo terceiro",
+    "gratificacao natalina",
+    "36 meses",
+    "aumento voluntario",
+    "beneficio por incapacidade",
+    "media dos ultimos 12",
+    "cnis",
+    "180 dias",
+    "extemporanea",
+    "inpc",
+    "correcao monetaria",
+    "85 95",
+    "pontos",
+    "nao incidencia do fator",
+    "contribuicoes nao recolhidas",
+    "empregador domestico",
+    "valor minimo",
+    "recalculada",
+    "data do requerimento de revisao",
+    "segurado especial",
+    "atividade rural descontinua",
+    "abono anual",
+    "dezembro",
+    "reajuste",
+    "pro rata",
+    "45 dias",
+    "quinto dia util",
+    "ec 103",
+    "60 por cento",
+    "dois por cento",
+    "julho de 1994"
+   ],
+   "resumo": "O valor da maior parte dos benefícios parte do <strong>salário de benefício</strong>, uma média dos salários de contribuição corrigidos pelo INPC. Sobre ele se aplica um percentual, e o resultado é a <strong>renda mensal inicial</strong>, que não pode ficar abaixo do salário mínimo nem acima do teto quando substitui o rendimento do trabalho. O salário-família e o salário-maternidade têm regras próprias e não usam o salário de benefício. O texto da Lei 8.213 ainda fala na média dos 80% maiores salários e no fator previdenciário. Desde a EC 103/2019, a média usa todos os salários desde julho de 1994, e a aposentadoria parte de 60% da média, com 2% a mais por ano que exceder 20 anos de contribuição (homem) ou 15 (mulher). Para o empregado, contam as contribuições descontadas mesmo que o empregador não as recolha. Os benefícios em manutenção são reajustados uma vez por ano pelo INPC, e quem recebe benefício durante o ano tem abono anual em dezembro.",
+   "esquema": {
+    "rotulo": "do salário de contribuição ao valor pago",
+    "html": "<table><thead><tr><th>Etapa</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Correção</strong></td><td>Cada salário de contribuição é corrigido mês a mês pelo INPC (art. 29-B)</td></tr><tr><td><strong>Média (salário de benefício)</strong></td><td>Texto da lei: 80% maiores salários (art. 29). Regra da EC 103/2019 (art. 26): 100% dos salários desde julho de 1994</td></tr><tr><td><strong>Fator previdenciário</strong></td><td>Idade, expectativa de sobrevida e tempo de contribuição (art. 29, §§ 7º a 9º); afastável pela regra de pontos (art. 29-C)</td></tr><tr><td><strong>Limites</strong></td><td>Salário de benefício e renda mensal entre o salário mínimo e o teto (arts. 29, § 2º, e 33); acréscimo de 25% do art. 45 pode superar o teto</td></tr><tr><td><strong>Reajuste</strong></td><td>Anual, na data do reajuste do salário mínimo, pro rata, pelo INPC, sem passar do teto (art. 41-A)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Salário de benefício",
+      "o_que_e": "Valor-base do cálculo dos benefícios de prestação continuada, exceto salário-família e salário-maternidade."
+     },
+     {
+      "nome": "Renda mensal inicial",
+      "o_que_e": "Primeiro valor do benefício, resultado do percentual aplicado sobre o salário de benefício."
+     },
+     {
+      "nome": "Fator previdenciário",
+      "o_que_e": "Multiplicador que considera idade, expectativa de sobrevida (tábua do IBGE, média única para os dois sexos) e tempo de contribuição.",
+      "atencao": "No texto da lei, aplica-se obrigatoriamente às aposentadorias por idade e por tempo de contribuição; o art. 7º da Lei 9.876 permite afastá-lo na por idade quando for desvantajoso."
+     },
+     {
+      "nome": "CNIS",
+      "o_que_e": "Cadastro Nacional de Informações Sociais: base de vínculos e remunerações usada pelo INSS para calcular benefícios e provar filiação e tempo de contribuição."
+     },
+     {
+      "nome": "Abono anual",
+      "o_que_e": "Prestação de dezembro para quem recebeu, no ano, auxílio-doença, auxílio-acidente, aposentadoria, pensão por morte ou auxílio-reclusão.",
+      "atencao": "Não cabe a quem recebe só salário-família nem BPC."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 28.",
+      "Art. 29.",
+      "Art. 29-A.",
+      "Art. 29-B.",
+      "Art. 29-C."
+     ],
+     "ref": "arts. 28 a 29-C da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 28.</strong> O benefício de prestação continuada, inclusive o de norma especial e o acidentário, é calculado com base no salário de benefício, exceto o salário-família e o salário-maternidade (os §§ 1º a 4º foram revogados).",
+      "<strong>Art. 29, caput a § 6º.</strong> O salário de benefício é a média aritmética simples dos maiores salários de contribuição de 80% de todo o período contributivo, multiplicada pelo fator previdenciário nas aposentadorias por idade e por tempo de contribuição (I) e sem ele nas aposentadorias por invalidez e especial, no auxílio-doença e no auxílio-acidente (II). O § 1º foi revogado. O salário de benefício fica entre um salário mínimo e o teto na data de início (§ 2º). Contam os ganhos habituais do empregado, em dinheiro ou utilidades, que sofreram contribuição, exceto o décimo terceiro (§ 3º). Não conta o aumento acima do limite legal, inclusive o voluntário nos 36 meses anteriores ao benefício, salvo o homologado pela Justiça do Trabalho, por promoção regulamentar, sentença normativa ou reajuste da categoria (§ 4º). O período em benefício por incapacidade dentro do período básico de cálculo conta, valendo como salário de contribuição o salário de benefício reajustado, nunca abaixo do mínimo (§ 5º). O salário de benefício do segurado especial é o salário mínimo, ressalvados o art. 39, II, e o art. 48, §§ 3º e 4º (§ 6º; os incisos I e II do § 6º foram revogados).",
+      "<strong>Art. 29, §§ 7º a 10.</strong> O fator previdenciário considera idade, expectativa de sobrevida e tempo de contribuição, pela fórmula do Anexo (§ 7º). A expectativa de sobrevida vem da tábua completa de mortalidade do IBGE, com média nacional única para os dois sexos (§ 8º). Para o fator, somam-se ao tempo de contribuição 5 anos para a mulher (§ 9º, I), 5 para o professor (II) e 10 para a professora (III) que comprovem só tempo de magistério na educação infantil e no ensino fundamental e médio. O auxílio-doença não pode passar da média dos últimos 12 salários de contribuição, ou da média dos existentes, se forem menos de 12 (§ 10; os §§ 11 a 13 foram vetados).",
+      "<strong>Arts. 29-A e 29-B.</strong> O INSS usa os dados do CNIS sobre vínculos e remunerações para calcular o salário de benefício e comprovar filiação, tempo de contribuição e relação de emprego (art. 29-A). O INSS tem até 180 dias para fornecer essas informações ao segurado (§ 1º). O segurado pode pedir, a qualquer momento, inclusão, exclusão ou retificação, com documentos (§ 2º). A informação inserida fora do prazo só é aceita com comprovação (§ 3º), e é extemporânea a apresentada depois dos prazos do regulamento (§ 4º). Havendo dúvida sobre vínculo sem remunerações, o INSS exige os documentos da anotação, sob pena de excluir o período (§ 5º). Os salários de contribuição do cálculo são corrigidos mês a mês pelo INPC (art. 29-B).",
+      "<strong>Art. 29-C.</strong> Na aposentadoria por tempo de contribuição, o segurado pode afastar o fator previdenciário quando a soma da idade e do tempo de contribuição atingir 95 pontos, se homem, com 35 anos de contribuição (I), ou 85, se mulher, com 30 anos (II). Somam-se as frações em meses completos (§ 1º). As somas sobem um ponto em 31 de dezembro de 2018, 2020, 2022, 2024 e 2026 (§ 2º, I a V). O professor e a professora com tempo exclusivo de magistério na educação básica precisam de 30 e 25 anos de contribuição, e ganham 5 pontos na soma (§ 3º). Quem atinge a pontuação e não se aposenta conserva o direito à pontuação exigida na data em que a atingiu (§ 4º; o § 5º foi vetado)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "exceto o salário-família e o salário-maternidade",
+       "marcas": [
+        "salário-maternidade"
+       ],
+       "afirmacao": "O salário-maternidade é calculado com base no salário de benefício, como os demais benefícios de prestação continuada.",
+       "gabarito": "E",
+       "porque": "O salário-família e o salário-maternidade não usam o salário de benefício (art. 28 da Lei 8.213)."
+      },
+      {
+       "trecho": "exceto o décimo-terceiro salário (gratificação natalina)",
+       "marcas": [
+        "décimo-terceiro salário"
+       ],
+       "afirmacao": "No cálculo do salário de benefício de um empregado, entram a comissão habitual e o valor da moradia fornecida pela empresa, sobre os quais houve contribuição, mas não o décimo terceiro.",
+       "gabarito": "C",
+       "porque": "Contam os ganhos habituais, em dinheiro ou utilidades, que sofreram contribuição, exceto o décimo terceiro (art. 29, § 3º)."
+      },
+      {
+       "trecho": "considerando-se a média nacional única para ambos os sexos",
+       "marcas": [
+        "média nacional única"
+       ],
+       "afirmacao": "Para o fator previdenciário, um homem e uma mulher que se aposentam com a mesma idade têm a mesma expectativa de sobrevida considerada no cálculo.",
+       "gabarito": "C",
+       "porque": "A tábua do IBGE é usada com média nacional única para ambos os sexos (art. 29, § 8º); a diferença para a mulher vem dos 5 anos somados ao tempo de contribuição (§ 9º, I)."
+      },
+      {
+       "trecho": "O auxílio-doença não poderá exceder a média aritmética simples dos últimos 12 (doze) salários-de-contribuição",
+       "marcas": [
+        "últimos 12 (doze)"
+       ],
+       "afirmacao": "Um vendedor teve salários altos por anos, mas ganhou pouco nos últimos 12 meses antes de adoecer. O auxílio-doença fica limitado à média desses últimos 12 salários de contribuição.",
+       "gabarito": "C",
+       "porque": "É o limite do art. 29, § 10, da Lei 8.213, que vale inclusive para remuneração variável."
+      },
+      {
+       "trecho": "O INSS terá até 180 (cento e oitenta) dias, contados a partir da solicitação do pedido",
+       "marcas": [
+        "180 (cento e oitenta) dias"
+       ],
+       "afirmacao": "O INSS tem até 30 dias, contados do pedido, para fornecer ao segurado as informações do CNIS.",
+       "gabarito": "E",
+       "porque": "O prazo é de até 180 dias a partir da solicitação (art. 29-A, § 1º)."
+      },
+      {
+       "trecho": "igual ou superior a oitenta e cinco pontos, se mulher, observado o tempo mínimo de contribuição de trinta anos",
+       "marcas": [
+        "oitenta e cinco pontos"
+       ],
+       "afirmacao": "Pelo texto original do art. 29-C, a mulher afastava o fator previdenciário com 85 pontos na soma de idade e tempo de contribuição, desde que tivesse ao menos 30 anos de contribuição.",
+       "gabarito": "C",
+       "porque": "É o art. 29-C, II, da Lei 8.213; a pontuação subiu um ponto nas datas do § 2º."
+      }
+     ],
+     "conferido": {
+      "Art. 28.": "bc99dbec9909",
+      "Art. 29.": "62822dc09988",
+      "Art. 29-A.": "631401773853",
+      "Art. 29-B.": "819e8c942299",
+      "Art. 29-C.": "dc7bf24aa7c3"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 33.",
+      "Art. 34.",
+      "Art. 35.",
+      "Art. 36.",
+      "Art. 37.",
+      "Art. 39.",
+      "Art. 40.",
+      "Art. 41-A."
+     ],
+     "ref": "arts. 33 a 37, 39, 40 e 41-A da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 33.</strong> A renda mensal do benefício que substitui o salário de contribuição ou o rendimento do trabalho não é inferior ao salário mínimo nem superior ao teto, ressalvado o acréscimo de 25% do art. 45.",
+      "<strong>Art. 34.</strong> No cálculo da renda mensal, inclusive a acidentária, contam: para o empregado, o doméstico e o avulso, os salários de contribuição dos meses de contribuições devidas, ainda que não recolhidas pelo empregador, sem prejuízo da cobrança, observado o art. 29-A, § 5º (I); para esses segurados e o especial, o auxílio-acidente, como salário de contribuição para qualquer aposentadoria (II); para os demais, os salários dos meses efetivamente recolhidos (III).",
+      "<strong>Arts. 35 a 37.</strong> O empregado, o doméstico e o avulso que cumpriram as condições, mas não provam os salários do período básico de cálculo, recebem o benefício de valor mínimo, recalculado quando apresentarem a prova (art. 35). O doméstico que não prova o recolhimento das contribuições também recebe o valor mínimo, recalculado com a prova (art. 36). A renda recalculada é reajustada como a dos benefícios com igual data de início e substitui a anterior a partir da data do pedido de revisão (art. 37).",
+      "<strong>Art. 39.</strong> O segurado especial tem garantidos, no valor de um salário mínimo, aposentadoria por idade ou por invalidez, auxílio-doença, auxílio-reclusão ou pensão, além de auxílio-acidente na forma do art. 86, desde que prove atividade rural, ainda que descontínua, no período imediatamente anterior ao requerimento igual à carência, observados os arts. 38-A e 38-B (I). Se contribuir facultativamente, tem os benefícios da lei pelos critérios gerais de cálculo (II). A segurada especial tem salário-maternidade de um salário mínimo se provar atividade rural, ainda que descontínua, nos 12 meses anteriores ao início do benefício (parágrafo único).",
+      "<strong>Arts. 40 e 41-A.</strong> Tem abono anual quem recebeu no ano auxílio-doença, auxílio-acidente, aposentadoria, pensão por morte ou auxílio-reclusão (art. 40), calculado como a gratificação de Natal, com base na renda de dezembro (parágrafo único). Os benefícios em manutenção são reajustados uma vez por ano, na data do reajuste do salário mínimo, pro rata, pelo INPC (art. 41-A). Nenhum benefício reajustado pode passar do teto, respeitado o direito adquirido (§ 1º). Benefícios acima do mínimo são pagos do 1º ao 5º dia útil do mês seguinte (§ 2º), e os de até um mínimo, entre o 5º dia útil antes do fim do mês e o 5º dia útil do mês seguinte (§ 3º). Dia útil é o de expediente bancário normal (§ 4º). O primeiro pagamento sai até 45 dias depois da apresentação da documentação (§ 5º). O aumento decorrente da elevação do salário mínimo é compensado no reajuste do caput (§ 6º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ainda que não recolhidas pela empresa ou pelo empregador doméstico",
+       "marcas": [
+        "ainda que não recolhidas"
+       ],
+       "afirmacao": "A empresa descontou as contribuições de um empregado, mas não as repassou ao INSS. Esses salários de contribuição contam no cálculo da renda mensal do benefício dele.",
+       "gabarito": "C",
+       "porque": "Para empregado, doméstico e avulso, contam as contribuições devidas, ainda que não recolhidas (art. 34, I)."
+      },
+      {
+       "trecho": "será concedido o benefício de valor mínimo, devendo esta renda ser recalculada quando da apresentação de prova dos salários de contribuição",
+       "marcas": [
+        "benefício de valor mínimo"
+       ],
+       "afirmacao": "O empregado que cumpriu as condições do benefício, mas não consegue provar os salários de contribuição do período básico de cálculo, tem o pedido indeferido até apresentar a prova.",
+       "gabarito": "E",
+       "porque": "Ele recebe o benefício de valor mínimo, recalculado quando provar os salários (art. 35)."
+      },
+      {
+       "trecho": "a partir da data do requerimento de revisão do valor do benefício",
+       "marcas": [
+        "data do requerimento de revisão"
+       ],
+       "afirmacao": "A renda mensal recalculada após a prova dos salários de contribuição substitui a anterior desde a data de início do benefício.",
+       "gabarito": "E",
+       "porque": "A nova renda substitui a anterior a partir da data do pedido de revisão (art. 37)."
+      },
+      {
+       "trecho": "ainda que de forma descontínua, no período imediatamente anterior ao requerimento do benefício",
+       "marcas": [
+        "descontínua"
+       ],
+       "afirmacao": "Um pescador artesanal, segurado especial que nunca contribuiu facultativamente, trabalhou de forma descontínua no período de carência e se aposenta por idade com um salário mínimo.",
+       "gabarito": "C",
+       "porque": "Basta provar a atividade rural, ainda que descontínua, pelo número de meses da carência (art. 39, I)."
+      },
+      {
+       "trecho": "recebeu auxílio-doença, auxílio-acidente ou aposentadoria, pensão por morte ou auxílio-reclusão",
+       "marcas": [
+        "auxílio-reclusão"
+       ],
+       "afirmacao": "Quem recebeu salário-família durante o ano tem direito ao abono anual calculado sobre as cotas.",
+       "gabarito": "E",
+       "porque": "O salário-família não está no rol do art. 40, que se limita a auxílio-doença, auxílio-acidente, aposentadoria, pensão por morte e auxílio-reclusão."
+      },
+      {
+       "trecho": "O primeiro pagamento do benefício será efetuado até quarenta e cinco dias após a data da apresentação",
+       "marcas": [
+        "quarenta e cinco dias"
+       ],
+       "afirmacao": "O INSS tem até 90 dias, contados da apresentação da documentação, para fazer o primeiro pagamento do benefício.",
+       "gabarito": "E",
+       "porque": "O prazo é de até 45 dias após a apresentação da documentação necessária (art. 41-A, § 5º)."
+      }
+     ],
+     "conferido": {
+      "Art. 33.": "ee77d9e07689",
+      "Art. 34.": "6a00e0832555",
+      "Art. 35.": "3fcc42681e95",
+      "Art. 36.": "a8287465fa93",
+      "Art. 37.": "d070b9b754e6",
+      "Art. 39.": "00373fcefead",
+      "Art. 40.": "a74002d2ee81",
+      "Art. 41-A.": "63fd06acf87c"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · RE 564.354 (repercussão geral, 2010)",
+     "texto": "Os benefícios limitados ao teto antes das EC 20/1998 e 41/2003 podem ser readequados aos novos tetos. A aplicação imediata do novo limite não ofende o ato jurídico perfeito."
+    }
+   ],
+   "detalhes": [
+    "Pelo art. 26 da EC 103/2019, até lei nova, o salário de benefício é a média de 100% dos salários de contribuição desde julho de 1994 ou desde o início da contribuição, se posterior. A aposentadoria parte de 60% dessa média, com mais 2% por ano de contribuição acima de 20 anos (homem) ou 15 (mulher).",
+    "A EC 103 garante 100% da média na aposentadoria por incapacidade permanente decorrente de acidente do trabalho, doença profissional ou do trabalho.",
+    "O reajuste pelo INPC vale para benefícios acima do mínimo. Os de um salário mínimo acompanham o aumento do mínimo, porque nenhum benefício que substitui a renda pode ficar abaixo dele (CF, art. 201, § 2º).",
+    "O BPC é assistencial e não gera abono anual."
+   ],
+   "macetes": [
+    {
+     "sigla": "60% + 2%",
+     "texto": "Regra da EC 103: 60% da média, mais 2% por ano além de 20 anos (homem) ou 15 (mulher)."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Os benefícios em manutenção são reajustados todo ano pelo mesmo percentual de aumento do salário mínimo.",
+    "gabarito": "E",
+    "explicacao": "O reajuste ocorre na mesma data do reajuste do salário mínimo, mas pelo INPC, pro rata (art. 41-A). Só os benefícios de valor mínimo acompanham o aumento do mínimo."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Nenhum benefício pode superar o teto do salário de contribuição.",
+     "certo": "O acréscimo de 25% da aposentadoria por invalidez é devido mesmo que a renda passe do teto (arts. 33 e 45 da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 33 da Lei 8.213"
+    },
+    {
+     "errado": "Os salários de contribuição entram no cálculo pelo valor nominal.",
+     "certo": "São corrigidos mês a mês pelo INPC (art. 29-B da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 29-B da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "aposentadorias-do-regime-geral",
+    "salario-de-contribuicao-e-contribuicao-dos-segurados"
+   ]
+  },
+  {
+   "slug": "aposentadorias-do-regime-geral",
+   "titulo": "Aposentadorias do Regime Geral: por idade, tempo de contribuição, especial e da pessoa com deficiência",
+   "grupo": "Benefícios do Regime Geral: aposentadorias, incapacidade e família",
+   "base": "Arts. 48 a 51 e 55 a 58 da Lei 8.213/1991; art. 201, §§ 1º e 7º, da Constituição; arts. 19 e 22 da EC 103/2019; LC 142/2013",
+   "tax": [
+    "previdenciario.aposentadoria-pcd",
+    "previdenciario.abono-permanencia"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-48",
+    "n8213-1991-art-49",
+    "n8213-1991-art-50",
+    "n8213-1991-art-51",
+    "n8213-1991-art-55",
+    "n8213-1991-art-56",
+    "n8213-1991-art-57",
+    "n8213-1991-art-58"
+   ],
+   "conceitos": [
+    "aposentadoria por idade",
+    "redução de idade do trabalhador rural",
+    "aposentadoria híbrida",
+    "data de início da aposentadoria",
+    "aposentadoria compulsória requerida pela empresa",
+    "tempo de serviço e tempo de contribuição",
+    "tempo intercalado de benefício",
+    "mandato eletivo",
+    "início de prova material",
+    "aposentadoria do professor",
+    "aposentadoria especial",
+    "trabalho permanente, não ocasional nem intermitente",
+    "agentes nocivos",
+    "perfil profissiográfico previdenciário",
+    "laudo técnico",
+    "conversão de tempo especial",
+    "aposentadoria da pessoa com deficiência",
+    "graus de deficiência",
+    "abono de permanência"
+   ],
+   "palavras": [
+    "aposentadoria por idade",
+    "65 anos",
+    "60 anos",
+    "62 anos",
+    "trabalhador rural",
+    "55 anos",
+    "atividade rural descontinua",
+    "aposentadoria hibrida",
+    "data do desligamento",
+    "90 dias",
+    "data do requerimento",
+    "70 por cento",
+    "um por cento por grupo",
+    "compulsoria",
+    "70 anos",
+    "indenizacao trabalhista",
+    "tempo de servico",
+    "servico militar",
+    "tempo intercalado",
+    "auxilio-doenca intercalado",
+    "mandato eletivo",
+    "facultativo",
+    "averbacao",
+    "prova material",
+    "prova testemunhal",
+    "aliquota reduzida",
+    "professor",
+    "magisterio",
+    "aposentadoria especial",
+    "15 20 ou 25 anos",
+    "agentes nocivos",
+    "permanente",
+    "nao ocasional nem intermitente",
+    "ppp",
+    "perfil profissiografico",
+    "laudo tecnico",
+    "engenheiro de seguranca",
+    "epi",
+    "conversao",
+    "tema 709",
+    "tema 555",
+    "pessoa com deficiencia",
+    "lc 142",
+    "deficiencia grave",
+    "deficiencia moderada",
+    "deficiencia leve",
+    "pericia propria",
+    "abono de permanencia",
+    "tema 888",
+    "ec 103"
+   ],
+   "resumo": "O texto da Lei 8.213 ainda descreve a aposentadoria por idade aos 65 anos (homem) e 60 (mulher), com redução de 5 anos para o trabalhador rural, e a antiga aposentadoria por tempo de serviço. A EC 103/2019 mudou o regime urbano: a aposentadoria programada passou a exigir <strong>65 anos (homem) e 62 (mulher)</strong>, com tempo mínimo de contribuição, e acabou a aposentadoria só por tempo de contribuição para quem se filiou depois dela. As regras de transição continuam valendo para quem já era filiado. O rural continua com 60 e 55 anos. A <strong>aposentadoria especial</strong> exige trabalho permanente exposto a agentes nocivos por 15, 20 ou 25 anos, provado por formulário da empresa com base em laudo técnico. Quem se aposenta assim e continua exposto perde o benefício. A pessoa com deficiência tem aposentadoria própria na LC 142/2013, com tempo menor conforme o grau da deficiência.",
+   "esquema": {
+    "rotulo": "requisitos depois da EC 103/2019 (regra permanente)",
+    "html": "<table><thead><tr><th>Aposentadoria</th><th>Requisitos</th></tr></thead><tbody><tr><td><strong>Programada (urbana)</strong></td><td>65 anos (homem) e 62 (mulher); tempo de contribuição de 20 anos (homem) e 15 (mulher) até lei nova</td></tr><tr><td><strong>Por idade do trabalhador rural</strong></td><td>60 anos (homem) e 55 (mulher), com atividade rural pelo tempo da carência</td></tr><tr><td><strong>Especial</strong></td><td>Atividade nociva por 15, 20 ou 25 anos e idade mínima de 55, 58 ou 60 anos, respectivamente (EC 103, art. 19, § 1º)</td></tr><tr><td><strong>Professor da educação básica</strong></td><td>60 anos (homem) e 57 (mulher), com 25 anos de efetivo magistério</td></tr><tr><td><strong>Pessoa com deficiência (LC 142)</strong></td><td>Por tempo: 25/20 (grave), 29/24 (moderada), 33/28 (leve); por idade: 60/55 anos com 15 anos de contribuição com deficiência</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Aposentadoria híbrida",
+      "o_que_e": "Aposentadoria por idade do trabalhador rural que soma períodos de outras categorias: a idade volta a 65 anos (homem) e 60 (mulher), e o período rural entra com o salário mínimo."
+     },
+     {
+      "nome": "Aposentadoria compulsória",
+      "o_que_e": "Pedida pela empresa quando o empregado cumpriu a carência e tem 70 anos (homem) ou 65 (mulher), com indenização trabalhista."
+     },
+     {
+      "nome": "Perfil profissiográfico previdenciário (PPP)",
+      "o_que_e": "Documento da empresa com as atividades do trabalhador e a exposição a agentes nocivos, entregue em cópia na rescisão."
+     },
+     {
+      "nome": "Pessoa com deficiência (LC 142)",
+      "o_que_e": "Quem tem impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial que podem obstruir sua participação plena na sociedade.",
+      "atencao": "Impedimento de curto prazo não basta."
+     },
+     {
+      "nome": "Abono de permanência",
+      "o_que_e": "Valor igual à contribuição previdenciária pago ao servidor de regime próprio que cumpre os requisitos da aposentadoria voluntária e continua trabalhando (CF, art. 40, § 19).",
+      "atencao": "É instituto do servidor público, não do Regime Geral."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 48.",
+      "Art. 49.",
+      "Art. 50.",
+      "Art. 51."
+     ],
+     "ref": "arts. 48 a 51 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 48.</strong> A aposentadoria por idade é devida a quem cumpre a carência e completa 65 anos, se homem, e 60, se mulher. Os limites caem para 60 e 55 anos para os trabalhadores rurais do art. 11, I, a, V, g, VI e VII (§ 1º). O rural comprova atividade rural, ainda que descontínua, no período imediatamente anterior ao requerimento, pelo número de meses da carência, contados os períodos do art. 11, § 9º, III a VIII (§ 2º). O rural que só cumpre esse tempo somando períodos de outras categorias se aposenta aos 65 anos (homem) e 60 (mulher) (§ 3º), e o período como segurado especial entra no cálculo pelo salário de contribuição mínimo (§ 4º).",
+      "<strong>Arts. 49 a 51.</strong> Para o empregado, inclusive o doméstico, a aposentadoria por idade conta do desligamento, se pedida até 90 dias depois dele (I, a), ou do requerimento, se não houver desligamento ou se pedida depois desse prazo (I, b); para os demais segurados, conta da entrada do requerimento (II). A renda é de 70% do salário de benefício mais 1% por grupo de 12 contribuições, até 100% (art. 50). A empresa pode requerer a aposentadoria do empregado que cumpriu a carência e tem 70 anos, se homem, ou 65, se mulher; ela é compulsória, e o empregado recebe a indenização trabalhista, com rescisão no dia anterior ao início da aposentadoria (art. 51)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "reduzidos para sessenta e cinquenta e cinco anos no caso de trabalhadores rurais",
+       "marcas": [
+        "sessenta e cinquenta e cinco anos"
+       ],
+       "afirmacao": "Uma segurada especial que trabalha em regime de economia familiar pode se aposentar por idade aos 55 anos, se comprovar a atividade rural pelo tempo da carência.",
+       "gabarito": "C",
+       "porque": "A idade do trabalhador rural é reduzida para 60 anos (homem) e 55 (mulher) (art. 48, §§ 1º e 2º, da Lei 8.213)."
+      },
+      {
+       "trecho": "da data do desligamento do emprego, quando requerida até essa data ou até 90 (noventa) dias depois dela",
+       "marcas": [
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Um empregado pede a aposentadoria por idade 60 dias depois de sair do emprego. O benefício começa na data do requerimento.",
+       "gabarito": "E",
+       "porque": "Pedida até 90 dias depois do desligamento, a aposentadoria conta da data do desligamento (art. 49, I, a)."
+      },
+      {
+       "trecho": "completado 70 (setenta) anos de idade, se do sexo masculino, ou 65 (sessenta e cinco) anos, se do sexo feminino",
+       "marcas": [
+        "70 (setenta) anos"
+       ],
+       "afirmacao": "A empresa pode requerer a aposentadoria compulsória do empregado homem que cumpriu a carência e completou 65 anos.",
+       "gabarito": "E",
+       "porque": "Para o homem, a idade é de 70 anos; para a mulher, 65 (art. 51)."
+      }
+     ],
+     "conferido": {
+      "Art. 48.": "257b68bf8b67",
+      "Art. 49.": "8754251032fa",
+      "Art. 50.": "8f0db34e3125",
+      "Art. 51.": "1483264fb415"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 55.",
+      "Art. 56.",
+      "Art. 57.",
+      "Art. 58."
+     ],
+     "ref": "arts. 55 a 58 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 55, caput e incisos.</strong> O tempo de serviço é provado na forma do regulamento e inclui a atividade em qualquer categoria do art. 11, mesmo anterior à perda da qualidade de segurado, além de: serviço militar, inclusive voluntário e o alternativo do art. 143, § 1º, da CF, ainda que anterior à filiação, se não contado para inatividade nas Forças Armadas ou aposentadoria no serviço público (I); o tempo intercalado em auxílio-doença ou aposentadoria por invalidez (II); as contribuições como facultativo (III); o mandato eletivo federal, estadual ou municipal, se não contado para aposentadoria em outro regime (IV); as contribuições feitas depois de deixar a atividade que o enquadrava no art. 11 (V); e as contribuições dos arts. 8º e 9º da Lei 8.162/1991 pelo segurado do art. 11, I, g, que contam para carência (VI).",
+      "<strong>Art. 55, §§ 1º a 4º.</strong> O tempo em que a atividade não exigia filiação ao regime urbano anterior só é averbado com o recolhimento das contribuições (§ 1º). O tempo do trabalhador rural anterior à Lei 8.213 conta sem contribuições, exceto para carência (§ 2º). A prova de tempo de serviço, inclusive por justificação administrativa ou judicial, exige início de prova material contemporânea, e não se admite prova só testemunhal, salvo força maior ou caso fortuito (§ 3º). Não conta para a aposentadoria por tempo de contribuição o período recolhido na alíquota reduzida do art. 21, § 2º, da Lei 8.212, salvo complementação (§ 4º).",
+      "<strong>Art. 56.</strong> O professor, após 30 anos, e a professora, após 25 anos de efetivo exercício no magistério, podiam aposentar-se por tempo de serviço com 100% do salário de benefício.",
+      "<strong>Art. 57.</strong> A aposentadoria especial é devida, cumprida a carência, a quem trabalhou em condições especiais prejudiciais à saúde ou à integridade física por 15, 20 ou 25 anos. A renda é de 100% do salário de benefício (§ 1º), e o início segue o art. 49 (§ 2º). O segurado prova ao INSS trabalho permanente, não ocasional nem intermitente, nessas condições (§ 3º), e a exposição a agentes nocivos químicos, físicos, biológicos ou associados pelo mesmo período (§ 4º). O tempo especial é somado ao comum, após conversão, para qualquer benefício (§ 5º). O benefício é financiado pela contribuição do art. 22, II, da Lei 8.212, acrescida de 12, 9 ou 6 pontos percentuais para aposentadoria aos 15, 20 ou 25 anos (§ 6º), só sobre a remuneração do segurado exposto (§ 7º). Aplica-se o art. 46 ao aposentado especial que continua exposto aos agentes nocivos (§ 8º).",
+      "<strong>Art. 58.</strong> O Poder Executivo define a relação dos agentes nocivos. A exposição é provada por formulário do INSS emitido pela empresa, com base em laudo técnico de médico do trabalho ou engenheiro de segurança do trabalho (§ 1º). O laudo informa se há tecnologia de proteção coletiva ou individual que reduza o agente a limites de tolerância e recomenda sua adoção (§ 2º). A empresa sem laudo atualizado, ou que emite documento em desacordo com ele, sofre a penalidade do art. 133 (§ 3º). A empresa mantém atualizado o perfil profissiográfico do trabalhador e lhe entrega cópia autêntica na rescisão (§ 4º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o tempo intercalado em que esteve em gozo de auxílio-doença ou aposentadoria por invalidez",
+       "marcas": [
+        "tempo intercalado"
+       ],
+       "afirmacao": "Entre dois empregos, Paulo ficou 8 meses em auxílio-doença. Esse período conta como tempo de serviço.",
+       "gabarito": "C",
+       "porque": "O tempo intercalado em auxílio-doença ou aposentadoria por invalidez conta (art. 55, II). O STF também o admite para carência (Tema 1.125)."
+      },
+      {
+       "trecho": "desde que não tenha sido contado para efeito de aposentadoria por outro regime de previdência social",
+       "marcas": [
+        "outro regime"
+       ],
+       "afirmacao": "O vereador que contribuiu ao Regime Geral durante o mandato pode usar o mesmo período para se aposentar no regime próprio do Município e no Regime Geral.",
+       "gabarito": "E",
+       "porque": "O tempo de mandato eletivo só conta se não tiver sido usado para aposentadoria em outro regime (art. 55, IV)."
+      },
+      {
+       "trecho": "será computado independentemente do recolhimento das contribuições a ele correspondentes, exceto para efeito de carência",
+       "marcas": [
+        "exceto para efeito de carência"
+       ],
+       "afirmacao": "O tempo de trabalho rural anterior à Lei 8.213/1991 conta como tempo de serviço sem contribuições e também serve para cumprir a carência.",
+       "gabarito": "E",
+       "porque": "Conta sem contribuições, exceto para carência (art. 55, § 2º)."
+      },
+      {
+       "trecho": "do tempo de trabalho permanente, não ocasional nem intermitente",
+       "marcas": [
+        "não ocasional nem intermitente"
+       ],
+       "afirmacao": "Um técnico de laboratório trabalha exposto a agentes biológicos durante toda a jornada, todos os dias. Esse tempo pode ser considerado especial.",
+       "gabarito": "C",
+       "porque": "A aposentadoria especial exige trabalho permanente, não ocasional nem intermitente, em condições especiais (art. 57, § 3º)."
+      },
+      {
+       "trecho": "Aplica-se o disposto no art. 46 ao segurado aposentado nos termos deste artigo",
+       "marcas": [
+        "art. 46"
+       ],
+       "afirmacao": "O enfermeiro que obtém aposentadoria especial pode continuar trabalhando exposto a agentes biológicos nocivos, sem prejuízo do benefício.",
+       "gabarito": "E",
+       "porque": "O aposentado especial que continua exposto tem o benefício cancelado, como no art. 46 (art. 57, § 8º); o STF validou a regra no Tema 709."
+      },
+      {
+       "trecho": "será definida pelo Poder Executivo",
+       "marcas": [
+        "Poder Executivo"
+       ],
+       "afirmacao": "A relação dos agentes nocivos para a aposentadoria especial só pode ser fixada por lei complementar.",
+       "gabarito": "E",
+       "porque": "A relação é definida pelo Poder Executivo (art. 58)."
+      },
+      {
+       "trecho": "expedido por médico do trabalho ou engenheiro de segurança do trabalho",
+       "marcas": [
+        "engenheiro de segurança do trabalho"
+       ],
+       "afirmacao": "A metalúrgica entrega ao empregado o formulário de exposição a ruído, emitido com base em laudo assinado por engenheiro de segurança do trabalho. A prova está de acordo com a Lei 8.213.",
+       "gabarito": "C",
+       "porque": "A exposição se prova por formulário da empresa baseado em laudo de médico do trabalho ou engenheiro de segurança do trabalho (art. 58, § 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 55.": "d31f9f556761",
+      "Art. 56.": "41bc50e789c9",
+      "Art. 57.": "4b8c6922994d",
+      "Art. 58.": "ef92860f9b20"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Tema 709 (RE 791.961, 2020)",
+     "texto": "É constitucional a vedação de continuar ou voltar a trabalhar em atividade especial depois da aposentadoria especial. Se o segurado continua na atividade nociva, o benefício cessa."
+    },
+    {
+     "quem": "STF · Tema 555 (ARE 664.335, 2014)",
+     "texto": "Se o equipamento de proteção individual neutraliza de fato a nocividade, não há direito à aposentadoria especial. No ruído acima do limite, a declaração de eficácia do EPI no PPP não afasta o tempo especial."
+    },
+    {
+     "quem": "STF · Tema 1.125 (RE 1.298.832, 2021)",
+     "texto": "O período em auxílio-doença conta para carência, desde que intercalado com atividade."
+    },
+    {
+     "quem": "STF · Tema 888 (ARE 954.408, 2016)",
+     "texto": "O servidor que cumpre os requisitos da aposentadoria voluntária especial e continua em atividade também tem direito ao abono de permanência."
+    },
+    {
+     "quem": "STJ · Tema 424 (recurso repetitivo)",
+     "texto": "Incide imposto de renda sobre o abono de permanência."
+    }
+   ],
+   "detalhes": [
+    "Na EC 103/2019, a aposentadoria especial ganhou idade mínima (55, 58 ou 60 anos, para atividades de 15, 20 ou 25 anos), e ficou vedada a conversão em tempo comum do tempo especial cumprido depois da emenda.",
+    "LC 142/2013, por tempo de contribuição: 25 anos (homem) e 20 (mulher) na deficiência grave; 29 e 24 na moderada; 33 e 28 na leve. Renda de 100% do salário de benefício.",
+    "LC 142/2013, por idade: 60 anos (homem) e 55 (mulher), com 15 anos de contribuição e deficiência existente durante esse mesmo período, qualquer que seja o grau. Renda de 70% mais 1% por grupo de 12 contribuições, até 30% a mais.",
+    "Na LC 142, o grau de deficiência é atestado por perícia própria do INSS. Se a deficiência surge depois da filiação ou muda de grau, os tempos são ajustados proporcionalmente. A redução de tempo não se acumula com a da atividade especial no mesmo período. O segurado pode ficar com outra aposentadoria mais vantajosa. A EC 103 (art. 22) manteve a LC 142 até lei nova.",
+    "Para o tempo com deficiência anterior à LC 142, não se admite prova exclusivamente testemunhal.",
+    "O abono de permanência sofre imposto de renda: ter o mesmo valor da contribuição previdenciária não lhe dá natureza indenizatória (STJ, Tema 424)."
+   ],
+   "macetes": [
+    {
+     "sigla": "25/20, 29/24, 33/28",
+     "texto": "Tempo de contribuição da pessoa com deficiência: grave, moderada e leve (homem/mulher)."
+    },
+    {
+     "sigla": "65/62 URBANO, 60/55 RURAL",
+     "texto": "Idades da aposentadoria por idade depois da EC 103."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A aposentadoria por idade da pessoa com deficiência, aos 60 anos (homem) e 55 (mulher), só cabe se a deficiência for moderada ou grave.",
+    "gabarito": "E",
+    "explicacao": "A aposentadoria por idade da LC 142 independe do grau de deficiência; exige 15 anos de contribuição com deficiência comprovada pelo mesmo período (art. 3º, IV)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Basta exposição eventual a agentes nocivos para que o tempo seja especial.",
+     "certo": "Exige-se trabalho permanente, não ocasional nem intermitente (art. 57, § 3º, da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 57 da Lei 8.213"
+    },
+    {
+     "errado": "O abono de permanência é benefício do Regime Geral pago pelo INSS ao segurado que adia a aposentadoria.",
+     "certo": "O abono de permanência é do servidor de regime próprio (CF, art. 40, § 19).",
+     "fonte": "Questões do app sobre o abono de permanência"
+    }
+   ],
+   "relacionados": [
+    "salario-de-beneficio-renda-mensal-e-reajuste",
+    "beneficios-por-incapacidade-no-regime-geral",
+    "previdencia-social-e-previdencia-complementar-na-constituicao"
+   ]
+  },
+  {
+   "slug": "acidente-do-trabalho-e-auxilio-acidente",
+   "titulo": "Acidente do trabalho, doenças ocupacionais, comunicação do acidente e auxílio-acidente",
+   "grupo": "Benefícios do Regime Geral: aposentadorias, incapacidade e família",
+   "base": "Arts. 19 a 23 e 86 da Lei 8.213/1991",
+   "tax": [],
+   "dispositivos": [
+    "n8213-1991-art-19",
+    "n8213-1991-art-20",
+    "n8213-1991-art-21",
+    "n8213-1991-art-21-a",
+    "n8213-1991-art-22",
+    "n8213-1991-art-23",
+    "n8213-1991-art-86"
+   ],
+   "conceitos": [
+    "acidente do trabalho típico",
+    "doença profissional",
+    "doença do trabalho",
+    "doenças excluídas",
+    "acidente por equiparação",
+    "concausa",
+    "acidente de trajeto",
+    "nexo técnico epidemiológico",
+    "comunicação de acidente do trabalho",
+    "dia do acidente",
+    "auxílio-acidente",
+    "natureza indenizatória",
+    "perda auditiva"
+   ],
+   "palavras": [
+    "acidente do trabalho",
+    "lesao corporal",
+    "perturbacao funcional",
+    "empregador domestico",
+    "segurado especial",
+    "contravencao penal",
+    "multa",
+    "normas de seguranca",
+    "doenca profissional",
+    "doenca do trabalho",
+    "relacao do ministerio",
+    "doenca degenerativa",
+    "grupo etario",
+    "doenca endemica",
+    "caso excepcional",
+    "concausa",
+    "agressao",
+    "sabotagem",
+    "terrorismo",
+    "caso fortuito",
+    "forca maior",
+    "contaminacao acidental",
+    "viagem a servico",
+    "percurso",
+    "trajeto",
+    "veiculo proprio",
+    "refeicao",
+    "descanso",
+    "nexo tecnico epidemiologico",
+    "ntep",
+    "cid",
+    "efeito suspensivo",
+    "cat",
+    "comunicacao do acidente",
+    "primeiro dia util",
+    "morte de imediato",
+    "sindicato",
+    "medico",
+    "autoridade publica",
+    "dia do acidente",
+    "diagnostico",
+    "segregacao compulsoria",
+    "auxilio-acidente",
+    "indenizacao",
+    "sequelas",
+    "cinquenta por cento",
+    "vespera da aposentadoria",
+    "perda da audicao",
+    "tema 416",
+    "sumula 507"
+   ],
+   "resumo": "<strong>Acidente do trabalho</strong> é o que ocorre pelo exercício do trabalho a serviço da empresa ou do empregador doméstico, ou pelo trabalho do segurado especial, e causa morte ou perda ou redução da capacidade de trabalho. A lei equipara a ele as doenças ocupacionais (profissional e do trabalho), a concausa, as agressões e acidentes no local e horário de trabalho, a contaminação acidental e os acidentes fora do local em serviço ou no trajeto. O INSS presume a natureza acidentária quando há <strong>nexo técnico epidemiológico</strong> entre a atividade e a doença, e a empresa pode contestar. A empresa deve comunicar o acidente até o primeiro dia útil seguinte, e imediatamente em caso de morte. Consolidadas as lesões, se houver sequela que reduza a capacidade para o trabalho habitual, o segurado recebe o <strong>auxílio-acidente</strong>, uma indenização de 50% do salário de benefício que dura até a aposentadoria.",
+   "esquema": {
+    "rotulo": "o que é e o que não é acidente do trabalho",
+    "html": "<table><thead><tr><th>Situação</th><th>Enquadramento</th></tr></thead><tbody><tr><td><strong>Doença profissional e doença do trabalho da relação oficial</strong></td><td>Acidente do trabalho (art. 20, I e II)</td></tr><tr><td><strong>Doença fora da relação, mas ligada às condições especiais do trabalho</strong></td><td>Acidente do trabalho em caso excepcional (art. 20, § 2º)</td></tr><tr><td><strong>Doença degenerativa, inerente a grupo etário ou que não incapacita</strong></td><td>Não é doença do trabalho (art. 20, § 1º, a a c)</td></tr><tr><td><strong>Doença endêmica da região</strong></td><td>Não é, salvo prova de exposição determinada pelo trabalho (art. 20, § 1º, d)</td></tr><tr><td><strong>Trajeto casa-trabalho, por qualquer meio de locomoção</strong></td><td>Equipara-se a acidente do trabalho (art. 21, IV, d)</td></tr><tr><td><strong>Lesão de acidente de outra origem que se soma à anterior</strong></td><td>Não é agravação do acidente do trabalho (art. 21, § 2º)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Doença profissional",
+      "o_que_e": "Produzida ou desencadeada pelo trabalho peculiar a determinada atividade e constante da relação oficial."
+     },
+     {
+      "nome": "Doença do trabalho",
+      "o_que_e": "Adquirida ou desencadeada pelas condições especiais em que o trabalho é feito e com ele diretamente relacionada, constante da relação oficial."
+     },
+     {
+      "nome": "Concausa",
+      "o_que_e": "Acidente ligado ao trabalho que, sem ser a causa única, contribuiu diretamente para a morte, a incapacidade ou a lesão."
+     },
+     {
+      "nome": "Nexo técnico epidemiológico",
+      "o_que_e": "Relação estatística entre a atividade da empresa e a doença da CID, que faz o INSS presumir a natureza acidentária.",
+      "atencao": "A empresa pode pedir que não seja aplicado."
+     },
+     {
+      "nome": "Auxílio-acidente",
+      "o_que_e": "Indenização mensal ao segurado que fica com sequela que reduz a capacidade para o trabalho habitual.",
+      "atencao": "Não substitui a renda: pode ser recebido junto com salário."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 19.",
+      "Art. 20.",
+      "Art. 21."
+     ],
+     "ref": "arts. 19 a 21 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 19.</strong> Acidente do trabalho é o que ocorre pelo trabalho a serviço de empresa ou de empregador doméstico, ou pelo trabalho do segurado especial, e provoca lesão corporal ou perturbação funcional que cause morte ou perda ou redução, permanente ou temporária, da capacidade para o trabalho. A empresa responde pelas medidas coletivas e individuais de proteção (§ 1º). Deixar de cumprir as normas de segurança e higiene do trabalho é contravenção penal punível com multa (§ 2º). A empresa deve informar em detalhe os riscos da operação e do produto (§ 3º). O Ministério fiscaliza, e os sindicatos e entidades de classe acompanham o cumprimento dessas regras (§ 4º).",
+      "<strong>Art. 20.</strong> São acidente do trabalho a doença profissional (I) e a doença do trabalho (II) da relação oficial. Não são doença do trabalho a degenerativa (§ 1º, a), a inerente a grupo etário (b), a que não produz incapacidade (c) e a endêmica adquirida por habitante da região, salvo prova de exposição determinada pela natureza do trabalho (d). Em caso excepcional, a doença fora da relação que resultou das condições especiais do trabalho deve ser considerada acidente do trabalho (§ 2º).",
+      "<strong>Art. 21, caput e incisos I a III.</strong> Equiparam-se ao acidente do trabalho: o acidente ligado ao trabalho que, sem ser causa única, contribuiu diretamente para a morte, a perda ou redução da capacidade ou para lesão que exija atenção médica (I); o acidente no local e no horário de trabalho causado por agressão, sabotagem ou terrorismo de terceiro ou colega (II, a), ofensa física intencional por disputa ligada ao trabalho (b), imprudência, negligência ou imperícia de terceiro ou colega (c), ato de pessoa privada da razão (d), desabamento, inundação, incêndio e outros casos fortuitos ou de força maior (e); a doença por contaminação acidental do empregado no exercício da atividade (III).",
+      "<strong>Art. 21, inciso IV e §§ 1º e 2º.</strong> Também se equipara o acidente fora do local e do horário de trabalho na execução de ordem ou serviço sob a autoridade da empresa (IV, a), na prestação espontânea de serviço para evitar prejuízo ou trazer proveito à empresa (b), em viagem a serviço, inclusive de estudo financiado pela empresa, por qualquer meio de locomoção (c), e no percurso entre a residência e o trabalho, por qualquer meio, inclusive veículo próprio (d). Nos intervalos de refeição, descanso ou necessidades fisiológicas, no local ou durante o trabalho, o empregado é considerado no exercício do trabalho (§ 1º). A lesão de acidente de outra origem que se soma às consequências do anterior não é agravação do acidente do trabalho (§ 2º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Constitui contravenção penal, punível com multa",
+       "marcas": [
+        "contravenção penal"
+       ],
+       "afirmacao": "Pela Lei 8.213/1991, a empresa que deixa de cumprir as normas de segurança e higiene do trabalho comete crime punível com reclusão.",
+       "gabarito": "E",
+       "porque": "A conduta é contravenção penal punível com multa (art. 19, § 2º)."
+      },
+      {
+       "trecho": "a) a doença degenerativa",
+       "marcas": [
+        "degenerativa"
+       ],
+       "afirmacao": "Um empregado de 50 anos desenvolve artrose degenerativa sem relação com suas tarefas. Por ter surgido durante o contrato, ela é doença do trabalho.",
+       "gabarito": "E",
+       "porque": "A doença degenerativa não é considerada doença do trabalho (art. 20, § 1º, a)."
+      },
+      {
+       "trecho": "salvo comprovação de que é resultante de exposição ou contato direto determinado pela natureza do trabalho",
+       "marcas": [
+        "natureza do trabalho"
+       ],
+       "afirmacao": "Um agente de saúde contraiu dengue numa região endêmica ao visitar casas para eliminar focos do mosquito, como exige sua função. A doença pode ser considerada do trabalho.",
+       "gabarito": "C",
+       "porque": "A doença endêmica só é do trabalho se resultar de exposição ou contato direto determinado pela natureza do trabalho (art. 20, § 1º, d)."
+      },
+      {
+       "trecho": "qualquer que seja o meio de locomoção, inclusive veículo de propriedade do segurado",
+       "marcas": [
+        "inclusive veículo de propriedade do segurado"
+       ],
+       "afirmacao": "O acidente no trajeto de casa para o trabalho só se equipara a acidente do trabalho se o segurado usar transporte fornecido pela empresa.",
+       "gabarito": "E",
+       "porque": "Vale qualquer meio de locomoção, inclusive veículo do próprio segurado (art. 21, IV, d)."
+      },
+      {
+       "trecho": "o empregado é considerado no exercício do trabalho",
+       "marcas": [
+        "no exercício do trabalho"
+       ],
+       "afirmacao": "Uma operária escorrega no refeitório da fábrica durante o intervalo de almoço e fratura o braço. O acidente é do trabalho.",
+       "gabarito": "C",
+       "porque": "Nos intervalos de refeição ou descanso no local do trabalho, o empregado é considerado no exercício do trabalho (art. 21, § 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 19.": "aae6e802c73c",
+      "Art. 20.": "f4d910dfe95b",
+      "Art. 21.": "8d20b8312f25"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 21-A.",
+      "Art. 22.",
+      "Art. 23.",
+      "Art. 86."
+     ],
+     "ref": "arts. 21-A a 23 e 86 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 21-A.</strong> A perícia do INSS caracteriza a natureza acidentária quando constata nexo técnico epidemiológico entre a atividade da empresa ou do empregado doméstico e a doença da CID. A perícia deixa de aplicá-lo quando provada a inexistência do nexo (§ 1º). A empresa ou o empregador doméstico podem pedir sua não aplicação, e da decisão cabe recurso com efeito suspensivo ao Conselho de Recursos da Previdência Social (§ 2º).",
+      "<strong>Art. 22.</strong> A empresa ou o empregador doméstico comunicam o acidente à Previdência até o primeiro dia útil seguinte e, em caso de morte, de imediato à autoridade, sob pena de multa entre o limite mínimo e o máximo do salário de contribuição, aumentada nas reincidências. Recebem cópia o acidentado ou seus dependentes e o sindicato (§ 1º). Se a empresa não comunicar, podem fazê-lo o acidentado, os dependentes, o sindicato, o médico ou qualquer autoridade pública, sem o prazo do caput (§ 2º), sem eximir a empresa (§ 3º). Os sindicatos podem acompanhar a cobrança das multas (§ 4º), que não se aplicam no caso do nexo técnico epidemiológico (§ 5º).",
+      "<strong>Art. 23.</strong> Na doença profissional ou do trabalho, o dia do acidente é o do início da incapacidade para a atividade habitual, o da segregação compulsória ou o do diagnóstico, o que ocorrer primeiro.",
+      "<strong>Art. 86.</strong> O auxílio-acidente é indenização ao segurado que, consolidadas as lesões de acidente de qualquer natureza, fica com sequela que reduz a capacidade para o trabalho habitual. Vale 50% do salário de benefício e é devido até a véspera de qualquer aposentadoria ou até o óbito (§ 1º). Começa no dia seguinte ao fim do auxílio-doença, independentemente de remuneração, e não se acumula com aposentadoria (§ 2º). Salário ou outro benefício, exceto aposentadoria, não interrompem o auxílio-acidente (§ 3º). A perda de audição só dá direito ao benefício se houver nexo com o trabalho e redução comprovada da capacidade para o trabalho habitual (§ 4º; o § 5º foi vetado)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "de cuja decisão caberá recurso, com efeito suspensivo",
+       "marcas": [
+        "efeito suspensivo"
+       ],
+       "afirmacao": "Da decisão sobre o pedido da empresa para afastar o nexo técnico epidemiológico cabe recurso ao Conselho de Recursos da Previdência Social, sem efeito suspensivo.",
+       "gabarito": "E",
+       "porque": "O recurso tem efeito suspensivo (art. 21-A, § 2º)."
+      },
+      {
+       "trecho": "até o primeiro dia útil seguinte ao da ocorrência e, em caso de morte, de imediato",
+       "marcas": [
+        "primeiro dia útil seguinte"
+       ],
+       "afirmacao": "Um empregado se acidenta numa sexta-feira, sem morte. A empresa cumpre a lei se comunicar o acidente à Previdência até segunda-feira, primeiro dia útil seguinte.",
+       "gabarito": "C",
+       "porque": "A comunicação é feita até o primeiro dia útil seguinte ao da ocorrência; em caso de morte, de imediato (art. 22)."
+      },
+      {
+       "trecho": "o que ocorrer primeiro",
+       "marcas": [
+        "primeiro"
+       ],
+       "afirmacao": "Na doença profissional, considera-se dia do acidente sempre a data do diagnóstico, ainda que a incapacidade tenha começado antes.",
+       "gabarito": "E",
+       "porque": "Vale o que ocorrer primeiro: início da incapacidade, segregação compulsória ou diagnóstico (art. 23)."
+      },
+      {
+       "trecho": "independentemente de qualquer remuneração ou rendimento auferido pelo acidentado, vedada sua acumulação com qualquer aposentadoria",
+       "marcas": [
+        "vedada sua acumulação"
+       ],
+       "afirmacao": "Depois do auxílio-doença, um motorista ficou com sequela no joelho e voltou a trabalhar em outra função, com salário. Ele recebe o auxílio-acidente junto com o salário.",
+       "gabarito": "C",
+       "porque": "O auxílio-acidente é devido independentemente de remuneração, mas não se acumula com aposentadoria (art. 86, § 2º)."
+      },
+      {
+       "trecho": "O auxílio-acidente mensal corresponderá a cinquenta por cento do salário-de-benefício",
+       "marcas": [
+        "cinquenta por cento"
+       ],
+       "afirmacao": "O auxílio-acidente corresponde a 91% do salário de benefício e é pago até o óbito do segurado, mesmo depois da aposentadoria.",
+       "gabarito": "E",
+       "porque": "Ele vale 50% do salário de benefício e vai até a véspera de qualquer aposentadoria ou até o óbito (art. 86, § 1º); os 91% são do auxílio-doença."
+      }
+     ],
+     "conferido": {
+      "Art. 21-A.": "8f1bdded20ec",
+      "Art. 22.": "9e5524834f2e",
+      "Art. 23.": "a5ebfdeb71a5",
+      "Art. 86.": "82f46e77ad78"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Tema 416 (REsp 1.109.591, 2010)",
+     "texto": "Para o auxílio-acidente, basta lesão de acidente do trabalho que reduza a capacidade para o trabalho habitual. O grau da lesão não interfere, e o benefício é devido ainda que a lesão seja mínima."
+    },
+    {
+     "quem": "STJ · Súmula 507",
+     "texto": "O auxílio-acidente só se acumula com aposentadoria se a lesão incapacitante e a aposentadoria forem anteriores a 11/11/1997, data da regra que proibiu a acumulação."
+    }
+   ],
+   "detalhes": [
+    "O auxílio-acidente cabe só ao empregado, ao doméstico, ao avulso e ao segurado especial (art. 18, § 1º), e não exige carência (art. 26, I).",
+    "O auxílio-acidente entra como salário de contribuição no cálculo da aposentadoria (art. 34, II), justamente porque não pode ser recebido junto com ela.",
+    "O pagamento das prestações por acidente do trabalho não exclui a responsabilidade civil da empresa (art. 121 da Lei 8.213). As ações acidentárias contra o INSS são da Justiça estadual (CF, art. 109, I)."
+   ],
+   "macetes": [
+    {
+     "sigla": "50% ATÉ A VÉSPERA",
+     "texto": "Auxílio-acidente: 50% do salário de benefício, até a véspera da aposentadoria."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A doença inerente a grupo etário equipara-se a acidente do trabalho se o segurado trabalhar em atividade insalubre.",
+    "gabarito": "E",
+    "explicacao": "A doença inerente a grupo etário não é considerada doença do trabalho (art. 20, § 1º, b)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Se a empresa não emite a comunicação do acidente, só o INSS pode registrá-la de ofício.",
+     "certo": "Podem formalizá-la o acidentado, os dependentes, o sindicato, o médico ou qualquer autoridade pública (art. 22, § 2º).",
+     "fonte": "Questões do app sobre o art. 22 da Lei 8.213"
+    },
+    {
+     "errado": "O auxílio-acidente cessa quando o segurado volta a receber salário.",
+     "certo": "Ele é devido independentemente de remuneração (art. 86, §§ 2º e 3º).",
+     "fonte": "Questões do app sobre o art. 86 da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "beneficios-por-incapacidade-no-regime-geral",
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "disposicoes-gerais-decadencia-e-processo-previdenciario"
+   ]
+  },
+  {
+   "slug": "beneficios-por-incapacidade-no-regime-geral",
+   "titulo": "Aposentadoria por incapacidade permanente e auxílio por incapacidade temporária",
+   "grupo": "Benefícios do Regime Geral: aposentadorias, incapacidade e família",
+   "base": "Arts. 42 a 47 e 59 a 63 da Lei 8.213/1991; art. 201, I, da Constituição; EC 103/2019",
+   "tax": [],
+   "dispositivos": [
+    "n8213-1991-art-42",
+    "n8213-1991-art-43",
+    "n8213-1991-art-44",
+    "n8213-1991-art-45",
+    "n8213-1991-art-46",
+    "n8213-1991-art-47",
+    "n8213-1991-art-59",
+    "n8213-1991-art-60",
+    "n8213-1991-art-61",
+    "n8213-1991-art-62",
+    "n8213-1991-art-63"
+   ],
+   "conceitos": [
+    "aposentadoria por invalidez",
+    "aposentadoria por incapacidade permanente",
+    "doença preexistente",
+    "agravamento",
+    "data de início",
+    "15 primeiros dias pagos pela empresa",
+    "reavaliação periódica",
+    "dispensa de reavaliação",
+    "acréscimo de 25%",
+    "retorno voluntário à atividade",
+    "recuperação da capacidade",
+    "mensalidades de recuperação",
+    "auxílio-doença",
+    "auxílio por incapacidade temporária",
+    "segurado preso",
+    "alta programada",
+    "análise documental",
+    "reabilitação profissional",
+    "empregado licenciado"
+   ],
+   "palavras": [
+    "aposentadoria por invalidez",
+    "incapacidade permanente",
+    "insusceptivel de reabilitacao",
+    "pericia",
+    "telemedicina",
+    "analise documental",
+    "doenca preexistente",
+    "progressao ou agravamento",
+    "decimo sexto dia",
+    "trinta dias",
+    "quinze dias",
+    "empresa paga",
+    "reavaliacao",
+    "aids",
+    "alzheimer",
+    "parkinson",
+    "ela",
+    "irreversivel",
+    "cem por cento",
+    "grande invalidez",
+    "acrescimo de 25",
+    "assistencia permanente",
+    "limite maximo",
+    "nao incorporavel",
+    "pensao",
+    "retorno voluntario",
+    "cancelada",
+    "recuperacao",
+    "cinco anos",
+    "seis meses",
+    "50 por cento",
+    "75 por cento",
+    "auxilio-doenca",
+    "incapacidade temporaria",
+    "mais de 15 dias",
+    "recluso",
+    "regime fechado",
+    "60 dias",
+    "semiaberto",
+    "prazo estimado",
+    "120 dias",
+    "prorrogacao",
+    "conselho de recursos",
+    "91 por cento",
+    "reabilitacao profissional",
+    "desvio de funcao",
+    "licenciado",
+    "tema 1095",
+    "sumula 576"
+   ],
+   "resumo": "Os benefícios por incapacidade são dois. A <strong>aposentadoria por incapacidade permanente</strong> (na lei, por invalidez) é para quem fica incapaz e sem possibilidade de reabilitação para atividade que garanta a subsistência. O <strong>auxílio por incapacidade temporária</strong> (na lei, auxílio-doença) é para quem fica incapaz para o trabalho habitual por mais de 15 dias consecutivos. Ambos dependem de perícia do INSS, que pode ser feita por telemedicina ou análise documental, e exigem carência de 12 contribuições, salvo nos casos do art. 26, II. A doença anterior à filiação não dá direito ao benefício, a menos que a incapacidade venha do agravamento dela. Para o empregado, a empresa paga os 15 primeiros dias. O aposentado que precisa de assistência permanente recebe 25% a mais, mesmo acima do teto. Se ele volta a trabalhar por vontade própria, perde a aposentadoria.",
+   "esquema": {
+    "rotulo": "comparação dos dois benefícios",
+    "html": "<table><thead><tr><th>Ponto</th><th>Aposentadoria por incapacidade permanente</th><th>Auxílio por incapacidade temporária</th></tr></thead><tbody><tr><td><strong>Incapacidade</strong></td><td>Total e sem possibilidade de reabilitação</td><td>Para o trabalho habitual, por mais de 15 dias</td></tr><tr><td><strong>Início para o empregado</strong></td><td>16º dia do afastamento, ou requerimento se passados mais de 30 dias</td><td>16º dia do afastamento, ou requerimento se afastado há mais de 30 dias</td></tr><tr><td><strong>Valor no texto da lei</strong></td><td>100% do salário de benefício (art. 44)</td><td>91% do salário de benefício (art. 61), limitado à média dos últimos 12 salários</td></tr><tr><td><strong>Valor depois da EC 103</strong></td><td>60% da média mais 2% por ano acima de 20/15 anos; 100% se acidentária</td><td>Continua 91%</td></tr><tr><td><strong>Cessação</strong></td><td>Recuperação, com a escala do art. 47, ou retorno voluntário</td><td>Prazo estimado ou 120 dias, salvo prorrogação; reabilitação ou aposentadoria</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Doença preexistente",
+      "o_que_e": "Doença ou lesão que o segurado já tinha ao se filiar; não dá direito ao benefício, salvo incapacidade por progressão ou agravamento."
+     },
+     {
+      "nome": "Acréscimo de 25%",
+      "o_que_e": "Aumento da aposentadoria por invalidez de quem precisa de assistência permanente de outra pessoa.",
+      "atencao": "É devido acima do teto e não passa para a pensão."
+     },
+     {
+      "nome": "Prazo estimado",
+      "o_que_e": "Duração do auxílio-doença fixada na concessão ou reativação; sem ela, o benefício cessa em 120 dias, salvo pedido de prorrogação."
+     },
+     {
+      "nome": "Segurado licenciado",
+      "o_que_e": "Situação trabalhista do empregado em auxílio-doença perante a empresa."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 42.",
+      "Art. 43.",
+      "Art. 44.",
+      "Art. 45.",
+      "Art. 46.",
+      "Art. 47."
+     ],
+     "ref": "arts. 42 a 47 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 42.</strong> A aposentadoria por invalidez é devida, cumprida a carência quando exigida, ao segurado, em auxílio-doença ou não, considerado incapaz e insuscetível de reabilitação para atividade que lhe garanta a subsistência, enquanto permanecer nessa condição. Depende de perícia da Previdência, e o segurado pode levar médico de sua confiança, por sua conta (§ 1º). A perícia pode ser feita por telemedicina ou análise documental, na forma do regulamento (§ 1º-A). A doença ou lesão anterior à filiação não dá direito ao benefício, salvo incapacidade por progressão ou agravamento (§ 2º).",
+      "<strong>Art. 43.</strong> A aposentadoria começa no dia seguinte ao fim do auxílio-doença. Se a perícia inicial já conclui pela incapacidade total e definitiva, começa: para o empregado, no 16º dia do afastamento, ou no requerimento se passarem mais de 30 dias entre os dois (§ 1º, a); para o doméstico, o avulso, o contribuinte individual, o especial e o facultativo, no início da incapacidade, ou no requerimento se passarem mais de 30 dias (§ 1º, b). A empresa paga ao empregado o salário dos primeiros 15 dias (§ 2º; o § 3º foi revogado). O aposentado pode ser convocado a qualquer momento para reavaliação, observado o art. 101 (§ 4º). São dispensados da reavaliação os segurados com AIDS, Alzheimer, Parkinson e esclerose lateral amiotrófica (§ 5º), e aquele cuja incapacidade a perícia constatar permanente, irreversível ou irrecuperável, salvo suspeita fundamentada de fraude ou erro (§ 6º).",
+      "<strong>Arts. 44 a 46.</strong> A renda da aposentadoria por invalidez, inclusive acidentária, é de 100% do salário de benefício, observado o art. 33 (art. 44; o § 1º foi revogado). Se o acidentado em auxílio-doença tem benefício maior por reajuste, a aposentadoria fica igual a ele (§ 2º). Quem precisa de assistência permanente de outra pessoa recebe 25% a mais (art. 45), devidos ainda que se ultrapasse o teto (a), recalculados com o reajuste do benefício (b) e extintos com a morte do aposentado, sem passar para a pensão (c). O aposentado que volta voluntariamente à atividade tem a aposentadoria cancelada a partir do retorno (art. 46).",
+      "<strong>Art. 47.</strong> Recuperada a capacidade em até 5 anos do início da aposentadoria ou do auxílio-doença que a antecedeu, o benefício cessa de imediato para o empregado que pode voltar à função (I, a) ou, para os demais, depois de tantos meses quantos forem os anos de benefício (I, b). Se a recuperação for parcial, posterior a 5 anos ou para trabalho diverso, a aposentadoria é mantida, sem prejuízo da volta ao trabalho, integral por 6 meses (II, a), com redução de 50% nos 6 meses seguintes (b) e de 75% em outros 6, quando cessa (c)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "salvo quando a incapacidade sobrevier por motivo de progressão ou agravamento dessa doença ou lesão",
+       "marcas": [
+        "progressão ou agravamento"
+       ],
+       "afirmacao": "Uma segurada se filiou já com artrose leve e, anos depois, ficou totalmente incapaz pelo agravamento da doença. Ela pode ter direito à aposentadoria por invalidez.",
+       "gabarito": "C",
+       "porque": "A doença preexistente não impede o benefício quando a incapacidade decorre de progressão ou agravamento (art. 42, § 2º)."
+      },
+      {
+       "trecho": "caberá à empresa pagar ao segurado empregado o salário",
+       "marcas": [
+        "à empresa"
+       ],
+       "afirmacao": "Se a primeira perícia já conclui pela incapacidade total e definitiva de um empregado, o INSS paga a aposentadoria desde o primeiro dia de afastamento.",
+       "gabarito": "E",
+       "porque": "A empresa paga os 15 primeiros dias, e a aposentadoria do empregado começa no 16º dia (art. 43, §§ 1º, a, e 2º)."
+      },
+      {
+       "trecho": "doença de Alzheimer, doença de Parkinson e esclerose lateral amiotrófica",
+       "marcas": [
+        "doença de Parkinson"
+       ],
+       "afirmacao": "O aposentado por invalidez em razão de doença de Parkinson pode ser convocado a qualquer tempo para reavaliar as condições da aposentadoria.",
+       "gabarito": "E",
+       "porque": "Os segurados com AIDS, Alzheimer, Parkinson e ELA são dispensados dessa reavaliação (art. 43, § 5º)."
+      },
+      {
+       "trecho": "cessará com a morte do aposentado, não sendo incorporável ao valor da pensão",
+       "marcas": [
+        "não sendo incorporável"
+       ],
+       "afirmacao": "O acréscimo de 25% pago ao aposentado que precisava de cuidador passa a integrar a pensão por morte deixada à viúva.",
+       "gabarito": "E",
+       "porque": "O acréscimo cessa com a morte e não se incorpora à pensão (art. 45, parágrafo único, c)."
+      },
+      {
+       "trecho": "terá sua aposentadoria automaticamente cancelada, a partir da data do retorno",
+       "marcas": [
+        "automaticamente cancelada"
+       ],
+       "afirmacao": "O aposentado por invalidez que volta, por vontade própria, a trabalhar como vendedor tem a aposentadoria cancelada a partir do retorno.",
+       "gabarito": "C",
+       "porque": "É a regra do art. 46 da Lei 8.213."
+      }
+     ],
+     "conferido": {
+      "Art. 42.": "5054340dc064",
+      "Art. 43.": "9e5cb409fb32",
+      "Art. 44.": "f0e210b41521",
+      "Art. 45.": "e04fcc4245e5",
+      "Art. 46.": "1897fd6490ed",
+      "Art. 47.": "f512207f6e4b"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 59.",
+      "Art. 60.",
+      "Art. 61.",
+      "Art. 62.",
+      "Art. 63."
+     ],
+     "ref": "arts. 59 a 63 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 59.</strong> O auxílio-doença é devido a quem, cumprida a carência quando exigida, fica incapaz para o trabalho ou a atividade habitual por mais de 15 dias consecutivos (o parágrafo único foi revogado). Não cabe a quem se filia já portador da doença invocada, salvo agravamento (§ 1º). Não é devido ao preso em regime fechado (§ 2º). Quem já o recebia ao ser preso tem o benefício suspenso (§ 3º) por até 60 dias, cessando depois (§ 4º); se for solto antes, o benefício volta na data da soltura (§ 5º); se a prisão for declarada ilegal, recebe por todo o período (§ 6º). Essas regras valem para prisões a partir da publicação da Lei 13.846/2019 (§ 7º). O preso em regime aberto ou semiaberto tem direito ao benefício (§ 8º).",
+      "<strong>Art. 60, caput a § 10.</strong> O auxílio-doença começa no 16º dia do afastamento para o empregado e, para os demais, no início da incapacidade, enquanto ela durar. Pedido por quem está afastado há mais de 30 dias, conta do requerimento (§ 1º). Nos 15 primeiros dias, a empresa paga ao empregado o salário integral (§ 3º). A empresa com serviço médico próprio ou conveniado faz o exame e abona as faltas desses dias, encaminhando à perícia só quando a incapacidade passar de 15 dias (§ 4º). Os §§ 2º e 5º foram revogados. Quem passa a exercer atividade que garanta a subsistência pode ter o benefício cancelado (§ 6º), e, se a atividade for diversa da que gerou o benefício, verifica-se a incapacidade para cada uma (§ 7º). Sempre que possível, a concessão ou reativação fixa o prazo estimado do benefício (§ 8º). Sem esse prazo, o benefício cessa em 120 dias, salvo pedido de prorrogação, observado o art. 62 (§ 9º). O segurado pode ser convocado a qualquer momento para reavaliação, observado o art. 101 (§ 10).",
+      "<strong>Art. 60, §§ 11 a 16.</strong> Quem discordar da reavaliação pode recorrer, em até 30 dias, ao Conselho de Recursos, com análise médica por perito diverso do que indeferiu (§ 11). A perícia pode ser feita por telemedicina ou análise documental (§ 11-A). O benefício concedido por análise documental não pode passar de 30 dias (§ 11-F); acima disso, exige perícia presencial ou por telemedicina (§ 11-G). Esse prazo máximo pode variar entre categorias de segurados, respeitado o limite de 30 dias (§ 11-H), e pode ser excepcionado por ato justificado e temporário do Executivo federal (§ 11-I). Os §§ 11-B a 11-E, de medida provisória que perdeu a vigência, e os §§ 12 e 13, de medida provisória não convertida nessa parte, não estão em vigor. Ato ministerial pode dispensar o parecer conclusivo da perícia médica federal, com concessão por análise documental de atestados e laudos pelo INSS (§ 14). Os segurados com AIDS, Alzheimer, Parkinson e ELA são dispensados da reavaliação (§ 15), e a perícia do segurado com AIDS tem ao menos um infectologista (§ 16).",
+      "<strong>Arts. 61 a 63.</strong> A renda do auxílio-doença, inclusive acidentário, é de 91% do salário de benefício, observado o art. 33 (art. 61). Quem não pode se recuperar para a atividade habitual deve passar por reabilitação profissional para outra atividade (art. 62). O benefício é mantido até a reabilitação ou, se não houver recuperação, até a aposentadoria por invalidez (§ 1º). A mudança de atribuições compatível com a limitação não é desvio de função do reabilitado (§ 2º). O empregado, inclusive o doméstico, em auxílio-doença é considerado licenciado (art. 63), e a empresa que garantir licença remunerada paga a diferença entre o benefício e o valor da licença (parágrafo único)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Não será devido o auxílio-doença para o segurado recluso em regime fechado",
+       "marcas": [
+        "regime fechado"
+       ],
+       "afirmacao": "Um segurado preso em regime semiaberto adoece e fica incapaz para o trabalho. Ele pode receber auxílio-doença.",
+       "gabarito": "C",
+       "porque": "O auxílio-doença só não é devido ao preso em regime fechado; o do regime aberto ou semiaberto tem direito (art. 59, §§ 2º e 8º)."
+      },
+      {
+       "trecho": "será de até 60 (sessenta) dias, contados da data do recolhimento à prisão",
+       "marcas": [
+        "60 (sessenta) dias"
+       ],
+       "afirmacao": "O segurado que já recebia auxílio-doença e foi preso em regime fechado tem o benefício cessado de imediato, na data da prisão.",
+       "gabarito": "E",
+       "porque": "O benefício fica suspenso por até 60 dias da prisão e só depois cessa; se o segurado for solto antes, é restabelecido (art. 59, §§ 3º a 5º)."
+      },
+      {
+       "trecho": "o benefício cessará após o prazo de cento e vinte dias",
+       "marcas": [
+        "cento e vinte dias"
+       ],
+       "afirmacao": "Se o ato de concessão do auxílio-doença não fixar prazo estimado, o benefício só cessa depois de nova perícia que ateste a recuperação.",
+       "gabarito": "E",
+       "porque": "Sem prazo estimado, o benefício cessa em 120 dias da concessão ou reativação, salvo pedido de prorrogação (art. 60, § 9º)."
+      },
+      {
+       "trecho": "não poderá exceder ao prazo de 30 (trinta) dias",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "Uma segurada teve auxílio-doença concedido só com base no atestado médico, por análise documental. O benefício pode durar até 30 dias.",
+       "gabarito": "C",
+       "porque": "O auxílio por incapacidade temporária concedido por análise documental não pode passar de 30 dias (art. 60, § 11-F)."
+      },
+      {
+       "trecho": "deverá submeter-se a processo de reabilitação profissional para o exercício de outra atividade",
+       "marcas": [
+        "reabilitação profissional"
+       ],
+       "afirmacao": "Um motorista em auxílio-doença que não pode mais dirigir, mas pode exercer outra função, deve passar pela reabilitação profissional, e o benefício é mantido até ele ser reabilitado ou aposentado.",
+       "gabarito": "C",
+       "porque": "É o art. 62, caput e § 1º, da Lei 8.213."
+      }
+     ],
+     "conferido": {
+      "Art. 59.": "8b8e638dd1b0",
+      "Art. 60.": "2b4871fb5f00",
+      "Art. 61.": "87cdd3dc5151",
+      "Art. 62.": "c5729d354b5a",
+      "Art. 63.": "b0e8ebb9fc67"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Tema 1.095 (RE 1.221.446, 2021)",
+     "texto": "Só lei pode criar ou ampliar benefícios. O acréscimo de 25% da aposentadoria por invalidez não se estende às demais aposentadorias."
+    },
+    {
+     "quem": "STJ · Súmula 576",
+     "texto": "Sem requerimento administrativo, a aposentadoria por invalidez concedida em juízo começa na data da citação válida."
+    }
+   ],
+   "detalhes": [
+    "Na EC 103/2019, a aposentadoria por incapacidade permanente parte de 60% da média, com 2% por ano acima de 20 anos (homem) ou 15 (mulher). Quando decorre de acidente do trabalho, doença profissional ou do trabalho, é de 100% da média.",
+    "O auxílio-doença exige incapacidade para o trabalho ou a atividade habitual; a aposentadoria exige incapacidade para qualquer atividade que garanta a subsistência, sem possibilidade de reabilitação.",
+    "A recuperação da capacidade não corta a aposentadoria de uma vez, salvo para o empregado que pode voltar à função em até 5 anos. Nos demais casos, há a escala de 6 meses integrais, 6 com 50% e 6 com 75% de redução."
+   ],
+   "macetes": [
+    {
+     "sigla": "15 DA EMPRESA, 16º DO INSS",
+     "texto": "Para o empregado, a empresa paga os 15 primeiros dias, e o benefício começa no 16º."
+    },
+    {
+     "sigla": "6 + 6 + 6",
+     "texto": "Recuperação parcial ou tardia: 6 meses integrais, 6 com 50% de redução e 6 com 75%, e o benefício cessa."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O empregado afastado por doença recebe o auxílio-doença do INSS desde o primeiro dia de afastamento.",
+    "gabarito": "E",
+    "explicacao": "Para o empregado, o benefício começa no 16º dia; os 15 primeiros ficam a cargo da empresa (art. 60, caput e § 3º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O acréscimo de 25% vale para qualquer aposentado que precise de cuidador.",
+     "certo": "É devido só na aposentadoria por invalidez (art. 45 da Lei 8.213; STF, Tema 1.095).",
+     "fonte": "Questões do app sobre o acréscimo de 25%"
+    },
+    {
+     "errado": "O segurado que já recebia auxílio-doença e é preso em regime fechado perde o benefício na data da prisão.",
+     "certo": "O benefício fica suspenso por até 60 dias e só depois cessa (art. 59, §§ 3º e 4º).",
+     "fonte": "Questões do app sobre o art. 59 da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "acidente-do-trabalho-e-auxilio-acidente",
+    "aposentadorias-do-regime-geral",
+    "servico-social-reabilitacao-e-contagem-reciproca"
+   ]
+  },
+  {
+   "slug": "salario-familia-e-salario-maternidade",
+   "titulo": "Salário-família e salário-maternidade",
+   "grupo": "Benefícios do Regime Geral: aposentadorias, incapacidade e família",
+   "base": "Arts. 65 a 73 da Lei 8.213/1991; art. 7º, XII, e art. 201, II e IV, da Constituição",
+   "tax": [],
+   "dispositivos": [
+    "n8213-1991-art-65",
+    "n8213-1991-art-66",
+    "n8213-1991-art-67",
+    "n8213-1991-art-68",
+    "n8213-1991-art-69",
+    "n8213-1991-art-70",
+    "n8213-1991-art-71",
+    "n8213-1991-art-71-a",
+    "n8213-1991-art-71-b",
+    "n8213-1991-art-71-c",
+    "n8213-1991-art-72",
+    "n8213-1991-art-73"
+   ],
+   "conceitos": [
+    "salário-família",
+    "segurado de baixa renda",
+    "cotas por filho",
+    "aposentados com direito ao salário-família",
+    "condições de pagamento",
+    "pagamento pela empresa e compensação",
+    "não incorporação ao salário",
+    "salário-maternidade",
+    "120 dias",
+    "início até 28 dias antes do parto",
+    "internação após o parto",
+    "prorrogação por síndrome congênita do Zika",
+    "adoção e guarda",
+    "um só beneficiário por adoção",
+    "morte da segurada",
+    "afastamento do trabalho",
+    "valor por categoria",
+    "prazo de concessão e concessão provisória"
+   ],
+   "palavras": [
+    "salario-familia",
+    "baixa renda",
+    "cota",
+    "filho",
+    "equiparado",
+    "14 anos",
+    "invalido",
+    "empregado domestico",
+    "avulso",
+    "aposentado por idade",
+    "aposentado por invalidez",
+    "65 anos",
+    "60 anos",
+    "certidao de nascimento",
+    "vacinacao",
+    "frequencia escolar",
+    "compensacao",
+    "10 anos",
+    "sindicato",
+    "nao incorporada",
+    "salario-maternidade",
+    "120 dias",
+    "28 dias antes do parto",
+    "internacao",
+    "duas semanas",
+    "apos a alta",
+    "adi 6327",
+    "zika",
+    "60 dias",
+    "adocao",
+    "guarda judicial",
+    "segurado homem",
+    "mais de um segurado",
+    "conjuge sobrevivente",
+    "falecimento",
+    "afastamento do trabalho",
+    "suspensao",
+    "remuneracao integral",
+    "empresa paga",
+    "microempreendedor individual",
+    "ultimo salario de contribuicao",
+    "um doze avos",
+    "quinze meses",
+    "desempregada",
+    "30 dias",
+    "concessao provisoria",
+    "ma-fe"
+   ],
+   "resumo": "O <strong>salário-família</strong> é uma cota mensal por filho ou equiparado de até 14 anos, ou inválido, paga ao empregado, ao doméstico e ao avulso de baixa renda. Também recebem os aposentados por invalidez ou por idade e os demais aposentados com 65 anos (homem) ou 60 (mulher). Não exige carência, é pago pela empresa junto com o salário e compensado nas contribuições, e não se incorpora ao salário. O <strong>salário-maternidade</strong> dura 120 dias e pode começar entre 28 dias antes do parto e o parto. É prorrogado quando há internação longa após o parto ou criança com síndrome congênita do Zika. Cabe também a quem adota ou obtém guarda para adoção, homem ou mulher, mas só a um segurado por processo. Se o titular morre, o cônjuge ou companheiro segurado recebe o restante. O benefício exige afastamento do trabalho, e o valor depende da categoria: remuneração integral para a empregada, paga pela empresa, e médias ou salário mínimo para as demais, pagas pelo INSS.",
+   "esquema": {
+    "rotulo": "valor do salário-maternidade por categoria (arts. 72 e 73)",
+    "html": "<table><thead><tr><th>Segurada</th><th>Valor</th><th>Quem paga</th></tr></thead><tbody><tr><td><strong>Empregada</strong></td><td>Remuneração integral</td><td>Empresa, que compensa nas contribuições</td></tr><tr><td><strong>Avulsa e empregada de MEI</strong></td><td>Remuneração integral</td><td>Previdência Social</td></tr><tr><td><strong>Empregada doméstica</strong></td><td>Último salário de contribuição</td><td>Previdência Social</td></tr><tr><td><strong>Segurada especial</strong></td><td>1/12 da última contribuição anual, no mínimo um salário mínimo</td><td>Previdência Social</td></tr><tr><td><strong>Contribuinte individual, facultativa e desempregada com qualidade de segurada</strong></td><td>1/12 da soma dos 12 últimos salários de contribuição em até 15 meses</td><td>Previdência Social</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Cota do salário-família",
+      "o_que_e": "Valor mensal por filho ou equiparado de até 14 anos, ou inválido de qualquer idade, para o segurado de baixa renda; os valores da lei são atualizados por portaria."
+     },
+     {
+      "nome": "Equiparado a filho",
+      "o_que_e": "Enteado, menor sob tutela e menor sob guarda judicial, nos termos do art. 16, § 2º."
+     },
+     {
+      "nome": "Salário-maternidade por adoção",
+      "o_que_e": "Benefício de 120 dias ao segurado ou à segurada que adota ou obtém guarda judicial para adoção, pago pela Previdência.",
+      "atencao": "Só um segurado por processo de adoção ou guarda."
+     },
+     {
+      "nome": "Concessão provisória",
+      "o_que_e": "Salário-maternidade pago pelo INSS que não é analisado em 30 dias passa a ser pago provisória e automaticamente.",
+      "atencao": "O que for recebido nessa fase não é devolvido, salvo má-fé."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 65.",
+      "Art. 66.",
+      "Art. 67.",
+      "Art. 68.",
+      "Art. 69.",
+      "Art. 70."
+     ],
+     "ref": "arts. 65 a 70 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Arts. 65 e 66.</strong> O salário-família é devido mensalmente ao empregado, inclusive o doméstico, e ao avulso, conforme o número de filhos ou equiparados do art. 16, § 2º, observado o art. 66. O aposentado por invalidez ou por idade e os demais aposentados com 65 anos ou mais (homem) ou 60 (mulher) também o recebem, junto com a aposentadoria (parágrafo único). A cota é por filho ou equiparado de até 14 anos ou inválido de qualquer idade, em dois valores conforme a remuneração do segurado (art. 66, I e II), hoje atualizados por portaria.",
+      "<strong>Arts. 67 a 70.</strong> O pagamento depende da certidão de nascimento ou da documentação do equiparado ou do inválido e, todo ano, do atestado de vacinação obrigatória e da prova de frequência escolar (art. 67); o doméstico apresenta só a certidão (parágrafo único). A empresa ou o empregador doméstico pagam as cotas mensalmente com o salário e compensam no recolhimento das contribuições (art. 68), guardando por 10 anos os comprovantes e as certidões (§ 1º); se o salário não for mensal, a cota vem com o último pagamento do mês (§ 2º). O sindicato pode receber e distribuir o salário-família do avulso (art. 69). A cota não se incorpora, para nenhum efeito, ao salário ou ao benefício (art. 70)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ao segurado empregado, inclusive o doméstico, e ao segurado trabalhador avulso",
+       "marcas": [
+        "trabalhador avulso"
+       ],
+       "afirmacao": "O contribuinte individual de baixa renda tem direito ao salário-família pelos filhos de até 14 anos.",
+       "gabarito": "E",
+       "porque": "O salário-família cabe ao empregado, inclusive o doméstico, e ao avulso, além dos aposentados do parágrafo único; o contribuinte individual não está no rol (art. 65)."
+      },
+      {
+       "trecho": "terão direito ao salário-família, pago juntamente com a aposentadoria",
+       "marcas": [
+        "juntamente com a aposentadoria"
+       ],
+       "afirmacao": "Um aposentado por idade de baixa renda, com filho de 10 anos, recebe o salário-família junto com a aposentadoria.",
+       "gabarito": "C",
+       "porque": "O aposentado por invalidez ou por idade tem direito ao salário-família, pago com a aposentadoria (art. 65, parágrafo único)."
+      },
+      {
+       "trecho": "O empregado doméstico deve apresentar apenas a certidão de nascimento referida no caput",
+       "marcas": [
+        "apenas a certidão de nascimento"
+       ],
+       "afirmacao": "A empregada doméstica precisa apresentar todo ano o atestado de vacinação do filho para continuar recebendo o salário-família.",
+       "gabarito": "E",
+       "porque": "O doméstico apresenta apenas a certidão de nascimento (art. 67, parágrafo único)."
+      },
+      {
+       "trecho": "serão pagas pela empresa ou pelo empregador doméstico, mensalmente, junto com o salário",
+       "marcas": [
+        "junto com o salário"
+       ],
+       "afirmacao": "As cotas do salário-família do empregado são pagas diretamente pelo INSS, em conta separada do salário.",
+       "gabarito": "E",
+       "porque": "A empresa ou o empregador doméstico pagam as cotas com o salário e compensam no recolhimento das contribuições (art. 68)."
+      },
+      {
+       "trecho": "A cota do salário-família não será incorporada, para qualquer efeito, ao salário ou ao benefício",
+       "marcas": [
+        "não será incorporada"
+       ],
+       "afirmacao": "Uma empresa calcula as férias de um empregado sem incluir a cota do salário-família que ele recebe. O cálculo está correto.",
+       "gabarito": "C",
+       "porque": "A cota não se incorpora, para nenhum efeito, ao salário ou ao benefício (art. 70)."
+      }
+     ],
+     "conferido": {
+      "Art. 65.": "9a17db039b88",
+      "Art. 66.": "0d1868c69566",
+      "Art. 67.": "f87ba5b260d0",
+      "Art. 68.": "e4b43cb574c3",
+      "Art. 69.": "0fd5422e845c",
+      "Art. 70.": "482ba9b9cf2e"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 71.",
+      "Art. 71-A.",
+      "Art. 71-B.",
+      "Art. 71-C.",
+      "Art. 72.",
+      "Art. 73."
+     ],
+     "ref": "arts. 71 a 73 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 71.</strong> O salário-maternidade é devido à segurada por 120 dias, com início entre 28 dias antes do parto e a data do parto, observada a legislação de proteção à maternidade (o parágrafo único foi revogado). É prorrogado por 60 dias no nascimento de criança com deficiência permanente decorrente de síndrome congênita associada ao Zika (§ 2º). Se a internação da mãe ou do recém-nascido por complicações do parto passar de 2 semanas, o benefício é devido durante a internação e por mais 120 dias após a alta, descontado o que foi recebido antes do parto (§ 3º).",
+      "<strong>Arts. 71-A a 71-C.</strong> O segurado ou a segurada que adota ou obtém guarda judicial para adoção de criança recebe salário-maternidade por 120 dias (art. 71-A), pago diretamente pela Previdência (§ 1º). Ressalvados o benefício da mãe biológica e o art. 71-B, só um segurado recebe pelo mesmo processo de adoção ou guarda, ainda que o casal esteja em regime próprio (§ 2º). Há prorrogação de 60 dias na adoção ou guarda de criança com deficiência permanente por síndrome congênita do Zika (§ 3º). Morto o segurado com direito ao benefício, o cônjuge ou companheiro sobrevivente que seja segurado recebe pelo período todo ou pelo restante, salvo morte ou abandono do filho (art. 71-B). O pedido vai até o último dia do benefício originário (§ 1º), e o pagamento é feito pela Previdência, calculado sobre a remuneração integral do empregado e do avulso (§ 2º, I), o último salário de contribuição do doméstico (II), 1/12 da soma dos 12 últimos salários de contribuição em até 15 meses para contribuinte individual, facultativo e desempregado (III) ou o salário mínimo para o segurado especial (IV). A regra vale para quem adota ou obtém guarda (§ 3º); para o § 4º, o acervo só remete à Lei 15.371/2026. O benefício exige afastamento do trabalho ou da atividade, sob pena de suspensão (art. 71-C).",
+      "<strong>Arts. 72 e 73.</strong> Para a empregada e a avulsa, a renda é a remuneração integral (art. 72). A empresa paga à empregada e compensa nas contribuições sobre a folha, observado o art. 248 da Constituição (§ 1º); para o § 1º-A, o acervo só remete à Lei 15.371/2026. A empresa guarda por 10 anos os comprovantes e atestados (§ 2º). O benefício da avulsa e da empregada de microempreendedor individual é pago pela Previdência (§ 3º). Para as demais, com piso de um salário mínimo e pagamento pela Previdência, o valor é o último salário de contribuição da doméstica (art. 73, I), 1/12 da última contribuição anual da segurada especial (II) e 1/12 da soma dos 12 últimos salários de contribuição, em até 15 meses, para as demais (III), regra que vale para a desempregada que mantém a qualidade de segurada (parágrafo único)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "com início no período entre 28 (vinte e oito) dias antes do parto e a data de ocorrência deste",
+       "marcas": [
+        "28 (vinte e oito) dias"
+       ],
+       "afirmacao": "Uma segurada com parto previsto para 30 de abril pode iniciar o salário-maternidade em 15 de março.",
+       "gabarito": "E",
+       "porque": "O início vai de 28 dias antes do parto até a data do parto (art. 71); em 15 de março, faltariam 46 dias."
+      },
+      {
+       "trecho": "será devido durante o período de internação e por mais 120 (cento e vinte) dias após a alta",
+       "marcas": [
+        "após a alta"
+       ],
+       "afirmacao": "O recém-nascido ficou internado por um mês por complicações do parto. O salário-maternidade é pago durante a internação e por mais 120 dias após a alta, descontado o que a mãe recebeu antes do parto.",
+       "gabarito": "C",
+       "porque": "É o art. 71, § 3º, da Lei 8.213, na linha da ADI 6.327 do STF."
+      },
+      {
+       "trecho": "Ao segurado ou segurada da Previdência Social que adotar ou obtiver guarda judicial",
+       "marcas": [
+        "segurado ou segurada"
+       ],
+       "afirmacao": "O salário-maternidade por adoção é devido apenas à segurada mulher, e não ao segurado homem que adota.",
+       "gabarito": "E",
+       "porque": "O art. 71-A garante o benefício ao segurado ou à segurada que adota ou obtém guarda judicial para adoção."
+      },
+      {
+       "trecho": "não poderá ser concedido o benefício a mais de um segurado, decorrente do mesmo processo de adoção ou guarda",
+       "marcas": [
+        "a mais de um segurado"
+       ],
+       "afirmacao": "Um casal de segurados adota uma criança, e cada um recebe salário-maternidade de 120 dias pelo mesmo processo de adoção.",
+       "gabarito": "E",
+       "porque": "O benefício não pode ser concedido a mais de um segurado no mesmo processo de adoção ou guarda (art. 71-A, § 2º)."
+      },
+      {
+       "trecho": "ao cônjuge ou companheiro sobrevivente que tenha a qualidade de segurado",
+       "marcas": [
+        "cônjuge ou companheiro sobrevivente"
+       ],
+       "afirmacao": "Uma segurada morreu no segundo mês do salário-maternidade, e o marido, também segurado, continua cuidando do bebê. Ele pode receber o benefício pelo tempo restante.",
+       "gabarito": "C",
+       "porque": "O cônjuge ou companheiro sobrevivente que é segurado recebe pelo restante do período, salvo morte ou abandono do filho (art. 71-B)."
+      },
+      {
+       "trecho": "está condicionada ao afastamento do segurado do trabalho ou da atividade desempenhada, sob pena de suspensão do benefício",
+       "marcas": [
+        "sob pena de suspensão"
+       ],
+       "afirmacao": "Uma contribuinte individual continua atendendo clientes durante o salário-maternidade. O benefício pode ser suspenso.",
+       "gabarito": "C",
+       "porque": "O salário-maternidade exige afastamento do trabalho ou da atividade, sob pena de suspensão (art. 71-C)."
+      }
+     ],
+     "conferido": {
+      "Art. 71.": "67ab60ed2675",
+      "Art. 71-A.": "0db97e959e37",
+      "Art. 71-B.": "742359a3ba41",
+      "Art. 71-C.": "fb450c5b5fa1",
+      "Art. 72.": "2a1aca10088b",
+      "Art. 73.": "639c3d3d9881"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · ADI 6.327 (2022)",
+     "texto": "Na internação da mãe ou do recém-nascido por mais de duas semanas, o termo inicial da licença-maternidade e do salário-maternidade é a alta hospitalar, e o período anterior ao parto é descontado."
+    }
+   ],
+   "detalhes": [
+    "O salário-família e o salário-maternidade não são calculados pelo salário de benefício (art. 28).",
+    "O salário-família não exige carência (art. 26, I). O salário-maternidade da empregada, da avulsa e da doméstica também não; para contribuinte individual, segurada especial e facultativa, são 10 contribuições (art. 25, III).",
+    "Depois da EC 20/1998, o salário-família só cabe ao segurado de baixa renda (CF, art. 7º, XII, e art. 201, IV).",
+    "O salário-maternidade não se acumula com o auxílio-doença (art. 124, IV).",
+    "Pelo art. 73-A, incluído pela Lei 15.415/2026, o salário-maternidade pago pela Previdência deve ser concedido em até 30 dias do requerimento. Passado o prazo, é concedido de forma provisória e automática, e a análise posterior o torna definitivo ou o faz cessar de imediato. O que foi recebido na fase provisória não é devolvido, salvo má-fé comprovada."
+   ],
+   "macetes": [
+    {
+     "sigla": "120 + 60",
+     "texto": "Salário-maternidade de 120 dias, prorrogado por 60 na síndrome congênita do Zika."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O salário-maternidade da empregada é pago diretamente pela Previdência Social, sem participação da empresa.",
+    "gabarito": "E",
+    "explicacao": "Cabe à empresa pagar o salário-maternidade da empregada e compensar no recolhimento das contribuições (art. 72, § 1º). A Previdência paga diretamente à avulsa, à empregada de MEI e às demais seguradas."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O salário-família é pago por filho de até 21 anos, como na pensão por morte.",
+     "certo": "A cota é por filho ou equiparado de até 14 anos ou inválido (art. 66 da Lei 8.213).",
+     "fonte": "Questões do app sobre o salário-família"
+    },
+    {
+     "errado": "O salário-maternidade por adoção varia conforme a idade da criança adotada.",
+     "certo": "É de 120 dias, sem distinção de idade (art. 71-A da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 71-A da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "pensao-por-morte-e-auxilio-reclusao",
+    "salario-de-contribuicao-e-contribuicao-dos-segurados"
+   ]
+  },
+  {
+   "slug": "pensao-por-morte-e-auxilio-reclusao",
+   "titulo": "Pensão por morte e auxílio-reclusão",
+   "grupo": "Benefícios do Regime Geral: aposentadorias, incapacidade e família",
+   "base": "Arts. 74 a 80 da Lei 8.213/1991; art. 201, I e IV, da Constituição; art. 23 da EC 103/2019",
+   "tax": [
+    "previdenciario.beneficios-rgps"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-74",
+    "n8213-1991-art-75",
+    "n8213-1991-art-76",
+    "n8213-1991-art-77",
+    "n8213-1991-art-78",
+    "n8213-1991-art-80"
+   ],
+   "conceitos": [
+    "pensão por morte",
+    "data de início da pensão",
+    "perda do direito por homicídio",
+    "fraude no casamento ou na união estável",
+    "habilitação provisória",
+    "valor da pensão",
+    "cota familiar",
+    "habilitação posterior",
+    "cônjuge ausente",
+    "ex-cônjuge com alimentos",
+    "rateio e reversão de cotas",
+    "cessação da cota",
+    "duração da pensão do cônjuge",
+    "18 contribuições e 2 anos de união",
+    "morte presumida",
+    "auxílio-reclusão",
+    "baixa renda do preso",
+    "regime fechado",
+    "prova de permanência na prisão"
+   ],
+   "palavras": [
+    "pensao por morte",
+    "conjunto dos dependentes",
+    "data do obito",
+    "180 dias",
+    "filhos menores de 16",
+    "90 dias",
+    "requerimento",
+    "morte presumida",
+    "homicidio doloso",
+    "simulacao",
+    "fraude",
+    "casamento",
+    "uniao estavel",
+    "habilitacao provisoria",
+    "rateio",
+    "cem por cento",
+    "cota familiar",
+    "50 por cento",
+    "10 por cento por dependente",
+    "ec 103",
+    "conjuge ausente",
+    "divorciado",
+    "pensao de alimentos",
+    "alimentos temporarios",
+    "partes iguais",
+    "reversao",
+    "21 anos",
+    "invalidez",
+    "deficiencia",
+    "quatro meses",
+    "18 contribuicoes",
+    "dois anos",
+    "tabela de idades",
+    "vitalicia",
+    "44 anos",
+    "acidente",
+    "rpps",
+    "microempreendedor",
+    "suspensao provisoria",
+    "seis meses de ausencia",
+    "desastre",
+    "reaparecimento",
+    "auxilio-reclusao",
+    "baixa renda",
+    "regime fechado",
+    "24 contribuicoes",
+    "certidao judicial",
+    "media de 12 meses",
+    "trabalho do preso",
+    "concubinato",
+    "tema 526",
+    "tema 529",
+    "sumula 340"
+   ],
+   "resumo": "A <strong>pensão por morte</strong> é devida ao conjunto dos dependentes do segurado que morre, aposentado ou não, e não exige carência. Ela conta do óbito, se pedida em até 180 dias pelos filhos menores de 16 anos ou em até 90 dias pelos demais; depois disso, conta do requerimento. O texto da lei fala em 100% da aposentadoria, mas a EC 103/2019 criou a cota familiar de 50% mais 10 pontos por dependente. O valor é dividido em partes iguais, e a cota de quem perde o direito passa aos demais. Para o cônjuge ou companheiro, a duração depende de 18 contribuições, de 2 anos de união e da idade dele na data do óbito. O <strong>auxílio-reclusão</strong> segue as condições da pensão, mas exige 24 contribuições. É pago aos dependentes do segurado de baixa renda preso em regime fechado.",
+   "esquema": {
+    "rotulo": "duração da cota do cônjuge ou companheiro (art. 77, § 2º, V)",
+    "html": "<table><thead><tr><th>Situação na data do óbito</th><th>Duração</th></tr></thead><tbody><tr><td><strong>Menos de 18 contribuições ou menos de 2 anos de casamento ou união estável</strong></td><td>4 meses (salvo invalidez ou deficiência, ou morte por acidente ou doença do trabalho)</td></tr><tr><td><strong>18 contribuições e 2 anos de união, beneficiário com menos de 21 anos</strong></td><td>3 anos</td></tr><tr><td><strong>Entre 21 e 26 anos</strong></td><td>6 anos</td></tr><tr><td><strong>Entre 27 e 29 anos</strong></td><td>10 anos</td></tr><tr><td><strong>Entre 30 e 40 anos</strong></td><td>15 anos</td></tr><tr><td><strong>Entre 41 e 43 anos</strong></td><td>20 anos</td></tr><tr><td><strong>44 anos ou mais</strong></td><td>Vitalícia</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Cota familiar (EC 103)",
+      "o_que_e": "Pensão de 50% da aposentadoria do segurado, ou da que ele teria por incapacidade permanente, mais 10 pontos por dependente, até 100%.",
+      "atencao": "As cotas de 10 pontos não passam aos demais quando um dependente perde o direito."
+     },
+     {
+      "nome": "Habilitação provisória",
+      "o_que_e": "Inscrição do pretenso dependente que ajuizou ação para ser reconhecido, só para reservar sua parte no rateio.",
+      "atencao": "A cota fica retida até o trânsito em julgado."
+     },
+     {
+      "nome": "Pensão provisória",
+      "o_que_e": "Pensão paga na morte presumida declarada pelo juiz depois de 6 meses de ausência, ou logo após acidente, desastre ou catástrofe.",
+      "atencao": "Se o segurado reaparece, cessa, sem devolução salvo má-fé."
+     },
+     {
+      "nome": "Segurado de baixa renda (auxílio-reclusão)",
+      "o_que_e": "Preso cuja média dos salários de contribuição dos 12 meses anteriores à prisão não passa do limite do art. 13 da EC 20/1998, corrigido.",
+      "atencao": "Conta a renda do preso, não a dos dependentes."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 74.",
+      "Art. 75.",
+      "Art. 76."
+     ],
+     "ref": "arts. 74 a 76 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 74, caput e incisos.</strong> A pensão é devida ao conjunto dos dependentes do segurado que falecer, aposentado ou não, a contar: do óbito, se requerida em até 180 dias pelos filhos menores de 16 anos ou em até 90 dias pelos demais dependentes (I); do requerimento, se pedida depois (II); da decisão judicial, na morte presumida (III).",
+      "<strong>Art. 74, §§ 1º a 6º.</strong> Perde o direito o condenado por sentença transitada em julgado como autor, coautor ou partícipe de homicídio doloso ou tentativa contra o segurado, ressalvados os absolutamente incapazes e os inimputáveis (§ 1º). Perde o direito o cônjuge ou companheiro se provada, a qualquer tempo, simulação ou fraude no casamento ou na união estável, ou sua formalização só para obter benefício, apuradas em processo judicial com contraditório e ampla defesa (§ 2º). Quem ajuíza ação para ser reconhecido como dependente pode pedir habilitação provisória só para o rateio, sem receber a cota até o trânsito em julgado, salvo decisão judicial em contrário (§ 3º). Nas ações em que é parte, o INSS pode fazer de ofício a habilitação excepcional, com o mesmo efeito (§ 4º). Se a ação for julgada improcedente, o valor retido é corrigido e pago aos demais dependentes, proporcionalmente (§ 5º). O INSS pode cobrar o que pagou indevidamente por nova habilitação (§ 6º).",
+      "<strong>Arts. 75 e 76.</strong> A pensão é de 100% da aposentadoria que o segurado recebia ou da aposentadoria por invalidez a que teria direito na data do óbito, observado o art. 33 (art. 75). A concessão não espera a habilitação de outro possível dependente, e a inclusão ou exclusão posterior só produz efeito a partir da inscrição ou habilitação (art. 76). O cônjuge ausente não exclui o companheiro, que recebe a partir da habilitação e com prova de dependência (§ 1º). O cônjuge divorciado ou separado, judicialmente ou de fato, que recebia alimentos concorre em igualdade com os dependentes da classe I (§ 2º). Se o segurado pagava alimentos temporários a ex-cônjuge ou ex-companheiro, a pensão dura o prazo restante na data do óbito, salvo outra causa de cessação (§ 3º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "em até 180 (cento e oitenta) dias após o óbito, para os filhos menores de 16 (dezesseis) anos, ou em até 90 (noventa) dias após o óbito, para os demais dependentes",
+       "marcas": [
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "Para o cônjuge, a pensão por morte é devida desde a data do óbito quando requerida em até 180 dias após o falecimento.",
+       "gabarito": "E",
+       "porque": "Os 180 dias valem para os filhos menores de 16 anos; para os demais dependentes, inclusive o cônjuge, o prazo é de 90 dias (art. 74, I)."
+      },
+      {
+       "trecho": "apuradas em processo judicial no qual será assegurado o direito ao contraditório e à ampla defesa",
+       "marcas": [
+        "processo judicial"
+       ],
+       "afirmacao": "Provado em processo judicial, com contraditório, que um casamento foi celebrado só para gerar pensão, a viúva perde o direito ao benefício.",
+       "gabarito": "C",
+       "porque": "Perde o direito o cônjuge se comprovada simulação ou fraude, ou casamento feito só para obter benefício, apurada em processo judicial (art. 74, § 2º)."
+      },
+      {
+       "trecho": "vedado o pagamento da respectiva cota até o trânsito em julgado da respectiva ação",
+       "marcas": [
+        "trânsito em julgado"
+       ],
+       "afirmacao": "A pessoa que ajuizou ação para ser reconhecida como companheira do segurado e obteve habilitação provisória recebe sua cota da pensão desde logo.",
+       "gabarito": "E",
+       "porque": "A habilitação provisória serve só para o rateio, e a cota não é paga até o trânsito em julgado, salvo decisão judicial em contrário (art. 74, § 3º)."
+      },
+      {
+       "trecho": "que recebia pensão de alimentos concorrerá em igualdade de condições com os dependentes referidos no inciso I",
+       "marcas": [
+        "igualdade de condições"
+       ],
+       "afirmacao": "A ex-esposa que recebia pensão alimentícia do segurado divide a pensão por morte, em partes iguais, com a atual companheira.",
+       "gabarito": "C",
+       "porque": "O ex-cônjuge que recebia alimentos concorre em igualdade com os dependentes da classe I (art. 76, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 74.": "781964098b81",
+      "Art. 75.": "dcedd08dcc43",
+      "Art. 76.": "46952c052608"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 77.",
+      "Art. 78.",
+      "Art. 80."
+     ],
+     "ref": "arts. 77, 78 e 80 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 77, caput, § 1º e § 2º, I a IV e VI.</strong> Havendo mais de um pensionista, a pensão é rateada em partes iguais, e a parte de quem perde o direito reverte aos demais (§ 1º). A cota individual cessa pela morte do pensionista (§ 2º, I); para filho, equiparado ou irmão, aos 21 anos, salvo invalidez ou deficiência intelectual, mental ou grave (II); para filho ou irmão inválido, com o fim da invalidez (III); para filho ou irmão com deficiência, com o afastamento da deficiência (IV); e pela perda do direito do art. 74, § 1º (VI).",
+      "<strong>Art. 77, § 2º, V.</strong> Para o cônjuge ou companheiro, a cota cessa: se inválido ou com deficiência, com o fim da invalidez ou da deficiência, respeitados os prazos mínimos das alíneas b e c (a); em 4 meses, se o segurado não verteu 18 contribuições ou a união começou menos de 2 anos antes do óbito (b); com 18 contribuições e 2 anos de união, pelo prazo conforme a idade do beneficiário no óbito: 3 anos com menos de 21 anos (c, 1), 6 anos entre 21 e 26 (2), 10 anos entre 27 e 29 (3), 15 anos entre 30 e 40 (4), 20 anos entre 41 e 43 (5) e vitalícia com 44 ou mais (6).",
+      "<strong>Art. 77, §§ 2º-A a 7º.</strong> Se o óbito decorre de acidente de qualquer natureza ou doença profissional ou do trabalho, aplicam-se a alínea a ou os prazos da alínea c, sem exigir 18 contribuições nem 2 anos de união (§ 2º-A). Após pelo menos 3 anos e aumento de um ano inteiro na expectativa de sobrevida ao nascer, ato ministerial pode fixar novas idades para a alínea c (§ 2º-B). Extinta a parte do último pensionista, extingue-se a pensão (§ 3º; o § 4º foi revogado). O tempo de contribuição a regime próprio conta nas 18 contribuições (§ 5º). A atividade remunerada, inclusive como MEI, não impede a cota do dependente com deficiência intelectual, mental ou grave (§ 6º). Havendo fundados indícios de participação do dependente em homicídio ou tentativa contra o segurado, sua parte pode ser suspensa em processo administrativo com ampla defesa, e, se ele for absolvido, recebe tudo corrigido e o benefício volta de imediato (§ 7º).",
+      "<strong>Art. 78.</strong> Na morte presumida declarada pelo juiz depois de 6 meses de ausência, concede-se pensão provisória. Se o desaparecimento decorre de acidente, desastre ou catástrofe, a pensão provisória independe da declaração e do prazo (§ 1º). Se o segurado reaparece, a pensão cessa de imediato, sem devolução dos valores, salvo má-fé (§ 2º). O art. 79 foi revogado.",
+      "<strong>Art. 80.</strong> O auxílio-reclusão, cumprida a carência de 24 contribuições, é devido nas condições da pensão por morte aos dependentes do segurado de baixa renda preso em regime fechado que não recebe remuneração da empresa nem auxílio-doença, pensão, salário-maternidade, aposentadoria ou abono de permanência. O pedido traz certidão judicial do recolhimento à prisão, e a manutenção exige prova de permanência na prisão (§ 1º). O INSS faz convênios com os órgãos do cadastro de presos (§ 2º). É de baixa renda quem, no mês da prisão, tem renda até o limite do art. 13 da EC 20/1998, corrigido (§ 3º), apurada pela média dos salários de contribuição dos 12 meses anteriores ao mês da prisão (§ 4º). A certidão e a prova de permanência podem ser substituídas pelo acesso à base de dados do CNJ (§ 5º). Benefício por incapacidade nesse período conta pelo salário de benefício reajustado, nunca abaixo do mínimo (§ 6º). O trabalho remunerado do preso em regime fechado não tira o benefício dos dependentes (§ 7º). Se o preso que contribuiu durante a reclusão morrer, a pensão considera essas contribuições, facultada a opção pelo valor do auxílio-reclusão (§ 8º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Reverterá em favor dos demais a parte daquele cujo direto à pensão cessar",
+       "marcas": [
+        "Reverterá"
+       ],
+       "afirmacao": "A pensão é dividida entre a viúva e o filho. Quando o filho completa 21 anos, sem invalidez ou deficiência, a parte dele volta para o INSS, e a viúva continua só com a sua metade.",
+       "gabarito": "E",
+       "porque": "Pelo texto do art. 77, § 1º, a parte de quem perde o direito reverte aos demais pensionistas. A EC 103/2019 tornou irreversíveis apenas as cotas de 10 pontos por dependente."
+      },
+      {
+       "trecho": "em 4 (quatro) meses, se o óbito ocorrer sem que o segurado tenha vertido 18 (dezoito) contribuições mensais",
+       "marcas": [
+        "4 (quatro) meses"
+       ],
+       "afirmacao": "Carla se casou com um segurado um ano antes da morte dele, que não foi por acidente nem por doença do trabalho. Sem invalidez ou deficiência, ela recebe a pensão por 4 meses.",
+       "gabarito": "C",
+       "porque": "Com menos de 2 anos de casamento ou união estável, a cota do cônjuge dura 4 meses (art. 77, § 2º, V, b)."
+      },
+      {
+       "trecho": "independentemente do recolhimento de 18 (dezoito) contribuições mensais ou da comprovação de 2 (dois) anos de casamento ou de união estável",
+       "marcas": [
+        "independentemente"
+       ],
+       "afirmacao": "Se o segurado morre em acidente de trabalho com apenas 5 contribuições, a pensão do cônjuge dura 4 meses, por falta das 18 contribuições.",
+       "gabarito": "E",
+       "porque": "Quando a morte decorre de acidente de qualquer natureza ou doença profissional ou do trabalho, aplicam-se os prazos por idade sem exigir 18 contribuições nem 2 anos de união (art. 77, § 2º-A)."
+      },
+      {
+       "trecho": "desobrigados os dependentes da reposição dos valores recebidos, salvo má-fé",
+       "marcas": [
+        "salvo má-fé"
+       ],
+       "afirmacao": "O segurado declarado morto presumido reaparece. Os dependentes de boa-fé têm de devolver toda a pensão provisória recebida.",
+       "gabarito": "E",
+       "porque": "A pensão cessa de imediato, mas os dependentes não devolvem os valores, salvo má-fé (art. 78, § 2º)."
+      },
+      {
+       "trecho": "pela média dos salários de contribuição apurados no período de 12 (doze) meses anteriores ao mês do recolhimento à prisão",
+       "marcas": [
+        "12 (doze) meses"
+       ],
+       "afirmacao": "Para o auxílio-reclusão, a baixa renda do segurado é aferida pelo último salário de contribuição antes da prisão.",
+       "gabarito": "E",
+       "porque": "Usa-se a média dos salários de contribuição dos 12 meses anteriores ao mês da prisão (art. 80, § 4º)."
+      },
+      {
+       "trecho": "não acarreta a perda do direito ao recebimento do auxílio-reclusão para seus dependentes",
+       "marcas": [
+        "não acarreta a perda"
+       ],
+       "afirmacao": "Um preso em regime fechado trabalha na cozinha do presídio e recebe remuneração por isso. Os dependentes continuam recebendo o auxílio-reclusão.",
+       "gabarito": "C",
+       "porque": "O trabalho remunerado do preso em regime fechado não tira o benefício dos dependentes (art. 80, § 7º)."
+      }
+     ],
+     "conferido": {
+      "Art. 77.": "5c2728d8ce81",
+      "Art. 78.": "4696820eb9ce",
+      "Art. 80.": "14aa8a71a4b1"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Tema 526 (RE 883.168, 2021)",
+     "texto": "Quem manteve, por longo período e com aparência familiar, união com pessoa casada não tem direito à pensão por morte: o concubinato não se equipara ao casamento nem à união estável."
+    },
+    {
+     "quem": "STF · Tema 529 (RE 1.045.273, 2020)",
+     "texto": "Casamento ou união estável preexistente impede o reconhecimento de outra união no mesmo período, inclusive para fins previdenciários, ressalvado o separado de fato (art. 1.723, § 1º, do Código Civil)."
+    },
+    {
+     "quem": "STF · RE 587.365 (repercussão geral, 2009)",
+     "texto": "Para o auxílio-reclusão, a renda que se considera é a do segurado preso, e não a de seus dependentes."
+    },
+    {
+     "quem": "STJ · Súmula 340",
+     "texto": "A lei aplicável à concessão de pensão por morte é a vigente na data do óbito do segurado."
+    },
+    {
+     "quem": "STJ · Súmula 336",
+     "texto": "A mulher que renunciou aos alimentos na separação judicial tem direito à pensão por morte do ex-marido, se comprovar necessidade econômica superveniente."
+    }
+   ],
+   "detalhes": [
+    "Pelo art. 23 da EC 103/2019, a pensão é uma cota familiar de 50% da aposentadoria do segurado, ou da que ele teria por incapacidade permanente, mais 10 pontos por dependente, até 100%. Havendo dependente inválido ou com deficiência intelectual, mental ou grave, a pensão é de 100% até o teto, e o excedente segue a regra das cotas.",
+    "A pensão por morte não exige carência, mas exige que o falecido fosse segurado na data do óbito ou já tivesse direito a uma aposentadoria (art. 102).",
+    "Desde a Lei 13.846/2019, só o preso em regime fechado gera auxílio-reclusão. No semiaberto ou aberto, não há benefício.",
+    "O § 2º-B do art. 77 permite atualizar as idades da tabela de duração da pensão por ato ministerial, e essa atualização já foi feita. Confira a tabela vigente.",
+    "É vedado receber mais de uma pensão deixada por cônjuge ou companheiro no Regime Geral, ressalvada a opção pela mais vantajosa (art. 124, VI)."
+   ],
+   "macetes": [
+    {
+     "sigla": "180 PARA O FILHO MENOR DE 16, 90 PARA OS DEMAIS",
+     "texto": "Prazos para a pensão retroagir à data do óbito."
+    },
+    {
+     "sigla": "18 E 2",
+     "texto": "Sem 18 contribuições ou 2 anos de união, a pensão do cônjuge dura 4 meses, salvo morte por acidente ou doença do trabalho."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O auxílio-reclusão é devido aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado ou semiaberto.",
+    "gabarito": "E",
+    "explicacao": "Desde a Lei 13.846/2019, só o recolhimento em regime fechado dá direito ao auxílio-reclusão (art. 80)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O auxílio-reclusão, como a pensão por morte, independe de carência.",
+     "certo": "O auxílio-reclusão exige 24 contribuições (arts. 25, IV, e 80).",
+     "fonte": "Questões do app sobre o auxílio-reclusão"
+    },
+    {
+     "errado": "O STF admite o rateio da pensão entre a esposa e a pessoa que manteve longa relação com o segurado casado.",
+     "certo": "O concubinato não gera pensão por morte (STF, Tema 526).",
+     "fonte": "Questões do app sobre a pensão por morte"
+    }
+   ],
+   "relacionados": [
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "salario-familia-e-salario-maternidade",
+    "disposicoes-gerais-decadencia-e-processo-previdenciario"
+   ]
+  },
+  {
+   "slug": "servico-social-reabilitacao-e-contagem-reciproca",
+   "titulo": "Serviço social, habilitação e reabilitação profissional, contagem recíproca e compensação financeira",
+   "grupo": "Serviços, contagem recíproca, processo e pensões especiais",
+   "base": "Arts. 88 a 92 e 94 a 99 da Lei 8.213/1991; art. 201, § 9º, da Constituição; Lei 9.796/1999 e Decreto 10.188/2019",
+   "tax": [
+    "previdenciario.servico-social-reabilitacao",
+    "previdenciario.contagem-reciproca",
+    "previdenciario.certidao-tempo-contribuicao",
+    "previdenciario.compensacao-previdenciaria",
+    "previdenciario.lei-9796-decreto-10188"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-88",
+    "n8213-1991-art-89",
+    "n8213-1991-art-90",
+    "n8213-1991-art-91",
+    "n8213-1991-art-92",
+    "n8213-1991-art-94",
+    "n8213-1991-art-96",
+    "n8213-1991-art-97",
+    "n8213-1991-art-98",
+    "n8213-1991-art-99"
+   ],
+   "conceitos": [
+    "serviço social",
+    "prioridade aos segurados em benefício por incapacidade",
+    "instrumentos do serviço social",
+    "habilitação e reabilitação profissional",
+    "prótese e órtese",
+    "obrigatoriedade para segurados",
+    "certificado de reabilitação",
+    "contagem recíproca",
+    "compensação financeira",
+    "regime de origem e regime instituidor",
+    "vedação de contagem em dobro",
+    "tempo concomitante",
+    "certidão de tempo de contribuição",
+    "indenização de tempo anterior à filiação",
+    "desaverbação",
+    "tempo especial na CTC",
+    "sistema pagador do benefício"
+   ],
+   "palavras": [
+    "servico social",
+    "direitos sociais",
+    "beneficio por incapacidade temporaria",
+    "aposentados e pensionistas",
+    "intervencao tecnica",
+    "assistencia juridica",
+    "ajuda material",
+    "pesquisa social",
+    "convenios",
+    "entidades de classe",
+    "estados e municipios",
+    "hospitais publicos",
+    "habilitacao",
+    "reabilitacao profissional",
+    "pessoa com deficiencia",
+    "protese",
+    "ortese",
+    "locomocao",
+    "reparacao",
+    "substituicao",
+    "transporte do acidentado",
+    "obrigatorio",
+    "dependentes",
+    "fora do domicilio",
+    "certificado individual",
+    "outra atividade",
+    "contagem reciproca",
+    "tempo de contribuicao",
+    "administracao publica",
+    "compensacao financeira",
+    "regime de origem",
+    "regime instituidor",
+    "lei 9796",
+    "decreto 10188",
+    "contagem em dobro",
+    "licenca-premio",
+    "concomitantes",
+    "tempo utilizado",
+    "indenizacao",
+    "juros",
+    "multa de dez por cento",
+    "ctc",
+    "certidao de tempo de contribuicao",
+    "ex-servidor",
+    "desaverbacao",
+    "tempo especial",
+    "ec 20",
+    "sistema de vinculacao",
+    "aliquota reduzida"
+   ],
+   "resumo": "O <strong>serviço social</strong> orienta os beneficiários sobre seus direitos e ajuda a resolver problemas com a Previdência, com prioridade para quem está em benefício por incapacidade temporária. A <strong>habilitação e a reabilitação profissional</strong> dão ao incapacitado e à pessoa com deficiência meios de voltar ao mercado de trabalho, inclusive próteses e órteses. São obrigatórias para os segurados, inclusive aposentados, e devidas aos dependentes na medida das possibilidades do INSS. A <strong>contagem recíproca</strong> permite somar o tempo do Regime Geral com o de regimes próprios, e os regimes se compensam financeiramente. O benefício é concedido e pago pelo regime a que o segurado está vinculado ao requerer, e esse regime é ressarcido pelos demais. Há limites: não se conta tempo em dobro, nem tempo concomitante, nem tempo já usado para aposentadoria em outro regime, e a contagem depende de certidão de tempo de contribuição.",
+   "esquema": {
+    "rotulo": "regras da contagem recíproca (art. 96)",
+    "html": "<table><thead><tr><th>Regra</th><th>Conteúdo</th></tr></thead><tbody><tr><td><strong>Contagem em dobro</strong></td><td>Proibida, assim como outras condições especiais (I)</td></tr><tr><td><strong>Tempo concomitante</strong></td><td>Serviço público e atividade privada simultâneos não se somam (II)</td></tr><tr><td><strong>Tempo já usado</strong></td><td>Não é contado de novo por outro regime (III)</td></tr><tr><td><strong>Tempo sem filiação obrigatória</strong></td><td>Só com indenização, juros de 0,5% ao mês e multa de 10%, sem multa para o período anterior à obrigatoriedade (IV e § 2º)</td></tr><tr><td><strong>CTC</strong></td><td>Só com contribuição efetiva, salvo empregado, doméstico, avulso e contribuinte individual que presta serviço a empresa (V); o regime próprio só emite para ex-servidor (VI)</td></tr><tr><td><strong>Sem CTC</strong></td><td>Regime próprio não conta tempo do Regime Geral sem CTC, nem do próprio ente (VII)</td></tr><tr><td><strong>Desaverbação</strong></td><td>Vedada se o tempo gerou vantagem remuneratória ao servidor (VIII)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Regime de origem",
+      "o_que_e": "Regime a que o segurado esteve vinculado sem dele receber aposentadoria nem gerar pensão; paga a compensação."
+     },
+     {
+      "nome": "Regime instituidor",
+      "o_que_e": "Regime que concede e paga a aposentadoria, ou a pensão dela decorrente, com o tempo do regime de origem; recebe a compensação."
+     },
+     {
+      "nome": "Certidão de Tempo de Contribuição (CTC)",
+      "o_que_e": "Documento do regime de origem que comprova o tempo de contribuição para averbação em outro regime.",
+      "atencao": "Regime próprio só a emite para ex-servidor."
+     },
+     {
+      "nome": "Certificado de reabilitação",
+      "o_que_e": "Documento que indica as atividades que o reabilitado pode exercer.",
+      "atencao": "Não o impede de exercer outra atividade para a qual se capacite."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 88.",
+      "Art. 89.",
+      "Art. 90.",
+      "Art. 91.",
+      "Art. 92."
+     ],
+     "ref": "arts. 88 a 92 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 88.</strong> O Serviço Social esclarece os beneficiários sobre seus direitos sociais e os meios de exercê-los e, com eles, busca solução para os problemas da relação com a Previdência, dentro e fora da instituição. Tem prioridade o segurado em benefício por incapacidade temporária, e atenção especial os aposentados e pensionistas (§ 1º). Usa intervenção técnica, assistência jurídica, ajuda material, recursos sociais, intercâmbio com empresas e pesquisa social, inclusive por convênios, acordos ou contratos (§ 2º). Tem como diretriz a participação do beneficiário na política previdenciária, em articulação com associações e entidades de classe (§ 3º). Presta assessoramento técnico a Estados e Municípios (§ 4º). Nos hospitais públicos e equipamentos de saúde em que atua, orienta também sobre os benefícios por incapacidade (§ 5º).",
+      "<strong>Arts. 89 a 92.</strong> A habilitação e a reabilitação profissional e social dão ao beneficiário incapacitado parcial ou totalmente e às pessoas com deficiência meios de reeducação e readaptação para o mercado de trabalho e o contexto em que vivem (art. 89). Incluem o fornecimento de prótese, órtese, instrumentos de locomoção e equipamentos (a), sua reparação ou substituição quando desgastados pelo uso normal ou por fato alheio à vontade do beneficiário (b) e o transporte do acidentado do trabalho, quando necessário (c). A reabilitação é obrigatória para os segurados, inclusive aposentados, e devida aos dependentes na medida das possibilidades da Previdência (art. 90). Há auxílio para tratamento ou exame fora do domicílio (art. 91). Ao fim, a Previdência emite certificado individual com as atividades que o beneficiário pode exercer, sem impedi-lo de exercer outra para a qual se capacitar (art. 92)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Será dada prioridade aos segurados em benefício por incapacidade temporária e atenção especial aos aposentados e pensionistas",
+       "marcas": [
+        "prioridade"
+       ],
+       "afirmacao": "No Serviço Social, a prioridade é dos aposentados e pensionistas, e a atenção especial, dos segurados em benefício por incapacidade temporária.",
+       "gabarito": "E",
+       "porque": "É o contrário: prioridade aos segurados em benefício por incapacidade temporária e atenção especial aos aposentados e pensionistas (art. 88, § 1º)."
+      },
+      {
+       "trecho": "prestará assessoramento técnico aos Estados e Municípios",
+       "marcas": [
+        "Estados e Municípios"
+       ],
+       "afirmacao": "Um Município pede ao Serviço Social do INSS apoio técnico para implantar sua proposta de trabalho social. O assessoramento está previsto na Lei 8.213/1991.",
+       "gabarito": "C",
+       "porque": "O Serviço Social presta assessoramento técnico aos Estados e Municípios na elaboração e implantação de suas propostas de trabalho (art. 88, § 4º); não às empresas privadas."
+      },
+      {
+       "trecho": "desgastados pelo uso normal ou por ocorrência estranha à vontade do beneficiário",
+       "marcas": [
+        "uso normal"
+       ],
+       "afirmacao": "A prótese de perna fornecida a um segurado em reabilitação se desgastou pelo uso normal. A Previdência deve repará-la ou substituí-la.",
+       "gabarito": "C",
+       "porque": "A reabilitação inclui a reparação ou substituição dos aparelhos desgastados pelo uso normal (art. 89, parágrafo único, b)."
+      },
+      {
+       "trecho": "é devida em caráter obrigatório aos segurados, inclusive aposentados",
+       "marcas": [
+        "obrigatório aos segurados"
+       ],
+       "afirmacao": "A reabilitação profissional é obrigatória para os dependentes e, para os segurados, só na medida das possibilidades da Previdência.",
+       "gabarito": "E",
+       "porque": "É o inverso: obrigatória para os segurados, inclusive aposentados, e para os dependentes na medida das possibilidades (art. 90)."
+      },
+      {
+       "trecho": "nada impedindo que este exerça outra atividade para a qual se capacitar",
+       "marcas": [
+        "outra atividade"
+       ],
+       "afirmacao": "Um eletricista reabilitado recebeu certificado para trabalhar como auxiliar administrativo e, depois, fez curso e passou a trabalhar como desenhista. Isso é permitido.",
+       "gabarito": "C",
+       "porque": "O certificado indica atividades possíveis, mas não impede outra para a qual o beneficiário se capacite (art. 92)."
+      }
+     ],
+     "conferido": {
+      "Art. 88.": "f7d88c005351",
+      "Art. 89.": "effc02ac43ab",
+      "Art. 90.": "ac87d7eabb9a",
+      "Art. 91.": "d5e4d324b526",
+      "Art. 92.": "b862bf412ca2"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 94.",
+      "Art. 96.",
+      "Art. 97.",
+      "Art. 98.",
+      "Art. 99."
+     ],
+     "ref": "arts. 94 e 96 a 99 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 94.</strong> Para benefícios do Regime Geral ou do serviço público, é assegurada a contagem recíproca do tempo de contribuição na atividade privada, rural e urbana, e do tempo de contribuição ou de serviço na administração pública, com compensação financeira entre os sistemas. A compensação é feita ao sistema a que o interessado está vinculado ao requerer o benefício, pelos demais (§ 1º). Para regime próprio, não conta o período recolhido na alíquota reduzida do art. 21, § 2º, da Lei 8.212, salvo complementação (§ 2º). O art. 95 foi revogado.",
+      "<strong>Art. 96, incisos I a V.</strong> O tempo é contado pela legislação pertinente, sem contagem em dobro ou em outras condições especiais (I); é vedado somar serviço público e atividade privada concomitantes (II); o tempo usado para aposentadoria em um sistema não é contado por outro (III); o tempo anterior ou posterior à obrigatoriedade de filiação só conta com indenização, juros de 0,5% ao mês capitalizados anualmente e multa de 10% (IV); é vedada CTC só com tempo de serviço, sem contribuição efetiva, exceto para empregado, doméstico, avulso e, desde 1º de abril de 2003, contribuinte individual que presta serviço a empresa obrigada a arrecadar (V).",
+      "<strong>Art. 96, incisos VI a IX e §§ 1º e 2º.</strong> Regime próprio só emite CTC para ex-servidor (VI). Regime próprio não pode contar tempo do Regime Geral sem CTC, ainda que prestado ao próprio ente (VII). É vedada a desaverbação de tempo em regime próprio que gerou vantagem remuneratória ao servidor em atividade (VIII). Para as aposentadorias especiais (CF, arts. 40, § 4º, e 201, § 1º), o tempo especial reconhecido pelo regime de origem, sem conversão, deve constar da CTC, discriminado de data a data (IX). O inciso V não se aplica ao tempo anterior à EC 20/1998 equiparado por lei a tempo de contribuição (§ 1º). A multa do inciso IV não se aplica ao tempo anterior à obrigatoriedade de filiação (§ 2º).",
+      "<strong>Arts. 97 a 99.</strong> A aposentadoria por tempo de serviço com contagem recíproca era concedida com 25 anos de serviço à mulher e 30 ao homem, ressalvadas as reduções legais (art. 97). O excesso sobre 30 anos (mulher) e 35 (homem) não é considerado para nenhum efeito (art. 98). O benefício é concedido e pago pelo sistema a que o interessado estiver vinculado ao requerê-lo, calculado pela legislação desse sistema (art. 99)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A compensação financeira será feita ao sistema a que o interessado estiver vinculado ao requerer o benefício pelos demais sistemas",
+       "marcas": [
+        "pelos demais sistemas"
+       ],
+       "afirmacao": "Na contagem recíproca, o sistema a que o interessado está vinculado ao requerer o benefício paga compensação aos sistemas em que ele contribuiu antes.",
+       "gabarito": "E",
+       "porque": "É o contrário: os demais sistemas compensam o sistema de vinculação no requerimento (art. 94, § 1º)."
+      },
+      {
+       "trecho": "não será admitida a contagem em dobro ou em outras condições especiais",
+       "marcas": [
+        "contagem em dobro"
+       ],
+       "afirmacao": "Um servidor quer usar no Regime Geral, em dobro, a licença-prêmio não gozada. Pela Lei 8.213/1991, isso não é admitido na contagem recíproca.",
+       "gabarito": "C",
+       "porque": "Não se admite contagem em dobro ou em outras condições especiais (art. 96, I)."
+      },
+      {
+       "trecho": "é vedada a contagem de tempo de serviço público com o de atividade privada, quando concomitantes",
+       "marcas": [
+        "concomitantes"
+       ],
+       "afirmacao": "Uma professora trabalhou ao mesmo tempo numa escola pública e numa particular por 10 anos. Ela pode somar os dois períodos e contar 20 anos na contagem recíproca.",
+       "gabarito": "E",
+       "porque": "É vedado somar tempo de serviço público e de atividade privada concomitantes (art. 96, II)."
+      },
+      {
+       "trecho": "a CTC somente poderá ser emitida por regime próprio de previdência social para ex-servidor",
+       "marcas": [
+        "ex-servidor"
+       ],
+       "afirmacao": "Um servidor efetivo em atividade pede ao regime próprio uma CTC para averbar o tempo no Regime Geral. O regime próprio não pode emiti-la enquanto ele for servidor.",
+       "gabarito": "C",
+       "porque": "O regime próprio só emite CTC para ex-servidor (art. 96, VI)."
+      },
+      {
+       "trecho": "ainda que o tempo de contribuição referente ao RGPS tenha sido prestado pelo servidor público ao próprio ente instituidor",
+       "marcas": [
+        "próprio ente instituidor"
+       ],
+       "afirmacao": "O regime próprio pode computar sem CTC o tempo de contribuição ao Regime Geral que o servidor prestou ao próprio ente.",
+       "gabarito": "E",
+       "porque": "É vedada a contagem recíproca sem CTC, ainda que o tempo tenha sido prestado ao próprio ente (art. 96, VII)."
+      },
+      {
+       "trecho": "será concedido e pago pelo sistema a que o interessado estiver vinculado ao requerê-lo",
+       "marcas": [
+        "vinculado ao requerê-lo"
+       ],
+       "afirmacao": "O benefício resultante de contagem recíproca é pago pelo sistema em que o segurado contribuiu por mais tempo.",
+       "gabarito": "E",
+       "porque": "É pago pelo sistema a que o interessado está vinculado ao requerê-lo, pela legislação desse sistema (art. 99)."
+      }
+     ],
+     "conferido": {
+      "Art. 94.": "0332e6ca1f64",
+      "Art. 96.": "fa21068f0507",
+      "Art. 97.": "0ec8d51426b2",
+      "Art. 98.": "908af4a327b6",
+      "Art. 99.": "f5c66a5eec6e"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "A Constituição assegura a contagem recíproca do tempo de contribuição entre o Regime Geral e os regimes próprios, com compensação financeira (art. 201, § 9º).",
+    "Na Lei 9.796/1999, quem paga a compensação é o regime de origem, e quem recebe é o regime instituidor, que concede o benefício. O Decreto 10.188/2019 regulamenta essa compensação; o BPC tem regulamento próprio (Decreto 6.214/2007).",
+    "A reserva de vagas para reabilitados e pessoas com deficiência nas empresas (art. 93 da Lei 8.213) é tratada no caderno de Direito do Trabalho."
+   ],
+   "macetes": [
+    {
+     "sigla": "ORIGEM PAGA, INSTITUIDOR RECEBE",
+     "texto": "Na compensação financeira, quem concede o benefício é ressarcido pelo regime em que o segurado contribuiu antes."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O tempo já usado para obter aposentadoria no Regime Geral pode ser contado de novo para aposentadoria no regime próprio.",
+    "gabarito": "E",
+    "explicacao": "O tempo usado para aposentadoria em um sistema não é contado pelo outro (art. 96, III)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A CTC pode registrar livremente tempo de serviço sem contribuição para qualquer categoria de segurado.",
+     "certo": "É vedado, salvo para empregado, doméstico, avulso e contribuinte individual que presta serviço a empresa obrigada a arrecadar (art. 96, V).",
+     "fonte": "Questões do app sobre a certidão de tempo de contribuição"
+    },
+    {
+     "errado": "O Serviço Social não pode articular-se com associações e entidades de classe.",
+     "certo": "A diretriz é justamente a participação do beneficiário em articulação com associações e entidades de classe (art. 88, § 3º).",
+     "fonte": "Questões do app sobre o art. 88 da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "beneficios-por-incapacidade-no-regime-geral",
+    "aposentadorias-do-regime-geral",
+    "previdencia-social-e-previdencia-complementar-na-constituicao"
+   ]
+  },
+  {
+   "slug": "disposicoes-gerais-decadencia-e-processo-previdenciario",
+   "titulo": "Disposições gerais dos benefícios, decadência, prescrição, acumulação e processo previdenciário",
+   "grupo": "Serviços, contagem recíproca, processo e pensões especiais",
+   "base": "Arts. 101 a 103-A, 115, 120 a 122, 124 e 126 da Lei 8.213/1991; art. 109, I e § 3º, da Constituição; IN PRES/INSS 128/2022",
+   "tax": [
+    "previdenciario.decadencia-prescricao",
+    "previdenciario.recursos-administrativos",
+    "previdenciario.ampla-defesa-processo-administrativo",
+    "previdenciario.previo-requerimento-administrativo",
+    "previdenciario.competencia-acoes-previdenciarias",
+    "previdenciario.in-128-2022"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-101",
+    "n8213-1991-art-102",
+    "n8213-1991-art-103",
+    "n8213-1991-art-103-a",
+    "n8213-1991-art-115",
+    "n8213-1991-art-120",
+    "n8213-1991-art-121",
+    "n8213-1991-art-122",
+    "n8213-1991-art-124",
+    "n8213-1991-art-126"
+   ],
+   "conceitos": [
+    "exames e tratamento obrigatórios",
+    "isenção de reavaliação por idade",
+    "caducidade dos direitos",
+    "direito adquirido à aposentadoria",
+    "decadência do direito de revisão",
+    "prescrição quinquenal",
+    "decadência da Administração",
+    "descontos no benefício",
+    "devolução de pagamento indevido",
+    "crédito consignado",
+    "ação regressiva",
+    "responsabilidade civil da empresa",
+    "melhor benefício",
+    "acumulação de benefícios",
+    "Conselho de Recursos da Previdência Social",
+    "renúncia ao recurso administrativo",
+    "prévio requerimento administrativo",
+    "competência acidentária"
+   ],
+   "palavras": [
+    "exame medico",
+    "suspensao do beneficio",
+    "tratamento",
+    "cirurgico",
+    "transfusao de sangue",
+    "55 anos",
+    "15 anos",
+    "60 anos",
+    "curatela",
+    "prontuarios do sus",
+    "atendimento domiciliar",
+    "telemedicina",
+    "caducidade",
+    "perda da qualidade de segurado",
+    "direito adquirido",
+    "decadencia",
+    "10 anos",
+    "revisao do ato de concessao",
+    "adi 6096",
+    "primeira prestacao",
+    "prescricao",
+    "cinco anos",
+    "menores incapazes e ausentes",
+    "103-a",
+    "ma-fe",
+    "primeiro pagamento",
+    "descontos",
+    "30 por cento",
+    "parcelas",
+    "divida ativa",
+    "procuradoria-geral federal",
+    "consignado",
+    "45 por cento",
+    "cartao consignado",
+    "biometria",
+    "associacoes",
+    "acao regressiva",
+    "violencia domestica",
+    "responsabilidade civil",
+    "melhor beneficio",
+    "tema 334",
+    "acumulacao",
+    "mais de uma aposentadoria",
+    "abono de permanencia em servico",
+    "seguro-desemprego",
+    "conselho de recursos",
+    "crps",
+    "fator acidentario de prevencao",
+    "renuncia ao recurso",
+    "30 dias",
+    "tema 350",
+    "previo requerimento",
+    "sumula vinculante 21",
+    "deposito previo",
+    "sumula 501",
+    "justica estadual",
+    "competencia delegada",
+    "in 128"
+   ],
+   "resumo": "Esta parte da Lei 8.213 reúne regras que valem para todos os benefícios. Quem recebe benefício por incapacidade deve fazer os exames, a reabilitação e o tratamento indicados pela Previdência, sob pena de suspensão. A perda da qualidade de segurado extingue os direitos, mas preserva a aposentadoria cujos requisitos já estavam cumpridos. O segurado tem <strong>10 anos de decadência</strong> para pedir a revisão do ato de concessão, e as parcelas vencidas prescrevem em <strong>5 anos</strong>. A Previdência tem 10 anos para anular atos favoráveis ao beneficiário, salvo má-fé. A lei limita os descontos no benefício e lista as acumulações proibidas, e o Conselho de Recursos julga os recursos contra decisões do INSS. Para ir à Justiça, o segurado precisa, em regra, ter feito antes o pedido ao INSS, sem precisar esgotar os recursos administrativos.",
+   "esquema": {
+    "rotulo": "acumulações proibidas (art. 124), salvo direito adquirido",
+    "html": "<table><thead><tr><th>Não se recebe junto</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Aposentadoria e auxílio-doença</strong></td><td>I</td></tr><tr><td><strong>Mais de uma aposentadoria</strong></td><td>II</td></tr><tr><td><strong>Aposentadoria e abono de permanência em serviço</strong></td><td>III</td></tr><tr><td><strong>Salário-maternidade e auxílio-doença</strong></td><td>IV</td></tr><tr><td><strong>Mais de um auxílio-acidente</strong></td><td>V</td></tr><tr><td><strong>Mais de uma pensão deixada por cônjuge ou companheiro</strong></td><td>VI, com opção pela mais vantajosa</td></tr><tr><td><strong>Seguro-desemprego e benefício de prestação continuada</strong></td><td>Parágrafo único: admitidos com pensão por morte ou auxílio-acidente</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Decadência do direito de revisão",
+      "o_que_e": "Prazo de 10 anos para o segurado pedir a revisão do ato de concessão do benefício.",
+      "atencao": "O STF afastou esse prazo para o indeferimento, o cancelamento e a cessação (ADI 6.096)."
+     },
+     {
+      "nome": "Prescrição quinquenal",
+      "o_que_e": "Perda das parcelas vencidas há mais de 5 anos, sem atingir o direito ao benefício.",
+      "atencao": "Não corre contra menores, incapazes e ausentes, na forma do Código Civil."
+     },
+     {
+      "nome": "Ação regressiva",
+      "o_que_e": "Ação da Previdência contra o responsável para recuperar o que pagou por acidente de trabalho causado por negligência ou por violência doméstica contra a mulher."
+     },
+     {
+      "nome": "Direito ao melhor benefício",
+      "o_que_e": "Cálculo pelas condições da data em que os requisitos foram cumpridos, se mais vantajoso, para quem continuou trabalhando."
+     },
+     {
+      "nome": "Conselho de Recursos da Previdência Social",
+      "o_que_e": "Órgão que julga os recursos contra decisões do INSS e outras demandas previdenciárias."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 101.",
+      "Art. 102.",
+      "Art. 103.",
+      "Art. 103-A."
+     ],
+     "ref": "arts. 101 a 103-A da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 101, caput e §§ 1º e 2º.</strong> Quem recebe auxílio por incapacidade temporária, auxílio-acidente ou aposentadoria por incapacidade permanente, e o pensionista inválido, com benefício judicial ou administrativo, deve submeter-se, sob pena de suspensão, a exame médico da Previdência (I), ao processo de reabilitação profissional prescrito e custeado por ela (II) e ao tratamento que ela oferece, salvo o cirúrgico e a transfusão de sangue, que são facultativos (III). Respeitados os §§ 4º a 6º do art. 43, o aposentado por incapacidade permanente e o pensionista inválido que não voltaram à atividade ficam isentos do exame aos 55 anos, passados 15 anos da concessão (§ 1º, I), ou aos 60 anos (II). A isenção não vale para verificar a necessidade do acréscimo de 25% (§ 2º, I), a recuperação a pedido do próprio aposentado (II) ou para subsidiar o juiz na curatela (III).",
+      "<strong>Art. 101, §§ 4º a 9º.</strong> A perícia tem acesso aos prontuários do SUS, com anuência do periciado e sigilo (§ 4º). O segurado com dificuldade de locomoção tem atendimento domiciliar e hospitalar da perícia médica e social quando o deslocamento lhe impõe ônus desproporcional (§ 5º). As avaliações podem usar telemedicina ou análise documental, observados os arts. 60, §§ 11-A e 14, e 30, § 12, da Lei 11.907/2009 (§ 6º). Vaga de perícia presencial cancelada pode ser preenchida por telemedicina, antecipando atendimento futuro pela ordem da fila (§ 8º), conforme a disponibilidade do periciando (§ 9º). O § 3º foi vetado e o § 7º revogado.",
+      "<strong>Art. 102.</strong> A perda da qualidade de segurado importa caducidade dos direitos inerentes a ela. Não prejudica a aposentadoria cujos requisitos já tinham sido cumpridos, pela lei da época (§ 1º). Não há pensão por morte para dependentes de quem morre depois de perder a qualidade de segurado, salvo se ele já tinha cumprido os requisitos de uma aposentadoria (§ 2º).",
+      "<strong>Arts. 103 e 103-A.</strong> É de 10 anos a decadência do direito do segurado de revisar o ato de concessão do benefício, contada do primeiro dia do mês seguinte ao do recebimento da primeira prestação ou da data em que ela deveria ter sido paga com o valor revisto (I), ou do dia em que tomar conhecimento da decisão administrativa (II). O STF, na ADI 6.096, declarou inconstitucional a extensão do prazo ao indeferimento, ao cancelamento e à cessação. As parcelas vencidas, restituições e diferenças prescrevem em 5 anos da data em que deveriam ter sido pagas, salvo o direito dos menores, incapazes e ausentes (parágrafo único). O direito da Previdência de anular atos favoráveis aos beneficiários decai em 10 anos da prática do ato, salvo má-fé comprovada (art. 103-A); com efeitos patrimoniais contínuos, conta do primeiro pagamento (§ 1º); qualquer medida da autoridade que impugne a validade do ato vale como exercício do direito de anular (§ 2º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "exceto o cirúrgico e a transfusão de sangue, que são facultativos",
+       "marcas": [
+        "facultativos"
+       ],
+       "afirmacao": "O aposentado por incapacidade permanente que se recusa a fazer a cirurgia indicada pela perícia tem o benefício suspenso.",
+       "gabarito": "E",
+       "porque": "O tratamento cirúrgico e a transfusão de sangue são facultativos (art. 101, III)."
+      },
+      {
+       "trecho": "II - após completarem sessenta anos de idade",
+       "marcas": [
+        "sessenta anos"
+       ],
+       "afirmacao": "Um aposentado por incapacidade permanente de 61 anos, que não voltou a trabalhar, é convocado para reavaliar se continua incapaz. Ele está isento desse exame.",
+       "gabarito": "C",
+       "porque": "Ficam isentos do exame o aposentado e o pensionista inválido com 60 anos ou mais (art. 101, § 1º, II), salvo as finalidades do § 2º."
+      },
+      {
+       "trecho": "não prejudica o direito à aposentadoria para cuja concessão tenham sido preenchidos todos os requisitos",
+       "marcas": [
+        "não prejudica"
+       ],
+       "afirmacao": "Quem reuniu todos os requisitos da aposentadoria por idade, parou de contribuir e só pediu o benefício anos depois, já sem a qualidade de segurado, perdeu o direito.",
+       "gabarito": "E",
+       "porque": "A perda da qualidade de segurado não prejudica a aposentadoria cujos requisitos já estavam cumpridos (art. 102, § 1º)."
+      },
+      {
+       "trecho": "Prescreve em cinco anos, a contar da data em que deveriam ter sido pagas",
+       "marcas": [
+        "cinco anos"
+       ],
+       "afirmacao": "Prescreve em 10 anos, a contar da data em que deveriam ter sido pagas, a ação para cobrar prestações vencidas devidas pela Previdência.",
+       "gabarito": "E",
+       "porque": "O prazo prescricional é de 5 anos; os 10 anos são da decadência do direito de revisão (art. 103, parágrafo único)."
+      },
+      {
+       "trecho": "decai em dez anos, contados da data em que foram praticados, salvo comprovada má-fé",
+       "marcas": [
+        "dez anos"
+       ],
+       "afirmacao": "O INSS descobre, 11 anos depois, erro administrativo na concessão de uma aposentadoria, sem má-fé do segurado. Ele não pode mais anular o ato.",
+       "gabarito": "C",
+       "porque": "O direito de anular atos favoráveis decai em 10 anos, salvo má-fé comprovada (art. 103-A)."
+      }
+     ],
+     "conferido": {
+      "Art. 101.": "6550f3e351a6",
+      "Art. 102.": "77f9ad41401a",
+      "Art. 103.": "d23cecda353f",
+      "Art. 103-A.": "3f887e43b5d3"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 115.",
+      "Art. 120.",
+      "Art. 121.",
+      "Art. 122.",
+      "Art. 124.",
+      "Art. 126."
+     ],
+     "ref": "arts. 115, 120 a 122, 124 e 126 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 115, caput e incisos.</strong> Podem ser descontados do benefício: contribuições devidas pelo segurado (I); pagamento administrativo ou judicial indevido ou além do devido, de benefício previdenciário ou assistencial, inclusive por revogação de decisão judicial, até 30% do benefício (II); imposto de renda na fonte (III); pensão alimentícia judicial (IV); e, com autorização expressa, empréstimos, financiamentos e arrendamentos de instituições financeiras ou de entidades de previdência complementar, até 45% do benefício, sendo 35% para empréstimos, financiamentos e arrendamentos, 5% para cartão de crédito consignado e 5% para cartão consignado de benefício (VI). O inciso V e as alíneas a e b do inciso VI foram revogados, e o inciso VII foi vetado.",
+      "<strong>Art. 115, §§ 1º a 13.</strong> O desconto do pagamento indevido é feito em parcelas, salvo má-fé (§ 1º), e prevalece sobre o consignado (§ 2º). Os créditos de benefício pago indevidamente, inclusive por revogação de decisão judicial, são inscritos em dívida ativa pela Procuradoria-Geral Federal, para execução fiscal (§ 3º), assim como o terceiro que sabia ou devia saber da fraude, dolo ou coação, identificado em procedimento administrativo (§ 4º), disciplinado em regulamento conforme a Lei 9.784/1999 e o art. 27 da LINDB (§ 5º). São vedados descontos de mensalidades ou contribuições a associações, sindicatos, entidades de classe e organizações de aposentados, ainda que autorizados (§ 8º). Os benefícios ficam bloqueados para consignado e só são desbloqueados com autorização prévia, pessoal e específica por biometria e por assinatura eletrônica qualificada ou autenticação de múltiplos fatores (§ 9º). O beneficiário é informado da contratação e pode contestá-la (§ 10). Cada contratação bloqueia novas operações (§ 12), e é vedado contratar ou desbloquear por procuração ou central telefônica (§ 13). Os §§ 6º e 7º não estão em vigor, e o § 11 foi vetado.",
+      "<strong>Arts. 120 a 122.</strong> A Previdência ajuíza ação regressiva contra os responsáveis em caso de negligência quanto às normas de segurança e higiene do trabalho (I) e de violência doméstica e familiar contra a mulher (II). O pagamento das prestações não exclui a responsabilidade civil da empresa ou do agressor (art. 121). O segurado que completou 35 anos de serviço (homem) ou 30 (mulher) e continuou trabalhando tem direito à aposentadoria pelas condições da data em que cumpriu os requisitos, se mais vantajosa (art. 122).",
+      "<strong>Arts. 124 e 126.</strong> Salvo direito adquirido, não se acumulam aposentadoria e auxílio-doença (I), mais de uma aposentadoria (II), aposentadoria e abono de permanência em serviço (III), salário-maternidade e auxílio-doença (IV), mais de um auxílio-acidente (V) e mais de uma pensão de cônjuge ou companheiro, com opção pela mais vantajosa (VI). O seguro-desemprego não se acumula com benefício de prestação continuada, exceto pensão por morte ou auxílio-acidente (parágrafo único). O Conselho de Recursos da Previdência Social julga, entre outras demandas: recursos das decisões do INSS nos processos dos beneficiários (art. 126, I); contestações e recursos sobre o Fator Acidentário de Prevenção (II); recursos sobre a atividade rural do segurado especial e o CNIS (III); e recursos sobre a compensação financeira da Lei 9.796/1999 e a fiscalização dos regimes próprios da Lei 9.717/1998 (IV). Os §§ 1º e 2º foram revogados. A ação judicial com pedido idêntico ao do processo administrativo importa renúncia ao recurso e desistência do recurso interposto (§ 3º). Os recursos dos incisos I e III podem ir direto ao Conselho, que notifica o INSS para reanalisar em até 30 dias (§ 4º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "em valor que não exceda 30% (trinta por cento) da sua importância",
+       "marcas": [
+        "30% (trinta por cento)"
+       ],
+       "afirmacao": "Constatado pagamento indevido de benefício, sem má-fé, o INSS pode descontar de uma só vez, do benefício em manutenção, todo o valor pago a mais.",
+       "gabarito": "E",
+       "porque": "O desconto não pode passar de 30% do benefício e é feito em parcelas, salvo má-fé (art. 115, II e § 1º)."
+      },
+      {
+       "trecho": "ainda que com a autorização expressa do beneficiário",
+       "marcas": [
+        "ainda que com a autorização expressa"
+       ],
+       "afirmacao": "Uma associação de aposentados pede ao INSS que desconte a mensalidade de um associado, que assinou autorização expressa. O desconto é vedado.",
+       "gabarito": "C",
+       "porque": "São vedados descontos destinados a associações, sindicatos, entidades de classe e organizações de aposentados, ainda que autorizados (art. 115, § 8º)."
+      },
+      {
+       "trecho": "II - violência doméstica e familiar contra a mulher",
+       "marcas": [
+        "violência doméstica"
+       ],
+       "afirmacao": "A Previdência paga pensão por morte aos filhos de uma segurada morta pelo marido. Ela deve ajuizar ação regressiva contra o agressor.",
+       "gabarito": "C",
+       "porque": "A ação regressiva cabe nos casos de violência doméstica e familiar contra a mulher (art. 120, II)."
+      },
+      {
+       "trecho": "VI - mais de uma pensão deixada por cônjuge ou companheiro, ressalvado o direito de opção pela mais vantajosa",
+       "marcas": [
+        "mais de uma pensão"
+       ],
+       "afirmacao": "Uma viúva pode acumular a pensão deixada pelo primeiro marido com a deixada pelo segundo, ambas do Regime Geral.",
+       "gabarito": "E",
+       "porque": "É vedado receber mais de uma pensão de cônjuge ou companheiro no Regime Geral, ressalvada a opção pela mais vantajosa (art. 124, VI)."
+      },
+      {
+       "trecho": "exceto pensão por morte ou auxílio-acidente",
+       "marcas": [
+        "pensão por morte ou auxílio-acidente"
+       ],
+       "afirmacao": "Um trabalhador demitido que recebe pensão por morte do pai pode receber também o seguro-desemprego.",
+       "gabarito": "C",
+       "porque": "O seguro-desemprego não se acumula com benefício continuado, exceto pensão por morte ou auxílio-acidente (art. 124, parágrafo único)."
+      },
+      {
+       "trecho": "importa renúncia ao direito de recorrer na esfera administrativa e desistência do recurso interposto",
+       "marcas": [
+        "renúncia"
+       ],
+       "afirmacao": "Ajuizada ação com pedido idêntico ao do processo administrativo, o recurso administrativo fica apenas suspenso até o trânsito em julgado.",
+       "gabarito": "E",
+       "porque": "A ação com pedido idêntico importa renúncia ao direito de recorrer e desistência do recurso interposto (art. 126, § 3º)."
+      },
+      {
+       "trecho": "no prazo máximo de 30 (trinta) dias",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "Uma segurada recorre diretamente ao Conselho de Recursos da Previdência Social contra o indeferimento do benefício. O INSS é notificado eletronicamente e tem até 30 dias para reanalisar a decisão.",
+       "gabarito": "C",
+       "porque": "Os recursos dos incisos I e III podem ir direto ao Conselho, que notifica o INSS para reanalisar em até 30 dias (art. 126, § 4º)."
+      }
+     ],
+     "conferido": {
+      "Art. 115.": "e433a338b856",
+      "Art. 120.": "9c0f6d307f0d",
+      "Art. 121.": "9028351c6613",
+      "Art. 122.": "ecb6facef956",
+      "Art. 124.": "4e07120becf2",
+      "Art. 126.": "8f8dd4f37c16"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Tema 350 (RE 631.240, 2014)",
+     "texto": "Em regra, a ação de concessão de benefício exige prévio requerimento administrativo, mas não o esgotamento da via administrativa. O requerimento é dispensado quando o entendimento do INSS é notório e reiteradamente contrário ao pedido, e nas ações de revisão, restabelecimento ou manutenção de benefício já concedido, salvo se depender de fato ainda não levado ao INSS."
+    },
+    {
+     "quem": "STF · ADI 6.096 (2020)",
+     "texto": "É inconstitucional estender a decadência do art. 103 ao indeferimento, ao cancelamento e à cessação do benefício: o núcleo do direito fundamental ao benefício não decai."
+    },
+    {
+     "quem": "STF · Tema 313 (RE 626.489, 2013)",
+     "texto": "O prazo decadencial de 10 anos vale também para benefícios concedidos antes da MP 1.523-9/1997, contado a partir de 1º de agosto de 1997."
+    },
+    {
+     "quem": "STF · Tema 334 (RE 630.501, 2013)",
+     "texto": "O segurado tem direito ao melhor benefício, calculado pelas condições de qualquer data em que já tinha cumprido os requisitos, respeitadas a decadência e a prescrição."
+    },
+    {
+     "quem": "STF · Súmula Vinculante 21",
+     "texto": "É inconstitucional exigir depósito ou arrolamento prévios de dinheiro ou bens para admitir recurso administrativo."
+    },
+    {
+     "quem": "STF · Súmula 501",
+     "texto": "As causas de acidente do trabalho, ainda que contra a União, suas autarquias, empresas públicas ou sociedades de economia mista, são da Justiça estadual, nas duas instâncias."
+    },
+    {
+     "quem": "STJ · Tema 692 (revisado em 2022)",
+     "texto": "Revogada a tutela antecipada, o autor devolve os valores de benefício recebidos, o que pode ser feito por desconto de até 30% do benefício que ainda receba."
+    }
+   ],
+   "detalhes": [
+    "Nas causas comuns contra o INSS, a competência é da Justiça Federal (CF, art. 109, I). A lei pode delegar à Justiça estadual as causas em que a comarca do segurado não seja sede de vara federal (art. 109, § 3º), e o recurso vai ao TRF. Nas causas acidentárias, a competência é da Justiça estadual, e o recurso vai ao TJ.",
+    "A IN PRES/INSS 128/2022 disciplina procedimentos e rotinas do INSS. Como ato infralegal, não pode contrariar a lei nem o Regulamento (Decreto 3.048/1999). Ela prevê que o INSS conceda o benefício mais vantajoso a que o requerente fizer jus, cabendo ao servidor orientá-lo nesse sentido. A documentação incompleta não justifica recusar o protocolo do requerimento.",
+    "Antes de cancelar benefício por suspeita de fraude, o INSS deve notificar o beneficiário e assegurar contraditório e ampla defesa."
+   ],
+   "macetes": [
+    {
+     "sigla": "10 PARA REVISAR, 5 PARA COBRAR",
+     "texto": "Decadência de 10 anos para revisar a concessão; prescrição de 5 anos para as parcelas vencidas."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Segundo o STF, para pedir aposentadoria em juízo, o segurado precisa esgotar todos os recursos administrativos no INSS.",
+    "gabarito": "E",
+    "explicacao": "O STF exige, em regra, o prévio requerimento administrativo, e não o esgotamento da via administrativa (Tema 350)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O INSS pode exigir depósito prévio para admitir recurso administrativo do segurado.",
+     "certo": "A Súmula Vinculante 21 declara inconstitucional essa exigência.",
+     "fonte": "Questões do app sobre o processo administrativo previdenciário"
+    },
+    {
+     "errado": "A ação acidentária contra o INSS tramita na Justiça Federal, porque o réu é autarquia federal.",
+     "certo": "As causas de acidente do trabalho são da Justiça estadual (CF, art. 109, I; STF, Súmula 501).",
+     "fonte": "Questões do app sobre a competência nas ações previdenciárias"
+    },
+    {
+     "errado": "O prazo de decadência do art. 103 impede renovar, depois de 10 anos, o pedido de benefício indeferido.",
+     "certo": "O STF afastou a decadência sobre indeferimento, cancelamento e cessação (ADI 6.096).",
+     "fonte": "Questões do app sobre a decadência previdenciária"
+    }
+   ],
+   "relacionados": [
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "beneficios-por-incapacidade-no-regime-geral",
+    "pensao-por-morte-e-auxilio-reclusao"
+   ]
+  },
+  {
+   "slug": "pensoes-especiais-anistiado-politico-e-seguro-defeso",
+   "titulo": "Pensões especiais, reparação do anistiado político e seguro-defeso do pescador artesanal",
+   "grupo": "Serviços, contagem recíproca, processo e pensões especiais",
+   "base": "Doutrina; ADCT, arts. 53, 54 e 54-A; Leis 7.070/1982, 7.986/1989, 8.059/1990, 9.422/1996, 9.425/1996, 10.559/2002, 10.779/2003, 11.520/2007 e 13.985/2020",
+   "tax": [
+    "previdenciario.pensao-talidomida",
+    "previdenciario.pensao-ex-combatente",
+    "previdenciario.pensao-hanseniase",
+    "previdenciario.pensao-seringueiros",
+    "previdenciario.pensao-hemodialise-caruaru",
+    "previdenciario.pensao-cesio-137",
+    "previdenciario.pensao-zika",
+    "previdenciario.anistiado-politico",
+    "previdenciario.seguro-defeso"
+   ],
+   "dispositivos": [],
+   "conceitos": [
+    "pensão especial de natureza indenizatória",
+    "síndrome da talidomida",
+    "ex-combatente da Segunda Guerra",
+    "soldados da borracha",
+    "hanseníase e isolamento compulsório",
+    "vítimas de Caruaru",
+    "vítimas do césio 137",
+    "síndrome congênita do Zika",
+    "reparação econômica do anistiado",
+    "prestação única e prestação mensal",
+    "seguro-defeso",
+    "pescador artesanal"
+   ],
+   "palavras": [
+    "pensao especial",
+    "indenizatoria",
+    "vitalicia",
+    "intransferivel",
+    "talidomida",
+    "lei 7070",
+    "pontos",
+    "dependencia",
+    "capacidade laborativa",
+    "ex-combatente",
+    "segunda guerra",
+    "segundo-tenente",
+    "adct 53",
+    "a qualquer tempo",
+    "inacumulavel",
+    "direito de opcao",
+    "viuva",
+    "seringueiros",
+    "soldados da borracha",
+    "adct 54",
+    "dois salarios minimos",
+    "carentes",
+    "ec 78",
+    "vinte e cinco mil",
+    "lei 7986",
+    "hanseniase",
+    "hospitais-colonia",
+    "isolamento compulsorio",
+    "31 de dezembro de 1986",
+    "lei 11520",
+    "caruaru",
+    "hemodialise",
+    "lei 9422",
+    "um salario minimo",
+    "cesio 137",
+    "goiania",
+    "1987",
+    "lei 9425",
+    "zika",
+    "microcefalia",
+    "lei 13985",
+    "bpc",
+    "anistiado politico",
+    "lei 10559",
+    "prestacao unica",
+    "trinta salarios minimos",
+    "cem mil reais",
+    "prestacao mensal permanente e continuada",
+    "sumula 624",
+    "imposto de renda",
+    "seguro-defeso",
+    "pescador artesanal",
+    "lei 10779",
+    "registro geral da atividade pesqueira",
+    "um ano",
+    "ibama"
+   ],
+   "resumo": "Ao lado dos benefícios do Regime Geral, o INSS paga <strong>pensões especiais</strong> criadas por leis próprias para reparar danos pelos quais o Estado responde. Elas têm natureza indenizatória, por isso não exigem contribuição nem carência e, em regra, não impedem benefícios previdenciários. As principais são as da síndrome da talidomida, dos ex-combatentes, dos seringueiros, das pessoas isoladas por hanseníase, das vítimas de Caruaru e do césio 137, e das crianças com síndrome congênita do Zika. O anistiado político recebe <strong>reparação econômica</strong> em prestação única ou mensal, nunca as duas. O pescador artesanal recebe <strong>seguro-defeso</strong> de um salário mínimo por mês enquanto a pesca está proibida para preservar as espécies.",
+   "esquema": {
+    "rotulo": "as pensões especiais em uma tabela",
+    "html": "<table><thead><tr><th>Pensão</th><th>Quem recebe</th><th>Pontos que a prova cobra</th></tr></thead><tbody><tr><td><strong>Talidomida (Lei 7.070/1982)</strong></td><td>Portadores da síndrome da talidomida</td><td>Mensal, vitalícia e intransferível; valor em pontos pelo grau de dependência; não é reduzida se o beneficiário ganhar capacidade</td></tr><tr><td><strong>Ex-combatente (ADCT, art. 53; Lei 8.059/1990)</strong></td><td>Quem participou de operações bélicas na Segunda Guerra</td><td>Igual à deixada por segundo-tenente; requerida a qualquer tempo; acumula com benefício previdenciário</td></tr><tr><td><strong>Seringueiros (ADCT, art. 54; Lei 7.986/1989)</strong></td><td>Soldados da borracha carentes</td><td>Dois salários mínimos, vitalícia, transferível a dependentes carentes; a EC 78/2014 somou indenização de R$ 25 mil</td></tr><tr><td><strong>Hanseníase (Lei 11.520/2007)</strong></td><td>Pessoas isoladas e internadas compulsoriamente em hospitais-colônia até 31/12/1986</td><td>Vitalícia; reajuste pelos índices do Regime Geral; não acumula com indenização da União pelo mesmo fato, ressalvada a opção</td></tr><tr><td><strong>Caruaru (Lei 9.422/1996)</strong></td><td>Familiares das vítimas fatais da contaminação de pacientes em hemodiálise no Instituto de Doenças Renais de Caruaru, Pernambuco, entre fevereiro e março de 1996</td><td>Um salário mínimo; não depende de contribuição nem de carência; extingue-se com a morte do último beneficiário</td></tr><tr><td><strong>Césio 137 (Lei 9.425/1996)</strong></td><td>Vítimas do acidente radiológico com césio 137 em Goiânia, Goiás, em 1987</td><td>Vitalícia, a título de indenização especial paga pela União; não se refere a acidente em usina nuclear, como Angra dos Reis</td></tr><tr><td><strong>Zika (Lei 13.985/2020)</strong></td><td>Crianças com síndrome congênita do Zika</td><td>Mensal, vitalícia e intransferível; não acumula com o BPC nem com indenização da União pelos mesmos fatos</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Pensão especial",
+      "o_que_e": "Prestação paga pela União por lei própria, como reparação, sem relação com contribuições ao Regime Geral.",
+      "atencao": "Não depende de qualidade de segurado nem de carência."
+     },
+     {
+      "nome": "Reparação econômica do anistiado",
+      "o_que_e": "Indenização da Lei 10.559/2002 ao perseguido por motivação exclusivamente política, em prestação única ou mensal, permanente e continuada.",
+      "atencao": "As duas formas não se acumulam."
+     },
+     {
+      "nome": "Período de defeso",
+      "o_que_e": "Período em que a pesca de certas espécies é proibida para sua preservação."
+     },
+     {
+      "nome": "Seguro-defeso",
+      "o_que_e": "Seguro-desemprego de um salário mínimo por mês ao pescador profissional artesanal durante o defeso.",
+      "atencao": "É requerido e pago pelo INSS."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "juris": [
+    {
+     "quem": "STJ · Súmula 624",
+     "texto": "É possível cumular a indenização por dano moral com a reparação econômica da Lei 10.559/2002 (Lei da Anistia Política)."
+    }
+   ],
+   "detalhes": [
+    "Talidomida: a pensão tem natureza indenizatória, não prejudica benefícios previdenciários e não pode ser reduzida por aquisição posterior de capacidade laborativa. O valor é fixado em pontos, conforme a dependência do beneficiário para trabalho, deambulação, higiene e alimentação.",
+    "Ex-combatente: morto o titular, a viúva, a companheira ou o dependente recebem pensão de valor igual, de forma proporcional (ADCT, art. 53, III). A pensão é inacumulável com outros rendimentos dos cofres públicos, exceto benefícios previdenciários, ressalvado o direito de opção.",
+    "Zika: o pedido é feito ao INSS, com perícia por perito médico federal sobre a relação entre a síndrome e o vírus. A Lei 13.985/2020 também fixou licença-maternidade e salário-maternidade de 180 dias para as mães dessas crianças. O regime foi alterado depois por lei posterior; confira a redação vigente.",
+    "Anistiado: a prestação única é de 30 salários mínimos por ano de punição, até R$ 100 mil. A aposentadoria excepcional de anistiado paga pelo INSS é mantida até ser substituída pela prestação mensal. Os valores pagos por anistia não sofrem imposto de renda.",
+    "Seguro-defeso: exige registro como pescador profissional artesanal no Registro Geral da Atividade Pesqueira há pelo menos um ano e atividade ininterrupta como segurado especial. Não se recebe mais de um seguro-defeso no mesmo ano por defesos de espécies distintas. Não se acumula com benefício previdenciário ou assistencial continuado, exceto pensão por morte e auxílio-acidente. O órgão ambiental fixa o defeso, mas é o INSS que recebe, processa e habilita os pedidos."
+   ],
+   "macetes": [
+    {
+     "sigla": "INDENIZAÇÃO NÃO É PREVIDÊNCIA",
+     "texto": "Pensão especial não exige contribuição nem carência e, em regra, convive com aposentadoria."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A EC 78/2014 substituiu a pensão dos seringueiros por indenização em parcela única de vinte e cinco mil reais.",
+    "gabarito": "E",
+    "explicacao": "A EC 78/2014 assegurou a indenização de R$ 25 mil além da pensão vitalícia de dois salários mínimos, que foi mantida (ADCT, arts. 54 e 54-A)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "A pensão especial de ex-combatente deve ser requerida em cinco anos, sob pena de decadência.",
+     "certo": "Pode ser requerida a qualquer tempo (ADCT, art. 53, II).",
+     "fonte": "Questões do app sobre a pensão de ex-combatente"
+    },
+    {
+     "errado": "Só tem direito à pensão das vítimas do césio 137 quem era segurado do Regime Geral na data do acidente.",
+     "certo": "A pensão é indenização especial paga pela União e não depende de filiação nem de contribuição.",
+     "fonte": "Questões do app sobre a pensão do césio 137"
+    },
+    {
+     "errado": "A pensão especial dos seringueiros se extingue com a morte do titular.",
+     "certo": "É transferível aos dependentes reconhecidamente carentes (ADCT, art. 54, § 2º).",
+     "fonte": "Questões do app sobre a pensão dos seringueiros"
+    }
+   ],
+   "relacionados": [
+    "beneficio-de-prestacao-continuada-bpc",
+    "prestacoes-dependentes-e-carencia-no-regime-geral",
+    "salario-familia-e-salario-maternidade"
    ]
   }
  ]
