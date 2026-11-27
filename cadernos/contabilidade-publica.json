@@ -3084,31 +3084,97 @@
    "tax": [
     "contabilidade-publica.transacoes-setor-publico"
    ],
+   "dispositivos": [],
    "conceitos": [
     "transações no setor público",
     "transação sem contraprestação",
     "transação com contraprestação"
    ],
    "palavras": [
-    "econômico-financeira",
+    "economico-financeira",
     "administrativa",
-    "nbc t 16.4",
+    "nbc t 16 4",
     "nbc tsp 01",
     "nbc tsp 02",
-    "condição",
-    "restrição",
-    "estipulação",
+    "condicao",
+    "restricao",
+    "estipulacao",
     "tributos",
-    "transferências",
-    "doações",
-    "variação qualitativa",
-    "variação quantitativa"
+    "transferencias",
+    "doacoes",
+    "variacao qualitativa",
+    "variacao quantitativa"
    ],
-   "resumo": "Na formulação tradicional da NBC T 16.4 (Resolução CFC 1.131/2008), <strong>transações no setor público</strong> são os atos e os fatos que promovem alterações qualitativas ou quantitativas, efetivas ou potenciais, no patrimônio das entidades do setor público. Quanto à natureza, a transação é <strong>econômico-financeira</strong> quando se origina de fatos que afetam o patrimônio público, em decorrência ou não da execução do orçamento, podendo provocar alterações qualitativas ou quantitativas, efetivas ou potenciais; é <strong>administrativa</strong> quando não afeta o patrimônio público e decorre de atos administrativos voltados ao cumprimento das metas programadas e à manutenção da entidade. As variações patrimoniais quantitativas aumentam ou diminuem o patrimônio líquido; as qualitativas alteram a composição dos elementos patrimoniais sem afetar o patrimônio líquido. As NBC TSP organizam as transações pelo critério da <strong>contraprestação</strong>. Na transação <strong>com contraprestação</strong> (NBC TSP 02), a entidade recebe ativos ou serviços, ou extingue passivos, e entrega diretamente à outra parte valor aproximadamente igual em troca, como na venda de bens ou na prestação de serviço cobrada por tarifa. Na transação <strong>sem contraprestação</strong> (NBC TSP 01), a entidade recebe valor sem dar diretamente em troca valor aproximadamente igual, ou dá valor sem receber em troca valor aproximadamente igual: tributos, transferências, doações e multas são os exemplos típicos. No setor público predominam as transações sem contraprestação, porque o governo financia serviços universais com tributos, e não com preços.",
+   "para_entender": [
+    {
+     "texto": "<strong>Variações qualitativas e quantitativas:</strong> o que muda ou não o patrimônio líquido.",
+     "tema": "variacoes-patrimoniais-qualitativas-e-quantitativas"
+    },
+    {
+     "texto": "<strong>Tributos na contabilidade pública:</strong> a VPA tributária no fato gerador.",
+     "tema": "tributos-e-contribuicoes-na-contabilidade-publica"
+    }
+   ],
+   "resumo": "Na formulação tradicional da NBC T 16.4 (Resolução CFC 1.131/2008), <strong>transações no setor público</strong> são os atos e os fatos que promovem alterações qualitativas ou quantitativas, efetivas ou potenciais, no patrimônio das entidades do setor público. A alteração <strong>quantitativa</strong> aumenta ou diminui o patrimônio líquido; a <strong>qualitativa</strong> muda a composição dos elementos patrimoniais sem afetar o patrimônio líquido. <strong>Efetiva</strong> é a alteração já ocorrida; <strong>potencial</strong>, a que pode vir a ocorrer, como a de um contrato assinado e ainda não executado. Quanto à <strong>natureza</strong>, a transação é <strong>econômico-financeira</strong> quando se origina de fatos que afetam o patrimônio público, em decorrência ou não da execução do orçamento; é <strong>administrativa</strong> quando não afeta o patrimônio público e decorre de atos administrativos voltados ao cumprimento das metas programadas e à manutenção da entidade. As NBC TSP organizam as transações por outro critério, o da <strong>contraprestação</strong>, que é a entrega de valor em troca. Na transação <strong>com contraprestação</strong> (NBC TSP 02), a entidade recebe ativos ou serviços, ou extingue passivos, e entrega diretamente à outra parte valor aproximadamente igual em troca. Na transação <strong>sem contraprestação</strong> (NBC TSP 01), a entidade recebe valor sem dar diretamente em troca valor aproximadamente igual, ou dá valor sem receber em troca valor aproximadamente igual. Os exemplos de cada espécie estão na tabela. No setor público predominam as transações sem contraprestação, porque o governo financia serviços universais com tributos, e não com preços.",
    "esquema": {
     "rotulo": "as duas classificações lado a lado",
     "html": "<table><thead><tr><th>Critério</th><th>Espécie</th><th>Exemplo</th></tr></thead><tbody><tr><td rowspan=\"2\"><strong>Natureza</strong> (NBC T 16.4)</td><td>econômico-financeira: afeta o patrimônio, com ou sem execução orçamentária</td><td>arrecadação de tributo; compra de veículo; depreciação</td></tr><tr><td>administrativa: não afeta o patrimônio</td><td>atos de gestão voltados às metas, como a assinatura de um contrato ainda não executado, controlada em contas próprias</td></tr><tr><td rowspan=\"2\"><strong>Contraprestação</strong> (NBC TSP 01 e 02)</td><td>com contraprestação: troca de valores aproximadamente iguais</td><td>venda de bens; tarifa de serviço; aluguel de imóvel público</td></tr><tr><td>sem contraprestação: valor recebido ou dado sem troca equivalente</td><td>impostos; transferências constitucionais; doações; multas</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Transação administrativa",
+      "o_que_e": "Não afeta o patrimônio público: decorre de atos voltados ao cumprimento das metas programadas e à manutenção da entidade, como a assinatura de contrato ainda não executado, controlada em contas próprias.",
+      "atencao": "Se o ato de gestão afeta o patrimônio, a transação é econômico-financeira.",
+      "grupo": "Natureza"
+     },
+     {
+      "nome": "Econômico-financeira sem orçamento",
+      "o_que_e": "Depreciação e doação de bens afetam o patrimônio sem passar pelo orçamento e são transações econômico-financeiras.",
+      "grupo": "Natureza"
+     },
+     {
+      "nome": "Impostos e transferências",
+      "o_que_e": "A arrecadação de impostos e o recebimento de transferências constitucionais são exemplos de transações sem contraprestação.",
+      "grupo": "Contraprestação"
+     },
+     {
+      "nome": "Tarifa e imposto",
+      "o_que_e": "A tarifa cobrada por serviço efetivamente prestado em valor aproximadamente igual ao do serviço caracteriza transação com contraprestação; o imposto, que não se vincula a nenhuma entrega específica ao contribuinte, caracteriza transação sem contraprestação.",
+      "grupo": "Contraprestação"
+     },
+     {
+      "nome": "Receita sem contraprestação",
+      "o_que_e": "Pela NBC TSP 01, a entrada de recursos reconhecida como ativo é reconhecida como receita, exceto na medida em que um passivo também for reconhecido em relação à mesma entrada.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Condição",
+      "o_que_e": "O recurso transferido deve ser usado de forma especificada ou devolvido ao transferidor; ao receber, a entidade reconhece um passivo, que vira receita à medida que a condição é cumprida.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Restrição",
+      "o_que_e": "O uso do recurso é limitado, mas não há obrigação de devolver; a entidade reconhece a receita ao reconhecer o ativo.",
+      "atencao": "A restrição não obriga a reconhecer passivo: o dever de devolver o recurso não usado na finalidade estipulada é próprio da condição.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Tributo e fato gerador",
+      "o_que_e": "O ativo e a receita de tributo são reconhecidos quando ocorre o fato gerador e o ativo atende aos critérios de reconhecimento, sem esperar a arrecadação.",
+      "grupo": "Reconhecimento"
+     },
+     {
+      "nome": "Receita com contraprestação",
+      "o_que_e": "Pela NBC TSP 02, a receita da venda de bens e da prestação de serviços é reconhecida conforme a transferência dos riscos e benefícios e o estágio de execução do serviço, nos moldes da contabilidade empresarial.",
+      "grupo": "Reconhecimento"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "ECONÔMICO-FINANCEIRA MEXE NO PATRIMÔNIO",
@@ -3128,14 +3194,32 @@
     "gabarito": "E",
     "explicacao": "A transação econômico-financeira é a originada de fatos que afetam o patrimônio público, em decorrência ou não da execução do orçamento. Depreciação e doação de bens afetam o patrimônio sem passar pelo orçamento e são transações econômico-financeiras."
    },
-   "aprofundamento": "<p><strong>Reconhecimento da receita sem contraprestação.</strong> Pela NBC TSP 01, a entrada de recursos reconhecida como ativo numa transação sem contraprestação é reconhecida como receita, exceto na medida em que um passivo também for reconhecido em relação à mesma entrada.</p><p><strong>Condição e restrição.</strong> As estipulações sobre o uso de um recurso transferido podem ser condições ou restrições. Na condição, o recurso deve ser usado de forma especificada ou devolvido ao transferidor; por isso, ao receber, a entidade reconhece um passivo, que vira receita à medida que a condição é cumprida. Na restrição, o uso é limitado, mas não há obrigação de devolver; a entidade reconhece a receita ao reconhecer o ativo.</p><p><strong>Tributo e fato gerador.</strong> O ativo e a receita de tributo são reconhecidos quando ocorre o fato gerador e o ativo atende aos critérios de reconhecimento, sem esperar a arrecadação.</p><p><strong>Transação com contraprestação.</strong> Na NBC TSP 02, a receita da venda de bens e da prestação de serviços é reconhecida conforme a transferência dos riscos e benefícios e o estágio de execução do serviço, nos moldes da contabilidade empresarial.</p><p><strong>Ponto de prova.</strong> Uma tarifa ou preço público cobrado por serviço efetivamente prestado, em valor aproximadamente igual ao do serviço, é exemplo de transação com contraprestação; um imposto, que não se vincula a nenhuma entrega específica ao contribuinte, é o exemplo típico de transação sem contraprestação.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Transações econômico-financeiras são só as que decorrem da execução do orçamento.",
+     "certo": "Decorrem ou não do orçamento; basta afetar o patrimônio.",
+     "fonte": "Questões do app sobre transações no setor público"
+    },
+    {
+     "errado": "A transação administrativa afeta o patrimônio público.",
+     "certo": "Não afeta.",
+     "fonte": "Questões do app sobre transações no setor público"
+    },
+    {
+     "errado": "A restrição sobre o uso do recurso obriga a reconhecer passivo.",
+     "certo": "O passivo é da condição, que exige devolução.",
+     "fonte": "Questões do app sobre transações no setor público"
+    },
+    {
+     "errado": "A tarifa por serviço prestado é transação sem contraprestação.",
+     "certo": "É com contraprestação; o imposto é sem.",
+     "fonte": "Questões do app sobre transações no setor público"
+    }
+   ],
    "relacionados": [
     "regime-contabil-orcamentario-e-patrimonial",
     "nbc-tsp-e-mcasp"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "nbc-tsp-e-mcasp",
@@ -3146,6 +3230,7 @@
     "contabilidade-publica.nbc-tsp",
     "contabilidade-publica.mcasp"
    ],
+   "dispositivos": [],
    "conceitos": [
     "normas brasileiras de contabilidade aplicadas ao setor público",
     "manual de contabilidade aplicada ao setor público",
@@ -3158,19 +3243,83 @@
     "estrutura conceitual",
     "cfc",
     "stn",
-    "procedimentos contábeis orçamentários",
-    "procedimentos contábeis patrimoniais",
-    "procedimentos contábeis específicos",
-    "convergência",
-    "características qualitativas",
-    "11ª edição",
-    "exercício de 2025"
+    "procedimentos contabeis orcamentarios",
+    "procedimentos contabeis patrimoniais",
+    "procedimentos contabeis especificos",
+    "convergencia",
+    "caracteristicas qualitativas",
+    "11a edicao",
+    "exercicio de 2025"
    ],
-   "resumo": "As <strong>NBC TSP</strong> são as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público editadas pelo Conselho Federal de Contabilidade, no processo de convergência às normas internacionais de contabilidade para o setor público (IPSAS), emitidas pelo IPSASB da IFAC. A <strong>NBC TSP Estrutura Conceitual</strong> trata do objetivo da informação contábil, dos usuários, das características qualitativas, da entidade que reporta, dos elementos das demonstrações, do reconhecimento, da mensuração e da apresentação; ela não se sobrepõe às normas específicas. As características qualitativas são relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às restrições de materialidade, custo-benefício e equilíbrio entre as características. Entre as normas específicas estão, por exemplo, a NBC TSP 01 (receita sem contraprestação), 02 (receita com contraprestação), 03 (provisões, passivos e ativos contingentes), 07 (ativo imobilizado), 08 (ativo intangível), 11 (apresentação das demonstrações contábeis), 12 (fluxos de caixa), 17 (demonstrações consolidadas) e 34 (custos). O <strong>MCASP</strong> é o manual editado pela Secretaria do Tesouro Nacional, como órgão central de contabilidade da União, de observância obrigatória por todos os entes. Ele concretiza as normas contábeis em procedimentos, contas e modelos de demonstração. A <strong>11ª edição</strong> vale a partir do exercício de 2025 e organiza o conteúdo normativo em cinco partes: Parte I (Procedimentos Contábeis Orçamentários), Parte II (Procedimentos Contábeis Patrimoniais), Parte III (Procedimentos Contábeis Específicos), Parte IV (PCASP) e Parte V (DCASP). A Parte I foi aprovada por portaria conjunta da STN com a Secretaria de Orçamento Federal, porque trata de matéria orçamentária.",
+   "para_entender": [
+    {
+     "texto": "<strong>Objetivo e usuários:</strong> para quem a contabilidade pública informa.",
+     "tema": "casp-conceito-objeto-campo-de-aplicacao"
+    }
+   ],
+   "resumo": "As <strong>NBC TSP</strong> são as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público, editadas pelo Conselho Federal de Contabilidade no processo de <strong>convergência</strong> às normas internacionais de contabilidade para o setor público (<strong>IPSAS</strong>), emitidas pelo IPSASB, o comitê de normas para o setor público da IFAC. Convergir é aproximar a norma nacional da internacional, adaptando-a ao direito brasileiro. A <strong>NBC TSP Estrutura Conceitual</strong> trata do objetivo da informação contábil, dos usuários, das características qualitativas, da entidade que reporta, dos elementos das demonstrações, do reconhecimento, da mensuração e da apresentação; ela não se sobrepõe às normas específicas. As <strong>características qualitativas</strong>, que tornam a informação útil, são relevância, representação fidedigna, compreensibilidade, tempestividade, comparabilidade e verificabilidade, sujeitas às restrições de materialidade, custo-benefício e equilíbrio entre as características. Entre as normas específicas estão a NBC TSP 01 (receita sem contraprestação), 02 (receita com contraprestação), 03 (provisões, passivos e ativos contingentes), 07 (ativo imobilizado), 08 (ativo intangível), 11 (apresentação das demonstrações contábeis), 12 (fluxos de caixa), 17 (demonstrações consolidadas) e 34 (custos). O <strong>MCASP</strong> (Manual de Contabilidade Aplicada ao Setor Público) é editado pela Secretaria do Tesouro Nacional, como órgão central de contabilidade da União, e é de observância obrigatória por todos os entes; ele concretiza as normas em procedimentos, contas e modelos de demonstração. A <strong>11ª edição</strong> vale a partir do exercício de 2025 e organiza o conteúdo em cinco partes: Parte I (Procedimentos Contábeis Orçamentários), Parte II (Procedimentos Contábeis Patrimoniais), Parte III (Procedimentos Contábeis Específicos), Parte IV (PCASP) e Parte V (DCASP).",
    "esquema": {
     "rotulo": "quem faz o quê",
     "html": "<table><thead><tr><th>Ponto</th><th>NBC TSP</th><th>MCASP</th></tr></thead><tbody><tr><td>Quem edita</td><td>Conselho Federal de Contabilidade</td><td>Secretaria do Tesouro Nacional (Parte I em conjunto com a SOF)</td></tr><tr><td>Natureza</td><td>norma profissional de contabilidade, convergente com as IPSAS</td><td>manual de procedimentos de observância obrigatória pelos entes</td></tr><tr><td>Conteúdo</td><td>conceitos, reconhecimento, mensuração e evidenciação</td><td>procedimentos orçamentários, patrimoniais e específicos, PCASP e DCASP</td></tr><tr><td>Vigência de referência</td><td>cada norma tem sua data; a NBC TSP 34, por exemplo, aplica-se desde 1º/1/2024</td><td>11ª edição, a partir do exercício de 2025</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Características sem hierarquia",
+      "o_que_e": "A NBC TSP Estrutura Conceitual apresenta as seis características qualitativas sem a divisão formal da estrutura do setor privado, que separa as fundamentais (relevância e representação fidedigna) das de melhoria (compreensibilidade, tempestividade, comparabilidade e verificabilidade).",
+      "grupo": "Estrutura Conceitual"
+     },
+     {
+      "nome": "Estrutura Conceitual e norma específica",
+      "o_que_e": "Orienta a elaboração das normas específicas e o tratamento de situações que elas não preveem.",
+      "atencao": "Em caso de conflito, não prevalece sobre a NBC TSP específica no assunto que esta regula.",
+      "grupo": "Estrutura Conceitual"
+     },
+     {
+      "nome": "Usuários primários",
+      "o_que_e": "Os usuários dos serviços e os provedores de recursos, e seus representantes; a informação serve à prestação de contas e responsabilização (accountability) e à tomada de decisão.",
+      "grupo": "Estrutura Conceitual"
+     },
+     {
+      "nome": "Elementos",
+      "o_que_e": "Ativo, passivo, receita, despesa, contribuição dos proprietários e distribuição aos proprietários. Ativo é recurso controlado no presente pela entidade como resultado de evento passado; passivo é obrigação presente, derivada de evento passado, cuja extinção deva resultar em saída de recursos.",
+      "grupo": "Estrutura Conceitual"
+     },
+     {
+      "nome": "Bases de mensuração dos ativos",
+      "o_que_e": "Custo histórico, valor de mercado, custo de reposição, preço líquido de venda e valor em uso.",
+      "atencao": "Custo de cumprimento, custo de liberação e preço presumido são bases aplicáveis aos passivos, e não aos ativos.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Bases de mensuração dos passivos",
+      "o_que_e": "Custo histórico, custo de cumprimento, valor de mercado, custo de liberação e preço presumido.",
+      "grupo": "Mensuração"
+     },
+     {
+      "nome": "Aprovação da 11ª edição",
+      "o_que_e": "A Parte I, de procedimentos contábeis orçamentários, foi aprovada em conjunto pela Secretaria do Tesouro Nacional e pela Secretaria de Orçamento Federal (Portaria Conjunta STN/SOF 26/2024), porque trata de matéria orçamentária; as demais partes, por portaria da STN (2.016/2024).",
+      "atencao": "A edição não foi aprovada integralmente por portaria conjunta.",
+      "grupo": "MCASP"
+     },
+     {
+      "nome": "Parte I e Parte II",
+      "o_que_e": "A Parte I trata da receita e da despesa orçamentárias, de suas classificações e etapas e dos restos a pagar; a Parte II, do reconhecimento patrimonial por competência.",
+      "atencao": "Restos a pagar e etapas da despesa não estão na Parte II. A divisão espelha a convivência entre o regime orçamentário e o regime contábil.",
+      "grupo": "MCASP"
+     },
+     {
+      "nome": "Implantação gradual",
+      "o_que_e": "A adoção dos procedimentos contábeis patrimoniais pelos entes segue prazos escalonados definidos pela Secretaria do Tesouro Nacional no Plano de Implantação dos Procedimentos Contábeis Patrimoniais.",
+      "atencao": "Reconhecer todo o patrimônio (infraestrutura, provisões, dívida ativa) exige levantamentos que não se fazem de uma vez.",
+      "grupo": "MCASP"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "CFC FAZ A NORMA, STN FAZ O MANUAL",
@@ -3190,14 +3339,37 @@
     "gabarito": "E",
     "explicacao": "Só a Parte I (Procedimentos Contábeis Orçamentários) foi aprovada por portaria conjunta STN/SOF (nº 26/2024). As demais partes foram aprovadas por portaria da STN (nº 2.016/2024)."
    },
-   "aprofundamento": "<p><strong>Características sem hierarquia.</strong> Diferente da estrutura conceitual do setor privado, que separa características fundamentais (relevância e representação fidedigna) das de melhoria, a NBC TSP Estrutura Conceitual apresenta as seis características qualitativas sem essa divisão formal, e acrescenta as restrições de materialidade, custo-benefício e equilíbrio entre as características.</p><p><strong>Papel da Estrutura Conceitual.</strong> Ela orienta a elaboração das normas específicas e o tratamento de situações que elas não preveem, mas não prevalece sobre a norma específica no assunto que esta regula.</p><p><strong>Usuários e accountability.</strong> A informação contábil do setor público serve à prestação de contas e responsabilização (accountability) e à tomada de decisão. Os usuários primários são os usuários dos serviços e os provedores de recursos, e seus representantes.</p><p><strong>Elementos.</strong> A Estrutura Conceitual define ativo, passivo, receita, despesa, contribuição dos proprietários e distribuição aos proprietários. Ativo é recurso controlado no presente pela entidade como resultado de evento passado; passivo é obrigação presente, derivada de evento passado, cuja extinção deva resultar em saída de recursos.</p><p><strong>Bases de mensuração.</strong> Para ativos: custo histórico, valor de mercado, custo de reposição, preço líquido de venda e valor em uso. Para passivos: custo histórico, custo de cumprimento, valor de mercado, custo de liberação e preço presumido.</p><p><strong>Implantação gradual.</strong> Os procedimentos contábeis patrimoniais têm prazos escalonados definidos pela STN no Plano de Implantação dos Procedimentos Contábeis Patrimoniais, porque reconhecer todo o patrimônio (infraestrutura, provisões, dívida ativa) exige levantamentos que não se fazem de uma vez.</p><p><strong>Parte I e regime orçamentário.</strong> A Parte I trata da receita e da despesa orçamentárias, de suas classificações e etapas e dos restos a pagar; a Parte II trata do reconhecimento patrimonial por competência. Essa divisão espelha a convivência entre o regime orçamentário e o regime contábil.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A Estrutura Conceitual prevalece sobre a NBC TSP específica.",
+     "certo": "Não prevalece no assunto que a específica regula.",
+     "fonte": "Questões do app sobre as NBC TSP e o MCASP"
+    },
+    {
+     "errado": "A Estrutura Conceitual divide as características em fundamentais e de melhoria.",
+     "certo": "Lista as seis sem essa divisão.",
+     "fonte": "Questões do app sobre as NBC TSP e o MCASP"
+    },
+    {
+     "errado": "Custo de cumprimento e preço presumido medem ativos.",
+     "certo": "Medem passivos.",
+     "fonte": "Questões do app sobre as NBC TSP e o MCASP"
+    },
+    {
+     "errado": "O MCASP é do CFC e só obriga a União.",
+     "certo": "É da STN e obriga todos os entes.",
+     "fonte": "Questões do app sobre as NBC TSP e o MCASP"
+    },
+    {
+     "errado": "Restos a pagar e etapas da despesa estão na Parte II do MCASP.",
+     "certo": "Estão na Parte I.",
+     "fonte": "Questões do app sobre as NBC TSP e o MCASP"
+    }
+   ],
    "relacionados": [
     "transacoes-no-setor-publico",
     "regime-contabil-orcamentario-e-patrimonial"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   },
   {
    "slug": "regime-contabil-orcamentario-e-patrimonial",
@@ -3207,6 +3379,7 @@
    "tax": [
     "contabilidade-publica.regime-contabil"
    ],
+   "dispositivos": [],
    "conceitos": [
     "regime contábil",
     "regime de competência",
@@ -3214,22 +3387,82 @@
     "regime misto"
    ],
    "palavras": [
-    "art. 35",
+    "art 35",
     "receitas arrecadadas",
     "despesas empenhadas",
     "regime misto",
-    "competência",
+    "competencia",
     "fato gerador",
     "restos a pagar",
-    "despesas de exercícios anteriores",
-    "lrf art. 50",
+    "despesas de exercicios anteriores",
+    "lrf art 50",
     "caixa complementar"
    ],
-   "resumo": "O art. 35 da Lei 4.320/1964 diz que pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Por muito tempo isso foi lido como um <strong>regime contábil misto</strong>: caixa para a receita e competência para a despesa. O MCASP faz uma distinção mais precisa: o art. 35 trata do <strong>regime orçamentário</strong>, isto é, de como receitas e despesas são atribuídas ao orçamento de cada exercício. O <strong>regime contábil</strong>, que governa o reconhecimento patrimonial, é o de <strong>competência</strong>, tanto para a receita quanto para a despesa. Essa leitura se apoia na própria Lei 4.320/1964, que manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89) e trata das variações independentes da execução orçamentária (art. 100), e na LRF, pela qual a despesa e a assunção de compromisso são registradas segundo o regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II). Na prática, o mesmo fato tem dois momentos de registro. A receita orçamentária é reconhecida na arrecadação; a variação patrimonial aumentativa, no fato gerador, que pode ser anterior, como no imposto lançado. A despesa orçamentária é reconhecida no empenho; a variação patrimonial diminutiva, quando o recurso é consumido ou a obrigação nasce, o que costuma coincidir com a liquidação, mas pode vir antes, como na provisão de férias e 13º salário, ou depois, como no material comprado para estoque. As despesas empenhadas e não pagas até 31 de dezembro viram <strong>restos a pagar</strong>, processados ou não processados (art. 36).",
+   "para_entender": [
+    {
+     "texto": "<strong>Realização da variação patrimonial:</strong> quando a VPA e a VPD são reconhecidas.",
+     "tema": "realizacao-e-resultado-patrimonial"
+    },
+    {
+     "texto": "<strong>Balanço Orçamentário:</strong> o resultado que confronta receita arrecadada e despesa empenhada.",
+     "tema": "balanco-orcamentario"
+    }
+   ],
+   "resumo": "O art. 35 da Lei 4.320/1964 diz que pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Por muito tempo isso foi lido como um <strong>regime contábil misto</strong>: caixa (reconhecer no recebimento ou no pagamento) para a receita e competência (reconhecer quando o fato ocorre) para a despesa. O MCASP faz uma distinção mais precisa. O art. 35 trata do <strong>regime orçamentário</strong>, isto é, de como receitas e despesas são atribuídas ao orçamento de cada exercício. O <strong>regime contábil</strong>, que governa o reconhecimento patrimonial, é o de <strong>competência</strong>, tanto para a receita quanto para a despesa. Essa leitura se apoia na própria Lei 4.320/1964, que manda a contabilidade evidenciar os fatos ligados à administração orçamentária, financeira, patrimonial e industrial (art. 89) e trata das variações independentes da execução orçamentária (art. 100), e na LRF, pela qual a despesa e a assunção de compromisso são registradas segundo o regime de competência, apurando-se, em caráter complementar, o resultado dos fluxos financeiros pelo regime de caixa (art. 50, II). Na prática, o mesmo fato tem dois momentos de registro, como mostra a tabela. A receita orçamentária é reconhecida na arrecadação; a variação patrimonial aumentativa, no <strong>fato gerador</strong>, que pode ser anterior. A despesa orçamentária é reconhecida no empenho; a variação patrimonial diminutiva, quando o recurso é consumido ou a obrigação nasce, o que costuma coincidir com a liquidação, mas pode vir antes ou depois. As despesas empenhadas e não pagas até 31 de dezembro viram <strong>restos a pagar</strong> (art. 36).",
    "esquema": {
     "rotulo": "dois regimes, dois momentos",
     "html": "<table><thead><tr><th>Item</th><th>Regime orçamentário (Lei 4.320/1964, art. 35)</th><th>Regime contábil patrimonial (competência)</th></tr></thead><tbody><tr><td>Receita</td><td>pertence ao exercício em que foi arrecadada</td><td>VPA reconhecida no fato gerador, ainda que a arrecadação venha depois</td></tr><tr><td>Despesa</td><td>pertence ao exercício em que foi legalmente empenhada</td><td>VPD reconhecida quando o recurso é consumido ou a obrigação nasce</td></tr><tr><td>Exemplo: IPVA lançado em janeiro e pago em março</td><td>receita orçamentária em março</td><td>VPA em janeiro, com crédito a receber</td></tr><tr><td>Exemplo: material comprado em junho e consumido em agosto</td><td>despesa orçamentária no empenho de junho</td><td>VPD em agosto, no consumo; até lá, é estoque</td></tr><tr><td>Exemplo: 13º salário</td><td>despesa orçamentária no empenho</td><td>VPD apropriada mês a mês, com provisão</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Arrecadada, e não lançada",
+      "o_que_e": "Pelo art. 35, a receita pertence ao exercício em que foi arrecadada, e não ao exercício em que foi lançada.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Imposto lançado",
+      "o_que_e": "No caso de um imposto lançado em janeiro e arrecadado em março, a variação patrimonial aumentativa é reconhecida em janeiro, e a receita orçamentária, em março.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Por que não é caixa puro",
+      "o_que_e": "A dívida ativa e os créditos tributários lançados são reconhecidos como ativo e VPA antes do recebimento, o que só é possível em regime de competência.",
+      "grupo": "Receita"
+     },
+     {
+      "nome": "Material para estoque",
+      "o_que_e": "A VPD do material de consumo adquirido para estoque é reconhecida no consumo, e não no momento do empenho; até lá, o material é estoque.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Férias e 13º salário",
+      "o_que_e": "A VPD é apropriada mês a mês, com provisão, antes do empenho da folha em que serão pagos.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Caixa complementar",
+      "o_que_e": "Pela LRF, o regime de caixa entra só em caráter complementar, para apurar o resultado dos fluxos financeiros.",
+      "atencao": "O registro da despesa e da assunção de compromisso é por competência, e não por caixa.",
+      "grupo": "LRF"
+     },
+     {
+      "nome": "Restos a pagar e exercícios anteriores",
+      "o_que_e": "Os restos a pagar e as despesas de exercícios anteriores seguem os arts. 36 e 37 da Lei 4.320/1964, no regime orçamentário.",
+      "atencao": "No patrimonial, a VPD pode já ter sido reconhecida no exercício em que o fato ocorreu.",
+      "grupo": "Despesa"
+     },
+     {
+      "nome": "Competência e custos",
+      "o_que_e": "O custo do período não é a despesa empenhada: segue o consumo, por competência.",
+      "grupo": "Despesa"
+     }
+    ]
+   },
+   "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "ART. 35 É ORÇAMENTO, NÃO CONTABILIDADE",
@@ -3249,14 +3482,32 @@
     "gabarito": "E",
     "explicacao": "O art. 35 disciplina o regime orçamentário: a receita orçamentária pertence ao exercício em que foi arrecadada. O reconhecimento patrimonial da receita (VPA) segue o regime de competência e ocorre no fato gerador, ainda que a arrecadação venha depois."
    },
-   "aprofundamento": "<p><strong>Restos a pagar.</strong> Consideram-se restos a pagar as despesas empenhadas mas não pagas até 31 de dezembro, distinguindo-se as processadas (já liquidadas) das não processadas (Lei 4.320/1964, art. 36). Os empenhos de créditos com vigência plurianual não liquidados só são computados como restos a pagar no último ano de vigência do crédito (art. 36, parágrafo único).</p><p><strong>Despesas de exercícios anteriores.</strong> As despesas de exercícios encerrados para as quais o orçamento consignava crédito próprio com saldo suficiente, que não se tenham processado na época própria, os restos a pagar com prescrição interrompida e os compromissos reconhecidos após o encerramento do exercício podem ser pagos à conta de dotação específica do orçamento corrente (Lei 4.320/1964, art. 37). No regime orçamentário, a despesa é do exercício em que for empenhada; no patrimonial, a VPD pode já ter sido reconhecida no exercício em que o fato ocorreu.</p><p><strong>Por que não é caixa puro.</strong> A receita arrecadada pertence ao exercício da arrecadação, mas a dívida ativa e os créditos tributários lançados são reconhecidos como ativo e VPA antes do recebimento, o que só é possível em regime de competência.</p><p><strong>Competência e custos.</strong> O mesmo raciocínio explica por que o custo do período não é a despesa empenhada: o custo segue o consumo, por competência.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Pertencem ao exercício as receitas nele lançadas.",
+     "certo": "As nele arrecadadas (art. 35).",
+     "fonte": "Questões do app sobre o regime contábil"
+    },
+    {
+     "errado": "Pela LRF, a despesa se registra por caixa, com competência complementar.",
+     "certo": "Por competência, com caixa complementar.",
+     "fonte": "Questões do app sobre o regime contábil"
+    },
+    {
+     "errado": "Pelo MCASP, a receita patrimonial segue o regime de caixa.",
+     "certo": "O art. 35 é regime orçamentário; a VPA segue a competência.",
+     "fonte": "Questões do app sobre o regime contábil"
+    },
+    {
+     "errado": "A VPD do material para estoque nasce no empenho.",
+     "certo": "Nasce no consumo.",
+     "fonte": "Questões do app sobre o regime contábil"
+    }
+   ],
    "relacionados": [
     "balanco-orcamentario",
     "transacoes-no-setor-publico"
-   ],
-   "dispositivos": [],
-   "lei": []
+   ]
   }
  ]
 }
