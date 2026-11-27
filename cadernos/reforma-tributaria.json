@@ -572,7 +572,7 @@
    ],
    "juris": [],
    "detalhes": [
-    "A destinação integral do IBS e da CBS ao ente contratante nas compras públicas (art. 149-C da CF) alcança a administração direta, as autarquias e as fundações públicas, inclusive nas importações, com igualdade de tratamento em relação às compras internas. Lei complementar pode reduzir de forma uniforme as alíquotas nessas compras; empresas públicas e sociedades de economia mista ficam fora.",
+    "A destinação integral do IBS e da CBS ao ente contratante nas compras públicas (art. 149-C da CF) alcança a administração direta, as autarquias e as fundações públicas, inclusive nas importações, com igualdade de tratamento em relação às compras internas. Lei complementar pode reduzir de forma uniforme as alíquotas nessas compras; empresas públicas e sociedades de economia mista ficam fora. As exceções à destinação integral ao ente contratante também ficam com a lei complementar (§ 2º), e não com lei ordinária de cada ente.",
     "Telefonia fixa por cabos e fibras: o local é o da instalação do terminal (art. 11, IX). Quem mora em Maceió e instala o terminal na casa de veraneio em Maragogi paga o IBS para Maragogi."
    ],
    "macetes": [
@@ -1210,6 +1210,12 @@
       "nome": "Apuração consolidada",
       "o_que_e": "Um só encontro mensal de débitos e créditos de todos os estabelecimentos, inclusive dos regimes diferenciados e específicos; pagamento e ressarcimento centralizados em um estabelecimento.",
       "atencao": "Não se apura por estabelecimento, como no ICMS.",
+      "grupo": "Apuração"
+     },
+     {
+      "nome": "Período de apuração",
+      "o_que_e": "Mensal (art. 43). A empresa que vende serviços durante todo o mês de março apura o IBS e a CBS de março num único período de apuração.",
+      "atencao": "O prazo para concluir a apuração e o vencimento ficam com o regulamento (art. 44).",
       "grupo": "Apuração"
      }
     ]
@@ -3966,12 +3972,125 @@
     "revelia",
     "provimento vinculante"
    ],
-   "resumo": "O <strong>processo administrativo tributário do IBS</strong> está no Título II do Livro I da LC 227/2026. Ele trata do lançamento de ofício, das penalidades por obrigações acessórias, do indeferimento de pedidos de restituição e de ressarcimento e de outros casos do regulamento (art. 54). Tudo é eletrônico, em sistema gerido pelo CGIBS, e entre os princípios estão a verdade material, o formalismo moderado, a cooperação e a razoável duração do processo (arts. 55 e 57). Os prazos correm em <strong>dias úteis</strong>, excluído o dia do começo e incluído o do vencimento, e ficam <strong>suspensos de 20 de dezembro a 20 de janeiro</strong>; se a lei não fixar prazo para a parte, ele é de 10 dias (art. 62). A intimação é feita pelo Domicílio Tributário Eletrônico, e o sujeito passivo se considera intimado 10 dias após a entrega, se não consultar antes (art. 64). O contencioso começa com a <strong>impugnação</strong>, em <strong>20 dias</strong> contados da intimação do lançamento, acompanhada das provas, sob pena de preclusão (art. 67). A parte não impugnada vai para cobrança. Pagar, parcelar, compensar ou ajuizar ação sobre a mesma matéria é <strong>desistência tácita</strong> (art. 72). Os julgadores devem seguir os <strong>provimentos vinculantes</strong> do art. 74, como súmula vinculante, decisão do STF em controle concentrado e tese repetitiva transitada, e fora deles não podem afastar a lei por inconstitucionalidade.",
+   "para_entender": [
+    {
+     "texto": "<strong>CGIBS:</strong> o Comitê Gestor que administra o IBS e julga o seu contencioso.",
+     "tema": "comite-gestor-do-ibs"
+    },
+    {
+     "texto": "<strong>Lançamento de ofício:</strong> o ato do fisco que o processo administrativo discute.",
+     "tema": "harmonizacao-fiscalizacao-e-lancamento-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>LC 227/2026:</strong> a lei que trouxe o processo do IBS.",
+     "tema": "lei-complementar-227-2026"
+    }
+   ],
+   "resumo": "O <strong>processo administrativo tributário do IBS</strong> é o caminho para o contribuinte discutir, dentro da administração, uma cobrança do fisco antes de ir ao Judiciário. Está no Título II do Livro I da LC 227/2026 e cobre o lançamento de ofício, as penalidades por obrigações acessórias, o indeferimento de pedidos de restituição e de ressarcimento e outros casos do regulamento (art. 54). O processo é eletrônico: é formado, tramita e é julgado em sistema gerido pelo CGIBS, o mesmo para as administrações tributárias dos Estados, do DF e dos Municípios (art. 57). Os prazos correm em <strong>dias úteis</strong>. O <strong>contencioso</strong>, isto é, o litígio, começa com a <strong>impugnação</strong>, a defesa contra o lançamento, em <strong>20 dias</strong> da intimação (art. 67). Junto com ela vão as provas, sob pena de <strong>preclusão</strong>: perde-se a chance de produzir a prova depois. Quem paga, parcela ou leva a mesma matéria ao Judiciário desiste do processo sem precisar dizer isso: é a <strong>desistência tácita</strong> (art. 72). Os julgadores seguem os <strong>provimentos vinculantes</strong>, decisões que obrigam todos os órgãos de julgamento (art. 74). As nulidades e o que as afasta estão na tabela.",
    "esquema": {
     "rotulo": "nulidades e o que as afasta (art. 66)",
     "html": "<table><thead><tr><th>É nulo</th><th>Exceção ou saneamento</th></tr></thead><tbody><tr><td><strong>Ato de autoridade incompetente ou impedida</strong></td><td>Impedido é o julgador que autuou, fez diligência, respondeu consulta sobre a matéria ou tem vínculo com a parte</td></tr><tr><td><strong>Ato com preterição do direito de defesa</strong></td><td>A autoridade não pronuncia a nulidade se puder decidir o mérito a favor de quem ela aproveitaria</td></tr><tr><td><strong>Decisão não fundamentada</strong></td><td>A nulidade só atinge os atos posteriores que dela dependam</td></tr><tr><td><strong>Erro na identificação do sujeito passivo</strong></td><td>Com vários autuados, basta um corretamente identificado; exclui-se o que foi mal qualificado</td></tr><tr><td><strong>Intimação irregular</strong></td><td>O comparecimento do interessado supre a falta ou a irregularidade</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Princípios",
+      "o_que_e": "Verdade material (decide-se pelos fatos reais, não só pelos papéis), formalismo moderado (a forma não sacrifica o direito), cooperação e razoável duração do processo, entre outros (art. 55).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Contagem do prazo",
+      "o_que_e": "Em dias úteis, excluído o dia do começo e incluído o do vencimento (art. 62).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Recesso",
+      "o_que_e": "De 20 de dezembro a 20 de janeiro, inclusive, os prazos ficam suspensos e não há sessões de julgamento (art. 62).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Prazo não fixado",
+      "o_que_e": "Se a lei não fixar prazo para a parte praticar o ato, ele é de 10 dias (art. 62).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Sistema fora do ar",
+      "o_que_e": "Não conta como dia de expediente normal aquele em que o sistema do CGIBS ficou indisponível por mais de 60 minutos, seguidos ou não, entre 6h e 23h, ou entre 23h e 24h (art. 62, § 6º).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Petição no último dia",
+      "o_que_e": "A petição eletrônica é tempestiva se enviada até as 24h do último dia do prazo (art. 63, parágrafo único).",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Intimação pelo DTE",
+      "o_que_e": "Feita pelo Domicílio Tributário Eletrônico, a caixa postal oficial do contribuinte; quem não consulta a mensagem se considera intimado 10 dias depois da entrega (art. 64).",
+      "atencao": "São 10 dias, e não 15.",
+      "grupo": "Princípios e prazos"
+     },
+     {
+      "nome": "Impugnação",
+      "o_que_e": "Defesa contra o lançamento, apresentada em 20 dias da intimação, com as provas (art. 67). A parte não impugnada vai para cobrança.",
+      "grupo": "Impugnação e instrução"
+     },
+     {
+      "nome": "Prova fora da impugnação",
+      "o_que_e": "Só é aceita com justa causa, força maior, fato superveniente ou para rebater alegação posterior.",
+      "grupo": "Impugnação e instrução"
+     },
+     {
+      "nome": "Impugnação inepta",
+      "o_que_e": "A que não tem pedido ou fundamentos, trata de matéria estranha à legislação tributária do lançamento ou não tem identificação ou assinatura (art. 68).",
+      "grupo": "Impugnação e instrução"
+     },
+     {
+      "nome": "Falha de representação",
+      "o_que_e": "A parte é intimada para corrigir em 5 dias, sob pena de preclusão e nulidade (art. 68).",
+      "grupo": "Impugnação e instrução"
+     },
+     {
+      "nome": "Diligência",
+      "o_que_e": "O julgador não fica preso às razões das partes e pode determinar diligências, com motivação. Sem prazo fixado, ela é cumprida em 20 dias úteis, prorrogáveis, e a parte tem 20 dias para se manifestar sobre os documentos juntados (arts. 69 a 71).",
+      "grupo": "Impugnação e instrução"
+     },
+     {
+      "nome": "Desistência tácita",
+      "o_que_e": "Pagar, parcelar, compensar ou ajuizar ação sobre a mesma matéria encerra o litígio administrativo quanto a ela (art. 72).",
+      "grupo": "Desistência"
+     },
+     {
+      "nome": "Desistência parcial",
+      "o_que_e": "Se a ação judicial tratar só de parte da matéria, o processo administrativo prossegue quanto à matéria diferente (art. 72, § 2º). Com vários interessados, a desistência só atinge quem a formulou.",
+      "grupo": "Desistência"
+     },
+     {
+      "nome": "Momento de alegar a nulidade",
+      "o_que_e": "Na primeira oportunidade, sob pena de preclusão, salvo as que o julgador conhece de ofício; a parte não pode alegar nulidade a que deu causa (art. 66, §§ 6º e 8º).",
+      "grupo": "Nulidades"
+     },
+     {
+      "nome": "Auto de infração nulo",
+      "o_que_e": "É nulo o lavrado sem observar o parágrafo único do art. 330 da LC 214/2025 (art. 66, § 1º).",
+      "grupo": "Nulidades"
+     },
+     {
+      "nome": "Provimento vinculante",
+      "o_que_e": "Decisão que o julgador do IBS deve seguir: súmula vinculante, decisão do STF em controle concentrado, tese repetitiva transitada em julgado, súmula do CGIBS e decisão da Câmara Nacional de Integração do Contencioso Administrativo do IBS e da CBS, entre outros (art. 74).",
+      "atencao": "Não se aplica se houver fundamento relevante para distinguir o caso.",
+      "grupo": "Provimentos vinculantes"
+     },
+     {
+      "nome": "Lei tida por inconstitucional",
+      "o_que_e": "Fora dos provimentos vinculantes, o julgador não pode deixar de aplicar a lei por considerá-la inconstitucional.",
+      "grupo": "Provimentos vinculantes"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "20 PARA IMPUGNAR, 20 PARA RECORRER",
@@ -3991,8 +4110,33 @@
     "gabarito": "E",
     "explicacao": "A impugnação e o recurso intempestivos não suspendem nem mantêm a suspensão da exigibilidade do crédito tributário (art. 68, § 2º, da LC 227/2026). Se a tempestividade for alegada como preliminar, a peça vai ao órgão julgador, e da decisão colegiada que reconhecer a intempestividade não cabe recurso (§§ 3º e 4º)."
    },
-   "aprofundamento": "<p><strong>Instabilidade do sistema.</strong> Não se considera dia de expediente normal aquele em que o sistema eletrônico do CGIBS ficou indisponível por mais de 60 minutos, ininterruptos ou não, entre 6h e 23h, ou entre 23h e 24h (art. 62, § 6º). Petição eletrônica é tempestiva se enviada até as 24h do último dia (art. 63, parágrafo único).</p><p><strong>Inépcia e ilegitimidade.</strong> A impugnação é inepta se não tiver pedido ou fundamentos, se tratar de matéria estranha à legislação tributária do lançamento ou se faltar identificação ou assinatura. Falha de representação é intimada para correção em 5 dias, sob pena de preclusão e nulidade (art. 68).</p><p><strong>Diligências.</strong> O julgador não fica preso às razões das partes e pode determinar diligências, com motivação. Sem prazo fixado, a diligência deve ser cumprida em 20 dias úteis, prorrogáveis, e a parte tem 20 dias para se manifestar sobre os documentos juntados (arts. 69 a 71).</p><p><strong>Desistência tácita parcial.</strong> Se a ação judicial tratar só de parte da matéria, o processo administrativo prossegue quanto à matéria diferente (art. 72, § 2º). Com vários interessados, a desistência só atinge quem a formulou.</p><p><strong>Nulidade arguida na hora certa.</strong> A nulidade deve ser alegada na primeira oportunidade, sob pena de preclusão, salvo as que o julgador conhece de ofício; e a parte não pode alegar nulidade a que deu causa (art. 66, §§ 6º e 8º). É nulo o auto de infração lavrado sem observar o parágrafo único do art. 330 da LC 214/2025 (art. 66, § 1º).</p><p><strong>Provimentos vinculantes.</strong> Além das decisões do STF e do STJ, vinculam as súmulas do CGIBS e as decisões da Câmara Nacional de Integração do Contencioso Administrativo do IBS e da CBS (art. 74, V e VI), sempre que não houver fundamento relevante para distinção.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O prazo para impugnar o lançamento de ofício do IBS é de 30 dias da intimação.",
+     "certo": "É de 20 dias da intimação (art. 67 da LC 227/2026).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Intimado pelo DTE, o sujeito passivo que não consulta a mensagem se considera intimado 15 dias após a entrega.",
+     "certo": "Considera-se intimado 10 dias após a entrega (art. 64).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Com múltiplos autuados, o erro na identificação de um deles acarreta a nulidade de toda a exigência.",
+     "certo": "Basta um corretamente identificado; o mal qualificado é excluído do polo passivo (art. 66).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O julgador do IBS pode deixar de aplicar lei que considere inconstitucional, desde que fundamente.",
+     "certo": "Não pode, salvo quando seguir provimento vinculante (art. 74).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "A ação judicial sobre parte da matéria encerra todo o processo administrativo.",
+     "certo": "O processo prossegue quanto à matéria diferente da levada a juízo (art. 72, § 2º).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "julgamento-e-recursos-no-processo-do-ibs",
     "comite-gestor-do-ibs",
@@ -4025,12 +4169,107 @@
     "paridade",
     "recurso especial"
    ],
-   "resumo": "O contencioso do IBS é decidido exclusivamente pelo CGIBS em três instâncias: <strong>primeira instância</strong>, <strong>segunda instância</strong> e <strong>instância de uniformização</strong> da legislação específica do IBS (arts. 88 e 89). A primeira instância tem <strong>27 Câmaras de Julgamento</strong> virtuais, formadas só por servidores de carreira: 2 indicados pelo Estado, 2 pelos Municípios do Estado e o presidente, que só vota no empate. A segunda instância tem <strong>27 Câmaras Recursais</strong>, paritárias, com 2 servidores do Estado, 2 dos Municípios, <strong>4 representantes dos contribuintes</strong> e o presidente, sempre servidor. A <strong>Câmara Superior do IBS</strong> tem 4 servidores estaduais, 4 municipais, 8 representantes dos contribuintes e o presidente. Os recursos são o de ofício, o voluntário, o de uniformização e o especial do art. 323-G da LC 214/2025. O prazo geral para recorrer e contra-arrazoar é de <strong>20 dias</strong>, contado <strong>em dobro</strong> quando a vencida é a administração tributária (art. 75). Há <strong>recurso de ofício</strong> sempre que a decisão de primeira instância é contrária à Fazenda, salvo exceções. O <strong>recurso de uniformização</strong>, em 10 dias, vai à Câmara Superior contra decisão que interpreta a legislação específica do IBS de forma divergente (art. 79). O <strong>pedido de retificação</strong>, em 5 dias, corrige erro de fato, contradição, obscuridade ou omissão e interrompe o prazo do recurso (art. 80).",
+   "para_entender": [
+    {
+     "texto": "<strong>Impugnação e prazos:</strong> como o processo do IBS começa e como se contam os dias.",
+     "tema": "processo-administrativo-tributario-do-ibs"
+    },
+    {
+     "texto": "<strong>CGIBS:</strong> o órgão que organiza as câmaras de julgamento.",
+     "tema": "comite-gestor-do-ibs"
+    }
+   ],
+   "resumo": "O contencioso do IBS é decidido só pelo CGIBS, em três <strong>instâncias</strong>, isto é, graus de julgamento: primeira instância, segunda instância e <strong>instância de uniformização</strong>, que resolve divergências sobre a legislação específica do IBS (arts. 88 e 89). Cada uma é formada por câmaras, e a composição está na tabela. A diferença que mais cai: a primeira instância é só do fisco, e a segunda é <strong>paritária</strong>, ou seja, tem servidores e representantes dos contribuintes. Contra a decisão cabem os <strong>recursos</strong>: o de ofício, que o próprio julgador remete quando a Fazenda perde; o voluntário, do contribuinte; o de uniformização; e o recurso especial do art. 323-G da LC 214/2025, para a legislação comum ao IBS e à CBS. O prazo geral para recorrer e responder ao recurso é de <strong>20 dias</strong>, contado em dobro para a administração tributária (art. 75). Antes de recorrer, a parte pode pedir a <strong>retificação</strong> da decisão (art. 80).",
    "esquema": {
     "rotulo": "composição das instâncias (arts. 92, 94 e 96)",
     "html": "<table><thead><tr><th>Instância</th><th>Servidores</th><th>Contribuintes</th><th>Presidente</th></tr></thead><tbody><tr><td><strong>1ª instância: 27 Câmaras de Julgamento</strong></td><td>2 do Estado e 2 dos Municípios (no DF, 4)</td><td>Nenhum</td><td>Vota só no empate; alterna a cada exercício entre Estado e Municípios</td></tr><tr><td><strong>2ª instância: 27 Câmaras Recursais</strong></td><td>2 do Estado e 2 dos Municípios (no DF, 4)</td><td>4</td><td>Vota só no empate; sempre servidor, alternando Estado e Municípios</td></tr><tr><td><strong>Câmara Superior do IBS</strong></td><td>4 dos Estados e DF e 4 dos Municípios e DF</td><td>8</td><td>Vota só no empate; servidor, alternando as esferas</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Recurso de ofício",
+      "o_que_e": "Cabe sempre que a decisão de primeira instância é contrária à Fazenda, salvo as exceções do art. 77, § 3º. É formalizado na própria decisão, mas considera-se interposto por força de lei mesmo sem isso.",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Sem recurso de ofício",
+      "o_que_e": "Valor abaixo do limite nacional do CGIBS, prova de recolhimento integral, cancelamento por remissão, penalidade mais benéfica por lei superveniente, decisão unânime que seguiu provimento vinculante e rito sumário (art. 77, § 3º).",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Recurso voluntário",
+      "o_que_e": "O do sujeito passivo, em 20 dias. Devolve toda a matéria nele tratada; recorrer de parte da decisão implica reconhecer a parte não recorrida (art. 78).",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Prazo em dobro",
+      "o_que_e": "Os 20 dias contam em dobro quando a parte vencida é a administração tributária do Estado, do DF ou do Município (art. 75).",
+      "atencao": "Não é o sujeito passivo que tem prazo em dobro.",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Recurso de uniformização",
+      "o_que_e": "Em 10 dias, à Câmara Superior do IBS, contra decisão que interpreta a legislação específica do IBS de forma divergente; as contrarrazões também têm 10 dias (art. 79).",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Recurso especial do art. 323-G",
+      "o_que_e": "Em 10 dias úteis, contra decisão que dê à legislação comum do IBS e da CBS interpretação divergente de outra; julgado pela Câmara Nacional de Integração do Contencioso Administrativo do IBS e da CBS (art. 323-G da LC 214/2025).",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Pedido de retificação",
+      "o_que_e": "Em 5 dias, contra decisão de qualquer instância, para corrigir erro de fato, eliminar contradição ou obscuridade ou suprir omissão; a apresentação tempestiva interrompe o prazo do recurso (art. 80).",
+      "grupo": "Recursos"
+     },
+     {
+      "nome": "Rito sumário",
+      "o_que_e": "Pode ser adotado para crédito inferior ao valor de alçada, fixado nacionalmente e limitado a 1.000 UPFs, ou matéria de menor complexidade, como indeferimento de restituição e ressarcimento, exclusão de parcelamento especial e indeferimento de opção ou exclusão do Simples Nacional (art. 76).",
+      "atencao": "A decisão de primeira instância é definitiva, ressalvados o pedido de retificação, o recurso especial do art. 323-G e, na alçada, o recurso de uniformização.",
+      "grupo": "Rito sumário"
+     },
+     {
+      "nome": "Incidente por matérias repetitivas",
+      "o_que_e": "Exige 5 decisões definitivas de Câmaras de segunda instância ou 3 da Câmara Superior, por maioria, em sessões distintas; é suscitado pela Fazenda ou por Presidentes de Câmara; não suspende a exigibilidade; gera súmula vinculante do CGIBS (arts. 81 a 87).",
+      "grupo": "Incidente de uniformização"
+     },
+     {
+      "nome": "Incidente por inobservância de provimento vinculante",
+      "o_que_e": "Suscitado pela Fazenda ou pelo sujeito passivo, com indicação do provimento desrespeitado; suspende a exigibilidade do crédito.",
+      "atencao": "Só o incidente por matérias repetitivas deixa o crédito exigível.",
+      "grupo": "Incidente de uniformização"
+     },
+     {
+      "nome": "Mandato",
+      "o_que_e": "De 2 anos, com recondução; pelo menos 30% das vagas ocupadas por mulheres.",
+      "grupo": "Julgadores"
+     },
+     {
+      "nome": "Representante dos contribuintes",
+      "o_que_e": "Graduado há pelo menos 3 anos, com 3 anos de experiência tributária e contábil depois da graduação.",
+      "grupo": "Julgadores"
+     },
+     {
+      "nome": "Integrante da Câmara Superior",
+      "o_que_e": "Escolhido entre servidores que integraram câmaras de segunda instância por pelo menos 2 mandatos.",
+      "grupo": "Julgadores"
+     },
+     {
+      "nome": "Sessões",
+      "o_que_e": "Virtuais e síncronas, com pauta publicada com pelo menos 10 dias de antecedência (arts. 88 a 96).",
+      "grupo": "Julgadores"
+     },
+     {
+      "nome": "Renúncia tácita",
+      "o_que_e": "Faltar a 3 sessões seguidas ou a 5 alternadas no quadrimestre sem justificativa aceita. A perda do mandato é decidida pelo Presidente do CGIBS, sem recurso (arts. 100 e 101).",
+      "grupo": "Julgadores"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "PRIMEIRA SÓ FISCO, SEGUNDA PARITÁRIA",
@@ -4050,8 +4289,33 @@
     "gabarito": "E",
     "explicacao": "O recurso de uniformização da LC 227/2026 só trata da legislação específica do IBS. Para a legislação comum ao IBS e à CBS, não cabe esse recurso e aplica-se o recurso especial do art. 323-G da LC 214/2025, julgado pela Câmara Nacional de Integração do Contencioso Administrativo do IBS e da CBS (art. 79, § 6º)."
    },
-   "aprofundamento": "<p><strong>Rito sumário (art. 76).</strong> Pode ser adotado para crédito inferior ao valor de alçada, fixado nacionalmente e limitado a 1.000 UPFs, ou para matéria de menor complexidade, como indeferimento de restituição e ressarcimento, exclusão de parcelamento especial e indeferimento de opção ou exclusão do Simples Nacional. A decisão de primeira instância é definitiva, ressalvados o pedido de retificação, o recurso especial do art. 323-G e, no caso da alçada, o recurso de uniformização.</p><p><strong>Quando não cabe recurso de ofício (art. 77, § 3º).</strong> Valor abaixo do limite nacional fixado pelo CGIBS, prova de recolhimento integral do tributo, cancelamento por remissão, aplicação de penalidade mais benéfica por lei superveniente, decisão unânime que seguiu provimento vinculante e rito sumário. O recurso de ofício é formalizado na própria decisão, mas considera-se interposto por força de lei mesmo sem isso.</p><p><strong>Recurso voluntário.</strong> Devolve toda a matéria nele versada; recorrer de parte da decisão implica reconhecer a parte não recorrida (art. 78).</p><p><strong>Incidente de uniformização (arts. 81 a 87).</strong> Por matérias repetitivas: exige 5 decisões definitivas de Câmaras de segunda instância ou 3 da Câmara Superior, por maioria, em sessões distintas; é suscitado pela Fazenda ou por Presidentes de Câmara; não suspende a exigibilidade; gera súmula com caráter vinculante. Por inobservância de provimento vinculante: suscitado pela Fazenda ou pelo sujeito passivo, com indicação do provimento desrespeitado, e suspende a exigibilidade.</p><p><strong>Julgadores.</strong> Mandato de 2 anos, com recondução; pelo menos 30% das vagas ocupadas por mulheres; representante dos contribuintes com graduação há pelo menos 3 anos e 3 anos de experiência tributária e contábil depois dela. Os integrantes da Câmara Superior são escolhidos entre servidores que tenham integrado as câmaras de segunda instância por pelo menos 2 mandatos. Sessões virtuais e síncronas, com pauta publicada com pelo menos 10 dias de antecedência (arts. 88 a 96).</p><p><strong>Perda e renúncia do mandato.</strong> Há renúncia tácita se o julgador faltar a 3 sessões consecutivas ou a 5 alternadas no quadrimestre sem justificativa aceita; a perda do mandato é decidida pelo Presidente do CGIBS, sem recurso (arts. 100 e 101).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O prazo de 20 dias para recorrer no contencioso do IBS conta em dobro quando o vencido é o sujeito passivo.",
+     "certo": "Conta em dobro quando a vencida é a administração tributária (art. 75 da LC 227/2026).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Cada Câmara Recursal do IBS tem 2 representantes dos contribuintes.",
+     "certo": "Tem 4, ao lado de 2 servidores do Estado, 2 dos Municípios e o presidente.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Há representantes dos contribuintes nas Câmaras de Julgamento de primeira instância.",
+     "certo": "A primeira instância é formada só por servidores de carreira.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O incidente por inobservância de provimento vinculante mantém exigível o crédito tributário.",
+     "certo": "Suspende a exigibilidade; quem não suspende é o incidente por matérias repetitivas.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O pedido de retificação suspende o prazo do recurso.",
+     "certo": "Interrompe o prazo do recurso (art. 80).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "processo-administrativo-tributario-do-ibs",
     "comite-gestor-do-ibs"
@@ -4076,19 +4340,119 @@
     "distribuicao",
     "receita-base",
     "receita inicial",
-    "retencao 80%",
-    "1/45",
+    "retencao 80",
+    "1 45",
     "receita media de referencia",
     "coeficiente de participacao",
     "fundo de combate a pobreza",
     "fundeb"
    ],
-   "resumo": "O CGIBS arrecada o IBS e o <strong>distribui</strong> aos Estados, ao DF e aos Municípios a cada <strong>período de determinação</strong>, que ele mesmo define: não pode ser menor que 1 dia útil nem maior que o período de apuração, e a transferência ocorre em até 3 dias úteis depois do fim do período (art. 104). A conta começa pela <strong>receita inicial</strong> de cada ente: o IBS extinto e <strong>não apropriado como crédito</strong> nas operações em que o ente é o <strong>destino</strong> (art. 106). Na prática, cada ente recebe o imposto do consumo final ocorrido no seu território. Essa receita é ajustada: deduz-se o valor da devolução geral do IBS às pessoas físicas e o valor que financia os créditos presumidos, por percentuais iguais para todos os entes, e corrige-se o efeito de alíquota própria diferente da de referência (arts. 107 e 108). Depois vêm as <strong>retenções da transição</strong> (art. 109): de 2029 a 2032 retêm-se 80%; em 2033, 90%; de 2034 a 2077 o percentual de 2033 cai 1/45 por ano. O valor retido é redistribuído pelo <strong>coeficiente de participação</strong>, calculado pela receita média de referência de cada ente com ICMS, ISS e cota-parte de 2019 a 2026, para que ninguém perca de uma vez a participação histórica (arts. 114 e 115). Há ainda uma retenção de 5%, de 2029 a 2077, para a <strong>distribuição complementar</strong> aos entes com maior perda relativa (arts. 110 e 117).",
+   "para_entender": [
+    {
+     "texto": "<strong>Destino:</strong> por que o IBS fica com o ente onde está o consumidor.",
+     "tema": "principio-do-destino"
+    },
+    {
+     "texto": "<strong>CGIBS:</strong> quem arrecada e reparte o IBS.",
+     "tema": "comite-gestor-do-ibs"
+    },
+    {
+     "texto": "<strong>Transição:</strong> como o ICMS e o ISS saem até 2033.",
+     "tema": "transicao-da-reforma-tributaria"
+    }
+   ],
+   "resumo": "O IBS é cobrado pelo CGIBS e depois <strong>distribuído</strong>, isto é, repartido, entre Estados, DF e Municípios. A conta é feita por <strong>período de determinação</strong>, o intervalo que o CGIBS fixa para apurar quanto vai a cada ente (art. 104). Ela parte da <strong>receita inicial</strong>: o IBS extinto e não aproveitado como crédito nas operações cujo destino é o ente (art. 106). Exemplo: se um consumidor de Recife compra uma geladeira, o IBS que ninguém creditou depois é receita de Pernambuco e de Recife. O que uma empresa credita não é receita de ninguém, porque será abatido do imposto dela. Depois vêm ajustes e <strong>retenções</strong>, valores separados antes da entrega ao ente. As retenções da transição são repartidas pelo <strong>coeficiente de participação</strong>, que mede o peso histórico de cada ente com ICMS, ISS e cota-parte (arts. 109, 114 e 115). Assim, quem arrecadava muito na origem não perde a receita de uma vez. As etapas estão na tabela.",
    "esquema": {
     "rotulo": "do IBS extinto à transferência ao ente (arts. 106 a 118)",
     "html": "<table><thead><tr><th>Etapa</th><th>O que acontece</th></tr></thead><tbody><tr><td><strong>1. Receita inicial</strong></td><td>IBS extinto e não creditado nas operações com destino no ente, inclusive juros e multa de mora; multas punitivas ficam fora</td></tr><tr><td><strong>2. Primeiro ajuste</strong></td><td>Dedução da devolução geral (cashback) e ajuste pela alíquota própria acima ou abaixo da de referência</td></tr><tr><td><strong>3. Segundo ajuste</strong></td><td>Dedução para financiar créditos presumidos e acréscimo do IBS de produtores rurais e transportadores autônomos não contribuintes</td></tr><tr><td><strong>4. Retenções</strong></td><td>Transição: 80% (2029 a 2032), 90% (2033) e redução de 1/45 por ano até 2077; mais 5% para a distribuição complementar</td></tr><tr><td><strong>5. Receita-Base</strong></td><td>Devolve-se o ajuste da alíquota própria (art. 111)</td></tr><tr><td><strong>6. Destinação ao Estado</strong></td><td>Somam-se multas punitivas da própria fiscalização; deduzem-se saldo credor de ICMS, estoque de ICMS-ST e devolução específica; depois Fundo de Combate à Pobreza, cota dos Municípios, Fundeb e financiamento do CGIBS</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Período de determinação",
+      "o_que_e": "Definido pelo CGIBS; não pode ser menor que 1 dia útil nem maior que o período de apuração do IBS (art. 104).",
+      "atencao": "Não há piso de um mês.",
+      "grupo": "Período e receita inicial"
+     },
+     {
+      "nome": "Prazo da transferência",
+      "o_que_e": "A receita relativa a cada período de determinação do montante a distribuir é transferida em até 3 dias úteis após o encerramento do período (art. 104).",
+      "grupo": "Período e receita inicial"
+     },
+     {
+      "nome": "Receita inicial",
+      "o_que_e": "IBS extinto e não apropriado como crédito nas operações com destino no ente, inclusive juros e multa de mora (art. 106).",
+      "grupo": "Período e receita inicial"
+     },
+     {
+      "nome": "Lançamento de ofício e estornos",
+      "o_que_e": "O IBS extinto por lançamento de ofício e o extinto por anulação ou estorno de crédito são receita do destino; o cancelamento de operação já distribuída reduz a receita no período em que ocorrer (art. 106, § 1º).",
+      "grupo": "Período e receita inicial"
+     },
+     {
+      "nome": "Fora da receita inicial",
+      "o_que_e": "O IBS das compras de produtores rurais e transportadores autônomos não contribuintes, distribuído pela participação de cada ente nos 12 meses anteriores, e o IBS pago pelos MEIs, que segue a LC 123/2006 (art. 106, § 3º).",
+      "grupo": "Período e receita inicial"
+     },
+     {
+      "nome": "Devolução geral",
+      "o_que_e": "Deduz-se da receita o valor da devolução geral do IBS às pessoas físicas, o cashback (art. 107).",
+      "grupo": "Ajustes"
+     },
+     {
+      "nome": "Financiamento dos créditos presumidos",
+      "o_que_e": "Percentual igual para todos os entes, deduzido da receita, que paga os créditos presumidos de compras de produtor rural e transportador autônomo não contribuintes, de resíduos para reciclagem, de bens usados de pessoa física para revenda, de cooperativas e os benefícios da Zona Franca de Manaus e das Áreas de Livre Comércio (arts. 108, I, e 112).",
+      "atencao": "Se faltar, o percentual sobe no período seguinte; se sobrar, o CGIBS pode reservar, reduzir o percentual ou devolver (art. 112, §§ 4º e 5º).",
+      "grupo": "Ajustes"
+     },
+     {
+      "nome": "Alíquota própria",
+      "o_que_e": "O ganho ou a perda de quem fixa alíquota acima ou abaixo da de referência é tirado antes das retenções e devolvido na Receita-Base do próprio ente (arts. 107 e 111).",
+      "grupo": "Ajustes"
+     },
+     {
+      "nome": "Receita-Base",
+      "o_que_e": "A receita depois das retenções, com a devolução do ajuste da alíquota própria (art. 111).",
+      "grupo": "Ajustes"
+     },
+     {
+      "nome": "Retenção da transição",
+      "o_que_e": "Parcela da receita de cada ente separada de 2029 a 2077 para ser repartida pelo coeficiente de participação (art. 109).",
+      "grupo": "Retenções e coeficiente"
+     },
+     {
+      "nome": "Coeficiente de participação",
+      "o_que_e": "Fatia de cada ente no valor retido, calculada pela receita média de referência (art. 114).",
+      "grupo": "Retenções e coeficiente"
+     },
+     {
+      "nome": "Receita média de referência",
+      "o_que_e": "Estado: ICMS depois da cota-parte municipal, mais contribuições a fundos estaduais em funcionamento em 30/4/2023 exigidas como condição de benefício de ICMS. Município: ISS e cota-parte do ICMS. DF: ICMS e ISS. Valores de 2019 a 2026, corrigidos pela variação nominal da arrecadação total de ICMS e ISS (art. 115).",
+      "grupo": "Retenções e coeficiente"
+     },
+     {
+      "nome": "Contestação do coeficiente",
+      "o_que_e": "O ente que discordar do coeficiente divulgado pode apresentar contestação em 30 dias; o CGIBS responde a todas em 90 dias depois da última, sem nova contestação nem recurso administrativo (art. 116, §§ 7º e 8º).",
+      "atencao": "O prazo é de 30 dias, e não 60, e não há recurso.",
+      "grupo": "Retenções e coeficiente"
+     },
+     {
+      "nome": "Distribuição complementar",
+      "o_que_e": "Retenção de 5%, de 2029 a 2077, distribuída de 2029 a 2096 aos entes com as menores razões entre a receita média do IBS dos 12 meses anteriores e a receita média de referência ajustada, que tem teto de 3 vezes a média per capita da sua esfera (arts. 110 e 117).",
+      "grupo": "Retenções e coeficiente"
+     },
+     {
+      "nome": "Multas punitivas",
+      "o_que_e": "Não se sujeitam às retenções da transição e são somadas à receita do ente que fez a fiscalização (arts. 109, parágrafo único, e 118, I).",
+      "atencao": "Não vão para o ente de destino da operação.",
+      "grupo": "Retenções e coeficiente"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "RECEITA É DO DESTINO E DO CONSUMO FINAL",
@@ -4108,8 +4472,28 @@
     "gabarito": "E",
     "explicacao": "Os rendimentos das aplicações financeiras do produto da arrecadação do IBS são distribuídos diretamente aos entes, fora do fluxo dos arts. 104 a 131, na proporção da receita do IBS calculada pelas alíquotas de referência nos 12 meses anteriores. São receitas patrimoniais e não entram na base das vinculações e das transferências constitucionais (art. 103 da LC 227/2026)."
    },
-   "aprofundamento": "<p><strong>Lançamento de ofício e estornos.</strong> O IBS extinto por lançamento de ofício é receita do ente de destino da operação; o montante extinto por anulação ou estorno de crédito também integra a receita do destino; o cancelamento de operação já distribuída reduz a receita no período em que ocorrer (art. 106, § 1º).</p><p><strong>O que fica fora da receita inicial.</strong> O IBS pago nas compras de produtores rurais e transportadores autônomos não contribuintes, que é distribuído pela participação de cada ente nos 12 meses anteriores, e o IBS pago pelos MEIs, que segue a LC 123/2006 (art. 106, § 3º).</p><p><strong>Créditos presumidos financiados.</strong> O percentual deduzido no art. 108, I, financia os créditos presumidos de compras de produtor rural e transportador autônomo não contribuintes, de resíduos para reciclagem, de bens usados de pessoa física para revenda, de cooperativas e os benefícios da Zona Franca de Manaus e das Áreas de Livre Comércio. Se a dedução for insuficiente, o percentual sobe no período seguinte; se sobrar, o CGIBS pode reservar, reduzir o percentual ou devolver (art. 112, §§ 4º e 5º).</p><p><strong>Receita média de referência.</strong> Para o Estado: ICMS depois da cota-parte municipal e contribuições a fundos estaduais em funcionamento em 30/4/2023 exigidas como condição de benefício de ICMS. Para o Município: ISS e cota-parte do ICMS. Para o DF: ICMS e ISS. Os valores anuais de 2019 a 2026 são corrigidos pela variação nominal da arrecadação total de ICMS e ISS (art. 115).</p><p><strong>Contestação do coeficiente.</strong> O ente pode contestar o coeficiente divulgado em 30 dias; o CGIBS responde a todas as contestações em 90 dias depois da última, sem nova contestação ou recurso administrativo (art. 116, §§ 7º e 8º).</p><p><strong>Distribuição complementar.</strong> O valor retido pelo art. 110 vai, de 2029 a 2096, aos entes com as menores razões entre a receita média do IBS dos 12 meses anteriores e a receita média de referência ajustada, que tem teto de 3 vezes a média per capita da respectiva esfera (art. 117).</p><p><strong>Multas punitivas.</strong> Não se sujeitam às retenções da transição e são acrescidas à receita do ente que promoveu a fiscalização (arts. 109, parágrafo único, e 118, I).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Retêm-se para a transição 90% de 2029 a 2032 e 80% em 2033.",
+     "certo": "É o contrário: 80% de 2029 a 2032 e 90% em 2033 (art. 109 da LC 227/2026).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O período de determinação do IBS a distribuir não pode ser inferior a um mês.",
+     "certo": "Não pode ser menor que 1 dia útil nem maior que o período de apuração (art. 104).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "As multas punitivas do IBS sofrem as retenções da transição e vão ao ente de destino.",
+     "certo": "Ficam fora das retenções e vão ao ente que fiscalizou (arts. 109 e 118).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O ente contesta o coeficiente de participação em 60 dias, e da resposta cabe recurso.",
+     "certo": "Contesta em 30 dias, sem recurso administrativo da resposta (art. 116).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "principio-do-destino",
     "comite-gestor-do-ibs",
@@ -4140,12 +4524,97 @@
     "ajustes",
     "silencio do contribuinte"
    ],
-   "resumo": "Na <strong>apuração assistida</strong>, o fisco calcula o saldo do mês para o contribuinte. O CGIBS, quanto ao IBS, e a RFB, quanto à CBS, podem apresentar ao sujeito passivo o saldo do período com base nos <strong>documentos fiscais eletrônicos</strong>, nas informações sobre a extinção dos débitos e em outras informações prestadas pelo contribuinte ou a ele relativas (art. 46 da LC 214/2025). O saldo segue a regra do art. 45: débitos dos fatos geradores do mês menos créditos apropriados no mesmo período, incluídos os presumidos e o saldo a recuperar anterior, apurados separadamente para IBS e CBS. Deduzidos os valores extintos por split payment, pelo adquirente ou pelo responsável, resulta <strong>saldo a recolher</strong> ou <strong>saldo a recuperar</strong>. Se o fisco apresentar a apuração assistida, o contribuinte <strong>só pode apurar mediante ajustes nela</strong>. Confirmá-la ou ajustá-la implica <strong>confissão de dívida</strong> e constitui o crédito tributário. Se o contribuinte não se manifestar no prazo de conclusão da apuração, <strong>presume-se correto o saldo</strong> e considera-se constituído o crédito. Nada disso impede o lançamento de ofício de diferenças verificadas depois, e a apuração assistida deve ser uniforme e sincronizada para o IBS e a CBS. O Regulamento do IBS fixou as datas: o CGIBS apresentará a apuração até o dia 20 do mês seguinte para os obrigados à DeRE e até o dia 15 para os demais.",
+   "para_entender": [
+    {
+     "texto": "<strong>Débito e crédito:</strong> como se forma o saldo do mês no IVA.",
+     "tema": "nao-cumulatividade-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Split payment:</strong> uma das formas de extinguir o débito antes da apuração.",
+     "tema": "split-payment"
+    },
+    {
+     "texto": "<strong>Regulamento do IBS:</strong> o ato do CGIBS que fixou as datas.",
+     "tema": "regulamento-do-ibs"
+    }
+   ],
+   "resumo": "Todo mês o contribuinte faz a <strong>apuração</strong>: confronta os débitos das suas vendas com os créditos das suas compras e chega a um saldo, separado para o IBS e para a CBS (art. 45 da LC 214/2025). Se o saldo é positivo, há <strong>saldo a recolher</strong>, o imposto a pagar; se é negativo, há <strong>saldo a recuperar</strong>, que pode ser compensado ou ressarcido. Na <strong>apuração assistida</strong>, o fisco faz essa conta pelo contribuinte: o CGIBS, no IBS, e a RFB, na CBS, apresentam o saldo calculado com os <strong>documentos fiscais eletrônicos</strong> e os dados de extinção dos débitos (art. 46). É como a declaração pré-preenchida do imposto de renda, só que mais forte: apresentada a assistida, o contribuinte só apura por <strong>ajustes</strong> nela. Confirmar, ajustar ou ficar em silêncio constitui o crédito tributário, sem lançamento do fisco. A apuração é a mesma para os dois tributos: deve ser <strong>uniforme e sincronizada</strong> para o IBS e a CBS (art. 46, § 8º). A tabela compara a LC 214/2025 com o Regulamento do IBS.",
    "esquema": {
     "rotulo": "LC 214/2025 e Regulamento do IBS",
     "html": "<table><thead><tr><th>Ponto</th><th>LC 214/2025 (art. 46)</th><th>Regulamento do IBS (art. 46)</th></tr></thead><tbody><tr><td><strong>Apresentação</strong></td><td>O CGIBS e a RFB poderão apresentar</td><td>O CGIBS apresentará: até o dia 20 (obrigados à DeRE) ou até o dia 15 (demais) do mês seguinte</td></tr><tr><td><strong>Ajustes</strong></td><td>Contribuinte só apura por ajustes na assistida</td><td>Ajustes positivos e negativos até o último dia útil do mês seguinte; uso obrigatório</td></tr><tr><td><strong>Confirmação ou ajuste</strong></td><td>Confissão de dívida; constitui o crédito</td><td>Igual (§ 6º)</td></tr><tr><td><strong>Silêncio</strong></td><td>Presume-se correto o saldo; constitui o crédito</td><td>Igual, até o prazo dos ajustes (§ 7º)</td></tr><tr><td><strong>Lançamento de ofício</strong></td><td>Continua possível para diferenças</td><td>Igual (§ 9º)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Apuração própria",
+      "o_que_e": "O contribuinte apura, separadamente, o saldo do IBS e o da CBS: débitos dos fatos geradores do período menos créditos apropriados no mesmo período, incluídos os presumidos e o saldo a recuperar anterior não usado (art. 45).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Ajustes e estorno",
+      "o_que_e": "O contribuinte pode fazer ajustes positivos ou negativos no saldo; entre eles, o estorno de crédito apropriado em período anterior, com multa e juros de mora desde a apropriação indevida (art. 45, §§ 1º e 2º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Dedução das extinções",
+      "o_que_e": "Do saldo deduzem-se os valores extintos por split payment, pelo adquirente ou pelo responsável; o resultado é saldo a recolher ou a recuperar (art. 45, § 3º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Confissão de dívida",
+      "o_que_e": "A apuração própria também implica confissão de dívida e constitui o crédito; é instrumento hábil e suficiente para exigir o IBS e a CBS (art. 45, §§ 4º e 5º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Prazo da apuração",
+      "o_que_e": "A apuração é entregue ao CGIBS e à RFB no prazo para conclusão da apuração, que o regulamento fixa (arts. 44, I, e 45, § 6º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Base da assistida",
+      "o_que_e": "Documentos fiscais eletrônicos, informações sobre a extinção dos débitos por qualquer modalidade do art. 27 e outras informações prestadas pelo contribuinte ou a ele relativas (art. 46, § 1º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Só por ajustes",
+      "o_que_e": "Apresentada a assistida, a apuração do contribuinte só pode ser feita mediante ajustes nela (art. 46, § 2º).",
+      "atencao": "Não existe apuração independente que prevaleça sobre a assistida.",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Uniforme e sincronizada",
+      "o_que_e": "A assistida do IBS e a da CBS seguem a mesma lógica e o mesmo tempo (art. 46, § 8º), embora cada tributo tenha o seu saldo.",
+      "atencao": "Não há metodologia nem calendário próprio de cada administração.",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Faculdade na lei, dever no regulamento",
+      "o_que_e": "A LC 214/2025 diz que o CGIBS e a RFB poderão apresentar a assistida; o Regulamento do IBS diz que o CGIBS apresentará, com datas fixas, e que ela é de uso obrigatório (art. 46, caput e § 2º, do Regulamento).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Conteúdo",
+      "o_que_e": "Os débitos de IBS extintos e o momento da extinção, por qualquer modalidade, e os créditos apropriados e o momento da apropriação (art. 46, § 10, do Regulamento).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Documento de arrecadação",
+      "o_que_e": "Se o saldo não contemplar todos os ajustes feitos, o contribuinte emite o documento de arrecadação com a correção necessária (art. 46, § 5º, do Regulamento).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Entrega da apuração própria",
+      "o_que_e": "Até o último dia útil do mês seguinte (art. 44, § 6º, do Regulamento).",
+      "grupo": "No Regulamento do IBS"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "A apuração assistida nasce dos documentos fiscais e da extinção dos débitos operação a operação, os mesmos dados que o CGIBS usa para saber o destino e distribuir o IBS."
+   ],
    "macetes": [
     {
      "sigla": "CONFIRMOU, AJUSTOU OU CALOU: CRÉDITO CONSTITUÍDO",
@@ -4165,8 +4634,28 @@
     "gabarito": "E",
     "explicacao": "Na ausência de manifestação do contribuinte no prazo, presume-se correto o saldo apurado e considera-se constituído o crédito tributário (art. 46, § 4º, da LC 214/2025). A apuração assistida é instrumento hábil e suficiente para a exigência do tributo."
    },
-   "aprofundamento": "<p><strong>Faculdade na lei, dever no regulamento.</strong> A LC 214/2025 diz que o CGIBS e a RFB poderão apresentar a apuração assistida; o Regulamento do IBS diz que o CGIBS apresentará, com datas fixas, e que ela será de uso obrigatório pelo contribuinte (art. 46, caput e § 2º, do Regulamento).</p><p><strong>Conteúdo.</strong> A apuração assistida traz os débitos de IBS extintos e o momento da extinção, por qualquer modalidade, e os créditos apropriados e o momento da apropriação (art. 46, § 10, do Regulamento).</p><p><strong>Documento de arrecadação.</strong> Se o saldo resultante não contemplar todos os ajustes feitos, o contribuinte emite o documento de arrecadação com a correção necessária (art. 46, § 5º, do Regulamento).</p><p><strong>Apuração própria.</strong> A apuração feita pelo contribuinte, com ou sem assistida, também implica confissão de dívida e constitui o crédito tributário, e é entregue até o último dia útil do mês seguinte (art. 45, §§ 4º e 6º, da LC 214/2025; art. 44, § 6º, do Regulamento). O estorno de crédito apropriado em período anterior entra como ajuste, com multa e juros de mora desde a apropriação indevida (art. 45, § 2º).</p><p><strong>Ponte com a distribuição.</strong> Como a apuração assistida nasce dos documentos fiscais e da extinção dos débitos operação a operação, ela usa os mesmos dados que o CGIBS emprega para saber o destino e distribuir o IBS.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "A apuração assistida do IBS e a da CBS seguem metodologias e calendários definidos de forma independente por cada administração.",
+     "certo": "Devem ser uniformes e sincronizadas para os dois tributos (art. 46, § 8º).",
+     "fonte": "Questão do app sobre o art. 46 da LC 214/2025"
+    },
+    {
+     "errado": "Apresentada a apuração assistida, o contribuinte pode entregar apuração própria independente, que prevalece sobre ela.",
+     "certo": "Só pode apurar mediante ajustes na assistida (art. 46, § 2º).",
+     "fonte": "Questão do app sobre o art. 46 da LC 214/2025"
+    },
+    {
+     "errado": "Sem manifestação do contribuinte no prazo, a apuração assistida perde efeito e ele deve apurar sozinho.",
+     "certo": "Presume-se correto o saldo e considera-se constituído o crédito (art. 46, § 4º).",
+     "fonte": "Questão do app sobre o art. 46 da LC 214/2025"
+    },
+    {
+     "errado": "O CGIBS apresenta a apuração assistida até o dia 15 do mês seguinte para os obrigados à DeRE e até o dia 20 para os demais.",
+     "certo": "É o contrário: dia 20 para os obrigados à DeRE e dia 15 para os demais.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    }
+   ],
    "relacionados": [
     "ressarcimento-e-pagamento-indevido-do-ibs-e-da-cbs",
     "regulamento-do-ibs",
@@ -4199,12 +4688,109 @@
     "in rfb 2275",
     "decreto 11208"
    ],
-   "resumo": "Toda pessoa ou entidade sujeita ao IBS e à CBS deve ter <strong>cadastro com identificação única</strong>, administrado pela RFB: o <strong>CPF</strong> para pessoas físicas, o <strong>CNPJ</strong> para pessoas jurídicas e entidades sem personalidade e o <strong>CIB</strong>, Cadastro Imobiliário Brasileiro, para imóveis urbanos e rurais (art. 59, § 1º, da LC 214/2025). O CIB é o <strong>inventário dos imóveis</strong> formado com dados enviados pelos cadastros de origem e integra o <strong>Sinter</strong>, Sistema Nacional de Gestão de Informações Territoriais (art. 265). O código do CIB deve constar de todos os documentos de obra de construção civil expedidos pelo Município. A lei deu prazos para a adoção: 12 meses para os órgãos federais, os serviços notariais e registrais, as capitais e o DF; 24 meses para os órgãos estaduais e os demais Municípios (art. 266). O Sinter também é a via do <strong>valor de referência</strong> do imóvel: as administrações tributárias podem estimá-lo pelo valor de mercado, ele é divulgado no Sinter, estimado para todos os imóveis do CIB, atualizado anualmente e pode ser impugnado (art. 256). Os cartórios compartilham com o fisco, por meio do Sinter, as informações das operações com imóveis. A <strong>IN RFB 2.275/2025</strong> obrigou notários e registradores a integrarem-se ao Sinter, a enviar as informações imediatamente após a lavratura ou o registro e a adotar o código do CIB nos sistemas e nos documentos.",
+   "para_entender": [
+    {
+     "texto": "<strong>Imóveis no IBS e na CBS:</strong> o regime específico das operações com bens imóveis.",
+     "tema": "regimes-especificos-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Arbitramento:</strong> quando o fisco fixa o valor da operação.",
+     "tema": "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Para cobrar o IBS e a CBS, o fisco precisa saber quem é quem e o que é o quê. Por isso, toda pessoa ou entidade sujeita aos dois tributos tem um <strong>cadastro com identificação única</strong>, administrado pela RFB (art. 59 da LC 214/2025). Os imóveis também ganham o seu número: o <strong>CIB</strong>, Cadastro Imobiliário Brasileiro, uma espécie de CPF do imóvel. Ele é o inventário dos imóveis urbanos e rurais e integra o <strong>Sinter</strong>, Sistema Nacional de Gestão de Informações Territoriais, que reúne os dados sobre imóveis das administrações e dos cartórios (art. 265). Pelo Sinter circula também o <strong>valor de referência</strong>, a estimativa do valor de mercado de cada imóvel feita pelo fisco (art. 256). Ele serve de prova quando o fisco arbitra o valor da operação, mas não a substitui como base. A <strong>IN RFB 2.275/2025</strong> pôs os cartórios na rede: eles se integram ao Sinter e informam cada ato logo depois de praticá-lo. A tabela resume os instrumentos.",
    "esquema": {
     "rotulo": "Sinter, CIB e valor de referência",
     "html": "<table><thead><tr><th>Instrumento</th><th>O que é</th><th>Base</th></tr></thead><tbody><tr><td><strong>Sinter</strong></td><td>Sistema que integra dados territoriais e recebe as informações de cartórios sobre operações com imóveis</td><td>Art. 2º do Decreto 11.208/2022; art. 256, § 4º, da LC 214/2025</td></tr><tr><td><strong>CIB</strong></td><td>Código de identificação única de cada imóvel urbano ou rural; cadastro administrado pela RFB</td><td>Art. 4º do Decreto 11.208/2022; arts. 59 e 265 da LC 214/2025</td></tr><tr><td><strong>Valor de referência</strong></td><td>Estimativa do valor de mercado, divulgada no Sinter e atualizada anualmente</td><td>Art. 256 da LC 214/2025</td></tr><tr><td><strong>Dever dos cartórios</strong></td><td>Integrar-se ao Sinter, enviar dados logo após o ato e usar o código CIB</td><td>IN RFB 2.275/2025</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "CPF, CNPJ e CIB",
+      "o_que_e": "Os três cadastros da RFB para o IBS e a CBS: CPF para pessoas físicas; CNPJ para pessoas jurídicas e entidades sem personalidade; CIB para imóveis urbanos e rurais (art. 59, § 1º).",
+      "atencao": "O CIB é da RFB, e não dos Municípios.",
+      "grupo": "Cadastro"
+     },
+     {
+      "nome": "Ambiente nacional",
+      "o_que_e": "As informações cadastrais têm integração, sincronização, cooperação e compartilhamento obrigatório entre as administrações tributárias federal, estaduais, distrital e municipais, com gestão compartilhada pelo CGSIM (art. 59, §§ 2º e 3º).",
+      "grupo": "Cadastro"
+     },
+     {
+      "nome": "Cadastros de origem",
+      "o_que_e": "Os cadastros que enviam os dados que formam o CIB e devem seguir os critérios de atribuição do código (art. 265, § 1º).",
+      "grupo": "Cadastro"
+     },
+     {
+      "nome": "CIB nos documentos de obra",
+      "o_que_e": "O código deve constar de todos os documentos de obra de construção civil expedidos pelo Município (art. 265, § 2º).",
+      "atencao": "É documento do Município, e não do Estado.",
+      "grupo": "Cadastro"
+     },
+     {
+      "nome": "Prazo de 12 meses",
+      "o_que_e": "Órgãos da administração federal direta e indireta e serviços notariais e registrais adequam os sistemas; capitais dos Estados e DF incluem o código CIB (art. 266, I).",
+      "grupo": "Prazos do CIB"
+     },
+     {
+      "nome": "Prazo de 24 meses",
+      "o_que_e": "Órgãos da administração estadual direta e indireta adequam os sistemas; os demais Municípios incluem o código CIB (art. 266, II).",
+      "atencao": "Cartórios ficam nos 12 meses, e não nos 24.",
+      "grupo": "Prazos do CIB"
+     },
+     {
+      "nome": "Metodologia do valor de referência",
+      "o_que_e": "Considera preços do mercado imobiliário, informações das administrações tributárias de todos os entes, informações de cartórios e características do imóvel, como localização, tipologia, destinação, data, padrão e área de construção (art. 256, caput).",
+      "grupo": "Valor de referência"
+     },
+     {
+      "nome": "Prova no arbitramento",
+      "o_que_e": "O valor de referência pode ser meio de prova no arbitramento do valor da operação, em conjunto com as demais características dela (art. 256, § 1º).",
+      "grupo": "Valor de referência"
+     },
+     {
+      "nome": "Divulgação e atualização",
+      "o_que_e": "Divulgado no Sinter, estimado para todos os imóveis do CIB e atualizado anualmente (art. 256, § 2º).",
+      "atencao": "A atualização é anual, e não a cada cinco anos.",
+      "grupo": "Valor de referência"
+     },
+     {
+      "nome": "Impugnação",
+      "o_que_e": "O valor de referência pode ser impugnado por procedimento específico do regulamento (art. 256, § 3º).",
+      "grupo": "Valor de referência"
+     },
+     {
+      "nome": "Compartilhamento pelos cartórios",
+      "o_que_e": "Os serviços registrais e notariais compartilham com o fisco, pelo Sinter, as informações das operações com imóveis (art. 256, § 4º).",
+      "grupo": "Valor de referência"
+     },
+     {
+      "nome": "Dever dos cartórios na IN RFB 2.275/2025",
+      "o_que_e": "Integrar-se ao Sinter, enviar as informações imediatamente após a lavratura ou o registro, por sistema eletrônico da RFB integrado ao Sinter e de forma estruturada, e adotar o código CIB nos sistemas e nos documentos.",
+      "atencao": "Não há prazo até o décimo dia útil do mês seguinte.",
+      "grupo": "IN RFB 2.275/2025"
+     },
+     {
+      "nome": "Alcance e sanção",
+      "o_que_e": "O compartilhamento abrange as operações com imóveis e os imóveis registrados, para apurar o valor de referência. O descumprimento é comunicado ao CNJ e sujeita às penalidades do art. 57 da MP 2.158-35/2001, com contraditório e ampla defesa.",
+      "grupo": "IN RFB 2.275/2025"
+     },
+     {
+      "nome": "Certidão negativa do imóvel",
+      "o_que_e": "Será emitida certidão negativa de débitos para os imóveis urbanos e rurais, nos termos do regulamento (art. 267).",
+      "grupo": "Outras obrigações"
+     },
+     {
+      "nome": "Obrigações de terceiros",
+      "o_que_e": "O CGIBS e a RFB podem criar, por ato conjunto, obrigações acessórias para terceiros ligados às operações com imóveis, como tabeliães, registradores de imóveis e juntas comerciais (art. 268).",
+      "grupo": "Outras obrigações"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "CPF DA PESSOA, CNPJ DA EMPRESA, CIB DO IMÓVEL",
@@ -4224,8 +4810,28 @@
     "gabarito": "E",
     "explicacao": "O CIB é cadastro administrado pela RFB, ao lado do CPF e do CNPJ (art. 59, § 1º, III, da LC 214/2025). É formado com dados enviados pelos cadastros de origem e integra o Sinter (art. 265). Os Municípios incluem o código CIB em seus sistemas e nos documentos de obra."
    },
-   "aprofundamento": "<p><strong>Valor de referência (art. 256).</strong> A metodologia considera preços praticados no mercado imobiliário, informações das administrações tributárias de todos os entes, informações dos serviços registrais e notariais e características do imóvel como localização, tipologia, destinação, padrão e área de construção. Pode ser impugnado por procedimento específico previsto no regulamento.</p><p><strong>IN RFB 2.275/2025.</strong> O compartilhamento abrange as operações com imóveis e os imóveis registrados, para apuração do valor de referência, e é feito por sistema eletrônico da RFB integrado ao Sinter, de forma estruturada. O descumprimento é comunicado ao Conselho Nacional de Justiça e sujeita o infrator às penalidades do art. 57 da MP 2.158-35/2001, observados o contraditório e a ampla defesa.</p><p><strong>Outras obrigações.</strong> Será emitida certidão negativa de débitos para os imóveis urbanos e rurais (art. 267), e o CGIBS e a RFB podem criar, por ato conjunto, obrigações acessórias para terceiros ligados às operações com imóveis, como tabeliães, registradores e juntas comerciais (art. 268).</p><p><strong>Ambiente nacional.</strong> As informações cadastrais têm integração, sincronização e compartilhamento obrigatório entre as administrações tributárias federal, estaduais, distrital e municipais, em ambiente nacional gerido pelo CGSIM (art. 59, §§ 2º e 3º).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O valor de referência dos imóveis é atualizado a cada cinco anos.",
+     "certo": "É atualizado anualmente (art. 256, § 2º, III).",
+     "fonte": "Questão do app sobre o art. 256 da LC 214/2025"
+    },
+    {
+     "errado": "Os serviços notariais e registrais têm 24 meses para adotar o CIB.",
+     "certo": "Têm 12 meses (art. 266, I, b).",
+     "fonte": "Questão do app sobre o art. 266 da LC 214/2025"
+    },
+    {
+     "errado": "O código do CIB deve constar dos documentos de obra expedidos pelo Estado.",
+     "certo": "Dos documentos de obra expedidos pelo Município (art. 265, § 2º).",
+     "fonte": "Questão do app sobre o art. 265 da LC 214/2025"
+    },
+    {
+     "errado": "Os cartórios informam os atos com imóveis ao Sinter até o décimo dia útil do mês seguinte.",
+     "certo": "Informam imediatamente após a lavratura ou o registro.",
+     "fonte": "Questão do app sobre a IN RFB 2.275/2025"
+    }
+   ],
    "relacionados": [
     "documentos-fiscais-eletronicos-da-reforma",
     "regimes-diferenciados-do-ibs-e-da-cbs"
@@ -4251,18 +4857,92 @@
     "credito presumido",
     "cclasstrib",
     "cst",
-    "informe tecnico 2025.002",
+    "informe tecnico 2025 002",
     "produtor rural",
     "transportador autonomo",
     "bens usados",
     "zona franca"
    ],
-   "resumo": "<strong>Crédito presumido</strong> é o crédito de IBS ou de CBS que a lei concede ao comprador sem que tenha havido tributo cobrado na etapa anterior, como na compra de produtor rural não contribuinte. Para que esse crédito apareça nos documentos fiscais de forma padronizada, os portais nacionais dos documentos fiscais publicaram a <strong>Tabela de Classificação do Crédito Presumido (cCredPres)</strong>, divulgada pelo <strong>Informe Técnico 2025.002</strong> junto com a tabela de classificação tributária (cClassTrib) e a tabela de CST. Cada código cCredPres identifica uma <strong>hipótese legal</strong> de crédito presumido da LC 214/2025. A tabela informa a descrição, o dispositivo da lei, se o crédito é apropriado no próprio documento fiscal ou por <strong>evento</strong>, se é deduzido do valor do tributo do item, quais grupos de IBS e CBS devem ser preenchidos, as orientações de alíquota e as datas de início e fim da vigência. Na versão consultada há 13 códigos: 1 (produtor rural não contribuinte, art. 168), 2 (transportador autônomo de carga pessoa física, art. 169), 3 (resíduos para reciclagem, art. 170), 4 (bens móveis usados de pessoa física para revenda, art. 171), 5 e 6 (regime automotivo, só CBS), 7 a 10 (Zona Franca de Manaus) e 11 a 13 (Áreas de Livre Comércio). A tabela não cria crédito: ela só codifica o que a lei já concede.",
+   "para_entender": [
+    {
+     "texto": "<strong>Crédito no IVA:</strong> por que o comprador abate o imposto das compras.",
+     "tema": "nao-cumulatividade-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Documento fiscal eletrônico:</strong> onde o código cCredPres é informado.",
+     "tema": "documentos-fiscais-eletronicos-da-reforma"
+    }
+   ],
+   "resumo": "<strong>Crédito presumido</strong> é o crédito de IBS ou de CBS que a lei dá ao comprador sem que tenha havido tributo cobrado na etapa anterior. Exemplo: o frigorífico que compra boi de um produtor rural não contribuinte não recebe IBS destacado na nota, mas a lei lhe concede um crédito para não perder a neutralidade (art. 168 da LC 214/2025). Para que esse crédito apareça nos documentos fiscais de forma padronizada, os portais nacionais publicaram a <strong>Tabela de Classificação do Crédito Presumido (cCredPres)</strong>, divulgada pelo <strong>Informe Técnico 2025.002</strong>. Cada código identifica uma <strong>hipótese legal</strong> de crédito presumido e o dispositivo da lei que a prevê. A tabela não cria crédito: só codifica o que a lei já concede. Ela convive com duas outras do mesmo informe, a de CST e a cClassTrib. Os códigos estão na tabela.",
    "esquema": {
     "rotulo": "códigos da tabela cCredPres (consulta em 20/11/2026)",
     "html": "<table><thead><tr><th>Código</th><th>Hipótese (LC 214/2025)</th><th>Tributos</th><th>Como apropriar</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>Produtor rural e produtor integrado não contribuintes (art. 168)</td><td>IBS e CBS</td><td>Por evento</td></tr><tr><td><strong>2</strong></td><td>Transportador autônomo de carga pessoa física não contribuinte (art. 169)</td><td>IBS e CBS</td><td>Por evento</td></tr><tr><td><strong>3</strong></td><td>Resíduos para reciclagem, reutilização ou logística reversa (art. 170)</td><td>IBS e CBS</td><td>Por evento</td></tr><tr><td><strong>4</strong></td><td>Bens móveis usados de pessoa física para revenda (art. 171)</td><td>IBS e CBS</td><td>No documento fiscal ou por evento; deduz do tributo do item</td></tr><tr><td><strong>5 e 6</strong></td><td>Regime automotivo (arts. 311 e 312)</td><td>Só CBS</td><td>No documento fiscal</td></tr><tr><td><strong>7 a 10</strong></td><td>Zona Franca de Manaus (arts. 444, 447, 449 e 450)</td><td>7, 8 e 9: IBS; 10: CBS</td><td>Varia por código</td></tr><tr><td><strong>11 a 13</strong></td><td>Áreas de Livre Comércio (arts. 462, 465 e 467)</td><td>11 e 12: IBS; 13: CBS</td><td>Varia por código</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "CST",
+      "o_que_e": "Código de situação tributária: diz a situação do item, como tributação integral, redução, isenção e outras.",
+      "grupo": "As três tabelas"
+     },
+     {
+      "nome": "cClassTrib",
+      "o_que_e": "Código de classificação tributária: detalha a classificação da operação dentro do CST.",
+      "grupo": "As três tabelas"
+     },
+     {
+      "nome": "cCredPres",
+      "o_que_e": "Só aparece quando há crédito presumido e diz qual hipótese legal está sendo usada.",
+      "atencao": "Não é a classificação tributária da operação nem substitui o CST.",
+      "grupo": "As três tabelas"
+     },
+     {
+      "nome": "Apropriação por evento",
+      "o_que_e": "O crédito é lançado por um evento registrado depois, e não no próprio documento fiscal. É a regra dos códigos 1, 2 e 3: produtor rural, transportador autônomo e resíduos.",
+      "grupo": "Campos da tabela"
+     },
+     {
+      "nome": "indDeduzCredPres",
+      "o_que_e": "Indica se o crédito é deduzido no cálculo do valor do tributo do item. No código 4, de bens móveis usados, o crédito é apropriado no documento fiscal ou por evento e é deduzido do tributo do item.",
+      "grupo": "Campos da tabela"
+     },
+     {
+      "nome": "Demais campos",
+      "o_que_e": "Descrição, dispositivo da LC 214/2025, indicadores de preenchimento dos grupos de crédito presumido da CBS e do IBS, orientações de alíquota, cClass da nota referenciada e as datas de início e fim da vigência (dIniVig e dFimVig).",
+      "grupo": "Campos da tabela"
+     },
+     {
+      "nome": "Vigência por tributo",
+      "o_que_e": "Na consulta ao portal em 20/11/2026, a maioria dos códigos começava em 1º/1/2027. No código 3, a CBS começa em 1º/1/2027 e o IBS em 1º/1/2029; nos códigos 9 e 12, o IBS começa em 1º/1/2029.",
+      "grupo": "Campos da tabela"
+     },
+     {
+      "nome": "Regime automotivo",
+      "o_que_e": "Códigos 5 e 6 (arts. 311 e 312 da LC 214/2025): só CBS; para o IBS constam como não aplicáveis.",
+      "grupo": "Códigos que mais caem"
+     },
+     {
+      "nome": "Nota do produtor rural",
+      "o_que_e": "Na compra de produtor rural ou produtor integrado não contribuinte, o documento fiscal discrimina o valor da operação, que é o pago ao fornecedor, o valor do crédito presumido e o valor líquido para efeitos fiscais, a diferença entre os dois (art. 168, § 1º, da LC 214/2025).",
+      "grupo": "Códigos que mais caem"
+     },
+     {
+      "nome": "Quem financia no IBS",
+      "o_que_e": "Os créditos presumidos do IBS são pagos por um percentual deduzido da receita de todos os entes antes da distribuição, igual para todos (art. 108, I e § 2º, da LC 227/2026).",
+      "grupo": "Códigos que mais caem"
+     },
+     {
+      "nome": "Atualizações",
+      "o_que_e": "A tabela muda por novas versões do Informe Técnico 2025.002; a versão 1.40, de janeiro de 2026, por exemplo, adequou textos da cClassTrib à LC 227/2026.",
+      "atencao": "Confira sempre a versão vigente no portal.",
+      "grupo": "Códigos que mais caem"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "TRÊS TABELAS, TRÊS PERGUNTAS",
@@ -4282,8 +4962,28 @@
     "gabarito": "E",
     "explicacao": "A tabela é um instrumento técnico dos documentos fiscais eletrônicos, divulgado pelo Informe Técnico 2025.002 nos portais nacionais dos documentos fiscais. Cada código apenas identifica uma hipótese legal de crédito presumido já prevista na LC 214/2025, com o dispositivo correspondente."
    },
-   "aprofundamento": "<p><strong>Campos da tabela.</strong> cCredPres (código), descrição, dispositivo da LC 214/2025, indicação se apropria via documento fiscal ou via evento, indDeduzCredPres (se o crédito é deduzido no cálculo do valor do tributo do item), indicadores de preenchimento dos grupos de crédito presumido da CBS e do IBS, orientações de alíquota, cClass da nota referenciada e as datas dIniVig e dFimVig.</p><p><strong>Vigência por tributo.</strong> Na consulta ao portal em 20/11/2026, a maioria dos códigos tinha início de vigência em 1º/1/2027. No código 3, a CBS começa em 1º/1/2027 e o IBS em 1º/1/2029; nos códigos 9 e 12 (Zona Franca e Áreas de Livre Comércio), o IBS começa em 1º/1/2029.</p><p><strong>Documento fiscal do produtor rural.</strong> Na compra de produtor rural não contribuinte, o documento fiscal deve discriminar o valor da operação pago ao fornecedor, o valor do crédito presumido e o valor líquido para efeitos fiscais, que é a diferença entre os dois (art. 168, § 1º, da LC 214/2025).</p><p><strong>Quem paga a conta.</strong> No IBS, os créditos presumidos são financiados por um percentual deduzido da receita de todos os entes antes da distribuição, igual para todos (art. 108, I e § 2º, da LC 227/2026).</p><p><strong>Atualizações.</strong> A tabela muda por novas versões do Informe Técnico 2025.002; a versão 1.40, de janeiro de 2026, por exemplo, adequou textos da cClassTrib à LC 227/2026. Confira sempre a versão vigente no portal.</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Os códigos 5 e 6 da tabela cCredPres, do regime automotivo, valem para o IBS e para a CBS.",
+     "certo": "Valem só para a CBS.",
+     "fonte": "Questão do app sobre a tabela cCredPres"
+    },
+    {
+     "errado": "O código cCredPres é a classificação tributária da operação e substitui o CST.",
+     "certo": "Essa é a cClassTrib; o cCredPres só identifica a hipótese de crédito presumido, e o CST continua.",
+     "fonte": "Questão do app sobre a tabela cCredPres"
+    },
+    {
+     "errado": "O código 1 da tabela cCredPres é o da compra de bens móveis usados de pessoa física para revenda.",
+     "certo": "O código 1 é o do produtor rural não contribuinte; bens usados são o código 4.",
+     "fonte": "Questão do app sobre a tabela cCredPres"
+    },
+    {
+     "errado": "O crédito presumido de bens móveis usados só é apropriado por evento e não é deduzido do tributo do item.",
+     "certo": "É apropriado no documento fiscal ou por evento e é deduzido do tributo do item.",
+     "fonte": "Questão do app sobre a tabela cCredPres"
+    }
+   ],
    "relacionados": [
     "nao-cumulatividade-do-ibs-e-da-cbs",
     "documentos-fiscais-eletronicos-da-reforma",
@@ -4323,12 +5023,96 @@
     "modelo 77",
     "modelo 63"
    ],
-   "resumo": "O sujeito passivo do IBS e da CBS deve emitir <strong>documento fiscal eletrônico</strong> em todas as operações, inclusive exportações e importações, e as informações têm caráter declaratório e constituem confissão do valor devido (art. 60 da LC 214/2025). A emissão vale também para operações imunes, isentas, com alíquota zero ou suspensão e para transferências entre estabelecimentos do mesmo contribuinte. O Regulamento do IBS <strong>recepcionou</strong> os documentos já existentes, entre eles NF-e (modelo 55), NFC-e (65), NFS-e, CT-e (57), <strong>BP-e (63)</strong>, NF3e (66), NFCom (62) e <strong>NFGas (76)</strong>, e <strong>instituiu</strong> três novos: a <strong>NFAg</strong>, Nota Fiscal de Água e Saneamento Eletrônica (modelo 75), a <strong>DeRE</strong>, Declaração de Regimes Específicos, e a <strong>NF-e ABI</strong>, Nota Fiscal Eletrônica de Alienação de Bens Imóveis (modelo 77) (arts. 113 e 114). A DeRE é a declaração usada nos regimes específicos, como serviços financeiros, fundos de investimento e seguros, em que o débito do período é aferido pelo cotejo entre receitas e deduções declaradas. O BP-e, que documenta o transporte de passageiros, teve o leiaute ampliado pelas notas técnicas da reforma para abranger também o transporte aéreo. As <strong>plataformas digitais</strong> devem informar as operações que intermedeiam, identificando o fornecedor ainda que não contribuinte, e podem optar, com anuência do fornecedor, por emitir os documentos fiscais em nome dele, inclusive de forma consolidada.",
+   "para_entender": [
+    {
+     "texto": "<strong>Regulamento do IBS:</strong> o ato que recepcionou e instituiu os documentos.",
+     "tema": "regulamento-do-ibs"
+    },
+    {
+     "texto": "<strong>Regimes específicos:</strong> os setores que usam a DeRE em vez da nota.",
+     "tema": "regimes-especificos-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Apuração assistida:</strong> o saldo que o fisco monta a partir dos documentos.",
+     "tema": "apuracao-assistida-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "<strong>Documento fiscal eletrônico</strong> é o registro digital de cada operação, como a nota fiscal eletrônica, transmitido ao fisco no momento em que é emitido. No IBS e na CBS, o sujeito passivo deve emiti-lo em todas as operações com bens e serviços, inclusive exportações e importações (art. 60 da LC 214/2025). O documento não é mero aviso: as informações prestadas pelo sujeito passivo têm <strong>caráter declaratório</strong> e constituem <strong>confissão</strong> do valor devido, de modo que o fisco pode cobrar o que está nele sem lançar (art. 60, § 1º). O Regulamento do IBS fez duas coisas. <strong>Recepcionou</strong>, isto é, manteve, os documentos que já existiam, como NF-e, NFC-e, NFS-e e CT-e (art. 113). E <strong>instituiu</strong> três novos: NFAg, DeRE e NF-e ABI (art. 114). A <strong>DeRE</strong>, Declaração de Regimes Específicos, serve aos setores em que o débito sai do cotejo entre receitas e deduções declaradas, como serviços financeiros, fundos de investimento e seguros. As <strong>plataformas digitais</strong> informam as operações que intermedeiam, identificando o fornecedor ainda que não contribuinte. Os documentos que mais caem estão na tabela.",
    "esquema": {
     "rotulo": "documentos fiscais novos ou que mais caem (arts. 113 e 114 do Regulamento)",
     "html": "<table><thead><tr><th>Documento</th><th>Modelo</th><th>Situação no Regulamento</th><th>Para quê</th></tr></thead><tbody><tr><td><strong>NFAg</strong></td><td>75</td><td>Instituído (art. 114, I)</td><td>Fornecimento de água e saneamento</td></tr><tr><td><strong>DeRE</strong></td><td>Sem modelo numerado</td><td>Instituída (art. 114, II)</td><td>Declaração das operações dos regimes específicos</td></tr><tr><td><strong>NF-e ABI</strong></td><td>77</td><td>Instituído (art. 114, III)</td><td>Alienação de bens imóveis</td></tr><tr><td><strong>NFGas</strong></td><td>76</td><td>Recepcionado (art. 113, XI)</td><td>Fornecimento de gás</td></tr><tr><td><strong>BP-e</strong></td><td>63</td><td>Recepcionado (art. 113, VI)</td><td>Transporte de passageiros, inclusive o aéreo</td></tr><tr><td><strong>Documento de plataforma digital</strong></td><td>O do fornecedor</td><td>Opção com anuência do fornecedor (art. 20, §§ 9º e 10)</td><td>Emissão em nome do fornecedor, inclusive consolidada</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Operação sem imposto",
+      "o_que_e": "A emissão vale também para operações imunes, isentas, com alíquota zero ou suspensão e para transferência de bens entre estabelecimentos do mesmo contribuinte (art. 60, § 2º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Forma e prazos",
+      "o_que_e": "Seguem ato conjunto do CGIBS e da RFB, que deve permitir a emissão de documentos consolidados (art. 60, §§ 3º e 7º, este incluído pela LC 227/2026).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Compartilhamento",
+      "o_que_e": "Os documentos são compartilhados com todos os entes federativos no momento da autorização ou da recepção, com padrões técnicos uniformes (art. 60, § 4º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Documento idôneo",
+      "o_que_e": "O registro de informações que atende às exigências do regulamento (art. 60, § 6º).",
+      "grupo": "Na LC 214/2025"
+     },
+     {
+      "nome": "Recepcionados",
+      "o_que_e": "Entre outros: NF-e (modelo 55), NFC-e (65), NFS-e, CT-e (57), BP-e (63), NF3e (66), NFCom (62) e NFGas (76) (art. 113 do Regulamento).",
+      "atencao": "BP-e e NFGas foram recepcionados, e não instituídos.",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "BP-e",
+      "o_que_e": "Bilhete de Passagem Eletrônico, modelo 63, do transporte de passageiros; as notas técnicas da reforma ampliaram o leiaute para abranger também o transporte aéreo.",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Documentos auxiliares",
+      "o_que_e": "DANFAG (da NFAg), DANFGas (da NFGas) e DANFE-ABI (da NF-e ABI). O auxiliar só é usado depois da autorização de uso, cujo protocolo deve constar dele, salvo contingência, NFS-e, NFS-e Via e DeRE (art. 135).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Onde a DeRE aparece",
+      "o_que_e": "Na data da apuração assistida para os obrigados a ela (dia 20, art. 46), na apropriação de créditos na aquisição de serviços financeiros (art. 285) e nas informações do administrador de fundo de investimento sobre o fundo e cada cotista (art. 306).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Documento inidôneo",
+      "o_que_e": "O emitido por quem está com inscrição suspensa, inapta, baixada ou nula, o que indica destinatário nessas situações e o que não corresponde à operação real (art. 122). A situação inapta, suspensa, nula ou baixada no CNPJ impede a emissão (art. 121).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Transição",
+      "o_que_e": "Até 31/12/2032, valem no IBS os atos e documentações técnicas de documentos fiscais do CONFAZ, do CGNFS-e, do CGSN e da RFB editados até a publicação do Regulamento, no que não conflitarem (art. 151).",
+      "grupo": "No Regulamento do IBS"
+     },
+     {
+      "nome": "Emissão pela plataforma",
+      "o_que_e": "Com anuência do fornecedor residente no País, a plataforma pode emitir os documentos em nome dele, inclusive de forma consolidada, e pagar o IBS sobre o valor da operação intermediada, mantida a obrigação do fornecedor pelas diferenças, ou ser substituta tributária (art. 20 do Regulamento; art. 22 da LC 214/2025).",
+      "grupo": "Plataformas digitais"
+     },
+     {
+      "nome": "Nota emitida pela plataforma em 30 dias",
+      "o_que_e": "Se o fornecedor não emite o documento e a plataforma o emite em até 30 dias, pagando o imposto, os acréscimos e a multa por falta de emissão são exigidos só do fornecedor (art. 20, § 11, do Regulamento).",
+      "grupo": "Plataformas digitais"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Em consulta de 20/11/2026, os portais nacionais da NFAg e da NF-e ABI informavam que esses documentos estavam publicados como minuta, à espera de ato conjunto normativo para a forma definitiva."
+   ],
    "macetes": [
     {
      "sigla": "ÁGUA 75, GÁS 76, IMÓVEL 77",
@@ -4348,8 +5132,28 @@
     "gabarito": "E",
     "explicacao": "A NFGas, modelo 76, foi recepcionada pelo art. 113, XI, do Regulamento do IBS. Os documentos instituídos pelo art. 114 são a NFAg (modelo 75), a DeRE e a NF-e ABI (modelo 77)."
    },
-   "aprofundamento": "<p><strong>Documentos auxiliares.</strong> O Regulamento instituiu o DANFAG (da NFAg), o DANFGas (da NFGas) e o DANFE-ABI (da NF-e ABI). O documento auxiliar só pode ser usado depois da autorização de uso, cujo protocolo deve constar dele, salvo emissão em contingência, NFS-e, NFS-e Via e DeRE (art. 135).</p><p><strong>Onde a DeRE aparece.</strong> O CGIBS apresenta a apuração assistida até o dia 20 do mês seguinte para os obrigados à DeRE (art. 46). Os créditos na aquisição de serviços financeiros são apropriados com base nas informações da DeRE (art. 285), e o administrador de fundo de investimento informa por ela o fundo e cada cotista (art. 306).</p><p><strong>Plataformas digitais (art. 20 do Regulamento; art. 22 da LC 214/2025).</strong> A plataforma pode, com anuência do fornecedor residente no País, emitir documentos em nome dele e pagar o IBS com base no valor da operação intermediada, mantida a obrigação do fornecedor quanto a diferenças, ou ser substituta tributária. Se o fornecedor não emitir o documento e a plataforma o emitir em até 30 dias, pagando o imposto, os acréscimos e a multa por falta de emissão são exigidos só do fornecedor (art. 20, § 11).</p><p><strong>Documento inidôneo.</strong> Não é idôneo o documento emitido por quem está com inscrição suspensa, inapta, baixada ou nula, o que indica destinatário nessas situações ou o que não corresponde à operação real (art. 122). A situação cadastral inapta, suspensa, nula ou baixada no CNPJ impede a emissão (art. 121).</p><p><strong>Situação nos portais.</strong> Em consulta de 20/11/2026, os portais nacionais da NFAg e da NF-e ABI informavam que esses documentos estavam publicados como minuta, à espera de ato conjunto normativo para a forma definitiva.</p><p><strong>Regra de transição.</strong> Até 31/12/2032, aplicam-se no IBS os atos e documentações técnicas de documentos fiscais editados pelo CONFAZ, pelo CGNFS-e, pelo CGSN e pela RFB até a publicação do Regulamento, no que não conflitarem (art. 151).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "As informações do documento fiscal eletrônico são meramente informativas e dependem de lançamento de ofício para que o IBS e a CBS sejam exigidos.",
+     "certo": "Têm caráter declaratório e constituem confissão do valor devido (art. 60, § 1º).",
+     "fonte": "Questão do app sobre o art. 60 da LC 214/2025"
+    },
+    {
+     "errado": "Como os demais documentos fiscais, a DeRE é enviada ao adquirente e pode ser emitida em contingência.",
+     "certo": "A DeRE não é encaminhada ao adquirente nem tem emissão em contingência.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    },
+    {
+     "errado": "O BP-e, modelo 63, é um dos documentos instituídos pelo art. 114 do Regulamento do IBS.",
+     "certo": "Foi recepcionado (art. 113, VI); os instituídos são NFAg, DeRE e NF-e ABI.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    },
+    {
+     "errado": "A NFAg, instituída pelo Regulamento do IBS, é o modelo 77.",
+     "certo": "É o modelo 75; o 77 é a NF-e ABI.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    }
+   ],
    "relacionados": [
     "regulamento-do-ibs",
     "apuracao-assistida-do-ibs-e-da-cbs",
