@@ -762,31 +762,47 @@
       "slug": "propaganda-antecipada-e-propaganda-em-bens",
       "titulo": "Pré-campanha e propaganda em bens públicos, de uso comum e particulares",
       "grupo": "Propaganda eleitoral",
-      "base": "Lei 9.504/1997, arts. 36-A, 37 e 39",
+      "base": "Lei 9.504/1997, arts. 36, 36-A, 37, 39, 39-A, 40 e 40-B",
       "tax": [
         "constitucional.direitos-sociais-nacionalidade-cidadania-direitos"
       ],
       "dispositivos": [
+        "n9504-1997-art-36",
         "n9504-1997-art-36-a",
         "n9504-1997-art-37",
-        "n9504-1997-art-39"
+        "n9504-1997-art-39",
+        "n9504-1997-art-39-a",
+        "n9504-1997-art-40",
+        "n9504-1997-art-40-b"
       ],
       "conceitos": [
+        "propaganda só depois de 15 de agosto",
         "pré-campanha lícita sem pedido explícito de voto",
+        "multa da propaganda antecipada",
         "bens públicos e de uso comum",
         "conceito eleitoral de bem de uso comum",
         "bens particulares só com bandeira móvel ou adesivo de meio metro quadrado",
-        "propaganda em bem particular espontânea e gratuita",
+        "propaganda em bem particular sem pagamento",
         "Mesa Diretora decide no Legislativo",
+        "horários de som e comício",
         "showmício proibido",
         "trio elétrico só para sonorizar comício",
-        "outdoor proibido"
+        "outdoor proibido",
+        "crimes do dia da eleição",
+        "manifestação individual e silenciosa",
+        "responsabilidade do beneficiário com prévio conhecimento"
       ],
       "palavras": [
+        "propaganda eleitoral",
         "propaganda antecipada",
+        "quinze de agosto",
         "pre-campanha",
+        "pre-candidato",
         "pedido explicito de voto",
-        "art. 36-A",
+        "palavras magicas",
+        "pedido de apoio politico",
+        "previas partidarias",
+        "propaganda intrapartidaria",
         "bens publicos",
         "bens de uso comum",
         "estacionamento",
@@ -794,39 +810,154 @@
         "bens particulares",
         "adesivo meio metro quadrado",
         "bandeira movel",
-        "espontanea e gratuita",
-        "Mesa Diretora",
+        "muros",
+        "arvores",
+        "mesa diretora",
+        "alto-falantes",
+        "duzentos metros",
+        "comicio",
         "showmicio",
         "trio eletrico",
+        "carro de som",
+        "minitrio",
+        "oitenta decibeis",
         "outdoor",
         "brindes",
-        "camisetas"
+        "camisetas",
+        "boca de urna",
+        "dia da eleicao",
+        "manifestacao silenciosa",
+        "vestuario padronizado",
+        "fiscal partidario",
+        "simbolos de governo",
+        "previo conhecimento",
+        "quarenta e oito horas"
       ],
-      "resumo": "Antes do período oficial, <strong>não há propaganda antecipada</strong> na menção à pretensa candidatura e na exaltação das qualidades do pré-candidato, <strong>desde que não haja pedido explícito de voto</strong> (art. 36-A). É proibida propaganda em <strong>bens públicos e de uso comum</strong> (art. 37), e para a lei eleitoral são de uso comum não só os do Código Civil, mas também os <strong>lugares a que a população tem acesso</strong>, como lojas, clubes, centros comerciais e estacionamentos (§ 4º). Em bens públicos ou particulares só se admitem <strong>bandeiras móveis</strong> ao longo das vias e <strong>adesivo de até 0,5 m²</strong> em veículos e janelas residenciais (§ 2º), e a propaganda em bem particular deve ser <strong>espontânea e gratuita</strong> (§ 8º). Nas dependências do Legislativo, decide a <strong>Mesa Diretora</strong> (§ 3º). São proibidos showmício e artistas animando comício (art. 39, § 7º), outdoor (§ 8º) e brindes como camisetas (§ 6º); <strong>trio elétrico</strong> só para sonorização de comício (§ 10).",
+      "resumo": "<strong>Propaganda eleitoral</strong> é a que apresenta o candidato e pede o voto, e só é permitida <strong>depois de 15 de agosto</strong> do ano da eleição. Antes disso vem a <strong>pré-campanha</strong>: o pré-candidato pode dizer que pretende concorrer, exaltar as próprias qualidades, dar entrevistas, fazer encontros e divulgar ideias, desde que <strong>não peça voto de forma explícita</strong>. Se pedir, faz <strong>propaganda antecipada</strong>, punida com multa. Na campanha, a lei controla o lugar. Em <strong>bem público</strong> e em <strong>bem de uso comum</strong>, que para a lei eleitoral inclui lojas, clubes e outros lugares abertos ao público, mesmo privados, a propaganda é proibida; o esquema mostra o que vale em cada lugar. A lei também controla o meio: o <strong>comício</strong>, reunião pública com discursos, e o som têm horário, e <strong>showmício</strong>, outdoor e brindes ao eleitor são proibidos. No <strong>dia da eleição</strong>, o eleitor só pode se manifestar de forma individual e silenciosa, e comício, boca de urna ou propaganda nova são crimes. Por fim, quem se beneficia da propaganda irregular feita por outro só responde se tiver <strong>prévio conhecimento</strong> dela.",
       "esquema": {
         "rotulo": "onde pode propaganda",
-        "html": "<table><thead><tr><th>Local</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Bem público ou de uso comum (inclui loja, clube, estacionamento)</strong></td><td>Proibida</td><td>Art. 37, caput e § 4º</td></tr><tr><td><strong>Bem particular</strong></td><td>Só bandeira móvel ou adesivo até 0,5 m², espontâneo e gratuito</td><td>Art. 37, §§ 2º e 8º</td></tr><tr><td><strong>Dependências do Legislativo</strong></td><td>A critério da Mesa Diretora</td><td>Art. 37, § 3º</td></tr><tr><td><strong>Outdoor</strong></td><td>Proibido, inclusive eletrônico</td><td>Art. 39, § 8º</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Local</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Bem público ou de uso comum (inclui loja, clube, estacionamento)</strong></td><td>Proibida</td><td>Art. 37, caput e § 4º</td></tr><tr><td><strong>Bem particular</strong></td><td>Só bandeira móvel ou adesivo até 0,5 m², espontâneo e sem cobrança</td><td>Art. 37, §§ 2º e 8º</td></tr><tr><td><strong>Dependências do Legislativo</strong></td><td>A critério da Mesa Diretora</td><td>Art. 37, § 3º</td></tr><tr><td><strong>Outdoor</strong></td><td>Proibido, inclusive eletrônico</td><td>Art. 39, § 8º</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Pedido explícito de voto",
+            "o_que_e": "Pedido direto, como \"vote em mim\" ou \"conto com seu voto\".",
+            "atencao": "Para o TSE, também se configura por expressões de sentido equivalente, as chamadas palavras mágicas.",
+            "grupo": "Pré-campanha"
+          },
+          {
+            "nome": "Propaganda intrapartidária",
+            "o_que_e": "Divulgação do nome do postulante dentro do partido, para ser escolhido na convenção.",
+            "atencao": "Só na quinzena anterior à escolha, sem rádio, TV e outdoor.",
+            "grupo": "Pré-campanha"
+          },
+          {
+            "nome": "Bem de uso comum",
+            "o_que_e": "Para a lei eleitoral, os do Código Civil, como ruas e praças, e os lugares a que a população tem acesso, como cinemas, clubes, lojas, templos e estádios, ainda que privados.",
+            "grupo": "Lugares"
+          },
+          {
+            "nome": "Mobilidade",
+            "o_que_e": "Bandeira e mesa de distribuição de material são móveis quando colocadas e retiradas entre as 6 e as 22 horas.",
+            "grupo": "Lugares"
+          },
+          {
+            "nome": "Comício",
+            "o_que_e": "Reunião pública com discursos de candidatos.",
+            "atencao": "Com som fixo, das 8 às 24 horas; o de encerramento pode ir 2 horas além.",
+            "grupo": "Meios"
+          },
+          {
+            "nome": "Showmício",
+            "o_que_e": "Evento com apresentação de artistas para promover candidato.",
+            "atencao": "Proibido, com artista pago ou não: nem a cantora conhecida que se oferece para se apresentar sem cachê no comício pode. Não se confunde com o show em evento de arrecadação, que o STF admitiu (ADI 5970).",
+            "grupo": "Meios"
+          },
+          {
+            "nome": "Carro de som, minitrio e trio elétrico",
+            "o_que_e": "Veículos com som de até 10.000 watts, de mais de 10.000 a 20.000 watts e de mais de 20.000 watts de potência.",
+            "grupo": "Meios"
+          },
+          {
+            "nome": "Boca de urna",
+            "o_que_e": "Abordagem do eleitor no dia da eleição para pedir voto ou entregar propaganda.",
+            "atencao": "É crime (art. 39, § 5º, II).",
+            "grupo": "Dia da eleição"
+          },
+          {
+            "nome": "Manifestação individual e silenciosa",
+            "o_que_e": "A única forma de mostrar preferência no dia da eleição: bandeira, broche, dístico ou adesivo.",
+            "atencao": "Vale para o eleitor que vai votar sozinho, de adesivo na camisa e sem falar nada; distribuir santinho na fila não entra.",
+            "grupo": "Dia da eleição"
+          }
+        ]
       },
       "lei": [
         {
-          "texto": "Art. 36-A. Não configuram propaganda eleitoral antecipada, desde que não envolvam pedido explícito de voto, a menção à pretensa candidatura, a exaltação das qualidades pessoais dos pré-candidatos e os seguintes atos, que poderão ter cobertura dos meios de comunicação social, inclusive via internet:\n\n(...)\n\n§ 2º Nas hipóteses dos incisos I a VI do caput, são permitidos o pedido de apoio político e a divulgação da pré-candidatura, das ações políticas desenvolvidas e das que se pretende desenvolver.\n\n(...)",
+          "norma": "n9504-1997",
+          "artigos": [
+            "Art. 36.",
+            "Art. 36-A.",
+            "Art. 37.",
+            "Art. 39.",
+            "Art. 39-A.",
+            "Art. 40.",
+            "Art. 40-B."
+          ],
+          "ref": "arts. 36 a 40-B da Lei 9.504/1997",
+          "regras": [
+            "<strong>Art. 36, caput e §§ 1º e 2º.</strong> A propaganda eleitoral só é permitida depois de 15 de agosto do ano da eleição. Na quinzena anterior à escolha pelo partido, o postulante pode fazer propaganda intrapartidária para indicar seu nome, sem rádio, televisão e outdoor. Não se admite propaganda política paga no rádio e na televisão.",
+            "<strong>Art. 36, §§ 3º a 5º.</strong> Quem divulga propaganda fora do prazo e, provado o prévio conhecimento, o beneficiário pagam multa de R$ 5.000,00 a R$ 25.000,00, ou o custo da propaganda, se for maior. Na propaganda de candidato a cargo majoritário, o nome do vice ou dos suplentes de senador aparece de modo claro e legível, em tamanho de pelo menos 30% do nome do titular. A prova de que se cumpriu ordem da Justiça Eleitoral sobre propaganda irregular é apresentada no TSE (presidente e vice), no TRE (governador, vice, senador e deputados) ou no juízo eleitoral (prefeito, vice e vereador).",
+            "<strong>Art. 36-A, caput e I a VII.</strong> Sem pedido explícito de voto, não é propaganda antecipada mencionar a pretensa candidatura, exaltar as qualidades pessoais do pré-candidato e praticar os atos a seguir, que a imprensa e a internet podem cobrir: participar de entrevistas, programas, encontros ou debates no rádio, na TV e na internet, expondo plataformas e projetos, com tratamento isonômico pelas emissoras (I); fazer encontros, seminários ou congressos em ambiente fechado, pagos pelo partido, sobre a organização da eleição, políticas públicas, planos de governo ou alianças (II); fazer prévias partidárias, com material informativo, divulgação dos filiados que disputarão e debates entre pré-candidatos (III); divulgar atos de parlamentares e debates legislativos, sem pedir votos (IV); divulgar posicionamento pessoal sobre questões políticas, inclusive nas redes sociais (V); fazer, pagas pelo partido, reuniões de iniciativa da sociedade civil, de veículo de comunicação ou do próprio partido, em qualquer lugar, para divulgar ideias e propostas (VI); e fazer a arrecadação prévia por financiamento coletivo (VII).",
+            "<strong>Art. 36-A, §§ 1º a 3º.</strong> As emissoras de rádio e TV não transmitem as prévias partidárias ao vivo, mas podem cobri-las. Nos atos dos incisos I a VI, o pré-candidato pode pedir apoio político e divulgar a pré-candidatura e as ações que fez e que pretende fazer. Essa permissão não vale para o profissional de comunicação social no exercício da profissão.",
+            "<strong>Art. 37, caput e § 1º.</strong> Em bem público, em bem cujo uso dependa de cessão ou permissão do poder público e em bem de uso comum, inclusive postes, sinalização de trânsito, viadutos, passarelas, pontes, paradas de ônibus e outros equipamentos urbanos, é proibida propaganda de qualquer natureza, como pichação, pintura, placas, estandartes, faixas, cavaletes e bonecos. O responsável, notificado, restaura o bem; se não o fizer no prazo, paga multa de R$ 2.000,00 a R$ 8.000,00.",
+            "<strong>Art. 37, §§ 2º a 4º e 8º.</strong> O que se admite em bem particular, no Legislativo e em bem de uso comum está no esquema. O adesivo plástico de até 0,5 m² vale em automóveis, caminhões, bicicletas, motocicletas e janelas residenciais, e a bandeira, ao longo das vias, se for móvel e não atrapalhar o trânsito. No bem particular, é vedado qualquer pagamento em troca do espaço.",
+            "<strong>Art. 37, §§ 5º a 7º.</strong> Em árvores e jardins de áreas públicas e em muros, cercas e tapumes divisórios, nenhuma propaganda é permitida, mesmo que não cause dano. Podem-se pôr mesas para distribuir material e bandeiras ao longo das vias, desde que móveis e sem atrapalhar o trânsito de pessoas e veículos; a mobilidade está nas figuras.",
+            "<strong>Art. 39, caput e §§ 1º e 2º.</strong> Ato de propaganda, em recinto aberto ou fechado, não depende de licença da polícia. Quem o promove só comunica a autoridade policial pelo menos 24 horas antes, e ela garante o local contra quem queira usá-lo no mesmo dia e horário: se dois partidos querem a mesma praça, tem prioridade quem avisou primeiro. A polícia também toma as providências para o ato, o trânsito e os serviços públicos.",
+            "<strong>Art. 39, §§ 3º e 4º.</strong> Alto-falantes e amplificadores funcionam entre as 8 e as 22 horas, nunca a menos de 200 metros das sedes dos Poderes Executivo e Legislativo, dos tribunais e dos quartéis (I), dos hospitais e casas de saúde (II) e, quando em funcionamento, das escolas, bibliotecas públicas, igrejas e teatros (III). Comícios e som fixo vão das 8 às 24 horas, e o comício de encerramento pode ir 2 horas além, até as 2 da madrugada.",
+            "<strong>Art. 39, § 5º.</strong> No dia da eleição, são crimes, com detenção de seis meses a um ano, com a alternativa de prestação de serviços à comunidade pelo mesmo período, e multa de cinco mil a quinze mil UFIR: usar alto-falantes ou fazer comício ou carreata (I); arregimentar eleitor ou fazer boca de urna (II); divulgar qualquer propaganda de partido ou candidato (III); e publicar conteúdo novo ou impulsionar conteúdo na internet, podendo continuar no ar o que já estava publicado, mas sem pagar para impulsionar a postagem antiga (IV).",
+            "<strong>Art. 39, §§ 6º a 8º.</strong> Na campanha, é vedado fazer ou distribuir camisetas, chaveiros, bonés, canetas, brindes, cestas básicas ou qualquer bem que dê vantagem ao eleitor. São proibidos o showmício, o evento parecido e a apresentação de artistas, paga ou não, para animar comício ou reunião. O outdoor, inclusive eletrônico, é vedado: a empresa, os partidos, as coligações e os candidatos retiram a propaganda e pagam multa de R$ 5.000,00 a R$ 15.000,00.",
+            "<strong>Art. 39, §§ 9º a 12.</strong> Até as 22 horas da véspera da eleição, valem distribuição de material gráfico, caminhada, carreata, passeata e carro de som com jingles ou mensagens. O trio elétrico só se usa para sonorizar comício. Carro de som e minitrio circulam só em carreatas, caminhadas, passeatas, reuniões e comícios, até 80 decibéis medidos a 7 metros e respeitadas as distâncias do § 3º. A potência que define cada veículo está nas figuras; carro de som é também qualquer veículo, motorizado ou não, ou puxado por animal, que divulgue jingles ou mensagens (§ 9º-A).",
+            "<strong>Art. 39-A.</strong> No dia da eleição, o eleitor pode manifestar sua preferência de forma individual e silenciosa, só por bandeiras, broches, dísticos e adesivos. Até o fim da votação, é vedada a aglomeração de pessoas com roupa padronizada ou com esses objetos que caracterize manifestação coletiva, com ou sem veículos. No recinto das seções e juntas, servidores da Justiça Eleitoral, mesários e escrutinadores não usam roupa ou objeto com propaganda. O fiscal partidário só traz no crachá o nome e a sigla do partido ou coligação, vedada a roupa padronizada. Cópias do artigo são afixadas em lugares visíveis, dentro e fora das seções.",
+            "<strong>Art. 40.</strong> Usar na propaganda símbolos, frases ou imagens associadas ou semelhantes às de órgão de governo, empresa pública ou sociedade de economia mista é crime, com detenção de seis meses a um ano, com a alternativa de prestação de serviços à comunidade pelo mesmo período, e multa de dez mil a vinte mil UFIR.",
+            "<strong>Art. 40-B.</strong> A representação por propaganda irregular traz prova da autoria ou do prévio conhecimento do beneficiário, se não foi ele o autor. A responsabilidade do candidato fica demonstrada se, intimado, ele não retirar nem regularizar a propaganda no prazo legal, ou se as circunstâncias mostrarem que ele não podia desconhecê-la, como a faixa enorme com a foto dele que fica semanas na frente do comitê."
+          ],
+          "literalidades": [
+            {
+              "trecho": "não providenciar, no prazo de quarenta e oito horas, sua retirada ou regularização",
+              "marcas": [
+                "quarenta e oito horas"
+              ],
+              "afirmacao": "O candidato intimado da propaganda irregular tem vinte e quatro horas para retirá-la; depois disso, a responsabilidade dele fica demonstrada.",
+              "gabarito": "E",
+              "porque": "O prazo é de quarenta e oito horas (art. 40-B, parágrafo único)."
+            },
+            {
+              "trecho": "É vedada, no dia do pleito, até o término do horário de votação, a aglomeração de pessoas portando vestuário padronizado",
+              "marcas": [
+                "até o término do horário de votação"
+              ],
+              "afirmacao": "A vedação de aglomeração com roupa padronizada vale durante todo o dia da eleição, mesmo depois de encerrada a votação.",
+              "gabarito": "E",
+              "porque": "Ela vale no dia do pleito até o término do horário de votação (art. 39-A, § 1º)."
+            }
+          ],
+          "conferido": {
+            "Art. 36.": "08ee2edd32ab",
+            "Art. 36-A.": "0c1e0fc55cb4",
+            "Art. 37.": "e15916726bde",
+            "Art. 39.": "6c342eec8dc1",
+            "Art. 39-A.": "e2c0e9eb76a7",
+            "Art. 40.": "857f970761c4",
+            "Art. 40-B.": "c3ab869e047c"
+          },
           "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 37. Nos bens cujo uso dependa de cessão ou permissão do poder público, ou que a ele pertençam, e nos bens de uso comum, inclusive postes de iluminação pública, sinalização de tráfego, viadutos, passarelas, pontes, paradas de ônibus e outros equipamentos urbanos, é vedada a veiculação de propaganda de qualquer natureza, inclusive pichação, inscrição a tinta e exposição de placas, estandartes, faixas, cavaletes, bonecos e assemelhados.\n\n(...)\n\n§ 2º Não é permitida a veiculação de material de propaganda eleitoral em bens públicos ou particulares, exceto de:\n\nI - bandeiras ao longo de vias públicas, desde que móveis e que não dificultem o bom andamento do trânsito de pessoas e veículos;\n\nII - adesivo plástico em automóveis, caminhões, bicicletas, motocicletas e janelas residenciais, desde que não exceda a 0,5 m² (meio metro quadrado).\n\n§ 3º Nas dependências do Poder Legislativo, a veiculação de propaganda eleitoral fica a critério da Mesa Diretora.\n\n§ 4º Bens de uso comum, para fins eleitorais, são os assim definidos pela Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil e também aqueles a que a população em geral tem acesso, tais como cinemas, clubes, lojas, centros comerciais, templos, ginásios, estádios, ainda que de propriedade privada.\n\n(...)\n\n§ 8º A veiculação de propaganda eleitoral em bens particulares deve ser espontânea e gratuita, sendo vedado qualquer tipo de pagamento em troca de espaço para esta finalidade.",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 39. A realização de qualquer ato de propaganda partidária ou eleitoral, em recinto aberto ou fechado, não depende de licença da polícia.\n\n(...)\n\n§ 7º É proibida a realização de showmício e de evento assemelhado para promoção de candidatos, bem como a apresentação, remunerada ou não, de artistas com a finalidade de animar comício e reunião eleitoral.\n\n§ 8º É vedada a propaganda eleitoral mediante outdoors, inclusive eletrônicos, sujeitando-se a empresa responsável, os partidos, as coligações e os candidatos à imediata retirada da propaganda irregular e ao pagamento de multa no valor de R$ 5.000,00 (cinco mil reais) a R$ 15.000,00 (quinze mil reais).\n\n(...)\n\n§ 10. Fica vedada a utilização de trios elétricos em campanhas eleitorais, exceto para a sonorização de comícios.\n\n(...)",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html"
         }
       ],
+      "juris": [],
       "macetes": [
         {
           "sigla": "SEM PEDIDO DE VOTO, PRÉ-CAMPANHA VALE",
@@ -837,17 +968,27 @@
           "texto": "Mesmo privado, o lugar aberto ao público é bem de uso comum para fins eleitorais."
         }
       ],
-      "juris": [],
       "pegadinha": {
         "afirmacao": "É regular a propaganda eleitoral em estacionamento rotativo pago, de propriedade particular, com a concordância do proprietário.",
         "gabarito": "E",
-        "explicacao": "Lugar a que a população em geral tem acesso é bem de uso comum para fins eleitorais (art. 37, § 4º), e a propaganda é proibida. Na mesma questão, estava errado também permitir propaganda paga em bem particular (deve ser gratuita, § 8º) e vedá-la no Legislativo mesmo com permissão da Mesa (cabe à Mesa decidir, § 3º) (FGV, Juiz TJPE 2024)."
+        "explicacao": "Lugar a que a população em geral tem acesso é bem de uso comum para fins eleitorais (art. 37, § 4º), e a propaganda é proibida. Na mesma questão, estava errado também permitir propaganda paga em bem particular (deve ser sem cobrança, § 8º) e vedá-la no Legislativo mesmo com permissão da Mesa (cabe à Mesa decidir, § 3º) (FGV, Juiz TJPE 2024)."
       },
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "aprofundamento": "<p><strong>Inaugurações.</strong> A contratação de shows em inauguração de obras públicas e a presença de candidatos nesses eventos nos três meses anteriores ao pleito são condutas vedadas; esta era a opção correta. Estava errado dizer que toda menção à candidatura antes do prazo é propaganda antecipada (art. 36-A), que bens públicos para fins eleitorais são só os do Código Civil (§ 4º do art. 37) e que o trio elétrico é proibido em qualquer caso (pode sonorizar comício) (Cebraspe, Juiz TJDFT 2022).</p><p><strong>Data, multa e palavras mágicas.</strong> A propaganda eleitoral só é permitida depois de 15 de agosto do ano da eleição (art. 36). Antes disso, o responsável e o beneficiário, provado o prévio conhecimento, ficam sujeitos a multa de R$ 5.000 a R$ 25.000 ou ao custo da propaganda, se maior (art. 36, § 3º). Para o TSE, o pedido explícito de voto, que o art. 36-A proíbe na pré-campanha, também se configura com expressões semanticamente equivalentes, as \"palavras mágicas\".</p>",
-      "relacionados": [
-        "propaganda-na-internet",
-        "condutas-vedadas-aos-agentes-publicos"
+      "pegadinhas": [
+        {
+          "errado": "Toda menção à pretensa candidatura antes de 15 de agosto é propaganda antecipada.",
+          "certo": "Sem pedido explícito de voto, mencionar a candidatura e exaltar qualidades não é propaganda antecipada (art. 36-A).",
+          "fonte": "Cebraspe, Juiz TJDFT 2022"
+        },
+        {
+          "errado": "Para fins eleitorais, bens de uso comum são só os definidos no Código Civil.",
+          "certo": "Também os lugares a que a população tem acesso, como lojas, clubes e templos, ainda que privados (art. 37, § 4º).",
+          "fonte": "Cebraspe, Juiz TJDFT 2022"
+        },
+        {
+          "errado": "O trio elétrico é proibido em qualquer caso na campanha.",
+          "certo": "Ele pode ser usado para sonorizar comício (art. 39, § 10).",
+          "fonte": "Cebraspe, Juiz TJDFT 2022"
+        }
       ],
       "mudancas": [
         {
@@ -855,73 +996,141 @@
           "tipo": "juris",
           "nota": "Acrescidos o início da propaganda em 15 de agosto, a multa do art. 36, § 3º, e as \"palavras mágicas\" do TSE."
         }
+      ],
+      "relacionados": [
+        "propaganda-na-internet",
+        "condutas-vedadas-aos-agentes-publicos"
       ]
     },
     {
       "slug": "propaganda-na-internet",
       "titulo": "Propaganda eleitoral na internet",
       "grupo": "Propaganda eleitoral",
-      "base": "Lei 9.504/1997, arts. 57-A a 57-J",
+      "base": "Lei 9.504/1997, arts. 57-C, 57-D, 57-E, 57-H e 57-I",
       "tax": [
         "constitucional.direitos-sociais-nacionalidade-cidadania-direitos"
       ],
       "dispositivos": [
         "n9504-1997-art-57-c",
+        "n9504-1997-art-57-d",
         "n9504-1997-art-57-e",
+        "n9504-1997-art-57-h",
         "n9504-1997-art-57-i"
       ],
       "conceitos": [
         "propaganda paga vedada, salvo impulsionamento",
         "impulsionamento só por partidos, coligações e candidatos",
+        "provedor com sede no País",
         "vedação em sítios de pessoas jurídicas",
         "vedação em sítios oficiais, inclusive por link",
+        "vedação do anonimato",
+        "direito de resposta",
+        "retirada de ataques a candidatos",
         "proibição de venda de cadastro de e-mails",
         "fontes vedadas não cedem cadastros",
+        "autoria atribuída a terceiro",
+        "contratação de grupo para ofender",
         "suspensão do acesso ao conteúdo",
-        "duplicação a cada reiteração"
+        "duplicação a cada reiteração",
+        "conteúdo sintético e deepfake"
       ],
       "palavras": [
         "propaganda na internet",
         "impulsionamento",
+        "provedor",
         "sitio oficial",
         "pagina oficial",
         "link",
         "pessoa juridica",
+        "anonimato",
+        "direito de resposta",
+        "retirada de conteudo",
         "cadastro de enderecos eletronicos",
         "venda de cadastro",
         "e-mail",
+        "perfil falso",
+        "autoria",
+        "grupo contratado",
+        "ofender a honra",
         "suspensao do acesso",
         "vinte e quatro horas",
-        "retirada de conteudo",
-        "art. 57-C",
-        "art. 57-E",
-        "art. 57-I"
+        "reiteracao",
+        "previo conhecimento",
+        "inteligencia artificial",
+        "deepfake",
+        "conteudo sintetico"
       ],
-      "resumo": "É vedada propaganda eleitoral <strong>paga</strong> na internet, salvo o <strong>impulsionamento</strong> identificado e contratado por partidos, coligações, candidatos e seus representantes (art. 57-C). Mesmo gratuita, é proibida em sítios de <strong>pessoas jurídicas</strong> e em sítios <strong>oficiais ou hospedados pela administração pública</strong> (§ 1º); o TSE alcança até o <strong>link</strong> que apenas remete à página do candidato. É <strong>proibida a venda de cadastro de endereços eletrônicos</strong>, por qualquer pessoa (art. 57-E, § 1º), e as entidades que são fontes vedadas não podem ceder seus cadastros (caput). A pedido de candidato, partido ou coligação, a Justiça Eleitoral pode determinar a <strong>suspensão do acesso a todo o conteúdo</strong> da aplicação que descumprir a lei, com período <strong>duplicado a cada reiteração</strong> (art. 57-I).",
+      "resumo": "Na internet, a regra é a liberdade de manifestação, com duas travas: não pode haver <strong>anonimato</strong> durante a campanha, e o ofendido tem <strong>direito de resposta</strong>. A propaganda <strong>paga</strong> é vedada, com uma exceção: o <strong>impulsionamento</strong>, que é pagar ao provedor para o conteúdo chegar a mais pessoas, identificado como tal e contratado só por partidos, coligações, candidatos e seus representantes. O esquema mostra o que é vedado. Sítios de <strong>pessoas jurídicas</strong> e sítios <strong>oficiais</strong>, da administração pública, não podem trazer propaganda nem sem cobrança. A Justiça Eleitoral pode mandar retirar publicações com ataques a candidatos e, quando a lei é descumprida, suspender por até 24 horas o acesso ao conteúdo de uma <strong>aplicação de internet</strong>, como uma rede social; o período dobra a cada repetição. Quem publica propaganda atribuindo a autoria a outra pessoa paga multa, e contratar grupo para ofender candidatos na rede é crime, também para os contratados. A multa só alcança o <strong>beneficiário</strong>, o candidato favorecido, se ficar provado que ele sabia da propaganda.",
       "esquema": {
         "rotulo": "internet: o que é vedado",
-        "html": "<table><thead><tr><th>Conduta</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Propaganda paga</strong></td><td>Vedada, salvo impulsionamento por partido ou candidato</td><td>Art. 57-C</td></tr><tr><td><strong>Sítio de pessoa jurídica ou oficial</strong></td><td>Vedada, ainda que gratuita</td><td>Art. 57-C, § 1º</td></tr><tr><td><strong>Venda de cadastro de e-mails</strong></td><td>Proibida a qualquer pessoa</td><td>Art. 57-E, § 1º</td></tr><tr><td><strong>Descumprimento</strong></td><td>Suspensão do acesso ao conteúdo, duplicada na reiteração</td><td>Art. 57-I</td></tr></tbody></table>"
+        "html": "<table><thead><tr><th>Conduta</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td><strong>Propaganda paga</strong></td><td>Vedada, salvo impulsionamento por partido ou candidato</td><td>Art. 57-C</td></tr><tr><td><strong>Sítio de pessoa jurídica ou oficial</strong></td><td>Vedada, ainda que sem cobrança</td><td>Art. 57-C, § 1º</td></tr><tr><td><strong>Venda de cadastro de e-mails</strong></td><td>Proibida a qualquer pessoa</td><td>Art. 57-E, § 1º</td></tr><tr><td><strong>Descumprimento</strong></td><td>Suspensão do acesso ao conteúdo, duplicada na reiteração</td><td>Art. 57-I</td></tr></tbody></table>"
+      },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Impulsionamento",
+            "o_que_e": "Pagamento ao provedor para ampliar o alcance de um conteúdo.",
+            "atencao": "Precisa vir identificado de forma inequívoca como impulsionamento."
+          },
+          {
+            "nome": "Aplicação de internet",
+            "o_que_e": "Serviço acessado pela rede, como rede social, site ou aplicativo de mensagens."
+          },
+          {
+            "nome": "Sítio oficial",
+            "o_que_e": "Página de órgão ou entidade da administração direta ou indireta, de qualquer ente, ou hospedada por ela.",
+            "atencao": "Nem um link que só remeta à página do candidato é permitido."
+          },
+          {
+            "nome": "Conteúdo sintético",
+            "o_que_e": "Imagem, áudio ou vídeo criado ou alterado por inteligência artificial.",
+            "atencao": "A Res. TSE 23.732/2024 exige rótulo explícito e proíbe a deepfake para prejudicar ou favorecer candidatura."
+          }
+        ]
       },
       "lei": [
         {
-          "texto": "Art. 57-C. É vedada a veiculação de qualquer tipo de propaganda eleitoral paga na internet, excetuado o impulsionamento de conteúdos, desde que identificado de forma inequívoca como tal e contratado exclusivamente por partidos, coligações e candidatos e seus representantes.\n\n§ 1º É vedada, ainda que gratuitamente, a veiculação de propaganda eleitoral na internet, em sítios:\n\nI - de pessoas jurídicas, com ou sem fins lucrativos;\n\nII - oficiais ou hospedados por órgãos ou entidades da administração pública direta ou indireta da União, dos Estados, do Distrito Federal e dos Municípios.\n\n§ 2º A violação do disposto neste artigo sujeita o responsável pela divulgação da propaganda ou pelo impulsionamento de conteúdos e, quando comprovado seu prévio conhecimento, o beneficiário, à multa no valor de R$ 5.000,00 (cinco mil reais) a R$ 30.000,00 (trinta mil reais) ou em valor equivalente ao dobro da quantia despendida, se esse cálculo superar o limite máximo da multa.\n\n(...)",
+          "norma": "n9504-1997",
+          "artigos": [
+            "Art. 57-C.",
+            "Art. 57-D.",
+            "Art. 57-E.",
+            "Art. 57-H.",
+            "Art. 57-I."
+          ],
+          "ref": "arts. 57-C a 57-I da Lei 9.504/1997",
+          "regras": [
+            "<strong>Art. 57-C, caput e § 1º.</strong> O que é vedado na internet está no esquema. O impulsionamento admitido é o identificado de forma inequívoca e contratado só por partidos, coligações, candidatos e seus representantes. Os sítios vedados são os de pessoas jurídicas, com ou sem fins lucrativos (I), e os oficiais ou hospedados por órgãos ou entidades da administração direta ou indireta da União, dos Estados, do Distrito Federal e dos Municípios (II).",
+            "<strong>Art. 57-C, §§ 2º e 3º.</strong> Quem divulga a propaganda ou contrata o impulsionamento e, provado o prévio conhecimento, o beneficiário pagam multa de R$ 5.000,00 a R$ 30.000,00, ou o dobro do valor gasto, se for maior. O impulsionamento é contratado diretamente com provedor com sede e foro no País, ou com filial, sucursal, escritório ou representante aqui estabelecido, e só para promover ou beneficiar candidatos ou suas agremiações.",
+            "<strong>Art. 57-D.</strong> É livre a manifestação do pensamento na internet, vedado o anonimato durante a campanha, assegurado o direito de resposta, também nas mensagens eletrônicas. A violação gera multa de R$ 5.000,00 a R$ 30.000,00 ao responsável e, provado o prévio conhecimento, ao beneficiário. A pedido do ofendido, a Justiça Eleitoral pode mandar retirar publicações com agressões ou ataques a candidatos, inclusive em redes sociais, sem prejuízo das sanções civis e penais. O § 1º foi vetado.",
+            "<strong>Art. 57-E.</strong> As entidades do art. 24, que são fontes vedadas de doação, não podem usar, doar nem ceder o cadastro eletrônico de seus clientes a candidatos, partidos ou coligações. A venda de cadastro de endereços eletrônicos é proibida a todos. A violação gera multa de R$ 5.000,00 a R$ 30.000,00 ao responsável e, provado o prévio conhecimento, ao beneficiário.",
+            "<strong>Art. 57-H.</strong> Quem faz propaganda na internet atribuindo a autoria a terceiro, inclusive a candidato, partido ou coligação, como o apoiador que cria perfil falso e publica como se fosse o adversário, paga multa de R$ 5.000,00 a R$ 30.000,00. Contratar, direta ou indiretamente, grupo de pessoas com a finalidade específica de publicar mensagens ou comentários para ofender a honra ou denegrir a imagem de candidato, partido ou coligação é crime, com detenção de 2 a 4 anos e multa de R$ 15.000,00 a R$ 50.000,00. Os contratados também cometem crime, com pena menor e multa de R$ 5.000,00 a R$ 30.000,00.",
+            "<strong>Art. 57-I.</strong> A pedido de candidato, partido ou coligação, pelo rito do art. 96, a Justiça Eleitoral pode suspender o acesso a todo o conteúdo de uma aplicação de internet que descumprir a lei, por número de horas proporcional à gravidade, até o máximo de 24 horas. A cada reiteração, o período dobra. Durante a suspensão, a empresa avisa a quem tentar acessar que o serviço está temporariamente inoperante por desobediência à legislação eleitoral."
+          ],
+          "literalidades": [
+            {
+              "trecho": "§ 2º Igualmente incorrem em crime, punível com detenção de 6 (seis) meses a 1 (um) ano, com alternativa de prestação de serviços à comunidade pelo mesmo período",
+              "marcas": [
+                "6 (seis) meses a 1 (um) ano"
+              ],
+              "afirmacao": "As pessoas contratadas para ofender candidato na internet respondem com a mesma pena de quem as contratou, de 2 a 4 anos de detenção.",
+              "gabarito": "E",
+              "porque": "Os contratados respondem com detenção de seis meses a um ano, com a alternativa de prestação de serviços à comunidade, e multa (art. 57-H, § 2º)."
+            }
+          ],
+          "conferido": {
+            "Art. 57-C.": "89b5126fdf8a",
+            "Art. 57-D.": "5971813cb6c2",
+            "Art. 57-E.": "8a6cabb91f97",
+            "Art. 57-H.": "c5923c6f490c",
+            "Art. 57-I.": "eca965640550"
+          },
           "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 57-E. São vedadas às pessoas relacionadas no art. 24 a utilização, doação ou cessão de cadastro eletrônico de seus clientes, em favor de candidatos, partidos ou coligações.\n\n§ 1º É proibida a venda de cadastro de endereços eletrônicos.\n\n§ 2º A violação do disposto neste artigo sujeita o responsável pela divulgação da propaganda e, quando comprovado seu prévio conhecimento, o beneficiário à multa no valor de R$ 5.000,00 (cinco mil reais) a R$ 30.000,00 (trinta mil reais).",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 57-I. A requerimento de candidato, partido ou coligação, observado o rito previsto no art. 96 desta Lei, a Justiça Eleitoral poderá determinar, no âmbito e nos limites técnicos de cada aplicação de internet, a suspensão do acesso a todo conteúdo veiculado que deixar de cumprir as disposições desta Lei, devendo o número de horas de suspensão ser definida proporcionalmente à gravidade da infração cometida em cada caso, observado o limite máximo de vinte e quatro horas.\n\n§ 1º A cada reiteração de conduta, será duplicado o período de suspensão.\n\n(...)",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html"
         }
       ],
+      "juris": [],
       "macetes": [
         {
           "sigla": "NEM O LINK",
@@ -932,16 +1141,27 @@
           "texto": "A proibição vale para todos, pessoas físicas e jurídicas."
         }
       ],
-      "juris": [],
       "pegadinha": {
         "afirmacao": "Apenas pessoas físicas são autorizadas a vender cadastros de endereços eletrônicos para uso de partidos e candidatos.",
         "gabarito": "E",
         "explicacao": "A venda de cadastro de endereços eletrônicos é proibida a qualquer pessoa (art. 57-E, § 1º). Na mesma prova, estava certo dizer que a Justiça Eleitoral pode mandar retirar publicações e até suspender o acesso a todo o conteúdo de quem descumprir a lei (Cebraspe, Promotor MPSC 2023)."
       },
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "aprofundamento": "<p><strong>Link no sítio de órgão federal.</strong> É vedada a propaganda em sítio oficial ou hospedado pela administração, ainda que por link meramente remissivo à página do candidato. Estava errado dizer que a conduta é permitida fora do período eleitoral, que o fato de o órgão ser federal e o candidato municipal afasta a vedação, e que a multa atinge o beneficiário sem prova de prévio conhecimento (art. 57-C, § 2º, exige essa prova) (Cebraspe, Advogado da União AGU 2022).</p><p><strong>Anonimato e inteligência artificial.</strong> É livre a manifestação do pensamento na internet, vedado o anonimato durante a campanha e assegurado o direito de resposta (art. 57-D). Para as eleições de 2024, a Res. TSE 23.732/2024 alterou a Res. 23.610/2019 para exigir rótulo explícito em conteúdo sintético feito com inteligência artificial, proibir deepfake para prejudicar ou favorecer candidatura e impor deveres aos provedores.</p>",
-      "relacionados": [
-        "propaganda-antecipada-e-propaganda-em-bens"
+      "pegadinhas": [
+        {
+          "errado": "O link em sítio de órgão federal que só remete à página de candidato municipal é permitido, porque o órgão é federal e o candidato é municipal.",
+          "certo": "A vedação vale para sítio oficial de qualquer esfera, ainda que por link meramente remissivo (art. 57-C, § 1º, II).",
+          "fonte": "Cebraspe, Advogado da União AGU 2022"
+        },
+        {
+          "errado": "A multa por propaganda em sítio oficial alcança o beneficiário mesmo sem prova de que ele sabia.",
+          "certo": "O beneficiário só é multado se provado o prévio conhecimento (art. 57-C, § 2º).",
+          "fonte": "Cebraspe, Advogado da União AGU 2022"
+        },
+        {
+          "errado": "Quem faz propaganda na internet atribuindo a autoria a candidato adversário é punido com detenção de 2 a 4 anos.",
+          "certo": "A sanção é multa de R$ 5.000,00 a R$ 30.000,00; a detenção de 2 a 4 anos é de quem contrata grupo para ofender (art. 57-H).",
+          "fonte": "Questão do app sobre o art. 57-H"
+        }
       ],
       "mudancas": [
         {
@@ -949,6 +1169,9 @@
           "tipo": "juris",
           "nota": "Acrescidos a vedação do anonimato (art. 57-D) e as regras do TSE sobre inteligência artificial e deepfake."
         }
+      ],
+      "relacionados": [
+        "propaganda-antecipada-e-propaganda-em-bens"
       ]
     },
     {
@@ -969,10 +1192,15 @@
       "conceitos": [
         "agente público em sentido amplo",
         "uso de bens públicos em campanha",
+        "cessão de servidor a comitê",
         "transporte oficial do presidente com ressarcimento",
         "nomeações vedadas nos três meses até a posse",
+        "ressalvas da nomeação",
+        "transferência voluntária",
         "publicidade institucional nos três meses",
-        "distribuição gratuita no ano eleitoral e exceções",
+        "limite de gastos com publicidade no primeiro semestre",
+        "revisão geral acima da inflação",
+        "distribuição sem custo no ano eleitoral e exceções",
         "multa, suspensão e cassação",
         "multa duplicada na reincidência",
         "improbidade",
@@ -985,57 +1213,123 @@
         "estagiario",
         "transitoriamente sem remuneracao",
         "bens moveis",
+        "comite de campanha",
         "transporte oficial",
+        "residencia oficial",
         "ressarcimento",
         "comitiva",
         "nomeacao",
+        "concurso homologado",
+        "servico publico essencial",
         "tres meses",
         "ate a posse",
+        "transferencia voluntaria",
         "publicidade institucional",
-        "distribuicao gratuita",
+        "cadeia de radio e televisao",
+        "primeiro semestre",
+        "revisao geral",
         "ano eleitoral",
         "calamidade",
         "programa social",
         "cassacao do registro ou diploma",
         "multa duplicada",
         "improbidade",
+        "impessoalidade",
         "inauguracao",
         "show artistico",
         "abuso de poder",
         "gravidade",
-        "LC 64"
+        "lc 64"
       ],
-      "resumo": "Agente público, para o art. 73, é <strong>quem exerce, ainda que transitoriamente ou sem remuneração</strong>, qualquer função na administração (§ 1º), o que inclui o estagiário. Entre as condutas vedadas: usar bens públicos em favor de candidato (I), salvo o <strong>transporte oficial do presidente</strong> e comitiva, com ressarcimento pelo partido ou coligação (§ 2º e art. 76); nomear, contratar ou admitir servidores na circunscrição <strong>nos três meses anteriores até a posse dos eleitos</strong>, com as ressalvas legais (V); fazer <strong>publicidade institucional nos três meses</strong> anteriores (VI, b). No ano da eleição, fica proibida a <strong>distribuição gratuita</strong> de bens, salvo calamidade, emergência ou programa social autorizado em lei e já em execução no ano anterior (§ 10). As sanções são suspensão da conduta e <strong>multa</strong> ao agente e aos beneficiados (§§ 4º e 8º), <strong>cassação do registro ou diploma</strong> do candidato beneficiado, agente público ou não (§ 5º), multa <strong>duplicada na reincidência</strong> (§ 6º) e improbidade (§ 7º). O abuso de autoridade por violação da impessoalidade leva ao cancelamento do registro ou diploma (art. 74). Nos três meses, são vedados shows pagos em inaugurações e a presença de candidatos nelas (arts. 75 e 77). Já o <strong>abuso de poder</strong> exige desvirtuamento, benefício ao candidato e <strong>gravidade</strong> das circunstâncias (LC 64, art. 22, XVI).",
+      "resumo": "<strong>Condutas vedadas</strong> são atos que a lei proíbe aos <strong>agentes públicos</strong> na campanha porque põem a máquina pública a serviço de um candidato e desequilibram a disputa. Agente público, aqui, é qualquer pessoa que exerce mandato, cargo, emprego ou função na administração, ainda que por pouco tempo ou sem remuneração, como o estagiário. As condutas se agrupam em uso de bens, servidores e serviços públicos; movimentação de pessoal na <strong>circunscrição</strong>, a área da eleição; e gastos e publicidade em períodos fixos, a maioria nos <strong>três meses</strong> antes do pleito. No ano da eleição, a administração não pode distribuir bens, valores ou benefícios sem custo, salvo calamidade, emergência ou programa social já em execução. As sanções vão da suspensão da conduta e multa à <strong>cassação do registro ou do diploma</strong> do candidato beneficiado. O <strong>abuso de poder</strong> é figura mais ampla, apurada na AIJE, a ação de investigação judicial eleitoral: não depende de uma conduta da lista, mas exige <strong>gravidade</strong> das circunstâncias (LC 64, art. 22, XVI). O esquema compara os dois.",
       "esquema": {
         "rotulo": "conduta vedada x abuso de poder",
         "html": "<table><thead><tr><th></th><th>Conduta vedada</th><th>Abuso de poder</th></tr></thead><tbody><tr><td><strong>Base</strong></td><td>Lei 9.504, arts. 73 a 77</td><td>LC 64, art. 22</td></tr><tr><td><strong>Configuração</strong></td><td>Objetiva: basta praticar a conduta</td><td>Desvirtuamento, benefício e gravidade</td></tr><tr><td><strong>Sanções</strong></td><td>Multa, suspensão, cassação do registro ou diploma</td><td>Cassação e inelegibilidade</td></tr></tbody></table>"
       },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "Agente público",
+            "o_que_e": "Quem exerce mandato, cargo, emprego ou função na administração direta, indireta ou fundacional, por eleição, nomeação, designação, contratação ou qualquer vínculo, ainda que transitório ou sem remuneração.",
+            "atencao": "Inclui o estagiário."
+          },
+          {
+            "nome": "Transferência voluntária",
+            "o_que_e": "Repasse de recursos de um ente a outro que não decorre de obrigação constitucional ou legal, como o de um convênio."
+          },
+          {
+            "nome": "Publicidade institucional",
+            "o_que_e": "Divulgação de atos, programas, obras, serviços e campanhas de órgãos e entidades públicas."
+          },
+          {
+            "nome": "Revisão geral da remuneração",
+            "o_que_e": "Reajuste de todos os servidores de uma vez.",
+            "atencao": "No ano da eleição, não pode passar da recomposição da perda do poder aquisitivo do próprio ano."
+          },
+          {
+            "nome": "Uso promocional",
+            "o_que_e": "Aproveitar a entrega de um benefício social pago pelo poder público para promover candidato, partido ou coligação."
+          }
+        ]
+      },
       "lei": [
         {
-          "texto": "Art. 73. São proibidas aos agentes público, servidores ou não, as seguintes condutas tendentes a afetar a igualdade de oportunidades entre candidatos nos pleitos eleitorais:\n\nI - ceder ou usar, em benefício de candidato, partido político ou coligação, bens móveis ou imóveis pertencentes à administração direta ou indireta da União, dos Estados, do Distrito Federal, dos Territórios e dos Municípios, ressalvada a realização de convenção partidária;\n\n(...)\n\nV - nomear, contratar ou de qualquer forma admitir, demitir sem justa causa, suprimir ou readaptar vantagens ou por outros meios dificultar ou impedir o exercício funcional e, ainda, ex officio, remover, transferir ou exonerar servidor público, na circunscrição do pleito, nos três meses que o antecedem e até a posse dos eleitos, sob pena de nulidade de pleno direito, ressalvados:\n\n(...)\n\nVI - nos três meses que antecedem o pleito:\n\na) realizar transferência voluntária de recursos da União aos Estados e Municípios, e dos Estados aos Municípios, sob pena de nulidade de pleno direito, ressalvados os recursos destinados a cumprir obrigação formal preexistente para execução de obra ou serviço em andamento e com cronograma prefixado, e os destinados a atender situações de emergência e de calamidade pública;\n\nb) com exceção da propaganda de produtos e serviços que tenham concorrência no mercado, autorizar publicidade institucional dos atos, programas, obras, serviços e campanhas dos órgãos públicos federais, estaduais ou municipais, ou das respectivas entidades da administração indireta, salvo em caso de grave e urgente necessidade pública, assim reconhecida pela Justiça Eleitoral;\n\nc) fazer pronunciamento em cadeia de rádio e televisão, fora do horário eleitoral gratuito, salvo quando, a critério da Justiça Eleitoral, tratar-se de matéria urgente, relevante e característica das funções de governo;\n\n(...)\n\n§ 1º Reputa-se agente público, para os efeitos deste artigo, quem exerce, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nos órgãos ou entidades da administração pública direta, indireta, ou fundacional.\n\n§ 2º A vedação do inciso I do caput não se aplica ao uso, em campanha, de transporte oficial pelo Presidente da República, obedecido o disposto no art. 76, nem ao uso, em campanha, pelos candidatos a reeleição de Presidente e Vice-Presidente da República, Governador e Vice-Governador de Estado e do Distrito Federal, Prefeito e Vice-Prefeito, de suas residências oficiais para realização de contatos, encontros e reuniões pertinentes à própria campanha, desde que não tenham caráter de ato público.\n\n(...)\n\n§ 4º O descumprimento do disposto neste artigo acarretará a suspensão imediata da conduta vedada, quando for o caso, e sujeitará os responsáveis a multa no valor de cinco a cem mil UFIR.\n\n§ 5º Nos casos de descumprimento do disposto nos incisos do caput e no § 10, sem prejuízo do disposto no § 4º, o candidato beneficiado, agente público ou não, ficará sujeito à cassação do registro ou do diploma.\n\n§ 6º As multas de que trata este artigo serão duplicadas a cada reincidência.\n\n§ 7º As condutas enumeradas no caput caracterizam, ainda, atos de improbidade administrativa, a que se refere o art. 11, inciso I, da Lei nº 8.429, de 2 de junho de 1992, e sujeitando-se às disposições daquele diploma legal, em especial às coligações do art. 12, inciso III.\n\n(...)\n\n§ 10. No ano em que se realizar eleição, fica proibida a distribuição gratuita de bens, valores ou benefícios por parte da Administração Pública, exceto nos casos de calamidade pública, de estado de emergência ou de programas sociais autorizados em lei e já em execução orçamentária no exercício anterior, casos em que o Ministério Público poderá promover o acompanhamento de sua execução financeira e administrativa.\n\n(...)",
+          "norma": "n9504-1997",
+          "artigos": [
+            "Art. 73.",
+            "Art. 74.",
+            "Art. 75.",
+            "Art. 76.",
+            "Art. 77."
+          ],
+          "ref": "arts. 73 a 77 da Lei 9.504/1997",
+          "regras": [
+            "<strong>Art. 73, caput e I a IV.</strong> São proibidas aos agentes públicos as condutas que afetam a igualdade entre candidatos: ceder ou usar bens móveis ou imóveis da administração direta ou indireta de qualquer ente em favor de candidato, partido ou coligação, salvo para convenção partidária (I); usar materiais ou serviços custeados pelos governos ou Casas Legislativas além das prerrogativas de seus regimentos e normas (II); ceder servidor ou empregado do Executivo, ou usar seus serviços, para comitê de campanha no horário de expediente, salvo se ele estiver licenciado (III); e fazer ou permitir uso promocional, em favor de candidato, partido ou coligação, da distribuição sem custo de bens e serviços sociais pagos ou subvencionados pelo poder público (IV).",
+            "<strong>Art. 73, V.</strong> Na circunscrição do pleito, dos três meses anteriores até a posse dos eleitos, é vedado nomear, contratar ou admitir, demitir sem justa causa, suprimir ou readaptar vantagens, dificultar o exercício funcional e, de ofício, remover, transferir ou exonerar servidor, sob pena de nulidade. Ficam ressalvados os cargos em comissão e as funções de confiança (a); as nomeações para o Judiciário, o Ministério Público, os tribunais ou conselhos de contas e os órgãos da Presidência (b); a nomeação dos aprovados em concurso homologado até o início do prazo (c); a nomeação ou contratação necessária à instalação ou ao funcionamento inadiável de serviço público essencial, com prévia e expressa autorização do chefe do Executivo (d); e a transferência ou remoção de ofício de militares, policiais civis e agentes penitenciários (e).",
+            "<strong>Art. 73, VI, e § 3º.</strong> Nos três meses antes do pleito, é vedado: fazer transferência voluntária da União a Estados e Municípios, ou dos Estados a Municípios, sob pena de nulidade, salvo para obrigação formal preexistente de obra ou serviço em andamento com cronograma prefixado e para emergência ou calamidade (a); autorizar publicidade institucional, salvo de produtos e serviços com concorrência no mercado ou em grave e urgente necessidade pública reconhecida pela Justiça Eleitoral (b); e fazer pronunciamento em cadeia de rádio e TV fora da propaganda eleitoral, salvo matéria urgente, relevante e característica das funções de governo, a critério da Justiça Eleitoral (c). As alíneas b e c só alcançam os agentes das esferas cujos cargos estão em disputa.",
+            "<strong>Art. 73, VII e VIII, e § 14.</strong> No primeiro semestre do ano da eleição, é vedado empenhar despesas com publicidade dos órgãos públicos acima de 6 vezes a média mensal empenhada e não cancelada nos 3 anos anteriores, com os valores corrigidos pelo IPCA desde o empenho. Na circunscrição, do início do prazo do art. 7º até a posse, é vedada revisão geral da remuneração dos servidores acima da recomposição da perda do poder aquisitivo ao longo do ano da eleição.",
+            "<strong>Art. 73, §§ 1º e 2º.</strong> Quem é agente público está nas figuras. O inciso I não impede o presidente de usar transporte oficial na campanha, com o ressarcimento do art. 76, nem os candidatos à reeleição de presidente, governador, prefeito e vices de usar a residência oficial para contatos, encontros e reuniões da campanha que não sejam ato público.",
+            "<strong>Art. 73, §§ 4º a 9º.</strong> O descumprimento leva à suspensão imediata da conduta e a multa de cinco a cem mil UFIR aos agentes responsáveis e aos partidos, coligações e candidatos beneficiados. O candidato beneficiado, agente público ou não, fica sujeito à cassação do registro ou do diploma nos casos dos incisos e do § 10. As multas dobram a cada reincidência. As condutas também são improbidade administrativa (Lei 8.429, art. 11, I). Os partidos beneficiados ficam de fora da distribuição do fundo partidário formado por essas multas.",
+            "<strong>Art. 73, §§ 10 e 11.</strong> No ano da eleição, a administração não pode distribuir bens, valores ou benefícios sem custo, salvo em calamidade pública, estado de emergência ou programa social autorizado em lei e já em execução orçamentária no ano anterior, que o Ministério Público pode acompanhar. Esses programas não podem ser executados por entidade ligada nominalmente a candidato ou mantida por ele.",
+            "<strong>Art. 73, §§ 12 e 13.</strong> A representação segue o rito do art. 22 da LC 64, o da AIJE, e pode ser proposta até a diplomação. O recurso contra a decisão é de 3 dias da publicação no Diário Oficial.",
+            "<strong>Art. 74.</strong> Violar a impessoalidade da publicidade oficial (CF, art. 37, § 1º), que proíbe nomes, símbolos ou imagens que promovam autoridades ou servidores, é abuso de autoridade para o art. 22 da LC 64, e o responsável, se candidato, tem o registro ou o diploma cancelado.",
+            "<strong>Art. 75.</strong> Nos três meses antes da eleição, é vedado contratar com dinheiro público shows artísticos pagos para inaugurações. Além da suspensão da conduta, o candidato beneficiado, agente público ou não, fica sujeito à cassação do registro ou do diploma.",
+            "<strong>Art. 76.</strong> O partido ou a coligação do presidente ressarce o uso de transporte oficial por ele e pela comitiva na campanha, pela tarifa de mercado do trecho; no avião presidencial, pelo aluguel de um jato de táxi aéreo. O controle interno cobra de ofício em 10 dias úteis da eleição e, sem pagamento, comunica o Ministério Público Eleitoral. Recebida a denúncia, a Justiça Eleitoral julga em 30 dias e aplica multa do dobro das despesas, duplicada a cada reiteração.",
+            "<strong>Art. 77.</strong> Nos 3 meses antes do pleito, nenhum candidato pode comparecer a inauguração de obra pública, sob pena de cassação do registro ou do diploma."
+          ],
+          "literalidades": [
+            {
+              "trecho": "c) a nomeação dos aprovados em concursos públicos homologados até o início daquele prazo;",
+              "marcas": [
+                "homologados até o início daquele prazo"
+              ],
+              "afirmacao": "A vedação de nomear nos três meses antes do pleito alcança os aprovados em concurso homologado antes desse prazo.",
+              "gabarito": "E",
+              "porque": "Fica ressalvada a nomeação dos aprovados em concurso homologado até o início do prazo (art. 73, V, c)."
+            },
+            {
+              "trecho": "d) a nomeação ou contratação necessária à instalação ou ao funcionamento inadiável de serviços públicos essenciais, com prévia e expressa autorização do Chefe do Poder Executivo;",
+              "marcas": [
+                "com prévia e expressa autorização do Chefe do Poder Executivo"
+              ],
+              "afirmacao": "No período eleitoral, a contratação necessária ao funcionamento inadiável de serviço público essencial pode ser feita independentemente de autorização.",
+              "gabarito": "E",
+              "porque": "A ressalva exige prévia e expressa autorização do chefe do Executivo (art. 73, V, d)."
+            }
+          ],
+          "conferido": {
+            "Art. 73.": "81547bafc5a3",
+            "Art. 74.": "1f663fe03449",
+            "Art. 75.": "1b02d0f89731",
+            "Art. 76.": "4c4c8ad4bd35",
+            "Art. 77.": "cebc7a9be4e9"
+          },
           "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 74. Configura abuso de autoridade, para os fins do disposto no art. 22 da Lei Complementar nº 64, de 18 de maio de 1990, a infringência do disposto no § 1º do art. 37 da Constituição Federal, ficando o responsável, se candidato, sujeito ao cancelamento do registro ou do diploma.",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 76. O ressarcimento das despesas com o uso de transporte oficial pelo Presidente da República e sua comitiva em campanha eleitoral será de responsabilidade do partido político ou coligação a que esteja vinculado.\n\n(...)",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
-        },
-        {
-          "texto": "Art. 77. É proibido a qualquer candidato comparecer, nos 3 (três) meses que precedem o pleito, a inaugurações de obras públicas.\n\nParágrafo único. A inobservância do disposto neste artigo sujeita o infrator à cassação do registro ou do diploma.",
-          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html",
-          "norma": "n9504-1997"
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html"
         }
       ],
+      "juris": [],
       "macetes": [
         {
           "sigla": "COLOCOU ANTES, MANTEVE DURANTE: VEDADO",
@@ -1046,14 +1340,32 @@
           "texto": "Transporte oficial na campanha é permitido ao presidente e à comitiva, com ressarcimento pelo partido ou coligação."
         }
       ],
-      "juris": [],
       "pegadinha": {
-        "afirmacao": "A legislação proíbe todo tipo de transferência gratuita de bens, valores e benefícios pela administração pública nos anos eleitorais.",
+        "afirmacao": "A legislação proíbe todo tipo de distribuição sem custo de bens, valores e benefícios pela administração pública nos anos eleitorais.",
         "gabarito": "E",
         "explicacao": "Há exceções: calamidade pública, estado de emergência e programas sociais autorizados em lei e já em execução orçamentária no ano anterior (art. 73, § 10). Na mesma prova, estava certo dizer que a lei proíbe nomeações e contratações na circunscrição nos três meses anteriores até a posse, ressalvadas as exceções legais (Cebraspe, Promotor MPSC 2023)."
       },
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "aprofundamento": "<p><strong>Estagiário e publicidade institucional.</strong> O estagiário pode ser punido: é agente público para fins eleitorais, e a publicidade veiculada antes foi mantida durante os três meses vedados. Estava errado exigir potencialidade lesiva, intenção ou vitória do candidato (Cebraspe, Advogado da União AGU 2022).</p><p><strong>Transporte oficial.</strong> O uso pelo presidente e sua comitiva é permitido, com ressarcimento pelo partido ou coligação (Cebraspe, Advogado da União AGU 2022).</p><p><strong>Sanções.</strong> Os cinco itens estavam certos: multa e suspensão da conduta, cassação do candidato beneficiado agente público ou não, outras sanções legais, cancelamento do registro ou diploma por abuso de autoridade e multa duplicada na reincidência (Cebraspe, Advogado da União AGU 2022).</p><p><strong>Abuso de poder.</strong> A configuração exige desvirtuamento da propaganda com benefício ao candidato, aliado à gravidade dos fatos. Estava errado dizer que ela é objetiva e independe da gravidade (Cebraspe, Advogado da União AGU 2022).</p>",
+      "pegadinhas": [
+        {
+          "errado": "O estagiário não responde por conduta vedada, porque não é servidor público.",
+          "certo": "Para o art. 73, é agente público quem exerce função na administração, ainda que transitoriamente ou sem remuneração (§ 1º).",
+          "fonte": "Cebraspe, Advogado da União AGU 2022"
+        },
+        {
+          "errado": "A conduta vedada só se configura se tiver potencial para alterar o resultado da eleição, se houver intenção ou se o beneficiado vencer.",
+          "certo": "Basta praticar a conduta: não se exige potencialidade lesiva, intenção nem vitória do candidato.",
+          "fonte": "Cebraspe, Advogado da União AGU 2022"
+        },
+        {
+          "errado": "A configuração do abuso de poder é objetiva e independe da gravidade dos fatos.",
+          "certo": "Exige o desvirtuamento com benefício ao candidato e a gravidade das circunstâncias (LC 64, art. 22, XVI).",
+          "fonte": "Cebraspe, Advogado da União AGU 2022"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Advogado da União AGU 2022 (transporte oficial do presidente com ressarcimento; sanções do art. 73)",
+        "Cebraspe, Juiz TJDFT 2022 (shows pagos e presença de candidato em inaugurações nos três meses)"
+      ],
       "relacionados": [
         "propaganda-antecipada-e-propaganda-em-bens",
         "acoes-eleitorais-provas-e-rescisoria"
@@ -1063,73 +1375,199 @@
       "slug": "acoes-eleitorais-provas-e-rescisoria",
       "titulo": "Ações eleitorais: AIME, prova por gravação, mandado de segurança e rescisória",
       "grupo": "Condutas vedadas, abuso e ações eleitorais",
-      "base": "CF, art. 14, §§ 10 e 11; Código Eleitoral, art. 22, I, j",
+      "base": "Código Eleitoral, arts. 22, 35 e 219; Lei 9.504/1997, arts. 29, 30 e 30-A; CF, art. 14, §§ 10 e 11; LC 64/1990, arts. 3º e 22",
       "tax": [
-        "constitucional.direitos-sociais-nacionalidade-cidadania-direitos"
+        "constitucional.direitos-sociais-nacionalidade-cidadania-direitos",
+        "eleitoral.principios"
       ],
       "dispositivos": [
-        "nCF-1988-art-14",
-        "n4737-1965-art-22"
+        "n4737-1965-art-22",
+        "n4737-1965-art-35",
+        "n4737-1965-art-219",
+        "n9504-1997-art-29",
+        "n9504-1997-art-30",
+        "n9504-1997-art-30-a"
       ],
       "conceitos": [
+        "AIRC em 5 dias do pedido de registro",
+        "AIJE e abuso de poder",
+        "RCED",
         "AIME em 15 dias da diplomação",
         "segredo de justiça na AIME",
+        "prestação de contas e julgamento",
+        "aprovação com ressalvas",
+        "representação do art. 30-A em 15 dias da diplomação",
         "gravação ambiental clandestina ilícita",
         "exceção do local público sem controle de acesso",
-        "prazos eleitorais contínuos",
+        "prazos eleitorais não são em dias úteis",
         "mandado de segurança contra decisão judicial só em teratologia",
         "rescisória só no TSE e só em inelegibilidade",
-        "prazo de 120 dias"
+        "prazo de 120 dias",
+        "crimes comuns conexos na Justiça Eleitoral",
+        "aproveitamento do voto",
+        "anualidade",
+        "anterioridade jurisprudencial"
       ],
       "palavras": [
         "acoes eleitorais",
-        "AIME",
+        "airc",
+        "aije",
+        "rced",
+        "aime",
         "impugnacao de mandato",
         "quinze dias",
         "diplomacao",
         "segredo de justica",
-        "AIJE",
-        "AIRC",
+        "prestacao de contas",
+        "aprovacao com ressalvas",
+        "desaprovacao",
+        "contas nao prestadas",
+        "caixa dois",
+        "art 30-a",
         "gravacao ambiental",
         "interlocutor",
         "local publico",
-        "Tema 979",
-        "prazos",
+        "tema 979",
         "dias uteis",
         "mandado de seguranca",
         "teratologia",
-        "Sumula TSE 22",
+        "sumula tse 22",
         "acao rescisoria",
-        "Sumula TSE 33",
-        "cento e vinte dias"
+        "sumula tse 33",
+        "cento e vinte dias",
+        "juiz eleitoral",
+        "crimes conexos",
+        "habeas corpus",
+        "inq 4435",
+        "nulidade",
+        "prejuizo",
+        "aproveitamento do voto",
+        "anualidade",
+        "anterioridade eleitoral",
+        "re 637485"
       ],
-      "resumo": "A <strong>ação de impugnação de mandato eletivo</strong> é proposta em <strong>15 dias da diplomação</strong>, com provas de abuso do poder econômico, corrupção ou fraude, e tramita em segredo de justiça (CF, art. 14, §§ 10 e 11). No processo eleitoral, a <strong>gravação ambiental clandestina</strong>, feita sem autorização judicial e sem conhecimento dos demais, é ilícita, <strong>salvo em local público sem controle de acesso</strong>, onde não há expectativa de privacidade (STF, Tema 979). Os prazos eleitorais <strong>não se contam em dias úteis</strong>. Não cabe <strong>mandado de segurança</strong> contra decisão judicial recorrível, <strong>salvo teratologia ou ilegalidade manifesta</strong> (Súmula 22 do TSE). A <strong>ação rescisória</strong> eleitoral só cabe no <strong>TSE</strong>, contra decisões do próprio TSE que versem sobre <strong>inelegibilidade</strong>, em 120 dias (Código Eleitoral, art. 22, I, j; Súmula 33 do TSE).",
+      "para_entender": [
+        {
+          "texto": "<strong>Abuso de poder:</strong> uso do poder econômico ou político que desequilibra a eleição, com gravidade.",
+          "tema": "condutas-vedadas-aos-agentes-publicos"
+        }
+      ],
+      "resumo": "As <strong>ações eleitorais</strong> tiram da disputa quem não podia concorrer ou quem venceu de forma ilícita. A <strong>AIRC</strong>, ação de impugnação de registro de candidatura, cabe em 5 dias da publicação do pedido de registro (LC 64, art. 3º). A <strong>AIJE</strong>, ação de investigação judicial eleitoral, apura abuso de poder e pode levar à cassação e a 8 anos de inelegibilidade (LC 64, art. 22). Depois da eleição vem a <strong>diplomação</strong>, o ato que entrega ao eleito o diploma. Contra ela cabem o <strong>RCED</strong>, recurso contra expedição de diploma (Código Eleitoral, art. 262), e a <strong>AIME</strong>, ação de impugnação de mandato eletivo, proposta em 15 dias da diplomação, com prova de abuso do poder econômico, corrupção ou fraude, e que corre em segredo de justiça (CF, art. 14, §§ 10 e 11). O dinheiro da campanha passa pela <strong>prestação de contas</strong>, julgada pela Justiça Eleitoral, e o uso ilícito de recursos se ataca pela representação do art. 30-A. O juiz eleitoral julga os crimes eleitorais e os comuns ligados a eles. No processo eleitoral, a lei manda aproveitar o voto: não há nulidade sem prejuízo. A <strong>rescisória</strong> eleitoral tem regras estritas, no esquema.",
       "esquema": {
         "rotulo": "rescisória eleitoral",
         "html": "<table><thead><tr><th>Pergunta</th><th>Resposta</th></tr></thead><tbody><tr><td><strong>Contra quais decisões?</strong></td><td>Só as do TSE</td></tr><tr><td><strong>Sobre qual matéria?</strong></td><td>Só inelegibilidade</td></tr><tr><td><strong>Prazo</strong></td><td>120 dias da decisão irrecorrível</td></tr><tr><td><strong>Contra decisão de TRE ou sobre captação ilícita de recursos?</strong></td><td>Não cabe</td></tr></tbody></table>"
       },
+      "figuras": {
+        "titulo": "Cada figura, em uma linha",
+        "linhas": [
+          {
+            "nome": "AIRC",
+            "o_que_e": "Impugnação do pedido de registro, por candidato, partido, coligação ou Ministério Público.",
+            "atencao": "5 dias da publicação do pedido (LC 64, art. 3º).",
+            "grupo": "Ações"
+          },
+          {
+            "nome": "AIJE",
+            "o_que_e": "Investigação de abuso do poder econômico ou de autoridade e de uso indevido dos meios de comunicação (LC 64, art. 22).",
+            "atencao": "Procedente, mesmo depois da proclamação dos eleitos, gera 8 anos de inelegibilidade e cassação do registro ou diploma do beneficiado (inciso XIV).",
+            "grupo": "Ações"
+          },
+          {
+            "nome": "RCED",
+            "o_que_e": "Recurso contra a expedição do diploma.",
+            "atencao": "Só por inelegibilidade superveniente ou constitucional e falta de condição de elegibilidade, em 3 dias depois do último dia para a diplomação (Código Eleitoral, art. 262).",
+            "grupo": "Ações"
+          },
+          {
+            "nome": "AIME",
+            "o_que_e": "Ação prevista na Constituição contra o mandato, com prova de abuso do poder econômico, corrupção ou fraude.",
+            "atencao": "15 dias da diplomação, em segredo de justiça.",
+            "grupo": "Ações"
+          },
+          {
+            "nome": "Representação do art. 30-A",
+            "o_que_e": "Pedido de investigação de arrecadação e gastos ilícitos de campanha, como o caixa dois.",
+            "grupo": "Ações"
+          },
+          {
+            "nome": "Gravação ambiental clandestina",
+            "o_que_e": "Registro de conversa feito por um dos presentes, sem que os outros saibam e sem ordem judicial.",
+            "grupo": "Provas e princípios"
+          },
+          {
+            "nome": "Anualidade",
+            "o_que_e": "A lei que altera o processo eleitoral vale desde a publicação, mas não se aplica à eleição que ocorra até um ano depois (CF, art. 16).",
+            "atencao": "Não adia a vigência da lei: adia a aplicação. Por ela, a Ficha Limpa, de 2010, só valeu a partir das eleições de 2012.",
+            "grupo": "Provas e princípios"
+          }
+        ]
+      },
       "lei": [
         {
-          "texto": "Art. 14. A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante:\n\n(...)\n\n§ 10. O mandato eletivo poderá ser impugnado ante a Justiça Eleitoral no prazo de quinze dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude.\n\n§ 11. A ação de impugnação de mandato tramitará em segredo de justiça, respondendo o autor, na forma da lei, se temerária ou de manifesta má-fé.\n\n(...)",
-          "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
-          "norma": "nCF-1988"
-        },
-        {
-          "texto": "Art. 22. Compete ao Tribunal Superior:\n\nI - processar e julgar originariamente:\n\n(...)\n\nj) a ação rescisória, nos casos de inelegibilidade, desde que intentada dentro do prazo de cento e vinte dias de decisão irrecorrível, possibilitando-se o exercício do mandato eletivo até o seu trânsito em julgado. (Alínea acrescida pela Lei Complementar nº 86, de 14/5/1996).\n\n(...)",
+          "norma": "n4737-1965",
+          "artigos": [
+            "Art. 22.",
+            "Art. 35.",
+            "Art. 219."
+          ],
+          "ref": "arts. 22, 35 e 219 do Código Eleitoral",
+          "regras": [
+            "<strong>Art. 22, I, j.</strong> O TSE julga originariamente a ação rescisória eleitoral, nos termos do esquema. Enquanto ela corre, o eleito pode exercer o mandato até o trânsito em julgado.",
+            "<strong>Art. 22, I, a a i, II e parágrafo único.</strong> O TSE também julga originariamente: o registro e a cassação de registro de partidos, de seus diretórios nacionais e de candidatos a presidente e vice (a); conflitos de jurisdição entre TREs e juízes eleitorais de Estados diferentes (b); suspeição ou impedimento de seus membros, do Procurador-Geral e dos servidores de sua secretaria (c); crimes eleitorais e comuns conexos de seus juízes e dos juízes dos TREs (d); habeas corpus em matéria eleitoral contra atos do presidente da República, de ministros de Estado e dos TREs, ou quando a violência puder se consumar antes de o juiz competente decidir (e); reclamações sobre a contabilidade dos partidos e a origem de seus recursos (f); impugnações à apuração, à proclamação e à diplomação na eleição presidencial (g); desaforamento de feitos não decididos pelos TREs em 30 dias da conclusão ao relator (h); e reclamações contra seus juízes que não julgarem em 30 dias (i). Julga ainda os recursos contra decisões dos TREs (II). Suas decisões são irrecorríveis, salvo nos casos do art. 281. A execução da expressão \"ou mandado de segurança\" da alínea e foi suspensa pelo Senado.",
+            "<strong>Art. 35, I a VI.</strong> O juiz eleitoral cumpre as decisões do TSE e do TRE (I); processa e julga os crimes eleitorais e os comuns conexos, ressalvada a competência originária dos tribunais (II); decide habeas corpus e mandado de segurança em matéria eleitoral, se a competência não for privativa da instância superior (III); faz as diligências do serviço eleitoral (IV); recebe reclamações orais ou escritas, reduzindo-as a termo (V); e indica ao TRE a serventia que terá o anexo da escrivania eleitoral (VI). O inciso VII foi revogado.",
+            "<strong>Art. 35, VIII a XIX.</strong> Cabe ainda ao juiz eleitoral dirigir o processo eleitoral e determinar a inscrição e a exclusão de eleitores; expedir títulos e conceder transferência; dividir a zona em seções e organizar a lista de eleitores de cada seção; ordenar o registro e a cassação do registro dos candidatos municipais, comunicando ao TRE; designar os locais das seções até 60 dias antes e nomear os mesários 60 dias antes da eleição, em audiência pública anunciada com 5 dias de antecedência; instruir os mesários e resolver as ocorrências das mesas; evitar os atos viciosos das eleições; dar certificado a quem não votou por motivo justificado e aos dispensados do alistamento; e comunicar ao TRE e aos delegados de partido, até as 12 horas do dia seguinte, o número de votantes de cada seção e da zona.",
+            "<strong>Art. 219.</strong> Na aplicação da lei eleitoral, o juiz atende aos fins e resultados a que ela se dirige e não declara nulidade sem demonstração de prejuízo: é o aproveitamento do voto. A nulidade não pode ser pedida pela parte que lhe deu causa nem aproveitar a ela."
+          ],
+          "conferido": {
+            "Art. 22.": "1d74f5c9e725",
+            "Art. 35.": "dd0e994f5223",
+            "Art. 219.": "ce3f9d06791b"
+          },
           "fonte": "Lei 4.737/1965 (Código Eleitoral), texto atualizado da Câmara dos Deputados",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4737-15-julho-1965-356297-normaatualizada-pl.html",
-          "norma": "n4737-1965"
-        }
-      ],
-      "macetes": [
-        {
-          "sigla": "RESCISÓRIA: SÓ TSE, SÓ INELEGIBILIDADE",
-          "texto": "Decisão de TRE ou sobre arrecadação ilícita não se rescinde, ainda que transitada em julgado."
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4737-15-julho-1965-356297-normaatualizada-pl.html"
         },
         {
-          "sigla": "PRAÇA DE SHOPPING É LOCAL PÚBLICO",
-          "texto": "A gravação de conversa em local sem controle de acesso é prova lícita."
+          "norma": "n9504-1997",
+          "artigos": [
+            "Art. 29.",
+            "Art. 30.",
+            "Art. 30-A."
+          ],
+          "ref": "arts. 29, 30 e 30-A da Lei 9.504/1997",
+          "regras": [
+            "<strong>Art. 29.</strong> Ao receber as contas dos candidatos majoritários e dos proporcionais que as prestem por seu intermédio, o comitê resume as informações num demonstrativo consolidado e as encaminha à Justiça Eleitoral até o 30º dia depois da eleição ou, havendo segundo turno, as dos dois turnos até o 20º dia depois dele. Sem a prestação no prazo, o eleito não é diplomado enquanto durar a falta. Dívidas de campanha não pagas até a prestação podem ser assumidas pelo partido, por decisão do órgão nacional; o órgão da circunscrição passa a responder solidariamente com o candidato, e a dívida não serve para rejeitar as contas. O inciso I e o § 1º foram revogados.",
+            "<strong>Art. 30, caput e I a IV.</strong> A Justiça Eleitoral julga as contas: aprova, se regulares (I); aprova com ressalvas, se há falhas que não comprometem a regularidade (II); desaprova, se as falhas a comprometem (III); ou as julga não prestadas, se não apresentadas depois de notificação com prazo de 72 horas (IV).",
+            "<strong>Art. 30, §§ 1º a 7º.</strong> A decisão sobre as contas dos eleitos é publicada em sessão até 3 dias antes da diplomação. Erros formais e materiais corrigidos, ou irrelevantes no conjunto, não levam à rejeição. A Justiça Eleitoral pode requisitar técnicos dos tribunais de contas e, havendo indício de irregularidade, pedir informações ao candidato e mandar fazer diligências. Cabe recurso em 3 dias da publicação no Diário Oficial ao órgão superior e, no mesmo prazo, recurso especial ao TSE nos casos do art. 121, § 4º, I e II, da Constituição. As regras valem para os processos pendentes.",
+            "<strong>Art. 30-A.</strong> Partido ou coligação pode representar à Justiça Eleitoral, relatando fatos e indicando provas, para apurar arrecadação e gastos de recursos contrários à lei, pelo rito do art. 22 da LC 64. Provada a captação ou o gasto ilícito para fins eleitorais, o diploma é negado ou, se já expedido, cassado. O recurso é de 3 dias da publicação no Diário Oficial."
+          ],
+          "literalidades": [
+            {
+              "trecho": "no prazo de 15 (quinze) dias da diplomação",
+              "marcas": [
+                "15 (quinze) dias da diplomação"
+              ],
+              "afirmacao": "A representação por captação ou gasto ilícito de recursos de campanha pode ser proposta até o fim do mandato do eleito.",
+              "gabarito": "E",
+              "porque": "O prazo é de 15 dias contados da diplomação (art. 30-A, caput)."
+            },
+            {
+              "trecho": "II - pela aprovação com ressalvas, quando verificadas falhas que não lhes comprometam a regularidade;",
+              "marcas": [
+                "aprovação com ressalvas",
+                "não lhes comprometam"
+              ],
+              "afirmacao": "Encontrada falha que não compromete a regularidade das contas de campanha, a Justiça Eleitoral deve desaprová-las.",
+              "gabarito": "E",
+              "porque": "Falha que não compromete a regularidade leva à aprovação com ressalvas; a desaprovação é para a falha que a compromete (art. 30, II e III)."
+            }
+          ],
+          "conferido": {
+            "Art. 29.": "6fbcfba965f9",
+            "Art. 30.": "b05803abc1d9",
+            "Art. 30-A.": "6902d0808b6d"
+          },
+          "fonte": "Lei 9.504/1997 (Lei das Eleições), texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-normaatualizada-pl.html"
         }
       ],
       "juris": [
@@ -1144,6 +1582,24 @@
         {
           "quem": "TSE, Súmula 22",
           "texto": "Não cabe mandado de segurança contra decisão judicial recorrível, salvo situações de teratologia ou manifestamente ilegais."
+        },
+        {
+          "quem": "STF, INQ 4.435",
+          "texto": "Compete à Justiça Eleitoral processar e julgar os crimes eleitorais e os crimes comuns que lhes forem conexos."
+        },
+        {
+          "quem": "STF, RE 637.485",
+          "texto": "Decisões do TSE que, no curso do pleito ou logo após o seu encerramento, mudem a jurisprudência não se aplicam de imediato ao caso concreto nem ao pleito em andamento, e só valem para o pleito seguinte."
+        }
+      ],
+      "macetes": [
+        {
+          "sigla": "RESCISÓRIA: SÓ TSE, SÓ INELEGIBILIDADE",
+          "texto": "Decisão de TRE ou sobre arrecadação ilícita não se rescinde, ainda que transitada em julgado."
+        },
+        {
+          "sigla": "PRAÇA DE SHOPPING É LOCAL PÚBLICO",
+          "texto": "A gravação de conversa em local sem controle de acesso é prova lícita."
         }
       ],
       "pegadinha": {
@@ -1151,11 +1607,25 @@
         "gabarito": "E",
         "explicacao": "A rescisória eleitoral só cabe contra decisão do TSE sobre inelegibilidade. A opção correta da questão era a de que não se admite rescisória de decisões de TRE, ainda que transitadas em julgado (FGV, Juiz TJPE 2024)."
       },
-      "aprofundamento_rotulo": "exceções que caem em prova",
-      "aprofundamento": "<p><strong>Gravação na praça de alimentação.</strong> A prova é lícita, porque a conversa ocorreu em local sem controle de acesso. Estava errado dizer que ela é lícita só por ter sido feita por um dos interlocutores, independentemente do local, e que dependia de autorização judicial (FGV, Juiz TJPE 2024).</p><p><strong>Processo eleitoral e CPC.</strong> Em certas situações, a jurisprudência admite mandado de segurança contra decisões judiciais eleitorais; esta era a opção correta. Estava errado dizer que se exige valor da causa, que os prazos correm em dias úteis fora do período eleitoral e que a AIRC se suspende por questão discutida em outro processo (Cebraspe, Juiz TJDFT 2022).</p><p><strong>Quadro das ações eleitorais.</strong> A AIRC cabe em 5 dias da publicação do edital do registro (LC 64, art. 3º). A AIJE vai do registro até a diplomação e pode levar à inelegibilidade por 8 anos e à cassação do registro ou do diploma (art. 22, XIV). As representações dos arts. 30-A, 41-A e 73 da Lei 9.504 tratam de arrecadação ilícita, captação ilícita de sufrágio (que dispensa pedido explícito de voto) e condutas vedadas. O RCED cabe por inelegibilidade superveniente ou constitucional e por falta de condição de elegibilidade (CE, art. 262). A AIME cabe em 15 dias da diplomação (CF, art. 14, § 10).</p>",
-      "relacionados": [
-        "condutas-vedadas-aos-agentes-publicos",
-        "direitos-politicos-suspensao-e-inelegibilidade"
+      "pegadinhas": [
+        {
+          "errado": "A gravação ambiental feita por um dos interlocutores é prova lícita no processo eleitoral, qualquer que seja o local, e depende de autorização judicial.",
+          "certo": "Sem autorização judicial, ela só é lícita se o fato ocorreu em local público sem controle de acesso, como a praça de alimentação de um shopping (STF, Tema 979).",
+          "fonte": "FGV, Juiz TJPE 2024"
+        },
+        {
+          "errado": "Nos feitos eleitorais, os prazos se contam em dias úteis, como no CPC.",
+          "certo": "Os prazos eleitorais não seguem a contagem em dias úteis do CPC.",
+          "fonte": "Cebraspe, Juiz TJDFT 2022"
+        },
+        {
+          "errado": "Havendo conexão entre crime eleitoral e crime comum federal, o processo se separa, e o crime comum vai para a Justiça Federal.",
+          "certo": "O juiz eleitoral julga o crime eleitoral e os comuns conexos (Código Eleitoral, art. 35, II).",
+          "fonte": "Questão do app sobre o art. 35 do Código Eleitoral"
+        }
+      ],
+      "ja_caiu": [
+        "Cebraspe, Juiz TJDFT 2022 (em certas situações, a jurisprudência admite mandado de segurança contra decisão judicial eleitoral)"
       ],
       "mudancas": [
         {
@@ -1163,6 +1633,11 @@
           "tipo": "juris",
           "nota": "Acrescido o quadro das ações eleitorais: AIRC, AIJE, representações, RCED e AIME."
         }
+      ],
+      "relacionados": [
+        "condutas-vedadas-aos-agentes-publicos",
+        "direitos-politicos-suspensao-e-inelegibilidade",
+        "direitos-politicos-e-partidos"
       ]
     }
   ]
