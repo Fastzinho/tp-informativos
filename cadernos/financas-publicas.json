@@ -3503,7 +3503,6 @@
     "financas-publicas.alteracoes-orcamentarias"
    ],
    "dispositivos": [],
-   "lei": [],
    "conceitos": [
     "alterações orçamentárias",
     "transposição",
@@ -3521,11 +3520,74 @@
     "fonte de recursos",
     "limitacao de empenho"
    ],
-   "resumo": "Durante a execução, o orçamento aprovado pode ser alterado por instrumentos que não se confundem. Os <strong>créditos adicionais</strong> (suplementar, especial e extraordinário) aumentam ou criam autorização de despesa e seguem a Lei 4.320/1964, arts. 40 a 46. A <strong>transposição</strong>, o <strong>remanejamento</strong> e a <strong>transferência</strong> deslocam recursos de uma categoria de programação para outra ou de um órgão para outro e exigem prévia autorização legislativa (CF, art. 167, VI). A doutrina distingue os três pelo motivo. O remanejamento ocorre por reforma administrativa, quando se cria, extingue, funde ou desmembra órgão. A transposição é a realocação entre programas de trabalho, dentro do mesmo órgão, por repriorização de ações. A transferência é a realocação entre categorias econômicas de despesa, dentro do mesmo órgão e do mesmo programa de trabalho. Diferente do crédito adicional, a realocação não exige a indicação de recursos do art. 43, porque não aumenta a despesa: apenas muda a destinação de dotação já aprovada. Há exceção constitucional: no âmbito das atividades de ciência, tecnologia e inovação, a transposição, o remanejamento e a transferência entre categorias de programação podem ser feitos por ato do Executivo, sem lei prévia (CF, art. 167, § 5º). Outros ajustes, que não mudam o valor da categoria de programação, são feitos por ato administrativo na forma da LDO, como a mudança de modalidade de aplicação ou de fonte de recursos. A limitação de empenho (LRF, art. 9º) não altera a lei: restringe a execução para preservar as metas fiscais.",
+   "para_entender": [
+    {
+     "texto": "<strong>Crédito adicional:</strong> autorização de despesa não computada ou insuficientemente dotada na LOA; o suplementar reforça dotação, o especial cria dotação e o extraordinário atende despesa imprevisível e urgente.",
+     "tema": "creditos-ordinarios-e-adicionais"
+    },
+    {
+     "texto": "<strong>Categoria econômica:</strong> primeiro nível da natureza da despesa, que separa despesas correntes (3) de despesas de capital (4).",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "Depois de aprovada, a LOA pode mudar de dois jeitos. O primeiro aumenta ou cria autorização de gasto: são os <strong>créditos adicionais</strong>, que pedem a indicação de um recurso que os financie, como o excesso de arrecadação. O segundo não aumenta nada, só muda o destino de uma dotação já aprovada: é a <strong>realocação</strong>, que a Constituição chama de transposição, remanejamento ou transferência. Para a realocação, a exigência é outra: lei prévia, porque mexe numa escolha que o Legislativo fez ao votar o orçamento (CF, art. 167, VI). A unidade dessa escolha é a <strong>categoria de programação</strong>, isto é, a combinação de órgão, programa, ação e natureza de despesa que aparece na LOA com um valor. A doutrina separa as três realocações pelo motivo, e a tabela mostra o critério de cada uma. Ciência, tecnologia e inovação são a exceção: ali a realocação entre categorias de programação pode ser feita por ato do Executivo (art. 167, § 5º). Há ainda ajustes que não mudam o valor da categoria, como trocar a modalidade de aplicação ou a fonte de recursos, feitos por ato administrativo nos termos da LDO. A <strong>limitação de empenho</strong>, ou contingenciamento, também não altera a lei: segura a execução quando a receita ameaça as metas fiscais. As regras dela estão nas figuras, e o texto da lei, no tema do controle da execução.",
    "esquema": {
     "rotulo": "instrumentos de alteração do orçamento",
     "html": "<table><thead><tr><th>Instrumento</th><th>Efeito</th><th>Lei prévia</th><th>Indicar recursos</th></tr></thead><tbody><tr><td><strong>Crédito suplementar ou especial</strong></td><td>reforça ou cria dotação</td><td>sim</td><td>sim</td></tr><tr><td><strong>Crédito extraordinário</strong></td><td>cria dotação para despesa imprevisível e urgente</td><td>não</td><td>não</td></tr><tr><td><strong>Remanejamento</strong></td><td>realoca entre órgãos por reforma administrativa</td><td>sim</td><td>não</td></tr><tr><td><strong>Transposição</strong></td><td>realoca entre programas no mesmo órgão</td><td>sim</td><td>não</td></tr><tr><td><strong>Transferência</strong></td><td>realoca entre categorias econômicas no mesmo órgão e programa</td><td>sim, salvo ciência, tecnologia e inovação</td><td>não</td></tr><tr><td><strong>Mudança de modalidade ou fonte</strong></td><td>ajuste que não muda o valor da categoria</td><td>não; ato na forma da LDO</td><td>não</td></tr><tr><td><strong>Limitação de empenho</strong></td><td>restringe a execução</td><td>não; ato de cada Poder</td><td>não</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Categoria de programação",
+      "o_que_e": "Cada dotação da LOA identificada por órgão, programa, ação e natureza da despesa.",
+      "atencao": "É a unidade que a transposição, o remanejamento e a transferência deslocam."
+     },
+     {
+      "nome": "Recursos sem despesa correspondente",
+      "o_que_e": "Valores que sobram por veto, emenda ou rejeição do projeto de LOA (CF, art. 166, § 8º).",
+      "atencao": "Usados por crédito especial ou suplementar com lei prévia e específica; nunca por extraordinário."
+     },
+     {
+      "nome": "Emenda ao projeto de LOA",
+      "o_que_e": "Alteração parlamentar que só é aprovada se compatível com PPA e LDO e se indicar recurso por anulação de despesa.",
+      "atencao": "Não podem ser anuladas as dotações de pessoal, serviço da dívida e transferências tributárias constitucionais."
+     },
+     {
+      "nome": "Crédito ilimitado",
+      "o_que_e": "Autorização de gasto sem valor definido.",
+      "atencao": "Vedada pela Constituição (art. 167, VII)."
+     },
+     {
+      "nome": "Contingenciamento",
+      "o_que_e": "Se ao fim de um bimestre a receita realizada ameaça as metas de resultado primário ou nominal, cada Poder e o Ministério Público, por ato próprio, contêm empenhos e movimentação financeira nos trinta dias seguintes.",
+      "atencao": "Restringe a execução; a dotação continua na lei.",
+      "grupo": "Limitação de empenho (LRF, art. 9º)"
+     },
+     {
+      "nome": "Recomposição",
+      "o_que_e": "Com a receita restabelecida, ainda que em parte, as dotações limitadas voltam na mesma proporção das reduções efetivadas.",
+      "atencao": "Obrigações constitucionais e legais, como o serviço da dívida, não sofrem limitação.",
+      "grupo": "Limitação de empenho (LRF, art. 9º)"
+     },
+     {
+      "nome": "Autonomia dos Poderes",
+      "o_que_e": "O STF declarou inconstitucional o § 3º do art. 9º, que deixava o Executivo limitar os valores financeiros do Legislativo, do Judiciário e do Ministério Público (ADI 2.238).",
+      "atencao": "Cada Poder limita os próprios empenhos.",
+      "grupo": "Limitação de empenho (LRF, art. 9º)"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [],
+   "detalhes": [
+    "Para classificar a realocação, pergunte o que mudou. Mudou o órgão porque houve reforma administrativa, com criação, extinção, fusão ou desmembramento de órgão: remanejamento. Mudou o programa dentro do mesmo órgão: transposição. Mudou só a categoria econômica, no mesmo órgão e programa: transferência.",
+    "Crédito adicional e realocação podem conviver no mesmo ato, mas cada parte segue a sua regra: o reforço pede recurso do art. 43 da Lei 4.320, e a realocação pede lei prévia."
+   ],
    "macetes": [
     {
      "sigla": "CRÉDITO SOMA, REALOCAÇÃO TROCA",
@@ -3545,11 +3607,27 @@
     "gabarito": "E",
     "explicacao": "A transposição exige prévia autorização legislativa (CF, art. 167, VI). Indicar fonte é exigência dos créditos suplementares e especiais, não das realocações."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Recursos sem despesa correspondente.</strong> Os recursos que, por veto, emenda ou rejeição do projeto de LOA, ficarem sem despesa correspondente podem ser usados mediante créditos especiais ou suplementares, com prévia e específica autorização legislativa (CF, art. 166, § 8º). Não se usa crédito extraordinário para isso.</p><p><strong>Emendas ao projeto de LOA.</strong> Só são aprovadas se compatíveis com o PPA e a LDO e se indicarem recursos provenientes de anulação de despesa, excluídas as dotações de pessoal e encargos, serviço da dívida e transferências tributárias constitucionais (CF, art. 166, § 3º).</p><p><strong>Limitação de empenho.</strong> Se, ao final de um bimestre, a receita puder não comportar as metas de resultado primário ou nominal, cada Poder e o Ministério Público limitam empenho e movimentação financeira nos trinta dias seguintes (LRF, art. 9º). Restabelecida a receita, as dotações são recompostas de forma proporcional às reduções. O STF declarou inconstitucional o § 3º do art. 9º, que autorizava o Executivo a limitar os valores dos outros Poderes (ADI 2.238).</p><p><strong>Créditos ilimitados.</strong> A Constituição veda a concessão ou utilização de créditos ilimitados (art. 167, VII).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A realocação de dotações causada pela fusão de duas secretarias em uma nova pasta é transposição.",
+     "certo": "Reorganização de órgãos leva a remanejamento. Transposição é a realocação entre programas dentro do mesmo órgão.",
+     "fonte": "Questões do app sobre remanejamento e transposição"
+    },
+    {
+     "errado": "Como os créditos suplementares, a transposição exige indicar fonte do art. 43 da Lei 4.320, como o excesso de arrecadação.",
+     "certo": "A transposição não aumenta a despesa, por isso não pede fonte. O que ela exige é prévia autorização legislativa (CF, art. 167, VI).",
+     "fonte": "Questões do app sobre a transposição"
+    },
+    {
+     "errado": "Recursos que ficaram sem despesa por veto ao projeto de LOA podem ser usados por crédito extraordinário, sem autorização legislativa.",
+     "certo": "São usados por créditos especiais ou suplementares, com prévia e específica autorização legislativa (CF, art. 166, § 8º).",
+     "fonte": "Questões do app sobre recursos sem despesa correspondente"
+    }
+   ],
    "relacionados": [
     "creditos-ordinarios-e-adicionais",
-    "descentralizacao-orcamentaria-e-financeira"
+    "descentralizacao-orcamentaria-e-financeira",
+    "principios-orcamentarios"
    ]
   },
   {
@@ -3560,8 +3638,14 @@
    "tax": [
     "financas-publicas.descentralizacao-orcamentaria-financeira"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n101-2000-art-8",
+    "nCF-1988-art-168",
+    "n4320-1964-art-47",
+    "n4320-1964-art-48",
+    "n4320-1964-art-49",
+    "n4320-1964-art-50"
+   ],
    "conceitos": [
     "descentralização de créditos",
     "provisão",
@@ -3580,11 +3664,184 @@
     "duodecimos",
     "conta unica"
    ],
-   "resumo": "Aprovada a LOA, os créditos são distribuídos às unidades e o dinheiro é programado. A execução orçamentária (uso dos créditos) e a financeira (uso dos recursos financeiros) andam juntas, mas são distintas: ter crédito não significa ter caixa. A <strong>descentralização de créditos</strong> ocorre quando uma unidade transfere a outra o poder de utilizar créditos que lhe foram dotados. Se for entre unidades do mesmo órgão ou entidade, chama-se provisão; se for entre órgãos ou entidades diferentes, chama-se destaque. Na União, a descentralização entre órgãos e entidades federais se formaliza por termo de execução descentralizada (Decreto 10.426/2020). A descentralização não altera a LOA: a unidade que recebe executa em nome da que descentralizou, respeitando a classificação funcional e programática (o mesmo programa de trabalho). Na parte financeira, os movimentos têm nomes próprios. Cota é a transferência do órgão central de programação financeira (na União, a Secretaria do Tesouro Nacional) para os órgãos setoriais. Repasse é a transferência entre órgãos ou entidades diferentes, que acompanha o destaque. Sub-repasse é a transferência dentro do mesmo órgão ou entidade, que acompanha a provisão. Pela LRF (art. 8º), até trinta dias após a publicação dos orçamentos, o Executivo estabelece a programação financeira e o cronograma de execução mensal de desembolso, e as receitas previstas são desdobradas em metas bimestrais de arrecadação (art. 13).",
+   "para_entender": [
+    {
+     "texto": "<strong>Dotação e crédito orçamentário:</strong> dotação é o valor que a LOA fixa para uma despesa; crédito orçamentário é a autorização de gastar até esse valor.",
+     "tema": "creditos-ordinarios-e-adicionais"
+    },
+    {
+     "texto": "<strong>Modalidade de aplicação:</strong> parte da natureza da despesa que diz se o recurso é aplicado diretamente (90) ou transferido, por exemplo a Estados (30) ou a Municípios (40).",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "Aprovada a LOA, é preciso fazer o orçamento chegar a quem gasta. Isso acontece em dois planos que andam juntos, mas não se confundem. No plano orçamentário circula o <strong>crédito</strong>, que é a autorização para empenhar. No plano financeiro circula o <strong>recurso financeiro</strong>, o dinheiro que paga a despesa. Ter crédito não significa ter caixa. A <strong>unidade orçamentária</strong> é a que recebe dotação diretamente na LOA; a <strong>unidade gestora</strong> é a que de fato executa, empenhando e pagando. Quando uma unidade passa a outra o poder de usar seus créditos, há <strong>descentralização de créditos</strong>, e cada movimento orçamentário tem um par financeiro, como mostra a tabela. O critério para nomeá-los é perguntar se o movimento fica dentro do mesmo órgão ou sai para outro. A descentralização não muda a LOA: quem recebe executa em nome de quem descentralizou, no mesmo programa de trabalho. O dinheiro segue uma <strong>programação financeira</strong>, que casa o ritmo dos pagamentos com o da arrecadação. A LRF fixa prazo e periodicidade dessa programação, a Lei 4.320 ainda fala em cotas trimestrais por unidade orçamentária, e a Constituição garante aos Poderes autônomos a entrega mensal dos seus recursos em duodécimos.",
    "esquema": {
     "rotulo": "movimentos de crédito e de recursos financeiros",
     "html": "<table><thead><tr><th>Movimento</th><th>Natureza</th><th>Entre quem</th><th>Par</th></tr></thead><tbody><tr><td><strong>Provisão</strong></td><td>orçamentária (crédito)</td><td>unidades do mesmo órgão ou entidade</td><td>sub-repasse</td></tr><tr><td><strong>Destaque</strong></td><td>orçamentária (crédito)</td><td>órgãos ou entidades diferentes</td><td>repasse</td></tr><tr><td><strong>Cota</strong></td><td>financeira</td><td>órgão central de programação financeira para órgão setorial</td><td>liberação inicial</td></tr><tr><td><strong>Repasse</strong></td><td>financeira</td><td>órgãos ou entidades diferentes</td><td>destaque</td></tr><tr><td><strong>Sub-repasse</strong></td><td>financeira</td><td>dentro do mesmo órgão ou entidade</td><td>provisão</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Termo de execução descentralizada (TED)",
+      "o_que_e": "Instrumento que formaliza a descentralização de créditos entre órgãos e entidades federais (Decreto 10.426/2020).",
+      "atencao": "Não serve para transferir a Estado ou Município.",
+      "grupo": "Na União"
+     },
+     {
+      "nome": "Secretaria do Tesouro Nacional",
+      "o_que_e": "Órgão central de programação financeira, que libera as cotas aos órgãos setoriais.",
+      "grupo": "Na União"
+     },
+     {
+      "nome": "Transferência voluntária a outro ente",
+      "o_que_e": "Repasse por convênio: o concedente empenha no próprio orçamento, com modalidade 30 ou 40, e o valor vira receita do ente que recebe.",
+      "atencao": "Não é destaque, porque o crédito não fica no orçamento de quem transfere para ser usado em seu nome.",
+      "grupo": "Distinções"
+     },
+     {
+      "nome": "Duodécimo",
+      "o_que_e": "Parcela mensal, igual a um doze avos da dotação, entregue ao Legislativo, ao Judiciário, ao Ministério Público e à Defensoria.",
+      "atencao": "Inclui os créditos suplementares e especiais desses órgãos.",
+      "grupo": "Distinções"
+     },
+     {
+      "nome": "Recurso vinculado",
+      "o_que_e": "Receita que a lei destina a uma finalidade específica, como um fundo ou uma área.",
+      "atencao": "Fica preso ao objeto mesmo depois do exercício em que entrou.",
+      "grupo": "Distinções"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 8º."
+     ],
+     "ref": "art. 8º da LRF",
+     "regras": [
+      "<strong>Art. 8º.</strong> Até trinta dias após a publicação dos orçamentos, nos termos da LDO e observado o art. 4º, I, c, o Executivo estabelece a programação financeira e o cronograma de execução mensal de desembolso.",
+      "<strong>Art. 8º, parágrafo único.</strong> Os recursos legalmente vinculados a finalidade específica atendem exclusivamente ao objeto da vinculação, ainda que em exercício diverso daquele em que ocorreu o ingresso."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Até trinta dias após a publicação dos orçamentos",
+       "marcas": [
+        "trinta dias"
+       ],
+       "afirmacao": "Até sessenta dias após a publicação dos orçamentos, o Executivo estabelece a programação financeira e o cronograma de desembolso.",
+       "gabarito": "E",
+       "porque": "O prazo é de trinta dias (art. 8º)."
+      },
+      {
+       "trecho": "ainda que em exercício diverso daquele em que ocorrer o ingresso",
+       "marcas": [
+        "exercício diverso"
+       ],
+       "afirmacao": "O recurso vinculado a finalidade específica que sobra no fim do ano continua preso ao seu objeto no exercício seguinte.",
+       "gabarito": "C",
+       "porque": "A vinculação vale ainda que em exercício diverso do ingresso (art. 8º, parágrafo único)."
+      }
+     ],
+     "conferido": {
+      "Art. 8º.": "feccc0ec9767"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    },
+    {
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 168."
+     ],
+     "ref": "art. 168 da Constituição",
+     "regras": [
+      "<strong>Art. 168, caput.</strong> Os recursos das dotações destinadas aos órgãos do Legislativo, do Judiciário, do Ministério Público e da Defensoria Pública, incluídos os créditos suplementares e especiais, são entregues até o dia 20 de cada mês, em duodécimos, na forma da lei complementar do art. 165, § 9º.",
+      "<strong>Art. 168, § 1º.</strong> É vedado transferir a fundos recursos financeiros vindos de repasses duodecimais (EC 109/2021).",
+      "<strong>Art. 168, § 2º.</strong> O saldo financeiro dos duodécimos é restituído ao caixa único do Tesouro do ente, ou seu valor é deduzido das primeiras parcelas duodecimais do exercício seguinte (EC 109/2021)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "ser-lhes-ão entregues até o dia 20 de cada mês, em duodécimos",
+       "marcas": [
+        "dia 20"
+       ],
+       "afirmacao": "Os recursos das dotações do Legislativo, do Judiciário, do Ministério Público e da Defensoria são entregues até o dia 10 de cada mês.",
+       "gabarito": "E",
+       "porque": "O dia é 20 (art. 168)."
+      },
+      {
+       "trecho": "deve ser restituído ao caixa único do Tesouro do ente federativo, ou terá seu valor deduzido das primeiras parcelas duodecimais do exercício seguinte",
+       "marcas": [
+        "restituído ao caixa único",
+        "deduzido das primeiras parcelas"
+       ],
+       "afirmacao": "A sobra de duodécimos do Tribunal de Justiça volta ao caixa único do Tesouro ou é abatida das primeiras parcelas do ano seguinte.",
+       "gabarito": "C",
+       "porque": "É o art. 168, § 2º, incluído pela EC 109/2021."
+      }
+     ],
+     "conferido": {
+      "Art. 168.": "073d53f1e0c2"
+     },
+     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 47.",
+      "Art. 48.",
+      "Art. 49.",
+      "Art. 50."
+     ],
+     "ref": "arts. 47 a 50 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 47.</strong> Logo após a promulgação da LOA, e com base nos seus limites, o Executivo aprova um quadro de cotas trimestrais da despesa que cada unidade orçamentária fica autorizada a utilizar.",
+      "<strong>Art. 48.</strong> As cotas buscam assegurar às unidades, em tempo útil, os recursos necessários e suficientes à melhor execução do programa anual de trabalho (a) e manter durante o exercício, na medida do possível, o equilíbrio entre receita arrecadada e despesa realizada, reduzindo ao mínimo as insuficiências de tesouraria (b).",
+      "<strong>Art. 49.</strong> A programação da despesa considera os créditos adicionais e as operações extraorçamentárias.",
+      "<strong>Art. 50.</strong> As cotas podem ser alteradas durante o exercício, observados o limite da dotação e o comportamento da execução orçamentária."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o Poder Executivo aprovará um quadro de cotas trimestrais da despesa",
+       "marcas": [
+        "cotas trimestrais"
+       ],
+       "afirmacao": "Promulgada a LOA, o Executivo aprova um quadro de cotas mensais da despesa de cada unidade orçamentária.",
+       "gabarito": "E",
+       "porque": "A Lei 4.320 fala em cotas trimestrais (art. 47). Mensal é o cronograma de desembolso da LRF."
+      },
+      {
+       "trecho": "As cotas trimestrais poderão ser alteradas durante o exercício, observados o limite da dotação e o comportamento da execução orçamentária",
+       "marcas": [
+        "poderão ser alteradas durante o exercício"
+       ],
+       "afirmacao": "As cotas trimestrais podem ser alteradas durante o exercício, respeitado o limite da dotação.",
+       "gabarito": "C",
+       "porque": "É o art. 50."
+      }
+     ],
+     "conferido": {
+      "Art. 47.": "b73bdad35da9",
+      "Art. 48.": "dd57cfa9a4f4",
+      "Art. 49.": "a157bcfb7bcc",
+      "Art. 50.": "62dc0ed93e10"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Destaque e repasse andam juntos quando o crédito sai para outro órgão; provisão e sub-repasse, quando fica no mesmo órgão. A cota é o movimento anterior, do Tesouro para o órgão setorial.",
+    "As receitas previstas também são desdobradas em metas bimestrais de arrecadação no mesmo prazo de trinta dias (LRF, art. 13), regra que está no tema dos estágios da receita."
+   ],
    "macetes": [
     {
      "sigla": "DESTAQUE E REPASSE SAEM DE CASA",
@@ -3604,11 +3861,27 @@
     "gabarito": "E",
     "explicacao": "Entre órgãos distintos a descentralização é o destaque, acompanhado do repasse. A provisão ocorre dentro do mesmo órgão e é acompanhada do sub-repasse."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Transferência a outro ente não é descentralização.</strong> A transferência voluntária a outro ente, por convênio, não é descentralização de crédito: o órgão concedente empenha a despesa em seu próprio orçamento, com modalidade de aplicação de transferência (30 ou 40), e o recurso passa a integrar o orçamento do ente recebedor como receita.</p><p><strong>Cotas na Lei 4.320.</strong> Imediatamente após a promulgação da LOA, o Executivo aprova um quadro de cotas trimestrais da despesa que cada unidade orçamentária fica autorizada a utilizar (art. 47), para assegurar recursos em tempo útil e manter o equilíbrio entre receita arrecadada e despesa realizada (art. 48). As cotas podem ser alteradas durante o exercício, observados o limite da dotação e o comportamento da execução (art. 50).</p><p><strong>Duodécimos.</strong> Os recursos das dotações do Legislativo, do Judiciário, do Ministério Público e da Defensoria são entregues até o dia 20 de cada mês, em duodécimos (CF, art. 168). É vedada a transferência a fundos de recursos de repasses duodecimais, e o saldo financeiro deve ser restituído ao caixa único do Tesouro ou deduzido das primeiras parcelas do exercício seguinte.</p><p><strong>Recursos vinculados.</strong> Os recursos legalmente vinculados a finalidade específica são usados exclusivamente no objeto da vinculação, ainda que em exercício diverso daquele em que ocorrer o ingresso (LRF, art. 8º, parágrafo único).</p><p><strong>Limitação de empenho.</strong> Se a receita não comportar as metas fiscais, cada Poder promove limitação de empenho e movimentação financeira (LRF, art. 9º), e não são objeto de limitação as obrigações constitucionais e legais, inclusive o serviço da dívida.</p>",
+   "pegadinhas": [
+    {
+     "errado": "A provisão de créditos de uma secretaria para uma de suas unidades gestoras é acompanhada do repasse financeiro.",
+     "certo": "Dentro do mesmo órgão, a provisão é acompanhada do sub-repasse. O repasse acompanha o destaque, entre órgãos diferentes.",
+     "fonte": "Questões do app sobre provisão e sub-repasse"
+    },
+    {
+     "errado": "O destaque transfere a dotação ao orçamento do órgão recebedor, que pode executá-la em programa diferente.",
+     "certo": "A descentralização não altera a LOA: o recebedor executa em nome de quem descentralizou, no mesmo programa de trabalho.",
+     "fonte": "Questões do app sobre o destaque"
+    },
+    {
+     "errado": "O repasse de uma secretaria estadual a um Município, por convênio, é feito por destaque de crédito.",
+     "certo": "Isso é transferência voluntária: a despesa é empenhada no orçamento do Estado e vira receita do Município.",
+     "fonte": "Questões do app sobre transferência a outro ente"
+    }
+   ],
    "relacionados": [
     "alteracoes-orcamentarias",
-    "acompanhamento-e-controle-da-execucao"
+    "acompanhamento-e-controle-da-execucao",
+    "estagios-da-receita-publica"
    ]
   },
   {
@@ -3619,8 +3892,18 @@
    "tax": [
     "financas-publicas.controle-execucao-orcamentaria"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-75",
+    "n4320-1964-art-76",
+    "n4320-1964-art-77",
+    "n4320-1964-art-78",
+    "n4320-1964-art-79",
+    "n4320-1964-art-80",
+    "n4320-1964-art-81",
+    "n4320-1964-art-82",
+    "n101-2000-art-9",
+    "n101-2000-art-59"
+   ],
    "conceitos": [
     "controle da execução orçamentária",
     "controle interno",
@@ -3641,11 +3924,221 @@
     "audiencia publica",
     "tomada de contas"
    ],
-   "resumo": "O controle da execução verifica se a receita foi arrecadada e a despesa realizada conforme a lei e se o programa de trabalho foi cumprido. A Lei 4.320/1964 (art. 75) define três objetos: a legalidade dos atos de que resultem arrecadação da receita ou realização da despesa e o nascimento ou a extinção de direitos e obrigações; a fidelidade funcional dos agentes responsáveis por bens e valores públicos; e o cumprimento do programa de trabalho, em termos monetários e em termos de realização de obras e prestação de serviços. A verificação da legalidade é prévia, concomitante e subsequente (art. 77). O Executivo exerce os três tipos de controle, sem prejuízo do Tribunal de Contas (art. 76). O controle externo cabe ao Legislativo com auxílio do Tribunal de Contas, que emite parecer prévio sobre as contas anuais do chefe do Executivo (art. 82, § 1º). Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno, e quem o integra e souber de irregularidade deve dar ciência ao Tribunal de Contas, sob pena de responsabilidade solidária (CF, art. 74). A LRF reforçou o acompanhamento com dois relatórios: o Relatório Resumido da Execução Orçamentária (RREO), publicado até trinta dias após o encerramento de cada bimestre e que abrange todos os Poderes e o Ministério Público (art. 52); e o Relatório de Gestão Fiscal (RGF), emitido ao final de cada quadrimestre pelos titulares de cada Poder e órgão (arts. 54 e 55). As metas de cada quadrimestre são avaliadas em audiência pública até o final de maio, setembro e fevereiro (art. 9º, § 4º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Metas de resultado primário e nominal:</strong> metas fiscais fixadas no Anexo de Metas Fiscais da LDO; o primário exclui juros, o nominal os inclui.",
+     "tema": "ppa-ldo-e-loa"
+    }
+   ],
+   "resumo": "Controlar a execução é verificar se a receita foi arrecadada e a despesa feita conforme a lei e se o que o orçamento prometeu foi entregue. Quem controla de dentro é o <strong>controle interno</strong>, mantido por cada Poder; quem controla de fora é o <strong>controle externo</strong>, do Legislativo com o auxílio do Tribunal de Contas. A Lei 4.320/1964 diz o que se controla e quando, e dá ao Executivo os três tipos de controle sem tirar nada do Tribunal de Contas. A legalidade é verificada antes, durante e depois do ato. O cumprimento do programa de trabalho é medido em dinheiro e também em metas físicas, como obras feitas e serviços prestados. No fim, o chefe do Executivo presta contas ao Legislativo, que as julga depois do <strong>parecer prévio</strong>, a opinião técnica do Tribunal de Contas. Outro instrumento é a <strong>tomada de contas</strong>, procedimento que apura a gestão de quem guarda ou aplica bens e valores públicos. A LRF acrescentou o acompanhamento das metas fiscais ao longo do ano. A cada bimestre, se a receita ameaça as metas, cada Poder contém a execução por <strong>limitação de empenho</strong>. A cada quadrimestre, a Fazenda presta contas das metas em audiência pública. E o Tribunal de Contas emite <strong>alertas</strong> quando um limite está perto de ser alcançado. A tabela reúne relatórios, prazos e responsáveis.",
    "esquema": {
     "rotulo": "instrumentos de acompanhamento da execução",
     "html": "<table><thead><tr><th>Instrumento</th><th>Periodicidade</th><th>Quem</th><th>Conteúdo central</th></tr></thead><tbody><tr><td><strong>RREO</strong></td><td>bimestral, até 30 dias após o bimestre</td><td>Executivo, abrangendo todos os Poderes e o MP</td><td>balanço orçamentário, execução de receitas e despesas, RCL, resultados primário e nominal, restos a pagar</td></tr><tr><td><strong>RGF</strong></td><td>quadrimestral, até 30 dias após o quadrimestre</td><td>titular de cada Poder e órgão, com os responsáveis pela administração financeira e pelo controle interno</td><td>comparação com limites de pessoal, dívida, garantias e operações de crédito; medidas corretivas</td></tr><tr><td><strong>Audiência pública</strong></td><td>até o fim de maio, setembro e fevereiro</td><td>ministro ou secretário da Fazenda</td><td>cumprimento das metas fiscais do quadrimestre</td></tr><tr><td><strong>Alertas</strong></td><td>quando constatado o risco</td><td>Tribunal de Contas</td><td>pessoal acima de 90% do limite, dívida e garantias acima de 90%, risco às metas</td></tr><tr><td><strong>Contas anuais</strong></td><td>anual</td><td>chefe do Executivo, com parecer prévio do Tribunal de Contas</td><td>julgamento pelo Legislativo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Controle prévio",
+      "o_que_e": "Feito antes do ato, como a verificação de que há crédito antes de empenhar.",
+      "grupo": "Momentos do controle de legalidade"
+     },
+     {
+      "nome": "Controle concomitante",
+      "o_que_e": "Feito durante a execução, como o acompanhamento de um contrato.",
+      "grupo": "Momentos do controle de legalidade"
+     },
+     {
+      "nome": "Controle subsequente",
+      "o_que_e": "Feito depois do ato, como o exame da prestação de contas.",
+      "grupo": "Momentos do controle de legalidade"
+     },
+     {
+      "nome": "Contingenciamento",
+      "o_que_e": "Nome usual da limitação de empenho e movimentação financeira.",
+      "atencao": "Cada Poder age por ato próprio; o Executivo não pode limitar os demais (ADI 2.238).",
+      "grupo": "Instrumentos e sanções"
+     },
+     {
+      "nome": "Atraso do RREO ou do RGF",
+      "o_que_e": "Até regularizar, o ente fica impedido de receber transferências voluntárias e de contratar operações de crédito, salvo para refinanciar a dívida mobiliária.",
+      "atencao": "Regra dos arts. 51 a 55 da LRF, no tema de transparência.",
+      "grupo": "Instrumentos e sanções"
+     },
+     {
+      "nome": "Município com menos de cinquenta mil habitantes",
+      "o_que_e": "Pode optar por divulgar semestralmente o RGF e os demonstrativos do art. 53 (LRF, art. 63).",
+      "grupo": "Instrumentos e sanções"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 75.",
+      "Art. 76.",
+      "Art. 77.",
+      "Art. 78.",
+      "Art. 79.",
+      "Art. 80.",
+      "Art. 81.",
+      "Art. 82."
+     ],
+     "ref": "arts. 75 a 82 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 75.</strong> O controle da execução compreende a legalidade dos atos de que resultem arrecadação da receita ou realização da despesa e o nascimento ou a extinção de direitos e obrigações (I); a fidelidade funcional dos agentes responsáveis por bens e valores públicos (II); e o cumprimento do programa de trabalho, em termos monetários e em termos de realização de obras e prestação de serviços (III).",
+      "<strong>Art. 76.</strong> O Executivo exerce os três tipos de controle, sem prejuízo das atribuições do Tribunal de Contas ou órgão equivalente.",
+      "<strong>Art. 77.</strong> A verificação da legalidade é prévia, concomitante e subsequente.",
+      "<strong>Art. 78.</strong> Além da prestação ou tomada de contas anual, quando instituída em lei, ou por fim de gestão, pode haver a qualquer tempo levantamento, prestação ou tomada de contas de todos os responsáveis por bens ou valores públicos.",
+      "<strong>Art. 79 e parágrafo único.</strong> O controle do programa de trabalho (art. 75, III) cabe ao órgão que elabora a proposta orçamentária ou a outro indicado na legislação, feito, quando for o caso, em unidades de medida previamente estabelecidas para cada atividade.",
+      "<strong>Art. 80.</strong> Os serviços de contabilidade verificam a exata observância dos limites das cotas trimestrais atribuídas a cada unidade orçamentária.",
+      "<strong>Art. 81.</strong> O controle pelo Legislativo verifica a probidade da administração, a guarda e o legal emprego dos dinheiros públicos e o cumprimento da Lei de Orçamento.",
+      "<strong>Art. 82, caput e §§ 1º e 2º.</strong> O Executivo presta contas anualmente ao Legislativo, no prazo das Constituições ou Leis Orgânicas, com parecer prévio do Tribunal de Contas ou órgão equivalente (§ 1º). No Município sem Tribunal de Contas, a Câmara pode designar peritos contadores para examinar as contas do prefeito e dar parecer (§ 2º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "A verificação da legalidade dos atos de execução orçamentária será prévia, concomitante e subseqüente",
+       "marcas": [
+        "prévia, concomitante e subseqüente"
+       ],
+       "afirmacao": "A verificação da legalidade dos atos de execução orçamentária pelo Executivo é apenas prévia e subsequente, e a concomitante cabe ao Tribunal de Contas.",
+       "gabarito": "E",
+       "porque": "É prévia, concomitante e subsequente (art. 77), e o Executivo exerce os três controles (art. 76)."
+      },
+      {
+       "trecho": "em termos monetários e em termos de realização de obras e prestação de serviços",
+       "marcas": [
+        "em termos de realização de obras"
+       ],
+       "afirmacao": "O cumprimento do programa de trabalho é aferido apenas em termos monetários.",
+       "gabarito": "E",
+       "porque": "Também em obras realizadas e serviços prestados (art. 75, III)."
+      },
+      {
+       "trecho": "a Câmara de Vereadores poderá designar peritos contadores para verificarem as contas do prefeito",
+       "marcas": [
+        "peritos contadores"
+       ],
+       "afirmacao": "No Município sem Tribunal de Contas, a Câmara pode designar peritos contadores para verificar as contas do prefeito e emitir parecer.",
+       "gabarito": "C",
+       "porque": "É o art. 82, § 2º."
+      },
+      {
+       "trecho": "verificar a probidade da administração, a guarda e legal emprego dos dinheiros públicos e o cumprimento da Lei de Orçamento",
+       "marcas": [
+        "probidade da administração"
+       ],
+       "afirmacao": "O controle da execução pelo Legislativo verifica a probidade da administração, a guarda e o legal emprego dos dinheiros públicos e o cumprimento da Lei de Orçamento.",
+       "gabarito": "C",
+       "porque": "É o art. 81."
+      }
+     ],
+     "conferido": {
+      "Art. 75.": "167046a47ddc",
+      "Art. 76.": "536d902f7c12",
+      "Art. 77.": "49dff04594d5",
+      "Art. 78.": "23e283cba3fc",
+      "Art. 79.": "0ae8e008f00e",
+      "Art. 80.": "de5016d7d03d",
+      "Art. 81.": "4bbe606edd4b",
+      "Art. 82.": "91b4bfcd3680"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 9º.",
+      "Art. 59."
+     ],
+     "ref": "arts. 9º e 59 da LRF",
+     "regras": [
+      "<strong>Art. 9º, caput.</strong> Se, ao final de um bimestre, a realização da receita puder não comportar as metas de resultado primário ou nominal do Anexo de Metas Fiscais, os Poderes e o Ministério Público promovem, por ato próprio e nos montantes necessários, nos trinta dias seguintes, limitação de empenho e movimentação financeira, segundo os critérios da LDO.",
+      "<strong>Art. 9º, § 1º.</strong> Restabelecida a receita, ainda que em parte, as dotações limitadas são recompostas de forma proporcional às reduções.",
+      "<strong>Art. 9º, § 2º.</strong> Não são limitadas as obrigações constitucionais e legais do ente, inclusive o serviço da dívida, as despesas de inovação e desenvolvimento científico e tecnológico custeadas por fundo criado para esse fim e as ressalvadas pela LDO (LC 177/2021).",
+      "<strong>Art. 9º, § 3º.</strong> Autorizava o Executivo a limitar os valores financeiros do Legislativo, do Judiciário e do Ministério Público que não o fizessem no prazo; foi declarado inconstitucional pelo STF na ADI 2.238.",
+      "<strong>Art. 9º, § 4º.</strong> Até o final dos meses de maio, setembro e fevereiro, o Ministro ou Secretário da Fazenda demonstra e avalia o cumprimento das metas fiscais de cada quadrimestre e a trajetória da dívida, em audiência pública na comissão mista de orçamento (CF, art. 166, § 1º), ou em conjunto com as comissões temáticas, ou na comissão equivalente das Casas estaduais e municipais (LC 200/2023).",
+      "<strong>Art. 9º, § 5º.</strong> Em até noventa dias após cada semestre, o Banco Central apresenta, em reunião conjunta das comissões temáticas do Congresso, avaliação dos objetivos e metas das políticas monetária, creditícia e cambial, com o impacto e o custo fiscal de suas operações e os resultados dos balanços.",
+      "<strong>Art. 59, caput.</strong> O Legislativo, diretamente ou com o auxílio dos Tribunais de Contas, e o controle interno de cada Poder e do Ministério Público fiscalizam o cumprimento da LRF, observadas as normas de padronização metodológica do conselho do art. 67, com ênfase em: metas da LDO (I); limites e condições das operações de crédito e da inscrição em restos a pagar (II); medidas de retorno da despesa com pessoal ao limite, arts. 22 e 23 (III); recondução das dívidas consolidada e mobiliária aos limites, art. 31 (IV); destino dos recursos da alienação de ativos (V); e limite de gastos totais dos legislativos municipais, quando houver (VI).",
+      "<strong>Art. 59, § 1º.</strong> Os Tribunais de Contas alertam os Poderes e órgãos do art. 20 quando constatarem: a possibilidade das situações previstas no art. 4º, II, e no art. 9º, isto é, de limitação de empenho (I); despesa com pessoal acima de 90% do limite (II); dívidas consolidada e mobiliária, operações de crédito e garantias acima de 90% dos limites (III); gastos com inativos e pensionistas acima do limite legal (IV); fatos que comprometam custos ou resultados dos programas ou indícios de irregularidade na gestão orçamentária (V).",
+      "<strong>Art. 59, §§ 2º e 3º.</strong> Os Tribunais de Contas também verificam os cálculos dos limites de pessoal de cada Poder e órgão (§ 2º), e o TCU acompanha as regras do Banco Central sobre títulos da dívida pública do art. 39, §§ 2º a 4º (§ 3º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Se verificado, ao final de um bimestre, que a realização da receita poderá não comportar",
+       "marcas": [
+        "ao final de um bimestre"
+       ],
+       "afirmacao": "Se, ao final de cada quadrimestre, a receita puder não comportar as metas fiscais, os Poderes e o Ministério Público limitam empenho nos trinta dias seguintes.",
+       "gabarito": "E",
+       "porque": "A verificação é bimestral (art. 9º). Quadrimestral é a audiência pública das metas (§ 4º)."
+      },
+      {
+       "trecho": "a recomposição das dotações cujos empenhos foram limitados dar-se-á de forma proporcional às reduções efetivadas",
+       "marcas": [
+        "de forma proporcional"
+       ],
+       "afirmacao": "Um Estado limitou empenhos de uma secretaria em 20% e de outra em 10%; recuperada parte da receita, a recomposição segue a proporção desses cortes.",
+       "gabarito": "C",
+       "porque": "A recomposição é proporcional às reduções (art. 9º, § 1º)."
+      },
+      {
+       "trecho": "Até o final dos meses de maio, setembro e fevereiro",
+       "marcas": [
+        "maio, setembro e fevereiro"
+       ],
+       "afirmacao": "Até o final de março, julho e novembro, o Secretário da Fazenda avalia em audiência pública as metas fiscais do quadrimestre.",
+       "gabarito": "E",
+       "porque": "Os meses são maio, setembro e fevereiro (art. 9º, § 4º)."
+      },
+      {
+       "trecho": "No prazo de noventa dias após o encerramento de cada semestre, o Banco Central do Brasil apresentará",
+       "marcas": [
+        "noventa dias",
+        "semestre"
+       ],
+       "afirmacao": "Encerrado o semestre em 30 de junho, o Banco Central tem até o fim de setembro para apresentar ao Congresso a avaliação das políticas monetária, creditícia e cambial.",
+       "gabarito": "C",
+       "porque": "São noventa dias após cada semestre (art. 9º, § 5º)."
+      },
+      {
+       "trecho": "que o montante da despesa total com pessoal ultrapassou 90% (noventa por cento) do limite",
+       "marcas": [
+        "90% (noventa por cento)"
+       ],
+       "afirmacao": "O Tribunal de Contas alerta o Poder quando a despesa com pessoal ultrapassa 95% do limite.",
+       "gabarito": "E",
+       "porque": "O alerta vem acima de 90% (art. 59, § 1º, II). Acima de 95% é o limite prudencial do art. 22."
+      },
+      {
+       "trecho": "Não serão objeto de limitação as despesas que constituam obrigações constitucionais e legais do ente, inclusive aquelas destinadas ao pagamento do serviço da dívida",
+       "marcas": [
+        "serviço da dívida"
+       ],
+       "afirmacao": "As despesas com o serviço da dívida não podem ser objeto de limitação de empenho.",
+       "gabarito": "C",
+       "porque": "É o art. 9º, § 2º."
+      }
+     ],
+     "conferido": {
+      "Art. 9º.": "4bb199720082",
+      "Art. 59.": "687c1c5c5cfb"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Quem controla o programa de trabalho é o órgão que elaborou a proposta orçamentária: quem planejou a meta física acompanha sua execução.",
+    "O alerta do Tribunal de Contas não é sanção: avisa que o Poder está perto do limite. As vedações de pessoal começam acima de 95% (limite prudencial) e as medidas de recondução, acima de 100%."
+   ],
    "macetes": [
     {
      "sigla": "RREO É BIMESTRAL, RGF É QUADRIMESTRAL",
@@ -3665,11 +4158,32 @@
     "gabarito": "E",
     "explicacao": "Quem é bimestral e abrange todos os Poderes é o RREO. O RGF é quadrimestral e emitido pelo titular de cada Poder e órgão, assinado também pelas autoridades da administração financeira e do controle interno."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Programa de trabalho.</strong> O controle do cumprimento do programa de trabalho cabe ao órgão incumbido da elaboração da proposta orçamentária ou a outro indicado na legislação, e se faz, quando for o caso, em unidades de medida previamente estabelecidas para cada atividade (art. 79).</p><p><strong>Contabilidade e cotas.</strong> Compete aos serviços de contabilidade verificar a exata observância dos limites das cotas trimestrais atribuídas a cada unidade orçamentária (art. 80).</p><p><strong>Controle legislativo.</strong> Tem por objetivo verificar a probidade da administração, a guarda e o legal emprego dos dinheiros públicos e o cumprimento da Lei de Orçamento (art. 81). Além da prestação de contas anual, pode haver, a qualquer tempo, levantamento, prestação ou tomada de contas de todos os responsáveis por bens ou valores públicos (art. 78).</p><p><strong>Relatórios no fim do exercício.</strong> O RREO do último bimestre traz também os demonstrativos da regra de ouro, das projeções atuariais e da variação patrimonial (LRF, art. 53, § 1º). O RGF do último quadrimestre traz as disponibilidades de caixa em 31 de dezembro e a inscrição em restos a pagar (art. 55, III).</p><p><strong>Municípios pequenos.</strong> Municípios com menos de cinquenta mil habitantes podem optar por divulgar semestralmente o RGF e os demonstrativos do art. 53 (LRF, art. 63).</p><p><strong>Sanção por atraso.</strong> Descumprir o prazo do RREO ou do RGF impede o ente, até a regularização, de receber transferências voluntárias e de contratar operações de crédito, exceto as destinadas ao pagamento da dívida mobiliária (arts. 51, § 2º, 52, § 2º, e 55, § 3º).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Restabelecida em parte a receita, a recomposição das dotações limitadas segue a ordem de prioridade definida pelo Governador.",
+     "certo": "A recomposição é proporcional às reduções efetivadas (LRF, art. 9º, § 1º).",
+     "fonte": "Questões do app sobre a limitação de empenho"
+    },
+    {
+     "errado": "Se o Judiciário estadual não limitar empenho em trinta dias, o Executivo pode limitar os valores daquele Poder.",
+     "certo": "Essa autorização (LRF, art. 9º, § 3º) foi declarada inconstitucional na ADI 2.238.",
+     "fonte": "Questões do app sobre a limitação de empenho"
+    },
+    {
+     "errado": "O Relatório de Gestão Fiscal é bimestral e emitido só pelo chefe do Executivo, que consolida todos os Poderes.",
+     "certo": "Bimestral e de todos os Poderes é o RREO. O RGF é quadrimestral e emitido pelo titular de cada Poder e órgão.",
+     "fonte": "Questões do app sobre RREO e RGF"
+    },
+    {
+     "errado": "Na audiência pública, o Governador demonstra pessoalmente o cumprimento das metas fiscais, vedada a delegação ao Secretário da Fazenda.",
+     "certo": "Quem demonstra é o Ministro ou Secretário da Fazenda (LRF, art. 9º, § 4º).",
+     "fonte": "Questões do app sobre a audiência pública das metas"
+    }
+   ],
    "relacionados": [
     "sistemas-de-informacoes-orcamentarias",
-    "lrf-endividamento-e-transparencia"
+    "lrf-endividamento-e-transparencia",
+    "descentralizacao-orcamentaria-e-financeira"
    ]
   },
   {
@@ -3680,8 +4194,10 @@
    "tax": [
     "financas-publicas.sistemas-informacoes-orcamentarias"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n101-2000-art-48",
+    "n101-2000-art-48-a"
+   ],
    "conceitos": [
     "Siafic",
     "Siconfi",
@@ -3700,11 +4216,128 @@
     "conta unica",
     "partidas dobradas"
    ],
-   "resumo": "Os sistemas de informações dão suporte ao planejamento, à execução e ao controle do orçamento. Na União, o Siafi (Sistema Integrado de Administração Financeira do Governo Federal), gerido pela Secretaria do Tesouro Nacional, registra em tempo real a execução orçamentária, financeira e patrimonial dos órgãos federais e opera a Conta Única do Tesouro. O Siop (Sistema Integrado de Planejamento e Orçamento) apoia a elaboração e o acompanhamento do PPA e da LOA. O Siconfi (Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro), mantido pelo Tesouro, recebe de União, Estados, DF e Municípios as declarações e relatórios fiscais e contábeis, como RREO, RGF e a Declaração de Contas Anuais, em formato padronizado. É o meio de cumprir a LRF (art. 48, § 2º), que manda os entes disponibilizarem seus dados contábeis, orçamentários e fiscais conforme periodicidade, formato e sistema definidos pelo órgão central de contabilidade da União. A LRF (art. 48, § 6º) também exige que todos os Poderes e órgãos de cada ente usem sistemas únicos de execução orçamentária e financeira, mantidos e gerenciados pelo Executivo, resguardada a autonomia. O Decreto 10.540/2020 fixou o padrão mínimo de qualidade desse sistema, o Siafic: uma só solução por ente, mesmo que outros sistemas troquem dados com ela; registro contábil em partidas dobradas, com documento de suporte; correção por novo registro, preservado o original; disponibilização das informações até o primeiro dia útil seguinte ao registro.",
+   "para_entender": [
+    {
+     "texto": "<strong>RREO e RGF:</strong> relatórios fiscais da LRF; o Relatório Resumido da Execução Orçamentária é bimestral, e o Relatório de Gestão Fiscal, quadrimestral.",
+     "tema": "acompanhamento-e-controle-da-execucao"
+    }
+   ],
+   "resumo": "Os sistemas de informações são os programas de computador em que o orçamento é planejado, executado e registrado. Cada um tem uma função, como mostra a tabela. O ponto que a banca mais cobra é a diferença entre quem registra a execução e quem recebe relatórios. O <strong>Siafi</strong> registra, em tempo real, a execução orçamentária, financeira e patrimonial dos órgãos federais. O <strong>Siconfi</strong> é a porta pela qual todos os entes, de União a Municípios, entregam ao Tesouro seus relatórios fiscais e contábeis em formato padrão. A LRF transformou esses sistemas em dever de transparência. Cada ente deve ter um <strong>sistema único</strong> de execução para todos os seus Poderes e órgãos, mantido pelo Executivo sem ferir a autonomia dos demais, e deve publicar os atos da despesa e da receita no momento em que acontecem. O Decreto 10.540/2020 fixou o padrão mínimo de qualidade desse sistema, chamado <strong>Siafic</strong>. Os principais requisitos estão nas figuras.",
    "esquema": {
     "rotulo": "principais sistemas e suas funções",
     "html": "<table><thead><tr><th>Sistema</th><th>Abrangência</th><th>Função</th></tr></thead><tbody><tr><td><strong>Siafi</strong></td><td>órgãos e entidades federais</td><td>registro em tempo real da execução orçamentária, financeira e patrimonial; Conta Única</td></tr><tr><td><strong>Siop</strong></td><td>União</td><td>elaboração e acompanhamento do PPA e da LOA</td></tr><tr><td><strong>Siconfi</strong></td><td>todos os entes</td><td>recebimento padronizado de RREO, RGF, contas anuais e dados contábeis para consolidação nacional</td></tr><tr><td><strong>Siafic</strong></td><td>cada ente, um único por ente</td><td>sistema único de execução orçamentária, financeira e controle, com padrão mínimo do Decreto 10.540/2020</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Solução única",
+      "o_que_e": "Um só Siafic por ente; sistemas auxiliares podem se integrar a ele, sem tomar o seu lugar.",
+      "atencao": "Cada Poder não mantém o seu.",
+      "grupo": "Padrão mínimo do Siafic (Decreto 10.540/2020)"
+     },
+     {
+      "nome": "Registro contábil",
+      "o_que_e": "Partidas dobradas, com documento de suporte e, no mínimo, data, contas debitada e creditada, histórico, valor e número de controle.",
+      "atencao": "É vedado registrar com data diferente da do fato.",
+      "grupo": "Padrão mínimo do Siafic (Decreto 10.540/2020)"
+     },
+     {
+      "nome": "Correção",
+      "o_que_e": "Por novo registro, preservado o original.",
+      "atencao": "O lançamento original nunca é apagado.",
+      "grupo": "Padrão mínimo do Siafic (Decreto 10.540/2020)"
+     },
+     {
+      "nome": "Tempo real",
+      "o_que_e": "Informações disponíveis até o primeiro dia útil seguinte ao registro.",
+      "grupo": "Padrão mínimo do Siafic (Decreto 10.540/2020)"
+     },
+     {
+      "nome": "Autonomia dos Poderes",
+      "o_que_e": "O Executivo mantém o sistema e define regras contábeis e de segurança, sem interferir nos atos do ordenador de outro Poder.",
+      "grupo": "Padrão mínimo do Siafic (Decreto 10.540/2020)"
+     },
+     {
+      "nome": "Prazos do art. 51 da LRF",
+      "o_que_e": "Estados e Municípios enviam suas contas à União até 30 de abril; a União consolida e divulga as contas de todos os entes até 30 de junho.",
+      "atencao": "Descumprir impede transferências voluntárias e operações de crédito, salvo para refinanciar a dívida mobiliária.",
+      "grupo": "Consolidação nacional"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 48.",
+      "Art. 48-A."
+     ],
+     "ref": "arts. 48 e 48-A da LRF",
+     "regras": [
+      "<strong>Art. 48, caput.</strong> São instrumentos de transparência, com ampla divulgação, inclusive em meios eletrônicos: planos, orçamentos e LDO; prestações de contas e o parecer prévio; RREO e RGF; e as versões simplificadas desses documentos.",
+      "<strong>Art. 48, § 1º.</strong> A transparência se assegura também por: incentivo à participação popular e audiências públicas durante a elaboração e a discussão dos planos, da LDO e dos orçamentos (I); liberação ao pleno conhecimento e acompanhamento da sociedade, em tempo real, de informações pormenorizadas sobre a execução orçamentária e financeira, em meios eletrônicos de acesso público (II); sistema integrado de administração financeira e controle com o padrão mínimo de qualidade fixado pelo Executivo da União e o art. 48-A (III); e divulgação no Portal de Transparência, em formato aberto e padronizado, dos benefícios de natureza tributária, financeira e creditícia concedidos (IV, LC 224/2025, com efeitos desde 1º/1/2026).",
+      "<strong>Art. 48, § 2º.</strong> União, Estados, DF e Municípios disponibilizam seus dados contábeis, orçamentários e fiscais na periodicidade, no formato e no sistema do órgão central de contabilidade da União, com divulgação em meio eletrônico de amplo acesso.",
+      "<strong>Art. 48, § 3º.</strong> Estados, DF e Municípios enviam ao Ministério da Fazenda as informações para o registro eletrônico centralizado das dívidas interna e externa (art. 32, § 4º).",
+      "<strong>Art. 48, §§ 4º e 5º.</strong> Descumprir os §§ 2º e 3º sujeita o ente às penalidades do art. 51, § 2º (§ 4º); o envio na forma do § 2º cumpre o dever de ampla divulgação do caput (§ 5º).",
+      "<strong>Art. 48, § 6º.</strong> Todos os Poderes e órgãos do art. 20, incluídos autarquias, fundações públicas, estatais dependentes e fundos, usam sistemas únicos de execução orçamentária e financeira, mantidos e gerenciados pelo Executivo, resguardada a autonomia.",
+      "<strong>Art. 48-A.</strong> Para cumprir o § 1º, II, do art. 48, os entes dão a qualquer pessoa física ou jurídica acesso, quanto à despesa, a todos os atos das unidades gestoras na execução, no momento em que ocorrem, com no mínimo o número do processo, o bem fornecido ou serviço prestado, o beneficiário do pagamento e, quando for o caso, a licitação (I); e, quanto à receita, ao lançamento e ao recebimento de toda a receita das unidades gestoras, inclusive recursos extraordinários (II)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "devem utilizar sistemas únicos de execução orçamentária e financeira, mantidos e gerenciados pelo Poder Executivo, resguardada a autonomia",
+       "marcas": [
+        "sistemas únicos",
+        "mantidos e gerenciados pelo Poder Executivo"
+       ],
+       "afirmacao": "Cada Poder do Estado pode manter o próprio sistema de execução orçamentária e financeira, desde que troque dados com o do Executivo.",
+       "gabarito": "E",
+       "porque": "O sistema é único por ente, mantido e gerenciado pelo Executivo, resguardada a autonomia (art. 48, § 6º)."
+      },
+      {
+       "trecho": "no momento de sua realização",
+       "marcas": [
+        "no momento de sua realização"
+       ],
+       "afirmacao": "Os atos da despesa das unidades gestoras devem ficar acessíveis a qualquer pessoa no momento de sua realização.",
+       "gabarito": "C",
+       "porque": "É o art. 48-A, I."
+      },
+      {
+       "trecho": "conforme periodicidade, formato e sistema estabelecidos pelo órgão central de contabilidade da União",
+       "marcas": [
+        "órgão central de contabilidade da União"
+       ],
+       "afirmacao": "Os entes disponibilizam seus dados contábeis, orçamentários e fiscais no formato e no sistema definidos pelo Tribunal de Contas da União.",
+       "gabarito": "E",
+       "porque": "Quem define é o órgão central de contabilidade da União, a Secretaria do Tesouro Nacional (art. 48, § 2º)."
+      },
+      {
+       "trecho": "incentivo à participação popular e realização de audiências públicas, durante os processos de elaboração e discussão dos planos",
+       "marcas": [
+        "durante os processos de elaboração e discussão"
+       ],
+       "afirmacao": "A transparência inclui audiências públicas durante a elaboração e a discussão dos planos, da LDO e dos orçamentos.",
+       "gabarito": "C",
+       "porque": "É o art. 48, § 1º, I."
+      }
+     ],
+     "conferido": {
+      "Art. 48.": "2130bc2fdd0e",
+      "Art. 48-A.": "1e1cf89379fc"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "O Siafi não é obrigatório para os Estados. O que a LRF exige de cada ente é um sistema único, mantido pelo seu Executivo, com o padrão mínimo do Decreto 10.540/2020."
+   ],
    "macetes": [
     {
      "sigla": "SIAFI EXECUTA, SICONFI RECEBE",
@@ -3724,11 +4357,27 @@
     "gabarito": "E",
     "explicacao": "O Siafic é único por ente, mantido e gerenciado pelo Executivo, resguardada a autonomia dos Poderes. Outros sistemas podem trocar dados com ele, mas não substituí-lo."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Autonomia dos Poderes.</strong> O Executivo responde pela contratação ou desenvolvimento, manutenção e atualização do Siafic e define as regras contábeis e de segurança, mas não pode interferir nos atos do ordenador de despesa de outro Poder.</p><p><strong>Registro contábil.</strong> Cada registro traz, no mínimo, data, conta debitada, conta creditada, histórico, valor e número de controle, e é vedado registrar com data diferente da do fato.</p><p><strong>Transparência em tempo real.</strong> Quanto à despesa, os entes disponibilizam a qualquer pessoa todos os atos praticados pelas unidades gestoras no decorrer da execução, no momento de sua realização, com dados mínimos sobre o número do processo, o bem fornecido ou serviço prestado, o beneficiário do pagamento e, quando for o caso, o procedimento licitatório; quanto à receita, o lançamento e o recebimento de toda a receita das unidades gestoras (LRF, art. 48-A). O padrão mínimo de qualidade do sistema integrado de administração financeira é exigência de transparência (art. 48, § 1º, III).</p><p><strong>Consolidação nacional.</strong> O Executivo da União consolida as contas de todos os entes até 30 de junho; Estados e Municípios encaminham suas contas até 30 de abril (LRF, art. 51). Descumprir esses prazos ou o envio de dados do art. 48, § 2º, impede o ente de receber transferências voluntárias e de contratar operações de crédito, exceto para pagar dívida mobiliária.</p>",
+   "pegadinhas": [
+    {
+     "errado": "O Judiciário estadual pode manter sistema próprio de execução, distinto do Siafic do Executivo, se os dois trocarem dados.",
+     "certo": "O Siafic é único por ente. Outros sistemas podem trocar dados com ele, mas não substituí-lo.",
+     "fonte": "Questões do app sobre o Siafic"
+    },
+    {
+     "errado": "O Siconfi registra em tempo real a execução dos órgãos federais e opera a Conta Única.",
+     "certo": "Isso é o Siafi. O Siconfi recebe os relatórios fiscais e contábeis de todos os entes.",
+     "fonte": "Questões do app sobre Siafi e Siconfi"
+    },
+    {
+     "errado": "No Siafic, as informações da execução são disponibilizadas até o quinto dia útil após o registro.",
+     "certo": "O prazo é o primeiro dia útil seguinte ao registro.",
+     "fonte": "Questões do app sobre o padrão mínimo do Siafic"
+    }
+   ],
    "relacionados": [
     "acompanhamento-e-controle-da-execucao",
-    "lrf-endividamento-e-transparencia"
+    "lrf-endividamento-e-transparencia",
+    "siafi-sistema-integrado-de-administracao-financeira"
    ]
   },
   {
@@ -3739,8 +4388,9 @@
    "tax": [
     "financas-publicas.receita-conceito-classificacoes"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-11"
+   ],
    "conceitos": [
     "receita pública",
     "receita orçamentária",
@@ -3767,11 +4417,131 @@
     "destinacao",
     "intraorcamentaria"
    ],
-   "resumo": "Em sentido amplo, ingresso é toda entrada de recursos nos cofres públicos. A <strong>receita orçamentária</strong> é a disponibilidade que pertence ao ente e pode financiar despesas; em regra está prevista na LOA, mas a não prevista também é orçamentária quando arrecadada (Lei 4.320/1964, art. 57). Ingresso extraorçamentário é a entrada que não pertence ao ente ou que tem caráter temporário e cuja devolução é esperada: cauções, depósitos de terceiros, retenções na fonte a repassar e a operação de crédito por antecipação de receita orçamentária (ARO). Ele não depende de autorização legislativa e gera passivo de igual valor. Pela categoria econômica (art. 11), a receita é corrente ou de capital. São correntes as receitas tributária, de contribuições, patrimonial, agropecuária, industrial, de serviços, as transferências correntes e outras. As de capital vêm da constituição de dívidas, da conversão em espécie de bens e direitos, das transferências para despesas de capital e do superávit do orçamento corrente, que não é item de receita orçamentária (art. 11, § 3º). A codificação da natureza da receita tem oito dígitos: categoria econômica, origem, espécie, quatro de desdobramento e tipo. Categorias 1 e 2 são correntes e de capital; 7 e 8 são as intraorçamentárias correntes e de capital, vindas de operações entre órgãos e entidades dos orçamentos fiscal e da seguridade social do mesmo ente. Quanto à procedência, a receita é originária (exploração do próprio patrimônio, como aluguéis e preços públicos) ou derivada (constrangimento do patrimônio do particular, como tributos e multas por infração à lei). A classificação por fonte ou destinação de recursos liga a origem do dinheiro à sua aplicação e separa recursos livres dos vinculados a uma finalidade, como saúde, educação e fundos.",
+   "para_entender": [
+    {
+     "texto": "<strong>Categoria econômica da despesa:</strong> a despesa também se divide em corrente (3) e de capital (4); a receita usa os códigos 1 e 2.",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "Nem todo dinheiro que entra no caixa público é receita do ente. Em sentido amplo, <strong>ingresso</strong> é qualquer entrada de recursos. A <strong>receita orçamentária</strong> é a parte que pertence ao ente e pode pagar despesas; em regra está prevista na LOA, mas a arrecadada sem previsão também é orçamentária. O <strong>ingresso extraorçamentário</strong> é o dinheiro que entra só de passagem, porque pertence a terceiros ou terá de ser devolvido: ele não depende de autorização legislativa e nasce com um passivo do mesmo valor. A receita orçamentária é classificada de vários modos. Pela <strong>categoria econômica</strong>, a Lei 4.320 a divide em corrente e de capital, e o critério é a origem: a corrente vem da atividade normal do Estado, como tributos e serviços; a de capital vem de endividamento, venda de bens ou recursos para investir. A <strong>natureza da receita</strong> é o código de oito dígitos que detalha essa classificação, e a tabela mostra as origens de cada grupo. Pela procedência, a receita é <strong>originária</strong>, quando o Estado explora o próprio patrimônio, como num aluguel, ou <strong>derivada</strong>, quando a obtém do patrimônio do particular pelo poder de império, como nos tributos e multas. A classificação por <strong>fonte ou destinação de recursos</strong> liga a entrada à sua aplicação e separa o dinheiro livre do vinculado a uma finalidade, como saúde, educação ou fundos.",
    "esquema": {
     "rotulo": "origens da receita orçamentária e ingressos extraorçamentários",
     "html": "<table><thead><tr><th>Grupo</th><th>Origens</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Receitas correntes (categoria 1)</strong></td><td>impostos, taxas e contribuições de melhoria; contribuições; patrimonial; agropecuária; industrial; serviços; transferências correntes; outras receitas correntes</td><td>ICMS, aluguel de imóvel público, FPE, multas</td></tr><tr><td><strong>Receitas de capital (categoria 2)</strong></td><td>operações de crédito; alienação de bens; amortização de empréstimos concedidos; transferências de capital; outras receitas de capital</td><td>empréstimo contratado, venda de imóvel, convênio para obra</td></tr><tr><td><strong>Intraorçamentárias (categorias 7 e 8)</strong></td><td>operações entre órgãos e entidades dos orçamentos fiscal e da seguridade social do mesmo ente</td><td>contribuição patronal recebida pelo regime próprio do ente</td></tr><tr><td><strong>Ingresso extraorçamentário</strong></td><td>valores de terceiros ou temporários</td><td>cauções, depósitos, retenções a repassar, ARO</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Oito dígitos",
+      "o_que_e": "Categoria econômica, origem, espécie, quatro dígitos de desdobramento e tipo.",
+      "grupo": "Natureza da receita"
+     },
+     {
+      "nome": "Dígito de tipo",
+      "o_que_e": "Último dígito: principal; multas e juros do principal; dívida ativa; multas e juros da dívida ativa.",
+      "atencao": "A arrecadação da dívida ativa fica na natureza do crédito de origem.",
+      "grupo": "Natureza da receita"
+     },
+     {
+      "nome": "Intraorçamentária",
+      "o_que_e": "Receita que um órgão ou entidade recebe de outro do mesmo ente, ambos nos orçamentos fiscal e da seguridade, nas categorias 7 (corrente) e 8 (capital).",
+      "atencao": "O par é a despesa intraorçamentária, modalidade 91, de quem paga.",
+      "grupo": "Natureza da receita"
+     },
+     {
+      "nome": "Receita efetiva",
+      "o_que_e": "Aumenta o patrimônio líquido quando reconhecida, como tributos e transferências recebidas.",
+      "atencao": "Em regra, as correntes.",
+      "grupo": "Efeito no patrimônio"
+     },
+     {
+      "nome": "Receita não efetiva",
+      "o_que_e": "Só troca um elemento do patrimônio por outro, como operação de crédito, alienação de bens e amortização de empréstimo concedido.",
+      "atencao": "Em regra, as de capital; a transferência de capital recebida é efetiva.",
+      "grupo": "Efeito no patrimônio"
+     },
+     {
+      "nome": "Orçamento bruto",
+      "o_que_e": "Receitas e despesas constam da LOA pelos totais, sem deduções (Lei 4.320, art. 6º).",
+      "atencao": "A cota de receita repassada a outro ente é despesa de quem repassa e receita de quem recebe.",
+      "grupo": "Regras de orçamento"
+     },
+     {
+      "nome": "Alienação de bens",
+      "o_que_e": "Receita de capital cujo uso em despesa corrente é vedado, salvo se a lei a destinar aos regimes de previdência (LRF, art. 44).",
+      "atencao": "Não confundir com a receita patrimonial, que é corrente.",
+      "grupo": "Regras de orçamento"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 11."
+     ],
+     "ref": "art. 11 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 11, caput.</strong> A receita se classifica em duas categorias econômicas: receitas correntes e receitas de capital.",
+      "<strong>Art. 11, § 1º.</strong> São correntes as receitas tributária, de contribuições, patrimonial, agropecuária, industrial, de serviços e outras, e os recursos recebidos de outras pessoas de direito público ou privado para atender despesas correntes.",
+      "<strong>Art. 11, § 2º.</strong> São de capital as receitas da constituição de dívidas; da conversão em espécie de bens e direitos; dos recursos recebidos de outras pessoas de direito público ou privado para atender despesas de capital; e o superávit do orçamento corrente.",
+      "<strong>Art. 11, § 3º.</strong> O superávit do orçamento corrente, resultado do balanceamento dos totais das receitas e despesas correntes no Anexo 1, não é item de receita orçamentária.",
+      "<strong>Art. 11, § 4º.</strong> Traz o esquema das rubricas da receita. Hoje a classificação segue o código da natureza da receita, de oito dígitos, fixado em portaria da Secretaria do Tesouro Nacional e da Secretaria de Orçamento Federal."
+     ],
+     "literalidades": [
+      {
+       "trecho": "quando destinadas a atender despesas classificáveis em Despesas Correntes",
+       "marcas": [
+        "despesas classificáveis em Despesas Correntes"
+       ],
+       "afirmacao": "Recursos recebidos de outra pessoa de direito público para atender despesas correntes são receitas correntes.",
+       "gabarito": "C",
+       "porque": "Na transferência recebida, o destino decide a categoria (art. 11, § 1º)."
+      },
+      {
+       "trecho": "não constituirá item de receita orçamentária",
+       "marcas": [
+        "não constituirá item"
+       ],
+       "afirmacao": "O superávit do orçamento corrente é receita de capital e constitui item de receita orçamentária.",
+       "gabarito": "E",
+       "porque": "Está entre as receitas de capital (§ 2º), mas não é item de receita orçamentária (§ 3º)."
+      },
+      {
+       "trecho": "da conversão, em espécie, de bens e direitos",
+       "marcas": [
+        "conversão, em espécie, de bens e direitos"
+       ],
+       "afirmacao": "O valor recebido pela venda de um imóvel desocupado é receita corrente patrimonial.",
+       "gabarito": "E",
+       "porque": "A conversão de bens em dinheiro é receita de capital (art. 11, § 2º). Patrimonial é a exploração do bem, como o aluguel."
+      },
+      {
+       "trecho": "as provenientes da realização de recursos financeiros oriundos de constituição de dívidas",
+       "marcas": [
+        "constituição de dívidas"
+       ],
+       "afirmacao": "Os recursos de operações de crédito contratadas pelo ente são receitas de capital.",
+       "gabarito": "C",
+       "porque": "Vêm da constituição de dívidas (art. 11, § 2º)."
+      }
+     ],
+     "conferido": {
+      "Art. 11.": "fb6d19475912"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Para separar receita patrimonial de alienação, pergunte se o bem continua com o ente. Se continua e rende, como no aluguel ou nos juros, é patrimonial e corrente. Se foi vendido, é alienação e de capital.",
+    "A LOA abrange as operações de crédito autorizadas em lei, mas não a operação de crédito por antecipação de receita (ARO) nem as demais entradas compensatórias no ativo e no passivo financeiros (Lei 4.320, art. 3º)."
+   ],
    "macetes": [
     {
      "sigla": "EXPLORAR É CORRENTE, VENDER É CAPITAL",
@@ -3791,11 +4561,22 @@
     "gabarito": "E",
     "explicacao": "A Lei 4.320/1964 inclui o superávit do orçamento corrente entre as receitas de capital (art. 11, § 2º), mas diz que ele não constitui item de receita orçamentária (art. 11, § 3º), para não contar duas vezes o mesmo recurso."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Efetiva e não efetiva.</strong> Receita efetiva aumenta o patrimônio líquido no momento do reconhecimento, como tributos e transferências recebidas. Receita não efetiva apenas troca um elemento patrimonial por outro: operação de crédito (entra dinheiro, nasce dívida), alienação de bens (sai o bem, entra dinheiro) e amortização de empréstimo concedido. Em regra, as correntes são efetivas e as de capital, não efetivas; a transferência de capital recebida é exceção, pois é efetiva.</p><p><strong>Patrimonial ou alienação.</strong> Receita patrimonial é corrente e vem da exploração do patrimônio: aluguéis, juros de aplicações, dividendos, concessões. A venda do próprio bem é alienação de bens, receita de capital. É vedado aplicar a receita de capital da alienação de bens e direitos em despesa corrente, salvo se destinada por lei aos regimes de previdência (LRF, art. 44).</p><p><strong>Dígito de tipo.</strong> O último dígito da natureza da receita identifica o tipo de arrecadação: principal; multas e juros do principal; dívida ativa; multas e juros da dívida ativa.</p><p><strong>Orçamento bruto.</strong> Todas as receitas e despesas constam da LOA pelos seus totais, vedadas quaisquer deduções (Lei 4.320, art. 6º). Por isso a cota de receita que um ente transfere a outro entra como despesa no orçamento de quem transfere e como receita no de quem recebe.</p><p><strong>Operações de crédito.</strong> A LOA compreende todas as receitas, inclusive as de operações de crédito autorizadas em lei (art. 3º), mas não as operações de crédito por antecipação da receita e outras entradas compensatórias no ativo e passivo financeiros (art. 3º, parágrafo único).</p>",
+   "pegadinhas": [
+    {
+     "errado": "As receitas intraorçamentárias correntes e de capital usam as categorias 3 e 4.",
+     "certo": "Os códigos 3 e 4 são da despesa. Na receita, as intraorçamentárias usam 7 e 8.",
+     "fonte": "Questões do app sobre a natureza da receita"
+    },
+    {
+     "errado": "A ARO é receita orçamentária de capital, porque constitui dívida.",
+     "certo": "A ARO é ingresso extraorçamentário: cobre falta de caixa e é devolvida no próprio exercício.",
+     "fonte": "Questões do app sobre ingressos extraorçamentários"
+    }
+   ],
    "relacionados": [
     "estagios-da-receita-publica",
-    "divida-ativa"
+    "divida-ativa",
+    "classificacao-da-despesa-por-natureza"
    ]
   },
   {
@@ -3806,8 +4587,16 @@
    "tax": [
     "financas-publicas.receita-estagios"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-51",
+    "n4320-1964-art-52",
+    "n4320-1964-art-53",
+    "n4320-1964-art-54",
+    "n4320-1964-art-55",
+    "n4320-1964-art-56",
+    "n4320-1964-art-57",
+    "n101-2000-art-13"
+   ],
    "conceitos": [
     "estágios da receita",
     "lançamento",
@@ -3828,11 +4617,158 @@
     "por homologacao",
     "metas bimestrais"
    ],
-   "resumo": "A Lei 4.320/1964 trata da receita em quatro momentos: previsão, lançamento, arrecadação e recolhimento. O MCASP agrupa as etapas em planejamento (previsão), execução (lançamento, arrecadação e recolhimento) e controle e avaliação. A previsão é a estimativa da receita que constará da LOA, feita conforme normas técnicas e legais, considerando alterações na legislação, variação de preços, crescimento econômico e outros fatores, com demonstrativo dos três últimos anos e projeção para os dois seguintes (LRF, art. 12). O lançamento é o ato da repartição competente que verifica a procedência do crédito fiscal e a pessoa que lhe é devedora e inscreve o débito desta (Lei 4.320, art. 53). São objeto de lançamento os impostos diretos e quaisquer outras rendas com vencimento determinado em lei, regulamento ou contrato (art. 52). Por isso, nem toda receita passa pelo lançamento: doações, operações de crédito e muitas receitas eventuais vão direto à arrecadação. O CTN prevê três modalidades de lançamento tributário: de ofício (direto), por declaração (misto) e por homologação. A arrecadação é a entrega dos recursos pelos contribuintes ou devedores aos agentes arrecadadores, como bancos autorizados, que devem fornecer recibo. O recolhimento é a transferência dos valores arrecadados pelos agentes à conta do Tesouro, em observância ao princípio de unidade de tesouraria, vedada a fragmentação em caixas especiais (art. 56). Pertencem ao exercício as receitas nele arrecadadas (art. 35): a receita orçamentária segue o regime de caixa, enquanto a contabilidade patrimonial reconhece a variação patrimonial aumentativa pela competência.",
+   "para_entender": [
+    {
+     "texto": "<strong>Receita orçamentária:</strong> recurso que pertence ao ente e pode financiar despesas, previsto ou não na LOA.",
+     "tema": "receita-publica-conceito-e-classificacoes"
+    }
+   ],
+   "resumo": "A receita percorre etapas entre a estimativa e a chegada do dinheiro ao Tesouro. A Lei 4.320/1964 fala em previsão, lançamento, arrecadação e recolhimento, e a tabela diz o que acontece em cada um. O MCASP, manual de contabilidade aplicada ao setor público editado pelo Tesouro, agrupa essas etapas em planejamento, execução e controle. Três ideias organizam o assunto. A primeira: nem toda receita passa por todas as etapas. O <strong>lançamento</strong>, ato que identifica o crédito e o devedor, só existe para os impostos diretos e as rendas com vencimento fixado; uma doação ou uma operação de crédito vai direto à arrecadação. A segunda: <strong>arrecadar</strong> é o devedor pagar ao agente arrecadador, em geral um banco, e <strong>recolher</strong> é o agente entregar o valor ao Tesouro. O recolhimento segue a <strong>unidade de tesouraria</strong>: todo o dinheiro vai a uma conta só, sem caixas especiais. A terceira: a receita orçamentária pertence ao exercício em que foi arrecadada, o <strong>regime de caixa</strong>, enquanto a contabilidade patrimonial registra o direito quando ele nasce, pelo regime de competência. A previsão é tratada pela LRF, que pede estimativa com base técnica e o desdobramento das receitas em metas bimestrais.",
    "esquema": {
     "rotulo": "estágios da receita orçamentária",
-    "html": "<table><thead><tr><th>Estágio</th><th>O que acontece</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Previsão</strong></td><td>estimativa da receita na LOA</td><td>série dos três últimos anos e projeção dos dois seguintes (LRF, art. 12)</td></tr><tr><td><strong>Lançamento</strong></td><td>verifica a procedência do crédito, identifica o devedor e inscreve o débito</td><td>só para impostos diretos e rendas com vencimento determinado (art. 52)</td></tr><tr><td><strong>Arrecadação</strong></td><td>o devedor paga ao agente arrecadador</td><td>agente fornece recibo; marca o exercício da receita orçamentária</td></tr><tr><td><strong>Recolhimento</strong></td><td>o agente transfere o valor à conta do Tesouro</td><td>unidade de tesouraria, vedadas caixas especiais (art. 56)</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Estágio</th><th>O que acontece</th><th>Observação</th></tr></thead><tbody><tr><td><strong>Previsão</strong></td><td>estimativa da receita na LOA</td><td>série dos três últimos anos e projeção dos dois seguintes (LRF, art. 12)</td></tr><tr><td><strong>Lançamento</strong></td><td>verifica a procedência do crédito, identifica o devedor e inscreve o débito</td><td>não alcança doações nem operações de crédito (art. 52)</td></tr><tr><td><strong>Arrecadação</strong></td><td>o devedor paga ao agente arrecadador</td><td>agente fornece recibo; marca o exercício da receita orçamentária</td></tr><tr><td><strong>Recolhimento</strong></td><td>o agente transfere o valor à conta do Tesouro</td><td>unidade de tesouraria, vedadas caixas especiais (art. 56)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "De ofício (direto)",
+      "o_que_e": "A autoridade lança sem participação do sujeito passivo.",
+      "atencao": "Ex.: IPTU e IPVA.",
+      "grupo": "Modalidades de lançamento (CTN)"
+     },
+     {
+      "nome": "Por declaração (misto)",
+      "o_que_e": "O sujeito passivo informa, e a autoridade lança com base nisso.",
+      "grupo": "Modalidades de lançamento (CTN)"
+     },
+     {
+      "nome": "Por homologação",
+      "o_que_e": "O sujeito passivo apura e antecipa o pagamento; a autoridade confere e homologa.",
+      "atencao": "Ex.: ICMS e IR.",
+      "grupo": "Modalidades de lançamento (CTN)"
+     },
+     {
+      "nome": "Receita própria na LRF",
+      "o_que_e": "Instituir, prever e arrecadar todos os tributos do ente é requisito da gestão fiscal responsável (art. 11).",
+      "atencao": "Quem não o faz quanto aos impostos fica sem transferências voluntárias.",
+      "grupo": "Outras regras"
+     },
+     {
+      "nome": "Restituição de receita",
+      "o_que_e": "Devolução de valor arrecadado a mais ou indevidamente.",
+      "atencao": "É dedução da receita, não despesa orçamentária.",
+      "grupo": "Outras regras"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 51.",
+      "Art. 52.",
+      "Art. 53.",
+      "Art. 54.",
+      "Art. 55.",
+      "Art. 56.",
+      "Art. 57."
+     ],
+     "ref": "arts. 51 a 57 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 51.</strong> Nenhum tributo é exigido ou aumentado sem lei, nem cobrado em cada exercício sem prévia autorização orçamentária, ressalvados a tarifa aduaneira e o imposto lançado por motivo de guerra. A Constituição de 1988 não manteve a exigência de autorização orçamentária para cobrar tributo: vale a anterioridade (art. 150, III, b e c), e a legalidade está no art. 150, I.",
+      "<strong>Art. 52.</strong> São objeto de lançamento os impostos diretos e quaisquer outras rendas com vencimento determinado em lei, regulamento ou contrato.",
+      "<strong>Art. 53.</strong> O lançamento é ato da repartição competente, que verifica a procedência do crédito fiscal e a pessoa que lhe é devedora e inscreve o débito desta.",
+      "<strong>Art. 54.</strong> Não se admite compensar a obrigação de recolher rendas ou receitas com direito creditório contra a Fazenda Pública.",
+      "<strong>Art. 55, caput e §§ 1º e 2º.</strong> Os agentes da arrecadação fornecem recibo do que arrecadam. O recibo traz o nome de quem paga, a proveniência e a classificação, a data e a assinatura do agente (§ 1º, vetado e mantido pelo Congresso) e é fornecido em uma única via (§ 2º).",
+      "<strong>Art. 56.</strong> O recolhimento de todas as receitas observa estritamente o princípio de unidade de tesouraria, vedada qualquer fragmentação para criar caixas especiais.",
+      "<strong>Art. 57.</strong> Todas as receitas arrecadadas são classificadas como receita orçamentária, sob rubricas próprias, inclusive as de operações de crédito, ainda que não previstas no orçamento. A ressalva inicial ao art. 3º, parágrafo único, foi vetada e mantida pelo Congresso: as entradas compensatórias e a ARO ficam fora."
+     ],
+     "literalidades": [
+      {
+       "trecho": "São objeto de lançamento os impostos diretos",
+       "marcas": [
+        "impostos diretos"
+       ],
+       "afirmacao": "São objeto de lançamento os impostos indiretos e as demais rendas com vencimento determinado em lei, regulamento ou contrato.",
+       "gabarito": "E",
+       "porque": "A lei fala em impostos diretos (art. 52)."
+      },
+      {
+       "trecho": "verifica a procedência do crédito fiscal e a pessoa que lhe é devedora e inscreve o débito desta",
+       "marcas": [
+        "procedência do crédito fiscal"
+       ],
+       "afirmacao": "O lançamento é o ato da repartição competente que verifica a procedência do crédito fiscal e a pessoa devedora e inscreve o débito desta.",
+       "gabarito": "C",
+       "porque": "É o art. 53."
+      },
+      {
+       "trecho": "vedada qualquer fragmentação para criação de caixas especiais",
+       "marcas": [
+        "vedada qualquer fragmentação"
+       ],
+       "afirmacao": "Pela unidade de tesouraria, admite-se a criação de caixas especiais para receitas vinculadas a fundos.",
+       "gabarito": "E",
+       "porque": "É vedada qualquer fragmentação para criar caixas especiais (art. 56)."
+      },
+      {
+       "trecho": "inclusive as provenientes de operações de crédito, ainda que não previstas no Orçamento",
+       "marcas": [
+        "ainda que não previstas"
+       ],
+       "afirmacao": "A receita de operação de crédito arrecadada sem previsão na LOA é receita orçamentária.",
+       "gabarito": "C",
+       "porque": "É o art. 57."
+      }
+     ],
+     "conferido": {
+      "Art. 51.": "65d408a365c7",
+      "Art. 52.": "fa22185af715",
+      "Art. 53.": "10aa2ce82eb5",
+      "Art. 54.": "c321e8f5d449",
+      "Art. 55.": "36545b3eb809",
+      "Art. 56.": "eb1cee974fc5",
+      "Art. 57.": "b1c6e8c9579e"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 13."
+     ],
+     "ref": "art. 13 da LRF",
+     "regras": [
+      "<strong>Art. 13.</strong> No prazo do art. 8º, o Executivo desdobra as receitas previstas em metas bimestrais de arrecadação, especificando em separado, quando cabível, as medidas de combate à evasão e à sonegação, a quantidade e os valores de ações ajuizadas para cobrar a dívida ativa e a evolução dos créditos tributários passíveis de cobrança administrativa."
+     ],
+     "literalidades": [
+      {
+       "trecho": "as receitas previstas serão desdobradas, pelo Poder Executivo, em metas bimestrais de arrecadação",
+       "marcas": [
+        "metas bimestrais"
+       ],
+       "afirmacao": "As receitas previstas são desdobradas pelo Executivo em metas quadrimestrais de arrecadação.",
+       "gabarito": "E",
+       "porque": "As metas são bimestrais (art. 13)."
+      }
+     ],
+     "conferido": {
+      "Art. 13.": "ec7a5412ff54"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "A previsão da receita observa normas técnicas e legais e considera mudanças na legislação, nos preços e no crescimento econômico (LRF, art. 12), regra que está no tema do processo de orçamentação."
+   ],
    "macetes": [
     {
      "sigla": "NEM TODA RECEITA É LANÇADA",
@@ -3852,11 +4788,22 @@
     "gabarito": "E",
     "explicacao": "Nem toda receita é lançada: o lançamento alcança impostos diretos e rendas com vencimento determinado (art. 52). E receita arrecadada sem previsão também é orçamentária (art. 57)."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Modalidades de lançamento.</strong> De ofício, quando a autoridade lança sem participação do sujeito passivo, como o IPVA; por declaração, quando o sujeito passivo presta informações e a autoridade lança; por homologação, quando o sujeito passivo apura e antecipa o pagamento e a autoridade homologa, como o ICMS.</p><p><strong>Requisitos da LRF.</strong> Instituir, prever e efetivamente arrecadar todos os tributos de competência do ente são requisitos essenciais da gestão fiscal responsável; o ente que não o fizer quanto aos impostos não recebe transferências voluntárias (art. 11). As receitas previstas são desdobradas em metas bimestrais de arrecadação, com as medidas de combate à evasão e à sonegação e as ações de cobrança da dívida ativa (art. 13).</p><p><strong>Compensação.</strong> A Lei 4.320 não admite a compensação da obrigação de recolher rendas ou receitas com direito creditório contra a Fazenda Pública (art. 54).</p><p><strong>Receita sem previsão.</strong> São receita orçamentária todas as receitas arrecadadas, inclusive as de operações de crédito, ainda que não previstas no orçamento (art. 57).</p><p><strong>Restituições.</strong> A devolução de receita arrecadada indevidamente é tratada como dedução da receita, e não como despesa orçamentária.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Toda receita orçamentária passa por previsão, lançamento, arrecadação e recolhimento, inclusive doações e operações de crédito.",
+     "certo": "Doações e operações de crédito não são lançadas. O lançamento alcança impostos diretos e rendas com vencimento determinado (art. 52).",
+     "fonte": "Questões do app sobre os estágios da receita"
+    },
+    {
+     "errado": "Arrecadação é a transferência dos valores dos agentes arrecadadores ao Tesouro.",
+     "certo": "Isso é o recolhimento. Arrecadação é o pagamento do devedor ao agente arrecadador.",
+     "fonte": "Questões do app sobre arrecadação e recolhimento"
+    }
+   ],
    "relacionados": [
     "receita-publica-conceito-e-classificacoes",
-    "divida-ativa"
+    "divida-ativa",
+    "sistema-e-processo-de-orcamentacao"
    ]
   },
   {
@@ -3867,8 +4814,10 @@
    "tax": [
     "financas-publicas.divida-ativa"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-39",
+    "n4320-1964-art-39-a"
+   ],
    "conceitos": [
     "dívida ativa",
     "dívida ativa tributária",
@@ -3887,15 +4836,133 @@
     "lei 6830",
     "cessao de direitos creditorios",
     "securitizacao",
-    "art. 39-a",
-    "lc 208/2024",
+    "art 39-a",
+    "lc 208 2024",
     "venda definitiva de patrimonio"
    ],
-   "resumo": "Os créditos da Fazenda Pública, tributários ou não, são escriturados como receita do exercício em que forem arrecadados (Lei 4.320/1964, art. 39). Vencido o prazo de pagamento, são inscritos em dívida ativa, em registro próprio, depois de apurada sua liquidez e certeza (art. 39, § 1º). A inscrição é ato de controle de legalidade feito pelo órgão competente (na União, a Procuradoria da Fazenda Nacional, art. 39, § 5º; nos Estados, em regra, a Procuradoria-Geral do Estado) e gera a certidão de dívida ativa, título executivo extrajudicial que embasa a execução fiscal (Lei 6.830/1980). A dívida ativa tributária vem de obrigação legal relativa a tributos e respectivos adicionais e multas. A não tributária abrange os demais créditos: empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza exceto as tributárias, foros, laudêmios, aluguéis, custas processuais, preços de serviços prestados por estabelecimentos públicos, indenizações, reposições, restituições, alcances de responsáveis definitivamente julgados e créditos de contratos em geral (art. 39, § 2º). A receita da dívida ativa abrange o principal, a atualização monetária, a multa, os juros de mora e o encargo legal (§ 4º). No orçamento, a inscrição não gera receita orçamentária: ela só existe quando o valor é arrecadado. Na contabilidade patrimonial, o crédito já reconhecido apenas muda de conta com a inscrição, e o ente registra ajuste para perdas quando a recuperação for duvidosa.",
+   "para_entender": [
+    {
+     "texto": "<strong>Regime de caixa da receita:</strong> a receita orçamentária pertence ao exercício em que foi arrecadada.",
+     "tema": "estagios-da-receita-publica"
+    }
+   ],
+   "resumo": "Apesar do nome, a <strong>dívida ativa</strong> não é dívida do ente: é crédito que ele tem a receber e que o devedor não pagou no prazo. Vencido o prazo, o crédito é inscrito em registro próprio depois de verificadas sua <strong>liquidez e certeza</strong>, isto é, de que o valor está determinado e a obrigação é indiscutível. A inscrição é um controle de legalidade feito pela procuradoria do ente e gera a <strong>certidão de dívida ativa</strong>, título que permite cobrar o devedor em juízo por <strong>execução fiscal</strong> (Lei 6.830/1980). A dívida ativa é tributária ou não tributária, conforme a origem do crédito, e a tabela traz exemplos dos dois grupos. O critério é simples: só tributos, seus adicionais e as multas tributárias são tributários; todo o resto, inclusive multas de outra natureza, não é. Inscrever não é arrecadar: no orçamento, a receita só aparece quando o devedor paga. Na contabilidade patrimonial, o crédito já registrado apenas muda de conta, e o ente faz <strong>ajuste para perdas</strong> quando a recuperação é duvidosa. Desde a LC 208/2024, o ente pode vender esses créditos a investidores, operação chamada de cessão de direitos creditórios ou securitização, com as condições do art. 39-A.",
    "esquema": {
     "rotulo": "dívida ativa tributária e não tributária",
-    "html": "<table><thead><tr><th>Espécie</th><th>Origem</th><th>Exemplos</th></tr></thead><tbody><tr><td><strong>Tributária</strong></td><td>obrigação legal relativa a tributos e respectivos adicionais e multas</td><td>ICMS e IPVA não pagos e suas multas</td></tr><tr><td><strong>Não tributária</strong></td><td>demais créditos da Fazenda Pública</td><td>multas administrativas (trânsito, ambiental, de contrato), aluguéis, foros e laudêmios, custas, indenizações, alcances julgados, empréstimos compulsórios</td></tr></tbody></table>"
+    "html": "<table><thead><tr><th>Espécie</th><th>Origem</th><th>Exemplos</th></tr></thead><tbody><tr><td><strong>Tributária</strong></td><td>crédito de tributos, adicionais e multas tributárias</td><td>ICMS e IPVA não pagos e suas multas</td></tr><tr><td><strong>Não tributária</strong></td><td>demais créditos da Fazenda Pública</td><td>multas administrativas (trânsito, ambiental, de contrato), aluguéis, foros e laudêmios, custas, indenizações, alcances julgados, empréstimos compulsórios</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Inscrição e prescrição",
+      "o_que_e": "A Lei 6.830/1980 prevê que a inscrição suspende a prescrição por 180 dias.",
+      "atencao": "O STJ aplica essa suspensão só aos créditos não tributários; a prescrição tributária é matéria de lei complementar."
+     },
+     {
+      "nome": "Securitização da dívida ativa",
+      "o_que_e": "Venda definitiva, a investidor privado ou fundo, do direito de receber créditos do ente.",
+      "atencao": "O devedor continua devendo ao Fisco nas mesmas condições."
+     },
+     {
+      "nome": "Sociedade de propósito específico",
+      "o_que_e": "Empresa criada pelo ente só para fazer a cessão, contratada sem licitação."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 39.",
+      "Art. 39-A."
+     ],
+     "ref": "arts. 39 e 39-A da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 39, caput.</strong> Os créditos da Fazenda Pública, tributários ou não, são escriturados como receita do exercício em que forem arrecadados, nas rubricas orçamentárias próprias.",
+      "<strong>Art. 39, § 1º.</strong> Exigíveis pelo transcurso do prazo de pagamento, esses créditos são inscritos como dívida ativa, em registro próprio, após apuradas sua liquidez e certeza, e a receita correspondente é escriturada a esse título.",
+      "<strong>Art. 39, § 2º.</strong> Dívida ativa tributária é o crédito de obrigação legal relativa a tributos e respectivos adicionais e multas. Não tributária são os demais créditos, como empréstimos compulsórios, contribuições estabelecidas em lei, multas de qualquer origem ou natureza, exceto as tributárias, foros, laudêmios, aluguéis ou taxas de ocupação, custas processuais, preços de serviços de estabelecimentos públicos, indenizações, reposições, restituições, alcances de responsáveis definitivamente julgados e créditos de obrigações em moeda estrangeira, de sub-rogação de hipoteca, fiança, aval ou outra garantia, de contratos em geral ou de outras obrigações legais.",
+      "<strong>Art. 39, § 3º.</strong> O crédito em moeda estrangeira é convertido pela taxa cambial oficial, para compra, na data da notificação ou intimação do devedor ou, à falta, na data da inscrição; a partir daí incidem atualização monetária e juros de mora.",
+      "<strong>Art. 39, §§ 4º e 5º.</strong> A receita da dívida ativa abrange o crédito, a atualização monetária, a multa, os juros de mora e o encargo legal dos Decretos-Leis 1.025/1969 e 1.645/1978 (§ 4º). A dívida ativa da União é apurada e inscrita na Procuradoria da Fazenda Nacional (§ 5º).",
+      "<strong>Art. 39-A, caput.</strong> União, Estados, DF e Municípios podem ceder onerosamente, nos termos desta lei e de lei específica que o autorize, direitos originados de créditos tributários e não tributários, inclusive inscritos em dívida ativa, a pessoas jurídicas de direito privado ou a fundos de investimento regulamentados pela CVM (LC 208/2024).",
+      "<strong>Art. 39-A, § 1º.</strong> A cessão deve: preservar a natureza do crédito, com suas garantias e privilégios (I); manter atualização, principal, juros, multas, condições de pagamento, vencimentos e prazos ajustados com o devedor (II); assegurar à Fazenda a cobrança judicial e extrajudicial (III); ser definitiva, isentando o cedente de qualquer obrigação de pagar ao cessionário, de modo que a obrigação fique sempre com o devedor (IV); abranger só o direito autônomo ao recebimento de créditos já constituídos e reconhecidos pelo devedor, inclusive por parcelamento (V); ser autorizada, na forma da lei do ente, pelo chefe do Executivo ou por autoridade delegada (VI); e ocorrer até 90 dias antes do fim do mandato do chefe do Executivo, salvo se o pagamento integral da cessão vier depois dessa data (VII).",
+      "<strong>Art. 39-A, §§ 2º e 3º.</strong> A cessão preserva a base de cálculo das vinculações constitucionais no exercício em que o contribuinte pagar (§ 2º) e não abrange as parcelas do crédito que a Constituição atribui a outros entes (§ 3º).",
+      "<strong>Art. 39-A, §§ 4º e 5º.</strong> A cessão não é operação de crédito nem concessão de garantia da LRF (art. 29, III e IV, e art. 37): é venda definitiva de patrimônio público (§ 4º). A de créditos tributários é atividade da administração tributária, e não se aplica a ela a vedação de vincular receita de impostos do art. 167, IV, da Constituição, respeitados os §§ 2º e 3º (§ 5º).",
+      "<strong>Art. 39-A, §§ 6º e 7º.</strong> A receita é de capital, segue o art. 44 da LRF e vai ao menos 50% para despesas de regime de previdência social, e o restante para investimentos (§ 6º). A cessão pode ser feita por sociedade de propósito específico criada pelo ente, com dispensa de licitação (§ 7º).",
+      "<strong>Art. 39-A, §§ 8º a 10.</strong> A instituição financeira controlada pelo ente cedente não pode participar da aquisição primária dos créditos (I), negociá-los no mercado secundário (II) nem fazer operação lastreada ou garantida por eles (III) (§ 8º), mas pode atuar como prestadora de serviços na estruturação (§ 9º). A cessão de créditos de parcelamentos administrativos não inscritos em dívida ativa se limita ao estoque existente na data da lei que autorizar a operação (§ 10)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "multa de qualquer origem ou natureza, exceto as tributárias",
+       "marcas": [
+        "exceto as tributárias"
+       ],
+       "afirmacao": "Pela Lei 4.320/1964, as multas tributárias integram a dívida ativa não tributária.",
+       "gabarito": "E",
+       "porque": "As multas tributárias ficam na dívida ativa tributária; só as demais multas são não tributárias (art. 39, § 2º)."
+      },
+      {
+       "trecho": "após apurada a sua liquidez e certeza",
+       "marcas": [
+        "liquidez e certeza"
+       ],
+       "afirmacao": "Os créditos exigíveis pelo transcurso do prazo de pagamento são inscritos em dívida ativa após apuradas sua liquidez e certeza.",
+       "gabarito": "C",
+       "porque": "É o art. 39, § 1º."
+      },
+      {
+       "trecho": "até 90 (noventa) dias antes da data de encerramento do mandato do chefe do Poder Executivo",
+       "marcas": [
+        "90 (noventa) dias"
+       ],
+       "afirmacao": "A cessão de direitos creditórios só pode ser feita até 180 dias antes do fim do mandato do chefe do Executivo.",
+       "gabarito": "E",
+       "porque": "O limite é de 90 dias (art. 39-A, § 1º, VII), ressalvado o pagamento integral posterior."
+      },
+      {
+       "trecho": "devendo-se destinar pelo menos 50% (cinquenta por cento) desse montante a despesas associadas a regime de previdência social",
+       "marcas": [
+        "pelo menos 50%"
+       ],
+       "afirmacao": "A receita da cessão é de capital, e ao menos metade vai a despesas de regime de previdência social, e o restante a investimentos.",
+       "gabarito": "C",
+       "porque": "É o art. 39-A, § 6º."
+      },
+      {
+       "trecho": "realizar-se mediante operação definitiva, isentando o cedente de responsabilidade",
+       "marcas": [
+        "operação definitiva"
+       ],
+       "afirmacao": "Na cessão de créditos da dívida ativa, o ente cedente garante ao cessionário o pagamento dos créditos que o contribuinte não quitar.",
+       "gabarito": "E",
+       "porque": "A cessão é definitiva e isenta o cedente de obrigação perante o cessionário (art. 39-A, § 1º, IV)."
+      },
+      {
+       "trecho": "a fundos de investimento regulamentados pela Comissão de Valores Mobiliários (CVM)",
+       "marcas": [
+        "fundos de investimento"
+       ],
+       "afirmacao": "O Estado pode ceder, nos termos de lei específica, créditos inscritos em dívida ativa a fundos de investimento regulamentados pela CVM.",
+       "gabarito": "C",
+       "porque": "É o art. 39-A, caput."
+      }
+     ],
+     "conferido": {
+      "Art. 39.": "0d20c4a1977e",
+      "Art. 39-A.": "b42d001065ef"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "O STF reconhece natureza tributária ao empréstimo compulsório, mas a Lei 4.320 o põe na dívida ativa não tributária (art. 39, § 2º). Em item sobre a Lei 4.320, vale a letra da lei."
+   ],
    "macetes": [
     {
      "sigla": "SÓ A MULTA TRIBUTÁRIA É TRIBUTÁRIA",
@@ -3915,8 +4982,28 @@
     "gabarito": "E",
     "explicacao": "Inscrevem-se em dívida ativa os créditos exigíveis pelo transcurso do prazo para pagamento, depois de apurada sua liquidez e certeza (art. 39, § 1º)."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Empréstimo compulsório.</strong> O STF reconhece a natureza tributária do empréstimo compulsório, mas a Lei 4.320/1964 o arrola entre os créditos da dívida ativa não tributária (art. 39, § 2º). Em prova sobre a Lei 4.320, vale a letra da lei.</p><p><strong>Moeda estrangeira.</strong> O crédito em moeda estrangeira é convertido em moeda nacional pela taxa cambial oficial, para compra, na data da notificação ou intimação do devedor ou, à falta, na data da inscrição; a partir daí incidem atualização monetária e juros de mora (art. 39, § 3º).</p><p><strong>Inscrição e prescrição.</strong> A Lei 6.830/1980 trata a inscrição como ato de controle administrativo da legalidade e prevê que ela suspende a prescrição por 180 dias; o STJ aplica essa suspensão apenas aos créditos não tributários, porque a prescrição tributária é matéria de lei complementar.</p><p><strong>Classificação da arrecadação.</strong> Na codificação da natureza da receita, a arrecadação da dívida ativa usa o dígito de tipo próprio da dívida ativa (e outro para suas multas e juros), dentro da natureza do crédito de origem.</p><p><strong>Cessão onerosa de direitos creditórios.</strong> A LC 208/2024 incluiu o art. 39-A na Lei 4.320/1964: a União, os Estados, o DF e os Municípios podem ceder onerosamente, nos termos de lei específica que o autorize, direitos originados de créditos tributários e não tributários, inscritos ou não em dívida ativa, a pessoas jurídicas de direito privado ou a fundos de investimento regulamentados pela CVM. É a chamada securitização da dívida ativa.</p><p><strong>O que a cessão preserva.</strong> A cessão preserva a natureza do crédito, suas garantias e privilégios, e mantém inalterados os critérios de atualização, o principal, os juros e as multas, as condições de pagamento, os vencimentos e os prazos ajustados com o devedor; a Fazenda conserva a prerrogativa de cobrança judicial e extrajudicial. Ela é operação definitiva: o ente cedente não assume compromisso de pagar o cessionário, e a obrigação continua sempre com o devedor. Recai só sobre o direito autônomo ao recebimento de créditos já constituídos e reconhecidos pelo devedor, inclusive por parcelamento (art. 39-A, § 1º, I a V).</p><p><strong>Limites.</strong> A cessão é autorizada pelo chefe do Poder Executivo ou por autoridade delegada, na forma da lei do ente, e deve ocorrer até 90 dias antes do fim do mandato do chefe do Executivo, ressalvado o caso em que o pagamento integral pela cessão ocorra depois dessa data (§ 1º, VI e VII). Não pode abranger as parcelas do crédito que, por regra constitucional, pertençam a outros entes (§ 3º), e preserva a base de cálculo das vinculações constitucionais no exercício em que o contribuinte pagar (§ 2º). A instituição financeira controlada pelo ente cedente não pode adquirir esses direitos nem operar com lastro neles, mas pode prestar serviços na estruturação da operação (§§ 8º e 9º).</p><p><strong>Natureza da operação e da receita.</strong> A cessão não se enquadra nas definições de operação de crédito e de concessão de garantia da LRF nem nas operações a ela equiparadas e vedadas (art. 29, III e IV, e art. 37): é venda definitiva de patrimônio público (§ 4º). A receita é de capital, sujeita ao art. 44 da LRF, e pelo menos 50% devem ir a despesas associadas a regime de previdência social, e o restante a investimentos (§ 6º). A cessão de créditos tributários é atividade da administração tributária, e por isso não se aplica a vedação de vinculação da receita de impostos do art. 167, IV, da Constituição (§ 5º). Pode ser feita por sociedade de propósito específico criada pelo ente, com dispensa de licitação (§ 7º).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A multa do órgão estadual de trânsito não paga no prazo é inscrita como dívida ativa tributária, por ser receita derivada.",
+     "certo": "Só tributos, adicionais e multas tributárias formam a dívida ativa tributária. Multa de trânsito é não tributária.",
+     "fonte": "Questões do app sobre a dívida ativa não tributária"
+    },
+    {
+     "errado": "A inscrição em dívida ativa gera receita orçamentária no exercício da inscrição, ainda que o devedor não pague.",
+     "certo": "A receita orçamentária só nasce com a arrecadação (art. 39). A inscrição muda o registro do crédito.",
+     "fonte": "Questões do app sobre a inscrição em dívida ativa"
+    },
+    {
+     "errado": "Na cessão de ICMS inscrito, o Estado pode ceder o crédito integral, inclusive a parcela dos Municípios, repassando-lhes depois a quota.",
+     "certo": "A cessão não pode abranger a parte do crédito que a Constituição atribui a outros entes (art. 39-A, § 3º).",
+     "fonte": "Questões do app sobre a cessão de direitos creditórios"
+    },
+    {
+     "errado": "A cessão onerosa de créditos da dívida ativa é operação de crédito sujeita aos limites da LRF.",
+     "certo": "A lei afasta o enquadramento como operação de crédito: é venda definitiva de patrimônio público (art. 39-A, § 4º).",
+     "fonte": "Questões do app sobre a cessão de direitos creditórios"
+    }
+   ],
    "relacionados": [
     "estagios-da-receita-publica",
     "receita-publica-conceito-e-classificacoes"
@@ -3930,8 +5017,11 @@
    "tax": [
     "financas-publicas.restos-a-pagar"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-36",
+    "n101-2000-art-41-a",
+    "n101-2000-art-42"
+   ],
    "conceitos": [
     "restos a pagar",
     "restos a pagar processados",
@@ -3951,11 +5041,143 @@
     "art 42 lrf",
     "art 41-a"
    ],
-   "resumo": "Restos a pagar são as despesas empenhadas mas não pagas até 31 de dezembro (Lei 4.320/1964, art. 36). Pertencem ao exercício as despesas nele legalmente empenhadas (art. 35, II), por isso a despesa inscrita em restos a pagar é despesa orçamentária do exercício em que foi empenhada e, no ano seguinte, é paga como despesa extraorçamentária, sem nova dotação. Há duas espécies. Os processados são as despesas já liquidadas: o credor cumpriu sua obrigação e o direito ao pagamento já foi verificado. Os não processados são as despesas empenhadas e ainda não liquidadas. O registro é feito por exercício e por credor, distinguindo processados e não processados (art. 92, parágrafo único), e os restos a pagar integram a dívida flutuante (art. 92, I). Os empenhos à conta de créditos com vigência plurianual, não liquidados, só são computados como restos a pagar no último ano de vigência do crédito (art. 36, parágrafo único). A LRF não proíbe inscrever restos a pagar, mas limita o fim de mandato: é vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a pagar no exercício seguinte sem suficiente disponibilidade de caixa (art. 42). O cancelamento de restos a pagar não processados não extingue o direito do credor que já tenha cumprido sua obrigação: enquanto não prescrita a dívida, em cinco anos (Decreto 20.910/1932), ela pode ser paga como despesa de exercícios anteriores.",
+   "para_entender": [
+    {
+     "texto": "<strong>Empenho e liquidação:</strong> empenho é o ato que reserva a dotação e cria a obrigação de pagar; liquidação é a verificação de que o credor entregou o bem ou serviço.",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "O exercício financeiro acaba em 31 de dezembro, mas nem toda despesa empenhada foi paga até lá. Essa sobra são os <strong>restos a pagar</strong>. A regra que explica o tratamento deles é a de que pertencem ao exercício as despesas nele empenhadas (Lei 4.320, art. 35, II). Por isso a despesa inscrita é orçamentária do ano do empenho e, no ano seguinte, o pagamento é <strong>extraorçamentário</strong>: sai do caixa sem pedir nova dotação. As duas espécies, processados e não processados, dependem de a despesa já ter sido liquidada, como mostra a tabela. Os restos a pagar entram na dívida flutuante e são registrados por exercício e por credor. A LRF não proíbe inscrevê-los, mas cuida de que haja dinheiro para pagá-los. Em fim de mandato, o titular de Poder ou órgão não pode assumir nos últimos oito meses obrigação que não consiga pagar sem deixar a conta para o sucessor. A partir de 2027, faltar caixa para os restos a pagar também gera vedações ao Poder ou órgão. Se um resto a pagar não processado for cancelado, o direito do credor que cumpriu sua parte não desaparece: enquanto a dívida não prescreve, ela pode ser paga como despesa de exercícios anteriores.",
    "esquema": {
     "rotulo": "restos a pagar processados e não processados",
     "html": "<table><thead><tr><th>Espécie</th><th>Estágio em 31/12</th><th>Situação do credor</th><th>Pagamento no ano seguinte</th></tr></thead><tbody><tr><td><strong>Processados</strong></td><td>empenhada e liquidada, não paga</td><td>já entregou o bem ou serviço; direito verificado</td><td>paga direto, como despesa extraorçamentária</td></tr><tr><td><strong>Não processados</strong></td><td>empenhada, não liquidada</td><td>ainda não comprovou a entrega</td><td>exige liquidação antes do pagamento</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Conta de inscrição",
+      "o_que_e": "Empenho de 100, liquidação de 60 e pagamento de 40 até 31/12: processados 20 (60 menos 40) e não processados 40 (100 menos 60)."
+     },
+     {
+      "nome": "Balanço financeiro",
+      "o_que_e": "Os restos a pagar do exercício entram como receita extraorçamentária, para compensar sua inclusão na despesa orçamentária (Lei 4.320, art. 103, parágrafo único)."
+     },
+     {
+      "nome": "Crime de fim de mandato",
+      "o_que_e": "Ordenar ou autorizar, nos dois últimos quadrimestres, obrigação sem lastro de caixa é crime contra as finanças públicas (Código Penal, art. 359-C)."
+     },
+     {
+      "nome": "Regra federal",
+      "o_que_e": "Na União, a inscrição dos não processados depende de indicação do ordenador, e os não liquidados são bloqueados e depois cancelados nos prazos do Decreto 93.872/1986 (art. 68).",
+      "atencao": "Há exceções, como despesas do Ministério da Saúde e emendas parlamentares impositivas."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 36."
+     ],
+     "ref": "art. 36 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 36.</strong> Restos a pagar são as despesas empenhadas mas não pagas até 31 de dezembro, distinguindo-se as processadas das não processadas.",
+      "<strong>Art. 36, parágrafo único.</strong> Os empenhos de créditos com vigência plurianual ainda não liquidados só são computados como restos a pagar no último ano de vigência do crédito."
+     ],
+     "literalidades": [
+      {
+       "trecho": "só serão computados como Restos a Pagar no último ano de vigência do crédito",
+       "marcas": [
+        "último ano de vigência"
+       ],
+       "afirmacao": "Empenhos não liquidados de créditos plurianuais são computados como restos a pagar ao fim de cada ano de vigência do crédito.",
+       "gabarito": "E",
+       "porque": "Só no último ano de vigência do crédito (art. 36, parágrafo único)."
+      },
+      {
+       "trecho": "as despesas empenhadas mas não pagas até o dia 31 de dezembro",
+       "marcas": [
+        "empenhadas mas não pagas"
+       ],
+       "afirmacao": "Restos a pagar são as despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se as processadas das não processadas.",
+       "gabarito": "C",
+       "porque": "É o art. 36."
+      }
+     ],
+     "conferido": {
+      "Art. 36.": "465140b44da8"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 41-A.",
+      "Art. 42."
+     ],
+     "ref": "arts. 41-A e 42 da LRF",
+     "regras": [
+      "<strong>Art. 41-A, caput.</strong> A partir de 1º de janeiro de 2027, se ao fim de um exercício a disponibilidade de caixa não bastar para os restos a pagar processados e não processados inscritos e as demais obrigações financeiras, aplica-se de imediato ao Poder ou órgão do art. 20, até a apuração anual seguinte, a vedação de conceder ou ampliar incentivo ou benefício tributário (LC 212/2025).",
+      "<strong>Art. 41-A, parágrafo único.</strong> Se a insuficiência durar dois anos consecutivos, somam-se, enquanto durar, as vedações do art. 22, parágrafo único, I a III: vantagens, reajustes, criação de cargos e alteração de carreira.",
+      "<strong>Art. 42.</strong> É vedado ao titular de Poder ou órgão do art. 20, nos últimos dois quadrimestres do mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a pagar no exercício seguinte sem suficiente disponibilidade de caixa.",
+      "<strong>Art. 42, parágrafo único.</strong> Na disponibilidade de caixa se consideram os encargos e as despesas compromissadas a pagar até o final do exercício."
+     ],
+     "literalidades": [
+      {
+       "trecho": "nos últimos dois quadrimestres do seu mandato",
+       "marcas": [
+        "dois quadrimestres"
+       ],
+       "afirmacao": "É vedado ao titular de Poder, nos últimos três quadrimestres do mandato, contrair obrigação de despesa que não possa ser cumprida dentro dele.",
+       "gabarito": "E",
+       "porque": "São os dois últimos quadrimestres (art. 42), de maio a dezembro do último ano."
+      },
+      {
+       "trecho": "serão considerados os encargos e despesas compromissadas a pagar até o final do exercício",
+       "marcas": [
+        "até o final do exercício"
+       ],
+       "afirmacao": "Para o art. 42 da LRF, a disponibilidade de caixa considera os encargos e despesas compromissadas a pagar até o fim do exercício.",
+       "gabarito": "C",
+       "porque": "É o art. 42, parágrafo único."
+      },
+      {
+       "trecho": "a vedação à concessão ou à ampliação de incentivo ou benefício de natureza tributária",
+       "marcas": [
+        "incentivo ou benefício de natureza tributária"
+       ],
+       "afirmacao": "Desde 2027, faltando caixa para os restos a pagar ao fim do exercício, o Poder fica proibido de contratar operações de crédito até a apuração seguinte.",
+       "gabarito": "E",
+       "porque": "A vedação é de conceder ou ampliar benefício tributário (art. 41-A)."
+      },
+      {
+       "trecho": "perdura por 2 (dois) anos consecutivos",
+       "marcas": [
+        "2 (dois) anos consecutivos"
+       ],
+       "afirmacao": "Se a falta de caixa para restos a pagar durar dois anos seguidos, somam-se as vedações de pessoal do art. 22, parágrafo único, I a III.",
+       "gabarito": "C",
+       "porque": "É o art. 41-A, parágrafo único."
+      }
+     ],
+     "conferido": {
+      "Art. 41-A.": "3ec99650f68c",
+      "Art. 42.": "b3efd6991d54"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Os dois últimos quadrimestres vão de 1º de maio a 31 de dezembro do último ano do mandato."
+   ],
    "macetes": [
     {
      "sigla": "PROCESSADO JÁ FOI LIQUIDADO",
@@ -3975,11 +5197,22 @@
     "gabarito": "E",
     "explicacao": "Essa é a definição dos não processados. Os processados são as despesas empenhadas e já liquidadas, mas não pagas até 31 de dezembro."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Conta de restos a pagar.</strong> Exemplo: empenho de 100, liquidação de 60 e pagamento de 40 até 31 de dezembro geram 20 de restos a pagar processados (60 − 40) e 40 de não processados (100 − 60).</p><p><strong>Balanço financeiro.</strong> Os restos a pagar do exercício são computados na receita extraorçamentária para compensar sua inclusão na despesa orçamentária (Lei 4.320, art. 103, parágrafo único).</p><p><strong>Disponibilidade de caixa no fim do mandato.</strong> Para o art. 42 da LRF, consideram-se os encargos e as despesas compromissadas a pagar até o final do exercício. Ordenar ou autorizar a assunção de obrigação nos dois últimos quadrimestres do mandato sem esse lastro é crime contra as finanças públicas (Código Penal, art. 359-C).</p><p><strong>Novidade da LC 212/2025.</strong> A partir de 1º de janeiro de 2027, se ao final de um exercício a disponibilidade de caixa não for suficiente para honrar os restos a pagar processados e não processados inscritos e as demais obrigações financeiras, aplica-se ao Poder ou órgão, até a próxima apuração anual, a vedação à concessão ou à ampliação de incentivo ou benefício de natureza tributária (LRF, art. 41-A). Se a insuficiência durar dois anos consecutivos, somam-se as vedações dos incisos I, II e III do parágrafo único do art. 22 (vantagens e reajustes, criação de cargos e alteração de carreira).</p><p><strong>Regra federal.</strong> Na União, a inscrição de restos a pagar não processados depende de indicação do ordenador de despesas, e os não liquidados são bloqueados e depois cancelados nos prazos do Decreto 93.872/1986 (art. 68), com exceções como as despesas do Ministério da Saúde e as emendas parlamentares impositivas.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Restos a pagar processados são despesas empenhadas e ainda não liquidadas em 31 de dezembro.",
+     "certo": "Essa é a definição dos não processados. Os processados já foram liquidados.",
+     "fonte": "Questões do app sobre as espécies de restos a pagar"
+    },
+    {
+     "errado": "O pagamento de resto a pagar no ano seguinte exige nova dotação no orçamento vigente.",
+     "certo": "Não exige: a despesa já foi orçamentária no ano do empenho, e o pagamento é extraorçamentário.",
+     "fonte": "Questões do app sobre o pagamento de restos a pagar"
+    }
+   ],
    "relacionados": [
     "despesas-de-exercicios-anteriores",
-    "dividas-flutuante-e-fundada"
+    "dividas-flutuante-e-fundada",
+    "lrf-endividamento-e-transparencia"
    ]
   },
   {
@@ -3990,8 +5223,9 @@
    "tax": [
     "financas-publicas.despesas-exercicios-anteriores"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-37"
+   ],
    "conceitos": [
     "despesas de exercícios anteriores",
     "restos a pagar com prescrição interrompida"
@@ -4006,11 +5240,80 @@
     "ordem cronologica",
     "prescricao quinquenal"
    ],
-   "resumo": "Despesas de exercícios anteriores (DEA) são dívidas de exercícios encerrados pagas à conta de dotação específica do orçamento vigente, discriminada por elementos, obedecida, sempre que possível, a ordem cronológica (Lei 4.320/1964, art. 37). São três hipóteses. A primeira: despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio, com saldo suficiente, que não se tenham processado na época própria; o Decreto 93.872/1986 (art. 22, § 2º) explica que são aquelas cujo empenho foi considerado insubsistente e anulado no encerramento do exercício, mas cujo credor cumpriu a obrigação dentro do prazo. A segunda: restos a pagar com prescrição interrompida, isto é, despesas cuja inscrição em restos a pagar foi cancelada mas cujo direito do credor ainda está vigente. A terceira: compromissos reconhecidos após o encerramento do exercício, obrigações de pagamento criadas por lei cujo direito do reclamante só foi reconhecido depois de encerrado o exercício correspondente, como diferenças de vencimentos de servidor. O reconhecimento da obrigação cabe à autoridade competente para empenhar a despesa. Na natureza da despesa, a DEA é identificada pelo elemento 92, mantidas a categoria econômica e o grupo de natureza próprios da despesa original (uma DEA de pessoal fica no GND 1). A DEA não é crédito adicional nem reabertura de crédito: o pagamento ocorre com dotação do orçamento do ano em que se paga, e por isso a despesa é orçamentária desse exercício. O limite temporal é a prescrição quinquenal das dívidas passivas da Fazenda (Decreto 20.910/1932, art. 1º).",
+   "para_entender": [
+    {
+     "texto": "<strong>Restos a pagar:</strong> despesas empenhadas e não pagas até 31 de dezembro, pagas no ano seguinte sem nova dotação.",
+     "tema": "restos-a-pagar"
+    },
+    {
+     "texto": "<strong>Elemento de despesa:</strong> último nível da natureza da despesa, que identifica o objeto do gasto, como vencimentos ou material de consumo.",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "Às vezes o ente deve algo de um ano que já acabou e não tem empenho válido para pagar. A solução é a <strong>despesa de exercícios anteriores</strong> (DEA): a dívida antiga é quitada à conta de dotação própria do orçamento do ano, aberta por elementos, e, quando possível, na ordem cronológica. As três hipóteses estão na tabela. A primeira supõe que o orçamento antigo tinha crédito próprio com saldo suficiente, mas a despesa não foi processada a tempo; o Decreto 93.872/1986 (art. 22, § 2º) a descreve como o empenho anulado no encerramento do exercício cujo credor cumpriu a obrigação no prazo. A segunda é o <strong>resto a pagar com prescrição interrompida</strong>: a inscrição foi cancelada, mas o direito do credor segue vivo. A terceira é o <strong>compromisso reconhecido após o encerramento</strong>: dívida que a lei criou, mas cujo direito só foi reconhecido depois, como uma diferença de vencimentos. Quem reconhece a dívida é a autoridade competente para empenhar a despesa. Como sai do orçamento do ano do pagamento, a DEA é despesa orçamentária desse ano, com novo empenho, e não reabertura do crédito antigo. Na natureza da despesa, ela usa o elemento 92 e conserva a categoria econômica e o grupo da despesa original. O limite no tempo é a prescrição de cinco anos das dívidas passivas da Fazenda (Decreto 20.910/1932).",
    "esquema": {
     "rotulo": "as três hipóteses de despesas de exercícios anteriores",
     "html": "<table><thead><tr><th>Hipótese</th><th>O que é</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Despesa não processada na época própria</strong></td><td>havia crédito com saldo suficiente; empenho anulado no encerramento, mas o credor cumpriu a obrigação no prazo</td><td>serviço prestado em dezembro cujo empenho foi anulado por falta de documentação</td></tr><tr><td><strong>Restos a pagar com prescrição interrompida</strong></td><td>inscrição em restos a pagar cancelada, com direito do credor ainda vigente</td><td>resto a pagar cancelado, cobrado pelo fornecedor dentro do prazo prescricional</td></tr><tr><td><strong>Compromisso reconhecido após o encerramento</strong></td><td>obrigação criada por lei, direito reconhecido depois do exercício</td><td>diferença de vencimentos de servidor reconhecida administrativamente</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Restos a pagar e DEA",
+      "o_que_e": "O resto a pagar tem empenho do ano de origem e é pago sem nova dotação; a DEA exige novo empenho, à conta do orçamento vigente."
+     },
+     {
+      "nome": "Saldo suficiente",
+      "o_que_e": "Na primeira hipótese, sem saldo no crédito do exercício encerrado, a despesa não se enquadra."
+     },
+     {
+      "nome": "Despesa sem prévio empenho",
+      "o_que_e": "Pagá-la como DEA não a regulariza: a falta de empenho, vedada pela Lei 4.320 (art. 60), continua sujeita a apuração de responsabilidade."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 37."
+     ],
+     "ref": "art. 37 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 37.</strong> Podem ser pagos à conta de dotação específica do orçamento, discriminada por elementos e obedecida, sempre que possível, a ordem cronológica: as despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio, com saldo suficiente, que não se tenham processado na época própria; os restos a pagar com prescrição interrompida; e os compromissos reconhecidos após o encerramento do exercício correspondente."
+     ],
+     "literalidades": [
+      {
+       "trecho": "poderão ser pagos à conta de dotação específica consignada no orçamento, discriminada por elementos",
+       "marcas": [
+        "dotação específica consignada no orçamento"
+       ],
+       "afirmacao": "A despesa de exercício anterior é paga mediante reabertura do crédito do exercício em que a obrigação nasceu.",
+       "gabarito": "E",
+       "porque": "É paga à conta de dotação específica do orçamento vigente (art. 37)."
+      },
+      {
+       "trecho": "para as quais o orçamento respectivo consignava crédito próprio, com saldo suficiente para atendê-las",
+       "marcas": [
+        "com saldo suficiente"
+       ],
+       "afirmacao": "Despesas de exercícios encerrados com crédito próprio e saldo suficiente, não processadas na época própria, podem ser pagas como despesas de exercícios anteriores.",
+       "gabarito": "C",
+       "porque": "É a primeira hipótese do art. 37."
+      }
+     ],
+     "conferido": {
+      "Art. 37.": "89c5444d365d"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
    "macetes": [
     {
      "sigla": "DEA USA O ORÇAMENTO DE HOJE",
@@ -4030,8 +5333,18 @@
     "gabarito": "E",
     "explicacao": "A DEA é paga com dotação específica do orçamento vigente, discriminada por elementos (art. 37). Não há reabertura do crédito antigo: a despesa é orçamentária do exercício do pagamento."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Restos a pagar e DEA.</strong> O resto a pagar foi empenhado e inscrito no exercício de origem e é pago no ano seguinte como despesa extraorçamentária, sem nova dotação. A DEA não tem empenho válido de origem (ou o teve cancelado) e exige novo empenho, à conta de dotação do orçamento vigente.</p><p><strong>Saldo suficiente.</strong> Na primeira hipótese, a lei exige que o orçamento do exercício encerrado tivesse crédito próprio com saldo suficiente para a despesa. Sem esse saldo, a despesa não se enquadra nessa hipótese.</p><p><strong>Despesa sem prévio empenho.</strong> Pagar como DEA uma despesa realizada sem prévio empenho não a torna regular: a falta de empenho, vedada pelo art. 60 da Lei 4.320, continua passível de apuração de responsabilidade.</p><p><strong>Prescrição.</strong> As dívidas passivas da União, dos Estados e dos Municípios prescrevem em cinco anos contados da data do ato ou fato do qual se originarem (Decreto 20.910/1932, art. 1º).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Restos a pagar com prescrição interrompida são as despesas cujo empenho foi anulado no encerramento, embora o credor tenha cumprido a obrigação.",
+     "certo": "Isso descreve a despesa não processada na época própria. Prescrição interrompida é a do resto a pagar cancelado com direito vigente.",
+     "fonte": "Questões do app sobre as hipóteses de DEA"
+    },
+    {
+     "errado": "O reconhecimento da obrigação de pagar DEA cabe ao órgão central de contabilidade.",
+     "certo": "Cabe à autoridade competente para empenhar a despesa.",
+     "fonte": "Questões do app sobre o reconhecimento da DEA"
+    }
+   ],
    "relacionados": [
     "restos-a-pagar",
     "classificacao-da-despesa-por-natureza"
@@ -4045,8 +5358,10 @@
    "tax": [
     "financas-publicas.divida-flutuante-fundada"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-92",
+    "n4320-1964-art-98"
+   ],
    "conceitos": [
     "dívida flutuante",
     "dívida fundada",
@@ -4066,11 +5381,107 @@
     "doze meses",
     "aro"
    ],
-   "resumo": "A Lei 4.320/1964 separa a dívida pública pelo prazo e pela dependência de autorização. A dívida flutuante compreende os restos a pagar, excluídos os serviços da dívida; os serviços da dívida a pagar; os depósitos; e os débitos de tesouraria (art. 92). É de curto prazo, e seu pagamento não depende de autorização orçamentária: o valor já foi autorizado e empenhado (restos a pagar, serviços da dívida a pagar), não pertence ao ente (depósitos e cauções) ou resulta de operação de caixa. A operação de crédito por antecipação de receita (ARO) é dívida flutuante: deve ser liquidada até 10 de dezembro e não integra a receita orçamentária. Ela figura entre os débitos de tesouraria. A dívida fundada compreende os compromissos de exigibilidade superior a doze meses, contraídos para atender a desequilíbrio orçamentário ou a financiamento de obras e serviços públicos (art. 98), e seu serviço (amortização e juros) depende de dotação na LOA. A LRF usa a expressão dívida pública consolidada ou fundada: montante total, apurado sem duplicidade, das obrigações financeiras do ente, assumidas em virtude de leis, contratos, convênios ou tratados e de operações de crédito, para amortização em prazo superior a doze meses (art. 29, I). Também integram a dívida consolidada as operações de crédito de prazo inferior a doze meses cujas receitas tenham constado do orçamento (art. 29, § 3º). A dívida mobiliária é a parte representada por títulos. Nos demonstrativos da Lei 4.320, a dívida flutuante corresponde ao passivo financeiro, e a fundada, ao passivo permanente (art. 105).",
+   "para_entender": [
+    {
+     "texto": "<strong>Dívida consolidada:</strong> na LRF, as obrigações financeiras do ente para amortização em prazo superior a doze meses.",
+     "tema": "divida-publica"
+    },
+    {
+     "texto": "<strong>ARO:</strong> operação de crédito por antecipação de receita, que cobre falta de caixa e é liquidada até 10 de dezembro.",
+     "tema": "credito-publico-e-seus-limites"
+    }
+   ],
+   "resumo": "A Lei 4.320/1964 separa a dívida do ente por dois critérios: o prazo e a necessidade de autorização para pagar. A <strong>dívida flutuante</strong> é a de curto prazo, e seu pagamento independe de autorização orçamentária, porque o valor já foi autorizado e empenhado, pertence a terceiros ou resulta de operação de caixa. A <strong>dívida fundada</strong> é a de longo prazo, contraída para cobrir desequilíbrio do orçamento ou financiar obras e serviços, e sua amortização e seus juros dependem de dotação na LOA. A tabela compara as duas. Um detalhe da composição costuma cair: os serviços da dívida, isto é, juros e amortização vencidos, saem do item restos a pagar só para formar item próprio, também na flutuante. A ARO é dívida flutuante e entra como débito de tesouraria. A LRF usa outra expressão, <strong>dívida consolidada ou fundada</strong>, e põe nela também operações de crédito de prazo inferior a doze meses cujas receitas constaram do orçamento. Nos balanços da Lei 4.320, a flutuante corresponde ao passivo financeiro, e a fundada, ao passivo permanente (art. 105).",
    "esquema": {
     "rotulo": "dívida flutuante e dívida fundada",
     "html": "<table><thead><tr><th>Aspecto</th><th>Dívida flutuante</th><th>Dívida fundada</th></tr></thead><tbody><tr><td><strong>Prazo</strong></td><td>curto prazo</td><td>exigibilidade superior a doze meses</td></tr><tr><td><strong>Composição</strong></td><td>restos a pagar (sem os serviços da dívida), serviços da dívida a pagar, depósitos, débitos de tesouraria</td><td>empréstimos e financiamentos de longo prazo, títulos, parcelamentos</td></tr><tr><td><strong>Autorização para pagar</strong></td><td>independe de autorização orçamentária</td><td>amortização e juros dependem de dotação</td></tr><tr><td><strong>Balanço patrimonial (Lei 4.320)</strong></td><td>passivo financeiro</td><td>passivo permanente</td></tr><tr><td><strong>Exemplo</strong></td><td>ARO, cauções de licitantes, fornecedor a pagar</td><td>empréstimo de dez anos para obra de saneamento</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Precatórios não pagos",
+      "o_que_e": "Os incluídos no orçamento e não pagos durante sua execução integram a dívida consolidada, para os limites (LRF, art. 30, § 7º)."
+     },
+     {
+      "nome": "Banco Central",
+      "o_que_e": "A dívida da União inclui a dos títulos emitidos pelo Banco Central (LRF, art. 29, § 2º)."
+     },
+     {
+      "nome": "Passivo financeiro e permanente",
+      "o_que_e": "A Lei 4.320 define o passivo financeiro pelas dívidas cujo pagamento independa de autorização orçamentária e o permanente pelas que dependam de autorização legislativa (art. 105, §§ 3º e 4º).",
+      "atencao": "A redação do § 3º, que cita as dívidas fundadas, é criticada pela doutrina; na prática o passivo financeiro reúne a flutuante."
+     },
+     {
+      "nome": "Dívida mobiliária",
+      "o_que_e": "Parte da dívida representada por títulos."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 92.",
+      "Art. 98."
+     ],
+     "ref": "arts. 92 e 98 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 92.</strong> A dívida flutuante compreende os restos a pagar, excluídos os serviços da dívida (I); os serviços da dívida a pagar (II); os depósitos (III); e os débitos de tesouraria (IV).",
+      "<strong>Art. 92, parágrafo único.</strong> Os restos a pagar são registrados por exercício e por credor, distinguindo-se as despesas processadas das não processadas.",
+      "<strong>Art. 98, caput e parágrafo único.</strong> A dívida fundada compreende os compromissos de exigibilidade superior a doze meses, contraídos para atender a desequilíbrio orçamentário ou a financiamento de obras e serviços públicos, e é escriturada com individuação e especificações que mostrem, a qualquer momento, a posição dos empréstimos e os serviços de amortização e juros. O artigo foi vetado e o veto, derrubado pelo Congresso."
+     ],
+     "literalidades": [
+      {
+       "trecho": "os restos a pagar, excluídos os serviços da dívida",
+       "marcas": [
+        "excluídos os serviços da dívida"
+       ],
+       "afirmacao": "A dívida flutuante compreende os restos a pagar, excluídos os serviços da dívida, os serviços da dívida a pagar, os depósitos e os débitos de tesouraria.",
+       "gabarito": "C",
+       "porque": "É o art. 92."
+      },
+      {
+       "trecho": "os serviços da dívida a pagar",
+       "marcas": [
+        "serviços da dívida a pagar"
+       ],
+       "afirmacao": "Os serviços da dívida a pagar integram a dívida fundada, por decorrerem de compromissos de longo prazo.",
+       "gabarito": "E",
+       "porque": "São item da dívida flutuante (art. 92, II)."
+      },
+      {
+       "trecho": "compromissos de exigibilidade superior a doze meses",
+       "marcas": [
+        "doze meses"
+       ],
+       "afirmacao": "A dívida fundada compreende os compromissos de exigibilidade superior a seis meses.",
+       "gabarito": "E",
+       "porque": "O marco é de doze meses (art. 98)."
+      },
+      {
+       "trecho": "contraídos para atender a desequilíbrio orçamentário",
+       "marcas": [
+        "desequilíbrio orçamentário"
+       ],
+       "afirmacao": "A dívida fundada pode ser contraída para atender a desequilíbrio orçamentário ou financiar obras e serviços públicos.",
+       "gabarito": "C",
+       "porque": "É o art. 98."
+      }
+     ],
+     "conferido": {
+      "Art. 92.": "e1834e8ea5e4",
+      "Art. 98.": "ffe80482f356"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
    "macetes": [
     {
      "sigla": "FLUTUANTE NÃO PEDE ORÇAMENTO",
@@ -4088,12 +5499,18 @@
    "pegadinha": {
     "afirmacao": "Os serviços da dívida a pagar integram a dívida fundada, por decorrerem de compromissos de longo prazo.",
     "gabarito": "E",
-    "explicacao": "O art. 92 da Lei 4.320/1964 lista os serviços da dívida a pagar como item da dívida flutuante, ao lado dos restos a pagar (sem os serviços da dívida), dos depósitos e dos débitos de tesouraria."
+    "explicacao": "Os serviços da dívida a pagar são item da dívida flutuante (Lei 4.320, art. 92, II): parcelas vencidas, já autorizadas e empenhadas, que não dependem de nova autorização."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Precatórios.</strong> Os precatórios judiciais não pagos durante a execução do orçamento em que houverem sido incluídos integram a dívida consolidada, para fins de aplicação dos limites (LRF, art. 30, § 7º).</p><p><strong>Banco Central.</strong> Inclui-se na dívida consolidada da União a relativa à emissão de títulos de responsabilidade do Banco Central do Brasil (art. 29, § 2º).</p><p><strong>Passivo financeiro.</strong> A Lei 4.320 define o passivo financeiro como as dívidas fundadas e outras cujo pagamento independa de autorização orçamentária, e o passivo permanente como as dívidas fundadas e outras que dependam de autorização legislativa para amortização ou resgate (art. 105, §§ 3º e 4º). A redação do § 3º é criticada pela doutrina; na prática, o passivo financeiro reúne a dívida flutuante.</p><p><strong>Escrituração da fundada.</strong> A dívida fundada é escriturada com individuação e especificações que permitam verificar, a qualquer momento, a posição dos empréstimos e os serviços de amortização e juros (art. 98, parágrafo único).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Precatórios não pagos durante a execução do orçamento em que foram incluídos ficam fora da dívida consolidada, por serem de curto prazo.",
+     "certo": "A LRF manda incluí-los na dívida consolidada, para fins dos limites (art. 30, § 7º).",
+     "fonte": "Questões do app sobre a dívida consolidada"
+    }
+   ],
    "relacionados": [
     "restos-a-pagar",
+    "divida-publica",
     "lrf-endividamento-e-transparencia"
    ]
   },
@@ -4105,8 +5522,11 @@
    "tax": [
     "financas-publicas.suprimento-de-fundos"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "n4320-1964-art-65",
+    "n4320-1964-art-68",
+    "n4320-1964-art-69"
+   ],
    "conceitos": [
     "suprimento de fundos",
     "regime de adiantamento",
@@ -4124,11 +5544,101 @@
     "prestacao de contas",
     "dois suprimentos"
    ],
-   "resumo": "Suprimento de fundos é o adiantamento de numerário a servidor, sempre precedido de empenho na dotação própria, para realizar despesas que não possam subordinar-se ao processo normal de aplicação (Lei 4.320/1964, arts. 65 e 68). É exceção ao rito normal de empenho, liquidação e pagamento direto ao credor: o pagamento é feito ao servidor suprido, que aplica o dinheiro e depois presta contas. Na União, o Decreto 93.872/1986 (art. 45) permite o suprimento, a critério do ordenador de despesa e sob sua inteira responsabilidade, em três casos: despesas eventuais, inclusive em viagens e com serviços especiais, que exijam pronto pagamento; despesas que devam ser feitas em caráter sigiloso, conforme regulamento; e despesas de pequeno vulto, com limite fixado em portaria do Ministro da Fazenda. Não se concede suprimento a responsável por dois suprimentos; a servidor que tenha a seu cargo a guarda ou a utilização do material a adquirir, salvo quando não houver na repartição outro servidor; a responsável por suprimento que, esgotado o prazo, não tenha prestado contas de sua aplicação; e a servidor declarado em alcance. O suprimento é contabilizado como despesa realizada; as restituições por falta de aplicação ou aplicação indevida anulam a despesa, e, se recolhidas depois de encerrado o exercício, viram receita orçamentária. Se o suprido não prestar contas no prazo fixado pelo ordenador, instaura-se tomada de contas. Na União, as despesas com suprimento são feitas por meio do Cartão de Pagamento do Governo Federal, e o saque em espécie é vedado, salvo exceções do próprio decreto.",
+   "para_entender": [
+    {
+     "texto": "<strong>Ordenador de despesa:</strong> autoridade de cujos atos resultam empenho, autorização de pagamento, suprimento ou dispêndio de recursos.",
+     "tema": "ordenador-de-despesa"
+    }
+   ],
+   "resumo": "No rito normal, a despesa é empenhada, liquidada e paga diretamente ao credor. Algumas despesas não cabem nesse rito, porque são urgentes, sigilosas ou pequenas demais. Para elas existe o <strong>suprimento de fundos</strong>, que a Lei 4.320 chama de <strong>regime de adiantamento</strong>: o ente entrega dinheiro a um servidor, o <strong>suprido</strong>, que faz as compras e depois presta contas. O que muda é só quem recebe o dinheiro: o servidor, em vez do credor. O empenho prévio continua obrigatório, na dotação própria da despesa. Na União, o Decreto 93.872/1986 (art. 45) deixa a concessão a critério do ordenador de despesa, sob sua inteira responsabilidade, e lista os casos e as vedações, resumidos na tabela. Uma das vedações protege o servidor em <strong>alcance</strong>, que é aquele que não prestou contas no prazo ou teve as contas impugnadas e ficou em débito com a Fazenda. O suprimento é contabilizado como despesa realizada. As restituições, por falta de aplicação ou por aplicação indevida, anulam a despesa quando feitas no mesmo exercício; recolhidas depois de encerrado o exercício, viram receita orçamentária. Na União, os gastos com suprimento são feitos pelo Cartão de Pagamento do Governo Federal, e o saque em dinheiro só é admitido nas exceções do decreto.",
    "esquema": {
     "rotulo": "quando cabe e quando é vedado o suprimento de fundos",
     "html": "<table><thead><tr><th>Ponto</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Cabimento</strong></td><td>despesas eventuais que exijam pronto pagamento; despesas sigilosas; despesas de pequeno vulto</td></tr><tr><td><strong>Requisito</strong></td><td>empenho prévio na dotação própria; decisão do ordenador, sob sua responsabilidade</td></tr><tr><td><strong>Vedações</strong></td><td>responsável por dois suprimentos; servidor que guarda ou usa o material a adquirir (salvo se não houver outro); quem não prestou contas no prazo; servidor em alcance</td></tr><tr><td><strong>Sobra devolvida no exercício</strong></td><td>anula a despesa</td></tr><tr><td><strong>Sobra devolvida após o exercício</strong></td><td>receita orçamentária</td></tr><tr><td><strong>Sem prestação de contas</strong></td><td>tomada de contas, sem prejuízo das penalidades</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Elemento do empenho",
+      "o_que_e": "O empenho vai para o elemento do objeto do gasto, como material de consumo ou serviços de terceiros.",
+      "atencao": "Não há dotação genérica de adiantamento."
+     },
+     {
+      "nome": "Despesas não impugnadas",
+      "o_que_e": "Escrituradas e incluídas na tomada de contas do ordenador; se impugnadas, ele manda apurar responsabilidades (Decreto-Lei 200/1967, art. 80, § 3º)."
+     },
+     {
+      "nome": "Regime especial",
+      "o_que_e": "Órgãos com peculiaridades, como missões no exterior ou gastos sigilosos, seguem instruções dos ministros, vedada a delegação (Decreto 93.872, art. 47)."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 65.",
+      "Art. 68.",
+      "Art. 69."
+     ],
+     "ref": "arts. 65, 68 e 69 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 65.</strong> O pagamento da despesa é feito por tesouraria ou pagadoria regularmente instituídas, por estabelecimentos bancários credenciados e, em casos excepcionais, por meio de adiantamento.",
+      "<strong>Art. 68.</strong> O regime de adiantamento se aplica aos casos de despesa expressamente definidos em lei e consiste na entrega de numerário a servidor, sempre precedida de empenho na dotação própria, para realizar despesas que não possam subordinar-se ao processo normal de aplicação.",
+      "<strong>Art. 69.</strong> Não se faz adiantamento a servidor em alcance nem a responsável por dois adiantamentos. A parte final foi vetada e o veto, derrubado pelo Congresso."
+     ],
+     "literalidades": [
+      {
+       "trecho": "sempre precedida de empenho na dotação própria",
+       "marcas": [
+        "sempre precedida de empenho"
+       ],
+       "afirmacao": "Pela urgência que o justifica, o adiantamento dispensa o empenho prévio, emitido depois, na prestação de contas.",
+       "gabarito": "E",
+       "porque": "O adiantamento é sempre precedido de empenho na dotação própria (art. 68)."
+      },
+      {
+       "trecho": "nem a responsável por dois adiantamentos",
+       "marcas": [
+        "dois adiantamentos"
+       ],
+       "afirmacao": "Não se faz adiantamento a servidor que já seja responsável por três adiantamentos.",
+       "gabarito": "E",
+       "porque": "O limite é de dois adiantamentos (art. 69)."
+      },
+      {
+       "trecho": "é aplicável aos casos de despesas expressamente definidos em lei",
+       "marcas": [
+        "expressamente definidos em lei"
+       ],
+       "afirmacao": "O regime de adiantamento só se aplica aos casos de despesa expressamente definidos em lei.",
+       "gabarito": "C",
+       "porque": "É o art. 68."
+      },
+      {
+       "trecho": "em casos excepcionais, por meio de adiantamento",
+       "marcas": [
+        "casos excepcionais"
+       ],
+       "afirmacao": "Em casos excepcionais, o pagamento da despesa pode ser feito por meio de adiantamento.",
+       "gabarito": "C",
+       "porque": "É o art. 65."
+      }
+     ],
+     "conferido": {
+      "Art. 65.": "c3307b591dc3",
+      "Art. 68.": "6a3dfbe96ad2",
+      "Art. 69.": "1f966b0a4ecc"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
    "macetes": [
     {
      "sigla": "EMPENHO VEM ANTES DO ADIANTAMENTO",
@@ -4144,12 +5654,17 @@
     }
    ],
    "pegadinha": {
-    "afirmacao": "Pela urgência que o justifica, o suprimento de fundos dispensa o empenho prévio, que é emitido depois, na prestação de contas.",
+    "afirmacao": "É vedado conceder suprimento de fundos ao servidor que tenha a seu cargo a guarda ou a utilização do material a adquirir, mesmo que não haja outro servidor na repartição.",
     "gabarito": "E",
-    "explicacao": "O adiantamento é sempre precedido de empenho na dotação própria (Lei 4.320, art. 68). O que foge ao rito normal é o pagamento, feito ao servidor e não ao credor."
+    "explicacao": "A vedação cede quando não houver na repartição outro servidor (Decreto 93.872/1986, art. 45, § 3º, b)."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Elemento do empenho.</strong> O empenho é feito na dotação própria das despesas a realizar, isto é, no elemento do objeto do gasto, como material de consumo ou serviços de terceiros, e não numa dotação genérica de adiantamento.</p><p><strong>Alcance.</strong> Servidor em alcance é o que não prestou contas no prazo ou teve as contas impugnadas, ficando em débito com a Fazenda. A Lei 4.320 proíbe adiantamento a servidor em alcance e a responsável por dois adiantamentos (art. 69).</p><p><strong>Despesas não impugnadas.</strong> As despesas feitas por suprimento, se não impugnadas pelo ordenador, são escrituradas e incluídas na tomada de contas dele; se impugnadas, o ordenador determina providências imediatas para apurar responsabilidades (Decreto-Lei 200/1967, art. 80, § 3º).</p><p><strong>Regime especial.</strong> Alguns órgãos federais, por peculiaridades como missões no exterior ou despesas sigilosas, seguem regime especial de execução do suprimento fixado em instruções dos respectivos ministros, vedada a delegação de competência (Decreto 93.872, art. 47).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O saldo de suprimento devolvido depois de encerrado o exercício anula a despesa e recompõe a dotação do ano da concessão.",
+     "certo": "Depois do exercício, a devolução é receita orçamentária do ano em que ocorre. Só a devolução no mesmo exercício anula a despesa.",
+     "fonte": "Questões do app sobre a devolução do suprimento"
+    }
+   ],
    "relacionados": [
     "ordenador-de-despesa",
     "restos-a-pagar"
@@ -4164,7 +5679,6 @@
     "financas-publicas.ordenador-de-despesa"
    ],
    "dispositivos": [],
-   "lei": [],
    "conceitos": [
     "ordenador de despesa",
     "ordenador primário",
@@ -4183,11 +5697,58 @@
     "sumula 510",
     "decreto-lei 200"
    ],
-   "resumo": "Ordenador de despesa é toda e qualquer autoridade de cujos atos resultarem emissão de empenho, autorização de pagamento, suprimento ou dispêndio de recursos da União ou pelos quais esta responda (Decreto-Lei 200/1967, art. 80, § 1º). O conceito, criado para a União, é adotado por simetria nos Estados e Municípios. Todo ordenador de despesa fica sujeito a tomada de contas realizada pelo órgão de contabilidade e verificada pelo órgão de auditoria interna, antes de ser encaminhada ao Tribunal de Contas (art. 81). O ordenador não responde, salvo conivência, por prejuízos causados por agente subordinado que exorbitar das ordens recebidas (art. 80, § 2º). A doutrina distingue o ordenador primário ou originário, cuja competência vem diretamente da lei ou do regimento, como ministros, secretários de Estado e dirigentes máximos de órgãos e entidades, do ordenador derivado ou secundário, que recebe a competência por delegação. A delegação é instrumento de descentralização administrativa (Decreto-Lei 200, arts. 11 e 12) e, no processo administrativo federal, segue a Lei 9.784/1999: é parcial, pode ser feita mesmo a quem não seja subordinado, não alcança atos normativos, decisão de recursos nem matérias de competência exclusiva, e o ato de delegação e sua revogação são publicados no meio oficial. As decisões adotadas por delegação consideram-se editadas pelo delegado, e contra o ato praticado por delegação cabe mandado de segurança contra a autoridade delegada (Súmula 510 do STF). O ordenador assina a declaração de adequação orçamentária e financeira com a LOA e de compatibilidade com o PPA e a LDO exigida para criar, expandir ou aperfeiçoar ação que aumente a despesa (LRF, art. 16, II).",
+   "para_entender": [
+    {
+     "texto": "<strong>Suprimento de fundos:</strong> adiantamento de dinheiro a servidor, precedido de empenho, para despesas que não seguem o rito normal; quem o concede é o ordenador.",
+     "tema": "suprimento-de-fundos"
+    }
+   ],
+   "resumo": "Na execução da despesa, alguém decide gastar. Essa pessoa é o <strong>ordenador de despesa</strong>: toda autoridade de cujos atos resulte emissão de empenho, autorização de pagamento, suprimento ou dispêndio de recursos da União ou pelos quais ela responda (Decreto-Lei 200/1967, art. 80, § 1º). O conceito nasceu para a União e é usado por simetria em Estados e Municípios. Quem ordena presta contas: todo ordenador se submete à <strong>tomada de contas</strong>, feita pela contabilidade, verificada pela auditoria interna e só então enviada ao Tribunal de Contas (art. 81). O ordenador não responde por prejuízo causado por subordinado que exorbitou das ordens recebidas, salvo se foi conivente (art. 80, § 2º). A doutrina distingue o ordenador que recebe a competência da lei ou do regimento daquele que a recebe por <strong>delegação</strong>, e a tabela compara os dois. A delegação é instrumento de descentralização administrativa (Decreto-Lei 200, arts. 11 e 12) e, no processo administrativo federal, segue a Lei 9.784/1999: pode ir a quem não é subordinado, não alcança atos normativos, recursos nem matérias exclusivas, e a decisão tomada por delegação se considera do delegado, contra quem se impetra mandado de segurança (Súmula 510 do STF). É o ordenador que assina a declaração de adequação orçamentária e financeira exigida para criar ou ampliar ação que aumente despesa (LRF, art. 16, II).",
    "esquema": {
     "rotulo": "ordenador primário e ordenador derivado",
     "html": "<table><thead><tr><th>Aspecto</th><th>Ordenador primário (originário)</th><th>Ordenador derivado (secundário)</th></tr></thead><tbody><tr><td><strong>Fonte da competência</strong></td><td>lei ou regimento</td><td>ato de delegação</td></tr><tr><td><strong>Exemplos</strong></td><td>ministro, secretário de Estado, dirigente máximo de autarquia</td><td>secretário-adjunto, diretor administrativo, chefe de unidade gestora com portaria de delegação</td></tr><tr><td><strong>Quem responde pelo ato</strong></td><td>o próprio ordenador</td><td>o delegado, que pratica o ato em nome próprio; o delegante pode responder por falha na escolha ou na supervisão</td></tr><tr><td><strong>Fim da competência</strong></td><td>mudança da lei ou do regimento</td><td>revogação da delegação, a qualquer tempo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Conteúdo",
+      "o_que_e": "Especifica as matérias e poderes transferidos, os limites, a duração, os objetivos e o recurso cabível, e pode ressalvar o exercício da atribuição pelo delegante (Lei 9.784, art. 14, § 1º).",
+      "atencao": "No Decreto-Lei 200, indica com precisão o delegante, o delegado e as atribuições (art. 12, parágrafo único).",
+      "grupo": "O ato de delegação"
+     },
+     {
+      "nome": "Revogação",
+      "o_que_e": "O delegante pode revogar a delegação a qualquer tempo.",
+      "grupo": "O ato de delegação"
+     },
+     {
+      "nome": "Publicidade",
+      "o_que_e": "O ato de delegação e o de revogação são publicados no meio oficial.",
+      "grupo": "O ato de delegação"
+     },
+     {
+      "nome": "Suprimento de fundos",
+      "o_que_e": "Decide a concessão, sob sua inteira responsabilidade, e fixa o prazo de prestação de contas do suprido.",
+      "grupo": "Outras competências do ordenador"
+     },
+     {
+      "nome": "Restos a pagar na União",
+      "o_que_e": "A inscrição dos não processados depende de sua indicação (Decreto 93.872, art. 68, § 1º).",
+      "grupo": "Outras competências do ordenador"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [],
+   "detalhes": [
+    "Na jurisprudência do TCU, a delegação não exime o delegante: ele responde pela própria falha na escolha do delegado ou na supervisão dos atos delegados, e o delegado, pelos atos que pratica.",
+    "A delegação a quem não é subordinado exige que não haja impedimento legal e que seja conveniente por razões de índole técnica, social, econômica, jurídica ou territorial (Lei 9.784, art. 12)."
+   ],
    "macetes": [
     {
      "sigla": "QUEM EMPENHA, AUTORIZA OU SUPRE ORDENA",
@@ -4207,8 +5768,23 @@
     "gabarito": "E",
     "explicacao": "Pela Lei 9.784/1999 (art. 14, § 3º), as decisões adotadas por delegação mencionam essa qualidade e consideram-se editadas pelo delegado."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Responsabilidade do delegante.</strong> A delegação não transfere de modo absoluto a responsabilidade: na jurisprudência do TCU, o delegante pode responder por falhas na escolha ou na supervisão do delegado.</p><p><strong>Requisitos do ato de delegação.</strong> O ato especifica as matérias e poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível, e pode conter ressalva de exercício da atribuição delegada; é revogável a qualquer tempo pelo delegante (Lei 9.784, art. 14, §§ 1º e 2º). No Decreto-Lei 200, o ato indica com precisão a autoridade delegante, a delegada e as atribuições delegadas (art. 12, parágrafo único).</p><p><strong>Suprimento e ordenador.</strong> Cabe ao ordenador decidir sobre a concessão de suprimento de fundos, sob sua inteira responsabilidade, e fixar o prazo de prestação de contas do suprido.</p><p><strong>Restos a pagar.</strong> Na União, a inscrição de restos a pagar não processados depende de indicação do ordenador de despesas (Decreto 93.872, art. 68, § 1º).</p><p><strong>Delegação sem hierarquia.</strong> Se não houver impedimento legal, a competência de ordenar despesas pode ser delegada a órgão ou titular que não seja hierarquicamente subordinado ao delegante, quando for conveniente em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial (Lei 9.784/1999, art. 12). A regra vale também para a delegação de órgão colegiado ao seu presidente.</p>",
+   "pegadinhas": [
+    {
+     "errado": "No mandado de segurança contra empenho feito por delegação do secretário, a autoridade coatora é o secretário delegante.",
+     "certo": "Praticado o ato por delegação, a autoridade coatora é o delegado (Súmula 510 do STF).",
+     "fonte": "Questões do app sobre a delegação de competência"
+    },
+    {
+     "errado": "O ordenador responde pelo prejuízo causado por subordinado que exorbitou das ordens, ainda que sem conivência.",
+     "certo": "Não responde, salvo conivência (Decreto-Lei 200, art. 80, § 2º).",
+     "fonte": "Questões do app sobre a responsabilidade do ordenador"
+    },
+    {
+     "errado": "Secretário-adjunto que ordena despesas por portaria de delegação é ordenador primário, pois age em nome próprio.",
+     "certo": "Quem recebe a competência por delegação é ordenador derivado. Primário é quem a recebe da lei ou do regimento.",
+     "fonte": "Questões do app sobre ordenador primário e derivado"
+    }
+   ],
    "relacionados": [
     "suprimento-de-fundos",
     "lrf-planejamento-receita-e-despesa"
