@@ -5798,8 +5798,30 @@
    "tax": [
     "financas-publicas.lrf-planejamento-receita-despesa"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "nCF-1988-art-163",
+    "n101-2000-art-1",
+    "n101-2000-art-2",
+    "n101-2000-art-10",
+    "n101-2000-art-11",
+    "n101-2000-art-14",
+    "n101-2000-art-14-a",
+    "n101-2000-art-15",
+    "n101-2000-art-16",
+    "n101-2000-art-17",
+    "n101-2000-art-18",
+    "n101-2000-art-19",
+    "n101-2000-art-20",
+    "n101-2000-art-21",
+    "n101-2000-art-22",
+    "n101-2000-art-23",
+    "n101-2000-art-24",
+    "n101-2000-art-25",
+    "n101-2000-art-26",
+    "n101-2000-art-27",
+    "n101-2000-art-28",
+    "n101-2000-art-62"
+   ],
    "conceitos": [
     "Lei de Responsabilidade Fiscal",
     "renúncia de receita",
@@ -5829,11 +5851,390 @@
     "despesa irrelevante",
     "aumento permanente de receita"
    ],
-   "resumo": "A LRF (LC 101/2000) fixa normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, que pressupõe ação planejada e transparente, prevenção de riscos e correção de desvios capazes de afetar o equilíbrio das contas, com metas de resultados e limites para renúncia de receita, pessoal, dívidas, operações de crédito, garantias e restos a pagar (art. 1º, § 1º). Obriga União, Estados, DF e Municípios, com seus Poderes, Tribunais de Contas, Ministério Público, fundos, autarquias, fundações e empresas estatais dependentes. A LDO traz o Anexo de Metas Fiscais, com metas de receitas, despesas, resultados nominal e primário e dívida para o exercício e os dois seguintes, e o Anexo de Riscos Fiscais. Na receita, são requisitos essenciais instituir, prever e efetivamente arrecadar todos os tributos de competência do ente, sob pena de vedação de transferências voluntárias quanto aos impostos (art. 11). A renúncia de receita exige estimativa de impacto no exercício de início e nos dois seguintes, atendimento à LDO e, ainda, demonstração de que foi considerada na estimativa da LOA sem afetar as metas ou medidas de compensação por aumento de receita (art. 14). A despesa obrigatória de caráter continuado é a despesa corrente derivada de lei, medida provisória ou ato normativo que fixe obrigação de execução por mais de dois exercícios, e exige compensação por aumento permanente de receita ou redução permanente de despesa (art. 17). A despesa total com pessoal não pode passar de 50% da receita corrente líquida na União e de 60% nos Estados e Municípios (art. 19); nos Estados, reparte-se em 3% para o Legislativo com o Tribunal de Contas, 6% para o Judiciário, 49% para o Executivo e 2% para o Ministério Público (art. 20).",
+   "para_entender": [
+    {
+     "texto": "<strong>Anexo de Metas Fiscais:</strong> parte da LDO que fixa, para o exercício e os dois seguintes, as metas de receitas, despesas, resultados nominal e primário e dívida.",
+     "tema": "ppa-ldo-e-loa"
+    },
+    {
+     "texto": "<strong>Despesa corrente:</strong> gasto que mantém a máquina funcionando, como pessoal e custeio, sem formar patrimônio; opõe-se à despesa de capital.",
+     "tema": "classificacao-da-despesa-por-natureza"
+    }
+   ],
+   "resumo": "A Lei de Responsabilidade Fiscal (LC 101/2000) é a lei complementar de <strong>finanças públicas</strong> que a Constituição pede no art. 163. Seu eixo é a <strong>gestão fiscal responsável</strong>: planejar, prevenir riscos e corrigir desvios antes que desequilibrem as contas, com metas de resultado e limites para os gastos que mais pesam. A lei vale para todos os entes, e cada referência ao ente alcança seus Poderes, o Ministério Público, os fundos, as autarquias, as fundações e as <strong>estatais dependentes</strong>, isto é, as empresas que vivem de dinheiro do Tesouro. Quase todos os limites usam a mesma régua, a <strong>receita corrente líquida</strong> (RCL): as receitas correntes dos últimos doze meses, tiradas as que pertencem a outros entes e as contribuições previdenciárias dos servidores. Do lado da receita, a lei cobra que o ente arrecade o que é seu e trava a <strong>renúncia de receita</strong>, o benefício tributário que reduz a arrecadação, que só sai com estimativa de impacto e compensação. Do lado da despesa, toda ação nova precisa de estimativa e de declaração do ordenador, e a <strong>despesa obrigatória de caráter continuado</strong>, a corrente que a lei impõe por mais de dois exercícios, precisa ser paga com receita nova permanente ou corte permanente. A despesa com pessoal tem teto por ente e por Poder, apurado a cada quadrimestre, e o esquema mostra o que acontece em cada faixa. A lei também disciplina as transferências voluntárias e o uso de dinheiro público para socorrer o setor privado.",
    "esquema": {
     "rotulo": "despesa com pessoal: faixas e consequências",
     "html": "<table><thead><tr><th>Faixa (sobre o limite do Poder ou órgão)</th><th>Consequência</th></tr></thead><tbody><tr><td><strong>Acima de 90%</strong></td><td>alerta do Tribunal de Contas (art. 59, § 1º, II)</td></tr><tr><td><strong>Acima de 95% (limite prudencial)</strong></td><td>vedadas vantagens e reajustes (salvo sentença, lei, contrato e revisão geral), criação de cargos, alteração de carreira com aumento de despesa, provimentos (salvo reposição em educação, saúde e segurança) e hora extra (art. 22)</td></tr><tr><td><strong>Acima de 100%</strong></td><td>eliminar o excedente nos dois quadrimestres seguintes, pelo menos um terço no primeiro (art. 23)</td></tr><tr><td><strong>Prazo vencido sem redução</strong></td><td>sem transferências voluntárias, sem garantia de outro ente e sem operações de crédito, salvo para pagar dívida mobiliária ou reduzir despesa com pessoal (art. 23, § 3º)</td></tr><tr><td><strong>Excesso no 1º quadrimestre do último ano do mandato</strong></td><td>restrições do § 3º aplicadas imediatamente (art. 23, § 4º)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Renúncia de receita",
+      "o_que_e": "Compensa-se só com receita nova: alíquota maior, base ampliada, tributo ou contribuição majorados ou criados.",
+      "atencao": "Corte de despesa não serve.",
+      "grupo": "Compensação: renúncia x despesa continuada"
+     },
+     {
+      "nome": "Despesa obrigatória continuada",
+      "o_que_e": "Compensa-se por aumento permanente de receita ou por redução permanente de despesa.",
+      "atencao": "Operação de crédito não é receita permanente.",
+      "grupo": "Compensação: renúncia x despesa continuada"
+     },
+     {
+      "nome": "Limite prudencial",
+      "o_que_e": "95% do limite do Poder ou órgão; acima dele, as vedações do art. 22.",
+      "grupo": "Pessoal"
+     },
+     {
+      "nome": "Limite de alerta",
+      "o_que_e": "90% do limite; o Tribunal de Contas avisa o Poder (art. 59, § 1º, II).",
+      "atencao": "Não traz vedação.",
+      "grupo": "Pessoal"
+     },
+     {
+      "nome": "Fim de mandato",
+      "o_que_e": "Nos 180 dias finais, é nulo o ato que eleve o gasto com pessoal, e também o que deixe parcelas para depois do mandato.",
+      "atencao": "Vale também quando o titular é reconduzido ou reeleito.",
+      "grupo": "Pessoal"
+     },
+     {
+      "nome": "Transferência voluntária",
+      "o_que_e": "Entrega de recursos a outro ente por cooperação ou auxílio, sem obrigação constitucional ou legal e fora do SUS.",
+      "atencao": "Ex.: convênio do Estado com o Município para uma obra.",
+      "grupo": "Transferências"
+     },
+     {
+      "nome": "Transferência obrigatória",
+      "o_que_e": "A que decorre da Constituição ou da lei, como o FPM.",
+      "atencao": "Não sofre as exigências do art. 25.",
+      "grupo": "Transferências"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 163."
+     ],
+     "ref": "art. 163 da Constituição",
+     "regras": [
+      "<strong>Art. 163, caput.</strong> Lei complementar dispõe sobre: finanças públicas (I); dívida pública externa e interna, incluída a das autarquias, fundações e demais entidades controladas pelo poder público (II); concessão de garantias pelas entidades públicas (III); emissão e resgate de títulos da dívida pública (IV); fiscalização financeira da administração direta e indireta (V); operações de câmbio de órgãos e entidades da União, dos Estados, do DF e dos Municípios (VI); compatibilização das funções das instituições oficiais de crédito da União, resguardadas as voltadas ao desenvolvimento regional (VII); sustentabilidade da dívida, com indicadores de apuração (a), níveis de compatibilidade dos resultados fiscais com a trajetória da dívida (b), trajetória de convergência com os limites legais (c), medidas de ajuste, suspensões e vedações (d) e planejamento de alienação de ativos para reduzir a dívida (e) (VIII, EC 109/2021); e condições e limites para conceder, ampliar ou prorrogar benefício tributário (IX, EC 135/2024).",
+      "<strong>Art. 163, parágrafo único.</strong> A lei complementar do inciso VIII pode autorizar a aplicação das vedações do art. 167-A (EC 109/2021)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "dívida pública externa e interna, incluída a das autarquias, fundações e demais entidades controladas pelo poder público",
+       "marcas": [
+        "incluída a das autarquias"
+       ],
+       "afirmacao": "Lei complementar disporá sobre a dívida pública externa e interna da administração direta, excluída a das autarquias e fundações.",
+       "gabarito": "E",
+       "porque": "O inciso II inclui a dívida das autarquias, fundações e demais entidades controladas."
+      },
+      {
+       "trecho": "concessão de garantias pelas entidades públicas",
+       "marcas": [
+        "concessão de garantias"
+       ],
+       "afirmacao": "A concessão de garantias pelas entidades públicas é matéria de lei complementar.",
+       "gabarito": "C",
+       "porque": "É o art. 163, III."
+      }
+     ],
+     "conferido": {
+      "Art. 163.": "14d61967c9fd"
+     },
+     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º.",
+      "Art. 10.",
+      "Art. 11.",
+      "Art. 14.",
+      "Art. 14-A.",
+      "Art. 15.",
+      "Art. 16.",
+      "Art. 17.",
+      "Art. 18.",
+      "Art. 19.",
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 22.",
+      "Art. 23.",
+      "Art. 24.",
+      "Art. 25.",
+      "Art. 26.",
+      "Art. 27.",
+      "Art. 28.",
+      "Art. 62."
+     ],
+     "ref": "arts. 1º, 2º, 10, 11, 14 a 28 e 62 da LRF",
+     "regras": [
+      "<strong>Art. 1º, caput e § 1º.</strong> A LRF fixa normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, com amparo no Capítulo II do Título VI da Constituição. Essa responsabilidade pressupõe ação planejada e transparente, que previne riscos e corrige desvios capazes de afetar o equilíbrio das contas, com cumprimento de metas de resultados entre receitas e despesas e obediência a limites e condições para renúncia de receita, despesas com pessoal, seguridade social e outras, dívidas consolidada e mobiliária, operações de crédito, inclusive por antecipação de receita, concessão de garantia e inscrição em restos a pagar.",
+      "<strong>Art. 1º, §§ 2º e 3º.</strong> A lei obriga União, Estados, DF e Municípios (§ 2º). Nas referências aos entes estão compreendidos o Executivo, o Legislativo, nele abrangidos os Tribunais de Contas, o Judiciário e o Ministério Público (I, a) e as administrações diretas, fundos, autarquias, fundações e estatais dependentes (I, b); a referência a Estados inclui o DF (II); e a Tribunais de Contas inclui o TCU, o Tribunal de Contas do Estado e, quando houver, o dos Municípios e o do Município (III).",
+      "<strong>Art. 2º, caput.</strong> Para a LRF: ente da Federação é a União, cada Estado, o DF e cada Município (I); empresa controlada é a sociedade cuja maioria do capital votante pertença, direta ou indiretamente, a ente (II); estatal dependente é a controlada que recebe do controlador recursos para pessoal, custeio em geral ou capital, excluídos neste caso os de aumento de participação acionária (III); e receita corrente líquida é a soma das receitas tributárias, de contribuições, patrimoniais, industriais, agropecuárias, de serviços, transferências correntes e outras correntes, deduzidos: na União, o que transfere aos demais entes por determinação constitucional ou legal, inclusive pelo fundo do art. 159-A, e as contribuições dos arts. 195, I, a, e II, e 239 da CF (a); nos Estados, as parcelas entregues aos Municípios por determinação constitucional (b); e em todos, a contribuição dos servidores para seu regime de previdência e as receitas da compensação financeira do art. 201, § 9º (c) (IV).",
+      "<strong>Art. 2º, §§ 1º a 3º.</strong> Entram na RCL os valores pagos e recebidos por força da LC 87/1996 e do fundo do art. 60 do ADCT (§ 1º); ficam fora da RCL do DF, do Amapá e de Roraima os recursos da União para as despesas do art. 19, § 1º, V (§ 2º); e a RCL soma as receitas arrecadadas no mês de referência e nos onze anteriores, excluídas as duplicidades (§ 3º).",
+      "<strong>Art. 10.</strong> A execução orçamentária e financeira identifica, por sistema de contabilidade e administração financeira, os beneficiários de pagamento de sentenças judiciais, para que se respeite a ordem cronológica do art. 100 da Constituição.",
+      "<strong>Art. 11.</strong> Instituir, prever e efetivamente arrecadar todos os tributos da competência do ente são requisitos essenciais da gestão fiscal responsável; o ente que não o fizer quanto aos impostos não recebe transferências voluntárias (parágrafo único).",
+      "<strong>Art. 14, caput.</strong> A concessão, ampliação ou prorrogação de benefício tributário que gere renúncia de receita vem com estimativa do impacto no exercício de início da vigência e nos dois seguintes, atende à LDO e cumpre pelo menos uma de duas condições: demonstração de que a renúncia foi considerada na estimativa de receita da LOA e não afeta as metas fiscais (I); ou medidas de compensação, no mesmo período, por aumento de receita vindo de elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo ou contribuição (II). O inciso III foi vetado.",
+      "<strong>Art. 14, §§ 1º a 3º.</strong> A renúncia compreende anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral, alteração de alíquota ou de base de cálculo que reduza tributos de forma discriminada e outros benefícios de tratamento diferenciado (§ 1º). Se o benefício se apoiar na compensação do inciso II, só entra em vigor quando implementadas as medidas (§ 2º). O artigo não se aplica às alterações de alíquota do II, do IE, do IPI e do IOF feitas na forma do art. 153, § 1º, da CF (I), nem ao cancelamento de débito inferior ao custo de cobrança (II); os incisos III a V foram vetados (§ 3º).",
+      "<strong>Art. 14-A, caput e §§ 1º a 4º (LC 224/2025).</strong> A proposição legislativa de benefício tributário a pessoa jurídica traz estimativa do número de beneficiários (I); prazo de vigência de até cinco anos (II); metas de desempenho objetivas e quantificáveis, em dimensões econômicas, sociais e ambientais (III); impacto previsto na redução das desigualdades regionais, se for o caso (IV); e mecanismos de transparência, monitoramento e avaliação das metas (V). O prazo pode passar de cinco anos para benefícios ligados a investimentos de longo prazo, nos termos do regulamento, com estimativa dos investimentos (§ 1º), e então a vigência depende de avaliação e de metas atingidas a cada cinco anos (§ 3º). É vedado prorrogar benefício cujas metas não foram atingidas ou cuja avaliação não foi feita (§ 2º). A avaliação cabe a órgão multidisciplinar do Executivo especializado em políticas públicas (§ 4º).",
+      "<strong>Art. 14-A, § 5º.</strong> A regra vale também para o diferimento de tributos, salvo o que adie o pagamento por até 60 meses, de forma parcelada (a), ou o que alcance todos os contribuintes de uma região para combater emergência ou calamidade reconhecida (b) (I); e não se aplica às alterações de alíquota do II, do IE, do IPI e do IOF (II).",
+      "<strong>Art. 15.</strong> São não autorizadas, irregulares e lesivas ao patrimônio público a geração de despesa e a assunção de obrigação que não atendam aos arts. 16 e 17.",
+      "<strong>Art. 16, caput e § 1º.</strong> A criação, expansão ou aperfeiçoamento de ação governamental que aumente a despesa vem com estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois seguintes (I) e com declaração do ordenador de que o aumento tem adequação com a LOA e compatibilidade com o PPA e a LDO (II). É adequada à LOA a despesa com dotação específica e suficiente, ou abrangida por crédito genérico, sem ultrapassar os limites do exercício (§ 1º, I); é compatível com PPA e LDO a que se conforma com suas diretrizes, objetivos, prioridades e metas (§ 1º, II).",
+      "<strong>Art. 16, §§ 2º a 4º.</strong> A estimativa traz premissas e metodologia de cálculo (§ 2º); fica ressalvada a despesa considerada irrelevante pela LDO (§ 3º); e essas exigências são condição prévia para empenho e licitação de serviços, fornecimento de bens ou execução de obras (I) e para a desapropriação de imóveis urbanos do art. 182, § 3º, da CF (II) (§ 4º).",
+      "<strong>Art. 17, caput e §§ 1º a 4º.</strong> Despesa obrigatória de caráter continuado é a despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente a obrigação de executá-la por período superior a dois exercícios. O ato que a cria ou aumenta traz a estimativa do art. 16, I, e demonstra a origem dos recursos (§ 1º); comprova que não afetará as metas fiscais, com efeitos nos períodos seguintes compensados por aumento permanente de receita ou redução permanente de despesa (§ 2º); aumento permanente de receita é o de elevação de alíquotas, ampliação da base, majoração ou criação de tributo ou contribuição (§ 3º); e a comprovação, apresentada pelo proponente, traz premissas e metodologia de cálculo (§ 4º).",
+      "<strong>Art. 17, §§ 5º a 7º.</strong> A despesa não é executada antes de implementadas as medidas de compensação, que integram o instrumento que a cria (§ 5º). O § 1º não se aplica ao serviço da dívida nem à revisão geral da remuneração do art. 37, X, da CF (§ 6º). A prorrogação de despesa criada por prazo determinado é aumento de despesa (§ 7º).",
+      "<strong>Art. 18.</strong> Despesa total com pessoal é a soma dos gastos do ente com ativos, inativos e pensionistas, de mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com qualquer espécie remuneratória, como vencimentos e vantagens, subsídios, proventos, reformas e pensões, inclusive adicionais, gratificações, horas extras e vantagens pessoais, mais encargos sociais e contribuições recolhidas às entidades de previdência. A terceirização de mão de obra que substitui servidores entra como Outras Despesas de Pessoal (§ 1º); a apuração soma o mês de referência e os onze anteriores, pelo regime de competência, independentemente de empenho (§ 2º); e considera a remuneração bruta, sem dedução ou retenção, ressalvado o corte pelo teto do art. 37, XI (§ 3º).",
+      "<strong>Art. 19, caput.</strong> A despesa total com pessoal não pode exceder estes percentuais da RCL: União, 50% (I); Estados, 60% (II); Municípios, 60% (III).",
+      "<strong>Art. 19, §§ 1º a 3º.</strong> Não se computam as despesas: de indenização por demissão de servidores ou empregados (I); com incentivos à demissão voluntária (II); da convocação extraordinária do Congresso do art. 57, § 6º, II, da CF (III); de decisão judicial da competência de período anterior ao da apuração (IV); com pessoal do DF, do Amapá e de Roraima custeado pela União (CF, art. 21, XIII e XIV, e EC 19, art. 31) (V); e com inativos e pensionistas, na parte custeada por contribuições dos segurados (a), pela compensação financeira entre regimes (b) e por transferências para o equilíbrio atuarial do regime (c) (VI) (§ 1º). As sentenças judiciais entram no limite do respectivo Poder ou órgão (§ 2º). É vedado deduzir a parcela paga com aportes para cobrir déficit financeiro dos regimes de previdência (§ 3º).",
+      "<strong>Art. 20, caput.</strong> A repartição dos limites globais não excede: na esfera federal, 2,5% para o Legislativo com o TCU (a), 6% para o Judiciário (b), 40,9% para o Executivo, com 3% destacados para as despesas do art. 21, XIII e XIV, da CF e do art. 31 da EC 19 (c), e 0,6% para o MPU (d) (I); na estadual, 3% para o Legislativo com o Tribunal de Contas do Estado (a), 6% para o Judiciário (b), 49% para o Executivo (c) e 2% para o Ministério Público (d) (II); na municipal, 6% para o Legislativo com o Tribunal de Contas do Município, quando houver (a), e 54% para o Executivo (b) (III).",
+      "<strong>Art. 20, §§ 1º a 3º.</strong> No Legislativo e no Judiciário, o limite se reparte entre os órgãos pela média das despesas com pessoal, em percentual da RCL, dos três exercícios anteriores à publicação da LRF (§ 1º). São órgãos: o Ministério Público (I); no Legislativo federal, as Casas e o TCU (a), no estadual, a Assembleia e os Tribunais de Contas (b), no DF, a Câmara Legislativa e o Tribunal de Contas do DF (c), e no municipal, a Câmara de Vereadores e o Tribunal de Contas do Município, quando houver (d) (II); no Judiciário federal, os tribunais do art. 92 da CF (a), e no estadual, o Tribunal de Justiça e outros, quando houver (b) (III) (§ 2º). Os limites do Judiciário mantido pela União (CF, art. 21, XIII) seguem a regra do § 1º (§ 3º).",
+      "<strong>Art. 20, §§ 4º a 7º.</strong> Nos Estados com Tribunal de Contas dos Municípios, o Legislativo estadual ganha e o Executivo perde 0,4 ponto (§ 4º). A entrega dos recursos para pessoal de cada Poder e órgão (CF, art. 168) resulta desses percentuais ou dos fixados na LDO (§ 5º). O § 6º foi vetado. Cada Poder e órgão apura em separado, no seu limite, toda a despesa com seus inativos e pensionistas, ainda que outro Poder a custeie (§ 7º).",
+      "<strong>Art. 21, caput e incisos.</strong> É nulo de pleno direito: o ato que aumente a despesa com pessoal sem atender aos arts. 16 e 17, ao art. 37, XIII, e ao art. 169, § 1º, da CF (a) e ao limite legal de comprometimento com inativos (b) (I); o ato de que resulte aumento da despesa com pessoal nos 180 dias anteriores ao fim do mandato do titular de Poder ou órgão (II); o que preveja parcelas para depois do fim do mandato (III); e a aprovação, edição ou sanção, pelos chefes de Poder e do Ministério Público da União e dos Estados, de plano de alteração, reajuste ou reestruturação de carreiras, ou a nomeação de aprovados em concurso, quando aumentar a despesa nos 180 dias anteriores ao fim do mandato do chefe do Executivo (a) ou previr parcelas posteriores a ele (b) (IV) (LC 173/2020).",
+      "<strong>Art. 21, §§ 1º e 2º.</strong> As restrições dos incisos II a IV valem inclusive na recondução ou reeleição (I) e só para titulares de cargo eletivo dos Poderes do art. 20 (II) (§ 1º). Contam como nomeação ou provimento os atos do art. 169, § 1º, da CF e qualquer ato que crie ou aumente despesa obrigatória (§ 2º).",
+      "<strong>Art. 22.</strong> O cumprimento dos limites dos arts. 19 e 20 é verificado ao final de cada quadrimestre. Acima de 95% do limite, o Poder ou órgão fica proibido de: conceder vantagem, aumento, reajuste ou adequação de remuneração, salvo por sentença, lei ou contrato e ressalvada a revisão geral do art. 37, X (I); criar cargo, emprego ou função (II); alterar carreira com aumento de despesa (III); prover cargo, admitir ou contratar pessoal, salvo reposição por aposentadoria ou falecimento nas áreas de educação, saúde e segurança (IV); e contratar hora extra, salvo na convocação extraordinária do Congresso e nas situações da LDO (V).",
+      "<strong>Art. 23, caput e §§ 1º e 2º.</strong> Ultrapassado o limite, o percentual excedente tem de sumir nos dois quadrimestres que se seguem, com no mínimo um terço já no primeiro, adotadas as providências do art. 169, §§ 3º e 4º, da CF, entre outras. O § 1º admite extinguir cargos e funções ou reduzir seus valores; na ADI 2.238, o STF afastou a leitura que permita reduzir o valor de cargo ou função ocupado. O § 2º, que facultava reduzir a jornada com redução de vencimentos, foi declarado inconstitucional na ADI 2.238.",
+      "<strong>Art. 23, §§ 3º a 6º.</strong> Vencido o prazo sem a redução, o Poder ou órgão não pode receber transferências voluntárias (I), obter garantia de outro ente (II) nem contratar operações de crédito, salvo para pagar a dívida mobiliária ou reduzir a despesa com pessoal (III) (§ 3º). As restrições valem de imediato se o excesso ocorrer no primeiro quadrimestre do último ano do mandato (§ 4º). Não se aplicam ao Município com queda real de receita acima de 10%, frente ao mesmo quadrimestre do ano anterior, por redução do FPM causada por isenções da União (I) ou de royalties e participações especiais (II) (§ 5º), desde que a despesa com pessoal do quadrimestre não ultrapasse o limite do art. 19, calculado com a RCL do ano anterior atualizada (§ 6º).",
+      "<strong>Art. 24.</strong> Nenhum benefício ou serviço da seguridade social é criado, majorado ou estendido sem indicar a fonte de custeio total (CF, art. 195, § 5º), atendido o art. 17. Dispensa-se a compensação do art. 17 no aumento que venha da concessão a quem cumpre as condições legais (I), da expansão quantitativa do atendimento (II) e do reajuste para preservar o valor real (III) (§ 1º). A regra alcança saúde, previdência e assistência social, inclusive de servidores e militares, ativos e inativos, e pensionistas (§ 2º).",
+      "<strong>Art. 25, caput e § 1º.</strong> Transferência voluntária é a entrega de recursos correntes ou de capital a outro ente, a título de cooperação, auxílio ou assistência financeira, que não decorra de determinação constitucional ou legal nem se destine ao SUS. Além das exigências da LDO, exige dotação específica (I); observância do art. 167, X, da CF, que veda transferir para pagar pessoal (III); e comprovação, pelo beneficiário, de que está em dia com tributos, empréstimos e financiamentos devidos ao transferidor e com a prestação de contas de recursos anteriores (a), de que cumpre os limites constitucionais de educação e saúde (b), de que observa os limites das dívidas, das operações de crédito, inclusive ARO, da inscrição em restos a pagar e da despesa com pessoal (c), e de que prevê no orçamento a contrapartida (d) (IV). O inciso II foi vetado.",
+      "<strong>Art. 25, §§ 2º a 4º.</strong> É vedado usar os recursos em finalidade diversa da pactuada (§ 2º). A suspensão de transferências voluntárias prevista na LRF não alcança as destinadas a ações de educação, saúde e assistência social (§ 3º). O § 4º foi vetado (LC 237/2026).",
+      "<strong>Art. 26.</strong> Destinar recursos para cobrir, direta ou indiretamente, necessidades de pessoas físicas ou déficits de pessoas jurídicas exige lei específica, atendimento às condições da LDO e previsão no orçamento ou em créditos adicionais. A regra alcança toda a administração indireta, inclusive fundações públicas e estatais, salvo as instituições financeiras e o Banco Central em suas atribuições precípuas (§ 1º), e inclui empréstimos, financiamentos e refinanciamentos, com prorrogações e composição de dívidas, subvenções e participação em constituição ou aumento de capital (§ 2º).",
+      "<strong>Art. 27.</strong> No crédito do ente a pessoa física ou jurídica que ele não controla, encargos, comissões e despesas congêneres não ficam abaixo dos definidos em lei ou do custo de captação. Prorrogações e composições de dívidas e empréstimos em condições mais favoráveis dependem de lei específica, com o subsídio consignado na LOA (parágrafo único).",
+      "<strong>Art. 28.</strong> Salvo lei específica, recursos públicos, inclusive de operações de crédito, não socorrem instituições do Sistema Financeiro Nacional, nem por empréstimo de recuperação ou financiamento para mudança de controle acionário. A prevenção de insolvência e de outros riscos cabe a fundos e mecanismos constituídos pelas próprias instituições, na forma da lei (§ 1º). O Banco Central continua podendo fazer redesconto e empréstimos de prazo inferior a trezentos e sessenta dias (§ 2º).",
+      "<strong>Art. 62.</strong> O Município só contribui para o custeio de despesas de competência de outros entes se houver autorização na LDO e na LOA (I) e convênio, acordo, ajuste ou congênere, conforme sua legislação (II)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "no exercício em que deva entrar em vigor e nos dois subseqüentes",
+       "marcas": [
+        "nos dois subseqüentes"
+       ],
+       "afirmacao": "A criação de ação governamental que aumente a despesa vem com estimativa de impacto no exercício de entrada em vigor e nos três seguintes.",
+       "gabarito": "E",
+       "porque": "São o exercício de entrada em vigor e os dois seguintes (art. 16, I)."
+      },
+      {
+       "trecho": "a obrigação legal de sua execução por um período superior a dois exercícios",
+       "marcas": [
+        "superior a dois exercícios"
+       ],
+       "afirmacao": "Despesa obrigatória de caráter continuado é a despesa corrente que a lei obriga o ente a executar por mais de dois exercícios.",
+       "gabarito": "C",
+       "porque": "É o art. 17, caput."
+      },
+      {
+       "trecho": "compensados pelo aumento permanente de receita ou pela redução permanente de despesa",
+       "marcas": [
+        "aumento permanente de receita",
+        "redução permanente de despesa"
+       ],
+       "afirmacao": "Os efeitos de nova despesa obrigatória continuada podem ser compensados por operação de crédito contratada para esse fim.",
+       "gabarito": "E",
+       "porque": "Só aumento permanente de receita ou redução permanente de despesa compensam (art. 17, § 2º)."
+      },
+      {
+       "trecho": "não se aplica às despesas destinadas ao serviço da dívida nem ao reajustamento de remuneração de pessoal",
+       "marcas": [
+        "serviço da dívida",
+        "reajustamento de remuneração"
+       ],
+       "afirmacao": "A exigência de estimativa e origem dos recursos do art. 17, § 1º, não alcança o serviço da dívida nem a revisão geral anual da remuneração.",
+       "gabarito": "C",
+       "porque": "É o art. 17, § 6º."
+      },
+      {
+       "trecho": "por meio do aumento de receita, proveniente da elevação de alíquotas",
+       "marcas": [
+        "aumento de receita"
+       ],
+       "afirmacao": "A renúncia de receita pode ser compensada pela redução permanente de despesas de custeio.",
+       "gabarito": "E",
+       "porque": "A compensação da renúncia é só por aumento de receita (art. 14, II)."
+      },
+      {
+       "trecho": "ao cancelamento de débito cujo montante seja inferior ao dos respectivos custos de cobrança",
+       "marcas": [
+        "inferior ao dos respectivos custos de cobrança"
+       ],
+       "afirmacao": "As exigências da renúncia de receita alcançam o cancelamento de débito inferior ao custo de cobrança.",
+       "gabarito": "E",
+       "porque": "Esse cancelamento está fora do art. 14 (§ 3º, II)."
+      },
+      {
+       "trecho": "III - Municípios: 60% (sessenta por cento)",
+       "marcas": [
+        "60%"
+       ],
+       "afirmacao": "A despesa total com pessoal dos Municípios não pode exceder 60% da receita corrente líquida.",
+       "gabarito": "C",
+       "porque": "É o art. 19, III. O Executivo municipal tem 54% e a Câmara, 6% (art. 20, III)."
+      },
+      {
+       "trecho": "49% (quarenta e nove por cento) para o Executivo",
+       "marcas": [
+        "49%"
+       ],
+       "afirmacao": "Na esfera estadual, o limite de pessoal do Executivo é de 54% da receita corrente líquida.",
+       "gabarito": "E",
+       "porque": "No Estado, o Executivo tem 49% (art. 20, II, c); 54% é o do Executivo municipal."
+      },
+      {
+       "trecho": "o percentual excedente terá de ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro",
+       "marcas": [
+        "dois quadrimestres",
+        "um terço"
+       ],
+       "afirmacao": "Ultrapassado o limite de pessoal, o excedente é eliminado nos três quadrimestres seguintes, com pelo menos 25% no primeiro.",
+       "gabarito": "E",
+       "porque": "Para pessoal são dois quadrimestres e um terço no primeiro (art. 23). Três e 25% são da dívida consolidada (art. 31)."
+      },
+      {
+       "trecho": "Se a despesa total com pessoal exceder a 95% (noventa e cinco por cento) do limite",
+       "marcas": [
+        "95%"
+       ],
+       "afirmacao": "As vedações do art. 22, como criar cargos e conceder reajustes, começam quando a despesa com pessoal passa de 95% do limite.",
+       "gabarito": "C",
+       "porque": "É o limite prudencial (art. 22, parágrafo único)."
+      },
+      {
+       "trecho": "nos 180 (cento e oitenta) dias anteriores ao final do mandato",
+       "marcas": [
+        "180 (cento e oitenta) dias"
+       ],
+       "afirmacao": "É nulo de pleno direito o ato de que resulte aumento da despesa com pessoal nos 180 dias anteriores ao fim do mandato do titular de Poder ou órgão.",
+       "gabarito": "C",
+       "porque": "É o art. 21, II."
+      },
+      {
+       "trecho": "os encargos financeiros, comissões e despesas congêneres não serão inferiores aos definidos em lei ou ao custo de captação",
+       "marcas": [
+        "não serão inferiores"
+       ],
+       "afirmacao": "No crédito a pessoa jurídica que não controla, o ente não pode cobrar encargos acima do seu custo de captação.",
+       "gabarito": "E",
+       "porque": "O custo de captação é piso, não teto (art. 27)."
+      },
+      {
+       "trecho": "ficará a cargo de fundos, e outros mecanismos, constituídos pelas instituições do Sistema Financeiro Nacional",
+       "marcas": [
+        "constituídos pelas instituições do Sistema Financeiro Nacional"
+       ],
+       "afirmacao": "A prevenção de insolvência das instituições do Sistema Financeiro Nacional fica a cargo de fundos constituídos pelo Tesouro do ente.",
+       "gabarito": "E",
+       "porque": "Os fundos são constituídos pelas próprias instituições (art. 28, § 1º)."
+      },
+      {
+       "trecho": "empréstimos de prazo inferior a trezentos e sessenta dias",
+       "marcas": [
+        "trezentos e sessenta dias"
+       ],
+       "afirmacao": "A vedação de socorro com recursos públicos não impede o Banco Central de fazer redesconto e empréstimos de prazo inferior a 360 dias às instituições financeiras.",
+       "gabarito": "C",
+       "porque": "É o art. 28, § 2º."
+      },
+      {
+       "trecho": "excetuam-se aquelas relativas a ações de educação, saúde e assistência social",
+       "marcas": [
+        "educação, saúde e assistência social"
+       ],
+       "afirmacao": "Para a suspensão de transferências voluntárias da LRF, excetuam-se as relativas a ações de educação, saúde e segurança pública.",
+       "gabarito": "E",
+       "porque": "A exceção é de educação, saúde e assistência social (art. 25, § 3º)."
+      },
+      {
+       "trecho": "deverá ser autorizada por lei específica, atender às condições estabelecidas na lei de diretrizes orçamentárias e estar prevista no orçamento ou em seus créditos adicionais",
+       "marcas": [
+        "lei específica"
+       ],
+       "afirmacao": "Cobrir déficit de pessoa jurídica com recursos públicos exige lei específica, condições da LDO e previsão no orçamento ou em créditos adicionais.",
+       "gabarito": "C",
+       "porque": "São os três requisitos do art. 26."
+      },
+      {
+       "trecho": "somando-se as receitas arrecadadas no mês em referência e nos onze anteriores, excluídas as duplicidades",
+       "marcas": [
+        "nos onze anteriores"
+       ],
+       "afirmacao": "A receita corrente líquida soma as receitas arrecadadas no mês de referência e nos onze anteriores, excluídas as duplicidades.",
+       "gabarito": "C",
+       "porque": "É o art. 2º, § 3º."
+      },
+      {
+       "trecho": "adotando-se o regime de competência, independentemente de empenho",
+       "marcas": [
+        "regime de competência"
+       ],
+       "afirmacao": "A despesa total com pessoal é apurada pelo regime de caixa, somando o mês de referência e os onze anteriores.",
+       "gabarito": "E",
+       "porque": "É pelo regime de competência, independentemente de empenho (art. 18, § 2º)."
+      },
+      {
+       "trecho": "É vedada a realização de transferências voluntárias para o ente que não observe o disposto no caput, no que se refere aos impostos",
+       "marcas": [
+        "no que se refere aos impostos"
+       ],
+       "afirmacao": "Não recebe transferências voluntárias o ente que não institua, preveja e arrecade todos os impostos de sua competência.",
+       "gabarito": "C",
+       "porque": "É o art. 11, parágrafo único."
+      },
+      {
+       "trecho": "prazo de vigência, que não poderá ser superior a 5 (cinco) anos",
+       "marcas": [
+        "5 (cinco) anos"
+       ],
+       "afirmacao": "Benefício tributário a pessoa jurídica pode ter prazo de vigência de até dez anos, como regra.",
+       "gabarito": "E",
+       "porque": "A regra é de até cinco anos (art. 14-A, II), salvo investimentos de longo prazo (§ 1º)."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "88977fc53ea0",
+      "Art. 2º.": "4d24232a67de",
+      "Art. 10.": "28b729885d20",
+      "Art. 11.": "4d26c1391cc8",
+      "Art. 14.": "a909a03df7b6",
+      "Art. 14-A.": "d6286c3484de",
+      "Art. 15.": "33e8f12914e3",
+      "Art. 16.": "8b1411ffbaec",
+      "Art. 17.": "c68e72826933",
+      "Art. 18.": "046b828d87f0",
+      "Art. 19.": "bdf8e14695bd",
+      "Art. 20.": "a3527d88245e",
+      "Art. 21.": "4cca09f03f2d",
+      "Art. 22.": "9e8c22e2709e",
+      "Art. 23.": "9b4584b2ce43",
+      "Art. 24.": "47dbed1c2f91",
+      "Art. 25.": "279a376d7a29",
+      "Art. 26.": "acd4e0ca469b",
+      "Art. 27.": "f539a275b15e",
+      "Art. 28.": "e8406a97b530",
+      "Art. 62.": "9dbddf662a4f"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Para separar a compensação, pergunte o que está sendo criado. Perda de receita (renúncia): só receita nova compensa. Despesa nova continuada: vale receita nova permanente ou corte permanente de despesa.",
+    "Sentença judicial de pessoal entra no limite do Poder que a deve, salvo a relativa a competência anterior ao período de apuração, que fica fora do cálculo.",
+    "Uma regra da LRF dirigida aos Estados alcança também o Distrito Federal, que não precisa ser mencionado expressamente para se submeter a ela (art. 1º, § 3º, II).",
+    "As normas gerais de finanças públicas do art. 163 da Constituição exigem lei complementar; lei ordinária não as pode fixar.",
+    "Na União, o Ministério Público da União pode gastar com pessoal até 0,6% da receita corrente líquida: com uma receita de 1 trilhão, são 6 bilhões. Os 2% são o teto do Ministério Público dos Estados.",
+    "Acima do limite prudencial, o Estado pode repor o professor da rede estadual que se aposentou, porque a ressalva cobre aposentadoria ou falecimento na educação, na saúde e na segurança. Cargo vago por exoneração na área administrativa não pode ser provido."
+   ],
    "macetes": [
     {
      "sigla": "PESSOAL: DOIS QUADRIMESTRES E UM TERÇO",
@@ -5851,13 +6252,39 @@
    "pegadinha": {
     "afirmacao": "Se a despesa com pessoal de um Poder ultrapassar o limite, o excedente deve ser eliminado nos três quadrimestres seguintes, com redução de pelo menos 25% no primeiro.",
     "gabarito": "E",
-    "explicacao": "Esse é o prazo da dívida consolidada (art. 31). Para pessoal, o excedente é eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro (art. 23)."
+    "explicacao": "Três quadrimestres, com 25% no primeiro, é o prazo de recondução da dívida consolidada (art. 31). Para pessoal, o prazo é de dois quadrimestres, com um terço do excesso cortado logo no primeiro (art. 23)."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Receita corrente líquida e despesa com pessoal.</strong> A receita corrente líquida é apurada somando-se as receitas arrecadadas no mês de referência e nos onze anteriores, excluídas as duplicidades; nos Estados, deduzem-se as parcelas entregues aos Municípios por determinação constitucional (art. 2º, IV). A despesa total com pessoal também soma doze meses, pelo regime de competência, independentemente de empenho, observada a remuneração bruta (art. 18, §§ 2º e 3º). Terceirização de mão de obra que substitui servidores conta como \"Outras Despesas de Pessoal\" (art. 18, § 1º).</p><p><strong>Exclusões do limite.</strong> Não se computam indenizações por demissão, incentivos à demissão voluntária, despesas de decisão judicial de competência anterior ao período de apuração e a parcela de inativos e pensionistas custeada por contribuições dos segurados e por compensação financeira entre regimes (art. 19, § 1º).</p><p><strong>Nulidades no fim do mandato.</strong> É nulo o ato de que resulte aumento da despesa com pessoal nos 180 dias anteriores ao final do mandato do titular de Poder ou órgão, ou que preveja parcelas a implementar depois do fim do mandato (art. 21).</p><p><strong>Renúncia de receita.</strong> A renúncia compreende anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral, alteração de alíquota ou de base de cálculo que reduza tributos de forma discriminada e outros benefícios diferenciados (art. 14, § 1º). As exigências não se aplicam às alterações de alíquotas de II, IE, IPI e IOF nem ao cancelamento de débito cujo montante seja inferior ao dos respectivos custos de cobrança (art. 14, § 3º). Pela LC 224/2025, a proposição que conceda, amplie ou prorrogue benefício tributário a pessoa jurídica traz quantitativo de beneficiários, prazo de vigência não superior a cinco anos (salvo investimentos de longo prazo, nos termos do regulamento) e metas objetivas de desempenho, e é vedada a prorrogação de benefícios cujas metas não tenham sido atingidas (art. 14-A).</p><p><strong>Despesa continuada.</strong> A compensação do art. 17 não se aplica ao serviço da dívida nem à revisão geral anual da remuneração (§ 6º), e a prorrogação de despesa criada por prazo determinado é considerada aumento de despesa (§ 7º).</p><p><strong>Tribunal de Contas dos Municípios.</strong> Nos Estados que o tenham, o Legislativo estadual ganha 0,4 ponto e o Executivo perde 0,4 ponto da receita corrente líquida (art. 20, § 4º).</p><p><strong>Recursos para o setor privado.</strong> A destinação de recursos para cobrir, direta ou indiretamente, necessidades de pessoas físicas ou déficits de pessoas jurídicas exige três coisas ao mesmo tempo: lei específica que a autorize, atendimento às condições da LDO e previsão no orçamento ou em seus créditos adicionais (LRF, art. 26). A regra alcança toda a administração indireta, inclusive fundações públicas e empresas estatais, exceto as instituições financeiras e o Banco Central no exercício de suas atribuições precípuas (§ 1º), e compreende empréstimos, financiamentos e refinanciamentos, inclusive prorrogações e composição de dívidas, subvenções e participação em constituição ou aumento de capital (§ 2º).</p><p><strong>Crédito a quem o ente não controla.</strong> Na concessão de crédito a pessoa física ou a pessoa jurídica que não esteja sob seu controle, os encargos financeiros, comissões e despesas congêneres não podem ser inferiores aos definidos em lei ou ao custo de captação; as prorrogações e composições de dívidas e o crédito em condições mais favoráveis dependem de lei específica, com o subsídio consignado na lei orçamentária (art. 27).</p><p><strong>Socorro ao sistema financeiro.</strong> Salvo lei específica, recursos públicos, inclusive de operações de crédito, não podem socorrer instituições do Sistema Financeiro Nacional, ainda que por empréstimos de recuperação ou financiamentos para mudança de controle acionário (art. 28). A prevenção de insolvência e outros riscos fica a cargo de fundos e outros mecanismos constituídos pelas próprias instituições do Sistema Financeiro Nacional, e não pelo ente (§ 1º). A vedação não impede o Banco Central de conceder às instituições financeiras operações de redesconto e empréstimos de prazo inferior a 360 dias (§ 2º).</p><p><strong>Renúncia: as duas condições alternativas.</strong> Além da estimativa de impacto no exercício de início da vigência e nos dois seguintes e do atendimento à LDO, a renúncia precisa cumprir pelo menos uma de duas condições: demonstrar que foi considerada na estimativa de receita da LOA sem afetar as metas fiscais, ou vir acompanhada de medidas de compensação por aumento de receita, proveniente de elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo ou contribuição (art. 14, I e II). Corte de despesa não serve de compensação da renúncia. Se a opção for a compensação, o benefício só entra em vigor quando implementadas as medidas (§ 2º). Ficam fora dessas exigências as alterações de alíquotas do imposto de importação, do imposto de exportação, do imposto sobre produtos industrializados e do imposto sobre operações financeiras feitas na forma do art. 153, § 1º, da Constituição, tributos de função extrafiscal, e o cancelamento de débito cujo montante seja inferior ao custo da cobrança (art. 14, § 3º).</p><p><strong>Ação que aumenta despesa.</strong> A criação, expansão ou aperfeiçoamento de ação governamental que aumente a despesa exige estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois seguintes, com premissas e metodologia de cálculo, e declaração do ordenador de que o aumento tem adequação com a LOA e compatibilidade com o PPA e a LDO (art. 16). Essas exigências são condição prévia para empenho e licitação de serviços, fornecimento de bens ou obras e para a desapropriação de imóveis urbanos do art. 182, § 3º, da Constituição. Fica ressalvada a despesa considerada irrelevante, nos termos da LDO (§ 3º).</p><p><strong>Despesa continuada: compensação permanente.</strong> O ato que cria ou aumenta despesa obrigatória de caráter continuado traz a estimativa do art. 16, demonstra a origem dos recursos e comprova que não afetará as metas fiscais, com os efeitos nos períodos seguintes compensados por aumento permanente de receita ou redução permanente de despesa (art. 17, §§ 1º e 2º). Aumento permanente de receita é o proveniente de elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo ou contribuição (§ 3º). A despesa não é executada antes da implementação das medidas de compensação (§ 5º). Repare na diferença: na renúncia, a compensação é só por aumento de receita; na despesa continuada, vale aumento permanente de receita ou redução permanente de despesa.</p>",
+   "pegadinhas": [
+    {
+     "errado": "Por ser lei complementar federal, a LRF obriga apenas a União, e cada Estado edita sua própria lei.",
+     "certo": "A LRF obriga União, Estados, DF e Municípios (art. 1º, § 2º).",
+     "fonte": "Questões do app sobre a abrangência da LRF"
+    },
+    {
+     "errado": "Nas referências da LRF aos entes estão compreendidas todas as estatais, inclusive as não dependentes.",
+     "certo": "Só as estatais dependentes, que recebem recursos do controlador para pessoal, custeio ou capital (arts. 1º, § 3º, I, b, e 2º, III).",
+     "fonte": "Questões do app sobre a abrangência da LRF"
+    },
+    {
+     "errado": "Acima do limite prudencial, é vedado conceder aumento de remuneração a qualquer título, inclusive por sentença judicial.",
+     "certo": "Ficam ressalvados os derivados de sentença, lei ou contrato e a revisão geral anual (art. 22, parágrafo único, I).",
+     "fonte": "Questões do app sobre o limite prudencial"
+    },
+    {
+     "errado": "Nos Estados com Tribunal de Contas dos Municípios, o Legislativo ganha 0,4 ponto e o Judiciário perde o mesmo.",
+     "certo": "Quem perde os 0,4 ponto é o Executivo (art. 20, § 4º).",
+     "fonte": "Questões do app sobre a repartição dos limites de pessoal"
+    },
+    {
+     "errado": "A despesa com inativos de um Poder entra no limite do Poder que efetivamente a custeia.",
+     "certo": "Cada Poder apura no seu limite toda a despesa com seus inativos e pensionistas, mesmo paga por outro (art. 20, § 7º).",
+     "fonte": "Questões do app sobre a repartição dos limites de pessoal"
+    }
+   ],
    "relacionados": [
     "lrf-endividamento-e-transparencia",
-    "acompanhamento-e-controle-da-execucao"
+    "acompanhamento-e-controle-da-execucao",
+    "ppa-ldo-e-loa"
    ]
   },
   {
@@ -5868,8 +6295,32 @@
    "tax": [
     "financas-publicas.lrf-endividamento-transparencia"
    ],
-   "dispositivos": [],
-   "lei": [],
+   "dispositivos": [
+    "nCF-1988-art-163-a",
+    "n101-2000-art-32",
+    "n101-2000-art-33",
+    "n101-2000-art-40",
+    "n101-2000-art-43",
+    "n101-2000-art-44",
+    "n101-2000-art-45",
+    "n101-2000-art-46",
+    "n101-2000-art-47",
+    "n101-2000-art-49",
+    "n101-2000-art-52",
+    "n101-2000-art-53",
+    "n101-2000-art-54",
+    "n101-2000-art-55",
+    "n101-2000-art-56",
+    "n101-2000-art-57",
+    "n101-2000-art-58",
+    "n101-2000-art-60",
+    "n101-2000-art-63",
+    "n101-2000-art-65",
+    "n101-2000-art-65-a",
+    "n101-2000-art-66",
+    "n101-2000-art-73",
+    "n101-2000-art-73-a"
+   ],
    "conceitos": [
     "operação de crédito",
     "antecipação de receita orçamentária",
@@ -5890,11 +6341,289 @@
     "transparencia",
     "equiparacao"
    ],
-   "resumo": "No endividamento, a LRF define dívida consolidada, dívida mobiliária, operação de crédito e concessão de garantia (art. 29). Equipara-se a operação de crédito a assunção, o reconhecimento ou a confissão de dívidas pelo ente (art. 29, § 1º). Também são equiparadas e vedadas a antecipação de receita de tributo cujo fato gerador não ocorreu, o recebimento antecipado de valores de estatal controlada (salvo lucros e dividendos), a assunção de compromisso com fornecedor mediante título de crédito e a assunção de obrigação, sem autorização orçamentária, com fornecedores para pagamento a posteriori (art. 37). Os limites globais da dívida consolidada são fixados pelo Senado Federal, em percentual da receita corrente líquida (art. 30). Se a dívida ultrapassar o limite ao final de um quadrimestre, deve ser reconduzida até o término dos três subsequentes, reduzindo o excedente em pelo menos 25% no primeiro (art. 31); enquanto durar o excesso, o ente não contrata operação de crédito, salvo para pagar dívida mobiliária, e, vencido o prazo, não recebe transferências voluntárias. É vedada operação de crédito entre entes da Federação, ainda que sob a forma de novação, refinanciamento ou postergação (art. 35). A antecipação de receita (ARO) só pode ser feita a partir do décimo dia do exercício, deve ser liquidada até 10 de dezembro e é proibida enquanto houver ARO anterior não resgatada e no último ano de mandato do chefe do Executivo (art. 38). São instrumentos de transparência os planos, orçamentos e LDO, as prestações de contas e o parecer prévio, o RREO, o RGF e suas versões simplificadas (art. 48). Na calamidade pública reconhecida pelo Poder Legislativo (Congresso Nacional, no caso da União; Assembleia Legislativa, no caso dos Estados e Municípios), suspendem-se os prazos de recondução e dispensam-se as metas fiscais e a limitação de empenho (art. 65).",
+   "para_entender": [
+    {
+     "texto": "<strong>Operação de crédito:</strong> compromisso financeiro assumido em razão de mútuo, abertura de crédito, emissão de títulos e operações assemelhadas; o conceito e as equiparações estão nos arts. 29 e 37 da LRF.",
+     "tema": "credito-publico-e-seus-limites"
+    },
+    {
+     "texto": "<strong>Dívida consolidada:</strong> obrigações financeiras do ente para amortização em prazo superior a doze meses, com limites fixados pelo Senado e prazo de recondução.",
+     "tema": "divida-publica"
+    }
+   ],
+   "resumo": "Este tema reúne três partes da LRF que ficam fora do planejamento da receita e da despesa. A primeira é o <strong>controle do endividamento</strong> na hora de contratar. O conceito de operação de crédito, os limites da dívida e a ARO estão nos temas de crédito e de dívida pública; aqui está o rito: o Ministério da Fazenda verifica, antes de cada contratação, se o ente cumpre limites e condições, e o banco que empresta deve exigir essa comprovação. Operação feita contra a lei é nula. Quando um ente dá <strong>garantia</strong> a outro, isto é, se compromete a pagar se o devedor não pagar, exige uma <strong>contragarantia</strong>, como a retenção de receitas do garantido. A segunda parte é a <strong>gestão patrimonial</strong>: onde depositar o caixa, o que fazer com o dinheiro da venda de bens e quando incluir obras novas no orçamento. A terceira é a <strong>transparência</strong>, feita sobretudo por dois relatórios: o RREO, a cada bimestre, que mostra a execução do orçamento, e o RGF, a cada quadrimestre, que compara pessoal, dívida, garantias e operações de crédito com os limites. A lei fecha com as <strong>situações excepcionais</strong>, que afrouxam prazos e metas em calamidade e em baixo crescimento, e com as sanções. Os prazos de recondução e as regras da ARO estão no esquema.",
    "esquema": {
     "rotulo": "prazos de recondução e regras da antecipação de receita",
     "html": "<table><thead><tr><th>Situação</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Dívida consolidada acima do limite</strong></td><td>recondução até o fim dos três quadrimestres seguintes, pelo menos 25% no primeiro (art. 31)</td></tr><tr><td><strong>Despesa com pessoal acima do limite</strong></td><td>eliminação nos dois quadrimestres seguintes, pelo menos um terço no primeiro (art. 23)</td></tr><tr><td><strong>PIB com crescimento real abaixo de 1% por quatro trimestres</strong></td><td>prazos dos arts. 23, 31 e 70 duplicados (art. 66)</td></tr><tr><td><strong>Calamidade pública reconhecida</strong></td><td>contagem dos prazos dos arts. 23, 31 e 70 suspensa; metas e limitação de empenho dispensadas (art. 65)</td></tr><tr><td><strong>ARO: início</strong></td><td>a partir do décimo dia do exercício</td></tr><tr><td><strong>ARO: liquidação</strong></td><td>até 10 de dezembro, com juros e encargos</td></tr><tr><td><strong>ARO: proibição</strong></td><td>com ARO anterior não resgatada e no último ano de mandato do chefe do Executivo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "RREO",
+      "o_que_e": "Relatório Resumido da Execução Orçamentária: bimestral, cobre todos os Poderes e o MP e é publicado pelo Executivo.",
+      "atencao": "Base constitucional: art. 165, § 3º.",
+      "grupo": "Relatórios"
+     },
+     {
+      "nome": "RGF",
+      "o_que_e": "Relatório de Gestão Fiscal: quadrimestral, emitido pelo titular de cada Poder e órgão do art. 20.",
+      "atencao": "Os órgãos do Legislativo, do Judiciário e do MP informam só o comparativo da despesa com pessoal.",
+      "grupo": "Relatórios"
+     },
+     {
+      "nome": "Atraso dos relatórios",
+      "o_que_e": "Até regularizar, o ente fica sem transferências voluntárias e sem operações de crédito, salvo as para refinanciar a dívida mobiliária (art. 51, § 2º).",
+      "grupo": "Relatórios"
+     },
+     {
+      "nome": "Calamidade reconhecida",
+      "o_que_e": "O Congresso reconhece a da União, e as Assembleias Legislativas, a dos Estados e Municípios.",
+      "atencao": "Não é o Tribunal de Contas nem o chefe do Executivo.",
+      "grupo": "Calamidade e baixo crescimento"
+     },
+     {
+      "nome": "Calamidade nacional por decreto legislativo",
+      "o_que_e": "Além da suspensão de prazos e metas, dispensa limites para operações de crédito, garantias e transferências voluntárias e afasta regras dos arts. 14, 16, 17, 35, 37 e 42 para gastos com a calamidade.",
+      "atencao": "Transparência, controle e fiscalização continuam valendo.",
+      "grupo": "Calamidade e baixo crescimento"
+     },
+     {
+      "nome": "Baixo crescimento",
+      "o_que_e": "PIB que, somados os quatro trimestres mais recentes, cresceu menos de 1% em termos reais.",
+      "atencao": "Duplica os prazos de recondução de pessoal e de dívida.",
+      "grupo": "Calamidade e baixo crescimento"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "nCF-1988",
+     "artigos": [
+      "Art. 163-A."
+     ],
+     "ref": "art. 163-A da Constituição",
+     "regras": [
+      "<strong>Art. 163-A.</strong> União, Estados, DF e Municípios disponibilizam seus dados contábeis, orçamentários e fiscais na periodicidade, no formato e no sistema do órgão central de contabilidade da União, garantindo rastreabilidade, comparabilidade e publicidade, com divulgação em meio eletrônico de amplo acesso (EC 108/2020)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "conforme periodicidade, formato e sistema estabelecidos pelo órgão central de contabilidade da União, de forma a garantir a rastreabilidade",
+       "marcas": [
+        "órgão central de contabilidade da União"
+       ],
+       "afirmacao": "Pelo art. 163-A da Constituição, cada ente disponibiliza seus dados fiscais no formato definido pelo seu Tribunal de Contas.",
+       "gabarito": "E",
+       "porque": "Quem define é o órgão central de contabilidade da União."
+      }
+     ],
+     "conferido": {
+      "Art. 163-A.": "a3880f48350c"
+     },
+     "fonte": "Constituição Federal de 1988, texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n101-2000",
+     "artigos": [
+      "Art. 32.",
+      "Art. 33.",
+      "Art. 40.",
+      "Art. 43.",
+      "Art. 44.",
+      "Art. 45.",
+      "Art. 46.",
+      "Art. 47.",
+      "Art. 49.",
+      "Art. 52.",
+      "Art. 53.",
+      "Art. 54.",
+      "Art. 55.",
+      "Art. 56.",
+      "Art. 57.",
+      "Art. 58.",
+      "Art. 60.",
+      "Art. 63.",
+      "Art. 65.",
+      "Art. 65-A.",
+      "Art. 66.",
+      "Art. 73.",
+      "Art. 73-A."
+     ],
+     "ref": "arts. 32, 33, 40, 43 a 47, 49, 52 a 58, 60, 63, 65, 65-A, 66, 73 e 73-A da LRF",
+     "regras": [
+      "<strong>Art. 32, caput e § 1º.</strong> O Ministério da Fazenda verifica os limites e condições das operações de crédito de cada ente, inclusive de suas empresas controladas. O ente formaliza o pleito com parecer de seus órgãos técnicos e jurídicos, demonstra custo-benefício e interesse econômico e social e comprova: prévia e expressa autorização no texto da LOA, em créditos adicionais ou em lei específica (I); inclusão dos recursos no orçamento ou em créditos adicionais, salvo na ARO (II); observância dos limites e condições do Senado (III); autorização específica do Senado no crédito externo (IV); atendimento ao art. 167, III, da CF (V); e as demais restrições da LRF (VI).",
+      "<strong>Art. 32, §§ 2º a 4º.</strong> As operações da dívida mobiliária federal autorizadas na LOA ou em créditos adicionais seguem processo simplificado (§ 2º). Para a regra de ouro, compara-se, em cada exercício, o total de operações de crédito ingressadas com o de despesas de capital executadas, sem contar como despesa de capital o empréstimo a contribuinte para incentivo fiscal com base em tributo do ente (I) e deduzindo-o se concedido por instituição financeira controlada pelo ente (II); o inciso III foi vetado (§ 3º). O Ministério da Fazenda mantém registro eletrônico centralizado e público das dívidas interna e externa, com encargos e condições de contratação (I) e saldos e limites de dívidas, operações de crédito e garantias (II) (§ 4º).",
+      "<strong>Art. 32, §§ 5º a 7º.</strong> O contrato de crédito externo não tem cláusula de compensação automática de débitos e créditos (§ 5º). A verificação vale por no mínimo 90 e no máximo 270 dias, a critério do Ministério da Fazenda, assim como a análise para garantia da União (§ 6º). Estados, DF e Municípios podem alterar a finalidade da operação sem nova verificação, se houver autorização prévia e expressa na LOA, em créditos adicionais ou em lei específica, demonstrados custo-benefício e interesse econômico e social, sem infração à LRF (§ 7º).",
+      "<strong>Art. 33.</strong> A instituição financeira que contrata com ente, salvo na dívida mobiliária ou externa, exige comprovação de que a operação atende às condições e limites. A operação feita contra a LRF é nula e cancelada com devolução do principal, vedados juros e demais encargos (§ 1º); se a devolução não ocorrer no exercício do ingresso, consigna-se reserva específica na LOA seguinte (§ 2º); enquanto não houver cancelamento, amortização ou reserva, aplicam-se ao ente as restrições do art. 23, § 3º (§ 3º); e também se constitui reserva no valor do excesso quando descumprida a regra de ouro (§ 4º).",
+      "<strong>Art. 40, caput e § 1º.</strong> Os entes podem garantir operações de crédito internas ou externas, observados este artigo e o art. 32 e, no caso da União, os limites do Senado e as normas do Ministério da Economia sobre capacidade de pagamento (LC 178/2021). A garantia depende de contragarantia em valor igual ou superior e da adimplência do pleiteante com o garantidor e suas controladas, mas não se exige contragarantia de órgãos e entidades do próprio ente (I), e a exigida pela União a Estado ou Município, ou pelo Estado ao Município, pode consistir na vinculação de receitas tributárias próprias e de transferências constitucionais, com poder de retê-las para pagar a dívida vencida (II).",
+      "<strong>Art. 40, §§ 2º a 5º.</strong> Na operação com organismo financeiro internacional ou com instituição federal de crédito para repasse de recursos externos, a União só garante o ente que também cumpra as exigências para receber transferências voluntárias (§ 2º). Os §§ 3º e 4º foram vetados. É nula a garantia concedida acima dos limites do Senado (§ 5º).",
+      "<strong>Art. 40, §§ 6º a 8º.</strong> A administração indireta, inclusive controladas e subsidiárias, não pode conceder garantia, nem com recursos de fundos (§ 6º), salvo a da controlada à sua subsidiária ou controlada, com a contragarantia nas mesmas condições (I), e a da instituição financeira a empresa nacional, nos termos da lei (II) (§ 7º). Ficam fora do artigo a garantia das instituições financeiras estatais, sujeitas às normas das privadas (I), e a da União, por lei federal, a suas empresas financeiras no seguro de crédito à exportação (II) (§ 8º).",
+      "<strong>Art. 40, §§ 9º a 11.</strong> Ao honrar dívida de outro ente, a União e os Estados podem condicionar as transferências constitucionais ao ressarcimento (§ 9º). O ente cuja dívida foi honrada fica sem novos créditos ou financiamentos até liquidá-la (§ 10). Mudar a metodologia de classificação da capacidade de pagamento de Estados e Municípios exige consulta pública prévia (§ 11).",
+      "<strong>Art. 43.</strong> As disponibilidades de caixa dos entes são depositadas conforme o art. 164, § 3º, da CF. As dos regimes de previdência, geral e próprio, ficam em conta separada e são aplicadas nas condições de mercado, com limites de prudência (§ 1º), vedada a aplicação em títulos da dívida estadual e municipal e em ações e papéis de empresas controladas pelo ente (I) e em empréstimos aos segurados e ao Poder Público, inclusive suas controladas (II) (§ 2º).",
+      "<strong>Art. 44.</strong> É vedado aplicar a receita de capital da alienação de bens e direitos do patrimônio público em despesa corrente, salvo se destinada por lei aos regimes de previdência social, geral e próprio dos servidores.",
+      "<strong>Art. 45.</strong> Observado o art. 5º, § 5º, a LOA e as leis de créditos adicionais só incluem novos projetos depois de atendidos os em andamento e contempladas as despesas de conservação do patrimônio, nos termos da LDO. O Executivo envia ao Legislativo, até a data do projeto de LDO, relatório com as informações para cumprir a regra, com ampla divulgação (parágrafo único).",
+      "<strong>Art. 46.</strong> É nulo de pleno direito o ato de desapropriação de imóvel urbano sem o atendimento do art. 182, § 3º, da CF ou sem prévio depósito judicial do valor da indenização.",
+      "<strong>Art. 47.</strong> A empresa controlada que firma contrato de gestão com objetivos e metas de desempenho tem autonomia gerencial, orçamentária e financeira, sem prejuízo do art. 165, § 5º, II, da CF. Em nota explicativa dos balanços trimestrais, informa o fornecimento de bens e serviços ao controlador, com preços comparados aos de mercado (I); os recursos recebidos do controlador, com valor, fonte e destinação (II); e vendas, serviços ou empréstimos em condições diferentes das de mercado (III) (parágrafo único).",
+      "<strong>Art. 49.</strong> As contas do chefe do Executivo ficam disponíveis durante todo o exercício no Legislativo e no órgão técnico que as elaborou, para consulta dos cidadãos e da sociedade. A prestação de contas da União traz demonstrativos do Tesouro e das agências financeiras oficiais de fomento, incluído o BNDES, com os empréstimos concedidos com recursos dos orçamentos fiscal e da seguridade e, no caso das agências, avaliação do impacto fiscal de suas atividades (parágrafo único).",
+      "<strong>Art. 52.</strong> O RREO (CF, art. 165, § 3º) abrange todos os Poderes e o Ministério Público, é publicado até trinta dias após cada bimestre e traz: balanço orçamentário, por categoria econômica, com as receitas por fonte, realizadas e a realizar, e a previsão atualizada (a), e as despesas por grupo de natureza, com dotação, despesa liquidada e saldo (b) (I); e demonstrativos da execução das receitas por categoria e fonte (a), das despesas por categoria e grupo, com dotações e despesas empenhada e liquidada no bimestre e no exercício (b), e das despesas por função e subfunção (c) (II). O refinanciamento da dívida mobiliária aparece destacado nas receitas de operações de crédito e nas despesas com amortização (§ 1º), e o atraso sujeita o ente às sanções do art. 51, § 2º (§ 2º).",
+      "<strong>Art. 53.</strong> Acompanham o RREO demonstrativos da RCL, sua evolução e previsão até o fim do exercício (I); das receitas e despesas previdenciárias (II); dos resultados nominal e primário (III); das despesas com juros (IV); e dos restos a pagar por Poder e órgão, com inscritos, pagos e a pagar (V). O do último bimestre traz ainda os demonstrativos da regra de ouro (I), das projeções atuariais dos regimes de previdência (II) e da variação patrimonial, com a alienação de ativos e o destino dos recursos (III) (§ 1º). Quando for o caso, justificam-se a limitação de empenho (I) e a frustração de receitas, com as medidas contra a sonegação e as ações de fiscalização e cobrança (II) (§ 2º).",
+      "<strong>Art. 54.</strong> Ao final de cada quadrimestre, os titulares dos Poderes e órgãos do art. 20 emitem o RGF, assinado pelo chefe do Executivo (I); pelo presidente e membros da Mesa ou órgão equivalente do Legislativo (II); pelo presidente de tribunal e membros do Conselho de Administração ou órgão equivalente do Judiciário (III); e pelo chefe do Ministério Público da União e dos Estados (IV). Assinam também as autoridades da administração financeira e do controle interno e outras definidas por cada Poder ou órgão (parágrafo único).",
+      "<strong>Art. 55, caput.</strong> O RGF traz o comparativo com os limites da despesa com pessoal, separando inativos e pensionistas (a), das dívidas consolidada e mobiliária (b), das garantias (c), das operações de crédito, inclusive ARO (d), e das despesas do art. 4º, II (e) (I); as medidas corretivas, se ultrapassado algum limite (II); e, no último quadrimestre, as disponibilidades de caixa em 31 de dezembro (a), a inscrição em restos a pagar das despesas liquidadas, das empenhadas e não liquidadas inscritas pelas condições do art. 41, II, ou até o saldo de caixa, e das não inscritas por falta de caixa, com empenhos cancelados (b), e o cumprimento do art. 38, II e IV, b (c) (III).",
+      "<strong>Art. 55, §§ 1º a 4º.</strong> O RGF dos órgãos do Legislativo, do Judiciário e do Ministério Público traz só a despesa com pessoal e os documentos dos incisos II e III (§ 1º). É publicado até trinta dias após o fim do período, com amplo acesso, inclusive eletrônico (§ 2º); o atraso sujeita o ente à sanção do art. 51, § 2º (§ 3º); e os relatórios dos arts. 52 e 54 seguem modelos padronizados que o conselho do art. 67 pode atualizar (§ 4º).",
+      "<strong>Art. 56.</strong> O caput, que juntava às contas do chefe do Executivo as dos presidentes dos órgãos do Legislativo e do Judiciário e do chefe do Ministério Público, com parecer prévio separado, foi declarado inconstitucional nas ADI 2.238 e 2.324. Continuam: as contas do Judiciário são apresentadas, na União, pelos presidentes do STF e dos Tribunais Superiores (I) e, nos Estados, pelos presidentes dos Tribunais de Justiça (II), consolidando as dos demais tribunais (§ 1º); o parecer sobre as contas dos Tribunais de Contas cabe à comissão mista de orçamento ou à equivalente das Casas estaduais e municipais (§ 2º); e os resultados da apreciação das contas têm ampla divulgação (§ 3º).",
+      "<strong>Art. 57.</strong> O caput, que dava ao Tribunal de Contas sessenta dias para o parecer prévio, foi declarado inconstitucional na ADI 2.238; com ele perde a base o § 1º, que dava cento e oitenta dias nos Municípios que não sejam capitais e tenham menos de duzentos mil habitantes. Os Tribunais de Contas não entram em recesso enquanto houver contas de Poder ou órgão pendentes de parecer prévio (§ 2º).",
+      "<strong>Art. 58.</strong> A prestação de contas mostra o desempenho da arrecadação frente à previsão, com as providências de fiscalização das receitas e combate à sonegação, as ações de recuperação de créditos nas instâncias administrativa e judicial e as demais medidas para aumentar as receitas tributárias e de contribuições.",
+      "<strong>Art. 60.</strong> Lei estadual ou municipal pode fixar, para dívidas consolidada e mobiliária, operações de crédito e concessão de garantias, limites inferiores aos da LRF.",
+      "<strong>Art. 63, caput e §§ 1º e 2º.</strong> O Município com menos de cinquenta mil habitantes pode optar por verificar os limites de pessoal (art. 22) e de dívida (art. 30, § 4º) ao fim do semestre (I); divulgar semestralmente o RGF e os demonstrativos do art. 53, já que a alínea a foi vetada (II); e elaborar os anexos de política fiscal do PPA e de metas e riscos fiscais da LDO, e o anexo do art. 5º, I, a partir do quinto exercício seguinte ao da publicação da lei (III). A divulgação semestral sai em até trinta dias após o fim do semestre (§ 1º). Se ultrapassar os limites de pessoal ou de dívida consolidada, enquanto durar o excesso, o Município volta aos prazos de verificação e de retorno ao limite dos demais entes (§ 2º).",
+      "<strong>Art. 65, caput.</strong> Na calamidade pública reconhecida pelo Congresso Nacional, no caso da União, ou pelas Assembleias Legislativas, no dos Estados e Municípios, enquanto ela durar, suspendem-se a contagem dos prazos e as disposições dos arts. 23, 31 e 70 (I) e dispensam-se os resultados fiscais e a limitação de empenho do art. 9º (II).",
+      "<strong>Art. 65, §§ 1º a 3º.</strong> Na calamidade reconhecida pelo Congresso por decreto legislativo, em parte ou em todo o território nacional, também se dispensam limites e condições para contratar e aditar operações de crédito (a), conceder garantias (b), contratar entre entes (c) e receber transferências voluntárias (d) (I); dispensam-se os limites e afastam-se as vedações dos arts. 35, 37 e 42 e o art. 8º, parágrafo único, se os recursos forem para a calamidade (II); e afastam-se os arts. 14, 16 e 17 para benefício ou despesa destinados ao combate à calamidade (III) (§ 1º). Isso vale só para os entes atingidos, no território e enquanto durar o estado reconhecido (a), e para os atos necessários às despesas do decreto legislativo (b) (I), e não afasta as regras de transparência, controle e fiscalização (II) (§ 2º). No aditamento de operação garantida pela União, a garantia se mantém sem alterar os contratos (§ 3º).",
+      "<strong>Art. 65-A.</strong> Não entram na meta de resultado primário, para o art. 9º, as transferências federais identificadas para enfrentar os efeitos de calamidades ou pandemias no setor cultural, desde que autorizadas pelo Congresso além dos valores iniciais da LOA.",
+      "<strong>Art. 66.</strong> Os prazos dos arts. 23, 31 e 70 são duplicados no crescimento real baixo ou negativo do PIB nacional, regional ou estadual por quatro trimestres ou mais. Baixo crescimento é a variação real acumulada abaixo de 1% nos últimos quatro trimestres (§ 1º), apurada pelo IBGE com a mesma metodologia para os PIBs nacional, estadual e regional (§ 2º). As medidas do art. 22 continuam (§ 3º). Em mudanças drásticas nas políticas monetária e cambial reconhecidas pelo Senado, o prazo do art. 31 pode ser ampliado em até quatro quadrimestres (§ 4º).",
+      "<strong>Art. 73.</strong> As infrações à LRF são punidas segundo o Código Penal, a Lei 1.079/1950, o Decreto-Lei 201/1967, a Lei 8.429/1992 e as demais normas pertinentes.",
+      "<strong>Art. 73-A.</strong> Qualquer cidadão, partido político, associação ou sindicato pode denunciar ao Tribunal de Contas e ao Ministério Público o descumprimento da LRF."
+     ],
+     "literalidades": [
+      {
+       "trecho": "reconhecida pelo Congresso Nacional, no caso da União, ou pelas Assembléias Legislativas, na hipótese dos Estados e Municípios",
+       "marcas": [
+        "Assembléias Legislativas"
+       ],
+       "afirmacao": "Na calamidade pública reconhecida pelo Tribunal de Contas do Estado, suspendem-se os prazos de recondução da despesa com pessoal e da dívida.",
+       "gabarito": "E",
+       "porque": "Quem reconhece é a Assembleia Legislativa, nos Estados e Municípios, e o Congresso, na União (art. 65)."
+      },
+      {
+       "trecho": "Os prazos estabelecidos nos arts. 23, 31 e 70 serão duplicados",
+       "marcas": [
+        "duplicados"
+       ],
+       "afirmacao": "Com crescimento real baixo ou negativo do PIB por quatro trimestres ou mais, os prazos de recondução de pessoal e de dívida são duplicados.",
+       "gabarito": "C",
+       "porque": "É o art. 66."
+      },
+      {
+       "trecho": "taxa de variação real acumulada do Produto Interno Bruto inferior a 1% (um por cento)",
+       "marcas": [
+        "inferior a 1%"
+       ],
+       "afirmacao": "Para a LRF, baixo crescimento é a variação real acumulada do PIB inferior a 2% nos últimos quatro trimestres.",
+       "gabarito": "E",
+       "porque": "O marco é 1% (art. 66, § 1º)."
+      },
+      {
+       "trecho": "contragarantia, em valor igual ou superior ao da garantia a ser concedida",
+       "marcas": [
+        "igual ou superior"
+       ],
+       "afirmacao": "A garantia dada pelo ente depende de contragarantia em valor igual ou superior ao da garantia.",
+       "gabarito": "C",
+       "porque": "É o art. 40, § 1º."
+      },
+      {
+       "trecho": "É nula a garantia concedida acima dos limites fixados pelo Senado Federal",
+       "marcas": [
+        "É nula"
+       ],
+       "afirmacao": "É nula a garantia concedida acima dos limites fixados pelo Senado Federal.",
+       "gabarito": "C",
+       "porque": "É o art. 40, § 5º."
+      },
+      {
+       "trecho": "salvo se destinada por lei aos regimes de previdência social, geral e próprio dos servidores públicos",
+       "marcas": [
+        "regimes de previdência social"
+       ],
+       "afirmacao": "A receita da venda de bens públicos pode pagar despesa corrente se a lei a destinar aos regimes de previdência, geral e próprio.",
+       "gabarito": "C",
+       "porque": "É a exceção do art. 44."
+      },
+      {
+       "trecho": "será publicado até trinta dias após o encerramento de cada bimestre",
+       "marcas": [
+        "trinta dias",
+        "bimestre"
+       ],
+       "afirmacao": "O RREO abrange todos os Poderes e o Ministério Público e é publicado até trinta dias após cada bimestre.",
+       "gabarito": "C",
+       "porque": "É o art. 52."
+      },
+      {
+       "trecho": "Ao final de cada quadrimestre será emitido pelos titulares dos Poderes e órgãos referidos no art. 20 Relatório de Gestão Fiscal",
+       "marcas": [
+        "quadrimestre"
+       ],
+       "afirmacao": "O Relatório de Gestão Fiscal é emitido ao final de cada semestre pelos titulares dos Poderes e órgãos.",
+       "gabarito": "E",
+       "porque": "É quadrimestral (art. 54)."
+      },
+      {
+       "trecho": "será de, no mínimo, 90 (noventa) dias e, no máximo, 270 (duzentos e setenta) dias",
+       "marcas": [
+        "90 (noventa) dias",
+        "270"
+       ],
+       "afirmacao": "A verificação dos limites e condições da operação de crédito pelo Ministério da Fazenda vale por no máximo 90 dias.",
+       "gabarito": "E",
+       "porque": "Vale de 90 a 270 dias, a critério do Ministério (art. 32, § 6º)."
+      },
+      {
+       "trecho": "mediante a devolução do principal, vedados o pagamento de juros e demais encargos financeiros",
+       "marcas": [
+        "vedados o pagamento de juros"
+       ],
+       "afirmacao": "A operação de crédito nula é cancelada com devolução do principal acrescido de juros e encargos.",
+       "gabarito": "E",
+       "porque": "Devolve-se só o principal, vedados juros e encargos (art. 33, § 1º)."
+      },
+      {
+       "trecho": "Qualquer cidadão, partido político, associação ou sindicato é parte legítima para denunciar",
+       "marcas": [
+        "Qualquer cidadão"
+       ],
+       "afirmacao": "Qualquer cidadão, partido político, associação ou sindicato pode denunciar ao Tribunal de Contas e ao Ministério Público o descumprimento da LRF.",
+       "gabarito": "C",
+       "porque": "É o art. 73-A."
+      }
+     ],
+     "conferido": {
+      "Art. 32.": "2fb0229a4c76",
+      "Art. 33.": "f2ff8b587aab",
+      "Art. 40.": "86f2a98032ea",
+      "Art. 43.": "eeecffb19c0d",
+      "Art. 44.": "591c5a1b6287",
+      "Art. 45.": "165618a1f04a",
+      "Art. 46.": "531c02ef7681",
+      "Art. 47.": "44592fa14ad7",
+      "Art. 49.": "ad02aca4d259",
+      "Art. 52.": "723d50e3ba0f",
+      "Art. 53.": "ccf351360804",
+      "Art. 54.": "02251849d7f8",
+      "Art. 55.": "634f3d63c927",
+      "Art. 56.": "e99b51f1b34f",
+      "Art. 57.": "c03f4d7ef408",
+      "Art. 58.": "db82607f44e0",
+      "Art. 60.": "30055f37abcb",
+      "Art. 63.": "b09a63c7b7e0",
+      "Art. 65.": "cf0ba9eb375b",
+      "Art. 65-A.": "a62963a0cf64",
+      "Art. 66.": "d108df477e8d",
+      "Art. 73.": "ca747d03a93e",
+      "Art. 73-A.": "6e3d6987c0b6"
+     },
+     "fonte": "Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Calamidade e baixo crescimento mexem nos prazos de forma diferente: a calamidade suspende a contagem; o baixo crescimento duplica os prazos.",
+    "Na regra de ouro da LRF, o empréstimo a contribuinte para incentivo fiscal não conta como despesa de capital, porque na prática reduz o ônus do tributo."
+   ],
    "macetes": [
     {
      "sigla": "DÍVIDA: TRÊS QUADRIMESTRES E 25%",
@@ -5914,11 +6643,23 @@
     "gabarito": "E",
     "explicacao": "A ARO é proibida no último ano de mandato do Presidente, Governador ou Prefeito (art. 38, IV, b), qualquer que seja o prazo de liquidação."
    },
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
-   "aprofundamento": "<p><strong>Requisitos da operação de crédito.</strong> O Ministério da Fazenda verifica os limites e condições; o ente demonstra prévia e expressa autorização no texto da lei orçamentária, em créditos adicionais ou em lei específica, inclusão dos recursos no orçamento (salvo ARO), observância dos limites do Senado e, no crédito externo, autorização específica do Senado (art. 32, § 1º).</p><p><strong>Regra de ouro.</strong> As operações de crédito não podem exceder as despesas de capital, ressalvadas as autorizadas por créditos suplementares ou especiais com finalidade precisa aprovados por maioria absoluta (CF, art. 167, III). A ARO liquidada no prazo não entra nessa conta (LRF, art. 38, § 1º).</p><p><strong>Instituição financeira controlada.</strong> É proibida operação de crédito entre instituição financeira estatal e o ente que a controle, na qualidade de beneficiário do empréstimo (art. 36). Estados e Municípios podem comprar títulos da dívida da União como aplicação de suas disponibilidades (art. 35, § 2º). A vedação do art. 35 não alcança operações entre instituição financeira estatal e outro ente que não se destinem a financiar despesas correntes nem a refinanciar dívidas não contraídas junto à própria instituição (art. 35, § 1º).</p><p><strong>Garantias.</strong> A garantia exige contragarantia em valor igual ou superior, dispensada para órgãos e entidades do próprio ente, e é nula se concedida acima dos limites fixados pelo Senado (art. 40).</p><p><strong>Fim de mandato.</strong> Se a dívida exceder o limite no primeiro quadrimestre do último ano do mandato do chefe do Executivo, as restrições do art. 31, § 1º, aplicam-se imediatamente (art. 31, § 3º).</p><p><strong>Alienação de ativos.</strong> É vedado aplicar a receita de capital da alienação de bens e direitos em despesa corrente, salvo se destinada por lei aos regimes de previdência social, geral e próprio dos servidores (art. 44).</p><p><strong>ARO de Estados e Municípios.</strong> É contratada com a instituição financeira vencedora em processo competitivo eletrônico promovido pelo Banco Central (art. 38, § 2º).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A ARO pode ser contratada nos quatro primeiros meses do último ano de mandato, porque a vedação cobre só os dois últimos quadrimestres.",
+     "certo": "A ARO é proibida em todo o último ano de mandato do chefe do Executivo (art. 38, IV, b).",
+     "fonte": "Questões do app sobre a antecipação de receita"
+    },
+    {
+     "errado": "Na calamidade nacional reconhecida por decreto legislativo, ficam afastadas também as regras de transparência e fiscalização.",
+     "certo": "A flexibilização não afasta transparência, controle e fiscalização (art. 65, § 2º, II).",
+     "fonte": "Questões do app sobre a calamidade pública"
+    }
+   ],
    "relacionados": [
     "lrf-planejamento-receita-e-despesa",
-    "dividas-flutuante-e-fundada"
+    "divida-publica",
+    "credito-publico-e-seus-limites",
+    "sistemas-de-informacoes-orcamentarias"
    ]
   },
   {
@@ -5929,7 +6670,35 @@
    "tax": [
     "financas-publicas.lei-4320-normas-gerais"
    ],
-   "dispositivos": [],
+   "dispositivos": [
+    "n4320-1964-art-1",
+    "n4320-1964-art-2",
+    "n4320-1964-art-3",
+    "n4320-1964-art-4",
+    "n4320-1964-art-5",
+    "n4320-1964-art-6",
+    "n4320-1964-art-7",
+    "n4320-1964-art-15",
+    "n4320-1964-art-22",
+    "n4320-1964-art-32",
+    "n4320-1964-art-33",
+    "n4320-1964-art-34",
+    "n4320-1964-art-38",
+    "n4320-1964-art-58",
+    "n4320-1964-art-59",
+    "n4320-1964-art-60",
+    "n4320-1964-art-61",
+    "n4320-1964-art-62",
+    "n4320-1964-art-63",
+    "n4320-1964-art-64",
+    "n4320-1964-art-66",
+    "n4320-1964-art-67",
+    "n4320-1964-art-70",
+    "n4320-1964-art-71",
+    "n4320-1964-art-72",
+    "n4320-1964-art-73",
+    "n4320-1964-art-74"
+   ],
    "conceitos": [
     "Lei 4.320",
     "orçamento bruto",
@@ -5949,12 +6718,312 @@
     "material permanente",
     "antecipacao de receita"
    ],
-   "resumo": "A <strong>Lei nº 4.320/1964</strong> estatui normas gerais de direito financeiro para elaboração e controle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal. Foi editada como lei ordinária, mas a Constituição de 1988 exige lei complementar para essas normas gerais (art. 165, § 9º, e art. 163), por isso ela foi recepcionada com força de lei complementar: só outra lei complementar pode alterá-la. O art. 2º traz de forma expressa três princípios: <strong>unidade, universalidade e anualidade</strong>. A universalidade aparece também nos arts. 3º e 4º: a Lei de Orçamento compreende todas as receitas, inclusive as de operações de crédito autorizadas em lei, e todas as despesas. Ficam fora as operações de crédito por antecipação da receita, as emissões de papel-moeda e outras entradas compensatórias no ativo e passivo financeiros. O art. 6º consagra o <strong>orçamento bruto</strong>: receitas e despesas constam pelos seus totais, vedadas quaisquer deduções. A cota que um ente transfere a outro entra como despesa no orçamento de quem transfere e como receita no orçamento de quem recebe. O art. 5º proíbe dotações globais, ressalvados os programas especiais de trabalho do art. 20. O exercício financeiro coincide com o ano civil (art. 34). Pelo art. 35, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas: é o chamado regime misto, caixa para a receita e competência para a despesa, que vale para a execução orçamentária. A contabilidade patrimonial, pelas normas atuais do setor público, registra receitas e despesas pela competência.",
+   "para_entender": [
+    {
+     "texto": "<strong>Princípios orçamentários:</strong> regras de organização do orçamento, como unidade, universalidade, anualidade e exclusividade, umas na Lei 4.320, outras na Constituição.",
+     "tema": "principios-orcamentarios"
+    },
+    {
+     "texto": "<strong>Créditos adicionais:</strong> autorizações de despesa não computadas ou insuficientemente dotadas na lei de orçamento; dividem-se em suplementares, especiais e extraordinários.",
+     "tema": "creditos-ordinarios-e-adicionais"
+    }
+   ],
+   "resumo": "A Lei 4.320/1964 é a lei de <strong>normas gerais de direito financeiro</strong>: vale para União, Estados, DF e Municípios e regula como se elaboram e se controlam orçamentos e balanços. Nasceu lei ordinária, mas a Constituição de 1988 reservou a matéria à lei complementar (arts. 163 e 165, § 9º). Por isso foi <strong>recepcionada com força de lei complementar</strong>, e só outra lei complementar pode alterá-la. A LRF não a revogou: as duas convivem, e onde a LRF dispõe de modo diverso, prevalece a LRF. A lei quer que o orçamento deixe claros o programa de trabalho do governo e sua política econômico-financeira, sob três princípios expressos: <strong>unidade</strong>, um só orçamento por ente; <strong>universalidade</strong>, todas as receitas e despesas; e <strong>anualidade</strong>, vigência por um exercício. O caminho começa na <strong>proposta</strong> do Executivo, formada por mensagem, projeto, tabelas explicativas e programas especiais de trabalho. Se ela não chega no prazo, o Legislativo trata como proposta a lei em vigor, e as emendas encontram limites, como a proibição de dar verba a obra sem projeto aprovado. Aprovada a lei, a despesa percorre três estágios. O <strong>empenho</strong> é o ato que cria para o Estado a obrigação de pagar, sempre prévio e dentro do crédito. A <strong>liquidação</strong> verifica, à vista dos documentos, se o credor tem direito ao que cobra. O <strong>pagamento</strong> só vem depois, por ordem da autoridade competente. A parte orçamentária fecha com os <strong>fundos especiais</strong>, receitas que uma lei prende a um objetivo. O esquema reúne o que a lei de orçamento deve conter e o que nela não pode entrar.",
    "esquema": {
     "rotulo": "o que a Lei nº 4.320/1964 manda e o que ela proíbe na lei de orçamento",
     "html": "<table><thead><tr><th>Regra</th><th>O que diz</th><th>Armadilha comum</th></tr></thead><tbody><tr><td><strong>Universalidade (arts. 3º e 4º)</strong></td><td>todas as receitas e despesas, inclusive operações de crédito autorizadas em lei</td><td>ARO, emissão de papel-moeda e entradas compensatórias ficam fora</td></tr><tr><td><strong>Orçamento bruto (art. 6º)</strong></td><td>receitas e despesas pelos totais, vedadas deduções</td><td>transferência a outro ente é despesa de quem transfere e receita de quem recebe</td></tr><tr><td><strong>Dotação global (art. 5º)</strong></td><td>vedada para pessoal, material, serviços ou transferências indiferentemente</td><td>exceção: programas especiais de trabalho (art. 20)</td></tr><tr><td><strong>Autorizações na LOA (art. 7º)</strong></td><td>créditos suplementares até determinada importância e ARO em qualquer mês</td><td>crédito especial e extraordinário não são autorizados na LOA</td></tr><tr><td><strong>Exercício (arts. 34 e 35)</strong></td><td>ano civil; receita arrecadada e despesa legalmente empenhada</td><td>receita pelo caixa, despesa pela competência (empenho)</td></tr><tr><td><strong>Fundo especial (arts. 71 a 74)</strong></td><td>receitas especificadas vinculadas por lei a objetivos determinados</td><td>saldo positivo vai para o exercício seguinte, salvo lei em contrário</td></tr></tbody></table>"
    },
-   "lei": [],
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Crédito e venda de imóveis na receita",
+      "o_que_e": "Só entram na estimativa de receita quando o Legislativo os autoriza de forma que permita realizá-los no exercício; para crédito, a autorização pode vir na própria lei de orçamento (art. 7º, §§ 2º e 3º).",
+      "grupo": "Receita e autorizações"
+     },
+     {
+      "nome": "ARO depois da LRF",
+      "o_que_e": "A Lei 4.320 admite a operação em qualquer mês. A LRF exige contratação a partir do décimo dia do exercício e quitação até 10 de dezembro, e a proíbe no último ano de mandato (art. 38).",
+      "atencao": "Vale a regra mais restrita, a da LRF.",
+      "grupo": "Receita e autorizações"
+     },
+     {
+      "nome": "Déficit",
+      "o_que_e": "A lei de orçamento aponta as fontes com que o Executivo poderá cobri-lo (art. 7º, § 1º).",
+      "grupo": "Receita e autorizações"
+     },
+     {
+      "nome": "Exclusividade",
+      "o_que_e": "Não consta do art. 2º. Vem da Constituição (art. 165, § 8º), que veda na LOA matéria estranha à previsão da receita e à fixação da despesa.",
+      "atencao": "A troca de anualidade por exclusividade é armadilha frequente.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Material permanente",
+      "o_que_e": "Para classificar a despesa, é o que dura mais de dois anos; o resto é material de consumo.",
+      "grupo": "Princípios"
+     },
+     {
+      "nome": "Empenho por estimativa e global",
+      "o_que_e": "Por estimativa, quando não se sabe o valor exato, como a conta de energia; global, para contratos e despesas parceladas.",
+      "atencao": "Ordinário, nome dos manuais, é o de valor certo pago de uma vez.",
+      "grupo": "Execução da despesa"
+     },
+     {
+      "nome": "Nota de empenho",
+      "o_que_e": "Documento tirado de cada empenho, com credor, objeto, valor e baixa no saldo da dotação. A legislação específica pode dispensar a nota, nunca o empenho.",
+      "grupo": "Execução da despesa"
+     },
+     {
+      "nome": "Fim de mandato municipal",
+      "o_que_e": "No último mês do mandato, o Município só empenha até um doze avos da despesa prevista e não assume compromisso para depois do mandato, salvo calamidade.",
+      "atencao": "A LRF tem regra própria para os dois últimos quadrimestres (art. 42).",
+      "grupo": "Execução da despesa"
+     },
+     {
+      "nome": "Precatórios",
+      "o_que_e": "Pagos na ordem de apresentação, sem designar casos ou pessoas nas dotações.",
+      "atencao": "O regime atual é o do art. 100 da Constituição.",
+      "grupo": "Execução da despesa"
+     },
+     {
+      "nome": "Controle do fundo",
+      "o_que_e": "A lei que cria o fundo pode ter regras próprias de prestação de contas, mas não tira a competência do Tribunal de Contas.",
+      "grupo": "Fundos"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n4320-1964",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 2º.",
+      "Art. 3º.",
+      "Art. 4º.",
+      "Art. 5º.",
+      "Art. 6º.",
+      "Art. 7º.",
+      "Art. 15.",
+      "Art. 22.",
+      "Art. 32.",
+      "Art. 33.",
+      "Art. 34.",
+      "Art. 38.",
+      "Art. 58.",
+      "Art. 59.",
+      "Art. 60.",
+      "Art. 61.",
+      "Art. 62.",
+      "Art. 63.",
+      "Art. 64.",
+      "Art. 66.",
+      "Art. 67.",
+      "Art. 70.",
+      "Art. 71.",
+      "Art. 72.",
+      "Art. 73.",
+      "Art. 74."
+     ],
+     "ref": "arts. 1º a 7º, 15, 22, 32 a 34, 38, 58 a 64, 66, 67 e 70 a 74 da Lei 4.320/1964",
+     "regras": [
+      "<strong>Art. 1º.</strong> A lei estatui normas gerais de direito financeiro para elaboração e controle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal; a remissão ao art. 5º, XV, b, é à Constituição de 1946.",
+      "<strong>Art. 2º, caput.</strong> A Lei do Orçamento discrimina receita e despesa de forma a evidenciar a política econômico-financeira e o programa de trabalho do Governo, obedecidos os princípios de unidade, universalidade e anualidade.",
+      "<strong>Art. 2º, § 1º.</strong> Integram a Lei de Orçamento: sumário geral da receita por fontes e da despesa por funções do Governo (I); quadro demonstrativo da receita e da despesa segundo as categorias econômicas, na forma do Anexo 1 (II); quadro discriminativo da receita por fontes e respectiva legislação (III); e quadro das dotações por órgãos do Governo e da administração (IV).",
+      "<strong>Art. 2º, § 2º.</strong> Acompanham a Lei de Orçamento: quadros demonstrativos da receita e planos de aplicação dos fundos especiais (I); quadros demonstrativos da despesa, na forma dos Anexos 6 a 9 (II); e quadro demonstrativo do programa anual de trabalho, em termos de obras e de serviços (III).",
+      "<strong>Art. 3º.</strong> A Lei de Orçamento compreende todas as receitas, inclusive as de operações de crédito autorizadas em lei. Pelo parágrafo único, não entram para esse fim as operações de crédito por antecipação da receita, as emissões de papel-moeda e outras entradas compensatórias no ativo e passivo financeiros; esse parágrafo foi vetado e o veto, rejeitado pelo Congresso em 1964.",
+      "<strong>Art. 4º.</strong> A Lei de Orçamento compreende todas as despesas próprias dos órgãos do Governo e da administração centralizada, ou que por intermédio deles se devam realizar.",
+      "<strong>Art. 5º.</strong> A Lei de Orçamento não consigna dotações globais para atender indiferentemente a pessoal, material, serviços de terceiros, transferências ou quaisquer outras despesas, ressalvado o art. 20 e seu parágrafo único (programas especiais de trabalho).",
+      "<strong>Art. 6º, caput e §§ 1º e 2º.</strong> Receitas e despesas constam pelos seus totais, vedadas quaisquer deduções. A cota de receita que uma entidade pública deva transferir a outra entra como despesa no orçamento de quem transfere e como receita no de quem recebe (§ 1º). O cálculo das cotas usa os dados do balanço do exercício anterior àquele em que se elabora a proposta do governo obrigado à transferência (§ 2º, vetado e mantido pelo Congresso).",
+      "<strong>Art. 7º, caput.</strong> A Lei de Orçamento pode autorizar o Executivo a abrir créditos suplementares até determinada importância, obedecido o art. 43, expressão vetada e mantida pelo Congresso (I), e a realizar em qualquer mês do exercício operações de crédito por antecipação da receita, para atender a insuficiências de caixa (II).",
+      "<strong>Art. 7º, §§ 1º a 3º.</strong> Em caso de déficit, a Lei de Orçamento indica as fontes de recursos que o Executivo pode usar para cobri-lo (§ 1º). O produto estimado de operações de crédito e de alienação de bens imóveis só se inclui na receita quando especificamente autorizado pelo Legislativo de forma que juridicamente permita ao Executivo realizá-lo no exercício (§ 2º). Para operações de crédito, essa autorização pode constar da própria Lei de Orçamento (§ 3º).",
+      "<strong>Art. 15, caput e §§ 1º e 2º.</strong> Na Lei de Orçamento, a despesa é discriminada no mínimo por elementos (a expressão \"no mínimo\" foi vetada e mantida pelo Congresso). Elementos são o desdobramento da despesa com pessoal, material, serviços, obras e outros meios de que se serve a administração (§ 1º, vetado e mantido). Para classificar a despesa, material permanente é o de duração superior a dois anos (§ 2º).",
+      "<strong>Art. 22, caput.</strong> A proposta que o Executivo encaminha ao Legislativo, nos prazos das Constituições e das Leis Orgânicas dos Municípios, compõe-se de: mensagem, com exposição da situação econômico-financeira, documentada com a dívida fundada e flutuante, saldos de créditos especiais, restos a pagar e outros compromissos exigíveis, e com a justificação da política econômico-financeira, da receita e da despesa, sobretudo do orçamento de capital (I); projeto de Lei de Orçamento (II); tabelas explicativas (III); e especificação dos programas especiais de trabalho custeados por dotações globais, com metas, custo estimado das obras e serviços e justificação econômica, financeira, social e administrativa (IV).",
+      "<strong>Art. 22, III, alíneas.</strong> Além das estimativas, as tabelas explicativas trazem, em colunas distintas: a receita arrecadada nos três últimos exercícios anteriores ao da elaboração da proposta (a); a receita prevista para o exercício em que se elabora a proposta (b) e para o exercício a que ela se refere (c); a despesa realizada no exercício imediatamente anterior (d); a despesa fixada para o exercício em que se elabora a proposta (e); e a despesa prevista para o exercício a que ela se refere (f).",
+      "<strong>Art. 22, parágrafo único.</strong> A proposta traz, para cada unidade administrativa, descrição sucinta de suas principais finalidades, com a legislação correspondente.",
+      "<strong>Art. 32.</strong> Se não receber a proposta no prazo das Constituições ou das Leis Orgânicas dos Municípios, o Legislativo considera como proposta a Lei de Orçamento vigente.",
+      "<strong>Art. 33.</strong> Não se admitem emendas ao projeto de Lei de Orçamento que visem a: alterar a dotação pedida para despesa de custeio, salvo se provada a inexatidão da proposta nesse ponto (a); dar dotação para início de obra cujo projeto não esteja aprovado pelos órgãos competentes (b); dar dotação para instalação ou funcionamento de serviço não criado antes (c); ou dar dotação acima dos quantitativos fixados em resolução do Legislativo para auxílios e subvenções (d).",
+      "<strong>Art. 34.</strong> O exercício financeiro coincide com o ano civil.",
+      "<strong>Art. 38.</strong> A importância de despesa anulada no exercício reverte à dotação; anulada depois do encerramento, é receita do ano em que a anulação se efetivar.",
+      "<strong>Art. 58.</strong> O empenho é o ato de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição; a expressão \"ou não\" foi vetada e mantida pelo Congresso.",
+      "<strong>Art. 59, caput e §§ 1º a 4º</strong> (redação da Lei 6.397/1976). O empenho não pode exceder o limite dos créditos concedidos. Ressalvado o art. 67 da Constituição então vigente, o Município não pode empenhar, no último mês do mandato do Prefeito, mais que o duodécimo da despesa prevista no orçamento vigente (§ 1º), nem assumir, no mesmo período, compromissos financeiros para execução depois do fim do mandato (§ 2º). Essas vedações não se aplicam à calamidade pública comprovada (§ 3º). Empenhos e atos contrários aos §§ 1º e 2º são nulos, sem prejuízo da responsabilidade do Prefeito pelo Decreto-Lei 201/1967, art. 1º, V (§ 4º).",
+      "<strong>Art. 60, caput e §§ 1º a 3º.</strong> É vedada a despesa sem prévio empenho. A legislação específica pode, em casos especiais, dispensar a emissão da nota de empenho (§ 1º). Faz-se por estimativa o empenho da despesa cujo montante não se possa determinar (§ 2º), e admite-se empenho global de despesas contratuais e outras sujeitas a parcelamento (§ 3º).",
+      "<strong>Art. 61.</strong> De cada empenho se extrai a nota de empenho, que indica o nome do credor, a especificação e a importância da despesa e a dedução desta do saldo da dotação própria.",
+      "<strong>Art. 62.</strong> O pagamento da despesa só é efetuado quando ordenado após sua regular liquidação.",
+      "<strong>Art. 63, caput e § 1º.</strong> A liquidação verifica o direito adquirido pelo credor com base nos títulos e documentos comprobatórios do crédito, para apurar a origem e o objeto do que se deve pagar (I), a importância exata a pagar (II) e a quem se deve pagar para extinguir a obrigação (III).",
+      "<strong>Art. 63, § 2º.</strong> A liquidação por fornecimentos feitos ou serviços prestados tem por base o contrato, ajuste ou acordo (I), a nota de empenho (II) e os comprovantes da entrega do material ou da prestação efetiva do serviço (III).",
+      "<strong>Art. 64.</strong> A ordem de pagamento é o despacho de autoridade competente que determina o pagamento da despesa. Pelo parágrafo único, vetado e mantido pelo Congresso, ela só pode ser exarada em documentos processados pelos serviços de contabilidade.",
+      "<strong>Art. 66.</strong> As dotações das unidades orçamentárias podem ser movimentadas por órgãos centrais de administração geral, quando a Lei de Orçamento o determinar expressamente. Pelo parágrafo único, admite-se redistribuir parcelas das dotações de pessoal entre unidades orçamentárias quando indispensável à movimentação de pessoal em quadros comuns, na forma da legislação específica.",
+      "<strong>Art. 67.</strong> Os pagamentos devidos pela Fazenda Pública por sentença judiciária seguem a ordem de apresentação dos precatórios, à conta dos créditos respectivos, proibida a designação de casos ou de pessoas nas dotações e nos créditos adicionais abertos para esse fim.",
+      "<strong>Art. 70.</strong> A aquisição de material e o fornecimento e a adjudicação de obras e serviços são regulados em lei, respeitado o princípio da concorrência.",
+      "<strong>Art. 71.</strong> Fundo especial é o produto de receitas especificadas que, por lei, se vinculam à realização de determinados objetivos ou serviços, facultadas normas peculiares de aplicação.",
+      "<strong>Art. 72.</strong> As receitas orçamentárias vinculadas a fundos especiais são aplicadas por dotação consignada na Lei de Orçamento ou em créditos adicionais.",
+      "<strong>Art. 73.</strong> Salvo determinação em contrário da lei instituidora, o saldo positivo do fundo especial apurado em balanço passa ao exercício seguinte, a crédito do mesmo fundo.",
+      "<strong>Art. 74.</strong> A lei que instituir fundo especial pode fixar normas peculiares de controle, prestação e tomada de contas, sem elidir a competência específica do Tribunal de Contas ou órgão equivalente."
+     ],
+     "literalidades": [
+      {
+       "trecho": "obedecidos os princípios de unidade, universalidade e anualidade",
+       "marcas": [
+        "anualidade"
+       ],
+       "afirmacao": "A Lei 4.320 manda que a Lei do Orçamento obedeça aos princípios de unidade, universalidade e exclusividade.",
+       "gabarito": "E",
+       "porque": "O art. 2º cita anualidade; a exclusividade está no art. 165, § 8º, da Constituição."
+      },
+      {
+       "trecho": "incluir-se-ão, como despesa, no orçamento da entidade obrigada à transferência e, como receita, no orçamento da que as deva receber",
+       "marcas": [
+        "como despesa",
+        "como receita"
+       ],
+       "afirmacao": "A cota de receita que um ente deve transferir a outro entra apenas no orçamento de quem a recebe, para evitar dupla contagem.",
+       "gabarito": "E",
+       "porque": "Entra nos dois: despesa de quem transfere e receita de quem recebe (art. 6º, § 1º)."
+      },
+      {
+       "trecho": "Realizar em qualquer mês do exercício financeiro, operações de crédito por antecipação da receita",
+       "marcas": [
+        "em qualquer mês"
+       ],
+       "afirmacao": "Pela Lei 4.320, a lei de orçamento pode autorizar o Executivo a contratar, em qualquer mês do exercício, operações de crédito por antecipação da receita para cobrir insuficiências de caixa.",
+       "gabarito": "C",
+       "porque": "É o art. 7º, II; a LRF depois restringiu o período (art. 38)."
+      },
+      {
+       "trecho": "considera-se material permanente o de duração superior a dois anos",
+       "marcas": [
+        "dois anos"
+       ],
+       "afirmacao": "Para classificar a despesa, a Lei 4.320 considera material permanente o de duração superior a um ano.",
+       "gabarito": "E",
+       "porque": "O prazo é de dois anos (art. 15, § 2º)."
+      },
+      {
+       "trecho": "o Poder Legislativo considerará como proposta a Lei de Orçamento vigente",
+       "marcas": [
+        "Lei de Orçamento vigente"
+       ],
+       "afirmacao": "Se a proposta orçamentária não for recebida no prazo, o Legislativo considera como proposta a Lei de Orçamento vigente.",
+       "gabarito": "C",
+       "porque": "É o art. 32."
+      },
+      {
+       "trecho": "O exercício financeiro coincidirá com o ano civil.",
+       "marcas": [
+        "ano civil"
+       ],
+       "afirmacao": "Pela Lei 4.320, o exercício financeiro coincide com o ano civil.",
+       "gabarito": "C",
+       "porque": "É o art. 34."
+      },
+      {
+       "trecho": "quando a anulação ocorrer após o encerramento deste considerar-se-á receita do ano em que se efetivar",
+       "marcas": [
+        "receita do ano em que se efetivar"
+       ],
+       "afirmacao": "A importância de despesa anulada depois de encerrado o exercício reverte à dotação de origem.",
+       "gabarito": "E",
+       "porque": "Depois do encerramento, a anulação gera receita do ano em que se efetiva; só a anulação no próprio exercício reverte à dotação (art. 38)."
+      },
+      {
+       "trecho": "cria para o Estado obrigação de pagamento pendente ou não de implemento de condição",
+       "marcas": [
+        "obrigação de pagamento"
+       ],
+       "afirmacao": "O empenho é o ato de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição.",
+       "gabarito": "C",
+       "porque": "É a definição do art. 58."
+      },
+      {
+       "trecho": "no último mês do mandato do Prefeito, mais do que o duodécimo da despesa prevista",
+       "marcas": [
+        "último mês",
+        "duodécimo"
+       ],
+       "afirmacao": "É vedado ao Município empenhar, no último mês do mandato do Prefeito, mais do que o duodécimo da despesa prevista no orçamento vigente, salvo calamidade pública comprovada.",
+       "gabarito": "C",
+       "porque": "É o art. 59, §§ 1º e 3º."
+      },
+      {
+       "trecho": "É vedada a realização de despesa sem prévio empenho.",
+       "marcas": [
+        "sem prévio empenho"
+       ],
+       "afirmacao": "A Lei 4.320 veda a realização de despesa sem prévio empenho, ainda que a legislação dispense a emissão da nota de empenho.",
+       "gabarito": "C",
+       "porque": "O art. 60 proíbe a despesa sem empenho; o § 1º admite dispensar apenas a nota."
+      },
+      {
+       "trecho": "Será feito por estimativa o empenho da despesa cujo montante não se possa determinar.",
+       "marcas": [
+        "por estimativa"
+       ],
+       "afirmacao": "O empenho da despesa cujo montante não se possa determinar é feito na modalidade global.",
+       "gabarito": "E",
+       "porque": "É feito por estimativa (art. 60, § 2º); o global é para despesas contratuais e parceladas (§ 3º)."
+      },
+      {
+       "trecho": "O pagamento da despesa só será efetuado quando ordenado após sua regular liquidação.",
+       "marcas": [
+        "após sua regular liquidação"
+       ],
+       "afirmacao": "A ordem de pagamento pode ser dada logo depois do empenho, deixando a liquidação para depois da quitação.",
+       "gabarito": "E",
+       "porque": "O pagamento só é ordenado após a regular liquidação (art. 62)."
+      },
+      {
+       "trecho": "o saldo positivo do fundo especial apurado em balanço será transferido para o exercício seguinte, a crédito do mesmo fundo",
+       "marcas": [
+        "a crédito do mesmo fundo"
+       ],
+       "afirmacao": "Salvo disposição em contrário da lei instituidora, o saldo positivo do fundo especial apurado em balanço passa ao exercício seguinte, a crédito do mesmo fundo.",
+       "gabarito": "C",
+       "porque": "É o art. 73."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "0fed56ee1ea4",
+      "Art. 2º.": "a12affc3d6a6",
+      "Art. 3º.": "eac17c73d025",
+      "Art. 4º.": "82afb9a9b045",
+      "Art. 5º.": "208b7cffa1e8",
+      "Art. 6º.": "522157bab8da",
+      "Art. 7º.": "b031e5b172f4",
+      "Art. 15.": "90afb1b00466",
+      "Art. 22.": "b1a79f2bdd49",
+      "Art. 32.": "98a3a2cf6ec4",
+      "Art. 33.": "7a4df75ec78a",
+      "Art. 34.": "52cb92673153",
+      "Art. 38.": "ccf9815301a8",
+      "Art. 58.": "fed572fb4a09",
+      "Art. 59.": "ae5acb82bd1e",
+      "Art. 60.": "afbfe343b10c",
+      "Art. 61.": "8ed1d64f55b0",
+      "Art. 62.": "442a2a154eca",
+      "Art. 63.": "d675485d8f95",
+      "Art. 64.": "65e882efe5fe",
+      "Art. 66.": "5c60ae8eb91f",
+      "Art. 67.": "6e5ff660bea6",
+      "Art. 70.": "45108dd5ba3b",
+      "Art. 71.": "01d7295a5320",
+      "Art. 72.": "16308402585a",
+      "Art. 73.": "f07fc502beae",
+      "Art. 74.": "04a0c7f50d68"
+     },
+     "fonte": "Lei 4.320/1964 (normas gerais de direito financeiro), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Vários dispositivos da lei foram vetados em 1964 e mantidos pelo Congresso, e por isso estão em vigor, como o parágrafo único do art. 3º, que tira a ARO da receita orçamentária.",
+    "O art. 35, que define o que pertence ao exercício, rege a execução do orçamento; a contabilidade patrimonial atual registra receitas e despesas pela competência."
+   ],
    "macetes": [
     {
      "sigla": "Receita arrecada, despesa empenha",
@@ -5970,15 +7039,32 @@
     }
    ],
    "pegadinha": {
-    "afirmacao": "Segundo a Lei nº 4.320/1964, as operações de crédito por antecipação da receita integram a receita orçamentária, em respeito ao princípio da universalidade.",
+    "afirmacao": "Segundo a Lei 4.320/1964, as operações de crédito por antecipação da receita integram a receita orçamentária, em respeito ao princípio da universalidade.",
     "gabarito": "E",
-    "explicacao": "A própria lei exclui da receita orçamentária as operações de crédito por antecipação da receita, as emissões de papel-moeda e as entradas compensatórias no ativo e passivo financeiros (art. 3º, parágrafo único). Elas são receitas extraorçamentárias."
+    "explicacao": "A ARO cobre falta momentânea de caixa e é devolvida no mesmo exercício; por isso a lei a deixa fora da receita orçamentária, junto com a emissão de papel-moeda e as entradas compensatórias (art. 3º, parágrafo único). É receita extraorçamentária."
    },
-   "aprofundamento": "<p><strong>Recepção como lei complementar.</strong> A Lei nº 4.320/1964 continua em vigor e, por tratar de matéria que a Constituição reserva à lei complementar, só pode ser alterada por lei complementar. A LRF não a revogou: as duas convivem, e a LRF prevalece onde dispõe de modo diverso.</p><p><strong>Operação de crédito na receita.</strong> O produto estimado de operações de crédito e de alienação de bens imóveis só entra na receita quando especificamente autorizado pelo Legislativo, e essa autorização para operações de crédito pode constar da própria lei de orçamento (art. 7º, §§ 2º e 3º).</p><p><strong>ARO depois da LRF.</strong> O art. 7º, II, da Lei nº 4.320/1964 permite que a lei de orçamento autorize operações de crédito por antecipação da receita em qualquer mês do exercício. A LRF restringiu essas operações (art. 38): só a partir do décimo dia do início do exercício, com liquidação até o dia 10 de dezembro, e proibidas enquanto houver operação anterior não resgatada e no último ano de mandato do chefe do Executivo.</p><p><strong>Exclusividade não está no art. 2º.</strong> O art. 2º cita unidade, universalidade e anualidade. A exclusividade, que impede a lei orçamentária de conter dispositivo estranho à previsão da receita e à fixação da despesa, está na Constituição (art. 165, § 8º).</p><p><strong>Déficit.</strong> Em caso de déficit, a lei de orçamento indica as fontes de recursos que o Executivo pode usar para cobri-lo (art. 7º, § 1º).</p><p><strong>Material permanente.</strong> Para classificar a despesa, considera-se material permanente o de duração superior a dois anos (art. 15, § 2º).</p><p><strong>Fundos especiais.</strong> A aplicação das receitas vinculadas a fundo especial se faz por dotação consignada na lei de orçamento ou em créditos adicionais (art. 72). A lei que institui o fundo pode criar normas peculiares de controle e prestação de contas, mas não afasta a competência do Tribunal de Contas (art. 74).</p><p><strong>Proposta orçamentária.</strong> A proposta do Executivo se compõe de mensagem, projeto de lei de orçamento, tabelas explicativas e especificação dos programas especiais de trabalho (art. 22). As tabelas comparam a receita arrecadada nos três últimos exercícios com a prevista e a despesa realizada no exercício imediatamente anterior com a fixada e a prevista.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Pertencem ao exercício as receitas nele lançadas e as despesas nele legalmente empenhadas.",
+     "certo": "Pertencem ao exercício as receitas nele arrecadadas; o lançamento não basta (art. 35, I).",
+     "fonte": "Questões do app sobre o regime do exercício"
+    },
+    {
+     "errado": "A lei de orçamento pode autorizar a abertura de créditos especiais até determinada importância.",
+     "certo": "Pode autorizar só créditos suplementares (art. 7º, I); o especial depende de lei própria.",
+     "fonte": "Questões do app sobre as autorizações da lei de orçamento"
+    },
+    {
+     "errado": "A liquidação é o estágio em que se reserva a dotação em nome do credor.",
+     "certo": "Reservar a dotação é efeito do empenho; a liquidação verifica o direito do credor à vista dos documentos (art. 63).",
+     "fonte": "Questões do app sobre os estágios da despesa"
+    }
+   ],
    "relacionados": [
+    "principios-orcamentarios",
+    "creditos-ordinarios-e-adicionais",
     "lei-4320-controle-contabilidade-e-balancos",
-    "siafi-sistema-integrado-de-administracao-financeira"
+    "lrf-planejamento-receita-e-despesa"
    ]
   },
   {
@@ -6010,12 +7096,76 @@
     "ativo permanente",
     "contas de compensacao"
    ],
-   "resumo": "O controle da execução orçamentária, pela Lei nº 4.320/1964, compreende três objetos (art. 75): a <strong>legalidade</strong> dos atos de que resultem a arrecadação da receita ou a realização da despesa; a <strong>fidelidade funcional</strong> dos agentes responsáveis por bens e valores públicos; e o <strong>cumprimento do programa de trabalho</strong>, expresso em termos monetários e em termos de obras e serviços. O Poder Executivo exerce os três tipos de controle, sem prejuízo das atribuições do Tribunal de Contas (art. 76). A verificação da legalidade é prévia, concomitante e subsequente (art. 77). O controle externo, pelo Legislativo, verifica a probidade da administração, a guarda e o legal emprego dos dinheiros públicos e o cumprimento da Lei de Orçamento (art. 81). As contas anuais do Executivo vão ao Legislativo com parecer prévio do Tribunal de Contas (art. 82). A escrituração sintética das operações financeiras e patrimoniais se faz pelo método das partidas dobradas (art. 86). Os resultados do exercício são demonstrados em quatro peças (art. 101): o <strong>Balanço Orçamentário</strong> confronta receitas e despesas previstas com as realizadas; o <strong>Balanço Financeiro</strong> mostra a receita e a despesa orçamentárias e os recebimentos e pagamentos extraorçamentários, com os saldos em espécie do exercício anterior e os que passam ao seguinte; o <strong>Balanço Patrimonial</strong> mostra ativo e passivo financeiros e permanentes, saldo patrimonial e contas de compensação; e a <strong>Demonstração das Variações Patrimoniais</strong> evidencia as alterações do patrimônio, resultantes ou independentes da execução orçamentária, e indica o resultado patrimonial.",
+   "para_entender": [
+    {
+     "texto": "<strong>Controle interno e externo:</strong> o interno é feito pelo próprio Poder sobre seus atos; o externo, pelo Legislativo com o auxílio do Tribunal de Contas.",
+     "tema": "acompanhamento-e-controle-da-execucao"
+    },
+    {
+     "texto": "<strong>Restos a pagar:</strong> despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se as processadas das não processadas.",
+     "tema": "restos-a-pagar"
+    },
+    {
+     "texto": "<strong>Dívida fundada:</strong> compromissos de exigibilidade superior a doze meses, que dependem de autorização legislativa para amortização.",
+     "tema": "dividas-flutuante-e-fundada"
+    }
+   ],
+   "resumo": "Os Títulos VIII e IX da Lei 4.320/1964 cuidam do que vem depois de aprovado o orçamento: controlar a execução e registrá-la. O <strong>controle</strong> olha três coisas: a legalidade dos atos de receita e despesa, a fidelidade dos agentes que guardam bens e valores públicos e o cumprimento do programa de trabalho. Faz esse controle o próprio Executivo, no <strong>controle interno</strong>, e o Legislativo com o Tribunal de Contas, no <strong>controle externo</strong>; os arts. 75 a 82 estão detalhados no tema de acompanhamento e controle da execução. A <strong>contabilidade</strong> deve mostrar à Fazenda a situação de todos que arrecadem receitas, façam despesas ou guardem bens públicos (art. 83), e registra em separado os fatos orçamentários, financeiros e patrimoniais. Usa o método das <strong>partidas dobradas</strong>, em que cada débito tem um crédito de igual valor (art. 86). No fim do exercício, os resultados saem em quatro demonstrações, comparadas no esquema. Para ler o Balanço Patrimonial, a régua é a autorização. É <strong>financeiro</strong> o que se movimenta sem precisar de autorização orçamentária, como o dinheiro em caixa e os restos a pagar. É <strong>permanente</strong> o que só se aliena ou amortiza com autorização legislativa, como os imóveis e a dívida fundada. As normas atuais de contabilidade do setor público mantêm essas peças e acrescentam outras, assunto de Contabilidade Pública.",
    "esquema": {
     "rotulo": "as quatro demonstrações da Lei nº 4.320/1964",
     "html": "<table><thead><tr><th>Demonstração</th><th>O que evidencia</th><th>Detalhe que a banca troca</th></tr></thead><tbody><tr><td><strong>Balanço Orçamentário (art. 102)</strong></td><td>receitas e despesas previstas em confronto com as realizadas</td><td>não traz saldos em espécie nem extraorçamentários</td></tr><tr><td><strong>Balanço Financeiro (art. 103)</strong></td><td>receita e despesa orçamentárias, recebimentos e pagamentos extraorçamentários e saldos em espécie</td><td>restos a pagar inscritos entram como receita extraorçamentária para compensar a despesa empenhada e não paga</td></tr><tr><td><strong>Balanço Patrimonial (art. 105)</strong></td><td>ativo e passivo financeiros, ativo e passivo permanentes, saldo patrimonial e compensação</td><td>o critério é depender ou não de autorização legislativa ou orçamentária</td></tr><tr><td><strong>Demonstração das Variações Patrimoniais (art. 104)</strong></td><td>alterações do patrimônio, resultantes ou independentes da execução orçamentária</td><td>indica o resultado patrimonial do exercício</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Município sem Tribunal de Contas",
+      "o_que_e": "A Câmara de Vereadores pode designar peritos contadores para verificar as contas do prefeito e emitir parecer (art. 82, § 2º).",
+      "atencao": "A regra geral é o parecer prévio do Tribunal de Contas.",
+      "grupo": "Controle"
+     },
+     {
+      "nome": "Tomada de contas a qualquer tempo",
+      "o_que_e": "Além da anual e da de fim de gestão, pode haver levantamento, prestação ou tomada de contas dos responsáveis por bens ou valores a qualquer momento (art. 78).",
+      "grupo": "Controle"
+     },
+     {
+      "nome": "Programa de trabalho",
+      "o_que_e": "Controlado pelo órgão que elabora a proposta orçamentária ou por outro indicado em lei, em unidades de medida fixadas para cada atividade (art. 79).",
+      "grupo": "Controle"
+     },
+     {
+      "nome": "Contas de compensação",
+      "o_que_e": "Registram bens, valores, obrigações e situações que, de forma mediata ou indireta, possam afetar o patrimônio, como garantias dadas e contratos ainda por executar.",
+      "grupo": "Balanço Patrimonial"
+     },
+     {
+      "nome": "Passivo permanente",
+      "o_que_e": "Dívidas fundadas e outras cuja amortização ou resgate depende de autorização legislativa.",
+      "grupo": "Balanço Patrimonial"
+     },
+     {
+      "nome": "Avaliação",
+      "o_que_e": "Créditos e débitos pelo valor nominal, com câmbio da data do balanço para moeda estrangeira; bens pelo custo de aquisição, produção ou construção; almoxarifado pelo preço médio ponderado das compras (art. 106).",
+      "atencao": "Reavaliações são permitidas.",
+      "grupo": "Balanço Patrimonial"
+     },
+     {
+      "nome": "DFC e DMPL",
+      "o_que_e": "As normas de contabilidade do setor público acrescentaram a Demonstração dos Fluxos de Caixa e a das Mutações do Patrimônio Líquido às quatro da lei.",
+      "grupo": "Demonstrações atuais"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [],
+   "detalhes": [
+    "O Balanço Financeiro fecha com os saldos em espécie: o que veio do exercício anterior mais o que entrou, menos o que saiu, dá o que passa ao seguinte."
+   ],
    "macetes": [
     {
      "sigla": "Controle tem três tempos",
@@ -6035,11 +7185,23 @@
     "gabarito": "E",
     "explicacao": "O item descreveu o Balanço Financeiro (art. 103). O Balanço Orçamentário apenas confronta as receitas e despesas previstas com as realizadas (art. 102)."
    },
-   "aprofundamento": "<p><strong>Quem controla o programa de trabalho.</strong> O controle do cumprimento do programa de trabalho cabe ao órgão incumbido da elaboração da proposta orçamentária ou a outro indicado na legislação, e se faz, quando for o caso, em unidades de medida previamente estabelecidas para cada atividade (art. 79).</p><p><strong>Município sem Tribunal de Contas.</strong> Quando não houver Tribunal de Contas ou órgão equivalente, a Câmara de Vereadores pode designar peritos contadores para verificar as contas do prefeito e emitir parecer (art. 82, § 2º).</p><p><strong>Tomada de contas a qualquer tempo.</strong> Além da prestação ou tomada de contas anual ou por fim de gestão, pode haver, a qualquer tempo, levantamento, prestação ou tomada de contas de todos os responsáveis por bens ou valores públicos (art. 78).</p><p><strong>Contas de compensação.</strong> Registram bens, valores, obrigações e situações que, mediata ou indiretamente, possam vir a afetar o patrimônio, como garantias e contratos ainda não executados (art. 105, § 5º).</p><p><strong>Passivo permanente.</strong> Compreende as dívidas fundadas e outras que dependam de autorização legislativa para amortização ou resgate (art. 105, § 4º).</p><p><strong>Avaliação dos elementos patrimoniais.</strong> Débitos, créditos e títulos de renda pelo valor nominal, com conversão da moeda estrangeira à taxa de câmbio da data do balanço; bens móveis e imóveis pelo valor de aquisição ou pelo custo de produção ou construção; bens de almoxarifado pelo preço médio ponderado das compras; e reavaliações são permitidas (art. 106).</p><p><strong>Demonstrações atuais.</strong> Além das quatro peças da lei, as normas de contabilidade aplicadas ao setor público e o Manual de Contabilidade Aplicada ao Setor Público acrescentaram a Demonstração dos Fluxos de Caixa e a Demonstração das Mutações do Patrimônio Líquido.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O Executivo verifica a legalidade só antes e depois do ato, e o acompanhamento concomitante cabe apenas ao Tribunal de Contas.",
+     "certo": "A verificação é prévia, concomitante e subsequente, e o Executivo exerce os três tipos de controle (arts. 76 e 77).",
+     "fonte": "Questões do app sobre o controle da execução"
+    },
+    {
+     "errado": "Ativo financeiro é o conjunto de bens e valores cuja alienação depende de autorização legislativa.",
+     "certo": "Isso é o ativo permanente; o financeiro se realiza sem depender de autorização orçamentária (art. 105, §§ 1º e 2º).",
+     "fonte": "Questões do app sobre o Balanço Patrimonial"
+    }
+   ],
    "relacionados": [
-    "lei-4320-normas-gerais-do-orcamento",
-    "fluxo-de-caixa-elaboracao-projecao-e-analise"
+    "acompanhamento-e-controle-da-execucao",
+    "restos-a-pagar",
+    "dividas-flutuante-e-fundada",
+    "lei-4320-normas-gerais-do-orcamento"
    ]
   },
   {
@@ -6050,7 +7212,13 @@
    "tax": [
     "financas-publicas.siafi"
    ],
-   "dispositivos": [],
+   "dispositivos": [
+    "n10180-2001-art-9",
+    "n10180-2001-art-10",
+    "n10180-2001-art-11",
+    "n10180-2001-art-12",
+    "n10180-2001-art-13"
+   ],
    "conceitos": [
     "SIAFI",
     "Conta Única do Tesouro",
@@ -6073,14 +7241,128 @@
     "uso parcial",
     "siafic",
     "sistema unico",
-    "decreto 10.540/2020"
+    "decreto 10 540 2020"
    ],
-   "resumo": "O <strong>SIAFI</strong> é o sistema informatizado que processa e controla, em tempo real, a execução orçamentária, financeira, patrimonial e contábil do Governo Federal. Entrou em produção em 1987, desenvolvido pelo Serpro sob concepção e gestão da Secretaria do Tesouro Nacional, criada em 1986. A STN é o órgão central do Sistema de Administração Financeira Federal (Lei nº 10.180/2001, art. 11), e esse sistema visa ao equilíbrio financeiro do Governo Federal, dentro dos limites da receita e despesa públicas (art. 9º). Antes do SIAFI, cada órgão mantinha contas bancárias próprias e a contabilidade chegava com meses de atraso. O sistema unificou o caixa: a <strong>Conta Única do Tesouro Nacional</strong> é mantida no Banco Central e movimentada por meio do Banco do Brasil, agente financeiro do Tesouro. As unidades gestoras não têm dinheiro em conta própria: têm limites de saque contra a Conta Única. A célula básica é a <strong>unidade gestora</strong> (UG), que executa crédito orçamentário e recursos financeiros. Cada fato é registrado por documento padronizado: a nota de empenho registra o empenho da despesa em nome do credor; a ordem bancária registra o pagamento; a nota de crédito registra a descentralização de crédito orçamentário; a programação financeira registra a liberação de cota, repasse e sub-repasse; a nota de lançamento registra fatos contábeis. Cada lançamento gera automaticamente os registros contábeis por meio de eventos, pelo método das partidas dobradas. Entre os objetivos do sistema estão padronizar procedimentos, dar transparência aos gastos, servir de mecanismo de registro e controle diário e integrar as informações dos órgãos.",
+   "para_entender": [
+    {
+     "texto": "<strong>Cota, repasse e sub-repasse:</strong> formas de liberar recursos financeiros entre órgãos e unidades, ao lado da provisão e do destaque, que descentralizam crédito orçamentário.",
+     "tema": "descentralizacao-orcamentaria-e-financeira"
+    },
+    {
+     "texto": "<strong>Sistema de Planejamento e de Orçamento Federal:</strong> outro sistema da Lei 10.180/2001, com órgão central próprio, que cuida do PPA e dos orçamentos.",
+     "tema": "sistema-de-planejamento-e-orcamento"
+    }
+   ],
+   "resumo": "O <strong>SIAFI</strong> é o sistema informatizado que registra e controla, em tempo real, a execução orçamentária, financeira, patrimonial e contábil do Governo Federal. Funciona desde 1987, desenvolvido pelo Serpro e gerido pela Secretaria do Tesouro Nacional (STN). A STN é o <strong>órgão central</strong> do Sistema de Administração Financeira Federal, que a Lei 10.180/2001 organiza para buscar o equilíbrio financeiro do Governo Federal; os <strong>órgãos setoriais</strong> cuidam da programação financeira em cada Ministério e em alguns órgãos da Presidência. Antes do SIAFI, cada órgão tinha contas bancárias próprias e a contabilidade chegava com meses de atraso. O sistema trouxe a <strong>Conta Única do Tesouro Nacional</strong>, mantida no Banco Central e movimentada pelo Banco do Brasil como agente financeiro: os órgãos não têm saldo bancário, e sim limite de saque contra essa conta. Quem opera é a <strong>unidade gestora</strong> (UG), a unidade que executa créditos orçamentários e recursos financeiros. Cada fato entra por um documento padronizado, listado no esquema. Cada lançamento gera automaticamente os registros contábeis por meio de <strong>eventos</strong>, códigos ligados ao documento que aplicam o método das partidas dobradas. Assim, a contabilidade da União sai pronta do próprio registro da execução. O sistema é federal; Estados e Municípios mantêm os seus.",
    "esquema": {
     "rotulo": "documentos do SIAFI e o fato que cada um registra",
     "html": "<table><thead><tr><th>Documento</th><th>Registra</th><th>Não confundir com</th></tr></thead><tbody><tr><td><strong>Nota de empenho (NE)</strong></td><td>o empenho, que reserva a dotação em nome de credor específico</td><td>o pagamento, que é feito por ordem bancária</td></tr><tr><td><strong>Nota de crédito (NC)</strong></td><td>descentralização de crédito orçamentário (provisão e destaque)</td><td>a descentralização de recursos financeiros, que é programação financeira</td></tr><tr><td><strong>Programação financeira (PF)</strong></td><td>cota, repasse e sub-repasse de recursos financeiros</td><td>crédito orçamentário</td></tr><tr><td><strong>Ordem bancária (OB)</strong></td><td>pagamento ao credor, saque contra a Conta Única</td><td>o empenho</td></tr><tr><td><strong>Nota de lançamento (NL)</strong></td><td>fatos contábeis em geral, como a liquidação e apropriações</td><td>o empenho, que tem documento próprio</td></tr><tr><td><strong>GRU e DARF</strong></td><td>recolhimento de receitas à Conta Única</td><td>pagamento de despesa</td></tr></tbody></table>"
    },
-   "lei": [],
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Para que serve",
+      "o_que_e": "Padronizar procedimentos, dar transparência aos gastos, servir de registro e controle diário e integrar as informações dos órgãos.",
+      "grupo": "Objetivos"
+     },
+     {
+      "nome": "Uso total",
+      "o_que_e": "O órgão usa todas as funcionalidades, inclusive contabilidade completa e movimentação pela Conta Única.",
+      "grupo": "Uso e consulta"
+     },
+     {
+      "nome": "Uso parcial",
+      "o_que_e": "O órgão, em regra estatal com sistema próprio, usa só algumas transações, para registrar a execução das dotações do orçamento federal que recebe.",
+      "grupo": "Uso e consulta"
+     },
+     {
+      "nome": "SIAFI Operacional",
+      "o_que_e": "Onde se fazem os registros de execução, como empenho e ordem bancária.",
+      "grupo": "Uso e consulta"
+     },
+     {
+      "nome": "Tesouro Gerencial",
+      "o_que_e": "Ferramenta de consulta e extração de dados para relatórios; nada se executa nela.",
+      "atencao": "Substituiu o antigo SIAFI Gerencial.",
+      "grupo": "Uso e consulta"
+     },
+     {
+      "nome": "Conformidade de registro de gestão",
+      "o_que_e": "Confere se os registros estão amparados em documentação hábil; feita por servidor designado que, em regra, não é o ordenador de despesa nem o emitente dos documentos.",
+      "atencao": "Preserva a segregação de funções.",
+      "grupo": "Conformidades"
+     },
+     {
+      "nome": "Conformidade contábil",
+      "o_que_e": "Feita pelo contador responsável; certifica que as demonstrações geradas pelo sistema seguem as normas e refletem a situação real.",
+      "grupo": "Conformidades"
+     },
+     {
+      "nome": "SIAFIC",
+      "o_que_e": "Sistema único e integrado de execução orçamentária, administração financeira e controle, um por ente, mantido pelo Executivo para todos os Poderes (LRF, art. 48, § 6º), com padrão mínimo no Decreto 10.540/2020.",
+      "atencao": "O SIAFI não é obrigatório para Estados e Municípios.",
+      "grupo": "Outros entes"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n10180-2001",
+     "artigos": [
+      "Art. 9º.",
+      "Art. 10.",
+      "Art. 11.",
+      "Art. 12.",
+      "Art. 13."
+     ],
+     "ref": "arts. 9º a 13 da Lei 10.180/2001",
+     "regras": [
+      "<strong>Art. 9º.</strong> O Sistema de Administração Financeira Federal visa ao equilíbrio financeiro do Governo Federal, dentro dos limites da receita e despesa públicas.",
+      "<strong>Art. 10.</strong> O Sistema compreende a programação financeira da União, a administração de direitos e haveres, garantias e obrigações de responsabilidade do Tesouro Nacional e a orientação técnico-normativa da execução orçamentária e financeira.",
+      "<strong>Art. 11, caput e §§ 1º e 2º.</strong> Integram o Sistema a Secretaria do Tesouro Nacional, como órgão central (I), e os órgãos setoriais (II). Órgãos setoriais são as unidades de programação financeira dos Ministérios, da Advocacia-Geral da União, da Vice-Presidência e da Casa Civil da Presidência da República (§ 1º), sujeitos à orientação normativa e à supervisão técnica do órgão central, sem prejuízo da subordinação ao órgão em cuja estrutura estiverem (§ 2º).",
+      "<strong>Art. 12.</strong> Compete às unidades do Sistema: zelar pelo equilíbrio financeiro do Tesouro Nacional (I); administrar seus haveres financeiros e mobiliários (II); elaborar a programação financeira do Tesouro, gerenciar a Conta Única e subsidiar a política de financiamento da despesa pública (III); gerir a dívida pública mobiliária federal e a dívida externa de responsabilidade do Tesouro (IV); controlar a dívida de operações de crédito de responsabilidade direta e indireta do Tesouro (V); administrar as operações de crédito sob sua responsabilidade (VI); controlar os compromissos que onerem a União junto a entidades ou organismos internacionais (VII); editar normas sobre programação financeira e execução orçamentária e financeira e acompanhar, sistematizar e padronizar a execução da despesa (VIII); e promover a integração com os demais Poderes e esferas de governo em administração e programação financeira (IX).",
+      "<strong>Art. 13, caput e parágrafo único.</strong> Os representantes do Tesouro Nacional nos conselhos fiscais, ou órgãos equivalentes, das entidades da administração indireta controladas pela União subordinam-se tecnicamente à STN. Devem ser, de preferência, servidores da carreira Finanças e Controle que não estejam em exercício no controle interno do ministério ao qual a entidade se vincula."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a Secretaria do Tesouro Nacional, como órgão central",
+       "marcas": [
+        "Secretaria do Tesouro Nacional"
+       ],
+       "afirmacao": "Integram o Sistema de Administração Financeira Federal o Ministério do Planejamento, como órgão central, e os órgãos setoriais.",
+       "gabarito": "E",
+       "porque": "O órgão central é a Secretaria do Tesouro Nacional (art. 11, I); o planejamento chefia outro sistema."
+      },
+      {
+       "trecho": "elaborar a programação financeira do Tesouro Nacional, gerenciar a Conta Única do Tesouro Nacional",
+       "marcas": [
+        "gerenciar a Conta Única"
+       ],
+       "afirmacao": "Compete às unidades do Sistema de Administração Financeira Federal elaborar a programação financeira do Tesouro Nacional e gerenciar a Conta Única do Tesouro Nacional.",
+       "gabarito": "C",
+       "porque": "É o art. 12, III."
+      }
+     ],
+     "conferido": {
+      "Art. 9º.": "b516d42e5fd2",
+      "Art. 10.": "8c988620adc5",
+      "Art. 11.": "fd340f8745aa",
+      "Art. 12.": "0cd4af3343c3",
+      "Art. 13.": "7efc4d738e4e"
+     },
+     "fonte": "Lei 10.180/2001 (sistemas federais de planejamento, orçamento, administração financeira, contabilidade e controle interno), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2001/lei-10180-6-fevereiro-2001-368076-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "Liberou dotação, o documento é a nota de crédito; liberou dinheiro, é a programação financeira. A ordem bancária só aparece no pagamento ao credor."
+   ],
    "macetes": [
     {
      "sigla": "Crédito é NC, dinheiro é PF",
@@ -6100,10 +7382,27 @@
     "gabarito": "E",
     "explicacao": "A Conta Única é mantida no Banco Central do Brasil, como manda a Constituição para as disponibilidades de caixa da União (art. 164, § 3º). O Banco do Brasil atua apenas como agente financeiro que operacionaliza a movimentação."
    },
-   "aprofundamento": "<p><strong>Modalidades de uso.</strong> No uso total, o órgão usa o SIAFI com todas as funcionalidades, inclusive a contabilidade completa e a movimentação pela Conta Única. No uso parcial, o órgão (em regra empresa pública ou sociedade de economia mista) mantém sistema próprio e usa só algumas transações, para registrar a execução das dotações do orçamento federal que recebe.</p><p><strong>Conformidade de registro de gestão.</strong> É a verificação de que os registros dos atos e fatos de execução orçamentária, financeira e patrimonial estão amparados em documentação hábil. É feita por servidor designado, que, em regra, não pode ser o ordenador de despesa nem quem emitiu os documentos, o que preserva a segregação de funções.</p><p><strong>Conformidade contábil.</strong> É feita pelo contador responsável e certifica que as demonstrações contábeis geradas pelo sistema estão de acordo com as normas e refletem a situação orçamentária, financeira e patrimonial.</p><p><strong>Tesouro Gerencial.</strong> As consultas gerenciais sobre os dados do SIAFI são feitas pelo Tesouro Gerencial, que substituiu o antigo SIAFI Gerencial. O SIAFI Operacional continua sendo onde os registros são feitos.</p><p><strong>Competências do sistema de administração financeira.</strong> Cabe às unidades desse sistema elaborar a programação financeira do Tesouro Nacional, gerenciar a Conta Única e gerir a dívida pública mobiliária federal (Lei nº 10.180/2001, art. 12). Os órgãos setoriais são as unidades de programação financeira dos Ministérios e ficam sujeitos à orientação normativa do órgão central, sem prejuízo da subordinação ao órgão em que estão integrados (art. 11).</p><p><strong>Não confundir os sistemas.</strong> Na Lei nº 10.180/2001, o órgão central do Sistema de Planejamento e de Orçamento Federal é o Ministério responsável pelo planejamento e orçamento (art. 4º); o órgão central do Sistema de Administração Financeira Federal é a Secretaria do Tesouro Nacional (art. 11).</p><p><strong>Estados.</strong> O SIAFI é sistema federal. Estados e Municípios mantêm sistemas próprios de administração financeira, inspirados no mesmo modelo de caixa único e registro em tempo real.</p><p><strong>Tesouro Gerencial não executa.</strong> O Tesouro Gerencial é ferramenta de consulta e extração de dados do SIAFI, para relatórios gerenciais; nele não se emite empenho nem ordem bancária, e nenhum ato de execução é registrado. A execução ocorre no SIAFI Operacional.</p><p><strong>SIAFI é federal; cada ente tem o seu sistema.</strong> O SIAFI não é obrigatório para Estados e Municípios. A LRF exige que todos os Poderes e órgãos de cada ente usem sistemas únicos de execução orçamentária e financeira, mantidos e gerenciados pelo Poder Executivo, resguardada a autonomia (art. 48, § 6º), e o Decreto 10.540/2020 fixou o padrão mínimo de qualidade desse sistema único e integrado de execução orçamentária, administração financeira e controle (SIAFIC), um por ente.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "No SIAFI, a liberação de cota, repasse e sub-repasse é registrada por nota de crédito.",
+     "certo": "Recursos financeiros se liberam por programação financeira; a nota de crédito descentraliza crédito orçamentário.",
+     "fonte": "Questões do app sobre os documentos do SIAFI"
+    },
+    {
+     "errado": "No uso parcial, o órgão usa todas as funcionalidades do SIAFI, inclusive a contabilidade completa.",
+     "certo": "Isso é o uso total; no parcial, o órgão usa só algumas transações.",
+     "fonte": "Questões do app sobre as modalidades de uso"
+    },
+    {
+     "errado": "O Tesouro Gerencial é o módulo em que as unidades emitem ordens bancárias.",
+     "certo": "O Tesouro Gerencial só consulta e extrai dados; a execução fica no SIAFI Operacional.",
+     "fonte": "Questões do app sobre o Tesouro Gerencial"
+    }
+   ],
    "relacionados": [
-    "lei-4320-controle-contabilidade-e-balancos",
+    "descentralizacao-orcamentaria-e-financeira",
+    "sistema-de-planejamento-e-orcamento",
+    "sistemas-de-informacoes-orcamentarias",
     "lei-4320-normas-gerais-do-orcamento"
    ]
   },
@@ -6135,12 +7434,79 @@
     "ciclo financeiro",
     "programacao financeira"
    ],
-   "resumo": "O <strong>fluxo de caixa</strong> registra as entradas e saídas efetivas de dinheiro em um período. Diferente do resultado contábil, que segue a competência, ele mostra a capacidade de pagar: uma entidade pode ter lucro e faltar caixa, ou ter prejuízo e caixa sobrando. Na <strong>Demonstração dos Fluxos de Caixa</strong> (DFC), as variações de caixa e equivalentes de caixa são separadas em três grupos: <strong>operacionais</strong> (as atividades principais que geram receita, como vendas, pagamentos a fornecedores, salários e tributos), <strong>de investimento</strong> (aquisição e venda de ativos de longo prazo, como imobilizado e participações) e <strong>de financiamento</strong> (captação e pagamento de empréstimos, aportes de capital e distribuição de dividendos). A Lei nº 6.404/1976 exige a DFC das companhias e manda segregar, no mínimo, os fluxos das operações, dos financiamentos e dos investimentos (arts. 176, IV, e 188, I). Equivalente de caixa é aplicação de curto prazo, de alta liquidez, prontamente conversível em montante conhecido de caixa e com risco insignificante de mudança de valor. A DFC pode ser feita pelo <strong>método direto</strong>, que mostra os recebimentos e pagamentos brutos, ou pelo <strong>método indireto</strong>, que parte do resultado do exercício e o ajusta pelos itens que não afetam o caixa (depreciação, por exemplo) e pelas variações do capital de giro. Os dois métodos chegam ao mesmo caixa operacional; a diferença está só na apresentação. No setor público, o MCASP adota a DFC com os mesmos três fluxos, elaborada pelo método direto. Na <strong>projeção</strong>, o orçamento de caixa parte do saldo inicial, soma as entradas previstas e subtrai as saídas previstas; se o saldo final ficar abaixo do saldo mínimo desejado, há necessidade de financiamento; se ficar acima, há excedente para aplicar.",
+   "para_entender": [
+    {
+     "texto": "<strong>Programação financeira:</strong> cronograma mensal de desembolso que o Executivo fixa depois de publicados os orçamentos, para casar a despesa com o caixa.",
+     "tema": "descentralizacao-orcamentaria-e-financeira"
+    }
+   ],
+   "resumo": "O <strong>fluxo de caixa</strong> registra o dinheiro que de fato entrou e saiu num período. Não se confunde com o resultado contábil, que segue a <strong>competência</strong>, isto é, reconhece receitas e despesas quando acontecem, e não quando são pagas. Por isso uma entidade pode ter lucro e faltar dinheiro, ou ter prejuízo e sobrar. A <strong>Demonstração dos Fluxos de Caixa</strong> (DFC) explica a variação do caixa e dos <strong>equivalentes de caixa</strong>, aplicações de curto prazo e alta liquidez, conversíveis em valor conhecido e com risco insignificante de mudar de valor. Ela separa os movimentos em três grupos, operacional, investimento e financiamento, com exemplos no esquema. A Lei 6.404/1976 exige a DFC das companhias e dispensa a fechada com patrimônio líquido inferior a dois milhões de reais (art. 176, § 6º). O grupo operacional pode ser montado de dois jeitos. O <strong>método direto</strong> mostra recebimentos e pagamentos brutos. O <strong>método indireto</strong> parte do lucro e desfaz o que não passou pelo caixa, como a depreciação, e as variações do capital de giro. Os dois chegam ao mesmo número. No setor público, o MCASP usa a DFC com os mesmos grupos, pelo método direto. Para o futuro, o <strong>orçamento de caixa</strong> parte do saldo inicial, soma as entradas previstas e tira as saídas previstas. Saldo final abaixo do mínimo desejado indica necessidade de financiamento; acima dele, sobra para aplicar. Na análise de prazos, o <strong>ciclo financeiro</strong> mede quantos dias a empresa precisa financiar entre pagar o fornecedor e receber do cliente.",
    "esquema": {
     "rotulo": "os três fluxos da DFC com exemplos",
     "html": "<table><thead><tr><th>Atividade</th><th>Entradas típicas</th><th>Saídas típicas</th></tr></thead><tbody><tr><td><strong>Operacional</strong></td><td>recebimento de clientes; no setor público, receitas tributárias</td><td>pagamento de fornecedores, salários e tributos</td></tr><tr><td><strong>Investimento</strong></td><td>venda de imobilizado e de participações; recebimento de empréstimos concedidos</td><td>compra de imobilizado, de intangível e de participações em outras empresas</td></tr><tr><td><strong>Financiamento</strong></td><td>emissão de ações e debêntures; empréstimos obtidos</td><td>amortização de empréstimos; dividendos pagos; recompra de ações</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Contas a receber em alta",
+      "o_que_e": "A venda entrou no resultado e o dinheiro não: o aumento sai do lucro.",
+      "grupo": "Método indireto"
+     },
+     {
+      "nome": "Estoques em alta",
+      "o_que_e": "Dinheiro parado em mercadoria: o aumento sai do lucro.",
+      "grupo": "Método indireto"
+     },
+     {
+      "nome": "Fornecedores em alta",
+      "o_que_e": "Pagamento adiado: o aumento soma ao lucro.",
+      "atencao": "Ativo circulante que cresce prende caixa; passivo circulante que cresce adia saída.",
+      "grupo": "Método indireto"
+     },
+     {
+      "nome": "Juros e dividendos",
+      "o_que_e": "O CPC 03 admite escolha, mas recomenda juros pagos, juros recebidos e dividendos recebidos como operacionais, e dividendos pagos como financiamento.",
+      "atencao": "A escolha se mantém de um exercício para o outro.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Operações sem caixa",
+      "o_que_e": "Compra financiada pelo próprio vendedor ou conversão de dívida em capital ficam fora da DFC e vão para nota explicativa.",
+      "grupo": "Classificação"
+     },
+     {
+      "nome": "Ciclo operacional",
+      "o_que_e": "Dias de estocagem somados aos dias de recebimento das vendas.",
+      "grupo": "Prazos"
+     },
+     {
+      "nome": "Ciclo financeiro",
+      "o_que_e": "Ciclo operacional menos os dias de pagamento. Com 40, 30 e 50 dias: 70 − 50 = 20 dias a financiar.",
+      "grupo": "Prazos"
+     },
+     {
+      "nome": "Programação financeira",
+      "o_que_e": "Funciona como o fluxo de caixa projetado do ente: o Executivo a fixa até trinta dias depois de publicados os orçamentos (LRF, art. 8º).",
+      "atencao": "O prazo não é de sessenta dias.",
+      "grupo": "Setor público e análise"
+     },
+     {
+      "nome": "Origem do caixa",
+      "o_que_e": "Entidade saudável gera caixa nas operações e o usa para investir e pagar financiadores. Caixa operacional negativo por vários períodos, coberto por empréstimo ou venda de ativos, indica dependência.",
+      "grupo": "Setor público e análise"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [],
+   "detalhes": [
+    "Um investimento costuma ser equivalente de caixa quando vence em até três meses da data da aquisição (CPC 03)."
+   ],
    "macetes": [
     {
      "sigla": "Lucro não é caixa",
@@ -6160,11 +7526,27 @@
     "gabarito": "E",
     "explicacao": "Aquisição de ativo de longo prazo, como imobilizado, é fluxo de investimento, mesmo que o bem sirva à atividade principal. Operacional é o que gera receita no dia a dia, como vendas e pagamento de fornecedores."
    },
-   "aprofundamento": "<p><strong>Método indireto: sinais do capital de giro.</strong> Aumento de contas a receber ou de estoques reduz o caixa operacional em relação ao lucro; aumento de fornecedores a pagar aumenta. A lógica: ativo circulante que cresce prendeu dinheiro; passivo circulante que cresce adiou uma saída.</p><p><strong>Juros e dividendos.</strong> O CPC 03 dá certa flexibilidade de classificação, mas recomenda tratar juros pagos, juros recebidos e dividendos recebidos como fluxos operacionais, e dividendos pagos como fluxo de financiamento. A escolha deve ser mantida de um exercício para o outro.</p><p><strong>Operações sem caixa.</strong> Compra de ativo financiada diretamente pelo vendedor ou conversão de dívida em capital não entram na DFC, porque não movimentam caixa; são divulgadas em nota explicativa.</p><p><strong>Exemplo de ciclo.</strong> Com prazo médio de estocagem de 40 dias, de recebimento de 30 dias e de pagamento de 50 dias, o ciclo operacional é de 70 dias e o ciclo financeiro de 20 dias: são 20 dias que a empresa precisa financiar com recursos próprios ou de terceiros.</p><p><strong>Setor público.</strong> A programação financeira é o fluxo de caixa projetado do ente. Pela LRF, até trinta dias após a publicação dos orçamentos, o Poder Executivo estabelece a programação financeira e o cronograma de execução mensal de desembolso (art. 8º).</p><p><strong>Análise.</strong> A leitura da DFC olha a origem do caixa: uma entidade saudável gera caixa nas operações e o usa para investir e pagar financiadores. Caixa operacional negativo por vários períodos, coberto por novos empréstimos ou venda de ativos, indica dependência de financiamento.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A amortização de empréstimo obtido pela empresa é fluxo de investimento.",
+     "certo": "É fluxo de financiamento, como a própria captação.",
+     "fonte": "Questões do app sobre a classificação dos fluxos"
+    },
+    {
+     "errado": "Os métodos direto e indireto chegam a caixas operacionais diferentes, e por isso a entidade divulga os dois.",
+     "certo": "Chegam ao mesmo valor; muda só a apresentação.",
+     "fonte": "Questões do app sobre os métodos da DFC"
+    },
+    {
+     "errado": "No método indireto, o aumento de contas a receber é somado ao lucro.",
+     "certo": "É subtraído, porque a venda entrou no resultado e o dinheiro ainda não.",
+     "fonte": "Questões do app sobre o método indireto"
+    }
+   ],
    "relacionados": [
     "fluxo-de-caixa-descontado",
-    "valor-presente-liquido-e-taxa-interna-de-retorno"
+    "lei-4320-controle-contabilidade-e-balancos",
+    "descentralizacao-orcamentaria-e-financeira"
    ]
   },
   {
@@ -6195,12 +7577,63 @@
     "fluxo de caixa do acionista",
     "taxa de desconto"
    ],
-   "resumo": "O método do <strong>fluxo de caixa descontado</strong> avalia um ativo, um projeto ou uma empresa pelo valor presente dos caixas que ele deve gerar no futuro, descontados a uma taxa que remunera o tempo e o risco. Quanto maior o risco, maior a taxa de desconto e menor o valor presente. Duas versões precisam casar fluxo e taxa. O <strong>fluxo de caixa livre da firma</strong>, disponível para acionistas e credores, é descontado pelo <strong>custo médio ponderado de capital</strong> (CMPC) e dá o valor da empresa; subtraindo a dívida líquida, chega-se ao valor do patrimônio. O <strong>fluxo de caixa livre do acionista</strong>, que já descontou juros e amortizações pagos aos credores, é descontado pelo custo do capital próprio e dá diretamente o valor do patrimônio líquido. O fluxo de caixa livre da firma parte do lucro operacional depois dos impostos, soma a depreciação, subtrai os investimentos em ativo fixo e a variação do capital de giro. O CMPC pondera o custo do capital próprio e o custo da dívida pelas suas participações na estrutura de capital, com o custo da dívida depois do imposto, porque os juros são dedutíveis. O custo do capital próprio costuma ser estimado pelo CAPM: taxa livre de risco mais beta vezes o prêmio de risco de mercado. Como não se projeta cada ano até o infinito, o horizonte explícito termina com um <strong>valor terminal</strong>, em geral calculado pelo modelo de Gordon: o fluxo do ano seguinte dividido pela diferença entre a taxa de desconto e a taxa de crescimento perpétuo. A fórmula só funciona se a taxa de desconto for maior que a de crescimento.",
+   "para_entender": [
+    {
+     "texto": "<strong>Valor presente:</strong> quanto vale hoje um valor futuro, dividido por (1 + i) uma vez para cada período.",
+     "tema": "valor-presente-valor-futuro-e-rendas-antecipadas-e-postecipadas"
+    },
+    {
+     "texto": "<strong>Taxa mínima de atratividade:</strong> retorno mínimo que o investidor exige, igual ao custo de oportunidade do capital.",
+     "tema": "valor-presente-liquido-e-taxa-interna-de-retorno"
+    }
+   ],
+   "resumo": "O método do <strong>fluxo de caixa descontado</strong> (FCD) atribui a um ativo, projeto ou empresa o valor presente do caixa que ele deve gerar, descontado por uma taxa que paga o tempo e o risco. Quanto maior o risco, maior a taxa e menor o valor. A regra central é a coerência: cada fluxo pede a taxa de quem tem direito a ele, e o esquema mostra os pares. O <strong>fluxo de caixa livre da firma</strong> é o que sobra para acionistas e credores juntos: parte do lucro operacional depois dos impostos, soma a depreciação, que não sai do caixa, e tira os investimentos em ativo fixo e o aumento do capital de giro. Descontado, dá o valor da empresa; subtraída a dívida líquida, chega-se ao valor das ações. A taxa da firma é o <strong>custo médio ponderado de capital</strong> (CMPC), média do custo do capital próprio e do custo da dívida, pesados pela participação de cada um na estrutura de capital, com a dívida depois do imposto. O custo do capital próprio costuma vir do <strong>CAPM</strong>: taxa livre de risco mais o <strong>beta</strong>, que mede a sensibilidade da ação ao mercado, vezes o prêmio de risco de mercado. Como não se projeta ano a ano até o infinito, o horizonte explícito termina num <strong>valor terminal</strong>, em geral calculado pelo modelo de Gordon, que só funciona com taxa de desconto maior que o crescimento perpétuo.",
    "esquema": {
     "rotulo": "fluxo, taxa e resultado em cada versão do FCD",
     "html": "<table><thead><tr><th>Fluxo descontado</th><th>Taxa de desconto</th><th>Resultado</th></tr></thead><tbody><tr><td><strong>Fluxo de caixa livre da firma</strong></td><td>custo médio ponderado de capital (CMPC)</td><td>valor da empresa (para acionistas e credores)</td></tr><tr><td><strong>Fluxo de caixa livre do acionista</strong></td><td>custo do capital próprio</td><td>valor do patrimônio líquido</td></tr><tr><td><strong>Fluxo nominal</strong></td><td>taxa nominal</td><td>valor presente correto</td></tr><tr><td><strong>Fluxo real (sem inflação)</strong></td><td>taxa real</td><td>o mesmo valor presente; misturar nominal com real erra o valor</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Valor terminal",
+      "o_que_e": "Fluxo de 210 no ano seguinte, taxa de 12% e crescimento de 2%: 210 ÷ 0,10 = 2.100.",
+      "atencao": "Esse valor fica no último ano projetado e ainda precisa ser descontado.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "CMPC",
+      "o_que_e": "60% de capital próprio a 15% e 40% de dívida a 10%, imposto de 34%: 9% + 2,64% = 11,64%.",
+      "atencao": "Sem o benefício fiscal, daria 13%.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "CAPM",
+      "o_que_e": "Taxa livre de risco de 10%, prêmio de mercado de 5% e beta de 1,2: 10% + 6% = 16%.",
+      "atencao": "Beta acima de 1 indica ação mais sensível que o mercado.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Sensibilidade",
+      "o_que_e": "O valor terminal costuma ser a maior parte do total; pequenas mudanças na taxa ou no crescimento perpétuo mexem muito no resultado.",
+      "grupo": "Leitura"
+     },
+     {
+      "nome": "Itens sem caixa",
+      "o_que_e": "Depreciação e amortização voltam somando; investimento em ativo fixo e aumento de capital de giro saem subtraindo, embora não passem pelo resultado.",
+      "grupo": "Leitura"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [],
+   "detalhes": [
+    "Somar a depreciação de volta não quer dizer que ela gera caixa: ela apenas não o consome. O ganho de caixa vem do imposto que ela reduz."
+   ],
    "macetes": [
     {
      "sigla": "Fluxo e taxa andam juntos",
@@ -6220,8 +7653,23 @@
     "gabarito": "E",
     "explicacao": "O fluxo do acionista é descontado pelo custo do capital próprio, e dá o valor do patrimônio líquido. O CMPC é a taxa do fluxo de caixa livre da firma, que dá o valor da empresa."
    },
-   "aprofundamento": "<p><strong>Conta do valor terminal.</strong> Pelo modelo de Gordon, valor terminal = fluxo do período seguinte ÷ (taxa de desconto − taxa de crescimento). Exemplo: fluxo esperado de 110 no ano seguinte, taxa de 15% e crescimento de 5%: 110 ÷ 0,10 = 1.100. Esse valor está posicionado no último ano do horizonte explícito e ainda precisa ser trazido a valor presente.</p><p><strong>Conta do CMPC.</strong> CMPC = participação do capital próprio × custo do capital próprio + participação da dívida × custo da dívida × (1 − alíquota do imposto). Exemplo: 60% de capital próprio a 15% e 40% de dívida a 10%, com imposto de 34%: 0,6 × 15% + 0,4 × 10% × 0,66 = 9% + 2,64% = 11,64%.</p><p><strong>CAPM.</strong> Custo do capital próprio = taxa livre de risco + beta × (retorno esperado do mercado − taxa livre de risco). Beta maior que 1 indica ativo mais sensível que o mercado. Exemplo: taxa livre de risco de 10%, prêmio de mercado de 5% e beta de 1,2: 10% + 1,2 × 5% = 16%.</p><p><strong>Sensibilidade.</strong> O valor é muito sensível à taxa de desconto e ao crescimento perpétuo: como o valor terminal costuma ser a maior parte do total, pequenas mudanças nessas premissas alteram muito o resultado.</p><p><strong>Despesas que não saem do caixa.</strong> Depreciação e amortização são somadas de volta ao lucro operacional porque reduzem o lucro sem saída de dinheiro; investimentos em ativo fixo e aumento de capital de giro são subtraídos porque consomem caixa, embora não passem pelo resultado.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O fluxo de caixa livre da firma, descontado pelo custo do capital próprio, dá o valor da empresa.",
+     "certo": "O fluxo da firma pede o CMPC; o custo do capital próprio é a taxa do fluxo do acionista.",
+     "fonte": "Questões do app sobre o casamento de fluxo e taxa"
+    },
+    {
+     "errado": "O modelo de Gordon vale mesmo com crescimento perpétuo acima da taxa de desconto, e o valor terminal fica maior.",
+     "certo": "Com crescimento acima da taxa, o denominador fica negativo e a soma não converge; o modelo exige taxa maior que o crescimento.",
+     "fonte": "Questões do app sobre o valor terminal"
+    },
+    {
+     "errado": "Com os mesmos fluxos, mais risco eleva o valor presente.",
+     "certo": "Mais risco eleva a taxa, que está no denominador, e reduz o valor presente.",
+     "fonte": "Questões do app sobre a taxa de desconto"
+    }
+   ],
    "relacionados": [
     "valor-presente-liquido-e-taxa-interna-de-retorno",
     "fluxo-de-caixa-elaboracao-projecao-e-analise"
@@ -6256,12 +7704,58 @@
     "interseccao de fisher",
     "reinvestimento"
    ],
-   "resumo": "O <strong>valor presente líquido</strong> (VPL) é a soma dos fluxos de caixa de um projeto trazidos a valor presente pela taxa mínima de atratividade (TMA), que é o custo de oportunidade do capital, descontado o investimento inicial. VPL positivo significa que o projeto remunera o capital acima da TMA e cria valor; VPL nulo, que remunera exatamente a TMA; VPL negativo, que destrói valor. A regra: aceitar o projeto com VPL maior que zero. A <strong>taxa interna de retorno</strong> (TIR) é a taxa de desconto que torna o VPL igual a zero: iguala o valor presente das entradas ao das saídas. A regra: aceitar o projeto cuja TIR supera a TMA. Para um projeto convencional isolado, com saída inicial seguida de entradas, VPL e TIR levam à mesma decisão de aceitar ou rejeitar. O conflito aparece entre <strong>projetos mutuamente excludentes</strong>, quando eles diferem em escala ou na distribuição dos fluxos no tempo: o de maior TIR pode ter menor VPL. Nesse caso prevalece o VPL, porque mede a riqueza criada em dinheiro e supõe reinvestimento dos fluxos à TMA, premissa mais realista do que a da TIR, que supõe reinvestimento à própria TIR. A taxa em que os VPLs dos dois projetos se igualam é a interseção de Fisher: abaixo dela os rankings por VPL e por TIR divergem. Fluxos não convencionais, com mais de uma troca de sinal, podem ter mais de uma TIR ou nenhuma. A <strong>TIR modificada</strong> contorna o problema: leva as entradas ao futuro por uma taxa de reinvestimento, traz as saídas ao presente por uma taxa de financiamento e calcula uma taxa única. O VPL é aditivo: o VPL de dois projetos juntos é a soma dos VPLs; com a TIR isso não vale.",
+   "para_entender": [
+    {
+     "texto": "<strong>Valor presente:</strong> valor futuro trazido à data de hoje pela taxa de desconto, em juros compostos.",
+     "tema": "valor-presente-valor-futuro-e-rendas-antecipadas-e-postecipadas"
+    }
+   ],
+   "resumo": "O <strong>valor presente líquido</strong> (VPL) soma os fluxos de um projeto trazidos ao presente pela <strong>taxa mínima de atratividade</strong> (TMA), o custo de oportunidade do capital, e desconta o investimento inicial. Positivo, o projeto rende acima da TMA e cria valor; nulo, rende exatamente a TMA; negativo, destrói valor. A <strong>taxa interna de retorno</strong> (TIR) é a taxa que zera o VPL, isto é, iguala o valor presente das entradas ao das saídas. Num projeto <strong>convencional</strong>, com uma saída inicial seguida de entradas, o VPL cai à medida que a taxa sobe, e os dois critérios dão a mesma resposta sobre aceitar ou rejeitar. O conflito surge entre <strong>projetos mutuamente excludentes</strong>, em que escolher um elimina o outro, quando diferem em escala ou no tempo dos fluxos. Aí prevalece o VPL, porque mede em dinheiro a riqueza criada e supõe reinvestir os fluxos à TMA, enquanto a TIR supõe reinvesti-los à própria TIR. A taxa em que os VPLs de dois projetos se igualam é a <strong>interseção de Fisher</strong>; abaixo dela, as ordens de preferência divergem. Fluxos com mais de uma troca de sinal podem ter várias TIRs ou nenhuma, e a <strong>TIR modificada</strong> contorna isso com taxas explícitas de reinvestimento e de financiamento. O VPL ainda é aditivo: o de dois projetos juntos é a soma dos dois. O esquema compara esses critérios com o payback e o índice de lucratividade.",
    "esquema": {
     "rotulo": "critérios de análise de investimentos",
     "html": "<table><thead><tr><th>Critério</th><th>Regra de aceitação</th><th>Limitação</th></tr></thead><tbody><tr><td><strong>VPL</strong></td><td>VPL maior que zero</td><td>depende da escolha da TMA</td></tr><tr><td><strong>TIR</strong></td><td>TIR maior que a TMA</td><td>pode haver mais de uma TIR; falha entre excludentes de escala diferente; supõe reinvestimento à própria TIR</td></tr><tr><td><strong>TIR modificada</strong></td><td>TIRM maior que a TMA</td><td>depende das taxas de reinvestimento e de financiamento escolhidas</td></tr><tr><td><strong>Payback simples</strong></td><td>retorno do investimento dentro do prazo máximo</td><td>ignora o valor do dinheiro no tempo e os fluxos depois do prazo</td></tr><tr><td><strong>Payback descontado</strong></td><td>retorno, a valor presente, dentro do prazo máximo</td><td>ainda ignora os fluxos depois do prazo</td></tr><tr><td><strong>Índice de lucratividade</strong></td><td>valor presente das entradas ÷ investimento maior que 1</td><td>não mede escala; útil com capital racionado</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "VPL nulo",
+      "o_que_e": "Investe 1.000 e recebe 550 no ano 1 e 605 no ano 2. A 10%: 500 + 500 = 1.000, VPL zero e TIR de 10%.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "TIR de dois pontos",
+      "o_que_e": "1.000 hoje viram 1.210 em dois anos: 1,1 × 1,1 = 1,21, TIR de 10% ao ano.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Índice de lucratividade",
+      "o_que_e": "Entradas a valor presente de 1.100 sobre investimento de 1.000: índice 1,1 e VPL de 100.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Payback",
+      "o_que_e": "Investimento de 1.000 com entradas de 400 por ano: payback simples de 2,5 anos.",
+      "atencao": "O descontado é maior ou igual ao simples.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Escala",
+      "o_que_e": "A investe 100 e recebe 150 (TIR de 50%); B investe 1.000 e recebe 1.300 (TIR de 30%). A 10%, o VPL de A é 36,36 e o de B, 181,82.",
+      "atencao": "Se excludentes, escolhe-se B.",
+      "grupo": "Contas"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [],
+   "detalhes": [
+    "A TIR de uma combinação de projetos não é a soma nem a média simples das TIRs individuais."
+   ],
    "macetes": [
     {
      "sigla": "Na briga, vale o VPL",
@@ -6281,8 +7775,23 @@
     "gabarito": "E",
     "explicacao": "Entre excludentes, a decisão segue o maior VPL, que mede a riqueza criada em dinheiro e supõe reinvestimento à TMA. A TIR é uma taxa e ignora a escala: um projeto pequeno pode ter TIR alta e criar pouco valor."
    },
-   "aprofundamento": "<p><strong>Conta de VPL.</strong> Investimento de 1.000 hoje, entradas de 550 no ano 1 e 605 no ano 2, TMA de 10%: 550 ÷ 1,1 = 500 e 605 ÷ 1,21 = 500. O valor presente das entradas é 1.000, igual ao investimento: VPL = 0, logo a TIR é exatamente 10%.</p><p><strong>Conta de TIR de dois pontos.</strong> Aplicar 1.000 hoje e receber 1.210 daqui a dois anos dá TIR de 10% ao ano, porque 1.000 × 1,1 × 1,1 = 1.210.</p><p><strong>Relação entre VPL e taxa.</strong> Em projeto convencional, o VPL diminui quando a taxa de desconto aumenta. Por isso, se o VPL é positivo à TMA, a TIR é maior que a TMA.</p><p><strong>Índice de lucratividade.</strong> É o valor presente das entradas dividido pelo investimento inicial. Índice maior que 1 equivale a VPL positivo. Com 1.100 de valor presente das entradas e 1.000 de investimento, o índice é 1,1 e o VPL é 100.</p><p><strong>Payback.</strong> Investimento de 1.000 com entradas de 400 por ano tem payback simples de 2,5 anos. O payback descontado é sempre maior ou igual ao simples, porque cada entrada vale menos a valor presente.</p><p><strong>Escala e TIR.</strong> Projeto A: investe 100 e recebe 150 em um ano (TIR de 50%). Projeto B: investe 1.000 e recebe 1.300 em um ano (TIR de 30%). A uma TMA de 10%, o VPL de A é 150 ÷ 1,1 − 100 = 36,36 e o de B é 1.300 ÷ 1,1 − 1.000 = 181,82. Se forem excludentes, escolhe-se B.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Um fluxo com duas trocas de sinal tem, necessariamente, duas TIRs.",
+     "certo": "O número de trocas é limite máximo: pode haver duas, uma ou nenhuma.",
+     "fonte": "Questões do app sobre as TIRs múltiplas"
+    },
+    {
+     "errado": "O payback descontado é sempre menor que o simples.",
+     "certo": "É maior ou igual, porque cada entrada descontada vale menos.",
+     "fonte": "Questões do app sobre o payback"
+    },
+    {
+     "errado": "Em projeto convencional, VPL positivo à TMA indica TIR abaixo da TMA.",
+     "certo": "Indica TIR acima da TMA, porque o VPL só zera numa taxa maior.",
+     "fonte": "Questões do app sobre a relação entre VPL e TIR"
+    }
+   ],
    "relacionados": [
     "fluxo-de-caixa-descontado",
     "valor-presente-valor-futuro-e-rendas-antecipadas-e-postecipadas"
@@ -6318,12 +7827,62 @@
     "prazo",
     "taxa equivalente"
    ],
-   "resumo": "Em juros compostos, o <strong>valor futuro</strong> (VF) de um capital é o valor presente (VP) multiplicado por (1 + i) elevado ao número de períodos n: VF = VP × (1 + i)<sup>n</sup>. Trazer um valor do futuro ao presente é o caminho inverso: VP = VF ÷ (1 + i)<sup>n</sup>. A taxa e o prazo precisam estar na mesma unidade de tempo. Quando se conhecem VP, VF e prazo, a taxa sai de (VF ÷ VP) elevado a 1/n, menos 1; quando se conhecem VP, VF e taxa, o prazo sai de n = ln(VF ÷ VP) ÷ ln(1 + i). Uma série de pagamentos iguais é chamada de renda ou série uniforme. Na <strong>renda postecipada</strong>, cada pagamento ocorre no fim do período, e o primeiro vem um período depois da data zero (financiamento comum, com a primeira parcela em 30 dias). Seu valor presente é PMT × [1 − (1 + i)<sup>−n</sup>] ÷ i. Na <strong>renda antecipada</strong>, os pagamentos ocorrem no início de cada período, e o primeiro é feito na data zero (compra com entrada igual às demais parcelas). Como cada pagamento antecipado fica um período mais perto do presente, o valor presente da renda antecipada é o da postecipada multiplicado por (1 + i). Na <strong>renda diferida</strong>, há uma carência antes do primeiro pagamento: calcula-se o valor da série na data anterior ao primeiro pagamento e desconta-se esse valor pelo prazo de carência. A <strong>perpetuidade</strong> é a renda sem fim: o valor presente da perpetuidade postecipada é PMT ÷ i; se o pagamento cresce a uma taxa g menor que i, é PMT ÷ (i − g).",
+   "para_entender": [
+    {
+     "texto": "<strong>Taxa mínima de atratividade:</strong> taxa usada para descontar fluxos na análise de projetos, igual ao custo de oportunidade do capital.",
+     "tema": "valor-presente-liquido-e-taxa-interna-de-retorno"
+    }
+   ],
+   "resumo": "Em <strong>juros compostos</strong>, os juros de cada período se somam ao capital e passam a render também. O <strong>valor futuro</strong> (VF) é o <strong>valor presente</strong> (VP) multiplicado por (1 + i) uma vez para cada período: VF = VP × (1 + i)<sup>n</sup>. Trazer ao presente é o caminho inverso, dividir pelo mesmo fator. Taxa e prazo precisam estar na mesma unidade de tempo. Com VP, VF e prazo conhecidos, a taxa é a raiz de ordem n de VF ÷ VP, menos 1; com VP, VF e taxa, o prazo é n = ln(VF ÷ VP) ÷ ln(1 + i). Uma série de pagamentos iguais chama-se <strong>renda</strong> ou série uniforme, e a parcela costuma ser chamada de PMT. O que distingue as rendas é a data do primeiro pagamento. Na <strong>postecipada</strong>, ele vem no fim do primeiro período, como no financiamento com a primeira parcela em 30 dias. Na <strong>antecipada</strong>, vem na data zero, como na compra com entrada igual às demais parcelas; cada parcela fica um período mais perto do presente, e por isso essa renda vale mais. Na <strong>diferida</strong>, há uma carência antes do primeiro pagamento. A <strong>perpetuidade</strong> é a renda sem fim. O esquema traz a conta de cada uma.",
    "esquema": {
     "rotulo": "antecipada, postecipada, diferida e perpetuidade",
     "html": "<table><thead><tr><th>Renda</th><th>Primeiro pagamento</th><th>Valor presente</th></tr></thead><tbody><tr><td><strong>Postecipada</strong></td><td>fim do primeiro período (data 1)</td><td>PMT × [1 − (1 + i)^−n] ÷ i</td></tr><tr><td><strong>Antecipada</strong></td><td>data zero</td><td>valor da postecipada × (1 + i)</td></tr><tr><td><strong>Diferida</strong></td><td>depois da carência</td><td>valor da série na data anterior ao primeiro pagamento, descontado pela carência</td></tr><tr><td><strong>Perpetuidade postecipada</strong></td><td>data 1, sem fim</td><td>PMT ÷ i</td></tr><tr><td><strong>Perpetuidade antecipada</strong></td><td>data zero, sem fim</td><td>PMT ÷ i + PMT</td></tr><tr><td><strong>Perpetuidade com crescimento</strong></td><td>data 1, crescendo à taxa g</td><td>PMT ÷ (i − g), com g menor que i</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Postecipada e antecipada",
+      "o_que_e": "Duas parcelas de 121 a 10%: postecipada, 110 + 100 = 210; antecipada, 121 + 110 = 231, que é 210 × 1,1.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Valor futuro",
+      "o_que_e": "1.000 a 10% ao ano por dois anos: 1.000 × 1,21 = 1.210.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Taxa",
+      "o_que_e": "1.000 que viram 1.440 em dois períodos: (1 + i)² = 1,44, logo i = 20%.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Prazo",
+      "o_que_e": "A 10% ao ano, 1,1 elevado a 7 dá cerca de 1,95: o capital leva pouco mais de sete anos para dobrar.",
+      "grupo": "Contas"
+     },
+     {
+      "nome": "Valor futuro da renda",
+      "o_que_e": "Postecipada, na data do último pagamento: PMT × [(1 + i)<sup>n</sup> − 1] ÷ i. Antecipada, um período depois do último pagamento: esse valor vezes (1 + i).",
+      "grupo": "Rendas e taxas"
+     },
+     {
+      "nome": "Taxa equivalente",
+      "o_que_e": "1% ao mês equivale a (1,01)<sup>12</sup> − 1, cerca de 12,68% ao ano.",
+      "atencao": "12% ao ano é a taxa proporcional, própria dos juros simples.",
+      "grupo": "Rendas e taxas"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [],
+   "detalhes": [
+    "Na perpetuidade com crescimento, a parcela da fórmula é a do primeiro período, e a conta só vale com crescimento menor que a taxa."
+   ],
    "macetes": [
     {
      "sigla": "Antecipada vale mais",
@@ -6343,8 +7902,23 @@
     "gabarito": "E",
     "explicacao": "É o contrário. Na antecipada, cada pagamento ocorre um período antes, por isso é descontado por um período a menos: o valor presente da antecipada é o da postecipada multiplicado por (1 + i)."
    },
-   "aprofundamento": "<p><strong>Conta postecipada e antecipada.</strong> Duas parcelas de 121 a 10% por período. Postecipada (datas 1 e 2): 121 ÷ 1,1 + 121 ÷ 1,21 = 110 + 100 = 210. Antecipada (datas 0 e 1): 121 + 110 = 231, que é 210 × 1,1.</p><p><strong>Conta de valor futuro.</strong> 1.000 aplicados a 10% ao ano por dois anos chegam a 1.000 × 1,21 = 1.210.</p><p><strong>Conta de taxa.</strong> Se 1.000 viram 1.440 em dois períodos, (1 + i)² = 1,44, logo 1 + i = 1,2 e a taxa é de 20% por período.</p><p><strong>Conta de prazo.</strong> A 100% por período, um capital dobra a cada período; a 10% ao ano, como 1,1 elevado a 7 dá cerca de 1,95, um capital leva pouco mais de sete anos para dobrar.</p><p><strong>Valor futuro das rendas.</strong> O valor futuro de uma renda postecipada, na data do último pagamento, é PMT × [(1 + i)<sup>n</sup> − 1] ÷ i. O da antecipada, um período depois do último pagamento, é esse valor multiplicado por (1 + i).</p><p><strong>Mesma unidade de tempo.</strong> Taxa mensal com prazo em meses, taxa anual com prazo em anos. Para converter em juros compostos usa-se a taxa equivalente: 1% ao mês equivale a (1,01)<sup>12</sup> − 1, cerca de 12,68% ao ano, e não a 12%.</p>",
-   "aprofundamento_rotulo": "exceções e pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "O valor presente de uma renda antecipada de duas parcelas de 121, a 10% por período, é 220.",
+     "certo": "É 231: 121 na data zero mais 110 da parcela da data 1.",
+     "fonte": "Questões do app sobre as rendas antecipadas"
+    },
+    {
+     "errado": "Uma perpetuidade de 100 por mês a 1% ao mês, com o primeiro pagamento hoje, vale 10.000.",
+     "certo": "Vale 10.100: ao valor da postecipada soma-se o pagamento imediato.",
+     "fonte": "Questões do app sobre a perpetuidade"
+    },
+    {
+     "errado": "Em juros compostos, 1% ao mês equivale a 12% ao ano.",
+     "certo": "Equivale a cerca de 12,68% ao ano; 12% é a taxa proporcional.",
+     "fonte": "Questões do app sobre a taxa equivalente"
+    }
+   ],
    "relacionados": [
     "valor-presente-liquido-e-taxa-interna-de-retorno",
     "fluxo-de-caixa-descontado"
