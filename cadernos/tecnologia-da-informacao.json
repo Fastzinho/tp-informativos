@@ -4,7 +4,7 @@
  "disciplina": "Tecnologia da Informação",
  "ordem": 29,
  "descricao": "Tecnologia da Informação no nível de Auditor Fiscal: inteligência artificial, ciência de dados, desenvolvimento de sistemas, infraestrutura e segurança da informação, com resumo, quadros, macetes e pegadinhas.",
- "revisado_em": "2026-11-20",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "Conferido com a documentação técnica e as normas de referência",
  "fontes": "<p>Texto próprio do Tchau Pobreza, escrito a partir das normas e manuais oficiais da área e organizado pelo conteúdo programático dos editais de Auditor Fiscal da Cebraspe. Normas mudam: confira sempre a redação vigente na data do seu edital.</p>",
  "temas": [
@@ -62,12 +62,164 @@
     "transferencia transdutiva",
     "adaptacao de dominio"
    ],
-   "resumo": "A relação cobrada é de <strong>inclusão</strong>: o deep learning está contido no aprendizado de máquina, que está contido na inteligência artificial. A <strong>inteligência artificial</strong> é o campo amplo de sistemas que executam tarefas associadas à inteligência humana, e inclui abordagens que não aprendem com dados, como os sistemas especialistas baseados em regras escritas por pessoas. O <strong>aprendizado de máquina</strong> é o ramo da IA em que o sistema melhora seu desempenho a partir de exemplos, sem que cada regra seja programada explicitamente; árvores de decisão, SVM, k-NN e regressão logística são aprendizado de máquina sem serem deep learning. O <strong>deep learning</strong> é o aprendizado de máquina com redes neurais de muitas camadas, que aprendem sozinhas as representações dos dados; no aprendizado de máquina clássico, as características costumam ser definidas manualmente por especialistas. Quanto ao sinal de treino, no aprendizado <strong>supervisionado</strong> os exemplos vêm rotulados (classificação prevê categoria; regressão prevê valor numérico contínuo); no <strong>não supervisionado</strong> não há rótulo (agrupamento, redução de dimensionalidade, regras de associação); no aprendizado <strong>por reforço</strong> um agente aprende por recompensas e penalidades; no <strong>autossupervisionado</strong> os rótulos são gerados a partir dos próprios dados, como ao prever a próxima palavra. Um modelo bom generaliza: o <strong>overfitting</strong> é ir bem no treino e mal em dados novos, e o <strong>underfitting</strong> é ir mal até no treino.",
+   "resumo": "A relação cobrada é de <strong>inclusão</strong>: o deep learning está dentro do aprendizado de máquina, que está dentro da inteligência artificial. A <strong>inteligência artificial</strong> (IA) é o campo amplo de sistemas que executam tarefas associadas à inteligência humana; ela inclui abordagens que não aprendem com dados, como o sistema especialista, que segue regras escritas por pessoas. O <strong>aprendizado de máquina</strong> é o ramo da IA em que o sistema melhora com exemplos, sem que cada regra seja programada: árvores de decisão, SVM, k-NN e regressão logística aprendem com dados e não são deep learning. O <strong>deep learning</strong> é o aprendizado de máquina feito com redes neurais de muitas camadas, que descobrem sozinhas as características úteis dos dados; no aprendizado clássico, quem escolhe essas características, como a razão entre faturamento e estoque, é um especialista. O que separa os paradigmas de aprendizado é o sinal de treino, isto é, se os exemplos trazem ou não a resposta certa (o <strong>rótulo</strong>); a tabela mostra cada um. Um bom modelo <strong>generaliza</strong>, ou seja, acerta em dados que nunca viu: o <strong>overfitting</strong> é ir bem no treino e mal em dados novos, e o <strong>underfitting</strong> é ir mal até no treino.",
    "esquema": {
     "rotulo": "paradigmas de aprendizado que a banca troca",
     "html": "<table><thead><tr><th>Paradigma</th><th>Sinal de treino</th><th>Tarefas típicas</th><th>Exemplo fiscal</th></tr></thead><tbody><tr><td>Supervisionado</td><td>exemplos com a resposta certa (rótulo)</td><td>classificação (categoria) e regressão (valor contínuo)</td><td>classificar notas fiscais como regulares ou suspeitas a partir de autuações passadas</td></tr><tr><td>Não supervisionado</td><td>sem rótulo</td><td>agrupamento (k-means), redução de dimensionalidade (PCA), regras de associação</td><td>agrupar contribuintes por perfil de recolhimento</td></tr><tr><td>Semissupervisionado</td><td>poucos exemplos rotulados e muitos sem rótulo</td><td>classificação com rotulagem escassa</td><td>poucos casos fiscalizados e milhares de declarações sem análise</td></tr><tr><td>Por reforço</td><td>recompensa ou penalidade após cada ação</td><td>agente que aprende uma política em um ambiente</td><td>jogos e controle; raro em fiscalização</td></tr><tr><td>Autossupervisionado</td><td>rótulo gerado dos próprios dados</td><td>prever a próxima palavra ou a parte ocultada</td><td>pré-treino de modelos de linguagem</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Mineração de dados",
+      "o_que_e": "Processo de descobrir padrões úteis em grandes bases, etapa da descoberta de conhecimento em bases de dados (KDD).",
+      "atencao": "Usa estatística, bancos de dados e algoritmos de aprendizado de máquina, mas não é sinônimo dele.",
+      "grupo": "Campos"
+     },
+     {
+      "nome": "Classificação",
+      "o_que_e": "Tarefa supervisionada que prevê uma categoria, como fraude ou regular.",
+      "grupo": "Tarefas e algoritmos"
+     },
+     {
+      "nome": "Regressão",
+      "o_que_e": "Tarefa supervisionada que prevê um valor numérico contínuo, como o imposto devido.",
+      "atencao": "Também é supervisionada: o treino traz o valor certo de cada exemplo.",
+      "grupo": "Tarefas e algoritmos"
+     },
+     {
+      "nome": "k-means",
+      "o_que_e": "Agrupamento não supervisionado: forma k grupos pela proximidade aos centroides, sem rótulos.",
+      "atencao": "Não classifica pela classe dos vizinhos; isso é o k-NN.",
+      "grupo": "Tarefas e algoritmos"
+     },
+     {
+      "nome": "k-NN",
+      "o_que_e": "Classificação supervisionada: o caso novo recebe a classe da maioria dos k vizinhos rotulados mais próximos.",
+      "atencao": "A semelhança do nome com o k-means é a armadilha.",
+      "grupo": "Tarefas e algoritmos"
+     },
+     {
+      "nome": "Paradigma simbólico",
+      "o_que_e": "Representa o conhecimento por regras e lógica, como a árvore de decisão e a indução de regras.",
+      "atencao": "Não se apoia principalmente em estatística.",
+      "grupo": "Paradigmas (tribos)"
+     },
+     {
+      "nome": "Paradigma conexionista",
+      "o_que_e": "Aprende ajustando pesos de redes neurais, por inspiração no cérebro.",
+      "grupo": "Paradigmas (tribos)"
+     },
+     {
+      "nome": "Paradigma estatístico ou bayesiano",
+      "o_que_e": "Trata o aprendizado como inferência probabilística, como o Naive Bayes e as redes bayesianas.",
+      "grupo": "Paradigmas (tribos)"
+     },
+     {
+      "nome": "Paradigma evolucionário",
+      "o_que_e": "Evolui soluções candidatas por seleção, cruzamento e mutação, como os algoritmos genéticos.",
+      "grupo": "Paradigmas (tribos)"
+     },
+     {
+      "nome": "Paradigma baseado em instâncias ou analogia",
+      "o_que_e": "Decide pela semelhança com exemplos conhecidos, como o k-NN e o SVM.",
+      "grupo": "Paradigmas (tribos)"
+     },
+     {
+      "nome": "Aprendizado ativo",
+      "o_que_e": "O algoritmo escolhe quais exemplos sem rótulo um especialista deve rotular, em geral os mais incertos.",
+      "atencao": "Reduz o custo de rotulagem.",
+      "grupo": "Outras formas de aprender"
+     },
+     {
+      "nome": "Aprendizado online",
+      "o_que_e": "O modelo se atualiza aos poucos, à medida que os dados chegam.",
+      "atencao": "Não retreina com a base inteira; serve a fluxos contínuos, como transações em tempo real.",
+      "grupo": "Outras formas de aprender"
+     },
+     {
+      "nome": "Aprendizado multitarefa",
+      "o_que_e": "Um mesmo modelo aprende várias tarefas relacionadas ao mesmo tempo, compartilhando representações.",
+      "grupo": "Outras formas de aprender"
+     },
+     {
+      "nome": "Transferência indutiva",
+      "o_que_e": "Reaproveita o conhecimento da origem numa tarefa alvo diferente, com dados rotulados no alvo.",
+      "atencao": "Ex.: modelo de imagens gerais ajustado para classificar documentos fiscais digitalizados.",
+      "grupo": "Outras formas de aprender"
+     },
+     {
+      "nome": "Transferência transdutiva",
+      "o_que_e": "Mantém a tarefa e muda o domínio, com rótulos só na origem; a adaptação de domínio é o caso típico.",
+      "atencao": "Ex.: classificador de petições de um tribunal aplicado às de outro, sem rótulos no novo domínio.",
+      "grupo": "Outras formas de aprender"
+     },
+     {
+      "nome": "Treino, validação e teste",
+      "o_que_e": "O treino ajusta os parâmetros, a validação escolhe os hiperparâmetros e o teste estima o desempenho em dados novos.",
+      "atencao": "O teste é usado uma única vez.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Validação cruzada k-fold",
+      "o_que_e": "Os dados são divididos em k partes, e cada parte serve uma vez de teste enquanto as demais treinam.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Overfitting (sobreajuste)",
+      "o_que_e": "Alta variância: o modelo decora até o ruído do treino e falha em dados novos.",
+      "atencao": "Combate-se com mais dados, regularização e parada antecipada.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Underfitting (subajuste)",
+      "o_que_e": "Alto viés: o modelo é simples demais e erra até no treino.",
+      "atencao": "Combate-se com modelo mais complexo e variáveis melhores.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Parâmetro",
+      "o_que_e": "Valor aprendido no treino, como os pesos de uma rede.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Hiperparâmetro",
+      "o_que_e": "Valor definido antes do treino, como a taxa de aprendizado, o número de camadas e o k do k-means.",
+      "atencao": "É escolhido com o conjunto de validação.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Precisão",
+      "o_que_e": "VP / (VP + FP): dos casos que o modelo apontou, quantos eram positivos de fato.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Revocação (recall, sensibilidade)",
+      "o_que_e": "VP / (VP + FN): dos positivos de fato, quantos o modelo achou.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "F1",
+      "o_que_e": "Média harmônica entre precisão e revocação.",
+      "grupo": "Avaliação de modelos"
+     },
+     {
+      "nome": "Acurácia",
+      "o_que_e": "Proporção de acertos sobre todos os casos.",
+      "atencao": "Engana quando uma classe é rara.",
+      "grupo": "Avaliação de modelos"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "O deep learning dispensa a engenharia manual de características, mas costuma exigir mais dados e mais poder computacional (GPUs) e oferece menos interpretabilidade que o aprendizado clássico.",
+    "Avaliar o modelo com os mesmos dados usados no treino produz estimativa otimista do desempenho.",
+    "Conta da matriz de confusão: com 40 verdadeiros positivos, 10 falsos positivos e 20 falsos negativos, a precisão é 40 / 50 = 0,80 e a revocação é 40 / 60, cerca de 0,67.",
+    "Se só 1% das notas fiscais é fraudulenta, o modelo que classifica todas como regulares tem 99% de acurácia e revocação zero para a fraude. Com classes desbalanceadas, olhe precisão, revocação, F1 ou a curva ROC.",
+    "Mineração de dados e aprendizado de máquina têm grande interseção, mas não designam um único campo de estudo, porque o objetivo difere: a mineração descreve padrões do que já ocorreu, e o aprendizado de máquina constrói modelos que generalizam e preveem."
+   ],
    "macetes": [
     {
      "sigla": "Bonecas russas",
@@ -87,8 +239,33 @@
     "gabarito": "E",
     "explicacao": "A inclusão vale num sentido só. O deep learning está contido na IA, mas a IA também abrange sistemas especialistas baseados em regras, algoritmos de busca e planejamento, que não aprendem com dados nem usam redes neurais."
    },
-   "aprofundamento": "<p><strong>Deep learning dispensa a engenharia manual de características.</strong> No aprendizado de máquina clássico, um especialista escolhe as variáveis de entrada, como a razão entre faturamento e estoque. No deep learning, as camadas iniciais da rede aprendem representações simples e as camadas seguintes combinam essas representações em conceitos mais abstratos. Em troca, o deep learning costuma exigir mais dados, mais poder computacional (GPUs) e oferece menos interpretabilidade.</p><p><strong>Treino, validação e teste.</strong> Os dados são divididos em conjunto de treino, usado para ajustar os parâmetros, conjunto de validação, usado para escolher hiperparâmetros, e conjunto de teste, usado uma única vez para estimar o desempenho em dados novos. Avaliar o modelo com os mesmos dados do treino produz estimativa otimista. Na validação cruzada k-fold, os dados são divididos em k partes e cada parte serve uma vez como teste enquanto as demais treinam o modelo.</p><p><strong>Overfitting e underfitting.</strong> O overfitting, ou sobreajuste, está associado a alta variância: o modelo decora inclusive o ruído do treino. O underfitting, ou subajuste, está associado a alto viés: o modelo é simples demais para captar o padrão. Mais dados, regularização e parada antecipada combatem o overfitting; modelo mais complexo e melhores variáveis combatem o underfitting.</p><p><strong>Parâmetro não é hiperparâmetro.</strong> Parâmetros, como os pesos de uma rede, são aprendidos no treino. Hiperparâmetros, como a taxa de aprendizado, o número de camadas e o k do k-means, são definidos antes do treino e escolhidos com o conjunto de validação.</p><p><strong>Métricas da matriz de confusão.</strong> Precisão é VP / (VP + FP). Revocação, também chamada recall ou sensibilidade, é VP / (VP + FN). O F1 é a média harmônica entre precisão e revocação. Exemplo: com 40 verdadeiros positivos, 10 falsos positivos e 20 falsos negativos, a precisão é 40 / 50 = 0,80 e a revocação é 40 / 60, cerca de 0,67.</p><p><strong>Acurácia engana em classes desbalanceadas.</strong> Se só 1% das notas fiscais é fraudulenta, um modelo que classifica todas como regulares tem 99% de acurácia e revocação zero para a fraude. Nesses casos, olhe precisão, revocação, F1 ou a curva ROC.</p><p><strong>Agrupamento não é classificação.</strong> O k-means é não supervisionado: forma k grupos pela proximidade aos centroides, sem conhecer rótulos. O k-NN é supervisionado: classifica um exemplo novo pela classe majoritária dos k vizinhos rotulados mais próximos. A semelhança dos nomes é a armadilha.</p><p><strong>Aprendizado de máquina e mineração de dados não são sinônimos.</strong> A mineração de dados é o processo de descobrir padrões úteis em grandes bases, como etapa do processo de descoberta de conhecimento em bases de dados, e usa estatística, bancos de dados e algoritmos de aprendizado de máquina. O aprendizado de máquina é o campo que estuda algoritmos capazes de aprender com dados e generalizar para casos novos, fazendo previsões. Há grande interseção, porque a mineração usa algoritmos de aprendizado, mas o foco difere: a mineração descreve padrões do que já ocorreu, e o aprendizado de máquina constrói modelos que generalizam e preveem.</p><p><strong>Paradigmas (tribos) do aprendizado de máquina.</strong> O paradigma simbólico representa o conhecimento por regras e lógica, como as árvores de decisão e a indução de regras. O conexionista aprende ajustando pesos de redes neurais, por inspiração no cérebro. O estatístico ou bayesiano trata o aprendizado como inferência probabilística, como o Naive Bayes e as redes bayesianas. O evolucionário usa seleção, cruzamento e mutação de soluções candidatas, como os algoritmos genéticos. O baseado em instâncias ou analogia decide pela semelhança com exemplos conhecidos, como o k-NN e o SVM. Atenção: o simbólico se apoia em regras e lógica, e não principalmente em estatística.</p><p><strong>Aprendizado ativo, online e multitarefa.</strong> No aprendizado ativo, o próprio algoritmo escolhe quais exemplos não rotulados devem ser enviados a um especialista para rotulagem, em geral aqueles sobre os quais o modelo está mais incerto, o que reduz o custo de rotular. No aprendizado online, o modelo é atualizado de forma incremental à medida que os dados chegam, sem retreinar com a base inteira, o que serve a fluxos contínuos, como transações em tempo real. No aprendizado multitarefa, um mesmo modelo aprende várias tarefas relacionadas ao mesmo tempo, compartilhando representações.</p><p><strong>Transferência indutiva e transdutiva.</strong> No aprendizado por transferência, o conhecimento de um domínio ou de uma tarefa de origem é reaproveitado em um alvo. Na transferência indutiva, a tarefa alvo é diferente da tarefa de origem e há dados rotulados no alvo, como ajustar um modelo treinado em imagens gerais para classificar documentos fiscais digitalizados. Na transferência transdutiva, mantém-se a tarefa e muda o domínio, com rótulos só na origem, como aplicar a petições de um tribunal um classificador de assunto treinado com petições de outro, sem rótulos no novo domínio; a adaptação de domínio é o caso típico.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Árvores de decisão e SVM, por aprenderem com exemplos rotulados, são técnicas de deep learning.",
+     "certo": "São aprendizado de máquina sem rede neural profunda; deep learning exige redes de muitas camadas.",
+     "fonte": "Questões do app sobre aprendizado de máquina"
+    },
+    {
+     "errado": "O k-means é supervisionado e classifica o caso novo pela classe da maioria dos k vizinhos rotulados.",
+     "certo": "Isso é o k-NN. O k-means é não supervisionado e só forma grupos pela proximidade aos centroides.",
+     "fonte": "Questões do app sobre aprendizado de máquina"
+    },
+    {
+     "errado": "O paradigma simbólico baseia-se principalmente em inferência estatística, como o Naive Bayes.",
+     "certo": "O simbólico usa regras e lógica; o Naive Bayes é do paradigma estatístico ou bayesiano.",
+     "fonte": "Questões do app sobre aprendizado de máquina"
+    },
+    {
+     "errado": "O overfitting vem de alto viés: o modelo é simples demais e erra no treino e em dados novos.",
+     "certo": "Isso é o underfitting. O overfitting vem de alta variância: vai bem no treino e mal em dados novos.",
+     "fonte": "Questões do app sobre avaliação de modelos"
+    },
+    {
+     "errado": "Na transferência transdutiva, a tarefa alvo é diferente da origem e há rótulos no alvo.",
+     "certo": "Isso é a transferência indutiva. Na transdutiva, a tarefa é a mesma, muda o domínio e só a origem tem rótulos.",
+     "fonte": "Questões do app sobre aprendizado de máquina"
+    }
+   ],
    "relacionados": [
     "redes-neurais-artificiais",
     "deep-learning-arquiteturas-e-treinamento"
@@ -153,12 +330,174 @@
     "feedforward",
     "parametros treinaveis"
    ],
-   "resumo": "O <strong>neurônio artificial</strong> calcula a soma ponderada das entradas, acrescenta um termo de <strong>viés</strong> e aplica uma <strong>função de ativação</strong>. Os <strong>pesos</strong> e os vieses são os parâmetros que o treino ajusta. O <strong>perceptron</strong> de camada única, proposto por Rosenblatt, só aprende problemas linearmente separáveis e, por isso, não resolve o OU exclusivo (XOR). O <strong>perceptron multicamadas</strong> (MLP) acrescenta uma ou mais camadas ocultas entre a entrada e a saída e, com ativação não linear, resolve o XOR. Sem função de ativação não linear, empilhar camadas não aumenta a capacidade da rede, porque a composição de transformações lineares continua sendo uma transformação linear. Ativações usuais: <strong>sigmoide</strong> (saída entre 0 e 1), <strong>tangente hiperbólica</strong> (entre -1 e 1), <strong>ReLU</strong> (zero para entradas negativas e a própria entrada para as positivas) e <strong>softmax</strong> na saída de classificação multiclasse, que transforma os valores em probabilidades que somam 1. O treino supervisionado repete um ciclo: a propagação para frente gera a previsão, a <strong>função de perda</strong> mede o erro, a <strong>retropropagação</strong> (backpropagation) calcula o gradiente da perda em relação a cada peso pela regra da cadeia, e o <strong>gradiente descendente</strong> atualiza os pesos no sentido oposto ao gradiente, em passos do tamanho da <strong>taxa de aprendizado</strong>. Nas redes <strong>feedforward</strong>, a informação segue em um só sentido, sem ciclos; nas <strong>recorrentes</strong>, a saída realimenta a rede.",
+   "resumo": "O <strong>neurônio artificial</strong> faz três coisas: multiplica cada entrada por um <strong>peso</strong> e soma os produtos, acrescenta um termo fixo chamado <strong>viés</strong> e aplica ao resultado uma <strong>função de ativação</strong>, que define a saída. Pesos e vieses são os parâmetros que o treino ajusta. O <strong>perceptron</strong> de camada única, de Rosenblatt, só separa classes que uma reta consegue separar (problemas linearmente separáveis) e, por isso, não aprende o OU exclusivo (XOR). O <strong>perceptron multicamadas</strong> (MLP) põe uma ou mais camadas ocultas entre a entrada e a saída e, com ativação não linear, resolve o XOR. Sem ativação não linear, empilhar camadas não adianta: a composição de transformações lineares continua linear. O treino supervisionado repete um ciclo: a rede calcula a previsão (propagação para frente), a <strong>função de perda</strong> mede o erro, a <strong>retropropagação</strong> calcula, pela regra da cadeia, quanto cada peso contribuiu para esse erro (o gradiente) e o <strong>gradiente descendente</strong> move os pesos no sentido que reduz a perda, em passos do tamanho da <strong>taxa de aprendizado</strong>. Na rede <strong>feedforward</strong>, a informação segue num só sentido, sem ciclos; na <strong>recorrente</strong>, a saída volta para a rede. A tabela mostra as funções de ativação e onde cada uma é usada.",
    "esquema": {
     "rotulo": "funções de ativação e onde usá-las",
     "html": "<table><thead><tr><th>Função</th><th>Saída</th><th>Uso típico</th><th>Ponto de atenção</th></tr></thead><tbody><tr><td>Degrau</td><td>0 ou 1</td><td>perceptron original</td><td>não é derivável em zero e tem derivada nula no resto, o que impede o gradiente</td></tr><tr><td>Sigmoide</td><td>entre 0 e 1</td><td>saída de classificação binária (probabilidade)</td><td>satura nos extremos e favorece o gradiente que desaparece</td></tr><tr><td>Tangente hiperbólica</td><td>entre -1 e 1</td><td>camadas ocultas de redes rasas e recorrentes</td><td>centrada em zero, mas também satura</td></tr><tr><td>ReLU</td><td>max(0, x)</td><td>camadas ocultas de redes profundas</td><td>barata e não satura para x positivo; neurônios podem morrer com x sempre negativo</td></tr><tr><td>Softmax</td><td>probabilidades que somam 1</td><td>saída de classificação multiclasse</td><td>não é usada para regressão</td></tr><tr><td>Linear (identidade)</td><td>qualquer valor real</td><td>saída de regressão</td><td>nas camadas ocultas anula o ganho de profundidade</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Entrada líquida",
+      "o_que_e": "Soma dos produtos de cada entrada pelo seu peso, mais o viés.",
+      "atencao": "Não é o produto das entradas.",
+      "grupo": "Estrutura da rede"
+     },
+     {
+      "nome": "Camada de entrada",
+      "o_que_e": "Nós de origem que só repassam os valores recebidos, sem calcular ativação.",
+      "atencao": "Não é a primeira camada oculta.",
+      "grupo": "Estrutura da rede"
+     },
+     {
+      "nome": "Camada oculta",
+      "o_que_e": "Camada entre a entrada e a saída, onde começam os cálculos de ativação.",
+      "grupo": "Estrutura da rede"
+     },
+     {
+      "nome": "Camada densa",
+      "o_que_e": "Cada neurônio liga-se a todas as saídas da camada anterior.",
+      "grupo": "Estrutura da rede"
+     },
+     {
+      "nome": "Camada de saída",
+      "o_que_e": "Na classificação em k classes exclusivas, k neurônios com softmax; na binária, um neurônio com sigmoide.",
+      "atencao": "Para estimar valor contínuo, como o montante do imposto devido, a saída usa ativação linear, e não softmax.",
+      "grupo": "Estrutura da rede"
+     },
+     {
+      "nome": "Função de perda",
+      "o_que_e": "Mede o erro da saída da rede inteira em relação ao valor esperado.",
+      "atencao": "É uma só para a rede, e não uma por neurônio.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Erro quadrático médio",
+      "o_que_e": "Função de perda comum em regressão.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Entropia cruzada",
+      "o_que_e": "Função de perda comum em classificação, com sigmoide na saída binária ou softmax na multiclasse.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Época",
+      "o_que_e": "Uma passagem completa por todo o conjunto de treino.",
+      "atencao": "Não é cada atualização de pesos.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Iteração",
+      "o_que_e": "Cada atualização dos pesos com um lote ou minilote.",
+      "atencao": "Uma época tem tantas iterações quantos forem os minilotes.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Gradiente descendente em lote",
+      "o_que_e": "Cada atualização usa todos os exemplos de treino.",
+      "atencao": "Passo estável, mas cada atualização é cara.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Gradiente estocástico",
+      "o_que_e": "Cada atualização usa um único exemplo.",
+      "atencao": "Menos memória e mais atualizações, com trajetória ruidosa.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Minilote",
+      "o_que_e": "Cada atualização usa um pequeno grupo de exemplos; é o mais usado na prática.",
+      "atencao": "Aproveita o paralelismo das GPUs.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Regularização L1",
+      "o_que_e": "Soma à perda os valores absolutos dos pesos.",
+      "atencao": "Zera muitos pesos, gera modelo esparso e funciona como seleção de variáveis.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Regularização L2 (weight decay)",
+      "o_que_e": "Soma à perda os quadrados dos pesos.",
+      "atencao": "Encolhe os pesos em direção a zero, mas raramente os zera.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Elastic net",
+      "o_que_e": "Combina as penalidades L1 e L2.",
+      "atencao": "O coeficiente da penalidade é hiperparâmetro.",
+      "grupo": "Treino"
+     },
+     {
+      "nome": "Aprendizado por correção de erro",
+      "o_que_e": "Ajusta os pesos pela diferença entre a saída desejada e a obtida.",
+      "atencao": "É a base da retropropagação.",
+      "grupo": "Regras de aprendizado"
+     },
+     {
+      "nome": "Aprendizado baseado em memória",
+      "o_que_e": "Guarda exemplos e decide pelos vizinhos mais próximos.",
+      "grupo": "Regras de aprendizado"
+     },
+     {
+      "nome": "Aprendizado hebbiano",
+      "o_que_e": "A conexão entre dois neurônios se fortalece quando eles são ativados juntos.",
+      "grupo": "Regras de aprendizado"
+     },
+     {
+      "nome": "Aprendizado competitivo",
+      "o_que_e": "Os neurônios de saída disputam a ativação e só o vencedor ajusta os pesos.",
+      "atencao": "É o dos mapas auto-organizáveis de Kohonen.",
+      "grupo": "Regras de aprendizado"
+     },
+     {
+      "nome": "Aprendizado de Boltzmann",
+      "o_que_e": "Regra de aprendizado de base estocástica.",
+      "grupo": "Regras de aprendizado"
+     },
+     {
+      "nome": "McCulloch e Pitts (1943)",
+      "o_que_e": "Primeiro modelo matemático do neurônio: entradas binárias e ativação de limiar.",
+      "atencao": "Pesos fixos, sem regra de aprendizado.",
+      "grupo": "História"
+     },
+     {
+      "nome": "Hebb (1949)",
+      "o_que_e": "Propôs o reforço da conexão entre neurônios ativados juntos.",
+      "grupo": "História"
+     },
+     {
+      "nome": "Rosenblatt (1958)",
+      "o_que_e": "Criou o perceptron, com regra de aprendizado dos pesos.",
+      "grupo": "História"
+     },
+     {
+      "nome": "Minsky e Papert (1969)",
+      "o_que_e": "Mostraram que o perceptron de uma camada não resolve problemas não linearmente separáveis, como o XOR.",
+      "atencao": "O resultado reduziu o interesse e o financiamento da área.",
+      "grupo": "História"
+     },
+     {
+      "nome": "Rumelhart, Hinton e Williams (1986)",
+      "o_que_e": "Difundiram a retropropagação, que permitiu treinar redes multicamadas.",
+      "grupo": "História"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Taxa de aprendizado alta demais faz a perda oscilar ou divergir, porque os passos ultrapassam o mínimo; baixa demais torna o treino lento e pode deixá-lo preso em regiões planas. Ela é hiperparâmetro.",
+    "Iniciar todos os pesos com o mesmo valor, como zero, faz os neurônios de uma camada receberem gradientes iguais e aprenderem a mesma coisa. Por isso os pesos começam com valores aleatórios pequenos.",
+    "O teorema da aproximação universal diz que uma rede feedforward com uma camada oculta, neurônios suficientes e ativação não linear pode aproximar qualquer função contínua num domínio compacto (fechado e limitado). É teorema de existência: não garante que o treino encontre os pesos nem diz quantos neurônios bastam.",
+    "O que define a rede feedforward é a ausência de ciclos, e não a presença de camadas ocultas: o perceptron de camada única também é feedforward.",
+    "Conta de parâmetros: uma camada densa com 100 entradas e 50 neurônios tem 100 × 50 = 5.000 pesos mais 50 vieses, total de 5.050.",
+    "Mais camadas e neurônios elevam o custo de memória e de processamento e não garantem resultado melhor: rede grande demais tende ao overfitting, e nenhuma profundidade assegura acurácia de 100%.",
+    "A retropropagação só calcula os gradientes e funciona com lote, estocástico ou minilote; quem atualiza os pesos é o otimizador. No estocástico, o ruído da trajetória pode até ajudar a sair de mínimos locais rasos.",
+    "Quanto ao sinal de treino, as redes neurais podem aprender de forma supervisionada, não supervisionada e por reforço."
+   ],
    "macetes": [
     {
      "sigla": "Perceptron sozinho não faz XOR",
@@ -178,8 +517,38 @@
     "gabarito": "E",
     "explicacao": "O objetivo do treino é minimizar a perda. O gradiente aponta para onde a perda cresce mais depressa, então o gradiente descendente move os pesos no sentido oposto ao gradiente, com passos controlados pela taxa de aprendizado."
    },
-   "aprofundamento": "<p><strong>Taxa de aprendizado.</strong> A taxa de aprendizado é um hiperparâmetro. Taxa alta demais faz a perda oscilar ou divergir, porque os passos ultrapassam o mínimo; taxa baixa demais torna o treino muito lento e pode deixá-lo preso em regiões planas.</p><p><strong>Lote, minilote e estocástico.</strong> No gradiente descendente em lote, cada atualização usa todo o conjunto de treino. No estocástico, cada atualização usa um único exemplo. No minilote, que é o mais usado na prática, cada atualização usa um pequeno grupo de exemplos.</p><p><strong>Função de perda conforme a tarefa.</strong> Para regressão, é comum o erro quadrático médio. Para classificação, é comum a entropia cruzada, combinada com sigmoide na saída binária ou com softmax na saída multiclasse.</p><p><strong>Pesos iniciais.</strong> Iniciar todos os pesos com o mesmo valor, como zero, faz os neurônios de uma camada receberem gradientes iguais e aprenderem a mesma coisa. Por isso, os pesos são iniciados com valores aleatórios pequenos.</p><p><strong>Aproximação universal.</strong> O teorema da aproximação universal afirma que uma rede feedforward com uma única camada oculta, com neurônios suficientes e ativação não linear, pode aproximar qualquer função contínua em um domínio compacto, isto é, fechado e limitado. O teorema garante a existência da rede, não que o treino vá encontrá-la nem quantos neurônios serão necessários.</p><p><strong>Neurônio de saída e número de classes.</strong> Para classificar em k classes mutuamente exclusivas, a camada de saída usa normalmente k neurônios com softmax. Para classificação binária, basta um neurônio com sigmoide.</p><p><strong>A função de perda é da rede, não do neurônio.</strong> Cada neurônio tem seus pesos, seu viés e sua função de ativação. A função de perda mede o erro da saída da rede inteira em relação ao valor esperado e é uma só para o treino, e não uma por neurônio. A entrada líquida do neurônio é a soma dos produtos de cada entrada pelo seu peso, mais o viés, e não o produto das entradas.</p><p><strong>Histórico das redes neurais.</strong> Em 1943, McCulloch e Pitts propuseram o primeiro modelo matemático do neurônio, com entradas binárias e função de ativação de limiar: o neurônio dispara se a soma ponderada alcança o limiar; os pesos eram fixos, sem regra de aprendizado. Em 1949, Hebb propôs que a conexão entre dois neurônios se fortalece quando eles são ativados juntos. Em 1958, Rosenblatt criou o perceptron, com regra de aprendizado dos pesos. Em 1969, Minsky e Papert demonstraram que o perceptron de uma camada não resolve problemas não linearmente separáveis, como o XOR, o que reduziu o interesse e o financiamento da área. A retropropagação, difundida por Rumelhart, Hinton e Williams em 1986, permitiu treinar redes multicamadas.</p><p><strong>Regras de aprendizado.</strong> Além da correção de erro, que ajusta os pesos pela diferença entre a saída desejada e a obtida e é a base da retropropagação, a literatura clássica descreve o aprendizado baseado em memória, que guarda exemplos e decide pelos vizinhos mais próximos; o hebbiano, que reforça a conexão entre neurônios ativados juntos; o competitivo, em que os neurônios de saída disputam a ativação e só o vencedor ajusta seus pesos, como nos mapas auto-organizáveis de Kohonen; e o de Boltzmann, de base estocástica. Quanto ao sinal de treino, as redes neurais podem aprender de forma supervisionada, não supervisionada e por reforço.</p><p><strong>Regularização L1 e L2.</strong> A regularização acrescenta à função de perda uma penalidade pelo tamanho dos pesos. A L1 soma os valores absolutos dos pesos, tende a zerar muitos deles e gera modelos esparsos, funcionando como seleção de variáveis. A L2 soma os quadrados dos pesos e os encolhe em direção a zero, mas raramente os zera; na atualização por gradiente, equivale ao decaimento de pesos (weight decay). O elastic net combina as duas penalidades. Em ambas, o coeficiente da penalidade é um hiperparâmetro.</p><p><strong>Lote, estocástico e minilote: quem usa o quê.</strong> O gradiente em lote usa todos os exemplos de treino em cada atualização: o passo é estável, mas cada atualização é cara e exige processar a base inteira de uma vez. O gradiente estocástico usa um exemplo por atualização: consome menos memória e atualiza mais vezes, mas com trajetória ruidosa, o que pode até ajudar a sair de mínimos locais rasos. O minilote fica no meio-termo e aproveita o paralelismo das GPUs. A retropropagação funciona com qualquer das três formas, porque só calcula os gradientes; a atualização dos pesos cabe ao otimizador.</p><p><strong>Camadas da rede feedforward.</strong> A camada de entrada é formada por nós de origem, que só repassam os valores recebidos, sem calcular ativação; ela não é camada oculta. Camadas ocultas são as que ficam entre a entrada e a saída. O que define uma rede feedforward é a ausência de ciclos, com a informação seguindo só da entrada para a saída, e não a presença de camadas ocultas: o perceptron de camada única também é feedforward.</p><p><strong>Tamanho da rede e custo.</strong> Em uma camada densa, cada neurônio liga-se a todas as saídas da camada anterior. Uma camada com 100 entradas e 50 neurônios tem 100 × 50 = 5.000 pesos mais 50 vieses, total de 5.050 parâmetros. Aumentar camadas e neurônios eleva de modo significativo o custo de memória e de processamento e não garante melhor resultado: redes grandes demais tendem ao overfitting, e nenhuma quantidade de camadas assegura acurácia de 100%.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Cada neurônio tem sua própria função de perda, ajustada de forma independente.",
+     "certo": "O neurônio tem pesos, viés e ativação; a perda é uma só, da saída da rede inteira.",
+     "fonte": "Questões do app sobre redes neurais"
+    },
+    {
+     "errado": "Minsky e Papert mostraram que o perceptron de uma camada resolve o XOR.",
+     "certo": "Mostraram o contrário: ele não resolve problemas não linearmente separáveis, e o financiamento caiu.",
+     "fonte": "Questões do app sobre redes neurais"
+    },
+    {
+     "errado": "No aprendizado hebbiano, só o neurônio vencedor ajusta os pesos, como nos mapas de Kohonen.",
+     "certo": "Isso é o aprendizado competitivo. No hebbiano, a conexão se fortalece quando dois neurônios são ativados juntos.",
+     "fonte": "Questões do app sobre treinamento de redes neurais"
+    },
+    {
+     "errado": "A regularização L2 soma os valores absolutos dos pesos e zera muitos deles.",
+     "certo": "Isso é a L1. A L2 soma os quadrados e encolhe os pesos sem costumar zerá-los.",
+     "fonte": "Questões do app sobre treinamento de redes neurais"
+    },
+    {
+     "errado": "No gradiente estocástico, cada atualização usa todos os exemplos; no em lote, um só.",
+     "certo": "É o inverso: o em lote usa todos; o estocástico, um exemplo por vez.",
+     "fonte": "Questões do app sobre treinamento de redes neurais"
+    },
+    {
+     "errado": "Época é cada atualização dos pesos feita com um minilote.",
+     "certo": "Isso é a iteração. A época é uma passagem completa por todo o conjunto de treino.",
+     "fonte": "Questões do app sobre treinamento de redes neurais"
+    }
+   ],
    "relacionados": [
     "ia-aprendizado-de-maquina-e-deep-learning",
     "deep-learning-arquiteturas-e-treinamento"
@@ -239,12 +608,168 @@
     "decaimento da taxa de aprendizado",
     "pre-processamento"
    ],
-   "resumo": "O <strong>deep learning</strong> usa redes neurais com muitas camadas ocultas, que aprendem uma hierarquia de representações: as primeiras camadas captam padrões simples e as seguintes os combinam em padrões mais abstratos. A profundidade trouxe o problema do <strong>gradiente que desaparece</strong>: na retropropagação, o gradiente é um produto de derivadas camada a camada e, com ativações que saturam, como a sigmoide, fica tão pequeno que as camadas iniciais quase não aprendem. A ReLU, a inicialização adequada, a normalização em lote e as conexões residuais atenuam o problema. As principais arquiteturas são: as <strong>redes convolucionais</strong> (CNN), para dados em grade como imagens, com filtros de pesos compartilhados e camadas de pooling; as <strong>redes recorrentes</strong> (RNN), para sequências, com um estado oculto que carrega a memória do que já foi lido; a <strong>LSTM</strong>, recorrente com portas de esquecimento, entrada e saída, criada para reter dependências longas; e o <strong>transformer</strong>, que substitui a recorrência pelo mecanismo de <strong>autoatenção</strong> e processa todos os elementos da sequência em paralelo. Há ainda o <strong>autoencoder</strong>, que comprime a entrada e tenta reconstruí-la, e a <strong>GAN</strong>, em que um gerador e um discriminador treinam um contra o outro. Contra o overfitting, usam-se <strong>dropout</strong>, regularização dos pesos, parada antecipada e aumento de dados.",
+   "para_entender": [
+    {
+     "texto": "<strong>Retropropagação e gradiente descendente:</strong> a retropropagação calcula quanto cada peso contribuiu para o erro, e o gradiente descendente ajusta os pesos para reduzir esse erro.",
+     "tema": "redes-neurais-artificiais"
+    },
+    {
+     "texto": "<strong>Overfitting:</strong> o modelo vai bem nos dados de treino e mal em dados novos, porque decorou em vez de generalizar.",
+     "tema": "ia-aprendizado-de-maquina-e-deep-learning"
+    }
+   ],
+   "resumo": "O <strong>deep learning</strong> usa redes neurais com muitas camadas ocultas, que aprendem uma hierarquia de representações: as primeiras camadas captam padrões simples, como bordas, e as seguintes os combinam em padrões mais abstratos, como rostos. A profundidade trouxe o problema do <strong>gradiente que desaparece</strong>: o gradiente que chega às camadas iniciais é um produto de derivadas, camada a camada, e, com ativações que <strong>saturam</strong> (ficam planas nos extremos, com derivada quase nula), como a sigmoide, esse produto encolhe tanto que as primeiras camadas quase não aprendem. A ReLU, a inicialização adequada dos pesos, a normalização em lote e as conexões residuais atenuam o problema. Cada tipo de dado pede uma arquitetura: dado em grade, como imagem, vai para a rede convolucional; sequência, como texto, vai para a recorrente ou para o transformer (tabela). Contra o overfitting, usam-se <strong>dropout</strong>, regularização dos pesos, parada antecipada e aumento de dados.",
    "esquema": {
     "rotulo": "arquiteturas profundas e o dado que cada uma trata",
     "html": "<table><thead><tr><th>Arquitetura</th><th>Dado típico</th><th>Mecanismo central</th><th>Armadilha de prova</th></tr></thead><tbody><tr><td>CNN (convolucional)</td><td>imagens e outros dados em grade</td><td>filtros convolucionais com pesos compartilhados e pooling</td><td>o pooling não tem pesos treináveis; quem aprende são os filtros convolucionais</td></tr><tr><td>RNN (recorrente)</td><td>sequências: texto, séries temporais, áudio</td><td>estado oculto realimentado a cada passo</td><td>processa passo a passo e sofre com dependências longas</td></tr><tr><td>LSTM e GRU</td><td>sequências longas</td><td>portas que controlam o que guardar e o que esquecer</td><td>continuam recorrentes, sem o paralelismo do transformer</td></tr><tr><td>Transformer</td><td>texto e, hoje, imagem e áudio</td><td>autoatenção entre todos os elementos e codificação posicional</td><td>não usa recorrência; a ordem vem da codificação posicional</td></tr><tr><td>Autoencoder</td><td>dados sem rótulo</td><td>codificador, gargalo e decodificador que reconstrói a entrada</td><td>erro de reconstrução alto sinaliza anomalia</td></tr><tr><td>GAN</td><td>geração de imagens e dados sintéticos</td><td>gerador contra discriminador</td><td>o discriminador não gera; ele julga se o dado é real</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Filtro convolucional",
+      "o_que_e": "Pequena matriz de pesos que desliza sobre a entrada e responde a um padrão.",
+      "atencao": "O mesmo filtro percorre toda a imagem (pesos compartilhados).",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Mapa de características",
+      "o_que_e": "Saída da convolução: cada posição corresponde a uma região da entrada.",
+      "atencao": "Preserva a disposição espacial dos padrões encontrados.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Stride (passo)",
+      "o_que_e": "Tamanho do deslocamento do filtro a cada aplicação.",
+      "atencao": "Stride maior reduz a saída.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Padding (preenchimento)",
+      "o_que_e": "Moldura de valores, em geral zeros, acrescentada às bordas da entrada.",
+      "atencao": "Padding maior aumenta a saída.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Pooling",
+      "o_que_e": "Reduz a dimensão espacial: o max pooling pega o maior valor da janela, o average pooling tira a média.",
+      "atencao": "Não tem pesos treináveis; dá alguma tolerância a pequenos deslocamentos.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Flatten",
+      "o_que_e": "Achata os mapas de características num vetor para as camadas densas.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Camada totalmente conectada (densa)",
+      "o_que_e": "Combina as características extraídas e classifica, com softmax na saída.",
+      "atencao": "Não faz convolução.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "CNN 1D",
+      "o_que_e": "Convolução unidimensional, aplicada a séries temporais e texto.",
+      "atencao": "Existe, mas não é a escolha principal para sequências.",
+      "grupo": "Rede convolucional (CNN)"
+     },
+     {
+      "nome": "Laço de realimentação (RNN)",
+      "o_que_e": "O estado oculto de um passo volta como entrada no passo seguinte.",
+      "atencao": "Os mesmos pesos valem em todos os passos.",
+      "grupo": "Sequências"
+     },
+     {
+      "nome": "Portas da LSTM",
+      "o_que_e": "Portas de esquecimento, entrada e saída controlam o que a célula de memória guarda.",
+      "atencao": "A LSTM continua recorrente, lendo passo a passo.",
+      "grupo": "Sequências"
+     },
+     {
+      "nome": "GRU",
+      "o_que_e": "Variante recorrente mais simples que a LSTM, também com portas.",
+      "grupo": "Sequências"
+     },
+     {
+      "nome": "Autoatenção",
+      "o_que_e": "Cada elemento da sequência é comparado com todos os outros de uma vez.",
+      "atencao": "Substitui a recorrência no transformer.",
+      "grupo": "Sequências"
+     },
+     {
+      "nome": "Codificação posicional",
+      "o_que_e": "Informação de ordem somada às entradas do transformer.",
+      "atencao": "Sem ela, a atenção não percebe a ordem.",
+      "grupo": "Sequências"
+     },
+     {
+      "nome": "Gradiente que explode",
+      "o_que_e": "Os gradientes crescem sem controle e desestabilizam o treino, comum em redes recorrentes.",
+      "atencao": "O recorte de gradiente (gradient clipping) limita sua norma.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Conexão residual (ResNet)",
+      "o_que_e": "Atalho que soma a entrada do bloco à sua saída.",
+      "atencao": "Dá ao gradiente caminho direto às camadas iniciais e viabilizou redes com mais de cem camadas.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Normalização em lote (batch normalization)",
+      "o_que_e": "Padroniza as ativações de uma camada com a média e a variância do minilote.",
+      "atencao": "Estabiliza e acelera o treino.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Dropout",
+      "o_que_e": "Desliga neurônios ao acaso durante o treino, para a rede não depender de poucos caminhos.",
+      "atencao": "Na inferência, todos os neurônios ficam ativos.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Parada antecipada",
+      "o_que_e": "Interrompe o treino quando o erro de validação para de melhorar por algumas épocas.",
+      "atencao": "Olha a validação, mesmo que o erro de treino ainda caia.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Decaimento da taxa de aprendizado (learning rate decay)",
+      "o_que_e": "A taxa começa maior e é reduzida ao longo do treino, em degraus, exponencialmente ou em curva de cosseno.",
+      "atencao": "Passos largos no início, ajuste fino perto do mínimo.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Aprendizado por transferência",
+      "o_que_e": "Reaproveita um modelo pré-treinado em grande base e ajusta só as últimas camadas ou o modelo todo (ajuste fino).",
+      "atencao": "É a saída quando há poucos exemplos rotulados.",
+      "grupo": "Treino de redes profundas"
+     },
+     {
+      "nome": "Autoencoder",
+      "o_que_e": "Rede que comprime a entrada num gargalo e tenta reconstruí-la, treinada sem rótulo.",
+      "atencao": "Erro de reconstrução alto sinaliza registro fora do padrão, como uma operação fiscal atípica.",
+      "grupo": "Outras arquiteturas"
+     },
+     {
+      "nome": "GAN",
+      "o_que_e": "Um gerador produz amostras e um discriminador julga se são reais; treinam um contra o outro.",
+      "atencao": "O discriminador não gera.",
+      "grupo": "Outras arquiteturas"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Largura da saída da convolução: (N - F + 2P) / S + 1, com entrada N, filtro F, padding P e stride S. Entrada 32, filtro 5, sem padding e stride 1 dá 28; com padding 2, dá 32. Entrada 7, filtro 3, sem padding e stride 2 dá 3. A profundidade da saída é igual ao número de filtros da camada.",
+    "A convolução não descarta a posição espacial nem tem por função principal reduzir a dimensão: com stride 1 e padding adequado, a saída tem a mesma altura e largura da entrada. Quem reduz é sobretudo o pooling ou um stride maior que 1.",
+    "O compartilhamento de pesos reduz muito o número de parâmetros em comparação com uma camada densa ligada a cada pixel e permite reconhecer o mesmo padrão em qualquer posição.",
+    "Fluxo da CNN de classificação: convolução com ReLU e pooling extraem características em níveis crescentes; o flatten achata; as camadas densas classificam. A convolução sozinha não classifica.",
+    "O deep learning reduz a engenharia manual de características, mas não dispensa o pré-processamento: limpeza, tratamento de valores ausentes, normalização, redimensionamento de imagens e tokenização de texto continuam necessários.",
+    "A derivada da sigmoide vale no máximo 0,25 e quase zera nos extremos, por isso ela é má escolha para camadas ocultas profundas, embora siga útil na saída binária. A ReLU tem derivada 1 para entradas positivas.",
+    "A rede recorrente desenhada desdobrada no tempo mostra cópias, mas não há camadas duplicadas com pesos diferentes.",
+    "O deep learning decolou depois de 2010 por três fatores usualmente apontados: grandes bases rotuladas, GPUs, que fazem em paralelo as multiplicações de matrizes, e melhorias de técnica, como a ReLU e o dropout."
+   ],
    "macetes": [
     {
      "sigla": "Grade vai para a CNN, sequência vai para a RNN",
@@ -264,8 +789,38 @@
     "gabarito": "E",
     "explicacao": "O item descreveu o transformer. A LSTM continua sendo uma rede recorrente, que lê a sequência passo a passo; ela atenua o gradiente que desaparece com uma célula de memória e portas de esquecimento, entrada e saída. Quem eliminou a recorrência e usa autoatenção em paralelo é o transformer."
    },
-   "aprofundamento": "<p><strong>Pooling não tem pesos treináveis.</strong> O max pooling escolhe o maior valor de cada janela e o average pooling tira a média. Ambos reduzem a dimensão espacial dos mapas de características e dão alguma tolerância a pequenos deslocamentos, sem parâmetros a aprender. Quem tem pesos treináveis são os filtros das camadas convolucionais.</p><p><strong>Compartilhamento de pesos.</strong> Na CNN, o mesmo filtro percorre toda a imagem. Isso reduz muito o número de parâmetros em comparação com uma camada densa ligada a cada pixel e permite reconhecer o mesmo padrão em qualquer posição.</p><p><strong>Gradiente que explode.</strong> O problema oposto ao gradiente que desaparece é o gradiente que explode, comum em redes recorrentes, em que os gradientes crescem sem controle e desestabilizam o treino. O recorte de gradiente (gradient clipping) limita sua norma.</p><p><strong>Conexões residuais.</strong> Nas redes residuais (ResNet), a entrada de um bloco é somada à sua saída por um atalho. O gradiente encontra um caminho direto para as camadas iniciais, o que viabilizou redes com mais de cem camadas.</p><p><strong>Aprendizado por transferência.</strong> No aprendizado por transferência, um modelo pré-treinado em uma grande base é reaproveitado em outra tarefa, ajustando-se só as últimas camadas ou todo o modelo com poucos dados (ajuste fino). É a saída quando há poucos exemplos rotulados.</p><p><strong>Autoencoder na detecção de anomalias.</strong> O autoencoder é treinado sem rótulo para reconstruir dados normais. Um registro que ele reconstrói mal, com erro alto, foge do padrão aprendido e pode ser separado para análise, como uma operação fiscal atípica.</p><p><strong>Por que o deep learning decolou depois de 2010.</strong> Os fatores usualmente apontados são a disponibilidade de grandes bases rotuladas, as GPUs, que fazem em paralelo as multiplicações de matrizes, e melhorias de técnica, como a ReLU e o dropout.</p><p><strong>Convolução preserva a posição; pooling reduz.</strong> A convolução desliza o filtro sobre a entrada e gera um mapa de características em que cada posição corresponde a uma região da entrada: o mapa preserva a disposição espacial dos padrões encontrados. Com stride 1 e preenchimento adequado, a saída tem a mesma altura e largura da entrada. Quem reduz a dimensão espacial é sobretudo o pooling ou um stride maior que 1. Por isso, é errado dizer que a convolução descarta a posição espacial ou que sua função principal é reduzir a dimensionalidade.</p><p><strong>Stride, padding e tamanho da saída.</strong> O stride é o tamanho do passo com que o filtro se desloca; o padding é a moldura de valores, em geral zeros, acrescentada às bordas da entrada. Para entrada de largura N, filtro F, padding P e stride S, a largura da saída é (N - F + 2P) / S + 1. Exemplo: entrada 32, filtro 5, sem padding e stride 1 dá (32 - 5) / 1 + 1 = 28; com padding 2, dá (32 - 5 + 4) / 1 + 1 = 32, e a dimensão se mantém. Entrada 7, filtro 3, sem padding e stride 2 dá (7 - 3) / 2 + 1 = 3. Stride maior reduz a saída; padding maior a aumenta. A profundidade da saída é igual ao número de filtros da camada.</p><p><strong>Estrutura completa da CNN.</strong> As camadas de convolução, com ativação ReLU, e as de pooling extraem as características em níveis crescentes de abstração. Em seguida, os mapas são achatados em um vetor (flatten) e passam por uma ou mais camadas totalmente conectadas (densas), que combinam as características e classificam, com softmax na saída. A camada densa não faz convolução, e a convolução sozinha não classifica: o fluxo é aplicar filtros, extrair características e só então classificar.</p><p><strong>Deep learning não elimina o pré-processamento.</strong> O deep learning reduz a engenharia manual de características, mas não dispensa o pré-processamento: limpeza de registros com erro, tratamento de valores ausentes, normalização ou padronização das entradas, redimensionamento de imagens e tokenização de texto continuam necessários. Uma CNN aprende os filtros sozinha, mas recebe imagens de tamanho padronizado e com valores normalizados.</p><p><strong>CNN e dados sequenciais; o laço da RNN.</strong> Existe convolução unidimensional, aplicada a séries temporais e a texto, mas a CNN não é especialmente adequada nem usada principalmente para processamento sequencial: seu campo natural são dados em grade, como imagens. Para sequências, as escolhas típicas são as redes recorrentes e o transformer. A RNN se define pelos laços de realimentação: o estado oculto de um passo volta como entrada no passo seguinte, com os mesmos pesos em todos os passos. Desenhar a rede desdobrada no tempo mostra cópias, mas não há camadas duplicadas com pesos diferentes.</p><p><strong>Sigmoide nas camadas ocultas e ReLU.</strong> A derivada da sigmoide vale no máximo 0,25 e fica perto de zero quando a entrada é muito positiva ou muito negativa (saturação). Em rede profunda, o produto dessas derivadas encolhe o gradiente, e por isso a sigmoide não é boa escolha para camadas ocultas profundas; ela segue útil na saída binária. A ReLU tem derivada 1 para entradas positivas, o que mitiga o gradiente que desaparece.</p><p><strong>Decaimento da taxa de aprendizado e parada antecipada.</strong> No decaimento da taxa de aprendizado (learning rate decay), a taxa começa maior, para avançar depressa, e é reduzida ao longo do treino, em degraus, de forma exponencial ou em curva de cosseno, para que os passos finais se acomodem perto do mínimo. Na parada antecipada, o treino é interrompido quando o erro no conjunto de validação deixa de melhorar por algumas épocas, mesmo que o erro de treino continue caindo, o que evita o overfitting.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A convolução não preserva a posição espacial e serve sobretudo para reduzir a dimensionalidade.",
+     "certo": "O mapa de características preserva a posição; quem reduz a dimensão é o pooling ou o stride maior que 1.",
+     "fonte": "Questões do app sobre arquiteturas profundas"
+    },
+    {
+     "errado": "Filtro 3 × 3 com stride 2 e sem padding numa entrada 7 × 7 gera mapa 5 × 5.",
+     "certo": "Gera 3 × 3: (7 - 3) / 2 + 1 = 3. O 5 × 5 seria com stride 1.",
+     "fonte": "Questões do app sobre arquiteturas profundas"
+    },
+    {
+     "errado": "As camadas de max pooling têm pesos treináveis e aprendem os filtros de bordas.",
+     "certo": "O pooling não tem parâmetros; quem aprende os filtros são as camadas convolucionais.",
+     "fonte": "Questões do app sobre arquiteturas profundas"
+    },
+    {
+     "errado": "O dropout desativa neurônios também na inferência.",
+     "certo": "O dropout atua só no treino; na inferência, todos os neurônios ficam ativos.",
+     "fonte": "Questões do app sobre deep learning"
+    },
+    {
+     "errado": "Na GAN, o discriminador produz os dados sintéticos e o gerador avalia se são reais.",
+     "certo": "É o inverso: o gerador produz e o discriminador julga.",
+     "fonte": "Questões do app sobre arquiteturas profundas"
+    },
+    {
+     "errado": "A parada antecipada interrompe o treino quando o erro de treino deixa de cair.",
+     "certo": "Ela observa o erro de validação; o de treino pode continuar caindo.",
+     "fonte": "Questões do app sobre deep learning"
+    }
+   ],
    "relacionados": [
     "redes-neurais-artificiais",
     "visao-computacional",
@@ -336,12 +891,208 @@
     "reconhecimento de fala",
     "modelo acustico"
    ],
-   "resumo": "A <strong>mineração de texto</strong> extrai padrões e conhecimento de textos não estruturados, como descrições de produtos em notas fiscais, petições e denúncias. É parte do processamento de linguagem natural e segue etapas: coleta, pré-processamento, representação numérica, aplicação do algoritmo e avaliação. No <strong>pré-processamento</strong>, a <strong>tokenização</strong> divide o texto em unidades (tokens); a normalização padroniza caixa, acentos e pontuação; a remoção de <strong>stop words</strong> descarta palavras muito frequentes e pouco informativas, como artigos e preposições; o <strong>stemming</strong> corta afixos por regras e reduz a palavra a um radical, que pode não ser palavra existente; a <strong>lematização</strong> usa análise morfológica e dicionário para chegar ao lema, a forma canônica (o verbo no infinitivo, o substantivo no singular). Na representação, o <strong>bag of words</strong> conta as ocorrências de cada termo e ignora a ordem das palavras, gerando uma matriz documento-termo esparsa. O <strong>TF-IDF</strong> pondera cada termo pela frequência no documento e pelo inverso da frequência nos documentos da coleção, o que valoriza termos que distinguem um documento. Os <strong>n-gramas</strong> preservam parte da ordem local. Os <strong>embeddings</strong> representam palavras como vetores densos em que termos usados em contextos parecidos ficam próximos. As tarefas usuais são classificação de documentos, agrupamento, <strong>análise de sentimentos</strong>, <strong>reconhecimento de entidades nomeadas</strong>, modelagem de tópicos e sumarização.",
+   "resumo": "A <strong>mineração de texto</strong> extrai padrões e conhecimento de textos <strong>não estruturados</strong>, isto é, escritos livremente, sem campos fixos, como descrições de produtos em notas fiscais, petições e denúncias. É uma aplicação do <strong>processamento de linguagem natural</strong> (PLN), a área da IA que permite ao computador analisar, compreender e gerar linguagem humana. O trabalho segue etapas: coleta, pré-processamento, representação numérica, aplicação do algoritmo e avaliação. O <strong>pré-processamento</strong> limpa e padroniza o texto: divide em unidades (tokens), padroniza caixa, acentos e pontuação, descarta as <strong>stop words</strong> (palavras muito frequentes e pouco informativas, como artigos e preposições) e reduz as palavras a uma forma comum. A <strong>representação</strong> transforma cada documento em números, porque o algoritmo só trabalha com vetores; a mais simples é a <strong>matriz documento-termo</strong>, com uma linha por documento e uma coluna por termo, quase toda preenchida de zeros (esparsa). A tabela mostra as técnicas que a banca troca. As tarefas usuais são classificar e agrupar documentos, medir sentimentos, achar entidades nomeadas, descobrir tópicos e resumir.",
    "esquema": {
     "rotulo": "técnicas de texto que a banca troca",
     "html": "<table><thead><tr><th>Técnica</th><th>O que faz</th><th>Exemplo</th><th>Confusão comum</th></tr></thead><tbody><tr><td>Tokenização</td><td>divide o texto em tokens</td><td>\"nota fiscal eletrônica\" vira três tokens</td><td>não é o mesmo que remover stop words</td></tr><tr><td>Stemming</td><td>corta afixos por regras e gera um radical</td><td>\"fiscalização\" e \"fiscalizar\" viram algo como \"fiscaliz\"</td><td>o radical pode não ser palavra do dicionário</td></tr><tr><td>Lematização</td><td>leva à forma canônica com análise morfológica</td><td>\"fiscalizamos\" vira \"fiscalizar\"</td><td>é mais custosa e mais precisa que o stemming</td></tr><tr><td>Bag of words</td><td>conta termos e ignora a ordem</td><td>\"empresa autuou fiscal\" e \"fiscal autuou empresa\" têm o mesmo vetor</td><td>não capta ordem nem sentido</td></tr><tr><td>TF-IDF</td><td>frequência no documento vezes raridade na coleção</td><td>termo presente em todos os documentos recebe peso zero</td><td>não é a mera contagem de ocorrências</td></tr><tr><td>Embeddings (word2vec)</td><td>vetor denso aprendido pelo contexto de uso</td><td>\"imposto\" fica perto de \"tributo\"</td><td>no word2vec cada palavra tem um vetor só, qualquer que seja o sentido</td></tr><tr><td>Modelagem de tópicos (LDA)</td><td>descobre temas latentes em uma coleção</td><td>separar denúncias por assunto</td><td>é não supervisionada, sem rótulos prévios</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Compreensão e geração",
+      "o_que_e": "As duas metades do PLN: entender o que foi dito e produzir texto.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Abordagens do PLN",
+      "o_que_e": "Regras escritas por linguistas, estatística sobre corpora anotados e deep learning com embeddings e transformers.",
+      "atencao": "Hoje se combinam; regras não excluem modelos estatísticos.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível fonético e fonológico",
+      "o_que_e": "Estuda os sons da fala.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível morfológico",
+      "o_que_e": "Estrutura interna das palavras: radicais, prefixos, sufixos e flexões.",
+      "atencao": "É onde atuam o stemming e a lematização.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível léxico",
+      "o_que_e": "Significado das palavras isoladas.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível sintático",
+      "o_que_e": "Estrutura da frase e relações gramaticais, pela análise sintática (parsing).",
+      "atencao": "Não trata de radicais e sufixos.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível semântico",
+      "o_que_e": "Significado da frase.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível pragmático",
+      "o_que_e": "Sentido conforme o contexto e a intenção de quem fala.",
+      "atencao": "Ex.: \"você pode fechar a janela?\" é um pedido.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Nível discursivo",
+      "o_que_e": "Relações entre frases, como a retomada de um termo por um pronome.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Ambiguidade lexical (polissemia)",
+      "o_que_e": "A mesma palavra tem vários sentidos, como \"banco\" ou \"manga\".",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Ambiguidade sintática",
+      "o_que_e": "A frase admite mais de uma estrutura.",
+      "atencao": "Em \"o auditor viu o contribuinte com o binóculo\", não se sabe quem estava com o binóculo.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Desambiguação do sentido",
+      "o_que_e": "Usa o contexto para escolher o significado correto da palavra.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "POS tagging (etiquetagem morfossintática)",
+      "o_que_e": "Atribui a cada token sua classe gramatical conforme o contexto.",
+      "atencao": "Vem antes da lematização, que depende dela.",
+      "grupo": "PLN e linguística"
+     },
+     {
+      "nome": "Over-stemming",
+      "o_que_e": "Corte longo demais: palavras de sentidos diferentes ficam com o mesmo radical.",
+      "atencao": "Ex.: \"comunicação\" e \"comunidade\" viram \"comun\" (falso positivo).",
+      "grupo": "Pré-processamento"
+     },
+     {
+      "nome": "Under-stemming",
+      "o_que_e": "Corte curto demais: formas da mesma palavra ficam com radicais diferentes.",
+      "atencao": "Ex.: \"fazer\" e \"fiz\"; verbos irregulares são a causa típica (falso negativo).",
+      "grupo": "Pré-processamento"
+     },
+     {
+      "nome": "Tesauro",
+      "o_que_e": "Vocabulário controlado com sinônimos e termos mais amplos, mais específicos e relacionados.",
+      "atencao": "Agrupa \"tributo\" e \"imposto\"; o stemming não conhece sinônimos.",
+      "grupo": "Pré-processamento"
+     },
+     {
+      "nome": "Expressão regular",
+      "o_que_e": "Padrão de busca para textos de formato fixo, como CNPJ, chave de nota fiscal ou datas.",
+      "atencao": "Costuma bastar e é mais simples e auditável que um modelo treinado.",
+      "grupo": "Pré-processamento"
+     },
+     {
+      "nome": "n-grama",
+      "o_que_e": "Sequência de n termos seguidos tratada como unidade.",
+      "atencao": "Recupera parte da ordem que o bag of words perde.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "Similaridade do cosseno",
+      "o_que_e": "Mede o ângulo entre dois vetores de documentos.",
+      "atencao": "Não depende do tamanho do texto.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "Lei de Zipf",
+      "o_que_e": "A frequência de uma palavra é aproximadamente inversa à sua posição no ranking: poucas são muito frequentes.",
+      "atencao": "Justifica remover stop words e pesar pelo IDF.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "CBOW (word2vec)",
+      "o_que_e": "As palavras do contexto preveem a palavra central.",
+      "atencao": "Mais rápido de treinar.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "Skip-gram (word2vec)",
+      "o_que_e": "A palavra central prevê as palavras do contexto.",
+      "atencao": "Costuma representar melhor palavras raras.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "GloVe",
+      "o_que_e": "Aprende os vetores pela matriz global de coocorrência do corpus.",
+      "atencao": "O word2vec aprende pela janela local.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "FastText",
+      "o_que_e": "Representa a palavra pela soma de vetores de n-gramas de caracteres.",
+      "atencao": "Gera vetor até para palavra que não viu no treino.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "Embedding contextual (BERT)",
+      "o_que_e": "O vetor da palavra muda conforme a frase, e \"banco\" de praça e \"banco\" financeiro ganham vetores distintos.",
+      "atencao": "No word2vec, GloVe e FastText, o embedding é estático.",
+      "grupo": "Representação"
+     },
+     {
+      "nome": "Reconhecimento de entidades nomeadas (NER)",
+      "o_que_e": "Identifica e classifica trechos como pessoa, organização, local, data e valor monetário.",
+      "atencao": "Ex.: razão social, CNPJ e valor do crédito num auto de infração.",
+      "grupo": "Tarefas"
+     },
+     {
+      "nome": "Sentimento por léxico",
+      "o_que_e": "Dicionário de palavras com polaridade e regras para negação e intensificadores.",
+      "atencao": "Não precisa de dados rotulados.",
+      "grupo": "Tarefas"
+     },
+     {
+      "nome": "Sentimento por aprendizado de máquina",
+      "o_que_e": "Classificador treinado com textos rotulados, do Naive Bayes aos transformers.",
+      "atencao": "Capta melhor o contexto.",
+      "grupo": "Tarefas"
+     },
+     {
+      "nome": "Sentimento híbrido e por aspecto",
+      "o_que_e": "O híbrido junta léxico e aprendizado; o por aspecto avalia cada característica citada, como preço e atendimento.",
+      "atencao": "Também há classificação por polaridade (positivo, negativo, neutro) e por emoção (alegria, raiva, medo).",
+      "grupo": "Tarefas"
+     },
+     {
+      "nome": "Seq2seq",
+      "o_que_e": "Tarefa de sequência para sequência, com codificador e decodificador.",
+      "atencao": "Ex.: tradução, sumarização e resposta a perguntas.",
+      "grupo": "Tarefas"
+     },
+     {
+      "nome": "Reconhecimento de fala",
+      "o_que_e": "O modelo acústico estima os fonemas, o dicionário de pronúncia liga sons a palavras e o modelo de linguagem escolhe a sequência mais provável.",
+      "atencao": "Modelos neurais de ponta a ponta juntam as etapas numa só rede.",
+      "grupo": "Tarefas"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Conta do TF-IDF = tf × log(N / df): termo que aparece 3 vezes num documento, numa coleção de 1.000 documentos em que 10 o contêm, com log na base 10, tem IDF = log(100) = 2 e TF-IDF = 3 × 2 = 6.",
+    "Com vetores de componentes não negativos, como os de TF-IDF, a similaridade do cosseno fica entre 0 (nenhum termo em comum) e 1 (mesma direção).",
+    "Remover stop words nem sempre ajuda: em análise de sentimentos, descartar \"não\" inverte o sentido de \"não recomendo\". A lista depende da tarefa.",
+    "Ordem usual do pipeline: tokenizar, etiquetar e lematizar. A lematização depende da classe gramatical: \"casa\" substantivo tem lema \"casa\"; em \"ele casa amanhã\", é verbo e tem lema \"casar\".",
+    "A lematização resolve parte do under-stemming, porque recorre a dicionário.",
+    "O NER é, em regra, rotulagem supervisionada de sequência: cada token recebe etiqueta de início de entidade, continuação ou fora, aprendida de textos anotados, com CRF, redes recorrentes ou transformers ajustados. O k-means não faz NER, porque só agrupa e não atribui categorias.",
+    "O word2vec é rede neural rasa, com uma camada de projeção e sem mecanismo de atenção, que aprende pela janela de contexto local.",
+    "Ironia e sarcasmo continuam difíceis para a análise de sentimentos, que é tarefa de PLN, e não de visão computacional.",
+    "No reconhecimento de fala clássico, a transcrição não é direta: o modelo de linguagem resolve os casos em que sons parecidos formam palavras diferentes."
+   ],
    "macetes": [
     {
      "sigla": "Stemming corta, lematização consulta",
@@ -361,8 +1112,43 @@
     "gabarito": "E",
     "explicacao": "O item descreveu o stemming. A lematização usa análise morfológica e dicionário para chegar ao lema, a forma canônica real da palavra, como o infinitivo do verbo. Quem corta sufixos por regras e pode gerar radicais inexistentes é o stemming."
    },
-   "aprofundamento": "<p><strong>Cálculo do TF-IDF.</strong> Uma forma usual é TF-IDF = tf × log(N / df), em que tf é a frequência do termo no documento, N é o número de documentos da coleção e df é o número de documentos que contêm o termo. Exemplo: termo que aparece 3 vezes em um documento, em uma coleção de 1.000 documentos, dos quais 10 contêm o termo, com logaritmo na base 10: IDF = log(1.000 / 10) = log(100) = 2, e TF-IDF = 3 × 2 = 6.</p><p><strong>Similaridade do cosseno.</strong> Para comparar documentos representados como vetores, usa-se muito a similaridade do cosseno, que mede o ângulo entre os vetores e não depende do tamanho do texto. Com vetores de componentes não negativos, como os de TF-IDF, o valor fica entre 0 (nenhum termo em comum) e 1 (mesma direção).</p><p><strong>Embeddings estáticos e contextuais.</strong> No word2vec e no GloVe, cada palavra recebe um único vetor, então \"banco\" de praça e \"banco\" financeiro ficam com a mesma representação. Modelos como o BERT geram embeddings contextuais, em que o vetor de uma palavra muda conforme a frase.</p><p><strong>Lei de Zipf.</strong> Em uma coleção de textos, a frequência de uma palavra é aproximadamente inversamente proporcional à sua posição no ranking de frequências: poucas palavras são muito frequentes e a maioria é rara. Isso justifica a remoção de stop words e o uso de pesos como o IDF.</p><p><strong>Remover stop words nem sempre é bom.</strong> Em análise de sentimentos, descartar palavras como \"não\" pode inverter o sentido da frase (\"não recomendo\"). A lista de stop words depende da tarefa.</p><p><strong>Reconhecimento de entidades nomeadas.</strong> O NER identifica e classifica trechos do texto em categorias como pessoa, organização, local, data e valor monetário. Em um texto de auto de infração, por exemplo, separa a razão social, o CNPJ e o valor do crédito.</p><p><strong>Expressões regulares.</strong> Para padrões de formato fixo, como CNPJ, chave de acesso de nota fiscal ou datas, expressões regulares costumam bastar e são mais simples e auditáveis que um modelo treinado.</p><p><strong>Processamento de linguagem natural.</strong> O processamento de linguagem natural (PLN) é a área da IA que permite ao computador analisar, compreender e gerar linguagem humana, escrita ou falada. Divide-se em compreensão (entender o que foi dito) e geração (produzir texto). A mineração de texto é uma aplicação do PLN voltada a extrair padrões de coleções de documentos. Três abordagens se sucederam e hoje se combinam: a baseada em regras escritas por linguistas, como gramáticas e dicionários; a estatística, com aprendizado de máquina sobre corpora anotados; e a de deep learning, com embeddings e transformers. A linguística computacional baseada em regras e os modelos estatísticos e de deep learning podem ser usados em conjunto.</p><p><strong>Níveis de análise linguística.</strong> No nível fonético e fonológico, estudam-se os sons da fala. No morfológico, a estrutura interna das palavras: radicais, prefixos, sufixos e flexões, que é onde atuam o stemming e a lematização. No léxico, o significado das palavras isoladas. No sintático, a estrutura da frase e as relações gramaticais entre as palavras, por meio da análise sintática (parsing). No semântico, o significado da frase. No pragmático, o sentido conforme o contexto e a intenção de quem fala, como perceber que \"você pode fechar a janela?\" é um pedido. No discursivo, as relações entre frases, como a retomada de um termo por um pronome.</p><p><strong>Ambiguidade e polissemia.</strong> A ambiguidade é um dos maiores desafios do PLN. Na ambiguidade lexical, a mesma palavra tem vários sentidos (polissemia), como \"banco\" ou \"manga\". Na ambiguidade sintática, a frase admite mais de uma estrutura, como em \"o auditor viu o contribuinte com o binóculo\", em que não se sabe quem estava com o binóculo. Também pesam a ironia, o sarcasmo e as referências que dependem do contexto. A desambiguação do sentido das palavras usa o contexto para escolher o significado correto.</p><p><strong>Etiquetagem morfossintática (POS tagging).</strong> O POS tagging atribui a cada token sua classe gramatical (substantivo, verbo, adjetivo, preposição) conforme o contexto da frase. A ordem usual do pipeline é tokenizar, etiquetar e depois lematizar, porque a lematização depende da classe gramatical: \"casa\" como substantivo tem lema \"casa\", mas em \"ele casa amanhã\" é verbo e tem lema \"casar\". Por isso a lematização depende da etiquetagem morfossintática feita antes dela. A tokenização vem antes da lematização, já que só se lematiza o que já foi separado em tokens.</p><p><strong>Over-stemming e under-stemming.</strong> No over-stemming, o corte vai longe demais e palavras de sentidos diferentes ficam com o mesmo radical, como \"comunicação\" e \"comunidade\" reduzidas a \"comun\": é um falso positivo de agrupamento. No under-stemming, o corte fica aquém e formas da mesma palavra recebem radicais diferentes, como \"fazer\" e \"fiz\": é um falso negativo. Verbos irregulares são causa típica de under-stemming. A lematização resolve parte desses casos por recorrer a dicionário.</p><p><strong>Tesauro não é stemming.</strong> O tesauro é um vocabulário controlado que organiza termos por relações de significado: sinônimos, termos mais amplos, termos mais específicos e termos relacionados. Ele serve para agrupar sinônimos e expandir consultas, como tratar \"tributo\" e \"imposto\" como próximos. O stemming é redução morfológica por corte de afixos e não conhece sinônimos: \"imposto\" e \"tributo\" continuam com radicais diferentes.</p><p><strong>Word2vec: CBOW e skip-gram.</strong> O word2vec é uma rede neural rasa, com uma única camada de projeção e sem mecanismo de atenção, que aprende embeddings a partir de uma janela de contexto local. Tem duas arquiteturas. No CBOW (continuous bag of words), as palavras do contexto preveem a palavra central. No skip-gram, a palavra central prevê as palavras do contexto; ele costuma representar melhor palavras raras, e o CBOW é mais rápido de treinar.</p><p><strong>GloVe e FastText.</strong> O GloVe aprende os vetores a partir da matriz global de coocorrência de palavras de todo o corpus; já o word2vec aprende pela janela local, exemplo a exemplo, e não pela estatística global. O FastText representa cada palavra pela soma de vetores de seus pedaços (n-gramas de caracteres) e consegue gerar vetor para palavra que não viu no treino. Nos três, o embedding é estático.</p><p><strong>NER é rotulagem supervisionada de sequência.</strong> O reconhecimento de entidades nomeadas é, em regra, tarefa supervisionada de rotulagem de sequência: cada token recebe uma etiqueta, como início de entidade, continuação ou fora de entidade, aprendida de textos anotados, com modelos como CRF, redes recorrentes e transformers ajustados. Não se faz NER com k-means, que é agrupamento não supervisionado e não atribui categorias como pessoa ou organização. Os transformers também resolvem tarefas de sequência para sequência (seq2seq), com codificador e decodificador, como tradução, sumarização e resposta a perguntas.</p><p><strong>Abordagens de análise de sentimentos.</strong> A abordagem baseada em léxico usa um dicionário de palavras com polaridade e regras para negação e intensificadores (\"muito bom\", \"não gostei\"), sem precisar de dados rotulados. A de aprendizado de máquina treina um classificador com textos rotulados, do Naive Bayes aos transformers, e capta melhor o contexto. A híbrida combina as duas. A classificação pode ser por polaridade (positivo, negativo, neutro), por emoção (alegria, raiva, medo) ou por aspecto, quando avalia cada característica citada, como o preço e o atendimento. Ironia e sarcasmo continuam difíceis. Análise de sentimentos em texto é tarefa de PLN, e não de visão computacional.</p><p><strong>Reconhecimento de fala.</strong> Na arquitetura clássica de reconhecimento de fala, o sinal de áudio é convertido em características acústicas, o modelo acústico estima as unidades de som (fonemas), um dicionário de pronúncia liga sons a palavras e o modelo de linguagem escolhe a sequência de palavras mais provável. A transcrição não é direta: o modelo de linguagem resolve os casos em que sons parecidos formam palavras diferentes. Modelos neurais de ponta a ponta juntam essas etapas em uma só rede, mas continuam aprendendo regularidades acústicas e linguísticas.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "A análise sintática trata da estrutura interna das palavras, onde atuam stemming e lematização.",
+     "certo": "Isso é o nível morfológico. O sintático trata da estrutura da frase.",
+     "fonte": "Questões do app sobre processamento de linguagem natural"
+    },
+    {
+     "errado": "Em \"o auditor viu o contribuinte com o binóculo\", a ambiguidade é lexical.",
+     "certo": "É sintática: a frase admite duas estruturas.",
+     "fonte": "Questões do app sobre processamento de linguagem natural"
+    },
+    {
+     "errado": "O over-stemming ocorre quando o corte é curto demais e flexões da mesma palavra ficam separadas.",
+     "certo": "Isso é o under-stemming. O over-stemming junta palavras de sentidos diferentes.",
+     "fonte": "Questões do app sobre mineração de texto"
+    },
+    {
+     "errado": "O stemming agrupa sinônimos como \"imposto\" e \"tributo\" e dispensa o tesauro.",
+     "certo": "Agrupar sinônimos é papel do tesauro; o stemming só corta afixos.",
+     "fonte": "Questões do app sobre mineração de texto"
+    },
+    {
+     "errado": "No CBOW, a palavra central prevê as palavras do contexto.",
+     "certo": "Isso é o skip-gram. No CBOW, o contexto prevê a palavra central.",
+     "fonte": "Questões do app sobre representação de texto"
+    },
+    {
+     "errado": "No TF-IDF, termo presente em todos os documentos recebe o maior peso.",
+     "certo": "Recebe peso zero, porque IDF = log(N / N) = 0.",
+     "fonte": "Questões do app sobre representação de texto"
+    },
+    {
+     "errado": "A modelagem de tópicos por LDA exige documentos previamente rotulados com o assunto.",
+     "certo": "A LDA é não supervisionada e descobre sozinha os temas latentes.",
+     "fonte": "Questões do app sobre mineração de texto"
+    }
+   ],
    "relacionados": [
     "llm-modelos-de-linguagem-de-grande-escala",
     "rag-geracao-aumentada-por-recuperacao"
@@ -432,12 +1218,183 @@
     "fechamento",
     "equalizacao de histograma"
    ],
-   "resumo": "A <strong>visão computacional</strong> é a área da IA que permite a sistemas extrair informação de imagens e vídeos. Para o computador, uma imagem é uma matriz de <strong>pixels</strong>: em tons de cinza, um valor de intensidade por pixel; em cores no padrão RGB, três canais (vermelho, verde e azul). As tarefas se distinguem pelo que entregam. A <strong>classificação de imagens</strong> atribui um rótulo à imagem inteira (o que há na imagem). A <strong>detecção de objetos</strong> localiza cada objeto com uma caixa delimitadora e diz sua classe (o que há e onde). A <strong>segmentação semântica</strong> atribui uma classe a cada pixel, sem separar objetos da mesma classe; a <strong>segmentação de instância</strong> separa, pixel a pixel, cada objeto individual. O <strong>reconhecimento óptico de caracteres</strong> (OCR) converte texto em imagem em texto editável, como ao ler placas de veículos ou documentos digitalizados. Antes do deep learning, predominavam técnicas de processamento de imagens com características manuais, como filtros de detecção de bordas (Sobel, Canny) e descritores de pontos-chave. Desde 2012, as <strong>redes convolucionais</strong> dominam a área, e os <strong>vision transformers</strong> passaram a dividir a imagem em pequenos blocos (patches) tratados como tokens. Na detecção, a métrica básica é a <strong>IoU</strong> (interseção sobre união) entre a caixa prevista e a caixa real.",
+   "para_entender": [
+    {
+     "texto": "<strong>Rede convolucional (CNN):</strong> rede neural em que pequenos filtros de pesos percorrem a imagem e aprendem a reconhecer padrões, de bordas a objetos.",
+     "tema": "deep-learning-arquiteturas-e-treinamento"
+    }
+   ],
+   "resumo": "A <strong>visão computacional</strong> é a área da IA que extrai informação de imagens e vídeos: a entrada é a imagem e a saída é uma interpretação, como \"há três caminhões no pátio\" ou a placa lida. Ela não se confunde com o <strong>processamento digital de imagens</strong>, em que a entrada e a saída são imagens, como ao realçar o contraste ou remover ruído; esse processamento costuma ser etapa preparatória da visão computacional. Para o computador, uma imagem é uma matriz de <strong>pixels</strong> (os pontos que a compõem): em tons de cinza, um valor de intensidade por pixel; em cores no padrão RGB, três camadas, ou canais, de vermelho, verde e azul. As tarefas se distinguem pelo que entregam (tabela); uma delas é o <strong>reconhecimento óptico de caracteres</strong> (OCR), que transforma o texto da imagem em texto editável, como ao ler placas de veículos. Antes do deep learning, predominavam técnicas com características definidas à mão, como os detectores de bordas de Sobel e de Canny. Desde 2012, as <strong>redes convolucionais</strong> dominam a área, e os <strong>vision transformers</strong> passaram a dividir a imagem em pequenos blocos (patches) tratados como tokens. Na detecção, a métrica básica é a <strong>IoU</strong> (interseção sobre união), que mede quanto a caixa prevista coincide com a real.",
    "esquema": {
     "rotulo": "tarefas de visão computacional e o que cada uma entrega",
     "html": "<table><thead><tr><th>Tarefa</th><th>Saída</th><th>Pergunta que responde</th><th>Exemplo</th></tr></thead><tbody><tr><td>Classificação</td><td>um rótulo para a imagem inteira</td><td>o que há na imagem?</td><td>a foto mostra um caminhão</td></tr><tr><td>Detecção de objetos</td><td>caixas delimitadoras com classe e confiança</td><td>o que há e onde está?</td><td>localizar cada caminhão no pátio do posto fiscal</td></tr><tr><td>Segmentação semântica</td><td>uma classe por pixel</td><td>a que classe pertence cada pixel?</td><td>pintar de uma cor só todos os pixels de veículos</td></tr><tr><td>Segmentação de instância</td><td>máscara por objeto individual</td><td>quais pixels são de cada objeto?</td><td>separar o caminhão 1 do caminhão 2</td></tr><tr><td>OCR</td><td>texto extraído da imagem</td><td>o que está escrito?</td><td>ler a placa ou o DANFE digitalizado</td></tr><tr><td>Rastreamento</td><td>trajetória do objeto entre quadros</td><td>para onde o objeto foi?</td><td>seguir um veículo nas câmeras da rodovia</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "HSV",
+      "o_que_e": "Separa a cor em matiz, saturação e valor (brilho).",
+      "atencao": "Isola a matiz da iluminação e é melhor que o RGB para segmentar pela cor.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "RGB",
+      "o_que_e": "Modelo aditivo em que cada pixel combina vermelho, verde e azul.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "CMYK",
+      "o_que_e": "Modelo subtrativo, próprio da impressão.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "Escala de cinza",
+      "o_que_e": "Um só canal de intensidade por pixel.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "Profundidade de bits",
+      "o_que_e": "Número de níveis que cada canal pode ter: 8 bits dão 256 níveis.",
+      "atencao": "24 bits por pixel em RGB dão cerca de 16,7 milhões de cores.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "JPEG",
+      "o_que_e": "Compressão com perda, baseada na transformada discreta do cosseno, adequada a fotografias.",
+      "atencao": "Gera artefatos em texto e bordas nítidas e prejudica o OCR.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "PNG",
+      "o_que_e": "Compressão sem perda, que preserva as bordas e admite transparência (canal alfa).",
+      "atencao": "Melhor para capturas de tela, documentos e desenhos.",
+      "grupo": "Imagem digital"
+     },
+     {
+      "nome": "Aquisição",
+      "o_que_e": "Primeira etapa: captura a imagem por câmera ou scanner e a digitaliza.",
+      "grupo": "Etapas clássicas"
+     },
+     {
+      "nome": "Pré-processamento",
+      "o_que_e": "Melhora a imagem, reduzindo ruído e realçando contraste.",
+      "grupo": "Etapas clássicas"
+     },
+     {
+      "nome": "Segmentação (etapa)",
+      "o_que_e": "Particiona a imagem em regiões ou objetos com significado.",
+      "atencao": "Não é nela que se selecionam atributos.",
+      "grupo": "Etapas clássicas"
+     },
+     {
+      "nome": "Representação e descrição",
+      "o_que_e": "Decide como representar as regiões (fronteira ou interior) e extrai e seleciona os atributos que as distinguem.",
+      "grupo": "Etapas clássicas"
+     },
+     {
+      "nome": "Reconhecimento e interpretação",
+      "o_que_e": "Atribui rótulo a cada objeto e dá significado ao conjunto.",
+      "atencao": "Uma base de conhecimento do domínio orienta todas as etapas.",
+      "grupo": "Etapas clássicas"
+     },
+     {
+      "nome": "Filtro passa-baixa",
+      "o_que_e": "Suaviza a imagem e reduz ruído, à custa de borrar as bordas; a média e o gaussiano (blur) são exemplos.",
+      "atencao": "Não realça bordas.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Filtro passa-alta",
+      "o_que_e": "Realça bordas e detalhes finos, como o laplaciano e os operadores de Sobel e Prewitt.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Filtro da mediana",
+      "o_que_e": "Filtro não linear que troca cada pixel pela mediana da vizinhança.",
+      "atencao": "É o indicado para ruído sal e pimenta e preserva bordas melhor que a média.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Transformada de Hough",
+      "o_que_e": "Detecta retas, círculos e outras formas: cada ponto de borda vota nos parâmetros das formas possíveis, e os mais votados indicam as formas presentes.",
+      "atencao": "Aplicada depois da detecção de bordas, como para achar as faixas de uma rodovia; não suaviza nem remove ruído.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Limiarização",
+      "o_que_e": "Converte a imagem em tons de cinza em binária, comparando cada pixel com um limiar.",
+      "atencao": "O método de Otsu escolhe o limiar automaticamente.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Erosão",
+      "o_que_e": "Operação de morfologia matemática, sobretudo em imagens binárias, que encolhe os objetos e elimina pontos pequenos.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Dilatação",
+      "o_que_e": "Expande os objetos e preenche pequenos buracos.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Abertura",
+      "o_que_e": "Erosão seguida de dilatação: remove ruído pequeno.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Fechamento",
+      "o_que_e": "Dilatação seguida de erosão: fecha pequenas falhas e buracos.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Equalização de histograma",
+      "o_que_e": "Redistribui as intensidades e aumenta o contraste.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Transformação geométrica",
+      "o_que_e": "Muda a posição dos pixels: translação, rotação e mudança de escala.",
+      "grupo": "Filtros e operações"
+     },
+     {
+      "nome": "Detector de duas etapas",
+      "o_que_e": "Propõe regiões candidatas e depois as classifica, como a família R-CNN (R-CNN, Fast R-CNN, Faster R-CNN).",
+      "atencao": "Tende a ser mais preciso.",
+      "grupo": "Detecção e modelos"
+     },
+     {
+      "nome": "Detector de uma etapa",
+      "o_que_e": "Prevê caixas e classes numa única passada, como YOLO e SSD.",
+      "atencao": "Mais rápido, próprio para vídeo em tempo real.",
+      "grupo": "Detecção e modelos"
+     },
+     {
+      "nome": "Supressão de não máximos (NMS)",
+      "o_que_e": "Mantém a caixa de maior confiança e descarta as que se sobrepõem a ela acima de um limiar de IoU.",
+      "grupo": "Detecção e modelos"
+     },
+     {
+      "nome": "Aumento de dados (data augmentation)",
+      "o_que_e": "Cria variações das imagens de treino: rotação, espelhamento, recorte, brilho e ruído.",
+      "atencao": "Aplicado no treino, contra o overfitting; não cria classes novas.",
+      "grupo": "Detecção e modelos"
+     },
+     {
+      "nome": "Modelo multimodal",
+      "o_que_e": "Recebe imagem e texto na mesma entrada e descreve imagens ou responde sobre documentos digitalizados.",
+      "grupo": "Detecção e modelos"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Conta da IoU: área da interseção dividida pela área da união, que é a soma das duas áreas menos a interseção. Duas caixas de 50 pixels quadrados com 20 de interseção têm união 80 e IoU 0,25. É comum considerar a detecção correta acima de um limiar, como 0,5.",
+    "Os filtros de uma CNN têm os valores aprendidos no treino; os filtros clássicos, como Sobel, têm coeficientes fixos definidos à mão. Nas CNNs, as primeiras camadas respondem a bordas, cores e texturas, e as profundas a partes e objetos inteiros.",
+    "Filtros convolucionais servem, sim, para detectar bordas: Sobel e laplaciano são convoluções com coeficientes fixos.",
+    "A visão computacional moderna aprende os padrões com aprendizado de máquina e deep learning, em vez de depender de regras geométricas programadas à mão."
+   ],
    "macetes": [
     {
      "sigla": "Classificar diz o quê, detectar diz o quê e onde",
@@ -457,8 +1414,48 @@
     "gabarito": "E",
     "explicacao": "O item descreveu a segmentação de instância. A segmentação semântica rotula cada pixel com uma classe, mas não separa objetos da mesma classe: os dois veículos ficam como uma única região \"veículo\". Separar cada objeto é tarefa da segmentação de instância."
    },
-   "aprofundamento": "<p><strong>Cálculo da IoU.</strong> IoU = área da interseção / área da união, e a união é a soma das duas áreas menos a interseção. Exemplo: duas caixas de 50 pixels quadrados cada, com 20 pixels quadrados de interseção, têm união 50 + 50 - 20 = 80 e IoU = 20 / 80 = 0,25. É comum considerar a detecção correta quando a IoU passa de um limiar, como 0,5.</p><p><strong>Detectores de uma e de duas etapas.</strong> Os detectores de duas etapas, como a família R-CNN (R-CNN, Fast R-CNN, Faster R-CNN), primeiro propõem regiões candidatas e depois as classificam, tendendo a ser mais precisos. Os de uma etapa, como YOLO e SSD, preveem caixas e classes em uma única passada pela rede e são mais rápidos, adequados a vídeo em tempo real.</p><p><strong>Supressão de não máximos.</strong> O detector costuma gerar várias caixas sobre o mesmo objeto. A supressão de não máximos (NMS) mantém a caixa de maior confiança e descarta as que se sobrepõem a ela acima de um limiar de IoU.</p><p><strong>Aumento de dados.</strong> O aumento de dados (data augmentation) cria variações das imagens de treino, como rotação, espelhamento, recorte, mudança de brilho e ruído, para que o modelo generalize melhor. Ele é aplicado no treino e serve para combater o overfitting; não gera rótulos novos de classes que não existam.</p><p><strong>Filtro convolucional na imagem.</strong> Em uma CNN aplicada a imagens, as primeiras camadas tendem a responder a bordas, cores e texturas, e as camadas profundas a partes e objetos inteiros. Os valores dos filtros são aprendidos no treino, ao contrário dos filtros clássicos, como Sobel, que têm valores fixos definidos à mão.</p><p><strong>Modelos multimodais.</strong> Modelos de linguagem multimodais recebem imagem e texto na mesma entrada e conseguem descrever imagens ou responder perguntas sobre documentos digitalizados, unindo visão computacional e processamento de linguagem natural.</p><p><strong>Processamento de imagens não é visão computacional.</strong> No processamento digital de imagens, a entrada e a saída são imagens: realçar contraste, mudar a nitidez, suavizar ou remover ruído. Na visão computacional, a entrada é a imagem e a saída é informação ou interpretação, como \"há três caminhões no pátio\" ou a placa lida. O processamento de imagens costuma ser etapa de pré-processamento da visão computacional. A visão computacional moderna aprende os padrões com aprendizado de máquina e deep learning, em vez de depender de regras geométricas programadas à mão.</p><p><strong>Etapas clássicas do processamento e da análise de imagens.</strong> A sequência clássica é esta. A aquisição, primeira etapa, captura a imagem por câmera ou scanner e a digitaliza. O pré-processamento melhora a imagem, com redução de ruído e realce de contraste. A segmentação particiona a imagem em regiões ou objetos com significado. Na representação e descrição, decide-se como representar as regiões (pela fronteira ou pelo interior) e extraem-se e selecionam-se os atributos que as distinguem. O reconhecimento e a interpretação atribuem um rótulo a cada objeto e dão significado ao conjunto. Uma base de conhecimento do domínio orienta todas as etapas. A seleção de atributos ocorre na etapa de descrição, e não na segmentação.</p><p><strong>Cor e representação.</strong> No modelo RGB, aditivo, cada pixel combina vermelho, verde e azul. No HSV, a cor é separada em matiz (hue), saturação e valor (brilho); como a matiz fica isolada da iluminação, o HSV é melhor que o RGB para segmentar objetos pela cor. A escala de cinza tem um só canal de intensidade. A profundidade de bits define quantos níveis cada canal pode ter: 8 bits dão 2 elevado a 8 = 256 níveis, e 24 bits por pixel em RGB (8 por canal) dão cerca de 16,7 milhões de cores. O CMYK é subtrativo e próprio da impressão.</p><p><strong>JPEG e PNG.</strong> O JPEG usa compressão com perda, baseada na transformada discreta do cosseno, e é adequado a fotografias; em textos, gráficos e bordas nítidas, gera artefatos e borrões, o que prejudica o OCR. O PNG usa compressão sem perda, preserva as bordas e admite transparência (canal alfa), sendo melhor para capturas de tela, documentos e desenhos.</p><p><strong>Filtros espaciais.</strong> O filtro passa-baixa suaviza a imagem e reduz ruído, à custa de borrar as bordas; o filtro da média e o gaussiano (blur) são exemplos. O filtro passa-alta realça bordas e detalhes finos, como o laplaciano e os operadores de gradiente de Sobel e Prewitt. O filtro da mediana, não linear, troca cada pixel pela mediana da vizinhança e é o mais indicado para ruído impulsivo (sal e pimenta), porque remove pontos isolados preservando melhor as bordas que a média. O blur suaviza; não realça. Filtros convolucionais servem, sim, para detectar bordas: Sobel e laplaciano são convoluções com coeficientes fixos.</p><p><strong>Transformada de Hough.</strong> A transformada de Hough detecta retas, círculos e outras formas paramétricas: cada ponto de borda vota nos parâmetros das formas que poderiam passar por ele, e os parâmetros mais votados indicam as formas presentes. É aplicada depois da detecção de bordas, por exemplo para achar as faixas de uma rodovia. Ela não suaviza a imagem nem remove ruído.</p><p><strong>Limiarização, morfologia e histograma.</strong> A limiarização converte a imagem em tons de cinza em imagem binária, comparando cada pixel com um limiar; o método de Otsu escolhe o limiar automaticamente. Na morfologia matemática, aplicada sobretudo a imagens binárias, a erosão encolhe os objetos e elimina pontos pequenos, e a dilatação os expande e preenche pequenos buracos; a abertura (erosão seguida de dilatação) remove ruído pequeno, e o fechamento (dilatação seguida de erosão) fecha pequenas falhas e buracos. A equalização de histograma redistribui as intensidades e aumenta o contraste. As transformações geométricas, como translação, rotação e mudança de escala, mudam a posição dos pixels na imagem.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Alterar a nitidez e suavizar a imagem são tarefas típicas de visão computacional.",
+     "certo": "São processamento de imagens, porque a saída é outra imagem; a visão computacional entrega informação.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "A segmentação extrai e seleciona os atributos dos objetos, e a descrição particiona a imagem em regiões.",
+     "certo": "É o inverso: a segmentação particiona; a descrição extrai e seleciona atributos.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "Imagem em escala de cinza com 8 bits por pixel admite 128 níveis.",
+     "certo": "Admite 2 elevado a 8 = 256 níveis; 128 seriam 7 bits.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "Para OCR, o JPEG é preferível ao PNG, porque sua compressão sem perda preserva as bordas.",
+     "certo": "O JPEG é que tem perda e gera artefatos; o PNG é sem perda e melhor para texto.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "Filtros passa-baixa, como o gaussiano, realçam bordas, e os passa-alta suavizam.",
+     "certo": "É o inverso: passa-baixa suaviza; passa-alta realça bordas.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "A abertura é dilatação seguida de erosão e preenche pequenos buracos.",
+     "certo": "Isso é o fechamento. A abertura é erosão seguida de dilatação e remove ruído pequeno.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "A classificação de imagens localiza cada objeto com caixas delimitadoras.",
+     "certo": "Isso é a detecção de objetos; a classificação dá um rótulo à imagem inteira.",
+     "fonte": "Questões do app sobre visão computacional"
+    },
+    {
+     "errado": "Os detectores da família R-CNN são de uma etapa e mais rápidos que o YOLO.",
+     "certo": "A R-CNN é de duas etapas; o YOLO, de uma etapa, é o mais rápido.",
+     "fonte": "Questões do app sobre visão computacional"
+    }
+   ],
    "relacionados": [
     "deep-learning-arquiteturas-e-treinamento",
     "llm-modelos-de-linguagem-de-grande-escala"
@@ -517,7 +1514,7 @@
     "quantizacao",
     "awq",
     "gguf",
-    "llama.cpp",
+    "llama cpp",
     "destilacao",
     "poda",
     "modelo de recompensa",
@@ -531,12 +1528,187 @@
     "dall-e",
     "notebooklm"
    ],
-   "resumo": "Um <strong>modelo de linguagem de grande escala</strong> (LLM) é uma rede neural, em regra baseada no <strong>transformer</strong>, com bilhões de parâmetros, treinada em enorme volume de texto. Os modelos generativos do tipo GPT usam a parte decodificadora do transformer e são <strong>autorregressivos</strong>: geram a resposta um token por vez, cada token escolhido a partir de uma distribuição de probabilidade condicionada ao texto anterior. O texto é dividido em <strong>tokens</strong>, que costumam ser pedaços de palavras (subpalavras), e a <strong>janela de contexto</strong> é o número máximo de tokens que o modelo considera de uma vez, somando a entrada e a saída. O ciclo de vida tem fases. No <strong>pré-treino</strong>, autossupervisionado, o modelo aprende a prever o próximo token em grandes coleções de texto. No <strong>ajuste fino</strong>, ele é treinado com dados específicos, como pares de instrução e resposta, o que altera seus pesos. No alinhamento por <strong>RLHF</strong> (aprendizado por reforço com feedback humano), avaliadores comparam respostas e um modelo de recompensa orienta o LLM. Na inferência, a <strong>temperatura</strong> regula a aleatoriedade: valores baixos tornam a saída mais previsível, valores altos mais diversa. O LLM pode <strong>alucinar</strong>, isto é, gerar conteúdo fluente e plausível, porém falso, e seu conhecimento paramétrico para na data de corte do treino. Por isso, respostas que fundamentam atos administrativos precisam de conferência humana e de fontes.",
+   "para_entender": [
+    {
+     "texto": "<strong>Transformer e autoatenção:</strong> arquitetura de rede neural em que cada palavra da frase é comparada com todas as outras de uma vez, em vez de lida uma por uma.",
+     "tema": "deep-learning-arquiteturas-e-treinamento"
+    },
+    {
+     "texto": "<strong>Embedding:</strong> vetor de números que representa uma palavra; palavras usadas em contextos parecidos ficam com vetores próximos.",
+     "tema": "mineracao-de-texto"
+    }
+   ],
+   "resumo": "Um <strong>modelo de linguagem de grande escala</strong> (LLM) é uma rede neural, em regra baseada no <strong>transformer</strong>, com bilhões de <strong>parâmetros</strong> (os pesos ajustados no treino), treinada em enorme volume de texto. Os modelos generativos do tipo GPT são <strong>autorregressivos</strong>: escrevem a resposta um pedaço por vez, e cada pedaço é sorteado a partir das probabilidades calculadas com base no texto anterior. Esses pedaços são os <strong>tokens</strong>, que costumam ser partes de palavras, e a <strong>janela de contexto</strong> é o máximo de tokens que o modelo considera de uma vez, somando a pergunta e a resposta. No <strong>pré-treino</strong>, que é autossupervisionado, o modelo aprende a prever o próximo token em grandes coleções de texto, sem rótulo humano; depois, pode ser adaptado de várias formas, e a tabela mostra quais mexem nos pesos. Na geração, a <strong>temperatura</strong> regula a aleatoriedade: baixa, a resposta fica previsível; alta, mais diversa. O LLM pode <strong>alucinar</strong>, isto é, produzir texto fluente e plausível, porém falso, e o que ele sabe para na <strong>data de corte</strong> dos dados de treino. Por isso, resposta que fundamenta ato administrativo precisa de fonte e de conferência humana.",
    "esquema": {
     "rotulo": "formas de adaptar um LLM e o que muda em cada uma",
     "html": "<table><thead><tr><th>Técnica</th><th>Altera os pesos?</th><th>Quando usar</th><th>Limite</th></tr></thead><tbody><tr><td>Prompt zero-shot</td><td>não</td><td>tarefa simples, só com a instrução</td><td>resultado depende da clareza da instrução</td></tr><tr><td>Prompt few-shot</td><td>não</td><td>mostrar o formato com alguns exemplos no próprio prompt</td><td>os exemplos ocupam a janela de contexto</td></tr><tr><td>Cadeia de pensamento</td><td>não</td><td>problemas de várias etapas, pedindo o raciocínio passo a passo</td><td>não garante que o raciocínio esteja certo</td></tr><tr><td>RAG</td><td>não</td><td>responder com base em documentos atualizados ou internos</td><td>depende da qualidade da recuperação</td></tr><tr><td>Ajuste fino completo</td><td>sim, todos</td><td>estilo, formato ou domínio específicos, com dados de treino</td><td>custo alto e risco de esquecer capacidades</td></tr><tr><td>Ajuste fino eficiente (LoRA)</td><td>sim, só matrizes pequenas acrescentadas</td><td>adaptar com pouco hardware</td><td>os pesos originais ficam congelados</td></tr><tr><td>RLHF</td><td>sim</td><td>alinhar o comportamento a preferências humanas</td><td>exige avaliadores e modelo de recompensa</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Consulta, chave e valor (query, key, value)",
+      "o_que_e": "Vetores que cada token gera na autoatenção: a consulta de um token é comparada com as chaves dos outros, e os pesos resultantes combinam os valores.",
+      "atencao": "Cada token passa a carregar informação dos tokens relevantes, mesmo distantes.",
+      "grupo": "Arquitetura"
+     },
+     {
+      "nome": "Codificação posicional",
+      "o_que_e": "Informação de posição somada aos embeddings, porque a autoatenção não percebe a ordem por si.",
+      "grupo": "Arquitetura"
+     },
+     {
+      "nome": "Atenção com múltiplas cabeças (multi-head)",
+      "o_que_e": "Várias atenções em paralelo, cada uma com projeções próprias; os resultados são concatenados.",
+      "atencao": "Cada cabeça capta um tipo de relação, inclusive de sentido, e não só gramatical.",
+      "grupo": "Arquitetura"
+     },
+     {
+      "nome": "GPT",
+      "o_que_e": "Generative Pre-trained Transformer: transformer generativo pré-treinado em grande corpus, que usa a parte decodificadora.",
+      "atencao": "Gera texto da esquerda para a direita.",
+      "grupo": "Arquitetura"
+     },
+     {
+      "nome": "BERT",
+      "o_que_e": "Codificador bidirecional, pré-treinado a adivinhar palavras mascaradas.",
+      "atencao": "Serve a classificação e extração, não à geração de textos longos.",
+      "grupo": "Arquitetura"
+     },
+     {
+      "nome": "Top-k",
+      "o_que_e": "Limita o sorteio aos k tokens mais prováveis.",
+      "grupo": "Geração"
+     },
+     {
+      "nome": "Top-p (amostragem de núcleo)",
+      "o_que_e": "Limita o sorteio ao menor conjunto de tokens cuja probabilidade somada atinge p.",
+      "grupo": "Geração"
+     },
+     {
+      "nome": "Decodificação gulosa",
+      "o_que_e": "Escolhe sempre o token mais provável.",
+      "atencao": "Com ela, ou com temperatura zero, a saída fica praticamente repetível.",
+      "grupo": "Geração"
+     },
+     {
+      "nome": "Ajuste fino",
+      "o_que_e": "Treino adicional com dados específicos, como pares de instrução e resposta.",
+      "atencao": "Altera os pesos do modelo.",
+      "grupo": "Treino e adaptação"
+     },
+     {
+      "nome": "RLHF",
+      "o_que_e": "Aprendizado por reforço com feedback humano, em três etapas: ajuste fino supervisionado, modelo de recompensa treinado com comparações humanas e otimização do LLM para maximizar a recompensa.",
+      "atencao": "Torna as respostas mais úteis e reduz conteúdo inapropriado, tóxico ou enviesado, mas não elimina alucinação nem viés.",
+      "grupo": "Treino e adaptação"
+     },
+     {
+      "nome": "Prompt",
+      "o_que_e": "Instrução em linguagem natural dada ao modelo.",
+      "atencao": "Não exige saber programar.",
+      "grupo": "Prompt"
+     },
+     {
+      "nome": "One-shot",
+      "o_que_e": "Prompt com um único exemplo da tarefa antes do pedido.",
+      "atencao": "Zero-shot não tem exemplo; few-shot tem alguns. Em nenhum os pesos mudam.",
+      "grupo": "Prompt"
+     },
+     {
+      "nome": "Persona",
+      "o_que_e": "Papel atribuído ao modelo, como \"atue como auditor fiscal\".",
+      "grupo": "Prompt"
+     },
+     {
+      "nome": "Delimitadores",
+      "o_que_e": "Marcas que separam a instrução dos dados no prompt.",
+      "grupo": "Prompt"
+     },
+     {
+      "nome": "Injeção de prompt",
+      "o_que_e": "Instruções maliciosas na entrada ou num documento lido pelo modelo para que ignore as orientações, vaze dados ou execute ações.",
+      "atencao": "Risco próprio de aplicações que leem conteúdo externo.",
+      "grupo": "Prompt"
+     },
+     {
+      "nome": "Quantização",
+      "o_que_e": "Reduz a precisão dos pesos, por exemplo de 16 ou 32 bits em ponto flutuante para inteiros de 8 ou 4 bits.",
+      "atencao": "Menos memória e mais velocidade, com alguma perda de qualidade.",
+      "grupo": "Execução"
+     },
+     {
+      "nome": "AWQ",
+      "o_que_e": "Método de quantização de pesos que protege os mais importantes, identificados pelas ativações.",
+      "grupo": "Execução"
+     },
+     {
+      "nome": "GGUF",
+      "o_que_e": "Formato de arquivo usado pelo llama.cpp para guardar modelos quantizados e rodá-los localmente, inclusive em CPU.",
+      "atencao": "É formato de arquivo, não algoritmo de treino.",
+      "grupo": "Execução"
+     },
+     {
+      "nome": "Destilação",
+      "o_que_e": "Um modelo menor aprende a imitar um maior.",
+      "grupo": "Execução"
+     },
+     {
+      "nome": "Poda",
+      "o_que_e": "Remove pesos pouco úteis para aliviar a inferência.",
+      "grupo": "Execução"
+     },
+     {
+      "nome": "ChatGPT",
+      "o_que_e": "Assistente da OpenAI, com os modelos GPT.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Gemini",
+      "o_que_e": "Família de modelos multimodais do Google.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Microsoft Copilot",
+      "o_que_e": "Assistentes generativos integrados ao Windows e ao Microsoft 365.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "DeepSeek",
+      "o_que_e": "Modelos de pesos abertos de empresa chinesa.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "Claude e Llama",
+      "o_que_e": "O Claude é da Anthropic; o Llama é a família de modelos abertos da Meta.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "DALL-E",
+      "o_que_e": "Gerador de imagens a partir de texto, da OpenAI.",
+      "grupo": "Plataformas"
+     },
+     {
+      "nome": "NotebookLM",
+      "o_que_e": "Ferramenta do Google que responde com base nas fontes carregadas pelo usuário e cita os trechos usados.",
+      "grupo": "Plataformas"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Tokens não são palavras: uma palavra rara pode virar vários tokens, e o português costuma gastar mais tokens que o inglês para o mesmo conteúdo. Limites de contexto e custo de uso são medidos em tokens.",
+    "Na autoatenção, o número de comparações cresce com o quadrado do comprimento: dobrar o texto quadruplica o custo da atenção. É esse custo quadrático que limita a janela de contexto.",
+    "O transformer superou as redes recorrentes, como a LSTM, porque processa a sequência em paralelo no treino e liga diretamente tokens distantes, e não porque processe textos longos com menor custo.",
+    "O LLM não tem mecanismo interno de verificação de fatos: cita artigo de lei ou julgado inexistente com a mesma fluência de um correto. RAG, citação de fontes e revisão humana reduzem o risco, sem eliminá-lo.",
+    "O LLM é modelo de deep learning, e não banco de dados nem buscador que copia respostas prontas: o conhecimento fica distribuído nos parâmetros como padrões estatísticos. A gramática é aprendida de forma implícita, pelos exemplos, e não por regras sintáticas explícitas.",
+    "Na configuração padrão dos assistentes, o LLM é estocástico: a mesma pergunta pode gerar respostas diferentes.",
+    "Boas práticas de prompt: instrução explícita e específica, contexto suficiente, persona, delimitadores, formato de saída definido e tarefa complexa dividida em etapas. Prompt vago e genérico gera resposta genérica e menos precisa; deixar o modelo livre para escolher a abordagem não aumenta a precisão.",
+    "O treino de LLMs depende de grande poder computacional, em geral em GPUs.",
+    "Informação obtida em razão do ofício sobre a situação econômica ou financeira do sujeito passivo ou de terceiros e sobre a natureza e o estado de seus negócios é protegida pelo sigilo fiscal (art. 198 do CTN). Enviá-la a um serviço externo de LLM exige avaliar como o fornecedor trata os dados, como retenção e uso para treino, além das regras da LGPD.",
+    "Os modelos de linguagem do ChatGPT, do Gemini, do Copilot, do DeepSeek, do Claude e do Llama são baseados na arquitetura transformer."
+   ],
    "macetes": [
     {
      "sigla": "Few-shot ensina pelo prompt, não pelos pesos",
@@ -556,8 +1728,43 @@
     "gabarito": "E",
     "explicacao": "O item descreveu o ajuste fino. No few-shot, os exemplos entram só no contexto da chamada: é o aprendizado em contexto, sem alteração dos pesos, e o padrão não fica gravado no modelo. Atualizar pesos com exemplos é ajuste fino; injetar documentos sem mexer nos pesos é RAG."
    },
-   "aprofundamento": "<p><strong>Autoatenção.</strong> No transformer, cada token gera vetores de consulta (query), chave (key) e valor (value). A atenção compara a consulta de um token com as chaves de todos os outros e usa esses pesos para combinar os valores. Assim, cada token passa a carregar informação dos tokens relevantes da frase, mesmo distantes. Como a autoatenção não percebe a ordem por si, o transformer soma uma codificação posicional aos embeddings.</p><p><strong>Tokens não são palavras.</strong> Uma palavra rara pode virar vários tokens, e o português costuma consumir mais tokens que o inglês para o mesmo conteúdo. Os limites de contexto e o custo de uso são medidos em tokens, não em palavras ou caracteres.</p><p><strong>Top-k e top-p.</strong> Além da temperatura, a amostragem pode ser limitada aos k tokens mais prováveis (top-k) ou ao menor conjunto de tokens cuja probabilidade somada atinge p (top-p, ou amostragem de núcleo).</p><p><strong>Alucinação não se resolve com mais confiança.</strong> O LLM não tem um mecanismo interno de verificação de fatos: ele produz o texto mais provável. A resposta pode citar artigo de lei ou julgado inexistente com a mesma fluência de um correto. RAG, citação de fontes e revisão humana reduzem o risco, sem eliminá-lo.</p><p><strong>Injeção de prompt.</strong> Na injeção de prompt, instruções maliciosas são inseridas na entrada ou em um documento lido pelo modelo para fazê-lo ignorar as instruções originais, vazar dados ou executar ações. É um risco de segurança próprio de aplicações com LLM, sobretudo as que leem conteúdo externo.</p><p><strong>Ajuste fino eficiente.</strong> No LoRA (low-rank adaptation), os pesos originais ficam congelados e treinam-se apenas matrizes de baixo posto acrescentadas a algumas camadas. O número de parâmetros treináveis cai drasticamente, e o adaptador pode ser trocado conforme a tarefa.</p><p><strong>Sigilo e dados do contribuinte.</strong> Informações obtidas em razão do ofício sobre a situação econômica ou financeira do sujeito passivo ou de terceiros e sobre a natureza e o estado de seus negócios são protegidas pelo sigilo fiscal (art. 198 do CTN). Enviar esses dados a um serviço externo de LLM exige avaliar o tratamento dado a eles pelo fornecedor, como retenção e uso para treino, além das regras da LGPD.</p><p><strong>Custo da autoatenção.</strong> Na autoatenção, cada token é comparado com todos os outros, e o número de comparações cresce com o quadrado do comprimento da sequência: dobrar o texto quadruplica o custo de memória e de processamento da atenção. O transformer superou as redes recorrentes, como a LSTM, porque processa a sequência em paralelo no treino e liga diretamente tokens distantes, captando dependências longas, e não porque processe sequências longas com menor custo computacional. O custo quadrático é justamente o que limita o tamanho da janela de contexto.</p><p><strong>Atenção com múltiplas cabeças.</strong> Na atenção com múltiplas cabeças (multi-head), várias atenções rodam em paralelo, cada uma com suas próprias projeções de consulta, chave e valor; os resultados são concatenados e projetados de novo. Cada cabeça pode captar um tipo de relação, como concordância gramatical, referência de um pronome ou proximidade de sentido: a atenção capta relações semânticas, e não só gramaticais.</p><p><strong>O que significa GPT.</strong> GPT é a sigla de Generative Pre-trained Transformer, isto é, transformer generativo pré-treinado. Generativo, porque produz texto; pré-treinado, porque passa por pré-treino autossupervisionado em grande corpus antes de ser ajustado; transformer, pela arquitetura. O LLM é um modelo de deep learning, e não um banco de dados nem um motor de busca que copia respostas prontas: o conhecimento fica distribuído nos parâmetros como padrões estatísticos. Também não é treinado com regras sintáticas explícitas: aprende a gramática de forma implícita, pelos exemplos.</p><p><strong>Estocástico, e não determinístico.</strong> Como a resposta é amostrada de uma distribuição de probabilidade sobre os tokens, a mesma pergunta pode gerar respostas diferentes. Com temperatura zero ou decodificação gulosa, que escolhe sempre o token mais provável, a saída fica praticamente repetível, mas o comportamento padrão dos assistentes é estocástico.</p><p><strong>Quantização e execução local.</strong> Quantizar é reduzir a precisão numérica dos pesos, por exemplo de 16 ou 32 bits em ponto flutuante para inteiros de 8 ou 4 bits. O modelo ocupa menos memória e roda mais depressa, com alguma perda de qualidade, o que viabiliza executar LLMs em computadores comuns e celulares. A quantização pode ser feita depois do treino ou considerada durante o treino. O AWQ é um método de quantização de pesos que protege os pesos mais importantes, identificados pelas ativações. O GGUF é um formato de arquivo, usado pelo llama.cpp, para guardar modelos quantizados e executá-los localmente, inclusive em CPU. Outras otimizações de inferência são a destilação, em que um modelo menor aprende a imitar um maior, e a poda de pesos.</p><p><strong>RLHF: para que serve e o que não resolve.</strong> O RLHF tem três etapas: ajuste fino supervisionado com exemplos escritos por pessoas; treino de um modelo de recompensa a partir de comparações humanas entre respostas; e otimização do LLM por aprendizado por reforço para maximizar essa recompensa. Serve para tornar as respostas mais úteis e reduzir conteúdo inapropriado, tóxico ou enviesado. Não elimina a alucinação nem o viés, e o RAG também só reduz a alucinação. O treino desses modelos depende de grande poder computacional, em geral em GPUs.</p><p><strong>Boas práticas de prompt.</strong> Prompt é a instrução em linguagem natural dada ao modelo, e não exige saber programar. No zero-shot não há exemplo; no one-shot, há um exemplo; no few-shot, alguns. Boas práticas: instrução explícita e específica, contexto suficiente, papel ou persona (\"atue como auditor fiscal\"), delimitadores que separem a instrução dos dados, formato de saída definido e divisão de tarefas complexas em etapas. Prompt vago tende a gerar resposta genérica e menos precisa, e não mais precisa.</p><p><strong>Principais assistentes e plataformas.</strong> O ChatGPT, da OpenAI, usa os modelos GPT; o Gemini é a família de modelos multimodais do Google; o Microsoft Copilot integra assistentes generativos ao Windows e ao Microsoft 365; o DeepSeek, de empresa chinesa, oferece modelos de pesos abertos; o Claude é da Anthropic; o Llama é a família de modelos abertos da Meta; o DALL-E, da OpenAI, gera imagens a partir de texto; e o NotebookLM, do Google, responde com base nas fontes que o usuário carrega e cita os trechos usados. Os modelos de linguagem dessas plataformas são baseados na arquitetura transformer.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Os transformers superaram a LSTM por processarem sequências longas com menor custo computacional.",
+     "certo": "A vantagem é o paralelismo e a ligação direta entre tokens distantes; o custo da atenção é quadrático.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "A sigla GPT significa gerador de processamento de texto.",
+     "certo": "Significa Generative Pre-trained Transformer.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "A quantização aumenta a precisão dos pesos, de 8 para 32 bits, e melhora as respostas.",
+     "certo": "Quantizar reduz a precisão dos pesos para economizar memória, com alguma perda de qualidade.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "A janela de contexto abrange só o texto de entrada, não os tokens da resposta.",
+     "certo": "A janela soma entrada e saída.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "O BERT, como o GPT, é decodificador autorregressivo voltado à geração de textos longos.",
+     "certo": "O BERT é codificador bidirecional, treinado com palavras mascaradas, para classificar e extrair.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "O pré-treino de um LLM é supervisionado e depende de rotulagem humana de cada trecho.",
+     "certo": "O pré-treino é autossupervisionado: o próprio texto dá o próximo token como alvo.",
+     "fonte": "Questões do app sobre LLM"
+    },
+    {
+     "errado": "Para escrever bons prompts é preciso saber Python ou SQL.",
+     "certo": "O prompt é escrito em linguagem natural; o que importa é a clareza da instrução.",
+     "fonte": "Questões do app sobre engenharia de prompt"
+    }
+   ],
    "relacionados": [
     "rag-geracao-aumentada-por-recuperacao",
     "deep-learning-arquiteturas-e-treinamento",
@@ -605,12 +1812,90 @@
     "janela de contexto",
     "alucinacao"
    ],
-   "resumo": "A <strong>geração aumentada por recuperação</strong> (RAG) combina um sistema de busca com um LLM: antes de gerar a resposta, o sistema recupera trechos relevantes de uma base de documentos e os insere no prompt, junto com a pergunta, para que o modelo responda apoiado neles. O fluxo tem duas fases. Na <strong>indexação</strong>, feita antes das perguntas, os documentos são extraídos, divididos em fragmentos (<strong>chunks</strong>), convertidos em vetores por um modelo de <strong>embeddings</strong> e guardados em um <strong>banco de dados vetorial</strong>. Na <strong>consulta</strong>, a pergunta é convertida em vetor pelo mesmo modelo de embeddings, o banco devolve os k fragmentos mais similares, em geral pela similaridade do cosseno, e o LLM gera a resposta com esses fragmentos no contexto. As vantagens frente a usar o LLM sozinho são: acesso a informação atualizada ou interna sem retreinar o modelo, já que basta reindexar os documentos; possibilidade de citar as fontes usadas; e menor incidência de alucinação, que diminui mas não desaparece. Frente ao <strong>ajuste fino</strong>, o RAG não altera os pesos do modelo: ele injeta conhecimento no momento da inferência, enquanto o ajuste fino é mais indicado para ensinar estilo, formato ou comportamento. A qualidade da resposta depende da qualidade da recuperação: se o trecho certo não é recuperado, o modelo não tem como usá-lo.",
+   "para_entender": [
+    {
+     "texto": "<strong>Janela de contexto e alucinação:</strong> o LLM só considera um número limitado de tokens por vez e pode gerar texto plausível, porém falso.",
+     "tema": "llm-modelos-de-linguagem-de-grande-escala"
+    },
+    {
+     "texto": "<strong>Embedding:</strong> vetor de números que representa um texto; textos de sentido parecido ficam com vetores próximos.",
+     "tema": "mineracao-de-texto"
+    }
+   ],
+   "resumo": "A <strong>geração aumentada por recuperação</strong> (RAG) junta um sistema de busca e um LLM: antes de responder, o sistema busca trechos relevantes numa base de documentos e os coloca no prompt, junto com a pergunta, para que o modelo responda apoiado neles. Há duas fases. Na <strong>indexação</strong>, feita antes das perguntas, cada documento é dividido em fragmentos (<strong>chunks</strong>), e cada fragmento é convertido num vetor de números (<strong>embedding</strong>) e guardado num <strong>banco de dados vetorial</strong>, próprio para achar vetores parecidos. Na <strong>consulta</strong>, a pergunta vira vetor pelo mesmo modelo de embeddings, o banco devolve os k fragmentos mais parecidos e o LLM gera a resposta com eles no contexto. Frente ao LLM sozinho, o RAG dá acesso a informação atual ou interna sem retreinar o modelo, porque basta indexar os documentos novos; permite citar as fontes; e reduz a alucinação, que diminui mas não desaparece. Frente ao <strong>ajuste fino</strong>, o RAG não mexe nos pesos: injeta conhecimento na hora da resposta, enquanto o ajuste fino serve mais para ensinar estilo, formato ou comportamento. A resposta só é boa se a recuperação for boa: trecho que não é recuperado não pode ser usado.",
    "esquema": {
     "rotulo": "etapas do RAG e o que pode dar errado em cada uma",
     "html": "<table><thead><tr><th>Etapa</th><th>Fase</th><th>O que faz</th><th>Falha típica</th></tr></thead><tbody><tr><td>Extração e limpeza</td><td>indexação</td><td>tira o texto de PDFs, páginas e planilhas</td><td>tabela ou anexo mal extraído some da base</td></tr><tr><td>Fragmentação (chunking)</td><td>indexação</td><td>divide em trechos, muitas vezes com sobreposição</td><td>trecho grande dilui o assunto; trecho pequeno perde contexto</td></tr><tr><td>Embeddings e indexação</td><td>indexação</td><td>converte cada trecho em vetor e guarda no banco vetorial</td><td>trocar o modelo de embeddings exige reindexar a base</td></tr><tr><td>Recuperação</td><td>consulta</td><td>busca os k trechos mais similares à pergunta</td><td>busca só semântica falha com códigos e números exatos</td></tr><tr><td>Reranqueamento</td><td>consulta</td><td>reordena os candidatos com um modelo mais preciso</td><td>custo maior por consulta</td></tr><tr><td>Geração</td><td>consulta</td><td>o LLM responde com os trechos no prompt</td><td>o modelo ignora o contexto ou extrapola além dele</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Sobreposição entre fragmentos",
+      "o_que_e": "Parte do final de um chunk se repete no início do seguinte.",
+      "atencao": "Evita cortar uma ideia ao meio.",
+      "grupo": "Indexação"
+     },
+     {
+      "nome": "Similaridade do cosseno",
+      "o_que_e": "Medida usual de proximidade entre o vetor da pergunta e os dos fragmentos.",
+      "grupo": "Indexação"
+     },
+     {
+      "nome": "Busca densa",
+      "o_que_e": "Compara embeddings.",
+      "atencao": "Capta sinônimos e paráfrases.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Busca esparsa (BM25)",
+      "o_que_e": "Compara palavras.",
+      "atencao": "Acerta termos exatos, como número de artigo, código NCM ou CFOP.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Busca híbrida",
+      "o_que_e": "Combina as listas de resultados da busca densa e da esparsa.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Top-k",
+      "o_que_e": "Número de fragmentos mais similares devolvidos para o prompt.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Índice de vizinhos mais próximos aproximados (HNSW)",
+      "o_que_e": "Estrutura que acha vetores parecidos sem comparar a pergunta com todos.",
+      "atencao": "Troca pequena perda de exatidão por grande ganho de velocidade.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Reranqueamento",
+      "o_que_e": "Reordena os candidatos recuperados com um modelo mais preciso.",
+      "grupo": "Recuperação"
+     },
+     {
+      "nome": "Fidelidade (grounding)",
+      "o_que_e": "Mede se a resposta se apoia nos trechos recuperados.",
+      "atencao": "Resposta fiel ainda pode estar errada, se o trecho estava errado ou desatualizado.",
+      "grupo": "Avaliação"
+     },
+     {
+      "nome": "Relevância da resposta",
+      "o_que_e": "Mede se a resposta atende à pergunta feita.",
+      "grupo": "Avaliação"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Para textos normativos, dividir por artigo ou parágrafo preserva a unidade de sentido melhor que um corte por número fixo de caracteres.",
+    "O RAG não amplia a janela de contexto do modelo: escolhe o que cabe nela, e por isso se recuperam só os k trechos mais relevantes, em vez de mandar a base inteira.",
+    "Avalia-se o RAG em duas pontas: a recuperação (os trechos certos vieram entre os k primeiros?) e a geração (fidelidade e relevância).",
+    "Como a base fica fora do modelo, a recuperação pode ser filtrada pelas permissões do usuário, para que cada servidor só receba trechos de documentos que pode ver. Com conhecimento gravado nos pesos por ajuste fino, esse controle por documento não é possível.",
+    "A expressão retrieval-augmented generation foi popularizada por artigo de pesquisadores do Facebook AI Research publicado em 2020 (Lewis e outros)."
+   ],
    "macetes": [
     {
      "sigla": "RAG busca e depois gera",
@@ -630,8 +1915,28 @@
     "gabarito": "E",
     "explicacao": "Há dois erros. O RAG não retreina nada: os trechos recuperados entram no prompt, como contexto, e os pesos do modelo continuam os mesmos. E a alucinação diminui, mas não é eliminada, porque o modelo pode interpretar mal o trecho, extrapolar ou receber um trecho irrelevante."
    },
-   "aprofundamento": "<p><strong>Busca densa, esparsa e híbrida.</strong> A busca densa compara embeddings e capta sinônimos e paráfrases. A busca esparsa, como o BM25, compara palavras e acerta melhor termos exatos, como o número de um artigo, um código NCM ou um CFOP. A busca híbrida combina as duas listas de resultados.</p><p><strong>Busca aproximada no banco vetorial.</strong> Com milhões de vetores, comparar a pergunta com todos é lento. Os bancos vetoriais usam índices de vizinhos mais próximos aproximados, como o HNSW, que trocam uma pequena perda de exatidão por grande ganho de velocidade.</p><p><strong>Sobreposição entre fragmentos.</strong> Repetir parte do final de um fragmento no início do seguinte evita que uma ideia seja cortada ao meio na divisão. Para textos normativos, dividir por artigo ou parágrafo preserva a unidade de sentido melhor que um corte por número fixo de caracteres.</p><p><strong>Janela de contexto continua limitando.</strong> O RAG não amplia a janela de contexto do modelo. Ele escolhe o que cabe nela: por isso se recuperam só os k trechos mais relevantes, em vez de mandar a base inteira.</p><p><strong>Como avaliar um RAG.</strong> Avalia-se a recuperação (os trechos certos vieram entre os k primeiros?) e a geração: a fidelidade, isto é, se a resposta se apoia nos trechos recuperados, e a relevância da resposta para a pergunta. Uma resposta pode ser fiel ao contexto e ainda assim errada, se o trecho recuperado estava errado ou desatualizado.</p><p><strong>Controle de acesso.</strong> Como a base é externa ao modelo, é possível filtrar a recuperação pelas permissões do usuário, de modo que cada servidor só receba trechos de documentos que pode ver. Com conhecimento gravado nos pesos por ajuste fino, esse controle por documento não é possível.</p><p><strong>Origem do termo.</strong> A expressão retrieval-augmented generation foi popularizada por um artigo de pesquisadores do Facebook AI Research, publicado em 2020 (Lewis e outros).</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Para o assistente RAG responder sobre um decreto de ontem, é preciso retreinar o modelo com o texto.",
+     "certo": "Basta incluir o decreto na base e indexá-lo; o RAG não grava nada nos pesos.",
+     "fonte": "Questões do app sobre RAG"
+    },
+    {
+     "errado": "A busca esparsa (BM25) compara embeddings e capta sinônimos; a densa compara palavras e acha códigos exatos.",
+     "certo": "É o inverso: a densa compara embeddings; a esparsa compara palavras e acerta códigos como NCM e CFOP.",
+     "fonte": "Questões do app sobre busca vetorial"
+    },
+    {
+     "errado": "O RAG amplia a janela de contexto e permite mandar a base inteira em cada consulta.",
+     "certo": "A janela continua a mesma; por isso só os k trechos mais relevantes vão para o prompt.",
+     "fonte": "Questões do app sobre RAG"
+    },
+    {
+     "errado": "O HNSW compara a pergunta com todos os vetores e garante resultado exato.",
+     "certo": "Isso é a busca exata por força bruta; o HNSW é aproximado e rápido.",
+     "fonte": "Questões do app sobre busca vetorial"
+    }
+   ],
    "relacionados": [
     "llm-modelos-de-linguagem-de-grande-escala",
     "mineracao-de-texto"
@@ -6308,14 +7613,199 @@
     "explicabilidade",
     "governanca de ia",
     "deepfake",
-    "lgpd art. 20"
+    "lgpd art 20"
    ],
-   "resumo": "A <strong>inteligência artificial</strong> estuda sistemas que percebem o ambiente e agem para atingir objetivos. A unidade de análise é o <strong>agente</strong>: ele percebe o ambiente por <strong>sensores</strong> e age sobre ele por <strong>atuadores</strong>. O <strong>agente racional</strong> escolhe, para cada sequência de percepções, a ação que deve maximizar a <strong>medida de desempenho</strong>, considerando o que percebeu e o conhecimento que já tem; racionalidade não é onisciência. Quanto ao alcance, toda IA existente é <strong>IA fraca</strong> (estreita): resolve tarefas delimitadas, ainda que muitas, como conversar, traduzir ou classificar imagens, e assistentes como o ChatGPT estão nesse grupo. A <strong>IA forte</strong> (geral), com capacidade cognitiva humana em qualquer domínio, e a <strong>superinteligência</strong>, que superaria o ser humano, são hipotéticas. Na IA simbólica, o conhecimento é representado de forma explícita: os <strong>sistemas especialistas</strong> separam a <strong>base de conhecimento</strong> (fatos e regras) do <strong>motor de inferência</strong>, que aplica as regras por <strong>encadeamento progressivo</strong> (dos dados para a conclusão) ou <strong>regressivo</strong> (da hipótese para os dados); as <strong>ontologias</strong> especificam de forma formal e explícita os conceitos e as relações de um domínio; a <strong>lógica nebulosa</strong> trabalha com graus de pertinência entre 0 e 1. Por fim, a IA traz riscos que todo auditor precisa conhecer: <strong>viés algorítmico</strong>, <strong>opacidade</strong> (caixa-preta), desinformação e decisões automatizadas sem supervisão humana, que pedem governança com transparência, explicabilidade e responsabilização.",
+   "resumo": "A <strong>inteligência artificial</strong> estuda sistemas que percebem o ambiente e agem para atingir objetivos. A unidade de análise é o <strong>agente</strong>: ele percebe o ambiente por <strong>sensores</strong> e age sobre ele por <strong>atuadores</strong>. O <strong>agente racional</strong> escolhe a ação que deve dar o melhor resultado segundo uma <strong>medida de desempenho</strong>, com o que percebeu e o que já sabe; racionalidade não é onisciência. Os tipos de agente estão na tabela. Quanto ao alcance, toda IA que existe hoje é <strong>IA fraca</strong>, ou estreita: resolve tarefas delimitadas, ainda que muitas, e os assistentes como o ChatGPT estão nesse grupo. A <strong>IA forte</strong>, ou geral, e a <strong>superinteligência</strong> são hipóteses. Na <strong>IA simbólica</strong>, o conhecimento é escrito de forma explícita, legível por pessoas, em regras, ontologias e lógica nebulosa, em vez de aprendido de dados. Por fim, a IA traz riscos que o auditor precisa conhecer: <strong>viés algorítmico</strong> (o modelo repete discriminações dos dados), <strong>opacidade</strong> (não se sabe por que decidiu), desinformação e decisões automáticas sem supervisão humana, que pedem governança com transparência, explicabilidade e responsabilização.",
    "esquema": {
     "rotulo": "tipos de agente e o que cada um leva em conta",
     "html": "<table><thead><tr><th>Tipo de agente</th><th>Decide com base em</th><th>Guarda estado interno?</th><th>Exemplo</th></tr></thead><tbody><tr><td>Reativo simples</td><td>só a percepção atual, por regras condição-ação</td><td>não</td><td>termostato que liga o ar acima de 25 graus</td></tr><tr><td>Reativo baseado em modelo</td><td>percepção atual mais um modelo de como o mundo evolui</td><td>sim</td><td>robô aspirador que lembra os cômodos já limpos</td></tr><tr><td>Baseado em objetivos</td><td>se a ação aproxima de um estado-objetivo, com busca e planejamento</td><td>sim</td><td>GPS que traça a rota até o destino</td></tr><tr><td>Baseado em utilidade</td><td>função de utilidade que mede quão desejável é cada estado</td><td>sim</td><td>rota que pondera tempo, pedágio e risco</td></tr><tr><td>Com aprendizado</td><td>melhora o próprio desempenho com a experiência, guiado por um crítico</td><td>sim</td><td>filtro de spam que se ajusta às marcações do usuário</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "IA fraca (estreita)",
+      "o_que_e": "Projetada para tarefas delimitadas; é a única que existe.",
+      "atencao": "Ex.: tradução, reconhecimento de imagens, assistentes generativos, seleção de contribuintes para fiscalização.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "IA forte (geral)",
+      "o_que_e": "Teria capacidade cognitiva humana em qualquer domínio, aprendendo tarefas novas sem treino específico.",
+      "atencao": "Hipotética.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "Superinteligência",
+      "o_que_e": "Superaria o ser humano em praticamente todas as áreas.",
+      "atencao": "Hipotética.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "Teste de Turing (Alan Turing, 1950)",
+      "o_que_e": "A máquina seria inteligente se o interrogador, conversando por texto, não a distinguisse de uma pessoa.",
+      "atencao": "Critério de comportamento.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "Quarto Chinês (John Searle, 1980)",
+      "o_que_e": "Quem só combina ideogramas por instruções responde em chinês sem entender nada.",
+      "atencao": "Manipular símbolos (sintaxe) não basta para compreender (semântica); é argumento contra a IA forte.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "Computação cognitiva",
+      "o_que_e": "Subcampo da IA que reúne aprendizado de máquina, PLN e raciocínio para apoiar decisões humanas em problemas complexos.",
+      "grupo": "Alcance da IA"
+     },
+     {
+      "nome": "Medida de desempenho",
+      "o_que_e": "Critério de sucesso do agente, definido por quem o projeta a partir do resultado desejado.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Autonomia",
+      "o_que_e": "O agente age com base nas próprias percepções e na experiência que acumula.",
+      "atencao": "Não é acumular conhecimento embutido pelo projetista.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "PEAS",
+      "o_que_e": "Descrição da tarefa do agente: medida de desempenho, ambiente, atuadores e sensores.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Ambiente observável",
+      "o_que_e": "Totalmente observável quando os sensores captam tudo o que importa; parcialmente, quando não.",
+      "atencao": "O reativo simples só funciona bem no totalmente observável, porque não guarda estado.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Ambiente episódico ou sequencial",
+      "o_que_e": "No episódico, cada decisão independe das anteriores (classificar uma nota isolada); no sequencial, afeta as futuras (xadrez).",
+      "atencao": "Também se classifica em determinístico ou estocástico, estático ou dinâmico, discreto ou contínuo, com um ou vários agentes.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Bot tradicional",
+      "o_que_e": "Segue roteiro fixo de regras, como o atendimento de opções numeradas.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Assistente de IA",
+      "o_que_e": "Responde a cada pedido; o usuário decide cada passo.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Agente de IA",
+      "o_que_e": "Recebe um objetivo, planeja e executa sozinho as etapas, chama ferramentas e ajusta o plano.",
+      "atencao": "Mais autonomia pede limites de permissão e supervisão humana.",
+      "grupo": "Agentes"
+     },
+     {
+      "nome": "Sistema especialista",
+      "o_que_e": "Reproduz o raciocínio de um especialista humano num domínio restrito.",
+      "atencao": "O clássico não aprende com dados: as regras são escritas por pessoas.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Base de conhecimento",
+      "o_que_e": "Fatos e regras se-então obtidos do especialista pelo engenheiro do conhecimento.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Motor de inferência",
+      "o_que_e": "Núcleo que aplica as regras aos fatos e chega às soluções.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Memória de trabalho e módulo de explicação",
+      "o_que_e": "A memória guarda os fatos do caso; o módulo de explicação mostra por que se chegou à conclusão.",
+      "atencao": "Completam o sistema com a interface com o usuário.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Encadeamento progressivo (forward chaining)",
+      "o_que_e": "Guiado por dados: parte dos fatos, dispara as regras satisfeitas e acrescenta conclusões.",
+      "atencao": "Serve a monitoramento e configuração.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Encadeamento regressivo (backward chaining)",
+      "o_que_e": "Guiado por objetivo: parte da hipótese e busca regras e fatos que a sustentem, criando subobjetivos.",
+      "atencao": "Serve a diagnóstico; é o do Prolog.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Ontologia",
+      "o_que_e": "Especificação formal e explícita de uma conceitualização compartilhada de um domínio, com classes, relações, instâncias e axiomas.",
+      "atencao": "Formal: processável por máquina; explícita: tudo declarado; compartilhada: consenso da comunidade.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "OWL e RDF",
+      "o_que_e": "Linguagens da representação formal da ontologia, destinada à máquina.",
+      "atencao": "A representação gráfica, em diagramas, é para leitura humana.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Taxonomia",
+      "o_que_e": "Só a hierarquia de termos.",
+      "atencao": "Não tem as demais relações e axiomas de uma ontologia.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Lógica nebulosa (fuzzy)",
+      "o_que_e": "Proposta por Lotfi Zadeh em 1965, admite graus de pertinência entre 0 e 1, como empresa média com grau 0,7.",
+      "atencao": "Trata a imprecisão de termos vagos; não é probabilidade.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Fuzzificação e defuzzificação",
+      "o_que_e": "Etapas do controlador nebuloso: converter as entradas em graus, aplicar regras linguísticas e devolver um valor preciso.",
+      "grupo": "IA simbólica"
+     },
+     {
+      "nome": "Proxy",
+      "o_que_e": "Variável que funciona como substituta do atributo sensível, como o CEP em relação à renda.",
+      "grupo": "Riscos e governança"
+     },
+     {
+      "nome": "Viés de exclusão",
+      "o_que_e": "Grupos ou variáveis relevantes ficam fora dos dados de treino.",
+      "grupo": "Riscos e governança"
+     },
+     {
+      "nome": "Viés de amostragem",
+      "o_que_e": "A amostra não representa a população em que o modelo será usado.",
+      "grupo": "Riscos e governança"
+     },
+     {
+      "nome": "Explicabilidade",
+      "o_que_e": "Tornar compreensíveis as razões da decisão de modelos que funcionam como caixa-preta, com modelos interpretáveis, como árvores, ou técnicas como LIME e SHAP.",
+      "grupo": "Riscos e governança"
+     },
+     {
+      "nome": "Governança de IA",
+      "o_que_e": "Transparência, responsabilização, rastreabilidade, proteção de dados e supervisão humana nas decisões de maior impacto.",
+      "atencao": "Não admite a opacidade como regra.",
+      "grupo": "Riscos e governança"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Nem toda IA busca imitar a inteligência humana por inteiro: a maioria só busca bom desempenho numa tarefa, às vezes muito acima do humano, como no xadrez, sem nada parecido com uma mente.",
+    "A fluência de um LLM não demonstra consciência nem senciência; não há evidência científica de que os modelos atuais sintam ou tenham consciência.",
+    "Um agente racional pode errar, porque não conhece o futuro: racionalidade é maximizar o desempenho esperado com as percepções disponíveis.",
+    "Separar a base de conhecimento do motor de inferência permite trocar as regras sem reprogramar o mecanismo de raciocínio.",
+    "Ontologia não é sistema especialista: descreve o conhecimento do domínio e pode ser usada por um motor de raciocínio, mas não é o mecanismo de inferência.",
+    "Mais dados históricos da mesma fonte não neutralizam o viés, e podem consolidá-lo. Retirar o atributo sensível também não basta, por causa dos proxies. Mitigar exige auditar os dados e medir o desempenho do modelo separadamente por grupo.",
+    "Na LGPD, o titular pode pedir a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, inclusive as que definem seu perfil pessoal, profissional, de consumo e de crédito (art. 20 da Lei 13.709/2018); o controlador informa os critérios e procedimentos, observados os segredos comercial e industrial.",
+    "Mídia sintética realista facilita a desinformação e as fraudes por imitação de voz ou rosto. Modelos generativos não são, por construção, precisos nem imparciais: geram o conteúdo mais provável a partir dos dados de treino, com os vieses desses dados, e podem alucinar. A IA não dispensa revisão humana na checagem de fatos nem em decisões que afetam direitos, como um lançamento tributário.",
+    "A IA supera o ser humano em tarefas específicas, como velocidade de cálculo e análise de grandes volumes de dados; criatividade original, julgamento ético e compreensão de contexto continuam desafios. Seguem em aberto o uso de obras protegidas no treino e a autoria do conteúdo gerado."
+   ],
    "macetes": [
     {
      "sigla": "Sensor percebe, atuador age",
@@ -6335,8 +7825,43 @@
     "gabarito": "E",
     "explicacao": "Esses assistentes são IA fraca, ou estreita: são muito versáteis dentro do que aprenderam, mas não têm a capacidade cognitiva geral do ser humano em qualquer domínio. A IA geral (forte) e a superinteligência continuam hipotéticas."
    },
-   "aprofundamento": "<p><strong>IA fraca, IA forte e superinteligência.</strong> A IA fraca, ou estreita, é projetada para tarefas delimitadas e é a única que existe hoje: reconhecimento de imagens, tradução, recomendação, assistentes generativos e sistemas de seleção de contribuintes para fiscalização. A IA forte, ou geral, teria capacidade cognitiva equivalente à humana em qualquer domínio, inclusive para aprender tarefas novas sem ser treinada para elas, e é hipotética. A superinteligência superaria o ser humano em praticamente todas as áreas e também é hipotética. Nem toda IA busca imitar a inteligência humana por inteiro: a maioria dos sistemas busca apenas bom desempenho em uma tarefa, às vezes muito acima do humano, como no xadrez, sem nada parecido com uma mente.</p><p><strong>Teste de Turing e Quarto Chinês.</strong> No teste proposto por Alan Turing em 1950, uma máquina seria considerada inteligente se um interrogador, conversando por texto, não conseguisse distingui-la de uma pessoa: o critério é de comportamento. O argumento do Quarto Chinês, de John Searle (1980), contesta essa ideia: alguém que ignora o chinês, isolado num cômodo e munido só de instruções para combinar ideogramas, devolveria respostas corretas em chinês só manipulando símbolos, sem entender nada. Para Searle, manipular símbolos (sintaxe) não basta para haver compreensão (semântica), e o argumento é dirigido contra a tese da IA forte. Na mesma linha, um LLM produz texto fluente sem que isso demonstre consciência ou senciência; não há evidência científica de que os modelos atuais sintam ou tenham consciência.</p><p><strong>Agente racional e autonomia.</strong> Racionalidade é maximizar o desempenho esperado com as percepções disponíveis, e não acertar sempre: um agente racional pode errar porque não conhece o futuro. A medida de desempenho é definida por quem projeta o agente, a partir do resultado desejado no ambiente. Um agente é autônomo na medida em que age com base nas próprias percepções e na experiência que acumula, e não só no conhecimento embutido pelo projetista. Para descrever a tarefa de um agente, a literatura usa a descrição PEAS: medida de desempenho, ambiente, atuadores e sensores.</p><p><strong>Propriedades do ambiente.</strong> O ambiente pode ser totalmente ou parcialmente observável, determinístico ou estocástico, episódico (cada decisão independe das anteriores, como classificar uma nota fiscal isolada) ou sequencial (a decisão afeta as futuras, como no xadrez), estático ou dinâmico, discreto ou contínuo, com um ou com vários agentes. O agente reativo simples só funciona bem em ambiente totalmente observável, porque não guarda estado.</p><p><strong>Agentes de IA, assistentes e bots.</strong> Um bot tradicional segue roteiro fixo de regras, como o atendimento que oferece opções numeradas. Um assistente de IA responde a pedidos do usuário, que continua decidindo cada passo. Um agente de IA recebe um objetivo e planeja e executa sozinho as etapas, chamando ferramentas, consultando sistemas e ajustando o plano conforme o resultado. Quanto maior a autonomia, maior a necessidade de limites de permissão e de supervisão humana.</p><p><strong>Sistemas especialistas.</strong> O sistema especialista reproduz o raciocínio de um especialista humano em um domínio restrito. Seus componentes são a base de conhecimento, com fatos e regras do tipo se-então obtidos do especialista pelo engenheiro do conhecimento; o motor de inferência, que é o núcleo que aplica as regras aos fatos e chega às soluções; a memória de trabalho, com os fatos do caso; o módulo de explicação, que mostra por que se chegou à conclusão; e a interface com o usuário. Separar a base de conhecimento do motor de inferência permite trocar as regras sem reprogramar o mecanismo de raciocínio. O sistema especialista clássico não aprende com dados: suas regras são escritas por pessoas.</p><p><strong>Encadeamento progressivo e regressivo.</strong> No encadeamento progressivo (forward chaining), guiado por dados, o motor parte dos fatos conhecidos, dispara as regras cujas condições estão satisfeitas e acrescenta as conclusões à memória até chegar a um objetivo ou esgotar as regras; serve a monitoramento e configuração. No encadeamento regressivo (backward chaining), guiado por objetivo, o motor parte da hipótese a provar e procura regras que a concluam, transformando as condições dessas regras em subobjetivos até chegar a fatos conhecidos; serve a diagnóstico. A linguagem Prolog usa encadeamento regressivo.</p><p><strong>Ontologias.</strong> Ontologia é uma especificação formal e explícita de uma conceitualização compartilhada de um domínio. Formal quer dizer que pode ser processada por máquina; explícita, que os conceitos, as relações e as restrições estão declarados; compartilhada, que expressa um consenso da comunidade do domínio. Seus elementos são classes (conceitos), propriedades ou relações, instâncias e axiomas. A representação formal, em linguagens como OWL e RDF, destina-se à máquina; a representação gráfica, em diagramas, destina-se à leitura humana. Ontologia não é sistema especialista: ela descreve o conhecimento do domínio e pode ser usada por um motor de raciocínio, mas não é o mecanismo de inferência. Também não se confunde com taxonomia, que é só a hierarquia de termos, sem as demais relações e axiomas.</p><p><strong>Lógica nebulosa e computação cognitiva.</strong> A lógica nebulosa (fuzzy), proposta por Lotfi Zadeh em 1965, admite graus de pertinência entre 0 e 1: uma empresa pode ser de porte médio com grau 0,7 e grande com grau 0,3. Ela trata a imprecisão de termos vagos, como alto ou arriscado, e não se confunde com probabilidade, que mede a incerteza sobre a ocorrência de um evento. Um controlador nebuloso passa pela fuzzificação das entradas, pela aplicação de regras linguísticas e pela defuzzificação, que devolve um valor preciso. A computação cognitiva é um subcampo da IA que reúne aprendizado de máquina, processamento de linguagem natural e raciocínio para apoiar decisões humanas em problemas complexos e ambíguos.</p><p><strong>Viés algorítmico.</strong> O modelo aprende com dados históricos e, se esses dados refletem desigualdades ou decisões enviesadas do passado, o modelo reproduz e pode ampliar a discriminação. Acrescentar mais dados da mesma fonte não neutraliza o viés; ao contrário, pode consolidá-lo. Retirar o atributo sensível também não basta, porque outras variáveis funcionam como substitutas (proxies), como o CEP em relação à renda. O viés de exclusão ocorre quando grupos ou variáveis relevantes ficam fora dos dados de treino, e o viés de amostragem, quando a amostra não representa a população em que o modelo será usado. Mitigar o viés exige auditar os dados e medir o desempenho do modelo separadamente por grupo.</p><p><strong>Opacidade, explicabilidade e governança.</strong> Modelos profundos funcionam como caixas-pretas: é difícil saber por que deram certa resposta. A explicabilidade busca tornar compreensíveis as razões da decisão, com modelos interpretáveis, como árvores de decisão, ou com técnicas que estimam a contribuição de cada variável, como LIME e SHAP. A governança de IA exige transparência, e não opacidade, além de responsabilização, rastreabilidade, proteção de dados e supervisão humana nas decisões de maior impacto. Na LGPD, o titular tem direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses (art. 20 da Lei 13.709/2018), inclusive as decisões que definem seu perfil pessoal, profissional, de consumo e de crédito ou aspectos de sua personalidade, e o controlador deve informar os critérios e procedimentos usados, observados os segredos comercial e industrial.</p><p><strong>Desinformação, criatividade e verificação humana.</strong> Modelos generativos produzem textos, imagens, áudios e vídeos sintéticos muito realistas, o que facilita a desinformação e as fraudes por imitação de voz ou rosto. Eles não são, por construção, precisos nem imparciais: geram o conteúdo mais provável a partir dos dados de treino, com os vieses desses dados, e podem alucinar. Por isso, a IA não dispensa a revisão humana na checagem de fatos nem em decisões que afetam direitos, como um lançamento tributário. Também há questões em aberto sobre o uso de obras protegidas no treino e sobre a autoria do conteúdo gerado. A IA supera o ser humano em tarefas específicas, como velocidade de cálculo e análise de grandes volumes de dados, mas a criatividade original, o julgamento ético e a compreensão de contexto continuam sendo desafios.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Todo sistema de IA busca imitar por inteiro a inteligência humana, inclusive consciência e emoções.",
+     "certo": "A maioria só busca bom desempenho numa tarefa específica.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "Num agente, a percepção altera o ambiente, e os atuadores captam os estímulos.",
+     "certo": "É o inverso: os sensores percebem; os atuadores agem sobre o ambiente.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "O agente reativo simples mantém modelo interno do mundo e vai bem em ambiente parcialmente observável.",
+     "certo": "Isso é o reativo baseado em modelo; o simples só olha a percepção atual.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "Na ontologia, a representação gráfica é para a máquina e a formal, para pessoas.",
+     "certo": "É o inverso: a formal (OWL, RDF) é para a máquina; a gráfica, para pessoas.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "No encadeamento regressivo, o motor parte dos fatos e dispara as regras satisfeitas.",
+     "certo": "Isso é o progressivo. O regressivo parte da hipótese a provar.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "A lógica nebulosa trabalha só com 0 e 1, e a pertinência é a probabilidade de pertencer.",
+     "certo": "Admite graus entre 0 e 1, que medem imprecisão, e não probabilidade.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    },
+    {
+     "errado": "Aumentar os dados históricos da mesma fonte neutraliza o viés algorítmico.",
+     "certo": "Mais dados da mesma fonte reproduzem o viés e podem consolidá-lo.",
+     "fonte": "Questões do app sobre fundamentos de IA"
+    }
+   ],
    "relacionados": [
     "ia-aprendizado-de-maquina-e-deep-learning",
     "ia-generativa-modelos-gan-vae-difusao",
@@ -6367,7 +7892,7 @@
     "ia generativa",
     "modelo generativo",
     "modelo discriminativo",
-    "p(y|x)",
+    "probabilidade condicional",
     "distribuicao conjunta",
     "naive bayes",
     "gan",
@@ -6390,12 +7915,106 @@
     "deepfake",
     "midia sintetica"
    ],
-   "resumo": "A <strong>IA generativa</strong> cria conteúdo novo, como texto, imagem, áudio, vídeo e código, a partir de padrões aprendidos. O ponto de partida é a distinção entre modelos. O <strong>modelo discriminativo</strong> aprende a fronteira entre as classes, isto é, a probabilidade do rótulo dado o exemplo, p(y|x), e serve para classificar, como a regressão logística. O <strong>modelo generativo</strong> aprende a distribuição dos próprios dados, p(x) ou a conjunta p(x, y), e por isso consegue amostrar exemplos novos e plausíveis; ele também pode classificar, como faz o Naive Bayes ao aplicar o teorema de Bayes. As famílias de modelos generativos mais cobradas são: os <strong>modelos autorregressivos</strong>, como os LLMs, que geram um token por vez; a <strong>GAN</strong>, em que um gerador e um discriminador treinam em competição; o <strong>autoencoder variacional</strong> (VAE), que aprende um <strong>espaço latente</strong> regularizado do qual se podem sortear pontos para decodificar; e os <strong>modelos de difusão</strong>, que aprendem a desfazer, passo a passo, um ruído acrescentado aos dados. O treino desses modelos é em geral não supervisionado ou autossupervisionado, sem rótulo humano para cada exemplo. Os <strong>modelos de fundação</strong>, de grande porte, passam por pré-treino em dados amplos e depois se adaptam a muitas tarefas; os <strong>multimodais</strong> recebem ou produzem mais de uma modalidade, como texto e imagem. Os riscos próprios são o deepfake, a desinformação e a alucinação.",
+   "para_entender": [
+    {
+     "texto": "<strong>Autoencoder e GAN:</strong> o autoencoder comprime e reconstrói a entrada; na GAN, uma rede gera amostras e outra julga se são reais.",
+     "tema": "deep-learning-arquiteturas-e-treinamento"
+    },
+    {
+     "texto": "<strong>LLM:</strong> modelo de linguagem que gera texto um token por vez a partir do texto anterior.",
+     "tema": "llm-modelos-de-linguagem-de-grande-escala"
+    }
+   ],
+   "resumo": "A <strong>IA generativa</strong> cria conteúdo novo, como texto, imagem, áudio, vídeo e código, a partir de padrões aprendidos. O ponto de partida é a diferença entre dois tipos de modelo. O <strong>modelo discriminativo</strong> aprende a fronteira entre as classes, isto é, a probabilidade do rótulo dado o exemplo, escrita p(y|x), e serve para classificar, como a regressão logística. O <strong>modelo generativo</strong> aprende como os próprios dados se distribuem, p(x) ou a conjunta p(x, y), e por isso consegue sortear exemplos novos e plausíveis; ele também pode classificar, como o Naive Bayes, que aplica o teorema de Bayes. As famílias de modelos generativos e o que a banca troca em cada uma estão na tabela. O treino desses modelos é em geral não supervisionado ou autossupervisionado, sem rótulo humano para cada exemplo. Os <strong>modelos de fundação</strong> são modelos grandes, pré-treinados em dados amplos e depois adaptados a muitas tarefas; os <strong>multimodais</strong> recebem ou produzem mais de um tipo de dado, como texto e imagem. Os riscos próprios são o deepfake, a desinformação e a alucinação.",
    "esquema": {
     "rotulo": "famílias de modelos generativos e o que a banca troca",
     "html": "<table><thead><tr><th>Modelo</th><th>Como gera</th><th>Ponto forte</th><th>Ponto fraco ou armadilha</th></tr></thead><tbody><tr><td>GAN</td><td>o gerador transforma ruído em amostra e o discriminador julga se é real ou falsa</td><td>imagens nítidas e geração rápida, em uma passada</td><td>treino instável e colapso de modo (pouca variedade)</td></tr><tr><td>VAE</td><td>o codificador leva a entrada a uma distribuição no espaço latente e o decodificador reconstrói a partir de um ponto sorteado</td><td>espaço latente contínuo e organizado, bom para interpolar</td><td>amostras tendem a sair borradas</td></tr><tr><td>Difusão</td><td>parte de ruído puro e remove o ruído em muitos passos</td><td>alta qualidade e diversidade; base dos geradores de imagem atuais</td><td>geração lenta, por exigir muitos passos</td></tr><tr><td>Autorregressivo (LLM)</td><td>prevê o próximo token a partir dos anteriores</td><td>texto e código fluentes</td><td>gera em sequência, um token por vez, e pode alucinar</td></tr><tr><td>Discriminativo (para comparar)</td><td>não gera; aprende p(y|x)</td><td>classificação direta</td><td>não amostra dados novos</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Gerador",
+      "o_que_e": "Rede da GAN (rede adversarial generativa) que recebe um vetor de ruído e produz uma amostra.",
+      "atencao": "Os dois treinam em competição; o gerador melhora ao enganar o discriminador.",
+      "grupo": "GAN"
+     },
+     {
+      "nome": "Discriminador",
+      "o_que_e": "Rede da GAN que recebe amostras reais e geradas e tenta separá-las.",
+      "grupo": "GAN"
+     },
+     {
+      "nome": "Colapso de modo",
+      "o_que_e": "O gerador passa a produzir pouca variedade de amostras.",
+      "atencao": "Problema típico da GAN, ao lado da instabilidade do treino.",
+      "grupo": "GAN"
+     },
+     {
+      "nome": "Espaço latente",
+      "o_que_e": "Espaço vetorial de características abstratas em que entradas parecidas ficam próximas.",
+      "grupo": "Autoencoders"
+     },
+     {
+      "nome": "Gargalo",
+      "o_que_e": "Camada estreita do autoencoder que guarda a codificação comprimida.",
+      "atencao": "Sua dimensão é hiperparâmetro decisivo.",
+      "grupo": "Autoencoders"
+     },
+     {
+      "nome": "Codificador do VAE",
+      "o_que_e": "Devolve a média e a variância de uma distribuição, da qual se sorteia o ponto latente.",
+      "atencao": "No autoencoder comum, devolve um ponto fixo.",
+      "grupo": "Autoencoders"
+     },
+     {
+      "nome": "Divergência KL",
+      "o_que_e": "Termo da perda do VAE que aproxima as distribuições das codificações de uma normal padrão.",
+      "atencao": "Somado ao erro de reconstrução, durante o treino.",
+      "grupo": "Autoencoders"
+     },
+     {
+      "nome": "Processo direto (forward)",
+      "o_que_e": "Acrescenta ruído gaussiano aos dados em muitos passos, até restar quase só ruído.",
+      "atencao": "É fixo: não tem nada a aprender.",
+      "grupo": "Difusão"
+     },
+     {
+      "nome": "Processo reverso",
+      "o_que_e": "A rede estima e remove o ruído, passo a passo.",
+      "atencao": "Para gerar, parte-se de ruído aleatório e aplica-se o reverso.",
+      "grupo": "Difusão"
+     },
+     {
+      "nome": "Condicionamento por texto",
+      "o_que_e": "Na geração de imagem a partir de texto, a remoção de ruído é guiada pelo prompt.",
+      "grupo": "Difusão"
+     },
+     {
+      "nome": "Difusão latente",
+      "o_que_e": "Faz a difusão no espaço latente de um autoencoder, e não nos pixels, como o Stable Diffusion.",
+      "atencao": "Reduz o custo computacional.",
+      "grupo": "Difusão"
+     },
+     {
+      "nome": "Deepfake",
+      "o_que_e": "Mídia sintética que imita pessoa real, no rosto ou na voz.",
+      "atencao": "Pode ser feito com GANs, autoencoders ou modelos de difusão.",
+      "grupo": "Usos e riscos"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "Nos modelos generativos, o LLM aprende a prever o próximo token do próprio texto, a GAN aprende a imitar a distribuição das amostras reais e o modelo de difusão aprende a remover o ruído que o próprio processo acrescentou. Ajuste fino com instruções e RLHF usam supervisão humana, mas não mudam a natureza do pré-treino.",
+    "A difusão serve para gerar, e não para classificar, e costuma ser mais lenta que a GAN, por exigir muitos passos.",
+    "Nem a GAN nem o VAE são imunes ao overfitting: o discriminador pode decorar um conjunto pequeno de imagens reais, e o VAE também sobreajusta com poucos dados.",
+    "No autoencoder, latente menor comprime mais e reconstrói pior; latente grande demais reconstrói bem, mas pode só copiar a entrada sem aprender características úteis. No autoencoder comum, o espaço latente não é organizado, e sortear um ponto qualquer costuma dar saída sem sentido.",
+    "A regularização do VAE deixa o espaço latente contínuo: pontos próximos decodificam saídas parecidas, e sortear um ponto da normal padrão gera amostra nova.",
+    "O termo modelo de fundação foi difundido por pesquisadores de Stanford em 2021. A IA generativa aproveita esses modelos de base em vez de treinar um modelo do zero para cada aplicação; os LLMs são o exemplo típico.",
+    "Há geração de texto (LLMs), de imagem a partir de texto (DALL-E, Stable Diffusion, Midjourney), de áudio e voz e de vídeo. Os geradores de imagem atuais combinam um codificador de texto, em geral transformer, com um modelo de difusão."
+   ],
    "macetes": [
     {
      "sigla": "Discriminativo separa, generativo modela",
@@ -6415,8 +8034,38 @@
     "gabarito": "E",
     "explicacao": "A ordem está invertida. No treino, o processo direto adiciona ruído aos dados em muitos passos, e a rede aprende o processo reverso, de remoção do ruído. Na geração, o modelo parte de ruído aleatório e aplica o reverso, removendo ruído passo a passo até chegar a uma amostra nova."
    },
-   "aprofundamento": "<p><strong>Generativo não é sinônimo de supervisionado.</strong> Os modelos generativos aprendem a estrutura dos dados, e por isso seu treino é em geral não supervisionado ou autossupervisionado: o LLM aprende a prever o próximo token do próprio texto, a GAN aprende a imitar a distribuição das amostras reais e o modelo de difusão aprende a remover o ruído que o próprio processo acrescentou. Etapas posteriores, como o ajuste fino com instruções e o RLHF, usam supervisão humana, mas não mudam a natureza do pré-treino. Também é errado dizer que o modelo generativo serve para classificar pontos e o discriminativo para criar dados: é o contrário.</p><p><strong>Modelos de difusão.</strong> O processo direto (forward) acrescenta ruído gaussiano aos dados em muitos pequenos passos, até restar praticamente ruído puro; esse processo é fixo e não tem nada a aprender. A rede neural aprende o processo reverso: em cada passo, estima o ruído presente e o remove. Para gerar, sorteia-se ruído aleatório e aplica-se o processo reverso passo a passo. Na geração de imagem a partir de texto, a remoção de ruído é condicionada ao texto do prompt. Os modelos de difusão latente, como o Stable Diffusion, fazem esse processo no espaço latente de um autoencoder, e não diretamente nos pixels, o que reduz o custo. A difusão serve para gerar, e não para classificar, e costuma ser mais lenta que a GAN por exigir muitos passos.</p><p><strong>GAN.</strong> Na rede adversarial generativa, o gerador recebe um vetor de ruído e produz uma amostra, e o discriminador recebe amostras reais e geradas e tenta separá-las. Os dois treinam em competição: o gerador melhora ao enganar o discriminador. Problemas típicos são a instabilidade do treino e o colapso de modo, em que o gerador passa a produzir pouca variedade. A GAN pode sofrer overfitting quando o discriminador decora um conjunto pequeno de imagens reais, e o VAE também pode sobreajustar quando há poucos dados; nenhum dos dois é imune.</p><p><strong>Autoencoder e espaço latente.</strong> O autoencoder tem um codificador, que comprime a entrada em um vetor do espaço latente (o gargalo), e um decodificador, que tenta reconstruí-la. O espaço latente é um espaço vetorial de características abstratas, em que entradas parecidas ficam próximas. A dimensão do gargalo é um hiperparâmetro decisivo: latente menor comprime mais e reconstrói pior; latente grande demais reconstrói bem, mas pode só copiar a entrada sem aprender características úteis. No autoencoder comum, o espaço latente não é organizado, e sortear um ponto qualquer costuma gerar saída sem sentido.</p><p><strong>Autoencoder variacional.</strong> No VAE, o codificador não devolve um ponto, mas os parâmetros de uma distribuição, a média e a variância, e o ponto latente é sorteado dessa distribuição. A função de perda soma o erro de reconstrução e um termo de divergência (KL) que aproxima as distribuições das codificações de uma normal padrão. Essa regularização acontece durante o treino, e não depois dele, e deixa o espaço latente contínuo: pontos próximos decodificam saídas parecidas, e sortear um ponto da normal padrão gera uma amostra nova. O preço é que as amostras do VAE tendem a sair mais borradas que as da GAN.</p><p><strong>Modelos de fundação.</strong> Modelo de fundação é um modelo grande, treinado em dados amplos, em geral por autossupervisão, e adaptável a muitas tarefas por ajuste fino ou por prompt; o termo foi difundido por pesquisadores de Stanford em 2021. Os LLMs são o exemplo típico. A IA generativa aproveita esses modelos de base treinados para tarefas gerais, em vez de treinar um modelo do zero para cada aplicação.</p><p><strong>Multimodalidade e modalidades de geração.</strong> Um modelo multimodal recebe ou produz mais de uma modalidade de dado, como texto, imagem, áudio e vídeo, e pode, por exemplo, descrever uma foto ou responder sobre um documento digitalizado. Há geração de texto (LLMs), de imagem a partir de texto (DALL-E, Stable Diffusion, Midjourney), de áudio e voz e de vídeo. Os geradores de imagem atuais combinam um codificador de texto, em geral baseado em transformer, com um modelo de difusão; não se trata de uma CNN pura de classificação. O deepfake é a mídia sintética que imita uma pessoa real, no rosto ou na voz, e pode ser produzido com GANs, autoencoders ou modelos de difusão.</p>",
-   "aprofundamento_rotulo": "pontos finos que caem em prova",
+   "pegadinhas": [
+    {
+     "errado": "Os modelos generativos classificam em categorias predefinidas, e os discriminativos criam dados novos.",
+     "certo": "É o inverso: o discriminativo separa as classes; o generativo modela os dados e cria amostras.",
+     "fonte": "Questões do app sobre IA generativa"
+    },
+    {
+     "errado": "Os modelos de difusão servem principalmente para classificar imagens.",
+     "certo": "São generativos: criam imagens e outros dados a partir de ruído.",
+     "fonte": "Questões do app sobre IA generativa"
+    },
+    {
+     "errado": "No VAE, o espaço latente é regularizado só depois do treino, em etapa separada.",
+     "certo": "A regularização faz parte da função de perda e ocorre durante o treino.",
+     "fonte": "Questões do app sobre IA generativa"
+    },
+    {
+     "errado": "Modelos multimodais processam só texto, desde que em vários idiomas.",
+     "certo": "Multimodal se refere a tipos de dado, como texto, imagem e áudio, e não a idiomas.",
+     "fonte": "Questões do app sobre IA generativa"
+    },
+    {
+     "errado": "Os geradores de imagem a partir de texto são redes convolucionais puras de classificação.",
+     "certo": "Combinam codificador de texto e modelo de difusão.",
+     "fonte": "Questões do app sobre IA generativa"
+    },
+    {
+     "errado": "As GANs são imunes ao overfitting, o que as distingue dos VAEs.",
+     "certo": "Nenhum dos dois é imune ao overfitting.",
+     "fonte": "Questões do app sobre IA generativa"
+    }
+   ],
    "relacionados": [
     "llm-modelos-de-linguagem-de-grande-escala",
     "deep-learning-arquiteturas-e-treinamento",
