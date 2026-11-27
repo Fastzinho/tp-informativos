@@ -6,7 +6,7 @@
  "descricao": "Direito Ambiental organizado por tema: princípios, meio ambiente na Constituição, competências e LC 140, PNMA e SISNAMA, licenciamento, EIA, zoneamento, APP e reserva legal, unidades de conservação, responsabilidade civil e administrativa, recursos hídricos, resíduos sólidos e saneamento, com resumo, esquemas, pontos de lei e pegadinhas de banca. Gratuito.",
  "revisado_em": "2026-11-27",
  "revisado_rotulo": "Itens de prova checados com o gabarito oficial e pontos de lei conferidos",
- "fontes": "<p>Texto próprio do Tchau Pobreza. Os pontos de lei (Constituição, LC 140/2011, Leis 6.938/1981, 9.605/1998, 12.651/2012, 9.985/2000, 9.433/1997, 12.305/2010, 11.445/2007 e 7.347/1985 e Decretos 6.514/2008 e 99.274/1990) foram conferidos com o texto atualizado da Câmara dos Deputados; as resoluções do CONAMA são citadas pelo seu conteúdo. Os itens de prova citados vêm dos cadernos oficiais do Cebraspe e da FGV, de concursos de Delegado, Juiz, Promotor, Advogado da União e analista, e foram conferidos com o gabarito oficial; quando o nosso material não traz o gabarito, o texto avisa.</p>",
+ "fontes": "<p>Texto próprio do Tchau Pobreza. Os pontos de lei (Constituição, LC 140/2011, Leis 6.938/1981, 9.605/1998, 12.651/2012, 9.985/2000, 9.433/1997, 12.305/2010, 11.445/2007 e 7.347/1985 e Decretos 6.514/2008 e 99.274/1990) foram conferidos com o texto atualizado da Câmara dos Deputados; as resoluções do CONAMA e do CNRH são citadas pelo seu conteúdo. Os itens de prova citados vêm dos cadernos oficiais do Cebraspe e da FGV, de concursos de Delegado, Juiz, Promotor, Advogado da União e analista, e foram conferidos com o gabarito oficial; quando o nosso material não traz o gabarito, o texto avisa.</p>",
  "temas": [
   {
    "slug": "principios-do-direito-ambiental",
@@ -2571,17 +2571,16 @@
    "slug": "responsabilidade-civil-ambiental",
    "titulo": "Responsabilidade civil ambiental",
    "grupo": "Responsabilidade ambiental",
-   "base": "CF, art. 225, § 3º; Lei 6.938/1981, arts. 3º, IV, e 14, § 1º; Lei 7.347/1985; súmulas e temas do STJ e do STF",
+   "base": "Lei 6.938/1981, art. 14; Lei 7.347/1985, arts. 1º, 5º e 13; súmulas e temas do STJ e do STF; citados a CF, art. 225, § 3º, o art. 3º, IV, da Lei 6.938 e os demais artigos da Lei 7.347",
    "tax": [
     "ambiental.responsabilidade-ambiental",
     "ambiental.responsabilidade-risco-integral",
     "ambiental.sumulas-stj",
-    "ambiental.jurisprudencia-stf"
+    "ambiental.jurisprudencia-stf",
+    "ambiental.jurisprudencia-tribunais-dpu"
    ],
    "dispositivos": [
     "n6938-1981-art-14",
-    "n6938-1981-art-3",
-    "nCF-1988-art-225",
     "n7347-1985-art-1",
     "n7347-1985-art-5",
     "n7347-1985-art-13"
@@ -2597,7 +2596,10 @@
     "dano moral coletivo",
     "omissão do Estado",
     "inversão do ônus",
-    "ação civil pública"
+    "ação civil pública",
+    "legitimados da ação civil pública",
+    "compromisso de ajustamento de conduta",
+    "fundo de reconstituição dos bens lesados"
    ],
    "palavras": [
     "responsabilidade civil ambiental",
@@ -2629,39 +2631,234 @@
     "acao civil publica",
     "legitimados acp",
     "tac",
-    "espolio"
+    "espolio",
+    "execucao das garantias",
+    "sem obstar penalidades",
+    "ministerio publico legitimidade",
+    "defensoria publica acp",
+    "associacao um ano",
+    "dispensa da pre-constituicao",
+    "compromisso de ajustamento",
+    "titulo executivo extrajudicial",
+    "acp tributos fgts",
+    "fundo de reconstituicao",
+    "triplice responsabilidade",
+    "tema 1204"
    ],
    "resumo": "A responsabilidade civil por dano ambiental é <strong>objetiva</strong>: o poluidor indeniza ou repara <strong>independentemente de culpa</strong> (Lei 6.938, art. 14, § 1º). O STJ adota a teoria do <strong>risco integral</strong>, que <strong>não admite excludentes</strong> como caso fortuito, força maior ou fato de terceiro (Tema 707). Ela é <strong>solidária</strong> entre todos os que concorreram, direta ou indiretamente, para o dano, inclusive o poluidor indireto (art. 3º, IV), e cabe também ao poder público. As obrigações são <strong>propter rem</strong>: acompanham o imóvel e podem ser cobradas do atual dono ou dos anteriores (Súmula 623 do STJ). A pretensão de reparação é <strong>imprescritível</strong> (STF, Tema 999). Prioriza-se a reparação <strong>in natura</strong>, e é possível cumular obrigação de fazer ou não fazer com indenização (Súmula 629), incluindo danos interinos e dano moral coletivo. Não se aplica a teoria do fato consumado (Súmula 613), e o ônus da prova pode ser invertido (Súmula 618). Na omissão do Estado no dever de fiscalizar, a responsabilidade é solidária, mas de <strong>execução subsidiária</strong> (Súmula 652). A via típica é a <strong>ação civil pública</strong> (Lei 7.347/1985), com indenização revertida a fundo (art. 13).",
    "esquema": {
     "rotulo": "as súmulas do STJ que mais caem",
     "html": "<table><thead><tr><th>Súmula</th><th>Regra</th></tr></thead><tbody><tr><td><strong>613</strong></td><td>Não se admite a teoria do fato consumado em direito ambiental</td></tr><tr><td><strong>618</strong></td><td>Inversão do ônus da prova nas ações de degradação ambiental</td></tr><tr><td><strong>623</strong></td><td>Obrigação propter rem: atual dono e/ou anteriores, à escolha do credor</td></tr><tr><td><strong>629</strong></td><td>Pode cumular obrigação de fazer ou não fazer com indenizar</td></tr><tr><td><strong>652</strong></td><td>Omissão do Estado na fiscalização: solidária, mas de execução subsidiária</td></tr><tr><td><strong>467</strong></td><td>Execução da multa ambiental prescreve em 5 anos após o fim do processo administrativo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Objetiva (Lei 6.938, art. 14, § 1º)",
+      "o_que_e": "O poluidor indeniza ou repara os danos ao meio ambiente e a terceiros independentemente de culpa",
+      "atencao": "Basta a atividade, o dano e o nexo; a reparação não impede as penalidades administrativas.",
+      "grupo": "Regime da responsabilidade civil"
+     },
+     {
+      "nome": "Risco integral (STJ, Tema 707)",
+      "o_que_e": "Não admite excludentes: caso fortuito, força maior ou fato de terceiro não afastam o dever de reparar",
+      "atencao": "O pescador atingido por vazamento é indenizado ainda que a empresa alegue fato de terceiro.",
+      "grupo": "Regime da responsabilidade civil"
+     },
+     {
+      "nome": "Solidária",
+      "o_que_e": "Respondem todos os que concorreram, direta ou indiretamente, para o dano, inclusive o poluidor indireto (Lei 6.938, art. 3º, IV)",
+      "atencao": "O conceito de poluidor está no tema da Política Nacional do Meio Ambiente.",
+      "grupo": "Regime da responsabilidade civil"
+     },
+     {
+      "nome": "Propter rem (Súmula 623; Tema 1.204)",
+      "o_que_e": "A obrigação acompanha o imóvel: cobra-se do dono ou possuidor atual, dos anteriores ou de ambos, à escolha do credor",
+      "atencao": "Fica isento o alienante cujo direito cessou antes do dano, se não concorreu para ele.",
+      "grupo": "Regime da responsabilidade civil"
+     },
+     {
+      "nome": "Imprescritível (STF, Tema 999)",
+      "o_que_e": "A pretensão de reparação civil do dano ambiental não prescreve",
+      "atencao": "Vale também contra o espólio, nos limites da herança; a pretensão de multar prescreve em cinco anos.",
+      "grupo": "Regime da responsabilidade civil"
+     },
+     {
+      "nome": "Cumulação (Súmula 629)",
+      "o_que_e": "Pode-se condenar a fazer, a não fazer e a indenizar ao mesmo tempo",
+      "atencao": "Prioriza-se a reparação in natura; cabem danos interinos e dano moral coletivo.",
+      "grupo": "Súmulas do STJ"
+     },
+     {
+      "nome": "Fato consumado (Súmula 613)",
+      "o_que_e": "Não se aplica em direito ambiental",
+      "atencao": "O tempo de ocupação irregular não legitima o dano.",
+      "grupo": "Súmulas do STJ"
+     },
+     {
+      "nome": "Ônus da prova (Súmula 618)",
+      "o_que_e": "Pode ser invertido nas ações de degradação ambiental",
+      "grupo": "Súmulas do STJ"
+     },
+     {
+      "nome": "Estado omisso (Súmula 652)",
+      "o_que_e": "A Administração que deixa de fiscalizar responde solidariamente, mas com execução subsidiária",
+      "atencao": "Só é executada se o degradador não pagar.",
+      "grupo": "Súmulas do STJ"
+     },
+     {
+      "nome": "Objeto (art. 1º)",
+      "o_que_e": "Danos morais e patrimoniais ao meio ambiente e a outros interesses difusos ou coletivos, sem prejuízo da ação popular",
+      "atencao": "Não cabe para pretensões sobre tributos, contribuições previdenciárias, FGTS ou fundos com beneficiários individualmente determináveis.",
+      "grupo": "Ação civil pública (Lei 7.347)"
+     },
+     {
+      "nome": "Legitimados (art. 5º)",
+      "o_que_e": "Ministério Público, Defensoria Pública, entes federativos, autarquia, empresa pública, fundação, sociedade de economia mista e associação constituída há pelo menos um ano com finalidade pertinente",
+      "atencao": "O juiz pode dispensar a pré-constituição da associação; o órgão público legitimado pode tomar compromisso de ajustamento, que é título executivo extrajudicial.",
+      "grupo": "Ação civil pública (Lei 7.347)"
+     },
+     {
+      "nome": "Fundo (art. 13)",
+      "o_que_e": "A condenação em dinheiro reverte a fundo gerido por conselho com participação do Ministério Público e da comunidade",
+      "atencao": "Os recursos vão para a reconstituição dos bens lesados. Foro, inquérito civil e coisa julgada estão no tema de processo coletivo de Direito Processual Civil.",
+      "grupo": "Ação civil pública (Lei 7.347)"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 14. Sem prejuízo das penalidades definidas pela legislação federal, estadual e municipal, o não cumprimento das medidas necessárias à preservação ou correção dos inconvenientes e danos causados pela degradação da qualidade ambiental sujeitará os transgressores:\n\n(...)\n\n§ 1º Sem obstar a aplicação das penalidades previstas neste artigo, é o poluidor obrigado, independentemente da existência de culpa, a indenizar ou reparar os danos causados ao meio ambiente e a terceiros, afetados por sua atividade. O Ministério Público da União e dos Estados terá legitimidade para propor ação de responsabilidade civil e criminal, por danos causados ao meio ambiente.\n\n(...)",
+     "norma": "n6938-1981",
+     "artigos": [
+      "Art. 14."
+     ],
+     "ref": "art. 14 da Lei 6.938/1981",
+     "regras": [
+      "<strong>Art. 14, caput.</strong> Penalidades a quem não cumpre as medidas de preservação ou correção: multa simples ou diária, perda ou restrição de incentivos fiscais, perda ou suspensão de linhas de financiamento oficiais e suspensão da atividade.",
+      "<strong>Art. 14, §§ 1º e 5º.</strong> O poluidor indeniza ou repara independentemente de culpa, sem prejuízo das penalidades; o Ministério Público da União e dos Estados propõe a ação civil e a criminal; executar as garantias não dispensa a reparação.",
+      "O conceito de poluidor (art. 3º, IV) está no tema da Política Nacional do Meio Ambiente, e a tríplice responsabilidade (CF, art. 225, § 3º), no do meio ambiente na Constituição."
+     ],
+     "literalidades": [
+      {
+       "trecho": "é o poluidor obrigado, independentemente da existência de culpa, a indenizar ou reparar os danos causados ao meio ambiente e a terceiros",
+       "marcas": [
+        "independentemente da existência de culpa"
+       ],
+       "afirmacao": "A empresa que prova ter tomado todas as cautelas não se livra de reparar o dano ambiental causado pela sua atividade.",
+       "gabarito": "C",
+       "porque": "O poluidor repara independentemente de culpa (art. 14, § 1º), e a cautela não é excludente."
+      },
+      {
+       "trecho": "A execução das garantias exigidas do poluidor não impede a aplicação das obrigações de indenização e reparação de danos",
+       "marcas": [
+        "não impede"
+       ],
+       "afirmacao": "Executada a garantia exigida do poluidor, ele fica dispensado de reparar o restante do dano.",
+       "gabarito": "E",
+       "porque": "A execução das garantias não impede a indenização e a reparação dos danos (art. 14, § 5º)."
+      },
+      {
+       "trecho": "O Ministério Público da União e dos Estados terá legitimidade para propor ação de responsabilidade civil e criminal",
+       "marcas": [
+        "Ministério Público da União e dos Estados"
+       ],
+       "afirmacao": "O Ministério Público estadual pode ajuizar ação de reparação contra a indústria que contaminou um rio do Estado.",
+       "gabarito": "C",
+       "porque": "É o art. 14, § 1º, parte final."
+      },
+      {
+       "trecho": "Sem obstar a aplicação das penalidades previstas neste artigo",
+       "marcas": [
+        "Sem obstar"
+       ],
+       "afirmacao": "Quem repara o dano ambiental fica livre das penalidades administrativas do art. 14 da Lei 6.938.",
+       "gabarito": "E",
+       "porque": "A reparação civil ocorre sem obstar as penalidades (art. 14, § 1º); as esferas são independentes."
+      }
+     ],
+     "conferido": {
+      "Art. 14.": "083c04bb45ee"
+     },
      "fonte": "Lei 6.938/1981 (Política Nacional do Meio Ambiente), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html",
-     "norma": "n6938-1981"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-6938-31-agosto-1981-366135-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 5º Têm legitimidade para propor a ação principal e a ação cautelar:\n\nI - o Ministério Público;\n\nII - a Defensoria Pública;\n\nIII - a União, os Estados, o Distrito Federal e os Municípios;\n\nIV - a autarquia, empresa pública, fundação ou sociedade de economia mista;\n\nV - a associação que, concomitantemente:\n\na) esteja constituída há pelo menos 1 (um) ano nos termos da lei civil;\n\nb) inclua, entre suas finalidades institucionais, a proteção ao patrimônio público e social, ao meio ambiente, ao consumidor, à ordem econômica, à livre concorrência, aos direitos de grupos raciais, étnicos ou religiosos ou ao patrimônio artístico, estético, histórico, turístico e paisagístico.\n\n(...)",
+     "norma": "n7347-1985",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 5º.",
+      "Art. 13."
+     ],
+     "ref": "arts. 1º, 5º e 13 da Lei 7.347/1985",
+     "regras": [
+      "<strong>Art. 1º.</strong> A ação civil pública cuida de danos morais e patrimoniais ao meio ambiente, ao consumidor, ao patrimônio cultural, à ordem econômica, à ordem urbanística, à honra de grupos raciais, étnicos ou religiosos, ao patrimônio público e a outros interesses difusos ou coletivos; não serve a pretensões sobre tributos, contribuições previdenciárias e FGTS.",
+      "<strong>Art. 5º.</strong> Legitimados, atuação obrigatória do Ministério Público como fiscal da lei, sucessão na desistência infundada da associação, dispensa judicial da pré-constituição e compromisso de ajustamento de conduta.",
+      "<strong>Art. 13.</strong> Condenação em dinheiro revertida a fundo destinado à reconstituição dos bens lesados.",
+      "Os demais artigos da Lei 7.347 estão no tema de processo coletivo do caderno de Direito Processual Civil."
+     ],
+     "literalidades": [
+      {
+       "trecho": "Não será cabível ação civil pública para veicular pretensões que envolvam tributos",
+       "marcas": [
+        "tributos"
+       ],
+       "afirmacao": "Uma associação pode usar a ação civil pública para pedir a devolução de taxa ambiental paga a mais por seus associados.",
+       "gabarito": "E",
+       "porque": "Não cabe ação civil pública para pretensões que envolvam tributos (art. 1º, parágrafo único)."
+      },
+      {
+       "trecho": "esteja constituída há pelo menos 1 (um) ano nos termos da lei civil",
+       "marcas": [
+        "pelo menos 1 (um) ano"
+       ],
+       "afirmacao": "A associação ambiental só pode propor ação civil pública se estiver constituída há pelo menos dois anos.",
+       "gabarito": "E",
+       "porque": "Basta estar constituída há pelo menos um ano (art. 5º, V, a), requisito que o juiz ainda pode dispensar."
+      },
+      {
+       "trecho": "O requisito da pré-constituição poderá ser dispensado pelo juiz",
+       "marcas": [
+        "poderá ser dispensado pelo juiz"
+       ],
+       "afirmacao": "Diante de um desastre ambiental de grandes proporções, o juiz pode admitir a ação civil pública de associação criada há seis meses.",
+       "gabarito": "C",
+       "porque": "O juiz pode dispensar a pré-constituição quando houver manifesto interesse social pela dimensão do dano (art. 5º, § 4º)."
+      },
+      {
+       "trecho": "que terá eficácia de título executivo extrajudicial",
+       "marcas": [
+        "título executivo extrajudicial"
+       ],
+       "afirmacao": "Descumprido o compromisso de ajustamento firmado com o Ministério Público, ele pode ser executado sem nova ação de conhecimento.",
+       "gabarito": "C",
+       "porque": "O compromisso de ajustamento tem eficácia de título executivo extrajudicial (art. 5º, § 6º)."
+      },
+      {
+       "trecho": "II - a Defensoria Pública",
+       "marcas": [
+        "a Defensoria Pública"
+       ],
+       "afirmacao": "A Defensoria Pública tem legitimidade para a ação civil pública que pede a reparação de dano ambiental sofrido por uma comunidade pobre.",
+       "gabarito": "C",
+       "porque": "A Defensoria é legitimada (art. 5º, II)."
+      },
+      {
+       "trecho": "a indenização pelo dano causado reverterá a um fundo gerido por um Conselho Federal ou por Conselhos Estaduais",
+       "marcas": [
+        "reverterá a um fundo"
+       ],
+       "afirmacao": "A indenização em dinheiro obtida em ação civil pública ambiental é entregue ao município onde ocorreu o dano, para uso livre.",
+       "gabarito": "E",
+       "porque": "Ela reverte a fundo gerido por conselho federal ou estaduais, com recursos destinados à reconstituição dos bens lesados (art. 13)."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "1272a38958e4",
+      "Art. 5º.": "3a623e7bed69",
+      "Art. 13.": "eb42529badc0"
+     },
      "fonte": "Lei 7.347/1985 (Ação Civil Pública), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7347-24-julho-1985-356939-normaatualizada-pl.html",
-     "norma": "n7347-1985"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "RISCO INTEGRAL NÃO TEM DESCULPA",
-     "texto": "Na reparação civil ambiental, nem caso fortuito nem força maior nem fato de terceiro rompem o dever de reparar."
-    },
-    {
-     "sigla": "CIVIL OBJETIVA, ADMINISTRATIVA SUBJETIVA",
-     "texto": "Reparar o dano independe de culpa. Multar exige conduta e culpa do infrator (STJ, EREsp 1.318.051)."
-    },
-    {
-     "sigla": "ESTADO PAGA DEPOIS",
-     "texto": "O Estado omisso responde junto, mas só é executado se o degradador não pagar."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1980-1987/lei-7347-24-julho-1985-356939-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -2686,31 +2883,74 @@
      "texto": "As obrigações ambientais possuem natureza propter rem, sendo possível exigi-las, à escolha do credor, do proprietário ou possuidor atual, de qualquer dos anteriores, ou de ambos, ficando isento de responsabilidade o alienante cujo direito real tenha cessado antes da causação do dano, desde que para ele não tenha concorrido, direta ou indiretamente."
     }
    ],
+   "detalhes": [
+    "<strong>Imprescritível também contra o espólio.</strong> Na ação civil pública contra o espólio de quem extraiu madeira ilegalmente em APP, está errado falar em prescrição de três ou cinco anos: a pretensão de reparar o dano ambiental é imprescritível (STF, Tema 999), e a obrigação se transmite aos herdeiros nos limites da herança (FGV, Juiz TJPE 2024; o nosso material não traz o gabarito oficial, mas a regra é a do tema).",
+    "<strong>Multa prescreve, reparação não.</strong> Numa questão de Juiz (Cebraspe, TJDFT 2022), uma das alternativas dizia que a multa administrativa é imprescritível e que a reparação prescreve. Está invertido: a pretensão de punir prescreve em cinco anos (Decreto 6.514, art. 21), e a reparação é imprescritível. O nosso material não traz o gabarito oficial dessa questão.",
+    "<strong>Função punitivo-pedagógica.</strong> O STJ reconhece que a indenização ambiental também desestimula novas condutas lesivas, e por isso não pode ser fixada aquém da integralidade dos danos. O item estava certo (Cebraspe, Delegado PC-DF 2026, com justificativa oficial).",
+    "<strong>Estado omisso.</strong> Quando a União e o estado não fiscalizam e o dano continua, respondem solidariamente com o poluidor, mas a execução contra eles é subsidiária (Súmula 652). O caso foi cobrado com um derramamento de óleo em rio, com indústria licenciada pelo estado e omissão da União e do estado (Cebraspe, Advogado da União AGU 2022); o nosso material não traz o gabarito oficial, mas a regra é a da súmula.",
+    "<strong>Pescador atingido.</strong> O pescador profissional que perde a atividade por vazamento poluente tem direito a indenização por danos materiais e morais, sem precisar provar culpa, e a empresa não se exime alegando fato de terceiro, pelo risco integral (STJ, Tema 707).",
+    "<strong>Multa não substitui reparação.</strong> Pagar a multa ambiental não isenta da reparação do dano: as esferas são independentes (CF, art. 225, § 3º; Decreto 6.514, art. 143, § 1º). Está errado o item que dizia o contrário (Cebraspe, Advogado da União AGU 2022).",
+    "<strong>Três esferas.</strong> A mesma conduta pode gerar sanção penal, sanção administrativa e dever de reparar (CF, art. 225, § 3º, no tema do meio ambiente na Constituição). A civil é objetiva; a administrativa, para o STJ, é subjetiva; a penal exige dolo ou culpa.",
+    "<strong>Jurisprudência que mais cai.</strong> É imprescritível a pretensão de reparação civil do dano ambiental (STF, Tema 999); não se admite a teoria do fato consumado (Súmula 613); a responsabilidade é objetiva e fundada no risco integral, sem excludentes como caso fortuito ou fato de terceiro (STJ, Tema 707); e cabe a condenação simultânea e cumulativa nas obrigações de fazer, de não fazer e de indenizar (Súmula 629)."
+   ],
+   "macetes": [
+    {
+     "sigla": "RISCO INTEGRAL NÃO TEM DESCULPA",
+     "texto": "Na reparação civil ambiental, nem caso fortuito nem força maior nem fato de terceiro rompem o dever de reparar."
+    },
+    {
+     "sigla": "CIVIL OBJETIVA, ADMINISTRATIVA SUBJETIVA",
+     "texto": "Reparar o dano independe de culpa. Multar exige conduta e culpa do infrator (STJ, EREsp 1.318.051)."
+    },
+    {
+     "sigla": "ESTADO PAGA DEPOIS",
+     "texto": "O Estado omisso responde junto, mas só é executado se o degradador não pagar."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "O dever de recuperar ou indenizar os danos causados ao meio ambiente, independentemente da existência de culpa, é atributo característico da responsabilidade subjetiva.",
     "gabarito": "E",
     "explicacao": "Reparar sem depender de culpa é a marca da responsabilidade objetiva (Lei 6.938, art. 14, § 1º), que foi a resposta da questão (Cebraspe, Delegado PC-CE 2025)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Imprescritível também contra o espólio.</strong> Na ação civil pública contra o espólio de quem extraiu madeira ilegalmente em APP, está errado falar em prescrição de três ou cinco anos: a pretensão de reparar o dano ambiental é imprescritível (STF, Tema 999), e a obrigação se transmite aos herdeiros nos limites da herança (FGV, Juiz TJPE 2024; o nosso material não traz o gabarito oficial, mas a regra é a do tema).</p><p><strong>Multa prescreve, reparação não.</strong> Numa questão de Juiz (Cebraspe, TJDFT 2022), uma das alternativas dizia que a multa administrativa é imprescritível e que a reparação prescreve. Está invertido: a pretensão de punir prescreve em cinco anos (Decreto 6.514, art. 21), e a reparação é imprescritível. O nosso material não traz o gabarito oficial dessa questão.</p><p><strong>Função punitivo-pedagógica.</strong> O STJ reconhece que a indenização ambiental também desestimula novas condutas lesivas, e por isso não pode ser fixada aquém da integralidade dos danos. O item estava certo (Cebraspe, Delegado PC-DF 2026, com justificativa oficial).</p><p><strong>Estado omisso.</strong> Quando a União e o estado não fiscalizam e o dano continua, respondem solidariamente com o poluidor, mas a execução contra eles é subsidiária (Súmula 652). O caso foi cobrado com um derramamento de óleo em rio, com indústria licenciada pelo estado e omissão da União e do estado (Cebraspe, Advogado da União AGU 2022); o nosso material não traz o gabarito oficial, mas a regra é a da súmula.</p><p><strong>Pescador atingido.</strong> O pescador profissional que perde a atividade por vazamento poluente tem direito a indenização por danos materiais e morais, sem precisar provar culpa, e a empresa não se exime alegando fato de terceiro, pelo risco integral (STJ, Tema 707). A FGV cobrou o caso do vazamento de amônia num rio (Juiz TJSC 2023); o nosso material não traz o gabarito oficial.</p><p><strong>Multa não substitui reparação.</strong> Pagar a multa ambiental não isenta da reparação do dano: as esferas são independentes (CF, art. 225, § 3º; Decreto 6.514, art. 143, § 1º). Está errado o item que dizia o contrário (Cebraspe, Advogado da União AGU 2022).</p>",
+   "pegadinhas": [
+    {
+     "errado": "Contra o espólio de quem desmatou, a pretensão de reparar o dano ambiental prescreve em cinco anos.",
+     "certo": "A pretensão é imprescritível (STF, Tema 999), e a obrigação passa aos herdeiros nos limites da herança.",
+     "fonte": "Questão do app sobre a imprescritibilidade da reparação"
+    },
+    {
+     "errado": "Quem paga a multa ambiental fica dispensado de reparar o dano.",
+     "certo": "As esferas são independentes, e o autuado continua obrigado a reparar integralmente o dano (Decreto 6.514, art. 143, § 1º).",
+     "fonte": "Cebraspe, Advogado da União AGU 2022"
+    },
+    {
+     "errado": "A indenização ambiental pode ficar aquém do dano, porque só tem função reparatória.",
+     "certo": "Ela tem também função punitivo-pedagógica e não pode ficar aquém da integralidade dos danos (STJ).",
+     "fonte": "Cebraspe, Delegado PC-DF 2026"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-CE 2025; Delegado PC-DF 2026; Juiz TJDFT 2022; Advogado da União AGU 2022",
+    "FGV: Juiz TJPE 2024"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: fica com o art. 14 da Lei 6.938 e os arts. 1º, 5º e 13 da Lei 7.347; a CF e o art. 3º da Lei 6.938 passam a ser citados; sai o aprofundamento."
+    }
+   ],
    "relacionados": [
     "infracoes-e-sancoes-administrativas-ambientais",
     "principios-do-direito-ambiental",
     "area-de-preservacao-permanente-e-reserva-legal"
-   ],
-   "mudancas": [
-    {
-     "em": "2026-11-14",
-     "tipo": "juris",
-     "nota": "Acrescido o Tema 1.204 do STJ: o alienante cujo direito cessou antes do dano fica isento, se não concorreu para ele."
-    }
    ]
   },
   {
    "slug": "infracoes-e-sancoes-administrativas-ambientais",
    "titulo": "Infrações e sanções administrativas ambientais",
    "grupo": "Responsabilidade ambiental",
-   "base": "Lei 9.605/1998, arts. 70 a 76; Decreto 6.514/2008, arts. 2º, 3º, 5º, 21, 22, 139 a 143; LC 140/2011, art. 17",
+   "base": "Lei 9.605/1998, arts. 70 a 76; Decreto 6.514/2008, arts. 3º, 5º, 10, 11, 20 a 22, 96, 101 e 143; LC 140/2011, art. 17",
    "tax": [
     "ambiental.crimes-infracoes-administrativas-contra-meio",
     "ambiental.procedimento-administrativo-apuracao-infracoes-ambientais",
@@ -2718,13 +2958,21 @@
    ],
    "dispositivos": [
     "n9605-1998-art-70",
+    "n9605-1998-art-71",
     "n9605-1998-art-72",
+    "n9605-1998-art-73",
+    "n9605-1998-art-74",
     "n9605-1998-art-75",
     "n9605-1998-art-76",
     "n6514-2008-art-3",
     "n6514-2008-art-5",
+    "n6514-2008-art-10",
+    "n6514-2008-art-11",
+    "n6514-2008-art-20",
     "n6514-2008-art-21",
     "n6514-2008-art-22",
+    "n6514-2008-art-96",
+    "n6514-2008-art-101",
     "n6514-2008-art-143",
     "n140-2011-art-17"
    ],
@@ -2739,7 +2987,11 @@
     "responsabilidade subjetiva",
     "prescrição",
     "conversão de multa",
-    "multa estadual substitui a federal"
+    "multa estadual substitui a federal",
+    "prazos do processo administrativo ambiental",
+    "reincidência",
+    "medidas administrativas",
+    "competência para autuar"
    ],
    "palavras": [
     "infracao administrativa ambiental",
@@ -2768,45 +3020,336 @@
     "desconto 40",
     "desconto 60",
     "multa estadual substitui federal",
-    "bis in idem"
+    "bis in idem",
+    "prazos do processo administrativo",
+    "vinte dias defesa",
+    "trinta dias julgar",
+    "cinco dias pagar",
+    "fundo nacional do meio ambiente",
+    "multa por hectare",
+    "multa dia dez por cento",
+    "termo de compromisso multa diaria",
+    "reincidencia triplo dobro",
+    "proibicao de contratar",
+    "interrupcao da prescricao",
+    "auto de infracao intimacao",
+    "medidas administrativas cautelares",
+    "embargo restrito ao local",
+    "licenciador autua",
+    "adi 4757",
+    "fiscalizacao comum"
    ],
    "resumo": "Infração administrativa ambiental é toda ação ou omissão que viole as regras de uso, gozo, promoção, proteção e recuperação do meio ambiente (Lei 9.605, art. 70). Lavram auto de infração os servidores dos órgãos do SISNAMA designados para a fiscalização e os agentes da Capitania dos Portos (art. 70, § 1º); qualquer pessoa pode representar (§ 2º), e a autoridade que souber da infração deve apurá-la imediatamente, sob pena de <strong>corresponsabilidade</strong> (§ 3º). As sanções são advertência, multa simples, multa diária, apreensão, destruição do produto, suspensão de venda, embargo, demolição, suspensão de atividades e restritivas de direitos (art. 72), aplicadas <strong>cumulativamente</strong> se houver mais de uma infração (§ 1º). A <strong>advertência</strong> serve às infrações de menor lesividade, cuja multa consolidada não passe de <strong>R$ 1.000,00</strong> ou, na multa por unidade de medida, não exceda esse valor (Decreto 6.514, art. 5º, § 1º). A multa vai de R$ 50 a R$ 50 milhões (art. 75), e o pagamento de multa estadual ou municipal <strong>substitui</strong> a federal na mesma hipótese (art. 76). Para o STJ, a responsabilidade administrativa é <strong>subjetiva</strong>, ao contrário da civil. A ação punitiva prescreve em <strong>cinco anos</strong>, e incide prescrição intercorrente no processo parado por mais de <strong>três anos</strong> (Decreto 6.514, art. 21). A multa simples pode ser <strong>convertida</strong> em serviços ambientais, com descontos maiores quanto mais cedo for o pedido (art. 143).",
    "esquema": {
     "rotulo": "conversão de multa (Decreto 6.514, art. 143, § 2º)",
     "html": "<table><thead><tr><th>Modalidade</th><th>Pedido com a defesa</th><th>Pedido até as alegações finais</th></tr></thead><tbody><tr><td><strong>Direta (o autuado executa o serviço)</strong></td><td>40%</td><td>35%</td></tr><tr><td><strong>Indireta (adere a projeto selecionado pelo órgão)</strong></td><td>60%</td><td>50%</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Infração (art. 70)",
+      "o_que_e": "Ação ou omissão que viole as regras de uso, gozo, promoção, proteção e recuperação do meio ambiente",
+      "atencao": "Lavram o auto os servidores do SISNAMA designados para fiscalizar e os agentes das Capitanias dos Portos; qualquer pessoa pode representar.",
+      "grupo": "Lei 9.605 (arts. 70 a 76)"
+     },
+     {
+      "nome": "Dever de apurar (art. 70, § 3º)",
+      "o_que_e": "A autoridade que souber da infração deve apurá-la de imediato, em processo próprio",
+      "atencao": "Se não o fizer, responde como corresponsável.",
+      "grupo": "Lei 9.605 (arts. 70 a 76)"
+     },
+     {
+      "nome": "Prazos (art. 71)",
+      "o_que_e": "20 dias para a defesa, 30 para julgar, 20 para recorrer e 5 para pagar a multa",
+      "grupo": "Lei 9.605 (arts. 70 a 76)"
+     },
+     {
+      "nome": "Sanções (art. 72)",
+      "o_que_e": "Advertência, multa simples e diária, apreensão, destruição, suspensão de venda, embargo, demolição, suspensão de atividades e restritivas de direitos",
+      "atencao": "Aplicam-se cumulativamente se houver duas ou mais infrações; a multa simples exige negligência ou dolo nos casos do § 3º.",
+      "grupo": "Lei 9.605 (arts. 70 a 76)"
+     },
+     {
+      "nome": "Valores (arts. 73 a 76)",
+      "o_que_e": "Multa por unidade, hectare, metro cúbico ou quilograma, de R$ 50 a R$ 50 milhões",
+      "atencao": "A multa estadual ou municipal paga substitui a federal na mesma hipótese de incidência.",
+      "grupo": "Lei 9.605 (arts. 70 a 76)"
+     },
+     {
+      "nome": "Advertência (art. 5º)",
+      "o_que_e": "Para a infração de menor lesividade, com multa consolidada de até R$ 1.000",
+      "atencao": "Se o autuado não sanar a irregularidade por negligência ou dolo, recebe a multa.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Multa diária (art. 10)",
+      "o_que_e": "Quando a infração se prolonga no tempo, até 10% da multa simples máxima",
+      "atencao": "Cessa com a regularização comprovada ou com termo de compromisso de reparação.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Reincidência (art. 11)",
+      "o_que_e": "Nova infração em cinco anos da condenação definitiva",
+      "atencao": "Multa em triplo na mesma infração e em dobro na infração distinta.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Prescrição (arts. 21 e 22)",
+      "o_que_e": "Cinco anos para apurar, da prática ou da cessação da infração permanente; intercorrente com o processo parado por mais de três anos",
+      "atencao": "Se o fato é crime, vale o prazo penal; a prescrição não afasta a reparação. Interrompe-se pela ciência do auto, por ato de apuração e pela decisão condenatória recorrível.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Auto e medidas (arts. 96 e 101)",
+      "o_que_e": "O autuado tem 20 dias para se defender ou aderir a desconto, parcelamento ou conversão; o agente pode apreender, embargar, suspender e demolir",
+      "atencao": "O embargo só alcança o local onde se caracterizou a infração.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Conversão (art. 143)",
+      "o_que_e": "Desconto de 40% (direta) ou 60% (indireta) com a defesa; 35% ou 50% até as alegações finais",
+      "atencao": "O autuado continua obrigado a reparar integralmente o dano.",
+      "grupo": "Decreto 6.514"
+     },
+     {
+      "nome": "Órgão licenciador",
+      "o_que_e": "Cabe ao órgão que licenciou ou autorizou lavrar o auto e instaurar o processo",
+      "atencao": "Os demais entes fiscalizam em comum; havendo dois autos, prevalece o do licenciador, e outro ente pode atuar se ele for omisso (STF, ADI 4.757).",
+      "grupo": "Quem autua (LC 140, art. 17)"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 70. Considera-se infração administrativa ambiental toda ação ou omissão que viole as regras jurídicas de uso, gozo, promoção, proteção e recuperação do meio ambiente.\n\n§ 1º São autoridades competentes para lavrar auto de infração ambiental e instaurar processo administrativo os funcionários de órgãos ambientais integrantes do Sistema Nacional de Meio Ambiente - SISNAMA, designados para as atividades de fiscalização, bem como os agentes das Capitanias dos Portos, do Ministério da Marinha.\n\n§ 2º Qualquer pessoa, constatando infração ambiental, poderá dirigir representação às autoridades relacionadas no parágrafo anterior, para efeito do exercício do seu poder de polícia.\n\n§ 3º A autoridade ambiental que tiver conhecimento de infração ambiental é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de co-responsabilidade.\n\n§ 4º As infrações ambientais são apuradas em processo administrativo próprio, assegurado o direito de ampla defesa e o contraditório, observadas as disposições desta Lei.",
+     "norma": "n9605-1998",
+     "artigos": [
+      "Art. 70.",
+      "Art. 71.",
+      "Art. 72.",
+      "Art. 73.",
+      "Art. 74.",
+      "Art. 75.",
+      "Art. 76."
+     ],
+     "ref": "arts. 70 a 76 da Lei 9.605/1998",
+     "regras": [
+      "<strong>Arts. 70 e 71.</strong> Conceito de infração administrativa, autoridades que autuam, representação por qualquer pessoa, dever de apurar sob pena de corresponsabilidade e prazos máximos do processo.",
+      "<strong>Art. 72.</strong> Sanções, cumulação, multa simples por negligência ou dolo, conversão em serviços ambientais, multa diária e restritivas de direitos.",
+      "<strong>Arts. 73 a 76.</strong> Destino da arrecadação, base de cálculo, limites de R$ 50 a R$ 50 milhões e substituição da multa federal pela estadual ou municipal. A parte penal da Lei 9.605 está no caderno de Legislação Penal Especial."
+     ],
+     "literalidades": [
+      {
+       "trecho": "é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de co-responsabilidade",
+       "marcas": [
+        "sob pena de co-responsabilidade"
+       ],
+       "afirmacao": "O fiscal ambiental que presencia o desmatamento ilegal e não instaura o processo responde junto com o infrator.",
+       "gabarito": "C",
+       "porque": "A autoridade que conhece a infração deve apurá-la de imediato, sob pena de corresponsabilidade (art. 70, § 3º)."
+      },
+      {
+       "trecho": "bem como os agentes das Capitanias dos Portos, do Ministério da Marinha",
+       "marcas": [
+        "Capitanias dos Portos"
+       ],
+       "afirmacao": "Só os servidores do IBAMA podem lavrar auto de infração ambiental.",
+       "gabarito": "E",
+       "porque": "Autuam os servidores dos órgãos do SISNAMA designados para a fiscalização e os agentes das Capitanias dos Portos (art. 70, § 1º)."
+      },
+      {
+       "trecho": "vinte dias para o infrator oferecer defesa ou impugnação contra o auto de infração",
+       "marcas": [
+        "vinte dias"
+       ],
+       "afirmacao": "O autuado tem quinze dias, contados da ciência, para apresentar defesa contra o auto de infração ambiental.",
+       "gabarito": "E",
+       "porque": "O prazo é de vinte dias (art. 71, I)."
+      },
+      {
+       "trecho": "Se o infrator cometer, simultaneamente, duas ou mais infrações, ser-lhe-ão aplicadas, cumulativamente, as sanções a elas cominadas.",
+       "marcas": [
+        "cumulativamente"
+       ],
+       "afirmacao": "Quem pratica duas infrações ambientais ao mesmo tempo recebe só a sanção da mais grave.",
+       "gabarito": "E",
+       "porque": "As sanções são aplicadas cumulativamente (art. 72, § 1º)."
+      },
+      {
+       "trecho": "sendo o mínimo de R$ 50,00 (cinqüenta reais) e o máximo de R$ 50.000.000,00 (cinqüenta milhões de reais)",
+       "marcas": [
+        "R$ 50.000.000,00"
+       ],
+       "afirmacao": "Uma multa ambiental de R$ 30 milhões está dentro dos limites da Lei 9.605.",
+       "gabarito": "C",
+       "porque": "A multa vai de R$ 50 a R$ 50 milhões (art. 75)."
+      },
+      {
+       "trecho": "substitui a multa federal na mesma hipótese de incidência",
+       "marcas": [
+        "substitui"
+       ],
+       "afirmacao": "A empresa que pagou multa estadual por lançar efluentes num rio não paga também a multa federal pela mesma hipótese de incidência.",
+       "gabarito": "C",
+       "porque": "O pagamento da multa estadual ou municipal substitui a federal na mesma hipótese (art. 76)."
+      }
+     ],
+     "conferido": {
+      "Art. 70.": "ce73705d5210",
+      "Art. 71.": "85a07a9a18c7",
+      "Art. 72.": "9874169a2578",
+      "Art. 73.": "90b56480c710",
+      "Art. 74.": "3fa1ef9a34dd",
+      "Art. 75.": "6d8a2f9b6810",
+      "Art. 76.": "a30c6b9046d1"
+     },
      "fonte": "Lei 9.605/1998 (Lei dos Crimes Ambientais), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html",
-     "norma": "n9605-1998"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9605-12-fevereiro-1998-365397-normaatualizada-pl.html"
     },
     {
-     "texto": "Art. 5º A sanção de advertência poderá ser aplicada, mediante a lavratura de auto de infração, para as infrações administrativas de menor lesividade ao meio ambiente, garantidos a ampla defesa e o contraditório.\n\n§ 1º Consideram-se infrações administrativas de menor lesividade ao meio ambiente aquelas em que a multa consolidada não ultrapasse o valor de R$ 1.000,00 (mil reais) ou, na hipótese de multa por unidade de medida, não exceda o valor referido.\n\n(...)",
+     "norma": "n6514-2008",
+     "artigos": [
+      "Art. 3º.",
+      "Art. 5º.",
+      "Art. 10.",
+      "Art. 11.",
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 22.",
+      "Art. 96.",
+      "Art. 101.",
+      "Art. 143."
+     ],
+     "ref": "arts. 3º, 5º, 10, 11, 20 a 22, 96, 101 e 143 do Decreto 6.514/2008",
+     "regras": [
+      "<strong>Arts. 3º e 5º.</strong> Sanções e medidas cautelares no poder de polícia; negligência ou dolo exigidos só nos casos do art. 72, § 3º, da Lei 9.605; advertência para infração de menor lesividade.",
+      "<strong>Arts. 10, 11 e 20.</strong> Multa diária, reincidência e restritivas de direito, com prazo de até cinco anos para a proibição de contratar e de até dez para as demais.",
+      "<strong>Arts. 21 e 22.</strong> Prescrição em cinco anos, intercorrente em três, pelo prazo penal se o fato for crime, sem afastar a reparação; causas de interrupção.",
+      "<strong>Arts. 96, 101 e 143.</strong> Auto de infração e intimação, medidas administrativas e conversão da multa com descontos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "multa consolidada não ultrapasse o valor de R$ 1.000,00 (mil reais)",
+       "marcas": [
+        "R$ 1.000,00 (mil reais)"
+       ],
+       "afirmacao": "Cabe advertência quando a multa consolidada não passar de um salário mínimo.",
+       "gabarito": "E",
+       "porque": "O critério é o valor de R$ 1.000,00 (art. 5º, § 1º), e não o salário mínimo."
+      },
+      {
+       "trecho": "no caso de infração permanente ou continuada, do dia em que esta tiver cessado",
+       "marcas": [
+        "do dia em que esta tiver cessado"
+       ],
+       "afirmacao": "Na infração permanente, o prazo de cinco anos para apurar só começa a correr quando ela cessa.",
+       "gabarito": "C",
+       "porque": "É o art. 21, caput."
+      },
+      {
+       "trecho": "paralisado por mais de três anos",
+       "marcas": [
+        "mais de três anos"
+       ],
+       "afirmacao": "O processo de apuração parado há dois anos, pendente de julgamento, já está prescrito.",
+       "gabarito": "E",
+       "porque": "A prescrição intercorrente exige paralisação por mais de três anos (art. 21, § 2º)."
+      },
+      {
+       "trecho": "a prescrição de que trata o caput reger-se-á pelo prazo previsto na lei penal",
+       "marcas": [
+        "prazo previsto na lei penal"
+       ],
+       "afirmacao": "Se o desmatamento também é crime, a prescrição da ação punitiva administrativa segue o prazo da lei penal.",
+       "gabarito": "C",
+       "porque": "É o art. 21, § 3º."
+      },
+      {
+       "trecho": "A prescrição da pretensão punitiva da administração não elide a obrigação de reparar o dano ambiental.",
+       "marcas": [
+        "não elide"
+       ],
+       "afirmacao": "Prescrita a pretensão de multar, o infrator fica livre também de reparar o dano.",
+       "gabarito": "E",
+       "porque": "A prescrição punitiva não elide a obrigação de reparar (art. 21, § 4º), que é imprescritível."
+      },
+      {
+       "trecho": "aplicação da multa em triplo, no caso de cometimento da mesma infração",
+       "marcas": [
+        "em triplo"
+       ],
+       "afirmacao": "Quem reincide na mesma infração em cinco anos recebe a multa em dobro.",
+       "gabarito": "E",
+       "porque": "Na mesma infração, a multa é aplicada em triplo; o dobro vale para infração distinta (art. 11)."
+      },
+      {
+       "trecho": "sessenta por cento, na hipótese prevista no inciso II do caput do art. 142- A, se a conversão for requerida juntamente com a defesa",
+       "marcas": [
+        "sessenta por cento"
+       ],
+       "afirmacao": "Quem pede a conversão indireta da multa junto com a defesa obtém desconto de 60%.",
+       "gabarito": "C",
+       "porque": "É o art. 143, § 2º, III."
+      },
+      {
+       "trecho": "A celebração de termo de compromisso de reparação ou cessação dos danos encerrará a contagem da multa diária.",
+       "marcas": [
+        "encerrará a contagem"
+       ],
+       "afirmacao": "Firmado termo de compromisso para reparar o dano, a multa diária para de correr.",
+       "gabarito": "C",
+       "porque": "É o art. 10, § 8º."
+      }
+     ],
+     "conferido": {
+      "Art. 3º.": "91b01bd24bd2",
+      "Art. 5º.": "83d6de12c279",
+      "Art. 10.": "52c8312dca9f",
+      "Art. 11.": "8031c55a5873",
+      "Art. 20.": "a101e4d6ffd3",
+      "Art. 21.": "f0f0f6a21f81",
+      "Art. 22.": "a8963bd8b7c1",
+      "Art. 96.": "99952ced571b",
+      "Art. 101.": "a3066a8a4852",
+      "Art. 143.": "e997cc3cf592"
+     },
      "fonte": "Decreto 6.514/2008 (Infrações e sanções administrativas ambientais), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6514-22-julho-2008-578464-normaatualizada-pe.html",
-     "norma": "n6514-2008"
+     "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6514-22-julho-2008-578464-normaatualizada-pe.html"
     },
     {
-     "texto": "Art. 21. Prescreve em cinco anos a ação da administração objetivando apurar a prática de infrações contra o meio ambiente, contada da data da prática do ato, ou, no caso de infração permanente ou continuada, do dia em que esta tiver cessado.\n\n§ 1º Considera-se iniciada a ação de apuração de infração ambiental pela administração com a lavratura do auto de infração.\n\n§ 2º Incide a prescrição no procedimento de apuração do auto de infração paralisado por mais de três anos, pendente de julgamento ou despacho, cujos autos serão arquivados de ofício ou mediante requerimento da parte interessada, sem prejuízo da apuração da responsabilidade funcional decorrente da paralisação.\n\n§ 3º Quando o fato objeto da infração também constituir crime, a prescrição de que trata o caput reger-se-á pelo prazo previsto na lei penal.\n\n§ 4º A prescrição da pretensão punitiva da administração não elide a obrigação de reparar o dano ambiental.",
-     "fonte": "Decreto 6.514/2008 (Infrações e sanções administrativas ambientais), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6514-22-julho-2008-578464-normaatualizada-pe.html",
-     "norma": "n6514-2008"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "MIL REAIS É ADVERTÊNCIA",
-     "texto": "Menor lesividade: multa consolidada de até R$ 1.000, ou multa por unidade de medida que não exceda esse valor. Salário mínimo é a pegadinha."
-    },
-    {
-     "sigla": "CINCO PARA PUNIR, TRÊS PARADO",
-     "texto": "A administração tem cinco anos para apurar; o processo parado por mais de três anos prescreve. Se o fato também é crime, vale o prazo penal."
-    },
-    {
-     "sigla": "MAIS CEDO, MAIS DESCONTO",
-     "texto": "Conversão de multa: 40% direta e 60% indireta se pedida com a defesa; 35% e 50% se pedida até as alegações finais."
+     "norma": "n140-2011",
+     "artigos": [
+      "Art. 17."
+     ],
+     "ref": "art. 17 da LC 140/2011",
+     "regras": [
+      "<strong>Art. 17.</strong> O órgão licenciador lavra o auto e instaura o processo; qualquer pessoa identificada pode representar a ele; na iminência ou ocorrência de degradação, qualquer ente age e comunica o competente; a fiscalização é comum, prevalecendo o auto do licenciador."
+     ],
+     "literalidades": [
+      {
+       "trecho": "prevalecendo o auto de infração ambiental lavrado por órgão que detenha a atribuição de licenciamento",
+       "marcas": [
+        "prevalecendo"
+       ],
+       "afirmacao": "Se o IBAMA e o órgão estadual licenciador autuarem o mesmo fato, prevalece sempre o auto federal.",
+       "gabarito": "E",
+       "porque": "Prevalece o auto do órgão que detém a atribuição de licenciamento (art. 17, § 3º)."
+      },
+      {
+       "trecho": "o ente federativo que tiver conhecimento do fato deverá determinar medidas para evitá-la, fazer cessá-la ou mitigá-la",
+       "marcas": [
+        "deverá determinar medidas"
+       ],
+       "afirmacao": "Diante de degradação iminente em obra licenciada pelo Estado, o município que souber do fato deve agir para evitá-la e comunicar o órgão licenciador.",
+       "gabarito": "C",
+       "porque": "É o art. 17, § 2º."
+      }
+     ],
+     "conferido": {
+      "Art. 17.": "a77d158f8093"
+     },
+     "fonte": "Lei Complementar 140/2011 (Cooperação federativa em matéria ambiental), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/leicom/2011/leicomplementar-140-8-dezembro-2011-611919-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -2823,13 +3366,59 @@
      "texto": "Prevalece o auto de infração do órgão licenciador (LC 140, art. 17, § 3º), mas outro ente pode atuar supletivamente se o licenciador for omisso ou insuficiente."
     }
    ],
+   "detalhes": [
+    "<strong>Advertência pelo valor.</strong> O Decreto 6.514 admite advertência quando a multa por unidade de medida não excede R$ 1.000 (art. 5º, § 1º). Está errado usar como critério o salário mínimo, a inexistência de multa ou um prazo para sanar irregularidades; a resposta era a do valor de mil reais (Cebraspe, Delegado PC-CE 2025).",
+    "<strong>Desconto da conversão indireta.</strong> Conversão na modalidade indireta pedida junto com a defesa tem desconto de 60% sobre a multa consolidada (Decreto 6.514, art. 143, § 2º, III, na redação do Decreto 11.373/2023). O item com a empresa que aderiu à conversão 20 dias após a ciência do auto e obteve 60% estava certo; na modalidade direta, no mesmo momento, o desconto é de 40% (Cebraspe, Delegado PC-DF 2026, com justificativa oficial).",
+    "<strong>Multa e embargo não reparam.</strong> Num desmatamento em APP flagrado por fiscal federal, a multa e o embargo são sanções administrativas e não se confundem com a responsabilização civil: está errado dizer que o fiscal embarga \"para fins de responsabilização civil\" ou que pagar a multa isenta da reparação (Cebraspe, Advogado da União AGU 2022).",
+    "<strong>Três ou cinco anos para não contratar.</strong> A Lei 9.605 fala em proibição de contratar com a Administração Pública por até três anos (art. 72, § 8º, V); o Decreto 6.514, na redação de 2024, fixa até cinco anos para essa sanção e até dez para as demais restritivas de direito (art. 20, § 2º). Em item de lei seca, siga a norma que o enunciado cita.",
+    "<strong>Medida cautelar não é pena.</strong> Apreensão, embargo, suspensão e demolição adotados na fiscalização (Decreto 6.514, art. 101) servem para prevenir novas infrações, resguardar a recuperação e garantir o resultado do processo; a sanção definitiva vem no julgamento."
+   ],
+   "macetes": [
+    {
+     "sigla": "MIL REAIS É ADVERTÊNCIA",
+     "texto": "Menor lesividade: multa consolidada de até R$ 1.000, ou multa por unidade de medida que não exceda esse valor. Salário mínimo é a pegadinha."
+    },
+    {
+     "sigla": "CINCO PARA PUNIR, TRÊS PARADO",
+     "texto": "A administração tem cinco anos para apurar; o processo parado por mais de três anos prescreve. Se o fato também é crime, vale o prazo penal."
+    },
+    {
+     "sigla": "MAIS CEDO, MAIS DESCONTO",
+     "texto": "Conversão de multa: 40% direta e 60% indireta se pedida com a defesa; 35% e 50% se pedida até as alegações finais."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "Ainda que o infrator cometa, simultaneamente, duas ou mais infrações administrativas, a legislação veda a aplicação cumulativa das sanções a elas cominadas, com fundamento no non bis in idem.",
     "gabarito": "E",
     "explicacao": "A Lei 9.605 manda aplicar as sanções cumulativamente quando há duas ou mais infrações simultâneas (art. 72, § 1º). O item fazia parte de questão em que eram certos o dever de apurar sob pena de corresponsabilidade (art. 70, § 3º) e a atipicidade do abate autorizado para proteger lavouras (art. 37, II) (Cebraspe, Delegado PC-PE 2024)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Advertência pelo valor.</strong> O Decreto 6.514 admite advertência quando a multa por unidade de medida não excede R$ 1.000 (art. 5º, § 1º). Está errado usar como critério o salário mínimo, a inexistência de multa ou um prazo para sanar irregularidades; a resposta era a do valor de mil reais (Cebraspe, Delegado PC-CE 2025).</p><p><strong>Desconto da conversão indireta.</strong> Conversão na modalidade indireta pedida junto com a defesa tem desconto de 60% sobre a multa consolidada (Decreto 6.514, art. 143, § 2º, III, na redação do Decreto 11.373/2023). O item com a empresa que aderiu à conversão 20 dias após a ciência do auto e obteve 60% estava certo; na modalidade direta, no mesmo momento, o desconto é de 40% (Cebraspe, Delegado PC-DF 2026, com justificativa oficial).</p><p><strong>Multa e embargo não reparam.</strong> Num desmatamento em APP flagrado por fiscal federal, a multa e o embargo são sanções administrativas e não se confundem com a responsabilização civil: está errado dizer que o fiscal embarga \"para fins de responsabilização civil\" ou que pagar a multa isenta da reparação (Cebraspe, Advogado da União AGU 2022).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O processo de apuração parado por dois anos, pendente de julgamento, prescreve.",
+     "certo": "A prescrição intercorrente exige paralisação por mais de três anos (Decreto 6.514, art. 21, § 2º).",
+     "fonte": "Questão do app sobre a prescrição intercorrente"
+    },
+    {
+     "errado": "A advertência cabe quando a multa não ultrapassa um salário mínimo.",
+     "certo": "Cabe quando a multa consolidada não passa de R$ 1.000,00 (Decreto 6.514, art. 5º, § 1º).",
+     "fonte": "Cebraspe, Delegado PC-CE 2025"
+    },
+    {
+     "errado": "O fiscal embarga a obra para fins de responsabilização civil.",
+     "certo": "Embargo e multa são sanções administrativas; a reparação civil é outra esfera.",
+     "fonte": "Cebraspe, Advogado da União AGU 2022"
+    }
+   ],
+   "ja_caiu": [
+    "Cebraspe: Delegado PC-PE 2024; Delegado PC-CE 2025; Delegado PC-DF 2026; Advogado da União AGU 2022"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: ganha os arts. 71, 73 e 74 da Lei 9.605 e os arts. 10, 11, 20, 96 e 101 do Decreto 6.514; sai o aprofundamento, que vai para detalhes e figuras."
+    }
+   ],
    "relacionados": [
     "responsabilidade-civil-ambiental",
     "competencias-em-materia-ambiental",
@@ -2838,12 +3427,18 @@
   },
   {
    "slug": "recursos-hidricos",
-   "titulo": "Política Nacional de Recursos Hídricos",
+   "titulo": "Recursos hídricos e bens ambientais",
    "grupo": "Recursos naturais e saneamento",
-   "base": "Lei 9.433/1997, arts. 1º, 5º, 12, 16, 18 e 33; CF, arts. 20, III, e 26, I",
+   "base": "Lei 9.433/1997, arts. 1º, 5º, 12, 16, 18, 19 e 33; Resolução CNRH 16/2001; citados os arts. 20, 22, 23, 26, 176 e 216 da CF, a Lei 8.617/1993, o Decreto-Lei 9.760/1946 e a Lei 3.924/1961",
    "tax": [
     "ambiental.recursos-hidricos",
-    "ambiental.bens-aguas-cavidades-energia"
+    "ambiental.bens-aguas-cavidades-energia",
+    "ambiental.resolucao-cnrh-16-outorga",
+    "ambiental.plataforma-continental",
+    "ambiental.zona-economica-exclusiva",
+    "ambiental.sitios-arqueologicos",
+    "ambiental.terrenos-marinha",
+    "ambiental.terrenos-marginais"
    ],
    "dispositivos": [
     "n9433-1997-art-1",
@@ -2851,9 +3446,8 @@
     "n9433-1997-art-12",
     "n9433-1997-art-16",
     "n9433-1997-art-18",
-    "n9433-1997-art-33",
-    "nCF-1988-art-20",
-    "nCF-1988-art-26"
+    "n9433-1997-art-19",
+    "n9433-1997-art-33"
    ],
    "conceitos": [
     "água como bem público",
@@ -2865,7 +3459,12 @@
     "outorga",
     "cobrança",
     "SINGREH",
-    "comitês de bacia"
+    "comitês de bacia",
+    "outorga preventiva",
+    "bens ambientais da União",
+    "plataforma continental",
+    "zona econômica exclusiva",
+    "terrenos de marinha e marginais"
    ],
    "palavras": [
     "lei 9433",
@@ -2888,32 +3487,275 @@
     "ana",
     "agua da uniao",
     "agua dos estados",
-    "usos insignificantes"
+    "usos insignificantes",
+    "cobranca nao e sancao",
+    "usuario-pagador",
+    "cnrh 16",
+    "outorga preventiva",
+    "reserva de vazao",
+    "tres anos",
+    "bens da uniao",
+    "cavidades naturais subterraneas",
+    "potenciais de energia hidraulica",
+    "energia de capacidade reduzida",
+    "propriedade distinta do solo",
+    "plataforma continental",
+    "bordo exterior da margem continental",
+    "especies sedentarias",
+    "zona economica exclusiva",
+    "doze a duzentas milhas",
+    "liberdade de navegacao e sobrevoo",
+    "manobras militares",
+    "lei 8617",
+    "mar territorial",
+    "sitios arqueologicos",
+    "jazidas arqueologicas",
+    "lei 3924",
+    "quilombos tombados",
+    "terrenos de marinha",
+    "preamar medio de 1831",
+    "33 metros",
+    "terrenos marginais",
+    "15 metros",
+    "enchentes ordinarias",
+    "decreto-lei 9760"
    ],
-   "resumo": "A Lei 9.433/1997 parte de seis fundamentos (art. 1º): a água é <strong>bem de domínio público</strong>; é recurso limitado, dotado de <strong>valor econômico</strong>; na escassez, o uso prioritário é o <strong>consumo humano e a dessedentação de animais</strong>; a gestão deve proporcionar o uso múltiplo; a <strong>bacia hidrográfica</strong> é a unidade territorial de gestão; e a gestão é <strong>descentralizada e participativa</strong>, com poder público, usuários e comunidades. Os instrumentos são os planos de recursos hídricos, o <strong>enquadramento</strong> dos corpos d'água em classes, a <strong>outorga</strong>, a <strong>cobrança</strong>, a compensação a municípios e o sistema de informações (art. 5º). Dependem de outorga a captação, a extração de aquífero, o lançamento de efluentes, o aproveitamento hidrelétrico e outros usos que alterem o regime da água; os usos insignificantes e os de pequenos núcleos rurais independem dela (art. 12). A outorga vale por até <strong>35 anos</strong>, renovável (art. 16), e <strong>não aliena</strong> a água, que é inalienável: confere só o direito de uso (art. 18). O SINGREH reúne o Conselho Nacional, a ANA, os conselhos estaduais, os <strong>comitês de bacia</strong>, os órgãos públicos e as agências de água (art. 33). Na CF, os rios que banham mais de um estado ou fazem fronteira são da União (art. 20, III), e as demais águas superficiais e subterrâneas, em regra, dos estados (art. 26, I).",
+   "resumo": "A Lei 9.433/1997 parte de seis fundamentos (art. 1º): a água é <strong>bem de domínio público</strong>; é recurso limitado, dotado de <strong>valor econômico</strong>; na escassez, o uso prioritário é o <strong>consumo humano e a dessedentação de animais</strong>; a gestão deve proporcionar o uso múltiplo; a <strong>bacia hidrográfica</strong> é a unidade territorial de gestão; e a gestão é <strong>descentralizada e participativa</strong>, com poder público, usuários e comunidades. Os instrumentos são os planos de recursos hídricos, o <strong>enquadramento</strong> dos corpos d'água em classes, a <strong>outorga</strong>, a <strong>cobrança</strong>, a compensação a municípios e o sistema de informações (art. 5º). Dependem de outorga a captação, a extração de aquífero, o lançamento de efluentes, o aproveitamento hidrelétrico e outros usos que alterem o regime da água; os usos insignificantes e os de pequenos núcleos rurais independem dela (art. 12). A outorga vale por até <strong>35 anos</strong>, renovável (art. 16), e <strong>não aliena</strong> a água, que é inalienável: confere só o direito de uso (art. 18). O SINGREH reúne o Conselho Nacional, a ANA, os conselhos estaduais, os <strong>comitês de bacia</strong>, os órgãos públicos e as agências de água (art. 33). Na CF, os rios que banham mais de um estado ou fazem fronteira são da União (art. 20, III), e as demais águas superficiais e subterrâneas, em regra, dos estados (art. 26, I). A Resolução CNRH 16/2001 detalha a outorga e cria a <strong>outorga preventiva</strong>, que só reserva vazão. A Constituição distribui os <strong>bens ambientais</strong>: são da União os potenciais de energia hidráulica, as cavidades naturais subterrâneas, os sítios arqueológicos, o mar territorial, os recursos da plataforma continental e da zona econômica exclusiva e os terrenos de marinha.",
    "esquema": {
     "rotulo": "fundamentos e instrumentos",
     "html": "<table><thead><tr><th>Fundamentos (art. 1º)</th><th>Instrumentos (art. 5º)</th></tr></thead><tbody><tr><td><strong>Bem de domínio público</strong></td><td>Planos de recursos hídricos</td></tr><tr><td><strong>Valor econômico</strong></td><td>Enquadramento em classes</td></tr><tr><td><strong>Prioridade: consumo humano e animais</strong></td><td>Outorga</td></tr><tr><td><strong>Uso múltiplo</strong></td><td>Cobrança</td></tr><tr><td><strong>Bacia como unidade</strong></td><td>Compensação a municípios</td></tr><tr><td><strong>Gestão descentralizada e participativa</strong></td><td>Sistema de informações</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Fundamentos (art. 1º)",
+      "o_que_e": "Água como bem de domínio público, recurso limitado e com valor econômico; na escassez, prioridade ao consumo humano e à dessedentação de animais; uso múltiplo; bacia hidrográfica como unidade; gestão descentralizada e participativa",
+      "grupo": "Lei 9.433"
+     },
+     {
+      "nome": "Instrumentos (art. 5º)",
+      "o_que_e": "Planos de recursos hídricos, enquadramento dos corpos de água em classes, outorga, cobrança, compensação a municípios e sistema de informações",
+      "grupo": "Lei 9.433"
+     },
+     {
+      "nome": "Outorga (arts. 12, 16 e 18)",
+      "o_que_e": "Exigida para captação, extração de aquífero, lançamento de efluentes, aproveitamento hidrelétrico e outros usos que alterem a água",
+      "atencao": "Prazo de até 35 anos, renovável; não aliena a água, que é inalienável. Independem de outorga os usos insignificantes e os de pequenos núcleos rurais.",
+      "grupo": "Lei 9.433"
+     },
+     {
+      "nome": "Cobrança (art. 19)",
+      "o_que_e": "Reconhece a água como bem econômico, incentiva o uso racional e financia os planos",
+      "atencao": "Não é sanção nem depende de poluição: aplica o usuário-pagador.",
+      "grupo": "Lei 9.433"
+     },
+     {
+      "nome": "SINGREH (art. 33)",
+      "o_que_e": "Conselho Nacional de Recursos Hídricos, ANA, conselhos estaduais e do DF, comitês de bacia, órgãos públicos e agências de água",
+      "grupo": "Lei 9.433"
+     },
+     {
+      "nome": "Natureza e prazo (arts. 1º e 6º)",
+      "o_que_e": "A outorga não implica alienação total ou parcial das águas, que são inalienáveis, mas o simples direito de uso; prazo máximo de trinta e cinco anos, prorrogável",
+      "grupo": "Resolução CNRH 16/2001"
+     },
+     {
+      "nome": "Outorga preventiva (art. 7º)",
+      "o_que_e": "Não confere direito de uso: só reserva a vazão passível de outorga, para o planejamento do empreendimento",
+      "atencao": "Prazo máximo de três anos.",
+      "grupo": "Resolução CNRH 16/2001"
+     },
+     {
+      "nome": "Independem de outorga (art. 5º)",
+      "o_que_e": "Uso para as necessidades de pequenos núcleos populacionais no meio rural e derivações, captações, lançamentos e acumulações considerados insignificantes",
+      "grupo": "Resolução CNRH 16/2001"
+     },
+     {
+      "nome": "Águas",
+      "o_que_e": "Rios que banham mais de um Estado ou fazem fronteira, com seus terrenos marginais e praias fluviais, são bens da União (art. 20, III); as demais águas superficiais ou subterrâneas, fluentes, emergentes e em depósito são bens dos Estados (art. 26, I)",
+      "atencao": "Ressalvadas as decorrentes de obras da União. Compete privativamente à União legislar sobre águas e energia (art. 22, IV).",
+      "grupo": "Bens ambientais na Constituição"
+     },
+     {
+      "nome": "Energia hidráulica",
+      "o_que_e": "Os potenciais de energia hidráulica são bens da União (art. 20, VIII) e constituem propriedade distinta da do solo (art. 176)",
+      "atencao": "Exploração só por autorização ou concessão da União, no interesse nacional; não depende delas o aproveitamento do potencial de energia renovável de capacidade reduzida (art. 176, §§ 1º e 4º).",
+      "grupo": "Bens ambientais na Constituição"
+     },
+     {
+      "nome": "Cavidades e sítios arqueológicos",
+      "o_que_e": "As cavidades naturais subterrâneas e os sítios arqueológicos e pré-históricos são bens da União (art. 20, X)",
+      "atencao": "Proteger monumentos, paisagens naturais notáveis e sítios arqueológicos é competência comum (art. 23, III); ficam tombados pela própria Constituição os documentos e sítios detentores de reminiscências históricas dos antigos quilombos (art. 216, § 5º).",
+      "grupo": "Bens ambientais na Constituição"
+     },
+     {
+      "nome": "Jazidas arqueológicas (Lei 3.924/1961)",
+      "o_que_e": "São proibidos o aproveitamento econômico, a destruição ou a mutilação das jazidas arqueológicas ou pré-históricas antes de serem devidamente pesquisadas",
+      "grupo": "Bens ambientais na Constituição"
+     },
+     {
+      "nome": "Mar territorial, plataforma e ZEE",
+      "o_que_e": "O mar territorial e os recursos naturais da plataforma continental e da zona econômica exclusiva são bens da União (art. 20, V e VI)",
+      "atencao": "Licenciar empreendimentos no mar territorial, na plataforma continental ou na zona econômica exclusiva compete à União (LC 140, art. 7º, XIV, b).",
+      "grupo": "Espaços marinhos e terrenos da União"
+     },
+     {
+      "nome": "Plataforma continental (Lei 8.617/1993)",
+      "o_que_e": "Leito e subsolo das áreas submarinas além do mar territorial, no prolongamento natural do território, até o bordo exterior da margem continental ou até duzentas milhas marítimas das linhas de base",
+      "atencao": "Não para nas doze milhas. O Brasil tem direitos de soberania para explorar os recursos naturais: minerais e outros não vivos do leito e do subsolo e organismos vivos de espécies sedentárias.",
+      "grupo": "Espaços marinhos e terrenos da União"
+     },
+     {
+      "nome": "Zona econômica exclusiva (Lei 8.617/1993)",
+      "o_que_e": "Faixa das doze às duzentas milhas marítimas, contadas das linhas de base do mar territorial",
+      "atencao": "Direitos de soberania sobre os recursos naturais, vivos ou não vivos, das águas sobrejacentes, do leito e do subsolo; todos os Estados gozam das liberdades de navegação e sobrevoo; investigação científica e proteção do meio marinho são reguladas pelo Brasil, e manobras militares de outros Estados dependem do consentimento do Governo brasileiro.",
+      "grupo": "Espaços marinhos e terrenos da União"
+     },
+     {
+      "nome": "Terrenos de marinha (Decreto-Lei 9.760/1946)",
+      "o_que_e": "Faixa de 33 metros, medidos horizontalmente para a parte da terra, a partir da linha do preamar médio de 1831",
+      "atencao": "São bens da União, com seus acrescidos (CF, art. 20, VII).",
+      "grupo": "Espaços marinhos e terrenos da União"
+     },
+     {
+      "nome": "Terrenos marginais (Decreto-Lei 9.760/1946)",
+      "o_que_e": "Banhados por correntes navegáveis fora do alcance das marés, até 15 metros medidos horizontalmente para a parte da terra, desde a linha média das enchentes ordinárias",
+      "atencao": "Não são 33 metros, medida dos terrenos de marinha. Os de rios da União são bens da União (art. 20, III).",
+      "grupo": "Espaços marinhos e terrenos da União"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 1º A Política Nacional de Recursos Hídricos baseia-se nos seguintes fundamentos:\n\nI - a água é um bem de domínio público;\n\nII - a água é um recurso natural limitado, dotado de valor econômico;\n\nIII - em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais;\n\nIV - a gestão dos recursos hídricos deve sempre proporcionar o uso múltiplo das águas;\n\nV - a bacia hidrográfica e a unidade territorial para implementação da Política Nacional de Recursos Hídricos e atuação do Sistema Nacional de Gerenciamento de Recursos Hídricos;\n\nVI - a gestão dos recursos hídricos deve ser descentralizada e contar com a participação do Poder Público, dos usuários e das comunidades.",
+     "norma": "n9433-1997",
+     "artigos": [
+      "Art. 1º.",
+      "Art. 5º.",
+      "Art. 12.",
+      "Art. 16.",
+      "Art. 18.",
+      "Art. 19.",
+      "Art. 33."
+     ],
+     "ref": "arts. 1º, 5º, 12, 16, 18, 19 e 33 da Lei 9.433/1997",
+     "regras": [
+      "<strong>Arts. 1º e 5º.</strong> Fundamentos e instrumentos da Política Nacional de Recursos Hídricos.",
+      "<strong>Arts. 12, 16 e 18.</strong> Usos sujeitos a outorga e usos que dela independem; prazo de até trinta e cinco anos, renovável; a outorga confere o direito de uso e não aliena as águas.",
+      "<strong>Arts. 19 e 33.</strong> Objetivos da cobrança e composição do SINGREH. Os bens da União e dos Estados (CF, arts. 20 e 26) estão no caderno de Direito Constitucional e aqui são citados."
+     ],
+     "literalidades": [
+      {
+       "trecho": "em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais",
+       "marcas": [
+        "consumo humano e a dessedentação de animais"
+       ],
+       "afirmacao": "Em seca prolongada, a irrigação agrícola tem prioridade sobre a dessedentação de animais.",
+       "gabarito": "E",
+       "porque": "Na escassez, o uso prioritário é o consumo humano e a dessedentação de animais (art. 1º, III)."
+      },
+      {
+       "trecho": "a gestão dos recursos hídricos deve ser descentralizada e contar com a participação do Poder Público, dos usuários e das comunidades",
+       "marcas": [
+        "descentralizada"
+       ],
+       "afirmacao": "A gestão das águas é centralizada na ANA, sem participação dos usuários.",
+       "gabarito": "E",
+       "porque": "A gestão é descentralizada e conta com o Poder Público, os usuários e as comunidades (art. 1º, VI)."
+      },
+      {
+       "trecho": "o enquadramento dos corpos de água em classes, segundo os usos preponderantes da água",
+       "marcas": [
+        "segundo os usos preponderantes"
+       ],
+       "afirmacao": "Classificar um rio conforme o uso que nele prepondera é instrumento da Política Nacional de Recursos Hídricos.",
+       "gabarito": "C",
+       "porque": "É o enquadramento em classes (art. 5º, II)."
+      },
+      {
+       "trecho": "extração de água de aqüífero subterrâneo para consumo final ou insumo de processo produtivo",
+       "marcas": [
+        "aqüífero subterrâneo"
+       ],
+       "afirmacao": "A indústria que perfura poço para usar água subterrânea no processo produtivo precisa de outorga.",
+       "gabarito": "C",
+       "porque": "É o art. 12, II."
+      },
+      {
+       "trecho": "lançamento em corpo de água de esgotos e demais resíduos líquidos ou gasosos, tratados ou não",
+       "marcas": [
+        "tratados ou não"
+       ],
+       "afirmacao": "O lançamento de esgoto já tratado num rio também depende de outorga.",
+       "gabarito": "C",
+       "porque": "O lançamento de efluentes, tratados ou não, está sujeito a outorga (art. 12, III)."
+      },
+      {
+       "trecho": "as derivações, captações e lançamentos considerados insignificantes",
+       "marcas": [
+        "insignificantes"
+       ],
+       "afirmacao": "O sítio que capta volume de água considerado insignificante não precisa de outorga.",
+       "gabarito": "C",
+       "porque": "As captações insignificantes independem de outorga, conforme o regulamento (art. 12, § 1º, II)."
+      },
+      {
+       "trecho": "far-se-á por prazo não excedente a trinta e cinco anos, renovável",
+       "marcas": [
+        "trinta e cinco anos"
+       ],
+       "afirmacao": "A outorga de uso de água é concedida por prazo indeterminado.",
+       "gabarito": "E",
+       "porque": "O prazo não excede trinta e cinco anos, renovável (art. 16)."
+      },
+      {
+       "trecho": "A outorga não implica a alienação parcial das águas, que são inalienáveis, mas o simples direito de seu uso.",
+       "marcas": [
+        "inalienáveis"
+       ],
+       "afirmacao": "Com a outorga, o usuário adquire a propriedade da parcela de água captada.",
+       "gabarito": "E",
+       "porque": "A outorga confere o simples direito de uso; as águas são inalienáveis (art. 18)."
+      },
+      {
+       "trecho": "reconhecer a água como bem econômico e dar ao usuário uma indicação de seu real valor",
+       "marcas": [
+        "real valor"
+       ],
+       "afirmacao": "A cobrança pelo uso da água busca mostrar ao usuário o valor real do recurso, e não punir quem polui.",
+       "gabarito": "C",
+       "porque": "É o art. 19, I; a cobrança não é sanção."
+      },
+      {
+       "trecho": "os Comitês de Bacia Hidrográfica",
+       "marcas": [
+        "Comitês de Bacia Hidrográfica"
+       ],
+       "afirmacao": "Os comitês de bacia hidrográfica ficam fora do SINGREH, por reunirem usuários e sociedade civil.",
+       "gabarito": "E",
+       "porque": "Os comitês de bacia integram o SINGREH (art. 33, III)."
+      }
+     ],
+     "conferido": {
+      "Art. 1º.": "7e5c6f5cd210",
+      "Art. 5º.": "b8f2c050573f",
+      "Art. 12.": "f252fdf4bf21",
+      "Art. 16.": "bce747aef898",
+      "Art. 18.": "b0a2c4d1a0a2",
+      "Art. 19.": "b196c4d25ffb",
+      "Art. 33.": "7de69d419ffd"
+     },
      "fonte": "Lei 9.433/1997 (Política Nacional de Recursos Hídricos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html",
-     "norma": "n9433-1997"
-    },
-    {
-     "texto": "Art. 16. Toda outorga de direitos de uso de recursos hídricos far-se-á por prazo não excedente a trinta e cinco anos, renovável.",
-     "fonte": "Lei 9.433/1997 (Política Nacional de Recursos Hídricos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html",
-     "norma": "n9433-1997"
-    },
-    {
-     "texto": "Art. 18. A outorga não implica a alienação parcial das águas, que são inalienáveis, mas o simples direito de seu uso.",
-     "fonte": "Lei 9.433/1997 (Política Nacional de Recursos Hídricos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html",
-     "norma": "n9433-1997"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "<strong>Cobrar sem dano.</strong> A cobrança pelo uso da água reconhece seu valor econômico e incentiva o uso racional (art. 19); não é sanção e não depende de poluição. É a aplicação do usuário-pagador, e está errado tratá-la como multa ou como aplicação do poluidor-pagador.",
+    "O aproveitamento dos potenciais de energia hidráulica somente pode ser efetuado mediante autorização ou concessão da União, no interesse nacional; não depende de autorização ou concessão o aproveitamento do potencial de energia renovável de capacidade reduzida (art. 176, §§ 1º e 4º). Os potenciais de energia hidráulica são bens da União (art. 20, VIII) e constituem propriedade distinta da do solo, para efeito de exploração ou aproveitamento (art. 176 da Constituição).",
+    "<strong>Outorga preventiva.</strong> A Resolução CNRH 16/2001 prevê a outorga preventiva, que não confere direito de uso de recursos hídricos: só reserva a vazão passível de outorga, para o planejamento do empreendimento, por no máximo três anos (art. 7º). A outorga de direito de uso tem prazo máximo de trinta e cinco anos, prorrogável (art. 6º), e não implica alienação total ou parcial das águas (art. 1º, § 1º).",
+    "<strong>Plataforma continental e zona econômica exclusiva.</strong> A plataforma continental vai além do mar territorial, até o bordo exterior da margem continental ou até duzentas milhas marítimas das linhas de base; a zona econômica exclusiva vai das doze às duzentas milhas (Lei 8.617/1993). Nas duas, o Brasil tem direitos de soberania sobre os recursos naturais, que são bens da União (CF, art. 20, V).",
+    "<strong>Terrenos de marinha e marginais.</strong> Terrenos de marinha: 33 metros a partir da linha do preamar médio de 1831. Terrenos marginais: 15 metros a partir da linha média das enchentes ordinárias, nas correntes navegáveis fora do alcance das marés (Decreto-Lei 9.760/1946)."
    ],
    "macetes": [
     {
@@ -2925,14 +3767,44 @@
      "texto": "A outorga dá direito de uso por até 35 anos e não aliena a água, que é inalienável."
     }
    ],
-   "juris": [],
    "pegadinha": {
     "afirmacao": "A outorga de direitos de uso de recursos hídricos implica a alienação parcial das águas ao outorgado, pelo prazo de até 35 anos.",
     "gabarito": "E",
     "explicacao": "A outorga não implica alienação parcial das águas, que são inalienáveis, mas o simples direito de uso (Lei 9.433, art. 18). O prazo de até 35 anos está certo (art. 16)."
    },
-   "aprofundamento_rotulo": "exceções e detalhes que caem em prova",
-   "aprofundamento": "<p><strong>Cobrar sem dano.</strong> A cobrança pelo uso da água reconhece seu valor econômico e incentiva o uso racional (art. 19); não é sanção e não depende de poluição. É a aplicação do usuário-pagador, e está errado tratá-la como multa ou como aplicação do poluidor-pagador.</p><p><strong>Exceções e detalhes cobrados</strong></p><p>O aproveitamento dos potenciais de energia hidráulica somente pode ser efetuado mediante autorização ou concessão da União, no interesse nacional; não depende de autorização ou concessão o aproveitamento do potencial de energia renovável de capacidade reduzida (art. 176, §§ 1º e 4º). Os potenciais de energia hidráulica são bens da União (art. 20, VIII) e constituem propriedade distinta da do solo, para efeito de exploração ou aproveitamento (art. 176 da Constituição).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A cobrança pelo uso da água é sanção aplicada a quem polui.",
+     "certo": "A cobrança reconhece o valor econômico da água e incentiva o uso racional (art. 19); aplica o usuário-pagador.",
+     "fonte": "Questão do app sobre a cobrança pelo uso da água"
+    },
+    {
+     "errado": "A outorga preventiva já confere ao empreendedor o direito de usar a água.",
+     "certo": "Ela só reserva a vazão passível de outorga, por até três anos (Resolução CNRH 16/2001, art. 7º).",
+     "fonte": "Questão do app sobre a Resolução CNRH 16/2001"
+    },
+    {
+     "errado": "A plataforma continental termina nas doze milhas marítimas.",
+     "certo": "Ela vai até o bordo exterior da margem continental ou até duzentas milhas das linhas de base (Lei 8.617/1993).",
+     "fonte": "Questão do app sobre a plataforma continental"
+    },
+    {
+     "errado": "Os terrenos marginais vão até 33 metros da linha média das enchentes ordinárias.",
+     "certo": "São 15 metros; os 33 metros são dos terrenos de marinha (Decreto-Lei 9.760/1946).",
+     "fonte": "Questão do app sobre os terrenos marginais"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre a outorga de direito de uso da água",
+    "Questão do app sobre os bens ambientais da União"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema ampliado aos bens ambientais e à Resolução CNRH 16/2001; ganha o art. 19 da Lei 9.433; os arts. 20 e 26 da CF passam a ser citados; sai o aprofundamento."
+    }
+   ],
    "relacionados": [
     "saneamento-basico",
     "principios-do-direito-ambiental",
@@ -2965,7 +3837,8 @@
     "acordo setorial",
     "protetor-recebedor",
     "formas proibidas de disposição",
-    "catadores"
+    "catadores",
+    "prazos da disposição final"
    ],
    "palavras": [
     "lei 12305",
@@ -2992,32 +3865,209 @@
     "catadores",
     "cooperativa de catadores",
     "queima a ceu aberto",
-    "protetor recebedor"
+    "protetor recebedor",
+    "devolucao aos comerciantes",
+    "fabricantes destinacao",
+    "municipio remunerado",
+    "emergencia sanitaria",
+    "bacias de decantacao",
+    "prazos de 2021 a 2024",
+    "plano municipal de gestao integrada",
+    "coleta seletiva",
+    "ecoeficiencia"
    ],
    "resumo": "A Lei 12.305/2010 diferencia <strong>resíduo</strong>, material descartado que ainda pode ser tratado ou recuperado, de <strong>rejeito</strong>, o que sobra depois de esgotadas as possibilidades de tratamento e recuperação e só admite disposição final (art. 3º, XV e XVI). <strong>Destinação</strong> final adequada inclui reutilização, reciclagem, compostagem e aproveitamento energético; <strong>disposição</strong> final adequada é a distribuição ordenada de rejeitos em aterros (art. 3º, VII e VIII). A gestão segue a <strong>ordem de prioridade</strong>: não geração, redução, reutilização, reciclagem, tratamento e disposição final ambientalmente adequada dos rejeitos (art. 9º). Os princípios incluem prevenção, precaução, poluidor-pagador, <strong>protetor-recebedor</strong> e a <strong>responsabilidade compartilhada pelo ciclo de vida</strong> dos produtos, que envolve fabricantes, importadores, distribuidores, comerciantes, consumidores e o titular do serviço de limpeza urbana (arts. 6º e 30). A <strong>logística reversa</strong> é obrigatória para agrotóxicos e suas embalagens, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas fluorescentes e eletroeletrônicos, independentemente do serviço público de limpeza (art. 33). São proibidos o lançamento em praias, mar e corpos hídricos, o lançamento in natura a céu aberto (salvo resíduos de mineração) e a queima a céu aberto, admitida esta só em emergência sanitária autorizada (art. 47).",
    "esquema": {
     "rotulo": "resíduo x rejeito",
     "html": "<table><thead><tr><th></th><th>Resíduo</th><th>Rejeito</th></tr></thead><tbody><tr><td><strong>O que é</strong></td><td>Material descartado ainda aproveitável</td><td>O que sobra depois de esgotado o aproveitamento</td></tr><tr><td><strong>Destino</strong></td><td>Destinação: reutilização, reciclagem, compostagem, energia</td><td>Disposição final em aterro</td></tr><tr><td><strong>Lugar na prioridade</strong></td><td>Não geração até tratamento</td><td>Último passo</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Resíduo sólido",
+      "o_que_e": "Material, substância, objeto ou bem descartado que ainda pode ser tratado ou recuperado",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Rejeito",
+      "o_que_e": "O que sobra depois de esgotadas as possibilidades de tratamento e recuperação; só admite disposição final",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Destinação x disposição",
+      "o_que_e": "Destinação inclui reutilização, reciclagem, compostagem, recuperação e aproveitamento energético; disposição é a distribuição ordenada de rejeitos em aterros",
+      "atencao": "Resíduo vai para destinação; rejeito, para disposição.",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Acordo setorial",
+      "o_que_e": "Ato de natureza contratual entre o poder público e fabricantes, importadores, distribuidores ou comerciantes",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Princípios (art. 6º)",
+      "o_que_e": "Prevenção e precaução, poluidor-pagador e protetor-recebedor, visão sistêmica, ecoeficiência, cooperação, responsabilidade compartilhada, resíduo reciclável como bem econômico e de valor social",
+      "grupo": "Princípios e prioridade"
+     },
+     {
+      "nome": "Ordem de prioridade (art. 9º)",
+      "o_que_e": "Não geração, redução, reutilização, reciclagem, tratamento e disposição final adequada dos rejeitos",
+      "atencao": "O aterro é o último passo, e só para o rejeito.",
+      "grupo": "Princípios e prioridade"
+     },
+     {
+      "nome": "Responsabilidade compartilhada (art. 30)",
+      "o_que_e": "Individualizada e encadeada entre fabricantes, importadores, distribuidores, comerciantes, consumidores e titulares da limpeza urbana",
+      "grupo": "Responsabilidade e logística reversa"
+     },
+     {
+      "nome": "Logística reversa (art. 33)",
+      "o_que_e": "Obrigatória para agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas fluorescentes e eletroeletrônicos, independente do serviço público de limpeza",
+      "atencao": "O consumidor devolve ao comerciante ou distribuidor, que devolve ao fabricante ou importador; se o município assumir tarefas dos fabricantes, é remunerado.",
+      "grupo": "Responsabilidade e logística reversa"
+     },
+     {
+      "nome": "Proibidos (art. 47)",
+      "o_que_e": "Lançamento em praias, mar e corpos hídricos; lançamento in natura a céu aberto, salvo resíduos de mineração; queima a céu aberto",
+      "atencao": "A queima é admitida em emergência sanitária, autorizada e acompanhada pelos órgãos competentes.",
+      "grupo": "Proibições e prazos"
+     },
+     {
+      "nome": "Prazos (art. 54)",
+      "o_que_e": "A disposição final adequada devia estar implantada até 31/12/2020",
+      "atencao": "Municípios com plano de resíduos e cobrança pelo serviço ganharam prazos de 2021 (capitais e regiões metropolitanas) a 2024 (menos de 50 mil habitantes).",
+      "grupo": "Proibições e prazos"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 9º Na gestão e gerenciamento de resíduos sólidos, deve ser observada a seguinte ordem de prioridade: não geração, redução, reutilização, reciclagem, tratamento dos resíduos sólidos e disposição final ambientalmente adequada dos rejeitos.\n\n§ 1º Poderão ser utilizadas tecnologias visando à recuperação energética dos resíduos sólidos urbanos, desde que tenha sido comprovada sua viabilidade técnica e ambiental e com a implantação de programa de monitoramento de emissão de gases tóxicos aprovado pelo órgão ambiental.\n\n(...)",
+     "norma": "n12305-2010",
+     "artigos": [
+      "Art. 3º.",
+      "Art. 6º.",
+      "Art. 9º.",
+      "Art. 30.",
+      "Art. 33.",
+      "Art. 47.",
+      "Art. 54."
+     ],
+     "ref": "arts. 3º, 6º, 9º, 30, 33, 47 e 54 da Lei 12.305/2010",
+     "regras": [
+      "<strong>Arts. 3º, 6º e 9º.</strong> Conceitos (acordo setorial, destinação e disposição final, logística reversa, rejeito, resíduo, responsabilidade compartilhada), princípios e ordem de prioridade.",
+      "<strong>Arts. 30 e 33.</strong> Responsabilidade compartilhada pelo ciclo de vida e sistemas de logística reversa, com os deveres de consumidores, comerciantes, distribuidores, fabricantes e importadores.",
+      "<strong>Arts. 47 e 54.</strong> Formas proibidas de destinação ou disposição e prazos para a disposição final adequada dos rejeitos."
+     ],
+     "literalidades": [
+      {
+       "trecho": "não apresentem outra possibilidade que não a disposição final ambientalmente adequada",
+       "marcas": [
+        "não apresentem outra possibilidade"
+       ],
+       "afirmacao": "O papelão descartado que ainda pode ser reciclado é rejeito.",
+       "gabarito": "E",
+       "porque": "Rejeito é o que já não tem outra possibilidade que não a disposição final (art. 3º, XV); o papelão reciclável é resíduo."
+      },
+      {
+       "trecho": "distribuição ordenada de rejeitos em aterros",
+       "marcas": [
+        "distribuição ordenada de rejeitos em aterros"
+       ],
+       "afirmacao": "Levar rejeitos a aterro sanitário, observadas as normas operacionais, é disposição final ambientalmente adequada.",
+       "gabarito": "C",
+       "porque": "É o art. 3º, VIII."
+      },
+      {
+       "trecho": "o poluidor-pagador e o protetor-recebedor",
+       "marcas": [
+        "protetor-recebedor"
+       ],
+       "afirmacao": "Premiar quem protege o meio ambiente é aplicação de um princípio expresso da Política Nacional de Resíduos Sólidos.",
+       "gabarito": "C",
+       "porque": "O protetor-recebedor está no art. 6º, II."
+      },
+      {
+       "trecho": "não geração, redução, reutilização, reciclagem, tratamento dos resíduos sólidos e disposição final ambientalmente adequada dos rejeitos",
+       "marcas": [
+        "não geração, redução, reutilização, reciclagem"
+       ],
+       "afirmacao": "Na ordem de prioridade da lei, a reciclagem vem antes da redução.",
+       "gabarito": "E",
+       "porque": "A ordem é não geração, redução, reutilização, reciclagem, tratamento e disposição final (art. 9º)."
+      },
+      {
+       "trecho": "de forma independente do serviço público de limpeza urbana e de manejo dos resíduos sólidos",
+       "marcas": [
+        "de forma independente"
+       ],
+       "afirmacao": "A logística reversa de pneus cabe ao serviço público municipal de limpeza urbana.",
+       "gabarito": "E",
+       "porque": "Os fabricantes, importadores, distribuidores e comerciantes estruturam a logística reversa de forma independente do serviço público (art. 33, caput)."
+      },
+      {
+       "trecho": "as ações do poder público serão devidamente remuneradas",
+       "marcas": [
+        "devidamente remuneradas"
+       ],
+       "afirmacao": "Se o município assume, por acordo setorial, tarefas de logística reversa que cabem aos fabricantes, deve ser remunerado.",
+       "gabarito": "C",
+       "porque": "É o art. 33, § 7º."
+      },
+      {
+       "trecho": "Os consumidores deverão efetuar a devolução após o uso, aos comerciantes ou distribuidores",
+       "marcas": [
+        "aos comerciantes ou distribuidores"
+       ],
+       "afirmacao": "O consumidor deve devolver as pilhas usadas diretamente ao fabricante.",
+       "gabarito": "E",
+       "porque": "O consumidor devolve aos comerciantes ou distribuidores, que devolvem aos fabricantes ou importadores (art. 33, §§ 4º e 5º)."
+      },
+      {
+       "trecho": "lançamento in natura a céu aberto, excetuados os resíduos de mineração",
+       "marcas": [
+        "excetuados os resíduos de mineração"
+       ],
+       "afirmacao": "A proibição de lançar resíduos in natura a céu aberto não alcança os resíduos de mineração.",
+       "gabarito": "C",
+       "porque": "É a ressalva do art. 47, II."
+      },
+      {
+       "trecho": "Quando decretada emergência sanitária, a queima de resíduos a céu aberto pode ser realizada, desde que autorizada",
+       "marcas": [
+        "emergência sanitária"
+       ],
+       "afirmacao": "A queima de resíduos a céu aberto é proibida em qualquer hipótese.",
+       "gabarito": "E",
+       "porque": "Em emergência sanitária decretada, ela pode ser feita se autorizada e acompanhada pelos órgãos competentes (art. 47, § 1º)."
+      },
+      {
+       "trecho": "até 2 de agosto de 2024, para Municípios com população inferior a 50.000 (cinquenta mil) habitantes no Censo 2010",
+       "marcas": [
+        "até 2 de agosto de 2024"
+       ],
+       "afirmacao": "Município com 30 mil habitantes no Censo 2010, que tinha plano de gestão de resíduos e cobrança pelo serviço, teve até agosto de 2024 para implantar a disposição final adequada.",
+       "gabarito": "C",
+       "porque": "É o art. 54, IV, que só vale para os municípios com plano e mecanismo de cobrança."
+      }
+     ],
+     "conferido": {
+      "Art. 3º.": "a4b925ff9123",
+      "Art. 6º.": "59ee067fa283",
+      "Art. 9º.": "cdec6f479568",
+      "Art. 30.": "bea80154d190",
+      "Art. 33.": "1809a91547dc",
+      "Art. 47.": "d23327c326e5",
+      "Art. 54.": "8c111ac7d4d6"
+     },
      "fonte": "Lei 12.305/2010 (Política Nacional de Resíduos Sólidos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12305-2-agosto-2010-607598-normaatualizada-pl.html",
-     "norma": "n12305-2010"
-    },
-    {
-     "texto": "Art. 33. São obrigados a estruturar e implementar sistemas de logística reversa, mediante retorno dos produtos após o uso pelo consumidor, de forma independente do serviço público de limpeza urbana e de manejo dos resíduos sólidos, os fabricantes, importadores, distribuidores e comerciantes de:\n\nI - agrotóxicos, seus resíduos e embalagens, assim como outros produtos cuja embalagem, após o uso, constitua resíduo perigoso, observadas as regras de gerenciamento de resíduos perigosos previstas em lei ou regulamento, em normas estabelecidas pelos órgãos do Sisnama, do SNVS e do Suasa, ou em normas técnicas;\n\nII - pilhas e baterias;\n\nIII - pneus;\n\nIV - óleos lubrificantes, seus resíduos e embalagens;\n\nV - lâmpadas fluorescentes, de vapor de sódio e mercúrio e de luz mista;\n\nVI - produtos eletroeletrônicos e seus componentes.\n\n(...)",
-     "fonte": "Lei 12.305/2010 (Política Nacional de Resíduos Sólidos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12305-2-agosto-2010-607598-normaatualizada-pl.html",
-     "norma": "n12305-2010"
-    },
-    {
-     "texto": "Art. 47. São proibidas as seguintes formas de destinação ou disposição final de resíduos sólidos ou rejeitos:\n\nI - lançamento em praias, no mar ou em quaisquer corpos hídricos;\n\nII - lançamento in natura a céu aberto, excetuados os resíduos de mineração;\n\nIII - queima a céu aberto ou em recipientes, instalações e equipamentos não licenciados para essa finalidade;\n\nIV - outras formas vedadas pelo poder público.\n\n§ 1º Quando decretada emergência sanitária, a queima de resíduos a céu aberto pode ser realizada, desde que autorizada e acompanhada pelos órgãos competentes do Sisnama, do SNVS e, quando couber, do Suasa.\n\n(...)",
-     "fonte": "Lei 12.305/2010 (Política Nacional de Resíduos Sólidos), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12305-2-agosto-2010-607598-normaatualizada-pl.html",
-     "norma": "n12305-2010"
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2010/lei-12305-2-agosto-2010-607598-normaatualizada-pl.html"
     }
+   ],
+   "juris": [],
+   "detalhes": [
+    "<strong>Cooperativa de catadores.</strong> Na contratação de coleta e reciclagem de resíduos urbanos, a cooperativa formada só por catadores de baixa renda reconhecidos pelo poder público pode ser contratada por dispensa de licitação (Lei 14.133/2021, art. 75, IV, j).",
+    "<strong>Logística reversa não é do município.</strong> O sistema de logística reversa funciona de forma independente do serviço público de limpeza urbana (art. 33, caput). Se o município assumir tarefas dos fabricantes por acordo setorial, deve ser remunerado (art. 33, § 7º). Está errado dizer que a logística reversa é obrigação do titular do serviço público."
    ],
    "macetes": [
     {
@@ -3029,14 +4079,33 @@
      "texto": "Agrotóxicos, pilhas e baterias, pneus, óleos lubrificantes, lâmpadas e eletroeletrônicos, além do que regulamento e acordo setorial acrescentarem."
     }
    ],
-   "juris": [],
    "pegadinha": {
     "afirmacao": "Rejeito é todo material descartado resultante de atividades humanas cuja destinação final inclui a reutilização, a reciclagem e a compostagem.",
     "gabarito": "E",
     "explicacao": "O enunciado mistura resíduo e destinação. Rejeito é o resíduo sem outra possibilidade que não a disposição final ambientalmente adequada (art. 3º, XV); reutilização e reciclagem são formas de destinação de resíduos (art. 3º, VII)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Cooperativa de catadores.</strong> Na contratação de coleta e reciclagem de resíduos urbanos, a cooperativa formada só por catadores de baixa renda reconhecidos pelo poder público pode ser contratada por dispensa de licitação (Lei 14.133/2021, art. 75, IV, j). A FGV cobrou o caso no ENAM; o nosso material não traz o gabarito oficial, mas a regra é a do dispositivo.</p><p><strong>Logística reversa não é do município.</strong> O sistema de logística reversa funciona de forma independente do serviço público de limpeza urbana (art. 33, caput). Se o município assumir tarefas dos fabricantes por acordo setorial, deve ser remunerado (art. 33, § 7º). Está errado dizer que a logística reversa é obrigação do titular do serviço público.</p>",
+   "pegadinhas": [
+    {
+     "errado": "A logística reversa é obrigação do titular do serviço público de limpeza urbana.",
+     "certo": "Ela funciona de forma independente do serviço público; o município que assume tarefas dos fabricantes deve ser remunerado (art. 33).",
+     "fonte": "Questão do app sobre logística reversa"
+    },
+    {
+     "errado": "A queima de resíduos a céu aberto é sempre proibida.",
+     "certo": "É admitida em emergência sanitária, se autorizada e acompanhada pelos órgãos competentes (art. 47, § 1º).",
+     "fonte": "Questão do app sobre formas proibidas de disposição"
+    }
+   ],
+   "ja_caiu": [
+    "Questão do app sobre resíduo e rejeito"
+   ],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: ganha figuras dos conceitos, da logística reversa e dos prazos do art. 54 da Lei 12.305; sai o aprofundamento, que vai para detalhes."
+    }
+   ],
    "relacionados": [
     "saneamento-basico",
     "principios-do-direito-ambiental",
@@ -3047,14 +4116,15 @@
    "slug": "saneamento-basico",
    "titulo": "Saneamento básico",
    "grupo": "Recursos naturais e saneamento",
-   "base": "Lei 11.445/2007, arts. 3º e 8º (com a Lei 14.026/2020); CF, art. 23, IX",
+   "base": "Lei 11.445/2007, arts. 3º, 8º, 10 e 11-B (com a Lei 14.026/2020); citados a CF, arts. 21, XX, e 23, IX, e a Lei 9.984/2000",
    "tax": [
     "ambiental.saneamento-basico"
    ],
    "dispositivos": [
     "n11445-2007-art-3",
     "n11445-2007-art-8",
-    "nCF-1988-art-23"
+    "n11445-2007-art-10",
+    "n11445-2007-art-11-b"
    ],
    "conceitos": [
     "quatro serviços do saneamento",
@@ -3064,7 +4134,9 @@
     "gestão associada",
     "regulação",
     "normas de referência da ANA",
-    "universalização"
+    "universalização",
+    "concessão precedida de licitação",
+    "metas de universalização"
    ],
    "palavras": [
     "lei 11445",
@@ -3087,31 +4159,197 @@
     "consorcio publico",
     "contrato de programa",
     "normas de referencia ana",
-    "universalizacao"
+    "universalizacao",
+    "contrato de concessao",
+    "previa licitacao",
+    "contrato de programa vedado",
+    "contratos regulares vigentes",
+    "metas 2033",
+    "99 por cento agua",
+    "90 por cento esgoto",
+    "ride anuencia",
+    "lei ordinaria estadual",
+    "municipios nao limitrofes",
+    "entidade reguladora",
+    "consorcio intermunicipal"
    ],
    "resumo": "Saneamento básico, para a Lei 11.445/2007, é o conjunto de serviços públicos, infraestruturas e instalações de quatro componentes: <strong>abastecimento de água potável</strong>, <strong>esgotamento sanitário</strong>, <strong>limpeza urbana e manejo de resíduos sólidos</strong> e <strong>drenagem e manejo das águas pluviais urbanas</strong> (art. 3º, I). A <strong>titularidade</strong> é dos <strong>municípios e do DF</strong> no interesse local; nas regiões metropolitanas, aglomerações urbanas e microrregiões instituídas por lei complementar estadual, é exercida pelo <strong>estado em conjunto com os municípios</strong> que compartilham instalações (art. 8º). A titularidade pode ser exercida por gestão associada, mediante consórcio público ou convênio de cooperação (art. 8º, § 1º). O novo marco (Lei 14.026/2020) incentivou a <strong>prestação regionalizada</strong>, em região metropolitana, unidade regional criada por lei ordinária estadual ou bloco de referência da União (art. 3º, VI), e deu à ANA a competência de editar <strong>normas de referência</strong> para a regulação. O titular deve definir a entidade de regulação e fiscalização, qualquer que seja a forma de prestação (art. 8º, § 5º). Promover saneamento é competência comum dos entes (CF, art. 23, IX).",
    "esquema": {
     "rotulo": "quem é titular (art. 8º)",
     "html": "<table><thead><tr><th>Situação</th><th>Titular</th></tr></thead><tbody><tr><td><strong>Interesse local</strong></td><td>Município ou DF</td></tr><tr><td><strong>Região metropolitana, aglomeração urbana ou microrregião (LC estadual)</strong></td><td>Estado com os municípios que compartilham as instalações</td></tr><tr><td><strong>Gestão associada</strong></td><td>Consórcio público ou convênio de cooperação</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Saneamento básico",
+      "o_que_e": "Abastecimento de água potável, esgotamento sanitário, limpeza urbana e manejo de resíduos sólidos, drenagem e manejo das águas pluviais urbanas",
+      "atencao": "São quatro componentes; a drenagem é a que mais se esquece.",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Gestão associada",
+      "o_que_e": "Associação voluntária de entes por consórcio público ou convênio de cooperação (CF, art. 241)",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Prestação regionalizada",
+      "o_que_e": "Prestação integrada em território de mais de um município",
+      "atencao": "Pode ser região metropolitana, aglomeração urbana ou microrregião (lei complementar estadual, municípios limítrofes), unidade regional de saneamento (lei ordinária estadual, municípios não necessariamente limítrofes) ou bloco de referência (definido pela União e formado por adesão voluntária). Na RIDE, depende da anuência dos municípios.",
+      "grupo": "Conceitos (art. 3º)"
+     },
+     {
+      "nome": "Interesse local",
+      "o_que_e": "Municípios e Distrito Federal",
+      "grupo": "Titularidade e regulação (art. 8º)"
+     },
+     {
+      "nome": "Interesse comum",
+      "o_que_e": "Estado em conjunto com os municípios que compartilham instalações em região metropolitana, aglomeração urbana ou microrregião",
+      "atencao": "Não é titularidade exclusiva do Estado (STF, ADI 1.842).",
+      "grupo": "Titularidade e regulação (art. 8º)"
+     },
+     {
+      "nome": "Regulação",
+      "o_que_e": "O titular define a entidade de regulação e fiscalização, qualquer que seja a forma de prestação",
+      "atencao": "A ANA edita normas de referência que orientam essa regulação (Lei 9.984/2000).",
+      "grupo": "Titularidade e regulação (art. 8º)"
+     },
+     {
+      "nome": "Concessão (art. 10)",
+      "o_que_e": "Quem não integra a administração do titular só presta mediante contrato de concessão precedido de licitação",
+      "atencao": "Vedados o contrato de programa, o convênio, o termo de parceria e outros instrumentos precários; os contratos de programa regulares vigentes seguem até o termo.",
+      "grupo": "Contratos e metas"
+     },
+     {
+      "nome": "Universalização (art. 11-B)",
+      "o_que_e": "Metas de 99% da população com água potável e 90% com coleta e tratamento de esgoto até 31/12/2033",
+      "atencao": "Também metas de não intermitência, redução de perdas e melhoria do tratamento.",
+      "grupo": "Contratos e metas"
+     },
+     {
+      "nome": "Competências na CF",
+      "o_que_e": "A União institui diretrizes para o saneamento básico (art. 21, XX), e promover melhorias de saneamento é competência comum (art. 23, IX)",
+      "atencao": "Os artigos da CF estão no caderno de Direito Constitucional.",
+      "grupo": "Contratos e metas"
+     }
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 3º Para fins do disposto nesta Lei, considera-se:\n\nI - saneamento básico: conjunto de serviços públicos, infraestruturas e instalações operacionais de:\n\na) abastecimento de água potável: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias ao abastecimento público de água potável, desde a captação até as ligações prediais e seus instrumentos de medição;\n\nb) esgotamento sanitário: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias à coleta, ao transporte, ao tratamento e à disposição final adequados dos esgotos sanitários, desde as ligações prediais até sua destinação final para produção de água de reuso ou seu lançamento de forma adequada no meio ambiente;\n\nc) limpeza urbana e manejo de resíduos sólidos: constituídos pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais de coleta, varrição manual e mecanizada, asseio e conservação urbana, transporte, transbordo, tratamento e destinação final ambientalmente adequada dos resíduos sólidos domiciliares e dos resíduos de limpeza urbana; e\n\nd) drenagem e manejo das águas pluviais urbanas: constituídos pelas atividades, pela infraestrutura e pelas instalações operacionais de drenagem de águas pluviais, transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas, contempladas a limpeza e a fiscalização preventiva das redes;\n\n(...)",
+     "norma": "n11445-2007",
+     "artigos": [
+      "Art. 3º.",
+      "Art. 8º.",
+      "Art. 10.",
+      "Art. 11-B."
+     ],
+     "ref": "arts. 3º, 8º, 10 e 11-B da Lei 11.445/2007",
+     "regras": [
+      "<strong>Art. 3º.</strong> Conceitos: os quatro componentes do saneamento básico, gestão associada, universalização, prestação regionalizada e suas três formas, interesse comum e interesse local.",
+      "<strong>Art. 8º.</strong> Titularidade do município e do DF no interesse local, e do Estado com os municípios no interesse comum; gestão associada; dever do titular de definir a entidade reguladora.",
+      "<strong>Arts. 10 e 11-B.</strong> Concessão precedida de licitação, vedado o contrato de programa, e metas de universalização até 2033."
+     ],
+     "literalidades": [
+      {
+       "trecho": "drenagem e manejo das águas pluviais urbanas",
+       "marcas": [
+        "águas pluviais urbanas"
+       ],
+       "afirmacao": "A drenagem das águas da chuva nas cidades faz parte do saneamento básico.",
+       "gabarito": "C",
+       "porque": "É o quarto componente (art. 3º, I, d)."
+      },
+      {
+       "trecho": "os Municípios e o Distrito Federal, no caso de interesse local",
+       "marcas": [
+        "no caso de interesse local"
+       ],
+       "afirmacao": "No interesse local, a titularidade do saneamento é do Estado.",
+       "gabarito": "E",
+       "porque": "No interesse local, os titulares são os municípios e o DF (art. 8º, I)."
+      },
+      {
+       "trecho": "o Estado, em conjunto com os Municípios que compartilham efetivamente instalações operacionais",
+       "marcas": [
+        "em conjunto com os Municípios"
+       ],
+       "afirmacao": "Criada a região metropolitana, o Estado pode conceder sozinho o serviço de esgoto dos municípios que a integram.",
+       "gabarito": "E",
+       "porque": "No interesse comum, a titularidade é do Estado em conjunto com os municípios que compartilham as instalações (art. 8º, II)."
+      },
+      {
+       "trecho": "unidade instituída pelos Estados mediante lei ordinária, constituída pelo agrupamento de Municípios não necessariamente limítrofes",
+       "marcas": [
+        "lei ordinária"
+       ],
+       "afirmacao": "A unidade regional de saneamento básico depende de lei complementar estadual e só reúne municípios limítrofes.",
+       "gabarito": "E",
+       "porque": "Ela é instituída por lei ordinária estadual e reúne municípios não necessariamente limítrofes (art. 3º, VI, b)."
+      },
+      {
+       "trecho": "estabelecido pela União nos termos do § 3º do art. 52 desta Lei e formalmente criado por meio de gestão associada voluntária dos titulares",
+       "marcas": [
+        "gestão associada voluntária dos titulares"
+       ],
+       "afirmacao": "O bloco de referência é definido pela União, mas só se forma com a adesão voluntária dos titulares.",
+       "gabarito": "C",
+       "porque": "É o art. 3º, VI, c."
+      },
+      {
+       "trecho": "a prestação regionalizada do serviço de saneamento básico estará condicionada à anuência dos Municípios que a integram",
+       "marcas": [
+        "anuência dos Municípios"
+       ],
+       "afirmacao": "Na região integrada de desenvolvimento, a prestação regionalizada depende da concordância dos municípios que a compõem.",
+       "gabarito": "C",
+       "porque": "É o art. 3º, § 5º."
+      },
+      {
+       "trecho": "deverá definir a entidade responsável pela regulação e fiscalização desses serviços, independentemente da modalidade de sua prestação",
+       "marcas": [
+        "independentemente da modalidade de sua prestação"
+       ],
+       "afirmacao": "O município que presta o serviço diretamente fica dispensado de definir entidade reguladora.",
+       "gabarito": "E",
+       "porque": "O titular define a entidade reguladora qualquer que seja a modalidade de prestação (art. 8º, § 5º)."
+      },
+      {
+       "trecho": "vedada a sua disciplina mediante contrato de programa, convênio, termo de parceria ou outros instrumentos de natureza precária",
+       "marcas": [
+        "contrato de programa"
+       ],
+       "afirmacao": "O município pode entregar o saneamento à companhia estadual por contrato de programa, sem licitação.",
+       "gabarito": "E",
+       "porque": "Quem não integra a administração do titular depende de concessão precedida de licitação, vedado o contrato de programa (art. 10)."
+      },
+      {
+       "trecho": "Os contratos de programa regulares vigentes permanecem em vigor até o advento do seu termo contratual.",
+       "marcas": [
+        "até o advento do seu termo contratual"
+       ],
+       "afirmacao": "O contrato de programa regular firmado antes do novo marco continua valendo até o fim do seu prazo.",
+       "gabarito": "C",
+       "porque": "É o art. 10, § 3º."
+      },
+      {
+       "trecho": "90% (noventa por cento) da população com coleta e tratamento de esgotos até 31 de dezembro de 2033",
+       "marcas": [
+        "90% (noventa por cento)"
+       ],
+       "afirmacao": "As metas de universalização exigem 90% da população com coleta e tratamento de esgoto até o fim de 2033.",
+       "gabarito": "C",
+       "porque": "É o art. 11-B, que também exige 99% com água potável."
+      }
+     ],
+     "conferido": {
+      "Art. 3º.": "4a83d8b570b5",
+      "Art. 8º.": "c173ad9cf551",
+      "Art. 10.": "ec0d43220827",
+      "Art. 11-B.": "300cbeebff82"
+     },
      "fonte": "Lei 11.445/2007 (Diretrizes nacionais para o saneamento básico), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2007/lei-11445-5-janeiro-2007-549031-normaatualizada-pl.html",
-     "norma": "n11445-2007"
-    },
-    {
-     "texto": "Art. 8º Exercem a titularidade dos serviços públicos de saneamento básico:\n\nI - os Municípios e o Distrito Federal, no caso de interesse local;\n\nII - o Estado, em conjunto com os Municípios que compartilham efetivamente instalações operacionais integrantes de regiões metropolitanas, aglomerações urbanas e microrregiões, instituídas por lei complementar estadual, no caso de interesse comum.\n\n§ 1º O exercício da titularidade dos serviços de saneamento poderá ser realizado também por gestão associada, mediante consórcio público ou convênio de cooperação, nos termos do art. 241 da Constituição Federal, observadas as seguintes disposições:\n\n(...)\n\n§ 5º O titular dos serviços públicos de saneamento básico deverá definir a entidade responsável pela regulação e fiscalização desses serviços, independentemente da modalidade de sua prestação.",
-     "fonte": "Lei 11.445/2007 (Diretrizes nacionais para o saneamento básico), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/2007/lei-11445-5-janeiro-2007-549031-normaatualizada-pl.html",
-     "norma": "n11445-2007"
-    }
-   ],
-   "macetes": [
-    {
-     "sigla": "ÁGUA, ESGOTO, LIXO E CHUVA",
-     "texto": "Os quatro componentes do saneamento básico. Quem esquece a drenagem das águas pluviais erra a definição."
+     "url": "https://www2.camara.leg.br/legin/fed/lei/2007/lei-11445-5-janeiro-2007-549031-normaatualizada-pl.html"
     }
    ],
    "juris": [
@@ -3120,24 +4358,45 @@
      "texto": "Em região metropolitana, o poder concedente do saneamento é compartilhado entre o estado e os municípios que a integram, sem que o estado concentre sozinho a titularidade."
     }
    ],
+   "detalhes": [
+    "<strong>Normas de referência da ANA.</strong> Uma norma de referência da ANA não derruba, por si, contrato de programa em vigor. As normas de referência orientam a regulação feita pelos titulares e suas agências, e o novo marco preservou os contratos regulares vigentes até o seu término.",
+    "<strong>Metas de 2033 e licitação.</strong> Os contratos devem garantir a universalização até 31/12/2033: 99% da população com água potável e 90% com coleta e tratamento de esgoto (Lei 11.445/2007, art. 11-B, com a Lei 14.026/2020). A prestação por entidade que não integre a administração do titular depende de concessão precedida de licitação, vedados para isso o contrato de programa, o convênio, o termo de parceria e outros instrumentos precários (art. 10)."
+   ],
+   "macetes": [
+    {
+     "sigla": "ÁGUA, ESGOTO, LIXO E CHUVA",
+     "texto": "Os quatro componentes do saneamento básico. Quem esquece a drenagem das águas pluviais erra a definição."
+    }
+   ],
    "pegadinha": {
     "afirmacao": "Nas regiões metropolitanas instituídas por lei complementar estadual, a titularidade dos serviços de saneamento básico passa a ser exclusiva do estado.",
     "gabarito": "E",
     "explicacao": "Nesse caso a titularidade é exercida pelo estado em conjunto com os municípios que compartilham as instalações (Lei 11.445, art. 8º, II), como já decidira o STF na ADI 1.842."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Normas de referência da ANA.</strong> A FGV cobrou, em prova de Juiz (TJSC 2023), o impacto de norma de referência da ANA sobre contrato de programa em vigor. As normas de referência orientam a regulação feita pelos titulares e suas agências, e o novo marco preservou os contratos regulares vigentes até o seu término. O nosso material não traz o gabarito oficial da questão.</p><p><strong>Metas de 2033 e licitação.</strong> Os contratos devem garantir a universalização até 31/12/2033: 99% da população com água potável e 90% com coleta e tratamento de esgoto (Lei 11.445/2007, art. 11-B, com a Lei 14.026/2020). A prestação por entidade que não integre a administração do titular depende de concessão precedida de licitação, vedados para isso o contrato de programa, o convênio, o termo de parceria e outros instrumentos precários (art. 10).</p>",
+   "pegadinhas": [
+    {
+     "errado": "O município pode contratar a companhia estadual de saneamento por contrato de programa, sem licitação.",
+     "certo": "Depende de concessão precedida de licitação (art. 10); só os contratos de programa regulares já vigentes seguem até o termo.",
+     "fonte": "Questão do app sobre o novo marco do saneamento"
+    },
+    {
+     "errado": "A norma de referência da ANA extingue o contrato de programa regular em vigor.",
+     "certo": "As normas de referência orientam a regulação, e os contratos regulares vigentes seguem até o termo (art. 10, § 3º).",
+     "fonte": "Questão do app sobre normas de referência da ANA"
+    }
+   ],
+   "ja_caiu": [],
+   "mudancas": [
+    {
+     "em": "2026-11-26",
+     "tipo": "lei",
+     "nota": "Tema reorganizado: ganha os arts. 10 e 11-B da Lei 11.445; o art. 23 da CF passa a ser citado; sai o aprofundamento, que vai para detalhes e figuras."
+    }
+   ],
    "relacionados": [
     "recursos-hidricos",
     "residuos-solidos",
     "competencias-em-materia-ambiental"
-   ],
-   "mudancas": [
-    {
-     "em": "2026-11-14",
-     "tipo": "lei",
-     "nota": "Acrescidas as metas de universalização até 2033 (art. 11-B) e a exigência de licitação no saneamento (art. 10)."
-    }
    ]
   }
  ]
