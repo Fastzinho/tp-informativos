@@ -2991,12 +2991,102 @@
     "estoque st",
     "homologacao tacita"
    ],
-   "resumo": "A <strong>LC 227/2026</strong>, de 13 de janeiro de 2026, é a segunda grande lei da reforma do consumo. Ela tem três livros: o <strong>Livro I</strong> trata da administração do IBS (institui o CGIBS, disciplina o processo administrativo tributário do IBS, a distribuição do produto da arrecadação e a transição do ICMS); o <strong>Livro II</strong> traz as normas gerais do ITCMD; o <strong>Livro III</strong> altera outras leis, entre elas o CTN, a Lei Kandir, a LC 123/2006 e a própria LC 214/2025. O CGIBS é entidade pública com caráter técnico e operacional sob regime especial, com sede e foro no Distrito Federal, sem vinculação, tutela ou subordinação a órgão algum. Na transição, os saldos credores de ICMS existentes em 31 de dezembro de 2032 não se perdem: depois de homologados pelo Estado, podem ser compensados com o ICMS, compensados com o IBS em 240 parcelas mensais, transferidos a terceiros ou ressarcidos em espécie pelo CGIBS. O pedido de homologação tem de ser protocolado em até 5 anos contados de 1º de janeiro de 2033, e o Estado tem 24 meses para responder; se não responder, o saldo se considera homologado. O ICMS retido por substituição tributária sobre mercadorias em estoque no fim de 2032 vira crédito compensável com o IBS em 12 parcelas.",
+   "para_entender": [
+    {
+     "texto": "<strong>Comitê Gestor do IBS:</strong> a entidade que a LC 227/2026 organiza.",
+     "tema": "comite-gestor-do-ibs"
+    },
+    {
+     "texto": "<strong>Transição de 2029 a 2032:</strong> por que o ICMS acaba em 2033 e sobra saldo credor.",
+     "tema": "transicao-da-reforma-tributaria"
+    }
+   ],
+   "resumo": "A <strong>LC 227/2026</strong>, de 13 de janeiro de 2026, é a segunda grande lei da reforma do consumo, depois da LC 214/2025. Ela tem três livros: o I trata da administração do IBS (o Comitê Gestor, o processo administrativo, a distribuição da arrecadação e a transição do ICMS); o II traz as normas gerais do ITCMD; e o III altera outras leis, entre elas o CTN, a Lei Kandir, a LC 123/2006 e a própria LC 214/2025. O ponto mais cobrado é o <strong>saldo credor</strong> de ICMS, o crédito que o contribuinte acumulou e não conseguiu usar antes de o imposto acabar. Ele não se perde: depois de <strong>homologado</strong>, isto é, conferido e aceito pelo Estado, segue uma das vias da tabela. A homologação depende de pedido do contribuinte, com prazos próprios, e o silêncio do Estado conta como aceitação.",
    "esquema": {
     "rotulo": "destino do saldo credor de ICMS homologado (arts. 135 a 139)",
     "html": "<table><thead><tr><th>Via</th><th>Como funciona</th><th>Ponto que a banca troca</th></tr></thead><tbody><tr><td><strong>Compensação com ICMS</strong></td><td>Com crédito tributário de ICMS, constituído ou não</td><td>Depende de concordância entre o Estado e o sujeito passivo</td></tr><tr><td><strong>Compensação com IBS</strong></td><td>Demais créditos em 240 parcelas mensais, iguais e sucessivas; crédito de ativo permanente pelo prazo que restar da Lei Kandir</td><td>Começa no mês seguinte ao do recebimento da informação pelo CGIBS</td></tr><tr><td><strong>Transferência</strong></td><td>A empresa do mesmo grupo econômico ou a terceiros, que só podem compensar com ICMS ou IBS</td><td>Comunicada ao CGIBS só por documento fiscal eletrônico de transferência de crédito</td></tr><tr><td><strong>Ressarcimento</strong></td><td>Em espécie, pelo CGIBS, em 240 parcelas, na impossibilidade de compensação</td><td>Pago até 90 dias após o mês da compensação, sem acréscimos; depois disso, Selic a partir do 91º dia</td></tr><tr><td><strong>ICMS-ST em estoque</strong></td><td>Crédito do ICMS retido sobre estoque de 31/12/2032, compensado com IBS em 12 parcelas</td><td>Optante do Simples Nacional não usa a compensação: pede restituição ao Estado</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "LC 227/2026",
+      "o_que_e": "Segunda lei da reforma, de 13 de janeiro de 2026, em três livros: administração do IBS (CGIBS, processo administrativo, distribuição e transição do ICMS), normas gerais do ITCMD e alterações de outras leis (CTN, Lei Kandir, LC 123/2006 e LC 214/2025).",
+      "atencao": "Entrou em vigor na publicação; a alínea c do inciso II do art. 76 (rito sumário para exclusão do Simples) e o art. 169 só produzem efeitos a partir de 1º/1/2027 (art. 182).",
+      "grupo": "A lei"
+     },
+     {
+      "nome": "CGIBS na LC 227/2026",
+      "o_que_e": "Entidade pública com caráter técnico e operacional sob regime especial, com sede e foro no Distrito Federal, sem vinculação, tutela ou subordinação a órgão algum.",
+      "grupo": "A lei"
+     },
+     {
+      "nome": "Saldo credor de ICMS",
+      "o_que_e": "Valor admitido pela legislação estadual vigente em 31/12/2032, decorrente de operações até essa data, regularmente escriturado (ainda que depois), não compensado até lá e homologado (art. 132, § 1º).",
+      "atencao": "Créditos reconhecidos depois, inclusive por decisão administrativa definitiva ou judicial transitada em julgado, consideram-se homologados (§ 2º). A partir de 1º de fevereiro de 2033, os saldos são atualizados pelo IPCA.",
+      "grupo": "Saldo credor"
+     },
+     {
+      "nome": "Pedido de homologação",
+      "o_que_e": "O contribuinte protocola o pedido em até 5 anos contados de 1º/1/2033, e o Estado tem até 24 meses para se pronunciar, prorrogáveis uma vez se houver fiscalização em andamento.",
+      "atencao": "Não é o contrário (24 meses para pedir e 5 anos para responder).",
+      "grupo": "Saldo credor"
+     },
+     {
+      "nome": "Homologação tácita",
+      "o_que_e": "Sem resposta do Estado no prazo, o saldo se considera homologado.",
+      "atencao": "Isso não impede o Estado de apurar e lançar valores ligados ao saldo enquanto não decair o direito de constituir o crédito.",
+      "grupo": "Saldo credor"
+     },
+     {
+      "nome": "Ativo permanente",
+      "o_que_e": "Para bem que entrar a partir de 1º/1/2029, o pedido de homologação é feito no mesmo período de apuração em que começa o aproveitamento do crédito, e o Estado tem 60 dias para responder (art. 134, § 1º).",
+      "atencao": "A compensação com o IBS segue o prazo que faltar do § 5º do art. 20 da Lei Kandir.",
+      "grupo": "Saldo credor"
+     },
+     {
+      "nome": "Compensação com ICMS",
+      "o_que_e": "Com crédito tributário de ICMS, constituído ou não.",
+      "atencao": "Depende de concordância entre o Estado e o sujeito passivo.",
+      "grupo": "Vias do saldo homologado"
+     },
+     {
+      "nome": "Compensação com IBS",
+      "o_que_e": "Os demais créditos, em 240 parcelas mensais, iguais e sucessivas, a partir do mês seguinte ao do recebimento da informação pelo CGIBS.",
+      "atencao": "Não são 120 parcelas. O crédito de ativo permanente segue o prazo restante da Lei Kandir.",
+      "grupo": "Vias do saldo homologado"
+     },
+     {
+      "nome": "Transferência",
+      "o_que_e": "A empresa do mesmo grupo econômico ou a terceiros, que só podem compensar com ICMS ou IBS; é comunicada ao CGIBS só por documento fiscal eletrônico de transferência de crédito.",
+      "atencao": "Depende da regularidade do titular em relação ao IBS e ao ICMS do Estado (art. 140).",
+      "grupo": "Vias do saldo homologado"
+     },
+     {
+      "nome": "Ressarcimento em espécie",
+      "o_que_e": "Na impossibilidade de compensação, o CGIBS ressarce em 240 parcelas; cada uma é paga até 90 dias após o mês em que ocorreria a compensação, sem acréscimos; depois disso, Selic a partir do 91º dia.",
+      "atencao": "O pagamento das parcelas também depende da regularidade do titular (art. 140). A partir de 2034, se a arrecadação do IBS crescer acima da dos anos anteriores, corrigida pelo IPCA, os Estados podem antecipar parcelas.",
+      "grupo": "Vias do saldo homologado"
+     },
+     {
+      "nome": "Informação ao CGIBS",
+      "o_que_e": "O Estado informa ao CGIBS em até 30 dias da homologação o valor, o titular e a data de conclusão da compensação, separando créditos de ativo permanente e demais créditos (art. 136).",
+      "atencao": "O valor compensado ou ressarcido é deduzido do IBS devido ao próprio Estado (art. 141).",
+      "grupo": "Vias do saldo homologado"
+     },
+     {
+      "nome": "ICMS-ST em estoque",
+      "o_que_e": "O ICMS retido por substituição tributária sobre mercadorias em estoque em 31/12/2032 vira crédito compensável com o IBS em 12 parcelas mensais.",
+      "atencao": "O Estado informa ao CGIBS em até 60 dias do demonstrativo; sem essa informação, o CGIBS usa o valor do demonstrativo do contribuinte, o que não é homologação (art. 144). O optante do Simples Nacional não usa a compensação: pede restituição ao Estado.",
+      "grupo": "Estoque"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [
+    "O saldo credor de ICMS não se extingue com o fim do imposto e não depende de ter sido transferido antes de 2033: homologado, ele vai por uma das quatro vias (compensação com ICMS, compensação com IBS, transferência ou ressarcimento pelo CGIBS), nos arts. 132 a 139 da LC 227/2026."
+   ],
    "macetes": [
     {
      "sigla": "CINCO ANOS PARA PEDIR, DOIS PARA RESPONDER",
@@ -3016,8 +3106,28 @@
     "gabarito": "E",
     "explicacao": "Os saldos credores existentes em 31/12/2032 são reconhecidos pelos Estados e pelo DF e, homologados, podem ser compensados com ICMS ou com IBS, transferidos ou ressarcidos pelo CGIBS em 240 parcelas (arts. 132 a 139 da LC 227/2026). A partir de 1º de fevereiro de 2033, os saldos são atualizados pelo IPCA."
    },
-   "aprofundamento": "<p><strong>O que conta como saldo credor.</strong> É o valor admitido pela legislação estadual vigente em 31/12/2032, decorrente de operações até essa data, regularmente escriturado (ainda que a escrituração seja posterior), não compensado até lá e homologado (art. 132, § 1º). Créditos reconhecidos depois, inclusive por decisão administrativa definitiva ou judicial transitada em julgado, consideram-se homologados (§ 2º).</p><p><strong>Ativo permanente.</strong> Para bem cuja entrada ocorra a partir de 1º/1/2029, o pedido de homologação é feito no mesmo período de apuração em que começa o aproveitamento do crédito, e o Estado tem 60 dias para responder (art. 134, § 1º). A compensação com o IBS segue o prazo que faltar do § 5º do art. 20 da Lei Kandir.</p><p><strong>Informação ao CGIBS.</strong> O Estado informa ao CGIBS em até 30 dias contados da homologação o valor, o titular e a data de conclusão da compensação, separando créditos de ativo permanente e demais créditos (art. 136). O valor compensado ou ressarcido é deduzido do produto da arrecadação do IBS devido ao próprio Estado (art. 141).</p><p><strong>Regularidade.</strong> A transferência e o pagamento das parcelas do ressarcimento dependem da regularidade do titular em relação ao IBS e ao ICMS do Estado (art. 140). A partir de 2034, se a arrecadação do IBS crescer acima da registrada nos anos anteriores, corrigida pelo IPCA, os Estados podem antecipar parcelas.</p><p><strong>ICMS-ST em estoque.</strong> O Estado informa ao CGIBS, em até 60 dias do recebimento do demonstrativo, o valor a compensar; se não informar, o CGIBS usa o valor do demonstrativo do contribuinte, o que não significa homologação dos valores (art. 144).</p><p><strong>Vigência.</strong> A LC 227/2026 entrou em vigor na publicação; a alínea c do inciso II do art. 76 (rito sumário para exclusão do Simples) e o art. 169 só produzem efeitos a partir de 1º/1/2027 (art. 182).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O saldo credor de ICMS existente em 31/12/2032, homologado pelo Estado, pode ser compensado com o IBS em 120 parcelas mensais.",
+     "certo": "São 240 parcelas mensais, iguais e sucessivas.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O contribuinte tem 24 meses, contados de 1º/1/2033, para pedir a homologação, e o Estado tem 5 anos para se pronunciar.",
+     "certo": "É o contrário: 5 anos para pedir e 24 meses para o Estado responder.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Se o Estado não responder no prazo, o saldo é homologado e o Estado perde o direito de lançar qualquer valor ligado a ele.",
+     "certo": "O saldo se considera homologado, mas o Estado pode lançar valores ligados a ele enquanto não decair o direito de constituir o crédito.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "O optante do Simples Nacional com mercadoria sujeita a ICMS-ST em estoque em 31/12/2032 compensa o imposto retido com o IBS em 12 parcelas.",
+     "certo": "O optante do Simples não usa a compensação: pede restituição ao Estado.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "normas-gerais-do-itcmd-na-lc-227",
     "comite-gestor-do-ibs",
@@ -3049,12 +3159,96 @@
     "progressividade",
     "bens no exterior"
    ],
-   "resumo": "O Livro II da LC 227/2026 traz as <strong>normas gerais do ITCMD</strong>, o imposto estadual sobre a transmissão <em>causa mortis</em> e a doação de quaisquer bens ou direitos (art. 155, I, da CF). O fato gerador é a transmissão de bens ou direitos com valor econômico havidos por sucessão causa mortis ou por doação, e há tantos fatos geradores quantos forem os sucessores ou donatários. Na transmissão causa mortis, o fato gerador ocorre na data do óbito e independe da abertura de inventário. A base de cálculo é o <strong>valor de mercado</strong> do bem ou direito, deduzidas as dívidas comprovadas do falecido. As alíquotas são <strong>progressivas</strong> em razão do valor do quinhão, do legado ou da doação, respeitado o teto fixado pelo Senado; vale a alíquota vigente na abertura da sucessão ou no momento da doação. Contribuinte é o sucessor, na herança, e o donatário, na doação. Quanto à competência, imóvel situado no Brasil paga ao Estado da situação do bem; bem móvel paga ao Estado do domicílio do falecido ou do doador, e, se estes morarem no exterior, ao Estado do domicílio do sucessor ou do donatário. A renúncia pura e simples à herança, feita em favor do monte, não sofre incidência; a renúncia em favor de pessoa determinada é tributada como doação.",
+   "para_entender": [
+    {
+     "texto": "<strong>LC 227/2026:</strong> a lei que traz, no Livro II, as normas gerais do ITCMD.",
+     "tema": "lei-complementar-227-2026"
+    }
+   ],
+   "resumo": "O <strong>ITCMD</strong> é o imposto estadual sobre a transmissão <em>causa mortis</em>, por morte, e a doação de quaisquer bens ou direitos (art. 155, I, da CF). O Livro II da LC 227/2026 trouxe as <strong>normas gerais</strong> dele, as regras nacionais que todos os Estados seguem. O <strong>fato gerador</strong>, o fato que faz nascer o imposto, é a transmissão de bem ou direito com valor econômico por sucessão ou por doação, e há um fato gerador para cada sucessor ou donatário. Na herança, ele ocorre na data do óbito, haja ou não inventário. A <strong>base de cálculo</strong> é o valor de mercado, menos as dívidas comprovadas do falecido. As alíquotas são <strong>progressivas</strong>, isto é, sobem conforme o valor do quinhão, do legado ou da doação, até o teto do Senado. O Estado que cobra em cada situação está na tabela.",
    "esquema": {
     "rotulo": "quem cobra o ITCMD (arts. 158 e 159)",
     "html": "<table><thead><tr><th>Situação</th><th>Estado competente</th></tr></thead><tbody><tr><td><strong>Imóvel no Brasil</strong></td><td>O da situação do bem, ainda que o falecido ou o doador more no exterior</td></tr><tr><td><strong>Imóvel no exterior</strong></td><td>O do domicílio do falecido ou do doador, se domiciliado no Brasil; se não, o do sucessor ou donatário</td></tr><tr><td><strong>Móvel, causa mortis</strong></td><td>O do domicílio do falecido; se ele morava no exterior, o do domicílio do sucessor</td></tr><tr><td><strong>Móvel, doação</strong></td><td>O do domicílio do doador; se o doador mora no exterior, o do domicílio do donatário</td></tr><tr><td><strong>Transmitente e recebedor no exterior</strong></td><td>O Estado onde se localizarem os bens, no Brasil</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Fato gerador",
+      "o_que_e": "Transmissão de bens ou direitos com valor econômico por sucessão causa mortis ou por doação; há tantos fatos geradores quantos forem os sucessores ou donatários, em relação a cada ente competente, respeitada a fração ideal de cada um.",
+      "atencao": "Na causa mortis, ocorre na data do óbito e independe da abertura de inventário.",
+      "grupo": "Incidência"
+     },
+     {
+      "nome": "Doação em sentido amplo",
+      "o_que_e": "Inclui a transferência não onerosa de quotas ou ações, a remissão de dívida de ato oneroso entre pessoas vinculadas, o excesso de meação ou de quinhão em partilha e a transmissão declarada onerosa para encobrir uma liberalidade (art. 147, VI).",
+      "atencao": "Presume-se simulada a transmissão a quem não comprove capacidade financeira ou seja vinculado ao real destinatário da liberalidade (parágrafo único).",
+      "grupo": "Incidência"
+     },
+     {
+      "nome": "Renúncia à herança",
+      "o_que_e": "A renúncia pura e simples, abdicativa, sem ressalva e em favor do monte, não sofre incidência.",
+      "atencao": "A renúncia em favor de pessoa determinada, como um irmão, é tributada como doação, com fato gerador na data da renúncia.",
+      "grupo": "Não incidência e imunidade"
+     },
+     {
+      "nome": "Não incidência",
+      "o_que_e": "Renúncia pura à herança ou ao legado, extinção de usufruto que consolida a propriedade no instituidor, benefício de previdência complementar, seguro ou pecúlio, ainda que o beneficiário seja terceiro, e extinção do fideicomisso (art. 150).",
+      "atencao": "O plano de previdência complementar aberta pago a beneficiário estranho à família também não paga.",
+      "grupo": "Não incidência e imunidade"
+     },
+     {
+      "nome": "Imunidades",
+      "o_que_e": "Transmissões em que o sucessor ou donatário seja ente federativo, autarquia ou fundação pública, templo, partido político, entidade sindical de trabalhadores ou instituição sem fins lucrativos de relevância pública e social; e transmissões de livros, jornais, periódicos e fonogramas musicais brasileiros (art. 149).",
+      "grupo": "Não incidência e imunidade"
+     },
+     {
+      "nome": "Base de cálculo",
+      "o_que_e": "Valor de mercado do bem ou direito, deduzidas as dívidas comprovadas do falecido.",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Quotas e ações",
+      "o_que_e": "Negociadas em mercado organizado com mercado ativo nos 90 dias anteriores: cotação de fechamento do dia anterior à avaliação. Nos demais casos, metodologia tecnicamente idônea, com valor mínimo igual ao patrimônio líquido ajustado a valor de mercado, mais o valor de mercado do fundo de comércio (art. 154).",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Alíquotas progressivas",
+      "o_que_e": "Sobem conforme o valor do quinhão, do legado ou da doação, respeitado o teto fixado pelo Senado; vale a alíquota vigente na abertura da sucessão ou no momento da doação.",
+      "atencao": "A progressividade é por faixas: a primeira faixa sobre a parte inicial da base e a seguinte sobre o excedente (art. 156, § 2º).",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Doações sucessivas",
+      "o_que_e": "Entre o mesmo doador e o mesmo donatário, somam-se as transmissões no prazo da lei estadual, o imposto é recalculado a cada nova doação e abate-se o que já foi recolhido (art. 155).",
+      "grupo": "Cálculo"
+     },
+     {
+      "nome": "Contribuinte",
+      "o_que_e": "O sucessor, na herança, e o donatário, na doação.",
+      "grupo": "Sujeitos"
+     },
+     {
+      "nome": "Imóvel",
+      "o_que_e": "Imóvel no Brasil paga ao Estado da situação do bem, ainda que o falecido ou o doador more no exterior.",
+      "grupo": "Sujeitos"
+     },
+     {
+      "nome": "Bem móvel",
+      "o_que_e": "Paga ao Estado do domicílio do falecido ou do doador; só se ele morar no exterior vale o domicílio do sucessor ou do donatário (arts. 158 e 159).",
+      "atencao": "Aplicações financeiras deixadas por falecido domiciliado em Alagoas a herdeiro de Pernambuco pagam a Alagoas.",
+      "grupo": "Sujeitos"
+     },
+     {
+      "nome": "Homologação do cálculo",
+      "o_que_e": "Compete privativamente à administração tributária estadual, por servidores efetivos com competência para lançar (art. 160).",
+      "grupo": "Sujeitos"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "IMÓVEL FICA, MÓVEL ACOMPANHA A PESSOA",
@@ -3074,8 +3268,28 @@
     "gabarito": "E",
     "explicacao": "Na transmissão por doação de bens móveis, inclusive títulos e direitos, é competente o Estado do domicílio do doador, se ele morar no Brasil (art. 159, II, a, da LC 227/2026). O domicílio do donatário só decide quando o doador mora no exterior (alínea b)."
    },
-   "aprofundamento": "<p><strong>Doação em sentido amplo.</strong> Entram no conceito, entre outros, a transferência não onerosa de quotas ou ações, a remissão de dívida de ato oneroso entre pessoas vinculadas, o excesso de meação ou de quinhão em partilha e a transmissão declarada onerosa para encobrir uma liberalidade (art. 147, VI). Presume-se simulada a transmissão a pessoa que não comprove capacidade financeira ou que seja vinculada ao real destinatário da liberalidade (parágrafo único).</p><p><strong>Não incidência.</strong> Não incide ITCMD sobre a renúncia pura à herança ou ao legado, sobre a extinção de usufruto que consolida a propriedade no instituidor, sobre benefício de previdência complementar, seguro ou pecúlio, ainda que o beneficiário seja terceiro, e sobre a extinção do fideicomisso (art. 150).</p><p><strong>Imunidades.</strong> São imunes as transmissões em que figurem como sucessor ou donatário os entes federativos, autarquias e fundações públicas, templos, partidos políticos, entidades sindicais de trabalhadores e instituições sem fins lucrativos de relevância pública e social; e as transmissões de livros, jornais, periódicos e fonogramas musicais brasileiros (art. 149).</p><p><strong>Base de cálculo de quotas.</strong> Quotas ou ações negociadas em mercado organizado com mercado ativo nos 90 dias anteriores: cotação de fechamento do dia anterior à avaliação. Nos demais casos, metodologia tecnicamente idônea, com valor mínimo igual ao patrimônio líquido ajustado a valor de mercado, acrescido do valor de mercado do fundo de comércio (art. 154).</p><p><strong>Doações sucessivas.</strong> Entre o mesmo doador e o mesmo donatário, somam-se as transmissões no prazo da lei estadual, o imposto é recalculado a cada nova doação e abate-se o que já foi recolhido (art. 155). A progressividade se aplica por faixas: a primeira faixa sobre a parte inicial da base e a faixa seguinte sobre o excedente (art. 156, § 2º).</p><p><strong>Fiscalização.</strong> A homologação do cálculo do ITCMD compete privativamente à administração tributária estadual, por servidores efetivos com competência para lançar (art. 160).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Falecido domiciliado em Alagoas deixou aplicações financeiras a herdeiro domiciliado em Pernambuco. O ITCMD é devido a Pernambuco, Estado do domicílio do sucessor.",
+     "certo": "Bem móvel causa mortis paga ao Estado do domicílio do falecido, Alagoas; o do sucessor só decide se o falecido morava no exterior.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "A renúncia à herança feita pelo herdeiro em favor de seu irmão é hipótese de não incidência do ITCMD.",
+     "certo": "Renúncia em favor de pessoa determinada é doação; só a renúncia pura, em favor do monte, não sofre incidência.",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Incide ITCMD causa mortis sobre o benefício de previdência complementar aberta pago a beneficiário estranho à família.",
+     "certo": "Não incide sobre benefício de previdência complementar, seguro ou pecúlio, ainda que o beneficiário seja terceiro (art. 150).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    },
+    {
+     "errado": "Na doação de ações de companhia aberta por doador domiciliado no Brasil, o ITCMD é devido ao Estado do domicílio do donatário.",
+     "certo": "É devido ao Estado do domicílio do doador (art. 159, II, a).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "lei-complementar-227-2026"
    ]
@@ -3104,12 +3318,84 @@
     "vigencia",
     "credito a apropriar"
    ],
-   "resumo": "O <strong>Regulamento do IBS</strong> foi divulgado pela <strong>Resolução CGIBS nº 6, de 30 de abril de 2026</strong>, editada pelo Conselho Superior do Comitê Gestor com base no art. 156-B, I, da CF, que dá ao CGIBS a competência para editar o <strong>regulamento único</strong> do imposto. Um só texto vale para todos os Estados, o DF e os Municípios: nenhum ente edita regulamento próprio de IBS. O Livro I trata das normas comuns ao IBS e à CBS: incidência, imunidades, fato gerador, local da operação, base, alíquotas, sujeição passiva, extinção dos débitos, pagamento indevido, ressarcimento, apuração, créditos, importação, exportação, cadastro e documentos fiscais. Depois vêm regimes aduaneiros especiais, Cesta Básica, regimes diferenciados e específicos, Zona Franca de Manaus, compras governamentais, consulta e harmonização. Cada artigo indica entre parênteses o dispositivo da LC 214/2025 que regulamenta. A <strong>Resolução CGIBS nº 13, de 22 de julho de 2026</strong>, mudou só o art. 617, que trata da vigência: o regulamento vale desde a publicação, mas o cadastro e a exigência de documento fiscal do art. 112 produzem efeitos a partir do 1º dia do quarto mês seguinte ao da publicação, um grupo de artigos só a partir de 1º/1/2027 e outro só a partir de 1º/1/2029.",
+   "para_entender": [
+    {
+     "texto": "<strong>Comitê Gestor do IBS:</strong> por que só ele edita o regulamento.",
+     "tema": "comite-gestor-do-ibs"
+    }
+   ],
+   "resumo": "Um <strong>regulamento</strong> é a norma que detalha como aplicar a lei. O do IBS é <strong>único</strong>: um só texto para todos os Estados, o DF e os Municípios, porque a CF dá ao Comitê Gestor a competência para editá-lo (art. 156-B, I). Nenhum ente edita regulamento próprio de IBS, e ele não passa por convênio do CONFAZ. O Regulamento foi divulgado pela <strong>Resolução CGIBS nº 6, de 30 de abril de 2026</strong>, do Conselho Superior do Comitê. Cada artigo indica entre parênteses o dispositivo da LC 214/2025 que regulamenta. A <strong>Resolução CGIBS nº 13, de 22 de julho de 2026</strong>, mudou só a vigência (art. 617). O que a LC 214 deixou para o Regulamento está na tabela.",
    "esquema": {
     "rotulo": "o que o regulamento fixa e a LC 214 deixou para ele",
     "html": "<table><thead><tr><th>Ponto</th><th>LC 214/2025</th><th>Regulamento do IBS</th></tr></thead><tbody><tr><td><strong>Prazo da apuração</strong></td><td>O regulamento fixa (art. 44)</td><td>Entrega até o último dia útil do mês seguinte ao período (art. 44, § 6º)</td></tr><tr><td><strong>Vencimento</strong></td><td>O regulamento fixa (art. 44)</td><td>Até o último dia útil do mês seguinte, pelo calendário do domicílio da matriz (art. 45)</td></tr><tr><td><strong>Apuração assistida</strong></td><td>O CGIBS e a RFB poderão apresentar (art. 46)</td><td>O CGIBS apresentará até o dia 20 (obrigados à DeRE) ou até o dia 15 (demais) do mês seguinte (art. 46)</td></tr><tr><td><strong>Pedido de ressarcimento</strong></td><td>Ao final do período de apuração (art. 39)</td><td>Até o último dia útil do mês seguinte, centralizado na matriz (arts. 39 e 42)</td></tr><tr><td><strong>Documentos fiscais</strong></td><td>Emissão obrigatória (art. 60)</td><td>Recepciona os DF-e existentes e institui NFAg, DeRE e NF-e ABI (arts. 113 e 114)</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Regulamento único",
+      "o_que_e": "Editado pelo Comitê Gestor do IBS, em nome de Estados, DF e Municípios (art. 156-B, I, da CF; art. 2º, I, da LC 227/2026), e válido em todo o país.",
+      "atencao": "Não é decreto de governador nem convênio do CONFAZ. Os entes só fixam a própria alíquota, por lei específica.",
+      "grupo": "O regulamento"
+     },
+     {
+      "nome": "Resolução CGIBS nº 6/2026",
+      "o_que_e": "Divulgou o Regulamento do IBS, de 30 de abril de 2026, editada pelo Conselho Superior do CGIBS.",
+      "grupo": "O regulamento"
+     },
+     {
+      "nome": "Estrutura",
+      "o_que_e": "O Livro I traz as normas comuns ao IBS e à CBS: incidência, imunidades, fato gerador, local da operação, base, alíquotas, sujeição passiva, extinção dos débitos, pagamento indevido, ressarcimento, apuração, créditos, importação, exportação, cadastro e documentos fiscais. Depois vêm regimes aduaneiros especiais, Cesta Básica, regimes diferenciados e específicos, Zona Franca de Manaus, compras governamentais, consulta e harmonização.",
+      "grupo": "O regulamento"
+     },
+     {
+      "nome": "Resolução CGIBS nº 13/2026",
+      "o_que_e": "De 22 de julho de 2026, deu nova redação só ao art. 617, que escalona a produção de efeitos.",
+      "atencao": "Não mexeu nas regras de ressarcimento nem ampliou prazos de apreciação.",
+      "grupo": "Vigência"
+     },
+     {
+      "nome": "Vigência escalonada (art. 617)",
+      "o_que_e": "Efeitos na publicação, exceto: cadastro (Capítulo I do Título II do Livro I) e exigência de documento fiscal do art. 112, a partir do 1º dia do quarto mês seguinte ao da publicação; arts. 245 a 250, 252 a 258, 515, 525 e 526, a partir de 1º/1/2027; arts. 517, 518, 520 a 522, 528, 529, 532 a 564 e 615, a partir de 1º/1/2029.",
+      "atencao": "As regras para as pessoas físicas do caput do art. 105 e de alíneas do seu § 3º, VI, valem a partir de 1º/1/2027.",
+      "grupo": "Vigência"
+     },
+     {
+      "nome": "Crédito a apropriar, apropriado e utilizado",
+      "o_que_e": "O Regulamento acrescentou três estágios ao rol do art. 3º da LC 214 (art. 2º, VI): a apropriar é a expectativa gerada por débito ainda não extinto; apropriado é o disponível para compensação ou ressarcimento, depois de cumpridos os requisitos, entre eles a extinção do débito da etapa anterior; utilizado é o já compensado ou ressarcido.",
+      "grupo": "Créditos e apuração"
+     },
+     {
+      "nome": "Apuração e vencimento",
+      "o_que_e": "A apuração é entregue até o último dia útil do mês seguinte ao período (art. 44, § 6º), e o saldo a recolher vence no mesmo dia, pelo calendário do domicílio do estabelecimento matriz (art. 45).",
+      "grupo": "Créditos e apuração"
+     },
+     {
+      "nome": "Apuração assistida",
+      "o_que_e": "O CGIBS a apresenta até o dia 20 do mês seguinte, para os obrigados à DeRE, ou até o dia 15, para os demais (art. 46).",
+      "grupo": "Créditos e apuração"
+     },
+     {
+      "nome": "Ressarcimento no Regulamento",
+      "o_que_e": "O pedido é feito até o último dia útil do mês seguinte e centralizado na matriz (arts. 39 e 42). Quem manifesta, até o último dia útil do período, a intenção de pedir ressarcimento não tem o saldo usado para compensar os débitos do período seguinte; sem a manifestação, o saldo é usado desde o primeiro dia do período seguinte (art. 39, §§ 4º a 7º).",
+      "grupo": "Créditos e apuração"
+     },
+     {
+      "nome": "Saída do regime regular",
+      "o_que_e": "O optante do Simples Nacional que recebeu ressarcimento de IBS no ano-calendário corrente ou no anterior não pode sair do regime regular (art. 41, § 5º).",
+      "atencao": "Não pode voltar ao Simples para o IBS a qualquer tempo.",
+      "grupo": "Créditos e apuração"
+     },
+     {
+      "nome": "Documentos fiscais",
+      "o_que_e": "O Regulamento recepciona os documentos fiscais eletrônicos existentes e institui NFAg, DeRE e NF-e ABI (arts. 113 e 114). Até 31/12/2032 continuam aplicáveis no IBS, no que não conflitar, os atos e documentações técnicas do CONFAZ, do CGNFS-e, do CGSN e da RFB (art. 151).",
+      "grupo": "Documentos fiscais"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "UM REGULAMENTO PARA TODO O PAÍS",
@@ -3129,8 +3415,28 @@
     "gabarito": "E",
     "explicacao": "Compete ao CGIBS, em nome de Estados, DF e Municípios, editar regulamento único e uniformizar a interpretação da legislação do IBS (art. 156-B, I, da CF; art. 2º, I, da LC 227/2026). O Regulamento foi divulgado pela Resolução CGIBS nº 6/2026."
    },
-   "aprofundamento": "<p><strong>Vigência escalonada (art. 617, com a redação da Resolução CGIBS 13/2026).</strong> Efeitos na publicação, exceto: o Capítulo I do Título II do Livro I (cadastro) e a exigência de emissão de documento fiscal do art. 112, a partir do 1º dia do quarto mês subsequente ao da publicação; os arts. 245 a 250, 252 a 258, 515, 525 e 526, a partir de 1º/1/2027; os arts. 517, 518, 520 a 522, 528, 529, 532 a 564 e 615, a partir de 1º/1/2029; e as regras para as pessoas físicas do caput do art. 105 e de alíneas do seu § 3º, VI, a partir de 1º/1/2027.</p><p><strong>Definições de crédito.</strong> O regulamento acrescentou ao rol do art. 3º da LC 214 três estágios de crédito: a apropriar, apropriado e utilizado (art. 2º, VI). O crédito só se torna apropriado depois de cumpridos os requisitos, entre eles a extinção do débito da etapa anterior.</p><p><strong>Ressarcimento no regulamento.</strong> O contribuinte pode manifestar, até o último dia útil do período de apuração, a intenção de pedir ressarcimento; feito isso, o saldo a recuperar não é usado para compensar os débitos do período seguinte. Sem essa manifestação, o saldo é usado para compensação desde o primeiro dia do período seguinte (art. 39, §§ 4º a 7º).</p><p><strong>Saída do regime regular.</strong> O optante do Simples Nacional que tenha recebido ressarcimento de IBS no ano-calendário corrente ou anterior não pode retirar-se do regime regular (art. 41, § 5º).</p><p><strong>Documentos fiscais.</strong> Até 31/12/2032 continuam aplicáveis no IBS os atos e documentações técnicas de documentos fiscais já editados pelo CONFAZ, pelo CGNFS-e, pelo CGSN e pela RFB, no que não conflitar (art. 151).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "O Regulamento do IBS foi aprovado por convênio celebrado no âmbito do CONFAZ, como os benefícios fiscais do ICMS.",
+     "certo": "Foi editado pelo Comitê Gestor e divulgado pela Resolução CGIBS nº 6/2026 (art. 156-B, I, da CF).",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    },
+    {
+     "errado": "O regulamento do IBS é editado por decreto de cada governador, para vigorar no respectivo Estado.",
+     "certo": "É regulamento único, editado pelo CGIBS, para todos os entes.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    },
+    {
+     "errado": "A Resolução CGIBS nº 13/2026 alterou as regras de ressarcimento do Regulamento do IBS, ampliando os prazos de apreciação.",
+     "certo": "Ela deu nova redação só ao art. 617, sobre a vigência.",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    },
+    {
+     "errado": "O optante do Simples Nacional que passou ao regime regular e recebeu ressarcimento no ano corrente pode voltar a recolher o IBS pelo Simples a qualquer tempo.",
+     "certo": "Não pode sair do regime regular se recebeu ressarcimento no ano-calendário corrente ou no anterior (art. 41, § 5º, do Regulamento).",
+     "fonte": "Questão do app sobre o Regulamento do IBS"
+    }
+   ],
    "relacionados": [
     "lei-complementar-227-2026",
     "apuracao-assistida-do-ibs-e-da-cbs",
@@ -3161,12 +3467,92 @@
     "difal",
     "venda nao presencial"
    ],
-   "resumo": "Pelo <strong>princípio do destino</strong>, o IBS é cobrado pelo <strong>somatório das alíquotas do Estado e do Município de destino</strong> da operação (art. 156-A, § 1º, VII, da CF), e a receita vai para os entes onde o bem ou o serviço é consumido. É a principal ruptura com o ICMS, que cobrava parte do imposto na origem e repartia o resto pelo diferencial de alíquotas, e com o ISS, em regra devido no local do estabelecimento prestador. Como a alíquota de quem produz não pesa mais sobre o comprador de outro Estado, a cobrança no destino tira o incentivo da guerra fiscal. O destino é o <strong>local da operação</strong> definido no art. 11 da LC 214/2025: para bem móvel material, o local da entrega ou disponibilização ao destinatário; para imóvel e serviços ligados a ele, o local do imóvel; para serviço prestado fisicamente sobre a pessoa, o local da prestação; para transporte de passageiros, o local de início; para transporte de carga, o local da entrega constante do documento fiscal; e, nos casos não listados, o domicílio principal do adquirente, em operação onerosa, ou do destinatário, em operação não onerosa. A mesma regra vale para a distribuição da receita: o CGIBS entrega o IBS ao ente de destino, conforme o art. 11 (art. 106, § 1º, II, da LC 227/2026). A CBS também usa o art. 11, mas a alíquota é uma só, federal.",
+   "para_entender": [
+    {
+     "texto": "<strong>Local da operação:</strong> o art. 11 da LC 214/2025, regra a regra.",
+     "tema": "incidencia-do-ibs-e-da-cbs"
+    },
+    {
+     "texto": "<strong>Alíquota do IBS:</strong> como se somam a do Estado e a do Município.",
+     "tema": "base-de-calculo-e-aliquotas-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Pelo <strong>princípio do destino</strong>, o IBS fica com os entes onde o bem ou o serviço é consumido, e não com os de onde ele sai. Por isso o imposto é cobrado pela soma das alíquotas do Estado e do Município de destino (art. 156-A, § 1º, VII, da CF). É a maior ruptura com o ICMS, que cobrava parte na <strong>origem</strong>, o Estado do vendedor, e com o ISS, em regra devido no local do prestador. Como a alíquota de quem produz não pesa mais sobre o comprador de outro Estado, acaba o incentivo da <strong>guerra fiscal</strong>, a disputa entre Estados por empresas à custa de benefícios. O destino é o <strong>local da operação</strong> do art. 11 da LC 214/2025, e as situações que mais caem estão na tabela. A mesma regra decide a distribuição da receita: o Comitê Gestor entrega o IBS ao ente de destino (art. 106, § 1º, II, da LC 227/2026). A CBS também usa o art. 11, mas tem alíquota única, federal.",
    "esquema": {
     "rotulo": "local da operação nas situações que mais caem (art. 11 da LC 214/2025)",
     "html": "<table><thead><tr><th>Operação</th><th>Local (destino)</th><th>Troca comum</th></tr></thead><tbody><tr><td><strong>Venda não presencial de bem móvel</strong></td><td>Destino final indicado pelo adquirente ao fornecedor ou ao transportador</td><td>Não é o estabelecimento do vendedor</td></tr><tr><td><strong>Veículo automotor</strong></td><td>Domicílio principal do destinatário</td><td>Não é o local da concessionária</td></tr><tr><td><strong>Exploração de via (pedágio)</strong></td><td>Cada Município e Estado, proporcionalmente à extensão da via</td><td>Não é o local da praça de cobrança</td></tr><tr><td><strong>Telefonia fixa por cabo</strong></td><td>Local de instalação do terminal</td><td>Não é o domicílio da operadora</td></tr><tr><td><strong>Imóvel em mais de um Município</strong></td><td>Município com a maior parte da área</td><td>Não há rateio da operação</td></tr><tr><td><strong>Leilão judicial ou bem sem nota</strong></td><td>Local onde se encontra o bem móvel</td><td>Não é o domicílio do arrematante</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Destino x origem",
+      "o_que_e": "Destino: a receita vai ao ente onde está o consumidor. Origem: ao ente de onde sai o bem ou o serviço.",
+      "atencao": "O ICMS mesclava os dois, com o diferencial de alíquotas; o IBS é todo no destino.",
+      "grupo": "O princípio"
+     },
+     {
+      "nome": "Alíquota aplicada",
+      "o_que_e": "Soma da alíquota do Estado de destino com a do Município de destino; se o destino for o DF, a alíquota do DF (art. 15 da LC 214/2025).",
+      "grupo": "O princípio"
+     },
+     {
+      "nome": "Distribuição da receita",
+      "o_que_e": "O destino também orienta a distribuição: para compor a receita de cada ente, a LC 227/2026 considera como destino o local da operação do art. 11 da LC 214/2025 (art. 106, § 1º, II).",
+      "grupo": "O princípio"
+     },
+     {
+      "nome": "Bem móvel material",
+      "o_que_e": "Local da entrega ou disponibilização ao destinatário; na venda não presencial, o destino final indicado pelo adquirente ao fornecedor ou ao transportador (art. 11, § 1º, I).",
+      "atencao": "Não é o estabelecimento do vendedor, mesmo com transporte do vendedor.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Imóvel e serviços sobre ele",
+      "o_que_e": "Local do imóvel; se o imóvel está em mais de um Município, o da maior parte da área.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Serviço sobre a pessoa e eventos",
+      "o_que_e": "Serviço prestado fisicamente sobre a pessoa: local da prestação. Organização de feiras, congressos e espetáculos: local do evento. Serviço físico sobre bem móvel e serviços portuários: local da prestação.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Transporte",
+      "o_que_e": "De passageiros: local de início. De carga: local da entrega constante do documento fiscal.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Pedágio e telefonia",
+      "o_que_e": "Exploração de via: cada Estado e Município, na proporção da extensão da via. Telefonia fixa por cabo: local de instalação do terminal.",
+      "atencao": "Não é a praça de cobrança nem o domicílio da operadora.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Veículo e bem sem nota",
+      "o_que_e": "Veículo automotor: domicílio principal do destinatário. Leilão judicial e bem sem documento idôneo: onde está o bem.",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Regra residual (LC 227/2026)",
+      "o_que_e": "Operação onerosa: domicílio principal do adquirente residente no País ou, se ele não residir no País, o do destinatário residente no País. Operação não onerosa: domicílio principal do destinatário (art. 11, X).",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Domicílio principal",
+      "o_que_e": "O do cadastro com identificação única. Para pessoa física, o local da habitação permanente ou, se não houver ou houver mais de uma, o local onde suas relações econômicas forem mais relevantes (art. 11, § 3º, I, a).",
+      "grupo": "Local da operação"
+     },
+     {
+      "nome": "Importação",
+      "o_que_e": "Para fixar as alíquotas estadual e municipal do IBS na importação de bem material, o destino é o local da importação, que corresponde ao local da entrega ao destinatário final (arts. 68 e 71, § 1º).",
+      "grupo": "Local da operação"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "CONSUMIU AQUI, ARRECADOU AQUI",
@@ -3186,8 +3572,23 @@
     "gabarito": "E",
     "explicacao": "Em operação não presencial, considera-se local da entrega o destino final indicado pelo adquirente ao fornecedor, quando o transporte é de responsabilidade do fornecedor, ou ao terceiro transportador, quando é do adquirente (art. 11, § 1º, I, da LC 214/2025). O IBS vai para o Estado e o Município desse destino."
    },
-   "aprofundamento": "<p><strong>Domicílio principal.</strong> É o constante do cadastro com identificação única. Para pessoa física, o local da habitação permanente ou, se não houver ou houver mais de uma, o local onde suas relações econômicas forem mais relevantes (art. 11, § 3º, I, a).</p><p><strong>Residual após a LC 227/2026.</strong> Na operação onerosa, vale o domicílio principal do adquirente residente no País ou, se o adquirente não residir no País, o do destinatário residente no País; na não onerosa, o domicílio principal do destinatário (art. 11, X).</p><p><strong>Eventos e serviços sobre bens.</strong> Serviço de organização de feiras, congressos e espetáculos: local do evento. Serviço prestado fisicamente sobre bem móvel e serviços portuários: local da prestação.</p><p><strong>Importação.</strong> Para fixar as alíquotas estadual e municipal do IBS na importação de bem material, o destino é o local da importação, que corresponde ao local da entrega ao destinatário final (arts. 68 e 71, § 1º, da LC 214/2025).</p><p><strong>Alíquota aplicada.</strong> A alíquota do IBS é a soma da alíquota do Estado de destino com a do Município de destino; se o destino for o DF, aplica-se a alíquota do DF (art. 15 da LC 214/2025).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Na venda pela internet de mercadoria entregue pela transportadora do vendedor, o local da operação é o do estabelecimento remetente.",
+     "certo": "É o destino final indicado pelo adquirente ao fornecedor (art. 11, § 1º, I).",
+     "fonte": "Questão do app sobre o art. 11 da LC 214/2025"
+    },
+    {
+     "errado": "Na exploração de rodovia com pedágio, o IBS vai todo ao Município onde fica a praça de cobrança.",
+     "certo": "Vai a cada Estado e Município, na proporção da extensão da via.",
+     "fonte": "Questão do app sobre o art. 11 da LC 214/2025"
+    },
+    {
+     "errado": "A distribuição do IBS segue a origem, porque o Comitê Gestor entrega a receita ao ente do fornecedor.",
+     "certo": "Segue o destino: o local da operação do art. 11 (art. 106, § 1º, II, da LC 227/2026).",
+     "fonte": "Questão do app sobre a LC 227/2026"
+    }
+   ],
    "relacionados": [
     "incidencia-do-ibs-e-da-cbs",
     "distribuicao-do-produto-da-arrecadacao-do-ibs",
@@ -3220,12 +3621,106 @@
     "multa de mora",
     "selic"
    ],
-   "resumo": "Os débitos de IBS e CBS se extinguem por <strong>compensação com créditos</strong>, <strong>pagamento pelo contribuinte</strong>, <strong>split payment</strong>, <strong>recolhimento pelo adquirente</strong> ou <strong>pagamento pelo responsável</strong> (art. 27). Se, no fim do mês, os créditos superarem os débitos, sobra <strong>saldo a recuperar</strong>, que o contribuinte pode compensar depois ou pedir em dinheiro: é o <strong>ressarcimento</strong>, integral ou parcial (art. 39). O pedido é apreciado pelo CGIBS, quanto ao IBS, e pela RFB, quanto à CBS, em até 30 dias para quem está em programa de conformidade e atende ao art. 40, em até 60 dias para os demais pedidos do art. 40 e em até 180 dias nos outros casos. Sem resposta no prazo, o crédito é ressarcido nos 15 dias seguintes. O art. 40 abrange créditos de bens e serviços do ativo imobilizado e pedidos de até 150% da média mensal da diferença entre créditos e débitos dos 24 meses anteriores. Pagamento indevido é outra coisa: a <strong>restituição</strong> só cabe se a operação não gerou crédito para o adquirente e se for observado o art. 166 do CTN, ou seja, se o fornecedor provar que assumiu o encargo do tributo ou que está autorizado por quem o assumiu (art. 38). Pagamento em atraso leva multa de mora de 0,33% por dia, limitada a 20%, e juros pela Selic (art. 29).",
+   "para_entender": [
+    {
+     "texto": "<strong>Modalidades de extinção:</strong> o split payment e o recolhimento pelo adquirente.",
+     "tema": "split-payment"
+    },
+    {
+     "texto": "<strong>Saldo a recuperar:</strong> de onde vem o crédito que sobra no mês.",
+     "tema": "nao-cumulatividade-do-ibs-e-da-cbs"
+    }
+   ],
+   "resumo": "Os débitos de IBS e CBS se <strong>extinguem</strong>, isto é, deixam de existir, por cinco modalidades: compensação com créditos, pagamento pelo contribuinte, split payment, recolhimento pelo adquirente e pagamento pelo responsável (art. 27 da LC 214/2025). Se, no fim do mês, os créditos superam os débitos, sobra <strong>saldo a recuperar</strong>. O contribuinte pode usá-lo depois ou pedir o dinheiro de volta: é o <strong>ressarcimento</strong>, integral ou parcial, apreciado pelo Comitê Gestor no IBS e pela Receita Federal na CBS (art. 39). Os prazos estão na tabela. <strong>Restituição</strong> é outra coisa: devolve tributo pago indevidamente ou a maior e exige que a operação não tenha gerado crédito ao adquirente e que se observe o art. 166 do CTN, a prova de quem suportou o encargo (art. 38). O atraso no pagamento gera multa de mora e juros (art. 29).",
    "esquema": {
     "rotulo": "prazos do ressarcimento (art. 39 da LC 214/2025)",
     "html": "<table><thead><tr><th>Situação</th><th>Prazo para apreciar</th><th>O que acontece depois</th></tr></thead><tbody><tr><td><strong>Programa de conformidade e hipótese do art. 40</strong></td><td>Até 30 dias</td><td rowspan=\"3\">Sem resposta, ressarcimento nos 15 dias seguintes</td></tr><tr><td><strong>Hipótese do art. 40 (ativo imobilizado ou até 150% da média)</strong></td><td>Até 60 dias</td></tr><tr><td><strong>Demais pedidos</strong></td><td>Até 180 dias</td></tr><tr><td><strong>Fiscalização iniciada antes do fim do prazo</strong></td><td>Prazos suspensos; fiscalização de até 360 dias</td><td>Créditos homologados pagos em até 15 dias do fim da fiscalização; se ela passar de 360 dias, ressarcimento nos 15 dias seguintes</td></tr><tr><td><strong>Opção pelo Simples, pelo MEI ou por não ser contribuinte</strong></td><td>Prazos suspensos por até 5 anos</td><td>Sem a correção pela Selic do § 9º</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Modalidades de extinção",
+      "o_que_e": "Compensação com créditos apropriados; pagamento pelo contribuinte; split payment; recolhimento pelo adquirente; pagamento pelo responsável (art. 27).",
+      "grupo": "Extinção dos débitos"
+     },
+     {
+      "nome": "Imputação da extinção",
+      "o_que_e": "Na compensação e no pagamento pelo contribuinte, a extinção é imputada aos débitos do período na ordem cronológica do documento fiscal; no split payment e no recolhimento pelo adquirente, vinculada à operação; no pagamento pelo responsável, à operação a que se refere ou, se não houver uma, pela ordem cronológica (art. 27, parágrafo único).",
+      "grupo": "Extinção dos débitos"
+     },
+     {
+      "nome": "Pagamento a maior por causa do split payment",
+      "o_que_e": "Se o contribuinte paga mais que o saldo a recolher porque parte dos débitos foi extinta no split payment, pelo adquirente ou pelo responsável depois do fim do período, o excedente lhe é devolvido em até 3 dias úteis (art. 29, § 1º, com a redação da LC 227/2026).",
+      "grupo": "Extinção dos débitos"
+     },
+     {
+      "nome": "Multa e juros de mora",
+      "o_que_e": "Multa de 0,33% por dia de atraso, contada do dia seguinte ao vencimento, limitada a 20%; juros pela Selic do mês seguinte ao vencimento até o anterior ao pagamento, e 1% no mês do pagamento (art. 29, §§ 2º a 4º).",
+      "atencao": "O teto é 20%, e não 10%. Também incidem juros sobre multas punitivas inadimplidas (§ 5º, incluído pela LC 227/2026).",
+      "grupo": "Extinção dos débitos"
+     },
+     {
+      "nome": "Saldo a recuperar",
+      "o_que_e": "Excesso de créditos sobre débitos no período de apuração; o contribuinte pode pedir o ressarcimento integral ou parcial, e o que não pedir fica como crédito para compensar ou ressarcir depois (art. 39, caput e § 1º).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Prazo de 30 dias",
+      "o_que_e": "Para contribuinte em programa de conformidade do Comitê Gestor e da Receita Federal cujo pedido se enquadre no art. 40 (art. 39, § 3º, I).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Prazo de 60 dias",
+      "o_que_e": "Para os demais pedidos que se enquadram no art. 40 (art. 39, § 3º, II).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Prazo de 180 dias",
+      "o_que_e": "Nos demais casos (art. 39, § 3º, III).",
+      "atencao": "Sem manifestação em qualquer dos prazos, o crédito é ressarcido nos 15 dias seguintes (§ 4º).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Hipóteses do art. 40",
+      "o_que_e": "Créditos de bens e serviços incorporados ao ativo imobilizado e pedidos de até 150% do valor médio mensal da diferença entre créditos apropriados e débitos, calculado sobre os 24 meses anteriores, sem os créditos do imobilizado (art. 40, I e II, e § 1º).",
+      "atencao": "O limite é 150%, e não 200%. Também contam como imobilizado os bens que concessionárias de serviço público registram como ativo de contrato, intangível ou financeiro (§ 4º).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Fiscalização do pedido",
+      "o_que_e": "Iniciada antes do fim do prazo, suspende os prazos; os créditos homologados são pagos em até 15 dias da conclusão; a fiscalização não pode passar de 360 dias, e, se passar, o crédito é ressarcido nos 15 dias seguintes (art. 39, §§ 5º a 7º).",
+      "atencao": "O ressarcimento não impede fiscalização posterior dos créditos (§ 8º).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Correção do ressarcimento",
+      "o_que_e": "Pago a partir do primeiro dia do segundo mês seguinte ao do pedido, o valor é corrigido pela Selic acumulada desde então, mais 1% no mês do pagamento (art. 39, § 9º). Se o fisco descumpre os prazos, a correção é diária pela Selic desde o primeiro dia do prazo de apreciação (§ 11).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Opção pelo Simples, MEI ou não contribuinte",
+      "o_que_e": "Suspende os prazos de apreciação por até 5 anos, sem a correção do § 9º (art. 39, § 10).",
+      "atencao": "Não vale para o optante do Simples que recolhe IBS e CBS pelo regime regular (art. 41, § 3º).",
+      "grupo": "Ressarcimento"
+     },
+     {
+      "nome": "Restituição de pagamento indevido",
+      "o_que_e": "Só é devida se a operação não gerou crédito para o adquirente e se foi observado o art. 166 do CTN (art. 38).",
+      "atencao": "As condições são cumulativas: se o adquirente se creditou, o valor já foi recuperado na cadeia.",
+      "grupo": "Restituição"
+     },
+     {
+      "nome": "No Regulamento e na LC 227/2026",
+      "o_que_e": "O pedido de ressarcimento é feito até o último dia útil do mês seguinte ao do saldo, centralizado na matriz, e o valor pedido fica bloqueado para compensação até a decisão; o já compensado não pode ser ressarcido (arts. 39 e 42, § 1º, do Regulamento do IBS).",
+      "atencao": "O indeferimento de restituição ou de ressarcimento é objeto do processo administrativo do IBS e pode seguir o rito sumário (arts. 54, III, e 76, II, a, da LC 227/2026).",
+      "grupo": "Restituição"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "30, 60 E 180",
@@ -3245,8 +3740,33 @@
     "gabarito": "E",
     "explicacao": "A restituição exige as duas condições do art. 38 da LC 214/2025: a operação não pode ter gerado crédito para o adquirente e deve ser observado o art. 166 do CTN. Se o adquirente se creditou, o valor já foi recuperado na cadeia e não há restituição ao fornecedor."
    },
-   "aprofundamento": "<p><strong>Imputação da extinção.</strong> Na compensação e no pagamento pelo contribuinte, a extinção é imputada aos débitos do período na ordem cronológica do documento fiscal; no split payment e no recolhimento pelo adquirente, fica vinculada à respectiva operação; no pagamento por responsável, à operação a que se refere (art. 27, parágrafo único).</p><p><strong>Pagamento a maior por causa do split payment.</strong> Se o contribuinte paga mais do que o saldo a recolher porque parte dos débitos foi extinta no split payment ou pelo adquirente depois do fim do período, o excedente é devolvido em até 3 dias úteis (art. 29, § 1º).</p><p><strong>Correção do ressarcimento.</strong> Se o pagamento ocorrer a partir do primeiro dia do segundo mês seguinte ao do pedido, o valor é corrigido pela Selic acumulada desde então, mais 1% no mês do pagamento (art. 39, § 9º). Se o fisco descumprir os prazos, a correção é diária pela Selic desde o primeiro dia do prazo de apreciação (§ 11).</p><p><strong>Média dos 24 meses.</strong> No cálculo dos 150% do art. 40, II, excluem-se os créditos do ativo imobilizado; também contam como imobilizado os bens que concessionárias de serviço público registram como ativo de contrato, intangível ou financeiro (art. 40, §§ 1º e 4º).</p><p><strong>No regulamento.</strong> O pedido de ressarcimento é feito até o último dia útil do mês seguinte ao do saldo, é centralizado na matriz, e o valor pedido fica bloqueado para compensação até a decisão; valor já compensado não pode ser ressarcido (arts. 39 e 42, § 1º, do Regulamento do IBS). O indeferimento de pedido de restituição ou de ressarcimento é objeto do processo administrativo tributário do IBS e pode seguir o rito sumário (arts. 54, III, e 76, II, a, da LC 227/2026).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Pago IBS a maior em operação que gerou crédito ao adquirente, o fornecedor tem direito à restituição se provar que suportou o encargo.",
+     "certo": "As condições do art. 38 são cumulativas: a operação não pode ter gerado crédito e deve ser observado o art. 166 do CTN.",
+     "fonte": "Questão do app sobre o art. 38 da LC 214/2025"
+    },
+    {
+     "errado": "Os prazos reduzidos de ressarcimento valem para pedidos de até 200% da média mensal da diferença entre créditos e débitos.",
+     "certo": "O limite é de 150% (art. 40, II).",
+     "fonte": "Questão do app sobre o art. 40 da LC 214/2025"
+    },
+    {
+     "errado": "Iniciada a fiscalização do pedido de ressarcimento, os prazos ficam suspensos, e o procedimento pode durar até 180 dias.",
+     "certo": "O procedimento pode durar até 360 dias (art. 39, § 6º).",
+     "fonte": "Questão do app sobre o art. 39 da LC 214/2025"
+    },
+    {
+     "errado": "O pedido do contribuinte em programa de conformidade que atende ao art. 40 é apreciado em até 60 dias.",
+     "certo": "Em até 30 dias; os 60 dias são dos demais pedidos do art. 40 (art. 39, § 3º, I e II).",
+     "fonte": "Questão do app sobre o art. 39 da LC 214/2025"
+    },
+    {
+     "errado": "A multa de mora do IBS e da CBS é de 0,33% por dia de atraso, limitada a 10%.",
+     "certo": "É limitada a 20% (art. 29, § 4º).",
+     "fonte": "Questão do app sobre o art. 29 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "split-payment",
     "apuracao-assistida-do-ibs-e-da-cbs",
@@ -3278,12 +3798,95 @@
     "180 dias",
     "consumo no pais"
    ],
-   "resumo": "O IBS e a CBS incidem sobre a <strong>importação</strong> de bens ou serviços feita por qualquer pessoa, ainda que não inscrita no regime regular, <strong>qualquer que seja a finalidade</strong> (art. 63). Importação de serviço ou de bem imaterial é o fornecimento por residente no exterior <strong>cujo consumo ocorra no País</strong>, ainda que o fornecimento seja feito lá fora (art. 64). Para bens materiais, o fato gerador é a <strong>entrada</strong> no território nacional, e o momento de cálculo é a <strong>liberação</strong> dos bens submetidos a despacho para consumo (arts. 65 e 67). A base é o <strong>valor aduaneiro</strong> acrescido do Imposto de Importação, do Imposto Seletivo, da taxa do Siscomex, do AFRMM, da Cide-Combustíveis, de direitos antidumping, compensatórios e salvaguardas; IPI, ICMS e ISS não entram (art. 69). As alíquotas são as mesmas da aquisição do bem no País, e o tributo deve ser pago <strong>até a entrega</strong> dos bens, sendo extinto exclusivamente por recolhimento (art. 76). As <strong>exportações</strong> são imunes, com manutenção dos créditos das aquisições (art. 79). Exportação de serviço é o fornecimento a residente no exterior com consumo no exterior (art. 80). Se a exportação de bem não for comprovada em 180 dias da emissão do documento fiscal, considera-se ocorrida operação onerosa no mercado interno, com os acréscimos (art. 81-A).",
+   "para_entender": [
+    {
+     "texto": "<strong>Princípio do destino:</strong> por que a importação paga e a exportação não.",
+     "tema": "principio-do-destino"
+    }
+   ],
+   "resumo": "Pelo destino, quem consome no Brasil paga o IBS e a CBS, e quem consome lá fora não. Por isso o IBS e a CBS incidem sobre a <strong>importação</strong> de bens e serviços feita por qualquer pessoa, inscrita ou não, qualquer que seja a finalidade (art. 63 da LC 214/2025), e as <strong>exportações</strong> são <strong>imunes</strong>, com o exportador mantendo os créditos das suas compras (art. 79). No serviço e no bem imaterial, o que decide é onde ocorre o <strong>consumo</strong>, e não onde o serviço é prestado (arts. 64 e 80). No bem material importado, o <strong>fato gerador</strong> é a entrada no país; o cálculo e o pagamento seguem as regras da tabela. A <strong>empresa comercial exportadora</strong>, a que compra no mercado interno para revender ao exterior, pode comprar com o pagamento suspenso, se cumprir requisitos (art. 82).",
    "esquema": {
     "rotulo": "importação de bem material (arts. 65 a 76)",
     "html": "<table><thead><tr><th>Elemento</th><th>Regra</th><th>Troca comum</th></tr></thead><tbody><tr><td><strong>Fato gerador</strong></td><td>Entrada de bem estrangeiro no território nacional</td><td>Não é o registro da declaração de importação</td></tr><tr><td><strong>Momento de cálculo</strong></td><td>Liberação no despacho para consumo; na bagagem, no extravio e sem declaração, o lançamento</td><td>Admissão temporária para utilização econômica também gera na liberação</td></tr><tr><td><strong>Local</strong></td><td>Entrega ao destinatário final; mercadoria entrepostada: domicílio do adquirente; extravio: onde foi caracterizado</td><td>Não é o porto ou aeroporto de desembaraço</td></tr><tr><td><strong>Contribuinte</strong></td><td>Importador e adquirente de mercadoria entrepostada</td><td>Na conta e ordem, o adquirente dos bens no exterior</td></tr><tr><td><strong>Responsável</strong></td><td>Transportador (extravio até a descarga) e depositário (extravio depois da descarga)</td><td>Responsabilidade excluída por caso fortuito ou força maior</td></tr><tr><td><strong>Pagamento</strong></td><td>Até a entrega dos bens; pode ser antecipado para o registro da declaração</td><td>Não se extingue por compensação: só por recolhimento</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Importação de bens e serviços",
+      "o_que_e": "Incide sobre a importação feita por pessoa física ou jurídica ou entidade sem personalidade jurídica, ainda que não inscrita nem obrigada a se inscrever no regime regular, qualquer que seja a finalidade (art. 63).",
+      "atencao": "Quem está no regime regular credita o IBS e a CBS efetivamente pagos (art. 78).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Importação de serviço ou bem imaterial",
+      "o_que_e": "Fornecimento por residente no exterior cujo consumo ocorra no País, ainda que feito no exterior (art. 64).",
+      "atencao": "Há consumo no País quando o local da operação está no País pelos incisos II a IX do art. 11 ou, nos demais casos, quando o adquirente ou o destinatário reside no País (§ 1º, com a redação da LC 227/2026). Também é importação o serviço executado no País ou ligado a bem situado no País (§ 2º). Com consumo nos dois lugares, só a parcela consumida no País (§ 3º).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Fato gerador e momento de cálculo",
+      "o_que_e": "Fato gerador: entrada de bem estrangeiro no território nacional (art. 65). Para o cálculo, considera-se ocorrido na liberação dos bens submetidos a despacho para consumo (art. 67, I).",
+      "atencao": "Não é o registro da declaração de importação. Presumem-se entrados os bens extraviados apurados pela aduana, salvo malas e remessas postais (art. 65, parágrafo único).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Não são fatos geradores",
+      "o_que_e": "Retorno de bem enviado em consignação e não vendido, bem devolvido por defeito técnico, bem com perdimento antes da liberação e bem devolvido ao exterior antes do registro da declaração, entre outros (art. 66).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Base de cálculo",
+      "o_que_e": "Valor aduaneiro mais Imposto de Importação, Imposto Seletivo, taxa do Siscomex, AFRMM, Cide-Combustíveis, direitos antidumping e compensatórios, salvaguardas e outros tributos até a liberação (art. 69).",
+      "atencao": "IPI, ICMS e ISS não entram (§ 2º). A moeda estrangeira é convertida pela taxa do Imposto de Importação, sem ajuste por variação cambial (art. 70).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Contribuintes e responsáveis",
+      "o_que_e": "Contribuinte: o importador e o adquirente de mercadoria entrepostada; na conta e ordem, o adquirente no exterior. Responsáveis: o transportador, por extravio até a descarga, e o depositário, depois dela, salvo caso fortuito ou força maior (arts. 72 e 73).",
+      "atencao": "São solidários quem registra em seu nome a declaração de bens de outra pessoa, o encomendante predeterminado, o representante do transportador estrangeiro e o operador de transporte multimodal (art. 74).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Pagamento na importação",
+      "o_que_e": "Até a entrega dos bens submetidos a despacho para consumo, ainda que antes da liberação; o sujeito passivo pode antecipar para o registro da declaração (art. 76, caput e § 1º).",
+      "atencao": "O pagamento é condição para a entrega, e o débito se extingue exclusivamente por recolhimento, sem compensação com créditos (§§ 4º e 5º).",
+      "grupo": "Importação"
+     },
+     {
+      "nome": "Imunidade da exportação",
+      "o_que_e": "Exportações de bens e de serviços para o exterior são imunes, asseguradas ao exportador a apropriação e a utilização dos créditos das suas aquisições (art. 79).",
+      "grupo": "Exportação"
+     },
+     {
+      "nome": "Exportação de serviço",
+      "o_que_e": "Fornecimento para residente ou domiciliado no exterior com consumo no exterior (art. 80). Consumo no exterior é aquele cujo local da operação não está no País pelos incisos II a IX do art. 11 ou, nos demais casos, em que adquirente e destinatário residem no exterior (§ 1º-A, incluído pela LC 227/2026).",
+      "atencao": "Não basta o tomador estar no exterior se o consumo ocorre no País.",
+      "grupo": "Exportação"
+     },
+     {
+      "nome": "Serviços ligados à exportação de bens",
+      "o_que_e": "Também são exportação, quando vinculados direta e exclusivamente à exportação de bens materiais: comissão de agente, seguro de cargas, despacho aduaneiro, armazenagem, transporte e manuseio de cargas, entre outros (art. 80, § 1º, II).",
+      "atencao": "Quem não promove a exportação dos bens recolhe os tributos com juros e multa de mora, como responsável (§ 4º).",
+      "grupo": "Exportação"
+     },
+     {
+      "nome": "Prova da exportação",
+      "o_que_e": "Sem a comprovação em 180 dias da emissão do documento fiscal eletrônico, considera-se ocorrida operação onerosa, e o IBS e a CBS são exigidos do exportador, com os acréscimos (art. 81-A, § 1º, incluído pela LC 227/2026).",
+      "atencao": "O prazo é de 180 dias, e o regulamento pode ampliá-lo (§ 2º).",
+      "grupo": "Exportação"
+     },
+     {
+      "nome": "Empresa comercial exportadora",
+      "o_que_e": "Compra com suspensão do pagamento se, cumulativamente, for certificada no Programa OEA, tiver patrimônio líquido de pelo menos o maior valor entre R$ 1 milhão e uma vez o total dos tributos suspensos, optar pelo DTE, mantiver escrituração contábil digital e estiver em situação fiscal regular (art. 82).",
+      "atencao": "A suspensão vira alíquota zero com a exportação efetiva; a exportadora paga os tributos suspensos se não exportar em 180 dias, redestinar ao mercado interno, industrializar os bens ou se houver destruição, extravio, furto ou roubo antes da exportação (§§ 4º e 5º).",
+      "grupo": "Exportação"
+     }
+    ]
+   },
    "lei": [],
+   "juris": [],
+   "detalhes": [],
    "macetes": [
     {
      "sigla": "IMPORTOU, PAGA, SEJA QUEM FOR",
@@ -3303,8 +3906,33 @@
     "gabarito": "E",
     "explicacao": "O IBS e a CBS devidos na importação são extintos exclusivamente mediante recolhimento pelo sujeito passivo, e o pagamento é condição para a entrega dos bens (art. 76, §§ 4º e 5º, da LC 214/2025). O crédito vem depois: o importador do regime regular apropria o que pagou (art. 78)."
    },
-   "aprofundamento": "<p><strong>Consumo no País (redação da LC 227/2026).</strong> Há consumo no País quando o local da operação está no País pelas regras dos incisos II a IX do art. 11 ou, nos demais casos, quando o adquirente ou o destinatário reside no País (art. 64, § 1º). Também é importação a prestação por residente no exterior executada no País ou relacionada a bem situado no País (§ 2º).</p><p><strong>Não são fatos geradores.</strong> O retorno de bem enviado em consignação e não vendido, o devolvido por defeito técnico, o objeto de perdimento antes da liberação e o devolvido ao exterior antes do registro da declaração de importação, entre outros (art. 66).</p><p><strong>Responsáveis solidários.</strong> Quem registra em seu nome a declaração de importação de bens adquiridos por outra pessoa, o encomendante predeterminado, o representante no País do transportador estrangeiro e o operador de transporte multimodal (art. 74).</p><p><strong>Câmbio.</strong> Os valores em moeda estrangeira são convertidos pela taxa usada para o Imposto de Importação, sem ajuste posterior por variação cambial (art. 70).</p><p><strong>Serviços ligados à exportação de bens.</strong> São também exportação, quando vinculados direta e exclusivamente à exportação de bens materiais, a comissão de agente, o seguro de cargas, o despacho aduaneiro, a armazenagem e o transporte de cargas, entre outros (art. 80, § 1º, II).</p><p><strong>Comercial exportadora.</strong> A suspensão do pagamento no fornecimento com fim específico de exportação exige certificação no Programa OEA, patrimônio líquido não inferior ao maior valor entre R$ 1 milhão e uma vez o total dos tributos suspensos, opção pelo DTE, escrituração contábil digital e regularidade fiscal (art. 82). A suspensão vira alíquota zero com a exportação efetiva; a exportadora paga os tributos suspensos se não exportar em 180 dias, se redestinar ao mercado interno, se industrializar os bens ou se houver destruição, extravio, furto ou roubo antes da exportação (§§ 4º e 5º).</p>",
-   "aprofundamento_rotulo": "pontos finos que a banca explora",
+   "pegadinhas": [
+    {
+     "errado": "Os débitos de IBS e de CBS na importação podem ser extintos por compensação com créditos acumulados em operações internas.",
+     "certo": "São extintos exclusivamente por recolhimento, condição para a entrega dos bens (art. 76, §§ 4º e 5º); o crédito vem depois (art. 78).",
+     "fonte": "Questão do app sobre o art. 76 da LC 214/2025"
+    },
+    {
+     "errado": "O fato gerador do IBS e da CBS na importação de bens materiais é o registro da declaração de importação.",
+     "certo": "É a entrada no território nacional (art. 65); o registro da declaração é só o momento a que o pagamento pode ser antecipado (art. 76, § 1º).",
+     "fonte": "Questão do app sobre o art. 65 da LC 214/2025"
+    },
+    {
+     "errado": "Considera-se exportação de serviço o fornecimento a residente no exterior, ainda que o consumo ocorra no País.",
+     "certo": "Exige consumo no exterior (art. 80).",
+     "fonte": "Questão do app sobre o art. 80 da LC 214/2025"
+    },
+    {
+     "errado": "Sem a comprovação da exportação em 90 dias da emissão do documento fiscal, considera-se ocorrida operação onerosa no mercado interno.",
+     "certo": "O prazo é de 180 dias (art. 81-A, § 1º).",
+     "fonte": "Questão do app sobre o art. 81-A da LC 214/2025"
+    },
+    {
+     "errado": "IPI, ICMS e ISS integram a base de cálculo do IBS e da CBS na importação.",
+     "certo": "Não integram (art. 69, § 2º).",
+     "fonte": "Questão do app sobre o art. 69 da LC 214/2025"
+    }
+   ],
    "relacionados": [
     "principio-do-destino",
     "incidencia-do-ibs-e-da-cbs",
