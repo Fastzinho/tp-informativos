@@ -4,7 +4,7 @@
  "disciplina": "Legislação Penal Especial",
  "ordem": 5,
  "descricao": "Legislação Penal Especial organizada por tema: Lei de Drogas, Estatuto do Desarmamento, Maria da Penha, abuso de autoridade, tortura, hediondos, organizações criminosas, contravenções e mais, com resumo, esquemas, lei seca atualizada, jurisprudência e pegadinhas de banca. Gratuito.",
- "revisado_em": "2026-11-12",
+ "revisado_em": "2026-11-27",
  "revisado_rotulo": "Lei conferida e itens de prova checados no gabarito oficial",
  "fontes": "<p>Texto próprio do Tchau Pobreza, conferido com o texto atualizado das leis na Câmara dos Deputados e no Planalto, inclusive as alterações de 2026 (Lei 15.358, que criou o crime de domínio social estruturado, e a nova redação do art. 112 da LEP). Os itens de prova citados vêm dos cadernos oficiais e dos gabaritos definitivos do Cebraspe. Questões antigas foram ajustadas ao texto atual quando a lei mudou.</p>",
  "temas": [
@@ -7230,35 +7230,185 @@
     "sumula 492",
     "trafico"
    ],
-   "resumo": "Adolescente apreendido em flagrante de ato infracional com <strong>violência ou grave ameaça</strong> exige <strong>auto de apreensão</strong>; nos demais casos, basta o boletim de ocorrência circunstanciada (art. 173). Comparecendo pai, mãe ou responsável, a regra é a <strong>liberação imediata</strong>, sob termo de compromisso, salvo se a gravidade do ato e sua repercussão social exigirem a internação (art. 174). O adolescente civilmente identificado só passa por identificação compulsória para confrontação, havendo dúvida fundada (art. 109). A internação provisória dura no máximo <strong>45 dias</strong> (art. 108). A internação definitiva não tem prazo determinado, é reavaliada a cada 6 meses, nunca passa de <strong>3 anos</strong> e termina obrigatoriamente aos 21 anos de idade (art. 121). Ela só cabe em ato com violência ou grave ameaça, reiteração de infrações graves ou descumprimento reiterado de medida anterior (art. 122).",
+   "para_entender": [
+    {
+     "texto": "<strong>Apreensão ilegal:</strong> privar o adolescente de liberdade sem flagrante de ato infracional nem ordem escrita do juiz é crime do próprio ECA (art. 230).",
+     "tema": "outros-crimes-do-eca"
+    }
+   ],
+   "resumo": "<strong>Ato infracional</strong> é a conduta descrita como crime ou contravenção penal quando praticada por criança ou adolescente. O adolescente que o pratica não recebe pena, mas <strong>medida socioeducativa</strong>, e a mais grave delas é a <strong>internação</strong>, que o priva de liberdade numa entidade. Na delegacia, o caminho depende do modo do ato: quando há violência ou grave ameaça, a polícia formaliza a apreensão por auto próprio (art. 173); nos demais flagrantes, um registro mais simples pode substituí-lo. A presença de um dos pais ou do responsável leva, em regra, à liberação na hora, com o compromisso de apresentar o adolescente ao Ministério Público (art. 174). Quem já tem identidade civil não passa por identificação policial forçada, salvo dúvida fundada (art. 109). A <strong>internação provisória</strong>, decretada antes da sentença, tem prazo curto e exige decisão fundamentada (art. 108). A definitiva é excepcional e breve: só cabe nas três hipóteses do art. 122 e nunca quando outra medida for adequada. Ela não tem prazo fixo, mas tem reavaliação periódica e limites de duração e de idade (art. 121). O esquema reúne os números.",
    "esquema": {
     "rotulo": "os números da internação",
     "html": "<table><thead><tr><th>Regra</th><th>Número</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Internação provisória</strong></td><td>Até 45 dias</td><td>Art. 108</td></tr><tr><td><strong>Reavaliação da internação</strong></td><td>No máximo a cada 6 meses</td><td>Art. 121, § 2º</td></tr><tr><td><strong>Teto da internação</strong></td><td>3 anos</td><td>Art. 121, § 3º</td></tr><tr><td><strong>Liberação compulsória</strong></td><td>21 anos de idade</td><td>Art. 121, § 5º</td></tr><tr><td><strong>Internação por descumprimento de medida</strong></td><td>Até 3 meses</td><td>Art. 122, § 1º</td></tr></tbody></table>"
    },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Auto de apreensão",
+      "o_que_e": "Documento que formaliza a apreensão do adolescente no flagrante com violência ou grave ameaça, com oitiva das testemunhas e do próprio adolescente.",
+      "atencao": "No roubo, que tem grave ameaça, não cabe trocar o auto pelo boletim.",
+      "grupo": "Na delegacia"
+     },
+     {
+      "nome": "Boletim de ocorrência circunstanciada",
+      "o_que_e": "Registro simplificado que pode substituir o auto de apreensão quando o ato não envolve violência ou grave ameaça.",
+      "grupo": "Na delegacia"
+     },
+     {
+      "nome": "Exceção à liberação",
+      "o_que_e": "O adolescente segue internado, mesmo com os pais presentes, se o ato for grave e tiver repercussão social que o exija, para sua segurança pessoal ou para a ordem pública.",
+      "grupo": "Na delegacia"
+     },
+     {
+      "nome": "Provisória",
+      "o_que_e": "Antes da sentença, por no máximo 45 dias, sem prorrogação. A decisão aponta indícios suficientes de autoria e materialidade e a necessidade imperiosa da medida.",
+      "atencao": "A gravidade abstrata do ato não basta.",
+      "grupo": "Internação"
+     },
+     {
+      "nome": "Sem prazo, com teto",
+      "o_que_e": "A internação definitiva não tem duração fixada na sentença, mas nunca passa do teto legal, nem mesmo em ato equiparado a crime hediondo.",
+      "grupo": "Internação"
+     },
+     {
+      "nome": "Depois do teto",
+      "o_que_e": "Esgotado o limite, o adolescente é liberado ou passa à semiliberdade ou à liberdade assistida; não há prorrogação.",
+      "grupo": "Internação"
+     },
+     {
+      "nome": "Atividades externas",
+      "o_que_e": "Dependem só da equipe técnica da entidade, salvo ordem judicial em contrário, que o juiz pode rever a qualquer tempo.",
+      "grupo": "Internação"
+     },
+     {
+      "nome": "Desinternação",
+      "o_que_e": "Sempre depende de autorização judicial, ouvido o Ministério Público; o diretor da entidade não a decide sozinho.",
+      "grupo": "Internação"
+     },
+     {
+      "nome": "Tráfico de drogas",
+      "o_que_e": "O ato análogo ao tráfico não leva, por si só, à internação; o juiz verifica se há uma das hipóteses do art. 122.",
+      "grupo": "Internação"
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
    "lei": [
     {
-     "texto": "Art. 173. Em caso de flagrante de ato infracional cometido mediante violência ou grave ameaça a pessoa, a autoridade policial, sem prejuízo do disposto nos arts. 106, parágrafo único e 107, deverá:\n\nI - lavrar auto de apreensão, ouvidos as testemunhas e o adolescente;\n\nII - apreender o produto e os instrumentos da infração;\n\nIII - requisitar os exames ou perícias necessários à comprovação da materialidade e autoria da infração.\n\nParágrafo único. Nas demais hipóteses de flagrante, a lavratura do auto poderá ser substituída por boletim de ocorrência circunstanciada.",
+     "norma": "n8069-1990",
+     "artigos": [
+      "Art. 108.",
+      "Art. 109.",
+      "Art. 121.",
+      "Art. 122.",
+      "Art. 173.",
+      "Art. 174."
+     ],
+     "ref": "arts. 108, 109, 121, 122, 173 e 174 da Lei 8.069/1990 (ECA)",
+     "regras": [
+      "<strong>Art. 108.</strong> A internação antes da sentença pode ser determinada pelo prazo máximo de quarenta e cinco dias. A decisão deve ser fundamentada, com base em indícios suficientes de autoria e materialidade, demonstrada a necessidade imperiosa da medida (parágrafo único).",
+      "<strong>Art. 109.</strong> O adolescente civilmente identificado não é submetido a identificação compulsória pelos órgãos policiais, de proteção e judiciais, salvo para confrontação, havendo dúvida fundada.",
+      "<strong>Art. 121, caput e §§ 1º a 3º.</strong> A internação é medida privativa da liberdade, sujeita aos princípios de brevidade, excepcionalidade e respeito à condição peculiar de pessoa em desenvolvimento. Permitem-se atividades externas a critério da equipe técnica da entidade, salvo determinação judicial em contrário (§ 1º). A medida não tem prazo determinado e é reavaliada, em decisão fundamentada, no máximo a cada seis meses (§ 2º), e o período máximo não excede três anos (§ 3º).",
+      "<strong>Art. 121, §§ 4º a 7º.</strong> Atingido esse limite, o adolescente é liberado ou colocado em semiliberdade ou liberdade assistida (§ 4º). A liberação é compulsória aos vinte e um anos (§ 5º). A desinternação é sempre precedida de autorização judicial, ouvido o Ministério Público (§ 6º). O juiz pode rever a qualquer tempo a determinação sobre atividades externas (§ 7º, da Lei 12.594/2012).",
+      "<strong>Art. 122.</strong> A internação só cabe por ato infracional cometido com grave ameaça ou violência a pessoa (I), por reiteração no cometimento de outras infrações graves (II) ou por descumprimento reiterado e injustificável de medida anteriormente imposta (III). Na hipótese do inciso III, o prazo não passa de 3 meses e a internação é decretada pelo juiz após o devido processo legal (§ 1º). Em nenhuma hipótese se aplica a internação havendo outra medida adequada (§ 2º).",
+      "<strong>Art. 173.</strong> No flagrante de ato infracional com violência ou grave ameaça a pessoa, a autoridade policial, sem prejuízo dos arts. 106, parágrafo único, e 107, lavra auto de apreensão, ouvidos as testemunhas e o adolescente (I), apreende o produto e os instrumentos da infração (II) e requisita os exames ou perícias necessários à prova da materialidade e da autoria (III). Nas demais hipóteses de flagrante, o auto pode ser substituído por boletim de ocorrência circunstanciada (parágrafo único).",
+      "<strong>Art. 174.</strong> Comparecendo qualquer dos pais ou o responsável, o adolescente é prontamente liberado pela autoridade policial, sob termo de compromisso e responsabilidade de apresentá-lo ao Ministério Público no mesmo dia ou, sendo impossível, no primeiro dia útil imediato. A exceção é quando a gravidade do ato e sua repercussão social exigem que ele permaneça internado para garantia de sua segurança pessoal ou manutenção da ordem pública."
+     ],
+     "literalidades": [
+      {
+       "trecho": "pode ser determinada pelo prazo máximo de quarenta e cinco dias",
+       "marcas": [
+        "quarenta e cinco dias"
+       ],
+       "afirmacao": "A internação antes da sentença pode ser determinada pelo prazo máximo de 60 dias.",
+       "gabarito": "E",
+       "porque": "O prazo máximo é de 45 dias (art. 108)."
+      },
+      {
+       "trecho": "salvo para efeito de confrontação, havendo dúvida fundada",
+       "marcas": [
+        "dúvida fundada"
+       ],
+       "afirmacao": "O adolescente civilmente identificado pode ser submetido a identificação compulsória para efeito de confrontação, havendo dúvida fundada.",
+       "gabarito": "C",
+       "porque": "É a exceção do art. 109."
+      },
+      {
+       "trecho": "brevidade, excepcionalidade e respeito à condição peculiar de pessoa em desenvolvimento",
+       "marcas": [
+        "brevidade, excepcionalidade"
+       ],
+       "afirmacao": "A internação sujeita-se aos princípios de brevidade, excepcionalidade e respeito à condição peculiar de pessoa em desenvolvimento.",
+       "gabarito": "C",
+       "porque": "É o caput do art. 121."
+      },
+      {
+       "trecho": "no máximo a cada seis meses",
+       "marcas": [
+        "seis meses"
+       ],
+       "afirmacao": "A manutenção da internação deve ser reavaliada, mediante decisão fundamentada, no máximo a cada ano.",
+       "gabarito": "E",
+       "porque": "A reavaliação é no máximo a cada seis meses (art. 121, § 2º)."
+      },
+      {
+       "trecho": "A liberação será compulsória aos vinte e um anos de idade.",
+       "marcas": [
+        "vinte e um anos"
+       ],
+       "afirmacao": "A liberação do adolescente internado é compulsória aos 21 anos de idade.",
+       "gabarito": "C",
+       "porque": "É o art. 121, § 5º."
+      },
+      {
+       "trecho": "não poderá ser superior a 3 (três) meses",
+       "marcas": [
+        "3 (três) meses"
+       ],
+       "afirmacao": "A internação por descumprimento reiterado e injustificável de medida anterior pode durar até 6 meses.",
+       "gabarito": "E",
+       "porque": "O prazo não pode passar de 3 meses (art. 122, § 1º)."
+      },
+      {
+       "trecho": "Em nenhuma hipótese será aplicada a internação, havendo outra medida adequada.",
+       "marcas": [
+        "Em nenhuma hipótese"
+       ],
+       "afirmacao": "Sendo grave o ato infracional, a internação pode ser aplicada ainda que exista outra medida adequada.",
+       "gabarito": "E",
+       "porque": "Havendo outra medida adequada, a internação não se aplica em nenhuma hipótese (art. 122, § 2º)."
+      },
+      {
+       "trecho": "no mesmo dia ou, sendo impossível, no primeiro dia útil imediato",
+       "marcas": [
+        "primeiro dia útil imediato"
+       ],
+       "afirmacao": "Liberado aos pais, o adolescente deve ser apresentado ao Ministério Público no mesmo dia ou, sendo impossível, no primeiro dia útil imediato.",
+       "gabarito": "C",
+       "porque": "É o art. 174."
+      }
+     ],
+     "conferido": {
+      "Art. 108.": "6aa27c134505",
+      "Art. 109.": "f0fe4f524e6d",
+      "Art. 121.": "2e5407f7a24d",
+      "Art. 122.": "0d1fa1182268",
+      "Art. 173.": "7b3d075caf39",
+      "Art. 174.": "ff8450bb08e8"
+     },
      "fonte": "Lei 8.069/1990 (Estatuto da Criança e do Adolescente), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html",
-     "norma": "n8069-1990"
-    },
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
     {
-     "texto": "Art. 174. Comparecendo qualquer dos pais ou responsável, o adolescente será prontamente liberado pela autoridade policial, sob termo de compromisso e responsabilidade de sua apresentação ao representante do Ministério Público, no mesmo dia ou, sendo impossível, no primeiro dia útil imediato, exceto quando, pela gravidade do ato infracional e sua repercussão social, deva o adolescente permanecer sob internação para garantia de sua segurança pessoal ou manutenção da ordem pública.",
-     "fonte": "Lei 8.069/1990 (Estatuto da Criança e do Adolescente), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html",
-     "norma": "n8069-1990"
-    },
-    {
-     "texto": "Art. 121. A internação constitui medida privativa da liberdade, sujeita aos princípios de brevidade, excepcionalidade e respeito à condição peculiar de pessoa em desenvolvimento.\n\n(...)\n\n§ 2º A medida não comporta prazo determinado, devendo sua manutenção ser reavaliada, mediante decisão fundamentada, no máximo a cada seis meses.\n\n§ 3º Em nenhuma hipótese o período máximo de internação excederá a três anos.\n\n(...)\n\n§ 5º A liberação será compulsória aos vinte e um anos de idade.\n\n(...)",
-     "fonte": "Lei 8.069/1990 (Estatuto da Criança e do Adolescente), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html",
-     "norma": "n8069-1990"
-    },
-    {
-     "texto": "Art. 122. A medida de internação só poderá ser aplicada quando:\n\nI - tratar-se de ato infracional cometido mediante grave ameaça ou violência a pessoa;\n\nII - por reiteração no cometimento de outras infrações graves;\n\nIII - por descumprimento reiterado e injustificável da medida anteriormente imposta.\n\n§ 1º O prazo de internação na hipótese do inciso III deste artigo não poderá ser superior a 3 (três) meses, devendo ser decretada judicialmente após o devido processo legal.\n\n§ 2º Em nenhuma hipótese será aplicada a internação, havendo outra medida adequada.",
-     "fonte": "Lei 8.069/1990 (Estatuto da Criança e do Adolescente), texto atualizado da Câmara dos Deputados",
-     "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8069-13-julho-1990-372211-normaatualizada-pl.html",
-     "norma": "n8069-1990"
+     "quem": "STJ · Súmula 492",
+     "texto": "O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição de medida socioeducativa de internação do adolescente."
     }
    ],
    "macetes": [
@@ -7271,22 +7421,51 @@
      "texto": "Com violência ou grave ameaça, o delegado lavra auto de apreensão; sem elas, pode usar o boletim de ocorrência circunstanciada."
     }
    ],
-   "juris": [
-    {
-     "quem": "STJ · Súmula 492",
-     "texto": "O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição de medida socioeducativa de internação do adolescente."
-    }
-   ],
    "pegadinha": {
     "afirmacao": "Adolescente apreendido em flagrante de ato infracional análogo ao roubo deve ter lavrado boletim de ocorrência circunstanciado e, na presença dos pais, ser imediatamente posto em liberdade após assinar termo de compromisso.",
     "gabarito": "E",
     "explicacao": "Ato com violência ou grave ameaça exige auto de apreensão (art. 173, I); o boletim circunstanciado só substitui o auto nas demais hipóteses (parágrafo único) (Cebraspe, Delegado PF 2018)."
    },
-   "aprofundamento_rotulo": "exceções que caem em prova",
-   "aprofundamento": "<p><strong>Tráfico não interna sozinho.</strong> O adolescente apreendido por ato análogo ao tráfico não fica necessariamente sujeito à internação (Súmula 492 do STJ; Cebraspe, Delegado PF 2018).</p><p><strong>Internação sem prazo, com teto.</strong> A internação definitiva não comporta prazo determinado, mas nunca excede três anos. Já a internação provisória não pode ser prorrogada: são 45 dias, no máximo (Cebraspe, Delegado PC-MA 2018).</p>",
+   "pegadinhas": [
+    {
+     "errado": "A internação do adolescente antes da sentença pode ser determinada pelo prazo máximo de 90 dias, prorrogável por igual período.",
+     "certo": "O prazo máximo é de 45 dias, sem prorrogação (art. 108).",
+     "fonte": "Questões do app sobre a internação provisória"
+    },
+    {
+     "errado": "Nos atos infracionais equiparados a crimes hediondos, a internação pode ultrapassar cinco anos, desde que reavaliada a cada seis meses.",
+     "certo": "Em nenhuma hipótese a internação passa de três anos (art. 121, § 3º).",
+     "fonte": "Questões do app sobre o teto da internação"
+    },
+    {
+     "errado": "A liberação do adolescente internado é compulsória aos dezoito anos de idade.",
+     "certo": "É compulsória aos 21 anos (art. 121, § 5º).",
+     "fonte": "Questões do app sobre a liberação compulsória"
+    },
+    {
+     "errado": "A internação pode ser aplicada por reiteração no cometimento de quaisquer infrações, ainda que leves.",
+     "certo": "A reiteração tem de ser de outras infrações graves (art. 122, II).",
+     "fonte": "Questões do app sobre as hipóteses de internação"
+    },
+    {
+     "errado": "Concluída a reavaliação técnica, o diretor da entidade pode desinternar o adolescente e comunicar o juiz em seguida.",
+     "certo": "A desinternação depende sempre de autorização judicial, ouvido o Ministério Público (art. 121, § 6º).",
+     "fonte": "Questões do app sobre a desinternação"
+    },
+    {
+     "errado": "A internação é medida privativa da liberdade sujeita aos princípios da proporcionalidade e da retributividade.",
+     "certo": "Os princípios são brevidade, excepcionalidade e respeito à condição peculiar de pessoa em desenvolvimento (art. 121).",
+     "fonte": "Questões do app sobre os princípios da internação"
+    }
+   ],
    "relacionados": [
     "crimes-do-eca",
-    "lei-henry-borel"
+    "outros-crimes-do-eca",
+    "lei-henry-borel",
+    "ato-infracional-remissao-e-internacao-provisoria",
+    "medidas-socioeducativas",
+    "sinase-e-reavaliacao-das-medidas",
+    "apuracao-de-ato-infracional"
    ]
   },
   {
