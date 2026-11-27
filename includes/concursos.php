@@ -17,7 +17,7 @@
  *
  * Indexação: só com pelo menos tpcon_min_index() dos tópicos com questões no app (antes, noindex,follow e fora do
  * sitemap), contra página rasa (política de scaled content).
- * Vocabulário (Jonatan 17/11): "questões", nunca "Certo/Errado"; sem "grátis" nos textos.
+ * Vocabulário: "questões", nunca "Certo/Errado". "Gratuito" liberado nas páginas de concurso (Jonatan 27/11: site gratuito permanente).
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -637,7 +637,7 @@ function tpcon_pagina( $id ) {
 	$h .= '<p class="tpcon-nada" hidden>Nenhum tópico com esse filtro.</p></div></section>';
 
 	// Chamada final + fontes
-	$h .= '<section class="tpcon-final"><div><h2>Estude por este edital no app</h2><p>O plano de ' . esc_html( $c['sigla'] . ' ' . $c['cargo'] ) . ' já monta o cronograma pelo peso de cada disciplina, traz a lei seca de cada tópico e marca as revisões do dia.</p></div><a class="tpcon-btn" data-tpcon-cta="final" href="' . esc_url( tpcon_link_app( $c, 'final' ) ) . '">Começar o plano</a></section>';
+	$h .= '<section class="tpcon-final"><div><h2>Estude por este edital no app</h2><p>O plano de ' . esc_html( $c['sigla'] . ' ' . $c['cargo'] ) . ' é gratuito: já monta o cronograma pelo peso de cada disciplina, traz a lei seca de cada tópico e marca as revisões do dia.</p></div><a class="tpcon-btn" data-tpcon-cta="final" href="' . esc_url( tpcon_link_app( $c, 'final' ) ) . '">Começar o plano</a></section>';
 	$gerado = ! empty( $plano['gerado'] ) ? tpi_data_br( substr( $plano['gerado'], 0, 10 ) ) : '';
 	$h .= '<footer class="tpcon-fontes"><p><b>Fonte:</b> ' . esc_html( $c['edital'] ) . ( ! empty( $c['retificacao'] ) ? '. ' . esc_html( $c['retificacao'] ) : '' ) . ' Conteúdo programático transcrito do edital oficial; a divisão em tópicos é do Tchau Pobreza.</p>'
 		. ( $gerado ? '<p>Questões e pesos contados pelo app em ' . esc_html( $gerado ) . '. Esta página não é afiliada à banca nem ao órgão.</p>' : '' ) . '</footer>';
