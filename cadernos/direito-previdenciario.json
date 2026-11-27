@@ -2339,6 +2339,2253 @@
     "beneficio-de-prestacao-continuada-bpc",
     "assistencia-social-na-constituicao-e-na-loas"
    ]
+  },
+  {
+   "slug": "segurados-obrigatorios-do-regime-geral",
+   "titulo": "Segurados obrigatórios do Regime Geral: empregado, doméstico, contribuinte individual, avulso e segurado especial; servidor com regime próprio",
+   "grupo": "Segurados do Regime Geral",
+   "base": "Arts. 11 e 12 da Lei 8.213/1991; arts. 12 e 13 da Lei 8.212/1991",
+   "tax": [
+    "previdenciario.segurados-obrigatorios",
+    "previdenciario.segurado-empregado-domestico",
+    "previdenciario.segurado-estagiario",
+    "previdenciario.excluidos-rgps"
+   ],
+   "dispositivos": [
+    "n8213-1991-art-11",
+    "n8213-1991-art-12",
+    "n8212-1991-art-12",
+    "n8212-1991-art-13"
+   ],
+   "conceitos": [
+    "segurado obrigatório",
+    "segurado empregado",
+    "empregado doméstico",
+    "contribuinte individual",
+    "trabalhador avulso",
+    "segurado especial",
+    "regime de economia familiar",
+    "módulos fiscais",
+    "limite de 120 pessoas por dia",
+    "outra fonte de rendimento do segurado especial",
+    "exclusão da categoria de segurado especial",
+    "filiação por atividade concomitante",
+    "aposentado que volta a trabalhar",
+    "dirigente sindical",
+    "cargo em comissão",
+    "mandato eletivo",
+    "servidor e militar com regime próprio"
+   ],
+   "palavras": [
+    "segurados obrigatorios",
+    "art 11",
+    "art 12",
+    "art 13",
+    "lei 8213",
+    "lei 8212",
+    "empregado",
+    "diretor empregado",
+    "trabalho temporario",
+    "sucursal no exterior",
+    "missao diplomatica",
+    "reparticao consular",
+    "organismo internacional",
+    "cargo em comissao",
+    "mandato eletivo",
+    "empregado domestico",
+    "natureza continua",
+    "ambito residencial",
+    "sem fins lucrativos",
+    "contribuinte individual",
+    "quatro modulos fiscais",
+    "garimpo",
+    "garimpeiro",
+    "ministro de confissao religiosa",
+    "sindico",
+    "socio gerente",
+    "diretor nao empregado",
+    "eventual",
+    "por conta propria",
+    "trabalhador avulso",
+    "segurado especial",
+    "economia familiar",
+    "pescador artesanal",
+    "seringueiro",
+    "extrativista",
+    "filho maior de dezesseis anos",
+    "participacao ativa",
+    "cento e vinte pessoas por dia",
+    "parceria",
+    "meacao",
+    "comodato",
+    "turismo rural",
+    "cento e vinte dias",
+    "hospedagem",
+    "cooperativa",
+    "vereador",
+    "artesanato",
+    "atividade artistica",
+    "servicos ambientais",
+    "exclusao do segurado especial",
+    "microempresa",
+    "concomitante",
+    "aposentado que volta",
+    "dirigente sindical",
+    "ministro de estado",
+    "secretario",
+    "servidor efetivo",
+    "militar",
+    "regime proprio",
+    "requisitado",
+    "estagiario",
+    "facultativo"
+   ],
+   "resumo": "Segurado obrigatório é a pessoa física que exerce atividade remunerada abrangida pelo Regime Geral. A filiação decorre da própria atividade, sem depender de vontade. As Leis 8.212 (art. 12) e 8.213 (art. 11) trazem a mesma lista, com cinco categorias: <strong>empregado</strong>, <strong>empregado doméstico</strong>, <strong>contribuinte individual</strong>, <strong>trabalhador avulso</strong> e <strong>segurado especial</strong>. A prova cobra os limites de cada categoria. Doméstico só existe em atividade sem fins lucrativos para pessoa ou família. O produtor rural é segurado especial até 4 módulos fiscais e sem empregados permanentes. Garimpeiro e síndico remunerado são contribuintes individuais. O segurado especial tem um regime próprio de exceções: o que não descaracteriza a condição, as outras rendas admitidas e as hipóteses de exclusão. O servidor efetivo e o militar ficam fora do Regime Geral <strong>só se tiverem regime próprio</strong>; o ocupante só de cargo em comissão é empregado do Regime Geral.",
+   "esquema": {
+    "rotulo": "as cinco categorias",
+    "html": "<table><thead><tr><th>Categoria</th><th>Quem é</th><th>Exemplos que a prova usa</th></tr></thead><tbody><tr><td><strong>Empregado</strong></td><td>Presta serviço não eventual a empresa, com subordinação e remuneração</td><td>Diretor empregado, temporário, contratado no Brasil para sucursal no exterior, comissionado sem vínculo efetivo, exercente de mandato sem regime próprio</td></tr><tr><td><strong>Empregado doméstico</strong></td><td>Presta serviço contínuo a pessoa ou família, no âmbito residencial, em atividade sem fins lucrativos</td><td>Caseiro de sítio de lazer; não a cozinheira que produz para o comércio da família</td></tr><tr><td><strong>Contribuinte individual</strong></td><td>Trabalha por conta própria ou presta serviço eventual sem vínculo</td><td>Produtor rural acima de 4 módulos ou com empregados, garimpeiro, ministro religioso, sócio remunerado, síndico remunerado, autônomo</td></tr><tr><td><strong>Trabalhador avulso</strong></td><td>Presta serviço a diversas empresas, sem vínculo empregatício, nos serviços definidos no regulamento</td><td>Trabalhador portuário avulso</td></tr><tr><td><strong>Segurado especial</strong></td><td>Produtor rural até 4 módulos, seringueiro ou extrativista, pescador artesanal, individualmente ou em economia familiar, e a família que trabalha com ele</td><td>Cônjuge e filho maior de 16 anos com participação ativa</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Regime de economia familiar",
+      "o_que_e": "Atividade em que o trabalho dos membros da família é indispensável à subsistência e ao desenvolvimento do núcleo, em mútua dependência e colaboração, sem empregados permanentes.",
+      "atencao": "Admite auxílio eventual de terceiros."
+     },
+     {
+      "nome": "Módulo fiscal",
+      "o_que_e": "Unidade de área rural fixada por município; o segurado especial explora até 4 módulos fiscais."
+     },
+     {
+      "nome": "Limite de contratação do segurado especial",
+      "o_que_e": "O grupo familiar pode contratar empregados por prazo determinado ou trabalhador eventual até 120 pessoas por dia no ano civil.",
+      "atencao": "Não se conta o período de afastamento por auxílio-doença."
+     },
+     {
+      "nome": "Filiação múltipla",
+      "o_que_e": "Quem exerce ao mesmo tempo mais de uma atividade abrangida pelo Regime Geral é filiado obrigatoriamente em relação a cada uma."
+     },
+     {
+      "nome": "Excluído do Regime Geral",
+      "o_que_e": "Servidor civil efetivo ou militar amparado por regime próprio.",
+      "atencao": "Se exercer também atividade privada, é segurado obrigatório por ela."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 11.",
+      "Art. 12."
+     ],
+     "ref": "arts. 11 e 12 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 11, caput e I.</strong> São segurados obrigatórios as pessoas físicas enumeradas. Como empregado: quem presta serviço urbano ou rural a empresa, não eventual, subordinado e remunerado, inclusive o diretor empregado (a); o contratado por empresa de trabalho temporário para substituição de pessoal ou acréscimo extraordinário de serviços (b); o brasileiro ou estrangeiro domiciliado e contratado no Brasil para sucursal ou agência de empresa nacional no exterior (c); quem presta serviço no Brasil a missão diplomática ou repartição consular estrangeira, excluídos o não brasileiro sem residência permanente e o brasileiro amparado pela previdência do país da missão (d); o brasileiro civil que trabalha para a União no exterior em organismos oficiais brasileiros ou internacionais, salvo se segurado no país do domicílio (e); o domiciliado e contratado no Brasil para empresa no exterior controlada por empresa brasileira de capital nacional (f); o ocupante de cargo em comissão sem vínculo efetivo com a União, autarquias e fundações federais (g); o exercente de mandato eletivo federal, estadual ou municipal não vinculado a regime próprio (h e j); o empregado de organismo oficial internacional ou estrangeiro no Brasil, salvo se coberto por regime próprio (i).",
+      "<strong>Art. 11, II, V e VI.</strong> Empregado doméstico é quem presta serviço contínuo a pessoa ou família, no âmbito residencial, em atividades sem fins lucrativos (II). Contribuinte individual: o produtor rural pessoa física em área acima de 4 módulos fiscais, ou até 4 módulos ou na pesca com empregados ou prepostos, ou nos casos dos §§ 9º e 10 (V, a); quem explora garimpo, com ou sem empregados (b); o ministro de confissão religiosa e o membro de instituto de vida consagrada, congregação ou ordem religiosa (c); o brasileiro civil que trabalha no exterior para organismo internacional de que o Brasil é membro, salvo se coberto por regime próprio (e); o titular de firma individual, o diretor não empregado, o membro de conselho de administração de S.A., os sócios solidário, de indústria, gerente e cotista remunerados pelo trabalho, o associado eleito para direção de cooperativa ou associação e o síndico ou administrador condominial eleito, desde que remunerados (f); quem presta serviço eventual a uma ou mais empresas sem relação de emprego (g); quem exerce por conta própria atividade econômica urbana (h). Trabalhador avulso presta, a diversas empresas, sem vínculo, serviço urbano ou rural definido no regulamento (VI). Os incisos III e IV e a alínea d do inciso V foram revogados.",
+      "<strong>Art. 11, VII, e §§ 1º e 6º.</strong> Segurado especial é a pessoa física residente no imóvel rural ou em aglomerado próximo que, individualmente ou em economia familiar, ainda que com auxílio eventual de terceiros, seja produtor (proprietário, usufrutuário, possuidor, assentado, parceiro, meeiro, comodatário ou arrendatário) em atividade agropecuária de até 4 módulos fiscais ou como seringueiro ou extrativista vegetal que faça disso seu principal meio de vida (a, 1 e 2); pescador artesanal ou assemelhado, com a pesca como profissão habitual ou principal meio de vida (b); ou cônjuge, companheiro e filho maior de 16 anos ou equiparado que comprovadamente trabalhem com o grupo familiar (c). Economia familiar: veja as figuras (§ 1º). Cônjuge, companheiro e filhos precisam ter participação ativa nas atividades rurais (§ 6º).",
+      "<strong>Art. 11, §§ 2º a 5º.</strong> Quem exerce mais de uma atividade remunerada sujeita ao Regime Geral é filiado em relação a cada uma (§ 2º). O aposentado do Regime Geral que exerce ou volta a exercer atividade abrangida é segurado obrigatório por ela e contribui na forma da Lei 8.212 (§ 3º). O dirigente sindical mantém, durante o mandato, o enquadramento de antes da investidura (§ 4º). A regra do cargo em comissão (I, g) vale para Ministro de Estado e secretários estaduais, distritais e municipais sem vínculo efetivo (§ 5º).",
+      "<strong>Art. 11, §§ 7º e 8º.</strong> O grupo familiar pode contratar empregados por prazo determinado ou trabalhador eventual até 120 pessoas por dia no ano civil, sem contar o afastamento por auxílio-doença (§ 7º). Não descaracteriza o segurado especial: outorgar, por contrato escrito de parceria, meação ou comodato, até 50% de imóvel de até 4 módulos, se ambos continuarem na atividade (I); explorar turismo rural, inclusive hospedagem, por até 120 dias por ano (II); participar de previdência complementar de entidade classista rural (III); ser ou ter na família beneficiário de programa assistencial oficial (IV); usar beneficiamento ou industrialização artesanal (V); associar-se a cooperativa ligada à atividade rural, exceto cooperativa de trabalho (VI, a; a alínea b foi vetada); a incidência de IPI sobre o produto da atividade em sociedade permitida (VII).",
+      "<strong>Art. 11, § 9º.</strong> Não é segurado especial o membro do grupo que tiver outra fonte de rendimento, salvo: pensão por morte, auxílio-acidente ou auxílio-reclusão até o menor benefício de prestação continuada (I); benefício de previdência complementar classista (II); atividade remunerada por até 120 dias no ano civil (III); mandato de dirigente sindical rural (IV); mandato de vereador no município da atividade rural e atividade sem dedicação exclusiva derivada de mandato em cooperativa ligada à atividade rural, exceto de trabalho (V, a e b, 1; o item 2 foi vetado); parceria ou meação nos termos do § 8º, I (VI); artesanato com matéria-prima do grupo, com renda até o menor benefício (VII); atividade artística abaixo desse valor (VIII).",
+      "<strong>Art. 11, §§ 10 a 12.</strong> O segurado especial é excluído da categoria a partir do primeiro dia do mês em que deixar de cumprir os requisitos ou exceder os limites do § 8º, I (I, a), enquadrar-se em outra categoria obrigatória, salvo as ressalvas dos §§ 9º e 12 (I, b), tornar-se segurado de outro regime (I, c) ou participar de sociedade fora dos limites do § 12 (I, d); e a partir do primeiro dia do mês seguinte quando o grupo exceder os limites de contratação de terceiros (II, a), de dias de atividade remunerada (II, b) ou de dias de hospedagem (II, c). O cônjuge ou companheiro que participa da atividade do produtor contribuinte individual também é contribuinte individual (§ 11). Não exclui da categoria a participação em microempresa de objeto agrícola, agroindustrial ou agroturístico composta só de segurados especiais e sediada no mesmo município ou em município limítrofe (§ 12). O § 13 foi revogado.",
+      "<strong>Art. 12.</strong> O servidor civil efetivo e o militar da União, dos Estados, do DF e dos Municípios, e de suas autarquias e fundações, são excluídos do Regime Geral desde que amparados por regime próprio. Se exercerem ao mesmo tempo atividade abrangida pelo Regime Geral, são segurados obrigatórios por ela (§ 1º). Requisitados para órgão cujo regime não permita a filiação, permanecem no regime de origem (§ 2º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "bem como o síndico ou administrador eleito para exercer atividade de direção condominial, desde que recebam remuneração",
+       "marcas": [
+        "desde que recebam remuneração"
+       ],
+       "afirmacao": "Carla foi eleita síndica do prédio onde mora e recebe remuneração mensal pela função. Ela é segurada obrigatória do Regime Geral como contribuinte individual.",
+       "gabarito": "C",
+       "porque": "O síndico ou administrador eleito para a direção condominial é contribuinte individual desde que remunerado (art. 11, V, f, da Lei 8.213)."
+      },
+      {
+       "trecho": "agropecuária em área de até 4 (quatro) módulos fiscais",
+       "marcas": [
+        "4 (quatro) módulos fiscais"
+       ],
+       "afirmacao": "É segurado especial o produtor rural que, em regime de economia familiar, explora atividade agropecuária em área de até 6 módulos fiscais.",
+       "gabarito": "E",
+       "porque": "O limite é de 4 módulos fiscais (art. 11, VII, a, 1, da Lei 8.213); acima disso, o produtor é contribuinte individual."
+      },
+      {
+       "trecho": "filho maior de 16 (dezesseis) anos de idade ou a este equiparado",
+       "marcas": [
+        "16 (dezesseis) anos"
+       ],
+       "afirmacao": "Integra a categoria de segurado especial o filho maior de 14 anos do produtor rural que trabalhe comprovadamente com o grupo familiar.",
+       "gabarito": "E",
+       "porque": "A Lei 8.213 fala em filho maior de 16 anos ou equiparado, com participação ativa nas atividades rurais (art. 11, VII, c, e § 6º)."
+      },
+      {
+       "trecho": "mantém, durante o exercício do mandato eletivo, o mesmo enquadramento",
+       "marcas": [
+        "o mesmo enquadramento"
+       ],
+       "afirmacao": "Durante o mandato, o dirigente sindical passa a ser enquadrado no Regime Geral como contribuinte individual.",
+       "gabarito": "E",
+       "porque": "O dirigente sindical mantém, durante o mandato, o mesmo enquadramento de antes da investidura (art. 11, § 4º, da Lei 8.213)."
+      },
+      {
+       "trecho": "no âmbito residencial desta, em atividades sem fins lucrativos",
+       "marcas": [
+        "sem fins lucrativos"
+       ],
+       "afirmacao": "Uma cozinheira contratada por uma família prepara, na casa dela, as refeições que a família vende por aplicativo. Ela é segurada empregada doméstica.",
+       "gabarito": "E",
+       "porque": "Doméstico só existe em atividade sem fins lucrativos para a pessoa ou família (art. 11, II, da Lei 8.213). Se o trabalho serve à atividade econômica da família, ela é segurada empregada, e não doméstica."
+      },
+      {
+       "trecho": "à razão de no máximo 120 (cento e vinte) pessoas por dia no ano civil",
+       "marcas": [
+        "120 (cento e vinte) pessoas por dia"
+       ],
+       "afirmacao": "Um casal de agricultores em economia familiar contrata, na colheita, três trabalhadores por prazo determinado durante 30 dias do ano. O casal continua como segurado especial.",
+       "gabarito": "C",
+       "porque": "O grupo familiar pode contratar até 120 pessoas por dia no ano civil (art. 11, § 7º, da Lei 8.213). Três pessoas por 30 dias somam 90."
+      },
+      {
+       "trecho": "tornar-se-ão segurados obrigatórios em relação a essas atividades",
+       "marcas": [
+        "segurados obrigatórios"
+       ],
+       "afirmacao": "Um professor de universidade estadual, com regime próprio, também dá aulas como empregado numa escola particular. Nessa segunda atividade ele é segurado obrigatório do Regime Geral.",
+       "gabarito": "C",
+       "porque": "Servidor com regime próprio que exerce ao mesmo tempo atividade abrangida pelo Regime Geral é segurado obrigatório em relação a ela (art. 12, § 1º, da Lei 8.213)."
+      }
+     ],
+     "conferido": {
+      "Art. 11.": "3c4330f052cb",
+      "Art. 12.": "ceeabaefdcb2"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 12.",
+      "Art. 13."
+     ],
+     "ref": "arts. 12 e 13 da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 12, caput, I a VII, e §§ 1º e 2º.</strong> A Lei 8.212 repete a lista de segurados obrigatórios do art. 11 da Lei 8.213: empregado (I, a a j), empregado doméstico (II), contribuinte individual (V, a a h), trabalhador avulso (VI) e segurado especial (VII, a, 1 e 2, b e c), com o mesmo conceito de economia familiar (§ 1º) e a filiação em cada atividade concomitante (§ 2º). No inciso VII, a Lei 8.212 diz que o auxílio eventual de terceiros é a título de mútua colaboração. Os incisos III e IV e a alínea d do inciso V foram revogados.",
+      "<strong>Art. 12, §§ 4º a 8º.</strong> Com numeração deslocada, repete as regras do aposentado que volta a trabalhar (§ 4º), do dirigente sindical (§ 5º), de Ministro de Estado e secretários sem vínculo efetivo (§ 6º), da participação ativa da família (§ 7º) e do limite de 120 pessoas por dia na contratação pelo grupo familiar (§ 8º). O § 3º foi revogado.",
+      "<strong>Art. 12, §§ 9º e 10.</strong> Não descaracterizam o segurado especial as mesmas hipóteses do art. 11, § 8º, da Lei 8.213 (I a VII; a alínea b do inciso VI foi vetada), e mais a participação em programas e ações de pagamento por serviços ambientais (VIII). As outras fontes de rendimento admitidas são as mesmas (§ 10, I a VIII; o item 2 da alínea b do inciso V foi vetado).",
+      "<strong>Art. 12, §§ 11 a 14.</strong> As hipóteses de exclusão da categoria de segurado especial são as mesmas (§ 11, I, a a d, e II, a a c), assim como a do cônjuge do produtor contribuinte individual (§ 12) e a da participação em microempresa rural (§ 14). O § 13 acrescenta que as hipóteses do § 10, III e V, e do § 14 não dispensam o recolhimento da contribuição devida pela atividade. O § 15 foi vetado.",
+      "<strong>Art. 13.</strong> Servidor civil efetivo e militar dos entes, de suas autarquias e fundações ficam excluídos do Regime Geral desde que amparados por regime próprio; se exercerem ao mesmo tempo atividade abrangida, são segurados obrigatórios por ela (§ 1º); requisitados para órgão cujo regime não permita a filiação, ficam no regime de origem (§ 2º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "diretamente ou por intermédio de prepostos, com ou sem o auxílio de empregados",
+       "marcas": [
+        "com ou sem o auxílio de empregados"
+       ],
+       "afirmacao": "A pessoa física que explora atividade de garimpo é segurada especial, desde que trabalhe sem o auxílio de empregados.",
+       "gabarito": "E",
+       "porque": "Quem explora garimpo é contribuinte individual, com ou sem o auxílio de empregados (art. 12, V, b, da Lei 8.212). O garimpo não está entre as atividades do segurado especial."
+      },
+      {
+       "trecho": "o brasileiro ou estrangeiro domiciliado e contratado no Brasil para trabalhar como empregado em sucursal ou agência de empresa nacional no exterior",
+       "marcas": [
+        "domiciliado e contratado no Brasil"
+       ],
+       "afirmacao": "Um engenheiro estrangeiro domiciliado em São Paulo é contratado aqui para trabalhar na agência de uma construtora brasileira em Angola. Ele é segurado obrigatório do Regime Geral como empregado.",
+       "gabarito": "C",
+       "porque": "É segurado empregado o brasileiro ou estrangeiro domiciliado e contratado no Brasil para trabalhar em sucursal ou agência de empresa nacional no exterior (art. 12, I, c, da Lei 8.212)."
+      },
+      {
+       "trecho": "excluídos o não-brasileiro sem residência permanente no Brasil",
+       "marcas": [
+        "sem residência permanente"
+       ],
+       "afirmacao": "O estrangeiro sem residência permanente no Brasil que presta serviço a uma embaixada aqui instalada é segurado obrigatório do Regime Geral como empregado.",
+       "gabarito": "E",
+       "porque": "Quem presta serviço a missão diplomática ou repartição consular é empregado, mas ficam excluídos o não brasileiro sem residência permanente no Brasil e o brasileiro amparado pela previdência do país da missão (art. 12, I, d, da Lei 8.212)."
+      },
+      {
+       "trecho": "atividade artística, desde que em valor mensal inferior ao menor benefício de prestação continuada da Previdência Social",
+       "marcas": [
+        "inferior ao menor benefício"
+       ],
+       "afirmacao": "Uma agricultora em economia familiar faz apresentações de música em festas da região e recebe, por mês, menos que o menor benefício pago pela Previdência. Ela não perde a condição de segurada especial por isso.",
+       "gabarito": "C",
+       "porque": "A atividade artística com valor mensal inferior ao menor benefício de prestação continuada é rendimento admitido (art. 12, § 10, VIII, da Lei 8.212)."
+      },
+      {
+       "trecho": "desde que amparados por regime próprio de previdência social",
+       "marcas": [
+        "amparados por regime próprio"
+       ],
+       "afirmacao": "O servidor efetivo de um Município que não instituiu regime próprio está excluído do Regime Geral, por ser ocupante de cargo efetivo.",
+       "gabarito": "E",
+       "porque": "A exclusão só ocorre se o servidor estiver amparado por regime próprio (art. 13 da Lei 8.212). Sem regime próprio, ele é segurado obrigatório do Regime Geral."
+      }
+     ],
+     "conferido": {
+      "Art. 12.": "ccd0f4c7bafe",
+      "Art. 13.": "6ffe21340f96"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "O servidor ocupante exclusivamente de cargo em comissão, sem vínculo efetivo, é segurado empregado do Regime Geral (art. 11, I, g, da Lei 8.213); não está excluído do regime.",
+    "O exercente de mandato eletivo é empregado do Regime Geral só se não estiver vinculado a regime próprio (art. 11, I, h e j).",
+    "O aposentado do Regime Geral que volta a trabalhar contribui normalmente sobre a nova remuneração (art. 11, § 3º, da Lei 8.213); não há isenção.",
+    "O empregado doméstico é segurado obrigatório; não é facultativo nem depende de inscrição por iniciativa própria.",
+    "O estagiário com termo de compromisso e demais requisitos da Lei 11.788/2008 não é segurado obrigatório, mas pode contribuir como facultativo. Se o estágio não cumpre a lei e há relação de emprego, ele é segurado empregado.",
+    "O segurado especial em atividade remunerada por até 120 dias no ano continua segurado especial, mas contribui pela atividade (art. 12, § 13, da Lei 8.212)."
+   ],
+   "macetes": [
+    {
+     "sigla": "4 MÓDULOS, 16 ANOS, 120 DIAS",
+     "texto": "Segurado especial: até 4 módulos fiscais; filho maior de 16 anos; até 120 pessoas por dia de contratação e até 120 dias de turismo ou de outra atividade remunerada no ano."
+    },
+    {
+     "sigla": "SEM REGIME PRÓPRIO, REGIME GERAL",
+     "texto": "Servidor efetivo e militar só saem do Regime Geral se tiverem regime próprio; o comissionado puro é empregado do Regime Geral."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O servidor efetivo amparado por regime próprio que passa a exercer também atividade privada abrangida pelo Regime Geral pode optar por não contribuir para o Regime Geral.",
+    "gabarito": "E",
+    "explicacao": "Na atividade privada ele é segurado obrigatório do Regime Geral (art. 12, § 1º, da Lei 8.213); a filiação não depende de opção."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O servidor ocupante exclusivamente de cargo em comissão está excluído do Regime Geral, por ser servidor público.",
+     "certo": "É segurado obrigatório como empregado, por não ter vínculo efetivo (art. 11, I, g, da Lei 8.213).",
+     "fonte": "Questões do app sobre os segurados obrigatórios"
+    },
+    {
+     "errado": "O empregado doméstico é segurado facultativo, e sua filiação depende de inscrição e contribuição por iniciativa própria.",
+     "certo": "O empregado doméstico é segurado obrigatório (art. 11, II, da Lei 8.213).",
+     "fonte": "Questões do app sobre o segurado empregado doméstico"
+    },
+    {
+     "errado": "O ministro de confissão religiosa é segurado facultativo do Regime Geral.",
+     "certo": "É contribuinte individual (art. 11, V, c, da Lei 8.213).",
+     "fonte": "Questões do app sobre os segurados obrigatórios"
+    },
+    {
+     "errado": "Quem exerce duas atividades remuneradas sujeitas ao Regime Geral escolhe aquela pela qual será filiado.",
+     "certo": "É filiado obrigatoriamente em relação a cada uma delas (art. 11, § 2º, da Lei 8.213).",
+     "fonte": "Questões do app sobre os segurados obrigatórios"
+    }
+   ],
+   "relacionados": [
+    "segurado-facultativo-filiacao-inscricao-e-qualidade-de-segurado",
+    "contribuicoes-da-empresa-do-empregador-domestico-e-do-produtor-rural"
+   ]
+  },
+  {
+   "slug": "segurado-facultativo-filiacao-inscricao-e-qualidade-de-segurado",
+   "titulo": "Segurado facultativo, filiação, inscrição e qualidade de segurado: o período de graça",
+   "grupo": "Segurados do Regime Geral",
+   "base": "Art. 14 da Lei 8.212/1991; arts. 13, 15 e 17 da Lei 8.213/1991",
+   "tax": [
+    "previdenciario.segurado-facultativo",
+    "previdenciario.filiacao-inscricao",
+    "previdenciario.qualidade-segurado"
+   ],
+   "dispositivos": [
+    "n8212-1991-art-14",
+    "n8213-1991-art-13",
+    "n8213-1991-art-15",
+    "n8213-1991-art-17"
+   ],
+   "conceitos": [
+    "segurado facultativo",
+    "idade mínima de 14 anos",
+    "filiação",
+    "inscrição",
+    "inscrição post mortem",
+    "inscrição do segurado especial",
+    "qualidade de segurado",
+    "período de graça",
+    "prorrogação por 120 contribuições",
+    "acréscimo por desemprego",
+    "perda da qualidade de segurado"
+   ],
+   "palavras": [
+    "segurado facultativo",
+    "art 13",
+    "art 14",
+    "art 15",
+    "art 17",
+    "quatorze anos",
+    "dona de casa",
+    "estudante",
+    "sindico nao remunerado",
+    "filiacao",
+    "inscricao",
+    "inscricao post mortem",
+    "dependente",
+    "grupo familiar",
+    "parceiro outorgante",
+    "qualidade de segurado",
+    "periodo de graca",
+    "sem limite de prazo",
+    "auxilio-acidente",
+    "doze meses",
+    "segregacao compulsoria",
+    "recluso",
+    "livramento",
+    "servico militar",
+    "tres meses",
+    "seis meses",
+    "vinte e quatro meses",
+    "cento e vinte contribuicoes",
+    "desempregado",
+    "trinta e seis meses",
+    "registro no ministerio do trabalho",
+    "perda da qualidade",
+    "plano de custeio",
+    "dia seguinte"
+   ],
+   "resumo": "O <strong>segurado facultativo</strong> é quem, a partir de 14 anos, se filia ao Regime Geral por vontade própria, mediante contribuição, sem exercer atividade que o torne segurado obrigatório: a dona de casa, o estudante, o síndico não remunerado. Para o obrigatório, a <strong>filiação</strong> nasce com o exercício da atividade remunerada; a <strong>inscrição</strong> é o ato formal de cadastro, que pode vir depois. Para o facultativo, a filiação depende da inscrição e do primeiro pagamento. A <strong>qualidade de segurado</strong> não acaba no dia em que a contribuição para: o art. 15 da Lei 8.213 dá o <strong>período de graça</strong>, em que o segurado conserva todos os direitos sem contribuir. Os prazos dependem da situação: sem limite para quem está em benefício (exceto auxílio-acidente), 12 meses como regra, 6 meses para o facultativo, 3 meses para quem sai do serviço militar. O prazo de 12 meses cresce para 24 com mais de 120 contribuições sem perda da qualidade e ganha mais 12 com o desemprego comprovado. A perda só ocorre no dia seguinte ao fim do prazo de recolhimento da contribuição do mês posterior ao término do período de graça.",
+   "esquema": {
+    "rotulo": "o período de graça (art. 15 da Lei 8.213)",
+    "html": "<table><thead><tr><th>Situação</th><th>Mantém a qualidade de segurado</th></tr></thead><tbody><tr><td><strong>Em gozo de benefício, exceto auxílio-acidente</strong></td><td>Sem limite de prazo</td></tr><tr><td><strong>Deixou a atividade remunerada, ou está suspenso ou licenciado sem remuneração</strong></td><td>12 meses após cessarem as contribuições</td></tr><tr><td><strong>Mais de 120 contribuições mensais sem perder a qualidade</strong></td><td>Prazo de 12 meses vira 24</td></tr><tr><td><strong>Desemprego registrado no órgão próprio do Ministério do Trabalho</strong></td><td>Mais 12 meses (até 24 ou 36)</td></tr><tr><td><strong>Doença de segregação compulsória</strong></td><td>12 meses após cessar a segregação</td></tr><tr><td><strong>Retido ou recluso</strong></td><td>12 meses após o livramento</td></tr><tr><td><strong>Incorporado às Forças Armadas para serviço militar</strong></td><td>3 meses após o licenciamento</td></tr><tr><td><strong>Segurado facultativo</strong></td><td>6 meses após cessarem as contribuições</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Filiação",
+      "o_que_e": "Vínculo jurídico entre a pessoa e a Previdência que gera direitos e obrigações; para o obrigatório, decorre automaticamente do exercício da atividade remunerada.",
+      "atencao": "A filiação do facultativo não retroage."
+     },
+     {
+      "nome": "Inscrição",
+      "o_que_e": "Cadastro do segurado ou do dependente no Regime Geral, com seus dados pessoais, na forma do regulamento."
+     },
+     {
+      "nome": "Período de graça",
+      "o_que_e": "Prazo em que o segurado mantém a qualidade e todos os direitos perante a Previdência, sem contribuir."
+     },
+     {
+      "nome": "Perda da qualidade de segurado",
+      "o_que_e": "Ocorre no dia seguinte ao do término do prazo de recolhimento da contribuição referente ao mês imediatamente posterior ao fim do período de graça.",
+      "atencao": "Não é o dia seguinte ao fim do período de graça."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 14."
+     ],
+     "ref": "art. 14 da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 14.</strong> É segurado facultativo o maior de 14 anos que se filia ao Regime Geral, mediante contribuição na forma do art. 21, desde que não esteja entre os segurados obrigatórios do art. 12."
+     ],
+     "literalidades": [
+      {
+       "trecho": "o maior de 14 (quatorze) anos de idade que se filiar",
+       "marcas": [
+        "14 (quatorze) anos"
+       ],
+       "afirmacao": "Pela Lei 8.212/1991, só o maior de 16 anos pode filiar-se ao Regime Geral como segurado facultativo.",
+       "gabarito": "E",
+       "porque": "A Lei 8.212 fala no maior de 14 anos (art. 14), que contribui na forma do art. 21, desde que não seja segurado obrigatório."
+      }
+     ],
+     "conferido": {
+      "Art. 14.": "52f90d81f1b9"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 13.",
+      "Art. 15.",
+      "Art. 17."
+     ],
+     "ref": "arts. 13, 15 e 17 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 13.</strong> É segurado facultativo o maior de 14 anos que se filia ao Regime Geral, mediante contribuição, desde que não esteja entre os segurados obrigatórios do art. 11.",
+      "<strong>Art. 15, caput e I a VI.</strong> Mantém a qualidade de segurado, independentemente de contribuições: sem limite de prazo, quem está em gozo de benefício, exceto auxílio-acidente (I); até 12 meses após cessarem as contribuições, quem deixa a atividade remunerada abrangida ou está suspenso ou licenciado sem remuneração (II); até 12 meses após cessar a segregação, o acometido de doença de segregação compulsória (III); até 12 meses após o livramento, o retido ou recluso (IV); até 3 meses após o licenciamento, o incorporado às Forças Armadas para serviço militar (V); até 6 meses após cessarem as contribuições, o facultativo (VI).",
+      "<strong>Art. 15, §§ 1º a 4º.</strong> O prazo do inciso II vai a 24 meses se o segurado já pagou mais de 120 contribuições mensais sem interrupção que acarrete perda da qualidade (§ 1º). Os prazos do inciso II ou do § 1º ganham 12 meses para o desempregado que comprove a situação pelo registro no órgão próprio do Ministério do Trabalho e da Previdência Social (§ 2º). Durante esses prazos o segurado conserva todos os direitos perante a Previdência (§ 3º). A perda ocorre no dia seguinte ao término do prazo do Plano de Custeio para recolher a contribuição do mês imediatamente posterior ao fim dos prazos do artigo (§ 4º).",
+      "<strong>Art. 17.</strong> O regulamento disciplina a inscrição do segurado e dos dependentes. Cabe ao dependente promover sua inscrição quando requerer o benefício (§ 1º). A inscrição do segurado especial o vincula ao grupo familiar e contém seus dados, a identificação da propriedade e o título de uso, se reside nela ou o município de residência e, se for o caso, o responsável pelo grupo (§ 4º). O segurado especial que não é dono do imóvel informa, no ato da inscrição, o nome do parceiro ou meeiro outorgante, arrendador, comodante ou assemelhado (§ 5º). Não se admite inscrição post mortem de contribuinte individual e de facultativo (§ 7º). Os §§ 2º, 3º e 6º foram revogados."
+     ],
+     "literalidades": [
+      {
+       "trecho": "sem limite de prazo, quem está em gozo de benefício, exceto do auxílio-acidente",
+       "marcas": [
+        "exceto do auxílio-acidente"
+       ],
+       "afirmacao": "Mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de qualquer benefício, inclusive do auxílio-acidente.",
+       "gabarito": "E",
+       "porque": "A manutenção sem limite de prazo vale para quem está em gozo de benefício, exceto do auxílio-acidente (art. 15, I, da Lei 8.213)."
+      },
+      {
+       "trecho": "até 6 (seis) meses após a cessação das contribuições, o segurado facultativo",
+       "marcas": [
+        "6 (seis) meses"
+       ],
+       "afirmacao": "O segurado facultativo mantém a qualidade de segurado até 12 meses após a cessação das contribuições.",
+       "gabarito": "E",
+       "porque": "O período de graça do facultativo é de 6 meses (art. 15, VI, da Lei 8.213)."
+      },
+      {
+       "trecho": "até 3 (três) meses após o licenciamento, o segurado incorporado às Forças Armadas",
+       "marcas": [
+        "3 (três) meses"
+       ],
+       "afirmacao": "Pedro, segurado empregado, foi incorporado ao Exército para o serviço militar obrigatório e licenciado em março. Ele mantém a qualidade de segurado até junho, independentemente de contribuições.",
+       "gabarito": "C",
+       "porque": "O segurado incorporado às Forças Armadas para serviço militar mantém a qualidade até 3 meses após o licenciamento (art. 15, V, da Lei 8.213)."
+      },
+      {
+       "trecho": "prorrogado para até 24 (vinte e quatro) meses se o segurado já tiver pago mais de 120 (cento e vinte) contribuições mensais",
+       "marcas": [
+        "24 (vinte e quatro) meses",
+        "120 (cento e vinte)"
+       ],
+       "afirmacao": "Ana contribuiu como empregada por 11 anos seguidos, sem perder a qualidade de segurada, e pediu demissão. Ela mantém a qualidade de segurada por até 24 meses após a última contribuição.",
+       "gabarito": "C",
+       "porque": "Com mais de 120 contribuições mensais sem perda da qualidade, o prazo de 12 meses vai a 24 (art. 15, § 1º, da Lei 8.213)."
+      },
+      {
+       "trecho": "até 12 (doze) meses após o livramento, o segurado retido ou recluso",
+       "marcas": [
+        "após o livramento"
+       ],
+       "afirmacao": "Um segurado ficou preso por dois anos e foi solto em janeiro. Ele mantém a qualidade de segurado por até 12 meses após o livramento.",
+       "gabarito": "C",
+       "porque": "O segurado retido ou recluso mantém a qualidade até 12 meses após o livramento (art. 15, IV, da Lei 8.213)."
+      },
+      {
+       "trecho": "A perda da qualidade de segurado ocorrerá no dia seguinte ao do término do prazo fixado no Plano de Custeio da Seguridade Social",
+       "marcas": [
+        "Plano de Custeio"
+       ],
+       "afirmacao": "A perda da qualidade de segurado ocorre no dia seguinte ao término do período de graça.",
+       "gabarito": "E",
+       "porque": "Ocorre no dia seguinte ao término do prazo para recolher a contribuição do mês imediatamente posterior ao fim do período de graça (art. 15, § 4º, da Lei 8.213)."
+      },
+      {
+       "trecho": "Não será admitida a inscrição post mortem de segurado contribuinte individual e de segurado facultativo",
+       "marcas": [
+        "Não será admitida"
+       ],
+       "afirmacao": "Admite-se a inscrição post mortem do contribuinte individual, desde que os dependentes recolham as contribuições em atraso.",
+       "gabarito": "E",
+       "porque": "A Lei 8.213 não admite a inscrição post mortem de contribuinte individual nem de facultativo (art. 17, § 7º)."
+      },
+      {
+       "trecho": "Incumbe ao dependente promover a sua inscrição quando do requerimento do benefício",
+       "marcas": [
+        "quando do requerimento do benefício"
+       ],
+       "afirmacao": "A viúva de um segurado faz sua inscrição como dependente no mesmo ato em que requer a pensão por morte. O procedimento está de acordo com a Lei 8.213.",
+       "gabarito": "C",
+       "porque": "Cabe ao dependente promover sua inscrição quando requerer o benefício a que estiver habilitado (art. 17, § 1º, da Lei 8.213)."
+      }
+     ],
+     "conferido": {
+      "Art. 13.": "479b1248a04f",
+      "Art. 15.": "f6615103f23d",
+      "Art. 17.": "0afa9c205d77"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · Pet 7.115 (Terceira Seção, 2010)",
+     "texto": "O registro no órgão do Ministério do Trabalho não é o único meio de provar o desemprego para prorrogar o período de graça: a situação pode ser comprovada por outras provas, mas a simples falta de anotação na carteira de trabalho não basta."
+    }
+   ],
+   "detalhes": [
+    "O segurado obrigatório é filiado desde o início da atividade remunerada, ainda que a inscrição venha depois. A filiação do facultativo começa com a inscrição e o primeiro recolhimento; não retroage a períodos anteriores.",
+    "Quem deixa de contribuir como facultativo não fica em débito com a Previdência: a contribuição é voluntária, e o efeito é só o fim da qualidade de segurado depois do período de graça.",
+    "Servidor com regime próprio não pode filiar-se ao Regime Geral como facultativo (CF, art. 201, § 5º).",
+    "Os acréscimos se somam: o empregado com mais de 120 contribuições e desemprego comprovado pode manter a qualidade por até 36 meses (12 + 12 + 12).",
+    "O dependente não se filia; ele se inscreve, e só quando requer o benefício."
+   ],
+   "macetes": [
+    {
+     "sigla": "12, 6 E 3",
+     "texto": "Regra geral, segregação e prisão: 12 meses. Facultativo: 6 meses. Serviço militar: 3 meses. Em benefício: sem limite, exceto auxílio-acidente."
+    },
+    {
+     "sigla": "12 + 12 + 12",
+     "texto": "Mais de 120 contribuições sem perda: +12. Desemprego comprovado: +12. Máximo de 36 meses."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O servidor efetivo vinculado a regime próprio pode filiar-se ao Regime Geral como segurado facultativo para obter uma segunda aposentadoria.",
+    "gabarito": "E",
+    "explicacao": "A Constituição veda a filiação ao Regime Geral, como facultativo, de participante de regime próprio (art. 201, § 5º). O facultativo é quem não é segurado obrigatório de nenhum regime."
+   },
+   "pegadinhas": [
+    {
+     "errado": "O segurado facultativo que deixa de contribuir fica em débito com a Previdência, que pode cobrar as contribuições não pagas.",
+     "certo": "A contribuição do facultativo é voluntária; deixar de pagar só faz correr o período de graça de 6 meses (art. 15, VI, da Lei 8.213).",
+     "fonte": "Questões do app sobre o segurado facultativo"
+    },
+    {
+     "errado": "A filiação do segurado facultativo retroage à data em que ele poderia ter se inscrito, desde que recolha os atrasados.",
+     "certo": "A filiação do facultativo começa com a inscrição e o recolhimento; não retroage.",
+     "fonte": "Questões do app sobre a filiação e a inscrição"
+    },
+    {
+     "errado": "O segurado especial que não é dono do imóvel deve informar o nome do arrendador ou comodante no prazo de um ano após a inscrição.",
+     "certo": "Deve informá-lo no ato da inscrição (art. 17, § 5º, da Lei 8.213).",
+     "fonte": "Questões do app sobre o art. 17 da Lei 8.213"
+    }
+   ],
+   "relacionados": [
+    "segurados-obrigatorios-do-regime-geral",
+    "salario-de-contribuicao-e-contribuicao-dos-segurados"
+   ]
+  },
+  {
+   "slug": "financiamento-da-seguridade-empresa-e-receitas",
+   "titulo": "Financiamento da seguridade na Lei 8.212: orçamento, contribuição da União, conceito de empresa e outras receitas",
+   "grupo": "Custeio: financiamento, contribuições e salário de contribuição",
+   "base": "Arts. 10, 11, 15 a 19, 26 e 27 da Lei 8.212/1991; art. 14 da Lei 8.213/1991",
+   "tax": [
+    "previdenciario.financiamento-receitas",
+    "previdenciario.empresa-empregador-domestico"
+   ],
+   "dispositivos": [
+    "n8212-1991-art-10",
+    "n8212-1991-art-11",
+    "n8212-1991-art-15",
+    "n8212-1991-art-16",
+    "n8212-1991-art-17",
+    "n8212-1991-art-18",
+    "n8212-1991-art-19",
+    "n8212-1991-art-26",
+    "n8212-1991-art-27",
+    "n8213-1991-art-14"
+   ],
+   "conceitos": [
+    "financiamento direto e indireto",
+    "receitas do orçamento da seguridade",
+    "contribuições sociais",
+    "empresa para fins previdenciários",
+    "equiparados a empresa",
+    "empregador doméstico",
+    "contribuição da União",
+    "insuficiências financeiras",
+    "repasse mensal do Tesouro",
+    "concursos de prognósticos",
+    "outras receitas da seguridade"
+   ],
+   "palavras": [
+    "financiamento",
+    "toda sociedade",
+    "direta e indireta",
+    "art 10",
+    "art 11",
+    "orcamento da seguridade",
+    "receitas da uniao",
+    "contribuicoes sociais",
+    "folha",
+    "empregador domestico",
+    "faturamento e lucro",
+    "concursos de prognosticos",
+    "loterias",
+    "empresa",
+    "firma individual",
+    "risco da atividade",
+    "fins lucrativos ou nao",
+    "administracao publica",
+    "equiparados",
+    "dono de obra",
+    "cooperativa",
+    "associacao",
+    "missao diplomatica",
+    "reparticao consular",
+    "sem finalidade lucrativa",
+    "contribuicao da uniao",
+    "orcamento fiscal",
+    "lei orcamentaria anual",
+    "insuficiencias financeiras",
+    "encargos previdenciarios da uniao",
+    "despesas com pessoal",
+    "inss",
+    "tesouro nacional",
+    "mensalmente",
+    "multas",
+    "juros moratorios",
+    "doacoes",
+    "legados",
+    "art 243",
+    "leiloes",
+    "quarenta por cento",
+    "spvat"
+   ],
+   "resumo": "A Lei 8.212 repete a Constituição: a seguridade é financiada por <strong>toda a sociedade</strong>, de forma direta (contribuições sociais) e indireta (recursos da União, dos Estados, do DF e dos Municípios). No plano federal, o orçamento da seguridade tem receitas da União, das contribuições sociais e de outras fontes. As contribuições sociais são cinco: da empresa sobre a remuneração dos segurados, do empregador doméstico, dos trabalhadores sobre o salário de contribuição, da empresa sobre faturamento e lucro e sobre concursos de prognósticos. O conceito de <strong>empresa</strong> é amplo: inclui sociedades sem fins lucrativos e os órgãos da administração pública, e a lei equipara a empresa o contribuinte individual, o dono de obra, cooperativas, associações e até missões diplomáticas. A União cobre as insuficiências financeiras do pagamento de benefícios. O art. 27 lista outras receitas, com percentuais que a prova troca.",
+   "esquema": {
+    "rotulo": "de onde vem o dinheiro (art. 11 e art. 27)",
+    "html": "<table><thead><tr><th>Fonte</th><th>O que entra</th></tr></thead><tbody><tr><td><strong>Receitas da União</strong></td><td>Recursos adicionais do Orçamento Fiscal fixados na Lei Orçamentária Anual (art. 16)</td></tr><tr><td><strong>Contribuições sociais</strong></td><td>Empresa sobre a remuneração; empregador doméstico; trabalhadores sobre o salário de contribuição; empresa sobre faturamento e lucro; concursos de prognósticos (art. 11, parágrafo único)</td></tr><tr><td><strong>Outras receitas (art. 27)</strong></td><td>Multas, atualização monetária e juros; serviços de arrecadação a terceiros; serviços e bens; receitas patrimoniais e financeiras; doações e legados; 50% dos valores do art. 243 da CF; 40% dos leilões de bens apreendidos pela Receita; outras previstas em lei</td></tr><tr><td><strong>SPVAT</strong></td><td>Até 40% do prêmio destinado ao SUS, por decreto, para assistência médica a vítimas de trânsito (art. 27, parágrafo único)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Empresa",
+      "o_que_e": "Firma individual ou sociedade que assume o risco de atividade econômica urbana ou rural, com ou sem fins lucrativos, e os órgãos e entidades da administração pública direta, indireta e fundacional.",
+      "atencao": "A administração pública está no conceito."
+     },
+     {
+      "nome": "Equiparado a empresa",
+      "o_que_e": "Contribuinte individual e dono de obra pessoa física em relação a segurado que lhes presta serviço; cooperativa, associação ou entidade de qualquer natureza; missão diplomática e repartição consular estrangeiras."
+     },
+     {
+      "nome": "Empregador doméstico",
+      "o_que_e": "Pessoa ou família que admite empregado doméstico, sem finalidade lucrativa.",
+      "atencao": "Pessoa jurídica nunca é empregador doméstico."
+     },
+     {
+      "nome": "Concursos de prognósticos",
+      "o_que_e": "Concursos, sorteios e loterias; a base de cálculo é a receita auferida, e a alíquota é o percentual vinculado à seguridade em cada modalidade."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 10.",
+      "Art. 11.",
+      "Art. 15.",
+      "Art. 16.",
+      "Art. 17.",
+      "Art. 18.",
+      "Art. 19.",
+      "Art. 26.",
+      "Art. 27."
+     ],
+     "ref": "arts. 10, 11, 15 a 19, 26 e 27 da Lei 8.212/1991",
+     "regras": [
+      "<strong>Arts. 10 e 11.</strong> A seguridade é financiada por toda a sociedade, de forma direta e indireta, nos termos do art. 195 da Constituição, com recursos da União, dos Estados, do DF, dos Municípios e de contribuições sociais (art. 10). No âmbito federal, o orçamento da seguridade tem receitas da União (I), das contribuições sociais (II) e de outras fontes (III). São contribuições sociais as das empresas sobre a remuneração dos segurados (a), as dos empregadores domésticos (b), as dos trabalhadores sobre o salário de contribuição (c), as das empresas sobre faturamento e lucro (d) e as incidentes sobre a receita de concursos de prognósticos (e).",
+      "<strong>Art. 15.</strong> Empresa e empregador doméstico: veja as figuras (I e II). Equiparam-se a empresa o contribuinte individual e o dono de obra pessoa física em relação a segurado que lhes presta serviço, a cooperativa, a associação ou entidade de qualquer natureza, a missão diplomática e a repartição consular estrangeiras (parágrafo único).",
+      "<strong>Arts. 16 a 19.</strong> A contribuição da União são recursos adicionais do Orçamento Fiscal fixados obrigatoriamente na Lei Orçamentária Anual (art. 16), e a União cobre eventuais insuficiências financeiras da seguridade decorrentes do pagamento de benefícios de prestação continuada da Previdência (parágrafo único). As contribuições sobre faturamento e lucro podem ajudar a pagar os encargos previdenciários da União, assegurados recursos para saúde e assistência (art. 17). As contribuições das alíneas a a d podem financiar, desde 1992, despesas com pessoal e administração geral só do INSS, do Inamps, da LBA e da Fundação Centro Brasileira para Infância e Adolescência (art. 18). O Tesouro Nacional repassa mensalmente os recursos das contribuições sobre faturamento, lucro e concursos de prognósticos (art. 19).",
+      "<strong>Arts. 26 e 27.</strong> A contribuição sobre a receita de concursos de prognósticos (CF, art. 195, III) é receita da seguridade (art. 26), destinada ao seu financiamento (§ 4º), com base de cálculo na receita dos concursos, sorteios e loterias (§ 5º) e alíquota igual ao percentual vinculado à seguridade em cada modalidade lotérica (§ 6º); os §§ 1º a 3º foram revogados. Outras receitas da seguridade: multas, atualização monetária e juros moratórios (I); remuneração por arrecadação, fiscalização e cobrança para terceiros (II); serviços e fornecimento ou arrendamento de bens (III); demais receitas patrimoniais, industriais e financeiras (IV); doações, legados, subvenções e receitas eventuais (V); 50% dos valores do art. 243, parágrafo único, da Constituição (VI); 40% do resultado dos leilões de bens apreendidos pela Receita Federal (VII); outras previstas em lei (VIII). O agente operador do SPVAT pode repassar à seguridade, por decreto, até 40% do prêmio destinado ao SUS para a assistência às vítimas de trânsito (parágrafo único)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "e) as incidentes sobre a receita de concursos de prognósticos",
+       "marcas": [
+        "concursos de prognósticos"
+       ],
+       "afirmacao": "No âmbito federal, são contribuições sociais as das empresas sobre a folha, as dos empregadores domésticos e as dos trabalhadores, mas não as incidentes sobre a receita de concursos de prognósticos.",
+       "gabarito": "E",
+       "porque": "As contribuições sobre faturamento e lucro e sobre a receita de concursos de prognósticos também são contribuições sociais (art. 11, parágrafo único, d e e, da Lei 8.212)."
+      },
+      {
+       "trecho": "bem como os órgãos e entidades da administração pública direta, indireta e fundacional",
+       "marcas": [
+        "administração pública direta, indireta e fundacional"
+       ],
+       "afirmacao": "Os órgãos e entidades da administração pública não se incluem no conceito de empresa da Lei 8.212/1991, porque não assumem risco de atividade econômica.",
+       "gabarito": "E",
+       "porque": "O conceito de empresa inclui expressamente os órgãos e entidades da administração pública direta, indireta e fundacional (art. 15, I, da Lei 8.212)."
+      },
+      {
+       "trecho": "a missão diplomática e a repartição consular de carreira estrangeiras",
+       "marcas": [
+        "missão diplomática"
+       ],
+       "afirmacao": "O consulado de um país estrangeiro em Recife contrata uma secretária brasileira. Para a Lei 8.212, o consulado equipara-se a empresa em relação a ela.",
+       "gabarito": "C",
+       "porque": "A missão diplomática e a repartição consular de carreira estrangeiras equiparam-se a empresa (art. 15, parágrafo único, da Lei 8.212)."
+      },
+      {
+       "trecho": "A União é responsável pela cobertura de eventuais insuficiências financeiras da Seguridade Social",
+       "marcas": [
+        "A União"
+       ],
+       "afirmacao": "A Lei 8.212/1991 atribui aos Estados e Municípios, solidariamente com a União, a cobertura das insuficiências financeiras da seguridade decorrentes do pagamento de benefícios.",
+       "gabarito": "E",
+       "porque": "A responsabilidade é só da União (art. 16, parágrafo único, da Lei 8.212)."
+      },
+      {
+       "trecho": "apenas do Instituto Nacional do Seguro Social - INSS",
+       "marcas": [
+        "apenas"
+       ],
+       "afirmacao": "Os recursos das contribuições sociais sobre a folha podem financiar as despesas com pessoal e administração geral do INSS.",
+       "gabarito": "C",
+       "porque": "Pelo art. 18 da Lei 8.212, esses recursos podem financiar despesas com pessoal e administração geral apenas do INSS e das entidades ali listadas, e não de qualquer órgão."
+      },
+      {
+       "trecho": "O Tesouro Nacional repassará mensalmente recursos",
+       "marcas": [
+        "mensalmente"
+       ],
+       "afirmacao": "O Tesouro Nacional repassa anualmente, ao fim de cada exercício, os recursos das contribuições sobre faturamento e lucro destinados ao orçamento da seguridade.",
+       "gabarito": "E",
+       "porque": "O repasse é mensal (art. 19 da Lei 8.212)."
+      },
+      {
+       "trecho": "receita auferida nos concursos de prognósticos, sorteios e loterias",
+       "marcas": [
+        "sorteios e loterias"
+       ],
+       "afirmacao": "Num sorteio lotérico federal, a base de cálculo da contribuição para a seguridade é a receita auferida no concurso.",
+       "gabarito": "C",
+       "porque": "A base de cálculo da contribuição é a receita auferida nos concursos de prognósticos, sorteios e loterias (art. 26, § 5º, da Lei 8.212)."
+      },
+      {
+       "trecho": "40% (quarenta por cento) do resultado dos leilões dos bens apreendidos",
+       "marcas": [
+        "40% (quarenta por cento)"
+       ],
+       "afirmacao": "Constitui receita da seguridade social a totalidade do resultado dos leilões dos bens apreendidos pela Receita Federal.",
+       "gabarito": "E",
+       "porque": "Só 40% do resultado desses leilões é receita da seguridade (art. 27, VII, da Lei 8.212)."
+      },
+      {
+       "trecho": "I - as multas, a atualização monetária e os juros moratórios",
+       "marcas": [
+        "juros moratórios"
+       ],
+       "afirmacao": "Uma empresa paga com atraso suas contribuições, com multa e juros. Os juros moratórios pagos são receita da seguridade social.",
+       "gabarito": "C",
+       "porque": "Multas, atualização monetária e juros moratórios estão entre as outras receitas da seguridade (art. 27, I, da Lei 8.212)."
+      }
+     ],
+     "conferido": {
+      "Art. 10.": "64cefdae94d2",
+      "Art. 11.": "2a55034d227c",
+      "Art. 15.": "42e52799e8c9",
+      "Art. 16.": "4344a005e899",
+      "Art. 17.": "c5ecfda4d652",
+      "Art. 18.": "d519c1b71a3b",
+      "Art. 19.": "2f40fa1ac1f5",
+      "Art. 26.": "c1fa628c06da",
+      "Art. 27.": "d85d1cdbd458"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    },
+    {
+     "norma": "n8213-1991",
+     "artigos": [
+      "Art. 14."
+     ],
+     "ref": "art. 14 da Lei 8.213/1991",
+     "regras": [
+      "<strong>Art. 14.</strong> Para a Lei 8.213, empresa é a firma individual ou sociedade que assume o risco de atividade econômica urbana ou rural, com ou sem fins lucrativos, e os órgãos e entidades da administração pública direta, indireta ou fundacional (I); empregador doméstico é a pessoa ou família que admite empregado doméstico, sem finalidade lucrativa (II). Equiparam-se a empresa o contribuinte individual e o dono de obra pessoa física em relação a segurado que lhes presta serviço, a cooperativa, a associação ou entidade de qualquer natureza, a missão diplomática e a repartição consular estrangeiras (parágrafo único)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "a pessoa ou família que admite a seu serviço, sem finalidade lucrativa, empregado doméstico",
+       "marcas": [
+        "sem finalidade lucrativa"
+       ],
+       "afirmacao": "Para a Lei 8.213/1991, empregador doméstico é a pessoa ou família que admite empregado doméstico a seu serviço, com ou sem finalidade lucrativa.",
+       "gabarito": "E",
+       "porque": "O empregador doméstico admite o empregado sem finalidade lucrativa (art. 14, II, da Lei 8.213)."
+      }
+     ],
+     "conferido": {
+      "Art. 14.": "ec512903778b"
+     },
+     "fonte": "Lei 8.213/1991 (Planos de Benefícios da Previdência Social), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8213-24-julho-1991-363650-normaatualizada-pl.html"
+    }
+   ],
+   "detalhes": [
+    "A pessoa jurídica que contrata trabalhador para limpar sua sede não é empregador doméstico: esse conceito só abrange pessoa ou família, sem finalidade lucrativa.",
+    "Se a cozinheira contratada por uma família também prepara os salgados que a família vende no seu comércio, o vínculo deixa de ser doméstico: o trabalho foi aproveitado em atividade lucrativa, e a ausência de finalidade lucrativa integra o conceito de empregador doméstico (art. 15, II).",
+    "Sobre as contribuições da empresa que o tema seguinte detalha, o STF validou a da agroindústria sobre a receita bruta da comercialização da produção, em substituição à contribuição sobre a folha (Tema 281 da repercussão geral, art. 22-A), e declarou inconstitucional a de 15% sobre a nota fiscal ou fatura de serviços de cooperados por intermédio de cooperativa de trabalho (Tema 166, art. 22, IV).",
+    "A contribuição das empresas sobre faturamento e lucro (art. 11, d) corresponde hoje à Cofins e à CSLL; a disciplina tributária delas fica no caderno de Direito Tributário.",
+    "Pelo art. 195, § 2º, da Constituição, a proposta de orçamento da seguridade é elaborada de forma integrada pelos órgãos de saúde, previdência e assistência; na Lei 8.212, isso é feito pela comissão de 3 representantes do art. 8º."
+   ],
+   "macetes": [
+    {
+     "sigla": "50% E 40%",
+     "texto": "Do art. 243 da CF vão 50% para a seguridade; dos leilões de bens apreendidos pela Receita vão 40%; do prêmio do SPVAT destinado ao SUS, até 40%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A cooperativa e a associação equiparam-se a empresa para fins de custeio, mas não a missão diplomática estrangeira, por força da imunidade de jurisdição.",
+    "gabarito": "E",
+    "explicacao": "A missão diplomática e a repartição consular de carreira estrangeiras também se equiparam a empresa (art. 15, parágrafo único, da Lei 8.212)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Pela Lei 8.212, os recursos das contribuições sociais podem financiar despesas com pessoal de quaisquer órgãos da administração federal.",
+     "certo": "Só do INSS e das entidades listadas no art. 18 da Lei 8.212.",
+     "fonte": "Questões do app sobre o art. 18 da Lei 8.212"
+    },
+    {
+     "errado": "A contribuição da União para a seguridade é fixada livremente pelo Executivo ao longo do exercício.",
+     "certo": "É constituída de recursos adicionais do Orçamento Fiscal, fixados obrigatoriamente na Lei Orçamentária Anual (art. 16 da Lei 8.212).",
+     "fonte": "Questões do app sobre o art. 16 da Lei 8.212"
+    }
+   ],
+   "relacionados": [
+    "contribuicoes-da-empresa-do-empregador-domestico-e-do-produtor-rural",
+    "seguridade-social-conceito-principios-e-organizacao"
+   ]
+  },
+  {
+   "slug": "contribuicoes-da-empresa-do-empregador-domestico-e-do-produtor-rural",
+   "titulo": "Contribuições da empresa, do empregador doméstico e do produtor rural: folha, risco de acidente, futebol, agroindústria e receita bruta rural",
+   "grupo": "Custeio: financiamento, contribuições e salário de contribuição",
+   "base": "Arts. 22, 22-A, 22-B, 23, 24, 25 e 25-A da Lei 8.212/1991",
+   "tax": [],
+   "dispositivos": [
+    "n8212-1991-art-22",
+    "n8212-1991-art-22-a",
+    "n8212-1991-art-22-b",
+    "n8212-1991-art-23",
+    "n8212-1991-art-24",
+    "n8212-1991-art-25",
+    "n8212-1991-art-25-a"
+   ],
+   "conceitos": [
+    "contribuição patronal sobre a folha",
+    "contribuição para riscos ambientais do trabalho",
+    "contribuição sobre contribuintes individuais",
+    "cooperativa de trabalho",
+    "adicional das instituições financeiras",
+    "associação desportiva com futebol profissional",
+    "ministro religioso",
+    "alíquota reduzida dos Municípios",
+    "agroindústria",
+    "consórcio simplificado de produtores rurais",
+    "contribuição sobre faturamento e lucro",
+    "contribuição do empregador doméstico",
+    "empregador rural pessoa física",
+    "segurado especial",
+    "receita bruta da comercialização da produção"
+   ],
+   "palavras": [
+    "art 22",
+    "art 22-a",
+    "art 22-b",
+    "art 23",
+    "art 24",
+    "art 25",
+    "art 25-a",
+    "contribuicao da empresa",
+    "vinte por cento",
+    "folha de salarios",
+    "remuneracoes",
+    "gorjetas",
+    "utilidades",
+    "rat",
+    "sat",
+    "risco leve",
+    "risco medio",
+    "risco grave",
+    "um dois ou tres por cento",
+    "aposentadoria especial",
+    "contribuintes individuais",
+    "cooperativa de trabalho",
+    "quinze por cento",
+    "nota fiscal",
+    "bancos",
+    "dois virgula cinco por cento",
+    "adicional",
+    "futebol profissional",
+    "cinco por cento da receita bruta",
+    "dois dias uteis",
+    "patrocinio",
+    "entidades religiosas",
+    "ministro de confissao religiosa",
+    "transportador autonomo",
+    "municipios",
+    "oito por cento",
+    "agroindustria",
+    "zero virgula um",
+    "senar",
+    "florestamento",
+    "consorcio simplificado",
+    "faturamento",
+    "lucro",
+    "cofins",
+    "csll",
+    "empregador domestico",
+    "oito decimos por cento",
+    "microempreendedor individual",
+    "empregador rural pessoa fisica",
+    "segurado especial",
+    "um inteiro e dois decimos",
+    "receita bruta",
+    "comercializacao da producao",
+    "irretratavel",
+    "ano-calendario",
+    "cooperado",
+    "responsaveis solidarios"
+   ],
+   "resumo": "A contribuição da empresa tem quatro bases no art. 22: <strong>20%</strong> sobre a remuneração de empregados e avulsos; <strong>1%, 2% ou 3%</strong> sobre a mesma base para a aposentadoria especial e os benefícios por riscos ambientais do trabalho, conforme o risco da atividade preponderante; <strong>20%</strong> sobre o que paga a contribuintes individuais; e 15% sobre a nota de cooperativa de trabalho, inciso que o STF declarou inconstitucional. Instituições financeiras pagam um adicional de 2,5%. Alguns contribuintes trocam a folha pela <strong>receita bruta</strong>: o clube de futebol profissional (5% da receita dos espetáculos e patrocínios), a agroindústria (2,5% + 0,1%) e o produtor rural pessoa física e o segurado especial (1,2% + 0,1% da comercialização da produção). O produtor rural pessoa física pode optar pela folha, e a opção vale para todo o ano. O <strong>empregador doméstico</strong> paga 8% mais 0,8% para acidentes sobre o salário de contribuição do doméstico. O art. 23 trata das contribuições sobre faturamento e lucro, hoje disciplinadas pela legislação tributária.",
+   "esquema": {
+    "rotulo": "quem paga quanto",
+    "html": "<table><thead><tr><th>Contribuinte</th><th>Base</th><th>Alíquota</th><th>Artigo</th></tr></thead><tbody><tr><td><strong>Empresa</strong></td><td>Remuneração de empregados e avulsos</td><td>20%</td><td>22, I</td></tr><tr><td><strong>Empresa</strong></td><td>Mesma base, para aposentadoria especial e riscos do trabalho</td><td>1% (risco leve), 2% (médio) ou 3% (grave)</td><td>22, II</td></tr><tr><td><strong>Empresa</strong></td><td>Remuneração de contribuintes individuais</td><td>20%</td><td>22, III</td></tr><tr><td><strong>Instituições financeiras e afins</strong></td><td>Bases dos incisos I e III</td><td>Adicional de 2,5%</td><td>22, § 1º</td></tr><tr><td><strong>Clube com futebol profissional</strong></td><td>Receita bruta de espetáculos, patrocínio, marcas, publicidade e transmissão</td><td>5%, em substituição aos incisos I e II</td><td>22, § 6º</td></tr><tr><td><strong>Agroindústria</strong></td><td>Receita bruta da comercialização da produção</td><td>2,5% + 0,1%, em substituição aos incisos I e II</td><td>22-A</td></tr><tr><td><strong>Empregador doméstico</strong></td><td>Salário de contribuição do doméstico</td><td>8% + 0,8% para acidentes</td><td>24</td></tr><tr><td><strong>Produtor rural pessoa física e segurado especial</strong></td><td>Receita bruta da comercialização da produção</td><td>1,2% + 0,1% para acidentes</td><td>25</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Atividade preponderante",
+      "o_que_e": "A atividade da empresa que ocupa o maior número de segurados; define o grau de risco (leve, médio ou grave) da contribuição do inciso II.",
+      "atencao": "O enquadramento pode ser alterado pelas estatísticas de acidentes."
+     },
+     {
+      "nome": "Agroindústria",
+      "o_que_e": "Produtor rural pessoa jurídica que industrializa produção própria, ou própria e adquirida de terceiros.",
+      "atencao": "Não vale para cooperativas nem para piscicultura, carcinicultura, suinocultura e avicultura."
+     },
+     {
+      "nome": "Consórcio simplificado de produtores rurais",
+      "o_que_e": "União de produtores rurais pessoas físicas que outorga a um deles, por documento registrado em cartório, poderes para contratar, gerir e demitir trabalhadores que sirvam só aos integrantes.",
+      "atencao": "Equipara-se ao empregador rural pessoa física; os integrantes são solidários."
+     },
+     {
+      "nome": "Receita bruta da comercialização da produção",
+      "o_que_e": "Valor da venda dos produtos animais ou vegetais, em estado natural ou com beneficiamento rudimentar, e das receitas que a lei manda somar (parceria, artesanato, turismo rural, produção trocada, atividade artística)."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 22.",
+      "Art. 22-A.",
+      "Art. 22-B.",
+      "Art. 23.",
+      "Art. 24.",
+      "Art. 25.",
+      "Art. 25-A."
+     ],
+     "ref": "arts. 22 a 25-A da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 22, caput e I a IV.</strong> Além do art. 23, a empresa contribui com: 20% sobre o total das remunerações pagas, devidas ou creditadas no mês a empregados e avulsos, inclusive gorjetas, ganhos habituais em utilidades e adiantamentos de reajuste, pelos serviços prestados ou pelo tempo à disposição (I); 1%, 2% ou 3% sobre as remunerações de empregados e avulsos, conforme o risco de acidentes da atividade preponderante seja leve, médio ou grave, para a aposentadoria especial e os benefícios por riscos ambientais do trabalho (II, a a c); 20% sobre as remunerações de contribuintes individuais (III); 15% sobre o valor bruto da nota ou fatura de serviços de cooperados por cooperativa de trabalho (IV).",
+      "<strong>Art. 22, §§ 1º a 5º.</strong> Bancos, caixas econômicas, sociedades de crédito, financiamento, investimento e crédito imobiliário, corretoras, distribuidoras, arrendamento mercantil, cooperativas de crédito, seguradoras, capitalização, agentes autônomos de seguros e crédito e entidades de previdência privada pagam adicional de 2,5% sobre as bases dos incisos I e III (§ 1º). As parcelas do art. 28, § 9º, não integram a remuneração (§ 2º). O ministério pode alterar o enquadramento de risco pelas estatísticas de acidentes, para estimular a prevenção (§ 3º). O Executivo cria estímulos às empresas que empreguem pessoas com deficiência, ouvido o Conselho Nacional da Seguridade Social (§ 4º). O § 5º foi revogado.",
+      "<strong>Art. 22, §§ 6º a 11-A.</strong> A associação desportiva com futebol profissional contribui, em substituição aos incisos I e II, com 5% da receita bruta dos espetáculos de que participe e de patrocínio, licenciamento de marcas, publicidade e transmissão (§ 6º). A entidade promotora desconta os 5% da receita do espetáculo e recolhe em até dois dias úteis após o evento (§ 7º), com base nas receitas que a associação lhe informa (§ 8º). Quem paga patrocínio, licenciamento, publicidade ou transmissão retém e recolhe os 5%, sem dedução, no prazo do art. 30, I, b (§ 9º). As demais associações desportivas contribuem pelos incisos I e II e pelo art. 23 (§ 10). O regime vale para a associação com futebol profissional organizada como sociedade empresária (§ 11), só nas atividades ligadas à equipe de futebol (§ 11-A). O § 12 foi vetado.",
+      "<strong>Art. 22, §§ 13 a 18.</strong> Não é remuneração o que entidades religiosas e de ensino vocacional dão a ministros e religiosos pelo mister religioso ou para subsistência, sem relação com a natureza e a quantidade do trabalho (§ 13); os critérios são exemplificativos, e valores diferenciados, em dinheiro ou como ajuda de moradia, transporte e formação, ligados só à atividade religiosa, não são remuneração (§ 14, I e II), regra que vale para fatos anteriores à Lei 13.137/2015, anuladas as autuações contrárias (§ 16). No transporte rodoviário de carga ou passageiros e nos serviços com trator, máquina de terraplenagem, colheitadeira e assemelhados prestados por condutor ou operador autônomo, a base é 20% do valor da nota, fatura ou recibo (§ 15). A alíquota do inciso I, para Municípios com coeficiente inferior a 4,0 na tabela do art. 91, § 2º, do CTN, é de 8% até 2024, 12% em 2025, 16% em 2026 e 20% a partir de 2027 (§ 17, I a IV), desde que o Município esteja regular quanto ao art. 60 da Lei 9.069/1995 (§ 18).",
+      "<strong>Arts. 22-A e 22-B.</strong> A agroindústria contribui, em substituição aos incisos I e II do art. 22, com 2,5% (I) e 0,1% para riscos do trabalho (II) sobre a receita bruta da comercialização da produção. A regra não alcança os serviços prestados a terceiros, que seguem o art. 22 e saem da base de cálculo (§§ 2º e 3º); nem cooperativas e agroindústrias de piscicultura, carcinicultura, suinocultura e avicultura (§ 4º). Paga 0,25% ao Senar (§ 5º). Não se aplica à pessoa jurídica dedicada só a florestamento e reflorestamento para industrialização própria que modifique a natureza química da madeira ou a transforme em pasta celulósica (§ 6º), ainda que venda resíduos ou sobras que representem menos de 1% da receita (§ 7º). O § 1º foi vetado. Para o trabalhador do consórcio simplificado de produtores rurais, os incisos I e II do art. 22 são substituídos pela contribuição dos produtores do art. 25 (art. 22-B).",
+      "<strong>Art. 23.</strong> As contribuições da empresa sobre faturamento e lucro são de 2% sobre a receita bruta (I) e de 10% sobre o lucro líquido antes da provisão do Imposto de Renda (II), com 15% para as instituições do art. 22, § 1º (§ 1º). Não se aplicam às pessoas do art. 25 (§ 2º).",
+      "<strong>Art. 24.</strong> O empregador doméstico contribui sobre o salário de contribuição do doméstico com 8% (I) e 0,8% para o seguro contra acidentes de trabalho (II). Presentes os elementos da relação de emprego doméstico, ele não pode contratar o trabalhador como microempreendedor individual, sob pena de responder por todas as obrigações trabalhistas, tributárias e previdenciárias (parágrafo único).",
+      "<strong>Art. 25, caput e §§ 1º a 3º.</strong> O empregador rural pessoa física, em substituição aos incisos I e II do art. 22, e o segurado especial contribuem com 1,2% (I) e 0,1% para acidentes do trabalho (II) sobre a receita bruta da comercialização da produção. O segurado especial pode contribuir também, facultativamente, na forma do art. 21 (§ 1º); o empregador rural pessoa física contribui obrigatoriamente também na forma do art. 21 (§ 2º). Integram a produção os produtos animais e vegetais em estado natural ou com beneficiamento ou industrialização rudimentar (lavagem, limpeza, secagem, pasteurização, moagem, torrefação e outros), com subprodutos e resíduos, exceto, nas cooperativas, a parcela não repassada ao cooperado por fixação de preço (§ 3º). Os §§ 4º, 6º, 7º e 8º foram revogados, e os §§ 5º e 9º, vetados.",
+      "<strong>Art. 25, §§ 10 a 16.</strong> Somam-se à receita bruta a comercialização da produção de parceria ou meação (I), do artesanato (II), do turismo rural e entretenimento no imóvel (III), o valor de mercado da produção dada em pagamento ou trocada (IV) e a atividade artística (V) (§ 10). Beneficiamento ou industrialização artesanal é o feito pelo próprio produtor pessoa física, sem incidência de IPI (§ 11). Não entram na base a produção destinada a plantio, reflorestamento, reprodução, criação ou pesquisa, vendida pelo produtor ou por quem a use diretamente, e, no vegetal, por comerciante registrado de sementes e mudas (§ 12). O produtor pessoa física pode optar entre a receita bruta e a folha (art. 22, I e II), pagando a contribuição sobre a folha de janeiro ou da primeira competência da atividade, e a opção é irretratável no ano-calendário (§ 13). Para o cooperado, a receita bruta é o preço fixado e repassado pela cooperativa, sem as sobras (§ 14), e a entrega ou retorno de produção sem fixação de preço não é receita (§ 15). O caput e os §§ 3º, 14 e 15 têm caráter interpretativo, nos termos do art. 106 do CTN (§ 16).",
+      "<strong>Art. 25-A.</strong> O consórcio simplificado de produtores rurais pessoas físicas equipara-se ao empregador rural pessoa física (veja as figuras). O documento registrado identifica cada produtor, endereço, propriedade, registro no Incra ou contrato de parceria ou arrendamento e matrícula no INSS (§ 1º). O consórcio é matriculado no INSS em nome do produtor com poderes de gestão (§ 2º). Os integrantes são responsáveis solidários pelas obrigações previdenciárias (§ 3º). O § 4º foi vetado."
+     ],
+     "literalidades": [
+      {
+       "trecho": "3% (três por cento) para as empresas em cuja atividade preponderante esse risco seja considerado grave",
+       "marcas": [
+        "3% (três por cento)"
+       ],
+       "afirmacao": "Uma mineradora cuja atividade preponderante tem risco de acidente grave paga, para a aposentadoria especial e os benefícios por riscos do trabalho, 3% sobre as remunerações de empregados e avulsos.",
+       "gabarito": "C",
+       "porque": "A alíquota é de 1%, 2% ou 3% conforme o risco da atividade preponderante seja leve, médio ou grave (art. 22, II, da Lei 8.212)."
+      },
+      {
+       "trecho": "é devida a contribuição adicional de dois vírgula cinco por cento sobre a base de cálculo definida nos incisos I e III deste artigo",
+       "marcas": [
+        "incisos I e III"
+       ],
+       "afirmacao": "Bancos comerciais e seguradoras pagam o adicional de 2,5% apenas sobre as remunerações dos empregados.",
+       "gabarito": "E",
+       "porque": "O adicional incide sobre as bases dos incisos I e III do art. 22: remunerações de empregados e avulsos e também de contribuintes individuais (§ 1º)."
+      },
+      {
+       "trecho": "corresponde a cinco por cento da receita bruta",
+       "marcas": [
+        "cinco por cento"
+       ],
+       "afirmacao": "Um clube que mantém equipe de futebol profissional e é organizado como sociedade empresária contribui, em vez da contribuição sobre a folha dos atletas e empregados, com 5% da receita bruta de jogos, patrocínios e transmissões.",
+       "gabarito": "C",
+       "porque": "A associação desportiva com futebol profissional contribui com 5% da receita bruta, em substituição aos incisos I e II do art. 22 (§§ 6º e 11)."
+      },
+      {
+       "trecho": "no prazo de até dois dias úteis após a realização do evento",
+       "marcas": [
+        "dois dias úteis"
+       ],
+       "afirmacao": "A entidade promotora do jogo de futebol profissional recolhe os 5% descontados da receita do espetáculo até o dia 20 do mês seguinte.",
+       "gabarito": "E",
+       "porque": "O recolhimento é feito em até dois dias úteis após o evento (art. 22, § 7º, da Lei 8.212)."
+      },
+      {
+       "trecho": "dois vírgula cinco por cento destinados à Seguridade Social",
+       "marcas": [
+        "dois vírgula cinco por cento"
+       ],
+       "afirmacao": "Uma agroindústria de laticínios industrializa leite próprio e de terceiros. Em vez da contribuição sobre a folha, ela paga 2,5% mais 0,1% sobre a receita bruta da comercialização da produção.",
+       "gabarito": "C",
+       "porque": "É a contribuição substitutiva da agroindústria (art. 22-A, I e II, da Lei 8.212), que não vale para cooperativas nem para piscicultura, carcinicultura, suinocultura e avicultura."
+      },
+      {
+       "trecho": "II - 0,8% (oito décimos por cento) para o financiamento do seguro contra acidentes de trabalho",
+       "marcas": [
+        "0,8% (oito décimos por cento)"
+       ],
+       "afirmacao": "Uma família contrata uma empregada doméstica. Sobre o salário de contribuição dela, a família paga 8% de contribuição patronal e mais 0,8% para o seguro contra acidentes de trabalho.",
+       "gabarito": "C",
+       "porque": "São as alíquotas do art. 24, I e II, da Lei 8.212."
+      },
+      {
+       "trecho": "o empregador doméstico não poderá contratar microempreendedor individual",
+       "marcas": [
+        "não poderá contratar"
+       ],
+       "afirmacao": "Presentes os elementos da relação de emprego doméstico, o empregador pode contratar o trabalhador como microempreendedor individual e fica dispensado das obrigações do vínculo doméstico.",
+       "gabarito": "E",
+       "porque": "Ele não pode contratar MEI nessa situação e, se o fizer, responde por todas as obrigações trabalhistas, tributárias e previdenciárias (art. 24, parágrafo único)."
+      },
+      {
+       "trecho": "I - 1,2% (um inteiro e dois décimos por cento) da receita bruta proveniente da comercialização da sua produção",
+       "marcas": [
+        "1,2%"
+       ],
+       "afirmacao": "Seu José, segurado especial, vende sua produção de milho a uma cooperativa. A contribuição dele para a seguridade é de 1,2% da receita bruta da venda, mais 0,1% para acidentes do trabalho.",
+       "gabarito": "C",
+       "porque": "É a contribuição do segurado especial e do empregador rural pessoa física (art. 25, I e II, da Lei 8.212)."
+      },
+      {
+       "trecho": "e será irretratável para todo o ano-calendário",
+       "marcas": [
+        "irretratável"
+       ],
+       "afirmacao": "O produtor rural pessoa física que opta por contribuir sobre a folha de salários pode retratar-se da opção a qualquer momento do ano.",
+       "gabarito": "E",
+       "porque": "A opção, manifestada pelo pagamento sobre a folha de janeiro ou da primeira competência da atividade, é irretratável para todo o ano-calendário (art. 25, § 13)."
+      },
+      {
+       "trecho": "formado pela união de produtores rurais pessoas físicas",
+       "marcas": [
+        "pessoas físicas"
+       ],
+       "afirmacao": "Equipara-se ao empregador rural pessoa física o consórcio simplificado formado por produtores rurais pessoas físicas ou jurídicas.",
+       "gabarito": "E",
+       "porque": "O consórcio simplificado é formado só por produtores rurais pessoas físicas (art. 25-A da Lei 8.212)."
+      },
+      {
+       "trecho": "serão responsáveis solidários em relação às obrigações previdenciárias",
+       "marcas": [
+        "responsáveis solidários"
+       ],
+       "afirmacao": "Cinco produtores rurais formam um consórcio simplificado e um deles contrata trabalhadores para todos. Pelas contribuições não pagas, os cinco respondem solidariamente.",
+       "gabarito": "C",
+       "porque": "Os produtores integrantes do consórcio são responsáveis solidários pelas obrigações previdenciárias (art. 25-A, § 3º)."
+      }
+     ],
+     "conferido": {
+      "Art. 22.": "18787e7d089b",
+      "Art. 22-A.": "8bf094bf5288",
+      "Art. 22-B.": "135bfaff994d",
+      "Art. 23.": "e2c43da61271",
+      "Art. 24.": "d29cf739b50e",
+      "Art. 25.": "0f5e57fe17e4",
+      "Art. 25-A.": "a521fb3c67f1"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · RE 595.838, Tema 166 (repercussão geral, 2014)",
+     "texto": "É inconstitucional a contribuição de 15% a cargo da empresa sobre o valor bruto da nota fiscal ou fatura de serviços prestados por cooperados por intermédio de cooperativas de trabalho (art. 22, IV, da Lei 8.212)."
+    },
+    {
+     "quem": "STF · RE 718.874, Tema 669 (repercussão geral, 2017)",
+     "texto": "É constitucional, formal e materialmente, a contribuição do empregador rural pessoa física sobre a receita bruta da comercialização da produção, instituída pela Lei 10.256/2001."
+    }
+   ],
+   "detalhes": [
+    "A contribuição do inciso II do art. 22 é conhecida como RAT ou SAT (antigo seguro de acidente do trabalho); o grau de risco é o da atividade preponderante da empresa, e não o de cada empregado.",
+    "Valores dados a ministro religioso pelo mister religioso, sem relação com a quantidade de trabalho, não são remuneração para a contribuição patronal (art. 22, § 13).",
+    "O segurado especial contribui sobre a comercialização da produção; para ter benefícios acima do mínimo, pode contribuir também como facultativo (art. 25, § 1º). Já o empregador rural pessoa física contribui obrigatoriamente também como contribuinte individual (art. 25, § 2º).",
+    "Os percentuais do art. 23 foram alterados por leis posteriores: a contribuição sobre o faturamento é hoje a Cofins, e a sobre o lucro, a CSLL, disciplinadas no caderno de Direito Tributário."
+   ],
+   "macetes": [
+    {
+     "sigla": "20, 1-2-3, 20",
+     "texto": "Empresa: 20% sobre empregados e avulsos, mais 1%, 2% ou 3% de risco, e 20% sobre contribuintes individuais."
+    },
+    {
+     "sigla": "RECEITA NO LUGAR DA FOLHA",
+     "texto": "Futebol profissional: 5%. Agroindústria: 2,5% + 0,1%. Produtor rural pessoa física e segurado especial: 1,2% + 0,1%."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "A contribuição da empresa para o financiamento da aposentadoria especial e dos benefícios por riscos ambientais do trabalho é de 1%, 2% ou 3% conforme o risco da função de cada empregado.",
+    "gabarito": "E",
+    "explicacao": "O grau de risco considerado é o da atividade preponderante da empresa (art. 22, II, da Lei 8.212), e não o da função de cada empregado."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Todas as associações desportivas contribuem com 5% da receita bruta dos espetáculos, em vez da contribuição sobre a folha.",
+     "certo": "Só a associação que mantém equipe de futebol profissional; as demais contribuem pelos incisos I e II do art. 22 e pelo art. 23 (§ 10).",
+     "fonte": "Questões do app sobre o art. 22 da Lei 8.212"
+    },
+    {
+     "errado": "O regime substitutivo da agroindústria também se aplica às cooperativas e às agroindústrias de avicultura.",
+     "certo": "Não se aplica às cooperativas nem às agroindústrias de piscicultura, carcinicultura, suinocultura e avicultura (art. 22-A, § 4º).",
+     "fonte": "Questões do app sobre o art. 22-A da Lei 8.212"
+    },
+    {
+     "errado": "Integra a base da contribuição do produtor rural a venda de sementes destinadas ao plantio feita pelo próprio produtor.",
+     "certo": "A produção destinada a plantio ou reflorestamento, vendida pelo produtor ou por quem a use diretamente, não integra a base de cálculo (art. 25, § 12).",
+     "fonte": "Questões do app sobre o art. 25 da Lei 8.212"
+    }
+   ],
+   "relacionados": [
+    "financiamento-da-seguridade-empresa-e-receitas",
+    "salario-de-contribuicao-e-contribuicao-dos-segurados",
+    "arrecadacao-e-recolhimento-das-contribuicoes"
+   ]
+  },
+  {
+   "slug": "salario-de-contribuicao-e-contribuicao-dos-segurados",
+   "titulo": "Salário de contribuição e contribuição dos segurados: parcelas, limites, alíquotas, plano simplificado, complementação e indenização",
+   "grupo": "Custeio: financiamento, contribuições e salário de contribuição",
+   "base": "Arts. 20, 21, 28 e 45-A da Lei 8.212/1991; EC 103/2019 (arts. 28 e 29)",
+   "tax": [
+    "previdenciario.salario-contribuicao",
+    "previdenciario.parcelas-salario-contribuicao",
+    "previdenciario.limites-salario-contribuicao",
+    "previdenciario.complementacao-contribuicao-minima",
+    "previdenciario.reajustamento-salario-contribuicao"
+   ],
+   "dispositivos": [
+    "n8212-1991-art-20",
+    "n8212-1991-art-21",
+    "n8212-1991-art-28",
+    "n8212-1991-art-45-a"
+   ],
+   "conceitos": [
+    "salário de contribuição",
+    "limite mínimo",
+    "limite máximo",
+    "proporcionalidade no mês incompleto",
+    "salário-maternidade",
+    "décimo terceiro salário",
+    "parcelas que não integram",
+    "contribuição do empregado",
+    "alíquotas progressivas da EC 103",
+    "contribuinte individual e facultativo",
+    "plano simplificado",
+    "facultativo de baixa renda",
+    "complementação",
+    "agrupamento de contribuições",
+    "indenização de período decadente"
+   ],
+   "palavras": [
+    "salario de contribuicao",
+    "art 20",
+    "art 21",
+    "art 28",
+    "art 45-a",
+    "remuneracao",
+    "totalidade dos rendimentos",
+    "gorjetas",
+    "utilidades",
+    "empregado domestico",
+    "carteira de trabalho",
+    "contribuinte individual",
+    "facultativo",
+    "valor declarado",
+    "proporcional",
+    "dias de trabalho",
+    "salario-maternidade",
+    "limite minimo",
+    "piso salarial",
+    "salario minimo",
+    "menor aprendiz",
+    "limite maximo",
+    "teto",
+    "reajustado",
+    "decimo terceiro",
+    "ferias indenizadas",
+    "terco constitucional",
+    "incentivo a demissao",
+    "abono de ferias",
+    "ganhos eventuais",
+    "licenca-premio",
+    "vale-transporte",
+    "ajuda de custo",
+    "diarias para viagens",
+    "bolsa de estagio",
+    "participacao nos lucros",
+    "plr",
+    "abono pis",
+    "assistencia medica",
+    "vestuario",
+    "reembolso creche",
+    "seis anos",
+    "plano educacional",
+    "direitos autorais",
+    "vale-cultura",
+    "premios",
+    "bolsa-atleta",
+    "aviso previo indenizado",
+    "aliquota",
+    "sete e meio por cento",
+    "quatorze por cento",
+    "progressiva",
+    "vinte por cento",
+    "onze por cento",
+    "cinco por cento",
+    "mei",
+    "dona de casa",
+    "baixa renda",
+    "cadunico",
+    "dois salarios minimos",
+    "complementar",
+    "juros moratorios",
+    "agrupamento",
+    "mesmo ano civil",
+    "indenizacao",
+    "decadencia",
+    "oitenta por cento",
+    "meio por cento ao mes",
+    "multa de dez por cento"
+   ],
+   "resumo": "<strong>Salário de contribuição</strong> é a base sobre a qual o segurado contribui e que depois entra no cálculo do benefício. Para empregado e avulso, é a remuneração total do mês destinada a retribuir o trabalho; para o doméstico, a remuneração registrada na carteira; para o contribuinte individual, o que ele ganha; para o facultativo, o valor que declara. Tem <strong>limite mínimo</strong> (o piso da categoria ou, sem ele, o salário mínimo) e <strong>limite máximo</strong> (o teto, reajustado com os benefícios). O § 9º do art. 28 lista, em rol exaustivo, as parcelas que não o integram: férias indenizadas, diárias, vale-transporte, PLR paga conforme a lei, prêmios e outras. O empregado contribui com alíquotas progressivas, que a EC 103 fixou de 7,5% a 14%. O contribuinte individual e o facultativo pagam 20%, ou 11% ou 5% no plano simplificado, que exclui a aposentadoria por tempo de contribuição. Quem paga menos e quer esse tempo para aposentadoria por tempo de contribuição ou contagem recíproca complementa a diferença com juros.",
+   "esquema": {
+    "rotulo": "o salário de contribuição de cada segurado (art. 28)",
+    "html": "<table><thead><tr><th>Segurado</th><th>Salário de contribuição</th><th>Alíquota do segurado</th></tr></thead><tbody><tr><td><strong>Empregado e trabalhador avulso</strong></td><td>Remuneração total do mês destinada a retribuir o trabalho, em uma ou mais empresas</td><td>Progressiva por faixa: 7,5%, 9%, 12% e 14% (EC 103, art. 28)</td></tr><tr><td><strong>Empregado doméstico</strong></td><td>Remuneração registrada na carteira de trabalho</td><td>As mesmas do empregado</td></tr><tr><td><strong>Contribuinte individual</strong></td><td>Remuneração em uma ou mais empresas ou por conta própria, até o teto</td><td>20%; 11% no plano simplificado; 5% para o MEI</td></tr><tr><td><strong>Facultativo</strong></td><td>Valor declarado, até o teto</td><td>20%; 11% no plano simplificado; 5% para a dona de casa de baixa renda</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Limite mínimo",
+      "o_que_e": "Piso salarial, legal ou normativo, da categoria ou, sem ele, o salário mínimo, no valor mensal, diário ou horário, conforme o ajustado e o tempo de trabalho.",
+      "atencao": "Para o menor aprendiz, a remuneração mínima definida em lei."
+     },
+     {
+      "nome": "Limite máximo",
+      "o_que_e": "O teto do salário de contribuição, reajustado na mesma época e pelos mesmos índices dos benefícios de prestação continuada.",
+      "atencao": "O que passa do teto não sofre contribuição do segurado."
+     },
+     {
+      "nome": "Plano simplificado",
+      "o_que_e": "Contribuição sobre o limite mínimo com alíquota reduzida (11% ou 5%), em troca da exclusão do direito à aposentadoria por tempo de contribuição."
+     },
+     {
+      "nome": "Família de baixa renda",
+      "o_que_e": "Para a alíquota de 5% do facultativo dona de casa: família inscrita no CadÚnico com renda mensal de até 2 salários mínimos."
+     },
+     {
+      "nome": "Complementação",
+      "o_que_e": "Pagamento da diferença até 20% sobre o limite mínimo, com juros, para usar o tempo do plano simplificado em aposentadoria por tempo de contribuição ou contagem recíproca.",
+      "atencao": "Exigível a qualquer tempo, sob pena de indeferimento do benefício."
+     },
+     {
+      "nome": "Indenização de período decadente",
+      "o_que_e": "Pagamento que o contribuinte individual faz ao INSS para contar período de atividade já alcançado pela decadência."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 20.",
+      "Art. 21.",
+      "Art. 28.",
+      "Art. 45-A."
+     ],
+     "ref": "arts. 20, 21, 28 e 45-A da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 20.</strong> O empregado, inclusive o doméstico, e o avulso contribuem pela aplicação da alíquota correspondente sobre o salário de contribuição mensal, de forma não cumulativa, conforme a tabela legal de faixas de 8%, 9% e 11% (hoje substituída pelas alíquotas progressivas da EC 103). Os valores das faixas são reajustados com os benefícios de prestação continuada (§ 1º), e a regra vale também para quem trabalha em microempresa (§ 2º).",
+      "<strong>Art. 21.</strong> Contribuinte individual e facultativo pagam 20% sobre o salário de contribuição; os incisos I e II foram revogados. Os valores são reajustados com os benefícios (§ 1º). Quem opta por excluir a aposentadoria por tempo de contribuição paga, sobre o limite mínimo, 11% se for contribuinte individual que trabalha por conta própria, sem relação com empresa, ou facultativo (§ 2º, I), ou 5% se for MEI ou facultativo sem renda própria dedicado só ao trabalho doméstico em casa, de família de baixa renda (§ 2º, II, a e b). Para usar esse tempo em aposentadoria por tempo de contribuição ou contagem recíproca, complementa a diferença até 20% sobre o limite mínimo vigente na competência, com juros moratórios (§ 3º). Família de baixa renda é a inscrita no CadÚnico com renda de até 2 salários mínimos (§ 4º). A complementação é exigida a qualquer tempo, sob pena de indeferimento do benefício (§ 5º).",
+      "<strong>Art. 28, caput e I a IV.</strong> Salário de contribuição de cada segurado: veja o esquema. Para empregado e avulso, inclui gorjetas, ganhos habituais em utilidades e adiantamentos de reajuste, pelos serviços prestados ou pelo tempo à disposição (I); para o doméstico, a remuneração registrada na carteira (II); para o contribuinte individual, a remuneração em empresas ou por conta própria, até o teto (III); para o facultativo, o valor declarado, até o teto (IV).",
+      "<strong>Art. 28, §§ 1º a 8º.</strong> Admissão, dispensa, afastamento ou falta no curso do mês tornam o salário de contribuição proporcional aos dias de trabalho efetivo (§ 1º). O salário-maternidade é salário de contribuição (§ 2º). Limites mínimo e máximo: veja as figuras (§§ 3º a 5º). A lei previu o envio de projeto sobre previdência complementar em 180 dias (§ 6º). O décimo terceiro integra o salário de contribuição, exceto para o cálculo do benefício (§ 7º). O § 8º foi revogado.",
+      "<strong>Art. 28, § 9º, a a l.</strong> Não integram o salário de contribuição, exclusivamente: os benefícios da previdência, salvo o salário-maternidade (a); ajudas de custo e adicional mensal do aeronauta (b); a alimentação in natura de programa aprovado (c); férias indenizadas e o terço respectivo, inclusive a dobra (d); a indenização do art. 10, I, do ADCT, a indenização por tempo de serviço anterior a 1988 do não optante pelo FGTS, as indenizações dos arts. 479 da CLT e 14 da Lei 5.889/1973, o incentivo à demissão, o abono de férias dos arts. 143 e 144 da CLT, ganhos eventuais e abonos expressamente desvinculados do salário, licença-prêmio indenizada e a indenização do art. 9º da Lei 7.238/1984 (e, 1 a 9); vale-transporte (f); ajuda de custo em parcela única por mudança de local de trabalho (g); diárias para viagens (h); bolsa de estágio paga nos termos da lei (i); participação nos lucros paga conforme lei específica (j); abono do PIS e do Pasep (l).",
+      "<strong>Art. 28, § 9º, m a aa, e §§ 10 e 11.</strong> Também não integram: transporte, alimentação e habitação dados ao empregado que trabalha longe de casa, em canteiro de obras ou local que exija deslocamento (m); complementação do auxílio-doença estendida a todos os empregados (n); assistência ao trabalhador da agroindústria canavieira (o); contribuições a previdência complementar disponível a todos os empregados e dirigentes (p); assistência médica ou odontológica própria ou conveniada, com reembolso de remédios, óculos e próteses (q); vestuário e equipamentos usados no trabalho (r); ressarcimento pelo uso de veículo do empregado e reembolso creche até 6 anos de idade, comprovadas as despesas (s); plano educacional ou bolsa de estudo para educação básica ou profissional, que não substitua salário e não passe de 5% da remuneração ou de 1,5 vez o limite mínimo, o que for maior (t, 1 e 2); bolsa de aprendizagem do adolescente até 14 anos (u); cessão de direitos autorais (v); multa do art. 477, § 8º, da CLT (x); vale-cultura (y); prêmios e abonos (z); bolsa-atleta (aa). Para o dirigente sindical, o salário de contribuição é a remuneração efetivamente recebida na entidade sindical ou na empresa de origem (§ 10). Para o condutor autônomo e o operador de máquinas, a remuneração é 20% do valor bruto do frete ou serviço, até o teto (§ 11).",
+      "<strong>Art. 45-A.</strong> O contribuinte individual que quer contar período alcançado pela decadência indeniza o INSS. A indenização é de 20% da média dos maiores salários de contribuição correspondentes a 80% do período desde julho de 1994 (§ 1º, I) ou, para contagem recíproca, da remuneração de contribuição ao regime próprio, até o teto (§ 1º, II). Incidem juros de 0,5% ao mês, capitalizados anualmente, até 50%, e multa de 10% (§ 2º). Contribuições atrasadas ainda não decadentes seguem as regras das empresas em geral (§ 3º). A multa não se aplica ao tempo rural do empregado rural e do segurado especial anterior à obrigatoriedade da filiação (§ 4º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "será de vinte por cento sobre o respectivo salário-de-contribuição",
+       "marcas": [
+        "vinte por cento"
+       ],
+       "afirmacao": "Marta, advogada autônoma, recebeu de honorários no mês um valor abaixo do teto e não aderiu ao plano simplificado. Ela contribui com 20% sobre o que recebeu.",
+       "gabarito": "C",
+       "porque": "Contribuinte individual e facultativo pagam 20% sobre o salário de contribuição (art. 21 da Lei 8.212)."
+      },
+      {
+       "trecho": "do segurado facultativo sem renda própria que se dedique exclusivamente ao trabalho doméstico no âmbito de sua residência",
+       "marcas": [
+        "sem renda própria"
+       ],
+       "afirmacao": "A alíquota reduzida de 5% sobre o limite mínimo vale para qualquer segurado facultativo de família de baixa renda, mesmo que tenha renda própria.",
+       "gabarito": "E",
+       "porque": "Os 5% valem para o facultativo sem renda própria que se dedica só ao trabalho doméstico em casa, de família de baixa renda, e para o MEI (art. 21, § 2º, II)."
+      },
+      {
+       "trecho": "cuja renda mensal seja de até 2 (dois) salários mínimos",
+       "marcas": [
+        "2 (dois) salários mínimos"
+       ],
+       "afirmacao": "Lúcia cuida só da casa, não tem renda própria e sua família, inscrita no CadÚnico, tem renda mensal de um salário mínimo e meio. Ela pode contribuir como facultativa com alíquota de 5% sobre o limite mínimo.",
+       "gabarito": "C",
+       "porque": "É de baixa renda a família inscrita no CadÚnico com renda mensal de até 2 salários mínimos (art. 21, § 4º)."
+      },
+      {
+       "trecho": "acrescido dos juros moratórios de que trata o § 3º do art. 5º da Lei nº 9.430",
+       "marcas": [
+        "juros moratórios"
+       ],
+       "afirmacao": "O contribuinte individual que recolheu com alíquota de 11% e quer usar o período em contagem recíproca deve complementar a diferença até 20%, sem acréscimo de juros.",
+       "gabarito": "E",
+       "porque": "A complementação da diferença até 20% é acrescida de juros moratórios (art. 21, § 3º, da Lei 8.212)."
+      },
+      {
+       "trecho": "será exigida a qualquer tempo, sob pena de indeferimento do benefício",
+       "marcas": [
+        "a qualquer tempo"
+       ],
+       "afirmacao": "Um segurado do plano simplificado pede aposentadoria por tempo de contribuição sem ter complementado as contribuições. O INSS pode exigir a complementação, mesmo muitos anos depois, e negar o benefício se ela não for feita.",
+       "gabarito": "C",
+       "porque": "A contribuição complementar é exigida a qualquer tempo, sob pena de indeferimento do benefício (art. 21, § 5º)."
+      },
+      {
+       "trecho": "proporcional ao número de dias de trabalho efetivo",
+       "marcas": [
+        "proporcional"
+       ],
+       "afirmacao": "João foi admitido no dia 16 de um mês de 30 dias. O salário de contribuição dele naquele mês é proporcional aos dias efetivamente trabalhados.",
+       "gabarito": "C",
+       "porque": "Na admissão, dispensa, afastamento ou falta no curso do mês, o salário de contribuição é proporcional aos dias de trabalho efetivo (art. 28, § 1º)."
+      },
+      {
+       "trecho": "corresponde ao piso salarial, legal ou normativo, da categoria ou, inexistindo este, ao salário mínimo",
+       "marcas": [
+        "piso salarial"
+       ],
+       "afirmacao": "O limite mínimo do salário de contribuição é sempre o salário mínimo, ainda que a categoria tenha piso salarial normativo superior.",
+       "gabarito": "E",
+       "porque": "O limite mínimo é o piso salarial, legal ou normativo, da categoria; só sem ele é o salário mínimo (art. 28, § 3º)."
+      },
+      {
+       "trecho": "corresponde à sua remuneração mínima definida em lei",
+       "marcas": [
+        "remuneração mínima definida em lei"
+       ],
+       "afirmacao": "O limite mínimo do salário de contribuição do menor aprendiz é sempre o salário mínimo mensal integral.",
+       "gabarito": "E",
+       "porque": "Para o menor aprendiz, o limite mínimo é a remuneração mínima definida em lei (art. 28, § 4º)."
+      },
+      {
+       "trecho": "exceto para o cálculo de benefício",
+       "marcas": [
+        "exceto para o cálculo de benefício"
+       ],
+       "afirmacao": "O décimo terceiro salário integra o salário de contribuição, inclusive para o cálculo do salário de benefício.",
+       "gabarito": "E",
+       "porque": "O décimo terceiro integra o salário de contribuição, exceto para o cálculo do benefício (art. 28, § 7º)."
+      },
+      {
+       "trecho": "o valor por ele declarado",
+       "marcas": [
+        "declarado"
+       ],
+       "afirmacao": "O salário de contribuição do segurado facultativo é a remuneração que ele recebe por atividade exercida por conta própria.",
+       "gabarito": "E",
+       "porque": "O facultativo não exerce atividade remunerada abrangida; seu salário de contribuição é o valor que declara, até o teto (art. 28, IV)."
+      },
+      {
+       "trecho": "h) as diárias para viagens",
+       "marcas": [
+        "diárias para viagens"
+       ],
+       "afirmacao": "Um vendedor recebe diárias para cobrir hospedagem e alimentação nas viagens a serviço. Esses valores não integram o salário de contribuição.",
+       "gabarito": "C",
+       "porque": "As diárias para viagens estão no rol do art. 28, § 9º, h, das parcelas que não integram o salário de contribuição."
+      },
+      {
+       "trecho": "quando paga ou creditada de acordo com lei específica",
+       "marcas": [
+        "de acordo com lei específica"
+       ],
+       "afirmacao": "A participação nos lucros ou resultados não integra o salário de contribuição, ainda que paga em desacordo com a lei específica.",
+       "gabarito": "E",
+       "porque": "A PLR fica fora do salário de contribuição só quando paga ou creditada de acordo com a lei específica (art. 28, § 9º, j)."
+      },
+      {
+       "trecho": "limitados ao percentual máximo de 50% (cinqüenta por cento), e multa de 10% (dez por cento)",
+       "marcas": [
+        "50% (cinqüenta por cento)",
+        "10% (dez por cento)"
+       ],
+       "afirmacao": "Na indenização do período decadente do contribuinte individual, os juros são de 0,5% ao mês, capitalizados anualmente e limitados a 50%, e a multa é de 10%.",
+       "gabarito": "C",
+       "porque": "São os acréscimos do art. 45-A, § 2º, da Lei 8.212. A multa não se aplica ao tempo rural anterior à obrigatoriedade da filiação (§ 4º)."
+      }
+     ],
+     "conferido": {
+      "Art. 20.": "ebef7e1adab9",
+      "Art. 21.": "bbdc4293f01e",
+      "Art. 28.": "9ff1ab2d6891",
+      "Art. 45-A.": "1c5c5f777498"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · RE 565.160, Tema 20 (repercussão geral, 2017)",
+     "texto": "A contribuição social a cargo do empregador incide sobre os ganhos habituais do empregado, quer anteriores, quer posteriores à EC 20/1998."
+    },
+    {
+     "quem": "STF · RE 576.967, Tema 72 (repercussão geral, 2020)",
+     "texto": "É inconstitucional a incidência da contribuição previdenciária a cargo do empregador sobre o salário-maternidade."
+    },
+    {
+     "quem": "STF · RE 1.072.485, Tema 985 (repercussão geral, 2020)",
+     "texto": "É legítima a incidência de contribuição social sobre o valor pago a título de terço constitucional de férias gozadas."
+    },
+    {
+     "quem": "STF · Súmulas 241 e 688",
+     "texto": "A contribuição previdenciária incide sobre o abono incorporado ao salário (Súmula 241) e é legítima sobre o décimo terceiro salário (Súmula 688)."
+    },
+    {
+     "quem": "STJ · REsp 1.230.957, Tema 478 (recurso repetitivo, 2014)",
+     "texto": "Não incide contribuição previdenciária sobre o aviso prévio indenizado, por não ter natureza salarial."
+    }
+   ],
+   "detalhes": [
+    "Pela EC 103 (art. 28), até que lei altere, o empregado, o doméstico e o avulso contribuem com alíquotas progressivas por faixa do salário de contribuição: 7,5% até um salário mínimo, depois 9%, 12% e 14% até o teto, cada alíquota sobre a parcela da sua faixa.",
+    "Pela EC 103 (art. 29), a competência com contribuição abaixo da mínima mensal só conta como tempo de contribuição se o segurado complementar o valor, usar o excedente de outra competência ou agrupar contribuições, e esses ajustes só podem ser feitos dentro do mesmo ano civil.",
+    "O salário-maternidade continua sendo salário de contribuição da segurada (art. 28, § 2º), mas o STF afastou a contribuição patronal sobre ele (Tema 72).",
+    "O que ultrapassa o teto não sofre a contribuição do segurado; a contribuição patronal de 20% sobre a folha não tem esse limite.",
+    "O rol do § 9º é exaustivo (\"exclusivamente\"): ajuda de custo só fica de fora em parcela única por mudança de local de trabalho, e não quando paga todo mês.",
+    "O salário de contribuição usado no cálculo do benefício é atualizado, na forma da lei (CF, art. 201, § 3º); não entra pelo valor nominal."
+   ],
+   "macetes": [
+    {
+     "sigla": "20, 11 E 5",
+     "texto": "Contribuinte individual e facultativo: 20%. Plano simplificado: 11%. MEI e dona de casa de baixa renda: 5%."
+    },
+    {
+     "sigla": "PISO DA CATEGORIA ANTES DO MÍNIMO",
+     "texto": "O limite mínimo é o piso salarial da categoria; só sem piso vale o salário mínimo. Para o aprendiz, a remuneração mínima legal."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Qualquer ajuda de custo paga ao empregado, ainda que mensal e habitual, fica fora do salário de contribuição.",
+    "gabarito": "E",
+    "explicacao": "Só fica fora a ajuda de custo em parcela única recebida por mudança de local de trabalho (art. 28, § 9º, g) e a do aeronauta (b); o rol do § 9º é exaustivo."
+   },
+   "pegadinhas": [
+    {
+     "errado": "As férias indenizadas e o respectivo terço constitucional integram o salário de contribuição do empregado.",
+     "certo": "Não integram (art. 28, § 9º, d). Integra o terço das férias gozadas (STF, Tema 985).",
+     "fonte": "Questões do app sobre as parcelas do salário de contribuição"
+    },
+    {
+     "errado": "Após a EC 103/2019, a competência com contribuição inferior à mínima conta normalmente, e a diferença é descontada do benefício.",
+     "certo": "Só conta se houver complementação, aproveitamento de excedente ou agrupamento, no mesmo ano civil (EC 103, art. 29).",
+     "fonte": "Questões do app sobre a complementação de contribuições"
+    },
+    {
+     "errado": "O reembolso creche fica fora do salário de contribuição qualquer que seja a idade da criança.",
+     "certo": "Fica fora o reembolso creche observado o limite de seis anos de idade, comprovadas as despesas (art. 28, § 9º, s).",
+     "fonte": "Questões do app sobre o art. 28 da Lei 8.212"
+    },
+    {
+     "errado": "Os benefícios em manutenção são reajustados semestralmente pelo IPCA, independentemente de lei.",
+     "certo": "O reajuste preserva o valor real conforme critérios definidos em lei (CF, art. 201, § 4º), e os limites do salário de contribuição seguem o reajuste dos benefícios (art. 28, § 5º).",
+     "fonte": "Questões do app sobre o reajustamento"
+    }
+   ],
+   "relacionados": [
+    "contribuicoes-da-empresa-do-empregador-domestico-e-do-produtor-rural",
+    "segurado-facultativo-filiacao-inscricao-e-qualidade-de-segurado",
+    "arrecadacao-e-recolhimento-das-contribuicoes"
+   ]
+  },
+  {
+   "slug": "arrecadacao-e-recolhimento-das-contribuicoes",
+   "titulo": "Arrecadação e recolhimento das contribuições: prazos, sub-rogação rural, solidariedade, retenção de 11% e acréscimos de mora",
+   "grupo": "Arrecadação, fiscalização e cobrança",
+   "base": "Arts. 30, 31, 35 e 35-A da Lei 8.212/1991",
+   "tax": [
+    "previdenciario.arrecadacao-recolhimento"
+   ],
+   "dispositivos": [
+    "n8212-1991-art-30",
+    "n8212-1991-art-31",
+    "n8212-1991-art-35",
+    "n8212-1991-art-35-a"
+   ],
+   "conceitos": [
+    "dever de arrecadar e recolher",
+    "prazo do dia 20",
+    "prazo do dia 15",
+    "sub-rogação do adquirente da produção rural",
+    "solidariedade na construção civil",
+    "benefício de ordem",
+    "obra unifamiliar sem mão de obra assalariada",
+    "grupo econômico",
+    "dedução do contribuinte individual",
+    "retenção de 11% na cessão de mão de obra",
+    "cessão de mão de obra",
+    "multa e juros de mora",
+    "multa de ofício"
+   ],
+   "palavras": [
+    "arrecadacao",
+    "recolhimento",
+    "art 30",
+    "art 31",
+    "art 35",
+    "art 35-a",
+    "descontar",
+    "dia 20",
+    "dia vinte",
+    "mes subsequente",
+    "competencia",
+    "dia 15",
+    "dia quinze",
+    "iniciativa propria",
+    "adquirente",
+    "consignataria",
+    "cooperativa",
+    "sub-rogada",
+    "empregador domestico",
+    "construcao civil",
+    "dono da obra",
+    "incorporador",
+    "solidarios",
+    "beneficio de ordem",
+    "direito regressivo",
+    "retencao",
+    "unifamiliar",
+    "mao de obra assalariada",
+    "grupo economico",
+    "varejo",
+    "exterior",
+    "artesanato",
+    "dia util anterior",
+    "dia util posterior",
+    "dirigente sindical",
+    "quarenta e cinco por cento",
+    "nove por cento",
+    "cooperado",
+    "nota fiscal de entrada",
+    "cessao de mao de obra",
+    "onze por cento",
+    "valor bruto da nota fiscal",
+    "compensacao",
+    "restituicao",
+    "servicos continuos",
+    "atividade-fim",
+    "limpeza",
+    "vigilancia",
+    "empreitada",
+    "trabalho temporario",
+    "folhas de pagamento distintas",
+    "consorcio",
+    "multa de mora",
+    "juros de mora",
+    "lei 9430",
+    "multa de oficio"
+   ],
+   "resumo": "A Lei 8.212 escolhe quem arrecada e quem recolhe cada contribuição. A <strong>empresa</strong> desconta a contribuição de empregados e avulsos e recolhe esse valor, com a sua parte, até o <strong>dia 20</strong> do mês seguinte ao da competência. O contribuinte individual e o facultativo recolhem por iniciativa própria até o <strong>dia 15</strong>, e o empregador doméstico, até o dia 20. Na produção rural, quem compra do produtor pessoa física ou do segurado especial fica <strong>sub-rogado</strong> e recolhe a contribuição sobre a receita bruta; o próprio produtor só recolhe quando vende no exterior, no varejo ao consumidor ou a outro produtor. Há solidariedade na construção civil, sem benefício de ordem, e entre as empresas do grupo econômico. Quem contrata serviço com <strong>cessão de mão de obra</strong> retém 11% da nota e recolhe em nome da empresa cedente. Débito não pago no prazo tem multa e juros de mora da Lei 9.430; no lançamento de ofício, aplica-se a multa de ofício da mesma lei.",
+   "esquema": {
+    "rotulo": "quem recolhe e até quando",
+    "html": "<table><thead><tr><th>Obrigado</th><th>O que recolhe</th><th>Prazo</th></tr></thead><tbody><tr><td><strong>Empresa</strong></td><td>Contribuição descontada de empregados e avulsos, a da cooperativa de trabalho e a sua sobre remunerações</td><td>Dia 20 do mês seguinte à competência; sem expediente bancário, dia útil anterior</td></tr><tr><td><strong>Contribuinte individual e facultativo</strong></td><td>A própria contribuição, por iniciativa própria</td><td>Dia 15 do mês seguinte; sem expediente bancário, dia útil posterior</td></tr><tr><td><strong>Adquirente, consumidor, consignatário ou cooperativa da produção rural</strong></td><td>Contribuição do art. 25, como sub-rogado</td><td>Dia 20 do mês seguinte à venda</td></tr><tr><td><strong>Empregador doméstico</strong></td><td>Contribuição do doméstico e a sua</td><td>Dia 20 do mês seguinte</td></tr><tr><td><strong>Contratante de cessão de mão de obra</strong></td><td>11% do valor bruto da nota, em nome da cedente</td><td>Dia 20 do mês seguinte à emissão da nota</td></tr><tr><td><strong>Segurado especial que contrata</strong></td><td>Contribuição dos trabalhadores a seu serviço</td><td>Prazo da empresa (dia 20)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Sub-rogação",
+      "o_que_e": "O adquirente, consumidor, consignatário ou cooperativa assume a obrigação do produtor rural pessoa física e do segurado especial de recolher a contribuição sobre a venda.",
+      "atencao": "Não vale nas vendas do inciso X."
+     },
+     {
+      "nome": "Benefício de ordem",
+      "o_que_e": "Direito do responsável de exigir que primeiro se cobre o devedor principal.",
+      "atencao": "Não se aplica à solidariedade da construção civil."
+     },
+     {
+      "nome": "Cessão de mão de obra",
+      "o_que_e": "Colocação à disposição do contratante, nas dependências dele ou de terceiros, de segurados que fazem serviços contínuos, ligados ou não à atividade-fim, qualquer que seja a forma de contratação.",
+      "atencao": "Exemplos: limpeza, vigilância, empreitada de mão de obra e trabalho temporário."
+     },
+     {
+      "nome": "Retenção de 11%",
+      "o_que_e": "Antecipação feita pelo contratante sobre o valor bruto da nota, que a cedente compensa no recolhimento sobre a própria folha e, se sobrar, pede restituição."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 30.",
+      "Art. 31.",
+      "Art. 35.",
+      "Art. 35-A."
+     ],
+     "ref": "arts. 30, 31, 35 e 35-A da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 30, I a V.</strong> A empresa arrecada as contribuições dos empregados e avulsos, descontando-as da remuneração (I, a), e recolhe esses valores, a contribuição do art. 22, IV, e as suas sobre as remunerações de empregados, avulsos e contribuintes individuais até o dia 20 do mês seguinte à competência (I, b); as contribuições do art. 23 seguem a legislação tributária (I, c). Contribuinte individual e facultativo recolhem por iniciativa própria até o dia 15 do mês seguinte (II). Adquirente, consumidor, consignatário ou cooperativa recolhem a contribuição do art. 25 até o dia 20 do mês seguinte à venda ou consignação, mesmo com intermediário pessoa física (III), e ficam sub-rogados nas obrigações do produtor rural pessoa física e do segurado especial, salvo no inciso X (IV). O empregador doméstico arrecada e recolhe a contribuição do doméstico e a sua até o dia 20 (V).",
+      "<strong>Art. 30, VI a IX.</strong> Proprietário, incorporador, dono da obra ou condômino são solidários com o construtor, e este com a subempreiteira, pelas obrigações da obra, com direito regressivo e possibilidade de reter valores devidos ao executor, sem benefício de ordem (VI). O adquirente de imóvel que compra de empresa de comercialização ou incorporador fica fora da solidariedade, que passa a eles com o construtor (VII). Não há contribuição na construção residencial unifamiliar, para uso próprio, de tipo econômico, feita sem mão de obra assalariada (VIII). As empresas de grupo econômico de qualquer natureza respondem solidariamente entre si (IX).",
+      "<strong>Art. 30, X a XIII.</strong> O produtor rural pessoa física e o segurado especial recolhem eles mesmos a contribuição do art. 25, no prazo do inciso III, quando vendem no exterior (X, a), no varejo ao consumidor pessoa física (b), a outro produtor pessoa física (c) ou a segurado especial (d). A pessoa física não produtora que compra para revender no varejo segue os incisos III e IV (XI). Produtor e segurado especial recolhem diretamente a contribuição sobre artesanato com matéria-prima do grupo (XII, a), artesanato e atividade artística (b) e turismo rural (c). O segurado especial arrecada e recolhe a contribuição dos trabalhadores que contrata, no prazo da empresa (XIII).",
+      "<strong>Art. 30, §§ 1º a 9º.</strong> Sem expediente bancário, o recolhimento do inciso II vai para o dia útil seguinte (§ 2º, I), e os do inciso I, b, e dos incisos III, V, X e XIII vêm para o dia útil anterior (§ 2º, II). A entidade sindical e a empresa de origem arrecadam e recolhem a contribuição do dirigente sindical (§ 3º). O contribuinte individual que presta serviço a empresa deduz da sua contribuição 45% da contribuição da empresa sobre a remuneração que lhe pagou, limitada a dedução a 9% do seu salário de contribuição (§ 4º), regra que vale para o cooperado de cooperativa de trabalho (§ 5º). A empresa ou cooperativa adquirente fornece ao segurado especial cópia da nota de entrada (§ 7º). O grupo familiar comunica à Previdência o ano sem receita de comercialização (§ 8º) e o ano em que vendeu só a adquirente, consignatária ou cooperativa (§ 9º). Os §§ 1º e 6º foram revogados.",
+      "<strong>Art. 31.</strong> O contratante de serviços por cessão de mão de obra, inclusive trabalho temporário, retém 11% do valor bruto da nota ou fatura e recolhe em nome da cedente até o dia 20 do mês seguinte à emissão, ou no dia útil anterior. O valor retido, destacado na nota, é compensado por qualquer estabelecimento da cedente no recolhimento sobre sua folha (§ 1º), e o saldo é restituído (§ 2º). Cessão de mão de obra: veja as figuras (§ 3º), com os serviços do § 4º (limpeza, conservação e zeladoria; vigilância e segurança; empreitada de mão de obra; trabalho temporário da Lei 6.019/1974), além de outros do regulamento. A cedente faz folhas de pagamento distintas para cada contratante (§ 5º). No consórcio da Lei 6.404/1976, a retenção observa a participação de cada consorciada (§ 6º).",
+      "<strong>Arts. 35 e 35-A.</strong> Os débitos com a União das contribuições do art. 11, parágrafo único, a, b e c, das substitutivas e das devidas a terceiros (outras entidades e fundos), não pagos no prazo, têm multa de mora e juros de mora do art. 61 da Lei 9.430/1996; os antigos incisos e parágrafos foram revogados. No lançamento de ofício dessas contribuições, aplica-se o art. 44 da Lei 9.430/1996 (art. 35-A)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "até o dia 20 (vinte) do mês subsequente ao da competência",
+       "marcas": [
+        "dia 20 (vinte)"
+       ],
+       "afirmacao": "A empresa deve recolher as contribuições descontadas de seus empregados até o dia 15 do mês seguinte ao da competência.",
+       "gabarito": "E",
+       "porque": "A empresa recolhe até o dia 20 do mês seguinte à competência (art. 30, I, b). O dia 15 é o prazo do contribuinte individual e do facultativo."
+      },
+      {
+       "trecho": "até o dia quinze do mês seguinte ao da competência",
+       "marcas": [
+        "dia quinze"
+       ],
+       "afirmacao": "Rafael, segurado facultativo, quer recolher a contribuição da competência de março. Ele deve pagá-la por iniciativa própria até 15 de abril.",
+       "gabarito": "C",
+       "porque": "Contribuinte individual e facultativo recolhem por iniciativa própria até o dia 15 do mês seguinte ao da competência (art. 30, II)."
+      },
+      {
+       "trecho": "o recolhimento deverá ser efetuado até o dia útil imediatamente posterior",
+       "marcas": [
+        "dia útil imediatamente posterior"
+       ],
+       "afirmacao": "O dia 15 caiu num feriado sem expediente bancário. A contribuinte individual Joana pode recolher sua contribuição no dia útil seguinte sem atraso.",
+       "gabarito": "C",
+       "porque": "No prazo do inciso II (dia 15), sem expediente bancário, o recolhimento vai para o dia útil imediatamente posterior (art. 30, § 2º, I)."
+      },
+      {
+       "trecho": "não se aplicando, em qualquer hipótese, o benefício de ordem",
+       "marcas": [
+        "benefício de ordem"
+       ],
+       "afirmacao": "O dono da obra é solidário com o construtor pelas obrigações com a seguridade, mas pode invocar o benefício de ordem para que primeiro se executem os bens do construtor.",
+       "gabarito": "E",
+       "porque": "Na solidariedade da construção civil não se aplica, em hipótese alguma, o benefício de ordem (art. 30, VI)."
+      },
+      {
+       "trecho": "se a construção residencial unifamiliar, destinada ao uso próprio, de tipo econômico, for executada sem mão-de-obra assalariada",
+       "marcas": [
+        "sem mão-de-obra assalariada"
+       ],
+       "afirmacao": "Um casal constrói, sozinho e com ajuda de parentes não remunerados, uma casa simples para morar. Não é devida contribuição à seguridade sobre essa obra.",
+       "gabarito": "C",
+       "porque": "Nenhuma contribuição é devida na construção residencial unifamiliar, para uso próprio, de tipo econômico, sem mão de obra assalariada (art. 30, VIII)."
+      },
+      {
+       "trecho": "as empresas que integram grupo econômico de qualquer natureza respondem entre si, solidariamente",
+       "marcas": [
+        "solidariamente"
+       ],
+       "afirmacao": "Duas empresas do mesmo grupo econômico atuam em ramos diferentes. Uma delas deixa de recolher contribuições; a outra responde solidariamente pelo débito.",
+       "gabarito": "C",
+       "porque": "As empresas de grupo econômico de qualquer natureza respondem entre si, solidariamente, pelas obrigações da Lei 8.212 (art. 30, IX)."
+      },
+      {
+       "trecho": "limitada a dedução a nove por cento do respectivo salário-de-contribuição",
+       "marcas": [
+        "nove por cento"
+       ],
+       "afirmacao": "O contribuinte individual que presta serviço a empresa pode deduzir de sua contribuição 45% da contribuição da empresa sobre sua remuneração, sem limite.",
+       "gabarito": "E",
+       "porque": "A dedução de 45% é limitada a 9% do salário de contribuição do contribuinte individual (art. 30, § 4º)."
+      },
+      {
+       "trecho": "deverá reter 11% (onze por cento) do valor bruto da nota fiscal",
+       "marcas": [
+        "11% (onze por cento)"
+       ],
+       "afirmacao": "Um hospital contrata empresa de vigilância por cessão de mão de obra e recebe nota de R$ 100 mil. O hospital retém R$ 11 mil e recolhe esse valor em nome da empresa de vigilância.",
+       "gabarito": "C",
+       "porque": "O contratante retém 11% do valor bruto da nota e recolhe em nome da cedente (art. 31), e a vigilância está entre os serviços de cessão de mão de obra (§ 4º, II)."
+      },
+      {
+       "trecho": "relacionados ou não com a atividade-fim da empresa",
+       "marcas": [
+        "relacionados ou não"
+       ],
+       "afirmacao": "Para a Lei 8.212, só há cessão de mão de obra quando os serviços contínuos estão relacionados com a atividade-fim da empresa contratante.",
+       "gabarito": "E",
+       "porque": "Os serviços contínuos podem estar relacionados ou não com a atividade-fim, qualquer que seja a forma de contratação (art. 31, § 3º)."
+      },
+      {
+       "trecho": "aplica-se o disposto no art. 44 da Lei nº 9.430",
+       "marcas": [
+        "art. 44"
+       ],
+       "afirmacao": "No lançamento de ofício das contribuições previdenciárias aplica-se só a multa de mora, vedada a multa de ofício.",
+       "gabarito": "E",
+       "porque": "No lançamento de ofício aplica-se o art. 44 da Lei 9.430/1996, que trata da multa de ofício (art. 35-A). A multa de mora do art. 61 é para o pagamento em atraso sem lançamento de ofício (art. 35)."
+      }
+     ],
+     "conferido": {
+      "Art. 30.": "70c0106819c0",
+      "Art. 31.": "5babdad6b426",
+      "Art. 35.": "bfdc1f4bb782",
+      "Art. 35-A.": "8e40c5fc3812"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STJ · REsp 1.131.047 (recurso repetitivo, 2010)",
+     "texto": "A retenção de 11% sobre a nota na cessão de mão de obra não criou tributo novo; só alterou a forma de recolhimento, e a responsabilidade pelo recolhimento é da empresa tomadora do serviço."
+    }
+   ],
+   "detalhes": [
+    "A empresa não pode alegar que se esqueceu de descontar a contribuição do empregado: o desconto se presume feito, e ela responde pelo valor (art. 33, § 5º).",
+    "Na retenção de 11%, quem responde pelo recolhimento é o contratante; a cedente compensa o valor no recolhimento sobre a própria folha.",
+    "Os acréscimos de mora do art. 35 alcançam as contribuições das empresas, dos empregadores domésticos e dos trabalhadores, as substitutivas e as devidas a terceiros."
+   ],
+   "macetes": [
+    {
+     "sigla": "20 PARA QUEM DESCONTA, 15 PARA QUEM PAGA SOZINHO",
+     "texto": "Empresa, doméstico, adquirente rural e contratante da cessão: dia 20. Contribuinte individual e facultativo: dia 15."
+    },
+    {
+     "sigla": "FERIADO: 15 ADIANTA? NÃO, ATRASA",
+     "texto": "Sem banco no dia 15, paga no dia útil seguinte; sem banco no dia 20, paga no dia útil anterior."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "O adquirente de imóvel que realizou a operação com incorporadora responde solidariamente com o construtor pelas contribuições da obra.",
+    "gabarito": "E",
+    "explicacao": "Esse adquirente fica excluído da solidariedade, que passa à incorporadora ou empresa de comercialização, junto com o construtor (art. 30, VII)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Quando vende a produção a uma cooperativa, o segurado especial recolhe pessoalmente a contribuição sobre a receita bruta.",
+     "certo": "A cooperativa adquirente fica sub-rogada e recolhe a contribuição (art. 30, III e IV); o segurado especial só recolhe nas vendas do inciso X.",
+     "fonte": "Questões do app sobre o art. 30 da Lei 8.212"
+    },
+    {
+     "errado": "Na cessão de mão de obra, a empresa cedente responde supletivamente pelo recolhimento dos 11% se a contratante não o fizer.",
+     "certo": "A responsabilidade pelo recolhimento da retenção é da contratante (art. 31; STJ, REsp 1.131.047).",
+     "fonte": "Questões do app sobre a retenção de 11%"
+    }
+   ],
+   "relacionados": [
+    "obrigacoes-acessorias-fiscalizacao-credito-e-prova-de-regularidade",
+    "contribuicoes-da-empresa-do-empregador-domestico-e-do-produtor-rural"
+   ]
+  },
+  {
+   "slug": "obrigacoes-acessorias-fiscalizacao-credito-e-prova-de-regularidade",
+   "titulo": "Obrigações acessórias, fiscalização, constituição do crédito, Justiça do Trabalho, CND e matrícula",
+   "grupo": "Arrecadação, fiscalização e cobrança",
+   "base": "Arts. 32, 32-A, 32-B, 32-C, 33, 37, 39, 42, 43, 47, 48 e 49 da Lei 8.212/1991",
+   "tax": [],
+   "dispositivos": [
+    "n8212-1991-art-32",
+    "n8212-1991-art-32-a",
+    "n8212-1991-art-32-b",
+    "n8212-1991-art-32-c",
+    "n8212-1991-art-33",
+    "n8212-1991-art-37",
+    "n8212-1991-art-39",
+    "n8212-1991-art-42",
+    "n8212-1991-art-43",
+    "n8212-1991-art-47",
+    "n8212-1991-art-48",
+    "n8212-1991-art-49"
+   ],
+   "conceitos": [
+    "obrigações acessórias da empresa",
+    "declaração de fatos geradores",
+    "multa por atraso na declaração",
+    "informações de órgãos públicos",
+    "sistema do segurado especial",
+    "competência da Receita Federal",
+    "exame da contabilidade",
+    "lançamento de ofício",
+    "aferição indireta",
+    "presunção do desconto",
+    "constituição do crédito",
+    "dívida ativa",
+    "responsabilidade de administradores públicos",
+    "contribuições na Justiça do Trabalho",
+    "Certidão Negativa de Débito",
+    "nulidade do ato sem CND",
+    "matrícula da obra"
+   ],
+   "palavras": [
+    "obrigacoes acessorias",
+    "art 32",
+    "art 32-a",
+    "art 32-b",
+    "art 32-c",
+    "art 33",
+    "art 37",
+    "art 39",
+    "art 42",
+    "art 43",
+    "art 47",
+    "art 48",
+    "art 49",
+    "folha de pagamento",
+    "contabilidade",
+    "declaracao",
+    "gfip",
+    "esocial",
+    "fatos geradores",
+    "instrumento habil e suficiente",
+    "credito tributario",
+    "sem fatos geradores",
+    "certidao de regularidade",
+    "prescricao",
+    "multa vinte reais",
+    "dois por cento ao mes",
+    "vinte por cento",
+    "metade",
+    "setenta e cinco por cento",
+    "duzentos reais",
+    "quinhentos reais",
+    "tribunal de contas",
+    "trinta de abril",
+    "documento unico de arrecadacao",
+    "receita federal",
+    "auditores-fiscais",
+    "exibir documentos",
+    "servidor da justica",
+    "liquidante",
+    "lancar de oficio",
+    "construcao civil",
+    "area construida",
+    "presume",
+    "afericao indireta",
+    "onus da prova",
+    "notificacao de lancamento",
+    "auto de infracao",
+    "confissao",
+    "omissao de receita",
+    "divida ativa",
+    "protesto",
+    "pro solvendo",
+    "administradores",
+    "autarquias",
+    "empresas publicas",
+    "trinta dias",
+    "solidariamente responsaveis",
+    "justica do trabalho",
+    "acordo homologado",
+    "parcelas discriminadas",
+    "valor total",
+    "fato gerador",
+    "data da prestacao do servico",
+    "mes a mes",
+    "aposentadoria especial",
+    "comissoes de conciliacao previa",
+    "cnd",
+    "certidao negativa de debito",
+    "contratacao com o poder publico",
+    "alienacao de imovel",
+    "cento e oitenta dias",
+    "averbacao",
+    "credito rural",
+    "ato nulo",
+    "oficial",
+    "matricula",
+    "obra",
+    "trinta dias do inicio",
+    "juntas comerciais",
+    "cnpj"
+   ],
+   "resumo": "Além de pagar, a empresa tem <strong>obrigações acessórias</strong>: folha de pagamento, contabilidade discriminada, informações à Receita e a declaração mensal de fatos geradores, base de cálculo e valores devidos, que vale como <strong>confissão</strong> e é instrumento suficiente para exigir o crédito. A declaração é devida mesmo sem fato gerador, e sua falta gera multa e impede a certidão de regularidade fiscal. A <strong>Receita Federal</strong> tributa, fiscaliza, arrecada e cobra as contribuições; se a empresa recusar documentos ou tiver contabilidade irreal, a Receita lança de ofício ou apura por aferição indireta, e a prova em contrário cabe à empresa. O crédito se constitui por notificação de lançamento, auto de infração ou confissão. Nas ações trabalhistas, o juiz determina o recolhimento imediato, e o fato gerador é a data da prestação do serviço. A <strong>CND</strong> é exigida para contratar com o Poder Público, alienar ou onerar imóveis e averbar obra, e o ato praticado sem ela é nulo.",
+   "esquema": {
+    "rotulo": "a CND (art. 47)",
+    "html": "<table><thead><tr><th>Quando</th><th>Regra</th></tr></thead><tbody><tr><td><strong>Exigida da empresa</strong></td><td>Contratação com o Poder Público e benefício ou incentivo dele; alienação ou oneração de imóvel ou de móvel do ativo permanente acima do valor legal; registro de baixa, redução de capital, cisão, transformação, extinção ou transferência de controle</td></tr><tr><td><strong>Exigida do proprietário de obra</strong></td><td>Na averbação da obra no registro de imóveis, salvo a casa unifamiliar sem mão de obra assalariada (art. 30, VIII)</td></tr><tr><td><strong>Validade</strong></td><td>Até 180 dias, prorrogável excepcionalmente por ato conjunto da Receita e da PGFN</td></tr><tr><td><strong>Dispensada</strong></td><td>Retificação ou ratificação de ato já provado; garantia de crédito rural do produtor que não recolhe diretamente; obra concluída antes de 22/11/1966; transferências a Municípios para assistência, educação, saúde e calamidade; regularização fundiária de interesse social</td></tr><tr><td><strong>Sem CND</strong></td><td>Ato nulo, com responsabilidade solidária dos contratantes e do oficial (art. 48)</td></tr></tbody></table>"
+   },
+   "figuras": {
+    "titulo": "Cada figura, em uma linha",
+    "linhas": [
+     {
+      "nome": "Declaração do art. 32, IV",
+      "o_que_e": "Informação mensal à Receita e ao Conselho Curador do FGTS de fatos geradores, base de cálculo e valores devidos; constitui o crédito e alimenta a base de dados dos benefícios.",
+      "atencao": "Devida mesmo sem fato gerador no mês."
+     },
+     {
+      "nome": "Aferição indireta",
+      "o_que_e": "Apuração das contribuições por outros elementos quando a contabilidade não registra o movimento real de remuneração, faturamento e lucro.",
+      "atencao": "O ônus da prova em contrário é da empresa."
+     },
+     {
+      "nome": "Lançamento de ofício",
+      "o_que_e": "Constituição do crédito pela própria Receita, por notificação de lançamento ou auto de infração.",
+      "atencao": "Na recusa ou sonegação de documentos, independe de autorização judicial."
+     },
+     {
+      "nome": "Pro solvendo",
+      "o_que_e": "Título recebido em garantia que só extingue a dívida quando efetivamente pago."
+     }
+    ],
+    "colunas": [
+     "Figura",
+     "O que é",
+     "Atenção"
+    ]
+   },
+   "lei": [
+    {
+     "norma": "n8212-1991",
+     "artigos": [
+      "Art. 32.",
+      "Art. 32-A.",
+      "Art. 32-B.",
+      "Art. 32-C.",
+      "Art. 33.",
+      "Art. 37.",
+      "Art. 39.",
+      "Art. 42.",
+      "Art. 43.",
+      "Art. 47.",
+      "Art. 48.",
+      "Art. 49."
+     ],
+     "ref": "arts. 32 a 49 da Lei 8.212/1991",
+     "regras": [
+      "<strong>Art. 32.</strong> A empresa também deve: preparar folhas de pagamento de todos os segurados (I); lançar mensalmente na contabilidade, de forma discriminada, fatos geradores, descontos, contribuições e totais recolhidos (II); prestar à Receita as informações cadastrais, financeiras e contábeis e os esclarecimentos (III); declarar à Receita e ao Conselho Curador do FGTS os fatos geradores, a base de cálculo e os valores devidos (IV); comunicar mensalmente aos empregados os valores recolhidos sobre sua remuneração (VI). O inciso V foi vetado. A declaração do inciso IV é instrumento hábil e suficiente para exigir o crédito e alimenta a base dos benefícios (§ 2º); é devida mesmo sem fato gerador (§ 9º); seu descumprimento impede a certidão de regularidade fiscal (§ 10). Os documentos ficam arquivados até a prescrição dos créditos (§ 11). Os §§ 1º e 3º a 8º foram revogados, e o § 12, vetado.",
+      "<strong>Arts. 32-A e 32-B.</strong> Quem não entrega a declaração no prazo, ou a entrega com erros ou omissões, é intimado e paga multa de R$ 20 por grupo de 10 informações incorretas ou omitidas (I) ou de 2% ao mês sobre as contribuições informadas, ainda que pagas, limitada a 20% (II). A multa do inciso II corre do dia seguinte ao prazo até a entrega ou a autuação (§ 1º) e cai à metade se a declaração vier antes de qualquer procedimento de ofício, ou a 75% se vier no prazo da intimação (§ 2º). A multa mínima é de R$ 200 sem fato gerador e de R$ 500 nos demais casos (§ 3º). Órgãos da administração direta, autarquias, fundações e empresas públicas sujeitos à Lei 4.320/1964 e à LRF apresentam à Receita a contabilidade entregue ao Tribunal de Contas e a folha de pagamento (art. 32-B, I e II), até 30 de abril do ano seguinte (parágrafo único).",
+      "<strong>Art. 32-C.</strong> O segurado especial responsável pelo grupo que contrata trabalhadores presta as informações de registro, fatos geradores e valores devidos à Previdência e ao FGTS por sistema eletrônico de entrada única e recolhe por documento único de arrecadação. Ato conjunto dos Ministros da Fazenda, da Previdência e do Trabalho disciplina o sistema (§ 1º); as informações são declaratórias, bastam para exigir os tributos e substituem as demais declarações do grupo (§ 2º). Ele arrecada até o dia 20 do mês seguinte as contribuições do art. 30, X, XII e XIII, o FGTS e os encargos trabalhistas (§ 3º, I a III), pagos pelo documento único (§ 4º), antecipando para o dia útil anterior sem expediente bancário (§ 5º). Atrasos seguem os acréscimos do Imposto de Renda e, no FGTS, a Lei 8.036/1990 (§ 6º). O FGTS vai direto à conta do trabalhador (§ 7º). O ato conjunto regula compensação e restituição (§ 8º), e o Conselho Curador, a devolução do FGTS (§ 9º). A arrecadação é centralizada na Caixa (§ 10), que transfere os tributos à Conta Única do Tesouro (§ 11). A impossibilidade de usar o sistema é regulamentada (§ 12), a sistemática pode ser estendida ao produtor rural pessoa física (§ 13), e valem o § 2º do art. 32 e o art. 32-A (§ 14).",
+      "<strong>Art. 33.</strong> A Receita Federal planeja, executa, acompanha e avalia a tributação, a fiscalização, a arrecadação, a cobrança e o recolhimento das contribuições do art. 11, parágrafo único, das substitutivas e das devidas a terceiros. O exame da contabilidade é prerrogativa dos Auditores-Fiscais, e segurado e terceiros responsáveis prestam os esclarecimentos (§ 1º). Empresa, segurado, serventuário da Justiça, síndico, comissário e liquidante exibem documentos e livros (§ 2º). Na recusa, sonegação ou apresentação deficiente, a Receita lança de ofício (§ 3º). Sem prova regular dos salários da obra, calcula-se a mão de obra pela área construída, com ônus da prova ao proprietário ou corresponsável (§ 4º). O desconto se presume feito, e a empresa responde pelo que não descontou (§ 5º). Contabilidade irreal leva à aferição indireta, com ônus da prova à empresa (§ 6º). O crédito se constitui por notificação de lançamento, auto de infração ou confissão (§ 7º). Valem as presunções de omissão de receita do Decreto-Lei 1.598/1977 e da Lei 9.430/1996 (§ 8º).",
+      "<strong>Arts. 37, 39 e 42.</strong> Constatada falta de recolhimento de contribuição não declarada, falta de pagamento de benefício reembolsado ou descumprimento de obrigação acessória, lavra-se auto de infração ou notificação de lançamento (art. 37; §§ 1º e 2º revogados). O débito, os acréscimos e as multas constituem dívida ativa da União (art. 39); antes de ajuizar, pode-se protestar título dado em garantia, recebido pro solvendo (§ 2º); e as contribuições declaradas e não pagas nem parceladas são inscritas em dívida ativa (§ 3º; o § 1º foi revogado). Administradores de autarquias, fundações, empresas públicas e sociedades de economia mista em mora por mais de 30 dias tornam-se solidariamente responsáveis e sujeitos às sanções do Decreto-Lei 368/1968 (art. 42).",
+      "<strong>Art. 43.</strong> Nas ações trabalhistas que resultem em pagamento de verbas sujeitas a contribuição, o juiz determina, sob pena de responsabilidade, o recolhimento imediato. Sem discriminação das parcelas na sentença ou no acordo, a contribuição incide sobre o valor total (§ 1º). O fato gerador é a data da prestação do serviço (§ 2º), e as contribuições são apuradas mês a mês, com as alíquotas, tetos e acréscimos de cada competência, recolhidas no prazo dos créditos ou nas parcelas do acordo (§ 3º). Reconhecida judicialmente atividade especial, são devidos os acréscimos do art. 57, § 6º, da Lei 8.213 (§ 4º). No acordo após decisão de mérito, a base é o valor do acordo (§ 5º). A regra vale para as Comissões de Conciliação Prévia (§ 6º).",
+      "<strong>Arts. 47 e 48.</strong> Casos de exigência, validade e dispensa da CND: veja o esquema (art. 47, I, a a d, II, §§ 5º e 6º, a a e). A prova vale para todas as dependências, estabelecimentos e obras da empresa, ressalvada a cobrança posterior (§ 1º); para o incorporador, independe da apresentada no memorial de incorporação (§ 2º); basta citar número e data da certidão, guardando-a (§ 3º); pode ser cópia autenticada, salvo na averbação de obra (§ 4º); o condômino de obra não incorporada pode obtê-la provando o pagamento da sua unidade (§ 7º; o § 8º foi revogado). O ato praticado ou registrado sem a prova é nulo, com responsabilidade solidária dos contratantes e do oficial (art. 48). O órgão pode autorizar a lavratura se o débito for pago no ato ou confessado com garantias reais (§ 1º); o INSS pode autorizar a venda de bens de empresa em liquidação extrajudicial se o crédito constar do quadro geral de credores (§ 2º); servidor, serventuário e titular de serventia que descumprirem o art. 47 pagam multa, sem prejuízo de outras responsabilidades (§ 3º).",
+      "<strong>Art. 49.</strong> A matrícula da empresa segue as normas da Receita (incisos I e II revogados). A obra de construção civil é matriculada por comunicação do responsável em 30 dias do início, com número cadastral permanente (§ 1º; alíneas revogadas), sob pena de multa (§ 3º; o § 2º foi revogado). Juntas Comerciais e cartórios de pessoas jurídicas informam os atos constitutivos e alterações (§ 4º). A matrícula do produtor rural pessoa física ou segurado especial substitui o CNPJ nas relações com o Poder Público, bancos, compradores e fornecedores (§ 5º), salvo para produto sujeito a IPI ou quem deva ter CNPJ (§ 6º)."
+     ],
+     "literalidades": [
+      {
+       "trecho": "constitui instrumento hábil e suficiente para a exigência do crédito tributário",
+       "marcas": [
+        "hábil e suficiente"
+       ],
+       "afirmacao": "Uma empresa declara à Receita os valores devidos de contribuição previdenciária, mas não paga. A Receita pode exigir o crédito com base na própria declaração, sem novo lançamento.",
+       "gabarito": "C",
+       "porque": "A declaração do art. 32, IV, é instrumento hábil e suficiente para a exigência do crédito tributário (art. 32, § 2º)."
+      },
+      {
+       "trecho": "ainda que não ocorram fatos geradores de contribuição previdenciária",
+       "marcas": [
+        "ainda que não ocorram"
+       ],
+       "afirmacao": "A empresa fica dispensada de apresentar a declaração de fatos geradores nos meses em que não houver fato gerador de contribuição previdenciária.",
+       "gabarito": "E",
+       "porque": "A declaração é devida ainda que não ocorram fatos geradores, sob pena da multa do art. 32-A (art. 32, § 9º)."
+      },
+      {
+       "trecho": "limitada a 20% (vinte por cento)",
+       "marcas": [
+        "20% (vinte por cento)"
+       ],
+       "afirmacao": "Na falta de entrega da declaração do art. 32, IV, a multa de 2% ao mês sobre as contribuições informadas é ilimitada enquanto durar o atraso.",
+       "gabarito": "E",
+       "porque": "A multa de 2% ao mês-calendário ou fração é limitada a 20% (art. 32-A, II)."
+      },
+      {
+       "trecho": "À Secretaria da Receita Federal do Brasil compete planejar, executar, acompanhar e avaliar",
+       "marcas": [
+        "Secretaria da Receita Federal do Brasil"
+       ],
+       "afirmacao": "Compete ao INSS planejar, executar e avaliar a fiscalização, a arrecadação e a cobrança das contribuições sobre a folha de salários.",
+       "gabarito": "E",
+       "porque": "Essas atividades competem à Secretaria da Receita Federal do Brasil (art. 33, caput)."
+      },
+      {
+       "trecho": "pode, sem prejuízo da penalidade cabível, lançar de ofício a importância devida",
+       "marcas": [
+        "lançar de ofício"
+       ],
+       "afirmacao": "Havendo recusa ou sonegação de documento pela empresa, a Receita Federal deve requerer ao juiz autorização para lançar a importância devida.",
+       "gabarito": "E",
+       "porque": "A própria Receita pode lançar de ofício a importância devida, sem autorização judicial (art. 33, § 3º)."
+      },
+      {
+       "trecho": "sempre se presume feito oportuna e regularmente pela empresa a isso obrigada",
+       "marcas": [
+        "sempre se presume"
+       ],
+       "afirmacao": "Uma empresa paga o salário de um empregado sem descontar a contribuição dele. Na cobrança, ela não pode alegar que não descontou: responde pelo valor como se o desconto tivesse sido feito.",
+       "gabarito": "C",
+       "porque": "O desconto se presume feito oportuna e regularmente, e a empresa não pode alegar omissão para se eximir do recolhimento (art. 33, § 5º)."
+      },
+      {
+       "trecho": "que se encontrarem em mora, por mais de 30 (trinta) dias",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "Os administradores de autarquias e empresas públicas em mora há mais de 90 dias no recolhimento das contribuições tornam-se solidariamente responsáveis pelo pagamento.",
+       "gabarito": "E",
+       "porque": "O prazo é de mais de 30 dias de mora (art. 42 da Lei 8.212)."
+      },
+      {
+       "trecho": "estas incidirão sobre o valor total apurado em liquidação de sentença ou sobre o valor do acordo homologado",
+       "marcas": [
+        "valor total"
+       ],
+       "afirmacao": "Se o acordo homologado na Justiça do Trabalho não discriminar as parcelas sujeitas à contribuição, presume-se que todas têm natureza indenizatória.",
+       "gabarito": "E",
+       "porque": "Sem discriminação das parcelas, a contribuição incide sobre o valor total do acordo ou da liquidação (art. 43, § 1º)."
+      },
+      {
+       "trecho": "Considera-se ocorrido o fato gerador das contribuições sociais na data da prestação do serviço",
+       "marcas": [
+        "data da prestação do serviço"
+       ],
+       "afirmacao": "Uma sentença trabalhista de 2025 reconhece horas extras de 2021. Para a contribuição previdenciária, o fato gerador ocorreu em 2021, nas competências em que o serviço foi prestado.",
+       "gabarito": "C",
+       "porque": "O fato gerador é a data da prestação do serviço, e a apuração é feita mês a mês (art. 43, §§ 2º e 3º)."
+      },
+      {
+       "trecho": "sendo o ato nulo para todos os efeitos",
+       "marcas": [
+        "nulo para todos os efeitos"
+       ],
+       "afirmacao": "Uma empresa com débito previdenciário vende um imóvel sem apresentar a prova de inexistência de débito exigida. O ato é nulo, e o oficial que o registrou responde solidariamente.",
+       "gabarito": "C",
+       "porque": "O ato praticado ou registrado sem a prova do art. 47 é nulo, com responsabilidade solidária dos contratantes e do oficial (art. 48)."
+      },
+      {
+       "trecho": "no prazo de 30 (trinta) dias, contado do início de suas atividades",
+       "marcas": [
+        "30 (trinta) dias"
+       ],
+       "afirmacao": "A matrícula da obra de construção civil deve ser feita pelo responsável por sua execução no prazo de 90 dias, contado do início de suas atividades.",
+       "gabarito": "E",
+       "porque": "O prazo é de 30 dias do início das atividades (art. 49, § 1º)."
+      },
+      {
+       "trecho": "será de até 180 (cento e oitenta) dias, contado da data de emissão da certidão",
+       "marcas": [
+        "180 (cento e oitenta) dias"
+       ],
+       "afirmacao": "A certidão de regularidade expedida em conjunto pela Receita Federal e pela PGFN vale por até 180 dias contados da emissão, prorrogáveis excepcionalmente por ato conjunto.",
+       "gabarito": "C",
+       "porque": "É o prazo do art. 47, § 5º, da Lei 8.212."
+      }
+     ],
+     "conferido": {
+      "Art. 32.": "f10a1adc10bd",
+      "Art. 32-A.": "1b65769ba212",
+      "Art. 32-B.": "933d224ac0e2",
+      "Art. 32-C.": "237340ed4342",
+      "Art. 33.": "e966e09657b5",
+      "Art. 37.": "8044bf93b9c0",
+      "Art. 39.": "03f1c7845652",
+      "Art. 42.": "efe65e4dfde9",
+      "Art. 43.": "8ec39b70cf36",
+      "Art. 47.": "114f20b34791",
+      "Art. 48.": "8f84234c50db",
+      "Art. 49.": "45b81ab3baac"
+     },
+     "fonte": "Lei 8.212/1991 (Lei Orgânica da Seguridade Social e Plano de Custeio), texto atualizado da Câmara dos Deputados",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1991/lei-8212-24-julho-1991-363647-normaatualizada-pl.html"
+    }
+   ],
+   "juris": [
+    {
+     "quem": "STF · Súmula Vinculante 8",
+     "texto": "São inconstitucionais o parágrafo único do art. 5º do Decreto-Lei 1.569/1977 e os arts. 45 e 46 da Lei 8.212/1991, que tratavam de prescrição e decadência de crédito tributário. As contribuições seguem os prazos de 5 anos do CTN."
+    },
+    {
+     "quem": "STF · Súmula Vinculante 53",
+     "texto": "A competência da Justiça do Trabalho do art. 114, VIII, da Constituição alcança a execução de ofício das contribuições previdenciárias relativas ao objeto da condenação das sentenças que proferir e dos acordos que homologar."
+    }
+   ],
+   "detalhes": [
+    "Como a SV 8 derrubou os prazos de 10 anos dos arts. 45 e 46, a Lei 8.212 hoje não tem prazo próprio: decadência e prescrição das contribuições seguem o CTN (5 anos).",
+    "A Justiça do Trabalho não executa de ofício contribuições de todo o vínculo reconhecido na sentença sem condenação em dinheiro: só as relativas ao objeto da condenação ou do acordo (SV 53).",
+    "A obrigação de exibir documentos alcança o serventuário da Justiça, o síndico, o comissário e o liquidante de empresa em liquidação judicial ou extrajudicial (art. 33, § 2º).",
+    "Na obra sem prova regular dos salários, o cálculo da mão de obra é proporcional à área construída, e não ao valor venal do imóvel (art. 33, § 4º)."
+   ],
+   "macetes": [
+    {
+     "sigla": "NOTIFICAÇÃO, AUTO OU CONFISSÃO",
+     "texto": "Três formas de constituir o crédito da seguridade (art. 33, § 7º)."
+    },
+    {
+     "sigla": "30, 30 E 180",
+     "texto": "Administrador público em mora por mais de 30 dias responde; obra se matricula em 30 dias; certidão vale até 180 dias."
+    }
+   ],
+   "pegadinha": {
+    "afirmacao": "Constatado que a contabilidade não registra o movimento real de remuneração, a fiscalização apura as contribuições por aferição indireta, cabendo ao fisco provar o valor exato devido.",
+    "gabarito": "E",
+    "explicacao": "Na aferição indireta, o ônus da prova em contrário é da empresa (art. 33, § 6º)."
+   },
+   "pegadinhas": [
+    {
+     "errado": "Na falta de prova regular dos salários da obra, o montante é obtido pelo valor venal do imóvel, com ônus da prova ao fisco.",
+     "certo": "É obtido pelo cálculo da mão de obra proporcional à área construída, com ônus da prova ao proprietário, dono da obra, condômino ou corresponsável (art. 33, § 4º).",
+     "fonte": "Questões do app sobre o art. 33 da Lei 8.212"
+    },
+    {
+     "errado": "Nas ações trabalhistas, o fato gerador das contribuições ocorre na data do trânsito em julgado da sentença.",
+     "certo": "Ocorre na data da prestação do serviço (art. 43, § 2º).",
+     "fonte": "Questões do app sobre o art. 43 da Lei 8.212"
+    },
+    {
+     "errado": "Independe de CND a alienação de qualquer imóvel da empresa, desde que a escritura cite o débito.",
+     "certo": "A alienação ou oneração de imóvel pela empresa exige CND (art. 47, I, b), e o ato sem ela é nulo (art. 48).",
+     "fonte": "Questões do app sobre os arts. 47 e 48 da Lei 8.212"
+    }
+   ],
+   "relacionados": [
+    "arrecadacao-e-recolhimento-das-contribuicoes",
+    "salario-de-contribuicao-e-contribuicao-dos-segurados"
+   ]
   }
  ]
 }
